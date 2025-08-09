@@ -167,6 +167,19 @@ def load_config() -> dict:
         "enabled": os.getenv("INSTAPAPER_INGESTOR_ENABLED", "true").lower() == "true",
     }
 
+    # Document processing configuration
+    config["document_output_path"] = os.getenv("DOCUMENT_OUTPUT_PATH", os.path.join(data_directory, "documents"))
+    config["temp_directory"] = os.getenv("TEMP_DIRECTORY", "temp")
+    config["document_processing"] = {
+        "strategy": os.getenv("DOCUMENT_STRATEGY", "auto"),
+        "extract_images": os.getenv("DOCUMENT_EXTRACT_IMAGES", "false").lower() == "true",
+        "extract_tables": os.getenv("DOCUMENT_EXTRACT_TABLES", "true").lower() == "true",
+        "ocr_languages": os.getenv("DOCUMENT_OCR_LANGUAGES", "eng").split(","),
+        "max_characters": int(os.getenv("DOCUMENT_MAX_CHARACTERS", "1500")),
+        "new_after_n_chars": int(os.getenv("DOCUMENT_NEW_AFTER_N_CHARS", "1000")),
+        "overlap": int(os.getenv("DOCUMENT_OVERLAP", "200")),
+    }
+
     # Validate the configuration with enhanced validation
     from helpers.validate import ConfigValidator, validate_config_enhanced
 

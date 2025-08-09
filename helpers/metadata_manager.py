@@ -24,6 +24,7 @@ class ContentType(Enum):
     PODCAST = "podcast"
     YOUTUBE = "youtube"
     INSTAPAPER = "instapaper"
+    DOCUMENT = "document"
 
 
 class ProcessingStatus(Enum):
@@ -263,6 +264,9 @@ class MetadataManager:
             ),
             ContentType.INSTAPAPER: self.config.get(
                 "article_output_path", os.path.join(self.data_directory, "articles")
+            ),
+            ContentType.DOCUMENT: self.config.get(
+                "document_output_path", os.path.join(self.data_directory, "documents")
             ),
         }
         return type_mapping[content_type]

@@ -72,6 +72,9 @@ class PathManager:
             ContentType.INSTAPAPER: config.get(
                 "article_output_path", os.path.join(self.data_directory, "articles")
             ),
+            ContentType.DOCUMENT: config.get(
+                "document_output_path", os.path.join(self.data_directory, "documents")
+            ),
         }
 
         # Path templates for different content types
@@ -98,6 +101,12 @@ class PathManager:
                 PathType.TRANSCRIPT: "transcripts/{uid}.txt",
                 PathType.LOG: "ingest.log",
                 PathType.EVALUATION: "../evaluation/youtube/{uid}.eval.json",
+            },
+            ContentType.DOCUMENT: {
+                PathType.METADATA: "metadata/{uid}.json",
+                PathType.MARKDOWN: "markdown/{uid}.md",
+                PathType.LOG: "ingest.log",
+                PathType.EVALUATION: "../evaluation/documents/{uid}.eval.json",
             },
         }
 
