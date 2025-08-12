@@ -6,15 +6,10 @@ from unittest.mock import patch
 import pytest
 
 from helpers.metadata_manager import ContentType
-from helpers.path_manager import (
-    PathManager,
-    PathSet,
-    PathType,
-    create_path_manager,
-    ensure_content_directories,
-    get_content_paths,
-    get_log_path,
-)
+from helpers.path_manager import (PathManager, PathSet, PathType,
+                                  create_path_manager,
+                                  ensure_content_directories,
+                                  get_content_paths, get_log_path)
 
 
 @pytest.fixture
@@ -173,7 +168,7 @@ class TestPathManager:
         assert os.path.exists(os.path.join(base_dir, "audio"))
         assert os.path.exists(os.path.join(base_dir, "transcripts"))
 
-    @patch('os.makedirs', side_effect=OSError("Permission denied"))
+    @patch("os.makedirs", side_effect=OSError("Permission denied"))
     def test_ensure_directories_os_error(self, mock_makedirs, path_manager):
         """Test ensure_directories with OS error."""
         result = path_manager.ensure_directories(ContentType.ARTICLE)
@@ -200,7 +195,9 @@ class TestPathManager:
         temp_path_suffix = path_manager.get_temp_path(
             ContentType.ARTICLE, "test_uid", ".tmp"
         )
-        expected_suffix = os.path.join(str(tmp_path), "articles", "temp", "test_uid.tmp")
+        expected_suffix = os.path.join(
+            str(tmp_path), "articles", "temp", "test_uid.tmp"
+        )
         assert temp_path_suffix == expected_suffix
 
     def test_cleanup_temp_files_specific_uid(self, path_manager, tmp_path):
@@ -208,20 +205,20 @@ class TestPathManager:
         # Create temp files
         temp_dir = os.path.join(str(tmp_path), "articles", "temp")
         os.makedirs(temp_dir, exist_ok=True)
-        
+
         # Create test files
         test_file1 = os.path.join(temp_dir, "test_uid_1.tmp")
         test_file2 = os.path.join(temp_dir, "test_uid_2.tmp")
         other_file = os.path.join(temp_dir, "other_uid.tmp")
-        
+
         for file_path in [test_file1, test_file2, other_file]:
-            with open(file_path, 'w') as f:
+            with open(file_path, "w") as f:
                 f.write("test")
-        
+
         # Cleanup specific UID
         result = path_manager.cleanup_temp_files(ContentType.ARTICLE, "test_uid")
         assert result is True
-        
+
         # Check that only test_uid files were removed
         assert not os.path.exists(test_file1)
         assert not os.path.exists(test_file2)
@@ -232,15 +229,15 @@ class TestPathManager:
         # Create temp files
         temp_dir = os.path.join(str(tmp_path), "articles", "temp")
         os.makedirs(temp_dir, exist_ok=True)
-        
+
         test_file = os.path.join(temp_dir, "test.tmp")
-        with open(test_file, 'w') as f:
+        with open(test_file, "w") as f:
             f.write("test")
-        
+
         # Cleanup all files
         result = path_manager.cleanup_temp_files(ContentType.ARTICLE)
         assert result is True
-        
+
         # Check that temp directory exists but is empty
         assert os.path.exists(temp_dir)
         assert len(os.listdir(temp_dir)) == 0
@@ -256,11 +253,11 @@ class TestPathManager:
         temp_dir = os.path.join(str(tmp_path), "articles", "temp")
         os.makedirs(temp_dir, exist_ok=True)
         temp_file = os.path.join(temp_dir, "test.tmp")
-        with open(temp_file, 'w') as f:
+        with open(temp_file, "w") as f:
             f.write("test")
-        
+
         # Mock shutil.rmtree to raise an error
-        with patch('shutil.rmtree', side_effect=OSError("Permission denied")):
+        with patch("shutil.rmtree", side_effect=OSError("Permission denied")):
             result = path_manager.cleanup_temp_files(ContentType.ARTICLE)
             assert result is False
 
@@ -301,7 +298,7 @@ class TestPathManager:
         invalid_path = "/completely/different/path/file.txt"
         assert path_manager.validate_path(invalid_path) is False
 
-    @patch('os.path.abspath', side_effect=OSError("Path error"))
+    @patch("os.path.abspath", side_effect=OSError("Path error"))
     def test_validate_path_os_error(self, mock_abspath, path_manager):
         """Test validate_path with OS error."""
         result = path_manager.validate_path("/some/path")
@@ -312,21 +309,21 @@ class TestPathManager:
         # Create metadata directory and files
         metadata_dir = os.path.join(str(tmp_path), "articles", "metadata")
         os.makedirs(metadata_dir, exist_ok=True)
-        
+
         # Create test metadata files
         for uid in ["uid1", "uid2", "uid3"]:
             metadata_file = os.path.join(metadata_dir, f"{uid}.json")
-            with open(metadata_file, 'w') as f:
+            with open(metadata_file, "w") as f:
                 f.write('{"test": "data"}')
-        
+
         # Also create a non-json file that should be ignored
         non_json_file = os.path.join(metadata_dir, "readme.txt")
-        with open(non_json_file, 'w') as f:
+        with open(non_json_file, "w") as f:
             f.write("readme")
-        
+
         path_sets = path_manager.get_all_content_paths(ContentType.ARTICLE)
         assert len(path_sets) == 3
-        
+
         uids = [ps.uid for ps in path_sets]
         assert "uid1" in uids
         assert "uid2" in uids
@@ -342,29 +339,29 @@ class TestPathManager:
         # Create old directory with content
         old_dir = os.path.join(str(tmp_path), "old_articles")
         os.makedirs(old_dir, exist_ok=True)
-        
+
         # Create subdirectories and files
         metadata_dir = os.path.join(old_dir, "metadata")
         os.makedirs(metadata_dir, exist_ok=True)
-        
+
         test_file = os.path.join(metadata_dir, "test.json")
-        with open(test_file, 'w') as f:
+        with open(test_file, "w") as f:
             f.write('{"test": "data"}')
-        
+
         # Also create a standalone file
         standalone_file = os.path.join(old_dir, "ingest.log")
-        with open(standalone_file, 'w') as f:
+        with open(standalone_file, "w") as f:
             f.write("log data")
-        
+
         # Migrate to new directory
         new_dir = os.path.join(str(tmp_path), "new_articles")
         result = path_manager.migrate_paths(old_dir, new_dir, ContentType.ARTICLE)
         assert result is True
-        
+
         # Check that content was copied
         assert os.path.exists(os.path.join(new_dir, "metadata", "test.json"))
         assert os.path.exists(os.path.join(new_dir, "ingest.log"))
-        
+
         # Check that type directory was updated
         assert path_manager.type_directories[ContentType.ARTICLE] == new_dir
 
@@ -372,20 +369,20 @@ class TestPathManager:
         """Test migrate_paths when old directory doesn't exist."""
         old_dir = os.path.join(str(tmp_path), "nonexistent")
         new_dir = os.path.join(str(tmp_path), "new")
-        
+
         result = path_manager.migrate_paths(old_dir, new_dir, ContentType.ARTICLE)
         assert result is True  # Should succeed when source doesn't exist
 
-    @patch('shutil.copytree', side_effect=OSError("Permission denied"))
+    @patch("shutil.copytree", side_effect=OSError("Permission denied"))
     def test_migrate_paths_os_error(self, mock_copytree, path_manager, tmp_path):
         """Test migrate_paths with OS error."""
         old_dir = os.path.join(str(tmp_path), "old")
         os.makedirs(old_dir, exist_ok=True)
-        
+
         # Create a subdirectory to trigger copytree
         sub_dir = os.path.join(old_dir, "metadata")
         os.makedirs(sub_dir, exist_ok=True)
-        
+
         new_dir = os.path.join(str(tmp_path), "new")
         result = path_manager.migrate_paths(old_dir, new_dir, ContentType.ARTICLE)
         assert result is False
@@ -411,36 +408,36 @@ class TestPathManager:
         # Create content files
         path_set = path_manager.get_path_set(ContentType.ARTICLE, "test_uid")
         path_set.ensure_directories()
-        
+
         # Create test files
         metadata_path = path_set.get_path(PathType.METADATA)
         markdown_path = path_set.get_path(PathType.MARKDOWN)
-        
-        with open(metadata_path, 'w') as f:
+
+        with open(metadata_path, "w") as f:
             f.write('{"test": "metadata"}')
-        with open(markdown_path, 'w') as f:
+        with open(markdown_path, "w") as f:
             f.write("# Test Markdown")
-        
+
         # Create backup
         backup_dir = path_manager.create_backup(ContentType.ARTICLE, "test_uid")
         assert backup_dir is not None
         assert os.path.exists(backup_dir)
-        
+
         # Check that files were backed up
         assert os.path.exists(os.path.join(backup_dir, "test_uid.json"))
         assert os.path.exists(os.path.join(backup_dir, "test_uid.md"))
 
-    @patch('shutil.copy2', side_effect=OSError("Permission denied"))
+    @patch("shutil.copy2", side_effect=OSError("Permission denied"))
     def test_create_backup_os_error(self, mock_copy, path_manager, tmp_path):
         """Test create_backup with OS error."""
         # Create a content file
         path_set = path_manager.get_path_set(ContentType.ARTICLE, "test_uid")
         path_set.ensure_directories()
-        
+
         metadata_path = path_set.get_path(PathType.METADATA)
-        with open(metadata_path, 'w') as f:
+        with open(metadata_path, "w") as f:
             f.write('{"test": "data"}')
-        
+
         result = path_manager.create_backup(ContentType.ARTICLE, "test_uid")
         assert result is None
 
@@ -460,7 +457,7 @@ class TestPathSet:
             base_dir="/base",
             paths=paths,
         )
-        
+
         assert path_set.uid == "test_uid"
         assert path_set.content_type == ContentType.ARTICLE
         assert path_set.base_dir == "/base"
@@ -480,13 +477,13 @@ class TestPathSet:
             base_dir=str(tmp_path),
             paths=paths,
         )
-        
+
         result = path_set.ensure_directories()
         assert result is True
         assert os.path.exists(os.path.join(str(tmp_path), "meta"))
         assert os.path.exists(os.path.join(str(tmp_path), "md"))
 
-    @patch('os.makedirs', side_effect=OSError("Permission denied"))
+    @patch("os.makedirs", side_effect=OSError("Permission denied"))
     def test_ensure_directories_os_error(self, mock_makedirs):
         """Test ensure_directories with OS error."""
         paths = {PathType.METADATA: "/invalid/path/test.json"}
@@ -496,7 +493,7 @@ class TestPathSet:
             base_dir="/base",
             paths=paths,
         )
-        
+
         result = path_set.ensure_directories()
         assert result is False
 

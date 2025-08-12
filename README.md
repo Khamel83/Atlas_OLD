@@ -145,22 +145,8 @@ echo "https://youtube.com/watch?v=example1" >> inputs/youtube.txt
 ```
 
 ### Output Structure
-```
-output/
-├── articles/
-│   ├── metadata/     # JSON metadata for each article
-│   ├── markdown/     # Clean markdown content
-│   ├── html/         # Original HTML (if available)
-│   └── backups/      # Content backups
-├── youtube/
-│   ├── metadata/     # Video metadata
-│   ├── transcripts/  # Video transcripts
-│   └── markdown/     # Processed content
-└── podcasts/
-    ├── metadata/     # Episode metadata
-    ├── audio/        # Downloaded audio files
-    └── transcripts/  # Audio transcripts
-```
+
+The output structure is defined in the `.env.template` file. By default, it creates a comprehensive directory structure under the `output/` directory, with separate folders for different content types, metadata, transcripts, and other data.
 
 ## 📋 Setup Requirements
 
@@ -183,21 +169,20 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # Configure
-cp env.template .env
+cp .env.template .env
 ```
 
 ### Configuration
 Minimum `.env` setup:
 ```env
-DATA_DIRECTORY=output
-TRANSCRIBE_ENABLED=false
+# No mandatory configuration needed to run the application
+# but for full AI features, you'll need an OpenRouter API key
+OPENROUTER_API_KEY=your_api_key_here
 ```
 
 For full AI features:
 ```env
-DATA_DIRECTORY=output
 OPENROUTER_API_KEY=your_api_key_here
-TRANSCRIBE_ENABLED=true
 MODEL=google/gemini-2.0-flash-lite-001
 ```
 

@@ -31,26 +31,20 @@ Create your configuration file from the template:
 
 ```bash
 # Copy the template to create your config file
-cp env.template .env
+cp .env.template .env
 ```
 
 Open the `.env` file in a text editor and configure at minimum:
 
 ```env
-# Required: Where to store processed content
-DATA_DIRECTORY=output
-
 # Optional but recommended: For AI features
 OPENROUTER_API_KEY=your_api_key_here
-
-# Optional: Enable transcription
-TRANSCRIBE_ENABLED=true
 ```
 
 **Important**: 
 - For full AI-powered features, you'll need an OpenRouter API key
 - Without an API key, basic content ingestion will still work
-- See `env.template` for all available configuration options
+- See `.env.template` for all available configuration options
 
 ## 3. Set Up Input Files
 
@@ -174,7 +168,7 @@ cat inputs/articles.txt
 ### Getting Help
 
 1. Check the full documentation in `docs/`
-2. Review configuration options in `env.template`
+2. Review configuration options in `.env.example`
 3. Run with verbose logging: `LOG_LEVEL=DEBUG python run.py --articles`
 4. Check the troubleshooting guide: `docs/environment-troubleshooting.md`
 

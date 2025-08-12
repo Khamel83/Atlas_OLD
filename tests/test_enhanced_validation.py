@@ -12,12 +12,9 @@ from unittest.mock import MagicMock, patch
 
 import pytest
 
-from helpers.validate import (
-    ConfigValidator,
-    ValidationError,
-    print_validation_report,
-    validate_config_enhanced,
-)
+from helpers.validate import (ConfigValidator, ValidationError,
+                              print_validation_report,
+                              validate_config_enhanced)
 
 
 class TestConfigValidator:

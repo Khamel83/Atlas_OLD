@@ -1,14 +1,9 @@
 import unittest
 from unittest.mock import MagicMock, patch
 
-from helpers.metadata_manager import (
-    ContentMetadata,
-    ContentType,
-    FetchAttempt,
-    FetchDetails,
-    MetadataManager,
-    ProcessingStatus,
-)
+from helpers.metadata_manager import (ContentMetadata, ContentType,
+                                      FetchAttempt, FetchDetails,
+                                      MetadataManager, ProcessingStatus)
 
 
 class TestMetadataManager(unittest.TestCase):

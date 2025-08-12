@@ -23,15 +23,64 @@ import shutil
 import subprocess
 import sys
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple, TypedDict
+
+
+class PythonVersionResult(TypedDict):
+    status: str
+    details: Dict[str, Any]
+
+
+class PackagesResult(TypedDict):
+    status: str
+    details: Dict[str, Any]
+
+
+class SystemDependenciesResult(TypedDict):
+    status: str
+    details: Dict[str, Any]
+
+
+class ConfigurationResult(TypedDict):
+    status: str
+    details: Dict[str, Any]
+
+
+class DirectoriesResult(TypedDict):
+    status: str
+    details: Dict[str, Any]
+
+
+class PermissionsResult(TypedDict):
+    status: str
+    details: Dict[str, Any]
+
+
+class OverallResult(TypedDict):
+    status: str
+    issues: List[Dict[str, Any]]
+    suggestions: List[str]
+    failed_categories: List[str]
+    total_issues: int
+
+
+class ValidationResults(TypedDict):
+    python_version: PythonVersionResult
+    required_packages: PackagesResult
+    optional_packages: PackagesResult
+    system_dependencies: SystemDependenciesResult
+    configuration: ConfigurationResult
+    directories: DirectoriesResult
+    permissions: PermissionsResult
+    overall: OverallResult
 
 
 class DependencyValidator:
     """Validates Atlas dependencies with helpful error messages."""
 
-    def __init__(self, project_root: Path = None):
+    def __init__(self, project_root: Optional[Path] = None):
         self.project_root = project_root or Path(__file__).parent.parent
-        self.results = {
+        self.results: ValidationResults = {
             "python_version": {"status": "unknown", "details": {}},
             "required_packages": {"status": "unknown", "details": {}},
             "optional_packages": {"status": "unknown", "details": {}},
@@ -39,7 +88,7 @@ class DependencyValidator:
             "configuration": {"status": "unknown", "details": {}},
             "directories": {"status": "unknown", "details": {}},
             "permissions": {"status": "unknown", "details": {}},
-            "overall": {"status": "unknown", "issues": [], "suggestions": []},
+            "overall": {"status": "unknown", "issues": [], "suggestions": [], "failed_categories": [], "total_issues": 0},
         }
 
         # Required Python packages from requirements.txt

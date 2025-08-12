@@ -11,7 +11,6 @@ from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse
 from fastapi.templating import Jinja2Templates
 
 from ask.insights.pattern_detector import PatternDetector
-
 # --- Cognitive Amplification (Ask) Subsystem Endpoints ---
 from ask.proactive.surfacer import ProactiveSurfacer
 from ask.recall.recall_engine import RecallEngine

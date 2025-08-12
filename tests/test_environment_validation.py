@@ -23,13 +23,8 @@ import pytest
 import yaml
 
 # Import the configuration module being tested
-from helpers.config import (
-    get_config,
-    get_model_for_task,
-    is_feature_enabled,
-    load_categories,
-    load_config,
-)
+from helpers.config import (get_config, get_model_for_task, is_feature_enabled,
+                            load_categories, load_config)
 
 
 class TestEnvironmentValidation:

@@ -15,7 +15,10 @@ from readability import Document
 from helpers.article_strategies import ArticleFetcher
 from helpers.config import load_config
 from helpers.evaluation_utils import EvaluationFile
-from helpers.utils import calculate_hash, generate_markdown_summary, log_error, log_info
+from helpers.metadata_manager import MetadataManager, ContentType, ProcessingStatus
+from helpers.retry_queue import enqueue
+from helpers.utils import (calculate_hash, generate_markdown_summary,
+                           log_error, log_info)
 from process.evaluate import classify_content, extract_entities, summarize_text
 
 # --- Constants ---
@@ -373,6 +376,7 @@ def fetch_and_save_article(url: str, config: dict) -> bool:
     os.makedirs(meta_save_dir, exist_ok=True)
     os.makedirs(md_save_dir, exist_ok=True)
 
+    # Keep old meta dict for compatibility, convert to ContentMetadata at end
     meta = {
         "title": None,
         "source": url,
@@ -391,6 +395,61 @@ def fetch_and_save_article(url: str, config: dict) -> bool:
             "fetch_time": None,
         },
     }
+    
+    # Initialize MetadataManager for proper saving
+    metadata_manager = MetadataManager(config)
+    
+    def convert_meta_to_content_metadata(meta_dict, file_id):
+        """Convert old meta dict to ContentMetadata format."""
+        from helpers.metadata_manager import FetchDetails, FetchAttempt
+        
+        # Convert status string to ProcessingStatus enum
+        status_map = {
+            "started": ProcessingStatus.STARTED,
+            "success": ProcessingStatus.SUCCESS,
+            "error": ProcessingStatus.ERROR,
+            "pending": ProcessingStatus.PENDING,
+            "retry": ProcessingStatus.RETRY,
+            "skipped": ProcessingStatus.SKIPPED
+        }
+        
+        # Create FetchDetails from the old format
+        fetch_details = FetchDetails(
+            attempts=[],  # Could convert from attempts list if needed
+            successful_method=meta_dict["fetch_details"].get("successful_method"),
+            is_truncated=meta_dict["fetch_details"].get("is_truncated", False),
+            total_attempts=meta_dict["fetch_details"].get("total_attempts", 0),
+            fetch_time=meta_dict["fetch_details"].get("fetch_time")
+        )
+        
+        # Create ContentMetadata
+        metadata = metadata_manager.create_metadata(
+            content_type=ContentType.ARTICLE,
+            source=meta_dict["source"],
+            title=meta_dict["title"] or "[no-title]"
+        )
+        
+        # Set additional fields
+        metadata.uid = file_id
+        metadata.status = status_map.get(meta_dict["status"], ProcessingStatus.PENDING)
+        metadata.error = meta_dict.get("error")
+        metadata.content_path = meta_dict.get("content_path")
+        metadata.tags = meta_dict.get("tags", [])
+        metadata.notes = meta_dict.get("notes", [])
+        metadata.fetch_method = meta_dict.get("fetch_method", "unknown")
+        metadata.fetch_details = fetch_details
+        metadata.date = meta_dict["date"]
+        
+        # Add any additional fields from meta to type_specific
+        metadata.type_specific.update({
+            "category_version": meta_dict.get("category_version"),
+            "last_tagged_at": meta_dict.get("last_tagged_at"),
+            "source_hash": meta_dict.get("source_hash"),
+            "summary_text": meta_dict.get("summary_text"),
+            "extract_error": meta_dict.get("extract_error")
+        })
+        
+        return metadata
 
     from helpers.dedupe import link_uid
 
@@ -415,10 +474,10 @@ def fetch_and_save_article(url: str, config: dict) -> bool:
         log_error(log_path, f"All fetch strategies failed for {url}: {result.error}")
         meta["status"] = "error"
         meta["error"] = result.error or "All fetch strategies failed"
-        with open(meta_path, "w", encoding="utf-8") as mf:
-            json.dump(meta, mf, indent=2)
+        # Convert and save using MetadataManager
+        content_metadata = convert_meta_to_content_metadata(meta, file_id)
+        metadata_manager.save_metadata(content_metadata)
         # Add to retry queue
-        from helpers.retry_queue import enqueue
 
         enqueue(
             {
@@ -478,11 +537,8 @@ def fetch_and_save_article(url: str, config: dict) -> bool:
         # Run evaluations
         try:
             from helpers.evaluation_utils import EvaluationFile
-            from process.evaluate import (
-                classify_content,
-                extract_entities,
-                summarize_text,
-            )
+            from process.evaluate import (classify_content, extract_entities,
+                                          summarize_text)
 
             eval_file = EvaluationFile(source_file_path=md_path, config=config)
             eval_file.add_evaluation(
@@ -541,7 +597,6 @@ def fetch_and_save_article(url: str, config: dict) -> bool:
         meta["status"] = "error"
         meta["error"] = str(e)
         # Add to retry queue
-        from helpers.retry_queue import enqueue
 
         enqueue(
             {
@@ -554,9 +609,9 @@ def fetch_and_save_article(url: str, config: dict) -> bool:
             }
         )
 
-    # Save metadata
-    with open(meta_path, "w", encoding="utf-8") as mf:
-        json.dump(meta, mf, indent=2)
+    # Convert and save using MetadataManager
+    content_metadata = convert_meta_to_content_metadata(meta, file_id)
+    metadata_manager.save_metadata(content_metadata)
 
     return meta["status"] == "success"
 

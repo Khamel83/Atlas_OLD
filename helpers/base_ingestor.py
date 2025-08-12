@@ -11,30 +11,18 @@ from datetime import datetime
 from typing import Any, Dict, List, Optional, Tuple
 
 from helpers.dedupe import link_uid
-from helpers.error_handler import (
-    AtlasErrorHandler,
-    ErrorCategory,
-    ErrorContext,
-    ErrorSeverity,
-    create_error_handler,
-)
+from helpers.error_handler import (AtlasErrorHandler, ErrorCategory,
+                                   ErrorContext, ErrorSeverity,
+                                   create_error_handler)
 from helpers.evaluation_utils import EvaluationFile
-from helpers.metadata_manager import (
-    ContentMetadata,
-    ContentType,
-    MetadataManager,
-    ProcessingStatus,
-    create_metadata_manager,
-)
+from helpers.metadata_manager import (ContentMetadata, ContentType,
+                                      MetadataManager, ProcessingStatus,
+                                      create_metadata_manager)
 from helpers.path_manager import PathManager, PathType, create_path_manager
 from helpers.retry_queue import enqueue
 from helpers.utils import log_error, log_info
-from process.evaluate import (
-    classify_content,
-    diarize_speakers,
-    extract_entities,
-    summarize_text,
-)
+from process.evaluate import (classify_content, diarize_speakers,
+                              extract_entities, summarize_text)
 
 
 class IngestorResult:
@@ -43,8 +31,8 @@ class IngestorResult:
     def __init__(
         self,
         success: bool,
-        metadata: ContentMetadata = None,
-        error: str = None,
+        metadata: Optional[ContentMetadata] = None,
+        error: Optional[str] = None,
         should_retry: bool = False,
     ):
         self.success = success
@@ -56,15 +44,15 @@ class IngestorResult:
 class BaseIngestor(ABC):
     """Abstract base class for all Atlas ingestors."""
 
-    def __init__(self, config: Dict[str, Any]):
+    def __init__(self, config: Dict[str, Any], content_type: ContentType, module_name: str):
         self.config = config
         self.metadata_manager = create_metadata_manager(config)
         self.path_manager = create_path_manager(config)
         self.error_handler = create_error_handler(config)
 
         # Each subclass must define these
-        self.content_type = None
-        self.module_name = None
+        self.content_type = content_type
+        self.module_name = module_name
 
         # Initialize after subclass sets content_type
         self._post_init()
@@ -75,15 +63,7 @@ class BaseIngestor(ABC):
             self.log_path = self.path_manager.get_log_path(self.content_type)
             self.path_manager.ensure_directories(self.content_type)
 
-    @abstractmethod
-    def get_content_type(self) -> ContentType:
-        """Return the content type this ingestor handles."""
-        pass
-
-    @abstractmethod
-    def get_module_name(self) -> str:
-        """Return the module name for logging."""
-        pass
+    
 
     @abstractmethod
     def fetch_content(
@@ -121,7 +101,7 @@ class BaseIngestor(ABC):
         return self.metadata_manager.exists(self.content_type, uid)
 
     def create_metadata(
-        self, source: str, title: str = None, **kwargs
+        self, source: str, title: Optional[str] = None, **kwargs
     ) -> ContentMetadata:
         """Create metadata for content."""
         return self.metadata_manager.create_metadata(
@@ -135,7 +115,7 @@ class BaseIngestor(ABC):
     def handle_error(
         self,
         error_message: str,
-        source: str = None,
+        source: Optional[str] = None,
         should_retry: bool = False,
         severity: ErrorSeverity = ErrorSeverity.MEDIUM,
     ) -> bool:
@@ -241,7 +221,7 @@ class BaseIngestor(ABC):
         """Run content-type specific evaluations. Override in subclasses."""
         pass
 
-    def ingest_single(self, source: str, title: str = None, **kwargs) -> IngestorResult:
+    def ingest_single(self, source: str, title: Optional[str] = None, **kwargs) -> IngestorResult:
         """Ingest a single content item."""
         try:
             # Check if should skip
@@ -258,9 +238,11 @@ class BaseIngestor(ABC):
             success, content_or_error = self.fetch_content(source, metadata)
 
             if not success:
-                metadata.set_error(content_or_error)
+                if content_or_error is not None:
+                    metadata.set_error(content_or_error)
                 self.save_metadata(metadata)
-                self.handle_error(content_or_error, source, should_retry=True)
+                if content_or_error is not None:
+                    self.handle_error(content_or_error, source, should_retry=True)
                 return IngestorResult(
                     success=False,
                     metadata=metadata,
@@ -269,15 +251,16 @@ class BaseIngestor(ABC):
                 )
 
             # Process content
-            if not self.process_content(content_or_error, metadata):
-                error_msg = f"Failed to process content for {source}"
-                metadata.set_error(error_msg)
-                self.save_metadata(metadata)
-                self.handle_error(error_msg, source)
-                return IngestorResult(success=False, metadata=metadata, error=error_msg)
+            if content_or_error is not None:
+                if not self.process_content(content_or_error, metadata):
+                    error_msg = f"Failed to process content for {source}"
+                    metadata.set_error(error_msg)
+                    self.save_metadata(metadata)
+                    self.handle_error(error_msg, source)
+                    return IngestorResult(success=False, metadata=metadata, error=error_msg)
 
-            # Run evaluations
-            self.run_evaluations(content_or_error, metadata)
+                # Run evaluations
+                self.run_evaluations(content_or_error, metadata)
 
             # Mark as successful
             metadata.set_success()
@@ -320,9 +303,10 @@ class BaseIngestor(ABC):
         """Get all items marked for retry."""
         return self.metadata_manager.get_retry_items(self.content_type)
 
-    def cleanup_temp_files(self, uid: str = None):
+    def cleanup_temp_files(self, uid: Optional[str] = None):
         """Clean up temporary files."""
-        self.path_manager.cleanup_temp_files(self.content_type, uid)
+        if uid:
+            self.path_manager.cleanup_temp_files(self.content_type, uid)
 
 
 class TextBasedIngestor(BaseIngestor):
@@ -455,11 +439,8 @@ def create_ingestor(content_type: ContentType, config: Dict[str, Any]) -> BaseIn
 
     # Fallback to base class for demonstration
     class DummyIngestor(BaseIngestor):
-        def get_content_type(self):
-            return content_type
-
-        def get_module_name(self):
-            return f"{content_type.value}_ingestor"
+        def __init__(self, config: Dict[str, Any]):
+            super().__init__(config, content_type, f"{content_type.value}_ingestor")
 
         def fetch_content(self, source, metadata):
             return False, "Not implemented"

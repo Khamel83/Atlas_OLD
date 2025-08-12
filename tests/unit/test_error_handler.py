@@ -1,15 +1,9 @@
 import unittest
 from unittest.mock import MagicMock, patch
 
-from helpers.error_handler import (
-    AtlasError,
-    AtlasErrorHandler,
-    ErrorCategory,
-    ErrorContext,
-    ErrorSeverity,
-    FileSystemErrorHandler,
-    NetworkErrorHandler,
-)
+from helpers.error_handler import (AtlasError, AtlasErrorHandler,
+                                   ErrorCategory, ErrorContext, ErrorSeverity,
+                                   FileSystemErrorHandler, NetworkErrorHandler)
 
 
 class TestErrorHandlers(unittest.TestCase):

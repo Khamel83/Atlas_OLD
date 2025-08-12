@@ -10,13 +10,8 @@ from helpers.base_ingestor import BaseIngestor, IngestorResult
 from helpers.error_handler import AtlasErrorHandler
 from helpers.metadata_manager import ContentType
 
-from .utils import (
-    calculate_hash,
-    convert_html_to_markdown,
-    generate_markdown_summary,
-    log_error,
-    log_info,
-)
+from .utils import (calculate_hash, convert_html_to_markdown,
+                    generate_markdown_summary, log_error, log_info)
 
 
 class InstapaperIngestor(BaseIngestor):

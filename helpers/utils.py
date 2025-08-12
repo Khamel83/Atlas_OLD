@@ -107,7 +107,8 @@ def generate_markdown_summary(title, source, date, tags=None, notes=None, conten
 
     frontmatter = [
         f"title: {title}",
-        f"description: {description}",
+        f"source: {source}",
+        f"date: {date}",
         f"tags: [{', '.join([repr(t) for t in tags])}]",
     ]
 

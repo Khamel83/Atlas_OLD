@@ -11,7 +11,7 @@ from dataclasses import asdict, dataclass, field
 from datetime import datetime
 from enum import Enum
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Union
+from typing import Any, Dict, List, Optional, Union, TypedDict
 
 from helpers.dedupe import link_uid
 from helpers.utils import calculate_hash
@@ -63,8 +63,8 @@ class FetchDetails:
         self,
         method: str,
         result: str,
-        error: str = None,
-        metadata: Dict[str, Any] = None,
+        error: Optional[str] = None,
+        metadata: Optional[Dict[str, Any]] = None,
     ):
         """Add a new fetch attempt."""
         attempt = FetchAttempt(
@@ -137,7 +137,7 @@ class ContentMetadata:
         self.notes.append(note)
         self.update_timestamp()
 
-    def set_success(self, content_path: str = None):
+    def set_success(self, content_path: Optional[str] = None):
         """Mark content as successfully processed."""
         self.status = ProcessingStatus.SUCCESS
         self.error = None
@@ -158,10 +158,34 @@ class ContentMetadata:
         self.update_timestamp()
 
 
+class ForgottenItem(TypedDict):
+    metadata: ContentMetadata
+    staleness_score: float
+    relevance_score: float
+    combined_score: float
+
+
+class RecallCandidate(TypedDict):
+    metadata: ContentMetadata
+    priority: float
+    days_overdue: int
+    review_interval: int
+
+
+class TagPatterns(TypedDict):
+    tag_frequencies: Dict[str, int]
+    total_tags: int
+    total_occurrences: int
+    tag_source_analysis: Dict[str, Dict[str, Any]]
+    tag_cooccurrences: Dict[str, Dict[str, int]]
+    trending_tags: List[Dict[str, Any]]
+    source_tag_distribution: Dict[str, List[str]]
+
+
 class MetadataManager:
     """Manager for content metadata operations."""
 
-    def __init__(self, config: Dict[str, Any] = None, metadata_dir: str = None):
+    def __init__(self, config: Optional[Dict[str, Any]] = None, metadata_dir: Optional[str] = None):
         # Support both config dict and direct metadata_dir for test compatibility
         if config is not None:
             self.config = config
@@ -171,11 +195,11 @@ class MetadataManager:
             self.data_directory = metadata_dir or "output"
         # For test compatibility
         self.metadata_dir = self.data_directory
-        self.metadata_cache = {}
-        self.categories = []
+        self.metadata_cache: Dict[str, ContentMetadata] = {}
+        self.categories: List[str] = []
 
     def create_metadata(
-        self, content_type: ContentType, source: str, title: str = None, **kwargs
+        self, content_type: ContentType, source: str, title: Optional[str] = None, **kwargs
     ) -> ContentMetadata:
         """Create new metadata for content."""
         uid = link_uid(source)
@@ -322,7 +346,7 @@ class MetadataManager:
         metadata.update_timestamp()
         return self.save_metadata(metadata)
 
-    def get_all_metadata(self, filters: Dict[str, Any] = None) -> List[ContentMetadata]:
+    def get_all_metadata(self, filters: Optional[Dict[str, Any]] = None) -> List[ContentMetadata]:
         """
         Get all metadata across all content types with optional filtering.
 
@@ -477,7 +501,7 @@ class MetadataManager:
         from datetime import datetime, timedelta
 
         cutoff = datetime.now() - timedelta(days=threshold_days)
-        forgotten = []
+        forgotten: List[ForgottenItem] = []
 
         # Get all metadata across all content types
         all_metadata = self.get_all_metadata()
@@ -517,12 +541,12 @@ class MetadataManager:
                 continue
 
         # Sort by combined score (highest first = most stale + relevant)
-        forgotten.sort(key=lambda x: x["combined_score"], reverse=True)
+        forgotten.sort(key=lambda x: float(x["combined_score"]), reverse=True)
 
         # Return just the metadata objects
-        return [item["metadata"] for item in forgotten]
+        return [item["metadata"] for item in forgotten]  # type: ignore
 
-    def get_tag_patterns(self, min_frequency: int = 2) -> Dict[str, Any]:
+    def get_tag_patterns(self, min_frequency: int = 2) -> TagPatterns:
         """
         Analyze tag usage patterns and frequencies for content organization insights.
 
@@ -537,10 +561,10 @@ class MetadataManager:
         all_metadata = self.get_all_metadata()
 
         # Collect all tags and their metadata
-        tag_frequencies = Counter()
-        tag_sources = defaultdict(set)
-        tag_content_types = defaultdict(set)
-        tag_cooccurrences = defaultdict(Counter)
+        tag_frequencies: Counter[str] = Counter()
+        tag_sources: defaultdict[str, set] = defaultdict(set)
+        tag_content_types: defaultdict[str, set] = defaultdict(set)
+        tag_cooccurrences: defaultdict[str, Counter[str]] = defaultdict(Counter)
 
         for metadata in all_metadata:
             for tag in metadata.tags:
@@ -559,7 +583,7 @@ class MetadataManager:
         }
 
         # Build patterns analysis
-        patterns = {
+        patterns: TagPatterns = {
             "tag_frequencies": filtered_tags,
             "total_tags": len(filtered_tags),
             "total_occurrences": sum(filtered_tags.values()),
@@ -628,10 +652,10 @@ class MetadataManager:
         delta = window_deltas[time_window]
 
         # Group content by time windows
-        time_groups = defaultdict(list)
-        content_volume = defaultdict(int)
-        tag_trends = defaultdict(lambda: defaultdict(int))
-        content_type_trends = defaultdict(lambda: defaultdict(int))
+        time_groups: defaultdict[str, list] = defaultdict(list)
+        content_volume: defaultdict[str, int] = defaultdict(int)
+        tag_trends: defaultdict[str, defaultdict[str, int]] = defaultdict(lambda: defaultdict(int))
+        content_type_trends: defaultdict[str, defaultdict[str, int]] = defaultdict(lambda: defaultdict(int))
 
         for metadata in all_metadata:
             try:
@@ -732,7 +756,7 @@ class MetadataManager:
         from datetime import datetime, timedelta
 
         all_metadata = self.get_all_metadata()
-        recall_candidates = []
+        recall_candidates: List[RecallCandidate] = []
 
         for metadata in all_metadata:
             try:
@@ -792,10 +816,10 @@ class MetadataManager:
                 continue
 
         # Sort by priority (highest first)
-        recall_candidates.sort(key=lambda x: x["priority"], reverse=True)
+        recall_candidates.sort(key=lambda x: float(x["priority"]), reverse=True)
 
         # Return top items up to limit
-        return [item["metadata"] for item in recall_candidates[:limit]]
+        return [item["metadata"] for item in recall_candidates[:limit]]  # type: ignore
 
 
 def create_metadata_manager(config: Dict[str, Any]) -> MetadataManager:
