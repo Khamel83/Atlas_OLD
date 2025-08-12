@@ -11,6 +11,15 @@ import streamlit as st
 TEST_LOGS_DIR = "test_logs/"
 KNOWN_ERRORS_PATH = os.path.join("evaluation", "known_errors.json")
 
+SUGGESTIONS = {
+    "import": "Check import paths and module availability",
+    "module": "Verify module installation and dependencies", 
+    "attribute": "Check object has the expected attribute",
+    "key": "Verify dictionary key exists",
+    "connection": "Check network connectivity and API endpoints",
+    "timeout": "Increase timeout values or check service availability"
+}
+
 st.title("Test Trace & Error Review")
 
 # --- Helper Functions ---

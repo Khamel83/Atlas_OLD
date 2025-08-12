@@ -1,3 +1,6 @@
+from datetime import datetime, timedelta
+
+
 class RecallEngine:
     def __init__(self, metadata_manager, config=None):
         self.metadata_manager = metadata_manager
@@ -92,7 +95,6 @@ class RecallEngine:
         """
         Calculate review urgency based on spaced repetition principles.
         """
-        from datetime import datetime, timedelta
 
         urgency = 1.0
 

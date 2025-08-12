@@ -8,6 +8,7 @@ from time import sleep
 
 import requests
 from bs4 import BeautifulSoup
+from markdownify import markdownify
 from playwright.sync_api import sync_playwright
 from playwright_stealth import Stealth
 from readability import Document
