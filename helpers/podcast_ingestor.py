@@ -1,5 +1,6 @@
 # helpers/podcast_ingestor.py
 import os
+from datetime import datetime
 
 import feedparser
 import requests
@@ -106,12 +107,20 @@ class PodcastIngestor(BaseIngestor):
         transcript_path = paths.get_path("transcript")
         md_path = paths.get_path("markdown")
 
+        # CAPTURE ALL METADATA - Never lose any information!
+        # Extract every available field from the RSS entry
+        podcast_metadata = self._extract_all_podcast_metadata(entry, audio_url)
+        
         meta = self.create_metadata(
             source=metadata["source"],
             title=entry.title,
-            uid=file_id,
-            audio_url=audio_url,
+            type_specific=podcast_metadata["type_specific"]
         )
+        # Override the generated UID with our specific one for deduplication
+        meta.uid = file_id
+        
+        # Save raw RSS entry data for complete preservation
+        self.save_raw_data(entry, meta, "rss_entry")
         try:
             if not os.path.exists(audio_path):
                 log_info(self.log_path, f"Downloading: {title}")
@@ -170,6 +179,107 @@ class PodcastIngestor(BaseIngestor):
         return meta.status == "success"
 
         return True  # Indicate success for the ingestor
+    
+    def _extract_all_podcast_metadata(self, entry, audio_url):
+        """
+        Extract ALL available metadata from RSS feed entry.
+        CORE PRINCIPLE: Never lose any data - capture everything!
+        """
+        # Raw entry data - preserve the complete source
+        raw_entry = {}
+        
+        # Convert feedparser entry to dict, handling all possible fields
+        for key in entry.keys():
+            try:
+                value = entry[key]
+                # Handle complex objects by converting to serializable format
+                if hasattr(value, '__dict__'):
+                    raw_entry[key] = str(value)
+                elif isinstance(value, (list, dict)):
+                    raw_entry[key] = value
+                else:
+                    raw_entry[key] = str(value) if value is not None else None
+            except Exception as e:
+                raw_entry[key] = f"<extraction_error: {str(e)}>"
+        
+        # Extract structured podcast-specific metadata
+        podcast_data = {
+            # Core episode information
+            "episode_number": entry.get("itunes_episode"),
+            "season_number": entry.get("itunes_season"),
+            "episode_type": entry.get("itunes_episodetype", "full"),
+            
+            # Content descriptions (often contain show notes!)
+            "summary": entry.get("summary", ""),
+            "subtitle": entry.get("subtitle", ""),
+            "description": entry.get("description", ""),
+            
+            # Publication information
+            "published": entry.get("published", ""),
+            "published_parsed": str(entry.get("published_parsed", "")),
+            "updated": entry.get("updated", ""),
+            
+            # Author/Creator information
+            "author": entry.get("author", ""),
+            "authors": entry.get("authors", []),
+            "creator": entry.get("creator", ""),
+            "publisher": entry.get("publisher", ""),
+            
+            # Media information
+            "duration": entry.get("itunes_duration", ""),
+            "explicit": entry.get("itunes_explicit"),
+            "language": entry.get("language", ""),
+            
+            # Links and references
+            "link": entry.get("link", ""),
+            "links": entry.get("links", []),
+            "guid": entry.get("guid", ""),
+            "id": entry.get("id", ""),
+            
+            # Visual content
+            "image": entry.get("image", {}),
+            "thumbnail": entry.get("thumbnail", ""),
+            
+            # Categorization
+            "tags": entry.get("tags", []),
+            "categories": entry.get("categories", []),
+            "keywords": entry.get("keywords", []),
+            
+            # Technical metadata
+            "enclosures": entry.get("enclosures", []),
+            "content": entry.get("content", []),
+            
+            # Copyright and legal
+            "copyright": entry.get("copyright", ""),
+            "rights": entry.get("rights", ""),
+            
+            # Audio URL (redundant but explicit)
+            "audio_url": audio_url,
+        }
+        
+        # Handle iTunes-specific fields (there may be many!)
+        itunes_fields = {}
+        for key in entry.keys():
+            if key.startswith("itunes_"):
+                itunes_fields[key] = entry.get(key)
+        
+        # Handle any custom namespaced fields (spotify:, google:, etc.)
+        custom_fields = {}
+        for key in entry.keys():
+            if ":" in key and not key.startswith("itunes_"):
+                custom_fields[key] = entry.get(key)
+        
+        # Store everything in type_specific metadata
+        return {
+            "type_specific": {
+                "podcast": podcast_data,
+                "itunes_metadata": itunes_fields,
+                "custom_fields": custom_fields,
+                "raw_entry": raw_entry,  # Complete original data
+                "extraction_timestamp": datetime.now().isoformat(),
+                "feedparser_version": getattr(feedparser, '__version__', 'unknown')
+            }
+        }
 
 
 def ingest_podcasts(config: dict, opml_path: str = "inputs/podcasts.opml"):

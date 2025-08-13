@@ -5,8 +5,10 @@ This module provides base classes for all Atlas ingestors, reducing code duplica
 and ensuring consistent interfaces and behavior across the ingestion system.
 """
 
+import json
 import os
 from abc import ABC, abstractmethod
+from datetime import datetime
 from typing import Any, Dict, List, Optional, Tuple
 
 from helpers.dedupe import link_uid
@@ -109,6 +111,43 @@ class BaseIngestor(ABC):
     def save_metadata(self, metadata: ContentMetadata) -> bool:
         """Save metadata to file."""
         return self.metadata_manager.save_metadata(metadata)
+    
+    def save_raw_data(self, raw_data: Any, metadata: ContentMetadata, suffix: str = "raw") -> bool:
+        """
+        Save raw source data for preservation.
+        CORE PRINCIPLE: Never lose original data!
+        """
+        try:
+            paths = self.path_manager.get_path_set(self.content_type, metadata.uid)
+            # Create a raw data file path
+            base_path = paths.base_path
+            raw_path = f"{base_path}_{suffix}.json"
+            
+            # Convert raw data to JSON if needed
+            if isinstance(raw_data, str):
+                data_to_save = {"raw_text": raw_data, "type": "text"}
+            elif isinstance(raw_data, (dict, list)):
+                data_to_save = {"raw_data": raw_data, "type": "structured"}
+            else:
+                data_to_save = {"raw_data": str(raw_data), "type": "converted"}
+            
+            # Add preservation metadata
+            data_to_save.update({
+                "preserved_at": datetime.now().isoformat(),
+                "content_type": self.content_type.value,
+                "source": metadata.source,
+                "uid": metadata.uid
+            })
+            
+            with open(raw_path, 'w', encoding='utf-8') as f:
+                json.dump(data_to_save, f, indent=2, ensure_ascii=False, default=str)
+            
+            log_info(self.log_path, f"Raw data preserved: {raw_path}")
+            return True
+            
+        except Exception as e:
+            log_error(self.log_path, f"Failed to save raw data: {e}")
+            return False
 
     def handle_error(
         self,

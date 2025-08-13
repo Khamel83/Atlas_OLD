@@ -39,6 +39,11 @@ class PathSet:
     def get_path(self, path_type: PathType) -> Optional[str]:
         """Get a specific path type."""
         return self.paths.get(path_type)
+    
+    @property
+    def base_path(self) -> str:
+        """Get the base path for this content item (without extension)."""
+        return os.path.join(self.base_dir, self.uid)
 
     def ensure_directories(self) -> bool:
         """Ensure all parent directories exist."""

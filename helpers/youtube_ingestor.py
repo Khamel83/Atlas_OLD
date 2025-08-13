@@ -2,7 +2,8 @@ import json
 import os
 import shutil
 import subprocess
-from typing import Dict
+from datetime import datetime
+from typing import Any, Dict, List, Optional
 
 from pytube import YouTube
 from youtube_transcript_api import (NoTranscriptFound, TranscriptsDisabled,
@@ -62,9 +63,22 @@ class YouTubeIngestor(BaseIngestor):
                 video_id = url
                 full_url = f"https://www.youtube.com/watch?v={video_id}"
             file_id = link_uid(full_url)
+            
+            # Initialize YouTube object for metadata extraction
+            yt = YouTube(full_url)
+            
+            # COMPREHENSIVE METADATA EXTRACTION - Never lose any data!
+            comprehensive_metadata = self._extract_all_youtube_metadata(yt, video_id, full_url)
+            
             meta = self.create_metadata(
-                source=full_url, title=None, uid=file_id, video_id=video_id
+                source=full_url, 
+                title=yt.title,
+                type_specific=comprehensive_metadata["type_specific"]
             )
+            meta.uid = file_id
+            
+            # Save raw YouTube API response for complete preservation
+            self.save_raw_data(comprehensive_metadata["raw_youtube_data"], meta, "youtube_api")
 
             paths = self.path_manager.get_path_set(self.content_type, file_id)
             transcript_path = paths.get_path("transcript")
@@ -171,6 +185,187 @@ class YouTubeIngestor(BaseIngestor):
             if meta_path:
                 self.save_metadata(meta)
         return True
+    
+    def _extract_all_youtube_metadata(self, yt: YouTube, video_id: str, full_url: str) -> Dict[str, Any]:
+        """
+        Extract ALL available metadata from YouTube video.
+        CORE PRINCIPLE: Never lose any data - capture everything!
+        """
+        
+        # Raw YouTube object data preservation
+        raw_youtube_data = {}
+        try:
+            # Extract all available pytube metadata
+            raw_youtube_data = {
+                "video_id": video_id,
+                "title": getattr(yt, 'title', None),
+                "description": getattr(yt, 'description', None),
+                "length": getattr(yt, 'length', None),
+                "views": getattr(yt, 'views', None),
+                "rating": getattr(yt, 'rating', None),
+                "age_restricted": getattr(yt, 'age_restricted', None),
+                "video_id": getattr(yt, 'video_id', None),
+                "watch_url": getattr(yt, 'watch_url', None),
+                "embed_url": getattr(yt, 'embed_url', None),
+                "thumbnail_url": getattr(yt, 'thumbnail_url', None),
+                "publish_date": str(getattr(yt, 'publish_date', None)),
+                "keywords": getattr(yt, 'keywords', []),
+                "channel_url": getattr(yt, 'channel_url', None),
+                "metadata": getattr(yt, 'metadata', None),
+            }
+            
+            # Author/Channel information
+            if hasattr(yt, 'author'):
+                raw_youtube_data["author"] = yt.author
+            if hasattr(yt, 'channel_id'):
+                raw_youtube_data["channel_id"] = yt.channel_id
+                
+            # Stream information - preserve ALL available stream data
+            if hasattr(yt, 'streams'):
+                raw_youtube_data["available_streams"] = []
+                for stream in yt.streams:
+                    stream_info = {
+                        "itag": getattr(stream, 'itag', None),
+                        "mime_type": getattr(stream, 'mime_type', None),
+                        "resolution": getattr(stream, 'resolution', None),
+                        "fps": getattr(stream, 'fps', None),
+                        "video_codec": getattr(stream, 'video_codec', None),
+                        "audio_codec": getattr(stream, 'audio_codec', None),
+                        "progressive": getattr(stream, 'is_progressive', None),
+                        "adaptive": getattr(stream, 'is_adaptive', None),
+                        "includes_audio_track": getattr(stream, 'includes_audio_track', None),
+                        "includes_video_track": getattr(stream, 'includes_video_track', None),
+                        "filesize": getattr(stream, 'filesize', None),
+                        "bitrate": getattr(stream, 'bitrate', None)
+                    }
+                    raw_youtube_data["available_streams"].append(stream_info)
+            
+        except Exception as e:
+            raw_youtube_data["extraction_error"] = str(e)
+        
+        # Structured YouTube metadata
+        youtube_data = {
+            # Core video information
+            "video_id": video_id,
+            "url": full_url,
+            "title": getattr(yt, 'title', None),
+            "description": getattr(yt, 'description', None),
+            "duration_seconds": getattr(yt, 'length', None),
+            "view_count": getattr(yt, 'views', None),
+            "rating": getattr(yt, 'rating', None),
+            "age_restricted": getattr(yt, 'age_restricted', False),
+            
+            # Publication information
+            "publish_date": str(getattr(yt, 'publish_date', None)),
+            "upload_date": str(getattr(yt, 'publish_date', None)),  # Same as publish_date for YouTube
+            
+            # Channel/Author information
+            "channel_name": getattr(yt, 'author', None),
+            "channel_id": getattr(yt, 'channel_id', None),
+            "channel_url": getattr(yt, 'channel_url', None),
+            
+            # Content metadata
+            "keywords": getattr(yt, 'keywords', []),
+            "tags": getattr(yt, 'keywords', []),  # YouTube keywords are effectively tags
+            "language": None,  # Could be extracted from description or other means
+            
+            # Media URLs
+            "watch_url": getattr(yt, 'watch_url', full_url),
+            "embed_url": getattr(yt, 'embed_url', None),
+            "thumbnail_url": getattr(yt, 'thumbnail_url', None),
+            
+            # Calculated metadata
+            "duration_formatted": self._format_duration(getattr(yt, 'length', 0)),
+            "estimated_reading_time": self._estimate_transcript_reading_time(getattr(yt, 'length', 0)),
+            
+            # Technical information
+            "stream_count": len(getattr(yt, 'streams', [])),
+            "has_video": any(getattr(s, 'includes_video_track', False) for s in getattr(yt, 'streams', [])),
+            "has_audio": any(getattr(s, 'includes_audio_track', False) for s in getattr(yt, 'streams', [])),
+            "max_resolution": self._get_max_resolution(yt),
+            "available_formats": self._get_available_formats(yt)
+        }
+        
+        # Transcript metadata (to be filled later)
+        transcript_metadata = {
+            "transcript_available": False,
+            "transcript_languages": [],
+            "transcript_auto_generated": False,
+            "transcript_length": 0
+        }
+        
+        return {
+            "type_specific": {
+                "youtube": youtube_data,
+                "transcript": transcript_metadata,
+                "technical": {
+                    "pytube_version": "unknown",  # Could get from pytube.__version__ if available
+                    "extraction_method": "pytube",
+                    "extraction_timestamp": datetime.now().isoformat(),
+                    "user_agent": "pytube_default"
+                },
+                "raw_youtube_data": raw_youtube_data,
+                "original_url": full_url
+            }
+        }
+    
+    def _format_duration(self, seconds: int) -> str:
+        """Format duration in seconds to HH:MM:SS"""
+        if not seconds:
+            return "00:00:00"
+        
+        hours = seconds // 3600
+        minutes = (seconds % 3600) // 60
+        secs = seconds % 60
+        
+        if hours > 0:
+            return f"{hours:02d}:{minutes:02d}:{secs:02d}"
+        else:
+            return f"{minutes:02d}:{secs:02d}"
+    
+    def _estimate_transcript_reading_time(self, duration_seconds: int) -> int:
+        """Estimate reading time for transcript (assuming 150 words per minute of video)"""
+        if not duration_seconds:
+            return 0
+        
+        # Rough estimate: 150 words per minute of video content
+        estimated_words = (duration_seconds / 60) * 150
+        # Reading speed: 200 words per minute
+        reading_time_minutes = max(1, int(estimated_words / 200))
+        return reading_time_minutes
+    
+    def _get_max_resolution(self, yt: YouTube) -> Optional[str]:
+        """Get the maximum available resolution"""
+        if not hasattr(yt, 'streams'):
+            return None
+        
+        max_res = 0
+        max_res_str = None
+        
+        for stream in yt.streams:
+            if hasattr(stream, 'resolution') and stream.resolution:
+                try:
+                    # Extract numeric part of resolution (e.g., "720p" -> 720)
+                    res_num = int(stream.resolution.replace('p', ''))
+                    if res_num > max_res:
+                        max_res = res_num
+                        max_res_str = stream.resolution
+                except (ValueError, AttributeError):
+                    continue
+        
+        return max_res_str
+    
+    def _get_available_formats(self, yt: YouTube) -> List[str]:
+        """Get list of available video/audio formats"""
+        if not hasattr(yt, 'streams'):
+            return []
+        
+        formats = set()
+        for stream in yt.streams:
+            if hasattr(stream, 'mime_type') and stream.mime_type:
+                formats.add(stream.mime_type)
+        
+        return sorted(list(formats))
 
 
 def ingest_youtube_history(config: dict, input_file: str = "inputs/youtube.txt"):

@@ -262,7 +262,10 @@ def process_instapaper_csv(file_path: str, config: Dict) -> Dict[str, List[str]]
     with open(file_path, "r") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            urls.append(row["url"])
+            # Handle both "URL" and "url" column names
+            url = row.get("URL") or row.get("url")
+            if url and not url.startswith("instapaper-private://"):
+                urls.append(url)
 
     return process_url_list(urls, config)
 

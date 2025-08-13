@@ -2,8 +2,8 @@
 """
 Podcast Transcription Testing Suite
 
-Comprehensive testing of podcast ingestion with multiple transcription models.
-Tests speed vs accuracy tradeoffs using your existing OPML data.
+Fast podcast ingestion testing using whisper_tiny model.
+Optimized for concept search and idea discovery on OCI infrastructure.
 """
 
 import os
@@ -23,7 +23,7 @@ import feedparser
 
 
 class PodcastTranscriptionTester:
-    """Test podcast ingestion with comprehensive transcription analysis"""
+    """Test podcast ingestion with whisper_tiny for fast concept extraction"""
     
     def __init__(self, opml_path: str = "inputs/podcasts.opml"):
         self.config = load_config()
@@ -48,8 +48,8 @@ class PodcastTranscriptionTester:
         self.transcription_engine = EnhancedTranscriptionEngine(self.config)
     
     def run_comprehensive_podcast_test(self) -> Dict[str, Any]:
-        """Run comprehensive podcast transcription testing"""
-        log_info(str(self.log_path), "Starting comprehensive podcast transcription testing")
+        """Run fast podcast transcription testing with whisper_tiny"""
+        log_info(str(self.log_path), "Starting fast podcast transcription testing (whisper_tiny only)")
         
         # Parse OPML and get feeds
         feeds = self._parse_opml_feeds()
@@ -250,11 +250,11 @@ class PodcastTranscriptionTester:
             return None
     
     def _test_all_transcription_models(self, audio_path: str) -> Dict[str, Any]:
-        """Test all available transcription models on the audio file"""
+        """Test whisper tiny model only (optimized for speed)"""
         results = {}
         
-        # Test local Whisper models (subset for speed)
-        test_models = [WhisperModel.TINY, WhisperModel.SMALL, WhisperModel.MEDIUM]
+        # Use only whisper tiny for fast processing
+        test_models = [WhisperModel.TINY]
         
         for model in test_models:
             model_name = f"whisper_{model.value}"
@@ -289,27 +289,7 @@ class PodcastTranscriptionTester:
                     "word_count": 0
                 }
         
-        # Test API-based transcription if available
-        if self.transcription_engine.openrouter_key:
-            try:
-                log_info(str(self.log_path), "Testing OpenRouter transcription")
-                start_time = time.time()
-                result = self.transcription_engine.transcribe_openrouter(audio_path, str(self.log_path))
-                duration = time.time() - start_time
-                
-                results["openrouter"] = {
-                    "success": not bool(result.error),
-                    "transcript": result.text,
-                    "word_count": result.word_count,
-                    "duration_seconds": result.duration_seconds,
-                    "total_time_seconds": duration,
-                    "words_per_second": result.word_count / result.duration_seconds if result.duration_seconds > 0 else 0,
-                    "error": result.error
-                }
-                
-            except Exception as e:
-                log_error(str(self.log_path), f"OpenRouter transcription failed: {e}")
-                results["openrouter"] = {"success": False, "error": str(e)}
+        # Skip API-based transcription - focusing on local models for OCI deployment
         
         return results
     
@@ -499,14 +479,11 @@ class PodcastTranscriptionTester:
         
         # Add specific model recommendations
         if "whisper_tiny" in perf_analysis and perf_analysis["whisper_tiny"].get("success_rate", 0) > 0.5:
-            recommendations["general_recommendations"].append(
-                "Whisper tiny model suitable for fast bulk processing with acceptable accuracy loss"
-            )
-        
-        if "whisper_medium" in perf_analysis and perf_analysis["whisper_medium"].get("success_rate", 0) > 0.8:
-            recommendations["general_recommendations"].append(
-                "Whisper medium model provides good balance of speed and accuracy"
-            )
+            recommendations["general_recommendations"].extend([
+                "Whisper tiny model excellent for concept search and idea discovery",
+                "Fast processing suitable for OCI deployment and bulk podcast processing",
+                "Adequate accuracy for finding topics, quotes, and key discussions"
+            ])
         
         self.test_results["recommendations"] = recommendations
 
