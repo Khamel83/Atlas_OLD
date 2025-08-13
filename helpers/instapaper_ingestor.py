@@ -42,7 +42,7 @@ class InstapaperIngestor(BaseIngestor):
         return False
 
     def __init__(self, config):
-        super().__init__(config)
+        super().__init__(config, ContentType.INSTAPAPER, "instapaper_ingestor")
         self.error_handler = AtlasErrorHandler(config)
         self.login = config.get("INSTAPAPER_LOGIN")
         self.password = config.get("INSTAPAPER_PASSWORD")

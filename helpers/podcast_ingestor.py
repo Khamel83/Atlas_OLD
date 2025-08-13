@@ -22,10 +22,8 @@ class PodcastIngestor(BaseIngestor):
         return "podcast_ingestor"
 
     def __init__(self, config):
-        super().__init__(config)
-        self.content_type = "podcast"
+        super().__init__(config, ContentType.PODCAST, "podcast_ingestor")
         self.user_agent = USER_AGENT
-        self._post_init()
 
     def fetch_content(self, feed_url, metadata):
         # Parse the feed and return entries

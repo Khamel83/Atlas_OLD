@@ -34,10 +34,8 @@ class YouTubeIngestor(BaseIngestor):
         return True
 
     def __init__(self, config):
-        super().__init__(config)
-        self.content_type = "youtube"
+        super().__init__(config, ContentType.YOUTUBE, "youtube_ingestor")
         self.ytdlp_available = is_ytdlp_installed()
-        self._post_init()
 
     def ingest_history(self, input_file: str = "inputs/youtube.txt"):
         if not self.ytdlp_available:
