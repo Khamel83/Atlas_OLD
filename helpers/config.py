@@ -113,6 +113,10 @@ def load_config() -> dict:
         == "true",
         "transcribe_enabled": os.environ.get("TRANSCRIBE_ENABLED", "false").lower()
         == "true",
+        "run_transcription": os.environ.get("RUN_TRANSCRIPTION", "false").lower()
+        == "true" or os.environ.get("TRANSCRIBE_ENABLED", "false").lower() == "true",
+        "whisper_model": os.environ.get("WHISPER_MODEL", "base"),
+        "transcribe_backend": os.environ.get("TRANSCRIBE_BACKEND", "local"),
         "log_level": os.environ.get("LOG_LEVEL", "INFO"),
         # Categorization
         "categories": load_categories(),
