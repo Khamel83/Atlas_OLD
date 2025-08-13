@@ -44,11 +44,12 @@ def load_config() -> dict:
     )
 
     # Default to 'output' if not set in .env
-    data_directory = os.getenv("DATA_DIRECTORY", "output")
+    data_directory = os.path.expanduser(os.getenv("DATA_DIRECTORY", "output"))
 
     config = {
         # Secrets and settings from .env
         "OPENROUTER_API_KEY": os.environ.get("OPENROUTER_API_KEY"),
+        "openrouter_api_key": os.environ.get("OPENROUTER_API_KEY"),
         "YOUTUBE_API_KEY": os.environ.get("YOUTUBE_API_KEY"),
         "NYT_USERNAME": os.environ.get("NYT_USERNAME"),
         "NYT_PASSWORD": os.environ.get("NYT_PASSWORD"),
@@ -110,6 +111,9 @@ def load_config() -> dict:
             "USE_PLAYWRIGHT_FOR_NYT", "false"
         ).lower()
         == "true",
+        "transcribe_enabled": os.environ.get("TRANSCRIBE_ENABLED", "false").lower()
+        == "true",
+        "log_level": os.environ.get("LOG_LEVEL", "INFO"),
         # Categorization
         "categories": load_categories(),
         # --- DeepSeek API Key ---

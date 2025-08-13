@@ -237,7 +237,7 @@ class DirectFetchStrategy(ArticleFetchStrategy):
                 },
                 title=title,
             )
-        except requests.exceptions.RequestException as e:
+        except (requests.exceptions.RequestException, Exception) as e:
             log_error(log_path, f"Direct fetch failed for {url}: {e}")
             return FetchResult(success=False, error=str(e), method="direct")
 
