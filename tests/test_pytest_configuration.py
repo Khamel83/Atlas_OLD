@@ -12,11 +12,9 @@ Tests cover:
 - Test collection and execution flow
 """
 
-import os
 import subprocess
 import sys
 from pathlib import Path
-from typing import List
 
 import pytest
 
@@ -160,7 +158,7 @@ class TestPytestDiscovery:
         import time
 
         start_time = time.time()
-        result = subprocess.run(
+        subprocess.run(
             [sys.executable, "-m", "pytest", "--collect-only", "-q"],
             capture_output=True,
             text=True,
@@ -232,10 +230,9 @@ class TestPytestPlugins:
     def test_anyio_plugin_compatibility(self):
         """Test that pytest-anyio plugin is compatible if installed."""
         try:
-            import pytest_anyio
 
             # If anyio plugin is available, pytest should still work
-            result = subprocess.run(
+            subprocess.run(
                 [sys.executable, "-m", "pytest", "--collect-only"],
                 capture_output=True,
                 text=True,

@@ -20,7 +20,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from helpers.config import load_config
-from helpers.validate import ConfigValidator, validate_config_enhanced
+from helpers.validate import ConfigValidator
 
 
 def main():
@@ -123,7 +123,6 @@ def output_report(validator, errors, warnings, errors_only=False, quiet=False):
     if quiet and not errors and not warnings:
         return
 
-    issues_to_show = errors if errors_only else None
     warnings_to_show = [] if errors_only else warnings
 
     if quiet and not errors:
@@ -134,16 +133,16 @@ def output_report(validator, errors, warnings, errors_only=False, quiet=False):
 
     # Add summary statistics
     if not quiet:
-        print(f"📊 Validation Summary:")
+        print("📊 Validation Summary:")
         print(f"   • Errors: {len(errors)}")
         print(f"   • Warnings: {len(warnings)}")
 
         if errors:
-            print(f"   • Status: ❌ Configuration needs fixes")
+            print("   • Status: ❌ Configuration needs fixes")
         elif warnings:
-            print(f"   • Status: ⚠️  Configuration works but has recommendations")
+            print("   • Status: ⚠️  Configuration works but has recommendations")
         else:
-            print(f"   • Status: ✅ Configuration is optimal")
+            print("   • Status: ✅ Configuration is optimal")
 
 
 if __name__ == "__main__":

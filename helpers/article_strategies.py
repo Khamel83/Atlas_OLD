@@ -5,12 +5,9 @@ This module contains different strategies for fetching articles, organized into 
 for better maintainability and testing. Each strategy implements a common interface.
 """
 
-import os
-import re
 from abc import ABC, abstractmethod
-from datetime import datetime
 from time import sleep
-from typing import Any, Dict, Optional
+from typing import Any, Dict
 
 import requests
 from bs4 import BeautifulSoup

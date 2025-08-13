@@ -22,9 +22,9 @@ except ImportError:
     SkyverhClient = None
     SKYVERN_AVAILABLE = False
 
-from helpers.base_ingestor import BaseIngestor, IngestorResult
+from helpers.base_ingestor import BaseIngestor
 from helpers.metadata_manager import ContentMetadata, ContentType
-from helpers.utils import convert_html_to_markdown, log_error, log_info
+from helpers.utils import convert_html_to_markdown
 
 
 class SkyvernEnhancedIngestor(BaseIngestor):

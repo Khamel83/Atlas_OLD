@@ -157,16 +157,16 @@ class EnvGenerator:
             config_values = {}
 
             if not quiet:
-                print(f"\n🔧 Generating .env file from template...")
+                print("\n🔧 Generating .env file from template...")
                 print(f"Template: {self.template_path}")
                 print(f"Target: {self.env_path}")
 
                 if interactive:
                     print(
-                        f"\nInteractive mode: You'll be prompted for all configuration values."
+                        "\nInteractive mode: You'll be prompted for all configuration values."
                     )
                 else:
-                    print(f"Using intelligent defaults. Press Ctrl+C to abort.")
+                    print("Using intelligent defaults. Press Ctrl+C to abort.")
                 print()
 
             # Process each configuration item
@@ -190,7 +190,7 @@ class EnvGenerator:
             validation_result = self._validate_generated_env()
 
             if not quiet:
-                print(f"\n✅ Successfully generated .env file!")
+                print("\n✅ Successfully generated .env file!")
                 print(f"📍 Location: {self.env_path}")
                 print(
                     f"🔍 Validation: {'✓ Passed' if validation_result else '⚠ Issues detected'}"
@@ -367,7 +367,7 @@ class EnvGenerator:
                 )
 
             if issues:
-                print(f"\n⚠ Validation issues detected:")
+                print("\n⚠ Validation issues detected:")
                 for issue in issues:
                     print(f"  - {issue}")
                 return False
@@ -380,16 +380,16 @@ class EnvGenerator:
 
     def _show_next_steps(self):
         """Show next steps after .env generation."""
-        print(f"\n📋 Next Steps:")
+        print("\n📋 Next Steps:")
         print(f"  1. Review your .env file: {self.env_path}")
         print(
-            f"  2. Test configuration: python -c \"from helpers.config import load_config; print('✓ Config loads successfully')\""
+            "  2. Test configuration: python -c \"from helpers.config import load_config; print('✓ Config loads successfully')\""
         )
-        print(f"  3. Create output directories: python scripts/setup_directories.py")
-        print(f"  4. Run Atlas: python run.py")
-        print(f"\n💡 Tips:")
-        print(f"  - Keep your .env file secure (it's in .gitignore)")
-        print(f"  - Use 'python scripts/generate_env.py --interactive' to reconfigure")
+        print("  3. Create output directories: python scripts/setup_directories.py")
+        print("  4. Run Atlas: python run.py")
+        print("\n💡 Tips:")
+        print("  - Keep your .env file secure (it's in .gitignore)")
+        print("  - Use 'python scripts/generate_env.py --interactive' to reconfigure")
         print(f"  - Backup is available at: {self.backup_path}")
 
     # Validation methods

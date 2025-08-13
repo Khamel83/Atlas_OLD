@@ -1,12 +1,10 @@
 # run.py
 
 import argparse
-import glob
 import logging
 import os
 from pathlib import Path
 
-from dotenv import load_dotenv
 
 from helpers.article_fetcher import fetch_and_save_articles
 from helpers.config import load_config

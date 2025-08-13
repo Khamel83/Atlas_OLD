@@ -6,7 +6,6 @@ Execute individual Atlas tasks with Git-first workflow
 import os
 import sys
 import time
-from datetime import datetime
 
 # Add parent directory to path for imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -40,7 +39,7 @@ class AtlasTaskExecutor:
                 print(f"2️⃣ Running validation for Task {task_id}")
                 # [validation code goes here]
 
-                print(f"3️⃣ Updating documentation")
+                print("3️⃣ Updating documentation")
                 # [documentation updates go here]
 
                 elapsed = (time.time() - start_time) / 60

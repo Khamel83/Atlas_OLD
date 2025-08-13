@@ -1,5 +1,4 @@
 import datetime
-import glob
 import os
 from urllib.parse import urlencode
 
@@ -224,17 +223,7 @@ def trigger_job(job_id: str):
     return RedirectResponse(url="/jobs/html", status_code=303)
 
 
-@app.get("/jobs/{job_id}/logs", response_class=HTMLResponse)
-def job_logs(request: Request, job_id: str):
-    """Show logs for a job. For ingestion jobs, show real log file; otherwise, show in-memory log."""
-    if job_id in INGESTION_LOG_PATHS:
-        log_path = INGESTION_LOG_PATHS[job_id]
-        logs = read_log_tail(log_path)
-    else:
-        logs = job_logs.get(job_id, ["No logs for this job yet."])
-    return templates.TemplateResponse(
-        "logs.html", {"request": request, "job_id": job_id, "logs": logs}
-    )
+
 
 
 @app.post("/jobs/{job_id}/enable")

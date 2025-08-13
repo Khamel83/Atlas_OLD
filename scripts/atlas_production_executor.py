@@ -13,7 +13,7 @@ from dataclasses import asdict, dataclass
 from datetime import datetime
 from enum import Enum
 from pathlib import Path
-from typing import Dict, List, Optional, Set, Tuple
+from typing import Dict, List, Optional, Set
 
 # Add parent directory to path for imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -374,7 +374,6 @@ class AtlasProductionExecutor:
 
         # Simple parser for task format: "- [ ] X.Y Task description"
         current_phase = 0
-        current_major_task = 0
 
         for line in content.split("\n"):
             line = line.strip()
@@ -383,16 +382,16 @@ class AtlasProductionExecutor:
             if line.startswith("## Phase"):
                 try:
                     current_phase = int(line.split("Phase")[1].split(":")[0].strip())
-                except:
+                except Exception:
                     pass
 
             # Detect major task headers
             elif line.startswith("### Major Task"):
                 try:
-                    current_major_task = int(
+                    int(
                         line.split("Major Task")[1].split(":")[0].strip()
                     )
-                except:
+                except Exception:
                     pass
 
             # Parse individual tasks
@@ -514,7 +513,7 @@ class AtlasProductionExecutor:
             context = self.context_loader.load_task_context(task_id)
 
             # Generate execution prompt
-            prompt = self.context_loader.generate_task_prompt(task_id, context)
+            self.context_loader.generate_task_prompt(task_id, context)
 
             # Execute task using git workflow
             def task_work():

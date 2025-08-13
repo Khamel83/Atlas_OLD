@@ -9,14 +9,12 @@ import json
 import os
 import tempfile
 import unittest
-from datetime import datetime, timedelta
-from unittest.mock import MagicMock, mock_open, patch
+from datetime import datetime
+from unittest.mock import mock_open, patch
 
 from helpers.metadata_manager import (
     ContentMetadata,
     ContentType,
-    FetchAttempt,
-    FetchDetails,
     MetadataManager,
     ProcessingStatus,
 )

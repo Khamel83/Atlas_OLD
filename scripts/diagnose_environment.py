@@ -17,19 +17,17 @@ import argparse
 import json
 import os
 import platform
-import shutil
 import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
 
 # Add project root to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 try:
     from helpers.config import load_config
-    from helpers.validate import ConfigValidator, validate_config_enhanced
+    from helpers.validate import ConfigValidator
 
     CONFIG_AVAILABLE = True
 except ImportError as e:
@@ -200,11 +198,9 @@ class EnvironmentDiagnostic:
         # Read requirements
         try:
             with open("requirements.txt", "r") as f:
-                requirements = [
-                    line.strip()
-                    for line in f
-                    if line.strip() and not line.startswith("#")
-                ]
+                for line in f:
+                    if line.strip() and not line.startswith("#"):
+                        pass
         except Exception as e:
             self.issues.append(
                 {
@@ -332,7 +328,7 @@ class EnvironmentDiagnostic:
             try:
                 config = load_config()
                 data_dir = config.get("data_directory", "output")
-            except:
+            except Exception:
                 pass
 
         data_path = Path(data_dir)
@@ -368,7 +364,7 @@ class EnvironmentDiagnostic:
             try:
                 test_file.write_text("test")
                 test_file.unlink()
-                self.info.append(f"✅ Data directory is writable")
+                self.info.append("✅ Data directory is writable")
             except Exception:
                 self.issues.append(
                     {
@@ -405,7 +401,7 @@ class EnvironmentDiagnostic:
             try:
                 config = load_config()
                 data_dir = config.get("data_directory", "output")
-            except:
+            except Exception:
                 pass
 
         subdirs = ["articles", "podcasts", "youtube", "logs"]
@@ -680,7 +676,6 @@ def main():
             "warnings": len(diagnostic.warnings),
             "fixes_applied": len(diagnostic.fixes),
             "issues": diagnostic.issues,
-            "warnings": diagnostic.warnings,
             "fixes": diagnostic.fixes,
             "info": diagnostic.info,
         }

@@ -1,4 +1,3 @@
-import pytest
 
 from ask.socratic.question_engine import QuestionEngine
 

@@ -15,8 +15,7 @@ import threading
 import time
 import uuid
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import datetime, timedelta
-from pathlib import Path
+from datetime import datetime
 from typing import Any, Dict, List, Optional
 
 # Add project root to path
@@ -28,8 +27,8 @@ from ingest.capture.bulletproof_capture import (BulletproofCapture,
                                                 get_capture_status)
 from ingest.capture.failure_notifier import (log_processing_failure,
                                              notify_system_error)
-from ingest.queue.processing_queue import (Priority, ProcessingQueue,
-                                           QueueItem, QueueStatus)
+from ingest.queue.processing_queue import (ProcessingQueue,
+                                           QueueItem)
 
 logger = logging.getLogger(__name__)
 
@@ -71,9 +70,6 @@ class QueueProcessor:
         """Get appropriate processor for item type."""
         try:
             if item_type == "url":
-                # Import article processor
-                from helpers.article_fetcher import fetch_and_save_articles
-
                 return self._process_url_item
             elif item_type == "file":
                 # Import file processor based on file type
@@ -491,7 +487,7 @@ class QueueProcessor:
                     futures, timeout=self.processor_timeout * 60
                 ):
                     try:
-                        result = future.result()
+                        future.result()
                     except Exception as e:
                         logger.error(f"Future failed: {e}")
                         self.failed_count += 1

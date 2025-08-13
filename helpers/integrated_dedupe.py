@@ -10,7 +10,7 @@ from typing import Dict, List, Optional, Tuple
 
 from helpers.config import load_config
 from helpers.dedupe import link_uid
-from helpers.enhanced_dedupe import (EnhancedDeduplicator, SimilarityMatch,
+from helpers.enhanced_dedupe import (SimilarityMatch,
                                      create_enhanced_deduplicator)
 from helpers.metadata_manager import ContentType, MetadataManager
 from helpers.path_manager import PathManager

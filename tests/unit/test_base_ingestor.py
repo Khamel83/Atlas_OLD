@@ -1,8 +1,8 @@
-from unittest.mock import MagicMock, patch
+from unittest.mock import patch
 
 import pytest
 
-from helpers.base_ingestor import BaseIngestor, IngestorResult
+from helpers.base_ingestor import BaseIngestor
 from helpers.metadata_manager import ContentType
 
 

@@ -5,10 +5,8 @@ Enhanced Model Selector with Free-First Logic, Usage Tracking, and Rate Limiting
 import json
 import logging
 import os
-import time
 from datetime import datetime, timedelta
-from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Tuple
 
 import litellm
 import requests
@@ -328,7 +326,7 @@ class ModelDiscovery:
         """Test if a model is available and working"""
         try:
             # Try a minimal completion
-            response = litellm.completion(
+            litellm.completion(
                 model=model,
                 messages=[{"role": "user", "content": "Hi"}],
                 max_tokens=1,

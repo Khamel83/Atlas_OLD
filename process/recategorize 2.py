@@ -86,7 +86,7 @@ def run_recategorization(args):
         new_classification = classify_content(content, config)
 
         if not new_classification:
-            print(f"  -> Failed to classify content. Skipping update.")
+            print("  -> Failed to classify content. Skipping update.")
             continue
 
         # --- Update Metadata ---

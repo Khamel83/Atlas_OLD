@@ -1,23 +1,15 @@
 # helpers/podcast_ingestor.py
-import hashlib
-import json
 import os
-from datetime import datetime
-from pathlib import Path
 
 import feedparser
 import requests
 
-from helpers.base_ingestor import BaseIngestor, IngestorResult
+from helpers.base_ingestor import BaseIngestor
 from helpers.dedupe import link_uid
-from helpers.error_handler import AtlasErrorHandler
-from helpers.evaluation_utils import EvaluationFile
-from helpers.retry_queue import enqueue
+from helpers.metadata_manager import ContentType
 from helpers.transcription import transcribe_audio
-from helpers.utils import (calculate_hash, generate_markdown_summary,
-                           log_error, log_info, sanitize_filename)
-from process.evaluate import (classify_content, diarize_speakers,
-                              extract_entities, summarize_text)
+from helpers.utils import (generate_markdown_summary,
+                           log_error, log_info)
 
 USER_AGENT = "AtlasIngestor/1.0 (+https://github.com/yourrepo/atlas)"
 
@@ -112,7 +104,7 @@ class PodcastIngestor(BaseIngestor):
         # Use the path_manager to get all required paths
         paths = self.path_manager.get_path_set(self.content_type, file_id)
         audio_path = paths.get_path("audio")
-        meta_path = paths.get_path("metadata")
+        paths.get_path("metadata")
         transcript_path = paths.get_path("transcript")
         md_path = paths.get_path("markdown")
 

@@ -3,7 +3,6 @@ Unit tests for the config module.
 """
 
 import os
-import tempfile
 import unittest
 from unittest.mock import mock_open, patch
 
@@ -69,12 +68,6 @@ class TestConfig(unittest.TestCase):
     def test_load_config_defaults(self):
         """Test config loading with default values."""
         # Clear relevant env vars
-        env_vars_to_clear = [
-            "DATA_DIRECTORY",
-            "OPENROUTER_API_KEY",
-            "TRANSCRIBE_ENABLED",
-            "LOG_LEVEL",
-        ]
 
         with patch.dict(os.environ, {}, clear=True):
             config = load_config()

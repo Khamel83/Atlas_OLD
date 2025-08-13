@@ -4,15 +4,13 @@ Unit tests for helpers.article_strategies module.
 Tests all article fetching strategies, content analysis, and orchestration logic.
 """
 
-import json
-from pathlib import Path
-from unittest.mock import MagicMock, Mock, call, patch
+from unittest.mock import patch
 
 import pytest
 
 # Import the module under test
 from helpers.article_strategies import (ArchiveTodayStrategy, ArticleFetcher,
-                                        ArticleFetchStrategy, ContentAnalyzer,
+                                        ContentAnalyzer,
                                         DirectFetchStrategy, FetchResult,
                                         GooglebotStrategy, PlaywrightStrategy,
                                         TwelveFtStrategy,
@@ -404,7 +402,7 @@ class TestArticleFetcher:
 
         # Mock the content analyzer to detect paywall
         with patch.object(fetcher.analyzer, "is_likely_paywall", return_value=True):
-            result = fetcher.fetch_article(url)
+            fetcher.fetch_article(url)
 
         # Should try multiple strategies due to paywall detection
         assert mock_requests["get"].call_count > 1

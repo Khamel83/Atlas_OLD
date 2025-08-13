@@ -8,28 +8,23 @@ When a TODO is added/modified/completed anywhere, it's reflected everywhere.
 """
 
 import json
-import os
 import re
-import shutil
 import subprocess
 import sys
 from dataclasses import asdict, dataclass
 from datetime import datetime
 from enum import Enum
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Set, Tuple
+from typing import Dict, List, Optional
 
 # Add parent directory to path for imports
 sys.path.append(str(Path(__file__).parent.parent))
 
 try:
     from rich.console import Console
-    from rich.panel import Panel
-    from rich.progress import Progress, SpinnerColumn, TextColumn
-    from rich.prompt import Confirm, Prompt
+    from rich.prompt import Prompt
     from rich.rule import Rule
     from rich.table import Table
-    from rich.text import Text
 except ImportError:
     print("Rich library not found. Please run 'pip install rich'.")
     sys.exit(1)

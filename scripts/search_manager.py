@@ -7,27 +7,22 @@ including index setup, content indexing, and search testing.
 """
 
 import argparse
-import json
 import sys
 import time
 from pathlib import Path
-from typing import Dict, List
 
 from rich.console import Console
 from rich.panel import Panel
 from rich.progress import (BarColumn, Progress, SpinnerColumn,
                            TaskProgressColumn, TextColumn)
 from rich.table import Table
-from rich.text import Text
 
 # Add project root to path for imports
 sys.path.append(str(Path(__file__).parent.parent))
 
 try:
     from helpers.metadata_manager import ContentType
-    from helpers.search_engine import (MEILISEARCH_AVAILABLE,
-                                       AtlasSearchEngine, get_search_engine,
-                                       is_search_available, search_content)
+    from helpers.search_engine import MEILISEARCH_AVAILABLE, get_search_engine
 except ImportError as e:
     print(f"Error importing search modules: {e}")
     print("Make sure you're running from the Atlas root directory")
@@ -68,7 +63,7 @@ class SearchManagerCLI:
             TextColumn("[progress.description]{task.description}"),
             console=console,
         ) as progress:
-            task = progress.add_task("Checking search service health...", total=None)
+            progress.add_task("Checking search service health...", total=None)
             health = self.search_engine.health_check()
 
         if health["status"] == "healthy":
@@ -117,7 +112,7 @@ class SearchManagerCLI:
                 TextColumn("[progress.description]{task.description}"),
                 console=console,
             ) as progress:
-                task = progress.add_task("Setting up search index...", total=None)
+                progress.add_task("Setting up search index...", total=None)
                 success = self.search_engine.setup_index(reset=reset)
 
             if success:
@@ -170,7 +165,7 @@ class SearchManagerCLI:
                 TaskProgressColumn(),
                 console=console,
             ) as progress:
-                task = progress.add_task("Indexing content...", total=None)
+                progress.add_task("Indexing content...", total=None)
 
                 result = self.search_engine.index_content(
                     content_type=content_type_enum, batch_size=batch_size
@@ -248,7 +243,7 @@ class SearchManagerCLI:
                 TextColumn("[progress.description]{task.description}"),
                 console=console,
             ) as progress:
-                task = progress.add_task(f"Searching for '{query}'...", total=None)
+                progress.add_task(f"Searching for '{query}'...", total=None)
                 results = self.search_engine.search(query, limit=10)
 
             # Display search metadata
@@ -387,7 +382,7 @@ class SearchManagerCLI:
                 TextColumn("[progress.description]{task.description}"),
                 console=console,
             ) as progress:
-                task = progress.add_task("Clearing search index...", total=None)
+                progress.add_task("Clearing search index...", total=None)
                 success = self.search_engine.clear_index()
 
             if success:
@@ -438,7 +433,7 @@ class SearchManagerCLI:
         console.print(results_table)
 
         # Summary
-        console.print(f"\n[bold]Test Summary:[/bold]")
+        console.print("\n[bold]Test Summary:[/bold]")
         console.print(f"Successful: {successful_tests}/{len(test_queries)}")
         if successful_tests > 0:
             console.print(f"Average Response Time: {total_time/successful_tests:.1f}ms")
@@ -453,7 +448,7 @@ def main():
     subparsers = parser.add_subparsers(dest="command", help="Available commands")
 
     # Health command
-    health_parser = subparsers.add_parser("health", help="Check search service health")
+    
 
     # Setup command
     setup_parser = subparsers.add_parser("setup", help="Set up search index")
@@ -484,8 +479,9 @@ def main():
     # Clear command
     clear_parser = subparsers.add_parser("clear", help="Clear search index")
 
-    # Test command
-    test_parser = subparsers.add_parser("test", help="Test search functionality")
+    # Health command
+    health_parser = subparsers.add_parser("health", help="Check search service health")
+    subparsers.add_parser("test", help="Test search functionality")
 
     args = parser.parse_args()
 

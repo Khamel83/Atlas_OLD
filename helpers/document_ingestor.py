@@ -6,7 +6,7 @@ Integration of AtlasDocumentProcessor with the Atlas ingestion pipeline.
 import os
 import tempfile
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, Optional, Tuple
 from urllib.parse import urlparse
 from urllib.request import urlretrieve
 
@@ -16,7 +16,6 @@ from helpers.base_ingestor import BaseIngestor, IngestorResult
 from helpers.document_processor import (AtlasDocumentProcessor,
                                         is_document_processing_available)
 from helpers.metadata_manager import ContentMetadata, ContentType
-from helpers.utils import log_error, log_info
 
 
 class DocumentIngestor(BaseIngestor):
@@ -191,7 +190,6 @@ class DocumentIngestor(BaseIngestor):
         Returns:
             bool: True if successful, False otherwise
         """
-        temp_file = None
         is_temp_file = file_path.startswith(self.temp_dir)
 
         try:
@@ -358,7 +356,7 @@ class DocumentIngestor(BaseIngestor):
             # Process content
             success = self.process_content(file_path_or_error, metadata)
             if not success:
-                error_msg = f"Failed to process document content"
+                error_msg = "Failed to process document content"
                 self.handle_error(error_msg, source)
                 return IngestorResult(success=False, error=error_msg)
 

@@ -10,7 +10,7 @@ import argparse
 import json
 import sys
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict
 
 from rich.console import Console
 from rich.panel import Panel
@@ -20,7 +20,6 @@ from rich.table import Table
 # Add project root to path for imports
 sys.path.append(str(Path(__file__).parent.parent))
 
-from helpers.enhanced_dedupe import SimilarityMatch
 from helpers.integrated_dedupe import IntegratedDeduplicator
 from helpers.metadata_manager import ContentType
 
@@ -48,7 +47,7 @@ class DuplicateManagerCLI:
             TextColumn("[progress.description]{task.description}"),
             console=console,
         ) as progress:
-            task = progress.add_task("Scanning content for duplicates...", total=None)
+            progress.add_task("Scanning content for duplicates...", total=None)
             stats = self.deduplicator.get_duplicate_statistics()
 
         # Display overall statistics
@@ -96,7 +95,7 @@ class DuplicateManagerCLI:
             console.print("Valid types: article, youtube, podcast, instapaper")
             return
 
-        console.print(f"\n[bold blue]🔎 Finding Similar Content[/bold blue]")
+        console.print("\n[bold blue]🔎 Finding Similar Content[/bold blue]")
         console.print(f"Content Type: {content_type}")
         console.print(f"UID: {uid}")
 
@@ -121,12 +120,10 @@ class DuplicateManagerCLI:
 
         # Find similar content
         try:
-            with Progress(
-                SpinnerColumn(),
-                TextColumn("[progress.description]{task.description}"),
+            TextColumn("[progress.description]{task.description}"),
                 console=console,
             ) as progress:
-                task = progress.add_task("Finding similar content...", total=None)
+                progress.add_task("Finding similar content...", total=None)
                 matches = self.deduplicator.find_similar_content(
                     content_type_enum, target_item, limit
                 )
@@ -176,7 +173,7 @@ class DuplicateManagerCLI:
             console.print(f"[red]✗[/red] Invalid content type: {content_type}")
             return
 
-        console.print(f"\n[bold blue]🔍 Checking URL for Duplicates[/bold blue]")
+        console.print("\n[bold blue]🔍 Checking URL for Duplicates[/bold blue]")
         console.print(f"URL: {url}")
         console.print(f"Content Type: {content_type}")
 
@@ -227,7 +224,7 @@ class DuplicateManagerCLI:
                 TextColumn("[progress.description]{task.description}"),
                 console=console,
             ) as progress:
-                task = progress.add_task(
+                progress.add_task(
                     "Analyzing duplicates for cleanup...", total=None
                 )
                 result = self.deduplicator.cleanup_duplicates(
@@ -291,7 +288,7 @@ class DuplicateManagerCLI:
         if duplicate_info["content_duplicate"]:
             match = duplicate_info["similarity_match"]
             if match:
-                content_lines.append(f"[yellow]• Content similarity detected[/yellow]")
+                content_lines.append("[yellow]• Content similarity detected[/yellow]")
                 content_lines.append(
                     f"  Similarity Score: {match.similarity_score:.3f}"
                 )

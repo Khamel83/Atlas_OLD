@@ -96,8 +96,6 @@ def main():
         fix_script = Path("fix_atlas_structure.sh")
         if fix_script.exists():
             # Read and execute the script contents directly
-            with open(fix_script, "r") as f:
-                lines = f.readlines()
 
             # Create the directories and files as specified in the script
             directories = [

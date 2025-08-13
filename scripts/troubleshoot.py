@@ -187,7 +187,7 @@ def generate_support_report():
                     ["ls", "-la"], capture_output=True, text=True
                 )
                 f.write(ls_result.stdout)
-            except:
+            except Exception:
                 f.write("Cannot list directory contents\n")
 
         print(f"✅ Support report saved to: {report_file}")

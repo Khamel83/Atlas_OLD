@@ -1,5 +1,4 @@
 import hashlib
-import json
 import os
 import re
 from datetime import datetime
@@ -14,13 +13,10 @@ from playwright_stealth import Stealth
 from readability import Document
 
 from helpers.article_strategies import ArticleFetcher
-from helpers.config import load_config
-from helpers.evaluation_utils import EvaluationFile
 from helpers.metadata_manager import MetadataManager, ContentType, ProcessingStatus
 from helpers.retry_queue import enqueue
 from helpers.utils import (calculate_hash, generate_markdown_summary,
                            log_error, log_info)
-from process.evaluate import classify_content, extract_entities, summarize_text
 
 # --- Constants ---
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
@@ -172,8 +168,6 @@ def _fetch_with_12ft(url: str, log_path: str) -> str:
 
 
 def fetch_and_save_articles(urls, output_dir):
-    from playwright.sync_api import sync_playwright
-    from playwright_stealth import Stealth
 
     for url in urls:
         try:
@@ -402,7 +396,7 @@ def fetch_and_save_article(url: str, config: dict) -> bool:
     
     def convert_meta_to_content_metadata(meta_dict, file_id):
         """Convert old meta dict to ContentMetadata format."""
-        from helpers.metadata_manager import FetchDetails, FetchAttempt
+        from helpers.metadata_manager import FetchDetails
         
         # Convert status string to ProcessingStatus enum
         status_map = {
@@ -465,8 +459,6 @@ def fetch_and_save_article(url: str, config: dict) -> bool:
         return True
 
     response_text = None
-    fetch_method_log = []
-    fetch_start_time = datetime.now()
 
     # Replace all direct/fallback HTTP logic with:
     fetcher = ArticleFetcher()
@@ -510,7 +502,7 @@ def fetch_and_save_article(url: str, config: dict) -> bool:
         # Convert HTML to Markdown
         from bs4 import BeautifulSoup
 
-        soup = BeautifulSoup(content, "html.parser")
+        BeautifulSoup(content, "html.parser")
 
         # Basic HTML to Markdown conversion
         from html2text import HTML2Text
@@ -615,217 +607,3 @@ def fetch_and_save_article(url: str, config: dict) -> bool:
     metadata_manager.save_metadata(content_metadata)
 
     return meta["status"] == "success"
-
-
-def fetch_and_save_articles(config: dict):
-    """
-    Orchestrates the fetching, processing, and saving of an article.
-
-    This function implements a highly resilient, multi-layered fetching strategy:
-    1.  **Direct Fetch:** A standard `requests` call.
-    2.  **Paywall/Truncation Check:** If the direct fetch succeeds, the content is
-        checked for common paywall phrases or an unusually low word count.
-    3.  **12ft.io Fallback:** If the content appears truncated, it retries with `12ft.io`.
-    4.  **Archive.today Fallback:** If 12ft.io fails, it tries archive.today as another
-        paywall bypass option.
-    5.  **Googlebot Spoof:** If the direct fetch fails with a 403/401 error, it retries
-        by spoofing the Googlebot User-Agent.
-    6.  **Playwright Fallback:** If all HTTP-based methods fail, it uses a full
-        headless browser to render the page, bypassing many anti-bot measures.
-    7.  **Wayback Machine Fallback:** As a final resort for dead links or persistent
-        failures, it queries the Internet Archive for a saved copy.
-    8.  **Archive.today Last Resort:** If not already tried and all else fails, it
-        attempts to retrieve from archive.today.
-
-    The entire chain of attempts is logged to the article's metadata file.
-    """
-    input_path = os.path.join("inputs", "articles.txt")
-    output_path = config["article_output_path"]
-    html_save_dir = os.path.join(output_path, "html")
-    meta_save_dir = os.path.join(output_path, "metadata")
-    md_save_dir = os.path.join(output_path, "markdown")
-    log_path = os.path.join(output_path, "ingest.log")
-
-    os.makedirs(html_save_dir, exist_ok=True)
-    os.makedirs(meta_save_dir, exist_ok=True)
-    os.makedirs(md_save_dir, exist_ok=True)
-
-    if not os.path.exists(input_path):
-        log_error(log_path, f"No article input file found at {input_path}")
-        return
-
-    with open(input_path, "r") as f:
-        urls = [line.strip() for line in f if line.strip()]
-
-    for url in urls:
-        meta = {
-            "title": None,
-            "source": url,
-            "date": datetime.now().isoformat(),
-            "tags": [],
-            "notes": [],
-            "status": "started",
-            "error": None,
-            "content_path": None,
-            "fetch_method": "unknown",
-            "fetch_details": {
-                "attempts": [],
-                "successful_method": None,
-                "is_truncated": False,
-                "total_attempts": 0,
-                "fetch_time": None,
-            },
-        }
-        from helpers.dedupe import link_uid
-
-        file_id = link_uid(url)
-        html_path = os.path.join(html_save_dir, f"{file_id}.html")
-        meta_path = os.path.join(meta_save_dir, f"{file_id}.json")
-        md_path = os.path.join(md_save_dir, f"{file_id}.md")
-
-        # Check if metadata file already exists, if so, skip.
-        if os.path.exists(meta_path):
-            log_info(
-                log_path, f"Article {file_id} ({url}) already processed. Skipping."
-            )
-            continue
-
-        fetch_start_time = datetime.now()
-
-        # Use the new ArticleFetcher to handle all fetching logic
-        fetcher = ArticleFetcher()
-        result = fetcher.fetch_with_fallbacks(url, log_path)
-
-        # Update metadata with fetch results
-        meta["fetch_method"] = result.method
-        meta["fetch_details"]["successful_method"] = result.method
-        meta["fetch_details"]["is_truncated"] = result.is_truncated
-        meta["fetch_details"]["fetch_time"] = (
-            datetime.now() - fetch_start_time
-        ).total_seconds()
-        # NOTE: The new FetchResult doesn't track all individual attempts in the same way.
-        # This is a simplification as the fallback chain is now managed by the orchestrator.
-        meta["fetch_details"]["total_attempts"] = 1  # Simplified
-
-        # If all methods failed, log and continue
-        if not result.success or not result.content:
-            error_message = f"Failed to fetch content for {url} using all available methods: {result.error}"
-            log_error(log_path, error_message)
-            meta["status"] = "error"
-            meta["error"] = error_message
-            with open(meta_path, "w", encoding="utf-8") as mf:
-                json.dump(meta, mf, indent=2)
-
-            # Add to retry queue
-            enqueue(
-                {
-                    "type": "article",
-                    "url": url,
-                    "file_id": file_id,
-                    "error": error_message,
-                    "timestamp": datetime.now().isoformat(),
-                    "attempts": 1,  # Simplified
-                }
-            )
-            continue
-
-        response_text = result.content
-
-        try:
-            with open(html_path, "w", encoding="utf-8") as htmlf:
-                htmlf.write(response_text)
-            meta["status"] = "success"
-
-            # Extract main text
-            doc = Document(response_text)
-            title = doc.title()
-            summary_html = doc.summary()
-            summary_text = BeautifulSoup(summary_html, "html.parser").get_text()
-            meta["title"] = title
-            meta["summary_text"] = summary_text[:500]  # preview only
-
-            # Generate Markdown summary
-            md = generate_markdown_summary(
-                title=title,
-                source=url,
-                date=meta["date"],
-                tags=[],
-                notes=[],
-                content=summary_text,
-            )
-            with open(md_path, "w", encoding="utf-8") as mdf:
-                mdf.write(md)
-            meta["content_path"] = md_path
-
-            # --- Run Evaluations ---
-            try:
-                eval_file = EvaluationFile(source_file_path=md_path, config=config)
-
-                eval_file.add_evaluation(
-                    evaluator_id="ingestion_v1",
-                    eval_type="ingestion_check",
-                    result={
-                        "status": "success",
-                        "notes": f"Content fetched via {meta.get('fetch_method', 'unknown')}",
-                    },
-                )
-
-                # 2. Classify content
-                classification_result = classify_content(summary_text, config)
-                if classification_result:
-                    eval_file.add_evaluation(
-                        evaluator_id="openrouter_classifier_v1",
-                        eval_type="content_classification",
-                        result={
-                            "classification": classification_result,
-                            "model": config.get("llm_model"),
-                        },
-                    )
-                    # Add new categories and categorization metadata
-                    meta["tags"].extend(
-                        classification_result.get("tier_1_categories", [])
-                    )
-                    meta["tags"].extend(
-                        classification_result.get("tier_2_sub_tags", [])
-                    )
-                    meta["category_version"] = "v1.0"
-                    meta["last_tagged_at"] = datetime.now().isoformat()
-                    meta["source_hash"] = calculate_hash(md_path)
-
-                # For articles, we currently run the same pipeline for all types.
-                # This can be expanded later if specific article types need different processing.
-                log_info(
-                    log_path, "Running standard summary/entity pipeline for article."
-                )
-                summary = summarize_text(summary_text, config)
-                if summary:
-                    eval_file.add_evaluation(
-                        evaluator_id="openrouter_summary_v1",
-                        eval_type="summary",
-                        result={
-                            "summary_text": summary,
-                            "model": config.get("llm_model"),
-                        },
-                    )
-                entities = extract_entities(summary_text, config)
-                if entities:
-                    eval_file.add_evaluation(
-                        evaluator_id="openrouter_entities_v1",
-                        eval_type="entity_extraction",
-                        result={"entities": entities, "model": config.get("llm_model")},
-                    )
-
-                eval_file.save()
-            except Exception as e:
-                log_error(
-                    log_path,
-                    f"Failed to create or update evaluation file for {md_path}: {e}",
-                )
-
-        except Exception as e:
-            meta["extract_error"] = str(e)
-            meta["error"] = str(e)
-            log_error(log_path, f"Error processing content for {url}: {e}")
-        finally:
-            with open(meta_path, "w", encoding="utf-8") as mf:
-                json.dump(meta, mf, indent=2)

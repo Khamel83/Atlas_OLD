@@ -3,7 +3,6 @@ Safety and compliance monitoring for Atlas.
 Helps users avoid common legal and security pitfalls.
 """
 
-import json
 import logging
 import os
 import re
@@ -160,7 +159,7 @@ class SafetyMonitor:
 
 def check_pre_run_safety(config: Dict[str, Any]) -> bool:
     """Run safety checks before starting Atlas operations."""
-    monitor = SafetyMonitor(config)
+    SafetyMonitor(config)
 
     # Check basic security setup
     issues = []

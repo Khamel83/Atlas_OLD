@@ -10,8 +10,7 @@ import os
 from dataclasses import asdict, dataclass, field
 from datetime import datetime
 from enum import Enum
-from pathlib import Path
-from typing import Any, Dict, List, Optional, Union, TypedDict
+from typing import Any, Dict, List, Optional, TypedDict
 
 from helpers.dedupe import link_uid
 from helpers.utils import calculate_hash
@@ -244,7 +243,7 @@ class MetadataManager:
 
             return ContentMetadata(**data)
 
-        except (json.JSONDecodeError, KeyError, ValueError) as e:
+        except (json.JSONDecodeError, KeyError, ValueError):
             # Handle corrupted metadata gracefully
             return None
 
@@ -266,7 +265,7 @@ class MetadataManager:
 
             return True
 
-        except Exception as e:
+        except Exception:
             return False
 
     def get_metadata_path(self, content_type: ContentType, uid: str) -> str:
@@ -649,8 +648,6 @@ class MetadataManager:
         if time_window not in window_deltas:
             time_window = "month"
 
-        delta = window_deltas[time_window]
-
         # Group content by time windows
         time_groups: defaultdict[str, list] = defaultdict(list)
         content_volume: defaultdict[str, int] = defaultdict(int)
@@ -752,8 +749,7 @@ class MetadataManager:
         Returns:
             List of ContentMetadata due for review
         """
-        import math
-        from datetime import datetime, timedelta
+        from datetime import datetime
 
         all_metadata = self.get_all_metadata()
         recall_candidates: List[RecallCandidate] = []

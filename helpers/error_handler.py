@@ -5,13 +5,11 @@ This module provides standardized error handling, logging, and retry mechanisms
 for the Atlas system, ensuring consistent error reporting and handling patterns.
 """
 
-import logging
 import os
 import traceback
 from dataclasses import dataclass, field
 from datetime import datetime
 from enum import Enum
-from pathlib import Path
 from typing import Any, Callable, Dict, Optional
 
 from helpers.retry_queue import enqueue

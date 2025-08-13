@@ -126,7 +126,7 @@ def check_env_file():
         table.add_row(".env file", "[red]✖ NOT FOUND[/red]")
         console.print(table)
         console.print(
-            f"[yellow]Please create a '.env' file in the root or /config directory.[/yellow]"
+            "[yellow]Please create a '.env' file in the root or /config directory.[/yellow]"
         )
         return
 
@@ -169,7 +169,7 @@ def check_env_file():
         elif var == "OPENROUTER_API_KEY" and openai_key_is_openrouter:
             table.add_row(
                 f"  - {var}",
-                f"[grey70]○ Not Needed[/grey70] (Using OpenRouter key from OPENAI_API_KEY)",
+                "[grey70]○ Not Needed[/grey70] (Using OpenRouter key from OPENAI_API_KEY)",
             )
 
         elif is_api_key and provider not in var.lower().replace("_api_key", ""):

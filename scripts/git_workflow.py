@@ -4,7 +4,6 @@ Git-first development workflow for Atlas.
 Automatically commits work every 15-30 minutes to ensure GitHub backup.
 """
 
-import os
 import subprocess
 import time
 from datetime import datetime

@@ -365,7 +365,7 @@ def example_usage():
 
     # Get stats
     stats = get_todo_stats()
-    print(f"\nTODO Stats:")
+    print("\nTODO Stats:")
     print(f"  Total: {stats['total']}")
     print(f"  Pending: {stats['pending']}")
     print(f"  Critical: {stats['critical']}")

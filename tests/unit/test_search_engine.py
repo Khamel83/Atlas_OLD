@@ -1,5 +1,4 @@
-import os
-from unittest.mock import MagicMock, Mock, patch
+from unittest.mock import Mock, patch
 
 import pytest
 
@@ -338,13 +337,13 @@ class TestAtlasSearchEngine:
 
         filters = {"content_type": "article", "tags": ["python", "tutorial"]}
 
-        result = search_engine.search("test", filters=filters)
+        search_engine.search("test", filters=filters)
 
         # Verify search was called with proper filter syntax
         search_engine.index.search.assert_called_once()
         call_args = search_engine.index.search.call_args
         search_params = call_args[1]
-
+    
         assert "filter" in search_params
         filter_expr = search_params["filter"]
         assert "content_type = 'article'" in filter_expr
@@ -358,11 +357,11 @@ class TestAtlasSearchEngine:
             "processingTimeMs": 1,
         }
 
-        result = search_engine.search("test", sort=["created_at:desc"])
+        search_engine.search("test", sort=["created_at:desc"])
 
         # Verify sort parameter was passed
-        call_args = search_engine.index.search.call_args[1]
-        assert call_args["sort"] == ["created_at:desc"]
+        search_params = search_engine.index.search.call_args[1]
+        assert search_params["sort"] == ["created_at:desc"]
 
     def test_search_error(self, search_engine):
         """Test search with error."""

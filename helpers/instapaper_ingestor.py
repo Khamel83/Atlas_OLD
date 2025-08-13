@@ -6,7 +6,7 @@ from time import sleep
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
 from playwright.sync_api import sync_playwright
 
-from helpers.base_ingestor import BaseIngestor, IngestorResult
+from helpers.base_ingestor import BaseIngestor
 from helpers.error_handler import AtlasErrorHandler
 from helpers.metadata_manager import ContentType
 

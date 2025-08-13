@@ -28,10 +28,10 @@ import subprocess
 import sys
 import time
 from dataclasses import asdict, dataclass
-from datetime import datetime, timedelta
+from datetime import datetime
 from enum import Enum
 from pathlib import Path
-from typing import Any, Callable, Dict, List, Optional
+from typing import Dict, Optional
 
 # Add parent directory to path for imports
 sys.path.append(str(Path(__file__).parent.parent))
@@ -39,7 +39,6 @@ sys.path.append(str(Path(__file__).parent.parent))
 try:
     from apscheduler.events import EVENT_JOB_ERROR, EVENT_JOB_EXECUTED
     from apscheduler.executors.pool import ThreadPoolExecutor
-    from apscheduler.job import Job
     from apscheduler.jobstores.sqlalchemy import SQLAlchemyJobStore
     from apscheduler.schedulers.background import BackgroundScheduler
     from apscheduler.triggers.cron import CronTrigger
@@ -52,11 +51,9 @@ except ImportError as e:
 try:
     from rich.console import Console
     from rich.panel import Panel
-    from rich.progress import Progress, SpinnerColumn, TextColumn
     from rich.prompt import Confirm, Prompt
     from rich.rule import Rule
     from rich.table import Table
-    from rich.text import Text
 except ImportError:
     print("Rich library not found. Please run 'pip install rich'.")
     sys.exit(1)
@@ -483,7 +480,7 @@ class AtlasScheduler:
             if self.scheduler:
                 try:
                     self.scheduler.remove_job(job_id)
-                except:
+                except Exception:
                     pass
 
             self.logger.info(f"Removed job: {job_id}")
@@ -511,7 +508,7 @@ class AtlasScheduler:
             if self.scheduler:
                 try:
                     self.scheduler.remove_job(job_id)
-                except:
+                except Exception:
                     pass
 
             return True
@@ -705,7 +702,7 @@ def main():
                         pid = int(f.read().strip())
                     os.kill(pid, signal.SIGTERM)
                     console.print("[yellow]Scheduler stop signal sent[/yellow]")
-                except:
+                except Exception:
                     console.print("[red]Failed to stop scheduler[/red]")
             else:
                 console.print("[yellow]Scheduler is not running[/yellow]")

@@ -9,29 +9,23 @@ work recursively through tasks until hitting a blocker.
 
 import json
 import logging
-import os
 import subprocess
 import sys
 from dataclasses import asdict, dataclass
 from datetime import datetime
 from enum import Enum
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Dict, List, Optional
 
 # Add parent directory to path for imports
 sys.path.append(str(Path(__file__).parent.parent))
 
 try:
     from rich.console import Console
-    from rich.layout import Layout
-    from rich.live import Live
     from rich.panel import Panel
-    from rich.progress import Progress, SpinnerColumn, TextColumn
     from rich.prompt import Confirm, Prompt
     from rich.rule import Rule
-    from rich.syntax import Syntax
     from rich.table import Table
-    from rich.text import Text
 except ImportError:
     print("Rich library not found. Please run 'pip install rich'.")
     sys.exit(1)
@@ -266,7 +260,6 @@ class DevWorkflow:
 
     def display_task_dashboard(self):
         """Display comprehensive task dashboard."""
-        layout = Layout()
 
         # Task status summary
         status_counts = {}
@@ -403,9 +396,6 @@ class DevWorkflow:
             if not metadata_manager_path.exists():
                 self.logger.error("metadata_manager.py not found")
                 return False
-
-            with open(metadata_manager_path, "r") as f:
-                content = f.read()
 
             # Simple implementation - this would need more sophisticated parsing
             # For now, we'll just log what needs to be done
@@ -675,7 +665,7 @@ class TestBaseIngestor:
                 if not Confirm.ask("Continue with next task?"):
                     break
 
-        console.print(f"\n[cyan]Automated development complete![/cyan]")
+        console.print("\n[cyan]Automated development complete![/cyan]")
         console.print(f"Tasks completed: {tasks_completed}")
 
         return True

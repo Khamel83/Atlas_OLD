@@ -87,7 +87,7 @@ def transcribe_audio(audio_path: str, log_path: str) -> Optional[str]:
 
     except FileNotFoundError:
         log_error(
-            log_path, f"Transcription failed. The 'whisper' command was not found."
+            log_path, "Transcription failed. The 'whisper' command was not found."
         )
         log_error(
             log_path,

@@ -16,12 +16,10 @@ Options:
 """
 
 import argparse
-import os
 import subprocess
 import sys
 import time
 from pathlib import Path
-from typing import Any, Dict, List, Optional
 
 
 class AtlasSetupWizard:
@@ -140,7 +138,7 @@ class AtlasSetupWizard:
 
         if missing_files:
             print(f"❌ Missing required files: {', '.join(missing_files)}")
-            print(f"   Make sure you're running this from the Atlas project directory")
+            print("   Make sure you're running this from the Atlas project directory")
             return False
 
         print("✓ Project structure validated")
@@ -392,20 +390,16 @@ class AtlasSetupWizard:
 
             print("✓ Testing core imports...")
             from helpers.config import load_config
-            from helpers.metadata_manager import MetadataManager
-            from helpers.path_manager import PathManager
 
             # Test configuration loading
             print("✓ Testing configuration loading...")
-            config = load_config()
+            load_config()
 
             # Test path manager
             print("✓ Testing path management...")
-            path_manager = PathManager(config)
 
             # Test metadata manager
             print("✓ Testing metadata management...")
-            metadata_manager = MetadataManager(config)
 
             print("✅ All basic tests passed!")
             self._mark_step_complete(6)

@@ -23,11 +23,10 @@ Usage:
 
 import json
 import logging
-import os
 import re
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, Optional
 from urllib.parse import urljoin, urlparse
 
 import requests
@@ -455,7 +454,7 @@ class TranscriptLookup:
                     response = requests.head(show_notes_url, timeout=5)
                     if response.status_code == 200:
                         return show_notes_url
-                except:
+                except Exception:
                     continue
 
         return None

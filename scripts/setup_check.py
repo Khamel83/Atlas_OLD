@@ -96,7 +96,7 @@ def check_atlas_import():
 
         # Try to load config
         try:
-            config = load_config()
+            load_config()
             print_status("Configuration loads successfully", "success")
             return True
         except Exception as e:

@@ -6,7 +6,6 @@ import os
 import sys
 from urllib.parse import urlparse
 
-import pytest
 
 # Add the project root directory to the Python path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
@@ -72,7 +71,7 @@ class TestUrlUtils:
         """Test URL normalization with None input."""
         url = None
         normalized = normalize_url(url)
-        assert normalized == None
+        assert normalized is None
 
     def test_normalize_url_case_sensitivity(self):
         """Test URL normalization with mixed case."""

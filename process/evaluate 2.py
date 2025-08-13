@@ -3,10 +3,8 @@
 import json
 
 import litellm
-import requests
 import yaml
 
-from helpers.config import load_config
 
 
 def get_llm_model_for_provider(config: dict) -> str:

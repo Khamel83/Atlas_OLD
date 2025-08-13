@@ -2,7 +2,7 @@ import csv
 import json
 import os
 import re
-from collections import Counter, defaultdict
+from collections import defaultdict
 
 import requests
 import streamlit as st
@@ -289,7 +289,7 @@ else:
                         )
                     with col2:
                         if st.button(
-                            f"Mark as known/ignored", key=f"ignore_{cluster_key}"
+                            "Mark as known/ignored", key=f"ignore_{cluster_key}"
                         ):
                             st.session_state["cluster_status"][
                                 cluster_key
@@ -297,7 +297,7 @@ else:
                             save_known_errors(st.session_state["cluster_status"])
                             st.experimental_rerun()
                         if st.button(
-                            f"Mark as new/critical", key=f"critical_{cluster_key}"
+                            "Mark as new/critical", key=f"critical_{cluster_key}"
                         ):
                             st.session_state["cluster_status"][
                                 cluster_key

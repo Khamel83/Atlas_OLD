@@ -4,11 +4,7 @@ Integration tests for the web dashboard.
 Tests all cognitive amplification API endpoints and HTML dashboard functionality.
 """
 
-import json
-import os
-import tempfile
 import unittest
-from unittest.mock import patch
 
 from fastapi.testclient import TestClient
 

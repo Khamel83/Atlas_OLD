@@ -14,7 +14,7 @@ import json
 import logging
 import os
 import sys
-from datetime import datetime, timedelta
+from datetime import datetime
 from pathlib import Path
 from typing import Dict, List
 
@@ -24,8 +24,7 @@ import requests  # Added for OpenRouter API calls
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from helpers.config import load_config
-from helpers.model_selector import (EnhancedModelSelector, ModelDiscovery,
-                                    ModelUsageTracker, model_selector)
+from helpers.model_selector import (EnhancedModelSelector, ModelDiscovery)
 
 # Configure logging
 logging.basicConfig(
@@ -555,7 +554,6 @@ echo "Backup saved as config/.env.backup.{timestamp}"
             recommendations["new_models_to_try"] = new_models[:5]  # Top 5 new models
 
         # Analyze current tier configurations
-        current_tiers = self.model_selector.tier_map
 
         # Recommend tier updates based on new fast models
         if discovered_models["fast_models"]:

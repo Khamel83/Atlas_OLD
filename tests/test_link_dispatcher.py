@@ -4,9 +4,8 @@ Unit tests for the link_dispatcher module.
 
 import os
 import sys
-from unittest.mock import MagicMock, patch
+from unittest.mock import patch
 
-import pytest
 
 # Add the project root directory to the Python path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
@@ -75,7 +74,7 @@ class TestLinkDispatcher:
 
         # Test case 1: URL is a duplicate (article)
         mock_exists.return_value = True
-        assert is_duplicate("https://example.com/article", config) == True
+        assert is_duplicate("https://example.com/article", config) is True
         mock_exists.assert_any_call(
             os.path.join("output/articles", "metadata", "1234567890abcdef.json")
         )
@@ -85,7 +84,7 @@ class TestLinkDispatcher:
 
         # Test case 2: URL is not a duplicate
         mock_exists.return_value = False
-        assert is_duplicate("https://example.com/article", config) == False
+        assert is_duplicate("https://example.com/article", config) is False
 
     @patch("ingest.link_dispatcher.is_duplicate")
     @patch("ingest.link_dispatcher.detect_url_type")
@@ -95,13 +94,13 @@ class TestLinkDispatcher:
 
         # Test case 1: Empty URL
         success, message = dispatch_url("", config)
-        assert success == False
+        assert not success
         assert "Empty URL" in message
 
         # Test case 2: Duplicate URL
         mock_is_duplicate.return_value = True
         success, message = dispatch_url("https://example.com", config)
-        assert success == True
+        assert success
         assert "duplicate" in message.lower()
 
         # Reset mocks
@@ -113,7 +112,7 @@ class TestLinkDispatcher:
         with patch("ingest.link_dispatcher.ingest_youtube_video") as mock_ingest:
             mock_ingest.return_value = True
             success, message = dispatch_url("https://youtube.com/watch?v=123", config)
-            assert success == True
+            assert success
             assert "youtube" in message.lower()
             mock_ingest.assert_called_once()
 
@@ -122,7 +121,7 @@ class TestLinkDispatcher:
         success, message = dispatch_url(
             "https://podcasts.apple.com/podcast/123", config
         )
-        assert success == False
+        assert not success
         assert "not implemented" in message.lower()
 
         # Test case 5: Article URL
@@ -130,7 +129,7 @@ class TestLinkDispatcher:
         with patch("ingest.link_dispatcher.fetch_and_save_article") as mock_fetch:
             mock_fetch.return_value = True
             success, message = dispatch_url("https://example.com/article", config)
-            assert success == True
+            assert success
             assert "article" in message.lower()
             mock_fetch.assert_called_once()
 

@@ -19,11 +19,10 @@ import importlib
 import json
 import os
 import platform
-import shutil
 import subprocess
 import sys
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple, TypedDict
+from typing import Any, Dict, List, Optional, TypedDict
 
 
 class PythonVersionResult(TypedDict):
@@ -247,7 +246,7 @@ class DependencyValidator:
         if missing_packages:
             if fix_issues:
                 if verbose:
-                    print(f"\n🔧 Attempting to install missing packages...")
+                    print("\n🔧 Attempting to install missing packages...")
                 self._install_packages(missing_packages, verbose)
                 # Re-validate after installation attempt
                 remaining_missing = []
@@ -375,7 +374,7 @@ class DependencyValidator:
         if env_path.exists():
             config_status["env_file"] = "exists"
             if verbose:
-                print(f"  ✓ .env file exists")
+                print("  ✓ .env file exists")
 
             # Check .env file permissions
             if oct(env_path.stat().st_mode)[-3:] != "600":
@@ -388,13 +387,13 @@ class DependencyValidator:
                     }
                 )
                 if verbose:
-                    print(f"  ⚠ .env file permissions should be 600")
+                    print("  ⚠ .env file permissions should be 600")
 
                 if fix_issues:
                     try:
                         os.chmod(env_path, 0o600)
                         if verbose:
-                            print(f"    🔧 Fixed .env permissions")
+                            print("    🔧 Fixed .env permissions")
                     except Exception as e:
                         config_issues.append(
                             {
@@ -415,14 +414,14 @@ class DependencyValidator:
             )
             config_status["env_file"] = "missing"
             if verbose:
-                print(f"  ❌ .env file missing")
+                print("  ❌ .env file missing")
 
         # Check for requirements.txt
         req_path = self.project_root / "requirements.txt"
         if req_path.exists():
             config_status["requirements_file"] = "exists"
             if verbose:
-                print(f"  ✓ requirements.txt exists")
+                print("  ✓ requirements.txt exists")
         else:
             config_issues.append(
                 {
@@ -439,10 +438,10 @@ class DependencyValidator:
             sys.path.insert(0, str(self.project_root))
             from helpers.config import load_config
 
-            config = load_config()
+            load_config()
             config_status["config_loading"] = "success"
             if verbose:
-                print(f"  ✓ Configuration loads successfully")
+                print("  ✓ Configuration loads successfully")
         except Exception as e:
             config_issues.append(
                 {
@@ -672,7 +671,7 @@ class DependencyValidator:
 
             if result.returncode == 0:
                 if verbose:
-                    print(f"    ✓ Installation completed")
+                    print("    ✓ Installation completed")
             else:
                 if verbose:
                     print(f"    ❌ Installation failed: {result.stderr}")
@@ -713,7 +712,7 @@ class DependencyValidator:
                     print(f"   💡 {issue['suggestion']}")
 
         if verbose:
-            print(f"\n📋 Detailed Results:")
+            print("\n📋 Detailed Results:")
             for category, result in self.results.items():
                 if category == "overall":
                     continue

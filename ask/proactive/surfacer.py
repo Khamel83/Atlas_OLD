@@ -11,7 +11,7 @@ class ProactiveSurfacer:
         Return up to n content items not updated in the last cutoff_days.
         Enhanced with caching and improved ranking.
         """
-        from datetime import datetime, timedelta
+        from datetime import datetime
 
         # Check cache validity
         now = datetime.now()

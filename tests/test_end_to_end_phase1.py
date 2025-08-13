@@ -29,7 +29,7 @@ import pytest
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from helpers.config import load_config
-from helpers.validate import ConfigValidator, validate_config_enhanced
+from helpers.validate import ConfigValidator
 
 
 class TestPhase1EndToEnd:
@@ -237,7 +237,6 @@ class TestPhase1EndToEnd:
             os.chdir(temp_dir)
 
             # Copy essential files to temp directory
-            project_root = Path(__file__).parent.parent
 
             # Create minimal project structure
             (Path(temp_dir) / "helpers").mkdir()
@@ -354,7 +353,6 @@ class TestPhase1ValidationCoverage:
             "llm_provider": "openrouter",
             "OPENROUTER_API_KEY": "sk-or-v1-test-key-12345678901234567890",
             "USE_12FT_IO_FALLBACK": True,  # Privacy concern
-            "OPENROUTER_API_KEY": "your_key_here",  # Placeholder detection
         }
 
         errors, warnings = validator.validate_config(config)

@@ -19,7 +19,6 @@ import logging
 import os
 import shutil
 import tempfile
-import time
 import uuid
 from datetime import datetime
 from pathlib import Path
@@ -101,7 +100,7 @@ def _atomic_write(content: str, target_path: str) -> bool:
         try:
             if "temp_path" in locals() and os.path.exists(temp_path):
                 os.unlink(temp_path)
-        except:
+        except Exception:
             pass
         return False
 

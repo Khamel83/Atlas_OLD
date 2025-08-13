@@ -1,12 +1,11 @@
 # process/evaluate.py
 
 import json
+from typing import Optional
 
 import litellm
-import requests
 import yaml
 
-from helpers.config import get_model_for_task, load_config
 from helpers.model_selector import record_model_usage, select_model
 
 
@@ -34,7 +33,7 @@ def get_llm_model_for_provider(
     return model
 
 
-from typing import Optional
+
 
 
 def summarize_text(text: str, config: dict) -> Optional[str]:

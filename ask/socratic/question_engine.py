@@ -7,7 +7,6 @@ class QuestionEngine:
         """
         Generate contextually relevant Socratic questions enhanced with metadata analysis.
         """
-        import re
 
         # Enhanced question generation using metadata context
         questions = []

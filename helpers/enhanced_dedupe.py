@@ -6,14 +6,10 @@ Jaccard similarity scoring and multi-level duplicate detection strategies.
 """
 
 import hashlib
-import json
-import os
 import re
-from collections import Counter
 from dataclasses import dataclass
 from typing import Dict, List, Optional, Set, Tuple
 
-from helpers.dedupe import link_uid
 from helpers.metadata_manager import ContentType, MetadataManager
 from helpers.path_manager import PathManager
 

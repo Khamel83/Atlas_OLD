@@ -6,8 +6,6 @@ import importlib.util
 import os
 import pathlib
 import shutil
-import site
-import sys
 import venv
 
 

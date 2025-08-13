@@ -5,16 +5,14 @@ These tests mock Skyvern functionality to test the integration logic
 without requiring actual Skyvern API access.
 """
 
-import os
-import tempfile
 import unittest
-from unittest.mock import MagicMock, Mock, patch
+from unittest.mock import Mock, patch
 
 import pytest
 
 from helpers.metadata_manager import ContentMetadata, ContentType
 from helpers.skyvern_enhanced_ingestor import (
-    SKYVERN_AVAILABLE, SkyvernEnhancedIngestor, SkyvernInstapaperEnhancer,
+    SkyvernEnhancedIngestor, SkyvernInstapaperEnhancer,
     create_skyvern_enhanced_ingestor)
 
 

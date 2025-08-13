@@ -1,8 +1,6 @@
-import os
 import subprocess
 from pathlib import Path
 
-from helpers.utils import sanitize_filename
 
 
 def transcribe_audio(audio_path: str) -> str:

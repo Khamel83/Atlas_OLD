@@ -5,12 +5,11 @@ This module provides full-text search capabilities using Meilisearch for fast,
 typo-tolerant search with intelligent ranking and filtering.
 """
 
-import json
 import logging
 import os
 import time
 from datetime import datetime
-from typing import Any, Dict, List, Optional, Set, Union
+from typing import Any, Dict, List, Optional
 
 try:
     import meilisearch
@@ -159,7 +158,7 @@ class AtlasSearchEngine:
                 try:
                     self.client.delete_index(self.index_name)
                     logger.info(f"Deleted existing index: {self.index_name}")
-                except:
+                except Exception:
                     pass  # Index might not exist
 
                 # Wait for deletion to complete
@@ -171,7 +170,7 @@ class AtlasSearchEngine:
                     self.index_name, {"primaryKey": "uid"}
                 )
                 logger.info(f"Created new index: {self.index_name}")
-            except:
+            except Exception:
                 self.index = self.client.index(self.index_name)
                 logger.info(f"Using existing index: {self.index_name}")
 
@@ -282,7 +281,7 @@ class AtlasSearchEngine:
             if markdown_path and os.path.exists(markdown_path):
                 with open(markdown_path, "r", encoding="utf-8") as f:
                     content_text = f.read()
-        except:
+        except Exception:
             # If we can't read content, use summary or description
             content_text = summary_text or metadata.get("description", "")
 
@@ -349,7 +348,7 @@ class AtlasSearchEngine:
                     score += 0.2
                 elif days_old < 90:
                     score += 0.1
-        except:
+        except Exception:
             pass
 
         return round(score, 2)
@@ -357,7 +356,7 @@ class AtlasSearchEngine:
     def _index_batch(self, documents: List[Dict], result: Dict):
         """Index a batch of documents."""
         try:
-            task = self.index.add_documents(documents)
+            self.index.add_documents(documents)
             result["indexed_count"] += len(documents)
             logger.debug(f"Indexed batch of {len(documents)} documents")
         except Exception as e:
@@ -404,7 +403,7 @@ class AtlasSearchEngine:
 
         try:
             start_time = time.time()
-            results = self.index.search(query, search_params)
+            results = self.index.search(query, **search_params)
             search_time = time.time() - start_time
 
             # Process results
@@ -594,5 +593,5 @@ def is_search_available() -> bool:
         search_engine = get_search_engine()
         health = search_engine.health_check()
         return health["status"] == "healthy"
-    except:
+    except Exception:
         return False

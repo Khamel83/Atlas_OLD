@@ -17,8 +17,6 @@ from ask.socratic.question_engine import QuestionEngine
 from ask.temporal.temporal_engine import TemporalEngine
 from helpers.metadata_manager import (
     ContentMetadata,
-    ContentType,
-    FetchDetails,
     MetadataManager,
     ProcessingStatus,
 )

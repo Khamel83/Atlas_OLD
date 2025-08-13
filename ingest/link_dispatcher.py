@@ -1,16 +1,12 @@
 import csv
-import json
-import logging
 import os
 import re
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Tuple
 from urllib.parse import urlparse
 
-from helpers.article_fetcher import fetch_and_save_article
 from helpers.dedupe import link_uid
 from helpers.retry_queue import enqueue
 from helpers.utils import log_error, log_info
-from helpers.youtube_ingestor import ingest_youtube_video
 
 # URL pattern matchers
 YOUTUBE_PATTERNS = [

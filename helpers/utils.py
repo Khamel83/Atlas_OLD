@@ -1,12 +1,10 @@
 import hashlib
-import json
 import logging
 import os
 import re
 from datetime import datetime
 from typing import Optional
 
-import requests
 from markdownify import markdownify as md
 
 

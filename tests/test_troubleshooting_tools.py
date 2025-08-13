@@ -11,7 +11,6 @@ import subprocess
 import sys
 import tempfile
 from pathlib import Path
-from unittest.mock import MagicMock, patch
 
 import pytest
 
@@ -168,13 +167,6 @@ class TestEnvironmentDiagnostic:
         self.diagnostic.check_network_connectivity()
 
         # Should have some info about network connectivity
-        network_messages = [
-            msg
-            for msg in self.diagnostic.info
-            + [w["issue"] for w in self.diagnostic.warnings]
-            + [i["issue"] for i in self.diagnostic.issues]
-            if "network" in msg.lower() or "connectivity" in msg.lower()
-        ]
 
         # Note: This might fail in CI environments without network
         # So we just check that the check was attempted
@@ -418,7 +410,6 @@ class TestTroubleshootingIntegration:
         # Check that referenced docs exist (if not this file)
         for doc in doc_refs:
             if doc != "environment-troubleshooting.md":  # Don't self-reference
-                doc_path = Path(f"docs/{doc}")
                 # Some docs might not exist yet, so just check if path is reasonable
                 assert doc.endswith(".md"), f"Referenced doc {doc} should be markdown"
 

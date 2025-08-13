@@ -6,13 +6,10 @@ including test environment setup, mock services, sample data, and utilities.
 """
 
 import json
-import os
-import shutil
 import sys
-import tempfile
 from pathlib import Path
-from typing import Any, Dict, Generator, Optional
-from unittest.mock import MagicMock, Mock, patch
+from typing import Generator
+from unittest.mock import MagicMock, patch
 
 import pytest
 
@@ -31,7 +28,6 @@ sys.path.insert(0, str(PROJECT_ROOT))
 def test_env() -> Generator[TestEnvironment, None, None]:
     """Provide isolated test environment with temporary directories."""
     env = TestEnvironment()
-    temp_dir = env.setup()
 
     yield env
 

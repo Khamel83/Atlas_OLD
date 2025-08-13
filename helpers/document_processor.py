@@ -13,7 +13,7 @@ import os
 import tempfile
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple, Union, TypedDict
+from typing import Any, Dict, List, Optional, TypedDict
 
 try:
     from unstructured.documents.elements import (CompositeElement, Element,
@@ -36,8 +36,8 @@ except ImportError:
     UNSTRUCTURED_AVAILABLE = False
 
 from helpers.config import load_config
-from helpers.metadata_manager import ContentType, MetadataManager
-from helpers.path_manager import PathManager, PathType
+from helpers.metadata_manager import MetadataManager
+from helpers.path_manager import PathManager
 
 logger = logging.getLogger(__name__)
 

@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 
+import os
+import sys
+
 print("Hello from Python!")
 print("Python version:", end=" ")
-import sys
 
 print(sys.version)
 
 print("Current working directory:", end=" ")
-import os
 
 print(os.getcwd())
 

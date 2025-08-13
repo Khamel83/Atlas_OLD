@@ -1,9 +1,8 @@
 import unittest
-from unittest.mock import MagicMock, patch
+from unittest.mock import patch
 
 from helpers.metadata_manager import (ContentMetadata, ContentType,
-                                      FetchAttempt, FetchDetails,
-                                      MetadataManager, ProcessingStatus)
+                                      MetadataManager)
 
 
 class TestMetadataManager(unittest.TestCase):
@@ -32,9 +31,9 @@ class TestMetadataManager(unittest.TestCase):
             source="https://example.com",
             title="Test Article",
         )
-        with patch("builtins.open", unittest.mock.mock_open()) as mock_open, patch(
+        with patch("builtins.open", unittest.mock.mock_open()), patch(
             "json.dump"
-        ) as mock_json_dump, patch("os.path.exists", return_value=True), patch(
+        ), patch("os.path.exists", return_value=True), patch(
             "json.load", return_value=metadata.__dict__
         ):
             self.manager.save_metadata(metadata)

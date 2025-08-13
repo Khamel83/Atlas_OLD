@@ -80,8 +80,7 @@ class TestRetryQueue:
 
         # Create empty queue file
         queue_path = Path(temp_queue_dir) / "queue.jsonl"
-        with open(queue_path, "w", encoding="utf-8") as f:
-            pass
+        queue_path.touch()
 
         # Try to dequeue from empty file
         result = dequeue()

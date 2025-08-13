@@ -185,7 +185,7 @@ def load_config() -> dict:
     }
 
     # Validate the configuration with enhanced validation
-    from helpers.validate import ConfigValidator, validate_config_enhanced
+    from helpers.validate import ConfigValidator
 
     try:
         validator = ConfigValidator()
