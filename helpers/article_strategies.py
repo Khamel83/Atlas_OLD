@@ -367,7 +367,6 @@ class PlaywrightStrategy(ArticleFetchStrategy):
             with sync_playwright() as p:
                 browser = p.chromium.launch()
                 context = browser.new_context()
-                stealth(context)
                 page = context.new_page()
                 page.goto(url, wait_until="domcontentloaded", timeout=30000)
                 sleep(3)
