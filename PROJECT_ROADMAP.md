@@ -125,10 +125,54 @@ Transform how users interact with and derive insights from their personal knowle
    - Improve clarity of error messages.
    - Ensure comprehensive logging for easier debugging.
 
-### **Phase 2: Advanced Features (Weeks 3-6)**
+### **Phase 2: Enhanced Recovery and Authentication (Weeks 3-4)**
+*Priority: Maximize content recovery capabilities*
+
+#### Week 3: Paywall Authentication Enhancement
+**Objective**: Fix authenticated login for premium content sites
+**Reference**: @.agent-os/specs/2025-01-14-paywall-authentication-fix/spec.md
+
+**Deliverables**:
+1. **Authentication Debugging** (2-3 hours)
+   - Create live form inspector for NYTimes/WSJ login pages
+   - Validate current selectors against real form HTML
+   - Document complete authentication flows
+
+2. **Enhanced Authentication Implementation** (4-5 hours)
+   - Fix PaywallAuthenticatedStrategy with correct selectors
+   - Add session management and cookie persistence
+   - Implement robust authentication success/failure detection
+
+3. **Integration and Testing** (2-3 hours)
+   - Comprehensive testing with real credentials
+   - Production integration with fallback to Enhanced Wayback
+   - Documentation and monitoring setup
+
+**Expected Impact**: Recover 301+ NYTimes articles and additional WSJ content currently failing due to authentication issues.
+
+#### Week 4: Production Deployment and Optimization
+**Objective**: Deploy enhanced recovery strategies and optimize performance
+
+**Deliverables**:
+1. **Enhanced Recovery Production Deployment** (4-6 hours)
+   - Deploy Enhanced Wayback Machine with 10 timeframe strategy
+   - Production-grade rate limiting and error handling
+   - Monitoring and metrics collection
+
+2. **Large-Scale Recovery Operation** (6-8 hours)
+   - Process remaining 1,000+ failed articles with enhanced strategies
+   - Quality assessment and success rate analysis
+   - Performance optimization based on real-world usage
+
+3. **System Monitoring and Alerting** (2-4 hours)
+   - Authentication success rate monitoring
+   - Recovery strategy performance tracking
+   - Automated alerts for system issues
+
+### **Phase 3: Advanced Features (Weeks 5-8)**
 *Priority: Feature enhancement and reliability*
 
-#### Weeks 4-5: Content Intelligence
+#### Weeks 5-6: Content Intelligence
 **Objective**: Enhance content processing capabilities
 
 **Deliverables**:

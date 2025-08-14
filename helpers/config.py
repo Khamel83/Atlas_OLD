@@ -53,6 +53,10 @@ def load_config() -> dict:
         "YOUTUBE_API_KEY": os.environ.get("YOUTUBE_API_KEY"),
         "NYT_USERNAME": os.environ.get("NYT_USERNAME"),
         "NYT_PASSWORD": os.environ.get("NYT_PASSWORD"),
+        "NYTIMES_USERNAME": os.environ.get("NYTIMES_USERNAME"),
+        "NYTIMES_PASSWORD": os.environ.get("NYTIMES_PASSWORD"),
+        "WSJ_USERNAME": os.environ.get("WSJ_USERNAME"),
+        "WSJ_PASSWORD": os.environ.get("WSJ_PASSWORD"),
         "INSTAPAPER_LOGIN": os.environ.get("INSTAPAPER_LOGIN")
         or os.environ.get("INSTAPAPER_USERNAME"),
         "INSTAPAPER_PASSWORD": os.environ.get("INSTAPAPER_PASSWORD"),
