@@ -22,6 +22,11 @@ from helpers.utils import log_error, log_info
 
 # --- Constants ---
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+
+def respectful_delay(min_seconds=2, max_seconds=8):
+    """Add respectful delay to be a good citizen and avoid rate limiting"""
+    delay = random.uniform(min_seconds, max_seconds)
+    sleep(delay)
 GOOGLEBOT_USER_AGENT = (
     "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
 )
@@ -248,87 +253,118 @@ class DirectFetchStrategy(ArticleFetchStrategy):
         return "direct"
 
 
-class TwelveFtStrategy(ArticleFetchStrategy):
-    """12ft.io paywall bypass strategy."""
+class PaywallBypassStrategy(ArticleFetchStrategy):
+    """Enhanced paywall bypass strategy with multiple alternatives to 12ft.io (shut down July 2025)."""
 
     def fetch(self, url: str, log_path: str = "") -> FetchResult:
-        try:
-            log_info(log_path, f"Attempting 12ft.io bypass for {url}")
-            bypass_url = f"https://12ft.io/{url}"
-            headers = {"User-Agent": USER_AGENT}
-            response = requests.get(bypass_url, headers=headers, timeout=20)
-            response.raise_for_status()
+        # List of 12ft.io alternatives from 2025 research
+        bypass_services = [
+            ("removepaywalls.com", "https://removepaywalls.com/{url}"),
+            ("smry.ai", "https://smry.ai/{url}"),
+            ("paywall.vip", "https://paywall.vip/{url}"),
+            ("outline.com", "https://outline.com/{url}"),
+        ]
+        
+        for service_name, url_template in bypass_services:
+            try:
+                log_info(log_path, f"Attempting {service_name} bypass for {url}")
+                respectful_delay(2, 5)  # Be a good citizen
+                bypass_url = url_template.format(url=url)
+                headers = {"User-Agent": USER_AGENT}
+                response = requests.get(bypass_url, headers=headers, timeout=20)
+                response.raise_for_status()
 
-            return FetchResult(
-                success=True,
-                content=response.text,
-                method="12ft_bypass",
-                metadata={
-                    "bypass_url": bypass_url,
-                    "status_code": response.status_code,
-                },
-            )
-        except requests.exceptions.RequestException as e:
-            log_error(log_path, f"12ft.io bypass failed for {url}: {e}")
-            return FetchResult(success=False, error=str(e), method="12ft_bypass")
-
-    def get_strategy_name(self) -> str:
-        return "12ft_bypass"
-
-
-class ArchiveTodayStrategy(ArticleFetchStrategy):
-    """Archive.today strategy for accessing archived content."""
-
-    def fetch(self, url: str, log_path: str = "") -> FetchResult:
-        try:
-            log_info(log_path, f"Attempting archive.today for {url}")
-
-            # First check if archive already exists
-            search_url = f"https://archive.today/newest/{url}"
-            headers = {"User-Agent": USER_AGENT}
-            response = requests.get(search_url, headers=headers, timeout=15)
-
-            if response.status_code == 200 and "archive.today" in response.url:
-                log_info(log_path, f"Found existing archive for {url}")
-                return FetchResult(
-                    success=True,
-                    content=response.text,
-                    method="archive_today_existing",
-                    metadata={"archive_url": response.url},
-                )
-
-            # If no existing archive, try to create one
-            log_info(
-                log_path, f"No existing archive found, creating new archive for {url}"
-            )
-            submit_url = "https://archive.today/submit/"
-            submit_data = {"url": url}
-
-            response = requests.post(
-                submit_url, data=submit_data, headers=headers, timeout=30
-            )
-
-            if response.status_code in [200, 302]:
-                # Archive creation initiated, wait and try to access
-                sleep(5)  # Give archive time to process
-
-                # Try to access the newly created archive
-                response = requests.get(search_url, headers=headers, timeout=15)
-                if response.status_code == 200:
+                # Check if we got meaningful content
+                if len(response.text) > 1000:  # Basic content check
                     return FetchResult(
                         success=True,
                         content=response.text,
-                        method="archive_today_new",
-                        metadata={"archive_url": response.url},
+                        method=f"{service_name}_bypass",
+                        metadata={
+                            "bypass_url": bypass_url,
+                            "status_code": response.status_code,
+                            "service": service_name,
+                        },
+                    )
+                else:
+                    log_info(log_path, f"{service_name} returned minimal content, trying next service...")
+                    
+            except requests.exceptions.RequestException as e:
+                log_error(log_path, f"{service_name} bypass failed for {url}: {e}")
+                continue  # Try next service
+        
+        # If all services failed
+        return FetchResult(success=False, error="All paywall bypass services failed", method="paywall_bypass")
+
+    def get_strategy_name(self) -> str:
+        return "paywall_bypass"
+
+
+class ArchiveTodayStrategy(ArticleFetchStrategy):
+    """Enhanced Archive.today strategy with mirror domains and rate limiting."""
+
+    def fetch(self, url: str, log_path: str = "") -> FetchResult:
+        # Archive.today mirror domains (research from 2025)
+        archive_mirrors = [
+            "archive.today",
+            "archive.is", 
+            "archive.li",
+            "archive.fo",
+            "archive.ph"
+        ]
+        
+        for mirror in archive_mirrors:
+            try:
+                log_info(log_path, f"Attempting {mirror} for {url}")
+                respectful_delay(1, 3)  # Be respectful between mirror attempts
+
+                # First check if archive already exists
+                search_url = f"https://{mirror}/newest/{url}"
+                headers = {"User-Agent": USER_AGENT}
+                response = requests.get(search_url, headers=headers, timeout=15)
+
+                if response.status_code == 200 and mirror in response.url:
+                    log_info(log_path, f"Found existing archive on {mirror} for {url}")
+                    return FetchResult(
+                        success=True,
+                        content=response.text,
+                        method=f"archive_today_existing_{mirror}",
+                        metadata={"archive_url": response.url, "mirror": mirror},
                     )
 
-            raise Exception(
-                f"Archive creation failed with status {response.status_code}"
-            )
+                # If no existing archive, try to create one (only on first mirror to avoid spam)
+                if mirror == archive_mirrors[0]:
+                    log_info(log_path, f"No existing archive found, creating new archive for {url}")
+                    submit_url = f"https://{mirror}/submit/"
+                    submit_data = {"url": url}
 
-        except Exception as e:
-            log_error(log_path, f"Archive.today failed for {url}: {e}")
-            return FetchResult(success=False, error=str(e), method="archive_today")
+                    response = requests.post(submit_url, data=submit_data, headers=headers, timeout=30)
+
+                    if response.status_code in [200, 302]:
+                        # Archive creation initiated, wait and try to access
+                        sleep(5)  # Give archive time to process
+
+                        # Try to access the newly created archive
+                        response = requests.get(search_url, headers=headers, timeout=15)
+                        if response.status_code == 200:
+                            return FetchResult(
+                                success=True,
+                                content=response.text,
+                                method=f"archive_today_new_{mirror}",
+                                metadata={"archive_url": response.url, "mirror": mirror},
+                            )
+                    elif response.status_code == 429:
+                        log_info(log_path, f"Rate limited on {mirror}, trying next mirror...")
+                        continue
+                    else:
+                        log_info(log_path, f"Archive creation failed on {mirror} with status {response.status_code}")
+
+            except requests.exceptions.RequestException as e:
+                log_error(log_path, f"{mirror} failed for {url}: {e}")
+                continue  # Try next mirror
+                
+        # If all mirrors failed
+        return FetchResult(success=False, error="All archive.today mirrors failed or returned low-quality content", method="archive_today")
 
     def get_strategy_name(self) -> str:
         return "archive_today"
@@ -711,7 +747,7 @@ class ArticleFetcher:
         self.strategies = [
             DirectFetchStrategy(),
             PaywallAuthenticatedStrategy(config),  # Try authenticated fetch for paywall sites
-            TwelveFtStrategy(),
+            PaywallBypassStrategy(),
             ArchiveTodayStrategy(),
             GooglebotStrategy(),
             PlaywrightStrategy(),
