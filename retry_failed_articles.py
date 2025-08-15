@@ -37,7 +37,7 @@ def find_failed_articles():
     
     return failed_articles
 
-def retry_with_enhanced_strategies(failed_articles, max_retries=50, use_skyvern=False):
+def retry_with_enhanced_strategies(failed_articles, max_retries=None, use_skyvern=False):
     """Retry failed articles with enhanced strategies"""
     config = load_config()
     
@@ -67,8 +67,11 @@ def retry_with_enhanced_strategies(failed_articles, max_retries=50, use_skyvern=
     successes = 0
     failures = 0
     
-    for i, article in enumerate(failed_articles[:max_retries]):
-        print(f"\n[{i+1}/{min(max_retries, len(failed_articles))}] Retrying: {article['source']}")
+    articles_to_process = failed_articles if max_retries is None else failed_articles[:max_retries]
+    total_articles = len(articles_to_process)
+    
+    for i, article in enumerate(articles_to_process):
+        print(f"\n[{i+1}/{total_articles}] Retrying: {article['source']}")
         print(f"Previous error: {article['error']}")
         
         try:
