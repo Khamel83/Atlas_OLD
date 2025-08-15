@@ -13,13 +13,20 @@ from fastapi import FastAPI, Form, Request
 from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse
 from fastapi.templating import Jinja2Templates
 
-from ask.insights.pattern_detector import PatternDetector
-# --- Cognitive Amplification (Ask) Subsystem Endpoints ---
-from ask.proactive.surfacer import ProactiveSurfacer
-from ask.recall.recall_engine import RecallEngine
-from ask.socratic.question_engine import QuestionEngine
-from ask.temporal.temporal_engine import TemporalEngine
+# Cognitive Features
+try:
+    from ask.insights.pattern_detector import PatternDetector
+    from ask.proactive.surfacer import ProactiveSurfacer
+    from ask.recall.recall_engine import RecallEngine
+    from ask.socratic.question_engine import QuestionEngine
+    from ask.temporal.temporal_engine import TemporalEngine
+    ASK_AVAILABLE = True
+except ImportError:
+    ASK_AVAILABLE = False
+
 from helpers.metadata_manager import MetadataManager
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from cognitive_engine import CognitiveEngine
 
 
 # For demo: instantiate with default config (replace with real config/manager in production)
@@ -33,9 +40,12 @@ def get_metadata_manager():
     return MetadataManager(config)
 
 
-app = FastAPI(title="Atlas Scheduler Web Interface")
+app = FastAPI(title="Atlas Cognitive Platform")
 
 templates = Jinja2Templates(directory="web/templates")
+
+# Initialize cognitive engine
+cognitive_engine = CognitiveEngine()
 
 # Path to the scheduler's SQLite job store (should match Atlas scheduler)
 JOBSTORE_PATH = os.path.join(
@@ -422,3 +432,29 @@ async def ask_dashboard_post(
     return templates.TemplateResponse(
         "ask_dashboard.html", {"request": request, "feature": feature, "data": data}
     )
+
+
+# Cognitive Engine Endpoints
+@app.get("/cognitive/analyze")
+async def analyze_content(text: str = "", limit: int = 3):
+    """Analyze content using cognitive engine"""
+    if not text:
+        return {"error": "No text provided"}
+    
+    analysis = {
+        "condensed": cognitive_engine.condense_content(text),
+        "insights": cognitive_engine.extract_insights(text),
+        "connections": cognitive_engine.find_connections(text, limit)
+    }
+    return analysis
+
+@app.get("/cognitive/status")
+async def cognitive_status():
+    """Get cognitive engine status"""
+    return {
+        "ai_enabled": bool(cognitive_engine.openrouter_api_key),
+        "search_enabled": cognitive_engine.search_engine is not None,
+        "model": cognitive_engine.model,
+        "features": ["content_condensation", "insight_extraction", "connection_finding"]
+    }
+
