@@ -216,7 +216,7 @@ def main():
         print(json.dumps(result, indent=2))
     else:
         if result["success"]:
-            print(f"\n🎉 Content successfully submitted to Atlas!")
+            print("\n🎉 Content successfully submitted to Atlas!")
             if "capture_id" in result:
                 print(f"📋 Tracking ID: {result['capture_id']}")
         else:

@@ -54,7 +54,7 @@ class ComprehensiveMetadataValidator:
                 feed = feedparser.parse(feed_url)
                 
                 if not feed.entries:
-                    print(f"   ⚠️  No entries in feed")
+                    print("   ⚠️  No entries in feed")
                     continue
                 
                 feed_analysis = {
@@ -242,12 +242,12 @@ class ComprehensiveMetadataValidator:
     
     def _save_results(self):
         """Save comprehensive test results"""
-        results_file = self.test_dir / f"metadata_coverage_analysis.json"
+        results_file = self.test_dir / "metadata_coverage_analysis.json"
         
         with open(results_file, 'w') as f:
             json.dump(self.results, f, indent=2)
         
-        print(f"\n📊 METADATA COVERAGE ANALYSIS")
+        print("\n📊 METADATA COVERAGE ANALYSIS")
         print("=" * 50)
         
         coverage = self.results["metadata_coverage"]
@@ -255,7 +255,7 @@ class ComprehensiveMetadataValidator:
         print(f"Total episodes analyzed: {coverage['total_episodes_analyzed']}")
         print(f"Unique metadata fields found: {coverage['total_unique_fields']}")
         
-        print(f"\n🎯 Critical Metadata Coverage:")
+        print("\n🎯 Critical Metadata Coverage:")
         for key, percentage in coverage["critical_metadata_coverage"].items():
             status = "✅" if percentage > 80 else "⚠️ " if percentage > 50 else "❌"
             print(f"  {status} {key.replace('has_', '').title()}: {percentage:.1f}%")
@@ -263,7 +263,7 @@ class ComprehensiveMetadataValidator:
         if self.results["missing_fields"]:
             print(f"\n⚠️  Potentially missing fields: {', '.join(self.results['missing_fields'])}")
         
-        print(f"\n💡 Recommendations:")
+        print("\n💡 Recommendations:")
         for rec in self.results["recommendations"]:
             print(f"  {rec}")
         

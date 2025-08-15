@@ -13,7 +13,6 @@ from helpers.article_strategies import (ArchiveTodayStrategy, ArticleFetcher,
                                         ContentAnalyzer,
                                         DirectFetchStrategy, FetchResult,
                                         GooglebotStrategy, PlaywrightStrategy,
-                                        TwelveFtStrategy,
                                         WaybackMachineStrategy)
 
 

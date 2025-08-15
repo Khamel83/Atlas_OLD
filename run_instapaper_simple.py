@@ -14,8 +14,6 @@ sys.path.append(os.path.dirname(__file__))
 
 from helpers.config import load_config
 from helpers.instapaper_ingestor import InstapaperIngestor
-from helpers.article_strategies import DirectFetchStrategy, PlaywrightStrategy, GooglebotStrategy
-from helpers.retry_queue import enqueue
 from helpers.utils import log_info, log_error
 
 
@@ -159,27 +157,27 @@ def main():
         success_rate = (results['successful'] / results['total_processed']) * 100
         print(f"📈 Success rate: {success_rate:.1f}%")
         
-        print(f"\n🎯 Methods that worked:")
+        print("\n🎯 Methods that worked:")
         for method, count in results['methods_used'].items():
             print(f"  • {method}: {count}")
     
     if results['errors']:
-        print(f"\n⚠️  Errors encountered:")
+        print("\n⚠️  Errors encountered:")
         for error in results['errors'][:5]:  # Show first 5 errors
             print(f"  • {error}")
     
-    print(f"\n🎉 Processing complete!")
+    print("\n🎉 Processing complete!")
     
     # Suggest next steps
     if results['successful'] > 0:
-        print(f"\n💡 Next steps:")
-        print(f"  • Check output directories for downloaded content")
+        print("\n💡 Next steps:")
+        print("  • Check output directories for downloaded content")
         print(f"  • Review logs for any processing details: {log_file}")
-        print(f"  • Use Atlas search to find your content")
+        print("  • Use Atlas search to find your content")
     else:
-        print(f"\n🔧 Troubleshooting:")
-        print(f"  • Check Instapaper credentials in .env file")
-        print(f"  • Verify network connectivity")
+        print("\n🔧 Troubleshooting:")
+        print("  • Check Instapaper credentials in .env file")
+        print("  • Verify network connectivity")
         print(f"  • Review error log: {log_file}")
 
 

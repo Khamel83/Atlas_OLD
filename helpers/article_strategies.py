@@ -453,7 +453,7 @@ class PaywallAuthenticatedStrategy(ArticleFetchStrategy):
     def fetch(self, url: str, log_path: str = "") -> FetchResult:
         site_type = self._get_site_type(url)
         if not site_type:
-            return FetchResult(success=False, error=f"Not a supported paywall site", method="paywall_auth")
+            return FetchResult(success=False, error="Not a supported paywall site", method="paywall_auth")
         
         credentials = self._get_credentials(site_type)
         if not credentials:
@@ -622,7 +622,36 @@ class PaywallAuthenticatedStrategy(ArticleFetchStrategy):
         return None
     
     def get_strategy_name(self) -> str:
-        return "paywall_auth"
+        return "12ft"
+
+class TwelveFtStrategy(ArticleFetchStrategy):
+    """12ft.io strategy for paywall bypass"""
+
+    def __init__(self):
+        self.name = "12ft"
+        self.priority = 7
+
+    def fetch(self, url: str, log_path: str = "") -> FetchResult:
+        try:
+            log_info(log_path, f"12ft.io strategy attempting: {url}")
+            twelve_ft_url = f"https://12ft.io/proxy?q={url}"
+            headers = {"User-Agent": USER_AGENT}
+            response = requests.get(twelve_ft_url, headers=headers, timeout=15)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.text, 'html.parser')
+            content = soup.get_text()
+            if len(content.strip()) > 500:
+                log_info(log_path, f"12ft.io SUCCESS for: {url}")
+                return FetchResult(success=True, content=content.strip(), strategy=self.name)
+            else:
+                log_info(log_path, f"12ft.io content too short for: {url}")
+                return FetchResult(success=False, content="", error="Content too short", strategy=self.name)
+        except Exception as e:
+            log_error(log_path, f"12ft.io fetch failed for {url}: {e}")
+            return FetchResult(success=False, error=str(e), strategy=self.name)
+
+    def get_strategy_name(self) -> str:
+        return "12ft"
 
 
 class EnhancedWaybackMachineStrategy(ArticleFetchStrategy):
@@ -736,8 +765,7 @@ class WaybackMachineStrategy(ArticleFetchStrategy):
             return FetchResult(success=False, error=str(e), method="wayback_machine")
 
     def get_strategy_name(self) -> str:
-        return "wayback_machine"
-
+        return "12ft"
 
 class ArticleFetcher:
     """Main article fetcher that orchestrates different strategies."""
@@ -791,6 +819,79 @@ class ArticleFetcher:
             log_path,
             f"All fetch strategies failed or returned low-quality content for {url}",
         )
-        return last_result or FetchResult(
-            success=False, error="All strategies failed or returned low-quality content"
+        return FetchResult(success=False, error="All strategies failed or returned low-quality content"
         )
+
+
+class TwelveFtStrategy(ArticleFetchStrategy):
+    """12ft.io strategy for paywall bypass"""
+
+    def __init__(self):
+        self.name = "12ft"
+        self.priority = 7
+
+    def fetch(self, url: str, log_path: str = "") -> FetchResult:
+        """
+        Fetch article using 12ft.io to bypass paywalls
+        """
+        try:
+            log_info(log_path, f"12ft.io strategy attempting: {url}")
+
+            twelve_ft_url = f"https://12ft.io/proxy?q={url}"
+            response = requests.get(twelve_ft_url, headers={"User-Agent": USER_AGENT}, timeout=15)
+            response.raise_for_status()
+
+            soup = BeautifulSoup(response.text, 'html.parser')
+            content = soup.get_text()
+
+            # Check if content is substantial
+            if len(content.strip()) > 500:
+                log_info(log_path, f"12ft.io SUCCESS for: {url}")
+                return FetchResult(success=True, content=content.strip(), strategy=self.name)
+            else:
+                log_info(log_path, f"12ft.io content too short for: {url}")
+                return FetchResult(success=False, content="", error="Content too short", strategy=self.name)
+
+        except Exception as e:
+            log_error(log_path, f"12ft.io fetch failed for {url}: {e}")
+            return FetchResult(success=False, content="", error=str(e), strategy=self.name)
+
+    def get_strategy_name(self) -> str:
+        return "12ft"
+
+
+class TwelveFtStrategy(ArticleFetchStrategy):
+    """12ft.io strategy for paywall bypass"""
+    
+    def __init__(self):
+        self.name = "12ft"
+        self.priority = 7
+    
+    def fetch(self, url: str, log_path: str = "") -> FetchResult:
+        """
+        Fetch article using 12ft.io to bypass paywalls
+        """
+        try:
+            log_info(log_path, f"12ft.io strategy attempting: {url}")
+            
+            twelve_ft_url = f"https://12ft.io/proxy?q={url}"
+            response = requests.get(twelve_ft_url, headers={"User-Agent": USER_AGENT}, timeout=15)
+            response.raise_for_status()
+            
+            soup = BeautifulSoup(response.text, 'html.parser')
+            content = soup.get_text()
+            
+            # Check if content is substantial
+            if len(content.strip()) > 500:
+                log_info(log_path, f"12ft.io SUCCESS for: {url}")
+                return FetchResult(success=True, content=content.strip(), method="12ft")
+            else:
+                log_info(log_path, f"12ft.io content too short for: {url}")
+                return FetchResult(success=False, error="Content too short", method="12ft")
+                
+        except Exception as e:
+            log_error(log_path, f"12ft.io fetch failed for {url}: {e}")
+            return FetchResult(success=False, error=str(e), method="12ft")
+    
+    def get_strategy_name(self) -> str:
+        return "12ft"

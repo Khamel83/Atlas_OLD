@@ -8,17 +8,13 @@ Determines the minimum transcription quality needed for effective search.
 
 import os
 import json
-import time
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Optional, Any, Tuple
+from typing import Dict, List, Optional, Any
 import statistics
-import difflib
-import re
 
 from helpers.config import load_config
 from helpers.search_engine import SearchEngine
-from helpers.enhanced_transcription import EnhancedTranscriptionEngine
 from helpers.utils import log_info, log_error
 
 
@@ -581,7 +577,7 @@ def main():
     
     # Quality analysis summary
     if results.get("quality_analysis"):
-        print(f"\n📊 Search Performance by Transcription Quality:")
+        print("\n📊 Search Performance by Transcription Quality:")
         print(f"{'Quality Level':<18} {'Success Rate':<12} {'Avg Relevance':<14} {'Degradation'}")
         print("-" * 70)
         
@@ -596,7 +592,7 @@ def main():
     
     # Threshold analysis
     if results.get("transcription_threshold_analysis"):
-        print(f"\n🎯 Transcription Quality Thresholds:")
+        print("\n🎯 Transcription Quality Thresholds:")
         for threshold_name, data in results["transcription_threshold_analysis"].items():
             min_quality = data.get("minimum_transcription_quality", "N/A")
             target_success = data.get("target_success_rate", 0) * 100
@@ -606,16 +602,16 @@ def main():
     if results.get("recommendations"):
         recs = results["recommendations"]
         
-        print(f"\n💡 Transcription Quality Recommendations:")
+        print("\n💡 Transcription Quality Recommendations:")
         for rec in recs.get("transcription_quality_recommendations", []):
             print(f"  • {rec}")
         
-        print(f"\n🔍 Search Optimization Recommendations:")
+        print("\n🔍 Search Optimization Recommendations:")
         for rec in recs.get("search_optimization_recommendations", []):
             print(f"  • {rec}")
         
         if recs.get("use_case_specific_recommendations"):
-            print(f"\n🎯 Use Case Specific Recommendations:")
+            print("\n🎯 Use Case Specific Recommendations:")
             for use_case, rec in recs["use_case_specific_recommendations"].items():
                 print(f"  {use_case.replace('_', ' ').title()}: {rec}")
     

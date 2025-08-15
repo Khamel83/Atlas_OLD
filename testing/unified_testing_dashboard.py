@@ -9,14 +9,11 @@ Central dashboard for running and monitoring all ingestion testing:
 - Tracks testing history and trends
 """
 
-import os
 import json
 import time
-import asyncio
-from datetime import datetime, timedelta
+from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Any
-import threading
 from dataclasses import dataclass
 
 from helpers.config import load_config
@@ -147,7 +144,7 @@ class TestingDashboard:
             for test_name in tests_to_run
         )
         
-        print(f"\n🚀 Starting Comprehensive Ingestion Testing")
+        print("\n🚀 Starting Comprehensive Ingestion Testing")
         print(f"📊 Running {len(tests_to_run)} test suites")
         print(f"⏱️  Estimated duration: {total_estimated_minutes} minutes")
         print(f"📅 Session ID: {self.current_session['session_id']}")
@@ -605,13 +602,13 @@ def main():
     
     # Show summary
     if results:
-        print(f"\n📊 FINAL SUMMARY")
+        print("\n📊 FINAL SUMMARY")
         print(f"Session ID: {results['session_info']['session_id']}")
         print(f"Duration: {results['session_info']['total_duration_minutes']:.1f} minutes")
         print(f"Success Rate: {results['summary']['success_rate']:.1%}")
         
         if results.get("key_insights"):
-            print(f"\n🔍 Key Insights:")
+            print("\n🔍 Key Insights:")
             insights = results["key_insights"]
             if "transcription_performance" in insights and insights["transcription_performance"]:
                 fastest = insights["transcription_performance"].get("fastest_model", {})
@@ -619,7 +616,7 @@ def main():
                     print(f"  Fastest transcription: {fastest['model']} ({fastest.get('words_per_second', 0):.1f} words/sec)")
         
         if results.get("next_steps"):
-            print(f"\n📋 Recommended Next Steps:")
+            print("\n📋 Recommended Next Steps:")
             for step in results["next_steps"]:
                 print(f"  • {step}")
     

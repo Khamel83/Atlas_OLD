@@ -16,7 +16,6 @@ import xml.etree.ElementTree as ET
 import statistics
 
 from helpers.config import load_config
-from helpers.podcast_ingestor import PodcastIngestor
 from helpers.enhanced_transcription import EnhancedTranscriptionEngine, WhisperModel
 from helpers.utils import log_info, log_error
 import feedparser
@@ -527,7 +526,7 @@ def main():
     
     # Performance analysis
     if results.get("performance_analysis"):
-        print(f"\n📊 Performance Analysis:")
+        print("\n📊 Performance Analysis:")
         for model, perf in results["performance_analysis"].items():
             success_rate = perf.get("success_rate", 0) * 100
             avg_speed = perf.get("average_speed_words_per_sec", 0)
@@ -536,7 +535,7 @@ def main():
     # Recommendations
     if results.get("recommendations"):
         recs = results["recommendations"]
-        print(f"\n💡 Recommendations:")
+        print("\n💡 Recommendations:")
         
         if recs.get("speed_recommendations", {}).get("fastest_reliable"):
             fastest = recs["speed_recommendations"]["fastest_reliable"]

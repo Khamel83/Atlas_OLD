@@ -11,8 +11,6 @@ import json
 import requests
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
-import youtube_dl
-from urllib.parse import urlparse
 
 from helpers.utils import log_info, log_error
 
@@ -368,12 +366,12 @@ def main():
     print("\nValidating test data...")
     validation = setup.validate_test_data()
     
-    print(f"\nSetup Results:")
+    print("\nSetup Results:")
     print(f"  Sample Audio Files: {len(results.get('sample_audio', []))}")
     print(f"  Podcast Episodes: {len(results.get('podcast_episodes', []))}")
     print(f"  Synthetic Audio: {len(results.get('synthetic_audio', []))}")
     
-    print(f"\nValidation Results:")
+    print("\nValidation Results:")
     print(f"  Valid Files: {validation['valid_files']}/{validation['total_files']}")
     print(f"  Total Words: {validation['total_transcript_words']}")
     

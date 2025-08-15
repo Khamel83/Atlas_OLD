@@ -17,7 +17,7 @@ import psutil
 import threading
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Optional, Any, Tuple
+from typing import Dict, List, Any
 import statistics
 import concurrent.futures
 from dataclasses import dataclass
@@ -663,14 +663,14 @@ def main():
     # System info
     if results.get("system_info"):
         sys_info = results["system_info"]
-        print(f"\nSystem Information:")
+        print("\nSystem Information:")
         print(f"  CPU Cores: {sys_info.get('cpu_count', 'N/A')} physical, {sys_info.get('cpu_count_logical', 'N/A')} logical")
         print(f"  Memory: {sys_info.get('memory_total_gb', 0):.1f} GB")
         print(f"  Disk Space: {sys_info.get('disk_usage', {}).get('free_gb', 0):.1f} GB free")
     
     # Transcription benchmarks
     if results.get("transcription_benchmarks"):
-        print(f"\n⚡ Transcription Performance:")
+        print("\n⚡ Transcription Performance:")
         for model, data in results["transcription_benchmarks"].items():
             print(f"\n  {model}:")
             for size, metrics in data.items():
@@ -683,7 +683,7 @@ def main():
     # Resource usage analysis
     if results.get("resource_usage_analysis"):
         resource_analysis = results["resource_usage_analysis"]
-        print(f"\n📊 Resource Usage Analysis:")
+        print("\n📊 Resource Usage Analysis:")
         
         if "cpu_analysis" in resource_analysis:
             cpu = resource_analysis["cpu_analysis"]
@@ -697,7 +697,7 @@ def main():
     if results.get("performance_recommendations"):
         recs = results["performance_recommendations"]
         
-        print(f"\n💡 Performance Recommendations:")
+        print("\n💡 Performance Recommendations:")
         
         for rec in recs.get("transcription_optimization", []):
             print(f"  🎤 {rec}")

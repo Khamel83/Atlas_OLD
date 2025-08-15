@@ -14,10 +14,9 @@ Provides speed vs accuracy testing and comparison capabilities.
 
 import os
 import time
-import json
 import subprocess
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple, Any
+from typing import Dict, List, Optional, Any
 from enum import Enum
 import requests
 import base64
@@ -408,14 +407,14 @@ class EnhancedTranscriptionEngine:
         # Try tiny model first (fastest)
         try:
             return self.transcribe_whisper_local(audio_path, WhisperModel.TINY.value, log_path)
-        except:
+        except Exception as e:
             pass
         
         # Fallback to OpenRouter if available
         if self.openrouter_key:
             try:
                 return self.transcribe_openrouter(audio_path, log_path)
-            except:
+            except Exception as e:
                 pass
         
         # Fallback to small model
@@ -429,21 +428,21 @@ class EnhancedTranscriptionEngine:
         # Try large model first
         try:
             return self.transcribe_whisper_local(audio_path, WhisperModel.LARGE.value, log_path)
-        except:
+        except Exception as e:
             pass
         
         # Try AssemblyAI (generally high quality)
         if self.assemblyai_key:
             try:
                 return self.transcribe_assemblyai(audio_path, log_path)
-            except:
+            except Exception as e:
                 pass
         
         # Try OpenAI API
         if self.openai_key:
             try:
                 return self.transcribe_openai_api(audio_path, log_path)
-            except:
+            except Exception as e:
                 pass
         
         # Fallback to medium model

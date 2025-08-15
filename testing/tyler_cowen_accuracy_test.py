@@ -284,7 +284,7 @@ NATE SILVER: I think one thing that's changed is I've become more comfortable wi
         
         accuracy = results.get("accuracy_metrics", {})
         if accuracy:
-            print(f"\n📊 Accuracy Metrics:")
+            print("\n📊 Accuracy Metrics:")
             print(f"   Word accuracy: {accuracy.get('word_accuracy', 0):.2%}")
             print(f"   Precision: {accuracy.get('precision', 0):.2%}")
             print(f"   Recall: {accuracy.get('recall', 0):.2%}")
@@ -292,7 +292,7 @@ NATE SILVER: I think one thing that's changed is I've become more comfortable wi
             print(f"   Character similarity: {accuracy.get('character_similarity', 0):.2%}")
             print(f"   Length ratio (AI/Human): {accuracy.get('length_ratio', 0):.2f}")
             
-            print(f"\n📏 Length Comparison:")
+            print("\n📏 Length Comparison:")
             print(f"   Reference: {accuracy.get('reference_word_count', 0)} words")
             print(f"   AI Generated: {accuracy.get('ai_word_count', 0)} words")
             print(f"   Matched words: {accuracy.get('matched_words', 0)}")

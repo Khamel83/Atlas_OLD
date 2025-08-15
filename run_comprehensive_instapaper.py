@@ -9,13 +9,12 @@ import os
 import sys
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Any
+from typing import Dict, Any
 
 sys.path.append(os.path.dirname(__file__))
 
 from helpers.config import load_config
 from helpers.instapaper_ingestor import InstapaperIngestor
-from helpers.skyvern_enhanced_ingestor import SkyvernEnhancedIngestor
 from helpers.article_strategies import *
 from helpers.retry_queue import enqueue, dequeue
 from ingest.capture.bulletproof_capture import capture_url
@@ -237,7 +236,7 @@ def main():
             print(f"  {strategy}: {count}")
         
         if results['failures']:
-            print(f"\nFirst 5 failures:")
+            print("\nFirst 5 failures:")
             for failure in results['failures'][:5]:
                 print(f"  {failure['url']}: {failure.get('error', 'Unknown error')}")
 

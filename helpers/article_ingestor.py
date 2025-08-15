@@ -22,11 +22,8 @@ from datetime import datetime
 from typing import Any, Dict, List, Optional
 from urllib.parse import urljoin, urlparse
 
-import requests
 from bs4 import BeautifulSoup
 from markdownify import markdownify
-from playwright.sync_api import sync_playwright
-from playwright_stealth import stealth
 from readability import Document
 
 from helpers.article_strategies import ArticleFetcher

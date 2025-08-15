@@ -1,6 +1,10 @@
 import datetime
 import os
+import sys
 from urllib.parse import urlencode
+
+# Add parent directory to Python path for module imports
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from apscheduler.jobstores.sqlalchemy import SQLAlchemyJobStore
 from apscheduler.schedulers.background import BackgroundScheduler

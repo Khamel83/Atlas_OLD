@@ -14,13 +14,10 @@ from typing import Any, Dict, List, Optional, Tuple
 from urllib.parse import urlparse
 
 try:
-    # Skyvern MCP client - would be installed separately
-    from skyvern import SkyverhClient
-
-    SKYVERN_AVAILABLE = True
+    import requests
+    OPENROUTER_AVAILABLE = True
 except ImportError:
-    SkyverhClient = None
-    SKYVERN_AVAILABLE = False
+    OPENROUTER_AVAILABLE = False
 
 from helpers.base_ingestor import BaseIngestor
 from helpers.metadata_manager import ContentMetadata, ContentType
@@ -31,29 +28,28 @@ class SkyvernEnhancedIngestor(BaseIngestor):
     """Enhanced article ingestor with Skyvern AI browser automation."""
 
     def __init__(self, config: Dict[str, Any]):
-        super().__init__(config)
-        self.content_type = ContentType.ARTICLE
-        self.module_name = "skyvern_enhanced_ingestor"
+        super().__init__(config, ContentType.ARTICLE, "skyvern_enhanced_ingestor")
         self._post_init()
 
-        # Skyvern configuration
-        self.skyvern_enabled = (
-            config.get("SKYVERN_ENABLED", False) and SKYVERN_AVAILABLE
+        # OpenRouter AI configuration for content extraction
+        self.ai_enabled = (
+            config.get("SKYVERN_ENABLED", False) and 
+            config.get("OPENROUTER_API_KEY") and 
+            OPENROUTER_AVAILABLE
         )
-        if self.skyvern_enabled:
-            self.skyvern_client = SkyverhClient(
-                base_url=config.get("SKYVERN_BASE_URL", "https://api.skyvern.com"),
-                api_key=config.get("SKYVERN_API_KEY"),
-            )
+        if self.ai_enabled:
+            self.openrouter_api_key = config.get("OPENROUTER_API_KEY")
+            self.openrouter_base_url = "https://openrouter.ai/api/v1"
+            self.model = config.get("llm_model", "google/gemini-2.0-flash-lite-001")
         else:
-            self.skyvern_client = None
+            self.openrouter_api_key = None
 
         # Fallback strategies
         self.use_traditional_scraping = config.get("USE_TRADITIONAL_SCRAPING", True)
         self.max_retries = config.get("SKYVERN_MAX_RETRIES", 2)
 
         print(
-            f"[{self.module_name}] Initialized - Skyvern {'enabled' if self.skyvern_enabled else 'disabled'}"
+            f"[{self.module_name}] Initialized - AI Enhancement {'enabled' if self.ai_enabled else 'disabled'}"
         )
 
     def get_content_type(self) -> ContentType:
@@ -84,12 +80,12 @@ class SkyvernEnhancedIngestor(BaseIngestor):
         if self.use_traditional_scraping:
             strategies.append(("traditional", self._fetch_traditional))
 
-        # Add Skyvern strategies based on URL patterns
-        if self.skyvern_enabled:
+        # Add AI-enhanced strategies based on URL patterns
+        if self.ai_enabled:
             if self._is_complex_site(source):
-                strategies.append(("skyvern_complex", self._fetch_with_skyvern))
+                strategies.append(("ai_enhanced", self._fetch_with_ai_extraction))
             if self._is_paywall_site(source):
-                strategies.append(("skyvern_paywall", self._fetch_paywall_content))
+                strategies.append(("ai_paywall", self._fetch_paywall_content))
 
         # Try each strategy in order
         for strategy_name, strategy_func in strategies:
@@ -132,66 +128,57 @@ class SkyvernEnhancedIngestor(BaseIngestor):
         except Exception as e:
             return False, f"Traditional fetch failed: {str(e)}"
 
-    def _fetch_with_skyvern(
+    def _fetch_with_ai_extraction(
         self, source: str, metadata: ContentMetadata
     ) -> Tuple[bool, Optional[str]]:
-        """Use Skyvern AI to intelligently navigate and extract content."""
-        if not self.skyvern_client:
-            return False, "Skyvern client not available"
+        """Use AI to intelligently extract and enhance content."""
+        if not self.openrouter_api_key:
+            return False, "OpenRouter API key not available"
 
         try:
-            # Create Skyvern task with intelligent prompts
-            task_prompt = self._generate_extraction_prompt(source, metadata)
+            # First get the raw HTML content
+            headers = {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+            }
+            response = requests.get(source, headers=headers, timeout=30)
+            response.raise_for_status()
+            raw_html = response.text
 
-            # Execute Skyvern task
-            task_result = self.skyvern_client.run_task(
-                url=source, prompt=task_prompt, max_steps=10
-            )
-
-            if task_result.success:
-                # Extract content from Skyvern result
-                content = self._extract_content_from_skyvern_result(task_result)
-                return True, content
+            # Use AI to extract and clean the content
+            extraction_prompt = self._generate_extraction_prompt(source, metadata)
+            enhanced_content = self._extract_content_with_ai(raw_html, extraction_prompt)
+            
+            if enhanced_content and len(enhanced_content) > 500:
+                return True, enhanced_content
             else:
-                return False, f"Skyvern task failed: {task_result.error}"
+                return False, "AI extraction returned insufficient content"
 
         except Exception as e:
-            return False, f"Skyvern execution error: {str(e)}"
+            return False, f"AI extraction error: {str(e)}"
 
     def _fetch_paywall_content(
         self, source: str, metadata: ContentMetadata
     ) -> Tuple[bool, Optional[str]]:
-        """Handle paywall sites with intelligent navigation."""
-        if not self.skyvern_client:
-            return False, "Skyvern client not available"
-
+        """Handle paywall sites by delegating to existing authentication strategies."""
+        # Delegate to existing PaywallAuthenticatedStrategy from article_strategies
         try:
-            # Check if we have credentials for this site
-            site_domain = urlparse(source).netloc
-            credentials = self._get_site_credentials(site_domain)
-
-            if not credentials:
-                return False, f"No credentials configured for {site_domain}"
-
-            # Create login and extraction task
-            login_prompt = f"""
-            1. Navigate to the login page for {site_domain}
-            2. Fill in login credentials (username: {credentials['username']})
-            3. Navigate to the article at {source}
-            4. Wait for the full article content to load
-            5. Extract the main article text, ignoring ads and navigation
-            """
-
-            task_result = self.skyvern_client.run_task(
-                url=source, prompt=login_prompt, max_steps=15
-            )
-
-            if task_result.success:
-                content = self._extract_content_from_skyvern_result(task_result)
+            from helpers.article_strategies import PaywallAuthenticatedStrategy
+            
+            paywall_strategy = PaywallAuthenticatedStrategy(self.config)
+            result = paywall_strategy.fetch(source)
+            success = result.success
+            content = result.content
+            
+            if success and content:
+                # Enhance with AI if content is raw HTML
+                if "<html" in content.lower():
+                    extraction_prompt = self._generate_extraction_prompt(source, metadata)
+                    enhanced_content = self._extract_content_with_ai(content, extraction_prompt)
+                    return True, enhanced_content if enhanced_content else content
                 return True, content
             else:
-                return False, f"Paywall bypass failed: {task_result.error}"
-
+                return False, "Paywall authentication failed"
+                
         except Exception as e:
             return False, f"Paywall handling error: {str(e)}"
 
@@ -236,16 +223,57 @@ class SkyvernEnhancedIngestor(BaseIngestor):
             6. Ignore navigation, ads, and sidebar content
             """
 
-    def _extract_content_from_skyvern_result(self, task_result) -> str:
-        """Extract clean content from Skyvern task result."""
-        # This would depend on Skyvern's actual API response format
-        # For now, assuming it returns HTML content
-        if hasattr(task_result, "extracted_content"):
-            return task_result.extracted_content
-        elif hasattr(task_result, "page_content"):
-            return task_result.page_content
-        else:
-            return str(task_result)
+    def _extract_content_with_ai(self, html_content: str, extraction_prompt: str) -> Optional[str]:
+        """Use OpenRouter AI to extract clean content from HTML."""
+        try:
+            # Prepare the AI prompt for content extraction
+            system_prompt = f"""You are an expert content extractor. {extraction_prompt}
+
+Extract the main article content from the provided HTML, returning clean markdown format.
+Focus on:
+1. Article title, author, and publication date
+2. Main article text and paragraphs
+3. Important quotes, lists, and formatting
+4. Exclude navigation, ads, comments, and sidebars
+
+Return only the clean article content in markdown format."""
+
+            # Truncate HTML to avoid token limits (keep first 50000 chars)
+            truncated_html = html_content[:50000] if len(html_content) > 50000 else html_content
+            
+            headers = {
+                "Authorization": f"Bearer {self.openrouter_api_key}",
+                "Content-Type": "application/json",
+            }
+            
+            data = {
+                "model": self.model,
+                "messages": [
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": f"Extract content from this HTML:\n\n{truncated_html}"}
+                ],
+                "max_tokens": 4000,
+                "temperature": 0.1,
+            }
+            
+            response = requests.post(
+                f"{self.openrouter_base_url}/chat/completions",
+                headers=headers,
+                json=data,
+                timeout=60
+            )
+            
+            if response.status_code == 200:
+                result = response.json()
+                extracted_content = result["choices"][0]["message"]["content"]
+                return extracted_content
+            else:
+                print(f"OpenRouter API error: {response.status_code} - {response.text}")
+                return None
+                
+        except Exception as e:
+            print(f"AI extraction error: {e}")
+            return None
 
     def _is_complex_site(self, url: str) -> bool:
         """Detect if site likely needs AI automation."""
@@ -332,26 +360,27 @@ class SkyvernEnhancedIngestor(BaseIngestor):
             return False
 
 
-class SkyvernInstapaperEnhancer:
-    """Enhance Instapaper scraping with Skyvern intelligence."""
+class AIInstapaperEnhancer:
+    """Enhance Instapaper scraping with AI intelligence."""
 
     def __init__(self, config: Dict[str, Any]):
         self.config = config
-        self.skyvern_enabled = (
-            config.get("SKYVERN_ENABLED", False) and SKYVERN_AVAILABLE
+        self.ai_enabled = (
+            config.get("SKYVERN_ENABLED", False) and 
+            config.get("OPENROUTER_API_KEY") and 
+            OPENROUTER_AVAILABLE
         )
-        if self.skyvern_enabled:
-            self.skyvern_client = SkyverhClient(
-                base_url=config.get("SKYVERN_BASE_URL", "https://api.skyvern.com"),
-                api_key=config.get("SKYVERN_API_KEY"),
-            )
+        if self.ai_enabled:
+            self.openrouter_api_key = config.get("OPENROUTER_API_KEY")
+            self.openrouter_base_url = "https://openrouter.ai/api/v1"
+            self.model = config.get("llm_model", "google/gemini-2.0-flash-lite-001")
 
     def scrape_instapaper_intelligently(
         self, login: str, password: str
     ) -> List[Dict[str, Any]]:
-        """Use Skyvern to scrape Instapaper reading list intelligently."""
-        if not self.skyvern_enabled:
-            raise RuntimeError("Skyvern not available for Instapaper scraping")
+        """Use AI to scrape Instapaper reading list intelligently."""
+        if not self.ai_enabled:
+            raise RuntimeError("AI enhancement not available for Instapaper scraping")
 
         instapaper_prompt = f"""
         1. Navigate to https://www.instapaper.com/user/login
@@ -369,20 +398,17 @@ class SkyvernInstapaperEnhancer:
         9. Return the complete list of articles with their metadata
         """
 
+        # For now, delegate to existing Instapaper strategies
+        # Future enhancement could use browser automation with AI guidance
         try:
-            task_result = self.skyvern_client.run_task(
-                url="https://www.instapaper.com/user/login",
-                prompt=instapaper_prompt,
-                max_steps=20,
-            )
-
-            if task_result.success:
-                return self._parse_instapaper_results(task_result)
-            else:
-                raise RuntimeError(f"Instapaper scraping failed: {task_result.error}")
+            from helpers.instapaper_ingestor import InstapaperIngestor
+            ingestor = InstapaperIngestor(self.config)
+            # Use existing scraping with AI enhancement for content extraction
+            articles = ingestor.fetch_reading_list()
+            return articles
 
         except Exception as e:
-            raise RuntimeError(f"Skyvern Instapaper scraping error: {str(e)}")
+            raise RuntimeError(f"AI Instapaper scraping error: {str(e)}")
 
     def _parse_instapaper_results(self, task_result) -> List[Dict[str, Any]]:
         """Parse Skyvern results into structured article data."""

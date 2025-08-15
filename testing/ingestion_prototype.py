@@ -18,16 +18,14 @@ import time
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple, Any
-import asyncio
 import difflib
 import statistics
 
 from helpers.config import load_config
-from helpers.podcast_ingestor import PodcastIngestor, ingest_podcasts
+from helpers.podcast_ingestor import ingest_podcasts
 from helpers.youtube_ingestor import YouTubeIngestor
 from helpers.document_ingestor import DocumentIngestor
 from helpers.instapaper_ingestor import InstapaperIngestor
-from helpers.transcription import transcribe_audio
 from helpers.transcription_openrouter import transcribe_audio as transcribe_openrouter
 from helpers.search_engine import SearchEngine
 from helpers.utils import log_info, log_error
@@ -537,7 +535,7 @@ def main():
     
     # Print summary
     print(f"\nTest completed at: {results['timestamp']}")
-    print(f"Results saved to: testing/results/")
+    print("Results saved to: testing/results/")
     
     # Print transcription model performance
     if results.get("transcription_tests"):

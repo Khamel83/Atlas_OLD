@@ -122,6 +122,10 @@ def load_config() -> dict:
         "whisper_model": os.environ.get("WHISPER_MODEL", "base"),
         "transcribe_backend": os.environ.get("TRANSCRIBE_BACKEND", "local"),
         "log_level": os.environ.get("LOG_LEVEL", "INFO"),
+        # Skyvern/AI Enhancement Configuration
+        "SKYVERN_ENABLED": os.environ.get("SKYVERN_ENABLED", "false").lower() == "true",
+        "SKYVERN_MAX_RETRIES": int(os.environ.get("SKYVERN_MAX_RETRIES", "2")),
+        "USE_TRADITIONAL_SCRAPING": os.environ.get("USE_TRADITIONAL_SCRAPING", "true").lower() == "true",
         # Categorization
         "categories": load_categories(),
         # --- DeepSeek API Key ---

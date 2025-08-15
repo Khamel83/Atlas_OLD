@@ -14,7 +14,6 @@ Optimized for Apple Silicon hardware with:
 import os
 import json
 import time
-import shutil
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Any, Tuple
@@ -254,7 +253,7 @@ class BulkPodcastProcessor:
         # Generate final report
         final_report = self._generate_final_report(all_results)
         
-        print(f"\n🎉 Bulk processing complete!")
+        print("\n🎉 Bulk processing complete!")
         print(f"📊 Processed {self.processing_stats['episodes_processed']} episodes")
         print(f"⏱️  Total time: {datetime.now() - self.processing_stats['start_time']}")
         
@@ -604,8 +603,8 @@ def main():
     # Package for upload
     package_file = processor.package_for_upload()
     
-    print(f"\n🎉 Bulk processing complete!")
-    print(f"📊 Summary:")
+    print("\n🎉 Bulk processing complete!")
+    print("📊 Summary:")
     print(f"   Feeds: {results['performance_summary']['total_feeds']}")
     print(f"   Episodes: {results['performance_summary']['successful_episodes']}/{results['performance_summary']['total_episodes']}")
     print(f"   Success Rate: {results['performance_summary']['success_rate']:.1%}")
