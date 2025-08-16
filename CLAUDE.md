@@ -78,18 +78,25 @@
 ./scripts/start_atlas_service.sh logs      # Monitor logs
 ```
 
-**🔄 Automatic Tasks:**
-- **Podcast maintenance** every 4 hours (episode discovery, transcript fetching)
-- **Article retry processing** every 12 hours (failed URL recovery)
-- **System health monitoring** every cycle
-- **Auto-restart on failures** with resilient operation
-- **Organized logging** in `logs/atlas_background_service.log`
+**🔄 Comprehensive Automatic Processing:**
+- **Podcast maintenance** every 4 hours (73 curated podcasts, episode discovery, transcript fetching)
+- **Article processing** every 30 minutes (inputs/articles.txt, all *.txt URL files)
+- **YouTube processing** every 30 minutes (inputs/youtube.txt)  
+- **Instapaper processing** every 30 minutes (*.csv files)
+- **Document processing** every 30 minutes (process_podcasts.py, etc.)
+- **Comprehensive processing** every 2 hours (python run.py --all)
+- **Article retry** every 8 hours (failed URL recovery with enhanced strategies)
+- **Skyvern AI recovery** every 6 hours (AI-powered content extraction)
+- **Failed task retry** every cycle with exponential backoff
+- **15-minute watchdog** restart if stuck
+- **System health monitoring** and persistent failure tracking
 
 **🎯 Benefits:**
-- Set-and-forget operation - just runs continuously
-- No manual intervention needed for routine tasks
-- Consolidated logging and monitoring
-- Resilient to failures with automatic recovery
+- **Drop-and-go**: Place any content in inputs/ → automatically processed within 30 minutes
+- **Never gives up**: Intelligent retry with rate limiting, exponential backoff
+- **Comprehensive coverage**: Articles, podcasts, YouTube, documents, files
+- **Self-healing**: Auto-restart, failure recovery, persistent retry queue
+- **Always running**: Survives reboots, crashes, rate limits
 
 ## 🎙️ Podcast System Architecture
 
