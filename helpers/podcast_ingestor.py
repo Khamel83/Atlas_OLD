@@ -8,6 +8,7 @@ import requests
 from helpers.base_ingestor import BaseIngestor
 from helpers.dedupe import link_uid
 from helpers.metadata_manager import ContentType
+from helpers.path_manager import PathType
 from helpers.transcription import transcribe_audio
 from helpers.utils import (generate_markdown_summary,
                            log_error, log_info)
@@ -102,10 +103,10 @@ class PodcastIngestor(BaseIngestor):
 
         # Use the path_manager to get all required paths
         paths = self.path_manager.get_path_set(self.content_type, file_id)
-        audio_path = paths.get_path("audio")
-        paths.get_path("metadata")
-        transcript_path = paths.get_path("transcript")
-        md_path = paths.get_path("markdown")
+        audio_path = paths.get_path(PathType.AUDIO)
+        paths.get_path(PathType.METADATA)
+        transcript_path = paths.get_path(PathType.TRANSCRIPT)
+        md_path = paths.get_path(PathType.MARKDOWN)
 
         # CAPTURE ALL METADATA - Never lose any information!
         # Extract every available field from the RSS entry

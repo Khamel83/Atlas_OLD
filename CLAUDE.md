@@ -1,5 +1,8 @@
 # Atlas Project Handover - Claude Context
 
+## 🎯 Token Efficiency Priority
+**MAXIMIZE TOKEN EFFICIENCY** - Conserve input/output tokens. Use compact responses, abbreviations, bullet points. Compress documentation when needed without losing critical information.
+
 ## 🎯 Current Status (Aug 14, 2025)
 
 ### ✅ STRATEGIC REFACTOR COMPLETE - Vision Aligned & Skyvern Ready
