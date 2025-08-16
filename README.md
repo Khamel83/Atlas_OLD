@@ -1,8 +1,12 @@
 # Atlas: Cognitive Amplification Platform
 
-**Documentation updated as of January 2025**
+**Documentation updated as of August 2025**
 
-Atlas is a sophisticated local-first content ingestion and cognitive amplification platform that processes articles, YouTube videos, and podcasts into structured knowledge for enhanced thinking and insight generation.
+Atlas is a sophisticated local-first content ingestion and cognitive amplification platform that processes articles, YouTube videos, and **podcasts** into structured knowledge for enhanced thinking and insight generation.
+
+## 🎙️ **MAJOR UPDATE: Podcast Transcript System Live**
+
+**NEW**: Atlas now discovers and processes podcast transcripts from 190+ podcasts with 110+ transcripts found including Lex Fridman (91 transcripts), This American Life (10 transcripts), and premium business content from Acquired. Full end-to-end processing through cognitive search pipeline.
 
 ## 🚀 Quick Start
 

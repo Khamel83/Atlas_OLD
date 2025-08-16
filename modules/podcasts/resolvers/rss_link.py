@@ -139,6 +139,24 @@ class RSSLinkResolver:
                 if self._is_valid_url(url):
                     urls.append(url)
         
+        # NEW: Look for HTML href links with transcript-related text
+        href_pattern = r'<a[^>]*href=["\']([^"\']+)["\'][^>]*>([^<]*(?:transcript|transcription|full\s+transcript)[^<]*)</a>'
+        href_matches = re.findall(href_pattern, text, re.IGNORECASE)
+        
+        for url, link_text in href_matches:
+            # Clean up URL and convert relative to absolute
+            url = url.strip()
+            if url.startswith('/'):
+                url = urljoin(base_url, url)
+            elif url.startswith('http'):
+                pass  # Already absolute
+            else:
+                continue  # Skip invalid URLs
+                
+            if self._is_valid_url(url):
+                urls.append(url)
+                logger.debug(f"Found transcript link in HTML: {url} (text: '{link_text.strip()}')")
+        
         return list(set(urls))  # Remove duplicates
     
     def _is_valid_url(self, url: str) -> bool:

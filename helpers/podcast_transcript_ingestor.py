@@ -20,6 +20,7 @@ sys.path.append(str(Path(__file__).parent.parent))
 
 from helpers.base_ingestor import BaseIngestor
 from helpers.metadata_manager import ContentType
+from helpers.path_manager import PathType
 from helpers.dedupe import link_uid
 from helpers.utils import log_info, log_error
 from modules.podcasts.cli import AtlasPodCLI
@@ -181,6 +182,9 @@ class PodcastTranscriptIngestor(BaseIngestor):
     def _process_transcript_file(self, transcript_file: Path) -> bool:
         """Process individual transcript markdown file through Atlas"""
         try:
+            # Ensure transcript_file is a Path object
+            transcript_file = Path(transcript_file)
+            
             # Read markdown with frontmatter
             with open(transcript_file, 'r', encoding='utf-8') as f:
                 post = frontmatter.load(f)
@@ -264,7 +268,7 @@ class PodcastTranscriptIngestor(BaseIngestor):
             meta.uid = unique_id
             
             # Save markdown content
-            markdown_path = paths.get_path(self.path_manager.PathType.MARKDOWN)
+            markdown_path = paths.get_path(PathType.MARKDOWN)
             if markdown_path:
                 os.makedirs(os.path.dirname(markdown_path), exist_ok=True)
                 with open(markdown_path, 'w', encoding='utf-8') as f:

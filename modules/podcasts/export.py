@@ -124,8 +124,8 @@ class TranscriptExporter:
             'description': metadata.get('description', ''),
         }
         
-        # Remove None values
-        frontmatter = {k: v for k, v in frontmatter.items() if v is not None}
+        # Remove None values and empty strings
+        frontmatter = {k: v for k, v in frontmatter.items() if v is not None and v != ''}
         
         # Build markdown
         lines = ["---"]
