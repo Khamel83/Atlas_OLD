@@ -14,6 +14,21 @@ Atlas is a sophisticated local-first content ingestion and cognitive amplificati
 
 **Need detailed status?** See [docs/CURRENT_STATUS.md](docs/CURRENT_STATUS.md) for what actually works vs. what doesn't.
 
+## 🔄 Always-Running Background Service
+
+Atlas includes a unified background service that handles all continuous processing automatically:
+
+```bash
+# Start the background service
+./scripts/start_atlas_service.sh start
+
+# For persistent operation (survives reboots)
+./scripts/setup_systemd_service.sh
+sudo systemctl start atlas
+```
+
+The service automatically handles podcast discovery, transcript fetching, article retries, and system maintenance with auto-restart on failures.
+
 ## ⚖️ Legal Notice
 
 **IMPORTANT**: Atlas is provided for personal research and educational use only. By using this software, you agree to:

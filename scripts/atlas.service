@@ -1,0 +1,26 @@
+[Unit]
+Description=Atlas Background Service
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/dev/atlas
+ExecStart=/usr/bin/python3 /home/ubuntu/dev/atlas/scripts/atlas_background_service.py
+Restart=always
+RestartSec=10
+StandardOutput=append:/home/ubuntu/dev/atlas/logs/atlas_background_service.log
+StandardError=append:/home/ubuntu/dev/atlas/logs/atlas_background_service.log
+
+# Environment
+Environment=PATH=/home/ubuntu/dev/atlas/atlas_venv/bin:/usr/local/bin:/usr/bin:/bin
+Environment=PYTHONPATH=/home/ubuntu/dev/atlas
+
+# Security
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

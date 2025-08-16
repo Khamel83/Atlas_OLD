@@ -65,15 +65,41 @@
 - **Documentation synthesis** completed - PROJECT_ROADMAP.md authoritative
 - **Agent OS methodology** confirmed for structured development
 
+## 🔄 Atlas Background Service - Always Running
+
+### **Unified Background Processing**
+**Atlas now has a unified background service that handles all continuous processing automatically:**
+
+```bash
+# Service Control
+./scripts/start_atlas_service.sh start     # Start background service
+./scripts/start_atlas_service.sh stop      # Stop service
+./scripts/start_atlas_service.sh status    # Check status
+./scripts/start_atlas_service.sh logs      # Monitor logs
+```
+
+**🔄 Automatic Tasks:**
+- **Podcast maintenance** every 4 hours (episode discovery, transcript fetching)
+- **Article retry processing** every 12 hours (failed URL recovery)
+- **System health monitoring** every cycle
+- **Auto-restart on failures** with resilient operation
+- **Organized logging** in `logs/atlas_background_service.log`
+
+**🎯 Benefits:**
+- Set-and-forget operation - just runs continuously
+- No manual intervention needed for routine tasks
+- Consolidated logging and monitoring
+- Resilient to failures with automatic recovery
+
 ## 🎙️ Podcast System Architecture
 
 ### **Atlas-Pod CLI Commands**
 ```bash
 # Initialize and register podcasts
 python -m modules.podcasts.cli init
-python -m modules.podcasts.cli register --csv config/podcasts_full.csv
+python -m modules.podcasts.cli register --csv config/podcasts_from_your_preferences.csv
 
-# Discovery and processing
+# Manual discovery and processing (if needed)
 python -m modules.podcasts.cli discover --all  # Discover episodes + transcripts
 python -m modules.podcasts.cli fetch-transcripts --all  # Download transcripts
 python process_podcasts.py  # Full Atlas integration
