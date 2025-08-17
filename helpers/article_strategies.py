@@ -772,16 +772,36 @@ class ArticleFetcher:
 
     def __init__(self, config=None):
         self.config = config or {}
+        
+        # Import SimpleAuthStrategy (avoiding Playwright async conflicts)
+        try:
+            from helpers.simple_auth_strategy import SimpleAuthStrategy
+            auth_strategy = SimpleAuthStrategy(config)
+        except ImportError:
+            # Fallback to original if import fails
+            auth_strategy = PaywallAuthenticatedStrategy(config)
+        
+        # Import Firecrawl as final fallback (with usage limits)
+        try:
+            from helpers.firecrawl_strategy import FirecrawlStrategy
+            firecrawl = FirecrawlStrategy(config)
+        except ImportError:
+            firecrawl = None
+        
         self.strategies = [
             DirectFetchStrategy(),
-            PaywallAuthenticatedStrategy(config),  # Try authenticated fetch for paywall sites
+            auth_strategy,  # Simple authentication for paywall sites (no Playwright conflicts)
             PaywallBypassStrategy(),
             ArchiveTodayStrategy(),
             GooglebotStrategy(),
-            PlaywrightStrategy(),
+            # PlaywrightStrategy(),  # Disabled due to async conflicts
             EnhancedWaybackMachineStrategy(),  # Enhanced multi-date Wayback
-            WaybackMachineStrategy(),  # Original Wayback as final fallback
+            WaybackMachineStrategy(),  # Original Wayback fallback
         ]
+        
+        # Add Firecrawl as final fallback if available and has usage remaining
+        if firecrawl and firecrawl._check_usage_limit():
+            self.strategies.append(firecrawl)  # Last resort - 500/month limit
 
     def fetch_with_fallbacks(self, url: str, log_path: str) -> FetchResult:
         """

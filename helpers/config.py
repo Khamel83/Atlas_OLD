@@ -60,6 +60,7 @@ def load_config() -> dict:
         "INSTAPAPER_LOGIN": os.environ.get("INSTAPAPER_LOGIN")
         or os.environ.get("INSTAPAPER_USERNAME"),
         "INSTAPAPER_PASSWORD": os.environ.get("INSTAPAPER_PASSWORD"),
+        "FIRECRAWL_API_KEY": os.environ.get("FIRECRAWL_API_KEY"),
         # AI Configuration
         "llm_provider": os.environ.get("LLM_PROVIDER", "openrouter"),
         "llm_model": os.environ.get("LLM_MODEL")
