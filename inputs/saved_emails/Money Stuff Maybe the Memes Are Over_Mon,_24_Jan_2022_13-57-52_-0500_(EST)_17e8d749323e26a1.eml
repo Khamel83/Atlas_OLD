@@ -1,0 +1,1976 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:aa6:c011:0:b0:191:bcf:3d4e with SMTP id z17csp3055063lko;
+        Mon, 24 Jan 2022 10:58:54 -0800 (PST)
+X-Received: by 2002:a05:600c:1c88:: with SMTP id k8mr3016749wms.170.1643050734548;
+        Mon, 24 Jan 2022 10:58:54 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1643050734; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=qs8AuBygGNvYXMtA7XPPHWf9mSyjVwDfp7K+YGsTP63b44O3SV5fbHf5g8vdkHd5vZ
+         Fn2iKAleQk2IkVzFA81QKhphnjzX69nebzrNyq51SsQniym91E9k440A711cIhaZ+U1Y
+         1hcHzF36XQnNDMxEFklaNwcODSMeWXMTUrBee4TTMLbqNxqAE3/Bvv7zxjCRLVPrVifn
+         +PxnjcnyZf7Mi1O8j85Dl6HNCfjU2lHHHG0M3KPNVof8mEI2YxUqXvjoz2my7nFFUsGx
+         2T8vDZgwoEa/Wu0g0jei5inDJiHclJRda7Bz/sNy4b0Qft6G5lfGfUQP1aZ96+z9uI8w
+         Qkxg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=cA25o2F7/nlW+Ttw4w9ISvzlhJniICDKWZdqxMo6LK0=;
+        b=wO/2JdElMwAqfKJDekbx15+slcRugLJfuum2gpwzs9nG+jz+vFhr+Zk0gfiDK6MVW2
+         dWaFmi3TONg19SAGddCTLvD6wUjcEarmd1s/ebDUD6f4S5cpDx0sPxyCltniSW/fI3wt
+         p2f7PAcxaa/rWRc4L3pnQ03pWYuiO0lMIngwecWipu01xo3wv0femA/WcOorVzMZ8lOt
+         lwqtyf4i6hk5PyN86Orahyo0A/MjSnXu6+EHcA2acO+4SWfPZK0z6U3J3TmPr6TzPk0n
+         s3LCtS1VBm4x9UY4OXGYbJG6KNIw7cbC1dfAh8pRW5AFEsJjouO2BBZOSs1wmvCq565c
+         Ie6g==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=ScD7naGx;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id g17sor8490905wrv.76.2022.01.24.10.58.54
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 24 Jan 2022 10:58:54 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=ScD7naGx;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=cA25o2F7/nlW+Ttw4w9ISvzlhJniICDKWZdqxMo6LK0=;
+        b=QUGIvTdvC6EcV+k4eF6fFjuQav/XFtiMSUvTQwWotF3K+IaOfTmxszzMf1nanmE2gx
+         MljDnsAJvfO7S+vZt7O0n4ptIaUFj2HCnmlcfmYs2iTnV5JRG9ZAgSv5YRG/dUA3b+pC
+         YfbWnLN48vUlgBByRNP4387G6vYK1nBu/i9jcL78WN8WQOttiwz+FxkGoLxhtnckltkW
+         IOsfPt4PJuQT2z4tdQUN5D6X38HAYN2qS+Q6/KqVKfesyT5qc41zySRyio3WVddK4Olt
+         S8HDzyjYOQvH4oIh95ZRRYviAKVjTBMRQr1xTaJs0umf8KcUGlnQH72ZCY3KCdPS0jQb
+         1xNA==
+X-Gm-Message-State: AOAM530yhcAmHc5B5ZLfT4VC3YYtbUC6/XOnOK+kcMfD/zNy5KAgLNGn
+	BUDWz1wsS6Dl17ZZ53euIPKEz/n67lxJqrjsUdpFgcWxRsUJ6oNzFA==
+X-Received: by 2002:adf:e445:: with SMTP id t5mr15254194wrm.537.1643050734209;
+        Mon, 24 Jan 2022 10:58:54 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f350:0:0:0:0:0 with SMTP id e16csp2352956wrp;
+        Mon, 24 Jan 2022 10:58:51 -0800 (PST)
+X-Received: by 2002:a62:140a:0:b0:4c9:df3b:7443 with SMTP id 10-20020a62140a000000b004c9df3b7443mr3866600pfu.73.1643050730949;
+        Mon, 24 Jan 2022 10:58:50 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1643050730; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=0Zh7FPqTMcgq/S1FhUnhqzE3yGslSrsTghxUx4E3UPAfy6kSt1md5OJGe3YUV4e71O
+         ckMoK383KuJmDUOVJIEnG9zQ5FrtXsFTCnSAQI7d5kis01RgO+3OpSJI0FMzSVLKoVib
+         LgwUBV1oomfkkqxaeq4c+05w+NT7AzgJSBp1387Z2CG+Jo1YN/MsobqnsMT83qJJ6230
+         2rv5WAxlJUDhIUcV/B6wnEBWwPOFZky+QLTLiFB59cyIZhqXlvyCGmKCjnVGA2R+idK7
+         4SRXxi5hJ7nzahwtPYDk4vZuSejNlxAeW50wDkQTHCt7fIAJeXJfRYyiUyRLMSS9pH41
+         qmsA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=cA25o2F7/nlW+Ttw4w9ISvzlhJniICDKWZdqxMo6LK0=;
+        b=Gu6O9/BmkeK5K/xZgDvtaZ7sZAQxK2KlouNlkQ/GRq3Ts/CwOaG2jhwvZM1FFBLeoq
+         ZDGsYzN2UMBLBbClkq0Anu3vyRUUbYSUV49DzaJ99BnLhjwax+IlN9KYBfq6X+DcFXd8
+         +t9Ou8k5GLLpWM9lOGDuIzcEu2T3SjVEkCNbtqniUIV15j2UxOLyMXVcNFpgijEUhmJY
+         oi9N8xLlKjjvj/81uc9+Yv+Ykn+9hFYHls+mFERM/XmI3w8As55t5aBq9McP+87gHpBI
+         a+XVnqeusWsXayKDUjMdOk8fGdLfCR/ziIOspc810wR/SHZovJ45ie/MiV2H30vRxJNE
+         HazQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=ScD7naGx;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220124135752.26470748.263630@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220124135752.26470748.263630@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220124135752.26470748.263630@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id v3sor69032pjr.38.2022.01.24.10.58.50
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 24 Jan 2022 10:58:50 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20220124135752.26470748.263630@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJz7VxZjVezQTl+M9xFarr9CCZmDDMEA+uijLePidqM1s3kge1CXXaQ0mHVnR+NwHu0JIIVSRSb0D3yGiRdhGYN5ij5K9hs=
+X-Received: by 2002:a17:90b:1d12:: with SMTP id on18mr2154276pjb.20.1643050730563;
+        Mon, 24 Jan 2022 10:58:50 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1643050730; cv=none;
+        d=google.com; s=arc-20160816;
+        b=ikYHIaQD7pJ9NUrcLz+rGkPfxZsPk82zR+sKpTHR6UolYbgz16AYCfK5Mii0mHC1j4
+         VE5tg46jhGcZwapkyMieScGAIbRldC2itCS+omyiHlH4zQKlXICzxM0YktdKcegGBeY+
+         sVIfcGJC/uyNuulJam19X+MthJHed6/EdRfsjbDLPaOeHRUiyLIGpAkETcDSJkwL0RjB
+         pVHpYoW8Y9EG4ENL8r+pNoV9rejX5wCi0gCvUrAKxW2tnjDf1yXM+S3b2/r5JQRUM1b/
+         S9l/73oqRh/lB04VfQ6u1BGTpBofAX4s+Fv7EgzTnylt9YXxCuuehJBEU9ck2tdshzo0
+         PErQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=cA25o2F7/nlW+Ttw4w9ISvzlhJniICDKWZdqxMo6LK0=;
+        b=C1RqFex1cW+A74TNz57kkYVh+EORm3PGRybAWQxALiKAtJkHX2yUZ4ABo+oUByUwfC
+         9mdpDPx+i74cb76Wrrw/vwfuy3SkpnEpW+ZKt1Rg92KSryMzFy+wrhiDoAHHZVQOHw1A
+         tAwcce3JnOHKsqaHxJzNayH1CBudS8xnN9DPscFoc+jCm2QJD7fBLeXmCp0SgLL/Le2d
+         yeGxtp2NXtRHwPpcyk10Ck2mw5btyq+FhQXEUszuFOXmg8RmoFT/0GXS3QOd7ljYYK+8
+         GHGbxMGxIjVCdbxLRbfHP2iI4FBDKIAu94hVkewefcD246quSEctpWik8Or6ugFy79Pa
+         Slwg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=ScD7naGx;
+       spf=pass (google.com: domain of delivery_20220124135752.26470748.263630@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20220124135752.26470748.263630@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220124135752.26470748.263630@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id gd22si6600pjb.1.2022.01.24.10.58.40
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 24 Jan 2022 10:58:50 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20220124135752.26470748.263630@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=k4Ed9OsV7ULsQ9LDG8y8aZziRk4iRiMe53jnzu7b3B0=;
+ b=ScD7naGxweGEwLSlecPCRbM/1VUbP7N9exV75L3vUFhyWLxtC6W2jkVwX/ODqI2hGp9P9X+edJzp
+   3UOYe6vvVS4AOPZKzthB1+tQiS1+q/EmULMnmtSiFzdEoYlMp7eSkLdB9wpVcUdPSCTcF2KUNp0A
+   CWhxP+9E0O4sHXAiudU=
+Received: from njmta-20.sailthru.com (173.228.155.20) by bloomberg-b.sailthru.com id htrre62tkt0i for <bloomberg@khamel.com>; Mon, 24 Jan 2022 13:58:32 -0500 (envelope-from <delivery_20220124135752.26470748.263630@mx.sailthru.com>)
+Received: from nj1-hotheart.flt (172.18.20.32) by njmta-20.sailthru.com id htrrdg1qqbs7 for <bloomberg@khamel.com>; Mon, 24 Jan 2022 13:57:52 -0500 (envelope-from <delivery_20220124135752.26470748.263630@mx.sailthru.com>)
+Date: Mon, 24 Jan 2022 13:57:52 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220124135752.26470748.263630@sailthru.com>
+Subject: Money Stuff: Maybe the Memes Are Over
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_32559290_1586867928.1643050672841"
+Precedence: bulk
+X-Feedback-ID: 6358:26470748:campaign:sailthru
+X-TM-ID: 20220124135752.26470748.263630
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-hotheart.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfrcyk.5nf2/27209d01
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfrcyk.5nf2/27209d01>, <mailto:unsubscribe_20220124135752.26470748.263630@mx.sailthru.com>
+X-rpcampaign: stjko26470748
+
+------=_Part_32559290_1586867928.1643050672841
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Some GameStop anniversary content I guessThis week is the one-year =
+anniversary of the GameStop thing. From Monday, Jan. 25, 2021, through Fr
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Some GameStop anniversary content I guess
+   =20
+ =20
+This week is the one-year anniversary of  the GameStop=C2=A0thing.=C2=A0Fro=
+m Monday, Jan. 25, 2021, through Friday, Jan. 29, 2021, GameStop Corp.=E2=
+=80=99s stock traded as low as $61.13 per share and as high as $483; it end=
+ed the week at $197.44, up 204% from the previous week=E2=80=99s close. Tra=
+ding in the stock was halted for volatility 37 times during that week, plus=
+ Robinhood Markets Inc. and some other brokers briefly  restricted customer=
+s from buying it due to  clearinghouse margin troubles. By mid-February the=
+re were at least seven movies and television shows about GameStop in the wo=
+rks. Everyone=E2=80=99s brain broke that week and stayed broken. More meme =
+stocks followed. Elon Musk made Dogecoin into a meme. Donald Trump did a me=
+me stock. Everything was like this. It was  the year of the meme stock. Tha=
+t is, 2021 was the year of the meme stock.=C2=A0=E2=80=9CI will see you bac=
+k here in 2022,=E2=80=9D  I wrote, in my last column of 2021,=C2=A0=E2=80=
+=9Cwhen everything will be absolutely normal.=E2=80=9DI don=E2=80=99t want =
+to say that that was=C2=A0right =E2=80=94=C2=A0honestly I was kidding =E2=
+=80=94=C2=A0but I do feel a little bit like people are celebrating the anni=
+versary of the meme stock boom by declaring that it=E2=80=99s over? For ins=
+tance, here is a Wall Street Journal article about WallStreetBets, the Redd=
+it forum that ignited the GameStop boom and became the center of the meme-s=
+tock world for a while:These days, some one-time fans say it is hardly wort=
+h clicking on.Those who once scoured the online message forum for brazen an=
+d unexpected trading ideas say they are mostly finding members still chatti=
+ng about stocks such as GameStop Corp. and AMC Entertainment Holdings Inc.=
+=C2=A0 Constructive feedback on trades, some users complain, has largely be=
+en replaced by cheerleading. Devotees who were once glued to the forum=E2=
+=80=94watching power users like Keith Gill, or =E2=80=9CDeepF=E2=80=94ingVa=
+lue,=E2=80=9D post bold bets on GameStop=E2=80=94say they have largely aban=
+doned the page in favor of other trading communities.And in this morning=E2=
+=80=99s =E2=80=9C5 Things to Start Your Day=E2=80=9D Bloomberg newsletter, =
+Joe Weisenthal writes that a lot of the memeiest and most retail-driven par=
+ts of the market have actually been underperforming since last February,=C2=
+=A0=E2=80=9Cthe retail crowd has been badly lagging the S&P 500 for a while=
+ now,=E2=80=9D and =E2=80=9Cthe whole =E2=80=98Reddit vs. Hedge Funds=E2=80=
+=99 meme that came out of the GameStop story really did turn out to be the =
+peak of the mania.=E2=80=9DMeanwhile the broad stock market got crushed all=
+ last week and is down more today. The S&P 500 index is now in what people =
+like to call a =E2=80=9Ccorrection,=E2=80=9D=C2=A0a drop of 10% from the mo=
+st recent high, which in this case is Jan. 3. I have always thought this wa=
+s sort of=C2=A0a dumb euphemism but now, I mean, I guess I see the point.Lo=
+ng before GameStop, in April 2020, I coined what I have called  the Boredom=
+ Market Hypothesis:The theory is something like: Retail investors are not t=
+rading=C2=A0because they have an informational advantage and a reasonable e=
+xpectation of profit.=C2=A0They are trading because it is fun, or because i=
+t looks fun. They see people making money in the stock market, it looks fun=
+ and easy to make money in the stock market, they start trading stocks. As =
+long as it is fun=E2=80=94as long as stocks go up=E2=80=94they increase the=
+ir investments. When it stops being fun=E2=80=94when stocks go down=E2=80=
+=94they get out.The weird thing about the coronavirus crisis is that it sim=
+ultaneously (1) caused a stock market crash and (2) eliminated most=C2=A0fo=
+rms of fun.When the world shut down in the spring of 2020, people turned to=
+ day-trading stocks because, even though the market=C2=A0had just crashed, =
+trading stocks was still more fun than their other entertainment options. A=
+nd then trading stocks became, improbably, really fun, a source of social c=
+onnection and populist excitement, and also those stocks went up a lot whic=
+h was fun. In 2022, there are more fun things to do, and frantic day tradin=
+g is less fun than it used=C2=A0to be. It has gotten old; the message board=
+s are not alive with excitement but are just playing the hits. Also the mar=
+ket is crashing again! Where is the fun in that?Meanwhile at noon today Gam=
+eStop was trading above $88 per share. When I first wrote about GameStop, w=
+hen everything went utterly insane, when GameStop=E2=80=99s soaring price s=
+eemed to make no sense at all, it closed at $76.79. Perhaps we=E2=80=99ll t=
+est that today. Or perhaps GameStop used its meme status to successfully  t=
+ransform its business; perhaps=C2=A0the magic doesn=E2=80=99t work anymore,=
+ but its effects on GameStop have lasted.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Netflix
+   =20
+ =20
+One important=C2=A0but not necessarily permanent=C2=A0lesson of the Year of=
+ Meme Stocks is that if you run a public company you should try to meme it =
+up as much as possible, because your job is to create shareholder value and=
+ doing meme stuff creates shareholder value. Exactly what constitutes =E2=
+=80=9Cdoing meme stuff=E2=80=9D depends on what memes are popular in any gi=
+ven week, but broadly speaking talking about electric cars or cryptocurrenc=
+ies or non-fungible tokens or Elon Musk or=C2=A0other=C2=A0meme stocks is u=
+sually a decent way to get attention and have your stock go up. Being on Tw=
+itter or Reddit a lot, using the right slang and the right emojis, generall=
+y conveying to retail investors that you are in on the joke, these things b=
+uild shareholder loyalty and can cause your stock to [rocket emoji].All of =
+this stuff is pretty much unrelated to actual business results; my point he=
+re is not =E2=80=9Cif you sell non-fungible tokens and they bring in hundre=
+ds of millions of dollars investors will put an attractive multiple on thos=
+e earnings=E2=80=9D but rather =E2=80=9Cif you say =E2=80=98NFT=E2=80=99 on=
+ a conference call your stock will go up.=E2=80=9D Last Thursday  Netflix I=
+nc. announced disappointing subscriber growth numbers, and  the stock tanke=
+d. On Friday, Netflix Engineering tweeted: =E2=80=9CWhat are your thoughts =
+on NFTs?=E2=80=9D=C2=A0I love it, but it did not work at all. The stock was=
+ down 21.8% on the day, with no noticeable reaction to the midday NFT tweet=
+; it was down further this morning. This is bad news for Netflix but I pref=
+er to focus on the positive, which is that it is very good news for all of =
+the public company CEOs who do not personally want=C2=A0to go around talkin=
+g about NFTs all the time. As of December it looked like their fiduciary du=
+ties to shareholders might require them to do NFTs whether they want to or =
+not.=C2=A0Now they don=E2=80=99t have to! Going on Twitter to say =E2=80=9C=
+NFTs=E2=80=9D doesn=E2=80=99t work anymore! The magic is gone! You can go b=
+ack to running your business instead of doing meme stuff; everything is nor=
+mal again.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Robinhood IPOs
+   =20
+ =20
+A simple model of initial public offerings is that on the day of the IPO, a=
+ company sells stock for $100 per share to a selected group of institutiona=
+l investors, and the next day, the stock opens for trading and those instit=
+utional investors turn around and sell the stock for $150 to any retail inv=
+estor on Robinhood who wants to buy it. This is called the =E2=80=9CIPO pop=
+=E2=80=9D: There is more demand for the stock than is satisfied in the IPO =
+process, so when it opens for trading the stock goes up. This model is over=
+simplified in various important ways but it has its uses.=C2=A0If that is y=
+our model it creates an interesting marketing opportunity for Robinhood Mar=
+kets Inc. The pitch goes like this:=09Go to=C2=A0issuers=C2=A0=E2=80=94=C2=
+=A0companies thinking about going public =E2=80=94=C2=A0and say, look, if y=
+ou sell stock in a regular IPO to institutional investors, you will sell yo=
+ur stock at $100 per share and the next day it will pop=C2=A0by 50% as the =
+institutional investors turn around and sell it to Robinhood customers at $=
+150. You will have =E2=80=9Cleft money on the table,=E2=80=9D and your=C2=
+=A0venture capitalists will complain. Instead, you should just=C2=A0sell th=
+e stock to Robinhood customers yourself, at $150 per share, avoiding the po=
+p and raising more money for yourself.=09Go to=C2=A0customers=C2=A0=E2=80=
+=94=C2=A0individual retail investors on Robinhood =E2=80=94 and say, look, =
+so much of the money that gets made in stock markets comes from buying IPOs=
+ at the IPO price. Institutional investors get to buy IPO stock at $100 and=
+ then it pops to $150 the next day for a quick easy profit. We are going to=
+ democratize this process by letting=C2=A0you=C2=A0buy stock at the IPO pri=
+ce and participate in the pop yourself.=09The issuers sign up to sell, the =
+customers sign up to buy, and now Robinhood is in the IPO underwriting busi=
+ness.Do you see the problem here? I am being too cute =E2=80=94=C2=A0those =
+numbers ($100 and $150) are not known in advance, there are lots of other f=
+actors beyond selling to retail, etc. =E2=80=94=C2=A0but not=C2=A0much=C2=
+=A0too cute. If the IPO pop comes from Robinhood customers crowding into a =
+stock the day after its IPO, then letting Robinhood customers crowd into th=
+e stock the day=C2=A0of=C2=A0its IPO doesn=E2=80=99t exactly let them parti=
+cipate in the pop. It just raises the IPO price. Which is what the issuers =
+want, but not necessarily what the=C2=A0customers want.Anyway Robinhood rea=
+lly did launch an =E2=80=9CIPO Access=E2=80=9D program last year where it g=
+ot issuers to allocate some IPO shares to its customers=C2=A0and got its cu=
+stomers to buy those shares. We have talked about it =E2=80=94=C2=A0along t=
+he lines of this model =E2=80=94=C2=A0a  couple of  times before. Last Frid=
+ay, Ranjan Roy at the Margins=C2=A0looked at the performance of those IPOs=
+=C2=A0and it is pretty ugly:It doesn=E2=80=99t matter whether you=E2=80=99r=
+e a Brazilian fintech, a fancy salad chain, a cloud backup company, a Germa=
+n solar company, a fantastic expense management SaaS (I love Expensify), so=
+mething-something-blockchain, coconut water, a biotech claiming to cure chr=
+onic disease, a fraud detection company, an Australian energy company, a CO=
+VID-19 testing maker, a wallet for nerds, or whatever else. It didn=E2=80=
+=99t matter whether you IPO=E2=80=99ed in May or July or November. Other th=
+an the jewelry company $BRLT Brilliant Earth (on the top right) every singl=
+e company comes out incredibly strong or has a spike early on, and then it =
+slowly dies. Sometimes, like $SEV or $SG or $HLTH, it=E2=80=99s brutal. Oth=
+er times, like $ARBK or $NRDS, you see glimmers of hope and then goodbye.=
+=C2=A0Honestly that=E2=80=99s kind of how it was supposed to work!=C2=A0
+ =20
+   =20
+      Meanwhile in crypto
+   =20
+ =20
+A famous function of brokers in traditional finance is=C2=A0not answering t=
+he phone when the market crashes. This has various benefits and costs. If y=
+ou are a customer and the market is going down and you see that and panic a=
+nd decide to sell everything, you will call your broker, and she will not a=
+nswer her phone. You will be unable to sell everything. This may protect yo=
+u from selling at the bottom (though it may make things worse for you if th=
+is is not in fact the bottom), and will definitely protect=C2=A0the market=
+=C2=A0from you adding your sales to the general march downward. On the othe=
+r hand if you bravely decide to step in to buy the dip, your broker=E2=80=
+=99s failure to answer the phone not only costs you money (if you correctly=
+ time the bottom) but also prevents you from stepping in to stabilize the m=
+arket; if brokers don=E2=80=99t answer when=C2=A0buyers=C2=A0call then the =
+crash gets worse.There is also the issue of margin calls. In general, if yo=
+u have a trade on using money that you borrowed from your broker, and your =
+broker calls you for more money, and you call her back, she will answer=C2=
+=A0that=C2=A0call, because she does want your money. But in particularly fr=
+antic market conditions she may not =E2=80=94=C2=A0because she has too much=
+ else going on, or because she has preemptively liquidated your position ra=
+ther than waiting for you to post more money. And that too may drive the ma=
+rket lower.Of course this is all old-timey stuff and modern markets are con=
+siderably more technically advanced; the role of stabilizing markets by not=
+ answering the phone has been taken over by Robinhood having its=C2=A0app a=
+nd website break=C2=A0(and also not answering the phone). Even that approac=
+h feels a bit dated, though, and with the rise of crypto and blockchains an=
+d decentralized finance there are new, cutting-edge, cryptographically eleg=
+ant ways for trading  not to work:Solana, one of the largest blockchain net=
+works, was hit by instability during a turbulent week for cryptocurrencies.=
+ ...The issue experienced by validators that use their computing power to h=
+elp verify the network was caused by excessive duplicate transactions, acco=
+rding to a notice on the Solana website dated Jan. 22. Engineers have relea=
+sed version 1.8.14, which =E2=80=9Cwill attempt to mitigate the worst effec=
+ts of this issue,=E2=80=9D the notice said. It added that more improvements=
+ are expected to come out in the next eight to 12 weeks, and many of those =
+features are being =E2=80=9Crigorously tested.=E2=80=9D=C2=A0=E2=80=9CSolan=
+a mainnet beta is experiencing high levels of network congestion,=E2=80=9D =
+the notice said. =E2=80=9CThe last 24 hours have shown these systems need t=
+o be improved to meet the demands of users, and support the more complex tr=
+ansactions now common on the network.=E2=80=9DAnd:Solana's network logjam h=
+as had ramifications across the crypto-ecosystem. Not only does it make it =
+difficult for a retail market participant to, for instance, sell a Solana-b=
+ased NFT, it also slows down large DeFi traders and forces them to work aro=
+und the network. "Slows everything down," one trading executive said.=C2=A0=
+For large traders moving tens of millions, they have to move activity over-=
+the-counter and agree to settle once the chain is working. "Agree on a pric=
+e now and settle later... CEXes are still working so you still have price d=
+iscovery," an executive at a derivatives trading desk noted.=C2=A0Others tr=
+aders complained about not being able to top off a leveraged position in So=
+lana on a decentralized venue =E2=80=94 meaning, add to their position befo=
+re risking liquidation.=C2=A0Also if you thought this month has been bad fo=
+r meme stocks, what about  meme cryptocurrencies?Virtual coins made popular=
+ by online hype, including Dogecoin and Shiba Inu, were among the biggest l=
+osers in weekly value on Friday as crypto majors Bitcoin and Ether slid bel=
+ow key support thresholds.Dogecoin fell as much as 24% in the most recent s=
+even-day period, tumbling more than 12% on Friday alone to a low of $0.148,=
+ according to data from CoinGecko. The meme coin is now down almost 80% fro=
+m its all-time high, recorded nine months ago ahead of prominent supporter =
+and Tesla Chief Executive Elon Musk=E2=80=99s appearance on =E2=80=9CSaturd=
+ay Night Live.=E2=80=9DOther coins inspired by the shiba inu dog breed, inc=
+luding Shiba Inu and Dogelon, slipped around 18% in the last week. However,=
+ outlier Baby Doge rose a fifth in value over the same period.It is very im=
+portant for my sanity that I never learn why Baby Doge was up last week, or=
+ anything else about Baby Doge.
+ =20
+   =20
+      Short selling
+   =20
+ =20
+If you are in the business of penny-stock pump-and-dumps, and someone calls=
+ you =E2=80=9Cthe LeBron James of pump-and-dumps,=E2=80=9D and a reporter c=
+alls you up and asks =E2=80=9Care you in fact the LeBron James of pump-and-=
+dumps,=E2=80=9D what do you say? It=E2=80=99s tricky. Pump-and-dumps are ba=
+d, but being the LeBron James of something is good. You will want to avoid =
+confessing to illegal activity, but you might have a hard time resisting th=
+e flattery. =E2=80=9CYes, I=E2=80=99m so good at pump-and-dumps=E2=80=9D is=
+ a bad answer because it might incur liability, though if you have already =
+settled with the Securities and Exchange Commission (without admitting guil=
+t) perhaps you won=E2=80=99t mind that too much. =E2=80=9CNo, I=E2=80=99ve =
+never done a pump-and-dump in my life=E2=80=9D is fine, I guess, but don=E2=
+=80=99t you want to brag? Anyway here's a great answer:In December 2017, ea=
+rly in Hindenburg=E2=80=99s existence, Anderson published a report on a Col=
+orado biotech company that had abruptly pivoted into cryptocurrency, renami=
+ng itself Riot Blockchain. Barry Honig, a colorful Florida investor whom An=
+derson describes as the =E2=80=9CLeBron James of pump-and-dumps,=E2=80=9D w=
+as the company=E2=80=99s largest shareholder. (=E2=80=9CWhat is the definit=
+ion of a pump-and-dump?=E2=80=9D Honig asked rhetorically when reached on h=
+is cell phone. In 2018, the SEC charged Honig and the CEO of Riot Blockchai=
+n with fraud. Both men later settled without admitting guilt and were barre=
+d from trading penny stocks. Riot Blockchain itself was not implicated.)=E2=
+=80=9CI would have said more of the Steph Curry of penny-stock promotion.=
+=E2=80=9D That is from a New York Magazine profile of Nathan Anderson, the =
+short seller who runs Hindenburg Research. Being an activist short seller m=
+ostly seems like a hard and unpleasant job of getting in fights with compan=
+ies:Anderson laughs off the notion that he is a puppet and defends the moti=
+vations of his sources. =E2=80=9CI don=E2=80=99t think most whistleblowers =
+and even short sellers, for that matter,=E2=80=9D he says, =E2=80=9Cstart w=
+ith the idea that, like, Wow, this can be a great business; all I need to d=
+o is pick fights with corporate sociopaths, and I can do really well.=E2=80=
+=9D In the Nikola case, he says, =E2=80=9Cit started, I think, just as abje=
+ct horror that something this egregious and wrong could continue to fail fo=
+rward and upward.=E2=80=9DBut I suppose sometimes there=E2=80=99s a meeting=
+ of the minds. You see a company, you decide it is doing a fraud, you are i=
+mpressed despite yourself. =E2=80=9CMan, this guy is really good at fraud,=
+=E2=80=9D you say, about the guy running the company, in your short note at=
+tacking it. =E2=80=9COh, thanks, I=E2=80=99m so pleased someone noticed,=E2=
+=80=9D the guy says.=C2=A0
+ =20
+   =20
+      People are worried about non-GAAP accounting
+   =20
+ =20
+MicroStrategy Inc. is a smallish business-software company stapled to a lar=
+geish pot of Bitcoins. It owns about=C2=A0124,391 Bitcoins, worth about $4.=
+2 billion.=C2=A0In the first three quarters of 2021, its software business =
+made about $37 million of profits, and its Bitcoin pot lost about $684 mill=
+ion of value.[1] MicroStrategy, helpfully, explains that on page 30 of its=
+=C2=A0Form 10-Q, the quarterly financial report that it filed with the U.S.=
+ Securities and Exchange Commission.=C2=A0Which is more important? Well, I =
+mean, I guess that if you own MicroStrategy stock it=E2=80=99s probably mor=
+e for the pot of Bitcoins than it is for the business software, and you=E2=
+=80=99ll care more about the price of Bitcoin than you will about the busin=
+ess=E2=80=99s earnings. But honestly I don't know, maybe you care about the=
+ business, or about the intriguing  feedback loop between the business and =
+the CEO=E2=80=99s meme-stock focus on Bitcoin. Probably what is most useful=
+ is for MicroStrategy to tell you both things: =E2=80=9CLast quarter, we ma=
+de $X from selling business software and $Y from having a giant pot of Bitc=
+oins.=E2=80=9DWeirdly the SEC, and U.S. generally accepted accounting princ=
+iples, are adamantly opposed to this. The idea that a company-plus-pot-of-B=
+itcoins could just tell investors =E2=80=9Chere=E2=80=99s how the company d=
+id and here=E2=80=99s how the pot of Bitcoins did=E2=80=9D gives regulators=
+ terrible heartburn and so it is forbidden. For one thing, the accounting f=
+or Bitcoin investments is not generally mark-to-market, but is instead sort=
+ of asymmetric: If a company buys Bitcoins and they go=C2=A0down, it report=
+s a loss; if they go=C2=A0up, it generally does not report a gain. So the f=
+inancial statements of the pot of Bitcoins only sometimes reflect=C2=A0its =
+actual financial performance; sometimes the financials show no change even =
+when the pot has increased in value. There are plausible reasons of account=
+ing conservatism for this but it is somewhat less informative, for investor=
+s who care about the pot of Bitcoins, than just telling them how the pot di=
+d every quarter.Also though just writing what I wrote in my first paragraph=
+ here =E2=80=94=C2=A0that MicroStrategy=E2=80=99s software business made $X=
+ and its pot of Bitcoins lost $Y =E2=80=94=C2=A0is itself controversial. Mi=
+croStrategy does it, and the SEC has now  told it to knock it off:MicroStra=
+tegy Inc. can=E2=80=99t strip out Bitcoin=E2=80=99s wild swings from the un=
+official accounting measures it touts to investors, the SEC said. ...The en=
+terprise software maker, which said in 2020 that buying and holding Bitcoin=
+ was one of its key business strategies, used non-GAAP measures in its Form=
+ 10-Q for the quarter that ended Sept. 30, 2021 to show investors what its =
+income would have been if it didn=E2=80=99t have to impair the volatile cry=
+ptocurrency.The Securities and Exchange Commission objected, a comment lett=
+er released Thursday shows. ...The company told the SEC it used non-GAAP me=
+asures to give investors a fuller picture of its finances. If the company o=
+nly showed declines in value, it would give =E2=80=9Can incomplete assessme=
+nt=E2=80=9D of its Bitcoin holdings that would be =E2=80=9Cless meaningful =
+to management or investors=E2=80=9D in light of the company=E2=80=99s strat=
+egy to acquire and hold Bitcoin.=E2=80=9CWe further believe that the inclus=
+ion of bitcoin non-cash impairment losses may otherwise distract from our i=
+nvestors=E2=80=99 analysis of the operating results of our enterprise softw=
+are analytics business,=E2=80=9D the company wrote.The SEC disagreed. In a =
+letter dated Dec. 3, the market regulator told MicroStrategy it objected to=
+ the adjustment and told the company to remove it from future filings. In i=
+ts Dec. 16 response, MicroStrategy said it would comply.Here is the SEC=E2=
+=80=99s letter. Obviously telling investors the truth about whether your po=
+t of Bitcoins went up or down, and keeping the pot of Bitcoins analytically=
+ separate from the operating business, is more helpful than just giving the=
+m an earnings number that=C2=A0is one part business software and zero (if i=
+t=E2=80=99s up) or, like, 10 parts (if it's down) Bitcoin price moves.[2] B=
+ut that's not how accounting works.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Activist Investor Pushes  Peloton to Fire CEO and Seek Sale. Private equity=
+ sidesteps IPO parade by=C2=A0borrowing billions. Empty Private Jet Flights=
+ Hastened Credit Suisse Chairman=C2=A0Ant=C3=B3nio Horta-Os=C3=B3rio=E2=80=
+=99s=C2=A0Downfall. Peltz=E2=80=99s Activist Fund=C2=A0Trian=C2=A0Is Said t=
+o Build Stake in Unilever. Shell=E2=80=99s Massive=C2=A0Carbon Capture Plan=
+t=C2=A0Is Emitting More Than It=E2=80=99s Capturing.  Algae Market Potentia=
+lly Worth $320 Billion Draws Honda, Eneos.=C2=A0Crypto giant Binance kept w=
+eak money-laundering checks even as it promised tougher compliance, documen=
+ts show. The Charismatic Developer and the  Ponzi Scheme That Suckered San =
+Diego.=C2=A0Don't Approach=C2=A0Lab Monkey Missing After Crash, People Told=
+.=C2=A0Robot vacuum cleaner=C2=A0escapes=C2=A0from Cambridge Travelodge. Ev=
+elyn Davis=E2=80=99s=C2=A0tombstone.If you'd like to get=C2=A0Money=C2=A0St=
+uff=C2=A0in handy email form, right in your inbox, please=C2=A0subscribe at=
+ this link. Or you can subscribe to Money Stuff and other great Bloomberg n=
+ewsletters=C2=A0here. Thanks![1] Those numbers come from page 30 of the mos=
+t recent=C2=A0Form 10-Q. MicroStrategy reported=C2=A0a GAAP loss from opera=
+tions of $647 million for the nine months ended Sept. 30, 2021, and a non-G=
+AAP income from operations, stripping out digital asset impairment=C2=A0 ($=
+684=C2=A0million) and share-based compensation ($31 million), of about $68 =
+million. I have added back share-based compensation, which I attribute to M=
+icroStrategy=E2=80=99s business, to get the $37 million non-GAAP earnings a=
+ttributable to the business.[2] You know who else runs an operating busines=
+s stapled to a pot of investment assets? Warren Buffett, who also complains=
+ that smooshing these things together for GAAP accounting is misleading. At=
+ least he gets to mark his investments up when they go up. Anyway I  once w=
+rote about his complaints: =E2=80=9CLook: There is a sense in which if you =
+run a giant investment fund and you buy stocks and those stocks go down, th=
+en you have lost money. I mean there is also a sense in which you haven=E2=
+=80=99t, but it is the less conventional sense. I am not going to argue for=
+ the objective reality of GAAP net income accounting, and I see Buffett=E2=
+=80=99s point that combining a bunch of operating businesses with a hedge f=
+und leads to weird accounting results, but on the other hand (1) he=E2=80=
+=99s the one who combined them!, and (2) it does feel a little like special=
+ pleading for Buffett, a long-time critic of companies that use non-GAAP ac=
+counting metrics, to complain that it=E2=80=99s unfair for GAAP to make him=
+ report a loss just because the stocks he bought went down.=E2=80=9D
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfrcyk.5nf2/566e595a.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_32559290_1586867928.1643050672841
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Some GameStop anniversary content I guessThis week is the one-year annivers=
+ary of the GameStop thing. From Monday, Jan. 25, 2021, through Fr
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNjQ3MDc0OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY3MzQzNzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBe9668da5" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D26470748&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26734378&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMTI0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAxMjQmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB5228d9c4"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNjQ3MDc0OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY3MzQzNzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC7952a4ad" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D26470748&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26734378&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Some GameStop anniversary content I guess</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">This week is the one-year anniversary =
+of <a href=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMjUvdG=
+hlLWdhbWUtbmV2ZXItc3RvcHM_Y21waWQ9QkJEMDEyNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1b=
+T1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMTI0JnV0bV9jYW1wYWln=
+bj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB6f4f730a" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> the GameStop=
+=C2=A0thing</a>.=C2=A0From Monday, Jan. 25, 2021, through Friday, Jan. 29, =
+2021, GameStop Corp.=E2=80=99s stock traded as low as $61.13 per share and =
+as high as $483; it ended the week at $197.44, up 204% from the previous we=
+ek=E2=80=99s close. Trading in the stock was <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/26470748.263630/aHR0cHM6Ly93d3cubnlzZS5jb20vdHJh=
+ZGUtaGFsdC1oaXN0b3JpY2Fs/607f07ceef4b8524a319a23cB2b2855c4" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">halted =
+for volatility</a> 37 times during that week, plus Robinhood Markets Inc. a=
+nd some other brokers briefly <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26470748.263630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMjEtMDEtMjkvcmVkZGl0LXRyYWRlcnMtb24tcm9iaW5ob29kLWFyZS1vbi1ib3=
+RoLXNpZGVzLW9mLWdhbWVzdG9wP2NtcGlkPUJCRDAxMjQyMl9NT05FWVNUVUZGJnV0bV9tZWRpd=
+W09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDEyNCZ1dG1fY2FtcGFp=
+Z249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBe04d6711" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> restricted c=
+ustomers from buying it</a> due to <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/26470748.263630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW=
+9uL2FydGljbGVzLzIwMjEtMDItMDIvZ2FtZXN0b3AtdHJhZGUtd2FzLWEtbWl4ZWQtYmFnLWZvc=
+i1yb2Jpbmhvb2Q_Y21waWQ9QkJEMDEyNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1=
+dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMTI0JnV0bV9jYW1wYWlnbj1tb25leXN=
+0dWZm/607f07ceef4b8524a319a23cBff4c83e2" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> clearinghouse margin tr=
+oubles</a>. By mid-February there were <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/26470748.263630/aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tL3RsZH=
+IvMjIyNjg5NTIvZ2FtZXN0b3Atc3RvY2stc3RvbmtzLXJlZGRpdC13YWxsc3RyZWV0YmV0cy1tb=
+3ZpZXMtdHYtc2hvd3MtaGJvLW5ldGZsaXg/607f07ceef4b8524a319a23cB3663c81d" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">at least seven movies</a> and television shows about GameStop in the wor=
+ks. Everyone=E2=80=99s brain broke that week and stayed broken. More meme s=
+tocks followed. Elon Musk made Dogecoin into a meme. Donald Trump did a mem=
+e stock. Everything was like this. It was <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/26470748.263630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL2ZlYXR1cmVzLzIwMjEtMTItMDEvbWVtZS1zdG9ja3MtZ2FtZXN0b3AtZ21lLWFtYy1hbm=
+QtZG9nZWNvaW4tYmxvb21iZXJnLTUwLTIwMjE_Y21waWQ9QkJEMDEyNDIyX01PTkVZU1RVRkYmd=
+XRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMTI0JnV0=
+bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB7f62f72d" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> th=
+e year of the meme stock</a>. That is, <em>2021</em> was the year of the me=
+me stock.=C2=A0=E2=80=9CI will see you back here in 2022,=E2=80=9D <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTItMjMvdGhlLXB1cmR1=
+ZS1iYW5rcnVwdGN5LWRpZG4tdC13b3JrP2NtcGlkPUJCRDAxMjQyMl9NT05FWVNUVUZGJnV0bV9=
+tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDEyNCZ1dG1fY2=
+FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBeab90fd4" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> I wrot=
+e</a>, in my last column of 2021,=C2=A0=E2=80=9Cwhen everything will be abs=
+olutely normal.=E2=80=9D</p><p style=3D"margin: 16px 0;">I don=E2=80=99t wa=
+nt to say that that was=C2=A0<em>right </em>=E2=80=94=C2=A0honestly I was k=
+idding =E2=80=94=C2=A0but I do feel a little bit like people are celebratin=
+g the anniversary of the meme stock boom by declaring that it=E2=80=99s ove=
+r? For instance, here is <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26470748.263630/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9yZWRkaXRzLXdh=
+bGxzdHJlZXRiZXRzLXdhcy10aGUtZ2FtZXN0b3Ata2luZ21ha2VyLWJ1dC1sb25ndGltZS11c2V=
+ycy1zYXktdGhlLXRocmlsbC1pcy1nb25lLTExNjQzMDI1NjAyP21vZD1ocF9sZWFkX3BvczEw/6=
+07f07ceef4b8524a319a23cB40ef9c35" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">a Wall Street Journal article</a>=
+ about WallStreetBets, the Reddit forum that ignited the GameStop boom and =
+became the center of the meme-stock world for a while:</p><blockquote><p st=
+yle=3D"margin: 16px 0;">These days, some one-time fans say it is hardly wor=
+th clicking on.</p><p style=3D"margin: 16px 0;">Those who once scoured the =
+online message forum for brazen and unexpected trading ideas say they are m=
+ostly finding members still chatting about stocks such as GameStop Corp. an=
+d AMC Entertainment Holdings Inc.=C2=A0 Constructive feedback on trades, so=
+me users complain, has largely been replaced by cheerleading. Devotees who =
+were once glued to the forum=E2=80=94watching power users like Keith Gill, =
+or =E2=80=9CDeepF=E2=80=94ingValue,=E2=80=9D post bold bets on GameStop=E2=
+=80=94say they have largely abandoned the page in favor of other trading co=
+mmunities.</p></blockquote><p style=3D"margin: 16px 0;">And in this morning=
+=E2=80=99s =E2=80=9C5 Things to Start Your Day=E2=80=9D Bloomberg newslette=
+r, <a href=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630=
+/aHR0cHM6Ly90d2l0dGVyLmNvbS9UaGVTdGFsd2FydC9zdGF0dXMvMTQ4NTU4NTE1NTA3NTAyMj=
+g1NA/607f07ceef4b8524a319a23cB33bb12b8" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">Joe Weisenthal writes</a> t=
+hat a lot of the memeiest and most retail-driven parts of the market have a=
+ctually been underperforming since last February,=C2=A0=E2=80=9Cthe retail =
+crowd has been badly lagging the S&amp;P 500 for a while now,=E2=80=9D and =
+=E2=80=9Cthe whole =E2=80=98Reddit vs. Hedge Funds=E2=80=99 meme that came =
+out of the GameStop story really did turn out to be the peak of the mania.=
+=E2=80=9D</p><p style=3D"margin: 16px 0;">Meanwhile the broad stock market =
+got crushed all last week and is down more today. The S&amp;P 500 index is =
+now in what people like to call a =E2=80=9C<a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/26470748.263630/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2=
+xlcy9nbG9iYWwtc3RvY2tzLW1hcmtldHMtZG93LXVwZGF0ZS0wMS0yNC0yMDIyLTExNjQzMDExM=
+zIz/607f07ceef4b8524a319a23cBe18e6122" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">correction</a>,=E2=80=9D=C2=
+=A0a drop of 10% from the most recent high, which in this case is Jan. 3. I=
+ have always thought this was sort of=C2=A0a dumb euphemism but now, I mean=
+, I guess I see the point.</p><p style=3D"margin: 16px 0;">Long before Game=
+Stop, in April 2020, I coined what I have called <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/26470748.263630/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDQtMzAvaWYteW91LXJlLWJvcmVkLXlvdS1jYW4=
+tdHJhZGUtc3RvY2tzP2NtcGlkPUJCRDAxMjQyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haW=
+wmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDEyNCZ1dG1fY2FtcGFpZ249bW9uZ=
+XlzdHVmZg/607f07ceef4b8524a319a23cB40dbf6bc" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> the Boredom Market Hy=
+pothesis</a>:</p><blockquote><p style=3D"margin: 16px 0;">The theory is som=
+ething like: Retail investors are not trading=C2=A0because they have an inf=
+ormational advantage and a reasonable expectation of profit.=C2=A0They are =
+trading because it is fun, or because it looks fun. They see people making =
+money in the stock market, it looks fun and easy to make money in the stock=
+ market, they start trading stocks. As long as it is fun=E2=80=94as long as=
+ stocks go up=E2=80=94they increase their investments. When it stops being =
+fun=E2=80=94when stocks go down=E2=80=94they get out.</p><p style=3D"margin=
+: 16px 0;">The weird thing about the coronavirus crisis is that it simultan=
+eously (1) caused a stock market crash and (2) eliminated most=C2=A0forms o=
+f fun.</p></blockquote><p style=3D"margin: 16px 0;">When the world shut dow=
+n in the spring of 2020, people turned to day-trading stocks because, even =
+though the market=C2=A0had just crashed, trading stocks was still more fun =
+than their other entertainment options. And then trading stocks became, imp=
+robably, really fun, a source of social connection and populist excitement,=
+ and also those stocks went up a lot which was fun. In 2022, there are more=
+ fun things to do, and frantic day trading is less fun than it used=C2=A0to=
+ be. It has gotten old; the message boards are not alive with excitement bu=
+t are just playing the hits. Also the market is crashing again! Where is th=
+e fun in that?</p><p style=3D"margin: 16px 0;">Meanwhile at noon today Game=
+Stop was trading above $88 per share. When I first wrote about GameStop, wh=
+en everything went utterly insane, when GameStop=E2=80=99s soaring price se=
+emed to make no sense at all, it closed at $76.79. Perhaps we=E2=80=99ll te=
+st that today. Or perhaps GameStop used its meme status to successfully <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMTAvbWF5YmUt=
+Z2FtZXN0b3AtaXMtZ29vZC1ub3c_Y21waWQ9QkJEMDEyNDIyX01PTkVZU1RVRkYmdXRtX21lZGl=
+1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMTI0JnV0bV9jYW1wYW=
+lnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB8fec1a9e" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> transform it=
+s business</a>; perhaps=C2=A0the magic doesn=E2=80=99t work anymore, but it=
+s effects on GameStop have lasted.</p><table class=3D"liveintent-sponsored-=
+content" width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjQ3MDc0OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY3MzQzNzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD0eeac0f4" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26470748&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26734378&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjQ3MDc0OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY3MzQzNzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE0eeac0f4" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26470748&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26734378&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjQ3MDc0OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY3MzQzNzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFe7fcbcd6" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26470748&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26734378&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjQ3MDc0OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY3MzQzNzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGe7fcbcd6" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26470748&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26734378&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Netflix</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">One important=C2=A0but not necessarily=
+ permanent=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/26=
+470748.263630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwM=
+jEtMTEtMDQvbWFjeS1zLXRhcmdldGVkLWJ5LW1lbWUtYWN0aXZpc3RzP2NtcGlkPUJCRDAxMjQy=
+Ml9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9=
+0ZXJtPTIyMDEyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB9b=
+5fd183" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">lesson</a> of the Year of Meme Stocks is that if you run a =
+public company you should try to meme it up as much as possible, because yo=
+ur job is to create shareholder value and doing meme stuff creates sharehol=
+der value. Exactly what constitutes =E2=80=9Cdoing meme stuff=E2=80=9D depe=
+nds on what memes are popular in any given week, but broadly speaking talki=
+ng about electric cars or cryptocurrencies or non-fungible tokens or Elon M=
+usk or=C2=A0<em>other=C2=A0</em>meme stocks is usually a decent way to get =
+attention and have your stock go up. Being on Twitter or Reddit a lot, usin=
+g the right slang and the right emojis, generally conveying to retail inves=
+tors that you are in on the joke, these things build shareholder loyalty an=
+d can cause your stock to [rocket emoji].</p><p style=3D"margin: 16px 0;">A=
+ll of this stuff is pretty much unrelated to actual business results; my po=
+int here is not =E2=80=9Cif you sell non-fungible tokens and they bring in =
+hundreds of millions of dollars investors will put an attractive multiple o=
+n those earnings=E2=80=9D but rather =E2=80=9Cif you say =E2=80=98NFT=E2=80=
+=99 on a conference call your stock will go up.=E2=80=9D Last Thursday <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMjAvbmV0ZmxpeC1zd=
+WJzY3JpYmVyLWZvcmVjYXN0LW1pc3Nlcy1lc3RpbWF0ZXMtc2VuZGluZy1zdG9jay1kb3duP2Nt=
+cGlkPUJCRDAxMjQyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXd=
+zbGV0dGVyJnV0bV90ZXJtPTIyMDEyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4=
+b8524a319a23cB44f1d99e" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> Netflix Inc. announced</a> disappointing s=
+ubscriber growth numbers, and <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26470748.263630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3N=
+sZXR0ZXJzLzIwMjItMDEtMjMvd2h5LW5ldGZsaXgtanVzdC1oYWQtaXRzLXdvcnN0LWRheS1pbi=
+1hLWRlY2FkZT9jbXBpZD1CQkQwMTI0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAxMjQmdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cBc0198b7d" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> the stock tanked</a>. On Fr=
+iday, Netflix Engineering <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/26470748.263630/aHR0cHM6Ly90d2l0dGVyLmNvbS9uZXRmbGl4ZW5nL3N0YXR1cy8=
+xNDg0NTgzNTcxMDcxMjc1MDExP3M9MTE/607f07ceef4b8524a319a23cB1c34db81" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>tweeted</a>: =E2=80=9CWhat are your thoughts on NFTs?=E2=80=9D=C2=A0</p><p=
+ style=3D"margin: 16px 0;">I love it, but it did not work at all. The stock=
+ was down 21.8% on the day, with no noticeable reaction to the midday NFT t=
+weet; it was down further this morning. This is bad news for Netflix but I =
+prefer to focus on the positive, which is that it is very good news for all=
+ of the public company CEOs who do not personally want=C2=A0to go around ta=
+lking about NFTs all the time. As of December it looked like their fiduciar=
+y duties to shareholders might require them to do NFTs whether they want to=
+ or not.=C2=A0Now they don=E2=80=99t have to! Going on Twitter to say =E2=
+=80=9CNFTs=E2=80=9D doesn=E2=80=99t work anymore! The magic is gone! You ca=
+n go back to running your business instead of doing meme stuff; everything =
+is normal again.</p><table class=3D"liveintent-flex-ad" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNjQ3MDc0OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY3MzQzNzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH9b97e9cc" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D26470748&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26734378&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Robinhood IPOs</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">A simple model of initial public offer=
+ings is that on the day of the IPO, a company sells stock for $100 per shar=
+e to a selected group of institutional investors, and the next day, the sto=
+ck opens for trading and those institutional investors turn around and sell=
+ the stock for $150 to any retail investor on Robinhood who wants to buy it=
+. This is called the =E2=80=9CIPO pop=E2=80=9D: There is more demand for th=
+e stock than is satisfied in the IPO process, so when it opens for trading =
+the stock goes up. This model is oversimplified in various important ways b=
+ut it has its uses.=C2=A0</p><p style=3D"margin: 16px 0;">If that is your m=
+odel it creates an interesting marketing opportunity for Robinhood Markets =
+Inc. The pitch goes like this:</p><ol style=3D"list-style-type: decimal; pa=
+dding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Go =
+to<em>=C2=A0issuers</em>=C2=A0=E2=80=94=C2=A0companies thinking about going=
+ public =E2=80=94=C2=A0and say, look, if you sell stock in a regular IPO to=
+ institutional investors, you will sell your stock at $100 per share and th=
+e next day it will pop=C2=A0by 50% as the institutional investors turn arou=
+nd and sell it to Robinhood customers at $150. You will have =E2=80=9C<a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMDcvdGhlLWlwby=
+1tYXJrZXQtd2FzLXRvby1nb29kP2NtcGlkPUJCRDAxMjQyMl9NT05FWVNUVUZGJnV0bV9tZWRpd=
+W09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDEyNCZ1dG1fY2FtcGFp=
+Z249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB5f48a66a" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">left money on=
+ the table</a>,=E2=80=9D and your=C2=A0venture capitalists will complain. I=
+nstead, you should just=C2=A0<em>sell the stock to Robinhood customers your=
+self</em>, at $150 per share, avoiding the pop and raising more money for y=
+ourself.</li>=09<li style=3D"margin-bottom: 5px;">Go to=C2=A0<em>customers=
+=C2=A0</em>=E2=80=94=C2=A0individual retail investors on Robinhood =E2=80=
+=94 and say, look, so much of the money that gets made in stock markets com=
+es from buying IPOs at the IPO price. Institutional investors get to buy IP=
+O stock at $100 and then it pops to $150 the next day for a quick easy prof=
+it. We are going to democratize this process by letting=C2=A0<em>you=C2=A0<=
+/em>buy stock at the IPO price and participate in the pop yourself.</li>=09=
+<li style=3D"margin-bottom: 5px;">The issuers sign up to sell, the customer=
+s sign up to buy, and now Robinhood is in the IPO underwriting business.</l=
+i></ol><p style=3D"margin: 16px 0;">Do you see the problem here? I am being=
+ too cute =E2=80=94=C2=A0those numbers ($100 and $150) are not known in adv=
+ance, there are lots of other factors beyond selling to retail, etc. =E2=80=
+=94=C2=A0but not=C2=A0<em>much=C2=A0</em>too cute. If the IPO pop comes fro=
+m Robinhood customers crowding into a stock the day after its IPO, then let=
+ting Robinhood customers crowd into the stock the day=C2=A0<em>of</em>=C2=
+=A0its IPO doesn=E2=80=99t exactly let them participate in the pop. It just=
+ raises the IPO price. Which is what the issuers want, but not necessarily =
+what the=C2=A0customers want.</p><p style=3D"margin: 16px 0;">Anyway Robinh=
+ood really did launch an =E2=80=9CIPO Access=E2=80=9D program last year whe=
+re it got issuers to allocate some IPO shares to its customers=C2=A0and got=
+ its customers to buy those shares. We have talked about it =E2=80=94=C2=A0=
+along the lines of this model =E2=80=94=C2=A0a <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/26470748.263630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMjQvbWVycmlsbC1seW5jaC1wdXRzLWRvd24td=
+GhlLXBob25lP2NtcGlkPUJCRDAxMjQyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRt=
+X3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDEyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHV=
+mZg/607f07ceef4b8524a319a23cB776639bd" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> couple</a> of <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/26470748.263630/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDctMDIvcm9iaW5ob29kLWlwby=
+1maWxpbmctaXMtYS1sZXNzb24taW4tbWVtZS1maW5hbmNlP2NtcGlkPUJCRDAxMjQyMl9NT05FW=
+VNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIy=
+MDEyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB67c6ec15" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> times</a> before. Last Friday, Ranjan Roy at the Margins=C2=A0<a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630/aHR0cHM=
+6Ly93d3cucmVhZG1hcmdpbnMuY29tL3Avcm9iaW5ob29kLWFuZC1pcG8tYWNjZXNz/607f07cee=
+f4b8524a319a23cB0fcd6a14" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">looked at the=
+ performance of those IPOs</a>=C2=A0and it is pretty ugly:</p><blockquote><=
+p style=3D"margin: 16px 0;">It doesn=E2=80=99t matter whether you=E2=80=99r=
+e a Brazilian fintech, a fancy salad chain, a cloud backup company, a Germa=
+n solar company, a fantastic expense management SaaS (I love Expensify), so=
+mething-something-blockchain, coconut water, a biotech claiming to cure chr=
+onic disease, a fraud detection company, an Australian energy company, a CO=
+VID-19 testing maker, a wallet for nerds, or whatever else. It didn=E2=80=
+=99t matter whether you IPO=E2=80=99ed in May or July or November. Other th=
+an the jewelry company $BRLT Brilliant Earth (on the top right) every singl=
+e company comes out incredibly strong or has a spike early on, and then it =
+slowly dies. Sometimes, like $SEV or $SG or $HLTH, it=E2=80=99s brutal. Oth=
+er times, like $ARBK or $NRDS, you see glimmers of hope and then goodbye.=
+=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Honestly that=E2=80=99s=
+ kind of how it was supposed to work!=C2=A0</p><table class=3D"header" widt=
+h=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Meanwhile in crypto</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">A famous function of brokers in tradit=
+ional finance is=C2=A0not answering the phone when the market crashes. This=
+ has various benefits and costs. If you are a customer and the market is go=
+ing down and you see that and panic and decide to sell everything, you will=
+ call your broker, and she will not answer her phone. You will be unable to=
+ sell everything. This may protect you from selling at the bottom (though i=
+t may make things worse for you if this is not in fact the bottom), and wil=
+l definitely protect=C2=A0<em>the market=C2=A0</em>from you adding your sal=
+es to the general march downward. On the other hand if you bravely decide t=
+o step in to buy the dip, your broker=E2=80=99s failure to answer the phone=
+ not only costs you money (if you correctly time the bottom) but also preve=
+nts you from stepping in to stabilize the market; if brokers don=E2=80=99t =
+answer when=C2=A0<em>buyers=C2=A0</em>call then the crash gets worse.</p><p=
+ style=3D"margin: 16px 0;">There is also the issue of margin calls. In gene=
+ral, if you have a trade on using money that you borrowed from your broker,=
+ and your broker calls you for more money, and you call her back, she will =
+answer=C2=A0<em>that=C2=A0</em>call, because she does want your money. But =
+in particularly frantic market conditions she may not =E2=80=94=C2=A0becaus=
+e she has too much else going on, or because she has preemptively liquidate=
+d your position rather than waiting for you to post more money. And that to=
+o may drive the market lower.</p><p style=3D"margin: 16px 0;">Of course thi=
+s is all old-timey stuff and modern markets are considerably more technical=
+ly advanced; the role of stabilizing markets by not answering the phone has=
+ been taken over by Robinhood having its=C2=A0<a href=3D"https://link.mail.=
+bloombergbusiness.com/click/26470748.263630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDMtMDMvcm9iaW5ob29kLXBpY2tlZC1hLWJhZC1kYX=
+ktdG8tYnJlYWs_Y21waWQ9QkJEMDEyNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1d=
+G1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMTI0JnV0bV9jYW1wYWlnbj1tb25leXN0=
+dWZm/607f07ceef4b8524a319a23cBe89a4b01" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">app and website break</a>=
+=C2=A0(and also not answering the phone). Even that approach feels a bit da=
+ted, though, and with the rise of crypto and blockchains and decentralized =
+finance there are new, cutting-edge, cryptographically elegant ways for tra=
+ding <a href=3D"https://link.mail.bloombergbusiness.com/click/26470748.2636=
+30/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMjMvc29s=
+YW5hLXN1ZmZlcnMtbmV0d29yay1pbnN0YWJpbGl0eS1kdXJpbmctYnJ1dGFsLXdlZWstZm9yLWN=
+yeXB0bz9jbXBpZD1CQkQwMTI0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3=
+VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAxMjQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/6=
+07f07ceef4b8524a319a23cB56403a4b" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> not to work</a>:</p><blockquote>=
+<p style=3D"margin: 16px 0;">Solana, one of the largest blockchain networks=
+, was hit by instability during a turbulent week for cryptocurrencies. ...<=
+/p><p style=3D"margin: 16px 0;">The issue experienced by validators that us=
+e their computing power to help verify the network was caused by excessive =
+duplicate transactions, according to a notice on the Solana website dated J=
+an. 22. Engineers have released version 1.8.14, which =E2=80=9Cwill attempt=
+ to mitigate the worst effects of this issue,=E2=80=9D the notice said. It =
+added that more improvements are expected to come out in the next eight to =
+12 weeks, and many of those features are being =E2=80=9Crigorously tested.=
+=E2=80=9D=C2=A0</p><p style=3D"margin: 16px 0;">=E2=80=9CSolana mainnet bet=
+a is experiencing high levels of network congestion,=E2=80=9D the notice sa=
+id. =E2=80=9CThe last 24 hours have shown these systems need to be improved=
+ to meet the demands of users, and support the more complex transactions no=
+w common on the network.=E2=80=9D</p></blockquote><p style=3D"margin: 16px =
+0;"><a href=3D"https://link.mail.bloombergbusiness.com/click/26470748.26363=
+0/aHR0cHM6Ly93d3cudGhlYmxvY2tjcnlwdG8uY29tL3Bvc3QvMTMxMjc4L3RyYWRlcnMtYXJlL=
+WNvbXBsYWluaW5nLWFib3V0LXNvbGFuYXMtcGVyZm9ybWFuY2UtcmFpc2luZy1xdWVzdGlvbnMt=
+YWJvdXQtaXRzLXN0YXR1cy1hcy1hLXdhbGwtc3RyZWV0LWRhcmxpbmc/607f07ceef4b8524a31=
+9a23cB1a9e2e51" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">And</a>:</p><blockquote><p style=3D"margin: 16px 0;=
+">Solana's network logjam has had ramifications across the crypto-ecosystem=
+. Not only does it make it difficult for a retail market participant to, fo=
+r instance, sell a Solana-based NFT, it also slows down large DeFi traders =
+and forces them to work around the network. "Slows everything down," one tr=
+ading executive said.=C2=A0</p><p style=3D"margin: 16px 0;">For large trade=
+rs moving tens of millions, they have to move activity over-the-counter and=
+ agree to settle once the chain is working. "Agree on a price now and settl=
+e later... CEXes are still working so you still have price discovery," an e=
+xecutive at a derivatives trading desk noted.=C2=A0</p><p style=3D"margin: =
+16px 0;">Others traders complained about not being able to top off a levera=
+ged position in Solana on a decentralized venue =E2=80=94 meaning, add to t=
+heir position before risking liquidation.=C2=A0</p></blockquote><p style=3D=
+"margin: 16px 0;">Also if you thought this month has been bad for meme stoc=
+ks, what about <a href=3D"https://link.mail.bloombergbusiness.com/click/264=
+70748.263630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMD=
+EtMjEvbWVtZS1jb2luLWZhaXRoZnVsLWFyZW4tdC1sYXVnaGluZy1hbnktbW9yZS1hcy1yb3V0L=
+WRlZXBlbnM_Y21waWQ9QkJEMDEyNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1f=
+c291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMTI0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZ=
+m/607f07ceef4b8524a319a23cB9ed2d444" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> meme cryptocurrencies</a>?</p=
+><blockquote><p style=3D"margin: 16px 0;">Virtual coins made popular by onl=
+ine hype, including Dogecoin and Shiba Inu, were among the biggest losers i=
+n weekly value on Friday as crypto majors Bitcoin and Ether slid below key =
+support thresholds.</p><p style=3D"margin: 16px 0;">Dogecoin fell as much a=
+s 24% in the most recent seven-day period, tumbling more than 12% on Friday=
+ alone to a low of $0.148, according to data from CoinGecko. The meme coin =
+is now down almost 80% from its all-time high, recorded nine months ago ahe=
+ad of prominent supporter and Tesla Chief Executive Elon Musk=E2=80=99s app=
+earance on =E2=80=9CSaturday Night Live.=E2=80=9D</p><p style=3D"margin: 16=
+px 0;">Other coins inspired by the shiba inu dog breed, including Shiba Inu=
+ and Dogelon, slipped around 18% in the last week. However, outlier Baby Do=
+ge rose a fifth in value over the same period.</p></blockquote><p style=3D"=
+margin: 16px 0;">It is very important for my sanity that I never learn why =
+Baby Doge was up last week, or anything else about Baby Doge.</p><table cla=
+ss=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Short selling</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">If you are in the business of penny-st=
+ock pump-and-dumps, and someone calls you =E2=80=9Cthe LeBron James of pump=
+-and-dumps,=E2=80=9D and a reporter calls you up and asks =E2=80=9Care you =
+in fact the LeBron James of pump-and-dumps,=E2=80=9D what do you say? It=E2=
+=80=99s tricky. Pump-and-dumps are bad, but being the LeBron James of somet=
+hing is good. You will want to avoid confessing to illegal activity, but yo=
+u might have a hard time resisting the flattery. =E2=80=9CYes, I=E2=80=99m =
+so good at pump-and-dumps=E2=80=9D is a bad answer because it might incur l=
+iability, though if you have already settled with the Securities and Exchan=
+ge Commission (without admitting guilt) perhaps you won=E2=80=99t mind that=
+ too much. =E2=80=9CNo, I=E2=80=99ve never done a pump-and-dump in my life=
+=E2=80=9D is fine, I guess, but don=E2=80=99t you want to brag? Anyway <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630/aHR0cH=
+M6Ly9ueW1hZy5jb20vaW50ZWxsaWdlbmNlci8yMDIyLzAxL25hdGhhbi1hbmRlcnNvbi1oaW5kZ=
+W5idXJnLXJlc2VhcmNoLXNob3J0LXNlbGxpbmcuaHRtbA/607f07ceef4b8524a319a23cB02dc=
+6fcb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">here's a great answer</a>:</p><blockquote><p style=3D"margin:=
+ 16px 0;">In December 2017, early in Hindenburg=E2=80=99s existence, Anders=
+on published a report on a Colorado biotech company that had abruptly pivot=
+ed into cryptocurrency, renaming itself Riot Blockchain. Barry Honig, a col=
+orful Florida investor whom Anderson describes as the =E2=80=9CLeBron James=
+ of pump-and-dumps,=E2=80=9D was the company=E2=80=99s largest shareholder.=
+ (=E2=80=9CWhat is the definition of a pump-and-dump?=E2=80=9D Honig asked =
+rhetorically when reached on his cell phone. In 2018, the SEC charged Honig=
+ and the CEO of Riot Blockchain with fraud. Both men later settled without =
+admitting guilt and were barred from trading penny stocks. Riot Blockchain =
+itself was not implicated.)</p></blockquote><p style=3D"margin: 16px 0;">=
+=E2=80=9CI would have said more of the Steph Curry of penny-stock promotion=
+.=E2=80=9D That is from a New York Magazine profile of Nathan Anderson, the=
+ short seller who runs Hindenburg Research. Being an activist short seller =
+mostly seems like a hard and unpleasant job of getting in fights with compa=
+nies:</p><blockquote><p style=3D"margin: 16px 0;">Anderson laughs off the n=
+otion that he is a puppet and defends the motivations of his sources. =E2=
+=80=9CI don=E2=80=99t think most whistleblowers and even short sellers, for=
+ that matter,=E2=80=9D he says, =E2=80=9Cstart with the idea that, like, Wo=
+w, this can be a great business; all I need to do is pick fights with corpo=
+rate sociopaths, and I can do really well.=E2=80=9D In the Nikola case, he =
+says, =E2=80=9Cit started, I think, just as abject horror that something th=
+is egregious and wrong could continue to fail forward and upward.=E2=80=9D<=
+/p></blockquote><p style=3D"margin: 16px 0;">But I suppose sometimes there=
+=E2=80=99s a meeting of the minds. You see a company, you decide it is doin=
+g a fraud, you are impressed despite yourself. =E2=80=9CMan, this guy is re=
+ally good at fraud,=E2=80=9D you say, about the guy running the company, in=
+ your short note attacking it. =E2=80=9COh, thanks, I=E2=80=99m so pleased =
+someone noticed,=E2=80=9D the guy says.=C2=A0</p><table class=3D"header" wi=
+dth=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">People are worried about non-GAAP accounting</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">MicroStrategy Inc. is a smallish busin=
+ess-software company stapled to a largeish pot of Bitcoins. It owns about=
+=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/26470748.263=
+630/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTA1MDQ=
+0Ni8wMDAxMTkzMTI1MjEzNjk3NjcvZDI2MTE0MmQ4ay5odG0/607f07ceef4b8524a319a23cB6=
+8dccb77" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">124,391 Bitcoins</a>, worth ab=
+out $4.2 billion.=C2=A0In the first three quarters of 2021, its software bu=
+siness made about $37 million of profits, and its Bitcoin pot lost about $6=
+84 million of value.[1] MicroStrategy, helpfully, explains that on page 30 =
+of its=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/264707=
+48.263630/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvM=
+TA1MDQ0Ni8wMDAxNTY0NTkwMjEwNTI2NDYvbXN0ci0xMHFfMjAyMTA5MzAuaHRtI0lURU1fMl9N=
+QU5BR0VNRU5UU19ESVNDVVNTSU9OX0FOQUxZU0lTX0Y/607f07ceef4b8524a319a23cB96e78c=
+6b" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">Form 10-Q</a>, the quarterly financ=
+ial report that it filed with the U.S. Securities and Exchange Commission.=
+=C2=A0</p><p style=3D"margin: 16px 0;">Which is more important? Well, I mea=
+n, I guess that if you own MicroStrategy stock it=E2=80=99s probably more f=
+or the pot of Bitcoins than it is for the business software, and you=E2=80=
+=99ll care more about the price of Bitcoin than you will about the business=
+=E2=80=99s earnings. But honestly I don't know, maybe you care about the bu=
+siness, or about the intriguing <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/26470748.263630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjEtMTItMjAvanBtb3JnYW4tc2VudC10aGUtd3JvbmctZW1haWxzP2NtcGlk=
+PUJCRDAxMjQyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV=
+0dGVyJnV0bV90ZXJtPTIyMDEyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b852=
+4a319a23cB1beb7c69" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> feedback loop</a> between the business and t=
+he CEO=E2=80=99s meme-stock focus on Bitcoin. Probably what is most useful =
+is for MicroStrategy to tell you both things: =E2=80=9CLast quarter, we mad=
+e $X from selling business software and $Y from having a giant pot of Bitco=
+ins.=E2=80=9D</p><p style=3D"margin: 16px 0;">Weirdly the SEC, and U.S. gen=
+erally accepted accounting principles, are adamantly opposed to this. The i=
+dea that a company-plus-pot-of-Bitcoins could just tell investors =E2=80=9C=
+here=E2=80=99s how the company did and here=E2=80=99s how the pot of Bitcoi=
+ns did=E2=80=9D gives regulators terrible heartburn and so it is forbidden.=
+ For one thing, the accounting for Bitcoin investments is not generally mar=
+k-to-market, but is instead sort of asymmetric: If a company buys Bitcoins =
+and they go=C2=A0<em>down</em>, it reports a loss; if they go=C2=A0<em>up</=
+em>, it generally does not report a gain. So the financial statements of th=
+e pot of Bitcoins only sometimes reflect=C2=A0its actual financial performa=
+nce; sometimes the financials show no change even when the pot has increase=
+d in value. There are plausible reasons of accounting conservatism for this=
+ but it is somewhat less informative, for investors who care about the pot =
+of Bitcoins, than just telling them how the pot did every quarter.</p><p st=
+yle=3D"margin: 16px 0;">Also though just writing what I wrote in my first p=
+aragraph here =E2=80=94=C2=A0that MicroStrategy=E2=80=99s software business=
+ made $X and its pot of Bitcoins lost $Y =E2=80=94=C2=A0is itself controver=
+sial. MicroStrategy does it, and the SEC has now <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/26470748.263630/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMjEvbWljcm9zdHJhdGVneS1wbHVtbWV0cy1hcy1=
+zZWMtcmVqZWN0cy1pdHMtYml0Y29pbi1hY2NvdW50aW5nP2NtcGlkPUJCRDAxMjQyMl9NT05FWV=
+NUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyM=
+DEyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB3b85006a" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> told it to knock it off</a>:</p><blockquote><p style=3D"margin: 16px=
+ 0;">MicroStrategy Inc. can=E2=80=99t strip out Bitcoin=E2=80=99s wild swin=
+gs from the unofficial accounting measures it touts to investors, the SEC s=
+aid. ...</p><p style=3D"margin: 16px 0;">The enterprise software maker, whi=
+ch said in 2020 that buying and holding Bitcoin was one of its key business=
+ strategies, used non-GAAP measures in its Form 10-Q for the quarter that e=
+nded Sept. 30, 2021 to show investors what its income would have been if it=
+ didn=E2=80=99t have to impair the volatile cryptocurrency.</p><p style=3D"=
+margin: 16px 0;">The Securities and Exchange Commission objected, a comment=
+ letter released Thursday shows. ...</p><p style=3D"margin: 16px 0;">The co=
+mpany told the SEC it used non-GAAP measures to give investors a fuller pic=
+ture of its finances. If the company only showed declines in value, it woul=
+d give =E2=80=9Can incomplete assessment=E2=80=9D of its Bitcoin holdings t=
+hat would be =E2=80=9Cless meaningful to management or investors=E2=80=9D i=
+n light of the company=E2=80=99s strategy to acquire and hold Bitcoin.</p><=
+p style=3D"margin: 16px 0;">=E2=80=9CWe further believe that the inclusion =
+of bitcoin non-cash impairment losses may otherwise distract from our inves=
+tors=E2=80=99 analysis of the operating results of our enterprise software =
+analytics business,=E2=80=9D the company wrote.</p><p style=3D"margin: 16px=
+ 0;">The SEC disagreed. In a letter dated Dec. 3, the market regulator told=
+ MicroStrategy it objected to the adjustment and told the company to remove=
+ it from future filings. In its Dec. 16 response, MicroStrategy said it wou=
+ld comply.</p></blockquote><p style=3D"margin: 16px 0;">Here is <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/26470748.263630/aHR0cHM6Ly93d=
+3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEwNTA0NDYvMDAwMDAwMDAwMDIxMDE0NjA1=
+L2ZpbGVuYW1lMS5wZGY/607f07ceef4b8524a319a23cBe28c3813" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">the SEC=E2=
+=80=99s letter</a>. Obviously telling investors the truth about whether you=
+r pot of Bitcoins went up or down, and keeping the pot of Bitcoins analytic=
+ally separate from the operating business, is more helpful than just giving=
+ them an earnings number that=C2=A0is one part business software and zero (=
+if it=E2=80=99s up) or, like, 10 parts (if it's down) Bitcoin price moves.[=
+2] But that's not how accounting works.</p><table class=3D"header" width=3D=
+"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Activist Investor Pushes <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/26470748.263630/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMjQvYWN0aXZpc3QtYmxhY2t3ZW=
+xscy10by1wdXNoLXBlbG90b24tdG8tZmlyZS1jZW8tc2Vlay1zYWxlLXdzaj9jbXBpZD1CQkQwM=
+TI0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1=
+dG1fdGVybT0yMjAxMjQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23=
+cBc842ff27" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> Peloton</a> to Fire CEO and Seek Sale. Private equity =
+sidesteps IPO parade by=C2=A0<a href=3D"https://link.mail.bloombergbusiness=
+.com/click/26470748.263630/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZjhmNmVmZTMt=
+NTkyZi00ZGFjLWFiOWYtYTcwNjQ4ZDM0Y2I4/607f07ceef4b8524a319a23cB6663339a" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">borrowing billions</a>. Empty Private Jet =
+Flights Hastened Credit Suisse Chairman=C2=A0<a href=3D"https://link.mail.b=
+loombergbusiness.com/click/26470748.263630/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRp=
+Y2xlcy9lbXB0eS1wcml2YXRlLWpldC1mbGlnaHRzLWhhc3RlbmVkLWNyZWRpdC1zdWlzc2UtY2h=
+haXJtYW4tYW50b25pby1ob3J0YS1vc29yaW9zLWRvd25mYWxsLTExNjQyODg3NzUyP21vZD1ocF=
+9saXN0YV9wb3My/607f07ceef4b8524a319a23cBcf2697ee" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Ant=C3=B3nio Horta-Os=C3=B3rio=E2=80=99s</a>=C2=A0Downfall. Pe=
+ltz=E2=80=99s Activist Fund=C2=A0Trian=C2=A0Is Said to Build Stake in Unile=
+ver. Shell=E2=80=99s Massive=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/26470748.263630/aHR0cHM6Ly93d3cudmljZS5jb20vZW4vYXJ0aWNsZS8=
+3a2I0M3gvc2hlbGwtcXVlc3QtY2FyYm9uLWNhcHR1cmUtcGxhbnQtYWxiZXJ0YQ/607f07ceef4=
+b8524a319a23cBcdc358a5" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">Carbon Capture =
+Plant</a>=C2=A0Is Emitting More Than It=E2=80=99s Capturing. <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/26470748.263630/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMjMvYWxnYWUtbWFya2V0LXBvdGV=
+udGlhbGx5LXdvcnRoLTMyMC1iaWxsaW9uLWRyYXdzLWhvbmRhLWVuZW9zP2NtcGlkPUJCRDAxMj=
+QyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0b=
+V90ZXJtPTIyMDEyNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB=
+dfbb960e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> Algae Market</a> Potentially Worth $320 Billion Draws Ho=
+nda, Eneos.=C2=A0Crypto giant Binance kept <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/26470748.263630/aHR0cHM6Ly93d3cucmV1dGVycy5jb20vaW=
+52ZXN0aWdhdGVzL3NwZWNpYWwtcmVwb3J0L2ZpbmFuY2UtY3J5cHRvLWN1cnJlbmN5LWJpbmFuY=
+2Uv/607f07ceef4b8524a319a23cB99ab6de6" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">weak money-laundering checks=
+</a> even as it promised tougher compliance, documents show. The Charismati=
+c Developer and the <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/26470748.263630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwM=
+jItMDEtMjEvc2FuLWRpZWdvLXMtNDAwLW1pbGxpb24tcG9uemktc2NoZW1lLWFuZC10aGUtc3Rh=
+ci1kZXZlbG9wZXItYmVoaW5kLWl0P2NtcGlkPUJCRDAxMjQyMl9NT05FWVNUVUZGJnV0bV9tZWR=
+pdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDEyNCZ1dG1fY2FtcG=
+FpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB49d9ca06" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> Ponzi Sche=
+me</a> That Suckered San Diego.=C2=A0<a href=3D"https://link.mail.bloomberg=
+business.com/click/26470748.263630/aHR0cHM6Ly93d3cudXNuZXdzLmNvbS9uZXdzL25l=
+d3MvYXJ0aWNsZXMvMjAyMi0wMS0yMi9kb250LWFwcHJvYWNoLWxhYi1tb25rZXktbWlzc2luZy1=
+hZnRlci1jcmFzaC1wZW9wbGUtdG9sZA/607f07ceef4b8524a319a23cB567fdbc3" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Don't Approach</a>=C2=A0Lab Monkey Missing Af=
+ter Crash, People Told.=C2=A0Robot vacuum cleaner=C2=A0<a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/26470748.263630/aHR0cHM6Ly93d3cuYmJjLm=
+NvbS9uZXdzL3VrLWVuZ2xhbmQtY2FtYnJpZGdlc2hpcmUtNjAwODQzNDc/607f07ceef4b8524a=
+319a23cB5be47791" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">escapes</a>=C2=A0from=
+ Cambridge Travelodge. Evelyn Davis=E2=80=99s=C2=A0<a href=3D"https://link.=
+mail.bloombergbusiness.com/click/26470748.263630/aHR0cHM6Ly90d2l0dGVyLmNvbS=
+9uYXRzZmVydC9zdGF0dXMvMTQ4NDMxODAwNjMxNDI5NTMwNT9zPTEx/607f07ceef4b8524a319=
+a23cB5fc97a23" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">tombstone</a>.</p><p sty=
+le=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-media"><em=
+>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right=
+ in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbusiness.=
+com/click/26470748.263630/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb=
+20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5=
+YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBb0a48711" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">subscribe at this link</a>. Or you can subscribe to Money Stuf=
+f and other great Bloomberg newsletters=C2=A0<a href=3D"https://link.mail.b=
+loombergbusiness.com/click/26470748.263630/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcu=
+Y29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBbdda076a" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">here</a>. Thanks!</em></span></p><p style=3D"margin: 16px =
+0;"><em>[1] Those numbers come from page 30 of the most recent=C2=A0<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTA1MDQ0Ni8wMDAxNTY0=
+NTkwMjEwNTI2NDYvbXN0ci0xMHFfMjAyMTA5MzAuaHRtI0lURU1fMl9NQU5BR0VNRU5UU19ESVN=
+DVVNTSU9OX0FOQUxZU0lTX0Y/607f07ceef4b8524a319a23cC96e78c6b" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">Form 10-Q</a>. MicroStrategy reported=C2=A0a GAAP loss=
+ from operations of $647 million for the nine months ended Sept. 30, 2021, =
+and a non-GAAP income from operations, stripping out digital asset impairme=
+nt=C2=A0 ($684=C2=A0million) and share-based compensation ($31 million), of=
+ about $68 million. I have added back share-based compensation, which I att=
+ribute to MicroStrategy=E2=80=99s business, to get the $37 million non-GAAP=
+ earnings attributable to the business.</em></p><p style=3D"margin: 16px 0;=
+"><em>[2] You know who else runs an operating business stapled to a pot of =
+investment assets? Warren Buffett, who also complains that smooshing these =
+things together for GAAP accounting is misleading. At least he gets to mark=
+ his investments up when they go up. Anyway I <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/26470748.263630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDUtMDcvd2lsbC1idWZmZXR0LXMtc3VjY2Vzc29yLW=
+hhdmUtaGlzLWFwcGVhbD9jbXBpZD1CQkQwMTI0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtY=
+WlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAxMjQmdXRtX2NhbXBhaWduPW1v=
+bmV5c3R1ZmY/607f07ceef4b8524a319a23cB6d6b6b23" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> once wrote</a> abou=
+t his complaints: =E2=80=9CLook: There is a sense in which if you run a gia=
+nt investment fund and you buy stocks and those stocks go down, then you ha=
+ve lost money. I mean there is also a sense in which you haven=E2=80=99t, b=
+ut it is the less conventional sense. I am not going to argue for the objec=
+tive reality of GAAP net income accounting, and I see Buffett=E2=80=99s poi=
+nt that combining a bunch of operating businesses with a hedge fund leads t=
+o weird accounting results, but on the other hand (1) he=E2=80=99s the one =
+who combined them!, and (2) it does feel a little like special pleading for=
+ Buffett, a long-time critic of companies that use non-GAAP accounting metr=
+ics, to complain that it=E2=80=99s unfair for GAAP to make him report a los=
+s just because the stocks he bought went down.=E2=80=9D</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB96a1dc45" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBb0617709" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB135d4495" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBa392d9d4" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNjQ3MDc0OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY3MzQzNzgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI6d16cbe2" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D26470748&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26734378&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2647074=
+8.263630/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB4ea76493" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26470748.263630/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC3565f653" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/26470748.263630/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBab2f331d" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26470748.263630/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB5437656e" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBb=
+7038f67" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26470748.263630/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB0=
+f190c1d" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D264707=
+48&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26734378&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D264707=
+48&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26734378&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D264707=
+48&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26734378&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D264707=
+48&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26734378&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D264707=
+48&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26734378&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfrcyk.5nf2/566e595a.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_32559290_1586867928.1643050672841--
+

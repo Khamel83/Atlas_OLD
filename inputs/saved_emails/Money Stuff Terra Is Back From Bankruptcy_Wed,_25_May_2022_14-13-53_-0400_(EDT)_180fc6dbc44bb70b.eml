@@ -1,0 +1,2176 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:5b99:0:b0:1e5:5fe1:39f with SMTP id x25csp5607371lke;
+        Wed, 25 May 2022 11:14:52 -0700 (PDT)
+X-Received: by 2002:a05:600c:601e:b0:397:5d88:648c with SMTP id az30-20020a05600c601e00b003975d88648cmr7882946wmb.122.1653502492132;
+        Wed, 25 May 2022 11:14:52 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1653502492; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=wUMXJVlEnm7Y4vRm/POufu1QxWFaitHZxWMqGYxX7qU5UYx1KNI8ddvAx9H7DJyANo
+         gV1/t+BCXyIGtYH/k7K08eXvj6ApW8eLqfd7JRqyRwPtm8Ri0LaSTZ34tgldymkE2Fua
+         cwLigEjaRPFrd+K+3WRUumrNLkMm2wnjCumcrp9WZu9cPKczU+qH6jPCDobFHSR1ofqu
+         qa6ainrLONrCpYyhsaG+hBUM0PgeIvNWPXg84/f3NyKQOfKxG4+E8mQm6DvEpXIZj8PN
+         d0kiny+f6uaEBWOlbRbABvlnxZUdTDG5X4RfO2ypyY00tTP3SeeRdYvUVc87RWZu7C9M
+         TTmw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=O6ILKfyzfccJvV2g9pySDx0UM20aFGjPWg9KmLmCvnA=;
+        b=GiWqM/IAPypwGwOZKeNo545D9WBR3/sL6J5DzjRRHfKp3KBGGAH5pIYlsiFGg6FC+N
+         +/u4k95frqexlVisVdRwmRxF+sdJseFwUwcuCcALK/wXO5D4lzKZX88l4XIfrq7C2Mh9
+         U6i7b3SgDA1Cy1Qd+v9eE19Nnvf2h9P4k2bGlcJ7T9VMmgu1dX7GSb8tq3NVjgWtgTSy
+         GVAyaGh+K1dVJy3QLbN2lJmhMemfiJOGjES5ww/A/b7F/myTC6jU/gxKuXVPv3ksUp1u
+         bUBSP1666i/jDSaU+qRiIBPkI8pT6sOF6AaSyLP2ybZdxxXqVZGWFesmN5evhe5LOBnR
+         vZ9w==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=23E2YOpg;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id j13-20020a05600c2b8d00b003972009b8f0sor890374wmc.29.2022.05.25.11.14.52
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 25 May 2022 11:14:52 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=23E2YOpg;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=O6ILKfyzfccJvV2g9pySDx0UM20aFGjPWg9KmLmCvnA=;
+        b=ClTRf7JP7gNMn82x1OTaUxEKcEUq/eZ7VqXHhqiAPKlwRAb1aKxh9VGi7DekTsf5wO
+         8SquCpqKTg6Lo6OVHbE4yhiEuzhsyMpNg1kw69lsw2o0A5So5GcDewcWyQMVxxAUNSO4
+         YMoU0Lsa4twUO+SpAEqhq7i8s7BMH8mcEM/exB/yMI6H6RIXH8BhwxROydk99I861toM
+         D37CZz3IEQXpiYycDVRsRRWzwGdn5XlGjyCYFT7nz8Gbmz3HiIalDg+DWc3mtCOKmkMv
+         D5YtPrA+7EGsetCLFBQSICp+bTqICyMLXM+QXSJZ/wTPYNVfttFGrEquVesGxS3E/LET
+         AFYg==
+X-Gm-Message-State: AOAM53220ITg+fzNQK1gNkrxDiHYlSphyebBFVlkcx4FfeNd1dJCll0j
+	3Pu/1+B7D0LYPMhbamtPnmHTdn377p6Bx5C30iBfUsdSYf4GIrCOnQ==
+X-Received: by 2002:a1c:e903:0:b0:397:36b8:795a with SMTP id q3-20020a1ce903000000b0039736b8795amr9681813wmc.98.1653502491789;
+        Wed, 25 May 2022 11:14:51 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a05:6000:235:0:0:0:0 with SMTP id l21csp459674wrz;
+        Wed, 25 May 2022 11:14:48 -0700 (PDT)
+X-Received: by 2002:a1f:7dc1:0:b0:357:756:68b8 with SMTP id y184-20020a1f7dc1000000b00357075668b8mr12243100vkc.22.1653502487820;
+        Wed, 25 May 2022 11:14:47 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1653502487; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=sR2OnTmUJmmfQpXXRY0P2+H4lQw5MfcgcQNgPfjCQ5cwlYXCKEck4cuss1a0LP+8Ix
+         PwPHCY/6frVGyEMz1BoHAN+gNuvconVp0r8TWGa742AnkLhZfHo+CE6tOBIp3Tq8jKhf
+         ZfZznCIc9osC8QT9Y5l5oyDmmV2Zncg6IuXsajDYy3Mj9NDQ1Srj/NBUEBKBCnCyWhdD
+         hRzZ5aPiQlzbEkH0IEDslJVwrzqF/Kg8DPAs7YkgIKzxlacpqarZbwkt7tHaIM7x11y/
+         sh0WTBOP0WKiusTTosdCYnmB8lcj5vHlj556JbvPV2j+xMedkgMzc+kwCW3SaaFBr1tE
+         i/VA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=O6ILKfyzfccJvV2g9pySDx0UM20aFGjPWg9KmLmCvnA=;
+        b=s7PXHiKS6t8U7ybRx45nJAg4+bcuyIHx2rui66MKmLPw1De4IyHDcSw03HkZvsUbY/
+         vxuD4l/54Q0Q4FwSDdCZodhI07aIOeSItvP1tnLhV9PTc0DoAzGHCsdL+pRXNmUCg0iH
+         vQ3iwv2qwnbJtOOKZTyJ85qKP+5R/VvWoH+b+VDITqa9+tvqEfPXd/QbCpBJx+R5/wi2
+         C8XBLwjPYInWXv6c326M80L8ThDaOKV1VRTKDXDXtWnOeg6dB1kS6OlDbDAusmt2Or/8
+         ndqWT6i/ZYWc7bTiys6CXatgKrHzW6GEZcYJ6zNBTKjHWpjOffUH3yj4o6pvl1nDLiSE
+         BpRA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=23E2YOpg;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220525141353.27837758.260614@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220525141353.27837758.260614@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220525141353.27837758.260614@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id b133-20020a1f348b000000b0035724575006sor798005vka.48.2022.05.25.11.14.47
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 25 May 2022 11:14:47 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220525141353.27837758.260614@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJzcYrOTmVadqIOPAJxDDK4CrncQttn+nQqnMcLKHzCcEJdsEZelv4bn5MBp+NREEFIvdNANQZVdYI91WF9akDwLvDgb5aI=
+X-Received: by 2002:a05:6122:c6e:b0:356:e8e6:6e04 with SMTP id i46-20020a0561220c6e00b00356e8e66e04mr12496077vkr.34.1653502487387;
+        Wed, 25 May 2022 11:14:47 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1653502487; cv=none;
+        d=google.com; s=arc-20160816;
+        b=TjDKhP7fTh25+nHU+0UqKp6LIReQeVyBqxAA6pWeK+72JoaW9glGVo2Ff+WMe1LGdE
+         wbEJgPHnLwuAgSXHtYBRZ/GbsV3ybhxJw7n6otZwbeYouSG9v1et4U6sRry5FlKenGrY
+         +1NYMXsdOdxQSSCnKkLjoEWSy1Xcg1ehRryVGgm+X2PkXpXh48xi6rMm7RLq3kftKh2y
+         DZBkYanWPOKjrsC5Dnzd+1wlNmCNz8NyktvugSt8z9mmVoZQP6BL3CwTn096wBXfUlyR
+         6UgcqeSGxJlJ8/ys4G7b2U+BY3twinpC8B0dx9VbQWN7rE9EByhGtPH8o92/xulWdpiM
+         3YAw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=O6ILKfyzfccJvV2g9pySDx0UM20aFGjPWg9KmLmCvnA=;
+        b=yqB2/NCK7p6nQMREORzWDZ6In+8RLY70zUtXlrAMgq1X2vc+zuT7C+0ZjhrCiZv4RB
+         5VIcN3ZYlCNNCznXGcY4tH/1bS9+KwqvZXRaqpILSX1P9AV5IfO+PGKh3lvzc76vgSE2
+         eTFAEMFCS67Ykq3+U6D0amv5DreWiaTT8VAkkA5Wp/z3k9mGSXWQl+f7oQajZ0D/y0yW
+         /CGvDaXSGEak+xwxDslaJNZEHkdN2Koq0WWf6+BRjLWDigG6uNR1LyvT3pXZ0xVa4Hyh
+         EeigwB4lTW8ulCKXeIC0IfUghV9xaVFR9+8dMHOnhOG97cYmERU0BWVAkT269ZJ1KZnE
+         e7Ag==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=23E2YOpg;
+       spf=pass (google.com: domain of delivery_20220525141353.27837758.260614@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20220525141353.27837758.260614@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220525141353.27837758.260614@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id j7-20020a67ef07000000b00337a803f1easi194837vsr.1.2022.05.25.11.14.47
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 25 May 2022 11:14:47 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220525141353.27837758.260614@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=ubL8KmulQB9wntSDCS6FoZ4gW7Om8+UWPu3SQJFdZwE=;
+ b=23E2YOpgmO+he2/iUztm3MNw/srJSDbAxVmalprnBu2lRfoWKAPttCZIciWwy7eeWCmkDYszbSRS
+   hgn716LOOpmqNS+sH+h/vaP4Ft1iOubSXe2sK8ZLILGFkat61EwYy924hQRYjqUMENG5qZXfNRLH
+   u1gAik+HMA3gsyf7owI=
+Received: from nj2mta-17.sailthru.com (204.153.121.17) by pmta29.sailthru.com id hhpp1e2sd4s4 for <bloomberg@khamel.com>; Wed, 25 May 2022 14:14:47 -0400 (envelope-from <delivery_20220525141353.27837758.260614@mx.sailthru.com>)
+Date: Wed, 25 May 2022 14:13:53 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220525141353.27837758.260614@sailthru.com>
+Subject: Money Stuff: Terra Is Back From Bankruptcy
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9679642_973717952.1653502433291"
+Precedence: bulk
+X-Feedback-ID: 6358:27837758:campaign:sailthru
+X-TM-ID: 20220525141353.27837758.260614
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-illcherry.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgknr2.5l3a/ce2aa3c9
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgknr2.5l3a/ce2aa3c9>, <mailto:unsubscribe_20220525141353.27837758.260614@mx.sailthru.com>
+X-rpcampaign: stjko27837758
+
+------=_Part_9679642_973717952.1653502433291
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Terra2Hey Terra is doing stuff: A proposal by the founder of the tr=
+oubled Terra ecosystem to salvage the project was approved, averting a to
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Terra2
+   =20
+ =20
+Hey Terra=C2=A0is doing stuff:A proposal by the founder of the troubled Ter=
+ra ecosystem to salvage the project was approved, averting a total collapse=
+ of one of the most-watched experiments in decentralized finance.=C2=A0Unde=
+r Do Kwon=E2=80=99s newly approved structure, the original blockchain will =
+be known as Terra Classic, while its native token Luna, which plunged close=
+ to zero this month, will be renamed Luna Classic with the ticker LUNC. The=
+ new Terra blockchain will start running a coin under the existing Luna nam=
+e and ticker, and won=E2=80=99t include the TerraUSD stablecoinTerra=E2=80=
+=99s unraveling, which started earlier this month with the implosion of the=
+ algorithmic stablecoin Kwon had touted relentlessly, marked one of the big=
+gest busts in the crypto industry=E2=80=99s history. While the outcome of W=
+ednesday=E2=80=99s vote represents a victory of sorts for Kwon and his supp=
+orters, doubts persist about whether Terra can ultimately be revived.=C2=A0=
+The process means Terraform Labs is effectively abandoning the stablecoin T=
+erraUSD, or UST, which from now on will only trade on the Terra Classic blo=
+ckchain. Designed to maintain a 1-to-1 peg to the dollar, it traded at arou=
+nd 10 cents on Wednesday.We have talked a few times recently about=C2=A0Ter=
+ra, the blockchain ecosystem whose  algorithmic stablecoin blew up earlier =
+this month. One model of Terra=C2=A0goes like this:=09Terra is a company. N=
+ot really =E2=80=94=C2=A0it=E2=80=99s a decentralized finance ecosystem, a =
+blockchain, a bunch of independent developers working on diverse projects =
+=E2=80=94=C2=A0but let=E2=80=99s just pretend for a minute. (In fact there =
+is a company-ish thing called Terraform Labs which helps run Terra, and ano=
+ther company-ish thing called Luna Foundation Guard that keeps some of Terr=
+a=E2=80=99s money, but here I want to conceive of Terra as a whole as sort =
+of a distributed company.)=09The Luna token, which powers the Terra blockch=
+ain and is the currency of its ecosystem, is the=C2=A0equity=C2=A0of Terra,=
+ the stock in the Terra company.=09The TerraUSD stablecoin (or UST), which =
+was supposed to always be worth a dollar, and which maintained that peg by =
+being exchangeable for $1 worth of Luna at market prices, is the=C2=A0debt=
+=C2=A0of Terra. Like bonds of the company, or like deposits of a bank.This =
+model has a lot going for it. UST, certainly, looks like debt: You buy a US=
+T for a fixed amount ($1), and you expect to get back that fixed amount ($1=
+), and while you hold it you earn interest. (For a while, you could get 19.=
+5% interest on UST in the Anchor protocol, a part of the Terra ecosystem.) =
+It was advertised as a safe investment, a way to participate in the Terra e=
+cosystem with a guarantee of getting your money back.Luna, meanwhile, looks=
+ like equity. It has no fixed value; it went up as optimism about Terra gre=
+w, and went down as Terra imploded. Luna could go to zero if Terra failed, =
+or it could go to the moon if Terra became the world=E2=80=99s dominant fin=
+ancial system. There was no floor and no cap on Luna=E2=80=99s value (unlik=
+e UST, which was floored and capped at $1); it was just worth some fraction=
+ of the future value of the Terra ecosystem.There are some implications of =
+this model. One implication is that you=C2=A0might think: Wait, if these co=
+ins are the debt and equity of a company, aren=E2=80=99t they securities? I=
+f they are securities, and they were sold to US investors, aren=E2=80=99t t=
+hey required to be registered with the US Securities and Exchange Commissio=
+n? If they are securities that were sold broadly to the general public and =
+then lost almost all of their value, shouldn=E2=80=99t the SEC investigate?=
+ If big US crypto trading firms and venture capitalists were buying huge pi=
+les of Luna from Terra=E2=80=99s promoters=C2=A0and dumping them to retail =
+buyers on exchanges while also talking up Terra,  making billions of dollar=
+s for themselves while they =E2=80=9Ccash[ed] out on the backs of retail,=
+=E2=80=9D weren=E2=80=99t those big investors=C2=A0breaking US securities l=
+aws? Weren=E2=80=99t they underwriters of an unregistered securities offeri=
+ng, and shouldn=E2=80=99t they have to buy those coins back from those reta=
+il bagholders at the prices they paid? These seem like good questions! Some=
+ of the answers might be =E2=80=9Cno=E2=80=9D =E2=80=94=C2=A0Terra is not=
+=C2=A0actually=C2=A0a company, and while Luna and UST are=C2=A0like=C2=A0se=
+curities it is not obvious that they=C2=A0are=C2=A0securities =E2=80=94=C2=
+=A0but I think they=E2=80=99re good questions.=C2=A0I will not pursue them =
+further here but, you know, something to think about. If you work at the SE=
+C for instance.Here I want to talk about a different implication. Like I sa=
+id, Terra blew up this month. The price of Luna fell from over $100 in Marc=
+h to=C2=A0a tiny fraction of a penny today, and through the workings of UST=
+=E2=80=99s algorithmic peg, trillions of near-worthless Luna were issued to=
+ UST holders who were trying to get out. Meanwhile UST, which was supposed =
+to always be worth a dollar,=C2=A0traded as low as 5 cents.If Terra were a =
+company, you might describe this situation as a bankruptcy. And there would=
+ be reasonably well-understood procedures for what happens to the debt and =
+equity in a bankruptcy:=09If there=E2=80=99s money around, it goes to payin=
+g off the debt.=09If there=E2=80=99s not enough money to pay off the debt, =
+then the equity is extinguished;=C2=A0all the equity holders get nothing.=
+=09If the equity is zeroed and there=E2=80=99s=C2=A0something=C2=A0left ove=
+r =E2=80=94=C2=A0if there=E2=80=99s some valuable business that can be run =
+as a going concern =E2=80=94=C2=A0then the debt holders=C2=A0get it. They g=
+et equity in the new, post-bankruptcy entity, to compensate them for not ge=
+tting paid back.=09Generally that new entity will need to pay managers, may=
+be raise new money, etc., so the old debt holders won=E2=80=99t own 100% of=
+ its equity: The managers, new investors, etc., will get some, as an incent=
+ive to keep working at this business that is now owned by its creditors.=09=
+But in general the old equity holders won=E2=80=99t get much of the new com=
+pany, and usually they=E2=80=99ll get none of it.[1] The debt holders will =
+have absolute priority over the equity holders; they need to be made whole =
+before the equity holders get anything.You could apply that thought process=
+ to Terra. Terra went=C2=A0bankrupt, in the sense that its value is not eno=
+ugh to support all of the debt claims (TerraUSD) against it. But Terra stil=
+l has=C2=A0some value, in the sense that there is a blockchain ecosystem th=
+at Terra impresario Do Kwon and other people are trying to keep alive.=C2=
+=A0In theory, at least, people used (and could still use) Terra as an ecosy=
+stem for building decentralized applications, transferring money, creating =
+a new financial system, etc.; the price of Luna reflected people=E2=80=99s =
+optimism in Terra as a platform for building those things. Then UST had a d=
+eath spiral, which should certainly undermine your confidence in Terra =E2=
+=80=94=C2=A0its=C2=A0main=C2=A0app was an algorithmic stablecoin, which wor=
+ked terribly =E2=80=94=C2=A0but might not totally eliminate it. =E2=80=9CWh=
+at we should look to preserve now is the community and developers that make=
+ Terra=E2=80=99s blockspace valuable,=E2=80=9D tweeted Kwon, shortly after =
+the death spiral, and I guess some people agree with him.If Terra is a comp=
+any, then the developers and community and apps are in a sense its employee=
+s and projects, and those projects might have positive value even if the co=
+mpany was washed away by debt. In a classic bankruptcy, the creditors would=
+ be handed control of the company: The employees would keep working, the pr=
+ojects would keep happening, but now the profits would go to the creditors =
+instead of the old owners.But in a =E2=80=A6=C2=A0crypto bankruptcy? =E2=80=
+=A6=C2=A0there is no guarantee of that. There is no guarantee of anything. =
+Everything is being reinvented from scratch. There are some proposals, and =
+there=E2=80=99s a vote of Terra validators =E2=80=94=C2=A0sort of an indire=
+ct vote of Luna holders =E2=80=94=C2=A0and then something does or doesn=E2=
+=80=99t happen. Here the proposal was to start over with a new blockchain, =
+abandoning TerraUSD, and it was approved. The new blockchain will have a ne=
+w Luna token: again, roughly =E2=80=9Cequity=E2=80=9D in the new blockchain=
+. And just as in a bankruptcy,=C2=A0New Luna will be distributed to some co=
+mbination of (1) claimants on the=C2=A0old blockchain, that is, holders of =
+Old Luna and TerraUSD, plus (2) developers, etc., to incentivize people to =
+keep working on the new Terra blockchain.Here you can read the proposal tha=
+t passed, which includes a =E2=80=9CToken Distribution=E2=80=9D setting out=
+ who gets New Luna. The breakdown is 30% =E2=80=9Ccommunity pool=E2=80=9D (=
+sort of like treasury stock, available to pay developers etc.), 45% holders=
+ of Old Luna and 25% holders of UST. The distributions to UST and Old Luna =
+holders will be divided between =E2=80=9Cpre-attack=E2=80=9D and =E2=80=9Cp=
+ost-attack=E2=80=9D holders; notably, 35% of total New Luna will go to =E2=
+=80=9Cpre-attack=E2=80=9D holders of Old Luna, that is, holders of Luna=C2=
+=A0before=C2=A0UST broke down and trillions of Luna were printed. So if you=
+ were a holder of UST who converted $1 of UST into 500 Old Luna during the =
+death spiral, your Lunas represent a claim on the smaller 10% pool for =E2=
+=80=9Cpost-attack=E2=80=9D Luna holders. Your Lunas are worth less than oth=
+er people=E2=80=99s Lunas; Terra printed trillions of Lunas to redeem UST b=
+ut is now, in a loose sense, taking them back.In traditional finance terms,=
+ Terra went bankrupt, and reorganized, and its shareholders got more of a r=
+ecovery than its creditors. Not how things work in traditional bankruptcy!=
+=C2=A0Here is a good Twitter thread from a pseudonymous lawyer about an ear=
+lier version of the proposal, making this point:=C2=A0From a restructuring =
+lawyer perspective, I would say that the $UST allocation is too low. $UST r=
+epresents debt of the current ecosystem and according pre-attack $LUNA hold=
+ers an equal part of the nLUNA pie is inequitable as $LUNA holders are prox=
+y equity bearing de-peg risk.Nonetheless I accept that as a matter of pract=
+icality (both in terms of Web3 and the powers that need to be appeased), th=
+is is probably necessary.New Terra will need buy-in from the same funds tha=
+t got completely wiped out by the de-peg. It is what it is.And while we spe=
+ak of debt and equity, theoretically New Terra can completely wipe out $UST=
+ given this is a web3 protocol and not bound by standard insolvency law pay=
+ments waterfalls. The reason they can't do so is obviously a matter of legi=
+timacy.In tradfi, I would expect to see the UST debtholders completely wipe=
+ out $LUNA bagholders, or at least hold a senior instrument. Given the abov=
+e considerations, this isn't the case here and probably for good reason.It =
+is worth thinking about=C2=A0why=C2=A0traditional finance works this way. I=
+n traditional finance, =E2=80=9Cdebt=E2=80=9D is a well-established concept=
+, and =E2=80=9Cequity=E2=80=9D is a well-established concept, and it is wel=
+l-established that debt is safer than equity. And so it is relatively easy =
+for companies to borrow: Lenders know that they will get paid back first in=
+ a bankruptcy, so they are willing to lend to well-capitalized companies at=
+ moderate interest rates. The priority rule of bankruptcy supports the debt=
+ market; it gives people more confidence in lending to companies, which mak=
+es it cheaper for companies to borrow.Meanwhile in decentralized finance, i=
+t is all well and good for me to say =E2=80=9Cwell UST looks like debt and =
+Luna looks like equity,=E2=80=9D but those are just analogies, and =E2=80=
+=9Can algorithmic stablecoin is the debt of a blockchain ecosystem=E2=80=9D=
+ is not a well-established concept. Nobody is going around buying algorithm=
+ic stablecoins=C2=A0because they are confident that they=E2=80=99ll get pai=
+d back first if the ecosystem blows up. (They are buying them for =E2=80=A6=
+=C2=A0uh =E2=80=A6=C2=A0other reasons? Confusion? Faith in the algorithm? I=
+ntense desire=C2=A0for this to work?) So, when the ecosystem blows up, ther=
+e is no reason to pay the stablecoin holders first.In the long run you coul=
+d imagine this being bad. The priority rule in bankruptcy is a big part of =
+what=C2=A0makes $1 of debt worth $1, and if algorithmic stablecoins don=E2=
+=80=99t follow it then it will be harder to make them worth a dollar. On th=
+e other hand it is hard to imagine any outcome of the Terra crash that woul=
+d=C2=A0increase=C2=A0confidence in algorithmic stablecoins, and hard to ima=
+gine any reason why Terra=E2=80=99s promoters and developers would care abo=
+ut that goal. So they might as well write off UST. If it=E2=80=99s not stab=
+le, there=E2=80=99s not much benefit in making it=C2=A0senior.There is anot=
+her implication of this bankruptcy analogy.=C2=A0In traditional finance, if=
+ a company pays off some of its debts at 100 cents on the dollar, and=C2=A0=
+the next day=C2=A0it files for bankruptcy and says =E2=80=9Coops, we only h=
+ave enough to pay off our remaining debts at 40 cents on the dollar,=E2=80=
+=9D then its creditors =E2=80=94=C2=A0the ones who are only getting 40 cent=
+s =E2=80=94=C2=A0can sometimes demand that the people who got paid 100 cent=
+s=C2=A0give the money back. (In US bankruptcy law, this is called avoiding=
+=C2=A0a =E2=80=9Cpreference,=E2=80=9D and generally preferential payments m=
+ade within 90 days before bankruptcy can be clawed back.) The point of bank=
+ruptcy is to share the pain of insolvency fairly among all the creditors, a=
+nd it is not fair for some people to get 100 cents on the dollar the day be=
+fore bankruptcy and others to get 40 cents on the dollar the day after.[2]=
+=C2=A0One part of the pre-crash Terra ecosystem was the Luna Foundation Gua=
+rd, which raised a bunch of money (by selling Luna back when times were goo=
+d) and used it to build a war chest to defend the price of UST. As people l=
+ost confidence in UST, the LFG really did spend a lot of money buying UST =
+=E2=80=94=C2=A0at close to $1 per UST =E2=80=94=C2=A0to prop up the price. =
+That didn=E2=80=99t work =E2=80=94 LFG burned through its reserves, and the=
+n UST plunged =E2=80=94=C2=A0but it was a reasonable idea.Again, if you con=
+ceive of Terra as a=C2=A0company=C2=A0that went=C2=A0bankrupt, you might th=
+ink that this is a preference. You might think: It is weird that the LFG ca=
+shed out some UST holders at $1 one minute, and the next minute it stopped =
+and everything went into freefall. You might think: The people who got out =
+at $1 should have some of their gains clawed back and shared with the peopl=
+e who didn=E2=80=99t.You might not think that! You might think, you know, i=
+rreversible transactions on the blockchain, everyone look after themselves,=
+ if you waited too long you got what you deserved, etc. But again it is wor=
+th considering why traditional finance works this way. US bankruptcy law al=
+lows bankrupt companies to claw back preferential payments=C2=A0to discoura=
+ge runs. If you know that there=E2=80=99s limited value in a company and th=
+at it will only be able to pay off 40% of its debts, you will try to get pa=
+id off first; if everyone is trying to get paid off first, that itself will=
+ destabilize the company and lead to bankruptcy. If you know that getting p=
+aid off first=C2=A0doesn=E2=80=99t help=C2=A0=E2=80=94=C2=A0that all credit=
+ors will be treated the same, even if they ask for their money first =E2=80=
+=94=C2=A0then your incentive is to be patient and try to preserve value at =
+the company.Meanwhile, Terra collapsed in an instant in part=C2=A0because o=
+f=C2=A0the popular crypto assumption that it=E2=80=99s every person for her=
+self. If you know that some UST holders will get paid $1, and moments later=
+ other holders will get 7 cents, you have powerful incentives to get out fi=
+rst. And so everyone does and it collapses.Anyway here is a Wall Street Jou=
+rnal story about where the LFG money went:The collapse of the cryptocurrenc=
+y TerraUSD has traders wondering what happened to the $3 billion war chest =
+meant to defend it.=C2=A0TerraUSD is a stablecoin, meaning that it is suppo=
+sed to keep its value steady at $1. But after a crash earlier this month, t=
+he coin is worth only 6 cents.In roughly two days earlier this month, a non=
+profit foundation backing TerraUSD deployed nearly all of its bitcoin reser=
+ves in an effort to help it regain its typical level of $1, according to an=
+ analysis by Elliptic Enterprises Ltd., a cryptocurrency risk-management co=
+mpany. Despite the massive deployment, TerraUSD deviated further from its i=
+ntended value. ...The Luna Foundation Guard said that on May 8, as the pric=
+e of TerraUSD began to drop, it began converting reserve assets into the st=
+ablecoin. In theory, selling bitcoin and other reserves could have helped s=
+tabilize TerraUSD by creating demand for the asset as a way to reinvigorate=
+ faith. This is similar to how central banks defend their falling local cur=
+rency, by selling currencies issued by other countries and buying their own=
+.=C2=A0The foundation said it transferred bitcoin reserves to another count=
+erparty, enabling them to enter into large trades with the foundation. In t=
+otal, it sent over 50,000 bitcoins, about 5,000 of which were returned, for=
+ about 1.5 billion of the TerraUSD stablecoins. It also sold all of its tet=
+her and USDC stablecoin reserves for 50 million TerraUSD.When that failed t=
+o support the $1 peg, the foundation said that Terraform sold about 33,000 =
+bitcoins on behalf of the foundation on May 10 in a last-ditch effort to br=
+ing the stablecoin back to $1. In return, it got about 1.1 billion TerraUSD=
+.=C2=A0=E2=80=A6Despite the foundation=E2=80=99s timeline, the inherent lac=
+k of transparency has caused investor concerns about how the funds were use=
+d among some traders.=C2=A0In broad outlines,=C2=A0some=C2=A0holders of UST=
+ got paid roughly $1 for their UST out of the LFG money, and some did not a=
+nd held through the collapse. If you are a suspicious person, you might ask=
+ questions like =E2=80=9Cwait, were certain favored insiders cashed out at =
+$1 while other retail bagholders got nothing?=E2=80=9D But if you are a tra=
+ditional finance person,=C2=A0you might ask simpler questions like =E2=80=
+=9Cwhy should=C2=A0anyone=C2=A0have been cashed out at $1 when there clearl=
+y wasn=E2=80=99t enough money to go around?=E2=80=9D
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Glencore
+   =20
+ =20
+Glencore Plc is a big commodity trading firm that trades lots of commoditie=
+s in lots of parts of the world and paid a lot of bribes to win business.=
+=C2=A0This has been well-known and much-discussed for a long time. Yesterda=
+y Glencore pleaded guilty to various charges in various countries to, you k=
+now, pay up for all the bribes.  Bloomberg News reports:Glencore Plc admitt=
+ed to bribery and market manipulation and said it will pay about $1.5 billi=
+on to settle US, UK and Brazilian probes that have hung over the commoditie=
+s giant for years.The settlements will help remove a question mark that has=
+ long overshadowed the trader=E2=80=99s business. But the charges and admis=
+sions of guilt paint a damning, globe-spanning picture of how far the compa=
+ny, founded by U.S. fugitive Marc Rich, has been willing to go in pursuit o=
+f profit.=C2=A0Glencore units agreed to plead guilty to a list of charges t=
+hat range from bribery and corruption in South America and Africa, to price=
+ manipulation in US fuel-oil markets. =E2=80=A6=E2=80=9CIt=E2=80=99s a good=
+ day for them to finally get this done because it=E2=80=99s been hanging ov=
+er them for a while,=E2=80=9D said Ben Davis, a mining analyst at Liberum C=
+apital. =E2=80=9CIt at least allows them to start to move forward.=E2=80=9D=
+That does seem to be the general reaction to these pleas: Sure yes of cours=
+e Glencore paid a bunch of=C2=A0bribes to various government agencies to wi=
+n business, but now that it has written a check to the US government, it do=
+esn=E2=80=99t have to worry about the bribes anymore, so it=E2=80=99s good =
+for business. The stock went up.It is all pretty standard stuff. The bribes=
+ were bribes: If you want to do lucrative commodities trades with state-own=
+ed enterprises in developing countries, you will need to build personal rel=
+ationships with the people in power at those enterprises, and a classic way=
+ to do that is by handing them sacks of cash. So Glencore did. From yesterd=
+ay=E2=80=99s settlement with the US Commodity Futures Trading Commission:At=
+ various times during the Relevant Period and the Charging Period, Glencore=
+, by and through its traders and agents, made corrupt payments to employees=
+ and agents working at SOEs of Brazil, Cameroon, Nigeria, and Venezuela. Gl=
+encore or its affiliates made the corrupt payments in exchange for improper=
+ preferential treatment and access to trades with the SOEs. Glencore=E2=80=
+=99s conduct was designed to increase Glencore=E2=80=99s profits from certa=
+in physical and derivatives trading in oil markets around the world, includ=
+ing U.S. physical and derivatives markets. =E2=80=A6=C2=A0The corrupt condu=
+ct was widespread within Glencore=E2=80=99s oil business, and supervisors w=
+ere aware of and at times directly involved in the corruption.To conceal th=
+e corruption, the corrupt payments at times were in large amounts of cash, =
+and in some instances, corrupt payments also were invoiced through third-pa=
+rty companies, with deceptive invoices to Glencore for euphemistic costs or=
+ services such as =E2=80=9Cadvance payment,=E2=80=9D =E2=80=9Cmarketing ser=
+vices,=E2=80=9D or =E2=80=9Ccommission.=E2=80=9D Glencore traders and inter=
+mediaries at times used coded language such as =E2=80=9Cfilings,=E2=80=9D =
+=E2=80=9Cnewspapers,=E2=80=9D or =E2=80=9Cchocolates=E2=80=9D when referrin=
+g to the corrupt payments.We talk occasionally around here about  euphemism=
+s for bribes. My general view is that the terms in these invoices =E2=80=94=
+=C2=A0=E2=80=9Cmarketing services,=E2=80=9D =E2=80=9Ccommission,=E2=80=9D e=
+tc. =E2=80=94=C2=A0are the good euphemisms; you want to be able to say =E2=
+=80=9Cwhat, no, we hired an agent to help us find business, and we paid tha=
+t agent a commission, nothing bribe-y about it,=E2=80=9D even if the agent =
+helped you find the business by putting the =E2=80=9Ccommission=E2=80=9D in=
+ a sack and delivering it to the local Minister of Oil. Whereas the terms i=
+n their informal communications =E2=80=94=C2=A0=E2=80=9Cnewspapers,=E2=80=
+=9D =E2=80=9Cchocolates=E2=80=9D =E2=80=94=C2=A0are the bad euphemisms; you=
+ don=E2=80=99t want to go to trial and have a prosecutor read an email back=
+ to you and ask =E2=80=9Cwhen you said =E2=80=98we have to get 5 million ch=
+ocolates for the local Oil Minister,=E2=80=99 what sort of chocolates were =
+you referring to?=E2=80=9D =E2=80=9CChocolates=E2=80=9D might sound cool to=
+ you, but it looks really bad to a prosecutor. Whereas if you say in an ema=
+il =E2=80=9Cwe need to hire a local adviser and pay a $5 million commission=
+=E2=80=9D then that sounds defensible! And means =E2=80=9Cbribe=E2=80=9D! T=
+he idea is that if you are going to talk about bribes you should try to do =
+it without snickering, because then later you can say =E2=80=9Cwhat no thos=
+e weren=E2=80=99t bribes they were commissions=E2=80=9D and maybe a jury wi=
+ll believe you.Or that=E2=80=99s what I=E2=80=99d normally say, but my hear=
+t is not particularly in it with this settlement, because the whole tone he=
+re is so matter-of-factly =E2=80=9Csure yes of course Glencore paid bribes=
+=E2=80=9D that it=E2=80=99s hard to fault the people running around calling=
+ the bribes =E2=80=9Cchocolates.=E2=80=9D They could have just called them =
+=E2=80=9Cbribes.=E2=80=9DThe market manipulation is also pretty standard. T=
+he general problem of market manipulation is:=09A few things (Treasury bond=
+s, large-cap US stocks, big foreign-exchange pairs) trade in deep liquid ma=
+rkets where it is pretty easy to know what =E2=80=9Cthe price=E2=80=9D of t=
+he thing is at any particular time, and pretty hard for one trade to move t=
+hat price too much.=09This is super useful, and you can build all sorts of =
+derivatives structures on top of these things because the underlying price =
+is easily knowable and robust. Or you can build index products where, for i=
+nstance, people just buy stocks =E2=80=9Cat the market price,=E2=80=9D beca=
+use that price feels real and knowable.=09It would be nice if lots of other=
+ things =E2=80=94=C2=A0oil cargoes, chicken parts, the interbank unsecured =
+lending market =E2=80=94=C2=A0were like those things, trading in deep liqui=
+d markets with an observable market price. Then you could build derivatives=
+ on top of them. You could agree to do large trades =E2=80=9Cat the market =
+price,=E2=80=9D or at the market price plus or minus some spread, etc.=C2=
+=A0=09Those things do not in fact trade in deep liquid markets with an obse=
+rvable market price.=09But you could sort of pretend they do. There=E2=80=
+=99s probably some=C2=A0market, which generates=C2=A0some=C2=A0price. You c=
+an look at that market and say =E2=80=9Cwell the market price is $X,=E2=80=
+=9D and then you could price your large trades off that benchmark market pr=
+ice. You could agree to sell someone 10 million pounds of chicken parts at =
+some spread to the   Georgia Dock index of chicken prices, or give someone =
+a $1 billion loan at a 300-basis-point spread to   Libor, or buy a cargo of=
+ oil from someone at the Platts Los Angeles Bunker Benchmark plus $5 per to=
+n.=09Because the benchmark price comes from a market that is relatively sma=
+ll, you can manipulate the benchmark price (by trading or quoting in that m=
+arket), and it will cost you less than you=E2=80=99ll make on your much lar=
+ger trade that is benchmarked to that price.So, again from the CFTC:During =
+the Relevant Period, Platts generally determined the benchmarks for a given=
+ day based primarily on bids to purchase, offers to sell, and trades in the=
+ relevant product during a defined period of time called the =E2=80=9Cwindo=
+w=E2=80=9D that Platts-authorized market participants reported to Platts, a=
+nd which Platts then widely reported to subscribers. ...Glencore=E2=80=99s =
+physical trading activities included, among other things, large-quantity tr=
+ades, sometimes called =E2=80=9Ccargos,=E2=80=9D of fuel oil. =E2=80=A6 Amo=
+ng the cargo trades engaged in by Glencore were numerous cargo trades with =
+a Mexico-based SOE (the =E2=80=9CCargo Trades=E2=80=9D), including those fo=
+r delivery to and from the Los Angeles market. ...During the Relevant Perio=
+d, more than approximately 100 Cargo Trades with the SOE were priced by ref=
+erence to the Platts Los Angeles Bunker Benchmark. The price of the Cargo T=
+rades was determined by the average of the daily benchmark price on specifi=
+ed days (=E2=80=9CCargo Pricing Days=E2=80=9D), plus or minus a specified d=
+ollar amount negotiated by the parties. ... On Cargo Pricing Days, Glencore=
+=E2=80=99s trading positions generally had significant price exposure to th=
+e Los Angeles Bunker Benchmark. When the Cargo Trades were sales by Glencor=
+e to the SOE, Glencore=E2=80=99s Cargo Trade position would be more profita=
+ble if the average Los Angeles Bunker Benchmark on the Cargo Pricing Days w=
+as higher: if the Los Angeles Bunker Benchmark rose, Glencore would sell to=
+ the SOE at a higher price. Conversely, when the Cargo Trades were purchase=
+s by Glencore from the SOE, Glencore=E2=80=99s Cargo Trade positions would =
+be more profitable if the average Los Angeles Bunker Benchmark on the Cargo=
+ Pricing Days was lower: if the Los Angeles Bunker Benchmark fell, Glencore=
+ would buy from the SOE at a lower price. =E2=80=A6During the Relevant Peri=
+od, on hundreds of occasions, Glencore manipulated or attempted to manipula=
+te the Los Angeles Bunker Benchmark ... in order to increase Glencore=E2=80=
+=99s profits (or reduce losses) from its derivatives and physical trades th=
+at priced by reference to the benchmark. Such trading conduct was a regular=
+ practice at Glencore, and supervisors were aware of and at times directly =
+involved in the conduct. ... Typically, in furtherance of the manipulation,=
+ Glencore submitted generally increasing bids or generally decreasing offer=
+s to Platts during the trading window, which Platts then reported to its su=
+bscribers. In addition, Glencore personnel at times conveyed misleadingly i=
+ncomplete, =E2=80=9Ccherrypicked,=E2=80=9D or inaccurate information to Pla=
+tts outside the window, such as information regarding Glencore personnel=E2=
+=80=99s purported views of the market conditions or of supply and demand, k=
+nowing that such information could and did influence Platts=E2=80=99s asses=
+sment.=C2=A0If you have agreed to sell 40,000 metric tons of fuel oil at a =
+spread to the Platts benchmark, and you can push up the benchmark by submit=
+ting high bids during the trading window and maybe buying a few thousand to=
+ns of oil at inflated prices, that=E2=80=99s a good trade: You lose money o=
+n your window trades by paying inflated prices, but you make money on your =
+cargo trade by receiving the inflated price, and as long as your cargo trad=
+es are bigger than the window trades =E2=80=94=C2=A0as long as the =E2=80=
+=9Coff-exchange=E2=80=9D market is bigger than the =E2=80=9Con-exchange=E2=
+=80=9D one =E2=80=94=C2=A0you make a profit overall.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      NFT Stuff
+   =20
+ =20
+Well this is pretty stupid:On Saturday, [actor Seth] Green teased a trailer=
+ for White Horse Tavern at the NFT conference VeeCon. A twee comedy, the sh=
+ow seems to be based on the question, =E2=80=9CWhat if your friendly neighb=
+orhood bartender was Bored Ape Yacht Club #8398?=E2=80=9D In an interview w=
+ith entrepreneur and crypto hype man Gary Vaynerchuk, Green said he wanted =
+to imagine a universe where =E2=80=9Cit doesn't matter what you look like, =
+what only matters is your attitude.=E2=80=9DUnfortunately for Green, what a=
+lso matters is copyright law. And when the actor=E2=80=99s NFT collection w=
+as pilfered by a scammer in early May, he lost the commercial rights to his=
+ show=E2=80=99s cartoon protagonist, a scruffy Bored Ape named Fred Simian,=
+ whose likeness and usage rights now belong to someone else.=E2=80=9CI boug=
+ht that ape in July 2021, and have spent the last several months developing=
+ and exploiting the IP to make it into the star of this show,=E2=80=9D Gree=
+n told Vaynerchuk. =E2=80=9CThen days before =E2=80=94 his name is Fred by =
+the way =E2=80=94 days before he=E2=80=99s set to make his world debut, he=
+=E2=80=99s literally kidnapped.=E2=80=9D Green did not respond to a tweet f=
+rom BuzzFeed News regarding the show.What a stroke of luck! If someone hadn=
+=E2=80=99t stolen his ape he=E2=80=99d have to make the=C2=A0show. It would=
+ be funny if the liability to make the show went with the ape, like, if the=
+ anonymous teen or whoever who tricked Green into giving up his ape (or the=
+ subsequent purchaser) now=C2=A0has to write and star in the show. I would =
+probably watch that. No, no, just kidding, I would never watch a Bored Ape =
+show for any reason. Anyway I don=E2=80=99t think intellectual-property law=
+ works like =E2=80=A6=C2=A0any of this =E2=80=A6=C2=A0but I also don=E2=80=
+=99t care.[3] If Seth Green wants to not make a Bored Ape comedy then that=
+=E2=80=99s fine, the system worked.He could just make the show with a sligh=
+tly different drawing of an ape? Like the person who supposedly stole his a=
+pe now supposedly owns the intellectual-property rights connected to Bored =
+Ape Yacht Club #8398, but that person does not own the concept of =E2=80=9C=
+a cartoon ape with an attitude.=E2=80=9D =E2=80=9CWhat if your friendly nei=
+ghborhood bartender was a member of the Blas=C3=A9 Bonobos Boat Club,=E2=80=
+=9D the show could ask, and the ape could hold his cigarette like this=C2=
+=A0instead of like that. No, I=E2=80=99m sorry, I will stop suggesting solu=
+tions, I don=E2=80=99t care, don=E2=80=99t make the show, everything is fin=
+e.=C2=A0I am going to start a business that offers celebrities the followin=
+g service:=09I will sell you a Bored Ape.=09Then I will steal it.=09Then yo=
+u can go on talk shows and talk about how you had a=C2=A0Bored Ape and it g=
+ot stolen, which is the defining experience of modern celebrity.If you have=
+ not gone on a talk show to talk about your Bored Ape getting stolen, are y=
+ou really a celebrity? In today=E2=80=99s competitive attention economy, ce=
+lebrities need a Bored Ape thief at least as much as they need an agent or =
+a stylist or someone to post on TikTok. Your Bored Ape thief plays a critic=
+al role in building your public image, and you want to hire the best possib=
+le Bored Ape thief. Here at Money Stuff Bespoke Bored Ape Thieves we have s=
+pent an industry-leading five minutes thinking about this joke, and what ot=
+her Bored Ape thieves can match that experience? Lots of them, probably.If =
+I manage the pipeline right I=E2=80=99ll only need one Bored Ape. Just keep=
+ selling it to a celebrity, stealing it back, selling it again. What amazin=
+g provenance that ape will have when I eventually sell it to someone for re=
+al. =E2=80=9CBuy the Bored Ape that Seth Green and Justin Bieber and Snoop =
+Dogg and Donald Trump and Elon Musk all owned, briefly,=E2=80=9D I will say=
+, and some billionaire will pay me millions of dollars=C2=A0for it. Then I =
+will steal it again because that will make it even funnier.=C2=A0
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Russia to  Service Debt in Rubles After US Closes Loophole. One Man Helped =
+ Credit Suisse Make Billions From Russia Tycoons. Wendy=E2=80=99s Largest S=
+hareholder Trian Explores Burger-Chain Deal. McDonald=E2=80=99s Poised to R=
+etain Both Seats in Proxy Fight With Carl Icahn.=C2=A0Main Street=E2=80=99s=
+ Most Prolific  Corporate Agitator Finds a New Battlefield In ESG. Asset ma=
+nagers divided by HSBC executive=E2=80=99s climate criticism. Insurance Pro=
+viders Rethink Their Approach to Crypto. =E2=80=9CBasically all of Bitcoin=
+=E2=80=99s decline over the last month has come  when US markets have been =
+open.=E2=80=9D=C2=A0Andreessen Horowitz bets on crypto =E2=80=98golden age=
+=E2=80=99 with new $4.5bn fund.=C2=A0Quant hedge funds reap windfall during=
+ 2022 market ructions. Hedge Funds Brace for  $20 Billion of Redemptions, C=
+itco Says. BofA and Citi suspend equity trading with Segantii Capital on bl=
+ock trade concerns. Todd Boehly=E2=80=99s Takeover of Chelsea Soccer Club A=
+pproved by U.K. Government. Skydiving salamanders live in world=E2=80=99s t=
+allest trees.=C2=A0If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy=
+ email form, right in your inbox, please=C2=A0subscribe at this link. Or yo=
+u can subscribe to Money Stuff and other great Bloomberg newsletters here. =
+Thanks![1] This is the general rule, but not *always* true. Occasionally a =
+company will file for bankruptcy when it is not in particularly bad shape, =
+and it will turn out during bankruptcy proceedings that in fact the company=
+ is worth more than the debt, so the old shareholders will get shares in th=
+e new company. This famously  happened with Hertz Global Holdings Inc., whi=
+ch filed for bankruptcy during a pandemic but exited bankruptcy during a bo=
+om in used-car prices, leaving its shareholders with continuing ownership i=
+n the company.[2] There are some important exceptions to this, generally wi=
+th the goal of promoting confidence in financial markets =E2=80=94=C2=A0you=
+ don=E2=80=99t want people to be nervous trading with banks that might beco=
+me insolvent, etc.[3] If you do, here=E2=80=99s a Twitter thread from James=
+ Grimmelmann=C2=A0walking through the legal issues.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgknr2.5l3a/b1668563.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_9679642_973717952.1653502433291
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Terra2Hey Terra is doing stuff: A proposal by the founder of the troubled T=
+erra ecosystem to salvage the project was approved, averting a to
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNzgzNzc1OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgwOTgzNzImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBcf6c99c1" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D27837758&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28098372&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNTI1MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA1MjUmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBdaf9d934"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNzgzNzc1OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgwOTgzNzImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC55ca0d6b" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D27837758&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28098372&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Terra2</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Hey <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/27837758.260614/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9u=
+ZXdzL2FydGljbGVzLzIwMjItMDUtMjUvZG8ta3dvbi13aW5zLWJhY2tpbmctZm9yLWhpcy1wcm9=
+wb3NhbC10by1yZXNjdWUtdGVycmEtcHJvamVjdD9jbXBpZD1CQkQwNTI1MjJfTU9ORVlTVFVGRi=
+Z1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA1MjUmd=
+XRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB96a04a7a" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Terra=C2=A0is doing stuff</a>:</p><blockquote><p style=3D"margin: 16px 0;">=
+A proposal by the founder of the troubled Terra ecosystem to salvage the pr=
+oject was approved, averting a total collapse of one of the most-watched ex=
+periments in decentralized finance.=C2=A0</p><p style=3D"margin: 16px 0;">U=
+nder Do Kwon=E2=80=99s newly approved structure, the original blockchain wi=
+ll be known as Terra Classic, while its native token Luna, which plunged cl=
+ose to zero this month, will be renamed Luna Classic with the ticker LUNC. =
+The new Terra blockchain will start running a coin under the existing Luna =
+name and ticker, and won=E2=80=99t include the TerraUSD stablecoin</p><p st=
+yle=3D"margin: 16px 0;">Terra=E2=80=99s unraveling, which started earlier t=
+his month with the implosion of the algorithmic stablecoin Kwon had touted =
+relentlessly, marked one of the biggest busts in the crypto industry=E2=80=
+=99s history. While the outcome of Wednesday=E2=80=99s vote represents a vi=
+ctory of sorts for Kwon and his supporters, doubts persist about whether Te=
+rra can ultimately be revived.=C2=A0</p><p style=3D"margin: 16px 0;">The pr=
+ocess means Terraform Labs is effectively abandoning the stablecoin TerraUS=
+D, or UST, which from now on will only trade on the Terra Classic blockchai=
+n. Designed to maintain a 1-to-1 peg to the dollar, it traded at around 10 =
+cents on Wednesday.</p></blockquote><p style=3D"margin: 16px 0;">We have ta=
+lked a few times recently about=C2=A0Terra, the blockchain ecosystem whose =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMTEvdGVyc=
+mEtZmxvcHM_Y21waWQ9QkJEMDUyNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1f=
+c291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNTI1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZ=
+m/607f07ceef4b8524a319a23cB8411a5cd" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> algorithmic stablecoin</a> bl=
+ew up <a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260=
+614/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMTI=
+vY3J5cHRvLWNyYXNoLWNvbnRhZ2lvbi1jb3VsZC1nby1iZXlvbmQtYml0Y29pbi1ldGhlcmV1bS=
+10ZXRoZXI_Y21waWQ9QkJEMDUyNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc=
+291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNTI1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm=
+/607f07ceef4b8524a319a23cB629c5fd6" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">earlier this month</a>. One mod=
+el of Terra=C2=A0goes like this:</p><ol style=3D"list-style-type: decimal; =
+padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">T=
+erra is a company. Not really =E2=80=94=C2=A0it=E2=80=99s a decentralized f=
+inance ecosystem, a blockchain, a bunch of independent developers working o=
+n diverse projects =E2=80=94=C2=A0but let=E2=80=99s just pretend for a minu=
+te. (In fact there is a company-ish thing called Terraform Labs which helps=
+ run Terra, and another company-ish thing called Luna Foundation Guard that=
+ keeps some of Terra=E2=80=99s money, but here I want to conceive of Terra =
+as a whole as sort of a distributed company.)</li>=09<li style=3D"margin-bo=
+ttom: 5px;">The Luna token, which powers the Terra blockchain and is the cu=
+rrency of its ecosystem, is the=C2=A0<em>equity=C2=A0</em>of Terra, the sto=
+ck in the Terra company.</li>=09<li style=3D"margin-bottom: 5px;">The Terra=
+USD stablecoin (or UST), which was supposed to always be worth a dollar, an=
+d which maintained that peg by being exchangeable for $1 worth of Luna at m=
+arket prices, is the=C2=A0<em>debt=C2=A0</em>of Terra. Like bonds of the co=
+mpany, or like deposits of a bank.</li></ol><p style=3D"margin: 16px 0;">Th=
+is model has a lot going for it. UST, certainly, looks like debt: You buy a=
+ UST for a fixed amount ($1), and you expect to get back that fixed amount =
+($1), and while you hold it you earn interest. (For a while, you could <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/aHR0cH=
+M6Ly93d3cubm90Ym9yaW5nLmNvL3AvdGVycmEtdG8tdGhlLW1vb24tYW5kLWJhY2s_cz1y/607f=
+07ceef4b8524a319a23cB2782f1b3" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">get 19.5% interest</a> on UST in the=
+ Anchor protocol, a part of the Terra ecosystem.) It was advertised as a sa=
+fe investment, a way to participate in the Terra ecosystem with a guarantee=
+ of getting your money back.</p><p style=3D"margin: 16px 0;">Luna, meanwhil=
+e, looks like equity. It has no fixed value; it went up as optimism about T=
+erra grew, and went down as Terra imploded. Luna could go to zero if Terra =
+failed, or it could go to the moon if Terra became the world=E2=80=99s domi=
+nant financial system. There was no floor and no cap on Luna=E2=80=99s valu=
+e (unlike UST, which was floored and capped at $1); it was just worth some =
+fraction of the future value of the Terra ecosystem.</p><p style=3D"margin:=
+ 16px 0;">There are some implications of this model. One implication is tha=
+t you=C2=A0might think: Wait, if these coins are the debt and equity of a c=
+ompany, aren=E2=80=99t they securities? If they are securities, and they we=
+re sold to US investors, aren=E2=80=99t they required to be registered with=
+ the US Securities and Exchange Commission? If they are securities that wer=
+e sold broadly to the general public and then lost almost all of their valu=
+e, shouldn=E2=80=99t the SEC investigate? If big US crypto trading firms an=
+d venture capitalists were buying huge piles of Luna from Terra=E2=80=99s p=
+romoters=C2=A0and dumping them to retail buyers on exchanges while also tal=
+king up Terra, <a href=3D"https://link.mail.bloombergbusiness.com/click/278=
+37758.260614/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMD=
+UtMTYvbm92b2dyYXR6LWdvZXMtc2lsZW50LW9uLXR3aXR0ZXItYWZ0ZXItdGVycmEtdXN0LWFuZ=
+C1sdW5hLXBsdW5nZT9jbXBpZD1CQkQwNTI1MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA1MjUmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBb38c0820" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> making billions of dol=
+lars for themselves</a> while they =E2=80=9C<a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/27837758.260614/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vM=
+jAyMi8wNS8xOC90ZWNobm9sb2d5L3RlcnJhLWx1bmEtY3J5cHRvY3VycmVuY3ktZG8ta3dvbi5o=
+dG1s/607f07ceef4b8524a319a23cB86e38e7b" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">cash[ed] out on the backs o=
+f retail</a>,=E2=80=9D weren=E2=80=99t those big investors=C2=A0breaking US=
+ securities laws? Weren=E2=80=99t they underwriters of an unregistered secu=
+rities offering, and shouldn=E2=80=99t they have to buy those coins back fr=
+om those retail bagholders at the prices they paid? These seem like good qu=
+estions! Some of the answers might be =E2=80=9Cno=E2=80=9D =E2=80=94=C2=A0T=
+erra is not=C2=A0<em>actually=C2=A0</em>a company, and while Luna and UST a=
+re=C2=A0<em>like=C2=A0</em>securities it is not obvious that they=C2=A0<em>=
+are=C2=A0</em>securities =E2=80=94=C2=A0but I think they=E2=80=99re good qu=
+estions.=C2=A0I will not pursue them further here but, you know, something =
+to think about. If you work at the SEC for instance.</p><p style=3D"margin:=
+ 16px 0;">Here I want to talk about a different implication. Like I said, T=
+erra blew up this month. The price of Luna fell from over $100 in March to=
+=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260=
+614/aHR0cHM6Ly9jb2lubWFya2V0Y2FwLmNvbS9jdXJyZW5jaWVzL3RlcnJhLWx1bmEv/607f07=
+ceef4b8524a319a23cB8c5b7e13" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">a tiny fraction of a penny today</a>, =
+and through the workings of UST=E2=80=99s algorithmic peg, trillions of nea=
+r-worthless Luna were issued to UST holders who were trying to get out. Mea=
+nwhile UST, which was supposed to always be worth a dollar,=C2=A0<a href=3D=
+"https://link.mail.bloombergbusiness.com/click/27837758.260614/aHR0cHM6Ly9j=
+b2lubWFya2V0Y2FwLmNvbS9jdXJyZW5jaWVzL3RlcnJhdXNkLw/607f07ceef4b8524a319a23c=
+Ba53fb1b1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">traded as low as 5 cents</a>.</p><p style=3D"margin: 16p=
+x 0;">If Terra were a company, you might describe this situation as a bankr=
+uptcy. And there would be reasonably well-understood procedures for what ha=
+ppens to the debt and equity in a bankruptcy:</p><ol style=3D"list-style-ty=
+pe: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bo=
+ttom: 5px;">If there=E2=80=99s money around, it goes to paying off the debt=
+.</li>=09<li style=3D"margin-bottom: 5px;">If there=E2=80=99s not enough mo=
+ney to pay off the debt, then the equity is extinguished;=C2=A0all the equi=
+ty holders get nothing.</li>=09<li style=3D"margin-bottom: 5px;">If the equ=
+ity is zeroed and there=E2=80=99s=C2=A0<em>something=C2=A0</em>left over =
+=E2=80=94=C2=A0if there=E2=80=99s some valuable business that can be run as=
+ a going concern =E2=80=94=C2=A0then the debt holders=C2=A0<em>get it</em>.=
+ They get equity in the new, post-bankruptcy entity, to compensate them for=
+ not getting paid back.</li>=09<li style=3D"margin-bottom: 5px;">Generally =
+that new entity will need to pay managers, maybe raise new money, etc., so =
+the old debt holders won=E2=80=99t own 100% of its equity: The managers, ne=
+w investors, etc., will get some, as an incentive to keep working at this b=
+usiness that is now owned by its creditors.</li>=09<li style=3D"margin-bott=
+om: 5px;">But in general the old equity holders won=E2=80=99t get much of t=
+he new company, and usually they=E2=80=99ll get none of it.[1] The debt hol=
+ders will have absolute priority over the equity holders; they need to be m=
+ade whole before the equity holders get anything.</li></ol><p style=3D"marg=
+in: 16px 0;">You could apply that thought process to Terra. Terra went=C2=
+=A0<em>bankrupt</em>, in the sense that its value is not enough to support =
+all of the debt claims (TerraUSD) against it. But Terra still has=C2=A0<em>=
+some value</em>, in the sense that there is a blockchain ecosystem that Ter=
+ra impresario Do Kwon and other people are trying to keep alive.=C2=A0In th=
+eory, at least, people used (and could still use) Terra as an ecosystem for=
+ building decentralized applications, transferring money, creating a new fi=
+nancial system, etc.; the price of Luna reflected people=E2=80=99s optimism=
+ in Terra as a platform for building those things. Then UST had a death spi=
+ral, which should certainly undermine your confidence in Terra =E2=80=94=C2=
+=A0its=C2=A0<em>main=C2=A0</em>app was an algorithmic stablecoin, which wor=
+ked terribly =E2=80=94=C2=A0but might not totally eliminate it. =E2=80=9CWh=
+at we should look to preserve now is the community and developers that make=
+ Terra=E2=80=99s blockspace valuable,=E2=80=9D <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/27837758.260614/aHR0cHM6Ly90d2l0dGVyLmNvbS9zdG=
+FibGVrd29uL3N0YXR1cy8xNTI1MjM4NDE2OTkxODkxNDU3/607f07ceef4b8524a319a23cB2d4=
+eeff2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">tweeted Kwon</a>, shortly after the death spiral, and I gues=
+s some people agree with him.</p><p style=3D"margin: 16px 0;">If Terra is a=
+ company, then the developers and community and apps are in a sense its emp=
+loyees and projects, and those projects might have positive value even if t=
+he company was washed away by debt. In a classic bankruptcy, the creditors =
+would be handed control of the company: The employees would keep working, t=
+he projects would keep happening, but now the profits would go to the credi=
+tors instead of the old owners.</p><p style=3D"margin: 16px 0;">But in a =
+=E2=80=A6=C2=A0crypto bankruptcy? =E2=80=A6=C2=A0there is no guarantee of t=
+hat. There is no guarantee of anything. Everything is being reinvented from=
+ scratch. There are some proposals, and there=E2=80=99s a vote of Terra val=
+idators =E2=80=94=C2=A0sort of an indirect vote of Luna holders =E2=80=94=
+=C2=A0and then something does or doesn=E2=80=99t happen. Here the proposal =
+was to start over with a new blockchain, abandoning TerraUSD, and it was ap=
+proved. The new blockchain will have a new Luna token: again, roughly =E2=
+=80=9Cequity=E2=80=9D in the new blockchain. And just as in a bankruptcy,=
+=C2=A0New Luna will be distributed to some combination of (1) claimants on =
+the=C2=A0<em>old </em>blockchain, that is, holders of Old Luna and TerraUSD=
+, plus (2) developers, etc., to incentivize people to keep working on the n=
+ew Terra blockchain.</p><p style=3D"margin: 16px 0;">Here you can read <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/aHR0cH=
+M6Ly9hZ29yYS50ZXJyYS5tb25leS90L3RlcnJhLWVjb3N5c3RlbS1yZXZpdmFsLXBsYW4tMi1hb=
+WVuZGVkLzE4NDk4/607f07ceef4b8524a319a23cB89383b78" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">the proposal tha=
+t passed</a>, which includes a =E2=80=9CToken Distribution=E2=80=9D setting=
+ out who gets New Luna. The breakdown is 30% =E2=80=9Ccommunity pool=E2=80=
+=9D (sort of like treasury stock, available to pay developers etc.), 45% ho=
+lders of Old Luna and 25% holders of UST. The distributions to UST and Old =
+Luna holders will be divided between =E2=80=9Cpre-attack=E2=80=9D and =E2=
+=80=9Cpost-attack=E2=80=9D holders; notably, 35% of total New Luna will go =
+to =E2=80=9Cpre-attack=E2=80=9D holders of Old Luna, that is, holders of Lu=
+na=C2=A0<em>before=C2=A0</em>UST broke down and trillions of Luna were prin=
+ted. So if you were a holder of UST who converted $1 of UST into 500 Old Lu=
+na during the death spiral, your Lunas represent a claim on the smaller 10%=
+ pool for =E2=80=9Cpost-attack=E2=80=9D Luna holders. Your Lunas are worth =
+less than other people=E2=80=99s Lunas; Terra printed trillions of Lunas to=
+ redeem UST but is now, in a loose sense, taking them back.</p><p style=3D"=
+margin: 16px 0;">In traditional finance terms, Terra went bankrupt, and reo=
+rganized, and its shareholders got more of a recovery than its creditors. N=
+ot how things work in traditional bankruptcy!=C2=A0Here is <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/27837758.260614/aHR0cHM6Ly90d2l0dG=
+VyLmNvbS93YXNzaWVsYXd5ZXIvc3RhdHVzLzE1MjUyMjAyMDUzMDMzMzI4NjQ/607f07ceef4b8=
+524a319a23cBb5bf669b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">a good Twitter thread</a> from a pseudonymous=
+ lawyer about an earlier version of the proposal, making this point:=C2=A0<=
+/p><blockquote><p style=3D"margin: 16px 0;">From a restructuring lawyer per=
+spective, I would say that the $UST allocation is too low. $UST represents =
+debt of the current ecosystem and according pre-attack $LUNA holders an equ=
+al part of the nLUNA pie is inequitable as $LUNA holders are proxy equity b=
+earing de-peg risk.</p><p style=3D"margin: 16px 0;">Nonetheless I accept th=
+at as a matter of practicality (both in terms of Web3 and the powers that n=
+eed to be appeased), this is probably necessary.</p><p style=3D"margin: 16p=
+x 0;">New Terra will need buy-in from the same funds that got completely wi=
+ped out by the de-peg. It is what it is.</p><p style=3D"margin: 16px 0;">An=
+d while we speak of debt and equity, theoretically New Terra can completely=
+ wipe out $UST given this is a web3 protocol and not bound by standard inso=
+lvency law payments waterfalls. The reason they can't do so is obviously a =
+matter of legitimacy.</p><p style=3D"margin: 16px 0;">In tradfi, I would ex=
+pect to see the UST debtholders completely wipe out $LUNA bagholders, or at=
+ least hold a senior instrument. Given the above considerations, this isn't=
+ the case here and probably for good reason.</p></blockquote><p style=3D"ma=
+rgin: 16px 0;">It is worth thinking about=C2=A0<em>why=C2=A0</em>traditiona=
+l finance works this way. In traditional finance, =E2=80=9Cdebt=E2=80=9D is=
+ a well-established concept, and =E2=80=9Cequity=E2=80=9D is a well-establi=
+shed concept, and it is well-established that debt is safer than equity. An=
+d so it is relatively easy for companies to borrow: Lenders know that they =
+will get paid back first in a bankruptcy, so they are willing to lend to we=
+ll-capitalized companies at moderate interest rates. The priority rule of b=
+ankruptcy supports the debt market; it gives people more confidence in lend=
+ing to companies, which makes it cheaper for companies to borrow.</p><p sty=
+le=3D"margin: 16px 0;">Meanwhile in decentralized finance, it is all well a=
+nd good for me to say =E2=80=9Cwell UST looks like debt and Luna looks like=
+ equity,=E2=80=9D but those are just analogies, and =E2=80=9Can algorithmic=
+ stablecoin is the debt of a blockchain ecosystem=E2=80=9D is not a well-es=
+tablished concept. Nobody is going around buying algorithmic stablecoins=C2=
+=A0<em>because they are confident that they=E2=80=99ll get paid back first =
+if the ecosystem blows up</em>. (They are buying them for =E2=80=A6=C2=A0uh=
+ =E2=80=A6=C2=A0other reasons? Confusion? Faith in the algorithm? Intense <=
+em>desire=C2=A0</em>for this to work?) So, when the ecosystem blows up, the=
+re is no reason to pay the stablecoin holders first.</p><p style=3D"margin:=
+ 16px 0;">In the long run you could imagine this being bad. The priority ru=
+le in bankruptcy is a big part of what=C2=A0<em>makes $1 of debt worth $1</=
+em>, and if algorithmic stablecoins don=E2=80=99t follow it then it will be=
+ harder to make them worth a dollar. On the other hand it is hard to imagin=
+e any outcome of the Terra crash that would=C2=A0<em>increase=C2=A0</em>con=
+fidence in algorithmic stablecoins, and hard to imagine any reason why Terr=
+a=E2=80=99s promoters and developers would care about that goal. So they mi=
+ght as well write off UST. If it=E2=80=99s not <em>stable</em>, there=E2=80=
+=99s not much benefit in making it=C2=A0<em>senior</em>.</p><p style=3D"mar=
+gin: 16px 0;">There is another implication of this bankruptcy analogy.=C2=
+=A0In traditional finance, if a company pays off some of its debts at 100 c=
+ents on the dollar, and=C2=A0<em>the next day=C2=A0</em>it files for bankru=
+ptcy and says =E2=80=9Coops, we only have enough to pay off our remaining d=
+ebts at 40 cents on the dollar,=E2=80=9D then its creditors =E2=80=94=C2=A0=
+the ones who are only getting 40 cents =E2=80=94=C2=A0can sometimes demand =
+that the people who got paid 100 cents=C2=A0<em>give the money back</em>. (=
+In <a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614=
+/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L3VzY29kZS90ZXh0LzExLzU0Nw/607f07ceef4=
+b8524a319a23cB423256f5" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">US bankruptcy law</a>, this is called avoid=
+ing=C2=A0a =E2=80=9Cpreference,=E2=80=9D and generally preferential payment=
+s made within 90 days before bankruptcy can be clawed back.) The point of b=
+ankruptcy is to share the pain of insolvency fairly among all the creditors=
+, and it is not fair for some people to get 100 cents on the dollar the day=
+ before bankruptcy and others to get 40 cents on the dollar the day after.[=
+2]=C2=A0</p><p style=3D"margin: 16px 0;">One part of the pre-crash Terra ec=
+osystem was the Luna Foundation Guard, which raised a bunch of money (by se=
+lling Luna back when times were good) and used it to build a war chest to d=
+efend the price of UST. As people lost confidence in UST, the LFG really di=
+d spend a lot of money buying UST =E2=80=94=C2=A0at close to $1 per UST =E2=
+=80=94=C2=A0to prop up the price. That didn=E2=80=99t work =E2=80=94 LFG bu=
+rned through its reserves, and then UST plunged =E2=80=94=C2=A0but it was a=
+ reasonable idea.</p><p style=3D"margin: 16px 0;">Again, if you conceive of=
+ Terra as a=C2=A0<em>company=C2=A0</em>that went=C2=A0<em>bankrupt</em>, yo=
+u might think that this is a preference. You might think: It is weird that =
+the LFG cashed out some UST holders at $1 one minute, and the next minute i=
+t stopped and everything went into freefall. You might think: The people wh=
+o got out at $1 should have some of their gains clawed back and shared with=
+ the people who didn=E2=80=99t.</p><p style=3D"margin: 16px 0;">You might n=
+ot think that! You might think, you know, irreversible transactions on the =
+blockchain, everyone look after themselves, if you waited too long you got =
+what you deserved, etc. But again it is worth considering why traditional f=
+inance works this way. US bankruptcy law allows bankrupt companies to claw =
+back preferential payments=C2=A0<em>to discourage runs</em>. If you know th=
+at there=E2=80=99s limited value in a company and that it will only be able=
+ to pay off 40% of its debts, you will try to get paid off first; if everyo=
+ne is trying to get paid off first, that itself will destabilize the compan=
+y and lead to bankruptcy. If you know that getting paid off first=C2=A0<em>=
+doesn=E2=80=99t help=C2=A0</em>=E2=80=94=C2=A0that all creditors will be tr=
+eated the same, even if they ask for their money first =E2=80=94=C2=A0then =
+your incentive is to be patient and try to preserve value at the company.</=
+p><p style=3D"margin: 16px 0;">Meanwhile, Terra collapsed in an instant in =
+part=C2=A0<em>because of=C2=A0</em>the popular crypto assumption that it=E2=
+=80=99s every person for herself. If you know that some UST holders will ge=
+t paid $1, and moments later other holders will get 7 cents, you have power=
+ful incentives to get out first. And so everyone does and it collapses.</p>=
+<p style=3D"margin: 16px 0;">Anyway here is a Wall Street Journal story abo=
+ut <a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614=
+/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy93aGF0LWhhcHBlbmVkLXRvLXRlcnJhdXNkcy=
+1iaXRjb2luLXJlc2VydmVzLTExNjUzNDA2ODY5P21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ce=
+ef4b8524a319a23cB77c85599" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">where the LFG money went</a>:</p><blockq=
+uote><p style=3D"margin: 16px 0;">The collapse of the cryptocurrency TerraU=
+SD has traders wondering what happened to the $3 billion war chest meant to=
+ defend it.=C2=A0</p><p style=3D"margin: 16px 0;">TerraUSD is a stablecoin,=
+ meaning that it is supposed to keep its value steady at $1. But after a cr=
+ash earlier this month, the coin is worth only 6 cents.</p><p style=3D"marg=
+in: 16px 0;">In roughly two days earlier this month, a nonprofit foundation=
+ backing TerraUSD deployed nearly all of its bitcoin reserves in an effort =
+to help it regain its typical level of $1, according to an analysis by Elli=
+ptic Enterprises Ltd., a cryptocurrency risk-management company. Despite th=
+e massive deployment, TerraUSD deviated further from its intended value. ..=
+.</p><p style=3D"margin: 16px 0;">The Luna Foundation Guard said that on Ma=
+y 8, as the price of TerraUSD began to drop, it began converting reserve as=
+sets into the stablecoin. In theory, selling bitcoin and other reserves cou=
+ld have helped stabilize TerraUSD by creating demand for the asset as a way=
+ to reinvigorate faith. This is similar to how central banks defend their f=
+alling local currency, by selling currencies issued by other countries and =
+buying their own.=C2=A0</p><p style=3D"margin: 16px 0;">The foundation said=
+ it transferred bitcoin reserves to another counterparty, enabling them to =
+enter into large trades with the foundation. In total, it sent over 50,000 =
+bitcoins, about 5,000 of which were returned, for about 1.5 billion of the =
+TerraUSD stablecoins. It also sold all of its tether and USDC stablecoin re=
+serves for 50 million TerraUSD.</p><p style=3D"margin: 16px 0;">When that f=
+ailed to support the $1 peg, the foundation said that Terraform sold about =
+33,000 bitcoins on behalf of the foundation on May 10 in a last-ditch effor=
+t to bring the stablecoin back to $1. In return, it got about 1.1 billion T=
+erraUSD.=C2=A0=E2=80=A6</p><p style=3D"margin: 16px 0;">Despite the foundat=
+ion=E2=80=99s timeline, the inherent lack of transparency has caused invest=
+or concerns about how the funds were used among some traders.=C2=A0</p></bl=
+ockquote><p style=3D"margin: 16px 0;">In broad outlines,=C2=A0<em>some=C2=
+=A0</em>holders of UST got paid roughly $1 for their UST out of the LFG mon=
+ey, and some did not and held through the collapse. If you are a suspicious=
+ person, you might ask questions like =E2=80=9Cwait, were certain favored i=
+nsiders cashed out at $1 while other retail bagholders got nothing?=E2=80=
+=9D But if you are a traditional finance person,=C2=A0you might ask simpler=
+ questions like =E2=80=9Cwhy should=C2=A0<em>anyone=C2=A0</em>have been cas=
+hed out at $1 when there clearly wasn=E2=80=99t enough money to go around?=
+=E2=80=9D</p><table class=3D"liveintent-sponsored-content" width=3D"auto" c=
+ellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzgzNzc1OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgwOTgzNzImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD101cd9ad" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27837758&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28098372&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzgzNzc1OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgwOTgzNzImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE101cd9ad" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27837758&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28098372&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzgzNzc1OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgwOTgzNzImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFd84dd332" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27837758&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28098372&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzgzNzc1OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgwOTgzNzImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGd84dd332" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27837758&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28098372&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Glencore</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Glencore Plc is a big commodity tradin=
+g firm that trades lots of commodities in lots of parts of the world and pa=
+id a lot of bribes to win business.=C2=A0This has been well-known and much-=
+discussed for a long time. Yesterday Glencore pleaded guilty to various cha=
+rges in various countries to, you know, pay up for all the bribes. <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDUtMjQvZ2xlbmNvcmUtdG8t=
+YXBwZWFyLWluLXVzLXVrLWNvdXJ0cy1vdmVyLXJlc29sdXRpb25zLW9mLXByb2Jlcz9jbXBpZD1=
+CQkQwNTI1MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldH=
+RlciZ1dG1fdGVybT0yMjA1MjUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a=
+319a23cBb7264072" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> Bloomberg News reports</a>:</p><blockquote><p st=
+yle=3D"margin: 16px 0;">Glencore Plc admitted to bribery and market manipul=
+ation and said it will pay about $1.5 billion to settle US, UK and Brazilia=
+n probes that have hung over the commodities giant for years.</p><p style=
+=3D"margin: 16px 0;">The settlements will help remove a question mark that =
+has long overshadowed the trader=E2=80=99s business. But the charges and ad=
+missions of guilt paint a damning, globe-spanning picture of how far the co=
+mpany, founded by U.S. fugitive Marc Rich, has been willing to go in pursui=
+t of profit.=C2=A0</p><p style=3D"margin: 16px 0;">Glencore units agreed to=
+ plead guilty to a list of charges that range from bribery and corruption i=
+n South America and Africa, to price manipulation in US fuel-oil markets. =
+=E2=80=A6</p><p style=3D"margin: 16px 0;">=E2=80=9CIt=E2=80=99s a good day =
+for them to finally get this done because it=E2=80=99s been hanging over th=
+em for a while,=E2=80=9D said Ben Davis, a mining analyst at Liberum Capita=
+l. =E2=80=9CIt at least allows them to start to move forward.=E2=80=9D</p><=
+/blockquote><p style=3D"margin: 16px 0;">That does seem to be the general r=
+eaction to these pleas: Sure yes of course Glencore paid a bunch of=C2=A0br=
+ibes to various government agencies to win business, but now that it has wr=
+itten a check to the US government, it doesn=E2=80=99t have to worry about =
+the bribes anymore, so it=E2=80=99s good for business. The stock went up.</=
+p><p style=3D"margin: 16px 0;">It is all pretty standard stuff. The bribes =
+were bribes: If you want to do lucrative commodities trades with state-owne=
+d enterprises in developing countries, you will need to build personal rela=
+tionships with the people in power at those enterprises, and a classic way =
+to do that is by handing them sacks of cash. So Glencore did. From yesterda=
+y=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/278377=
+58.260614/aHR0cHM6Ly93d3cuY2Z0Yy5nb3YvUHJlc3NSb29tL1ByZXNzUmVsZWFzZXMvODUzN=
+C0yMg/607f07ceef4b8524a319a23cB99cf7a33" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">settlement with the US C=
+ommodity Futures Trading Commission</a>:</p><blockquote><p style=3D"margin:=
+ 16px 0;">At various times during the Relevant Period and the Charging Peri=
+od, Glencore, by and through its traders and agents, made corrupt payments =
+to employees and agents working at SOEs of Brazil, Cameroon, Nigeria, and V=
+enezuela. Glencore or its affiliates made the corrupt payments in exchange =
+for improper preferential treatment and access to trades with the SOEs. Gle=
+ncore=E2=80=99s conduct was designed to increase Glencore=E2=80=99s profits=
+ from certain physical and derivatives trading in oil markets around the wo=
+rld, including U.S. physical and derivatives markets. =E2=80=A6=C2=A0The co=
+rrupt conduct was widespread within Glencore=E2=80=99s oil business, and su=
+pervisors were aware of and at times directly involved in the corruption.</=
+p><p style=3D"margin: 16px 0;">To conceal the corruption, the corrupt payme=
+nts at times were in large amounts of cash, and in some instances, corrupt =
+payments also were invoiced through third-party companies, with deceptive i=
+nvoices to Glencore for euphemistic costs or services such as =E2=80=9Cadva=
+nce payment,=E2=80=9D =E2=80=9Cmarketing services,=E2=80=9D or =E2=80=9Ccom=
+mission.=E2=80=9D Glencore traders and intermediaries at times used coded l=
+anguage such as =E2=80=9Cfilings,=E2=80=9D =E2=80=9Cnewspapers,=E2=80=9D or=
+ =E2=80=9Cchocolates=E2=80=9D when referring to the corrupt payments.</p></=
+blockquote><p style=3D"margin: 16px 0;">We talk occasionally around here ab=
+out <a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.26061=
+4/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDEtMDQvZ=
+G9uLXQtY2FsbC1icmliZXMtY2hpY2tlbnM_Y21waWQ9QkJEMDUyNTIyX01PTkVZU1RVRkYmdXRt=
+X21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNTI1JnV0bV9=
+jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB4ac95179" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> euphe=
+misms for bribes</a>. My general view is that the terms in these invoices =
+=E2=80=94=C2=A0=E2=80=9Cmarketing services,=E2=80=9D =E2=80=9Ccommission,=
+=E2=80=9D etc. =E2=80=94=C2=A0are the good euphemisms; you want to be able =
+to say =E2=80=9Cwhat, no, we hired an agent to help us find business, and w=
+e paid that agent a commission, nothing bribe-y about it,=E2=80=9D even if =
+the agent helped you find the business by putting the =E2=80=9Ccommission=
+=E2=80=9D in a sack and delivering it to the local Minister of Oil. Whereas=
+ the terms in their informal communications =E2=80=94=C2=A0=E2=80=9Cnewspap=
+ers,=E2=80=9D =E2=80=9Cchocolates=E2=80=9D =E2=80=94=C2=A0are the bad euphe=
+misms; you don=E2=80=99t want to go to trial and have a prosecutor read an =
+email back to you and ask =E2=80=9Cwhen you said =E2=80=98we have to get 5 =
+million chocolates for the local Oil Minister,=E2=80=99 what sort of chocol=
+ates were you referring to?=E2=80=9D =E2=80=9CChocolates=E2=80=9D might sou=
+nd cool to you, but it looks really bad to a prosecutor. Whereas if you say=
+ in an email =E2=80=9Cwe need to hire a local adviser and pay a $5 million =
+commission=E2=80=9D then that sounds defensible! And means =E2=80=9Cbribe=
+=E2=80=9D! The idea is that if you are going to talk about bribes you shoul=
+d try to do it without snickering, because then later you can say =E2=80=9C=
+what no those weren=E2=80=99t bribes they were commissions=E2=80=9D and may=
+be a jury will believe you.</p><p style=3D"margin: 16px 0;">Or that=E2=80=
+=99s what I=E2=80=99d normally say, but my heart is not particularly in it =
+with this settlement, because the whole tone here is so matter-of-factly =
+=E2=80=9Csure yes of course Glencore paid bribes=E2=80=9D that it=E2=80=99s=
+ hard to fault the people running around calling the bribes =E2=80=9Cchocol=
+ates.=E2=80=9D They could have just called them =E2=80=9Cbribes.=E2=80=9D</=
+p><p style=3D"margin: 16px 0;">The market manipulation is also pretty stand=
+ard. The general problem of market manipulation is:</p><ol style=3D"list-st=
+yle-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"mar=
+gin-bottom: 5px;">A few things (Treasury bonds, large-cap US stocks, big fo=
+reign-exchange pairs) trade in deep liquid markets where it is pretty easy =
+to know what =E2=80=9Cthe price=E2=80=9D of the thing is at any particular =
+time, and pretty hard for one trade to move that price too much.</li>=09<li=
+ style=3D"margin-bottom: 5px;">This is super useful, and you can build all =
+sorts of derivatives structures on top of these things because the underlyi=
+ng price is easily knowable and robust. Or you can build index products whe=
+re, for instance, people just buy stocks =E2=80=9Cat the market price,=E2=
+=80=9D because that price feels real and knowable.</li>=09<li style=3D"marg=
+in-bottom: 5px;">It would be nice if lots of other things =E2=80=94=C2=A0oi=
+l cargoes, chicken parts, the interbank unsecured lending market =E2=80=94=
+=C2=A0were like those things, trading in deep liquid markets with an observ=
+able market price. Then you could build derivatives on top of them. You cou=
+ld agree to do large trades =E2=80=9Cat the market price,=E2=80=9D or at th=
+e market price plus or minus some spread, etc.=C2=A0</li>=09<li style=3D"ma=
+rgin-bottom: 5px;">Those things do not in fact trade in deep liquid markets=
+ with an observable market price.</li>=09<li style=3D"margin-bottom: 5px;">=
+But you could sort of pretend they do. There=E2=80=99s probably <em>some=C2=
+=A0</em>market, which generates=C2=A0<em>some=C2=A0</em>price. You can look=
+ at that market and say =E2=80=9Cwell the market price is $X,=E2=80=9D and =
+then you could price your large trades off that benchmark market price. You=
+ could agree to sell someone 10 million pounds of chicken parts at some spr=
+ead to the <a href=3D"https://link.mail.bloombergbusiness.com/click/2783775=
+8.260614/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMD=
+ItMDEvd2FzLWNoaWNrZW4tbGlib3ItbWFuaXB1bGF0ZWQtdG9vP2NtcGlkPUJCRDA1MjUyMl9NT=
+05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJt=
+PTIyMDUyNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBa11cd5f=
+d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Georgia Dock index</a> of chicken prices, or give someone a =
+$1 billion loan at a 300-basis-point spread to <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/27837758.260614/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDEtMzEvbGlib3Itd2FzLW1hZGUtdXAtYW55d2F5P=
+2NtcGlkPUJCRDA1MjUyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1u=
+ZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDUyNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ce=
+ef4b8524a319a23cB6f69815c" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">  Libor</a>, or buy a cargo of oil from =
+someone at the Platts Los Angeles Bunker Benchmark plus $5 per ton.</li>=09=
+<li style=3D"margin-bottom: 5px;">Because the benchmark price comes from a =
+market that is relatively small, you can manipulate the benchmark price (by=
+ trading or quoting in that market), and it will cost you less than you=E2=
+=80=99ll make on your much larger trade that is benchmarked to that price.<=
+/li></ol><p style=3D"margin: 16px 0;">So, again from the CFTC:</p><blockquo=
+te><p style=3D"margin: 16px 0;">During the Relevant Period, Platts generall=
+y determined the benchmarks for a given day based primarily on bids to purc=
+hase, offers to sell, and trades in the relevant product during a defined p=
+eriod of time called the =E2=80=9Cwindow=E2=80=9D that Platts-authorized ma=
+rket participants reported to Platts, and which Platts then widely reported=
+ to subscribers. ...</p><p style=3D"margin: 16px 0;">Glencore=E2=80=99s phy=
+sical trading activities included, among other things, large-quantity trade=
+s, sometimes called =E2=80=9Ccargos,=E2=80=9D of fuel oil. =E2=80=A6 Among =
+the cargo trades engaged in by Glencore were numerous cargo trades with a M=
+exico-based SOE (the =E2=80=9CCargo Trades=E2=80=9D), including those for d=
+elivery to and from the Los Angeles market. ...</p><p style=3D"margin: 16px=
+ 0;">During the Relevant Period, more than approximately 100 Cargo Trades w=
+ith the SOE were priced by reference to the Platts Los Angeles Bunker Bench=
+mark. The price of the Cargo Trades was determined by the average of the da=
+ily benchmark price on specified days (=E2=80=9CCargo Pricing Days=E2=80=9D=
+), plus or minus a specified dollar amount negotiated by the parties. ... O=
+n Cargo Pricing Days, Glencore=E2=80=99s trading positions generally had si=
+gnificant price exposure to the Los Angeles Bunker Benchmark. When the Carg=
+o Trades were sales by Glencore to the SOE, Glencore=E2=80=99s Cargo Trade =
+position would be more profitable if the average Los Angeles Bunker Benchma=
+rk on the Cargo Pricing Days was higher: if the Los Angeles Bunker Benchmar=
+k rose, Glencore would sell to the SOE at a higher price. Conversely, when =
+the Cargo Trades were purchases by Glencore from the SOE, Glencore=E2=80=99=
+s Cargo Trade positions would be more profitable if the average Los Angeles=
+ Bunker Benchmark on the Cargo Pricing Days was lower: if the Los Angeles B=
+unker Benchmark fell, Glencore would buy from the SOE at a lower price. =E2=
+=80=A6</p><p style=3D"margin: 16px 0;">During the Relevant Period, on hundr=
+eds of occasions, Glencore manipulated or attempted to manipulate the Los A=
+ngeles Bunker Benchmark ... in order to increase Glencore=E2=80=99s profits=
+ (or reduce losses) from its derivatives and physical trades that priced by=
+ reference to the benchmark. Such trading conduct was a regular practice at=
+ Glencore, and supervisors were aware of and at times directly involved in =
+the conduct. ... Typically, in furtherance of the manipulation, Glencore su=
+bmitted generally increasing bids or generally decreasing offers to Platts =
+during the trading window, which Platts then reported to its subscribers. I=
+n addition, Glencore personnel at times conveyed misleadingly incomplete, =
+=E2=80=9Ccherrypicked,=E2=80=9D or inaccurate information to Platts outside=
+ the window, such as information regarding Glencore personnel=E2=80=99s pur=
+ported views of the market conditions or of supply and demand, knowing that=
+ such information could and did influence Platts=E2=80=99s assessment.=C2=
+=A0</p></blockquote><p style=3D"margin: 16px 0;">If you have agreed to sell=
+ 40,000 metric tons of fuel oil at a spread to the Platts benchmark, and yo=
+u can push up the benchmark by submitting high bids during the trading wind=
+ow and maybe buying a few thousand tons of oil at inflated prices, that=E2=
+=80=99s a good trade: You lose money on your window trades by paying inflat=
+ed prices, but you make money on your cargo trade by receiving the inflated=
+ price, and as long as your cargo trades are bigger than the window trades =
+=E2=80=94=C2=A0as long as the =E2=80=9Coff-exchange=E2=80=9D market is bigg=
+er than the =E2=80=9Con-exchange=E2=80=9D one =E2=80=94=C2=A0you make a pro=
+fit overall.</p><table class=3D"liveintent-flex-ad" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNzgzNzc1OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgwOTgzNzImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHc72ea72a" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D27837758&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28098372&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">NFT Stuff</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Well <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/27837758.260614/aHR0cHM6Ly93d3cuYnV6emZlZWRuZXdzLmN=
+vbS9hcnRpY2xlL3NhcmFoZW1lcnNvbi9zZXRoLWdyZWVuLWJvcmVkLWFwZS1zdG9sZW4tdHYtc2=
+hvdw/607f07ceef4b8524a319a23cBdc1f0167" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">this is pretty stupid</a>:<=
+/p><blockquote><p style=3D"margin: 16px 0;">On Saturday, [actor Seth] Green=
+ teased a trailer for White Horse Tavern at the NFT conference VeeCon. A tw=
+ee comedy, the show seems to be based on the question, =E2=80=9CWhat if you=
+r friendly neighborhood bartender was Bored Ape Yacht Club #8398?=E2=80=9D =
+In an interview with entrepreneur and crypto hype man Gary Vaynerchuk, Gree=
+n said he wanted to imagine a universe where =E2=80=9Cit doesn't matter wha=
+t you look like, what only matters is your attitude.=E2=80=9D</p><p style=
+=3D"margin: 16px 0;">Unfortunately for Green, what also matters is copyrigh=
+t law. And when the actor=E2=80=99s NFT collection was pilfered by a scamme=
+r in early May, he lost the commercial rights to his show=E2=80=99s cartoon=
+ protagonist, a scruffy Bored Ape named Fred Simian, whose likeness and usa=
+ge rights now belong to someone else.</p><p style=3D"margin: 16px 0;">=E2=
+=80=9CI bought that ape in July 2021, and have spent the last several month=
+s developing and exploiting the IP to make it into the star of this show,=
+=E2=80=9D Green told Vaynerchuk. =E2=80=9CThen days before =E2=80=94 his na=
+me is Fred by the way =E2=80=94 days before he=E2=80=99s set to make his wo=
+rld debut, he=E2=80=99s literally kidnapped.=E2=80=9D Green did not respond=
+ to a tweet from BuzzFeed News regarding the show.</p></blockquote><p style=
+=3D"margin: 16px 0;">What a stroke of luck! If someone hadn=E2=80=99t stole=
+n his ape he=E2=80=99d have to make the=C2=A0show. It would be funny if the=
+ <em>liability </em>to make the show went with the ape, like, if the anonym=
+ous teen or whoever who tricked Green into giving up his ape (or the <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/aHR0cHM6=
+Ly93d3cuYnV6emZlZWRuZXdzLmNvbS9hcnRpY2xlL3NhcmFoZW1lcnNvbi9zZXRoLWdyZWVuLWJ=
+vcmVkLWFwZS1vd25lcg/607f07ceef4b8524a319a23cB3538ff83" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">subsequent p=
+urchaser</a>) now=C2=A0has to write and star in the show. I would probably =
+watch that. No, no, just kidding, I would never watch a Bored Ape show for =
+any reason. Anyway I don=E2=80=99t think intellectual-property law works li=
+ke =E2=80=A6=C2=A0any of this =E2=80=A6=C2=A0but I also don=E2=80=99t care.=
+[3] If Seth Green wants to not make a Bored Ape comedy then that=E2=80=99s =
+fine, the system worked.</p><p style=3D"margin: 16px 0;">He could just make=
+ the show with <a href=3D"https://link.mail.bloombergbusiness.com/click/278=
+37758.260614/aHR0cHM6Ly90d2l0dGVyLmNvbS9nYWJyaWVscm90aC9zdGF0dXMvMTUyOTE3Nj=
+I5NzcxNjUxODkxMw/607f07ceef4b8524a319a23cB6390e82d" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">a slightly diff=
+erent drawing of an ape</a>? Like the person who supposedly stole his ape n=
+ow supposedly owns the intellectual-property rights connected to Bored Ape =
+Yacht Club #8398, but that person does not own the concept of =E2=80=9Ca ca=
+rtoon ape with an attitude.=E2=80=9D =E2=80=9CWhat if your friendly neighbo=
+rhood bartender was a member of the Blas=C3=A9 Bonobos Boat Club,=E2=80=9D =
+the show could ask, and the ape could hold his cigarette <em>like this=C2=
+=A0</em>instead of <em>like that</em>. No, I=E2=80=99m sorry, I will stop s=
+uggesting solutions, I don=E2=80=99t care, don=E2=80=99t make the show, eve=
+rything is fine.=C2=A0</p><p style=3D"margin: 16px 0;">I am going to start =
+a business that offers celebrities the following service:</p><ol style=3D"l=
+ist-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=
+=3D"margin-bottom: 5px;">I will sell you a Bored Ape.</li>=09<li style=3D"m=
+argin-bottom: 5px;">Then I will steal it.</li>=09<li style=3D"margin-bottom=
+: 5px;">Then you can go on talk shows and talk about how you had a=C2=A0Bor=
+ed Ape and it got stolen, which is the defining experience of modern celebr=
+ity.</li></ol><p style=3D"margin: 16px 0;">If you have not gone on a talk s=
+how to talk about your Bored Ape getting stolen, are you really a celebrity=
+? In today=E2=80=99s competitive attention economy, celebrities need a Bore=
+d Ape thief at least as much as they need an agent or a stylist or someone =
+to post on TikTok. Your Bored Ape thief plays a critical role in building y=
+our public image, and you want to hire the best possible Bored Ape thief. H=
+ere at Money Stuff Bespoke Bored Ape Thieves we have spent an industry-lead=
+ing five minutes thinking about this joke, and what other Bored Ape thieves=
+ can match that experience? Lots of them, probably.</p><p style=3D"margin: =
+16px 0;">If I manage the pipeline right I=E2=80=99ll only need one Bored Ap=
+e. Just keep selling it to a celebrity, stealing it back, selling it again.=
+ What amazing provenance that ape will have when I eventually sell it to so=
+meone for real. =E2=80=9CBuy the Bored Ape that Seth Green and Justin Biebe=
+r and Snoop Dogg and Donald Trump and Elon Musk all owned, briefly,=E2=80=
+=9D I will say, and some billionaire will pay me millions of dollars=C2=A0f=
+or it. Then I will steal it again because that will make it even funnier.=
+=C2=A0</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Russia to <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/27837758.260614/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9uZXdzL2FydGljbGVzLzIwMjItMDUtMjUvcnVzc2lhLXRvLXNlcnZpY2UtZG9sbGFyLWRlY=
+nQtaW4tcnVibGVzLWFmdGVyLXVzLWNsb3Nlcy1sb29waG9sZT9jbXBpZD1CQkQwNTI1MjJfTU9O=
+RVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0=
+yMjA1MjUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBc1f280b9"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> Service Debt in Rubles</a> After US Closes Loophole. One Man Help=
+ed <a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjItMDUtMjUvY3JlZG=
+l0LXN1aXNzZS1mb3JjZWQtYXdheS1mcm9tLXJ1c3NpYS10eWNvb24tYmlsbGlvbnMtb3Zlci13Y=
+XItc2FuY3Rpb25zP2NtcGlkPUJCRDA1MjUyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwm=
+dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDUyNSZ1dG1fY2FtcGFpZ249bW9uZXl=
+zdHVmZg/607f07ceef4b8524a319a23cB50c89f14" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Credit Suisse</a> Make =
+Billions From Russia Tycoons. Wendy=E2=80=99s Largest Shareholder Trian Exp=
+lores <a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260=
+614/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy93ZW5keXMtc2hhcmVzLWp1bXAtMTctb24=
+tcG90ZW50aWFsLWRlYWwtYnktdHJpYW4tZnVuZC1tYW5hZ2VtZW50LTExNjUzNDMwODQ1P21vZD=
+1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cB4819f1ab" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">Burger-Ch=
+ain Deal</a>. McDonald=E2=80=99s Poised to <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/27837758.260614/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2=
+xlcy9tY2RvbmFsZC1zLXBvaXNlZC10by1yZXRhaW4tYm90aC1zZWF0cy1pbi1wcm94eS1maWdod=
+C13aXRoLWNhcmwtaWNhaG4tMTE2NTM0MzQxNDE_bW9kPWl0cF93c2omcnU9eWFob28/607f07ce=
+ef4b8524a319a23cBacf70d9a" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">Retain Both Seats</a> in Proxy Fight Wit=
+h Carl Icahn.=C2=A0Main Street=E2=80=99s Most Prolific <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/27837758.260614/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDUtMjUvbWFpbi1zdHJlZXQtcy1tb3N0LXByb=
+2xpZmljLWNvcnBvcmF0ZS1hZ2l0YXRvci1maW5kcy1uZXctYmF0dGxlZmllbGQtaW4tZXNnP2Nt=
+cGlkPUJCRDA1MjUyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXd=
+zbGV0dGVyJnV0bV90ZXJtPTIyMDUyNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4=
+b8524a319a23cB886b971a" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> Corporate Agitator</a> Finds a New Battlef=
+ield In ESG. Asset managers divided by HSBC executive=E2=80=99s <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/27837758.260614/aHR0cHM6Ly93d=
+3cuZnQuY29tL2NvbnRlbnQvM2U3Y2Q0NTItNzdkOC00YzYxLWI0NGEtOTY4NThiY2QwNzY0/607=
+f07ceef4b8524a319a23cB03797c48" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">climate criticism</a>. Insurance Pr=
+oviders Rethink Their <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/27837758.260614/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9pbnN1cmFuY2UtcHJ=
+vdmlkZXJzLXJldGhpbmstdGhlaXItYXBwcm9hY2gtdG8tY3J5cHRvLTExNjUzNDcxMDAxP21vZD=
+1ocF9saXN0YV9wb3M0/607f07ceef4b8524a319a23cB9cfe1ecb" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">Approach to C=
+rypto</a>. =E2=80=9CBasically all of Bitcoin=E2=80=99s decline over the las=
+t month has come <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+7837758.260614/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjIt=
+MDUtMjQvbWF5YmUtdGhlLXN0b2NrLW1hcmtldC1pcy10by1mYXVsdC1mb3ItYml0Y29pbi1zLXJ=
+lY2VudC1kb2xkcnVtcz9jbXBpZD1CQkQwNTI1MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYW=
+lsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA1MjUmdXRtX2NhbXBhaWduPW1vb=
+mV5c3R1ZmY/607f07ceef4b8524a319a23cB8825a074" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> when US markets have=
+ been open</a>.=E2=80=9D=C2=A0Andreessen Horowitz bets on <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/27837758.260614/aHR0cHM6Ly93d3cuZnQ=
+uY29tL2NvbnRlbnQvNDdiMDUwODAtNjdhYy00NDY4LWI1MzAtNzYzMjVkNmFiYTM1/607f07cee=
+f4b8524a319a23cB4cb12b10" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">crypto =E2=80=98golden age=E2=80=99</a> w=
+ith new $4.5bn fund.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/27837758.260614/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMmUyOGZiNDItZGU=
+4YS00MGQ3LTg3MTYtODhjYjVmZWJlMDA2/607f07ceef4b8524a319a23cB13ec157c" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">Quant hedge funds</a> reap windfall during 2022 market ructions. Hedge Fu=
+nds Brace for <a href=3D"https://link.mail.bloombergbusiness.com/click/2783=
+7758.260614/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDU=
+tMjUvaGVkZ2UtZnVuZHMtYnJhY2UtZm9yLTIwLWJpbGxpb24tb2YtcmVkZW1wdGlvbnMtY2l0Y2=
+8tc2F5cz9jbXBpZD1CQkQwNTI1MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb=
+3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA1MjUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/=
+607f07ceef4b8524a319a23cBabdf779e" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> $20 Billion of Redemptions</a>,=
+ Citco Says. BofA and Citi suspend equity trading with Segantii Capital on =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/aH=
+R0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMWFjOWRkMDYtZDdlMC00NWUxLTgwNGItYWNhYTc0M=
+2VlZTM2/607f07ceef4b8524a319a23cB1098539f" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">block trade concerns</a>=
+. Todd Boehly=E2=80=99s Takeover of <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/27837758.260614/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90b=
+2RkLWJvZWhseXMtdGFrZW92ZXItb2YtY2hlbHNlYS1zb2NjZXItY2x1Yi1hcHByb3ZlZC1ieS11=
+LWstZ292ZXJubWVudC0xMTY1MzQ3MzQ3OD9tb2Q9aHBfbGlzdGFfcG9zMg/607f07ceef4b8524=
+a319a23cB8b3d818d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">Chelsea Soccer Club</a> Approved by U.K. Governm=
+ent. Skydiving <a href=3D"https://link.mail.bloombergbusiness.com/click/278=
+37758.260614/aHR0cHM6Ly9uZXdzLmJlcmtlbGV5LmVkdS8yMDIyLzA1LzIzL3NreWRpdmluZy=
+1zYWxhbWFuZGVycy1saXZlLWluLXdvcmxkcy10YWxsZXN0LXRyZWVzLw/607f07ceef4b8524a3=
+19a23cBbf587032" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">salamanders</a> live in world=E2=80=99s tallest tr=
+ees.=C2=A0</p><p style=3D"margin: 16px 0;"><span class=3D"news-designed-for=
+-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in han=
+dy email form, right in your inbox, please=C2=A0<a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/27837758.260614/aHR0cDovL2xpbmsubWFpbC5ibG9vb=
+WJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAw=
+MWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB970918c1" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">subscribe at this link</a>. Or you can subsc=
+ribe to Money Stuff and other great Bloomberg newsletters <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/27837758.260614/aHR0cHM6Ly9sb2dpbi5=
+ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBab53bb82" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">here</a>. Thanks=
+!</em></span></p><p style=3D"margin: 16px 0;"><em>[1] This is the general r=
+ule, but not *always* true. Occasionally a company will file for bankruptcy=
+ when it is not in particularly bad shape, and it will turn out during bank=
+ruptcy proceedings that in fact the company is worth more than the debt, so=
+ the old shareholders will get shares in the new company. This famously <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMTIvdGhlLWhl=
+cnR6LWdhbWJsZXJzLXdlcmUtcmlnaHQ_Y21waWQ9QkJEMDUyNTIyX01PTkVZU1RVRkYmdXRtX21=
+lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNTI1JnV0bV9jYW=
+1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBbe21ea95" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> happened=
+ with Hertz Global Holdings Inc.</a>, which filed for bankruptcy during a p=
+andemic but exited bankruptcy during a boom in used-car prices, leaving its=
+ shareholders with continuing ownership in the company.</em></p><p style=3D=
+"margin: 16px 0;"><em>[2] There are some important exceptions to this, gene=
+rally with the goal of promoting confidence in financial markets =E2=80=94=
+=C2=A0you don=E2=80=99t want people to be nervous trading with banks that m=
+ight become insolvent, etc.</em></p><p style=3D"margin: 16px 0;"><em>[3] If=
+ you do, here=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/27837758.260614/aHR0cHM6Ly90d2l0dGVyLmNvbS9ncmltbWVsbS9zdGF0dXMvMTUyO=
+TQ2MjAyOTQxNjkwMjY1OA/607f07ceef4b8524a319a23cB3f1e62f2" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">a Twitter =
+thread from James Grimmelmann</a>=C2=A0walking through the legal issues.</e=
+m></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBb816ea71" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB9e96bd58" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB90789559" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB82909fe8" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNzgzNzc1OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgwOTgzNzImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI4795792c" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D27837758&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28098372&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB6e6191bb" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/27837758.260614/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC746ebd9e" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27837758.260614/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB77767135" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/27837758.260614/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBfc608ee9" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB1=
+dd4100c" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27837758.260614/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB0=
+c952424" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D278377=
+58&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28098372&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D278377=
+58&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28098372&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D278377=
+58&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28098372&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D278377=
+58&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28098372&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D278377=
+58&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28098372&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgknr2.5l3a/b1668563.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_9679642_973717952.1653502433291--
+

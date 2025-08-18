@@ -1,0 +1,1589 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:5c7:b029:fa:486f:dd6a with SMTP id r7csp670038lkr;
+        Thu, 17 Jun 2021 10:02:38 -0700 (PDT)
+X-Received: by 2002:a17:907:c87:: with SMTP id gi7mr6224990ejc.452.1623949358534;
+        Thu, 17 Jun 2021 10:02:38 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1623949358; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=e2UxCmu9GAgwt06AN2lZjxF4sU0iD58fA6Jv0mzq/WzTR2e6CbJ8DLRKngIBfZ5WnO
+         ygPSUflsoMfhWa4CMl6HbkTPn+Y3B9V78zO+FW+c4hSEh1LgxapCznyCIHcyItKuPqhz
+         +po8ip534xG5yX3F/nmryDQjgavwP9l6iZz/IHrtrY4WpZmun5rpAo0eScG3zkSJ7aw3
+         aiNMJy6gMviATzxD9DMShQRC3POUt3twdyxs9797WzzU3cpiGi3AjBp2hSEmqiXrbMO8
+         COxRm9RCqS3bY+hlxO7fjI/D6aFsGGz1C4zo+z8juUYP6bVPsc7DnFEg9p2Nx7HicHwm
+         duag==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=YdOvBu0hoItdOAE5CVImCQlC5mrBc2cItqVGplJqnBA=;
+        b=Qh/H/eTF2c6NEYgW/lfALrf6C9WwkHxPuvb+TLHOfYdXoZWvIs71HQZbugx3X5DWTm
+         BE0NksKLO79xgRYUxPRsFeafr1yqm3mjPiypwioPdsowm7ep5+wfAqqbW0fzl4Wz+GhS
+         hnahpqMDSDKvKsANQrT4TeZOSA7y+IMwgWZ9cRR3S6iK3Qkr6m5a3tI8GE6I74G1a/VX
+         k8BpbQGy4bgr+fzj0cFlrq+/BCE0X4kMlU6CLS4dUIq4NPl2NL1ZuO0ItGfNfaYpS2Cp
+         XbGn5KgGKR8v41dAVSHJKglaDJzZtSTqUbNq4T52cTRiUBXYnG0SwTjiqoOCTK7JQ6C+
+         4dAA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=OD+2hMXc;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 9sor3729662ejy.27.2021.06.17.10.02.38
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 17 Jun 2021 10:02:38 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=OD+2hMXc;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=YdOvBu0hoItdOAE5CVImCQlC5mrBc2cItqVGplJqnBA=;
+        b=oJqh40ukPAWghoAX781WBjIjfLplSe8P+ZmvDs3UiX+ZzBRdshkONgiakT2fCxkDBO
+         41yruTfT//ezXRsSTyZWN0nBhcvUIFA6+KQL1QKIrUk6j1K6WuEUta7J9gQNO8CQ9Yb9
+         j4KnP4GsoiMs2Q0o7580+zlhtX25ayso+FDNuJpiYnCVs3ecDvQrQ9TcV2dow3fsQuM/
+         R02/O0DYBgo5ZQfcFxj0SA3Pdb/PRfUWbJ4AcuSFxov7NrBjEHZNTF6djIAQBpyeeebD
+         Mw3cT6e0dTt77MxOQwudy3lCHe/GNTgEWpw4NHkIZMAE/WSuNpmXqOuipRTniuOvwXq9
+         D54Q==
+X-Gm-Message-State: AOAM530jHSUFsR+auCeryoyaTQxamdCKs2Jr6AVle1Q+AOcr/EM97jPz
+	INUGQNdZiP6qT4rMT2dzUnlreO/ONk4TNgeJ+11+UEi4R3M7SIC9XLle
+X-Received: by 2002:a17:906:2a8e:: with SMTP id l14mr6209878eje.549.1623949358319;
+        Thu, 17 Jun 2021 10:02:38 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:ab4:9248:0:0:0:0:0 with SMTP id g8csp587414ecz;
+        Thu, 17 Jun 2021 10:02:36 -0700 (PDT)
+X-Received: by 2002:a5d:47c3:: with SMTP id o3mr7154218wrc.122.1623949355875;
+        Thu, 17 Jun 2021 10:02:35 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1623949355; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=LktJHl/jJCoX1C0c+mGnjHiZTFtZbENkPNEsIeOVeelrPgrg3+ccDlpZAvp/Yzm7SU
+         rTK/x3GWzDIZiNnh1tzTc3yfHMFienYkwhEymb4fvkl58jO+cT51fhWIAAaURgJhmlcA
+         xrpL2WqhHJ54lpzJk/XYmqPtTDFg7eHQoMaCtoSgqkLzVIEZzMmOBw0//3uZeBXjnEf9
+         csSnGSIinnO3d2Hkm7WgQW1dJ1dUWvnk6JjfsKASqTGJdbYme9cUeOZy+c/dsuS+5dZc
+         54f53N2U06ldBepYT/CxBfo0475Yepc2TFGf28PlDEx0Na+2RPjE+ec4n64Ddjk0OM7B
+         OvKg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=YdOvBu0hoItdOAE5CVImCQlC5mrBc2cItqVGplJqnBA=;
+        b=0+wE5xxOPrmzCPHbWLyi36mH4hOkyAO+gKD+wliC1yE9v1L0mtByYNMLlKj4/csOpS
+         JVs7fN5lTx5If7+BfkB1RpUxmavi8nynVMNI77sEMC3jjL+4Y+P6I9v5x8fOg1zsfe3y
+         LGJKgxgguc3EQzLtbDwm+vKYi9MyF59+PUuhVr5f6db+5qUb0IDNyOha+AspFYNFqJxm
+         z4PKi7ST4dautDmIBGk7MX5UXAv0tz4mZvKlwPD97Rhyhahgw8Er3VSWXBHSFQwflUUl
+         vxRhNvSPAN7spSRQaaspobWQMR6BHJF3+5EefpkUtpOLosRK3QR+fgcWY6j9/QgzgXLm
+         /F7w==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=OD+2hMXc;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210617130210.24178706.269431@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210617130210.24178706.269431@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210617130210.24178706.269431@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id n7sor3150311wri.30.2021.06.17.10.02.35
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 17 Jun 2021 10:02:35 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210617130210.24178706.269431@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJwLDX7LxR8/7fAHQ1iG06LyxzxBu1DqaWHHCoAfxGSFiFPLMqV9VVFnVsc5mn4J3G5Cvn5gWaQKwk1EnjQJnqTjd+NCyX4=
+X-Received: by 2002:adf:ec43:: with SMTP id w3mr6873756wrn.270.1623949355440;
+        Thu, 17 Jun 2021 10:02:35 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1623949355; cv=none;
+        d=google.com; s=arc-20160816;
+        b=X1lYDxiczc5tNp2arGJpvJvxiFSbP1vpFchlx/fUk/C+rKammZ1yvHRkH4FXjwXcMY
+         2B85QeNpnpGxRJXo788a50yah/nyYvNT/m+hb3Q856JqTuDcO8y5FxVqF8cc6vlhnwum
+         NMvl49f+9zcZCb5hCVXtwoGyRVXcDW+QeSzefuCW9ibTulRikrjIMf6CU+inqMboI1Sz
+         StgXhuTecnBVbHN8jmacty56a6vNxSEWXgZ6aWu0SU1WAUUw+JH0XHWxkIFx91N7dJIB
+         N70qN7OMINSi3kgSDiHyBc36C9pA4faoHSPOrTq4c13YlR2+gNNj4mODXxL+iK+Db5+P
+         8CPA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=YdOvBu0hoItdOAE5CVImCQlC5mrBc2cItqVGplJqnBA=;
+        b=lpHiDYLGI0t9g6jNbJxDxj4blJHH5wUVke6GOso26fxkn17OG5K6FTpVDHsGzhYG0w
+         hbFUak7/PihffVZitYL2JNSEIBVkHvS/mVN02hk7IVlksoiMpIC9ESNiesOw3KZXLl5L
+         2dNeRM1wml+QZIyIfUO/hUnL5QoJLFqq4K61qtKGWaMpn39QMZvW1THr/Fu9u2q53e96
+         svyMs1F7lCiHfG+Y+MIOvGaDaHe/I+45jfnvy38DeFr8k8kyub5rwrjKaMi5LvVqNMNf
+         HNjkFxyvT3vnd9tNQVOd22Fkgl2DirVZNw6141hgmuAWgAU52eLvcSQWVkVc1Gu4VsFb
+         PkZA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=OD+2hMXc;
+       spf=pass (google.com: domain of delivery_20210617130210.24178706.269431@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210617130210.24178706.269431@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210617130210.24178706.269431@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id k18si507976wmj.0.2021.06.17.10.02.34
+        for <khamel83@gmail.com>;
+        Thu, 17 Jun 2021 10:02:35 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210617130210.24178706.269431@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=XCJpU50wIZMBLKc7JUgAZaSvKj0=;
+ b=OD+2hMXc/Q4e/blV7FryV6zlObctWwWi3PLPxF2pmy5R4+hlpzM/rJhruVr2FH+mEvu9quFpdD7D
+   YscnUguaS4YVaK6dhlokVg8bX/qq7ZXibdyvnWzc1zw/mNHwSph2CJGoIXT7FD69NqdRH+kS2cG0
+   Sn15O9/jyUg4E5AYStk=
+Received: from njmta-20.sailthru.com (173.228.155.20) by bloomberg-b.sailthru.com id hpe02m1qqbs4 for <bloomberg@khamel.com>; Thu, 17 Jun 2021 13:02:34 -0400 (envelope-from <delivery_20210617130210.24178706.269431@mx.sailthru.com>)
+Received: from nj1-wetcopper.flt (172.18.20.36) by njmta-20.sailthru.com id hpe02k1qqbs6 for <bloomberg@khamel.com>; Thu, 17 Jun 2021 13:02:10 -0400 (envelope-from <delivery_20210617130210.24178706.269431@mx.sailthru.com>)
+Date: Thu, 17 Jun 2021 13:02:10 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210617130210.24178706.269431@sailthru.com>
+Subject: Money Stuff: Titanium Got Crushed
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8858667_389267873.1623949330176"
+Precedence: bulk
+X-Feedback-ID: 6358:24178706:campaign:sailthru
+X-TM-ID: 20210617130210.24178706.269431
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wetcopper.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cee8eq.5rw7/a4b899b5
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cee8eq.5rw7/a4b899b5>, <mailto:unsubscribe_20210617130210.24178706.269431@mx.sailthru.com>
+X-rpcampaign: stjko24178706
+
+------=_Part_8858667_389267873.1623949330176
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+       =20
+           =20
+               =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.=E2=80=9CTitanium=E2=80=9DHere=E2=80=99s a theory. You run a bank, and a =
+smallish public company comes to you and asks you to lend it, say, $500 mil=
+lion. You say =E2=80=9Cokay I will need to know more about your revenue and=
+ expenses and assets,=E2=80=9D and the company says =E2=80=9Cno no no never=
+ mind that. Here=E2=80=99s the thing. We have publicly traded stock. We can=
+ always issue more of it. Sure the price might go down but then we=E2=80=99=
+ll just issue more and more stock; we can always issue=C2=A0any dollar amou=
+nt of stock that we want.[1] Right now our market cap is $1 billion and we =
+have 100 million shares outstanding at $10 each, but even if the price fall=
+s=C2=A0we could issue five billion more shares at $0.10 each, or five trill=
+ion more shares at $0.0001 each, or whatever. So we can always raise $500 m=
+illion to pay you back; our stock might go down, but a dollar loaned=C2=A0t=
+o us will always be worth a dollar. So we are absolutely money-good for $50=
+0 million and you should lend it to us at the risk-free rate without inquir=
+ing into our collateral or cash flows.=E2=80=9DIs this argument appealing? =
+It is wrong, but is it interestingly wrong? Do you read it and say =E2=80=
+=9Coh huh sounds like they have a point there, what am I missing,=E2=80=9D =
+or do you read it and say =E2=80=9Ccome on that is absurd=E2=80=9D? I don=
+=E2=80=99t know how you will experience it. I find it somewhat appealing at=
+ an abstract level, though, again,=C2=A0wrong. Also to be fair there are so=
+me companies that sometimes =E2=80=A6=C2=A0sort of =E2=80=A6=C2=A0try this?=
+ And not with=C2=A0zero=C2=A0success, I mean.[2]=C2=A0Why is it wrong? Well=
+ I mean the simplest problem is that there is no actual guarantee that a co=
+mpany can issue an infinite number of shares at a positive price.=C2=A0Let=
+=E2=80=99s say the company has a net value of $1 billion today, and then it=
+ borrows $500 million, and then its factory burns down and its CEO steals t=
+he $500 million and it is just a worthless empty shell that owes the bank $=
+500 million. It can go out to shareholders and say =E2=80=9Chey we need $50=
+0 million to get back to zero, would you like to buy 50 million shares at $=
+10 each,=E2=80=9D and they will say no, and it will say =E2=80=9Cwhat about=
+ 50 billion shares at $0.01 each,=E2=80=9D and they will also say no, and e=
+ventually it might find some punters on Reddit who will buy some shares at =
+like $0.0001 each =E2=80=94=C2=A0you can find some=C2=A0people to buy anyth=
+ing =E2=80=94=C2=A0but not=C2=A0enough=C2=A0of them. If the present value o=
+f the company=E2=80=99s future cash flows is negative, its stock will be wo=
+rth zero, and almost nobody will pay anything for it.[3]Also,=C2=A0if a com=
+pany actually tries this =E2=80=94=C2=A0if it keeps issuing more and more s=
+tock at lower and lower prices to pay off some fixed amount of money =E2=80=
+=94=C2=A0people=E2=80=99s enthusiasm for the stock will evaporate quickly. =
+Nobody wants to keep buying stock as it keeps going down. The technical nam=
+e for this form of financing=C2=A0is =E2=80=9Cdeath-spiral financing.=E2=80=
+=9DStill there is in a loose sense some truth to the argument. If people su=
+stainably want to buy a company=E2=80=99s stock, then that does make its cr=
+edit better, because it really can=C2=A0sell stock to pay off its debt. Of =
+course if things change =E2=80=94=C2=A0the factory burns down, it stops mak=
+ing money, etc. =E2=80=94=C2=A0they might not want to buy the stock anymore=
+. But if you have some thesis like =E2=80=9Cpeople will always want to buy =
+this company=E2=80=99s stock even if it runs into a disaster in its busines=
+s,=E2=80=9D then you should be more willing to lend it money and expect to =
+be paid back at par. I used to call this =E2=80=9CNetflix Theory,=E2=80=9D =
+and you would probably have to take something like this into account in dec=
+iding whether to lend money to, say,  AMC Entertainment Holdings Inc.=C2=A0=
+these days. Even if AMC=E2=80=99s business does poorly, if it can keep issu=
+ing stock to willing buyers then it is not going to run into any real finan=
+cial problems. There is no guarantee of that, but if it is true it might be=
+ true for meme reasons rather than cash-flow reasons. =E2=80=9CPeople will =
+buy our stock because they will buy our stock, so we can always pay back ou=
+r debts=E2=80=9D might be more or less true even though it doesn=E2=80=99t =
+make much sense.The next step is to separate this theory entirely from cash=
+ flows, companies, etc. Just like: =E2=80=9CWe have issued shares of nothin=
+g, and as long as people continue to buy those shares of nothing at some po=
+sitive price, our debt will always be money-good.=E2=80=9D=C2=A0The way an =
+algorithmic stablecoin works is that somebody creates two cryptocurrency=C2=
+=A0tokens, let=E2=80=99s call them Dollarcoin and Sharecoin. And they write=
+ a white paper that says =E2=80=9CDollarcoins=C2=A0will always be worth $1,=
+ and if they are ever worth less than $1 we will print some Sharecoins=C2=
+=A0and sell them to buy Dollarcoins until the price of Dollarcoins=C2=A0goe=
+s back to=C2=A0$1, and we can always print an arbitrary number of Sharecoin=
+s and sell them for a positive amount of money and use the money to buy Dol=
+larcoins, so Dollarcoins will always be worth a dollar.=E2=80=9D There is g=
+enerally a great deal more hand-waving involved than that,[4] but that=E2=
+=80=99s the economic heart of it.=C2=A0Is this argument appealing? It is wr=
+ong, but is it interestingly wrong?Anyway lol:Iron Titanium token (TITAN), =
+the share token of a one-time multibillion-dollar decentralized finance (De=
+Fi) protocol, has fallen to near zero.The token was last seen changing hand=
+s for around $0.000000035, down from Wednesday=E2=80=99s high of $65. The f=
+allout, which has been swift, has brought the project to its knees. ...The =
+project was attempting to boot a partially collateralized stablecoin known =
+as IRON. The stablecoin, in turn, consists of Circle and Coinbase=E2=80=99s=
+ stablecoin USDC (-0.08%) as well as TITAN and was pegged to $1. Stablecoin=
+s are cryptocurrencies whose value is attached to financial assets such as =
+commodities or government-issued currency in a bid to keep them =E2=80=9Cst=
+able.=E2=80=9DIn the case of IRON, which receives its collateral backing fr=
+om TITAN, users may mint new stablecoins through a mechanism on Iron Financ=
+e=E2=80=99s network by locking up 25% in TITAN and 75% in USDC.Due to how t=
+he tokenomics of this particular DeFi project functions, when new IRON stab=
+lecoins are minted, the demand for TITAN increases, driving up its price. C=
+onversely, when the price of TITAN falls dramatically, as was the case on W=
+ednesday evening, the peg becomes unstable.=E2=80=9CTITAN=E2=80=99s price w=
+ent to $65 and then pulled back to $60. This caused whales to start selling=
+,=E2=80=9D Fred Schebesta, founder of Finder.com.au and Iron Finance invest=
+or, told CoinDesk via Telegram. =E2=80=9CThat then led to a big de-pegging =
+of [IRON]=E2=80=9DAs whales (large bag holders) began to offload their TITA=
+N tokens, they flooded the market with excess tokens, causing a bank run. A=
+ bank run refers to a situation when a large portion of users attempt to wi=
+thdraw their money at the same time believing the bank, or in this case, th=
+e protocol, will cease to exist.In turn, as TITAN began to fall in dramatic=
+ fashion so did the pegged value of IRON. As whale dumps further decreased =
+the value of IRON, it triggered the stablecoin=E2=80=99s mechanism that min=
+ts TITAN and removes liquidity in a bid to stabilize IRON to $1.This caused=
+ an arbitrage opportunity in the difference in price of IRON and TITAN, whi=
+ch in turn flooded the market with even more TITAN tokens adding additional=
+ sell pressure and destabilizing IRON=E2=80=99s price even further.=E2=80=
+=9CIt was a crypto vortex of money,=E2=80=9D said Schebesta.In the beginnin=
+g, users were receiving an incredible 2%-5% annual percentage rate per day.=
+ When the dust settled, TITAN was near zero and IRON was last seen trading =
+way off peg, around $0.69.If the price of IRON goes down from $1 (good) to =
+$0.95 (bad), you just issue some TITAN (worth $65) to buy some IRON until i=
+t=E2=80=99s worth $1 again. And if=C2=A0IRON keeps going down, you just iss=
+ue some more TITAN (worth $60) and buy more. And if IRON keeps going down =
+=E2=80=A6=C2=A0[you can fill in some more iterations here] =E2=80=A6=C2=A0y=
+ou just keep issuing TITAN (worth $0.000000035) and at that point you=E2=80=
+=99re not accomplishing much. If you could sell 286 trillion TITAN at=C2=A0=
+$0.000000035 each you=E2=80=99d raise $10=C2=A0million. That=E2=80=99s prob=
+ably hard. There are 285 million IRON (formerly worth $1) outstanding.=C2=
+=A0I am oversimplifying the IRON mechanism =E2=80=94=C2=A0really it=E2=80=
+=99s partially algorithmic and partially collateralized by USDC, which is i=
+n turn a collateralized stablecoin; you can read more about its creation an=
+d redemption mechanics here =E2=80=94 but not, I think, in an essential way=
+. The core of an algorithmic stablecoin is that you have some=C2=A0other=C2=
+=A0token that is not meant to be=C2=A0stable, but that is meant to support =
+the stablecoin by being arbitrarily=C2=A0issuable. It doesn=E2=80=99t matte=
+r if Titanium is worth $65 or $0.65, as long as you can always issue a few =
+million dollars=E2=80=99 worth of it. But you can=E2=80=99t, not always, an=
+d that does matter.Anyway go to the IRON website and Medium page quick, bef=
+ore they take down all these boasts about=C2=A0how stable it is:Market shoc=
+ks provide the best stress tests for stablecoin pegs, and IRON=E2=80=99s st=
+rong peg retention should go a long way to grow trust in our community. IRO=
+N has shown itself to be a shock-proof stablecoin, and the stabilizing prot=
+ocol is now battle-hardened.Shock-proof! Battle-hardened! Also here=E2=80=
+=99s a Medium post titled =E2=80=9CTITAN and STEEL Emerge As Bear-Proof Ass=
+ets,=E2=80=9D oops oops oops:Over the past few weeks, as market conditions =
+worsened for crypto as a whole, TITAN and STEEL have stood out as gems. Whi=
+le the rest of the market fell, with BTC declining around 50% from its rece=
+nt highs, TITAN and STEEL have both risen 1,000% in value in a relatively s=
+hort period of time. These price movements make TITAN and STEEL two of the =
+best performing bear-proof assets in the entire crypto market.Oh well.Also =
+apparently Mark Cuban lost money on this thing and  now thinks he should no=
+t have been allowed to do that.Bill Ackman Pornhub activismHere=E2=80=99s a=
+ strange little story about how Bill Ackman read a New York Times article a=
+bout Pornhub, thought it was bad, and texted and tweeted that the big credi=
+t-card companies should stop working with Pornhub. And then they did. Is th=
+is=C2=A0because=C2=A0Ackman texted them? Nobody quite says that, but nobody=
+ quite denies it either, and I suppose it=E2=80=99s not really in anyone=E2=
+=80=99s interest to deny it. One activist who spent lots of time trying to =
+engage the credit-card companies, Leila Mickelwait,=C2=A0does give Ackman c=
+redit:=E2=80=9CHe=E2=80=99s an unlikely advocate that you wouldn=E2=80=99t =
+normally think of using his platform to push for that change, but I mean, l=
+ook what that did,=E2=80=9D she says. =E2=80=9CBill pulled the leverage of =
+the Mastercard relationship, and he called out Visa and Discover. And then,=
+ suddenly, there=E2=80=99s reaction from the card companies, and Pornhub de=
+leted 80 percent of their website.=E2=80=9DMickelwait adds, =E2=80=9CIt jus=
+t shows the power of finance, of financial pressure. It wasn=E2=80=99t unti=
+l Bill really laid on the pressure and said, =E2=80=98Do the right thing,=
+=E2=80=99 that they did.=E2=80=9DSo good=C2=A0job, Bill Ackman, or whatever=
+.Bill Ackman does a lot of shareholder activism at his day job, and has mad=
+e a lot of money=C2=A0from it, but this one was on the house.=C2=A0He did t=
+his activism for free,=C2=A0without expecting any profit. He doesn=E2=80=99=
+t even own the stocks:An influential shareholder activist, Ackman immediate=
+ly thought about the growing interest in ethical, or ESG, investing.And tha=
+t=E2=80=99s where the billionaire hedge fund titan =E2=80=94 who has unseat=
+ed several corporate CEOs in his career =E2=80=94 saw an opening. In this c=
+ase, he wasn=E2=80=99t an investor in any of the publicly traded companies =
+that he knew were profiting from Pornhub=E2=80=99s content, which is often =
+uploaded from users the same way individuals post videos on YouTube. =E2=80=
+=A6=E2=80=9CIt=E2=80=99s shareholder money that fuels this activity,=E2=80=
+=9D says Ackman. He points out that while the environmental and governance =
+efforts of ESG =E2=80=94 or environmental, social, and governance investing=
+ =E2=80=94 get a lot of attention, the =E2=80=9CS=E2=80=9D part =E2=80=9Cha=
+s come in third.=E2=80=9DHe notes, =E2=80=9CLots of companies say that they=
+=E2=80=99re really great with ESG issues, but they=E2=80=99ve got to look a=
+ little deeper.=E2=80=9D=C2=A0One thing that I want to point out is that, i=
+f you were the chief executive officer of a public company and wanted=C2=A0=
+to rank the people with the power to influence your environmental, social a=
+nd governance policies, a partial ranking, in ascending order of importance=
+, might go something like this:5. A social activist like Leila Mickelwait, =
+a person who cares about environmental or social=C2=A0issues and writes and=
+ talks about them.4. A shareholder-proposal=C2=A0activist, a person who buy=
+s 100 shares of your stock and submits a nonbinding shareholder proposal as=
+king you to write a report about the issue.3. Your biggest shareholders, if=
+ they are=C2=A0index-y investors like BlackRock Inc. who talk a lot about E=
+SG stuff.2. Your medium-sized institutional shareholders, if they are activ=
+e investors who might dump your stock if they don=E2=80=99t like what you=
+=E2=80=99re up to.1. A famous activist investor who=C2=A0doesn=E2=80=99t ow=
+n any of your stock.If you are the chief executive officer of a public comp=
+any, Bill Ackman is more likely to get you fired than BlackRock is, even if=
+ BlackRock owns 7% of your stock and Bill Ackman owns zero. After all, if y=
+ou anger Bill Ackman, he might decide to=C2=A0buy=C2=A0stock and start a pr=
+oxy fight to fire you. If you anger=C2=A0BlackRock, it=E2=80=99s not=C2=A0g=
+oing to sell any stock and it isn=E2=80=99t going to start a proxy fight. O=
+f course if you anger BlackRock, Bill Ackman =E2=80=94=C2=A0or  Engine No. =
+1 =E2=80=94=C2=A0might start a proxy fight, and then BlackRock with its 7% =
+stake might support the proxy fight and you might end up fired. You have to=
+ keep your big shareholders happy as insurance against activists. But you c=
+an keep activists happy as insurance against activists too.Everyone vaguely=
+ knows about this in the context of financial performance and capital-struc=
+ture optimization, and so a few years ago you could read lots of stories ab=
+out how companies were buying back stock and spinning off non-core division=
+s and generally doing the things that activists would want=C2=A0even if the=
+re was no activist in their stock. The point was to avoid attracting the at=
+tention of activists by doing what they wanted anyway. You did not read qui=
+te those sorts of stories about ESG[5]: Polluting or being racist or whatev=
+er might be=C2=A0bad, they might attract negative attention from various st=
+akeholders=C2=A0(customers, employees, regulators, BlackRock), but they wer=
+e not conceived of as things that would attract negative attention=C2=A0fro=
+m activist hedge funds. Activist hedge funds were busy pushing for stock bu=
+ybacks.But then last month activist hedge fund Engine No.=C2=A01 LLC  did a=
+ proxy fight against Exxon Mobil Corp. that focused on environmental issues=
+, and won, and replaced  three members of Exxon=E2=80=99s board of director=
+s, and now the ESG activist space looks very different. Now ESG issues are =
+a wedge that activist hedge funds can use to persuade big institutional inv=
+estors and win proxy fights, and activist-hedge-fund-led proxy fights are a=
+ tool that institutional investors can use to enforce their ESG goals. So i=
+f you run a public company and Bill Ackman calls you about an ESG topic, yo=
+u listen.
+
+
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                               =20
+                               =20
+                               =20
+                           =20
+                       =20
+                       =20
+                           =20
+                               =20
+                                    Sponsored Content
+                                    Invest in world-changing startups on An=
+gelList
+
+
+AngelList is the leading platform for early-stage venture investing.=20
+Invest in experienced VCs that have backed Clubhouse, Notion, Pipe, and 77 =
+other unicorns. Adjust your investment size as your goals evolve.
+                                   =20
+AngelList
+                               =20
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+Par callThe way U.S. residential mortgages typically work is that you can b=
+orrow money at a fixed rate for 30 years and prepay at any time without pen=
+alty. In theory, you should prepay any time interest rates go down. You bor=
+row $100 at 4%, interest rates go down to 3.5%, you get a new loan at 3.5% =
+and pay off your old loan, saving yourself 0.5% per year.If people behaved =
+like this, then a mortgage could never=C2=A0really be worth more than 100 c=
+ents on the dollar. Usually if you have a 30-year bond with a $100 face amo=
+unt that pays 4% interest, and rates go down to 3.5%, the value of the bond=
+ will go up, to $105 or whatever. But if the issuer of that bond can costle=
+ssly refinance, it will, and you=E2=80=99ll just get back your $100 rather =
+than a series of cash flows worth $105.=C2=A0In practice most people do not=
+ constantly mark their mortgages to market; when rates go down, only some p=
+eople refinance. Others are not paying attention, or are busy, or their cre=
+dit has gotten worse so they can=E2=80=99t get the better rates, etc. So wh=
+en mortgage rates go down, the price of existing mortgages does go up =E2=
+=80=94=C2=A0not as much as a non-prepayable bond would, but still, up.This =
+feels a little inefficient? Like, in a perfect market, what you would do is=
+:=09Short a bunch of mortgages with above-market interest rates at, like, 1=
+10 cents on the dollar.=09Get the homeowners to refinance those mortgages, =
+paying them off at 100 cents on the dollar.=09Collect the 10 cents of diffe=
+rence.You can=E2=80=99t quite do that but here=E2=80=99s a fun trade:Mortga=
+ge companies have ramped up their purchases of government-backed mortgages =
+in forbearance, and they are selling these loans back to investors at a pro=
+fit. The trade is made possible by a policy meant to shrink the government=
+=E2=80=99s own burden for dealing with mortgages where the homeowner isn=E2=
+=80=99t paying.The so-called early buyout trade, an arcane but lucrative pa=
+rt of the mortgage business, is being employed by many mortgage companies, =
+including the three biggest: Rocket Cos., PennyMac Financial Services Inc.=
+=C2=A0and Wells Fargo & Co. That has added to what was already a banner str=
+etch for mortgage making, fueled over the past year by refinancings and pan=
+demic-inspired moves to the suburbs.Investors are eager to get their hands =
+on these loans. Many were made long ago and thus carry interest rates that =
+are higher than the going rate. Another appealing factor is that investors =
+believe many of these borrowers are unlikely to refinance in the near term.=
+ A refinancing hurts investors because it closes out one mortgage and thus =
+takes away their revenue stream.The idea is that some government-backed mor=
+tgages are made and serviced by banks and pooled into Ginnie Mae bonds. And=
+:Later, if that borrower stops making payments, Ginnie Mae rules allow the =
+mortgage servicer to buy it out of the pool after 90 days at face value. Th=
+at means the mortgage company pays an amount equal to the unpaid principal =
+balance and any interest due at the time.The mortgage company then works wi=
+th the borrower to get him or her current again=E2=80=94for example, by let=
+ting the homeowner make up the missed payments at the end of the loan.Once =
+the borrower has resumed payments, the mortgage company sells the loan back=
+ into a new pool that gets bought by investors, often for more than what th=
+e mortgage company paid.The trick is that if you have a mortgage with an ab=
+ove-market rate worth 110 cents on the dollar, and the borrower stops payin=
+g, then you can buy it back at 100 cents on the dollar. Of course this may =
+not be a great trade because the borrower has stopped paying =E2=80=94=C2=
+=A0it might be worth less than 100 cents on the dollar =E2=80=94=C2=A0but i=
+f you can get the borrower paying again then it should be worth 110 again. =
+Getting the borrower current again might cost you, say, 5 cents on the doll=
+ar, making it worth it.Basically the mortgage prepayment option is valuable=
+, but actual homeowners do not always exercise it optimally. If you are a m=
+ortgage servicer and=C2=A0you=C2=A0can exercise the homeowner=E2=80=99s pre=
+payment option=C2=A0for them=C2=A0=E2=80=94=C2=A0by buying back their mortg=
+age at par and then selling it again at its market value =E2=80=94=C2=A0the=
+n that=E2=80=99s a good trade.NFT stuffImagine buying this for your kids:Ma=
+ttel is the latest creator to jump on the hottest craze in cryptocurrency a=
+s it puts its first digital art featuring its Hot Wheels vehicles up for sa=
+le.On Tuesday, the toymaker will offer three pieces of digital art in the f=
+orm of nonfungible tokens, or NFTs, for auction on its Mattel Creations web=
+site as part of its Hot Wheels NFT Garage Series. The one-of-a-kind works w=
+ill feature classic cars from its archive: Twin Mill, Boneshaker and Deora =
+II.The auction will run for a week, and in another first for Mattel, the wi=
+nner will be allowed to pay in the Ethereum, a cryptocurrency.The company s=
+aid it was planning NFT auctions for its other toy brands. =E2=80=9CMattel =
+is creating a new way for innovation and artistry to converge in the toy sp=
+ace and will continue to express its brands in the NFT format,=E2=80=9D it =
+said in a statement.Like you come home from work and say =E2=80=9Cgood news=
+, Hudson, I bought you an awesome rare Hot Wheels car that no one else has,=
+=E2=80=9D and Hudson says =E2=80=9Ccool,=C2=A0I love Hot Wheels, where is i=
+t,=E2=80=9D and you say =E2=80=9Cwell it=E2=80=99s on the blockchain,=E2=80=
+=9D and Hudson says =E2=80=9Ccan I play with it,=E2=80=9D and you say =E2=
+=80=9Cno absolutely not but there is a unique blockchain address that says =
+you own it.=E2=80=9D How excited is Hudson going to be about that car? Yes =
+I know I know I know this Hot Wheels offering is not for kids, it=E2=80=99s=
+ for crypto millionaires =E2=80=94=C2=A0=E2=80=9Cthe move is part of an evo=
+lution of physical toys as collectible art=E2=80=9D =E2=80=94=C2=A0but stil=
+l. I feel like kids know what toys are cool, and would have questions about=
+ this one.Things happenFed Sees  Two Rate Hikes by End of 2023, Inches Towa=
+rds Taper.=C2=A0Fed  Tinkers With Tools to Defend Floor From Market Awash i=
+n Cash.=C2=A0Wall Street Banks Warn Their Trading Boom Is Over. U.S. Sues t=
+o Block Aon=E2=80=99s $30 Billion  Willis Towers Deal. SEC Delays Ruling on=
+  Bitcoin ETF in Blow to Crypto Traders. Lordstown Motors reverses itself a=
+gain, telling S.E.C. it has no =E2=80=98binding=E2=80=99 orders.=C2=A0Green=
+ SPACs Struggle After Years of Success. JPMorgan Chase strikes deal to buy =
+UK roboadviser Nutmeg. WeWork=E2=80=99s Adam Neumann to Pay $44 Million for=
+ Two Miami Beach Properties. SK Telecom Plans $5 Billion Splurge to Become =
+ Korea=E2=80=99s SoftBank. Young billionaire Nikhil Kamath=E2=80=99s accoun=
+t closed by Chess.com as he admits cheating in charity game to defeat Vishw=
+anathan Anand. =E2=80=9CIf I found this thing, I just would have died. =E2=
+=80=A6=C2=A0That thing is all teeth.=E2=80=9D =E2=80=9CNightclubs? =E2=80=
+=98Lindy. In fact, deep Lindy.=E2=80=99=E2=80=9DIf you'd like to get=C2=A0M=
+oney=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0=
+subscribe at this link. Or you can subscribe to Money Stuff and other great=
+ Bloomberg newsletters here. Thanks![1] Assume unrealistically that the com=
+pany has an infinite number of authorized shares. In practice an  authorize=
+d-share cap=C2=A0will generally limit a=C2=A0company=E2=80=99s=C2=A0ability=
+ to even try this sort of thing.[2] For some reason this sort of =E2=80=9Cd=
+eath-spiral financing=E2=80=9D =E2=80=94=C2=A0issuing more and more shares =
+at lower and lower prices =E2=80=94=C2=A0seems popular in the shipping indu=
+stry; DryShips Inc. is a famous example.[3] This is a very loose statement,=
+ and you can tell a story like =E2=80=9Cstock is a call option on the asset=
+s of a company and so should always=C2=A0have some positive value,=E2=80=9D=
+ but at some point that value is indistinguishable from zero.[4]=C2=A0In pa=
+rticular, there might be some argument that Sharecoin is attractive because=
+ it can serve some *other* financing-of-speculation function, so people wil=
+l want to buy it.[5] Actually a lot of companies voluntarily did things tha=
+t are classically =E2=80=9Cgood governance=E2=80=9D =E2=80=94 declassifying=
+ boards, implementing majority election bylaws =E2=80=94=C2=A0to please the=
+ir governance-focused shareholders, but that feels a little different from =
+the environmental and social parts of ESG (and from doing buybacks to fend =
+off activists).
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cee8eq.5rw7/08a35dc0.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_8858667_389267873.1623949330176
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" /><meta name=3D"color=
+-scheme" content=3D"light dark" /><meta name=3D"supported-color-schemes" co=
+ntent=3D"light dark" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+@media (prefers-color-scheme: dark) {
+body {
+color: #ffffff !important;
+}
+}
+@media (prefers-color-scheme: dark) {
+.body-component a, .body-component a:visited {
+color: #ffffff !important;
+border-bottom: 1px solid #ffffff !important;
+background-color: #3e3e3e !important;
+}
+.body-component h1 a, .body-component h1 a:visited {
+color: #ffffff !important;
+}
+}
+@media (prefers-color-scheme: dark) {
+.social-component a {
+color: #ffffff !important;
+}
+.social-component td {
+border-color: #ffffff !important;
+}
+}
+@media (prefers-color-scheme: dark) {
+.sponsored-content-box {
+background-color:  #3e3e3e !important;
+color: #ffffff !important;
+}
+.sponsored-content a {
+color: #ffffff !important;
+}
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24178706.269431/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cBf68b1ab0"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tr>
+<td width=3D"206" align=3D"center" class=3D"sponsored-ad-container" style=
+=3D"padding-top: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24178706.269431/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cB669bcbe=
+b">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" style=3D"display: block;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Monday.</em></p><h2 style=3D"font-weight=
+: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif;=
+ letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; border-bo=
+ttom-style: dotted; margin: 0px; padding: 16px 0px 5px;">=E2=80=9CTitanium=
+=E2=80=9D</h2><p style=3D"margin: 16px 0;">Here=E2=80=99s a theory. You run=
+ a bank, and a smallish public company comes to you and asks you to lend it=
+, say, $500 million. You say =E2=80=9Cokay I will need to know more about y=
+our revenue and expenses and assets,=E2=80=9D and the company says =E2=80=
+=9Cno no no never mind that. Here=E2=80=99s the thing. We have publicly tra=
+ded stock. We can always issue more of it. Sure the price might go down but=
+ then we=E2=80=99ll just issue more and more stock; we can always issue=C2=
+=A0<em>any dollar amount of stock that we want</em>.[1] Right now our marke=
+t cap is $1 billion and we have 100 million shares outstanding at $10 each,=
+ but even if the price falls=C2=A0we could issue five billion more shares a=
+t $0.10 each, or five trillion more shares at $0.0001 each, or whatever. So=
+ we can always raise $500 million to pay you back; our stock might go down,=
+ but a dollar <em>loaned=C2=A0</em>to us will always be worth a dollar. So =
+we are absolutely money-good for $500 million and you should lend it to us =
+at the risk-free rate without inquiring into our collateral or cash flows.=
+=E2=80=9D</p><p style=3D"margin: 16px 0;">Is this argument appealing? It is=
+ wrong, but is it interestingly wrong? Do you read it and say =E2=80=9Coh h=
+uh sounds like they have a point there, what am I missing,=E2=80=9D or do y=
+ou read it and say =E2=80=9Ccome on that is absurd=E2=80=9D? I don=E2=80=99=
+t know how you will experience it. I find it somewhat appealing at an abstr=
+act level, though, again,=C2=A0wrong. Also to be fair there are some compan=
+ies that sometimes =E2=80=A6=C2=A0sort of =E2=80=A6=C2=A0try this? And not =
+with=C2=A0<em>zero=C2=A0</em>success, I mean.[2]=C2=A0</p><p style=3D"margi=
+n: 16px 0;">Why is it wrong? Well I mean the simplest problem is that there=
+ is no actual guarantee that a company can issue an infinite number of shar=
+es at a positive price.=C2=A0Let=E2=80=99s say the company has a net value =
+of $1 billion today, and then it borrows $500 million, and then its factory=
+ burns down and its CEO steals the $500 million and it is just a worthless =
+empty shell that owes the bank $500 million. It can go out to shareholders =
+and say =E2=80=9Chey we need $500 million to get back to zero, would you li=
+ke to buy 50 million shares at $10 each,=E2=80=9D and they will say no, and=
+ it will say =E2=80=9Cwhat about 50 billion shares at $0.01 each,=E2=80=9D =
+and they will also say no, and eventually it might find some punters on Red=
+dit who will buy some shares at like $0.0001 each =E2=80=94=C2=A0you can fi=
+nd <em>some=C2=A0</em>people to buy anything =E2=80=94=C2=A0but not=C2=A0<e=
+m>enough=C2=A0</em>of them. If the present value of the company=E2=80=99s f=
+uture cash flows is negative, its stock will be worth zero, and almost nobo=
+dy will pay anything for it.[3]</p><p style=3D"margin: 16px 0;">Also,=C2=A0=
+if a company actually tries this =E2=80=94=C2=A0if it keeps issuing more an=
+d more stock at lower and lower prices to pay off some fixed amount of mone=
+y =E2=80=94=C2=A0people=E2=80=99s enthusiasm for the stock will evaporate q=
+uickly. Nobody wants to keep buying stock as it keeps going down. The techn=
+ical name for this form of financing=C2=A0is =E2=80=9C<a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/24178706.269431/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTUtMDMtMTIvZGVhdGgtc3BpcmFsLWNvbnZlcn=
+RpYmxlLWZpbmFuY2llci1oYXMtYS1sb3Qtb2YtZnVu/607f07ceef4b8524a319a23cBdf296f1=
+b" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">death-s=
+piral financing</a>.=E2=80=9D</p><p style=3D"margin: 16px 0;">Still there i=
+s in a loose sense some truth to the argument. If people sustainably want t=
+o buy a company=E2=80=99s stock, then that does make its credit better, bec=
+ause it really <em>can=C2=A0</em>sell stock to pay off its debt. Of course =
+if things change =E2=80=94=C2=A0the factory burns down, it stops making mon=
+ey, etc. =E2=80=94=C2=A0they might not want to buy the stock anymore. But i=
+f you have some thesis like =E2=80=9Cpeople will always want to buy this co=
+mpany=E2=80=99s stock even if it runs into a disaster in its business,=E2=
+=80=9D then you should be more willing to lend it money and expect to be pa=
+id back at par. I used to call this =E2=80=9C<a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24178706.269431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMTgtMTEtMDUvZXhwZW5zaXZlLXN0b2Nrcy1tYWtlLWZvci1=
+nb29kLWJvbmRz/607f07ceef4b8524a319a23cB1aaaca58" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">Netflix Theory</a>,=E2=80=9D and you=
+ would probably have to take something like this into account in deciding w=
+hether to lend money to, say, <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24178706.269431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMjEtMDYtMDMvYW1jLWhhcy1hLWJpdC1tb3JlLXN0b2NrLXRvLXNlbGw/607f07=
+ceef4b8524a319a23cB31fe1928" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> AMC Entertainment Holdings Inc.</a>=C2=A0these days. Ev=
+en if AMC=E2=80=99s business does poorly, if it can keep issuing stock to w=
+illing buyers then it is not going to run into any real financial problems.=
+ There is no guarantee of that, but if it is true it might be true for meme=
+ reasons rather than cash-flow reasons. =E2=80=9CPeople will buy our stock =
+because they will buy our stock, so we can always pay back our debts=E2=80=
+=9D might be more or less true even though it doesn=E2=80=99t make much sen=
+se.</p><p style=3D"margin: 16px 0;">The next step is to separate this theor=
+y entirely from cash flows, companies, etc. Just like: =E2=80=9CWe have iss=
+ued shares of nothing, and as long as people continue to buy those shares o=
+f nothing at some positive price, our debt will always be money-good.=E2=80=
+=9D=C2=A0</p><p style=3D"margin: 16px 0;">The way an algorithmic stablecoin=
+ works is that somebody creates two cryptocurrency=C2=A0tokens, let=E2=80=
+=99s call them Dollarcoin and Sharecoin. And they write a white paper that =
+says =E2=80=9CDollarcoins=C2=A0will always be worth $1, and if they are eve=
+r worth less than $1 we will print some Sharecoins=C2=A0and sell them to bu=
+y Dollarcoins until the price of Dollarcoins=C2=A0goes back to=C2=A0$1, and=
+ we can always print an arbitrary number of Sharecoins and sell them for a =
+positive amount of money and use the money to buy Dollarcoins, so Dollarcoi=
+ns will always be worth a dollar.=E2=80=9D There is generally a great deal =
+more hand-waving involved than that,[4] but that=E2=80=99s the economic hea=
+rt of it.=C2=A0Is this argument appealing? It is wrong, but is it interesti=
+ngly wrong?</p><p style=3D"margin: 16px 0;">Anyway <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/24178706.269431/aHR0cHM6Ly93d3cuY29pbmRlc2=
+suY29tL2lyb24tZmluYW5jZS1kZWZpLXRpdGFuLWlyb24tcHJpY2UtZHJvcA/607f07ceef4b85=
+24a319a23cB7d4a3073" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">lol</a>:</p><blockquote><p style=3D"margin: 16px 0;">Iron Tita=
+nium token (TITAN), the share token of a one-time multibillion-dollar decen=
+tralized finance (DeFi) protocol, has fallen to near zero.</p><p style=3D"m=
+argin: 16px 0;">The token was last seen changing hands for around $0.000000=
+035, down from Wednesday=E2=80=99s high of $65. The fallout, which has been=
+ swift, has brought the project to its knees. ...</p><p style=3D"margin: 16=
+px 0;">The project was attempting to boot a partially collateralized stable=
+coin known as IRON. The stablecoin, in turn, consists of Circle and Coinbas=
+e=E2=80=99s stablecoin USDC (-0.08%) as well as TITAN and was pegged to $1.=
+ Stablecoins are cryptocurrencies whose value is attached to financial asse=
+ts such as commodities or government-issued currency in a bid to keep them =
+=E2=80=9Cstable.=E2=80=9D</p><p style=3D"margin: 16px 0;">In the case of IR=
+ON, which receives its collateral backing from TITAN, users may mint new st=
+ablecoins through a mechanism on Iron Finance=E2=80=99s network by locking =
+up 25% in TITAN and 75% in USDC.</p><p style=3D"margin: 16px 0;">Due to how=
+ the tokenomics of this particular DeFi project functions, when new IRON st=
+ablecoins are minted, the demand for TITAN increases, driving up its price.=
+ Conversely, when the price of TITAN falls dramatically, as was the case on=
+ Wednesday evening, the peg becomes unstable.</p><p style=3D"margin: 16px 0=
+;">=E2=80=9CTITAN=E2=80=99s price went to $65 and then pulled back to $60. =
+This caused whales to start selling,=E2=80=9D Fred Schebesta, founder of Fi=
+nder.com.au and Iron Finance investor, told CoinDesk via Telegram. =E2=80=
+=9CThat then led to a big de-pegging of [IRON]=E2=80=9D</p><p style=3D"marg=
+in: 16px 0;">As whales (large bag holders) began to offload their TITAN tok=
+ens, they flooded the market with excess tokens, causing a bank run. A bank=
+ run refers to a situation when a large portion of users attempt to withdra=
+w their money at the same time believing the bank, or in this case, the pro=
+tocol, will cease to exist.</p><p style=3D"margin: 16px 0;">In turn, as TIT=
+AN began to fall in dramatic fashion so did the pegged value of IRON. As wh=
+ale dumps further decreased the value of IRON, it triggered the stablecoin=
+=E2=80=99s mechanism that mints TITAN and removes liquidity in a bid to sta=
+bilize IRON to $1.</p><p style=3D"margin: 16px 0;">This caused an arbitrage=
+ opportunity in the difference in price of IRON and TITAN, which in turn fl=
+ooded the market with even more TITAN tokens adding additional sell pressur=
+e and destabilizing IRON=E2=80=99s price even further.</p><p style=3D"margi=
+n: 16px 0;">=E2=80=9CIt was a crypto vortex of money,=E2=80=9D said Schebes=
+ta.</p><p style=3D"margin: 16px 0;">In the beginning, users were receiving =
+an incredible 2%-5% annual percentage rate per day. When the dust settled, =
+TITAN was near zero and IRON was last seen trading way off peg, around $0.6=
+9.</p></blockquote><p style=3D"margin: 16px 0;">If the price of IRON goes d=
+own from $1 (good) to $0.95 (bad), you just issue some TITAN (worth $65) to=
+ buy some IRON until it=E2=80=99s worth $1 again. And if=C2=A0IRON keeps go=
+ing down, you just issue some more TITAN (worth $60) and buy more. And if I=
+RON keeps going down =E2=80=A6=C2=A0[you can fill in some more iterations h=
+ere] =E2=80=A6=C2=A0you just keep issuing TITAN (worth $0.000000035) and at=
+ that point you=E2=80=99re not accomplishing much. If you could sell 286 tr=
+illion TITAN at=C2=A0$0.000000035 each you=E2=80=99d raise $10=C2=A0million=
+. That=E2=80=99s probably hard. There are <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/24178706.269431/aHR0cHM6Ly9wb2x5Z29uLmlyb24uZmluYW5=
+jZS8/607f07ceef4b8524a319a23cB913a7858" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">285 million IRON (formerly worth $1) outstand=
+ing</a>.=C2=A0</p><p style=3D"margin: 16px 0;">I am oversimplifying <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24178706.269431/aHR0cHM6L=
+y9kb2NzLmlyb24uZmluYW5jZS9mcmFjdGlvbmFsaXplZC1zdGFibGVjb2lucy1hbmQtY2FwaXRh=
+bC1lZmZpY2llbmN5/607f07ceef4b8524a319a23cB1190f439" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">the IRON mechanism</a> =E2=80=94=
+=C2=A0really it=E2=80=99s partially algorithmic and partially collateralize=
+d by USDC, which is in turn a collateralized stablecoin; you can read more =
+about its <a href=3D"https://link.mail.bloombergbusiness.com/click/24178706=
+.269431/aHR0cHM6Ly9kb2NzLmlyb24uZmluYW5jZS9tZWNoYW5pc20vbWludGluZw/607f07ce=
+ef4b8524a319a23cBb1ba945a" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">creation</a> and <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/24178706.269431/aHR0cHM6Ly9kb2NzLmlyb24uZmluYW5jZS9tZWNoYW5=
+pc20vcmVkZWVtaW5n/607f07ceef4b8524a319a23cB221c1a89" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">redemption</a> mechanics here =
+=E2=80=94 but not, I think, in an essential way. The core of an algorithmic=
+ stablecoin is that you have some=C2=A0<em>other=C2=A0</em>token that is no=
+t meant to be=C2=A0<em>stable</em>, but that is meant to support the stable=
+coin by being arbitrarily=C2=A0issuable. It doesn=E2=80=99t matter if Titan=
+ium is worth $65 or $0.65, as long as you can always issue a few million do=
+llars=E2=80=99 worth of it. But you can=E2=80=99t, not always, and that doe=
+s matter.</p><p style=3D"margin: 16px 0;">Anyway go to the IRON <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/24178706.269431/aHR0cHM6Ly9kb=
+2NzLmlyb24uZmluYW5jZS8/607f07ceef4b8524a319a23cB878f13c6" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">website</a> and <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/24178706.269431/aHR0cHM6Ly9pc=
+m9uZmluYW5jZS5tZWRpdW0uY29tLw/607f07ceef4b8524a319a23cBf3b7c565" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">Medium page</a> qu=
+ick, before they take down all these <a href=3D"https://link.mail.bloomberg=
+business.com/click/24178706.269431/aHR0cHM6Ly9kb2NzLmlyb24uZmluYW5jZS9wcmlj=
+ZS1zdGFiaWxpdHkvaXJvbi1wZWctYW5hbHlzaXMtbWFya2V0LWNyYXNoLW9uLTE5LW1heS0yMDI=
+x/607f07ceef4b8524a319a23cBbf714254" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">boasts about=C2=A0how stable it is</a>:</p><bloc=
+kquote><p style=3D"margin: 16px 0;">Market shocks provide the best stress t=
+ests for stablecoin pegs, and IRON=E2=80=99s <strong>strong peg</strong> re=
+tention should go a long way to grow trust in our community. IRON has shown=
+ itself to be a shock-proof stablecoin, and the stabilizing protocol is now=
+ battle-hardened.</p></blockquote><p style=3D"margin: 16px 0;">Shock-proof!=
+ Battle-hardened! Also here=E2=80=99s a <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/24178706.269431/aHR0cHM6Ly9pcm9uZmluYW5jZS5tZWRpdW0uY=
+29tL3RpdGFuLWFuZC1zdGVlbC1lbWVyZ2UtYXMtYmVhci1wcm9vZi1hc3NldHMtN2ZkOGNmNjBk=
+MjA5/607f07ceef4b8524a319a23cBd6f947a3" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Medium post</a> titled =E2=80=9CTITAN and STE=
+EL Emerge As Bear-Proof Assets,=E2=80=9D oops oops oops:</p><blockquote><p =
+style=3D"margin: 16px 0;">Over the past few weeks, as market conditions wor=
+sened for crypto as a whole, TITAN and STEEL have stood out as gems. While =
+the rest of the market fell, with BTC declining around 50% from its recent =
+highs, TITAN and STEEL have both risen 1,000% in value in a relatively shor=
+t period of time. These price movements make TITAN and STEEL two of the bes=
+t performing bear-proof assets in the entire crypto market.</p></blockquote=
+><p style=3D"margin: 16px 0;">Oh well.</p><p style=3D"margin: 16px 0;">Also=
+ apparently Mark Cuban lost money on this thing and <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/24178706.269431/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMTcvbWFyay1jdWJhbi1kZWZpLWlyb24tZmlu=
+YW5jZS1jcmFzaGVkLTEwMA/607f07ceef4b8524a319a23cBdce3053f" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> now thinks he should not h=
+ave been allowed to do that</a>.</p><h2 style=3D"font-weight: bold; font-fa=
+mily: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spacing=
+: -1px; font-size: 20px; border-bottom-width: 1px; border-bottom-style: dot=
+ted; margin: 0px; padding: 16px 0px 5px;">Bill Ackman Pornhub activism</h2>=
+<p style=3D"margin: 16px 0;">Here=E2=80=99s a <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/24178706.269431/aHR0cHM6Ly93d3cuaW5zdGl0dXRpb25=
+hbGludmVzdG9yLmNvbS9hcnRpY2xlL2IxczlmNjk4dndoY3pyL0JpbGwtQWNrbWFuLVNlbnQtYS=
+1UZXh0LXRvLXRoZS1DRU8tb2YtTWFzdGVyY2FyZC1XaGF0LUhhcHBlbmVkLU5leHQtSXMtYS1QY=
+XJhYmxlLWZvci1FU0cjLllNb3JOajk0dU40LnR3aXR0ZXI/607f07ceef4b8524a319a23cB054=
+415c4" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">str=
+ange little story</a> about how Bill Ackman read a New York Times article a=
+bout Pornhub, thought it was bad, and texted and tweeted that the big credi=
+t-card companies should stop working with Pornhub. And then they did. Is th=
+is=C2=A0<em>because=C2=A0</em>Ackman texted them? Nobody quite says that, b=
+ut nobody quite denies it either, and I suppose it=E2=80=99s not really in =
+anyone=E2=80=99s interest to deny it. One activist who spent lots of time t=
+rying to engage the credit-card companies, Leila Mickelwait,=C2=A0does give=
+ Ackman credit:</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=9CHe=E2=
+=80=99s an unlikely advocate that you wouldn=E2=80=99t normally think of us=
+ing his platform to push for that change, but I mean, look what that did,=
+=E2=80=9D she says. =E2=80=9CBill pulled the leverage of the Mastercard rel=
+ationship, and he called out Visa and Discover. And then, suddenly, there=
+=E2=80=99s reaction from the card companies, and Pornhub deleted 80 percent=
+ of their website.=E2=80=9D</p><p style=3D"margin: 16px 0;">Mickelwait adds=
+, =E2=80=9CIt just shows the power of finance, of financial pressure. It wa=
+sn=E2=80=99t until Bill really laid on the pressure and said, =E2=80=98Do t=
+he right thing,=E2=80=99 that they did.=E2=80=9D</p></blockquote><p style=
+=3D"margin: 16px 0;">So good=C2=A0job, Bill Ackman, or whatever.</p><p styl=
+e=3D"margin: 16px 0;">Bill Ackman does a lot of shareholder activism at his=
+ day job, and has made a lot of money=C2=A0from it, but this one was on the=
+ house.=C2=A0He did this activism for free,=C2=A0without expecting any prof=
+it. He doesn=E2=80=99t even own the stocks:</p><blockquote><p style=3D"marg=
+in: 16px 0;">An influential shareholder activist, Ackman immediately though=
+t about the growing interest in ethical, or ESG, investing.</p><p style=3D"=
+margin: 16px 0;">And that=E2=80=99s where the billionaire hedge fund titan =
+=E2=80=94 who has unseated several corporate CEOs in his career =E2=80=94 s=
+aw an opening. In this case, he wasn=E2=80=99t an investor in any of the pu=
+blicly traded companies that he knew were profiting from Pornhub=E2=80=99s =
+content, which is often uploaded from users the same way individuals post v=
+ideos on YouTube. =E2=80=A6</p><p style=3D"margin: 16px 0;">=E2=80=9CIt=E2=
+=80=99s shareholder money that fuels this activity,=E2=80=9D says Ackman. H=
+e points out that while the environmental and governance efforts of ESG =E2=
+=80=94 or environmental, social, and governance investing =E2=80=94 get a l=
+ot of attention, the =E2=80=9CS=E2=80=9D part =E2=80=9Chas come in third.=
+=E2=80=9D</p><p style=3D"margin: 16px 0;">He notes, =E2=80=9CLots of compan=
+ies say that they=E2=80=99re really great with ESG issues, but they=E2=80=
+=99ve got to look a little deeper.=E2=80=9D=C2=A0</p></blockquote><p style=
+=3D"margin: 16px 0;">One thing that I want to point out is that, if you wer=
+e the chief executive officer of a public company and wanted=C2=A0to rank t=
+he people with the power to influence your environmental, social and govern=
+ance policies, a partial ranking, in ascending order of importance, might g=
+o something like this:</p><p style=3D"margin: 16px 0;">5. A social activist=
+ like Leila Mickelwait, a person who cares about environmental or social=C2=
+=A0issues and writes and talks about them.</p><p style=3D"margin: 16px 0;">=
+4. A shareholder-proposal=C2=A0activist, a person who buys 100 shares of yo=
+ur stock and submits a nonbinding shareholder proposal asking you to write =
+a report about the issue.</p><p style=3D"margin: 16px 0;">3. Your biggest s=
+hareholders, if they are=C2=A0index-y investors like BlackRock Inc. who tal=
+k a lot about ESG stuff.</p><p style=3D"margin: 16px 0;">2. Your medium-siz=
+ed institutional shareholders, if they are active investors who might dump =
+your stock if they don=E2=80=99t like what you=E2=80=99re up to.</p><p styl=
+e=3D"margin: 16px 0;">1. A famous activist investor who=C2=A0<em>doesn=E2=
+=80=99t own any of your stock</em>.</p><p style=3D"margin: 16px 0;">If you =
+are the chief executive officer of a public company, Bill Ackman is more li=
+kely to get you fired than BlackRock is, even if BlackRock owns 7% of your =
+stock and Bill Ackman owns zero. After all, if you anger Bill Ackman, he mi=
+ght decide to=C2=A0<em>buy</em>=C2=A0stock and start a proxy fight to fire =
+you. If you anger=C2=A0BlackRock, it=E2=80=99s not=C2=A0going to sell any s=
+tock and it isn=E2=80=99t going to start a proxy fight. Of course if you an=
+ger BlackRock, Bill Ackman =E2=80=94=C2=A0or <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24178706.269431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMjYvZXh4b24taGFzLWEtdG91Z2gtZ3JlZW4tYWN=
+0aXZpc3Q/607f07ceef4b8524a319a23cB55902199" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> Engine No. 1</a> =E2=80=94=C2=A0might st=
+art a proxy fight, and then BlackRock with its 7% stake might support the p=
+roxy fight and you might end up fired. You have to keep your big shareholde=
+rs happy as insurance against activists. But you can keep activists happy a=
+s insurance against activists too.</p><p style=3D"margin: 16px 0;">Everyone=
+ vaguely knows about this in the context of financial performance and capit=
+al-structure optimization, and so a few years ago you could <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/24178706.269431/aHR0cHM6Ly93d3cub=
+WF5ZXJicm93bi5jb20vLS9tZWRpYS9maWxlcy9uZXdzLzIwMTYvMDMvNS13YXlzLXRvLWF2b2lk=
+LWJlaW5nLXRhcmdldGVkLWJ5LWFuLWFjdGl2aXN0LWludmUvZmlsZXMvNXdheXN0b2F2b2lkYmV=
+pbmd0YXJnZXRlZGJ5YW5hY3RpdmlzdGludmVzdG9yL2ZpbGVhdHRhY2htZW50LzV3YXlzdG9hdm=
+9pZGJlaW5ndGFyZ2V0ZWRieWFuYWN0aXZpc3RpbnZlc3Rvci5wZGY/607f07ceef4b8524a319a=
+23cBda309f99" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">read</a> <a href=3D"https://link.mail.bloombergbusiness.com/click/24178=
+706.269431/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jb21wYW5pZXMtc2VuZC1tb3Jl=
+LWNhc2gtYmFjay10by1zaGFyZWhvbGRlcnMtMTQzMjY5MzgwNQ/607f07ceef4b8524a319a23c=
+Bc2eead53" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>lots</a> of stories about how companies were buying back stock and spinnin=
+g off non-core divisions and generally doing the things that activists woul=
+d want=C2=A0<em>even if there was no activist in their stock</em>. The poin=
+t was to avoid attracting the attention of activists by doing what they wan=
+ted anyway. You did not read quite those sorts of stories about ESG[5]: Pol=
+luting or being racist or whatever might be=C2=A0<em>bad</em>, they might a=
+ttract negative attention from various stakeholders=C2=A0(customers, employ=
+ees, regulators, BlackRock), but they were not conceived of as things that =
+would attract negative attention=C2=A0<em>from activist hedge funds</em>. A=
+ctivist hedge funds were busy pushing for stock buybacks.</p><p style=3D"ma=
+rgin: 16px 0;">But then last month activist hedge fund Engine No.=C2=A01 LL=
+C <a href=3D"https://link.mail.bloombergbusiness.com/click/24178706.269431/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMjYvZXh=
+4b24taGFzLWEtdG91Z2gtZ3JlZW4tYWN0aXZpc3Q/607f07ceef4b8524a319a23cC55902199"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> did a pr=
+oxy fight</a> against Exxon Mobil Corp. that focused on environmental issue=
+s, and <a href=3D"https://link.mail.bloombergbusiness.com/click/24178706.26=
+9431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMj=
+cvZXh4b24tbG9zdC1hLWNsaW1hdGUtcHJveHktZmlnaHQ/607f07ceef4b8524a319a23cBb799=
+f903" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">won<=
+/a>, and replaced <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+24178706.269431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjE=
+tMDYtMDIvZXh4b24tYWN0aXZpc3Qtc2Vlbi13aW5uaW5nLXRoaXJkLWJvYXJkLXNlYXQtaW4tcH=
+JlbGltaW5hcnktdm90ZQ/607f07ceef4b8524a319a23cBe5962767" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> three members</a> of Exxon=
+=E2=80=99s board of directors, and now the ESG activist space looks very di=
+fferent. Now ESG issues are a wedge that activist hedge funds can use to pe=
+rsuade big institutional investors and win proxy fights, and activist-hedge=
+-fund-led proxy fights are a tool that institutional investors can use to e=
+nforce their ESG goals. So if you run a public company and Bill Ackman call=
+s you about an ESG topic, you listen.</p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 20px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td style=3D"padding: 15px 15px 0px;">
+<!--[if mso]>
+<table width=3D"500">
+<tr>
+<td>
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/inJXmAcNgA6I/v=
+0/-1x-1.png" width=3D"500" />
+</td>
+</tr>
+</table>
+<div style=3D"display:none">
+<![endif]-->
+<img width=3D"550" class=3D"sponsored-content__image" src=3D"https://assets=
+.bwbx.io/images/users/iqjWHBFdfxIU/inJXmAcNgA6I/v0/-1x-1.png" style=3D"widt=
+h: 100%; display: block; max-width: 550px; max-height: 150px;" />
+<!--[if mso]>
+</div>
+<![endif]-->
+</td>
+</tr>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Sponsored Content</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;"><p style=3D"margin: 10px 0px;"><strong>Invest in world-changing st=
+artups on AngelList</strong><br />
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24178706.269431/aH=
+R0cDovL2FuZ2VsbGlzdC5jb20_dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9tZWRpdW09ZW1ha=
+WwmdXRtX2NhbXBhaWduPW1vbmV5X3N0dWZm/607f07ceef4b8524a319a23cBcf233f4e" styl=
+e=3D"color: #000000; text-decoration: underline;">
+<br />
+AngelList</a><a href=3D"https://link.mail.bloombergbusiness.com/click/24178=
+706.269431/aHR0cDovL2FuZ2VsbGlzdC5jb20vP3V0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1f=
+bWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leV9zdHVmZg/607f07ceef4b8524a319a23c=
+B755fd38a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: underline;"> </a>is the leading =
+platform for early-stage venture investing. <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/24178706.269431/aHR0cHM6Ly93d3cuYW5nZWxsaXN0LmNvb=
+S9yb2xsaW5nP3V0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1w=
+YWlnbj1tb25leV9zdHVmZg/607f07ceef4b8524a319a23cB488b0836" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: underline;">
+Invest</a> in experienced VCs that have backed Clubhouse, Notion, Pipe, and=
+ 77 other unicorns. Adjust your investment size as your goals evolve.</p></=
+div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;"><a href=3D"https=
+://link.mail.bloombergbusiness.com/click/24178706.269431/aHR0cHM6Ly93d3cuYW=
+5nZWxsaXN0LmNvbS8_dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9tZWRpdW09ZW1haWwmdXRtX=
+2NhbXBhaWduPW1vbmV5X3N0dWZm/607f07ceef4b8524a319a23cB0d755134" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: underline;">
+AngelList</a></p></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Par call</h2><p style=3D"margin: 16px 0;">The way U.S. residential mo=
+rtgages typically work is that you can borrow money at a fixed rate for 30 =
+years and prepay at any time without penalty. In theory, you should prepay =
+any time interest rates go down. You borrow $100 at 4%, interest rates go d=
+own to 3.5%, you get a new loan at 3.5% and pay off your old loan, saving y=
+ourself 0.5% per year.</p><p style=3D"margin: 16px 0;">If people behaved li=
+ke this, then a mortgage could never=C2=A0really be worth more than 100 cen=
+ts on the dollar. Usually if you have a 30-year bond with a $100 face amoun=
+t that pays 4% interest, and rates go down to 3.5%, the value of the bond w=
+ill go up, to $105 or whatever. But if the issuer of that bond can costless=
+ly refinance, it will, and you=E2=80=99ll just get back your $100 rather th=
+an a series of cash flows worth $105.=C2=A0</p><p style=3D"margin: 16px 0;"=
+>In practice most people do not constantly mark their mortgages to market; =
+when rates go down, only some people refinance. Others are not paying atten=
+tion, or are busy, or their credit has gotten worse so they can=E2=80=99t g=
+et the better rates, etc. So when mortgage rates go down, the price of exis=
+ting mortgages does go up =E2=80=94=C2=A0not as much as a non-prepayable bo=
+nd would, but still, up.</p><p style=3D"margin: 16px 0;">This feels a littl=
+e inefficient? Like, in a perfect market, what you would do is:</p><ol styl=
+e=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li =
+style=3D"margin-bottom: 5px;">Short a bunch of mortgages with above-market =
+interest rates at, like, 110 cents on the dollar.</li>=09<li style=3D"margi=
+n-bottom: 5px;">Get the homeowners to refinance those mortgages, paying the=
+m off at 100 cents on the dollar.</li>=09<li style=3D"margin-bottom: 5px;">=
+Collect the 10 cents of difference.</li></ol><p style=3D"margin: 16px 0;">Y=
+ou can=E2=80=99t quite do that but <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/24178706.269431/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9tb3=
+J0Z2FnZS1jb21wYW5pZXMtYXJlLW1ha2luZy1tb25leS1vZmYteW91ci1mb3JiZWFyYW5jZS1wb=
+GFuLTExNjIzODM1ODAyP21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cB1b=
+152dbb" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: solid; background-color: #ccc;">he=
+re=E2=80=99s a fun trade</a>:</p><blockquote><p style=3D"margin: 16px 0;">M=
+ortgage companies have ramped up their purchases of government-backed mortg=
+ages in forbearance, and they are selling these loans back to investors at =
+a profit. The trade is made possible by a policy meant to shrink the govern=
+ment=E2=80=99s own burden for dealing with mortgages where the homeowner is=
+n=E2=80=99t paying.</p><p style=3D"margin: 16px 0;">The so-called early buy=
+out trade, an arcane but lucrative part of the mortgage business, is being =
+employed by many mortgage companies, including the three biggest: Rocket Co=
+s., PennyMac Financial Services Inc.=C2=A0and Wells Fargo &amp; Co. That ha=
+s added to what was already a banner stretch for mortgage making, fueled ov=
+er the past year by refinancings and pandemic-inspired moves to the suburbs=
+.</p><p style=3D"margin: 16px 0;">Investors are eager to get their hands on=
+ these loans. Many were made long ago and thus carry interest rates that ar=
+e higher than the going rate. Another appealing factor is that investors be=
+lieve many of these borrowers are unlikely to refinance in the near term. A=
+ refinancing hurts investors because it closes out one mortgage and thus ta=
+kes away their revenue stream.</p></blockquote><p style=3D"margin: 16px 0;"=
+>The idea is that some government-backed mortgages are made and serviced by=
+ banks and pooled into Ginnie Mae bonds. And:</p><blockquote><p style=3D"ma=
+rgin: 16px 0;">Later, if that borrower stops making payments, Ginnie Mae ru=
+les allow the mortgage servicer to buy it out of the pool after 90 days at =
+face value. That means the mortgage company pays an amount equal to the unp=
+aid principal balance and any interest due at the time.</p><p style=3D"marg=
+in: 16px 0;">The mortgage company then works with the borrower to get him o=
+r her current again=E2=80=94for example, by letting the homeowner make up t=
+he missed payments at the end of the loan.</p><p style=3D"margin: 16px 0;">=
+Once the borrower has resumed payments, the mortgage company sells the loan=
+ back into a new pool that gets bought by investors, often for more than wh=
+at the mortgage company paid.</p></blockquote><p style=3D"margin: 16px 0;">=
+The trick is that if you have a mortgage with an above-market rate worth 11=
+0 cents on the dollar, and the borrower stops paying, then you can buy it b=
+ack at 100 cents on the dollar. Of course this may not be a great trade bec=
+ause the borrower has stopped paying =E2=80=94=C2=A0it might be worth less =
+than 100 cents on the dollar =E2=80=94=C2=A0but if you can get the borrower=
+ paying again then it should be worth 110 again. Getting the borrower curre=
+nt again might cost you, say, 5 cents on the dollar, making it worth it.</p=
+><p style=3D"margin: 16px 0;">Basically the mortgage prepayment option is v=
+aluable, but actual homeowners do not always exercise it optimally. If you =
+are a mortgage servicer and=C2=A0<em>you=C2=A0</em>can exercise the homeown=
+er=E2=80=99s prepayment option=C2=A0<em>for them</em>=C2=A0=E2=80=94=C2=A0b=
+y buying back their mortgage at par and then selling it again at its market=
+ value =E2=80=94=C2=A0then that=E2=80=99s a good trade.</p><h2 style=3D"fon=
+t-weight: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, san=
+s-serif; letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; b=
+order-bottom-style: dotted; margin: 0px; padding: 16px 0px 5px;">NFT stuff<=
+/h2><p style=3D"margin: 16px 0;">Imagine <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/24178706.269431/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAy=
+MS8wNi8xNy9idXNpbmVzcy9tYXR0ZWwtbmZ0LWhvdC13aGVlbHMuaHRtbA/607f07ceef4b8524=
+a319a23cB9f15ff68" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">buying this for your kids</a>:</p><blockquote><p style=3D"margin: =
+16px 0;">Mattel is the latest creator to jump on the hottest craze in crypt=
+ocurrency as it puts its first digital art featuring its Hot Wheels vehicle=
+s up for sale.</p><p style=3D"margin: 16px 0;">On Tuesday, the toymaker wil=
+l offer three pieces of digital art in the form of nonfungible tokens, or N=
+FTs, for auction on its Mattel Creations website as part of its Hot Wheels =
+NFT Garage Series. The one-of-a-kind works will feature classic cars from i=
+ts archive: Twin Mill, Boneshaker and Deora II.</p><p style=3D"margin: 16px=
+ 0;">The auction will run for a week, and in another first for Mattel, the =
+winner will be allowed to pay in the Ethereum, a cryptocurrency.</p><p styl=
+e=3D"margin: 16px 0;">The company said it was planning NFT auctions for its=
+ other toy brands. =E2=80=9CMattel is creating a new way for innovation and=
+ artistry to converge in the toy space and will continue to express its bra=
+nds in the NFT format,=E2=80=9D it said in a statement.</p></blockquote><p =
+style=3D"margin: 16px 0;">Like you come home from work and say =E2=80=9Cgoo=
+d news, Hudson, I bought you an awesome rare Hot Wheels car that no one els=
+e has,=E2=80=9D and Hudson says =E2=80=9Ccool,=C2=A0I love Hot Wheels, wher=
+e is it,=E2=80=9D and you say =E2=80=9Cwell it=E2=80=99s on the blockchain,=
+=E2=80=9D and Hudson says =E2=80=9Ccan I play with it,=E2=80=9D and you say=
+ =E2=80=9Cno absolutely not but there is a unique blockchain address that s=
+ays you own it.=E2=80=9D How excited is Hudson going to be about that car? =
+Yes I know I know I know this Hot Wheels offering is not for kids, it=E2=80=
+=99s for crypto millionaires =E2=80=94=C2=A0=E2=80=9Cthe move is part of an=
+ evolution of physical toys as collectible art=E2=80=9D =E2=80=94=C2=A0but =
+still. I feel like kids know what toys are cool, and would have questions a=
+bout this one.</p><h2 style=3D"font-weight: bold; font-family: &quot;Arial =
+Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: -1px; font-size:=
+ 20px; border-bottom-width: 1px; border-bottom-style: dotted; margin: 0px; =
+padding: 16px 0px 5px;">Things happen</h2><p style=3D"margin: 16px 0;">Fed =
+Sees <a href=3D"https://link.mail.bloombergbusiness.com/click/24178706.2694=
+31/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMTYvZmVk=
+LWhvbGRzLXJhdGVzLWF0LXplcm8tcHJvamVjdHMtdHdvLWhpa2VzLWJ5LXRoZS1lbmQtb2YtMjA=
+yMw/607f07ceef4b8524a319a23cB851376bd" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: sol=
+id; background-color: #ccc;"> Two Rate Hikes</a> by End of 2023, Inches Tow=
+ards Taper.=C2=A0Fed <a data-web-url=3D"https://www.bloomberg.com/news/arti=
+cles/2021-06-16/fed-tinkers-with-tools-to-defend-floor-from-market-awash-in=
+-cash?srnd=3Dpremium&amp;sref=3D1kJVNqnU=C2=A0" href=3D"bbg://news/stories/=
+QUT6G7T1UM12" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> Tinkers With Tools</a> to Defend Floor From Market Awash in Cash.=C2=
+=A0Wall Street Banks Warn Their <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/24178706.269431/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy93YWxsL=
+XN0cmVldC1iYW5rcy13YXJuLXRoZWlyLXRyYWRpbmctYm9vbS1pcy1vdmVyLTExNjIzODU4NDUy=
+P21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cB1eacb9c5" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">Trading Boom Is Over<=
+/a>. U.S. Sues to Block Aon=E2=80=99s $30 Billion <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/24178706.269431/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMTYvdS1zLXN1ZXMtdG8tYmxvY2stYW9uLXMtMz=
+AtYmlsbGlvbi13aWxsaXMtdG93ZXJzLWRlYWw/607f07ceef4b8524a319a23cB97bbefa4" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> Willis Towe=
+rs Deal</a>. SEC Delays Ruling on <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/24178706.269431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjEtMDYtMTYvc2VjLXNlZWtzLW1vcmUtY29tbWVudC1vbi12YW5lY2stYml0Y2=
+9pbi1ldGYtZGVsYXlpbmctZGVjaXNpb24/607f07ceef4b8524a319a23cB57f7df27" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> Bitcoin ETF</a>=
+ in Blow to Crypto Traders. Lordstown Motors reverses itself again, telling=
+ S.E.C. it has <a href=3D"https://link.mail.bloombergbusiness.com/click/241=
+78706.269431/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wNi8xNy9idXNpbmVzcy9sb3=
+Jkc3Rvd24tbm8tYmluZGluZy1vcmRlcnMuaHRtbA/607f07ceef4b8524a319a23cB984dcb1a"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">no =E2=80=
+=98binding=E2=80=99 orders</a>.=C2=A0<a href=3D"https://link.mail.bloomberg=
+business.com/click/24178706.269431/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9n=
+cmVlbi1zcGFjcy1zdHJ1Z2dsZS1hZnRlci15ZWFycy1vZi1zdWNjZXNzLTExNjIzOTIyMjAyP21=
+vZD1ocF9sZWFkX3BvczY/607f07ceef4b8524a319a23cB2d97ea95" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">Green SPACs</a> Struggle Afte=
+r Years of Success. JPMorgan Chase strikes deal to buy UK roboadviser <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/24178706.269431/aHR0cHM=
+6Ly93d3cuZnQuY29tL2NvbnRlbnQvZjc2ZWQ0OTMtNjYxMS00MzA4LThjMDYtMzBkZmYzNzcxNW=
+Qw/607f07ceef4b8524a319a23cB7cc2c41a" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;">Nutmeg</a>. WeWork=E2=80=99s <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/24178706.269431/aHR0cHM6Ly93d3cud3Nq=
+LmNvbS9hcnRpY2xlcy93ZXdvcmtzLWFkYW0tbmV1bWFubi10by1wYXktNDQtbWlsbGlvbi1mb3I=
+tdHdvLW1pYW1pLWJlYWNoLXByb3BlcnRpZXMtMTE2MjM4ODk0NjI_bW9kPWhwX2ZlYXRzdF9wb3=
+M0/607f07ceef4b8524a319a23cB4f9b22cc" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;">Adam Neumann</a> to Pay $44 Million for Two Mia=
+mi Beach Properties. SK Telecom Plans $5 Billion Splurge to Become <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24178706.269431/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMTYvc2stdGVsZWNvbS1w=
+bGFucy01LWJpbGxpb24tc3BsdXJnZS10by1iZWNvbWUta29yZWEtcy1zb2Z0YmFuaw/607f07ce=
+ef4b8524a319a23cB26e1c67b" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> Korea=E2=80=99s SoftBank</a>. Young billionaire Nikhil Ka=
+math=E2=80=99s account closed by Chess.com as he admits <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/24178706.269431/aHR0cHM6Ly93d3cub3Bpb=
+mRpYS5jb20vMjAyMS8wNi9uaWtoaWwta2FtYXRoLXZzLXZpc2h3YW5hdGhhbi1hbmFuZC1jaGVz=
+cy1jaGFyaXR5LW1hdGNoLw/607f07ceef4b8524a319a23cBdb0a2561" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">cheating in charity game</a=
+> to defeat Vishwanathan Anand. =E2=80=9CIf I found this thing, I just woul=
+d have died. =E2=80=A6=C2=A0<a href=3D"https://link.mail.bloombergbusiness.=
+com/click/24178706.269431/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wNi8xNi9zY=
+2llbmNlL2JyaXR0bGUtc3RhcnMtbmV3LWNhbGVkb25pYS5odG1sP3JlZmVycmluZ1NvdXJjZT1h=
+cnRpY2xlU2hhcmU/607f07ceef4b8524a319a23cB106ef902" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">That thing is all teeth</a>.=E2=80=
+=9D =E2=80=9CNightclubs? =E2=80=98Lindy. <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/24178706.269431/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAy=
+MS8wNi8xNy9zdHlsZS9saW5keS5odG1s/607f07ceef4b8524a319a23cB2bdb4ae5" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">In fact, deep Lin=
+dy</a>.=E2=80=99=E2=80=9D</p><p style=3D"margin: 16px 0;"><span class=3D"ne=
+ws-designed-for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0St=
+uff=C2=A0in handy email form, right in your inbox, please=C2=A0<a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/24178706.269431/aHR0cDovL2xpbm=
+subWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAma=
+GFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB=
+f16f175f" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">subscribe at this link</a>. O=
+r you can subscribe to Money Stuff and other great Bloomberg newsletters <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/24178706.269431/aHR0=
+cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB0=
+9b3a483" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;">h=
+ere</a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1] Assume=
+ unrealistically that the company has an infinite number of authorized shar=
+es. In practice an <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/24178706.269431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLz=
+IwMjEtMDYtMDMvYW1jLWhhcy1hLWJpdC1tb3JlLXN0b2NrLXRvLXNlbGw/607f07ceef4b8524a=
+319a23cC31fe1928" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> authorized-share cap</a>=C2=A0will generally limit a=C2=A0company=
+=E2=80=99s=C2=A0ability to even try this sort of thing.</em></p><p style=3D=
+"margin: 16px 0;"><em>[2] For some reason this sort of =E2=80=9Cdeath-spira=
+l financing=E2=80=9D =E2=80=94=C2=A0issuing more and more shares at lower a=
+nd lower prices =E2=80=94=C2=A0seems popular in the shipping industry; <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/24178706.269431/aHR0cH=
+M6Ly9zZWVraW5nYWxwaGEuY29tL2FydGljbGUvNDAyNDQyOC13aGF0LWp1c3QtaGFwcGVuZWQta=
+W4tZHJ5c2hpcHMtbmFtZQ/607f07ceef4b8524a319a23cBac720dd6" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">DryShips Inc. is a famous ex=
+ample</a>.</em></p><p style=3D"margin: 16px 0;"><em>[3] This is a very loos=
+e statement, and you can tell a story like =E2=80=9Cstock is a call option =
+on the assets of a company and so should always=C2=A0have some positive val=
+ue,=E2=80=9D but at some point that value is indistinguishable from zero.</=
+em></p><p style=3D"margin: 16px 0;"><em>[4]=C2=A0In particular, there might=
+ be some argument that Sharecoin is attractive because it can serve some *o=
+ther* financing-of-speculation function, so people will want to buy it.</em=
+></p><p style=3D"margin: 16px 0;"><em>[5] Actually a lot of companies volun=
+tarily did things that are classically =E2=80=9Cgood governance=E2=80=9D =
+=E2=80=94 declassifying boards, implementing majority election bylaws =E2=
+=80=94=C2=A0to please their governance-focused shareholders, but that feels=
+ a little different from the environmental and social parts of ESG (and fro=
+m doing buybacks to fend off activists).</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24178706.269431/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB6785c71f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24178706.269431/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBee16b53f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24178706.269431/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBe25dc458" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24178706.269431/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBc5bff42d" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-bottom: 32px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2417870=
+6.269431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB0b2729bc" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; padding-bottom: 10px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> You received this mess=
+age because you are subscribed to Bloomberg's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24178706.269431/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCe862c762" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24178706.269431/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBd533356a" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24178706.269431/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB7f41d468" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cee8eq.5rw7/08a35dc0.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_8858667_389267873.1623949330176--
+

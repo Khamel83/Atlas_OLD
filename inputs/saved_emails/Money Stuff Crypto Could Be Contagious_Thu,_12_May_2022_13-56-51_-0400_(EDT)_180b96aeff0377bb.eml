@@ -1,0 +1,2174 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:10d5:b0:1b9:b7d6:557d with SMTP id cc21csp618068lkb;
+        Thu, 12 May 2022 10:57:14 -0700 (PDT)
+X-Received: by 2002:a5d:59a6:0:b0:20c:5aa2:ae1b with SMTP id p6-20020a5d59a6000000b0020c5aa2ae1bmr766517wrr.130.1652378234613;
+        Thu, 12 May 2022 10:57:14 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1652378234; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=vz5BMKLWXxZ0vw2G4Zu+dyduSR3FOjqehmq1/wulodJfMdiDprFMR5HuMOctk+9qLZ
+         46lfwd3igXqloJwbyqFVNGmnlHNkpb4mo0e9UWsO+VgHblVdF3hsITT1vpO5hzdZyqs0
+         RpPuA4gpdPy32794fSUB5KojHpSBk7x1RBagu4ZUmktvqWckIQGHHy+NttSI02YxL1ZN
+         kZ9E0FlLb/B8GmfFl1Z8RyTt2Np9Jp8wTRLlMQUlY6Az+bZQjv0mFMM8yGetgwKHEqMb
+         2LzW1vbP26HNFAUXxE+hT0qjNhtCGeOZUpdYb5W/YVcTCEuoO/SlsVK7nYE/Ok4RD/tV
+         t3Mg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=L+gujAMF7t8hc8Hx8tzI0y3EYD+hE/3TE0qMxXLn2ZM=;
+        b=ufelnf3SdIgYZ2+LpSKcs02ughNzatSCOMdfSPEK98b+J0OEEucYYtxB+U5FfAEvvW
+         VNIqMEczZyIl+s6cWhLgf38STbUqpFOvAvl4hqowfoBrXgSCAysE9fET0RqLFaOFjaOM
+         ejicu/UhDeP+luv2n+1YKq4E7ZqMNt+5IO3z5cJJAW3TNXWNXuITJScOjO0aQ/BgNT3w
+         UIst92kxAt4o1uCV2R5LVT/isbZgZaWpIHKBdWtvzg9IstRWvwiYqTaQQJM/hfBEx7Hk
+         wNtz5wyI0Kh8ff0+0yjgmzBx47RRyytE70/aEJmVXaJ1XwqJBE4w8XaCUu5aUw7Z0jt/
+         7LmA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=aYCiDDsQ;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id j2-20020a05600c42c200b00389c4d24201sor126014wme.14.2022.05.12.10.57.14
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 12 May 2022 10:57:14 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=aYCiDDsQ;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=L+gujAMF7t8hc8Hx8tzI0y3EYD+hE/3TE0qMxXLn2ZM=;
+        b=5T1fxN+/UjD983EE1uyqkQ2otud6w3sXhjYXW/B9My8v6RD+KeXxBMR1l/19ZstZ7E
+         H5gF77fTTDqeXJ9J+19bVSahVn5+myGTiVYSf5m6d4pU93cV5zSk5P0iNkKdYY28GILp
+         cdjAgDlTRVZuYidqo0SdMdS7YDoBB8zCpSGaCy1bJCiYdC3dDcRZsWc2WVlfjb1HiiU9
+         X/UEOJgLfuTz3BnWQGqszz/m5LFsw9YZFf5ng0PfUjyAmtGY5qGlVsBYGMpqrcl3bjTm
+         wuQCGjGzE2gJgpOzTnPDza48DwXRVHcwqBGYKTR2f/h2Re7rr/SQEuZfUR9ZQTMlGz0g
+         9mjQ==
+X-Gm-Message-State: AOAM530tLxOS4+P6uiMQ9Xh7rnTQg41uUl7EHKR/iOhCyjwclIcY0bWd
+	F82YdY/rYt9UFJdJCBzIUaWMCUrd0llztT3VA5SdYEVn06bJ0GfbKg==
+X-Received: by 2002:a05:600c:2205:b0:394:193a:80ed with SMTP id z5-20020a05600c220500b00394193a80edmr11315980wml.191.1652378234054;
+        Thu, 12 May 2022 10:57:14 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:6b51:0:0:0:0:0 with SMTP id x17csp541110wrw;
+        Thu, 12 May 2022 10:57:11 -0700 (PDT)
+X-Received: by 2002:a2e:9bc5:0:b0:24f:ee8:c535 with SMTP id w5-20020a2e9bc5000000b0024f0ee8c535mr700296ljj.445.1652378230969;
+        Thu, 12 May 2022 10:57:10 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1652378230; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=E7KYDIwTs9oh+a/ExkiFPKTt04us0ROoNc1I8ZSIzwi4X2O7dSSInd8WXQr1O8AurS
+         AJCr1j/R7SVN/zgxHYFBK5gsdiQEpR780pY86Gx6qsFyIFleqhJjw7UzibCaxnuSyI1e
+         X8sPGlqdaQQHTKb4PPC90hXUzN+l8lEEN1KUzBqAMMO8o+Na2MB/gn+7iUL+1GcH8B+u
+         kaXxlQlI0wkGmc3y2YscA0YfXcN3m8MNGYMlPL5jAmxX3o1yncDgeUo32UIQGkKKI0w7
+         jp5nX/zGs+QIyHsP9yCZcFJazjgpkEkraVPzE+tFqGEvTLrpvfS1QO+KH4fYrdx9CvgB
+         dKBw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=L+gujAMF7t8hc8Hx8tzI0y3EYD+hE/3TE0qMxXLn2ZM=;
+        b=fZVKAdOkQTRmmUZlahU6snFxPoGVl2qyh38TR1Ydfjl1naGHn+HjN+SsmoltmfJNqP
+         Azr8p1hgNOxTi/+v740ybPm9j03vP0dZVYjX6XJkNOsLBOtTPp4ZYJ77RRpktuZcsJUm
+         sjePCeFNbrL/VUycGt8CT3knp9Gk7WFlWkS7wFn94vjGFvdJScsKKGS9bO6i7tJnir7k
+         +iSwGS1VtXo0c50oyZorc5Wo0a779AhQTdjBGjkZeL3UdRUoSF+/dXYYTicVhI35s0VU
+         MtTKhwtQfqJo5dkuH9/BYuvA3URn7jZM9k2+urSyuVYq/0onoVim5jsTQDNf78XeJrbY
+         BLIQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=aYCiDDsQ;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220512135651.27692123.259606@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220512135651.27692123.259606@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220512135651.27692123.259606@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id i10-20020a198c4a000000b004725d5d0fcbsor77841lfj.77.2022.05.12.10.57.10
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 12 May 2022 10:57:10 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220512135651.27692123.259606@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJxTI1ccNbe1AnA4meNwvq+VceP8RZRy4ssaWrn4F2M7x8WyLKSV3TIvi04fQ/QMQ0QpVvu4V6Q7kKbGJDOS97Fsr41SPe8=
+X-Received: by 2002:ac2:4884:0:b0:472:344:1c86 with SMTP id x4-20020ac24884000000b0047203441c86mr651321lfc.628.1652378230697;
+        Thu, 12 May 2022 10:57:10 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1652378230; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Ti/ahXHwk5v8dItZAr7k+TpHWburJffh7LnSkgywKkFKluApomfx9KV95fpE/TeUTo
+         gpwBrJskLmIPr6+BTxgctEYOo3baMsXgiNJg1yoNYkgaua7hX1u44gZVs0FbmH0g+5H4
+         gujTNRBWNI1lrLjqHVIy5g4T5l1zjLw5wbBehjnonJR6fcSgJLVbcwTWdutdkoWmJUms
+         8Qev9lrJhya/qyX9gXCP+JKHk21hlvZKLyqBmI2ku0icUCp6eB/ePSwnoKk1JmMY5d72
+         SSLbA+I2l1m8exa8nX7qPulWyXUBaP3UDxAn0qNuV5LtkaIJbnht2CnRbs8mKAYZN1Pl
+         nIyA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=L+gujAMF7t8hc8Hx8tzI0y3EYD+hE/3TE0qMxXLn2ZM=;
+        b=r/ABQjYH5C2oTA4D3PTuvTI+VQz23OvowxfzV+OjpihqRvQJNUOPpIhBKJ0zNtvIA7
+         fwcR+hiZW9kvRz+8Fw+TkuKlqgw80PP9i8x6+28JlIiQiQlcEepHNZAt2NapW2sFh4df
+         l6Yb7xvYOyf7JjsInKN3Q4yZBxhF31M3m5mMz4pLp3fI32EevYP5Je4h13UBXub4gJAs
+         ubNW/n4H6008RfSuV039oQVINtYoThdWY1kNdJlFME8lSCxu1A99x+TOiCFjL3vH1/kz
+         sRbbps87aPQPi29jTaH6k9PY59afybvxR+EOAY8KtVkOzt7o08KKfxGFOnCnR4ja3nIJ
+         K+FA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=aYCiDDsQ;
+       spf=pass (google.com: domain of delivery_20220512135651.27692123.259606@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20220512135651.27692123.259606@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220512135651.27692123.259606@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id c5-20020a2e9d85000000b002499fdca3e4si6206ljj.3.2022.05.12.10.56.58
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 12 May 2022 10:57:10 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220512135651.27692123.259606@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=RVy/T/qrPoEzQZEqZboBkykdnfls0ZQ45Pbr5yUSpBU=;
+ b=aYCiDDsQ6TmAPC+dqr4ARlzAqe7Z4U/s4Po/pWsSJWETYehfqMLCoBxM0u5W9BAlAOQR4lru3Vpv
+   rHNmQtCGj5I+2eEUGJLBHxRZR4ztyKm/6IgFXIcs9qLfacofSLN7ISG9SDwDJ7RNn4Y+2J1Lhhr5
+   1RYVKfi8sZSHlj+mdUg=
+Received: from njmta-53.sailthru.com (173.228.155.53) by bloomberg-b.sailthru.com id hfl56o2tkt06 for <bloomberg@khamel.com>; Thu, 12 May 2022 13:56:52 -0400 (envelope-from <delivery_20220512135651.27692123.259606@mx.sailthru.com>)
+Received: from nj1-madforest.flt (172.18.20.33) by njmta-53.sailthru.com id hfl5681qqbsm for <bloomberg@khamel.com>; Thu, 12 May 2022 13:56:51 -0400 (envelope-from <delivery_20220512135651.27692123.259606@mx.sailthru.com>)
+Date: Thu, 12 May 2022 13:56:51 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220512135651.27692123.259606@sailthru.com>
+Subject: Money Stuff: Crypto Could Be Contagious
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9555248_370192481.1652378211956"
+Precedence: bulk
+X-Feedback-ID: 6358:27692123:campaign:sailthru
+X-TM-ID: 20220512135651.27692123.259606
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-madforest.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cghjdn.5kba/89e7a234
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cghjdn.5kba/89e7a234>, <mailto:unsubscribe_20220512135651.27692123.259606@mx.sailthru.com>
+X-rpcampaign: stjko27692123
+
+------=_Part_9555248_370192481.1652378211956
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Monday.=
+CryptoIn 2008 the prices of some structured credit products built out of=20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.
+ =20
+   =20
+      Crypto
+   =20
+ =20
+In 2008 the prices of some structured credit products built out of subprime=
+ U.S. mortgages went down, and as a result there was a global recession and=
+ millions of people lost their jobs. If you had asked a normal person in 20=
+07: =E2=80=9CHow would it affect your life if it turns out that investors h=
+ave mispriced the super-senior risk in synthetic collateralized debt obliga=
+tions built out of subprime mortgage tranches,=E2=80=9D that person would h=
+ave said =E2=80=9CI have no idea what you are talking about, but I can=E2=
+=80=99t imagine how that collection of words would affect me.=E2=80=9D But =
+it did. Loosely speaking,[1] the mechanism was that the people (often banks=
+ or shadow banks) who owned subprime CDOs (1) also owned other stuff and (2=
+) had borrowed money to buy that stuff. When their CDOs collapsed, they had=
+ to sell other stuff to pay off their debts, which drove down the prices of=
+ other stuff, which led to broad market contagion, which destroyed a lot of=
+ wealth, which reduced economic activity, etc. Meanwhile the banks had lost=
+ money and were more risk-averse and less able to lend, which also reduced =
+economic activity. And so normal people lost their jobs because of contagio=
+n from some weird financial asset that they hadn=E2=80=99t even heard of.If=
+ you asked a normal person, you know, two weeks ago: =E2=80=9CHow would it =
+affect your=C2=A0life if the prices of some monkey JPEGs and algorithmic st=
+ablecoins crash,=E2=80=9D I think most people would reasonably have said =
+=E2=80=9CI do not own a monkey JPEG and do not aspire to own one, so this w=
+ill not affect me at all.=E2=80=9D My=C2=A0guess=C2=A0is that they would ha=
+ve been right. My=C2=A0guess=C2=A0is that the real world is not=C2=A0too=C2=
+=A0affected by the crypto world, and that if crypto prices crash there will=
+ not be a ton of contagion in the rest of the financial system. But I think=
+ it is, at this point, debatable. Crypto has at least started to work its w=
+ay into the real financial system. Some traditional investors also own cryp=
+to; if their crypto goes down they might have to sell regular stuff. Some p=
+ublic companies are exposed to crypto (because they  are crypto exchanges, =
+because they have levered crypto holdings, etc.), so your boring old index =
+fund might go down when crypto goes down.Ten years ago, if you had waved a =
+magic wand and every cryptocurrency went to zero, not much would have happe=
+ned. A few oddballs experimenting with a newfangled money called Bitcoin wo=
+uld have seen their experiment fail. =E2=80=9COh well, that was cool for a =
+while,=E2=80=9D they would have said.Five years ago, if every cryptocurrenc=
+y went to zero, a lot of people would have lost a lot of money. But they wo=
+uld mostly be crypto people:=C2=A0Some individuals and some hedge funds tha=
+t bought crypto would lose their money. The contagion to the real financial=
+ system would have been small. Lamborghini dealerships would have a rough y=
+ear. But most people would barely notice.Five years from now, if every cryp=
+tocurrency goes to zero =E2=80=A6=C2=A0well, I don=E2=80=99t know what the =
+next five years will be like, but a plausible story (as of last week anyway=
+!) is that there will be continuing integration of crypto into the real eco=
+nomy. More crypto companies will be big and important and intertwined with =
+other companies; their stock will be in the indexes and they will borrow mo=
+ney from banks and use their own money to finance real businesses. More tra=
+ditional investors will own crypto, and will make levered bets on crypto, a=
+nd if those bets blow up they will naturally sell more liquid traditional a=
+ssets, causing contagion from crypto markets to stock and bond markets. Cry=
+pto platforms will be used for real economic activity; ordinary people will=
+ invest their savings in those platforms, and those investments will be use=
+d to finance real, non-crypto business activity. You=E2=80=99ll get your mo=
+rtgage from a decentralized finance platform or whatever.This is a very=C2=
+=A0bullish=C2=A0story for crypto; in this story, broad institutional adopti=
+on and growing utility will be good for the popularity, and prices, of cryp=
+to. And then if there=E2=80=99s a break in crypto =E2=80=94=C2=A0if there=
+=E2=80=99s a run on a stablecoin, if there=E2=80=99s a rug-pull in a popula=
+r DeFi project, if all the apes gone =E2=80=94 that break will naturally sp=
+read to the broader financial system, and that will be a sign of crypto=E2=
+=80=99s success. Ideally there would not be a lot of breaks; that would als=
+o be a sign of success. But a sign of=C2=A0failure=C2=A0would be if crypto =
+projects keep blowing up and nobody outside of those projects notices. That=
+ would be a sign that crypto isn=E2=80=99t good for anything, that it canno=
+t provide benefits to the real world. If crypto can be good for the real wo=
+rld, then crypto prices going down should be bad for the real world.Right n=
+ow we are probably in between? Crypto has been  having a horrible time:A ma=
+ssive sell-off in cryptocurrencies wiped over $200 billion of wealth from t=
+he market in just 24 hours, according to estimates from price-tracking webs=
+ite CoinMarketCap.The broad plunge in the crypto complex, driven by the col=
+lapse of the TerraUSD stablecoin, hit major tokens hard. Bitcoin plunged by=
+ as much as 10% in the last day to its lowest level since Dec. 2020, while =
+Ethereum dropped as much as 16%.And there does seem to be=C2=A0some worry a=
+bout contagion to broader markets, at least through the transmission vector=
+ of=C2=A0retail meme traders. Bloomberg=E2=80=99s=C2=A0Lynn Thomasson and A=
+nchalee Worrachate report:As markets slumped in unison on Thursday, traders=
+ pointed to the chaos in crypto as a focal point of their concern. Strategi=
+sts are increasingly worried that small traders, already nursing losses fro=
+m the meme stock craze, will be wiped out on their crypto holdings and sell=
+ everything else.=C2=A0=E2=80=9CContagion here is not via linkages between =
+the crypto ecosystem and the traditional financial system, but via retail i=
+nvestors sentiment,=E2=80=9D said Nikolaos Panigirtzoglou, global market st=
+rategist at JPMorgan Chase & Co. =E2=80=9CIf the $1 trillion capital loss i=
+n crypto markets causes broad-based retrenchment by retail investors in oth=
+er risk assets such as equities, then that=E2=80=99s where the spillover is=
+.=E2=80=9D =E2=80=A6=E2=80=9CToday there is a new bear factor that has come=
+ into play, namely the collapse in the cryptocurrencies,=E2=80=9D wrote Mal=
+colm Freeman, a director at Kingdom Futures.=C2=A0=E2=80=9CInvestors are ge=
+tting wiped out in many cases and the question is: Are those investors also=
+ involved in equities? Because if they run for the exit, then metals will t=
+ake notice and most likely head in the same direction,=E2=80=9D he said.=C2=
+=A0And Katie Martin notes that =E2=80=9CTypically, what happens in crypto s=
+tays in crypto. But big moves can cut through=E2=80=9D:One banker tells me =
+his hedge fund clients are watching closely now, with several taking seriou=
+sly the possibility that a big crash in crypto, if it happens, could be sup=
+portive for that most crucial of markets, US government bonds, again on the=
+ notion that it would spark a rush to safer places to park cash.Martin also=
+ notes that Tether, the popular stablecoin, which=C2=A0briefly  lost its pe=
+g to the dollar, is another potential channel of contagion:Last year, ratin=
+g agency Fitch warned that if tether holders were to fold and seek to flip =
+their tokens into real money, then that could destabilise the short-term cr=
+edit markets where the company says it holds lots of funds.=E2=80=9CThe rap=
+id growth of stablecoin issuance could, in time, have implications for the =
+functioning of short-term credit markets,=E2=80=9D Fitch=E2=80=99s analysts=
+ said, pointing to =E2=80=9Cpotential asset contagion risks linked to the l=
+iquidation of stablecoin reserve holdings=E2=80=9D.Credit markets are alrea=
+dy wobbling under the pressure of a shift higher in benchmark interest rate=
+s. The notion that Tether could, if push came to shove, offload chunks of i=
+ts claimed $24bn stash of commercial paper, $35bn hoard of US Treasury bill=
+s or $4bn pile of =E2=80=9Ccorporate bonds, funds and precious metals=E2=80=
+=9D into these market conditions is potentially unhelpful.I make fun of Tet=
+her a lot around here, but at a high level you could argue that Tether is o=
+ne of the more important crypto projects in terms of having an effect on th=
+e real economy. The argument is:=09Crypto users want a stablecoin to suppor=
+t their transactions,=C2=A0gambling, yield farming, etc., and Tether is a p=
+opular one.=09The way Tether works is that if you buy one Tether for a doll=
+ar, Tether parks that dollar in some interest-earning dollar-denominated as=
+set.=09In practice this means making billions of dollars of loans to real c=
+ompanies and financial institutions to finance their businesses.[2]=C2=A0 Y=
+ou know, like a bank.=09Tether thus provides financing to the real economy =
+much like a bank does, and because it is =E2=80=A6=C2=A0regulated different=
+ly? =E2=80=A6=C2=A0it can perhaps be more nimble in financing good but risk=
+y projects.In that model, a run on the Tether bank =E2=80=94=C2=A0that is, =
+a run on the crypto bank, on the safe assets of the crypto world=C2=A0=E2=
+=80=94 would be bad in much the same way a run on a real bank would be bad,=
+ or the way a run on the 2008 shadow banking system was bad: It would cut b=
+ack on credit to real businesses and be bad for the economy.You could have =
+a different model, though.=C2=A0In other Tether news today:Tether has refus=
+ed to disclose details on its $40bn hoard of US government bonds for fear o=
+f revealing its =E2=80=9Csecret sauce=E2=80=9D, even as one of the world=E2=
+=80=99s most important crypto assets comes under strain from heavy selling =
+pressure.Paolo Ardoino, Tether=E2=80=99s chief technology officer, said on =
+Thursday that the group cannot provide information on which organisation is=
+ providing custody of its Treasuries holdings, nor where the assets are sto=
+red or which firms handle trading on its behalf.=E2=80=9CThis is informatio=
+n that is privileged=E2=80=89.=E2=80=89.=E2=80=89.=E2=80=89we don=E2=80=99t=
+ want to give our secret sauce,=E2=80=9D he said in an interview with the F=
+inancial Times. =E2=80=9COur counterparties are not public. We are not a pu=
+blic company. So we keep that information [to] ourselves, but we are workin=
+g with many big institutions in the traditional financial space.=E2=80=9D=
+=C2=A0Terrific!=C2=A0
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Terra
+   =20
+ =20
+We  talked yesterday about the ongoing collapse of TerraUSD, or UST, the $1=
+8 billion algorithmic stablecoin from Terraform Labs. The basic idea of an =
+algorithmic stablecoin is that you can always exchange one UST for $1 worth=
+ of Luna, Terraform=E2=80=99s other cryptocurrency, which is meant to guara=
+ntee that UST always trades at $1. The risk with this sort of algorithmic s=
+tablecoin is that nothing props up the price of=C2=A0Luna, and so if people=
+ get worried about UST and try to cash out, they will get $1 worth of Luna,=
+ which they will sell, which will drive down the price of Luna, which will =
+make people more worried, which will lead more of them to cash out UST and =
+sell Luna, which will further drive down the price of Luna, etc., in what i=
+s known as a death spiral. Eventually cashing out $1 of UST might get you, =
+like, a trillion Luna that no one will want to buy, and the whole thing mig=
+ht collapse.When I wrote about this yesterday UST was trading at about $0.5=
+3, down about 47% from where it was supposed to be,=C2=A0and Luna was tradi=
+ng at about $2.20, down about 93% in 24 hours. Which sounds pretty=C2=A0dea=
+th-spirally.=C2=A0And yet it wasn=E2=80=99t=C2=A0that=C2=A0death-spirally. =
+Most of the holders of UST had not cashed it in for Luna, in part because t=
+he smart contract that turned UST into Luna was moving too slowly to cash o=
+ut all the UST holders who wanted out. People were just selling UST on exch=
+anges, for prices below $1, and those UST were not being bought by arbitrag=
+eurs and transformed into $1 of Luna because the arbitrage mechanism had br=
+oken down. Do Kwon, the founder of Terraform Labs and the face of UST and L=
+una, tweeted to endorse a plan to print Luna faster so that, you know, the =
+death spiral could hurry up. The collapse in UST and Luna prices was not pu=
+rely a death spiral happening; rather, it was market prices reflecting trad=
+ers=E2=80=99 anticipation of the death spiral.Today, though, things got mor=
+e death-spirally. As of 11 a.m.=C2=A0New York time, Luna was trading at abo=
+ut $0.013. According to CoinMarketCap data, it peaked at $116.41 in April, =
+and was trading above $80 a week ago. It lost 98.7% of its value between la=
+st Thursday and yesterday, and then another 98.8% so far today. It is down =
+about 99.98% in a week. At $0.013, the market capitalization of Luna =E2=80=
+=94=C2=A0the total value of all 3.5 billion Luna tokens outstanding =E2=80=
+=94=C2=A0was about $45 million.Meanwhile TerraUSD, which had rebounded a bi=
+t yesterday,=C2=A0was trading at about $0.49, and there were about 11.9 bil=
+lion UST outstanding (down from 18.7 billion last week). People have cashed=
+ out almost 7 billion UST for Luna, which increased the supply of Luna from=
+ about 343 million Luna last week, to about 1.5 billion yesterday, to about=
+ 3.5 billion this morning.[3] This increased supply, and the accompanying l=
+oss of confidence,=C2=A0drove the price of Luna down by=C2=A099.98% in a we=
+ek.Meanwhile there is still 11.9 billion UST remaining, which in theory cou=
+ld be cashed out for $11.9 billion worth of Luna. But as the supply of Luna=
+ has ballooned, its total value has fallen to just $45 million. If you trie=
+d to cash out 1% of the remaining UST =E2=80=94=C2=A0$119 million of face v=
+alue =E2=80=94=C2=A0you would get back something like 9 billion Luna, more =
+than double the current amount of Luna outstanding. If you sold those 9 bil=
+lion Luna you would not get back $118 million. The price of Luna would drop=
+ by another =E2=80=A6=C2=A0I do not have a precise number here, but let=E2=
+=80=99s estimate that it=E2=80=99s a two-digit percentage where the first d=
+igit is a 9, and the second digit is a 9, and probably some of the digits a=
+fter the decimal point are also 9s. That=E2=80=99s if you cashed out one pe=
+rcent=C2=A0of the remaining UST. Then you=E2=80=99d have to cash out the ot=
+her 99%. That=E2=80=99s a death spiral.Elsewhere in Terra and Luna:=09I hav=
+e mostly been writing about this story on the conceptual level of the algor=
+ithmic stablecoin mechanics (and death spirals), but, again, the drop in Te=
+rraUSD started not so much as a death spiral (redeeming UST for Luna, selli=
+ng Luna, etc.) but rather as market trades that anticipated=C2=A0(or bet=C2=
+=A0on, or tried to cause) a death spiral. There is a fair amount of conspir=
+acy theorizing about who was doing these trades and why, but there is also =
+some good analysis of what actually happened. Here, for instance, is a look=
+ at=C2=A0the order books for UST on different crypto exchanges.=C2=A0=09Mea=
+nwhile on the conspiracy theories: People on Twitter have sometimes pointed=
+ to Citadel Securities and, for some reason, BlackRock Inc. as the shadowy =
+figures behind UST=E2=80=99s collapse. They have   denied it. Citadel Secur=
+ities =E2=80=9Cdoes not trade stablecoins, including UST,=E2=80=9D and=C2=
+=A0=E2=80=9CBlackRock does not trade UST,=E2=80=9D their spokespeople said.=
+ For the record (1) I believe them but (2) I would laugh a lot if Citadel S=
+ecurities was in fact behind the trade that broke UST.=C2=A0(I would be ver=
+y confused if it was BlackRock.)=C2=A0=09There is a Swiss=C2=A0exchange-tra=
+ded product linked to Luna? Oops! You can imagine  how that=E2=80=99s going=
+.=09CoinDesk  reports that =E2=80=9CDo Kwon, the CEO of Terra creator Terra=
+form Labs, was one of the pseudonymous co-founders behind the failed algori=
+thmic stablecoin Basis Cash.=E2=80=9D Third time=E2=80=99s the charm, maybe=
+. Kwon hasn=E2=80=99t tweeted since yesterday morning (New York time),  whe=
+n he said =E2=80=9CWe=E2=80=99re here to stay. And we=E2=80=99re gonna keep=
+ making noise.=E2=80=9D=C2=A0
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Musk Stuff (1)
+   =20
+ =20
+What a weird deal:Elon Musk is in talks to raise enough equity and preferre=
+d financing for his proposed buyout of Twitter Inc. to eliminate the need f=
+or any margin loan linked to his Tesla Inc. shares, according to people wit=
+h knowledge of the matter.=C2=A0The billionaire=E2=80=99s advisers, led by =
+Morgan Stanley, have begun soliciting interest from potential investors for=
+ as much as $6 billion in preferred equity financing, the people said, aski=
+ng not to be named discussing a private transaction. =E2=80=A6The preferred=
+ equity may have a 20-year maturity and include a feature allowing interest=
+ to be paid in kind at a rate of 14%, the people said. That interest rate w=
+ould be increased by 75 basis points in the seventh, eight and ninth year, =
+they added. The financing may alternatively be structured with a 10% intere=
+st rate and warrants, one of the people said.=C2=A0I can definitely see why=
+ he would want to get rid of the margin loan. If he gets  the margin loan, =
+he has to pay interest on it every year, in cash, himself; he=E2=80=99d be =
+making continuing payments for the privilege of owning Twitter. Whereas if =
+he raises debt, or preferred stock,=C2=A0at Twitter, that=E2=80=99s Twitter=
+=E2=80=99s problem; he doesn=E2=80=99t have to keep shelling out cash just =
+to own Twitter. Of course if he eliminates the margin loan he is still on t=
+he hook to contribute something like $20 billion of equity to the Twitter b=
+uyout, meaning that he still has to come up with $20 billion of cash at clo=
+sing, and arguably Musk=E2=80=99s opportunity cost (and taxes!) of selling =
+$20 billion of Tesla stock to raise that money is higher than the interest =
+on the margin loan. Still, if he sells Tesla stock, it=E2=80=99s done; if h=
+e margins his Tesla stock, that creates a continuing overhang.I have a hard=
+er time understanding a 14% pay-in-kind preferred? At Twitter? Musk=E2=80=
+=99s buyout plans for Twitter already involve $13 billion of high-yield deb=
+t with  an interest cost of, in rough numbers, all of Twitter=E2=80=99s cas=
+h flow in the near future. There is certainly not enough money left over to=
+ pay a 14% cash dividend on $6 billion of preferred stock. So you just accr=
+ue it up; in three years $6=C2=A0billion of preferred turns into $9 billion=
+; in seven years it=E2=80=99s $15 billion. If he sells Twitter for a lot mo=
+re than he paid for it, the preferred gets paid and he makes money. If he s=
+ells Twitter for less than he paid for it, the preferred gets paid before h=
+e does, though after the $13 billion of debt. Buying this preferred is esse=
+ntially a bet that Elon Musk will do=C2=A0okay=C2=A0with Twitter: If it=E2=
+=80=99s a disaster, you lose everything, and if it=E2=80=99s a huge success=
+, you=E2=80=99d rather just own regular equity.[4] I feel like =E2=80=9Cdis=
+aster=E2=80=9D and =E2=80=9Chuge success=E2=80=9D are the main Elon Musk ou=
+tcomes, making this kind of a strange bet.Elsewhere, Musk might do the thin=
+g where he takes Twitter private but somehow allows small retail shareholde=
+rs to keep their stock? I mean, not really, but  here=E2=80=99s this:Some p=
+otential investors -- including hedge funds and wealthy individuals -- have=
+ been pitched the opportunity to invest $5 million or more in the Twitter b=
+uyout, according to people with knowledge of the matter. They=E2=80=99re be=
+ing invited to commit money through special-purpose vehicles that will pool=
+ capital together from a variety of smaller sources, the people said.=C2=A0=
+One party canvassing investors is seeking to collect $500 million in total,=
+ and plans to charge a 5% fee to whoever it brings in. The move could allow=
+ a well-connected financier to rope in investors who might not have direct =
+access to the deal, but nonetheless want to join one of the biggest leverag=
+ed buyouts in history. =E2=80=A6Getting into the deal through one of these =
+side funds isn=E2=80=99t being sanctioned by Musk, according to a person fa=
+miliar with the matter. Musk=E2=80=99s existing equity investment agreement=
+s have been structured to forbid investors from raising a special purpose v=
+ehicle, the person said. If investors do participate in them, they risk los=
+ing their shares, the person said.Still, Musk is open to smaller investors =
+getting involved and has already agreed to accept checks from as low as $5 =
+million, a filing showed last week.Yeah I mean I can see why you=E2=80=99d =
+go around pitching that, even if Musk has explicitly forbidden it.
+ =20
+   =20
+      Musk Stuff (2)
+   =20
+ =20
+Yeah no I mean obviously:Federal regulators are investigating Elon Musk=E2=
+=80=99s late disclosure last month of his sizable stake in Twitter Inc., ac=
+cording to people familiar with the matter, a lag that allowed him to buy m=
+ore stock without alerting other shareholders to his ownership.The Securiti=
+es and Exchange Commission is probing Mr. Musk=E2=80=99s tardy submission o=
+f a public form that investors must file when they buy more than 5% of a co=
+mpany=E2=80=99s shares, the people said. The disclosure functions as an ear=
+ly sign to shareholders and companies that a significant investor could see=
+k to control or influence a company.The Tesla Inc. chief executive made his=
+ filing on April 4, at least 10 days after his stake surpassed the trigger =
+point for disclosure. Mr. Musk hasn=E2=80=99t publicly explained why he did=
+n=E2=80=99t file in a timely manner. =E2=80=A6Mr. Musk likely saved more th=
+an $143 million by not reporting that his trades had crossed the 5% thresho=
+ld, said Daniel Taylor, a University of Pennsylvania accounting professor, =
+since the share price could have been higher had the market known of the bi=
+llionaire=E2=80=99s growing stake.There is not a ton to investigate here? L=
+ike, I don=E2=80=99t know, you would need to look at his form, and then you=
+=E2=80=99d need to look at a calendar, and then you=E2=80=99d pretty much b=
+e done. You could send a bunch of subpoenas, asking Musk and Twitter and hi=
+s lawyers and brokers for documents relating to his purchases; you could ca=
+ll Musk and others in for interviews to find out what he was thinking. But =
+none of that matters at all because the rule is you have to file the form w=
+ithin 10 days and he did not do that. I  reached that conclusion a month ag=
+o, based on obvious public evidence, and I=E2=80=99m sure the SEC did too.I=
+ do not think they are really=C2=A0investigating. I think they are, like, p=
+syching themselves up to approach Musk:SEC: Mr. Musk, sir, it appears that =
+you filed this form late.Musk: Why do you bastards insist on persecuting me=
+.SEC: That=E2=80=99s hurtful.Musk: I have  no respect for you.SEC: Still, t=
+here is a rule, you can read it right  here, it says you have to file this =
+form within 10 days, and you missed that deadline by like  11 days.Musk: We=
+ll, no harm no foul.SEC: Actually by our math this cost ordinary investors =
+ $143 million.Musk: What are you going to do about it?SEC: We would propose=
+ that you pay a small fine and promise not to do it again.Musk: No deal, se=
+e you in court!SEC: Ah.Musk: Anything else?SEC: Well, when you eventually d=
+id file the form,  you used the wrong form.Musk: I am going to make it my p=
+ersonal mission to destroy your career.SEC: Look we are just enforcing very=
+ clear rules.Musk: When I own Twitter the algorithm will constantly show pe=
+ople tweets abusing you by name.SEC: We live in a society of laws! They app=
+ly to you as well!Musk: I=E2=80=99m going to shoot satellites into space an=
+d arrange them in such a way that when people look up into the night sky th=
+ey will see a picture of me making an obscene gesture at you.What a terribl=
+e job.=C2=A0
+ =20
+   =20
+      Chicken Box for the Soul
+   =20
+ =20
+ Yeesh:Chicken Soup for the Soul Entertainment Inc. has acquired Redbox Ent=
+ertainment Inc., a movies-to-rent streaming service that went public throug=
+h a blank-check company last year, another sign that once-booming SPACs and=
+ the deals they fueled are losing steam.The acquisition is valued at about =
+$31 million, according to data compiled by Bloomberg, a huge markdown from =
+the $254 million valuation Redbox had traded for before the deal was announ=
+ced Wednesday. Chicken Soup has agreed to take on about $321 million in Red=
+box debt and got the company a new term loan.=C2=A0As part of the all-stock=
+ transaction, shareholders of Redbox will receive 0.087 of Chicken Soup=E2=
+=80=99s Class A common stock per share. Apollo Global Management, one of th=
+e largest backers of Redbox, will own roughly 15.2% of the newly combined e=
+ntity while direct lender HPS Partners will own about 4%. The deal is set t=
+o close in the second half of 2022.Redbox shares, which plunged as much as =
+50% Wednesday, closed down 43% to $3.20 apiece. Since the blank-check deal =
+that took the company public, Redbox=E2=80=99s shares have now fallen more =
+than 66%, giving it a market value of $145 million.Redbox went public by me=
+rging with a special purpose acquisition company in October 2021. As is tra=
+ditional in a SPAC deal, Redbox essentially went public at $10 per share. A=
+fter the deal, Redbox traded as high as $17.93 per share, for a market capi=
+talization of about $1 billion. Then it all kind of fell apart. =E2=80=9CDu=
+ring 2021, Redbox Entertainment Inc.=E2=80=99s (=E2=80=98Redbox=E2=80=99) b=
+usiness was negatively impacted by the effects of the ongoing COVID-19 pand=
+emic, which resulted in fewer releases on its platforms than management pre=
+viously expected and materially lower financial results,=E2=80=9D it announ=
+ced in February. (Remember it went public in October 2021; what=C2=A0did=C2=
+=A0they expect 2021 results to be like at that point?) By Tuesday, the stoc=
+k was at $5.60, for a market cap of just $254 million.=C2=A0And then Redbox=
+ went and sold itself to Chicken Soup for $31 million? Each Redbox share, w=
+hich traded at $5.60 on Tuesday, will be exchanged for 0.087 Chicken Soup s=
+hares, which traded at $7.92=C2=A0on Tuesday, for a merger value of about $=
+0.69 per share, an 88% discount to the pre-merger price. Ordinarily when on=
+e company acquires another it pays a premium, though in an all-stock merger=
+ of equals (which this is not really) there might be no premium. A merger a=
+t a discount =E2=80=94=C2=A0a =E2=80=9Ctake-under=E2=80=9D =E2=80=94=C2=A0i=
+s rare. A merger at an 88% discount is =E2=80=A6=C2=A0I don=E2=80=99t know,=
+ Bear Stearns comes to mind?[5]When they read the announcement, people appa=
+rently thought the exchange ratio might be a typo. Selling Redbox for 0.87 =
+Chicken Soup shares worth about $6.89, a 23% premium to Redbox=E2=80=99s ba=
+ttered stock price, would be kinda normal. But, no, it=E2=80=99s 0.087. At =
+11 a.m. Redbox was trading at $2.58, basically in disbelief, while Chicken =
+Soup was at $6.17, giving an implied deal value of $0.49.I don=E2=80=99t kn=
+ow! The implication here seems to be that Redbox was basically running out =
+of money and this deal rescued it from that fate[6]; it=E2=80=99s bad=C2=A0=
+for shareholders, but better than the alternative, and at least they get to=
+ participate in the upside (via Chicken Soup stock) if things get better. =
+=E2=80=9CRedbox stockholders holding approximately 86% of the Redbox voting=
+ power have entered into a voting agreement to approve the transaction,=E2=
+=80=9D so if you are a retail shareholder who bought the SPAC stock and are=
+ unhappy about this deal there is not a lot you can do about it. You could =
+probably sell at $2.58 before the deal closes at $0.49 though.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+European gas prices soar after Moscow imposes sanctions on EU energy compan=
+ies. GameStock jumps sharply in odd trading; AMC shares also pop. SoftBank =
+Loses $26 Billion on Tech Investments Amid Selloff. Twitter chief=E2=80=99s=
+ $30mn pay package at risk of shareholder revolt. Intercontinental Exchange=
+ Kicks Off Six-Part  Bond Sale for M&A.=C2=A0Schroders, BlackRock, Pimco Fa=
+ce Losses as  Adler=E2=80=99s Troubles Grow.=C2=A0OneCoin  Cryptoqueen Name=
+d Among Europe=E2=80=99s Most Wanted Fugitives. Now You Can Own a Fraction =
+of a  Fancy Colored Diamond.If you'd like to get=C2=A0Money=C2=A0Stuff=C2=
+=A0in handy email form, right in your inbox, please=C2=A0subscribe at this =
+link. Or you can subscribe to Money Stuff and other great Bloomberg newslet=
+ters here. Thanks![1] Please do not email me to explain that I=E2=80=99m mi=
+ssing important nuances here about the 2008 financial crisis and the ensuin=
+g recession. Let=E2=80=99s just grant that.[2] If you are a  Tether skeptic=
+ you mostly question how real and  creditworthy these companies are. With  =
+good reason!=C2=A0[3] These numbers are calculated from CoinMarketCap data.=
+ For instance CoinMarketCap shows market caps for Luna of about $26 billion=
+ to $30 billion late last week, at prices in the high $70s and low $80s; if=
+ you divide the price by the market cap you get a fairly stable quantity of=
+ about 343 million Luna. Yesterday=E2=80=99s closing price of $1.07 and mar=
+ket cap of $1.57 billion gets a supply of about 1.47 billion Luna. As of 11=
+ a.m. CoinMarketCap showed=C2=A0a =E2=80=9Ccirculating supply=E2=80=9D of 3=
+.45 billion Luna, with a market cap of $55 million. (There is also a higher=
+ =E2=80=9Ctotal supply=E2=80=9D of 4.9 billion Luna, for a somewhat larger =
+=E2=80=9Cfully diluted market cap,=E2=80=9D but these differences don=E2=80=
+=99t matter much for our purposes.)[4] Or a 10% preferred with warrants, th=
+ough you=E2=80=99d still probably rather own straight equity.[5] Bear=E2=80=
+=99s stock closed at $30.85 on Friday, March 14, 2008; it collapsed over th=
+e weekend and JPMorgan Chase & Co.=C2=A0agreed to buy it for $2 per share t=
+hat Sunday.[6] Again, like Bear.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cghjdn.5kba/5cda0648.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_9555248_370192481.1652378211956
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Monday.CryptoIn=
+ 2008 the prices of some structured credit products built out of=20
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNzY5MjEyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc5NTE3Mjkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB8c051d8f" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D27692123&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27951729&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNTEyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA1MTImdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB2fed9735"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNzY5MjEyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc5NTE3Mjkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC304975e9" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D27692123&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27951729&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Monday.</em></p><table class=3D"header" =
+width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Crypto</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">In 2008 the prices of some structured =
+credit products built out of subprime U.S. mortgages went down, and as a re=
+sult there was a global recession and millions of people lost their jobs. I=
+f you had asked a normal person in 2007: =E2=80=9CHow would it affect your =
+life if it turns out that investors have mispriced the super-senior risk in=
+ synthetic collateralized debt obligations built out of subprime mortgage t=
+ranches,=E2=80=9D that person would have said =E2=80=9CI have no idea what =
+you are talking about, but I can=E2=80=99t imagine how that collection of w=
+ords would affect me.=E2=80=9D But it did. Loosely speaking,[1] the mechani=
+sm was that the people (often banks or shadow banks) who owned subprime CDO=
+s (1) also owned other stuff and (2) had borrowed money to buy that stuff. =
+When their CDOs collapsed, they had to sell other stuff to pay off their de=
+bts, which drove down the prices of other stuff, which led to broad market =
+contagion, which destroyed a lot of wealth, which reduced economic activity=
+, etc. Meanwhile the banks had lost money and were more risk-averse and les=
+s able to lend, which also reduced economic activity. And so normal people =
+lost their jobs because of contagion from some weird financial asset that t=
+hey hadn=E2=80=99t even heard of.</p><p style=3D"margin: 16px 0;">If you as=
+ked a normal person, you know, two weeks ago: =E2=80=9CHow would it affect =
+your=C2=A0life if the prices of some monkey JPEGs and algorithmic stablecoi=
+ns crash,=E2=80=9D I think most people would reasonably have said =E2=80=9C=
+I do not own a monkey JPEG and do not aspire to own one, so this will not a=
+ffect me at all.=E2=80=9D My=C2=A0<em>guess=C2=A0</em>is that they would ha=
+ve been right. My=C2=A0<em>guess=C2=A0</em>is that the real world is not=C2=
+=A0<em>too=C2=A0</em>affected by the crypto world, and that if crypto price=
+s crash there will not be a ton of contagion in the rest of the financial s=
+ystem. But I think it is, at this point, debatable. Crypto has at least sta=
+rted to work its way into the real financial system. Some traditional inves=
+tors also own crypto; if their crypto goes down they might have to sell reg=
+ular stuff. Some public companies are exposed to crypto (because they <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDUtMTEvY29pbmJhc2UtdH=
+VtYmxlcy10by1yZWNvcmQtbG93cy1hcy1jcnlwdG8tbWVsdGRvd24tZGVlcGVucz9jbXBpZD1CQ=
+kQwNTEyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRl=
+ciZ1dG1fdGVybT0yMjA1MTImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a31=
+9a23cB01e086e8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> are crypto exchanges</a>, because they have <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/aHR0cHM6=
+Ly93d3cuYmFycm9ucy5jb20vYXJ0aWNsZXMvbWljcm9zdHJhdGVneS1zdG9jay1jcnVtYmxpbmc=
+tYml0Y29pbi1zbGlkZXMtcmF0ZXMtcmlzZS01MTY1MjExNzY1NT9tb2Q9U2VhcmNocmVzdWx0cw=
+/607f07ceef4b8524a319a23cBdc65aac9" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">levered crypto holdings</a>, et=
+c.), so your boring old index fund might go down when crypto goes down.</p>=
+<p style=3D"margin: 16px 0;">Ten years ago, if you had waved a magic wand a=
+nd every cryptocurrency went to zero, not much would have happened. A few o=
+ddballs experimenting with a newfangled money called Bitcoin would have see=
+n their experiment fail. =E2=80=9COh well, that was cool for a while,=E2=80=
+=9D they would have said.</p><p style=3D"margin: 16px 0;">Five years ago, i=
+f every cryptocurrency went to zero, a lot of people would have lost a lot =
+of money. But they would mostly be <em>crypto people:=C2=A0</em>Some indivi=
+duals and some hedge funds that bought crypto would lose their money. The c=
+ontagion to the real financial system would have been small. Lamborghini de=
+alerships would have a rough year. But most people would barely notice.</p>=
+<p style=3D"margin: 16px 0;">Five years from now, if every cryptocurrency g=
+oes to zero =E2=80=A6=C2=A0well, I don=E2=80=99t know what the next five ye=
+ars will be like, but a plausible story (as of last week anyway!) is that t=
+here will be continuing integration of crypto into the real economy. More c=
+rypto companies will be big and important and intertwined with other compan=
+ies; their stock will be in the indexes and they will borrow money from ban=
+ks and use their own money to finance real businesses. More traditional inv=
+estors will own crypto, and will make levered bets on crypto, and if those =
+bets blow up they will naturally sell more liquid traditional assets, causi=
+ng contagion from crypto markets to stock and bond markets. Crypto platform=
+s will be used for real economic activity; ordinary people will invest thei=
+r savings in those platforms, and those investments will be used to finance=
+ real, non-crypto business activity. You=E2=80=99ll get your mortgage from =
+a decentralized finance platform or whatever.</p><p style=3D"margin: 16px 0=
+;">This is a very=C2=A0<em>bullish=C2=A0</em>story for crypto; in this stor=
+y, broad institutional adoption and growing utility will be good for the po=
+pularity, and prices, of crypto. And then if there=E2=80=99s a break in cry=
+pto =E2=80=94=C2=A0if there=E2=80=99s a run on a stablecoin, if there=E2=80=
+=99s a rug-pull in a popular DeFi project, if <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/27692123.259606/aHR0cHM6Ly93d3cudmljZS5jb20vZW4=
+vYXJ0aWNsZS95M3YzbnkvYWxsLW15LWFwZXMtZ29uZS1uZnQtdGhlZnQtdmljdGltcy1iZWctZm=
+9yLWNlbnRyYWxpemVkLXNhdmlvcnM/607f07ceef4b8524a319a23cB68dbd648" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+all the apes gone</a> =E2=80=94 that break will naturally spread to the bro=
+ader financial system, and that will be a sign of crypto=E2=80=99s <em>succ=
+ess</em>. Ideally there would not be a lot of breaks; that would also be a =
+sign of success. But a sign of=C2=A0<em>failure=C2=A0</em>would be if crypt=
+o projects keep blowing up and nobody outside of those projects notices. Th=
+at would be a sign that crypto isn=E2=80=99t good for anything, that it can=
+not provide benefits to the real world. If crypto can be good for the real =
+world, then crypto prices going down should be bad for the real world.</p><=
+p style=3D"margin: 16px 0;">Right now we are probably in between? Crypto ha=
+s been <a href=3D"https://link.mail.bloombergbusiness.com/click/27692123.25=
+9606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDUtMTIvbW=
+9yZS10aGFuLTIwMC1iaWxpb24td2lwZWQtb2ZmLWNyeXB0b2N1cnJlbmN5LW1hcmtldC1pbi1hL=
+WRheT9jbXBpZD1CQkQwNTEyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3Vy=
+Y2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA1MTImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607=
+f07ceef4b8524a319a23cB9dac1b5a" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> having a horrible time</a>:</p><bl=
+ockquote><p style=3D"margin: 16px 0;">A massive sell-off in cryptocurrencie=
+s wiped over $200 billion of wealth from the market in just 24 hours, accor=
+ding to estimates from price-tracking website CoinMarketCap.</p><p style=3D=
+"margin: 16px 0;">The broad plunge in the crypto complex, driven by the col=
+lapse of the TerraUSD stablecoin, hit major tokens hard. Bitcoin plunged by=
+ as much as 10% in the last day to its lowest level since Dec. 2020, while =
+Ethereum dropped as much as 16%.</p></blockquote><p style=3D"margin: 16px 0=
+;">And there does seem to be=C2=A0some worry about contagion to broader mar=
+kets, at least through the transmission vector of=C2=A0retail meme traders.=
+ Bloomberg=E2=80=99s=C2=A0<a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/27692123.259606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGV=
+zLzIwMjItMDUtMTIvY3J5cHRvLXN0cmVzcy1pcy1mZWVkaW5nLXRoZS13aWRlci1zZWxsb2ZmLW=
+luLWdsb2JhbC1tYXJrZXRzP2NtcGlkPUJCRDA1MTIyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09Z=
+W1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDUxMiZ1dG1fY2FtcGFpZ249=
+bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB91ab0095" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">Lynn Thomasson an=
+d Anchalee Worrachate report</a>:</p><blockquote><p style=3D"margin: 16px 0=
+;">As markets slumped in unison on Thursday, traders pointed to the chaos i=
+n crypto as a focal point of their concern. Strategists are increasingly wo=
+rried that small traders, already nursing losses from the meme stock craze,=
+ will be wiped out on their crypto holdings and sell everything else.=C2=A0=
+</p><p style=3D"margin: 16px 0;">=E2=80=9CContagion here is not via linkage=
+s between the crypto ecosystem and the traditional financial system, but vi=
+a retail investors sentiment,=E2=80=9D said Nikolaos Panigirtzoglou, global=
+ market strategist at JPMorgan Chase &amp; Co. =E2=80=9CIf the $1 trillion =
+capital loss in crypto markets causes broad-based retrenchment by retail in=
+vestors in other risk assets such as equities, then that=E2=80=99s where th=
+e spillover is.=E2=80=9D =E2=80=A6</p><p style=3D"margin: 16px 0;">=E2=80=
+=9CToday there is a new bear factor that has come into play, namely the col=
+lapse in the cryptocurrencies,=E2=80=9D wrote Malcolm Freeman, a director a=
+t Kingdom Futures.=C2=A0</p><p style=3D"margin: 16px 0;">=E2=80=9CInvestors=
+ are getting wiped out in many cases and the question is: Are those investo=
+rs also involved in equities? Because if they run for the exit, then metals=
+ will take notice and most likely head in the same direction,=E2=80=9D he s=
+aid.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">And <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/27692123.259606/aHR0cHM6Ly93d3cuZ=
+nQuY29tL2NvbnRlbnQvNmRjZDAyNjMtZjk3NC00ODMzLTk3YTktOTNiMDViZTc0ZjZl/607f07c=
+eef4b8524a319a23cBd1c44b04" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">Katie Martin notes</a> that =E2=80=9CTy=
+pically, what happens in crypto stays in crypto. But big moves can cut thro=
+ugh=E2=80=9D:</p><blockquote><p style=3D"margin: 16px 0;">One banker tells =
+me his hedge fund clients are watching closely now, with several taking ser=
+iously the possibility that a big crash in crypto, if it happens, could be =
+supportive for that most crucial of markets, US government bonds, again on =
+the notion that it would spark a rush to safer places to park cash.</p></bl=
+ockquote><p style=3D"margin: 16px 0;">Martin also notes that Tether, the po=
+pular stablecoin, which=C2=A0briefly <a href=3D"https://link.mail.bloomberg=
+business.com/click/27692123.259606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2FydGljbGVzLzIwMjItMDUtMTIvdGV0aGVyLW1vdmVzLXRvLXJlYXNzdXJlLW1hcmtldC1hZnR=
+lci1iaWdnZXN0LXN0YWJsZWNvaW4tc2xpcHM_Y21waWQ9QkJEMDUxMjIyX01PTkVZU1RVRkYmdX=
+RtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNTEyJnV0b=
+V9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB8e47b6ac" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> los=
+t its peg to the dollar</a>, is another potential channel of contagion:</p>=
+<blockquote><p style=3D"margin: 16px 0;">Last year, rating agency Fitch war=
+ned that if tether holders were to fold and seek to flip their tokens into =
+real money, then that could destabilise the short-term credit markets where=
+ the company says it holds lots of funds.</p><p style=3D"margin: 16px 0;">=
+=E2=80=9CThe rapid growth of stablecoin issuance could, in time, have impli=
+cations for the functioning of short-term credit markets,=E2=80=9D Fitch=E2=
+=80=99s analysts said, pointing to =E2=80=9Cpotential asset contagion risks=
+ linked to the liquidation of stablecoin reserve holdings=E2=80=9D.</p><p s=
+tyle=3D"margin: 16px 0;">Credit markets are already wobbling under the pres=
+sure of a shift higher in benchmark interest rates. The notion that Tether =
+could, if push came to shove, offload chunks of its claimed $24bn stash of =
+commercial paper, $35bn hoard of US Treasury bills or $4bn pile of =E2=80=
+=9Ccorporate bonds, funds and precious metals=E2=80=9D into these market co=
+nditions is potentially unhelpful.</p></blockquote><p style=3D"margin: 16px=
+ 0;">I make fun of Tether a lot around here, but at a high level you could =
+argue that Tether is one of the more important crypto projects in terms of =
+having an effect on the real economy. The argument is:</p><ol style=3D"list=
+-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"=
+margin-bottom: 5px;">Crypto users want a stablecoin to support their transa=
+ctions,=C2=A0gambling, yield farming, etc., and Tether is a popular one.</l=
+i>=09<li style=3D"margin-bottom: 5px;">The way Tether works is that if you =
+buy one Tether for a dollar, Tether parks that dollar in some interest-earn=
+ing dollar-denominated asset.</li>=09<li style=3D"margin-bottom: 5px;">In p=
+ractice this means making billions of dollars of loans to real companies an=
+d financial institutions to finance their businesses.[2]=C2=A0 You know, li=
+ke a bank.</li>=09<li style=3D"margin-bottom: 5px;">Tether thus provides fi=
+nancing to the real economy much like a bank does, and because it is =E2=80=
+=A6=C2=A0regulated differently? =E2=80=A6=C2=A0it can perhaps be more nimbl=
+e in financing good but risky projects.</li></ol><p style=3D"margin: 16px 0=
+;">In that model, a run on the Tether bank =E2=80=94=C2=A0that is, a run on=
+ the crypto bank, on the safe assets of the crypto world=C2=A0=E2=80=94 wou=
+ld be bad in much the same way a run on a real bank would be bad, or the wa=
+y a run on the 2008 shadow banking system was bad: It would cut back on cre=
+dit to real businesses and be bad for the economy.</p><p style=3D"margin: 1=
+6px 0;">You could have a different model, though.=C2=A0In other <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/27692123.259606/aHR0cHM6Ly93d=
+3cuZnQuY29tL2NvbnRlbnQvNTg4N2VmNDMtZDQzYS00NjA4LWExYWMtYWFjYzk5ZjA3NmI5/607=
+f07ceef4b8524a319a23cB61447b75" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">Tether news today</a>:</p><blockquo=
+te><p style=3D"margin: 16px 0;">Tether has refused to disclose details on i=
+ts $40bn hoard of US government bonds for fear of revealing its =E2=80=9Cse=
+cret sauce=E2=80=9D, even as one of the world=E2=80=99s most important cryp=
+to assets comes under strain from heavy selling pressure.</p><p style=3D"ma=
+rgin: 16px 0;">Paolo Ardoino, Tether=E2=80=99s chief technology officer, sa=
+id on Thursday that the group cannot provide information on which organisat=
+ion is providing custody of its Treasuries holdings, nor where the assets a=
+re stored or which firms handle trading on its behalf.</p><p style=3D"margi=
+n: 16px 0;">=E2=80=9CThis is information that is privileged=E2=80=89.=E2=80=
+=89.=E2=80=89.=E2=80=89we don=E2=80=99t want to give our secret sauce,=E2=
+=80=9D he said in an interview with the Financial Times. =E2=80=9COur count=
+erparties are not public. We are not a public company. So we keep that info=
+rmation [to] ourselves, but we are working with many big institutions in th=
+e traditional financial space.=E2=80=9D=C2=A0</p></blockquote><p style=3D"m=
+argin: 16px 0;">Terrific!=C2=A0</p><table class=3D"liveintent-sponsored-con=
+tent" width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzY5MjEyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc5NTE3Mjkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDd3eccaa6" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27692123&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27951729&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzY5MjEyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc5NTE3Mjkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEd3eccaa6" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27692123&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27951729&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzY5MjEyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc5NTE3Mjkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF5a566cb1" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27692123&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27951729&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzY5MjEyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc5NTE3Mjkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG5a566cb1" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27692123&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27951729&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Terra</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/27692123.259606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjItMDUtMTEvdGVycmEtZmxvcHM_Y21waWQ9QkJEMDUxMjIyX01P=
+TkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm0=
+9MjIwNTEyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB4dbe9f26=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> talked yesterday</a> about the ongoing collapse of TerraUSD, or =
+UST, the $18 billion algorithmic stablecoin from Terraform Labs. The basic =
+idea of an algorithmic stablecoin is that you can always exchange one UST f=
+or $1 worth of Luna, Terraform=E2=80=99s other cryptocurrency, which is mea=
+nt to guarantee that UST always trades at $1. The risk with this sort of al=
+gorithmic stablecoin is that nothing props up the price of=C2=A0<em>Luna</e=
+m>, and so if people get worried about UST and try to cash out, they will g=
+et $1 worth of Luna, which they will sell, which will drive down the price =
+of Luna, which will make people more worried, which will lead more of them =
+to cash out UST and sell Luna, which will further drive down the price of L=
+una, etc., in what is known as a death spiral. Eventually cashing out $1 of=
+ UST might get you, like, a trillion Luna that no one will want to buy, and=
+ the whole thing might collapse.</p><p style=3D"margin: 16px 0;">When I wro=
+te about this yesterday UST was trading at about $0.53, down about 47% from=
+ where it was supposed to be,=C2=A0and Luna was trading at about $2.20, dow=
+n about 93% in 24 hours. Which sounds pretty=C2=A0death-spirally.=C2=A0And =
+yet it wasn=E2=80=99t=C2=A0<em>that=C2=A0</em>death-spirally. Most of the h=
+olders of UST had not cashed it in for Luna, in part because the smart cont=
+ract that turned UST into Luna was moving too slowly to cash out all the US=
+T holders who wanted out. People were just selling UST on exchanges, for pr=
+ices below $1, and those UST were not being bought by arbitrageurs and tran=
+sformed into $1 of Luna because the arbitrage mechanism had broken down. Do=
+ Kwon, the founder of Terraform Labs and the face of UST and Luna, <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/aHR0cHM6L=
+y90d2l0dGVyLmNvbS9zdGFibGVrd29uL3N0YXR1cy8xNTI0MzMxMTgzMjYxMTYzNTIw/607f07c=
+eef4b8524a319a23cB5e42eb47" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">tweeted to endorse a plan</a> to print =
+Luna faster so that, you know, the death spiral could hurry up. The collaps=
+e in UST and Luna prices was not purely a death spiral <em>happening</em>; =
+rather, it was market prices reflecting traders=E2=80=99 <em>anticipation <=
+/em>of the death spiral.</p><p style=3D"margin: 16px 0;">Today, though, thi=
+ngs got more death-spirally. As of 11 a.m.=C2=A0New York time, Luna was tra=
+ding at about $0.013. According to <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/27692123.259606/aHR0cHM6Ly9jb2lubWFya2V0Y2FwLmNvbS9jdXJyZW=
+5jaWVzL3RlcnJhLWx1bmEvaGlzdG9yaWNhbC1kYXRhLw/607f07ceef4b8524a319a23cB91ab4=
+779" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">CoinMarketCap data</a>, it peaked at $116.41 in April, and was=
+ trading above $80 a week ago. It lost 98.7% of its value between last Thur=
+sday and yesterday, and then another 98.8% so far today. It is down about 9=
+9.98% in a week. At $0.013, the market capitalization of Luna =E2=80=94=C2=
+=A0the total value of all 3.5 billion Luna tokens outstanding =E2=80=94=C2=
+=A0was about $45 million.</p><p style=3D"margin: 16px 0;">Meanwhile TerraUS=
+D, which had rebounded a bit yesterday,=C2=A0<a href=3D"https://link.mail.b=
+loombergbusiness.com/click/27692123.259606/aHR0cHM6Ly9jb2lubWFya2V0Y2FwLmNv=
+bS9jdXJyZW5jaWVzL3RlcnJhdXNkLw/607f07ceef4b8524a319a23cBdb695e0a" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+was trading</a> at about $0.49, and there were about 11.9 billion UST outst=
+anding (down from 18.7 billion <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/27692123.259606/aHR0cHM6Ly9jb2lubWFya2V0Y2FwLmNvbS9jdXJyZW5jaW=
+VzL3RlcnJhdXNkL2hpc3RvcmljYWwtZGF0YS8/607f07ceef4b8524a319a23cB7d4f100e" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">last week</a>). People have cashed out almost 7 billion UST for Luna,=
+ which increased the supply of Luna from about 343 million Luna last week, =
+to about 1.5 billion yesterday, to about 3.5 billion this morning.[3] This =
+increased supply, and the accompanying loss of confidence,=C2=A0drove the p=
+rice of Luna down by=C2=A099.98% in a week.</p><p style=3D"margin: 16px 0;"=
+>Meanwhile there is still 11.9 billion UST remaining, which in theory could=
+ be cashed out for $11.9 billion worth of Luna. But as the supply of Luna h=
+as ballooned, its total value has fallen to just $45 million. If you tried =
+to cash out 1% of the remaining UST =E2=80=94=C2=A0$119 million of face val=
+ue =E2=80=94=C2=A0you would get back something like 9 billion Luna, more th=
+an double the current amount of Luna outstanding. If you sold those 9 billi=
+on Luna you would not get back $118 million. The price of Luna would drop b=
+y another =E2=80=A6=C2=A0I do not have a precise number here, but let=E2=80=
+=99s estimate that it=E2=80=99s a two-digit percentage where the first digi=
+t is a 9, and the second digit is a 9, and probably some of the digits afte=
+r the decimal point are also 9s. That=E2=80=99s if you cashed out <em>one p=
+ercent=C2=A0</em>of the remaining UST. Then you=E2=80=99d have to cash out =
+the other 99%. <em>That=E2=80=99s </em>a death spiral.</p><p style=3D"margi=
+n: 16px 0;">Elsewhere in Terra and Luna:</p><ul style=3D"list-style-type: d=
+isc; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5p=
+x;">I have mostly been writing about this story on the conceptual level of =
+the algorithmic stablecoin mechanics (and death spirals), but, again, the d=
+rop in TerraUSD started not so much as a death spiral (redeeming UST for Lu=
+na, selling Luna, etc.) but rather as market trades that anticipated=C2=A0(=
+or bet=C2=A0on, or tried to cause) a death spiral. There is a fair amount o=
+f conspiracy theorizing about who was doing these trades and why, but there=
+ is also some good analysis of what actually happened. Here, for instance, =
+is a look at=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/=
+27692123.259606/aHR0cHM6Ly9ibG9nLmthaWtvLmNvbS9hLWRhdGEtZHJpdmVuLWV4cGxvcmF=
+0aW9uLW9mLXVzdHMtY29sbGFwc2UtYmU4YTU2ZWNhYzhh/607f07ceef4b8524a319a23cBdb35=
+8bc9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">the order books for UST</a> on different crypto exchanges.=C2=
+=A0</li>=09<li style=3D"margin-bottom: 5px;">Meanwhile on the conspiracy th=
+eories: People on Twitter have sometimes pointed to Citadel Securities and,=
+ for some reason, BlackRock Inc. as the shadowy figures behind UST=E2=80=99=
+s collapse. They have <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/27692123.259606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzI=
+wMjItMDUtMTEvY2l0YWRlbC1zZWN1cml0aWVzLXNheXMtbm90LWludm9sdmVkLWluLXRlcnJhLX=
+N0YWJsZWNvaW4tY3Jhc2g_Y21waWQ9QkJEMDUxMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lb=
+WFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNTEyJnV0bV9jYW1wYWlnbj1t=
+b25leXN0dWZm/607f07ceef4b8524a319a23cBe359c825" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">  denied it</a>. Ci=
+tadel Securities =E2=80=9Cdoes not trade stablecoins, including UST,=E2=80=
+=9D and=C2=A0=E2=80=9CBlackRock does not trade UST,=E2=80=9D their spokespe=
+ople said. For the record (1) I believe them but (2) I would laugh a lot if=
+ Citadel Securities was in fact behind the trade that broke UST.=C2=A0(I wo=
+uld be very confused if it was BlackRock.)=C2=A0</li>=09<li style=3D"margin=
+-bottom: 5px;">There is a Swiss=C2=A0exchange-traded product linked to Luna=
+? Oops! You can imagine <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/27692123.259606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzL=
+zIwMjItMDUtMTIvdGVycmEtZXRwLXBsdW5nZXMtOTktYXMtY3J5cHRvLWNoYW9zLXRyaWdnZXJz=
+LWhpc3RvcmljLWRlY2xpbmVzP2NtcGlkPUJCRDA1MTIyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW0=
+9ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDUxMiZ1dG1fY2FtcGFpZ2=
+49bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBc2b36661" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> how that=E2=80=
+=99s going</a>.</li>=09<li style=3D"margin-bottom: 5px;">CoinDesk <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/aHR0cHM6L=
+y93d3cuY29pbmRlc2suY29tL3RlY2gvMjAyMi8wNS8xMS91c3RzLWRvLWt3b24td2FzLWJlaGlu=
+ZC1lYXJsaWVyLWZhaWxlZC1zdGFibGVjb2luLWV4LXRlcnJhLWNvbGxlYWd1ZXMtc2F5Lw/607f=
+07ceef4b8524a319a23cB70649c3b" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> reports that</a> =E2=80=9CDo Kwon, =
+the CEO of Terra creator Terraform Labs, was one of the pseudonymous co-fou=
+nders behind the failed algorithmic stablecoin Basis Cash.=E2=80=9D Third t=
+ime=E2=80=99s the charm, maybe. Kwon hasn=E2=80=99t tweeted since yesterday=
+ morning (New York time), <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/27692123.259606/aHR0cHM6Ly90d2l0dGVyLmNvbS9zdGFibGVrd29uL3N0YXR1cy8=
+xNTI0MzMxMTk2NjY2MTU5MTA0/607f07ceef4b8524a319a23cBaf049e23" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> when =
+he said</a> =E2=80=9CWe=E2=80=99re here to stay. And we=E2=80=99re gonna ke=
+ep making noise.=E2=80=9D=C2=A0</li></ul><table class=3D"liveintent-flex-ad=
+" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNzY5MjEyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc5NTE3Mjkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH45e8be48" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D27692123&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27951729&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Musk Stuff (1)</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">What a <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/27692123.259606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2FydGljbGVzLzIwMjItMDUtMTIvbXVzay1zZWVrcy10by1zY3JhcC10ZXNsYS1tYXJn=
+aW4tbG9hbi13aXRoLW5ldy10d2l0dGVyLWZ1bmRpbmc_Y21waWQ9QkJEMDUxMjIyX01PTkVZU1R=
+VRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNT=
+EyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB5890ed9f" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">weird deal</a>:</p><blockquote><p style=3D"margin: 16px 0;">Elon Musk is=
+ in talks to raise enough equity and preferred financing for his proposed b=
+uyout of Twitter Inc. to eliminate the need for any margin loan linked to h=
+is Tesla Inc. shares, according to people with knowledge of the matter.=C2=
+=A0</p><p style=3D"margin: 16px 0;">The billionaire=E2=80=99s advisers, led=
+ by Morgan Stanley, have begun soliciting interest from potential investors=
+ for as much as $6 billion in preferred equity financing, the people said, =
+asking not to be named discussing a private transaction. =E2=80=A6</p><p st=
+yle=3D"margin: 16px 0;">The preferred equity may have a 20-year maturity an=
+d include a feature allowing interest to be paid in kind at a rate of 14%, =
+the people said. That interest rate would be increased by 75 basis points i=
+n the seventh, eight and ninth year, they added. The financing may alternat=
+ively be structured with a 10% interest rate and warrants, one of the peopl=
+e said.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">I can definitely=
+ see why he would want to get rid of the margin loan. If he gets <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/27692123.259606/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtMjEvZWxvbi1nb3QtaGl=
+zLW1vbmV5P2NtcGlkPUJCRDA1MTIyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3=
+NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDUxMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZ=
+g/607f07ceef4b8524a319a23cBac0e7271" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> the margin loan</a>, he has t=
+o pay interest on it every year, in cash, himself; he=E2=80=99d be making c=
+ontinuing payments for the privilege of owning Twitter. Whereas if he raise=
+s debt, or preferred stock,=C2=A0<em>at Twitter</em>, that=E2=80=99s Twitte=
+r=E2=80=99s problem; he doesn=E2=80=99t have to keep shelling out cash just=
+ to own Twitter. Of course if he eliminates the margin loan he is still on =
+the hook to contribute something like $20 billion of equity to the Twitter =
+buyout, meaning that he still has to come up with $20 billion of cash at cl=
+osing, and arguably Musk=E2=80=99s opportunity cost (and taxes!) of selling=
+ $20 billion of Tesla stock to raise that money is higher than the interest=
+ on the margin loan. Still, if he sells Tesla stock, it=E2=80=99s done; if =
+he margins his Tesla stock, that creates a continuing overhang.</p><p style=
+=3D"margin: 16px 0;">I have a harder time understanding a 14% pay-in-kind p=
+referred? At Twitter? Musk=E2=80=99s buyout plans for Twitter already invol=
+ve $13 billion of high-yield debt with <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/27692123.259606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcG=
+luaW9uL2FydGljbGVzLzIwMjItMDQtMjEvZWxvbi1nb3QtaGlzLW1vbmV5P2NtcGlkPUJCRDA1M=
+TIyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0=
+bV90ZXJtPTIyMDUxMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23c=
+Cac0e7271" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> an interest cost</a> of, in rough numbers, all of Twitt=
+er=E2=80=99s cash flow in the near future. There is certainly not enough mo=
+ney left over to pay a 14% cash dividend on $6 billion of preferred stock. =
+So you just accrue it up; in three years $6=C2=A0billion of preferred turns=
+ into $9 billion; in seven years it=E2=80=99s $15 billion. If he sells Twit=
+ter for a lot more than he paid for it, the preferred gets paid and he make=
+s money. If he sells Twitter for less than he paid for it, the preferred ge=
+ts paid before he does, though after the $13 billion of debt. Buying this p=
+referred is essentially a bet that Elon Musk will do=C2=A0<em>okay=C2=A0</e=
+m>with Twitter: If it=E2=80=99s a disaster, you lose everything, and if it=
+=E2=80=99s a huge success, you=E2=80=99d rather just own regular equity.[4]=
+ I feel like =E2=80=9Cdisaster=E2=80=9D and =E2=80=9Chuge success=E2=80=9D =
+are the main Elon Musk outcomes, making this kind of a strange bet.</p><p s=
+tyle=3D"margin: 16px 0;">Elsewhere, Musk might do the thing where he takes =
+Twitter private but somehow allows small retail shareholders to keep their =
+stock? I mean, not really, but <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/27692123.259606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydG=
+ljbGVzLzIwMjItMDUtMTEvc21hbGwtdGltZS1mdW5kcy1vZmZlcmVkLWEtd2F5LXRvLWdldC1hL=
+XNsaWNlLW9mLW11c2stcy10d2l0dGVyP2NtcGlkPUJCRDA1MTIyMl9NT05FWVNUVUZGJnV0bV9t=
+ZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDUxMiZ1dG1fY2F=
+tcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB3e7ebb4e" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> here=E2=
+=80=99s this</a>:</p><blockquote><p style=3D"margin: 16px 0;">Some potentia=
+l investors -- including hedge funds and wealthy individuals -- have been p=
+itched the opportunity to invest $5 million or more in the Twitter buyout, =
+according to people with knowledge of the matter. They=E2=80=99re being inv=
+ited to commit money through special-purpose vehicles that will pool capita=
+l together from a variety of smaller sources, the people said.=C2=A0</p><p =
+style=3D"margin: 16px 0;">One party canvassing investors is seeking to coll=
+ect $500 million in total, and plans to charge a 5% fee to whoever it bring=
+s in. The move could allow a well-connected financier to rope in investors =
+who might not have direct access to the deal, but nonetheless want to join =
+one of the biggest leveraged buyouts in history. =E2=80=A6</p><p style=3D"m=
+argin: 16px 0;">Getting into the deal through one of these side funds isn=
+=E2=80=99t being sanctioned by Musk, according to a person familiar with th=
+e matter. Musk=E2=80=99s existing equity investment agreements have been st=
+ructured to forbid investors from raising a special purpose vehicle, the pe=
+rson said. If investors do participate in them, they risk losing their shar=
+es, the person said.</p><p style=3D"margin: 16px 0;">Still, Musk is open to=
+ smaller investors getting involved and has already agreed to accept checks=
+ from as low as $5 million, a filing showed last week.</p></blockquote><p s=
+tyle=3D"margin: 16px 0;">Yeah I mean I can see why you=E2=80=99d go around =
+<em>pitching </em>that, even if Musk has explicitly forbidden it.</p><table=
+ class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Musk Stuff (2)</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Yeah no I mean <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/27692123.259606/aHR0cHM6Ly93d3cud3NqLmNvb=
+S9hcnRpY2xlcy9lbG9uLW11c2tzLWJlbGF0ZWQtZGlzY2xvc3VyZS1vZi10d2l0dGVyLXN0YWtl=
+LXRyaWdnZXJzLXJlZ3VsYXRvcnMtcHJvYmVzLTExNjUyMzAzODk0/607f07ceef4b8524a319a2=
+3cB2b1e1694" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">obviously</a>:</p><blockquote><p style=3D"margin: 16px=
+ 0;">Federal regulators are investigating Elon Musk=E2=80=99s late disclosu=
+re last month of his sizable stake in Twitter Inc., according to people fam=
+iliar with the matter, a lag that allowed him to buy more stock without ale=
+rting other shareholders to his ownership.</p><p style=3D"margin: 16px 0;">=
+The Securities and Exchange Commission is probing Mr. Musk=E2=80=99s tardy =
+submission of a public form that investors must file when they buy more tha=
+n 5% of a company=E2=80=99s shares, the people said. The disclosure functio=
+ns as an early sign to shareholders and companies that a significant invest=
+or could seek to control or influence a company.</p><p style=3D"margin: 16p=
+x 0;">The Tesla Inc. chief executive made his filing on April 4, at least 1=
+0 days after his stake surpassed the trigger point for disclosure. Mr. Musk=
+ hasn=E2=80=99t publicly explained why he didn=E2=80=99t file in a timely m=
+anner. =E2=80=A6</p><p style=3D"margin: 16px 0;">Mr. Musk likely saved more=
+ than $143 million by not reporting that his trades had crossed the 5% thre=
+shold, said Daniel Taylor, a University of Pennsylvania accounting professo=
+r, since the share price could have been higher had the market known of the=
+ billionaire=E2=80=99s growing stake.</p></blockquote><p style=3D"margin: 1=
+6px 0;">There is not a ton to investigate here? Like, I don=E2=80=99t know,=
+ you would need to look at his form, and then you=E2=80=99d need to look at=
+ a calendar, and then you=E2=80=99d pretty much be done. You could send a b=
+unch of subpoenas, asking Musk and Twitter and his lawyers and brokers for =
+documents relating to his purchases; you could call Musk and others in for =
+interviews to find out what he was thinking. But none of that matters at al=
+l because the rule is you have to file the form within 10 days and he did n=
+ot do that. I <a href=3D"https://link.mail.bloombergbusiness.com/click/2769=
+2123.259606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjI=
+tMDQtMDYvZWxvbi1tdXNrLWlzLWFjdGl2ZS1ub3c_Y21waWQ9QkJEMDUxMjIyX01PTkVZU1RVRk=
+YmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNTEyJ=
+nV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBaff54bef" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ reached that conclusion a month ago</a>, based on obvious public evidence,=
+ and I=E2=80=99m sure the SEC did too.</p><p style=3D"margin: 16px 0;">I do=
+ not think they are really=C2=A0<em>investigating</em>. I think they are, l=
+ike, psyching themselves up to approach Musk:</p><blockquote><p style=3D"ma=
+rgin: 16px 0;"><strong>SEC:</strong> Mr. Musk, sir, it appears that you fil=
+ed this form late.</p><p style=3D"margin: 16px 0;"><strong>Musk:</strong> W=
+hy do you <a href=3D"https://link.mail.bloombergbusiness.com/click/27692123=
+.259606/aHR0cHM6Ly93d3cucmV1dGVycy5jb20vdGVjaG5vbG9neS9tdXNrLXNheXMtdXMtc2V=
+jLWJhc3RhcmRzLWZvcmNlZC1zZXR0bGVtZW50LW92ZXItdGVzbGEtdHdlZXRzLTIwMjItMDQtMT=
+Qv/607f07ceef4b8524a319a23cB9d418fcf" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">bastards</a> insist on persec=
+uting me.</p><p style=3D"margin: 16px 0;"><strong>SEC:</strong> That=E2=80=
+=99s hurtful.</p><p style=3D"margin: 16px 0;"><strong>Musk:</strong> I have=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMTItMTEvYS1o=
+YXBweS1hbm5pdmVyc2FyeS1mb3ItbWFkb2ZmLXMtc2NhbT9jbXBpZD1CQkQwNTEyMjJfTU9ORVl=
+TVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMj=
+A1MTImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB7796186e" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> no respect</a> for you.</p><p style=3D"margin: 16px 0;"><strong>SEC:=
+ </strong>Still, there is a rule, you can read it right <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/27692123.259606/aHR0cHM6Ly93d3cubGF3L=
+mNvcm5lbGwuZWR1L2Nmci90ZXh0LzE3LzI0MC4xM2QtMQ/607f07ceef4b8524a319a23cBcd09=
+25f6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> here</a>, it says you have to file this form within 10 days,=
+ and you missed that deadline by like <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/27692123.259606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMjItMDQtMDUvZWxvbi1tdXNrLWdvdC1hLXR3aXR0ZXItYm9hcmQtc2=
+VhdD9jbXBpZD1CQkQwNTEyMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY=
+2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA1MTImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f=
+07ceef4b8524a319a23cB136df2cf" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> 11 days</a>.</p><p style=3D"margin:=
+ 16px 0;"><strong>Musk: </strong>Well, no harm no foul.</p><p style=3D"marg=
+in: 16px 0;"><strong>SEC:</strong> Actually by our math this cost ordinary =
+investors <a href=3D"https://link.mail.bloombergbusiness.com/click/27692123=
+.259606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQ=
+tMDYvZWxvbi1tdXNrLWlzLWFjdGl2ZS1ub3c_Y21waWQ9QkJEMDUxMjIyX01PTkVZU1RVRkYmdX=
+RtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNTEyJnV0b=
+V9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cCaff54bef" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> $14=
+3 million</a>.</p><p style=3D"margin: 16px 0;"><strong>Musk: </strong>What =
+are you going to do about it?</p><p style=3D"margin: 16px 0;"><strong>SEC: =
+</strong>We would propose that you pay a small fine and promise not to do i=
+t again.</p><p style=3D"margin: 16px 0;"><strong>Musk:</strong> No deal, se=
+e you in court!</p><p style=3D"margin: 16px 0;"><strong>SEC:</strong> Ah.</=
+p><p style=3D"margin: 16px 0;"><strong>Musk: </strong>Anything else?</p><p =
+style=3D"margin: 16px 0;"><strong>SEC:</strong> Well, when you eventually d=
+id file the form, <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+27692123.259606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzI=
+wMjItMDQtMTUvc3VyZS1lbG9uLW11c2stbWlnaHQtYnV5LXR3aXR0ZXI_Y21waWQ9QkJEMDUxMj=
+IyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX=
+3Rlcm09MjIwNTEyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBfa=
+27b122" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> you used the wrong form</a>.</p><p style=3D"margin: 16px 0=
+;"><strong>Musk: </strong>I am going to make it my personal mission to <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/aHR0cH=
+M6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9lbG9uLW11c2tzLXRlc2xhLWFza2VkLWxhdy1maXJtL=
+XRvLWZpcmUtYXNzb2NpYXRlLWhpcmVkLWZyb20tc2VjLTExNjQyMjY1MDA3/607f07ceef4b852=
+4a319a23cBed899dbb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">destroy your career</a>.</p><p style=3D"margi=
+n: 16px 0;"><strong>SEC:</strong> Look we are just enforcing very clear rul=
+es.</p><p style=3D"margin: 16px 0;"><strong>Musk:</strong> When I own Twitt=
+er the algorithm will constantly show people tweets abusing you by name.</p=
+><p style=3D"margin: 16px 0;"><strong>SEC: </strong>We live in a society of=
+ laws! They apply to you as well!</p><p style=3D"margin: 16px 0;"><strong>M=
+usk: </strong>I=E2=80=99m going to shoot satellites into space and arrange =
+them in such a way that when people look up into the night sky they will se=
+e a picture of me making an obscene gesture at you.</p></blockquote><p styl=
+e=3D"margin: 16px 0;">What a terrible job.=C2=A0</p><table class=3D"header"=
+ width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Chicken Box for the Soul</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloomberg=
+business.com/click/27692123.259606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2FydGljbGVzLzIwMjItMDUtMTEvY2hpY2tlbi1zb3VwLWJ1eXMtYXBvbGxvLWJhY2tlZC1yZWR=
+ib3gtYXMtc3BhYy1tYXJrZXQtc3B1dHRlcnM_Y21waWQ9QkJEMDUxMjIyX01PTkVZU1RVRkYmdX=
+RtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNTEyJnV0b=
+V9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB61725c33" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Yee=
+sh</a>:</p><blockquote><p style=3D"margin: 16px 0;">Chicken Soup for the So=
+ul Entertainment Inc. has acquired Redbox Entertainment Inc., a movies-to-r=
+ent streaming service that went public through a blank-check company last y=
+ear, another sign that once-booming SPACs and the deals they fueled are los=
+ing steam.</p><p style=3D"margin: 16px 0;">The acquisition is valued at abo=
+ut $31 million, according to data compiled by Bloomberg, a huge markdown fr=
+om the $254 million valuation Redbox had traded for before the deal was ann=
+ounced Wednesday. Chicken Soup has agreed to take on about $321 million in =
+Redbox debt and got the company a new term loan.=C2=A0</p><p style=3D"margi=
+n: 16px 0;">As part of the all-stock transaction, shareholders of Redbox wi=
+ll receive 0.087 of Chicken Soup=E2=80=99s Class A common stock per share. =
+Apollo Global Management, one of the largest backers of Redbox, will own ro=
+ughly 15.2% of the newly combined entity while direct lender HPS Partners w=
+ill own about 4%. The deal is set to close in the second half of 2022.</p><=
+p style=3D"margin: 16px 0;">Redbox shares, which plunged as much as 50% Wed=
+nesday, closed down 43% to $3.20 apiece. Since the blank-check deal that to=
+ok the company public, Redbox=E2=80=99s shares have now fallen more than 66=
+%, giving it a market value of $145 million.</p></blockquote><p style=3D"ma=
+rgin: 16px 0;">Redbox went public by <a href=3D"https://link.mail.bloomberg=
+business.com/click/27692123.259606/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0Fy=
+Y2hpdmVzL2VkZ2FyL2RhdGEvMDAwMTgyMDIwMS8wMDAxMTA0NjU5MjExMzExNjAvdG0yMTMwODQ=
+xZDFfOGsuaHRt/607f07ceef4b8524a319a23cB2b346a90" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">merging with a spe=
+cial purpose acquisition company</a> in October 2021. As is traditional in =
+a SPAC deal, Redbox essentially went public at $10 per share. After the dea=
+l, Redbox traded as high as $17.93 per share, for a market capitalization o=
+f about $1 billion. Then it all kind of fell apart. =E2=80=9CDuring 2021, R=
+edbox Entertainment Inc.=E2=80=99s (=E2=80=98Redbox=E2=80=99) business was =
+negatively impacted by the effects of the ongoing COVID-19 pandemic, which =
+resulted in fewer releases on its platforms than management previously expe=
+cted and materially lower financial results,=E2=80=9D it <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/27692123.259606/aHR0cHM6Ly93d3cuc2Vj=
+Lmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMDAwMTgyMDIwMS8wMDAxMTA0NjU5MjI=
+wMTA1NTIvdG0yMjQ5MzlkMV84ay5odG0/607f07ceef4b8524a319a23cC26bd1951" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>announced in February</a>. (Remember it went public in <em>October 2021</e=
+m>; what=C2=A0<em>did=C2=A0</em>they expect 2021 results to be like at that=
+ point?) By Tuesday, the stock was at $5.60, for a market cap of just $254 =
+million.=C2=A0</p><p style=3D"margin: 16px 0;">And then Redbox went and sol=
+d itself to Chicken Soup for $31 million? Each Redbox share, which traded a=
+t $5.60 on Tuesday, will be exchanged for 0.087 Chicken Soup shares, which =
+traded at $7.92=C2=A0on Tuesday, for a merger value of about $0.69 per shar=
+e, an 88% discount to the pre-merger price. Ordinarily when one company acq=
+uires another it pays a premium, though in an all-stock merger of equals (w=
+hich this is not really) there might be no premium. A merger at a discount =
+=E2=80=94=C2=A0a =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/27692123.259606/aHR0cHM6Ly90d2l0dGVyLmNvbS9xdWFudGlhbjEvc3RhdHVzLzE=
+1MjQ0NzU1NzkwMTc0MDQ0MTg/607f07ceef4b8524a319a23cB30c0346d" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">take-un=
+der</a>=E2=80=9D =E2=80=94=C2=A0is rare. A merger at an 88% discount is =E2=
+=80=A6=C2=A0I don=E2=80=99t know, <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/27692123.259606/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAwOC8wMy8=
+xNy9idXNpbmVzcy8xN2JlYXIuaHRtbA/607f07ceef4b8524a319a23cBf1cb441d" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Bear Stearns</a> comes to mind?[5]</p><p style=3D"margin: 16px 0;">When the=
+y read the announcement, people apparently thought the exchange ratio might=
+ be a typo. Selling Redbox for 0.87 Chicken Soup shares worth about $6.89, =
+a 23% premium to Redbox=E2=80=99s battered stock price, would be kinda norm=
+al. But, no, it=E2=80=99s 0.087. At 11 a.m. Redbox was trading at $2.58, ba=
+sically in disbelief, while Chicken Soup was at $6.17, giving an implied de=
+al value of $0.49.</p><p style=3D"margin: 16px 0;">I don=E2=80=99t know! Th=
+e implication here seems to be that Redbox was basically running out of mon=
+ey and this deal rescued it from that fate[6]; it=E2=80=99s <em>bad=C2=A0</=
+em>for shareholders, but better than the alternative, and at least they get=
+ to participate in the upside (via Chicken Soup stock) if things get better=
+. =E2=80=9CRedbox stockholders holding approximately 86% of the Redbox voti=
+ng power have <a href=3D"https://link.mail.bloombergbusiness.com/click/2769=
+2123.259606/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE4MjAyMDE=
+vMDAwMTEwNDY1OTIyMDU4NjA1L3RtMjIxNTAzMWQxX2V4OTktMS5odG0/607f07ceef4b8524a3=
+19a23cBe230f4f7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">entered into a voting agreement</a> to approve the=
+ transaction,=E2=80=9D so if you are a retail shareholder who bought the SP=
+AC stock and are unhappy about this deal there is not a lot you can do abou=
+t it. You could probably sell at $2.58 before the deal closes at $0.49 thou=
+gh.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">European <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/27692123.259606/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnR=
+lbnQvZDVlNDJlYWUtMjM4Ny00ODkzLWFiNGUtN2I1ODQ3OGYyM2Uw/607f07ceef4b8524a319a=
+23cBe850e4a4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">gas prices soar</a> after Moscow imposes sanctions on=
+ EU energy companies. GameStock jumps sharply in <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/27692123.259606/aHR0cHM6Ly93d3cuY25iYy5jb20v=
+MjAyMi8wNS8xMi9nYW1lc3RvcC1zdXJnZXMtbW9yZS10aGFuLTMwcGVyY2VudC1hbmQtaXMtaGF=
+sdGVkLWluLW9kZC10cmFkaW5nLWFtYy1zaGFyZXMtYWxzby1wb3AuaHRtbA/607f07ceef4b852=
+4a319a23cB6d7bcfc5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">odd trading</a>; AMC shares also pop. SoftBan=
+k <a href=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/=
+aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zb2Z0YmFuay1yZXBvcnRzLTEzLWJpbGxpb24=
+tYW5udWFsLWxvc3MtaGl0LWJ5LXRlY2gtc2hhcmUtc2x1bXAtMTE2NTIzMzk3MjY_bW9kPWhwX2=
+xlYWRfcG9zNQ/607f07ceef4b8524a319a23cB95c4ec4a" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">Loses $26 Billion</=
+a> on Tech Investments Amid Selloff. Twitter chief=E2=80=99s <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/27692123.259606/aHR0cHM6Ly93d3cu=
+ZnQuY29tL2NvbnRlbnQvYzNhMDFkZDUtMGQ4NS00YmFlLWE0NzItMDgzZDUyZTVmNzEy/607f07=
+ceef4b8524a319a23cBc024b8d5" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">$30mn pay package</a> at risk of share=
+holder revolt. Intercontinental Exchange Kicks Off Six-Part <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/27692123.259606/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDUtMTIvaW50ZXJjb250aW5lbnRhbC1l=
+eGNoYW5nZS1raWNrcy1vZmYtc2l4LXBhcnQtYm9uZC1zYWxlLWZvci1tLWE_Y21waWQ9QkJEMDU=
+xMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdX=
+RtX3Rlcm09MjIwNTEyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23c=
+Bb3c5a65d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> Bond Sale</a> for M&amp;A.=C2=A0Schroders, BlackRock, P=
+imco Face Losses as <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/27692123.259606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwM=
+jItMDUtMTIvc2Nocm9kZXJzLWJsYWNrcm9jay1waW1jby1mYWNlLWxvc3Nlcy1hcy1hZGxlci1z=
+LXRyb3VibGVzLWdyb3c_Y21waWQ9QkJEMDUxMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWF=
+pbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNTEyJnV0bV9jYW1wYWlnbj1tb2=
+5leXN0dWZm/607f07ceef4b8524a319a23cBc2bbb4a3" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> Adler=E2=80=99s</a> =
+Troubles Grow.=C2=A0OneCoin <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/27692123.259606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljb=
+GVzLzIwMjItMDUtMTIvb25lY29pbi1jcnlwdG9xdWVlbi1uYW1lZC1hbW9uZy1ldXJvcGUtcy1t=
+b3N0LXdhbnRlZC1mdWdpdGl2ZXM_Y21waWQ9QkJEMDUxMjIyX01PTkVZU1RVRkYmdXRtX21lZGl=
+1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNTEyJnV0bV9jYW1wYW=
+lnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBb64b35cf" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Cryptoqueen<=
+/a> Named Among Europe=E2=80=99s Most Wanted Fugitives. Now You Can Own a F=
+raction of a <a href=3D"https://link.mail.bloombergbusiness.com/click/27692=
+123.259606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDUt=
+MTIvbHV4dXMtYnJpbmdzLWZyYWN0aW9uYWwtb3duZXJzaGlwLXRvLXRoZS1mYW5jeS1jb2xvcmV=
+kLWRpYW1vbmQtbWFya2V0P2NtcGlkPUJCRDA1MTIyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW=
+1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDUxMiZ1dG1fY2FtcGFpZ249b=
+W9uZXlzdHVmZg/607f07ceef4b8524a319a23cBa2c9ec9e" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> Fancy Colored Dia=
+mond</a>.</p><p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-=
+consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in hand=
+y email form, right in your inbox, please=C2=A0<a href=3D"https://link.mail=
+.bloombergbusiness.com/click/27692123.259606/aHR0cDovL2xpbmsubWFpbC5ibG9vbW=
+JlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwM=
+WNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBeeaa4508" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">subscribe at this link</a>. Or you can subscr=
+ibe to Money Stuff and other great Bloomberg newsletters <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/27692123.259606/aHR0cHM6Ly9sb2dpbi5i=
+bG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBfffd4942" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">here</a>. Thanks!=
+</em></span></p><p style=3D"margin: 16px 0;"><em>[1] Please do not email me=
+ to explain that I=E2=80=99m missing important nuances here about the 2008 =
+financial crisis and the ensuing recession. Let=E2=80=99s just grant that.<=
+/em></p><p style=3D"margin: 16px 0;"><em>[2] If you are a <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/27692123.259606/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMDcvbWF0dC1sZXZpbmUtcy1tb2=
+5leS1zdHVmZi1sb29raW5nLWZvci10ZXRoZXItcy1tb25leT9jbXBpZD1CQkQwNTEyMjJfTU9OR=
+VlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0y=
+MjA1MTImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB44ea3e0b" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> Tether skeptic</a> you <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/27692123.259606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjEtMDctMjIvcHJpdmF0ZS1lcXVpdHktZmlybS1nb3QtcmljaC1tYWtpbmct=
+cHJpdmF0ZS1lcXVpdHktZmlybXMtcmljaD9jbXBpZD1CQkQwNTEyMjJfTU9ORVlTVFVGRiZ1dG1=
+fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA1MTImdXRtX2=
+NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB38e30d0c" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">mostly=
+ question</a> how real and <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27692123.259606/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydG=
+ljbGVzLzIwMjEtMDItMjQvdGhlLXZhY2NpbmUtaXMtbm90LWEtY29tcGV0aXRpb24_Y21waWQ9Q=
+kJEMDUxMjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0=
+ZXImdXRtX3Rlcm09MjIwNTEyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a3=
+19a23cB2fe1650b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> creditworthy</a> these companies are. With <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDQtMjYvdGhpbmdzLWd=
+vdC13ZWlyZC1mb3Itc3RhYmxlY29pbi10ZXRoZXI_Y21waWQ9QkJEMDUxMjIyX01PTkVZU1RVRk=
+YmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNTEyJ=
+nV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB6f32a133" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ good reason</a>!=C2=A0</em></p><p style=3D"margin: 16px 0;"><em>[3] These =
+numbers are calculated from <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/27692123.259606/aHR0cHM6Ly9jb2lubWFya2V0Y2FwLmNvbS9jdXJyZW5jaWVzL=
+3RlcnJhLWx1bmEvaGlzdG9yaWNhbC1kYXRhLw/607f07ceef4b8524a319a23cC91ab4779" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">CoinMarketCap data</a>. For instance CoinMarketCap shows market caps =
+for Luna of about $26 billion to $30 billion late last week, at prices in t=
+he high $70s and low $80s; if you divide the price by the market cap you ge=
+t a fairly stable quantity of about 343 million Luna. Yesterday=E2=80=99s c=
+losing price of $1.07 and market cap of $1.57 billion gets a supply of abou=
+t 1.47 billion Luna. As of 11 a.m. CoinMarketCap showed=C2=A0a =E2=80=9Ccir=
+culating supply=E2=80=9D of 3.45 billion Luna, with a market cap of $55 mil=
+lion. (There is also a higher =E2=80=9Ctotal supply=E2=80=9D of 4.9 billion=
+ Luna, for a somewhat larger =E2=80=9Cfully diluted market cap,=E2=80=9D bu=
+t these differences don=E2=80=99t matter much for our purposes.)</em></p><p=
+ style=3D"margin: 16px 0;"><em>[4] Or a 10% preferred with warrants, though=
+ you=E2=80=99d still probably rather own straight equity.</em></p><p style=
+=3D"margin: 16px 0;"><em>[5] Bear=E2=80=99s stock <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/27692123.259606/aHR0cHM6Ly93d3cuY25iYy5jb20=
+vaWQvMjM2NjM5MTk/607f07ceef4b8524a319a23cBc56737ec" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">closed at $30.8=
+5</a> on Friday, March 14, 2008; it collapsed over the weekend and JPMorgan=
+ Chase &amp; Co.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/27692123.259606/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAwOC8wMy8xNy9idXNpbmV=
+zcy8xN2JlYXIuaHRtbA/607f07ceef4b8524a319a23cCf1cb441d" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">agreed to bu=
+y it</a> for $2 per share that Sunday.</em></p><p style=3D"margin: 16px 0;"=
+><em>[6] Again, like Bear.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB8791a082" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBd8ae91e0" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB77c51104" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBa6ca6ec0" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNzY5MjEyMyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc5NTE3Mjkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIbfbf5d33" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D27692123&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27951729&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB241d1075" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/27692123.259606/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC83573e34" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27692123.259606/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB2663522d" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/27692123.259606/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBb49bd7e9" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB5=
+de2845f" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27692123.259606/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBa=
+29ea336" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D276921=
+23&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27951729&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D276921=
+23&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27951729&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D276921=
+23&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27951729&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D276921=
+23&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27951729&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D276921=
+23&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27951729&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cghjdn.5kba/5cda0648.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_9555248_370192481.1652378211956--
+

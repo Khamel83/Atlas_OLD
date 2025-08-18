@@ -1,0 +1,2176 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:c697:b0:130:da8c:7dd9 with SMTP id fe23csp2502107rwb;
+        Thu, 20 Jul 2023 11:03:01 -0700 (PDT)
+X-Received: by 2002:a1c:730c:0:b0:3fb:ab4e:9b6f with SMTP id d12-20020a1c730c000000b003fbab4e9b6fmr7239737wmb.16.1689876180666;
+        Thu, 20 Jul 2023 11:03:00 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1689876180; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=BltFDftJVN6VP+BO87r3eh9ecTt4ak7d08k8ivAiUtuaQBqyJbpyKBZvpKMt9CywWI
+         8uHql/IyKxv3zU04r2br43U1l8D5kRq5XX56ZEeCN64jxekfOBGLhz/EbsrBEQ36/BLd
+         dW3wJ454/BXOFii1iEXq/K1tHtZn0a0CmeakRdFS2h7MdC0NfyXtEsq8J9VqTbdQLSD/
+         z/fcEIaW3FX0G33DaBaeIQu0zWd9MJZvqlJD/u4xrchn1bqBAunmSvamxRMHrUwORxat
+         vYZq6qVV3IJTDBTes7jkeBaXLgeuzFRSDo/TWEDqAGbDNZmu8aept7xI24veSdBAfAyv
+         Uo6A==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=no0H1ciJNsFKOFOSmY7GtVcZ5i7Shhl808hYyfArutk=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=EZPNrb1m+jYFxCApuVB0KT0yICz4Lq8lTeOcK2m2Ua+mEW0wh7BcUaptLcTyCDXpRz
+         SupjnEJUn2DnxSAHuJ2F0ygvcjBeYb91UiZpD/D8DFGRoOYAiMl2qyukO2FOiDPK09lK
+         BTCLiOm2Sj3dGmBPXB+RrNn+Q034ZQlQusAd5an9s+Tc4+zN3TIwkpzKsyKjFZKOUhUe
+         ht0aVrQQsIsd8Hwd7V5p+VfZRGogpLxft3+DbzpB+kS2WGSKeHemNCHBG8dCt968xRvG
+         Ba3pOLlZPyDmlD+DSrlhsfpXdnDWUNDBaTdr4M0VTbMInzjMiJIQ96tu/YjNfblGIef/
+         k5lA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=e3zJqqgC;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id o18-20020adf8b92000000b00315a54a24cbsor534637wra.10.2023.07.20.11.03.00
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 20 Jul 2023 11:03:00 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=e3zJqqgC;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1689876180; x=1690480980;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=no0H1ciJNsFKOFOSmY7GtVcZ5i7Shhl808hYyfArutk=;
+        b=Yn/T/F+bTrq3PuqAa059oiw3IreBBSqL8uetGVU6dLPtOBNzabJfkCkoDQfHxrXIYi
+         M9xNAieGj7VB9VyEsDcpqq5ttF9RClYO56AP8QdS7bq4OY50gdx2uPY3UlRCBh6rlLHE
+         cYiDdz9YuHgF9SP2PumaY9i8887g5j3APWKc2JfYhfoNEdyqG+iM/dn0Vzjo6h2hzsMD
+         C1OYGnIyqiB7+k8t7Cs0olZnOmli8ifOKx4HgcVWqgjC79XPJR8rcUxT835Y98geVD33
+         DJpa2TYnHRl/ZguyKtunWK97FPHFchTmAzNNtOQUJZd5cMA/2eA8KmcR1OQQYD2f//Gx
+         ok5g==
+X-Gm-Message-State: ABy/qLaU4FO8eqNue/TEHZxR5UsYGhoi00H3/LkxKJjKeg30TrDNBOSK
+	0WajXLPev5j/uQwkrK7tz9uBl70TktBxwEchpNCVnJbC62qPgr8hww==
+X-Received: by 2002:a5d:60ce:0:b0:314:8d:7eb5 with SMTP id x14-20020a5d60ce000000b00314008d7eb5mr3468136wrt.29.1689876180130;
+        Thu, 20 Jul 2023 11:03:00 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:e6c9:0:b0:317:293c:c8b with SMTP id y9csp270374wrm;
+        Thu, 20 Jul 2023 11:02:56 -0700 (PDT)
+X-Received: by 2002:a05:620a:4918:b0:767:d010:8341 with SMTP id ed24-20020a05620a491800b00767d0108341mr5511626qkb.50.1689876175732;
+        Thu, 20 Jul 2023 11:02:55 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1689876175; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=vCZ5jv7ydskjr6RfC5qn6d3tOBnQv103fVV4DwASMnZc0gnH4IY6v+lKe4RDW5TPfN
+         RWYeQvkDVUiRm5vchTaQN6771DGxgK3JbzcuWensuiXS0OsttTcpj+CjQiuSW8Lz58em
+         /E9UbSmKlFC9KOvuShdsXaNwLsDXcGJtrmO7s/UPJh087PGhLSpkGthbJd83HajILbCc
+         IDwK6mkW51G7eYP9FiglIjjM323NwagN5N+7qH9HBhtxbRw1KFGmUeiX5QUFCvuERvxE
+         njbnVExD1F2Y5+u65hT/6XAsMa4AwIEUmvZ+AqqUt/TFRy6larL4y4NPKJzJEgXMQcj6
+         FGbw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=no0H1ciJNsFKOFOSmY7GtVcZ5i7Shhl808hYyfArutk=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=LP77zjJjb+hEYWpKK8qjdbFf1TGwLw0umeerYWefP5HVUAlG0BUJY6NsYO/ek5l2U7
+         50HcM2jdQ/mIVV6otBcyPXsQ6XEPk/kTn2T2XOg/hN0DfjbLUULdRI9qLAIS+QJSYl3l
+         fBgw0XeHSUZ0zUrbpETjA39CeDd0uGEe73BSAuTIXqcQDG2jPuo2tHVvUR1zu/SdiwQZ
+         iNoWUV17dqYYEyILPzVONnRKjPr3fSNFscrSbX2wYwCQ6X8vmnPkSaDz6CPLqLqBbmBE
+         GJ3eKMPX5VQXZ3SxRTj35ORWsStvVqobgP10V2LTTESHOzIybueKY/nYYino6fm79Ur2
+         O6ig==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=e3zJqqgC;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230720140254.32142671.258409@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230720140254.32142671.258409@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230720140254.32142671.258409@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id p26-20020a05620a057a00b00762553a107csor589482qkp.14.2023.07.20.11.02.55
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 20 Jul 2023 11:02:55 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230720140254.32142671.258409@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: APBJJlGbrrQZjdllEEFhquejdmGwHIseuRxVaIM/bzeGJnhFm10IhlMSoh6lNIhpM6uKHDvsuIBxedKHptcBW4sj18nlUONAgrU=
+X-Received: by 2002:ac8:5c91:0:b0:405:3a76:6f68 with SMTP id r17-20020ac85c91000000b004053a766f68mr6084452qta.10.1689876175383;
+        Thu, 20 Jul 2023 11:02:55 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1689876175; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Legt/0mUyFTdOYXUs00UFyUQY09zus3CRcd+8/+j7Z5VmglaXq84e696FQe+4LF27m
+         Y4C+ji+TvQgmGpj3pc2eISAeq9DVNhTx+ETK/on9sAYSw/CEIMb8sUABxcu2ve2gdWsQ
+         NGF//izdvZPiOk7qQ78cmr5gNiCX17Yur5fB5opa4BCSt3xvnq0s03fg76BrGcepneNR
+         K126JcdVOTPS8g8IoxyYZkouFJPTpG3MMsWLHVIWkhp+9tWOngn479R+P4QWQEH0YnyG
+         sB1hqSyAIQ7Q46ns5hYt88vddzJAaQjzT+h5e0lHktxDgQKfhSZ2RGIqPoP0DIDdZRpm
+         pVOg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=no0H1ciJNsFKOFOSmY7GtVcZ5i7Shhl808hYyfArutk=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=KsKfOmrpJ/KqQeAEUZzTos8ieT9J8zd1wcYwZTBKEtP3j0IoqMJVckPbFI0DrrWlx/
+         gbh4C5iYaWbboHsSszokF+BVFVYPHXuC/99ceYCZQqx6vK3Xv8OVBkbiJ55fSt+QvCCC
+         Fk3sEvVmkNCJqm4QhpNJI/6B+S6pf+qz0h285uoSDxBmroA6q61eaAJjXJK332VSCWAo
+         Ws9nsZZPKtL3Yl+pbZQUY/1CtRqNE2ytxOPYin9mAsYwe/gI82sGghq99BIVnnXnwV5B
+         rsVD9rg8xBWvCEvIm0mCdWBqH3hc/+2JGJEMWLhWyjFU4qdAhcABqJjOGCgygJfUAzhW
+         lRjQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=e3zJqqgC;
+       spf=pass (google.com: domain of delivery_20230720140254.32142671.258409@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230720140254.32142671.258409@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230720140254.32142671.258409@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id ga15-20020a05622a590f00b00403ec96ad23si132398qtb.3.2023.07.20.11.02.55
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 20 Jul 2023 11:02:55 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230720140254.32142671.258409@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=tDdHdEFlb5G/8iXw1YJhmxzappAVS/4qP1ij+S8juDc=;
+ b=e3zJqqgC+7ENooxuYG8NVih6xfCvmRi1Iy/U0WH34saKtC6/SX9OK/WssJlRMZLoezqld+HAHGoT
+   PYv6tqnMdOOy26/LskWBqLUn+UGJtFWCo7kqzY/9UwHTLXfUz1vwejQWzhV4iZ5YRXIEJYPb2jph
+   qVQmyJ+SB5e0OWnZidg=
+Received: from nj2mta-18.sailthru.com (204.153.121.18) by bloomberg-b.sailthru.com id hn5rcu30nu88 for <bloomberg@khamel.com>; Thu, 20 Jul 2023 13:02:54 -0500 (envelope-from <delivery_20230720140254.32142671.258409@mx.sailthru.com>)
+Date: Thu, 20 Jul 2023 14:02:54 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230720140254.32142671.258409@sailthru.com>
+Subject: Money Stuff: Baby-Formula Ponzi Schemer Does This a Lot
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8266411_1581429237.1689876174927"
+Precedence: bulk
+x-job: 6358-32142671-20230720
+X-Feedback-ID: 6358:32142671:campaign:sailthru
+X-TM-ID: 20230720140254.32142671.258409
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-farmelon.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj4xfz.5je1/21ec6338
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj4xfz.5je1/21ec6338>, <mailto:unsubscribe_20230720140254.32142671.258409@mx.sailthru.com>
+X-rpcampaign: stjko32142671
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_8266411_1581429237.1689876174927
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Monday.=
+The Economics 101 story is that markets respond to shortages through pric
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.
+
+ =20
+   =20
+      Good Ponzi
+   =20
+ =20
+
+The Economics 101 story is that markets respond to shortages through price =
+signals. If a widget factory burns down, there will be a shortage of widget=
+s, widget users will pay higher prices to secure their scarce widgets, and =
+entrepreneurs, seeing those high prices, will jump in to build their own wi=
+dget factories and solve the shortfall.=C2=A0
+Of course in the real world this mechanism is imperfect and not instantaneo=
+us: If there=E2=80=99s a shortage of widgets and the price spikes, you can=
+=E2=80=99t necessarily open a widget factory tomorrow. You need expertise a=
+nd capital and raw materials and workers to respond to the price signal.
+The =E2=80=A6=C2=A0let=E2=80=99s say Topics in Money Stuff Economics Semina=
+r version of this story would mention that markets also sometimes respond t=
+o shortages through=C2=A0con artists.
+  [1]
+=C2=A0When a widget factory burns down and people need widgets, there are n=
+ot necessarily a lot of unemployed widget manufacturers hanging around read=
+y to spring into action to solve the shortage. But there=C2=A0are, absolute=
+ly, a lot of con artists hanging around pretending to sell gold bars or can=
+nabis or crypto or whatever the Last Thing was, and=C2=A0their=C2=A0costs o=
+f pivoting to the Current Thing are very low. They do not need to retool a =
+factory or source raw materials. Just take the email that is like =E2=80=9C=
+send me $1 million and I will get you a guaranteed 20% return in a month by=
+ yield farming in DeFi=E2=80=9D and search-and-replace =E2=80=9Cyield farmi=
+ng in DeFi=E2=80=9D with =E2=80=9Cmanufacturing scarce widgets.=E2=80=9D
+Or =E2=80=9Csupplying scarce baby formula.=E2=80=9D Or =E2=80=9Cproviding m=
+edical aid to Ukraine.=E2=80=9D Or =E2=80=9Cimporting N95 masks to fight Co=
+vid.=E2=80=9D If you read the news and see that there=E2=80=99s a high-prof=
+ile shortage of some good, you can just pretend to supply it! And gullible =
+investors, who also read the news, will be excited to give you money.
+This is not any sort of advice, I do not recommend it, I would not do it my=
+self, but oh boy did Eliyahu Weinstein (allegedly) do it.=C2=A0In 2013, Wei=
+nstein pleaded guilty to running a $200 million real estate Ponzi scheme. I=
+n 2012 and 2013, while he was out on bail for that Ponzi scheme, he did ano=
+ther financial scam  involving =E2=80=9Cpurported sales of pre-IPO Facebook=
+ shares and Florida real estate=E2=80=9D; he pleaded guilty to that one in =
+2014. He was sentenced to a total of 24 years in prison for all of this, bu=
+t in January 2021 President Donald Trump commuted his sentence and let him =
+out of prison. I don=E2=80=99t know why Trump let him out, but possibly he =
+admired Weinstein=E2=80=99s moxie and sense of humor and wanted to see what=
+ else he=E2=80=99d get up to.
+That faith in him was richly rewarded yesterday, when Weinstein was charged=
+ by the  US Securities and Exchange Commission and  federal prosecutors in =
+New Jersey with doing a new Ponzi scheme in the two years since he left pri=
+son. Pre-IPO Facebook shares were very much the current thing in 2012, befo=
+re Facebook went public, but in 2021 through 2023  the things were apparent=
+ly:
+=09=E2=80=9CIn or around late 2021, Optimus [one of Weinstein=E2=80=99s com=
+panies]=C2=A0started raising money directly from a small number of investor=
+s to finance purported transactions related to COVID-19 medical supplies.=
+=E2=80=9D=09=E2=80=9CIn or around May 2022, WEINSTEIN (posing as Mike Konig=
+) asked CC-1 and CC-2 [two unnamed alleged co-conspirators] to raise money =
+from investors to finance the purchase and delivery=C2=A0of three million f=
+irst-aid kits (=E2=80=98FAKs=E2=80=99) to USAID to be distributed to the pe=
+ople of Ukraine during the Russia-Ukraine war (the =E2=80=98FAK deal=E2=80=
+=99).=E2=80=9D=09=E2=80=9CIn or around May 2022, WEINSTEIN (posing as Mike =
+Konig), asked CC-1 and CC-2 to raise additional money to finance Company-1=
+=E2=80=99s purchase of 100 million N95 masks (the =E2=80=98N95 Mask deal=E2=
+=80=99).=E2=80=9D=09=E2=80=9CSimilarly, in or around early August 2022, WEI=
+NSTEIN (posing as Mike Konig) asked CC-1 and CC-2 to raise money to finance=
+ the purchase of approximately 29 shipping containers of baby formula from =
+[alleged co-conspirator Alaa Mohamed] HATTAB=E2=80=99s company, Hattab Glob=
+al, in order to capitalize on supply chain issues which had created a=C2=A0=
+shortage in baby formula (the =E2=80=98Formula deal=E2=80=99).=E2=80=9D
+
+Just pick a thing in the news, and he was allegedly pretending to supply it=
+. Of course prosecutors say he was not actually doing any of these things a=
+nd was instead stealing the money, then raising more (from the next thing) =
+to Ponzi it up and pay fake returns to the earlier investors. If you raise =
+money from investors to pretend to source Covid-19 supplies, and you tell t=
+hem it was a huge success, then you can raise more money from investors to =
+pretend to supply medical aid to Ukraine and use that money to pay your fak=
+e returns to the Covid people. Here=E2=80=99s a sample pitch email:
+We successfully completed our first formula deal with 4 x 28,200 800g Cans =
+(4 Containers). That=E2=80=99s 112,200 cans of formula being distributed to=
+ families in Texas at fair prices. Needless to say, we felt so good about t=
+his one, that we have another deal in the pipeline for 29 more containers. =
+And it is LIVE. If you want in on this deal, Offering is 25% within 3-4 Mon=
+ths (Although we think it will be faster). Funding on this is open from 8/0=
+8-8/19. ACt [sic] now,=E2=80=A6 Only 4mm in funding room left!
+It seems that Weinstein called himself =E2=80=9CMike Konig=E2=80=9D for the=
+ obvious reason that he had an extensive criminal record for frauds and did=
+n=E2=80=99t want potential investors to know about it. (=E2=80=9CNo one wou=
+ld ever give=C2=A0you a penny if they knew who I was . . . because I have a=
+ bad reputation,=E2=80=9D Weinstein allegedly said at a meeting recorded by=
+ law enforcement, oops.) And=C2=A0some of his alleged co-conspirators knew =
+him as Mike Konig until this alleged hilarious dramatic reveal:
+
+On or about August 26, 2022, WEINSTEIN, BROMBERG, HATTAB, CC-1, and CC-2 me=
+t in a hotel conference room in or around Branchburg, New Jersey. Law enfor=
+cement obtained a surreptitious audio recording of that meeting.
+During the meeting, WEINSTEIN stated to CC-1 and CC-2, =E2=80=9CI can=E2=80=
+=99t do this with =E2=80=98Mike [Konig]=E2=80=99 anymore. I am Eli Weinstei=
+n.=E2=80=9D As discussed above, WEINSTEIN also admitted that (a) the [bills=
+ of lading] for the Formula deal were false, and (b) he diverted money from=
+ the N95 Mask deal for other purposes, including to invest in the Turkish s=
+tock market.=C2=A0
+
+Also they had a later meeting, also recorded, to further emphasize what cri=
+mes they were doing:
+
+On or about August 29 and 31, 2022, WEINSTEIN, WITTELS, BROMBERG, EREZ, and=
+ CC-2 met in a hotel conference room in or around Allentown, Pennsylvania. =
+Law enforcement obtained surreptitious audio recordings of these meetings. =
+=E2=80=A6
+During the August 31 meeting, when discussing purported Optimus deals, WEIN=
+STEIN admitted that he =E2=80=9Cmisrepresented specific things=E2=80=9D and=
+ =E2=80=9Cmisled=E2=80=9D and =E2=80=9Clied about transactions.=E2=80=9D WE=
+INSTEIN also acknowledged that the FAK deal did not happen but claimed HATT=
+AB misappropriated the money for Saniton Plastic. WEINSTEIN also admitted t=
+o engaging in the Ponzi Scheme, stating, =E2=80=9CI finagled, and Ponzied, =
+and lied to people to cover us.=E2=80=9D
+
+By the way, if you were the guy at these meetings who=C2=A0didn=E2=80=99t=
+=C2=A0know that Weinstein was a twice-convicted criminal and that all the d=
+eals were fake, and then he confessed everything, what would you do? Three =
+possible answers would be:
+=09Change your name, grow a mustache and run away to sea.=09Go to the FBI i=
+mmediately, tell them everything, assure them that you had no idea and were=
+ totally innocent, offer to wear a wire to catch Weinstein, etc. This seems=
+ reasonable? (Not legal advice!) They=E2=80=99re going want to get Weinstei=
+n again, so they=E2=80=99ll probably give you a decent deal even if you wer=
+e doing a little bit of crime before the big reveal.=09Just be like =E2=80=
+=9Ceh, nobody=E2=80=99s perfect=E2=80=9D and continue doing the scam?=C2=A0
+
+It would not be my choice, but prosecutors say that they went with Option 3=
+:
+Both during and after these August 2022 meetings, the Conspirators agreed t=
+o continue concealing WEINSTEIN=E2=80=99s identity from investors and to ra=
+ise additional money to pay off existing Tryon investors, all in an effort =
+to stop=C2=A0the Ponzi Scheme from falling apart and to cover up the Defend=
+ants=E2=80=99 fraud.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Are loans securities?
+   =20
+ =20
+
+Traditionally, in US law, a bond is a security=C2=A0and a bank loan is not.=
+ If a company borrows money by selling bonds to the bond market, it has to =
+follow securities laws; the theory is that bonds are sold publicly to lots =
+of different unrelated investors, who will want the disclosures and legal p=
+rotections of the securities laws. If a company borrows money by taking out=
+ bank loans, it does not have to follow securities laws; the theory is that=
+ loans are negotiated directly with a handful of banks who are sophisticate=
+d, know the company well and do not really need the protections of securiti=
+es laws.=C2=A0
+In modern markets=C2=A0that is not particularly true. =E2=80=9CBank loans,=
+=E2=80=9D these days, are   often syndicated loans sold to hundreds of inve=
+stors, many of whom are hedge funds or collateralized-loan-obligation manag=
+ers or otherwise not banks. Bonds, meanwhile, are mostly sold to big instit=
+utional investors too, and there is some overlap between the loan and bond =
+investor bases. It seems a bit strange and outdated to treat loans and bond=
+s differently, and so you sometimes come across people who argue that loans=
+ should be securities, or people who are surprised to learn that they aren=
+=E2=80=99t.
+Frankly I am not sure that any of this makes a=C2=A0huge=C2=A0difference. T=
+he bond market and the syndicated loan market both involve mainly sophistic=
+ated institutional investors; most companies do not raise money by selling =
+bonds=C2=A0or=C2=A0loans to retail investors. Most bond offerings are exemp=
+t from securities registration under private-placement rules, and all syndi=
+cated loans would be too, even if they were securities. If you lie in your =
+loan documents probably someone can sue you for fraud (bank fraud?), even i=
+f they can=E2=80=99t sue you for=C2=A0securities=C2=A0fraud, and even if th=
+e standards are a bit different. Most bonds don=E2=80=99t trade on national=
+ securities exchanges anyway, so it=E2=80=99s not like making loans securit=
+ies would require them to trade on exchanges.
+Still there are some differences that probably matter a lot to, like, the l=
+awyers supporting loan arranging and trading desks (and electronic loan tra=
+ding platforms). Declaring loans securities would cause various sorts of di=
+sruption. My=20
+favorite difference is that you=E2=80=99re allowed to trade loans with insi=
+de information,=C2=A0sort of, while you are=C2=A0not allowed to trade secur=
+ities with inside information: Insider trading in securities is illegal, wh=
+ile banks were historically=C2=A0supposed=C2=A0to be intimately familiar wi=
+th the nonpublic details of their borrowers=E2=80=99 businesses, and if you=
+ bought a loan from the bank that made it then of course you would assume t=
+hat the bank knew things that you didn=E2=80=99t. (These days, syndicated l=
+oan markets have =E2=80=9Cpublic side=E2=80=9D traders, people at hedge fun=
+ds and elsewhere who trade both loans and bonds and so don=E2=80=99t get in=
+side information, and =E2=80=9Cprivate side=E2=80=9D traders, people at ban=
+ks and other lenders who deal directly with companies and get inside inform=
+ation.)
+What does=C2=A0not=C2=A0happen, in syndicated loan deals, is that banks sel=
+l them to retail investors without any disclosure and then say =E2=80=9Chah=
+a, not a security, you can=E2=80=99t sue us!=E2=80=9D This is all an instit=
+utional market.
+Anyway, some institutional investors in a loan deal didn=E2=80=99t like how=
+ the deal worked out, so they=20
+sued JPMorgan Chase & Co., an arranger of the loan, for securities fraud. J=
+PMorgan said, nope, not securities, so not securities fraud. (The case is c=
+alled Kirschner v. JPMorgan, and we have talked about it a   couple of  tim=
+es over the years.)
+The standard view is that syndicated loans are not securities, and a federa=
+l court agreed with JPMorgan and dismissed the case.=C2=A0The investors app=
+ealed. The federal appeals court had the bright idea of asking the US Secur=
+ities and Exchange Commission, which after all regulates securities, for it=
+s views. The SEC is=C2=A0very keenly interested in the exact contours of wh=
+at is and is not a security, so you might expect it to enthusiastically ans=
+wer the court=E2=80=99s question.   But, nope:
+
+The Securities and Exchange Commission said it is =E2=80=9Cnot in a positio=
+n to file=E2=80=9D a brief giving its view on whether leveraged loans are s=
+ecurities, sidestepping a request to weigh in on a long-running lawsuit tha=
+t may have major implications for the $1.4 trillion market for risky debt.
+A three-judge US Court of Appeals panel had sought the SEC=E2=80=99s view o=
+n the question as it weighs a decision in a case that could upend the lever=
+aged buyout machine and a decades-old market riskier companies rely on for =
+financing. The SEC=E2=80=99s filing had been hotly anticipated because the =
+court was expected to lean heavily on its opinion, legal experts earlier to=
+ld Bloomberg.
+=E2=80=9CDespite diligent efforts to respond to the Court=E2=80=99s order a=
+nd provide the Commission=E2=80=99s views, the staff is unfortunately not i=
+n a position to file a brief on behalf of the Commission in this matter. We=
+ greatly appreciate the Court=E2=80=99s indulgence and regret any inconveni=
+ence this may have caused the Court or the parties,=E2=80=9D according to t=
+he letter filed on Tuesday and signed by SEC General Counsel Megan Barbero.
+The panel that=E2=80=99s deciding the case, Kirschner v. JPMorgan, now will=
+ likely need to decide the case without input from the agency. If the court=
+ rules that the loan at the heart of the case was a security, it could ushe=
+r sweeping new regulations into the market.
+
+Ahahahaha what is going on here? I think it is impossible to read this with=
+out reference to the SEC=E2=80=99s   crackdown on cryptocurrencies. The SEC=
+ has been aggressive in asserting that   virtually all crypto tokens are se=
+curities and subject to SEC regulation, but=C2=A0that position has gotten a=
+ lot of criticism from the crypto industry and some politicians. And last w=
+eek the SEC had a strange but important loss in court, when   a federal dis=
+trict court ruled that Ripple=E2=80=99s XRP token sometimes is and sometime=
+s isn=E2=80=99t a security.
+  [2]
+=C2=A0The SEC will presumably appeal that decision. There is a live=C2=A0co=
+ntroversy over what securities laws apply to crypto, and the SEC is pushing=
+ a maximal approach.
+Mostly that approach consists of litigating crypto cases, but the SEC tries=
+ to stay on-message generally. We   talked last week about an SEC enforceme=
+nt action against a company that sells shares of Ferraris and art and stuff=
+. There was no crypto involved, but I argued that the SEC pursued that case=
+ as a relevant precedent: =E2=80=9CIt=E2=80=99s not just crypto, lots of wa=
+ys to package speculative investments are illegal securities offerings,=E2=
+=80=9D was the rough message.=C2=A0
+And here comes a court asking it if some=C2=A0other=C2=A0thing is a securit=
+y, a thing that has been treated as=C2=A0not=C2=A0a security for decades. W=
+hat can the SEC do?
+=09It can say =E2=80=9Cno, syndicated loans are not securities.=E2=80=9D Bu=
+t then it is conceding that some investment opportunities are not securitie=
+s; it is giving crypto people some precedents to argue that=C2=A0their=C2=
+=A0things are not securities.
+  [3]
+=C2=A0Also it looks bad politically: The SEC is being maximalist about what=
+ counts as a security when it goes after crypto upstarts, but it is letting=
+ JPMorgan avoid securities laws. If you are a crypto-friendly politician, t=
+hat looks like favoritism for the big incumbents at the expense of crypto i=
+nnovators.=09It can say =E2=80=9Cyes, syndicated loans are securities.=E2=
+=80=9D But then it might lose! Syndicated loans have=C2=A0not, historically=
+, been treated as securities, so it is not obvious that the court would agr=
+ee with the SEC=E2=80=99s view. If the SEC argued that they are securities,=
+ it would give ammunition to critics who say that it is trying to expand it=
+s jurisdiction in ways no one previously thought appropriate. And of course=
+ on the other side would be most of the big banks and investment firms: A l=
+ot of respectable traditional financial firms would disagree with the SEC a=
+nd fight back against it. It=E2=80=99s one thing to be aggressive against c=
+rypto upstarts; it=E2=80=99s another thing to fight JPMorgan.
+
+Neither is a great outcome. Also, to be clear, I don=E2=80=99t know=C2=A0wh=
+at the SEC actually thinks:=C2=A0My wild guess would be that SEC Chair Gary=
+ Gensler, who has led the SEC=E2=80=99s maximalist push, probably does thin=
+k that everything is a security and would like to regulate bank loans, whil=
+e a lot of SEC staffers are used to the status quo and think that regulatin=
+g bank loans as securities would solve no problems and would create new one=
+s. But I don=E2=80=99t think this matters that much: Whatever the SEC think=
+s in its heart of hearts, it has no interest in talking=C2=A0about it, now.
+I should say that a view like =E2=80=9Cno, syndicated loans are not securit=
+ies, but all crypto tokens are=E2=80=9D would be totally coherent. For one =
+thing, a crypto token really is often a=C2=A0speculative investment in a st=
+artup business promoted by its founder, in a way that a bank loan is not.
+  [4]
+ But also, the reason the SEC wants to regulate crypto tokens as securities=
+ is that=C2=A0they are sold broadly to retail investors, while syndicated l=
+oans are not. If your concern is protecting retail investors from risky spe=
+culative investments promoted with wild promises, treating crypto tokens as=
+ securities probably helps you achieve your goal, while treating syndicated=
+ loans as securities is irrelevant.
+
+ =20
+   =20
+      Nasdaq 100
+   =20
+ =20
+
+Just to close a loop here. We   talked last week about a quirk of Nasdaq=E2=
+=80=99s published methodology for rebalancing its Nasdaq 100 index, which w=
+ould seem to have the effect of (1) reducing the weights of six big compani=
+es (Microsoft Corp., Apple Inc., Alphabet Inc, Nvidia Corp., Amazon.com Inc=
+. and Tesla Inc.) in the index and (2)=C2=A0increasing=C2=A0the weight of M=
+eta Platforms Inc. in the index. That was weird! =E2=80=9CThis would be kin=
+d of a silly result,=E2=80=9D I wrote, =E2=80=9Cbringing Meta above 5% of t=
+he index and arbitrarily flipping its position with Tesla,=C2=A0and it=E2=
+=80=99s entirely possible that the actual adjustment will not work this way=
+.=E2=80=9D
+It will not. Bloomberg=E2=80=99s Lu Wang   reported this week:
+
+Nasdaq on Friday released to clients the pro forma data revealing the adjus=
+tments index members will receive in the revamp. They show the company form=
+erly known as Facebook will get a downward revision alongside Apple Inc., M=
+icrosoft Corp., Alphabet Inc., Nvidia Corp., Amazon.com Inc., and Tesla Inc=
+.
+The details have been the subject of frenzied speculation among investors a=
+nd market watchers, because money managers with hundreds of billions benchm=
+arked to the index will need to buy and sell en masse to mimic the changes.=
+ And while the rebalance methodology is public, it=E2=80=99s subject to var=
+ious interpretations and has become a source of confusion.
+
+It=E2=80=99s very weird. Nasdaq 100 index funds will clearly need to sell A=
+pple stock and buy, like, Broadcom Inc. stock (currently 1.7% of the index)=
+. But it was not at all clear for a while whether funds would need to buy a=
+ lot of Meta stock or sell it: When I wrote about it last week, I cited a J=
+PMorgan research note estimating that funds would need to buy about $2 bill=
+ion of Meta stock, while this Monday  FT Alphaville cited a Goldman note es=
+timating that they=E2=80=99d need to sell about $1.9 billion worth. And Wan=
+g cites Wells Fargo:
+
+At Wells Fargo & Co., the team originally forecast Meta=E2=80=99s weight wo=
+uld be reduced. They later withdrew that view, before ultimately finding ou=
+t their initial take was correct.
+=E2=80=9CMeta was a little tricky. Initially the team thought it would be c=
+apped and then backed off that view,=E2=80=9D said Chris Harvey, head of eq=
+uity strategy at the bank. =E2=80=9CIt makes more intuitive sense this way=
+=E2=80=9D since if it=E2=80=99s not downsized, it would compromise the whol=
+e aim of addressing overconcentration, he said.
+
+I don=E2=80=99t want to overstate this =E2=80=94=C2=A0Meta=E2=80=99s stock =
+trades more than $5 billion a day, and there is other news out there =E2=80=
+=94=C2=A0but it is the case that   index rebalancing is a big business at a=
+ number of hedge funds, and if you got this wrong (as I kind of did!) then =
+you were buying Meta stock at somewhat inflated prices from other index-reb=
+alancing-arbitrageurs who got it right.
+
+ =20
+   =20
+      FTX
+   =20
+ =20
+
+I am not sure I believe stories that the young staff of Sam Bankman-Fried=
+=E2=80=99s FTX crypto empire formed a =E2=80=9Cpolycule,=E2=80=9D but I wil=
+l say that I have never before heard of someone funding multiple hedge fund=
+s run by his former romantic partners and allocating capital among them as =
+a sign of affection:
+
+By last fall, Mr. Bankman-Fried had lost faith in Alameda. He considered sh=
+utting the firm, according to court records, and invested more than $400 mi=
+llion in another trading company, Modulo Capital, which was led by a differ=
+ent former Jane Street trader whom he had also dated.
+Ms. Ellison expressed jealousy and resentment toward Modulo in some of her =
+writings, as well as a feeling that she was being squeezed out, two people =
+who have seen the documents said.
+
+Alameda is Alameda Research, Bankman-Fried=E2=80=99s first crypto trading v=
+ehicle, which at the time was run by Caroline Ellison, a former colleague o=
+f his at Jane Street Capital whom he had dated. Modulo was, well, =E2=80=9C=
+led by a different former Jane Street trader whom he had also dated.=E2=80=
+=9D Ellison was jealous of the money he put into Modulo? Just a whole genre=
+ of romantic trouble that I personally avoided in my 20s.
+That is from a New York Times story titled =E2=80=9CInside the Private Writ=
+ings of Caroline Ellison, Star Witness in the FTX Case=E2=80=9D:
+
+As Mr. Bankman-Fried=E2=80=99s sometime-girlfriend and one of his earliest =
+hires, Ms. Ellison had unique insight into the FTX founder. She also record=
+ed many of her thoughts in writing, making observations about her personal =
+and professional life in a handwritten diary and on Google documents that h=
+ave circulated among lawyers involved in the case, according to documents r=
+eviewed by The New York Times and four people familiar with the investigati=
+on.
+The documents, which have not been previously reported, offer new insight i=
+nto Ms. Ellison=E2=80=99s psychology during the final months of FTX. Ms. El=
+lison, now 28, was a prolific writer whose Tumblr posts about Harry Potter =
+and Jane Austen have been widely dissected. But the Google documents are mo=
+re personal and raw, with some directly addressed to Mr. Bankman-Fried, ill=
+ustrating the complexity of their relationship and her ambivalence about Al=
+ameda.
+
+What is interesting is what those paragraphs don=E2=80=99t say. The  basic =
+story that prosecutors tell about FTX is that, in May 2022, Alameda ran int=
+o some trouble with lenders, and  a high-level meeting was convened at whic=
+h Ellison, Bankman-Fried and some other executives agreed to use FTX custom=
+er funds to keep Alameda afloat. When Ellison pleaded guilty last year, she=
+ told a judge, =E2=80=9CI agreed with others to borrow several billion doll=
+ars from FTX to repay those loans,=E2=80=9D and =E2=80=9CI knew that it was=
+ wrong.=E2=80=9D The Times quotes some of her journal entries:
+=E2=80=9CI have been feeling pretty unhappy and overwhelmed with my job,=E2=
+=80=9D Ms. Ellison wrote in a Google document in February 2022. She added: =
+=E2=80=9CAt the end of the day I can=E2=80=99t wait to go home and turn off=
+ my phone and have a drink and get away from it all.=E2=80=9D
+Fine, sure, okay.
+
+In one Google document addressed to Mr. Bankman-Fried in April 2022, Ms. El=
+lison wrote that an earlier breakup with him had =E2=80=9Csignificantly dec=
+reased my excitement about Alameda.=E2=80=9D Life at the hedge fund, she ad=
+ded, =E2=80=9Cfelt too associated with you in a way that was painful.=E2=80=
+=9D =E2=80=A6
+=E2=80=9CI felt pretty hurt/rejected,=E2=80=9D she wrote in the April 2022 =
+Google document. =E2=80=9CNot giving you the contact you wanted felt like t=
+he only way I could regain a sense of power.=E2=80=9D
+
+Fine. But when I read these passages, I tend to think:
+=09This is a person who, when she left the Let=E2=80=99s Steal Customer Mon=
+ey meeting in May 2022, would probably go home and journal about it, and=09=
+If those=C2=A0journal entries=C2=A0existed, the Times would probably have q=
+uoted them.
+
+I don=E2=80=99t know what that tells you. Maybe Ellison wrote a lot about h=
+er feelings but was careful not to confess to crimes in the Google document=
+. Maybe she did confess to crimes in the Google document, but those entries=
+ haven=E2=80=99t become public yet. Still I think that this story slightly=
+=C2=A0reduces=C2=A0my estimation of the government=E2=80=99s case against B=
+ankman-Fried. Ellison will apparently testify that Bankman-Fried=C2=A0signe=
+d off on stealing customer money in mid-2022, and that she knew that was wr=
+ong and felt bad about it. But if her contemporaneous diary entries are all=
+ like =E2=80=9CI am just not sure that I have the traits of a successful le=
+ader,=E2=80=9D rather than like =E2=80=9CI worry we=E2=80=99re doing a Ponz=
+i,=E2=80=9D doesn=E2=80=99t that undermine her story?
+
+ =20
+   =20
+      BlackRock
+   =20
+ =20
+
+I mean, obviously,  what did they expect:
+
+New York City Comptroller Brad Lander slammed a decision by BlackRock Inc.,=
+ its largest external money manager, to appoint the chief executive of the =
+world=E2=80=99s biggest oil company to its board.
+=E2=80=9CBlackRock has clearly stated that climate risk is an investment ri=
+sk, but actions speak louder than words,=E2=80=9D New York City Comptroller=
+ Brad Lander said in an emailed statement. =E2=80=9CAt a time when financia=
+l institutions need to take a collective approach to addressing the financi=
+al risks from climate change, BlackRock shareholders expect climate-compete=
+nt, not climate-conflicted, directors.=E2=80=9D
+BlackRock this week named Saudi Aramco Chief Executive Officer Amin Nasser =
+to its board, underscoring the investment firm=E2=80=99s commitment to the =
+oil industry. The move comes as BlackRock finds itself at the center of a h=
+ighly politicized debate around environmental, social and governance invest=
+ing, with Republicans accusing it of focusing too much on climate change an=
+d social issues.
+
+Sure, fine, this is the lowest-hanging fruit. We=20
+talked about BlackRock=E2=80=99s decision on Tuesday, and I found it baffli=
+ng. =E2=80=9CI would just=C2=A0not=C2=A0write a lot of letters to CEOs abou=
+t how important climate change is, and also=C2=A0not=C2=A0put a Saudi oil e=
+xecutive on the board,=E2=80=9D I wrote; the combination that BlackRock has=
+ chosen (some ESG advocacy, lots of fossil-fuel investment, Nasser on the b=
+oard) seems likely to please no one. Sure=C2=A0Lander=C2=A0is mad. But imag=
+ine reading this article, which you will not read anywhere else because I a=
+m just making it up:
+
+Texas Comptroller Glenn Hegar praised a decision by BlackRock Inc., an exte=
+rnal money manager banned from doing business with Texas, to appoint the ch=
+ief executive of the world=E2=80=99s biggest oil company to its board.
+=E2=80=9CBlackRock has clearly stated that climate risk is an investment ri=
+sk, but this board appointment proves that it is cool with oil,=E2=80=9D He=
+gar said in a statement that, to be clear, he did not make; this entire blo=
+ck quote is fake. =E2=80=9CAt a time when my fellow Republican state offici=
+als are getting attention by attacking financial institutions for their sta=
+tements about environmental, social and governance investing,=C2=A0my=C2=A0=
+concerns are completely assuaged by BlackRock appointing this Aramco guy to=
+ its board.=E2=80=9D
+
+It=E2=80=99s impossible to imagine, right? Nobody who has criticized BlackR=
+ock for its ESG commitments (except I guess Nasser himself, who =E2=80=9Cha=
+s criticized ESG in the past=E2=80=9D) is excited about this appointment. T=
+hey should have appointed Donald Trump to the board.=C2=A0That=C2=A0would h=
+ave given Glenn Hegar something to think about.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Federal Reserve tries to make up for lost decades with  real-time payments =
+system. Blackstone=E2=80=99s   $1 Trillion Triumph Is Muted by Deal Slowdow=
+n. Apollo to Launch Private Fund in   Asset-Based Financing Buildout.  Tech=
+ Stocks, Meme Stocks, Crypto: Investors Are Feeling Bold Again. Adidas and =
+Ye=E2=80=99s Secret Battle Over a $100 Million   Marketing Fund. White Men =
+Experience Biggest   Cognitive Declines After Retirement. =E2=80=9CThat=E2=
+=80=99s exactly what you want to do! Hell is wrong with you?  I signed up f=
+or=C2=A0Snakes on a Plane=C2=A0and I guarantee you that audiences will be w=
+ay more excited about=C2=A0Snakes on a Plane=C2=A0than=C2=A0Pacific Flight =
+121.=E2=80=9D
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Some   related background   reading from Money Stuff.
+
+
+  [2] Technically it ruled that the token is not a security, but that some =
+sales of it are securities offerings and some are not.   I think this is in=
+coherent but never mind!
+
+
+  [3] Not very much. The debate about whether a crypto token is a security =
+is mostly about the US Supreme Court=E2=80=99s   Howey test for whether a t=
+hing is an =E2=80=9Cinvestment contract,=E2=80=9D that is, whether it =E2=
+=80=9Cinvolves an investment of money in a common enterprise with profits t=
+o come solely from the efforts of others.=E2=80=9D The debate about whether=
+ a loan is a security is different: The statutory definition of a security =
+includes things like =E2=80=9Cnote, =E2=80=A6 bond, debenture, evidence of =
+indebtedness=E2=80=9D that would seem by their terms to capture a loan. The=
+re is a different Supreme Court precedent declaring that sometimes a =E2=80=
+=9Cnote=E2=80=9D is not a security, if it =E2=80=A6 looks like a bank loan,=
+ basically. The case is called  Reves v. Ernst & Young, and it relies on fa=
+ctors like the motivations of the investor (investment vs. commercial purpo=
+ses), the plan of distribution of the note, the public expectation, and =E2=
+=80=9Cwhether some factor such as the existence of another regulatory schem=
+e significantly reduces the risk of the instrument, thereby rendering appli=
+cation of the Securities Acts unnecessary.=E2=80=9D It=E2=80=99s not very s=
+atisfying, to be honest.
+
+
+  [4] See the previous footnote: The essential test for whether crypto is a=
+ security is Howey, while the essential test for whether a loan is a securi=
+ty is Reves, and there is not a ton of analytical overlap between them.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj4xfz.5je1/7871c48b.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_8266411_1581429237.1689876174927
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Monday.The Econ=
+omics 101 story is that markets respond to shortages through pric
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.258409/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNzIwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MjAmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB84eab301"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.258409/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMjE0MjY3MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI0MDEwODAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB61f848d9" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D32142671&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32401080&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Monday.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Good Ponzi</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The Economics 101 story is that markets respon=
+d to shortages through price signals. If a widget factory burns down, there=
+ will be a shortage of widgets, widget users will pay higher prices to secu=
+re their scarce widgets, and entrepreneurs, seeing those high prices, will =
+jump in to build their own widget factories and solve the shortfall.=C2=A0<=
+/p>
+<p style=3D"margin: 16px 0;">Of course in the real world this mechanism is =
+imperfect and not instantaneous: If there=E2=80=99s a shortage of widgets a=
+nd the price spikes, you can=E2=80=99t necessarily open a widget factory to=
+morrow. You need expertise and capital and raw materials and workers to res=
+pond to the price signal.</p>
+<p style=3D"margin: 16px 0;">The =E2=80=A6=C2=A0let=E2=80=99s say Topics in=
+ Money Stuff Economics Seminar version of this story would mention that mar=
+kets also sometimes respond to shortages through=C2=A0<em>con artists</em>.=
+<a class=3D"footnote-index" href=3D"#footnote-1" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: none !important; background-color: trans=
+parent !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0When a widget factory burns down and people need widgets, there a=
+re not necessarily a lot of unemployed widget manufacturers hanging around =
+ready to spring into action to solve the shortage. But there=C2=A0<em>are</=
+em>, absolutely, a lot of con artists hanging around pretending to sell gol=
+d bars or cannabis or crypto or whatever the Last Thing was, and=C2=A0<em>t=
+heir=C2=A0</em>costs of pivoting to the Current Thing are very low. They do=
+ not need to retool a factory or source raw materials. Just take the email =
+that is like =E2=80=9Csend me $1 million and I will get you a guaranteed 20=
+% return in a month by yield farming in DeFi=E2=80=9D and search-and-replac=
+e =E2=80=9Cyield farming in DeFi=E2=80=9D with =E2=80=9Cmanufacturing scarc=
+e widgets.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Or =E2=80=9C<a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/32142671.258409/aHR0cHM6Ly93d3cuaGhzLmdvdi9mb3JtdWxh=
+L2luZGV4Lmh0bWw/607f07ceef4b8524a319a23cBfa211ead" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">supplying scarce=
+ baby formula</a>.=E2=80=9D Or =E2=80=9Cproviding medical aid to Ukraine.=
+=E2=80=9D Or =E2=80=9Cimporting N95 masks to fight Covid.=E2=80=9D If you r=
+ead the news and see that there=E2=80=99s a high-profile shortage of some g=
+ood, you can just pretend to supply it! And gullible investors, who also re=
+ad the news, will be excited to give you money.</p>
+<p style=3D"margin: 16px 0;">This is not any sort of advice, I do not recom=
+mend it, I would not do it myself, but oh boy did Eliyahu Weinstein (allege=
+dly) do it.=C2=A0In 2013, Weinstein pleaded guilty to running a $200 millio=
+n real estate Ponzi scheme. In 2012 and 2013, while he was out on bail for =
+that Ponzi scheme, he did another financial scam <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/32142671.258409/aHR0cHM6Ly93d3cuc2VjLmdvdi9s=
+aXRpZ2F0aW9uL2NvbXBsYWludHMvMjAyMy9jb21wLXByMjAyMy0xMzQucGRm/607f07ceef4b85=
+24a319a23cB7553e812" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> involving</a> =E2=80=9Cpurported sales of pr=
+e-IPO Facebook shares and Florida real estate=E2=80=9D; he pleaded guilty t=
+o that one in 2014. He was sentenced to a total of 24 years in prison for a=
+ll of this, but in January 2021 President Donald Trump <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/32142671.258409/aHR0cHM6Ly93d3cubnl0aW=
+1lcy5jb20vMjAyMy8wNy8xOS9ueXJlZ2lvbi9wb256aS1zY2hlbWUtZnJhdWQtdHJ1bXAtY29tb=
+XV0ZS1zZW50ZW5jZS5odG1s/607f07ceef4b8524a319a23cB672d59d1" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">commuted=
+ his sentence</a> and let him out of prison. I don=E2=80=99t know why Trump=
+ let him out, but possibly he admired Weinstein=E2=80=99s moxie and sense o=
+f humor and wanted to see what else he=E2=80=99d get up to.</p>
+<p style=3D"margin: 16px 0;">That faith in him was richly rewarded yesterda=
+y, when Weinstein was charged by the <a href=3D"https://link.mail.bloomberg=
+business.com/click/32142671.258409/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNz=
+LXJlbGVhc2UvMjAyMy0xMzQ/607f07ceef4b8524a319a23cBa91e12c8" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> US Secu=
+rities and Exchange Commission</a> and <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/32142671.258409/aHR0cHM6Ly93d3cuanVzdGljZS5nb3YvdXNhby=
+1uai9wci9jb252aWN0ZWQtcG9uemktc2NoZW1lci1mb3VyLW90aGVyLW1lbi1jaGFyZ2VkLW11b=
+HRpbWlsbGlvbi1kb2xsYXItZnJhdWQtc2NoZW1lLWFuZA/607f07ceef4b8524a319a23cB38cc=
+d520" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> federal prosecutors in New Jersey</a> with doing a new Ponzi=
+ scheme in the two years since he left prison. Pre-IPO Facebook shares were=
+ very much the current thing in 2012, before Facebook went public, but in 2=
+021 through 2023 <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+2142671.258409/aHR0cHM6Ly93d3cuanVzdGljZS5nb3YvZDkvMjAyMy0wNy93ZWluc3RlaW5l=
+dGFsLmNvbXBsYWludC5wZGY/607f07ceef4b8524a319a23cB9f173ba1" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> the thi=
+ngs were apparently</a>:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">=E2=80=9CIn or around late 2021, Optim=
+us [one of Weinstein=E2=80=99s companies]=C2=A0started raising money direct=
+ly from a small number of investors to finance purported transactions relat=
+ed to COVID-19 medical supplies.=E2=80=9D</li>=09<li style=3D"margin-bottom=
+: 5px;">=E2=80=9CIn or around May 2022, WEINSTEIN (posing as Mike Konig) as=
+ked CC-1 and CC-2 [<em>two unnamed alleged co-conspirators</em>] to raise m=
+oney from investors to finance the purchase and delivery=C2=A0of three mill=
+ion first-aid kits (=E2=80=98FAKs=E2=80=99) to USAID to be distributed to t=
+he people of Ukraine during the Russia-Ukraine war (the =E2=80=98FAK deal=
+=E2=80=99).=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">=E2=80=9CIn o=
+r around May 2022, WEINSTEIN (posing as Mike Konig), asked CC-1 and CC-2 to=
+ raise additional money to finance Company-1=E2=80=99s purchase of 100 mill=
+ion N95 masks (the =E2=80=98N95 Mask deal=E2=80=99).=E2=80=9D</li>=09<li st=
+yle=3D"margin-bottom: 5px;">=E2=80=9CSimilarly, in or around early August 2=
+022, WEINSTEIN (posing as Mike Konig) asked CC-1 and CC-2 to raise money to=
+ finance the purchase of approximately 29 shipping containers of baby formu=
+la from [<em>alleged co-conspirator Alaa Mohamed</em>] HATTAB=E2=80=99s com=
+pany, Hattab Global, in order to capitalize on supply chain issues which ha=
+d created a=C2=A0shortage in baby formula (the =E2=80=98Formula deal=E2=80=
+=99).=E2=80=9D</li>
+</ul>
+<p style=3D"margin: 16px 0;">Just pick a thing in the news, and he was alle=
+gedly pretending to supply it. Of course prosecutors say he was not actuall=
+y doing any of these things and was instead stealing the money, then raisin=
+g more (from the next thing) to Ponzi it up and pay fake returns to the ear=
+lier investors. If you raise money from investors to pretend to source Covi=
+d-19 supplies, and you tell them it was a huge success, then you can raise =
+more money from investors to pretend to supply medical aid to Ukraine and u=
+se that money to pay your fake returns to the Covid people. Here=E2=80=99s =
+a <a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.258409/=
+aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2NvbXBsYWludHMvMjAyMy9jb21wLXByMjA=
+yMy0xMzQucGRm/607f07ceef4b8524a319a23cC7553e812" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">sample pitch email=
+</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">We successfully completed our firs=
+t formula deal with 4 x 28,200 800g Cans (4 Containers). That=E2=80=99s 112=
+,200 cans of formula being distributed to families in Texas at fair prices.=
+ Needless to say, we felt so good about this one, that we have another deal=
+ in the pipeline for 29 more containers. And it is LIVE. If you want in on =
+this deal, Offering is 25% within 3-4 Months (Although we think it will be =
+faster). Funding on this is open from 8/08-8/19. ACt [sic] now,=E2=80=A6 On=
+ly 4mm in funding room left!</p></blockquote>
+<p style=3D"margin: 16px 0;">It seems that Weinstein called himself =E2=80=
+=9CMike Konig=E2=80=9D for the obvious reason that he had an extensive crim=
+inal record for frauds and didn=E2=80=99t want potential investors to know =
+about it. (=E2=80=9CNo one would ever give=C2=A0you a penny if they knew wh=
+o I was . . . because I have a bad reputation,=E2=80=9D Weinstein allegedly=
+ said at a meeting recorded by law enforcement, oops.) And=C2=A0some of his=
+ alleged co-conspirators knew him as Mike Konig until this alleged hilariou=
+s dramatic reveal:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">On or about August 26, 2022, WEINSTEIN, BROMBE=
+RG, HATTAB, CC-1, and CC-2 met in a hotel conference room in or around Bran=
+chburg, New Jersey. Law enforcement obtained a surreptitious audio recordin=
+g of that meeting.</p>
+<p style=3D"margin: 16px 0;">During the meeting, WEINSTEIN stated to CC-1 a=
+nd CC-2, =E2=80=9CI can=E2=80=99t do this with =E2=80=98Mike [Konig]=E2=80=
+=99 anymore. I am Eli Weinstein.=E2=80=9D As discussed above, WEINSTEIN als=
+o admitted that (a) the [bills of lading] for the Formula deal were false, =
+and (b) he diverted money from the N95 Mask deal for other purposes, includ=
+ing to invest in the Turkish stock market.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Also they had a later meeting, also recorded, =
+to further emphasize what crimes they were doing:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">On or about August 29 and 31, 2022, WEINSTEIN,=
+ WITTELS, BROMBERG, EREZ, and CC-2 met in a hotel conference room in or aro=
+und Allentown, Pennsylvania. Law enforcement obtained surreptitious audio r=
+ecordings of these meetings. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">During the August 31 meeting, when discussing =
+purported Optimus deals, WEINSTEIN admitted that he =E2=80=9Cmisrepresented=
+ specific things=E2=80=9D and =E2=80=9Cmisled=E2=80=9D and =E2=80=9Clied ab=
+out transactions.=E2=80=9D WEINSTEIN also acknowledged that the FAK deal di=
+d not happen but claimed HATTAB misappropriated the money for Saniton Plast=
+ic. WEINSTEIN also admitted to engaging in the Ponzi Scheme, stating, =E2=
+=80=9CI finagled, and Ponzied, and lied to people to cover us.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">By the way, if you were the guy at these meeti=
+ngs who=C2=A0<em>didn=E2=80=99t=C2=A0</em>know that Weinstein was a twice-c=
+onvicted criminal and that all the deals were fake, and then he confessed e=
+verything, what would you do? Three possible answers would be:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Change your name, grow a mustache and=
+ run away to sea.</li>=09<li style=3D"margin-bottom: 5px;">Go to the FBI im=
+mediately, tell them everything, assure them that you had no idea and were =
+totally innocent, offer to wear a wire to catch Weinstein, etc. This seems =
+reasonable? (Not legal advice!) They=E2=80=99re going want to get Weinstein=
+ again, so they=E2=80=99ll probably give you a decent deal even if you were=
+ doing a little bit of crime before the big reveal.</li>=09<li style=3D"mar=
+gin-bottom: 5px;">Just be like =E2=80=9Ceh, nobody=E2=80=99s perfect=E2=80=
+=9D and continue doing the scam?=C2=A0</li>
+</ol>
+<p style=3D"margin: 16px 0;">It would not be my choice, but prosecutors say=
+ that they went with Option 3:</p>
+<blockquote><p style=3D"margin: 16px 0;">Both during and after these August=
+ 2022 meetings, the Conspirators agreed to continue concealing WEINSTEIN=E2=
+=80=99s identity from investors and to raise additional money to pay off ex=
+isting Tryon investors, all in an effort to stop=C2=A0the Ponzi Scheme from=
+ falling apart and to cover up the Defendants=E2=80=99 fraud.</p></blockquo=
+te>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.258409/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjE0MjY3MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI0MDEwODAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC2e4f6bc1" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32142671&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32401080&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.258409/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjE0MjY3MSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzI0MDEwODAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD2e4f6bc1" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32142671&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32401080&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Are loans securities?</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Traditionally, in US law, a bond is a security=
+=C2=A0and a bank loan is not. If a company borrows money by selling bonds t=
+o the bond market, it has to follow securities laws; the theory is that bon=
+ds are sold publicly to lots of different unrelated investors, who will wan=
+t the disclosures and legal protections of the securities laws. If a compan=
+y borrows money by taking out bank loans, it does not have to follow securi=
+ties laws; the theory is that loans are negotiated directly with a handful =
+of banks who are sophisticated, know the company well and do not really nee=
+d the protections of securities laws.=C2=A0</p>
+<p style=3D"margin: 16px 0;">In modern markets=C2=A0that is not particularl=
+y true. =E2=80=9CBank loans,=E2=80=9D these days, are <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/32142671.258409/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDQtMTAvdWJlci1pcy1vbi1pdHMtd2F5LX=
+RvLWFuLWlwbz9jbXBpZD1CQkQwNzIwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MjAmdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cB877e473b" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  often syndicated loans</a>=
+ sold to hundreds of investors, many of whom are hedge funds or collaterali=
+zed-loan-obligation managers or otherwise not banks. Bonds, meanwhile, are =
+mostly sold to big institutional investors too, and there is some overlap b=
+etween the loan and bond investor bases. It seems a bit strange and outdate=
+d to treat loans and bonds differently, and so you sometimes come across pe=
+ople who argue that loans should be securities, or people who are surprised=
+ to learn that they aren=E2=80=99t.</p>
+<p style=3D"margin: 16px 0;">Frankly I am not sure that any of this makes a=
+=C2=A0<em>huge=C2=A0</em>difference. The bond market and the syndicated loa=
+n market both involve mainly sophisticated institutional investors; most co=
+mpanies do not raise money by selling bonds=C2=A0<em>or=C2=A0</em>loans to =
+retail investors. Most bond offerings are exempt from securities registrati=
+on under private-placement rules, and all syndicated loans would be too, ev=
+en if they were securities. If you lie in your loan documents probably some=
+one can sue you for fraud (bank fraud?), even if they can=E2=80=99t sue you=
+ for=C2=A0<em>securities=C2=A0</em>fraud, and even if the standards are a b=
+it different. Most bonds don=E2=80=99t trade on national securities exchang=
+es anyway, so it=E2=80=99s not like making loans securities would require t=
+hem to trade on exchanges.</p>
+<p style=3D"margin: 16px 0;">Still there are some differences that probably=
+ matter a lot to, like, the lawyers supporting loan arranging and trading d=
+esks (and electronic loan trading platforms). Declaring loans securities wo=
+uld cause various sorts of disruption. My <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/32142671.258409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+vcGluaW9uL2FydGljbGVzLzIwMjEtMTItMTYvdGhlLXNlYy1oYXMtYmlnLXBsYW5zP2NtcGlkPU=
+JCRDA3MjAyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0d=
+GVyJnV0bV90ZXJtPTIzMDcyMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a=
+319a23cB6e91160e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">
+favorite difference</a> is that <em>you=E2=80=99re allowed to trade loans w=
+ith inside information,=C2=A0</em>sort of, while you are=C2=A0<em>not allow=
+ed to trade securities with inside information: </em>Insider trading in sec=
+urities is illegal, while banks were historically=C2=A0<em>supposed=C2=A0</=
+em>to be intimately familiar with the nonpublic details of their borrowers=
+=E2=80=99 businesses, and if you bought a loan from the bank that made it t=
+hen of course you would assume that the bank knew things that you didn=E2=
+=80=99t. (These days, syndicated loan markets have =E2=80=9Cpublic side=E2=
+=80=9D traders, people at hedge funds and elsewhere who trade both loans an=
+d bonds and so don=E2=80=99t get inside information, and =E2=80=9Cprivate s=
+ide=E2=80=9D traders, people at banks and other lenders who deal directly w=
+ith companies and get inside information.)</p>
+<p style=3D"margin: 16px 0;">What does=C2=A0<em>not=C2=A0</em>happen, in sy=
+ndicated loan deals, is that banks sell them to retail investors without an=
+y disclosure and then say =E2=80=9Chaha, not a security, you can=E2=80=99t =
+sue us!=E2=80=9D This is all an institutional market.</p>
+<p style=3D"margin: 16px 0;">Anyway, some institutional investors in a loan=
+ deal didn=E2=80=99t like how the deal worked out, so they <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/32142671.258409/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMTctMDgtMDIvdHJ1c3RlZS1hbGxlZ2VzLWpwb=
+W9yZ2FuLWNoYXNlLWZhaWxlZC10by1kaXNjbG9zZS1iaWxsaW5nLXByb2JlP2NtcGlkPUJCRDA3=
+MjAyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV=
+0bV90ZXJtPTIzMDcyMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23=
+cB570b4b79" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">
+sued JPMorgan Chase &amp; Co.</a>, an arranger of the loan, for securities =
+fraud. JPMorgan said, nope, not securities, so not securities fraud. (The c=
+ase is called Kirschner v. JPMorgan, and we have talked about it a <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/32142671.258409/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDUtMTQvdGhlcmUtd2Fz=
+LW5vLXdheS10by13aW4td2l0aC10aGUtdWJlci1pcG8_Y21waWQ9QkJEMDcyMDIzX01PTkVZU1R=
+VRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNz=
+IwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB8a1398f0" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">  couple</a> of <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/32142671.258409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLz=
+IwMjAtMDUtMjgvbW9uZXktc3R1ZmYtd2lsbC10aGUtc2VjLWJ1c3QtZmFjZWJvb2stZm9yLWRyd=
+WdzP2NtcGlkPUJCRDA3MjAyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJj=
+ZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcyMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f=
+07ceef4b8524a319a23cBca270c2f" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> times</a> over the years.)</p>
+<p style=3D"margin: 16px 0;">The standard view is that syndicated loans are=
+ not securities, and a federal court agreed with JPMorgan and dismissed the=
+ case.=C2=A0The investors appealed. The federal appeals court had the brigh=
+t idea of asking the US Securities and Exchange Commission, which after all=
+ regulates securities, for its views. The SEC is=C2=A0<em>very keenly inter=
+ested </em>in the exact contours of what is and is not a security, so you m=
+ight expect it to enthusiastically answer the court=E2=80=99s question. <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/32142671.258409/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMTgvc2VjLWRlY2xp=
+bmVzLXRvLXNoYXJlLXZpZXctb24tbGV2ZXJhZ2VkLWxvYW4tc2VjdXJpdGllcy1zdWl0P2NtcGl=
+kPUJCRDA3MjAyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbG=
+V0dGVyJnV0bV90ZXJtPTIzMDcyMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b85=
+24a319a23cBb06e4ad3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  But, nope</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission said it=
+ is =E2=80=9Cnot in a position to file=E2=80=9D a brief giving its view on =
+whether leveraged loans are securities, sidestepping a request to weigh in =
+on a long-running lawsuit that may have major implications for the $1.4 tri=
+llion market for risky debt.</p>
+<p style=3D"margin: 16px 0;">A three-judge US Court of Appeals panel had so=
+ught the SEC=E2=80=99s view on the question as it weighs a decision in a ca=
+se that could upend the leveraged buyout machine and a decades-old market r=
+iskier companies rely on for financing. The SEC=E2=80=99s filing had been h=
+otly anticipated because the court was expected to lean heavily on its opin=
+ion, legal experts earlier told Bloomberg.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CDespite diligent efforts to respond t=
+o the Court=E2=80=99s order and provide the Commission=E2=80=99s views, the=
+ staff is unfortunately not in a position to file a brief on behalf of the =
+Commission in this matter. We greatly appreciate the Court=E2=80=99s indulg=
+ence and regret any inconvenience this may have caused the Court or the par=
+ties,=E2=80=9D according to the letter filed on Tuesday and signed by SEC G=
+eneral Counsel Megan Barbero.</p>
+<p style=3D"margin: 16px 0;">The panel that=E2=80=99s deciding the case, Ki=
+rschner v. JPMorgan, now will likely need to decide the case without input =
+from the agency. If the court rules that the loan at the heart of the case =
+was a security, it could usher sweeping new regulations into the market.</p=
+>
+</blockquote>
+<p style=3D"margin: 16px 0;">Ahahahaha what is going on here? I think it is=
+ impossible to read this without reference to the SEC=E2=80=99s <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/32142671.258409/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDItMTMvdGhlLXNlYy1jcmFj=
+a3MtZG93bi1vbi1jcnlwdG8_Y21waWQ9QkJEMDcyMDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1=
+lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzIwJnV0bV9jYW1wYWlnbj=
+1tb25leXN0dWZm/607f07ceef4b8524a319a23cBb23d6f9c" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">  crackdown on cr=
+yptocurrencies</a>. The SEC has been aggressive in asserting that <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/32142671.258409/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDYtMDYvdGhlLXNlYy1j=
+b21lcy1mb3ItY3J5cHRvP2NtcGlkPUJCRDA3MjAyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1=
+haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcyMCZ1dG1fY2FtcGFpZ249bW=
+9uZXlzdHVmZg/607f07ceef4b8524a319a23cBc55757e2" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">  virtually all cry=
+pto tokens are securities</a> and subject to SEC regulation, but=C2=A0that =
+position has gotten a lot of criticism from the crypto industry and some po=
+liticians. And last week the SEC had a strange but important loss in court,=
+ when <a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.258=
+409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDctMTQ=
+vcmlwcGxlLWlzLWEtc2VjdXJpdHktYW5kLWl0LWlzbi10P2NtcGlkPUJCRDA3MjAyM19NT05FWV=
+NUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzM=
+DcyMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB81fd43ef" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">  a federal district court</a> ruled that Ripple=E2=80=99s XRP token =
+sometimes is and sometimes isn=E2=80=99t a security.<a class=3D"footnote-in=
+dex" href=3D"#footnote-2" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: none !important; background-color: transparent !important; disp=
+lay: inline-block;">
+<span>[2]</span>
+</a>=C2=A0The SEC will presumably appeal that decision. There is a live=C2=
+=A0controversy over what securities laws apply to crypto, and the SEC is pu=
+shing a maximal approach.</p>
+<p style=3D"margin: 16px 0;">Mostly that approach consists of litigating cr=
+ypto cases, but the SEC tries to stay on-message generally. We <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/32142671.258409/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDctMTMvY2Vsc2l1cy13YXMtb=
+Hlpbmc_Y21waWQ9QkJEMDcyMDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291=
+cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzIwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/60=
+7f07ceef4b8524a319a23cBb310973f" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">  talked last week</a> about an SE=
+C enforcement action against a company that sells shares of Ferraris and ar=
+t and stuff. There was no crypto involved, but I argued that the SEC pursue=
+d that case as a relevant precedent: =E2=80=9CIt=E2=80=99s not just crypto,=
+ lots of ways to package speculative investments are illegal securities off=
+erings,=E2=80=9D was the rough message.=C2=A0</p>
+<p style=3D"margin: 16px 0;">And here comes a court asking it if some=C2=A0=
+<em>other=C2=A0</em>thing is a security, a thing that has been treated as=
+=C2=A0<em>not=C2=A0</em>a security for decades. What can the SEC do?</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">It can say =E2=80=9Cno, syndicated lo=
+ans are not securities.=E2=80=9D But then it is conceding that some investm=
+ent opportunities are not securities; it is giving crypto people some prece=
+dents to argue that=C2=A0<em>their=C2=A0</em>things are not securities.<a c=
+lass=3D"footnote-index" href=3D"#footnote-3" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: none !important; background-color: transpare=
+nt !important; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0Also it looks bad politically: The SEC is being maximalist about =
+what counts as a security when it goes after crypto upstarts, but it is let=
+ting <em>JPMorgan </em>avoid securities laws. If you are a crypto-friendly =
+politician, that looks like favoritism for the big incumbents at the expens=
+e of crypto innovators.</li>=09<li style=3D"margin-bottom: 5px;">It can say=
+ =E2=80=9Cyes, syndicated loans are securities.=E2=80=9D But then it might =
+lose! Syndicated loans have=C2=A0<em>not</em>, historically, been treated a=
+s securities, so it is not obvious that the court would agree with the SEC=
+=E2=80=99s view. If the SEC argued that they are securities, it would give =
+ammunition to critics who say that it is trying to expand its jurisdiction =
+in ways no one previously thought appropriate. And of course on the other s=
+ide would be most of the big banks and investment firms: A lot of respectab=
+le traditional financial firms would disagree with the SEC and fight back a=
+gainst it. It=E2=80=99s one thing to be aggressive against crypto upstarts;=
+ it=E2=80=99s another thing to fight JPMorgan.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Neither is a great outcome. Also, to be clear,=
+ I don=E2=80=99t know=C2=A0<em>what the SEC actually thinks:=C2=A0</em>My w=
+ild guess would be that SEC Chair Gary Gensler, who has led the SEC=E2=80=
+=99s maximalist push, probably <em>does </em>think that everything is a sec=
+urity and would like to regulate bank loans, while a lot of SEC staffers ar=
+e used to the status quo and think that regulating bank loans as securities=
+ would solve no problems and would create new ones. But I don=E2=80=99t thi=
+nk this matters that much: Whatever the SEC thinks in its heart of hearts, =
+it has no interest in <em>talking=C2=A0</em>about it, now.</p>
+<p style=3D"margin: 16px 0;">I should say that a view like =E2=80=9Cno, syn=
+dicated loans are not securities, but all crypto tokens are=E2=80=9D would =
+be totally coherent. For one thing, a crypto token really is often a=C2=A0s=
+peculative investment in a startup business promoted by its founder, in a w=
+ay that a bank loan is not.<a class=3D"footnote-index" href=3D"#footnote-4"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: none !importa=
+nt; background-color: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a> But also, the reason the SEC wants to regulate crypto tokens as securi=
+ties is that=C2=A0<em>they are sold broadly to retail investors</em>, while=
+ syndicated loans are not. If your concern is protecting retail investors f=
+rom risky speculative investments promoted with wild promises, treating cry=
+pto tokens as securities probably helps you achieve your goal, while treati=
+ng syndicated loans as securities is irrelevant.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Nasdaq 100</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Just to close a loop here. We <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/32142671.258409/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDctMTIvaXQtcy1lYXN5LXRvLW1ha=
+2Utb2lsLWNvbXBhbmllcy1lc2c_Y21waWQ9QkJEMDcyMDIzX01PTkVZU1RVRkYmdXRtX21lZGl1=
+bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzIwJnV0bV9jYW1wYWl=
+nbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB16f8b56e" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">  talked last =
+week</a> about a quirk of Nasdaq=E2=80=99s published methodology for rebala=
+ncing its Nasdaq 100 index, which would seem to have the effect of (1) redu=
+cing the weights of six big companies (Microsoft Corp., Apple Inc., Alphabe=
+t Inc, Nvidia Corp., Amazon.com Inc. and Tesla Inc.) in the index and (2)=
+=C2=A0<em>increasing=C2=A0</em>the weight of Meta Platforms Inc. in the ind=
+ex. That was weird! =E2=80=9CThis would be kind of a silly result,=E2=80=9D=
+ I wrote, =E2=80=9Cbringing Meta above 5% of the index and arbitrarily flip=
+ping its position with Tesla,=C2=A0and it=E2=80=99s entirely possible that =
+the actual adjustment will not work this way.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">It will not. Bloomberg=E2=80=99s Lu Wang <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/32142671.258409/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMTcvbWV0YS1mYWNlcy=
+1uYXNkYXEtMTAwLWN1dC1ldmVuLXRob3VnaC1pdC1mZWxsLWJlbG93LXJlYmFsYW5jZS1sZXZlb=
+D9jbXBpZD1CQkQwNzIwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9=
+bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MjAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07c=
+eef4b8524a319a23cB4f51cedf" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">  reported this week</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Nasdaq on Friday released to clients the pro f=
+orma data revealing the adjustments index members will receive in the revam=
+p. They show the company formerly known as Facebook will get a downward rev=
+ision alongside Apple Inc., Microsoft Corp., Alphabet Inc., Nvidia Corp., A=
+mazon.com Inc., and Tesla Inc.</p>
+<p style=3D"margin: 16px 0;">The details have been the subject of frenzied =
+speculation among investors and market watchers, because money managers wit=
+h hundreds of billions benchmarked to the index will need to buy and sell e=
+n masse to mimic the changes. And while the rebalance methodology is public=
+, it=E2=80=99s subject to various interpretations and has become a source o=
+f confusion.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It=E2=80=99s very weird. Nasdaq 100 index fund=
+s will clearly need to sell Apple stock and buy, like, Broadcom Inc. stock =
+(currently 1.7% of the index). But it was not at all clear for a while whet=
+her funds would need to buy a lot of Meta stock or sell it: When I wrote ab=
+out it last week, I cited a JPMorgan research note estimating that funds wo=
+uld need to <em>buy </em>about $2 billion of Meta stock, while this Monday =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.258409/aH=
+R0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMzVkYWU2ZjctOTU1NC00NDJkLWFiZmEtNjA4YWRjY=
+mM3MmFh/607f07ceef4b8524a319a23cB840267d6" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> FT Alphaville</a> cited=
+ a Goldman note estimating that they=E2=80=99d need to <em>sell </em>about =
+$1.9 billion worth. And Wang cites Wells Fargo:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">At Wells Fargo &amp; Co., the team originally =
+forecast Meta=E2=80=99s weight would be reduced. They later withdrew that v=
+iew, before ultimately finding out their initial take was correct.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CMeta was a little tricky. Initially t=
+he team thought it would be capped and then backed off that view,=E2=80=9D =
+said Chris Harvey, head of equity strategy at the bank. =E2=80=9CIt makes m=
+ore intuitive sense this way=E2=80=9D since if it=E2=80=99s not downsized, =
+it would compromise the whole aim of addressing overconcentration, he said.=
+</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t want to overstate this =E2=80=
+=94=C2=A0Meta=E2=80=99s stock trades more than $5 billion a day, and there =
+is other news out there =E2=80=94=C2=A0but it is the case that <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/32142671.258409/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMjYvdG9wLWhlZGdlLWZ1bmQtd=
+HJhZGUtZXhwbG9pdGluZy1kdW1iLWluZGV4LWZ1bmRzLWNydXNoZWQtYnktY3Jvd2Rpbmc_Y21w=
+aWQ9QkJEMDcyMDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3N=
+sZXR0ZXImdXRtX3Rlcm09MjMwNzIwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8=
+524a319a23cB8b341b62" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  index rebalancing is a big business</a> at =
+a number of hedge funds, and if you got this wrong (as I kind of did!) then=
+ you were buying Meta stock at somewhat inflated prices from other index-re=
+balancing-arbitrageurs who got it right.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">FTX</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I am not sure I believe stories that the young=
+ staff of Sam Bankman-Fried=E2=80=99s FTX crypto empire formed a =E2=80=9C<=
+a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.258409/aHR=
+0cHM6Ly9ueXBvc3QuY29tLzIwMjIvMTEvMzAvZnR4cy1zYW0tYmFua21hbi1mcmllZC1mdW1lZC=
+1vdmVyLW1lZGlhLXNwb3RsaWdodC1vbi1wb2x5YW1vcm91cy1zZXgtbGlmZS8/607f07ceef4b8=
+524a319a23cB389aa8b3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">polycule</a>,=E2=80=9D but I will say that I =
+have never before heard of someone funding multiple hedge funds run by his =
+former romantic partners and <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/32142671.258409/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMy8wNy8yMC90=
+ZWNobm9sb2d5L2Z0eC1jYXJvbGluZS1lbGxpc29uLWJhbmttYW4tZnJpZWQuaHRtbA/607f07ce=
+ef4b8524a319a23cB9fd395dd" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">allocating capital</a> among them as a s=
+ign of affection:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">By last fall, Mr. Bankman-Fried had lost faith=
+ in Alameda. He considered shutting the firm, according to court records, a=
+nd invested more than $400 million in another trading company, Modulo Capit=
+al, which was led by a different former Jane Street trader whom he had also=
+ dated.</p>
+<p style=3D"margin: 16px 0;">Ms. Ellison expressed jealousy and resentment =
+toward Modulo in some of her writings, as well as a feeling that she was be=
+ing squeezed out, two people who have seen the documents said.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Alameda is Alameda Research, Bankman-Fried=E2=
+=80=99s first crypto trading vehicle, which at the time was run by Caroline=
+ Ellison, a former colleague of his at Jane Street Capital whom he had date=
+d. Modulo was, well, =E2=80=9Cled by a different former Jane Street trader =
+whom he had also dated.=E2=80=9D Ellison was jealous of the money he put in=
+to Modulo? Just a whole genre of romantic trouble that I personally avoided=
+ in my 20s.</p>
+<p style=3D"margin: 16px 0;">That is from <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/32142671.258409/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjA=
+yMy8wNy8yMC90ZWNobm9sb2d5L2Z0eC1jYXJvbGluZS1lbGxpc29uLWJhbmttYW4tZnJpZWQuaH=
+RtbA/607f07ceef4b8524a319a23cC9fd395dd" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">a New York Times story</a> =
+titled =E2=80=9CInside the Private Writings of Caroline Ellison, Star Witne=
+ss in the FTX Case=E2=80=9D:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">As Mr. Bankman-Fried=E2=80=99s sometime-girlfr=
+iend and one of his earliest hires, Ms. Ellison had unique insight into the=
+ FTX founder. She also recorded many of her thoughts in writing, making obs=
+ervations about her personal and professional life in a handwritten diary a=
+nd on Google documents that have circulated among lawyers involved in the c=
+ase, according to documents reviewed by The New York Times and four people =
+familiar with the investigation.</p>
+<p style=3D"margin: 16px 0;">The documents, which have not been previously =
+reported, offer new insight into Ms. Ellison=E2=80=99s psychology during th=
+e final months of FTX. Ms. Ellison, now 28, was a prolific writer whose Tum=
+blr posts about Harry Potter and Jane Austen have been widely dissected. Bu=
+t the Google documents are more personal and raw, with some directly addres=
+sed to Mr. Bankman-Fried, illustrating the complexity of their relationship=
+ and her ambivalence about Alameda.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">What is interesting is what those paragraphs d=
+on=E2=80=99t say. The <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/32142671.258409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGV=
+zLzIwMjItMTItMTMvaG93LXRvLWRvLWZyYXVkLWF0LWEtZnV0dXJlcy1leGNoYW5nZT9jbXBpZD=
+1CQkQwNzIwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xld=
+HRlciZ1dG1fdGVybT0yMzA3MjAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524=
+a319a23cB37592de6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> basic story that prosecutors tell</a> about FTX=
+ is that, in May 2022, Alameda ran into some trouble with lenders, and <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/32142671.258409/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjItMTItMDIvaW5zaWRlLXNhb=
+S1iYW5rbWFuLWZyaWVkLXMtYmFoYW1pYW4tcGVudGhvdXNlLWFmdGVyLWZ0eC1zLWNvbGxhcHNl=
+P2NtcGlkPUJCRDA3MjAyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1=
+uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcyMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07c=
+eef4b8524a319a23cBe3234564" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> a high-level meeting was convened</a> =
+at which Ellison, Bankman-Fried and some other executives agreed to use FTX=
+ customer funds to keep Alameda afloat. When Ellison pleaded guilty last ye=
+ar, <a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.25840=
+9/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8xMi8yMy9idXNpbmVzcy9jYXJvbGluZS1lb=
+Gxpc29uLWZ0eC1hbGFtZWRhLXJlc2VhcmNoLmh0bWw_c210eXA9Y3VyJmFtcDtzbWlkPXR3LW55=
+dGltZXM/607f07ceef4b8524a319a23cB79a3593c" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">she told a judge</a>, =
+=E2=80=9CI agreed with others to borrow several billion dollars from FTX to=
+ repay those loans,=E2=80=9D and =E2=80=9CI knew that it was wrong.=E2=80=
+=9D The Times quotes some of her journal entries:</p>
+<blockquote><p style=3D"margin: 16px 0;">=E2=80=9CI have been feeling prett=
+y unhappy and overwhelmed with my job,=E2=80=9D Ms. Ellison wrote in a Goog=
+le document in February 2022. She added: =E2=80=9CAt the end of the day I c=
+an=E2=80=99t wait to go home and turn off my phone and have a drink and get=
+ away from it all.=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">Fine, sure, okay.</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In one Google document addressed to Mr. Bankma=
+n-Fried in April 2022, Ms. Ellison wrote that an earlier breakup with him h=
+ad =E2=80=9Csignificantly decreased my excitement about Alameda.=E2=80=9D L=
+ife at the hedge fund, she added, =E2=80=9Cfelt too associated with you in =
+a way that was painful.=E2=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CI felt pretty hurt/rejected,=E2=80=9D=
+ she wrote in the April 2022 Google document. =E2=80=9CNot giving you the c=
+ontact you wanted felt like the only way I could regain a sense of power.=
+=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Fine. But when I read these passages, I tend t=
+o think:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">This is a person who, when she left th=
+e Let=E2=80=99s Steal Customer Money meeting in May 2022, would probably go=
+ home and journal about it, and</li>=09<li style=3D"margin-bottom: 5px;">If=
+ <em>those=C2=A0</em>journal entries=C2=A0existed, the Times would probably=
+ have quoted them.</li>
+</ul>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t know what that tells you. Mayb=
+e Ellison wrote a lot about her feelings but was careful not to confess to =
+crimes in the Google document. Maybe she did confess to crimes in the Googl=
+e document, but those entries haven=E2=80=99t become public yet. Still I th=
+ink that this story slightly=C2=A0<em>reduces=C2=A0</em>my estimation of th=
+e government=E2=80=99s case against Bankman-Fried. Ellison will apparently =
+testify that Bankman-Fried=C2=A0signed off on stealing customer money in mi=
+d-2022, and that she knew that was wrong and felt bad about it. But if her =
+contemporaneous diary entries are all like =E2=80=9CI am just not sure that=
+ I have the traits of a successful leader,=E2=80=9D rather than like =E2=80=
+=9CI worry we=E2=80=99re doing a Ponzi,=E2=80=9D doesn=E2=80=99t that under=
+mine her story?</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">BlackRock</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I mean, obviously, <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/32142671.258409/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMTkvbnljLWNvbXB0cm9sbGVyLWJsYXN0cy1ibGFj=
+a3JvY2stZm9yLXBpY2tpbmctb2lsLWNoaWVmLWZvci1ib2FyZD9jbXBpZD1CQkQwNzIwMjNfTU9=
+ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT=
+0yMzA3MjAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBf349df0a=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> what did they expect</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">New York City Comptroller Brad Lander slammed =
+a decision by BlackRock Inc., its largest external money manager, to appoin=
+t the chief executive of the world=E2=80=99s biggest oil company to its boa=
+rd.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CBlackRock has clearly stated that cli=
+mate risk is an investment risk, but actions speak louder than words,=E2=80=
+=9D New York City Comptroller Brad Lander said in an emailed statement. =E2=
+=80=9CAt a time when financial institutions need to take a collective appro=
+ach to addressing the financial risks from climate change, BlackRock shareh=
+olders expect climate-competent, not climate-conflicted, directors.=E2=80=
+=9D</p>
+<p style=3D"margin: 16px 0;">BlackRock this week named Saudi Aramco Chief E=
+xecutive Officer Amin Nasser to its board, underscoring the investment firm=
+=E2=80=99s commitment to the oil industry. The move comes as BlackRock find=
+s itself at the center of a highly politicized debate around environmental,=
+ social and governance investing, with Republicans accusing it of focusing =
+too much on climate change and social issues.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Sure, fine, this is the lowest-hanging fruit. =
+We <a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.258409=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDctMTgvYn=
+V5b3V0LWZ1bmRzLWJ1eS1mcm9tLXRoZW1zZWx2ZXM_Y21waWQ9QkJEMDcyMDIzX01PTkVZU1RVR=
+kYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzIw=
+JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB3389438a" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>
+talked about</a> BlackRock=E2=80=99s decision on Tuesday, and I found it ba=
+ffling. =E2=80=9CI would just=C2=A0<em>not=C2=A0</em>write a lot of letters=
+ to CEOs about how important climate change is, and also=C2=A0<em>not=C2=A0=
+</em>put a Saudi oil executive on the board,=E2=80=9D I wrote; the combinat=
+ion that BlackRock has chosen (some ESG advocacy, lots of fossil-fuel inves=
+tment, Nasser on the board) seems likely to please no one. Sure=C2=A0<em>La=
+nder=C2=A0</em>is mad. But imagine reading this article, which you will not=
+ read anywhere else because I am just making it up:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Texas Comptroller Glenn Hegar praised a decisi=
+on by BlackRock Inc., an external money manager <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/32142671.258409/aHR0cHM6Ly93d3cuYXhpb3MuY29tL=
+zIwMjIvMDgvMjUvdGV4YXMtYmFucy1ibGFja3JvY2stdWJzLWVzZy1iYWNrbGFzaA/607f07cee=
+f4b8524a319a23cB038af741" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">banned from doing business with Texas</a>=
+, to appoint the chief executive of the world=E2=80=99s biggest oil company=
+ to its board.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CBlackRock has clearly stated that cli=
+mate risk is an investment risk, but this board appointment proves that it =
+is cool with oil,=E2=80=9D Hegar said in a statement that, to be clear, he =
+did not make; this entire block quote is fake. =E2=80=9CAt a time when my f=
+ellow Republican state officials are getting attention by attacking financi=
+al institutions for their statements about environmental, social and govern=
+ance investing,=C2=A0<em>my=C2=A0</em>concerns are completely assuaged by B=
+lackRock appointing this Aramco guy to its board.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It=E2=80=99s impossible to imagine, right? Nob=
+ody who has criticized BlackRock for its ESG commitments (except I guess Na=
+sser himself, who =E2=80=9Chas criticized ESG in the past=E2=80=9D) is exci=
+ted about this appointment. They should have appointed Donald Trump to the =
+board.=C2=A0<em>That=C2=A0</em>would have given Glenn Hegar something to th=
+ink about.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Federal Reserve tries to make up for lost deca=
+des with <a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.=
+258409/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZGNjODM1MjktNTY1OS00ZDk2LThkZGYt=
+ODMzNTFiMDYwZTE4/607f07ceef4b8524a319a23cB53180cb0" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> real-time paym=
+ents system</a>. Blackstone=E2=80=99s <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/32142671.258409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXd=
+zL2FydGljbGVzLzIwMjMtMDctMjAvYmxhY2tzdG9uZS1zLTEtdHJpbGxpb24tdHJpdW1waC1pcy=
+1tdXRlZC1ieS1zbG93ZG93bi1pbi1kZWFscz9jbXBpZD1CQkQwNzIwMjNfTU9ORVlTVFVGRiZ1d=
+G1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MjAmdXRt=
+X2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB5b78b78f" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">  $1=
+ Trillion Triumph</a> Is Muted by Deal Slowdown. Apollo to Launch Private F=
+und in <a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.25=
+8409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMjAvYX=
+BvbGxvLXRvLWxhdW5jaC1wcml2YXRlLWZ1bmQtaW4tYXNzZXQtYmFzZWQtZmluYW5jaW5nLWJ1a=
+Wxkb3V0P2NtcGlkPUJCRDA3MjAyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nv=
+dXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcyMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/=
+607f07ceef4b8524a319a23cB3583a86f" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">  Asset-Based Financing</a> Buil=
+dout. <a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.258=
+409/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90ZWNoLXN0b2Nrcy1tZW1lLXN0b2Nrcy1=
+jcnlwdG8taW52ZXN0b3JzLWFyZS1mZWVsaW5nLWJvbGQtYWdhaW4tZjE1ODgxMmI_bW9kPWl0cF=
+93c2omcnU9eWFob28/607f07ceef4b8524a319a23cBa75099e1" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> Tech Stocks, =
+Meme Stocks, Crypto</a>: Investors Are Feeling Bold Again. Adidas and Ye=E2=
+=80=99s Secret Battle Over a $100 Million <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/32142671.258409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL2FydGljbGVzLzIwMjMtMDctMTkvbXVzay1zYXlzLXRlc2xhLXRvLXNwZW5kLW92ZXItMS=
+1iaWxsaW9uLW9uLWRvam8tc3VwZXJjb21wdXRlcj9jbXBpZD1CQkQwNzIwMjNfTU9ORVlTVFVGR=
+iZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MjAm=
+dXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb8c49553" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  Marketing Fund</a>. White Men Experience Biggest <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/32142671.258409/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMTkvd2hpdGUtbWVuLWV4cGVyaWVuY2UtYmlnZ=
+2VzdC1jb2duaXRpdmUtZGVjbGluZXMtYWZ0ZXItcmV0aXJlbWVudD9jbXBpZD1CQkQwNzIwMjNf=
+TU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGV=
+ybT0yMzA3MjAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB43898=
+7e5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Cognitive Declines</a> After Retirement. =E2=80=9CThat=E2=80=
+=99s exactly what you want to do! Hell is wrong with you? <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/32142671.258409/aHR0cHM6Ly93d3cudnV=
+sdHVyZS5jb20vYXJ0aWNsZS9zYW11ZWwtbC1qYWNrc29uLWluLWNvbnZlcnNhdGlvbi5odG1s/6=
+07f07ceef4b8524a319a23cB43a22508" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> I signed up for=C2=A0<em>Snakes =
+on a Plane</em></a>=C2=A0and I guarantee you that audiences will be way mor=
+e excited about=C2=A0<em>Snakes on a Plane</em>=C2=A0than=C2=A0<em>Pacific =
+Flight 121</em>.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32142671.258409/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBc93e870d" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32142671.258409/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBb0cc875e" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Some <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/32142671.258409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMTktMTAtMjMvaG93LWRvLXlvdS1saWtlLXdlLW5vdz9jbXBpZD1CQk=
+QwNzIwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlc=
+iZ1dG1fdGVybT0yMzA3MjAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319=
+a23cBcdacc9bb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">  related</a> background <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/32142671.258409/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDYtMTIvdGhyZWUtYXJyb3dzLWhhZC1hLWZ1bi1i=
+dWJibGU_Y21waWQ9QkJEMDcyMDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc29=
+1cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzIwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cBfb3d5930" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  reading</a> from Money Stuff.</=
+p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Technically it ruled that the token is not=
+ a security, but that some sales of it are securities offerings and some ar=
+e not. <a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.25=
+8409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDctMT=
+cvYnJhbmNoZXMtbWFrZS1iYW5rLXJ1bnMtaGFyZGVyP2NtcGlkPUJCRDA3MjAyM19NT05FWVNUV=
+UZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcy=
+MCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB5267378c" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">  I think this is incoherent</a> but never mind!</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Not very much. The debate about whether a =
+crypto token is a security is mostly about the US Supreme Court=E2=80=99s <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.258409/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDctMTQvcmlwcG=
+xlLWlzLWEtc2VjdXJpdHktYW5kLWl0LWlzbi10P2NtcGlkPUJCRDA3MjAyM19NT05FWVNUVUZGJ=
+nV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcyMCZ1=
+dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cC81fd43ef" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  Howey test</a> for whether a thing is an =E2=80=9Cinvestment contract,=E2=
+=80=9D that is, whether it =E2=80=9Cinvolves an investment of money in a co=
+mmon enterprise with profits to come solely from the efforts of others.=E2=
+=80=9D The debate about whether a loan is a security is different: The stat=
+utory definition of a security includes things like =E2=80=9Cnote, =E2=80=
+=A6 bond, debenture, evidence of indebtedness=E2=80=9D that would seem by t=
+heir terms to capture a loan. There is a different Supreme Court precedent =
+declaring that sometimes a =E2=80=9Cnote=E2=80=9D is not a security, if it =
+=E2=80=A6 looks like a bank loan, basically. The case is called <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/32142671.258409/aHR0cHM6Ly9zd=
+XByZW1lLmp1c3RpYS5jb20vY2FzZXMvZmVkZXJhbC91cy80OTQvNTYv/607f07ceef4b8524a31=
+9a23cBb2fb9f5e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> Reves v. Ernst &amp; Young</a>, and it relies on f=
+actors like the motivations of the investor (investment vs. commercial purp=
+oses), the plan of distribution of the note, the public expectation, and =
+=E2=80=9Cwhether some factor such as the existence of another regulatory sc=
+heme significantly reduces the risk of the instrument, thereby rendering ap=
+plication of the Securities Acts unnecessary.=E2=80=9D It=E2=80=99s not ver=
+y satisfying, to be honest.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] See the previous footnote: The essential t=
+est for whether crypto is a security is Howey, while the essential test for=
+ whether a loan is a security is Reves, and there is not a ton of analytica=
+l overlap between them.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.258409/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB64179c1d" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.258409/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB0d68d418" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.258409/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBd49d6a90" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.258409/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB5353ac23" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.258409/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBd9036b32" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.2584=
+09/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB3e0d1788" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32142671.258409/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC4dbf2ea4" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/32142671.258409/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB139fb650" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/32142671.258409/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB51220fb1" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.258409/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB0=
+b76b649" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32142671.258409/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBf=
+de78550" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj4xfz.5je1/7871c48b.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_8266411_1581429237.1689876174927--
+

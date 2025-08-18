@@ -1,0 +1,2180 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:4882:0:b0:14f:df5a:7f27 with SMTP id o2csp4599287lkd;
+        Mon, 15 Nov 2021 05:55:10 -0800 (PST)
+X-Received: by 2002:a17:906:6089:: with SMTP id t9mr50178534ejj.323.1636984509803;
+        Mon, 15 Nov 2021 05:55:09 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1636984509; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=LoO09i/q6OOI2zTcaVMr5luqwo1iTQ4QCgEOU25IwKwBNp0A+6t5mPQGtMnw9PojJ/
+         +VgdUkudSqMwTC/UtgxpH3s7zNqo+ZmtFCP7toRM4XHlk3sLINJXCsE6cg9OytyhMBNV
+         kwJAwMw7ISzMHwZD9FwKU5vAmCbcj1c8iqolGoA47f7H0Dqt7It/xufeRtWlFel5tU/K
+         tbl2KBwFQ9ds6g/FNSWYlfa36thjbn7vZq/AAxQnND5GgNUGLR7a6AqTyPdTN9f7b9Ly
+         Vfce25b6T6nmVvvvcee1TuhYfIwwfpUVhpnCIH0tsyuAcqtk/YxGerRL6fflTEi1QUbs
+         pkbg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-post:list-owner:date:reply-to:list-unsubscribe-post
+         :list-archive:sender:list-unsubscribe:in-reply-to:list-url
+         :references:list-id:message-id:to:from:subject:mime-version
+         :dkim-signature:delivered-to;
+        bh=t1ghBm0fRoE7BVrpDiIB5Rtrs9QNaIJ6WEzcuodD7uo=;
+        b=AlaU4gbynYB9RNS6UvIkDQKuV27CwRkU7L2vQ/p9oaMuJusR4hlGL3Ayhm7OD/pxwZ
+         szv9SugVZG1ibRokZ69qT4kzgNnyYgJUbjHdV5xA1NhBCcjge16zBt26S4JbYYowSfng
+         1idyTH+zl/3NZ6Mm1dJSRzW8eljaPT7pkFcK1tzJ/mdEMVKKbWz0nLlOFI6o68BjrAWx
+         25LYIH4SzSP3mzQncKk0zcLItbCVpISP0Tr58b1U6uMPnuKDB7QH/BXsRgXCBNYddwBV
+         ojKrL2qsS5ZhXFIoPbA4k2RmuEixz0YaUy43wNI+W5zmnm/QUz+T0gD1Ns3Mr7dszSId
+         32yQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=XLREvKEc;
+       arc=pass (i=2 dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=NONE dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id ms24sor2198970ejc.89.2021.11.15.05.55.09
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 15 Nov 2021 05:55:09 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=XLREvKEc;
+       arc=pass (i=2 dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=NONE dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:mime-version:subject
+         :from:to:message-id:list-id:references:list-url:in-reply-to
+         :list-unsubscribe:sender:list-archive:list-unsubscribe-post:reply-to
+         :date:list-owner:list-post;
+        bh=t1ghBm0fRoE7BVrpDiIB5Rtrs9QNaIJ6WEzcuodD7uo=;
+        b=fUsCegbcW2rMh5xH6BUFik7TfAnsZtO4TKZSTmT33wkHPRalBGb9dIYwDaUlkEdfNB
+         rZrkeFI7rCeEitTIjUrWC2xtUd0NWQON76rQ6c2/EinAPGwaT9R9L8uOfytrXXl2fDHk
+         PFnQJ6BNb5gGYKj21cfUeE3m28YqJBRi69KZJa8LgoQRMcQ9NITN56prjyq+Ox4z0F4v
+         WT47v75K9IMfYE4zYr3SmxHgnlnuRkWxpl5RI/EEYnmfHYzapfE0vpSanWFgR910t3p2
+         3djDzlHlBlYsOmtoaCH8pKh3WrTgBZMYdZw/nNp6H8biTnyE7WH9F2Ll19tv5AcULXU1
+         idTA==
+X-Gm-Message-State: AOAM5317A7P8+zXIK5hFbvPd7OuZZa/6WgGsqwLS1RnkY6itYPa//LMV
+	h+A9tfndtSR49bykhAY0szn1iTBKoUqS8FbJcVLCJrYI60/o1LfJJg==
+X-Received: by 2002:a17:906:b055:: with SMTP id bj21mr48747777ejb.292.1636984509491;
+        Mon, 15 Nov 2021 05:55:09 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:3f11:0:0:0:0:0 with SMTP id b17csp389152ecq;
+        Mon, 15 Nov 2021 05:55:07 -0800 (PST)
+X-Received: by 2002:a05:622a:53:: with SMTP id y19mr22630671qtw.96.1636984506838;
+        Mon, 15 Nov 2021 05:55:06 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1636984506; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=IYOQJbc4gUc6DKEUdKpv8r4cRMkTiIDJ+rSOcA64/w1tmgL9r8b3i+FZlHxIcGlepQ
+         KK2tHF5Lk42qo5vqTdZLvgVTMmDeT2S1a1jyyIX/iNZRX/lHBZfykrGywAsgWoMVzkJE
+         rjA1CvKzWom/6ye67Z2799qyQ+CMsmrBbs5Y2kRmefiyBGiNmOLaSmpbCrh9hUwWTfok
+         owhzPVOaWKojR6DNiXKEdr7X9w+9pDwvyVhIky0fw/ZSJVa/CtDxHX4bd0PLAJxDfN6v
+         G+SCRPMxhItv7woHBCfdTrpkIB+zrsXWfkmiJgS9gXDzdiAdIuE6S1r2F75flQA2pOwh
+         wJ1g==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-post:list-owner:date:reply-to:list-unsubscribe-post
+         :list-archive:sender:list-unsubscribe:in-reply-to:list-url
+         :references:list-id:message-id:to:from:subject:mime-version
+         :dkim-signature;
+        bh=t1ghBm0fRoE7BVrpDiIB5Rtrs9QNaIJ6WEzcuodD7uo=;
+        b=K80e8J2fornPNrfmmjbMClKI59LjULPyipHOUW6YLRrT/ELarA081wHJ9XhxVQsuX0
+         pZcJslqvtxyCVD2dH+x2yvq/6jKCdPUBS/j5uWjOAxg6scAq35DoF6rzrKupW/aSLfQb
+         lm8wBD+qAoRYnvt6vbd1JwZgHNNSk+/nLotwHFXHbIBNlKoaS4dKrcDOPD3N8MHvzaDj
+         8Sk5Zp3sqMH8GyLu+NriO+WepdMOUr3ij0LSO65sUgNfk1Os3BxBsd+aw3gehySJihbd
+         48Nt7QLsofme1U1NdMcUfsVlvjWYD3jmkHZEg8JbMXajB0ERFRI5ypikUMmPD4WuB8EE
+         aS1Q==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=XLREvKEc;
+       arc=pass (i=1 spf=pass spfdomain=mg2.substack.com dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com";
+       dmarc=pass (p=REJECT sp=NONE dis=NONE) header.from=substack.com
+Return-Path: <bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id y18sor5061577qko.119.2021.11.15.05.55.06
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 15 Nov 2021 05:55:06 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJydNUcH61F9mab7OaNKKVyML014SFMbvSTGy8D4jVQ1aml16X6BraFduE907qwYeEBmtN693k4107R0NHO4E3N3XemGLtY=
+X-Received: by 2002:a05:620a:d81:: with SMTP id q1mr30882510qkl.432.1636984506056;
+        Mon, 15 Nov 2021 05:55:06 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1636984506; cv=none;
+        d=google.com; s=arc-20160816;
+        b=XoQnGY5aTtjMykl9tnACD9gny15wSArpXOUJ491MjEpFD+y8KP5lncqlXKyibUJg6I
+         AuoAcxGJ0DVgTvGWDbQ180jQcW4aQuAoVIAVGDg5AF0XKiFNnMUhprHLBaxPHEqXCztJ
+         27BKMYaR8dlZ3ZJS0fZ+Cpd44n4cRwKVW+4rbB4060gwZbKm8NotYVBOkE7WXGKEp3kA
+         AH4owkJYLEnVFBlGEjM5z+nSs4N4WUV+vYh2PTGaeQs8e/tLHjZR07unayXr3nPzyFOp
+         G8B/yeOR/43dc5uX5qGzaqd/XLPpyLCqIWE2kHkimwx7fOy1wmY2wF7eh2ibWLhR+Z6m
+         w5Ew==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-post:list-owner:date:reply-to:list-unsubscribe-post
+         :list-archive:sender:list-unsubscribe:in-reply-to:list-url
+         :references:list-id:message-id:to:from:subject:mime-version
+         :dkim-signature;
+        bh=t1ghBm0fRoE7BVrpDiIB5Rtrs9QNaIJ6WEzcuodD7uo=;
+        b=M6PUngysR1Qor5iuY+Z5iPiUKMloCUaWQyJ1dVIqrB1gvTm+BumblD5WHQeu2QkDCQ
+         AUVUjdiYWpSNGqI2OVBQWvy6oIuhn4Ic2lo9a+hAfTbZKYPVgA76coWynQw4CwW5dK3a
+         AgW6niu1z3+3qKNtFruRC9q40DZdNjkxW5lAIpQhepabwBCGWtEyLCW6KdyJMyKyhJAZ
+         MN1AVX1OtK+mA9WxjC6/kfN3WyXy9YUFewJ7S61oMGID/aFNdCZ2wdv9jYFN4OENaQLR
+         Oe/F4/MBfQkjieQfNQ5GIz0cNEs5i3ejiYymIJHY6tuGhukJWIfverEr0w+m5O20n5EY
+         wZxA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=XLREvKEc;
+       spf=pass (google.com: domain of bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com designates 161.38.202.170 as permitted sender) smtp.mailfrom="bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com";
+       dmarc=pass (p=REJECT sp=NONE dis=NONE) header.from=substack.com
+Return-Path: <bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com>
+Received: from mg-202-170.substack.com (mg-202-170.substack.com. [161.38.202.170])
+        by gmr-mx.google.com with UTF8SMTPS id y15si1449251qkp.0.2021.11.15.05.54.24
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 15 Nov 2021 05:55:06 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com designates 161.38.202.170 as permitted sender) client-ip=161.38.202.170;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg2.substack.com; q=dns/txt;
+ s=mailo; t=1636984505; h=List-Post: List-Owner: Date: Reply-To:
+ List-Archive: Sender: List-Unsubscribe: In-Reply-To: References:
+ List-Id: Message-Id: To: From: Subject: Content-Type: Mime-Version;
+ bh=t1ghBm0fRoE7BVrpDiIB5Rtrs9QNaIJ6WEzcuodD7uo=; b=XLREvKEc/PDK1ae2FQd6JEDTPUooXNKQaeX2SEXMtbV89//2nprbo/MSw/FI9I9j5+9Py+yA
+ Dui8LYRknrn4mi2cPss3lmm7spUmq51eEE6R02hr9BANCA0Tq/wUeFPMsSso4J4RW/cxBtBr
+ 8nqAEdDFN7IbXxVVB/t8Es9LaSs=
+X-Mailgun-Sending-Ip: 161.38.202.170
+X-Mailgun-Sid: WyIyZDMzMyIsICJub3Rib3JpbmdAa2hhbWVsLmNvbSIsICI0ZDE4NTgiXQ==
+Received: from <unknown> (<unknown> [52.90.135.137]) by
+ api-n26.prod.us-east-1.postgun.com with HTTP id 61926671ae01ad7e2ade5bf3;
+ Mon, 15 Nov 2021 13:53:52 GMT
+X-Mailgun-Batch-Id: 6192667061bcc1192c85e35e
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="9fedf2a42457ba354ff504172971930d5006c5583b8af624aec46665104a"
+Subject: Let's Buy the US Constitution
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+Message-Id: <20211115135342.2.4cb6e014dee285b7.7otyodpj@mg2.substack.com>
+List-Id: <notboring.substack.com>
+References: <post-43998910@substack.com>
+List-Url: <https://www.notboring.co/>
+In-Reply-To: <post-43998910@substack.com>
+List-Unsubscribe: <https://www.notboring.co/action/disable_email/disable?token=eyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NDM5OTg5MTAsImlhdCI6MTYzNjk4NDQzMSwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoiZGlzYWJsZV9lbWFpbCJ9.8_vBHz0p20lwuXd8RfEGFlr5ENp7NaQFNEm0ZQVdLP8>
+Sender: Not Boring <notboring@substack.com>
+List-Archive: <https://www.notboring.co/archive>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Reply-To: Not Boring
+ <reply+q71ry&9p0gt&&5f1f3a2afd85523e4fa59869081dc021ad373ab62ff04e5694bce4430153c710@mg1.substack.com>
+Date: Mon, 15 Nov 2021 13:53:42 +0000
+List-Owner: <mailto:notboring@substack.com>
+List-Post: <https://www.notboring.co/p/lets-buy-the-us-constitution>
+X-Mailgun-Variables: {"category":"post", "email_generated_at":"1636984431718",
+ "is_freemail":"true", "post_audience":"everyone", "post_id":"43998910",
+ "post_type":"newsletter", "pub_community_enabled":"true",
+ "publication_id":"10025", "subdomain":"notboring", "user_id":"16283549"}
+
+--9fedf2a42457ba354ff504172971930d5006c5583b8af624aec46665104a
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://email.mg2.substack.com/c/eJxFkEtuxCAMQ=
+E8z7BLxzWfBopteIyLgSWgTiMA0yu3LTKQWGZBsWc9-1iAsMV36iBnJ65nwOkAHOPMGiJBIyZAm=
+7zTr-CCUHInT0rFBDcTn6ZkAduM3jakAOcq8eWvQx_DuoJQrsuonN8B5RzsrLHvykY09V47ZXkk=
+qFbiba4rzECxo-IF0xQBk0yvikR_i48E_a5zn2YaIc0w-LK2NNXXUW-fMzVyuBldoSm5sDBk9lt=
+cYxGtOOatHMaGE5C1vpZ07oEw6AD6ouW_7iFd0x9dD0n3hbS5zRmO_K2EnSf8Ra_l7NTts70Ldd=
+ar_XoLHa4Jg5g3crQFvm28x0wIBUrXsJoPVoejGQUrBejbca1dPUozjMDJKKtnF2hX-ob-m-Y2w
+
+Welcome to the=C2=A02,079=C2=A0newly Not Boring people=C2=A0who have joined=
+ us since last Monday! Join=C2=A086,008=C2=A0smart, curious folks by subscr=
+ibing here:=20
+=F0=9F=8E=A7=C2=A0To get this essay straight in your ears:=C2=A0listen=C2=
+=A0on=C2=A0Spotify [https://email.mg2.substack.com/c/eJxFkU1PwzAMhn9Nc6zy2b=
+WHHIAJCTGE-LhwqpLG7cLapErSQfj1hO2AZfmVbFmv9XhQCSYfslx9TOiv9CmvIB18xRlSgoC2C=
+KG3RpKGtkzwDhnJDWlFi2zsxwCwKDvLFDZA66ZnO6hkvbtsYEwFOko9Cs712FEtWhgJAB4YbzrT=
+YcMao9TVV23GghtAwhlC9g7QLI8prbFiNxW9L-lXcHVcfbJjrge_lFY8-q8izYl8HG7Pz6-vT9n=
+Hx8y-yffDXLH7aCu236-Z27vH3Yugb-TAGfmJ73hCVlJMSQlBmGCc1rTmg24AE24AaCv0rt75lL=
+1ZPyuOl4nWcdMxqeH0546CdD5pH6ybyvh0VAvMl0HB0BddNmdT7sEpPYO5EkpX0Bdm_QQOQnmA6=
+VUqeFnTtbxctyPtlUhByFnXtR3BqDgbX7bcv-kvFM6VDg] or=C2=A0Apple Podcasts [http=
+s://email.mg2.substack.com/c/eJxFkMtuwyAQRb8m7GrxtPGCRTf9DYvHJKGxAcG4lf--JK=
+4UhJjH1cwVx1uEW66HKbkheT4LHgVMgt-2AiJUsjeoSwyGjVwLJWcSjAxMK01iW64VYLNxNVh3I=
+GV3a_QWY06vCUq5InejBYyO8TCGCWbvBFf0qsFzP3N5pVaevnYPEZIHAz9Qj5yArOaOWNpFfF74=
+V78lB28btsGWssLg89abe3srPUsZP1yuMd16EQNTfJKczYKRaDjlrB_FhBKSD3yQ3o1AmQwAXCs=
+3DVPGI4fyfZF0u_Gh7a6h9Y-nFamm7_5fLenjbjdYX0L_9dLjtqeIxwLJuhXCCQRPri9Eyw0S1M=
+47LBY7TTHOWkrBJqZPAJ2YFPOsZ0ZJdw65T6W36R8dhY9H] (shortly)
+Today=E2=80=99s Not Boring is brought to you by=E2=80=A6 Secureframe [https=
+://email.mg2.substack.com/c/eJxFkdtuwyAMhp8m3C0Kh6TkgotJU18j4uCmbAEiMKvy9iP=
+ttEkIi_-Xsf3ZaoQ15UPtqSA5rwWPHVSER9kAETKpBfLinaITk3wUM3FKOCpHSXxZbhkgaL8pzB=
+XIXs3mrUaf4jNjGNhI7koYOxvGrLT0IrkR2g63m3OT01wPdHSvuro6D9GCgm_IR4pANnVH3EvH3=
+zt2befxePQFbM1wyzpAb1M4DX6tGJaSarbQ8Y9dZ4yQOzadcgDna2iy3cOvZHXYtV9jE88x32JC=
+k7KP6xuldGQDo8SrM5xPykcuWM96Yc0EAxUOgMnRXPpLwiO5_bMTQ1hZX6opqO3X2RXJ6u_TZn_=
+dW7fb02iElhZDjR6PBaI2G7gXPHzt4IlzWaGN0HbjFo2NPJ9mKQSnFypfsBpdwedZznQgrbJLLS=
+v-F_0BvkugfA]
+ If you=E2=80=99re building a startup with scale ambitions, you need to fig=
+ure out security compliance, the sooner the better. When it comes to enterp=
+rise deals, every large company requires SOC 2 or ISO 27001. The problem is=
+, getting compliant can take months of time and engineering resources. It=
+=E2=80=99s a pain, and puts startups at a disadvantage. But it doesn=E2=80=
+=99t have to be.=20
+Secureframe [https://email.mg2.substack.com/c/eJxFkdtuwyAMhp8m3C0Kh6TkgotJU=
+18j4uCmbAEiMKvy9iPttEkIi_-Xsf3ZaoQ15UPtqSA5rwWPHVSER9kAETKpBfLinaITk3wUM3FK=
+OCpHSXxZbhkgaL8pzBXIXs3mrUaf4jNjGNhI7koYOxvGrLT0IrkR2g63m3OT01wPdHSvuro6D9G=
+Cgm_IR4pANnVH3EvH3zt2befxePQFbM1wyzpAb1M4DX6tGJaSarbQ8Y9dZ4yQOzadcgDna2iy3c=
+OvZHXYtV9jE88x32JCk7KP6xuldGQDo8SrM5xPykcuWM96Yc0EAxUOgMnRXPpLwiO5_bMTQ1hZX=
+6opqO3X2RXJ6u_TZn_dW7fb02iElhZDjR6PBaI2G7gXPHzt4IlzWaGN0HbjFo2NPJ9mKQSnFypf=
+sBpdwedZznQgrbJLLSv-F_0BvkugfA] allows companies to get SOC 2 and ISO 27001=
+ compliant within weeks, rather than months. Its software monitors 40+ serv=
+ices, including AWS, GCP, and Azure, and continuously collects audit eviden=
+ce, runs security awareness training, manages vendors, monitors infrastruct=
+ure, and more, all automatically. Plus, the Secureframe compliance team can=
+ answer any questions you have.
+Secureframe customers save an average of 50% on their audit costs and hundr=
+eds of hours of their time. You=E2=80=99ll need to do this eventually, get =
+ahead by scheduling a free demo now!=20
+Hi friends =F0=9F=91=8B,=20
+Happy Monday! Last week was a big week around here.=20
+On Monday, Mario [https://email.mg2.substack.com/c/eJxFkEuOwyAQRE8TlhZfGy9Y=
+zGaugfh0HCY2WNCeyLcfEi8GIVqo1F1dLziEpdTT7KUheT8Wzx1MhldbAREqORpUm6JhI9dCyZl=
+EIyPTSpPU7L0CbC6tBusBZD_8moLDVPKng1KuyMNw56KWcQJQdyo9A67EGJRwdLqHUcDl646YIA=
+cw8Av1LBnIah6Ie7uJrxv_7hdf6b3REMrWf5urqSzO1wQrkGQ45awfxYQSkg98kMGPQJmMAFwrP=
+w1TwbPE_ecm6bbwoR2-oQvP9zxSTS7oS0156fLz4TZYP0LPZHvdjpzwtJCdXyFecfGi9gFgF8hQ=
+O81oHXZWYpy1lIJNTF_xOg8p5lnPjJLuHEvvyv-mfxsfhbg] and I published a piece on=
+ Discord [https://email.mg2.substack.com/c/eJxFkMluxCAMhp9muE3EmoEDh176GhGL=
+k6GTAALSKG9fOpFay4tky_7lz5kGSyqnzqk29JumdmbQEY66QmtQ0F6hTMFrMlLJBFfIa-6JFBK=
+FOs0FYDNh1a3sgPJu1-BMCym-NzCmAj317BVII_E4Gs9mOws3Wk4F9rNT2Cly6ZrdB4gONHxDOV=
+MEtOpna7ne2MeNfnY_jmOIqdlUQlwGl3or9_ChulT8PWxmCRHu5p5X4wAFTTEl3QRhgnE60IE7O=
+wIm3ANQKexjeKR2Jp-_bhxvCx3qbmsz7tWPb6joP7E-fj3NBut70N-cet32GNo5QTR2BX8RaBfI=
+N5NpgQilA_aTaR0fG5XknJEHkdfHHRFnSklFMOrKPvWt-C_6A4CxjEU]. That afternoon, D=
+iscord CEO Jason Citron replied to my tweet [https://email.mg2.substack.com=
+/c/eJxFkE2OwyAMhU9TlhG_ISxYjDTqNSIITkongQicqXL7oc1iLGRjWc8PvskhLLmcds8VyTuN=
+eO5gE7zqCohQyFGhjDFY1vNBKGlIsDKwQQ0k1nEuAJuLq8VyANkPv8bJYczpo6CUK_KwTHrwfS-=
+0GYwOQmvjZgh8nmc_Ud6zy9cdIUKawMIvlDMnIKt9IO71Jr5u_N4OvuL7Rd2Ut9Y9Xc1pilhyal=
+1Fh0dtFyaVHiTjnBujeiOUpjdxb0u-OSXRcspZC8WEEpJ3vJOT74EyGQD4oLzudMYzh_15k3Rbe=
+FcP33ZPP29XUmzK6HOJaWnjn4fbYP0M2s_HVrcjRTxHSM6vEC4oeLH9YBoXSFAa8zA6bERFbwYp=
+BdNsuCA0alKYxolR0pxDbqr0b_oH7pqO0A] with a preview of Discord=E2=80=99s fir=
+st web3 integration. The replies were fierce =E2=80=94 I was getting 15 new=
+ notifications per second =E2=80=94 and Citron pulled back [https://email.m=
+g2.substack.com/c/eJxFkE2OwyAMhU8TlhH_gQWLkUa9RkSCm9JJIAJnqtx-aLMYC9lY1vODb=
+_YISy6n23NF8k4jnju4BK-6AiIUclQoYwyOaW6EkpYEJwMzypBYx3sB2HxcHZYDyH5Ma5w9xpw-=
+Ckq5Ig9HveaKGRO0lNL4ARhXetbUijsFdbeXrz9ChDSDg18oZ05AVvdA3Gsnvjp-awdf8f2ifs5=
+b656-5jRHLDm1rqLHo7YLk8poOihF9TBIqrS1nbi1Jd-ckug45ayFYkIJyXvey3nSQJkMANyoae=
+iHjGcO-7OTdFt4X4-p7Z5_3q6kuJRxyiWmpY1_Hn6D9TNoPx9b3Y4U8Rwh-WmFcEHBi-0H07hAg=
+tKYh9FjIyq0NVIKNjBzQWjUpLDWWEZJcw65qdK_6R_AG43c].
+While that was happening, I made my first CNBC appearance [https://email.mg=
+2.substack.com/c/eJxFUc3OpCAQfJrhhgFERw8cvsu-huGnV9lBMPyM69tvz3hYQroDleqCKq=
+srrClf6kilkk9Z6nWAinCWALVCJq1AXrxTfBRTP8iZOCUdn4aJ-LL8zgC79kHV3IAczQRvdfUpf=
+hmMiYFsCrQDOzCp7QBMj8IIIaSVvQDG5ucobl3dnIdoQcEb8pUikKC2Wo_y6H8e4hfu8zw7G43t=
+bNrx-PYOEnbBBMfGP4VNWMqWWnD0So0aCB7n0boBzf7tdaQb_o-aDPrl40pdOuMXjW03kAsyNh_=
+dfQV_KzV-pfCm_kjdVvdAvPro4Rp4P_RSdKKT1ozAuHQAYhrMs3umeiV3_HlItq-iK82Uqu3r82=
+6SVUzVpIziCL82vUP4Amjegn1v0ddrgahNAHf7Wu94vk4vK0TIGJtbdMVQ-nGepOz5k0-3j2i87=
+Od5mjkjqOwSsuJ_0X9iiqjn] to discuss Rivian=E2=80=99s IPO (the company close=
+d the week at a market cap so steep, $110 billion, you=E2=80=99d need a Riv=
+ian to climb it).=20
+That night, The Economist published a piece that Chris Dixon and I wrote on=
+ web3 [https://email.mg2.substack.com/c/eJxFUcGupCAQ_JrhhhGEEQ8c3mV_wyC0Izt=
+KG2jX9e8XZw5LSHVSna7qVHtH8MJ82R0LsRtGunawCc6yAhFkdhTIYwxWPKXptBpYsCoIow2LZZ=
+wzwObiaikfwPZjWqN3FDF9JtpWarZY6EEpPWnlhNPtDK3wYIbZqEn1Ylbd19cdIULyYOEP5AsTs=
+NUuRHt5dD8P-av-8zwb8Jhwi4Uaj1vlaAF-Yl4Ddwu4UBnZSlGLuKE1FfySY-Eh_sXEXQp8d_59=
+8c17zFv0b17pW2U-6MjAceY-Xzshi_aWqk-LTndKNrJRfnrW9VUAkEZPfdMjXRj23w_Vbi_ZlGM=
+qVOXv5Vi2CWnCHNOrtt-L22D9NGpMY63bkSJdIyQ3rRC-CdL3EJ9MxxckyPVAYXRU4--eg1GqE7=
+0w38RqxKobBjOIllXngHUq_Tf9ByO6oRo], and on Wednesday, I announced [https://=
+email.mg2.substack.com/c/eJxFkMtuxCAMRb8mLCOeCVmwqFTNrt8Q8fBk6CQQgdMqf19msi=
+iywJZ1ffHxFmHJ5TR7rkhe14znDibBb10BEQo5KpQ5BsMGroWSEwlGBqaVJrHO9wKw2bgaLAeQ_=
+XBr9BZjTm8FpVyRh3FKc0a9BkvFKIIM8s6sc_cwejbYwC5fe4QIyYOBHyhnTkBW80Dcayc-On5r=
+gb_x9aPe561Vu_XP86slFS0etSVMKi0V0yMd5KQFk3zoxK3pPzkl0XDKWTuKCSUk73kvvRuAMhk=
+AuFZu7MeMZw77dyfptvC-Hq7N9s-XISkmZXS5xLS09vNhN1jfjbb03N7tSBHPGZJ1K4SLB15Y34=
+TmBRKUhjvMFhtMMUxaSsFGpq_9GzAppklPjJLmHHJTpX_TP8pWjMA] that I=E2=80=99m joi=
+ning Chris [https://email.mg2.substack.com/c/eJxFUMuOgzAM_JrmiMgLwiGHvfQ3UB=
+Ibmi0kKJjt8veblsNali1rZI9ngiOcczntlndi7zLSuaFN-NoXJMLCjh3LGMHyThip1cDAKuBGG=
+xb3cSqIq4uLpXIg2w6_xOAo5vTZaFuh2cNOkwaHYYKu9WLgQmgIk-cTB2kU9NPF6w6ImAJa_MFy=
+5oRssQ-ibb_Jr5u416RXfH_UhLzWKUD8zYlFK1rBa2gutVSiEY0KvsOWK0AURvu-6TOdGbbvm2r=
+XWTT74Xdy4fk-xIpNmXwuMc0Vfj7cissHqGLG2tcjRTpHTM4vCJdOuuz6KB9nTFiqjTA6qibJbj=
+BKSd5zc-mqRig5DGbgLavMkOtW-if9A8I2g4A] and team as an advisor to a16z Crytp=
+o [https://email.mg2.substack.com/c/eJxFUMtuxCAM_JrlGPFM4MChl_4G4uHN0k0gIk6=
+r9OvLbg61LHukkT2aiR5hru20W92RvIbDcwNb4GdfABEaOXZoLifLRq6FkoYkKxPTSpO8u3sDWH=
+1eLLYDyHaEJUePuZb3BaVckYc1fLwHCFExqYygwfCg9ZQo13dGlWGXrj9ShhLBwje0sxYgi30gb=
+vtNfNz4Z2_Pxt8h1rXD2M4NawckW04566WYUELygQ8yhhEokwmAaxWmYap41rR93SRdZz7sR9jR=
+x-frF2m2VAy15TJ3-vnwKyxvoptxfa9HyXg6KD4skC6feMX1du5mKNB6jMl57CGJ0WgpBZuYvnz=
+1IKQwRhtGSVdOtV-Vf9E_VgGA8A].  Nothing changes here at Not Boring =E2=80=94=
+ I=E2=80=99ll still be in your inbox once or twice every week, and Not Bori=
+ng Capital is full steam ahead =E2=80=94 but I=E2=80=99m excited to learn f=
+rom the world-class team at a16z and work with them to bring web3 knowledge=
+ to a wider audience.=20
+Finally, on Thursday night, I crossed 100k Twitter followers, which is a me=
+aningless accomplishment that still felt good. It means a lot to me that so=
+ many of you are willing to give me some of your valuable time.=20
+There=E2=80=99s a good chance it=E2=80=99s all downhill from here, but let=
+=E2=80=99s try for an encore.=20
+First, the first Not Boring Syndicate investment, Composer [https://email.m=
+g2.substack.com/c/eJxFUMuOwyAM_JpyjHim5MBhL_sbiIebsk0gAmej_P3S5rCWZUse26OZ4=
+BDmUk-zlYbkXSyeG5gMR1sAESrZG1SbomEj10LJiUQjI9NKk9TsowKsLi0G6w5k2_2SgsNU8ueC=
+Uq7I06jgRhe40krCg4oH8z6OHZwE-ACCXrxujwlyAAO_UM-SgSzmibi1m_i68e-ex3EMoax9G-q=
+A1UXoQ5IMp5z1UEwoIfnABxn8CJTJCMC18vfhXvAscfu5SbrOfGi7b-jC6_2NVJML-lJTnjv8er=
+oVlg_Q1dje1z0nPC1k5xeIl1C8_PpItzNkqN3HaB12l8Q4aSkFuzN9CetOSDFNemKUdOZY-lX-J=
+_0DfgaDEQ], launches [https://email.mg2.substack.com/c/eJxFkM1uhSAQhZ_msquR=
+X3HBopu-hkGYq7QKBoYa377c66KEMMDkzMn5nEVYUr7MkQqS1zHhdYCJcJYNECGTWiBPwRuqmOZ=
+SjMQb4amWmoQyPTPAbsNmMFcgR5234CyGFN-KvmeSrEbR2TotneJP55lTTwvUaa8GD15yKm9fW3=
+2A6MDAL-QrRSCbWRGP8uCfD_bV9nme3ZGTrw7XGrFzaW-_L3Fptb3aFfKHIMGwntG2JOWSC9axT=
+rhZQU-FB2BazkM3JLySP74fot8X1pU6F7Tu5zWUZBMTzimHuLT2z2p32N6NFnBqda8x4DVBtPMG=
+_s6ON8I3jWmBCLmh9ZPFBo6rUQvB6UD1nbXBEXwc9Uh70px9aqr4b_oHp0KKrA] today =F0=
+=9F=9A=80 Learn how to get your alpha back at the bottom of the email.=20
+And one more thing=E2=80=A6=20
+Let=E2=80=99s buy the US Constitution together.=20
+Let=E2=80=99s Buy the US Constitution
+Yesterday morning, I was in the middle of writing a typical Not Boring Mond=
+ay essay. This one, which I may still write, was about the idea that while =
+people are waiting for =E2=80=9Creal use cases=E2=80=9D for web3, a set of =
+new web3-native use cases is emerging that might be more important than the=
+ =E2=80=9Creal=E2=80=9D ones.
+I planned to write about the Olympus DAO forks, the ENS airdrop, NFT fracti=
+onalization, appraisal, and lending, and this wild adventure that began on =
+Thursday: ConstitutionDAO [https://email.mg2.substack.com/c/eJxFUMtuhDAM_Jr=
+NEeUJySGHXvobKA-XTQsJSkwRf9_scqhl2bJG49FMcAhLqZfdS0PyGjNeO9gMZ1sBESo5GtQ5Rc=
+tGroWShkQrI9NKk9TmrwqwubRarAeQ_fBrCg5TyW8GpVyRp3WjV06yIOPEGZ-E8BOVgfsIzgDV5=
+tZ1R0yQA1j4hXqVDGS1T8S9PcTHg3_2Ps9zCCU3THi8NKIr_d46QpLllLNeigklJB_4IIMfgTIZ=
+AbhWfhqmgleJ-_dD0m3hQzt8Qxd-Xi9ItbmgLzXlpcM_T7fB-ga6pbnv7cgJrxmy8yvE2y3eob3=
+9zwtkqD3MODvsUYnRaCkFm5i-3fU4pDBGG0ZJV46ls_K_6B8cCITn].
+ConstitutionDAO is what it sounds like: a DAO organized to purchase a copy =
+of the United States Constitution when it goes up for auction at Sotheby=E2=
+=80=99s [https://email.mg2.substack.com/c/eJxFUMuOwyAM_JpyjHim5MBhL_sbiIebs=
+k0gAmej_P3S5rCWZUse26OZ4BDmUk-zlYbkXSyeG5gMR1sAESrZG1SbomEj10LJiUQjI9NKk9Ts=
+owKsLi0G6w5k2_2SgsNU8ueCUq7I06jgRhe40krCg4oH8z6OHZwE-ACCXrxujwlyAAO_UM-SgSz=
+mibi1m_i68e-ex3EMoax9G-qA1UXoQ5IMp5z1UEwoIfnABxn8CJTJCMC18vfhXvAscfu5SbrOfG=
+i7b-jC6_2NVJML-lJTnjv8eroVlg_Q1dje1z0nPC1k5xeIl1C8_PpItzNkqN3HaB12l8Q4aSkFu=
+zN9CetOSDFNemKUdOZY-lX-J_0DfgaDEQ] this Thursday at 6:30pm ET.=C2=A0=C2=A0=
+=C2=A0
+I first heard about ConstitutionDAO on Thursday, when Graham Novak, Austin =
+Cain, and Julian Weisser told me about the plan and I joined the Discord. I=
+t was a blast, but I was too busy writing to get more involved. Yesterday m=
+orning, when Nicole Ruiz [https://email.mg2.substack.com/c/eJxFUMuOwyAM_Jpy=
+jHglIQcOe-lvIB5uypZABM5W-ful7UprWbaskT2e8RZhLfXUe2lIXsXguYPO8GwJEKGSo0E1MWg=
+2cSVGuZCgZWBqVCQ2c6sAm41JYz2A7IdL0VuMJb83KOUjuWvJqALmb447d6NhZnICO7GR-9lTNa=
+kPrz1ChOxBww_Us2QgSd8R93YRXxd-7YnP-Ppo8GXrU37GlKLdGhWURM0pZz1GJkYh-cAH6d0El=
+MkAwNXo5mEueJawf18k3VY-tMM1tP7xOkeqzgVdqTGvHX7c7QbpDXRJpvftyBFPA9m6BOGjFj-m=
+vfWbFTLUbmYwFrtVYlqUlILN7E9dt0OKZVELo6Qzh9K38j_pL7ahhGU] reached out and as=
+ked if I wanted to help out the contributors, my first thought was, =E2=80=
+=9CI=E2=80=99d love to, but I=E2=80=99m busy writing tomorrow=E2=80=99s new=
+sletter.=E2=80=9D=C2=A0
+But like three seconds later, my second thought was, =E2=80=9CYou=E2=80=99r=
+e not turning down the opportunity to contribute to a history-making DAO so=
+ you can write about DAOs, right?=E2=80=9D
+Who was I kidding? As Nic Cage said in National Treasure 2: Book of Secrets=
+, =E2=80=9CThose who have the ability to take action have the responsibilit=
+y to take action.=E2=80=9D My mind was made up. In the words of Con Air Nic=
+ Cage, =E2=80=9CWell, Baby-O, it's not exactly mai-thais and yahtzee out he=
+re but... let's do it!=E2=80=9D
+I scrapped the essay I was writing. Instead, I decided to spend the next 24=
+ hours participating in and writing about ConstitutionDAO [https://email.mg=
+2.substack.com/c/eJxFkEtuxCAQRE8zLC1-NnjBYpQo2xzB4tPxkNhgQTsj3z54vAhCtFCpu7=
+qetwhzLofZckVyPhMeG5gEz7oAIhSyVyhTDIYNXItejiQYGZjuNYl1-ioAq42LwbID2Xa3RG8x5=
+vTqoJT35GFABSHY2IO2zKrRKwcatA-DU44CVZev3UOE5MHAL5QjJyCLeSBu9SbuN_7RLj7juVHn=
+89p-bzlVjLifbu_3TxINp5y10zPRC8k73knvBqBMBgCue6c6lfHIYfu-SbrOvKu7q2j9zzmRFJM=
+yulximpv887ArLC-hpZpaXfcU8ZggWbdAuALjxe2FYJohQWk8w2Sx0RLDqKUUTDF9BWxEpBhHPT=
+JKmnPIrSv9m_4BKFeGYQ].=C2=A0
+As corny as this paragraph sounds, I couldn=E2=80=99t be happier with that =
+decision. It=E2=80=99s 9:18pm ET on Sunday as I type this. The team just op=
+ened up contributions. I just committed my biggest ETH purchase to date. Tw=
+itter is buzzing. The Discord is buzzing. There=E2=80=99s a sense of non-pa=
+rtisan American patriotism I haven=E2=80=99t felt in a long time, and a fee=
+ling of pride that web3 is making this possible.
+It=E2=80=99s fucking cool to see a group of strangers on the internet get s=
+o excited to make history together. As contributions opened last night, mes=
+sages like this kept popping up on the contribution page [https://email.mg2=
+=2Esubstack.com/c/eJxFkE2OwyAMhU9TllH4S2D=
+BYja9RkTATWkTiMDMTG4_NFkMMrbkJ-vpfc4=
+iLCkfZk8FyadNeOxgIvyUFRAhk1ogT8EbOjDFpdDEG-GpkoqEMj0ywGbDajBXIHud1-AshhTPi7=
+5nkjyNlsKC59oBY5qNw2iVtOyhtJQDfUhx-drqA0QHBr4hHykCWc0TcS83_nVj91avGhzM6bfbm=
+nqcO9763r5LsWDA-rH2NpFgWM9oe5JyyQXrWCfcPEBPhQdgSs5jNyY8kt9fN9FvC-tKnQta9-5c=
+2kg2MeGccohLk99Pu8F6Ci3i1OZWY8BjgmjnFfyVHi-IJ49pgQi5wfWTxYaOD1oJwelI1ZW24RF=
+ca6VpT5qzT-0q_pv-AaikiWA] (they=E2=80=99re still going):
+And this one, which came in right after I made that graphic above.
+One more=E2=80=A6=C2=A0
+Sorry, last one, promise:=C2=A0
+I=E2=80=99m not crying, you=E2=80=99re crying.=C2=A0
+Anyway, this won=E2=80=99t be my most well-written piece ever. I=E2=80=99m =
+writing it in real-time. I=E2=80=99m distracted on Twitter and in the Disco=
+rd. Whatever I write in here today will be stale by the end of the week. Bu=
+t this is by far the coolest thing happening on the internet this week:=C2=
+=A0
+It=E2=80=99s the first time a copy of the US Constitution will go on sale i=
+n 33 years=C2=A0
+It=E2=80=99s the only remaining privately-owned copy and the proceeds are b=
+eing donated to a non-profit supporting democracy education.
+The DAO has over 7,900 members in its Discord server, well over $10 million=
+ in soft commitments in two days, and $3 million in committed funding on Ju=
+icebox [https://email.mg2.substack.com/c/eJxFkE2OwyAMhU9TllH4S2DBYja9RkTATW=
+kTiMDMTG4_NFkMMrbkJ-vpfc4iLCkfZk8FyadNeOxgIvyUFRAhk1ogT8EbOjDFpdDEG-GpkoqEM=
+j0ywGbDajBXIHud1-AshhTPi75nkjyNlsKC59oBY5qNw2iVtOyhtJQDfUhx-drqA0QHBr4hHykC=
+Wc0TcS83_nVj91avGhzM6bfbmnqcO9763r5LsWDA-rH2NpFgWM9oe5JyyQXrWCfcPEBPhQdgSs5=
+jNyY8kt9fN9FvC-tKnQta9-5c2kg2MeGccohLk99Pu8F6Ci3i1OZWY8BjgmjnFfyVHi-IJ49pgQ=
+i5wfWTxYaOD1oJwelI1ZW24RFca6VpT5qzT-0q_pv-AaikiWA] in <12 hours.
+It=E2=80=99s a bridge between web3 and America that should have existed alr=
+eady.=20
+We, the People, are going to buy the Constitution.=C2=A0
+Plus, I=E2=80=99ve spilled a lot of digital ink explaining why web3 is impo=
+rtant and how some it it works, but ConstitutionDAO is an in-progress look =
+at how DAOs work and what=E2=80=99s possible with web3:=C2=A0
+A Liquid Super Team [https://email.mg2.substack.com/c/eJxFkM1uhCAQgJ9mua3hT=
+4UDh176GgZhqnQVDIw1vn1ZTVoCTMJk-GY-ZxGmlE-zpYLkfQ14bmAiHGUBRMhkL5CH4A3ruBKt=
+1MQb6ZlqFQll-MoAqw2LwbwD2fZxCc5iSPGqoJS3ZDaeSQmCMjs6ZbUUutPS9dxJ7i1o6G6u3X2=
+A6MDAD-QzRSCLmRG38hAfD_5Z93EcTUw4phzi1LhUn7Z6cIanS2mDfJGf4FJM6_kkwXDKWV0tE6=
+2QvOGNdGMHlEkPwFU79k2f8Ex--35Iuk68KftY0LpX_X0l2fzRavo12xWWK1HnHGpc9xjwHCDac=
+QF_K8Db5CVlmCC-mwI_WKz-RKeVlIL1TN0jV0fVhlaaUVLJPtWq-A_9BaUPjGY] of 30 core =
+contributors from leading startups and web3 protocols joined forces=C2=A0
+To set up a safe and compliant DAO
+That let=E2=80=99s anyone with an Ethereum wallet contribute to the purchas=
+e of the US Constitution
+All set up in three days thanks to composability, dedication, and vibes.=C2=
+=A0
+And here=E2=80=99s the best part: I=E2=80=99m not just writing about it, yo=
+u can get involved. We have until Thursday to raise enough money to make a =
+winning bid for the Constitution [https://email.mg2.substack.com/c/eJxFUMtu=
+hDAM_JrNEeUJySGHXvobKA-XTQsJSkwRf9_scqhl2bJG49FMcAhLqZfdS0PyGjNeO9gMZ1sBESo=
+5GtQ5RctGroWShkQrI9NKk9TmrwqwubRarAeQ_fBrCg5TyW8GpVyRp3WjV06yIOPEGZ-E8BOVgf=
+sIzgDV5tZ1R0yQA1j4hXqVDGS1T8S9PcTHg3_2Ps9zCCU3THi8NKIr_d46QpLllLNeigklJB_4I=
+IMfgTIZAbhWfhqmgleJ-_dD0m3hQzt8Qxd-Xi9ItbmgLzXlpcM_T7fB-ga6pbnv7cgJrxmy8yvE=
+2y3eob39zwtkqD3MODvsUYnRaCkFm5i-3fU4pDBGG0ZJV46ls_K_6B8cCITn].=C2=A0
+If you=E2=80=99re already deep down the web3 rabbit hole, the mechanics wil=
+l be familiar, the prize is just bigger and more consequential than you may=
+ be used to.=C2=A0
+Even if you=E2=80=99ve avoided web3 until now, there=E2=80=99s a good chanc=
+e you care about the Constitution. This is your opportunity. Watch the onbo=
+arding guide [https://email.mg2.substack.com/c/eJxFkM-OhCAMxp9mOBr-iXDgsJd9=
+DVOhOuwoGMA1vv0y42Gbpl-apvnan4OKS8qX3VOp5F3Geu1oI55lxVoxk6NgHoO3THEtemmIt9I=
+z3WsSyjhnxA3Cams-kOzHtAYHNaT42aCU9-RpjQSYlRfGS0RAA0jVBI7L2fTTMIjbFw4fMDq0-I=
+v5ShHJap-17uUhvh78u-V5nt2a0ta5tLW2PCFj00EwDW7mQikvNVBDFXo3-d5xzY1nJFhOOWvRM=
+9ELyTveSTcppEx6RK7bEd2Q6pX8_vOQdFt4V46pVHCvtxXJNqY6pRzi0savJ2y4fgbt37HpdsRQ=
+rxEjTCv6G0W9iX7gjAtGzI20H6E2jkIZLaVgA9P3642VFMZowyhpzj61rfhv-gc804x_]. Set =
+up a Rainbow [https://email.mg2.substack.com/c/eJxFkEuOhDAMRE_TWaL8gLDIYjZ9=
+jSgfQ2caEpSYaXH7ycBiLMuWVbJKr7xFWHI59Z4rkr9h8NxBJ_jUFRChkKNCMTFoNnAlejmRoGV=
+gqlckVjMXgM3GVWM5gOyHW6O3GHO6PijlPXlpMTiYxcjBehYGL-nMPONqdpPjbKb-9rVHiJA8aP=
+iBcuYEZNUvxL0-xNeDP1sXG5PLn26DdpCoOeWsVc9ELyTveCe9G4AyGQC46t3YjRnPHPbvh6Tbw=
+rt6uIrWvzufN1J0yuhyiWlp8vtlN1gvoVGYtrcjRTwNJOtWCDcg3jldyGaBBKXlF4zFlo4YJiWl=
+YCNTN1BLQIppUhOjpDmH3L7Sv-kvKwt__g] or MetaMask [https://email.mg2.substack=
+=2Ecom/c/eJxFkE1uxCAMhU8zLKPwl8CCRTe9BoLg=
+ZOgEiMBplduXTha1LFvWk_X0vcUhbKVe5igN=
+yd-weB1gMvy0HRChkrNBtTEYOjHFpdAkGBGokorEZtcKkFzcDdYTyHH6PS4OY8nvj3FkkjyN9Hp=
+eF6o4WwXzq9JcycD46MPEpjm429edIUJewMA31KtkILt5Ih7twT8e7LN3AnTJtdcQS79INGxktJ=
+ekXHLBBjaIxU8wUhEAmJJ-HuaCVwnH10OMaWNDO31Dt7yGpSRSTS7oS4156_Lr6RLsb6Fj2L7Tm=
+SNeFrLzO4SbEO-g3sx2gwy1Bxiswx4Pn7QSgtOZqpuoRyC41krTkXTnUPpX_jf9BQ4kf8A] wal=
+let. Join the Discord [https://email.mg2.substack.com/c/eJxFUMtuhDAM_JrNEZE=
+Xj0MOXPobUYi9bLqQ0MS04u-bwqGWZcsajUcz3hEuKZ9mT4XY37B07mgi_pQViTCzo2C2AQzvxC=
+C1GhkYBXzQAwvFPjPi5sJqKB_I9mNeg3cUUrwYbSs0exkBXnKQPR-f3vnegUScO-3V2LeC9_LWd=
+QcEjB4NfmM-U0S2mhfRXh5yeoiP2hCKTxmaZanHOYHbp-mLBSPql1qaSy2VaESj_NxhyxUgikHP=
+fdMnOhPsnw_VbotoyjEXcv7d-LSxbGKiOeUQlwq_X27D9QKqG1v3dsRAp8Xo5hXhNkp3Xpd1u2D=
+EXHME66imJLtxUEryng-3sZqEkuM4jLxlVRlSZcV_0V8B9IJ9]. And commit to contribut=
+e funds [https://email.mg2.substack.com/c/eJxFUMtuhDAM_JrNEeUJySGHXvobKA-XT=
+QsJSkwRf9_scqhl2bJG49FMcAhLqZfdS0PyGjNeO9gMZ1sBESo5GtQ5RctGroWShkQrI9NKk9Tm=
+rwqwubRarAeQ_fBrCg5TyW8GpVyRp3WjV06yIOPEGZ-E8BOVgfsIzgDV5tZ1R0yQA1j4hXqVDGS=
+1T8S9PcTHg3_2Ps9zCCU3THi8NKIr_d46QpLllLNeigklJB_4IIMfgTIZAbhWfhqmgleJ-_dD0m=
+3hQzt8Qxd-Xi9ItbmgLzXlpcM_T7fB-ga6pbnv7cgJrxmy8yvE2y3eob39zwtkqD3MODvsUYnRa=
+CkFm5i-3fU4pDBGG0ZJV46ls_K_6B8cCITn].=C2=A0=C2=A0
+I have no financial incentive to write this post. The core team won=E2=80=
+=99t get any distributions, and they=E2=80=99re not paying me for this. If =
+you want to contribute, you should think about it as purchasing a keepsake =
+as opposed to investing in an asset. At the very least, you=E2=80=99ll have=
+ a new fun fact for icebreakers and a new icebreaker for cocktail parties.=
+=C2=A0
+So buckle up. In the lightly edited words of National Treasure Nic Cage:=C2=
+=A0
+[We=E2=80=99re] going to [learn about] the [ConstitutionDAO]:
+Founding Story. Seven days to buy a 234-year-old document.
+An American Idea. web3 and America are more similar than they appreciate.=
+=C2=A0
+How to Build a DAO in Three Days. What it takes to build a DAO.
+Let=E2=80=99s Buy the Constitution. A guide to buying the Constitution of t=
+he USA.=C2=A0=C2=A0
+Historical Context. The historical sale of a historical document.=C2=A0
+This is an inside, real-time look at how to form a DAO, raise $20 million f=
+rom thousands of people, and win an auction to win the US Constitution. We =
+may be participating in history. Our story begins either in 1787... or last=
+ Thursday.=C2=A0
+Composer Launches Today!
+Last summer, we did our first syndicate deal ever for Composer [https://ema=
+il.mg2.substack.com/c/eJxFUMuOwyAM_JpyjHim5MBhL_sbiIebsk0gAmej_P3S5rCWZUse2=
+6OZ4BDmUk-zlYbkXSyeG5gMR1sAESrZG1SbomEj10LJiUQjI9NKk9TsowKsLi0G6w5k2_2SgsNU=
+8ueCUq7I06jgRhe40krCg4oH8z6OHZwE-ACCXrxujwlyAAO_UM-SgSzmibi1m_i68e-ex3EMoax=
+9G-qA1UXoQ5IMp5z1UEwoIfnABxn8CJTJCMC18vfhXvAscfu5SbrOfGi7b-jC6_2NVJML-lJTnj=
+v8eroVlg_Q1dje1z0nPC1k5xeIl1C8_PpItzNkqN3HaB12l8Q4aSkFuzN9CetOSDFNemKUdOZY-=
+lX-J_0DfgaDEQ], started by my good friend and former colleague, Ben Rollert=
+ [https://email.mg2.substack.com/c/eJxFUMtuxCAM_JrlGPHMkgOHXvobiIebpSUQgdNV=
+_r7s5lDLsmVZnvFMcAhrbafZa0fyKhbPHUyBZ8-ACI0cHZpN0bCZa6HkQqKRkWmlSer2qwFsLmW=
+D7QCyHz6n4DDV8r6glCvyMDEyMfsleMopiw6YZELNDEKQijtQF687YoISwMAvtLMWINk8EPd-Ex=
+83_jkSn-n10RTqNiYPpdWcoSFJhlPORqgBLCSf-CSDn4EyGQG4Vv4-3SueNe7fN0m3lU_98B1d-=
+HmBkWZKRV9bKutY_zzcBvm9GILs6NtREp4WivMZ4qUVL8ve6u0KBdqwMlqHwygxL1pKwe5MX9qG=
+GVIsi14YJYM51nFV_kn_ACyshFk]. I wrote up a memo [https://email.mg2.substack=
+=2Ecom/c/eJxFkMtuhDAMRb9mshtEHkBYZDGb_gbK=
+w2XSIQkKpoi_rztIbeTE0rXsGx9vEeZST7OW=
+DdnvM-G5gslwbAsgQmX7BnWKwfBeaNmpkQWjAtedZnGbPitAsnExWHdg6-6W6C3Gkt8dbSs69jS=
+dVpoP0oEUgVveW2Udl5y7ltvQg7987R4iZA8GvqGeJQNbzBNx3W7ycRMfFMdxNLmgKzXmufGFpJ=
+UuSfdLuydI5e5LooH082hEKzidjstOKtGIRnnXQ8tVABC6c0MzFDxLWL9uqk2zaLbdbWj9i6YnV=
+s2fG5VfT5tgeRdoz4ly2nPEc4Js3QLhQoAXyTeUaYYMlQiHySLxk_2olZJ84PpamRgpOY565C0j=
+51CoK_-b_gB9LoxN], and 38 brave Not Boring souls invested in the company=E2=
+=80=99s pre-seed. Earlier this year, First Round led the company=E2=80=99s =
+seed round, and today, Composer is launching! They=E2=80=99re live on Produ=
+ctHunt [https://email.mg2.substack.com/c/eJxFkM1uhSAQhZ_msquRX3HBopu-hkGYq7=
+QKBoYa377c66KEMMDkzMn5nEVYUr7MkQqS1zHhdYCJcJYNECGTWiBPwRuqmOZSjMQb4amWmoQyP=
+TPAbsNmMFcgR5234CyGFN-KvmeSrEbR2TotneJP55lTTwvUaa8GD15yKm9fW32A6MDAL-QrRSCb=
+WRGP8uCfD_bV9nme3ZGTrw7XGrFzaW-_L3Fptb3aFfKHIMGwntG2JOWSC9axTrhZQU-FB2BazkM=
+3JLySP74fot8X1pU6F7Tu5zWUZBMTzimHuLT2z2p32N6NFnBqda8x4DVBtPMG_s6ON8I3jWmBCL=
+mh9ZPFBo6rUQvB6UD1nbXBEXwc9Uh70px9aqr4b_oHp0KKrA] right now (check it out [=
+https://email.mg2.substack.com/c/eJxFkM1uhSAQhZ_msquRX3HBopu-hkGYq7QKBoYa37=
+7c66KEMMDkzMn5nEVYUr7MkQqS1zHhdYCJcJYNECGTWiBPwRuqmOZSjMQb4amWmoQyPTPAbsNmM=
+FcgR5234CyGFN-KvmeSrEbR2TotneJP55lTTwvUaa8GD15yKm9fW32A6MDAL-QrRSCbWRGP8uCf=
+D_bV9nme3ZGTrw7XGrFzaW-_L3Fptb3aFfKHIMGwntG2JOWSC9axTrhZQU-FB2BazkM3JLySP74=
+fot8X1pU6F7Tu5zWUZBMTzimHuLT2z2p32N6NFnBqda8x4DVBtPMG_s6ON8I3jWmBCLmh9ZPFBo=
+6rUQvB6UD1nbXBEXwc9Uh70px9aqr4b_oHp0KKrA] and show them some love!) and you=
+ can go sign up and start trading today.=C2=A0
+Composer is an automated trading platform that allows you to build a portfo=
+lio of hedge fund-like strategies. Here=E2=80=99s how it works.=C2=A0
+Most of us aren=E2=80=99t professional traders, so we pick stocks that we l=
+ike, maybe sell if things change or we need the money, and try futilely to =
+time the market. If you picked a basket of companies that I=E2=80=99ve writ=
+ten about since launching Not Boring and bought them all last December, you=
+=E2=80=99d have underperformed the Nasdaq since.
+But with Composer, you can pick stocks you like, build automated strategies=
+ around them, and let the robots do all of the trading. For example, if you=
+ took the companies I=E2=80=99ve written about and invested in the one with=
+ the best 5-day performance each month, you=E2=80=99d have outperformed the=
+ market dramatically.=C2=A0
+Each strategy is called a Symphony, and you can follow your favorite invest=
+or=E2=80=99s, pick from Composer=E2=80=99s hand-made set, or build and impl=
+ement your own as easily as you=E2=80=99d buy a stock. You can run back-tes=
+ts, paper trade them to see how they perform live, and connect your brokera=
+ge to put real money behind your Symphonies. See for yourself, go check out=
+ the Not Boring Symphony [https://email.mg2.substack.com/c/eJxFkE1PxCAQhn_N=
+cmwo0JYeOPixJhuNBzXReGlomW1xWyAw1dRfL7t7cEKGyQxv3uEZNMLo46aCT0jOqcMtgHLwk2Z=
+AhEjWBLGzRpU1k7wSLTFKmFJWktjUHSPAou2sMK5AwtrPdtBovbsoKGUVmVQFrK_lkYNoKK2YaT=
+Q78kFq3epeM8auvno1FtwACr4hbt4BmdWEGNKO3-zYQz46hGLwS34NscCoDeRm2pYwebfl8mP_f=
+Hh5u9e3h8_336eJvT7u73LbAOYNE7GKUVbmqEpeccEKVoihr4GWwgAwWfVN0XjcvAlfO0GXkRVp=
+7RPq4XS2JVE5j72P1o15fJr0AvNlkL_d5XtZncWtA6f7GcyVCF7BXhh1IziIGbjpNGacvG6lELx=
+sSnklkJEJ3rayLSnJzsZnlfs3_QN1WpCr].
+If you=E2=80=99re an investor but not a trader, like me, you=E2=80=99re pro=
+bably missing out on that sweet, sweet alpha. Go get your alpha back. Sign =
+up for Composer today:=C2=A0
+How did you like this week=E2=80=99s Not Boring? Your feedback helps me mak=
+e this great.
+Loved [https://email.mg2.substack.com/c/eJxFkMFuwyAMQL8mHCPAEODAYdLU34gIuCl=
+bAhGQTfn70fYwZGyBZT143jVcc7nskWsjzzS360Cb8Ldu2BoWclYscwyWTVyDFIYEKwLTUpNY53=
+tB3F3cbCsnkuNctuhdizm9JijlkjysFl5woTwHpDooZMo45SUD5fGulXhz3RkiJo8Wf7BcOSHZ7=
+KO1ow7wMfBbDzfWo8R19HnvJzXJSULfFLS8KwMcjEIFk5kEOJBA-w0FGOBWBviUJFpOOeurkyUI=
+PvJR-GVCykRA5FoualS5XTkcX4Og-8rHei61Of_9RJJiU25LLjGtvf39cDtur0b_9tzrfqbYrhm=
+TWzYMbyPtLfblaF4xYenCw-xa19lfqoUApph-G-jKBBijDaOkk0PuU-kf-geI6IoC]=C2=A0|=
+=C2=A0Great [https://email.mg2.substack.com/c/eJxFkMtuxCAMRb8mLCPCI8CCRaVqf=
+iPi4WRoE4gIaZW_r2eyKMJG5sq69gmuwVLqZfdyNPJKU7t2sBl-jxVag0rOA-qUoh1GprkUhkQr=
+4qClJumY5gqwubTaVk8g--nXFFxLJb87KGWSPK0Q4F0wwQuYI4BRGmQ0M0aYZ6H87evOmCAHsPA=
+D9SoZyGqfre1Hxz869sDr-mOvaelD2bBSoxwlx6Bcy1kZzrhRoPhoRsEdl5ziD-W844_a8U9Bkm=
+WUDXjkgKpgPetF8CPQQeBUTEuvelXaVeL-1Qm6Law_Tn80F75flqTaXJovNeUF5e-n22B9C7j2h=
+O925tSuCbLzK8SbSLvBvhlNC2SoCDxOriFOnFQLwQc16JsAIhPcGG0GStA5FuzK_6Z_rCiLwA]=
+=C2=A0|=C2=A0Good [https://email.mg2.substack.com/c/eJxFkMGOhCAMhp9GjgYpCBw=
+4bLKZ1zAo1WFXwSDuxrffznhYAgX6p_nbb_IVl1wut-ejslcY6rWjS_h7rFgrFnYeWIYYXNcLA0=
+paFpwMnVGGxWOYC-Lm4-pqOZHt57jGydeY07uCc6HY081aaXpPFASA8VzPNoReWqGEGL24ff0ZI=
+qYJHf5guXJCtrpnrfvRwEcjHrR9e-wlLu2UN_rpXvUK6HAwatYWBFiNGnrbS_CggFOGAzTwKA18=
+AotOcNHRUh2pUrSildPYI-9kQBRGjbrVuV457F-N5Nsi2uMcj-qn75clKy7lOuYS00Ly99NvuL4=
+FGnugeztTrNeAyY8rhptIvcG-GQ0LJiwEPAy-Ek7q1EgJne7MTYCQSbDW2I4zcg6ZqtK_6R_xu4=
+mF]=C2=A0|=C2=A0Meh [https://email.mg2.substack.com/c/eJxFkE1uxCAMhU8TlhFgf=
+hcsKlW9RgTBydAmEBHSKrcvnVnUwkb2k_Xgm33DtdTbHeVs5K9M7T7QZfw5N2wNK7lOrFOKjilu=
+QApLohORGWlIOqelIu4-ba7VC8lxhS3NvqWSnxuUckkezkhlkcrFRi-UjssSAqoZDBgfQtDs5eu=
+vmDDP6PAb610yks09WjvOAd4G_tGPH8-jpnWcy947raSS0JOCkYu2wMFq1KCsEuBBAu0TCjDARx=
+3gnZPkOOWsh2RdFXzko5iDQspERORGBj3q0u4Sj89B0H3l43mFs_n568-SVJdLC6WmvHb56-F33=
+J5C__bU7_3Kqd0TZh82jC8i7QX2yWhaMWPtwOPkW8fZX2qEAKaZeRHoyARYayyjpDvH0rfyv-kv=
+qW6K7w]=C2=A0|=C2=A0Bad [https://email.mg2.substack.com/c/eJxFkEFuxCAMRU8Tl=
+hFgCLBgUamaa0QkeDK0CUSEtMrt65lZFIERfH19-82h4VLq5fdyNPYsY7t29Bl_jxVbw8rOA-uY=
+oheDtKCVY9GrKKy2LB3jvSJuIa2-1RPZfk5rmkNLJb8cnEvNHl4D-WbDZySbQ220G_AehBWDjQD=
+inRvOmDDP6PEH61UystU_WtuPDj46eaMd-mOvaennstHLDHrQQIeD1XfjQIIzaGBwg4IAGjj9cI=
+AObrWDT8GSl1wKWlqQqmQvezVPA3KhIqK0ejK9Ke0qcf_qFN8W2R_ndLQwfz8jWfW5tKnUlBeSv=
+x9hw_Ul0Ngj3duZU7tGzGFaMb6JtDfYF6NxwYyVgMcxNMJJnVqlQBhh3wQImQLnrBOcUXIs5Mr_=
+oX8SL4md]
+Thanks for reading and see you on Thursday,
+Packy
+
+Unsubscribe https://email.mg2.substack.com/c/eJxFUtFyoyAU_Zr46IBg1Acfuk1MzV=
+TbbLNpmhcH4SYhQXEU6-rXL0lmtgwDzLncc5hz4MzASbdj3OjOOLelMGMDcQ1Dp8AYaJ2-g7aQI=
+sZzLyQ-jRwRU4FDP3RkVxxbgIpJFZu2B6fpSyU5M1LX9w6EPN85x4RyFBBGAJc8KDEK8ZFD4AcM=
+R0ewpA9d1gsJNYcYvqEddQ2Ois_GNN2MPM28xM5hGNxam1K3sj65XFuI8ZuYPQjZsVJBcX_NjCR=
+GX6GekQWMa8y93bj31DW96L_5JaXZ9Ae9fQySr6JJJFFzeE7n-SLz37YnP9s-dWmlzsJi2fZryi=
+9Xmi82U2bvs30-WQ7JX3bydbscskWKU2l5yE7e8MNKTV-f6-6wi1T5mTTl8zpyw-L718uEGg-po=
+d-L8PdxuUpU6y_zJsjZJsmXFTpsduL13Roae8jDdviY-IR6rudSXs4BYSrAOuWXgRtoM2rRXGYU=
+VSfP7fqyM4xfrR2V08b_7bHl65lVoO4FG0xh96qvpRkLqG9WiUdm5hH93bfiBDW09kuIghkbOJl=
+HIaUEBzh8ZGRDpSSKwggjxyoLbbvqH9F_LK7HZA
+--9fedf2a42457ba354ff504172971930d5006c5583b8af624aec46665104a
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><title>Let's Buy the US Constitution</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup iframe.spotify-wrap,
+  .typography.editor .markup iframe.spotify-wrap,
+  .typography .markup a.spotify-wrap,
+  .typography.editor .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.youtube-wrap div.youtube-screen,
+  .typography.editor .markup div.youtube-wrap div.youtube-screen,
+  .typography .markup div.vimeo-wrap div.youtube-screen,
+  .typography.editor .markup div.vimeo-wrap div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media print {
+  .typography .markup .button-wrapper,
+  .typography.editor .markup .button-wrapper {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 15px 0 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 15px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  table.post-meta tr td.post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  body .markup table.image-wrapper img,
+  body .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .markup iframe.spotify-wrap,
+  body .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .markup div.youtube-wrap div.youtube-screen,
+  body .markup div.vimeo-wrap div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .markup div.embedded-publication-wrap .embedded-publication.show-sub=
+scribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media print {
+  body .markup .button-wrapper {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .footer {
+    outline: 8px solid #f8f8f8 !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 630px) {
+  .file-embed-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjExMTE1MTM1MzQyLjIuNGNiNmUwMTRkZWUyODViNy43b3R5b2RwakBtZzIuc3Vic3RhY2suY2=
+9tPiIsInUiOjE2MjgzNTQ5LCJyIjoibm90Ym9yaW5nQGtoYW1lbC5jb20iLCJkIjoibWcyLnN1Y=
+nN0YWNrLmNvbSIsInAiOjQzOTk4OTEwLCJzIjoxMDAyNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJp=
+YXQiOjE2MzY5ODQ0MzEsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.Hybl3fTYZy2OLUfMkTl-=
+zpjSziavKBlL5wIyQ2yxxJI" alt=3D"" width=3D"1" height=3D"1" border=3D"0" sty=
+le=3D"height:1px !important;width:1px !important;border-width:0 !important;=
+margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !importan=
+t;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !impor=
+tant;padding-right:0 !important;padding-left:0 !important;"/><div style=3D"=
+display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max=
+-width:0px;opacity:0;overflow:hidden;" class=3D"preview">ConstitutionDAO, w=
+eb3, and America&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;</div><table role=3D"presentation"=
+ width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"e=
+mail-body-container"><tr><td></td><td width=3D"550" class=3D"content"></td>=
+<td></td></tr><tr><td></td><td align=3D"left" width=3D"550" class=3D"conten=
+t"><div style=3D"font-size: 16px; line-height: 26px; margin: 0 auto; max-wi=
+dth: 550px; overflow-wrap: break-word; width: 100%;"><div class=3D"post typ=
+ography" style=3D"font-size: 16px; line-height: 26px; padding: 9px 0;"><div=
+ class=3D"post-header" style=3D"font-size: 16px; line-height: 26px;"><h1 cl=
+ass=3D"post-title short published" style=3D"-moz-osx-font-smoothing: antial=
+iased; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'S=
+F Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, =
+Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe=
+ UI Symbol'; font-size: 2em; font-weight: bold; line-height: 130%; margin: =
+0.378em 0 0 0;"><a href=3D"https://email.mg2.substack.com/c/eJxFUtuOmzAQ_Zr=
+wFoRvCTzwsE2alNXCbpvbdl8Q2JNgLjYFsyz5-jqJ1Fq2R5rLOaM5wzMDF91NYat749y-1EwthA=
+rGvgZjoHOGHrpUihAtsE8YDRwRUoF85juyT88dQJPJOjTdAE475LXkmZFa3Ss8DzOnCDHyz8Lzl=
+kDYkmNABLEAZTgADBli-fnBmw1CguIQwid0k1bg1GFhTNvPyNMMb-wdx9FV2uS6k-ricm1drX22=
+z36eD9PcFDAf-jnXqjfSDLc2ZmRjdAXWrmF6Rhwfp3dcV1Gpv5IyovH14L3uRsm3wVVsgvZjFS2=
+Sdcxe9xcW75_6qKkLYX3x_vc1KSuarH9eY5ufvSdXiyH5j6N82X8f43WEImlxyFHe_Te8FZo-Tp=
+tSbOvPXD4H7p_Nr2-71Zt_QKQ8nw5pQthOlOUQxByv2Mv2DXfxNKJTUY2ODLGHkT0MEUYodrFLe=
+b4AD1EBgH2WL92lNpMWbTmjXnPBbj_kvcl4ZQfTOF34b1A2XBVZA_U9YCVKrW0GJc2UgsryGsRD=
+PfNYgrue6QUUdHY5RJoZKz1ZBD6lBC2R_1DLyktJEPgB8hzLLLStUv9J_wI5Qcr_" style=3D"=
+color: #1a1a1a; text-decoration: none;">Let's Buy the US Constitution</a></=
+h1><h3 class=3D"subtitle" style=3D"-moz-osx-font-smoothing: antialiased; -w=
+ebkit-font-smoothing: antialiased; color: #767676; font-family: 'SF Compact=
+ Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica=
+, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbo=
+l'; font-size: 19px; font-weight: normal; line-height: 1.16em; margin: 4px =
+0 0;">ConstitutionDAO, web3, and America</h3><table cellpadding=3D"0" cells=
+pacing=3D"0" class=3D"post-meta   custom" style=3D"margin: 1em 0;"><tr><td =
+title=3D"2021-11-15T13:53:50.352Z" class=3D"post-meta-item post-date" style=
+=3D"color: #767676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe =
+UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI E=
+moji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 400; height: 14px; =
+line-height: 14px; padding: 0px 12px 0px 0; padding-bottom: 0; padding-top:=
+ 0; position: relative; text-decoration: none; vertical-align: middle; whit=
+e-space: nowrap;"><time dateTime=3D"2021-11-15T13:53:50.352Z">Nov 15</time>=
+</td><td class=3D"post-meta-item icon" style=3D"color: #767676; font-family=
+: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, =
+sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-=
+size: 14px; font-weight: 400; height: 14px; line-height: 14px; padding: 0px=
+ 12px 0px 0; padding-bottom: 0; padding-top: 0; position: relative; text-de=
+coration: none; text-indent: 3px; vertical-align: middle; white-space: nowr=
+ap;"><span><a href=3D"https://email.mg2.substack.com/c/eJxFUtuSojAQ_Rp5G4qE=
+gOSBB2tmncJZdLZmXNd5oSBpNQIJBUHEr99G95JKdVe6c_p2WuQWjqYd48Z01plEZscGYg1DV4G=
+10Dp9B22mZExCGvkB446MmSRREDmqyw4tQJ2rKrZtD07TF5USuVVG3xGeRwPnFIuCiYJ7MmRQCD=
+oXhTwcgoiEkSAs4lHxyJv3UoEWEMMF2tFocKr4ZG3TzfzFjC7xDsPgamML0yp9dIVBU94olBeCY=
+gqC6l7OUwu5mMqY-UtrSkD9AuOKCPpz_EWrMjmb6_qcsPS29TYfgxKv_CaXvPl6TsL1SxpsPo9B=
+-rnoEr2q9ru1l-94jxjFGlomalD5buk9YqQU_3qIuX5_XjXCT9VGrQa5Syzih_S8VWi_4Xuyj1-=
+75Vm-VpdCrbh73X7s-b5bn779KFn1dnvTNggu7--NefpYEGoWw5BeLXBVdTMa9rbOOtO3ArCXri=
+86m4vyj70Gqfp66nFq3lEx9SjBExA_8Bl1qYsEhOARJgFoFBRzd27saGRznjGvPlL3b0Ccau208=
+b8po7s85TVUdwfym6Gue63smIHOiwrkg3r72KB7AdkRNLS4WTLLLe6NH_KIMZ_MSfSgGneD-ZxH=
+nHgOZpYGUfp_0t_XiOFD" class=3D"like-button" style=3D"color: #767676; displa=
+y: block; position: relative; text-decoration: none;"><img src=3D"https://c=
+dn.substack.com/image/fetch/w_28,c_scale,f_png,q_auto:good,fl_progressive:s=
+teep/https%3A%2F%2Fsubstack.com%2Ficon%2FHeartIconRounded%3Fv%3D3%26height%=
+3D28%26fill%3D%2523757575%26stroke%3D%2523757575%26strokeWidth%3D2" width=
+=3D"14" height=3D"14" style=3D"border: none !important; float: left; height=
+: 14px; max-width: 14px; vertical-align: middle; width: auto;" alt=3D""></a=
+></span></td><td class=3D"post-meta-item icon" style=3D"color: #767676; fon=
+t-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,=
+ Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol=
+'; font-size: 14px; font-weight: 400; height: 14px; line-height: 14px; padd=
+ing: 0px 12px 0px 0; padding-bottom: 0; padding-top: 0; position: relative;=
+ text-decoration: none; text-indent: 3px; vertical-align: middle; white-spa=
+ce: nowrap;"><a href=3D"https://email.mg2.substack.com/c/eJxFUst2mzAQ_RqzMw=
+c9wLBgkdp1Sk4gaf1Ks-GANLaFQaIgheCvr7D70JG0mNHcuZp7WaHhpLoxblWvnenK9dhCLGHoa=
+9AaOsf00OWCxyjAIfFp5PCYchT6oSP6_NgBNIWoY90ZcFpT1oIVWih5q_A87DvnmPqMQIC4dyxL=
+xAhDNMAIWERwdESLBbr3LQwXIBnE8AHdqCQ4dXzWuu1n5GGG13YPw-BKpUvVCXlymbKh1h7Ls5-=
+XZpzrM8xNP2dK9lpoM9GwaaaaBqS2MGutLiBnZAXjE2J4P77h-pJU6jOrEpped97LZhDsMbrydd=
+S-L5MgW6X-y_bkp9uHPmnqM7exdPvzmlUXmq2-X1P7vnjLrhZDsG978bz9OqSrBCXC4pC9uMUnv=
+CUa3w_rij_WH6V4itxf6x9fNsvXcIdIdTzs8oz4G15VJkoZXvrPj6-4S8cBHc6XYYYDo5u8V6Zj=
+YLn3pux1wS5_4g1wYZrpT5MMjoixh5FdPiI-odjFLmVlAB6iHACHfrlwF0qPirfVjHrNCbt_Ae1=
+AG6eL_w3Ypi_nooH6lrDS5tMkjRR6zEEWZQ38rrq-m-dGID-BhM6aiueFtpYhQRRSStAChXeVrS=
+0oiaIwQp5jO3Nlq-T_pr8BTQbfOQ" style=3D"color: #767676; display: block; text=
+-decoration: none;"><img src=3D"https://cdn.substack.com/image/fetch/w_28,c=
+_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2F=
+icon%2FCommentIconRounded%3Fv%3D3%26height%3D28%26fill%3D%2523757575%26stro=
+ke%3D%2523757575%26strokeWidth%3D2" width=3D"14" height=3D"14" style=3D"bor=
+der: none !important; float: left; height: 14px; max-width: 14px; vertical-=
+align: middle; width: auto;" alt=3D"Comment" class=3D"comment-icon"></a></t=
+d><td class=3D"post-meta-item icon" style=3D"color: #767676; font-family: -=
+apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, san=
+s-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-siz=
+e: 14px; font-weight: 400; height: 14px; line-height: 14px; margin-right: 0=
+; padding: 0px 12px 0px 0; padding-bottom: 0; padding-right: 0; padding-top=
+: 0; position: relative; text-decoration: none; text-indent: 3px; vertical-=
+align: middle; white-space: nowrap;"><span><a href=3D"https://email.mg2.sub=
+stack.com/c/eJxFUl2TmyAU_TXxLY4g-PHgwzZptu6s2W3ztd0XB-EmYlSswlrz60uSdssAMxz=
+uPfdyOJxpOKl-Sjo1aOe65XrqIGlhHGrQGnrHDNDnUiQowJFPSeyIhAgU0ciRQ37sARom60T3Bp=
+zOFLXkTEvV3jI8D1OnTDyKYhQRj1ESxizkAhfHMGBHQiOEIy7udZkREloOCXxAP6kWnDopte6Gm=
+f8wwys7x3F0W6UL1cv25HJloc4u2-cwL8w01yXMzTDnqh201ObaxsxfGd3kgzI9h5m_HEwxaMbP=
+Mxxc8QaENI3Fb4_4C9p8Da2-RpesB4syfuf6BLQ6w_UM0xPieD-94fqcVur3ukpJdtl5L5tR8sf=
+4IlZx975Ig_Uyoy_bE822D0Pa1KWwWLb9eVlXZ7Jefr9kNp69rS-WQ_Jve_m8_TpmyxSl0vL4e3=
+nDr3wLNL0fVpV4rD8K-RS7v1Y_vmwWr9EO-dXxsMvXPt2IqjJxxvGCPj--4j6bRnQoz6MjE-xhZ=
+AdFPvUJdrFLeBGAh4gAwBEtQjdUelKiq2bEa07Y_SeXFbtx-uRTfHt9LlkD9e3CfrsVrWlMK_WU=
+Q8uKGsTdEfpurJu8-Qla6K3hRM60tZMfxBEhPgpRdHeAtQzx4ziKkefYykLZrPZ_0T8yhei8" s=
+tyle=3D"color: #767676; display: block; text-decoration: none;"><img src=3D=
+"https://cdn.substack.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_pro=
+gressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FRecommendIconRounded%3Fv=
+%3D2%26height%3D36%26fill%3D%2523757575%26stroke%3Dnone%26strokeWidth%3D2" =
+width=3D"18" height=3D"18" style=3D"border: none !important; float: left; h=
+eight: 18px; max-width: 550px; vertical-align: middle; width: 18px;" alt=3D=
+"Share" class=3D"recommend-icon"></a></span></td></tr></table></div></div><=
+div class=3D"post typography" style=3D"font-size: 16px; line-height: 26px; =
+padding: 9px 0;"><div class=3D"body markup" style=3D"font-size: 16px; line-=
+height: 26px; margin-bottom: 12px; word-break: break-word;"><p style=3D"col=
+or: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; margin-=
+top: 0;"><em>Welcome to the&nbsp;<strong>2,079&nbsp;newly Not Boring people=
+&nbsp;</strong>who have joined us since last Monday! Join&nbsp;<strong>86,0=
+08</strong>&nbsp;smart, curious folks by subscribing here: </em></p><div cl=
+ass=3D"subscribe-widget is-signed-up" style=3D"font-size: 16px; line-height=
+: 26px; margin: 0 0 1em;"><p class=3D"button-wrapper" style=3D"color: #1a1a=
+1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; text-align: cent=
+er;"><a href=3D"https://email.mg2.substack.com/c/eJxFUctuxCAQ-5pwaxReCTlwqL=
+Tqb0QEZrO0ASIyNMrfl31oixCHsY0tjzUIS8qn3tKO5P5MeG6gIxz7CoiQSdkhT95p2jPFpRiJ0=
+8JRJRXx-3TNAMH4VWMuQLYyr94a9Ck-FF3HJLlpZ7pBMOkkHyxX11mxkfXDqKgU15FB9_Q1xXmI=
+FjT8Qj5TBLLqG-K2N_yzYV_1HsfRxoRzyj4urU11tJd5t9nP0PDK6AuGKYDzJTT88gj2Gu6pZFt=
+Jl7fg4_BuAXzhNkWEiJUg-DiqkXbEa9YxWo-kXHLBWtYKO_fQUeEAmJLz0A4Jz-S270Z0YWHt_X=
+M09qdmCyTrd9YK_9xMgPUB1JaqXwglejwniGZewT0LxOceHsmnBSLkuh83Gazt835UQnA6UPUsr=
+Db8DludXaqq-G_6B1ljoHA" native=3D"" class=3D"button primary subscribe-btn" =
+style=3D"background-color: #67bdfc; border: none; border-radius: 4px; box-s=
+izing: border-box; color: #ffffff !important; cursor: pointer; display: inl=
+ine-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Robo=
+to, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'S=
+egoe UI Symbol'; font-size: 16px; height: auto; line-height: 20px; margin: =
+0; opacity: 1; outline: none; padding: 12px 20px; text-align: center; text-=
+decoration: none !important;"><span style=3D"color: #ffffff; text-decoratio=
+n: none;">Subscribe now</span></a></p></div><p style=3D"color: #1a1a1a; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 1em 0;">&#127911;<em>&nbsp;To =
+get this essay straight in your ears:&nbsp;listen&nbsp;on&nbsp;<strong><a h=
+ref=3D"https://email.mg2.substack.com/c/eJxFkU1PwzAMhn9Nc6zy2bWHHIAJCTGE-Lh=
+wqpLG7cLapErSQfj1hO2AZfmVbFmv9XhQCSYfslx9TOiv9CmvIB18xRlSgoC2CKG3RpKGtkzwDh=
+nJDWlFi2zsxwCwKDvLFDZA66ZnO6hkvbtsYEwFOko9Cs712FEtWhgJAB4YbzrTYcMao9TVV23Gg=
+htAwhlC9g7QLI8prbFiNxW9L-lXcHVcfbJjrge_lFY8-q8izYl8HG7Pz6-vT9nHx8y-yffDXLH7=
+aCu236-Z27vH3Yugb-TAGfmJ73hCVlJMSQlBmGCc1rTmg24AE24AaCv0rt75lL1ZPyuOl4nWcdM=
+xqeH0546CdD5pH6ybyvh0VAvMl0HB0BddNmdT7sEpPYO5EkpX0Bdm_QQOQnmA6VUqeFnTtbxcty=
+PtlUhByFnXtR3BqDgbX7bcv-kvFM6VDg" rel=3D"" style=3D"color: #1a1a1a; text-de=
+coration: underline;">Spotify</a> </strong>or&nbsp;<strong><a href=3D"https=
+://email.mg2.substack.com/c/eJxFkMtuwyAQRb8m7GrxtPGCRTf9DYvHJKGxAcG4lf--JK4=
+UhJjH1cwVx1uEW66HKbkheT4LHgVMgt-2AiJUsjeoSwyGjVwLJWcSjAxMK01iW64VYLNxNVh3IG=
+V3a_QWY06vCUq5InejBYyO8TCGCWbvBFf0qsFzP3N5pVaevnYPEZIHAz9Qj5yArOaOWNpFfF74V=
+78lB28btsGWssLg89abe3srPUsZP1yuMd16EQNTfJKczYKRaDjlrB_FhBKSD3yQ3o1AmQwAXCs3=
+DVPGI4fyfZF0u_Gh7a6h9Y-nFamm7_5fLenjbjdYX0L_9dLjtqeIxwLJuhXCCQRPri9Eyw0S1M4=
+7LBY7TTHOWkrBJqZPAJ2YFPOsZ0ZJdw65T6W36R8dhY9H" rel=3D"" style=3D"color: #1a=
+1a1a; text-decoration: underline;">Apple Podcasts</a> (shortly)</strong></e=
+m></p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"backg=
+round: #e0ecf6; border: none; height: 1px; margin: 24px 0; padding: 0;"></d=
+iv><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: =
+0 0 1em 0;"><strong>Today&#8217;s Not Boring is brought to you by&#8230; <a=
+ href=3D"https://email.mg2.substack.com/c/eJxFkdtuwyAMhp8m3C0Kh6TkgotJU18j4=
+uCmbAEiMKvy9iPttEkIi_-Xsf3ZaoQ15UPtqSA5rwWPHVSER9kAETKpBfLinaITk3wUM3FKOCpH=
+SXxZbhkgaL8pzBXIXs3mrUaf4jNjGNhI7koYOxvGrLT0IrkR2g63m3OT01wPdHSvuro6D9GCgm_=
+IR4pANnVH3EvH3zt2befxePQFbM1wyzpAb1M4DX6tGJaSarbQ8Y9dZ4yQOzadcgDna2iy3cOvZH=
+XYtV9jE88x32JCk7KP6xuldGQDo8SrM5xPykcuWM96Yc0EAxUOgMnRXPpLwiO5_bMTQ1hZX6opq=
+O3X2RXJ6u_TZn_dW7fb02iElhZDjR6PBaI2G7gXPHzt4IlzWaGN0HbjFo2NPJ9mKQSnFypfsBpd=
+wedZznQgrbJLLSv-F_0BvkugfA" rel=3D"" style=3D"color: #1a1a1a; text-decorati=
+on: underline;">Secureframe</a></strong></p><div class=3D"captioned-image-c=
+ontainer-static" style=3D"font-size: 16px; line-height: 26px; margin-bottom=
+: 16px; text-align: center;"><figure style=3D"display: inline-block; margin=
+: 0 auto; width: 100%;"><a class=3D"image-link" target=3D"_blank" href=3D"h=
+ttps://email.mg2.substack.com/c/eJxVUsuu3CAM_Zphl4jnBBZZXF2pvxHx8GToJJACubf=
+p19eTLKoiZBtb9jE-9rbBnMsxbrk28hZTOzYYE3zXBVqDQvYKZYphZHeuhZKGhFEGppUmsU6PAr=
+DauIyt7EC23S3R2xZzOjMo5Yo8R8eV98JJMUjnlGCSG2PZoIV3dNCWXbh2DxGShxG-oBw5AVnGZ=
+2tbvYmPG_-B14fU193VZv2r93lFV1ztDKgf0PzzrbFMyzf--esyxMecc8D3Y5m2kucCtcYvQH9t=
+ABtmXBBcvUHUGwaF2_0LMF46oMo5r2XnrBUd_gA6o5jubHCCOxgGo2VfRW9X-ycn-12vvrDGNYv=
+TPJusp2mE0QKo62DgtJNMs87gYDrlgqIPoaWD-8Sw6G-0-y3NJI6ccoZHMaGE5D3vpXd3oEwGAK=
+6VG_ohtyOH7edN0nXm_82IlDHl5nKJacbw62lXWM4ANjihXvcU2zFBsm6BcPHYrnU4mZ1mSFBwT=
+cJkGy6BuGN3UrCB6Ys3JFoKY7RhlCByyJiV_oH-BSRnxgo" rel=3D"" style=3D"border: n=
+one; display: block; height: auto; margin: 1.6em auto; padding: 0; text-dec=
+oration: none; width: auto;"><img src=3D"https://cdn.substack.com/image/fet=
+ch/w_550,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbuck=
+eteer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimag=
+es%2F93983e0b-e720-4181-9b43-5bd50f384be6_1984x384.png" data-attrs=3D"{&quo=
+t;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3=
+=2Eamazonaws.com/public/images/93983e0b-e=
+720-4181-9b43-5bd50f384be6_1984x384.=
+png&quot;,&quot;height&quot;:null,&quot;width&quot;:null,&quot;resizeWidth&=
+quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:nu=
+ll,&quot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" style=3D"-ms-inte=
+rpolation-mode: bicubic; border: none !important; display: block; height: a=
+uto; margin: 0 auto; margin-bottom: 0; max-width: 550px; vertical-align: mi=
+ddle; width: 100%;"></a></figure></div><p style=3D"color: #1a1a1a; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 1em 0;"><em> If you&#8217;re buildi=
+ng a startup with scale ambitions, you need to figure out security complian=
+ce, the sooner the better. When it comes to enterprise deals, every large c=
+ompany requires SOC 2 or ISO 27001. The problem is, getting compliant can t=
+ake months of time and engineering resources. It&#8217;s a pain, and puts s=
+tartups at a disadvantage. But it doesn&#8217;t have to be. </em></p><p sty=
+le=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0=
+;"><em><a href=3D"https://email.mg2.substack.com/c/eJxFkdtuwyAMhp8m3C0Kh6Tk=
+gotJU18j4uCmbAEiMKvy9iPttEkIi_-Xsf3ZaoQ15UPtqSA5rwWPHVSER9kAETKpBfLinaITk3w=
+UM3FKOCpHSXxZbhkgaL8pzBXIXs3mrUaf4jNjGNhI7koYOxvGrLT0IrkR2g63m3OT01wPdHSvur=
+o6D9GCgm_IR4pANnVH3EvH3zt2befxePQFbM1wyzpAb1M4DX6tGJaSarbQ8Y9dZ4yQOzadcgDna=
+2iy3cOvZHXYtV9jE88x32JCk7KP6xuldGQDo8SrM5xPykcuWM96Yc0EAxUOgMnRXPpLwiO5_bMT=
+Q1hZX6opqO3X2RXJ6u_TZn_dW7fb02iElhZDjR6PBaI2G7gXPHzt4IlzWaGN0HbjFo2NPJ9mKQS=
+nFypfsBpdwedZznQgrbJLLSv-F_0BvkugfA" rel=3D"" style=3D"color: #1a1a1a; text=
+-decoration: underline;">Secureframe</a> allows companies to get SOC 2 and =
+ISO 27001 compliant within weeks, rather than months. Its software monitors=
+ 40+ services, including AWS, GCP, and Azure, and continuously collects aud=
+it evidence, runs security awareness training, manages vendors, monitors in=
+frastructure, and more, all automatically. Plus, the Secureframe compliance=
+ team can answer any questions you have.</em></p><p style=3D"color: #1a1a1a=
+; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>Secureframe c=
+ustomers save an average of 50% on their audit costs and hundreds of hours =
+of their time. You&#8217;ll need to do this eventually, get ahead by schedu=
+ling a free demo now!</em><strong> </strong></p><p class=3D"button-wrapper"=
+ data-attrs=3D"{&quot;url&quot;:&quot;https://www.secureframe.com/?utm_sour=
+ce=3Dpartner&amp;utm_medium=3Dcpm&amp;utm_campaign=3Dnews-notboring-1115202=
+1&quot;,&quot;text&quot;:&quot;Schedule a Secureframe Demo&quot;,&quot;clas=
+s&quot;:null}" style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px;=
+ margin: 0 0 1em 0; text-align: center;"><a class=3D"button primary" href=
+=3D"https://email.mg2.substack.com/c/eJxFkdtuwyAMhp8m3C0Kh6TkgotJU18j4uCmbA=
+EiMKvy9iPttEkIi_-Xsf3ZaoQ15UPtqSA5rwWPHVSER9kAETKpBfLinaITk3wUM3FKOCpHSXxZb=
+hkgaL8pzBXIXs3mrUaf4jNjGNhI7koYOxvGrLT0IrkR2g63m3OT01wPdHSvuro6D9GCgm_IR4pA=
+NnVH3EvH3zt2befxePQFbM1wyzpAb1M4DX6tGJaSarbQ8Y9dZ4yQOzadcgDna2iy3cOvZHXYtV9=
+jE88x32JCk7KP6xuldGQDo8SrM5xPykcuWM96Yc0EAxUOgMnRXPpLwiO5_bMTQ1hZX6opqO3X2R=
+XJ6u_TZn_dW7fb02iElhZDjR6PBaI2G7gXPHzt4IlzWaGN0HbjFo2NPJ9mKQSnFypfsBpdwedZz=
+nQgrbJLLSv-F_0BvkugfA" rel=3D"" style=3D"background-color: #67bdfc; border:=
+ none; border-radius: 4px; box-sizing: border-box; color: #ffffff !importan=
+t; cursor: pointer; display: inline-block; font-family: -apple-system, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Co=
+lor Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; height: a=
+uto; line-height: 20px; margin: 0; opacity: 1; outline: none; padding: 12px=
+ 20px; text-align: center; text-decoration: none !important;"><span style=
+=3D"color: #ffffff; text-decoration: none;">Schedule a Secureframe Demo</sp=
+an></a></p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"=
+background: #e0ecf6; border: none; height: 1px; margin: 24px 0; padding: 0;=
+"></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 1em 0;">Hi friends &#128075;, </p><p style=3D"color: #1a1a1a; font=
+-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Happy Monday! Last week=
+ was a big week around here. </p><p style=3D"color: #1a1a1a; font-size: 16p=
+x; line-height: 26px; margin: 0 0 1em 0;">On Monday, <a href=3D"https://ema=
+il.mg2.substack.com/c/eJxFkEuOwyAQRE8TlhZfGy9YzGaugfh0HCY2WNCeyLcfEi8GIVqo1=
+F1dLziEpdTT7KUheT8Wzx1MhldbAREqORpUm6JhI9dCyZlEIyPTSpPU7L0CbC6tBusBZD_8moLD=
+VPKng1KuyMNw56KWcQJQdyo9A67EGJRwdLqHUcDl646YIAcw8Av1LBnIah6Ie7uJrxv_7hdf6b3=
+REMrWf5urqSzO1wQrkGQ45awfxYQSkg98kMGPQJmMAFwrPw1TwbPE_ecm6bbwoR2-oQvP9zxSTS=
+7oS0156fLz4TZYP0LPZHvdjpzwtJCdXyFecfGi9gFgF8hQO81oHXZWYpy1lIJNTF_xOg8p5lnPj=
+JLuHEvvyv-mfxsfhbg" rel=3D"" style=3D"color: #1a1a1a; text-decoration: unde=
+rline;">Mario</a> and I published a <a href=3D"https://email.mg2.substack.c=
+om/c/eJxFkMluxCAMhp9muE3EmoEDh176GhGLk6GTAALSKG9fOpFay4tky_7lz5kGSyqnzqk29J=
+umdmbQEY66QmtQ0F6hTMFrMlLJBFfIa-6JFBKFOs0FYDNh1a3sgPJu1-BMCym-NzCmAj317BVII=
+_E4Gs9mOws3Wk4F9rNT2Cly6ZrdB4gONHxDOVMEtOpna7ne2MeNfnY_jmOIqdlUQlwGl3or9_Ch=
+ulT8PWxmCRHu5p5X4wAFTTEl3QRhgnE60IE7OwIm3ANQKexjeKR2Jp-_bhxvCx3qbmsz7tWPb6j=
+oP7E-fj3NBut70N-cet32GNo5QTR2BX8RaBfIN5NpgQilA_aTaR0fG5XknJEHkdfHHRFnSklFMO=
+rKPvWt-C_6A4CxjEU" rel=3D"" style=3D"color: #1a1a1a; text-decoration: under=
+line;">piece on Discord</a>. That afternoon, Discord CEO Jason Citron <a hr=
+ef=3D"https://email.mg2.substack.com/c/eJxFkE2OwyAMhU9TlhG_ISxYjDTqNSIITkon=
+gQicqXL7oc1iLGRjWc8PvskhLLmcds8VyTuNeO5gE7zqCohQyFGhjDFY1vNBKGlIsDKwQQ0k1nE=
+uAJuLq8VyANkPv8bJYczpo6CUK_KwTHrwfS-0GYwOQmvjZgh8nmc_Ud6zy9cdIUKawMIvlDMnIK=
+t9IO71Jr5u_N4OvuL7Rd2Ut9Y9Xc1pilhyal1Fh0dtFyaVHiTjnBujeiOUpjdxb0u-OSXRcspZC=
+8WEEpJ3vJOT74EyGQD4oLzudMYzh_15k3RbeFcP33ZPP29XUmzK6HOJaWnjn4fbYP0M2s_HVrcj=
+RTxHSM6vEC4oeLH9YBoXSFAa8zA6bERFbwYpBdNsuCA0alKYxolR0pxDbqr0b_oH7pqO0A" rel=
+=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">replied to my t=
+weet</a> with a preview of Discord&#8217;s first web3 integration. The repl=
+ies were <em><strong>fierce</strong></em> &#8212; I was getting 15 new noti=
+fications per second &#8212; and Citron <a href=3D"https://email.mg2.substa=
+ck.com/c/eJxFkE2OwyAMhU8TlhH_gQWLkUa9RkSCm9JJIAJnqtx-aLMYC9lY1vODb_YISy6n23=
+NF8k4jnju4BK-6AiIUclQoYwyOaW6EkpYEJwMzypBYx3sB2HxcHZYDyH5Ma5w9xpw-Ckq5Ig9Hv=
+eaKGRO0lNL4ARhXetbUijsFdbeXrz9ChDSDg18oZ05AVvdA3Gsnvjp-awdf8f2ifs5b656-5jRH=
+LDm1rqLHo7YLk8poOihF9TBIqrS1nbi1Jd-ckug45ayFYkIJyXvey3nSQJkMANyoaeiHjGcO-7O=
+TdFt4X4-p7Z5_3q6kuJRxyiWmpY1_Hn6D9TNoPx9b3Y4U8Rwh-WmFcEHBi-0H07hAgtKYh9FjIy=
+q0NVIKNjBzQWjUpLDWWEZJcw65qdK_6R_AG43c" rel=3D"" style=3D"color: #1a1a1a; t=
+ext-decoration: underline;">pulled back</a>.</p><p style=3D"color: #1a1a1a;=
+ font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">While that was hap=
+pening, I made my <a href=3D"https://email.mg2.substack.com/c/eJxFUc3OpCAQf=
+JrhhgFERw8cvsu-huGnV9lBMPyM69tvz3hYQroDleqCKqsrrClf6kilkk9Z6nWAinCWALVCJq1A=
+XrxTfBRTP8iZOCUdn4aJ-LL8zgC79kHV3IAczQRvdfUpfhmMiYFsCrQDOzCp7QBMj8IIIaSVvQD=
+G5ucobl3dnIdoQcEb8pUikKC2Wo_y6H8e4hfu8zw7G43tbNrx-PYOEnbBBMfGP4VNWMqWWnD0So=
+0aCB7n0boBzf7tdaQb_o-aDPrl40pdOuMXjW03kAsyNh_dfQV_KzV-pfCm_kjdVvdAvPro4Rp4P=
+_RSdKKT1ozAuHQAYhrMs3umeiV3_HlItq-iK82Uqu3r826SVUzVpIziCL82vUP4Amjegn1v0ddr=
+gahNAHf7Wu94vk4vK0TIGJtbdMVQ-nGepOz5k0-3j2i87Od5mjkjqOwSsuJ_0X9iiqjn" rel=
+=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">first CNBC appe=
+arance</a> to discuss Rivian&#8217;s IPO (the company closed the week at a =
+market cap so steep, $110 billion, you&#8217;d need a Rivian to climb it). =
+</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin:=
+ 0 0 1em 0;">That night, <em>The Economist </em>published a <a href=3D"http=
+s://email.mg2.substack.com/c/eJxFUcGupCAQ_JrhhhGEEQ8c3mV_wyC0IztKG2jX9e8XZw=
+5LSHVSna7qVHtH8MJ82R0LsRtGunawCc6yAhFkdhTIYwxWPKXptBpYsCoIow2LZZwzwObiaikfw=
+PZjWqN3FDF9JtpWarZY6EEpPWnlhNPtDK3wYIbZqEn1Ylbd19cdIULyYOEP5AsTsNUuRHt5dD8P=
+-av-8zwb8Jhwi4Uaj1vlaAF-Yl4Ddwu4UBnZSlGLuKE1FfySY-Eh_sXEXQp8d_598c17zFv0b17=
+pW2U-6MjAceY-Xzshi_aWqk-LTndKNrJRfnrW9VUAkEZPfdMjXRj23w_Vbi_ZlGMqVOXv5Vi2CW=
+nCHNOrtt-L22D9NGpMY63bkSJdIyQ3rRC-CdL3EJ9MxxckyPVAYXRU4--eg1GqE70w38RqxKobB=
+jOIllXngHUq_Tf9ByO6oRo" rel=3D"" style=3D"color: #1a1a1a; text-decoration: =
+underline;">piece that Chris Dixon and I wrote on web3</a>, and on Wednesda=
+y, I <a href=3D"https://email.mg2.substack.com/c/eJxFkMtuxCAMRb8mLCOeCVmwqF=
+TNrt8Q8fBk6CQQgdMqf19msiiywJZ1ffHxFmHJ5TR7rkhe14znDibBb10BEQo5KpQ5BsMGroWSE=
+wlGBqaVJrHO9wKw2bgaLAeQ_XBr9BZjTm8FpVyRh3FKc0a9BkvFKIIM8s6sc_cwejbYwC5fe4QI=
+yYOBHyhnTkBW80Dcayc-On5rgb_x9aPe561Vu_XP86slFS0etSVMKi0V0yMd5KQFk3zoxK3pPzk=
+l0XDKWTuKCSUk73kvvRuAMhkAuFZu7MeMZw77dyfptvC-Hq7N9s-XISkmZXS5xLS09vNhN1jfjb=
+b03N7tSBHPGZJ1K4SLB15Y34TmBRKUhjvMFhtMMUxaSsFGpq_9GzAppklPjJLmHHJTpX_TP8pWj=
+MA" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">announce=
+d</a> that I&#8217;m joining <a href=3D"https://email.mg2.substack.com/c/eJ=
+xFUMuOgzAM_JrmiMgLwiGHvfQ3UBIbmi0kKJjt8veblsNali1rZI9ngiOcczntlndi7zLSuaFN-=
+NoXJMLCjh3LGMHyThip1cDAKuBGGxb3cSqIq4uLpXIg2w6_xOAo5vTZaFuh2cNOkwaHYYKu9WLg=
+QmgIk-cTB2kU9NPF6w6ImAJa_MFy5oRssQ-ibb_Jr5u416RXfH_UhLzWKUD8zYlFK1rBa2gutVS=
+iEY0KvsOWK0AURvu-6TOdGbbvm2rXWTT74Xdy4fk-xIpNmXwuMc0Vfj7cissHqGLG2tcjRTpHTM=
+4vCJdOuuz6KB9nTFiqjTA6qibJbjBKSd5zc-mqRig5DGbgLavMkOtW-if9A8I2g4A" rel=3D""=
+ style=3D"color: #1a1a1a; text-decoration: underline;">Chris</a> and team a=
+s an advisor to <a href=3D"https://email.mg2.substack.com/c/eJxFUMtuxCAM_Jr=
+lGPFM4MChl_4G4uHN0k0gIk6r9OvLbg61LHukkT2aiR5hru20W92RvIbDcwNb4GdfABEaOXZoLi=
+fLRq6FkoYkKxPTSpO8u3sDWH1eLLYDyHaEJUePuZb3BaVckYc1fLwHCFExqYygwfCg9ZQo13dGl=
+WGXrj9ShhLBwje0sxYgi30gbvtNfNz4Z2_Pxt8h1rXD2M4NawckW04566WYUELygQ8yhhEokwmA=
+axWmYap41rR93SRdZz7sR9jRx-frF2m2VAy15TJ3-vnwKyxvoptxfa9HyXg6KD4skC6feMX1du5=
+mKNB6jMl57CGJ0WgpBZuYvnz1IKQwRhtGSVdOtV-Vf9E_VgGA8A" rel=3D"" style=3D"colo=
+r: #1a1a1a; text-decoration: underline;">a16z Crytpo</a>.  Nothing changes =
+here at Not Boring &#8212; I&#8217;ll still be in your inbox once or twice =
+every week, and Not Boring Capital is full steam ahead &#8212; but I&#8217;=
+m excited to learn from the world-class team at a16z and work with them to =
+bring web3 knowledge to a wider audience. </p><p style=3D"color: #1a1a1a; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Finally, on Thursday=
+ night, I crossed 100k Twitter followers, which is a meaningless accomplish=
+ment that still felt good. It means a lot to me that so many of you are wil=
+ling to give me some of your valuable time. </p><p style=3D"color: #1a1a1a;=
+ font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">There&#8217;s a go=
+od chance it&#8217;s all downhill from here, but let&#8217;s try for an enc=
+ore. </p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 1em 0;">First, the first Not Boring Syndicate investment, <a href=
+=3D"https://email.mg2.substack.com/c/eJxFUMuOwyAM_JpyjHim5MBhL_sbiIebsk0gAm=
+ej_P3S5rCWZUse26OZ4BDmUk-zlYbkXSyeG5gMR1sAESrZG1SbomEj10LJiUQjI9NKk9TsowKsL=
+i0G6w5k2_2SgsNU8ueCUq7I06jgRhe40krCg4oH8z6OHZwE-ACCXrxujwlyAAO_UM-SgSzmibi1=
+m_i68e-ex3EMoax9G-qA1UXoQ5IMp5z1UEwoIfnABxn8CJTJCMC18vfhXvAscfu5SbrOfGi7b-j=
+C6_2NVJML-lJTnjv8eroVlg_Q1dje1z0nPC1k5xeIl1C8_PpItzNkqN3HaB12l8Q4aSkFuzN9Ce=
+tOSDFNemKUdOZY-lX-J_0DfgaDEQ" rel=3D"" style=3D"color: #1a1a1a; text-decora=
+tion: underline;">Composer</a>, <a href=3D"https://email.mg2.substack.com/c=
+/eJxFkM1uhSAQhZ_msquRX3HBopu-hkGYq7QKBoYa377c66KEMMDkzMn5nEVYUr7MkQqS1zHhdY=
+CJcJYNECGTWiBPwRuqmOZSjMQb4amWmoQyPTPAbsNmMFcgR5234CyGFN-KvmeSrEbR2TotneJP5=
+5lTTwvUaa8GD15yKm9fW32A6MDAL-QrRSCbWRGP8uCfD_bV9nme3ZGTrw7XGrFzaW-_L3Fptb3a=
+FfKHIMGwntG2JOWSC9axTrhZQU-FB2BazkM3JLySP74fot8X1pU6F7Tu5zWUZBMTzimHuLT2z2p=
+32N6NFnBqda8x4DVBtPMG_s6ON8I3jWmBCLmh9ZPFBo6rUQvB6UD1nbXBEXwc9Uh70px9aqr4b_=
+oHp0KKrA" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">la=
+unches</a> today &#128640; Learn how to get your alpha back at the bottom o=
+f the email. </p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0 0 1em 0;">And one more thing&#8230; </p><p style=3D"color: =
+#1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><strong>Le=
+t&#8217;s buy the US Constitution</strong> <strong>together. </strong></p><=
+div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background: =
+#e0ecf6; border: none; height: 1px; margin: 24px 0; padding: 0;"></div><h1 =
+style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: anti=
+aliased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, =
+BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Appl=
+e Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 2em; font-w=
+eight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;">Let&#8217;s Buy=
+ the US Constitution</h1><div class=3D"captioned-image-container-static" st=
+yle=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-align:=
+ center;"><figure style=3D"display: inline-block; margin: 0 auto; width: 10=
+0%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 =
+1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left=
+" class=3D"content" width=3D"550" style=3D"text-align: center;"><a class=3D=
+"image-link" target=3D"_blank" href=3D"https://email.mg2.substack.com/c/eJx=
+VUsmO3CAQ_ZrmZovVy8GH0Uj5DYulcJO2wQE8E-frU20foiBU9aBU9WqzusKS8jntqVTyFnM9d5=
+gifJcVaoVMjgJ5Dm5iHR-EkiNxk3RsUAMJZfYZYNNhnWo-gOyHWYPVNaR4eVDKFXlO1hnLqDVeA=
+WVOOcm0F2y0vvMKgbp59eECRAsTfEE-UwSyTs9a9_IQHw_-A691sS2HKVXbV2vThl9h0wug9lDt=
+860xTE0P_vnrBuJjScnh26_zntOSoZTwBfhfKsCOHjcFV28S9aZBYQ77ArTnBqgyxg6yMVqLRoo=
+emlGxodHOCG6g78dBtkW0etN_UtTf5c4LY9y9uOCVZLmgY1hvhwGsG20jPbeNZk42ne9spzl4wf=
+nMOKW_O0rbPS4kTJxyhkcxoYTkLW-lNR12UjoAPijTt32qZ3L7z4ek28L_6xHJU0zVpBzigubXU=
+2-wXgZMcEa9HTHUc4aozQrunmO91-Ga7LxAhIxr4mZdcQlEhyVLwXo23HPDQUsxjsPIKEFml9Ar=
+_iP9C9ZAx70" rel=3D"" style=3D"border: none; display: block; height: auto; =
+margin: 0; padding: 0; text-decoration: none; width: auto;"><img data-attrs=
+=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32b=
+e77984.s3.amazonaws.com/public/images/d1315618-cd9c-4f2c-a1d4-6f6c6a2ef322_=
+1200x600.png&quot;,&quot;height&quot;:600,&quot;width&quot;:1200,&quot;resi=
+zeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&=
+quot;:null,&quot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" width=3D"=
+550" class=3D"wide-image" src=3D"https://cdn.substack.com/image/fetch/w_240=
+0,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e=
+05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1=
+315618-cd9c-4f2c-a1d4-6f6c6a2ef322_1200x600.png" style=3D"-ms-interpolation=
+-mode: bicubic; border: none !important; display: block; height: auto; marg=
+in: 0 auto; margin-bottom: 0; max-width: 550px; vertical-align: middle; wid=
+th: 100%;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></t=
+able></figure></div><p style=3D"color: #1a1a1a; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 1em 0;">Yesterday morning, I was in the middle of writ=
+ing a typical Not Boring Monday essay. This one, which I may still write, w=
+as about the idea that while people are waiting for &#8220;real use cases&#=
+8221; for web3, a set of <em>new </em>web3-native use cases is emerging tha=
+t might be more important than the &#8220;real&#8221; ones.</p><p style=3D"=
+color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">I p=
+lanned to write about the Olympus DAO forks, the ENS airdrop, NFT fractiona=
+lization, appraisal, and lending, and this wild adventure that began on Thu=
+rsday: <a href=3D"https://email.mg2.substack.com/c/eJxFUMtuhDAM_JrNEeUJySGH=
+XvobKA-XTQsJSkwRf9_scqhl2bJG49FMcAhLqZfdS0PyGjNeO9gMZ1sBESo5GtQ5RctGroWShkQ=
+rI9NKk9TmrwqwubRarAeQ_fBrCg5TyW8GpVyRp3WjV06yIOPEGZ-E8BOVgfsIzgDV5tZ1R0yQA1=
+j4hXqVDGS1T8S9PcTHg3_2Ps9zCCU3THi8NKIr_d46QpLllLNeigklJB_4IIMfgTIZAbhWfhqmg=
+leJ-_dD0m3hQzt8Qxd-Xi9ItbmgLzXlpcM_T7fB-ga6pbnv7cgJrxmy8yvE2y3eob39zwtkqD3M=
+ODvsUYnRaCkFm5i-3fU4pDBGG0ZJV46ls_K_6B8cCITn" rel=3D"" style=3D"color: #1a1=
+a1a; text-decoration: underline;">ConstitutionDAO</a>.</p><p style=3D"color=
+: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Constitu=
+tionDAO is what it sounds like: a <strong>DAO organized to purchase a copy =
+of the United States Constitution</strong> when it goes up for <a href=3D"h=
+ttps://email.mg2.substack.com/c/eJxFUMuOwyAM_JpyjHim5MBhL_sbiIebsk0gAmej_P3=
+S5rCWZUse26OZ4BDmUk-zlYbkXSyeG5gMR1sAESrZG1SbomEj10LJiUQjI9NKk9TsowKsLi0G6w=
+5k2_2SgsNU8ueCUq7I06jgRhe40krCg4oH8z6OHZwE-ACCXrxujwlyAAO_UM-SgSzmibi1m_i68=
+e-ex3EMoax9G-qA1UXoQ5IMp5z1UEwoIfnABxn8CJTJCMC18vfhXvAscfu5SbrOfGi7b-jC6_2N=
+VJML-lJTnjv8eroVlg_Q1dje1z0nPC1k5xeIl1C8_PpItzNkqN3HaB12l8Q4aSkFuzN9CetOSDF=
+NemKUdOZY-lX-J_0DfgaDEQ" rel=3D"" style=3D"color: #1a1a1a; text-decoration:=
+ underline;">auction at Sotheby&#8217;s</a> this Thursday at 6:30pm ET.&nbs=
+p;&nbsp;&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0 0 1em 0;">I first heard about ConstitutionDAO on Thursday,=
+ when Graham Novak, Austin Cain, and Julian Weisser told me about the plan =
+and I joined the Discord. It was a blast, but I was too busy writing to get=
+ more involved. Yesterday morning, when <a href=3D"https://email.mg2.substa=
+ck.com/c/eJxFUMuOwyAM_JpyjHglIQcOe-lvIB5uypZABM5W-ful7UprWbaskT2e8RZhLfXUe2=
+lIXsXguYPO8GwJEKGSo0E1MWg2cSVGuZCgZWBqVCQ2c6sAm41JYz2A7IdL0VuMJb83KOUjuWvJq=
+ALmb447d6NhZnICO7GR-9lTNakPrz1ChOxBww_Us2QgSd8R93YRXxd-7YnP-Ppo8GXrU37GlKLd=
+GhWURM0pZz1GJkYh-cAH6d0ElMkAwNXo5mEueJawf18k3VY-tMM1tP7xOkeqzgVdqTGvHX7c7Qb=
+pDXRJpvftyBFPA9m6BOGjFj-mvfWbFTLUbmYwFrtVYlqUlILN7E9dt0OKZVELo6Qzh9K38j_pL7=
+ahhGU" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Nicol=
+e Ruiz</a> reached out and asked if I wanted to help out the contributors, =
+my first thought was, &#8220;I&#8217;d love to, but I&#8217;m busy writing =
+tomorrow&#8217;s newsletter.&#8221;&nbsp;</p><p style=3D"color: #1a1a1a; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 1em 0;">But like three second=
+s later, my second thought was, &#8220;<strong>You&#8217;re not turning dow=
+n the opportunity to contribute to a history-making DAO so you can </strong=
+><em><strong>write </strong></em><strong>about DAOs, right?&#8221;</strong>=
+</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin:=
+ 0 0 1em 0;">Who was I kidding? As Nic Cage said in <em>National Treasure 2=
+: Book of Secrets,</em> &#8220;Those who have the ability to take action ha=
+ve the responsibility to take action.&#8221; My mind was made up. In the wo=
+rds of <em>Con Air </em>Nic Cage, &#8220;Well, Baby-O, it's not exactly mai=
+-thais and yahtzee out here but... let's do it!&#8221;</p><p style=3D"color=
+: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">I scrapp=
+ed the essay I was writing. Instead, I decided to spend the next 24 hours p=
+articipating in and writing about <a href=3D"https://email.mg2.substack.com=
+/c/eJxFkEtuxCAQRE8zLC1-NnjBYpQo2xzB4tPxkNhgQTsj3z54vAhCtFCpu7qetwhzLofZckVy=
+PhMeG5gEz7oAIhSyVyhTDIYNXItejiQYGZjuNYl1-ioAq42LwbID2Xa3RG8x5vTqoJT35GFABSH=
+Y2IO2zKrRKwcatA-DU44CVZev3UOE5MHAL5QjJyCLeSBu9SbuN_7RLj7juVHn89p-bzlVjLifbu=
+_3TxINp5y10zPRC8k73knvBqBMBgCue6c6lfHIYfu-SbrOvKu7q2j9zzmRFJMyulximpv887ArL=
+C-hpZpaXfcU8ZggWbdAuALjxe2FYJohQWk8w2Sx0RLDqKUUTDF9BWxEpBhHPTJKmnPIrSv9m_4B=
+KFeGYQ" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Cons=
+titutionDAO</a>.&nbsp;</p><div class=3D"captioned-image-container-static" s=
+tyle=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-align=
+: center;"><figure style=3D"display: inline-block; margin: 0 auto; width: 1=
+00%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0=
+ 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"lef=
+t" class=3D"content" width=3D"550" style=3D"text-align: center;"><a class=
+=3D"image-link" target=3D"_blank" href=3D"https://email.mg2.substack.com/c/=
+eJxVUsuu3CAM_Zphl4hnIAsWV1fqb0Q8nAydBFIg9zb9-jLJoipCtrFlH-NjZyosKZ96T6Wit5j=
+quYOO8F1WqBUyOgrkKXhNBqqY4CPymnuihEKhTHMG2ExYdc0HoP2wa3CmhhSvDIypQE-tGFGjsF=
+wM1FoxOy8EYDt6wfBgANiNaw4fIDrQ8AX5TBHQqp-17uXBPh70R7vOx74ctlTjXr1LW3OFzSzQ9=
+AzVPd-6lanpQT9_3Qb7WFLy7T2v057TkqGU8AXNXyrA3jJuCCreIOIN04Q93AtaPHeAhbVO8c4a=
+wzrOJHSjIKoz3jJqQcpR8b6w3mzmT4rmu9x9tRr3LC7zarJc5owx43wYOsn90HECc6c4kE4KQQh=
+Qb6iRk1T4t8Cq3-OCgqaYknYEYYJx2tOeOzsAJtwDUCWs7GWqZ_L7zwfH20L_GxHKOqZqUw5xae=
+HX02ywXoHW39T0dsRQzwmisSv4m8Z6b8NF7LRAhNy2xE-mth1gQ_sxZ0QSddPWeOZsHNVIMGrIP=
+rWs-A_0LzkYxjc" rel=3D"" style=3D"border: none; display: block; height: aut=
+o; margin: 0; padding: 0; text-decoration: none; width: auto;"><img data-at=
+trs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb=
+32be77984.s3.amazonaws.com/public/images/f0034466-74d6-41ef-84e1-75511e2da2=
+a7_780x508.png&quot;,&quot;height&quot;:508,&quot;width&quot;:780,&quot;res=
+izeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title=
+&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" width=3D=
+"550" class=3D"wide-image" src=3D"https://cdn.substack.com/image/fetch/w_15=
+60,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-=
+e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff=
+0034466-74d6-41ef-84e1-75511e2da2a7_780x508.png" style=3D"-ms-interpolation=
+-mode: bicubic; border: none !important; display: block; height: auto; marg=
+in: 0 auto; margin-bottom: 0; max-width: 550px; vertical-align: middle; wid=
+th: 100%;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></t=
+able><figcaption class=3D"image-caption" style=3D"color: #767676; font-fami=
+ly: sans-serif; font-size: 14px; font-weight: 300; line-height: 1.4em; text=
+-align: center;"><em><a href=3D"https://email.mg2.substack.com/c/eJxFkM2OhC=
+AMx59mOBo-FQ8cNtnMaxiQ6rCjYLDuxLffznhYQiht0_7b3-gR5lJPt5Ud2fsZ8NzAZXjtCyBCZ=
+ccOdUjRiVZaZXTPotNRWGNZ2oepAqw-LQ7rAWw7wpJGj6nkTwXn0rCH68U0QZDWtMq2k7CgO9NJ=
+OwVrAw8TXLr-iAnyCA5-oZ4lA1vcA3Hbb-rrJu908ZXeEzVjWcmDHFOeKfTwSyJ_R4_HTh-hTS-=
+sbgU31mpljexv6k5tviVnyUkuBR0jlFFaNrLRY2iBCx0BaMbQNV3Bs8Tt56b5OstmPwL1Hp9vXV=
+ZdLhhKJWlKPx9-heWToN0HsuuRE54DZB8WiBcWvOh-QA0zZKhEPQ4eialqe6u1Ep2wFwbiplXf2=
+15wRsqxUFX-F_0D90aPaQ" rel=3D"">@endingwithali</a></em></figcaption></figur=
+e></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 1em 0;">As corny as this paragraph sounds, I couldn&#8217;t be hap=
+pier with that decision. It&#8217;s 9:18pm ET on Sunday as I type this. The=
+ team just opened up contributions. I just committed my biggest ETH purchas=
+e to date. Twitter is buzzing. The Discord is buzzing. There&#8217;s a sens=
+e of non-partisan American patriotism I haven&#8217;t felt in a long time, =
+and a feeling of pride that web3 is making this possible.</p><p style=3D"co=
+lor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">It&#8=
+217;s fucking cool to see a group of strangers on the internet get so excit=
+ed to make history together. As contributions opened last night, messages l=
+ike this kept popping up on the <a href=3D"https://email.mg2.substack.com/c=
+/eJxFkE2OwyAMhU9TllH4S2DBYja9RkTATWkTiMDMTG4_NFkMMrbkJ-vpfc4iLCkfZk8FyadNeO=
+xgIvyUFRAhk1ogT8EbOjDFpdDEG-GpkoqEMj0ywGbDajBXIHud1-AshhTPi75nkjyNlsKC59oBY=
+5qNw2iVtOyhtJQDfUhx-drqA0QHBr4hHykCWc0TcS83_nVj91avGhzM6bfbmnqcO9763r5LsWDA=
+-rH2NpFgWM9oe5JyyQXrWCfcPEBPhQdgSs5jNyY8kt9fN9FvC-tKnQta9-5c2kg2MeGccohLk99=
+Pu8F6Ci3i1OZWY8BjgmjnFfyVHi-IJ49pgQi5wfWTxYaOD1oJwelI1ZW24RFca6VpT5qzT-0q_p=
+v-AaikiWA" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">c=
+ontribution page</a> (they&#8217;re still going):</p><div class=3D"captione=
+d-image-container-static" style=3D"font-size: 16px; line-height: 26px; marg=
+in-bottom: 16px; text-align: center;"><figure style=3D"display: inline-bloc=
+k; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"10=
+0%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px a=
+uto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: cen=
+ter;"></td><td align=3D"left" class=3D"content" width=3D"509" style=3D"text=
+-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://=
+email.mg2.substack.com/c/eJxVUs2O3CAMfprJLRG_CRxyWK3U14gMOBk6CaRAdps-fZnkUB=
+Uh29iyP-PPFgouMZ3jHnNp3mIq545jwO-8YimYmiNjmrwbac8Ul0I3bhSOKqkan6c5IW7g17GkA=
+5v9MKu3UHwMVwYhTDbPEa3hdq6iV4IJ0uu-B40gJJ3dzHp748LhPAaLI35hOmPAZh2fpez5wT8e=
+7Ee91oUuHyYXsK_Oxq26_AYLVj1jsc-3rmVKfLDPX7fBP5YYXX3P67SnuCTM2X9h9eeCuNeMG4L=
+JN4h8w1RhDvvCGk8tEmmMVaI1ALwVfMBWS6pacIYzg8Oglegy72CDPzHAd777qjXuWVzm1WS-TK=
+qAAxlMC0RDK1BCC7MkrWa91MJyQ7WaJNG_e067PSyNHxlhtB5JueSCdawT1vRIqHCITEkzdEMsZ=
+3T7z4cg28L-G1GTxhCLicmHpYZfT9hwvQK1v6nq7Qi-nBMGMCu6m8Zyb8NF7LRgwFS3xE1Q6g7w=
+vv5YcDpQddNWeRZca6UpaSqyizUr_AP9C1UixvE" rel=3D"" style=3D"border: none; di=
+splay: block; height: auto; margin: 0; padding: 0; text-decoration: none; w=
+idth: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e0=
+5bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/18a3a07b-=
+a09a-4e5a-af50-926594c3b198_509x631.png&quot;,&quot;height&quot;:631,&quot;=
+width&quot;:509,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;a=
+lt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;=
+:null}" alt=3D"" width=3D"509" class=3D"" src=3D"https://cdn.substack.com/i=
+mage/fetch/w_509,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2=
+F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpubli=
+c%2Fimages%2F18a3a07b-a09a-4e5a-af50-926594c3b198_509x631.png" style=3D"-ms=
+-interpolation-mode: bicubic; border: none !important; display: block; heig=
+ht: auto; margin: 0 auto; margin-bottom: 0; max-width: 100%; vertical-align=
+: middle; width: auto;"></a></td><td style=3D"text-align: center;"></td></t=
+r></tbody></table></figure></div><p style=3D"color: #1a1a1a; font-size: 16p=
+x; line-height: 26px; margin: 0 0 1em 0;">And this one, which came in right=
+ after I made that graphic above.</p><div class=3D"captioned-image-containe=
+r-static" style=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px;=
+ text-align: center;"><figure style=3D"display: inline-block; margin: 0 aut=
+o; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding=
+-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td a=
+lign=3D"left" class=3D"content" width=3D"516" style=3D"text-align: center;"=
+><a class=3D"image-link" target=3D"_blank" href=3D"https://email.mg2.substa=
+ck.com/c/eJxVUsuunDAM_ZphByJPkgWLqyv1N1AehkkHEpqEe0u_vh5YVI0i-ySWfSwfO1NhSf=
+kc91Rq8zZTPXcYI3yXFWqF3BwF8hT8SCRVTHDd-JF7ooRqQpnmDLCZsI41H9Dsh12DMzWkeGX0P=
+RXNc9R-Jr3kms4elNLU-aGXUiPUZiDzcPOawweIDkb4gnymCM06Pmvdy4N9POgPvM7Hrhy2VONe=
+nUsbfoXNLIB-huqeb49lanrQz183YB9LSh7f8zrtOS0ZSglfgP-lAuyYcVNQ8SYRbxo09nAvwHh=
+uoRfWOsVbawxrORug1YKo1njLqIVh0Ip3hXVmM39SNN_l7gtr3LO44NVkueBMJfdSza20IFqutG=
+2NsrQ1VipCidIS2CSI_E143-1xacJIe0rwCMIE47SjHXdWQk-4B6BK2KEbUj2T338-eL8t9L8RN=
+XmMqdqUQ1ww_HqaDdYrgP1N6LcjhnpOEI1dwd8y1nsbLmGnBSJk3BI_mYo7wFA3zhkZiLplQ505=
+01pp0jfI7BNmxX-kfwHldMY8" rel=3D"" style=3D"border: none; display: block; h=
+eight: auto; margin: 0; padding: 0; text-decoration: none; width: auto;"><i=
+mg data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437=
+e-9518-adb32be77984.s3.amazonaws.com/public/images/f264d68f-6be5-489b-a8b2-=
+ab68121896e3_516x140.png&quot;,&quot;height&quot;:140,&quot;width&quot;:516=
+,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&=
+quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null}" alt=3D"=
+" width=3D"516" class=3D"" src=3D"https://cdn.substack.com/image/fetch/w_51=
+6,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e=
+05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2=
+64d68f-6be5-489b-a8b2-ab68121896e3_516x140.png" style=3D"-ms-interpolation-=
+mode: bicubic; border: none !important; display: block; height: auto; margi=
+n: 0 auto; margin-bottom: 0; max-width: 100%; vertical-align: middle; width=
+: auto;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></tab=
+le></figure></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0 0 1em 0;">One more&#8230;&nbsp;</p><div class=3D"captioned=
+-image-container-static" style=3D"font-size: 16px; line-height: 26px; margi=
+n-bottom: 16px; text-align: center;"><figure style=3D"display: inline-block=
+; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100=
+%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px au=
+to; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: cent=
+er;"></td><td align=3D"left" class=3D"content" width=3D"530" style=3D"text-=
+align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://e=
+mail.mg2.substack.com/c/eJxVUs2O3CAMfprJLRG_CRxyWK3U14gMOBk6CaRAdps-fZnkUBU=
+h29iyP-PPFgouMZ3jHnNp3mIq545jwO-8YimYmiNjmrwbac8Ul0I3bhSOKqkan6c5IW7g17GkA5=
+v9MKu3UHwMVwYhTDbPkQAzs7QDmWdN2ECY0hyckEzUgjPAjQuH8xgsjviF6YwBm3V8lrLnB_94s=
+B_1Whe6fJhcwL46G7fq8hssWPWMxT7fupYp8cE-f90G_1hidPU9r9Oe4pIwZ_-F1Z8L4l4zbggm=
+3yDyDVOFOewLazy1SKQxVonWAPBW8AFbLalqwRnODA6DVqLLvIMN_sQA3_nuq9a4Z3GZV5P5Mjn=
+wWfTEtQND2QpCZas17VvHCeWUzWC0miQnvylV3R6Wxo-MMFqPpFxywTrWCWt6JFQ4RKakGbohlj=
+O6_edDkG1h_42oSWOIxcTkw1LDrydsuF6B2t9U9XYEX84JA5gV3U1jubfhInZaMGCqW-ImKHUHe=
+F9_LDgdqLppqzwLrrXSlDQV2cWaFf6B_gWfHcW-" rel=3D"" style=3D"border: none; di=
+splay: block; height: auto; margin: 0; padding: 0; text-decoration: none; w=
+idth: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e0=
+5bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/3a3f460d-=
+72e5-4015-9916-d301312fab98_530x118.png&quot;,&quot;height&quot;:118,&quot;=
+width&quot;:530,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;a=
+lt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;=
+:null}" alt=3D"" width=3D"530" class=3D"" src=3D"https://cdn.substack.com/i=
+mage/fetch/w_530,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2=
+F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpubli=
+c%2Fimages%2F3a3f460d-72e5-4015-9916-d301312fab98_530x118.png" style=3D"-ms=
+-interpolation-mode: bicubic; border: none !important; display: block; heig=
+ht: auto; margin: 0 auto; margin-bottom: 0; max-width: 100%; vertical-align=
+: middle; width: auto;"></a></td><td style=3D"text-align: center;"></td></t=
+r></tbody></table></figure></div><p style=3D"color: #1a1a1a; font-size: 16p=
+x; line-height: 26px; margin: 0 0 1em 0;">Sorry, last one, promise:&nbsp;</=
+p><div class=3D"captioned-image-container-static" style=3D"font-size: 16px;=
+ line-height: 26px; margin-bottom: 16px; text-align: center;"><figure style=
+=3D"display: inline-block; margin: 0 auto; width: 100%;"><table class=3D"im=
+age-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td =
+style=3D"text-align: center;"></td><td align=3D"left" class=3D"content" wid=
+th=3D"550" style=3D"text-align: center;"><a class=3D"image-link" target=3D"=
+_blank" href=3D"https://email.mg2.substack.com/c/eJxVUsuu3CAM_ZrJLhHPBBZZXF=
+2pvxHxcDJ0EkiB3Nv06-tJFlURwsbGPsbHzlRYUj7HPZXavI-pnjuMEb7LCrVCbo4CeQp-pD1TX=
+Ard-FF4qqRqQpnmDLCZsI41H9Dsh12DMzWkeEUQwmTzHBlQ69XsBZVWOE8sNwMXEqjvNZ-FvXHN=
+4QNEByN8QT5ThGYdn7Xu5cE_HuwHbudjVw5bqnGvzqUNTWEzC6CcobrnW2Kamh7s89et8I8lJY_=
+3eZ32nJYMpYQvQHupADtG3BBMvkHkGwYPe7gXoD-3QKS1TonWGsNbwQdotaSqNd5yZmEYtBJd4Z=
+3ZzJ8UzXe568Icdy8u9SqyXGoPvRWK6XbGJrTCEttq_c5se6BOUEKJnmQvfwuiuj0uTRgZYRSXp=
+FxywTrWCYePCRUegClph25I9Ux-__kQZFvYfy1q8hhTtSmHuKD79TQbrJcD65tQbkcM9ZwgGruC=
+v2ms9zRcxE4LRMg4JX4yFWeA9_hjwelA1U0b8iy41kpT0iCyTxgV_4H-BTzSxuU" rel=3D"" s=
+tyle=3D"border: none; display: block; height: auto; margin: 0; padding: 0; =
+text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&q=
+uot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com=
+/public/images/6e6b4829-fb3a-4b0b-99a3-4b6e1c410109_565x408.png&quot;,&quot=
+;height&quot;:408,&quot;width&quot;:565,&quot;resizeWidth&quot;:null,&quot;=
+bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quo=
+t;:null,&quot;href&quot;:null}" alt=3D"" width=3D"550" class=3D"wide-image"=
+ src=3D"https://cdn.substack.com/image/fetch/w_1130,c_limit,f_auto,q_auto:g=
+ood,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-ad=
+b32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F6e6b4829-fb3a-4b0b-99a3-4b6=
+e1c410109_565x408.png" style=3D"-ms-interpolation-mode: bicubic; border: no=
+ne !important; display: block; height: auto; margin: 0 auto; margin-bottom:=
+ 0; max-width: 550px; vertical-align: middle; width: 100%;"></a></td><td st=
+yle=3D"text-align: center;"></td></tr></tbody></table></figure></div><p sty=
+le=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0=
+;">I&#8217;m not crying, you&#8217;re crying.&nbsp;</p><p style=3D"color: #=
+1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Anyway, thi=
+s won&#8217;t be my most well-written piece ever. I&#8217;m writing it in r=
+eal-time. I&#8217;m distracted on Twitter and in the Discord. Whatever I wr=
+ite in here today will be stale by the end of the week. But this is by far =
+the coolest thing happening on the internet this week:&nbsp;</p><ul style=
+=3D"margin-bottom: 1em; margin-top: 1em;"><li style=3D"margin-bottom: 3.75p=
+x; margin-left: 7.5px; margin-right: 0; margin-top: 3.75px; mso-special-for=
+mat: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26p=
+x; margin: 0;">It&#8217;s the first time a copy of the US Constitution will=
+ go on sale in <strong>33 years</strong>&nbsp;</p></li><li style=3D"margin-=
+bottom: 3.75px; margin-left: 7.5px; margin-right: 0; margin-top: 3.75px; ms=
+o-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0;">It&#8217;s the <strong>only remaining privately=
+-owned copy</strong> and the proceeds are being donated to a non-profit sup=
+porting democracy education.</p></li><li style=3D"margin-bottom: 3.75px; ma=
+rgin-left: 7.5px; margin-right: 0; margin-top: 3.75px; mso-special-format: =
+bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; ma=
+rgin: 0;">The DAO has over <strong>7,900 members in its Discord</strong> se=
+rver, well over $10 million in soft commitments in two days, and $3 million=
+ in committed funding on <a href=3D"https://email.mg2.substack.com/c/eJxFkE=
+2OwyAMhU9TllH4S2DBYja9RkTATWkTiMDMTG4_NFkMMrbkJ-vpfc4iLCkfZk8FyadNeOxgIvyUF=
+RAhk1ogT8EbOjDFpdDEG-GpkoqEMj0ywGbDajBXIHud1-AshhTPi75nkjyNlsKC59oBY5qNw2iV=
+tOyhtJQDfUhx-drqA0QHBr4hHykCWc0TcS83_nVj91avGhzM6bfbmnqcO9763r5LsWDA-rH2NpF=
+gWM9oe5JyyQXrWCfcPEBPhQdgSs5jNyY8kt9fN9FvC-tKnQta9-5c2kg2MeGccohLk99Pu8F6Ci=
+3i1OZWY8BjgmjnFfyVHi-IJ49pgQi5wfWTxYaOD1oJwelI1ZW24RFca6VpT5qzT-0q_pv-Aaiki=
+WA" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Juicebox=
+</a> in &lt;12 hours.</p></li><li style=3D"margin-bottom: 3.75px; margin-le=
+ft: 7.5px; margin-right: 0; margin-top: 3.75px; mso-special-format: bullet;=
+"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0=
+;">It&#8217;s a <strong>bridge between web3 and America</strong> that shoul=
+d have existed already. </p></li><li style=3D"margin-bottom: 3.75px; margin=
+-left: 7.5px; margin-right: 0; margin-top: 3.75px; mso-special-format: bull=
+et;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin=
+: 0;"><strong>We, the People, are going to buy the Constitution</strong>.&n=
+bsp;</p></li></ul><p style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0 0 1em 0;">Plus, I&#8217;ve spilled a lot of digital ink ex=
+plaining why web3 is important and how some it it works, but ConstitutionDA=
+O is an in-progress look at how DAOs work and what&#8217;s possible with we=
+b3:&nbsp;</p><ul style=3D"margin-bottom: 1em; margin-top: 1em;"><li style=
+=3D"margin-bottom: 3.75px; margin-left: 7.5px; margin-right: 0; margin-top:=
+ 3.75px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size=
+: 16px; line-height: 26px; margin: 0;">A <a href=3D"https://email.mg2.subst=
+ack.com/c/eJxFkM1uhCAQgJ9mua3hT4UDh176GgZhqnQVDIw1vn1ZTVoCTMJk-GY-ZxGmlE-zp=
+YLkfQ14bmAiHGUBRMhkL5CH4A3ruBKt1MQb6ZlqFQll-MoAqw2LwbwD2fZxCc5iSPGqoJS3ZDae=
+SQmCMjs6ZbUUutPS9dxJ7i1o6G6u3X2A6MDAD-QzRSCLmRG38hAfD_5Z93EcTUw4phzi1LhUn7Z=
+6cIanS2mDfJGf4FJM6_kkwXDKWV0tE62QvOGNdGMHlEkPwFU79k2f8Ex--35Iuk68KftY0LpX_X=
+0l2fzRavo12xWWK1HnHGpc9xjwHCDacQF_K8Db5CVlmCC-mwI_WKz-RKeVlIL1TN0jV0fVhlaaU=
+VLJPtWq-A_9BaUPjGY" rel=3D"" style=3D"color: #1a1a1a; text-decoration: unde=
+rline;">Liquid Super Team</a> of <strong>30 core contributors</strong> from=
+ leading startups and web3 protocols joined forces&nbsp;</p></li><li style=
+=3D"margin-bottom: 3.75px; margin-left: 7.5px; margin-right: 0; margin-top:=
+ 3.75px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size=
+: 16px; line-height: 26px; margin: 0;">To set up a <strong>safe and complia=
+nt DAO</strong></p></li><li style=3D"margin-bottom: 3.75px; margin-left: 7.=
+5px; margin-right: 0; margin-top: 3.75px; mso-special-format: bullet;"><p s=
+tyle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0;">Tha=
+t let&#8217;s a<strong>nyone with an Ethereum wallet contribute to the purc=
+hase of the US Constitution</strong></p></li><li style=3D"margin-bottom: 3.=
+75px; margin-left: 7.5px; margin-right: 0; margin-top: 3.75px; mso-special-=
+format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0;">All <strong>set up in three days</strong> thanks to compo=
+sability, dedication, and vibes.&nbsp;</p></li></ul><p style=3D"color: #1a1=
+a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">And here&#8217=
+;s the best part: I&#8217;m not just writing about it, <strong>you can get =
+involved</strong>. We have until Thursday to raise enough money to <a href=
+=3D"https://email.mg2.substack.com/c/eJxFUMtuhDAM_JrNEeUJySGHXvobKA-XTQsJSk=
+wRf9_scqhl2bJG49FMcAhLqZfdS0PyGjNeO9gMZ1sBESo5GtQ5RctGroWShkQrI9NKk9Tmrwqwu=
+bRarAeQ_fBrCg5TyW8GpVyRp3WjV06yIOPEGZ-E8BOVgfsIzgDV5tZ1R0yQA1j4hXqVDGS1T8S9=
+PcTHg3_2Ps9zCCU3THi8NKIr_d46QpLllLNeigklJB_4IIMfgTIZAbhWfhqmgleJ-_dD0m3hQzt=
+8Qxd-Xi9ItbmgLzXlpcM_T7fB-ga6pbnv7cgJrxmy8yvE2y3eob39zwtkqD3MODvsUYnRaCkFm5=
+i-3fU4pDBGG0ZJV46ls_K_6B8cCITn" rel=3D"" style=3D"color: #1a1a1a; text-deco=
+ration: underline;">make a winning bid for the Constitution</a>.&nbsp;</p><=
+p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 =
+1em 0;">If you&#8217;re already deep down the web3 rabbit hole, the mechani=
+cs will be familiar, the prize is just bigger and more consequential than y=
+ou may be used to.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 1em 0;">Even if you&#8217;ve avoided web3 unti=
+l now, there&#8217;s a good chance you care about the Constitution. This is=
+ your opportunity. Watch the <a href=3D"https://email.mg2.substack.com/c/eJ=
+xFkM-OhCAMxp9mOBr-iXDgsJd9DVOhOuwoGMA1vv0y42Gbpl-apvnan4OKS8qX3VOp5F3Geu1oI=
+55lxVoxk6NgHoO3THEtemmIt9Iz3WsSyjhnxA3Cams-kOzHtAYHNaT42aCU9-RpjQSYlRfGS0RA=
+A0jVBI7L2fTTMIjbFw4fMDq0-Iv5ShHJap-17uUhvh78u-V5nt2a0ta5tLW2PCFj00EwDW7mQik=
+vNVBDFXo3-d5xzY1nJFhOOWvRM9ELyTveSTcppEx6RK7bEd2Q6pX8_vOQdFt4V46pVHCvtxXJNq=
+Y6pRzi0savJ2y4fgbt37HpdsRQrxEjTCv6G0W9iX7gjAtGzI20H6E2jkIZLaVgA9P3642VFMZow=
+yhpzj61rfhv-gc804x_" rel=3D"" style=3D"color: #1a1a1a; text-decoration: und=
+erline;">onboarding guide</a>. Set up a <a href=3D"https://email.mg2.substa=
+ck.com/c/eJxFkEuOhDAMRE_TWaL8gLDIYjZ9jSgfQ2caEpSYaXH7ycBiLMuWVbJKr7xFWHI59Z=
+4rkr9h8NxBJ_jUFRChkKNCMTFoNnAlejmRoGVgqlckVjMXgM3GVWM5gOyHW6O3GHO6PijlPXlpM=
+TiYxcjBehYGL-nMPONqdpPjbKb-9rVHiJA8aPiBcuYEZNUvxL0-xNeDP1sXG5PLn26DdpCoOeWs=
+Vc9ELyTveCe9G4AyGQC46t3YjRnPHPbvh6Tbwrt6uIrWvzufN1J0yuhyiWlp8vtlN1gvoVGYtrc=
+jRTwNJOtWCDcg3jldyGaBBKXlF4zFlo4YJiWlYCNTN1BLQIppUhOjpDmH3L7Sv-kvKwt__g" re=
+l=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Rainbow</a> or=
+ <a href=3D"https://email.mg2.substack.com/c/eJxFkE1uxCAMhU8zLKPwl8CCRTe9Bo=
+LgZOgEiMBplduXTha1LFvWk_X0vcUhbKVe5igNyd-weB1gMvy0HRChkrNBtTEYOjHFpdAkGBGok=
+orEZtcKkFzcDdYTyHH6PS4OY8nvj3FkkjyN9HpeF6o4WwXzq9JcycD46MPEpjm429edIUJewMA3=
+1KtkILt5Ih7twT8e7LN3AnTJtdcQS79INGxktJekXHLBBjaIxU8wUhEAmJJ-HuaCVwnH10OMaWN=
+DO31Dt7yGpSRSTS7oS4156_Lr6RLsb6Fj2L7TmSNeFrLzO4SbEO-g3sx2gwy1Bxiswx4Pn7QSgt=
+OZqpuoRyC41krTkXTnUPpX_jf9BQ4kf8A" rel=3D"" style=3D"color: #1a1a1a; text-d=
+ecoration: underline;">MetaMask</a> wallet. Join the <a href=3D"https://ema=
+il.mg2.substack.com/c/eJxFUMtuhDAM_JrNEZEXj0MOXPobUYi9bLqQ0MS04u-bwqGWZcsaj=
+Ucz3hEuKZ9mT4XY37B07mgi_pQViTCzo2C2AQzvxCC1GhkYBXzQAwvFPjPi5sJqKB_I9mNeg3cU=
+UrwYbSs0exkBXnKQPR-f3vnegUScO-3V2LeC9_LWdQcEjB4NfmM-U0S2mhfRXh5yeoiP2hCKTxm=
+aZanHOYHbp-mLBSPql1qaSy2VaESj_NxhyxUgikHPfdMnOhPsnw_VbotoyjEXcv7d-LSxbGKiOe=
+UQlwq_X27D9QKqG1v3dsRAp8Xo5hXhNkp3Xpd1u2DEXHME66imJLtxUEryng-3sZqEkuM4jLxlV=
+RlSZcV_0V8B9IJ9" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underli=
+ne;">Discord</a>. And <a href=3D"https://email.mg2.substack.com/c/eJxFUMtuh=
+DAM_JrNEeUJySGHXvobKA-XTQsJSkwRf9_scqhl2bJG49FMcAhLqZfdS0PyGjNeO9gMZ1sBESo5=
+GtQ5RctGroWShkQrI9NKk9TmrwqwubRarAeQ_fBrCg5TyW8GpVyRp3WjV06yIOPEGZ-E8BOVgfs=
+IzgDV5tZ1R0yQA1j4hXqVDGS1T8S9PcTHg3_2Ps9zCCU3THi8NKIr_d46QpLllLNeigklJB_4II=
+MfgTIZAbhWfhqmgleJ-_dD0m3hQzt8Qxd-Xi9ItbmgLzXlpcM_T7fB-ga6pbnv7cgJrxmy8yvE2=
+y3eob39zwtkqD3MODvsUYnRaCkFm5i-3fU4pDBGG0ZJV46ls_K_6B8cCITn" rel=3D"" style=
+=3D"color: #1a1a1a; text-decoration: underline;">commit to contribute funds=
+</a>.&nbsp;&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 1em 0;">I have no financial incentive to write this p=
+ost. The core team won&#8217;t get any distributions, and they&#8217;re not=
+ paying me for this. If you want to contribute, you should think about it a=
+s <strong>purchasing a keepsake</strong> as opposed to investing in an asse=
+t. At the very least, you&#8217;ll have a new fun fact for icebreakers and =
+a new icebreaker for cocktail parties.&nbsp;</p><p style=3D"color: #1a1a1a;=
+ font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">So buckle up. In t=
+he lightly edited words of <em>National Treasure</em> Nic Cage:&nbsp;</p><d=
+iv class=3D"captioned-image-container-static" style=3D"font-size: 16px; lin=
+e-height: 26px; margin-bottom: 16px; text-align: center;"><figure style=3D"=
+display: inline-block; margin: 0 auto; width: 100%;"><table class=3D"image-=
+wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" st=
+yle=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td styl=
+e=3D"text-align: center;"></td><td align=3D"left" class=3D"content" width=
+=3D"498" style=3D"text-align: center;"><a class=3D"image-link" target=3D"_b=
+lank" href=3D"https://email.mg2.substack.com/c/eJxVUsuu3CAM_Zphl4hngEUWV1fq=
+b0Q8nAydBFIg9zb9-jLJoipCtrFlH-NjZyosKZ_jnkpFbzHVc4cxwndZoVbI6CiQp-BHMlDFBNf=
+Ij9wTJRQKZZozwGbCOtZ8ANoPuwZnakjxysCYCvQcLTcUY-21nGdLBqKspU6ygXPsGaPDjWsOHy=
+A6GOEL8pkioHV81rqXB_t40B_tOh_7cthSjXv1Lm3NFTazQNMzVPd861ampgf9_HUb7GNJybf3v=
+E57TkuGUsIXNH-pAHvLuCGoeIOIN0wT9nAvaPHcARbWOsU7awzrOJPQaUFUZ7xl1IKUWvG-sN5s=
+5k-K5rvcfbUa9ywu82qyXKbGhhInZCcGZjsuKeus5rwjYJUV3Ck_8Ilr9Zsy0i9hRmGkmJJ2BGG=
+CcdrTnjs7ACbcA1AlrOxlqmfy-88Hx9tC_xsRymNM1aYc4tLCr6fZYL0Crb-p6e2IoZ4TRGNX8D=
+eN9d6Gi9hpgQi5bYmfTG07wIb2Y86IJOqmrfHMmdZKE4wask8tK_4D_Qtr1cW_" rel=3D"" st=
+yle=3D"border: none; display: block; height: auto; margin: 0; padding: 0; t=
+ext-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&qu=
+ot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/=
+public/images/90a21c57-563b-4723-b944-1eb8b54c8d64_498x231.gif&quot;,&quot;=
+height&quot;:231,&quot;width&quot;:498,&quot;resizeWidth&quot;:null,&quot;b=
+ytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot=
+;:null,&quot;href&quot;:null}" alt=3D"" width=3D"498" class=3D"" src=3D"htt=
+ps://cdn.substack.com/image/fetch/w_498,c_limit,f_auto,q_auto:good,fl_lossy=
+/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.=
+com%2Fpublic%2Fimages%2F90a21c57-563b-4723-b944-1eb8b54c8d64_498x231.gif" s=
+tyle=3D"-ms-interpolation-mode: bicubic; border: none !important; display: =
+block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100%; ver=
+tical-align: middle; width: auto;"></a></td><td style=3D"text-align: center=
+;"></td></tr></tbody></table></figure></div><p style=3D"color: #1a1a1a; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><strong>[We&#8217;re] =
+going to [learn about] the [ConstitutionDAO]:</strong></p><ul style=3D"marg=
+in-bottom: 1em; margin-top: 1em;"><li style=3D"margin-bottom: 3.75px; margi=
+n-left: 7.5px; margin-right: 0; margin-top: 3.75px; mso-special-format: bul=
+let;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margi=
+n: 0;"><strong>Founding Story. </strong>Seven days to buy a 234-year-old do=
+cument.</p></li><li style=3D"margin-bottom: 3.75px; margin-left: 7.5px; mar=
+gin-right: 0; margin-top: 3.75px; mso-special-format: bullet;"><p style=3D"=
+color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0;"><strong>An =
+American Idea</strong>. web3 and America are more similar than they appreci=
+ate.&nbsp;</p></li><li style=3D"margin-bottom: 3.75px; margin-left: 7.5px; =
+margin-right: 0; margin-top: 3.75px; mso-special-format: bullet;"><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0;"><strong=
+>How to Build a DAO in Three Days. </strong>What it takes to build a DAO.</=
+p></li><li style=3D"margin-bottom: 3.75px; margin-left: 7.5px; margin-right=
+: 0; margin-top: 3.75px; mso-special-format: bullet;"><p style=3D"color: #1=
+a1a1a; font-size: 16px; line-height: 26px; margin: 0;"><strong>Let&#8217;s =
+Buy the Constitution. </strong>A guide to buying the Constitution of the US=
+A.&nbsp;&nbsp;</p></li><li style=3D"margin-bottom: 3.75px; margin-left: 7.5=
+px; margin-right: 0; margin-top: 3.75px; mso-special-format: bullet;"><p st=
+yle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0;"><str=
+ong>Historical Context. </strong>The historical sale of a historical docume=
+nt.<strong>&nbsp;</strong></p></li></ul><p style=3D"color: #1a1a1a; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 1em 0;">This is an inside, real-ti=
+me look at how to form a DAO, raise $20 million from thousands of people, a=
+nd win an auction to win the US Constitution. We may be participating in hi=
+story. Our story begins either in 1787... or last Thursday.&nbsp;</p><p cla=
+ss=3D"button-wrapper" data-attrs=3D"{&quot;url&quot;:&quot;https://www.notb=
+oring.co/p/lets-buy-the-us-constitution?token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSw=
+icG9zdF9pZCI6NDM5OTg5MTAsImlhdCI6MTYzNjk4NDQzMSwiaXNzIjoicHViLTEwMDI1Iiwic3=
+ViIjoicG9zdC1yZWFjdGlvbiJ9.qFRBSCP8U13jfWU_N35Sdjju9Mc2C5LGP2rMyw1Whkw&quot=
+;,&quot;text&quot;:&quot;Continue Reading Online&quot;,&quot;class&quot;:nu=
+ll}" style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0=
+ 0 1em 0; text-align: center;"><a class=3D"button primary" href=3D"https://=
+email.mg2.substack.com/c/eJxFUtuOmzAQ_ZrwFoRvCTzwsE2alNXCbpvbdl8Q2JNgLjYFsy=
+z5-jqJ1Fq2R5rLOaM5wzMDF91NYat749y-1EwthArGvgZjoHOGHrpUihAtsE8YDRwRUoF85juyT=
+88dQJPJOjTdAE475LXkmZFa3Ss8DzOnCDHyz8LzlkDYkmNABLEAZTgADBli-fnBmw1CguIQwid0=
+k1bg1GFhTNvPyNMMb-wdx9FV2uS6k-ricm1drX22z36eD9PcFDAf-jnXqjfSDLc2ZmRjdAXWrmF=
+6Rhwfp3dcV1Gpv5IyovH14L3uRsm3wVVsgvZjFS2Sdcxe9xcW75_6qKkLYX3x_vc1KSuarH9eY5=
+ufvSdXiyH5j6N82X8f43WEImlxyFHe_Te8FZo-TptSbOvPXD4H7p_Nr2-71Zt_QKQ8nw5pQthOl=
+OUQxByv2Mv2DXfxNKJTUY2ODLGHkT0MEUYodrFLeb4AD1EBgH2WL92lNpMWbTmjXnPBbj_kvcl4=
+ZQfTOF34b1A2XBVZA_U9YCVKrW0GJc2UgsryGsRDPfNYgrue6QUUdHY5RJoZKz1ZBD6lBC2R_1D=
+LyktJEPgB8hzLLLStUv9J_wI5Qcr_" rel=3D"" style=3D"background-color: #67bdfc;=
+ border: none; border-radius: 4px; box-sizing: border-box; color: #ffffff !=
+important; cursor: pointer; display: inline-block; font-family: -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, '=
+Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; h=
+eight: auto; line-height: 20px; margin: 0; opacity: 1; outline: none; paddi=
+ng: 12px 20px; text-align: center; text-decoration: none !important;"><span=
+ style=3D"color: #ffffff; text-decoration: none;">Continue Reading Online</=
+span></a></p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=
+=3D"background: #e0ecf6; border: none; height: 1px; margin: 24px 0; padding=
+: 0;"></div><h2 style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font=
+-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display',=
+ -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, s=
+ans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-s=
+ize: 1.625em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em=
+ 0;"><strong>Composer Launches Today!</strong></h2><p style=3D"color: #1a1a=
+1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Last summer, we=
+ did our first syndicate deal ever for <a href=3D"https://email.mg2.substac=
+k.com/c/eJxFUMuOwyAM_JpyjHim5MBhL_sbiIebsk0gAmej_P3S5rCWZUse26OZ4BDmUk-zlYb=
+kXSyeG5gMR1sAESrZG1SbomEj10LJiUQjI9NKk9TsowKsLi0G6w5k2_2SgsNU8ueCUq7I06jgRh=
+e40krCg4oH8z6OHZwE-ACCXrxujwlyAAO_UM-SgSzmibi1m_i68e-ex3EMoax9G-qA1UXoQ5IMp=
+5z1UEwoIfnABxn8CJTJCMC18vfhXvAscfu5SbrOfGi7b-jC6_2NVJML-lJTnjv8eroVlg_Q1dje=
+1z0nPC1k5xeIl1C8_PpItzNkqN3HaB12l8Q4aSkFuzN9CetOSDFNemKUdOZY-lX-J_0DfgaDEQ"=
+ rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Composer</a=
+>, started by my good friend and former colleague, <a href=3D"https://email=
+=2Emg2.substack.com/c/eJxFUMtuxCAM_JrlGPH=
+MkgOHXvobiIebpSUQgdNV_r7s5lDLsmVZnvF=
+McAhrbafZa0fyKhbPHUyBZ8-ACI0cHZpN0bCZa6HkQqKRkWmlSer2qwFsLmWD7QCyHz6n4DDV8r=
+6glCvyMDEyMfsleMopiw6YZELNDEKQijtQF687YoISwMAvtLMWINk8EPd-Ex83_jkSn-n10RTqN=
+iYPpdWcoSFJhlPORqgBLCSf-CSDn4EyGQG4Vv4-3SueNe7fN0m3lU_98B1d-HmBkWZKRV9bKutY=
+_zzcBvm9GILs6NtREp4WivMZ4qUVL8ve6u0KBdqwMlqHwygxL1pKwe5MX9qGGVIsi14YJYM51nF=
+V_kn_ACyshFk" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;=
+">Ben Rollert</a>. I wrote up a <a href=3D"https://email.mg2.substack.com/c=
+/eJxFkMtuhDAMRb9mshtEHkBYZDGb_gbKw2XSIQkKpoi_rztIbeTE0rXsGx9vEeZST7OWDdnvM-=
+G5gslwbAsgQmX7BnWKwfBeaNmpkQWjAtedZnGbPitAsnExWHdg6-6W6C3Gkt8dbSs69jSdVpoP0=
+oEUgVveW2Udl5y7ltvQg7987R4iZA8GvqGeJQNbzBNx3W7ycRMfFMdxNLmgKzXmufGFpJUuSfdL=
+uydI5e5LooH082hEKzidjstOKtGIRnnXQ8tVABC6c0MzFDxLWL9uqk2zaLbdbWj9i6YnVs2fG5V=
+fT5tgeRdoz4ly2nPEc4Js3QLhQoAXyTeUaYYMlQiHySLxk_2olZJ84PpamRgpOY565C0j51CoK_=
+-b_gB9LoxN" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">=
+memo</a>, and 38 brave Not Boring souls invested in the company&#8217;s pre=
+-seed. Earlier this year, First Round led the company&#8217;s seed round, a=
+nd today, Composer is launching! They&#8217;re live on <a href=3D"https://e=
+mail.mg2.substack.com/c/eJxFkM1uhSAQhZ_msquRX3HBopu-hkGYq7QKBoYa377c66KEMMD=
+kzMn5nEVYUr7MkQqS1zHhdYCJcJYNECGTWiBPwRuqmOZSjMQb4amWmoQyPTPAbsNmMFcgR5234C=
+yGFN-KvmeSrEbR2TotneJP55lTTwvUaa8GD15yKm9fW32A6MDAL-QrRSCbWRGP8uCfD_bV9nme3=
+ZGTrw7XGrFzaW-_L3Fptb3aFfKHIMGwntG2JOWSC9axTrhZQU-FB2BazkM3JLySP74fot8X1pU6=
+F7Tu5zWUZBMTzimHuLT2z2p32N6NFnBqda8x4DVBtPMG_s6ON8I3jWmBCLmh9ZPFBo6rUQvB6UD=
+1nbXBEXwc9Uh70px9aqr4b_oHp0KKrA" rel=3D"" style=3D"color: #1a1a1a; text-dec=
+oration: underline;">ProductHunt</a> right now (<a href=3D"https://email.mg=
+2.substack.com/c/eJxFkM1uhSAQhZ_msquRX3HBopu-hkGYq7QKBoYa377c66KEMMDkzMn5nE=
+VYUr7MkQqS1zHhdYCJcJYNECGTWiBPwRuqmOZSjMQb4amWmoQyPTPAbsNmMFcgR5234CyGFN-Kv=
+meSrEbR2TotneJP55lTTwvUaa8GD15yKm9fW32A6MDAL-QrRSCbWRGP8uCfD_bV9nme3ZGTrw7X=
+GrFzaW-_L3Fptb3aFfKHIMGwntG2JOWSC9axTrhZQU-FB2BazkM3JLySP74fot8X1pU6F7Tu5zW=
+UZBMTzimHuLT2z2p32N6NFnBqda8x4DVBtPMG_s6ON8I3jWmBCLmh9ZPFBo6rUQvB6UD1nbXBEX=
+wc9Uh70px9aqr4b_oHp0KKrA" rel=3D"" style=3D"color: #1a1a1a; text-decoration=
+: underline;">check it out</a> and show them some love!) and you can go sig=
+n up and start trading today.&nbsp;</p><p style=3D"color: #1a1a1a; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 1em 0;">Composer is an automated tr=
+ading platform that allows you to build a portfolio of hedge fund-like stra=
+tegies. Here&#8217;s how it works.&nbsp;</p><p style=3D"color: #1a1a1a; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Most of us aren&#8217;=
+t professional traders, so we pick stocks that we like, maybe sell if thing=
+s change or we need the money, and try futilely to time the market. If you =
+picked a basket of companies that I&#8217;ve written about since launching =
+Not Boring and bought them all last December, you&#8217;d have underperform=
+ed the Nasdaq since.</p><p style=3D"color: #1a1a1a; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 1em 0;">But with Composer, you can pick stocks you=
+ like, build automated strategies around them, and let the robots do all of=
+ the trading. For example, if you took the companies I&#8217;ve written abo=
+ut and invested in the one with the best 5-day performance each month, you&=
+#8217;d have outperformed the market dramatically.&nbsp;</p><div class=3D"c=
+aptioned-image-container-static" style=3D"font-size: 16px; line-height: 26p=
+x; margin-bottom: 16px; text-align: center;"><figure style=3D"display: inli=
+ne-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" widt=
+h=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin=
+: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-ali=
+gn: center;"></td><td align=3D"left" class=3D"content" width=3D"550" style=
+=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"=
+https://email.mg2.substack.com/c/eJxVUsuunDAM_ZphB8oTwoLF1ZX6GygPh0kHEpqEe0=
+u_vh5YVI0iH8eWfRzbVldYUj6nPZXavMVczx2mCN9lhVohN0eBPAc30Z4pLsXYuEk4qqRqQpl9B=
+th0WKeaD2j2w6zB6hpSvCIIYbJ5TpIw1vejJ4ZJakBSr5jqvbXWe2H74ebVhwsQLUzwBflMEZp1=
+eta6lwf_eLAfeK2LXTlMqdq-Ops2NIVNL4DoodrnGzFNTQ_2-etW-MeSksO3X-c9pyVDKeEL0F4=
+qwI4RNwWTbxL5pkFhDvsC9OcWiDTGKtEarXkr-ADtKKlqtTOcGRiGUYmu8E5v-k-K-rvcdWGOux=
+eXehVZLlWCHpW3unXOmVZ4wlvjKGthMIjeM-PETKngvyVR3R6XJkyMMIpHUi65YB3rhDU9ECocA=
+FPSDN2Q6pnc_vMhyLaw_3rU5CmmalIOcUH366k3WC8HFjgjbkcM9ZwharOCu-dY73W4JjsvECHj=
+mrhZV1wC3uOXBacDVffccNCCj6MaKWmQ2SWMiv9I_wKwHchu" rel=3D"" style=3D"border:=
+ none; display: block; height: auto; margin: 0; padding: 0; text-decoration=
+: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://buc=
+keteer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/=
+5ea98fca-dddb-4f03-bd12-e7bbd1ff2bd4_1143x508.png&quot;,&quot;height&quot;:=
+508,&quot;width&quot;:1143,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1=
+79345,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;im=
+age/png&quot;,&quot;href&quot;:null}" alt=3D"" width=3D"550" class=3D"wide-=
+image" src=3D"https://cdn.substack.com/image/fetch/w_2286,c_limit,f_auto,q_=
+auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9=
+518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5ea98fca-dddb-4f03-bd=
+12-e7bbd1ff2bd4_1143x508.png" style=3D"-ms-interpolation-mode: bicubic; bor=
+der: none !important; display: block; height: auto; margin: 0 auto; margin-=
+bottom: 0; max-width: 550px; vertical-align: middle; width: 100%;"></a></td=
+><td style=3D"text-align: center;"></td></tr></tbody></table></figure></div=
+><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 =
+0 1em 0;">Each strategy is called a Symphony, and you can follow your favor=
+ite investor&#8217;s, pick from Composer&#8217;s hand-made set, or build an=
+d implement your own as easily as you&#8217;d buy a stock. You can run back=
+-tests, paper trade them to see how they perform live, and connect your bro=
+kerage to put real money behind your Symphonies. See for yourself, go check=
+ out the <a href=3D"https://email.mg2.substack.com/c/eJxFkE1PxCAQhn_Ncmwo0J=
+YeOPixJhuNBzXReGlomW1xWyAw1dRfL7t7cEKGyQxv3uEZNMLo46aCT0jOqcMtgHLwk2ZAhEjWB=
+LGzRpU1k7wSLTFKmFJWktjUHSPAou2sMK5AwtrPdtBovbsoKGUVmVQFrK_lkYNoKK2YaTQ78kFq=
+3epeM8auvno1FtwACr4hbt4BmdWEGNKO3-zYQz46hGLwS34NscCoDeRm2pYwebfl8mP_fHh5u9e=
+3h8_336eJvT7u73LbAOYNE7GKUVbmqEpeccEKVoihr4GWwgAwWfVN0XjcvAlfO0GXkRVp7RPq4X=
+S2JVE5j72P1o15fJr0AvNlkL_d5XtZncWtA6f7GcyVCF7BXhh1IziIGbjpNGacvG6lELxsSnklk=
+JEJ3rayLSnJzsZnlfs3_QN1WpCr" rel=3D"" style=3D"color: #1a1a1a; text-decorat=
+ion: underline;">Not Boring Symphony</a>.</p><p style=3D"color: #1a1a1a; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 1em 0;">If you&#8217;re an in=
+vestor but not a trader, like me, you&#8217;re probably missing out on that=
+ sweet, sweet alpha. Go get your alpha back. Sign up for Composer today:&nb=
+sp;</p><p class=3D"button-wrapper" data-attrs=3D"{&quot;url&quot;:&quot;htt=
+ps://www.composer.trade/&quot;,&quot;text&quot;:&quot;Get Your Alpha Back&q=
+uot;,&quot;class&quot;:null}" style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0; text-align: center;"><a class=3D"button =
+primary" href=3D"https://email.mg2.substack.com/c/eJxFUMuOwyAM_JpyjHim5MBhL=
+_sbiIebsk0gAmej_P3S5rCWZUse26OZ4BDmUk-zlYbkXSyeG5gMR1sAESrZG1SbomEj10LJiUQj=
+I9NKk9TsowKsLi0G6w5k2_2SgsNU8ueCUq7I06jgRhe40krCg4oH8z6OHZwE-ACCXrxujwlyAAO=
+_UM-SgSzmibi1m_i68e-ex3EMoax9G-qA1UXoQ5IMp5z1UEwoIfnABxn8CJTJCMC18vfhXvAscf=
+u5SbrOfGi7b-jC6_2NVJML-lJTnjv8eroVlg_Q1dje1z0nPC1k5xeIl1C8_PpItzNkqN3HaB12l=
+8Q4aSkFuzN9CetOSDFNemKUdOZY-lX-J_0DfgaDEQ" rel=3D"" style=3D"background-col=
+or: #67bdfc; border: none; border-radius: 4px; box-sizing: border-box; colo=
+r: #ffffff !important; cursor: pointer; display: inline-block; font-family:=
+ -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, s=
+ans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-s=
+ize: 16px; height: auto; line-height: 20px; margin: 0; opacity: 1; outline:=
+ none; padding: 12px 20px; text-align: center; text-decoration: none !impor=
+tant;"><span style=3D"color: #ffffff; text-decoration: none;">Get Your Alph=
+a Back</span></a></p><div style=3D"font-size: 16px; line-height: 26px;"><hr=
+ style=3D"background: #e0ecf6; border: none; height: 1px; margin: 24px 0; p=
+adding: 0;"></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0 0 1em 0;">How did you like this week&#8217;s Not Boring? Y=
+our feedback helps me make this great.</p><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0 0 1em 0;"><a href=3D"https://email=
+=2Emg2.substack.com/c/eJxFkMFuwyAMQL8mHCP=
+AEODAYdLU34gIuClbAhGQTfn70fYwZGyBZT1=
+43jVcc7nskWsjzzS360Cb8Ldu2BoWclYscwyWTVyDFIYEKwLTUpNY53tB3F3cbCsnkuNctuhdiz=
+m9JijlkjysFl5woTwHpDooZMo45SUD5fGulXhz3RkiJo8Wf7BcOSHZ7KO1ow7wMfBbDzfWo8R19=
+HnvJzXJSULfFLS8KwMcjEIFk5kEOJBA-w0FGOBWBviUJFpOOeurkyUIPvJR-GVCykRA5FoualS5=
+XTkcX4Og-8rHei61Of_9RJJiU25LLjGtvf39cDtur0b_9tzrfqbYrhmTWzYMbyPtLfblaF4xYen=
+Cw-xa19lfqoUApph-G-jKBBijDaOkk0PuU-kf-geI6IoC" rel=3D"" style=3D"color: #1a=
+1a1a; text-decoration: underline;">Loved</a>&nbsp;|&nbsp;<a href=3D"https:/=
+/email.mg2.substack.com/c/eJxFkMtuxCAMRb8mLCPCI8CCRaVqfiPi4WRoE4gIaZW_r2eyK=
+MJG5sq69gmuwVLqZfdyNPJKU7t2sBl-jxVag0rOA-qUoh1GprkUhkQr4qClJumY5gqwubTaVk8g=
+--nXFFxLJb87KGWSPK0Q4F0wwQuYI4BRGmQ0M0aYZ6H87evOmCAHsPAD9SoZyGqfre1Hxz869sD=
+r-mOvaelD2bBSoxwlx6Bcy1kZzrhRoPhoRsEdl5ziD-W844_a8U9BkmWUDXjkgKpgPetF8CPQQe=
+BUTEuvelXaVeL-1Qm6Law_Tn80F75flqTaXJovNeUF5e-n22B9C7j2hO925tSuCbLzK8SbSLvBv=
+hlNC2SoCDxOriFOnFQLwQc16JsAIhPcGG0GStA5FuzK_6Z_rCiLwA" rel=3D"" style=3D"co=
+lor: #1a1a1a; text-decoration: underline;">Great</a>&nbsp;|&nbsp;<a href=3D=
+"https://email.mg2.substack.com/c/eJxFkMGOhCAMhp9GjgYpCBw4bLKZ1zAo1WFXwSDux=
+rffznhYAgX6p_nbb_IVl1wut-ejslcY6rWjS_h7rFgrFnYeWIYYXNcLA0paFpwMnVGGxWOYC-Lm=
+4-pqOZHt57jGydeY07uCc6HY081aaXpPFASA8VzPNoReWqGEGL24ff0ZIqYJHf5guXJCtrpnrfv=
+RwEcjHrR9e-wlLu2UN_rpXvUK6HAwatYWBFiNGnrbS_CggFOGAzTwKA18AotOcNHRUh2pUrSild=
+PYI-9kQBRGjbrVuV457F-N5Nsi2uMcj-qn75clKy7lOuYS00Ly99NvuL4FGnugeztTrNeAyY8rh=
+ptIvcG-GQ0LJiwEPAy-Ek7q1EgJne7MTYCQSbDW2I4zcg6ZqtK_6R_xu4mF" rel=3D"" style=
+=3D"color: #1a1a1a; text-decoration: underline;">Good</a>&nbsp;|&nbsp;<a hr=
+ef=3D"https://email.mg2.substack.com/c/eJxFkE1uxCAMhU8TlhFgfhcsKlW9RgTBydAm=
+EBHSKrcvnVnUwkb2k_Xgm33DtdTbHeVs5K9M7T7QZfw5N2wNK7lOrFOKjiluQApLohORGWlIOqe=
+lIu4-ba7VC8lxhS3NvqWSnxuUckkezkhlkcrFRi-UjssSAqoZDBgfQtDs5euvmDDP6PAb610yks=
+09WjvOAd4G_tGPH8-jpnWcy947raSS0JOCkYu2wMFq1KCsEuBBAu0TCjDARx3gnZPkOOWsh2RdF=
+Xzko5iDQspERORGBj3q0u4Sj89B0H3l43mFs_n568-SVJdLC6WmvHb56-F33J5C__bU7_3Kqd0T=
+Zh82jC8i7QX2yWhaMWPtwOPkW8fZX2qEAKaZeRHoyARYayyjpDvH0rfyv-kvqW6K7w" rel=3D"=
+" style=3D"color: #1a1a1a; text-decoration: underline;">Meh</a>&nbsp;|&nbsp=
+;<a href=3D"https://email.mg2.substack.com/c/eJxFkEFuxCAMRU8TlhFgCLBgUamaa0=
+QkeDK0CUSEtMrt65lZFIERfH19-82h4VLq5fdyNPYsY7t29Bl_jxVbw8rOA-uYoheDtKCVY9GrK=
+Ky2LB3jvSJuIa2-1RPZfk5rmkNLJb8cnEvNHl4D-WbDZySbQ220G_AehBWDjQDinRvOmDDP6PEH=
+61UystU_WtuPDj46eaMd-mOvaennstHLDHrQQIeD1XfjQIIzaGBwg4IAGjj9cIAObrWDT8GSl1w=
+KWlqQqmQvezVPA3KhIqK0ejK9Ke0qcf_qFN8W2R_ndLQwfz8jWfW5tKnUlBeSvx9hw_Ul0Ngj3d=
+uZU7tGzGFaMb6JtDfYF6NxwYyVgMcxNMJJnVqlQBhh3wQImQLnrBOcUXIs5Mr_oX8SL4md" rel=
+=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Bad</a></p><p s=
+tyle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em=
+ 0;">Thanks for reading and see you on Thursday,</p><p style=3D"color: #1a1=
+a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; margin-bottom: =
+0;">Packy</p></div></div><table cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"post-meta big  custom" style=3D"margin: 0;"><tr><td class=3D"post-meta-=
+item icon" style=3D"color: #767676; font-family: -apple-system, BlinkMacSys=
+temFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emo=
+ji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; height: 18px; li=
+ne-height: 18px; padding: 0px 12px 0px 0; padding-right: 16px; position: re=
+lative; text-decoration: none; text-indent: 3px; vertical-align: middle; wh=
+ite-space: nowrap;"><span><a href=3D"https://email.mg2.substack.com/c/eJxFU=
+tuSojAQ_Rp5G4qEgOSBB2tmncJZdLZmXNd5oSBpNQIJBUHEr99G95JKdVe6c_p2WuQWjqYd48Z0=
+1plEZscGYg1DV4G10Dp9B22mZExCGvkB446MmSRREDmqyw4tQJ2rKrZtD07TF5USuVVG3xGeRwP=
+nFIuCiYJ7MmRQCDoXhTwcgoiEkSAs4lHxyJv3UoEWEMMF2tFocKr4ZG3TzfzFjC7xDsPgamML0y=
+p9dIVBU94olBeCYgqC6l7OUwu5mMqY-UtrSkD9AuOKCPpz_EWrMjmb6_qcsPS29TYfgxKv_CaXv=
+Pl6TsL1SxpsPo9B-rnoEr2q9ru1l-94jxjFGlomalD5buk9YqQU_3qIuX5_XjXCT9VGrQa5Syzi=
+h_S8VWi_4Xuyj1-75Vm-VpdCrbh73X7s-b5bn779KFn1dnvTNggu7--NefpYEGoWw5BeLXBVdTM=
+a9rbOOtO3ArCXri86m4vyj70Gqfp66nFq3lEx9SjBExA_8Bl1qYsEhOARJgFoFBRzd27saGRznj=
+GvPlL3b0Ccau208b8po7s85TVUdwfym6Gue63smIHOiwrkg3r72KB7AdkRNLS4WTLLLe6NH_KIM=
+Z_MSfSgGneD-ZxHnHgOZpYGUfp_0t_XiOFD" class=3D"like-button" style=3D"color: =
+#767676; display: block; position: relative; text-decoration: none;"><img s=
+rc=3D"https://cdn.substack.com/image/fetch/w_36,c_scale,f_png,q_auto:good,f=
+l_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FHeartIconRounded%3F=
+v%3D3%26height%3D36%26fill%3D%2523757575%26stroke%3D%2523757575%26strokeWid=
+th%3D2" width=3D"18" height=3D"18" style=3D"border: none !important; float:=
+ left; height: 18px; max-width: 18px; vertical-align: middle; width: auto;"=
+ alt=3D""></a></span></td><td class=3D"post-meta-item icon" style=3D"color:=
+ #767676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Robot=
+o, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Se=
+goe UI Symbol'; font-size: 14px; height: 18px; line-height: 18px; padding: =
+0px 12px 0px 0; padding-right: 16px; position: relative; text-decoration: n=
+one; text-indent: 3px; vertical-align: middle; white-space: nowrap;"><a hre=
+f=3D"https://email.mg2.substack.com/c/eJxFUst2mzAQ_RqzMwc9wLBgkdp1Sk4gaf1Ks=
+-GANLaFQaIgheCvr7D70JG0mNHcuZp7WaHhpLoxblWvnenK9dhCLGHoa9AaOsf00OWCxyjAIfFp=
+5PCYchT6oSP6_NgBNIWoY90ZcFpT1oIVWih5q_A87DvnmPqMQIC4dyxLxAhDNMAIWERwdESLBbr=
+3LQwXIBnE8AHdqCQ4dXzWuu1n5GGG13YPw-BKpUvVCXlymbKh1h7Ls5-XZpzrM8xNP2dK9lpoM9=
+GwaaaaBqS2MGutLiBnZAXjE2J4P77h-pJU6jOrEpped97LZhDsMbryddS-L5MgW6X-y_bkp9uHP=
+mnqM7exdPvzmlUXmq2-X1P7vnjLrhZDsG978bz9OqSrBCXC4pC9uMUnvCUa3w_rij_WH6V4itxf=
+6x9fNsvXcIdIdTzs8oz4G15VJkoZXvrPj6-4S8cBHc6XYYYDo5u8V6ZjYLn3pux1wS5_4g1wYZr=
+pT5MMjoixh5FdPiI-odjFLmVlAB6iHACHfrlwF0qPirfVjHrNCbt_Ae1AG6eL_w3Ypi_nooH6lr=
+DS5tMkjRR6zEEWZQ38rrq-m-dGID-BhM6aiueFtpYhQRRSStAChXeVrS0oiaIwQp5jO3Nlq-T_p=
+r8BTQbfOQ" style=3D"color: #767676; display: block; text-decoration: none;"=
+><img src=3D"https://cdn.substack.com/image/fetch/w_36,c_scale,f_png,q_auto=
+:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FCommentIconR=
+ounded%3Fv%3D3%26height%3D36%26fill%3D%2523757575%26stroke%3D%2523757575%26=
+strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none !importan=
+t; float: left; height: 18px; max-width: 18px; vertical-align: middle; widt=
+h: auto;" alt=3D"Comment" class=3D"comment-icon"></a></td><td class=3D"post=
+-meta-item icon" style=3D"color: #767676; font-family: -apple-system, Blink=
+MacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; height: 18=
+px; line-height: 18px; margin-right: 0; padding: 0px 12px 0px 0; padding-ri=
+ght: 16px; position: relative; text-decoration: none; text-indent: 3px; ver=
+tical-align: middle; white-space: nowrap;"><span><a href=3D"https://email.m=
+g2.substack.com/c/eJxFUl2TmyAU_TXxLY4g-PHgwzZptu6s2W3ztd0XB-EmYlSswlrz60uSd=
+ssAMxzuPfdyOJxpOKl-Sjo1aOe65XrqIGlhHGrQGnrHDNDnUiQowJFPSeyIhAgU0ciRQ37sARom=
+60T3BpzOFLXkTEvV3jI8D1OnTDyKYhQRj1ESxizkAhfHMGBHQiOEIy7udZkREloOCXxAP6kWnDo=
+pte6Gmf8wwys7x3F0W6UL1cv25HJloc4u2-cwL8w01yXMzTDnqh201ObaxsxfGd3kgzI9h5m_HE=
+wxaMbPMxxc8QaENI3Fb4_4C9p8Da2-RpesB4syfuf6BLQ6w_UM0xPieD-94fqcVur3ukpJdtl5L=
+5tR8sf4IlZx975Ig_Uyoy_bE822D0Pa1KWwWLb9eVlXZ7Jefr9kNp69rS-WQ_Jve_m8_TpmyxSl=
+0vL4e3nDr3wLNL0fVpV4rD8K-RS7v1Y_vmwWr9EO-dXxsMvXPt2IqjJxxvGCPj--4j6bRnQoz6M=
+jE-xhZAdFPvUJdrFLeBGAh4gAwBEtQjdUelKiq2bEa07Y_SeXFbtx-uRTfHt9LlkD9e3CfrsVrW=
+lMK_WUQ8uKGsTdEfpurJu8-Qla6K3hRM60tZMfxBEhPgpRdHeAtQzx4ziKkefYykLZrPZ_0T8yh=
+ei8" style=3D"color: #767676; display: block; text-decoration: none;"><img =
+src=3D"https://cdn.substack.com/image/fetch/w_48,c_scale,f_png,q_auto:good,=
+fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FRecommendIconRound=
+ed%3Fv%3D2%26height%3D48%26fill%3D%2523757575%26stroke%3Dnone%26strokeWidth=
+%3D2" width=3D"24" height=3D"24" style=3D"border: none !important; float: l=
+eft; height: 24px; max-width: 550px; vertical-align: middle; width: 24px;" =
+alt=3D"Share" class=3D"recommend-icon"></a></span></td></tr></table><div cl=
+ass=3D"container-border" style=3D"border-top: 1px solid #e0ecf6; box-sizing=
+: border-box; font-size: 16px; line-height: 26px; margin: 32px 0 0; width: =
+100%;"></div><div class=3D"post-cta" style=3D"font-size: 16px; line-height:=
+ 26px; margin: 24px 0 40px;"><p style=3D"color: #1a1a1a; font-size: 16px; f=
+ont-style: italic; line-height: 26px; margin: 24px 0 0; margin-top: 0;"><sp=
+an>If you liked this post from <a href=3D"https://email.mg2.substack.com/c/=
+eJxFUMtuhDAM_JrNEeUFhEMOvfQ3ojy8bLqQoMQU8fdNQWoty5Y88oxmvEWYczn1liuS32Hw3EA=
+nOOoCiFDIXqGYGDQbuBK9nEjQMjDVKxKreRaA1cZFY9mBbLtborcYc7o-KOU9eWlrBR-87cenGp=
+SwDMYhCO6FY4xK76db1-4hQvKg4RvKmROQRb8Qt_oQHw_-2fo4ji5ldLnENHc-txOJmlPOWvVM9=
+ELyjnfSuwEokwGAq96N3ZjxzGH7eki6zryru6to_bsxrKToP8YGv192heUCmhfT9rqniKeBZN0C=
+4baJd1qXcTNDgtJSDMZiy0gMk5JSsJGp21bLQYppUhOjpCmH3L7Sv-gP_kiB5g" style=3D"co=
+lor: #1a1a1a; text-decoration: underline;">Not Boring by Packy McCormick</a=
+>, why not share it?</span></p><p class=3D"cta-box" style=3D"color: #1a1a1a=
+; font-size: 16px; font-style: italic; line-height: 26px; margin: 24px 0 0;=
+ text-align: center;"><a role=3D"button" href=3D"https://email.mg2.substack=
+=2Ecom/c/eJxFUcluwyAU_Bpzi2UWbwcOlaL8hsXy=
+YtMasODRyH9fklQtYpFmGM1onlEIa0ynPGJG=
+8rwWPA-QAR55B0RIpGRIi7OSDmzivZiJlcLSqZ-Iy8s9AXjldompADmK3p1R6GJ4KbqO9WSTc6_=
+vXNGxn5XpqIbRcC0YzGwYKyOmt68q1kEwIOEb0hkDkF1uiEdu-EfDbnU_Ho82RNQxubC2JlboqK=
+fmzBddzgtucCn5YmLI6LA8YzT8VtAvHqwrvuHXV9iGDU_QKH8ot9Y_V4Oqgsq8Jde8qQTESdYxW=
+ldPec8Fa1krjB6go8ICsKnXYztGPKM9PhvR-ZW1ueiMynzVcJ4k-Re20l-b8rC_iFrTUl9fgsNz=
+gaD0DvbdIL4H8Yq5rBAg1QHZRWGtnw_zJASnI_1trFYs-DxPM-1IdbaxqsK_6Q_t5KKk" class=
+=3D"button primary twitter-link" style=3D"background-color: #67bdfc; border=
+: 0px solid #67bdfc; border-radius: 4px; border-width: 13px 20px 13px 18px;=
+ box-sizing: content-box; color: #ffffff !important; cursor: pointer; displ=
+ay: inline-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI=
+', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emo=
+ji', 'Segoe UI Symbol'; font-size: 17px; font-style: normal; font-weight: 3=
+00; height: 24px; line-height: 24px; margin: 0; opacity: 1; outline: none; =
+padding: 0; text-align: center; text-decoration: none !important; vertical-=
+align: middle;"><img src=3D"https://cdn.substack.com/image/fetch/w_23.1,c_s=
+cale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fic=
+on%2FShareIcon%3Fv%3D2%26height%3D42%26stroke%3D%2523FFF%26strokeWidth%3D2"=
+ width=3D"11.55" height=3D"21" style=3D"border: none !important; display: i=
+nline-block; height: 21px; margin-right: 8px; max-width: 11.55px; vertical-=
+align: middle; width: 21px;" alt=3D""><span style=3D"color: #ffffff; text-d=
+ecoration: none;">Share</span></a></p></div><div class=3D"footer" style=3D"=
+background: #f8f8f8 !important; color: #bcbcbc; font-size: 16px; line-heigh=
+t: 26px; padding: 32px; text-align: center;"><p class=3D"small" style=3D"co=
+lor: #bcbcbc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', R=
+oboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Symbol'; font-size: 13px; line-height: 26px; margin: 0 0 1em 0; =
+margin-bottom: 0; padding-bottom: 30px;">&#169; 2021 <span>Packy McCormick<=
+/span> <a href=3D"https://email.mg2.substack.com/c/eJxFUtFyoyAU_Zr46IBg1Acf=
+uk1MzVTbbLNpmhcH4SYhQXEU6-rXL0lmtgwDzLncc5hz4MzASbdj3OjOOLelMGMDcQ1Dp8AYaJ2=
+-g7aQIsZzLyQ-jRwRU4FDP3RkVxxbgIpJFZu2B6fpSyU5M1LX9w6EPN85x4RyFBBGAJc8KDEK8Z=
+FD4AcMR0ewpA9d1gsJNYcYvqEddQ2Ois_GNN2MPM28xM5hGNxam1K3sj65XFuI8ZuYPQjZsVJBc=
+X_NjCRGX6GekQWMa8y93bj31DW96L_5JaXZ9Ae9fQySr6JJJFFzeE7n-SLz37YnP9s-dWmlzsJi=
+2fZryi9Xmi82U2bvs30-WQ7JX3bydbscskWKU2l5yE7e8MNKTV-f6-6wi1T5mTTl8zpyw-L718u=
+EGg-pod-L8PdxuUpU6y_zJsjZJsmXFTpsduL13Roae8jDdviY-IR6rudSXs4BYSrAOuWXgRtoM2=
+rRXGYUVSfP7fqyM4xfrR2V08b_7bHl65lVoO4FG0xh96qvpRkLqG9WiUdm5hH93bfiBDW09kuIg=
+hkbOJlHIaUEBzh8ZGRDpSSKwggjxyoLbbvqH9F_LK7HZA" style=3D"color: #bcbcbc; tex=
+t-decoration: underline;"><span style=3D"color: #bcbcbc; text-decoration: u=
+nderline;">Unsubscribe</span></a><br>10 City Point, Brooklyn, NY 11201</p><=
+p class=3D"small powered-by-substack" style=3D"color: #bcbcbc; font-family:=
+ -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, s=
+ans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-s=
+ize: 13px; line-height: 26px; margin: 0 0 1em 0; margin-bottom: 0; padding-=
+bottom: 0;"><a href=3D"https://email.mg2.substack.com/c/eJxNkd1uhCAQhZ9GLo3=
+8qHDBRZNmX8MIzO7SFTA4tPHti9qmJYSLczI5Zz7sjPBIeddr2pAcz4T7CjrC17YAImRSNsiTd5=
+oOTPJeKOK0cFT2kvhtumeAMPtFYy5A1mIWb2f0KZ4TXcd68tTdSAEcB0bHYTTDSJVydmB3a3olp=
+YIrdy7OQ7Sg4RPyniKQRT8R163hbw271bsVs-FsX61N4VD4rWCYtlSyhYa__9oNGw49gPMlVP0s=
+-CPaFBEiVvWe0rGd16xjtJ6e8p4L1rJWWDNAR4UDYLI3Yzsm3JNbPxrRhQdr_9cgWceEJmUfH9V=
+-PecAy2lUFjUthBI97hPE2SzgLkx40T57TQ-IkOsvuGnGypgPSgrB6UjlhaVyFFwpqWhHarJLdS=
+r-hX4DkfaY9A" style=3D"color: #bcbcbc; text-decoration: none;"><img alt=3D"=
+Publish on Substack" src=3D"https://cdn.substack.com/image/fetch/w_340,c_li=
+mit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fim=
+g%2Fpublish-on-substack.png" width=3D"170" style=3D"border: none !important=
+; margin-top: 3px; max-width: 550px; vertical-align: middle;"></a></p></div=
+></div></td><td></td></tr></table><img width=3D"1px" height=3D"1px" alt=3D"=
+" src=3D"https://email.mg2.substack.com/o/eJxFUMuOxCAM-5rlWPEeOPAtiEemw04LF=
+U1n1b9ftj1sLpFsK3acAsLc-um2tiOBNZTFz1ChDzz7gI5poa2RUrAHMyQ7mZlRhpTdPztceof9=
+ALIdcSkpYGnVl-wYpVyRl7NpyFmgOj51oDlpC5CjlppLFhhk8ufrw5EL1AQOPtDPVuGGxx0prDW=
+WUVIcp5yNUUwoIfnEJ5miBspkBuBGxcf0aHi2vH1_SbrOfNqPuGNI7ym1lXRXG8bWS50H_X6FFZ=
+aLGMH92OtRC54eaogL5PsnvFs5dujXT5oboaS9w-G5gavwsy-ACJ0Mt9xGH_Xf6BfMxnZy"></b=
+ody></html>
+--9fedf2a42457ba354ff504172971930d5006c5583b8af624aec46665104a--

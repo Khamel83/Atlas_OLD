@@ -1,0 +1,19 @@
+# Time vs. money when traveling kottke.org
+
+**URL:** http://kottke.org/15/08/time-vs-money-when-traveling
+**Date:** 2015-08-28 15:15:28
+
+---
+
+# Time vs. money when traveling
+
+Unknown author • Unknown date 
+
+![Time vs. money when traveling](http://kottke.org/images/2024/icons/57x57.png)
+
+Kevin Kelly has travelled in every sort of way, from five-star hotels to penniless hitchhiking. And he says that when traveling, more time is better than more money.  
+  
+When you have abundant time you can get closer to core of a place. You can hang around and see what really happens. You can meet a wider variety of people. You can slow down until the hour that the secret vault is opened. You have enough time to learn some new words, to understand what the real prices are, to wait out the weather, to get to that place that takes a week in a jeep.  
+  
+Money is an attempt to buy time, but it rarely is able to buy any of the above. When we don’t have time we use money to try to get us to the secret door on time, or we use it avoid needing to know the real prices, or we use money to have someone explain to us what is really going on. Money can get us close, but not all the way. 
+

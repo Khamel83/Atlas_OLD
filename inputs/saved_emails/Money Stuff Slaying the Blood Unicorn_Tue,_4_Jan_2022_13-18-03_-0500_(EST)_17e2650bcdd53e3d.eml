@@ -1,0 +1,2062 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:aa6:c796:0:b0:18e:7577:d6fc with SMTP id u22csp36190lkq;
+        Tue, 4 Jan 2022 10:18:53 -0800 (PST)
+X-Received: by 2002:a7b:c198:: with SMTP id y24mr42680798wmi.1.1641320332731;
+        Tue, 04 Jan 2022 10:18:52 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1641320332; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=uXu6LKVgfO4Duss72V49DXta0MtVgRYfKjIPyvcd0lBzc3zT4CUVgrHsSjLGZaUvUN
+         PNMPMLGkhVTWHw3skMW96cClzecT/b1BKHHEX/F4425rqONl+ThT37CkX5JW24BdJ91F
+         y85/K6rdeo1KY/odtA7cvzKNrW0H65T14HUwQ0Q8TRJ2VT7hYtPTLsr0rlCK2waFcp5N
+         ZiDy3TQxD907ANvg6/rIxO8ff/cwI1jjLPJ/4r47tpngZWeTfMU1EEnPmn5OtPvvwIy9
+         Hl7VQQr+8frVg67Ym2fST+v+utlx2tCne84wiDkVESR/ej9zGcxT6h2r0EleyslSzc3w
+         0u/A==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=Wgfcm9DSkrEenAByvbjB6OnQzdQMUvsjYWOTXZRVLNs=;
+        b=ZbDL5v2ijVzbAn9YraVkuEmRj8D0a78NercDYjUbj4EY9IdpywhWRry7jaS8AP6cGF
+         S/25sSMwiqirZ/Ejf6YTSfoh83I+YZve0TsT/9V6xyyDVWaWBRoJErJOaArJRklIcl97
+         lImQbYaFpKRlJTF/nPpd7RkrAO6bszt+NjLZorzHY4SiWgLs5WabMa1HJPKO6OfRJY31
+         yzyPZNe1unKoa3vYX0Op5MyAnHPgY+qWAMlk2DQOeKXkt6/ARWhDW2Lw7bAPj0Dkcw2P
+         JkAfnqSnSDea6hDAmxM2QdfWl3I6fwK3oiqKRus/uEBJbhZgQTGyEOtoo8j02YPVO47E
+         PBaQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=oH9SCX2d;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id a7sor19092351wri.63.2022.01.04.10.18.52
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 04 Jan 2022 10:18:52 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=oH9SCX2d;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=Wgfcm9DSkrEenAByvbjB6OnQzdQMUvsjYWOTXZRVLNs=;
+        b=mOvHCRf6lr5cXtRQj18qAZPtf0rzl3xvtTEYKdy+GjtGc/9uguxiGnSvvNacRlHl8j
+         z4QzVrxWixKKGxgswM+z+1p9FjuwA52mdd/BH5wSRfIEAO0lyheVQ74Un2dZFlOBUw8z
+         zdg0Ms1Vw/l7y5ZsydSJ6gb3aenc00uQejuk0NmLZJ9dBiV4PbFjKYz33xTl70ohVEmf
+         NiIW7QYvhcNQLOerrlgYamvAejpX20tRUt7rQRcEBe+8PcyYb0stALJdozg8pMZA+WlT
+         EpLx5tk1CXupU5nORJTvpEj35OWyGkOXBadEDUl+mLuI5fxSqGVjsNKYk+4DOhY+fbJT
+         Rp+A==
+X-Gm-Message-State: AOAM530fGwEfrsCYwjZwbJ2rGH0tv2Q20omRukNNT/r+12uJhVx4rLjh
+	anS4LmhiLROGDJBcInTQLf1ikKsp9h1SuVza922NUjJiCm6jLkU3rQ==
+X-Received: by 2002:a5d:5889:: with SMTP id n9mr43498870wrf.476.1641320332293;
+        Tue, 04 Jan 2022 10:18:52 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:ffc4:0:0:0:0:0 with SMTP id x4csp2831wrs;
+        Tue, 4 Jan 2022 10:18:48 -0800 (PST)
+X-Received: by 2002:a9d:2f67:: with SMTP id h94mr34364098otb.146.1641320327980;
+        Tue, 04 Jan 2022 10:18:47 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1641320327; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=LMoK5GHdIfOgpHHe32+hYICveFPQr7KLasDEBsDb5BrI0mE+F2hMfkywXVU2YCTS24
+         AIWyfDU6wlFl/CQgfbGpybUpC3rt2S2UP4kyNKnbU7BhIzO75ztW4VohdUnmjIkjYqMO
+         +nq9T2QQXNyIabs+MX5jPwBM07sK5PzWBsXSfIod0z4gleSa3wiXJgAFmaLiKuIR9je2
+         kI5RToCKJf7WxxqivGgkLhC9lOXlU1iyr7CfkEybVubXcfxQt9RW4sfvWh/8qItuUNCU
+         9hobs0HLktQ1/SrFbz6VGBwZvktVKUoWaG4BqfhRrTdjuEC5TGkn6IwIZyX1QNc7EAvT
+         P04A==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=Wgfcm9DSkrEenAByvbjB6OnQzdQMUvsjYWOTXZRVLNs=;
+        b=AxjcMN7CKc/qteJPpPlxPZau2Y5FWUJDy/WumfTnRJES0Z7UePZbzuTcu9TRTyqsWp
+         gvQVE2NcL4SP9ztOQrYakzTD502YdPG8Kn3zSr1wpnRagUMBxwnonBJ/NlKn94AmlOr6
+         HqIUIzymRrDmkwNdG/XXez/+87JKkmmQ0ujnKo5vUfK1oCDlPMyNXCW1HkOmUFjYIjFS
+         4dE/x1wGWSzvl+eI2n02nB41B04tqPT8z+B5j7K1CXhAUu01nF29jbcn1XJqanAYWgRl
+         ByiowHUmEclL5xYHRshzzD9O1EkRUN9fS9A+12MeM8rBkPLpAgLo+2yNvRFYMzW5uJPn
+         T6rQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=oH9SCX2d;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220104131803.26253475.277659@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220104131803.26253475.277659@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220104131803.26253475.277659@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id t10sor6202119otm.65.2022.01.04.10.18.47
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 04 Jan 2022 10:18:47 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20220104131803.26253475.277659@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJzvV0k8fj4OLHVI1n9NATtqmNp86FWCM5cRAzZ53lS2N1aLYK1dMBEYHZhf3cvGTD84h5OazZE8oTbezRf2qUfgkh8KiBU=
+X-Received: by 2002:a9d:1a1:: with SMTP id e30mr36748431ote.241.1641320327497;
+        Tue, 04 Jan 2022 10:18:47 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1641320327; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Hx2KSs+StEzScjZQiTtZ/Z/IDf2kq7wX+BrxCYWTz2PxS0Sx3DosXiANMmsxvuwcV+
+         9mbrwlpAZQkfpOK/ZyBogHNDtFXB6dxqiaiFLx53vo+WWH1D7lcxd1WsKPU1mGi/jIJz
+         G4pkTTAncNXc3k0qbgUEGz67AVjyCB1/HB9QHI8kROMKYwE46Ng1szQ9JRnxVGx8kq55
+         QElyQ+vThUm9cXI3QCCtYrEnQu76WHR0jwDmINkiFBeL4WATma24M7gHhCPh7z2TKqIB
+         iVWzhwdctxs6i/YzwkvjxRZX81u8HUJQ9WUlXpnvowD6oWIJy/4IYqUp0m/MfSp6D+Vx
+         wdNA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=Wgfcm9DSkrEenAByvbjB6OnQzdQMUvsjYWOTXZRVLNs=;
+        b=ZSFnslAaH8iauUl/9TbGzy/MEXAFSKqfYEH7/zyUIvjPVGqfaA9tyCMVy6sH7ND0sf
+         KgD5yvZ0vaDS/EKBsX/395knmAknUu4Gdn5ir77wn/5fgieGmOIZYX9CssZjvsRwN0fZ
+         AuUGi9O6WpMHIhC8K9oQ6+iDeTlP1dw7FlMdwT91HpXuut0nuL5Pw8jut/LG2ainaYPl
+         U5VLyOHxcMaXlTyeAsHM/id0F9uWb0vSUzN8uCIf5B+J8MWPFAWmD6fvNoyOQ/Gi+ibI
+         yoK5oQx3QHp5WI38slprvvfTCNqKh3c/tcRZAcFXUKG1JmWhBhix9rnjzah58joOcX2q
+         kuqQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=oH9SCX2d;
+       spf=pass (google.com: domain of delivery_20220104131803.26253475.277659@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20220104131803.26253475.277659@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220104131803.26253475.277659@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id s16si5309316oiw.4.2022.01.04.10.18.39
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 04 Jan 2022 10:18:47 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20220104131803.26253475.277659@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=JBS6/Eet5W1dR5nfM22h4x63lThAHa795egcLQFU4SA=;
+ b=oH9SCX2d1VFX5xR4O3UG9hErFAUdSxxt4yM+d9O56lOUY7uD7Psfc1wKc9duzLV43rrHs15KfkbN
+   NuzmzaMwJ3WTynadGV2tq6jVvrAflBXbTNNHybVfABWnIHue7oKxKuFm+cDWgp5vtmnoa+qG1bCM
+   CKI9NBpqg8tRLVKMpIc=
+Received: from njmta-90.sailthru.com (173.228.155.90) by pmta29.sailthru.com id hqi7o02tem45 for <bloomberg@khamel.com>; Tue, 4 Jan 2022 13:18:34 -0500 (envelope-from <delivery_20220104131803.26253475.277659@mx.sailthru.com>)
+Received: from nj1-madforest.flt (172.18.20.33) by njmta-90.sailthru.com id hqi7nk1qqbsb for <bloomberg@khamel.com>; Tue, 4 Jan 2022 13:18:03 -0500 (envelope-from <delivery_20220104131803.26253475.277659@mx.sailthru.com>)
+Date: Tue, 4 Jan 2022 13:18:03 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220104131803.26253475.277659@sailthru.com>
+Subject: Money Stuff: Slaying the Blood Unicorn
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_218683791_292630353.1641320283497"
+Precedence: bulk
+X-Feedback-ID: 6358:26253475:campaign:sailthru
+X-TM-ID: 20220104131803.26253475.277659
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-madforest.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfmpb7.5y8r/870f4356
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfmpb7.5y8r/870f4356>, <mailto:unsubscribe_20220104131803.26253475.277659@mx.sailthru.com>
+X-rpcampaign: stjko26253475
+
+------=_Part_218683791_292630353.1641320283497
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Elizabeth HolmesIn the early 2010s, Elizabeth Holmes pretended that=
+ she had invented a new technology to do blood tests, and used this prete
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Elizabeth Holmes
+   =20
+ =20
+In the early 2010s, Elizabeth Holmes pretended that she had invented a new =
+technology to do blood tests, and used this pretend technology to raise sev=
+eral hundred million dollars from gullible investors for her blood-testing =
+startup, Theranos. Back in the 2010s this was all viewed as pretty notewort=
+hy stuff, and it was huge news when Theranos=E2=80=99s technology turned ou=
+t to be fake. We  talked about it a  bunch here at Money Stuff, and at some=
+ point I coined a  pseudo-Linnaean name=C2=A0for Theranos,=C2=A0Elasmotheri=
+um haimatos, the Blood Unicorn.=C2=A0Now of course it is 2022 and we are al=
+l a bit more jaded. There was the SoftBank boom, we=E2=80=99ve had a couple=
+ of years of SPACs, there is so much crypto. Raising hundreds of millions o=
+f dollars from gullible investors who don=E2=80=99t do much due diligence i=
+s not particularly impressive anymore. If you want to do it by pretending t=
+o have a technology, you can (try  electric vehicles!), but these days even=
+ that is optional. =E2=80=9CIn the past year, there has been a notable rush=
+ of funding into the high-risk category of early-stage startups, as investo=
+rs have clamored to get into companies even before they had a staff or prod=
+uct,=E2=80=9D the Wall Street Journal reported on Sunday. Or you can raise =
+lots of money from investors by letting them pretend to own digital picture=
+s of apes, or by just saying =E2=80=9Chey here=E2=80=99s a Ponzi.=E2=80=9D =
+Theranos raised a lot of money from investors who did not do too much due d=
+iligence, because the world was awash in money and investors got careless; =
+that is much, much, much, much more true now, and Theranos looks a little q=
+uaint.But the gears of criminal prosecution grind slowly and yesterday Eliz=
+abeth Holmes was  convicted of federal fraud charges:Holmes was convicted o=
+f four out of 11 counts of conspiracy and wire fraud and acquitted of four =
+counts. The jury didn=E2=80=99t reach a verdict on three of the counts. Hol=
+mes was found not guilty of all charges pertaining to defrauding patients. =
+=E2=80=A6After deliberating for seven full days, jurors agreed Monday with =
+prosecutors that Holmes lied to investors over several years about the accu=
+racy and capabilities of Theranos blood analyzers. A parade of witnesses to=
+ld jurors they were gravely misled by the Stanford University dropout-turne=
+d-entrepreneur. They ranged from executives at Walgreens and Safeway Inc. t=
+o James Mattis, the former U.S. secretary of defense who served on the Ther=
+anos board, as well as advisers to investors who poured hundreds of million=
+s of dollars into the company.=C2=A0Part of  Holmes=E2=80=99s defense to th=
+e charges of defrauding investors was that those investors did so little du=
+e diligence that at some level they must have wanted to be defrauded. This =
+defense did not work, and I am not sure it is a valid legal defense, but I =
+sympathize. One of the charges on which she was convicted was defrauding Be=
+tsy DeVos=E2=80=99s family office out of a $100 million investment. Lisa Pe=
+terson, a DeVos family investment manager, testified at the trial:Lance Wad=
+e, a lawyer for Ms. Holmes, asked Ms. Peterson, an investment professional,=
+ if she was familiar with the concept of due diligence.=E2=80=9CYou underst=
+and that=E2=80=99s a typical thing to do in investing?=E2=80=9D he said. =
+=E2=80=A6Ms. Peterson testified that she was scared Ms. Holmes would cut he=
+r firm out of the deal if they dug deeper into the details of Theranos=E2=
+=80=99s business.=E2=80=9CWe were very careful not to circumvent things and=
+ upset Elizabeth,=E2=80=9D she said. =E2=80=9CIf we did too much, we wouldn=
+=E2=80=99t be invited back to invest.=E2=80=9DYeah I dunno if you make 10 i=
+nvestments like that and one of them turns out to be a total fraud I think =
+you say =E2=80=9Chey that went pretty well=E2=80=9D? Again, this was all so=
+rt of an exciting novelty in the early 2010s but is old hat now. Here=E2=80=
+=99s a Bloomberg News story from yesterday about =E2=80=9C What Investors L=
+earned From the Elizabeth Holmes Trial: =E2=80=98Zero=E2=80=99=E2=80=9D:=E2=
+=80=9CI don=E2=80=99t think a verdict is going to change the way founders a=
+nd VCs work in the ecosystem,=E2=80=9D said Angela Lee, who teaches venture=
+ capital at Columbia Business School and runs 37 Angels, an investment netw=
+ork that focuses on early-stage digital health companies. =E2=80=9CIt's abo=
+ut supply and demand, and there's a tremendous capital supply with the same=
+ number of awesome companies.=E2=80=9DWhen investors are competing to get i=
+nto a round, one way they can edge out a rival is through speed. =E2=80=9CI=
+ can't tell you how many times I hear, =E2=80=98So-and-so is in this deal, =
+they're a name-brand VC, you have five days -- are you in or are you out?=
+=E2=80=99=E2=80=9D she said. =E2=80=9CPeople don't want to miss out. I am n=
+ot seeing more thoughtful diligence. If anything, I=E2=80=99m actually seei=
+ng a sped-up timeline for diligence in the last couple of years.=E2=80=9DLe=
+e said the trial doesn=E2=80=99t seem to be prompting investors to re-exami=
+ne their diligence practices. =E2=80=9CI've heard zero people say, =E2=80=
+=98Oh, this should make me look differently,=E2=80=99 -- zero,=E2=80=9D she=
+ said. =E2=80=9CIt's treated like salacious gossip or an entertaining story=
+.=E2=80=9DAlso I think this is obviously the=C2=A0correct=C2=A0lesson for i=
+nvestors to learn from Theranos? If the lesson you learned from Theranos=E2=
+=80=99s fall in 2015, or 2018, was =E2=80=9CI am not going to invest in any=
+ tech companies with charismatic founders and vague promises unless I=E2=80=
+=99ve done thorough rigorous diligence, and if those founders object to tha=
+t then they are not getting my money,=E2=80=9D then you have missed a lot o=
+f good deals and the founders have not missed your money.[1] Betsy DeVos is=
+ still rich despite blowing $100 million on Theranos, and lots of people wh=
+o have casually rushed into fundraising rounds or SPACs or crypto Ponzis or=
+ NFT drops or whatever in the last few years have done quite well.=C2=A0In =
+a generally rising market where lots of fortunes are being made quickly, ru=
+shing to back=C2=A0popular projects without a lot of due diligence seems to=
+=C2=A0work, and if you back enough of them you=E2=80=99ll be fine even if a=
+ few are frauds. The ones that work make you rich; the ones that are frauds=
+ give you an entertaining story.It=E2=80=99s less entertaining for Holmes, =
+who is heading for prison. It seems clear to me that one reason she was pro=
+secuted while so many other fake-it-=E2=80=99til-you-make-it tech founders =
+are not is that she was making fake=C2=A0blood tests=C2=A0and actually mark=
+eting them to patients. =E2=80=9CBetsy DeVos lost $100 million on a failed =
+startup=E2=80=9D is in a sense a less sympathetic story than =E2=80=9Csome =
+regular person went to a drugstore, got an HIV test, and was falsely told t=
+hat he was HIV-positive, upending his life.=E2=80=9D But Holmes was acquitt=
+ed on the charges of defrauding patients; she was only convicted on (some o=
+f) the charges of defrauding investors.There is I think an element of =E2=
+=80=9Ceverything is securities fraud=E2=80=9D here. It turns out that there=
+ is apparently not a federal crime of =E2=80=9Cgiving someone a fake diagno=
+sis.=E2=80=9D Or, I mean, I guess there is, but it is the main all-purpose =
+federal white-collar crime: It is =E2=80=9Cwire fraud.=E2=80=9D Telling som=
+eone a lie for money is wire fraud.[2] If you tell someone =E2=80=9Chey I h=
+ave invented a good blood test machine, want to invest?=E2=80=9D and they g=
+ive you $100 million for stock, that=E2=80=99s wire fraud. If you tell some=
+one =E2=80=9Chey I have invented a good blood test machine, want a blood te=
+st?=E2=80=9D and they give you like $14.95 for a blood test, that=E2=80=99s=
+ wire fraud.And so when Holmes was charged with wire fraud, it was for a mi=
+x of investor fraud and patient fraud. =E2=80=9C Jurors heard Theranos pati=
+ents testify their blood-test results falsely led them to believe they had =
+unhealthy conditions,=E2=80=9D but found Holmes not guilty on those counts.=
+=C2=A0I don=E2=80=99t know why =E2=80=94 I was not at the trial, and I cert=
+ainly wasn=E2=80=99t in the jury room =E2=80=94=C2=A0but it seems plausible=
+ that Holmes was less personally culpable for those tests than she was for =
+her own pitches to investors. But never mind that.Instead, my point here is=
+ that if you do a fake blood test on a patient, you have arguably defrauded=
+ him (though Holmes was=C2=A0acquitted=C2=A0of that), but=C2=A0how much=C2=
+=A0have you defrauded him really? Arguably the answer is quite a lot; argua=
+bly he is quite badly harmed by thinking he had a deadly disease and taking=
+ drastic steps to fight it, or thinking he did not have a deadly disease an=
+d missing the chance to fight it. But arguably the answer is $14.95, or wha=
+tever he paid for the blood test (I made that number up[3]): You were doing=
+ fraud for money, and the money you got from any one patient is fairly smal=
+l. Whereas the money you got from Betsy DeVos was $100 million.This is  a s=
+tory I often tell: When a company harms some class of people in some bad bu=
+t essentially non-monetary way, it is hard to quantify the damages as money=
+; when a company harms its shareholders, you can just see how much the stoc=
+k went down. (Theranos was never public but, uh, the stock went to zero.) O=
+rdinarily this is a story about the incentives facing plaintiffs=E2=80=99 l=
+awyers: If a company has a rampant culture of sexual harassment, it is much=
+ more pleasant for plaintiffs=E2=80=99 lawyers to bring a securities-fraud =
+class action (=E2=80=9Cwhen the sexual-harassment news came out the stock w=
+ent down=E2=80=9D) than it is for them to bring a sexual-harassment class a=
+ction (=E2=80=9Ceach of these 1,000 employees were victims of a pattern of =
+sexual harassment at your company=E2=80=9D), because the facts are neater a=
+nd the plaintiffs more uniform and=C2=A0the damages much easier to prove an=
+d probably larger.But this is true for prosecutors bringing wire-fraud char=
+ges too. Prosecutors do not want to bring a federal criminal case against s=
+omeone who defrauded a victim out of $14.95. Even someone who defrauded 1,0=
+00 victims out of $14.95 each is tough; you have to prove the facts about e=
+ach victim. Even if the fraud also involved giving those victims scary and =
+harmful medical misdiagnoses.=C2=A0This is partly just a matter of putting =
+big numbers in the press release, and it=E2=80=99s partly a matter of what=
+=E2=80=99s easier to prove =E2=80=94=C2=A0remember the jury acquitted Holme=
+s of the patient charges =E2=80=94 but it=E2=80=99s also a matter of=C2=A0s=
+entencing. Prosecutors want to bring big cases that get long prison sentenc=
+es. There are=C2=A0various factors that go into a prison sentence for wire =
+fraud, but by far the most important one is the amount of money involved.[4=
+]=C2=A0A $100 million fraud will get a long sentence. A small-money=C2=A0fr=
+aud on retail purchasers =E2=80=94=C2=A0even one with hundreds of victims =
+=E2=80=94=C2=A0even one where the victims suffered not so much the out-of-p=
+ocket cost of a blood test but rather the emotional and medical problems of=
+ a bad test result =E2=80=94=C2=A0will not amount to much money and so will=
+ tend to get a shorter sentence. If the main all-purpose federal crime is w=
+ire fraud, then the law will focus on the biggest wire frauds, and the bigg=
+est wire frauds, measured by money, tend to be the ones against shareholder=
+s.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Anti-ESG
+   =20
+ =20
+Has anyone started the, like, Let=E2=80=99s Destroy The Earth Fund yet? I f=
+eel like if you started a private equity fund with an explicit mandate to i=
+nvest in things with the worst environmental, social and governance attribu=
+tes, then you=E2=80=99d have two really strong marketing points:=09There is=
+   a simple story to be told that, as investors demand ESG and shun assets =
+with bad ESG scores, those assets will be underpriced and you can buy them =
+cheap and get good returns; plus=09In the U.S., there is=C2=A0political pol=
+arization around ESG, and you could market your fund to all the people who =
+don=E2=80=99t want BlackRock Inc. to go around saving the world on their be=
+half.Seems like a good business.  Anyway:Private equity firms are lining up=
+ to take on the dirty -- and highly profitable -- assets being divested by =
+publicly traded commodity producers as the world grapples to decarbonize.In=
+ the latest example, private equity accounted for most of the 30 so-called =
+western candidates that signed non-disclosure agreements in the sale of Val=
+e SA=E2=80=99s Mozambique coal business, according to Luciano Siani Pires, =
+head of strategy and business transformation at Rio de Janeiro-based Vale.O=
+n LinkedIn, Siani=C2=A0writes:Precisely because coal-related assets have be=
+come toxic for listed companies, private equity firms are hunting thermal c=
+oal power plants and coal mining properties across the world at bargain pri=
+ces, aiming at juicy returns, as they do not have ESG-minded constituencies=
+ to attend to. ...In both Coal and Oil, private equity firms are betting th=
+at the energy transition will take longer than expected and that demand wil=
+l outpace a shrinking supply. The ensuing combination of high commodity pri=
+ces and low acquisition costs for unwelcome assets may provide these firms =
+the bonanza of a lifetime.I think =E2=80=9Cget the bonanza of a lifetime wh=
+ile also destroying the environment=E2=80=9D is not a pitch that will appea=
+l to everybody, but it definitely will appeal to somebody?=C2=A0
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Pro-ESG
+   =20
+ =20
+Speaking of BlackRock Inc. saving the world on your behalf, BlackRock Chief=
+ Executive Officer Larry Fink said recently about its ESG efforts=C2=A0that=
+=C2=A0=E2=80=9CBlackRock is a leader in this, and we are seeing the flows, =
+and I continue to see this big shift in investor portfolios.=E2=80=9D But  =
+Bloomberg News=C2=A0notes:What Fink did not say is that BlackRock drove a s=
+ignificant part of that shift by inserting its primary ESG fund into popula=
+r and influential model portfolios offered to investment advisers, who use =
+them with clients across North America. The huge flows from such models mea=
+n many investors got into an ESG vehicle without necessarily choosing one a=
+s a specific investment strategy, or even knowing that their money has gone=
+ into one.In short, an apparent BlackRock-led rush of investors into ESG in=
+ the past two years has been something of a self-fulfilling prophecy, at le=
+ast when it comes to the biggest such fund on the planet, a BlackRock excha=
+nge-traded fund that trades under the ticker symbol ESGU, according to data=
+ from BlackRock and Morningstar. ...On Jan. 15, 2020, the day after Fink=E2=
+=80=99s letter predicted a major reallocation of capital into sustainabilit=
+y, BlackRock altered its most popular suite of model portfolios by adding E=
+SGU into its =E2=80=9CTarget Allocation ETF Portfolio Strategies=E2=80=9D s=
+eries. (The biggest and most popular one inside the suite, which offers a 6=
+0/40 split between stocks and fixed income investments, includes ESGU as on=
+e of its top two holdings.)In this way, BlackRock itself helped assure Fink=
+=E2=80=99s prediction would come true. Financial planners who use the model=
+s through online platforms have had no choice but to put their clients in E=
+SGU if they wanted to get them into one of the most popular investment stra=
+tegies for sale.This seems =E2=80=A6=C2=A0obviously good? The problem, for =
+BlackRock, is that it is largely in the business of selling index funds. It=
+ has a big S&P 500 index fund, and if a stock is in the S&P 500 index then =
+BlackRock has to own that stock, and if that stock is a coal company then, =
+you know, oops. BlackRock can go to the coal company and say =E2=80=9Cwe ar=
+e a 5% shareholder of your company and we want you to mine less coal,=E2=80=
+=9D but (1) that is pretty self-defeating and (2) if the company says no, w=
+hat can BlackRock=C2=A0do,=C2=A0sell its stock? And so Larry Fink sends out=
+ letters about how companies should do better at ESG, but his funds mostly =
+don=E2=80=99t get to pick what stocks they buy, so they end up owning lots =
+of stocks that are bad at ESG.But Fink does get to pick, within limits,=C2=
+=A0what funds his investors buy. If you change the model portfolio=E2=80=99=
+s main stock allocation from the S&P 500 to an ESG fund, and your clients b=
+lithely go along, then you will find yourself buying more good ESG stocks a=
+nd fewer bad ESG stocks while still basically offering index funds. As a fu=
+nd manager=C2=A0you are largely passive, but as a=C2=A0marketer of funds=C2=
+=A0you get to do quite a lot of active allocation. The people buying your p=
+assive funds are not, after all, deeply engaged connoisseurs of the stock m=
+arket; they=E2=80=99re buying a model portfolio of passive BlackRock funds =
+because they don't want to think too hard about stocks. Might as well put t=
+he stocks=C2=A0you like in there!When BlackRock first announced its plans t=
+o do this back in 2020,  I wrote:The right model of BlackRock is probably t=
+hat it is mostly an aggregator of preferences, but it is also, at the margi=
+n, a shaper of preferences.=C2=A0It passively reflects what investors want =
+generally, but it has some ability to push those investors to want differen=
+t things. There are other things that BlackRock does=E2=80=94it votes the s=
+hares of stock that it owns on behalf of investors, it meets with managers =
+to talk about their sustainability plans, it writes strongly worded letters=
+ to CEOs=E2=80=94but I suspect that they=E2=80=99re mostly less important t=
+han the basic core function of taking $7 trillion from investors, channelin=
+g it where the investors want it to go, and slowly and subtly diverting tho=
+se channels so that the money moves=C2=A0more in the direction that=C2=A0Bl=
+ackRock=C2=A0wants it to go.=C2=A0Obviously if you think that BlackRock=E2=
+=80=99s goals are bad =E2=80=94=C2=A0for instance if you think that ESG in =
+general, or BlackRock=E2=80=99s implementation of it in particular, is a sc=
+am =E2=80=94=C2=A0then this seems bad. But if you are Larry Fink and you=C2=
+=A0genuinely believe that ESG investing can make the world better, then thi=
+s is the best possible outcome. Abandoning broad index investing to be ESG-=
+only will lose you customers, abandoning ESG to serve your broad index cust=
+omers will be bad for the world, but gently nudging your index customers in=
+to ESG indexes will let you do good while doing well. Also of course the fe=
+es are higher:ESGU=E2=80=99s fees are lower than industry averages for sust=
+ainable funds but are still five times higher than an S&P 500 tracker that =
+trades under the ticker IVV =C2=A0-- a popular BlackRock fund whose makeup =
+and expected performance are closely aligned with those of ESGU.
+ =20
+   =20
+      Can=E2=80=99t believe Ken Griffin is going to buy Blockbuster now
+   =20
+ =20
+Yeah I mean sure of course right:Just weeks after a decentralized autonomou=
+s organization (DAO) tried to buy an original copy of the US Constitution, =
+another historical artifact has become the target of a DAO: the defunct mov=
+ie rental business Blockbuster.=C2=A0The new DAO=E2=80=99s name is, aptly, =
+BlockbusterDAO. According to a Twitter thread posted on December 25, Blockb=
+usterDAO seeks to govern the Blockbuster brand and create a decentralized f=
+ilm streaming service out of it =E2=80=94 with plans for movie financing an=
+d production down the road.=C2=A0To achieve its goals, BlockbusterDAO inten=
+ds to raise $5 million to purchase Blockbuster from Dish Network, an Americ=
+an television provider that bought the movie rental company in 2011. Blockb=
+usterDAO aims to raise the cash by selling BlockbusterDAO NFTs for 0.13 ETH=
+ (about $530 USD).=C2=A0We  talked last month about some guys who bought Ra=
+dioShack out of bankruptcy to pivot it to crypto, and this follows a simila=
+r playbook. You take the basic bones of the GameStop situation (nostalgic b=
+rand, physical stores rendered obsolete by streaming, vague plans for digit=
+al pivot), you sprinkle some crypto over it (it's a DAO, it's going to be =
+=E2=80=9Cthe first-ever DeFilm streaming platform=E2=80=9D), and, boom, you=
+=E2=80=99ve got a thing.Here in particular there are endless possible vehic=
+les for speculation, as the BlockbusterDAO Twitter account lays out:Allow B=
+lockHead staking to collect BlockBuster Rewards. =E2=80=A6 It will be impor=
+tant to start building out rewards for DAO participation and community even=
+ts. ...Develop a Blockbuster NFT presence and use proceeds to fund developm=
+ent. ...We can create a =E2=80=9CMovie Pass=E2=80=9D subscription model for=
+ our plaform, making those passes ERC-20 tokens that have resale value.Etc.=
+ Just turn every part of the experience into its own speculative asset. Wil=
+l this be a better way to watch movies? I mean, I dunno, probably not as an=
+ aesthetic experience or anything, but sure yes probably =E2=80=9Cwatching =
+movies and also somehow getting paid a million dollars for it=E2=80=9D does=
+ seem superior to =E2=80=9Cwatching movies and paying for it.=E2=80=9D=C2=
+=A0We  talked last month about Web3, the new name for crypto-based internet=
+ services. =E2=80=9CA basic premise of Web3 is that every product is simult=
+aneously an investment opportunity,=E2=80=9D I wrote:It=E2=80=99s as if bei=
+ng an early user of Facebook or Uber also automatically made you a=C2=A0sha=
+reholder=C2=A0of Facebook or Uber, and when those services got huge you got=
+ rich. ...What sort of incentives does this create to spend your time makin=
+g good products? Not none! But =E2=80=A6 attenuated, no? If you could spend=
+ a day optimizing the color scheme and messaging mechanics of your social n=
+etwork, or instead optimizing the payoff structure of the tokens, which one=
+ creates more value? If every product is also an investment, will the produ=
+ct engineers be mostly financial engineers?The pitch here is not, you know,=
+ about the technical skills of the people building the DeFilm streaming pla=
+tform, or about their aesthetic judgment in movies, or even about their mar=
+keting skills. The pitch here is that there are a bunch of speculative asse=
+ts, because that is what Web3 is.
+ =20
+   =20
+      Bank error in your favor
+   =20
+ =20
+I don=E2=80=99t know man:Santander UK is trying to recover about $175 milli=
+on, or about 130 million pounds, that it accidentally paid tens of thousand=
+s of people on Christmas Day.About 75,000 people received the mistaken paym=
+ents, including many customers of rival banks. Santander is seeking help fr=
+om the other banks to recoup the money, the bank said in a statement.The mi=
+staken deposits could look like normal payments to recipients because they =
+were duplicates of regular and one-off payments that about 2,000 of the ban=
+k=E2=80=99s commercial and corporate customers had already paid to people i=
+ncluding their suppliers and employees.Santander said the money for those s=
+econd payments did not come from its customers. =E2=80=A6=C2=A0Santander UK=
+, the British arm of Banco Santander of Spain, has more than 14.4 million c=
+ustomers. The British operation reported profits of about $929 million (=C2=
+=A3687 million) before taxes in the third quarter of this year, up from =C2=
+=A3151 million in the same period in 2020.I am not going to give anyone any=
+ legal or financial advice here but I feel like if you=E2=80=99re a big pro=
+fitable bank and you wake up on Boxing Day to find out that you accidentall=
+y handed out $175 million of Christmas presents to your customers=E2=80=99 =
+payees, you have two options.=09You can say =E2=80=9Coops sorry about that,=
+=E2=80=9D Grinchily try to get the money back, end up suing some people who=
+ spent it, and explain to your regulators why you can=E2=80=99t do the esse=
+ntial banking task of keeping track of the money.=09Or! Or, you can put out=
+ a press release that=C2=A0is like =E2=80=9CSantander UK just gave out $175=
+ million in Christmas presents to thousands of people, because we care, San=
+tander, the bank that cares or whatever.=E2=80=9D And then everyone is like=
+ =E2=80=9Cwow what a good bank=E2=80=9D and opens a credit card with you.Do=
+es Option 2 buy you $175 million worth of good publicity? Probably not, ver=
+sus a baseline of not doing any of this. But does it save you $175 million =
+of aggravation, versus Option 1? Maybe? I guess the problem with Option 2 i=
+s your regulators are not going to believe it, and you=E2=80=99re going to =
+have to explain both=C2=A0why you couldn't keep track of the money and=C2=
+=A0why you covered it up by pretending you meant to do it.
+ =20
+   =20
+      WAGMI
+   =20
+ =20
+Here is I guess a song and music video made by some NFTs? I don=E2=80=99t k=
+now, I got a press release saying =E2=80=9CIt is the first band made up of =
+entirely NFT characters and personalities, and also represents the biggest =
+cross-community collaboration between several of the most famous communitie=
+s in the space: CryptoPunks, Bored Ape, Cool Cat, World of Women, and a Wic=
+ked Cranium.=E2=80=9D Okay! Okay! Okay! The song is called =E2=80=9CWAGMI=
+=E2=80=9D (for =E2=80=9Cwe=E2=80=99re all gonna make it=E2=80=9D) and the l=
+yrics include =E2=80=9Call the FUD don=E2=80=99t matter to me, we got commu=
+nity=E2=80=9D and honestly it=E2=80=99s not too bad? I wish a team of NFTs =
+wrote this newsletter.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+WeWork Co-Founder Adam Neumann Is Becoming an Apartment Mogul.=C2=A0Evergra=
+nde Is Told to Tear Down 39 Buildings on Man-Made Island. Junior lawyer bur=
+nout: M&A boom accelerates exit from elite firms.=C2=A0Private Equity Firm =
+ TPG Sets Terms for Up to $1.05 Billion IPO.=C2=A0Subtle Word Choice in Chi=
+na IPO Rules Revives Hope for Hong Kong.  Rokos=E2=80=99s Hedge Fund Raises=
+ $1 Billion After Record Annual Loss. Hedge fund behemoth Bridgewater names=
+ new co-chief executives. U.S. Catches  Kremlin Insider Who May Have Secret=
+s of 2016 Hack. Crypto CEO Brian Armstrong Buys Los Angeles Home for $133 M=
+illion. Tesla Opens Showroom in China=E2=80=99s Xinjiang, Region at Center =
+of U.S. Genocide Allegations. Twins born in different years.=C2=A0Did a Met=
+eor Explode Over Pittsburgh?If you'd like to get=C2=A0Money=C2=A0Stuff=C2=
+=A0in handy email form, right in your inbox, please=C2=A0subscribe at this =
+link. Or you can subscribe to Money Stuff and other great Bloomberg newslet=
+ters here. Thanks![1] If you learn that lesson *now*, at the beginning of 2=
+022, maybe it=E2=80=99ll work out great for you, but that is essentially a =
+macro/markets question. =E2=80=9CWhen the tide goes out,=E2=80=9D etc.=C2=
+=A0[2] If you use a wire. Which you do. If you use a phone or email or webs=
+ite or app while lying for money,=C2=A0oops, wire fraud. Obviously I am bei=
+ng non-technical; the wire fraud statute, 18 U.S.C. 1343, covers =E2=80=9Ca=
+ny scheme or artifice to defraud, or for obtaining money or property by mea=
+ns of false or fraudulent pretenses,=E2=80=9D using a =E2=80=9Cwire, radio,=
+ or television communication,=E2=80=9D and there are issues of materiality =
+etc., but =E2=80=9Clying for money is wire fraud" is a good rough approxima=
+tion.[3] Here is a purported menu of Theranos=E2=80=99s prices, from a June=
+ 2015 article saying that =E2=80=9CTheranos might be the most exciting comp=
+any in healthcare, disrupting the diagnostic testing industry by offering v=
+ery cheap tests that often require just a small drop of blood to process.=
+=E2=80=9D HIV tests are listed at $16.56.=C2=A0[4] The judge will refer to =
+the U.S. Sentencing Guidelines, which are not mandatory but which do carry =
+a lot of weight. Section 2B1.1 covers fraud, and there is a table of loss a=
+mounts (from =E2=80=9C$6,500 or less=E2=80=9D to =E2=80=9Cmore than $550,00=
+0,000=E2=80=9D) that is the main factor.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfmpb7.5y8r/142187be.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_218683791_292630353.1641320283497
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Elizabeth HolmesIn the early 2010s, Elizabeth Holmes pretended that she had=
+ invented a new technology to do blood tests, and used this prete
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.277659/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNjI1MzQ3NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY1MzExMzQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB8f138cd9" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D26253475&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26531134&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.277659/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMTA0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAxMDQmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB09c73273"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.277659/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNjI1MzQ3NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY1MzExMzQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC813158df" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D26253475&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26531134&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Elizabeth Holmes</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">In the early 2010s, Elizabeth Holmes p=
+retended that she had invented a new technology to do blood tests, and used=
+ this pretend technology to raise several hundred million dollars from gull=
+ible investors for her blood-testing startup, Theranos. Back in the 2010s t=
+his was all viewed as pretty noteworthy stuff, and it was huge news when Th=
+eranos=E2=80=99s technology turned out to be fake. We <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/26253475.277659/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDMtMTQvdGhlcmFub3MtbWlzbGVkLWludm=
+VzdG9ycy1hbmQtY29uc3VtZXJzLXdoby11c2VkLWl0cy1ibG9vZC10ZXN0P2NtcGlkPUJCRDAxM=
+DQyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0=
+bV90ZXJtPTIyMDEwNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23c=
+Bfaff9364" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> talked about</a> it a <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/26253475.277659/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+vcGluaW9uL2FydGljbGVzLzIwMTgtMDktMDUvdGhlLWJsb29kLXVuaWNvcm4taXMtZXh0aW5jdD=
+9jbXBpZD1CQkQwMTA0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9b=
+mV3c2xldHRlciZ1dG1fdGVybT0yMjAxMDQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ce=
+ef4b8524a319a23cBf54a50ca" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> bunch</a> here at Money Stuff, and at s=
+ome point I coined a <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/26253475.277659/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVz=
+LzIwMTYtMDUtMjYvbGlib3ItY2hhdHMtYW5kLWJpdGNvaW4tc2NhbXM_Y21waWQ9QkJEMDEwNDI=
+yX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3=
+Rlcm09MjIwMTA0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB47c=
+7b9da" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> pseudo-Linnaean name</a>=C2=A0for Theranos,=C2=A0<em>E</em>=
+<em>lasmotherium haimatos</em>, the Blood Unicorn.=C2=A0</p><p style=3D"mar=
+gin: 16px 0;">Now of course it is 2022 and we are all a bit more jaded. The=
+re was the SoftBank boom, we=E2=80=99ve had a couple of years of SPACs, the=
+re is so much crypto. Raising hundreds of millions of dollars from gullible=
+ investors who don=E2=80=99t do much due diligence is not particularly impr=
+essive anymore. If you want to do it by pretending to have a technology, yo=
+u can (try <a href=3D"https://link.mail.bloombergbusiness.com/click/2625347=
+5.277659/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMD=
+ItMjYvc3RhcnR1cHMtc29tZXRpbWVzLXN0cmV0Y2gtdGhlLXRydXRoP2NtcGlkPUJCRDAxMDQyM=
+l9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90=
+ZXJtPTIyMDEwNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB75c=
+92e4d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> electric vehicles</a>!), but these days even that is option=
+al. =E2=80=9CIn the past year, there has been a notable rush of funding int=
+o the high-risk category of early-stage startups, as investors have clamore=
+d to get into companies even before they had a staff or product,=E2=80=9D t=
+he Wall Street Journal <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/26253475.277659/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9hLWJvb21pbmctc3=
+RhcnR1cC1tYXJrZXQtcHJvbXB0cy1hbi1pbnZlc3RtZW50LXJ1c2gtZm9yLWV2ZXIteW91bmdlc=
+i1jb21wYW5pZXMtMTE2NDExMTk0MDM_bW9kPWhwX2xlYWRfcG9zNQ/607f07ceef4b8524a319a=
+23cB1829c8a4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">reported</a> on Sunday. Or you can raise lots of mone=
+y from investors by letting them pretend to own digital pictures of apes, o=
+r by just saying =E2=80=9Chey here=E2=80=99s a Ponzi.=E2=80=9D Theranos rai=
+sed a lot of money from investors who did not do too much due diligence, be=
+cause the world was awash in money and investors got careless; that is much=
+, much, much, much more true now, and Theranos looks a little quaint.</p><p=
+ style=3D"margin: 16px 0;">But the gears of criminal prosecution grind slow=
+ly and yesterday Elizabeth Holmes was <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/26253475.277659/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXd=
+zL2FydGljbGVzLzIwMjItMDEtMDMvaG9sbWVzLWp1cm9ycy1zYXktc3RydWdnbGluZy10by1yZW=
+FjaC12ZXJkaWN0LW9uLTMtb2YtMTEtY291bnRzP2NtcGlkPUJCRDAxMDQyMl9NT05FWVNUVUZGJ=
+nV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDEwNCZ1=
+dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBb3afac78" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ convicted of federal fraud charges</a>:</p><blockquote><p style=3D"margin:=
+ 16px 0;">Holmes was convicted of four out of 11 counts of conspiracy and w=
+ire fraud and acquitted of four counts. The jury didn=E2=80=99t reach a ver=
+dict on three of the counts. Holmes was found not guilty of all charges per=
+taining to defrauding patients. =E2=80=A6</p><p style=3D"margin: 16px 0;">A=
+fter deliberating for seven full days, jurors agreed Monday with prosecutor=
+s that Holmes lied to investors over several years about the accuracy and c=
+apabilities of Theranos blood analyzers. A parade of witnesses told jurors =
+they were gravely misled by the Stanford University dropout-turned-entrepre=
+neur. They ranged from executives at Walgreens and Safeway Inc. to James Ma=
+ttis, the former U.S. secretary of defense who served on the Theranos board=
+, as well as advisers to investors who poured hundreds of millions of dolla=
+rs into the company.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Par=
+t of <a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.2776=
+59/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTEtMDgv=
+ZWxvbi1tdXNrLWRpZC1zb21lLXR3ZWV0cz9jbXBpZD1CQkQwMTA0MjJfTU9ORVlTVFVGRiZ1dG1=
+fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAxMDQmdXRtX2=
+NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBef157df3" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> Holme=
+s=E2=80=99s defense</a> to the charges of defrauding investors was that tho=
+se investors did so little due diligence that at some level they must have =
+wanted to be defrauded. This defense did not work, and I am not sure it is =
+a valid legal defense, but I sympathize. One of the charges on which she wa=
+s <a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.277659/=
+aHR0cHM6Ly90d2l0dGVyLmNvbS9lcmluZ3JpZmZpdGgvc3RhdHVzLzE0NzgxNjEwODg3Mzg4NDg=
+3NzQ/607f07ceef4b8524a319a23cB30aab9d0" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">convicted</a> was defraudin=
+g Betsy DeVos=E2=80=99s family office out of a <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/26253475.277659/aHR0cHM6Ly93d3cubnl0aW1lcy5jb2=
+0vMjAyMi8wMS8wMy90ZWNobm9sb2d5L2VsaXphYmV0aC1ob2xtZXMtZ3VpbHR5Lmh0bWw/607f0=
+7ceef4b8524a319a23cBca069e75" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">$100 million</a> investment. Lisa Pet=
+erson, a DeVos family investment manager, <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/26253475.277659/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjA=
+yMS8xMS8wNC90ZWNobm9sb2d5L3RoZXJhbm9zLWVsaXphYmV0aC1ob2xtZXMtaW52ZXN0b3JzLW=
+RpbGlnZW5jZS5odG1sP3NtdHlwPWN1ciZzbWlkPXR3LW55dGltZXNidXNpbmVzcw/607f07ceef=
+4b8524a319a23cBe9817776" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">testified at the trial</a>:</p><blockquote=
+><p style=3D"margin: 16px 0;">Lance Wade, a lawyer for Ms. Holmes, asked Ms=
+. Peterson, an investment professional, if she was familiar with the concep=
+t of due diligence.</p><p style=3D"margin: 16px 0;">=E2=80=9CYou understand=
+ that=E2=80=99s a typical thing to do in investing?=E2=80=9D he said. =E2=
+=80=A6</p><p style=3D"margin: 16px 0;">Ms. Peterson testified that she was =
+scared Ms. Holmes would cut her firm out of the deal if they dug deeper int=
+o the details of Theranos=E2=80=99s business.</p><p style=3D"margin: 16px 0=
+;">=E2=80=9CWe were very careful not to circumvent things and upset Elizabe=
+th,=E2=80=9D she said. =E2=80=9CIf we did too much, we wouldn=E2=80=99t be =
+invited back to invest.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0=
+;">Yeah I dunno if you make 10 investments like that and one of them turns =
+out to be a total fraud I think you say =E2=80=9Chey that went pretty well=
+=E2=80=9D? Again, this was all sort of an exciting novelty in the early 201=
+0s but is old hat now. Here=E2=80=99s a Bloomberg News story from yesterday=
+ about =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/26=
+253475.277659/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItM=
+DEtMDQvd2hhdC1pbnZlc3RvcnMtbGVhcm5lZC1mcm9tLXRoZS1lbGl6YWJldGgtaG9sbWVzLXRy=
+aWFsLXplcm8_Y21waWQ9QkJEMDEwNDIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1=
+fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMTA0JnV0bV9jYW1wYWlnbj1tb25leXN0dW=
+Zm/607f07ceef4b8524a319a23cBebaa6913" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> What Investors Learned From =
+the Elizabeth Holmes Trial: =E2=80=98Zero=E2=80=99</a>=E2=80=9D:</p><blockq=
+uote><p style=3D"margin: 16px 0;">=E2=80=9CI don=E2=80=99t think a verdict =
+is going to change the way founders and VCs work in the ecosystem,=E2=80=9D=
+ said Angela Lee, who teaches venture capital at Columbia Business School a=
+nd runs 37 Angels, an investment network that focuses on early-stage digita=
+l health companies. =E2=80=9CIt's about supply and demand, and there's a tr=
+emendous capital supply with the same number of awesome companies.=E2=80=9D=
+</p><p style=3D"margin: 16px 0;">When investors are competing to get into a=
+ round, one way they can edge out a rival is through speed. =E2=80=9CI can'=
+t tell you how many times I hear, =E2=80=98So-and-so is in this deal, they'=
+re a name-brand VC, you have five days -- are you in or are you out?=E2=80=
+=99=E2=80=9D she said. =E2=80=9CPeople don't want to miss out. I am not see=
+ing more thoughtful diligence. If anything, I=E2=80=99m actually seeing a s=
+ped-up timeline for diligence in the last couple of years.=E2=80=9D</p><p s=
+tyle=3D"margin: 16px 0;">Lee said the trial doesn=E2=80=99t seem to be prom=
+pting investors to re-examine their diligence practices. =E2=80=9CI've hear=
+d zero people say, =E2=80=98Oh, this should make me look differently,=E2=80=
+=99 -- zero,=E2=80=9D she said. =E2=80=9CIt's treated like salacious gossip=
+ or an entertaining story.=E2=80=9D</p></blockquote><p style=3D"margin: 16p=
+x 0;">Also I think this is obviously the=C2=A0<em>correct=C2=A0</em>lesson =
+for investors to learn from Theranos? If the lesson you learned from Theran=
+os=E2=80=99s fall in 2015, or 2018, was =E2=80=9CI am not going to invest i=
+n any tech companies with charismatic founders and vague promises unless I=
+=E2=80=99ve done thorough rigorous diligence, and if those founders object =
+to that then they are not getting my money,=E2=80=9D then you have missed a=
+ lot of good deals and the founders have not missed your money.[1] Betsy De=
+Vos is still rich despite blowing $100 million on Theranos, and lots of peo=
+ple who have casually rushed into fundraising rounds or SPACs or crypto Pon=
+zis or NFT drops or whatever in the last few years have done quite well.=C2=
+=A0In a generally rising market where lots of fortunes are being made quick=
+ly, rushing to back=C2=A0popular projects without a lot of due diligence se=
+ems to=C2=A0<em>work</em>, and if you back enough of them you=E2=80=99ll be=
+ fine even if a few are frauds. The ones that work make you rich; the ones =
+that are frauds give you an entertaining story.</p><p style=3D"margin: 16px=
+ 0;">It=E2=80=99s less entertaining for Holmes, who is heading for prison. =
+It seems clear to me that one reason she was prosecuted while so many other=
+ fake-it-=E2=80=99til-you-make-it tech founders are not is that she was mak=
+ing fake=C2=A0<em>blood tests=C2=A0</em>and actually marketing them to pati=
+ents. =E2=80=9CBetsy DeVos lost $100 million on a failed startup=E2=80=9D i=
+s in a sense a less sympathetic story than =E2=80=9Csome regular person wen=
+t to a drugstore, got an HIV test, and was falsely told that he was HIV-pos=
+itive, upending his life.=E2=80=9D But Holmes was acquitted on the charges =
+of defrauding patients; she was only convicted on (some of) the charges of =
+defrauding investors.</p><p style=3D"margin: 16px 0;">There is I think an e=
+lement of =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click=
+/26253475.277659/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLz=
+IwMjEtMDItMDMvZ29sZG1hbi1zYWNocy1nb2VzLXRvLXN1cHJlbWUtY291cnQtaGVkZ2UtZnVuZ=
+HMtd29uLW9uLWdhbWVzdG9wLWtrcG9lNndzP2NtcGlkPUJCRDAxMDQyMl9NT05FWVNUVUZGJnV0=
+bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDEwNCZ1dG1=
+fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBa3a36063" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">ever=
+ything is securities fraud</a>=E2=80=9D here. It turns out that there is ap=
+parently not a federal crime of =E2=80=9Cgiving someone a fake diagnosis.=
+=E2=80=9D Or, I mean, I guess there is, but it is the main all-purpose fede=
+ral white-collar crime: It is =E2=80=9Cwire fraud.=E2=80=9D Telling someone=
+ a lie for money is wire fraud.[2] If you tell someone =E2=80=9Chey I have =
+invented a good blood test machine, want to invest?=E2=80=9D and they give =
+you $100 million for stock, that=E2=80=99s wire fraud. If you tell someone =
+=E2=80=9Chey I have invented a good blood test machine, want a blood test?=
+=E2=80=9D and they give you like $14.95 for a blood test, that=E2=80=99s wi=
+re fraud.</p><p style=3D"margin: 16px 0;">And so when Holmes was charged wi=
+th wire fraud, it was for a mix of investor fraud and patient fraud. =E2=80=
+=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.277659=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMDMvaG9sbW=
+VzLWp1cm9ycy1zYXktc3RydWdnbGluZy10by1yZWFjaC12ZXJkaWN0LW9uLTMtb2YtMTEtY291b=
+nRzP2NtcGlkPUJCRDAxMDQyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJj=
+ZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDEwNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f=
+07ceef4b8524a319a23cCb3afac78" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> Jurors heard</a> Theranos patients =
+testify their blood-test results falsely led them to believe they had unhea=
+lthy conditions,=E2=80=9D but found Holmes not guilty on those counts.=C2=
+=A0I don=E2=80=99t know why =E2=80=94 I was not at the trial, and I certain=
+ly wasn=E2=80=99t in the jury room =E2=80=94=C2=A0but it seems plausible th=
+at Holmes was less personally culpable for those tests than she was for her=
+ own pitches to investors. But never mind that.</p><p style=3D"margin: 16px=
+ 0;">Instead, my point here is that if you do a fake blood test on a patien=
+t, you have arguably defrauded him (though Holmes was=C2=A0<em>acquitted=C2=
+=A0</em>of that), but=C2=A0<em>how much=C2=A0</em>have you defrauded him re=
+ally? Arguably the answer is quite a lot; arguably he is quite badly harmed=
+ by thinking he had a deadly disease and taking drastic steps to fight it, =
+or thinking he did not have a deadly disease and missing the chance to figh=
+t it. But arguably the answer is $14.95, or whatever he paid for the blood =
+test (I made that number up[3]): You were doing fraud for money, and the mo=
+ney you got from any one patient is fairly small. Whereas the money you got=
+ from Betsy DeVos was $100 million.</p><p style=3D"margin: 16px 0;">This is=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.277659/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMDUvZHlz=
+dG9waWFuLWZ1dHVyZS1zZWN1cml0aWVzLWZyYXVkP2NtcGlkPUJCRDAxMDQyMl9NT05FWVNUVUZ=
+GJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDEwNC=
+Z1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB1058ed36" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> a story I often tell</a>: When a company harms some class of people in so=
+me bad but essentially non-monetary way, it is hard to quantify the damages=
+ as money; when a company harms its shareholders, you can just see how much=
+ the stock went down. (Theranos was never public but, uh, <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/26253475.277659/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDktMDUvdGhlLWJsb29kLXVuaWNvcm=
+4taXMtZXh0aW5jdD9jbXBpZD1CQkQwMTA0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJ=
+nV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAxMDQmdXRtX2NhbXBhaWduPW1vbmV5=
+c3R1ZmY/607f07ceef4b8524a319a23cCf54a50ca" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">the stock went to zero</=
+a>.) Ordinarily this is a story about the incentives facing plaintiffs=E2=
+=80=99 lawyers: If a company has a rampant culture of sexual harassment, it=
+ is much more pleasant for plaintiffs=E2=80=99 lawyers to bring a securitie=
+s-fraud class action (=E2=80=9Cwhen the sexual-harassment news came out the=
+ stock went down=E2=80=9D) than it is for them to bring a sexual-harassment=
+ class action (=E2=80=9Ceach of these 1,000 employees were victims of a pat=
+tern of sexual harassment at your company=E2=80=9D), because the facts are =
+neater and the plaintiffs more uniform and=C2=A0the damages much easier to =
+prove and probably larger.</p><p style=3D"margin: 16px 0;">But this is true=
+ for prosecutors bringing wire-fraud charges too. Prosecutors do not want t=
+o bring a federal criminal case against someone who defrauded a victim out =
+of $14.95. Even someone who defrauded 1,000 victims out of $14.95 each is t=
+ough; you have to prove the facts about each victim. Even if the fraud also=
+ involved giving those victims scary and harmful medical misdiagnoses.=C2=
+=A0</p><p style=3D"margin: 16px 0;">This is partly just a matter of putting=
+ big numbers in the press release, and it=E2=80=99s partly a matter of what=
+=E2=80=99s easier to prove =E2=80=94=C2=A0remember the jury acquitted Holme=
+s of the patient charges =E2=80=94 but it=E2=80=99s also a matter of=C2=A0<=
+em>sentencing</em>. Prosecutors want to bring big cases that get long priso=
+n sentences. There are=C2=A0various factors that go into a prison sentence =
+for wire fraud, but by far the most important one is the amount of money in=
+volved.[4]=C2=A0A $100 million fraud will get a long sentence. A small-mone=
+y=C2=A0fraud on retail purchasers =E2=80=94=C2=A0even one with hundreds of =
+victims =E2=80=94=C2=A0even one where the victims suffered not so much the =
+out-of-pocket cost of a blood test but rather the emotional and medical pro=
+blems of a bad test result =E2=80=94=C2=A0will not amount to much money and=
+ so will tend to get a shorter sentence. If the main all-purpose federal cr=
+ime is wire fraud, then the law will focus on the biggest wire frauds, and =
+the biggest wire frauds, measured by money, tend to be the ones against sha=
+reholders.</p><table class=3D"liveintent-sponsored-content" width=3D"auto" =
+cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.277659/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjI1MzQ3NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY1MzExMzQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD066c9f33" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26253475&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26531134&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.277659/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjI1MzQ3NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY1MzExMzQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE066c9f33" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26253475&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26531134&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.277659/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjI1MzQ3NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY1MzExMzQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF295e631a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26253475&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26531134&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.277659/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjI1MzQ3NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY1MzExMzQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG295e631a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26253475&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26531134&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Anti-ESG</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Has anyone started the, like, Let=E2=
+=80=99s Destroy The Earth Fund yet? I feel like if you started a private eq=
+uity fund with an explicit mandate to invest in things with the worst envir=
+onmental, social and governance attributes, then you=E2=80=99d have two rea=
+lly strong marketing points:</p><ol style=3D"list-style-type: decimal; padd=
+ing-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">There=
+ is <a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.27765=
+9/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDctMDgvc=
+29tZW9uZS1pcy1nb2luZy10by1kcmlsbC10aGUtb2lsP2NtcGlkPUJCRDAxMDQyMl9NT05FWVNU=
+VUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDE=
+wNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB72e2ab0e" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">  a simple story to be told</a> that, as investors demand ESG and shun =
+assets with bad ESG scores, those assets will be underpriced and you can bu=
+y them cheap and get good returns; plus</li>=09<li style=3D"margin-bottom: =
+5px;">In the U.S., there is=C2=A0political polarization around ESG, and you=
+ could market your fund to all the people who don=E2=80=99t want BlackRock =
+Inc. to go around saving the world on their behalf.</li></ol><p style=3D"ma=
+rgin: 16px 0;">Seems like a good business. <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/26253475.277659/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9uZXdzL2FydGljbGVzLzIwMjItMDEtMDMvcHJpdmF0ZS1lcXVpdHktbGluZXMtdXAtZm9yLWNvY=
+WwtYm9uYW56YS1sZWZ0LWJ5LXB1YmxpYy1taW5lcnM_Y21waWQ9QkJEMDEwNDIyX01PTkVZU1RV=
+RkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMTA=
+0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBa39f7a4c" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> Anyway</a>:</p><blockquote><p style=3D"margin: 16px 0;">Private equity f=
+irms are lining up to take on the dirty -- and highly profitable -- assets =
+being divested by publicly traded commodity producers as the world grapples=
+ to decarbonize.</p><p style=3D"margin: 16px 0;">In the latest example, pri=
+vate equity accounted for most of the 30 so-called western candidates that =
+signed non-disclosure agreements in the sale of Vale SA=E2=80=99s Mozambiqu=
+e coal business, according to Luciano Siani Pires, head of strategy and bus=
+iness transformation at Rio de Janeiro-based Vale.</p></blockquote><p style=
+=3D"margin: 16px 0;">On LinkedIn, <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/26253475.277659/aHR0cHM6Ly93d3cubGlua2VkaW4uY29tL3Bvc3RzL2x=
+1Y2lhbm8tc2lhbmktcGlyZXNfYS1mZXctZGF5cy1iZWZvcmUtY2hyaXN0bWFzLXZhbGUtc2lnbm=
+VkLWFjdGl2aXR5LTY4ODMxNTAxMDkxMzYyMjQyNTYtTUZXNC8/607f07ceef4b8524a319a23cB=
+7510a8a4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">Siani=C2=A0writes</a>:</p><blockquote><p style=3D"margin:=
+ 16px 0;">Precisely because coal-related assets have become toxic for liste=
+d companies, private equity firms are hunting thermal coal power plants and=
+ coal mining properties across the world at bargain prices, aiming at juicy=
+ returns, as they do not have ESG-minded constituencies to attend to. ...</=
+p><p style=3D"margin: 16px 0;">In both Coal and Oil, private equity firms a=
+re betting that the energy transition will take longer than expected and th=
+at demand will outpace a shrinking supply. The ensuing combination of high =
+commodity prices and low acquisition costs for unwelcome assets may provide=
+ these firms the bonanza of a lifetime.</p></blockquote><p style=3D"margin:=
+ 16px 0;">I think =E2=80=9Cget the bonanza of a lifetime while also destroy=
+ing the environment=E2=80=9D is not a pitch that will appeal to everybody, =
+but it definitely will appeal to somebody?=C2=A0</p><table class=3D"liveint=
+ent-flex-ad" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"cent=
+er">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.277659/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNjI1MzQ3NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY1MzExMzQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH9cb3c8c7" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D26253475&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26531134&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Pro-ESG</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Speaking of BlackRock Inc. saving the =
+world on your behalf, BlackRock Chief Executive Officer Larry Fink said rec=
+ently about its ESG efforts=C2=A0that=C2=A0=E2=80=9CBlackRock is a leader i=
+n this, and we are seeing the flows, and I continue to see this big shift i=
+n investor portfolios.=E2=80=9D But <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/26253475.277659/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjEtMTItMzEvaG93LWJsYWNrcm9jay1zLWludmlzaWJsZS1oYW5kLWhlbHBl=
+ZC1tYWtlLWVzZy1hLWhvdC10aWNrZXQ_Y21waWQ9QkJEMDEwNDIyX01PTkVZU1RVRkYmdXRtX21=
+lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMTA0JnV0bV9jYW=
+1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB3fbab451" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> Bloomber=
+g News=C2=A0notes</a>:</p><blockquote><p style=3D"margin: 16px 0;">What Fin=
+k did not say is that BlackRock drove a significant part of that shift by i=
+nserting its primary ESG fund into popular and influential model portfolios=
+ offered to investment advisers, who use them with clients across North Ame=
+rica. The huge flows from such models mean many investors got into an ESG v=
+ehicle without necessarily choosing one as a specific investment strategy, =
+or even knowing that their money has gone into one.</p><p style=3D"margin: =
+16px 0;">In short, an apparent BlackRock-led rush of investors into ESG in =
+the past two years has been something of a self-fulfilling prophecy, at lea=
+st when it comes to the biggest such fund on the planet, a BlackRock exchan=
+ge-traded fund that trades under the ticker symbol ESGU, according to data =
+from BlackRock and Morningstar. ...</p><p style=3D"margin: 16px 0;">On Jan.=
+ 15, 2020, the day after Fink=E2=80=99s letter predicted a major reallocati=
+on of capital into sustainability, BlackRock altered its most popular suite=
+ of model portfolios by adding ESGU into its =E2=80=9CTarget Allocation ETF=
+ Portfolio Strategies=E2=80=9D series. (The biggest and most popular one in=
+side the suite, which offers a 60/40 split between stocks and fixed income =
+investments, includes ESGU as one of its top two holdings.)</p><p style=3D"=
+margin: 16px 0;">In this way, BlackRock itself helped assure Fink=E2=80=99s=
+ prediction would come true. Financial planners who use the models through =
+online platforms have had no choice but to put their clients in ESGU if the=
+y wanted to get them into one of the most popular investment strategies for=
+ sale.</p></blockquote><p style=3D"margin: 16px 0;">This seems =E2=80=A6=C2=
+=A0obviously good? The problem, for BlackRock, is that it is largely in the=
+ business of selling index funds. It has a big S&amp;P 500 index fund, and =
+if a stock is in the S&amp;P 500 index then BlackRock has to own that stock=
+, and if that stock is a coal company then, you know, oops. BlackRock can g=
+o to the coal company and say =E2=80=9Cwe are a 5% shareholder of your comp=
+any and we want you to mine less coal,=E2=80=9D but (1) that is pretty self=
+-defeating and (2) if the company says no, what can BlackRock=C2=A0do,=C2=
+=A0sell its stock? And so Larry Fink sends out letters about how companies =
+should do better at ESG, but his funds mostly don=E2=80=99t get to pick wha=
+t stocks they buy, so they end up owning lots of stocks that are bad at ESG=
+.</p><p style=3D"margin: 16px 0;">But Fink does get to pick, within limits,=
+=C2=A0<em>what funds his investors buy</em>. If you change the model portfo=
+lio=E2=80=99s main stock allocation from the S&amp;P 500 to an ESG fund, an=
+d your clients blithely go along, then you will find yourself buying more g=
+ood ESG stocks and fewer bad ESG stocks while still basically offering inde=
+x funds. As a <em>fund manager</em>=C2=A0you are largely passive, but as a=
+=C2=A0<em>marketer of funds=C2=A0</em>you get to do quite a lot of active a=
+llocation. The people buying your passive funds are not, after all, deeply =
+engaged connoisseurs of the stock market; they=E2=80=99re buying a model po=
+rtfolio of passive BlackRock funds because they don't want to think too har=
+d about stocks. Might as well put the stocks=C2=A0you like in there!</p><p =
+style=3D"margin: 16px 0;">When BlackRock first announced its plans to do th=
+is back in 2020, <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+6253475.277659/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIw=
+MjAtMDEtMTQvYmxhY2tyb2NrLWhhcy1ncmVlbi1wbGFucz9jbXBpZD1CQkQwMTA0MjJfTU9ORVl=
+TVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMj=
+AxMDQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB292a1855" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> I wrote</a>:</p><blockquote><p style=3D"margin: 16px 0;">The right m=
+odel of BlackRock is probably that it is mostly an aggregator of preference=
+s, but it is also, at the margin, a shaper of preferences.=C2=A0It passivel=
+y reflects what investors want generally, but it has some ability to push t=
+hose investors to want different things. There are other things that BlackR=
+ock does=E2=80=94it votes the shares of stock that it owns on behalf of inv=
+estors, it meets with managers to talk about their sustainability plans, it=
+ writes strongly worded letters to CEOs=E2=80=94but I suspect that they=E2=
+=80=99re mostly less important than the basic core function of taking $7 tr=
+illion from investors, channeling it where the investors want it to go, and=
+ slowly and subtly diverting those channels so that the money moves=C2=A0mo=
+re in the direction that=C2=A0<em>BlackRock=C2=A0</em>wants it to go.=C2=A0=
+</p></blockquote><p style=3D"margin: 16px 0;">Obviously if you think that B=
+lackRock=E2=80=99s goals are bad =E2=80=94=C2=A0for instance if you think t=
+hat ESG in general, or BlackRock=E2=80=99s implementation of it in particul=
+ar, is a scam =E2=80=94=C2=A0then this seems bad. But if you are Larry Fink=
+ and you=C2=A0<em>genuinely believe that ESG investing can make the world b=
+etter</em>, then this is the best possible outcome. Abandoning broad index =
+investing to be ESG-only will lose you customers, abandoning ESG to serve y=
+our broad index customers will be bad for the world, but gently nudging you=
+r index customers into ESG indexes will let you do good while doing well. A=
+lso of course the fees are higher:</p><blockquote><p style=3D"margin: 16px =
+0;">ESGU=E2=80=99s fees are lower than industry averages for sustainable fu=
+nds but are still five times higher than an S&amp;P 500 tracker that trades=
+ under the ticker IVV =C2=A0-- a popular BlackRock fund whose makeup and ex=
+pected performance are closely aligned with those of ESGU.</p></blockquote>=
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Can=E2=80=99t believe Ken Griffin is going to buy Blockbuster now</h2=
+>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Yeah I mean <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/26253475.277659/aHR0cHM6Ly93d3cudGhlYmxvY2tj=
+cnlwdG8uY29tL2xpbmtlZC8xMjg1NjQvYS1kYW8td2FudHMtdG8tYnV5LWJsb2NrYnVzdGVyLWF=
+uZC10dXJuLWl0LWludG8tYS1kZWNlbnRyYWxpemVkLWZpbG0tc3RyZWFtaW5nLXNlcnZpY2U_dX=
+RtX3NvdXJjZT10d2l0dGVyJnV0bV9tZWRpdW09c29jaWFs/607f07ceef4b8524a319a23cBd69=
+4d9f2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">sure of course right</a>:</p><blockquote><p style=3D"margin:=
+ 16px 0;">Just weeks after a decentralized autonomous organization (DAO) tr=
+ied to buy an original copy of the US Constitution, another historical arti=
+fact has become the target of a DAO: the defunct movie rental business Bloc=
+kbuster.=C2=A0</p><p style=3D"margin: 16px 0;">The new DAO=E2=80=99s name i=
+s, aptly, BlockbusterDAO. According to a Twitter thread posted on December =
+25, BlockbusterDAO seeks to govern the Blockbuster brand and create a decen=
+tralized film streaming service out of it =E2=80=94 with plans for movie fi=
+nancing and production down the road.=C2=A0</p><p style=3D"margin: 16px 0;"=
+>To achieve its goals, BlockbusterDAO intends to raise $5 million to purcha=
+se Blockbuster from Dish Network, an American television provider that boug=
+ht the movie rental company in 2011. BlockbusterDAO aims to raise the cash =
+by selling BlockbusterDAO NFTs for 0.13 ETH (about $530 USD).=C2=A0</p></bl=
+ockquote><p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/26253475.277659/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjEtMTItMjAvanBtb3JnYW4tc2VudC10aGUtd3JvbmctZW1haWx=
+zP2NtcGlkPUJCRDAxMDQyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT=
+1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDEwNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07=
+ceef4b8524a319a23cB1749d3bd" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> talked last month</a> about some guys=
+ who bought RadioShack out of bankruptcy to pivot it to crypto, and this fo=
+llows a similar playbook. You take the basic bones of the GameStop situatio=
+n (nostalgic brand, physical stores rendered obsolete by streaming, vague p=
+lans for digital pivot), you sprinkle some crypto over it (it's a DAO, it's=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.277659/a=
+HR0cHM6Ly90d2l0dGVyLmNvbS9ibG9ja2J1c3RlcmRhby9zdGF0dXMvMTQ3NDk2MDM3MzI5MTc0=
+OTM3OD9zPTEx/607f07ceef4b8524a319a23cB00585782" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">going to be</a> =E2=
+=80=9Cthe first-ever DeFilm streaming platform=E2=80=9D), and, boom, you=E2=
+=80=99ve got a thing.</p><p style=3D"margin: 16px 0;">Here in particular th=
+ere are endless possible vehicles for speculation, as the BlockbusterDAO Tw=
+itter account <a href=3D"https://link.mail.bloombergbusiness.com/click/2625=
+3475.277659/aHR0cHM6Ly90d2l0dGVyLmNvbS9CbG9ja2J1c3RlckRBTy9zdGF0dXMvMTQ3NDk=
+2MDM4NDc4NDQ3NDExMg/607f07ceef4b8524a319a23cB16f4293c" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">lays out</a>=
+:</p><blockquote><p style=3D"margin: 16px 0;">Allow BlockHead staking to co=
+llect BlockBuster Rewards. =E2=80=A6 It will be important to start building=
+ out rewards for DAO participation and community events. ...</p><p style=3D=
+"margin: 16px 0;">Develop a Blockbuster NFT presence and use proceeds to fu=
+nd development. ...</p><p style=3D"margin: 16px 0;">We can create a =E2=80=
+=9CMovie Pass=E2=80=9D subscription model for our plaform, making those pas=
+ses ERC-20 tokens that have resale value.</p></blockquote><p style=3D"margi=
+n: 16px 0;">Etc. Just turn every part of the experience into its own specul=
+ative asset. Will this be a better way to watch movies? I mean, I dunno, pr=
+obably not as an aesthetic experience or anything, but sure yes probably =
+=E2=80=9Cwatching movies and also somehow getting paid a million dollars fo=
+r it=E2=80=9D does seem superior to =E2=80=9Cwatching movies and paying for=
+ it.=E2=80=9D=C2=A0</p><p style=3D"margin: 16px 0;">We <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/26253475.277659/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTItMjEvdGhlcmUtcy1pbnNpZGUtaW5mb=
+3JtYXRpb24taW4tc2VjLWZpbGluZ3M_Y21waWQ9QkJEMDEwNDIyX01PTkVZU1RVRkYmdXRtX21l=
+ZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMTA0JnV0bV9jYW1=
+wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB78aa4cc0" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> talked la=
+st month</a> about Web3, the new name for crypto-based internet services. =
+=E2=80=9CA basic premise of Web3 is that every product is simultaneously an=
+ investment opportunity,=E2=80=9D I wrote:</p><blockquote><p style=3D"margi=
+n: 16px 0;">It=E2=80=99s as if being an early user of Facebook or Uber also=
+ automatically made you a=C2=A0<em>shareholder=C2=A0</em>of Facebook or Ube=
+r, and when those services got huge you got rich. ...</p><p style=3D"margin=
+: 16px 0;">What sort of incentives does this create to spend your time maki=
+ng good products? Not none! But =E2=80=A6 attenuated, no? If you could spen=
+d a day optimizing the color scheme and messaging mechanics of your social =
+network, or instead optimizing the payoff structure of the tokens, which on=
+e creates more value? If every product is also an investment, will the prod=
+uct engineers be mostly financial engineers?</p></blockquote><p style=3D"ma=
+rgin: 16px 0;">The pitch here is not, you know, about the technical skills =
+of the people building the DeFilm streaming platform, or about their aesthe=
+tic judgment in movies, or even about their marketing skills. The pitch her=
+e is that there are a bunch of speculative assets, because that is what Web=
+3 is.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bank error in your favor</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/26253475.277659/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi=
+8wMS8wMS9idXNpbmVzcy9zYW50YW5kZXItYmFuay1leHRyYS1wYXltZW50cy5odG1s/607f07ce=
+ef4b8524a319a23cB7a07cf72" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">don=E2=80=99t know man</a>:</p><blockquo=
+te><p style=3D"margin: 16px 0;">Santander UK is trying to recover about $17=
+5 million, or about 130 million pounds, that it accidentally paid tens of t=
+housands of people on Christmas Day.</p><p style=3D"margin: 16px 0;">About =
+75,000 people received the mistaken payments, including many customers of r=
+ival banks. Santander is seeking help from the other banks to recoup the mo=
+ney, the bank said in a statement.</p><p style=3D"margin: 16px 0;">The mist=
+aken deposits could look like normal payments to recipients because they we=
+re duplicates of regular and one-off payments that about 2,000 of the bank=
+=E2=80=99s commercial and corporate customers had already paid to people in=
+cluding their suppliers and employees.</p><p style=3D"margin: 16px 0;">Sant=
+ander said the money for those second payments did not come from its custom=
+ers. =E2=80=A6=C2=A0Santander UK, the British arm of Banco Santander of Spa=
+in, has more than 14.4 million customers. The British operation reported pr=
+ofits of about $929 million (=C2=A3687 million) before taxes in the third q=
+uarter of this year, up from =C2=A3151 million in the same period in 2020.<=
+/p></blockquote><p style=3D"margin: 16px 0;">I am not going to give anyone =
+any legal or financial advice here but I feel like if you=E2=80=99re a big =
+profitable bank and you wake up on Boxing Day to find out that you accident=
+ally handed out $175 million of Christmas presents to your customers=E2=80=
+=99 payees, you have two options.</p><ol style=3D"list-style-type: decimal;=
+ padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">=
+You can say =E2=80=9Coops sorry about that,=E2=80=9D Grinchily try to get t=
+he money back, end up suing some people who spent it, and explain to your r=
+egulators why you can=E2=80=99t do the essential banking task of keeping tr=
+ack of the money.</li>=09<li style=3D"margin-bottom: 5px;">Or! Or, you can =
+put out a press release that=C2=A0is like =E2=80=9CSantander UK just gave o=
+ut $175 million in Christmas presents to thousands of people, because we ca=
+re, Santander, the bank that cares or whatever.=E2=80=9D And then everyone =
+is like =E2=80=9Cwow what a good bank=E2=80=9D and opens a credit card with=
+ you.</li></ol><p style=3D"margin: 16px 0;">Does Option 2 buy you $175 mill=
+ion worth of good publicity? Probably not, versus a baseline of not doing a=
+ny of this. But does it save you $175 million of aggravation, versus Option=
+ 1? Maybe? I guess the problem with Option 2 is your regulators are not goi=
+ng to believe it, and you=E2=80=99re going to have to explain <em>both=C2=
+=A0</em>why you couldn't keep track of the money <em>and=C2=A0</em>why you =
+covered it up by pretending you meant to do it.</p><table class=3D"header" =
+width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">WAGMI</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here is I guess <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/26253475.277659/aHR0cHM6Ly93d3cueW91dHVi=
+ZS5jb20vd2F0Y2g_dj1qaWVSeld5NTNBVQ/607f07ceef4b8524a319a23cBc22fdc51" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">a song and music video</a> made by some NFTs? I don=E2=80=99t know, I go=
+t a press release saying =E2=80=9CIt is the first band made up of entirely =
+NFT characters and personalities, and also represents the biggest cross-com=
+munity collaboration between several of the most famous communities in the =
+space: CryptoPunks, Bored Ape, Cool Cat, World of Women, and a Wicked Crani=
+um.=E2=80=9D Okay! Okay! Okay! The song is called =E2=80=9CWAGMI=E2=80=9D (=
+for =E2=80=9Cwe=E2=80=99re all gonna make it=E2=80=9D) and the lyrics inclu=
+de =E2=80=9Call the FUD don=E2=80=99t matter to me, we got community=E2=80=
+=9D and honestly it=E2=80=99s not too bad? I wish a team of NFTs wrote this=
+ newsletter.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">WeWork Co-Founder <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/26253475.277659/aHR0cHM6Ly93d3cud3NqLm=
+NvbS9hcnRpY2xlcy93ZXdvcmstY28tZm91bmRlci1hZGFtLW5ldW1hbm4taXMtYmVjb21pbmctY=
+W4tYXBhcnRtZW50LW1vZ3VsLTExNjQxMjkyMjA3P21vZD1ocF9sZWFkX3BvczEw/607f07ceef4=
+b8524a319a23cBadba4b85" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">Adam Neumann</a> Is Becoming an Apartment M=
+ogul.=C2=A0Evergrande Is Told to <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/26253475.277659/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ldmVy=
+Z3JhbmRlLWlzLXRvbGQtdG8tdGVhci1kb3duLTM5LWJ1aWxkaW5ncy1vbi1tYW4tbWFkZS1pc2x=
+hbmQtMTE2NDEzMDIxODM_bW9kPWhwX2xlYWRfcG9zNg/607f07ceef4b8524a319a23cBb18bcf=
+79" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Tear Down 39 Buildings</a> on Man-Made Island. Junior <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26253475.277659/aHR0cHM6L=
+y93d3cuZnQuY29tL2NvbnRlbnQvZjQwMDYyNDgtZWIwNS00OWQyLWE5MzgtZDcwMTE4YzRjZTFi=
+/607f07ceef4b8524a319a23cB8b2cafe7" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">lawyer burnout</a>: M&amp;A boo=
+m accelerates exit from elite firms.=C2=A0Private Equity Firm <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/26253475.277659/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMDQvcHJpYXZlLWVxdWl0eS1maX=
+JtLXRwZy1zZXRzLXRlcm1zLWZvci11cC10by0xLTA1LWJpbGxpb24taXBvP2NtcGlkPUJCRDAxM=
+DQyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0=
+bV90ZXJtPTIyMDEwNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23c=
+B87cc219b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> TPG</a> Sets Terms for Up to $1.05 Billion IPO.=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/26253475.277659/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMDQvc3VidGxlLXd=
+vcmQtY2hvaWNlLWluLWNoaW5hLWlwby1ydWxlcy1yZXZpdmVzLWhvcGUtZm9yLWhvbmcta29uZz=
+9jbXBpZD1CQkQwMTA0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9b=
+mV3c2xldHRlciZ1dG1fdGVybT0yMjAxMDQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ce=
+ef4b8524a319a23cB2b643d9e" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">Subtle Word Choice</a> in China IPO Rule=
+s Revives Hope for Hong Kong. <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26253475.277659/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGl=
+jbGVzLzIwMjItMDEtMDQvcm9rb3Mtcy1oZWRnZS1mdW5kLXJhaXNlcy0xLWJpbGxpb24tYWZ0ZX=
+ItcmVjb3JkLWFubnVhbC1sb3NzP2NtcGlkPUJCRDAxMDQyMl9NT05FWVNUVUZGJnV0bV9tZWRpd=
+W09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDEwNCZ1dG1fY2FtcGFp=
+Z249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB874eb102" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Rokos=E2=80=
+=99s</a> Hedge Fund Raises $1 Billion After Record Annual Loss. Hedge fund =
+behemoth <a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.=
+277659/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8wMS8wMy9idXNpbmVzcy9icmlkZ2V3=
+YXRlci1jaGllZi1leGVjdXRpdmVzLmh0bWw/607f07ceef4b8524a319a23cBe49e0c22" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">Bridgewater</a> names new co-chief executives. U.S. Catches <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/26253475.277659/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMDMva3JlbWxpbi1pbnNpZGVy=
+LWtseXVzaGluLWlzLXNhaWQtdG8taGF2ZS0yMDE2LWhhY2stZGV0YWlscz9jbXBpZD1CQkQwMTA=
+0MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG=
+1fdGVybT0yMjAxMDQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB=
+26286368" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> Kremlin Insider</a> Who May Have Secrets of 2016 Hack. C=
+rypto CEO <a href=3D"https://link.mail.bloombergbusiness.com/click/26253475=
+.277659/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jcnlwdG8tY2VvLWJyaWFuLWFybXN=
+0cm9uZy1idXlzLWxvcy1hbmdlbGVzLWhvbWUtZm9yLTEzMy1taWxsaW9uLTExNjQxMjQ5Nzg3P2=
+1vZD1lMnR3/607f07ceef4b8524a319a23cB7c01122f" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">Brian Armstrong</a> B=
+uys Los Angeles Home for $133 Million. Tesla <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/26253475.277659/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRp=
+Y2xlcy90ZXNsYS1vcGVucy1zaG93cm9vbS1pbi1jaGluYXMteGluamlhbmctcmVnaW9uLWF0LWN=
+lbnRlci1vZi11LXMtZ2Vub2NpZGUtYWxsZWdhdGlvbnMtMTE2NDEyMTQ2MzA_bW9kPWhwX2xlYW=
+RfcG9zMw/607f07ceef4b8524a319a23cBb48ec71f" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">Opens Showroom</a> in C=
+hina=E2=80=99s Xinjiang, Region at Center of U.S. Genocide Allegations. Twi=
+ns born in <a href=3D"https://link.mail.bloombergbusiness.com/click/2625347=
+5.277659/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjIvMDEvMDIvdHdpbnMtYm9ybi1qdXN0LTE1LW=
+1pbnV0ZXMtYXBhcnQtYnV0LWluLWRpZmZlcmVudC15ZWFycy8/607f07ceef4b8524a319a23cB=
+6217b83e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">different years</a>.=C2=A0Did a Meteor <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/26253475.277659/aHR0cHM6Ly93d3cubnl0=
+aW1lcy5jb20vMjAyMi8wMS8wMi91cy9tZXRlb3ItZXhwbG9zaW9uLXBpdHRzYnVyZ2guaHRtbA/=
+607f07ceef4b8524a319a23cBd2b715c8" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">Explode Over Pittsburgh</a>?</p>=
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/26253475.277659/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB3a30686d" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/26253475.277659/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB802dbe65" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p><p style=3D"margin: 16px 0;"><em>[1] If you learn that lesson *now*, at =
+the beginning of 2022, maybe it=E2=80=99ll work out great for you, but that=
+ is essentially a macro/markets question. =E2=80=9C<a href=3D"https://link.=
+mail.bloombergbusiness.com/click/26253475.277659/aHR0cHM6Ly93d3cuYnJhaW55cX=
+VvdGUuY29tL3F1b3Rlcy93YXJyZW5fYnVmZmV0dF8zODM5MzMjOn46dGV4dD1XYXJyZW4lMjBCd=
+WZmZXR0JTIwUXVvdGVzJnRleHQ9UGxlYXNlJTIwZW5hYmxlJTIwSmF2YXNjcmlwdC0sT25seSUy=
+MHdoZW4lMjB0aGUlMjB0aWRlJTIwZ29lcyUyMG91dCxkaXNjb3ZlciUyMHdobydzJTIwYmVlbiU=
+yMHN3aW1taW5nJTIwbmFrZWQu/607f07ceef4b8524a319a23cBb1151d96" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">When t=
+he tide goes out</a>,=E2=80=9D etc.=C2=A0</em></p><p style=3D"margin: 16px =
+0;"><em>[2] If you use a wire. Which you do. If you use a phone or email or=
+ website or app while lying for money,=C2=A0oops, wire fraud. Obviously I a=
+m being non-technical; <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/26253475.277659/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L3VzY29kZS90ZXh0Lz=
+E4LzEzNDM/607f07ceef4b8524a319a23cBdc5072fb" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">the wire fraud statute=
+</a>, 18 U.S.C. 1343, covers =E2=80=9Cany scheme or artifice to defraud, or=
+ for obtaining money or property by means of false or fraudulent pretenses,=
+=E2=80=9D using a =E2=80=9Cwire, radio, or television communication,=E2=80=
+=9D and there are issues of materiality etc., but =E2=80=9Clying for money =
+is wire fraud" is a good rough approximation.</em></p><p style=3D"margin: 1=
+6px 0;"><em>[3] Here is a purported <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/26253475.277659/aHR0cHM6Ly93d3cuaGVhbHRoY2FyZWZpbmFuY2VuZ=
+XdzLmNvbS9uZXdzL3NlZS13aGF0LXRoZXJhbm9zLWFjdHVhbGx5LWNoYXJnZXMtdGVzdHMtbGlz=
+dA/607f07ceef4b8524a319a23cBe871fd3c" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">menu of Theranos=E2=80=99s pr=
+ices</a>, from a June 2015 article saying that =E2=80=9CTheranos might be t=
+he most exciting company in healthcare, disrupting the diagnostic testing i=
+ndustry by offering very cheap tests that often require just a small drop o=
+f blood to process.=E2=80=9D HIV tests are listed at $16.56.=C2=A0</em></p>=
+<p style=3D"margin: 16px 0;"><em>[4] The judge will refer to the U.S. Sente=
+ncing Guidelines, which are not mandatory but which do carry a lot of weigh=
+t. <a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.277659=
+/aHR0cHM6Ly93d3cudXNzYy5nb3YvZ3VpZGVsaW5lcy8yMDIxLWd1aWRlbGluZXMtbWFudWFsL2=
+Fubm90YXRlZC0yMDIxLWNoYXB0ZXItMi1jI05hTg/607f07ceef4b8524a319a23cB6844eb8a"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">Section 2B1.1</a> covers fraud, and there is a table of loss amoun=
+ts (from =E2=80=9C$6,500 or less=E2=80=9D to =E2=80=9Cmore than $550,000,00=
+0=E2=80=9D) that is the main factor.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.277659/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB2a91cf2f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.277659/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB309ddcb3" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.277659/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBd563aa65" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.277659/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBd1fb4c9f" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.277659/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNjI1MzQ3NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY1MzExMzQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI8d220faa" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D26253475&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26531134&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2625347=
+5.277659/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB5552eefd" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26253475.277659/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC5d6a464a" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/26253475.277659/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB6445c2e3" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26253475.277659/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB049b18c0" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.277659/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB6=
+1bef899" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26253475.277659/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBd=
+81b5631" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D262534=
+75&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26531134&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D262534=
+75&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26531134&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D262534=
+75&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26531134&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D262534=
+75&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26531134&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D262534=
+75&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26531134&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfmpb7.5y8r/142187be.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_218683791_292630353.1641320283497--
+

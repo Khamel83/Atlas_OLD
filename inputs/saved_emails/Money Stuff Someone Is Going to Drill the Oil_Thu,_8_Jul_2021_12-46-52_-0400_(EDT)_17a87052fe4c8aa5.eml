@@ -1,0 +1,1610 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:aa6:c110:0:b029:115:78b4:bc0a with SMTP id c16csp663638lkp;
+        Thu, 8 Jul 2021 09:48:21 -0700 (PDT)
+X-Received: by 2002:a17:906:3699:: with SMTP id a25mr25856860ejc.452.1625762901641;
+        Thu, 08 Jul 2021 09:48:21 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1625762901; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=xcGPu/6MzeYccML0I2AhGRTOjiq0I2mKjwxlT3oPm5eigLQyhyVaYKCmvjV5h0pFtm
+         5amGhEjrnGkKEkxGXGXLoIWImtx8kW86w3cuKPH5l2CWx+lyzcZ3Madb1n7fxlMo4whb
+         8kzMp4uDu6tM2wihmL8vrKzTjmi4nizbcyrvbMm4NhRKgFEPC0m8QuTLJ6c5macz4YSW
+         Ef6yOrWxnsUFUdah+l0i0Rtx+U/TZGFEaqZe6OjvOIuyIjNrqjGI6JFcygDPeL14UCTq
+         pVUrlAsI3Y5s2BzkKCFQNYwyHIgFQwgol+BjyxxhDX5X1vGr+5HkyEIydkSW3//r3gxZ
+         n0Pw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=QmFbTIGfKoKhlupWG9ys/zNAKCZt5cvgaoJlYx4ff1M=;
+        b=aTOlnLEasaJwlGkII98ihkpJL4ADMz53cEf+5hc9BCs8Ce+57OvOEGbysjgyBmljAk
+         el4T4VyMo0VAnsy8PJEJ1eNhgyZ1RJoNVkkD5DebNqQCLlI044GWg2nrIYAAYUKcaPFo
+         2Z3vvKg2IvAVpnW6vbSFMg3iN0EkGMB2CPT4vNbDTGV+W7eE9Bg69FgPnAVwVPxMm3qU
+         wvX2J0crVTNrMQFIpp4EAEtzgaf2NkB+bhHc7pogmQmwScfaf2midIOKfa2KSeWlihA7
+         k3QsEvd2bw6SUPyQIovLyCRpYymLms3lMZV1w71HT5Ark4ITICslROGJtoz4msFqN590
+         b2qA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=gelHLTVP;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id l23sor1631235ejb.15.2021.07.08.09.48.21
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 08 Jul 2021 09:48:21 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=gelHLTVP;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=QmFbTIGfKoKhlupWG9ys/zNAKCZt5cvgaoJlYx4ff1M=;
+        b=GEFg3FcntkLyTdO1Uf1FRlAf+8lu05w+PnCtRrwsOqzGCuF16QG7Zo1qKEZq24ckzV
+         XaligNFIGgqyF9/XbE3YevrwI7KoiwuY5whn8KMArBd56TNps/y1xs+jBur5GzdDenMh
+         ZUHZU5ohuBz3bnCNHDlkLmmA8YzFG5peag067hZQjS92a7je2uXtZoHJ9TO47f1gUK1H
+         3DYgUCM3GttrJB4mZsuwjLR1biMqAA+nzcTyBXaAYr6eV+HDGbXjebH1D8KTznGHrO8p
+         HfZoqm5jsQJSCoBy+frJMR7Ux5XtKnxZ/hCg4zEE7omL75AQSoW4mAfJxAhrHx82eeBj
+         zBig==
+X-Gm-Message-State: AOAM530BGn/XXwt3465KIOtM5eJ9uamCU8fvZylMUEbAEJEWauSItsxA
+	//7wusC9D6nzQVu2Tmm9R0G23qau7DZjuc2b1pUbMeIquv3Ib6K4DA==
+X-Received: by 2002:a17:907:9807:: with SMTP id ji7mr30193592ejc.35.1625762901376;
+        Thu, 08 Jul 2021 09:48:21 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:314a:0:0:0:0:0 with SMTP id k10csp514854ecs;
+        Thu, 8 Jul 2021 09:48:18 -0700 (PDT)
+X-Received: by 2002:a63:f306:: with SMTP id l6mr33362392pgh.46.1625762898439;
+        Thu, 08 Jul 2021 09:48:18 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1625762898; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=CfXm01sTbqgifaah8PpZH6ibwQ+zxLQBTv5XuIUGcvW88tdn9cYgEEpv9F3SHqU5PM
+         mEknfyPbyOY1+xR/DJjKo2Lihr+GMvRG/KID0KOc/My1rMUCfvnnWyNife5JuL58YFi/
+         4gkwx+sVWazDBm2yjXCZI61Xwf/afxprRbAerlhT1LZI2F5mb17PJu0fa3sU4JOAx0Hc
+         Zz/GVHJjqkN829K9thw2N+OZSe9zq/BRtZ03s7bKL2GC6N890zyvPoygoEaFwrmlD6eT
+         JOMoHNpzWEddUzYdXttAiQx1ppBu83JhrciUJDSyaYkHTd/5ggQ8vAuQ/tYk0d6l7HoQ
+         8d6Q==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=QmFbTIGfKoKhlupWG9ys/zNAKCZt5cvgaoJlYx4ff1M=;
+        b=jil5TGp9oP8q86pOp+UZ2n1zAevSx0spYM28SYYjE7IJZ6C7A1DVkVQWwgsCFjJDMB
+         1CvgDZIv4kZaOKdoneZdlnycoCsaxEo5UyjO3OJ94fZ5CiVyOjCx7qlTDKTt1U5To05/
+         sW043oy9PGPmpWKpRQ5ezF6x6wiEqTweZ3p4r/IEBxiD2wu5hIA46UkbbUcGXy9NCKwm
+         B5nm6nhsO1HBODZfmlr1ed2INcVjEnEw7F8roOnjgKR0dmRKfHNkHp8ivLB7j96Q9R1H
+         wh2JOMODbZoYrkSwRpplUpLVLRH3jj6+BFimUCzK+Ohsaij3MI5784iOsnnE1xcDGCU1
+         38xw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=gelHLTVP;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210708124652.24393206.255798@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210708124652.24393206.255798@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210708124652.24393206.255798@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id c24sor1826866pgi.24.2021.07.08.09.48.18
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 08 Jul 2021 09:48:18 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210708124652.24393206.255798@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJyYANLXT5rLRF2ItGO3IjiQmdjtY32OCCFSMZH1Yqx+HIL5V9aB1jFtMT90C/jJi4oL8VVB9VtLwx+XWoE90MAgRGFs+6o=
+X-Received: by 2002:a65:5542:: with SMTP id t2mr32791402pgr.358.1625762898053;
+        Thu, 08 Jul 2021 09:48:18 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1625762898; cv=none;
+        d=google.com; s=arc-20160816;
+        b=qKBk4Fzlg/UDrwcFDomS3JLWh7gaVk8DxEGCwEq2P7M2Xh1vHa3lQDpJ00o+jjttZc
+         972VY76y7Kb5G4Jdv0K/o18DAioxZYq2DELf92kkT/s/Ip2X3Mp5Oj0LpfVcjZl0YsY0
+         ZutizJX7LhM/TY/ROQm/yF2AMR3e3UU9eHhwF6nSt+oCxZR6L2vbCBIrfGgsueOSAXtm
+         sHir0PxdZOjwbe3lc4vCjE1F8VM2OWCwm90s4+om9LmSyrAOOlyLMQdkFCfjC/BK+NTO
+         kmc4AP5ne6cssATUbU1dZLs1KGXcSkW92RMfuWwRuw395Iqqm9SURNRGGe824CgYZ9nb
+         1LeQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=QmFbTIGfKoKhlupWG9ys/zNAKCZt5cvgaoJlYx4ff1M=;
+        b=bxXPqRXm0rJTYymZ5pR/KNI3p/6okxL1oSjbf1oQRxGWlPKT29RxR15TGPsSbi2Xmv
+         Lo4gLpbAOsUUfd1w6CpOdDWlgQs3xJxx/oTgGZpXgqMaNlkweirHL7Nq8rIYuw9p47FT
+         Mu1uMi/56pxz+Pq7yqdbdt/7RbMQarNRy9t3nSejym2gWWG+MEPGaPZJ+YGZIr21PAFj
+         5d31W90tRlQCAzHHc4kPDpBcko9NVaafOplUHI6EeEYRgaakX+wMip+sqrQTaVK6j1A5
+         9UqbXRR9GsEJ2iE/Bzenvvz4tIbtEMqp4MKb2xlyOl+ub7LP1TjUeDeCks1XNxy2N2ej
+         OwAQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=gelHLTVP;
+       spf=pass (google.com: domain of delivery_20210708124652.24393206.255798@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210708124652.24393206.255798@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210708124652.24393206.255798@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id x4si415637pjn.2.2021.07.08.09.48.17
+        for <khamel83@gmail.com>;
+        Thu, 08 Jul 2021 09:48:18 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210708124652.24393206.255798@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=Vqtc3ab0du2jiKjST03Q9DwA+Lc=;
+ b=gelHLTVPY9fVsr9f/pqz6AGusPyNbwvpjPVYamZtjM0U47efP+o9b0n389a3hKDIpUtofJfUg9/U
+   RyPR8w0cuDZOpbrpkmaKzHkQmAYYM136BdgdAmlsUuy14tQVz7FO7D/HCLskrVxQX454vQz9Uh88
+   j97XMrclzXVB0ECulBE=
+Received: from mtast-04.sailthru.com (204.153.121.10) by bloomberg-b.sailthru.com id hssm521qqbsm for <bloomberg@khamel.com>; Thu, 8 Jul 2021 12:48:16 -0400 (envelope-from <delivery_20210708124652.24393206.255798@mx.sailthru.com>)
+Received: from nj1-hotheart.flt (172.18.20.32) by mtast-04.sailthru.com id hssm501s6j0a for <bloomberg@khamel.com>; Thu, 8 Jul 2021 12:46:52 -0400 (envelope-from <delivery_20210708124652.24393206.255798@mx.sailthru.com>)
+Date: Thu, 8 Jul 2021 12:46:52 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210708124652.24393206.255798@sailthru.com>
+Subject: Money Stuff: Someone Is Going to Drill the Oil
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_22826731_262901002.1625762812199"
+Precedence: bulk
+X-Feedback-ID: 6358:24393206:campaign:sailthru
+X-TM-ID: 20210708124652.24393206.255798
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-hotheart.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ceitx2.5hdi/143028e6
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ceitx2.5hdi/143028e6>, <mailto:unsubscribe_20210708124652.24393206.255798@mx.sailthru.com>
+X-rpcampaign: stjko24393206
+
+------=_Part_22826731_262901002.1625762812199
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+       =20
+           =20
+               =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.Oil assetsA useful framework for socially responsible investing, one that=
+ I get mainly from Cliff Asness, is that the point of it is to=C2=A0raise t=
+he cost of capital=C2=A0of bad stuff. If lots of people decide that somethi=
+ng is bad and they shouldn=E2=80=99t invest in it, then companies that do t=
+he bad thing will have a harder time raising capital and will have to pay m=
+ore to attract investors; it will be more expensive to do the bad thing, so=
+ there will be less of it. The corollary to this is that, if you raise the =
+cost of capital of the bad stuff, the=C2=A0returns=C2=A0to people who=C2=A0=
+do=C2=A0invest in the bad stuff will be higher, because that=E2=80=99s just=
+ what =E2=80=9Ccost of capital=E2=80=9D means. (A company=E2=80=99s cost of=
+ capital is the expected returns of the people who invest in it.) If you in=
+vest in socially responsible things, you create higher returns for people w=
+ho invest in socially irresponsible things, and you forego those returns fo=
+r yourself. Which is fine because you aren=E2=80=99t just in it for the ret=
+urns; you want to make the world better, too.This is not the only framework=
+! You could have a different framework. You could say =E2=80=9Csocially res=
+ponsible things will have higher returns in the long run, because future re=
+gulations or social shifts or physical effects of climate change will make =
+it impossible to do the socially irresponsible things, so the socially irre=
+sponsible companies will go to zero and the socially responsible ones will =
+gain market share. Therefore we will invest in socially responsible things =
+and expect them to have a higher return than the socially irresponsible one=
+s.=E2=80=9D This is a very popular theory, in part for the obvious reason t=
+hat it tells people what they want to hear: that they can=C2=A0save the wor=
+ld=C2=A0and make above-market returns at the same time.=C2=A0One thing to n=
+otice is that=C2=A0both=C2=A0of these stories are essentially behavioral. T=
+hey purport to identify inefficiencies in the market, ways to make above-ma=
+rket returns from other people=E2=80=99s irrationality or shortsightedness =
+or non-economic preferences. The first story says: People have non-economic=
+ preferences for social responsibility, which makes socially irresponsible =
+stocks cheap, so if I buy socially irresponsible stocks I will get an above=
+-market return. The second story says: People are irrationally short-sighte=
+d about the long-term risk of socially irresponsible behavior, so if I buy =
+socially responsible stocks I will get an above-market long-run return.In s=
+ome sense both of these stories can=E2=80=99t really be true,[1] but they b=
+oth seem plausible.=C2=A0On the one hand we have decades of experience of p=
+eople ignoring externalities and minimizing the effects of climate change, =
+etc., which suggests the second story =E2=80=94=C2=A0=E2=80=9Cpeople irrati=
+onally minimize the long-run costs of social irresponsibility=E2=80=9D =E2=
+=80=94=C2=A0might be true.=C2=A0On the other hand, there are a lot of socia=
+l-responsibility and environmental/social/governance investors right now, w=
+hich suggests that the field might be a bit crowded and taking the other si=
+de of it might be lucrative.Anyway. The mechanism for the first theory is: =
+You stop buying oil stocks, the cost of capital of oil companies goes up, t=
+hey close down their oil rigs and get into wind farming or whatever. People=
+ who still=C2=A0do=C2=A0buy oil stocks get a higher expected=C2=A0return, b=
+ut the oil companies can=E2=80=99t stay in that business with their new hig=
+her cost of capital so they pivot to a more socially acceptable business. A=
+ public company will rationally choose to lower its cost of capital by gett=
+ing out of socially irresponsible businesses. Also, the public company will=
+ develop=C2=A0non-economic=C2=A0preferences about getting out of socially i=
+rresponsible businesses. If it keeps operating oil rigs, it will keep getti=
+ng annoying shareholder proposals and disapproving looks from BlackRock Inc=
+. and  proxy fights. Better to do what all the investors say they want, rat=
+her than what makes the most money.All of this suggests that the expected e=
+conomic return on the oil companies=E2=80=99=C2=A0assets =E2=80=94=C2=A0its=
+ oil fields and so forth =E2=80=94=C2=A0will be high or, to put it another =
+way, that those assets will be cheap relative to their expected cash flows.=
+ The cash flows are what they are, but if a public company operates those a=
+ssets it will have to pay more for capital and deal with angry socially-res=
+ponsible shareholders, so it will divest them cheap and not compete to buy =
+more.So here you go:Under intense pressure from investors and activists to =
+take more action on climate change, some of the world=E2=80=99s biggest oil=
+ and gas companies are putting billions of dollars=E2=80=99 worth of assets=
+ up for sale.Watching from a distance are people like Brian Gilvary, the he=
+ad of Ineos Energy, an arm of the private UK chemicals company. As many ene=
+rgy companies try to shift from oil to gas and lower carbon technologies, I=
+neos is buying up unwanted fossil fuel assets.=E2=80=9CWe have an appetite =
+to acquire,=E2=80=9D says Gilvary, the former chief financial officer at UK=
+ energy major BP who joined Ineos in December. In March, the company announ=
+ced it would acquire Hess Corporation=E2=80=99s oil and gas assets in Denma=
+rk for $150m. =E2=80=A6Despite the intense spotlight on the energy sector, =
+there are potential buyers for these assets =E2=80=94 from smaller private =
+players such as Ineos, independent operators who are backed by private equi=
+ty, opaque energy traders and state oil companies. And while the listed oil=
+ majors are announcing net zero plans and a downsizing of their traditional=
+ businesses, some state-owned companies and producer economies, such as Sau=
+di Arabia, are openly discussing plans to raise production.One thing to say=
+ about this is that it=E2=80=99s not obviously a win for the environment:Th=
+e activists and government officials behind the campaigns believe they lead=
+ to reduced investment and production. But in the short term production cou=
+ld shift to private or state-owned companies which face much less scrutiny =
+over their activities. Some of those new owners will use that relative obsc=
+urity to squeeze as much production as they can out of the oilfields they a=
+re acquiring without disclosing the environmental consequences.=E2=80=9CThe=
+ quickest way to shrink emissions as a major company is to shed assets so y=
+ou can hit climate-related targets,=E2=80=9D said Biraj Borkhataria=C2=A0at=
+ RBC Capital Markets. =E2=80=9CBut asset sales do nothing for climate chang=
+e, you=E2=80=99re just moving emissions from one hand to another.=E2=80=9DB=
+ut the other thing to say about it is that it=E2=80=99s still not obvious t=
+hat the first story =E2=80=94=C2=A0that socially responsible investing rais=
+es the expected return on socially irresponsible assets =E2=80=94=C2=A0is c=
+orrect. It could be true that the oil majors divesting these assets are mak=
+ing the right=C2=A0economic=C2=A0choice, and that the people who are buying=
+ them are just wrong about their long-term returns:The disposals come amid =
+rising speculation about =E2=80=9Cstranded assets=E2=80=9D =E2=80=94 huge o=
+il and gas reserves that might never be extracted if the world pursues the =
+Paris climate goals.If those assets are really stranded =E2=80=94=C2=A0if r=
+egulation or social pressures or whatever will make it impossible to get oi=
+l out of those oil fields =E2=80=94=C2=A0then you probably shouldn=E2=80=99=
+t buy them even at low prices; if you are buying them, it might just be bec=
+ause you are cynically short-sighted about the long-term costs of climate c=
+hange. But the buyers are taking the other side of that=C2=A0bet:The Danish=
+ government has said that it intends to halt oil production by 2050, but Gi=
+lvary is undeterred. =E2=80=9CThis deal was attractive to us. We know the f=
+iscal regime under which we will be operating,=E2=80=9D he says. =E2=80=9CW=
+e know what the endgame looks like.=E2=80=9DCrypto scamsLoosely speaking yo=
+u could say that there are three sorts of financial scams.=C2=A0The most co=
+mmon scams pretend to be=C2=A0legitimate. A scammer comes to you and says s=
+he is raising money to invest in some productive purpose, to fund some prod=
+uct or activity that people want. You think =E2=80=9Cah, this company is cu=
+ring Covid, if it succeeds that will be lucrative, I will put some money in=
+.=E2=80=9D There are lots of scams like this, and some are more convincing =
+than others, but speaking very broadly it is easy to sympathize with the vi=
+ctims of these scams. They thought they were doing a sensible investing thi=
+ng, funding good projects with a high expected return, but they were being =
+lied to.Some other scams pretend to be=C2=A0illegitimate, or at least, like=
+, tricky or unfair. They pretend to be different scams from the scams they =
+actually are. Some people invested with Bernie Madoff because they assumed =
+his investment fund was front-running his broker-dealer. It wasn=E2=80=99t,=
+ it was just a Ponzi scheme, the joke was on them.=C2=A0But they had though=
+t the joke would be on someone else. Or people constantly  fall for =E2=80=
+=9Cprime bank=E2=80=9D scams, whose premise is something like =E2=80=9Cthe =
+Federal Reserve and the Illuminati pay certain select insiders millions of =
+dollars to trade Treasury bonds at night,=E2=80=9D don=E2=80=99t even ask.[=
+2]=C2=A0You put your money into a prime bank scheme not because you think y=
+ou are making a good investment in a productive activity; you put your mone=
+y in because you think someone has offered you a special opportunity to put=
+ one over on someone else, to extract money for yourself illegitimately.The=
+se scams are quite popular because they offer a sense of specialness; they =
+fulfill a need for mystery and conspiracies. Also because =E2=80=9Cyou can=
+=E2=80=99t cheat an honest man=E2=80=9D: If you are running a scam, the ide=
+al mark is someone who is up for a little dishonesty, who is not going to i=
+nsist on all the proper procedures. Also because the victims here are never=
+ going to be that sympathetic: They wanted to do some scam (one where they =
+were the scammer), you served them a different scam (one where they were th=
+e victim), but what are they gonna do, call the police?The third kind of sc=
+am =E2=80=94=C2=A0is it even a scam? =E2=80=94=C2=A0doesn=E2=80=99t pretend=
+ to be anything at all; it is just open about being exactly the sort of=C2=
+=A0scam that it actually is. In  the early days of Ethereum there were tons=
+ of things named like =E2=80=9CEthereum Pyramid Scheme=E2=80=9D or =E2=80=
+=9CEthereum Ponzi Scheme.=E2=80=9D If you buy that you know what you=E2=80=
+=99re getting! The value proposition of a Ponzi scheme is: =E2=80=9CIf you =
+put in money now, and other people put in money later, we will pay you a hi=
+gh return on your investment, but=C2=A0if you are the last one in you will =
+lose all your money.=E2=80=9D You can dress that proposition up in lies =E2=
+=80=94=C2=A0say =E2=80=9Cwe=E2=80=99re investing in totally safe bonds at a=
+ guaranteed above-market return=E2=80=9D while actually doing a Ponzi =E2=
+=80=94=C2=A0or you could not. You could just tell people what you=E2=80=99r=
+e doing and ask them if they want to play. Some will, because that basic Po=
+nzi proposition is sort of a fun game of musical chairs but with money. Peo=
+ple could want to play because they like a gamble, or because they think th=
+ey have some edge =E2=80=94=C2=A0some special psychological insight or insi=
+de knowledge or whatever that gives them an advantage in guessing when the =
+game will end and getting out in time.I have mostly  come around to  the vi=
+ew that many small-cap pump-and-dump schemes look like the first type of sc=
+am but are really the third. Some stock shill sends out an email newsletter=
+ saying =E2=80=9Cbuy Amalgamated Widgets because they are about to announce=
+ a breakthrough Covid cure,=E2=80=9D and then Amalgamated Widgets stock goe=
+s up rapidly and then down rapidly again, and from the outside you can look=
+ at it and say =E2=80=9Cah, people were tricked into thinking that Amalgama=
+ted Widgets had a Covid cure,=E2=80=9D but the shill=E2=80=99s newsletter i=
+s titled Stock Shill Weekly and the only subscribers are people who want to=
+ play pump-and-dumps and nobody believes it, it=E2=80=99s just an excuse fo=
+r everyone to play a gambling game where the loser is whoever gets out last=
+.=C2=A0There is no reason at all to sympathize with victims of the third so=
+rt of scam; often they don=E2=80=99t sympathize with themselves. They don=
+=E2=80=99t perceive themselves as victims, because they aren=E2=80=99t; the=
+y think they played a game of chance and lost. They got their money=E2=80=
+=99s worth, in expectation; they had their fun and it cost them a reasonabl=
+e amount of their gambling money.Obviously in practice these things can blu=
+r into each other; if you are playing the fun gambling game (type 3) you mi=
+ght also be hoping to get an edge (type 2) from other people believing that=
+ the pump is real (type 1).Anyway nobody has ever deserved to get their mon=
+ey stolen more than the people in this Bloomberg article titled =E2=80=9CCr=
+ypto Scammers Rip Off Billions as Pump-and-Dump Schemes Go Digital=E2=80=9D=
+:=E2=80=99Ben Ghrist knows all about crypto scams. He=E2=80=99s lives at hi=
+s parents=E2=80=99 home in Roanoke, Texas, and, for the moment, is trading =
+meme coins as a full-time job. At 35, Ghrist is a millionaire in Safemoon, =
+a billionaire in Kishu Inu and Sanshu Inu and a trillionaire in Keanu Inu. =
+He=E2=80=99s got money in at least 15 different coins, with about a quarter=
+ of his $25,000 =E2=80=9Cportfolio=E2=80=9D in Dogecoin, the one created as=
+ a joke back in 2013 and known for its Shiba Inu mascot.=C2=A0Ghrist suspec=
+ts he=E2=80=99s gotten rug-pulled, soft-rugged and even fallen victim to a =
+honey pot =E2=80=94 when a seemingly legitimate coin sets up a trap, like t=
+he inability for investors to sell once they=E2=80=99ve bought in. Ghrist s=
+ays he wanted to trade the momentary 1000% gain of a coin launch called Spa=
+ce Jupiter but couldn=E2=80=99t sell for about 20 minutes. He says the crea=
+tors of the coin eventually re-enabled selling, but only after the coin pri=
+ce had slumped and after he suspects they had taken gains for themselves.=
+=C2=A0=E2=80=9CIt=E2=80=99s pretty much hit-or-miss wherever you go,=E2=80=
+=9D says Ghrist, who typically works from his bed with two laptops. He says=
+ he=E2=80=99s pulled all-nighters and worked 48 hours straight moiling for =
+meme-coin gold.In picking his meme coins, he considers a range of factors t=
+o minimize risk. One is the number of social media accounts a coin has (leg=
+it coins, he says, tend to have more than dodgy ones). Another is whether t=
+hose accounts are public or private (he says public is safer than private):=
+ how much time those accounts spend chatting with investors (more is better=
+ than less). Then he looks at what=E2=80=99s happening in Telegram groups, =
+known in meme-coin-speak as =E2=80=9Cshilling groups.=E2=80=9D When the who=
+le package looks slapdash, that=E2=80=99s a bad sign, he says.Ghrist feels =
+scammed at times, but he=E2=80=99s pressing on too. =E2=80=9CWhen I feel th=
+at fear of losing my money, because I know I might, I also balance that wit=
+h I might make five times my money or three times my money,=E2=80=9D he say=
+s. =E2=80=9CYou can literally do 30 times or more if you if you get a coin =
+that lasts more than a day.=E2=80=9DNobody in this article thinks that they=
+ are investing in some productive enterprise and hoping to earn an attracti=
+ve rate of return. Nobody thinks that Keanu Inu is the future of money and =
+that they are contributing to innovation in payments systems. They all thin=
+k they can =E2=80=9Cdo 30 times or more=E2=80=9D on some completely pointle=
+ss gambling game, and if they lose, well, =E2=80=9Cit=E2=80=99s pretty much=
+ hit-or-miss wherever you go.=E2=80=9D Let them take each other=E2=80=99s m=
+oney, who cares.
+
+
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                               =20
+                               =20
+                               =20
+                           =20
+                       =20
+                       =20
+                           =20
+                               =20
+                                    Sponsored Content
+                                    High Paying Cards For Americans With Go=
+od Credit. These cards feature=C2=A0$200 bonus offers and up to 3% cash bac=
+k. PLUS no annual fee and no interest for 15 months. A long-time credit car=
+d writer says=C2=A0these are some of the best deals=C2=A0he's seen in his y=
+ears of writing for top financial websites.
+                                    Wise Bread
+                               =20
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+PFOFRobinhood Markets Inc. filed for an initial public offering last week, =
+which I suppose means it=E2=80=99s time to talk about payment for order flo=
+w again. Here is a Wall Street Journal article:Robinhood Markets Inc. is on=
+ a collision course with regulators over a controversial practice that gene=
+rates most of its revenue, as the online brokerage gears up for a highly an=
+ticipated initial public offering.In its IPO filing, released Thursday, Rob=
+inhood disclosed that 81% of its first-quarter revenue came from sending it=
+s customers=E2=80=99 stock, options and cryptocurrency orders to high-speed=
+ trading firms=E2=80=94a practice known as payment for order flow.Payment f=
+or order flow, or PFOF, makes it possible for Robinhood to let customers pl=
+ace trades with no upfront commission payment. Zero-commission stock trades=
+ helped the company win over millions of younger, less affluent customers a=
+nd are now standard practice at many of Robinhood=E2=80=99s competitors.Pay=
+ment for order flow critics=E2=80=94including the country=E2=80=99s top mar=
+ket regulator, Securities and Exchange Commission Chairman Gary Gensler =E2=
+=80=94are wary of the practice. They argue that it poses a conflict of inte=
+rest for brokerages, because the brokers can either collect more money for =
+selling their customers=E2=80=99 order flow or pass that money on to custom=
+ers in the form of price savings on their trades. Last month, Mr. Gensler s=
+aid the SEC was reviewing payment for order flow, fueling speculation among=
+ some market observers that PFOF could be banned.=E2=80=9CThe entire busine=
+ss model of some brokers is in the crosshairs,=E2=80=9D said Tyler Gellasch=
+, executive director of Healthy Markets Association, an investor trade grou=
+p. =E2=80=A6Still, the SEC hasn=E2=80=99t given any indication of how it mi=
+ght change its rules on payment for order flow. Prohibiting PFOF might forc=
+e some brokerages to abandon zero-commission trading, which could lead to a=
+n outcry as small investors face the prospect of paying for trades again. T=
+hat would undermine arguments that banning PFOF would help investors. Many =
+of the potential benefits of such a change=E2=80=94such as possibly increas=
+ed activity on transparent public exchanges=E2=80=94wouldn=E2=80=99t be as =
+tangible to ordinary investors.The problem with payment-for-order-flow disc=
+ourse is that it is mostly about best execution. Robinhood gets a customer =
+order to buy or sell a stock and sends it to a market maker (a wholesaler, =
+internalizer, electronic trading firm). The market maker fills the order (s=
+elling stock to a customer who wants to buy, buying stock from a customer w=
+ho wants to sell) and=C2=A0pays Robinhood a little bit of money for each or=
+der that it sees. The market maker makes money. This infuriates people. The=
+y think: If the market maker is making money filling these orders, and if i=
+t is paying Robinhood for the right to fill these orders, then it must be f=
+illing those orders at a=C2=A0bad price. If Robinhood routes your order to =
+a market maker who pays for order flow, you must be getting a worse price t=
+han you would if Robinhood routed your order to the stock exchange and just=
+ took the best price available there.That is a reasonable intuition but it =
+is wrong! It is wrong! You actually generally get filled at a=C2=A0better=
+=C2=A0price than you=E2=80=99d get on the stock exchange! I keep saying thi=
+s,=C2=A0and I explain why in detail, and then each time like a dozen people=
+ email me to be like =E2=80=9Cyou=E2=80=99re so naive, if the market maker =
+is paying for the order then how can I be getting a better price?=E2=80=9D =
+So I do not harbor any hope of changing anyone=E2=80=99s mind on this point=
+. You can read a fuller intuitive explanation here, or not, but either way =
+please please please do not email me to say =E2=80=9Cyou=E2=80=99re so naiv=
+e, if the market maker is paying for the order then how can I be getting a =
+better price?=E2=80=9DPlease also do not email me to say more sophisticated=
+ things like =E2=80=9Cif market makers were not able to segregate retail or=
+ders then lit spreads would be tighter and everyone, even retail, would be =
+getting better fills.=E2=80=9D That one may be true; it=E2=80=99s just not =
+what I want to talk about right now. Or there is Gensler=E2=80=99s point th=
+at=C2=A0you could offer more price improvement instead of taking payment fo=
+r order flow; that is true (and Robinhood has  gotten in trouble for it), b=
+ut not what I want to discuss here.=C2=A0Instead I want to talk about the=
+=C2=A0actual=C2=A0conflict of interest in Robinhood=E2=80=99s use of paymen=
+t for order flow, which is not not not not not not not not not not not not =
+not about execution quality. The conflict is not not not not not not not =
+=E2=80=9Cif market makers pay Robinhood for orders, it will route those ord=
+ers to the market maker who pays the most, not the one who will give its cu=
+stomers the best price.=E2=80=9D[3] For one thing, Robinhood customers do g=
+enerally get a better price than is available on the stock exchange. For an=
+other thing, though, we are talking about, often,=C2=A0fractions of pennies=
+ per share. If you bought GameStop Corp. stock when it was trading at $483,=
+ I simply do not care if you paid $483.01 or $483.007 or even $483.20, and =
+neither should you.The actually important conflict is: =E2=80=9CIf market m=
+akers pay Robinhood for orders, it will try to generate a lot of orders, pa=
+rticularly ones that pay the most.=E2=80=9DWhat that means is that,=C2=A0if=
+ Robinhood gets paid primarily for order flow, it has incentives to encoura=
+ge a lot of trading, and in particular a lot of trading of options, because=
+ it gets paid more for options orders than for most stock orders. And so in=
+ fact Robinhood customers trade a lot,[4] and in particular they trade a lo=
+t of=C2=A0options, and Robinhood makes a ton of money from their options tr=
+ading.=C2=A0I said last week that =E2=80=9CEconomically, Robinhood is an op=
+tions brokerage. Robinhood=E2=80=99s main business is convincing people to =
+trade options, and then having options market makers pay to take the other =
+side of those trades,=E2=80=9D and more than a third of its revenue comes f=
+rom options trades. Retail options trades are lucrative for market makers, =
+so they pay Robinhood a lot for them.=C2=A0Of course any commission-based b=
+roker also has an incentive to encourage trading, and there are lots of enf=
+orcement cases against brokers who get their customers to trade too much. (=
+This is usually called =E2=80=9Cchurning.=E2=80=9D) But there is a natural =
+limit on a commission-based broker=E2=80=99s ability to churn, which is tha=
+t if you are a customer and you pay $5 per trade, you will wince every time=
+ you pay that $5, and eventually you will stop. At zero-commission brokerag=
+es =E2=80=94=C2=A0like Robinhood, which pioneered the model =E2=80=94=C2=A0=
+you pay $0 per trade, you never wince, and you never stop.So you could have=
+ a reasonable theory of Robinhood that says that all of its alleged problem=
+s =E2=80=94=C2=A0=E2=80=9Cgamification,=E2=80=9D=C2=A0the psychological tac=
+tics it uses to get people to keep coming back to the app and trading more,=
+ as well as its somewhat lax restrictions on who is allowed to trade option=
+s =E2=80=94=C2=A0are symptoms of one underlying business-model decision, wh=
+ich is to make almost all of its money from payment for order flow. If you =
+make money mainly from net interest margin, you will want to accumulate cus=
+tomer cash and margin balances. If you make money from investment products =
+that you manage, you will push those products. If you make money from commi=
+ssions, you will push people to trade a lot, but it will work imperfectly. =
+If you make money from payment for order flow, you will push people to trad=
+e a lot, and it will work really well.If trading a lot is bad for people, t=
+his is bad. It is perhaps not=C2=A0obvious=C2=A0that trading a lot is bad f=
+or people, but it does seem intuitive. =E2=80=9CThe majority of our custome=
+rs prefer to buy and hold,=E2=80=9D say Robinhood=E2=80=99s founders in the=
+ir introduction to its IPO prospectus, and =E2=80=9Cit=E2=80=99s never been=
+ easier or more delightful to build a portfolio and invest for the long ter=
+m.=E2=80=9D If=C2=A0they=C2=A0thought constant trading was good they would =
+have said something else. =E2=80=9CA lot of our customers prefer to YOLO we=
+ekly call options and make a lot of money doing it,=E2=80=9D or whatever. R=
+obinhood=E2=80=99s major=C2=A0innovation was building an app, and an econom=
+ic model, that made it easy and pleasant for regular people to trade a lot.=
+ Perhaps that=E2=80=99s good! It does seem controversial.Things happenChine=
+se Firm LinkDoc Said to  Halt U.S. IPO After Crackdown. Chinese fitness app=
+ pulls New York IPO plan after Didi debacle. China=E2=80=99s Cyber Watchdog=
+ to Police Chinese Overseas Listings. Pelosi=E2=80=99s Husband Locked In $5=
+.3 Million From  Alphabet Options. Volkswagen, BMW Fined $1 Billion by EU f=
+or  Pollution Cartel. Wachtell, Teneo and the =E2=80=98darker arts of influ=
+encing the public discourse.=E2=80=99 SEC May Require Fund Managers to Disc=
+lose Staff  Diversity Data. ECB changes inflation target, leaving extra roo=
+m to keep rates low. Theranos Founder Elizabeth Holmes Renews Fight to Cons=
+train Prosecutors. Ireland frets about losing its =E2=80=98sacrosanct=E2=80=
+=99 low-tax regime. Pok=C3=A9mon Card Grading Company Valued at $500 Millio=
+n After Blackstone Acquisition. TikTok wants to be LinkedIn for Gen Z, laun=
+ches TikTok Resumes for video job applications. Researchers Got a Bunch of =
+Fish Hooked on Meth, for Science.=C2=A0If you'd like to get=C2=A0Money=C2=
+=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0subscri=
+be at this link. Or you can subscribe to Money Stuff and other great Bloomb=
+erg newsletters here. Thanks![1] You could tell some complicated story like=
+ =E2=80=9Csocially irresponsible assets are cheap relative to their short-t=
+erm cash flows but expensive relative to their long-term cash flows,=E2=80=
+=9D which makes both stories sort of true.[2] I periodically recommend Guy =
+Lawson=E2=80=99s =E2=80=9COctopus=E2=80=9D here, and I will recommend it ag=
+ain; it captures the insanity of prime bank scams well. I should say that b=
+oth in =E2=80=9COctopus,=E2=80=9D and in the  Money Stuff column I linked i=
+n the text, the victim of the prime bank scam was himself allegedly running=
+ a different scam. Scammers are particularly good marks for prime bank scam=
+s, because you=E2=80=99re pitching them on running a scam and you already k=
+now they=E2=80=99re up for that.[3] Robinhood=E2=80=99s prospectus says (pa=
+ge 34): =E2=80=9CWithin each asset class, whether equities, options or cryp=
+tocurrencies, the transaction-based revenue we earn is calculated in an ide=
+ntical manner among all participating market makers. We route equity and op=
+tion orders in priority to participating market makers that we believe are =
+most likely to give our customers the best execution, based on historical p=
+erformance, and we do not consider transaction fees when routing orders.=E2=
+=80=9D So no market maker pays a higher price than anyone else, and they ro=
+ute based on execution, not different payments. (Of course they route to ma=
+rket makers who pay, not ones who don=E2=80=99t.)[4] Robinhood reported 1.1=
+ million options trades, 5.1 million stock trades, and 1.4 million cryptocu=
+rrency trades per day in the first quarter of 2021; for comparison, Charles=
+ Schwab Corp. reported 8.4 million daily trades in that period. Schwab has =
+31.9 million accounts with a total of $7 trillion of assets; Robinhood has =
+18 million accounts with $80.9 billion of assets. Robinhood customers do al=
+most as much trading as Schwab customers, but there are many fewer of them =
+and they have much smaller accounts. (See page 134 of the Robinhood S-1 for=
+ its daily average revenue trades and page 126 for its accounts and assets =
+under custody. See pages 4-5 of Schwab=E2=80=99s 10-Q for its daily average=
+ trades, client accounts and client assets.)
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ceitx2.5hdi/230559fc.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_22826731_262901002.1625762812199
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24393206.255798/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cBb7f154f3"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tr>
+<td width=3D"206" align=3D"center" class=3D"sponsored-ad-container" style=
+=3D"padding-top: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24393206.255798/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cB118995c=
+2">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" style=3D"display: block;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Monday.</em></p><h2 style=3D"font-weight=
+: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif;=
+ letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; border-bo=
+ttom-style: dotted; margin: 0px; padding: 16px 0px 5px;">Oil assets</h2><p =
+style=3D"margin: 16px 0;">A useful framework for socially responsible inves=
+ting, one that I get mainly <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/24393206.255798/aHR0cHM6Ly93d3cuYXFyLmNvbS9JbnNpZ2h0cy9QZXJzcGVjd=
+Gl2ZXMvVmlydHVlLWlzLWl0cy1Pd24tUmV3YXJkLU9yLU9uZS1NYW5zLUNlaWxpbmctaXMtQW5v=
+dGhlci1NYW5zLUZsb29y/607f07ceef4b8524a319a23cBee82176f" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">from Cliff Asness</a>, is tha=
+t the point of it is to=C2=A0<em>raise the cost of capital=C2=A0</em>of bad=
+ stuff. If lots of people decide that something is bad and they shouldn=E2=
+=80=99t invest in it, then companies that do the bad thing will have a hard=
+er time raising capital and will have to pay more to attract investors; it =
+will be more expensive to do the bad thing, so there will be less of it. Th=
+e corollary to this is that, if you raise the cost of capital of the bad st=
+uff, the=C2=A0<em>returns=C2=A0</em>to people who=C2=A0<em>do=C2=A0</em>inv=
+est in the bad stuff will be higher, because that=E2=80=99s just what =E2=
+=80=9Ccost of capital=E2=80=9D means. (A company=E2=80=99s cost of capital =
+is the expected returns of the people who invest in it.) If you invest in s=
+ocially responsible things, you create higher returns for people who invest=
+ in socially irresponsible things, and you forego those returns for yoursel=
+f. Which is fine because you aren=E2=80=99t just in it for the returns; you=
+ want to make the world better, too.</p><p style=3D"margin: 16px 0;">This i=
+s not the only framework! You could have a different framework. You could s=
+ay =E2=80=9Csocially responsible things will have higher returns in the lon=
+g run, because future regulations or social shifts or physical effects of c=
+limate change will make it impossible to do the socially irresponsible thin=
+gs, so the socially irresponsible companies will go to zero and the sociall=
+y responsible ones will gain market share. Therefore we will invest in soci=
+ally responsible things and expect them to have a higher return than the so=
+cially irresponsible ones.=E2=80=9D This is a very popular theory, in part =
+for the obvious reason that it tells people what they want to hear: that th=
+ey can=C2=A0save the world=C2=A0and make above-market returns at the same t=
+ime.=C2=A0</p><p style=3D"margin: 16px 0;">One thing to notice is that=C2=
+=A0both<em>=C2=A0</em>of these stories are essentially behavioral. They pur=
+port to identify inefficiencies in the market, ways to make above-market re=
+turns from other people=E2=80=99s irrationality or shortsightedness or non-=
+economic preferences. The first story says: People have non-economic prefer=
+ences for social responsibility, which makes socially irresponsible stocks =
+cheap, so if I buy socially irresponsible stocks I will get an above-market=
+ return. The second story says: People are irrationally short-sighted about=
+ the long-term risk of socially irresponsible behavior, so if I buy sociall=
+y responsible stocks I will get an above-market long-run return.</p><p styl=
+e=3D"margin: 16px 0;">In some sense both of these stories can=E2=80=99t rea=
+lly be true,[1] but they both seem plausible.=C2=A0On the one hand we have =
+decades of experience of people ignoring externalities and minimizing the e=
+ffects of climate change, etc., which suggests the second story =E2=80=94=
+=C2=A0=E2=80=9Cpeople irrationally minimize the long-run costs of social ir=
+responsibility=E2=80=9D =E2=80=94=C2=A0might be true.=C2=A0On the other han=
+d, there are a lot of social-responsibility and environmental/social/govern=
+ance investors right now, which suggests that the field might be a bit crow=
+ded and taking the other side of it might be lucrative.</p><p style=3D"marg=
+in: 16px 0;">Anyway. The mechanism for the first theory is: You stop buying=
+ oil stocks, the cost of capital of oil companies goes up, they close down =
+their oil rigs and get into wind farming or whatever. People who still=C2=
+=A0<em>do=C2=A0</em>buy oil stocks get a higher expected=C2=A0return, but t=
+he oil companies can=E2=80=99t stay in that business with their new higher =
+cost of capital so they pivot to a more socially acceptable business. A pub=
+lic company will rationally choose to lower its cost of capital by getting =
+out of socially irresponsible businesses. Also, the public company will dev=
+elop=C2=A0<em>non-economic=C2=A0</em>preferences about getting out of socia=
+lly irresponsible businesses. If it keeps operating oil rigs, it will keep =
+getting annoying shareholder proposals and disapproving looks from BlackRoc=
+k Inc. and <a href=3D"https://link.mail.bloombergbusiness.com/click/2439320=
+6.255798/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMD=
+UtMjcvZXh4b24tbG9zdC1hLWNsaW1hdGUtcHJveHktZmlnaHQ/607f07ceef4b8524a319a23cB=
+19c76af2" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ proxy fights</a>. Better to do what all the investors say they want, rathe=
+r than what makes the most money.</p><p style=3D"margin: 16px 0;">All of th=
+is suggests that the expected economic return on the oil companies=E2=80=99=
+=C2=A0<em>assets </em>=E2=80=94=C2=A0its oil fields and so forth =E2=80=94=
+=C2=A0will be high or, to put it another way, that those assets will be che=
+ap relative to their expected cash flows. The cash flows are what they are,=
+ but if a public company operates those assets it will have to pay more for=
+ capital and deal with angry socially-responsible shareholders, so it will =
+divest them cheap and not compete to buy more.</p><p style=3D"margin: 16px =
+0;">So <a href=3D"https://link.mail.bloombergbusiness.com/click/24393206.25=
+5798/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNGRlZTcwODAtM2ExYi00NzlmLWE1MGMtYz=
+M2NDFjODJjMTQy/607f07ceef4b8524a319a23cBe7eb9f6b" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">here you go</a>:</p><blockquote><p =
+style=3D"margin: 16px 0;">Under intense pressure from investors and activis=
+ts to take more action on climate change, some of the world=E2=80=99s bigge=
+st oil and gas companies are putting billions of dollars=E2=80=99 worth of =
+assets up for sale.</p><p style=3D"margin: 16px 0;">Watching from a distanc=
+e are people like Brian Gilvary, the head of Ineos Energy, an arm of the pr=
+ivate UK chemicals company. As many energy companies try to shift from oil =
+to gas and lower carbon technologies, Ineos is buying up unwanted fossil fu=
+el assets.</p><p style=3D"margin: 16px 0;">=E2=80=9CWe have an appetite to =
+acquire,=E2=80=9D says Gilvary, the former chief financial officer at UK en=
+ergy major BP who joined Ineos in December. In March, the company announced=
+ it would acquire Hess Corporation=E2=80=99s oil and gas assets in Denmark =
+for $150m. =E2=80=A6</p><p style=3D"margin: 16px 0;">Despite the intense sp=
+otlight on the energy sector, there are potential buyers for these assets =
+=E2=80=94 from smaller private players such as Ineos, independent operators=
+ who are backed by private equity, opaque energy traders and state oil comp=
+anies. And while the listed oil majors are announcing net zero plans and a =
+downsizing of their traditional businesses, some state-owned companies and =
+producer economies, such as Saudi Arabia, are openly discussing plans to ra=
+ise production.</p></blockquote><p style=3D"margin: 16px 0;">One thing to s=
+ay about this is that it=E2=80=99s not obviously a win for the environment:=
+</p><blockquote><p style=3D"margin: 16px 0;">The activists and government o=
+fficials behind the campaigns believe they lead to reduced investment and p=
+roduction. But in the short term production could shift to private or state=
+-owned companies which face much less scrutiny over their activities. Some =
+of those new owners will use that relative obscurity to squeeze as much pro=
+duction as they can out of the oilfields they are acquiring without disclos=
+ing the environmental consequences.</p><p style=3D"margin: 16px 0;">=E2=80=
+=9CThe quickest way to shrink emissions as a major company is to shed asset=
+s so you can hit climate-related targets,=E2=80=9D said Biraj Borkhataria=
+=C2=A0at RBC Capital Markets. =E2=80=9CBut asset sales do nothing for clima=
+te change, you=E2=80=99re just moving emissions from one hand to another.=
+=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">But the other thing =
+to say about it is that it=E2=80=99s still not obvious that the first story=
+ =E2=80=94=C2=A0that socially responsible investing raises the expected ret=
+urn on socially irresponsible assets =E2=80=94=C2=A0is correct. It could be=
+ true that the oil majors divesting these assets are making the right=C2=A0=
+<em>economic=C2=A0</em>choice, and that the people who are buying them are =
+just wrong about their long-term returns:</p><blockquote><p style=3D"margin=
+: 16px 0;">The disposals come amid rising speculation about =E2=80=9Cstrand=
+ed assets=E2=80=9D =E2=80=94 huge oil and gas reserves that might never be =
+extracted if the world pursues the Paris climate goals.</p></blockquote><p =
+style=3D"margin: 16px 0;">If those assets are really stranded =E2=80=94=C2=
+=A0if regulation or social pressures or whatever will make it impossible to=
+ get oil out of those oil fields =E2=80=94=C2=A0then you probably shouldn=
+=E2=80=99t buy them even at low prices; if you are buying them, it might ju=
+st be because you are cynically short-sighted about the long-term costs of =
+climate change. But the buyers are taking the other side of that=C2=A0bet:<=
+/p><blockquote><p style=3D"margin: 16px 0;">The Danish government has said =
+that it intends to halt oil production by 2050, but Gilvary is undeterred. =
+=E2=80=9CThis deal was attractive to us. We know the fiscal regime under wh=
+ich we will be operating,=E2=80=9D he says. =E2=80=9CWe know what the endga=
+me looks like.=E2=80=9D</p></blockquote><h2 style=3D"font-weight: bold; fon=
+t-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spa=
+cing: -1px; font-size: 20px; border-bottom-width: 1px; border-bottom-style:=
+ dotted; margin: 0px; padding: 16px 0px 5px;">Crypto scams</h2><p style=3D"=
+margin: 16px 0;">Loosely speaking you could say that there are three sorts =
+of financial scams.=C2=A0The most common scams pretend to be=C2=A0<em>legit=
+imate</em>. A scammer comes to you and says she is raising money to invest =
+in some productive purpose, to fund some product or activity that people wa=
+nt. You think =E2=80=9Cah, this company is curing Covid, if it succeeds tha=
+t will be lucrative, I will put some money in.=E2=80=9D There are lots of s=
+cams like this, and some are more convincing than others, but speaking very=
+ broadly it is easy to sympathize with the victims of these scams. They tho=
+ught they were doing a sensible investing thing, funding good projects with=
+ a high expected return, but they were being lied to.</p><p style=3D"margin=
+: 16px 0;">Some other scams pretend to be=C2=A0<em>illegitimate</em>, or at=
+ least, like, tricky or unfair. They pretend to be different scams from the=
+ scams they actually are. Some people invested with Bernie Madoff because t=
+hey assumed his investment fund was <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/24393206.255798/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvb=
+S8yMDA4LzEyL3RoZS1zZWMtbG9va2VkLWludG8tbWFkb2ZmLWZyb250LXJ1bm5pbmctY2xhaW1z=
+LWxhc3QteWVhcg/607f07ceef4b8524a319a23cBd1707d90" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">front-running his broker-dealer</a>=
+. It wasn=E2=80=99t, it was just a Ponzi scheme, the joke was on them.=C2=
+=A0But they had thought the joke would be on someone else. Or people consta=
+ntly <a href=3D"https://link.mail.bloombergbusiness.com/click/24393206.2557=
+98/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTUtMDktMDMv=
+YWNjdXNlZC1mcmF1ZHN0ZXItc3BlbnQtaGlzLW1vbmV5LW9uLW90aGVyLWZyYXVkcw/607f07ce=
+ef4b8524a319a23cB5250e4b8" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> fall for =E2=80=9Cprime bank=E2=80=9D scams</a>, whose pr=
+emise is something like =E2=80=9Cthe Federal Reserve and the Illuminati pay=
+ certain select insiders millions of dollars to trade Treasury bonds at nig=
+ht,=E2=80=9D don=E2=80=99t even ask.[2]=C2=A0You put your money into a prim=
+e bank scheme not because you think you are making a good investment in a p=
+roductive activity; you put your money in because you think someone has off=
+ered you a special opportunity to put one over on someone else, to extract =
+money for yourself illegitimately.</p><p style=3D"margin: 16px 0;">These sc=
+ams are quite popular because they <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/24393206.255798/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW=
+9uL2FydGljbGVzLzIwMTgtMDYtMjgvYS0xMDBtLW1hZ2ljYWwtc2NhbQ/607f07ceef4b8524a3=
+19a23cB839f28ec" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">offer a sense of specialness</a>; they fulfill a need for mystery an=
+d conspiracies. Also because =E2=80=9Cyou can=E2=80=99t cheat an honest man=
+=E2=80=9D: If you are running a scam, the ideal mark is someone who is up f=
+or a little dishonesty, who is not going to insist on all the proper proced=
+ures. Also because the victims here are never going to be that sympathetic:=
+ They wanted to do some scam (one where they were the scammer), you served =
+them a different scam (one where they were the victim), but what are they g=
+onna do, call the police?</p><p style=3D"margin: 16px 0;">The third kind of=
+ scam =E2=80=94=C2=A0is it even a scam? =E2=80=94=C2=A0doesn=E2=80=99t pret=
+end to be anything at all; it is just open about being exactly the sort of=
+=C2=A0scam that it actually is. In <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/24393206.255798/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW=
+9uL2FydGljbGVzLzIwMTctMDUtMTYvaGVkZ2UtZnVuZC1wYXktYW5kLXRyYWRlci1saWVz/607f=
+07ceef4b8524a319a23cB7843b024" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> the early days of Ethereum</a> there were tons of thi=
+ngs named like =E2=80=9CEthereum Pyramid Scheme=E2=80=9D or =E2=80=9CEthere=
+um Ponzi Scheme.=E2=80=9D If you buy that you know what you=E2=80=99re gett=
+ing! The value proposition of a Ponzi scheme is: =E2=80=9CIf you put in mon=
+ey now, and other people put in money later, we will pay you a high return =
+on your investment, but=C2=A0if you are the last one in you will lose all y=
+our money.=E2=80=9D You can dress that proposition up in lies =E2=80=94=C2=
+=A0say =E2=80=9Cwe=E2=80=99re investing in totally safe bonds at a guarante=
+ed above-market return=E2=80=9D while actually doing a Ponzi =E2=80=94=C2=
+=A0or you could not. You could just tell people what you=E2=80=99re doing a=
+nd ask them if they want to play. Some will, because that basic Ponzi propo=
+sition is sort of a fun game of musical chairs but with money. People could=
+ want to play because they like a gamble, or because they think they have s=
+ome edge =E2=80=94=C2=A0some special psychological insight or inside knowle=
+dge or whatever that gives them an advantage in guessing when the game will=
+ end and getting out in time.</p><p style=3D"margin: 16px 0;">I have mostly=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/24393206.255798/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMTMvZnJh=
+dWQtaXMtbm8tZnVuLXdpdGhvdXQtZnJpZW5kcw/607f07ceef4b8524a319a23cB24cfd0ab" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> come aroun=
+d</a> to <a href=3D"https://link.mail.bloombergbusiness.com/click/24393206.=
+255798/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEt=
+MjYvd2lsbC13YWxsc3RyZWV0YmV0cy1mYWNlLXNlYy1zY3J1dGlueS1hZnRlci1nYW1lc3RvcC1=
+yYWxseQ/607f07ceef4b8524a319a23cB0a26f2ed" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> the view</a> that many small-cap pump-and=
+-dump schemes look like the first type of scam but are really the third. So=
+me stock shill sends out an email newsletter saying =E2=80=9Cbuy Amalgamate=
+d Widgets because they are about to announce a breakthrough Covid cure,=E2=
+=80=9D and then Amalgamated Widgets stock goes up rapidly and then down rap=
+idly again, and from the outside you can look at it and say =E2=80=9Cah, pe=
+ople were tricked into thinking that Amalgamated Widgets had a Covid cure,=
+=E2=80=9D but the shill=E2=80=99s newsletter is titled Stock Shill Weekly a=
+nd the only subscribers are people who want to play pump-and-dumps and nobo=
+dy believes it, it=E2=80=99s just an excuse for everyone to play a gambling=
+ game where the loser is whoever gets out last.=C2=A0</p><p style=3D"margin=
+: 16px 0;">There is no reason at all to sympathize with victims of the thir=
+d sort of scam; often they don=E2=80=99t sympathize with themselves. They d=
+on=E2=80=99t perceive themselves as victims, because they aren=E2=80=99t; t=
+hey think they played a game of chance and lost. They got their money=E2=80=
+=99s worth, in expectation; they had their fun and it cost them a reasonabl=
+e amount of their gambling money.</p><p style=3D"margin: 16px 0;">Obviously=
+ in practice these things can blur into each other; if you are playing the =
+fun gambling game (type 3) you might also be hoping to get an edge (type 2)=
+ from other people believing that the pump is real (type 1).</p><p style=3D=
+"margin: 16px 0;">Anyway nobody has ever deserved to get their money stolen=
+ more than the people in this Bloomberg article titled =E2=80=9C<a href=3D"=
+https://link.mail.bloombergbusiness.com/click/24393206.255798/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjEtMDctMDgvY3J5cHRvLXNjYW1zLXJ1=
+Zy1wdWxscy1iaXRjb2luLWhhY2tzLWJpbGxpb25zLWxvc3Qtd2hlbi1zaGl0LWNvaW5zLWdvLXR=
+vLXplcm8/607f07ceef4b8524a319a23cB7b91cc6e" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">Crypto Scammers Rip Off Billions as Pump-=
+and-Dump Schemes Go Digital</a>=E2=80=9D:=E2=80=99</p><blockquote><p style=
+=3D"margin: 16px 0;">Ben Ghrist knows all about crypto scams. He=E2=80=99s =
+lives at his parents=E2=80=99 home in Roanoke, Texas, and, for the moment, =
+is trading meme coins as a full-time job. At 35, Ghrist is a millionaire in=
+ Safemoon, a billionaire in Kishu Inu and Sanshu Inu and a trillionaire in =
+Keanu Inu. He=E2=80=99s got money in at least 15 different coins, with abou=
+t a quarter of his $25,000 =E2=80=9Cportfolio=E2=80=9D in Dogecoin, the one=
+ created as a joke back in 2013 and known for its Shiba Inu mascot.=C2=A0</=
+p><p style=3D"margin: 16px 0;">Ghrist suspects he=E2=80=99s gotten rug-pull=
+ed, soft-rugged and even fallen victim to a honey pot =E2=80=94 when a seem=
+ingly legitimate coin sets up a trap, like the inability for investors to s=
+ell once they=E2=80=99ve bought in. Ghrist says he wanted to trade the mome=
+ntary 1000% gain of a coin launch called Space Jupiter but couldn=E2=80=99t=
+ sell for about 20 minutes. He says the creators of the coin eventually re-=
+enabled selling, but only after the coin price had slumped and after he sus=
+pects they had taken gains for themselves.=C2=A0</p><p style=3D"margin: 16p=
+x 0;">=E2=80=9CIt=E2=80=99s pretty much hit-or-miss wherever you go,=E2=80=
+=9D says Ghrist, who typically works from his bed with two laptops. He says=
+ he=E2=80=99s pulled all-nighters and worked 48 hours straight moiling for =
+meme-coin gold.</p><p style=3D"margin: 16px 0;">In picking his meme coins, =
+he considers a range of factors to minimize risk. One is the number of soci=
+al media accounts a coin has (legit coins, he says, tend to have more than =
+dodgy ones). Another is whether those accounts are public or private (he sa=
+ys public is safer than private): how much time those accounts spend chatti=
+ng with investors (more is better than less). Then he looks at what=E2=80=
+=99s happening in Telegram groups, known in meme-coin-speak as =E2=80=9Cshi=
+lling groups.=E2=80=9D When the whole package looks slapdash, that=E2=80=99=
+s a bad sign, he says.</p><p style=3D"margin: 16px 0;">Ghrist feels scammed=
+ at times, but he=E2=80=99s pressing on too. =E2=80=9CWhen I feel that fear=
+ of losing my money, because I know I might, I also balance that with I mig=
+ht make five times my money or three times my money,=E2=80=9D he says. =E2=
+=80=9CYou can literally do 30 times or more if you if you get a coin that l=
+asts more than a day.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;"=
+>Nobody in this article thinks that they are investing in some productive e=
+nterprise and hoping to earn an attractive rate of return. Nobody thinks th=
+at Keanu Inu is the future of money and that they are contributing to innov=
+ation in payments systems. They all think they can =E2=80=9Cdo 30 times or =
+more=E2=80=9D on some completely pointless gambling game, and if they lose,=
+ well, =E2=80=9Cit=E2=80=99s pretty much hit-or-miss wherever you go.=E2=80=
+=9D Let them take each other=E2=80=99s money, who cares.</p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 20px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td style=3D"padding: 15px 15px 0px;">
+<!--[if mso]>
+<table width=3D"500">
+<tr>
+<td>
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7euuWjKLZ5M/v=
+0/-1x-1.jpg" width=3D"500" />
+</td>
+</tr>
+</table>
+<div style=3D"display:none">
+<![endif]-->
+<img width=3D"550" class=3D"sponsored-content__image" src=3D"https://assets=
+.bwbx.io/images/users/iqjWHBFdfxIU/i7euuWjKLZ5M/v0/-1x-1.jpg" style=3D"widt=
+h: 100%; display: block; max-width: 550px; max-height: 150px;" />
+<!--[if mso]>
+</div>
+<![endif]-->
+</td>
+</tr>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Sponsored Content</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;"><p style=3D"margin: 10px 0px;">High Paying Cards For Americans Wit=
+h Good Credit. These cards feature=C2=A0<a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/24393206.255798/aHR0cHM6Ly9iaXQubHkvM3hsYjRNag/607f07=
+ceef4b8524a319a23cBdd819dd4" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" title=3D"$200 bonus offers and up to 3% cash back" style=
+=3D"color: #000000; text-decoration: underline;">$200 bonus offers and up t=
+o 3% cash back</a>. PLUS no annual fee and no interest for 15 months. A lon=
+g-time credit card writer says=C2=A0<a href=3D"https://link.mail.bloombergb=
+usiness.com/click/24393206.255798/aHR0cHM6Ly9iaXQubHkvM3hsYjRNag/607f07ceef=
+4b8524a319a23cCdd819dd4" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" title=3D"these are some of the best deals" style=3D"color: #=
+000000; text-decoration: underline;">these are some of the best deals</a>=
+=C2=A0he's seen in his years of writing for top financial websites.</p></di=
+v>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;">Wise Bread</p></=
+div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">PFOF</h2><p style=3D"margin: 16px 0;">Robinhood Markets Inc. filed fo=
+r an initial public offering last week, which I suppose means it=E2=80=99s =
+time to talk about payment for order flow again. Here is a <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/24393206.255798/aHR0cHM6Ly93d3cud3=
+NqLmNvbS9hcnRpY2xlcy9yb2Jpbmhvb2RzLWRlYnV0LWlzLWNsb3VkZWQtYnktc2VjLXNjcnV0a=
+W55LW9mLXBheW1lbnQtZm9yLW9yZGVyLWZsb3ctMTE2MjU2NTU2MDA_bW9kPWhwX2xlYWRfcG9z=
+Mw/607f07ceef4b8524a319a23cBa3727528" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;">Wall Street Journal article</a>:</p><blockquote=
+><p style=3D"margin: 16px 0;">Robinhood Markets Inc. is on a collision cour=
+se with regulators over a controversial practice that generates most of its=
+ revenue, as the online brokerage gears up for a highly anticipated initial=
+ public offering.</p><p style=3D"margin: 16px 0;">In its IPO filing, releas=
+ed Thursday, Robinhood disclosed that 81% of its first-quarter revenue came=
+ from sending its customers=E2=80=99 stock, options and cryptocurrency orde=
+rs to high-speed trading firms=E2=80=94a practice known as payment for orde=
+r flow.</p><p style=3D"margin: 16px 0;">Payment for order flow, or PFOF, ma=
+kes it possible for Robinhood to let customers place trades with no upfront=
+ commission payment. Zero-commission stock trades helped the company win ov=
+er millions of younger, less affluent customers and are now standard practi=
+ce at many of Robinhood=E2=80=99s competitors.</p><p style=3D"margin: 16px =
+0;">Payment for order flow critics=E2=80=94including the country=E2=80=99s =
+top market regulator, Securities and Exchange Commission Chairman Gary Gens=
+ler =E2=80=94are wary of the practice. They argue that it poses a conflict =
+of interest for brokerages, because the brokers can either collect more mon=
+ey for selling their customers=E2=80=99 order flow or pass that money on to=
+ customers in the form of price savings on their trades. Last month, Mr. Ge=
+nsler said the SEC was reviewing payment for order flow, fueling speculatio=
+n among some market observers that PFOF could be banned.</p><p style=3D"mar=
+gin: 16px 0;">=E2=80=9CThe entire business model of some brokers is in the =
+crosshairs,=E2=80=9D said Tyler Gellasch, executive director of Healthy Mar=
+kets Association, an investor trade group. =E2=80=A6</p><p style=3D"margin:=
+ 16px 0;">Still, the SEC hasn=E2=80=99t given any indication of how it migh=
+t change its rules on payment for order flow. Prohibiting PFOF might force =
+some brokerages to abandon zero-commission trading, which could lead to an =
+outcry as small investors face the prospect of paying for trades again. Tha=
+t would undermine arguments that banning PFOF would help investors. Many of=
+ the potential benefits of such a change=E2=80=94such as possibly increased=
+ activity on transparent public exchanges=E2=80=94wouldn=E2=80=99t be as ta=
+ngible to ordinary investors.</p></blockquote><p style=3D"margin: 16px 0;">=
+The problem with payment-for-order-flow discourse is that it is mostly abou=
+t best execution. Robinhood gets a customer order to buy or sell a stock an=
+d sends it to a market maker (a wholesaler, internalizer, electronic tradin=
+g firm). The market maker fills the order (selling stock to a customer who =
+wants to buy, buying stock from a customer who wants to sell) and=C2=A0pays=
+ Robinhood a little bit of money for each order that it sees. The market ma=
+ker makes money. This infuriates people. They think: If the market maker is=
+ making money filling these orders, and if it is paying Robinhood for the r=
+ight to fill these orders, then it must be filling those orders at a=C2=A0<=
+em>bad price</em>. If Robinhood routes your order to a market maker who pay=
+s for order flow, you must be getting a worse price than you would if Robin=
+hood routed your order to the stock exchange and just took the best price a=
+vailable there.</p><p style=3D"margin: 16px 0;">That is a reasonable intuit=
+ion but it is wrong! It is wrong! You actually generally get filled at a=C2=
+=A0<em>better=C2=A0</em>price than you=E2=80=99d get on the stock exchange!=
+ I keep saying this,=C2=A0and I explain why in detail, and then each time l=
+ike a dozen people email me to be like =E2=80=9Cyou=E2=80=99re so naive, if=
+ the market maker is paying for the order then how can I be getting a bette=
+r price?=E2=80=9D So I do not harbor any hope of changing anyone=E2=80=99s =
+mind on this point. You can read <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/24393206.255798/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjEtMDItMDUvcm9iaW5ob29kLWdhbWVzdG9wLXNhZ2EtcHJlc3N1cmVzLXB=
+heW1lbnQtZm9yLW9yZGVyLWZsb3c/607f07ceef4b8524a319a23cB31859452" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">a fuller intuitive ex=
+planation here</a>, or not, but either way please please please do not emai=
+l me to say =E2=80=9Cyou=E2=80=99re so naive, if the market maker is paying=
+ for the order then how can I be getting a better price?=E2=80=9D</p><p sty=
+le=3D"margin: 16px 0;">Please also do not email me to say more sophisticate=
+d things like =E2=80=9Cif market makers were not able to segregate retail o=
+rders then lit spreads would be tighter and everyone, even retail, would be=
+ getting better fills.=E2=80=9D That one may be true; it=E2=80=99s just not=
+ what I want to talk about right now. Or there is Gensler=E2=80=99s point t=
+hat=C2=A0you could offer more price improvement instead of taking payment f=
+or order flow; that is true (and Robinhood has <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/24393206.255798/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtMDcvdGhlLWlwby1tYXJrZXQtd2FzLXRvby1nb=
+29k/607f07ceef4b8524a319a23cB7bbb66b1" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: sol=
+id; background-color: #ccc;"> gotten in trouble for it</a>), but not what I=
+ want to discuss here.=C2=A0</p><p style=3D"margin: 16px 0;">Instead I want=
+ to talk about the=C2=A0<em>actual=C2=A0</em>conflict of interest in Robinh=
+ood=E2=80=99s use of payment for order flow, which is not not not not not n=
+ot not not not not not not not about execution quality. The conflict is not=
+ not not not not not not =E2=80=9Cif market makers pay Robinhood for orders=
+, it will route those orders to the market maker who pays the most, not the=
+ one who will give its customers the best price.=E2=80=9D[3] For one thing,=
+ Robinhood customers do generally get a better price than is available on t=
+he stock exchange. For another thing, though, we are talking about, often,=
+=C2=A0fractions of pennies per share. If you bought GameStop Corp. stock wh=
+en it was trading at $483, I simply do not care if you paid $483.01 or $483=
+.007 or even $483.20, and neither should you.</p><p style=3D"margin: 16px 0=
+;">The actually important conflict is: =E2=80=9CIf market makers pay Robinh=
+ood for orders, it will try to generate a lot of orders, particularly ones =
+that pay the most.=E2=80=9D</p><p style=3D"margin: 16px 0;">What that means=
+ is that,=C2=A0if Robinhood gets paid primarily for order flow, it has ince=
+ntives to encourage a lot of trading, and in particular a lot of trading of=
+ options, because it gets paid more for options orders than for most stock =
+orders. And so in fact Robinhood customers trade a lot,[4] and in particula=
+r they trade a lot of=C2=A0options, and Robinhood makes a ton of money from=
+ their options trading.=C2=A0I <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/24393206.255798/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjEtMDctMDIvcm9iaW5ob29kLWlwby1maWxpbmctaXMtYS1sZXNzb24taW4tb=
+WVtZS1maW5hbmNl/607f07ceef4b8524a319a23cB546338fc" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">said last week</a> that =E2=80=9CE=
+conomically, Robinhood is an options brokerage. Robinhood=E2=80=99s main bu=
+siness is convincing people to trade options, and then having options marke=
+t makers pay to take the other side of those trades,=E2=80=9D and more than=
+ a third of its revenue comes from options trades. Retail options trades ar=
+e lucrative for market makers, so they pay Robinhood a lot for them.=C2=A0<=
+/p><p style=3D"margin: 16px 0;">Of course any commission-based broker also =
+has an incentive to encourage trading, and there are lots of enforcement ca=
+ses against brokers who get their customers to trade too much. (This is usu=
+ally called =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/24393206.255798/aHR0cHM6Ly93d3cuc2VjLmdvdi9vaWVhL2ludmVzdG9yLWFsZXJ0cy1i=
+dWxsZXRpbnMvaWFfZXhjZXNzaXZldHJhZGluZy5odG1s/607f07ceef4b8524a319a23cBbb9fe=
+793" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">churn=
+ing</a>.=E2=80=9D) But there is a natural limit on a commission-based broke=
+r=E2=80=99s ability to churn, which is that if you are a customer and you p=
+ay $5 per trade, you will wince every time you pay that $5, and eventually =
+you will stop. At zero-commission brokerages =E2=80=94=C2=A0like Robinhood,=
+ which pioneered the model =E2=80=94=C2=A0you pay $0 per trade, you never w=
+ince, and you never stop.</p><p style=3D"margin: 16px 0;">So you could have=
+ a reasonable theory of Robinhood that says that all of its alleged problem=
+s =E2=80=94=C2=A0=E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/24393206.255798/aHR0cHM6Ly93d3cuc2VjLnN0YXRlLm1hLnVzL3NjdC9jdXJyZW5=
+0L3NjdHJvYmluaG9vZC9yb2Jpbmhvb2RpZHguaHRt/607f07ceef4b8524a319a23cB9c2800bd=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">gamifica=
+tion</a>,=E2=80=9D=C2=A0the psychological tactics it uses to get people to =
+keep coming back to the app and trading more, as well as its <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/24393206.255798/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDctMDEvcHVtcC1hbmQtZHVtcC1=
+hbmQtcHVsbC10aGUtcnVn/607f07ceef4b8524a319a23cB284d5871" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">somewhat lax restrictions</a=
+> on who is allowed to trade options =E2=80=94=C2=A0are symptoms of one und=
+erlying business-model decision, which is to make almost all of its money f=
+rom payment for order flow. If you make money mainly from net interest marg=
+in, you will want to accumulate customer cash and margin balances. If you m=
+ake money from investment products that you manage, you will push those pro=
+ducts. If you make money from commissions, you will push people to trade a =
+lot, but it will work imperfectly. If you make money from payment for order=
+ flow, you will push people to trade a lot, and it will work really well.</=
+p><p style=3D"margin: 16px 0;">If trading a lot is bad for people, this is =
+bad. It is perhaps not=C2=A0<em>obvious=C2=A0</em>that trading a lot is bad=
+ for people, but it does seem intuitive. =E2=80=9CThe majority of our custo=
+mers prefer to buy and hold,=E2=80=9D say Robinhood=E2=80=99s founders in t=
+heir introduction to <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/24393206.255798/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE3=
+ODM4NzkvMDAwMTYyODI4MDIxMDEzMzE4L3JvYmluaG9vZHMtMS5odG0/607f07ceef4b8524a31=
+9a23cB4eb15328" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">its IPO prospectus</a>, and =E2=80=9Cit=E2=80=99s never been easier o=
+r more delightful to build a portfolio and invest for the long term.=E2=80=
+=9D If=C2=A0<em>they=C2=A0</em>thought constant trading was good they would=
+ have said something else. =E2=80=9CA lot of our customers prefer to YOLO w=
+eekly call options and make a lot of money doing it,=E2=80=9D or whatever. =
+Robinhood=E2=80=99s major=C2=A0innovation was building an app, and an econo=
+mic model, that made it easy and pleasant for regular people to trade a lot=
+. Perhaps that=E2=80=99s good! It does seem controversial.</p><h2 style=3D"=
+font-weight: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, =
+sans-serif; letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px=
+; border-bottom-style: dotted; margin: 0px; padding: 16px 0px 5px;">Things =
+happen</h2><p style=3D"margin: 16px 0;">Chinese Firm LinkDoc Said to <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/24393206.255798/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMDgvYWxpYmFiYS1oZWF=
+sdGgtYmFja2VkLWxpbmtkb2Mtc2hlbHZlcy11LXMtaXBvLXJldXRlcnMtc2F5cw/607f07ceef4=
+b8524a319a23cB0ab3ee4d" itemprop=3D"StoryLink" itemscope=3D"itemscope" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> Halt U.S. IPO</a> After Crackdown. Chinese fitness app <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/24393206.255798/aHR0cHM=
+6Ly93d3cuZnQuY29tL2NvbnRlbnQvNzEyMzI2NmUtOTRjMS00NWNiLWExMzMtOGYxYzBiOTA3Yz=
+I1/607f07ceef4b8524a319a23cB73a494c5" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;">pulls New York IPO plan</a> after Didi debacle.=
+ China=E2=80=99s Cyber Watchdog to Police <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/24393206.255798/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2x=
+lcy9jaGluYXMtY3liZXItd2F0Y2hkb2ctdG8tcG9saWNlLWNoaW5lc2Utb3ZlcnNlYXMtbGlzdG=
+luZ3MtMTE2MjU3NDIyNTQ_bW9kPWhwX2xlYWRfcG9zMg/607f07ceef4b8524a319a23cB734c9=
+04c" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">Chine=
+se Overseas Listings</a>. Pelosi=E2=80=99s Husband Locked In $5.3 Million F=
+rom <a href=3D"https://link.mail.bloombergbusiness.com/click/24393206.25579=
+8/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMDcvcGVsb=
+3NpLXMtaHVzYmFuZC1sb2NrZWQtaW4tNS0zLW1pbGxpb24tZnJvbS1hbHBoYWJldC1vcHRpb25z=
+/607f07ceef4b8524a319a23cBe778ff7a" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> Alphabet Options</a>. Volkswagen, BMW Fined $1 B=
+illion by EU for <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+4393206.255798/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEt=
+MDctMDgvdm9sa3N3YWdlbi1ibXctZmluZWQtMS1iaWxsaW9uLWJ5LWV1LWZvci1lbWlzc2lvbnM=
+tY29sbHVzaW9u/607f07ceef4b8524a319a23cB78ad43aa" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> Pollution Cartel</a>. Wachtell, Ten=
+eo and the =E2=80=98<a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/24393206.255798/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMzU3MjM3ZjEtNDA4ZS00N=
+DIwLTg1ZTUtYjZjMjQ0OTMzMWI5/607f07ceef4b8524a319a23cBbdbc98bf" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">darker arts</a> of inf=
+luencing the public discourse.=E2=80=99 SEC May Require Fund Managers to Di=
+sclose Staff <a href=3D"https://link.mail.bloombergbusiness.com/click/24393=
+206.255798/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDct=
+MDcvc2VjLW1heS1yZXF1aXJlLWZ1bmQtbWFuYWdlcnMtdG8tZGlzY2xvc2Utc3RhZmYtZGl2ZXJ=
+zaXR5LWRhdGE/607f07ceef4b8524a319a23cB6753baa1" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> Diversity Data</a>. ECB <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/24393206.255798/aHR0cHM6Ly93d3=
+cuZnQuY29tL2NvbnRlbnQvYWIzYjhjMzYtMjE5OS00MjMwLWI5YjMtYjllMTJjMDlkNDRi/607f=
+07ceef4b8524a319a23cB4efb31d4" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">changes inflation target</a>, leaving extra room to ke=
+ep rates low. Theranos Founder <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/24393206.255798/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90aGVyYW=
+5vcy1mb3VuZGVyLWVsaXphYmV0aC1ob2xtZXMtcmVuZXdzLWZpZ2h0LXRvLWNvbnN0cmFpbi1wc=
+m9zZWN1dG9ycy0xMTYyNTY5MzY3NT9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a=
+319a23cB22ee4ba3" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">Elizabeth Holmes</a> Renews Fight to Constrain Prosecutors. Ireland=
+ frets about losing its =E2=80=98sacrosanct=E2=80=99 <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/24393206.255798/aHR0cHM6Ly93d3cuZnQuY29t=
+L2NvbnRlbnQvODVkNGE1OTEtNWM3Zi00NWIzLTgxNWQtOTcyZTcyOGUwZDNj/607f07ceef4b85=
+24a319a23cB396f1d31" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">low-tax regime</a>. Pok=C3=A9mon Card Grading Company Valued a=
+t $500 Million After <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/24393206.255798/aHR0cHM6Ly93d3cudmljZS5jb20vZW4vYXJ0aWNsZS83a3ZlN3kvcG9r=
+ZW1vbi1jYXJkLWdyYWRpbmctY29tcGFueS12YWx1ZWQtYXQtZG9sbGFyNTAwLW1pbGxpb24tYWZ=
+0ZXItYmxhY2tzdG9uZS1hY3F1aXNpdGlvbg/607f07ceef4b8524a319a23cBc0255ef5" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">Blackstone Acq=
+uisition</a>. TikTok wants to be <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/24393206.255798/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS90=
+aWt0b2std2FudHMtdG8tYmUtbGlua2VkaW4tZm9yLWdlbi16LXRpa3Rvay1yZXN1bWVzLTIwMjE=
+tNw/607f07ceef4b8524a319a23cBf65ef1c0" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: sol=
+id; background-color: #ccc;">LinkedIn for Gen Z</a>, launches TikTok Resume=
+s for video job applications. Researchers Got a Bunch of Fish <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/24393206.255798/aHR0cHM6Ly93d3c=
+udmljZS5jb20vZW4vYXJ0aWNsZS8zYXE1N3cvdHJvdXQtYXJlLWdldHRpbmctaG9va2VkLW9uLW=
+1ldGgtaW4td2FzdGV3YXRlci1zY2llbnRpc3RzLXNheQ/607f07ceef4b8524a319a23cB2a0a7=
+1ce" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">Hooke=
+d on Meth</a>, for Science.=C2=A0</p><p style=3D"margin: 16px 0;"><span cla=
+ss=3D"news-designed-for-consumer-media"><em>If you'd like to get=C2=A0Money=
+=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0<a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/24393206.255798/aHR0cD=
+ovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1za=
+WdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a=
+319a23cBe910158a" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">subscribe at this lin=
+k</a>. Or you can subscribe to Money Stuff and other great Bloomberg newsle=
+tters <a href=3D"https://link.mail.bloombergbusiness.com/click/24393206.255=
+798/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a3=
+19a23cBe68ddde9" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">here</a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1=
+] You could tell some complicated story like =E2=80=9Csocially irresponsibl=
+e assets are cheap relative to their short-term cash flows but expensive re=
+lative to their long-term cash flows,=E2=80=9D which makes both stories sor=
+t of true.</em></p><p style=3D"margin: 16px 0;"><em>[2] I periodically reco=
+mmend <a href=3D"https://link.mail.bloombergbusiness.com/click/24393206.255=
+798/aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9PY3RvcHVzLUlzcmFlbC1TZWNyZXQtU3RyZWV0cy1=
+XaWxkZXN0LWVib29rL2RwL0IwMDU0MFA5WVM/607f07ceef4b8524a319a23cBe2bebc92" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">Guy Lawson=E2=
+=80=99s =E2=80=9COctopus=E2=80=9D</a> here, and I will recommend it again; =
+it captures the insanity of prime bank scams well. I should say that both i=
+n =E2=80=9COctopus,=E2=80=9D and in the <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/24393206.255798/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMTUtMDktMDMvYWNjdXNlZC1mcmF1ZHN0ZXItc3BlbnQtaGlzLW1v=
+bmV5LW9uLW90aGVyLWZyYXVkcw/607f07ceef4b8524a319a23cC5250e4b8" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> Money Stuff column</a>=
+ I linked in the text, the victim of the prime bank scam was himself allege=
+dly running a different scam. Scammers are particularly good marks for prim=
+e bank scams, because you=E2=80=99re pitching them on running a scam and yo=
+u already know they=E2=80=99re up for that.</em></p><p style=3D"margin: 16p=
+x 0;"><em>[3] Robinhood=E2=80=99s <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/24393206.255798/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGd=
+hci9kYXRhLzE3ODM4NzkvMDAwMTYyODI4MDIxMDEzMzE4L3JvYmluaG9vZHMtMS5odG0/607f07=
+ceef4b8524a319a23cC4eb15328" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">prospectus</a> says (page 34): =E2=80=9CWithin each asse=
+t class, whether equities, options or cryptocurrencies, the transaction-bas=
+ed revenue we earn is calculated in an identical manner among all participa=
+ting market makers. We route equity and option orders in priority to partic=
+ipating market makers that we believe are most likely to give our customers=
+ the best execution, based on historical performance, and we do not conside=
+r transaction fees when routing orders.=E2=80=9D So no market maker pays a =
+higher price than anyone else, and they route based on execution, not diffe=
+rent payments. (Of course they route to market makers who pay, not ones who=
+ don=E2=80=99t.)</em></p><p style=3D"margin: 16px 0;"><em>[4] Robinhood rep=
+orted 1.1 million options trades, 5.1 million stock trades, and 1.4 million=
+ cryptocurrency trades per day in the first quarter of 2021; for comparison=
+, Charles Schwab Corp. reported 8.4 million daily trades in that period. Sc=
+hwab has 31.9 million accounts with a total of $7 trillion of assets; Robin=
+hood has 18 million accounts with $80.9 billion of assets. Robinhood custom=
+ers do almost as much trading as Schwab customers, but there are many fewer=
+ of them and they have much smaller accounts. (See page 134 of the <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24393206.255798/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE3ODM4NzkvMDAwMTYyODI4MDIxMDEz=
+MzE4L3JvYmluaG9vZHMtMS5odG0/607f07ceef4b8524a319a23cD4eb15328" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">Robinhood S-1</a> for =
+its daily average revenue trades and page 126 for its accounts and assets u=
+nder custody. See pages 4-5 of <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/24393206.255798/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdm=
+VzL2VkZ2FyL2RhdGEvMzE2NzA5LzAwMDAzMTY3MDkyMTAwMDAyOS9zY2h3LTIwMjEwMzMxLmh0b=
+Q/607f07ceef4b8524a319a23cB67d4df8a" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">Schwab=E2=80=99s 10-Q</a> for its daily average =
+trades, client accounts and client assets.)</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24393206.255798/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBf2f4b171" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24393206.255798/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB71bdb445" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24393206.255798/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB6c1f1baf" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24393206.255798/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB3147e4a8" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-bottom: 32px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2439320=
+6.255798/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB263572e3" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; padding-bottom: 10px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> You received this mess=
+age because you are subscribed to Bloomberg's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24393206.255798/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCc0f5a895" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24393206.255798/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB4f6ebdfc" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24393206.255798/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB70846c11" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ceitx2.5hdi/230559fc.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_22826731_262901002.1625762812199--
+

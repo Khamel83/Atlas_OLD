@@ -1,0 +1,2005 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp4391449rwb;
+        Wed, 21 Jun 2023 11:30:04 -0700 (PDT)
+X-Received: by 2002:a05:600c:230c:b0:3f8:f1db:d1f5 with SMTP id 12-20020a05600c230c00b003f8f1dbd1f5mr15250304wmo.5.1687372203735;
+        Wed, 21 Jun 2023 11:30:03 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1687372203; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=hhjiQbUB00KVe2FTlddnM/TbRzJDtO/axll5p1o7q/pAFZYIrilrGPNEz7MTPs4t+C
+         RYjX9/rbJV8gHx/AFke1kYKwpAlMyQF2YFWZ9eUtbRBIBe4paryFiPVXYE3B+uTcxghy
+         pjfy3wiNRWo1y8t3xeUVZD1/0s+ZmSU2nIaiGvst0lwEUo5xDF95sN5V0PSJKzM2cOtE
+         mBf5nT/82I19u4cvBolGR3ot2caxq7/kCl+QRhGd976Zeb/H+PYVEtWbW5Zqklh0Gb4x
+         ZLozeN2H1ra4OLsDkbMNv3fKCVx4YiQM9O6muJvIUPeUuCuNIRCAMBITkuuo0qEpMQji
+         4ToA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=g6wQzytTk/+zc3bkQyWIlD5/2SjKffjOiYd7KPSIbAg=;
+        b=YQ8HlwwJLnkBAirlyzMQSOLwXhheFxXICIWECPgmGdmWh4O+wz0SFGC/dTwkNlcyMJ
+         oPM50UbdZywj5/6aXF9Khb7kIPwEQqzMg0cFA08fVZR4iGg4qt5oM09ZmTPq7oQiAflN
+         RA1RZCc8i/NkLb3h2WDIGKsGO3hOa+cr5xYPKxRmbixa/zTMOGicxhr16wek3K2pqWlN
+         O/xLCpHKkUuvhWDz6dpf0UoPu/f6xoUu4oD76omqbfQqdz3elIbEPtd7kNAsjxpgk63a
+         hgPWb5QuyQGueD0Qrdrzdiqqrp4fM2kQx+z2Wv7eRfCCcnBTmwtCbitB6eQxa1ik7jJU
+         M48A==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=fQkBEtOd;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id k9-20020a05600c0b4900b003f809461170sor1966798wmr.4.2023.06.21.11.30.03
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 21 Jun 2023 11:30:03 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=fQkBEtOd;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1687372203; x=1689964203;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=g6wQzytTk/+zc3bkQyWIlD5/2SjKffjOiYd7KPSIbAg=;
+        b=QV0Xia4rrv78RoiXfdGKTCO/20JTkgAlvZZLjs7cCRn2Rwd20KNwMjinj7c4S0CFHA
+         F4iLDCqcPyzzc6tz7u/PPuS4QrrL0SjiimTMOYYER22+pf93ipROikEQiUtoM2r3T85S
+         2ZJlQ4rCunYa2PGfec6ziF9K6Sk0QjSu9Jh93t/hdNPMepM/HYGyUV6i3L+qI/svGC17
+         +baLfjzW0CVDhJBWi2yxlGrl6RS5o/9f5lpqHiDkdujeBJwekeGfpmBM0FdMROmPOV82
+         L2fdwOxSbkl02oFO3TJFE2fQ+z2gfpavgTMT+aFxk5pMdxSMp2KSZmlgmRWxsml3OqhV
+         hVCQ==
+X-Gm-Message-State: AC+VfDxhgwHAAzatBg+KhO76eijni+s05iZjq1evcL2CXnMzx7rcazZk
+	xIf0OX3NzLSepKNqaVQHBirqARNR2uwePa1i8i57ohK/He3jXFEEnw==
+X-Received: by 2002:a05:600c:230c:b0:3f8:f1db:d1f5 with SMTP id 12-20020a05600c230c00b003f8f1dbd1f5mr15250276wmo.5.1687372202966;
+        Wed, 21 Jun 2023 11:30:02 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:45d2:0:0:0:0:0 with SMTP id b18csp1175289wrs;
+        Wed, 21 Jun 2023 11:29:58 -0700 (PDT)
+X-Received: by 2002:a17:902:d2ca:b0:1b2:5070:c1c9 with SMTP id n10-20020a170902d2ca00b001b25070c1c9mr13090510plc.20.1687372197750;
+        Wed, 21 Jun 2023 11:29:57 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1687372197; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=eWQ7iiKlw4D1+QFTIMttBU1J6JGt2/4ZSPZQ16wSbcSIRz/H6ejGT0Ln8ILFzE/TfU
+         VW+FPO4gg44E63bkGUHM4JCg9vC0vEWGSDT1Pg4LYJktd1vWLWZSGmGYKwCwFoKn0c3L
+         AG8qm09B/L+gm5TKbfQHNq4tIB3/fqUZPvDe4TmlRG6jBTNfgXHqHyQH/W+wNudveZCm
+         1JHO0z4DMkPeFBUxnTSvkirzc6s2vg7ekTOq2Ua2wMVCAa+rCSSkGSYHDCJ5voX5m1NU
+         Ic1ONV+R02Qy5Phq5EyPqAGkku64XFLFExILQ1X7TriWSyfhWSUwkmkrC3y+9jYo1+pl
+         6jTA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=g6wQzytTk/+zc3bkQyWIlD5/2SjKffjOiYd7KPSIbAg=;
+        b=mUeiVhtMEkevrf0O+ryK4kZZcw7bwii6FxU42CMTt4lMyk3ZPUH9Z4WDtGci46o1MT
+         JTJTmNmQyEZb9SXqgQY/WUwQkh7tteecgLiE1zLx5LCwY6fIM9XB9gpTJxG+KLZr+hf0
+         +fbWi4eJgDasB3uEp8E9pybcXJWJV7XVQthSxAQe2uZDqd3/3F0AbbKG1fZAilSxG+Fs
+         Okefk15p9Gfbds3xHWaqrvZ9nknY9rSekiZKa9GW/ZaEAbYnkEO6YJhMt44eoMvIfPAK
+         DTYuylu/ietZDoZIZKliRDQBKj9w7g+W+i02XD2c1chBuOgTLOlx3rXZOwsvlGSrV3me
+         rUvg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=fQkBEtOd;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230621142954.31860043.264406@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230621142954.31860043.264406@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230621142954.31860043.264406@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id y10-20020a170903010a00b001b03ddb75f3sor518205plc.5.2023.06.21.11.29.57
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 21 Jun 2023 11:29:57 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230621142954.31860043.264406@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ACHHUZ4Q19XpnQt3kuSGXCxtd4sohtJmHo8Ceokm41fHLgsp2MsKyJUjSJKzz82CxkpCJj2FZ62ZrxPaYARdFaD1We2sV40DgbU=
+X-Received: by 2002:a17:902:c40d:b0:1b5:5bf2:b7e2 with SMTP id k13-20020a170902c40d00b001b55bf2b7e2mr7693063plk.6.1687372196767;
+        Wed, 21 Jun 2023 11:29:56 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1687372196; cv=none;
+        d=google.com; s=arc-20160816;
+        b=XJeUubujvOei28azeBOwF6jiML1ynFpG1K4NWDKkdvUtYhhubPLWTwP3TFcEAFRIdN
+         prg+Si8CdJh0PDZT3tmiVv6pjfGsuFF5GY7rWxUuLLsvYnIgyuxA3Yls/7wDJwQndEiV
+         qvA0M9yxg7wm7t2ocYggw0AJszoZFUBBgrS52vFrnaQFtHmHueuUPlaGMl+CZwvjH9ms
+         CblE/Ukoa+JJN6J7yBAAHPhFCm1ge81r/iXrsPiKDjr2nwO7ElQmY0zrt4qQWuMEFk07
+         +lZ3Tmo35zXxiaGhkzXLiZtLVsTzBSOIIU2j0p1Qi9+O9S8V37ogQQHO6TzyUz6hFsD0
+         T8iw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=g6wQzytTk/+zc3bkQyWIlD5/2SjKffjOiYd7KPSIbAg=;
+        b=U7zCeF9Zx8wZJZGCsaQNvPZ2Ea+AxINthFBzjyqZ7/GDoVvBjeTcqupasi+pkP9RGe
+         m4vtsHoZqkI83RrDtT1pEEzOZTqcf8otKw6PP0Wss86tz3co+DFhhyhB1mYfDNf6kPDJ
+         EdAI1eYrVqb/WhUW0Of6DwdHV0Pg6HGik/UkZaYZ6pNERDE/K8RSITZaET9yIgA4EX0A
+         kbkDRsOM09Z+PzKEjrt3ZzYUdsNVZMElR4LRQcvkPNlDm7smfLdmXv/GaL3fPCEgnHci
+         ljTpiNPL3XfnWrVOiIbIG0rqBR8GOjK3e0Ih2JVTnZgl4xiffJj56awMU1k2Np7zK79O
+         35Gg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=fQkBEtOd;
+       spf=pass (google.com: domain of delivery_20230621142954.31860043.264406@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230621142954.31860043.264406@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230621142954.31860043.264406@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id ks7-20020a170903084700b001ae20d30d75si300273plb.6.2023.06.21.11.29.56
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 21 Jun 2023 11:29:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230621142954.31860043.264406@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=g8CJRyKyL62T6IZQ+hTBghzY24BLII7Ec6l8dNegXsk=;
+ b=fQkBEtOdyiSOhMjrJ86QhcN6/fUamvFilB5CrllFvA9iEYspNVm0x1Ci1kobwf6hST9BroZ24Jgm
+   ur2RKH5aIXa348b6VKDPrOl3ttTG4Cvwa6doZfUnZ7aShOXrPk495Abxxk09JhpD22I7+ai929Lo
+   yjbLZdqt3Fj+6DjMadQ=
+Received: from nj2mta-17.sailthru.com (204.153.121.17) by bloomberg-b.sailthru.com id hid0q630nu8g for <bloomberg@khamel.com>; Wed, 21 Jun 2023 13:29:54 -0500 (envelope-from <delivery_20230621142954.31860043.264406@mx.sailthru.com>)
+Date: Wed, 21 Jun 2023 14:29:54 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230621142954.31860043.264406@sailthru.com>
+Subject: Money Stuff: Big Firms Want Normal Crypto Markets
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_67255032_465677011.1687372194779"
+Precedence: bulk
+x-job: 6358-31860043-20230621
+X-Feedback-ID: 6358:31860043:campaign:sailthru
+X-TM-ID: 20230621142954.31860043.264406
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-fadindigo.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ciyvd7.5o0m/5dc69e51
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ciyvd7.5o0m/5dc69e51>, <mailto:unsubscribe_20230621142954.31860043.264406@mx.sailthru.com>
+X-rpcampaign: stjko31860043
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_67255032_465677011.1687372194779
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        I think even a year ago it was possible to imagine the traditional =
+financial system learning something from crypto. Crypto built its own fin
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Institutional crypto
+   =20
+ =20
+
+I think even a year ago it was possible to imagine the traditional financia=
+l system learning something from crypto. Crypto built its own financial sys=
+tem that does things differently from traditional finance. For instance:
+=09Crypto exchanges have websites and are open to everyone. If you want to =
+buy Bitcoin, you don=E2=80=99t have to go to a brokerage firm to send your =
+order to the crypto exchange: You just go to the exchange yourself, deposit=
+ some money there, and put in a buy order. Crypto cut out=C2=A0 layers of m=
+iddlemen and let everyone trade on the same exchanges. There was something =
+egalitarian about this; everyone traded on a level playing field, instead o=
+f the US stock market=E2=80=99s system of retail brokers routing their cust=
+omers=E2=80=99 orders to wholesalers who pay for order flow.=09Crypto excha=
+nges also run their own clearinghouses, keeping custody of assets and settl=
+ing trades, and they use real-time, objective, automated margining systems =
+rather than the  traditional fuzzy margining of traditional finance. FTX, S=
+am Bankman-Fried=E2=80=99s crypto exchange, was a big proponent of this, an=
+d we  talked about its proposal last year. I thought it was cool! Tradition=
+al finance involves a lot of unsecured=C2=A0credit risk, while crypto was b=
+uilding a system that was much more based on real-time collateral; Bankman-=
+Fried argued, rather compellingly, that the crypto approach might be safer.=
+=09We have  talked a lot about =E2=80=9Ctokenomics,=E2=80=9D the idea of gi=
+ving people who use a system (say, a crypto exchange) some financial stake =
+in the system (say, a token that gives them a share of the exchange=E2=80=
+=99s fee income). This has some securities-law problems, and some Ponzi-ish=
+ elements, and   some wrong-way risk, but it also has a real appeal: It is =
+a way to build network businesses from a cold start, a clever way to solve =
+a business problem=09Blockchain blockchain blockchain. I have never really =
+understood why keeping track of stock ownership (or real estate, etc.) on a=
+ blockchain was better than keeping track of it in a centralized database r=
+un by a trusted intermediary, but people sure talked about it a lot.
+
+And, you know, I guess it is still possible to=C2=A0imagine=C2=A0traditiona=
+l finance adopting these (or other) ideas from crypto. It is harder though.=
+ A year ago it seemed like FTX=E2=80=99s plan was to expand out from crypto=
+, to prove that its approach was better than that of traditional exchanges,=
+ to take over the trading of stocks and commodities and whatever, to bring =
+the structure of crypto finance to the assets of traditional finance. Not a=
+nymore, man! The odds of a crypto exchange taking a lot of market share in=
+=C2=A0US stock trading=C2=A0anytime soon are really, really low.=C2=A0
+All of those lessons from crypto seem bad now:
+=09Having crypto exchanges hold customer money, instead of keeping it at br=
+okerages, seems bad after FTX (and a long line of previous crypto exchanges=
+) misplaced the customers=E2=80=99 money.=09Same with FTX=E2=80=99s margini=
+ng system, which  turned out to just give all of FTX=E2=80=99s customer mon=
+ey to its affiliated trading firm.=09The problem with tokenomics is that th=
+e US Securities and Exchange Commission thinks, correctly, that all of thes=
+e tokens that convey a financial stake in the system   are securities, and =
+so have to be registered with the SEC, which is very hard for crypto platfo=
+rms to do. All of these tokens seem to be illegal, or at least legally very=
+ dicey, in the US.=09Everyone stopped talking about blockchain, and stock e=
+xchanges that excitedly announced their blockchain plans in 2017 have quiet=
+ly dropped them.=C2=A0
+
+Meanwhile traditional finance is like =E2=80=9Cugh, fine, we=E2=80=99ll do =
+crypto, but in a normal way.=E2=80=9D Bloomberg News   checks in on EDX mar=
+kets,=C2=A0which is as traditional as can be except it trades Bitcoin:
+
+A new crypto exchange backed by firms including Citadel Securities, Fidelit=
+y Digital Assets and Charles Schwab Corp. said it=E2=80=99s gone live, a mo=
+ve that could reshape the digital-asset landscape amid heightened US scruti=
+ny of the sector.=C2=A0
+EDX Markets, an institutional-only exchange announced in September 2022, wi=
+ll offer trading in four cryptocurrencies: Bitcoin, Ethereum, Litecoin and =
+Bitcoin Cash. Unlike existing crypto platforms such as Coinbase Global Inc.=
+ and Binance Holdings Ltd., it offers a =E2=80=9Cnon-custodial=E2=80=9D mod=
+el, meaning that it doesn=E2=80=99t hold clients=E2=80=99 digital assets du=
+ring trading. Instead, EDX is working with a third-party custodian, accordi=
+ng to Chief Executive Officer Jamil Nazarali. =E2=80=A6
+=E2=80=9CWe believe crypto is here to stay, but for it to evolve as an asse=
+t class it needs to adopt the rules and investor protections that exist in =
+traditional finance,=E2=80=9D Nazarali said in an interview. =E2=80=9CThe m=
+essage we=E2=80=99ve got from our investors is that this creates an even bi=
+gger space for us.=E2=80=9D
+
+The Wall Street Journal adds:
+
+EDX says its approach draws on standard practices in traditional, regulated=
+ financial markets and differs in key ways from how crypto exchanges typica=
+lly operate.=C2=A0
+One major difference: EDX is a =E2=80=9Cnoncustodial=E2=80=9D exchange, mea=
+ning it doesn=E2=80=99t directly handle its customers=E2=80=99 digital asse=
+ts. Instead, EDX runs a marketplace where firms agree to execute trades of =
+coins and dollars, using its platform to agree on prices. Then the firms mo=
+ve crypto and cash between each other to settle the trades. Later this year=
+, EDX plans to launch a clearinghouse to facilitate the process of settling=
+ trades, but even then it plans to use third-party banks and a crypto custo=
+dian to hold customer assets. =E2=80=A6
+Unlike most crypto exchanges, EDX won=E2=80=99t directly serve individual i=
+nvestors. Instead, it expects that retail brokerages will send investors=E2=
+=80=99 orders to buy and sell digital coins to its marketplace.
+The stock market operates under a similar model, in which investors don=E2=
+=80=99t directly access the New York Stock Exchange or Nasdaq, but instead =
+submit orders through brokerages such as Fidelity and Schwab. =E2=80=A6
+
+An institutional-only exchange in which retail orders are intermediated by =
+brokers,
+  [1]
+ clearing and custody that are separate from the exchange, listing only non=
+-security tokens, no hype about blockchain. This is a way to trade crypto=
+=C2=A0while almost completely rejecting the crypto financial system. This i=
+s bringing the structure of traditional finance to the assets of crypto fin=
+ance. Traditional finance learned nothing from the crypto financial system =
+except that it didn=E2=80=99t work. Which is a useful lesson.
+Elsewhere at the Journal, Telis Demos writes about BlackRock Inc.=E2=80=99s=
+ proposed Bitcoin exchange-traded fund, which we  discussed the other day, =
+and which seems to be good for Bitcoin prices. He writes:
+BlackRock=E2=80=99s application has at least one notable addition=E2=80=94a=
+n expected agreement to share =E2=80=9Csurveillance=E2=80=9D of a spot bitc=
+oin-trading platform with Nasdaq, which would list the ETF, according to a =
+regulatory filing. In other words, the exchange could get confidential info=
+rmation on buyers, sellers and prices.=C2=A0
+Nobody quite trusts crypto exchanges to catch market manipulation, so they=
+=E2=80=99ll ask Nasdaq to look for market manipulation on the crypto exchan=
+ges.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      People are worried about stock buybacks
+   =20
+ =20
+
+The basic idea is that if a company=E2=80=99s cost of capital is 10%, and i=
+t has some projects that will earn an=C2=A011% annual return, it should do =
+those. If it has a lot of them, it should raise more money (at a cost of 10=
+%) to do them all. If it has some projects that will earn only a 9% return,=
+ it should not do those. And if it mostly has those kinds of projects =E2=
+=80=94=C2=A0if it has nowhere to put its money that will earn more than its=
+ cost of capital =E2=80=94=C2=A0then it should pay down debt or do stock bu=
+ybacks to return capital to its investors. It has too much capital for the =
+projects it can do; its projects do not earn enough to pay for its expensiv=
+e capital.
+The =E2=80=9Ccost of capital=E2=80=9D is a somewhat abstract concept =E2=80=
+=94=C2=A0the cost of debt is basically the after-tax cost of interest payme=
+nts, but if you sell stock you never need to pay it back =E2=80=94=C2=A0but=
+ there is pretty broad agreement on what it means and how to calculate it; =
+Bloomberg=E2=80=99s WACC function will just tell you the weighted average c=
+ost of capital of any public company you like. Roughly speaking a company=
+=E2=80=99s=C2=A0cost of capital consists of (1) the risk-free interest rate=
+ plus (2) a risk premium for the company=E2=80=99s debt and equity; very ro=
+ughly speaking the cost of capital should go up as interest rates go up, an=
+d go down as they go down.
+Roughly speaking this is how the Federal Reserve=E2=80=99s interest-rate po=
+licy=C2=A0affects corporate investment
+  [2]
+: If the Fed raises rates a lot, long-term rates will go up, so the cost of=
+ capital will go up, so companies will do fewer projects, so the economy wi=
+ll slow down; if the Fed lowers rates a lot, long-term rates will go down, =
+so the cost of capital will go down, so companies will do more projects, so=
+ there will be more building and hiring and economic activity.
+But here is a fascinating paper by Niels Joachim Gormsen and Kilian Huber o=
+n =E2=80=9CCorporate Discount Rates=E2=80=9D (via  Byrne Hobart; free  SSRN=
+ version here). What I said above is the standard theory:
+The stylized view in economics is that such changes in firms=E2=80=99 cost =
+of capital directly impact firm investment. According to the stylized view,=
+ firms should take on any investment project that offers returns above the =
+cost of capital. As a result, firms should adjust their required returns on=
+ new investments (their so-called =E2=80=9Cdiscount rates=E2=80=9D) one-to-=
+one with the cost of capital in financial markets. Firms=E2=80=99 discount =
+rates should, for example, have dropped substantially since the early 2000s=
+, in line with the cost of capital, leading to a corporate investment boom =
+(Guti =CC=81errez and Philippon 2017). More generally, the stylized view im=
+plies that all shocks to the cost of capital, such as shocks to stock price=
+s, monetary policy, and credit supply, directly influence firms=E2=80=99 di=
+scount rates and thus investment (see discussions in, e.g., Barro 1990 and =
+Koby and Wolf 2020).
+But Gormsen and Huber review companies=E2=80=99 quarterly conference calls =
+with analysts to find out what they actually say about their discount rates=
+, the rates of return that they demand on new projects:
+We begin the paper by measuring firms=E2=80=99 discount rates and perceived=
+ cost of capital using corporate conference calls (Hassan et al. 2019). The=
+ majority of listed firms hold quarterly conference calls, during which man=
+agers inform financial analysts and investors about their firms=E2=80=99 op=
+erations. On these calls, managers sometimes share their discount rates and=
+ per- ceived cost of capital when discussing their investment decision maki=
+ng.2 Advantages of conference calls include that they are held regularly, t=
+hat analysts can compare reported discount rates to realized outcomes, and =
+that calls often appear as evidence in securities law- suits. These aspects=
+ incentivize managers to report accurate values. We collect transcripts for=
+ conference calls between 2002 and 2021 and identify 74,000 paragraphs wher=
+e managers discuss their discount rates or perceived cost of capital. We re=
+ad through each paragraph with a team of research assistants and manually e=
+xtract relevant information.
+And they find basically that companies are reasonably good at estimating th=
+eir cost of capital,
+  [3]
+=C2=A0but those estimates don=E2=80=99t really affect their investment deci=
+sions all that much. For one thing, companies=E2=80=99 discount rates=C2=A0=
+are higher than their cost of capital: A company with a 10% cost of capital=
+ might only do projects that it expects to earn at least 15%. For another t=
+hing, the discount rate doesn=E2=80=99t move that much with the cost of cap=
+ital:
+
+We document that changes in the perceived cost of capital only modestly aff=
+ect discount rates, in contrast to the stylized view. Using within-firm var=
+iation, we show that, on average, a 1 percentage point increase in the perc=
+eived cost of capital leads to a 0.3 percentage point increase in the disco=
+unt rate. Many firms rarely change discount rates, so the relation becomes =
+stronger over longer horizons. However, even at the 10-year horizon, 40 per=
+cent of firms maintain unchanged discount rates and, even if they change, a=
+djust less than one-to-one with the perceived cost of capital. In addition,=
+ we find substantial variation in discount rates that is unrelated to the p=
+erceived cost of capital. These results suggest that discount rates have =
+=E2=80=9Ca life of their own,=E2=80=9D beyond the perceived cost of capital=
+.
+The weak relation between discount rates and the perceived cost of capital =
+gives rise to a time-varying wedge between discount rates and the perceived=
+ cost of capital. Using within-firm variation, we find that the average wed=
+ge in the US has increased by around 2.5 percentage points between 2002 and=
+ 2021, as the perceived cost of capital has decreased while discount rates =
+have remained more stable. This increase is large relative to typical movem=
+ents in financial prices, for example, those due to secular interest rate t=
+rends and monetary policy.=C2=A0An increase of this magnitude is thus likel=
+y to be important for our understanding of investment dynamics.
+
+And because of this =E2=80=9Cwedge=E2=80=9D =E2=80=94=C2=A0the difference b=
+etween companies=E2=80=99 discount rate for projects and their cost of capi=
+tal =E2=80=94=C2=A0there is less corporate investment than you would expect=
+:
+A literature argues that US investment has been low in recent decades, rela=
+tive to the financial cost of capital. =E2=80=A6 We find that discount rate=
+ wedges can account for a large part of the missing investment. Intuitively=
+, the increasing wedges imply that firms are using increasingly higher disc=
+ount rates than those assumed by standard =E2=80=A6 theory, which ultimatel=
+y means that firms are holding back investment.
+Why do companies pass on value-creating opportunities? They have some ideas=
+:
+We consider three theories: the interaction of market power with beliefs ab=
+out value creation; idiosyncratic firm-level risk; and financial constraint=
+s. First, we systematically analyze manager statements on conference calls.=
+ We find that many managers believe that high discount rates raise sharehol=
+der value. High discount rates may signal profitability or managerial prude=
+nce, consistent with models where investors worry about overinvestment (Jen=
+sen 1986). While the benefits of wedges may accrue to firms independent of =
+market power, we show that firms with market power are able to maintain wed=
+ges at a lower cost to their profitability. This implies that firms with mo=
+re market power are more likely to choose high and steady discount rates ov=
+er time, even when the cost of capital is falling. A second theory is that =
+firms with irreversible assets postpone investments in the face of increase=
+d risk, which can lead riskier firms to use higher discount rates. And thir=
+d, financial constraints may generate discount rate wedges. Using cross-sec=
+tional variation, we find that market power, risk, and financial constraint=
+s are all associated with higher discount rate wedges, consistent with the =
+three theories.
+One way to tell this story is that investors trust their money to managemen=
+t hoping to earn the cost of capital.
+  [4]
+ If a company=E2=80=99s cost of capital is 10%, it has taken money from inv=
+estors who hope to earn 10%. If it invests that money in projects that earn=
+ 10%, it will make its investors happy. But if it invests in projects that =
+earn 9.9%, it will make investors mad.
+The investors are keeping a close eye on the company: They don=E2=80=99t wa=
+nt the managers to blow all of their money on projects earning 5%, or 0%, o=
+r corporate jets and stadium naming rights that make the managers feel cool=
+ but destroy shareholder value. It is hard to tell, though, on a day-to-day=
+ level, whether the company is investing in projects that will return 10% o=
+r 9% or 0%; the projects won=E2=80=99t pay off for a while. A rule of thumb=
+ that is like =E2=80=9Cwe will invest in projects that we expect to return =
+15%, and give you back the rest of the money=E2=80=9D makes sense as a form=
+ of managerial discipline, as a way of making extra-sure that managers are =
+trying to make money for shareholders rather than wasting it. It=E2=80=99s =
+just that it=E2=80=99s too conservative a rule: It leads managers to give s=
+hareholders money back, when the shareholders would be better off if they i=
+nvested it.
+
+ =20
+   =20
+      AT1s
+   =20
+ =20
+
+Additional tier 1 capital securities are bonds issued by banks that lose va=
+lue if the bank fails or comes close to failing. Credit Suisse Group AG fai=
+led this year, and its   $17 billion of AT1 securities were written down to=
+ zero.
+  [5]
+=C2=A0The holders of these bonds were very angry, both because they lost mo=
+ney=C2=A0and because they thought that they were treated unfairly. In some =
+sense this was fine =E2=80=94=C2=A0the whole point of AT1s is to make the A=
+T1 holders angry when a bank fails, instead of making taxpayers angry =E2=
+=80=94=C2=A0but there was a potential negative consequence, which is that i=
+f investors got too aggrieved about how Credit Suisse=E2=80=99s AT1s were t=
+reated, they wouldn=E2=80=99t buy=C2=A0other=C2=A0banks=E2=80=99 AT1 securi=
+ties, which would mean that other banks would have less loss-absorbing capi=
+tal for future crises. Banking regulators worried about this=C2=A0and took =
+pains to reassure investors that the Credit Suisse experience would not be =
+repeated. I was a bit less worried. I wrote:
+Incidentally my own view of the correct regulatory response here is somethi=
+ng like =E2=80=9Cmemories in financial markets are extremely short, and any=
+ time a bond investor indignantly huffs that she will never buy some type o=
+f bond again, she=E2=80=99ll be buying it within a week.=E2=80=9D You have =
+a meeting with AT1 investors, they say =E2=80=9Cyou need to make sure that =
+these bonds can never lose money,=E2=80=9D you nod and say =E2=80=9Cof cour=
+se, of course,=E2=80=9D you wait six minutes, you forget all about it. I am=
+ not sure that will work here but I don=E2=80=99t think I=E2=80=99d bet aga=
+inst it.
+Yeah, well. The  Wall Street Journal reports:
+
+Last week, Spain-headquartered bank BBVA said it had issued =E2=82=AC1 bill=
+ion ($1.1 billion) in so-called Additional Tier 1, or AT1, securities. This=
+ market was upended in March when, in the process of rescuing Credit Suisse=
+, Swiss regulators wiped out the entire $17 billion value of its AT1s. Thre=
+e months later, BBVA got bids for three times the issue on offer. Bank of C=
+yprus also sold new AT1s last week.
+Both wanted to test whether the door of the AT1 market was open, and the an=
+swer has been a resounding yes.
+It speaks to how short-lived soul-searching in the bond market has been. Ba=
+ck in March, the Bloomberg Global Contingent Capital index lost 15% of its =
+value in just a few days. A big concern was that Swiss regulators didn=E2=
+=80=99t wipe out Credit Suisse shares, which appeared to violate the senior=
+ity of debt over equity.=C2=A0
+Returns since the start of March are still negative and yields are above 8%=
+. But in terms of the spread above interest rates, AT1 debt is back to 2022=
+ levels, and around where it was in the 2014 to 2016 period. =E2=80=A6
+In short: Once the impact of central banks raising interest rates is taken =
+into account, banks may actually be getting cheaper AT1 funding.
+
+=E2=80=9CBond markets have short memories=E2=80=9D is one of the more relia=
+ble theses in financial markets. Elsewhere in   Credit Suisse=E2=80=99s ang=
+ry AT1 holders:
+
+A group of Credit Suisse Group AG=E2=80=99s European bondholders who were p=
+art of the $17 billion wipe-out in the bank=E2=80=99s demise sued its forme=
+r executives, pointing to a =E2=80=9Cbroken culture=E2=80=9D and a series o=
+f scandals they trace to its New York-based investment banking operation.
+Bondholders based in Paris, Luxembourg, and St. Peter Port, Guernsey argue =
+that self-serving executives chased short-term returns and bonuses from ove=
+rly risky deals, resorting to unethical and illegal practices to acquire an=
+d keep high-revenue customers. =E2=80=A6
+=E2=80=9CWhile Credit Suisse began as a conservative Swiss private bank, th=
+e vast majority of the people who were responsible for its demise were not =
+staid Swiss bankers, but, rather, sharp-elbowed New York investment bankers=
+,=E2=80=9D according to the complaint.
+
+Yes, but absorbing the losses caused by sharp-elbowed New York investment b=
+ankers is why AT1s exist.
+
+ =20
+   =20
+      Sesame
+   =20
+ =20
+
+This, from last week, is one of the best stories you=E2=80=99ll ever read a=
+bout how regulation works:
+
+Congress passed legislation intended to make life better for people allergi=
+c to sesame seeds. Instead, it made things worse.=C2=A0
+The bill, passed with overwhelming bipartisan support and signed into law b=
+y President Biden in 2021, requires manufacturers to label sesame on their =
+products starting this year.=C2=A0
+In response, some companies began adding sesame to products that hadn=E2=80=
+=99t included it in the past=E2=80=94saying it was safer to add sesame and =
+label it, rather than certify they had eliminated all traces of it.
+People with sesame allergies say the result is fewer sesame-free food optio=
+ns, as well as new and unexpected risks from sesame in foods they used to e=
+at without worry.=C2=A0
+
+The issue is that it is hard to eliminate trace amounts of sesame, and the =
+law now requires food manufacturers to label sesame as an allergen. Not put=
+ting sesame on the label effectively constitutes a promise that there is no=
+ sesame in the product, and if there is a little bit then you get in troubl=
+e:
+Advising that the product =E2=80=9Cmay contain=E2=80=9D sesame on the label=
+ isn=E2=80=99t a practical solution since a trace amount of sesame detected=
+ could trigger a recall, the bakers group said. The Food and Drug Administr=
+ation considers =E2=80=9Cmay contain=E2=80=9D a voluntary advisory that isn=
+=E2=80=99t a substitute for good manufacturing practices meant to ensure th=
+at a product is allergen-free, and finding an undeclared allergen could be =
+grounds for ordering a recall.=C2=A0
+But if you say that the product=C2=A0definitely=C2=A0contains sesame, then =
+you are immunized from trouble. So you just chuck some sesame into everythi=
+ng, change the labels, and you=E2=80=99re fine. It is easier to make sure t=
+hat there is sesame than that there isn=E2=80=99t, so that=E2=80=99s what c=
+ompanies do.
+Everything is like this? There are huge areas of regulation where the most =
+straightforward approach is to look at the giant book of rules and say =E2=
+=80=9Cno thank you, I want=C2=A0out of this entirely.=E2=80=9D Making non-s=
+esame food products is a heavily regulated business with huge risks if you =
+mess up; making sesame-based food products just lets you escape from that r=
+egulatory regime, so you might as well throw in some sesame.
+
+ =20
+   =20
+      Business idea
+   =20
+ =20
+
+For a while in the 2010s, arguably the most lucrative business model in the=
+ world was =E2=80=9Cget a guy who can flatter Masayoshi Son and let him jus=
+t go nuts and bring back billions of dollars of SoftBank financing.=E2=80=
+=9D This was  basically WeWork=E2=80=99s business model, and while it didn=
+=E2=80=99t necessarily work out great for WeWork in the long run, it=C2=A0d=
+id=C2=A0work out great for Adam Neumann, WeWork=E2=80=99s founder and fundr=
+aiser and=C2=A0Masa-flatterer.
+But now it is 2023, we are in the early stages of an artificial intelligenc=
+e boom, and obviously the best possible business model is =E2=80=9Cget an A=
+I chatbot who can flatter Masayoshi Son.=E2=80=9D The Wall Street Journal r=
+eports:
+
+SoftBank Group Chief Executive Masayoshi Son says he has rekindled his appe=
+tite for investing in technology by talking with ChatGPT in the wee hours a=
+bout ideas for inventions that the bot validated as wonderful.
+Son, 65 years old, told shareholders Wednesday that the artificial-intellig=
+ence tool helped revive his spirits after he had been driven to tears by th=
+e sense he was nearing the end of his career without having pursued his dre=
+ams. =E2=80=A6
+He said he used ChatGPT every day for brainstorming and has come up with mo=
+re than 600 ideas. He described one lengthy exchange=E2=80=94at around 3 to=
+ 4 in the morning=E2=80=94in which he pitched an idea and then answered the=
+ AI chatbot as it raised objections.
+=E2=80=9CAfter we repeated this several dozen times, I really felt great be=
+cause my idea was praised as feasible and wonderful,=E2=80=9D he said.
+
+I hope the chatbot  told him that it appreciated how he was crazy, but that=
+ he needed to be crazier. I feel like there are a lot of people in the worl=
+d who would be happy to tell Masayoshi Son that his ideas are feasible and =
+wonderful =E2=80=94=C2=A0whole industries were built on the basic premise o=
+f telling Masayoshi Son what he wanted to hear =E2=80=94=C2=A0but there are=
+ only so many=C2=A0robots=C2=A0in the world who will tell him that, and now=
+ he is looking for robots. Presumably somebody is building more of those ro=
+bots; it would be silly not to.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Slowdown in  junk-rated loan market hits US corporate borrowing plans.   Mo=
+ney Funds With Record $5.5 Trillion See Case for Pile to Grow. JPMorgan to =
+cash in insurance policy after botched $175mn  Frank deal.=C2=A0Brazil Said=
+ to Consider ESG Bond Debut as Soon as September.=C2=A0 Vacant Offices Are =
+Piling Up in Silicon Valley. FTX bankruptcy =E2=80=98 on track to be very e=
+xpensive=E2=80=99 as fees top $200mn. EU Backs   Fresh Russia Sanctions to =
+Crack Down on Circumvention. Germany Issues Arrest Warrant for   Ex-Steinho=
+ff CEO Jooste. Nigeria Police Oppose Suspended Central Bank Head=E2=80=99s =
+  Bail Request. US justice Samuel Alito  defends fishing trip with billiona=
+ire Paul Singer. Doodle  house. School  outside Boston.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] We  talked the other day about a model of the stock market in which r=
+etail investors put in orders on their broker=E2=80=99s website, the broker=
+ sends the order to a market maker like Citadel Securities or Virtu who tra=
+des with it, and then the market maker offloads the risk on the public stoc=
+k exchange. You could imagine something like that developing here: Some of =
+EDX=E2=80=99s order flow might be Schwab sending its customers=E2=80=99 ord=
+ers to the exchange, but over time retail brokers might send orders directl=
+y to wholesalers (and get paid for them), and the wholesalers might use the=
+ EDX market to lay off risk.=20
+
+
+  [2] I am being loose in many ways: The correlation between short- and lon=
+g-term rates is not 1, nor is the correlation between long-term rates and c=
+orporate WACCs, etc.; this is just a very rough sketch of the idea.
+
+
+  [3] =E2=80=9CWe find that firms=E2=80=99 perceived cost of capital comove=
+s with standard estimates of the financial cost of capital (based on the ea=
+rnings yield or the Capital Asset Pricing Model, CAPM, as well as interest =
+rates) and we cannot reject that the estimate is close to 1 on average. We =
+do, however, find substantial firm-level heterogeneity in the dynamic incor=
+poration of the financial cost of capital. This heterogeneity may reflect t=
+hat firms use richer models than the CAPM to calculate their perceived cost=
+ of capital or it may reflect mistakes in perceptions of the financial cost=
+ of capital.=E2=80=9D
+
+
+  [4] Very loosely: A company=E2=80=99s WACC is not really the expected ret=
+urn to its investors, because its cost of debt is tax-affected, but the cos=
+t of capital of an entirely equity-funded company more or less is the expec=
+ted return on its shares.
+
+
+  [5] These two sentences are approximate and non-technical and you could, =
+particularly if you are a Credit Suisse AT1 holder, object to various point=
+s in them.=20
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ciyvd7.5o0m/0130649f.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_67255032_465677011.1687372194779
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+I think even a year ago it was possible to imagine the traditional financia=
+l system learning something from crypto. Crypto built its own fin
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31860043.264406/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNjIxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MjEmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB0c4fcdb0"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31860043.264406/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMTg2MDA0MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIxMjQ0NDkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB0c3b225e" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D31860043&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32124449&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Institutional crypto</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I think even a year ago it was possible to ima=
+gine the traditional financial system learning something from crypto. Crypt=
+o built its own financial system that does things differently from traditio=
+nal finance. For instance:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Crypto exchanges have websites and ar=
+e open to everyone. If you want to buy Bitcoin, you don=E2=80=99t have to g=
+o to a brokerage firm to send your order to the crypto exchange: You just g=
+o to the exchange yourself, deposit some money there, and put in a buy orde=
+r. Crypto cut out=C2=A0 layers of middlemen and let everyone trade on the s=
+ame exchanges. There was something egalitarian about this; everyone traded =
+on a level playing field, instead of the US stock market=E2=80=99s system o=
+f retail brokers routing their customers=E2=80=99 orders to wholesalers who=
+ pay for order flow.</li>=09<li style=3D"margin-bottom: 5px;">Crypto exchan=
+ges also run their own clearinghouses, keeping custody of assets and settli=
+ng trades, and they use real-time, objective, automated margining systems r=
+ather than the <a href=3D"https://link.mail.bloombergbusiness.com/click/318=
+60043.264406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMj=
+ItMTEtMzAvbWF0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1uaWNrZWwtbWFya2V0LWFsbW9zdC1ic=
+m9rZT9jbXBpZD1CQkQwNjIxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3Vy=
+Y2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MjEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607=
+f07ceef4b8524a319a23cBd85a054e" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> traditional fuzzy margining</a> of=
+ traditional finance. FTX, Sam Bankman-Fried=E2=80=99s crypto exchange, was=
+ a big proponent of this, and we <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/31860043.264406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjItMDYtMDEvY3J5cHRvLWNsZWFyaW5nLWFuZC1jcmVkaXQ_Y21waWQ9QkJ=
+EMDYyMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZX=
+ImdXRtX3Rlcm09MjMwNjIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319=
+a23cB28635296" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> talked about its proposal last year</a>. I thought =
+it was cool! Traditional finance involves a lot of <em>unsecured=C2=A0credi=
+t risk</em>, while crypto was building a system that was much more based on=
+ <em>real-time collateral</em>; Bankman-Fried argued, rather compellingly, =
+that the crypto approach might be <em>safer</em>.</li>=09<li style=3D"margi=
+n-bottom: 5px;">We have <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/31860043.264406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljb=
+GVzLzIwMjItMDEtMTkvd2FzaGluZy13ZWIzP2NtcGlkPUJCRDA2MjEyM19NT05FWVNUVUZGJnV0=
+bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDYyMSZ1dG1=
+fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB63c44a08" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> tal=
+ked a lot</a> about =E2=80=9Ctokenomics,=E2=80=9D the idea of giving people=
+ who use a system (say, a crypto exchange) some financial stake in the syst=
+em (say, a token that gives them a share of the exchange=E2=80=99s fee inco=
+me). This has some securities-law problems, and some Ponzi-ish elements, an=
+d <a href=3D"https://link.mail.bloombergbusiness.com/click/31860043.264406/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMDkvYmF=
+ua21hbi1mcmllZC1zLWZ0eC1oYWQtYS1kZWF0aC1zcGlyYWwtYmVmb3JlLWJpbmFuY2UtZGVhbD=
+9jbXBpZD1CQkQwNjIxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9b=
+mV3c2xldHRlciZ1dG1fdGVybT0yMzA2MjEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ce=
+ef4b8524a319a23cBd2014b4c" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">  some wrong-way risk</a>, but it also h=
+as a real appeal: It is a way to build network businesses from a cold start=
+, a clever way to solve a business problem</li>=09<li style=3D"margin-botto=
+m: 5px;">Blockchain blockchain blockchain. I have never really understood w=
+hy keeping track of stock ownership (or real estate, etc.) on a blockchain =
+was better than keeping track of it in a centralized database run by a trus=
+ted intermediary, but people sure talked about it a lot.</li>
+</ol>
+<p style=3D"margin: 16px 0;">And, you know, I guess it is still possible to=
+=C2=A0<em>imagine=C2=A0</em>traditional finance adopting these (or other) i=
+deas from crypto. It is harder though. A year ago it seemed like FTX=E2=80=
+=99s plan was to expand out from crypto, to prove that its approach was bet=
+ter than that of traditional exchanges, to take over the trading of stocks =
+and commodities and whatever, to bring the structure of crypto finance to t=
+he assets of traditional finance. Not anymore, man! The odds of a crypto ex=
+change taking a lot of market share in=C2=A0<em>US stock trading=C2=A0</em>=
+anytime soon are really, really low.=C2=A0</p>
+<p style=3D"margin: 16px 0;">All of those lessons from crypto seem bad now:=
+</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Having crypto exchanges hold customer=
+ money, instead of keeping it at brokerages, seems bad after FTX (and a lon=
+g line of previous crypto exchanges) misplaced the customers=E2=80=99 money=
+.</li>=09<li style=3D"margin-bottom: 5px;">Same with FTX=E2=80=99s marginin=
+g system, which <a href=3D"https://link.mail.bloombergbusiness.com/click/31=
+860043.264406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwM=
+jItMTItMTMvaG93LXRvLWRvLWZyYXVkLWF0LWEtZnV0dXJlcy1leGNoYW5nZT9jbXBpZD1CQkQw=
+NjIxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ=
+1dG1fdGVybT0yMzA2MjEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a2=
+3cBd5022030" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> turned out</a> to just give all of FTX=E2=80=99s cust=
+omer money to its affiliated trading firm.</li>=09<li style=3D"margin-botto=
+m: 5px;">The problem with tokenomics is that the US Securities and Exchange=
+ Commission thinks, correctly, that all of these tokens that convey a finan=
+cial stake in the system <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31860043.264406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGlj=
+bGVzLzIwMjMtMDYtMDcvd2hlbi1pcy1hLXRva2VuLW5vdC1hLXNlY3VyaXR5P2NtcGlkPUJCRDA=
+2MjEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJn=
+V0bV90ZXJtPTIzMDYyMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a2=
+3cB33fa0a20" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">  are <em>securities</em></a>, and so have to be regis=
+tered with the SEC, which is very hard for crypto platforms to do. All of t=
+hese tokens seem to be illegal, or at least legally very dicey, in the US.<=
+/li>=09<li style=3D"margin-bottom: 5px;">Everyone stopped talking about blo=
+ckchain, and stock exchanges that excitedly announced their blockchain plan=
+s in 2017 have <a href=3D"https://link.mail.bloombergbusiness.com/click/318=
+60043.264406/aHR0cHM6Ly93d3cuY29pbmRlc2suY29tL2J1c2luZXNzLzIwMjIvMTEvMTcvYX=
+VzdHJhbGlhbi1zZWN1cml0aWVzLWV4Y2hhbmdlLWNhbmNlbHMtYmxvY2tjaGFpbi1iYXNlZC1jb=
+GVhcmluZy1zeXN0ZW0tYXQtMTY4bS1jb3N0Lw/607f07ceef4b8524a319a23cBf4a834e7" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">quietly dropped them</a>.=C2=A0</li>
+</ol>
+<p style=3D"margin: 16px 0;">Meanwhile traditional finance is like =E2=80=
+=9Cugh, fine, we=E2=80=99ll do crypto, but in a normal way.=E2=80=9D Bloomb=
+erg News <a href=3D"https://link.mail.bloombergbusiness.com/click/31860043.=
+264406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjAv=
+Y3J5cHRvLWV4Y2hhbmdlLWJhY2tlZC1ieS1jaXRhZGVsLXNlY3VyaXRpZXMtZmlkZWxpdHktZ29=
+lcy1saXZlP2NtcGlkPUJCRDA2MjEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3=
+NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDYyMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZ=
+g/607f07ceef4b8524a319a23cB6a2e1f7b" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">  checks in on EDX markets</a>=
+,=C2=A0which is as traditional as can be except it trades Bitcoin:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A new crypto exchange backed by firms includin=
+g Citadel Securities, Fidelity Digital Assets and Charles Schwab Corp. said=
+ it=E2=80=99s gone live, a move that could reshape the digital-asset landsc=
+ape amid heightened US scrutiny of the sector.=C2=A0</p>
+<p style=3D"margin: 16px 0;">EDX Markets, an institutional-only exchange an=
+nounced in September 2022, will offer trading in four cryptocurrencies: Bit=
+coin, Ethereum, Litecoin and Bitcoin Cash. Unlike existing crypto platforms=
+ such as Coinbase Global Inc. and Binance Holdings Ltd., it offers a =E2=80=
+=9Cnon-custodial=E2=80=9D model, meaning that it doesn=E2=80=99t hold clien=
+ts=E2=80=99 digital assets during trading. Instead, EDX is working with a t=
+hird-party custodian, according to Chief Executive Officer Jamil Nazarali. =
+=E2=80=A6</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWe believe crypto is here to stay, bu=
+t for it to evolve as an asset class it needs to adopt the rules and invest=
+or protections that exist in traditional finance,=E2=80=9D Nazarali said in=
+ an interview. =E2=80=9CThe message we=E2=80=99ve got from our investors is=
+ that this creates an even bigger space for us.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/31860043.264406/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jcnlw=
+dG8tZXhjaGFuZ2UtYmFja2VkLWJ5LWNpdGFkZWwtc2VjdXJpdGllcy1maWRlbGl0eS1zY2h3YWI=
+tc3RhcnRzLW9wZXJhdGlvbnMtNTk3ZjZkNDY_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef=
+4b8524a319a23cB377b670d" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">Wall Street Journal adds</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">EDX says its approach draws on standard practi=
+ces in traditional, regulated financial markets and differs in key ways fro=
+m how crypto exchanges typically operate.=C2=A0</p>
+<p style=3D"margin: 16px 0;">One major difference: EDX is a =E2=80=9Cnoncus=
+todial=E2=80=9D exchange, meaning it doesn=E2=80=99t directly handle its cu=
+stomers=E2=80=99 digital assets. Instead, EDX runs a marketplace where firm=
+s agree to execute trades of coins and dollars, using its platform to agree=
+ on prices. Then the firms move crypto and cash between each other to settl=
+e the trades. Later this year, EDX plans to launch a clearinghouse to facil=
+itate the process of settling trades, but even then it plans to use third-p=
+arty banks and a crypto custodian to hold customer assets. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Unlike most crypto exchanges, EDX won=E2=80=99=
+t directly serve individual investors. Instead, it expects that retail brok=
+erages will send investors=E2=80=99 orders to buy and sell digital coins to=
+ its marketplace.</p>
+<p style=3D"margin: 16px 0;">The stock market operates under a similar mode=
+l, in which investors don=E2=80=99t directly access the New York Stock Exch=
+ange or Nasdaq, but instead submit orders through brokerages such as Fideli=
+ty and Schwab. =E2=80=A6</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">An institutional-only exchange in which retail=
+ orders are intermediated by brokers,<a class=3D"footnote-index" href=3D"#f=
+ootnote-1" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: non=
+e !important; background-color: transparent !important; display: inline-blo=
+ck;">
+<span>[1]</span>
+</a> clearing and custody that are separate from the exchange, listing only=
+ non-security tokens, no hype about blockchain. This is a way to trade cryp=
+to=C2=A0while almost completely rejecting the crypto financial system. This=
+ is bringing the structure of traditional finance to the assets of crypto f=
+inance. Traditional finance learned nothing from the crypto financial syste=
+m except that it didn=E2=80=99t work. Which is a useful lesson.</p>
+<p style=3D"margin: 16px 0;">Elsewhere at the Journal, <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/31860043.264406/aHR0cHM6Ly93d3cud3NqLm=
+NvbS9hcnRpY2xlcy9iaXRjb2luLWJvbmFuemEtb24tdGFwLWlmLWJsYWNrcm9jay1ldGYtaXMtY=
+XBwcm92ZWQtMmNiMzAwMj9tb2Q9aHBfbGVhZF9wb3M0/607f07ceef4b8524a319a23cBa0bca3=
+d0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Telis Demos writes about</a> BlackRock Inc.=E2=80=99s proposed=
+ Bitcoin exchange-traded fund, which we <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/31860043.264406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjMtMDYtMTYvZG9uLXQtaW5zaWRlci10cmFkZS1kcnVuay1vbi10=
+aGUtc3F1YXNoLWNvdXJ0P2NtcGlkPUJCRDA2MjEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1=
+haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDYyMSZ1dG1fY2FtcGFpZ249bW=
+9uZXlzdHVmZg/607f07ceef4b8524a319a23cB2f403824" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> discussed the othe=
+r day</a>, and which seems to be good for Bitcoin prices. He writes:</p>
+<blockquote><p style=3D"margin: 16px 0;">BlackRock=E2=80=99s application ha=
+s at least one notable addition=E2=80=94an expected agreement to share =E2=
+=80=9Csurveillance=E2=80=9D of a spot bitcoin-trading platform with Nasdaq,=
+ which would list the ETF, according to a regulatory filing. In other words=
+, the exchange could get confidential information on buyers, sellers and pr=
+ices.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">Nobody quite trusts crypto exchanges to catch =
+market manipulation, so they=E2=80=99ll ask Nasdaq to look for market manip=
+ulation on the crypto exchanges.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31860043.264406/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTg2MDA0MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIxMjQ0NDkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCacbe62a5" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31860043&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32124449&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31860043.264406/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTg2MDA0MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIxMjQ0NDkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDacbe62a5" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31860043&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32124449&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">People are worried about stock buybacks</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The basic idea is that if a company=E2=80=99s =
+cost of capital is 10%, and it has some projects that will earn an=C2=A011%=
+ annual return, it should do those. If it has a lot of them, it should rais=
+e more money (at a cost of 10%) to do them all. If it has some projects tha=
+t will earn only a 9% return, it should not do those. And if it mostly has =
+those kinds of projects =E2=80=94=C2=A0if it has nowhere to put its money t=
+hat will earn more than its cost of capital =E2=80=94=C2=A0then it should p=
+ay down debt or do stock buybacks to return capital to its investors. It ha=
+s too much capital for the projects it can do; its projects do not earn eno=
+ugh to pay for its expensive capital.</p>
+<p style=3D"margin: 16px 0;">The =E2=80=9Ccost of capital=E2=80=9D is a som=
+ewhat abstract concept =E2=80=94=C2=A0the cost of debt is basically the aft=
+er-tax cost of interest payments, but if you sell stock you never need to p=
+ay it back =E2=80=94=C2=A0but there is pretty broad agreement on what it me=
+ans and how to calculate it; Bloomberg=E2=80=99s WACC function will just te=
+ll you the weighted average cost of capital of any public company you like.=
+ Roughly speaking a company=E2=80=99s=C2=A0cost of capital consists of (1) =
+the risk-free interest rate plus (2) a risk premium for the company=E2=80=
+=99s debt and equity; very roughly speaking the cost of capital should go u=
+p as interest rates go up, and go down as they go down.</p>
+<p style=3D"margin: 16px 0;">Roughly speaking this is how the Federal Reser=
+ve=E2=80=99s interest-rate policy=C2=A0affects corporate investment<a class=
+=3D"footnote-index" href=3D"#footnote-2" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: none !important; background-color: transparent !=
+important; display: inline-block;">
+<span>[2]</span>
+</a>: If the Fed raises rates a lot, long-term rates will go up, so the cos=
+t of capital will go up, so companies will do fewer projects, so the econom=
+y will slow down; if the Fed lowers rates a lot, long-term rates will go do=
+wn, so the cost of capital will go down, so companies will do more projects=
+, so there will be more building and hiring and economic activity.</p>
+<p style=3D"margin: 16px 0;">But here is a fascinating paper by Niels Joach=
+im Gormsen and Kilian Huber on =E2=80=9C<a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/31860043.264406/aHR0cHM6Ly93d3cubmJlci5vcmcvcGFwZXJzL=
+3czMTMyOQ/607f07ceef4b8524a319a23cB2f5f3381" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">Corporate Discount Rat=
+es</a>=E2=80=9D (via <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/31860043.264406/aHR0cHM6Ly93d3cudGhlZGlmZi5jby9hcmNoaXZlL2xvbmdyZWFkcy1v=
+cGVuLXRocmVhZC0yOA/607f07ceef4b8524a319a23cB3afb8988" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Byrne Hobart=
+</a>; free <a href=3D"https://link.mail.bloombergbusiness.com/click/3186004=
+3.264406/aHR0cHM6Ly9wYXBlcnMuc3Nybi5jb20vc29sMy9wYXBlcnMuY2ZtP2Fic3RyYWN0X2=
+lkPTQ0Nzc1NDU/607f07ceef4b8524a319a23cBc7aed12a" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> SSRN version here=
+</a>). What I said above is the standard theory:</p>
+<blockquote><p style=3D"margin: 16px 0;">The stylized view in economics is =
+that such changes in firms=E2=80=99 cost of capital directly impact firm in=
+vestment. According to the stylized view, firms should take on any investme=
+nt project that offers returns above the cost of capital. As a result, firm=
+s should adjust their required returns on new investments (their so-called =
+=E2=80=9Cdiscount rates=E2=80=9D) one-to-one with the cost of capital in fi=
+nancial markets. Firms=E2=80=99 discount rates should, for example, have dr=
+opped substantially since the early 2000s, in line with the cost of capital=
+, leading to a corporate investment boom (Guti =CC=81errez and Philippon 20=
+17). More generally, the stylized view implies that all shocks to the cost =
+of capital, such as shocks to stock prices, monetary policy, and credit sup=
+ply, directly influence firms=E2=80=99 discount rates and thus investment (=
+see discussions in, e.g., Barro 1990 and Koby and Wolf 2020).</p></blockquo=
+te>
+<p style=3D"margin: 16px 0;">But Gormsen and Huber review companies=E2=80=
+=99 quarterly conference calls with analysts to find out what they actually=
+ say about their discount rates, the rates of return that they demand on ne=
+w projects:</p>
+<blockquote><p style=3D"margin: 16px 0;">We begin the paper by measuring fi=
+rms=E2=80=99 discount rates and perceived cost of capital using corporate c=
+onference calls (Hassan et al. 2019). The majority of listed firms hold qua=
+rterly conference calls, during which managers inform financial analysts an=
+d investors about their firms=E2=80=99 operations. On these calls, managers=
+ sometimes share their discount rates and per- ceived cost of capital when =
+discussing their investment decision making.2 Advantages of conference call=
+s include that they are held regularly, that analysts can compare reported =
+discount rates to realized outcomes, and that calls often appear as evidenc=
+e in securities law- suits. These aspects incentivize managers to report ac=
+curate values. We collect transcripts for conference calls between 2002 and=
+ 2021 and identify 74,000 paragraphs where managers discuss their discount =
+rates or perceived cost of capital. We read through each paragraph with a t=
+eam of research assistants and manually extract relevant information.</p></=
+blockquote>
+<p style=3D"margin: 16px 0;">And they find basically that companies are rea=
+sonably good at estimating their cost of capital,<a class=3D"footnote-index=
+" href=3D"#footnote-3" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: none !important; background-color: transparent !important; display=
+: inline-block;">
+<span>[3]</span>
+</a>=C2=A0but those estimates don=E2=80=99t really affect their investment =
+decisions all that much. For one thing, companies=E2=80=99 discount rates=
+=C2=A0are higher than their cost of capital: A company with a 10% cost of c=
+apital might only do projects that it expects to earn at least 15%. For ano=
+ther thing, the discount rate doesn=E2=80=99t move that much with the cost =
+of capital:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">We document that changes in the perceived cost=
+ of capital only modestly affect discount rates, in contrast to the stylize=
+d view. Using within-firm variation, we show that, on average, a 1 percenta=
+ge point increase in the perceived cost of capital leads to a 0.3 percentag=
+e point increase in the discount rate. Many firms rarely change discount ra=
+tes, so the relation becomes stronger over longer horizons. However, even a=
+t the 10-year horizon, 40 percent of firms maintain unchanged discount rate=
+s and, even if they change, adjust less than one-to-one with the perceived =
+cost of capital. In addition, we find substantial variation in discount rat=
+es that is unrelated to the perceived cost of capital. These results sugges=
+t that discount rates have =E2=80=9Ca life of their own,=E2=80=9D beyond th=
+e perceived cost of capital.</p>
+<p style=3D"margin: 16px 0;">The weak relation between discount rates and t=
+he perceived cost of capital gives rise to a time-varying wedge between dis=
+count rates and the perceived cost of capital. Using within-firm variation,=
+ we find that the average wedge in the US has increased by around 2.5 perce=
+ntage points between 2002 and 2021, as the perceived cost of capital has de=
+creased while discount rates have remained more stable. This increase is la=
+rge relative to typical movements in financial prices, for example, those d=
+ue to secular interest rate trends and monetary policy.=C2=A0An increase of=
+ this magnitude is thus likely to be important for our understanding of inv=
+estment dynamics.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">And because of this =E2=80=9Cwedge=E2=80=9D =
+=E2=80=94=C2=A0the difference between companies=E2=80=99 discount rate for =
+projects and their cost of capital =E2=80=94=C2=A0there is less corporate i=
+nvestment than you would expect:</p>
+<blockquote><p style=3D"margin: 16px 0;">A literature argues that US invest=
+ment has been low in recent decades, relative to the financial cost of capi=
+tal. =E2=80=A6 We find that discount rate wedges can account for a large pa=
+rt of the missing investment. Intuitively, the increasing wedges imply that=
+ firms are using increasingly higher discount rates than those assumed by s=
+tandard =E2=80=A6 theory, which ultimately means that firms are holding bac=
+k investment.</p></blockquote>
+<p style=3D"margin: 16px 0;">Why do companies pass on value-creating opport=
+unities? They have some ideas:</p>
+<blockquote><p style=3D"margin: 16px 0;">We consider three theories: the in=
+teraction of market power with beliefs about value creation; idiosyncratic =
+firm-level risk; and financial constraints. First, we systematically analyz=
+e manager statements on conference calls. We find that many managers believ=
+e that high discount rates raise shareholder value. High discount rates may=
+ signal profitability or managerial prudence, consistent with models where =
+investors worry about overinvestment (Jensen 1986). While the benefits of w=
+edges may accrue to firms independent of market power, we show that firms w=
+ith market power are able to maintain wedges at a lower cost to their profi=
+tability. This implies that firms with more market power are more likely to=
+ choose high and steady discount rates over time, even when the cost of cap=
+ital is falling. A second theory is that firms with irreversible assets pos=
+tpone investments in the face of increased risk, which can lead riskier fir=
+ms to use higher discount rates. And third, financial constraints may gener=
+ate discount rate wedges. Using cross-sectional variation, we find that mar=
+ket power, risk, and financial constraints are all associated with higher d=
+iscount rate wedges, consistent with the three theories.</p></blockquote>
+<p style=3D"margin: 16px 0;">One way to tell this story is that investors t=
+rust their money to management hoping to earn the cost of capital.<a class=
+=3D"footnote-index" href=3D"#footnote-4" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: none !important; background-color: transparent !=
+important; display: inline-block;">
+<span>[4]</span>
+</a> If a company=E2=80=99s cost of capital is 10%, it has taken money from=
+ investors who hope to earn 10%. If it invests that money in projects that =
+earn 10%, it will make its investors happy. But if it invests in projects t=
+hat earn 9.9%, it will make investors mad.</p>
+<p style=3D"margin: 16px 0;">The investors are keeping a close eye on the c=
+ompany: They don=E2=80=99t want the managers to blow all of their money on =
+projects earning 5%, or 0%, or corporate jets and stadium naming rights tha=
+t make the managers feel cool but destroy shareholder value. It is hard to =
+tell, though, on a day-to-day level, whether the company is investing in pr=
+ojects that will return 10% or 9% or 0%; the projects won=E2=80=99t pay off=
+ for a while. A rule of thumb that is like =E2=80=9Cwe will invest in proje=
+cts that we expect to return 15%, and give you back the rest of the money=
+=E2=80=9D makes sense as a form of managerial discipline, as a way of makin=
+g extra-sure that managers are trying to make money for shareholders rather=
+ than wasting it. It=E2=80=99s just that it=E2=80=99s too conservative a ru=
+le: It leads managers to give shareholders money back, when the shareholder=
+s would be better off if they invested it.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">AT1s</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Additional tier 1 capital securities are bonds=
+ issued by banks that lose value if the bank fails or comes close to failin=
+g. Credit Suisse Group AG failed this year, and its <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/31860043.264406/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMjAvdWJzLWdvdC1jcmVkaXQtc3Vpc3Nl=
+LWZvci1hbG1vc3Qtbm90aGluZz9jbXBpZD1CQkQwNjIxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXV=
+tPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MjEmdXRtX2NhbXBhaW=
+duPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB93568479" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">  $17 billion =
+of AT1 securities</a> were written down to zero.<a class=3D"footnote-index"=
+ href=3D"#footnote-5" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: none !important; background-color: transparent !important; display:=
+ inline-block;">
+<span>[5]</span>
+</a>=C2=A0The holders of these bonds were very angry, both because they los=
+t money=C2=A0and because they thought that they were treated unfairly. In s=
+ome sense this was fine =E2=80=94=C2=A0the whole point of AT1s is to make t=
+he AT1 holders angry when a bank fails, instead of making taxpayers angry =
+=E2=80=94=C2=A0but there was a potential negative consequence, which is tha=
+t if investors got too aggrieved about how Credit Suisse=E2=80=99s AT1s wer=
+e treated, they wouldn=E2=80=99t buy=C2=A0<em>other=C2=A0</em>banks=E2=80=
+=99 AT1 securities, which would mean that other banks would have less loss-=
+absorbing capital for future crises. Banking regulators worried about this=
+=C2=A0and took pains to reassure investors that the Credit Suisse experienc=
+e would not be repeated. I was a bit less worried. <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/31860043.264406/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDUtMTcvYmFua3Mtd2FudC1hLWJyZWFrLWZyb=
+20tdGhlLWZkaWM_Y21waWQ9QkJEMDYyMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1=
+dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjIxJnV0bV9jYW1wYWlnbj1tb25leXN=
+0dWZm/607f07ceef4b8524a319a23cBc25c1e35" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">I wrote</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">Incidentally my own view of the co=
+rrect regulatory response here is something like =E2=80=9Cmemories in finan=
+cial markets are extremely short, and any time a bond investor indignantly =
+huffs that she will never buy some type of bond again, she=E2=80=99ll be bu=
+ying it within a week.=E2=80=9D You have a meeting with AT1 investors, they=
+ say =E2=80=9Cyou need to make sure that these bonds can never lose money,=
+=E2=80=9D you nod and say =E2=80=9Cof course, of course,=E2=80=9D you wait =
+six minutes, you forget all about it. I am not sure that will work here but=
+ I don=E2=80=99t think I=E2=80=99d bet against it.</p></blockquote>
+<p style=3D"margin: 16px 0;">Yeah, well. The <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/31860043.264406/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRp=
+Y2xlcy90aHJlZS1tb250aHMtYWZ0ZXItbG9zaW5nLTE3LWJpbGxpb24tb24tY3JlZGl0LXN1aXN=
+zZS10aGUtYm9uZC1tYXJrZXQtaXMtY2FyZWZyZWUtMWVjYzAyNzc_bW9kPWl0cF93c2omcnU9eW=
+Fob28/607f07ceef4b8524a319a23cB4104861b" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Wall Street Journal rep=
+orts</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Last week, Spain-headquartered bank BBVA said =
+it had issued =E2=82=AC1 billion ($1.1 billion) in so-called Additional Tie=
+r 1, or AT1, securities. This market was upended in March when, in the proc=
+ess of rescuing Credit Suisse, Swiss regulators wiped out the entire $17 bi=
+llion value of its AT1s. Three months later, BBVA got bids for three times =
+the issue on offer. Bank of Cyprus also sold new AT1s last week.</p>
+<p style=3D"margin: 16px 0;">Both wanted to test whether the door of the AT=
+1 market was open, and the answer has been a resounding yes.</p>
+<p style=3D"margin: 16px 0;">It speaks to how short-lived soul-searching in=
+ the bond market has been. Back in March, the Bloomberg Global Contingent C=
+apital index lost 15% of its value in just a few days. A big concern was th=
+at Swiss regulators didn=E2=80=99t wipe out Credit Suisse shares, which app=
+eared to violate the seniority of debt over equity.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Returns since the start of March are still neg=
+ative and yields are above 8%. But in terms of the spread above interest ra=
+tes, AT1 debt is back to 2022 levels, and around where it was in the 2014 t=
+o 2016 period. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">In short: Once the impact of central banks rai=
+sing interest rates is taken into account, banks may actually be getting ch=
+eaper AT1 funding.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CBond markets have short memories=E2=
+=80=9D is one of the more reliable theses in financial markets. Elsewhere i=
+n <a href=3D"https://link.mail.bloombergbusiness.com/click/31860043.264406/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjEvY3JlZGl=
+0LXN1aXNzZS1zLWRlbWlzZS1ibGFtZWQtaW4tYm9uZGhvbGRlci1zdWl0LW9uLW55LWJhbmtlcn=
+M_Y21waWQ9QkJEMDYyMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlP=
+W5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07c=
+eef4b8524a319a23cB93601ef4" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">  Credit Suisse=E2=80=99s angry AT1 hol=
+ders</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A group of Credit Suisse Group AG=E2=80=99s Eu=
+ropean bondholders who were part of the $17 billion wipe-out in the bank=E2=
+=80=99s demise sued its former executives, pointing to a =E2=80=9Cbroken cu=
+lture=E2=80=9D and a series of scandals they trace to its New York-based in=
+vestment banking operation.</p>
+<p style=3D"margin: 16px 0;">Bondholders based in Paris, Luxembourg, and St=
+. Peter Port, Guernsey argue that self-serving executives chased short-term=
+ returns and bonuses from overly risky deals, resorting to unethical and il=
+legal practices to acquire and keep high-revenue customers. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWhile Credit Suisse began as a conser=
+vative Swiss private bank, the vast majority of the people who were respons=
+ible for its demise were not staid Swiss bankers, but, rather, sharp-elbowe=
+d New York investment bankers,=E2=80=9D according to the complaint.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Yes, but absorbing the losses caused by sharp-=
+elbowed New York investment bankers is why AT1s exist.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Sesame</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">This, from last week, is <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/31860043.264406/aHR0cHM6Ly93d3cud3NqLmN=
+vbS9hcnRpY2xlcy9zZXNhbWUtYWxsZXJneS1zdWZmZXJlcnMtd2FudGVkLXdhcm5pbmctbGFiZW=
+xzLXRoZXktZ290LW1vcmUtc2VzYW1lLTI4M2M3MGNlP21vZD1ocF9saXN0Yl9wb3Mx/607f07ce=
+ef4b8524a319a23cB3c2f83e9" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">one of the best stories you=E2=80=99ll e=
+ver read</a> about how regulation works:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Congress passed legislation intended to make l=
+ife better for people allergic to sesame seeds. Instead, it made things wor=
+se.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The bill, passed with overwhelming bipartisan =
+support and signed into law by President Biden in 2021, requires manufactur=
+ers to label sesame on their products starting this year.=C2=A0</p>
+<p style=3D"margin: 16px 0;">In response, some companies began adding sesam=
+e to products that hadn=E2=80=99t included it in the past=E2=80=94saying it=
+ was safer to add sesame and label it, rather than certify they had elimina=
+ted all traces of it.</p>
+<p style=3D"margin: 16px 0;">People with sesame allergies say the result is=
+ fewer sesame-free food options, as well as new and unexpected risks from s=
+esame in foods they used to eat without worry.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The issue is that it is hard to eliminate trac=
+e amounts of sesame, and the law now requires food manufacturers to label s=
+esame as an allergen. Not putting sesame on the label effectively constitut=
+es a promise that there is no sesame in the product, and if there is a litt=
+le bit then you get in trouble:</p>
+<blockquote><p style=3D"margin: 16px 0;">Advising that the product =E2=80=
+=9Cmay contain=E2=80=9D sesame on the label isn=E2=80=99t a practical solut=
+ion since a trace amount of sesame detected could trigger a recall, the bak=
+ers group said. The Food and Drug Administration considers =E2=80=9Cmay con=
+tain=E2=80=9D a voluntary advisory that isn=E2=80=99t a substitute for good=
+ manufacturing practices meant to ensure that a product is allergen-free, a=
+nd finding an undeclared allergen could be grounds for ordering a recall.=
+=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">But if you say that the product=C2=A0<em>defin=
+itely=C2=A0</em>contains sesame, then you are immunized from trouble. So yo=
+u just chuck some sesame into everything, change the labels, and you=E2=80=
+=99re fine. It is easier to make sure that there is sesame than that there =
+isn=E2=80=99t, so that=E2=80=99s what companies do.</p>
+<p style=3D"margin: 16px 0;">Everything is like this? There are huge areas =
+of regulation where the most straightforward approach is to look at the gia=
+nt book of rules and say =E2=80=9Cno thank you, I want=C2=A0out of this ent=
+irely.=E2=80=9D Making non-sesame food products is a heavily regulated busi=
+ness with huge risks if you mess up; making sesame-based food products just=
+ lets you escape from that regulatory regime, so you might as well throw in=
+ some sesame.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Business idea</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">For a while in the 2010s, arguably the most lu=
+crative business model in the world was =E2=80=9Cget a guy who can flatter =
+Masayoshi Son and let him just go nuts and bring back billions of dollars o=
+f SoftBank financing.=E2=80=9D This was <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/31860043.264406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMTktMTAtMjMvaG93LWRvLXlvdS1saWtlLXdlLW5vdz9jbXBpZD1C=
+QkQwNjIxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHR=
+lciZ1dG1fdGVybT0yMzA2MjEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a3=
+19a23cB06120459" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> basically WeWork=E2=80=99s business model</a>, an=
+d while it didn=E2=80=99t necessarily work out great for WeWork in the long=
+ run, it=C2=A0<em>did=C2=A0</em>work out great for Adam Neumann, WeWork=E2=
+=80=99s founder and fundraiser and=C2=A0Masa-flatterer.</p>
+<p style=3D"margin: 16px 0;">But now it is 2023, we are in the early stages=
+ of an artificial intelligence boom, and obviously the best possible busine=
+ss model is =E2=80=9Cget an AI chatbot who can flatter Masayoshi Son.=E2=80=
+=9D The <a href=3D"https://link.mail.bloombergbusiness.com/click/31860043.2=
+64406/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zb2Z0YmFua3MtbWFzYXlvc2hpLXNvb=
+i1zYXlzLWhlcy1mb2N1c2luZy1vbi1haS1pbnZlbnRpb25zLTYyMTA4OWFjP21vZD1sZWFkX2Zl=
+YXR1cmVfYmVsb3dfYV9wb3Mx/607f07ceef4b8524a319a23cB09576b64" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">Wall St=
+reet Journal reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">SoftBank Group Chief Executive Masayoshi Son s=
+ays he has rekindled his appetite for investing in technology by talking wi=
+th ChatGPT in the wee hours about ideas for inventions that the bot validat=
+ed as wonderful.</p>
+<p style=3D"margin: 16px 0;">Son, 65 years old, told shareholders Wednesday=
+ that the artificial-intelligence tool helped revive his spirits after he h=
+ad been driven to tears by the sense he was nearing the end of his career w=
+ithout having pursued his dreams. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">He said he used ChatGPT every day for brainsto=
+rming and has come up with more than 600 ideas. He described one lengthy ex=
+change=E2=80=94at around 3 to 4 in the morning=E2=80=94in which he pitched =
+an idea and then answered the AI chatbot as it raised objections.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CAfter we repeated this several dozen =
+times, I really felt great because my idea was praised as feasible and wond=
+erful,=E2=80=9D he said.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I hope the chatbot <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/31860043.264406/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMTAtMjMvaG93LWRvLXlvdS1saWtlLXdlLW5vdz9j=
+bXBpZD1CQkQwNjIxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV=
+3c2xldHRlciZ1dG1fdGVybT0yMzA2MjEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef=
+4b8524a319a23cC06120459" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> told him</a> that it appreciated how he w=
+as crazy, but that he needed to be crazier. I feel like there are a lot of =
+people in the world who would be happy to tell Masayoshi Son that his ideas=
+ are feasible and wonderful =E2=80=94=C2=A0whole industries were built on t=
+he basic premise of telling Masayoshi Son what he wanted to hear =E2=80=94=
+=C2=A0but there are only so many=C2=A0<em>robots=C2=A0</em>in the world who=
+ will tell him that, and now he is looking for robots. Presumably somebody =
+is building more of those robots; it would be silly not to.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Slowdown in <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/31860043.264406/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQv=
+YjNkNDI5MWYtODU3Yy00NmM1LTk2YjgtZTY3OTMzYjZlN2U4/607f07ceef4b8524a319a23cB6=
+03f738c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> junk-rated loan market</a> hits US corporate borrowing pl=
+ans. <a href=3D"https://link.mail.bloombergbusiness.com/click/31860043.2644=
+06/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjEvbW9u=
+ZXktZnVuZHMtd2l0aC1yZWNvcmQtNS01LXRyaWxsaW9uLXNlZS1jYXNlLWZvci1waWxlLXRvLWd=
+yb3c_Y21waWQ9QkJEMDYyMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBc0c05ed7" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  Money Funds</a> With Record $5.5 T=
+rillion See Case for Pile to Grow. JPMorgan to cash in insurance policy aft=
+er botched $175mn <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+31860043.264406/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMzU5YWQzYTEtN2M5NC00MDN=
+iLThjYWEtMDEzNGEwNDQzZDFj/607f07ceef4b8524a319a23cB54a1227f" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> Frank=
+ deal</a>.=C2=A0Brazil Said to Consider ESG Bond Debut as Soon as September=
+.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/31860043.26=
+4406/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy92YWNhbnQtb2ZmaWNlcy1hcmUtcGlsaW=
+5nLXVwLWluLXNpbGljb24tdmFsbGV5LTY4ZTE5Zjc_bW9kPWhwX2xlYWRfcG9zMTA/607f07cee=
+f4b8524a319a23cB6c507263" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> Vacant Offices</a> Are Piling Up in Sili=
+con Valley. FTX bankruptcy =E2=80=98<a href=3D"https://link.mail.bloombergb=
+usiness.com/click/31860043.264406/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYjVhZ=
+GJjZGQtMzA0YS00MTQ3LThhNGEtYzgxMjk2YWM3ZDJi/607f07ceef4b8524a319a23cB790937=
+86" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> on track to be very expensive</a>=E2=80=99 as fees top $200mn=
+. EU Backs <a href=3D"https://link.mail.bloombergbusiness.com/click/3186004=
+3.264406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMj=
+EvZXUtYmFja3MtZnJlc2gtcnVzc2lhLXNhbmN0aW9ucy10by1jcmFjay1kb3duLW9uLWNpcmN1b=
+XZlbnRpb24_Y21waWQ9QkJEMDYyMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1f=
+c291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZ=
+m/607f07ceef4b8524a319a23cB82f275af" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">  Fresh Russia Sanctions</a> t=
+o Crack Down on Circumvention. Germany Issues Arrest Warrant for <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/31860043.264406/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMjEvZ2VybWFueS1pc3N1ZXM=
+tYXJyZXN0LXdhcnJhbnQtZm9yLWV4LXN0ZWluaG9mZi1jZW8tam9vc3RlP2NtcGlkPUJCRDA2Mj=
+EyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0b=
+V90ZXJtPTIzMDYyMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB=
+2545758b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">  Ex-Steinhoff CEO</a> Jooste. Nigeria Police Oppose Susp=
+ended Central Bank Head=E2=80=99s <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31860043.264406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjMtMDYtMjEvbmlnZXJpYS1wb2xpY2Utb3Bwb3NlLXN1c3BlbmRlZC1jZW50cm=
+FsLWJhbmstaGVhZC1zLWJhaWwtcmVxdWVzdD9jbXBpZD1CQkQwNjIxMjNfTU9ORVlTVFVGRiZ1d=
+G1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MjEmdXRt=
+X2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBeb5094e7" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">  Ba=
+il Request</a>. US justice Samuel Alito <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/31860043.264406/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvY=
+TQ2NDAyMDAtMTJjMS00YjNmLTk0ZWYtZDcxZmE4OGI0MWU4/607f07ceef4b8524a319a23cB22=
+6989c1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> defends fishing trip</a> with billionaire Paul Singer. Doo=
+dle <a href=3D"https://link.mail.bloombergbusiness.com/click/31860043.26440=
+6/aHR0cHM6Ly9rb3R0a2Uub3JnLzIzLzA2L21lZXQtbXItZG9vZGxl/607f07ceef4b8524a319=
+a23cBd93844bd" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> house</a>. School <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/31860043.264406/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2x=
+lcy9oYXJ2YXJkLXN0dWRlbnRzLWdyYWR1YXRlcy10aGUtaC1ib21iLWl2eS1sZWFndWUtNjQ2ZD=
+g2NTU/607f07ceef4b8524a319a23cBb892d8d8" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> outside Boston</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31860043.264406/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB07f8d066" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31860043.264406/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBa33b1ac0" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] We <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/31860043.264406/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjMtMDYtMjAvZGVidC1jb3N0cy1tb3JlLXdoZW4tcmF0ZXMtZ28tdXA_=
+Y21waWQ9QkJEMDYyMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5=
+ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07cee=
+f4b8524a319a23cBbe051874" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> talked the other day</a> about a model o=
+f the stock market in which retail investors put in orders on their broker=
+=E2=80=99s website, the broker sends the order to a market maker like Citad=
+el Securities or Virtu who trades with it, and then the market maker offloa=
+ds the risk on the public stock exchange. You could imagine something like =
+that developing here: Some of EDX=E2=80=99s order flow might be Schwab send=
+ing its customers=E2=80=99 orders to the exchange, but over time retail bro=
+kers might send orders directly to wholesalers (and get paid for them), and=
+ the wholesalers might use the EDX market to lay off risk. </p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] I am being loose in many ways: The correla=
+tion between short- and long-term rates is not 1, nor is the correlation be=
+tween long-term rates and corporate WACCs, etc.; this is just a very rough =
+sketch of the idea.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] =E2=80=9CWe find that firms=E2=80=99 perce=
+ived cost of capital comoves with standard estimates of the financial cost =
+of capital (based on the earnings yield or the Capital Asset Pricing Model,=
+ CAPM, as well as interest rates) and we cannot reject that the estimate is=
+ close to 1 on average. We do, however, find substantial firm-level heterog=
+eneity in the dynamic incorporation of the financial cost of capital. This =
+heterogeneity may reflect that firms use richer models than the CAPM to cal=
+culate their perceived cost of capital or it may reflect mistakes in percep=
+tions of the financial cost of capital.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Very loosely: A company=E2=80=99s WACC is =
+not really the expected return to its investors, because its cost of debt i=
+s tax-affected, but the cost of capital of an entirely equity-funded compan=
+y more or less is the expected return on its shares.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] These two sentences are approximate and no=
+n-technical and you could, particularly if you are a Credit Suisse AT1 hold=
+er, object to various points in them. </p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31860043.264406/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB433a6137" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31860043.264406/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBba2b9aa9" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31860043.264406/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBe9f5c769" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31860043.264406/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB25329bf0" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/31860043.264406/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBab18bf49" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/31860043.2644=
+06/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB18167340" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31860043.264406/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCe95cdec6" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/31860043.264406/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB5a02f19c" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31860043.264406/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB0fecb121" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31860043.264406/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBb=
+1b743eb" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31860043.264406/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB7=
+6d11679" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ciyvd7.5o0m/0130649f.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_67255032_465677011.1687372194779--
+

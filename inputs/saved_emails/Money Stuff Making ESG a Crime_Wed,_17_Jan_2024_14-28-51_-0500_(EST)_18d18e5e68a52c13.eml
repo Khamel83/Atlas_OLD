@@ -1,0 +1,2221 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a0c:ab04:0:b0:680:b191:1941 with SMTP id h4csp5063396qvb;
+        Wed, 17 Jan 2024 11:28:57 -0800 (PST)
+X-Received: by 2002:a05:600c:214a:b0:40e:6631:596c with SMTP id v10-20020a05600c214a00b0040e6631596cmr2466281wml.305.1705519736805;
+        Wed, 17 Jan 2024 11:28:56 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1705519736; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=RbvoGZAYyNLqgKKszrmubQE0+sTbBbAPDjhn04oOLOGcLnqMjE6EOi1hw/QTA9iscp
+         AfhS+vZnR6amekAhp9L5SRT9QqNI+DMoL13xR/MQXRGrC1C7d+TEz9eTQLzI5fm7q99C
+         6nK6JCHydVxlYo5lJvO9wqD2vP1KVX2bnbtKLEVGSr7ExfbqIj1nye8B2pMGxFBtvfht
+         jBs0M6/yuHlvN3QaYIp/BhO3ej/cBUCZv9CklwstxC39AFGbSC4/I2iy+vXR7NiY8XGW
+         MJq1X/7lGBv0r7jWdLi6+YXYBaFRAPrj0X2U9OB7SD032Kjg9Z0fhxoM9ejoWoDUErgS
+         zx6w==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=JI2Zlt4mXIl1+XTpG4qtqoNk5VuFu0yem3EK1qwELPs=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=dvb2/aS/uBUmazV0Lex2ODfd4cxt1yQfM9LLwO14mQORB5Z/F4WTWfiHegCopWH97v
+         PjBmihLzeQtszibz0XENpxLq6j20jqFUNGVCEzZoToKkGvIOO2TRSZWxgBKYF9qe+Tf0
+         mTtyY9y1CU5IPSazBVwPQWrAjQ/iu6zDAhdNx8nqaHT8chM82oNkIP6KcmP6DMX9WerH
+         BcYUzbk3c44+yiPqzpEuXkXdn32FjYLmNaKEokDHaX3VYC4bgEmH1MZQmuEOO1i9YbWj
+         +nwZN623s/T7O9oGhrQBemzEyFbiQn6hYwhhCIsNB7GwtjSqZwbcRX0La6iKt4MJMMAs
+         +CsA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="0Z/V5aLn";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id k4-20020a05600c1c8400b0040d5a73368esor3148489wms.9.2024.01.17.11.28.56
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 17 Jan 2024 11:28:56 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="0Z/V5aLn";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1705519736; x=1706124536;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=JI2Zlt4mXIl1+XTpG4qtqoNk5VuFu0yem3EK1qwELPs=;
+        b=dlwPsbkWaUavwj2lW2J4iCLnuh39zLLqEnkVbeAnEEhOAUIM5xkA7D9EISuUeI5/t2
+         5wxyGFjm4EBNMY1UJ0mb0qt+2QhQZfjqXymW3qhwZmPL7FygTFsaHJgtvOc7SYx/0boZ
+         QDTw0XFI+HCD2xJibzVbXIeBulkjohXiOnNKdpcfgF1wWOSD9fKoNHgaRsUEFPy3MYLe
+         +GRNRKTXrY1lHOm+OGpnthdavCQUIXIABDs4amhgrV/PBpUOzXSbCZeRt357aJdbIQhl
+         MFIk0Fr+FjbpOz50c7PNOXRTLUldX1qeHBqPUJg+7NoU33L4SyIQgk/UJ1GmJxavoWg6
+         scag==
+X-Gm-Message-State: AOJu0YzI3nANzVcQpyHKMExyrG373t0Xx8BBpmNT7MSj4eJ5yCLZmGCP
+	h7Mf0YnYUKEgXVByDPt+qQ/j+FtQ93XEsVuYA/4rpzkh7EmbANISwQ==
+X-Received: by 2002:a05:600c:4f83:b0:40e:482b:1932 with SMTP id n3-20020a05600c4f8300b0040e482b1932mr2495607wmq.171.1705519736227;
+        Wed, 17 Jan 2024 11:28:56 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:4103:0:b0:333:384e:c9a6 with SMTP id l3csp415908wrp;
+        Wed, 17 Jan 2024 11:28:53 -0800 (PST)
+X-Received: by 2002:a6b:4e03:0:b0:7bf:417b:255d with SMTP id c3-20020a6b4e03000000b007bf417b255dmr6060323iob.26.1705519732777;
+        Wed, 17 Jan 2024 11:28:52 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1705519732; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Bu2t64YlIsr5MTFPwfQKArvWzxuQWpy3i1JHVfqk2gseohwIHevcfSd369yKPRGMYW
+         VSD8K4lm+CLNIrSnKCyvXa7PEF7+QS8frKMQSjPbkou73PWYc6zVWTS6hsIFbyPMIoPB
+         JCTgZLP2gOL2QeNeHx9y+widK3HFC6+8F6EFUalkAbeABnALX4/qtYXdCkfCq1kZl3AI
+         2h6AWDQ3cXGcnL4TXdrItA7w6Z6zhZGYcggU/8Og74j0wuid0D5vbbl3yNb3eYjEjG9c
+         Hf2akaauDtsd22ZGKPxo8GWmcGSSNMX8fWMlSOgl+iMSwtb8fQjh9oen+c4in+iO/N7+
+         +/xA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=JI2Zlt4mXIl1+XTpG4qtqoNk5VuFu0yem3EK1qwELPs=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=GWzjveCvK/MrDxw7L5UAqo+InNeVMmWL49rcySuO200McXLU0WS8HcqDXjfgsXmY+L
+         KDl7l1d6hrlhLAJuTeMu5ciktoOnMocnGKxubqNN5U7b+aN4t8wu//VBlv/c00VHcom4
+         QgvcZhFW3WFHvUcnNU1e+YPgQYjXAfSIL3DeMdXbpYf2A8Z8bS+QD4ymzg33KNUg3wi+
+         xpLqcNOKRgg2EB+jLXuXDIoUCTNlFtG4swEZC+3YHHpGAnr2OK3pNbo77IicanxF5tvM
+         V84OPiASr8c67MJFCsQHbV6UwoHtzOY0/LU3AuWr+7mv4resr/fBWHaPKMi/nWJEP4jA
+         UFjg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="0Z/V5aLn";
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20240117142851.34031994.258404@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20240117142851.34031994.258404@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20240117142851.34031994.258404@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id da7-20020a0566384a4700b0046e9d16da3asor543403jab.9.2024.01.17.11.28.52
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 17 Jan 2024 11:28:52 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20240117142851.34031994.258404@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IEtt8lMrzg3bV4Pt+TXPud98Etzc5zOXJjTON9IbCkg5s99z8qXSZGWBMCdg0ibJI2yOuhXGUrPgouzT8+DqyTq6xOA1JI=
+X-Received: by 2002:a05:6e02:1045:b0:361:9911:f2e7 with SMTP id p5-20020a056e02104500b003619911f2e7mr909111ilj.62.1705519732383;
+        Wed, 17 Jan 2024 11:28:52 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1705519732; cv=none;
+        d=google.com; s=arc-20160816;
+        b=b8eOLcMFY0pjiJrEJCUneh3ah7q3ScdiXzhIyxK9N7uAil/qtfYIByhVHGL3oij46C
+         y1cZ3INE+aOtL3pcqtLQaLEVhjeJfFbYLvhf4IjPvVyJZ6z2hivy5hn9XpxdXCNJpLnE
+         ODT2OtT1tEqTEus5B0iTD7qP4BC56UNNcsKtOgamp6TVHXm0VJyEubID97olduhQN57K
+         AG7+viwYKOV3minY/5QlZSqJX8uWwkXfRYsRBfJq8uRdK+fVp6dQa6u1x5laWUmL+XfF
+         mwEO34LMYqk0qTeUzcZ/ULangIZnJDltHnqpHfYPf8QbcKdJQ2uz81pKfzbSEXYg97yy
+         5N7Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=JI2Zlt4mXIl1+XTpG4qtqoNk5VuFu0yem3EK1qwELPs=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=GV38p8EMz2XUDGi+aWdEixByNDm7xIHtHYky51cI4ps+Z7JyjBtaNNXXTKrwQSNO0P
+         3z2CkUR+bhfdgPC9Vvk129j0mn0z/ia9H16QlxQmSeZGkD/v/U4ZquygZLNrrsRIvx/b
+         7isWnmNEHSFhQtdf3khP3JB8sOA3RptN3ZZYG7QVfdBgCAeHqaqV8nnfgZWJRf8hpbuk
+         Wjzw/TH9VADJxJ65jGQSKEHX0KFBgNfsJJANOMZytap4wJr+eV24V6Pj+hKHVovOvg3o
+         48sCp4CWf2wh+jbNVaoOeqXO9QIuJA7/p00JzAIjdOtA/LsvkcY30anwyIFzUcOSrYGv
+         m6WQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="0Z/V5aLn";
+       spf=pass (google.com: domain of delivery_20240117142851.34031994.258404@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20240117142851.34031994.258404@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20240117142851.34031994.258404@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id w13-20020a92ad0d000000b003619446d6f6si190833ilh.5.2024.01.17.11.28.52
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 17 Jan 2024 11:28:52 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20240117142851.34031994.258404@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=A9m6J0FPhrEdwmcOJbfpgBmk3DlQbaQ9NXooYVEaPZ8=;
+ b=0Z/V5aLnlHTdUVe4wS0pln3Q6S00YoY33kssHdZVqlv9+OrjxZTUizsn2ZPoDUbqENmlXttvvcrE
+   8HJOJZmZ8B5jHxzWzFt1HkZaaOXe+Htw2cYphj441NpKA9WKet3HcwnYiGt1JViDS4hysjhh/BeK
+   36WNFWz/Wcs/COBHFf8=
+Received: from aws1-mta-relay3.sailthru.cloud (10.55.62.127) by pmta29.sailthru.com id hl0l762sd4sr for <bloomberg@khamel.com>; Wed, 17 Jan 2024 13:28:51 -0600 (envelope-from <delivery_20240117142851.34031994.258404@mx.sailthru.com>)
+Date: Wed, 17 Jan 2024 14:28:51 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20240117142851.34031994.258404@sailthru.com>
+Subject: Money Stuff: Making ESG a Crime
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_249100_1082823190.1705519731781"
+Precedence: bulk
+x-job: 6358-34031994-20240117
+X-Feedback-ID: 6358:34031994:campaign:sailthru
+X-TM-ID: 20240117142851.34031994.258404
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-68-103.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ck9f96.5jdw/8a933a72
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ck9f96.5jdw/8a933a72>,<mailto:unsubscribe_20240117142851.34031994.258404@mx.sailthru.com>
+X-rpcampaign: stjko34031994
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_249100_1082823190.1705519731781
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Oh sure whatever: Republican lawmakers in New Hampshire are seeking=
+ to make using ESG criteria in state funds a crime in the latest attack o
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      ESG crime
+   =20
+ =20
+
+Oh   sure whatever:
+
+Republican lawmakers in New Hampshire are seeking to make using ESG criteri=
+a in state funds a crime in the latest attack on the beleaguered investing =
+strategy.
+Representatives led by=C2=A0Mike Belcher=C2=A0introduced=C2=A0a bill=C2=A0t=
+hat would prohibit the state=E2=80=99s treasury, pension fund and executive=
+ branch from using investments that consider environmental, social and gove=
+rnance factors. =E2=80=9CKnowingly=E2=80=9D violating the law would be a fe=
+lony punishable by not less than one year and no more than 20 years impriso=
+nment, according to the proposal.
+
+Pensions & Investments  reports:
+
+"Executive branch agencies that are permitted to invest funds shall review =
+their investments and pursue any necessary steps to ensure that no funds or=
+ state-controlled investments are invested with firms that invest New Hamps=
+hire funds in accounts with any regard whatsoever based on environmental, s=
+ocial, and governance criteria," the bill said.
+The New Hampshire Retirement System "shall adhere to their fiduciary obliga=
+tion and not invest with any firm that will invest state retirement system =
+funds in investment funds that consider environmental, social, and governan=
+ce criteria, as the investment goal should be to obtain the highest return =
+on investment for New Hampshire's taxpayers and retirees," the bill said.
+
+Investors aren=E2=80=99t allowed to=C2=A0consider governance! Imagine if th=
+is was the law; imagine if it was a felony for an investment manager to con=
+sider governance =E2=80=9Cwith any regard whatsoever.=E2=80=9D
+We   talked yesterday about Elon Musk=E2=80=99s plans to extort billions of=
+ dollars of free stock out of Tesla Inc. by (1) owning a big chunk of Tesla=
+ stock, (2)=C2=A0selling=C2=A0a lot of that stock to raise money to pursue =
+his distracting personal hobbies, and then (3) telling Tesla=E2=80=99s boar=
+d =E2=80=9Cwell, you know, I don=E2=80=99t own enough Tesla stock to really=
+ make it worth my while to work on Tesla; if you want me to do my job as CE=
+O you=E2=80=99d better double my stake to keep me motivated.=E2=80=9D Unles=
+s the board gives him a ton more stock, he posted, =E2=80=9CI would prefer =
+to build products outside of Tesla.=E2=80=9D
+That=E2=80=99s (1) absolutely crazy corporate governance and also (2) just =
+a typical Tuesday in wild Tesla corporate governance news.=C2=A0Tesla is  c=
+urrently being sued over Musk=E2=80=99s=C2=A0previous enormous pay package,=
+ which was supposed to motivate him to pay attention to Tesla, but which in=
+ fact just gave him enough stock to sell to raise money to distract himself=
+ with Twitter.
+If you are a big Tesla shareholder, it might be reasonable to say something=
+ like =E2=80=9Cwell, I like what Musk has done for the place, but I wish th=
+e board would try to rein him in,=E2=80=9D and try to set up a meeting with=
+ the Tesla board to discuss possible ways to stop giving him more stock. Or=
+ it might be reasonable to say =E2=80=9Cwell, I like what Musk has done for=
+ the place so far, but I=E2=80=99m increasingly worried that the governance=
+ problems here are going to reduce its long-term value =E2=80=94=C2=A0what =
+if Musk is telling the truth about building products outside of Tesla? =E2=
+=80=94=C2=A0so I=E2=80=99m just going to sell the stock.=E2=80=9D Both of t=
+hese approaches =E2=80=94=C2=A0meeting with the board to try to improve gov=
+ernance to increase the long-term value of the company, or selling stock be=
+cause you are worried that bad governance will lower the long-term value of=
+ the company =E2=80=94=C2=A0are totally normal things for responsible inves=
+tment managers to do.
+Unless they run money for New Hampshire, in which case this might become a =
+felony? Believe me, if it does, Elon Musk will hear about it.
+
+Investor: Elon, thanks for meeting with us. I=E2=80=99m worried that you ke=
+ep demanding tens of billions of dollars of stock awards, selling the stock=
+ to buy distracting toys, and then extracting more stock by threatening to =
+spend more time with the toys. Could you just try to focus a bit more on do=
+ing your job as CEO of Tesla?
+Musk: I=E2=80=99m calling the police! You considered governance! You=E2=80=
+=99re going to prison for 20 years!
+
+I=E2=80=99m sorry, this is so stupid. =E2=80=9CESG=E2=80=9D is essentially=
+=C2=A0about considering certain risks to a company=E2=80=99s financial resu=
+lts: You might want to avoid investing in a company if its factories are go=
+ing to be washed away by rising oceans, or if its main product is going to =
+be regulated out of existence, or if its  position on controversial social =
+issues will cost it sales, or if its CEO controls the board and spends too =
+much corporate money on wasteful personal projects. Obviously ESG in practi=
+ce is also other, more controversial things:
+=09If you care about the environment, social issues, etc., you might want t=
+o invest in companies that you think are environmentally or socially good, =
+whether or not they are good financial investments.=09You might incorrectly=
+ convince yourself that the stuff you think is environmentally or socially =
+good is also good for the bottom line: You might have a wishful estimate of=
+ how quickly the world will transition away from fossil fuels, to justify y=
+our desire not to invest in oil companies. You might tell yourself =E2=80=
+=9Cthis company=E2=80=99s stance on social issues will cost it lots of cust=
+omers=E2=80=9D when really the customers don=E2=80=99t care, but you do.
+
+But if you make it a crime for investors to consider certain financial risk=
+s=C2=A0then you get too much of those risks.
+In particular, I suspect, you get too much governance risk. If every invest=
+or tomorrow said =E2=80=9Cokay we don=E2=80=99t care about the environment,=
+=E2=80=9D most companies probably wouldn=E2=80=99t ramp up their pollution:=
+ Their executives probably don=E2=80=99t=C2=A0want=C2=A0to pollute unnecess=
+arily, polluting probably wouldn=E2=80=99t help the bottom line, and many c=
+ompanies just sit at computers developing software and couldn=E2=80=99t pol=
+lute much if they wanted to. But if every investor tomorrow said =E2=80=9Co=
+kay we don=E2=80=99t care about governance,=E2=80=9D then, I mean, =E2=80=
+=9Cgovernance=E2=80=9D is just a way of saying =E2=80=9Csomebody makes sure=
+ that the CEO is doing a good job and doesn=E2=80=99t pay herself too much.=
+=E2=80=9D If the investors don=E2=80=99t care about that, then a lot of CEO=
+s will be happy to give themselves raises and spend more time  on the corpo=
+rate jet to their vacation homes.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      NDAs
+   =20
+ =20
+
+I=E2=80=99ve   said this before, but one of the great weird business opport=
+unities in the US financial industry is that nondisclosure agreements are i=
+llegal, and you can get paid for reporting=C2=A0them to the US Securities a=
+nd Exchange Commission. This is very counterintuitive, which I suppose make=
+s it lucrative: If you find a nondisclosure agreement and send it to the SE=
+C, maybe you=E2=80=99ll be the first to report it, so you can get paid. Thi=
+s is neither legal nor business advice but it sure is weird.
+Here=E2=80=99s how it works. The SEC has a rule,  Rule 240.21F-17, which is=
+ often called a =E2=80=9Cwhistleblower protection=E2=80=9D rule. The idea i=
+s that, if you work at a financial services firm and you witness securities=
+ fraud, the SEC wants you to come to them and report it. And Rule 240.21F-1=
+7 says that your employer can=E2=80=99t retaliate against you for reporting=
+ fraud to the SEC. Specifically, it says:
+No person may take any=C2=A0action=C2=A0to impede an individual from commun=
+icating directly with the Commission staff about a possible securities law =
+violation, including enforcing, or threatening to enforce, a confidentialit=
+y agreement =E2=80=A6=C2=A0with respect to such communications.
+And so if you show up for your first day of work at a financial firm, and t=
+hey make you sign a nondisclosure agreement saying =E2=80=9CI will not disc=
+lose the company=E2=80=99s secret information,=E2=80=9D which is pretty sta=
+ndard, and then you discover fraud and report it to the SEC, your company i=
+s not allowed to say =E2=80=9Cwell you signed this NDA and you reported our=
+ secrets (fraud) to the SEC, so you breached your contract, so we=E2=80=99r=
+e going to sue.=E2=80=9D They=E2=80=99re not allowed to fire you for it, th=
+ey=E2=80=99re not allowed to sue to enforce the NDA, and they=E2=80=99re no=
+t even allowed to=C2=A0threaten=C2=A0to sue to enforce the NDA.
+But the SEC actually interprets this rule more broadly: They=E2=80=99re not=
+ allowed to even=C2=A0have=C2=A0the NDA. After all, if you sign an NDA sayi=
+ng =E2=80=9CI will not disclose the company=E2=80=99s secret information,=
+=E2=80=9D that might deter you from reporting fraud to the SEC. You might t=
+hink=C2=A0to yourself =E2=80=9Cuh oh, I signed an NDA, I can=E2=80=99t tell=
+ the SEC about this fraud, it=E2=80=99s secret, and I=E2=80=99m not allowed=
+ to disclose the company=E2=80=99s secrets.=E2=80=9D So you won=E2=80=99t r=
+eport the fraud. Nobody has=C2=A0explicitly threatened=C2=A0to sue you, but=
+ the NDA=C2=A0itself=C2=A0serves as that threat: You signed a legal documen=
+t promising not to disclose stuff, which might scare you into not disclosin=
+g it to the SEC.
+If the NDA explicitly says =E2=80=9CI will not disclose the company=E2=80=
+=99s secret information, except, to be clear, I am allowed to say anything =
+I want to the SEC or any other regulator,=E2=80=9D then that=E2=80=99s fine=
+. (Not legal advice!) But if the NDA=C2=A0doesn=E2=80=99t=C2=A0say that =E2=
+=80=94=C2=A0even if it says something pretty close to that=C2=A0=E2=80=94=
+=C2=A0then=C2=A0the SEC might take the view that it is an illegal threat to=
+ deter whistleblowing.
+So yesterday JPMorgan Chase & Co.=E2=80=99s J.P. Morgan Securities division=
+=C2=A0 agreed to pay $18 million for writing its=C2=A0client=C2=A0NDAs wron=
+g:
+
+According to the SEC=E2=80=99s order, from March 2020 through July 2023, JP=
+MS regularly asked retail clients to sign confidential release agreements i=
+f they had been issued a credit or settlement from the firm of more than $1=
+,000. The agreements required the clients to keep confidential the settleme=
+nt, all underlying facts relating to the settlement, and all information re=
+lating to the account at issue. In addition, even though the agreements per=
+mitted clients to respond to SEC inquiries, they did not permit clients to =
+voluntarily contact the SEC.
+=E2=80=9CWhether it=E2=80=99s in your employment contracts, settlement agre=
+ements or elsewhere, you simply cannot include provisions that prevent indi=
+viduals from contacting the SEC with evidence of wrongdoing,=E2=80=9D said =
+Gurbir S. Grewal, Director of the SEC=E2=80=99s Division of Enforcement.
+
+The  SEC says:
+
+The Release used by JPMS from March 2020 through July 2023 contained langua=
+ge providing a release of liability and a provision that stated, =E2=80=9Ct=
+he [JPMS client] promises not to sue or solicit others to institute any act=
+ion or proceeding against [JPMS] arising out of events concerning the Accou=
+nt=E2=80=9D and that if the JPMS client breaches that provision, JPMS =E2=
+=80=9Cmay undertake whatever legal action they deem appropriate to address =
+the breach(s), including, but not limited to, injunctive relief, and moneta=
+ry damages not to exceed the settlement amount.=E2=80=9D
+In a separate paragraph, the Release stated: =E2=80=9C[the JPMS client] sha=
+ll keep this Agreement confidential and not use or disclose (including but =
+not limited to, media statements, social media, or otherwise) the allegatio=
+ns, facts, contentions, liability, damages, or other information relating i=
+n any way to the Account, including but not limited to, the existence or te=
+rms of this Agreement . . . . Notwithstanding, [JPMS client] and [JPMS clie=
+nt=E2=80=99s] attorneys are neither prohibited nor restricted from respondi=
+ng to any inquiry about this settlement or its underlying facts by FINRA, t=
+he SEC, or any other government entity or self-regulatory organization, or =
+as required by law.=E2=80=9D
+
+The clients were explicitly allowed to answer=C2=A0questions=C2=A0from the =
+SEC, but not to go to the SEC themselves. JPMorgan =E2=80=9Cforced certain =
+clients into the untenable position of choosing between receiving settlemen=
+ts or credits from the firm and reporting potential securities law violatio=
+ns to the SEC,=E2=80=9D says Grewal, but I am not sure that=E2=80=99s right=
+. If you signed this release then (1) you got the money from JPMorgan, (2) =
+you could=C2=A0definitely=C2=A0still go to the SEC to report the violation,=
+ (3) JPMorgan couldn=E2=80=99t do anything=C2=A0about it (because of Rule=
+=C2=A0240.21F-17), and (4) now you could=C2=A0also=C2=A0go to the SEC, tell=
+ them =E2=80=9Chey check out this nondisclosure clause,=E2=80=9D and the SE=
+C would sue and you could collect a whistleblower payment. The release was =
+just an extra windfall for the clients, if they were sharp enough to notice=
+ it.
+
+ =20
+   =20
+      Spirit
+   =20
+ =20
+
+We talked a lot last year about   the takeover fight over Sculptor Capital =
+Management Inc. Basically:
+=09Sculptor had a deal to sell itself to another asset management firm, Rit=
+hm Capital Corp., for cash.=09It then got another, higher cash bid from a c=
+oalition of hedge fund managers, led by Boaz Weinstein, who wanted to buy S=
+culptor.=09Sculptor=E2=80=99s board of directors said =E2=80=9Clook, we kno=
+w the Weinstein bid=C2=A0looks=C2=A0higher, but we think that if we sign th=
+at deal it won=E2=80=99t actually close. Clients will flee, which will give=
+ Weinstein a way out of the deal, which he=E2=80=99ll take, and we=E2=80=99=
+ll be left with nothing. And it will be crippling for the firm to sign a de=
+al and lose it. We should stick with the lower, safer deal that we think wi=
+ll close.=E2=80=9D=09Sculptor shareholders largely did not believe this, th=
+e stock traded above the Rithm deal price, and there was pressure on the bo=
+ard to take the Weinstein deal.=09Eventually Sculptor managed to get Rithm=
+=E2=80=99s price up to a level that was competitive with Weinstein=E2=80=99=
+s, it=C2=A0did some shenanigans to lock up the vote, and the Rithm deal clo=
+sed.
+
+The question, ultimately, was: Did Sculptor=E2=80=99s board of directors kn=
+ow better than its shareholders? The shareholders, looking at a choice betw=
+een two prices, wanted the higher price. The board, more deeply involved in=
+ the negotiations (but also more conflicted), said =E2=80=9Cno, you don=E2=
+=80=99t understand, the higher price is not real, you won=E2=80=99t get it,=
+ trust us.=E2=80=9D It is the board=E2=80=99s job to make decisions on beha=
+lf of shareholders, sometimes even decisions the shareholders don=E2=80=99t=
+ like. But the board is limited in its power, and sometimes those decisions=
+ have to go to a shareholder vote, and you can get an awkward situation whe=
+re the board is sure that one choice is right, but the shareholders will on=
+ly approve the other one.
+Sculptor=E2=80=99s board worked it out. Spirit Airlines=E2=80=99 did not, a=
+s=C2=A0Bloomberg News reports:
+
+A federal judge blocked JetBlue Airways Corp.=E2=80=99s $3.8 billion acquis=
+ition of Spirit Airlines Inc., saying the combination would stifle competit=
+ion and raise fares for consumers.
+US District Judge William G. Young sided with the federal government and sa=
+id the merger would harm cost-conscious travelers by eliminating the nation=
+=E2=80=99s dominant deep-fare discount airline and drive up prices across t=
+he industry.=C2=A0=E2=80=A6
+Spirit=E2=80=99s shares plunged 47% Tuesday in New York, the biggest declin=
+e since the stock began trading more than a decade ago. JetBlue climbed 4.9=
+%.
+JetBlue and Spirit contended that consolidation is the only way smaller air=
+lines can effectively compete with the dominant carriers. In a joint statem=
+ent, the companies said they =E2=80=9Care evaluating our next steps as part=
+ of the legal process.=E2=80=9D
+
+Here is  the judge=E2=80=99s opinion. And here is  the press release that S=
+pirit put out in June 2022, saying =E2=80=9CSpirit Airlines Reaffirms Commi=
+tment to Merger with Frontier=E2=80=9D and arguing that =E2=80=9Cthe latest=
+ offer from JetBlue does nothing to address our Board=E2=80=99s serious con=
+cerns that a combination with them would not receive regulatory approval.=
+=E2=80=9D Spirit had a deal with Frontier Group Holdings Inc., another ultr=
+a-low-cost carrier, but then it got a cash bid from JetBlue that shareholde=
+rs preferred.
+The board thought this was a mistake, because the JetBlue deal would not go=
+ through. It argued this vehemently, but it lost the argument: The Frontier=
+ deal required shareholder approval, and it=C2=A0was clear that shareholder=
+s would not approve it because they wanted JetBlue=E2=80=99s cash. So in Ju=
+ly 2022, Spirit=E2=80=99s board caved and  signed with JetBlue. (=E2=80=9CS=
+pirit Had No Choice But Heed Investors and Jilt Frontier,=E2=80=9D wrote my=
+ Bloomberg Opinion colleague   Brooke Sutherland.)
+And then, as Spirit=E2=80=99s board predicted, the Justice Department sued,=
+ and it won, and now, a year and a half later, Spirit has no deal at all.  =
+ Bloomberg News reports:
+
+For Spirit, the consequences appear dire. Its shares were cut in half Tuesd=
+ay in their worst loss ever, and they were down another 20% after the marke=
+ts opened Wednesday. A buyout had represented a lifeline for the beleaguere=
+d carrier, which analysts from Melius Research and TD Cowen said may now fa=
+ce the prospect of a bankruptcy filing.
+=E2=80=9CThe path forward for Spirit turns to survivability,=E2=80=9D Conor=
+ Cunningham, a Melius Research analyst, said in a note. =E2=80=9CSpirit=E2=
+=80=99s financial results have been outright bad and are not expected to ma=
+terially improve in the near term.=E2=80=9D
+
+Sometimes the board of directors really does know better.
+
+ =20
+   =20
+      Fed losses
+   =20
+ =20
+
+A simple story that you could tell is that the banking system is in the bus=
+iness of borrowing short to lend long. There is a lot of natural demand for=
+ long-term loans (government deficits need financing, people need mortgages=
+) and a lot of natural demand for places to park money that can be withdraw=
+n at any time (people need checking accounts), but a mismatch between them.=
+ More people want to borrow long than lend long; more people want to lend s=
+hort than borrow short.
+And so traditionally banks intermediate that; they borrow short to lend lon=
+g. And that is a well-known risky business model, and there are various way=
+s to mitigate that risk, and the most important is the lender of last resor=
+t: If banks have lots of long-term good loans funded with short-term deposi=
+ts, and all the depositors ask for their money back, the central bank will =
+lend cash to the banks to pay back their depositors.
+But this risk is particularly acute when interest rates have been very low =
+for a long time, and then rapidly rise to a much higher level. All the bank=
+s have long-term loans that they made at the low interest rates,
+  [1]
+=C2=A0but now they have to pay high interest rates on deposits. One thing t=
+hat this means is that their operating profits are lower or negative: If yo=
+ur assets are a bunch of mortgages paying 3%, and your liabilities are a bu=
+nch of savings deposits paying 2%, you=E2=80=99re losing 1% every year. The=
+ other thing that this means is that they are=C2=A0mark-to-market insolvent=
+:=C2=A0If your assets are a bunch of mortgages paying 3%, and now mortgage =
+rates are 6%, your mortgages are worth like 80 cents on the dollar, and if =
+you=E2=80=99re a bank with 10% equity and your assets have lost 20% of thei=
+r value, you are insolvent.
+And so when the Fed raises rates a lot very quickly, that has the possible =
+effect of =E2=80=A6=C2=A0bankrupting all the banks? Or getting them kind of=
+ close to insolvency, anyway? And in fact last year there was a  bit of a c=
+risis among  US regional banks, which really were in this business of borro=
+wing short to lend long and turned out to be, in some cases, insolvent when=
+ the Fed raised rates rapidly.
+There are ways to mitigate this risk, too. One is: You have regulation to m=
+ake the banks more robust to this. You have capital regulation (they can=E2=
+=80=99t have too little capital), and also liquidity regulations that have=
+=C2=A0the effect of lowering the duration of their assets and increasing th=
+e duration of their liabilities, and prudential oversight where the bank re=
+gulators call up the banks and say =E2=80=9Creally? You=E2=80=99re funding =
+all these 30-year=C2=A0mortgages with overnight deposits?=E2=80=9D
+  [2]
+
+A more important way is accounting: Banks=C2=A0do not have to recognize int=
+erest-rate losses=C2=A0on huge swathes of their assets, loans and bonds tha=
+t they classify as =E2=80=9Cheld to maturity.=E2=80=9D This is the essentia=
+l trick that makes all of banking work: When interest rates go up, the mark=
+et value of banks=E2=80=99 long-term loans goes down, but the banks=C2=A0do=
+n=E2=80=99t have to realize those losses; they just hold the loans until ma=
+turity and get paid back 100 cents on the dollar.
+The US regional banking crisis last year turned on the fact that  this does=
+n=E2=80=99t work as well as it used to: The banks do not recognize the loss=
+es in their main accounting statements, but they do=C2=A0disclose=C2=A0the =
+losses, and people=C2=A0can read that disclosure and panic. And when they p=
+anic, they take out their deposits. And then the banks need to raise money.=
+ They can=E2=80=99t do this by selling their loans, because then they=E2=80=
+=99d recognize their losses and become insolvent. And they can=E2=80=99t do=
+ it by borrowing from the Fed, because=C2=A0the Fed lends against the marke=
+t value of the loans.
+One solution is for the Fed to instead lend banks money against the=C2=A0pa=
+r=C2=A0value of their loans, their hold-to-maturity value. And  that=E2=80=
+=99s what it did: It created the Bank Term Funding Program, which allows ba=
+nks to post collateral (Treasury bonds, agency mortgage-backed securities) =
+with the Fed and borrow=C2=A0the par value=C2=A0of those assets. If a bank =
+has $100 of mortgage bonds that are worth $80 because rates went up, it can=
+ borrow $100, solving the liquidity problem.
+But there is another way to look at this. Forget individual banks and think=
+ of the banking system as a whole. The system holds long-term assets (loans=
+, mortgages, Treasury bonds) and has short-term liabilities (deposits). It =
+therefore has a lot of interest-rate risk, both to its income and to its ba=
+lance sheet:
+=09If rates go up, the banking system has to pay more interest on its depos=
+its, but doesn=E2=80=99t get any more interest on its loans (mortgages, Tre=
+asuries, etc.), so it makes less profit.=09If rates go up, the banking syst=
+em=E2=80=99s long-term assets lose value, so it has big mark-to-market loss=
+es.
+
+This is sort of loosely true as an abstract matter. It is quite true of a l=
+ot of banks, particularly a lot of US regional banks. It is not particularl=
+y true of a lot of the big US banks, and in fact rising rates have generall=
+y been=C2=A0good=C2=A0for them,=C2=A0for a combination of real and accounti=
+ng reasons.
+  [3]
+
+You know whom it is weirdly true of? The Federal Reserve. The Wall Street J=
+ournal  reported on Friday:
+
+The Federal Reserve ran an operating loss of $114.3 billion last year, its =
+largest ever, a consequence of its campaign to aggressively support the eco=
+nomy in 2020 and 2021, then jacking up interest rates to combat high inflat=
+ion. =E2=80=A6
+The central bank paid more to financial institutions on interest-bearing de=
+posits and securities than it earned from securities that it bought when in=
+terest rates were lower. That=E2=80=99s a result of it raising its benchmar=
+k short-term interest rate to a two-decade high, above 5%, last year=E2=80=
+=A6.
+Fed losses are a side effect of its efforts to support the economy during t=
+he Covid-19 pandemic by purchasing large amounts of Treasury and mortgage-b=
+acked securities. The market value of those securities dropped after the ce=
+ntral bank began raising rates aggressively in 2022 to combat inflation, bu=
+t the Fed doesn=E2=80=99t book losses on them because they are held to matu=
+rity.
+Instead, the Fed is running losses because it is paying more in interest th=
+an it earns on those securities. Beginning in September 2022, the overnight=
+ rates the Fed pays to banks on their deposits held at the Fed, called rese=
+rves, and on other securities transactions it conducts to manage interest r=
+ates, exceeded the income it collects on its $7.1 trillion in security hold=
+ings.
+
+The Fed, in recent years, borrows short to lend long, in enormous size, wit=
+hout the sort of caution that regular banks use.=C2=A0Abstractly, banks bor=
+row with overnight deposits and invest in long-term mortgages, but=C2=A0rea=
+lly=C2=A0they do a lot of long-term borrowing and own a lot of short-term a=
+ssets to hedge their liquidity and interest-rate risk. The Fed has a much, =
+much better way to hedge liquidity risk =E2=80=94=C2=A0it can just print do=
+llars =E2=80=94=C2=A0so doesn=E2=80=99t worry about that. It just does, lit=
+erally and in large size, the thing that banks sometimes sort of abstractly=
+ do. And it doesn=E2=80=99t worry about the interest-rate risk because:
+=09It accounts for its assets on a held-to-maturity basis, so it doesn=E2=
+=80=99t book losses when rates go up.=09It really can hold those assets to =
+maturity, because if anyone wants dollars it can just print dollars, so it =
+truly never needs to sell assets.
+
+And even the operating loss doesn=E2=80=99t really matter. The Journal goes=
+ on:
+
+The losses don=E2=80=99t affect the Fed=E2=80=99s day-to-day operations and=
+ won=E2=80=99t require the central bank to ask for an infusion from the Tre=
+asury Department. Unlike federal agencies, the Fed doesn=E2=80=99t have to =
+go to Congress hat in hand to cover operating losses. Instead, the Fed crea=
+ted an IOU in 2022 that it calls a =E2=80=9Cdeferred asset.=E2=80=9D =E2=80=
+=A6
+The Fed=E2=80=99s deferred asset grew by $116.4 billion last year, bringing=
+ its cumulative total to $133 billion. When the Fed is no longer running lo=
+sses, it will pay itself back first and extinguish the deferred asset befor=
+e resuming remittances to the Treasury.
+
+=E2=80=9CDeferred asset=E2=80=9D is a great term. The Fed is not a regular =
+bank. If it has losses, that just means that it owes itself money, and it w=
+ill eventually pay itself back. And it can hold that debt to maturity.
+
+ =20
+   =20
+      =E2=80=9CStructured equity=E2=80=9D
+   =20
+ =20
+
+There are, these days, a lot of startups that used to be worth $1 billion a=
+nd are now worth $500 million. Some of them raised money at $1 billion valu=
+ations, back in the good times,=C2=A0and now they need to raise money again=
+. It is, for some combination of good and bad reasons, extremely undesirabl=
+e for a startup that raised money at $1 billion to raise money again at $50=
+0 million. Therefore there is a business opportunity for a fund that will:
+=09Give startups money at a $500 million valuation, but=09
+Say=C2=A0that it=E2=80=99s at a $1 billion valuation.
+
+This is called =E2=80=9Cstructure,=E2=80=9D or =E2=80=9Cstructured equity.=
+=E2=80=9D=C2=A0Bloomberg=E2=80=99s Gillian Tan  reported Friday:
+
+Philippe Laffont=E2=80=99s Coatue Management raised about $3 billion for a =
+structured equity fund that allows closely held companies to avoid raising =
+money at lower valuations, a person with knowledge of the matter said.
+With the market for initial public offerings in a funk and lower risk appet=
+ite from large venture capital investors, some startups have sought to rais=
+e convertible notes and pursue structured financings instead of accepting a=
+ lower valuation through a traditional equity funding round.
+
+It is always satisfying when a fund has a crisp and simple explanation for =
+how it plans to obtain alpha. =E2=80=9CIn 2024, startups are desperate to b=
+e told that they=E2=80=99re still worth as much as they were in 2021, and w=
+e can just tell them that, and they=E2=80=99ll pay us for it.=E2=80=9D
+Elsewhere:
+
+Investment firms are raising billions of dollars to buy stakes in venture c=
+apital-backed technology start-ups, as a long drought in acquisitions and i=
+nitial public offerings forces early investors to offload their stock at di=
+scounts.=C2=A0
+The start-up secondary market, where investors and employees buy and sell t=
+ens of billions of dollars=E2=80=99 worth of shares in privately held compa=
+nies, is becoming an increasingly important trading venue, in the absence o=
+f traditional ways of cashing out and given a slowdown in start-up funding.
+
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+ Japan=E2=80=99s Market Roars Back to Life=E2=80=94With Old-Timers Leading =
+the Way.=C2=A0Agencies=E2=80=99 Power Under Scrutiny in Supreme Court Argum=
+ents. Trading firm tries to halt $60mn shipment of  seized pigeon peas. Dis=
+ney  criticises Nelson Peltz as it rejects activist board nominees. JPMorga=
+n Sees Hacking Attempts on Systems Double to   45 Billion Per Day.=C2=A0Qua=
+ntum Computing to Spark =E2=80=98Cybersecurity Armageddon,=E2=80=99 IBM Say=
+s. Fashion Giant Faces New IPO Hitch:  China=E2=80=99s Cybersecurity Police=
+. Blackstone=E2=80=99s   Defaulted NYC Office Loan for Sale at 50% Discount=
+. A Pandemic-Era  Tax Break Is Unraveling, and the Lawsuits Are Flying. Dim=
+on Says   China Risk-Reward Equation Has =E2=80=98Changed Dramatically.=E2=
+=80=99=C2=A0PwC drops some US diversity goals to meet changed legal landsca=
+pe. Verizon   Writes Off $5.8 Billion From Enterprise as Sales Decline.=C2=
+=A0Electric Boat Startup   Navier Set to Ferry Stripe Staff to Work.=C2=A0E=
+lectric Car Owners Confront a Harsh Foe:  Cold Weather.=C2=A0  CFA Level II=
+ Pass Rate Stays at 44%, Just Below Historic Average.=C2=A0Your   Bonus Mig=
+ht Be Smaller This Year in Tighter Job Market.=C2=A0Remote Work   Doesn=E2=
+=80=99t Seem to Affect Productivity, Fed Study Finds. Tycoons Make UK Appea=
+l to   Unfreeze Private Jets and a Superyacht.=C2=A0Ex-Twitter Employees Tu=
+rn Musk=E2=80=99s  Auctioned Relics Into Home Decor.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] In the real world banks will often have long-term loans with floating=
+ interest rates, so this sentence is not quite right, but I am abstracting =
+away and also mostly thinking about (1) mortgages (mostly fixed-rate in the=
+ US) and (2) Treasury bonds (also mostly fixed-rate), which are not usually=
+ called =E2=80=9Cloans=E2=80=9D but you know what I mean. But throughout th=
+e text read =E2=80=9Cloans=E2=80=9D to mean =E2=80=9Clong-term fixed-rate f=
+ixed-income assets, mainly Treasuries and mortgages.=E2=80=9D
+
+
+  [2] I  argued last year, though, that bank supervisors systematically ask=
+ed this question less often than they should have with perfect hindsight, b=
+ecause traditional views of banking sort of underestimate this risk.
+
+
+  [3] We  talked in October about how global banks generally have had highe=
+r profits in the rising rate environment: Basically their deposit franchise=
+ is valuable, they *don=E2=80=99t* have to pay higher rates on lots of depo=
+sits, and they do in fact earn higher rates on many of their assets (floati=
+ng-rate loans, new loans, trading, etc.) Though we also discussed the fact =
+that Bank of America Corp. did worse than competitors =E2=80=9Cbecause BofA=
+ piled hundreds of billions of dollars into long-dated Treasuries and mortg=
+age bonds at low rates that prevailed during the pandemic,=E2=80=9D sort of=
+ hedging its expectation of making money when rates rose =E2=80=94 which me=
+ant that it didn=E2=80=99t make that much when they did.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ck9f96.5jdw/d2df3261.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_249100_1082823190.1705519731781
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Oh sure whatever: Republican lawmakers in New Hampshire are seeking to make=
+ using ESG criteria in state funds a crime in the latest attack o
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34031994.258404/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMTE3MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMTcmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB019658ad"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34031994.258404/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zNDAzMTk5NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzQyOTAzOTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB5708e2a9" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D34031994&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D34290398&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">ESG crime</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Oh <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/34031994.258404/aHR0cHM6Ly9uZXdzLmJsb29tYmVyZ2xhdy5jb20vZXNnL=
+25ldy1oYW1wc2hpcmUtZ29wLW9mZmljaWFscy1zZWVrLXRvLW1ha2UtdXNpbmctZXNnLWEtY3Jp=
+bWU/607f07ceef4b8524a319a23cBd3065cb5" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  sure whatever</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Republican lawmakers in New Hampshire are seek=
+ing to make using ESG criteria in state funds a crime in the latest attack =
+on the beleaguered investing strategy.</p>
+<p style=3D"margin: 16px 0;">Representatives led by=C2=A0Mike Belcher=C2=A0=
+introduced=C2=A0a bill=C2=A0that would prohibit the state=E2=80=99s treasur=
+y, pension fund and executive branch from using investments that consider e=
+nvironmental, social and governance factors. =E2=80=9CKnowingly=E2=80=9D vi=
+olating the law would be a felony punishable by not less than one year and =
+no more than 20 years imprisonment, according to the proposal.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Pensions &amp; Investments <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/34031994.258404/aHR0cHM6Ly93d3cucGlvb=
+mxpbmUuY29tL2VzZy9uZXctaGFtcHNoaXJlLWJpbGwtd291bGQtbWFrZS1pdC1mZWxvbnkta25v=
+d2luZ2x5LXVzZS1lc2ctY3JpdGVyaWEtaW52ZXN0aW5nLXRheHBheWVyLWRvbGxhcnM/607f07c=
+eef4b8524a319a23cB023cf43e" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">"Executive branch agencies that are permitted =
+to invest funds shall review their investments and pursue any necessary ste=
+ps to ensure that no funds or state-controlled investments are invested wit=
+h firms that invest New Hampshire funds in accounts with any regard whatsoe=
+ver based on environmental, social, and governance criteria," the bill said=
+.</p>
+<p style=3D"margin: 16px 0;">The New Hampshire Retirement System "shall adh=
+ere to their fiduciary obligation and not invest with any firm that will in=
+vest state retirement system funds in investment funds that consider enviro=
+nmental, social, and governance criteria, as the investment goal should be =
+to obtain the highest return on investment for New Hampshire's taxpayers an=
+d retirees," the bill said.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Investors aren=E2=80=99t allowed to=C2=A0<em>c=
+onsider governance</em>! Imagine if this was the law; imagine if it was a f=
+elony for an investment manager to consider governance =E2=80=9Cwith any re=
+gard whatsoever.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/34031994.258404/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjQtMDEtMTYvbW9yZ2FuLXN0YW5sZXktbGVha2VkLXNvbWUtYmxvY2stdHJh=
+ZGVzP2NtcGlkPUJCRDAxMTcyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJ=
+jZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDExNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607=
+f07ceef4b8524a319a23cBae2eb7aa" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">  talked yesterday</a> about Elon M=
+usk=E2=80=99s plans to extort billions of dollars of free stock out of Tesl=
+a Inc. by (1) owning a big chunk of Tesla stock, (2)=C2=A0<em>selling=C2=A0=
+</em>a lot of that stock to raise money to pursue his distracting personal =
+hobbies, and then (3) telling Tesla=E2=80=99s board =E2=80=9Cwell, you know=
+, I don=E2=80=99t own enough Tesla stock to really make it worth my while t=
+o work on Tesla; if you want me to do my job as CEO you=E2=80=99d better do=
+uble my stake to keep me motivated.=E2=80=9D Unless the board gives him a t=
+on more stock, <a href=3D"https://link.mail.bloombergbusiness.com/click/340=
+31994.258404/aHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTc0Njk5OTQ4OD=
+I1MjcwMzA5OA/607f07ceef4b8524a319a23cB0ab8efb1" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">he posted</a>, =E2=
+=80=9CI would prefer to build products outside of Tesla.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">That=E2=80=99s (1) absolutely <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/34031994.258404/aHR0cHM6Ly93d3cud3=
+NqLmNvbS9idXNpbmVzcy9hdXRvcy9hLTYwLXBsdXMtYmlsbGlvbi1wYXktcGFja2FnZS1tdXNrL=
+WdpdmVzLXRlc2xhcy1ib2FyZC1hLW5pZ2h0bWFyZS10YXNrLWJiOTczMmU1P21vZD1ocF9saXN0=
+Yl9wb3My/607f07ceef4b8524a319a23cBa0af551f" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">crazy corporate governa=
+nce</a> and also (2) just a typical Tuesday in wild Tesla corporate governa=
+nce news.=C2=A0Tesla is <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/34031994.258404/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMy8wMi8yMS9idXNpb=
+mVzcy9lbG9uLW11c2stdGVzbGEtcGF5LXN1aXQuaHRtbA/607f07ceef4b8524a319a23cBde0c=
+5868" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> currently being sued</a> over Musk=E2=80=99s=C2=A0<em>previo=
+us </em>enormous pay package, which was supposed to motivate him to pay att=
+ention to Tesla, but which in fact just gave him enough stock to sell to ra=
+ise money to distract himself with Twitter.</p>
+<p style=3D"margin: 16px 0;">If you are a big Tesla shareholder, it might b=
+e reasonable to say something like =E2=80=9Cwell, I like what Musk has done=
+ for the place, but I wish the board would try to rein him in,=E2=80=9D and=
+ try to set up a meeting with the Tesla board to discuss possible ways to s=
+top giving him more stock. Or it might be reasonable to say =E2=80=9Cwell, =
+I like what Musk has done for the place so far, but I=E2=80=99m increasingl=
+y worried that the governance problems here are going to reduce its long-te=
+rm value =E2=80=94=C2=A0what if Musk is <em>telling the truth </em>about bu=
+ilding products outside of Tesla? =E2=80=94=C2=A0so I=E2=80=99m just going =
+to sell the stock.=E2=80=9D Both of these approaches =E2=80=94=C2=A0meeting=
+ with the board to try to improve governance to increase the long-term valu=
+e of the company, or selling stock because you are worried that bad governa=
+nce will lower the long-term value of the company =E2=80=94=C2=A0are totall=
+y normal things for responsible investment managers to do.</p>
+<p style=3D"margin: 16px 0;">Unless they run money for New Hampshire, in wh=
+ich case this might become a felony? Believe me, if it does, Elon Musk will=
+ hear about it.</p>
+<blockquote>
+<p style=3D"margin: 16px 0;"><strong>Investor:</strong> Elon, thanks for me=
+eting with us. I=E2=80=99m worried that you keep demanding tens of billions=
+ of dollars of stock awards, selling the stock to buy distracting toys, and=
+ then extracting more stock by threatening to spend more time with the toys=
+. Could you just try to focus a bit more on doing your job as CEO of Tesla?=
+</p>
+<p style=3D"margin: 16px 0;"><strong>Musk: </strong>I=E2=80=99m calling the=
+ police! You considered governance! You=E2=80=99re going to prison for 20 y=
+ears!</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I=E2=80=99m sorry, this is so stupid. =E2=80=
+=9CESG=E2=80=9D is <em>essentially=C2=A0</em>about considering certain risk=
+s to a company=E2=80=99s financial results: You might want to avoid investi=
+ng in a company if its factories are going to be washed away by rising ocea=
+ns, or if its main product is going to be regulated out of existence, or if=
+ its <a href=3D"https://link.mail.bloombergbusiness.com/click/34031994.2584=
+04/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vYXJ0aWNsZS9idWQtbGlnaHQtYm95Y290dC5odG1s=
+/607f07ceef4b8524a319a23cB1ec38f66" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> position on controversial soci=
+al issues will cost it sales</a>, or if its CEO controls the board and spen=
+ds too much corporate money on wasteful personal projects. Obviously ESG in=
+ practice is also other, more controversial things:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">If you care about the environment, so=
+cial issues, etc., you might want to invest in companies that you think are=
+ environmentally or socially good, whether or not they are good financial i=
+nvestments.</li>=09<li style=3D"margin-bottom: 5px;">You might incorrectly =
+convince yourself that the stuff you think is environmentally or socially g=
+ood is also good for the bottom line: You might have a wishful estimate of =
+how quickly the world will transition away from fossil fuels, to justify yo=
+ur desire not to invest in oil companies. You might tell yourself =E2=80=9C=
+this company=E2=80=99s stance on social issues will cost it lots of custome=
+rs=E2=80=9D when really the customers don=E2=80=99t care, but you do.</li>
+</ol>
+<p style=3D"margin: 16px 0;">But if you <em>make it a crime for investors t=
+o consider certain financial risks=C2=A0</em>then you get too much of those=
+ risks.</p>
+<p style=3D"margin: 16px 0;">In particular, I suspect, you get too much gov=
+ernance risk. If every investor tomorrow said =E2=80=9Cokay we don=E2=80=99=
+t care about the environment,=E2=80=9D most companies probably wouldn=E2=80=
+=99t ramp up their pollution: Their executives probably don=E2=80=99t=C2=A0=
+<em>want=C2=A0</em>to pollute unnecessarily, polluting probably wouldn=E2=
+=80=99t help the bottom line, and many companies just sit at computers deve=
+loping software and couldn=E2=80=99t pollute much if they wanted to. But if=
+ every investor tomorrow said =E2=80=9Cokay we don=E2=80=99t care about gov=
+ernance,=E2=80=9D then, I mean, =E2=80=9Cgovernance=E2=80=9D is just a way =
+of saying =E2=80=9Csomebody makes sure that the CEO is doing a good job and=
+ doesn=E2=80=99t pay herself too much.=E2=80=9D If the investors don=E2=80=
+=99t care about that, then a lot of CEOs will be happy to give themselves r=
+aises and spend more time <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/34031994.258404/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmVzcy90aGUtNjUtbWl=
+sbGlvbi1wZXJrLWZvci1jZW9zLXBlcnNvbmFsLXVzZS1vZi10aGUtY29ycG9yYXRlLWpldC1oYX=
+Mtc29hcmVkLWJjMjBhOTg4/607f07ceef4b8524a319a23cB1b5f5d42" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> on the c=
+orporate jet to their vacation homes</a>.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34031994.258404/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zNDAzMTk5NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzQyOTAzOTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC5a78d23a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D34031994&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D34290398&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34031994.258404/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zNDAzMTk5NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzQyOTAzOTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD5a78d23a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D34031994&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D34290398&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">NDAs</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I=E2=80=99ve <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/34031994.258404/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+vcGluaW9uL2FydGljbGVzLzIwMjMtMTAtMDMvdGhlLXNlYy1oYWQtYS1idXN5LXdlZWs_Y21waW=
+Q9QkJEMDExNzI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZ=
+XR0ZXImdXRtX3Rlcm09MjQwMTE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b852=
+4a319a23cB9a51a47f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  said this before</a>, but one of the great =
+weird business opportunities in the US financial industry is that nondisclo=
+sure agreements are illegal, and you can get paid for reporting=C2=A0them t=
+o the US Securities and Exchange Commission. This is very counterintuitive,=
+ which I suppose makes it lucrative: If you find a nondisclosure agreement =
+and send it to the SEC, maybe you=E2=80=99ll be the first to report it, so =
+you can get paid. This is neither legal nor business advice but it sure is =
+weird.</p>
+<p style=3D"margin: 16px 0;">Here=E2=80=99s how it works. The SEC has a rul=
+e, <a href=3D"https://link.mail.bloombergbusiness.com/click/34031994.258404=
+/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L2Nmci90ZXh0LzE3LzI0MC4yMUYtMTc/607f07=
+ceef4b8524a319a23cB1a6880ad" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> Rule 240.21F-17</a>, which is often c=
+alled a =E2=80=9Cwhistleblower protection=E2=80=9D rule. The idea is that, =
+if you work at a financial services firm and you witness securities fraud, =
+the SEC wants you to come to them and report it. And Rule 240.21F-17 says t=
+hat your employer can=E2=80=99t retaliate against you for reporting fraud t=
+o the SEC. Specifically, it says:</p>
+<blockquote><p style=3D"margin: 16px 0;">No person may take any=C2=A0action=
+=C2=A0to impede an individual from communicating directly with the Commissi=
+on staff about a possible securities law violation, including enforcing, or=
+ threatening to enforce, a confidentiality agreement =E2=80=A6=C2=A0with re=
+spect to such communications.</p></blockquote>
+<p style=3D"margin: 16px 0;">And so if you show up for your first day of wo=
+rk at a financial firm, and they make you sign a nondisclosure agreement sa=
+ying =E2=80=9CI will not disclose the company=E2=80=99s secret information,=
+=E2=80=9D which is pretty standard, and then you discover fraud and report =
+it to the SEC, your company is not allowed to say =E2=80=9Cwell you signed =
+this NDA and you reported our secrets (fraud) to the SEC, so you breached y=
+our contract, so we=E2=80=99re going to sue.=E2=80=9D They=E2=80=99re not a=
+llowed to fire you for it, they=E2=80=99re not allowed to sue to enforce th=
+e NDA, and they=E2=80=99re not even allowed to=C2=A0<em>threaten=C2=A0</em>=
+to sue to enforce the NDA.</p>
+<p style=3D"margin: 16px 0;">But the SEC actually interprets this rule more=
+ broadly: They=E2=80=99re not allowed to even=C2=A0<em>have=C2=A0</em>the N=
+DA. After all, if you sign an NDA saying =E2=80=9CI will not disclose the c=
+ompany=E2=80=99s secret information,=E2=80=9D that might deter you from rep=
+orting fraud to the SEC. You might think=C2=A0<em>to yourself </em>=E2=80=
+=9Cuh oh, I signed an NDA, I can=E2=80=99t tell the SEC about this fraud, i=
+t=E2=80=99s secret, and I=E2=80=99m not allowed to disclose the company=E2=
+=80=99s secrets.=E2=80=9D So you won=E2=80=99t report the fraud. Nobody has=
+=C2=A0<em>explicitly threatened=C2=A0</em>to sue you, but the NDA=C2=A0<em>=
+itself=C2=A0</em>serves as that threat: You signed a legal document promisi=
+ng not to disclose stuff, which might scare you into not disclosing it to t=
+he SEC.</p>
+<p style=3D"margin: 16px 0;">If the NDA explicitly says =E2=80=9CI will not=
+ disclose the company=E2=80=99s secret information, except, to be clear, I =
+am allowed to say anything I want to the SEC or any other regulator,=E2=80=
+=9D then that=E2=80=99s fine. (Not legal advice!) But if the NDA=C2=A0<em>d=
+oesn=E2=80=99t=C2=A0</em>say that =E2=80=94=C2=A0even if it says something =
+pretty close to that=C2=A0=E2=80=94=C2=A0then=C2=A0the SEC might take the v=
+iew that it is an illegal threat to deter whistleblowing.</p>
+<p style=3D"margin: 16px 0;">So yesterday JPMorgan Chase &amp; Co.=E2=80=99=
+s J.P. Morgan Securities division=C2=A0<a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/34031994.258404/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZX=
+NzLXJlbGVhc2UvMjAyNC03/607f07ceef4b8524a319a23cB30da9ebc" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> agreed t=
+o pay $18 million</a> for writing its=C2=A0<em>client=C2=A0</em>NDAs wrong:=
+</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">According to the SEC=E2=80=99s order, from Mar=
+ch 2020 through July 2023, JPMS regularly asked retail clients to sign conf=
+idential release agreements if they had been issued a credit or settlement =
+from the firm of more than $1,000. The agreements required the clients to k=
+eep confidential the settlement, all underlying facts relating to the settl=
+ement, and all information relating to the account at issue. In addition, e=
+ven though the agreements permitted clients to respond to SEC inquiries, th=
+ey did not permit clients to voluntarily contact the SEC.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWhether it=E2=80=99s in your employme=
+nt contracts, settlement agreements or elsewhere, you simply cannot include=
+ provisions that prevent individuals from contacting the SEC with evidence =
+of wrongdoing,=E2=80=9D said Gurbir S. Grewal, Director of the SEC=E2=80=99=
+s Division of Enforcement.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/34031994.258404/aHR0cHM6Ly93d3cuc2VjLmdvdi9maWxlcy9saXRpZ2F0=
+aW9uL2FkbWluLzIwMjQvMzQtOTkzNDQucGRm/607f07ceef4b8524a319a23cBa72bc3ff" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> SEC says</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Release used by JPMS from March 2020 throu=
+gh July 2023 contained language providing a release of liability and a prov=
+ision that stated, =E2=80=9Cthe [JPMS client] promises not to sue or solici=
+t others to institute any action or proceeding against [JPMS] arising out o=
+f events concerning the Account=E2=80=9D and that if the JPMS client breach=
+es that provision, JPMS =E2=80=9Cmay undertake whatever legal action they d=
+eem appropriate to address the breach(s), including, but not limited to, in=
+junctive relief, and monetary damages not to exceed the settlement amount.=
+=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">In a separate paragraph, the Release stated: =
+=E2=80=9C[the JPMS client] shall keep this Agreement confidential and not u=
+se or disclose (including but not limited to, media statements, social medi=
+a, or otherwise) the allegations, facts, contentions, liability, damages, o=
+r other information relating in any way to the Account, including but not l=
+imited to, the existence or terms of this Agreement . . . . Notwithstanding=
+, [JPMS client] and [JPMS client=E2=80=99s] attorneys are neither prohibite=
+d nor restricted from responding to any inquiry about this settlement or it=
+s underlying facts by FINRA, the SEC, or any other government entity or sel=
+f-regulatory organization, or as required by law.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The clients were explicitly allowed to answer=
+=C2=A0<em>questions=C2=A0</em>from the SEC, but not to go to the SEC themse=
+lves. JPMorgan =E2=80=9Cforced certain clients into the untenable position =
+of choosing between receiving settlements or credits from the firm and repo=
+rting potential securities law violations to the SEC,=E2=80=9D says Grewal,=
+ but I am not sure that=E2=80=99s right. If you signed this release then (1=
+) you got the money from JPMorgan, (2) you could=C2=A0<em>definitely=C2=A0<=
+/em>still go to the SEC to report the violation, (3) JPMorgan couldn=E2=80=
+=99t do anything=C2=A0about it (because of Rule=C2=A0240.21F-17), and (4) n=
+ow you could=C2=A0<em>also=C2=A0</em>go to the SEC, tell them =E2=80=9Chey =
+check out this nondisclosure clause,=E2=80=9D and the SEC would sue and you=
+ could collect a whistleblower payment. The release was just an extra windf=
+all for the clients, if they were sharp enough to notice it.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Spirit</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We talked a lot last year about <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/34031994.258404/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDgtMjEvZXZlcnlvbmUtd2FudHM=
+tYS1waWVjZS1vZi1zY3VscHRvcj9jbXBpZD1CQkQwMTE3MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaX=
+VtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMTcmdXRtX2NhbXBha=
+WduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBd54eacc2" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">  the takeove=
+r fight</a> over Sculptor Capital Management Inc. Basically:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Sculptor had a deal to sell itself to=
+ another asset management firm, Rithm Capital Corp., for cash.</li>=09<li s=
+tyle=3D"margin-bottom: 5px;">It then got another, higher cash bid from a co=
+alition of hedge fund managers, led by Boaz Weinstein, who wanted to buy Sc=
+ulptor.</li>=09<li style=3D"margin-bottom: 5px;">Sculptor=E2=80=99s board o=
+f directors said =E2=80=9Clook, we know the Weinstein bid=C2=A0<em>looks=C2=
+=A0</em>higher, but we think that if we sign that deal it won=E2=80=99t act=
+ually close. Clients will flee, which will give Weinstein a way out of the =
+deal, which he=E2=80=99ll take, and we=E2=80=99ll be left with nothing. And=
+ it will be crippling for the firm to sign a deal and lose it. We should st=
+ick with the lower, safer deal that we think will close.=E2=80=9D</li>=09<l=
+i style=3D"margin-bottom: 5px;">Sculptor shareholders largely did not belie=
+ve this, the stock traded above the Rithm deal price, and there was pressur=
+e on the board to take the Weinstein deal.</li>=09<li style=3D"margin-botto=
+m: 5px;">Eventually Sculptor managed to get Rithm=E2=80=99s price up to a l=
+evel that was competitive with Weinstein=E2=80=99s, it=C2=A0<a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/34031994.258404/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMTAtMTgvb2YtY291cnNlLXNjdWxw=
+dG9yLWdvdC1zdWVkP2NtcGlkPUJCRDAxMTcyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDExNyZ1dG1fY2FtcGFpZ249bW9uZX=
+lzdHVmZg/607f07ceef4b8524a319a23cB6aa03ff2" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">did some shenanigans</a=
+> to lock up the vote, and the Rithm deal closed.</li>
+</ol>
+<p style=3D"margin: 16px 0;">The question, ultimately, was: Did Sculptor=E2=
+=80=99s board of directors know better than its shareholders? The sharehold=
+ers, looking at a choice between two prices, wanted the higher price. The b=
+oard, more deeply involved in the negotiations (but also more conflicted), =
+said =E2=80=9Cno, you don=E2=80=99t understand, the higher price is not rea=
+l, you won=E2=80=99t get it, trust us.=E2=80=9D It is the board=E2=80=99s j=
+ob to make decisions on behalf of shareholders, sometimes even decisions th=
+e shareholders don=E2=80=99t like. But the board is limited in its power, a=
+nd sometimes those decisions have to go to a shareholder vote, and you can =
+get an awkward situation where the board is sure that one choice is right, =
+but the shareholders will only approve the other one.</p>
+<p style=3D"margin: 16px 0;">Sculptor=E2=80=99s board worked it out. Spirit=
+ Airlines=E2=80=99 did not, as=C2=A0<a href=3D"https://link.mail.bloombergb=
+usiness.com/click/34031994.258404/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjQtMDEtMTYvamV0Ymx1ZS1zcGlyaXQtZGVhbC1ibG9ja2VkLWJ5LWp1ZGdl=
+LW9uLWFudGl0cnVzdC1ncm91bmRzP2NtcGlkPUJCRDAxMTcyNF9NT05FWVNUVUZGJnV0bV9tZWR=
+pdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDExNyZ1dG1fY2FtcG=
+FpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB1122d6b1" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">Bloomberg N=
+ews reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A federal judge blocked JetBlue Airways Corp.=
+=E2=80=99s $3.8 billion acquisition of Spirit Airlines Inc., saying the com=
+bination would stifle competition and raise fares for consumers.</p>
+<p style=3D"margin: 16px 0;">US District Judge William G. Young sided with =
+the federal government and said the merger would harm cost-conscious travel=
+ers by eliminating the nation=E2=80=99s dominant deep-fare discount airline=
+ and drive up prices across the industry.=C2=A0=E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Spirit=E2=80=99s shares plunged 47% Tuesday in=
+ New York, the biggest decline since the stock began trading more than a de=
+cade ago. JetBlue climbed 4.9%.</p>
+<p style=3D"margin: 16px 0;">JetBlue and Spirit contended that consolidatio=
+n is the only way smaller airlines can effectively compete with the dominan=
+t carriers. In a joint statement, the companies said they =E2=80=9Care eval=
+uating our next steps as part of the legal process.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/34031994.258404/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVu=
+dHMvdXNlcnMvaXFqV0hCRmRmeElVL3JPbDd4NFliU0pqMC92MA/607f07ceef4b8524a319a23c=
+B6064ca38" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> the judge=E2=80=99s opinion</a>. And here is <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/34031994.258404/aHR0cHM6Ly93=
+d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0OTg3MTAvMDAwMTQ5ODcxMDIyMDAwMjc=
+yL3NwaXJpdGNvbW1lbnRzb25qZXRibHVlci5odG0/607f07ceef4b8524a319a23cBc2148db8"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> the press release</a> that Spirit put out in June 2022, saying =
+=E2=80=9CSpirit Airlines Reaffirms Commitment to Merger with Frontier=E2=80=
+=9D and arguing that =E2=80=9Cthe latest offer from JetBlue does nothing to=
+ address our Board=E2=80=99s serious concerns that a combination with them =
+would not receive regulatory approval.=E2=80=9D Spirit had a deal with Fron=
+tier Group Holdings Inc., another ultra-low-cost carrier, but then it got a=
+ cash bid from JetBlue that shareholders preferred.</p>
+<p style=3D"margin: 16px 0;">The board thought this was a mistake, because =
+the JetBlue deal would not go through. It argued this vehemently, but it lo=
+st the argument: The Frontier deal required shareholder approval, and it=C2=
+=A0was clear that shareholders would not approve it because they wanted Jet=
+Blue=E2=80=99s cash. So in July 2022, Spirit=E2=80=99s board caved and <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/34031994.258404/aHR0cH=
+M6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0OTg3MTAvMDAwMTE5MzEyNTIyM=
+jQyOTc0L2QzNzg2MDdkZGVmbTE0YS5odG0/607f07ceef4b8524a319a23cB1bd6dd79" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> signed with JetBlue</a>. (=E2=80=9CSpirit Had No Choice But Heed Invest=
+ors and Jilt Frontier,=E2=80=9D wrote my Bloomberg Opinion colleague <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/34031994.258404/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDctMjcvc3Bpcml0LWZ=
+vcmNlZC10by1saXN0ZW4tdG8taW52ZXN0b3JzLWFuZC1kdW1wLWZyb250aWVyP2NtcGlkPUJCRD=
+AxMTcyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJ=
+nV0bV90ZXJtPTI0MDExNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a=
+23cBdad83e74" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">  Brooke Sutherland</a>.)</p>
+<p style=3D"margin: 16px 0;">And then, as Spirit=E2=80=99s board predicted,=
+ the Justice Department sued, and it won, and now, a year and a half later,=
+ Spirit has no deal at all. <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/34031994.258404/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljb=
+GVzLzIwMjQtMDEtMTYvamV0Ymx1ZS1zLTMtOC1iaWxsaW9uLXNwaXJpdC1kZWFsLWlzLXR1cm5p=
+bmctaW50by1hLW5pZ2h0bWFyZT9jbXBpZD1CQkQwMTE3MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXV=
+tPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMTcmdXRtX2NhbXBhaW=
+duPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB045a5efc" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">  Bloomberg Ne=
+ws reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">For Spirit, the consequences appear dire. Its =
+shares were cut in half Tuesday in their worst loss ever, and they were dow=
+n another 20% after the markets opened Wednesday. A buyout had represented =
+a lifeline for the beleaguered carrier, which analysts from Melius Research=
+ and TD Cowen said may now face the prospect of a bankruptcy filing.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe path forward for Spirit turns to =
+survivability,=E2=80=9D Conor Cunningham, a Melius Research analyst, said i=
+n a note. =E2=80=9CSpirit=E2=80=99s financial results have been outright ba=
+d and are not expected to materially improve in the near term.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Sometimes the board of directors really does k=
+now better.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Fed losses</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">A simple story that you could tell is that the=
+ banking system is in the business of borrowing short to lend long. There i=
+s a lot of natural demand for long-term loans (government deficits need fin=
+ancing, people need mortgages) and a lot of natural demand for places to pa=
+rk money that can be withdrawn at any time (people need checking accounts),=
+ but a mismatch between them. More people want to borrow long than lend lon=
+g; more people want to lend short than borrow short.</p>
+<p style=3D"margin: 16px 0;">And so traditionally banks intermediate that; =
+they borrow short to lend long. And that is a well-known risky business mod=
+el, and there are various ways to mitigate that risk, and the most importan=
+t is the lender of last resort: If banks have lots of long-term good loans =
+funded with short-term deposits, and all the depositors ask for their money=
+ back, the central bank will lend cash to the banks to pay back their depos=
+itors.</p>
+<p style=3D"margin: 16px 0;">But this risk is particularly acute when inter=
+est rates have been very low for a long time, and then rapidly rise to a mu=
+ch higher level. All the banks have long-term loans that they made at the l=
+ow interest rates,<a class=3D"footnote-index" href=3D"#footnote-1" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: none !important; backg=
+round-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0but now they have to pay high interest rates on deposits. One thi=
+ng that this means is that their operating profits are lower or negative: I=
+f your assets are a bunch of mortgages paying 3%, and your liabilities are =
+a bunch of savings deposits paying 2%, you=E2=80=99re losing 1% every year.=
+ The other thing that this means is that they are=C2=A0<em>mark-to-market i=
+nsolvent:=C2=A0</em>If your assets are a bunch of mortgages paying 3%, and =
+now mortgage rates are 6%, your mortgages are worth like 80 cents on the do=
+llar, and if you=E2=80=99re a bank with 10% equity and your assets have los=
+t 20% of their value, you are insolvent.</p>
+<p style=3D"margin: 16px 0;">And so when the Fed raises rates a lot very qu=
+ickly, that has the possible effect of =E2=80=A6=C2=A0bankrupting all the b=
+anks? Or getting them kind of close to insolvency, anyway? And in fact last=
+ year there was a <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+34031994.258404/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzI=
+wMjMtMDMtMTAvc3RhcnR1cC1iYW5rLWhhZC1hLXN0YXJ0dXAtYmFuay1ydW4_Y21waWQ9QkJEMD=
+ExNzI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImd=
+XRtX3Rlcm09MjQwMTE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23=
+cBa541e1ad" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> bit of a crisis</a> among <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/34031994.258404/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDYtMTQvcmVnaW9uYWwtYmFua3MtZG9uLXQtZmVlb=
+C1sb3ZlZD9jbXBpZD1CQkQwMTE3MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9z=
+b3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMTcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY=
+/607f07ceef4b8524a319a23cB701c0f47" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> US regional banks</a>, which r=
+eally were in this business of borrowing short to lend long and turned out =
+to be, in some cases, insolvent when the Fed raised rates rapidly.</p>
+<p style=3D"margin: 16px 0;">There are ways to mitigate this risk, too. One=
+ is: You have regulation to make the banks more robust to this. You have ca=
+pital regulation (they can=E2=80=99t have too little capital), and also liq=
+uidity regulations that have=C2=A0the effect of lowering the duration of th=
+eir assets and increasing the duration of their liabilities, and prudential=
+ oversight where the bank regulators call up the banks and say =E2=80=9Crea=
+lly? You=E2=80=99re funding all these 30-year=C2=A0mortgages with overnight=
+ deposits?=E2=80=9D<a class=3D"footnote-index" href=3D"#footnote-2" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: none !important; ba=
+ckground-color: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">A more important way is accounting: Banks=C2=
+=A0<em>do not have to recognize interest-rate losses=C2=A0</em>on huge swat=
+hes of their assets, loans and bonds that they classify as =E2=80=9Cheld to=
+ maturity.=E2=80=9D This is the essential trick that makes all of banking w=
+ork: When interest rates go up, the market value of banks=E2=80=99 long-ter=
+m loans goes down, but the banks=C2=A0<em>don=E2=80=99t have to realize tho=
+se losses</em>; they just hold the loans until maturity and get paid back 1=
+00 cents on the dollar.</p>
+<p style=3D"margin: 16px 0;">The US regional banking crisis last year turne=
+d on the fact that <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/34031994.258404/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLz=
+IwMjMtMDUtMDQvbm9ib2R5LXRydXN0cy10aGUtYmFua3Mtbm93P2NtcGlkPUJCRDAxMTcyNF9NT=
+05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJt=
+PTI0MDExNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB0e55cce=
+8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> this doesn=E2=80=99t work as well as it used to</a>: The bank=
+s do not recognize the losses in their main accounting statements, but they=
+ do=C2=A0<em>disclose=C2=A0</em>the losses, and people=C2=A0can read that d=
+isclosure and panic. And when they panic, they take out their deposits. And=
+ then the banks need to raise money. They can=E2=80=99t do this by selling =
+their loans, because then they=E2=80=99d recognize their losses and become =
+insolvent. And they can=E2=80=99t do it by borrowing from the Fed, because=
+=C2=A0<em>the Fed lends against the market value of the loans</em>.</p>
+<p style=3D"margin: 16px 0;">One solution is for the Fed to instead lend ba=
+nks money against the=C2=A0<em>par=C2=A0</em>value of their loans, their ho=
+ld-to-maturity value. And <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/34031994.258404/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjMtMDMtMTMvc3ZiLWNvdWxkbi10LWlnbm9yZS1pdHMtbG9zc2VzLWJ1dC10aGUtZm=
+VkLWNhbj9jbXBpZD1CQkQwMTE3MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb=
+3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMTcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/=
+607f07ceef4b8524a319a23cB4d302d28" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> that=E2=80=99s what it did</a>:=
+ It created the Bank Term Funding Program, which allows banks to post colla=
+teral (Treasury bonds, agency mortgage-backed securities) with the Fed and =
+borrow=C2=A0<em>the par value=C2=A0</em>of those assets. If a bank has $100=
+ of mortgage bonds that are worth $80 because rates went up, it can borrow =
+$100, solving the liquidity problem.</p>
+<p style=3D"margin: 16px 0;">But there is another way to look at this. Forg=
+et individual banks and think of the banking system as a whole. The system =
+holds long-term assets (loans, mortgages, Treasury bonds) and has short-ter=
+m liabilities (deposits). It therefore has a lot of interest-rate risk, bot=
+h to its income and to its balance sheet:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">If rates go up, the banking system ha=
+s to pay more interest on its deposits, but doesn=E2=80=99t get any more in=
+terest on its loans (mortgages, Treasuries, etc.), so it makes less profit.=
+</li>=09<li style=3D"margin-bottom: 5px;">If rates go up, the banking syste=
+m=E2=80=99s long-term assets lose value, so it has big mark-to-market losse=
+s.</li>
+</ol>
+<p style=3D"margin: 16px 0;">This is sort of loosely true as an abstract ma=
+tter. It is quite true of a lot of banks, particularly a lot of US regional=
+ banks. It is not particularly true of a lot of the big US banks, and in fa=
+ct rising rates have generally been=C2=A0<em>good=C2=A0</em>for them,=C2=A0=
+for a combination of real and accounting reasons.<a class=3D"footnote-index=
+" href=3D"#footnote-3" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: none !important; background-color: transparent !important; display=
+: inline-block;">
+<span>[3]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">You know whom it is weirdly true of? The Feder=
+al Reserve. The Wall Street Journal <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/34031994.258404/aHR0cHM6Ly93d3cud3NqLmNvbS9lY29ub215L2Nlb=
+nRyYWwtYmFua2luZy9mZWQtcG9zdHMtbGFyZ2VzdC1ldmVyLWFubnVhbC1vcGVyYXRpbmctbG9z=
+cy02ZTI0OWEzOT9tb2Q9aHBfbWFqb3JfcG9zMSNjeHJlY3Nfcw/607f07ceef4b8524a319a23c=
+B8c756207" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> reported on Friday</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Federal Reserve ran an operating loss of $=
+114.3 billion last year, its largest ever, a consequence of its campaign to=
+ aggressively support the economy in 2020 and 2021, then jacking up interes=
+t rates to combat high inflation. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The central bank paid more to financial instit=
+utions on interest-bearing deposits and securities than it earned from secu=
+rities that it bought when interest rates were lower. That=E2=80=99s a resu=
+lt of it raising its benchmark short-term interest rate to a two-decade hig=
+h, above 5%, last year=E2=80=A6.</p>
+<p style=3D"margin: 16px 0;">Fed losses are a side effect of its efforts to=
+ support the economy during the Covid-19 pandemic by purchasing large amoun=
+ts of Treasury and mortgage-backed securities. The market value of those se=
+curities dropped after the central bank began raising rates aggressively in=
+ 2022 to combat inflation, but the Fed doesn=E2=80=99t book losses on them =
+because they are held to maturity.</p>
+<p style=3D"margin: 16px 0;">Instead, the Fed is running losses because it =
+is paying more in interest than it earns on those securities. Beginning in =
+September 2022, the overnight rates the Fed pays to banks on their deposits=
+ held at the Fed, called reserves, and on other securities transactions it =
+conducts to manage interest rates, exceeded the income it collects on its $=
+7.1 trillion in security holdings.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The Fed, in recent years, borrows short to len=
+d long, in enormous size, without the sort of caution that regular banks us=
+e.=C2=A0<em>Abstractly</em>, banks borrow with overnight deposits and inves=
+t in long-term mortgages, but=C2=A0<em>really=C2=A0</em>they do a lot of lo=
+ng-term borrowing and own a lot of short-term assets to hedge their liquidi=
+ty and interest-rate risk. The Fed has a much, much better way to hedge liq=
+uidity risk =E2=80=94=C2=A0it can just print dollars =E2=80=94=C2=A0so does=
+n=E2=80=99t worry about that. It just does, literally and in large size, th=
+e thing that banks sometimes sort of abstractly do. And it doesn=E2=80=99t =
+worry about the interest-rate risk because:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">It accounts for its assets on a held-=
+to-maturity basis, so it doesn=E2=80=99t book losses when rates go up.</li>=
+=09<li style=3D"margin-bottom: 5px;">It really can hold those assets to mat=
+urity, because if anyone wants dollars it can just print dollars, so it tru=
+ly never needs to sell assets.</li>
+</ol>
+<p style=3D"margin: 16px 0;">And even the operating loss doesn=E2=80=99t re=
+ally matter. The Journal goes on:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The losses don=E2=80=99t affect the Fed=E2=80=
+=99s day-to-day operations and won=E2=80=99t require the central bank to as=
+k for an infusion from the Treasury Department. Unlike federal agencies, th=
+e Fed doesn=E2=80=99t have to go to Congress hat in hand to cover operating=
+ losses. Instead, the Fed created an IOU in 2022 that it calls a =E2=80=9Cd=
+eferred asset.=E2=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The Fed=E2=80=99s deferred asset grew by $116.=
+4 billion last year, bringing its cumulative total to $133 billion. When th=
+e Fed is no longer running losses, it will pay itself back first and exting=
+uish the deferred asset before resuming remittances to the Treasury.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CDeferred asset=E2=80=9D is a great te=
+rm. The Fed is not a regular bank. If it has losses, that just means that i=
+t owes itself money, and it will eventually pay itself back. And it can hol=
+d that debt to maturity.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">=E2=80=9CStructured equity=E2=80=9D</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">There are, these days, a lot of startups that =
+used to be worth $1 billion and are now worth $500 million. Some of them ra=
+ised money at $1 billion valuations, back in the good times,=C2=A0and now t=
+hey need to raise money again. It is, for some combination of good and bad =
+reasons, extremely undesirable for a startup that raised money at $1 billio=
+n to raise money again at $500 million. Therefore there is a business oppor=
+tunity for a fund that will:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Give startups money at a $500 million=
+ valuation, but</li>=09<li style=3D"margin-bottom: 5px;">
+<em>Say=C2=A0</em>that it=E2=80=99s at a $1 billion valuation.</li>
+</ol>
+<p style=3D"margin: 16px 0;">This is called =E2=80=9C<a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/34031994.258404/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDEtMDQvcHJpdmF0ZS1tYXJrZXRzLWRvbi1=
+0LWxpa2UtdG8tZ28tZG93bj9jbXBpZD1CQkQwMTE3MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPW=
+VtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMTcmdXRtX2NhbXBhaWduP=
+W1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBa47e53be" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">structure</a>,=E2=
+=80=9D or =E2=80=9Cstructured equity.=E2=80=9D=C2=A0Bloomberg=E2=80=99s Gil=
+lian Tan <a href=3D"https://link.mail.bloombergbusiness.com/click/34031994.=
+258404/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMTIv=
+Y29hdHVlLW1hbmFnZW1lbnQtcmFpc2VzLTMtYmlsbGlvbi1mb3Itc3RydWN0dXJlZC1lcXVpdHk=
+tYmV0cz9jbXBpZD1CQkQwMTE3MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3=
+VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMTcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/6=
+07f07ceef4b8524a319a23cBd595b6e9" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> reported Friday</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Philippe Laffont=E2=80=99s Coatue Management r=
+aised about $3 billion for a structured equity fund that allows closely hel=
+d companies to avoid raising money at lower valuations, a person with knowl=
+edge of the matter said.</p>
+<p style=3D"margin: 16px 0;">With the market for initial public offerings i=
+n a funk and lower risk appetite from large venture capital investors, some=
+ startups have sought to raise convertible notes and pursue structured fina=
+ncings instead of accepting a lower valuation through a traditional equity =
+funding round.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It is always satisfying when a fund has a cris=
+p and simple explanation for how it plans to obtain alpha. =E2=80=9CIn 2024=
+, startups are desperate to be told that they=E2=80=99re still worth as muc=
+h as they were in 2021, and we can just tell them that, and they=E2=80=99ll=
+ pay us for it.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/34031994.258404/aHR0cHM6Ly9sYXdwcm9mZXNzb3JzLnR5cGVwYWQuY29tL2J1=
+c2luZXNzX2xhdy8yMDI0LzAxL3ZvdGUtYnV5aW5nLmh0bWw/607f07ceef4b8524a319a23cB79=
+1e7110" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">Elsewhere</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Investment firms are raising billions of dolla=
+rs to buy stakes in venture capital-backed technology start-ups, as a long =
+drought in acquisitions and initial public offerings forces early investors=
+ to offload their stock at discounts.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The start-up secondary market, where investors=
+ and employees buy and sell tens of billions of dollars=E2=80=99 worth of s=
+hares in privately held companies, is becoming an increasingly important tr=
+ading venue, in the absence of traditional ways of cashing out and given a =
+slowdown in start-up funding.</p>
+</blockquote>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/34031994.258404/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1=
+cmVzLzIwMjQtMDEtMTcvYXMtYm9qLWNvbnNpZGVycy1oaWdoZXItaW50ZXJlc3QtcmF0ZXMtamF=
+wYW5lc2UtdHJhZGluZy1mbG9vcnMtYXJlLWJ1enppbmc_Y21waWQ9QkJEMDExNzI0X01PTkVZU1=
+RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwM=
+TE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB5b9207de" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> Japan=E2=80=99s Market</a> Roars Back to Life=E2=80=94With Old-Timers =
+Leading the Way.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/34031994.258404/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyNC8wMS8xNy91cy9zdXB=
+yZW1lLWNvdXJ0LWNoZXZyb24tY2FzZS5odG1s/607f07ceef4b8524a319a23cB0a4560b6" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">Agencies=E2=80=99 Power</a> Under Scrutiny in Supreme Court Arguments=
+. Trading firm tries to halt $60mn shipment of <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/34031994.258404/aHR0cHM6Ly93d3cuZnQuY29tL2Nvbn=
+RlbnQvYjUyZTYwMjEtZTAzYy00YTQxLWE3NjktYjI2YmFmMDFjZGQx/607f07ceef4b8524a319=
+a23cBc0e33779" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> seized pigeon peas</a>. Disney <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/34031994.258404/aHR0cHM6Ly93d3cuZnQuY2=
+9tL2NvbnRlbnQvYjcwYjRhZTUtYjIyZS00OTYyLWFlZjUtNDA0YTAwNGI0YmI4/607f07ceef4b=
+8524a319a23cB1447492a" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> criticises Nelson Peltz</a> as it rejects a=
+ctivist board nominees. JPMorgan Sees Hacking Attempts on Systems Double to=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/34031994.258404/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMTcvanBtb3Jn=
+YW4tc2Vlcy1oYWNraW5nLWF0dGVtcHRzLW9uLXN5c3RlbXMtZG91YmxlLXRvLTQ1LWJpbGxpb24=
+tcGVyLWRheT9jbXBpZD1CQkQwMTE3MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV=
+9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMTcmdXRtX2NhbXBhaWduPW1vbmV5c3R1Z=
+mY/607f07ceef4b8524a319a23cBc1b67508" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">  45 Billion Per Day</a>.=C2=
+=A0Quantum Computing to Spark =E2=80=98<a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/34031994.258404/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZX=
+dzL2FydGljbGVzLzIwMjQtMDEtMTcvcXVhbnR1bS1jb21wdXRpbmctdG8tc3BhcmstY3liZXJzZ=
+WN1cml0eS1hcm1hZ2VkZG9uLWlibS1zYXlzP2NtcGlkPUJCRDAxMTcyNF9NT05FWVNUVUZGJnV0=
+bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDExNyZ1dG1=
+fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBedb0cd3a" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">Cybe=
+rsecurity Armageddon</a>,=E2=80=99 IBM Says. Fashion Giant Faces New IPO Hi=
+tch: <a href=3D"https://link.mail.bloombergbusiness.com/click/34031994.2584=
+04/aHR0cHM6Ly93d3cud3NqLmNvbS93b3JsZC9jaGluYS9mYXNoaW9uLWdpYW50LWZhY2VzLW5l=
+dy1pcG8taGl0Y2gtY2hpbmFzLWN5YmVyc2VjdXJpdHktcG9saWNlLTcwYzU3NTYxP21vZD1pdHB=
+fd3Nq/607f07ceef4b8524a319a23cBe61e0c12" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> China=E2=80=99s Cyberse=
+curity Police</a>. Blackstone=E2=80=99s <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/34031994.258404/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZ=
+XdzL2FydGljbGVzLzIwMjQtMDEtMTYvYmxhY2tzdG9uZS1zLWRlZmF1bHRlZC1ueWMtb2ZmaWNl=
+LWxvYW4tZm9yLXNhbGUtYXQtNTAtZGlzY291bnQ_Y21waWQ9QkJEMDExNzI0X01PTkVZU1RVRkY=
+mdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMTE3Jn=
+V0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBf9a27035" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  Defaulted NYC Office Loan</a> for Sale at 50% Discount. A Pandemic-Era <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/34031994.258404/aHR0=
+cHM6Ly93d3cud3NqLmNvbS9idXNpbmVzcy9hLXBhbmRlbWljLWVyYS10YXgtYnJlYWstaXMtdW5=
+yYXZlbGluZy1hbmQtdGhlLWxhd3N1aXRzLWFyZS1mbHlpbmctZGZhYjJkODk_bW9kPWhwX2xlYW=
+RfcG9zMTA/607f07ceef4b8524a319a23cB502252a5" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> Tax Break Is Unraveli=
+ng</a>, and the Lawsuits Are Flying. Dimon Says <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/34031994.258404/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMTcvZGltb24tc2F5cy1jaGluYS1yaXNrLXJld2Fy=
+ZC1lcXVhdGlvbi1oYXMtY2hhbmdlZC1kcmFtYXRpY2FsbHk_Y21waWQ9QkJEMDExNzI0X01PTkV=
+ZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09Mj=
+QwMTE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB2e17ad3c" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">  China Risk-Reward</a> Equation Has =E2=80=98Changed Dramatically.=
+=E2=80=99=C2=A0PwC drops some <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/34031994.258404/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMjBkMTY0NmQ=
+tMjAzOS00MGRlLWFiZTEtZjIyNzA4MzBiMDFm/607f07ceef4b8524a319a23cBa2ee31ef" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">US diversity goals</a> to meet changed legal landscape. Verizon <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/34031994.258404/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMTcvdmVyaXpvbi13cm=
+l0ZXMtb2ZmLTUtOC1iaWxsaW9uLWZyb20tZW50ZXJwcmlzZS1hcy1zYWxlcy1kZWNsaW5lP2Ntc=
+GlkPUJCRDAxMTcyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdz=
+bGV0dGVyJnV0bV90ZXJtPTI0MDExNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b=
+8524a319a23cB1ef647aa" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">  Writes Off $5.8 Billion</a> From Enterpris=
+e as Sales Decline.=C2=A0Electric Boat Startup <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/34031994.258404/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMTcvZWxlY3RyaWMtYm9hdC1zdGFydHVwLW5hdmllc=
+i1zZXQtdG8tZmVycnktc3RyaXBlLXN0YWZmLXRvLXdvcms_Y21waWQ9QkJEMDExNzI0X01PTkVZ=
+U1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQ=
+wMTE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB9bcb0a4d" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">  Navier</a> Set to Ferry Stripe Staff to Work.=C2=A0Electric Car Own=
+ers Confront a Harsh Foe: <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/34031994.258404/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyNC8wMS8xNy9idXN=
+pbmVzcy90ZXNsYS1jaGFyZ2luZy1jaGljYWdvLWNvbGQtd2VhdGhlci5odG1s/607f07ceef4b8=
+524a319a23cB685e152c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Cold Weather</a>.=C2=A0<a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/34031994.258404/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMTcvY2ZhLWxldmVsLWlpLXBhc3MtcmF0ZS=
+1zdGF5cy1hdC00NC1qdXN0LWJlbG93LWhpc3RvcmljLWF2ZXJhZ2U_Y21waWQ9QkJEMDExNzI0X=
+01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rl=
+cm09MjQwMTE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB65b9f=
+637" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  CFA Level II</a> Pass Rate Stays at 44%, Just Below Historic=
+ Average.=C2=A0Your <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/34031994.258404/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwM=
+jQtMDEtMTcvdGlnaHQtdXMtam9iLW1hcmtldC1tZWFucy1zbWFsbGVyLWJvbnVzZXMtZm9yLXdv=
+cmtlcnM_Y21waWQ9QkJEMDExNzI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc29=
+1cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMTE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cB24a9f3e4" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  Bonus Might Be Smaller</a> This=
+ Year in Tighter Job Market.=C2=A0Remote Work <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/34031994.258404/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjQtMDEtMTYvcmVtb3RlLXdvcmstZG9lc24tdC1zZWVtLXRvLW=
+FmZmVjdC1wcm9kdWN0aXZpdHktZmVkLXN0dWR5LWZpbmRzP2NtcGlkPUJCRDAxMTcyNF9NT05FW=
+VNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0=
+MDExNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB919f19f0" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">  Doesn=E2=80=99t Seem to Affect Productivity</a>, Fed Study Finds. =
+Tycoons Make UK Appeal to <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/34031994.258404/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGV=
+zLzIwMjQtMDEtMTcvdHljb29ucy1tYWtlLXVrLWFwcGVhbC10by11bmZyZWV6ZS1wcml2YXRlLW=
+pldHMtYW5kLWEtc3VwZXJ5YWNodD9jbXBpZD1CQkQwMTE3MjRfTU9ORVlTVFVGRiZ1dG1fbWVka=
+XVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDAxMTcmdXRtX2NhbXBh=
+aWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB5093c152" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">  Unfreeze P=
+rivate Jets</a> and a Superyacht.=C2=A0Ex-Twitter Employees Turn Musk=E2=80=
+=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/34031994.2584=
+04/aHR0cHM6Ly93d3cud3NqLmNvbS90ZWNoL3R3aXR0ZXItb2ZmaWNlLWF1Y3Rpb24taG9tZS1k=
+ZWNvci0wNmIxODk1ZT9tb2Q9aHBfbGlzdGNfcG9zMw/607f07ceef4b8524a319a23cB4e8e79e=
+0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Auctioned Relics</a> Into Home Decor.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/34031994.258404/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBa83fb06d" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/34031994.258404/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB2802eba0" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] In the real world banks will often have lo=
+ng-term loans with floating interest rates, so this sentence is not quite r=
+ight, but I am abstracting away and also mostly thinking about (1) mortgage=
+s (mostly fixed-rate in the US) and (2) Treasury bonds (also mostly fixed-r=
+ate), which are not usually called =E2=80=9Cloans=E2=80=9D but you know wha=
+t I mean. But throughout the text read =E2=80=9Cloans=E2=80=9D to mean =E2=
+=80=9Clong-term fixed-rate fixed-income assets, mainly Treasuries and mortg=
+ages.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] I <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/34031994.258404/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW=
+9uL2FydGljbGVzLzIwMjMtMDUtMDQvbm9ib2R5LXRydXN0cy10aGUtYmFua3Mtbm93P2NtcGlkP=
+UJCRDAxMTcyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0=
+dGVyJnV0bV90ZXJtPTI0MDExNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524=
+a319a23cC0e55cce8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> argued last year</a>, though, that bank supervi=
+sors systematically asked this question less often than they should have wi=
+th perfect hindsight, because traditional views of banking sort of underest=
+imate this risk.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] We <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/34031994.258404/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjMtMTAtMTEvc2N1bHB0b3Itc29mdGVucy1hLWJpdC1vbi13ZWluc3Rl=
+aW4_Y21waWQ9QkJEMDExNzI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmN=
+lPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwMTE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f0=
+7ceef4b8524a319a23cBd3bd05cf" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> talked in October</a> about how glob=
+al banks generally have had higher profits in the rising rate environment: =
+Basically their deposit franchise is valuable, they *don=E2=80=99t* have to=
+ pay higher rates on lots of deposits, and they do in fact earn higher rate=
+s on many of their assets (floating-rate loans, new loans, trading, etc.) T=
+hough we also discussed the fact that Bank of America Corp. did worse than =
+competitors =E2=80=9Cbecause BofA piled hundreds of billions of dollars int=
+o long-dated Treasuries and mortgage bonds at low rates that prevailed duri=
+ng the pandemic,=E2=80=9D sort of hedging its expectation of making money w=
+hen rates rose =E2=80=94 which meant that it didn=E2=80=99t make that much =
+when they did.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34031994.258404/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBbcd8434b" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34031994.258404/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB5eecbc84" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34031994.258404/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBed6c2d4b" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34031994.258404/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBfe71c0d9" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/34031994.258404/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB1fbd31c7" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/34031994.2584=
+04/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB9afeef18" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/34031994.258404/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC03e7d21d" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/34031994.258404/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBed228f36" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/34031994.258404/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB7f5afb27" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34031994.258404/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB8=
+a1e9905" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/34031994.258404/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB0=
+59ea95d" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ck9f96.5jdw/d2df3261.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_249100_1082823190.1705519731781--
+

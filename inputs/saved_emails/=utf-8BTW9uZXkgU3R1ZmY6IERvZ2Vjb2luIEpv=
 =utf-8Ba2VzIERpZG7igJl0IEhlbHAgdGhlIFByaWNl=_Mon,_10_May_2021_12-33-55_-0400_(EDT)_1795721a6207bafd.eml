@@ -1,0 +1,1633 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:3ec8:0:b029:f4:4708:ac4 with SMTP id s8csp3249588lkd;
+        Mon, 10 May 2021 09:34:54 -0700 (PDT)
+X-Received: by 2002:a17:906:c57:: with SMTP id t23mr21540791ejf.355.1620664493815;
+        Mon, 10 May 2021 09:34:53 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1620664493; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=OpM4IPRhYwnaRyCW6z24WNJqhcNPuHW1FYBW+vDWAp82WWN4UGkwrNvbzrf5tqqS+a
+         i0eeeSn09Th6vBWDomZobagNHoc/E+CJg4JVc6BaY6HCXvjgFe5MVuvNZVptf2144fmB
+         Xs3l293EG/gqL1G9CKcHpxGteTVgTSzn2GDrMOaLbIVKLRzruS7CA5H6fM6vVVr91ZTL
+         2FnQhwQkPVrOOwSh+zyoYrpOOCZ+u3LwEr+IG9f5iPF8La1LnAAjzfKZnZvn5wWAdg0t
+         bPsjMLSjXIr0p1M2IexALFG4nRRggCY/JEkChVrP2HeYaBqB7V2kPJOiTXSl8d53JtOe
+         Hg9g==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=9ab8Aq50/rXmHhn0TRlYftWgTUTWMsP1Jze8/Mz242s=;
+        b=K2WAVxm1HAFdpC2p5wSvH2O3Bo3JC0OlBr2aNDsoTxfwhv4d8C27BePvG7YeKz+BNO
+         5gX7rHoESHoV0b+gbJG4QR0etPoqOrklApQvbebSlEZ28o7eGWT6GCiHC+soV9jT/yS2
+         oXftliKJdX1Tx+byba0g+rTlrTWK0+1/RjPBS975PX7p5+XGaUUMuZ+DWECMRYxnWoJz
+         xZwO6Y6xbyblVyxHMfiKwXLU3eYZyruzPiGHM7+o4daVHKZOzHXhTHXr7VeiFComnmnv
+         3E+mUlkp/tDndkU5CzGABNAUvtYQLjYZ3lc8Jr0TB/uuzo+5iRdr5D1yJ0UFT8aTN4Dw
+         mB0Q==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=vM2F21Ht;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id k25sor7999944ejc.89.2021.05.10.09.34.53
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 10 May 2021 09:34:53 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=vM2F21Ht;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=9ab8Aq50/rXmHhn0TRlYftWgTUTWMsP1Jze8/Mz242s=;
+        b=c+jjLXeORk4jslThlESeJm5j/0jQVFik4nAAwMx/+oCFezFyLz+XFk8PSwVRGqcWvd
+         cI7SwGgCjwXQbyF/BO8Qh2k+1xQWiSjIbBZddVzSvG24YjpRExUKyBJo8L25ApqwhF42
+         +lZQlN2DqfzF27Kez66Y5+3dXyPHqMMmPOxE4hM3tYlLDjR5DKPWY4ElUdoZOV2mUSap
+         McScokuTJnlVVOTtULY7+WWvzGzflrjukmejU6SLnoKE1kR/M/XT7kT2lSXE9jCbFBMA
+         m+5ITlN4eNYbwYHQnuT3B7NnvlIDiyseUwSjH+/SnRPBNg4N6jZmxLUCbLeWVjpNyynw
+         QkwQ==
+X-Gm-Message-State: AOAM53277aBmJHceRcWYvpj4jw9U3zd8gMRzwY7Pp4WlIa4cbLfPoTws
+	KMH5ih7ZdVQXnSEGNLWw4+474NJnJr8M/ArSrscl/sJZGuN+2wYauw==
+X-Received: by 2002:a17:906:3a94:: with SMTP id y20mr26172762ejd.35.1620664493495;
+        Mon, 10 May 2021 09:34:53 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:3b92:0:0:0:0:0 with SMTP id h18csp3403244ecn;
+        Mon, 10 May 2021 09:34:50 -0700 (PDT)
+X-Received: by 2002:a17:902:e5cb:b029:ed:7f74:f3a1 with SMTP id u11-20020a170902e5cbb02900ed7f74f3a1mr25139228plf.45.1620664490317;
+        Mon, 10 May 2021 09:34:50 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1620664490; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Z8EiTMXpMYl3h9IH6oxzhMtpeFvVX9JQCyIu1f7E1uJ1zzJQu/OlLKTsTmk9ZYuT8t
+         ValFs3btTNQJ6qN0/xsfMP7Dum4Ix4/adbWvIzIFet3uqjC/jE8DGgsVToclMFS8qO93
+         CzMj7hZTz1fUWYq4EG7a3T7Xc/ORBzF7TBuQqmO40aoIZZ7KNkjI/jWi1g+fAgdyRI14
+         k8JCFBnezioezrxxBwd9/gGxbasx6jlJLDq3eDJXJF2krgjVtCRkCdncTRIJj9Zjxdd1
+         z3BIOQdZ2ELHcuhkS0qsUYWglVUFbz8QjsRW6sRnQxLMwnQdAofyEhVPU/d4gYEO8N8e
+         Z+nA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=9ab8Aq50/rXmHhn0TRlYftWgTUTWMsP1Jze8/Mz242s=;
+        b=mBecPsFI1UCps+loKamvGobvdtsGZuvi49qM1X82CT4oBui7JG8dJ+4PyzjpYnhmMs
+         YUegNy8TY4+kJFNfWlJeDfcrBRVggznJxZeKi45RB2KSsS1BWudr+6Fnkox567QfJiuN
+         zBeQGNgAiVZRbUFGAQJj2ad4OCPd3D1L6L2D6Kj5j5bjfH/c1GjMmHb53GwpnWp2U3lI
+         c7BRckfwmlG1RiYPVcIqGxKVGrHdCoR1VZ/pKINiFEw8xWGhOQssbktLFSpaTzGDuOEL
+         r6BZv9Hqm1MUFslMtESID5cT6chKpdnasxV0SiONXYFdNZmmetnamOnPcSOvLR9U2sxR
+         JZzQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=vM2F21Ht;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210510123355.23799615.262686@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210510123355.23799615.262686@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210510123355.23799615.262686@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id n13sor7686808pgq.16.2021.05.10.09.34.49
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 10 May 2021 09:34:50 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210510123355.23799615.262686@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJwDJXeOmKTqjzUBmuS3YIBh+LNbj1QcjJpzpRawVjmUMSmSLrbegjXFoyyaFdvOWOmhF60SpTNd9mtZlp8gOrZcWDmeoJU=
+X-Received: by 2002:a65:618c:: with SMTP id c12mr26100034pgv.296.1620664489585;
+        Mon, 10 May 2021 09:34:49 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1620664489; cv=none;
+        d=google.com; s=arc-20160816;
+        b=GixfFUtUBKHoEwMBSaQIBx2Uf6I0RybRSbz/5/I4xmNcRQYEjsi8c8WFtVicZcC7ak
+         Veotw9YKvottIQflLhFZB0+vJBtTI2KGAJnb/9N0C3D5tUmTaxdZ7kIXD7MKvsjDnT/Q
+         iPGMZNoDW2N1QS7JqSsnAEw+Hd5XL6H6bZjA49uabU79C0mwkwYzrz8m/KYKWQ4DGBpU
+         T45nZ4KCgm+h+w0qydp/LsozZAtNLXUrSj/Q0zeME6/90cJpDqFLKMl2uade83I3iwKW
+         JUdmf9huvPI7XQ7uczGBIpSpZP7TJR2pwXCM8AIqfCSxsVRCRvevvY3iF1tIFr0ziv6W
+         dLcg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=9ab8Aq50/rXmHhn0TRlYftWgTUTWMsP1Jze8/Mz242s=;
+        b=LGHMqdk7NVxu0OghDqwrIlJ/uP6LjaSHM2neAvGwFjutwDp8OxZr0aDshaOZDWPGNY
+         KeZeEFedHO1kJZUhsUwpvNqevbryEvGv0SBGZYHIGdez8JQUxPp9/VFnjSJsusVvUGs0
+         MtBR2nfdnHoPM21zmmsZ5VAGqNS+AOOZ+3CdQaskRe5spzkKMAPilP4dJWYJbb6tWbCn
+         ZIUg+RI0ZoKY0/uEMijI31V0SPhRo2Kyit5GSDaX+QV8cOX5hh+cOxaBkn/e8IvfO74s
+         4eMwcnCmVxzDfo9Jt5xurYYPsaVByMwlQ92o7M97fsRXFjQWrd5IDU2v3pJEwl8UB739
+         HWTg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=vM2F21Ht;
+       spf=pass (google.com: domain of delivery_20210510123355.23799615.262686@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210510123355.23799615.262686@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210510123355.23799615.262686@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id j17si1373410pfc.5.2021.05.10.09.34.49
+        for <khamel83@gmail.com>;
+        Mon, 10 May 2021 09:34:49 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210510123355.23799615.262686@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=ZgN9sukxMsNci/vhH9+Q6+0jIck=;
+ b=vM2F21HtZA+Zias382oJQymPSnhtYjQoBH3gZ89nUILXEB0X+JnOCfIK/jb5eVwblqsjxX67hllV
+   WV1KwavCBW8EfrpERr7TvttNvJcc+Cx5r1K/OaKhbrcmZfTilizsBJ+PCl8YuSA2yvb2etHimWEj
+   RPqA3TweoPKhZaMsdcQ=
+Received: from mtast-04.sailthru.com (204.153.121.10) by bloomberg-b.sailthru.com id hj5gai1qqbsp for <bloomberg@khamel.com>; Mon, 10 May 2021 12:34:48 -0400 (envelope-from <delivery_20210510123355.23799615.262686@mx.sailthru.com>)
+Received: from nj1-badmanatee.flt (172.18.20.11) by mtast-04.sailthru.com id hj5gag1s6j05 for <bloomberg@khamel.com>; Mon, 10 May 2021 12:33:55 -0400 (envelope-from <delivery_20210510123355.23799615.262686@mx.sailthru.com>)
+Date: Mon, 10 May 2021 12:33:55 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210510123355.23799615.262686@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IERvZ2Vjb2luIEpv?=
+ =?utf-8?B?a2VzIERpZG7igJl0IEhlbHAgdGhlIFByaWNl?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_5548781_534765541.1620664435792"
+Precedence: bulk
+X-TM-ID: 20210510123355.23799615.262686
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-badmanatee.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ce63wf.5mou/98e5c44d
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ce63wf.5mou/98e5c44d>, <mailto:unsubscribe_20210510123355.23799615.262686@mx.sailthru.com>
+X-rpcampaign: stjko23799615
+
+------=_Part_5548781_534765541.1620664435792
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+  @media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+
+ =20
+ =20
+  Money Stuff
+body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+             =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+     =20
+     =20
+ =20
+   =20
+      Buy the rumor, sell the =E2=80=98Weekend Update=E2=80=99 segmentWhen =
+Elon Musk does Bitcoin things,  the price of Bitcoin goes up. One possible =
+reason for this is that Elon Musk is a rich famous weird guy with a fandom;=
+ people pay attention to what he does and get entertainment out of it. When=
+ he seems to have fun with Bitcoin, other people say =E2=80=9Chey Bitcoin l=
+ooks fun=E2=80=9D and buy Bitcoin, so the price of Bitcoin goes up.Another =
+possible reason is that Elon Musk is the chief executive officer of=C2=A0tw=
+o big influential futuristic companies, and he plays a role in shaping the =
+possible future of the global economy. If Tesla Inc. announced that you can=
+ only pay for Teslas in Bitcoin, or if SpaceX announced that the only legal=
+ tender on Mars will be Bitcoin, that would be good for Bitcoin demand. The=
+re is a sort of future-of-the-galactic-economy case for Bitcoin that Elon M=
+usk can bolster. And in fact Tesla has said that it will (non-exclusively) =
+accept Bitcoins for Teslas, and that it will keep a portion of its corporat=
+e cash in Bitcoin. Tesla, a big important company that Musk runs, is making=
+ real business decisions that seem to be bullish for Bitcoin. If you buy Bi=
+tcoin based on Musk=E2=80=99s half-joking Twitter enthusiasm, you could be =
+making a sensible bet on business fundamentals.When Elon Musk does Dogecoin=
+ things =E2=80=A6=C2=A0well, look, Dogecoin is  famously a joke, and Elon M=
+usk enjoys jokes, and people enjoy following along with Elon Musk=E2=80=99s=
+ jokes at home, and so when Elon Musk does a Dogecoin joke Dogecoin goes up=
+.=C2=A0There is an obvious =E2=80=9Crich famous weird guy with a fandom=E2=
+=80=9D effect.On the other hand, is there a business fundamentals case? Wil=
+l Tesla accept Dogecoin as payment? Will it be legal tender on Mars? Sure, =
+I dunno, whatever,=C2=A0but on =E2=80=9CSaturday Night Live=E2=80=9D this w=
+eekend Musk  leaned hard on the =E2=80=9Cjoke=E2=80=9D side:Dogecoin, the f=
+ifth most valuable cryptocurrency, retreated from an all-time high after bi=
+llionaire Elon Musk, appearing on =E2=80=9CSaturday Night Live,=E2=80=9D jo=
+kingly called it =E2=80=9Ca hustle.=E2=80=9DThe altcoin had surpassed 73 ce=
+nts on Saturday before dropping to 46.01 cents as of 8:08 a.m. in New York =
+Sunday, a 35% decline in 24 hours, according to pricing from CoinGecko. =E2=
+=80=A6Musk was asked repeatedly during the =E2=80=9CWeekend Update=E2=80=9D=
+ segment to explain what Dogecoin is. After reciting multiple facts about t=
+he cryptocurrency in the character of a financial expert, he was asked if D=
+ogecoin was a =E2=80=9Chustle.=E2=80=9D He responded, =E2=80=9Cyeah, it=E2=
+=80=99s a hustle.=E2=80=9D =E2=80=A6An earlier Dogecoin reference came duri=
+ng the opening monologue where his mother, Maye Musk, joined him on stage. =
+The author and model said she was excited about her Mother=E2=80=99s Day gi=
+ft, and she hoped it=E2=80=99s not Dogecoin -- to which he said, =E2=80=9Ci=
+t is.=E2=80=9DI want to emphasize again that I understand nothing, but, lik=
+e =E2=80=A6=C2=A0if you bet big on Dogecoin heading into =E2=80=9CSaturday =
+Night Live,=E2=80=9D and then dumped your Dogecoins because you didn=E2=80=
+=99t like what you heard on =E2=80=9CSaturday Night Live,=E2=80=9D what=C2=
+=A0were=C2=A0you hoping to hear? Like, =E2=80=9CSaturday Night Live=E2=80=
+=9D is a comedy program. Elon Musk was going to make jokes about Dogecoin. =
+That was pretty much the best you could hope for, from Elon Musk on =E2=80=
+=9CSaturday Night Live,=E2=80=9D if you=E2=80=99re a Dogecoin bull.=C2=A0I =
+am sorry but: to the moonUh =E2=80=A6=C2=A0is=C2=A0this=C2=A0what you were =
+hoping to hear?Elon Musk=E2=80=99s SpaceX will launch the =E2=80=9CDOGE-1 M=
+ission to the Moon=E2=80=9D in the first quarter of 2022, with the company =
+accepting the meme-inspired cryptocurrency as full payment for the lunar pa=
+yload.Geometric Energy Corporation announced the dogecoin-funded mission on=
+ Sunday, which SpaceX=E2=80=99s communications team confirmed in an email t=
+o reporters. The mission=E2=80=99s financial value was not disclosed.DOGE-1=
+ will fly a 40 kilogram cube satellite as a payload on a Falcon 9 rocket, w=
+ith Geometric Energy Corporation saying its payload =E2=80=9Cwill obtain lu=
+nar-spatial intelligence from sensors and cameras on-board with integrated =
+communications and computational systems.=E2=80=9DSpaceX vice president of =
+commercial sales Tom Ochinero said in a statement that DOGE-1 =E2=80=9Cwill=
+ demonstrate the application of cryptocurrency beyond Earth orbit and set t=
+he foundation for interplanetary commerce.=E2=80=9D=E2=80=9CWe=E2=80=99re e=
+xcited to launch DOGE-1 to the Moon!=E2=80=9D Ochinero said.The price went =
+back up. Geometric Energy Corp.=C2=A0makes nitrile gloves, does other misce=
+llaneous projects, and says =E2=80=9CTransforming Civilization=E2=80=9D at =
+the top of its web page. I have to say, I really admire this trade; this is=
+ how you do postmodern finance. I think the trade is:=09Accumulate a bunch =
+of Dogecoins.=09Go to Elon Musk and say =E2=80=9Chey would you accept payme=
+nt in Dogecoins to do a=C2=A0Dogecoin stunt?=E2=80=9D=09Elon Musk is like =
+=E2=80=9Csure, I love Dogecoins, and stunts.=E2=80=9D=09You pay him some Do=
+gecoins to launch some stuff into space.=09You and he both announce that Sp=
+aceX is accepting Dogecoin for payment for a rocket payload that has someth=
+ing to do with the moon.[1]=09=E2=80=9CLook: SpaceX is accepting Dogecoin! =
+Institutional adoption! Dogecoin is a useful currency! There are applicatio=
+ns! Dogecoin will be the official currency of space travel! It will be wide=
+ly adopted throughout the galaxy! If you are traveling to Mars you will nee=
+d to convert some dollars into Dogecoin!=E2=80=9D You know, that sort of th=
+ing.=09The value of your remaining stash of Dogecoins goes up a lot.If you =
+have 10 million Dogecoins, what you want to do is=C2=A0spend a million of t=
+hem, because demonstrating that you can spend Dogecoins is a good way to pr=
+ove that they are useful and thus make the value of your remaining 9 millio=
+n Dogecoins go up. What you particularly want to do is=C2=A0spend your Doge=
+coins at an Elon Musk store, because that will focus a lot of attention on =
+the fact that you can spend Dogecoins, because people pay a lot of attentio=
+n to the Elon Musk stores. And you want to spend them on the most high-prof=
+ile and stunty Elon Musk store available, which is probably shooting a rock=
+et to the moon.Dogecoin is =E2=80=94=C2=A0so much postmodern crypto/GameSto=
+p finance is, really =E2=80=94=C2=A0finance with the cash flows abstracted =
+away. In traditional finance, you have a=C2=A0thing with some more or less =
+uncertain stream of future=C2=A0cash flows, and the value of the thing is t=
+he present value of its future cash flows, filtered through some large amou=
+nt of uncertainty and psychology and behavior and greed and fear and techni=
+cal factors and fund flows etc. The skill set is some combination of unders=
+tanding the cash flows and understanding the psychology.In postmodern finan=
+ce the psychology is the only thing. For sort of accidental path-dependence=
+ reasons, the people making fortunes in this world are often=C2=A0finance=
+=C2=A0people, quant traders who saw the rise of crypto and thought =E2=80=
+=9Cthat=E2=80=99s like what I do now, but without any fundamentals,=E2=80=
+=9D and who jumped on it. Fine. But it is not obvious that this is the righ=
+t, or only, skill set. Really if postmodern finance is primarily a matter o=
+f=C2=A0mass psychology, isn=E2=80=99t it =E2=80=A6=C2=A0marketing? Advertis=
+ing? Isn=E2=80=99t the right skill set not, like, =E2=80=9Cidentify technic=
+al patterns in charts=E2=80=9D but rather =E2=80=9Cthink of good stunts tha=
+t will make people want to buy a content-free product that you happen to be=
+ selling=E2=80=9D? If you are a Dogecoin trader and you=E2=80=99re not spen=
+ding some Dogecoins to get Elon Musk to put out a press release with the wo=
+rds =E2=80=9CDogecoin=E2=80=9D and =E2=80=9Cmoon=E2=80=9D and =E2=80=9Crock=
+et=E2=80=9D in it, you might be doing it wrong.Elsewhere in Elon MuskWell t=
+here=E2=80=99s this:Tesla CEO Elon Musk has been overstating the capabiliti=
+es of the company=E2=80=99s advanced driver assist system, the company=E2=
+=80=99s director of Autopilot software told the California Department of Mo=
+tor Vehicles. The comments came from a memo released by legal transparency =
+group PlainSite, which obtained the documents from a public records request=
+. ...=E2=80=9CElon=E2=80=99s tweet does not match engineering reality per C=
+J. Tesla is at Level 2 currently,=E2=80=9D the California DMV said in the m=
+emo about its March 9th conference call with Tesla representatives, includi=
+ng the director of Autopilot software CJ Moore. Level 2 technology refers t=
+o a semi-automated driving system, which requires supervision by a human dr=
+iver.=C2=A0In an earnings call in January, Musk told investors that he was =
+=E2=80=9Chighly confident the car will be able to drive itself with reliabi=
+lity in excess of human this year.=E2=80=9D (It would appear the DMV was re=
+ferring to these January comments, which Moore misunderstood as a tweet fro=
+m Musk.) =E2=80=A6Tesla is unlikely to achieve Level 5 (L5) autonomy, in wh=
+ich its cars can drive themselves anywhere, under any conditions, without a=
+ny human supervision, by the end of 2021, Tesla representatives told the DM=
+V.Is this securities fraud? Meh. We have talked a lot recently about the no=
+tion that influential visionary startup founders are expected to do a certa=
+in amount of optimistic truth-stretching,=C2=A0that seeing the future so cl=
+early that you convince yourself it=E2=80=99s here already is part of the j=
+ob. Occasionally actual startup founders  get in trouble for this. Other ti=
+mes, startup founders take their companies public, and then  can=E2=80=99t =
+adapt to their new, more factual obligations as public-company CEOs. And th=
+en there=E2=80=99s Elon Musk, who just gets to keep talking like a visionar=
+y startup founder even though he runs a giant public company.I think the tr=
+ick is to say=C2=A0so much=C2=A0nonsense that anyone who focuses on one par=
+ticular untrue statement looks a little silly: =E2=80=9CSure I said our car=
+s would be fully self-driving this year, and that wasn=E2=80=99t true, but =
+I tweet like 10 crazy jokes a day, why would anyone believe me?=E2=80=9D=C2=
+=A0Oh also Musk is a meme thief: People make jokes on the internet, and Mus=
+k reposts them to his accounts without attribution. I don=E2=80=99t really =
+know what to make of this. On the one hand, Musk is a busy guy, running two=
+ futuristic companies and pumping cryptocurrencies and doing sketch comedy =
+on national television; I suppose it=E2=80=99s good that he steals memes fr=
+om the internet rather than carefully handcrafting them himself. (Obviously=
+ it=E2=80=99s=C2=A0rude, mean to creators, etc., but equally obviously he d=
+oesn=E2=80=99t care about other people and getting mad at him for stealing =
+memes won=E2=80=99t change anything.)On the other hand, Musk is a busy guy,=
+ running two futuristic companies etc.; doesn=E2=80=99t he have better thin=
+gs to do than=C2=A0steal memes?=C2=A0Ugh, no, I guess=C2=A0my theory of Elo=
+n Musk compels me to say that the most value he can add to his companies =
+=E2=80=94=C2=A0more than dreaming up new cars or rockets, or finding good a=
+cquisitions or optimizing the capital structure or hiring talented managers=
+ or whatever other normal-CEO things he sometimes does =E2=80=94=C2=A0is by=
+ tweeting the good tweets. I  once wrote that the optimal use of time for a=
+ modern CEO might be to =E2=80=9Cdo good tweets to get a lot of fans on the=
+ internet, who will buy the stock for the lols and maximize the stock price=
+=E2=80=9D:There will be academic papers and Harvard Business School case st=
+udies about how CEOs who tweet a lot of nonsense=C2=A0maximize shareholder =
+value; it will become a conventional part of the business school curriculum=
+; a generation of CEOs will grow up just assuming that being weird edgelord=
+s online is not just fun but also=C2=A0their legal and moral obligation as =
+fiduciaries for their shareholders.And if the most efficient way to do the =
+good tweets is by stealing content from other users, well, that=E2=80=99s j=
+ust capitalism I guess.Oh and: =E2=80=9CGerman engineer predicted man named=
+ =E2=80=98Elon=E2=80=99 would conquer Mars in 1952 novel,=E2=80=9D why not.=
+Sovereign bond allocationsWe are spending a lot of time on dumb crypto thin=
+gs so let=E2=80=99s take a break and talk about a dumb traditional high-fin=
+ance thing. Here is a Wall Street Journal story about sovereign bond alloca=
+tions:European governments are acting to limit hedge funds=E2=80=99 partici=
+pation in the market for new sovereign bond issuance, following a surge in =
+demand from the firms.The pushback was prompted by unusually large orders p=
+laced by hedge funds for new bonds, which can then potentially be sold=E2=
+=80=94sometimes within hours=E2=80=94to the European Central Bank for a pro=
+fit, bankers, investors and a government official said. Order books, which =
+track demand for new bonds and help determine the prices, have ballooned si=
+nce hedge funds began to pile into this trade.The debt-management offices o=
+f Spain and Italy have placed caps ranging from 500 million euros to 1 bill=
+ion euros, equivalent to $608 million to $1.2 billion, on orders from hedge=
+ funds for bonds directly issued by countries in the primary market, accord=
+ing to bankers who worked on the deals. France has also limited order sizes=
+, an official said.Millennium Management, Brevan Howard, DoubleLine, Tenaro=
+n Capital Management and BlueBay Asset Management are among the hedge funds=
+ that have been active in the primary market for sovereign bonds in recent =
+months, according to bankers. Some hedge funds have put in orders for as mu=
+ch as 3 billion euros of bonds in a single offering, which is far more than=
+ they can realistically buy, the bankers said.So there are two dumb things =
+here. One is that the hedge funds=E2=80=99 trade is just:=09Buy new-issue E=
+uropean government bonds.=09Sell them immediately to the ECB.There are good=
+ historical and institutional reasons that the ECB doesn=E2=80=99t buy new-=
+issue=C2=A0bonds directly from the governments of member states (=E2=80=9Cm=
+onetizing the debt,=E2=80=9D bad), but the result is that now it buys them =
+indirectly from hedge funds. The hedge funds are effectively getting paid a=
+ commission for helping the ECB do a regulatory arbitrage: It can=E2=80=99t=
+ buy new-issue bonds, it wants to buy new-issue bonds, so it buys almost-ne=
+w-issue bonds from hedge funds for a small markup. This is a little dumb =
+=E2=80=94=C2=A0why waste money on paying hedge funds? =E2=80=94=C2=A0but it=
+ is in the ordinary line of high-finance dumbness. One very standard busine=
+ss line for hedge funds is helping regulated entities offload regulatory di=
+fficulties, for a fee, and you can think of this in the same terms.The othe=
+r dumb thing has to do with how new-issue securities are sold. You might im=
+agine a system like this:=09An issuer announces how much of a thing it want=
+s to sell and a rough price range. =E2=80=9CWe want to sell 1 billion thing=
+s at a range of 97 to 103.=E2=80=9D=09Its banks canvass potential buyers to=
+ market the thing.=09The potential buyers submit a demand schedule of how m=
+uch of the thing they=E2=80=99d like to buy at various price points: =E2=80=
+=9CWe won=E2=80=99t buy it for 102 or above, we=E2=80=99d buy a million of =
+it at 101, we=E2=80=99d buy 2 million at 100, we=E2=80=99d buy 3 million at=
+ 99 or below,=E2=80=9D etc.[2]=09The issuer and its banks look at the sched=
+ule of demand: =E2=80=9CWe have orders for 1.86 billion at 99, 1.31 billion=
+ at 100, 1.04 billion at 101, 956 million at 102,=E2=80=9D etc.=09They pric=
+e the thing at the highest price at which there is enough demand to get the=
+ size they want: Here, there's 1.04 billion of demand at 101, and they want=
+ to sell 1 billion, so they price at 101.This is an easy system to imagine,=
+ and everyone does=C2=A0imagine it. The process for most initial public off=
+erings of stock does=C2=A0kind of=C2=A0work like this, in a rough and imper=
+fect way. Every so often an issuer will be like =E2=80=9Cwhat if we made it=
+ work more like that,=E2=80=9D and you get things like the  Google IPO (a D=
+utch auction where investors submitted orders at prices) or the =E2=80=9C h=
+ybrid IPO=E2=80=9D (where investors submit a full schedule of demand and th=
+e issuer looks at it to pick a price) or even direct listings (where there=
+=E2=80=99s a two-sided auction to pick the opening price).=C2=A0These proce=
+sses are not perfect, though; there are IPO pops, etc., and people complain=
+ a lot.The way=C2=A0bond new issues often work, though, is sort of like thi=
+s:=09An issuer announces how much of a bond it wants to sell and a rough pr=
+ice. =E2=80=9CWe want to sell 1 billion bonds at about 1%,=E2=80=9D=C2=A0et=
+c.=09Its banks canvass potential buyers.=09The potential buyers say =E2=80=
+=9Cwe=E2=80=99d buy 1 million=E2=80=9D or whatever.=09The issuer and its ba=
+nks look at the total amount of demand and pick a price out of =E2=80=A6=C2=
+=A0thin air? Like, if the issuer has 10 billion of orders, it will say =E2=
+=80=9Cthat=E2=80=99s pretty good, let=E2=80=99s price at 0.95%=E2=80=9D; if=
+ it has 1.01 billion of orders it will say =E2=80=9Chmm, cutting it close, =
+let=E2=80=99s price at 1.05%.=E2=80=9D=09If there=E2=80=99s a lot of demand=
+, the issuer will price at a low interest rate =E2=80=94=C2=A00.95% or what=
+ever =E2=80=94=C2=A0and the people who put in orders thinking the bond woul=
+d price at 1% will be surprised.=09Some of them will withdraw their orders =
+=E2=80=94=C2=A0=E2=80=9Cwe would have bought 1 million at 1%, but not at 0.=
+95%=E2=80=9D =E2=80=94=C2=A0and the issuer and bankers will get mad at them=
+, because that is viewed as not sporting. Your order is supposed to be your=
+ order, no matter what the price is.I find this very weird! Yet it is sort =
+of the norm. From the Journal:The recent surge of interest from hedge funds=
+ in the primary market is making it difficult to price the bonds, as it is =
+more difficult to gauge the real demand, said Benjamin de Forton, a debt-ca=
+pital markets director at BNP Paribas.For instance, Spain attracted 130 bil=
+lion euros of orders for a 10-year bond offering in January. But as bankers=
+ hammered out the final terms of the sale and the proposed price climbed, d=
+emand for the bonds abruptly halved. That was because hedge funds pulled th=
+eir orders as their already slim profit margins shrank, bankers said. The g=
+overnment ultimately raised 10 billion euros, with the bulk of the buyers b=
+eing traditional asset managers. Hedge funds got about 5.5% of the bonds so=
+ld, bankers on the deal said.=E2=80=9CSwift moves in fast-money account ord=
+ers have meant new-bond execution was at times potentially more challenging=
+,=E2=80=9D Mr. de Forton said.Yeah, I don=E2=80=99t know, I sympathize a lo=
+t with the hedge funds there? Why not just ask them? Instead of sending the=
+m a form like =E2=80=9Chow many bonds would you like,=E2=80=9D send them a =
+form like =E2=80=9Chow many bonds would you like at different prices?=E2=80=
+=9D Build a schedule of demand and then use it to price your bonds.The othe=
+r problem is that there is a self-reinforcing thing where issuers take orde=
+rs for more bonds than they are selling, and so investors don=E2=80=99t get=
+ as many bonds as they ask for, and so they put in larger orders to try to =
+get more bonds, and so they get cut back even more, etc.:Banks that run deb=
+t sales for governments tend to allocate less than 10% of an issuance to he=
+dge funds. The firms typically receive only around 1% of what they offer to=
+ buy, which encourages them to place large orders, according to bankers. Th=
+at means an offer to buy about 2 billion euros in bonds could net the hedge=
+ funds about 20 million euros of the securities. ...France=E2=80=99s debt m=
+anagement office asked banks in March to hold talks with hedge funds to enc=
+ourage them to put in smaller orders, according to Anthony Requin, chief ex=
+ecutive of the agency. Firms that put in unrealistically large orders would=
+ be penalized with a smaller allocation than other firms that put in more =
+=E2=80=9Creasonable orders,=E2=80=9D he said.These problems interact: If a =
+hedge fund wants 20 million bonds at 1% or higher, it will put in an order =
+for 2 billion bonds, but if the price goes up so the yield is below 1% it w=
+ill pull that whole order:=E2=80=9CThe relationship between what could be c=
+onsidered as a good transaction and the sheer size of the order book is bro=
+ken,=E2=80=9D said Mr. Requin. =E2=80=9COne may be confronted with a skyroc=
+keting order book, but which is in fact of poor quality. In that case, tigh=
+tening the price might be challenging or risky if you are targeting a trans=
+action of [a] certain size.=E2=80=9DThese just feel like solvable problems.=
+ The U.S. Treasury, it should be said,=C2=A0auctions its bonds, which seems=
+ to work?SocksThe way that non-fungible tokens often work is:=09You acquire=
+ some physical object, ideally a rare or unique one, perhaps a work of art.=
+=09You light it on fire.=09You create a video recording of the destruction =
+of the object, or at least type up a certificate saying =E2=80=9CI destroye=
+d this object.=E2=80=9D=09You encode the video or the certificate on a bloc=
+kchain, as a unique immutable token.=09You sell the token to someone else, =
+for more than you paid for the object.I do not pretend to understand it eit=
+her, but we have talked a  couple of  times about this basic =E2=80=9Cobjec=
+t =E2=80=94=C2=A0fire =E2=80=94=C2=A0token =E2=80=94=C2=A0money=E2=80=9D NF=
+T cycle and it is, if not the default, at least=C2=A0one=C2=A0standard way =
+to make and sell and understand NFTs. You remove an art object from circula=
+tion in the physical world and circulate it instead in the blockchain world=
+, for more money.One way to think about this process might be that the fire=
+, and the encoding on the blockchain,=C2=A0adds value. A painting is worth =
+$100,000, but a painting that has been burnt to ashes and put on the blockc=
+hain is worth $200,000, in the same way that flour and eggs and sugar are w=
+orth $3, but if you combine them in the oven and make=C2=A0a cake it is=C2=
+=A0worth $6. You have taken some ingredients (a work of art, a lighter, a v=
+ideo camera) and combined them with your labor to make something more usefu=
+l and desirable. I am typing this theory here for completeness, but it does=
+ not strike me as at all plausible.The more plausible way to think about th=
+is process might be one of market segmentation and arbitrage. There are som=
+e people who like paintings and will pay $X for a painting.  There are othe=
+r people who like NFTs and will pay $Y for a token of a burnt painting. Whe=
+n X > Y =E2=80=94=C2=A0as, loosely speaking, it has been for most of human =
+history =E2=80=94=C2=A0people will keep paintings intact. When Y > X =E2=80=
+=94=C2=A0as it seems to have been recently during a wild NFT boom =E2=80=94=
+=C2=A0people will burn paintings to sell them as higher-value NFTs.[3]On th=
+e other hand, if X > Y again =E2=80=94=C2=A0if the NFT market cools and pai=
+ntings are worth more than tokens again =E2=80=94=C2=A0it would be nice to =
+have a way to transform the tokens back into paintings. Take the NFTs, ligh=
+t them on fire, have a painting come out, and sell the painting for more th=
+an you paid for the NFT. Just as a matter of market completeness one wants =
+this to be possible, to be able to trade frictionlessly between physical ob=
+jects and their blockchain representations. Financial processes  ought to b=
+e reversible.Unfortunately, for reasons of physics, it is very difficult to=
+ reverse the =E2=80=9Cobject =E2=80=94=C2=A0fire =E2=80=94=C2=A0token =E2=
+=80=94=C2=A0money=E2=80=9D NFT process, because if you light a token on fir=
+e you cannot get the original painting back.[4] You cannot burn tokens to g=
+et back paintings.You can, however, burn tokens to get back socks. Here are=
+=C2=A0Unisocks, which are socks that trade on the Uniswap crypto platform:$=
+SOCKS is a token that entitles you to 1 real pair of limited edition socks,=
+ shipped anywhere in the world.You can sell the token back at any time. To =
+get a real pair, redeem a $SOCKS token.=E2=80=9CSOCKS will be burned in exc=
+hange for 1 real pair of unisocks + shipping to anywhere in the world,=E2=
+=80=9D said Uniswap Labs when it announced the socks in 2019, so, yes, you =
+could burn tokens for socks.[5]=C2=A0As of 10 a.m. today, the SOCKS token w=
+as trading at about $99,000. So a tokenized pair of limited-edition socks w=
+as worth $99,000. People would=C2=A0pay $99,000 for a non-wearable blockcha=
+in representation of a pair of socks.Is that more or less than they=E2=80=
+=99d pay for the physical, wearable=C2=A0socks? Well, look. For one thing, =
+you can get very nice socks for less than $20, though that tells you nothin=
+g; these socks are an art project/collectible/stunt, so whether you buy the=
+m in token form or sock form you are mostly paying for some sort of intangi=
+ble prestige. For another thing, I think it is reasonable to say that if so=
+me crypto startup =E2=80=94=C2=A0or some movie star or musician or athlete =
+or Elon Musk or any other conveyer of prestige for that matter =E2=80=94=C2=
+=A0just announced a limited edition of 500 pairs of socks, those socks woul=
+d not trade for $99,000.[6] You have to transmute the socks through the NFT=
+ first.=C2=A0On the other hand, once you have done that, maybe the socks ar=
+e worth more than the token? Apparently yesterday someone=C2=A0burned=C2=A0=
+nine pairs=E2=80=99 worth of SOCKS tokens, for socks. (The token was worth =
+about $97,000 at the time.) They looked at the price of the tokens, thought=
+ about the socks, and decided that they=E2=80=99d rather have the socks. To=
+ put in their trophy case, or to re-sell for more than $97,000, or, of cour=
+se, to wear around the house. The object =E2=80=94=C2=A0fire =E2=80=94=C2=
+=A0token =E2=80=94=C2=A0money process is reversible; the market is complete=
+.Eventually I will write the dumbest possible Money Stuff and then sell it =
+as an NFT. I don=E2=80=99t think we are there yet but we are getting very c=
+lose.Things happenHack  Idles Pipeline for Third Day as Supply Concerns Mou=
+nt. Colonial Hackers  Stole Data Thursday Ahead of Shutdown. The Mortgage B=
+oom Is Fading. UBS Dangles  $40,000 Bonuses to Slow Junior Banker Defection=
+s. New SEC Chairman Sets Sights on Citadel Securities and Virtu. JPMorgan, =
+Deutsche Bank Said to Be Among Firms  Sued by 1MDB. Some Startups Went From=
+ Rescue PPP Loans to SPAC Windfalls. Digital media companies pump the brake=
+s on their rush to go public as SPAC market cools. BioNTech Raises Covid  V=
+accine Sales Estimate to $15 Billion. As Scrutiny of Cryptocurrency Grows, =
+the Industry Turns to K Street. Pot Users Splurge on  $800 Bongs as Stigmas=
+ Fade. Jeff Bezos=E2=80=99s New Superyacht Heralds Roaring Market for  Big =
+Boats. An oral history of Tom Holland's sensational =E2=80=98Lip Sync Battl=
+e=E2=80=99 performance. Belgian farmer accidentally moves French border.=C2=
+=A0If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, rig=
+ht in your inbox, please=C2=A0subscribe at this link. Or you can subscribe =
+to Money Stuff and other great Bloomberg newsletters here. Thanks![1] They =
+are not, as far as I can tell, *landing a Shiba Inu on the moon* or anythin=
+g, but =E2=80=9Clunar-spatial intelligence=E2=80=9D sure sure sure.[2] In p=
+ractice with bonds the prices will be interest rates =E2=80=94=C2=A0=E2=80=
+=9Cnone for 0.95% or less, 1 million at 1%, 2 million at 1.05%,=E2=80=9D et=
+c. =E2=80=94=C2=A0but I am trying to be=C2=A0general here.[3] Why would thi=
+s be? I think one obvious answer is that  crypto zillionaires like to inves=
+t in crypto art, there are a lot of crypto zillionaires right now, and =E2=
+=80=9Ccrypto art=E2=80=9D means NFTs, not oil paintings. Art prices are alw=
+ays going to be a subjective matter, a question of what sorts of art the cu=
+rrent class of rich people likes, and when the class of rich people changes=
+ the relative valuations of art will change. Another possible answer is a s=
+ort of liquidity premium: NFTs are *relatively* easy to buy and sell and st=
+ore and transport and keep track of; if you view art less as an aesthetic e=
+xperience and more as a store of value, that might make NFTs more appealing=
+ than paintings. (A related answer is that, as the first two effects come i=
+nto play, the price of NFTs *goes up* relative to the price of paintings, s=
+o if you view art as primarily a speculative investment you might just make=
+ a momentum trade into NFTs.)[4] I suppose you could put your private key o=
+n a hard drive, blow up the hard drive, commission a painter to make an oil=
+ painting of=C2=A0 the fire, and sell that for more than you paid for the t=
+oken (I mean, for the token plus the artist=E2=80=99s fee). It=E2=80=99s no=
+t the original painting, but it=E2=80=99s something. Gah, I should actually=
+ do this, this is a genuinely good idea, in the extremely bad-idea context =
+in which we are operating.[5] You don=E2=80=99t literally burn them, that=
+=E2=80=99s just a crypto metaphor. =E2=80=9CBurn=E2=80=9D means, like, conv=
+ey them back to the Unisocks Uniswap smart contract for cancellation.=C2=A0=
+[6] Elon Musk once did announce some limited-edition red satin shorts, and =
+they were  scarce and hoarded, but not, like, $100,000 worth of scarce and =
+hoarded. I see them on eBay now for like three figures.
+   =20
+ =20
+
+
+   =20
+     =20
+        Follow Us
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+     =20
+     =20
+     =20
+       =20
+          Get the newsletter
+       =20
+     =20
+   =20
+
+
+     =20
+     =20
+ =20
+   =20
+      =C2=A0
+   =20
+   =20
+     =20
+   =20
+   =20
+      Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+   =20
+   =20
+      =C2=A0
+   =20
+ =20
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+   =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ce63wf.5mou/9c4b6333.gif" alt=3D"" border=3D"0" /></a>
+
+
+
+------=_Part_5548781_534765541.1620664435792
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<style>@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+</style><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Du=
+tf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<title>Money Stuff</title>
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; color:=
+ #000; margin: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" clas=
+s=3D"brand-hdr">
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/23799615.262686/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1=
+dGhvcnMvQVJiVFFsUkxSakUvbWF0dGhldy1zLWxldmluZQ/607f07ceef4b8524a319a23cBc57=
+3df2e"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%;" /><!--[if mso]>
+</div>
+<![endif]--></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+</td>
+</tr>
+</table>
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top=
+: 30px; margin-bottom: 0;">Buy the rumor, sell the =E2=80=98Weekend Update=
+=E2=80=99 segment</h2><p style=3D"margin: 16px 0;">When Elon Musk does Bitc=
+oin things, <a href=3D"https://link.mail.bloombergbusiness.com/click/237996=
+15.262686/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtM=
+DItMDgvZWxvbi1tdXNrLXdvcmtzLWhpcy1tYWdpYy1vbi1kb2dlY29pbi1hbmQtYml0Y29pbg/6=
+07f07ceef4b8524a319a23cB8baccf7f" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> the price of Bitcoin goes up</a>. One possible rea=
+son for this is that Elon Musk is a rich famous weird guy with a fandom; pe=
+ople pay attention to what he does and get entertainment out of it. When he=
+ seems to have fun with Bitcoin, other people say =E2=80=9Chey Bitcoin look=
+s fun=E2=80=9D and buy Bitcoin, so the price of Bitcoin goes up.</p><p styl=
+e=3D"margin: 16px 0;">Another possible reason is that Elon Musk is the chie=
+f executive officer of=C2=A0two big influential futuristic companies, and h=
+e plays a role in shaping the possible future of the global economy. If Tes=
+la Inc. announced that you can only pay for Teslas in Bitcoin, or if SpaceX=
+ announced that the only legal tender on Mars will be Bitcoin, that would b=
+e good for Bitcoin demand. There is a sort of future-of-the-galactic-econom=
+y case for Bitcoin that Elon Musk can bolster. And in fact Tesla has said t=
+hat it will (non-exclusively) accept Bitcoins for Teslas, and that it will =
+keep a portion of its corporate cash in Bitcoin. Tesla, a big important com=
+pany that Musk runs, is making real business decisions that seem to be bull=
+ish for Bitcoin. If you buy Bitcoin based on Musk=E2=80=99s half-joking Twi=
+tter enthusiasm, you could be making a sensible bet on business fundamental=
+s.</p><p style=3D"margin: 16px 0;">When Elon Musk does Dogecoin things =E2=
+=80=A6=C2=A0well, look, Dogecoin is <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/23799615.262686/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjEtMDUtMDcvY3J5cHRvLXByb3MtYXJlLWdldHRpbmctdGlyZWQtb2YtdGhl=
+LTc5LWJpbGxpb24tZG9nZWNvaW4tam9rZQ/607f07ceef4b8524a319a23cB30a528c8" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> famously a jok=
+e</a>, and Elon Musk enjoys jokes, and people enjoy following along with El=
+on Musk=E2=80=99s jokes at home, and so when Elon Musk does a Dogecoin joke=
+ Dogecoin goes up.=C2=A0There is an obvious =E2=80=9Crich famous weird guy =
+with a fandom=E2=80=9D effect.</p><p style=3D"margin: 16px 0;">On the other=
+ hand, is there a business fundamentals case? Will Tesla accept Dogecoin as=
+ payment? Will it be legal tender on Mars? Sure, I dunno, whatever,=C2=A0bu=
+t on =E2=80=9CSaturday Night Live=E2=80=9D this weekend Musk <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/23799615.262686/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMDgvZG9nZWNvaW4tZmFsbHMtYWh=
+lYWQtb2YtbXVzay1zLXNhdHVyZGF5LW5pZ2h0LWxpdmUtYXBwZWFyYW5jZQ/607f07ceef4b852=
+4a319a23cB2ac00de5" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> leaned hard on the =E2=80=9Cjoke=E2=80=9D side</a>:</p><blockquo=
+te><p style=3D"margin: 16px 0;">Dogecoin, the fifth most valuable cryptocur=
+rency, retreated from an all-time high after billionaire Elon Musk, appeari=
+ng on =E2=80=9CSaturday Night Live,=E2=80=9D jokingly called it =E2=80=9Ca =
+hustle.=E2=80=9D</p><p style=3D"margin: 16px 0;">The altcoin had surpassed =
+73 cents on Saturday before dropping to 46.01 cents as of 8:08 a.m. in New =
+York Sunday, a 35% decline in 24 hours, according to pricing from CoinGecko=
+. =E2=80=A6</p><p style=3D"margin: 16px 0;">Musk was asked repeatedly durin=
+g the =E2=80=9CWeekend Update=E2=80=9D segment to explain what Dogecoin is.=
+ After reciting multiple facts about the cryptocurrency in the character of=
+ a financial expert, he was asked if Dogecoin was a =E2=80=9Chustle.=E2=80=
+=9D He responded, =E2=80=9Cyeah, it=E2=80=99s a hustle.=E2=80=9D =E2=80=A6<=
+/p><p style=3D"margin: 16px 0;">An earlier Dogecoin reference came during t=
+he opening monologue where his mother, Maye Musk, joined him on stage. The =
+author and model said she was excited about her Mother=E2=80=99s Day gift, =
+and she hoped it=E2=80=99s not Dogecoin -- to which he said, =E2=80=9Cit is=
+.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">I want to emphasize=
+ again that I understand nothing, but, like =E2=80=A6=C2=A0if you bet big o=
+n Dogecoin heading into =E2=80=9CSaturday Night Live,=E2=80=9D and then dum=
+ped your Dogecoins because you didn=E2=80=99t like what you heard on =E2=80=
+=9CSaturday Night Live,=E2=80=9D what=C2=A0<em>were=C2=A0</em>you hoping to=
+ hear? Like, =E2=80=9CSaturday Night Live=E2=80=9D is a comedy program. Elo=
+n Musk was going to make jokes about Dogecoin. That was pretty much the bes=
+t you could hope for, from Elon Musk on =E2=80=9CSaturday Night Live,=E2=80=
+=9D if you=E2=80=99re a Dogecoin bull.=C2=A0</p><h2 style=3D"font-weight: b=
+old; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; le=
+tter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; border-botto=
+m-style: dotted; padding-bottom: 5px; margin-top: 30px; margin-bottom: 0;">=
+I am sorry but: to the moon</h2><p style=3D"margin: 16px 0;">Uh =E2=80=A6=
+=C2=A0is=C2=A0<em>this=C2=A0</em><a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/23799615.262686/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAyMS8wNS8wOS9z=
+cGFjZXgtYWNjZXB0cy1kb2dlY29pbi1wYXltZW50LWZvci1kb2dlLTEtbWlzc2lvbi10by10aGU=
+tbW9vbi5odG1s/607f07ceef4b8524a319a23cB8af96b80" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">what you were hoping to hear</a>?</p=
+><blockquote><p style=3D"margin: 16px 0;">Elon Musk=E2=80=99s SpaceX will l=
+aunch the =E2=80=9CDOGE-1 Mission to the Moon=E2=80=9D in the first quarter=
+ of 2022, with the company accepting the meme-inspired cryptocurrency as fu=
+ll payment for the lunar payload.</p><p style=3D"margin: 16px 0;">Geometric=
+ Energy Corporation announced the dogecoin-funded mission on Sunday, which =
+SpaceX=E2=80=99s communications team confirmed in an email to reporters. Th=
+e mission=E2=80=99s financial value was not disclosed.</p><p style=3D"margi=
+n: 16px 0;">DOGE-1 will fly a 40 kilogram cube satellite as a payload on a =
+Falcon 9 rocket, with Geometric Energy Corporation saying its payload =E2=
+=80=9Cwill obtain lunar-spatial intelligence from sensors and cameras on-bo=
+ard with integrated communications and computational systems.=E2=80=9D</p><=
+p style=3D"margin: 16px 0;">SpaceX vice president of commercial sales Tom O=
+chinero said in a statement that DOGE-1 =E2=80=9Cwill demonstrate the appli=
+cation of cryptocurrency beyond Earth orbit and set the foundation for inte=
+rplanetary commerce.=E2=80=9D</p><p style=3D"margin: 16px 0;">=E2=80=9CWe=
+=E2=80=99re excited to launch DOGE-1 to the Moon!=E2=80=9D Ochinero said.</=
+p></blockquote><p style=3D"margin: 16px 0;">The price <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/23799615.262686/aHR0cHM6Ly9ueW1hZy5jb20=
+vaW50ZWxsaWdlbmNlci8yMDIxLzA1L2RvZ2Vjb2luLXN1cnZpdmVzLW11c2tzLXNubC1qb2tlcy=
+13aWxsLWZ1bmQtbW9vbi1taXNzaW9uLmh0bWw/607f07ceef4b8524a319a23cB801a1c20" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">went back up=
+</a>. Geometric Energy Corp.=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/23799615.262686/aHR0cHM6Ly93d3cuZ2VvbWV0cmljZW5lcmd5LmNhLw/=
+607f07ceef4b8524a319a23cBfde8862f" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">makes nitrile gloves</a>, does other miscellaneous=
+ projects, and says =E2=80=9CTransforming Civilization=E2=80=9D at the top =
+of its web page. I have to say, I really admire this trade; this is how you=
+ do postmodern finance. I think the trade is:</p><ol style=3D"list-style-ty=
+pe: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bo=
+ttom: 5px;">Accumulate a bunch of Dogecoins.</li>=09<li style=3D"margin-bot=
+tom: 5px;">Go to Elon Musk and say =E2=80=9Chey would you accept payment in=
+ Dogecoins to do a=C2=A0Dogecoin stunt?=E2=80=9D</li>=09<li style=3D"margin=
+-bottom: 5px;">Elon Musk is like =E2=80=9Csure, I love Dogecoins, and stunt=
+s.=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">You pay him some Dogec=
+oins to launch some stuff into space.</li>=09<li style=3D"margin-bottom: 5p=
+x;">You and he both announce that SpaceX is accepting Dogecoin for payment =
+for a rocket payload that has something to do with the moon.[1]</li>=09<li =
+style=3D"margin-bottom: 5px;">=E2=80=9CLook: SpaceX is accepting Dogecoin! =
+Institutional adoption! Dogecoin is a useful currency! There are applicatio=
+ns! Dogecoin will be the official currency of space travel! It will be wide=
+ly adopted throughout the galaxy! If you are traveling to Mars you will nee=
+d to convert some dollars into Dogecoin!=E2=80=9D You know, that sort of th=
+ing.</li>=09<li style=3D"margin-bottom: 5px;">The value of your remaining s=
+tash of Dogecoins goes up a lot.</li></ol><p style=3D"margin: 16px 0;">If y=
+ou have 10 million Dogecoins, what you want to do is=C2=A0<em>spend a milli=
+on of them</em>, because demonstrating that you can spend Dogecoins is a go=
+od way to prove that they are useful and thus make the value of your remain=
+ing 9 million Dogecoins go up. What you particularly want to do is=C2=A0<em=
+>spend your Dogecoins at an Elon Musk store</em>, because that will focus a=
+ lot of attention on the fact that you can spend Dogecoins, because people =
+pay a lot of attention to the Elon Musk stores. And you want to spend them =
+on the most high-profile and stunty Elon Musk store available, which is pro=
+bably shooting a rocket to the moon.</p><p style=3D"margin: 16px 0;">Dogeco=
+in is =E2=80=94=C2=A0so much postmodern crypto/GameStop finance is, really =
+=E2=80=94=C2=A0finance with the cash flows abstracted away. In traditional =
+finance, you have a=C2=A0thing with some more or less uncertain stream of f=
+uture=C2=A0cash flows, and the value of the thing is the present value of i=
+ts future cash flows, filtered through some large amount of uncertainty and=
+ psychology and behavior and greed and fear and technical factors and fund =
+flows etc. The skill set is some combination of understanding the cash flow=
+s and understanding the psychology.</p><p style=3D"margin: 16px 0;">In post=
+modern finance the psychology is the only thing. For sort of accidental pat=
+h-dependence reasons, the people making fortunes in this world are often=C2=
+=A0<em>finance=C2=A0</em>people, quant traders who saw the rise of crypto a=
+nd thought =E2=80=9Cthat=E2=80=99s like what I do now, but without any fund=
+amentals,=E2=80=9D and who jumped on it. Fine. But it is not obvious that t=
+his is the right, or only, skill set. Really if postmodern finance is prima=
+rily a matter of=C2=A0mass psychology, isn=E2=80=99t it =E2=80=A6=C2=A0mark=
+eting? Advertising? Isn=E2=80=99t the right skill set not, like, =E2=80=9Ci=
+dentify technical patterns in charts=E2=80=9D but rather =E2=80=9Cthink of =
+good stunts that will make people want to buy a content-free product that y=
+ou happen to be selling=E2=80=9D? If you are a Dogecoin trader and you=E2=
+=80=99re not spending some Dogecoins to get Elon Musk to put out a press re=
+lease with the words =E2=80=9CDogecoin=E2=80=9D and =E2=80=9Cmoon=E2=80=9D =
+and =E2=80=9Crocket=E2=80=9D in it, you might be doing it wrong.</p><h2 sty=
+le=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial, Helve=
+tica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bottom-widt=
+h: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top: 30px;=
+ margin-bottom: 0;">Elsewhere in Elon Musk</h2><p style=3D"margin: 16px 0;"=
+>Well there=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/23799615.262686/aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tLzIwMjEvNS83LzIyNDI0NTk=
+yL3Rlc2xhLWVsb24tbXVzay1hdXRvcGlsb3QtZG12LWZzZC1leGFnZ2VyYXRpb24/607f07ceef=
+4b8524a319a23cB03ae283b" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">this</a>:</p><blockquote><p style=3D"margin: 16px 0;">Tesla =
+CEO Elon Musk has been overstating the capabilities of the company=E2=80=99=
+s advanced driver assist system, the company=E2=80=99s director of Autopilo=
+t software told the California Department of Motor Vehicles. The comments c=
+ame from a memo released by legal transparency group PlainSite, which obtai=
+ned the documents from a public records request. ...</p><p style=3D"margin:=
+ 16px 0;">=E2=80=9CElon=E2=80=99s tweet does not match engineering reality =
+per CJ. Tesla is at Level 2 currently,=E2=80=9D the California DMV said in =
+the memo about its March 9th conference call with Tesla representatives, in=
+cluding the director of Autopilot software CJ Moore. Level 2 technology ref=
+ers to a semi-automated driving system, which requires supervision by a hum=
+an driver.=C2=A0</p><p style=3D"margin: 16px 0;">In an earnings call in Jan=
+uary, Musk told investors that he was =E2=80=9Chighly confident the car wil=
+l be able to drive itself with reliability in excess of human this year.=E2=
+=80=9D (It would appear the DMV was referring to these January comments, wh=
+ich Moore misunderstood as a tweet from Musk.) =E2=80=A6</p><p style=3D"mar=
+gin: 16px 0;">Tesla is unlikely to achieve Level 5 (L5) autonomy, in which =
+its cars can drive themselves anywhere, under any conditions, without any h=
+uman supervision, by the end of 2021, Tesla representatives told the DMV.</=
+p></blockquote><p style=3D"margin: 16px 0;">Is this securities fraud? Meh. =
+We have talked a lot recently about the notion that influential visionary s=
+tartup founders are expected to do a certain amount of optimistic truth-str=
+etching,=C2=A0that seeing the future so clearly that you convince yourself =
+it=E2=80=99s here already is part of the job. Occasionally actual startup f=
+ounders <a href=3D"https://link.mail.bloombergbusiness.com/click/23799615.2=
+62686/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtM=
+DYvZG9nZWNvaW4taXMtdXAtYmVjYXVzZS1pdC1zLWZ1bm55/607f07ceef4b8524a319a23cB53=
+106a0e" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: solid; background-color: #ccc;"> g=
+et in trouble</a> for this. Other times, startup founders take their compan=
+ies public, and then <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/23799615.262686/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVz=
+LzIwMjEtMDItMjYvc3RhcnR1cHMtc29tZXRpbWVzLXN0cmV0Y2gtdGhlLXRydXRo/607f07ceef=
+4b8524a319a23cB7c7d5260" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> can=E2=80=99t adapt</a> to their new, more factual obligati=
+ons as public-company CEOs. And then there=E2=80=99s Elon Musk, who just ge=
+ts to keep talking like a visionary startup founder even though he runs a g=
+iant public company.</p><p style=3D"margin: 16px 0;">I think the trick is t=
+o say=C2=A0<em>so much=C2=A0</em>nonsense that anyone who focuses on one pa=
+rticular untrue statement looks a little silly: =E2=80=9CSure I said our ca=
+rs would be fully self-driving this year, and that wasn=E2=80=99t true, but=
+ I tweet like 10 crazy jokes a day, why would anyone believe me?=E2=80=9D=
+=C2=A0</p><p style=3D"margin: 16px 0;">Oh also Musk is <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/23799615.262686/aHR0cHM6Ly93d3cubnl0aW=
+1lcy5jb20vMjAyMS8wNS8wNy9zdHlsZS9lbG9uLW11c2stbWVtZXMuaHRtbA/607f07ceef4b85=
+24a319a23cB8a9531bd" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">a meme thief</a>: People make jokes on the internet, and Musk =
+reposts them to his accounts without attribution. I don=E2=80=99t really kn=
+ow what to make of this. On the one hand, Musk is a busy guy, running two f=
+uturistic companies and pumping cryptocurrencies and doing sketch comedy on=
+ national television; I suppose it=E2=80=99s good that he steals memes from=
+ the internet rather than carefully handcrafting them himself. (Obviously i=
+t=E2=80=99s=C2=A0<em>rude</em>, mean to creators, etc., but equally obvious=
+ly he doesn=E2=80=99t care about other people and getting mad at him for st=
+ealing memes won=E2=80=99t change anything.)</p><p style=3D"margin: 16px 0;=
+">On the other hand, Musk is a busy guy, running two futuristic companies e=
+tc.; doesn=E2=80=99t he have better things to do than=C2=A0<em>steal memes?=
+=C2=A0</em>Ugh, no, I guess=C2=A0my theory of Elon Musk compels me to say t=
+hat the most value he can add to his companies =E2=80=94=C2=A0more than dre=
+aming up new cars or rockets, or finding good acquisitions or optimizing th=
+e capital structure or hiring talented managers or whatever other normal-CE=
+O things he sometimes does =E2=80=94=C2=A0is by tweeting the good tweets. I=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/23799615.262686/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDMtMTcvZ3Jl=
+ZW5zaWxsLWRpZG4tdC1qdXN0LWZpbmFuY2UtYmx1ZXN0b25lLXMtc3VwcGx5LWNoYWlu/607f07=
+ceef4b8524a319a23cB7db08cc3" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> once wrote</a> that the optimal use of time for a moder=
+n CEO might be to =E2=80=9Cdo good tweets to get a lot of fans on the inter=
+net, who will buy the stock for the lols and maximize the stock price=E2=80=
+=9D:</p><blockquote><p style=3D"margin: 16px 0;">There will be academic pap=
+ers and Harvard Business School case studies about how CEOs who tweet a lot=
+ of nonsense=C2=A0maximize shareholder value; it will become a conventional=
+ part of the business school curriculum; a generation of CEOs will grow up =
+just assuming that being weird edgelords online is not just fun but also=C2=
+=A0<em>their legal and moral obligation as fiduciaries for their shareholde=
+rs</em>.</p></blockquote><p style=3D"margin: 16px 0;">And if the most effic=
+ient way to do the good tweets is by stealing content from other users, wel=
+l, that=E2=80=99s just capitalism I guess.</p><p style=3D"margin: 16px 0;">=
+Oh and: =E2=80=9CGerman engineer predicted <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/23799615.262686/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjEvMD=
+UvMDgvZ2VybWFuLWVuZ2luZWVyLXByZWRpY3RlZC1lbG9uLXdvdWxkLWNvbnF1ZXItbWFycy1pb=
+i0xOTUyLW5vdmVsLz91dG1fY2FtcGFpZ249aXBob25lX255cCZ1dG1fc291cmNlPUdtYWls/607=
+f07ceef4b8524a319a23cB19da9a35" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">man named =E2=80=98Elon=E2=80=99</a> would conquer Ma=
+rs in 1952 novel,=E2=80=9D why not.</p><h2 style=3D"font-weight: bold; font=
+-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spac=
+ing: -1px; font-size: 20px; border-bottom-width: 1px; border-bottom-style: =
+dotted; padding-bottom: 5px; margin-top: 30px; margin-bottom: 0;">Sovereign=
+ bond allocations</h2><p style=3D"margin: 16px 0;">We are spending a lot of=
+ time on dumb crypto things so let=E2=80=99s take a break and talk about a =
+dumb traditional high-finance thing. Here is a <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/23799615.262686/aHR0cHM6Ly93d3cud3NqLmNvbS9hcn=
+RpY2xlcy9oZWRnZS1mdW5kcy1mYWNlLWJhY2tsYXNoLWZyb20tZXVyb3BlLWluLWJvbmQtbWFya=
+2V0LTExNjIwNjM5MTE0P21vZD1ocF9sZWFkX3BvczQ/607f07ceef4b8524a319a23cB88fb734=
+3" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">Wall St=
+reet Journal story about sovereign bond allocations</a>:</p><blockquote><p =
+style=3D"margin: 16px 0;">European governments are acting to limit hedge fu=
+nds=E2=80=99 participation in the market for new sovereign bond issuance, f=
+ollowing a surge in demand from the firms.</p><p style=3D"margin: 16px 0;">=
+The pushback was prompted by unusually large orders placed by hedge funds f=
+or new bonds, which can then potentially be sold=E2=80=94sometimes within h=
+ours=E2=80=94to the European Central Bank for a profit, bankers, investors =
+and a government official said. Order books, which track demand for new bon=
+ds and help determine the prices, have ballooned since hedge funds began to=
+ pile into this trade.</p><p style=3D"margin: 16px 0;">The debt-management =
+offices of Spain and Italy have placed caps ranging from 500 million euros =
+to 1 billion euros, equivalent to $608 million to $1.2 billion, on orders f=
+rom hedge funds for bonds directly issued by countries in the primary marke=
+t, according to bankers who worked on the deals. France has also limited or=
+der sizes, an official said.</p><p style=3D"margin: 16px 0;">Millennium Man=
+agement, Brevan Howard, DoubleLine, Tenaron Capital Management and BlueBay =
+Asset Management are among the hedge funds that have been active in the pri=
+mary market for sovereign bonds in recent months, according to bankers. Som=
+e hedge funds have put in orders for as much as 3 billion euros of bonds in=
+ a single offering, which is far more than they can realistically buy, the =
+bankers said.</p></blockquote><p style=3D"margin: 16px 0;">So there are two=
+ dumb things here. One is that the hedge funds=E2=80=99 trade is just:</p><=
+ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Buy new-issue European government bond=
+s.</li>=09<li style=3D"margin-bottom: 5px;">Sell them immediately to the EC=
+B.</li></ol><p style=3D"margin: 16px 0;">There are good historical and inst=
+itutional reasons that the ECB doesn=E2=80=99t buy new-issue=C2=A0bonds dir=
+ectly from the governments of member states (=E2=80=9Cmonetizing the debt,=
+=E2=80=9D bad), but the result is that now it buys them indirectly from hed=
+ge funds. The hedge funds are effectively getting paid a commission for hel=
+ping the ECB do a regulatory arbitrage: It can=E2=80=99t buy new-issue bond=
+s, it wants to buy new-issue bonds, so it buys almost-new-issue bonds from =
+hedge funds for a small markup. This is a little dumb =E2=80=94=C2=A0why wa=
+ste money on paying hedge funds? =E2=80=94=C2=A0but it is in the ordinary l=
+ine of high-finance dumbness. One very standard business line for hedge fun=
+ds is helping regulated entities offload regulatory difficulties, for a fee=
+, and you can think of this in the same terms.</p><p style=3D"margin: 16px =
+0;">The other dumb thing has to do with how new-issue securities are sold. =
+You might imagine a system like this:</p><ol style=3D"list-style-type: deci=
+mal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5p=
+x;">An issuer announces how much of a thing it wants to sell and a rough pr=
+ice range. =E2=80=9CWe want to sell 1 billion things at a range of 97 to 10=
+3.=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">Its banks canvass pote=
+ntial buyers to market the thing.</li>=09<li style=3D"margin-bottom: 5px;">=
+The potential buyers submit a demand schedule of how much of the thing they=
+=E2=80=99d like to buy at various price points: =E2=80=9CWe won=E2=80=99t b=
+uy it for 102 or above, we=E2=80=99d buy a million of it at 101, we=E2=80=
+=99d buy 2 million at 100, we=E2=80=99d buy 3 million at 99 or below,=E2=80=
+=9D etc.[2]</li>=09<li style=3D"margin-bottom: 5px;">The issuer and its ban=
+ks look at the schedule of demand: =E2=80=9CWe have orders for 1.86 billion=
+ at 99, 1.31 billion at 100, 1.04 billion at 101, 956 million at 102,=E2=80=
+=9D etc.</li>=09<li style=3D"margin-bottom: 5px;">They price the thing at t=
+he highest price at which there is enough demand to get the size they want:=
+ Here, there's 1.04 billion of demand at 101, and they want to sell 1 billi=
+on, so they price at 101.</li></ol><p style=3D"margin: 16px 0;">This is an =
+easy system to imagine, and everyone does=C2=A0imagine it. The process for =
+most initial public offerings of <em>stock</em> does<em>=C2=A0kind of=C2=A0=
+</em>work like this, in a rough and imperfect way. Every so often an issuer=
+ will be like =E2=80=9Cwhat if we made it work more like that,=E2=80=9D and=
+ you get things like the <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/23799615.262686/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGlj=
+bGVzLzIwMTgtMDEtMDQvc3BvdGlmeS1zLW5vbi1pcG8tcmVhbGx5LWlzLW5vdmVs/607f07ceef=
+4b8524a319a23cB7c11f44d" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> Google IPO</a> (a Dutch auction where investors submitted o=
+rders at prices) <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+3799615.262686/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIw=
+MjEtMDEtMDgvbW9uZXktc3R1ZmYtc3BhYy1tYWdpYy1pc24tdC1mcmVl/607f07ceef4b8524a3=
+19a23cBe9e4ef17" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">or the</a> =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/23799615.262686/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydG=
+ljbGVzLzIwMjEtMDEtMDcvdGhlLWlwby1tYXJrZXQtd2FzLXRvby1nb29k/607f07ceef4b8524=
+a319a23cBb8c32e05" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> hybrid IPO</a>=E2=80=9D (where investors submit a full schedule o=
+f demand and the issuer looks at it to pick a price) or even direct listing=
+s (where there=E2=80=99s a two-sided auction to pick the opening price).=C2=
+=A0These processes are not perfect, though; there are IPO pops, etc., and p=
+eople complain a lot.</p><p style=3D"margin: 16px 0;">The way=C2=A0<em>bond=
+ </em>new issues often work, though, is sort of like this:</p><ol style=3D"=
+list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=
+=3D"margin-bottom: 5px;">An issuer announces how much of a bond it wants to=
+ sell and a rough price. =E2=80=9CWe want to sell 1 billion bonds at about =
+1%,=E2=80=9D=C2=A0etc.</li>=09<li style=3D"margin-bottom: 5px;">Its banks c=
+anvass potential buyers.</li>=09<li style=3D"margin-bottom: 5px;">The poten=
+tial buyers say =E2=80=9Cwe=E2=80=99d buy 1 million=E2=80=9D or whatever.</=
+li>=09<li style=3D"margin-bottom: 5px;">The issuer and its banks look at th=
+e total amount of demand and pick a price out of =E2=80=A6=C2=A0thin air? L=
+ike, if the issuer has 10 billion of orders, it will say =E2=80=9Cthat=E2=
+=80=99s pretty good, let=E2=80=99s price at 0.95%=E2=80=9D; if it has 1.01 =
+billion of orders it will say =E2=80=9Chmm, cutting it close, let=E2=80=99s=
+ price at 1.05%.=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">If there=
+=E2=80=99s a lot of demand, the issuer will price at a low interest rate =
+=E2=80=94=C2=A00.95% or whatever =E2=80=94=C2=A0and the people who put in o=
+rders thinking the bond would price at 1% will be surprised.</li>=09<li sty=
+le=3D"margin-bottom: 5px;">Some of them will withdraw their orders =E2=80=
+=94=C2=A0=E2=80=9Cwe would have bought 1 million at 1%, but not at 0.95%=E2=
+=80=9D =E2=80=94=C2=A0and the issuer and bankers will get mad at them, beca=
+use that is viewed as not sporting. Your order is supposed to be your order=
+, no matter what the price is.</li></ol><p style=3D"margin: 16px 0;">I find=
+ this very weird! Yet it is sort of the norm. From the Journal:</p><blockqu=
+ote><p style=3D"margin: 16px 0;">The recent surge of interest from hedge fu=
+nds in the primary market is making it difficult to price the bonds, as it =
+is more difficult to gauge the real demand, said Benjamin de Forton, a debt=
+-capital markets director at BNP Paribas.</p><p style=3D"margin: 16px 0;">F=
+or instance, Spain attracted 130 billion euros of orders for a 10-year bond=
+ offering in January. But as bankers hammered out the final terms of the sa=
+le and the proposed price climbed, demand for the bonds abruptly halved. Th=
+at was because hedge funds pulled their orders as their already slim profit=
+ margins shrank, bankers said. The government ultimately raised 10 billion =
+euros, with the bulk of the buyers being traditional asset managers. Hedge =
+funds got about 5.5% of the bonds sold, bankers on the deal said.</p><p sty=
+le=3D"margin: 16px 0;">=E2=80=9CSwift moves in fast-money account orders ha=
+ve meant new-bond execution was at times potentially more challenging,=E2=
+=80=9D Mr. de Forton said.</p></blockquote><p style=3D"margin: 16px 0;">Yea=
+h, I don=E2=80=99t know, I sympathize a lot with the hedge funds there? Why=
+ not just <em>ask them</em>? Instead of sending them a form like =E2=80=9Ch=
+ow many bonds would you like,=E2=80=9D send them a form like =E2=80=9Chow m=
+any bonds would you like at different prices?=E2=80=9D Build a schedule of =
+demand and then use it to price your bonds.</p><p style=3D"margin: 16px 0;"=
+>The other problem is that there is a self-reinforcing thing where issuers =
+take orders for more bonds than they are selling, and so investors don=E2=
+=80=99t get as many bonds as they ask for, and so they put in larger orders=
+ to try to get more bonds, and so they get cut back even more, etc.:</p><bl=
+ockquote><p style=3D"margin: 16px 0;">Banks that run debt sales for governm=
+ents tend to allocate less than 10% of an issuance to hedge funds. The firm=
+s typically receive only around 1% of what they offer to buy, which encoura=
+ges them to place large orders, according to bankers. That means an offer t=
+o buy about 2 billion euros in bonds could net the hedge funds about 20 mil=
+lion euros of the securities. ...</p><p style=3D"margin: 16px 0;">France=E2=
+=80=99s debt management office asked banks in March to hold talks with hedg=
+e funds to encourage them to put in smaller orders, according to Anthony Re=
+quin, chief executive of the agency. Firms that put in unrealistically larg=
+e orders would be penalized with a smaller allocation than other firms that=
+ put in more =E2=80=9Creasonable orders,=E2=80=9D he said.</p></blockquote>=
+<p style=3D"margin: 16px 0;">These problems interact: If a hedge fund wants=
+ 20 million bonds at 1% or higher, it will put in an order for 2 billion bo=
+nds, but if the price goes up so the yield is below 1% it will pull that wh=
+ole order:</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=9CThe relatio=
+nship between what could be considered as a good transaction and the sheer =
+size of the order book is broken,=E2=80=9D said Mr. Requin. =E2=80=9COne ma=
+y be confronted with a skyrocketing order book, but which is in fact of poo=
+r quality. In that case, tightening the price might be challenging or risky=
+ if you are targeting a transaction of [a] certain size.=E2=80=9D</p></bloc=
+kquote><p style=3D"margin: 16px 0;">These just feel like solvable problems.=
+ The U.S. Treasury, it should be said,=C2=A0<a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/23799615.262686/aHR0cHM6Ly93d3cudHJlYXN1cnlkaXJlY=
+3QuZ292L2luc3RpdC9hdWN0ZnVuZC93b3JrL3dvcmsuaHRt/607f07ceef4b8524a319a23cB99=
+bf85e1" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: solid; background-color: #ccc;">au=
+ctions its bonds</a>, which seems to work?</p><h2 style=3D"font-weight: bol=
+d; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; lett=
+er-spacing: -1px; font-size: 20px; border-bottom-width: 1px; border-bottom-=
+style: dotted; padding-bottom: 5px; margin-top: 30px; margin-bottom: 0;">So=
+cks</h2><p style=3D"margin: 16px 0;">The way that <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/23799615.262686/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtMTMvZ3JhYi1zcGFjLW1lZ2EtbWVyZ2VyLW=
+lzbi10LW1lZ2Etd2l0aG91dC1ibGFja3JvY2stcGlwZQ/607f07ceef4b8524a319a23cBe5e8a=
+b0e" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">non-f=
+ungible tokens</a> often work is:</p><ol style=3D"list-style-type: decimal;=
+ padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">=
+You acquire some physical object, ideally a rare or unique one, perhaps a w=
+ork of art.</li>=09<li style=3D"margin-bottom: 5px;">You light it on fire.<=
+/li>=09<li style=3D"margin-bottom: 5px;">You create a video recording of th=
+e destruction of the object, or at least type up a certificate saying =E2=
+=80=9CI destroyed this object.=E2=80=9D</li>=09<li style=3D"margin-bottom: =
+5px;">You encode the video or the certificate on a blockchain, as a unique =
+immutable token.</li>=09<li style=3D"margin-bottom: 5px;">You sell the toke=
+n to someone else, for more than you paid for the object.</li></ol><p style=
+=3D"margin: 16px 0;">I do not pretend to understand it either, but we have =
+talked a <a href=3D"https://link.mail.bloombergbusiness.com/click/23799615.=
+262686/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDMt=
+MDgvbGlib3ItaXMtZ29pbmctYXdheS1mb3ItcmVhbA/607f07ceef4b8524a319a23cB44eb4d2=
+2" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> couple=
+</a> of <a href=3D"https://link.mail.bloombergbusiness.com/click/23799615.2=
+62686/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtM=
+DMvc3BhY3MtYXJlbi10LWEtZ3VhcmFudGVlLWNmLWZpbmFuY2UtaWlpLWFuZC1hZXllLWFyZS1w=
+cm9vZg/607f07ceef4b8524a319a23cB5bfa9579" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> times</a> about this basic =E2=80=9Cobjec=
+t =E2=80=94=C2=A0fire =E2=80=94=C2=A0token =E2=80=94=C2=A0money=E2=80=9D NF=
+T cycle and it is, if not the default, at least=C2=A0<em>one=C2=A0</em>stan=
+dard way to make and sell and understand NFTs. You remove an art object fro=
+m circulation in the physical world and circulate it instead in the blockch=
+ain world, for more money.</p><p style=3D"margin: 16px 0;">One way to think=
+ about this process might be that the fire, and the encoding on the blockch=
+ain,=C2=A0<em>adds value</em>. A painting is worth $100,000, but a painting=
+ that has been burnt to ashes and put on the blockchain is worth $200,000, =
+in the same way that flour and eggs and sugar are worth $3, but if you comb=
+ine them in the oven and make=C2=A0a cake it is=C2=A0worth $6. You have tak=
+en some ingredients (a work of art, a lighter, a video camera) and combined=
+ them with your labor to make something more useful and desirable. I am typ=
+ing this theory here for completeness, but it does not strike me as at all =
+plausible.</p><p style=3D"margin: 16px 0;">The more plausible way to think =
+about this process might be one of market segmentation and arbitrage. There=
+ are some people who like paintings and will pay $X for a painting. <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/23799615.262686/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtMDUvYmlsbC1od2Fu=
+Zy1zLWFyY2hlZ29zLXN3YXAtYWZ0ZXJtYXRoLWlzLWF3a3dhcmQtZm9yLWJhbmtz/607f07ceef=
+4b8524a319a23cB5eab2c7a" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> There are other people</a> who like NFTs and will pay $Y fo=
+r a token of a burnt painting. When X &gt; Y =E2=80=94=C2=A0as, loosely spe=
+aking, it has been for most of human history =E2=80=94=C2=A0people will kee=
+p paintings intact. When Y &gt; X =E2=80=94=C2=A0as it seems to have been r=
+ecently during a wild NFT boom =E2=80=94=C2=A0people will burn paintings to=
+ sell them as higher-value NFTs.[3]</p><p style=3D"margin: 16px 0;">On the =
+other hand, if X &gt; Y again =E2=80=94=C2=A0if the NFT market cools and pa=
+intings are worth more than tokens again =E2=80=94=C2=A0it would be nice to=
+ have a way to transform the tokens back into paintings. Take the NFTs, lig=
+ht them on fire, have a painting come out, and sell the painting for more t=
+han you paid for the NFT. Just as a matter of market completeness one wants=
+ this to be possible, to be able to trade frictionlessly between physical o=
+bjects and their blockchain representations. Financial processes <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/23799615.262686/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTQtMDktMDMvdGhlLWdvbGRtYW4=
+tc2FjaHMtYWx1bWludW0tY29uc3BpcmFjeS1sYXdzdWl0LWlzLW92ZXI/607f07ceef4b8524a3=
+19a23cBd070a604" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> ought to be reversible</a>.</p><p style=3D"margin: 16px 0;">Unfortu=
+nately, for reasons of physics, it is very difficult to reverse the =E2=80=
+=9Cobject =E2=80=94=C2=A0fire =E2=80=94=C2=A0token =E2=80=94=C2=A0money=E2=
+=80=9D NFT process, because if you light a token on fire you cannot get the=
+ original painting back.[4] You cannot burn tokens to get back paintings.</=
+p><p style=3D"margin: 16px 0;">You can, however, burn tokens to get back so=
+cks. Here are=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click=
+/23799615.262686/aHR0cHM6Ly91bmlzb2Nrcy5leGNoYW5nZS8/607f07ceef4b8524a319a2=
+3cB997b64ce" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">Unisocks</a>, which are socks that trade on the Uniswap crypto platform:=
+</p><blockquote><p style=3D"margin: 16px 0;">$SOCKS is a token that entitle=
+s you to 1 real pair of limited edition socks, shipped anywhere in the worl=
+d.</p><p style=3D"margin: 16px 0;">You can sell the token back at any time.=
+ To get a real pair, redeem a $SOCKS token.</p></blockquote><p style=3D"mar=
+gin: 16px 0;">=E2=80=9CSOCKS will be burned in exchange for 1 real pair of =
+unisocks + shipping to anywhere in the world,=E2=80=9D <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/23799615.262686/aHR0cHM6Ly90d2l0dGVyLm=
+NvbS9Vbmlzd2FwL3N0YXR1cy8xMTI2NTA2MzQzOTAzMzEzOTIx/607f07ceef4b8524a319a23c=
+B5152b1b9" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>said Uniswap Labs</a> when it announced the socks in 2019, so, yes, you co=
+uld burn tokens for socks.[5]=C2=A0</p><p style=3D"margin: 16px 0;">As of 1=
+0 a.m. today, the SOCKS token was <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/23799615.262686/aHR0cHM6Ly9jb2lubWFya2V0Y2FwLmNvbS9jdXJyZW5=
+jaWVzL3VuaXNvY2tzLw/607f07ceef4b8524a319a23cBa23773ef" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">trading at about $99,000</a>. =
+So a tokenized pair of limited-edition socks was worth $99,000. People woul=
+d=C2=A0pay $99,000 for a non-wearable blockchain representation of a pair o=
+f socks.</p><p style=3D"margin: 16px 0;">Is that more or less than they=E2=
+=80=99d pay for the physical, wearable=C2=A0socks? Well, look. For one thin=
+g, you can get <a href=3D"https://link.mail.bloombergbusiness.com/click/237=
+99615.262686/aHR0cHM6Ly93d3cubmV3eW9ya2VyLmNvbS9jdWx0dXJlL29uLWFuZC1vZmYtdG=
+hlLWF2ZW51ZS93aGVyZS10aGUtcG9wZS1nZXRzLWhpcy1zb2Nrcw/607f07ceef4b8524a319a2=
+3cBc9903f18" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">very nice socks</a> for less than $20, though that tells you nothing; <e=
+m>these</em> socks are an art project/collectible/stunt, so whether you buy=
+ them in token form or sock form you are mostly paying for some sort of int=
+angible prestige. For another thing, I think it is reasonable to say that i=
+f some crypto startup =E2=80=94=C2=A0or some movie star or musician or athl=
+ete or Elon Musk or any other conveyer of prestige for that matter =E2=80=
+=94=C2=A0just announced a limited edition of 500 pairs of socks, those sock=
+s would not trade for $99,000.[6] You have to transmute the socks through t=
+he NFT first.=C2=A0</p><p style=3D"margin: 16px 0;">On the other hand, once=
+ you have done that, maybe the socks are worth more than the token? Apparen=
+tly yesterday <a href=3D"https://link.mail.bloombergbusiness.com/click/2379=
+9615.262686/aHR0cHM6Ly90d2l0dGVyLmNvbS9XaG9vcHRpZWQxL3N0YXR1cy8xMzkxNTc2Mzc=
+4MTE0NTUxODE5/607f07ceef4b8524a319a23cB6a6d7526" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">someone</a>=C2=A0burned=C2=A0<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/23799615.262686/aHR0cHM6L=
+y9ldGhlcnNjYW4uaW8vdHgvMHhlMGI0NDQ5NDJjZDQ5ZTZiYjI5ZmQwYzI3ODU0ZjQ1ZjEwMGI5=
+Y2YyMTI3YTUyOGFkMmVkNGNhNmJjZDViOGM1/607f07ceef4b8524a319a23cB3a97f97e" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">nine pairs=E2=
+=80=99 worth of SOCKS tokens</a>, for socks. (The token was worth about $97=
+,000 at the time.) They looked at the price of the tokens, thought about th=
+e socks, and decided that they=E2=80=99d rather have the socks. To put in t=
+heir trophy case, or to re-sell for more than $97,000, or, of course, to we=
+ar around the house. The object =E2=80=94=C2=A0fire =E2=80=94=C2=A0token =
+=E2=80=94=C2=A0money process is reversible; the market is complete.</p><p s=
+tyle=3D"margin: 16px 0;">Eventually I will write the dumbest possible Money=
+ Stuff and then sell it as an NFT. I don=E2=80=99t think we are there yet b=
+ut we are getting very close.</p><h2 style=3D"font-weight: bold; font-famil=
+y: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: -=
+1px; font-size: 20px; border-bottom-width: 1px; border-bottom-style: dotted=
+; padding-bottom: 5px; margin-top: 30px; margin-bottom: 0;">Things happen</=
+h2><p style=3D"margin: 16px 0;">Hack <a href=3D"https://link.mail.bloomberg=
+business.com/click/23799615.262686/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2FydGljbGVzLzIwMjEtMDUtMDkvdS1zLWZ1ZWwtc2VsbGVycy1zY3JhbWJsZS1mb3ItYWx0ZXJ=
+uYXRpdmVzLXRvLWhhY2tlZC1waXBlbGluZQ/607f07ceef4b8524a319a23cBcaba7a65" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> Idles Pipelin=
+e</a> for Third Day as Supply Concerns Mount. Colonial Hackers <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/23799615.262686/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMDkvY29sb25pYWwtaGFja2Vyc=
+y1zdG9sZS1kYXRhLXRodXJzZGF5LWFoZWFkLW9mLXBpcGVsaW5lLXNodXRkb3du/607f07ceef4=
+b8524a319a23cB856f15ad" itemprop=3D"StoryLink" itemscope=3D"itemscope" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> Stole Data</a> Thursday Ahead of Shutdown. The <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/23799615.262686/aHR0cHM6Ly93d3c=
+ud3NqLmNvbS9hcnRpY2xlcy90aGUtbW9ydGdhZ2UtYm9vbS1pcy1mYWRpbmctMTE2MjA1NTI3OD=
+A_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cBd241bb60" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">Mortgage Boom</a> =
+Is Fading. UBS Dangles <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/23799615.262686/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLz=
+IwMjEtMDUtMTAvdWJzLWJhbmtlcnMtZ2V0LTQwLTAwMC1ib251cy1vbi1wcm9tb3Rpb24tdG8tY=
+XNzb2NpYXRlLWxldmVs/607f07ceef4b8524a319a23cB0c0e15b3" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> $40,000 Bonuses</a> to Slow J=
+unior Banker Defections. New SEC Chairman <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/23799615.262686/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2x=
+lcy9uZXctc2VjLWNoYWlybWFuLXNldHMtc2lnaHRzLW9uLWNpdGFkZWwtc2VjdXJpdGllcy1hbm=
+QtdmlydHUtMTE2MjA1NzYwMDA_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a=
+23cB8a71e1bb" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">Sets Sights</a> on Citadel Securities and Virtu. JPMorgan, Deutsche Ban=
+k Said to Be Among Firms <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/23799615.262686/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVz=
+LzIwMjEtMDUtMTAvbWFsYXlzaWEtMW1kYi1zdWVzLTItZ2xvYmFsLWZpcm1zLW90aGVycy10by1=
+yZWNvdXAtMjNiLWFzc2V0cw/607f07ceef4b8524a319a23cB31516e65" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;"> Sued by 1MDB</a>. Some St=
+artups Went From Rescue <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/23799615.262686/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zb21lLXN0YXJ0d=
+XBzLXdlbnQtZnJvbS1yZXNjdWUtcHBwLWxvYW5zLXRvLXNwYWMtd2luZGZhbGxzLTExNjIwNTYx=
+NjAwP21vZD1ocF9sZWFkX3BvczU/607f07ceef4b8524a319a23cB0edc9a13" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">PPP Loans to SPAC Wind=
+falls</a>. Digital media companies pump the brakes on their rush to go publ=
+ic as <a href=3D"https://link.mail.bloombergbusiness.com/click/23799615.262=
+686/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAyMS8wNS8wOC9kaWdpdGFsLW1lZGlhLWNvbXBhbml=
+lcy1zbG93LXB1YmxpYy1ydXNoLWFzLXNwYWMtbWFya2V0LWNvb2xzLmh0bWw/607f07ceef4b85=
+24a319a23cB53101e48" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">SPAC market cools</a>. BioNTech Raises Covid <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/23799615.262686/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMTAvYmlvbnRlY2gtcmFpc2VzLWNvdm=
+lkLXZhY2NpbmUtc2FsZXMtZXN0aW1hdGUtdG8tMTUtYmlsbGlvbg/607f07ceef4b8524a319a2=
+3cB352d4afb" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> Vaccine Sales Estimate</a> to $15 Billion. As Scrutiny of Cryptocurrenc=
+y Grows, the Industry <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/23799615.262686/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wNS8wOS91cy9wb2x=
+pdGljcy9jcnlwdG9jdXJyZW5jeS1yZWd1bGF0aW9uLXNlYy1yaXBwbGUtbGFicy5odG1s/607f0=
+7ceef4b8524a319a23cB85ea906d" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">Turns to K Street</a>. Pot Users Splurge on <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/23799615.262686/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMTAvcG90LXVzZXJzLXNwbHVy=
+Z2Utb24tODAwLWJvbmdzLWFzLXN0aWdtYXMtZmFkZS1jYW5uYWJpcy13ZWVrbHk/607f07ceef4=
+b8524a319a23cBe12467cc" itemprop=3D"StoryLink" itemscope=3D"itemscope" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> $800 Bongs</a> as Stigmas Fade. Jeff Bezos=E2=80=99s New Sup=
+eryacht Heralds Roaring Market for <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/23799615.262686/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2=
+ZlYXR1cmVzLzIwMjEtMDUtMDcvamVmZi1iZXpvcy1zLW5ldy1zdXBlcnlhY2h0LWhlcmFsZHMtc=
+m9hcmluZy1tYXJrZXQtZm9yLWJpZy1ib2F0cw/607f07ceef4b8524a319a23cB392fbd6f" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> Big Boats</=
+a>. An oral history of Tom Holland's sensational =E2=80=98<a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/23799615.262686/aHR0cHM6Ly93d3cuaW5=
+zaWRlci5jb20vdG9tLWhvbGxhbmQtemVuZGF5YS1saXAtc3luYy1iYXR0bGUtdW1icmVsbGEtb3=
+JhbC1oaXN0b3J5LTIwMjEtNQ/607f07ceef4b8524a319a23cB99c8b1c0" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: solid; background-color: #ccc;">Lip Sync Battle</a>=E2=80=
+=99 performance. Belgian farmer accidentally <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/23799615.262686/aHR0cHM6Ly93d3cuYmJjLmNvbS9uZXdz=
+L3dvcmxkLWV1cm9wZS01Njk3ODM0NA/607f07ceef4b8524a319a23cB8753292f" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">moves French borde=
+r</a>.=C2=A0</p><p style=3D"margin: 16px 0;"><span class=3D"news-designed-f=
+or-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in h=
+andy email form, right in your inbox, please=C2=A0<a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/23799615.262686/aHR0cDovL2xpbmsubWFpbC5ibG9=
+vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMz=
+AwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB23daac08" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">subscribe at this link</a>. Or you can sub=
+scribe to Money Stuff and other great Bloomberg newsletters <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/23799615.262686/aHR0cHM6Ly9sb2dpb=
+i5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB27f1591f" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">here</a>. Than=
+ks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1] They are not, as fa=
+r as I can tell, *landing a Shiba Inu on the moon* or anything, but =E2=80=
+=9Clunar-spatial intelligence=E2=80=9D sure sure sure.</em></p><p style=3D"=
+margin: 16px 0;"><em>[2] In practice with bonds the prices will be interest=
+ rates =E2=80=94=C2=A0=E2=80=9Cnone for 0.95% or less, 1 million at 1%, 2 m=
+illion at 1.05%,=E2=80=9D etc. =E2=80=94=C2=A0but I am trying to be=C2=A0ge=
+neral here.</em></p><p style=3D"margin: 16px 0;"><em>[3] Why would this be?=
+ I think one obvious answer is that <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/23799615.262686/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjEtMDMtMjMvaGFwcHktZ2FtZXN0b3AtZWFybmluZ3MtZGF5/607f07c=
+eef4b8524a319a23cBf163ef54" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> crypto zillionaires like to invest in crypto art</a>, th=
+ere are a lot of crypto zillionaires right now, and =E2=80=9Ccrypto art=E2=
+=80=9D means NFTs, not oil paintings. Art prices are always going to be a s=
+ubjective matter, a question of what sorts of art the current class of rich=
+ people likes, and when the class of rich people changes the relative valua=
+tions of art will change. Another possible answer is a sort of liquidity pr=
+emium: NFTs are *relatively* easy to buy and sell and store and transport a=
+nd keep track of; if you view art less as an aesthetic experience and more =
+as a store of value, that might make NFTs more appealing than paintings. (A=
+ related answer is that, as the first two effects come into play, the price=
+ of NFTs *goes up* relative to the price of paintings, so if you view art a=
+s primarily a speculative investment you might just make a momentum trade i=
+nto NFTs.)</em></p><p style=3D"margin: 16px 0;"><em>[4] I suppose you could=
+ put your private key on a hard drive, blow up the hard drive, commission a=
+ painter to make an oil painting of=C2=A0 the fire, and sell that for more =
+than you paid for the token (I mean, for the token plus the artist=E2=80=99=
+s fee). It=E2=80=99s not the original painting, but it=E2=80=99s something.=
+ Gah, I should actually do this, this is a genuinely good idea, in the extr=
+emely bad-idea context in which we are operating.</em></p><p style=3D"margi=
+n: 16px 0;"><em>[5] You don=E2=80=99t literally burn them, that=E2=80=99s j=
+ust a crypto metaphor. =E2=80=9CBurn=E2=80=9D means, like, convey them back=
+ to the Unisocks Uniswap smart contract for cancellation.=C2=A0</em></p><p =
+style=3D"margin: 16px 0;"><em>[6] Elon Musk once did announce some limited-=
+edition red satin shorts, and they were <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/23799615.262686/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjEtMDEtMDYvdGVzbGEta2VwdC1idXN5LWluLTIwMjA/607f07ce=
+ef4b8524a319a23cB5ae0533b" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> scarce and hoarded</a>, but not, like, $100,000 worth of =
+scarce and hoarded. I see them on eBay now for like three figures.</em></p>
+</td>
+</tr>
+</table>
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23799615.262686/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB8e4b751c" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23799615.262686/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBa7122803" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23799615.262686/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBfa213914" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23799615.262686/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBa1372892" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout">
+<tbody>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+<tr>
+<td class=3D"tout-label"></td>
+</tr>
+<tr>
+<td class=3D"tout-text"><p><em><strong>Like Money Stuff?</strong></em>=C2=
+=A0|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2379=
+9615.262686/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cBd3b9dc7b" itemprop=3D"StoryLink" itemscope=3D"items=
+cope">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p>Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Termin=
+al.=C2=A0Find out more about how the Terminal delivers information and anal=
+ysis that financial professionals can=E2=80=99t find anywhere else.=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/15638356.78421/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRl=
+cm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn more</a>.</p></td>
+</tr>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" id=3D"footer" width=3D"100%" align=3D"center" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; padding-bottom: 10px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> You received this mess=
+age because you are subscribed to Bloomberg's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/23799615.262686/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCcf60f142" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/23799615.262686/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB0c914421" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/23799615.262686/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB908492bf" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</td>
+</tr>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ce63wf.5mou/9c4b6333.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_5548781_534765541.1620664435792--
+

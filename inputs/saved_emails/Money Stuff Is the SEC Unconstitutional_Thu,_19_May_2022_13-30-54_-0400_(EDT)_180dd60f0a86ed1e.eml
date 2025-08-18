@@ -1,0 +1,2325 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:5b99:0:b0:1e5:5fe1:39f with SMTP id x25csp978378lke;
+        Thu, 19 May 2022 10:32:39 -0700 (PDT)
+X-Received: by 2002:a05:600c:3542:b0:394:6e2f:ffa2 with SMTP id i2-20020a05600c354200b003946e2fffa2mr4870445wmq.132.1652981559380;
+        Thu, 19 May 2022 10:32:39 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1652981559; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=exbcvXAafi9YbFjVtIW2I4TqRNcdL8eiv29rZPxWY1LpIg+4WdFs63yHaKpawrjrvd
+         nQBUVaqDd5DGUQqtWAyUyB8YmdCgXVxhRdWXpc9jg4g1/7U2bjA/+2aYHfRsaquy5Ubs
+         nD48yme87sQze33ge4ExbIb/lP9OChuiz3VdTrhWX0Jv1ocjnh1tMkxuUvwmS6NrdO36
+         b0fVijl0q0y4sV00hogz/Nn6Yw1EqwDN8mzuY1dEpx1ttZTBLbzbpt0XcBZzFoP/0xKl
+         2eL73PTzVtz6k8kaEYLwJrNvmx+2ZccP6CsZbzUJDBWMJ1iRCB/GvHyA3HKAivNRz6am
+         akDA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=DYCCeDdWdgyl08T8nzRYVlrSjzwPW9+rvTu0VLikM28=;
+        b=HmAQSu03vYaMnhXFE2X9EwQsPv/q0avW0xkgH1YlWWEOw6aSzSdv3L/DZFUKdDaZ9D
+         2KuFKNxlzhL5+gjRE7aaPnHNIqnmFqvhJzD3ztHCD1fS+UGPdtzssyPHSWQQdDa57TU1
+         mcyWP3Oi89kF6qZ4mji7MI1dWjJHddnnTBYm+a09vt0o+Rc31sLKcsevowiZc5UqvZMb
+         tdd01yelk6Qo8nRtHi/F6iBdghw2lfyqCGyZya5f/HuW7ptYAEXlJEToj6zGbE95YMDc
+         wJm2tv1A6Yy1EQ04+pI7FO3F3wow43CktKCV04rQm37wFVolIqMhWJeJHdlZe7AgF0Af
+         xsMA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=3MIiptMF;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id p3-20020adfcc83000000b00207a6ec1084sor124814wrj.23.2022.05.19.10.32.39
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 19 May 2022 10:32:39 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=3MIiptMF;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=DYCCeDdWdgyl08T8nzRYVlrSjzwPW9+rvTu0VLikM28=;
+        b=H4Np+VSEHdQIeTbXMpxGJHIv5frC6hc6Hld1dzeSmypPk0lYIZ/DkDFGJlM1Iv9iaq
+         FKuTXo8stvnEIzi7zGOupaXCRW+zzuxH3qd+Cba5YhRF8t3I3W8YHCwDGc/hpM4n8NcK
+         GemhA9PclUAyqy0ssO6d0nCFqdpezluGzu7m45lS4AcVoWPzbgsMeKz0uNchHg3SG+s5
+         A8JpM00bHq/PoDDf4at1mpSk4S2QSRVMeLrz7R9+HjVaKLJHCnkWcJdVDEawNNgmMF6P
+         Wzw+1l+IwFphrnfilZ7FsrN+GSH9YdCPyHsJA6VmZS1448Pv3YazN9MtMVJysobP2/Cq
+         nTgw==
+X-Gm-Message-State: AOAM532SE9jfy39is8xPBs835/SvIHNlk1934xdN3uy+RlTnajiU/XuS
+	A1x+If5QXOjF7E0Qln/zw+3xvKidsArVT6XtH99PaFGy3yEyGKKQQA==
+X-Received: by 2002:a5d:64e7:0:b0:20c:67c4:89b4 with SMTP id g7-20020a5d64e7000000b0020c67c489b4mr5158590wri.321.1652981559111;
+        Thu, 19 May 2022 10:32:39 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:5042:0:0:0:0:0 with SMTP id h2csp1253252wrt;
+        Thu, 19 May 2022 10:32:36 -0700 (PDT)
+X-Received: by 2002:a17:902:cec4:b0:15e:cff6:676 with SMTP id d4-20020a170902cec400b0015ecff60676mr5806175plg.2.1652981555798;
+        Thu, 19 May 2022 10:32:35 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1652981555; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=YVS8rh6lyWb6V3gs9H04lvu5Q/EbxlAYsE6yxoJF9QdyMgJhbuj0vlTuBF3RRgD+Zu
+         7bWqzN9azKS98w8639coOMcH3/YmVY+8JVKwL+WMWfGHk8ZOz5ZUcB8exOX/WX3deEHr
+         F9q4Wc0m9Mh2qqjK63iYcqo1BLwNFbznuRvr1yjN+1NSgoAXhyivZxYzAtht2FSmqlDX
+         9MtwjbOjZChdqQQw9Y8wOgXbTghfDgWZ9M5+OPZfyu8cRS/PUEzt/BJ4nbfCVt5EhIPe
+         CkKaoCCwwoY2JzwFhh/2zsijMfOmrQWvACYZf9HHKwpTqZLE7KcKamTXOrhLahtlvxFz
+         2vVQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=DYCCeDdWdgyl08T8nzRYVlrSjzwPW9+rvTu0VLikM28=;
+        b=ZMWXKJV+NNfWn7UlKCUzCo5Fa1WbJWfwMO2Uukm8Uoccp4eAIXbe0Qt26Qtihb8QZa
+         xTz5gFcdLcZDLiZCzYqdX40DTejsL8cCGwAUOn8MhW4/h4CHAX/WJuBkoyxTfznhnLFY
+         YXKILu+oScoK+Ic0ulZCViuo7y0SkSdZlKYjc+F3ddmqGrgj4pujlxyLctdU1nV+PTp7
+         RgbMW6Sw8ppR8gajx7ikOl+pTUEaBfHqcrXKfnJ3TA2ZS9qh+N9Bcpz6INa8cxxB1LlA
+         XojKeD70YHzqIjA19h3zvFPsTuqu2N0XtOAuHyd7yM1C883hntpXhKqWWnyO7bTRRWQu
+         vnXA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=3MIiptMF;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220519133054.27769856.275619@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220519133054.27769856.275619@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220519133054.27769856.275619@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id m19-20020a170902c45300b001569ef2df47sor2540945plm.5.2022.05.19.10.32.35
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 19 May 2022 10:32:35 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220519133054.27769856.275619@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJw6+4mrC4wT4ECrkosB4ZhreE65jFwnncdj0RyEqCgIWfNmf+cfyDu57L3RfYEccJW1f+zvH99mXdbffi8xLRCqV/RD3K4=
+X-Received: by 2002:a17:902:eb4d:b0:15e:d25c:4e0a with SMTP id i13-20020a170902eb4d00b0015ed25c4e0amr5899313pli.8.1652981555245;
+        Thu, 19 May 2022 10:32:35 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1652981555; cv=none;
+        d=google.com; s=arc-20160816;
+        b=hTmn13cjZdpNVdTHRPQRA2XRiR/aF/87IGvsgMlCSF7GfNtNuPzGa0fK4J17lpeMCq
+         xF56YvfoSzQuXk5NQRPRY4AhB+gC2oKaeOahsJ2/YIbX8VKheU64AuaqwyYuzKS6FUWl
+         Tmq2UPeKIMtN+aAseqvWLjmh365Xd0ZSW/xX8en0bGDfUmj2/RKYM9JaXHAR23Iq9IqJ
+         mZgFcGYmYXBy6hYlzYE8RD2OcDmuBHnWGILje5zS3tNXE3BVMzdnBcGDtMdn8o0kNL0j
+         UII7ZZU7ryM1/WhmIVEiK0wo80PRCNlp2BALix/uUs5jqIYIK+Gept+810DqK4DYeMCF
+         G3hg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=DYCCeDdWdgyl08T8nzRYVlrSjzwPW9+rvTu0VLikM28=;
+        b=JsHwYuQJq5YD+Lm/jB7vlXyzECbM62z9Lyp4GLL3/bRNY7nfAurk+kPOS52qyy/zHy
+         Km2dRyOm71ASsOWFtNPtlslEvOTWk+fVz7HZj4g6VnioNj9GCFOsj36RHYzdjFWADlhq
+         ZGHSq9YCO3FGuiaQt4OZf+QMZ3267OsIABthoXcXG+LVB1k/kjCyLQVDwnWPnzRjU4S7
+         FwGNFzdAmiaqABKOFUWz6Au7owHCEjagpol5IHxD1i2VBUBDXUSvzp9bSLFqwtuCvAYs
+         LNXMT/wuCP1r2TujFS8ebB0FXyoK7gIf14uFMFdOv6Dlsxxgl5jpegknlFktX1w8Eqit
+         N5zA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=3MIiptMF;
+       spf=pass (google.com: domain of delivery_20220519133054.27769856.275619@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20220519133054.27769856.275619@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220519133054.27769856.275619@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id f8-20020a17090a638800b001df76e9c039si7816pjj.3.2022.05.19.10.32.26
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 19 May 2022 10:32:35 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220519133054.27769856.275619@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=PNvbaKM7/t4dg47/foRytFfJrfKvpfkbXf5NPdW9CZ0=;
+ b=3MIiptMF5N8mWm4YGlJYEd+fu12xUD+obLz3MQ0FlnBpv3QklB830IMjEUdBXnP/z9H5RNHxasX3
+   vvssH3QTJidbaIwrY/JTFXHIksPQsA8OwRpq8CBH9JnGzjZdZFUR9egRDSZupZwmUaI/Zi3Kl4xf
+   9U46+ObGs9POhTmoJec=
+Received: from nj2mta-16.sailthru.com (204.153.121.16) by bloomberg-b.sailthru.com id hgpvim2tkt0l for <bloomberg@khamel.com>; Thu, 19 May 2022 13:32:18 -0400 (envelope-from <delivery_20220519133054.27769856.275619@mx.sailthru.com>)
+Date: Thu, 19 May 2022 13:30:54 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220519133054.27769856.275619@sailthru.com>
+Subject: Money Stuff: Is the SEC Unconstitutional?
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_15103037_408886704.1652981454658"
+Precedence: bulk
+X-Feedback-ID: 6358:27769856:campaign:sailthru
+X-TM-ID: 20220519133054.27769856.275619
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-oldjam.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgj7cw.5wo3/e5e3709b
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cgj7cw.5wo3/e5e3709b>, <mailto:unsubscribe_20220519133054.27769856.275619@mx.sailthru.com>
+X-rpcampaign: stjko27769856
+
+------=_Part_15103037_408886704.1652981454658
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        NondelegationArticle I, Section 1 of the US Constitution says: =E2=
+=80=9CAll legislative Powers herein granted shall be vested in a Congress o=
+f the U
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Nondelegation
+   =20
+ =20
+Article I, Section 1 of the US Constitution says: =E2=80=9CAll legislative =
+Powers herein granted shall be vested in a Congress of the United States, w=
+hich shall consist of a Senate and House of Representatives.=E2=80=9D One w=
+ay to paraphrase that is: Federal law is made by Congress.In the modern US,=
+ this is not quite true.=C2=A0Some=C2=A0federal law is made by Congress, bu=
+t quite a lot of federal law is made by government departments and administ=
+rative agencies. In many cases, Congress passes fairly general laws, and th=
+ose laws instruct the relevant agency to write rules implementing the laws,=
+ and then the agencies write more specific rules. Sometimes these rules jus=
+t fill in details in a comprehensive statutory scheme. Other times the agen=
+cies have pretty broad mandates to write rules that are in the public inter=
+est, and they get to set their own agendas and decide what that means.There=
+ is quite a large body of law and procedure governing how those agencies wr=
+ite those rules, and those rules are pretty important. Around here, we have=
+ talked recently about a bunch of proposed rules from the US Securities and=
+ Exchange Commission that would, for instance, crack down on  special purpo=
+se acquisition companies, require more  disclosure of activist stakes and s=
+wap positions, limit  stock buybacks and executives trading in their own st=
+ocks, and most notably  implement a climate disclosure regime. This is most=
+ly stuff that the SEC is doing on its own initiative under laws passed most=
+ly in the 1930s and 1960s. Congress largely=C2=A0set up the SEC and its und=
+erlying system of securities laws in the 1930s, and the SEC took it from th=
+ere.[1]There are obviously good reasons to do things this way. Congress doe=
+s not have time to write all the rules, so delegating rulemaking to agencie=
+s is efficient. Congress also has limited subject-matter expertise: The SEC=
+ knows more about securities law and financial markets than the average con=
+gressperson, so it makes sense for the SEC to write most of the securities =
+rules. The rulemaking process is often both more flexible=C2=A0and more=C2=
+=A0thoughtful=C2=A0than the legislative process; agencies have to consider =
+public comments and explain their reasoning in a way that Congress does not=
+. Agency rules can be overturned by a court if they are =E2=80=9Carbitrary =
+and capricious,=E2=80=9D which is not generally true of laws passed by Cong=
+ress; Congress can be as arbitrary as it wants.[2]There are also objections=
+ though. Congress is elected, and the SEC isn=E2=80=99t. Letting agencies w=
+rite rules is more technocratic but less democratic; the agencies might be =
+more captured by industry or just by longtime staffers who are less politic=
+ally accountable. Also, let=E2=80=99s be clear, in the modern US, a lot of =
+people simply think that there should be=C2=A0fewer=C2=A0rules overall. If =
+you think that then you will object to the whole idea of agencies writing r=
+ules: If only Congress could make law, then there would be fewer rules abou=
+t, say, securities fraud. (Or environmental regulation or workplace safety =
+or bank capital or whatever else you are interested in.)Also the constituti=
+on does say =E2=80=9Call=C2=A0legislative powers=E2=80=9D are vested in Con=
+gress. If you take that literally,=C2=A0you might think that it=E2=80=99s u=
+nconstitutional for the SEC to make any rules at all.=C2=A0The rise of the =
+US administrative state =E2=80=94=C2=A0all these agencies making all these =
+rules =E2=80=94 is most identified with the New Deal in the 1930s. At the t=
+ime, people objected that it was in fact unconstitutional for agencies to m=
+ake rules. The US Supreme Court occasionally agreed: In two 1935 cases, the=
+ Supreme Court struck down laws that delegated rulemaking authority to exec=
+utive agencies. Then that stopped, and the administrative state grew. Since=
+ 1935, lots of people have challenged agency rulemaking under the =E2=80=9C=
+nondelegation doctrine,=E2=80=9D the theory that Congress cannot delegate l=
+egislative authority to agencies, but they have never won. The Supreme Cour=
+t has adopted an =E2=80=9Cintelligible principle=E2=80=9D test, saying that=
+ if Congress delegates authority to an agency and gives it an =E2=80=9Cinte=
+lligible principle=E2=80=9D to follow, then the agency can constitutionally=
+ make rules guided by that principle. This is a vague test and in practice,=
+ for the last 87 years, it has always been met. For instance, Congress has =
+given the SEC pretty broad authority to make disclosure rules that are =E2=
+=80=9Cnecessary or appropriate in the public interest for the protection of=
+ investors,=E2=80=9D which gives the SEC a lot of discretion but which=C2=
+=A0is probably =E2=80=9Cintelligible=E2=80=9D enough under current law.[3]T=
+hat is changing now, though. I am enough of a legal realist to say that it =
+is changing because there have been a bunch of Republican judicial appointm=
+ents, including to the Supreme Court, in recent years, and elite Republican=
+ lawyers are skeptical of=C2=A0the modern administrative state and want to =
+revive the nondelegation doctrine.=C2=A0Here is where I need to make a pers=
+onal disclosure-brag. My wife is a federal=C2=A0criminal defense lawyer, an=
+d a few years ago she argued a case in the Supreme Court. The case =E2=80=
+=94=C2=A0Gundy v. United States =E2=80=94 concerned a fairly technical Just=
+ice Department rule about=C2=A0sex offender registries. But the argument wa=
+s about the nondelegation doctrine: It was about whether it was constitutio=
+nal for the Justice Department to make rules like that under delegated auth=
+ority from Congress. It was the sort of case that would not have made it to=
+ the Supreme Court a decade earlier =E2=80=94=C2=A0obviously=C2=A0this is c=
+onstitutional, everyone would have said =E2=80=94=C2=A0but times were chang=
+ing. The nondelegation doctrine might be coming back.Arguing in the Supreme=
+ Court is kind of a big deal, and I came to the argument to watch. Sitting =
+in the audience before the argument, I ran into Jay Clayton, who was then t=
+he chair of the SEC. We said hello, and I asked if he was there because of =
+the implications of the case for his agency. He looked puzzled: No, this wa=
+s a sex-offender case; he was there because his friend was arguing the case=
+ for the government.After the argument he said to me something to the effec=
+t of=C2=A0=E2=80=9CI see what you mean.=E2=80=9DMy wife lost. Barely. The S=
+upreme Court ruled, in a strange 5-3 vote,[4] that the delegation at issue =
+there was constitutional. Justice Neil Gorsuch wrote a dissent in Gundy, an=
+d it=E2=80=99s stuff like this:Why did the framers insist on this particula=
+r arrangement? They believed the new federal government=E2=80=99s most dang=
+erous power was the power to enact laws restricting the people=E2=80=99s li=
+berty.=C2=A0An =E2=80=9Cexcess of law-making=E2=80=9D was, in their words, =
+one of =E2=80=9Cthe diseases to which our governments are most liable.=E2=
+=80=9D=C2=A0To address that tendency, the framers went to great lengths to =
+make lawmaking difficult. In Article I, by far the longest part of the Cons=
+titution, the=C2=A0framers insisted that any proposed law must win the appr=
+oval of two Houses of Congress=E2=80=94elected at different times, by diffe=
+rent constituencies, and for different terms in office=E2=80=94and either s=
+ecure the President=E2=80=99s approval or obtain enough support to override=
+ his veto. Some occasionally complain about Article I=E2=80=99s detailed an=
+d arduous processes for new legislation, but to the framers these were bulw=
+arks of liberty. =E2=80=A6Restricting the task of legislating to one branch=
+ characterized by difficult and deliberative processes was also designed to=
+ promote fair notice and the rule of law, ensuring the people would be subj=
+ect to a relatively stable and predictable set of rules. And by directing t=
+hat legislating be done only by elected representatives in a public process=
+, the Constitution sought to ensure that the lines of accountability would =
+be clear: The sovereign people would know, without ambiguity, whom to hold =
+accountable for the laws they would have to follow.In Gorsuch=E2=80=99s vie=
+w, if =E2=80=9CCongress makes the policy decisions,=E2=80=9D it is okay for=
+ executive agencies to =E2=80=9Cfill up the details.=E2=80=9D And =E2=80=9C=
+once Congress prescribes the rule governing private conduct, it may make th=
+e application of that rule depend on executive fact-finding.=E2=80=9D=C2=A0=
+But policy decisions have to be made by Congress, not by agencies. He added=
+:Nor would enforcing the Constitution=E2=80=99s demands spell doom for what=
+ some call the =E2=80=9Cadministrative state.=E2=80=9D The separation of po=
+wers does not prohibit any particular policy outcome, let alone dictate any=
+ conclusion about the proper size and scope of government. Instead, it is a=
+ procedural guarantee that requires Congress to assemble a social consensus=
+ before choosing our nation=E2=80=99s course on policy questions like those=
+ implicated by SORNA. What is more, Congress is hardly bereft of options to=
+ accomplish all it might wish to achieve. It may always authorize executive=
+ branch officials to fill in even a large number of details, to find facts =
+that trigger the generally applicable rule of conduct specified in a statut=
+e, or to exercise non-legislative powers. Congress can also commission agen=
+cies or other experts to study and recommend legislative language. Respecti=
+ng the separation of powers forecloses no substantive outcomes. It only req=
+uires us to respect along the way one of the most vital of the procedural p=
+rotections of individual liberty found in our Constitution.=C2=A0That was s=
+everal years ago, though, and since then the personnel of the court has cha=
+nged some more. It is plausible that there are now as many as six votes for=
+ Gorsuch=E2=80=99s position.[5]Yesterday the U.S. Court of Appeals for the =
+Fifth Circuit, in Texas, ruled that the SEC is unconstitutional? Not really=
+. But here is an opinion in Jarkesy v. SEC, where the SEC brought an admini=
+strative action against a hedge fund manager named George Jarkesy, accusing=
+ him=C2=A0of fraud. Instead of suing Jarkesy in federal court, the SEC, as =
+it sometimes does, brought an administrative action against him in its own =
+internal hearing system; instead of a judge and jury, the case=C2=A0was hea=
+rd by an SEC official called an =E2=80=9Cadministrative law judge.=E2=80=9D=
+ The ALJ found against Jarkesy, fined him almost a million dollars and bann=
+ed him from the industry; Jarkesy appealed to the commissioners of the SEC,=
+ who upheld the ALJ=E2=80=99s judgment. Then he appealed to the Fifth Circu=
+it, arguing that all of this was unconstitutional.The Fifth Circuit panel, =
+by a 2-1 vote,=C2=A0agreed, for three reasons. One reason is that, by suing=
+ him in its own tribunal, the SEC deprived him of the right to a jury trial=
+: The SEC fined him a million dollars for fraud, without having to prove it=
+s case to a jury. The Fifth Circuit found this unconstitutional under the S=
+eventh Amendment, which guarantees a right to a jury in civil cases. I thin=
+k I agree? At Bloomberg Opinion back in 2015,  Noah Feldman wrote=C2=A0a go=
+od column about this case, saying that it was =E2=80=9Cworth noting, and mo=
+urning, this impending incremental erosion of the constitutional protection=
+s of a civil trial and the jury right that goes hand in hand with it.=E2=80=
+=9D=C2=A0The SEC has always had the power to bring fraud cases in federal c=
+ourt, and has a pretty=C2=A0good record there. But in 2010, Congress gave t=
+he SEC the power to pursue monetary penalties in its own courts if it wante=
+d to. This always seems to cause more trouble than it saves, and is apparen=
+tly unconstitutional, and I am not sure the SEC will miss it all that much.=
+Another reason is that the process for appointing and removing SEC ALJs is =
+unconstitutional, for reasons=C2=A0that honestly I find unbearably boring a=
+nd so will not talk about.[6]But the third reason is the nondelegation doct=
+rine: The Fifth Circuit found that Congress unconstitutionally delegated to=
+ the SEC the power to decide whether to bring cases in federal court or bef=
+ore its own ALJs[7]:Congress has delegated to the SEC what would be legisla=
+tive power absent a guiding intelligible principle. =E2=80=A6=C2=A0Through =
+Dodd=E2=80=93Frank =C2=A7 929P(a), Congress gave the SEC the power to bring=
+ securities fraud actions for monetary penalties within the agency instead =
+of in an Article III court whenever the SEC in its unfettered discretion de=
+cides to do so. Thus, it gave the SEC the ability to determine which subjec=
+ts of its enforcement actions are entitled to Article III proceedings with =
+a jury trial, and which are not. That was a delegation of legislative power=
+.This strikes me as a little weird =E2=80=94=C2=A0surely deciding what foru=
+m to sue in is an executive action, not a legislative one? =E2=80=94=C2=A0a=
+nd not at all necessary to the decision. The court could have thrown out Ja=
+rkesy=E2=80=99s fine by saying that he was deprived of a jury trial, withou=
+t talking about the nondelegation stuff.=C2=A0But the panel is making=C2=A0=
+a broader point here. The broader point is Justice Gorsuch=E2=80=99s point =
+about political accountability, an excess of lawmaking, etc.; the opinion t=
+alks about those principles at length and cites Justice Gorsuch=E2=80=99s G=
+undy dissent. The point is that the nondelegation doctrine is alive again, =
+and the Fifth Circuit is making a bet that the next time it goes before the=
+ Supreme Court it will win. The point is that the SEC=E2=80=99s=C2=A0actual=
+=C2=A0legislative actions =E2=80=94=C2=A0writing rules about stock buybacks=
+ or swaps disclosure or climate change =E2=80=94=C2=A0are now in danger. It=
+ used to be accepted as a routine matter that the SEC could make rules unde=
+r a very broad grant of power from Congress to regulate securities markets =
+in the public interest.[8] I am not sure=C2=A0that is true anymore.This may=
+ not be a particularly big deal. Two judges on one panel of one appeals cou=
+rt found that one small part of what the SEC does is an unconstitutional de=
+legation of power. It is possible that this decision is fairly narrow: Cong=
+ress did=C2=A0delegate=C2=A0this=C2=A0decision =E2=80=94=C2=A0about whether=
+ to bring cases in federal courts or its own forums =E2=80=94=C2=A0to the S=
+EC, fairly recently,=C2=A0without=C2=A0any guidance at all, which is unusua=
+l. Perhaps the =E2=80=9Cintelligible principle=E2=80=9D standard allows the=
+ SEC to do all of its=C2=A0other=C2=A0rulemaking (because Congress has most=
+ly given it some broad guidance about protecting investors in the public in=
+terest, and because SEC rules do help to fill in a fairly detailed statutor=
+y system), but not to make this particular decision. Still.=C2=A0I think th=
+e Fifth Circuit went out of its way to find a nondelegation problem because=
+ the Supreme Court has changed and now there will be a lot more courts find=
+ing a lot more nondelegation problems. I think this might be a sign of wher=
+e things are going.One immediate upshot of this is that some of the SEC=E2=
+=80=99s recently proposed rules =E2=80=94=C2=A0on swaps disclosure, on clim=
+ate, etc. =E2=80=94=C2=A0are hotly controversial, and there have been unusu=
+ally aggressive comments from industry participants to the effect of =E2=80=
+=9Cif you implement these rules, we will sue, and we will win.=E2=80=9D Whe=
+n people say this, what they mean is generally that they will go to court s=
+aying that the SEC=E2=80=99s rulemaking process was not good enough.=C2=A0U=
+nder the rules for rulemaking, agencies like the SEC need to consider costs=
+ and benefits, solicit and consider public comments and give a rational exp=
+lanation for their rules. If you don=E2=80=99t like a rule,=C2=A0you can su=
+e, arguing that the SEC=E2=80=99s process was arbitrary and capricious,=C2=
+=A0and=C2=A0people sometimes win these lawsuits. And certainly people were =
+gearing up to bring those sorts of cases against the climate and swaps rule=
+s.But now you can throw in at the end of your brief: =E2=80=9CAlso it is un=
+constitutional for the SEC to make any rules at all about this stuff.=E2=80=
+=9D If =E2=80=9Cthis stuff=E2=80=9D is climate change, you=E2=80=99ll =E2=
+=80=A6 probably win? (Not legal advice!) If =E2=80=9Cthis stuff=E2=80=9D is=
+ swaps=C2=A0disclosure =E2=80=94=C2=A0which does seem closer to the core of=
+ the SEC=E2=80=99s job?=C2=A0=E2=80=94=C2=A0you=E2=80=99ve also got a=C2=A0=
+shot. Because now there is a live possibility that federal courts might say=
+ it is unconstitutional for the SEC to make any rules about anything.=C2=A0
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Wells Fargo! Come on!
+   =20
+ =20
+Wells Fargo & Co. is a big bank. As a bank, it likes making money. As a gen=
+eral rule, banks make more money as (1) they get more customers and (2) tho=
+se customers open more accounts: A customer with a mortgage and a credit ca=
+rd and online checking is generally worth more than a customer with only a =
+checking account. So Wells Fargo incentivized=C2=A0its retail-level bankers=
+ to sell more products and open more accounts. If you sold a lot of product=
+s each day, you were rewarded; if you did not, you were fired.Due to diffic=
+ulty of attribution and measurement and motivation, Wells Fargo did=C2=A0no=
+t mainly=C2=A0reward those employees for, like, the actual lifetime monetar=
+y value to Wells Fargo of the accounts that they opened. It just rewarded t=
+hem for volume of accounts opened. Adding online banking to a checking acco=
+unt was a =E2=80=9Cproduct=E2=80=9D that counted toward your quota of X pro=
+ducts per day,=C2=A0same as adding a mortgage; a checking account with $1 i=
+n it that closed in a week counted as much as a credit card that carried a =
+$20,000 balance for years. Really just a rough cut at measurement.Knowing t=
+hat, you can figure out what happened next. Wells Fargo bankers, struggling=
+ to meet quotas, opened a lot of low-value accounts. People who signed up f=
+or checking accounts got signed up for online access whether or not they wa=
+nted it; they got pushed to open credit cards too. And bankers often=C2=A0w=
+ent a step further and signed customers up for accounts=C2=A0without their =
+permission. Occasionally this helped Wells Fargo and harmed the customers: =
+They had to pay fees on accounts that they didn=E2=80=99t want or know abou=
+t, and Wells Fargo collected the fees. Sometimes this harmed the customers =
+without helping Wells Fargo: Their credit got worse due to new debt account=
+s, but the accounts were never used and Wells Fargo never made any money. O=
+ften=C2=A0nothing happened to anyone =E2=80=94=C2=A0the customers had $0-ba=
+lance accounts that were quickly closed with no money changing hands, or fr=
+ee =E2=80=9Cproducts=E2=80=9D like online banking access that they never kn=
+ew about or used =E2=80=94=C2=A0but the bankers got to meet their quotas.Th=
+e point is just that Wells Fargo had a crude measure (=E2=80=9Cproducts sol=
+d=E2=80=9D) that was meant to approximate=C2=A0an important thing (somethin=
+g like =E2=80=9Cvalue extracted out of each customer=E2=80=9D), and its ove=
+rstressed retail bankers cynically optimized the crude measure rather than =
+the important thing. And then  Wells Fargo got in huge trouble and was fine=
+d a lot of money and it was, like,=C2=A0the=C2=A0major US banking scandal o=
+f the mid-to-late-2010s?Here is a crazy story from Emily Flitter at the New=
+ York Times:Joe Bruno, a former executive in the wealth management division=
+ of Wells Fargo, had long been troubled by the way his unit handled certain=
+ job interviews.For many open positions, employees would interview a =E2=80=
+=9Cdiverse=E2=80=9D candidate =E2=80=94 the bank=E2=80=99s term for a woman=
+ or person of color =E2=80=94 in keeping with the bank=E2=80=99s yearslong =
+informal policy. But Mr. Bruno noticed that often, the so-called diverse ca=
+ndidate would be interviewed for a job that had already been promised to so=
+meone else. ...Mr. Bruno is one of seven current and former Wells Fargo emp=
+loyees who said that they were instructed by their direct bosses or human r=
+esources managers in the bank=E2=80=99s wealth management unit to interview=
+ =E2=80=9Cdiverse=E2=80=9D candidates =E2=80=94 even though the decision ha=
+d already been made to give the job to another candidate. Five others said =
+they were aware of the practice, or helped to arrange it.The interviews, th=
+ey said, seemed to be more about helping Wells Fargo record its diversity e=
+fforts on paper =E2=80=94 partly in anticipation of possible regulatory aud=
+its =E2=80=94 rather than hiring more women or people of color. All but thr=
+ee spoke on the condition of anonymity because they were afraid of losing t=
+heir jobs at Wells Fargo or their new employers.In an emailed statement, Ra=
+schelle Burton, a Wells Fargo spokeswoman, said the bank expected all emplo=
+yees to follow its hiring policies and guidelines, which are communicated a=
+cross the firm. =E2=80=9CTo the extent that individual employees are engagi=
+ng in the behavior as described by The New York Times, we do not tolerate i=
+t,=E2=80=9D Ms. Burton said.Yeah! Well! That=E2=80=99s what you said last t=
+ime! Wells Fargo really didn=E2=80=99t want bankers to open fake accounts; =
+they wanted bankers to open=C2=A0real=C2=A0accounts, because real accounts =
+are what make money! But it had a crude measurement system, overworked bank=
+ers and not enough oversight, and so it got millions of fake accounts.Simil=
+arly I can believe that Wells Fargo=E2=80=99s senior executives would reall=
+y like their teams to try to hire=C2=A0more women and people of color. And =
+they implemented a crude but sensible=C2=A0metric to measure those efforts:=
+ Each team should interview at least one =E2=80=9Cdiverse=E2=80=9D candidat=
+e for each open slot. (Apparently Wells Fargo=E2=80=99s official=C2=A0polic=
+y applied only to more senior roles, but there seems to have been some ambi=
+guity about that in practice.) And then people optimized for the crude metr=
+ic,=C2=A0=E2=80=9Cinterview one diverse candidate per job,=E2=80=9D=C2=A0ra=
+ther than for the actual goal,=C2=A0=E2=80=9Ctry to hire more diverse candi=
+dates.=E2=80=9D And so Wells Fargo got fake interviews the same way it got =
+fake accounts.I say =E2=80=9Ccome on!=E2=80=9D but, you know, this stuff is=
+ hard. Wells Fargo is a big bank. To some extent you have to manage a big o=
+rganization with simple, crude, legible metrics. In a big enough organizati=
+on, somebody will game those metrics. Ideally you create a culture that min=
+imizes that gamesmanship, one where employees understand and buy into the o=
+rganization's=C2=A0real goals=C2=A0rather than just trying to maximize the =
+dumb metrics. Wells Fargo seems to be having some trouble creating that cul=
+ture.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Musk Stuff
+   =20
+ =20
+Is Elon Musk=E2=80=99s deal to buy Twitter Inc. =E2=80=9Ctemporarily on hol=
+d=E2=80=9D? On the one hand, he did tweet that last week. On the other hand=
+, as  I wrote at the time, no:=E2=80=9CTemporarily on hold=E2=80=9D is not =
+a thing. Elon Musk has signed a binding contract requiring him to buy Twitt=
+er. Legions of bankers and lawyers and Twitter employees and special-purpos=
+e-vehicle promoters are working to fulfill his legal obligation to get the =
+deal closed.=C2=A0At Bloomberg News yesterday, Michelle Davis and Liana Bak=
+er reported that  nothing is on hold:Behind the scenes, it=E2=80=99s more l=
+ike business as usual, as advisers on both sides plug away at the day-to-da=
+y work of closing a megadeal.One potential sign that the deal is still on t=
+rack: the 139-page filing that hit early Tuesday, detailing how the offer c=
+ame together and Twitter=E2=80=99s rationale for accepting it. That documen=
+t was the result of weeks of coordinated work by both Musk and Twitter=E2=
+=80=99s teams, according to people familiar with the matter. Musk himself s=
+igned off on the final version -- complete with a deal price of $54.20 a sh=
+are -- before it was filed, the people said.The situation is similar at the=
+ banks that promised to finance the transaction, said the people, who asked=
+ not to be identified because the details are private. While texts are flyi=
+ng among bankers in disbelief at Musk=E2=80=99s antics, their days are stil=
+l filled with preparing documents needed to proceed with and close the purc=
+hase, the people said.Yeah when you turn this machine on, it=E2=80=99s hard=
+ to turn it off. Twitter=E2=80=99s board of directors and executives obviou=
+sly want the deal to close. (I suppose many of its employees have mixed fee=
+lings.) Twitter=E2=80=99s advisers =E2=80=94=C2=A0its bankers and lawyers =
+=E2=80=94=C2=A0want it to close, since that=E2=80=99s generally how they ge=
+t their fees and their league-table credit.[9] They are all working=C2=A0to=
+ get it closed.Musk=E2=80=99s advisers also want their fees and league-tabl=
+e credit, though Musk=E2=80=99s bankers are a bit more conflicted because (=
+1) they have also agreed to finance his purchase=C2=A0and (2) that financin=
+g is kind of risky. (Also at Bloomberg,=C2=A0Paula Seligson reports that =
+=E2=80=9Cto=C2=A0sober-minded credit analysts, second thoughts about the de=
+al are to be expected,=E2=80=9D given Twitter's high pro forma leverage and=
+ limited free cash flow.) It would probably be something of a relief for Mu=
+sk=E2=80=99s bankers if he gets out of this thing, given the state of the m=
+arkets and his own cooling enthusiasm for Twitter. Still, every big-time in=
+vestment banker would=C2=A0rather get the glory, fees and league-table cred=
+it that come from closing a huge hairy deal than the good night's sleep tha=
+t comes from saying =E2=80=9Cmeh, never mind.=E2=80=9DThat said, Musk keeps=
+ tweeting stuff, so nothing is certain. Mostly he has been  distracted by p=
+olitics and forgotten his=C2=A0complaints about Twitter=E2=80=99s bot probl=
+ems, though yesterday he tweeted =E2=80=9C[face with tongue emoji][popcorn =
+emoji],=E2=80=9D which might be deal-related, who knows. I guess we=E2=80=
+=99ll see if his lawyers file that tweet with the SEC. If they do, you know=
+ it was a material communication about the deal.I  wrote the other day:Argu=
+ably Twitter=E2=80=99s best option is to do nothing: Let Musk tweet, ignore=
+ him, and continue acting as though everything is normal and the deal is go=
+ing to close. Don=E2=80=99t give him any more pretexts to walk away, just k=
+eep trying to get regulatory and shareholder approvals, and then come to hi=
+m ready to close and see how serious he is about all of this. The basic pro=
+blem with Musk, for Twitter, is that he changes his mind a lot. Maybe he'll=
+ change it again.And that does seem to be Twitter=E2=80=99s approach. =E2=
+=80=9C=E2=80=98We intend to close the transaction and enforce the merger ag=
+reement,=E2=80=99  the board said Tuesday in a statement to Bloomberg News,=
+=E2=80=9D but it has not engaged much with Musk=E2=80=99s nonsense, and he =
+does seem to have moved on to politics (and complaining about Tesla Inc.=E2=
+=80=99s  removal from an environmental, social and governance index). Twitt=
+er thinks the deal is on, Musk=E2=80=99s bankers and lawyers think the deal=
+ is on.=C2=A0Maybe he=E2=80=99ll be so busy tweeting that he=E2=80=99ll=C2=
+=A0forget the deal is off.Elsewhere:=09I have   explained before that Musk=
+=E2=80=99s complaints about Twitter spam bots are   ridiculously pretextual=
+ and do not give him a right to get out of the deal. Here is a very good  T=
+witter thread from law professor Ann Lipton making that point more clearly.=
+ =E2=80=9CMerger agreements,=E2=80=9D  she concludes, =E2=80=9Care designed=
+ to prevent exactly what Musk is doing now: have a buyer get cold feet and =
+then nitpick to find some arguably =E2=80=98false=E2=80=99 rep that they ca=
+n use as a pretext to avoid their obligations.=E2=80=9D=C2=A0=09Law profess=
+or Steve Bainbridge will be  teaching a course on =E2=80=9CThe Law of Elon =
+Musk=E2=80=9D at UCLA. =E2=80=9CThat'll be a short course,=E2=80=9D I am te=
+mpted to=C2=A0joke, and=C2=A0in fact it will be two weeks long. I wish I co=
+uld spend two weeks on the law of Elon Musk, instead of, you know, the rest=
+ of my life.=09Charlie Gasparino  reported on Twitter that =E2=80=9CLegal e=
+xperts tell=C2=A0@FoxBusiness=C2=A0that=C2=A0@elonmusk=E2=80=99s refusal to=
+ go through w=C2=A0@Twitter=C2=A0merger agreement could lead to the Musk be=
+ing thrown in jail if $TWTR seeks an injunction to enforce the contract tha=
+t he continues to violate.=E2=80=9D I feel like those legal experts are get=
+ting ahead of themselves? Like it is=C2=A0just possible=C2=A0that Musk will=
+ try to get out of the deal, Twitter will sue for specific performance in=
+=C2=A0Delaware Chancery Court, Twitter will win, the court will order speci=
+fic performance, Musk will ignore it, Twitter will ask the court to hold Mu=
+sk in contempt, the court will hold a hearing, Musk will=C2=A0show up, the =
+bailiff will stand behind him menacingly, and the judge will say "Mr. Musk =
+if you don=E2=80=99t put up your $27.5 billion equity commitment and close =
+this deal right now I will use my contempt powers to send you to Chancery J=
+ail.=E2=80=9D[10] But then he could just pull out his checkbook and pay the=
+ $27.5 billion. He will only go to=C2=A0jail=C2=A0over all of this if he=C2=
+=A0really wants to. Which I think would be taking the joke a bit too far?
+ =20
+   =20
+      How is Martin Shkreli doing?
+   =20
+ =20
+Out of  prison!Martin Shkreli, the =E2=80=9CPharma Bro=E2=80=9D who gained =
+notoriety for unapologetically raising drug prices, has been released from =
+federal prison in Pennsylvania and transferred to a halfway house.Shkreli w=
+as sentenced in 2018 to 7 years in prison after being convicted of securiti=
+es fraud for lying to investors and for manipulating shares of Retrophin In=
+c., a biotech company he founded. He was released early from a low-security=
+ federal prison in Allenwood, Pennsylvania.=C2=A0Good for him. He missed me=
+me stocks last year but I am sure there will be lots more weird markets stu=
+ff for him to get into. Maybe he can=C2=A0co-invest in Musk=E2=80=99s Twitt=
+er deal?
+ =20
+   =20
+      Me elsewhere
+   =20
+ =20
+I was a guest on Zohar Atkins=E2=80=99s podcast =E2=80=9CMeditations with Z=
+ohar,=E2=80=9D in an episode that we recorded a while back but that was rel=
+eased yesterday. We talked about classical Greece, short squeezes, how this=
+ column comes out a bit later each day, and lots of other things; I had fun=
+ and you might also enjoy it if you, uh, want to hear me talk about myself =
+I guess?
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Plotkin  Shuts Melvin Hedge Fund Left Reeling by Redditor Attack. The mauli=
+ng of Tiger Global. US Pries Into Over 100 Trader and Banker Phones in  Tex=
+ting Probe. Tesla Loses Spot on  S&P ESG Index Due to Concerns Over Crashes=
+, Working Conditions. US Set to  Block Russian Debt Payments, Raising Odds =
+of Default. China Insists Party Elites Shed Overseas Assets, Eyeing Western=
+ Sanctions on Russia. JPMorgan Takes First Step to Revive  Texas Muni-Bond =
+Business. The Decade of Cheap Rides Is Over. More Subprime Borrowers Are Mi=
+ssing Loan Payments. Cerebral Directors Vote to  Oust CEO as US Probes Pres=
+cription Practices. How a Tweet Led to the Downfall of a $1 Billion Drug Ca=
+rtel. Accidental discovery that scallops love =E2=80=98disco=E2=80=99 light=
+s leads to new fishing technique. Frogs Keep Mating With the Wrong Things.I=
+f you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right i=
+n your inbox, please=C2=A0subscribe at this link. Or you can subscribe to M=
+oney Stuff and other great Bloomberg newsletters here. Thanks![1] This is n=
+ot entirely true; Congress has added to the SEC=E2=80=99s mandate over the =
+years, and e.g. the 2010 Dodd-Frank Act provides some of the basis for some=
+ of these rules. In general quite a bit of SEC rulemaking responds to congr=
+essional demands, but much of this batch is the SEC=E2=80=99s own initiativ=
+e[2] Well, there are various constitutional rights that are protected in pa=
+rt by courts saying that Congress can=E2=80=99t limit them unless it acts r=
+ationally, or some higher standard. But in the general case Congress is con=
+stitutionally allowed be pretty arbitrary and capricious, certainly more so=
+ than an administrative agency. The main check on Congress, the theory goes=
+, is democratic accountability, not court review.[3] For the history here y=
+ou can read Justice Gorsuch=E2=80=99s Gundy dissent, or honestly=C2=A0Wikip=
+edia. For the statutory authority for various SEC rules, you can read the p=
+roposing releases. For instance, the climate disclosure proposal, citing va=
+rious sections of the Securities Act of 1933 and the Securities Exchange Ac=
+t of 1934,=C2=A0says: =E2=80=9CThe Commission has broad authority to promul=
+gate disclosure requirements that are =E2=80=98necessary or appropriate in =
+the public interest or for the protection of investors.=E2=80=99=C2=A0We ha=
+ve considered this statutory standard and determined that disclosure of inf=
+ormation about climate-related risks and metrics would be in the public int=
+erest and would protect investors. In making this determination, we have al=
+so considered whether the proposed disclosures =E2=80=98will promote effici=
+ency, competition, and capital formation.=E2=80=99=E2=80=9D The stock buyba=
+ck proposal is less explicit, but also cites various statutory sections tha=
+t generally give the SEC authority to make rules =E2=80=9Cas necessary or a=
+ppropriate in the public interest or for the protection of investors.=E2=80=
+=9D[4] Four justices voted to uphold the rule, in an opinion written by Jus=
+tice Elena Kagan. Three voted against, in an opinion written by Justice Nei=
+l Gorsuch. Justice Samuel=C2=A0Alito voted to uphold the rule, and wrote a =
+concurrence saying in essence that he would rather have voted against, but =
+didn=E2=80=99t have the votes: =E2=80=9CSince 1935, the Court has uniformly=
+ rejected nondelegation arguments and has upheld provisions that authorized=
+ agencies to adopt important rules pursuant to extraordinarily capacious st=
+andards. =E2=80=A6 If a majority of this Court were willing to reconsider t=
+he approach we have taken for the past 84 years, I would support that effor=
+t. But because a majority is not willing to do that, it would be freakish t=
+o single out the provision at issue here for special treatment.=E2=80=9D Ju=
+stice Brett Kavanaugh was confirmed to the court a few days after the oral =
+argument in Gundy, and did not vote. Incidentally, during oral argument in =
+Gundy, Justice Stephen Breyer =E2=80=94 who was=C2=A0an expert on administr=
+ative law before becoming a judge =E2=80=94=C2=A0asked whether reviving the=
+ nondelegation doctrine would undermine the SEC. After all, the guiding pri=
+nciple for the authority delegated to the SEC is quite broad, and the SEC m=
+akes a lot of rules. Are they all unconstitutional?[5] The three in Gundy (=
+Gorsuch, John Roberts and Clarence Thomas), plus Alito (who essentially agr=
+eed with Gorsuch in Gundy), Kavanaugh (who joined the court a week after Gu=
+ndy) and Amy Coney Barrett (who joined later).[6]=C2=A0This is actually a p=
+retty common move,=C2=A0striking down administrative decisions because of s=
+ome constitutional objection to the rules for how personnel are appointed.=
+=C2=A0SEC ALJ appointments were declared unconstitutional once before, and =
+modified to fix the problem, but now I guess they are unconstitutional agai=
+n and need to be fixed some more. Except that trials by SEC ALJs are appare=
+ntly unconstitutional anyway, so fixing the appointment process=C2=A0won=E2=
+=80=99t really help.[7] Citations omitted.[8] Also, to be clear, the bankin=
+g regulators, and the Environmental Protection Agency, and every other admi=
+nistrative agency. This is a finance column, and this case is about the SEC=
+, so I am talking about the SEC. But the implications are much broader.[9] =
+Bankers generally make most of their money for actually closing a deal, tho=
+ugh given the situation here =E2=80=94=C2=A0Twitter hired advisers to consi=
+der Musk=E2=80=99s semi-hostile offer and possibly fend him off =E2=80=94=
+=C2=A0I assume its bankers will get something even if he goes away. Still l=
+ess than they=E2=80=99d get for a closed deal. Lawyers tend to be paid more=
+ for work (by the hour, etc.) than for success, but in high-profile M&A som=
+e success-based pay is not uncommon.[10] Not=C2=A0a real thing, I don=E2=80=
+=99t think.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgj7cw.5wo3/aa646c94.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_15103037_408886704.1652981454658
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+NondelegationArticle I, Section 1 of the US Constitution says: =E2=80=9CAll=
+ legislative Powers herein granted shall be vested in a Congress of the U
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNzc2OTg1NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgwNDU0NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB9bad9a20" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D27769856&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28045475&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNTE5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA1MTkmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB9a55020b"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNzc2OTg1NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgwNDU0NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCe68d7985" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D27769856&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28045475&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Nondelegation</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Article I, Section 1 of the <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/27769856.275619/aHR0cHM6Ly93=
+d3cuYXJjaGl2ZXMuZ292L2ZvdW5kaW5nLWRvY3MvY29uc3RpdHV0aW9uLXRyYW5zY3JpcHQ/607=
+f07ceef4b8524a319a23cB4c9a7261" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">US Constitution</a> says: =E2=80=9C=
+All legislative Powers herein granted shall be vested in a Congress of the =
+United States, which shall consist of a Senate and House of Representatives=
+.=E2=80=9D One way to paraphrase that is: Federal law is made by Congress.<=
+/p><p style=3D"margin: 16px 0;">In the modern US, this is not quite true.=
+=C2=A0<em>Some=C2=A0</em>federal law is made by Congress, but quite a lot o=
+f federal law is made by government departments and administrative agencies=
+. In many cases, Congress passes fairly general laws, and those laws instru=
+ct the relevant agency to write rules implementing the laws, and then the a=
+gencies write more specific rules. Sometimes these rules just fill in detai=
+ls in a comprehensive statutory scheme. Other times the agencies have prett=
+y broad mandates to write rules that are in the public interest, and they g=
+et to set their own agendas and decide what that means.</p><p style=3D"marg=
+in: 16px 0;">There is quite a large body of law and procedure governing how=
+ those agencies write those rules, and those rules are pretty important. Ar=
+ound here, we have talked recently about a bunch of proposed rules from the=
+ US Securities and Exchange Commission that would, for instance, crack down=
+ on <a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.27561=
+9/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDMtMzEvd=
+GhlLXNlYy1pcy1jb21pbmctZm9yLXNwYWNzP2NtcGlkPUJCRDA1MTkyMl9NT05FWVNUVUZGJnV0=
+bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDUxOSZ1dG1=
+fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBdfe9b525" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> spe=
+cial purpose acquisition companies</a>, require more <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/27769856.275619/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDMtMjQvdGhlLXNlYy13YW50cy10by1zdG9=
+wLWFjdGl2aXNtP2NtcGlkPUJCRDA1MTkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdX=
+RtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDUxOSZ1dG1fY2FtcGFpZ249bW9uZXlzd=
+HVmZg/607f07ceef4b8524a319a23cB2523186f" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> disclosure of activist =
+stakes and swap positions</a>, limit <a href=3D"https://link.mail.bloomberg=
+business.com/click/27769856.275619/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjEtMTItMTYvdGhlLXNlYy1oYXMtYmlnLXBsYW5zP2NtcGlkPUJCRDA=
+1MTkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJn=
+V0bV90ZXJtPTIyMDUxOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a2=
+3cBd81c59bf" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> stock buybacks and executives trading in their own st=
+ocks</a>, and most notably <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27769856.275619/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydG=
+ljbGVzLzIwMjItMDMtMjIvdGhlLXNlYy13aWxsLXJlZ3VsYXRlLWNsaW1hdGU_Y21waWQ9QkJEM=
+DUxOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXIm=
+dXRtX3Rlcm09MjIwNTE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a2=
+3cB5b9407cf" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> implement a climate disclosure regime</a>. This is mo=
+stly stuff that the SEC is doing on its own initiative under laws passed mo=
+stly in the 1930s and <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/27769856.275619/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvV2lsbGlhbXNfQWN=
+0/607f07ceef4b8524a319a23cB3b994741" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">1960s</a>. Congress largely=C2=
+=A0set up the SEC and its underlying system of securities laws in the 1930s=
+, and the SEC took it from there.[1]</p><p style=3D"margin: 16px 0;">There =
+are obviously good reasons to do things this way. Congress does not have ti=
+me to write all the rules, so delegating rulemaking to agencies is efficien=
+t. Congress also has limited subject-matter expertise: The SEC knows more a=
+bout securities law and financial markets than the average congressperson, =
+so it makes sense for the SEC to write most of the securities rules. The ru=
+lemaking process is often both more flexible=C2=A0and more=C2=A0<em>thought=
+ful=C2=A0</em>than the legislative process; agencies have to consider publi=
+c comments and explain their reasoning in a way that Congress does not. Age=
+ncy rules can be overturned by a court if they are =E2=80=9C<a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/27769856.275619/aHR0cHM6Ly93d3cub=
+GF3LmNvcm5lbGwuZWR1L3VzY29kZS90ZXh0LzUvNzA2/607f07ceef4b8524a319a23cB61b1ff=
+49" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">arbitrary and capricious</a>,=E2=80=9D which is not generally =
+true of laws passed by Congress; Congress can be as arbitrary as it wants.[=
+2]</p><p style=3D"margin: 16px 0;">There are also objections though. Congre=
+ss is elected, and the SEC isn=E2=80=99t. Letting agencies write rules is m=
+ore technocratic but less democratic; the agencies might be more captured b=
+y industry or just by longtime staffers who are less politically accountabl=
+e. Also, let=E2=80=99s be clear, in the modern US, a lot of people simply t=
+hink that there should be=C2=A0<em>fewer=C2=A0</em>rules overall. If you th=
+ink that then you will object to the whole idea of agencies writing rules: =
+If only Congress could make law, then there would be fewer rules about, say=
+, securities fraud. (Or environmental regulation or workplace safety or ban=
+k capital or whatever else you are interested in.)</p><p style=3D"margin: 1=
+6px 0;">Also the constitution does say =E2=80=9C<em>all=C2=A0</em>legislati=
+ve powers=E2=80=9D are vested in Congress. If you take that literally,=C2=
+=A0you might think that it=E2=80=99s unconstitutional for the SEC to make a=
+ny rules at all.=C2=A0</p><p style=3D"margin: 16px 0;">The rise of the US a=
+dministrative state =E2=80=94=C2=A0all these agencies making all these rule=
+s =E2=80=94 is most identified with the New Deal in the 1930s. At the time,=
+ people objected that it was in fact unconstitutional for agencies to make =
+rules. The US Supreme Court occasionally agreed: In two 1935 cases, the Sup=
+reme Court struck down laws that delegated rulemaking authority to executiv=
+e agencies. Then that stopped, and the administrative state grew. Since 193=
+5, lots of people have challenged agency rulemaking under the =E2=80=9Cnond=
+elegation doctrine,=E2=80=9D the theory that Congress cannot delegate legis=
+lative authority to agencies, but they have never won. The Supreme Court ha=
+s adopted an =E2=80=9Cintelligible principle=E2=80=9D test, saying that if =
+Congress delegates authority to an agency and gives it an =E2=80=9Cintellig=
+ible principle=E2=80=9D to follow, then the agency can constitutionally mak=
+e rules guided by that principle. This is a vague test and in practice, for=
+ the last 87 years, it has always been met. For instance, Congress has give=
+n the SEC pretty broad authority to make disclosure rules that are =E2=80=
+=9Cnecessary or appropriate in the public interest for the protection of in=
+vestors,=E2=80=9D which gives the SEC a lot of discretion but which=C2=A0is=
+ probably =E2=80=9Cintelligible=E2=80=9D enough under current law.[3]</p><p=
+ style=3D"margin: 16px 0;">That is changing now, though. I am enough of a l=
+egal realist to say that it is changing because there have been a bunch of =
+Republican judicial appointments, including to the Supreme Court, in recent=
+ years, and elite Republican lawyers are skeptical of=C2=A0the modern admin=
+istrative state and want to revive the nondelegation doctrine.=C2=A0</p><p =
+style=3D"margin: 16px 0;">Here is where I need to make a personal disclosur=
+e-brag. My wife is a federal=C2=A0criminal defense lawyer, and a few years =
+ago she argued a case in the Supreme Court. The case =E2=80=94=C2=A0<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/aHR0cHM6L=
+y93d3cuc3VwcmVtZWNvdXJ0Lmdvdi9vcGluaW9ucy8xOHBkZi8xNy02MDg2XzJiOGUucGRm/607=
+f07ceef4b8524a319a23cB4ab79e35" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">Gundy v. United States</a> =E2=80=
+=94 concerned a fairly technical Justice Department rule about=C2=A0sex off=
+ender registries. But the argument was about the nondelegation doctrine: It=
+ was about whether it was constitutional for the Justice Department to make=
+ rules like that under delegated authority from Congress. It was the sort o=
+f case that would not have made it to the Supreme Court a decade earlier =
+=E2=80=94=C2=A0<em>obviously=C2=A0</em>this is constitutional, everyone wou=
+ld have said =E2=80=94=C2=A0but times were changing. The nondelegation doct=
+rine might be coming back.</p><p style=3D"margin: 16px 0;">Arguing in the S=
+upreme Court is kind of a big deal, and I came to the argument to watch. Si=
+tting in the audience before the argument, I ran into Jay Clayton, who was =
+then the chair of the SEC. We said hello, and I asked if he was there becau=
+se of the implications of the case for his agency. He looked puzzled: No, t=
+his was a sex-offender case; he was there because his friend was arguing th=
+e case for the government.</p><p style=3D"margin: 16px 0;">After the argume=
+nt he said to me something to the effect of=C2=A0=E2=80=9CI see what you me=
+an.=E2=80=9D</p><p style=3D"margin: 16px 0;">My wife lost. Barely. The Supr=
+eme Court ruled, in a strange 5-3 vote,[4] that the delegation at issue the=
+re was constitutional. Justice Neil Gorsuch wrote a dissent in Gundy, and i=
+t=E2=80=99s stuff like this:</p><blockquote><p style=3D"margin: 16px 0;">Wh=
+y did the framers insist on this particular arrangement? They believed the =
+new federal government=E2=80=99s most dangerous power was the power to enac=
+t laws restricting the people=E2=80=99s liberty.=C2=A0An =E2=80=9Cexcess of=
+ law-making=E2=80=9D was, in their words, one of =E2=80=9Cthe diseases to w=
+hich our governments are most liable.=E2=80=9D=C2=A0To address that tendenc=
+y, the framers went to great lengths to make lawmaking difficult. In Articl=
+e I, by far the longest part of the Constitution, the=C2=A0framers insisted=
+ that any proposed law must win the approval of two Houses of Congress=E2=
+=80=94elected at different times, by different constituencies, and for diff=
+erent terms in office=E2=80=94and either secure the President=E2=80=99s app=
+roval or obtain enough support to override his veto. Some occasionally comp=
+lain about Article I=E2=80=99s detailed and arduous processes for new legis=
+lation, but to the framers these were bulwarks of liberty. =E2=80=A6</p><p =
+style=3D"margin: 16px 0;">Restricting the task of legislating to one branch=
+ characterized by difficult and deliberative processes was also designed to=
+ promote fair notice and the rule of law, ensuring the people would be subj=
+ect to a relatively stable and predictable set of rules. And by directing t=
+hat legislating be done only by elected representatives in a public process=
+, the Constitution sought to ensure that the lines of accountability would =
+be clear: The sovereign people would know, without ambiguity, whom to hold =
+accountable for the laws they would have to follow.</p></blockquote><p styl=
+e=3D"margin: 16px 0;">In Gorsuch=E2=80=99s view, if =E2=80=9CCongress makes=
+ the policy decisions,=E2=80=9D it is okay for executive agencies to =E2=80=
+=9Cfill up the details.=E2=80=9D And =E2=80=9Conce Congress prescribes the =
+rule governing private conduct, it may make the application of that rule de=
+pend on executive fact-finding.=E2=80=9D=C2=A0But policy decisions have to =
+be made by Congress, not by agencies. He added:</p><blockquote><p style=3D"=
+margin: 16px 0;">Nor would enforcing the Constitution=E2=80=99s demands spe=
+ll doom for what some call the =E2=80=9Cadministrative state.=E2=80=9D The =
+separation of powers does not prohibit any particular policy outcome, let a=
+lone dictate any conclusion about the proper size and scope of government. =
+Instead, it is a procedural guarantee that requires Congress to assemble a =
+social consensus before choosing our nation=E2=80=99s course on policy ques=
+tions like those implicated by SORNA. What is more, Congress is hardly bere=
+ft of options to accomplish all it might wish to achieve. It may always aut=
+horize executive branch officials to fill in even a large number of details=
+, to find facts that trigger the generally applicable rule of conduct speci=
+fied in a statute, or to exercise non-legislative powers. Congress can also=
+ commission agencies or other experts to study and recommend legislative la=
+nguage. Respecting the separation of powers forecloses no substantive outco=
+mes. It only requires us to respect along the way one of the most vital of =
+the procedural protections of individual liberty found in our Constitution.=
+=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">That was several years =
+ago, though, and since then the personnel of the court has changed some mor=
+e. It is plausible that there are now as many as six votes for Gorsuch=E2=
+=80=99s position.[5]</p><p style=3D"margin: 16px 0;">Yesterday the U.S. Cou=
+rt of Appeals for the Fifth Circuit, in Texas, ruled that the SEC is uncons=
+titutional? Not really. But here is an opinion in <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/27769856.275619/aHR0cHM6Ly93d3cuY2E1LnVzY29=
+1cnRzLmdvdi9vcGluaW9ucy9wdWIvMjAvMjAtNjEwMDctQ1YwLnBkZg/607f07ceef4b8524a31=
+9a23cB50f7e2c9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">Jarkesy v. SEC</a>, where the SEC brought an admini=
+strative action against a hedge fund manager named George Jarkesy, accusing=
+ him=C2=A0of fraud. Instead of suing Jarkesy in federal court, the SEC, as =
+it sometimes does, brought an administrative action against him in its own =
+internal hearing system; instead of a judge and jury, the case=C2=A0was hea=
+rd by an SEC official called an =E2=80=9Cadministrative law judge.=E2=80=9D=
+ The ALJ found against Jarkesy, fined him almost a million dollars and bann=
+ed him from the industry; Jarkesy appealed to the commissioners of the SEC,=
+ who upheld the ALJ=E2=80=99s judgment. Then he appealed to the Fifth Circu=
+it, arguing that all of this was unconstitutional.</p><p style=3D"margin: 1=
+6px 0;">The Fifth Circuit panel, by a 2-1 vote,=C2=A0agreed, for three reas=
+ons. One reason is that, by suing him in its own tribunal, the SEC deprived=
+ him of the right to a jury trial: The SEC fined him a million dollars for =
+fraud, without having to prove its case to a jury. The Fifth Circuit found =
+this unconstitutional under the <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/27769856.275619/aHR0cHM6Ly93d3cuYXJjaGl2ZXMuZ292L2ZvdW5kaW5nL=
+WRvY3MvYmlsbC1vZi1yaWdodHMtdHJhbnNjcmlwdA/607f07ceef4b8524a319a23cB2615f2c0=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">Seventh Amendment</a>, which guarantees a right to a jury in civi=
+l cases. I think I agree? At Bloomberg Opinion back in 2015, <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/27769856.275619/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTUtMTAtMDIvc2VjLXMtbmV3LWNvdXJ=
+0LXBvd2Vycy1hcmVuLXQtZ29pbmctYXdheT9jbXBpZD1CQkQwNTE5MjJfTU9ORVlTVFVGRiZ1dG=
+1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA1MTkmdXRtX=
+2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB4e445e09" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Noah=
+ Feldman wrote</a>=C2=A0a good column about this case, saying that it was =
+=E2=80=9Cworth noting, and mourning, this impending incremental erosion of =
+the constitutional protections of a civil trial and the jury right that goe=
+s hand in hand with it.=E2=80=9D=C2=A0The SEC has always had the power to b=
+ring fraud cases in federal court, and has a pretty=C2=A0good record there.=
+ But in 2010, Congress gave the SEC the power to pursue monetary penalties =
+in its own courts if it wanted to. This always seems to <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/27769856.275619/aHR0cHM6Ly90YXgudGhvb=
+XNvbnJldXRlcnMuY29tL25ld3MvY3JpdGljcy1wcmVzcy1mb3ItcmVmb3JtLWFzLXNlYy1mYWls=
+cy10by1zZXBhcmF0ZS1lbmZvcmNlbWVudC1hbmQtYWRqdWRpY2F0b3J5LWZ1bmN0aW9ucy8/607=
+f07ceef4b8524a319a23cBdc352791" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">cause</a> more <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/27769856.275619/aHR0cHM6Ly93d3cuam9uZX=
+NkYXkuY29tL2VuL2luc2lnaHRzLzIwMTgvMDYvdXMtc3VwcmVtZS1jb3VydC1ob2xkcy1zZWNzL=
+XN0YWZmLWFwcG9pbnRtZW50cy1mb3I/607f07ceef4b8524a319a23cB7f7311af" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+trouble</a> than it saves, and is apparently unconstitutional, and I am not=
+ sure the SEC will miss it all that much.</p><p style=3D"margin: 16px 0;">A=
+nother reason is that the process for appointing and removing SEC ALJs is u=
+nconstitutional, for reasons=C2=A0that honestly I find unbearably boring an=
+d so will not talk about.[6]</p><p style=3D"margin: 16px 0;">But the third =
+reason is the nondelegation doctrine: The Fifth Circuit found that Congress=
+ unconstitutionally delegated to the SEC the power to decide whether to bri=
+ng cases in federal court or before its own ALJs[7]:</p><blockquote><p styl=
+e=3D"margin: 16px 0;">Congress has delegated to the SEC what would be legis=
+lative power absent a guiding intelligible principle. =E2=80=A6=C2=A0Throug=
+h Dodd=E2=80=93Frank =C2=A7 929P(a), Congress gave the SEC the power to bri=
+ng securities fraud actions for monetary penalties within the agency instea=
+d of in an Article III court whenever the SEC in its unfettered discretion =
+decides to do so. Thus, it gave the SEC the ability to determine which subj=
+ects of its enforcement actions are entitled to Article III proceedings wit=
+h a jury trial, and which are not. That was a delegation of legislative pow=
+er.</p></blockquote><p style=3D"margin: 16px 0;">This strikes me as a littl=
+e weird =E2=80=94=C2=A0surely deciding what forum to sue in is an executive=
+ action, not a legislative one? =E2=80=94=C2=A0and not at all necessary to =
+the decision. The court could have thrown out Jarkesy=E2=80=99s fine by say=
+ing that he was deprived of a jury trial, without talking about the nondele=
+gation stuff.=C2=A0</p><p style=3D"margin: 16px 0;">But the panel is making=
+=C2=A0a broader point here. The broader point is Justice Gorsuch=E2=80=99s =
+point about political accountability, an excess of lawmaking, etc.; the opi=
+nion talks about those principles at length and cites Justice Gorsuch=E2=80=
+=99s Gundy dissent. The point is that the nondelegation doctrine is alive a=
+gain, and the Fifth Circuit is making a bet that the next time it goes befo=
+re the Supreme Court it will win. The point is that the SEC=E2=80=99s=C2=A0=
+<em>actual=C2=A0</em>legislative actions =E2=80=94=C2=A0writing rules about=
+ stock buybacks or swaps disclosure or climate change =E2=80=94=C2=A0are no=
+w in danger. It used to be accepted as a routine matter that the SEC could =
+make rules under a very broad grant of power from Congress to regulate secu=
+rities markets in the public interest.[8] I am not sure=C2=A0that is true a=
+nymore.</p><p style=3D"margin: 16px 0;">This may not be a particularly big =
+deal. Two judges on one panel of one appeals court found that one small par=
+t of what the SEC does is an unconstitutional delegation of power. It is po=
+ssible that this decision is fairly narrow: Congress did=C2=A0delegate=C2=
+=A0<em>this=C2=A0</em>decision =E2=80=94=C2=A0about whether to bring cases =
+in federal courts or its own forums =E2=80=94=C2=A0to the SEC, fairly recen=
+tly,=C2=A0without=C2=A0<em>any </em>guidance at all, which is unusual. Perh=
+aps the =E2=80=9Cintelligible principle=E2=80=9D standard allows the SEC to=
+ do all of its=C2=A0<em>other=C2=A0</em>rulemaking (because Congress has mo=
+stly given it some broad guidance about protecting investors in the public =
+interest, and because SEC rules do help to fill in a fairly detailed statut=
+ory system), but not to make this particular decision. Still.=C2=A0I think =
+the Fifth Circuit went out of its way to find a nondelegation problem becau=
+se the Supreme Court has changed and now there will be a lot more courts fi=
+nding a lot more nondelegation problems. I think this might be a sign of wh=
+ere things are going.</p><p style=3D"margin: 16px 0;">One immediate upshot =
+of this is that some of the SEC=E2=80=99s recently proposed rules =E2=80=94=
+=C2=A0on swaps disclosure, on climate, etc. =E2=80=94=C2=A0are hotly contro=
+versial, and there have been unusually aggressive comments from industry pa=
+rticipants to the effect of =E2=80=9Cif you implement these rules, we will =
+sue, and we will win.=E2=80=9D When people say this, what they mean is gene=
+rally that they will go to court saying that the SEC=E2=80=99s rulemaking p=
+rocess was not good enough.=C2=A0Under <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/27769856.275619/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L3=
+dleC9hZG1pbmlzdHJhdGl2ZV9wcm9jZWR1cmVfYWN0/607f07ceef4b8524a319a23cB2005a6c=
+6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">the rules for rulemaking</a>, agencies like the SEC need to co=
+nsider costs and benefits, solicit and consider public comments and give a =
+rational explanation for their rules. If you don=E2=80=99t like a rule,=C2=
+=A0you can sue, arguing that the SEC=E2=80=99s process was arbitrary and ca=
+pricious,=C2=A0and=C2=A0people sometimes win these lawsuits. And certainly =
+people were gearing up to bring those sorts of cases against the climate an=
+d swaps rules.</p><p style=3D"margin: 16px 0;">But now you can throw in at =
+the end of your brief: =E2=80=9CAlso it is unconstitutional for the SEC to =
+make any rules at all about this stuff.=E2=80=9D If =E2=80=9Cthis stuff=E2=
+=80=9D is climate change, you=E2=80=99ll =E2=80=A6 probably win? (Not legal=
+ advice!) If =E2=80=9Cthis stuff=E2=80=9D is swaps=C2=A0disclosure =E2=80=
+=94=C2=A0which does seem closer to the core of the SEC=E2=80=99s job?=C2=A0=
+=E2=80=94=C2=A0you=E2=80=99ve also got a=C2=A0shot. Because now there is a =
+live possibility that federal courts might say it is unconstitutional for t=
+he SEC to make any rules about anything.=C2=A0</p><table class=3D"liveinten=
+t-sponsored-content" width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzc2OTg1NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgwNDU0NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDea7e1216" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27769856&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28045475&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzc2OTg1NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgwNDU0NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEea7e1216" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27769856&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28045475&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzc2OTg1NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgwNDU0NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFc9bfe140" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27769856&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28045475&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzc2OTg1NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgwNDU0NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGc9bfe140" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27769856&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28045475&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Wells Fargo! Come on!</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Wells Fargo &amp; Co. is a big bank. A=
+s a bank, it likes making money. As a general rule, banks make more money a=
+s (1) they get more customers and (2) those customers open more accounts: A=
+ customer with a mortgage and a credit card and online checking is generall=
+y worth more than a customer with only a checking account. So Wells Fargo i=
+ncentivized=C2=A0its retail-level bankers to sell more products and open mo=
+re accounts. If you sold a lot of products each day, you were rewarded; if =
+you did not, you were fired.</p><p style=3D"margin: 16px 0;">Due to difficu=
+lty of attribution and measurement and motivation, Wells Fargo did=C2=A0<em=
+>not </em>mainly=C2=A0reward those employees for, like, the actual lifetime=
+ monetary value to Wells Fargo of the accounts that they opened. It just re=
+warded them for volume of accounts opened. Adding online banking to a check=
+ing account was a =E2=80=9Cproduct=E2=80=9D that counted toward your quota =
+of X products per day,=C2=A0same as adding a mortgage; a checking account w=
+ith $1 in it that closed in a week counted as much as a credit card that ca=
+rried a $20,000 balance for years. Really just a rough cut at measurement.<=
+/p><p style=3D"margin: 16px 0;">Knowing that, you can figure out what happe=
+ned next. Wells Fargo bankers, struggling to meet quotas, opened a lot of l=
+ow-value accounts. People who signed up for checking accounts got signed up=
+ for online access whether or not they wanted it; they got pushed to open c=
+redit cards too. And bankers often=C2=A0went a step further and signed cust=
+omers up for accounts=C2=A0<em>without their permission</em>. Occasionally =
+this helped Wells Fargo and harmed the customers: They had to pay fees on a=
+ccounts that they didn=E2=80=99t want or know about, and Wells Fargo collec=
+ted the fees. Sometimes this harmed the customers without helping Wells Far=
+go: Their credit got worse due to new debt accounts, but the accounts were =
+never used and Wells Fargo never made any money. Often=C2=A0nothing happene=
+d to anyone =E2=80=94=C2=A0the customers had $0-balance accounts that were =
+quickly closed with no money changing hands, or free =E2=80=9Cproducts=E2=
+=80=9D like online banking access that they never knew about or used =E2=80=
+=94=C2=A0but the bankers got to meet their quotas.</p><p style=3D"margin: 1=
+6px 0;">The point is just that Wells Fargo had a crude measure (=E2=80=9Cpr=
+oducts sold=E2=80=9D) that was meant to approximate=C2=A0an important thing=
+ (something like =E2=80=9Cvalue extracted out of each customer=E2=80=9D), a=
+nd its overstressed retail bankers cynically optimized the crude measure ra=
+ther than the important thing. And then <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/27769856.275619/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMTYtMDktMDkvd2VsbHMtZmFyZ28tb3BlbmVkLWEtY291cGxlLW1p=
+bGxpb24tZmFrZS1hY2NvdW50cz9jbXBpZD1CQkQwNTE5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXV=
+tPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA1MTkmdXRtX2NhbXBhaW=
+duPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBc510ba73" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> Wells Fargo g=
+ot in huge trouble</a> and was fined a lot of money and it was, like,=C2=A0=
+<em>the=C2=A0</em>major US banking scandal of the mid-to-late-2010s?</p><p =
+style=3D"margin: 16px 0;">Here is a crazy story from <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/27769856.275619/aHR0cHM6Ly93d3cubnl0aW1l=
+cy5jb20vMjAyMi8wNS8xOS9idXNpbmVzcy93ZWxscy1mYXJnby1mYWtlLWludGVydmlld3MuaHR=
+tbA/607f07ceef4b8524a319a23cBf5f0b9fa" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">Emily Flitter at the New Yor=
+k Times</a>:</p><blockquote><p style=3D"margin: 16px 0;">Joe Bruno, a forme=
+r executive in the wealth management division of Wells Fargo, had long been=
+ troubled by the way his unit handled certain job interviews.</p><p style=
+=3D"margin: 16px 0;">For many open positions, employees would interview a =
+=E2=80=9Cdiverse=E2=80=9D candidate =E2=80=94 the bank=E2=80=99s term for a=
+ woman or person of color =E2=80=94 in keeping with the bank=E2=80=99s year=
+slong informal policy. But Mr. Bruno noticed that often, the so-called dive=
+rse candidate would be interviewed for a job that had already been promised=
+ to someone else. ...</p><p style=3D"margin: 16px 0;">Mr. Bruno is one of s=
+even current and former Wells Fargo employees who said that they were instr=
+ucted by their direct bosses or human resources managers in the bank=E2=80=
+=99s wealth management unit to interview =E2=80=9Cdiverse=E2=80=9D candidat=
+es =E2=80=94 even though the decision had already been made to give the job=
+ to another candidate. Five others said they were aware of the practice, or=
+ helped to arrange it.</p><p style=3D"margin: 16px 0;">The interviews, they=
+ said, seemed to be more about helping Wells Fargo record its diversity eff=
+orts on paper =E2=80=94 partly in anticipation of possible regulatory audit=
+s =E2=80=94 rather than hiring more women or people of color. All but three=
+ spoke on the condition of anonymity because they were afraid of losing the=
+ir jobs at Wells Fargo or their new employers.</p><p style=3D"margin: 16px =
+0;">In an emailed statement, Raschelle Burton, a Wells Fargo spokeswoman, s=
+aid the bank expected all employees to follow its hiring policies and guide=
+lines, which are communicated across the firm. =E2=80=9CTo the extent that =
+individual employees are engaging in the behavior as described by The New Y=
+ork Times, we do not tolerate it,=E2=80=9D Ms. Burton said.</p></blockquote=
+><p style=3D"margin: 16px 0;">Yeah! Well! That=E2=80=99s what you said last=
+ time! Wells Fargo really didn=E2=80=99t want bankers to open fake accounts=
+; they wanted bankers to open=C2=A0<em>real=C2=A0</em>accounts, because rea=
+l accounts are what make money! But it had a crude measurement system, over=
+worked bankers and not enough oversight, and so it got millions of fake acc=
+ounts.</p><p style=3D"margin: 16px 0;">Similarly I can believe that Wells F=
+argo=E2=80=99s senior executives would really like their teams to try to hi=
+re=C2=A0more women and people of color. And they implemented a crude but se=
+nsible=C2=A0metric to measure those efforts: Each team should interview at =
+least one =E2=80=9Cdiverse=E2=80=9D candidate for each open slot. (Apparent=
+ly Wells Fargo=E2=80=99s official=C2=A0policy applied only to more senior r=
+oles, but there seems to have been some ambiguity about that in practice.) =
+And then people optimized for the crude metric,=C2=A0=E2=80=9Cinterview one=
+ diverse candidate per job,=E2=80=9D=C2=A0rather than for the actual goal,=
+=C2=A0=E2=80=9Ctry to hire more diverse candidates.=E2=80=9D And so Wells F=
+argo got fake interviews the same way it got fake accounts.</p><p style=3D"=
+margin: 16px 0;">I say =E2=80=9Ccome on!=E2=80=9D but, you know, this stuff=
+ is hard. Wells Fargo is a big bank. To some extent you have to manage a bi=
+g organization with simple, crude, legible metrics. In a big enough organiz=
+ation, somebody will game those metrics. Ideally you create a culture that =
+minimizes that gamesmanship, one where employees understand and buy into th=
+e organization's=C2=A0<em>real goals=C2=A0</em>rather than just trying to m=
+aximize the dumb metrics. Wells Fargo seems to be having some trouble creat=
+ing that culture.</p><table class=3D"liveintent-flex-ad" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNzc2OTg1NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgwNDU0NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH3c3d311c" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D27769856&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28045475&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Musk Stuff</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Is Elon Musk=E2=80=99s deal to buy Twi=
+tter Inc. =E2=80=9Ctemporarily on hold=E2=80=9D? On the one hand, he did tw=
+eet that last week. On the other hand, as <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/27769856.275619/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMTMvZWxvbi1tdXNrLXRyb2xscy10d2l0dGVyP2NtcG=
+lkPUJCRDA1MTkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzb=
+GV0dGVyJnV0bV90ZXJtPTIyMDUxOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8=
+524a319a23cB8871e289" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> I wrote at the time</a>, no:</p><blockquote>=
+<p style=3D"margin: 16px 0;">=E2=80=9CTemporarily on hold=E2=80=9D is not a=
+ thing. Elon Musk has signed a binding contract requiring him to buy Twitte=
+r. Legions of bankers and lawyers and Twitter employees and special-purpose=
+-vehicle promoters are working to fulfill his legal obligation to get the d=
+eal closed.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">At Bloomberg=
+ News yesterday, Michelle Davis and Liana Baker reported that <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/27769856.275619/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDUtMTgvYXMtbXVzay10d2VldHMtYW=
+R2aXNlcnMtcGx1Zy1hd2F5LXRvLWtlZXAtdHdpdHRlci1kZWFsLW9uLXRyYWNrP2NtcGlkPUJCR=
+DA1MTkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVy=
+JnV0bV90ZXJtPTIyMDUxOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319=
+a23cB8297cc0e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> nothing is on hold</a>:</p><blockquote><p style=3D"=
+margin: 16px 0;">Behind the scenes, it=E2=80=99s more like business as usua=
+l, as advisers on both sides plug away at the day-to-day work of closing a =
+megadeal.</p><p style=3D"margin: 16px 0;">One potential sign that the deal =
+is still on track: the 139-page filing that hit early Tuesday, detailing ho=
+w the offer came together and Twitter=E2=80=99s rationale for accepting it.=
+ That document was the result of weeks of coordinated work by both Musk and=
+ Twitter=E2=80=99s teams, according to people familiar with the matter. Mus=
+k himself signed off on the final version -- complete with a deal price of =
+$54.20 a share -- before it was filed, the people said.</p><p style=3D"marg=
+in: 16px 0;">The situation is similar at the banks that promised to finance=
+ the transaction, said the people, who asked not to be identified because t=
+he details are private. While texts are flying among bankers in disbelief a=
+t Musk=E2=80=99s antics, their days are still filled with preparing documen=
+ts needed to proceed with and close the purchase, the people said.</p></blo=
+ckquote><p style=3D"margin: 16px 0;">Yeah when you turn this machine on, it=
+=E2=80=99s hard to turn it off. Twitter=E2=80=99s board of directors and ex=
+ecutives obviously want the deal to close. (I suppose many of its employees=
+ have mixed feelings.) Twitter=E2=80=99s advisers =E2=80=94=C2=A0its banker=
+s and lawyers =E2=80=94=C2=A0want it to close, since that=E2=80=99s general=
+ly how they get their fees and their league-table credit.[9] They are all w=
+orking=C2=A0to get it closed.</p><p style=3D"margin: 16px 0;">Musk=E2=80=99=
+s advisers also want their fees and league-table credit, though Musk=E2=80=
+=99s bankers are a bit more conflicted because (1) they have also agreed to=
+ finance his purchase=C2=A0and (2) that financing is kind of risky. (Also a=
+t Bloomberg,=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/=
+27769856.275619/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjI=
+tMDUtMTcvbXVzay1oYXMtYS1iaWdnZXItcHJvYmxlbS10aGFuLWJvdHMtYS1odWdlLXR3aXR0ZX=
+ItZGVidC1idXJkZW4_Y21waWQ9QkJEMDUxOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpb=
+CZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNTE5JnV0bV9jYW1wYWlnbj1tb25l=
+eXN0dWZm/607f07ceef4b8524a319a23cB997e3c98" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">Paula Seligson reports<=
+/a> that =E2=80=9Cto=C2=A0sober-minded credit analysts, second thoughts abo=
+ut the deal are to be expected,=E2=80=9D given Twitter's high pro forma lev=
+erage and limited free cash flow.) It would probably be something of a reli=
+ef for Musk=E2=80=99s bankers if he gets out of this thing, given the state=
+ of the markets and his own cooling enthusiasm for Twitter. Still, every bi=
+g-time investment banker would=C2=A0rather get the glory, fees and league-t=
+able credit that come from closing a huge hairy deal than the good night's =
+sleep that comes from saying =E2=80=9Cmeh, never mind.=E2=80=9D</p><p style=
+=3D"margin: 16px 0;">That said, Musk keeps tweeting stuff, so nothing is ce=
+rtain. Mostly he has been <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/27769856.275619/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGV=
+zLzIwMjItMDUtMTgvbXVzay1sb3Nlcy0xMi1iaWxsaW9uLWluLWEtZGF5LWFzLWhlLXR3ZWV0cy=
+1wb2xpdGljcy1zbGFtcy1lc2c_Y21waWQ9QkJEMDUxOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1b=
+T1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNTE5JnV0bV9jYW1wYWln=
+bj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB25fd66e2" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> distracted by =
+politics</a> and forgotten his=C2=A0complaints about Twitter=E2=80=99s bot =
+problems, though <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+7769856.275619/aHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTUyNzA5Mjk1=
+NjQ3NzUwOTYzNA/607f07ceef4b8524a319a23cBd4687abf" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">yesterday he twee=
+ted</a> =E2=80=9C[face with tongue emoji][popcorn emoji],=E2=80=9D which mi=
+ght be deal-related, who knows. I guess we=E2=80=99ll see if his lawyers fi=
+le that tweet with the SEC. If they do, you know it was a material communic=
+ation about the deal.</p><p style=3D"margin: 16px 0;">I <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/27769856.275619/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMTcvZWxvbi1tdXNrLWRvZXMtbm90=
+LWNhcmUtYWJvdXQtc3BhbS1ib3RzP2NtcGlkPUJCRDA1MTkyMl9NT05FWVNUVUZGJnV0bV9tZWR=
+pdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDUxOSZ1dG1fY2FtcG=
+FpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB3640880d" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> wrote the =
+other day</a>:</p><blockquote><p style=3D"margin: 16px 0;">Arguably Twitter=
+=E2=80=99s best option is to do nothing: Let Musk tweet, ignore him, and co=
+ntinue acting as though everything is normal and the deal is going to close=
+. Don=E2=80=99t give him any more pretexts to walk away, just keep trying t=
+o get regulatory and shareholder approvals, and then come to him ready to c=
+lose and see how serious he is about all of this. The basic problem with Mu=
+sk, for Twitter, is that he changes his mind a lot. Maybe he'll change it a=
+gain.</p></blockquote><p style=3D"margin: 16px 0;">And that does seem to be=
+ Twitter=E2=80=99s approach. =E2=80=9C=E2=80=98We intend to close the trans=
+action and enforce the merger agreement,=E2=80=99 <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/27769856.275619/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDUtMTcvdHdpdHRlci1ib2FyZC1zYXlzLWl0LXBsYW=
+5zLXRvLWVuZm9yY2UtbXVzay1tZXJnZXItYWdyZWVtZW50LWwzYXNiYnhhP2NtcGlkPUJCRDA1M=
+TkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0=
+bV90ZXJtPTIyMDUxOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23c=
+B1b356907" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> the board said Tuesday</a> in a statement to Bloomberg =
+News,=E2=80=9D but it has not engaged much with Musk=E2=80=99s nonsense, an=
+d he does seem to have moved on to politics (and complaining about Tesla In=
+c.=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/27769=
+856.275619/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDUt=
+MTgvdGVzbGEtY3Jhc2hlcy13b3JrLWNvbmRpdGlvbnMtc2VlLWl0LXB1c2hlZC1vZmYtcy1wLWV=
+zZy1pbmRleD9jbXBpZD1CQkQwNTE5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV=
+9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA1MTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1Z=
+mY/607f07ceef4b8524a319a23cB3a0cd5b4" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> removal</a> from an environm=
+ental, social and governance index). Twitter thinks the deal is on, Musk=E2=
+=80=99s bankers and lawyers think the deal is on.=C2=A0Maybe he=E2=80=99ll =
+be so busy tweeting that he=E2=80=99ll=C2=A0forget the deal is off.</p><p s=
+tyle=3D"margin: 16px 0;">Elsewhere:</p><ul style=3D"list-style-type: disc; =
+padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">I=
+ have <a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.275=
+619/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMTM=
+vZWxvbi1tdXNrLXRyb2xscy10d2l0dGVyP2NtcGlkPUJCRDA1MTkyMl9NT05FWVNUVUZGJnV0bV=
+9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDUxOSZ1dG1fY=
+2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cC8871e289" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">  expl=
+ained before</a> that Musk=E2=80=99s complaints about Twitter spam bots are=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMTcvZWxv=
+bi1tdXNrLWRvZXMtbm90LWNhcmUtYWJvdXQtc3BhbS1ib3RzP2NtcGlkPUJCRDA1MTkyMl9NT05=
+FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPT=
+IyMDUxOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cC3640880d"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">  ridiculously pretextual</a> and do not give him a right to get o=
+ut of the deal. Here is a very good <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/27769856.275619/aHR0cHM6Ly90d2l0dGVyLmNvbS9Bbm5NTGlwdG9uL=
+3N0YXR1cy8xNTI3MjAzNjMzNTk4NzAxNTY5/607f07ceef4b8524a319a23cBa9f9bdde" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> Twitter thread</a> from law professor Ann Lipton making that point mor=
+e clearly. =E2=80=9CMerger agreements,=E2=80=9D <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/27769856.275619/aHR0cHM6Ly90d2l0dGVyLmNvbS9Bb=
+m5NTGlwdG9uL3N0YXR1cy8xNTI3MjQ1ODE5MjU0MTI4NjQw/607f07ceef4b8524a319a23cB9b=
+c2c48e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> she concludes</a>, =E2=80=9Care designed to prevent exactl=
+y what Musk is doing now: have a buyer get cold feet and then nitpick to fi=
+nd some arguably =E2=80=98false=E2=80=99 rep that they can use as a pretext=
+ to avoid their obligations.=E2=80=9D=C2=A0</li>=09<li style=3D"margin-bott=
+om: 5px;">Law professor Steve Bainbridge will be <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/27769856.275619/aHR0cHM6Ly90d2l0dGVyLmNvbS9w=
+cmF3ZmJhaW5icmlkZ2Uvc3RhdHVzLzE1MjYwNzA3MzA5OTA4ODI4MTY_cz0xMSZ0PW1DLWFhOEl=
+kcFU0aU1TUWhPSkNGcVE/607f07ceef4b8524a319a23cBefb250c3" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> teaching a=
+ course</a> on =E2=80=9CThe Law of Elon Musk=E2=80=9D at UCLA. =E2=80=9CTha=
+t'll be a short course,=E2=80=9D I am tempted to=C2=A0joke, and=C2=A0in fac=
+t it will be two weeks long. I wish I could spend two weeks on the law of E=
+lon Musk, instead of, you know, the rest of my life.</li>=09<li style=3D"ma=
+rgin-bottom: 5px;">Charlie Gasparino <a href=3D"https://link.mail.bloomberg=
+business.com/click/27769856.275619/aHR0cHM6Ly90d2l0dGVyLmNvbS9DR2FzcGFyaW5v=
+L3N0YXR1cy8xNTI2OTcxODY3MTc2Nzg3OTcw/607f07ceef4b8524a319a23cB19fe077c" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> reported</a> on Twitter that =E2=80=9CLegal experts tell=C2=A0@FoxBus=
+iness=C2=A0that=C2=A0@elonmusk=E2=80=99s refusal to go through w=C2=A0@Twit=
+ter=C2=A0merger agreement could lead to the Musk being thrown in jail if $T=
+WTR seeks an injunction to enforce the contract that he continues to violat=
+e.=E2=80=9D I feel like those legal experts are getting ahead of themselves=
+? Like it is=C2=A0<em>just possible=C2=A0</em>that Musk will try to get out=
+ of the deal, Twitter will sue for specific performance in=C2=A0Delaware Ch=
+ancery Court, Twitter will win, the court will order specific performance, =
+Musk will ignore it, Twitter will ask the court to hold Musk in contempt, t=
+he court will hold a hearing, Musk will=C2=A0<em>show up</em>, the bailiff =
+will stand behind him menacingly, and the judge will say "Mr. Musk if you d=
+on=E2=80=99t put up your $27.5 billion equity commitment and close this dea=
+l right now I will use my contempt powers to send you to Chancery Jail.=E2=
+=80=9D[10] But then he could just pull out his checkbook and pay the $27.5 =
+billion. He will only go to=C2=A0<em>jail=C2=A0</em>over all of this if he=
+=C2=A0<em>really wants to</em>. Which I think would be taking the joke a bi=
+t too far?</li></ul><table class=3D"header" width=3D"100%" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">How is Martin Shkreli doing?</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Out of <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/27769856.275619/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2FydGljbGVzLzIwMjItMDUtMTgvbWFydGluLXNoa3JlbGktcmVsZWFzZWQtZnJvbS1w=
+cmlzb24tYW5kLW1vdmVkLXRvLWhhbGZ3YXktaG91c2U_Y21waWQ9QkJEMDUxOTIyX01PTkVZU1R=
+VRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNT=
+E5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB5e48e624" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> prison</a>!</p><blockquote><p style=3D"margin: 16px 0;">Martin Shkreli,=
+ the =E2=80=9CPharma Bro=E2=80=9D who gained notoriety for unapologetically=
+ raising drug prices, has been released from federal prison in Pennsylvania=
+ and transferred to a halfway house.</p><p style=3D"margin: 16px 0;">Shkrel=
+i was sentenced in 2018 to 7 years in prison after being convicted of secur=
+ities fraud for lying to investors and for manipulating shares of Retrophin=
+ Inc., a biotech company he founded. He was released early from a low-secur=
+ity federal prison in Allenwood, Pennsylvania.=C2=A0</p></blockquote><p sty=
+le=3D"margin: 16px 0;">Good for him. He missed meme stocks last year but I =
+am sure there will be lots more weird markets stuff for him to get into. Ma=
+ybe he can=C2=A0co-invest in Musk=E2=80=99s Twitter deal?</p><table class=
+=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+>
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Me elsewhere</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I was a guest on Zohar Atkins=E2=80=99=
+s podcast =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click=
+/27769856.275619/aHR0cHM6Ly9wb2RjYXN0cy5hcHBsZS5jb20vdXMvcG9kY2FzdC9tYXR0LW=
+xldmluZS1kZWxpZ2h0LWlzLXVuZGVycmF0ZWQvaWQxNjA4MzkxNTcxP2k9MTAwMDU2MjA5MTYwM=
+w/607f07ceef4b8524a319a23cBb273f07f" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">Meditations with Zohar</a>,=E2=
+=80=9D in an episode that we recorded a while back but that was released ye=
+sterday. We talked about classical Greece, short squeezes, how this column =
+comes out a bit later each day, and lots of other things; I had fun and you=
+ might also enjoy it if you, uh, want to hear me talk about myself I guess?=
+</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Plotkin <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/27769856.275619/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9uZXdzL2FydGljbGVzLzIwMjItMDUtMTgvZ2FiZS1wbG90a2luLXMtbWVsdmluLWNhcGl0YWw=
+tdG8td2luZC1kb3duLWZ1bmRzLWFmdGVyLWxvc3Nlcz9jbXBpZD1CQkQwNTE5MjJfTU9ORVlTVF=
+VGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA1M=
+TkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB120e2779" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> Shuts Melvin Hedge Fund</a> Left Reeling by Redditor Attack. The maulin=
+g of <a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.2756=
+19/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMmEzOTMwMjAtNGM0My00YmQ4LThhODgtMjIx=
+NDU5YmNlZTU4P3NoYXJlVHlwZT1ub25naWZ0/607f07ceef4b8524a319a23cB58e46ebe" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">Tiger Global</a>. US Pries Into Over 100 Trader and Banker Phones in <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDUtMTgvdXMtcHJpZX=
+MtaW50by1vdmVyLTEwMC10cmFkZXItYW5kLWJhbmtlci1waG9uZXMtaW4tdGV4dGluZy1wcm9iZ=
+T9jbXBpZD1CQkQwNTE5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9=
+bmV3c2xldHRlciZ1dG1fdGVybT0yMjA1MTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07c=
+eef4b8524a319a23cBae6bfc3a" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> Texting Probe</a>. Tesla Loses Spot on=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDUtMTgvdGVzbGEt=
+Y3Jhc2hlcy13b3JrLWNvbmRpdGlvbnMtc2VlLWl0LXB1c2hlZC1vZmYtcy1wLWVzZy1pbmRleD9=
+jbXBpZD1CQkQwNTE5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bm=
+V3c2xldHRlciZ1dG1fdGVybT0yMjA1MTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07cee=
+f4b8524a319a23cC3a0cd5b4" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> S&amp;P ESG Index</a> Due to Concerns Ov=
+er Crashes, Working Conditions. US Set to <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/27769856.275619/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL2FydGljbGVzLzIwMjItMDUtMTcvdXMtc2V0LXRvLWJsb2NrLXJ1c3NpYW4tZGVidC1wYX=
+ltZW50cy1yYWlzaW5nLW9kZHMtb2YtZGVmYXVsdD9jbXBpZD1CQkQwNTE5MjJfTU9ORVlTVFVGR=
+iZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA1MTkm=
+dXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB5de8561f" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Block Russian Debt Payments</a>, Raising Odds of Default. China Insists Pa=
+rty Elites <a href=3D"https://link.mail.bloombergbusiness.com/click/2776985=
+6.275619/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jaGluYS1pbnNpc3RzLXBhcnR5LW=
+VsaXRlcy1zaGVkLW92ZXJzZWFzLWFzc2V0cy1leWVpbmctd2VzdGVybi1zYW5jdGlvbnMtb24tc=
+nVzc2lhLTExNjUyOTU2Nzg3P21vZD1ocF9sZWFkX3BvczM/607f07ceef4b8524a319a23cB116=
+c1a28" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">Shed Overseas Assets</a>, Eyeing Western Sanctions on Russia=
+. JPMorgan Takes First Step to Revive <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/27769856.275619/aHR0cHM6Ly9uZXdzLmJsb29tYmVyZ2xhdy5jb20=
+vc2VjdXJpdGllcy1sYXcvanBtb3JnYW4tdGFrZXMtZmlyc3Qtc3RlcC10by1yZXZpdmUtdGV4YX=
+MtbXVuaS1ib25kLWJ1c2luZXNz/607f07ceef4b8524a319a23cB9403e33e" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Texa=
+s Muni-Bond Business</a>. The Decade of <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/27769856.275619/aHR0cHM6Ly9zbGF0ZS5jb20vYnVzaW5lc3MvM=
+jAyMi8wNS91YmVyLXN1YnNpZHktbHlmdC1jaGVhcC1yaWRlcy5odG1s/607f07ceef4b8524a31=
+9a23cBc15540c3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">Cheap Rides</a> Is Over. More Subprime Borrowers Ar=
+e <a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/=
+aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9tb3JlLXN1YnByaW1lLWJvcnJvd2Vycy1hcmU=
+tbWlzc2luZy1sb2FuLXBheW1lbnRzLTExNjUyOTUyNjAy/607f07ceef4b8524a319a23cB17e4=
+e7db" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">Missing Loan Payments</a>. Cerebral Directors Vote to <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDUtMTgvY2VyZWJyYWwtZGly=
+ZWN0b3JzLXZvdGUtdG8tb3VzdC1jZW8tYW1pZC11cy1wcmVzY3JpcHRpb24tcHJvYmU_Y21waWQ=
+9QkJEMDUxOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZX=
+R0ZXImdXRtX3Rlcm09MjIwNTE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524=
+a319a23cB60c0ed07" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> Oust CEO</a> as US Probes Prescription Practice=
+s. How <a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.27=
+5619/aHR0cHM6Ly93d3cudmljZS5jb20vZW4vYXJ0aWNsZS85M2J4YXova2luYWhhbi1jYXJ0ZW=
+w/607f07ceef4b8524a319a23cB80dba8f0" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">a Tweet</a> Led to the Downfal=
+l of a $1 Billion Drug Cartel. Accidental discovery that <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/27769856.275619/aHR0cHM6Ly93d3cudGhl=
+Z3VhcmRpYW4uY29tL2Vudmlyb25tZW50LzIwMjIvbWF5LzE4L2FjY2lkZW50YWwtZGlzY292ZXJ=
+5LXRoYXQtc2NhbGxvcHMtbG92ZS1kaXNjby1saWdodHMtbGVhZHMtdG8tbmV3LWZpc2hpbmctdG=
+VjaG5pcXVlP0NNUD1zaGFyZV9idG5fdHc/607f07ceef4b8524a319a23cBb9e06cd5" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">scallops love =E2=80=98disco=E2=80=99 lights</a> leads to new fishing tec=
+hnique. Frogs Keep Mating With the <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/27769856.275619/aHR0cHM6Ly93d3cudGhlYXRsYW50aWMuY29tL3NjaW=
+VuY2UvYXJjaGl2ZS8yMDIyLzA1L2Zyb2ctbWF0aW5nLW1pc2RpcmVjdGVkLWFtcGxleHVzLzYyO=
+Tg4NS8_dXRtX2NvbnRlbnQ9ZWRpdC1wcm9tbyZ1dG1fY2FtcGFpZ249dGhlLWF0bGFudGljJnV0=
+bV9tZWRpdW09c29jaWFsJnV0bV90ZXJtPTIwMjItMDUtMTdUMTYlM0EzNSUzQTQ4JnV0bV9zb3V=
+yY2U9dHdpdHRlcg/607f07ceef4b8524a319a23cB464a6abd" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">Wrong Things</a>=
+.</p><p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer=
+-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email =
+form, right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/27769856.275619/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidX=
+NpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY=
+2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB1d0e4ab8" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">subscribe at this link</a>. Or you can subscribe to M=
+oney Stuff and other great Bloomberg newsletters <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/27769856.275619/aHR0cHM6Ly9sb2dpbi5ibG9vbWJl=
+cmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB82f75f06" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></s=
+pan></p><p style=3D"margin: 16px 0;"><em>[1] This is not entirely true; Con=
+gress has added to the SEC=E2=80=99s mandate over the years, and e.g. the 2=
+010 Dodd-Frank Act provides some of the basis for some of these rules. In g=
+eneral quite a bit of SEC rulemaking responds to congressional demands, but=
+ much of this batch is the SEC=E2=80=99s own initiative</em></p><p style=3D=
+"margin: 16px 0;"><em>[2] Well, there are various constitutional rights tha=
+t are protected in part by <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27769856.275619/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvUmF0aW9uYW=
+xfYmFzaXNfcmV2aWV3/607f07ceef4b8524a319a23cB441b74f5" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">courts saying=
+</a> that Congress can=E2=80=99t limit them unless it acts rationally, or s=
+ome higher standard. But in the general case Congress is constitutionally a=
+llowed be pretty arbitrary and capricious, certainly more so than an admini=
+strative agency. The main check on Congress, the theory goes, is democratic=
+ accountability, not court review.</em></p><p style=3D"margin: 16px 0;"><em=
+>[3] For the history here you can read Justice Gorsuch=E2=80=99s <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/27769856.275619/aHR0cHM6Ly93=
+d3cuc3VwcmVtZWNvdXJ0Lmdvdi9vcGluaW9ucy8xOHBkZi8xNy02MDg2XzJiOGUucGRm/607f07=
+ceef4b8524a319a23cC4ab79e35" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">Gundy dissent</a>, or honestly=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/aHR0=
+cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTm9uZGVsZWdhdGlvbl9kb2N0cmluZSNDYXNlX2x=
+hdw/607f07ceef4b8524a319a23cB9aefe659" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">Wikipedia</a>. For the statu=
+tory authority for various SEC rules, you can read the proposing releases. =
+For instance, the <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+27769856.275619/aHR0cHM6Ly93d3cuc2VjLmdvdi9ydWxlcy9wcm9wb3NlZC8yMDIyLzMzLTE=
+xMDQyLnBkZg/607f07ceef4b8524a319a23cBefc7c052" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">climate disclosure p=
+roposal</a>, citing various sections of the Securities Act of 1933 and the =
+Securities Exchange Act of 1934,=C2=A0says: =E2=80=9CThe Commission has bro=
+ad authority to promulgate disclosure requirements that are =E2=80=98necess=
+ary or appropriate in the public interest or for the protection of investor=
+s.=E2=80=99=C2=A0We have considered this statutory standard and determined =
+that disclosure of information about climate-related risks and metrics woul=
+d be in the public interest and would protect investors. In making this det=
+ermination, we have also considered whether the proposed disclosures =E2=80=
+=98will promote efficiency, competition, and capital formation.=E2=80=99=E2=
+=80=9D The <a href=3D"https://link.mail.bloombergbusiness.com/click/2776985=
+6.275619/aHR0cHM6Ly93d3cuc2VjLmdvdi9ydWxlcy9wcm9wb3NlZC8yMDIxLzM0LTkzNzgzLn=
+BkZg/607f07ceef4b8524a319a23cBd6884e0e" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">stock buyback proposal</a> =
+is less explicit, but also cites various <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/27769856.275619/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1=
+L3VzY29kZS90ZXh0LzE1Lzc4bA/607f07ceef4b8524a319a23cBc971f5cc" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">statu=
+tory sections</a> that generally give the SEC authority to make rules =E2=
+=80=9Cas necessary or appropriate in the public interest or for the protect=
+ion of investors.=E2=80=9D</em></p><p style=3D"margin: 16px 0;"><em>[4] Fou=
+r justices voted to uphold the rule, in an opinion written by Justice Elena=
+ Kagan. Three voted against, in an opinion written by Justice Neil Gorsuch.=
+ Justice Samuel=C2=A0Alito voted to uphold the rule, and wrote a concurrenc=
+e saying in essence that he would rather have voted against, but didn=E2=80=
+=99t have the votes: =E2=80=9CSince 1935, the Court has uniformly rejected =
+nondelegation arguments and has upheld provisions that authorized agencies =
+to adopt important rules pursuant to extraordinarily capacious standards. =
+=E2=80=A6 If a majority of this Court were willing to reconsider the approa=
+ch we have taken for the past 84 years, I would support that effort. But be=
+cause a majority is not willing to do that, it would be freakish to single =
+out the provision at issue here for special treatment.=E2=80=9D Justice Bre=
+tt Kavanaugh was confirmed to the court a few days after the oral argument =
+in Gundy, and did not vote. Incidentally, during <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/27769856.275619/aHR0cHM6Ly93d3cuc3VwcmVtZWNv=
+dXJ0Lmdvdi9vcmFsX2FyZ3VtZW50cy9hcmd1bWVudF90cmFuc2NyaXB0cy8yMDE4LzE3LTYwODZ=
+fOW9sMS5wZGY/607f07ceef4b8524a319a23cBefdc0863" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">oral argument in Gu=
+ndy</a>, Justice Stephen Breyer =E2=80=94 who was=C2=A0an expert on adminis=
+trative law before becoming a judge =E2=80=94=C2=A0asked whether reviving t=
+he nondelegation doctrine would undermine the SEC. After all, the guiding p=
+rinciple for the authority delegated to the SEC is quite broad, and the SEC=
+ makes a lot of rules. Are they all unconstitutional?</em></p><p style=3D"m=
+argin: 16px 0;"><em>[5] The three in Gundy (Gorsuch, John Roberts and Clare=
+nce Thomas), plus Alito (who essentially agreed with Gorsuch in Gundy), Kav=
+anaugh (who joined the court a week after Gundy) and Amy Coney Barrett (who=
+ joined later).</em></p><p style=3D"margin: 16px 0;"><em>[6]=C2=A0This is a=
+ctually a pretty common move,=C2=A0striking down administrative decisions b=
+ecause of some constitutional objection to the rules for how personnel are =
+appointed.=C2=A0SEC ALJ appointments were <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/27769856.275619/aHR0cHM6Ly93d3cuam9uZXNkYXkuY29tL2V=
+uL2luc2lnaHRzLzIwMTgvMDYvdXMtc3VwcmVtZS1jb3VydC1ob2xkcy1zZWNzLXN0YWZmLWFwcG=
+9pbnRtZW50cy1mb3I/607f07ceef4b8524a319a23cC7f7311af" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">declared uncon=
+stitutional</a> once before, and modified to fix the problem, but now I gue=
+ss they are unconstitutional again and need to be fixed some more. Except t=
+hat trials by SEC ALJs are apparently unconstitutional anyway, so fixing th=
+e appointment process=C2=A0won=E2=80=99t really help.</em></p><p style=3D"m=
+argin: 16px 0;"><em>[7] Citations omitted.</em></p><p style=3D"margin: 16px=
+ 0;"><em>[8] Also, to be clear, the banking regulators, and the Environment=
+al Protection Agency, and every other administrative agency. This is a fina=
+nce column, and this case is about the SEC, so I am talking about the SEC. =
+But the implications are much broader.</em></p><p style=3D"margin: 16px 0;"=
+><em>[9] Bankers generally make most of their money for actually closing a =
+deal, though given the situation here =E2=80=94=C2=A0Twitter hired advisers=
+ to consider Musk=E2=80=99s semi-hostile offer and possibly fend him off =
+=E2=80=94=C2=A0I assume its bankers will get something even if he goes away=
+. Still less than they=E2=80=99d get for a closed deal. Lawyers tend to be =
+paid more for work (by the hour, etc.) than for success, but in high-profil=
+e M&amp;A some success-based pay is not uncommon.</em></p><p style=3D"margi=
+n: 16px 0;"><em>[10] Not=C2=A0a real thing, I don=E2=80=99t think.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBce34ac47" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBaab54de8" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB6ebfc845" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB37979fba" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNzc2OTg1NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjgwNDU0NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI7826d95d" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D27769856&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28045475&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBa5776a20" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/27769856.275619/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC665136be" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27769856.275619/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB72465480" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/27769856.275619/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB487ba3fe" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB8=
+842a215" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27769856.275619/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBc=
+1cd029d" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D277698=
+56&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28045475&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D277698=
+56&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28045475&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D277698=
+56&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28045475&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D277698=
+56&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28045475&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D277698=
+56&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D28045475&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cgj7cw.5wo3/aa646c94.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_15103037_408886704.1652981454658--
+

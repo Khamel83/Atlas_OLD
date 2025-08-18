@@ -1,0 +1,2383 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a0c:dd94:0:b0:67a:8dc3:b581 with SMTP id v20csp8571772qvk;
+        Thu, 14 Dec 2023 11:59:56 -0800 (PST)
+X-Received: by 2002:a05:600c:181c:b0:40c:2f84:59b1 with SMTP id n28-20020a05600c181c00b0040c2f8459b1mr5439695wmp.151.1702583995731;
+        Thu, 14 Dec 2023 11:59:55 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1702583995; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=U7dPJbexx5026psfg1KS0a92pxTzgSGvPww783roRrekflFy3pYXLlhUDwhRZfXs7u
+         VOUMknDbUCnIobUbv5n+sfICgbdIJKVkp7xcMzBsq+6grMXpVHvNIZn/evhupz1DsvN3
+         jEdEbjZOfXQHYvQ93L9kPY+tBbY3M2vCFccz/j+yEsP9TyeXnRmWb2wfHb5fVDedgY62
+         ILFrou6eu6S1DkcU+i5SZ741eQVq6h8sYKkM8RNK580R28UZkCsFJTbP9xWrb/n+D+MX
+         +kPDO+UQKdD/FgqQSL1BcUEaZDvDOCNgjfeQRgxXH205ndUxNL8u/cJx8iua8VqeZJx5
+         il9Q==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=8JUlntQwoyOXJX8pWO4MqXgq4ZZaJWwptlb1EVIJCR4=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=JMiralETP5dTwKhuMwbnFh8d49Xi/ihsLKtb3cpoj54nEtZIlV3s1oEFF6S84qJNex
+         jp7ktkfU2WuOn0YmbK5ULcT504RkXcGGweQIhTlrXmrTThCjdZrA6e/EPYkuPJrsLa2N
+         jc4n93lMtu9C/V76/1rbCsL7S9SzsYc4Kh19ucsY25MMsrxCFk0R1MF25uzLe5lQbHX0
+         R/KOeUQzLbMVxDy+0aE6UVRc/PECfZ8I2GlrflIqVQlJ07Rcn6YH6pq8rkbf+zjqfxjp
+         ZKRpcLyupWYFxr4Haa4vI4jYl8Kadw18y/iFXSs7SARmzyZWRyz8Oj+hy2OCwzL90F4G
+         DOtA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=wj62hOuD;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id m22-20020adfa3d6000000b003364a1730ddsor719102wrb.0.2023.12.14.11.59.55
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 14 Dec 2023 11:59:55 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=wj62hOuD;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1702583995; x=1703188795;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=8JUlntQwoyOXJX8pWO4MqXgq4ZZaJWwptlb1EVIJCR4=;
+        b=DeQpvI5IOb2T9TAshSxAFys0cpLpK7TBClXat32f8IleB33c0Rbo2DJGE6oUo6C9bb
+         fAjQkPB9XH5VNvlgICy3SWR/jnVgqA0P/BDZwPcqsFuZoqWfOuohrozl5K82teld6Fyj
+         oJgqcVOuiUm6Mb5rEdEQh8PwCiDxVLvH/NnsEC8ZLkr50Pcb3M2e9/RzvVgSaPYNXOGD
+         gWcdGngDiIJvkO621VqGdUzRmLs/FADcoVlusBJ6UYocGvYDQi1mh3len/g63JY8EWLC
+         O3LRWsvvsrLd2AFk0kLdxexKbig/h6Z9p3GdmsucwsMm6K40QfmPWcSaRZ6rMKvIrwmU
+         CQSw==
+X-Gm-Message-State: AOJu0YzPVl7qCB/HSVE58TiINJoTlHprk4PXZG6g/aop73q1kks+D7Z5
+	fMXrvbfDm2bPne+P37c83pnVwv9U/EnFU8K0+wmS1+SGjfx+/PkvEQ==
+X-Received: by 2002:a5d:4e86:0:b0:336:4e45:c2a3 with SMTP id e6-20020a5d4e86000000b003364e45c2a3mr57909wru.125.1702583995120;
+        Thu, 14 Dec 2023 11:59:55 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:e109:0:b0:333:384e:c9a6 with SMTP id t9csp2972385wrz;
+        Thu, 14 Dec 2023 11:59:51 -0800 (PST)
+X-Received: by 2002:a0d:c044:0:b0:5d7:1940:7d91 with SMTP id b65-20020a0dc044000000b005d719407d91mr8365549ywd.104.1702583990834;
+        Thu, 14 Dec 2023 11:59:50 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1702583990; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=hmDP2R6o6DJ8ZZKjr5YWCO1YhEfekKrUQZGKamWUxs6MWmYtb7e+pZbRhbAM5U6S0L
+         UM+pQybixEtDGHBN3u1iL+rANgZEFrNPbqzIuNvDTBjTnEeT5lGsP/v0jKJHOvPdCJes
+         /hG/loXLrXqV2N+ZXDc+Ij3mMCJSrTbORAMPWbOpTRKSB6Z7EUuTd5DUoVQwrgm1Yn05
+         uQHSN7GtL7v0jeS23R+jry2iQm3XZqDz05dByqNfYWvn8Ihqy1+QoPkyMKAhGRrM9sbR
+         NFFRBaBl31dyEW52BE2Ns5X/twGYYpycxnUf6Jom1kvHF1yERwHgLwaqD0rEjKW/T78A
+         cfxQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=8JUlntQwoyOXJX8pWO4MqXgq4ZZaJWwptlb1EVIJCR4=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=jY38lcNNHaeUfTR3wGSaSinbUuRNBh1r3G2K8IHY6y7582bsQmo/0aB+X/PkgG9jtW
+         mrGPvQgc5UAX1e3w2KXcR0rSqJSrg2t838rmvx6wWn8GCv+atvqYcDk4+olwVphMnz6v
+         RfX8emYw1jYo6avJO0i8CiEf9w0aHDfRHJ5ABD5WsTEZdveqKYNXoU+lVJFepl0tnhqN
+         PkAYIrRrFLWiJ8KSiw6M/zq54kW/L7zEzJ6DDwixpLTRtv6IsW2fRn/KumuqOPHcYFQk
+         baPcyqGlrU5HWLmKwNrXb5T2uSzOXxyl7VAzzxu9V8c1R/g3qJDD2ug49f1J4Apv6yOA
+         sbIA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=wj62hOuD;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20231214145949.33697175.257398@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20231214145949.33697175.257398@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231214145949.33697175.257398@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id u188-20020a8147c5000000b005e40a4264acsor372621ywa.10.2023.12.14.11.59.50
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 14 Dec 2023 11:59:50 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20231214145949.33697175.257398@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IEAOqQhjYNJRKnozkHC+3dXGYyz01VH9OLo3N/hAU5UhMIuyi981Nd7j2TG2dQL/doLvsiZFj3riMJDINmKwraqagvVRaI=
+X-Received: by 2002:a25:ac58:0:b0:dbc:eb71:edf8 with SMTP id r24-20020a25ac58000000b00dbceb71edf8mr798521ybd.12.1702583990427;
+        Thu, 14 Dec 2023 11:59:50 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1702583990; cv=none;
+        d=google.com; s=arc-20160816;
+        b=GHlbARBW1+Eo/WetZp1BKRGlZe5P5mnLJlKceFC0Sx41GIGVIFLqyKg1pYXihT1rRA
+         7OqAKbjxg8IjnEumvQfRcYnXVVPwxNE13wIWrqQz2qmQE9gUy0ZN3UlVqUF+VrzVNuMf
+         FYWnuav8UADOIQ2lWLWhYM1CnR1G7heaxAZTKh9as7VSM9uX/8RLxuoDHQPWTEfBK7hs
+         +W5etTuVN40ILtbAEWceATN+UAaQBMvY8JHVYIgfn2Z6K7z2xUf0hZSHmG//0mk9FiVM
+         3gAzMJpmPALBtPbIiwcAN2in708SBWIObHVSiOVe+ENunv/ZNcHqG9nyrJoI6QEttR5H
+         KhWQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=8JUlntQwoyOXJX8pWO4MqXgq4ZZaJWwptlb1EVIJCR4=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=xbElSQwq7eGyTF0NTiDPSVREZG/A1SYVt3hPi56u7SRFZcJ/zOQVofzGzoEfwK9An+
+         fasAb81icZ/d+/HQ6nw/D56Bd8j/kalQ3R/AlY3/EL3OOzCOIeAUisvrOERHJr7I8DX3
+         nqcpQYaz6d9Q7FilSu0BqJcmqPE+/jn4voneZJ6JyoKe0FtS6SMafc6xqYVvSulaFGr8
+         ea3U3gXbaUmbqqnxmPtquoyOmS2v8OZG/+m8uO5TyGXcFPLfjxVy2m9ASk4fN/VOBIIb
+         yt5cGyUntN7jsv+CTo7BCf1P7UA834t0H54nodOdr/atRISEPoW46GKg2nmIMq3eQRzk
+         hDDg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=wj62hOuD;
+       spf=pass (google.com: domain of delivery_20231214145949.33697175.257398@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20231214145949.33697175.257398@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231214145949.33697175.257398@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id b130-20020a253488000000b00dbccfc69db5si459243yba.1.2023.12.14.11.59.50
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 14 Dec 2023 11:59:50 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20231214145949.33697175.257398@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=4fuh7fl9zXjLdQaiSFIjtrldvG7qFkBzEI89RT99hG4=;
+ b=wj62hOuDiqTWubiI11tM8BMa4BI8qfJKYvSWHhQZGe7EYXFk/l6P+GMbzX4OuYMYP8Mp2h1Ul+he
+   /AEI5tGJ7nr1xNfdwAccckfLIyQCGTqBpH7urkivXJ2SYl6C//smdEfoJfUAoLybXSGgAobOrYKh
+   vg9ssP81k3syVPoqpZY=
+Received: from aws1-mta-relay5.sailthru.cloud (10.55.76.97) by bloomberg-b.sailthru.com id hfdfbc30nu8p for <bloomberg@khamel.com>; Thu, 14 Dec 2023 13:59:49 -0600 (envelope-from <delivery_20231214145949.33697175.257398@mx.sailthru.com>)
+Date: Thu, 14 Dec 2023 14:59:49 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20231214145949.33697175.257398@sailthru.com>
+Subject: Money Stuff: Gas Contracts Are Just a Suggestion
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_25293513_167305230.1702583989800"
+Precedence: bulk
+x-job: 6358-33697175-20231214
+X-Feedback-ID: 6358:33697175:campaign:sailthru
+X-TM-ID: 20231214145949.33697175.257398
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-72-55.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ck28wn.5ily/e457a509
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ck28wn.5ily/e457a509>, <mailto:unsubscribe_20231214145949.33697175.257398@mx.sailthru.com>
+X-rpcampaign: stjko33697175
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_25293513_167305230.1702583989800
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note for Elon Musk: Don=E2=80=99t read the next program=
+ming note, skip down, there=E2=80=99s a whole section about your tweets! Po=
+op emojis and=20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note  for Elon Musk:=C2=A0Don=E2=80=99t read the next=
+ programming note, skip down, there=E2=80=99s a whole section about your tw=
+eets! Poop emojis and everything! Skip the boring stuff and go straight the=
+re!=C2=A0
+Programming note for everyone else: This is the last Money Stuff of 2023. P=
+robably. Unless Elon buys OpenAI or whatever. I=E2=80=99ll be back in Janua=
+ry. Thanks for reading and=C2=A0have a great holiday season.
+
+ =20
+   =20
+      LNG contracts
+   =20
+ =20
+
+I am not, by any means, an expert in liquefied natural gas. My background i=
+s in financial instruments, stocks and bonds and derivatives on stocks and =
+bonds. The way that, for instance, stock options work is that, if I agree t=
+o sell you XYZ stock at $40 at your option, and in a month you exercise the=
+ option and hand over the $40, I really do have to give you the stock. Even=
+ if it=E2=80=99s trading at $60. Obviously I=E2=80=99d rather sell the stoc=
+k at $60 to someone else, but I already sold you that option, and I am boun=
+d by it. If I sell a Treasury bond futures contract, I have to deliver a Tr=
+easury bond at the futures price, even if the price has gone up and I could=
+ sell it for more elsewhere.=C2=A0
+Oh, of course, there are situations where people find ways to get out of th=
+eir contracts.=C2=A0(And there are stock-related transactions=C2=A0that are=
+ not ordinary-course trading =E2=80=94=C2=A0mergers, for instance =E2=80=94=
+=C2=A0and that are considerably more breakable.) But for the most part ther=
+e is a broadly effective=C2=A0apparatus to make stock and bond=C2=A0trades =
+binding, so binding that it rarely even occurs to anyone to break them. No =
+stock options trader calls their lawyer to be like =E2=80=9Cman this stock =
+really went up a lot, can I just not deliver it into the call options I sol=
+d?=E2=80=9D=C2=A0
+A lot of commodities trading also works like this. If you sell aluminum fut=
+ures, and the price of aluminum then doubles, you can=E2=80=99t just be lik=
+e =E2=80=9Cnah I=E2=80=99d rather sell this aluminum to someone else at the=
+ current price.=E2=80=9D That futures contract really is binding, in that y=
+ou have to either deliver the aluminum or=C2=A0pay the current price of the=
+ aluminum to get out of the deal. Selling aluminum futures is a bet that th=
+e price of aluminum won=E2=80=99t go up, and everyone understands it that w=
+ay, and the bet is enforceable.=C2=A0There is a clearinghouse that collects=
+ from losers and pays winners, and standardized contracts and market expect=
+ations that you=E2=80=99ll pay. Again,   sometimes things go wrong, but tho=
+se are exceptional cases that everyone gets upset about.
+By comparison, =E2=80=9Cphysical commodities trading=E2=80=9D =E2=80=94 get=
+ting stuff out of the ground, loading it on ships, delivering it to custome=
+rs and getting paid =E2=80=94=C2=A0is the Wild West. On the one hand, it so=
+rt of looks like stock and bond and commodity-futures markets: It is a fina=
+ncialized global market, with fast-moving professional traders linked to ea=
+ch other by computers, and with volatile prices that move rapidly in respon=
+se to events, where you can make a fortune by betting the right way.=C2=A0O=
+n the other hand, the=C2=A0stuff=C2=A0you are trading does not live on a co=
+mputer:=C2=A0You are moving ships around, and if you say a ship will go to =
+one place and it instead goes to another place, there is only so much anyon=
+e can do about it. There is no clearinghouse, no way to just adjust the tra=
+des on the computer to make everything right. The stuff either goes somewhe=
+re, or it goes somewhere else.
+And so if you are a liquefied natural gas trader company, and you sell LNG =
+in long-term fixed-price contracts that require you to deliver a ship full =
+of LNG to a specific port every month at a fixed price, and then the price =
+of LNG goes up a lot, and you=E2=80=99d rather ignore your contract and sel=
+l your ship=C2=A0full of LNG to someone else at the current higher price =
+=E2=80=A6=C2=A0I mean, empirically, that does seem to happen? The condition=
+s are favorable for opportunism:
+=09There=E2=80=99s no central clearinghouse enforcing any rules, so if you =
+hose one customer all that happens is that that customer is mad at you (and=
+ sues): You can keep trading with everybody=C2=A0else.=09Instead of standar=
+dized futures contracts enforced by a central clearinghouse, every deal is =
+a complicated bilateral negotiation, so even when the customer sues, you ca=
+n probably point to some provision=C2=A0in the contract, or some unusual=C2=
+=A0circumstance, that justifies you not delivering the gas.=09It=E2=80=99s =
+a global commodity market, so (1) it=E2=80=99s easy for you to find a new c=
+ustomer at the current higher price and (2)=C2=A0even if the old customer i=
+s mad at you, they will probably keep buying gas from you if your price is =
+$0.01 below everyone else=E2=80=99s.=09LNG prices have been pretty volatile=
+, driven by things like Covid-19 and Russia=E2=80=99s invasion of Ukraine, =
+so it=E2=80=99s entirely possible that you agreed to a contract at a low pr=
+ice, and now the price is high, and you are tempted to break it.
+
+And so we have   talked a few   times about Venture Global LNG, an LNG prod=
+ucer in Louisiana that entered into long-term fixed-price contracts to sell=
+ its gas to customers like BP and Shell, and then =E2=80=94=C2=A0when LNG p=
+rices went up a lot =E2=80=94=C2=A0decided to instead sell its gas on the s=
+pot market to other buyers at much higher prices. The jilted customers have=
+  complained bitterly to everyone who will listen, and have gone to arbitra=
+tion to force Venture Global to give them the gas, and Venture Global has b=
+een like =E2=80=9Cnyah nyah, see you in court, technically our contract all=
+ows us to do this.=E2=80=9D They might even be right! The contract apparent=
+ly requires Venture Global to start fulfilling the long-term contracts when=
+ its production plant is complete, and the plant is not yet complete. It is=
+ complete enough to produce LNG and sell it on the spot market, sure, but i=
+t is not completely complete.=C2=A0I   joked that the facility is =E2=80=9C=
+just about finished, but they [didn=E2=80=99t], like, paint one last rivet.=
+=E2=80=9D Favorable for opportunism!
+Today Bloomberg=E2=80=99s=C2=A0Stephen Stapczynski and Faseeh Mangi have a =
+story about how Gunvor Group Ltd. and Eni SpA entered into long-term LNG su=
+pply contracts with Pakistan, obligating them to deliver gas to Pakistan at=
+ fixed prices over=C2=A0multi-year terms, and then started missing deliveri=
+es when the spot price of LNG shot up. Pakistan went to them with reasonabl=
+e complaints like =E2=80=9Cwe really need this gas, and we signed a binding=
+ contract obligating you to deliver it to us at a fixed price,=E2=80=9D and=
+ the suppliers largely came up with excuses that do technically seem to wor=
+k. With the result that:
+=09Pakistan had to go buy gas in the spot market at much higher prices, and=
+=09Gunvor and Eni got to go=C2=A0sell=C2=A0gas in the spot market at much h=
+igher prices.
+
+What sort of excuses? Well, a big one is=C2=A0force majeure:=C2=A0If the pl=
+ants producing the LNG break down and the suppliers can=E2=80=99t get the g=
+as, they don=E2=80=99t have to deliver it. This is not, you might think, an=
+ excuse that would allow for much opportunism: If the plants break down and=
+ the suppliers can=E2=80=99t get the gas, then they can=E2=80=99t resell it=
+ on the spot market for a profit. But that=E2=80=99s not quite right:
+
+Gunvor cited a =E2=80=9Cforce majeure,=E2=80=9D a legal term for an unavoid=
+able event that makes it impossible to fulfill a contract. Specifically it =
+blamed an outage at a plant in Equatorial Guinea, a tiny, hydrocarbon-rich =
+Central African dictatorship. ...
+That justification from Gunvor, as well as the earlier statement by Eni abo=
+ut production in Egypt, took advantage of another part of Pakistan=E2=80=99=
+s contracts. Unlike other LNG deals, which stipulate where a supplier will =
+obtain the gas it=E2=80=99s selling, the Pakistani agreements said shipment=
+s could come from anywhere within Gunvor=E2=80=99s and Eni=E2=80=99s global=
+ portfolios. Pakistani officials have said they believed this would insulat=
+e them from disruptions, by allowing the companies to provide any gas they =
+could source.
+In their communications with Pakistan, people with knowledge of the discuss=
+ions say, Gunvor and Eni turned that logic on its head, arguing that becaus=
+e no source was specified, a disruption anywhere gave them the right to can=
+cel delivery. Problems in Equatorial Guinea therefore qualified as a force =
+majeure, even though Gunvor rarely shipped gas from the plant to Pakistan. =
+...
+This was a novel interpretation of contract terms. =E2=80=9CIt is not typic=
+ally sufficient for a seller to simply say, =E2=80=98My unrelated project o=
+n the other side of the world that has no connection to this contract is do=
+wn, and therefore that=E2=80=99s force majeure under this contract,=E2=80=
+=99=E2=80=8A=E2=80=9D says Jessica Ham, a special counsel at US law firm Ba=
+ker Botts who=E2=80=99s advised clients on LNG deals. =E2=80=9CThe buyer mi=
+ght have the ability to claim that this event is unrelated, and it doesn=E2=
+=80=99t actually prevent you from performing, which is a key element of a f=
+orce majeure claim.=E2=80=9D
+
+Intuitively, if Gunvor has plans to source 100 cargoes of LNG, and one plan=
+t anywhere in the world shuts down and it can only get 99 cargoes, it can s=
+ay =E2=80=9Cwhoops, that was Pakistan=E2=80=99s cargo, it=E2=80=99s impossi=
+ble for us to get it to them=E2=80=9D and sell the other 99 cargoes at the =
+higher spot price. Your binding long-term contract is the=C2=A0first=C2=A0o=
+ne you drop, if the price has gone up.
+Meanwhile the enforcement mechanism is not that strong. Here is an anecdote=
+ about an Eni delivery in December 2020:
+
+The Italian company said it would deliver only part of its LNG shipment for=
+ the following month, explaining that an unnamed supplier had failed to mak=
+e its own delivery. =E2=80=A6
+In fact, say people with knowledge of the situation, a team of lawyers had =
+earlier told Azzimonti that Pakistan was a =E2=80=9Cmarginal customer=E2=80=
+=9D; shortchanging it wouldn=E2=80=99t risk a blacklisting by a major impor=
+ter. Meanwhile, an early winter cold snap was pushing up gas demand in East=
+ Asia. From November 2020 to January 2021, spot prices would jump more than=
+ 400%, increasing the value of a shipment from about $20 million to $100 mi=
+llion or more=E2=80=94as long as it was sold to a spot buyer.
+Pakistan=E2=80=99s agreement stipulated that in the event of a missed or pa=
+rtial shipment, Eni would pay a penalty equal to 30% of the value of the un=
+delivered cargo, calculated on the basis of the long-term contract. While r=
+icher importers can demand compensation of as much as 100%, that was the st=
+iffest fine Pakistan could get suppliers to accept, says Imran Maniar, the =
+managing director of distributor Sui Southern Gas Co. Propose anything high=
+er, he says, and =E2=80=9Cpeople don=E2=80=99t really want that in the clau=
+se.=E2=80=9D In this case the penalty amounted to just $2.8 million, pocket=
+ change in the energy business.
+Under the terms of Eni=E2=80=99s contract, it didn=E2=80=99t have to provid=
+e details about the supplier default. But even after telling Pakistan it la=
+cked sufficient gas to meet its commitments, according to a person with dir=
+ect knowledge of the transaction, Eni sold an LNG shipment elsewhere at the=
+ spot price of roughly $100 million.
+
+If prices have jumped 400%, and you pay a penalty of 30% of the contract pr=
+ice to skip a delivery, then you have the choice of selling under the contr=
+act for $100 or selling in the spot market for $500 and paying a $30=C2=A0p=
+enalty, for a net of $470. You pay the penalty. Whereas in listed commodity=
+ markets, the clearinghouse-enforced norm is that you pay the buyer, not 30=
+% or even 100% of the contract price, but 100% of the spot price:=C2=A0You =
+pay them $500, which they use to go get the commodity at the current price.
+  [1]
+
+Also bad move by Pakistan here:
+
+In Islamabad, Pakistani officials had concluded Gunvor was looking for a wa=
+y to prematurely end the contract, which had been due to expire in July. Se=
+eking to cut their losses, they figured they should try to recoup about $10=
+ million they believed the company owed them as a result of a separate disp=
+ute over port fees. Pakistan therefore reduced its payment for Gunvor=E2=80=
+=99s February 2022 LNG shipment by the same amount.
+The officials had inadvertently given Gunvor an even cleaner exit. Pakistan=
+ soon received a letter from Gunvor=E2=80=99s lawyers demanding the rest of=
+ the money. It refused to pay; about a week later, with gas prices in Europ=
+e near an all-time high, Gunvor gave notice that it was terminating the con=
+tract.
+The company was within its rights to cancel the deal. But LNG agreements wo=
+rth hundreds of millions of dollars aren=E2=80=99t usually scrapped over a =
+single payment dispute, or so quickly.=C2=A0
+
+No no no, this agreement=C2=A0wasn=E2=80=99t=C2=A0scrapped over a single pa=
+yment dispute! It was scrapped over, the price went up! Pakistan held back =
+the $10 million thinking that this was a commercial contract that was part =
+of a long-term relationship where everyone was trying to get the best resul=
+t. But actually it was a trade, and the price had moved against Gunvor, and=
+ if you gave it an excuse to get out of the trade it would. And it did.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Credit Suisse retention clawback
+   =20
+ =20
+
+A week before Credit Suisse Goup AG collapsed and was taken over by UBS Gro=
+up AG, it was desperately trying to hold on to its employees: It was trying=
+ to=C2=A0avoid=C2=A0collapse, and if the good employees all left it would d=
+efinitely collapse, so it would do anything to keep them. It collapsed anyw=
+ay.
+A=C2=A0week=C2=A0after=C2=A0Credit Suisse collapsed and was taken over by U=
+BS, it was, uh, pretty keen to get rid of all of the employees? Like UBS   =
+pretty immediately signaled =E2=80=9Cwe are going to fire most of Credit Su=
+isse,=E2=80=9D and then it   set to work doing that. Losing tons of Credit =
+Suisse employees now wouldn=E2=80=99t=C2=A0sink the combined company, since=
+ there are so many UBS people left. If anyone wants to leave voluntarily, h=
+ey great that=E2=80=99s super, saves UBS some effort.
+The problem is that the pre-collapse Credit Suisse gave employees gobs of m=
+oney to keep them, and then it collapsed, and they left, and the post-colla=
+pse Credit Suisse   would rather have the money back:
+
+UBS Group AG has stepped up an effort to recoup hundreds of millions in cas=
+h bonuses that Credit Suisse paid to retain dealmakers before the lender=E2=
+=80=99s collapse.
+UBS has contacted hundreds of bankers and offered some multi-year payment p=
+lans amid efforts to claw back a chunk of the 1.2 billion Swiss francs ($1.=
+38 billion) in restricted cash bonuses, known internally as upfront cash aw=
+ards, according to people familiar with the matter and documents seen by Bl=
+oomberg News. =E2=80=A6
+The bank awarded cash bonuses with strings attached to thousands of managin=
+g directors and directors in early 2022 as well as this year in an effort t=
+o cushion the blow of a bonus pool shrinking amid the bank=E2=80=99s strugg=
+les. Then the bank saw a flood of departures.
+Deferred awards are typically given in restricted shares that the bank can =
+just cancel. But to retain talent amid multiple restructurings and a slumpi=
+ng stock price, Credit Suisse handed out cash with a clause requiring emplo=
+yees to repay some of the bonus if they left the firm within three years.
+
+If a bank says to an employee =E2=80=9Cwe=E2=80=99ll give you $1 million to=
+ stay, but we=E2=80=99ll pay it out in three years,=E2=80=9D then the emplo=
+yee is taking the bank=E2=80=99s credit risk.
+  [2]
+=C2=A0If the bank says to an employee =E2=80=9Cwe=E2=80=99ll give you $1 mi=
+llion to stay, and we=E2=80=99ll pay it out now, but if you leave within th=
+ree years you have to pay us back,=E2=80=9D then the bank is taking the emp=
+loyee=E2=80=99s credit risk. By the end, at Credit Suisse, its employees we=
+re apparently a better bet than it was. But not a risk-free bet.
+
+ =20
+   =20
+      Shohei Ohtani
+   =20
+ =20
+
+Speaking of the credit risk of deferred comp. This past weekend, extremely =
+good baseball player Shohei Ohtani signed a 10-year, $700 million contract =
+to play for the Los Angeles Dodgers. This has become a major item of financ=
+ial news because (1) sports and (2)   the contract is weird: Ohtani will ac=
+tually be paid $2 million a year for the 10 years that he plays for the Dod=
+gers, and will then get $68 million a year for the=C2=A0following=C2=A010 y=
+ears, starting in 2034, when he does=C2=A0not=C2=A0play for them.
+The reason for this, as far as I can tell, is basically to free up more mon=
+ey=C2=A0now=C2=A0for the Dodgers to spend on other good players, so that th=
+ey can be good and win the World Series while Ohtani plays for them. After =
+that, they can just write him huge checks for a decade and have less money =
+to spend on good players, but he won=E2=80=99t be there anymore, and probab=
+ly the executives who signed him won=E2=80=99t be there anymore (they=E2=80=
+=99ll retire after winning all those World Series), so whatever. This is a =
+well-known form of calculation in the financial world, so much so that it h=
+as its own initialism, IBGYBG, =E2=80=9CI=E2=80=99ll be gone, you=E2=80=99l=
+l be gone.=E2=80=9D
+A secondary reason is I guess that Ohtani will be earning $2 million a year=
+ while living in=C2=A0California and paying high taxes, and then he will be=
+ earning $68 million a year when he no longer needs to live in California a=
+nd can pay low taxes. (One reader suggested to me that California should tr=
+y to tax him now on the   unrealized up-front value of his contract, heh.)=
+=C2=A0
+A possible third reason is, you know, people seem to like having large head=
+line contract values? Winning a World Series is nice, but winning the game =
+of Getting Paid the Most also seems to be important. Structuring the contra=
+ct in this way allows the Dodgers to pay a large headline number at a disco=
+unted price, which probably makes everyone happy.
+Anyway there are various interesting things to say about this contract as a=
+ bet on inflation and  interest rates and taxes, but my colleague John Auth=
+ers already said them, so I will refer you to   his column. But a number of=
+ readers have asked me about the credit risk=C2=A0of the contract: Substant=
+ially all of Ohtani=E2=80=99s money comes in the form of payments from the =
+Dodgers 10 to 20=C2=A0years from now, and what if they default? What if the=
+y don=E2=80=99t make enough money to pay him? What if he retires in 2034, t=
+hey have no money to spend on good players (because they are paying him) an=
+d they can=E2=80=99t sell enough tickets to pay his deferred comp?
+I don=E2=80=99t have a great answer. Major League Baseball, and its players=
+, have definitely thought about this. The current  Collective Bargaining Ag=
+reement=C2=A0has a provision (Article XVI) covering deferred compensation, =
+which provides that deferred compensation =E2=80=9Cmust be fully funded by =
+the Club, in an amount equal to the present value of the total deferred com=
+pensation amount,=E2=80=9D within two years after it was earned. In Ohtani=
+=E2=80=99s case I think this means that the Dodgers have to fund roughly $4=
+6 million a year starting in 2026.
+  [3]
+=C2=A0=E2=80=9CFund=E2=80=9D means that the Dodgers have to set aside =E2=
+=80=9Cunencumbered assets comprising cash or cash equivalents and/or regist=
+ered and unrestricted readily marketable securities=E2=80=9D that are =E2=
+=80=9Cexclusively for the uses and purposes of satisfying the deferred comp=
+ensation obligation.=E2=80=9D So while he is playing, they will need to put=
+ aside money to pay him, and I suppose if they don=E2=80=99t he can go find=
+ a higher (or, lower but more creditworthy) bidder.
+  [4]
+
+On the other hand the CBA does not require the=C2=A0money to be held in esc=
+row for him: It=E2=80=99s just money on the Dodgers=E2=80=99 balance sheet,=
+ =E2=80=9Csubject to the claims of the Club=E2=80=99s general creditors.=E2=
+=80=9D Though perhaps his contract has stricter terms. Otherwise, Ohtani=E2=
+=80=99s bet is something like =E2=80=9Cif the Dodgers set aside the money f=
+or me, I=E2=80=99ll probably get it, because it=E2=80=99s not like baseball=
+ teams have a ton of liabilities=C2=A0other=C2=A0than deferred comp, so eve=
+n if they go bankrupt I=E2=80=99ll be the main claimant on that pot of mone=
+y.=E2=80=9D Which is, you know, probably fine? Not ironclad? Not necessaril=
+y a calculation that I would bet half a billion dollars on but I am, for a =
+great many reasons, not a successful professional athlete.
+How would you hedge this risk? You can=E2=80=99t really short a baseball te=
+am, or buy credit default swaps. You could buy index credit default swaps t=
+o hedge against widespread credit defaults, but that=E2=80=99s not really w=
+hat you want: The bad state of the world here is not so much =E2=80=9Ca lot=
+ of malls go bankrupt=E2=80=9D as it is =E2=80=9Cbaseball stops being popul=
+ar in the US.=E2=80=9D If I were him I=E2=80=99d buy, like, Manchester Unit=
+ed stock as a hedge.
+Also the other obvious question here is, what if Ohtani would like to live =
+on more than $2 million a year, now? Sure it is nice to have a $680 million=
+ nest egg for retirement, but he is a famous successful baseball player,=C2=
+=A0shouldn=E2=80=99t he be having more than $2 million worth of fun now? I =
+wonder if he can get a bank to lend him money against that $680 million?
+  [5]
+ Maybe the bank can figure out the credit risk.
+
+ =20
+   =20
+      Oh Elon
+   =20
+ =20
+
+The situation is roughly:
+=09In April 2022, Elon Musk signed a binding  merger agreement to buy Twitt=
+er Inc. for $54.20 per share.=09In May 2022, he changed his mind, decided h=
+e was overpaying, and started tweeting some nonsense about how the deal was=
+ =E2=80=9Ctemporarily on hold=E2=80=9D because Twitter had too many =E2=80=
+=9Cspam/fake accounts.=E2=80=9D In July, he   sent Twitter a notice that he=
+ was terminating the deal.=09This was all nonsense, as everyone knew. =E2=
+=80=9C=E2=80=98Temporarily on hold=E2=80=99=C2=A0is not a thing,=E2=80=9D  =
+I wrote. =E2=80=9CI=C2=A0think it is important to be clear here that Musk i=
+s lying,=E2=80=9D  I wrote, about the spam bots. =E2=80=9CIn our actual uni=
+verse none of this is true,=E2=80=9D  I wrote, about his whole theory.=C2=
+=A0Just absolute nonsense.=09Twitter sued Musk to enforce the deal, there w=
+as a lot of blustering, but eventually=C2=A0Musk=E2=80=99s lawyers convince=
+d him it would be embarrassing to argue this nonsense in court=C2=A0and he =
+gave up,  buying Twitter in October 2022=C2=A0for the original price of $54=
+.20 per share. Then he renamed it X Corp. and there has been much additiona=
+l nonsense that I will not get into here.
+
+So here=E2=80=99s a question: In May 2022, when Elon Musk started tweeting=
+=C2=A0nonsense about how he was canceling the deal for spam bots, was that=
+=C2=A0securities fraud? There are arguments both ways. On the one hand:
+=09Everything is securities fraud, I keep saying around here.=09He was twee=
+ting false statements about a public company.=09The stock did go down. Twit=
+ter=E2=80=99s stock fell 9.7%, from $45.08 to $40.72, the day Musk tweeted =
+=E2=80=9Ctemporarily on hold.=E2=80=9D It closed as low ast $32.65 in July.=
+=C2=A0=09If you bought the stock in the low $50s in early May, because Musk=
+ had signed a deal to buy it for $54.20, and then sold it in the low $30s i=
+n July, because Musk was saying that he would get out of the deal, you real=
+ly were=C2=A0deceived=C2=A0(he was not getting out of the deal), and you di=
+d lose money.
+
+On the other hand, it=E2=80=99s a weird form of securities fraud. At the ti=
+me he did these tweets, Musk really did have a binding contract to buy ever=
+y share of Twitter at $54.20 per share, and he ended up doing that. His fal=
+se tweets didn=E2=80=99t make him any money. It=E2=80=99s not like he was s=
+hort Twitter and profited when its price crashed. He was long Twitter and t=
+his all ended up just being a costly nuisance for him.=C2=A0
+Still, you could argue that he had an economic motive to tank the stock. Th=
+e motive is that he was=C2=A0trying to renegotiate the deal:=C2=A0He knew h=
+e was overpaying for Twitter, and he was hoping that, by threatening to wal=
+k away from the deal, he could convince Twitter=E2=80=99s board to agree to=
+  sell to him at a lower price. The noisier he was about walking away, the =
+more that threat would feel real. And=C2=A0the=C2=A0more the price fell, th=
+e scarier the threat would be: Twitter=E2=80=99s board could look at the st=
+ock at $32.65 per share and say =E2=80=9C(1) the market thinks he might get=
+ out of this and (2) if he does get out of it the stock will really tank, s=
+o (3) it would be a good idea for=C2=A0us to sign a new ironclad deal at $4=
+5.=E2=80=9D And then he=E2=80=99d save some money.=C2=A0By manipulating the=
+ stock, he could save himself billions of dollars in a renegotiated deal.
+Anyway some Twitter shareholders did sue Musk, claiming that he committed s=
+ecurities fraud =E2=80=9Cby making multiple misstatements to artificially d=
+epress the price of Twitter stock and to pressure Twitter to lower the pric=
+e Defendant would have to pay to acquire it.=E2=80=9D He filed a motion to =
+dismiss the lawsuit, and on Monday a federal judge partly denied that motio=
+n, letting the lawsuit go forward. Here is  the judge=E2=80=99s opinion, fi=
+nding=C2=A0that the shareholders have made a case that several of Musk=E2=
+=80=99s tweets were false or misleading, that he =E2=80=9C=E2=80=98had the =
+motive and opportunity to commit the fraud=E2=80=99=C2=A0to get out of the =
+Merger Agreement because of the large price decline of Tesla stock and the =
+realization that =E2=80=98he had greatly overpaid for Twitter by agreeing t=
+o buy it shortly before a significant market decline,=E2=80=99=E2=80=9D and=
+ that the shareholders lost money due to his fraud by selling at depressed =
+prices during the nonsense.
+I guess that=E2=80=99s all reasonable. The judge does find that some of Mus=
+k=E2=80=99s statements aren=E2=80=99t fraud. For instance, Musk=E2=80=99s l=
+awyers sent various letters to Twitter terminating the deal; those letters =
+were also mostly nonsense, and the shareholders argue that they were fraud.=
+ The judge disagrees:
+Plaintiffs do not adequately specify which statements within the various le=
+tters are misleading or state the reason or reasons why they are. =E2=80=A6=
+=C2=A0Plaintiffs also generally allege that Defendant=E2=80=99s motive in s=
+ending letters requesting data was to create uncertainty and the requests w=
+ere a =E2=80=9Cruse.=E2=80=9D =E2=80=A6 But, again, Plaintiffs do not point=
+ to an objectively verifiable affirmative statement or misleading omission.=
+ =E2=80=A6=C2=A0The Court is not convinced that Defendant=E2=80=99s entry i=
+nto a legal dispute with Twitter, and statements made in support thereof, =
+=E2=80=9Ccreate an impression of a state of affairs that differs in a mater=
+ial way from the one that actually exists.=E2=80=9D
+This also seems right to me? It would be odd to find that it=E2=80=99s=C2=
+=A0fraud=C2=A0to fight Twitter in court. Musk fought Twitter in court, and =
+the stakes were that if he won he wouldn=E2=80=99t have to buy Twitter and =
+if he lost he would. He lost. Along the way, Twitter stockholders made bets=
+ on whether he=E2=80=99d win or lose: They sold stock thinking he=E2=80=99d=
+ win, or bought it thinking he=E2=80=99d lose. If they were wrong =E2=80=94=
+=C2=A0if they overestimated his chances of winning, because of the argument=
+s that he made, which sounded good but were not =E2=80=94=C2=A0then they lo=
+st money. But it seems odd for them to=C2=A0sue=C2=A0him for making those a=
+rguments. He was doing the best he could to win in court; it=E2=80=99s not =
+his problem if people believed him.
+Still there is a tension here. If Musk files a legal document saying =E2=80=
+=9Ctoo many bots,=E2=80=9D that=E2=80=99s not securities fraud; if he sends=
+ a tweet saying =E2=80=9Ctoo many bots,=E2=80=9D that is? Musk does most of=
+ his litigation on Twitter, so it is strange to draw this distinction. Poss=
+ibly the answer is =E2=80=9Cdon=E2=80=99t do your litigation on Twitter.=E2=
+=80=9D
+Also I should say that the judge goes through several of Musk=E2=80=99s bad=
+ tweets, concludes that some of them are plausibly false and misleading and=
+ thus can support a lawsuit, but also concludes that some are not. For inst=
+ance, the May 13, 2022, =E2=80=9Ctemporarily on hold=E2=80=9D tweet can be =
+securities fraud. But on May 16, 2022, Twitter=E2=80=99s then chief executi=
+ve officer, Parag Agrawal, tweeted a measured and sensible explanation of h=
+ow Twitter estimates bot accounts, and =E2=80=9CDefendant responded with a =
+tweet of a poop emoji.=E2=80=9D That poop emoji has already  had a long leg=
+al career=C2=A0=E2=80=94=C2=A0it was in Twitter=E2=80=99s complaint to forc=
+e Musk to close the deal =E2=80=94=C2=A0and it=E2=80=99s in this case too, =
+but apparently it is not securities fraud. The  moon emoji is securities fr=
+aud, the poop emoji is not, modern finance is amazing.
+
+ =20
+   =20
+      Flow
+   =20
+ =20
+
+Arguably Adam Neumann has two valuable and largely unrelated=C2=A0skills:
+=09He=E2=80=99s a pretty good real estate guy, in the sense that he is good=
+ at acquiring buildings, making them nice places to live or work in, and fi=
+nding tenants who will pay to rent them.=09He has some sort of Jedi-mind-tr=
+ick power where he can walk into a room full of venture capitalists, tell t=
+hem about his real estate company, and have them say =E2=80=9Cyou are a tec=
+h visionary, take all of our money.=E2=80=9D
+
+Like there are plenty of cases of people who pitch=C2=A0bad tech company id=
+eas=C2=A0to venture capitalists, and get funded, and blow up. But Neumann=
+=E2=80=99s schtick seems to be that he pitches=C2=A0good real estate compan=
+ies=C2=A0to venture capitalists, and gets lavishly overfunded, and =E2=80=
+=A6=C2=A0well,   he blew up once, but who knows.=C2=A0
+Anyway here is a funny  Business Insider article about Flow, Neumann=E2=80=
+=99s =E2=80=9Csecretive billion-dollar startup to turn apartment living int=
+o a utopian fantasy.=E2=80=9D The basic points of the article are=C2=A0(1) =
+Flow runs a nice apartment building:
+
+Since Neumann took over, maintenance has cleaned common areas more frequent=
+ly, a poolside restaurant has reopened, more security has been added, and t=
+he gym has been overhauled with new equipment and classes. Instead of a lon=
+e uniformed doorman, at Society Las Olas you're greeted by five bright, fri=
+endly faces manning the so-called Resident Experience lounge. =E2=80=A6
+In most buildings, tenants receive a take-it-or-leave-it notice at a legall=
+y mandated date before their lease is up informing them of their new rate. =
+Flow's managers find that cold and impersonal. Its staffers want a more cus=
+tomized approach, like inviting tenants to coffee months in advance to disc=
+uss areas the building could improve on.
+
+And (2) there is a lot of blather about being a tech company that doesn=E2=
+=80=99t seem all that real, but that induces venture capitalists to write l=
+arge checks:
+
+Neumann started Flow in the summer of 2022 after landing a $350 million che=
+ck from Andreessen Horowitz, better known as A16z, one of Silicon Valley's =
+most prestigious venture firms. It was the single largest investment in the=
+ firm's history, instantly making Flow worth a billion dollars on paper. ..=
+.
+A16z's funding announcement praised Neumann as a "visionary leader" and was=
+ full of soaring rhetoric about solving America's housing crisis and removi=
+ng the soullessness of apartments. Absent were specifics of how Flow would =
+actually accomplish these lofty goals. =E2=80=A6
+Based on the early accounts of Flow, you might have expected a radically ne=
+w way of living. There was talk of crypto wallets and a rent-to-own model t=
+hrough which residents could build equity.
+Neither is happening anytime soon.
+
+Love it! Arguably the basic business model=C2=A0of WeWork was that Adam Neu=
+mann took  $14 billion of SoftBank Group Corp.=E2=80=99s money, gave $13 bi=
+llion of it to companies to subsidize their office rent and happy hours, an=
+d kept $1 billion of it for himself. Not bad! But if the basic business mod=
+el of Flow is that Adam Neumann will take hundreds of millions of dollars o=
+f Andreessen Horowitz=E2=80=99s money, give most of it to twentysomethings =
+to subsidize their apartment rents and happy hours, and keep a few building=
+s for himself, then how could anyone object to that? I just hope he=E2=80=
+=99ll scale it up rapidly and go back to SoftBank for more money.=C2=A0
+
+ =20
+   =20
+      Elsewhere in selling real estate visions to tech investors
+   =20
+ =20
+
+Does Neumann overcomplicate things? Is it simpler to just go to tech invest=
+ors and say =E2=80=9Chello, I am building a new city where everyone will be=
+ either a tech founder or a model, and nobody will be ugly or poor, doesn=
+=E2=80=99t that sound nice,=C2=A0give me some money=E2=80=9D? Here is a New=
+ York Times  story about a guy named Dryden Brown, who has raised money fro=
+m investors including Paradigm and Sam Altman for =E2=80=9Chis company, Pra=
+xis, which has an ambitious goal: to create a new city on the Mediterranean=
+,=E2=80=9D with stuff like this:
+
+An internal Praxis branding guide =E2=80=A6=C2=A0denounces =E2=80=9Cenemies=
+ of vitality,=E2=80=9D who =E2=80=9Creject what they consider the optional =
+=E2=80=98European beauty standards.=E2=80=9D It goes on to extol =E2=80=9Ct=
+raditional, European/Western beauty standards on which the civilized world,=
+ at its best points, has always found success.=E2=80=9D =E2=80=A6
+According to several former Praxis employees who spoke on the condition of =
+anonymity because they signed nondisclosure agreements, Mr. Brown had discu=
+ssed wanting to attract tech talent to his city by introducing founders to =
+=E2=80=9Chot girls.=E2=80=9D =E2=80=A6
+Internal Praxis documents outline three =E2=80=9Cpersona groups=E2=80=9D wh=
+o will populate the Praxis city. They are =E2=80=9Cwarriors,=E2=80=9D who a=
+re =E2=80=9Cmuscular=E2=80=9D and =E2=80=9Cclean=E2=80=9D and protect socie=
+ty from threats; =E2=80=9Cpriests,=E2=80=9D who are =E2=80=9Cvery thin,=E2=
+=80=9D and =E2=80=9Cdefine the values and beliefs of society=E2=80=9D; and =
+=E2=80=9Cmerchants,=E2=80=9D who are =E2=80=9Cportly=E2=80=9D and =E2=80=9C=
+bearded,=E2=80=9D and include venture capitalists and cryptocurrency profes=
+sionals.
+
+=E2=80=9CExposed to the classics by his tutor, Mr. Brown read Ayn Rand and =
+the Austrian economists in high school=E2=80=9D is one of the nicer things =
+that the article has to say about him. Martin Shkreli is apparently a membe=
+r.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+World Central Banks Signal  Victory Over Inflation Is in Sight. Wall Street=
+ Traders Go All-In on   Great Monetary Pivot of 2024. =E2=80=9C Local-curre=
+ncy debt is now the biggest drain on many developing countries=E2=80=99 bal=
+ance sheets.=E2=80=9D Hedge Funds to Get New SEC Mandate to  Centrally Clea=
+r US Treasuries Trades.=C2=A0The =E2=80=98Moneyball=E2=80=99 Firm Behind Yo=
+ur  Chicken. Wall Street Makes   Zero Progress in Energy Finance Transition=
+. Billionaire Jimmy Haslam Is Being   Investigated Over Pilot Payments, Law=
+yer Says. Amazon  wins in tax battle with European Commission. BP Docks For=
+mer CEO Bernard Looney as Much as $40 Million Over =E2=80=98=C2=A0Serious M=
+isconduct.=E2=80=99=C2=A0Credit Suisse Disbands   China Onshore Wealth Unit=
+, Dozens Depart. The Economics of   Small US Colleges Are Faltering. Elon M=
+usk Is Planning a   New University in Austin. =E2=80=9CFor three years, as =
+the denizens of the  Melrose Place apartment complex loved, lost, and betra=
+yed one another, the GALA Committee smuggled subversive leftist art onto th=
+e set, experimenting with the relationship between art, artist, and spectat=
+or.=E2=80=9D=C2=A0How to  Brag About Work, Even if It=E2=80=99s Not Going G=
+reat.=C2=A0Blackstone Channels Taylor Swift in  New Holiday Video.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] This is a little loose. Really you pay them the spot price minus the =
+contract price ($400, in this toy example), which they then use to buy the =
+commodity at the current price ($500), using $100 of their own money, so th=
+at their cost is effectively the contract price.=20
+
+
+  [2] If it says =E2=80=9Cwe=E2=80=99ll give you $1 million to stay, in sto=
+ck at today=E2=80=99s price, and we=E2=80=99ll deliver it in three years,=
+=E2=80=9D then the employee is taking the bank=E2=80=99s equity risk, which=
+ is, you know, riskier.
+
+
+  [3] That is, in 2024 Ohtani will earn $68 million payable in 2034, and th=
+ey=E2=80=99ll have to fund that in 2026. (And in 2025, he=E2=80=99ll earn a=
+nother $68 million payable in 2034, funded in 2027, etc.) The funding oblig=
+ation is the present value of the deferred comp; the discount rate specifie=
+d in the contract is 5% per year, though it can go up if rates are higher. =
+So 68/(1.05)^8 =3D 46.=20
+
+
+  [4] I have no idea what the actual enforcement mechanism is here, or if h=
+e can get out if they don't fund it, or if he can sue to force them to fund=
+ it, etc.
+
+
+  [5] See, this is why my reader thinks California should tax the unrealize=
+d amount: It arguably creates spending power now.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ck28wn.5ily/7832deaa.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_25293513_167305230.1702583989800
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note for Elon Musk: Don=E2=80=99t read the next programming not=
+e, skip down, there=E2=80=99s a whole section about your tweets! Poop emoji=
+s and=20
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33697175.257398/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMjE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEyMTQmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBca5621bb"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33697175.257398/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMzY5NzE3NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM5NTQ1NzMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBee9f018c" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D33697175&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33954573&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cudGhldmV=
+yZ2UuY29tLzIwMjIvMTAvMjgvMjM0MjcxMzcvZWxvbi1tdXNrLXR3aXR0ZXItbWF0dC1sZXZpbm=
+UtbW9uZXktc3R1ZmY/607f07ceef4b8524a319a23cBa8e59e32" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> for Elon Musk=
+</a>:</strong><em>=C2=A0Don=E2=80=99t read the next programming note, skip =
+down, there=E2=80=99s a whole section about your tweets! Poop emojis and ev=
+erything! Skip the boring stuff and go straight there!=C2=A0</em></p>
+<p style=3D"margin: 16px 0;"><strong>Programming note for everyone else:</s=
+trong> <em>This is the last Money Stuff of 2023. Probably. Unless Elon buys=
+ OpenAI or whatever. I=E2=80=99ll be back in January. Thanks for reading an=
+d=C2=A0have a great holiday season.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">LNG contracts</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I am not, by any means, an expert in liquefied=
+ natural gas. My background is in financial instruments, stocks and bonds a=
+nd derivatives on stocks and bonds. The way that, for instance, stock optio=
+ns work is that, if I agree to sell you XYZ stock at $40 at your option, an=
+d in a month you exercise the option and hand over the $40, I really do hav=
+e to give you the stock. Even if it=E2=80=99s trading at $60. Obviously I=
+=E2=80=99d rather sell the stock at $60 to someone else, but I already sold=
+ you that option, and I am bound by it. If I sell a Treasury bond futures c=
+ontract, I have to deliver a Treasury bond at the futures price, even if th=
+e price has gone up and I could sell it for more elsewhere.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Oh, of course, there are situations where peop=
+le find ways to get out of their contracts.=C2=A0(And there are stock-relat=
+ed transactions=C2=A0that are not ordinary-course trading =E2=80=94=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/33697175.257398/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDctMTIvaS13YXM=
+tdG9sZC10aGVyZS1kLWJlLWEtY2FrZS1tZXJnZXI_Y21waWQ9QkJEMTIxNDIzX01PTkVZU1RVRk=
+YmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMjE0J=
+nV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB534c26e6" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+mergers</a>, for instance =E2=80=94=C2=A0and that are considerably more bre=
+akable.) But for the most part there is a broadly effective=C2=A0apparatus =
+to make stock and bond=C2=A0trades binding, so binding that it rarely even =
+occurs to anyone to break them. No stock options trader calls their lawyer =
+to be like =E2=80=9Cman this stock really went up a lot, can I just not del=
+iver it into the call options I sold?=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">A lot of commodities trading also works like t=
+his. If you sell aluminum futures, and the price of aluminum then doubles, =
+you can=E2=80=99t just be like =E2=80=9Cnah I=E2=80=99d rather sell this al=
+uminum to someone else at the current price.=E2=80=9D That futures contract=
+ really is binding, in that you have to either deliver the aluminum or=C2=
+=A0pay the current price of the aluminum to get out of the deal. Selling al=
+uminum futures <em>is a bet that the price of aluminum won=E2=80=99t go up<=
+/em>, and everyone understands it that way, and the bet is enforceable.=C2=
+=A0There is a clearinghouse that collects from losers and pays winners, and=
+ standardized contracts and market expectations that you=E2=80=99ll pay. Ag=
+ain, <a href=3D"https://link.mail.bloombergbusiness.com/click/33697175.2573=
+98/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDctMDcv=
+bmlja2VsLWJpZy1zaG90LWNhbGxlZC10aGUtc2hvdHM_Y21waWQ9QkJEMTIxNDIzX01PTkVZU1R=
+VRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMj=
+E0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB2bff4be4" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">  sometimes things go wrong</a>, but those are exceptional cases that ev=
+eryone gets upset about.</p>
+<p style=3D"margin: 16px 0;">By comparison, =E2=80=9Cphysical commodities t=
+rading=E2=80=9D =E2=80=94 getting stuff out of the ground, loading it on sh=
+ips, delivering it to customers and getting paid =E2=80=94=C2=A0is the Wild=
+ West. On the one hand, it sort of looks like stock and bond and commodity-=
+futures markets: It is a financialized global market, with fast-moving prof=
+essional traders linked to each other by computers, and with volatile price=
+s that move rapidly in response to events, where you can make a fortune by =
+betting the right way.=C2=A0On the other hand, the=C2=A0<em>stuff=C2=A0</em=
+>you are trading does not live on a computer:=C2=A0You are moving ships aro=
+und, and if you say a ship will go to one place and it instead goes to anot=
+her place, there is only so much anyone can do about it. There is no cleari=
+nghouse, no way to just adjust the trades on the computer to make everythin=
+g right. The stuff either goes somewhere, or it goes somewhere else.</p>
+<p style=3D"margin: 16px 0;">And so if you are a liquefied natural gas trad=
+er company, and you sell LNG in long-term fixed-price contracts that requir=
+e you to deliver a ship full of LNG to a specific port every month at a fix=
+ed price, and then the price of LNG goes up a lot, and you=E2=80=99d rather=
+ ignore your contract and sell your ship=C2=A0full of LNG to someone else a=
+t the current higher price =E2=80=A6=C2=A0I mean, empirically, that does se=
+em to happen? The conditions are favorable for opportunism:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">There=E2=80=99s no central clearingho=
+use enforcing any rules, so if you hose one customer all that happens is th=
+at that customer is mad at you (and sues): You can keep trading with everyb=
+ody=C2=A0<em>else</em>.</li>=09<li style=3D"margin-bottom: 5px;">Instead of=
+ standardized futures contracts enforced by a central clearinghouse, every =
+deal is a complicated bilateral negotiation, so even when the customer sues=
+, you can probably point to some provision=C2=A0in the contract, or some un=
+usual=C2=A0circumstance, that justifies you not delivering the gas.</li>=09=
+<li style=3D"margin-bottom: 5px;">It=E2=80=99s a global commodity market, s=
+o (1) it=E2=80=99s easy for you to find a new customer at the current highe=
+r price and (2)=C2=A0even if the old customer is mad at you, they will prob=
+ably keep buying gas from you if your price is $0.01 below everyone else=E2=
+=80=99s.</li>=09<li style=3D"margin-bottom: 5px;">LNG prices have been pret=
+ty volatile, driven by things like Covid-19 and Russia=E2=80=99s invasion o=
+f Ukraine, so it=E2=80=99s entirely possible that you agreed to a contract =
+at a low price, and now the price is high, and you are tempted to break it.=
+</li>
+</ol>
+<p style=3D"margin: 16px 0;">And so we have <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9vcGluaW9uL2FydGljbGVzLzIwMjMtMDgtMDgvZG9uLXQtZG8tZGVhbHMtb24tbGlua2VkaW4_=
+Y21waWQ9QkJEMTIxNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5=
+ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMjE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07cee=
+f4b8524a319a23cBd9796082" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">  talked</a> a few <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMTItMDYvd2hvLWdldHMtcGFpZC1mb3Itbm9=
+0LWN1dHRpbmctZG93bi10cmVlcz9jbXBpZD1CQkQxMjE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaX=
+VtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEyMTQmdXRtX2NhbXBha=
+WduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB426bcb9e" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">  times</a> a=
+bout Venture Global LNG, an LNG producer in Louisiana that entered into lon=
+g-term fixed-price contracts to sell its gas to customers like BP and Shell=
+, and then =E2=80=94=C2=A0when LNG prices went up a lot =E2=80=94=C2=A0deci=
+ded to instead sell its gas on the spot market to other buyers at much high=
+er prices. The jilted customers have <a href=3D"https://link.mail.bloomberg=
+business.com/click/33697175.257398/aHR0cHM6Ly93d3cuYnAuY29tL2VuX3VzL3VuaXRl=
+ZC1zdGF0ZXMvaG9tZS9uZXdzL3ByZXNzLXJlbGVhc2VzL2JwLXN0YXRlbWVudC1vbi1pdHMtZmV=
+yYy1jb21wbGFpbnQtYWdhaW5zdC12ZW50dXJlLWdsb2JhbC5odG1s/607f07ceef4b8524a319a=
+23cB92b123a2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> complained bitterly</a> to everyone who will listen,=
+ and have gone to arbitration to force Venture Global to give them the gas,=
+ and Venture Global has been like =E2=80=9Cnyah nyah, see you in court, tec=
+hnically our contract allows us to do this.=E2=80=9D They might even be rig=
+ht! The contract apparently requires Venture Global to start fulfilling the=
+ long-term contracts when its production plant is complete, and the plant i=
+s not yet complete. It is complete <em>enough</em> to produce LNG and sell =
+it on the spot market, sure, but it is not <em>completely</em> complete.=C2=
+=A0I <a href=3D"https://link.mail.bloombergbusiness.com/click/33697175.2573=
+98/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMTItMDYv=
+d2hvLWdldHMtcGFpZC1mb3Itbm90LWN1dHRpbmctZG93bi10cmVlcz9jbXBpZD1CQkQxMjE0MjN=
+fTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdG=
+VybT0yMzEyMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cC426b=
+cb9e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">  joked</a> that the facility is =E2=80=9Cjust about finished=
+, but they [didn=E2=80=99t], like, paint one last rivet.=E2=80=9D Favorable=
+ for opportunism!</p>
+<p style=3D"margin: 16px 0;">Today Bloomberg=E2=80=99s=C2=A0<a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9mZWF0dXJlcy8yMDIzLWhvdy1jb21tb2RpdHktdHJhZGVycy1zd2l0Y2hl=
+ZC1vZmYtcGFraXN0YW4tZW5lcmd5Lz9jbXBpZD1CQkQxMjE0MjNfTU9ORVlTVFVGRiZ1dG1fbWV=
+kaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEyMTQmdXRtX2NhbX=
+BhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB7356922a" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">Stephen St=
+apczynski and Faseeh Mangi have a story</a> about how Gunvor Group Ltd. and=
+ Eni SpA entered into long-term LNG supply contracts with Pakistan, obligat=
+ing them to deliver gas to Pakistan at fixed prices over=C2=A0multi-year te=
+rms, and then started missing deliveries when the spot price of LNG shot up=
+. Pakistan went to them with reasonable complaints like =E2=80=9Cwe really =
+need this gas, and we signed a binding contract obligating you to deliver i=
+t to us at a fixed price,=E2=80=9D and the suppliers largely came up with e=
+xcuses that do technically seem to work. With the result that:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Pakistan had to go buy gas in the spo=
+t market at much higher prices, and</li>=09<li style=3D"margin-bottom: 5px;=
+">Gunvor and Eni got to go=C2=A0<em>sell=C2=A0</em>gas in the spot market a=
+t much higher prices.</li>
+</ol>
+<p style=3D"margin: 16px 0;">What sort of excuses? Well, a big one is=C2=A0=
+<em>force majeure:=C2=A0</em>If the plants producing the LNG break down and=
+ the suppliers can=E2=80=99t get the gas, they don=E2=80=99t have to delive=
+r it. This is not, you might think, an excuse that would allow for much opp=
+ortunism: If the plants break down and the suppliers can=E2=80=99t get the =
+gas, then they can=E2=80=99t resell it on the spot market for a profit. But=
+ that=E2=80=99s not quite right:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Gunvor cited a =E2=80=9Cforce majeure,=E2=80=
+=9D a legal term for an unavoidable event that makes it impossible to fulfi=
+ll a contract. Specifically it blamed an outage at a plant in Equatorial Gu=
+inea, a tiny, hydrocarbon-rich Central African dictatorship. ...</p>
+<p style=3D"margin: 16px 0;">That justification from Gunvor, as well as the=
+ earlier statement by Eni about production in Egypt, took advantage of anot=
+her part of Pakistan=E2=80=99s contracts. Unlike other LNG deals, which sti=
+pulate where a supplier will obtain the gas it=E2=80=99s selling, the Pakis=
+tani agreements said shipments could come from anywhere within Gunvor=E2=80=
+=99s and Eni=E2=80=99s global portfolios. Pakistani officials have said the=
+y believed this would insulate them from disruptions, by allowing the compa=
+nies to provide any gas they could source.</p>
+<p style=3D"margin: 16px 0;">In their communications with Pakistan, people =
+with knowledge of the discussions say, Gunvor and Eni turned that logic on =
+its head, arguing that because no source was specified, a disruption anywhe=
+re gave them the right to cancel delivery. Problems in Equatorial Guinea th=
+erefore qualified as a force majeure, even though Gunvor rarely shipped gas=
+ from the plant to Pakistan. ...</p>
+<p style=3D"margin: 16px 0;">This was a novel interpretation of contract te=
+rms. =E2=80=9CIt is not typically sufficient for a seller to simply say, =
+=E2=80=98My unrelated project on the other side of the world that has no co=
+nnection to this contract is down, and therefore that=E2=80=99s force majeu=
+re under this contract,=E2=80=99=E2=80=8A=E2=80=9D says Jessica Ham, a spec=
+ial counsel at US law firm Baker Botts who=E2=80=99s advised clients on LNG=
+ deals. =E2=80=9CThe buyer might have the ability to claim that this event =
+is unrelated, and it doesn=E2=80=99t actually prevent you from performing, =
+which is a key element of a force majeure claim.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Intuitively, if Gunvor has plans to source 100=
+ cargoes of LNG, and one plant anywhere in the world shuts down and it can =
+only get 99 cargoes, it can say =E2=80=9Cwhoops, that was Pakistan=E2=80=99=
+s cargo, it=E2=80=99s impossible for us to get it to them=E2=80=9D and sell=
+ the other 99 cargoes at the higher spot price. Your binding long-term cont=
+ract is the=C2=A0<em>first=C2=A0</em>one you drop, if the price has gone up=
+.</p>
+<p style=3D"margin: 16px 0;">Meanwhile the enforcement mechanism is not tha=
+t strong. Here is an anecdote about an Eni delivery in December 2020:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Italian company said it would deliver only=
+ part of its LNG shipment for the following month, explaining that an unnam=
+ed supplier had failed to make its own delivery. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">In fact, say people with knowledge of the situ=
+ation, a team of lawyers had earlier told Azzimonti that Pakistan was a =E2=
+=80=9Cmarginal customer=E2=80=9D; shortchanging it wouldn=E2=80=99t risk a =
+blacklisting by a major importer. Meanwhile, an early winter cold snap was =
+pushing up gas demand in East Asia. From November 2020 to January 2021, spo=
+t prices would jump more than 400%, increasing the value of a shipment from=
+ about $20 million to $100 million or more=E2=80=94as long as it was sold t=
+o a spot buyer.</p>
+<p style=3D"margin: 16px 0;">Pakistan=E2=80=99s agreement stipulated that i=
+n the event of a missed or partial shipment, Eni would pay a penalty equal =
+to 30% of the value of the undelivered cargo, calculated on the basis of th=
+e long-term contract. While richer importers can demand compensation of as =
+much as 100%, that was the stiffest fine Pakistan could get suppliers to ac=
+cept, says Imran Maniar, the managing director of distributor Sui Southern =
+Gas Co. Propose anything higher, he says, and =E2=80=9Cpeople don=E2=80=99t=
+ really want that in the clause.=E2=80=9D In this case the penalty amounted=
+ to just $2.8 million, pocket change in the energy business.</p>
+<p style=3D"margin: 16px 0;">Under the terms of Eni=E2=80=99s contract, it =
+didn=E2=80=99t have to provide details about the supplier default. But even=
+ after telling Pakistan it lacked sufficient gas to meet its commitments, a=
+ccording to a person with direct knowledge of the transaction, Eni sold an =
+LNG shipment elsewhere at the spot price of roughly $100 million.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">If prices have jumped 400%, and you pay a pena=
+lty of 30% of the contract price to skip a delivery, then you have the choi=
+ce of selling under the contract for $100 or selling in the spot market for=
+ $500 and paying a $30=C2=A0penalty, for a net of $470. You pay the penalty=
+. Whereas in listed commodity markets, the clearinghouse-enforced norm is t=
+hat you pay the buyer, not 30% or even 100% of the contract price, but <em>=
+100% of the spot price:=C2=A0</em>You pay them $500, which they use to go g=
+et the commodity at the current price.<a class=3D"footnote-index" href=3D"#=
+footnote-1" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: no=
+ne !important; background-color: transparent !important; display: inline-bl=
+ock;">
+<span>[1]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Also bad move by Pakistan here:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In Islamabad, Pakistani officials had conclude=
+d Gunvor was looking for a way to prematurely end the contract, which had b=
+een due to expire in July. Seeking to cut their losses, they figured they s=
+hould try to recoup about $10 million they believed the company owed them a=
+s a result of a separate dispute over port fees. Pakistan therefore reduced=
+ its payment for Gunvor=E2=80=99s February 2022 LNG shipment by the same am=
+ount.</p>
+<p style=3D"margin: 16px 0;">The officials had inadvertently given Gunvor a=
+n even cleaner exit. Pakistan soon received a letter from Gunvor=E2=80=99s =
+lawyers demanding the rest of the money. It refused to pay; about a week la=
+ter, with gas prices in Europe near an all-time high, Gunvor gave notice th=
+at it was terminating the contract.</p>
+<p style=3D"margin: 16px 0;">The company was within its rights to cancel th=
+e deal. But LNG agreements worth hundreds of millions of dollars aren=E2=80=
+=99t usually scrapped over a single payment dispute, or so quickly.=C2=A0</=
+p>
+</blockquote>
+<p style=3D"margin: 16px 0;">No no no, this agreement=C2=A0<em>wasn=E2=80=
+=99t=C2=A0</em>scrapped over a single payment dispute! It was scrapped over=
+, the price went up! Pakistan held back the $10 million thinking that this =
+was a commercial contract that was part of a long-term relationship where e=
+veryone was trying to get the best result. But actually it was a trade, and=
+ the price had moved against Gunvor, and if you gave it an excuse to get ou=
+t of the trade it would. And it did.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33697175.257398/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzY5NzE3NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM5NTQ1NzMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC99915928" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33697175&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33954573&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33697175.257398/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzY5NzE3NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM5NTQ1NzMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD99915928" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33697175&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33954573&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Credit Suisse retention clawback</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">A week before Credit Suisse Goup AG collapsed =
+and was taken over by UBS Group AG, it was desperately trying to hold on to=
+ its employees: It was trying to=C2=A0<em>avoid=C2=A0</em>collapse, and if =
+the good employees all left it would definitely collapse, so it would do an=
+ything to keep them. It collapsed anyway.</p>
+<p style=3D"margin: 16px 0;">A=C2=A0week=C2=A0<em>after=C2=A0</em>Credit Su=
+isse collapsed and was taken over by UBS, it was, uh, pretty keen to get ri=
+d of all of the employees? Like UBS <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/33697175.257398/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjMtMDYtMjgvdWJzLWN1dHMtb3V0LWNyZWRpdC1zdWlzc2U_Y21waWQ9=
+QkJEMTIxNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR=
+0ZXImdXRtX3Rlcm09MjMxMjE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a=
+319a23cB291a6acf" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">  pretty immediately signaled</a> =E2=80=9Cwe are=
+ going to fire most of Credit Suisse,=E2=80=9D and then it <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMTkvY3JlZGl0LXN1aXNzZS1wcmVwY=
+XJlcy1mb3ItbW9yZS1qb2ItY3V0cy1maW5hbmNpYWwtbmV3cy1zYXlzP2NtcGlkPUJCRDEyMTQy=
+M19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9=
+0ZXJtPTIzMTIxNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBf6=
+0730a1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">  set to work doing that</a>. Losing tons of Credit Suisse =
+employees <em>now</em> wouldn=E2=80=99t=C2=A0sink the combined company, sin=
+ce there are so many UBS people left. If anyone wants to leave voluntarily,=
+ hey great that=E2=80=99s super, saves UBS some effort.</p>
+<p style=3D"margin: 16px 0;">The problem is that the pre-collapse Credit Su=
+isse gave employees gobs of money to keep them, and then it collapsed, and =
+they left, and the post-collapse Credit Suisse <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMTMvdWJzLXN0ZXBzLXVwLWJpZC10by1jbGF3LWJhY=
+2stY2FzaC1mcm9tLWNyZWRpdC1zdWlzc2UtZGVmZWN0b3JzP2NtcGlkPUJCRDEyMTQyM19NT05F=
+WVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI=
+zMTIxNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB49423787" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">  would rather have the money back</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">UBS Group AG has stepped up an effort to recou=
+p hundreds of millions in cash bonuses that Credit Suisse paid to retain de=
+almakers before the lender=E2=80=99s collapse.</p>
+<p style=3D"margin: 16px 0;">UBS has contacted hundreds of bankers and offe=
+red some multi-year payment plans amid efforts to claw back a chunk of the =
+1.2 billion Swiss francs ($1.38 billion) in restricted cash bonuses, known =
+internally as upfront cash awards, according to people familiar with the ma=
+tter and documents seen by Bloomberg News. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The bank awarded cash bonuses with strings att=
+ached to thousands of managing directors and directors in early 2022 as wel=
+l as this year in an effort to cushion the blow of a bonus pool shrinking a=
+mid the bank=E2=80=99s struggles. Then the bank saw a flood of departures.<=
+/p>
+<p style=3D"margin: 16px 0;">Deferred awards are typically given in restric=
+ted shares that the bank can just cancel. But to retain talent amid multipl=
+e restructurings and a slumping stock price, Credit Suisse handed out cash =
+with a clause requiring employees to repay some of the bonus if they left t=
+he firm within three years.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">If a bank says to an employee =E2=80=9Cwe=E2=
+=80=99ll give you $1 million to stay, but we=E2=80=99ll pay it out in three=
+ years,=E2=80=9D then the employee is taking the bank=E2=80=99s credit risk=
+.<a class=3D"footnote-index" href=3D"#footnote-2" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: none !important; background-color: tran=
+sparent !important; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0If the bank says to an employee =E2=80=9Cwe=E2=80=99ll give you $=
+1 million to stay, and we=E2=80=99ll pay it out now, but if you leave withi=
+n three years you have to pay us back,=E2=80=9D then the bank is taking the=
+ employee=E2=80=99s credit risk. By the end, at Credit Suisse, its employee=
+s were apparently a better bet than it was. But not a risk-free bet.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Shohei Ohtani</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Speaking of the credit risk of deferred comp. =
+This past weekend, extremely good baseball player Shohei Ohtani signed a 10=
+-year, $700 million contract to play for the Los Angeles Dodgers. This has =
+become a major item of financial news because (1) sports and (2) <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/33697175.257398/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9lbi9uZXdzL3RocC8yMDIzLTEyLTExL29odGFuaS1zLWRvZGdlcnM=
+tY29udHJhY3QtaGFzLTY4MC1taWxsaW9uLWRlZmVycmVkLWxvd2VyaW5nLXRheC12YWx1ZS10by=
+00Ni1taWxsaW9uLWFubnVhbGx5P2VtYmVkZGVkLWNoZWNrb3V0PXRydWUmc3JlZj0xa0pWTnFuV=
+Q/607f07ceef4b8524a319a23cB4deb3ae3" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">  the contract is weird</a>: O=
+htani will actually be paid $2 million a year for the 10 years that he play=
+s for the Dodgers, and will then get $68 million a year for the=C2=A0<em>fo=
+llowing=C2=A0</em>10 years, starting in 2034, when he does=C2=A0<em>not=C2=
+=A0</em>play for them.</p>
+<p style=3D"margin: 16px 0;">The reason for this, as far as I can tell, is =
+basically to free up more money=C2=A0<em>now=C2=A0</em>for the Dodgers to s=
+pend on other good players, so that they can be good and win the World Seri=
+es while Ohtani plays for them. After that, they can just write him huge ch=
+ecks for a decade and have less money to spend on good players, but he won=
+=E2=80=99t be there anymore, and probably the executives who signed him won=
+=E2=80=99t be there anymore (they=E2=80=99ll retire after winning all those=
+ World Series), so whatever. This is a well-known form of calculation in th=
+e financial world, so much so that it has its own initialism, IBGYBG, =E2=
+=80=9CI=E2=80=99ll be gone, you=E2=80=99ll be gone.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">A secondary reason is I guess that Ohtani will=
+ be earning $2 million a year while living in=C2=A0California and paying hi=
+gh taxes, and then he will be earning $68 million a year when he no longer =
+needs to live in California and can pay low taxes. (One reader suggested to=
+ me that California should try to tax him now on the <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMTItMDQvd2hvc2UtaW5jb21lLWRvLXlvdS1=
+wYXktdGF4ZXMtb24_Y21waWQ9QkJEMTIxNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbC=
+Z1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMjE0JnV0bV9jYW1wYWlnbj1tb25le=
+XN0dWZm/607f07ceef4b8524a319a23cB530db293" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  unrealized up-front va=
+lue of his contract</a>, heh.)=C2=A0</p>
+<p style=3D"margin: 16px 0;">A possible third reason is, you know, people s=
+eem to like having large headline contract values? Winning a World Series i=
+s nice, but winning the game of Getting Paid the Most also seems to be impo=
+rtant. Structuring the contract in this way allows the Dodgers to pay a lar=
+ge headline number at a discounted price, which probably makes everyone hap=
+py.</p>
+<p style=3D"margin: 16px 0;">Anyway there are various interesting things to=
+ say about this contract as a bet on inflation and <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cud3NqLmNvbS=
+9zcG9ydHMvYmFzZWJhbGwvc2hvaGVpLW9odGFuaXMtZG9kZ2Vycy1jb250cmFjdC1mZWF0dXJlc=
+y1qZXJvbWUtcG93ZWxsLWFzLW12cC0zMTllYzQ3NT9tb2Q9aXRwX3dzag/607f07ceef4b8524a=
+319a23cB31e4f780" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> interest rates</a> and taxes, but my colleague J=
+ohn Authers already said them, so I will refer you to <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMTItMTIvc2hvaGVpLW9odGFuaS1zLWNvbn=
+RyYWN0LXNob3VsZC1iZWNvbWUtYS1jYXNlLXN0dWR5LWZvci1tYmFzP2NtcGlkPUJCRDEyMTQyM=
+19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90=
+ZXJtPTIzMTIxNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBf7f=
+8f872" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">  his column</a>. But a number of readers have asked me abou=
+t the <em>credit risk</em>=C2=A0of the contract: Substantially all of Ohtan=
+i=E2=80=99s money comes in the form of payments from the Dodgers 10 to 20=
+=C2=A0years from now, and what if they default? What if they don=E2=80=99t =
+make enough money to pay him? What if he retires in 2034, they have no mone=
+y to spend on good players (because they are paying him) and they can=E2=80=
+=99t sell enough tickets to pay his deferred comp?</p>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t have a great answer. Major Lea=
+gue Baseball, and its players, have definitely thought about this. The curr=
+ent <a href=3D"https://link.mail.bloombergbusiness.com/click/33697175.25739=
+8/aHR0cHM6Ly93d3cubWxicGxheWVycy5jb20vY2Jh/607f07ceef4b8524a319a23cB1cdbab5=
+b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Collective Bargaining Agreement</a>=C2=A0has a provision (Art=
+icle XVI) covering deferred compensation, which provides that deferred comp=
+ensation =E2=80=9Cmust be fully funded by the Club, in an amount equal to t=
+he present value of the total deferred compensation amount,=E2=80=9D within=
+ two years after it was earned. In Ohtani=E2=80=99s case I think this means=
+ that the Dodgers have to fund roughly $46 million a year starting in 2026.=
+<a class=3D"footnote-index" href=3D"#footnote-3" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: none !important; background-color: trans=
+parent !important; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0=E2=80=9CFund=E2=80=9D means that the Dodgers have to set aside =
+=E2=80=9Cunencumbered assets comprising cash or cash equivalents and/or reg=
+istered and unrestricted readily marketable securities=E2=80=9D that are =
+=E2=80=9Cexclusively for the uses and purposes of satisfying the deferred c=
+ompensation obligation.=E2=80=9D So while he is playing, they will need to =
+put aside money to pay him, and I suppose if they don=E2=80=99t he can go f=
+ind a higher (or, lower but more creditworthy) bidder.<a class=3D"footnote-=
+index" href=3D"#footnote-4" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: none !important; background-color: transparent !important; di=
+splay: inline-block;">
+<span>[4]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">On the other hand the CBA does not require the=
+=C2=A0money to be held in escrow for him: It=E2=80=99s just money on the Do=
+dgers=E2=80=99 balance sheet, =E2=80=9Csubject to the claims of the Club=E2=
+=80=99s general creditors.=E2=80=9D Though perhaps his contract has stricte=
+r terms. Otherwise, Ohtani=E2=80=99s bet is something like =E2=80=9Cif the =
+Dodgers set aside the money for me, I=E2=80=99ll probably get it, because i=
+t=E2=80=99s not like baseball teams have a ton of liabilities=C2=A0<em>othe=
+r=C2=A0</em>than deferred comp, so even if they go bankrupt I=E2=80=99ll be=
+ the main claimant on that pot of money.=E2=80=9D Which is, you know, proba=
+bly fine? Not ironclad? Not necessarily a calculation that I would bet half=
+ a billion dollars on but I am, for a great many reasons, not a successful =
+professional athlete.</p>
+<p style=3D"margin: 16px 0;">How would you hedge this risk? You can=E2=80=
+=99t really short a baseball team, or buy credit default swaps. You could b=
+uy index credit default swaps to hedge against widespread credit defaults, =
+but that=E2=80=99s not really what you want: The bad state of the world her=
+e is not so much =E2=80=9Ca lot of malls go bankrupt=E2=80=9D as it is =E2=
+=80=9Cbaseball stops being popular in the US.=E2=80=9D If I were him I=E2=
+=80=99d buy, like, Manchester United stock as a hedge.</p>
+<p style=3D"margin: 16px 0;">Also the other obvious question here is, what =
+if Ohtani would like to live on more than $2 million a year, now? Sure it i=
+s nice to have a $680 million nest egg for retirement, but he is a famous s=
+uccessful baseball player,=C2=A0shouldn=E2=80=99t he be having more than $2=
+ million worth of fun now? I wonder if he can get a bank to lend him money =
+against that $680 million?<a class=3D"footnote-index" href=3D"#footnote-5" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: none !importan=
+t; background-color: transparent !important; display: inline-block;">
+<span>[5]</span>
+</a> Maybe the bank can figure out the credit risk.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oh Elon</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The situation is roughly:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">In April 2022, Elon Musk signed a bin=
+ding <a href=3D"https://link.mail.bloombergbusiness.com/click/33697175.2573=
+98/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTE5=
+MzEyNTIyMTIwNDYxL2QzMTA4NDNkZXgyMS5odG0/607f07ceef4b8524a319a23cB0b5439ac" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> merger agreement</a> to buy Twitter Inc. for $54.20 per share.</li=
+>=09<li style=3D"margin-bottom: 5px;">In May 2022, he changed his mind, dec=
+ided he was overpaying, and started tweeting some nonsense about how the de=
+al was =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/33=
+697175.257398/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwM=
+jItMDUtMTMvZWxvbi1tdXNrLXRyb2xscy10d2l0dGVyP2NtcGlkPUJCRDEyMTQyM19NT05FWVNU=
+VUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTI=
+xNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBfc0760df" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">temporarily on hold</a>=E2=80=9D because Twitter had too many =E2=80=9C=
+spam/fake accounts.=E2=80=9D In July, he <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjItMDctMDkvZWxvbi1zLW91dD9jbXBpZD1CQkQxMjE0MjNfTU9=
+ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT=
+0yMzEyMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBe8e8c097=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">  sent Twitter a notice</a> that he was terminating the deal.</li=
+>=09<li style=3D"margin-bottom: 5px;">This was all nonsense, as everyone kn=
+ew. =E2=80=9C=E2=80=98Temporarily on hold=E2=80=99=C2=A0is not a thing,=E2=
+=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/click/33697175.25=
+7398/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMT=
+MvZWxvbi1tdXNrLXRyb2xscy10d2l0dGVyP2NtcGlkPUJCRDEyMTQyM19NT05FWVNUVUZGJnV0b=
+V9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTIxNCZ1dG1f=
+Y2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cCfc0760df" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> I wr=
+ote</a>. =E2=80=9CI=C2=A0think it is important to be clear here that <em>Mu=
+sk is lying</em>,=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/33697175.257398/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydG=
+ljbGVzLzIwMjItMDUtMTcvZWxvbi1tdXNrLWRvZXMtbm90LWNhcmUtYWJvdXQtc3BhbS1ib3RzP=
+2NtcGlkPUJCRDEyMTQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1u=
+ZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTIxNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ce=
+ef4b8524a319a23cB81002e61" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> I wrote</a>, about the spam bots. =E2=
+=80=9CIn our actual universe none of this is true,=E2=80=9D <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDctMTgvZWxvbi13YW50cy10by1m=
+aWdodC10aGUtYm90cz9jbXBpZD1CQkQxMjE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWl=
+sJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEyMTQmdXRtX2NhbXBhaWduPW1vbm=
+V5c3R1ZmY/607f07ceef4b8524a319a23cBbe98627a" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> I wrote</a>, about hi=
+s whole theory.=C2=A0Just absolute nonsense.</li>=09<li style=3D"margin-bot=
+tom: 5px;">Twitter sued Musk to enforce the deal, there was a lot of bluste=
+ring, but eventually=C2=A0Musk=E2=80=99s lawyers convinced him it would be =
+embarrassing to argue this nonsense in court=C2=A0and he gave up, <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33697175.257398/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTAtMjgvbXVzay1jb21wbGV0=
+ZXMtNDQtYmlsbGlvbi10d2l0dGVyLWRlYWwtZW5kaW5nLW1vbnRocy1vZi1lbm1pdHk_Y21waWQ=
+9QkJEMTIxNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZX=
+R0ZXImdXRtX3Rlcm09MjMxMjE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524=
+a319a23cB0f329d43" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> buying Twitter in October 2022</a>=C2=A0for the=
+ original price of $54.20 per share. Then he renamed it X Corp. and there h=
+as been much additional nonsense that I will not get into here.</li>
+</ol>
+<p style=3D"margin: 16px 0;">So here=E2=80=99s a question: In May 2022, whe=
+n Elon Musk started tweeting=C2=A0nonsense about how he was canceling the d=
+eal for spam bots, was that=C2=A0<em>securities fraud? </em>There are argum=
+ents both ways. On the one hand:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Everything is securities fraud, I keep=
+ saying around here.</li>=09<li style=3D"margin-bottom: 5px;">He was tweeti=
+ng false statements about a public company.</li>=09<li style=3D"margin-bott=
+om: 5px;">The stock did go down. Twitter=E2=80=99s stock fell 9.7%, from $4=
+5.08 to $40.72, the day Musk tweeted =E2=80=9Ctemporarily on hold.=E2=80=9D=
+ It closed as low ast $32.65 in July.=C2=A0</li>=09<li style=3D"margin-bott=
+om: 5px;">If you bought the stock in the low $50s in early May, because Mus=
+k had signed a deal to buy it for $54.20, and then sold it in the low $30s =
+in July, because Musk was saying that he would get out of the deal, you rea=
+lly were=C2=A0<em>deceived=C2=A0</em>(he was not getting out of the deal), =
+and you did lose money.</li>
+</ul>
+<p style=3D"margin: 16px 0;">On the other hand, it=E2=80=99s a weird form o=
+f securities fraud. At the time he did these tweets, Musk really did have a=
+ binding contract to buy every share of Twitter at $54.20 per share, and he=
+ ended up doing that. His false tweets didn=E2=80=99t make him any money. I=
+t=E2=80=99s not like he was short Twitter and profited when its price crash=
+ed. He was long Twitter and this all ended up just being a costly nuisance =
+for him.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Still, you could argue that he had an economic=
+ motive to tank the stock. The motive is that he was=C2=A0<em>trying to ren=
+egotiate the deal:=C2=A0</em>He knew he was overpaying for Twitter, and he =
+was hoping that, by threatening to walk away from the deal, he could convin=
+ce Twitter=E2=80=99s board to agree to <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcG=
+luaW9uL2FydGljbGVzLzIwMjItMDctMTEvdGhlLXByaWNlLW9mLW5vdC1idXlpbmctdHdpdHRlc=
+j9jbXBpZD1CQkQxMjE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9=
+bmV3c2xldHRlciZ1dG1fdGVybT0yMzEyMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07c=
+eef4b8524a319a23cBd23fdc4d" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> sell to him at a lower price</a>. The =
+noisier he was about walking away, the more that threat would feel real. An=
+d=C2=A0<em>the=C2=A0more the price fell</em>, the scarier the threat would =
+be: Twitter=E2=80=99s board could look at the stock at $32.65 per share and=
+ say =E2=80=9C(1) the market thinks he might get out of this and (2) if he =
+does get out of it the stock will really tank, so (3) it would be a good id=
+ea for=C2=A0us to sign a new ironclad deal at $45.=E2=80=9D And then he=E2=
+=80=99d save some money.=C2=A0<em>By manipulating the stock</em>, he could =
+save himself billions of dollars in a renegotiated deal.</p>
+<p style=3D"margin: 16px 0;">Anyway some Twitter shareholders did sue Musk,=
+ claiming that he committed securities fraud =E2=80=9Cby making multiple mi=
+sstatements to artificially depress the price of Twitter stock and to press=
+ure Twitter to lower the price Defendant would have to pay to acquire it.=
+=E2=80=9D He filed a motion to dismiss the lawsuit, and on Monday a federal=
+ judge partly denied that motion, letting the lawsuit go forward. Here is <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/33697175.257398/aHR=
+0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JsTHRZej=
+Bmc3lKVS92MA/607f07ceef4b8524a319a23cB090ce79a" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> the judge=E2=80=99=
+s opinion</a>, finding=C2=A0that the shareholders have made a case that sev=
+eral of Musk=E2=80=99s tweets were false or misleading, that he =E2=80=9C=
+=E2=80=98had the motive and opportunity to commit the fraud=E2=80=99=C2=A0t=
+o get out of the Merger Agreement because of the large price decline of Tes=
+la stock and the realization that =E2=80=98he had greatly overpaid for Twit=
+ter by agreeing to buy it shortly before a significant market decline,=E2=
+=80=99=E2=80=9D and that the shareholders lost money due to his fraud by se=
+lling at depressed prices during the nonsense.</p>
+<p style=3D"margin: 16px 0;">I guess that=E2=80=99s all reasonable. The jud=
+ge does find that some of Musk=E2=80=99s statements aren=E2=80=99t fraud. F=
+or instance, Musk=E2=80=99s lawyers sent various letters to Twitter termina=
+ting the deal; those letters were also mostly nonsense, and the shareholder=
+s argue that they were fraud. The judge disagrees:</p>
+<blockquote><p style=3D"margin: 16px 0;">Plaintiffs do not adequately speci=
+fy which statements within the various letters are misleading or state the =
+reason or reasons why they are. =E2=80=A6=C2=A0Plaintiffs also generally al=
+lege that Defendant=E2=80=99s motive in sending letters requesting data was=
+ to create uncertainty and the requests were a =E2=80=9Cruse.=E2=80=9D =E2=
+=80=A6 But, again, Plaintiffs do not point to an objectively verifiable aff=
+irmative statement or misleading omission. =E2=80=A6=C2=A0The Court is not =
+convinced that Defendant=E2=80=99s entry into a legal dispute with Twitter,=
+ and statements made in support thereof, =E2=80=9Ccreate an impression of a=
+ state of affairs that differs in a material way from the one that actually=
+ exists.=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">This also seems right to me? It would be odd t=
+o find that it=E2=80=99s=C2=A0<em>fraud=C2=A0</em>to fight Twitter in court=
+. Musk fought Twitter in court, and the stakes were that if he won he would=
+n=E2=80=99t have to buy Twitter and if he lost he would. He lost. Along the=
+ way, Twitter stockholders made bets on whether he=E2=80=99d win or lose: T=
+hey sold stock thinking he=E2=80=99d win, or bought it thinking he=E2=80=99=
+d lose. If they were wrong =E2=80=94=C2=A0if they overestimated his chances=
+ of winning, because of the arguments that he made, which sounded good but =
+were not =E2=80=94=C2=A0then they lost money. But it seems odd for them to=
+=C2=A0<em>sue=C2=A0</em>him for making those arguments. He was doing the be=
+st he could to win in court; it=E2=80=99s not his problem if people believe=
+d him.</p>
+<p style=3D"margin: 16px 0;">Still there is a tension here. If Musk files a=
+ legal document saying =E2=80=9Ctoo many bots,=E2=80=9D that=E2=80=99s not =
+securities fraud; if he sends a tweet saying =E2=80=9Ctoo many bots,=E2=80=
+=9D that is? Musk does most of his litigation on Twitter, so it is strange =
+to draw this distinction. Possibly the answer is =E2=80=9Cdon=E2=80=99t do =
+your litigation on Twitter.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Also I should say that the judge goes through =
+several of Musk=E2=80=99s bad tweets, concludes that some of them are plaus=
+ibly false and misleading and thus can support a lawsuit, but also conclude=
+s that some are not. For instance, the May 13, 2022, =E2=80=9Ctemporarily o=
+n hold=E2=80=9D tweet can be securities fraud. But on May 16, 2022, Twitter=
+=E2=80=99s then chief executive officer, Parag Agrawal, tweeted a measured =
+and sensible explanation of how Twitter estimates bot accounts, and =E2=80=
+=9CDefendant responded with a tweet of a poop emoji.=E2=80=9D That poop emo=
+ji has already <a href=3D"https://link.mail.bloombergbusiness.com/click/336=
+97175.257398/aHR0cHM6Ly90d2l0dGVyLmNvbS9tYXR0X2xldmluZS9zdGF0dXMvMTU0Njk3MD=
+kwNTU2OTUyNTc2NQ/607f07ceef4b8524a319a23cB17a9f33e" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> had a long leg=
+al career</a>=C2=A0=E2=80=94=C2=A0it was in Twitter=E2=80=99s complaint to =
+force Musk to close the deal =E2=80=94=C2=A0and it=E2=80=99s in this case t=
+oo, but apparently it is not securities fraud. The <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDctMzEvdGhlLW1vb24tZW1vamktaXMtc2Vjd=
+XJpdGllcy1mcmF1ZD9jbXBpZD1CQkQxMjE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEyMTQmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBdd293a04" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> moon emoji is securiti=
+es fraud</a>, the poop emoji is not, modern finance is amazing.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Flow</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Arguably Adam Neumann has two valuable and lar=
+gely unrelated=C2=A0skills:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">He=E2=80=99s a pretty good real estat=
+e guy, in the sense that he is good at acquiring buildings, making them nic=
+e places to live or work in, and finding tenants who will pay to rent them.=
+</li>=09<li style=3D"margin-bottom: 5px;">He has some sort of Jedi-mind-tri=
+ck power where he can walk into a room full of venture capitalists, tell th=
+em about his real estate company, and have them say =E2=80=9Cyou are a tech=
+ visionary, take all of our money.=E2=80=9D</li>
+</ol>
+<p style=3D"margin: 16px 0;">Like there are plenty of cases of people who p=
+itch=C2=A0<em>bad tech company ideas=C2=A0</em>to venture capitalists, and =
+get funded, and blow up. But Neumann=E2=80=99s schtick seems to be that he =
+pitches=C2=A0<em>good real estate companies=C2=A0</em>to venture capitalist=
+s, and gets lavishly overfunded, and =E2=80=A6=C2=A0well, <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMTAtMjMvaG93LWRvLXlvdS1saWtlLX=
+dlLW5vdz9jbXBpZD1CQkQxMjE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb=
+3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEyMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/=
+607f07ceef4b8524a319a23cB17e9d57c" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">  he blew up once</a>, but who k=
+nows.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Anyway here is a funny <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cuYnVzaW5lc=
+3NpbnNpZGVyLmNvbS9hZGFtLW5ldW1hbm4tZmxvdy1hcGFydG1lbnQtc3RhcnR1cC10b3VyLWZs=
+b3JpZGEtd2V3b3JrLTIwMjMtMTI/607f07ceef4b8524a319a23cB45558c54" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Bus=
+iness Insider article</a> about Flow, Neumann=E2=80=99s =E2=80=9Csecretive =
+billion-dollar startup to turn apartment living into a utopian fantasy.=E2=
+=80=9D The basic points of the article are=C2=A0(1) Flow runs a nice apartm=
+ent building:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Since Neumann took over, maintenance has clean=
+ed common areas more frequently, a poolside restaurant has reopened, more s=
+ecurity has been added, and the gym has been overhauled with new equipment =
+and classes. Instead of a lone uniformed doorman, at Society Las Olas you'r=
+e greeted by five bright, friendly faces manning the so-called Resident Exp=
+erience lounge. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">In most buildings, tenants receive a take-it-o=
+r-leave-it notice at a legally mandated date before their lease is up infor=
+ming them of their new rate. Flow's managers find that cold and impersonal.=
+ Its staffers want a more customized approach, like inviting tenants to cof=
+fee months in advance to discuss areas the building could improve on.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">And (2) there is a lot of blather about being =
+a tech company that doesn=E2=80=99t seem all that real, but that induces ve=
+nture capitalists to write large checks:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Neumann started Flow in the summer of 2022 aft=
+er landing a $350 million check from Andreessen Horowitz, better known as A=
+16z, one of Silicon Valley's most prestigious venture firms. It was the sin=
+gle largest investment in the firm's history, instantly making Flow worth a=
+ billion dollars on paper. ...</p>
+<p style=3D"margin: 16px 0;">A16z's funding announcement praised Neumann as=
+ a "visionary leader" and was full of soaring rhetoric about solving Americ=
+a's housing crisis and removing the soullessness of apartments. Absent were=
+ specifics of how Flow would actually accomplish these lofty goals. =E2=80=
+=A6</p>
+<p style=3D"margin: 16px 0;">Based on the early accounts of Flow, you might=
+ have expected a radically new way of living. There was talk of crypto wall=
+ets and a rent-to-own model through which residents could build equity.</p>
+<p style=3D"margin: 16px 0;">Neither is happening anytime soon.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Love it! Arguably the basic business model=C2=
+=A0of WeWork was that Adam Neumann took <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cud3NqLmNvbS9saXZlY292Z=
+XJhZ2Uvc3RvY2stbWFya2V0LXRvZGF5LWRvdy1qb25lcy0xMS0wOC0yMDIzL2NhcmQvd2V3b3Jr=
+LWlzLWJhbmtydXB0LWFuZC1zb2Z0YmFuay1zLWxvc3Nlcy1hcmUtMTQtYmlsbGlvbi1hbmQtY29=
+1bnRpbmctMHFpN3BwenQ1dHhia3RxU2diaWE/607f07ceef4b8524a319a23cBfac47ee0" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> $14 billion</a> of SoftBank Group Corp.=E2=80=99s money, gave $13 bil=
+lion of it to companies to subsidize their office rent and happy hours, and=
+ kept $1 billion of it for himself. Not bad! But if the basic business mode=
+l of Flow is that Adam Neumann will take hundreds of millions of dollars of=
+ Andreessen Horowitz=E2=80=99s money, give most of it to twentysomethings t=
+o subsidize their apartment rents and happy hours, and keep a few buildings=
+ for himself, then how could anyone object to that? I just hope he=E2=80=99=
+ll scale it up rapidly and go back to SoftBank for more money.=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Elsewhere in selling real estate visions to tech investors</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Does Neumann overcomplicate things? Is it simp=
+ler to just go to tech investors and say =E2=80=9Chello, I am building a ne=
+w city where everyone will be either a tech founder or a model, and nobody =
+will be ugly or poor, doesn=E2=80=99t that sound nice,=C2=A0give me some mo=
+ney=E2=80=9D? Here is a New York Times <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMy=
+8xMi8xMi9zdHlsZS9wcmF4aXMtY2l0eS1kcnlkZW4tYnJvd24uaHRtbA/607f07ceef4b8524a3=
+19a23cB3bd4ef24" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> story about a guy named Dryden Brown</a>, who has=
+ raised money from investors including Paradigm and Sam Altman for =E2=80=
+=9Chis company, Praxis, which has an ambitious goal: to create a new city o=
+n the Mediterranean,=E2=80=9D with stuff like this:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">An internal Praxis branding guide =E2=80=A6=C2=
+=A0denounces =E2=80=9Cenemies of vitality,=E2=80=9D who =E2=80=9Creject wha=
+t they consider the optional =E2=80=98European beauty standards.=E2=80=9D I=
+t goes on to extol =E2=80=9Ctraditional, European/Western beauty standards =
+on which the civilized world, at its best points, has always found success.=
+=E2=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">According to several former Praxis employees w=
+ho spoke on the condition of anonymity because they signed nondisclosure ag=
+reements, Mr. Brown had discussed wanting to attract tech talent to his cit=
+y by introducing founders to =E2=80=9Chot girls.=E2=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Internal Praxis documents outline three =E2=80=
+=9Cpersona groups=E2=80=9D who will populate the Praxis city. They are =E2=
+=80=9Cwarriors,=E2=80=9D who are =E2=80=9Cmuscular=E2=80=9D and =E2=80=9Ccl=
+ean=E2=80=9D and protect society from threats; =E2=80=9Cpriests,=E2=80=9D w=
+ho are =E2=80=9Cvery thin,=E2=80=9D and =E2=80=9Cdefine the values and beli=
+efs of society=E2=80=9D; and =E2=80=9Cmerchants,=E2=80=9D who are =E2=80=9C=
+portly=E2=80=9D and =E2=80=9Cbearded,=E2=80=9D and include venture capitali=
+sts and cryptocurrency professionals.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CExposed to the classics by his tutor,=
+ Mr. Brown read Ayn Rand and the Austrian economists in high school=E2=80=
+=9D is one of the nicer things that the article has to say about him. Marti=
+n Shkreli is apparently a member.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">World Central Banks Signal <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cud3NqL=
+mNvbS9lY29ub215L2NlbnRyYWwtYmFua2luZy9lY2ItYm9lLXJhdGUtZGVjaXNpb24tZGVjZW1i=
+ZXItYjY5NjI1ZmI_bW9kPWhwX2xlYWRfcG9zMQ/607f07ceef4b8524a319a23cBec7dc4f3" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> Victory Over Inflation</a> Is in Sight. Wall Street Traders Go All-=
+In on <a href=3D"https://link.mail.bloombergbusiness.com/click/33697175.257=
+398/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMTQvd2F=
+sbC1zdHJlZXQtdHJhZGVycy1nby1hbGwtaW4tb24tZ3JlYXQtbW9uZXRhcnktcGl2b3Qtb2YtMj=
+AyND9jbXBpZD1CQkQxMjE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY=
+2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEyMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f=
+07ceef4b8524a319a23cBe40b3946" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  Great Monetary Pivot of 2024</a>. =
+=E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/33697175.=
+257398/aHR0cHM6Ly93d3cud3NqLmNvbS9lY29ub215L2dsb2JhbC9ob3ctYS1wbGFuLXRvLWVu=
+ZC1wb29yLWNvdW50cmllcy1kZWJ0LWNyaXNlcy1jcmVhdGVkLWEtbmV3LW9uZS0xMDJjYTU2ZT9=
+tb2Q9aXRwX3dzag/607f07ceef4b8524a319a23cB7adc68ab" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> Local-currency =
+debt</a> is now the biggest drain on many developing countries=E2=80=99 bal=
+ance sheets.=E2=80=9D Hedge Funds to Get New SEC Mandate to <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMTMvaGVkZ2UtZnVuZHMtdG8tZ2V0=
+LW5ldy1zZWMtbWFuZGF0ZS10by1jZW50cmFsbHktY2xlYXItdXMtdHJlYXN1cmllcy10cmFkZXM=
+_Y21waWQ9QkJEMTIxNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW=
+5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMjE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ce=
+ef4b8524a319a23cBd1a4e5cf" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> Centrally Clear US Treasuries Trades</a=
+>.=C2=A0The =E2=80=98Moneyball=E2=80=99 Firm Behind Your <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cud3Nq=
+LmNvbS9idXNpbmVzcy90aGUtbW9uZXliYWxsLWZpcm0tYmVoaW5kLXlvdXItY2hpY2tlbi0yMmQ=
+zMDFiND9tb2Q9aXRwX3dzag/607f07ceef4b8524a319a23cB48221f17" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> Chicken=
+</a>. Wall Street Makes <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/33697175.257398/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzL=
+zIwMjMtMTItMTQvd2FsbC1zdHJlZXQtbWFrZXMtemVyby1wcm9ncmVzcy1pbi1lbmVyZ3ktZmlu=
+YW5jZS10cmFuc2l0aW9uP2NtcGlkPUJCRDEyMTQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1=
+haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTIxNCZ1dG1fY2FtcGFpZ249bW=
+9uZXlzdHVmZg/607f07ceef4b8524a319a23cB7b144048" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">  Zero Progress</a>=
+ in Energy Finance Transition. Billionaire Jimmy Haslam Is Being <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/33697175.257398/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMTMvYmlsbGlvbmFpcmUtaGF=
+zbGFtLXVuZGVyLWludmVzdGlnYXRpb24tb3Zlci1waWxvdC1wYXltZW50cy1sYXd5ZXItc2F5cz=
+9jbXBpZD1CQkQxMjE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9b=
+mV3c2xldHRlciZ1dG1fdGVybT0yMzEyMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ce=
+ef4b8524a319a23cBb32ab1f2" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">  Investigated Over Pilot Payments</a>, =
+Lawyer Says. Amazon <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/33697175.257398/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNjNjZGM0OTItODM1ZS00N=
+2Q2LWE1OGUtZjcxMWU3Mzc2ODli/607f07ceef4b8524a319a23cB249a356a" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> win=
+s in tax battle</a> with European Commission. BP Docks Former CEO Bernard L=
+ooney as Much as $40 Million Over =E2=80=98=C2=A0<a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cud3NqLmNvbS9i=
+dXNpbmVzcy9lbmVyZ3ktb2lsL2JwLWRvY2tzLWZvcm1lci1jZW8tYmVybmFyZC1sb29uZXktcm9=
+1Z2hseS00MC1taWxsaW9uLTgwOGQ1OGJmP21vZD1pdHBfd3Nq/607f07ceef4b8524a319a23cB=
+83136903" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">Serious Misconduct</a>.=E2=80=99=C2=A0Credit Suisse Disba=
+nds <a href=3D"https://link.mail.bloombergbusiness.com/click/33697175.25739=
+8/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMTQvY3JlZ=
+Gl0LXN1aXNzZS1kaXNiYW5kcy1jaGluYS1vbnNob3JlLXdlYWx0aC11bml0LWRvemVucy1kZXBh=
+cnQ_Y21waWQ9QkJEMTIxNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmN=
+lPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMjE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f0=
+7ceef4b8524a319a23cB750b22f7" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">  China Onshore Wealth Unit</a>, Doze=
+ns Depart. The Economics of <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/33697175.257398/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9ncmFwaGljcy8yM=
+DIzLXVzLWhpZ2hlci1lZHVjYXRpb24tYW5hbHlzaXMvP2NtcGlkPUJCRDEyMTQyM19NT05FWVNU=
+VUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTI=
+xNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB3bfc4c7d" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">  Small US Colleges</a> Are Faltering. Elon Musk Is Planning a <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33697175.257398/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTItMTMvbXVzay1wbGFubmlu=
+Zy1uZXctdW5pdmVyc2l0eS1pbi1hdXN0aW4td2l0aC0xMDAtbWlsbGlvbi1naWZ0P2NtcGlkPUJ=
+CRDEyMTQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dG=
+VyJnV0bV90ZXJtPTIzMTIxNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a3=
+19a23cB7613ba9c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">  New University</a> in Austin. =E2=80=9CFor three=
+ years, as the denizens of the <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/33697175.257398/aHR0cHM6Ly9zbGF0ZS5jb20vY3VsdHVyZS8yMDIzLzEyL2=
+1lbHJvc2UtcGxhY2UtYWJvcnRpb24tYXJ0LWdhbGEtY29tbWl0dGVlLW1lbC1jaGluLmh0bWw/6=
+07f07ceef4b8524a319a23cB1cd50bef" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> Melrose Place</a> apartment comp=
+lex loved, lost, and betrayed one another, the GALA Committee smuggled subv=
+ersive leftist art onto the set, experimenting with the relationship betwee=
+n art, artist, and spectator.=E2=80=9D=C2=A0How to <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cud3NqLmNvbS=
+9saWZlc3R5bGUvY2FyZWVycy9ob3ctdG8tYnJhZy1hYm91dC13b3JrLWV2ZW4taWYtaXRzLW5vd=
+C1nb2luZy1ncmVhdC00ODU0ZDJiNz9tb2Q9aHBfZmVhdHN0X3BvczQ/607f07ceef4b8524a319=
+a23cB6257d673" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> Brag About Work</a>, Even if It=E2=80=99s Not Going=
+ Great.=C2=A0Blackstone Channels Taylor Swift in <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/33697175.257398/aHR0cHM6Ly93d3cueW91dHViZS5j=
+b20vd2F0Y2g_dj11eE55VGE1ZVpMWQ/607f07ceef4b8524a319a23cBe869cd1f" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ New Holiday Video</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33697175.257398/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB591c27e2" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33697175.257398/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBf969df69" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] This is a little loose. Really you pay the=
+m the spot price minus the contract price ($400, in this toy example), whic=
+h they then use to buy the commodity at the current price ($500), using $10=
+0 of their own money, so that their cost is effectively the contract price.=
+ </p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] If it says =E2=80=9Cwe=E2=80=99ll give you=
+ $1 million to stay, in stock at today=E2=80=99s price, and we=E2=80=99ll d=
+eliver it in three years,=E2=80=9D then the employee is taking the bank=E2=
+=80=99s equity risk, which is, you know, riskier.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] That is, in 2024 Ohtani will earn $68 mill=
+ion payable in 2034, and they=E2=80=99ll have to fund that in 2026. (And in=
+ 2025, he=E2=80=99ll earn another $68 million payable in 2034, funded in 20=
+27, etc.) The funding obligation is the present value of the deferred comp;=
+ the discount rate specified in the contract is 5% per year, though it can =
+go up if rates are higher. So 68/(1.05)^8 =3D 46. </p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] I have no idea what the actual enforcement=
+ mechanism is here, or if he can get out if they don't fund it, or if he ca=
+n sue to force them to fund it, etc.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] See, this is why my reader thinks Californ=
+ia should tax the unrealized amount: It arguably creates spending power now=
+.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33697175.257398/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB60df3ad3" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33697175.257398/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBf04c2084" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33697175.257398/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBbb53b943" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33697175.257398/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB4254f056" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/33697175.257398/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBebf03e6c" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/33697175.2573=
+98/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB601dce85" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/33697175.257398/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC8caa48c9" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/33697175.257398/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBf759846a" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/33697175.257398/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB8cc1f691" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33697175.257398/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBf=
+d85dcd6" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33697175.257398/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB9=
+a228479" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ck28wn.5ily/7832deaa.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_25293513_167305230.1702583989800--
+

@@ -1,0 +1,1933 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a0c:eb12:0:b0:67a:8dc3:b581 with SMTP id j18csp330662qvp;
+        Thu, 30 Nov 2023 11:19:27 -0800 (PST)
+X-Received: by 2002:adf:a49a:0:b0:333:2fd2:4ae8 with SMTP id g26-20020adfa49a000000b003332fd24ae8mr16971wrb.100.1701371403691;
+        Thu, 30 Nov 2023 11:10:03 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1701371403; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=wrAr+QPdIQ/cNDAmjXDf6wnXVXy8woXxKpgr7UPwIDBgzO1lnudT4ex0lnsZYBVy/x
+         co6S9qraDB75UZN5A1UrGjiT+dLcbJvJvst+GEbE+ZMvw2OqrR29tG0wvQaxOLeFBXDC
+         SzPM7w7RC7wFzVcd+Vi3kXfG9laa9eUySSQiYsCuko/vPPeFSfV7UlEy090jsIP8qy9U
+         pVPgP3JqDlyUt4c46wRMK0Z1TLNWm6MPxNUIINCoGJXzALmAFYh+rHzyyt2s2hbFjLDc
+         WNgFFKsWz02OxxSS1oPQi4cTQgQWmObnndh1lKbjqRKWIanEJAbYk8iOn8wUOkyaZwTk
+         n3Fg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=w/Ereo91JNtpgmQAJF+9PrNPvVIZr+ZcEF4GVoFaxSU=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=DsQTAh1LmTT5wOzMNVvw2oWZuI/mCEpGIpUWXhUSJsAgLyBgy2TRjvjI2EDWGx6QfU
+         heUqO4Xy+OVQNagTbMpjk2Hd84lOmHj7jHMRFULL3PcAGDZ2eIHeWp1QellyTQdT1D9Y
+         CLTmbTnTGohTdqPmj1VHfvOov8IGIZIrwO6iuTo+0JkiSw2qVmaoDvLuUTgZU/Dl6v0q
+         0WaGvTS1PMEW5md6myCDhl7omcBbrTILtWrRua01aPz0m5vW2EC/U1WN/FhwI9SSojm/
+         tnslNBVBtQx2uC5bYS7JVHgmUvzmwa+hficdwHxN3fv+WZYBGH4IeH0IFbAI2TAh6qQH
+         aK4Q==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=mr8cuGgs;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id n16-20020a5d4010000000b00332ee5efc3bsor572548wrp.8.2023.11.30.11.10.03
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 30 Nov 2023 11:10:03 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=mr8cuGgs;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1701371403; x=1701976203;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=w/Ereo91JNtpgmQAJF+9PrNPvVIZr+ZcEF4GVoFaxSU=;
+        b=mP0tcvm/sp2cY9gDJxJpzT4+SBgmBPxQbh+rnrmfTHNkrlof9hcKEaopWAqns7773Z
+         rm5G6Dfe15Tprv2pv/KhmX9HJiJcHbi8ttWXTsgIYDlm+uDYAF2lhJmKIzIF+9F6nE7U
+         mOzKpM5pvOJUWGGzu2Uft/+u1sOcGbXGF+59fRapMs+9oneLpZpZVUmVedvodeZ+1J82
+         5Ei6O1a+bTd+B9JHt7SFPscZ7NqGR+TBMz7CD2r3tP/OvePtbW2gQox4VwhcK8Ui09pm
+         UZAOa08rzyHz1cs7QBgEpt6rX7F0f3otU3HvySx8da/OgjuI6ZBNnGTn6tgOLQMKJfFE
+         YVLA==
+X-Gm-Message-State: AOJu0YwqDrufkv8MYG4s0s73I8nylQFbxnYQBO+gs8NPIuSUvCnkOPQf
+	YnW0QbwFBKH6CdXNclw9puCt/lDwxfgEbH7BMLe9OaOTyDrpy4p6gw==
+X-Received: by 2002:adf:f9d1:0:b0:333:2fd2:4aea with SMTP id w17-20020adff9d1000000b003332fd24aeamr13973wrr.102.1701371400769;
+        Thu, 30 Nov 2023 11:10:00 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:638c:0:b0:332:e438:de51 with SMTP id p12csp1017144wru;
+        Thu, 30 Nov 2023 11:09:57 -0800 (PST)
+X-Received: by 2002:a05:6a20:a10b:b0:187:d808:f082 with SMTP id q11-20020a056a20a10b00b00187d808f082mr27804917pzk.48.1701371396984;
+        Thu, 30 Nov 2023 11:09:56 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1701371396; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=krz7eGV8iMeGLwTCaGaGyDbcK0JbhzDxFrwMN3ItfEGyTS1mDK+oJWzuubYzuUhTNn
+         jRez/SrLuvSiDCVCpyZGOd/oUBlwpa81MixwZLJK3Ad4gXKB4VKc/XID+pAsiJcm+orU
+         fG0XWQ6px/ZOiwLd7TRJEbogcGdfmnRxqU0EojfkMv0MxALZeqpLaJTm3K7LhyE68Vb4
+         S4HyMHuQ+hadOBuvHt+cn/YIyDqLCu1JB6jJPvvjGuqb1vIdRpdXrE4pUBOtMKkHse+X
+         CnWv1wwULqGwyiavAbHKNkQ/8aTrfiS/DVvomGHEAD0g5ddD7o7sGt5kCSOzSlWzM0TL
+         cNjw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=w/Ereo91JNtpgmQAJF+9PrNPvVIZr+ZcEF4GVoFaxSU=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=HWaRrvQ09jQzUjctulIRhB7QYjz1uCS2qR7btu+CGWVkDLzOMzNAyObtXA+1LSl/92
+         wxXW08LHCdIYlAnR94jGOjQJVwlHCUZpdjfYVEKygBS9J+v2TkAB+QPvSzmh2UwZ9qIf
+         TJlMi2TVX/TMxz7jzk06LhHwq04piQ0zW2/l+OojFZ7PEsn3DUAky9xnC8TdBaY3/U8X
+         fH5ELLtBPg6RhwMbZpHQGuCMi7xlrsgYUXgHuRcQL+5dB88iJicNNPV847jI8w5/brpU
+         PHClNN2Ggt+tgMhfssG3Ky5Ms5YNxPQrEymFYaSqNMYG9zCDUMzq4DytoLSwxLKdpeQh
+         e+/g==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=mr8cuGgs;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20231130140955.33537957.286427@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20231130140955.33537957.286427@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231130140955.33537957.286427@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id w25-20020aa78599000000b006c145a16704sor1281936pfn.0.2023.11.30.11.09.56
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 30 Nov 2023 11:09:56 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20231130140955.33537957.286427@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IFs2WXFb4COc7emZ2EselB3DPj+RDxMc+3OWucmm5+/fzmfXzLJcoC4kV9lguucfk4JOHitpUlA4ueAmmHy6X3mBoGoFQ8=
+X-Received: by 2002:a05:6a00:348a:b0:6cd:d47e:e97a with SMTP id cp10-20020a056a00348a00b006cdd47ee97amr6203349pfb.24.1701371396583;
+        Thu, 30 Nov 2023 11:09:56 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1701371396; cv=none;
+        d=google.com; s=arc-20160816;
+        b=xcbYUbfi6J1mqEv/PmrDaeqgQr/6n7abadAcpNZu+bi7IzxgIvWR+gKS3KKwrJoOM9
+         mG/o7aU05x4rzl02t6DfyWQLwaxZx2x/DwkvvOF3GdShg2K60aXA2ynvPtnX7suCJ4by
+         2zg8CHEChpeAt+UUtJ9dYOBi4kdoEyPwSt2IqWEOVK6p7hoaoUPauDvGbR21HXXrd4CX
+         +/OLo0UbAEYIJeubbuRL3+L+ElrT9pKAus3RsUMSE3ix2zU4pZra+ONaE+nVhNZaDj7C
+         a18UA6O+9fHjtZKyqqVZqj75ZxRvCHM5lulJjSg4aJ4BhJtYWlX1Bv4LgU4JwliUP7xq
+         HSvA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=w/Ereo91JNtpgmQAJF+9PrNPvVIZr+ZcEF4GVoFaxSU=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=X/RFt5qfV++LTxDV4p1Uwq0dQOblqYJuf3NYHALU3x8wR6AuEDr8xW+JtPkxK5oGOp
+         qlBs3qCKMiU7SwBgpLjBKDSVZdWwO1PIfkxmDZL9kGU4il/R7Kw5F1OSM/G0JNPNAghM
+         FNK0/p5bWwB9w3J1owTOoRLVcOnqe4adfDMYX2mPwnl9BF6pkiP+iyFNxZjrKBjKWcNW
+         hlSj5JH1j8R4zEOH8Ykz0mUBx78bFoeDl1r6DRB4fnwHbdX38LtKHzqqRXmlRjClWdMR
+         DEvJYn099myWAOAVa+/U6lDD6Ng8FOezvEBXyx+nELH+8viBaLPmdwFtbGqKMW0R8XdQ
+         +JcQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=mr8cuGgs;
+       spf=pass (google.com: domain of delivery_20231130140955.33537957.286427@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20231130140955.33537957.286427@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231130140955.33537957.286427@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id jc17-20020a056a006c9100b006c6930e755asi141693pfb.5.2023.11.30.11.09.56
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 30 Nov 2023 11:09:56 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20231130140955.33537957.286427@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=/M5Tsy18VXqh49or838tP4Hsp5LS+2ky2dkqeJ3HumI=;
+ b=mr8cuGgsSWn2ulA8U4VbbJFj1jZRcK2Qg/n0tDcEl74eWLl4uCxcFhFYTWLflTdeFCcsXdNl+68J
+   R5BNEINU+ir5Bo3ugZyyOLeUj/LRB080OGB9PO+HzEIpI6wG0mWma020qkUfSYyeqrlDRKDge9k0
+   N67mtJzRtaSteCJVijI=
+Received: from aws1-mta-relay10.sailthru.cloud (10.55.89.163) by pmta29.sailthru.com id hd3f062sd4st for <bloomberg@khamel.com>; Thu, 30 Nov 2023 13:09:55 -0600 (envelope-from <delivery_20231130140955.33537957.286427@mx.sailthru.com>)
+Date: Thu, 30 Nov 2023 14:09:55 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20231130140955.33537957.286427@sailthru.com>
+Subject: Money Stuff: Fake WeWork Rescuer Was an Hour Late
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_35286033_397229248.1701371395230"
+Precedence: bulk
+x-job: 6358-33537957-20231130
+X-Feedback-ID: 6358:33537957:campaign:sailthru
+X-TM-ID: 20231130140955.33537957.286427
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-91-133.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjyu1x.650b/7d2b099f
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjyu1x.650b/7d2b099f>, <mailto:unsubscribe_20231130140955.33537957.286427@mx.sailthru.com>
+X-rpcampaign: stjko33537957
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_35286033_397229248.1701371395230
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Monday.=
+ We talked a couple of weeks ago about a fake press release from a fake c
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.
+
+ =20
+   =20
+      Cole Capital
+   =20
+ =20
+
+We   talked a couple of weeks ago about a fake press release from a fake co=
+mpany called =E2=80=9CCole Capital Funds=E2=80=9D pretending it would buy W=
+eWork Inc. for $9 per share. The press release went out a little after 5 p.=
+m. on Friday, Nov. 3; WeWork filed for bankruptcy the following Monday. I p=
+roposed two possible reasons someone might put out that press release:
+=09Market manipulation: You buy some WeWork stock cheap, you pretend someon=
+e will buy the company at $9, the stock goes up, you sell at a profit.=09Ge=
+neral fun and hijinks: Some people just like pretending to buy companies?
+
+I mean! The first explanation is overwhelmingly more probable.=C2=A0The onl=
+y objection to it, really, is that the press release went out at 5 p.m. on =
+a Friday. The market was closed. By the time the market opened for trading =
+again on Monday, (1) everyone knew the press release was fake and (2) anywa=
+y WeWork was bankrupt and the stock was halted. =E2=80=9CIf you want to man=
+ipulate the stock and make a profit,=E2=80=9D I wrote in a not-legal-advice=
+ fashion,=C2=A0=E2=80=9Cdo your press release at like 9:31 a.m. on a Monday=
+, so you can trade on it for a bit.=E2=80=9D
+But I missed an obvious third explanation, which is =E2=80=9Cmarket manipul=
+ation, but incompetent.=E2=80=9D I   wrote once about a guy named Nedko Ned=
+ev, who allegedly issued a series of fake press releases pretending to acqu=
+ire various public companies, for straightforward market manipulation reaso=
+ns: He would buy the stock, he=E2=80=99d put out the press release, the sto=
+ck would pop, and he=E2=80=99d sell it. The problem is that he kept waiting=
+ too long to sell, and lost money on each trade.
+  [1]
+=C2=A0It is possible that the people who do this sort of (extremely public,=
+ not that hard to catch) market manipulation are not very good at it?
+Yesterday Bloomberg=E2=80=99s Patrick Clark had   an update on Cole Capital=
+:
+
+The US Securities and Exchange Commission accused a strip mall owner of a b=
+otched attempt to profit by manipulating the price of WeWork Inc. shares an=
+d using client funds to pay for his lavish lifestyle.
+The real estate investor, Jonathan Larmore, was behind an entity called Col=
+e Capital that made an offer to buy WeWork stock at a large premium earlier=
+ this month, in the days before the coworking company filed Chapter 11 bank=
+ruptcy. The move briefly sent the shares soaring, according to the SEC comp=
+laint filed in Arizona.
+Larmore had previously acquired call option contracts on WeWork stock, mean=
+ing he stood to make =E2=80=9Chundreds of thousands to millions of dollars,=
+=E2=80=9D according to the SEC, but he allegedly mistimed the press release=
+.
+=E2=80=9CHis options expired just over an hour before the WeWork stock pric=
+e spiked as a result of his manipulative conduct,=E2=80=9D the complaint sa=
+id.
+
+Here are the SEC=E2=80=99s  announcement and complaint, which are=C2=A0most=
+ly about other, less funny frauds that Larmore also allegedly did. But the =
+WeWork stuff includes the traditional purchase of short-dated out-of-the-mo=
+ney call options:
+
+On or about November 1 and November 2, 2023, Larmore purchased a total of 7=
+2,846 call option contracts on the common stock of the publicly-traded comp=
+any WeWork, the common stock of which is sold under the ticker symbol =E2=
+=80=9CWE=E2=80=9D on the NASDAQ National Market, for $0.03 to $0.15 per con=
+tract. =E2=80=A6
+The expiration date for the vast majority of the WeWork call options was No=
+vember 3, 2023, at 4:00 p.m. EDT. A smaller portion had an expiration date =
+of November 10, 2023, at 4:00 p.m. EDT. =E2=80=A6=C2=A0
+The strike prices for the WeWork call options Larmore purchased ranged from=
+ $2 to $5. Having purchased the out-of-the money call options for pennies p=
+er contract, Larmore stood to make substantial gains if the stock price ros=
+e above the strike price of some or all of the options.
+
+Followed by, uh, emailing the SEC to manipulate the stock?
+On the morning of November 3, 2023, Larmore sent an email to an SEC mailbox=
+ from an email address at the Cole Capital website. The email attached a do=
+cument that Larmore was seeking to file publicly with the SEC, identified a=
+s a=C2=A0=E2=80=9CSchedule TO.=E2=80=9D A Schedule TO is a filing required =
+to be made with the SEC by a person who intends to make a =E2=80=9Ctender o=
+ffer=E2=80=9D for securities registered under the Securities Exchange Act o=
+f 1934.=C2=A0
+Also the press release:
+On November 3, at 5:12 p.m. EDT, a Cole Capital press release was dissemina=
+ted through a wire service and picked up by several media sites. Larmore ar=
+ranged to send out the release through the wire service, and he paid for it=
+s publication. Larmore had submitted the release to the service well before=
+ the close of trading hours that day, but the service had rejected it at le=
+ast once for formatting issues or other irregularities.
+And, womp womp:
+
+Although at the close of market trading (4:00 p.m. EDT) on November 3, 2023=
+, WeWork=E2=80=99s stock price closed at $0.83 per share, immediately after=
+ the press release was published, the share price of WeWork jumped in after=
+hours trading to $1.45 per share, and reached a high that evening of $2.14 =
+per share, at 6:31 p.m. EDT. Most websites that had posted the press releas=
+e removed it by the next morning. The stock price closed at $1.18 at the en=
+d of afterhours trading.
+Larmore did not exercise his November 3 call options because they had expir=
+ed before the press release was published, and he did not exercise his Nove=
+mber 10 call options because the stock price did not exceed the strike pric=
+e. Indeed, on Monday, November 6, 2023, WeWork filed for Chapter 11 bankrup=
+tcy protection.
+
+Should=C2=A0you email the SEC if you are planning to put out a fake press r=
+elease about a fake tender offer? I guess it doesn=E2=80=99t matter much ei=
+ther way. They can see the press release. I suppose you can argue =E2=80=9C=
+no, this was a real offer, as you can see because I emailed the SEC about i=
+t,=E2=80=9D but they=E2=80=99re not going to believe that. =E2=80=9CLarmore=
+ and Cole Capital did not have sufficient liquid capital to execute Cole Ca=
+pital=E2=80=99s proposed tender offer,=E2=80=9D says the SEC, and obviously=
+ buying all those options first is suspicious. Really the not-legal-advice =
+lesson here is =E2=80=A6=C2=A0make sure you have the formatting right befor=
+e you try to publish your fake merger press release?=C2=A0
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Peak pod
+   =20
+ =20
+
+The most basic   move in     finance is the   slicing of cash flows. You ha=
+ve a thing with some uncertain payoff: It will surely be worth at least $X,=
+ but it could be worth as much as $Y. You put the thing in a box and sell c=
+laims on the box to different people who want different things. You sell $X=
+ worth of senior claims to people who want safety, promising to pay them ba=
+ck first: The box will surely be worth at least $X, so their claims are ver=
+y safe. And then you sell some junior claims to other people who want risk:=
+ The box could be worth as much as $Y, in which case you=E2=80=99d pay off =
+the $X of senior claims and have money left over for the junior claims. Tho=
+se claims are risky (they could go to zero), but also more lucrative (they =
+could be worth a lot); they promise a higher expected return in exchange fo=
+r taking more risk. And of course you could slice more finely: Issue one se=
+t of super-safe senior claims, another set of pretty safe mezzanine claims,=
+ a set of risky junior claims, etc. And an important way to come up with ne=
+w financial businesses is to notice some financial thing with some fluctuat=
+ing value and decompose it into a safe part and a risky part.=C2=A0
+One way to think about multi-manager, multi-strategy   hedge funds (or =E2=
+=80=9Cpod shops=E2=80=9D) is that they are a way to turn=C2=A0investing ski=
+ll=C2=A0into this sort of tractable, tranche-able financial asset. The roug=
+h theory is:
+=09Some people can, with hard work and=C2=A0native skill, identify which st=
+ocks (bonds, commodities, etc.) are better and which are worse, within some=
+ narrow sector, with some reasonably high success rate. Not through any sor=
+t of magic market intuition but through deep study and specialization: If y=
+ou spend your life studying the biotech industry, you might have somewhat b=
+etter-than-chance odds of picking which biotech stocks will outperform and =
+which will underperform.=09If they just went out and bought the five stocks=
+ they thought were the best, they=E2=80=99d have a good chance of making a =
+lot of money, but there=E2=80=99d be risks too. Perhaps there would be a ge=
+neral stock market crash, or a collapse in the biotech industry; they might=
+ have accurately picked the best stocks but those stocks would still go dow=
+n.=09But you can hire them and=C2=A0isolate their skill: Make them buy the =
+best stocks in their sector, short the worst stocks in their sector, and ke=
+ep a neutral exposure to the stock market, the sector and other factors, so=
+ that they only make (or lose) money if their favorite stocks outperform (o=
+r underperform) their least-favorite stocks due to their pure stock-picking=
+ skill.=C2=A0=09And you can also hire other specialists in other sectors, a=
+nd other asset classes, and make all of them hedge, so that you have a dive=
+rsified portfolio that has no exposure to the broad stock market, to indivi=
+dual sectors, to factors, etc., but is exposed only to their collective inv=
+esting skill.=09And you fire the ones who mess up, so the overall skill lev=
+el remains high.=09And then you decompose what they are doing into (1) a ve=
+ry large, very boring, very safe portfolio and (2) a smaller and more volat=
+ile stream of payoffs for their investing skill.
+
+If you do this right, you can have them build a very large portfolio with n=
+ot very much risk. They can bet on a lot of things, and bet against a lot o=
+f other things, and those things are highly correlated with each other. Lik=
+e, they make $1 billion of bets that blue widgets will go up, and they make=
+ $1 billion of bets that green widgets will go down, and historically blue =
+and green widget prices have moved in lockstep. That=E2=80=99s a total of $=
+2 billion of bets, but they cancel each other out.
+  [2]
+ If blue widgets go down 20% (and they lose $200 million on their long bet)=
+, then probably green widgets will also go down 20% (and they make $200 mil=
+lion on their short bet), so there=E2=80=99s still $2 billion. But the idea=
+ is that they know something the market doesn=E2=80=99t, and actually blue =
+widgets will go up by 5=C2=A0percentage points more (or down by 5=C2=A0perc=
+entage points less) than green widgets, and so they=E2=80=99ll make $50 mil=
+lion on this bet. Of course they could be wrong; maybe blue widgets will=C2=
+=A0underperform=C2=A0green ones and the bet will lose money. Not the whole =
+$2 billion amount of the bet =E2=80=94=C2=A0blue and green widgets are pret=
+ty fungible =E2=80=94=C2=A0but, you know, maybe $50 million.
+And you can kind of abstractly do some math like =E2=80=9Cthis bet requires=
+ $2 billion, and we hope it will pay back like $2.05=C2=A0billion, but even=
+ if we=E2=80=99re wrong it should pay back $2 billion, or $1.95 billion at =
+absolute worst.=E2=80=9D And then you can go out and sell, say, $1.9 billio=
+n of senior claims on this bet, saying =E2=80=9Cwe=E2=80=99ll pay you back =
+the $1.9 billion no matter what.=E2=80=9D And then you raise, say, $100 mil=
+lion of junior claims on this bet, saying =E2=80=9Cwe hope to pay you back =
+$150 million on your $100 million investment, but if we=E2=80=99re wrong yo=
+u eat the losses.=E2=80=9D
+Traditionally the people buying the senior claims are prime brokerage desks=
+ at big investment banks, and they can check all of this: They can look at =
+the actual trades that you=E2=80=99re doing and say =E2=80=9Cah yes, histor=
+ically, blue and green widget prices have been highly correlated, so the ch=
+ances of losing much of this $2 billion is slim, and the chances of eating =
+into our $1.9 billion are close to zero.=E2=80=9D And they can check=C2=A0 =
+your track record, too, and say =E2=80=9Cyeah these guys usually make money=
+ and always pay back their senior claims so it=E2=80=99s fine.=E2=80=9D Als=
+o they hold your collateral =E2=80=94=C2=A0the blue widgets you=E2=80=99re =
+long, the green widgets you=E2=80=99re short =E2=80=94=C2=A0and if the trad=
+e does start to collapse they can probably shut it down before you lose too=
+ much money (and, thus, before=C2=A0they=C2=A0lose=C2=A0any money).=C2=A0
+And then traditionally the people buying the junior claims are your hedge f=
+und investors, who are betting that you really do have all this investing s=
+kill, that you really can turn their $100 million into $150 million much mo=
+re often than you turn it into $50 million.
+  [3]
+=C2=A0And then traditionally you yourself, and your employees, have some so=
+rt of super-junior claim, where you get paid a big chunk of the upside if t=
+he bets pay off.
+Now, another important move in finance is to worry about this slicing of ca=
+sh flows. The traditional worries are:
+=09The safe senior claims: Are they really that safe? Do we really=C2=A0kno=
+w=C2=A0that this trade can=E2=80=99t lose a lot of money and cut into the $=
+1.9 billion senior claim? What if blue widgets fall 10% and green widgets g=
+o up 10%? Then this strategy loses $200 million, the junior claims are wipe=
+d out and the lenders lose money.=09The risky junior claims: Boy, they sure=
+ look risky! In the example above, the total portfolio lost 10% of its valu=
+e, but the junior claims lost 100% of their value. Seems risky.=09The inter=
+play between them:=C2=A0If you have a $2 billion portfolio and it loses 10%=
+ of its value for some temporary reason, you might just hold onto it until =
+the prices recover. But if you have a $2 billion portfolio with 95% leverag=
+e and it loses 10% of its value, your lender =E2=80=94=C2=A0a bank prime br=
+okerage =E2=80=94=C2=A0will seize the collateral and sell it as quickly as =
+possible, which means (1) you permanently lose all of your equity and also =
+(2) your lender=E2=80=99s sale might further drive down prices and cause mo=
+re problems.
+
+Here=E2=80=99s a   Bloomberg News story about =E2=80=9Cpeak pod=E2=80=9D:
+
+Multimanager funds like [Ken] Griffin=E2=80=99s Citadel have come to domina=
+te the hedge fund industry, riding a steady run of outperformance to overse=
+e more than $1 trillion, including a healthy dose of leverage. But the expl=
+osive growth has led the industry giants to pile into many of the same trad=
+es.
+That has built unease among regulators, investors and traders over these so=
+-called pod shops. =E2=80=A6
+Overcrowding in some bets, increased market volatility, an expensive talent=
+ war and lower returns this year have prompted market=C2=A0participants=C2=
+=A0to question whether the world of high finance is approaching peak pod. .=
+..
+=E2=80=9CThere=E2=80=99s some overcrowding and concern about the amount of =
+leverage at individual firms and collectively,=E2=80=9D John Jackson, head =
+of hedge fund research at investment consultant Mercer, said during a recen=
+t Capital Allocators podcast. And because they typically cut risk very quic=
+kly =E2=80=9Cwe are worried about the potential snowball effect.=E2=80=9D =
+=E2=80=A6
+Clients are now fixated on leverage and the risk of =E2=80=9Cplatform de-gr=
+ossing=E2=80=9D =E2=80=94 or stampede selling =E2=80=94 Goldman Sachs said =
+in an earlier report. =E2=80=A6
+Much of the increased regulatory focus has been in Treasury markets, where =
+leverage tends to be the highest. Hedge funds in aggregate had estimated le=
+verage of 56-to-1 on $553 billion of Treasury repo borrowing as of December=
+ 2022, according to a September research note by Federal Reserve staffers A=
+yelen Banegas and Phillip Monin.
+That=E2=80=99s why many of the big firms incurred larger-than-expected loss=
+es during the early days of the Covid-19 pandemic. They were caught in the =
+so-called basis trade, which is designed to profit from small differences b=
+etween Treasury futures and the cash market. Considered a safe arbitrage be=
+t if held to maturity, it can occasionally go haywire, as it did in March 2=
+020.=C2=A0
+
+If you are=20
+long $1 billion of Treasury bonds and short $1 billion of Treasury futures,=
+ your chances of losing even 2% of your money are low enough =E2=80=94=C2=
+=A0because Treasury bonds and Treasury futures are almost the same thing =
+=E2=80=94=C2=A0that a bank will lend you 98% of the money you need to do th=
+at trade.
+  [4]
+=C2=A0But they are not zero! Sometimes bad stuff happens.
+But the other problem is the crowded trades. =E2=80=9COf the $90.7 billion =
+that Citadel held in US stocks at the end of September, 93% was in shares M=
+illennium also holds,=E2=80=9D says the article. The essential bet of the m=
+ulti-manager pod shops is that investing skill is (1) real, repeatable and =
+identifiable and (2) not correlated to broad markets: Picking the better th=
+ings and shorting the worse things should work whether the stock market is =
+up and down. But the risk is that investing skill might be=C2=A0correlated =
+with everyone else=E2=80=99s investing skill. If you hire people who are re=
+ally good at knowing which stocks are good and which are bad, and then your=
+ four biggest competitors hire similarly skilled people, they might all pic=
+k the same good stocks and short the same bad stocks. And then if their bet=
+s blow up, they all blow up at once.
+
+ =20
+   =20
+      First-loss funds
+   =20
+ =20
+
+Here=E2=80=99s another way to   slice the returns from hedge-fund skill:
+
+Andrew Lubin, previously the chief executive officer of the London unit of =
+SAC Capital Advisors, and=C2=A0Tim Pearey, former CEO of Odey Asset Managem=
+ent, said they have started a hedge fund that provides capital to traders i=
+f they put in their own cash and agree to lose their money first when bets =
+fail.
+Such arrangements, known as first-loss funds, are a niche part of the $4 tr=
+illion hedge fund industry and offer traders an opportunity to hold on to m=
+ore of their profits in exchange for taking on the bulk of the risk. Trader=
+s signing up for Lubin and Pearey=E2=80=99s London-based AB Asset Scale cou=
+ld keep as much as 60% of the profits they generate, higher than traditiona=
+l industry payouts of 20% at major multi-strategy hedge funds. ...
+Such platforms frequently hire and fire traders whose performance has dropp=
+ed or when a trading strategy they run falls out of favour. Lubin and Peare=
+y said they are looking to pick talented traders affected by this churn.
+The first-loss funds provide as much as nine times the capital of a hedge f=
+und or a trader, with their money being housed in a separately managed acco=
+unt. The arrangement, which provides a significant boost to assets under ma=
+nagement, requires any losses to accrue to the trader=E2=80=99s own investe=
+d capital first. =E2=80=A6
+Losses of up to 10% will be absorbed by the trader=E2=80=99s own capital wi=
+th the fund aiming to liquidate their bets when declines hit 8.5%, accordin=
+g to an investor document seen by Bloomberg.
+
+I like it. The traditional way to get fired from a multi-manager fund is to=
+ have too big a drawdown, to lose, say, 5% or 10% of your allocated capital=
+. If you work at a big multi-strategy fund and then are =E2=80=9Caffected b=
+y this churn,=E2=80=9D the natural inferences to draw are:
+=09You have investing skill (that=E2=80=99s why the pod shop hired you), bu=
+t=09You sometimes lose 10% of your capital (that=E2=80=99s why they fired y=
+ou).
+
+So someone else should be willing to hire you to run their money, but only =
+if you take the risk of losing 10% of your capital.
+
+ =20
+   =20
+      New OpenAI board
+   =20
+ =20
+
+One  piece of news is that Microsoft Corp. will have a non-voting observer =
+seat on the new board of directors of OpenAI. The problem, when OpenAI=E2=
+=80=99s board=20
+briefly fired Chief Executive Officer Sam Altman, was that Microsoft didn=
+=E2=80=99t know about it in advance. Once Microsoft heard about Altman=E2=
+=80=99s firing, it took, like, four days to get him his job back; that was =
+not all Microsoft=E2=80=99s doing, but Microsoft clearly had something to d=
+o with it. =E2=80=9CThe investors don=E2=80=99t exactly need a board seat i=
+f they have a practical veto over the board=E2=80=99s biggest decisions,=E2=
+=80=9D=20
+I wrote yesterday,=C2=A0=E2=80=9Cand the events of the last two weeks sugge=
+st that they do.=E2=80=9D=C2=A0
+On the other hand it is inconvenient and disruptive that Microsoft had to e=
+ffectively veto Altman=E2=80=99s firing after it happened? Better to be tol=
+d first and head it off. Thus, board observer.
+Here=E2=80=99s  one other piece of news, sort of, about the new board chair=
+, Bret Taylor, =E2=80=9Cthe former co-CEO of business-software giant Salesf=
+orce who also was the chairman of Twitter when it dealt with Elon Musk=E2=
+=80=99s ultimately successful takeover effort=E2=80=9D:
+
+OpenAI=E2=80=99s board is unusual in that it isn=E2=80=99t obligated to max=
+imize shareholder value, but rather to fulfill a larger mission of advancin=
+g artificial intelligence for humanity=E2=80=99s benefit. On its website, O=
+penAI says the board=E2=80=99s =E2=80=9Cprincipal beneficiary is humanity, =
+not OpenAI investors.=E2=80=9D
+Asked if OpenAI=E2=80=99s board could revisit this structure, Taylor said: =
+=E2=80=9CI think it=E2=80=99s a great question=E2=80=94probably not one for=
+ my first day on the job.=E2=80=9D
+
+That=E2=80=99s one possible answer! I mean, I guess technically it=E2=80=99=
+s a non-answer, but it=E2=80=99s an interesting one.=C2=A0=E2=80=9CShould y=
+ou benefit humanity or your investors?=E2=80=9D =E2=80=9CGreat question, no=
+t sure yet.=E2=80=9D There are other possible answers! =E2=80=9CNo, the non=
+profit structure is at the core of what we do, this company is fundamentall=
+y about benefiting humanity, that=E2=80=99s what the investors and employee=
+s signed up for,=C2=A0and that part is really nonnegotiable=E2=80=9D is, fo=
+r instance, an imaginable answer. You could imagine the old nonprofit board=
+, as a condition of letting Altman back, demanding =E2=80=9Clook you can br=
+ing in new, more commercial directors, but the nonprofit structure has to s=
+tay.=E2=80=9D But they ... didn=E2=80=99t do that? Apparently? And Taylor i=
+s, like, for-profit-curious?
+Incidentally, when Taylor and the Twitter Inc. board agreed to sell to Musk=
+,   I wrote a column about how the board made and described that decision. =
+What was striking, to me, was that Twitter=E2=80=99s then-CEO, Parag Agrawa=
+l, described the decision to sell as=C2=A0purely=C2=A0doing what was in the=
+ best interests of shareholders, without any consideration of the product, =
+the mission, the employees, etc. Agrawal  said to employees:
+=E2=80=9CThis is the answer you don=E2=80=99t want to hear, right?=E2=80=9D=
+ Agrawal said. =E2=80=9CTwitter is a public company owned by shareholders. =
+There are other companies which may have other legal mechanics =E2=80=A6 Tw=
+itter is not one of those companies.=E2=80=9D
+That is partly true, but not entirely true, and kind of grim. I wrote:
+A lot of people think of Twitter as a public utility, a public trust, =E2=
+=80=9Cthe town square,=E2=80=9D a company with an important social mission =
+that many of its users and employees=C2=A0and Elon Musk=C2=A0care about dee=
+ply. And its CEO and board of directors essentially can=E2=80=99t bring the=
+mselves to talk about it. When employees asked him about what was best for =
+the company, Agrawal could talk only about the shareholders. Elon Musk is n=
+ot at all embarrassed to say that Twitter has an important public mission, =
+which is why he=E2=80=99s buying it. But its current management can=E2=80=
+=99t say that, which is why they=E2=80=99re selling it.
+And now the chairman of the Twitter board that sold to Musk is the chairman=
+ of OpenAI. Which definitely=C2=A0does=C2=A0have other legal mechanics. For=
+ now.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Investors Lose Legal Bid Against Exchange Over  Nickel Market Blowup. Globa=
+l bank executives hit out at  US capital plans.=C2=A0Europe=E2=80=99s Baile=
+d-Out Banks   Finally Get Sold a Decade After Crisis.=C2=A0  Signa Founder=
+=E2=80=99s Billions Evaporate as Empire Sinks to Insolvency. SEC=E2=80=99s =
+Use of   In-House Judges Cast in Doubt by Supreme Court. FINRA Fines BofA S=
+ecurities $24 Million for  Treasuries Spoofing and Related Supervisory Fail=
+ures.=C2=A0EY pushes some  graduate start dates back by almost a year. Airl=
+ines Race Toward a Future of  Powering Their Jets With Corn. Grayscale Trus=
+t Becomes =E2=80=98Live Betting Line=E2=80=99 for   Spot Bitcoin ETF. Bankr=
+upt Bed Bath & Beyond  Seeks $300 Million From MSC Line for Pandemic Shippi=
+ng Charges. Billionaires amass more through  inheritance than wealth creati=
+on, says UBS. Elon Musk   Slings Expletives at Advertisers Fleeing X. =E2=
+=80=9CDoritos Silent, a crunch-cancellation software that removes the sound=
+ of chewing from voice chats, Zoom or any calls that use headphones.=E2=80=
+=9D
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] In fact, in his first attempt, he put out the press release after the=
+ market closed, and sold the next day at a loss. In two subsequent hoaxes h=
+e managed to get the press release in during market hours, but he still wai=
+ted too long and sold at a loss.
+
+
+  [2] They =E2=80=A6 hedge? Originally the name =E2=80=9Chedge fund=E2=80=
+=9D described a business not unlike this, a long/short fund that tried to b=
+e largely market-neutral and isolate investing skill. But then =E2=80=9Ched=
+ge fund=E2=80=9D came to describe =E2=80=9Ca compensation scheme masqueradi=
+ng as an asset class,=E2=80=9D covering all sorts of private investment veh=
+icles, many of which took large unhedged directional market bets. But the m=
+odern pod shop is a classically hedged hedge fund, one that tries to hedge =
+its market and factor exposures to capture only its managers=E2=80=99 alpha=
+.
+
+
+  [3] And, crucially, who are betting that this question is uncorrelated to=
+ the broad market: If you take $100 million and pay them back $150 million,=
+ it=E2=80=99s not because *widget prices went up*, it=E2=80=99s because of =
+your skill at identifying which widgets are better, which is not particular=
+ly correlated to market conditions. In theory your fund should go up when w=
+idget prices are up, or down, or flat, because you are not betting on widge=
+t prices generally but on specific mispricings.=20
+
+
+  [4] This is imprecise. The 56-to-1 leverage in repo is on the long-Treasu=
+ry-bonds side; the futures leverage comes from the futures clearinghouse an=
+d is, you know,  25-to-1.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjyu1x.650b/cd28e674.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_35286033_397229248.1701371395230
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Monday. We talk=
+ed a couple of weeks ago about a fake press release from a fake c
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33537957.286427/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMTMwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMzAmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBce5a041b"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33537957.286427/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMzUzNzk1NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM4MjQzODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBb713610c" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D33537957&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33824384&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Monday.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Cole Capital</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/33537957.286427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMTEtMTUvd2V3b3JrLXMtcmVzY3VlLXdhc24tdC1yZWFsP2NtcGlkPUJC=
+RDExMzAyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGV=
+yJnV0bV90ZXJtPTIzMTEzMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a31=
+9a23cB8ce19e2e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">  talked a couple of weeks ago</a> about a fake pre=
+ss release from a fake company called =E2=80=9CCole Capital Funds=E2=80=9D =
+pretending it would buy WeWork Inc. for $9 per share. The press release wen=
+t out a little after 5 p.m. on Friday, Nov. 3; WeWork filed for bankruptcy =
+the following Monday. I proposed two possible reasons someone might put out=
+ that press release:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Market manipulation: You buy some WeW=
+ork stock cheap, you pretend someone will buy the company at $9, the stock =
+goes up, you sell at a profit.</li>=09<li style=3D"margin-bottom: 5px;">Gen=
+eral fun and hijinks: Some people just like pretending to buy companies?</l=
+i>
+</ol>
+<p style=3D"margin: 16px 0;">I mean! The first explanation is overwhelmingl=
+y more probable.=C2=A0The only objection to it, really, is that the press r=
+elease went out at 5 p.m. on a Friday. The market was closed. By the time t=
+he market opened for trading again on Monday, (1) everyone knew the press r=
+elease was fake and (2) anyway WeWork was bankrupt and the stock was halted=
+. =E2=80=9CIf you want to manipulate the stock and make a profit,=E2=80=9D =
+I wrote in a not-legal-advice fashion,=C2=A0=E2=80=9Cdo your press release =
+at like 9:31 a.m. on a Monday, so you can trade on it for a bit.=E2=80=9D</=
+p>
+<p style=3D"margin: 16px 0;">But I missed an obvious third explanation, whi=
+ch is =E2=80=9Cmarket manipulation, but incompetent.=E2=80=9D I <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/33537957.286427/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTUtMDYtMDQvZ3V5LXdoby1kaWQt=
+YXZvbi1ob2F4LXdhcy10ZXJyaWJsZS1hdC1ob2F4ZXM_Y21waWQ9QkJEMTEzMDIzX01PTkVZU1R=
+VRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMT=
+MwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB71b46749" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">  wrote once</a> about a guy named Nedko Nedev, who allegedly issued a s=
+eries of fake press releases pretending to acquire various public companies=
+, for straightforward market manipulation reasons: He would buy the stock, =
+he=E2=80=99d put out the press release, the stock would pop, and he=E2=80=
+=99d sell it. The problem is that he kept waiting too long to sell, and los=
+t money on each trade.<a class=3D"footnote-index" href=3D"#footnote-1" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: none !important; b=
+ackground-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0It is possible that the people who do this sort of (extremely pub=
+lic, not that hard to catch) market manipulation are not very good at it?</=
+p>
+<p style=3D"margin: 16px 0;">Yesterday Bloomberg=E2=80=99s Patrick Clark ha=
+d <a href=3D"https://link.mail.bloombergbusiness.com/click/33537957.286427/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMjkvc2VjLXN=
+heXMtd2V3b3JrLW9wdGlvbnMtcGxvdC1mYWlsZWQtb24tYm90Y2hlZC1wcmVzcy1yZWxlYXNlP2=
+NtcGlkPUJCRDExMzAyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZ=
+XdzbGV0dGVyJnV0bV90ZXJtPTIzMTEzMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07cee=
+f4b8524a319a23cBb213cc5e" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">  an update on Cole Capital</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The US Securities and Exchange Commission accu=
+sed a strip mall owner of a botched attempt to profit by manipulating the p=
+rice of WeWork Inc. shares and using client funds to pay for his lavish lif=
+estyle.</p>
+<p style=3D"margin: 16px 0;">The real estate investor, Jonathan Larmore, wa=
+s behind an entity called Cole Capital that made an offer to buy WeWork sto=
+ck at a large premium earlier this month, in the days before the coworking =
+company filed Chapter 11 bankruptcy. The move briefly sent the shares soari=
+ng, according to the SEC complaint filed in Arizona.</p>
+<p style=3D"margin: 16px 0;">Larmore had previously acquired call option co=
+ntracts on WeWork stock, meaning he stood to make =E2=80=9Chundreds of thou=
+sands to millions of dollars,=E2=80=9D according to the SEC, but he alleged=
+ly mistimed the press release.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CHis options expired just over an hour=
+ before the WeWork stock price spiked as a result of his manipulative condu=
+ct,=E2=80=9D the complaint said.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here are the SEC=E2=80=99s <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/33537957.286427/aHR0cHM6Ly93d3cuc2VjL=
+mdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMy0yNDI/607f07ceef4b8524a319a23cB38a9383=
+b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> announcement</a> and <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/33537957.286427/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudH=
+MvdXNlcnMvaXFqV0hCRmRmeElVL3JpOUpfSThCNGdyRS92MA/607f07ceef4b8524a319a23cB8=
+a271037" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">complaint</a>, which are=C2=A0mostly about other, less fun=
+ny frauds that Larmore also allegedly did. But the WeWork stuff includes th=
+e traditional purchase of short-dated out-of-the-money call options:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">On or about November 1 and November 2, 2023, L=
+armore purchased a total of 72,846 call option contracts on the common stoc=
+k of the publicly-traded company WeWork, the common stock of which is sold =
+under the ticker symbol =E2=80=9CWE=E2=80=9D on the NASDAQ National Market,=
+ for $0.03 to $0.15 per contract. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The expiration date for the vast majority of t=
+he WeWork call options was November 3, 2023, at 4:00 p.m. EDT. A smaller po=
+rtion had an expiration date of November 10, 2023, at 4:00 p.m. EDT. =E2=80=
+=A6=C2=A0</p>
+<p style=3D"margin: 16px 0;">The strike prices for the WeWork call options =
+Larmore purchased ranged from $2 to $5. Having purchased the out-of-the mon=
+ey call options for pennies per contract, Larmore stood to make substantial=
+ gains if the stock price rose above the strike price of some or all of the=
+ options.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Followed by, uh, emailing the SEC to manipulat=
+e the stock?</p>
+<blockquote><p style=3D"margin: 16px 0;">On the morning of November 3, 2023=
+, Larmore sent an email to an SEC mailbox from an email address at the Cole=
+ Capital website. The email attached a document that Larmore was seeking to=
+ file publicly with the SEC, identified as a=C2=A0=E2=80=9CSchedule TO.=E2=
+=80=9D A Schedule TO is a filing required to be made with the SEC by a pers=
+on who intends to make a =E2=80=9Ctender offer=E2=80=9D for securities regi=
+stered under the Securities Exchange Act of 1934.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">Also the press release:</p>
+<blockquote><p style=3D"margin: 16px 0;">On November 3, at 5:12 p.m. EDT, a=
+ Cole Capital press release was disseminated through a wire service and pic=
+ked up by several media sites. Larmore arranged to send out the release thr=
+ough the wire service, and he paid for its publication. Larmore had submitt=
+ed the release to the service well before the close of trading hours that d=
+ay, but the service had rejected it at least once for formatting issues or =
+other irregularities.</p></blockquote>
+<p style=3D"margin: 16px 0;">And, womp womp:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Although at the close of market trading (4:00 =
+p.m. EDT) on November 3, 2023, WeWork=E2=80=99s stock price closed at $0.83=
+ per share, immediately after the press release was published, the share pr=
+ice of WeWork jumped in afterhours trading to $1.45 per share, and reached =
+a high that evening of $2.14 per share, at 6:31 p.m. EDT. Most websites tha=
+t had posted the press release removed it by the next morning. The stock pr=
+ice closed at $1.18 at the end of afterhours trading.</p>
+<p style=3D"margin: 16px 0;">Larmore did not exercise his November 3 call o=
+ptions because they had expired before the press release was published, and=
+ he did not exercise his November 10 call options because the stock price d=
+id not exceed the strike price. Indeed, on Monday, November 6, 2023, WeWork=
+ filed for Chapter 11 bankruptcy protection.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;"><em>Should=C2=A0</em>you email the SEC if you =
+are planning to put out a fake press release about a fake tender offer? I g=
+uess it doesn=E2=80=99t matter much either way. They can see the press rele=
+ase. I suppose you can argue =E2=80=9Cno, this was a real offer, as you can=
+ see because I emailed the SEC about it,=E2=80=9D but they=E2=80=99re not g=
+oing to believe that. =E2=80=9CLarmore and Cole Capital did not have suffic=
+ient liquid capital to execute Cole Capital=E2=80=99s proposed tender offer=
+,=E2=80=9D says the SEC, and obviously buying all those options first is su=
+spicious. Really the not-legal-advice lesson here is =E2=80=A6=C2=A0make su=
+re you have the formatting right before you try to publish your fake merger=
+ press release?=C2=A0</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33537957.286427/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzUzNzk1NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM4MjQzODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC4f55966d" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33537957&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33824384&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33537957.286427/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzUzNzk1NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM4MjQzODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD4f55966d" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33537957&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33824384&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Peak pod</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The most basic <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33537957.286427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMDcvbWF0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1s=
+b29raW5nLWZvci10ZXRoZXItcy1tb25leT9jbXBpZD1CQkQxMTMwMjNfTU9ORVlTVFVGRiZ1dG1=
+fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMzAmdXRtX2=
+NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB2b08923c" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">  move=
+</a> in <a href=3D"https://link.mail.bloombergbusiness.com/click/33537957.2=
+86427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtM=
+jgvZnR4LXMtYmxvY2tmaS1yZXNjdWUtZGlkbi10LXdvcms_Y21waWQ9QkJEMTEzMDIzX01PTkVZ=
+U1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjM=
+xMTMwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB622403f4" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">    finance</a> is the <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/33537957.286427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fy=
+dGljbGVzLzIwMjMtMDEtMTgvc2xpY2luZy1jYXNoLWZsb3dzLWZvci1iZXR0ZXItcmF0aW5ncz9=
+jbXBpZD1CQkQxMTMwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bm=
+V3c2xldHRlciZ1dG1fdGVybT0yMzExMzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07cee=
+f4b8524a319a23cBe8728888" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">  slicing</a> of cash flows. You have a t=
+hing with some uncertain payoff: It will surely be worth at least $X, but i=
+t could be worth as much as $Y. You put the thing in a box and sell claims =
+on the box to different people who want different things. You sell $X worth=
+ of senior claims to people who want safety, promising to pay them back fir=
+st: The box will surely be worth at least $X, so their claims are very safe=
+. And then you sell some junior claims to other people who want risk: The b=
+ox could be worth as much as $Y, in which case you=E2=80=99d pay off the $X=
+ of senior claims and have money left over for the junior claims. Those cla=
+ims are risky (they could go to zero), but also more lucrative (they could =
+be worth a lot); they promise a higher expected return in exchange for taki=
+ng more risk. And of course you could slice more finely: Issue one set of s=
+uper-safe senior claims, another set of pretty safe mezzanine claims, a set=
+ of risky junior claims, etc. And an important way to come up with new fina=
+ncial businesses is to notice some financial thing with some fluctuating va=
+lue and decompose it into a safe part and a risky part.=C2=A0</p>
+<p style=3D"margin: 16px 0;">One way to think about multi-manager, multi-st=
+rategy <a href=3D"https://link.mail.bloombergbusiness.com/click/33537957.28=
+6427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMTEtMD=
+gvdGhlLWNvZmZlZS1mdXR1cmVzLWdvdC1zdGFsZT9jbXBpZD1CQkQxMTMwMjNfTU9ORVlTVFVGR=
+iZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMzAm=
+dXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB8762b40f" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  hedge funds</a> (or =E2=80=9Cpod shops=E2=80=9D) is that they are a way t=
+o turn=C2=A0<em>investing skill=C2=A0</em>into this sort of tractable, tran=
+che-able financial asset. The rough theory is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Some people can, with hard work and=
+=C2=A0native skill, identify which stocks (bonds, commodities, etc.) are be=
+tter and which are worse, within some narrow sector, with some reasonably h=
+igh success rate. Not through any sort of magic market intuition but throug=
+h deep study and specialization: If you spend your life studying the biotec=
+h industry, you might have somewhat better-than-chance odds of picking whic=
+h biotech stocks will outperform and which will underperform.</li>=09<li st=
+yle=3D"margin-bottom: 5px;">If they just went out and bought the five stock=
+s they thought were the best, they=E2=80=99d have a good chance of making a=
+ lot of money, but there=E2=80=99d be risks too. Perhaps there would be a g=
+eneral stock market crash, or a collapse in the biotech industry; they migh=
+t have accurately picked the best stocks but those stocks would still go do=
+wn.</li>=09<li style=3D"margin-bottom: 5px;">But you can hire them and=C2=
+=A0isolate their skill: Make them buy the best stocks in their sector, shor=
+t the worst stocks in their sector, and keep a neutral exposure to the stoc=
+k market, the sector and other factors, so that they only make (or lose) mo=
+ney if their favorite stocks outperform (or underperform) their least-favor=
+ite stocks due to their pure stock-picking skill.=C2=A0</li>=09<li style=3D=
+"margin-bottom: 5px;">And you can also hire other specialists in other sect=
+ors, and other asset classes, and make all of them hedge, so that you have =
+a diversified portfolio that has no exposure to the broad stock market, to =
+individual sectors, to factors, etc., but is exposed only to their collecti=
+ve investing skill.</li>=09<li style=3D"margin-bottom: 5px;">And you fire t=
+he ones who mess up, so the overall skill level remains high.</li>=09<li st=
+yle=3D"margin-bottom: 5px;">And then you decompose what they are doing into=
+ (1) a very large, very boring, very safe portfolio and (2) a smaller and m=
+ore volatile stream of payoffs for their investing skill.</li>
+</ol>
+<p style=3D"margin: 16px 0;">If you do this right, you can have them build =
+a very large portfolio with not very much risk. They can bet on a lot of th=
+ings, and bet against a lot of other things, and those things are highly co=
+rrelated with each other. Like, they make $1 billion of bets that blue widg=
+ets will go up, and they make $1 billion of bets that green widgets will go=
+ down, and historically blue and green widget prices have moved in lockstep=
+. That=E2=80=99s a total of $2 billion of bets, but they cancel each other =
+out.<a class=3D"footnote-index" href=3D"#footnote-2" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: none !important; background-color: t=
+ransparent !important; display: inline-block;">
+<span>[2]</span>
+</a> If blue widgets go down 20% (and they lose $200 million on their long =
+bet), then probably green widgets will also go down 20% (and they make $200=
+ million on their short bet), so there=E2=80=99s still $2 billion. But the =
+idea is that they know something the market doesn=E2=80=99t, and actually b=
+lue widgets will go up by 5=C2=A0percentage points more (or down by 5=C2=A0=
+percentage points less) than green widgets, and so they=E2=80=99ll make $50=
+ million on this bet. Of course they could be wrong; maybe blue widgets wil=
+l=C2=A0<em>underperform=C2=A0</em>green ones and the bet will lose money. N=
+ot the whole $2 billion amount of the bet =E2=80=94=C2=A0blue and green wid=
+gets are pretty fungible =E2=80=94=C2=A0but, you know, maybe $50 million.</=
+p>
+<p style=3D"margin: 16px 0;">And you can kind of abstractly do some math li=
+ke =E2=80=9Cthis bet requires $2 billion, and we hope it will pay back like=
+ $2.05=C2=A0billion, but even if we=E2=80=99re wrong it should pay back $2 =
+billion, or $1.95 billion at absolute worst.=E2=80=9D And then you can go o=
+ut and sell, say, $1.9 billion of senior claims on this bet, saying =E2=80=
+=9Cwe=E2=80=99ll pay you back the $1.9 billion no matter what.=E2=80=9D And=
+ then you raise, say, $100 million of junior claims on this bet, saying =E2=
+=80=9Cwe hope to pay you back $150 million on your $100 million investment,=
+ but if we=E2=80=99re wrong you eat the losses.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Traditionally the people buying the senior cla=
+ims are prime brokerage desks at big investment banks, and they can check a=
+ll of this: They can look at the actual trades that you=E2=80=99re doing an=
+d say =E2=80=9Cah yes, historically, blue and green widget prices have been=
+ highly correlated, so the chances of losing much of this $2 billion is sli=
+m, and the chances of eating into our $1.9 billion are close to zero.=E2=80=
+=9D And they can check=C2=A0 your track record, too, and say =E2=80=9Cyeah =
+these guys usually make money and always pay back their senior claims so it=
+=E2=80=99s fine.=E2=80=9D Also they hold your collateral =E2=80=94=C2=A0the=
+ blue widgets you=E2=80=99re long, the green widgets you=E2=80=99re short =
+=E2=80=94=C2=A0and if the trade does start to collapse they can probably sh=
+ut it down before you lose too much money (and, thus, before=C2=A0<em>they=
+=C2=A0</em>lose=C2=A0any money).=C2=A0</p>
+<p style=3D"margin: 16px 0;">And then traditionally the people buying the j=
+unior claims are your hedge fund investors, who are betting that you really=
+ do have all this investing skill, that you really can turn their $100 mill=
+ion into $150 million much more often than you turn it into $50 million.<a =
+class=3D"footnote-index" href=3D"#footnote-3" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: none !important; background-color: transpar=
+ent !important; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0And then traditionally you yourself, and your employees, have som=
+e sort of super-junior claim, where you get paid a big chunk of the upside =
+if the bets pay off.</p>
+<p style=3D"margin: 16px 0;">Now, another important move in finance is to w=
+orry about this slicing of cash flows. The traditional worries are:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The safe senior claims: Are they real=
+ly that safe? Do we really=C2=A0<em>know=C2=A0</em>that this trade can=E2=
+=80=99t lose a lot of money and cut into the $1.9 billion senior claim? Wha=
+t if blue widgets fall 10% and green widgets go up 10%? Then this strategy =
+loses $200 million, the junior claims are wiped out and the lenders lose mo=
+ney.</li>=09<li style=3D"margin-bottom: 5px;">The risky junior claims: Boy,=
+ they sure look risky! In the example above, the total portfolio lost 10% o=
+f its value, but the junior claims lost 100% of their value. Seems risky.</=
+li>=09<li style=3D"margin-bottom: 5px;">The interplay between them:=C2=A0If=
+ you have a $2 billion portfolio and it loses 10% of its value for some tem=
+porary reason, you might just hold onto it until the prices recover. But if=
+ you have a $2 billion portfolio with 95% leverage and it loses 10% of its =
+value, your lender =E2=80=94=C2=A0a bank prime brokerage =E2=80=94=C2=A0wil=
+l seize the collateral and sell it as quickly as possible, which means (1) =
+you permanently lose all of your equity and also (2) your lender=E2=80=99s =
+sale might further drive down prices and cause more problems.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Here=E2=80=99s a <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/33537957.286427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMzAva2VuLWdyaWZmaW4tcy1jaXRhZGVsLWhlZGdlLW=
+Z1bmQtcml2YWxzLWRyYXctc2NydXRpbnktb3Zlci1jcm93ZGluZy1sZXZlcmFnZT9jbXBpZD1CQ=
+kQxMTMwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRl=
+ciZ1dG1fdGVybT0yMzExMzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a31=
+9a23cB7124623c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">  Bloomberg News story about =E2=80=9Cpeak pod=E2=
+=80=9D</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Multimanager funds like [Ken] Griffin=E2=80=99=
+s Citadel have come to dominate the hedge fund industry, riding a steady ru=
+n of outperformance to oversee more than $1 trillion, including a healthy d=
+ose of leverage. But the explosive growth has led the industry giants to pi=
+le into many of the same trades.</p>
+<p style=3D"margin: 16px 0;">That has built unease among regulators, invest=
+ors and traders over these so-called pod shops. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Overcrowding in some bets, increased market vo=
+latility, an expensive talent war and lower returns this year have prompted=
+ market=C2=A0participants=C2=A0to question whether the world of high financ=
+e is approaching peak pod. ...</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThere=E2=80=99s some overcrowding and=
+ concern about the amount of leverage at individual firms and collectively,=
+=E2=80=9D John Jackson, head of hedge fund research at investment consultan=
+t Mercer, said during a recent Capital Allocators podcast. And because they=
+ typically cut risk very quickly =E2=80=9Cwe are worried about the potentia=
+l snowball effect.=E2=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Clients are now fixated on leverage and the ri=
+sk of =E2=80=9Cplatform de-grossing=E2=80=9D =E2=80=94 or stampede selling =
+=E2=80=94 Goldman Sachs said in an earlier report. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Much of the increased regulatory focus has bee=
+n in Treasury markets, where leverage tends to be the highest. Hedge funds =
+in aggregate had estimated leverage of 56-to-1 on $553 billion of Treasury =
+repo borrowing as of December 2022, according to a September research note =
+by Federal Reserve staffers Ayelen Banegas and Phillip Monin.</p>
+<p style=3D"margin: 16px 0;">That=E2=80=99s why many of the big firms incur=
+red larger-than-expected losses during the early days of the Covid-19 pande=
+mic. They were caught in the so-called basis trade, which is designed to pr=
+ofit from small differences between Treasury futures and the cash market. C=
+onsidered a safe arbitrage bet if held to maturity, it can occasionally go =
+haywire, as it did in March 2020.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">If you are <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/33537957.286427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjMtMDktMTQvcGVvcGxlLWFyZS13b3JyaWVkLWFib3V0LXRoZS1i=
+YXNpcy10cmFkZT9jbXBpZD1CQkQxMTMwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV=
+0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMzAmdXRtX2NhbXBhaWduPW1vbmV5c3=
+R1ZmY/607f07ceef4b8524a319a23cBb66dc48d" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">
+long $1 billion of Treasury bonds and short $1 billion of Treasury futures<=
+/a>, your chances of losing even 2% of your money are low enough =E2=80=94=
+=C2=A0because Treasury bonds and Treasury futures are almost the same thing=
+ =E2=80=94=C2=A0that a bank will lend you 98% of the money you need to do t=
+hat trade.<a class=3D"footnote-index" href=3D"#footnote-4" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: none !important; background-co=
+lor: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a>=C2=A0But they are not zero! Sometimes bad stuff happens.</p>
+<p style=3D"margin: 16px 0;">But the other problem is the crowded trades. =
+=E2=80=9COf the $90.7 billion that Citadel held in US stocks at the end of =
+September, 93% was in shares Millennium also holds,=E2=80=9D says the artic=
+le. The essential bet of the multi-manager pod shops is that investing skil=
+l is (1) real, repeatable and identifiable and (2) not correlated to broad =
+markets: Picking the better things and shorting the worse things should wor=
+k whether the stock market is up and down. But the risk is that investing s=
+kill might be=C2=A0<em>correlated with everyone else=E2=80=99s investing sk=
+ill. </em>If you hire people who are really good at knowing which stocks ar=
+e good and which are bad, and then your four biggest competitors hire simil=
+arly skilled people, they might all pick the same good stocks and short the=
+ same bad stocks. And then if their bets blow up, they all blow up at once.=
+</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">First-loss funds</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Here=E2=80=99s another way to <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/33537957.286427/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMzAvaGVkZ2UtZnVuZC10by1iYWNrL=
+XRyYWRlcnMtd2hvLXJpc2stdGhlaXItb3duLW1vbmV5LWlmLWJldHMtZmFpbD9jbXBpZD1CQkQx=
+MTMwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ=
+1dG1fdGVybT0yMzExMzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a2=
+3cBee037754" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">  slice the returns from hedge-fund skill</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Andrew Lubin, previously the chief executive o=
+fficer of the London unit of SAC Capital Advisors, and=C2=A0Tim Pearey, for=
+mer CEO of Odey Asset Management, said they have started a hedge fund that =
+provides capital to traders if they put in their own cash and agree to lose=
+ their money first when bets fail.</p>
+<p style=3D"margin: 16px 0;">Such arrangements, known as first-loss funds, =
+are a niche part of the $4 trillion hedge fund industry and offer traders a=
+n opportunity to hold on to more of their profits in exchange for taking on=
+ the bulk of the risk. Traders signing up for Lubin and Pearey=E2=80=99s Lo=
+ndon-based AB Asset Scale could keep as much as 60% of the profits they gen=
+erate, higher than traditional industry payouts of 20% at major multi-strat=
+egy hedge funds. ...</p>
+<p style=3D"margin: 16px 0;">Such platforms frequently hire and fire trader=
+s whose performance has dropped or when a trading strategy they run falls o=
+ut of favour. Lubin and Pearey said they are looking to pick talented trade=
+rs affected by this churn.</p>
+<p style=3D"margin: 16px 0;">The first-loss funds provide as much as nine t=
+imes the capital of a hedge fund or a trader, with their money being housed=
+ in a separately managed account. The arrangement, which provides a signifi=
+cant boost to assets under management, requires any losses to accrue to the=
+ trader=E2=80=99s own invested capital first. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Losses of up to 10% will be absorbed by the tr=
+ader=E2=80=99s own capital with the fund aiming to liquidate their bets whe=
+n declines hit 8.5%, according to an investor document seen by Bloomberg.</=
+p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I like it. The traditional way to get fired fr=
+om a multi-manager fund is to have too big a drawdown, to lose, say, 5% or =
+10% of your allocated capital. If you work at a big multi-strategy fund and=
+ then are =E2=80=9Caffected by this churn,=E2=80=9D the natural inferences =
+to draw are:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You have investing skill (that=E2=80=
+=99s why the pod shop hired you), but</li>=09<li style=3D"margin-bottom: 5p=
+x;">You sometimes lose 10% of your capital (that=E2=80=99s why they fired y=
+ou).</li>
+</ol>
+<p style=3D"margin: 16px 0;">So someone else should be willing to hire you =
+to run their money, but only if you take the risk of losing 10% of your cap=
+ital.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">New OpenAI board</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/33537957.286427/aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tLzIwMjMvMTEv=
+MjkvMjM5ODE4NDgvc2FtLWFsdG1hbi1iYWNrLW9wZW4tYWktY2VvLW1pY3Jvc29mdC1ib2FyZA/=
+607f07ceef4b8524a319a23cBcf11d19f" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> piece of news</a> is that Micro=
+soft Corp. will have a non-voting observer seat on the new board of directo=
+rs of OpenAI. The problem, when OpenAI=E2=80=99s board <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/33537957.286427/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMTEtMjAvd2hvLWNvbnRyb2xzLW9wZW5ha=
+T9jbXBpZD1CQkQxMTMwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9=
+bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMzAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07c=
+eef4b8524a319a23cBd0b4c348" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">
+briefly fired</a> Chief Executive Officer Sam Altman, was that Microsoft di=
+dn=E2=80=99t know about it in advance. Once Microsoft heard about Altman=E2=
+=80=99s firing, it took, like, four days to get him his job back; that was =
+not all Microsoft=E2=80=99s doing, but Microsoft clearly had something to d=
+o with it. =E2=80=9CThe investors don=E2=80=99t exactly need a board seat i=
+f they have a practical veto over the board=E2=80=99s biggest decisions,=E2=
+=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/click/33537957.28=
+6427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMTEtMj=
+kvdGhlLXJvYm90cy13aWxsLWluc2lkZXItdHJhZGU_Y21waWQ9QkJEMTEzMDIzX01PTkVZU1RVR=
+kYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTMw=
+JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBc06828dd" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>
+I wrote yesterday</a>,=C2=A0=E2=80=9Cand the events of the last two weeks s=
+uggest that they do.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">On the other hand it is inconvenient and disru=
+ptive that Microsoft had to effectively veto Altman=E2=80=99s firing after =
+it happened? Better to be told first and head it off. Thus, board observer.=
+</p>
+<p style=3D"margin: 16px 0;">Here=E2=80=99s <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33537957.286427/aHR0cHM6Ly93d3cud3NqLmNvbS90ZWNoL=
+2FpL29wZW5haXMtbmV3LWJvYXJkLXRha2VzLW92ZXItYW5kLXNheXMtbWljcm9zb2Z0LXdpbGwt=
+aGF2ZS1vYnNlcnZlci1yb2xlLTUwZTU1YjczP21vZD1pdHBfd3Nq/607f07ceef4b8524a319a2=
+3cB0d405790" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> one other piece of news</a>, sort of, about the new b=
+oard chair, Bret Taylor, =E2=80=9Cthe former co-CEO of business-software gi=
+ant Salesforce who also was the chairman of Twitter when it dealt with Elon=
+ Musk=E2=80=99s ultimately successful takeover effort=E2=80=9D:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">OpenAI=E2=80=99s board is unusual in that it i=
+sn=E2=80=99t obligated to maximize shareholder value, but rather to fulfill=
+ a larger mission of advancing artificial intelligence for humanity=E2=80=
+=99s benefit. On its website, OpenAI says the board=E2=80=99s =E2=80=9Cprin=
+cipal beneficiary is humanity, not OpenAI investors.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Asked if OpenAI=E2=80=99s board could revisit =
+this structure, Taylor said: =E2=80=9CI think it=E2=80=99s a great question=
+=E2=80=94probably not one for my first day on the job.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">That=E2=80=99s one possible answer! I mean, I =
+guess technically it=E2=80=99s a non-answer, but it=E2=80=99s an interestin=
+g one.=C2=A0=E2=80=9CShould you benefit humanity or your investors?=E2=80=
+=9D =E2=80=9CGreat question, not sure yet.=E2=80=9D There are other possibl=
+e answers! =E2=80=9CNo, the nonprofit structure is at the core of what we d=
+o, this company is fundamentally about benefiting humanity, that=E2=80=99s =
+what the investors and employees signed up for,=C2=A0and that part is reall=
+y nonnegotiable=E2=80=9D is, for instance, an imaginable answer. You could =
+imagine the old nonprofit board, as a condition of letting Altman back, dem=
+anding =E2=80=9Clook you can bring in new, more commercial directors, but t=
+he nonprofit structure has to stay.=E2=80=9D But they ... didn=E2=80=99t do=
+ that? Apparently? And Taylor is, like, for-profit-curious?</p>
+<p style=3D"margin: 16px 0;">Incidentally, when Taylor and the Twitter Inc.=
+ board agreed to sell to Musk, <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/33537957.286427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjItMDUtMDIvdHdpdHRlci1zLWJvYXJkLWdhdmUtdXA_Y21waWQ9QkJEMTEzM=
+DIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRt=
+X3Rlcm09MjMxMTMwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB9=
+1a7ebc5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">  I wrote a column</a> about how the board made and descri=
+bed that decision. What was striking, to me, was that Twitter=E2=80=99s the=
+n-CEO, Parag Agrawal, described the decision to sell as=C2=A0<em>purely=C2=
+=A0</em>doing what was in the best interests of shareholders, without any c=
+onsideration of the product, the mission, the employees, etc. Agrawal <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/33537957.286427/aHR0cHM=
+6Ly93d3cucGxhdGZvcm1lci5uZXdzL3AvaW5zaWRlLXR3aXR0ZXJzLWVtb3Rpb25hbC1mcmlkYX=
+k/607f07ceef4b8524a319a23cB2daa0119" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> said to employees</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">=E2=80=9CThis is the answer you do=
+n=E2=80=99t want to hear, right?=E2=80=9D Agrawal said. =E2=80=9CTwitter is=
+ a public company owned by shareholders. There are other companies which ma=
+y have other legal mechanics =E2=80=A6 Twitter is not one of those companie=
+s.=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">That is partly true, but not entirely true, an=
+d kind of grim. I wrote:</p>
+<blockquote><p style=3D"margin: 16px 0;">A lot of people think of Twitter a=
+s a public utility, a public trust, =E2=80=9Cthe town square,=E2=80=9D a co=
+mpany with an important social mission that many of its users and employees=
+=C2=A0<em>and Elon Musk=C2=A0</em>care about deeply. And its CEO and board =
+of directors essentially can=E2=80=99t bring themselves to talk about it. W=
+hen employees asked him about what was best for the company, Agrawal could =
+talk only about the shareholders. Elon Musk is not at all embarrassed to sa=
+y that Twitter has an important public mission, which is why he=E2=80=99s b=
+uying it. But its current management can=E2=80=99t say that, which is why t=
+hey=E2=80=99re selling it.</p></blockquote>
+<p style=3D"margin: 16px 0;">And now the chairman of the Twitter board that=
+ sold to Musk is the chairman of OpenAI. Which definitely=C2=A0<em>does=C2=
+=A0</em>have other legal mechanics. For now.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Investors Lose Legal Bid Against Exchange Over=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/33537957.286427/a=
+HR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL2NvbW1vZGl0aWVzLWZ1dHVyZXMvaW52ZXN0b3Jz=
+LWxvc2UtbGVnYWwtYmlkLWFnYWluc3QtZXhjaGFuZ2Utb3Zlci1uaWNrZWwtbWFya2V0LWJsb3d=
+1cC1lNmViYTE4ZD9tb2Q9aXRwX3dzag/607f07ceef4b8524a319a23cB3d589286" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Nickel Market Blowup</a>. Global bank executives hit out at <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/33537957.286427/aHR0cHM6Ly93d3cu=
+ZnQuY29tL2NvbnRlbnQvM2Y2ZmI3ZjAtN2U2OS00OGYyLWJlMzYtNTEwNWU4ZjUwNzI3/607f07=
+ceef4b8524a319a23cBee99ccdd" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> US capital plans</a>.=C2=A0Europe=E2=
+=80=99s Bailed-Out Banks <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/33537957.286427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVz=
+LzIwMjMtMTEtMzAvZXVyb3BlLXMtYmFpbGVkLW91dC1iYW5rcy1maW5hbGx5LWdldC1zb2xkLWE=
+tZGVjYWRlLWFmdGVyLWNyaXNpcz9jbXBpZD1CQkQxMTMwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaX=
+VtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMzAmdXRtX2NhbXBha=
+WduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB8163401e" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">  Finally Get=
+ Sold</a> a Decade After Crisis.=C2=A0<a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/33537957.286427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXd=
+zL2FydGljbGVzLzIwMjMtMTEtMzAvc2lnbmEtZm91bmRlci1yZW5lLWJlbmtvLWdvZXMtZnJvbS=
+1oaWdoLWZseWluZy1iaWxsaW9uYWlyZS10by13ZWFsdGgtYmxvd3VwP2NtcGlkPUJCRDExMzAyM=
+19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90=
+ZXJtPTIzMTEzMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBedc=
+b943e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">  Signa</a> Founder=E2=80=99s Billions Evaporate as Empire S=
+inks to Insolvency. SEC=E2=80=99s Use of <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/33537957.286427/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9u=
+ZXdzL2FydGljbGVzLzIwMjMtMTEtMjkvc2VjLXMtdXNlLW9mLWluLWhvdXNlLWp1ZGdlcy1jYXN=
+0LWluLWRvdWJ0LWJ5LXN1cHJlbWUtY291cnQ_Y21waWQ9QkJEMTEzMDIzX01PTkVZU1RVRkYmdX=
+RtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTMwJnV0b=
+V9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB8b138b5d" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">  In=
+-House Judges</a> Cast in Doubt by Supreme Court. FINRA Fines BofA Securiti=
+es $24 Million for <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/33537957.286427/aHR0cHM6Ly93d3cuZmlucmEub3JnL21lZGlhLWNlbnRlci9uZXdzcmVsZW=
+FzZXMvMjAyMy9maW5yYS1maW5lcy1ib2ZhLXNlY3VyaXRpZXMtMjQtbWlsbGlvbi1mb3ItdHJlY=
+XN1cmllcy1zcG9vZmluZy1hbmQtcmVsYXRlZC1zdXBlcnZpc29yeS1mYWlsdXJlcw/607f07cee=
+f4b8524a319a23cBe5a01a30" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> Treasuries Spoofing</a> and Related Supe=
+rvisory Failures.=C2=A0EY pushes some <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/33537957.286427/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMDI=
+4ZDYyYTktNzIxMS00NTZkLWI1NmYtOGU0NGM3NTUzZTk5/607f07ceef4b8524a319a23cB3378=
+db01" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> graduate start dates</a> back by almost a year. Airlines Rac=
+e Toward a Future of <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/33537957.286427/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vaW50ZXJhY3RpdmUvMjAyMy8x=
+MS8zMC9jbGltYXRlL2FpcmxpbmVzLWpldC1mdWVsLWV0aGFub2wtY29ybi5odG1s/607f07ceef=
+4b8524a319a23cB00bcb59c" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> Powering Their Jets With Corn</a>. Graysc=
+ale Trust Becomes =E2=80=98Live Betting Line=E2=80=99 for <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/33537957.286427/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMjkvZ3JheXNjYWxlLXRydXN0LWJlY2=
+9tZXMtbGl2ZS1iZXR0aW5nLWxpbmUtZm9yLXNwb3QtYml0Y29pbi1ldGY_Y21waWQ9QkJEMTEzM=
+DIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRt=
+X3Rlcm09MjMxMTMwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB9=
+7617981" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">  Spot Bitcoin ETF</a>. Bankrupt Bed Bath &amp; Beyond <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/33537957.286427/aHR0c=
+HM6Ly93d3cud3NqLmNvbS9idXNpbmVzcy9yZXRhaWwvYmFua3J1cHQtYmVkLWJhdGgtYmV5b25k=
+LXNlZWtzLTMwMC1taWxsaW9uLWZyb20tbXNjLWxpbmUtZm9yLXBhbmRlbWljLXNoaXBwaW5nLWN=
+oYXJnZXMtNGRiMGZlNzA_bW9kPWl0cF93c2o/607f07ceef4b8524a319a23cBfcd56df4" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> Seeks $300 Million From MSC Line</a> for Pandemic Shipping Charges. B=
+illionaires amass more through <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/33537957.286427/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMzk0NDIzNG=
+UtZTNiNC00NmZhLThjMmYtY2FkZWM3ODBlY2I0/607f07ceef4b8524a319a23cB9d7aa70e" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> inheritance</a> than wealth creation, says UBS. Elon Musk <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33537957.286427/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMjkvbXVzay1zYXlzLWFk=
+dmVydGlzZXItYm95Y290dC1vbi14LW1heS1raWxsLWl0LXNsaW5ncy1leHBsZXRpdmVzP2NtcGl=
+kPUJCRDExMzAyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbG=
+V0dGVyJnV0bV90ZXJtPTIzMTEzMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b85=
+24a319a23cB9ae2f517" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  Slings Expletives</a> at Advertisers Fleein=
+g X. =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/3353=
+7957.286427/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL2xpZmVzdHlsZS8yMDIzLzE=
+xLzI3L2Rvcml0b3Mtc2lsZW50LWdhbWluZy1jcnVuY2gtY2FuY2VsbGF0aW9uLw/607f07ceef4=
+b8524a319a23cBd9464310" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">Doritos Silent</a>, a crunch-cancellation s=
+oftware that removes the sound of chewing from voice chats, Zoom or any cal=
+ls that use headphones.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33537957.286427/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB965f05c8" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33537957.286427/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB7f4f53b7" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] In fact, in his first attempt, he put out =
+the press release after the market closed, and sold the next day at a loss.=
+ In two subsequent hoaxes he managed to get the press release in during mar=
+ket hours, but he still waited too long and sold at a loss.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] They =E2=80=A6 hedge? Originally the name =
+=E2=80=9Chedge fund=E2=80=9D described a business not unlike this, a long/s=
+hort fund that tried to be largely market-neutral and isolate investing ski=
+ll. But then =E2=80=9Chedge fund=E2=80=9D came to describe =E2=80=9C<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33537957.286427/aHR0cHM6L=
+y93d3cuZnQuY29tL2NvbnRlbnQvZTJiOGNlODQtZWM5ZC00YjNmLTg0OTktMmNjZmFlZTk0ZDU0=
+/607f07ceef4b8524a319a23cBdeb86fb3" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">a compensation scheme masquerad=
+ing as an asset class</a>,=E2=80=9D covering all sorts of private investmen=
+t vehicles, many of which took large unhedged directional market bets. But =
+the modern pod shop is a classically hedged hedge fund, one that tries to h=
+edge its market and factor exposures to capture only its managers=E2=80=99 =
+alpha.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] And, crucially, who are betting that this =
+question is uncorrelated to the broad market: If you take $100 million and =
+pay them back $150 million, it=E2=80=99s not because *widget prices went up=
+*, it=E2=80=99s because of your skill at identifying which widgets are bett=
+er, which is not particularly correlated to market conditions. In theory yo=
+ur fund should go up when widget prices are up, or down, or flat, because y=
+ou are not betting on widget prices generally but on specific mispricings. =
+</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] This is imprecise. The 56-to-1 leverage in=
+ repo is on the long-Treasury-bonds side; the futures leverage comes from t=
+he futures clearinghouse and is, you know, <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/33537957.286427/aHR0cHM6Ly93d3cuY21lZ3JvdXAuY29tL2=
+1hcmtldHMvaW50ZXJlc3QtcmF0ZXMvdXMtdHJlYXN1cnkvMzAteWVhci11cy10cmVhc3VyeS1ib=
+25kLm1hcmdpbnMuaHRtbCNzcGFuPXNwYW4/607f07ceef4b8524a319a23cB672960c6" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> 25-to-1</a>.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33537957.286427/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB712ec35f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33537957.286427/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBe0cfbdd7" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33537957.286427/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBe4b74586" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33537957.286427/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBd1a8c8af" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/33537957.286427/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB75904f8c" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/33537957.2864=
+27/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB4d72e92d" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/33537957.286427/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCfd82bd9c" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/33537957.286427/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBf3e8b598" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/33537957.286427/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBb47467f3" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33537957.286427/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBe=
+0634e0f" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33537957.286427/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB8=
+dc922bc" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjyu1x.650b/cd28e674.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_35286033_397229248.1701371395230--
+

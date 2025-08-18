@@ -80,7 +80,14 @@ class AtlasDailyReporter:
             "transcripts_found": 0,
             "transcripts_downloaded": 0,
             "active_podcasts": 0,
-            "discovery_runs": 0
+            "discovery_runs": 0,
+            "transcript_discovery": {
+                "total_transcripts": 0,
+                "podcasts_with_transcripts": 0,
+                "success_rate_percent": 0.0,
+                "last_discovery_run": None,
+                "patterns_learned": 0
+            }
         }
         
         # Check podcast database if exists
@@ -97,7 +104,49 @@ class AtlasDailyReporter:
                 cursor.execute("SELECT COUNT(*) FROM episodes WHERE status = 'found'")
                 activity["episodes_discovered"] = cursor.fetchone()[0]
                 
+                # Get transcript discovery stats
+                cursor.execute("""
+                    SELECT COUNT(*) FROM episodes 
+                    WHERE transcript_url IS NOT NULL OR transcript_status = 'found'
+                """)
+                activity["transcript_discovery"]["total_transcripts"] = cursor.fetchone()[0]
+                
+                cursor.execute("""
+                    SELECT COUNT(DISTINCT podcast_id) FROM episodes 
+                    WHERE transcript_url IS NOT NULL OR transcript_status = 'found'
+                """)
+                activity["transcript_discovery"]["podcasts_with_transcripts"] = cursor.fetchone()[0]
+                
+                # Calculate success rate
+                cursor.execute("SELECT COUNT(*) FROM episodes")
+                total_episodes = cursor.fetchone()[0]
+                if total_episodes > 0:
+                    success_rate = (activity["transcript_discovery"]["total_transcripts"] / total_episodes) * 100
+                    activity["transcript_discovery"]["success_rate_percent"] = round(success_rate, 2)
+                
                 conn.close()
+            except Exception:
+                pass
+        
+        # Check transcript pattern database
+        patterns_path = self.data_path / "podcasts" / "transcript_patterns.json"
+        if patterns_path.exists():
+            try:
+                import json
+                with open(patterns_path, 'r') as f:
+                    patterns = json.load(f)
+                    activity["transcript_discovery"]["patterns_learned"] = len(patterns)
+                    
+                    # Find most recent discovery run
+                    latest_run = None
+                    for podcast_data in patterns.values():
+                        if 'last_run' in podcast_data and podcast_data['last_run']:
+                            run_time = datetime.fromtimestamp(podcast_data['last_run'])
+                            if latest_run is None or run_time > latest_run:
+                                latest_run = run_time
+                    
+                    if latest_run:
+                        activity["transcript_discovery"]["last_discovery_run"] = latest_run.strftime("%Y-%m-%d %H:%M")
             except Exception:
                 pass
         
@@ -301,6 +350,16 @@ def generate_and_display_report():
     print(f"   • Active podcasts: {pod['active_podcasts']}")
     print(f"   • Episodes discovered: {pod['episodes_discovered']}")
     print(f"   • Transcripts found: {pod['transcripts_found']}")
+    print()
+    
+    print("🔍 TRANSCRIPT DISCOVERY:")
+    td = pod['transcript_discovery']
+    print(f"   • Total transcripts: {td['total_transcripts']}")
+    print(f"   • Podcasts with transcripts: {td['podcasts_with_transcripts']}")
+    print(f"   • Success rate: {td['success_rate_percent']}%")
+    print(f"   • Patterns learned: {td['patterns_learned']}")
+    if td['last_discovery_run']:
+        print(f"   • Last discovery: {td['last_discovery_run']}")
     print()
     
     print("💾 STORAGE USAGE:")

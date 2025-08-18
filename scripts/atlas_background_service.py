@@ -30,6 +30,7 @@ class AtlasBackgroundService:
         self.running = True
         self.last_podcast_check = datetime.now() - timedelta(hours=5)  # Force initial run
         self.last_article_retry = datetime.now() - timedelta(hours=13)  # Force initial run
+        self.last_transcript_discovery = datetime.now() - timedelta(days=8)  # Force initial run
         self.failed_tasks = []  # Track failed tasks for persistent retry
         self.consecutive_failures = 0  # Track consecutive failures for adaptive behavior
         
@@ -118,6 +119,80 @@ class AtlasBackgroundService:
             timeout=1800  # 30 minutes
         )
 
+    def transcript_discovery(self):
+        """Run weekly automated transcript discovery using learned patterns"""
+        logger.info("🔍 Running weekly transcript discovery...")
+        
+        # Run generic transcript discovery on all podcasts with existing transcripts
+        self.run_command(
+            "python scripts/generic_transcript_discovery.py",
+            "Bulk transcript pattern discovery",
+            timeout=3600  # 1 hour for full discovery
+        )
+
+    def process_capture_queue(self):
+        """Process content captured from Apple devices"""
+        logger.info("📱 Processing capture queue...")
+        
+        try:
+            # Import here to avoid circular imports
+            import sqlite3
+            from pathlib import Path
+            
+            db_path = self.base_dir / "data" / "podcasts" / "atlas_podcasts.db"
+            
+            if not db_path.exists():
+                return
+                
+            with sqlite3.connect(str(db_path)) as conn:
+                conn.row_factory = sqlite3.Row
+                
+                # Get queued captures
+                queued = conn.execute("""
+                    SELECT * FROM capture_queue 
+                    WHERE status = 'queued' 
+                    ORDER BY captured_at ASC
+                    LIMIT 10
+                """).fetchall()
+                
+                if queued:
+                    logger.info(f"📱 Found {len(queued)} items in capture queue")
+                    
+                    for capture in queued:
+                        try:
+                            # Update status to processing
+                            conn.execute("""
+                                UPDATE capture_queue 
+                                SET status = 'processing', processed_at = CURRENT_TIMESTAMP
+                                WHERE id = ?
+                            """, (capture['id'],))
+                            conn.commit()
+                            
+                            # Process based on content type - items already added to inputs/
+                            # Just mark as completed since background service will pick them up
+                            conn.execute("""
+                                UPDATE capture_queue 
+                                SET status = 'completed'
+                                WHERE id = ?
+                            """, (capture['id'],))
+                            conn.commit()
+                            
+                            logger.info(f"📱 Processed capture: {capture['content_type']} - {capture['content'][:50]}...")
+                            
+                        except Exception as e:
+                            logger.error(f"📱 Error processing capture {capture['id']}: {e}")
+                            
+                            # Update status to failed
+                            conn.execute("""
+                                UPDATE capture_queue 
+                                SET status = 'failed', error_message = ?
+                                WHERE id = ?
+                            """, (str(e), capture['id']))
+                            conn.commit()
+                            
+        except Exception as e:
+            logger.error(f"📱 Error in capture queue processing: {e}")
+
     def article_processing(self):
         """Process new articles from inputs/articles.txt"""
         logger.info("📄 Running article processing...")
@@ -195,6 +270,33 @@ class AtlasBackgroundService:
                     f"Running {script}",
                     timeout=1800
                 )
+    
+    def daily_exports(self):
+        """Run daily content exports for knowledge management integration"""
+        logger.info("📤 Running daily exports...")
+        
+        # Export recent content in multiple formats for different use cases
+        export_commands = [
+            # Obsidian export for last week's content
+            "python scripts/export_content.py --format obsidian --date-from week --output exports/daily/obsidian",
+            
+            # Markdown export for general use
+            "python scripts/export_content.py --format markdown --date-from week --output exports/daily/markdown",
+            
+            # JSON export for yesterday's content (API/programmatic use)
+            "python scripts/export_content.py --format json --date-from yesterday --output exports/daily/json",
+            
+            # Anki cards for recent podcast segments (learning)
+            "python scripts/export_content.py --format anki --content-type transcript --date-from week --limit 50 --output exports/daily/anki"
+        ]
+        
+        for cmd in export_commands:
+            export_type = cmd.split("--format ")[1].split(" ")[0]
+            self.run_command(
+                cmd,
+                f"Daily {export_type} export",
+                timeout=900  # 15 minutes per export
+            )
     
     def article_retry_maintenance(self):
         """Retry failed articles with enhanced strategies"""
@@ -276,6 +378,9 @@ class AtlasBackgroundService:
             self.podcast_maintenance()
             self.last_podcast_check = datetime.now()
         
+        # Process capture queue every cycle (5 minutes)
+        self.process_capture_queue()
+        
         # Process new articles every cycle (30 minutes)
         self.article_processing()
         
@@ -292,6 +397,13 @@ class AtlasBackgroundService:
             self.comprehensive_processing()
             self.last_comprehensive_run = datetime.now()
         
+        # Daily exports every 24 hours
+        if not hasattr(self, 'last_export_run'):
+            self.last_export_run = datetime.now() - timedelta(hours=25)
+        if datetime.now() - self.last_export_run > timedelta(hours=24):
+            self.daily_exports()
+            self.last_export_run = datetime.now()
+        
         # Article retry maintenance every 8 hours
         if datetime.now() - self.last_article_retry > timedelta(hours=8):
             self.article_retry_maintenance()
@@ -303,6 +415,16 @@ class AtlasBackgroundService:
         if datetime.now() - self.last_skyvern_run > timedelta(hours=6):
             self.skyvern_recovery()
             self.last_skyvern_run = datetime.now()
+        
+        # Weekly transcript discovery (Sundays)
+        if datetime.now() - self.last_transcript_discovery > timedelta(days=7):
+            # Check if it's Sunday (weekday 6) or force run if more than 8 days
+            current_day = datetime.now().weekday()
+            days_since_discovery = (datetime.now() - self.last_transcript_discovery).days
+            
+            if current_day == 6 or days_since_discovery > 8:  # Sunday or overdue
+                self.transcript_discovery()
+                self.last_transcript_discovery = datetime.now()
         
         # Retry failed tasks every cycle
         self.retry_failed_tasks()

@@ -1,0 +1,1905 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:458b:0:b0:18f:d063:66c1 with SMTP id m11csp535727lkd;
+        Thu, 13 Jan 2022 10:21:46 -0800 (PST)
+X-Received: by 2002:adf:d08e:: with SMTP id y14mr5382894wrh.343.1642098106579;
+        Thu, 13 Jan 2022 10:21:46 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1642098106; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=ks+DvuiGEgV+UYK5VI8GnKPtdlpHyuD/H8L8WUQKxIgeq0+1oJsNP3eTke+GFg9bUr
+         sYF/NYdu5izaGe3trb51MJ/QdfiPsh6mjDfYhL81cj+FAXw38UJSiCq22qTmlpV3RwNO
+         6fFsSfFyER8n/Ze7p9PXTPCyiPfJTNPTlLubhKfQS0CqgxVjhQtJilQmzWSfl2pJZg9J
+         cnw3IaShE8NbjZ9QrmjS1JBJXXi68+2bX6x/lmqScPF0btkzDUrNcNeBCwrt9iNSLGqT
+         MiO/4hIp6jF7O8KVfHZg7RITOa/+e+rk6WMd7BmSf2iUhTD2PY67Wm2XMezViybP7GHz
+         VIGg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=YxIIeL10ymSzOAc9QIXXGAJqNsC9+6zcJH+i00vzwcM=;
+        b=1DVRkEAGQZ9auv7WRQ0+K52RjRIl9mR+cDDotzjTYVqONwYSOdbpUVI0YQLzcCyyMz
+         c+L+Ku9p6+ax2bNLUNMBUBFtLRsNrWEfZu1SnO1XzmCNKBsXWJALmBZ+fAfOCFQGV0hD
+         ju9gqcVNjnTwxBC+/0Io2fSFUcLlzEbIdNYZKBEf54sPqbvnTS1B2wxudgGzaWCC1Jk9
+         S1vCmYOg2bxcZmjehIdLexLTM0fR2U5096RDEJLWoVvbPYSifYuAmIxp4RQ5RtagEvLK
+         3Wb1S/L2DFWP4GXHj9y10v6yq6inQpZ54ttuqX82lTTUFNePAI7UT3xVBJ+FP7CSs+/u
+         ilig==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=pzgNAJSI;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id v10sor2482438wrn.71.2022.01.13.10.21.46
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 13 Jan 2022 10:21:46 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=pzgNAJSI;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=YxIIeL10ymSzOAc9QIXXGAJqNsC9+6zcJH+i00vzwcM=;
+        b=f+wzw8Hci6AbYsEd+/iU7MSQFauXJCAeAjxAX7DMN64qVH1VgRMUsaKvORircONTjs
+         pbzxX3hPaZXyREsZk6fwRCwmuKu9MKTo0/54+HKxQRINQNQGFw8xHqT87tIBEgbl+bjY
+         7i8PWzHvI+1FwhwGFI+0WzObNTl66FXpx9C2w7jfWSVhw1RNgWSGBsnLQs5/fMNYWJXr
+         DpAl/ABUy5/WUUSiMYF++qKyNciOWqw8n0MgB+LGwe6ZK7jOBhF0b5PL+AScvWtCLl8Z
+         4klZV3qLm0TkzOE5ULaiFgLDOSn6kMM6qlGcsygD+h3EmhDFLpuDkN1BMj94MxZkwIXj
+         PGLg==
+X-Gm-Message-State: AOAM530VqzJFb7Z3TiWznzdvFW+k2F9ZbzghA+6vmtWDAjrq2TIm8+v6
+	1lmvHl58nBogmKVgSvGb55LGQ4JZQpQuZ7bDLx6rZTnXAsNgZbJaRubx
+X-Received: by 2002:a5d:51d2:: with SMTP id n18mr4840126wrv.441.1642098106018;
+        Thu, 13 Jan 2022 10:21:46 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:e483:0:0:0:0:0 with SMTP id i3csp476977wrm;
+        Thu, 13 Jan 2022 10:21:43 -0800 (PST)
+X-Received: by 2002:a9d:309:: with SMTP id 9mr2639035otv.293.1642098102751;
+        Thu, 13 Jan 2022 10:21:42 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1642098102; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=bqJKOKde6K4smOAVsOoo6rOnZbUL+TvH19ZZ73kcKahAaiw26E6iIClXALXedoN3WR
+         +63Yaf/fY4KxAu+IBIBWVU+jqJD7u33db95YMkDLn93pv+Y3AeWpdn3aM9x4kKFrEIne
+         eTADaCzUXjJIxReC8/p2Z/LRN+glBgezk6scLumyZfy2bHT1hvizmV/3nfd7Sh7X07pn
+         jaid9cVvDc90upKoiGj9bt8bOs2WMR+uh7gCGQx0rnAS8A4lic6bqjhdgOTK0Ybi8vKF
+         3YKjfOZz8vhLpb1H5h/x+P3IA+GQVZetnQv2Mlwue2rPVGngPOW/zAYBk3jGTcLmeZOt
+         7oSQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=YxIIeL10ymSzOAc9QIXXGAJqNsC9+6zcJH+i00vzwcM=;
+        b=1HgbBvvKH5NafJ61nd0VWAyDn3GA4cBH56sKqpQGnp9fjjqSuoH6z8jg8P/9CmGK6I
+         uO+TlDTmZjMKd6XzK6m2KdWz0UuHzRHS1PBOXSK3Fniina00NHE5/rl5XVzNm7C332XD
+         LcD1222n6F4ZgukqPM8GgA5CwK/AOS9SN0TvzMcd/c96EbfW3N7j5vYzh7QZlGhCQ4Rb
+         kiwSTLTksW5yfDPooft1dKUoQGx/tYUOb2HdbPNTeFuLuVlNvTF+bm05wzCT78DIWHgf
+         RGZSVR9178tXBiTraDq4eYqrgKb2X+5W4Pm9SrLBQ+nkSTIV6bVWe7+pxfLodrdCJD4M
+         rt1A==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=pzgNAJSI;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220113132056.26356098.267642@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220113132056.26356098.267642@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220113132056.26356098.267642@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id m13sor1626973ooj.9.2022.01.13.10.21.42
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 13 Jan 2022 10:21:42 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20220113132056.26356098.267642@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJxrcgQ0GLU4HYisAYWOGQ7oylo7mEK6d86ReB2MuwMxWEKapwIVnTtFFGdYa3HydQ1/gCgSHgOit1uyiRzd3fP638JEOaU=
+X-Received: by 2002:a4a:ae0a:: with SMTP id z10mr3804377oom.34.1642098102424;
+        Thu, 13 Jan 2022 10:21:42 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1642098102; cv=none;
+        d=google.com; s=arc-20160816;
+        b=tfn046T9FJa5yfcFO2VP90Ri2kjuYYC4DupOL7zt//7CNlqKEJ+br666CO9I8XT744
+         ZL3m0LBX/yJ6Z568extNNyV3k41T4HhBE05+hJdNk+nM2pL4ZtQoU+P7JJBqhu9WIt8B
+         13Te8f5ZNobkDq92t5sttKkRyps6rTXi2X8cGCMHlbG7hPmdeVxGOxVf9108QfgZjlp7
+         oFuxMHjrSP+bfg/aLJqkt9YFFUYAI4uCY8KlxIjaAgPz2LbIXhtFurbHFM6zm9beXgkA
+         mw3r/6AQ/pEqybyGJU7BkBgBjxg0GgzOC1eqSZ4Q8AKuXhlpZhqRCEMm4ss2rqEZFCkS
+         F5cA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=YxIIeL10ymSzOAc9QIXXGAJqNsC9+6zcJH+i00vzwcM=;
+        b=Bp8n5D19Astb5SJV2NqghqZmUPwGzyzncRQZMGfCbHw4NLm59Ge9LwXlbdrFv/DLr1
+         XtRlrMrxZlPh+Y0fVOnqtbedTzcbB4kRySXYZlE8cuKqgE1mvJrfi1B+v0PfiaUiRbYU
+         13oLiM01YoTor2EYQEY0AxbVjwXODBW9AC9zzdQFeJhqp+0Xl5dI1OYOKAhjiji3dY+b
+         kwbGQJOofOZ7Eb2P6AyPAhNiNE27KCqvVphqBweKzIIpWvcbtGRz423q1Qw89fP+aJlK
+         e6rNUfimnpyCRNilu2gNC4eJdGRffh84kIlaHIuRSEBnEu+Ni37wxqgX7y0+NcvpGLrE
+         SeSQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=pzgNAJSI;
+       spf=pass (google.com: domain of delivery_20220113132056.26356098.267642@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20220113132056.26356098.267642@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220113132056.26356098.267642@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id e16si209233otf.1.2022.01.13.10.21.40
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 13 Jan 2022 10:21:42 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20220113132056.26356098.267642@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=wLdbWMJXtd9saLmz91A7PDbvNTmVQsjx4+mh8+N3Fv0=;
+ b=pzgNAJSIbqajkaQ1LcpkrekMXkLoLURoVdIBkAZK++FDiegWxpeFHItwhPSuJCXjJou3s3g5Bqsk
+   dhFrezBX2teEpiD3rahxPALh4TYTHRkZSyewAXiCwZAmV20F8uxDwXCRnLcieGvwG9f23w/uoQ/g
+   A7glCYmPR3T/KYlXVT0=
+Received: from mtast-04.sailthru.com (204.153.121.10) by pmta29.sailthru.com id hs1mr22sd4s8 for <bloomberg@khamel.com>; Thu, 13 Jan 2022 13:21:37 -0500 (envelope-from <delivery_20220113132056.26356098.267642@mx.sailthru.com>)
+Received: from nj1-oddlime.flt (172.18.20.14) by mtast-04.sailthru.com id hs1mr01s6j09 for <bloomberg@khamel.com>; Thu, 13 Jan 2022 13:20:56 -0500 (envelope-from <delivery_20220113132056.26356098.267642@mx.sailthru.com>)
+Date: Thu, 13 Jan 2022 13:20:56 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220113132056.26356098.267642@sailthru.com>
+Subject: Money Stuff: Congress Might Have to Stop Trading Stocks
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_7140431_339359471.1642098056564"
+Precedence: bulk
+X-Feedback-ID: 6358:26356098:campaign:sailthru
+X-TM-ID: 20220113132056.26356098.267642
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-oddlime.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfowhu.5qii/b343f996
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfowhu.5qii/b343f996>, <mailto:unsubscribe_20220113132056.26356098.267642@mx.sailthru.com>
+X-rpcampaign: stjko26356098
+
+------=_Part_7140431_339359471.1642098056564
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow and Monday, back=
+ on Tuesday.Stock Act III have probably been doing this too long, because
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow and Monday, ba=
+ck on Tuesday.
+ =20
+   =20
+      Stock Act II
+   =20
+ =20
+I have probably been doing this too long, because I remember there were som=
+e scandals about congresspeople trading stocks, and everyone was like =E2=
+=80=9Cwell congressional insider trading seems pretty illegal already, but =
+just in case let=E2=80=99s pass a law making it illegal,=E2=80=9D and so Co=
+ngress passed the STOCK Act, for =E2=80=9CStop Trading On Congressional Kno=
+wledge,=E2=80=9D and now it=E2=80=99s extra illegal for congresspeople to t=
+rade stocks on the basis of nonpublic information that they learn in their =
+jobs. This happened in 2012. I must say that the=C2=A0STOCK Act has signall=
+y failed in its core purpose, which was to make the U.S. public confident t=
+hat congresspeople are not insider trading stocks, because there are somewh=
+at frequent scandals these days about congresspeople making well-timed stoc=
+k trades. These scandals lead to occasional inquiries but really=C2=A0no pr=
+osecutions,[1] so I assume that for the most part congresspeople are not=C2=
+=A0in fact insider trading based on information they get in their jobs, tho=
+ugh sometimes the publicly available facts do look kind of bad.But never mi=
+nd that, the point is that:=09People do not trust that congresspeople are n=
+ot insider trading, and are mad at Congress about it, but=09There is alread=
+y a very clear law saying that congresspeople are not allowed to insider tr=
+ade.So just writing a law saying =E2=80=9Ccongresspeople are even more not =
+allowed to insider trade stocks=E2=80=9D does not seem helpful.[2] The obvi=
+ous next move is to instead write a law saying =E2=80=9Ccongresspeople are =
+not allowed=C2=A0to trade stocks at all, just in case they are tempted to i=
+nsider trade,=E2=80=9D=C2=A0and here you go:A pair of Senate Democrats intr=
+oduced a bill on Wednesday that would ban members of Congress and their fam=
+ilies from making stock trades while in office.The bill, dubbed the Ban Con=
+gressional Stock Trading Act, would require that all sitting members of Con=
+gress, their spouses and dependent children divest from certain investments=
+ or transfer them into a qualified blind trust within 120 days of the legis=
+lation being enacted. Incoming members of Congress and their families would=
+ have to do the same within 120 days of taking office.The legislation is sp=
+onsored by Sens. Jon Ossoff (D-Ga.) and Mark Kelly (D-Ariz.).Here is the=C2=
+=A0summary of the bill, and here is the bill text. Basically owning stocks =
+or bonds, or derivatives on stocks or bonds, would not be allowed except in=
+ a blind trust. Diversified=C2=A0mutual funds and exchange-traded funds are=
+ allowed, as are U.S. Treasuries; =E2=80=9Cdiversified=E2=80=9D here means =
+that a fund or ETF=C2=A0=E2=80=9Cdoes not have a stated policy=C2=A0of conc=
+entrating its investments in any industry,=C2=A0business, single country ot=
+her than the United=C2=A0States, or bonds of a single State.=E2=80=9D[3] So=
+ broad-market stock funds would be allowed but sector ETFs would not. (Exer=
+cises for the reader: Is the ARK Innovation ETF allowed? What about a lever=
+aged VIX ETF?)This strikes me as more or less sensible as a general matter,=
+ both because in general I am a=C2=A0tiny bit suspicious of people with dem=
+anding non-financial jobs who spend a lot of time trading portfolios of ind=
+ividual stocks, sorry,[4] and because in particular congresspeople make imp=
+ortant decisions that might be=C2=A0influenced=C2=A0by their stock=C2=A0own=
+ership. If=C2=A0you go to Congress and ask it to approve a law that is good=
+ for America but bad for the profits of health-insurance companies or defen=
+se contractors or oil companies or whatever, you do not want Congress to re=
+ject the law because too many senators own concentrated positions in the af=
+fected stocks. I don=E2=80=99t know how practical an improvement this is =
+=E2=80=94=C2=A0the health-insurance companies and defense contractors and s=
+o forth have other ways of getting senators on their side, and despite the =
+name you might still know what you own in a =E2=80=9Cblind trust=E2=80=9D=
+=C2=A0=E2=80=94=C2=A0but symbolically I suppose it is nice not to have too =
+many congresspeople who appear to have a financial bias in favor of individ=
+ual companies.But that is not a point about trading.=C2=A0The advantage=C2=
+=A0of this bill is that it restricts=C2=A0owning=C2=A0single stocks,=C2=A0a=
+nd that=C2=A0ownership is what creates conflicts of interest.[5]My quibble =
+here is that this bill is clearly being introduced in reaction to public co=
+mplaints about well-timed congressional trades, and I do not see at all how=
+ it could address those complaints? It seems somewhat unusual for Congress =
+to get a lot of material nonpublic information about=C2=A0individual compan=
+ies. The well-timed congressional trading we have discussed most around her=
+e =E2=80=94=C2=A0the trading that led to a Justice Department=C2=A0inquiry =
+(that was closed without charges) =E2=80=94=C2=A0was when Senator Richard B=
+urr dumped a bunch of stocks=C2=A0after he got an intelligence committee=C2=
+=A0briefing about the coronavirus in mid-February 2020, just before the sto=
+ck market cracked. He happened to sell a bunch of individual stocks, some o=
+f which (hotels, etc.) were particularly hard-hit by the pandemic. But if=
+=C2=A0he had held only broad index funds, he probably would have sold those=
+, and it probably would have worked out well for him (the S&P 500 lost a th=
+ird of its value in the five weeks after he sold), and people definitely wo=
+uld have thought he insider traded. If the head of the CIA comes to your co=
+mmittee and says =E2=80=9Cit's gonna be a disaster, sell everything,=E2=80=
+=9D and you sell your S&P 500 index fund, no one will be like =E2=80=9Coh t=
+hat seems fine.=E2=80=9DIn fact, we know exactly how that would go.=C2=A0Al=
+ongside various congressional trading mini-scandals there has been a medium=
+-sized scandal involving well-timed trades at the Federal Reserve; three im=
+portant Fed officials have resigned over their trading. Two of those did in=
+dividual=C2=A0stock trades, but the most recent resignation is from Richard=
+ Clarida, the vice chair of the Fed, whose sin was rotating out of a divers=
+ified bond fund into some diversified stock funds on Feb. 27,=C2=A02020, =
+=E2=80=9Cone day before Chair Jerome Powell issued a statement flagging pos=
+sible policy action as the pandemic worsened.=E2=80=9D Here is Senator=C2=
+=A0Elizabeth Warren=E2=80=99s letter asking the Securities and Exchange Com=
+mission to investigate Clarida. And, sure,=C2=A0if you work at the Fed you =
+will get a certain amount of useful macro=C2=A0information, which you could=
+ use to trade broadly diversified market indexes, and then people will get =
+mad at you.[6]Anyway, I=E2=80=99ll see you back here in a year, when this b=
+ill has been enacted and some senator is in trouble because she got a secre=
+t intelligence briefing=C2=A0about who Russia was going to invade next and =
+ran out and sold all of her shares in a diversified European stock index fu=
+nd. Why would that be better?I don=E2=80=99t exactly know how to solve this=
+. One reader suggested allowing congresspeople to trade whatever they want,=
+ but only on a multi-month lag. This would be along the lines of  the SEC=
+=E2=80=99s proposed changes to Rule 10b5-1 trading plans for corporate exec=
+utives: You write down a binding plan to buy or sell stocks or bonds or mut=
+ual funds or whatever, you give it to your broker, your broker waits (say) =
+four=C2=A0months and then executes whatever you told her to do. If you had =
+inside information when you wrote the plan, it=E2=80=99s no longer useful f=
+our months later when you trade. Ideally (unlike in the 10b5-1 proposals) t=
+he plans are disclosed when they=E2=80=99re written, so your constituents k=
+now about it in advance, and they can=E2=80=99t be canceled. Then, when you=
+r broker does the trades and everyone is like =E2=80=9Cthese are suspicious=
+ly well-timed trades,=E2=80=9D you can say =E2=80=9Cno, they were automatic=
+, you knew about them in advance.=E2=80=9D It=E2=80=99s something I guess.=
+=C2=A0
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Private equity fees
+   =20
+ =20
+We  talked last year about a simple bit of private equity math. If you run =
+a private equity firm, you manage a bunch of people=E2=80=99s money and you=
+ collect a management fee of, traditionally,=C2=A02% per year. If you manag=
+e $10 billion, you make $200 million a year. It is nice to have an income o=
+f $200 million a year. But it gets better. If you have a fairly reliable in=
+come of $200 million a year, you can package it and sell it. If you find an=
+ investor who wants a 10% return on their money, you can sell them a $200 m=
+illion stream of fees for $2 billion right now. Or you can sell them 20% of=
+ that stream for $400 million right now, and keep the other 80% =E2=80=94=
+=C2=A0now valued at $1.6 billion =E2=80=94=C2=A0for yourself.This is good f=
+or you, for a few reasons. One is that you can get a lot of money right now=
+, to buy yachts or whatever. Another is that now you are a billionaire: If =
+you make $200 million a year, pay 50% in taxes, and save 80% of what=E2=80=
+=99s left, it will take you about 12 years or so to become a billionaire (i=
+n the sense of having $1 billion of cash); if you=C2=A0own a business=C2=A0=
+with that profile and it=E2=80=99s valued at $2 billion, then you=E2=80=99r=
+e a billionaire right now (in the sense of owning a $2 billion business). I=
+f you have an income, you accrue wealth gradually; if you=C2=A0own an incom=
+e stream, you have wealth now. This is an entirely metaphysical point =E2=
+=80=94=C2=A0the economics are the same either way =E2=80=94=C2=A0but I supp=
+ose it matters. A third advantage is that if you own a business and sell a =
+portion of that business then you probably have capital-gains income, while=
+ if you just collect fees you have ordinary income, and capital gains are t=
+axed at lower rates than ordinary income, so you keep more of the money you=
+ generate.=C2=A0And so it is quite sensible for the owner-managers of priva=
+te equity firms to sell their firms, or at least to sell stakes in them. Th=
+ey can do this privately =E2=80=94=C2=A0to, like, meta-private-equity firms=
+ that buy stakes in private equity firms=C2=A0=E2=80=94=C2=A0or they can se=
+ll stakes=C2=A0to the public in=C2=A0an initial public offering.But this de=
+scription oversimplifies private equity in one important respect. If you ru=
+n a private equity firm, you collect a management fee of about 2% a year, b=
+ut you also collect a=C2=A0performance fee, traditionally about 20% of the =
+returns you make for your clients. If you manage $10 billion and return 15%=
+=C2=A0a year, you make about $200 million a year in management fees and $30=
+0 million ($10 billion times 15% returns times 20% performance fee) a year=
+=C2=A0in performance fees.This is nice for you. But it is harder to=C2=A0se=
+ll. Past performance does not guarantee future results, and if you return 1=
+5% this year you might return 0% next year.[7] An investor looking for a st=
+eady stream of income might look at your stream of management fees and say =
+=E2=80=9Cthis is a good stream of fees, you seem to have some loyal clients=
+, I am willing to bet that you=E2=80=99ll keep collecting fees much like th=
+is for a good long time=E2=80=9D and buy that stream of fees for a high pri=
+ce. That investor might look at your stream of performance fees and say =E2=
+=80=9Chuh you had a good year last year but the market was up, I have no id=
+ea if you=E2=80=99ll have a good year next year, I=E2=80=99m sure this stre=
+am of fees is worth something but it=E2=80=99s hard for me to know how much=
+=E2=80=9D and buy that stream of fees for a low price.You, meanwhile, think=
+ that it=E2=80=99s worth a high price. For one thing, you have a lot of vis=
+ibility into your deals and your pipeline and so you can underwrite your fu=
+ture performance better than an outside investor can. For another thing, yo=
+u have a lot of confidence in yourself, otherwise you wouldn=E2=80=99t be d=
+oing this.So the obvious move, for the managers of private equity firms, is=
+ to sell off their management fees and keep their performance fees.You coul=
+d imagine various complicated financial-engineering-y ways to do this (=E2=
+=80=9Csecuritize the management fees=E2=80=9D or whatever), but in fact the=
+ simplest way to sell this stuff into a big liquid market is to do an initi=
+al public offering of=C2=A0stock, that is,=C2=A0ownership=C2=A0of the entir=
+e private equity firm. So if you manage private equity funds, you incorpora=
+te the management company that manages those funds, and then you sell share=
+s in that company to the public. And then the public owns (some share of) t=
+he entire income of that management company, both the management fees (stab=
+le, sticky, valuable) and the performance fees (variable, at-risk, discount=
+ed).=C2=A0Except that you continue to=C2=A0run=C2=A0the firm. And you conti=
+nue to set employee=C2=A0compensation. And so you can say to shareholders: =
+=E2=80=9CYou know what, we=E2=80=99re going to go public, but we=E2=80=99re=
+ going to keep paying ourselves all of the performance fees, because we lik=
+e those fees and you don=E2=80=99t, and you can have the management fees, b=
+ecause you like those fees more than we do.=E2=80=9D And that seems fine.TP=
+G Inc., a big private equity firm,=C2=A0priced its initial public offering =
+last night, and it more or less did that? Here's Antoine Gara at the Financ=
+ial Times:US buyout group TPG=E2=80=99s initial public offering on Thursday=
+ will establish a tectonic change in the private equity industry, as a wave=
+ of firms list shares by offering stockholders a smaller claim on their luc=
+rative, but irregular, performance fees.TPG is restructuring its finances a=
+s part of its IPO to offer shareholders just 20 per cent of its future perf=
+ormance-based profits, the firm said in its prospectus, down from 50 per ce=
+nt had the change not been made.Industry executives have dubbed TPG=E2=80=
+=99s structure a =E2=80=9Cnext-generation=E2=80=9D private equity IPO =E2=
+=80=94 one that gives public shareholders less of a slice of performance fe=
+es, but more from steadier management fees.=E2=80=9CIt is the new standard,=
+=E2=80=9D said Saul Goodman, head of alternative asset management banking a=
+t Evercore. =E2=80=9CAlmost every banker in the space that=E2=80=99s advisi=
+ng private equity firms on IPOs currently is advising to not contribute a l=
+arge percentage of performance fees into the public company.=E2=80=9DAnalys=
+ts and investors are attracted to private equity=E2=80=99s management fee i=
+ncome because it is steady and easy to model, according to bankers and priv=
+ate equity executives. Meanwhile, they discount performance-based profit be=
+cause it can fluctuate with market conditions and is harder to predict.=E2=
+=80=9CThe public values management fee earnings much more than the dealmake=
+rs inside firms, who are incentivised largely by carried interest,=E2=80=9D=
+ said Joseph Lombardo, head of the private equity general partnership advis=
+ory practice at investment bank Houlihan Lokey. ...Publicly traded firms ha=
+ve seen their valuations soar to 25 to 30 times their management fee-based =
+earnings, said insiders, but the groups still receive valuations of just fi=
+ve to 10 times their investment profits.=C2=A0The financial engineering req=
+uired here is pretty minimal, though TPG does a bit more than required. The=
+re=E2=80=99s an entity (=E2=80=9CRemainCo=E2=80=9D) that will be owned by T=
+PG partners and will collect a slice of the performance fees that varies ov=
+er time and from fund to fund, but you can ignore that;=C2=A0mostly the way=
+ the allocation works is just that TPG has said, in a footnote to its finan=
+cial statements, that it plans to pay most of the performance fees to emplo=
+yees. From the prospectus:Subject to certain exceptions, we expect RemainCo=
+ to be entitled to between 10% and 15% of [performance fees], and to alloca=
+te generally between 65% and 70% indirectly to our partners and professiona=
+ls through performance allocation vehicles and Promote Units, with the rema=
+ining 20% available for distribution to the TPG Operating Group Common Unit=
+ holders.And because doing this does not=C2=A0require that much in the way =
+of legal structuring etc., other already-public firms are doing it too; fro=
+m Gara=E2=80=99s article:Old-line listed private equity firms are adjusting=
+ their economics to look more like newer entrants.In February 2021, KKR rev=
+ealed that it would change the way it compensates employees, shifting from =
+paying more than 40 per cent of overall management and performance-based fe=
+e earnings to insiders. Now, it pays up to 25 per cent of management fee-ba=
+sed earnings to employees, but up to 70 per cent of performance-fee-based e=
+arnings, a move that has increased public shareholders=E2=80=99 claim on ma=
+nagement fees and insiders=E2=80=99 claim on performance profits.Apollo sai=
+d in November that it would cap pay for insiders at 25 per cent of manageme=
+nt fee-based earnings, but raise payouts from performance fees from 50 per =
+cent to as much as 70 per cent. Disclosures made by Blackstone in the secon=
+d quarter show it is making similar changes.It is a pleasingly simple solut=
+ion in a complex business. =E2=80=9CWe are going to give shareholders the s=
+tuff they want and keep the other stuff for ourselves.=E2=80=9D Why not?
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Deterrence
+   =20
+ =20
+How do you deter financial misconduct? This is, I think, a complicated ques=
+tion. There is the standard criminological deterrence debate, in which you =
+could either focus on catching as much misconduct as possible (and punishin=
+g it somewhat mildly) or instead catch fewer perpetrators but punish them m=
+ore harshly to send a message. Arguably financial criminals are=C2=A0especi=
+ally=C2=A0subject to deterrence =E2=80=94=C2=A0they are rational cost-benef=
+it calculators, they have a lot to lose from being caught, etc. =E2=80=94=
+=C2=A0but there is also an argument that a lot of financial crime falls in =
+gray areas of intent or legality and you can=E2=80=99t deter someone from d=
+oing something she doesn=E2=80=99t know is illegal. Anyway though the answe=
+r is =E2=80=9Cwhen you catch people doing financial crime you should tweet =
+about it=E2=80=9D:This paper presents the first evidence of the effect of f=
+inancial regulators=E2=80=99 social media use on corporate and individual b=
+ehavior. Using the staggered launch of U.S. Securities and Exchange Commiss=
+ion (SEC) regional offices=E2=80=99 Twitter accounts, I find that financial=
+ regulators=E2=80=99 presence on social media reduces opportunistic insider=
+ trading, customer complaints against investment advisers, and financial mi=
+sreporting. Additional tests suggest that the salience and dissemination of=
+ regional offices=E2=80=99 enforcement activities via Twitter play a role. =
+The deterrence effect of SEC regional offices=E2=80=99 Twitter use is conce=
+ntrated among offices with more followers, =EF=AC=81rms with more retail in=
+vestors, and advisers with more retail clients. I also show that investors =
+react more strongly to enforcement actions after the enforced =EF=AC=81rm=
+=E2=80=99s regional office=C2=A0initiates Twitter use. Taken together, the =
+results suggest that financial regulators=E2=80=99 use of social media help=
+s deter misconduct.That is the abstract to =E2=80=9CRegulating via Social M=
+edia: Deterrence E=EF=AC=80ects of the SEC's Use of Twitter,=E2=80=9D by Ji=
+njie Lin at Yale. I think in some ways this is a complement to the stuff ab=
+out congressional insider trading. If you get the sense that the law is nev=
+er enforced and people can do bad financial stuff with impunity, you might =
+become sad and cynical and disillusioned, and you might do some insider tra=
+ding yourself. If you get the sense that the law is often enforced and that=
+ every day your local SEC office is catching people doing bad stuff, maybe =
+you=E2=80=99ll follow the law yourself.Or perhaps you=E2=80=99ll study thos=
+e enforcement actions closely and get better at=C2=A0insider trading withou=
+t getting caught? I guess that might look the same in the data.
+ =20
+   =20
+      EthereumMax
+   =20
+ =20
+I have to say, if you are a plaintiffs=E2=80=99 lawyer and you see=C2=A0Kim=
+ Kardashian and Floyd Mayweather Jr. post unqualified endorsements of some =
+nonsensical cryptocurrency on social media, you should really drop whatever=
+ you=E2=80=99re doing and type up a lawsuit right away. How hard can it be?=
+ How did this take so long?Kim Kardashian, Floyd Mayweather Jr. , and Paul =
+Pierce are among a number of celebrities being sued for allegedly leading i=
+nvestors into a cryptocurrency =E2=80=9Cpump and dump=E2=80=9D scam.The cel=
+ebrities and other defendants are accused of making =E2=80=9Cfalse or misle=
+ading statements to investors about EthereumMax through social media advert=
+isements and other promotional activities,=E2=80=9D according to the class-=
+action complaint filed last Friday in the U.S. District Court for the Centr=
+al District of California. In addition to the three celebrities, defendants=
+ include the co-founders of the company and others.The lawsuit alleges Ethe=
+reumMax is a =E2=80=9Cspeculative digital token created by a mysterious gro=
+up of cryptocurrency developers.=E2=80=9D It says the celebrities told thei=
+r millions of social-media followers to buy the cryptocurrency, only to sel=
+l when the price was inflated.=C2=A0Ryan Huegerich, a New York resident, fi=
+led the complaint on behalf of himself and others who purchased EMAX tokens=
+ between May 14, 2021, and June 27, 2021, and lost money, according to the =
+filing.=C2=A0Here is the complaint. Here is the EthereumMax price chart. Et=
+hereumMax launched at=C2=A0$0.00000005875 and got as high as=C2=A0$0.000000=
+863 before falling back to a low of=C2=A0$0.000000017, these numbers are al=
+l absurd but the point is that the high one has six zeroes and the low ones=
+ have seven. I do think that there is a certain rough honesty and transpare=
+ncy in these things in that, if you bought EthereumMax, your thought proces=
+s has to have been =E2=80=9CI am going to buy this thing because Kim Kardas=
+hian is Instagramming about it,=E2=80=9D which she was, so the price went u=
+p, and then she stopped, so the price went down. Like, who was deceived abo=
+ut what? What did you think EthereumMax was going to do, other than go up w=
+hen Kim Kardashian posted about it and go down when she stopped?
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Goldman's  Commodities Trading Desk Dodged the Ax and Is Minting Billions A=
+gain.=C2=A0Goldman Sachs Postpones Its  Return to Office Again to Wait Out =
+the Covid Surge. Robinhood Tells Employees They Can Work From Home Permanen=
+tly. Robinhood CFO Doesn=E2=80=99t Plan to Put =E2=80=98Meaningful Amount=
+=E2=80=99 of Cash Into Crypto Assets. Americans Say They Need to Earn $128,=
+000 to Feel  Financially OK. =E2=80=9CThe Food and Drug Administration (FDA=
+ or we) is revoking the standard of identity for French dressing.=E2=80=9D =
+Counterfeit bourbon. Richard Handler was bullied in high school for being s=
+hort. Pope makes surprise visit to Rome record store, gets classical CD.If =
+you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in =
+your inbox, please=C2=A0subscribe at this link. Or you can subscribe to Mon=
+ey Stuff and other great Bloomberg newsletters here. Thanks![1] =E2=80=9CCh=
+ris Collins,=E2=80=9D you say, but I disagree. Collins, a former congressma=
+n from New York, was arrested and ultimately sentenced to 26 months in pris=
+on for insider trading at a congressional picnic, but he insider traded=C2=
+=A0by tipping his son about a drug company whose board he was on =E2=80=94=
+=C2=A0*not* about congressional business. It=E2=80=99s regular insider trad=
+ing by a corporate insider who happened to be in Congress, but it=E2=80=99s=
+ not congressional=C2=A0insider trading in the sense we=E2=80=99re talking =
+about.[2] =E2=80=9CWe need better enforcement of the existing law,=E2=80=9D=
+ you say, but get outta here with that. Prosecutors and regulators have *to=
+ns* of incentive to catch congressional insider traders, and people are con=
+stantly calling their attention to alleged instances of congressional insid=
+er trading.[3] So owning municipal bonds =E2=80=94 directly, or through a y=
+our-state=E2=80=99s-bonds mutual fund =E2=80=94=C2=A0is banned? Seems a bit=
+ harsh.[4] In part because it seems like an expensive niche hobby. That see=
+ms to be broadly true of Congress too, by the way; it seems like congresspe=
+ople are not especially good at trading stocks.=C2=A0[5] Conflicts that cou=
+ld in theory be resolved by trading. Like if you came to Congress with a re=
+ally good bill that would hurt the profits of health insurers, and a powerf=
+ul senator owned a bunch of health-insurance stocks, it might be strictly g=
+ood for the world if she could quietly dump those stocks before announcing =
+her support for the bill. Insider trading! But much better than the alterna=
+tive where she can=E2=80=99t dump the stocks so she kills the bill to prote=
+ct her investment.[6] I should also point out that Clarida=E2=80=99s trades=
+ (buying diversified stock funds) happened two weeks after Burr=E2=80=99s (=
+selling a diverse list of individual stocks), during the very beginning of =
+coronavirus panic in the U.S. The market was going down.=C2=A0By March 23, =
+the market bottom, the S&P 500 was down 33% from where Burr sold and down 2=
+5% from where Clarida *bought*. Clarida=E2=80=99s trades were *not* particu=
+larly well-timed. (Though he had also done some better trading in the same =
+funds a few days earlier, and failed to disclose that.)[7] In private equit=
+y it is even worse than this because you are not running a public portfolio=
+ that is marked to market every year, you are estimating performance alloca=
+tions and getting lumpy realizations when you sell companies.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfowhu.5qii/b4afca03.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_7140431_339359471.1642098056564
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow and Monday, back on Tues=
+day.Stock Act III have probably been doing this too long, because
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNjM1NjA5OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2MjM3NDAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB7c668492" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D26356098&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26623740&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMTEzMjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAxMTMmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB394afb53"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNjM1NjA5OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2MjM3NDAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC3c302577" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D26356098&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26623740&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow and Monday, back on Tuesday.</em></p><table class=
+=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+>
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Stock Act II</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I have probably been doing this too lo=
+ng, because I remember there were some scandals about congresspeople tradin=
+g stocks, and everyone was like =E2=80=9Cwell congressional insider trading=
+ seems pretty illegal already, but just in case let=E2=80=99s pass a law ma=
+king it illegal,=E2=80=9D and so Congress passed the STOCK Act, for =E2=80=
+=9CStop Trading On Congressional Knowledge,=E2=80=9D and now it=E2=80=99s e=
+xtra illegal for congresspeople to trade stocks on the basis of nonpublic i=
+nformation that they learn in their jobs. This happened in 2012. I must say=
+ that the=C2=A0STOCK Act has signally failed in its core purpose, which was=
+ to make the U.S. public confident that congresspeople are not insider trad=
+ing stocks, because there are somewhat frequent scandals these days about c=
+ongresspeople making well-timed stock trades. These scandals lead to <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDUtMTQvc2VuYXRvci1=
+zLXN0b2NrLXRyYWRlcy1tYWtlLXRyb3VibGU_Y21waWQ9QkJEMDExMzIyX01PTkVZU1RVRkYmdX=
+RtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMTEzJnV0b=
+V9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBeb963912" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">occa=
+sional inquiries</a> but really=C2=A0<a href=3D"https://link.mail.bloomberg=
+business.com/click/26356098.267642/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8w=
+MS8xOS91cy9wb2xpdGljcy9yaWNoYXJkLWJ1cnItc3RvY2stdHJhZGVzLWludmVzdGlnYXRpb24=
+uaHRtbA/607f07ceef4b8524a319a23cB954690fd" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">no prosecutions</a>,[1] =
+so I assume that for the most part congresspeople are not=C2=A0in fact insi=
+der trading based on information they get in their jobs, though sometimes t=
+he publicly available facts do look <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/26356098.267642/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjAtMDMtMjAvc2VuYXRvcnMtcGlja2VkLWEtZ29vZC10aW1lLXRvLXNl=
+bGwtc3RvY2tzP2NtcGlkPUJCRDAxMTMyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXR=
+tX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDExMyZ1dG1fY2FtcGFpZ249bW9uZXlzdH=
+VmZg/607f07ceef4b8524a319a23cB955da7de" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">kind of bad</a>.</p><p styl=
+e=3D"margin: 16px 0;">But never mind that, the point is that:</p><ol style=
+=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li s=
+tyle=3D"margin-bottom: 5px;">People do not trust that congresspeople are no=
+t insider trading, and are mad at Congress about it, but</li>=09<li style=
+=3D"margin-bottom: 5px;">There is already a very clear law saying that cong=
+resspeople are not allowed to insider trade.</li></ol><p style=3D"margin: 1=
+6px 0;">So just writing a law saying =E2=80=9Ccongresspeople are even more =
+not allowed to insider trade stocks=E2=80=9D does not seem helpful.[2] The =
+obvious next move is to instead write a law saying =E2=80=9Ccongresspeople =
+are not allowed=C2=A0<em>to trade stocks at all</em>, just in case they are=
+ tempted to insider trade,=E2=80=9D=C2=A0and <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/26356098.267642/aHR0cHM6Ly90aGVoaWxsLmNvbS9wb2xp=
+Y3kvZmluYW5jZS81ODk1MDEtc2VuYXRlLWRlbW9jcmF0cy1pbnRyb2R1Y2UtYmlsbC10by1iYW4=
+tc3RvY2stdHJhZGVzLWluLWNvbmdyZXNz/607f07ceef4b8524a319a23cB3f2febb6" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">here you go</a>:</p><blockquote><p style=3D"margin: 16px 0;">A pair of Se=
+nate Democrats introduced a bill on Wednesday that would ban members of Con=
+gress and their families from making stock trades while in office.</p><p st=
+yle=3D"margin: 16px 0;">The bill, dubbed the Ban Congressional Stock Tradin=
+g Act, would require that all sitting members of Congress, their spouses an=
+d dependent children divest from certain investments or transfer them into =
+a qualified blind trust within 120 days of the legislation being enacted. I=
+ncoming members of Congress and their families would have to do the same wi=
+thin 120 days of taking office.</p><p style=3D"margin: 16px 0;">The legisla=
+tion is sponsored by Sens. Jon Ossoff (D-Ga.) and Mark Kelly (D-Ariz.).</p>=
+</blockquote><p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/26356098.267642/aHR0cHM6Ly93d3cub3Nzb2ZmLnN=
+lbmF0ZS5nb3Yvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDEvQkFOLUNPTkdSRVNTSU9OQUwtU1=
+RPQ0stVFJBRElORy1BQ1QtU1VNTUFSWS0ucGRm/607f07ceef4b8524a319a23cBc3bee05e" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">the=C2=A0summary of the bill</a>, and here is <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/26356098.267642/aHR0cHM6Ly93d3cub3Nzb2Zm=
+LnNlbmF0ZS5nb3Yvd3AtY29udGVudC91cGxvYWRzLzIwMjIvMDEvQkFOLUNPTkdSRVNTSU9OQUw=
+tU1RPQ0stVFJBRElORy1BQ1QucGRm/607f07ceef4b8524a319a23cB17c643a6" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+the bill text</a>. Basically owning stocks or bonds, or derivatives on stoc=
+ks or bonds, would not be allowed except in a blind trust. Diversified=C2=
+=A0mutual funds and exchange-traded funds are allowed, as are U.S. Treasuri=
+es; =E2=80=9Cdiversified=E2=80=9D here means that a fund or ETF=C2=A0=E2=80=
+=9Cdoes not have a stated policy=C2=A0of concentrating its investments in a=
+ny industry,=C2=A0business, single country other than the United=C2=A0State=
+s, or bonds of a single State.=E2=80=9D[3] So broad-market stock funds woul=
+d be allowed but sector ETFs would not. (Exercises for the reader: Is the <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aHR=
+0cHM6Ly9hcmstZnVuZHMuY29tL2Z1bmRzL2Fya2sv/607f07ceef4b8524a319a23cBfc97bd36=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">ARK Innovation ETF</a> allowed? What about <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/26356098.267642/aHR0cHM6Ly9ldGZkYi5jb20v=
+ZXRmL1VWWFkvI2V0Zi10aWNrZXItcHJvZmlsZQ/607f07ceef4b8524a319a23cBbea18044" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">a leveraged VIX ETF</a>?)</p><p style=3D"margin: 16px 0;">This strik=
+es me as more or less sensible as a general matter, both because in general=
+ I am a=C2=A0tiny bit suspicious of people with demanding non-financial job=
+s who spend a lot of time trading portfolios of individual stocks, sorry,[4=
+] and because in particular congresspeople make important decisions that mi=
+ght be=C2=A0influenced<em>=C2=A0</em>by their stock=C2=A0<em>ownership</em>=
+. If=C2=A0you go to Congress and ask it to approve a law that is good for A=
+merica but bad for the profits of health-insurance companies or defense con=
+tractors or oil companies or whatever, you do not want Congress to reject t=
+he law because too many senators own concentrated positions in the affected=
+ stocks. I don=E2=80=99t know how practical an improvement this is =E2=80=
+=94=C2=A0the health-insurance companies and defense contractors and so fort=
+h have other ways of getting senators on their side, and despite the name y=
+ou might still know what you own in a =E2=80=9Cblind trust=E2=80=9D=C2=A0=
+=E2=80=94=C2=A0but symbolically I suppose it is nice not to have too many c=
+ongresspeople who appear to have a financial bias in favor of individual co=
+mpanies.</p><p style=3D"margin: 16px 0;">But that is not a point about<em> =
+trading</em>.=C2=A0The advantage=C2=A0of this bill is that it restricts=C2=
+=A0<em>owning</em>=C2=A0single stocks,=C2=A0and that=C2=A0ownership is what=
+ creates conflicts of interest.[5]</p><p style=3D"margin: 16px 0;">My quibb=
+le here is that this bill is clearly being introduced in reaction to public=
+ complaints about well-timed congressional trades, and I do not see at all =
+how it could address those complaints? It seems somewhat unusual for Congre=
+ss to get a lot of material nonpublic information about=C2=A0<em>individual=
+ companies</em>. The well-timed congressional trading we have <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/26356098.267642/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDMtMjAvc2VuYXRvcnMtcGlja2=
+VkLWEtZ29vZC10aW1lLXRvLXNlbGwtc3RvY2tzP2NtcGlkPUJCRDAxMTMyMl9NT05FWVNUVUZGJ=
+nV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDExMyZ1=
+dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cC955da7de" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+discussed</a> most around here =E2=80=94=C2=A0the trading that led to a <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aHR0c=
+HM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wMS8xOS91cy9wb2xpdGljcy9yaWNoYXJkLWJ1cnIt=
+c3RvY2stdHJhZGVzLWludmVzdGlnYXRpb24uaHRtbA/607f07ceef4b8524a319a23cC954690f=
+d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Justice Department=C2=A0inquiry</a> (that was closed without c=
+harges) =E2=80=94=C2=A0was when Senator Richard Burr dumped a bunch of stoc=
+ks=C2=A0after he got an intelligence committee=C2=A0briefing about the coro=
+navirus in mid-February 2020, just before the stock market cracked. He happ=
+ened to sell a bunch of individual stocks, some of which (hotels, etc.) wer=
+e particularly hard-hit by the pandemic. But if=C2=A0he had held only broad=
+ index funds, he probably would have sold those, and it probably would have=
+ worked out well for him (the S&amp;P 500 lost a third of its value in the =
+five weeks after he sold), and <em>people definitely would have thought he =
+insider traded</em>. If the head of the CIA comes to your committee and say=
+s =E2=80=9Cit's gonna be a disaster, sell everything,=E2=80=9D and you sell=
+ your S&amp;P 500 index fund, no one will be like =E2=80=9Coh that seems fi=
+ne.=E2=80=9D</p><p style=3D"margin: 16px 0;">In fact, we know exactly how t=
+hat would go.=C2=A0Alongside various congressional trading mini-scandals th=
+ere has been a <a href=3D"https://link.mail.bloombergbusiness.com/click/263=
+56098.267642/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL3VzLXBvbGljeS8yMDIyLz=
+AxLzEwL2ZlZC1jbGFyaWRhLXJlc2lnbi8/607f07ceef4b8524a319a23cBa11e9a11" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">medium-sized scandal</a> involving well-timed trades <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/26356098.267642/aHR0cHM6Ly93d3cuZnQuY2=
+9tL2NvbnRlbnQvMTk2YTU5YjgtZTJmYS00MmYyLThkMzYtYmIwYmVhYmM0YjM3/607f07ceef4b=
+8524a319a23cB0f34d702" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">at the Federal Reserve</a>; three important =
+Fed officials have resigned over their trading. Two of those did individual=
+=C2=A0stock trades, but the most recent resignation is from Richard Clarida=
+, the vice chair of the Fed, <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/26356098.267642/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjEtMTAtMDEvY2xhcmlkYS10cmFkZWQtaW50by1zdG9ja3Mtb24tZXZlLW9mLXBvd2V=
+sbC1wYW5kZW1pYy1zdGF0ZW1lbnQ_Y21waWQ9QkJEMDExMzIyX01PTkVZU1RVRkYmdXRtX21lZG=
+l1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMTEzJnV0bV9jYW1wY=
+Wlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBf0b96978" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">whose sin wa=
+s</a> rotating out of a diversified bond fund into some diversified stock f=
+unds on Feb. 27,=C2=A02020, =E2=80=9Cone day before Chair Jerome Powell iss=
+ued a statement flagging possible policy action as the pandemic worsened.=
+=E2=80=9D Here is <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+26356098.267642/aHR0cHM6Ly93d3cud2FycmVuLnNlbmF0ZS5nb3YvbmV3c3Jvb20vcHJlc3M=
+tcmVsZWFzZXMvd2FycmVuLWNhbGxzLW9uLXNlYy10by1pbnZlc3RpZ2F0ZS1zZWN1cml0aWVzLX=
+RyYWRlcy1ieS1oaWdoLWxldmVsLWZlZGVyYWwtcmVzZXJ2ZS1vZmZpY2lhbHMtdG8tZGV0ZXJta=
+W5lLWlmLXRoZXktbWF5LWhhdmUtdmlvbGF0ZWQtaW5zaWRlci10cmFkaW5nLXJ1bGVz/607f07c=
+eef4b8524a319a23cB778b74e6" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">Senator=C2=A0Elizabeth Warren=E2=80=99s=
+ letter</a> asking the Securities and Exchange Commission to investigate Cl=
+arida. And, sure,=C2=A0if you work at the Fed you will get a certain amount=
+ of useful <em>macro=C2=A0</em>information, which you could use to trade br=
+oadly diversified market indexes, and then people will get mad at you.[6]</=
+p><p style=3D"margin: 16px 0;">Anyway, I=E2=80=99ll see you back here in a =
+year, when this bill has been enacted and some senator is in trouble becaus=
+e she got a secret intelligence briefing=C2=A0about who Russia was going to=
+ invade next and ran out and sold all of her shares in a diversified Europe=
+an stock index fund. Why would that be better?</p><p style=3D"margin: 16px =
+0;">I don=E2=80=99t exactly know how to solve this. One reader suggested al=
+lowing congresspeople to trade whatever they want, but only on a multi-mont=
+h lag. This would be along the lines of <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/26356098.267642/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjEtMTItMTYvdGhlLXNlYy1oYXMtYmlnLXBsYW5zP2NtcGlkPUJC=
+RDAxMTMyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGV=
+yJnV0bV90ZXJtPTIyMDExMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a31=
+9a23cB71fd0213" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> the SEC=E2=80=99s proposed changes to Rule 10b5-1 =
+trading plans</a> for corporate executives: You write down a binding plan t=
+o buy or sell stocks or bonds or mutual funds or whatever, you give it to y=
+our broker, your broker waits (say) four=C2=A0months and then executes what=
+ever you told her to do. If you had inside information when you wrote the p=
+lan, it=E2=80=99s no longer useful four months later when you trade. Ideall=
+y (unlike in the 10b5-1 proposals) the plans are disclosed when they=E2=80=
+=99re written, so your constituents know about it in advance, and they can=
+=E2=80=99t be canceled. Then, when your broker does the trades and everyone=
+ is like =E2=80=9Cthese are suspiciously well-timed trades,=E2=80=9D you ca=
+n say =E2=80=9Cno, they were automatic, you knew about them in advance.=E2=
+=80=9D It=E2=80=99s something I guess.<em>=C2=A0</em></p><table class=3D"li=
+veintent-sponsored-content" width=3D"auto" cellpadding=3D"0" cellspacing=3D=
+"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjM1NjA5OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2MjM3NDAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD6bab4cce" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26356098&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26623740&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjM1NjA5OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2MjM3NDAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE6bab4cce" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26356098&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26623740&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjM1NjA5OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2MjM3NDAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFec63f34b" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26356098&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26623740&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjM1NjA5OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2MjM3NDAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGec63f34b" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26356098&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26623740&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Private equity fees</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/26356098.267642/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjEtMDctMjIvcHJpdmF0ZS1lcXVpdHktZmlybS1nb3QtcmljaC1t=
+YWtpbmctcHJpdmF0ZS1lcXVpdHktZmlybXMtcmljaD9jbXBpZD1CQkQwMTEzMjJfTU9ORVlTVFV=
+GRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAxMT=
+MmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB38a0f061" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> talked last year</a> about a simple bit of private equity math. If you r=
+un a private equity firm, you manage a bunch of people=E2=80=99s money and =
+you collect a management fee of, traditionally,=C2=A02% per year. If you ma=
+nage $10 billion, you make $200 million a year. It is nice to have an incom=
+e of $200 million a year. But it gets better. If you have a fairly reliable=
+ income of $200 million a year, you can package it and sell it. If you find=
+ an investor who wants a 10% return on their money, you can sell them a $20=
+0 million stream of fees for $2 billion right now. Or you can sell them 20%=
+ of that stream for $400 million right now, and keep the other 80% =E2=80=
+=94=C2=A0now valued at $1.6 billion =E2=80=94=C2=A0for yourself.</p><p styl=
+e=3D"margin: 16px 0;">This is good for you, for a few reasons. One is that =
+you can get a lot of money right now, to buy yachts or whatever. Another is=
+ that now you are a billionaire: If you make $200 million a year, pay 50% i=
+n taxes, and save 80% of what=E2=80=99s left, it will take you about 12 yea=
+rs or so to become a billionaire (in the sense of having $1 billion of cash=
+); if you=C2=A0<em>own a business=C2=A0</em>with that profile and it=E2=80=
+=99s valued at $2 billion, then you=E2=80=99re a billionaire right now (in =
+the sense of owning a $2 billion business). If you have an income, you accr=
+ue wealth gradually; if you=C2=A0<em>own an income stream</em>, you have we=
+alth now. This is an entirely metaphysical point =E2=80=94=C2=A0the economi=
+cs are the same either way =E2=80=94=C2=A0but I suppose it matters. A third=
+ advantage is that if you own a business and sell a portion of that busines=
+s then you probably have capital-gains income, while if you just collect fe=
+es you have ordinary income, and capital gains are taxed at lower rates tha=
+n ordinary income, so you keep more of the money you generate.=C2=A0</p><p =
+style=3D"margin: 16px 0;">And so it is quite sensible for the owner-manager=
+s of private equity firms to sell their firms, or at least to sell stakes i=
+n them. They can do this privately =E2=80=94=C2=A0to, like, meta-private-eq=
+uity firms that buy stakes in private equity firms=C2=A0=E2=80=94=C2=A0or t=
+hey can sell stakes=C2=A0to the public in=C2=A0an initial public offering.<=
+/p><p style=3D"margin: 16px 0;">But this description oversimplifies private=
+ equity in one important respect. If you run a private equity firm, you col=
+lect a management fee of about 2% a year, but you also collect a=C2=A0perfo=
+rmance fee, traditionally about 20% of the returns you make for your client=
+s. If you manage $10 billion and return 15%=C2=A0a year, you make about $20=
+0 million a year in management fees and $300 million ($10 billion times 15%=
+ returns times 20% performance fee) a year=C2=A0in performance fees.</p><p =
+style=3D"margin: 16px 0;">This is nice for you. But it is harder to=C2=A0<e=
+m>sell</em>. Past performance does not guarantee future results, and if you=
+ return 15% this year you might return 0% next year.[7] An investor looking=
+ for a steady stream of income might look at your stream of management fees=
+ and say =E2=80=9Cthis is a good stream of fees, you seem to have some loya=
+l clients, I am willing to bet that you=E2=80=99ll keep collecting fees muc=
+h like this for a good long time=E2=80=9D and buy that stream of fees for a=
+ high price. That investor might look at your stream of performance fees an=
+d say =E2=80=9Chuh you had a good year last year but the market was up, I h=
+ave no idea if you=E2=80=99ll have a good year next year, I=E2=80=99m sure =
+this stream of fees is worth something but it=E2=80=99s hard for me to know=
+ how much=E2=80=9D and buy that stream of fees for a low price.</p><p style=
+=3D"margin: 16px 0;">You, meanwhile, think that it=E2=80=99s worth a high p=
+rice. For one thing, you have a lot of visibility into your deals and your =
+pipeline and so you can underwrite your future performance better than an o=
+utside investor can. For another thing, you have a lot of confidence in you=
+rself, otherwise you wouldn=E2=80=99t be doing this.</p><p style=3D"margin:=
+ 16px 0;">So the obvious move, for the managers of private equity firms, is=
+ to sell off their management fees and keep their performance fees.</p><p s=
+tyle=3D"margin: 16px 0;">You could imagine various complicated financial-en=
+gineering-y ways to do this (=E2=80=9Csecuritize the management fees=E2=80=
+=9D or whatever), but in fact the simplest way to sell this stuff into a bi=
+g liquid market is to do an initial public offering of=C2=A0<em>stock</em>,=
+ that is,=C2=A0<em>ownership=C2=A0</em>of the entire private equity firm. S=
+o if you manage private equity funds, you incorporate the management compan=
+y that manages those funds, and then you sell shares in that company to the=
+ public. And then the public owns (some share of) the entire income of that=
+ management company, both the management fees (stable, sticky, valuable) an=
+d the performance fees (variable, at-risk, discounted).=C2=A0</p><p style=
+=3D"margin: 16px 0;">Except that you continue to=C2=A0<em>run=C2=A0</em>the=
+ firm. And you continue to set <em>employee=C2=A0compensation</em>. And so =
+you can say to shareholders: =E2=80=9CYou know what, we=E2=80=99re going to=
+ go public, but we=E2=80=99re going to keep paying ourselves all of the per=
+formance fees, because we like those fees and you don=E2=80=99t, and you ca=
+n have the management fees, because you like those fees more than we do.=E2=
+=80=9D And that seems fine.</p><p style=3D"margin: 16px 0;">TPG Inc., a big=
+ private equity firm,=C2=A0<a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/26356098.267642/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbG=
+VzLzIwMjItMDEtMTIvYnV5b3V0LWZpcm0tdHBnLXNhaWQtdG8tcHJpY2UtaXBvLXdpdGhpbi1yY=
+W5nZS1hdC0yOS01MC1hLXNoYXJlP2NtcGlkPUJCRDAxMTMyMl9NT05FWVNUVUZGJnV0bV9tZWRp=
+dW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDExMyZ1dG1fY2FtcGF=
+pZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBc143467d" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">priced its i=
+nitial public offering last night</a>, and it more or less did that? Here's=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/a=
+HR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNzU4MGQyNDQtY2ZiZC00NzI4LTk5YTktNDk5ODVl=
+YjFmZGNk/607f07ceef4b8524a319a23cB595599b9" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">Antoine Gara at the Fin=
+ancial Times</a>:</p><blockquote><p style=3D"margin: 16px 0;">US buyout gro=
+up TPG=E2=80=99s initial public offering on Thursday will establish a tecto=
+nic change in the private equity industry, as a wave of firms list shares b=
+y offering stockholders a smaller claim on their lucrative, but irregular, =
+performance fees.</p><p style=3D"margin: 16px 0;">TPG is restructuring its =
+finances as part of its IPO to offer shareholders just 20 per cent of its f=
+uture performance-based profits, the firm said in its prospectus, down from=
+ 50 per cent had the change not been made.</p><p style=3D"margin: 16px 0;">=
+Industry executives have dubbed TPG=E2=80=99s structure a =E2=80=9Cnext-gen=
+eration=E2=80=9D private equity IPO =E2=80=94 one that gives public shareho=
+lders less of a slice of performance fees, but more from steadier managemen=
+t fees.</p><p style=3D"margin: 16px 0;">=E2=80=9CIt is the new standard,=E2=
+=80=9D said Saul Goodman, head of alternative asset management banking at E=
+vercore. =E2=80=9CAlmost every banker in the space that=E2=80=99s advising =
+private equity firms on IPOs currently is advising to not contribute a larg=
+e percentage of performance fees into the public company.=E2=80=9D</p><p st=
+yle=3D"margin: 16px 0;">Analysts and investors are attracted to private equ=
+ity=E2=80=99s management fee income because it is steady and easy to model,=
+ according to bankers and private equity executives. Meanwhile, they discou=
+nt performance-based profit because it can fluctuate with market conditions=
+ and is harder to predict.</p><p style=3D"margin: 16px 0;">=E2=80=9CThe pub=
+lic values management fee earnings much more than the dealmakers inside fir=
+ms, who are incentivised largely by carried interest,=E2=80=9D said Joseph =
+Lombardo, head of the private equity general partnership advisory practice =
+at investment bank Houlihan Lokey. ...</p><p style=3D"margin: 16px 0;">Publ=
+icly traded firms have seen their valuations soar to 25 to 30 times their m=
+anagement fee-based earnings, said insiders, but the groups still receive v=
+aluations of just five to 10 times their investment profits.=C2=A0</p></blo=
+ckquote><p style=3D"margin: 16px 0;">The financial engineering required her=
+e is pretty minimal, though TPG does a bit more than required. There=E2=80=
+=99s an entity (=E2=80=9CRemainCo=E2=80=9D) that will be owned by TPG partn=
+ers and will collect a slice of the performance fees that varies over time =
+and from fund to fund, but you can ignore that;=C2=A0mostly the way the all=
+ocation works is just that TPG has said, in a footnote to its financial sta=
+tements, that it plans to pay most of the performance fees to employees. <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aHR0=
+cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE4ODA2NjEvMDAwMTE5MzEyNTI=
+yMDAwOTkzL2QxOTc3ODBkczFhLmh0bSNyb20xOTc3ODBfMTE/607f07ceef4b8524a319a23cB1=
+e5e01a8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" t=
+itle=3D"page 127" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">From the prospectus</a>:</p><blockquote=
+><p style=3D"margin: 16px 0;">Subject to certain exceptions, we expect Rema=
+inCo to be entitled to between 10% and 15% of [performance fees], and to al=
+locate generally between 65% and 70% indirectly to our partners and profess=
+ionals through performance allocation vehicles and Promote Units, with the =
+remaining 20% available for distribution to the TPG Operating Group Common =
+Unit holders.</p></blockquote><p style=3D"margin: 16px 0;">And because doin=
+g this does not=C2=A0require that much in the way of legal structuring etc.=
+, other already-public firms are doing it too; from Gara=E2=80=99s article:=
+</p><blockquote><p style=3D"margin: 16px 0;">Old-line listed private equity=
+ firms are adjusting their economics to look more like newer entrants.</p><=
+p style=3D"margin: 16px 0;">In February 2021, KKR revealed that it would ch=
+ange the way it compensates employees, shifting from paying more than 40 pe=
+r cent of overall management and performance-based fee earnings to insiders=
+. Now, it pays up to 25 per cent of management fee-based earnings to employ=
+ees, but up to 70 per cent of performance-fee-based earnings, a move that h=
+as increased public shareholders=E2=80=99 claim on management fees and insi=
+ders=E2=80=99 claim on performance profits.</p><p style=3D"margin: 16px 0;"=
+>Apollo said in November that it would cap pay for insiders at 25 per cent =
+of management fee-based earnings, but raise payouts from performance fees f=
+rom 50 per cent to as much as 70 per cent. Disclosures made by Blackstone i=
+n the second quarter show it is making similar changes.</p></blockquote><p =
+style=3D"margin: 16px 0;">It is a pleasingly simple solution in a complex b=
+usiness. =E2=80=9CWe are going to give shareholders the stuff they want and=
+ keep the other stuff for ourselves.=E2=80=9D Why not?</p><table class=3D"l=
+iveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=
+=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNjM1NjA5OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2MjM3NDAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHfe7b4c17" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D26356098&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26623740&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Deterrence</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">How do you deter financial misconduct?=
+ This is, I think, a complicated question. There is the standard criminolog=
+ical deterrence debate, in which you could either focus on catching as much=
+ misconduct as possible (and punishing it somewhat mildly) or instead catch=
+ fewer perpetrators but punish them more harshly to send a message. Arguabl=
+y financial criminals are=C2=A0<em>especially=C2=A0</em>subject to deterren=
+ce =E2=80=94=C2=A0they are rational cost-benefit calculators, they have a l=
+ot to lose from being caught, etc. =E2=80=94=C2=A0but there is also an argu=
+ment that a lot of financial crime falls in gray areas of intent or legalit=
+y and you can=E2=80=99t deter someone from doing something she doesn=E2=80=
+=99t know is illegal. Anyway though the answer is =E2=80=9Cwhen you catch p=
+eople doing financial crime you should tweet about it=E2=80=9D:</p><blockqu=
+ote><p style=3D"margin: 16px 0;">This paper presents the first evidence of =
+the effect of financial regulators=E2=80=99 social media use on corporate a=
+nd individual behavior. Using the staggered launch of U.S. Securities and E=
+xchange Commission (SEC) regional offices=E2=80=99 Twitter accounts, I find=
+ that financial regulators=E2=80=99 presence on social media reduces opport=
+unistic insider trading, customer complaints against investment advisers, a=
+nd financial misreporting. Additional tests suggest that the salience and d=
+issemination of regional offices=E2=80=99 enforcement activities via Twitte=
+r play a role. The deterrence effect of SEC regional offices=E2=80=99 Twitt=
+er use is concentrated among offices with more followers, =EF=AC=81rms with=
+ more retail investors, and advisers with more retail clients. I also show =
+that investors react more strongly to enforcement actions after the enforce=
+d =EF=AC=81rm=E2=80=99s regional office=C2=A0initiates Twitter use. Taken t=
+ogether, the results suggest that financial regulators=E2=80=99 use of soci=
+al media helps deter misconduct.</p></blockquote><p style=3D"margin: 16px 0=
+;">That is the abstract to =E2=80=9C<a href=3D"https://link.mail.bloombergb=
+usiness.com/click/26356098.267642/aHR0cHM6Ly9wYXBlcnMuc3Nybi5jb20vc29sMy9wY=
+XBlcnMuY2ZtP2Fic3RyYWN0X2lkPTM5NTI5MDQ/607f07ceef4b8524a319a23cB6e191827" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">Regulating via Social Media: Deterrence E=EF=AC=80ects of the SEC's =
+Use of Twitter</a>,=E2=80=9D by Jinjie Lin at Yale. I think in some ways th=
+is is a complement to the stuff about congressional insider trading. If you=
+ get the sense that the law is never enforced and people can do bad financi=
+al stuff with impunity, you might become sad and cynical and disillusioned,=
+ and you might do some insider trading yourself. If you get the sense that =
+the law is often enforced and that every day your local SEC office is catch=
+ing people doing bad stuff, maybe you=E2=80=99ll follow the law yourself.</=
+p><p style=3D"margin: 16px 0;">Or perhaps you=E2=80=99ll study those enforc=
+ement actions closely and get better at=C2=A0insider trading without gettin=
+g caught? I guess that might look the same in the data.</p><table class=3D"=
+header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">EthereumMax</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I have to say, if you are a plaintiffs=
+=E2=80=99 lawyer and you see=C2=A0Kim Kardashian and Floyd Mayweather Jr. p=
+ost unqualified endorsements of some nonsensical cryptocurrency on social m=
+edia, you should really drop whatever you=E2=80=99re doing and type up a la=
+wsuit right away. How hard can it be? How <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/26356098.267642/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2x=
+lcy9raW0ta2FyZGFzaGlhbi1mbG95ZC1tYXl3ZWF0aGVyLWpyLW90aGVycy1zdWVkLW92ZXItY3=
+J5cHRvY3VycmVuY3ktcHJvbW90aW9uLTExNjQxOTQ2MTU0/607f07ceef4b8524a319a23cB850=
+b40ab" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">did this take so long</a>?</p><blockquote><p style=3D"margin=
+: 16px 0;">Kim Kardashian, Floyd Mayweather Jr. , and Paul Pierce are among=
+ a number of celebrities being sued for allegedly leading investors into a =
+cryptocurrency =E2=80=9Cpump and dump=E2=80=9D scam.</p><p style=3D"margin:=
+ 16px 0;">The celebrities and other defendants are accused of making =E2=80=
+=9Cfalse or misleading statements to investors about EthereumMax through so=
+cial media advertisements and other promotional activities,=E2=80=9D accord=
+ing to the class-action complaint filed last Friday in the U.S. District Co=
+urt for the Central District of California. In addition to the three celebr=
+ities, defendants include the co-founders of the company and others.</p><p =
+style=3D"margin: 16px 0;">The lawsuit alleges EthereumMax is a =E2=80=9Cspe=
+culative digital token created by a mysterious group of cryptocurrency deve=
+lopers.=E2=80=9D It says the celebrities told their millions of social-medi=
+a followers to buy the cryptocurrency, only to sell when the price was infl=
+ated.=C2=A0</p><p style=3D"margin: 16px 0;">Ryan Huegerich, a New York resi=
+dent, filed the complaint on behalf of himself and others who purchased EMA=
+X tokens between May 14, 2021, and June 27, 2021, and lost money, according=
+ to the filing.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Here is =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aH=
+R0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JROTdEc=
+GpxeUh5WS92MA/607f07ceef4b8524a319a23cB0f79869c" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">the complaint</a>.=
+ Here is the EthereumMax <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26356098.267642/aHR0cHM6Ly9jb2lubWFya2V0Y2FwLmNvbS9jdXJyZW5jaWVzL2V0=
+aGVyZXVtbWF4Lw/607f07ceef4b8524a319a23cB868e5c82" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">price chart</a>. =
+EthereumMax launched at=C2=A0$0.00000005875 and got as high as=C2=A0$0.0000=
+00863 before falling back to a low of=C2=A0$0.000000017, these numbers are =
+all absurd but the point is that the high one has six zeroes and the low on=
+es have seven. I do think that there is a certain rough honesty and transpa=
+rency in these things in that, if you bought EthereumMax, your thought proc=
+ess has to have been =E2=80=9CI am going to buy this thing because Kim Kard=
+ashian is Instagramming about it,=E2=80=9D which she was, so the price went=
+ up, and then she stopped, so the price went down. Like, who was deceived a=
+bout what? What did you think EthereumMax was going to do, other than go up=
+ when Kim Kardashian posted about it and go down when she stopped?</p><tabl=
+e class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Goldman's <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/26356098.267642/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMTMvYS1nb2xkbWFuLXRyYWRpbmctZGVzay1kb2RnZ=
+WQtdGhlLWF4LXRvLW1pbnQtYmlsbGlvbnMtYWdhaW4_Y21waWQ9QkJEMDExMzIyX01PTkVZU1RV=
+RkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMTE=
+zJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB357d6c4a" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> Commodities Trading Desk</a> Dodged the Ax and Is Minting Billions Again=
+.=C2=A0Goldman Sachs Postpones Its <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/26356098.267642/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2=
+FydGljbGVzLzIwMjItMDEtMTMvZ29sZG1hbi1zYWNocy1wb3N0cG9uZXMtcmV0dXJuLXRvLW9mZ=
+mljZS1ieS10d28td2Vla3MtdG8tZmViLTE_Y21waWQ9QkJEMDExMzIyX01PTkVZU1RVRkYmdXRt=
+X21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMTEzJnV0bV9=
+jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB3fb38838" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> Retur=
+n to Office</a> Again to Wait Out the Covid Surge. Robinhood Tells Employee=
+s They Can <a href=3D"https://link.mail.bloombergbusiness.com/click/2635609=
+8.267642/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9yb2Jpbmhvb2QtdGVsbHMtZW1wbG=
+95ZWVzLXRoZXktY2FuLXdvcmstZnJvbS1ob21lLXBlcm1hbmVudGx5LTExNjQyMDExMzQ3P21vZ=
+D1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cB8c979a33" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">Work Fro=
+m Home</a> Permanently. Robinhood CFO Doesn=E2=80=99t Plan to Put =E2=80=98=
+Meaningful Amount=E2=80=99 of Cash Into <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/26356098.267642/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlc=
+y9yb2Jpbmhvb2QtY2ZvLWRvZXNudC1wbGFuLXRvLXB1dC1tZWFuaW5nZnVsLWFtb3VudC1vZi1j=
+YXNoLWludG8tY3J5cHRvLWFzc2V0cy0xMTY0MjAyOTU5Mj9tb2Q9aXRwX3dzaiZydT15YWhvbw/=
+607f07ceef4b8524a319a23cB02af9d78" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">Crypto Assets</a>. Americans Say=
+ They Need to Earn $128,000 to Feel <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/26356098.267642/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjItMDEtMTMvaG93LW11Y2gtZG8teW91LW5lZWQtdG8tZWFybi10by1mZWVs=
+LWZpbmFuY2lhbGx5LXNlY3VyZS1hbWVyaWNhbnMtd2FudC0xMjhrP2NtcGlkPUJCRDAxMTMyMl9=
+NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZX=
+JtPTIyMDExMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBc2678=
+e0f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Financially OK</a>. =E2=80=9CThe Food and Drug Administration=
+ (FDA or we) is revoking <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26356098.267642/aHR0cHM6Ly9wdWJsaWMtaW5zcGVjdGlvbi5mZWRlcmFscmVnaXN0=
+ZXIuZ292LzIwMjItMDA0OTQucGRm/607f07ceef4b8524a319a23cB4cac0f9e" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">the=
+ standard of identity for French dressing</a>.=E2=80=9D Counterfeit <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aHR0cHM6L=
+y93d3cubnl0aW1lcy5jb20vMjAyMi8wMS8wNi9kaW5pbmcvZHJpbmtzL2Zha2UtYm91cmJvbi5o=
+dG1sP3JlZmVycmluZ1NvdXJjZT1hcnRpY2xlU2hhcmU/607f07ceef4b8524a319a23cBb3ef0e=
+01" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">bourbon</a>. Richard Handler was <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/26356098.267642/aHR0cHM6Ly93d3cuZWZpbmFuY2lhbGN=
+hcmVlcnMuY28udWsvbmV3cy8yMDIyLzAxL3JpY2hhcmQtaGFuZGxlci1qZWZmZXJpZXM/607f07=
+ceef4b8524a319a23cB501ff7b5" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">bullied in high school</a> for being s=
+hort. Pope makes surprise visit to Rome record store, <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/26356098.267642/aHR0cHM6Ly93d3cucmV1dGV=
+ycy5jb20vd29ybGQvZXVyb3BlL3BvcGUtbWFrZXMtc3VycHJpc2UtdmlzaXQtcm9tZS1yZWNvcm=
+Qtc3RvcmUtZ2V0cy1jbGFzc2ljYWwtY2QtMjAyMi0wMS0xMS8/607f07ceef4b8524a319a23cB=
+2178dd6e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">gets classical CD</a>.</p><p style=3D"margin: 16px 0;"><s=
+pan class=3D"news-designed-for-consumer-media"><em>If you'd like to get=C2=
+=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=
+=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267=
+642/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXl=
+zdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07c=
+eef4b8524a319a23cBa1b2f060" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">subscribe a=
+t this link</a>. Or you can subscribe to Money Stuff and other great Bloomb=
+erg newsletters <a href=3D"https://link.mail.bloombergbusiness.com/click/26=
+356098.267642/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ce=
+ef4b8524a319a23cB732c28a4" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">here</a>. Thanks!</em></span></p><p style=3D"margin: 16px =
+0;"><em>[1] =E2=80=9CChris Collins,=E2=80=9D you say, but I disagree. Colli=
+ns, a former congressman from New York, was arrested and ultimately <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aHR0cHM6L=
+y93d3cuY25iYy5jb20vMjAyMC8wMS8xNy9jaHJpcy1jb2xsaW5zLXNlbnRlbmNlZC10by0yNi1t=
+b250aHMtZm9yLWluc2lkZXItdHJhZGluZy10aXAuaHRtbA/607f07ceef4b8524a319a23cBb3e=
+a4473" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">sentenced to 26 months in prison</a> for insider trading <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDgtMDkvY2hyaXMt=
+Y29sbGlucy1pbnNpZGVyLXRyYWRpbmctYXJyZXN0LWlzLWEtaHVnZS10aHJvd2JhY2s_Y21waWQ=
+9QkJEMDExMzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZX=
+R0ZXImdXRtX3Rlcm09MjIwMTEzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524=
+a319a23cB04853fcd" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">at a congressional picnic</a>, but he insider tr=
+aded=C2=A0by tipping his son about a drug company whose board he was on =E2=
+=80=94=C2=A0*not* about congressional business. It=E2=80=99s regular inside=
+r trading by a corporate insider who happened to be in Congress, but it=E2=
+=80=99s not congressional=C2=A0insider trading in the sense we=E2=80=99re t=
+alking about.</em></p><p style=3D"margin: 16px 0;"><em>[2] =E2=80=9CWe need=
+ better enforcement of the existing law,=E2=80=9D you say, but get outta he=
+re with that. Prosecutors and regulators have *tons* of incentive to catch =
+congressional insider traders, and people are constantly calling their atte=
+ntion to alleged instances of congressional insider trading.</em></p><p sty=
+le=3D"margin: 16px 0;"><em>[3] So owning municipal bonds =E2=80=94 directly=
+, or through a your-state=E2=80=99s-bonds mutual fund =E2=80=94=C2=A0is ban=
+ned? Seems a bit harsh.</em></p><p style=3D"margin: 16px 0;"><em>[4] In par=
+t because it seems like an expensive niche hobby. That seems to be broadly =
+true of Congress too, by the way; it <a href=3D"https://link.mail.bloomberg=
+business.com/click/26356098.267642/aHR0cHM6Ly90d2l0dGVyLmNvbS9qYXNvbnp3ZWln=
+d3NqL3N0YXR1cy8xNDUwNDQ3OTYxNTg3MTc1NDI1/607f07ceef4b8524a319a23cBda556afa"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">seems like</a> congresspeople are not especially good at trading s=
+tocks.=C2=A0</em></p><p style=3D"margin: 16px 0;"><em>[5] Conflicts that co=
+uld in theory be resolved by trading. Like if you came to Congress with a r=
+eally good bill that would hurt the profits of health insurers, and a power=
+ful senator owned a bunch of health-insurance stocks, it might be strictly =
+good for the world if she could quietly dump those stocks before announcing=
+ her support for the bill. Insider trading! But much better than the altern=
+ative where she can=E2=80=99t dump the stocks so she kills the bill to prot=
+ect her investment.</em></p><p style=3D"margin: 16px 0;"><em>[6] I should a=
+lso point out that Clarida=E2=80=99s trades (buying diversified stock funds=
+) happened two weeks after Burr=E2=80=99s (selling a diverse list of indivi=
+dual stocks), during the very beginning of coronavirus panic in the U.S. Th=
+e market was going down.=C2=A0By March 23, the market bottom, the S&amp;P 5=
+00 was down 33% from where Burr sold and down 25% from where Clarida *bough=
+t*. Clarida=E2=80=99s trades were *not* particularly well-timed. (Though he=
+ had also done some better trading in the same funds a few days earlier, an=
+d <a href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/=
+aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMTk2YTU5YjgtZTJmYS00MmYyLThkMzYtYmIwYmV=
+hYmM0YjM3/607f07ceef4b8524a319a23cC0f34d702" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">failed to disclose tha=
+t</a>.)</em></p><p style=3D"margin: 16px 0;"><em>[7] In private equity it i=
+s even worse than this because you are not running a public portfolio that =
+is marked to market every year, you are estimating performance allocations =
+and getting lumpy realizations when you sell companies.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB5319bea6" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB38ca90ea" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB73ef14ec" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB8a5adb75" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNjM1NjA5OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2MjM3NDAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIae2fef16" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D26356098&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26623740&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2635609=
+8.267642/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB8a8c9f73" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26356098.267642/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC23664711" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/26356098.267642/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB802243a9" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26356098.267642/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB91b30f0c" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBd=
+42e149b" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26356098.267642/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB5=
+5f2b41c" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D263560=
+98&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26623740&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D263560=
+98&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26623740&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D263560=
+98&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26623740&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D263560=
+98&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26623740&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D263560=
+98&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26623740&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfowhu.5qii/b4afca03.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_7140431_339359471.1642098056564--
+

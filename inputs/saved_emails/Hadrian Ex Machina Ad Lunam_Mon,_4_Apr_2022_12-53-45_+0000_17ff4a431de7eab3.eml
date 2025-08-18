@@ -1,0 +1,2414 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:7ed0:0:b0:1aa:da54:354f with SMTP id o16csp1460501lkl;
+        Mon, 4 Apr 2022 05:54:35 -0700 (PDT)
+X-Received: by 2002:a5d:59af:0:b0:205:c197:64f3 with SMTP id p15-20020a5d59af000000b00205c19764f3mr16996723wrr.483.1649076875497;
+        Mon, 04 Apr 2022 05:54:35 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1649076875; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=DSF2gnSmiLeloudw5BzawtWM7pYBs630Hkz+HB9LV+DeZMMHMPrBq82Zdu633ifhWZ
+         HooZ5NUQyeHWkrYjdPYQLm6JTbEOfA5g8QbZk+KiIn4H9DAkxv2tPwuYr9haJqVUP8FO
+         MwFCMGF5RhCcIvcZl3WRAlc0CZutDgPlfaV3Rx0r8bXIYgdxyHwTeJX5HX9RBHrZuB77
+         ncH0w8o2hNzRFb6fzxTV58OYiXSmQwVYcoUicHA92+VRIfCqwcUpLOvVfHKnIBPlQFIA
+         yg+l4jW5WzNnQreo5K3HLjxobAd0q1LW16L+xxA8IyD2zg1IjuhlBFxOfL+GqHopmi76
+         OvXA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=reply-to:list-unsubscribe:list-url:list-owner:sender
+         :list-unsubscribe-post:references:in-reply-to:date:list-post
+         :message-id:list-archive:list-id:to:from:subject:mime-version
+         :dkim-signature:delivered-to;
+        bh=gQ/wexcDuUNGgS6bbTPYdxDvslvh9p7G5oZLrGlvo2o=;
+        b=o+6dhXccwL//ki/TW0qK+oKEpYSBF1bj4eqgBMLOqUqfeeqBzFrtcgUDus6PMS+XDe
+         GGVq2DsyCEUS+aeVfEPSR0J3/tEE0ylwYqpwbac48iqZsFDEcC8XwMtSUx3YUuyyJglq
+         n4g2W+T5FB+quiZ/Wj4huWIXt5TZrUXsRlKzgl4hDtHbF9cfnpXfjrA2I8USTANM0s6f
+         mWbNMRZJOMC8CCn/Sga4UZz5mGbQYXNPDxRCYIv/XwyItZIL7uX++/f6lx8rTYfX3Yuk
+         HC9u6b2vJrCn6veYoxYW4N9i0ylYoOM8/4nXCAFgji9l50ZuaOmLQo8PK90eqouDmEQ8
+         v0kw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=OdSigFUi;
+       arc=pass (i=2 dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id d9-20020adfc809000000b002059255c0e9sor5439005wrh.6.2022.04.04.05.54.34
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 04 Apr 2022 05:54:35 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=OdSigFUi;
+       arc=pass (i=2 dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:mime-version:subject
+         :from:to:list-id:list-archive:message-id:list-post:date:in-reply-to
+         :references:list-unsubscribe-post:sender:list-owner:list-url
+         :list-unsubscribe:reply-to;
+        bh=gQ/wexcDuUNGgS6bbTPYdxDvslvh9p7G5oZLrGlvo2o=;
+        b=GpGzFMuNsjXRjuYulylGICDTPVf820X6hgViqHp8xwBVVRGwQPjbzD59RDdQtHfo1o
+         Rw6sys0x8utnLq145hDE5Z/q8Zr8SPUVqi46bnY5UWIjPjbRL22FckuR4UYiDElUmUd9
+         rjy4kgMTQHCWPTX0yjfYtzWJrcwAirwuKk+QuMnGU6HjnYRHRc71gC5K/xCPCTB/P5hc
+         3v5SRs3r4EkLAWwN5hoXIxcO75vy3ipyuZU294rc3fLDnQEfL5Y9AELhbY0rI0dlIPjD
+         l7pUK8P0BwgtekYy62TnUHBd1ibtkBBsSjDzhnFM8KoXa5VrZBLg6A2vo5FVjCSE3bx0
+         /4HQ==
+X-Gm-Message-State: AOAM532Y9RUtu0hcMPZGB62GT7wQiLtPNXVgqtmt20NSTgqWFX1lB8lw
+	9No/tjCtlpezaN5NMrnL7S4sXV6WJHJjQsWQVqw5DwXwjhTP8y47bQ==
+X-Received: by 2002:a5d:598e:0:b0:205:9da6:1621 with SMTP id n14-20020a5d598e000000b002059da61621mr16791716wri.573.1649076874744;
+        Mon, 04 Apr 2022 05:54:34 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:694f:0:0:0:0:0 with SMTP id r15csp1082401wrw;
+        Mon, 4 Apr 2022 05:54:32 -0700 (PDT)
+X-Received: by 2002:a05:6a00:198d:b0:4fb:3204:fa8 with SMTP id d13-20020a056a00198d00b004fb32040fa8mr23746243pfl.48.1649076872101;
+        Mon, 04 Apr 2022 05:54:32 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1649076872; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=ZUb2n7kNjkQqUOSgFxLj/qOWuF14BcM001iJJXIqKeaKjb/JWJDApW7K6LsqYzu7yv
+         Wl5X/bgiBlvrRPJGZx0OxM7NST7jJycJrU1Gi7JAFly3SqdE0spz+EmE47mdlO91sC80
+         IRKJb02zPphipegHgQHUzLTCksqibdc2VyWT/fHgN/6MXponsIgPR6zdL6c1hs0qjOIA
+         02V+qzxI8aEi9gXyn+TtcQImjvk25TQxOv8x6rP80m+VeQnoedm0+L4QTWASMCx+YzLz
+         VV21BL2qQ36qZGGI4dhFo/8E3DFnBrYNg6UHKS8KWfnmhjBeTpgTuSB5S+CBzQC2Z/0j
+         W4gw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=reply-to:list-unsubscribe:list-url:list-owner:sender
+         :list-unsubscribe-post:references:in-reply-to:date:list-post
+         :message-id:list-archive:list-id:to:from:subject:mime-version
+         :dkim-signature;
+        bh=gQ/wexcDuUNGgS6bbTPYdxDvslvh9p7G5oZLrGlvo2o=;
+        b=SlZGBTrlG3C5CzimDxKxJhhXFQgZQ0EAc1/JVWp+LX7Y7hr02AQ3Tw8jcXejjkaIHn
+         xGqqMJMwi187eg4EWY3jfIzpjF6tedYN6MW/eFEyE4TdvD2LNPLAxpESO9BhMiSIgKUu
+         zQTrGOrKD26yk5woAui7AlArspzDhqG8+GZhunWb7QTKOx5pMTisYup72fXla3qISenF
+         vcDqgmrv4LJQUiTQ/NcxMW59RA/+e5RYymlkX+bQa8l+6j4uyFkQnndg5WQXYKw2B16P
+         eVbAcNpnL6VyZVCRdY31FN8/+/DQeDd+6paoAkoc2BUjG6hjrW+k4SVe/eXWQb3JfBb3
+         t7RA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=OdSigFUi;
+       arc=pass (i=1 spf=pass spfdomain=mg2.substack.com dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id j11-20020a170903024b00b00156b9f56489sor594634plh.104.2022.04.04.05.54.31
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 04 Apr 2022 05:54:32 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJyVdQ3nVhchujmz/oPKriRhNsJLeyIeWbxyDBH4EXQwxB3pPyQHPrdfuQCjUGPL3gaz2sQa2HK9V3jKEZLQYifEg+w1v8U=
+X-Received: by 2002:a17:902:bb92:b0:153:4eae:c77e with SMTP id m18-20020a170902bb9200b001534eaec77emr58107165pls.93.1649076871411;
+        Mon, 04 Apr 2022 05:54:31 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1649076871; cv=none;
+        d=google.com; s=arc-20160816;
+        b=KrJJZssxUtXF7RZTQ8NildCl9wKUkDNb74wip+xGCpOqC73DwxirX5WuuhrENTK/FM
+         raafd05q6bQ1Y/UfIKaOCMG0z092x/xlD4KoL6BLeJCXN0F31eTW0Hbjt2R6Gbp0NODE
+         MuHrHipLQbP3LANeij7FNb09e1cS6SiOjVZvT7DdyZu8FccjFRimk1UkUIbUWbRIymLa
+         pQaPCF11jKxvYKk0Rz+CVJnknPgIOkwxpCqcktqajtl4PASWZWAjkx/V0+rhWjmuPfjM
+         F0Vu6sKYHAl8Y3cZK11jrzmG198+0TsGywCIoKakTV+5/lTD8O92yeVzIF/2WY6oBe0H
+         EX1w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=reply-to:list-unsubscribe:list-url:list-owner:sender
+         :list-unsubscribe-post:references:in-reply-to:date:list-post
+         :message-id:list-archive:list-id:to:from:subject:mime-version
+         :dkim-signature;
+        bh=gQ/wexcDuUNGgS6bbTPYdxDvslvh9p7G5oZLrGlvo2o=;
+        b=mjQbWg4976UsQ9e9wUbBtJpt7vDnHcLC/k2NldIUURcz80KHENX1n3HtNqTkZqYT89
+         H8J7rvoeBgh9xVOdL6+vMK2G4KCjvLvB5RDZjVttQjTD3u+MfP4MT5Dqa63eV9VVz/k6
+         /lf5wvZk/frAUF4bFCC5LqtAneP1i4snXLUboE2ZhoptrdLFQ9ywKyq69ysUrLopgvLi
+         c2IWGpA2n6GyTfhoJncQPimJjfWEcRC1hzdCAIJk8dboTKsEuakhjCPbwNz2Jtozd5//
+         exqFjgEXn9fiP+Wl0Hokh5znwPJGa6GZ616ZT8zx4r7WOhFcWO3ahf76mUqXNZLX/Ww8
+         b1BA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=OdSigFUi;
+       spf=pass (google.com: domain of bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com designates 161.38.201.127 as permitted sender) smtp.mailfrom="bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com>
+Received: from mg-201-127.substack.com (mg-201-127.substack.com. [161.38.201.127])
+        by gmr-mx.google.com with UTF8SMTPS id on3-20020a17090b1d0300b001c6454fa27fsi787822pjb.1.2022.04.04.05.54.23
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 04 Apr 2022 05:54:31 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com designates 161.38.201.127 as permitted sender) client-ip=161.38.201.127;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg2.substack.com; q=dns/txt;
+ s=mailo; t=1649076871; h=Reply-To: List-Unsubscribe: List-Owner:
+ Sender: Sender: References: In-Reply-To: Date: List-Post: Message-Id:
+ List-Archive: List-Id: To: To: From: From: Subject: Subject:
+ Content-Type: Mime-Version;
+ bh=gQ/wexcDuUNGgS6bbTPYdxDvslvh9p7G5oZLrGlvo2o=; b=OdSigFUipYQY2IcLMdc0877fjB1rzj593IUzUhAkh2acu81T9/h6hS6NbNRQaxL5AxIqtDSB
+ xGYtT/v15iNd5KxMbk+LVpBZ8MrNhnlFibD5vHEcfus8vExiS5aqZ/C4OT7A/8YMK1AoabQr
+ 5LDMej50Dcq/WPd27hZGdb5YCiw=
+X-Mailgun-Sending-Ip: 161.38.201.127
+X-Mailgun-Sid: WyIyZDMzMyIsICJub3Rib3JpbmdAa2hhbWVsLmNvbSIsICI0ZDE4NTgiXQ==
+Received: from <unknown> (<unknown> []) by
+ api-n11.prod.us-west-2.postgun.com with HTTP id 624aea7625e583794271b9eb;
+ Mon, 04 Apr 2022 12:54:10 GMT
+X-Mailgun-Batch-Id: 624aea726c574459cb91ed25
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="e9e76f7dd56b4b8be657eac3a1efbf5ed4bd87dcdbe559dcad8dccf2c39d"
+Subject: Hadrian: Ex Machina Ad Lunam
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+List-Id: <notboring.substack.com>
+List-Archive: <https://www.notboring.co/archive>
+Message-Id: <20220404125345.2.db7413c99233fca4.f8u7lu7c@mg2.substack.com>
+List-Post: <https://www.notboring.co/p/hadrian-ex-machina-ad-lunam>
+Date: Mon, 4 Apr 2022 12:53:45 +0000
+In-Reply-To: <post-51576904@substack.com>
+References: <post-51576904@substack.com>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Sender: Not Boring <notboring@substack.com>
+List-Owner: <mailto:notboring@substack.com>
+List-Url: <https://www.notboring.co/>
+List-Unsubscribe: <https://www.notboring.co/action/disable_email/disable?token=eyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NTE1NzY5MDQsImlhdCI6MTY0OTA3Njg0OCwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoiZGlzYWJsZV9lbWFpbCJ9.j7jot4es_PsmHL179CHAV6frnKyXP1Cb5Z3RdAlGYso>
+Reply-To: Not Boring
+ <reply+upgzs&9p0gt&&02f79493a603ca8d6e037d5f1d5a1bdad3e0b597e0d6f3cab960b0b0f08841a6@mg1.substack.com>
+X-Mailgun-Variables: {"category":"post", "email_generated_at":"1649076848954",
+ "is_freemail":"true", "post_audience":"everyone", "post_id":"51576904",
+ "post_type":"newsletter", "pub_community_enabled":"true",
+ "publication_id":"10025", "subdomain":"notboring", "user_id":"16283549"}
+
+--e9e76f7dd56b4b8be657eac3a1efbf5ed4bd87dcdbe559dcad8dccf2c39d
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://email.mg2.substack.com/c/eJxFkM1uhCAQg=
+J9mua1BGBQPHHrpaxiEUckiGIRa3750TdpkfpKZTL7MZ3TGJaZL7fHI5LeM-dpRBTwPjzljIuXA=
+NDqr2o5JLmAgVoFtpZDEHeOcEDftvMqpINnL5J3R2cXwvqCUCbIqQSdAbgTjIHiH1k4wgOhBy1m=
+Insubq4t1GAwq_MJ0xYDEqzXn_Xjwjwf7rHGeZxNinmJyYWlMrKO95qptcjo88fu5abO6oJ_aPn=
+0JeiNOMcoYBQotExXfsMZOPbTcDAPjfDYamlmW3pfePIBuC2uOMh1Zm1cFbCSpP2Bdv1a9oX8v6=
+qtj7VsJLl8jBj15tLeFfMt8exkXDJiqZDvqXBXCQPtOghwE3F9XTaIVfTdQIJVsY70K_9AfD4mL=
+8g
+
+Welcome to the=C2=A0890=C2=A0newly Not Boring people=C2=A0who have joined u=
+s since last Monday! Join=C2=A0110,611 smart, curious folks by subscribing =
+here:
+=F0=9F=8E=A7=C2=A0To get this essay straight in your ears:=C2=A0listen=C2=
+=A0on=C2=A0Spotify [ https://email.mg2.substack.com/c/eJxFkU1rwzAMhn9NfAz-z=
+MfBh22lMNox9nHZKTiOkpgmdrCdttmvn9seJoRekBCveKRVhMH5TS4uRHQrTdwWkBYuYYIYwaM1=
+gG9MJ0lBKyZ4jTrJO1KJCpnQ9B5gVmaS0a-AlrWdjFbROHvfwJgKNMqSUCZStD1WRdXyium6rkn=
+LQWvQonj4qrUzYDVIOIPfnAU0yTHGJWTsKaP7lG4Bm4fFRdNvuXZzaoXRXZIUJ_JzfD6_f36-bS=
+4cNnYl19cpY_tgMrbbLRs3L4fyQ9AvcuSM_IZvPCAjKaYUc8wJFYyLnOZdW3Jyu44y1mvF875ay=
+2ktdcbxPNA8rG2ISp9u7shL62LrvLFDGp9GNcN0HyQMTdJ5tSZuDVjVTtA9CMUH6DuzZgALPj2g=
+a1RMeHmNy6LiVS34g0hCKIgoixpzlJw7l7bsv-kfuJCTsQ ] or=C2=A0Apple Podcasts [ h=
+ttps://email.mg2.substack.com/c/eJxFkMluAyEMhp8m3DpiDXDg0EtfY8TiJKgMjFhazdu=
+XZCpFsmxsy_7x522He6mH2Uvr6OnWfuxgMvy2BL1DRaNBXWMw5EoVE1yjYHggSigU23qrAJuNyf=
+Q6AO3DpehtjyW_JjCmAj2Mx85ZrimW2irPuKCYKR28lsIx7e2pa0eIkD0Y-IF6lAwomUfve7uwz=
+wv9mraX4G3rbbH7nmDxZZvF0d6d-cqlf7hSY77PJAYiqOSUaEZQNBRTijnmhIr5iYUuwUlOmNea=
+Mnbzli83NWQa0l843u50acO1bv33UwpVM3f_r-b4-2E3SK_GvHqdcRs59mOFbF2CcALpJ9cXovU=
+OGerkHVbbJ02usbwqrrTgJ4BJTBAhrxpzNJVDmVP5LfoHRX2ORQ ]
+Hi friends =F0=9F=91=8B,
+Happy Monday!=20
+If you haven=E2=80=99t read a Not Boring piece in a little while, read this=
+ one.=20
+Hadrian [ https://email.mg2.substack.com/c/eJxFkEmOhDAMRU9TWaKQAZJFFr3pa0QZ=
+DEQFCcrQiNt3uli0ZNmSv-yv952psKZ8qzOViv6arvcJKsJVdqgVMmoFsg5ejRMRlDOJvGJ-FFy=
+gUPSSAQ4TdlVzA3Q2uwdnakjxc4Ex4WhT2LBpwkY4O3FKATshibSWcrtgMzr6-JrmA0QHCn4g3y=
+kC2tVW61le9OtFvntd1zVsxudg4uBSX6CgCCYEM8xGwinjAxm8ndlInZSE0sUZNiyizXub3YvhY=
+yVDabZU4979w4GyiqnalENcu_zezAH7R-gkus-jxVBvDdHYHfwDWZ-sPth6hQi5Z-i1qT0hJvE8=
+CSYkZw9UT4GPfJ4kZqg7-9Sv4r_pL0o4gEI ] is different than the companies we no=
+rmally talk about in Not Boring. While it relies heavily on software, its m=
+ain focus is in the world of atoms. It uses big machines to make precision =
+parts for rockets and satellites. It blends automation and high-skilled lab=
+or.=20
+It=E2=80=99s an incredible example of something we=E2=80=99re going to see =
+a lot more of in the coming years (partially because Hadrian exists): start=
+ups tackling very hard, government-level problems in the physical world (an=
+d space). I=E2=80=99m very eager to see what happens as the worlds of bits =
+and atoms continue to interact and co-evolve.
+If Hadrian succeeds in its boldest missions, Americans will build hard thin=
+gs with speed once again, we=E2=80=99ll grow a new skilled labor force by m=
+aking manufacturing cool, and freedom will reign among the stars. High stak=
+es.
+Note that this is a Sponsored Deep Dive (read about my selection process an=
+d conflicts here [ https://email.mg2.substack.com/c/eJxFkU1vwyAMhn9NOUaEQCA=
+HDpO2aWrXXSZV2yki4KaoCWR8rMq_H20Ok4yNbNmv9VirBKMPq1x8TOju-rQuIB3c4gQpQUA5Qu=
+itkXVLRMNoh4ykphZMIBv7cwCYlZ1kChnQkofJapWsd48OjAlDFwkMY10LDFycW23aQdccKCGN4=
+YA515uuysaC0yDhF8LqHaBJXlJa4q552pHXYsbrWI3ejxNU2s9bJs_g0v1bXn0g1Dwd2JW_v-Xv=
+Y9wfV0OUfv78uYnhxeznftH2FObTx9d9JBibkJUEE4IppjVhDWUVqczAad3oriNNc9aKVmeR-ZS=
+53lE8j6SKeYhJ6et9CRSk82nwwbqxlK8XNcP0KBQYfYlzdjatPTg1TGA2TmnD_SDXj-AglDOYXq=
+UCmXaYt4KKjtGNSwHJasbbDlNUlI0vXe5f9A8A4Jal ]) and Not Boring Capital is a s=
+mall investor in Hadrian, but neither of those facts impacted the way I=E2=
+=80=99m writing this. I=E2=80=99ve been this excited about Hadrian since my=
+ first call with Chris after Moshe [ https://email.mg2.substack.com/c/eJxFk=
+MtuhDAMRb9mskQhDx6LLLrpqv0GlIeBaCBBidMR_foGZlHJsmVZ9vW5ViMsMZ3qiBnJlSY8D1AB=
+XnkDREikZEiTd6rt2MClGIlTwrWDHIjP05wAdu03hakAOYrZvNXoY7g3KGWSrAo0GE47N0LfGui=
+7oafcWDPrQTJm66FbVxfnIVhQ8APpjAHIplbEIz_4x4N91sCXvz5qbNxr9_3l52xXj7-cEa8YZY=
+wKKlomuZANa5zpRcvtODLOZ6tFMw-l30pvH4LuC2tyMRm1fV7nSFIhoonJh6WOn6veYbsHFWmqd=
+S_B4zlB0GYD96bFt2k3_7RAgFTNdJPGapUYaeUUwyjFm67aIVvZdyMVpCq7WLfCv-gfxuKELw ]=
+ at Shrug introduced us in February (thanks Moshe!), and if anything, I=E2=
+=80=99ve held back my enthusiasm.=20
+Let=E2=80=99s get to it.
+Hadrian: Ex Machina Ad Lunam [ https://email.mg2.substack.com/c/eJxFkE2OhCA=
+QRk_T7DSAILBg0Zu5huGntEkrGIQx3n6YNplJKEiqUnl8z5kCS8qX3tNR0O81lWsHHeE8VigFMq=
+oH5Cl4TUYqB84U8pp5IrlE4ZjmDLCZsOqSK6C92jU4U0KKnw2MKUcvLTBwKimjauQCCzJ6OvIZp=
+MUeK2n8zTXVB4gONHxDvlIEtOpXKfvxGJ4P-tXOeZ59TMWmHOLSu9RaeyvBxchmQjoOnHRMzUOn=
+nFWdUIq79lWBiUVBU0wpZpgRygfGe9p7KxgZnFJ0GGZnWD_LKtYq3IPhbaH9Ue1RjHs30oay_iO=
+38ftlNlg_g5Z5au9WYyjXBNHYFfyto9xWP4KmBSLkZttPpjSXTGExSiYVZ3f85ouTlkRhhhrZp7=
+YV_6E_LgiKcA ]
+(Click this link =F0=9F=91=86 to read the whole thing online)
+Every startup has a lofty mission. Hadrian [ https://email.mg2.substack.com=
+/c/eJxFkMluxSAMRb_msYwIQ4AFi276G4jBSVATiBha5e9LXxaVLA-y7KtzvW2w5XLrK9eG_pJp=
+9wU6wU89oDUoqFcoJgY9L0RSzhQKmoVZcoliNWsBOG08dCsd0NXdEb1tMaf3BcaEo107O3MhMQQ=
+C2Cm2crnQ0QSxUKE4hkfX9hAhedDwDeXOCdCh99au-qIfL_I5YrehRJsmn8eAoiaYEMwwmwmnjE=
+9kCk6wmXqlCKWrt2xaZRdHF_7F8LmRqXZXm_Vf48OJik65uVxi2sb6a7cnHO_FoDCjnj3FdhtI1=
+h0QHsD2-PRGNhskKMO_YGwb7jCFxSKZVJw9QMMBPsAXhRkayiGPq_Qv-gvZ9n5r ] is the fi=
+rst I=E2=80=99ve encountered whose mission includes reversing American decl=
+ine and ensuring the solar system remains free.=C2=A0
+Chris Power [ https://email.mg2.substack.com/c/eJxFUM2OhCAMfprhaBBB4MBhL3ve=
+NzAI1SGjYKCs8e2XGQ-bNG2aL-334yzCmvJljlSQvNuE1wEmwlk2QIRMaoE8BW_6kalBcE284b5=
+XQpFQpiUD7DZsBnMFctR5C85iSPFzQSkT5Gk4p1yPyo4gpQZrpXAzSOWc59RRuty8tvoA0YGBX8=
+hXikA280Q8ymP4erDvVniGt6LOpb1trO_ZTzqbwmAYZYw2lp6JgYuOdX6WvB-c1mwYFmd5t6gqt=
+yrdg9N9ZV2pc0HrXu9fJJuYcE45xLXBr6fdYfsAzc_U5l5jwGuCaOcN_G0V78Q-5qcVIuSWpJ8s=
+tpy4pnJUXGnBb2stC9ELOWrKSWP2qV3Ff9I_jJaCdA ], Hadrian=E2=80=99s founder and=
+ CEO, is clear about the stakes: if the US loses military and space superio=
+rity this decade, totalitarian actors won=E2=80=99t just take control of th=
+e reserve currency and power on the home planet, they=E2=80=99ll settle the=
+ solar system.
+We=E2=80=99re in a second Space Race, one with astronomical stakes, and we=
+=E2=80=99re at risk of losing because we can=E2=80=99t build like we used t=
+o. That=E2=80=99s what Hadrian wants to fix. Chris calls it the =E2=80=9Can=
+ti-decline company.=E2=80=9D He wants to remind people that we can still bu=
+ild hard things in the real world fast, like we did in the 1960s.=C2=A0
+Part of the reason Americans can=E2=80=99t build like we could in the =E2=
+=80=9860s is that we=E2=80=99re still relying on the same advanced manufact=
+uring supply chain we were back then, two generations (and a lot of excitem=
+ent and optimism) removed.=C2=A0
+So to reverse decline, Hadrian plans to transform the legacy supply chain t=
+hat powers space and defense manufacturing today into one that is faster, c=
+heaper, more reliable, and more transparent.=C2=A0
+To do it, Chris has assembled the Avengers =E2=80=93 world-class software e=
+ngineers, machinists, CAM programmers, operations leaders, and data scienti=
+sts =E2=80=93 to transform the faltering legacy space and defense industria=
+l base in the United States into a hyper efficient techno-industrial base. =
+He warned them that it was going to be hard and painful, and they all signe=
+d up.=C2=A0
+The team is building precision machine factories that automate the repetiti=
+ve and mindless things that can be automated and create high paying, meanin=
+gful work around the things that humans do best. At the meta level, it=E2=
+=80=99s building a machine that turns tribal knowledge into software, proce=
+sses, and jobs.
+Importantly, unlike self-driving trucks, which will automate tons of people=
+ out of jobs, machine shops literally cannot hire enough people to scale. T=
+o meet demand, there is no alternative but to simultaneously automate and t=
+rain a new generation of skilled workers.=C2=A0
+If Hadrian is successful, any company that relies on precision parts =E2=80=
+=93 starting with space and moving into defense, medical devices, semicondu=
+ctors, and energy =E2=80=93 will be able to build 10x faster and for half t=
+he cost that they=E2=80=99re able to today. That means faster iteration and=
+ cheaper costs for advanced rockets, satellites, jets, and hypersonics.=C2=
+=A0
+If that happens, US Defense will gain the manufacturing overmatch they need=
+ to maintain peace through strength on earth and in space. The US will win =
+Space Race II. The solar system will be free. It=E2=80=99s a big vision.=C2=
+=A0
+But first things first, Hadrian needs to ship its tightly-focused set of fi=
+rst parts =E2=80=93 high-margin, high-precision aluminum components for spa=
+ce companies =E2=80=93 on-time and on-budget. It needs to continue to hire =
+world-class talent from the worlds of bits and atoms and get them to work t=
+ogether to turn tribal manufacturing knowledge into scalable software and p=
+rocesses. IT NEEDS TO BUILD [ https://email.mg2.substack.com/c/eJxFkMtuxCAM=
+Rb9m2E3EM4EFi276GxEBZwY1gQhMq_Try0wWlaxryw9d-XiH8MjltEeuSF4y43mATfBTN0CEQlq=
+FMsdg2ci1UNKQYGVgWmkS67wWgN3FzWJpQI62bNE7jDm9LyjlijytZmENI1sVMGeokes6KuGMnC=
+gVbpnGy9e1ECF5sPAN5cwJyGafiEe9iY8b_-zh2Pg7-Lz3klNOe6KyC9NdItY7xh3umO9Li1voP=
+RJt3-NUUsm4ElINfAjLJJnwxnAhVu_ksOo2bW3yN0n3Bx9qWyo6__XyIcWmjEsuMT36-Ovpdtje=
+g_7o3PPeUsRzhuSWDcLFAC-UbyrzAxKUjjjMDjtAaeg0aqmNktfPHZJiahoNlaQ7h9yv0r_pHyh=
+5h-0 ].
+To help fulfill its mission, last week, Hadrian announced that it raised $9=
+0 million in two rounds: a Series A led by Brandon Reeves at Lux Capital an=
+d a Series A-Prime led by Katherine Boyle at a16z. Founders Fund and Lux le=
+d the Seed in March 2021.=C2=A0
+Hadrian is Boyle=E2=80=99s first investment out of the firm=E2=80=99s new A=
+merican Dynamism [ https://email.mg2.substack.com/c/eJxFkMtuwyAQRb8m7GJhHrZ=
+ZsMimv2FhGDsoGCwYWrlfXxIvKiGQ5upyNMcahC3lUx-pIHlfM54H6Ag_JQAiZFIL5Nk73Q9s4l=
+Io4rRw_SQn4su8ZoDd-KAxVyBHXYK3Bn2KnwalTJKnVq71JEjJ18lZLhlboLdiYINiyo7q4prqP=
+EQLGr4hnykCCfqJeJQbf9zYVztrxZqhM_3w29m0t8lSfXA-bnezQ27keHdnNLsv75B4zShjVFDR=
+M8mF7FjnllH03CrFOF-tEd061THU0d4E3TfWlboUNPb1_p9kHRMuKTdAi1_PBgmfoO05t3ev0eM=
+5QzRLAHcpwMvkR8q8QYTcDLvZYPMnFB2HSUxKimvl5kj2chwUFaSRXWqt-A_9A036isw ] prac=
+tice, and it=E2=80=99s an appropriate first investment. It is building crit=
+ical infrastructure on top of which ambitious American hard tech companies =
+will be able to innovate with atoms the way that software companies are abl=
+e to innovate with bits. Hadrian will serve as the foundation of American D=
+ynamism.
+Hadrian is not the first company to try to build automated factories =E2=80=
+=93 in fact, it=E2=80=99s not the first company that Founders Fund and Lux =
+have backed to go after the opportunity. The first one failed. Hadrian coul=
+d fail too; what it=E2=80=99s trying to do is very hard. But the fact that =
+both firms are back at the table with Hadrian is a testament to the size an=
+d importance of the opportunity, the timing, and to the approach that Chris=
+ and the Hadrian team are taking to tackle it.=C2=A0
+Because for everything we=E2=80=99ll discuss about the strategic importance=
+ of settling space and enabling military superiority, make no mistake: Hadr=
+ian has the potential to build a massive business. It=E2=80=99s building a =
+Keith Rabois-style =E2=80=9Cfat startup=E2=80=9D in a fast-growing $30 bill=
+ion industry with a highly-fragmented and outdated supplier base, pursuing =
+software-like margins, and digging moats that will make it incredibly diffi=
+cult to unseat. Hadrian has the potential to be a $10 billion+ business, an=
+d one that endures for decades.=C2=A0
+It=E2=80=99s a prime example of a trend towards atoms-based businesses with=
+ enormous missions in categories like climate, healthcare, space, and defen=
+se =E2=80=93 businesses that can do well by doing good, to quote the Protes=
+tants. A host of factors are intersecting at just the right time to make pr=
+eviously-impossible models possible and profitable, many of which we=E2=80=
+=99ll discuss here and some of which we=E2=80=99ll save for a future piece.=
+=C2=A0
+But while the mission and the opportunity grab headlines, Hadrian=E2=80=99s=
+ real magic is in the details:=C2=A0
+How do you automate the 80% of things that should be automated while creati=
+ng great American manufacturing jobs to do the 20% that only humans can do?=
+=C2=A0
+How do you recruit the exact right people =E2=80=93 often from cushy jobs a=
+t SpaceX or Stripe or Target or even out of post-Oculus retirement =E2=80=
+=93 to solve really hard problems?=C2=A0
+How do you take the tribal knowledge in experts=E2=80=99 brains and turn it=
+ into processes and software that even a brand new hire can use to get real=
+ly good, really fast?=C2=A0
+How do you finance a capital intensive business in such a way that it scale=
+s like a capital-light one?
+Rallying people around a huge, inspiring vision and focusing on the exact r=
+ight details today to get there in time is a near-impossible balancing act.=
+ Luckily for Hadrian, there are very few people in the world as good at pla=
+ying on different levels at the same time as Chris is.=C2=A0
+The best leaders can take the =E2=80=9C30,000 foot view=E2=80=9D and zoom i=
+nto the one-inch details. Both metaphorically and literally, Chris is able =
+to take the 1,193,280,000 foot view and zoom into the micron-level details.=
+=C2=A0
+Today, we=E2=80=99ll cover many of them. I=E2=80=99ve not been this giddy r=
+esearching a company in a long time, and I=E2=80=99ve done my best to trans=
+late what I=E2=80=99ve learned, how Hadrian can win, and why I think it=E2=
+=80=99s important:=C2=A0
+We Choose to Go to the Moon
+Powering Through the Idea Maze
+How Precision Machining Works Today
+A Plethora of Lessons
+What Hadrian Does Differently=C2=A0=C2=A0
+How Hadrian Works
+7 Powers
+Ex Machina Ad Lunam
+Everyone I spoke to on the Hadrian team acknowledged that there=E2=80=99s a=
+ ton of execution risk in front of them. It=E2=80=99s never been done befor=
+e. But that=E2=80=99s why they=E2=80=99re there. They choose to work at Had=
+rian not because it is easy, but because it is hard.=C2=A0
+We Choose to Go to the Moon
+On September 12, 1962, one year and two months before his death, President =
+John F. Kennedy gave one of my favorite Presidential speeches in US History=
+=2E=C2=A0
+In it, JFK set a goal for the United States to send American astronauts to =
+the moon by the end of the decade, essentially from a standing start. The R=
+ussians were far ahead of us. He acknowledged that it would be hard, but th=
+at that difficulty is precisely why we needed to do it:=C2=A0
+We choose to go to the Moon...We choose to go to the Moon in this decade an=
+d do the other things, not because they are easy, but because they are hard=
+; because that goal will serve to organize and measure the best of our ener=
+gies and skills, because that challenge is one that we are willing to accep=
+t, one we are unwilling to postpone, and one we intend to win.
+Aside from the stirring rhetoric and the grandness of vision, what makes th=
+is speech so special is =E2=80=93 and I don=E2=80=99t want to spoil the end=
+ing, but=E2=80=A6 =E2=80=93 we did it.=C2=A0
+On July 20, 1969, less than seven years after the speech, Apollo 11 astrona=
+uts Neil Armstrong and Buzz Aldrin became the first humans to ever set foot=
+ on the moon. We beat the Russians. USA! USA! USA!=C2=A0
+Over the next three years, NASA=E2=80=99s Apollo program completed five mor=
+e manned moon landings =E2=80=93 Apollos 12, 14, 15, 16, and 17 - concludin=
+g with Apollo 17 astronauts=E2=80=99 Eugene Cernan and Ronald Evans=E2=80=
+=99 75 hour stay on the lunar surface in December 1972.=C2=A0
+And then=E2=80=A6 nothing. We haven=E2=80=99t been back since. This year ma=
+rks the 50th anniversary of the last time an American set foot on the moon.=
+=C2=A0
+In the intervening half-century since the Apollo program, NASA=E2=80=99s bu=
+dget fell off and has slowly declined as a percentage of the Federal budget=
+ (other than a post-Challenger explosion uptick). We won the Space Race. Mi=
+ssion accomplished. Our eyes returned to the ground.=C2=A0
+Look up. The Race is back on. We=E2=80=99re in the early days of Space Race=
+ II.=C2=A0
+If you haven=E2=80=99t been paying attention to what=E2=80=99s going on in =
+the space, it=E2=80=99s time to start paying attention. Things are about to=
+ get sci-fi. In the next decade, there=E2=80=99s a very good chance that hu=
+mans will establish the first Lunar base. The first humans might set foot o=
+n Mars. Wars might be won, lost, or hopefully, deterred, based on nations=
+=E2=80=99 capabilities in space.=C2=A0
+This sounds like sci-fi, but it=E2=80=99s very real. As the simplest exampl=
+e, satellites are crucial war infrastructure today; knock them out, and you=
+r enemy is blind. More extreme examples include =E2=80=9CRods from God,=E2=
+=80=9D simple tungsten rods, or even space rock, sent from space at 10x the=
+ speed of sound to hit precise targets with the force of a nuclear bomb. Sp=
+ace is a key battleground.=C2=A0
+Commercial activity in space will inevitably pick up, too. It already is. S=
+paceX has inspired a nation with everything from its manned lockdown launch=
+ to its mission to make humans a multiplanetary species, but its most immed=
+iate impact has been dramatically lowering the cost to launch things into s=
+pace by making rockets reusable and increasing their payloads.=C2=A0
+During the first Space Race, it cost $177,900 inflation-adjusted to send a =
+kilogram to Low Earth orbit (LEO) on NASA=E2=80=99s Delta E. SpaceX=E2=80=
+=99s Falcon Heavy has dropped the cost two orders of magnitude, to $1,500/k=
+g. Its forthcoming Starship =E2=80=93 the one that might take humans to Mar=
+s =E2=80=93 is going to slash the cost once again, to around $50/kg!=C2=A0
+Elon is doing the Elon thing [ https://email.mg2.substack.com/c/eJxFkNuOhCA=
+MQL9meNMgF5UHHjbZzG8YLtUho2CwrPHvl53Z7CalTWjaA8cZhCXlS-_pQPKTJrx20BHOYwVEyK=
+QckKfgddezkUuhiNfCd6McSTimOQNsJqwacwGyF7sGZzCk-JqglEny0NY44-3MvDIzHyydvTTWj=
+85wpXqg4s01xQeIDjR8Qb5SBLLqB-J-3PjHjd1rnOfZxoQ25RCX1qV6tdczpxKxMdE3-IDGJn8d=
+zWaW-pC1mQuWDDd-r1s-TxI0o4xRQUXHJBeyZa23g-i4U4pxPjsj2nksw1oGdxN0W1h7FHugcc_=
+K20jWf_zafj7MBuurUX8-1bqVGPCaIBq7gn9Lwbfbl6ZpgQi5OveTwWpUKDr0oxiV_JVQrclODr=
+2qVirZpzoV_6Hfx--S1A ], lighting the match that ignites an industry, and it=
+=E2=80=99s working. Today, companies can book space on a rocket [ https://e=
+mail.mg2.substack.com/c/eJxFkEmOhDAMRU9TWaKQgZBFFr3pa6AMBqKCBGVomtt3ChYtWbZ=
+ly_76z-oCS0yXOmIu6JOmch2gApx5g1IgoZohTd6pfiAj5Uwip5jrRz4in6c5Aezab6qkCuioZv=
+NWFx_DfYEx4WhVtO-1kMZg0IRxCTOh0kkB3JpBUOweXV2dh2BBwQ-kKwZAm1pLOfKLfr3Id4vzP=
+Lt8aAu_nY17GyTvIK86QeuRVwQTghlmPeGU8Y50zgjWUysloXS2mnXzWMVWhX0xvC-ky9Xkou37=
+8w4lFWIxMfmwtPV71Tts96K5mlrda_DlmiBos4F7DJeH241gWiBAajzdpEujxSQWw8hGydljsBH=
+hPReDxAw1ZRfbVfgX_QPfhoTE ] for their satellites more easily than they can =
+buy Enterprise SaaS.=C2=A0
+SpaceX has a direct impact on space by making it cheaper and easier to fly =
+things out there, but Chris pointed out that the bigger impact might be tha=
+t it has =E2=80=9Ctrained a bunch of 25-year-old engineers who are now 30-y=
+ear-old engineers going out to start their own companies based on what they=
+ learned at SpaceX.=E2=80=9D=C2=A0
+Lower costs and more talent has led to an absolute explosion in the number =
+of, and funding for, space companies: Varda, Hermeus, Astra, Astranis, ABL =
+Space Systems, Ursa Major, Planet Labs, Epic Aerospace, LeoLabs=E2=80=A6 th=
+e list goes on and on. And then there are the companies that intend to comp=
+ete with SpaceX, like Relativity and Blue Origin. There=E2=80=99s an excell=
+ent newsletter called Payload [ https://email.mg2.substack.com/c/eJxFkEuOxC=
+AMRE_TLCO-CSxYzGaugQg4adQEIj4zyu2H7ixGsmzJJbv0ytkGey6XPnNt6N1Mu07QCX5rhNago=
+F6hmOA1malkgivkNfdEColCNVsBOGyIupUO6OxrDM62kNPnAmMq0FM7K2dP5YZn4mFTSnnChFyd=
+XTc1MyVuX9t9gORAww-UKydAUT9bO-uDfT3o96jTXjFbX0_rYHL5GCsUNMWUYo45oYJxMdHJrws=
+nzClFGduc5dMm-xL74h4cHzudal9rs-71foGKTrmtuYS0D_n1tAfEjzBYzJhHT6FdBpJdI_gbs9=
+1pfcDNDgnKSNEb20ZGXOFlllwqwW-skYMgYpkV5mg4-zyu0r_pH_CPgZU ] that you should=
+ check out if you want to keep up with space.=C2=A0
+Plus, lower launch costs don=E2=80=99t just mean more businesses, they mean=
+ that these businesses are able to build more experimentally and iterativel=
+y, like terrestrial startups can. That should lead to all sorts of unimagin=
+able innovations.=C2=A0=C2=A0
+Think about what happens when launch costs drop. If it costs $25 million to=
+ launch your satellite into space, you better make sure that everything is =
+perfect and that the satellite is going to last for a long time. You priori=
+tize perfection over speed. But if it only costs $1.1 million to get your s=
+atellite up, you can test and iterate and experiment much more than you cou=
+ld before. When you can just reschedule and hop on the next launch if you s=
+lip on timelines, you can set more aggressive timelines. You can start to i=
+nnovate much more rapidly=E2=80=A6 as long as the supply chain can support =
+it.=C2=A0
+All of these changes, big and small, have taken place in the last five year=
+s that add up to mean a rapid liftoff in demand for spacefaring things from=
+ the private sector. And that=E2=80=99s before getting to the growing deman=
+d from the government for defense and exploration.=C2=A0
+=E2=80=9CThis is the perfect window to build this company,=E2=80=9D Founder=
+s Fund=E2=80=99s Delian Asparouhov told me. =E2=80=9CSupply needs were flat=
+ for sixty years and then they grew exponentially overnight, which complete=
+ly overburdened the system.=E2=80=9D=C2=A0
+And oh yeah, we=E2=80=99re going back to the moon. NASA is teaming up with =
+SpaceX [ https://email.mg2.substack.com/c/eJxFkcGu4yAMRb-m7IgIgRIWLGYzvxEZc=
+FJUAhGQ5vXvh9cuRrJsWVdX1zp20HDL5W2OXBv5bUt7H2gSXjVia1jIWbEswZvxzudJCk28EX6c=
+5UxCXdaCuEOIppUTyXHaGBy0kNPHwRiX5GFgslJJbrngTCs3o1frKJUdtVB6BPvNhdMHTA4NvrC=
+8c0ISzaO1o96mPzf-t9d1XUOCCsOWX309CtZKC0aEin2HSqE03EOle35hpWsuFxRPfz30CO5ZaT=
+3A4Q9tmUZIXcGfRmHH0q9OlebUnTmRYDjjnAkmRi4nIQc-eKvEODmt-TStDsSwzqeKp3I3wfaND=
+_W0tYF7Di7vpJiUm80lpK3Lz0dPiB-hA1r63M8U2nvBBDai_7Jr3xd8aC4bJiz9NX6B1sELzdR9=
+FrOW4suqw5Wd4F0zQXqyz92V_of-A0bmoOQ ] (and potentially one more partner) to=
+ send humans back to the moon by 2025.=C2=A0
+To understand why the current advanced manufacturing supply chain can=E2=80=
+=99t handle demand, how Hadrian plans to fix it, and what the universe look=
+s like if they succeed=E2=80=A6=20
+Thanks to Dan [ https://email.mg2.substack.com/c/eJxFkMGOhCAMhp9mOBqEonLgsJ=
+d9DYNQHTIKBspufPtlnMMmTZumaf_-n7OEW8qXOVMh9k4zXSeaiL9lRyLMrBbMc_CmH8QkFWjmD=
+fh-UhMLZV4z4mHDbihXZGdd9uAshRTvDc6FYk_TSz-idrAqHASA9Jz7SeKgB6Xd0C7eurb6gNGh=
+wR_MV4rIdvMkOstDfj3Edwv6De-POpeO1nl7OJfyEdyrlywYwYXgwKEXSoLqROeXEXrptBZSrs5=
+Ct0513OvoHsCPTXSlLoWse73vsWxioiXlELc2fj3tgfs9aJ7mVo8aA10zRrvs6D926UPtBjBvGD=
+E3mn621FiB5uMwwaQVfOw1HqpX46A5sKbsU9uK_6J_fTWD0Q ] for editing, to Moshe fo=
+r introducing me to Chris, to Delian and Brandon for the insight, and espec=
+ially to Chris and the whole Hadrian team for taking the time to talk to me=
+ and explain what they=E2=80=99re building and how.
+Not Boring Talent Collective
+Over 400 smart, curious people are looking for jobs at companies like Hadri=
+an and in the broader web3 and startup ecosystem, and 40 growing companies =
+have already signed up to hire them. Whether you=E2=80=99re looking to hire=
+ or looking for a new job, sign up here [ https://email.mg2.substack.com/c/=
+eJxFkEuOwyAQRE8TdmNhPrFZsMhmrmHxaTsoGCxoZuTbD4kXIyFQ0-qqrucMwpbLqY9ckbyvBc8=
+DdILfGgERCmkVyhK8Hu9s5lIo4rXw4yxnEuqyFoDdhKixNCBHszE4gyGnzwSlTJKnVpZNbrWrFd=
+JwKSdlqZu5V70S1ji4fE3zAZIDDT9QzpyARP1EPOqNP27su5-U8cvmEtI2HCb29QaX9_6PJkJCE=
+jSjjFFBxcgkF3Jgg7eTGLlTinG-OiOGdW5TbJO7CbpvbKjNVjTu9RYiRXeDS7-3X0-zQ_w0eqyl=
+v3tLAc8FkrER_JUYL3AfBssGCUoH6heDHZdQdLrPYlZSXAk7EjnK6a6oIN3Z5z6V_k3_AFv7hh8=
+ ].
+Thanks for reading, and see you next week,
+Packy
+
+Unsubscribe https://email.mg2.substack.com/c/eJxFkkuP2jAUhX8NWUZ-5eFFFggGCB=
+1g2qEMsIkc24DBiaPYaRp-fQ1UrWTZ1rm691jnM2dOnk07ZI2xLnhshRsamdWyt1o6J9ugs7Itl=
+MhgjFIcERqIjAiYRmmgbHFqpayY0plrOxk0XakVZ06Z-tkBAIqCS3aKEyAJxzGiCcAoiTkHEKKI=
+UsYTyMjLl3VCyZrLTP6S7WBqGejs4lxjR3g8QjO_-r4Pa-NK06r6HHLjJcYfZv4ilGWllsXzNSM=
+8c-Ym6xGeymEJOdoNe6Rv-dX8Xl9zsrr_BJvPXvE5vYsZbY6TPF5v3-D6fohW0-82r_RFeG21PY=
+DNdozX1zPYTHrF9uu7n6H4Yqfet2_9aprDXPk5eKce-nGu74evpT3uqC6_Zk05WdLwmlyNI9IWH=
+7ZavMOEThbjXXxq62_D_gNOyuiIf4ixnh-sCVSGAEKAAOLTwSQKUSjKhEDMKUUYnzgj4SntEt0l=
+fERAdUah7UrrGL_5OKqgzf7F48u3C6ukfhY8mMKfVVcrNxSyfkQlXszcC_0zt-Isa9n6LyEK5jx=
+wQkESpySl0V9GHmoEoySmgATeWRjfVf83_QMapsXa
+--e9e76f7dd56b4b8be657eac3a1efbf5ed4bd87dcdbe559dcad8dccf2c39d
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><title>Hadrian: Ex Machina Ad Lunam </title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup iframe.spotify-wrap,
+  .typography.editor .markup iframe.spotify-wrap,
+  .typography .markup a.spotify-wrap,
+  .typography.editor .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.youtube-wrap div.youtube-screen,
+  .typography.editor .markup div.youtube-wrap div.youtube-screen,
+  .typography .markup div.vimeo-wrap div.youtube-screen,
+  .typography.editor .markup div.vimeo-wrap div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media print {
+  .typography .markup .button-wrapper,
+  .typography.editor .markup .button-wrapper {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin-bottom: 16px;
+    max-width: 100%;
+    width: auto;
+  }
+}
+
+
+@media (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 16px 0 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+table.post-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg table.post-meta.alternative-meta tr td.post-meta-item,
+  table.post-meta.alternative-meta tr td.post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg table.post-meta.alternative-meta tr td.post-meta-item,
+  table.post-meta.alternative-meta tr td.post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg table.post-meta.alternative-meta tr td.post-meta-item.guest=
+-author-publication,
+  table.post-meta.alternative-meta tr td.post-meta-item.guest-author-public=
+ation {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  table.post-meta tr td.post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  table.post-meta tr td.post-meta-item .post-meta-button .meta-button-label=
+ {
+    display: none;
+  }
+  table.post-meta tr td.post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  table.post-meta tr td.post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .footer {
+    outline: 8px solid #f8f8f8 !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 18px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 630px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (min-width: 631px) {
+  .sm\:tw-my-8 {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .sm\:tw-mx-0 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .sm\:tw-mt-0 {
+    margin-top: 0px !important;
+  }
+  .sm\:tw-ml-3 {
+    margin-left: 0.75rem !important;
+  }
+  .sm\:tw-mb-0 {
+    margin-bottom: 0px !important;
+  }
+  .sm\:tw-mb-1 {
+    margin-bottom: 0.25rem !important;
+  }
+  .sm\:tw-mb-12 {
+    margin-bottom: 3rem !important;
+  }
+  .sm\:tw-block {
+    display: block !important;
+  }
+  .sm\:tw-inline-block {
+    display: inline-block !important;
+  }
+  .sm\:tw-flex {
+    display: flex !important;
+  }
+  .sm\:tw-hidden {
+    display: none !important;
+  }
+  .sm\:tw-h-screen {
+    height: 100vh !important;
+  }
+  .sm\:tw-h-64 {
+    height: 16rem !important;
+  }
+  .sm\:tw-w-full {
+    width: 100% !important;
+  }
+  .sm\:tw-w-auto {
+    width: auto !important;
+  }
+  .sm\:tw-w-64 {
+    width: 16rem !important;
+  }
+  .sm\:tw-max-w-lg {
+    max-width: 32rem !important;
+  }
+  .sm\:tw-translate-y-0 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-95 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-100 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-flex-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+  .sm\:tw-items-start {
+    align-items: flex-start !important;
+  }
+  .sm\:tw-gap-4 {
+    gap: 1rem !important;
+  }
+  .sm\:tw-space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse))) !important;
+    margin-bottom: calc(0px * var(--tw-space-y-reverse)) !important;
+  }
+  .sm\:tw-border {
+    border-width: 1px !important;
+  }
+  .sm\:tw-border-theme-background-500 {
+    border-color: #9a9a9a !important;
+  }
+  .sm\:tw-border-theme-background-200 {
+    border-color: #ebebeb !important;
+  }
+  .sm\:tw-p-0 {
+    padding: 0px !important;
+  }
+  .sm\:tw-p-6 {
+    padding: 1.5rem !important;
+  }
+  .sm\:tw-py-16 {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+  }
+  .sm\:tw-px-6 {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+  .sm\:tw-py-2 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .sm\:tw-py-24 {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+  }
+  .sm\:tw-pb-4 {
+    padding-bottom: 1rem !important;
+  }
+  .sm\:tw-text-left {
+    text-align: left !important;
+  }
+  .sm\:tw-align-middle {
+    vertical-align: middle !important;
+  }
+  .sm\:tw-text-sm {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
+  .sm\:tw-text-4xl {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+  }
+  .sm\:tw-font-normal {
+    font-weight: 400 !important;
+  }
+  .sm\:tw-text-theme-background-inverse-500 {
+    color: #767676 !important;
+  }
+  .sm\:tw-opacity-70 {
+    opacity: 0.7 !important;
+  }
+  .sm\:hover\:tw-border-theme-background-300:hover {
+    border-color: #d6d6d6 !important;
+  }
+  .sm\:hover\:tw-opacity-100:hover {
+    opacity: 1 !important;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjIwNDA0MTI1MzQ1LjIuZGI3NDEzYzk5MjMzZmNhNC5mOHU3bHU3Y0BtZzIuc3Vic3RhY2suY2=
+9tPiIsInUiOjE2MjgzNTQ5LCJyIjoibm90Ym9yaW5nQGtoYW1lbC5jb20iLCJkIjoibWcyLnN1Y=
+nN0YWNrLmNvbSIsInAiOjUxNTc2OTA0LCJ0IjoibmV3c2xldHRlciIsImEiOiJldmVyeW9uZSIs=
+InMiOjEwMDI1LCJjIjoicG9zdCIsImYiOnRydWUsImlhdCI6MTY0OTA3Njg0OSwiaXNzIjoicHV=
+iLTAiLCJzdWIiOiJlbyJ9.aOC-w0LUP9Zmk8tQxQ0-F8-qD9T9QbQXZ9j9QBarj_g" alt=3D""=
+ width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important;width=
+:1px !important;border-width:0 !important;margin-top:0 !important;margin-bo=
+ttom:0 !important;margin-right:0 !important;margin-left:0 !important;paddin=
+g-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;p=
+adding-left:0 !important;"/><div style=3D"display:none;font-size:1px;color:=
+#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hid=
+den;" class=3D"preview">Meet the Anti-Decline Company Building to Keep the =
+Solar System Free &#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;</div><=
+table role=3D"presentation" width=3D"100%" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" class=3D"email-body-container"><tr><td></td><td width=3D"5=
+50" class=3D"content"></td><td></td></tr><tr><td></td><td align=3D"left" wi=
+dth=3D"550" class=3D"content"><div style=3D"font-size: 16px; line-height: 2=
+6px; margin: 0 auto; max-width: 550px; overflow-wrap: break-word; width: 10=
+0%;"><div dir=3D"auto" class=3D"post typography" style=3D"font-size: 16px; =
+line-height: 26px; padding: 9.6px 0;"><div class=3D"post-header" style=3D"f=
+ont-size: 16px; line-height: 26px;"><h1 class=3D"post-title short published=
+" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: an=
+tialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system=
+, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Ap=
+ple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 40px; fon=
+t-weight: bold; line-height: 130%; margin: 0.378em 0 0 0;"><a href=3D"https=
+://email.mg2.substack.com/c/eJxFkltvozAQhX9NeAsyvhD8wEOVNF2qTdJqc39BxjbgBGw=
+WTCj59XUTaVfyRTqjOUeabzizsjDtGDems97Pk9qxkbGWQ1dJa2Xr9Z1sUyXiIIQRIph6IsYiiE=
+jkqS7NWylrpqrYtr30mj6rFGdWGf3oAAASr4yZDGFOQU5CgWAEcwERw4wxHIGQMCqeuawXSmouY=
+3mT7Wi09Kq4tLbpJuhlApfuDMPga2Mz0ypd-Nw4qXG3ZKJVTE_l17RmvFSaTZmYVr1m9QQtrblK=
+PUELOb4HHO7HI6yuycV8rS8JXt13YPNnUPyN3sWSNud5Eq63r8H6fiKrxWeX1FUpnLbansBm-4L=
+WlwJs5oNix_XdeSj-a69-b1-H1SIJEuV80F499B-_eTCeD8uLeKtumXqn_i4TZ3HYLD9AcTwKeP=
+zQ5GthpsHudBv2f_Xls0Rge01EfzCeiiGAEGCAA0gQJj70RTbDAeKUQoRyzrCfR_2s6md8gkFdQ=
+L_rs84yfnVzqb02_jcnV76WrJbVo-AIpe6ve63smErNskqKJzz73IEHzrSQWrZuN0TKrCOPKZiF=
+EY4owU9Yji4JyCykAHsuWRjXpf-HfgMAuMoj" style=3D"color: #1a1a1a; text-decorat=
+ion: none;">Hadrian: Ex Machina Ad Lunam </a></h1><h3 class=3D"subtitle" st=
+yle=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antial=
+iased; color: #767676; font-family: 'SF Compact Display', -apple-system, Bl=
+inkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple =
+Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 20px; font-we=
+ight: normal; line-height: 1.16em; margin: 4px 0 8px; margin-top: 8px;">Mee=
+t the Anti-Decline Company Building to Keep the Solar System Free</h3><tabl=
+e cellpadding=3D"0" cellspacing=3D"0" class=3D"post-meta   custom" style=3D=
+"margin: 1em 0;"><tr><td title=3D"2022-04-04T12:54:05.690Z" class=3D"post-m=
+eta-item post-date" style=3D"color: #767676; font-family: -apple-system, Bl=
+inkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple =
+Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-we=
+ight: 400; height: 14px; line-height: 100%; padding: 0px 12px 0px 0; paddin=
+g-bottom: 0; padding-top: 0; position: relative; text-decoration: none; ver=
+tical-align: middle; white-space: nowrap;"><time dateTime=3D"2022-04-04T12:=
+54:05.690Z">Apr 4</time></td><td class=3D"post-meta-item icon" style=3D"col=
+or: #767676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Ro=
+boto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', =
+'Segoe UI Symbol'; font-size: 14px; font-weight: 400; height: 14px; line-he=
+ight: 100%; padding: 0px 12px 0px 0; padding-bottom: 0; padding-top: 0; pos=
+ition: relative; text-decoration: none; text-indent: 3px; vertical-align: m=
+iddle; white-space: nowrap;"><span class=3D"post-meta-icon"><a href=3D"http=
+s://email.mg2.substack.com/c/eJxFUsuOmzAU_ZqwG4SNeS1YTJMSgQpR1EkzyQYZ-yYx4S=
+WwQ-HrxySaVrLulY99n-cwKuHa9lPYtYM0FpPLqYOwgXGoQEroDTVAnwseIhf7tkMCg4eEI9_xD=
+THklx6gpqIKZa_A6FRRCUalaJtnhGVhx7iFPgZAXsAAfCgC7DsEsQtiyHY833MD91WXKi6gYRDC=
+A_qpbcCowpuU3bCy31c40mccR7NpZdH2ormarNUQ7YS2D6TNkkS7ZztvPVC2tLGyI9neQfsNTAl=
+i-M_0iat7XLZ_szIm6Xywdr9HwbbBzKOgO69jN_v4ibL55KSb_RA3SXU6ZhY9BkrHCNLheyxGQY=
+-R9cqx1_8Y3m325Nc66Zidip1IRn6MZfrxPqblQWh81vcFn87HqOTb6lGIJDCz6W08zydFt_Nhf=
+fuxU135sXPZI4EsqtNx8ymyscxHdCnvK-wqWedDq3oGepZBFYOk7BuvgQtVLzMuwxsixBbGFrEI=
+wo5NHBObvPAIslkQYNu-MErMi6-8SnlsRaz6is3vhHqrtdGH_7asn-83WkP1fND85trXqhFyyqG=
+hRQX8Rb18KejZQH6FBnqtLJ5TqXVDAstzfeIHDnlRrbXhIEdTbxFDV-atjmr-F_0CDMDgNg" cl=
+ass=3D"like-button" style=3D"display: block; text-decoration: none;"><img s=
+rc=3D"https://cdn.substack.com/image/fetch/w_28,c_scale,f_png,q_auto:good,f=
+l_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FHeartIconRounded%3F=
+v%3D3%26height%3D28%26fill%3D%2523757575%26stroke%3D%2523757575%26strokeWid=
+th%3D2" width=3D"14" height=3D"14" style=3D"border: none !important; displa=
+y: inline-block; float: left; height: 14px; max-width: 14px; vertical-align=
+: top; width: auto;" alt=3D""></a></span></td><td class=3D"post-meta-item i=
+con" style=3D"color: #767676; font-family: -apple-system, BlinkMacSystemFon=
+t, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', '=
+Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 400; heig=
+ht: 14px; line-height: 100%; padding: 0px 12px 0px 0; padding-bottom: 0; pa=
+dding-top: 0; position: relative; text-decoration: none; text-indent: 3px; =
+vertical-align: middle; white-space: nowrap;"><a class=3D"" href=3D"https:/=
+/email.mg2.substack.com/c/eJxFUsly4jAQ_Rp8w6XN28GHVAgZpwZIagghubhkqcECW2JsK=
+Y75-giYpUqtw-vq18t7glvYm27MT6a3weUr7XiCXMPQN2AtdIHroSuVzHFMUhqxLJA5kziN0kD1=
+5a4DaLlqcts5CE6uapTgVhl9rUCIREGdcxAkqQQFElMacUkSzuSOEozjNOE4uvXlTirQAnL4hG4=
+0GoImr6099RN6NyFz_4ZhCLWxlemU3ofCeOjko-ayU1xP4WvaclErzadcThuneeuzwrQtaOtZ5t=
+YcQU_oDMYnLMhm3JLmWBzM1_JQsMX5Fa1-DUo8Zmc5z04f90W8XD_g5fk9Wsxe-qJtaumxxfodr=
+dZ3dHnYo9X9oPh2efYcSvzYqJ_rh2ExK3ChPA_dqCt-4bvH48fb_CAfm89KPWXhayU_5Ntq_oz2=
+260k22cdfc3MFL--fw6b3_rwUlO0PhbSvfkdY2fbsjeuE-Bn713VWy6Of_AWpHLtZaeLCoHKCSI=
+EMcQwiSiLQhLKKmGYiiwjlO4EZ-EudUnjEjFhqN2T8C-hv2cbdPm_-_r0seYtNNeEV7a8XNJpZc=
+cSNK8akDfR7c071wHKPWjovKdkya13DMtQEqcszSJ2E9m7IsJREmeIBb6zNL5K_2_6DYMH3iE" =
+style=3D"display: block; text-decoration: none;"><img src=3D"https://cdn.su=
+bstack.com/image/fetch/w_28,c_scale,f_png,q_auto:good,fl_progressive:steep/=
+https%3A%2F%2Fsubstack.com%2Ficon%2FCommentIconRounded%3Fv%3D3%26height%3D2=
+8%26fill%3D%2523757575%26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"1=
+4" height=3D"14" style=3D"border: none !important; display: inline-block; f=
+loat: left; height: 14px; max-width: 14px; vertical-align: top; width: auto=
+;" alt=3D"Comment" class=3D"comment-icon post-meta-icon"></a></td><td class=
+=3D"post-meta-item icon" style=3D"color: #767676; font-family: -apple-syste=
+m, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'A=
+pple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; fo=
+nt-weight: 400; height: 14px; line-height: 100%; margin-right: 0; padding: =
+0px 12px 0px 0; padding-bottom: 0; padding-right: 0; padding-top: 0; positi=
+on: relative; text-decoration: none; text-indent: 3px; vertical-align: midd=
+le; white-space: nowrap;"><span><a href=3D"https://email.mg2.substack.com/c=
+/eJxNkt2OmzAQhZ8G7oKMMX8XXOw2ikQUkm6329DeIGNPghMw1NhhydOvk3TbSral-caj0Zw5jG=
+o49mrOhn7U7u2p9DxAJmEaW9AalGtGUJXgmR_hJAhJ6vKMcD8JE1eM1UEBdFS0mVYG3MHUrWBUi=
+17eKxDCodtkiZ8SEjIMUeqTNEqYDzxJ_EPEkjjGIXn0pYYLkAwyuICaewlumzVaD6MTPDl4Zc80=
+TZ7sdd0rIY8e6y0a7G0oV4LKBbwvOsoaIemC8kVrJO2cYGV0V429UQycYDmaetSUnR0c3XgHXBj=
+7aXmf4Q9kvdQg9e13QxVYStltov-A7s9wi2Fe-wz_mEvcnvNT_7495aS4vqHd6yTofoUe7CUslg=
+zvli9k82U9sKAQO7Ge-D7XxfenqTi9CcuvNr7zOtiiTbluf-63iO5Tk0vklfP5ktLq2yb6Wjxfn=
+8t6jzD5NQVE5HNejicl6_L1on5Pl8IVGUYYI4KIj8OAhB72eB0TP2BpioPgwCjxDomJWxMzh6Du=
+iL1PVayknauyvxLb9LmhHbT3hF2u1abrjBR6rkDSugX-2Lt-2OeuYnUECcraildUW9OQFMVRQpL=
+0c8_WGKEfxlGKiGs7895WyX9NPwCsgd6i" style=3D"display: block; text-decoration=
+: none;"><img src=3D"https://cdn.substack.com/image/fetch/w_32,c_scale,f_pn=
+g,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FReco=
+mmendIconRounded%3Fv%3D2%26height%3D32%26fill%3D%2523757575%26stroke%3Dnone=
+%26strokeWidth%3D2" width=3D"16" height=3D"16" style=3D"border: none !impor=
+tant; display: inline-block; float: left; height: 16px; max-width: 550px; v=
+ertical-align: top; width: 16px;" alt=3D"Share" class=3D"recommend-icon pos=
+t-meta-icon"></a></span></td></tr></table></div></div><div dir=3D"auto" cla=
+ss=3D"post typography" style=3D"font-size: 16px; line-height: 26px; padding=
+: 9.6px 0;"><div dir=3D"auto" class=3D"body markup" style=3D"font-size: 16p=
+x; line-height: 26px; margin-bottom: 12px; text-align: initial; width: 100%=
+; word-break: break-word;"><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0; margin-top: 0;"><em>Welcome to the&nbsp;=
+<strong>890&nbsp;newly Not Boring people&nbsp;</strong>who have joined us s=
+ince last Monday! Join&nbsp;<strong>110,611 </strong>smart, curious folks b=
+y subscribing here:</em></p><div class=3D"subscribe-widget is-signed-up" st=
+yle=3D"direction: ltr; font-size: 16px; line-height: 26px; margin: 0 0 1em;=
+"><p class=3D"button-wrapper" style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0; text-align: center;"><a href=3D"https://=
+email.mg2.substack.com/c/eJxFUdtuhSAQ_Bp5q0EELw88NGnObxiE1UOOgMGlxr8vanuaEB=
+Jmd2eGWa0Q5hAPuYYNyXkNeKwgPezbAogQSdogDtbIqmFdLXhPjOSm6kRH7DZMEcApu0iMCciax=
+sVqhTb4a4JSJshTKqHrdppYYyoNvGupGHmmUh2MLaeivXVVMha8BgnfEI_ggSzyibhuRf1ZsEc-=
+-76XPuAYovVzqUOGtjRuOtoRivqR0A1bSFHnx9dJWbDmxBwYm1zGLqe_4LvxzfCxWzPD35AOHsF=
+jbhCVaJuecmIlo4xRTnnFRM1FyUqTP1DVuu9ZXU9a8XLqUrukVhecupmVJzkq_cpmHYnybT6XX0=
+_lYLkKObas51zyFo8BvBoXMHeieC_mcj7M4CHmhZlBYV4H72nbdLzrBb8TzJG_zWZlE_KU_xf9A=
+Zm6pvU" class=3D"button primary subscribe-btn" style=3D"background-color: #=
+67bdfc; border: none; border-radius: 4px; box-sizing: border-box; color: #f=
+fffff !important; cursor: pointer; display: inline-block; font-family: -app=
+le-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-s=
+erif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: =
+16px; font-weight: normal; height: auto; line-height: 20px; margin: 0; opac=
+ity: 1; outline: none; padding: 12px 20px; text-align: center; text-decorat=
+ion: none !important; white-space: nowrap;"><span style=3D"color: #ffffff; =
+text-decoration: none;">Subscribe now</span></a></p></div><p style=3D"color=
+: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">&#127911=
+;<em>&nbsp;To get this essay straight in your ears:&nbsp;listen&nbsp;on&nbs=
+p;<strong><a href=3D"https://email.mg2.substack.com/c/eJxFkU1rwzAMhn9NfAz-z=
+MfBh22lMNox9nHZKTiOkpgmdrCdttmvn9seJoRekBCveKRVhMH5TS4uRHQrTdwWkBYuYYIYwaM1=
+gG9MJ0lBKyZ4jTrJO1KJCpnQ9B5gVmaS0a-AlrWdjFbROHvfwJgKNMqSUCZStD1WRdXyium6rkn=
+LQWvQonj4qrUzYDVIOIPfnAU0yTHGJWTsKaP7lG4Bm4fFRdNvuXZzaoXRXZIUJ_JzfD6_f36-bS=
+4cNnYl19cpY_tgMrbbLRs3L4fyQ9AvcuSM_IZvPCAjKaYUc8wJFYyLnOZdW3Jyu44y1mvF875ay=
+2ktdcbxPNA8rG2ISp9u7shL62LrvLFDGp9GNcN0HyQMTdJ5tSZuDVjVTtA9CMUH6DuzZgALPj2g=
+a1RMeHmNy6LiVS34g0hCKIgoixpzlJw7l7bsv-kfuJCTsQ" rel=3D"" style=3D"color: #1=
+a1a1a; text-decoration: underline;">Spotify</a> </strong>or&nbsp;<strong><a=
+ href=3D"https://email.mg2.substack.com/c/eJxFkMluAyEMhp8m3DpiDXDg0EtfY8TiJ=
+KgMjFhazduXZCpFsmxsy_7x522He6mH2Uvr6OnWfuxgMvy2BL1DRaNBXWMw5EoVE1yjYHggSigU=
+23qrAJuNyfQ6AO3DpehtjyW_JjCmAj2Mx85ZrimW2irPuKCYKR28lsIx7e2pa0eIkD0Y-IF6lAw=
+omUfve7uwzwv9mraX4G3rbbH7nmDxZZvF0d6d-cqlf7hSY77PJAYiqOSUaEZQNBRTijnmhIr5iY=
+UuwUlOmNeaMnbzli83NWQa0l843u50acO1bv33UwpVM3f_r-b4-2E3SK_GvHqdcRs59mOFbF2Cc=
+ALpJ9cXovUOGerkHVbbJ02usbwqrrTgJ4BJTBAhrxpzNJVDmVP5LfoHRX2ORQ" rel=3D"" sty=
+le=3D"color: #1a1a1a; text-decoration: underline;">Apple Podcasts</a></stro=
+ng></em></p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D=
+"background: #e5e5e5; border: none; height: 1px; margin: 25.6px 0; padding:=
+ 0;"></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; =
+margin: 0 0 1em 0;">Hi friends &#128075;,</p><p style=3D"color: #1a1a1a; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Happy Monday! </p><p =
+style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1e=
+m 0;">If you haven&#8217;t read a Not Boring piece in a little while, read =
+this one. </p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26p=
+x; margin: 0 0 1em 0;"><a href=3D"https://email.mg2.substack.com/c/eJxFkEmO=
+hDAMRU9TWaKQAZJFFr3pa0QZDEQFCcrQiNt3uli0ZNmSv-yv952psKZ8qzOViv6arvcJKsJVdqg=
+VMmoFsg5ejRMRlDOJvGJ-FFygUPSSAQ4TdlVzA3Q2uwdnakjxc4Ex4WhT2LBpwkY4O3FKATshib=
+SWcrtgMzr6-JrmA0QHCn4g3ykC2tVW61le9OtFvntd1zVsxudg4uBSX6CgCCYEM8xGwinjAxm8n=
+dlInZSE0sUZNiyizXub3YvhYyVDabZU4979w4GyiqnalENcu_zezAH7R-gkus-jxVBvDdHYHfwD=
+WZ-sPth6hQi5Z-i1qT0hJvE8CSYkZw9UT4GPfJ4kZqg7-9Sv4r_pL0o4gEI" rel=3D"" style=
+=3D"color: #1a1a1a; text-decoration: underline;">Hadrian</a> is different t=
+han the companies we normally talk about in Not Boring. While it relies hea=
+vily on software, its main focus is in the world of atoms. It uses big mach=
+ines to make precision parts for rockets and satellites. It blends automati=
+on and high-skilled labor. </p><p style=3D"color: #1a1a1a; font-size: 16px;=
+ line-height: 26px; margin: 0 0 1em 0;">It&#8217;s an incredible example of=
+ something we&#8217;re going to see a lot more of in the coming years (part=
+ially because Hadrian exists): <strong>startups tackling very hard, governm=
+ent-level problems in the physical world</strong> (and space). I&#8217;m ve=
+ry eager to see what happens as the worlds of bits and atoms continue to in=
+teract and co-evolve.</p><p style=3D"color: #1a1a1a; font-size: 16px; line-=
+height: 26px; margin: 0 0 1em 0;">If Hadrian succeeds in its boldest missio=
+ns, Americans will build hard things with speed once again, we&#8217;ll gro=
+w a new skilled labor force by making manufacturing cool, and freedom will =
+reign among the stars. High stakes.</p><p style=3D"color: #1a1a1a; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 1em 0;">Note that this is a <strong=
+>Sponsored Deep Dive</strong> (read about my selection process and conflict=
+s <a href=3D"https://email.mg2.substack.com/c/eJxFkU1vwyAMhn9NOUaEQCAHDpO2a=
+WrXXSZV2yki4KaoCWR8rMq_H20Ok4yNbNmv9VirBKMPq1x8TOju-rQuIB3c4gQpQUA5QuitkXVL=
+RMNoh4ykphZMIBv7cwCYlZ1kChnQkofJapWsd48OjAlDFwkMY10LDFycW23aQdccKCGN4YA515u=
+uysaC0yDhF8LqHaBJXlJa4q552pHXYsbrWI3ejxNU2s9bJs_g0v1bXn0g1Dwd2JW_v-XvY9wfV0=
+OUfv78uYnhxeznftH2FObTx9d9JBibkJUEE4IppjVhDWUVqczAad3oriNNc9aKVmeR-ZS53lE8j=
+6SKeYhJ6et9CRSk82nwwbqxlK8XNcP0KBQYfYlzdjatPTg1TGA2TmnD_SDXj-AglDOYXqUCmXaY=
+t4KKjtGNSwHJasbbDlNUlI0vXe5f9A8A4Jal" rel=3D"" style=3D"color: #1a1a1a; tex=
+t-decoration: underline;">here</a>) and Not Boring Capital is a small inves=
+tor in Hadrian, but neither of those facts impacted the way I&#8217;m writi=
+ng this. I&#8217;ve been this excited about Hadrian since my first call wit=
+h Chris after <a href=3D"https://email.mg2.substack.com/c/eJxFkMtuhDAMRb9ms=
+kQhDx6LLLrpqv0GlIeBaCBBidMR_foGZlHJsmVZ9vW5ViMsMZ3qiBnJlSY8D1ABXnkDREikZEiT=
+d6rt2MClGIlTwrWDHIjP05wAdu03hakAOYrZvNXoY7g3KGWSrAo0GE47N0LfGui7oafcWDPrQTJ=
+m66FbVxfnIVhQ8APpjAHIplbEIz_4x4N91sCXvz5qbNxr9_3l52xXj7-cEa8YZYwKKlomuZANa5=
+zpRcvtODLOZ6tFMw-l30pvH4LuC2tyMRm1fV7nSFIhoonJh6WOn6veYbsHFWmqdS_B4zlB0GYD9=
+6bFt2k3_7RAgFTNdJPGapUYaeUUwyjFm67aIVvZdyMVpCq7WLfCv-gfxuKELw" rel=3D"" sty=
+le=3D"color: #1a1a1a; text-decoration: underline;">Moshe</a> at Shrug intro=
+duced us in February (thanks Moshe!), and if anything, I&#8217;ve held <em>=
+back </em>my enthusiasm. </p><p style=3D"color: #1a1a1a; font-size: 16px; l=
+ine-height: 26px; margin: 0 0 1em 0;">Let&#8217;s get to it.</p><div style=
+=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background: #e5e5e5; =
+border: none; height: 1px; margin: 25.6px 0; padding: 0;"></div><h1 style=
+=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialias=
+ed; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, Blink=
+MacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 2em; font-weight=
+: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;"><strong><a href=3D"h=
+ttps://email.mg2.substack.com/c/eJxFkE2OhCAQRk_T7DSAILBg0Zu5huGntEkrGIQx3n6=
+YNplJKEiqUnl8z5kCS8qX3tNR0O81lWsHHeE8VigFMqoH5Cl4TUYqB84U8pp5IrlE4ZjmDLCZsO=
+qSK6C92jU4U0KKnw2MKUcvLTBwKimjauQCCzJ6OvIZpMUeK2n8zTXVB4gONHxDvlIEtOpXKfvxG=
+J4P-tXOeZ59TMWmHOLSu9RaeyvBxchmQjoOnHRMzUOnnFWdUIq79lWBiUVBU0wpZpgRygfGe9p7=
+KxgZnFJ0GGZnWD_LKtYq3IPhbaH9Ue1RjHs30oay_iO38ftlNlg_g5Z5au9WYyjXBNHYFfyto9x=
+WP4KmBSLkZttPpjSXTGExSiYVZ3f85ouTlkRhhhrZp7YV_6E_LgiKcA" rel=3D"" style=3D"=
+color: #1a1a1a; text-decoration: underline;">Hadrian: Ex Machina Ad Lunam</=
+a></strong></h1><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 2=
+6px; margin: 0 0 1em 0;"><em>(Click this link &#128070; to read the whole t=
+hing online)</em></p><div class=3D"captioned-image-container-static" style=
+=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-align: ce=
+nter;"><figure style=3D"display: inline-block; margin: 0 auto; width: 100%;=
+"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6=
+em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" c=
+lass=3D"content" width=3D"1200" style=3D"text-align: center;"><a class=3D"i=
+mage-link" target=3D"_blank" href=3D"https://email.mg2.substack.com/c/eJxVU=
+suu3CAM_Zphl4hngEUWV5X6GxEPk0E3gRTIvZ1-fZlkUVVCtrFlnyMfO9NgzeU1H7k29DZLex0w=
+J_iuG7QGBZ0VyhL9TCaqmOAa-Zl7ooRCsS6hAOwmbnMrJ6DjtFt0psWcrg6MqUDPGVuFgUsiOSW=
+BBU-lloEbZyyDIBW7cc3pIyQHM3xBeeUEaJufrR31wT4e9Gd_zqexnrY24z5Hl_eeirtZofsAzT=
+3fvo9p-UF__LoD9rHm7Ps_bMtR8lqg1vgFPV8bwNE7bggq3iDiDdONPd0n9HoZAAtrneKDNYYNn=
+EkYtCBqMN4yakFKrfhY2Wh28ycn811vXn3GvYsrvEjWK5ROGG0oG6BvcODUiUGRiQ02UBsEp3IS=
+eiEU498TxuORVhRniinFHHPSSXIx0tFbyQlzWlPGgjN8DOqU2yndg-N9pf_tCJU55WZziWnt5c-=
+n2WG7Cp3g0v1-ptheCyRjN_C3ju0-h0vZZYUEpZ-JX0zrR8A1lpPiSgt-69aFFkTISWOOOrLPvS=
+v9A_0LhVvFvw" rel=3D"" style=3D"align-items: center; border: none; display:=
+ block; flex-direction: column; height: auto; margin: 0; padding: 0; text-d=
+ecoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;ht=
+tps://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/publi=
+c/images/7c5a9a23-e185-42c5-8163-bf2bf5427659_1200x600.png&quot;,&quot;full=
+screen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:600,&quot;w=
+idth&quot;:1200,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:187509,&quot=
+;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quo=
+t;,&quot;href&quot;:null}" alt=3D"" width=3D"550" height=3D"275" class=3D"w=
+ide-image" src=3D"https://cdn.substack.com/image/fetch/w_2400,c_limit,f_aut=
+o,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-43=
+7e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7c5a9a23-e185-42c=
+5-8163-bf2bf5427659_1200x600.png" style=3D"-ms-interpolation-mode: bicubic;=
+ border: none !important; display: block; height: auto; margin: 0 auto; mar=
+gin-bottom: 0; max-width: 100% !important; vertical-align: middle; width: a=
+uto !important;"></a></td><td style=3D"text-align: center;"></td></tr></tbo=
+dy></table></figure></div><p style=3D"color: #1a1a1a; font-size: 16px; line=
+-height: 26px; margin: 0 0 1em 0;">Every startup has a lofty mission. <stro=
+ng><a href=3D"https://email.mg2.substack.com/c/eJxFkMluxSAMRb_msYwIQ4AFi276=
+G4jBSVATiBha5e9LXxaVLA-y7KtzvW2w5XLrK9eG_pJp9wU6wU89oDUoqFcoJgY9L0RSzhQKmoV=
+ZcoliNWsBOG08dCsd0NXdEb1tMaf3BcaEo107O3MhMQQC2Cm2crnQ0QSxUKE4hkfX9hAhedDwDe=
+XOCdCh99au-qIfL_I5YrehRJsmn8eAoiaYEMwwmwmnjE9kCk6wmXqlCKWrt2xaZRdHF_7F8LmRq=
+XZXm_Vf48OJik65uVxi2sb6a7cnHO_FoDCjnj3FdhtI1h0QHsD2-PRGNhskKMO_YGwb7jCFxSKZ=
+VJw9QMMBPsAXhRkayiGPq_Qv-gvZ9n5r" rel=3D"" style=3D"color: #1a1a1a; text-de=
+coration: underline;">Hadrian</a></strong> is the first I&#8217;ve encounte=
+red whose mission includes <strong>reversing American decline</strong> and =
+<strong>ensuring the solar system remains free</strong>.&nbsp;</p><div clas=
+s=3D"captioned-image-container-static" style=3D"font-size: 16px; line-heigh=
+t: 26px; margin-bottom: 16px; text-align: center;"><figure style=3D"display=
+: inline-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper=
+" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"=
+margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"te=
+xt-align: center;"></td><td align=3D"left" class=3D"content" width=3D"900" =
+style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" hre=
+f=3D"https://email.mg2.substack.com/c/eJxVUsuu3CAM_ZrJLhEPE2CRxVWl_kbEw8mgm=
+0AK5N5Ov75MsqgqIdvYss-Rj52puKb8mo5Uavc2c30dOEX8LhvWirk7C-Y5-ImOTHEBuvMTeKqE=
+6kKZl4y4m7BNNZ_YHafdgjM1pHh1EMJE95y4GT14q7RbmFVcCrYoSUFSyh2li79xzekDRocTfmF=
+-pYjdNj1rPcqDfzzYz_acj0M5banGfQ4u7S0VdrNi8wtW93z7NqamB_vx6w74x5qSb_9lm4-c1o=
+ylhC9s-VIRj9ZxQzDxBhFvmGbs6T6x1XOPRFjrFPTWGN4Dl9hrQVVvvOXMopRawVD4YHbzJ0XzX=
+W5ebca9iyu8SJYrBK480dL1jgDrgY7Y21Et_QKjoJQSq-U4a0J-A2HDEdcuTIwwRoAAbRxBDGzw=
+VkLbnNaM88UZGBZ1yu2U7gFkX9l_K-ryFFO1KYe4tvLn0-y4XYXGb25-P2OorxmjsRv6W8Z6X8M=
+l7LxixNyuxM-mthsATeSoQGkBt2xNZ0GFHDWBriH71LriP9C_Wn_FLg" rel=3D"" style=3D"=
+align-items: center; border: none; display: block; flex-direction: column; =
+height: auto; margin: 0; padding: 0; text-decoration: none; width: auto;"><=
+img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-43=
+7e-9518-adb32be77984.s3.amazonaws.com/public/images/438d097c-c042-416e-b68f=
+-f4651110b976_900x402.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize=
+&quot;:null,&quot;height&quot;:402,&quot;width&quot;:900,&quot;resizeWidth&=
+quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:nu=
+ll,&quot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" width=3D"550" hei=
+ght=3D"245.66666666666666" class=3D"wide-image" src=3D"https://cdn.substack=
+=2Ecom/image/fetch/w_1800,c_limit,f_auto,=
+q_auto:good,fl_progressive:steep/htt=
+ps%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%=
+2Fpublic%2Fimages%2F438d097c-c042-416e-b68f-f4651110b976_900x402.png" style=
+=3D"-ms-interpolation-mode: bicubic; border: none !important; display: bloc=
+k; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !importa=
+nt; vertical-align: middle; width: auto !important;"></a></td><td style=3D"=
+text-align: center;"></td></tr></tbody></table><figcaption class=3D"image-c=
+aption" style=3D"color: #767676; font-family: sans-serif; font-size: 14px; =
+font-weight: 300; line-height: 1.4em; text-align: center;"><em>Hadrian Fact=
+ory #1 in Hawthorne, California</em></figcaption></figure></div><p style=3D=
+"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><a=
+ href=3D"https://email.mg2.substack.com/c/eJxFUM2OhCAMfprhaBBB4MBhL3veNzAI1=
+SGjYKCs8e2XGQ-bNG2aL-334yzCmvJljlSQvNuE1wEmwlk2QIRMaoE8BW_6kalBcE284b5XQpFQ=
+piUD7DZsBnMFctR5C85iSPFzQSkT5Gk4p1yPyo4gpQZrpXAzSOWc59RRuty8tvoA0YGBX8hXikA=
+280Q8ymP4erDvVniGt6LOpb1trO_ZTzqbwmAYZYw2lp6JgYuOdX6WvB-c1mwYFmd5t6gqtyrdg9=
+N9ZV2pc0HrXu9fJJuYcE45xLXBr6fdYfsAzc_U5l5jwGuCaOcN_G0V78Q-5qcVIuSWpJ8stpy4p=
+nJUXGnBb2stC9ELOWrKSWP2qV3Ff9I_jJaCdA" rel=3D"" style=3D"color: #1a1a1a; te=
+xt-decoration: underline;">Chris Power</a>, Hadrian&#8217;s founder and CEO=
+, is clear about the <strong>stakes</strong>: if the US loses military and =
+space superiority this decade, totalitarian actors won&#8217;t just take co=
+ntrol of the reserve currency and power on the home planet, they&#8217;ll s=
+ettle the solar system.</p><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0;">We&#8217;re in a <strong>second Space R=
+ace</strong>, one with astronomical stakes, and we&#8217;re at risk of losi=
+ng because <strong>we can&#8217;t build like we used to</strong>. That&#821=
+7;s what Hadrian wants to fix. Chris calls it the &#8220;anti-decline compa=
+ny.&#8221; He wants to remind people that we can still build hard things in=
+ the real world fast, like we did in the 1960s.&nbsp;</p><p style=3D"color:=
+ #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Part of t=
+he reason Americans can&#8217;t build like we could in the &#8216;60s is th=
+at we&#8217;re still relying on the same advanced manufacturing supply chai=
+n we were back then, two generations (and a lot of excitement and optimism)=
+ removed.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height=
+: 26px; margin: 0 0 1em 0;">So to reverse decline, Hadrian plans to transfo=
+rm the legacy supply chain that powers <strong>space</strong> and <strong>d=
+efense</strong> manufacturing today into one that is faster, cheaper, more =
+reliable, and more transparent.&nbsp;</p><p style=3D"color: #1a1a1a; font-s=
+ize: 16px; line-height: 26px; margin: 0 0 1em 0;">To do it, Chris has assem=
+bled the <strong>Avengers</strong> &#8211; world-class software engineers, =
+machinists, CAM programmers, operations leaders, and data scientists &#8211=
+; to transform the faltering legacy space and defense industrial base in th=
+e United States into a <strong>hyper efficient techno-industrial base. </st=
+rong>He warned them that it was going to be hard and painful, and they all =
+signed up.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 1em 0;">The team is building <strong>precision machine=
+ factories </strong>that automate the repetitive and mindless things that c=
+an be automated and create high paying, meaningful work around the things t=
+hat humans do best<strong>.</strong> At the meta level, it&#8217;s building=
+ a machine that <strong>turns tribal knowledge into software, processes, an=
+d jobs</strong>.</p><p style=3D"color: #1a1a1a; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 1em 0;">Importantly, unlike self-driving trucks, which=
+ will automate tons of people out of jobs, <strong>machine shops literally =
+cannot hire enough people to scale. </strong>To meet demand, there is no al=
+ternative but to simultaneously automate and train a new generation of skil=
+led workers.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 1em 0;">If Hadrian is successful, <em>any</em> compa=
+ny that relies on precision parts &#8211; starting with space and moving in=
+to defense, medical devices, semiconductors, and energy &#8211; will be abl=
+e to <strong>build 10x faster and for half the cost</strong> that they&#821=
+7;re able to today. That means faster iteration and cheaper costs for advan=
+ced rockets, satellites, jets, and hypersonics.&nbsp;</p><p style=3D"color:=
+ #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">If that h=
+appens, US Defense will gain the manufacturing overmatch they need to <stro=
+ng>maintain peace through strength on earth and in space</strong>. The US w=
+ill win Space Race II. The solar system will be free. It&#8217;s a big visi=
+on.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px=
+; margin: 0 0 1em 0;">But first things first, Hadrian needs to ship its tig=
+htly-focused set of first parts &#8211; high-margin, high-precision aluminu=
+m components for space companies &#8211; on-time and on-budget. It needs to=
+ continue to hire world-class talent from the worlds of bits and atoms and =
+get them to work together to turn <strong>tribal manufacturing knowledge</s=
+trong> into scalable software and processes. <a href=3D"https://email.mg2.s=
+ubstack.com/c/eJxFkMtuxCAMRb9m2E3EM4EFi276GxEBZwY1gQhMq_Try0wWlaxryw9d-XiH8=
+MjltEeuSF4y43mATfBTN0CEQlqFMsdg2ci1UNKQYGVgWmkS67wWgN3FzWJpQI62bNE7jDm9Lyjl=
+ijytZmENI1sVMGeokes6KuGMnCgVbpnGy9e1ECF5sPAN5cwJyGafiEe9iY8b_-zh2Pg7-Lz3klN=
+Oe6KyC9NdItY7xh3umO9Li1voPRJt3-NUUsm4ElINfAjLJJnwxnAhVu_ksOo2bW3yN0n3Bx9qWy=
+o6__XyIcWmjEsuMT36-Ovpdtjeg_7o3PPeUsRzhuSWDcLFAC-UbyrzAxKUjjjMDjtAaeg0aqmNk=
+tfPHZJiahoNlaQ7h9yv0r_pHyh5h-0" rel=3D"" style=3D"color: #1a1a1a; text-deco=
+ration: underline;">IT NEEDS TO BUILD</a>.</p><p style=3D"color: #1a1a1a; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 1em 0;">To help fulfill its =
+mission, last week, Hadrian announced that it raised <strong>$90 million in=
+ two rounds: </strong>a <strong>Series A led by Brandon Reeves at Lux Capit=
+al</strong> and a <strong>Series A-Prime led by Katherine Boyle at a16z</st=
+rong>. <strong>Founders Fund and Lux</strong> led the Seed in March 2021.&n=
+bsp;</p><div class=3D"captioned-image-container-static" style=3D"font-size:=
+ 16px; line-height: 26px; margin-bottom: 16px; text-align: center;"><figure=
+ style=3D"display: inline-block; margin: 0 auto; width: 100%;"><table class=
+=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><t=
+r><td style=3D"text-align: center;"></td><td align=3D"left" class=3D"conten=
+t" width=3D"909" style=3D"text-align: center;"><a class=3D"image-link" targ=
+et=3D"_blank" href=3D"https://email.mg2.substack.com/c/eJxVUsuu3CAM_Zphl4jw=
+CLDI4qpSfyPi4WTQTSAFcm-nX19PsqgqIT-w7HPkY28brLm8piPXRt5mbq8DpgTfdYPWoJCzQpl=
+jmIaRaS6FIWESYdBSk1jnpQDsNm5TKyeQ43Rb9LbFnK4OSpkkz8ktoAwwbtXo1UD1oI3RKggFzD=
+jMb1x7hgjJwwRfUF45AdmmZ2tHffCPB_uJz4fU19PVZv1n7_OOX3G3K6BfoPnn2-OYlh_sx6874=
+B9rzgHzZZuPktcCtcYvwP_aAA7suCGYfIPINwwad_pPwHrpgErnvBads5Z3givojBx0Z4PjzIFS=
+Rou-8t7u9k9O9rvevHDGvYsrvEjWKxw0MGDedsHo0AmjeWellt3iRxbGRSiux9lQ85tR3h9pJXF=
+ilDEqqBiQo5A964NTYuDeGMb54q3oF32q7VT-Iei-sv9WRMqUcnO5xLRi-fNpd9iuAvKb0e9niu=
+01Q7Jug3DL2O5ruISdV0hQ8ErCbBvegDBUjVpoI8UtG-osB6lGQwVB5JCxK_0D_QtuVsWV" rel=
+=3D"" style=3D"align-items: center; border: none; display: block; flex-dire=
+ction: column; height: auto; margin: 0; padding: 0; text-decoration: none; =
+width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e=
+05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/18e2e2ca=
+-d98d-4983-a585-fc62d6f47386_909x203.png&quot;,&quot;fullscreen&quot;:null,=
+&quot;imageSize&quot;:null,&quot;height&quot;:203,&quot;width&quot;:909,&qu=
+ot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot=
+;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" wi=
+dth=3D"550" height=3D"122.82728272827283" class=3D"wide-image" src=3D"https=
+://cdn.substack.com/image/fetch/w_1818,c_limit,f_auto,q_auto:good,fl_progre=
+ssive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3=
+=2Eamazonaws.com%2Fpublic%2Fimages%2F18e2=
+e2ca-d98d-4983-a585-fc62d6f47386_909=
+x203.png" style=3D"-ms-interpolation-mode: bicubic; border: none !important=
+; display: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width=
+: 100% !important; vertical-align: middle; width: auto !important;"></a></t=
+d><td style=3D"text-align: center;"></td></tr></tbody></table><figcaption c=
+lass=3D"image-caption" style=3D"color: #767676; font-family: sans-serif; fo=
+nt-size: 14px; font-weight: 300; line-height: 1.4em; text-align: center;"><=
+em>Delian Asparouhov (FF), Brandon Reeves (Lux), Katherine Boyle (a16z)</em=
+></figcaption></figure></div><p style=3D"color: #1a1a1a; font-size: 16px; l=
+ine-height: 26px; margin: 0 0 1em 0;">Hadrian is Boyle&#8217;s first invest=
+ment out of the firm&#8217;s new <strong><a href=3D"https://email.mg2.subst=
+ack.com/c/eJxFkMtuwyAQRb8m7GJhHrZZsMimv2FhGDsoGCwYWrlfXxIvKiGQ5upyNMcahC3lU=
+x-pIHlfM54H6Ag_JQAiZFIL5Nk73Q9s4lIo4rRw_SQn4su8ZoDd-KAxVyBHXYK3Bn2KnwalTJKn=
+Vq71JEjJ18lZLhlboLdiYINiyo7q4prqPEQLGr4hnykCCfqJeJQbf9zYVztrxZqhM_3w29m0t8l=
+SfXA-bnezQ27keHdnNLsv75B4zShjVFDRM8mF7FjnllH03CrFOF-tEd061THU0d4E3TfWlboUNP=
+b1_p9kHRMuKTdAi1_PBgmfoO05t3ev0eM5QzRLAHcpwMvkR8q8QYTcDLvZYPMnFB2HSUxKimvl5=
+kj2chwUFaSRXWqt-A_9A036isw" rel=3D"" style=3D"color: #1a1a1a; text-decorati=
+on: underline;">American Dynamism</a></strong> practice, and it&#8217;s an =
+appropriate first investment. It is building <strong>critical infrastructur=
+e on </strong>top of which ambitious<strong> American hard tech companies w=
+ill be able to innovate with atoms the way that software companies are able=
+ to innovate with bits.</strong> Hadrian will serve as the foundation of Am=
+erican Dynamism.</p><p style=3D"color: #1a1a1a; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 1em 0;">Hadrian is <strong>not the first company to tr=
+y to build automated factories</strong> &#8211; in fact, it&#8217;s not the=
+ first company that Founders Fund and Lux have backed to go after the oppor=
+tunity. The first one failed. Hadrian could fail too; what it&#8217;s tryin=
+g to do is very hard. But the fact that both firms are back at the table wi=
+th Hadrian is a testament to the size and importance of the opportunity, th=
+e timing, and to the approach that Chris and the Hadrian team are taking to=
+ tackle it.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 1em 0;">Because for everything we&#8217;ll discuss ab=
+out the strategic importance of settling space and enabling military superi=
+ority, make no mistake: Hadrian has the potential to build a massive busine=
+ss. It&#8217;s building a Keith Rabois-style &#8220;fat startup&#8221; in a=
+ fast-growing $30 billion industry with a highly-fragmented and outdated su=
+pplier base, pursuing software-like margins, and digging moats that will ma=
+ke it incredibly difficult to unseat. <strong>Hadrian has the potential to =
+be a $10 billion+ business, </strong>and one that endures for decades.&nbsp=
+;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin=
+: 0 0 1em 0;">It&#8217;s a prime example of a trend towards atoms-based bus=
+inesses with enormous missions in categories like climate, healthcare, spac=
+e, and defense &#8211; businesses that can <strong>do well by doing good</s=
+trong>, to quote the Protestants. A host of factors are intersecting at jus=
+t the right time to make previously-impossible models possible and profitab=
+le, many of which we&#8217;ll discuss here and some of which we&#8217;ll sa=
+ve for a future piece.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px=
+; line-height: 26px; margin: 0 0 1em 0;">But while the mission and the oppo=
+rtunity grab headlines, Hadrian&#8217;s real magic is in the details:&nbsp;=
+</p><ul style=3D"margin-top: 0;"><li style=3D"margin-bottom: 4px; margin-le=
+ft: 8px; margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p =
+style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; mar=
+gin-bottom: 0;">How do you <strong>automate the 80% of things</strong> that=
+ should be automated while <strong>creating great American manufacturing jo=
+bs to do the 20% that only humans can do</strong>?&nbsp;</p></li><li style=
+=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;=
+ mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; =
+line-height: 26px; margin: 0; margin-bottom: 0;">How do you <strong>recruit=
+ the exact right people</strong> &#8211; often from cushy jobs at SpaceX or=
+ Stripe or Target or even out of post-Oculus retirement &#8211; to solve re=
+ally hard problems?&nbsp;</p></li><li style=3D"margin-bottom: 4px; margin-l=
+eft: 8px; margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p=
+ style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; ma=
+rgin-bottom: 0;">How do you take the <strong>tribal knowledge</strong> in e=
+xperts&#8217; brains and turn it into <strong>processes and software</stron=
+g> that even a brand new hire can use to get really good, really fast?&nbsp=
+;</p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: =
+0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a=
+; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;">How do =
+you <strong>finance a capital intensive business</strong> in such a way tha=
+t it scales like a capital-light one?</p></li></ul><p style=3D"color: #1a1a=
+1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Rallying people=
+ around a huge, inspiring vision and focusing on the exact right details <e=
+m>today</em> to get there in time is a near-impossible balancing act. Lucki=
+ly for Hadrian, <strong>there are very few people in the world as good at p=
+laying on different levels at the same time as Chris is</strong>.&nbsp;</p>=
+<p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0=
+ 1em 0;">The best leaders can take the &#8220;30,000 foot view&#8221; and z=
+oom into the one-inch details. Both metaphorically and literally, Chris is =
+able to <strong>take the 1,193,280,000 foot view<span class=3D"footnote-anc=
+hor-email" style=3D"font-size: 20px;">&#185;</span> and zoom into the micro=
+n-level details</strong><span class=3D"footnote-anchor-email" style=3D"font=
+-size: 20px;">&#178;</span>.&nbsp;</p><p style=3D"color: #1a1a1a; font-size=
+: 16px; line-height: 26px; margin: 0 0 1em 0;">Today, we&#8217;ll cover man=
+y of them. I&#8217;ve not been this giddy researching a company in a long t=
+ime, and I&#8217;ve done my best to translate what I&#8217;ve learned, how =
+Hadrian can win, and why I think it&#8217;s important:&nbsp;</p><ul style=
+=3D"margin-top: 0;"><li style=3D"margin-bottom: 4px; margin-left: 8px; marg=
+in-right: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"colo=
+r: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0=
+;"><strong>We Choose to Go to the Moon</strong></p></li><li style=3D"margin=
+-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-speci=
+al-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-heigh=
+t: 26px; margin: 0; margin-bottom: 0;"><strong>Powering Through the Idea Ma=
+ze</strong></p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; marg=
+in-right: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"colo=
+r: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0=
+;"><strong>How Precision Machining Works Today</strong></p></li><li style=
+=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;=
+ mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; =
+line-height: 26px; margin: 0; margin-bottom: 0;"><strong>A Plethora of Less=
+ons</strong></p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; mar=
+gin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"col=
+or: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: =
+0;"><strong>What Hadrian Does Differently&nbsp;&nbsp;</strong></p></li><li =
+style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top:=
+ 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 1=
+6px; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>How Hadrian W=
+orks</strong></p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; ma=
+rgin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"co=
+lor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom:=
+ 0;"><strong>7 Powers</strong></p></li><li style=3D"margin-bottom: 4px; mar=
+gin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-format: bullet=
+;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: =
+0; margin-bottom: 0;"><strong>Ex Machina Ad Lunam</strong></p></li></ul><p =
+style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1e=
+m 0;">Everyone I spoke to on the Hadrian team acknowledged that there&#8217=
+;s a ton of execution risk in front of them. It&#8217;s never been done bef=
+ore. But that&#8217;s why they&#8217;re there. They choose to <strong>work =
+at Hadrian not because it is easy, but because it is hard</strong>.&nbsp;</=
+p><h3 style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing=
+: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-sy=
+stem, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,=
+ 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375=
+em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;"><stro=
+ng>We Choose to Go to the Moon</strong></h3><p style=3D"color: #1a1a1a; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 1em 0;">On September 12, 1962,=
+ one year and two months before his death, President John F. Kennedy gave o=
+ne of my favorite Presidential speeches in US History.&nbsp;</p><a href=3D"=
+https://email.mg2.substack.com/c/eJxFkE9vhCAQxT-NHA3yR-XAoUmz916apheDMCpZBI=
+uwxn76suuhyWQmmZeZl_fTKsEc4im3sCf0bEM6N5Aejt1BShBR3iEO1simJT3lTCAjmWl63iO7D=
+1MEWJV1MsUMaMujs1olG_zrAmPC0SKhn4SaeKM0oZpqMeFW9IBbmFjb0VZdviobC16DhAfEM3hA=
+Ti4pbXtF3ypyK3UcR32GnPIItQ7rc6OSXip6e1T0_ePrx_3a78-W3pGVBBOCGWYN4ZTxmtRm7Fh=
+TzAWhdNKK1VOfO5c7XTG8zqTe87gnpe_PzyhKH9IYovVzke-LWsG9hJJwKHPN3qZzAK9GB-YKny=
+6GLxzDDB5iYWsGlQo5JnDX9qwXnF1hCx3e8K4VmKHibEK58v-mf3WbiOs" target=3D"_blank=
+" class=3D"youtube-wrap" rel=3D"" style=3D"display: block; margin: 1.6em 0;=
+"><img src=3D"https://cdn.substack.com/image/youtube/w_550,c_limit/l_youtub=
+e_play_qyqt8q,w_120/QXqlziZV63k" style=3D"-ms-interpolation-mode: bicubic; =
+border: none !important; display: block; height: auto; margin: 0 auto; max-=
+width: 100%; vertical-align: middle; width: 100%;"></a><p style=3D"color: #=
+1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">In it, JFK =
+set a goal for the United States to <strong>send American astronauts to the=
+ moon by the end of the decade</strong>, essentially from a standing start.=
+ The Russians were far ahead of us. He acknowledged that it would be <stron=
+g>hard</strong>, but that that difficulty is precisely why we needed to do =
+it:&nbsp;</p><blockquote style=3D"border-left: 4px solid #67bdfc; margin: 1=
+em 0;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; marg=
+in: 0 0 1em 0; margin-left: 1em;"><em><strong>We choose to go to the Moon</=
+strong>...We choose to go to the Moon in this decade and do the other thing=
+s, <strong>not because they are easy, but because they are hard</strong>; b=
+ecause that goal will serve to organize and measure the best of our energie=
+s and skills, because that challenge is one that we are willing to accept, =
+one we are unwilling to postpone, and one we intend to win.</em></p></block=
+quote><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margi=
+n: 0 0 1em 0;">Aside from the stirring rhetoric and the grandness of vision=
+, what makes this speech so special is &#8211; and I don&#8217;t want to sp=
+oil the ending, but&#8230; &#8211; <strong>we did it</strong>.&nbsp;</p><p =
+style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1e=
+m 0;">On July 20, 1969, <em>less than seven years after the speech</em>, Ap=
+ollo 11 astronauts Neil Armstrong and Buzz Aldrin became the first humans t=
+o ever set foot on the moon. We beat the Russians. USA! USA! USA!&nbsp;</p>=
+<div class=3D"captioned-image-container-static" style=3D"font-size: 16px; l=
+ine-height: 26px; margin-bottom: 16px; text-align: center;"><figure style=
+=3D"display: inline-block; margin: 0 auto; width: 100%;"><table class=3D"im=
+age-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td =
+style=3D"text-align: center;"></td><td align=3D"left" class=3D"content" wid=
+th=3D"776" style=3D"text-align: center;"><a class=3D"image-link" target=3D"=
+_blank" href=3D"https://email.mg2.substack.com/c/eJxVUsuu3CAM_Zphl4jwZsHiql=
+J_I-LhZNBNIAVyb6dfXyZZVJWQbWzZ58jH3jZYc3mZI9eG3mZurwNMgu-6QWtQ0FmhzDGYSRBFO=
+dMoGBYmxRWKdV4KwG7jZlo5AR2n26K3LeZ0dWBMOHoaEgQXcoHFSi5tADExEEICnfQCAcKNa88Q=
+IXkw8AXllROgzTxbO-qDfjzIz_58SGM9XW3Wf44-7z0Vd7tC9ws0_3z7PqblB_nx6w7ox5pz6P9=
+lm4-S1wK1xi_o-doAjt5xQxD-BuFvmG7c6T-h18sAmDvnFRuctXRgVMKg-aQGGxwlDqTUio2Vjn=
+a3f3Ky3_Xm1Wfcu7jCi2S9QikclRTbAbwmA1vsNDggbgiUKR40DTyEWUrxmzE8HmlF0RBMCGaYT=
+Z0j4yMZg5Nsol5rQuniLRsXdcrtlP7B8L6S_1aEikm5uVxiWnv582l32K5C5zd3v58pttcMyboN=
+wi1ju6_hEnZeIUHpVxJm2_oNMI2lUExpzm7Zus584lJozFBHDrl3pX-gfwHnmMcs" rel=3D"" =
+style=3D"align-items: center; border: none; display: block; flex-direction:=
+ column; height: auto; margin: 0; padding: 0; text-decoration: none; width:=
+ auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc8=
+4-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/76b3730a-ec92-=
+4fa1-be2b-d3485d93d5dd_776x440.png&quot;,&quot;fullscreen&quot;:null,&quot;=
+imageSize&quot;:null,&quot;height&quot;:440,&quot;width&quot;:776,&quot;res=
+izeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title=
+&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" width=3D=
+"550" height=3D"311.8556701030928" class=3D"wide-image" src=3D"https://cdn.=
+substack.com/image/fetch/w_1552,c_limit,f_auto,q_auto:good,fl_progressive:s=
+teep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazon=
+aws.com%2Fpublic%2Fimages%2F76b3730a-ec92-4fa1-be2b-d3485d93d5dd_776x440.pn=
+g" style=3D"-ms-interpolation-mode: bicubic; border: none !important; displ=
+ay: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% =
+!important; vertical-align: middle; width: auto !important;"></a></td><td s=
+tyle=3D"text-align: center;"></td></tr></tbody></table><figcaption class=3D=
+"image-caption" style=3D"color: #767676; font-family: sans-serif; font-size=
+: 14px; font-weight: 300; line-height: 1.4em; text-align: center;"><em>Apol=
+lo 11</em></figcaption></figure></div><p style=3D"color: #1a1a1a; font-size=
+: 16px; line-height: 26px; margin: 0 0 1em 0;">Over the next three years, N=
+ASA&#8217;s Apollo program completed five more manned moon landings &#8211;=
+ Apollos 12, 14, 15, 16, and 17 - concluding with Apollo 17 astronauts&#821=
+7; Eugene Cernan and Ronald Evans&#8217; 75 hour stay on the lunar surface =
+in December 1972.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0;">And then&#8230; nothing. We haven&#8217=
+;t been back since. This year marks the 50th anniversary of the last time a=
+n American set foot on the moon.&nbsp;</p><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0 0 1em 0;">In the intervening half-=
+century since the Apollo program, NASA&#8217;s budget fell off and has slow=
+ly declined as a percentage of the Federal budget (other than a post-Challe=
+nger explosion uptick). We won the Space Race. Mission accomplished. Our ey=
+es returned to the ground.&nbsp;</p><div class=3D"captioned-image-container=
+-static" style=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; =
+text-align: center;"><figure style=3D"display: inline-block; margin: 0 auto=
+; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-=
+alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td al=
+ign=3D"left" class=3D"content" width=3D"908" style=3D"text-align: center;">=
+<a class=3D"image-link" target=3D"_blank" href=3D"https://email.mg2.substac=
+k.com/c/eJxVUtuO3CAM_ZrhLRHhEuAhD6tK_Y3IgJNBk0AWyG6nX19mUqmqQLbBss-Rjx1UXFN=
+-TkcqlbzMXJ8HThG_y4a1YiZnwTwHPw0j01wKQ_wk_KClJqHMS0bcIWxTzSeS47RbcFBDiu8KSp=
+kk92kclFB8FO04iojLIBehJDCLxo5KXLhw-oDR4YRfmJ8pItmme61HufGPG_vZrvOxL6ctFdyjd=
+2lvX2GHFZtfsLr7y7c2Nd3Yj88r4B9rSr69l20-clozlhK-sP2Xini0iguCyReIfME0Y0_3wJbP=
+HVJprdOiswC8E1xhZ-SgO_CWN_pKGS36wnvY4XeK8F0uXq3HNYt3-CZZrs7aGC_BdQoEdML4pYN=
+Bmc4rCgDIqBtgNlT_EnLsj7iSMDHKGBVUDI2jkD3rvVVi4M4YxvniQPSLPtV2KncTdF_ZfyMieY=
+qp2pRDXFv6cYcdt3ei8Zub388Y6nPGCHZDf8lYr214CzuvGDG3LfEz1LYDwlA1aqGN_Ctb01kOU=
+o2GCtKQfWpV8R_oH1ofxo8" rel=3D"" style=3D"align-items: center; border: none=
+; display: block; flex-direction: column; height: auto; margin: 0; padding:=
+ 0; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot=
+;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws=
+=2Ecom/public/images/b899d5ac-7a4a-49df-a=
+179-d70aaae20c1a_908x456.png&quot;,&=
+quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:45=
+6,&quot;width&quot;:908,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null=
+,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;hr=
+ef&quot;:null}" alt=3D"" width=3D"550" height=3D"276.2114537444934" class=
+=3D"wide-image" src=3D"https://cdn.substack.com/image/fetch/w_1816,c_limit,=
+f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-ba=
+a3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb899d5ac-7a4=
+a-49df-a179-d70aaae20c1a_908x456.png" style=3D"-ms-interpolation-mode: bicu=
+bic; border: none !important; display: block; height: auto; margin: 0 auto;=
+ margin-bottom: 0; max-width: 100% !important; vertical-align: middle; widt=
+h: auto !important;"></a></td><td style=3D"text-align: center;"></td></tr><=
+/tbody></table></figure></div><p style=3D"color: #1a1a1a; font-size: 16px; =
+line-height: 26px; margin: 0 0 1em 0;">Look up. The Race is back on. We&#82=
+17;re in the early days of Space Race II.&nbsp;</p><p style=3D"color: #1a1a=
+1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">If you haven&#8=
+217;t been paying attention to what&#8217;s going on in the space, it&#8217=
+;s time to start paying attention. Things are about to get sci-fi. In the n=
+ext decade, there&#8217;s a very good chance that humans will establish the=
+ <strong>first Lunar base</strong>. The first humans might set foot on <str=
+ong>Mars</strong>. Wars might be won, lost, or hopefully, <strong>deterred<=
+/strong>, based on nations&#8217; capabilities in space.&nbsp;</p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>This sounds like sci-fi, but it&#8217;s very real. As the simplest example=
+, <strong>satellites</strong> are crucial war infrastructure today; knock t=
+hem out, and your enemy is blind. More extreme examples include &#8220;<str=
+ong>Rods from God</strong>,&#8221; simple tungsten rods, or even space rock=
+, sent from space at 10x the speed of sound to hit precise targets with the=
+ force of a nuclear bomb. Space is a key battleground.&nbsp;</p><p style=3D=
+"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Co=
+mmercial activity in space will inevitably pick up, too. It already is. Spa=
+ceX has inspired a nation with everything from its manned lockdown launch t=
+o its mission to make humans a multiplanetary species, but its most immedia=
+te impact has been <strong>dramatically lowering the cost to launch things =
+into space</strong> by making rockets reusable and increasing their payload=
+s.&nbsp;</p><div class=3D"captioned-image-container-static" style=3D"font-s=
+ize: 16px; line-height: 26px; margin-bottom: 16px; text-align: center;"><fi=
+gure style=3D"display: inline-block; margin: 0 auto; width: 100%;"><table c=
+lass=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbod=
+y><tr><td style=3D"text-align: center;"></td><td align=3D"left" class=3D"co=
+ntent" width=3D"1202" style=3D"text-align: center;"><a class=3D"image-link"=
+ target=3D"_blank" href=3D"https://email.mg2.substack.com/c/eJxVUsuu3CAM_Zr=
+JLhHPAIssrir1NyIDTgbdBFIg93b69WWSRVUJ-YFlnyMfO6i4pvyajlRq9zZzfR04RfwuG9aKuT=
+sL5jn4iY5McylM5yfhqZa6C2VeMuIOYZtqPrE7TrsFBzWkeHUQwmT3nLwT3mvHgHP04EAvnhAwI=
+wVBnfHkxoXTB4wOJ_zC_EoRu2161nqUB_94sJ_tOR-HctpSwX0OLu3tK-ywYvMLVvd8-zampgf7=
+8esO-Meakm_5ss1HTmvGUsIXtv9SEY_WcUMw-QaRb5hm7Ok-sdVzj0Ra67ToLQDvBVfYG0l1D95=
+yZlEpo8VQ-AA7_EkRvsvNq824d3GFF8lyhYZZxUdterEstBda8t6IkfYjteCEUp6qZaaMsN9ylM=
+MR1y5MLWNEEEEbSSEHNnirBOXOGMb54kAMiz7Vdir3EGRf2X876vIUU7Uph7i28ucTdtyuQiM4N=
+7-fMdTXjBHshv7Wsd7ncCk7rxgxtzPxM9R2BMIQNWqhjRS3bk1oSaUaDRFdQ_apdcV_oH8BFjvG=
+gQ" rel=3D"" style=3D"align-items: center; border: none; display: block; fl=
+ex-direction: column; height: auto; margin: 0; padding: 0; text-decoration:=
+ none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://buck=
+eteer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/9=
+2b73689-4ff1-4853-9461-61bac477d17f_1202x565.png&quot;,&quot;fullscreen&quo=
+t;:null,&quot;imageSize&quot;:null,&quot;height&quot;:565,&quot;width&quot;=
+:1202,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:n=
+ull,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null}" al=
+t=3D"" width=3D"550" height=3D"258.52745424292846" class=3D"wide-image" src=
+=3D"https://cdn.substack.com/image/fetch/w_2404,c_limit,f_auto,q_auto:good,=
+fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32b=
+e77984.s3.amazonaws.com%2Fpublic%2Fimages%2F92b73689-4ff1-4853-9461-61bac47=
+7d17f_1202x565.png" style=3D"-ms-interpolation-mode: bicubic; border: none =
+!important; display: block; height: auto; margin: 0 auto; margin-bottom: 0;=
+ max-width: 100% !important; vertical-align: middle; width: auto !important=
+;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></table><fi=
+gcaption class=3D"image-caption" style=3D"color: #767676; font-family: sans=
+-serif; font-size: 14px; font-weight: 300; line-height: 1.4em; text-align: =
+center;"><em>Data from <a href=3D"https://email.mg2.substack.com/c/eJxFkUuO=
+6yAQRVcTZliAwcYDBj1527AwlG0UPhafF3n3TZJBSyVAulTdq1NGVzhSvtWVSkXvY633BSrCq3i=
+oFTJqBfLqrKITk6PgC7KKWyqFRK6sewYI2nlVcwN0tc07o6tL8dNBCBPoVGKTeqPazpQtsGsrxa=
+zHiS7cEAbzyL6-ulkH0YCC_5DvFAF5ddZ6lcf482D_eh1QA-z-dvEwOpchgHUtDCaFLp7phUMzJ=
+7YJCnYVmz4U14QLRIvp83i_fXpBxqBzPXHKW__FpGBAJaN6ssgpRhgjnHDKxMjFwAa7zZyOZlnY=
+OO5G82GXbfZtNg9OwsGG0rZStXm-U6CsYqpbyj1gl5-nDuA_Qgez9ju06Oq9QtSbB_tlVr_oPxT=
+XAyLkvhK76tqB84XMk-RyEfzLqEMVVMzTQjjqzjb1rvhn-gsuS5xq" rel=3D"">Get Me Flyi=
+ng Cars</a></em></figcaption></figure></div><p style=3D"color: #1a1a1a; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 1em 0;">During the first Space=
+ Race, it cost $177,900 inflation-adjusted to send a kilogram to Low Earth =
+orbit (LEO) on NASA&#8217;s Delta E. <strong>SpaceX&#8217;s Falcon Heavy ha=
+s dropped the cost two orders of magnitude, to $1,500/kg.</strong> Its fort=
+hcoming <strong>Starship</strong> &#8211; the one that might take humans to=
+ Mars &#8211; is going to slash the cost once again, to around <strong>$50/=
+kg</strong>!&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 1em 0;">Elon is doing the <a href=3D"https://email.m=
+g2.substack.com/c/eJxFkNuOhCAMQL9meNMgF5UHHjbZzG8YLtUho2CwrPHvl53Z7CalTWjaA=
+8cZhCXlS-_pQPKTJrx20BHOYwVEyKQckKfgddezkUuhiNfCd6McSTimOQNsJqwacwGyF7sGZzCk=
+-JqglEny0NY44-3MvDIzHyydvTTWj85wpXqg4s01xQeIDjR8Qb5SBLLqB-J-3PjHjd1rnOfZxoQ=
+25RCX1qV6tdczpxKxMdE3-IDGJn8dzWaW-pC1mQuWDDd-r1s-TxI0o4xRQUXHJBeyZa23g-i4U4=
+pxPjsj2nksw1oGdxN0W1h7FHugcc_K20jWf_zafj7MBuurUX8-1bqVGPCaIBq7gn9Lwbfbl6Zpg=
+Qi5OveTwWpUKDr0oxiV_JVQrclODr2qVirZpzoV_6Hfx--S1A" rel=3D"" style=3D"color:=
+ #1a1a1a; text-decoration: underline;">Elon thing</a>, lighting the match t=
+hat ignites an industry, and it&#8217;s working. Today, companies can <a hr=
+ef=3D"https://email.mg2.substack.com/c/eJxFkEmOhDAMRU9TWaKQgZBFFr3pa6AMBqKC=
+BGVomtt3ChYtWbZly_76z-oCS0yXOmIu6JOmch2gApx5g1IgoZohTd6pfiAj5Uwip5jrRz4in6c=
+5Aezab6qkCuioZvNWFx_DfYEx4WhVtO-1kMZg0IRxCTOh0kkB3JpBUOweXV2dh2BBwQ-kKwZAm1=
+pLOfKLfr3Id4vzPLt8aAu_nY17GyTvIK86QeuRVwQTghlmPeGU8Y50zgjWUysloXS2mnXzWMVWh=
+X0xvC-ky9Xkou378w4lFWIxMfmwtPV71Tts96K5mlrda_DlmiBos4F7DJeH241gWiBAajzdpEuj=
+xSQWw8hGydljsBHhPReDxAw1ZRfbVfgX_QPfhoTE" rel=3D"" style=3D"color: #1a1a1a;=
+ text-decoration: underline;">book space on a rocket</a> for their satellit=
+es more easily than they can buy Enterprise SaaS.&nbsp;</p><p style=3D"colo=
+r: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">SpaceX =
+has a direct impact on space by making it cheaper and easier to fly things =
+out there, but Chris pointed out that the bigger impact might be that it ha=
+s &#8220;trained a bunch of 25-year-old engineers who are now 30-year-old e=
+ngineers going out to start their own companies based on what they learned =
+at SpaceX.&#8221;&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0;">Lower costs and more talent has led to =
+an absolute explosion in the number of, and funding for, <strong>space comp=
+anies</strong>: Varda, Hermeus, Astra, Astranis, ABL Space Systems, Ursa Ma=
+jor, Planet Labs, Epic Aerospace, LeoLabs&#8230; the list goes on and on. A=
+nd then there are the companies that intend to compete with SpaceX, like Re=
+lativity and Blue Origin. There&#8217;s an excellent newsletter called <a h=
+ref=3D"https://email.mg2.substack.com/c/eJxFkEuOxCAMRE_TLCO-CSxYzGaugQg4adQ=
+EIj4zyu2H7ixGsmzJJbv0ytkGey6XPnNt6N1Mu07QCX5rhNagoF6hmOA1malkgivkNfdEColCNV=
+sBOGyIupUO6OxrDM62kNPnAmMq0FM7K2dP5YZn4mFTSnnChFydXTc1MyVuX9t9gORAww-UKydAU=
+T9bO-uDfT3o96jTXjFbX0_rYHL5GCsUNMWUYo45oYJxMdHJrwsnzClFGduc5dMm-xL74h4cHzud=
+al9rs-71foGKTrmtuYS0D_n1tAfEjzBYzJhHT6FdBpJdI_gbs91pfcDNDgnKSNEb20ZGXOFlllw=
+qwW-skYMgYpkV5mg4-zyu0r_pH_CPgZU" rel=3D"" style=3D"color: #1a1a1a; text-de=
+coration: underline;">Payload</a> that you should check out if you want to =
+keep up with space.&nbsp;</p><div class=3D"captioned-image-container-static=
+" style=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-al=
+ign: center;"><figure style=3D"display: inline-block; margin: 0 auto; width=
+: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1e=
+m 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"=
+left" class=3D"content" width=3D"1258" style=3D"text-align: center;"><a cla=
+ss=3D"image-link" target=3D"_blank" href=3D"https://email.mg2.substack.com/=
+c/eJxVUsuu3CAM_Zphl4jwCLDI4qpSfyPi4WTQTSAFcm-nX19PsqgqIdvY8jmWj71tsObymo5cG=
+3mbub0OmBJ81w1ag0LOCmWOYRpGprkUhoRJhEFLTWKdlwKw27hNrZxAjtNt0dsWc7o6KGWSPCdh=
+qBupE5a6sHAuQcoQRiEpuDBQE25ee4YIycMEX1BeOQHZpmdrR33wjwf7ic-H1NfT1Wb9Z-_zjqm=
+42xXQL9D88-0RpuUH-_HrDvjHmnPA_7LNR8lrgVrjF2C-NoADO24KJt8k8k2Dxp3-E7BeOqDSOa=
+9F56zlneAKOiMH3dngOHOglNGir7y3u_2Tk_2u91yIce_iCq8h6xVaYdlIjes4VSPiUYRS2ndm1=
+EIwqSwXah6Y1L-ZHvojrSROjDJGBRWY5kL2rA9OiYF7Yxjni7eiX_SptlP5h6D7yv7bESlTys3l=
+EtOK5c-n3WG7CjjgjH4_U2yvGZJ1G4Rbx3afw6XsvEKCgmcSZtvwCFBMhcNqI8WtGwotB6lGQwV=
+B5pCxK_0j_QtMMsVa" rel=3D"" style=3D"align-items: center; border: none; dis=
+play: block; flex-direction: column; height: auto; margin: 0; padding: 0; t=
+ext-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&qu=
+ot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/=
+public/images/a4a2609b-3076-4308-a78c-96844257a347_1258x281.png&quot;,&quot=
+;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:281,&q=
+uot;width&quot;:1258,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&q=
+uot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&=
+quot;:null}" alt=3D"" width=3D"550" height=3D"122.8537360890302" class=3D"w=
+ide-image" src=3D"https://cdn.substack.com/image/fetch/w_2516,c_limit,f_aut=
+o,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-43=
+7e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa4a2609b-3076-430=
+8-a78c-96844257a347_1258x281.png" style=3D"-ms-interpolation-mode: bicubic;=
+ border: none !important; display: block; height: auto; margin: 0 auto; mar=
+gin-bottom: 0; max-width: 100% !important; vertical-align: middle; width: a=
+uto !important;"></a></td><td style=3D"text-align: center;"></td></tr></tbo=
+dy></table><figcaption class=3D"image-caption" style=3D"color: #767676; fon=
+t-family: sans-serif; font-size: 14px; font-weight: 300; line-height: 1.4em=
+; text-align: center;"><em>Selection of Private Space Companies</em></figca=
+ption></figure></div><p style=3D"color: #1a1a1a; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 1em 0;">Plus, lower launch costs don&#8217;t just mea=
+n <em>more</em> businesses, they mean that these businesses are able to bui=
+ld more experimentally and iteratively, like terrestrial startups can. That=
+ should lead to all sorts of unimaginable innovations.&nbsp;&nbsp;</p><p st=
+yle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em =
+0;">Think about what happens when launch costs drop. If it costs $25 millio=
+n to launch your satellite into space, you better make sure that everything=
+ is perfect and that the satellite is going to last for a long time. You pr=
+ioritize perfection over speed. But <strong>if it only costs $1.1 million t=
+o get your satellite up</strong>, you can test and iterate and experiment m=
+uch more than you could before. When you can just reschedule and hop on the=
+ next launch if you slip on timelines, you can set more aggressive timeline=
+s. You can start to innovate much more rapidly&#8230; <strong>as long as th=
+e supply chain can support it.&nbsp;</strong></p><p style=3D"color: #1a1a1a=
+; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">All of these chan=
+ges, big and small, have taken place in the last five years that add up to =
+mean a <strong>rapid liftoff in demand for spacefaring things from the priv=
+ate sector</strong>. And that&#8217;s before getting to the <strong>growing=
+ demand from the government for defense and exploration</strong>.&nbsp;</p>=
+<p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0=
+ 1em 0;">&#8220;This is the <strong>perfect window</strong> to build this c=
+ompany,&#8221; Founders Fund&#8217;s Delian Asparouhov told me. &#8220;Supp=
+ly needs were flat for sixty years and then they <strong>grew exponentially=
+ overnight</strong>, which completely overburdened the system.&#8221;&nbsp;=
+</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin:=
+ 0 0 1em 0;">And oh yeah, <strong>we&#8217;re going back to the moon</stron=
+g>. <a href=3D"https://email.mg2.substack.com/c/eJxFkcGu4yAMRb-m7IgIgRIWLGY=
+zvxEZcFJUAhGQ5vXvh9cuRrJsWVdX1zp20HDL5W2OXBv5bUt7H2gSXjVia1jIWbEswZvxzudJCk=
+28EX6c5UxCXdaCuEOIppUTyXHaGBy0kNPHwRiX5GFgslJJbrngTCs3o1frKJUdtVB6BPvNhdMHT=
+A4NvrC8c0ISzaO1o96mPzf-t9d1XUOCCsOWX309CtZKC0aEin2HSqE03EOle35hpWsuFxRPfz30=
+CO5ZaT3A4Q9tmUZIXcGfRmHH0q9OlebUnTmRYDjjnAkmRi4nIQc-eKvEODmt-TStDsSwzqeKp3I=
+3wfaND_W0tYF7Di7vpJiUm80lpK3Lz0dPiB-hA1r63M8U2nvBBDai_7Jr3xd8aC4bJiz9NX6B1s=
+ELzdR9FrOW4suqw5Wd4F0zQXqyz92V_of-A0bmoOQ" rel=3D"" style=3D"color: #1a1a1a=
+; text-decoration: underline;">NASA is teaming up with SpaceX</a> (and pote=
+ntially one more partner) to send humans back to the moon by 2025.&nbsp;</p=
+><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background=
+: #e5e5e5; border: none; height: 1px; margin: 25.6px 0; padding: 0;"></div>=
+<h4 style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: =
+antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, '=
+Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.125em=
+; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;">To unde=
+rstand why the current advanced manufacturing supply chain can&#8217;t hand=
+le demand, how Hadrian plans to fix it, and what the universe looks like if=
+ they succeed&#8230; </h4><p class=3D"button-wrapper" data-attrs=3D"{&quot;=
+url&quot;:&quot;https://www.notboring.co/p/75764f11-5e51-49f3-9cb9-7995c4d1=
+701b&quot;,&quot;text&quot;:&quot;Continue Reading Online&quot;,&quot;actio=
+n&quot;:null,&quot;class&quot;:null}" style=3D"color: #1a1a1a; font-size: 1=
+6px; line-height: 26px; margin: 0 0 1em 0; text-align: center;"><a class=3D=
+"button primary" href=3D"https://email.mg2.substack.com/c/eJxFkE2OhCAQRk_T7=
+DSAILBg0Zu5huGntEkrGIQx3n6YNplJKEiqUnl8z5kCS8qX3tNR0O81lWsHHeE8VigFMqoH5Cl4=
+TUYqB84U8pp5IrlE4ZjmDLCZsOqSK6C92jU4U0KKnw2MKUcvLTBwKimjauQCCzJ6OvIZpMUeK2n=
+8zTXVB4gONHxDvlIEtOpXKfvxGJ4P-tXOeZ59TMWmHOLSu9RaeyvBxchmQjoOnHRMzUOnnFWdUI=
+q79lWBiUVBU0wpZpgRygfGe9p7KxgZnFJ0GGZnWD_LKtYq3IPhbaH9Ue1RjHs30oay_iO38ftlN=
+lg_g5Z5au9WYyjXBNHYFfyto9xWP4KmBSLkZttPpjSXTGExSiYVZ3f85ouTlkRhhhrZp7YV_6E_=
+LgiKcA" rel=3D"" style=3D"background-color: #67bdfc; border: none; border-r=
+adius: 4px; box-sizing: border-box; color: #ffffff !important; cursor: poin=
+ter; display: inline-block; font-family: -apple-system, BlinkMacSystemFont,=
+ 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Se=
+goe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; hei=
+ght: auto; line-height: 20px; margin: 0; opacity: 1; outline: none; padding=
+: 12px 20px; text-align: center; text-decoration: none !important; white-sp=
+ace: nowrap;"><span style=3D"color: #ffffff; text-decoration: none;">Contin=
+ue Reading Online</span></a></p><div style=3D"font-size: 16px; line-height:=
+ 26px;"><hr style=3D"background: #e5e5e5; border: none; height: 1px; margin=
+: 25.6px 0; padding: 0;"></div><p style=3D"color: #1a1a1a; font-size: 16px;=
+ line-height: 26px; margin: 0 0 1em 0;"><em>Thanks to <a href=3D"https://em=
+ail.mg2.substack.com/c/eJxFkMGOhCAMhp9mOBqEonLgsJd9DYNQHTIKBspufPtlnMMmTZum=
+af_-n7OEW8qXOVMh9k4zXSeaiL9lRyLMrBbMc_CmH8QkFWjmDfh-UhMLZV4z4mHDbihXZGdd9uA=
+shRTvDc6FYk_TSz-idrAqHASA9Jz7SeKgB6Xd0C7eurb6gNGhwR_MV4rIdvMkOstDfj3Edwv6De=
+-POpeO1nl7OJfyEdyrlywYwYXgwKEXSoLqROeXEXrptBZSrs5Ct0513OvoHsCPTXSlLoWse73vs=
+WxioiXlELc2fj3tgfs9aJ7mVo8aA10zRrvs6D926UPtBjBvGDE3mn621FiB5uMwwaQVfOw1HqpX=
+46A5sKbsU9uK_6J_fTWD0Q" rel=3D"" style=3D"color: #1a1a1a; text-decoration: =
+underline;">Dan</a> for editing, to Moshe for introducing me to Chris, to D=
+elian and Brandon for the insight, and especially to Chris and the whole Ha=
+drian team for taking the time to talk to me and explain what they&#8217;re=
+ building and how.</em></p><div style=3D"font-size: 16px; line-height: 26px=
+;"><hr style=3D"background: #e5e5e5; border: none; height: 1px; margin: 25.=
+6px 0; padding: 0;"></div><h3 style=3D"-moz-osx-font-smoothing: antialiased=
+; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Com=
+pact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helve=
+tica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI S=
+ymbol'; font-size: 1.375em; font-weight: bold; line-height: 1.16em; margin:=
+ 1em 0 0.625em 0;"><strong>Not Boring Talent Collective</strong></h3><p sty=
+le=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0=
+;"><em>Over <strong>400 smart, curious people</strong> are looking for jobs=
+ at companies like Hadrian and in the broader web3 and startup ecosystem, a=
+nd <strong>40 growing companies</strong> have already signed up to hire the=
+m. Whether you&#8217;re looking to hire or looking for a new job, <a href=
+=3D"https://email.mg2.substack.com/c/eJxFkEuOwyAQRE8TdmNhPrFZsMhmrmHxaTsoGC=
+xoZuTbD4kXIyFQ0-qqrucMwpbLqY9ckbyvBc8DdILfGgERCmkVyhK8Hu9s5lIo4rXw4yxnEuqyF=
+oDdhKixNCBHszE4gyGnzwSlTJKnVpZNbrWrFdJwKSdlqZu5V70S1ji4fE3zAZIDDT9QzpyARP1E=
+POqNP27su5-U8cvmEtI2HCb29QaX9_6PJkJCEjSjjFFBxcgkF3Jgg7eTGLlTinG-OiOGdW5TbJO=
+7CbpvbKjNVjTu9RYiRXeDS7-3X0-zQ_w0eqylv3tLAc8FkrER_JUYL3AfBssGCUoH6heDHZdQdL=
+rPYlZSXAk7EjnK6a6oIN3Z5z6V_k3_AFv7hh8" rel=3D"" style=3D"color: #1a1a1a; te=
+xt-decoration: underline;">sign up here</a>.</em></p><div style=3D"font-siz=
+e: 16px; line-height: 26px;"><hr style=3D"background: #e5e5e5; border: none=
+; height: 1px; margin: 25.6px 0; padding: 0;"></div><p style=3D"color: #1a1=
+a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Thanks for rea=
+ding, and see you next week,</p><p style=3D"color: #1a1a1a; font-size: 16px=
+; line-height: 26px; margin: 0 0 1em 0;">Packy</p><div class=3D"footnote" s=
+tyle=3D"align-items: baseline; border-top: solid 1px #e0ecf6; display: flex=
+; flex-direction: row; font-size: 90%; line-height: 26px; padding-top: 1.5e=
+m;"><span class=3D"footnote-number" style=3D"display: block; margin-right: =
+6px; min-width: 24px;">1</span><div class=3D"footnote-content" style=3D"dis=
+play: block; font-size: 16px; line-height: 26px;"><p style=3D"color: #1a1a1=
+a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">This is the aver=
+age distance from the earth to the moon.</p></div></div><div class=3D"footn=
+ote" style=3D"align-items: baseline; border-top: none; display: flex; flex-=
+direction: row; font-size: 90%; line-height: 26px; margin-bottom: 0; paddin=
+g-top: 0;"><span class=3D"footnote-number" style=3D"display: block; margin-=
+right: 6px; min-width: 24px;">2</span><div class=3D"footnote-content" style=
+=3D"display: block; font-size: 16px; line-height: 26px;"><p style=3D"color:=
+ #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Precision=
+ standards&nbsp;for many of the parts Hadrian will produce&nbsp;are measure=
+d down to the micron level (1/1000th of a millimeter).</p></div></div></div=
+></div><table cellpadding=3D"0" cellspacing=3D"0" class=3D"post-meta big ce=
+ntered custom" style=3D"margin: 0 auto;"><tr><td class=3D"post-meta-item ic=
+on" style=3D"color: #767676; font-family: -apple-system, BlinkMacSystemFont=
+, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'S=
+egoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; height: 18px; line-heig=
+ht: 18px; padding: 0px 12px 0px 0; padding-right: 16px; position: relative;=
+ text-decoration: none; text-indent: 3px; vertical-align: middle; white-spa=
+ce: nowrap;"><span class=3D"post-meta-icon"><a href=3D"https://email.mg2.su=
+bstack.com/c/eJxFUsuOmzAU_ZqwG4SNeS1YTJMSgQpR1EkzyQYZ-yYx4SWwQ-HrxySaVrLulY=
+99n-cwKuHa9lPYtYM0FpPLqYOwgXGoQEroDTVAnwseIhf7tkMCg4eEI9_xDTHklx6gpqIKZa_A6=
+FRRCUalaJtnhGVhx7iFPgZAXsAAfCgC7DsEsQtiyHY833MD91WXKi6gYRDCA_qpbcCowpuU3bCy=
+31c40mccR7NpZdH2ormarNUQ7YS2D6TNkkS7ZztvPVC2tLGyI9neQfsNTAli-M_0iat7XLZ_szI=
+m6Xywdr9HwbbBzKOgO69jN_v4ibL55KSb_RA3SXU6ZhY9BkrHCNLheyxGQY-R9cqx1_8Y3m325N=
+c66Zidip1IRn6MZfrxPqblQWh81vcFn87HqOTb6lGIJDCz6W08zydFt_NhffuxU135sXPZI4Esq=
+tNx8ymyscxHdCnvK-wqWedDq3oGepZBFYOk7BuvgQtVLzMuwxsixBbGFrEIwo5NHBObvPAIslkQ=
+YNu-MErMi6-8SnlsRaz6is3vhHqrtdGH_7asn-83WkP1fND85trXqhFyyqGhRQX8Rb18KejZQH6=
+FBnqtLJ5TqXVDAstzfeIHDnlRrbXhIEdTbxFDV-atjmr-F_0CDMDgNg" class=3D"like-butt=
+on button post-meta-button" style=3D"background-color: transparent; border:=
+ 1px solid #e0ecf6; border-radius: 4px; box-sizing: border-box; color: #666=
+; cursor: pointer; display: block; font-family: -apple-system, BlinkMacSyst=
+emFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoj=
+i', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: norm=
+al; height: auto; line-height: 15px; margin: 0; opacity: 1; outline: none; =
+padding: 10px 16px; text-align: center; text-decoration: none; white-space:=
+ nowrap;"><img src=3D"https://cdn.substack.com/image/fetch/w_28,c_scale,f_p=
+ng,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FHea=
+rtIconRounded%3Fv%3D3%26height%3D28%26fill%3D%2523757575%26stroke%3D%252375=
+7575%26strokeWidth%3D2" width=3D"14" height=3D"14" style=3D"border: none !i=
+mportant; display: inline-block; float: left; height: 14px; margin-right: 4=
+px; max-width: 14px; vertical-align: top; width: auto;" alt=3D""><span clas=
+s=3D"meta-button-label">Like</span></a></span></td><td class=3D"post-meta-i=
+tem icon" style=3D"color: #767676; font-family: -apple-system, BlinkMacSyst=
+emFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoj=
+i', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; height: 18px; lin=
+e-height: 18px; padding: 0px 12px 0px 0; padding-right: 16px; position: rel=
+ative; text-decoration: none; text-indent: 3px; vertical-align: middle; whi=
+te-space: nowrap;"><a href=3D"https://email.mg2.substack.com/c/eJxFUsly4jAQ=
+_Rp8w6XN28GHVAgZpwZIagghubhkqcECW2JsKY75-giYpUqtw-vq18t7glvYm27MT6a3weUr7Xi=
+CXMPQN2AtdIHroSuVzHFMUhqxLJA5kziN0kD15a4DaLlqcts5CE6uapTgVhl9rUCIREGdcxAkqQ=
+QFElMacUkSzuSOEozjNOE4uvXlTirQAnL4hG40GoImr6099RN6NyFz_4ZhCLWxlemU3ofCeOjko=
+-ayU1xP4WvaclErzadcThuneeuzwrQtaOtZ5tYcQU_oDMYnLMhm3JLmWBzM1_JQsMX5Fa1-DUo8=
+Zmc5z04f90W8XD_g5fk9Wsxe-qJtaumxxfodrdZ3dHnYo9X9oPh2efYcSvzYqJ_rh2ExK3ChPA_=
+dqCt-4bvH48fb_CAfm89KPWXhayU_5Ntq_oz2260k22cdfc3MFL--fw6b3_rwUlO0PhbSvfkdY2=
+fbsjeuE-Bn713VWy6Of_AWpHLtZaeLCoHKCSIEMcQwiSiLQhLKKmGYiiwjlO4EZ-EudUnjEjFhq=
+N2T8C-hv2cbdPm_-_r0seYtNNeEV7a8XNJpZccSNK8akDfR7c071wHKPWjovKdkya13DMtQEqcs=
+zSJ2E9m7IsJREmeIBb6zNL5K_2_6DYMH3iE" class=3D"post-meta-button button" styl=
+e=3D"background-color: transparent; border: 1px solid #e0ecf6; border-radiu=
+s: 4px; box-sizing: border-box; color: #666; cursor: pointer; display: bloc=
+k; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helv=
+etica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI =
+Symbol'; font-size: 16px; font-weight: normal; height: auto; line-height: 1=
+5px; margin: 0; opacity: 1; outline: none; padding: 10px 16px; text-align: =
+center; text-decoration: none; white-space: nowrap;"><img src=3D"https://cd=
+n.substack.com/image/fetch/w_28,c_scale,f_png,q_auto:good,fl_progressive:st=
+eep/https%3A%2F%2Fsubstack.com%2Ficon%2FCommentIconRounded%3Fv%3D3%26height=
+%3D28%26fill%3D%2523757575%26stroke%3D%2523757575%26strokeWidth%3D2" width=
+=3D"14" height=3D"14" style=3D"border: none !important; display: inline-blo=
+ck; float: left; height: 14px; margin-right: 4px; max-width: 14px; vertical=
+-align: top; width: auto;" alt=3D"Comment" class=3D"comment-icon post-meta-=
+icon"><span class=3D"meta-button-label">Comment</span></a></td><td class=3D=
+"post-meta-item icon" style=3D"color: #767676; font-family: -apple-system, =
+BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Appl=
+e Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; heigh=
+t: 18px; line-height: 18px; margin-right: 0; padding: 0px 12px 0px 0; paddi=
+ng-right: 0; position: relative; text-decoration: none; text-indent: 3px; v=
+ertical-align: middle; white-space: nowrap;"><span><a href=3D"https://email=
+=2Emg2.substack.com/c/eJxNkt2OmzAQhZ8G7oK=
+MMX8XXOw2ikQUkm6329DeIGNPghMw1NhhydO=
+vk3TbSral-caj0Zw5jGo49mrOhn7U7u2p9DxAJmEaW9AalGtGUJXgmR_hJAhJ6vKMcD8JE1eM1U=
+EBdFS0mVYG3MHUrWBUi17eKxDCodtkiZ8SEjIMUeqTNEqYDzxJ_EPEkjjGIXn0pYYLkAwyuICae=
+wlumzVaD6MTPDl4Zc80TZ7sdd0rIY8e6y0a7G0oV4LKBbwvOsoaIemC8kVrJO2cYGV0V429UQyc=
+YDmaetSUnR0c3XgHXBj7aXmf4Q9kvdQg9e13QxVYStltov-A7s9wi2Fe-wz_mEvcnvNT_7495aS=
+4vqHd6yTofoUe7CUslgzvli9k82U9sKAQO7Ge-D7XxfenqTi9CcuvNr7zOtiiTbluf-63iO5Tk0=
+vklfP5ktLq2yb6Wjxfn8t6jzD5NQVE5HNejicl6_L1on5Pl8IVGUYYI4KIj8OAhB72eB0TP2Bpi=
+oPgwCjxDomJWxMzh6DuiL1PVayknauyvxLb9LmhHbT3hF2u1abrjBR6rkDSugX-2Lt-2OeuYnUE=
+CcraildUW9OQFMVRQpL0c8_WGKEfxlGKiGs7895WyX9NPwCsgd6i" class=3D"button post-=
+meta-button" style=3D"background-color: transparent; border: 1px solid #e0e=
+cf6; border-radius: 4px; box-sizing: border-box; color: #666; cursor: point=
+er; display: block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe =
+UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI E=
+moji', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; height: aut=
+o; line-height: 15px; margin: 0; opacity: 1; outline: none; padding: 10px 1=
+6px; text-align: center; text-decoration: none; white-space: nowrap;"><img =
+src=3D"https://cdn.substack.com/image/fetch/w_32,c_scale,f_png,q_auto:good,=
+fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FRecommendIconRound=
+ed%3Fv%3D2%26height%3D32%26fill%3D%2523757575%26stroke%3Dnone%26strokeWidth=
+%3D2" width=3D"16" height=3D"16" style=3D"border: none !important; display:=
+ inline-block; float: left; height: 16px; margin-right: 4px; max-width: 550=
+px; vertical-align: top; width: 16px;" alt=3D"Share" class=3D"recommend-ico=
+n post-meta-icon"><span class=3D"meta-button-label">Share</span></a></span>=
+</td></tr></table><div class=3D"container-border" style=3D"border-top: 1px =
+solid #e0ecf6; box-sizing: border-box; font-size: 16px; line-height: 26px; =
+margin: 32px 0 0; width: 100%;"></div><div class=3D"post-cta" style=3D"font=
+-size: 16px; line-height: 26px; margin: 24px 0 40px;"><p style=3D"font-size=
+: 16px; font-style: italic; line-height: 26px; margin: 24px 0 0; margin-top=
+: 0;"><span>If you liked this post from <a href=3D"https://email.mg2.substa=
+ck.com/c/eJxFUMtuxCAQ-5rlGPHchAOHXvobiMCQRSUQ8WiUvy_dSK00mpFseSzbmgZbLpc6cm=
+3od-l2HaASnDVCa1BQr1B0cIo86cIEl8gp7sgiFhSq9gVgNyGqVjqgo68xWNNCTm8FxlSglxKME=
+jpby63znBK3Wok9JcQJP2Dpb1_TXYBkQcE3lCsnQFG9Wjvqg3086OeY8zynlNuaS0jbZPOAUFAU=
+U4o55oQKxsVEJ7fOnDArJWXMW8Mnv_Q59tk-ON43OtW-1mbs1_iwo6L-Pg7662V2iG9iZNHj7j2=
+FdmlIZo3g7pjtbusdXG-QoIwWnTZtdMQlnp8LX6Tgd6zRgyBifkrM0XB2eajSv-kPx1-BdQ">No=
+t Boring by Packy McCormick</a>, why not share it?</span></p><p class=3D"ct=
+a-box" style=3D"font-size: 16px; font-style: italic; line-height: 26px; mar=
+gin: 24px 0 0; text-align: center;"><a role=3D"button" href=3D"https://emai=
+l.mg2.substack.com/c/eJxFkd1qhDAQhZ_G3K3kV81FLgplX0PGZFZDTZSY1Pr2ze5CC_lhzj=
+CcwzcWMs5busy-HZk8nzFfO5qI57FizphIOTCN3hnW8UEoqYkz0rFBDcQf4yMhBvCryakg2cu0e=
+gvZb_E1QSlXZDGIUqOk02CBSYDeaiZAKMr7adCMibcvFOcxWjT4jenaIpLVLDnvRyM-Gn6v5zzP=
+Nm552pKPc2u3Ku31LuCSh3jDn1sAu_gIN3C3tUQIjbiXHMaAzpdafL6yNrx7ihbCDn6OVbYZqgj=
+2GbyWxwIJiTecck4llYwrIVXLWzf1kgmrNRfiYUG2j6H0a-ltI2mYeXuU6chgv2q2QJL5y1rbXw=
+sEXF-NSmmsfyjR52vECNOK7g0wv_fwijnOGDHV_bgRcqUvNe27QQ5ayTewSlgx1XeaSlKd3Van4=
+r_pL-vYoMM" class=3D"button primary twitter-link" style=3D"background-color=
+: #67bdfc; border: 0px solid #67bdfc; border-radius: 4px; border-width: 13p=
+x 20px 13px 18px; box-sizing: content-box; color: #ffffff !important; curso=
+r: pointer; display: inline-block; font-family: -apple-system, BlinkMacSyst=
+emFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoj=
+i', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 17px; font-style: norma=
+l; font-weight: 300; height: 24px; line-height: 24px; margin: 0; opacity: 1=
+; outline: none; padding: 0; text-align: center; text-decoration: none !imp=
+ortant; vertical-align: middle; white-space: nowrap;"><img src=3D"https://c=
+dn.substack.com/image/fetch/w_23.1,c_scale,f_png,q_auto:good,fl_progressive=
+:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FShareIcon%3Fv%3D2%26height%3D42%=
+26stroke%3D%2523FFF%26strokeWidth%3D2" width=3D"11.55" height=3D"21" style=
+=3D"border: none !important; display: inline-block; height: 21px; margin-ri=
+ght: 8px; max-width: 11.55px; vertical-align: middle; width: 21px;" alt=3D"=
+"><span style=3D"color: #ffffff; text-decoration: none;">Share</span></a></=
+p></div> <div class=3D"footer" style=3D"background: #f8f8f8 !important; col=
+or: #bcbcbc; font-size: 16px; line-height: 26px; margin-top: 24px; padding:=
+ 32px; text-align: center;"><p class=3D"small" style=3D"color: #bcbcbc; fon=
+t-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,=
+ Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol=
+'; font-size: 13px; line-height: 26px; margin-bottom: 0; padding-bottom: 30=
+px;">&#169; 2022 <span>Packy McCormick</span> <a href=3D"https://email.mg2.=
+substack.com/c/eJxFkkuP2jAUhX8NWUZ-5eFFFggGCB1g2qEMsIkc24DBiaPYaRp-fQ1UrWTZ=
+1rm691jnM2dOnk07ZI2xLnhshRsamdWyt1o6J9ugs7ItlMhgjFIcERqIjAiYRmmgbHFqpayY0pl=
+rOxk0XakVZ06Z-tkBAIqCS3aKEyAJxzGiCcAoiTkHEKKIUsYTyMjLl3VCyZrLTP6S7WBqGejs4l=
+xjR3g8QjO_-r4Pa-NK06r6HHLjJcYfZv4ilGWllsXzNSM8c-Ym6xGeymEJOdoNe6Rv-dX8Xl9zs=
+rr_BJvPXvE5vYsZbY6TPF5v3-D6fohW0-82r_RFeG21PYDNdozX1zPYTHrF9uu7n6H4Yqfet2_9=
+aprDXPk5eKce-nGu74evpT3uqC6_Zk05WdLwmlyNI9IWH7ZavMOEThbjXXxq62_D_gNOyuiIf4i=
+xnh-sCVSGAEKAAOLTwSQKUSjKhEDMKUUYnzgj4SntEt0lfERAdUah7UrrGL_5OKqgzf7F48u3C6=
+ukfhY8mMKfVVcrNxSyfkQlXszcC_0zt-Isa9n6LyEK5jxwQkESpySl0V9GHmoEoySmgATeWRjfV=
+f83_QMapsXa" style=3D"color: #bcbcbc;"><span style=3D"color: #bcbcbc; text-=
+decoration: underline;">Unsubscribe</span></a><br>10 City Point, Brooklyn, =
+NY 11201</p><p class=3D"small powered-by-substack" style=3D"color: #bcbcbc;=
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvet=
+ica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sy=
+mbol'; font-size: 13px; line-height: 26px; margin-bottom: 0; padding-bottom=
+: 0;"><a href=3D"https://email.mg2.substack.com/c/eJxNkc1qxSAQhZ8mLoPxJz8LF=
+4VyXyMYndwrjRp0bMnb1yQtLQyzOIfhHD-NRnjGdKg9ZiTnmvHYQQX4yhsgQiIlQ5qdVV3PRi7F=
+RKwSthvlSFye1wTgtdsUpgJkL8vmjEYXw3VBKZPkpRgXQi5aCC47xuxoJ6ArLMxKvQ7dau9cXay=
+DYEDBJ6QjBiCbeiHuueFvDXvUyWXJqM1Ha6I_Ff4o6OccSzLQ8Pdfu2H9qXuwrviqXwV_RBMDQs=
+CqrjGer3OKUcaooKJjkgvZstYug-i4mSbG-Wq0aNexDFsZTCOof7L2fw2SVIi4xOTCs9ofL-1hu=
+4zKoqZ5X4LDY4aglw3sjQlv2lev-QkBUv0FO2usjMVEh34U4yTFjaVylJ0c-okKUpNtrFfhL_Qb=
+cWeYjQ" style=3D"color: #bcbcbc; text-decoration: none;"><img alt=3D"Publis=
+h on Substack" src=3D"https://cdn.substack.com/image/fetch/w_340,c_limit,f_=
+auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Fpu=
+blish-on-substack.png" width=3D"170" height=3D"32" style=3D"border: none !i=
+mportant; margin-top: 3px; max-width: 550px; vertical-align: middle;"></a><=
+/p></div></div></td><td></td></tr></table><img width=3D"1px" height=3D"1px"=
+ alt=3D"" src=3D"https://email.mg2.substack.com/o/eJxFUEluxCAQfE04WiyNDQfeg=
+ljaHjQ2jDAk8u9D7ENOLVWVupbgGm6lXuZTzkbwcGm3G2asA4_WNcNm0HSZFSgtgUQDkSmpSDrt=
+WvHWm1Y7kk_3ewqupZJtioZRyiV5Ge01IIroomOzYovnWgTK6QpK6VVF8udrXY8Jc0CD31ivkvG=
+Bxx_J5DJrCiQZTjmnQIFxKUBOfIp-ASaC1lyINTiYVtWXvS_hC-ix8ens_mwuvKdQDlJNLs2Xmv=
+I26PfLHbjfxAhuxz16Tu2ymJ3fMT6d2rNKP7HenWauhAT9hGvXB03Gn3PH1rCS4RbL2CP_G_0CO=
+UR1hg"></body></html>
+--e9e76f7dd56b4b8be657eac3a1efbf5ed4bd87dcdbe559dcad8dccf2c39d--

@@ -1,0 +1,2122 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:5d4:b0:1a3:fa90:e4b0 with SMTP id r20csp1197098lkr;
+        Tue, 8 Mar 2022 10:57:05 -0800 (PST)
+X-Received: by 2002:a1c:f705:0:b0:37d:f2e5:d8ec with SMTP id v5-20020a1cf705000000b0037df2e5d8ecmr4786108wmh.21.1646765825100;
+        Tue, 08 Mar 2022 10:57:05 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1646765825; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=BraeY+qQS1Gm4BcphEvLbCMf2fdGeri8eCein77fRs4P9tbYsIEcCwszOVkNnaOh1U
+         AYD4S2H+qdKIInDA5+QkibF6kEjKn4isgur6+pdQC9xvfq4Vrj06G3lPFXt9hGWEFOW7
+         xfGwK0vNNmzp/iNR2W/m51oZTKlTz+e1lxFvR/TxC0QLsLUroGGrpp56V9yQKMQJP7UR
+         eQXbpVwC90lqVP9wga/Tyu3whUwLQWP/AfLstc3kHake9kLcdESnWlfNX8JohheXsiJV
+         5KF26IkfJ8YIIZg4/Sl5YkqsAkFcPpwgWXC8Nc3B1yDjl5wDlMXtkTiyd+m0elEKvDhy
+         mXZg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=0JTJ5p3+IEVFx2nPr1eF9A+0RzVa04hCWldfM/xi8LQ=;
+        b=NxDov3aYG34MQBQj/AukSpEG0IqHBNxHpvEGJK+BDJtbLRZKCUY+9M+g152avUPhzo
+         Ma36Uofxk8OIqGsWVV/pHJYcXuG7eui7/DmMW1IOvCMaheWZNVODquE6dplZY/P1meMT
+         gJwu9+VfU6dowK5LGu+9Thhj/y4UwcDqhAHOd0GxDr2j9xZWwPo7hJl9q4RKt2DoiTjW
+         UHXsSdHlBgs2MdqwtY58ysiVtb2GJZMLCuEI6kInlxc/8eR9Mr08t5z6+CfD93rr76DH
+         FMdsLkglP7voi99QLWBLX2N9Vl2A/w5kTeoXfVUQ0pr5HRsw27rv/ZA1K7eMaUItyTBz
+         i1CQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=HSq1fXto;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id j17-20020a05600c2b9100b0038113e140dbsor1496504wmc.2.2022.03.08.10.57.04
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 08 Mar 2022 10:57:05 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=HSq1fXto;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=0JTJ5p3+IEVFx2nPr1eF9A+0RzVa04hCWldfM/xi8LQ=;
+        b=Q+Q61ksA9aT4tvtKz5f+CWdujMgxCUJ1eOmII+ARsz286bH1Lel0gbhTgkcoJwN6V/
+         3NUz8sIFPkd/KYFr7ye5ESCVDJ/cRh4uukp+pMZ0Grsy4ilCge9YQ9q1qqi5D8u7g0jy
+         tFVUvAucKyxHNpoWNbGUZFMYbvKKEs2muoL6z/JBDuPtCQwtXtZc9R0U5UIKUA4oopYE
+         D1DNdr9cjk/+h6DPNvbOP0OSjcNDeFg76NQuZDkZLOWAYwEIlqbiU+wkbXYOO05DEflR
+         vXtV28pucgVD9KnXjh//xUqQPin08fEBROUjN/MIL79cuhL9gnP1A7hl0zWyvOpdpIIn
+         Romw==
+X-Gm-Message-State: AOAM533DmVD/B/zZMgd3fvcuwRamznWlEYsAiCotTnBr+YZbTddwlrpj
+	lMAN5RR5Add6jMyW623wsKayBgosT9GZTy6JLMCuy33yCnKO1XMQgQ==
+X-Received: by 2002:a05:600c:4202:b0:382:a5d7:9ce5 with SMTP id x2-20020a05600c420200b00382a5d79ce5mr522056wmh.45.1646765824498;
+        Tue, 08 Mar 2022 10:57:04 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:9f4b:0:0:0:0:0 with SMTP id f11csp2370289wrg;
+        Tue, 8 Mar 2022 10:57:00 -0800 (PST)
+X-Received: by 2002:a05:6870:6195:b0:da:b3f:2b65 with SMTP id a21-20020a056870619500b000da0b3f2b65mr3260262oah.260.1646765820275;
+        Tue, 08 Mar 2022 10:57:00 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1646765820; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=bkzG4UjWwBXtHRgD5cPaL65fJSRwOo0ymn24xSzhlOBbY9km+sj2q4nPyaQWwfA7mi
+         F9paGj8uMIbgjl4GE8k52llFP+Pygtoy9LDkdZKbyYNYCvAC3VL+xQInqoG/uLr39uGT
+         tEt7Hq/q/9culvN/kuMWRvPoC2H5rW1w3DwMJrtidi0PBhheMFya8ccsqkMjs+csPj5z
+         X6MfGDAucTXEcWsDcO3bofqX8Zt8TrXGme+y1UR2uqJdyIa4bRddrf+oH3JOaL6gM06F
+         nytP2voTjFhctFN+0V4Bxp/U+QKXryUWppWdCor7PPplsmWzRJVrHLHuljMgH8WCGfGo
+         Vf6w==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=0JTJ5p3+IEVFx2nPr1eF9A+0RzVa04hCWldfM/xi8LQ=;
+        b=MV1hyKbgAXzJyi7KjTOeAbeYKVFwCeEmQf6XkUMaYTEqIYxkfX5TTA52vhMTYSngLB
+         msezdDd4UmOtdiTGiF5DDt0aqqo2s+0dZD4attFDFSyN72xAvkoXxYdQiPGbTgnH2Jkw
+         Vt/qpjPBlEapAsbzeMFCeH3wRg7/6UYzmHVsXIPYAuO4Zo4NfD42LERKP5JF/blaXaLb
+         7mSUf8vZwlCxAbiAcHno5dVjROyBmZkOQvwvCxrsprFLRPWXoUoWumHOym64q/DsV76r
+         1yFKUpoXVJnHuoHDZWrUF40tQIxAnfy06cl2G3pAGMSXrvaBXo8b4SAGRWdkYYKlX40q
+         9m4w==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=HSq1fXto;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220308135457.26954045.260607@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220308135457.26954045.260607@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220308135457.26954045.260607@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id j4-20020aca1704000000b002d7304588e6sor1302941oii.51.2022.03.08.10.57.00
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 08 Mar 2022 10:57:00 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20220308135457.26954045.260607@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJzPwMPJ3UHhlN5rr398P3Z2AsIZvGAOsz2aceisBPES4V/b9LeWXJ5K55HwUv/CyYZDAGutiaqNaUTFozjZU2OWELW4jJE=
+X-Received: by 2002:a05:6808:1882:b0:2d4:872a:d9a9 with SMTP id bi2-20020a056808188200b002d4872ad9a9mr3590472oib.74.1646765819861;
+        Tue, 08 Mar 2022 10:56:59 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1646765819; cv=none;
+        d=google.com; s=arc-20160816;
+        b=ou0pEX/W0VhXbK79zWX3/4rwtePj3Rgyy8QyQ34wl+jU2Kt5qIfsZjdLGga59nSCgg
+         /Njw+EpTS0W+5J3uJDTC50sNULACRJZGtuBs+HJq6l39725QI8ejDH+O6RC4IUSxqw1i
+         ZRVgsy3F4mP/fxa/0H2d12Dkh40/0REsOSn8Pj7+ZvyU5/97nH/VN2I9NDMt8s7IoaIA
+         XbXT6GwOp//mnZP+1jJxaTCntNDFJP0PW68cvqYEUACUugMHdqGo1IZHPr7Yg2510aUs
+         6moQRbJkWCYpA7DccU99bzIV31kebxPJQTgGkLAwmzLn9NZRe5BBk/80okpuRq5pyHZy
+         9VBA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=0JTJ5p3+IEVFx2nPr1eF9A+0RzVa04hCWldfM/xi8LQ=;
+        b=z1LRn509OV6ZWStxDFLUt6mkOS0+0Y0F9Bth07F0v9hqOUP6MjRpvKjcqbI/WFtjgo
+         v00LiRikiOZPmesSm3kgL9FBvzA4GtnKm1+/p2d/h7OZy/kfekFYPLt5pklZgLb3mtB7
+         V6nyqn/gy9LSu18MCN8gjwvr1Di3kEAERP1L9BuKvr8B05dOCnG/JU7DcChbKmNxau/k
+         3jC0nGy3DbQN2BSE8Uu4p0ptNdXE6X9yrn9Hj8U2XU0hJMfrEclm73huhRnyGW+oHn9G
+         vkWAHQUtqy6p2eJHYJX0ufwLV9rzKhR3bC5RlRf7jpcm1D7Z4C/eQ5u67qPqjP5UmpuA
+         sf9g==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=HSq1fXto;
+       spf=pass (google.com: domain of delivery_20220308135457.26954045.260607@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20220308135457.26954045.260607@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220308135457.26954045.260607@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id v3-20020a4ae6c3000000b0031c4a75cc7asi1321457oot.2.2022.03.08.10.56.47
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 08 Mar 2022 10:56:59 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20220308135457.26954045.260607@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=w5MAXhtnMXtG8x2Yb960Hgd3rODVu2bkEsl5EV8XYQQ=;
+ b=HSq1fXtoXAt5huLTNMKd9llLpRcJgTNF8KTGXu8wavez6El3bFC3gV8VuD8jOjr9bfOKKHuqE8UZ
+   eFmRHr7lb52oY4LhmU25fJ4DYAKD0JAPrdgDhkENhlRQJ0YyBoEOiVQNbf0EyK4bMu71rcfd5B+Q
+   pGJk9ZkUgVXL9LuXe/Y=
+Received: from nj2mta-17.sailthru.com (204.153.121.17) by bloomberg-b.sailthru.com id h4ujf22tkt03 for <bloomberg@khamel.com>; Tue, 8 Mar 2022 13:55:47 -0500 (envelope-from <delivery_20220308135457.26954045.260607@mx.sailthru.com>)
+Date: Tue, 8 Mar 2022 13:54:57 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220308135457.26954045.260607@sailthru.com>
+Subject: Money Stuff: Nickel Is Canceled
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_10807407_536953673.1646765697887"
+Precedence: bulk
+X-Feedback-ID: 6358:26954045:campaign:sailthru
+X-TM-ID: 20220308135457.26954045.260607
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-illmaroon.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cg1pvh.5l33/c5ecb343
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cg1pvh.5l33/c5ecb343>, <mailto:unsubscribe_20220308135457.26954045.260607@mx.sailthru.com>
+X-rpcampaign: stjko26954045
+
+------=_Part_10807407_536953673.1646765697887
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        NickelIn the stock market, short sellers are often people who are b=
+etting against the price of a stock. They hope the stock will go down. If
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Nickel
+   =20
+ =20
+In the stock market, short sellers are often people who are betting against=
+ the price of a stock. They hope the stock will go down. If it goes up, the=
+y are wrong, and they lose money. If it goes up a lot, they will get margin=
+ calls; they will have to put up more money with their brokers to collatera=
+lize their risk. If it goes up a whole lot, they will have to cut their los=
+ses by buying back the stock, which will cause the stock to go up more, whi=
+ch will lead more short sellers to capitulate and buy back stock, etc. This=
+ is often called a =E2=80=9Cshort squeeze.=E2=80=9D[1] When it happens, peo=
+ple who bet against the stock =E2=80=94=C2=A0short sellers =E2=80=94=C2=A0a=
+re sad and lose money, and people who bet on the stock =E2=80=94=C2=A0long =
+owners =E2=80=94=C2=A0are happy and make money.=C2=A0In commodities markets=
+, short sellers are often people who=C2=A0produce=C2=A0the commodity. If yo=
+u are an oil company, your future income will depend on the future price of=
+ oil. In order to make sensible budgeting decisions about how much to spend=
+ on drilling oil,=C2=A0you might want to lock in that future price. So you =
+might sell oil futures today to guarantee you a price in a few months. Or y=
+ou might not; you might be bullish on oil and want full unhedged exposure. =
+Or you might hedge part of your production; if you plan to produce 1 millio=
+n barrels you might only sell 500,000 barrels of futures. Or, since you are=
+ trading oil futures anyway and have some expertise in oil markets, you mig=
+ht end up net short, selling more oil than you plan to produce as a bet tha=
+t prices will go down. But most likely you are in the oil business because =
+you are hoping to make money drilling oil, and you are in some broad econom=
+ic sense =E2=80=9Clong oil.=E2=80=9D (You might hedge 50% or 100% or 150% o=
+f this year=E2=80=99s production, but you won=E2=80=99t hedge 100% of all o=
+f your future production.) If oil prices go down you will be sad; you will =
+make money on your futures contracts, but that will only partly mitigate yo=
+ur sadness.Conversely, if oil prices go up, you will be happy, because you =
+produce oil and your oil is worth more. But you will also have a mark-to-ma=
+rket loss on the futures you sold to=C2=A0partially hedge your oil price ri=
+sk.Or that is the general idea. There is an important difference in the cas=
+h flows of these things, though. If you are an oil company and the price of=
+ oil goes up, you will expect to make a bit more money each day that you se=
+ll oil. This money will not all come in at once: If you sell 10,000 barrels=
+ of oil a day and oil prices go up by $10 a barrel today, then you can expe=
+ct to make an extra $36.5 million this year, but you=E2=80=99ll only get $1=
+00,000 of it today. The expected value of your future cash flows has gone u=
+p, and there are ways to turn that into money,[2] but it=E2=80=99s hard to =
+do it=C2=A0fast.On the other hand if you sold 3.65 million barrels of oil f=
+utures and oil prices go up by $10 a barrel today, you will get a call from=
+ your broker asking for $36.5 million of margin today. Futures are mark-to-=
+market financial products, and when the futures price=C2=A0goes up, the sho=
+rt side of the futures contract has to put up money today.[3] The result is=
+ that when prices rise, your business outlook gets better, but you also nee=
+d a lot of cash=C2=A0now. The bad possibility is that you might run out of =
+cash now and be unable to enjoy all that future business.=C2=A0Russia=E2=80=
+=99s invasion of Ukraine, and subsequent sanctions and threats of future sa=
+nctions, has been bad for expected nickel supplies, which means that nickel=
+=C2=A0prices have gone up a lot, which is in expectation very good for nick=
+el=C2=A0producers, except when it is very bad for them right now:Traders, m=
+iners and processors often take short positions on the exchange as a hedge =
+for their physical stocks of metal. In theory, any price moves in the physi=
+cal stocks and the exchange position should cancel each other out. But when=
+ prices rise sharply, anyone holding a short position on the exchange needs=
+ to find ever-greater sums of collateral to pay margin calls.Traders and br=
+okers must deposit cash and securities, known as =E2=80=9Cmargin,=E2=80=9D =
+on a regular basis to cover potential losses on their positions. If the mar=
+ket moves against those positions, they receive a =E2=80=9Cmargin call=E2=
+=80=9D requesting further funds -- and if they fail to pay, they can be for=
+ced to close their position.Chinese entrepreneur Xiang Guangda -- known as =
+=E2=80=9CBig Shot=E2=80=9D -- has for months held a large short position on=
+ the LME through his company, Tsingshan Holding Group Co., the world=E2=80=
+=99s largest nickel and stainless steel producer, according to people famil=
+iar with the matter. In recent days, Tsingshan has been under growing press=
+ure from its brokers to meet margin calls on that position -- a market dyna=
+mic which has helped to drive prices ever higher, the people said.There is =
+a sense in which this is all a bit unnatural. Yes, nickel prices should go =
+up for geopolitical reasons, but arguably they should not go up=C2=A0that m=
+uch; arguably the extent of these moves is driven by technical factors (mar=
+gin calls on short sellers who are =E2=80=9Creally=E2=80=9D long) that, in =
+some sense, shouldn=E2=80=99t count. I mean. You could think that. You don=
+=E2=80=99t have to; you could instead think =E2=80=9Cno, market structure i=
+s part of the real world, and if prices go up because of a short squeeze th=
+en prices go up, that=E2=80=99s life.=E2=80=9D But some people certainly th=
+ink that these price moves shouldn=E2=80=99t count, either because they are=
+ generically unnatural and unfair, or more specifically because they might =
+blow up some traders and destabilize the market.One=C2=A0way to reduce this=
+ sort of pressure is to suspend some of the margin calls,  which happened:A=
+ unit of China Construction Bank Corp. was given additional time by the Lon=
+don Metal Exchange to pay hundreds of millions of dollars of margin calls i=
+t missed Monday amid an unprecedented spike in nickel prices, according to =
+people familiar with the matter.The reprieve from the LME means that the un=
+it, called CCBI Global Markets, is not formally in default, the people said=
+, asking not to be identified as the matter isn=E2=80=99t public.Another, m=
+ore drastic way to reduce this sort of pressure is to=C2=A0suspend nickel t=
+rading,  which=C2=A0also happened:The London Metal Exchange suspended tradi=
+ng in its nickel market after an unprecedented price spike left brokers str=
+uggling to pay margin calls against unprofitable short positions, in a mass=
+ive squeeze that has embroiled the largest nickel producer as well as a maj=
+or Chinese bank.=C2=A0Nickel, used in stainless steel and electric-vehicle =
+batteries, surged as much as 250% in two days to trade briefly above $100,0=
+00 a ton early Tuesday. The frenzied move -- the largest-ever on the LME --=
+ came as investors and industrial users who had sold the metal scrambled to=
+ buy the contracts back after prices initially rallied on concerns about su=
+pplies from Russia.A third, even more drastic way to reduce this sort of pr=
+essure is to=C2=A0retroactively=C2=A0suspend nickel trading, by canceling t=
+rades that=C2=A0already happened. That happened too; from the LME today:The=
+ LME have been monitoring the impact on the LME market of the situation in =
+Russia and the Ukraine, as well as the recent low-stock environment observe=
+d in various LME base metals. With immediate effect, and following the susp=
+ension of the LME Nickel market announced in Notice 22/052, the LME (acting=
+ where required through the Special Committee) has determined that it is ap=
+propriate in the circumstances to take the following actions in respect of =
+physically settled Nickel Contracts: (i) cancel all trades executed on or a=
+fter 00:00 UK time on 8 March 2022 in the inter-office market and on LMEsel=
+ect until further notice (Affected Contracts); and (ii) defer delivery of a=
+ll physically settled Nickel Contracts due for delivery on 9 March 2022 and=
+ any subsequent Prompt Date in relation to which delivery is not practicabl=
+e (as determined by the LME and notified to the market) owing to a trading =
+suspension in line with the process in this Notice.Obviously that=E2=80=99s=
+ bad! You don=E2=80=99t want to break trades!=C2=A0The whole point of an ex=
+change is that it is a transparent and predictable place to agree to trades=
+. On the other hand if price moves are=C2=A0too=C2=A0wild, and if they are =
+driven too much by margin calls, you=E2=80=99re going to blow up enough exc=
+hange participants to undermine predictability anyway. (If a lot of traders=
+ go bankrupt, it is hard to avoid breaking trades. If some of those traders=
+ are nickel producers, bankrupting them due to soaring nickel prices is an =
+especially bad idea: You need them to make some more nickel!)So you shut ev=
+erything down for a while, including retroactively, and hope that everyone =
+can get their financing in order to make for an=C2=A0orderly reopening. In =
+theory, if the people caught in the short squeeze are in fact largely big n=
+ickel producers, this should work. If you=E2=80=99re a nickel producer your=
+ nickel should be worth more now, and probably someone will give you some m=
+oney for it.[4]On the other hand if you=E2=80=99re a retail investor who wa=
+s three times short nickel,  this was not your week:Investors in a niche le=
+veraged product betting against nickel have been wiped out after the metal=
+=E2=80=99s historic surge this week.Issuer WisdomTree Investments announced=
+ that the Nickel 3x Daily Short exchange-traded commodity (ticker 3NIS), wh=
+ich aims to deliver three times the inverse performance of the commodity, w=
+ill be redeemed following =E2=80=9Cextreme and continual=E2=80=9D movements=
+ in the metal=E2=80=99s price.=C2=A0Elsewhere a nickel (the U.S. 5-cent coi=
+n) now contains 4.7 cents=E2=80=99 worth of nickel and 3.9 cents=E2=80=99 w=
+orth of copper so, you know, get melting.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Stakeholder capitalism=C2=A0
+   =20
+ =20
+A decent rough model for modern oil companies is that oil-company executive=
+s love to drill for oil, but oil-company=C2=A0investors=C2=A0hate it. If yo=
+u are a person who has spent your career in oil companies, you probably thi=
+nk of your job as mostly being about exploring for oil, drilling oil wells,=
+ generally doing stuff that produces oil. If you have some extra money, you=
+r bias is to spend it on drilling for more oil. You want to=C2=A0win, to pr=
+oduce more oil, to become a bigger oil company, and that means drilling for=
+ oil.Of course all your peers think that too and the result is that everyon=
+e increases production,=C2=A0prices fall, and everyone=E2=80=99s profits go=
+ down. And then, when prices fall, it is no longer economical to produce oi=
+l at the expensive difficult adventurous projects that you opened.Meanwhile=
+ if you are an investor in oil companies in 2022 you have seen how that wor=
+ks out and you are all about maximizing cash flows:A decade of debt-fuelled=
+ drilling and supply growth prompted a backlash from Wall Street, which in =
+recent years has demanded oil companies cut spending on new crude productio=
+n and use cash to pay dividends and reduce debt.The strategy has improved o=
+perators=E2=80=99 balance sheets, but oil production growth has been tepid.=
+ A jump in post-pandemic demand, which has set new records, had resulted in=
+ a surge in prices even before the Ukraine crisis.Well.[5] The way financia=
+l capitalism worked a decade ago, the executives would basically do what th=
+e shareholders want and maximize the stock price.[6] The job of a public-co=
+mpany executive then was to maximize the cash flows available to shareholde=
+rs, and the way to do that, for an oil company, is=C2=A0probably=C2=A0to be=
+ cautious about expanding production.The way financial capitalism worked a =
+month ago was slightly different. With the rise of environmental, social an=
+d governance investing, the job of a public-company=C2=A0executive is not j=
+ust to maximize cash flows but also to satisfy shareholders=E2=80=99 ESG co=
+ncerns, including in particular their concerns about transitioning to a low=
+er-carbon-emissions world. For oil companies, though, that pushes in the sa=
+me direction. Some shareholders want them to limit production for cash-flow=
+ reasons; others want them to  limit production for ESG reasons.The way fin=
+ancial capitalism works in March 2022 is I guess that (1)=C2=A0oil-company =
+executives want to put the needs of society ahead of the needs of their sha=
+reholders, and (2) in the eyes of oil-company executives, at least, society=
+=E2=80=99s need for cheap oil=C2=A0is more urgent than its need to cut emis=
+sions? I mean that is also a rough model but:Oil industry chiefs have calle=
+d on Wall Street to stop holding back investment in new crude supply as =E2=
+=80=9Cchaos=E2=80=9D and =E2=80=9Cbedlam=E2=80=9D threaten to overwhelm ene=
+rgy markets amid fears the west will ban Russian oil exports following the =
+invasion of Ukraine.A surge in the international oil price to $139 a barrel=
+ on Monday has sparked fears that the rally could damage the global economy=
+. Speaking at the CERAWeek conference in Houston, oil executives pinned som=
+e of the blame on their investors.=E2=80=9CInvestors have been telling [oil=
+ companies] not to invest so much. Well, this is a crisis, we should be inv=
+esting more,=E2=80=9D said John Hess, chief executive of Hess Corp, a big U=
+S shale oil producer. =E2=80=9CWe=E2=80=99ve had five years of under-invest=
+ment and we=E2=80=99re paying for it now.=E2=80=9D =E2=80=A6=E2=80=9CIt=E2=
+=80=99s bedlam. It=E2=80=99s just chaos,=E2=80=9D said Tengku Muhammad Tauf=
+ik, chief executive of Malaysian state-owned producer Petronas, at the CERA=
+Week event. =E2=80=9C[We] need to ensure that energy security is addressed =
+immediately.=E2=80=9D=E2=80=9CSpeaking to financial institutions =E2=80=94 =
+and I=E2=80=99ll probably get beat up by bankers on the way out =E2=80=94 y=
+ou need to shepherd us, not beat us into submission,=E2=80=9D said Taufik.I=
+ suppose I am being a bit tongue-in-cheek with the section header here (=E2=
+=80=9CStakeholder capitalism=E2=80=9D), but not really? This is the idea of=
+ stakeholder capitalism: The oil companies=E2=80=99 executives say to inves=
+tors =E2=80=9Clook, at the end of the day it is your money, but you have en=
+trusted it to us, and we are going to spend it to do what we think is best =
+for society, not necessarily what is best for your bottom line.=E2=80=9D Th=
+e investors might have their own views about what is best for society! Some=
+ investors might have different views from other investors, both about what=
+ is good and about what to prioritize. But the point of stakeholder capital=
+ism is that the executives get to decide.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Elsewhere in oil
+   =20
+ =20
+We have  talked a few  times recently about the fact that big international=
+ oil companies have joint ventures in Russia and decided pretty hastily to =
+exit them. Here is a Wall Street Journal story about =E2=80=9CHow Oil Giant=
+s=E2=80=99 Bets on Russia, Years in the Making, Crumbled in Days.=E2=80=9D =
+As we have discussed, it is one thing to say =E2=80=9Cwe are exiting our Ru=
+ssia ventures=E2=80=9D and another thing to figure out how to actually do t=
+hat. You can=E2=80=99t exactly sell the shares of these joint ventures=C2=
+=A0on the open market, and abandoning them=C2=A0essentially means selling t=
+hem to Russian companies for free. Conceptually the right approach is somet=
+hing like:=09Promise to get rid of them.=09Cross them off the list of =E2=
+=80=9Cassets we own=E2=80=9D and move them to a list of =E2=80=9Cassets we =
+don=E2=80=99t want to own,*=E2=80=9D with a little footnote saying =E2=80=
+=9C*but still technically own.=E2=80=9D=09Wait a while until things are mor=
+e normal, or until you find an acceptable buyer.=09Eventually sell them for=
+ some amount of money.=09Do something with the money.Obviously that is a ve=
+ry schematic description. Each part is complicated but here let=E2=80=99s f=
+ocus on Step 2, crossing them off one list and putting them on another list=
+. That is a pretty metaphysical step; here=E2=80=99s the Journal:Lawyers, a=
+ccountants and outside advisers are working to determine how the oil compan=
+ies can restructure their Russian holdings. They are exploring complex opti=
+ons for ring fencing them from ongoing operations=E2=80=94transferring the =
+assets to separate corporate entities=E2=80=94while winding them down and t=
+rying to preserve as much value as possible, some of the people close to th=
+e companies said. Options include escrow accounts with shareholders named a=
+s beneficiaries and special-purpose entities walled off from continuing bus=
+inesses.Asset sales would be challenging, some of the people close to the c=
+ompanies said. One primary goal is to avoid ceding direct control to a Russ=
+ian counterpart or otherwise inadvertently benefiting Russia, they said.=E2=
+=80=9CEscrow accounts with shareholders named as beneficiaries=E2=80=9D? Li=
+ke, before the restructuring, BP Plc (say) would own the asset, and any val=
+ue from the asset would belong to BP=E2=80=99s shareholders. After the rest=
+ructuring, some entity set up by BP would own the asset, and any value from=
+ the asset would belong to BP=E2=80=99s shareholders. But in some legal or =
+perhaps only metaphysical sense=C2=A0BP would no longer own the asset, so i=
+t could say that it was getting out of Russian oil ventures, which is the p=
+oint here.This is all a bit uncharted and you have some options on what you=
+ want to accomplish with this structure. Like:=09What does =E2=80=9Cshareho=
+lders=E2=80=9D mean? Most simply, the escrow account would be for whoever o=
+wns the company=E2=80=99s shares at any particular time; if the company sel=
+ls the asset in 2023 and realizes some proceeds, it will pay out those proc=
+eeds to its shareholders in 2023. But you could imagine, as it were, distri=
+buting the claims to=C2=A0current=C2=A0shareholders, so that if you owned t=
+he company=E2=80=99s stock in March 2022 and the asset pays out in 2023, yo=
+u get a share of=C2=A0the proceeds even if you have sold your stock. (The t=
+heory being that, since you owned the stock at the time the company abandon=
+ed the asset at zero, you were the one hurt by that and you should get the =
+money.)=09If you=E2=80=99re doing that you could make the escrow claims =E2=
+=80=A6=C2=A0tradable? Like, issue a tracking stock on your abandoned Russia=
+n JV assets? That seems distasteful and yet somehow correct. If you want to=
+ get rid of your JV assets, can=E2=80=99t sell them, and don=E2=80=99t want=
+ to abandon them to your Russian partners, one move is to effectively spin =
+them off to your shareholders. Then you don=E2=80=99t own them anymore, but=
+ you have maximized shareholder value. And then if your shareholders don=E2=
+=80=99t want to own Russian JV assets they can sell them, in indirect trada=
+ble-escrow-claim form=C2=A0to someone who does. (Who is that?)=C2=A0=09Why =
+shareholders? When Shell Plc=C2=A0bought=C2=A0Russian oil after the invasio=
+n of Ukraine, it said that it =E2=80=9Cwill commit profits from the limited=
+ amount of Russian oil we have to purchase to a dedicated fund=E2=80=9D tha=
+t will be used =E2=80=9Cto alleviate the terrible consequences that this wa=
+r is having on the people of Ukraine.=E2=80=9D (It has since decided to   s=
+top buying Russian oil.) I suppose one could do the same thing with Russian=
+ JVs: Put them in a special-purpose entity and escrow any proceeds to help =
+Ukraine? In some loose sense the JV assets belong to the shareholders now, =
+so it=E2=80=99s weird for the company to donate them, but that is loosely t=
+rue of Shell=E2=80=99s oil trading profits too and that didn=E2=80=99t stop=
+ it from donating them.=C2=A0Still elsewhere in oil:=09=E2=80=9CBiden Says =
+U.S. Will   Ban Russian Fuels to Pressure Putin.=E2=80=9D=09=E2=80=9CChina =
+  Considers Buying Stakes in Russian Energy, Commodity Firms.=E2=80=9D=09=
+=E2=80=9CThe Future Turns Dark for  Russia=E2=80=99s Oil Industry.=E2=80=9D=
+=09=E2=80=9CRussian  tankers at sea despite =E2=80=98big unknown=E2=80=99 o=
+ver who will buy oil.=E2=80=9D=09=E2=80=9CMaduro hails =E2=80=98cordial=E2=
+=80=99 talks with US as west seeks new oil supplies.=E2=80=9D
+ =20
+   =20
+      War bonds
+   =20
+ =20
+I am not sure that  this exactly qualifies as =E2=80=9Ceverything is securi=
+ties fraud=E2=80=9D but it seems somehow related:On Feb. 28, just four days=
+ after Russian troops invaded Ukraine, the nation=E2=80=99s debt chief told=
+ investors he=E2=80=99d found a way to support his country=E2=80=99s defens=
+e: He was set to use Ukraine=E2=80=99s weekly debt auction the following da=
+y to raise funds for its military, denominated in retail investor-friendly =
+chunks of 1,000 hryvnia ($33). Outraged at the invasion and seeking a way t=
+o show support, people around the world flooded social media asking how the=
+y might be able to buy what everyone started calling =E2=80=9Cwar bonds.=E2=
+=80=9DThey soon discovered that only institutional investors such as money =
+managers and pension funds could purchase them. Now, Ukraine is racing to m=
+ake its debt available to a broader range of buyers, a task that typically =
+requires consultation with legions of lawyers and bankers over a period of =
+months, not the days or weeks that the government would prefer. ...Despite =
+the intense international interest, Ukraine would find it extremely difficu=
+lt to prepare the documentation required to offer securities aimed at retai=
+l investors abroad. These typically require a prospectus that can run to hu=
+ndreds of pages detailing the risks of the bonds, conditions the borrower m=
+ust adhere to, and the ground rules for repayment. =E2=80=9CWe just have to=
+ recognize that this is an extreme situation,=E2=80=9D says Timothy Ash, an=
+ emerging-markets strategist at BlueBay Asset Management in London. =E2=80=
+=9CYou have people from the Ministry of Finance living in a war, and to put=
+ something together at short notice that ticks all the boxes is asking a lo=
+t.=E2=80=9DIt seems to be the expressed policy of the U.S., the U.K. and se=
+veral other major financial centers that Ukraine should be able to get a lo=
+t of funding quickly for its war effort. But when foreign policy conflicts =
+with securities regulation, securities regulation tends=C2=A0to win.
+ =20
+   =20
+      Oh Elon
+   =20
+ =20
+It is not exactly my job to read Elon Musk=E2=80=99s tweets and decide whic=
+h of them constitute securities fraud, but it is kind of=C2=A0my job. A thi=
+ng that very much happens in my life is that Elon Musk  writes a tweet=C2=
+=A0and like eight people send it to me asking =E2=80=9Cis this securities f=
+raud?=E2=80=9D I cannot complain too much, there are definitely worse jobs =
+and I have brought this upon myself, but it is not my favorite=C2=A0part of=
+ the job. Elon Musk is very good at writing tweets that are debatably, a li=
+ttle bit, maybe securities fraud, and the right way to respond to that is n=
+ot to carefully parse which tweets fall on which side of the line but  rath=
+er to say =E2=80=9Cthis is Elon Musk=E2=80=99s Twitter we are talking about=
+ here, it is all gonna be pretty weird and you have to live with it.=E2=80=
+=9DExcept for that one tweet about having funding secured to take Tesla Inc=
+. private, that one was  pretty clearly securities fraud, that was fun.It o=
+ccurs to me that=C2=A0the U.S. Securities and Exchange Commission is in the=
+ same position as I am, vis-=C3=A0-vis Musk=E2=80=99s Twitter?=09It is not =
+really the SEC=E2=80=99s job to decide which of Musk=E2=80=99s tweets are s=
+ecurities fraud.=09Except for the obvious big ones, like the =E2=80=9Cfundi=
+ng secured=E2=80=9D one, you gotta punish that, and   the SEC did.=09Throug=
+h some combination of conscious enthusiasm and historical accident,=C2=A0th=
+e SEC has brought upon itself an expectation that it will parse all of Musk=
+=E2=80=99s tweets.=09Perhaps it enjoys doing that but boy I doubt it. Anywa=
+y:=C2=A0Tesla Inc. Chief Executive Officer Elon Musk asked a judge to end t=
+he U.S. Securities and Exchange Commission=E2=80=99s oversight of his Twitt=
+er posts under a 2018 agreement because he claims it is being used to =E2=
+=80=9Ctrample=E2=80=9D his free speech rights.Musk also asked the judge to =
+block an SEC subpoena for documents relating to the review of his tweets an=
+d his sale of stock and options, a court filing on Tuesday showed. An SEC s=
+pokesperson didn=E2=80=99t immediately respond to a request for comment.=C2=
+=A0The SEC is investigating whether Musk and his brother Kimbal violated se=
+curities laws when selling shares in the company late last year, according =
+to a person familiar with the matter.Yeah look if I were the SEC lawyer in =
+charge of parsing Musk=E2=80=99s tweets I would be absolutely desperate to =
+move on with my life. I concede that the question of =E2=80=9Cwhether Musk =
+and his brother Kimbal violated securities laws when selling shares in the =
+company late last year=E2=80=9D is kind of an interesting one =E2=80=94=C2=
+=A0we  discussed it last week =E2=80=94 and if I worked at the SEC I would =
+want to keep digging on that one. But I=E2=80=99d probably let the consent =
+decree go.=C2=A0
+ =20
+   =20
+      Pyramid scheme
+   =20
+ =20
+Oh sure, sure:Since time immemorial, there has been something undeniably aw=
+esome about gigantic pyramids. The Egyptians built them. The Aztecs built t=
+hem. Even corporations have built them. But a DAO has never built a single =
+one.It=E2=80=99s time to change that.We (Terran Robotics) are developing a =
+drone-based 3D printing system that deploys monolithic adobe, the world=E2=
+=80=99s lowest-cost building material.By combining automation with low mate=
+rial costs, we can build an arbitrarily large structure at a much lower cos=
+t than stone or concrete.The RealPyramidScheme DAO will decide collectively=
+ on the design and location of the pyramid. The more we raise, the bigger i=
+t will be.We project that costs will not exceed $75/m=C2=B3. For reference,=
+ this translates to an absolute bargain of roughly $200 million USD to buil=
+d the largest pyramid on Earth (1.5 meters taller than the Great Pyramid of=
+ Giza).Let=E2=80=99s build.Is this a joke? I don=E2=80=99t know, and I don=
+=E2=80=99t care much; many DAOs seem to be jokes without that stopping them=
+ from being real. ConstitutionDAO never bought the Constitution but it=E2=
+=80=99s still kicking around. Sure, build a pyramid, or at least raise a lo=
+t of money to talk about it.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+EU to Consider Massive  Joint Bond Sales to Fund Energy, Defense. Biden to =
+Sign  Crypto Order as Firms Face Sanctions Pressure.=C2=A0Russia=E2=80=99s =
+banks turn from global ambitions to survival. JPMorgan to remove Russian de=
+bt from widely tracked bond indices. Russian Threat to  Cut Gas Sends Europ=
+ean Market Into Frenzy. Ukrainians Risk Their Lives to Keep Russian Gas Flo=
+wing to Europe. =E2=80=98Brutal=E2=80=99 selling in speculative tech stocks=
+ knocks Tiger Cub hedge funds. William Ackman Takes Stake in Canadian Pacif=
+ic. Robinhood Plans  Spending Account Service Alongside New Cash Card. NYC =
+Mayor Pleads with Goldman Bankers to  Come Back to Work. =E2=80=9CWhat I wa=
+sn=E2=80=99t trying to say was that stocks were going to go up if there is =
+a nuclear war. Obviously, they will go down.=E2=80=9DIf you'd like to get=
+=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, pleas=
+e=C2=A0subscribe at this link. Or you can subscribe to Money Stuff and othe=
+r great Bloomberg newsletters here. Thanks![1] Some people have a narrower =
+view of what a short squeeze is: To sell a stock short, you have to borrow =
+it, and the person who lends you the stock can generally ask for it back at=
+ any time. The narrower definition of a short squeeze is that it is when bo=
+rrow is recalled and short sellers are forced to buy back stock by their le=
+nding arrangements, not just by price moves. This is not generally relevant=
+ in commodity markets where you don=E2=80=99t have to borrow to short.[2] Y=
+ou could sell stock? Or commodities producers often have credit facilities =
+that lend to them against the value of their reserves, so if your reserves =
+get more valuable you can borrow more, though this =E2=80=9Cborrowing base =
+redetermination=E2=80=9D generally happens at fixed intervals, not continuo=
+usly.=C2=A0[3] We have talked about this basic dynamic =E2=80=94=C2=A0funda=
+mentally long producers getting caught out when prices go up because their =
+mark-to-market hedges move against them =E2=80=94=C2=A0a few times, includi=
+ng about mortgage lenders hedging with mortgage-backed securities=C2=A0and =
+U.K. insurers buying dollar bonds and  hedging with swaps.[4] The Financial=
+ Times reports that =E2=80=9CPart of Tsingshan=E2=80=99s problem is they pr=
+oduce the wrong type of nickel. They can=E2=80=99t deliver against the LME =
+contract.=E2=80=9D Still, even the wrong type of nickel is probably worth m=
+ore now.[5] If you are an investor in multiple oil companies, and you urge =
+them to cut production to keep prices high, is that =E2=80=A6=C2=A0you know=
+ =E2=80=A6=C2=A0an antitrust concern?[6] To be clear, a decade ago a lot of=
+ oil drillers were in fact maximizing production growth, but that=E2=80=99s=
+ what shareholders wanted then; now they know better.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cg1pvh.5l33/8aa57a7d.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_10807407_536953673.1646765697887
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+NickelIn the stock market, short sellers are often people who are betting a=
+gainst the price of a stock. They hope the stock will go down. If
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26954045.260607/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNjk1NDA0NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyMTQ2NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBe906f3ba" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D26954045&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27214652&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26954045.260607/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMzA4MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMDgmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBc9096099"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26954045.260607/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNjk1NDA0NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyMTQ2NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC6418fdc1" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D26954045&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27214652&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Nickel</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">In the stock market, short sellers are=
+ often people who are betting against the price of a stock. They hope the s=
+tock will go down. If it goes up, they are wrong, and they lose money. If i=
+t goes up a lot, they will get margin calls; they will have to put up more =
+money with their brokers to collateralize their risk. If it goes up a whole=
+ lot, they will have to cut their losses by buying back the stock, which wi=
+ll cause the stock to go up more, which will lead more short sellers to cap=
+itulate and buy back stock, etc. This is often called a =E2=80=9Cshort sque=
+eze.=E2=80=9D[1] When it happens, people who bet against the stock =E2=80=
+=94=C2=A0short sellers =E2=80=94=C2=A0are sad and lose money, and people wh=
+o bet on the stock =E2=80=94=C2=A0long owners =E2=80=94=C2=A0are happy and =
+make money.=C2=A0</p><p style=3D"margin: 16px 0;">In commodities markets, s=
+hort sellers are often people who=C2=A0<em>produce=C2=A0</em>the commodity.=
+ If you are an oil company, your future income will depend on the future pr=
+ice of oil. In order to make sensible budgeting decisions about how much to=
+ spend on drilling oil,=C2=A0you might want to lock in that future price. S=
+o you might sell oil futures today to guarantee you a price in a few months=
+. Or you might not; you might be bullish on oil and want full unhedged expo=
+sure. Or you might hedge part of your production; if you plan to produce 1 =
+million barrels you might only sell 500,000 barrels of futures. Or, since y=
+ou are trading oil futures anyway and have some expertise in oil markets, y=
+ou might end up net short, selling more oil than you plan to produce as a b=
+et that prices will go down. But most likely you are in the oil business be=
+cause you are hoping to make money drilling oil, and you are in some broad =
+economic sense =E2=80=9Clong oil.=E2=80=9D (You might hedge 50% or 100% or =
+150% of this year=E2=80=99s production, but you won=E2=80=99t hedge 100% of=
+ <em>all of your future production.</em>) If oil prices go down you will be=
+ sad; you will make money on your futures contracts, but that will only par=
+tly mitigate your sadness.</p><p style=3D"margin: 16px 0;">Conversely, if o=
+il prices go up, you will be happy, because you produce oil and your oil is=
+ worth more. But you will also have a mark-to-market loss on the futures yo=
+u sold to=C2=A0partially hedge your oil price risk.</p><p style=3D"margin: =
+16px 0;">Or that is the general idea. There is an important difference in t=
+he cash flows of these things, though. If you are an oil company and the pr=
+ice of oil goes up, you will expect to make a bit more money each day that =
+you sell oil. This money will not all come in at once: If you sell 10,000 b=
+arrels of oil a day and oil prices go up by $10 a barrel today, then you ca=
+n expect to make an extra $36.5 million this year, but you=E2=80=99ll only =
+get $100,000 of it today. The expected value of your future cash flows has =
+gone up, and there are ways to turn that into money,[2] but it=E2=80=99s ha=
+rd to do it=C2=A0<em>fast</em>.</p><p style=3D"margin: 16px 0;">On the othe=
+r hand if you sold 3.65 million barrels of oil futures and oil prices go up=
+ by $10 a barrel today, you will get a call from your broker asking for $36=
+.5 million of margin today. Futures are mark-to-market financial products, =
+and when the futures price=C2=A0goes up, the short side of the futures cont=
+ract has to put up money today.[3] The result is that when prices rise, you=
+r business outlook gets better, but you also need a lot of cash=C2=A0<em>no=
+w</em>. The bad possibility is that you might run out of cash now and be un=
+able to enjoy all that future business.=C2=A0</p><p style=3D"margin: 16px 0=
+;">Russia=E2=80=99s invasion of Ukraine, and subsequent sanctions and threa=
+ts of future sanctions, has been bad for expected nickel supplies, which me=
+ans that nickel=C2=A0<em>prices</em> have gone up a lot, which is in expect=
+ation very good for nickel=C2=A0<em>producers</em>, except when it is <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/26954045.260607/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMDgvbG1lLXN1c3Blbm=
+RzLW5pY2tlbC10cmFkaW5nLWFmdGVyLXVucHJlY2VkZW50ZWQtcHJpY2Utc3Bpa2U_Y21waWQ9Q=
+kJEMDMwODIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0=
+ZXImdXRtX3Rlcm09MjIwMzA4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a3=
+19a23cBe1fdc72b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">very bad for them right now</a>:</p><blockquote><p=
+ style=3D"margin: 16px 0;">Traders, miners and processors often take short =
+positions on the exchange as a hedge for their physical stocks of metal. In=
+ theory, any price moves in the physical stocks and the exchange position s=
+hould cancel each other out. But when prices rise sharply, anyone holding a=
+ short position on the exchange needs to find ever-greater sums of collater=
+al to pay margin calls.</p><p style=3D"margin: 16px 0;">Traders and brokers=
+ must deposit cash and securities, known as =E2=80=9Cmargin,=E2=80=9D on a =
+regular basis to cover potential losses on their positions. If the market m=
+oves against those positions, they receive a =E2=80=9Cmargin call=E2=80=9D =
+requesting further funds -- and if they fail to pay, they can be forced to =
+close their position.</p><p style=3D"margin: 16px 0;">Chinese entrepreneur =
+Xiang Guangda -- known as =E2=80=9CBig Shot=E2=80=9D -- has for months held=
+ a large short position on the LME through his company, Tsingshan Holding G=
+roup Co., the world=E2=80=99s largest nickel and stainless steel producer, =
+according to people familiar with the matter. In recent days, Tsingshan has=
+ been under growing pressure from its brokers to meet margin calls on that =
+position -- a market dynamic which has helped to drive prices ever higher, =
+the people said.</p></blockquote><p style=3D"margin: 16px 0;">There is a se=
+nse in which this is all a bit unnatural. Yes, nickel prices should go up f=
+or geopolitical reasons, but arguably they should not go up=C2=A0<em>that m=
+uch</em>; arguably the extent of these moves is driven by technical factors=
+ (margin calls on short sellers who are =E2=80=9Creally=E2=80=9D long) that=
+, in some sense, shouldn=E2=80=99t count. I mean. You could think that. You=
+ don=E2=80=99t have to; you could instead think =E2=80=9Cno, market structu=
+re is part of the real world, and if prices go up because of a short squeez=
+e then prices go up, that=E2=80=99s life.=E2=80=9D But some people certainl=
+y think that these price moves shouldn=E2=80=99t count, either because they=
+ are generically unnatural and unfair, or more specifically because they mi=
+ght blow up some traders and destabilize the market.</p><p style=3D"margin:=
+ 16px 0;">One=C2=A0way to reduce this sort of pressure is to suspend some o=
+f the margin calls, <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/26954045.260607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwM=
+jItMDMtMDgvY2hpbmEtY29uc3RydWN0aW9uLWJhbmstdW5pdC1nZXRzLXJlcHJpZXZlLW9uLW1l=
+dGFsLW1hcmdpbi1jYWxscz9jbXBpZD1CQkQwMzA4MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWV=
+tYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMDgmdXRtX2NhbXBhaWduPW=
+1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb3c821b5" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> which happened</a=
+>:</p><blockquote><p style=3D"margin: 16px 0;">A unit of China Construction=
+ Bank Corp. was given additional time by the London Metal Exchange to pay h=
+undreds of millions of dollars of margin calls it missed Monday amid an unp=
+recedented spike in nickel prices, according to people familiar with the ma=
+tter.</p><p style=3D"margin: 16px 0;">The reprieve from the LME means that =
+the unit, called CCBI Global Markets, is not formally in default, the peopl=
+e said, asking not to be identified as the matter isn=E2=80=99t public.</p>=
+</blockquote><p style=3D"margin: 16px 0;">Another, more drastic way to redu=
+ce this sort of pressure is to=C2=A0<em>suspend nickel trading</em>, <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/26954045.260607/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMDgvbG1lLXN1c3BlbmR=
+zLW5pY2tlbC10cmFkaW5nLWFmdGVyLXVucHJlY2VkZW50ZWQtcHJpY2Utc3Bpa2U_Y21waWQ9Qk=
+JEMDMwODIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0Z=
+XImdXRtX3Rlcm09MjIwMzA4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a31=
+9a23cCe1fdc72b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> which=C2=A0also happened</a>:</p><blockquote><p st=
+yle=3D"margin: 16px 0;">The London Metal Exchange suspended trading in its =
+nickel market after an unprecedented price spike left brokers struggling to=
+ pay margin calls against unprofitable short positions, in a massive squeez=
+e that has embroiled the largest nickel producer as well as a major Chinese=
+ bank.=C2=A0</p><p style=3D"margin: 16px 0;">Nickel, used in stainless stee=
+l and electric-vehicle batteries, surged as much as 250% in two days to tra=
+de briefly above $100,000 a ton early Tuesday. The frenzied move -- the lar=
+gest-ever on the LME -- came as investors and industrial users who had sold=
+ the metal scrambled to buy the contracts back after prices initially ralli=
+ed on concerns about supplies from Russia.</p></blockquote><p style=3D"marg=
+in: 16px 0;">A third, even more drastic way to reduce this sort of pressure=
+ is to=C2=A0<em>retroactively=C2=A0</em>suspend nickel trading, by cancelin=
+g trades that=C2=A0<em>already happened</em>. That happened too; from <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/26954045.260607/aHR0cHM=
+6Ly93d3cubG1lLmNvbS9hcGkvc2l0ZWNvcmUvTWVtYmVyTm90aWNlc1NlYXJjaEFwaS9Eb3dubG=
+9hZD9pZD0xMWZmYmEyZS1iMjQxLTQ2MmQtYjQzMC03OWJlOTI3YzMwMGY/607f07ceef4b8524a=
+319a23cBaaa920b8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">the LME today</a>:</p><blockquote><p style=3D"mar=
+gin: 16px 0;">The LME have been monitoring the impact on the LME market of =
+the situation in Russia and the Ukraine, as well as the recent low-stock en=
+vironment observed in various LME base metals. With immediate effect, and f=
+ollowing the suspension of the LME Nickel market announced in Notice 22/052=
+, the LME (acting where required through the Special Committee) has determi=
+ned that it is appropriate in the circumstances to take the following actio=
+ns in respect of physically settled Nickel Contracts: (i) cancel all trades=
+ executed on or after 00:00 UK time on 8 March 2022 in the inter-office mar=
+ket and on LMEselect until further notice (Affected Contracts); and (ii) de=
+fer delivery of all physically settled Nickel Contracts due for delivery on=
+ 9 March 2022 and any subsequent Prompt Date in relation to which delivery =
+is not practicable (as determined by the LME and notified to the market) ow=
+ing to a trading suspension in line with the process in this Notice.</p></b=
+lockquote><p style=3D"margin: 16px 0;">Obviously that=E2=80=99s bad! You do=
+n=E2=80=99t want to break trades!=C2=A0The whole point of an exchange is th=
+at it is a transparent and predictable place to agree to trades. On the oth=
+er hand if price moves are=C2=A0<em>too=C2=A0</em>wild, and if they are dri=
+ven too much by margin calls, you=E2=80=99re going to blow up enough exchan=
+ge participants to undermine predictability anyway. (If a lot of traders go=
+ bankrupt, it is hard to avoid breaking trades. If some of those traders ar=
+e <em>nickel producers</em>, bankrupting them due to soaring nickel prices =
+is an especially bad idea: You need them to make some more nickel!)</p><p s=
+tyle=3D"margin: 16px 0;">So you shut everything down for a while, including=
+ retroactively, and hope that everyone can get their financing in order to =
+make for an=C2=A0orderly reopening. In theory, if the people caught in the =
+short squeeze are in fact largely big nickel producers, this should work. I=
+f you=E2=80=99re a nickel producer your nickel should be worth more now, an=
+d probably someone will give you some money for it.[4]</p><p style=3D"margi=
+n: 16px 0;">On the other hand if you=E2=80=99re a retail investor who was t=
+hree times short nickel, <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26954045.260607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVz=
+LzIwMjItMDMtMDgvaW52ZXN0b3JzLXdpcGVkLW91dC1hcy1uaWNoZS1sZXZlcmFnZWQtbmlja2V=
+sLXByb2R1Y3Qtc2h1dHMtZG93bj9jbXBpZD1CQkQwMzA4MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaX=
+VtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMDgmdXRtX2NhbXBha=
+WduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB75db962d" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> this was not=
+ your week</a>:</p><blockquote><p style=3D"margin: 16px 0;">Investors in a =
+niche leveraged product betting against nickel have been wiped out after th=
+e metal=E2=80=99s historic surge this week.</p><p style=3D"margin: 16px 0;"=
+>Issuer WisdomTree Investments announced that the Nickel 3x Daily Short exc=
+hange-traded commodity (ticker 3NIS), which aims to deliver three times the=
+ inverse performance of the commodity, will be redeemed following =E2=80=9C=
+extreme and continual=E2=80=9D movements in the metal=E2=80=99s price.=C2=
+=A0</p></blockquote><p style=3D"margin: 16px 0;">Elsewhere a nickel (the U.=
+S. 5-cent coin) <a href=3D"https://link.mail.bloombergbusiness.com/click/26=
+954045.260607/aHR0cHM6Ly90d2l0dGVyLmNvbS9qcF9rb25pbmcvc3RhdHVzLzE1MDExNjc0M=
+jcxMTEyMjMzMDU_cz0xMQ/607f07ceef4b8524a319a23cB291f6466" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">now contai=
+ns</a> 4.7 cents=E2=80=99 worth of nickel and 3.9 cents=E2=80=99 worth of c=
+opper so, you know, get melting.</p><table class=3D"liveintent-sponsored-co=
+ntent" width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26954045.260607/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjk1NDA0NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyMTQ2NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD8a31a3d3" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26954045&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27214652&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26954045.260607/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjk1NDA0NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyMTQ2NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE8a31a3d3" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26954045&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27214652&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26954045.260607/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjk1NDA0NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyMTQ2NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF60f8c6a3" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26954045&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27214652&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26954045.260607/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjk1NDA0NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyMTQ2NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG60f8c6a3" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26954045&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27214652&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Stakeholder capitalism=C2=A0</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">A decent rough model for modern oil co=
+mpanies is that oil-company <em>executives </em>love to drill for oil, but =
+oil-company=C2=A0<em>investors=C2=A0</em>hate it. If you are a person who h=
+as spent your career in oil companies, you probably think of your job as mo=
+stly being about exploring for oil, drilling oil wells, generally doing stu=
+ff that produces oil. If you have some extra money, your bias is to spend i=
+t on drilling for more oil. You want to=C2=A0<em>win</em>, to produce more =
+oil, to become a bigger oil company, and that means drilling for oil.</p><p=
+ style=3D"margin: 16px 0;">Of course all your peers think that too and the =
+result is that everyone increases production,=C2=A0prices fall, and everyon=
+e=E2=80=99s profits go down. And then, when prices fall, it is no longer ec=
+onomical to produce oil at the expensive difficult adventurous projects tha=
+t you opened.</p><p style=3D"margin: 16px 0;">Meanwhile if you are an inves=
+tor in oil companies in 2022 you have seen how that works out and you are <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/26954045.260607/aHR=
+0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZTQ1YWI4NWMtZjIxMS00NmQ0LWJhNDQtNmIzMGRlNT=
+Q4YWI0/607f07ceef4b8524a319a23cB040b5117" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">all about maximizing cas=
+h flows</a>:</p><blockquote><p style=3D"margin: 16px 0;">A decade of debt-f=
+uelled drilling and supply growth prompted a backlash from Wall Street, whi=
+ch in recent years has demanded oil companies cut spending on new crude pro=
+duction and use cash to pay dividends and reduce debt.</p><p style=3D"margi=
+n: 16px 0;">The strategy has improved operators=E2=80=99 balance sheets, bu=
+t oil production growth has been tepid. A jump in post-pandemic demand, whi=
+ch has set new records, had resulted in a surge in prices even before the U=
+kraine crisis.</p></blockquote><p style=3D"margin: 16px 0;">Well.[5] The wa=
+y financial capitalism worked a decade ago, the executives would basically =
+do what the shareholders want and maximize the stock price.[6] The job of a=
+ public-company executive then was to maximize the cash flows available to =
+shareholders, and the way to do that, for an oil company, is=C2=A0<em>proba=
+bly=C2=A0</em>to be cautious about expanding production.</p><p style=3D"mar=
+gin: 16px 0;">The way financial capitalism worked a month ago was slightly =
+different. With the rise of environmental, social and governance investing,=
+ the job of a public-company=C2=A0executive is not just to maximize cash fl=
+ows but also to satisfy shareholders=E2=80=99 ESG concerns, including in pa=
+rticular their concerns about transitioning to a lower-carbon-emissions wor=
+ld. For oil companies, though, that pushes in the same direction. Some shar=
+eholders want them to limit production for cash-flow reasons; others want t=
+hem to <a href=3D"https://link.mail.bloombergbusiness.com/click/26954045.26=
+0607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMj=
+cvZXh4b24tbG9zdC1hLWNsaW1hdGUtcHJveHktZmlnaHQ_Y21waWQ9QkJEMDMwODIyX01PTkVZU=
+1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIw=
+MzA4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB6f109fed" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> limit production for ESG reasons</a>.</p><p style=3D"margin: 16px 0;"=
+>The way financial capitalism works in March 2022 is I guess that (1)=C2=A0=
+oil-company executives want to put the needs of society ahead of the needs =
+of their shareholders, and (2) in the eyes of oil-company executives, at le=
+ast, society=E2=80=99s need for cheap oil=C2=A0is more urgent than its need=
+ to cut emissions? I mean <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/26954045.260607/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZTQ1YWI4NWMtZjI=
+xMS00NmQ0LWJhNDQtNmIzMGRlNTQ4YWI0/607f07ceef4b8524a319a23cC040b5117" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">that is also a rough model but</a>:</p><blockquote><p style=3D"margin: 16=
+px 0;">Oil industry chiefs have called on Wall Street to stop holding back =
+investment in new crude supply as =E2=80=9Cchaos=E2=80=9D and =E2=80=9Cbedl=
+am=E2=80=9D threaten to overwhelm energy markets amid fears the west will b=
+an Russian oil exports following the invasion of Ukraine.</p><p style=3D"ma=
+rgin: 16px 0;">A surge in the international oil price to $139 a barrel on M=
+onday has sparked fears that the rally could damage the global economy. Spe=
+aking at the CERAWeek conference in Houston, oil executives pinned some of =
+the blame on their investors.</p><p style=3D"margin: 16px 0;">=E2=80=9CInve=
+stors have been telling [oil companies] not to invest so much. Well, this i=
+s a crisis, we should be investing more,=E2=80=9D said John Hess, chief exe=
+cutive of Hess Corp, a big US shale oil producer. =E2=80=9CWe=E2=80=99ve ha=
+d five years of under-investment and we=E2=80=99re paying for it now.=E2=80=
+=9D =E2=80=A6</p><p style=3D"margin: 16px 0;">=E2=80=9CIt=E2=80=99s bedlam.=
+ It=E2=80=99s just chaos,=E2=80=9D said Tengku Muhammad Taufik, chief execu=
+tive of Malaysian state-owned producer Petronas, at the CERAWeek event. =E2=
+=80=9C[We] need to ensure that energy security is addressed immediately.=E2=
+=80=9D</p><p style=3D"margin: 16px 0;">=E2=80=9CSpeaking to financial insti=
+tutions =E2=80=94 and I=E2=80=99ll probably get beat up by bankers on the w=
+ay out =E2=80=94 you need to shepherd us, not beat us into submission,=E2=
+=80=9D said Taufik.</p></blockquote><p style=3D"margin: 16px 0;">I suppose =
+I am being a bit tongue-in-cheek with the section header here (=E2=80=9CSta=
+keholder capitalism=E2=80=9D), but not really? This is the idea of <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/26954045.260607/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDgtMTkvbWF4aW1pemUt=
+c2hhcmVob2xkZXItdmFsdWUtdG9wLWNlb3MtbWlnaHQtYmUtb3B0aW5nLW91dD9jbXBpZD1CQkQ=
+wMzA4MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlci=
+Z1dG1fdGVybT0yMjAzMDgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a=
+23cBb0f79937" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">stakeholder capitalism</a>: The oil companies=E2=80=
+=99 executives say to investors =E2=80=9Clook, at the end of the day it is =
+your money, but you have entrusted it to us, and we are going to spend it t=
+o do what we think is best for society, not necessarily what is best for yo=
+ur bottom line.=E2=80=9D The investors might have their own views about wha=
+t is best for society! Some investors might have different views from other=
+ investors, both about what is good and about what to prioritize. But the p=
+oint of stakeholder capitalism is that the executives get to decide.</p><ta=
+ble class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26954045.260607/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNjk1NDA0NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyMTQ2NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHc93a6240" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D26954045&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27214652&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Elsewhere in oil</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">We have <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/26954045.260607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjItMDMtMDEvbm9ib2R5LXdhbnRzLXJ1c3NpYW4tYXNzZXR=
+zP2NtcGlkPUJCRDAzMDgyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT=
+1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMwOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07=
+ceef4b8524a319a23cB5b63e83b" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> talked</a> a few <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/26954045.260607/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDMtMDIvcnVzc2lhLXMtZmluYW5jZXMtY=
+XJlLWNsb3NpbmctdXA_Y21waWQ9QkJEMDMwODIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFp=
+bCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzA4JnV0bV9jYW1wYWlnbj1tb25=
+leXN0dWZm/607f07ceef4b8524a319a23cB29d5b333" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> times</a> recently ab=
+out the fact that big international oil companies have joint ventures in Ru=
+ssia and decided pretty hastily to exit them. Here is a Wall Street Journal=
+ story about =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/26954045.260607/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9vaWwtY29tcGFueS1=
+icC1zaGVsbC1leHhvbi1ydXNzaWEtdWtyYWluZS0xMTY0NjYyMDE0NQ/607f07ceef4b8524a31=
+9a23cBa5fc4832" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">How Oil Giants=E2=80=99 Bets on Russia, Years in th=
+e Making, Crumbled in Days</a>.=E2=80=9D As we have discussed, it is one th=
+ing to say =E2=80=9Cwe are exiting our Russia ventures=E2=80=9D and another=
+ thing to figure out how to actually do that. You can=E2=80=99t exactly sel=
+l the shares of these joint ventures=C2=A0on the open market, and abandonin=
+g them=C2=A0essentially means selling them to Russian companies for free. C=
+onceptually the right approach is something like:</p><ol style=3D"list-styl=
+e-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margi=
+n-bottom: 5px;">Promise to get rid of them.</li>=09<li style=3D"margin-bott=
+om: 5px;">Cross them off the list of =E2=80=9Cassets we own=E2=80=9D and mo=
+ve them to a list of =E2=80=9Cassets we don=E2=80=99t want to own,*=E2=80=
+=9D with a little footnote saying =E2=80=9C*but still technically own.=E2=
+=80=9D</li>=09<li style=3D"margin-bottom: 5px;">Wait a while until things a=
+re more normal, or until you find an acceptable buyer.</li>=09<li style=3D"=
+margin-bottom: 5px;">Eventually sell them for some amount of money.</li>=09=
+<li style=3D"margin-bottom: 5px;">Do something with the money.</li></ol><p =
+style=3D"margin: 16px 0;">Obviously that is a very schematic description. E=
+ach part is complicated but here let=E2=80=99s focus on Step 2, crossing th=
+em off one list and putting them on another list. That is a pretty metaphys=
+ical step; here=E2=80=99s the Journal:</p><blockquote><p style=3D"margin: 1=
+6px 0;">Lawyers, accountants and outside advisers are working to determine =
+how the oil companies can restructure their Russian holdings. They are expl=
+oring complex options for ring fencing them from ongoing operations=E2=80=
+=94transferring the assets to separate corporate entities=E2=80=94while win=
+ding them down and trying to preserve as much value as possible, some of th=
+e people close to the companies said. Options include escrow accounts with =
+shareholders named as beneficiaries and special-purpose entities walled off=
+ from continuing businesses.</p><p style=3D"margin: 16px 0;">Asset sales wo=
+uld be challenging, some of the people close to the companies said. One pri=
+mary goal is to avoid ceding direct control to a Russian counterpart or oth=
+erwise inadvertently benefiting Russia, they said.</p></blockquote><p style=
+=3D"margin: 16px 0;">=E2=80=9CEscrow accounts with shareholders named as be=
+neficiaries=E2=80=9D? Like, before the restructuring, BP Plc (say) would ow=
+n the asset, and any value from the asset would belong to BP=E2=80=99s shar=
+eholders. After the restructuring, some entity set up by BP would own the a=
+sset, and any value from the asset would belong to BP=E2=80=99s shareholder=
+s. But in some legal or perhaps only metaphysical sense=C2=A0<em>BP </em>wo=
+uld no longer own the asset, so it could say that it was getting out of Rus=
+sian oil ventures, which is the point here.</p><p style=3D"margin: 16px 0;"=
+>This is all a bit uncharted and you have some options on what you want to =
+accomplish with this structure. Like:</p><ol style=3D"list-style-type: deci=
+mal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5p=
+x;">What does =E2=80=9Cshareholders=E2=80=9D mean? Most simply, the escrow =
+account would be for whoever owns the company=E2=80=99s shares at any parti=
+cular time; if the company sells the asset in 2023 and realizes some procee=
+ds, it will pay out those proceeds to its shareholders in 2023. But you cou=
+ld imagine, as it were, distributing the claims to=C2=A0<em>current=C2=A0</=
+em>shareholders, so that if you owned the company=E2=80=99s stock in March =
+2022 and the asset pays out in 2023, you get a share of=C2=A0the proceeds e=
+ven if you have sold your stock. (The theory being that, since you owned th=
+e stock at the time the company abandoned the asset at zero, you were the o=
+ne hurt by that and you should get the money.)</li>=09<li style=3D"margin-b=
+ottom: 5px;">If you=E2=80=99re doing that you could make the escrow claims =
+=E2=80=A6=C2=A0tradable? Like, issue a tracking stock on your abandoned Rus=
+sian JV assets? That seems distasteful and yet somehow correct. If you want=
+ to get rid of your JV assets, can=E2=80=99t sell them, and don=E2=80=99t w=
+ant to abandon them to your Russian partners, one move is to effectively sp=
+in them off to your shareholders. Then you don=E2=80=99t own them anymore, =
+but you have maximized shareholder value. And then if your shareholders don=
+=E2=80=99t want to own Russian JV assets they can sell them, in indirect tr=
+adable-escrow-claim form=C2=A0to someone who does. (Who is that?)=C2=A0</li=
+>=09<li style=3D"margin-bottom: 5px;">Why shareholders? When Shell Plc=C2=
+=A0bought=C2=A0Russian oil after the invasion of Ukraine, <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/26954045.260607/aHR0cHM6Ly90d2l0dGV=
+yLmNvbS9TaGVsbC9zdGF0dXMvMTUwMDE3OTQzMDYwNTQ3MTc0Nw/607f07ceef4b8524a319a23=
+cBa495736e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">it said</a> that it =E2=80=9Cwill commit profits from t=
+he limited amount of Russian oil we have to purchase to a dedicated fund=E2=
+=80=9D that will be used =E2=80=9Cto alleviate the terrible consequences th=
+at this war is having on the people of Ukraine.=E2=80=9D (It has since deci=
+ded to <a href=3D"https://link.mail.bloombergbusiness.com/click/26954045.26=
+0607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMDgvc2=
+hlbGwtdG8tcGhhc2Utb3V0LWFsbC1wdXJjaGFzZXMtb2YtcnVzc2lhbi1vaWwtYW5kLWdhcz9jb=
+XBpZD1CQkQwMzA4MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3=
+c2xldHRlciZ1dG1fdGVybT0yMjAzMDgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4=
+b8524a319a23cB76cb53f1" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">  stop buying Russian oil</a>.) I suppose o=
+ne could do the same thing with Russian JVs: Put them in a special-purpose =
+entity and escrow any proceeds to help Ukraine? In some loose sense the JV =
+assets belong to the shareholders now, so it=E2=80=99s weird for the compan=
+y to donate them, but that is loosely true of Shell=E2=80=99s oil trading p=
+rofits too and that didn=E2=80=99t stop it from donating them.=C2=A0</li></=
+ol><p style=3D"margin: 16px 0;">Still elsewhere in oil:</p><ul style=3D"lis=
+t-style-type: disc; padding-left: 40px; margin: 16px 0;">=09<li style=3D"ma=
+rgin-bottom: 5px;">=E2=80=9CBiden Says U.S. Will <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/26954045.260607/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMDgvYmlkZW4tc2F5cy11LXMtd2lsbC1iYW4tcnV=
+zc2lhbi1mdWVscy10by1wcmVzc3VyZS1wdXRpbi1vbi13YXI_Y21waWQ9QkJEMDMwODIyX01PTk=
+VZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09M=
+jIwMzA4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB82760a2f" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">  Ban Russian Fuels</a> to Pressure Putin.=E2=80=9D</li>=09<li styl=
+e=3D"margin-bottom: 5px;">=E2=80=9CChina <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/26954045.260607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9u=
+ZXdzL2FydGljbGVzLzIwMjItMDMtMDgvY2hpbmEtY29uc2lkZXJzLWJ1eWluZy1zdGFrZXMtaW4=
+tcnVzc2lhbi1lbmVyZ3ktY29tbW9kaXR5LWZpcm1zP2NtcGlkPUJCRDAzMDgyMl9NT05FWVNUVU=
+ZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMwO=
+CZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBf2bdd824" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">  Considers Buying Stakes</a> in Russian Energy, Commodity Firms.=E2=80=
+=9D</li>=09<li style=3D"margin-bottom: 5px;">=E2=80=9CThe Future Turns Dark=
+ for <a href=3D"https://link.mail.bloombergbusiness.com/click/26954045.2606=
+07/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8wMy8wOC9idXNpbmVzcy9ydXNzaWFuLW9p=
+bC1pbmR1c3RyeS5odG1s/607f07ceef4b8524a319a23cB1b786a41" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> Russia=E2=
+=80=99s Oil Industry</a>.=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;"=
+>=E2=80=9CRussian <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+26954045.260607/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYTVjZTgyZGItOGQxNS00Yzc=
+4LWE1MzktNDAzYTljYWI5MTE0/607f07ceef4b8524a319a23cB772f9170" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> tanke=
+rs at sea</a> despite =E2=80=98big unknown=E2=80=99 over who will buy oil.=
+=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">=E2=80=9C<a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/26954045.260607/aHR0cHM6Ly93d3cuZ=
+nQuY29tL2NvbnRlbnQvMjc2YWFjM2UtMjViZC00NWMyLWI1ZjQtODQ1OTI0MGM5NDYy/607f07c=
+eef4b8524a319a23cB9f3f63d5" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">Maduro</a> hails =E2=80=98cordial=E2=80=
+=99 talks with US as west seeks new oil supplies.=E2=80=9D</li></ul><table =
+class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">War bonds</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I am not sure that <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/26954045.260607/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMDgvdWtyYWluZS13YXItYm9uZHMtaGF2=
+ZS1saW1pdGVkLXJlYWNoLXNvLWZhcj9jbXBpZD1CQkQwMzA4MjJfTU9ORVlTVFVGRiZ1dG1fbWV=
+kaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMDgmdXRtX2NhbX=
+BhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb7b5cedf" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> this</a> =
+exactly qualifies as =E2=80=9Ceverything is securities fraud=E2=80=9D but i=
+t seems somehow related:</p><blockquote><p style=3D"margin: 16px 0;">On Feb=
+. 28, just four days after Russian troops invaded Ukraine, the nation=E2=80=
+=99s debt chief told investors he=E2=80=99d found a way to support his coun=
+try=E2=80=99s defense: He was set to use Ukraine=E2=80=99s weekly debt auct=
+ion the following day to raise funds for its military, denominated in retai=
+l investor-friendly chunks of 1,000 hryvnia ($33). Outraged at the invasion=
+ and seeking a way to show support, people around the world flooded social =
+media asking how they might be able to buy what everyone started calling =
+=E2=80=9Cwar bonds.=E2=80=9D</p><p style=3D"margin: 16px 0;">They soon disc=
+overed that only institutional investors such as money managers and pension=
+ funds could purchase them. Now, Ukraine is racing to make its debt availab=
+le to a broader range of buyers, a task that typically requires consultatio=
+n with legions of lawyers and bankers over a period of months, not the days=
+ or weeks that the government would prefer. ...</p><p style=3D"margin: 16px=
+ 0;">Despite the intense international interest, Ukraine would find it extr=
+emely difficult to prepare the documentation required to offer securities a=
+imed at retail investors abroad. These typically require a prospectus that =
+can run to hundreds of pages detailing the risks of the bonds, conditions t=
+he borrower must adhere to, and the ground rules for repayment. =E2=80=9CWe=
+ just have to recognize that this is an extreme situation,=E2=80=9D says Ti=
+mothy Ash, an emerging-markets strategist at BlueBay Asset Management in Lo=
+ndon. =E2=80=9CYou have people from the Ministry of Finance living in a war=
+, and to put something together at short notice that ticks all the boxes is=
+ asking a lot.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">It see=
+ms to be the expressed policy of the U.S., the U.K. and several other major=
+ financial centers that Ukraine should be able to get a lot of funding quic=
+kly for its war effort. But when foreign policy conflicts with securities r=
+egulation, securities regulation tends=C2=A0to win.</p><table class=3D"head=
+er" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oh Elon</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">It is not exactly my job to read Elon =
+Musk=E2=80=99s tweets and decide which of them constitute securities fraud,=
+ but it is <em>kind of=C2=A0</em>my job. A thing that very much happens in =
+my life is that Elon Musk <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/26954045.260607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMTktMDItMjcvd2hvLWNhbi1zYXktd2hhdC1jYWxpZm9ybmlhLW1lYW5zP2NtcGlkPU=
+JCRDAzMDgyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0d=
+GVyJnV0bV90ZXJtPTIyMDMwOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a=
+319a23cB58924e40" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> writes a tweet</a>=C2=A0and like eight people se=
+nd it to me asking =E2=80=9Cis this securities fraud?=E2=80=9D I cannot com=
+plain too much, there are definitely worse jobs and I have brought this upo=
+n myself, but it is not my <em>favorite=C2=A0</em>part of the job. Elon Mus=
+k is very good at writing tweets that are debatably, a little bit, maybe se=
+curities fraud, and the right way to respond to that is not to carefully pa=
+rse which tweets fall on which side of the line but <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/26954045.260607/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDMtMTIvZG9uLXQtdGFrZS1lbG9uLW11c2st=
+c28tc2VyaW91c2x5P2NtcGlkPUJCRDAzMDgyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMwOCZ1dG1fY2FtcGFpZ249bW9uZX=
+lzdHVmZg/607f07ceef4b8524a319a23cB54dec380" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> rather to say</a> =E2=
+=80=9Cthis is Elon Musk=E2=80=99s Twitter we are talking about here, it is =
+all gonna be pretty weird and you have to live with it.=E2=80=9D</p><p styl=
+e=3D"margin: 16px 0;">Except for that one tweet about having funding secure=
+d to take Tesla Inc. private, that one was <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/26954045.260607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMTgtMDgtMTMvZnVuZGluZy1mb3ItZWxvbi1tdXNrLXMtdGVzb=
+GEtYnV5b3V0LXdhc24tdC1zby1zZWN1cmU_Y21waWQ9QkJEMDMwODIyX01PTkVZU1RVRkYmdXRt=
+X21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzA4JnV0bV9=
+jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB1508e965" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> prett=
+y clearly securities fraud</a>, that was fun.</p><p style=3D"margin: 16px 0=
+;">It occurs to me that=C2=A0the U.S. Securities and Exchange Commission is=
+ in the same position as I am, vis-=C3=A0-vis Musk=E2=80=99s Twitter?</p><o=
+l style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">It is not really the SEC=E2=80=99s job=
+ to decide which of Musk=E2=80=99s tweets are securities fraud.</li>=09<li =
+style=3D"margin-bottom: 5px;">Except for the obvious big ones, like the =E2=
+=80=9Cfunding secured=E2=80=9D one, you gotta punish that, and <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/26954045.260607/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDktMjgvbXVzay1zLXRlc2xhL=
+WZ1bi1kb2VzLW5vdC1hbXVzZS1zZWM_Y21waWQ9QkJEMDMwODIyX01PTkVZU1RVRkYmdXRtX21l=
+ZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzA4JnV0bV9jYW1=
+wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB613fcffa" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">  the SEC =
+did</a>.</li>=09<li style=3D"margin-bottom: 5px;">Through some combination =
+of conscious enthusiasm and historical accident,=C2=A0the SEC has brought u=
+pon itself an expectation that it will parse all of Musk=E2=80=99s tweets.<=
+/li>=09<li style=3D"margin-bottom: 5px;">Perhaps it enjoys doing that but b=
+oy I doubt it.</li></ol><p style=3D"margin: 16px 0;"><a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/26954045.260607/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMDgvbXVzay1hc2tzLWp1ZGdlLWZvci1lbmQ=
+tdG8tY29uc2VudC1kZWNyZWUtd2l0aC1zZWMtb3Zlci10d2VldHM_Y21waWQ9QkJEMDMwODIyX0=
+1PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlc=
+m09MjIwMzA4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB0e1689=
+9d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Anyway</a>:=C2=A0</p><blockquote><p style=3D"margin: 16px 0;"=
+>Tesla Inc. Chief Executive Officer Elon Musk asked a judge to end the U.S.=
+ Securities and Exchange Commission=E2=80=99s oversight of his Twitter post=
+s under a 2018 agreement because he claims it is being used to =E2=80=9Ctra=
+mple=E2=80=9D his free speech rights.</p><p style=3D"margin: 16px 0;">Musk =
+also asked the judge to block an SEC subpoena for documents relating to the=
+ review of his tweets and his sale of stock and options, a court filing on =
+Tuesday showed. An SEC spokesperson didn=E2=80=99t immediately respond to a=
+ request for comment.=C2=A0</p><p style=3D"margin: 16px 0;">The SEC is inve=
+stigating whether Musk and his brother Kimbal violated securities laws when=
+ selling shares in the company late last year, according to a person famili=
+ar with the matter.</p></blockquote><p style=3D"margin: 16px 0;">Yeah look =
+if I were the SEC lawyer in charge of parsing Musk=E2=80=99s tweets I would=
+ be absolutely desperate to move on with my life. I concede that the questi=
+on of =E2=80=9Cwhether Musk and his brother Kimbal violated securities laws=
+ when selling shares in the company late last year=E2=80=9D is kind of an i=
+nteresting one =E2=80=94=C2=A0we <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/26954045.260607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjItMDMtMDEvbm9ib2R5LXdhbnRzLXJ1c3NpYW4tYXNzZXRzP2NtcGlkPUJ=
+CRDAzMDgyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dG=
+VyJnV0bV90ZXJtPTIyMDMwOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a3=
+19a23cC5b63e83b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> discussed it last week</a> =E2=80=94 and if I wor=
+ked at the SEC I would want to keep digging on that one. But I=E2=80=99d pr=
+obably let the consent decree go.=C2=A0</p><table class=3D"header" width=3D=
+"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Pyramid scheme</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Oh sure, <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/26954045.260607/aHR0cHM6Ly9yZWFscHlyYW1pZHNjaGV=
+tZS5jb20v/607f07ceef4b8524a319a23cBa6d848ed" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">sure</a>:</p><blockquo=
+te><p style=3D"margin: 16px 0;">Since time immemorial, there has been somet=
+hing undeniably awesome about gigantic pyramids. The Egyptians built them. =
+The Aztecs built them. Even corporations have built them. But a DAO has nev=
+er built a single one.</p><p style=3D"margin: 16px 0;">It=E2=80=99s time to=
+ change that.</p><p style=3D"margin: 16px 0;">We (Terran Robotics) are deve=
+loping a drone-based 3D printing system that deploys monolithic adobe, the =
+world=E2=80=99s lowest-cost building material.</p><p style=3D"margin: 16px =
+0;">By combining automation with low material costs, we can build an arbitr=
+arily large structure at a much lower cost than stone or concrete.</p><p st=
+yle=3D"margin: 16px 0;">The RealPyramidScheme DAO will decide collectively =
+on the design and location of the pyramid. The more we raise, the bigger it=
+ will be.</p><p style=3D"margin: 16px 0;">We project that costs will not ex=
+ceed $75/m=C2=B3. For reference, this translates to an absolute bargain of =
+roughly $200 million USD to build the largest pyramid on Earth (1.5 meters =
+taller than the Great Pyramid of Giza).</p><p style=3D"margin: 16px 0;">Let=
+=E2=80=99s build.</p></blockquote><p style=3D"margin: 16px 0;">Is this a jo=
+ke? I don=E2=80=99t know, and I don=E2=80=99t care much; many DAOs seem to =
+be jokes without that stopping them from being real. ConstitutionDAO never =
+bought the Constitution but it=E2=80=99s still kicking around. Sure, build =
+a pyramid, or at least raise a lot of money to talk about it.</p><table cla=
+ss=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">EU to Consider Massive <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/26954045.260607/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMDgvZXUtdG8tY29uc2lkZXItbWFz=
+c2l2ZS1qb2ludC1ib25kLXNhbGVzLXRvLWZ1bmQtZW5lcmd5LWRlZmVuc2U_Y21waWQ9QkJEMDM=
+wODIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdX=
+RtX3Rlcm09MjIwMzA4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23c=
+Bff408fd6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> Joint Bond Sales</a> to Fund Energy, Defense. Biden to =
+Sign <a href=3D"https://link.mail.bloombergbusiness.com/click/26954045.2606=
+07/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMDcvYmlk=
+ZW4tdG8tc2lnbi1jcnlwdG8tb3JkZXItYXMtaW5kdXN0cnktZmFjZXMtc2FuY3Rpb25zLXByZXN=
+zdXJlP2NtcGlkPUJCRDAzMDgyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdX=
+JjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMwOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/60=
+7f07ceef4b8524a319a23cB9d6d5694" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> Crypto Order</a> as Firms Face Sa=
+nctions Pressure.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/26954045.260607/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZDhjZWFlZTktYWFjNC=
+00MmI3LWI2OTgtYzNiZjJhNjE2ZjM2/607f07ceef4b8524a319a23cB3d397566" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Russia=E2=80=99s banks</a> turn from global ambitions to survival. JPMorgan=
+ to remove Russian debt from widely tracked <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/26954045.260607/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlb=
+nQvOTE1ZTA5YzktMzY5NC00NTlkLWEyNzEtYzI2MDc0ZGFhMjM1/607f07ceef4b8524a319a23=
+cB1193de6d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">bond indices</a>. Russian Threat to <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/26954045.260607/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMDgvZXVyb3BlYW4tZ2FzLWZ1dHVyZXMt=
+c3VyZ2UtYXMtcnVzc2lhLXRocmVhdGVucy10by1jdXQtZmxvd3M_Y21waWQ9QkJEMDMwODIyX01=
+PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm=
+09MjIwMzA4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB23876d9=
+d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Cut Gas</a> Sends European Market Into Frenzy. Ukrainians Ris=
+k Their Lives to Keep <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/26954045.260607/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy91a3JhaW5pYW5zLXJ=
+pc2stdGhlaXItbGl2ZXMtdG8ta2VlcC1ydXNzaWFuLWdhcy1mbG93aW5nLXRvLWV1cm9wZS0xMT=
+Y0NjczNTYxNg/607f07ceef4b8524a319a23cB0e12c767" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">Russian Gas</a> Flo=
+wing to Europe. =E2=80=98Brutal=E2=80=99 selling in <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/26954045.260607/aHR0cHM6Ly93d3cuZnQuY29tL=
+2NvbnRlbnQvNGFmNWM3OTYtYjhhNS00MDQ2LWJhZjQtYzljNzQxMTkyOWMy/607f07ceef4b852=
+4a319a23cB00b3e48e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">speculative tech stocks</a> knocks Tiger Cub =
+hedge funds. William Ackman Takes Stake in <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/26954045.260607/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2=
+xlcy9hY3RpdmlzdC13aWxsaWFtLWFja21hbi10YWtlcy1zdGFrZS1pbi1jYW5hZGlhbi1wYWNpZ=
+mljLTExNjQ2NjcxMjc4P21vZD1ocF9sZWFkX3BvczU/607f07ceef4b8524a319a23cB3b8cc95=
+0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Canadian Pacific</a>. Robinhood Plans <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/26954045.260607/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMDcvcm9iaW5ob29kLXBsYW5zLXNwZW5kaW5nL=
+WFjY291bnQtc2VydmljZS1hbG9uZ3NpZGUtbmV3LWNhc2gtY2FyZD9jbXBpZD1CQkQwMzA4MjJf=
+TU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGV=
+ybT0yMjAzMDgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB0cd50=
+020" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Spending Account Service</a> Alongside New Cash Card. NYC May=
+or Pleads with Goldman Bankers to <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/26954045.260607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjItMDMtMDgvYWRhbXMtdmlzaXRzLWdvbGRtYW4tYmFua2Vycy1ueWMtYmFycy=
+10by10b3V0LXJldHVybi10by1ub3JtYWw_Y21waWQ9QkJEMDMwODIyX01PTkVZU1RVRkYmdXRtX=
+21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzA4JnV0bV9j=
+YW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB233e2497" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> Come B=
+ack to Work</a>. =E2=80=9CWhat I wasn=E2=80=99t trying to say was that <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/26954045.260607/aHR0cH=
+M6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8wMy8wOC9idXNpbmVzcy9kZWFsYm9vay9ydXNzaWEtd=
+WtyYWluZS1udWNsZWFyLXdhci1pbnZlc3QuaHRtbA/607f07ceef4b8524a319a23cB88cab4c6=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">stocks were going to go up if there is a nuclear war</a>. Obvious=
+ly, they will go down.=E2=80=9D</p><p style=3D"margin: 16px 0;"><span class=
+=3D"news-designed-for-consumer-media"><em>If you'd like to get=C2=A0Money=
+=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0<a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/26954045.260607/aHR0cD=
+ovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1za=
+WdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a=
+319a23cB706c275b" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">subscribe at this lin=
+k</a>. Or you can subscribe to Money Stuff and other great Bloomberg newsle=
+tters <a href=3D"https://link.mail.bloombergbusiness.com/click/26954045.260=
+607/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a3=
+19a23cB995a962c" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">here</a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1=
+] Some people have a narrower view of what a short squeeze is: To sell a st=
+ock short, you have to borrow it, and the person who lends you the stock ca=
+n generally ask for it back at any time. The narrower definition of a short=
+ squeeze is that it is when borrow is recalled and short sellers are forced=
+ to buy back stock by their lending arrangements, not just by price moves. =
+This is not generally relevant in commodity markets where you don=E2=80=99t=
+ have to borrow to short.</em></p><p style=3D"margin: 16px 0;"><em>[2] You =
+could sell stock? Or commodities producers often have credit facilities tha=
+t lend to them against the value of their reserves, so if your reserves get=
+ more valuable you can borrow more, though this =E2=80=9C<a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/26954045.260607/aHR0cHM6Ly93d3cuamRz=
+dXByYS5jb20vbGVnYWxuZXdzL2luZHVzdHJ5LXdhcnktb2YtbmV4dC1yb3VuZC1vZi01MzE4Ny8=
+/607f07ceef4b8524a319a23cBbdd5d563" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">borrowing base redetermination<=
+/a>=E2=80=9D generally happens at fixed intervals, not continuously.=C2=A0<=
+/em></p><p style=3D"margin: 16px 0;"><em>[3] We have talked about this basi=
+c dynamic =E2=80=94=C2=A0fundamentally long producers getting caught out wh=
+en prices go up because their mark-to-market hedges move against them =E2=
+=80=94=C2=A0a few times, including about mortgage lenders <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/26954045.260607/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjAtMDMtMzAvbW9uZXktc3R1ZmYtbWFyZ2=
+luLWNhbGxzLWFyZS1jb21pbmctb24tYWxsLXNpZGVzP2NtcGlkPUJCRDAzMDgyMl9NT05FWVNUV=
+UZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMw=
+OCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB6930ee4f" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">hedging with mortgage-backed securities</a>=C2=A0and U.K. insurers buyin=
+g dollar bonds and <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/26954045.260607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLz=
+IwMjItMDItMTcvYnJpYmVyeS13b24tdC1tYWtlLXlvdS1hLWhlcm8_Y21waWQ9QkJEMDMwODIyX=
+01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rl=
+cm09MjIwMzA4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB02560=
+6c6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> hedging with swaps</a>.</em></p><p style=3D"margin: 16px 0;">=
+<em>[4] The Financial Times <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/26954045.260607/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMDI2OWNkZGEtZ=
+WY2Ny00M2M4LWI4MjAtYTkxOWM5MTliNWZh/607f07ceef4b8524a319a23cB78fe3954" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">reports that</a> =E2=80=9CPart of Tsingshan=E2=80=99s problem is they p=
+roduce the wrong type of nickel. They can=E2=80=99t deliver against the LME=
+ contract.=E2=80=9D Still, even the wrong type of nickel is probably worth =
+more now.</em></p><p style=3D"margin: 16px 0;"><em>[5] If you are an invest=
+or in multiple oil companies, and you urge them to cut production to keep p=
+rices high, is that =E2=80=A6=C2=A0you know =E2=80=A6=C2=A0<a href=3D"https=
+://link.mail.bloombergbusiness.com/click/26954045.260607/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMTItMDcvcmVndWxhdG9ycy1hc2sta=
+WYtaW5kZXgtZnVuZHMtYXJlLWJhZD9jbXBpZD1CQkQwMzA4MjJfTU9ORVlTVFVGRiZ1dG1fbWVk=
+aXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMDgmdXRtX2NhbXB=
+haWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB7a00b201" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">an antitrus=
+t concern</a>?</em></p><p style=3D"margin: 16px 0;"><em>[6] To be clear, a =
+decade ago a lot of oil drillers were in fact maximizing production growth,=
+ but that=E2=80=99s what shareholders wanted then; now they know better.</e=
+m></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26954045.260607/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB0fc3096d" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26954045.260607/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBf994d9c4" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26954045.260607/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBff73cf15" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26954045.260607/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBfaea5d92" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26954045.260607/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNjk1NDA0NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyMTQ2NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIb9435cea" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D26954045&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27214652&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2695404=
+5.260607/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB7b375a42" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26954045.260607/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCbba00003" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/26954045.260607/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBae87af3e" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26954045.260607/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBe7f52634" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26954045.260607/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB2=
+87d57fc" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26954045.260607/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB8=
+0c13ac6" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D269540=
+45&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27214652&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D269540=
+45&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27214652&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D269540=
+45&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27214652&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D269540=
+45&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27214652&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D269540=
+45&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27214652&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cg1pvh.5l33/8aa57a7d.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_10807407_536953673.1646765697887--
+

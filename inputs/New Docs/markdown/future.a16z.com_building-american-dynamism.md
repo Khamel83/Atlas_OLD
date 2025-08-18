@@ -1,0 +1,15 @@
+# Building American Dynamism | Future
+
+**URL:** https://future.a16z.com/building-american-dynamism/
+**Date:** 2022-01-15 08:19:46
+
+---
+
+# 
+
+Unknown author • Unknown date 
+
+![](https://web-static.archive.org/_static/images/archive.ico)
+
+The Wayback Machine requires your browser to support JavaScript, please email info@archive.org if you have any questions about this. 
+

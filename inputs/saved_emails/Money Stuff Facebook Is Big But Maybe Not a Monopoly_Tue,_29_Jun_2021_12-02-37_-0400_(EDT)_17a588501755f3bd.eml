@@ -1,0 +1,1682 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:4a8e:0:b029:110:b4b1:9693 with SMTP id q14csp3312245lkd;
+        Tue, 29 Jun 2021 09:05:49 -0700 (PDT)
+X-Received: by 2002:a17:907:1c0a:: with SMTP id nc10mr30552326ejc.294.1624982749271;
+        Tue, 29 Jun 2021 09:05:49 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1624982749; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=pESG4C/+XO/Ch/kfNlxj+ZNJZgOd1BKgPPZT4Hn/yYKKP8UsWrCwP8zY1b6Y0WGDOU
+         ohO2G8tEk3i2rHEDO3MjDEWWCQsNgqZPpXohMu3dv2GCdnNbXeBtgGC9Ywxxbk/u+XBQ
+         2AZ7fkVUHt4nMJypshaSaqJbrF6VM2X17tXYAGo0PUYD42fjQvWSieN/gSlhaBRvGjFY
+         QcJffHL3oexKZBlLXGPLXGDf28RdDAto66TQWRARbiTDFheRnPgMA+6kRwWH8B4klkyC
+         AU7AjbIXD2KKIexHP+YZQvu8SvwfIe4+jNFR5db9WF97XmUTyC3hkMcUyVqrdLxKCbfB
+         XSMg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=zGJ+tCo9b7lA+p1Ooo9hWSiWK2XoFm6s2oey943BNKo=;
+        b=jHAJYD2NUT+h2pED2dAUedWPXuRGYbLWPRs27bx9y373dOZenvtGhHI6kbGrO/2kHi
+         NS7mOtAcx4oJp/Vt8FGBWgTEmPv1bjW6sfgmcaSGS0OCI/jtQRv3jKGRP2CVY94zjDf7
+         g5CkG14QtqrTrZrp8liH42AWMbXI0DdXmUsd2NCo6FT/hUJ7CMvau1YZE8whXAZvGIwK
+         m4q0PWTOZ/zOaRwTae8EaeoaC94VNS2NFzb5nkPliEsyDGNZ4nW0SQ5GG/KetdRZPXEV
+         OTTIwck9R/3p+9I+rYbV6vAVdKSEO5KvoWnDMWUj5GgT+5HTJTwQmefbUfT03dXDrggO
+         SHOA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=bH7GiEBO;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id r23sor8693972edy.5.2021.06.29.09.05.49
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 29 Jun 2021 09:05:49 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=bH7GiEBO;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=zGJ+tCo9b7lA+p1Ooo9hWSiWK2XoFm6s2oey943BNKo=;
+        b=fLq71pv51z3Gz5kvc2/lxvnLyNOci9hgWEF0qsAPThV0HNOE0sV3ZOFRUk/2UKXouK
+         NEN39Yu/+Yo3S6JSxz6TOeTF1eq6fNN4Iwrlc8L829UxWI1hBYj0akCbBuNP8jlfK0jF
+         2xNHJDkTgeRvArzpmz/3TXvSplireZWMS9xSLbp9xApX/P6ei42UCBNU6psVtB38bh0h
+         DTTRC7x57VXf0Dclhb4uoHxk/YHNXU1E0wwkD8fzUOa/LS3A+6exn1Jq6lFlW0wG0ygg
+         If7/HCRhsvrpFS/VVEk88uWEbIGSTIr67ifYX8K0O1UL0TIJckVgZGagdXQpo1e7XuiR
+         6GGA==
+X-Gm-Message-State: AOAM530R0HddQT7yps6y6vhQo+ZsZeMMroobFRQd4MoobMqE3rPn1AuL
+	D2MIaDaNJ4h3nmXFtqN+lloM3c4lH8LKCT/uzkDkQP5vXx0PYQ0Gfw==
+X-Received: by 2002:a05:6402:1205:: with SMTP id c5mr28803985edw.68.1624982748891;
+        Tue, 29 Jun 2021 09:05:48 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:2c8f:0:0:0:0:0 with SMTP id h15csp953773ecp;
+        Tue, 29 Jun 2021 09:05:43 -0700 (PDT)
+X-Received: by 2002:a17:90a:94ca:: with SMTP id j10mr2634147pjw.208.1624982743435;
+        Tue, 29 Jun 2021 09:05:43 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1624982743; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=N9RafRgES5+jIFF1AxKfYFkPAGabTo8bhq/qfOg4utxoDWbUnd47cFXrto+ItF/+6s
+         pLDeLESGADfGeNB9toP3Xd3WLP5jaE1fmsKtR3nJeShRAzlfn3bUEUHBWK9erYpQEgKh
+         yX6FZMRVNK5cojT+RemtEIcHuFgaPljiO8cKiAaiZMQlWP81rDlWdbEhrV9bLOZOz8AJ
+         vyoo9pvQwMovWvbdU/8GTjq+0vDWdnM/Q6Vh31mDECTInIq70xHCNtd1r35hedJBhJIZ
+         S44PwomoNG7k4fPq/CUsKW9hrCCiT8q9s4ydRNY7T90ybtBsfzqhkBnOOwlD71Mk/2Rr
+         GYkQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=zGJ+tCo9b7lA+p1Ooo9hWSiWK2XoFm6s2oey943BNKo=;
+        b=by2x4leT/4XIx8OaQvP+WEaZBpp1ikuD0OC7QWpnmsK6DXtuGL3UEFwtBZUkvzI5Ju
+         cdS8S6b4iX+aH6u0VtUiS9Bosk7Gq3ApJzqQ01xpKLwBz7QBrCT8jKHld0//7ltBTfe7
+         EEE1Il1tWZcpI4FwgR7mih+hKqA4EUiq6IYtkmZCjtDXNz7aTtkkfh7NND1qIDnUPYDS
+         HIQIIeMEZ7IlbehxQ30LepHzGuiSHIyGNtDVAaQ6kUNWSrzjVGHVdgt+tpio3KXhoOl4
+         kwZAoBNSKLG3/Aod4r5DzTiQk5Dnr/rAIK4Js3jVxT11/wIWcpfoY1LbXGCjVAoUqHhJ
+         2Eqw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=bH7GiEBO;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210629120237.24305256.256930@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210629120237.24305256.256930@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210629120237.24305256.256930@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id n189sor8000744pga.55.2021.06.29.09.05.43
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 29 Jun 2021 09:05:43 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210629120237.24305256.256930@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJySDDF5x9Vti8UFX0zH5UulxWqYZ28uNfpuSdwQKjc697ddmPTdUa1VMX+hl4u8IkK6dL+lR47TDZNejtCG8Ndz0Tc8zNU=
+X-Received: by 2002:a65:4ccb:: with SMTP id n11mr21628918pgt.231.1624982742939;
+        Tue, 29 Jun 2021 09:05:42 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1624982742; cv=none;
+        d=google.com; s=arc-20160816;
+        b=U2H0qKOwsmyuRbiY6l9TfVntJjd3mSNloPY3YNVn1iUqch5dYoaoi0DJX0H6bdRaCF
+         Jha47IsA25B/SIiigaTFayuAW1SbvQRPR8rFPea8Qb5pLDCp3kqn4oJlTxsemV0PCKkR
+         yt1i3uwfRwUqQLg7lGmn4Y6hcxzhZFFpVP0oCTMGG5jrZdmCyufFtw3xzKChxnB4rNeC
+         8GdMEmH041uMKVJ31/l61avFA+QvLOLRT9xVuhu0x8UsMlt7+LFnAfJtwKp5mKT5f/nt
+         jX0LrEQ0ymo7pXM7WJbC5aJ1a6Rwi1m8HXjn3HaVVonazj3TuOoH26pZUtAMv+ctXZZi
+         SY2A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=zGJ+tCo9b7lA+p1Ooo9hWSiWK2XoFm6s2oey943BNKo=;
+        b=kK8fd88D7Y0HbjlbdamATwDOXj7cRhld7Q6W4RSr3LfsrJQKuZbZ6LOstrw7b6COPX
+         VTqIVhOVAI4odsRyxPUAOsLPckF4Y/XbcPnY1QxUGW5IU28s3ahih7+fmwIJ4OvEye8o
+         dmfY+IvNSEqRAJ0fgG6ixTJfXiw3MmBmwZRwcuVe3/FGjcZDhdFGiCk9Inmuc+lTAxuM
+         FnN6EZC8o9Yf1cb0DolwysbGVnbKnjA5mjR4rsrMsV3kK/3Cel/UGMeTK2Gz0m25dYEh
+         Tk7CvolI1rxi1u3wC1N7PfsIkhYJBXryBAMdNasF1WF9/3nWa2UIGO9voagZfKEA+QJO
+         ks6w==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=bH7GiEBO;
+       spf=pass (google.com: domain of delivery_20210629120237.24305256.256930@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210629120237.24305256.256930@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210629120237.24305256.256930@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id h17si1650795pfk.3.2021.06.29.09.05.42
+        for <khamel83@gmail.com>;
+        Tue, 29 Jun 2021 09:05:42 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210629120237.24305256.256930@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=yk8aDnMUvasLcQ9epOSv1fLJCCQ=;
+ b=bH7GiEBOhIFF4SQZuBGm23g/12+X8WW0C+FCWa1oGqhUwhAcD1VoL7n1Z09Vn2YWQn8VVwN6kJ4Q
+   Pr+fszXPCLx2eZmKxlBWVGYQZ+ys5vXKu8/PqWf1tYKqg+2trXejWrBt9Nd2R9JIG7JDtA05CiBK
+   4LCjQxSpp0n2G6u/OXM=
+Received: from njmta-20.sailthru.com (173.228.155.20) by bloomberg-b.sailthru.com id hrd2dc1qqbsi for <bloomberg@khamel.com>; Tue, 29 Jun 2021 12:05:42 -0400 (envelope-from <delivery_20210629120237.24305256.256930@mx.sailthru.com>)
+Received: from nj1-heypurple.flt (172.18.20.12) by njmta-20.sailthru.com id hrd2da1qqbsk for <bloomberg@khamel.com>; Tue, 29 Jun 2021 12:02:37 -0400 (envelope-from <delivery_20210629120237.24305256.256930@mx.sailthru.com>)
+Date: Tue, 29 Jun 2021 12:02:37 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210629120237.24305256.256930@sailthru.com>
+Subject: Money Stuff: Facebook Is Big But Maybe Not a Monopoly
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_20091317_2075990328.1624982557164"
+Precedence: bulk
+X-Feedback-ID: 6358:24305256:campaign:sailthru
+X-TM-ID: 20210629120237.24305256.256930
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-heypurple.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cegy20.5i8y/75c4fd58
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cegy20.5i8y/75c4fd58>, <mailto:unsubscribe_20210629120237.24305256.256930@mx.sailthru.com>
+X-rpcampaign: stjko24305256
+
+------=_Part_20091317_2075990328.1624982557164
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+       =20
+           =20
+               =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          FacebookYesterday a U.S. federal judge  dismissed two antitrust l=
+awsuits against Facebook Inc., brought by the U.S. Federal Trade Commission=
+ and a group of state attorneys general,=C2=A0claiming that it has a monopo=
+ly on social networking. Facebook investors celebrated by buying its stock =
+and pushing its market capitalization above $1 trillion, which is maybe a l=
+ittle on the nose? =E2=80=9CWhat, little old us, a=C2=A0monopoly? No, alas,=
+=C2=A0we=E2=80=99re just a=C2=A0scrappy little startup=C2=A0doing our best =
+to survive in this crazy world,=E2=80=9D Mark Zuckerberg could say, nervous=
+ly trying to stand between you and the ticker showing that his company is n=
+ow worth a trillion dollars. I dunno, doesn=E2=80=99t a trillion dollars=C2=
+=A0sound=C2=A0like a monopoly?Here=E2=80=99s the basic problem with the Fac=
+ebook case. To win an antitrust lawsuit, the government has to show that Fa=
+cebook has =E2=80=9Cmonopoly power=E2=80=9D in some relevant market. Monopo=
+ly power means, specifically, the ability to raise prices above a competiti=
+ve level. Here=E2=80=99s how the judge=E2=80=99s opinion puts the question[=
+1]:Monopoly power is the =E2=80=9Cthe power to control prices or exclude co=
+mpetition,=E2=80=9D such that a firm is a monopolist =E2=80=9Cif it can pro=
+fitably raise prices substantially above the competitive level.=E2=80=9D Wh=
+ere a plaintiff can provide direct proof that a =E2=80=9Cfirm has in fact p=
+rofitably done so, the existence of monopoly power is clear.=E2=80=9D Becau=
+se such proof is rare, however, plaintiffs and courts usually search for in=
+direct or =E2=80=9Ccircumstantial evidence=E2=80=9D of monopoly power by in=
+ferring it from =E2=80=9Ca firm=E2=80=99s possession of a dominant share of=
+ a relevant market.=E2=80=9D Because =E2=80=9C[m]arket power is meaningful =
+only if it is durable,=E2=80=9D a plaintiff proceeding by the indirect meth=
+od of providing a relevant market and share thereof must also show that the=
+re are =E2=80=9Cbarriers to entry=E2=80=9D into that market.=C2=A0Fine. Now=
+, what is the relevant market? The government argued, and the court accepte=
+d, that the market is =E2=80=9CPersonal Social Networking (PSN) Services.=
+=E2=80=9D I will not bother discussing the definition of this market becaus=
+e you probably get the gist of it. (Facebook objected that this is not a we=
+ll-defined market and that =E2=80=9Cit is =E2=80=98obvious that people=E2=
+=80=99 also know how to =E2=80=98connect and share with family and friends =
+. . . via many [other] technologies,=E2=80=99 such as =E2=80=98email, messa=
+ging, photo-sharing, and video-chats,=E2=80=99=E2=80=9D but never mind. Fac=
+ebook has  previously argued that it is not a monopoly because it competes =
+in =E2=80=9Cthe space of people connecting with other people,=E2=80=9D so i=
+ts competitors include, like, eating dinner with your friends.)So the quest=
+ion is: Does Facebook=E2=80=99s dominant position give it the power to=C2=
+=A0unilaterally jack up the price of social networking? The government woul=
+d have an easy time proving its case if it could point to examples of where=
+ Facebook=C2=A0had=C2=A0jacked up the price of, say, posting baby pictures =
+on your timeline. (=E2=80=9CWhere a plaintiff can provide direct proof that=
+ a =E2=80=98firm has in fact profitably done so, the existence of monopoly =
+power is clear.=E2=80=99=E2=80=9D) But of course it can=E2=80=99t, because =
+Facebook has never jacked up the price of posting on or looking at Facebook=
+ (or Instagram), because a basic feature of modern personal social networki=
+ng sites is that they are free and ad-supported.=C2=A0You could imagine an =
+alternate theory in which the government argued that Facebook had a monopol=
+y in online advertising (implausible), or in, like, =E2=80=9Conline adverti=
+sing on social networking sites=E2=80=9D (harder to argue that this is a re=
+levant antitrust market), and that it could use that power to jack up the p=
+rices it charges advertisers. That is, you might imagine the government arg=
+uing that Facebook does or could act like a monopolist toward its paying=C2=
+=A0customers (advertisers), rather than toward its non-paying social-networ=
+king customers. But the government does not argue those things.Instead it a=
+rgues that Facebook has such a dominant share in the personal social networ=
+king market that it=C2=A0is=C2=A0a monopolist, which I suppose means that i=
+t=C2=A0could=C2=A0raise prices if it wanted to. I don=E2=80=99t think that=
+=E2=80=99s a crazy argument; people obviously get a lot of utility out of s=
+ocial networking, and that utility largely comes from network effects, and =
+if Facebook started charging I am sure a lot of people would just pay its f=
+ees rather than try to switch to some other network that their friends aren=
+=E2=80=99t on. But the government has not done a very good job of making th=
+at argument. The judge writes:Although the Court, as just explained, finds =
+the contours of the asserted product market plausible, the Complaint is und=
+oubtedly light on specific factual allegations regarding consumer-switching=
+ preferences. Given that thin showing, and the fact that the PSN-services p=
+roduct market is somewhat =E2=80=9Cidiosyncratically drawn=E2=80=9D to begi=
+n with, the Court must demand something more robust from Plaintiff=E2=80=99=
+s market-share allegations. As it happens, however, those allegations are e=
+ven more tentative: the FTC alleges only that Facebook has =E2=80=9Cmaintai=
+ned a dominant share of the U.S. personal social networking market (in exce=
+ss of 60%)=E2=80=9D since 2011,=C2=A0 and that =E2=80=9Cno other social net=
+work of comparable scale exists in the United States.=E2=80=9D=C2=A0That is=
+ it. These allegations =E2=80=94 which do not even provide an estimated act=
+ual figure or range for Facebook=E2=80=99s market share at any point over t=
+he past ten years =E2=80=94 ultimately fall short of plausibly establishing=
+ that Facebook holds market power.=C2=A0=E2=80=A6Even accepting that merely=
+ alleging market share =E2=80=9Cin excess of 60%=E2=80=9D might sometimes b=
+e acceptable, it cannot suffice in this context, where Plaintiff does not e=
+ven allege what it is measuring. Indeed, in its Opposition the FTC expressl=
+y contends that it need not =E2=80=9Cspecify which=C2=A0. . . metrics . . .=
+ [or] =E2=80=98method=E2=80=99 [it] used to calculate Facebook=E2=80=99s [m=
+arket] share.=E2=80=9D=C2=A0 In a case involving a more typical goods marke=
+t, perhaps the Court might be able to reasonably infer how Plaintiff arrive=
+d at its calculations =E2=80=94 e.g., by proportion of total revenue or of =
+units sold. As the above market-definition analysis underscores, however, t=
+he market at issue here is unusual in a number of ways, including that the =
+products therein are not sold for a price, meaning that PSN services earn n=
+o direct revenue from users. The Court is thus unable to understand exactly=
+ what the agency=E2=80=99s =E2=80=9C60%-plus=E2=80=9D figure is even referr=
+ing to, let alone able to infer the underlying facts that might substantiat=
+e it.=C2=A0He concludes:The Court=E2=80=99s decision here does not rest on =
+some pleading technicality or arcane feature of antitrust law. Rather, the =
+existence of market power is at the heart of any monopolization claim. As t=
+he Supreme Court explained in Twombly, itself an antitrust case, =E2=80=9C[=
+A] district court must retain the power to insist upon some specificity in =
+pleading before allowing a potentially massive factual controversy to proce=
+ed.=E2=80=9D Here, this Court must exercise that power. The FTC=E2=80=99s C=
+omplaint says almost nothing concrete on the key question of how much power=
+ Facebook actually had, and still has, in a properly defined antitrust prod=
+uct market. It is almost as if the agency expects the Court to simply nod t=
+o the conventional wisdom that Facebook is a monopolist. After all, no one =
+who hears the title of the 2010 film =E2=80=9CThe Social Network=E2=80=9D w=
+onders which company it is about. Yet, whatever it may mean to the public, =
+=E2=80=9Cmonopoly power=E2=80=9D is a term of art under federal law with a =
+precise economic meaning: the=C2=A0power to profitably raise prices or excl=
+ude competition in a properly defined market. To merely allege that a defen=
+dant firm has somewhere over 60% share of an unusual, nonintuitive product =
+market =E2=80=94 the confines of which are only somewhat fleshed out and th=
+e players within which remain almost entirely unspecified =E2=80=94 is not =
+enough. The FTC has therefore fallen short of its pleading burden.That said=
+, the government=E2=80=99s position is=C2=A0not=C2=A0crazy, it=E2=80=99s ju=
+st not fleshed out, so the judge dismissed the complaint but suggested that=
+ the FTC should try again with a bit more specificity.[2] Perhaps the FTC w=
+ill re-file a complaint making clearer arguments that Facebook has market p=
+ower, and then it can move on to debate whether Facebook abused that power =
+by, for instance, excluding competitors.[3] Here at Bloomberg Opinion,  Tae=
+ Kim writes=C2=A0that =E2=80=9Cit shouldn=E2=80=99t be difficult for the ag=
+ency to come up with the required backup,=E2=80=9D and that =E2=80=9Cit=E2=
+=80=99s also likely any renewed legal action will be formidable.=E2=80=9DBu=
+t in some ways the most important sentence in the opinion is: =E2=80=9CIt i=
+s almost as if the agency expects the Court to simply nod to the convention=
+al wisdom that Facebook is a monopolist.=E2=80=9D It seems totally plausibl=
+e that:=09Facebook might not have a monopoly in social networking in the tr=
+aditional antitrust sense, in that it cannot unilaterally raise prices (fro=
+m zero) for posting baby pictures online,[4] but=09Facebook definitely has =
+a monopoly in social networking in some colloquial but important sense, in =
+that a ton of people spend a ton of time on Facebook products (Facebook, In=
+stagram, WhatsApp) and that gives Facebook enormous political and social an=
+d economic power, and some government regulator of corporate bigness =E2=80=
+=94=C2=A0some antitrust regulator =E2=80=94=C2=A0should have the ability to=
+ police that power.It is striking that one immediate widespread reaction to=
+ the Facebook ruling is that, if Facebook isn=E2=80=99t against the law,=C2=
+=A0we need to change the law. From the Wall Street Journal:University of Pe=
+nnsylvania law professor Herbert Hovenkamp said while the FTC likely has wa=
+ys it could amend its allegations to at least get its case out of the start=
+ing gate, Monday=E2=80=99s ruling would almost certainly increase calls in =
+Congress to pass new antitrust legislation.=E2=80=9CThis sends a signal tha=
+t the antitrust laws are not good enough,=E2=80=9D Mr. Hovenkamp said of th=
+e rulings. =E2=80=9CIt=E2=80=99s going to pour pretty cold water on the ide=
+a that the existing antitrust laws can do the job.=E2=80=9D Bloomberg:=E2=
+=80=9CIt=E2=80=99s not hard to look at these cases and come away with the s=
+ense that antitrust law, as it stands, is not capable of handling the probl=
+ems posed by dominant technology companies,=E2=80=9D said Blake Reid, a pro=
+fessor at the University of Colorado Law School.The New York Times:=E2=80=
+=9CToday=E2=80=99s development in the F.T.C.=E2=80=99s case against Faceboo=
+k shows that antitrust reform is urgently needed,=E2=80=9D said Representat=
+ive Ken Buck, a Republican from Colorado and a co-sponsor of the antitrust =
+bills. =E2=80=9CCongress needs to provide additional tools and resources to=
+ our antitrust enforcers to go after Big Tech companies engaging in anticom=
+petitive conduct.=E2=80=9DDealbook:The ruling is a blow to the antitrust mo=
+vement that is gaining momentum in Washington. The biggest takeaway from th=
+e case is this: The monopoly case against one of Big Tech=E2=80=99s key pla=
+yers is out of step with the law as currently written. What needs to be est=
+ablished is whether what Facebook is doing, as defined by the law and rulin=
+gs in other cases, is illegal. The answer seems to be no.The judge=E2=80=99=
+s ruling also added evidence for those who say the law is not up to the tas=
+k of keeping Big Tech in check.=C2=A0The theory is that dominant trillion-d=
+ollar tech companies might be bad even if they don=E2=80=99t =E2=80=94=C2=
+=A0even if they=C2=A0can=E2=80=99t=C2=A0=E2=80=94=C2=A0raise prices for con=
+sumers, that giant companies can have social and political and economic pow=
+er that is not captured by standard U.S. antitrust law=E2=80=99s focus on c=
+onsumer welfare. This theory is sometimes called=C2=A0=E2=80=9Chipster anti=
+trust,=E2=80=9D and its leading proponent is probably Lina Khan, who was sw=
+orn in as=C2=A0the chair of the FTC as of two weeks ago. I think Khan=E2=80=
+=99s FTC=C2=A0does=C2=A0kind of want=C2=A0=E2=80=9Cthe Court to simply nod =
+to the conventional wisdom that Facebook is a monopolist=E2=80=9D; I think =
+that a lot of people, including Khan, think=C2=A0that that conventional wis=
+dom captures something important, and that if our current antitrust law dis=
+agrees then the law is wrong.A tech business modelBack in the day, we used =
+to talk about the =E2=80=9CMoviePass economy,=E2=80=9D the idea that a lot =
+of startups were in the business of showing rapid user growth by using vent=
+ure capitalists=E2=80=99 money to subsidize consumers. The schematic model =
+was:=09Raise a million dollars from friends and family.=09Set up an app who=
+se only function was giving people $10 for signing up.=09A hundred people s=
+ign up the first month, word of the app gets out, and=C2=A099,900 sign up t=
+he second month.=09You have a large and enthusiastic user base with=C2=A0a =
+huge growth rate, things that venture capitalists love.=09Raise another $1 =
+billion from VCS at an enormous valuation, cashing out a few hundred millio=
+n dollars for the founders.=09Step 6 is a mystery.Obviously in practice it =
+rarely worked exactly=C2=A0this way; the trade was not =E2=80=9Cliterally h=
+and out $10 to customers=E2=80=9D but =E2=80=9Csell customers desirable goo=
+ds or services for well below cost, subsidized by VC money.=E2=80=9D And ob=
+viously the VCs would not describe it quite this way; they would say that y=
+ou are seeking user growth to achieve scale, and once you achieve that scal=
+e your unit costs will drop and you=E2=80=99ll become profitable.This econo=
+my is not what it used to be, for various reasons (the companies failed or =
+went public, they started raising prices to economic levels, etc.). But the=
+ principle is good. If you are a tech company and someone will just hand yo=
+u billions of dollars to pass along to users, you should be able to achieve=
+ rapid growth and a high valuation. =E2=80=9CBut it is not actually easy to=
+ hand out billions of dollars,=E2=80=9D you might say, =E2=80=9Cit requires=
+ good user-interface design and thoughtful attention to=C2=A0customer acqui=
+sition, and the U.S. payments system is complicated so you need to build an=
+ architecture to interface with banks to make the payments,=E2=80=9D but do=
+ you realize how absurd you sound? Yes right the execution of =E2=80=9Cjust=
+ hand out billions of dollars=E2=80=9D is complicated, but at its core it i=
+s a pretty simple business model. The main trick is finding someone to give=
+ you the billions of dollars.Last year the U.S. government decided to hand =
+out billions of dollars to businesses, in the form of forgivable government=
+-guaranteed loans=C2=A0under the Paycheck Protection Program. This created =
+a huge opportunity for tech companies:Two small companies came out of nowhe=
+re and, through an astute mix of technology and advertising =E2=80=94 and t=
+he dogged pursuit of an opportunity that big banks missed =E2=80=94 found a=
+ way to help those businesses. They also helped themselves. For their work,=
+ the companies stand to collect more than $3 billion in fees, according to =
+a New York Times analysis =E2=80=94 far more than any of the 5,200 particip=
+ating lenders.One of the companies, Blueacorn, didn=E2=80=99t exist before =
+the pandemic. The other, Womply, founded a decade ago, sold marketing softw=
+are. But this year, they became the breakout stars of the Paycheck Protecti=
+on Program, the government=E2=80=99s $800 billion relief effort for small b=
+usinesses. Between them, the two companies processed a third of all P.P.P. =
+loans made this year, the Times analysis found.For small PPP loans (under $=
+50,000), the government would pay banks fees of 50% of the loan amount, up =
+to a maximum of $2,500. That's pretty good for a loan with no credit risk! =
+But lots of banks are not really in the business of hunting down =E2=80=9Cu=
+nprofitable solo businesses=E2=80=9D to give them risk-free loans, because =
+that is not ordinarily a thing. So Blueacorn and Womply came along and said=
+, look, we are tech companies, we can set up a webpage, we can buy ads:=E2=
+=80=9CLiterally free money for those who qualify,=E2=80=9D a Blueacorn adve=
+rtisement on Facebook read. Womply banners adorned billboards and New York =
+City buses. =E2=80=9CGet up to $50,000 in PPP,=E2=80=9D read one. =E2=80=9C=
+Apply now!=E2=80=9DAnd by literally advertising literally free money, they =
+were able to sign up a bunch of customers, which (1) you might think would =
+be easy but (2) was apparently hard enough that no one else did it. And the=
+n they partnered with banks to get PPP loans for the customers, and they to=
+ok vast chunks of the banks=E2=80=99 fees for themselves, and now their fou=
+nders are dynastically wealthy from spending one year shoveling government =
+money to small businesses. I hope the founders use their billions to fund l=
+ibertarian think tanks and seasteads and cryptocurrency projects. =E2=80=9C=
+As self-made tech billionaires,=E2=80=9D they can say, =E2=80=9Cwe understa=
+nd the importance of entrepreneurship and cutting through government regula=
+tion and red tape, and we are concerned about America=E2=80=99s embrace of =
+socialism.=E2=80=9DI want to be clear that I have no problem with any of th=
+is. There was a genuine macroeconomic and, frankly, humanitarian problem th=
+at the U.S. government really wanted to solve: It wanted to rapidly pump ou=
+t billions of dollars to small businesses to keep the economy together duri=
+ng the Covid pandemic. Doing this, in turn, required=C2=A0certain loan-admi=
+nistration and business-evaluation skills that the government lacks but ban=
+ks have, so the government contracted the problem out to banks; it also req=
+uired solving certain user-interface and customer-acquisition problems that=
+ neither banks nor=C2=A0the government are great at, so=C2=A0they effective=
+ly contracted those problems out to some tech companies on a speculative ba=
+sis. The tech companies who solved the problems did an important service an=
+d=C2=A0got very rich. Still, another way to put it is that the U.S. governm=
+ent paid these people $3 billion to set up some websites and buy some bus a=
+ds, which feels, with the benefit of hindsight, weird.
+
+
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                               =20
+                               =20
+                               =20
+                           =20
+                       =20
+                       =20
+                           =20
+                               =20
+                                    Sponsored Content
+                                   =20
+Invest in world-changing startups on AngelList
+
+AngelList is the leading platform for early-stage venture investing.  Inves=
+t in experienced VCs that have backed Clubhouse, Notion, Pipe, and 77 other=
+ unicorns. Adjust your investment size as your goals evolve.
+
+                                    AngelList
+                               =20
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+CBDCsObviously if you were designing the world from first principles you mi=
+ght say, well, if the government wants to give people money, it should have=
+ a better way of doing that than hoping some tech companies will come along=
+ and think =E2=80=9Chey what if we advertised on buses?=E2=80=9D For instan=
+ce if everyone had an account with the central bank and the government said=
+ =E2=80=9Clet's put $10,000 into everyone=E2=80=99s account,=E2=80=9D that =
+would do a lot of the work of the PPP (not all, certainly) with roughly zer=
+o (incremental) administrative cost. In the actual world people have accoun=
+ts at different banks, and some of them don=E2=80=99t have bank accounts at=
+ all, and there's fraud and blah blah blah you end up paying $3 billion to =
+some tech companies for administering the program. But it is not hard to im=
+agine a world where everyone did have an account at a central bank and some=
+ of these problems were=C2=A0completely trivial.Here is a speech that Randa=
+l Quarles, the U.S. Federal Reserve=E2=80=99s vice chairman for supervision=
+, gave yesterday about central bank digital currencies (CBDCs). Like  me, Q=
+uarles hates the name: The U.S. dollar is already=C2=A0a digital currency.M=
+y first observation is that the general public already transacts mostly in =
+digital dollars=E2=80=94by sending and receiving electronic balances in our=
+ commercial bank accounts. These digital dollars are not a CBDC, because th=
+ey are liabilities of commercial banks rather than the Federal Reserve. Imp=
+ortantly, however, digital dollars at commercial banks are federally insure=
+d up to $250,000, which means that for deposits up to that amount=E2=80=94w=
+hich means for essentially all retail deposits in the United States=E2=80=
+=94they are as sound as a central bank liability.The Federal Reserve also p=
+rovides digital dollars directly to commercial banks and certain other fina=
+ncial institutions. Federal law allows these financial institutions to main=
+tain accounts with=E2=80=94and receive payments services from=E2=80=94the F=
+ederal Reserve. Balances in Federal Reserve accounts serve a vital financia=
+l stability function by providing a safe and liquid settlement asset for th=
+e U.S. economy.But the point is that the CBDC idea involves somehow disinte=
+rmediating the banks a bit:The key distinction is that, when most commentat=
+ors speculate about a Federal Reserve CBDC, they assume that it would be av=
+ailable to the general public directly from the central bank. A CBDC of thi=
+s nature could take different forms. One is an account-based model, in whic=
+h the Federal Reserve would provide individual accounts directly to the gen=
+eral public. Like the accounts that the Federal Reserve currently provides =
+to financial institutions, an accountholder would send and receive funds by=
+ debit or credit to their Federal Reserve account.A different CBDC model co=
+uld involve a CBDC that is not maintained in Federal Reserve accounts. This=
+ form of CBDC would be closer to a digital equivalent of cash. Like cash, i=
+t would represent a claim against the Federal Reserve, but it could potenti=
+ally be transferred from person to person (like a banknote) or through inte=
+rmediaries.Quarles doesn=E2=80=99t love the idea. He argues (correctly I th=
+ink) that a Fed CBDC is not actually necessary to defend the dollar=E2=80=
+=99s global dominance, and he thinks that cryptocurrency stablecoin project=
+s are not a threat to the dollar (or to financial stability) but  actually =
+a good idea. He is also not convinced that a CBDC would help with financial=
+ inclusion:A second broad argument raised by proponents of CBDCs is that a =
+Federal Reserve CBDC would improve access to digital payments for people wh=
+o currently do not keep bank accounts because of their expense, a lack of t=
+rust in banks, or other reasons. This is a worthwhile goal. However, I beli=
+eve we can promote financial inclusion more efficiently by taking steps to =
+make cheap, basic commercial bank accounts more available to people for who=
+m the current cost is burdensome, such as the Bank On accounts developed in=
+ collaboration between the Cities for Financial Empowerment Fund and many l=
+ocal coalitions.=C2=A0Between 2011 and 2019, the percentage of households t=
+hat are unbanked dropped from 8.2 percent to an estimated 5.4 percent.=C2=
+=A0Banks and regulators are working to shrink this percentage further still=
+. I am far from convinced that a CBDC is the best, or even an effective, me=
+thod to increase financial inclusion.I think it=E2=80=99s worth reading tha=
+t paragraph after the thing about Womply and Blueacorn:=C2=A0Is=C2=A0the cu=
+rrent banking system particularly good at getting small quantities of finan=
+cial services to people who need them?On the other hand, after reading the =
+Womply and Blueacorn story, you might sympathize with this:A final risk is =
+that developing a Federal Reserve CBDC could be expensive and difficult for=
+ the Federal Reserve to manage. A Federal Reserve CBDC could, in essence, s=
+et up the Federal Reserve as a retail bank to the general public. That woul=
+d mean introducing large-scale, resource-intensive central bank infrastruct=
+ure. We will need to consider whether the potential use cases for a CBDC ju=
+stify such costs and expansion of the Federal Reserve's responsibilities in=
+to unfamiliar activities, together with the risk of politicization of the F=
+ed's mandate that would come with such an expansion.The Fed is in the busin=
+ess of providing an electronic ledger where a relatively small number of re=
+latively sophisticated banks and institutions can keep their dollars. Getti=
+ng into the business of providing an electronic ledger where millions of re=
+gular people can keep their dollars would require different skills, and tho=
+se skills are not, in practice, trivial. You gotta run bus ads, and tell pe=
+ople how to reset their passwords if they forget. Plus there is money laund=
+ering:Critically, we also would need to ensure that a CBDC does not facilit=
+ate illicit activity. The Bank Secrecy Act currently requires that commerci=
+al banks take steps to guard against money laundering.=C2=A0Policymakers wi=
+ll need to consider whether a similar anti-money-laundering regime would be=
+ feasible for a Federal Reserve CBDC, but it may be challenging to design a=
+ CBDC that respects individuals' privacy while appropriately minimizing the=
+ risk of money laundering.=C2=A0It would be kind of amazing if the Fed got =
+in trouble for helping criminals. Obviously the U.S. currency system =E2=80=
+=9Cfacilitates illicit activity=E2=80=9D all the time; if you want to sell =
+drugs or whatever, doing it for cash has long been the=C2=A0way to go.=C2=
+=A0But there is some deniability there: The government issues the cash, but=
+ nobody=C2=A0expects=C2=A0it to keep track of where it all goes; if thousan=
+ds of $100 bills end up in the pockets of drug dealers that is just how cas=
+h works. If you=E2=80=99re designing a new central bank digital currency fr=
+om scratch that might be controversial.Great JonesIf you are a young person=
+ trying to get by in the big city, and you get a great job at a company tha=
+t you love, and you do your best and work hard through lots of tough times,=
+ and=C2=A0then you learn that you are about to be fired, what should you do=
+? There is one ideal and perfect=C2=A0answer, which is that you should have=
+ your father buy the company,=C2=A0give you your job back, and then wreak t=
+errible vengeance on all those who doubted you. If your father does not hav=
+e the money to buy your company, that is unfortunate for you, because this =
+really is the way to go. Also of course if the company declines your father=
+=E2=80=99s money =E2=80=94=C2=A0to avoid the terrible vengeance, etc. =E2=
+=80=94=C2=A0then that=E2=80=99s a bummer.At Insider, Anna Silman has a stor=
+y of the =E2=80=9CMutiny at Great Jones: How a cofounder war led every empl=
+oyee to quit Instagram's trendiest cookware company.=E2=80=9D The apparent =
+hero of the story is co-founder Maddy Moelis, daughter of =E2=80=9Cmultimil=
+lionaire real-estate mogul and affordable-housing developer=E2=80=9D Ron Mo=
+elis and niece of Moelis & Co. founder Ken Moelis; the apparent villain is =
+the other co-founder, Sierra Tishgart. Tishgart succeeded in pushing Moelis=
+ out of the company (though she =E2=80=9Cis still a board member and major =
+equity holder in Great Jones=E2=80=9D), but they came very=C2=A0close to th=
+e amazing outcome:Then, in May, a cryptic offer appeared from a group of ex=
+isting and new investors calling themselves GJ Ventures. They asked for two=
+ board seats in exchange for cash and requested that both Tishgart and Moel=
+is stay with the company. Moelis pushed hard for Great Jones to consider th=
+e offer. But when Tishgart looked up the company and discovered Moelis' fat=
+her had close ties to the individual fronting GJ Ventures, the board stonew=
+alled Moelis. According to documents reviewed by Insider, it was believed t=
+hat Moelis was obscuring a conflict of interest around her family's suspect=
+ed involvement. A person close to the company described the bid as Ron Moel=
+is' "ham-handed effort to secretly take control of the board."=C2=A0But an =
+individual close to Maddy Moelis strongly contested this characterization. =
+While the Moelises would have put in money had the bid gone through, the pe=
+rson said, Maddy Moelis was simply attempting to get funding and to secure =
+competent board members for a company that badly needed them.=C2=A0I am goi=
+ng to ignore her denials=C2=A0and assume that the plan was =E2=80=9Cterribl=
+e vengeance=E2=80=9D; certainly that would be my plan!Also Albert Burneko p=
+oints out that losing all of its employees did not impede Great Jones=E2=80=
+=99s ability to make cookware, because it was never actually in the busines=
+s of making cookware:The absolute most generous true description you can ap=
+ply to Great Jones is that it conducts arbitrage on cheap pastel-colored co=
+okware with flimsy enamel cladding, made by other companies with less robus=
+t brands. But the truest thing you can say is that Great Jones, like so man=
+y other companies, is a skimming operation: It launders somebody else=E2=80=
+=99s actual manufacture through its own aggressive branding, and takes a cu=
+t of the proceeds. The company can have the best quarter of its existence d=
+espite having no full-time employees, despite having literally no capacity =
+to do anything other than exist as a legal fiction, because it never actual=
+ly did anything. Anything! It never did anything.Things happenWall Street  =
+Funnels Cash to Investors After Stress-Test Success. Benchmark=E2=80=99s VC=
+ Model Strained by Newcomers, Supersize Rivals. Cathie Wood Wants to Put Ar=
+k=E2=80=99s Name on  ETF Tracking Bitcoin. Accounting Regulator Had Climate=
+ of Fear and Distrust, Report Says. NBA Star Risks Billions for Failing to =
+ Diversify Executive Ranks.=C2=A0Homeowners Behind on Mortgages to Be Offer=
+ed Help, U.S. Agency Says. Where Did  Marcos Hide His $10 Billion Fortune? =
+Binance customers frozen out of withdrawals via key UK payment network. The=
+ Family Behind the  Covid Bleach Cure Was Making a Fortune. Robot Bassinet =
+Company Eyes New Funding to Power Growth.=C2=A0Baton Rouge family surprised=
+ by $50B mistaken deposit.If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0i=
+n handy email form, right in your inbox, please=C2=A0subscribe at this link=
+. Or you can subscribe to Money Stuff and other great Bloomberg newsletters=
+ here. Thanks![1] Citations omitted in all quotes from the court opinion in=
+ this section.[2] In addition to the FTC, a group of state attorneys genera=
+l also sued Facebook, and the judge dismissed that case a bit more emphatic=
+ally, =E2=80=9Clargely on the grounds that the attorneys general waited too=
+ long to bring their claims.=E2=80=9D[3] Which is also=C2=A0a complicated q=
+uestion that I will ignore here, though I note that the judge advised the F=
+TC that one of its claims of abuse of power won=E2=80=99t work.[4] Again, t=
+o be clear, it *might* have the power to do so, I don=E2=80=99t know. I thi=
+nk either argument is plausible.=C2=A0
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cegy20.5i8y/e0cb9ab4.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_20091317_2075990328.1624982557164
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24305256.256930/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cB52ebdbb7"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tr>
+<td width=3D"206" align=3D"center" class=3D"sponsored-ad-container" style=
+=3D"padding-top: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24305256.256930/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cB6189a94=
+6">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" style=3D"display: block;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Facebook</h2><p style=3D"margin: 16px 0;">Yesterday a U.S. federal ju=
+dge <a href=3D"https://link.mail.bloombergbusiness.com/click/24305256.25693=
+0/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMjgvZmFjZ=
+WJvb2std2lucy1kaXNtaXNzYWwtb2YtdS1zLXN0YXRlcy1tb25vcG9seS1sYXdzdWl0cw/607f0=
+7ceef4b8524a319a23cB95ee9ce9" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> dismissed two antitrust lawsuits</a> against Facebook =
+Inc., brought by the U.S. Federal Trade Commission and a group of state att=
+orneys general,=C2=A0claiming that it has a monopoly on social networking. =
+Facebook investors celebrated by buying its stock and pushing its market ca=
+pitalization above $1 trillion, which is maybe a little on the nose? =E2=80=
+=9CWhat, little old us, a=C2=A0<em>monopoly</em>? No, alas,=C2=A0we=E2=80=
+=99re just a=C2=A0scrappy little startup=C2=A0doing our best to survive in =
+this crazy world,=E2=80=9D Mark Zuckerberg could say, nervously trying to s=
+tand between you and the ticker showing that his company is now worth a tri=
+llion dollars. I dunno, doesn=E2=80=99t a trillion dollars=C2=A0<em>sound=
+=C2=A0</em>like a monopoly?</p><p style=3D"margin: 16px 0;">Here=E2=80=99s =
+the basic problem with the Facebook case. To win an antitrust lawsuit, the =
+government has to show that Facebook has =E2=80=9Cmonopoly power=E2=80=9D i=
+n some relevant market. Monopoly power means, specifically, the ability to =
+raise prices above a competitive level. Here=E2=80=99s how <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/24305256.256930/aHR0cHM6Ly9zdG9yYW=
+dlLmNvdXJ0bGlzdGVuZXIuY29tL3JlY2FwL2dvdi51c2NvdXJ0cy5kY2QuMjI0OTIxL2dvdi51c=
+2NvdXJ0cy5kY2QuMjI0OTIxLjczLjAucGRm/607f07ceef4b8524a319a23cB84193f76" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">the judge=E2=
+=80=99s opinion</a> puts the question[1]:</p><blockquote><p style=3D"margin=
+: 16px 0;">Monopoly power is the =E2=80=9Cthe power to control prices or ex=
+clude competition,=E2=80=9D such that a firm is a monopolist =E2=80=9Cif it=
+ can profitably raise prices substantially above the competitive level.=E2=
+=80=9D Where a plaintiff can provide direct proof that a =E2=80=9Cfirm has =
+in fact profitably done so, the existence of monopoly power is clear.=E2=80=
+=9D Because such proof is rare, however, plaintiffs and courts usually sear=
+ch for indirect or =E2=80=9Ccircumstantial evidence=E2=80=9D of monopoly po=
+wer by inferring it from =E2=80=9Ca firm=E2=80=99s possession of a dominant=
+ share of a relevant market.=E2=80=9D Because =E2=80=9C[m]arket power is me=
+aningful only if it is durable,=E2=80=9D a plaintiff proceeding by the indi=
+rect method of providing a relevant market and share thereof must also show=
+ that there are =E2=80=9Cbarriers to entry=E2=80=9D into that market.=C2=A0=
+</p></blockquote><p style=3D"margin: 16px 0;">Fine. Now, what is the releva=
+nt market? The government argued, and the court accepted, that the market i=
+s =E2=80=9CPersonal Social Networking (PSN) Services.=E2=80=9D I will not b=
+other discussing the definition of this market because you probably get the=
+ gist of it. (Facebook objected that this is not a well-defined market and =
+that =E2=80=9Cit is =E2=80=98obvious that people=E2=80=99 also know how to =
+=E2=80=98connect and share with family and friends . . . via many [other] t=
+echnologies,=E2=80=99 such as =E2=80=98email, messaging, photo-sharing, and=
+ video-chats,=E2=80=99=E2=80=9D but never mind. Facebook has <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/24305256.256930/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDctMzAva29kYWstaXMtcmVsZXZ=
+hbnQtYWdhaW4/607f07ceef4b8524a319a23cBd68da529" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> previously argued</a> that it is not=
+ a monopoly because it competes in =E2=80=9Cthe space of people connecting =
+with other people,=E2=80=9D so its competitors include, like, eating dinner=
+ with your friends.)</p><p style=3D"margin: 16px 0;">So the question is: Do=
+es Facebook=E2=80=99s dominant position give it the power to=C2=A0unilatera=
+lly jack up the price of social networking? The government would have an ea=
+sy time proving its case if it could point to examples of where Facebook=C2=
+=A0<em>had=C2=A0</em>jacked up the price of, say, posting baby pictures on =
+your timeline. (=E2=80=9CWhere a plaintiff can provide direct proof that a =
+=E2=80=98firm has in fact profitably done so, the existence of monopoly pow=
+er is clear.=E2=80=99=E2=80=9D) But of course it can=E2=80=99t, because Fac=
+ebook has never jacked up the price of posting on or looking at Facebook (o=
+r Instagram), because a basic feature of modern personal social networking =
+sites is that they are free and ad-supported.=C2=A0</p><p style=3D"margin: =
+16px 0;">You could imagine an alternate theory in which the government argu=
+ed that Facebook had a monopoly in online advertising (implausible), or in,=
+ like, =E2=80=9Conline advertising on social networking sites=E2=80=9D (har=
+der to argue that this is a relevant antitrust market), and that it could u=
+se that power to jack up the prices it charges advertisers. That is, you mi=
+ght imagine the government arguing that Facebook does or could act like a m=
+onopolist toward its <em>paying=C2=A0</em>customers (advertisers), rather t=
+han toward its non-paying social-networking customers. But the government d=
+oes not argue those things.</p><p style=3D"margin: 16px 0;">Instead it argu=
+es that Facebook has such a dominant share in the personal social networkin=
+g market that it=C2=A0<em>is</em>=C2=A0a monopolist, which I suppose means =
+that it=C2=A0<em>could=C2=A0</em>raise prices if it wanted to. I don=E2=80=
+=99t think that=E2=80=99s a crazy argument; people obviously get a lot of u=
+tility out of social networking, and that utility largely comes from networ=
+k effects, and if Facebook started charging I am sure a lot of people would=
+ just pay its fees rather than try to switch to some other network that the=
+ir friends aren=E2=80=99t on. But the government has not done a very good j=
+ob of making that argument. The judge writes:</p><blockquote><p style=3D"ma=
+rgin: 16px 0;">Although the Court, as just explained, finds the contours of=
+ the asserted product market plausible, the Complaint is undoubtedly light =
+on specific factual allegations regarding consumer-switching preferences. G=
+iven that thin showing, and the fact that the PSN-services product market i=
+s somewhat =E2=80=9Cidiosyncratically drawn=E2=80=9D to begin with, the Cou=
+rt must demand something more robust from Plaintiff=E2=80=99s market-share =
+allegations. As it happens, however, those allegations are even more tentat=
+ive: the FTC alleges only that Facebook has =E2=80=9Cmaintained a dominant =
+share of the U.S. personal social networking market (in excess of 60%)=E2=
+=80=9D since 2011,=C2=A0 and that =E2=80=9Cno other social network of compa=
+rable scale exists in the United States.=E2=80=9D=C2=A0That is it. These al=
+legations =E2=80=94 which do not even provide an estimated actual figure or=
+ range for Facebook=E2=80=99s market share at any point over the past ten y=
+ears =E2=80=94 ultimately fall short of plausibly establishing that Faceboo=
+k holds market power.=C2=A0=E2=80=A6</p><p style=3D"margin: 16px 0;">Even a=
+ccepting that merely alleging market share =E2=80=9Cin excess of 60%=E2=80=
+=9D might sometimes be acceptable, it cannot suffice in this context, where=
+ Plaintiff does not even allege what it is measuring. Indeed, in its Opposi=
+tion the FTC expressly contends that it need not =E2=80=9Cspecify which=C2=
+=A0. . . metrics . . . [or] =E2=80=98method=E2=80=99 [it] used to calculate=
+ Facebook=E2=80=99s [market] share.=E2=80=9D=C2=A0 In a case involving a mo=
+re typical goods market, perhaps the Court might be able to reasonably infe=
+r how Plaintiff arrived at its calculations =E2=80=94 e.g., by proportion o=
+f total revenue or of units sold. As the above market-definition analysis u=
+nderscores, however, the market at issue here is unusual in a number of way=
+s, including that the products therein are not sold for a price, meaning th=
+at PSN services earn no direct revenue from users. The Court is thus unable=
+ to understand exactly what the agency=E2=80=99s =E2=80=9C60%-plus=E2=80=9D=
+ figure is even referring to, let alone able to infer the underlying facts =
+that might substantiate it.=C2=A0</p></blockquote><p style=3D"margin: 16px =
+0;">He concludes:</p><blockquote><p style=3D"margin: 16px 0;">The Court=E2=
+=80=99s decision here does not rest on some pleading technicality or arcane=
+ feature of antitrust law. Rather, the existence of market power is at the =
+heart of any monopolization claim. As the Supreme Court explained in Twombl=
+y, itself an antitrust case, =E2=80=9C[A] district court must retain the po=
+wer to insist upon some specificity in pleading before allowing a potential=
+ly massive factual controversy to proceed.=E2=80=9D Here, this Court must e=
+xercise that power. The FTC=E2=80=99s Complaint says almost nothing concret=
+e on the key question of how much power Facebook actually had, and still ha=
+s, in a properly defined antitrust product market. It is almost as if the a=
+gency expects the Court to simply nod to the conventional wisdom that Faceb=
+ook is a monopolist. After all, no one who hears the title of the 2010 film=
+ =E2=80=9CThe Social Network=E2=80=9D wonders which company it is about. Ye=
+t, whatever it may mean to the public, =E2=80=9Cmonopoly power=E2=80=9D is =
+a term of art under federal law with a precise economic meaning: the=C2=A0p=
+ower to profitably raise prices or exclude competition in a properly define=
+d market. To merely allege that a defendant firm has somewhere over 60% sha=
+re of an unusual, nonintuitive product market =E2=80=94 the confines of whi=
+ch are only somewhat fleshed out and the players within which remain almost=
+ entirely unspecified =E2=80=94 is not enough. The FTC has therefore fallen=
+ short of its pleading burden.</p></blockquote><p style=3D"margin: 16px 0;"=
+>That said, the government=E2=80=99s position is=C2=A0<em>not=C2=A0</em>cra=
+zy, it=E2=80=99s just not fleshed out, so the judge dismissed the complaint=
+ but suggested that the FTC should try again with a bit more specificity.[2=
+] Perhaps the FTC will re-file a complaint making clearer arguments that Fa=
+cebook has market power, and then it can move on to debate whether Facebook=
+ abused that power by, for instance, excluding competitors.[3] Here at Bloo=
+mberg Opinion, <a href=3D"https://link.mail.bloombergbusiness.com/click/243=
+05256.256930/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMj=
+EtMDYtMjgvZmFjZWJvb2stcy1jbGltYi10by0xLXRyaWxsaW9uLW5lZWRzLWFuLWFzdGVyaXNr/=
+607f07ceef4b8524a319a23cB31e1f90c" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> Tae Kim writes</a>=C2=A0that =E2=80=9Cit shouldn=
+=E2=80=99t be difficult for the agency to come up with the required backup,=
+=E2=80=9D and that =E2=80=9Cit=E2=80=99s also likely any renewed legal acti=
+on will be formidable.=E2=80=9D</p><p style=3D"margin: 16px 0;">But in some=
+ ways the most important sentence in the opinion is: =E2=80=9CIt is almost =
+as if the agency expects the Court to simply nod to the conventional wisdom=
+ that Facebook is a monopolist.=E2=80=9D It seems totally plausible that:</=
+p><ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0=
+;">=09<li style=3D"margin-bottom: 5px;">Facebook might not have a monopoly =
+in social networking in the traditional antitrust sense, in that it cannot =
+unilaterally raise prices (from zero) for posting baby pictures online,[4] =
+but</li>=09<li style=3D"margin-bottom: 5px;">Facebook definitely has a mono=
+poly in social networking in some colloquial but important sense, in that a=
+ ton of people spend a ton of time on Facebook products (Facebook, Instagra=
+m, WhatsApp) and that gives Facebook enormous political and social and econ=
+omic power, and some government regulator of corporate bigness =E2=80=94=C2=
+=A0some antitrust regulator =E2=80=94=C2=A0should have the ability to polic=
+e that power.</li></ol><p style=3D"margin: 16px 0;">It is striking that one=
+ immediate widespread reaction to the Facebook ruling is that, if Facebook =
+isn=E2=80=99t against the law,=C2=A0we need to change the law. From <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24305256.256930/aHR0cHM6L=
+y93d3cud3NqLmNvbS9hcnRpY2xlcy9mZWRlcmFsLWp1ZGdlLWRpc21pc3Nlcy1nb3Zlcm5tZW50=
+LWFudGl0cnVzdC1sYXdzdWl0cy1hZ2FpbnN0LWZhY2Vib29rLTExNjI0OTA3NzQ3P21vZD1ocF9=
+sZWFkX3BvczQ/607f07ceef4b8524a319a23cB10b47c34" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">the Wall Street Journal</a>:</p><bloc=
+kquote><p style=3D"margin: 16px 0;">University of Pennsylvania law professo=
+r Herbert Hovenkamp said while the FTC likely has ways it could amend its a=
+llegations to at least get its case out of the starting gate, Monday=E2=80=
+=99s ruling would almost certainly increase calls in Congress to pass new a=
+ntitrust legislation.</p><p style=3D"margin: 16px 0;">=E2=80=9CThis sends a=
+ signal that the antitrust laws are not good enough,=E2=80=9D Mr. Hovenkamp=
+ said of the rulings. =E2=80=9CIt=E2=80=99s going to pour pretty cold water=
+ on the idea that the existing antitrust laws can do the job.=E2=80=9D</p><=
+/blockquote><p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/24305256.256930/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9u=
+ZXdzL2FydGljbGVzLzIwMjEtMDYtMjkvc2F2aW5nLWZhY2Vib29rLWNhc2UtZmFsbHMtdG8tdGV=
+jaC1mb2Uta2hhbi1pbi1maXJzdC10ZXN0LWF0LWZ0Yw/607f07ceef4b8524a319a23cB2cc173=
+2c" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> Bloom=
+berg</a>:</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=9CIt=E2=80=99s=
+ not hard to look at these cases and come away with the sense that antitrus=
+t law, as it stands, is not capable of handling the problems posed by domin=
+ant technology companies,=E2=80=9D said Blake Reid, a professor at the Univ=
+ersity of Colorado Law School.</p></blockquote><p style=3D"margin: 16px 0;"=
+>The <a href=3D"https://link.mail.bloombergbusiness.com/click/24305256.2569=
+30/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wNi8yOC90ZWNobm9sb2d5L2ZhY2Vib29r=
+LWZ0Yy1sYXdzdWl0Lmh0bWw/607f07ceef4b8524a319a23cB6a38c22c" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;">New York Times</a>:</p><bl=
+ockquote><p style=3D"margin: 16px 0;">=E2=80=9CToday=E2=80=99s development =
+in the F.T.C.=E2=80=99s case against Facebook shows that antitrust reform i=
+s urgently needed,=E2=80=9D said Representative Ken Buck, a Republican from=
+ Colorado and a co-sponsor of the antitrust bills. =E2=80=9CCongress needs =
+to provide additional tools and resources to our antitrust enforcers to go =
+after Big Tech companies engaging in anticompetitive conduct.=E2=80=9D</p><=
+/blockquote><p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/24305256.256930/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAy=
+MS8wNi8yOS9idXNpbmVzcy9kZWFsYm9vay9mYWNlYm9vay1hbnRpdHJ1c3QtZnRjLmh0bWw/607=
+f07ceef4b8524a319a23cBa77b59f9" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">Dealbook</a>:</p><blockquote><p style=3D"margin: 16px=
+ 0;">The ruling is a blow to the antitrust movement that is gaining momentu=
+m in Washington. The biggest takeaway from the case is this: The monopoly c=
+ase against one of Big Tech=E2=80=99s key players is out of step with the l=
+aw as currently written. What needs to be established is whether what Faceb=
+ook is doing, as defined by the law and rulings in other cases, is illegal.=
+ The answer seems to be no.</p><p style=3D"margin: 16px 0;">The judge=E2=80=
+=99s ruling also added evidence for those who say the law is not up to the =
+task of keeping Big Tech in check.=C2=A0</p></blockquote><p style=3D"margin=
+: 16px 0;">The theory is that dominant trillion-dollar tech companies might=
+ be bad even if they don=E2=80=99t =E2=80=94=C2=A0even if they=C2=A0<em>can=
+=E2=80=99t=C2=A0</em>=E2=80=94=C2=A0raise prices for consumers, that giant =
+companies can have social and political and economic power that is not capt=
+ured by standard U.S. antitrust law=E2=80=99s focus on consumer welfare. Th=
+is theory is sometimes called=C2=A0=E2=80=9Chipster antitrust,=E2=80=9D and=
+ its leading proponent is <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/24305256.256930/aHR0cHM6Ly93d3cudGhlYXRsYW50aWMuY29tL21hZ2F6aW5lL2F=
+yY2hpdmUvMjAxOC8wNy9saW5hLWtoYW4tYW50aXRydXN0LzU2MTc0My8/607f07ceef4b8524a3=
+19a23cB039375c7" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">probably Lina Khan</a>, who <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/24305256.256930/aHR0cHM6Ly93d3cuZnRjLmdvdi9hYm91dC1mdGMvYm=
+lvZ3JhcGhpZXMvbGluYS1raGFu/607f07ceef4b8524a319a23cB3621298c" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">was sworn in as=C2=A0th=
+e chair of the FTC</a> as of two weeks ago. I think Khan=E2=80=99s FTC=C2=
+=A0<em>does=C2=A0</em>kind of want=C2=A0=E2=80=9Cthe Court to simply nod to=
+ the conventional wisdom that Facebook is a monopolist=E2=80=9D; I think th=
+at a lot of people, including Khan, think=C2=A0that that conventional wisdo=
+m captures something important, and that if our current antitrust law disag=
+rees then the law is wrong.</p><h2 style=3D"font-weight: bold; font-family:=
+ &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: -1p=
+x; font-size: 20px; border-bottom-width: 1px; border-bottom-style: dotted; =
+margin: 0px; padding: 16px 0px 5px;">A tech business model</h2><p style=3D"=
+margin: 16px 0;">Back in the day, we used to talk about the =E2=80=9C<a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/24305256.256930/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjEtMDYtMDgvbW9uZXktc3R=
+1ZmYtbW92aWVwYXNzLWNoYW5nZWQtc29tZS1wYXNzd29yZHM/607f07ceef4b8524a319a23cB2=
+c0e863a" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;">M=
+oviePass economy</a>,=E2=80=9D the idea that a lot of startups were in the =
+business of showing rapid user growth by using venture capitalists=E2=80=99=
+ money to subsidize consumers. The schematic model was:</p><ol style=3D"lis=
+t-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D=
+"margin-bottom: 5px;">Raise a million dollars from friends and family.</li>=
+=09<li style=3D"margin-bottom: 5px;">Set up an app whose only function was =
+giving people $10 for signing up.</li>=09<li style=3D"margin-bottom: 5px;">=
+A hundred people sign up the first month, word of the app gets out, and=C2=
+=A099,900 sign up the second month.</li>=09<li style=3D"margin-bottom: 5px;=
+">You have a large and enthusiastic user base with=C2=A0a huge growth rate,=
+ things that venture capitalists love.</li>=09<li style=3D"margin-bottom: 5=
+px;">Raise another $1 billion from VCS at an enormous valuation, cashing ou=
+t a few hundred million dollars for the founders.</li>=09<li style=3D"margi=
+n-bottom: 5px;">Step 6 is a mystery.</li></ol><p style=3D"margin: 16px 0;">=
+Obviously in practice it rarely worked <em>exactly=C2=A0</em>this way; the =
+trade was not =E2=80=9Cliterally hand out $10 to customers=E2=80=9D but =E2=
+=80=9Csell customers desirable goods or services for well below cost, subsi=
+dized by VC money.=E2=80=9D And obviously the VCs would not describe it qui=
+te this way; they would say that you are seeking user growth to achieve sca=
+le, and once you achieve that scale your unit costs will drop and you=E2=80=
+=99ll become profitable.</p><p style=3D"margin: 16px 0;">This economy is no=
+t what it used to be, for various reasons (the companies failed or went pub=
+lic, they started <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+24305256.256930/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wNi8wOC90ZWNobm9sb2d=
+5L2ZhcmV3ZWxsLW1pbGxlbm5pYWwtbGlmZXN0eWxlLXN1YnNpZHkuaHRtbD9yZWZlcnJpbmdTb3=
+VyY2U9YXJ0aWNsZVNoYXJl/607f07ceef4b8524a319a23cB47c46404" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">raising prices to economic =
+levels</a>, etc.). But the principle is good. If you are a tech company and=
+ someone will just hand you billions of dollars to pass along to users, you=
+ should be able to achieve rapid growth and a high valuation. =E2=80=9CBut =
+it is not actually easy to hand out billions of dollars,=E2=80=9D you might=
+ say, =E2=80=9Cit requires good user-interface design and thoughtful attent=
+ion to=C2=A0customer acquisition, and the U.S. payments system is complicat=
+ed so you need to build an architecture to interface with banks to make the=
+ payments,=E2=80=9D but do you realize how absurd you sound? Yes right the =
+execution of =E2=80=9Cjust hand out billions of dollars=E2=80=9D is complic=
+ated, but at its core it is a pretty simple business model. The main trick =
+is finding someone to give you the billions of dollars.</p><p style=3D"marg=
+in: 16px 0;">Last year the U.S. government decided to hand out billions of =
+dollars to businesses, in the form of forgivable government-guaranteed loan=
+s=C2=A0under the <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+4305256.256930/aHR0cHM6Ly93d3cuc2JhLmdvdi9mdW5kaW5nLXByb2dyYW1zL2xvYW5zL2Nv=
+dmlkLTE5LXJlbGllZi1vcHRpb25zL3BheWNoZWNrLXByb3RlY3Rpb24tcHJvZ3JhbS9maXJzdC1=
+kcmF3LXBwcC1sb2FuI3NlY3Rpb24taGVhZGVyLTI/607f07ceef4b8524a319a23cBe5077e7b"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">Paycheck =
+Protection Program</a>. This created <a href=3D"https://link.mail.bloomberg=
+business.com/click/24305256.256930/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8w=
+Ni8yNy9idXNpbmVzcy9wcHAtcmVsaWVmLWxvYW5zLWJsdWVhY29ybi13b21wbHkuaHRtbA/607f=
+07ceef4b8524a319a23cBf20e4c0a" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">a huge opportunity for tech companies</a>:</p><blockqu=
+ote><p style=3D"margin: 16px 0;">Two small companies came out of nowhere an=
+d, through an astute mix of technology and advertising =E2=80=94 and the do=
+gged pursuit of an opportunity that big banks missed =E2=80=94 found a way =
+to help those businesses. They also helped themselves. For their work, the =
+companies stand to collect more than $3 billion in fees, according to a New=
+ York Times analysis =E2=80=94 far more than any of the 5,200 participating=
+ lenders.</p><p style=3D"margin: 16px 0;">One of the companies, Blueacorn, =
+didn=E2=80=99t exist before the pandemic. The other, Womply, founded a deca=
+de ago, sold marketing software. But this year, they became the breakout st=
+ars of the Paycheck Protection Program, the government=E2=80=99s $800 billi=
+on relief effort for small businesses. Between them, the two companies proc=
+essed a third of all P.P.P. loans made this year, the Times analysis found.=
+</p></blockquote><p style=3D"margin: 16px 0;">For small PPP loans (under $5=
+0,000), the government would pay banks fees of 50% of the loan amount, up t=
+o a maximum of $2,500. That's pretty good for a loan with no credit risk! B=
+ut lots of banks are not really in the business of hunting down =E2=80=9Cun=
+profitable solo businesses=E2=80=9D to give them risk-free loans, because t=
+hat is not ordinarily a thing. So Blueacorn and Womply came along and said,=
+ look, we are tech companies, we can set up a webpage, we can buy ads:</p><=
+blockquote><p style=3D"margin: 16px 0;">=E2=80=9CLiterally free money for t=
+hose who qualify,=E2=80=9D a Blueacorn advertisement on Facebook read. Womp=
+ly banners adorned billboards and New York City buses. =E2=80=9CGet up to $=
+50,000 in PPP,=E2=80=9D read one. =E2=80=9CApply now!=E2=80=9D</p></blockqu=
+ote><p style=3D"margin: 16px 0;">And by literally advertising literally fre=
+e money, they were able to sign up a bunch of customers, which (1) you migh=
+t think would be easy but (2) was apparently hard enough that no one else d=
+id it. And then they partnered with banks to get PPP loans for the customer=
+s, and they took vast chunks of the banks=E2=80=99 fees for themselves, and=
+ now their founders are dynastically wealthy from spending one year shoveli=
+ng government money to small businesses. I hope the founders use their bill=
+ions to fund libertarian think tanks and seasteads and cryptocurrency proje=
+cts. =E2=80=9CAs self-made tech billionaires,=E2=80=9D they can say, =E2=80=
+=9Cwe understand the importance of entrepreneurship and cutting through gov=
+ernment regulation and red tape, and we are concerned about America=E2=80=
+=99s embrace of socialism.=E2=80=9D</p><p style=3D"margin: 16px 0;">I want =
+to be clear that I have no problem with any of this. There was a genuine ma=
+croeconomic and, frankly, humanitarian problem that the U.S. government rea=
+lly wanted to solve: It wanted to rapidly pump out billions of dollars to s=
+mall businesses to keep the economy together during the Covid pandemic. Doi=
+ng this, in turn, required=C2=A0certain loan-administration and business-ev=
+aluation skills that the government lacks but banks have, so the government=
+ contracted the problem out to banks; it also required solving certain user=
+-interface and customer-acquisition problems that neither banks nor=C2=A0th=
+e government are great at, so=C2=A0they effectively contracted those proble=
+ms out to some tech companies on a speculative basis. The tech companies wh=
+o solved the problems did an important service and=C2=A0got very rich. Stil=
+l, another way to put it is that the U.S. government paid these people $3 b=
+illion to set up some websites and buy some bus ads, which feels, with the =
+benefit of hindsight, weird.</p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 20px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td style=3D"padding: 15px 15px 0px;">
+<!--[if mso]>
+<table width=3D"500">
+<tr>
+<td>
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iuMNcxDTeR04/v=
+0/-1x-1.png" width=3D"500" />
+</td>
+</tr>
+</table>
+<div style=3D"display:none">
+<![endif]-->
+<img width=3D"550" class=3D"sponsored-content__image" src=3D"https://assets=
+.bwbx.io/images/users/iqjWHBFdfxIU/iuMNcxDTeR04/v0/-1x-1.png" style=3D"widt=
+h: 100%; display: block; max-width: 550px; max-height: 150px;" />
+<!--[if mso]>
+</div>
+<![endif]-->
+</td>
+</tr>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Sponsored Content</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;">
+<p style=3D"margin: 10px 0px;"><strong>Invest in world-changing startups on=
+ AngelList</strong></p>
+<p style=3D"margin: 10px 0px;"><a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/24305256.256930/aHR0cDovL2FuZ2VsbGlzdC5jb20_dXRtX3NvdXJjZT1uZX=
+dzbGV0dGVyJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPW1vbmV5X3N0dWZm/607f07ce=
+ef4b8524a319a23cB3c20e6e2" style=3D"color: #000000; text-decoration: underl=
+ine;">AngelList</a><a href=3D"https://link.mail.bloombergbusiness.com/click=
+/24305256.256930/aHR0cDovL2FuZ2VsbGlzdC5jb20vP3V0bV9zb3VyY2U9bmV3c2xldHRlci=
+Z1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leV9zdHVmZg/607f07ceef4b8524a3=
+19a23cB4d03c305" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: underline;"> </a>is the le=
+ading platform for early-stage venture investing. <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/24305256.256930/aHR0cHM6Ly93d3cuYW5nZWxsaXN=
+0LmNvbS9yb2xsaW5nP3V0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV=
+9jYW1wYWlnbj1tb25leV9zdHVmZg/607f07ceef4b8524a319a23cB12971b5c" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: underline;"> Invest</a> in experienced VCs that have b=
+acked Clubhouse, Notion, Pipe, and 77 other unicorns. Adjust your investmen=
+t size as your goals evolve.</p>
+</div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;"><a href=3D"https=
+://link.mail.bloombergbusiness.com/click/24305256.256930/aHR0cHM6Ly93d3cuYW=
+5nZWxsaXN0LmNvbS8_dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9tZWRpdW09ZW1haWwmdXRtX=
+2NhbXBhaWduPW1vbmV5X3N0dWZm/607f07ceef4b8524a319a23cB2b4f32aa" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: underline;">AngelList</a></p></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">CBDCs</h2><p style=3D"margin: 16px 0;">Obviously if you were designin=
+g the world from first principles you might say, well, if the government wa=
+nts to give people money, it should have a better way of doing that than ho=
+ping some tech companies will come along and think =E2=80=9Chey what if we =
+advertised on buses?=E2=80=9D For instance if everyone had an account with =
+the central bank and the government said =E2=80=9Clet's put $10,000 into ev=
+eryone=E2=80=99s account,=E2=80=9D that would do a lot of the work of the P=
+PP (not all, certainly) with roughly zero (incremental) administrative cost=
+. In the actual world people have accounts at different banks, and some of =
+them don=E2=80=99t have bank accounts at all, and there's fraud and blah bl=
+ah blah you end up paying $3 billion to some tech companies for administeri=
+ng the program. But it is not hard to imagine a world where everyone did ha=
+ve an account at a central bank and some of these problems were=C2=A0comple=
+tely trivial.</p><p style=3D"margin: 16px 0;">Here is <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/24305256.256930/aHR0cHM6Ly93d3cuZmVkZXJ=
+hbHJlc2VydmUuZ292L25ld3NldmVudHMvc3BlZWNoL3F1YXJsZXMyMDIxMDYyOGEuaHRt/607f0=
+7ceef4b8524a319a23cBa8f8a390" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">a speech</a> that Randal Quarles, the U.S. Federal Rese=
+rve=E2=80=99s vice chairman for supervision, gave yesterday about central b=
+ank digital currencies (CBDCs). Like <a href=3D"https://link.mail.bloomberg=
+business.com/click/24305256.256930/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjEtMDYtMTYvZG9uLXQtcGF5LWdhbWJsaW5nLWRlYnRzLWJ5LWluc2l=
+kZXItdHJhZGluZw/607f07ceef4b8524a319a23cB8a02c7b5" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> me</a>, Quarles hates the name: T=
+he U.S. dollar is <em>already=C2=A0</em>a digital currency.</p><blockquote>=
+<p style=3D"margin: 16px 0;">My first observation is that the general publi=
+c already transacts mostly in digital dollars=E2=80=94by sending and receiv=
+ing electronic balances in our commercial bank accounts. These digital doll=
+ars are not a CBDC, because they are liabilities of commercial banks rather=
+ than the Federal Reserve. Importantly, however, digital dollars at commerc=
+ial banks are federally insured up to $250,000, which means that for deposi=
+ts up to that amount=E2=80=94which means for essentially all retail deposit=
+s in the United States=E2=80=94they are as sound as a central bank liabilit=
+y.</p><p style=3D"margin: 16px 0;">The Federal Reserve also provides digita=
+l dollars directly to commercial banks and certain other financial institut=
+ions. Federal law allows these financial institutions to maintain accounts =
+with=E2=80=94and receive payments services from=E2=80=94the Federal Reserve=
+. Balances in Federal Reserve accounts serve a vital financial stability fu=
+nction by providing a safe and liquid settlement asset for the U.S. economy=
+.</p></blockquote><p style=3D"margin: 16px 0;">But the point is that the CB=
+DC idea involves somehow disintermediating the banks a bit:</p><blockquote>=
+<p style=3D"margin: 16px 0;">The key distinction is that, when most comment=
+ators speculate about a Federal Reserve CBDC, they assume that it would be =
+available to the general public directly from the central bank. A CBDC of t=
+his nature could take different forms. One is an account-based model, in wh=
+ich the Federal Reserve would provide individual accounts directly to the g=
+eneral public. Like the accounts that the Federal Reserve currently provide=
+s to financial institutions, an accountholder would send and receive funds =
+by debit or credit to their Federal Reserve account.</p><p style=3D"margin:=
+ 16px 0;">A different CBDC model could involve a CBDC that is not maintaine=
+d in Federal Reserve accounts. This form of CBDC would be closer to a digit=
+al equivalent of cash. Like cash, it would represent a claim against the Fe=
+deral Reserve, but it could potentially be transferred from person to perso=
+n (like a banknote) or through intermediaries.</p></blockquote><p style=3D"=
+margin: 16px 0;">Quarles doesn=E2=80=99t love the idea. He argues (correctl=
+y I think) that a Fed CBDC is not actually necessary to defend the dollar=
+=E2=80=99s global dominance, and he thinks that cryptocurrency stablecoin p=
+rojects are not a threat to the dollar (or to financial stability) but <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/24305256.256930/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMjgva2V5LWZlZC1vZ=
+mZpY2lhbC1xdWFybGVzLXNvdW5kcy12ZXJ5LWJ1bGxpc2gtb24tc3RhYmxlY29pbnM/607f07ce=
+ef4b8524a319a23cB158f13ae" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> actually a good idea</a>. He is also not convinced that a=
+ CBDC would help with financial inclusion:</p><blockquote><p style=3D"margi=
+n: 16px 0;">A second broad argument raised by proponents of CBDCs is that a=
+ Federal Reserve CBDC would improve access to digital payments for people w=
+ho currently do not keep bank accounts because of their expense, a lack of =
+trust in banks, or other reasons. This is a worthwhile goal. However, I bel=
+ieve we can promote financial inclusion more efficiently by taking steps to=
+ make cheap, basic commercial bank accounts more available to people for wh=
+om the current cost is burdensome, such as the Bank On accounts developed i=
+n collaboration between the Cities for Financial Empowerment Fund and many =
+local coalitions.=C2=A0Between 2011 and 2019, the percentage of households =
+that are unbanked dropped from 8.2 percent to an estimated 5.4 percent.=C2=
+=A0Banks and regulators are working to shrink this percentage further still=
+. I am far from convinced that a CBDC is the best, or even an effective, me=
+thod to increase financial inclusion.</p></blockquote><p style=3D"margin: 1=
+6px 0;">I think it=E2=80=99s worth reading that paragraph after the thing a=
+bout Womply and Blueacorn:=C2=A0<em>Is=C2=A0</em>the current banking system=
+ particularly good at getting small quantities of financial services to peo=
+ple who need them?</p><p style=3D"margin: 16px 0;">On the other hand, after=
+ reading the Womply and Blueacorn story, you might sympathize with this:</p=
+><blockquote><p style=3D"margin: 16px 0;">A final risk is that developing a=
+ Federal Reserve CBDC could be expensive and difficult for the Federal Rese=
+rve to manage. A Federal Reserve CBDC could, in essence, set up the Federal=
+ Reserve as a retail bank to the general public. That would mean introducin=
+g large-scale, resource-intensive central bank infrastructure. We will need=
+ to consider whether the potential use cases for a CBDC justify such costs =
+and expansion of the Federal Reserve's responsibilities into unfamiliar act=
+ivities, together with the risk of politicization of the Fed's mandate that=
+ would come with such an expansion.</p></blockquote><p style=3D"margin: 16p=
+x 0;">The Fed is in the business of providing an electronic ledger where a =
+relatively small number of relatively sophisticated banks and institutions =
+can keep their dollars. Getting into the business of providing an electroni=
+c ledger where millions of regular people can keep their dollars would requ=
+ire different skills, and those skills are not, in practice, trivial. You g=
+otta run bus ads, and tell people how to reset their passwords if they forg=
+et. Plus there is money laundering:</p><blockquote><p style=3D"margin: 16px=
+ 0;">Critically, we also would need to ensure that a CBDC does not facilita=
+te illicit activity. The Bank Secrecy Act currently requires that commercia=
+l banks take steps to guard against money laundering.=C2=A0Policymakers wil=
+l need to consider whether a similar anti-money-laundering regime would be =
+feasible for a Federal Reserve CBDC, but it may be challenging to design a =
+CBDC that respects individuals' privacy while appropriately minimizing the =
+risk of money laundering.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;=
+">It would be kind of amazing if the Fed got in trouble for helping crimina=
+ls. Obviously the U.S. currency system =E2=80=9Cfacilitates illicit activit=
+y=E2=80=9D all the time; if you want to sell drugs or whatever, doing it fo=
+r cash has long been the=C2=A0way to go.=C2=A0But there is some deniability=
+ there: The government issues the cash, but nobody=C2=A0<em>expects=C2=A0</=
+em>it to keep track of where it all goes; if thousands of $100 bills end up=
+ in the pockets of drug dealers that is just how cash works. If you=E2=80=
+=99re designing a new central bank digital currency from scratch that might=
+ be controversial.</p><h2 style=3D"font-weight: bold; font-family: &quot;Ar=
+ial Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: -1px; font-s=
+ize: 20px; border-bottom-width: 1px; border-bottom-style: dotted; margin: 0=
+px; padding: 16px 0px 5px;">Great Jones</h2><p style=3D"margin: 16px 0;">If=
+ you are a young person trying to get by in the big city, and you get a gre=
+at job at a company that you love, and you do your best and work hard throu=
+gh lots of tough times, and=C2=A0then you learn that you are about to be fi=
+red, what should you do? There is one ideal and perfect=C2=A0answer, which =
+is that you should have your father buy the company,=C2=A0give you your job=
+ back, and then wreak terrible vengeance on all those who doubted you. If y=
+our father does not have the money to buy your company, that is unfortunate=
+ for you, because this really is the way to go. Also of course if the compa=
+ny declines your father=E2=80=99s money =E2=80=94=C2=A0to avoid the terribl=
+e vengeance, etc. =E2=80=94=C2=A0then that=E2=80=99s a bummer.</p><p style=
+=3D"margin: 16px 0;">At Insider, Anna Silman has a story of the =E2=80=9C<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/24305256.256930/aHR0=
+cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS9ncmVhdC1qb25lcy1jb29rd2FyZS1mb3VuZGV=
+ycy10aXNoZ2FydC1tb2VsaXMtZmFsbGluZy1vdXQtMjAyMS02/607f07ceef4b8524a319a23cB=
+74871534" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Mutiny at Great Jones: How a cofounder war led every employee to quit Insta=
+gram's trendiest cookware company</a>.=E2=80=9D The apparent hero of the st=
+ory is co-founder Maddy Moelis, daughter of =E2=80=9Cmultimillionaire real-=
+estate mogul and affordable-housing developer=E2=80=9D Ron Moelis and niece=
+ of Moelis &amp; Co. founder Ken Moelis; the apparent villain is the other =
+co-founder, Sierra Tishgart. Tishgart succeeded in pushing Moelis out of th=
+e company (though she =E2=80=9Cis still a board member and major equity hol=
+der in Great Jones=E2=80=9D), but they came very=C2=A0close to the amazing =
+outcome:</p><blockquote><p style=3D"margin: 16px 0;">Then, in May, a crypti=
+c offer appeared from a group of existing and new investors calling themsel=
+ves GJ Ventures. They asked for two board seats in exchange for cash and re=
+quested that both Tishgart and Moelis stay with the company. Moelis pushed =
+hard for Great Jones to consider the offer. But when Tishgart looked up the=
+ company and discovered Moelis' father had close ties to the individual fro=
+nting GJ Ventures, the board stonewalled Moelis. According to documents rev=
+iewed by Insider, it was believed that Moelis was obscuring a conflict of i=
+nterest around her family's suspected involvement. A person close to the co=
+mpany described the bid as Ron Moelis' "ham-handed effort to secretly take =
+control of the board."=C2=A0</p><p style=3D"margin: 16px 0;">But an individ=
+ual close to Maddy Moelis strongly contested this characterization. While t=
+he Moelises would have put in money had the bid gone through, the person sa=
+id, Maddy Moelis was simply attempting to get funding and to secure compete=
+nt board members for a company that badly needed them.=C2=A0</p></blockquot=
+e><p style=3D"margin: 16px 0;">I am going to ignore her denials=C2=A0and as=
+sume that the plan was =E2=80=9Cterrible vengeance=E2=80=9D; certainly that=
+ would be my plan!</p><p style=3D"margin: 16px 0;">Also <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/24305256.256930/aHR0cHM6Ly9kZWZlY3Rvc=
+i5jb20vZ3JlYXQtam9uZXMtZHJhbWEv/607f07ceef4b8524a319a23cB98f36fea" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">Albert Burneko poi=
+nts out</a> that losing all of its employees did not impede Great Jones=E2=
+=80=99s ability to make cookware, because it was never actually in the busi=
+ness of making cookware:</p><blockquote><p style=3D"margin: 16px 0;">The ab=
+solute most generous true description you can apply to Great Jones is that =
+it conducts arbitrage on cheap pastel-colored cookware with flimsy enamel c=
+ladding, made by other companies with less robust brands. But the truest th=
+ing you can say is that Great Jones, like so many other companies, is a ski=
+mming operation: It launders somebody else=E2=80=99s actual manufacture thr=
+ough its own aggressive branding, and takes a cut of the proceeds. The comp=
+any can have the best quarter of its existence despite having no full-time =
+employees, despite having literally no capacity to do anything other than e=
+xist as a legal fiction, because it never actually did anything. Anything! =
+It never did anything.</p></blockquote><h2 style=3D"font-weight: bold; font=
+-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spac=
+ing: -1px; font-size: 20px; border-bottom-width: 1px; border-bottom-style: =
+dotted; margin: 0px; padding: 16px 0px 5px;">Things happen</h2><p style=3D"=
+margin: 16px 0;">Wall Street <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/24305256.256930/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjEtMDYtMjgvbW9yZ2FuLXN0YW5sZXktZG91Ymxlcy1kaXZpZGVuZC1hZnRlci1iYW5=
+rcy1jbGVhci1zdHJlc3MtdGVzdHM/607f07ceef4b8524a319a23cB30f0bc7f" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> Funnels Cash to Inve=
+stors</a> After Stress-Test Success. Benchmark=E2=80=99s <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/24305256.256930/aHR0cHM6Ly93d3cudGhl=
+aW5mb3JtYXRpb24uY29tL2FydGljbGVzL2JlbmNobWFya3MtdmMtbW9kZWwtc3RyYWluZWQtYnk=
+tbmV3Y29tZXJzLXN1cGVyc2l6ZS1yaXZhbHM/607f07ceef4b8524a319a23cBaa2befc1" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">VC Model</a> =
+Strained by Newcomers, Supersize Rivals. Cathie Wood Wants to Put Ark=E2=80=
+=99s Name on <a href=3D"https://link.mail.bloombergbusiness.com/click/24305=
+256.256930/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYt=
+MjgvY2F0aGllLXdvb2Qtcy1hcmstaW52ZXN0bWVudC1maWxlcy1mb3ItYS1iaXRjb2luLWV0Zg/=
+607f07ceef4b8524a319a23cBf7092a00" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> ETF Tracking Bitcoin</a>. Accounting Regulator Ha=
+d <a href=3D"https://link.mail.bloombergbusiness.com/click/24305256.256930/=
+aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9hY2NvdW50aW5nLXJlZ3VsYXRvci1oYWQtY2x=
+pbWF0ZS1vZi1mZWFyLWFuZC1kaXN0cnVzdC1yZXBvcnQtc2F5cy0xMTYyNDkxODQ4OD9tb2Q9aH=
+BfbGlzdGFfcG9zNQ/607f07ceef4b8524a319a23cB464e9cfc" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">Climate of Fear and Distrust</a>,=
+ Report Says. NBA Star Risks Billions for Failing to <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/24305256.256930/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMjgvdmlubmllLWpvaG5zb24tcmlza3MtbG9=
+zaW5nLWJpbGxpb25zLWJlY2F1c2UtaGlzLWV4ZWN1dGl2ZXMtYXJlLWFsbC13aGl0ZQ/607f07c=
+eef4b8524a319a23cB1b2d5407" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> Diversify Executive Ranks</a>.=C2=A0Homeowners <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24305256.256930/aHR0cHM6L=
+y93d3cud3NqLmNvbS9hcnRpY2xlcy9ob21lb3duZXJzLWJlaGluZC1vbi1tb3J0Z2FnZXMtdG8t=
+YmUtb2ZmZXJlZC1oZWxwLXUtcy1hZ2VuY3ktc2F5cy0xMTYyNDkxMzY2MT9tb2Q9aHBfbGlzdGF=
+fcG9zNA/607f07ceef4b8524a319a23cB1c91f21b" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">Behind on Mortgages</a> to Be Offered Help=
+, U.S. Agency Says. Where Did <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24305256.256930/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR=
+1cmVzLzIwMjEtMDYtMjgvZmluZGluZy10aGUtaGlkZGVuLTEwLWJpbGxpb24tZm9ydHVuZS1vZi=
+1waGlsaXBwaW5lcy1wcmVzaWRlbnQtZmVyZGluYW5kLW1hcmNvcw/607f07ceef4b8524a319a2=
+3cB06d19f05" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> Marcos</a> Hide His $10 Billion Fortune? Binance customers <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/24305256.256930/aHR0cHM6Ly93d3=
+cuZnQuY29tL2NvbnRlbnQvMmQ0MjdlZDctZjllNC00NmNmLWE0YzQtNDY0MjliMTlkZjVk/607f=
+07ceef4b8524a319a23cB9b5929e9" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">frozen out of withdrawals</a> via key UK payment netwo=
+rk. The Family Behind the <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/24305256.256930/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmV=
+zLzIwMjEtMDYtMjkvY292aWQtYmxlYWNoLWN1cmUtaG93LW9wZXJhdGlvbi1xdWFjay1oYWNrLX=
+Rvb2stZG93bi10aGUtZ2VuZXNpcy1paS1jaHVyY2g/607f07ceef4b8524a319a23cB8fe89b2f=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> Covid B=
+leach Cure</a> Was Making a Fortune. <a href=3D"https://link.mail.bloomberg=
+business.com/click/24305256.256930/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9y=
+b2JvdC1iYXNzaW5ldC1jb21wYW55LWV5ZXMtbmV3LWZ1bmRpbmctdG8tcG93ZXItZ3Jvd3RoLTE=
+xNjI0ODcyNjAw/607f07ceef4b8524a319a23cB952033b2" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">Robot Bassinet</a> Company Eyes New =
+Funding to Power Growth.=C2=A0Baton Rouge family surprised by $50B <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24305256.256930/aHR0cHM6L=
+y93d3cudXBpLmNvbS9PZGRfTmV3cy8yMDIxLzA2LzI4L2JhdG9uLXJvdWdlLW1pc3Rha2VuLWRl=
+cG9zaXQtNTAtYmlsbGlvbi1kb2xsYXJzLzIwODE2MjQ4OTIyOTQv/607f07ceef4b8524a319a2=
+3cB7a0452e8" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">mistaken deposit</a>.</p><p style=3D"margin: 16px 0;"><span class=3D"new=
+s-designed-for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stu=
+ff=C2=A0in handy email form, right in your inbox, please=C2=A0<a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/24305256.256930/aHR0cDovL2xpbms=
+ubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaG=
+FzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB0=
+907547a" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">subscribe at this link</a>. Or=
+ you can subscribe to Money Stuff and other great Bloomberg newsletters <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/24305256.256930/aHR0c=
+HM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBb4=
+5afcb4" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: solid; background-color: #ccc;">he=
+re</a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1] Citatio=
+ns omitted in all quotes from the court opinion in this section.</em></p><p=
+ style=3D"margin: 16px 0;"><em>[2] In addition to the FTC, a group of state=
+ attorneys general also sued Facebook, and the judge dismissed that case <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/24305256.256930/aHR0=
+cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9mZWRlcmFsLWp1ZGdlLWRpc21pc3Nlcy1nb3Zlcm5=
+tZW50LWFudGl0cnVzdC1sYXdzdWl0cy1hZ2FpbnN0LWZhY2Vib29rLTExNjI0OTA3NzQ3P21vZD=
+1ocF9sZWFkX3BvczQ/607f07ceef4b8524a319a23cC10b47c34" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">a bit more emphatically</a>, =E2=
+=80=9Clargely on the grounds that the attorneys general waited too long to =
+bring their claims.=E2=80=9D</em></p><p style=3D"margin: 16px 0;"><em>[3] W=
+hich is also=C2=A0a complicated question that I will ignore here, though I =
+note that the judge advised the FTC that one of its claims of abuse of powe=
+r won=E2=80=99t work.</em></p><p style=3D"margin: 16px 0;"><em>[4] Again, t=
+o be clear, it *might* have the power to do so, I don=E2=80=99t know. I thi=
+nk either argument is plausible.=C2=A0</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24305256.256930/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBf8277154" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24305256.256930/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB568b51ac" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24305256.256930/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB3a11d137" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24305256.256930/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB80cb8432" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-bottom: 32px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2430525=
+6.256930/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBbd18bc31" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; padding-bottom: 10px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> You received this mess=
+age because you are subscribed to Bloomberg's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24305256.256930/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC725f7ac9" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24305256.256930/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB5731bb7b" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24305256.256930/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBa0df6456" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cegy20.5i8y/e0cb9ab4.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_20091317_2075990328.1624982557164--
+

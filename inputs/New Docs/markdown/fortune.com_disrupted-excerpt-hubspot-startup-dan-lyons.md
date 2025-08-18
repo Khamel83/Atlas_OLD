@@ -1,0 +1,15 @@
+# My Year in Startup Hell
+
+**URL:** http://fortune.com/disrupted-excerpt-hubspot-startup-dan-lyons/
+**Date:** 2016-03-27 13:10:18
+
+---
+
+# 
+
+Unknown author • Unknown date 
+
+![](https://web-static.archive.org/_static/images/archive.ico)
+
+The Wayback Machine requires your browser to support JavaScript, please email info@archive.org if you have any questions about this. 
+

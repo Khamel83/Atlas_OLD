@@ -1,0 +1,2412 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp1486500rwb;
+        Mon, 22 May 2023 05:47:45 -0700 (PDT)
+X-Received: by 2002:a05:600c:292:b0:3f6:479:3985 with SMTP id 18-20020a05600c029200b003f604793985mr1729541wmk.23.1684759665028;
+        Mon, 22 May 2023 05:47:45 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1684759665; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=H89/uSE4Quw8yVue53npOuYvWrT5vkbJ3HEqJm/ycXAweBfFXRgb/oHPW4MznDyOm5
+         n+JDXvYBBLyMLYi/Zafw5lbS0Zsjk3qpsgE4/Cc79Ey4r7o9avbwNf+vt6ODWIFcbhV5
+         awfdE+1tnH2GD2JJs59vVP5Pq+bLsYL7UIjpVIMQobTzazxfAOeTWjNiS0lmjZ3NjHdZ
+         cyK/y8tY4F0RbZUUbLrg2P2tMKl3dAJc7T9yvY+IOClly0IoZzFepxR50+dZkeDZj7yD
+         7hvX4mL2jbEsleXNqFHLK9gk4QCFiHB/osfe+USqhH8KJUI+0aD1gSBTAOqzsKV4/Dab
+         nrIA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-post:list-id:list-unsubscribe-post:list-unsubscribe
+         :list-archive:list-url:list-owner:reply-to:in-reply-to:references
+         :sender:date:message-id:to:from:subject:mime-version:dkim-signature
+         :delivered-to;
+        bh=/88bDXEGmbZhjUjxGbsTt+Pn2iOad0fV360+I2SzmJQ=;
+        b=oyqpmgUqHGQ334Ff5so/r7UV/Q84fuYw+xLek/nUugpSptKIX4rMuyGndhNkMTs634
+         j6d4vo7Cz2fMJeArYydKwVTFvQjT3IV3YrqXjMbjBlq7lx76+eT6V5TY3WHtgw1EAhzw
+         ZOQX5U7SUvlPSfiUYzvOZKL8oEPL1mdtedlsvVQ6NErzEeslw/EghCtundlgk6bMfDJx
+         pEB6Kc55/GB/hWDcPUejtBRYRuHR6CLFZdHy/hv5G30va9tOjWhMgN7N+lJOZtE6EvuJ
+         5Ps2lWcl6XuiYmGZSkw+aO+spbZ3gYbhwhkY5SFwvIy1Okpz94EiA56eZxI28qiHDUlU
+         e4yw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=NouY2+Oe;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 12-20020a05600c020c00b003f41ce0a5e6sor1535327wmi.2.2023.05.22.05.47.44
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 22 May 2023 05:47:44 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=NouY2+Oe;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1684759664; x=1687351664;
+        h=list-post:list-id:list-unsubscribe-post:list-unsubscribe
+         :list-archive:list-url:list-owner:reply-to:in-reply-to:references
+         :sender:date:message-id:to:from:subject:mime-version:dkim-signature
+         :delivered-to:x-forwarded-for:x-forwarded-to:x-gm-message-state:from
+         :to:cc:subject:date:message-id:reply-to;
+        bh=/88bDXEGmbZhjUjxGbsTt+Pn2iOad0fV360+I2SzmJQ=;
+        b=IMHBcYle0E1XqSXjcW+T2ac/fEGJ6jaoNTqGrmvBLRmcZhQ97iA/SQ1D9gYKbla5l9
+         tSZHf/5qHv/Bh4yIZthKYRzjg4u5sLsOGLcmszCC3yMG9jeGCohUlAKSv0eP5tGAESyc
+         j9k+uVMRZxFht8fKSGGZUp8SnEA0zyjdK9fVf/roz+9UNGR13IqboI4CwWEETOLO7ShG
+         NuKcp6SnkIefu4y5wnTJU9gE66hca+u/utyS0ELcPQmXKOHnNNWFO9W2HoV2o3+M6ES5
+         n9kZ8jFu00gmYJMqxjSZ+BjwZIm02zcRtYwwFI6rr6jWDvmgxonbGhgAWqNFzPQrYQC0
+         WU/w==
+X-Gm-Message-State: AC+VfDzSpO6AP5ys/aP8zll+6m4TlqsfU69ec4Z52sCSyklooO3LEhAj
+	Fbu8nO25prZkXjfIYtmKGz0vLrXeduAKT1iDq6dd8l6t3xMu0o9tvg==
+X-Received: by 2002:a05:600c:4714:b0:3f5:fa37:5e16 with SMTP id v20-20020a05600c471400b003f5fa375e16mr1701632wmo.2.1684759664362;
+        Mon, 22 May 2023 05:47:44 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f404:0:0:0:0:0 with SMTP id g4csp1100866wro;
+        Mon, 22 May 2023 05:47:41 -0700 (PDT)
+X-Received: by 2002:a05:620a:6285:b0:75b:23a1:3676 with SMTP id ov5-20020a05620a628500b0075b23a13676mr469304qkn.55.1684759661355;
+        Mon, 22 May 2023 05:47:41 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1684759661; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=r8YgngTiq1g9E/JM0tZH6+03Xacmg5EyKn1ZNoIP3+gfQ9qkVQ+3zQsbf3UIc3TdPf
+         MbgTUyJula6MCoH3Bh/G+1IRozorEJrrVAImYNrwoyHJS5DI4EviusGtfu67tqFTp9nY
+         obvKBBN8fwQc1w1Be/dT6zz0aHEYTmzQqdwKJ292JQjB1F6Hf6BdKoJPwnLLqHxQ+/NX
+         t3KZK87rUUxhueA+qyos0ZIC46E3XZKeUroqJF8Kse+S+1rLP4FtAoAvJWTOy4kn7Tn0
+         a7TUD+TYd9Qyp6Q4ZHHRfof9GX3nvoEDaquvm3QkspAFuXN0HyXCcSn4qt9Rv/xtozEa
+         IEQA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-post:list-id:list-unsubscribe-post:list-unsubscribe
+         :list-archive:list-url:list-owner:reply-to:in-reply-to:references
+         :sender:date:message-id:to:from:subject:mime-version:dkim-signature;
+        bh=/88bDXEGmbZhjUjxGbsTt+Pn2iOad0fV360+I2SzmJQ=;
+        b=L84AtPOXDAPeq5fhHGn+dlw2Fb7HRF9ZvrAcELz6dNTFMaxrTUs5FqSp1q9EslgkLW
+         kGs0eSdQsazqqBdYjowFHWdq/c+62OKf0Av2izz7SuaAqcmMMuuNE+tC7YXLlUJ3e5sz
+         NjGDQItSHPaChaXnKWzn1m6zM9pDjEebr2SfC7WLM7Xrb4swKllMUZHfF4nh2STiH44Z
+         Fyb1GE91vnLUv3YT/zV011HSmGDrXUMBW8eWFbXbzNCnCyP4bkX2+iSKmpwyMYP3+Rpp
+         1q67F3zwUUrcqS23wPAv6nuSnIgRyUODvpUcs3cmuVYeCGOU7Mwog7PDHeETNEZCdSXt
+         yuqA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=NouY2+Oe;
+       arc=pass (i=1 spf=pass spfdomain=mg-d1.substack.com dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 130-20020a370688000000b0075b0b575215sor742644qkg.10.2023.05.22.05.47.41
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 22 May 2023 05:47:41 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ACHHUZ5bDVSqlwtN16VVAZkdykga+NShvOYJEqlljkBEQfm4Ukkl3MYdMQR4GnqGNOOAi6HPYkSQjbAAZKA8J1p6u/R7omF10KI=
+X-Received: by 2002:a05:620a:a10:b0:75b:23a1:3679 with SMTP id i16-20020a05620a0a1000b0075b23a13679mr467868qka.58.1684759661047;
+        Mon, 22 May 2023 05:47:41 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1684759661; cv=none;
+        d=google.com; s=arc-20160816;
+        b=OOHw2sbR9WHEUmO4AWW6d/k41kXREuf29e7cq+L/g2MxJ/fWZKw0yDUkydJ4bSX15h
+         rEmAlh5RCBOVCJ8E4K4cQ6jDuk1wXFpp9nqqls5GxhUlZPSl50zXpnjaJ8z1I7+iUvVu
+         eKTpIfKuxbhuXkXdJ1dMiOwEqXVU83lhaKbBh/I5yGt3jORGywS6Wg95U3222tWTmqh5
+         /Hf8i97qRPQVGdNBRsxL26eLRz/n02INhhJrRxUp3wu77KQOHS0pPvXz1bWhVeRiac+p
+         UAiWs3gz9bo2zsk9Nrq5QTS4AaSc+kxitkn8uZl5/vxaHdcZOHY8f4H7mWH7qaUYSYnF
+         qVjg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-post:list-id:list-unsubscribe-post:list-unsubscribe
+         :list-archive:list-url:list-owner:reply-to:in-reply-to:references
+         :sender:date:message-id:to:from:subject:mime-version:dkim-signature;
+        bh=/88bDXEGmbZhjUjxGbsTt+Pn2iOad0fV360+I2SzmJQ=;
+        b=0WfqKYPES4karUd6WmZwGTsgPq32AJyxThN+QOaH0ZEqe/PP72xVUdrzKdPi2rDN5r
+         jh672VEj7JXyEME7nR9qtagz6xTTVIgKkUl6O3Mv7bS2pwTUa3z+U+0ecwiHRUFPPOxX
+         uDk1tINKbC8bcWy0PisMkMySYZRu32ebXVrJaXzfNTSaF+8g5qTPlUWq0Ov3jbIjq2Yb
+         aICuijTxgAboP/RF8iHDrbq5Z0Z9MMVXy0IMlcY6AkOTOX/Tk1nqov5PqhmbX08ndPrZ
+         VUkrZVoKJJ9JJNbgioYs0jWjrDrEfeBb59USx4EphvQvJ9hfXtm/+9Z+enQ7kjhTvOpN
+         UaMg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=NouY2+Oe;
+       spf=pass (google.com: domain of bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com designates 161.38.195.184 as permitted sender) smtp.mailfrom="bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com>
+Received: from mg-195-184.substack.com (mg-195-184.substack.com. [161.38.195.184])
+        by gmr-mx.google.com with UTF8SMTPS id tm22-20020a05620a3b9600b0075b1f33a9d0si73081qkn.3.2023.05.22.05.47.40
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 22 May 2023 05:47:41 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com designates 161.38.195.184 as permitted sender) client-ip=161.38.195.184;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg-d1.substack.com;
+ q=dns/txt; s=k1; t=1684759660; x=1684766860; h=List-Post: List-Id:
+ List-Unsubscribe: List-Archive: List-Owner: Reply-To: In-Reply-To:
+ References: sender: sender: Date: Message-Id: To: To: From: From: Subject:
+ Subject: Content-Type: Mime-Version;
+ bh=/88bDXEGmbZhjUjxGbsTt+Pn2iOad0fV360+I2SzmJQ=;
+ b=NouY2+OeLHwObIBPy16nxcljoHjsSgIvedtPcN9HNv/3o2yNmAD28g03XRDJS0r2GVioO1UBTNFiZpLEwY/GBoMus08xYwmbobLquVin9EKvWcGk03OfKaHBOALPlMa0jv5MjVP0/TdchCyiWn4mmpzdSg/JO/tKYBVgalxrx68=
+X-Mailgun-Sending-Ip: 161.38.195.184
+X-Mailgun-Sid: WyI1OTU0MCIsIm5vdGJvcmluZ0BraGFtZWwuY29tIiwiMzliMDhjNiJd
+Received: from <unknown> (<unknown> []) by 5221b8f65cf1 with HTTP id
+ 646b6461a53cad359f7f06d2; Mon, 22 May 2023 12:47:20 GMT
+X-Mailgun-Batch-Id: 646b6458db3f9590595b8e9f
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="3fccc223919aacf0931dd6db04b725235986710e457dc258f5bdd439b461"
+Subject: The Fusion Race
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+X-Mailgun-Track-Clicks: false
+Message-Id: <20230522124710.3.92b03b5e7db4268b@mg-d1.substack.com>
+Date: Mon, 22 May 2023 12:47:10 +0000
+sender: Not Boring <notboring@substack.com>
+References: <post-122905321@substack.com>
+In-Reply-To: <post-122905321@substack.com>
+Reply-To: Not Boring
+ <reply+216acp&9p0gt&&bee6b7728fb349cd3b5008b6e54fb846b6d8cb9cc2f5486eca9a285f075ecdfe@mg1.substack.com>
+List-Owner: <mailto:notboring@substack.com>
+List-URL: <https://www.notboring.co/>
+List-Archive: <https://www.notboring.co/archive>
+List-Unsubscribe: <https://www.notboring.co/action/disable_email/disable?token=eyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTIyOTA1MzIxLCJpYXQiOjE2ODQ3NTk2NDAsImV4cCI6MTY4NzM1MTY0MCwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoiZGlzYWJsZV9lbWFpbCJ9.1GoXBbUpmId-Ht7Rge2OxDUjjrYJB3ELE8swegmnY3M&expires=365d>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Id: <notboring.substack.com>
+List-Post: <https://www.notboring.co/p/the-fusion-race>
+X-Mailgun-Variables: {"category": "post", "email_generated_at": "1684759640393", "is_freemail":
+ "true", "post_audience": "everyone", "post_id": "122905321", "post_type":
+ "newsletter", "pub_community_enabled": "true", "publication_id": "10025",
+ "subdomain": "notboring", "user_id": "16283549"}
+
+--3fccc223919aacf0931dd6db04b725235986710e457dc258f5bdd439b461
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://www.notboring.co/p/the-fusion-race
+
+Welcome to the=C2=A01,097=C2=A0newly Not Boring people=C2=A0who have joined=
+ us over the past two weeks! If you haven=E2=80=99t subscribed, join=C2=A02=
+03,901 smart, curious folks by subscribing here:
+Hi friends =F0=9F=91=8B,=C2=A0
+Happy Monday! Grab a coffee, shake off the weekend, and let=E2=80=99s talk =
+fusion.=C2=A0
+Energy is upstream of everything we write about here at Not Boring. Cheap, =
+abundant energy means economic prosperity, sci-fi brought to life, and even=
+, one day, flying cars. So when Helion announced that it planned to deliver=
+ commercial fusion power in 2028, our ears perked up.=C2=A0
+Luckily, we=E2=80=99d been working on a fusion piece. Rahul Rana [ https://=
+substack.com/redirect/c94964b8-6835-495f-aee4-b8b5293b9a55?j=3DeyJ1IjoiOXAw=
+Z3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] (who graduated from Ru=
+tgers last weekend [ https://substack.com/redirect/e7d28724-4080-4706-8efd-=
+b8b46ebf9562?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8Exk=
+RNpU ] =E2=80=93 congrats Rahul!!) is both a student of the history of moon=
+shot [ https://substack.com/redirect/7008d925-39f7-4727-8e3f-7fb558cfa2bd?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] project=
+s in the United States and smart enough to understand and break down everyt=
+hing going on in the world of fusion.=C2=A0
+So we decided to team up on a piece explaining how fusion works, where we a=
+re in our progress towards commercial-scale fusion, and why the transition =
+from government-funded to private sector should spell acceleration.=C2=A0
+We are certainly not experts on fusion. Treat this as a ride-along as we le=
+arn about the science and history of fusion, where it stands today, and whe=
+re we might be headed in the coming years, complete with an overview of som=
+e of the most promising fusion startups.=C2=A0It=E2=80=99s a topic we expec=
+t we=E2=80=99ll hear about and cover a lot more in the years ahead.
+Whether 2028 is realistic or not, the Fusion Race is on. This piece is mean=
+t to be your starting point on one of the next decade=E2=80=99s most import=
+ant adventures.=C2=A0Read on or click here to jump to the full version onli=
+ne [ https://substack.com/redirect/890ab582-c800-4254-a045-40ae974c651f?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
+Let=E2=80=99s get to it.
+Today=E2=80=99s Not Boring is brought to you by=E2=80=A6 Wander [ https://s=
+ubstack.com/redirect/d21667f8-b730-40c6-b41d-4d6a45315735?j=3DeyJ1IjoiOXAwZ=
+3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Wander [ https://substack.com/redirect/d21667f8-b730-40c6-b41d-4d6a45315735=
+?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is on=
+e of our most popular sponsors ever=E2=80=A6and there=E2=80=99s good reason=
+: the vacation homes are dope. If you=E2=80=99re looking to book a last min=
+ute MDW trip or a relaxing getaway this summer, you should check out Wander=
+=E2=80=99s listings. Plus, Wander REIT [ https://substack.com/redirect/d216=
+67f8-b730-40c6-b41d-4d6a45315735?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZj=
+mlXXepKbqOsa8-6m8ExkRNpU ] presents a unique investment opportunity. The RE=
+IT just released its Q1 results, and it delivered as promised: 5.1% appreci=
+ation and 8% annualized income. As a Wander REIT investor myself, I just re=
+ceived my first dividend!
+Wander is a network of smart vacation homes that come with inspiring views,=
+ modern workstations, restful beds, hotel-grade cleaning and 24/7 concierge=
+ service =E2=80=93=E2=80=93 combining the quality of a luxury hotel with th=
+e space and comfort of a vacation home, only better. All of the Wander home=
+s look like they are straight out of one of those luxury car commercials. A=
+s a Not Boring reader, you can use promo code notboring for $300 off your n=
+ext trip. (offer expires Monday 6/5 at 11:59pm). Explore now [ https://subs=
+tack.com/redirect/d21667f8-b730-40c6-b41d-4d6a45315735?j=3DeyJ1IjoiOXAwZ3Qi=
+fQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ].
+But that=E2=80=99s only part of the story. Wander recently launched Wander =
+REIT [ https://substack.com/redirect/d21667f8-b730-40c6-b41d-4d6a45315735?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] =E2=80=
+=93=E2=80=93 a first-of-its-kind vacation rental REIT that gives you the ch=
+ance to own a piece of their magical portfolio of homes. With Wander REIT, =
+accredited investors have the opportunity to earn income and diversify thei=
+r portfolio without the headache and hassle of buying a property, renting i=
+t out, or maintaining it.
+The Fusion Race
+Packy McCormick x Rahul Rana
+Two weeks ago, a startup funded and chaired by Sam Altman announced a big p=
+artnership with Microsoft. This time, instead of investing in Sam=E2=80=99s=
+ brain, Microsoft committed to buying his power.
+Specifically, according to the press release [ https://substack.com/redirec=
+t/d56f78d2-37fc-42b6-b281-1ede29465e25?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_Zl=
+NuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]:=C2=A0
+Helion Energy (Helion) today announced an agreement to provide Microsoft el=
+ectricity from its first fusion power plant. The plant is expected to be on=
+line by 2028 and will target power generation of 50 MW or greater after a 1=
+-year ramp up period. The planned operational date for this first of its ki=
+nd facility is significantly sooner than typical projections for deployment=
+ of commercial fusion power.
+While Sam Altman selling to Microsoft invites obvious OpenAI [ https://subs=
+tack.com/redirect/29cf6a24-1a99-4901-80ee-6c5a62f9aa1e?j=3DeyJ1IjoiOXAwZ3Qi=
+fQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] comparisons, the better an=
+alogy may be to one of the companies founded by Sam=E2=80=99s erstwhile Ope=
+nAI co-founder: SpaceX.=C2=A0
+Like SpaceX, Helion [ https://substack.com/redirect/569d0179-9e66-4b71-be3a=
+-e3aedcd389fb?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8Ex=
+kRNpU ] set an absurdly aggressive timeline in an industry not recently kno=
+wn for its speed. Like SpaceX, Helion is the beneficiary of billions of dol=
+lars and decades=E2=80=99 worth of government-funded research, of global co=
+mpetition and cooperation in the pursuit of civilization-scale goals.=C2=A0
+And like SpaceX, Helion may mark a turning point in one of the coming decad=
+es=E2=80=99 most consequential industries, the baton handoff from the measu=
+red and fundamental world of government and academia into the chaos and has=
+te of the market.=C2=A0
+We=E2=80=99re using Helion liberally here. We don=E2=80=99t know who will w=
+in Fusion Race 2.0, and this isn=E2=80=99t a winner-take-all market. But He=
+lion is a worthy stand-in for the growing number of privately funded fusion=
+ companies racing to bring the power of the stars to the earth=E2=80=99s el=
+ectric grid, economically.=C2=A0
+Imagine a bizarro relay marathon in which one runner carries the baton for =
+the first 26.0 miles, opens up a backpack full of batons, and hands them ou=
+t liberally to a waiting horde of sprinters to dash all-out for the final 0=
+=2E2 miles. That=E2=80=99s the best analog=
+y we can come up with for this mome=
+nt in the Fusion Race.=C2=A0
+Global governments are the marathon runner. From the race to develop thermo=
+nuclear weapons after World War II, to the $22 billion, 50+ year cooperativ=
+e ITER [ https://substack.com/redirect/4e72caac-c6dd-49ac-9495-eb54bab1f978=
+?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] react=
+or currently being built in France, to the National Ignition Facility=E2=80=
+=99s ignition achievement in December 2022 [ https://substack.com/redirect/=
+d28495bc-46c6-42e7-9add-4a93ee76e349?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNu=
+aMZjmlXXepKbqOsa8-6m8ExkRNpU ], governments have led fusion research effort=
+s for the better part of eight decades.=C2=A0
+The world=E2=80=99s governments have run a well-paced marathon, producing s=
+omething akin to a Moore=E2=80=99s Law in fusion for half a century. The tr=
+iple product =E2=80=93 of density, temperature, and time =E2=80=93 is the f=
+igure-of-merit in fusion, and it doubled every 1.8 years from the late 1950=
+s through the early 2000s, as one type of reactor - tokamaks, a form of mag=
+netic confinement fusion (MCF) - got larger and more powerful.=C2=A0
+In December, scientists at the government-funded National Ignition Facility=
+ (NIF) at Lawrence Livermore made headlines when they achieved fusion ignit=
+ion, or scientific energy breakeven, for the first time in a controlled env=
+ironment That is, they got more energy out of the fusion reaction than they=
+ spent on the laser energy used to drive it. The NIF used a different appro=
+ach: inertial confinement fusion (ICF).=C2=A0
+The world rejoiced =E2=80=93 fusion energy is possible! =E2=80=93 and then =
+sobered up =E2=80=93 it was like a AA battery=E2=80=99s worth of energy and=
+, experts pointed out, commercial-scale fusion power might not arrive for d=
+ecades.=C2=A0
+That=E2=80=99s the joke in fusion, that fusion power is =E2=80=9Calways 30 =
+years away.=E2=80=9D Funny joke, to be sure, but it may no longer be true.=
+=C2=A0
+We=E2=80=99re at the handoff point, from private to public, thanks to impro=
+ving compute and machine learning, better magnets and materials, the divers=
+e range of technical approaches that are finally becoming feasible, and dra=
+matically increased capital availability for startups.=C2=A0
+Companies like Helion, Commonwealth Fusion Systems, TAE Technologies, Gener=
+al Fusion, and Zap Energy are the sprinters. Armed with $5 billion in fundi=
+ng, most of which has come in just the past two years, and decades worth of=
+ research made feasible by new tools, fusion startups are locked in a mad d=
+ash to the finish in what might be called Fusion Race 2.0. At the end stand=
+s commercial fusion and a healthy chunk of the $15 trillion global energy m=
+arket.=C2=A0
+Magic can happen in this public-to-private handoff. After languishing for d=
+ecades post-Moon Landing, SpaceX revitalized the space economy [ https://su=
+bstack.com/redirect/350fa65a-e093-4368-b7ec-259b64d9cd52?j=3DeyJ1IjoiOXAwZ3=
+QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and enabled a constellat=
+ion of new businesses driven by both a sense of adventure and a profit moti=
+ve. The commercialization of space pulled in timelines for such sci-fi visi=
+ons as asteroid mining, space manufacturing, space hotels, and even Mars ha=
+bitation by decades.=C2=A0
+We don=E2=80=99t pretend to know who the SpaceX of fusion will be =E2=80=93=
+ in fact, it may be a confluence of factors more than any one company that =
+unlocks the fusion economy =E2=80=93 but we suspect that we=E2=80=99re at a=
+ similar point in fusion=E2=80=99s evolution.=C2=A0
+Commercial fusion may power (some of) our homes within the decade.=C2=A0
+As humanity embarks on this leg of one of our most important journeys, we t=
+hought it would be useful to put together a little primer on what=E2=80=99s=
+ at stake, how fusion works, where it=E2=80=99s been, and where we=E2=80=99=
+re heading. We=E2=80=99ll do that today by covering:
+Why is Fusion Important?
+How Fusion Works
+A Brief History of Fusion
+Plasma Progress
+Fusion Race 2.0
+The Fusion Startup Landscape
+Energy Too Cheap to Meter, Too Soon to Believe=C2=A0=C2=A0
+To start, let=E2=80=99s all get on the same page about why fusion is import=
+ant in the first place.
+Why is Fusion Important?=C2=A0
+According to Greek mythology, Prometheus defied the gods by stealing fire a=
+nd bestowing it upon humanity. Humans harnessed the power of fire to constr=
+uct magnificent cities and propel the growth of their civilization.
+It=E2=80=99s such an alluring myth that we still use it as a shorthand for =
+human ambition, innovation, and the quest for knowledge in the face of dang=
+er to this day.=C2=A0
+Fusion is the Promethean myth brought to life, minus the liver-eating Cauca=
+sian Eagle [ https://substack.com/redirect/31e9de6b-ee05-4b53-9c54-28b06e4e=
+1e72?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] (=
+we hope). It=E2=80=99s the engine that powers the stars. By wresting the se=
+cret of unlimited energy production from the heavens, humanity may once aga=
+in construct wonders in the physical world and propel the growth of our civ=
+ilization.=C2=A0
+A few years ago, it might have been controversial to argue that the world s=
+hould use more energy. The climate argument thrusted in the opposite direct=
+ion =E2=80=93 consume less energy and transition whatever energy we still n=
+eed to use to clean, renewable sources like solar and wind. Degrowth is a l=
+osing argument, and thankfully, it is in the process of being replaced by a=
+ more optimistic one: the call for energy superabundance.
+Instead of consuming less energy, this argument goes, we should produce uni=
+maginable amounts of clean energy from all of the sources we can: solar, wi=
+nd, geothermal, nuclear fission, and one day, fusion. With practically unli=
+mited cheap energy, we=E2=80=99ll be able to suck CO2 out of the air, mitig=
+ate the effects of climate change, and have enough left over to meaningfull=
+y improve the quality of life for billions of people around the world. We l=
+ike this argument.
+Energy use is the bound of civilization. If you increase it, civilization g=
+rows and progresses. If you limit it, civilization stagnates. If you dimini=
+sh it, civilization crumbles. Energy is the most fundamental determinant of=
+ a society=E2=80=99s success. It feeds us, houses us, wins wars, powers tec=
+hnology, and dictates policy. Even money is a mere proxy for energy.=C2=A0
+More energy lifts all boats. Numerous studies have found a long-run, direct=
+, causal, and bidirectional [ https://substack.com/redirect/2cb39cde-fa4c-4=
+c3c-b3ad-365c7d96fc20?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOs=
+a8-6m8ExkRNpU ] relationship between energy consumption and economic growth=
+=2E Researchers found [ https://substac=
+k.com/redirect/2cb39cde-fa4c-4c3c-b3ad=
+-365c7d96fc20?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8Ex=
+kRNpU ] that a 1% increase in real GDP per capita increases total energy co=
+nsumption by 0.6%. It works the other way, too [ https://substack.com/redir=
+ect/61e63101-2e77-48f6-956b-979b1f72f979?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_=
+ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]=E2=80=94a 0.9% increase in electricity u=
+se in OECD countries led to a 1.7% increase in GDP. For non=E2=80=93OECD co=
+untries, a 2% annual increase in electricity use increases GDP by 3.8%. =C2=
+=A0
+Simply put, more energy means more progress, and vice versa, across the boa=
+rd. More energy, and the physical abundance it brings, would spur growth wi=
+thout accelerating inequality.=C2=A0
+If you=E2=80=99re with us that more energy consumption is a good thing, the=
+n we have good news: humans are consuming more energy than ever before.=C2=
+=A0
+The challenge, of course, is that the sources of energy humanity has ridden=
+ to such great heights also happen to be bad for the environment. The CO2, =
+methane, and other greenhouse gasses emitted when they=E2=80=99re burned po=
+se an existential risk to the planet. Even if they didn=E2=80=99t harm the =
+environment, fossil fuels will eventually run out, even if we find increasi=
+ngly clever ways to dig them up.=C2=A0
+So the goal is to not just replace fossil fuels with cleaner energy sources=
+, but to produce oodles and oodles of clean, abundant energy, multiples mor=
+e than we produce and consume today.=C2=A0
+For much, much more =E2=80=94 including how we=E2=80=99ll produce all that =
+clean energy, a history of fusion, and an overview of the startups racing t=
+o achieve ignition=E2=80=A6
+If this button breaks, you can find the full essay at Not Boring [ https://=
+substack.com/redirect/411ed924-9056-4585-a810-6214af5c01ec?j=3DeyJ1IjoiOXAw=
+Z3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]:=20
+Thanks to Rahul [ https://substack.com/redirect/c94964b8-6835-495f-aee4-b8b=
+5293b9a55?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNp=
+U ] for the collaboration and to Dan [ https://substack.com/redirect/44f058=
+6e-54ac-4f1d-8363-88f0f0675c82?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjml=
+XXepKbqOsa8-6m8ExkRNpU ] for editing!=20
+That=E2=80=99s all for today! We=E2=80=99ll be back in your inbox a couple =
+times later this week =F0=9F=91=80
+Thanks for reading,=20
+Packy
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TX=
+pVME9Td2ljRzl6ZEY5cFpDSTZNVEl5T1RBMU16SXhMQ0pwWVhRaU9qRTJPRFEzTlRrMk5EQXNJb=
+VY0Y0NJNk1UWTROek0xTVRZME1Dd2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpH=
+bHpZV0pzWlY5bGJXRnBiQ0o5LjFHb1hCYlVwbUlkLUh0N1JnZTJPeERVampyWUpCM0VMRThzd2V=
+nbW5ZM00mZXhwaXJlcz0zNjVkIiwicCI6MTIyOTA1MzIxLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidS=
+I6MTYyODM1NDksImlhdCI6MTY4NDc1OTY0MCwiZXhwIjoxNjg3MzUxNjQwLCJpc3MiOiJwdWItM=
+CIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.v0JShsLnMiKLHzMSeg1E7MtmEziImz4CEfxcDBaoD=
+Ac?
+--3fccc223919aacf0931dd6db04b725235986710e457dc258f5bdd439b461
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta charset=3D"utf-8"><title>The Fusion Race</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.youtube-inner div.youtube-screen,
+  .typography.editor .markup div.youtube-inner div.youtube-screen,
+  .typography .markup div.vimeo-inner div.youtube-screen,
+  .typography.editor .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet,
+  .typography.editor .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-text,
+  .typography.editor .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-photos-container.two,
+  .typography.editor .markup .tweet .tweet-photos-container.two,
+  .typography .markup .tweet .tweet-photos-container.three,
+  .typography.editor .markup .tweet .tweet-photos-container.three,
+  .typography .markup .tweet .tweet-photos-container.four,
+  .typography.editor .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-img,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-description,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-descript=
+ion {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .social-media-share-preview__description {
+    -webkit-line-clamp: 2;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer {
+    padding: 36px;
+    height: 680px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  .header-with-anchor-widget .header-anchor-widget,
+  .header-anchor-container .header-anchor-widget {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 32px 0 0 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .post-label {
+    margin-top: 8px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .footer-facepile-container {
+    height: 64px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.use-separators {
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.next-prev {
+    height: 64px;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  body .markup table.image-wrapper img,
+  body .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.youtube-inner div.youtube-screen,
+  body .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  body .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.embedded-publication-wrap .embedded-publication.show-sub=
+scribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe .subscription-widget-subscribe .button,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-photos-container.two,
+  body .markup .tweet .tweet-photos-container.three,
+  body .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-description {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed img.install-substack-app-embed-i=
+mg {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-link=
+ {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 17px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .reader2-text-b3 {
+    line-height: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .reader2-text-h4 {
+    line-height: 24px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper {
+    width: 100%;
+    padding: 16px;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper:empty {
+    display: none;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 650px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .poll-editor-modal {
+    min-width: calc(100% - 20px);
+  }
+}
+
+
+@media (max-width: 750px) {
+  .poll-embed .poll-anchor-target .poll-anchor-copy-button {
+    left: 8px;
+    top: 45px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    width: 552px;
+    padding: 26px 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .m=
+odal-exit-btn {
+    margin-right: -20px;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjMwNTIyMTI0NzEwLjMuOTJiMDNiNWU3ZGI0MjY4YkBtZy1kMS5zdWJzdGFjay5jb20-IiwidS=
+I6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFja=
+y5jb20iLCJwIjoxMjI5MDUzMjEsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6=
+MTAwMjUsImMiOiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE2ODQ3NTk=
+2NDAsImV4cCI6MTY4NzM1MTY0MCwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.g1fUC4fK44lLy=
+m2Xb18-HcFIfO_u-Qro8JsgYR8AI_w" alt=3D"" width=3D"1" height=3D"1" border=3D=
+"0" style=3D"height:1px !important;width:1px !important;border-width:0 !imp=
+ortant;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !i=
+mportant;margin-left:0 !important;padding-top:0 !important;padding-bottom:0=
+ !important;padding-right:0 !important;padding-left:0 !important;"/><img sr=
+c=3D"https://eotrx.substackcdn.com/open?token=3DeyJtIjoiPDIwMjMwNTIyMTI0NzE=
+wLjMuOTJiMDNiNWU3ZGI0MjY4YkBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MTYyODM1NDksIn=
+IiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoxM=
+jI5MDUzMjEsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTAwMjUsImMiOiJw=
+b3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE2ODQ3NTk2NDAsImV4cCI6MTY=
+4NzM1MTY0MCwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.g1fUC4fK44lLym2Xb18-HcFIfO_u-=
+Qro8JsgYR8AI_w" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"hei=
+ght:1px !important;width:1px !important;border-width:0 !important;margin-to=
+p:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-=
+left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padd=
+ing-right:0 !important;padding-left:0 !important;"/><div style=3D"display:n=
+one;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0p=
+x;opacity:0;overflow:hidden;" class=3D"preview">Packy and Rahul Team Up to =
+Cover the History and Future of Fusion &#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;</div><table role=3D"presentation" width=3D"100%" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0" class=3D"email-body-container"><tr><t=
+d></td><td width=3D"550" class=3D"content"></td><td></td></tr><tr><td></td>=
+<td align=3D"left" width=3D"550" class=3D"content"><div style=3D"font-size:=
+ 16px; line-height: 26px; margin: 0 auto; max-width: 550px; overflow-wrap: =
+break-word; width: 100%;"><table role=3D"presentation" width=3D"100%" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"right" style=
+=3D"height: 20px;"><table role=3D"presentation" width=3D"auto" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0"><tr><td style=3D"vertical-align: middl=
+e;"><span class=3D"tw-font-body tw-text-ssm tw-text-substack-secondary" sty=
+le=3D"color: #808080 !important; font-family: SF Pro Text, -apple-system, B=
+linkMacSystemFont, Inter, Segoe UI, Roboto, Helvetica, Arial, sans-serif, A=
+pple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important; font-size: 13=
+px !important;"><a href=3D"https://open.substack.com/pub/notboring/p/the-fu=
+sion-race?utm_source=3Demail&redirect=3Dapp-store" class=3D"tw-text-substac=
+k-secondary tw-underline" style=3D"-webkit-text-decoration-line: underline =
+!important; color: #808080 !important; text-decoration-line: underline !imp=
+ortant;">Open in app</a> or <a href=3D"https://substack.com/redirect/2/eyJl=
+IjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvdGhlLWZ1c2lvbi1yYWNlP3Rva2VuPWV5SjF=
+jMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVEl5T1RBMU16SXhMQ0pwWVhRaU=
+9qRTJPRFEzTlRrMk5EQXNJbVY0Y0NJNk1UWTROek0xTVRZME1Dd2lhWE56SWpvaWNIVmlMVEV3T=
+URJMUlpd2ljM1ZpSWpvaWNHOXpkQzF5WldGamRHbHZiaUo5LlZMV3ZEQ3Fob3QwamVMRk12ZHg2=
+OUNMcmY4UWlUOUVMMHFTclp0VERhTjAiLCJwIjoxMjI5MDUzMjEsInMiOjEwMDI1LCJmIjp0cnV=
+lLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjg0NzU5NjQwLCJleHAiOjE2ODczNTE2NDAsImlzcyI6In=
+B1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.BaGLv5EyqiJKz9s7J-gHLqJlHeSKIPhTRbyu=
+4v9tFB0?" class=3D"tw-text-substack-secondary tw-underline" style=3D"-webki=
+t-text-decoration-line: underline !important; color: #808080 !important; te=
+xt-decoration-line: underline !important;">online</a></span></td></tr></tab=
+le></td></tr></table><div dir=3D"auto" class=3D"post typography" style=3D"f=
+ont-size: 16px; line-height: 26px; padding: 16px 0 0 0;"><div class=3D"post=
+-header" style=3D"font-size: 16px; line-height: 26px;"><h1 class=3D"post-ti=
+tle published" style=3D"-moz-appearance: optimizelegibility; -moz-osx-font-=
+smoothing: antialiased; -webkit-appearance: optimizelegibility; -webkit-fon=
+t-smoothing: antialiased; appearance: optimizelegibility; color: #404040; f=
+ont-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe=
+ UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI =
+Emoji', 'Segoe UI Symbol'; font-size: 32px; font-weight: bold; line-height:=
+ 36px; margin: 0;"><a href=3D"https://substack.com/app-link/post?publicatio=
+n_id=3D10025&post_id=3D122905321&utm_source=3Dpost-email-title&isFreemail=
+=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTIyOTA1MzIxLCJpYXQ=
+iOjE2ODQ3NTk2NDAsImV4cCI6MTY4NzM1MTY0MCwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG=
+9zdC1yZWFjdGlvbiJ9.VLWvDCqhot0jeLFMvdx69CLrf8QiT9EL0qSrZtTDaN0" style=3D"co=
+lor: #404040; text-decoration: none;">The Fusion Race</a></h1><h3 class=3D"=
+subtitle" style=3D"-moz-appearance: optimizelegibility; -moz-osx-font-smoot=
+hing: antialiased; -webkit-appearance: optimizelegibility; -webkit-font-smo=
+othing: antialiased; appearance: optimizelegibility; color: #808080; font-f=
+amily: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI',=
+ Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji=
+', 'Segoe UI Symbol'; font-size: 18px; font-weight: normal; line-height: 24=
+px; margin: 4px 0 0; margin-top: 12px;">Packy and Rahul Team Up to Cover th=
+e History and Future of Fusion</h3><table cellpadding=3D"0" cellspacing=3D"=
+0" class=3D"post-meta custom" style=3D"align-items: center; height: 20px; m=
+argin: 1em 0;"><tr><td title=3D"2023-05-22T12:47:14.387Z" class=3D"post-met=
+a-item post-date" style=3D"color: #808080; font-family: -apple-system, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Co=
+lor Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weig=
+ht: 400; height: 14px; margin-right: 0; padding: 0px 12px 0px 0; padding-bo=
+ttom: 0; padding-right: 0; padding-top: 0; position: relative; text-decorat=
+ion: none; white-space: nowrap;"><div class=3D"pencraft frontend-pencraft-B=
+ox-module__reset--tAIEo frontend-pencraft-Text-module__size-11--1-ofT front=
+end-pencraft-Text-module__line-height-20--1soeQ frontend-pencraft-Text-modu=
+le__weight-medium--aTbx5 frontend-pencraft-Text-module__font-meta--2i-cR fr=
+ontend-pencraft-Text-module__color-secondary--XjVGl frontend-pencraft-Text-=
+module__transform-uppercase--38jbr frontend-pencraft-Text-module__reset--20=
+JLV frontend-pencraft-Text-module__meta--3RRSj" style=3D"color: #808080; fo=
+nt-family: 'SF Compact', -apple-system, -apple-system, -system-ui, BlinkMac=
+SystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color =
+Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 11px; font-weight: =
+500; letter-spacing: .2px; line-height: 20px; margin: 0; text-decoration: u=
+nset; text-transform: uppercase;"><time dateTime=3D"2023-05-22T12:47:14.387=
+Z">May 22</time></div></td></tr></table><table role=3D"presentation" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"email-u=
+fi-2-top" style=3D"border-bottom: 1px solid rgba(0, 0, 0, .13); border-top:=
+ 1px solid rgba(0, 0, 0, .13); min-width: 100%;"><tr height=3D"16"><td heig=
+ht=3D"16" style=3D"font-size: 0px; line-height: 0;">&#160;</td></tr><tr><td=
+><table role=3D"presentation" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0"><tr><td><table role=3D"presentation" width=3D"auto" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td style=3D"vertical-alig=
+n: middle;"><table role=3D"presentation" width=3D"38" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a href=3D"https://sub=
+stack.com/app-link/post?publication_id=3D10025&post_id=3D122905321&utm_sour=
+ce=3Dsubstack&isFreemail=3Dtrue&submitLike=3Dtrue&token=3DeyJ1c2VyX2lkIjoxN=
+jI4MzU0OSwicG9zdF9pZCI6MTIyOTA1MzIxLCJyZWFjdGlvbiI6IuKdpCIsImlhdCI6MTY4NDc1=
+OTY0MCwiZXhwIjoxNjg3MzUxNjQwLCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJyZWFjdGlvbiJ=
+9.TXP8_YuzJGcu6nvopZ1losFZLQaLbPUwlu2BqJVmsXc&utm_medium=3Demail" style=3D"=
+border: 1px solid rgba(0, 0, 0, .13); border-radius: 100000px; box-sizing: =
+border-box; color: #808080; display: inline-block; font-family: 'SF Pro Tex=
+t', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, H=
+elvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe =
+UI Symbol'; font-size: 12px; font-weight: 500; line-height: 1; min-width: 3=
+8px; padding: 9px 0; text-decoration: none; text-transform: uppercase; widt=
+h: 38px;" class=3D"email-icon-button"><img src=3D"https://substackcdn.com/i=
+mage/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%=
+2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26fill%3Dnone%26s=
+troke%3D%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"=
+border: none !important; max-width: 18px; vertical-align: middle;" alt clas=
+s=3D"icon"></a></td></tr></table></td><td width=3D"8" style=3D"min-width: 8=
+px"></td><td style=3D"vertical-align: middle;"><table role=3D"presentation"=
+ width=3D"38" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td alig=
+n=3D"center"><a href=3D"https://substack.com/app-link/post?publication_id=
+=3D10025&post_id=3D122905321&utm_source=3Dsubstack&utm_medium=3Demail&isFre=
+email=3Dtrue&comments=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZC=
+I6MTIyOTA1MzIxLCJpYXQiOjE2ODQ3NTk2NDAsImV4cCI6MTY4NzM1MTY0MCwiaXNzIjoicHViL=
+TEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.VLWvDCqhot0jeLFMvdx69CLrf8QiT9EL0qS=
+rZtTDaN0&utm_source=3Dsubstack&utm_medium=3Demail" style=3D"border: 1px sol=
+id rgba(0, 0, 0, .13); border-radius: 100000px; box-sizing: border-box; col=
+or: #808080; display: inline-block; font-family: 'SF Pro Text', -apple-syst=
+em, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial=
+, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; fon=
+t-size: 12px; font-weight: 500; line-height: 1; min-width: 38px; padding: 9=
+px 0; text-decoration: none; text-transform: uppercase; width: 38px;" class=
+=3D"email-icon-button"><img src=3D"https://substackcdn.com/image/fetch/w_36=
+,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%=
+2Ficon%2FLucideComments%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%252=
+3808080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none=
+ !important; max-width: 18px; vertical-align: middle;" alt class=3D"icon"><=
+/a></td></tr></table></td><td width=3D"8" style=3D"min-width: 8px"></td><td=
+ style=3D"vertical-align: middle;"><table role=3D"presentation" width=3D"38=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"=
+><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL3AvdGhlLWZ1c2lvbi1yYWNlP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT=
+1lbWFpbCZhY3Rpb249cmVzdGFjay1jb21tZW50IiwicCI6MTIyOTA1MzIxLCJzIjoxMDAyNSwiZ=
+iI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY4NDc1OTY0MCwiZXhwIjoxNjg3MzUxNjQwLCJp=
+c3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.E51I6of7PpX7ZsVfGzJpfnpfZBtr=
+Oaqlb4vdwPpLhMw?&utm_source=3Dsubstack&utm_medium=3Demail" style=3D"border:=
+ 1px solid rgba(0, 0, 0, .13); border-radius: 100000px; box-sizing: border-=
+box; color: #808080; display: inline-block; font-family: 'SF Pro Text', -ap=
+ple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetic=
+a, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symb=
+ol'; font-size: 12px; font-weight: 500; line-height: 1; min-width: 38px; pa=
+dding: 9px 0; text-decoration: none; text-transform: uppercase; width: 38px=
+;" class=3D"email-icon-button"><img src=3D"https://substackcdn.com/image/fe=
+tch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubst=
+ack.com%2Ficon%2FNoteForwardIcon%3Fv%3D4%26height%3D36%26fill%3Dnone%26stro=
+ke%3D%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"bor=
+der: none !important; max-width: 18px; vertical-align: middle;" alt class=
+=3D"icon"></a></td></tr></table></td></tr></table></td><td align=3D"right">=
+<table role=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0"><tr><td style=3D"vertical-align: middle;"><table role=3D"=
+presentation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0"><tr><td align=3D"center"><a href=3D"https://substack.com/app-link/post?p=
+ublication_id=3D10025&post_id=3D122905321&utm_source=3Dsubstack&utm_medium=
+=3Demail&utm_content=3Dshare&action=3Dshare&triggerShare=3Dtrue&isFreemail=
+=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTIyOTA1MzIxLCJpYXQ=
+iOjE2ODQ3NTk2NDAsImV4cCI6MTY4NzM1MTY0MCwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG=
+9zdC1yZWFjdGlvbiJ9.VLWvDCqhot0jeLFMvdx69CLrf8QiT9EL0qSrZtTDaN0" class=3D"em=
+ail-button-outline" style=3D"border: 1px solid rgba(0, 0, 0, .13); border-r=
+adius: 100000px; color: #808080; display: inline-block; font-family: 'SF Pr=
+o Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Robo=
+to, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'S=
+egoe UI Symbol'; font-size: 12px; font-weight: 500; line-height: 12px; padd=
+ing: 9px 14px; text-decoration: none; text-transform: uppercase;"><div clas=
+s=3D"email-button-spacer" style=3D"display: inline-block; font-size: 16px; =
+line-height: 26px; max-width: 0; min-height: 18px; vertical-align: middle;"=
+></div><span class=3D"email-button-text" style=3D"vertical-align: middle;">=
+Share</span></a></td></tr></table></td></tr></table></td></tr></table></td>=
+</tr><tr height=3D"16"><td height=3D"16" style=3D"font-size: 0px; line-heig=
+ht: 0;">&#160;</td></tr></table></div></div><div dir=3D"auto" class=3D"post=
+ typography" style=3D"font-size: 16px; line-height: 26px; padding: 16px 0 0=
+ 0;"><div dir=3D"auto" class=3D"body markup" style=3D"font-size: 16px; line=
+-height: 26px; margin-bottom: 16px; text-align: initial; width: 100%; word-=
+break: break-word;"><p style=3D"color: #404040; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 20px 0; margin-top: 0;"><em><span>Welcome to the&#160;=
+</span><strong>1,097&#160;newly Not Boring people&#160;</strong><span>who h=
+ave joined us over the past two weeks! If you haven&#8217;t subscribed, joi=
+n&#160;</span><strong>203,901 </strong><span>smart, curious folks by subscr=
+ibing here:</span></em></p><div data-component-name=3D"SubscribeWidget" cla=
+ss=3D"subscribe-widget is-signed-up is-fully-subscribed" style=3D"direction=
+: ltr; font-size: 16px; line-height: 26px; margin: 0 0 1em;"><p class=3D"bu=
+tton-wrapper" style=3D"color: #404040; font-size: 16px; line-height: 26px; =
+margin: 0 0 20px 0; text-align: center;"><a href=3D"https://substack.com/re=
+direct/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjY291bnQiLCJwIjoxMjI5MD=
+UzMjEsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjg0NzU5NjQwLCJle=
+HAiOjE2ODczNTE2NDAsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.RH3wyYx=
+K2FJGe9f9ApBa93aqxwD4T0mdHhLxgGLjE6g?" class=3D"button subscribe-btn outlin=
+e" style=3D"background: transparent; background-color: transparent; border:=
+ 1px solid #67bdfc; border-radius: 4px; box-sizing: border-box; color: #67b=
+dfc; cursor: pointer; display: inline-block; font-family: -apple-system, Bl=
+inkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple =
+Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-we=
+ight: 600; height: auto; line-height: 20px; margin: 0 auto; opacity: 1; out=
+line: none; padding: 12px 20px; text-align: center; text-decoration: none !=
+important; white-space: nowrap;"><img src=3D"https://substackcdn.com/image/=
+fetch/w_40,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsub=
+stack.com%2Ficon%2FLucideCheck%3Fv%3D4%26height%3D40%26fill%3Dtransparent%2=
+6stroke%3D%252367bdfc%26strokeWidth%3D3.6" width=3D"20" height=3D"20" style=
+=3D"-ms-interpolation-mode: bicubic; border: none !important; display: inli=
+ne-block; height: auto; margin: -2px 8px 0 0; max-width: 20px; vertical-ali=
+gn: middle;" alt class=3D"check-icon static"><span style=3D"text-decoration=
+: none;">Subscribe</span></a></p></div><div style=3D"font-size: 16px; line-=
+height: 26px;"><hr style=3D"background: #e0e0e0; border: none; height: 1px;=
+ margin: 32px 0; padding: 0;"></div><p style=3D"color: #404040; font-size: =
+16px; line-height: 26px; margin: 0 0 20px 0;">Hi friends &#128075;,&#160;</=
+p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0=
+ 0 20px 0;">Happy Monday! Grab a coffee, shake off the weekend, and let&#82=
+17;s talk fusion.&#160;</p><p style=3D"color: #404040; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 20px 0;">Energy is upstream of everything we wr=
+ite about here at Not Boring. Cheap, abundant energy means economic prosper=
+ity, sci-fi brought to life, and even, one day, flying cars. So when Helion=
+ announced that it planned to deliver commercial fusion power in 2028, our =
+ears perked up.&#160;</p><p style=3D"color: #404040; font-size: 16px; line-=
+height: 26px; margin: 0 0 20px 0;"><span>Luckily, we&#8217;d been working o=
+n a fusion piece. </span><a href=3D"https://substack.com/redirect/c94964b8-=
+6835-495f-aee4-b8b5293b9a55?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXe=
+pKbqOsa8-6m8ExkRNpU" rel style=3D"color: #404040; text-decoration: underlin=
+e;">Rahul Rana</a><span> (who </span><a href=3D"https://substack.com/redire=
+ct/e7d28724-4080-4706-8efd-b8b46ebf9562?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_Z=
+lNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"color: #404040; text-decorati=
+on: underline;">graduated from Rutgers last weekend</a><span> &#8211; congr=
+ats Rahul!!) is both a student of the history of </span><a href=3D"https://=
+substack.com/redirect/7008d925-39f7-4727-8e3f-7fb558cfa2bd?j=3DeyJ1IjoiOXAw=
+Z3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"color: #40=
+4040; text-decoration: underline;">moonshot</a><span> projects in the Unite=
+d States and smart enough to understand and break down everything going on =
+in the world of fusion.&#160;</span></p><p style=3D"color: #404040; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 20px 0;">So we decided to team up =
+on a piece explaining how fusion works, where we are in our progress toward=
+s commercial-scale fusion, and why the transition from government-funded to=
+ private sector should spell acceleration.&#160;</p><p style=3D"color: #404=
+040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">We are certai=
+nly not experts on fusion. Treat this as a ride-along as we learn about the=
+ science and history of fusion, where it stands today, and where we might b=
+e headed in the coming years, complete with an overview of some of the most=
+ promising fusion startups.&#160;It&#8217;s a topic we expect we&#8217;ll h=
+ear about and cover a lot more in the years ahead.</p><p style=3D"color: #4=
+04040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Wheth=
+er 2028 is realistic or not, the Fusion Race is on. This piece is meant to =
+be your starting point on one of the next decade&#8217;s most important adv=
+entures.&#160;Read on or </span><a href=3D"https://substack.com/redirect/89=
+0ab582-c800-4254-a045-40ae974c651f?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaM=
+ZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"color: #404040; text-decoration: u=
+nderline;">click here to jump to the full version online</a><span>.</span><=
+/p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: =
+0 0 20px 0;">Let&#8217;s get to it.</p><div style=3D"font-size: 16px; line-=
+height: 26px;"><hr style=3D"background: #e0e0e0; border: none; height: 1px;=
+ margin: 32px 0; padding: 0;"></div><p style=3D"color: #404040; font-size: =
+16px; line-height: 26px; margin: 0 0 20px 0;"><strong><span>Today&#8217;s N=
+ot Boring is brought to you by&#8230; </span><a href=3D"https://substack.co=
+m/redirect/d21667f8-b730-40c6-b41d-4d6a45315735?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J=
+5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"color: #404040; text-=
+decoration: underline;">Wander</a></strong></p><div class=3D"captioned-imag=
+e-container-static" style=3D"font-size: 16px; line-height: 26px; margin: 32=
+px auto;"><figure style=3D"margin: 0 auto; width: 100%;"><table class=3D"im=
+age-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-alig=
+n: center;"></td><td align=3D"left" class=3D"content" width=3D"574" style=
+=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"=
+https://substack.com/redirect/57c306b8-65e9-4516-9334-a340744c337a?j=3DeyJ1=
+IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"al=
+ign-items: center; border: none; display: block; flex-direction: column; he=
+ight: auto; margin: 0; padding: 0; position: relative; text-decoration: non=
+e; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://substack=
+-post-media.s3.amazonaws.com/public/images/d98aeedb-b1b2-49e2-a204-a6148258=
+d707_1000x750.gif&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:n=
+ull,&quot;height&quot;:750,&quot;width&quot;:1000,&quot;resizeWidth&quot;:5=
+74,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot=
+;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;=
+topImage&quot;:false,&quot;internalRedirect&quot;:null}" alt width=3D"550" =
+height=3D"412.5" class=3D"wide-image" src=3D"https://substackcdn.com/image/=
+fetch/w_574,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post=
+-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd98aeedb-b1b2-49e2-a204-a614825=
+8d707_1000x750.gif" style=3D"-ms-interpolation-mode: bicubic; border: none =
+!important; display: block; height: auto; margin: 0 auto; margin-bottom: 0;=
+ max-width: 100% !important; vertical-align: middle; width: auto !important=
+;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></table></f=
+igure></div><p style=3D"color: #404040; font-size: 16px; line-height: 26px;=
+ margin: 0 0 20px 0;"><em><strong><a href=3D"https://substack.com/redirect/=
+d21667f8-b730-40c6-b41d-4d6a45315735?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNu=
+aMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"color: #404040; text-decoration:=
+ underline;">Wander</a><span> </span></strong><span>is one of our most popu=
+lar sponsors ever&#8230;and there&#8217;s good reason: the vacation homes a=
+re dope. If you&#8217;re looking to book a last minute MDW trip or a relaxi=
+ng getaway this summer, you should check out Wander&#8217;s listings. Plus,=
+ </span><a href=3D"https://substack.com/redirect/d21667f8-b730-40c6-b41d-4d=
+6a45315735?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRN=
+pU" rel style=3D"color: #404040; text-decoration: underline;">Wander REIT</=
+a><span> presents a unique investment opportunity. The REIT just released i=
+ts Q1 results, and it delivered as promised: 5.1% appreciation and 8% annua=
+lized income. As a Wander REIT investor myself, I just received my first di=
+vidend!</span></em></p><p style=3D"color: #404040; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 20px 0;"><em><span>Wander is a network of smart vac=
+ation homes that come with inspiring views, modern workstations, restful be=
+ds, hotel-grade cleaning and 24/7 concierge service &#8211;&#8211; combinin=
+g the quality of a luxury hotel with the space and comfort of a vacation ho=
+me, only better. All of the Wander homes look like they are straight out of=
+ one of those luxury car commercials. As a Not Boring reader, you can use p=
+romo code </span><strong>notboring</strong><span> for $300 off your next tr=
+ip. (offer expires Monday 6/5 at 11:59pm). </span><strong><a href=3D"https:=
+//substack.com/redirect/d21667f8-b730-40c6-b41d-4d6a45315735?j=3DeyJ1IjoiOX=
+AwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"color: #=
+404040; text-decoration: underline;">Explore now</a></strong><span>.</span>=
+</em></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 20px 0;"><em><span>But that&#8217;s only part of the story. Wande=
+r recently launched </span><strong><a href=3D"https://substack.com/redirect=
+/d21667f8-b730-40c6-b41d-4d6a45315735?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlN=
+uaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"color: #404040; text-decoration=
+: underline;">Wander REIT</a></strong><span> &#8211;&#8211; a first-of-its-=
+kind vacation rental REIT that gives you the chance to own a piece of their=
+ magical portfolio of homes. With Wander REIT, accredited investors have th=
+e opportunity to earn income and diversify their portfolio without the head=
+ache and hassle of buying a property, renting it out, or maintaining it.</s=
+pan></em></p><p class=3D"button-wrapper" data-attrs=3D"{&quot;url&quot;:&qu=
+ot;https://www.wander.com/reit?utm_medium=3Demail&amp;utm_source=3DPacky&am=
+p;utm_content=3DNewsletter_placement&amp;utm_campaign=3DRE_investing_new_fl=
+ow_Q1_results_20230515&quot;,&quot;text&quot;:&quot;Explore Atlas&quot;,&qu=
+ot;action&quot;:null,&quot;class&quot;:null}" data-component-name=3D"Button=
+CreateButton" style=3D"color: #404040; font-size: 16px; line-height: 26px; =
+margin: 0 0 20px 0; text-align: center;"><a class=3D"button primary" href=
+=3D"https://substack.com/redirect/d21667f8-b730-40c6-b41d-4d6a45315735?j=3D=
+eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=
+=3D"background-color: #67bdfc; border: none; border-radius: 4px; box-sizing=
+: border-box; color: #ffffff !important; cursor: pointer; display: inline-b=
+lock; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, H=
+elvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe =
+UI Symbol'; font-size: 14px; font-weight: 600; height: auto; line-height: 2=
+0px; margin: 0; opacity: 1; outline: none; padding: 12px 20px; text-align: =
+center; text-decoration: none !important; white-space: nowrap;"><span style=
+=3D"color: #ffffff; text-decoration: none;">Explore Atlas</span></a></p><di=
+v style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background: #e=
+0e0e0; border: none; height: 1px; margin: 32px 0; padding: 0;"></div><h1 cl=
+ass=3D"header-with-anchor-widget" style=3D"-moz-appearance: optimizelegibil=
+ity; -moz-osx-font-smoothing: antialiased; -webkit-appearance: optimizelegi=
+bility; -webkit-font-smoothing: antialiased; appearance: optimizelegibility=
+; color: #404040; font-family: 'SF Compact Display', -apple-system, BlinkMa=
+cSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color=
+ Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 2em; font-weight: =
+bold; line-height: 1.16em; margin: 1em 0 0.625em 0; position: relative;">Th=
+e Fusion Race</h1><p style=3D"color: #404040; font-size: 16px; line-height:=
+ 26px; margin: 0 0 20px 0;"><strong>Packy McCormick x Rahul Rana</strong></=
+p><div class=3D"captioned-image-container-static" style=3D"font-size: 16px;=
+ line-height: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto; wi=
+dth: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tb=
+ody><tr><td style=3D"text-align: center;"></td><td align=3D"left" class=3D"=
+content" width=3D"908" style=3D"text-align: center;"><a class=3D"image-link=
+" target=3D"_blank" href=3D"https://substack.com/redirect/a3bbcb1a-6fe1-4ba=
+9-aea1-63c61d16b73c?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8=
+-6m8ExkRNpU" rel style=3D"align-items: center; border: none; display: block=
+; flex-direction: column; height: auto; margin: 0; padding: 0; position: re=
+lative; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&=
+quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/b9bd=
+529a-5f77-4b93-8d34-1c51b0ea4f8f_908x458.png&quot;,&quot;fullscreen&quot;:n=
+ull,&quot;imageSize&quot;:null,&quot;height&quot;:458,&quot;width&quot;:908=
+,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:641573,&quot;alt&quot;:null=
+,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&q=
+uot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;in=
+ternalRedirect&quot;:null}" alt width=3D"550" height=3D"277.42290748898677"=
+ class=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_1816,c_l=
+imit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-me=
+dia.s3.amazonaws.com%2Fpublic%2Fimages%2Fb9bd529a-5f77-4b93-8d34-1c51b0ea4f=
+8f_908x458.png" style=3D"-ms-interpolation-mode: bicubic; border: none !imp=
+ortant; display: block; height: auto; margin: 0 auto; margin-bottom: 0; max=
+-width: 100% !important; vertical-align: middle; width: auto !important;"><=
+/a></td><td style=3D"text-align: center;"></td></tr></tbody></table></figur=
+e></div><p style=3D"color: #404040; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 20px 0;">Two weeks ago, a startup funded and chaired by Sam Altman=
+ announced a big partnership with Microsoft. This time, instead of investin=
+g in Sam&#8217;s brain, Microsoft committed to buying his power.</p><div cl=
+ass=3D"captioned-image-container-static" style=3D"font-size: 16px; line-hei=
+ght: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto; width: 100%=
+;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr=
+><td style=3D"text-align: center;"></td><td align=3D"left" class=3D"content=
+" width=3D"1456" style=3D"text-align: center;"><a class=3D"image-link" targ=
+et=3D"_blank" href=3D"https://substack.com/redirect/fd278373-3ec1-43c8-aa8e=
+-7654ef45082f?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8Ex=
+kRNpU" rel style=3D"align-items: center; border: none; display: block; flex=
+-direction: column; height: auto; margin: 0; padding: 0; position: relative=
+; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:=
+&quot;https://substack-post-media.s3.amazonaws.com/public/images/bf6c5170-d=
+445-4467-960c-9b3ea45941a4_1600x1071.png&quot;,&quot;fullscreen&quot;:null,=
+&quot;imageSize&quot;:null,&quot;height&quot;:975,&quot;width&quot;:1456,&q=
+uot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quo=
+t;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowT=
+heFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:n=
+ull}" alt width=3D"550" height=3D"368.30357142857144" class=3D"wide-image" =
+src=3D"https://substackcdn.com/image/fetch/w_2912,c_limit,f_auto,q_auto:goo=
+d,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2=
+Fpublic%2Fimages%2Fbf6c5170-d445-4467-960c-9b3ea45941a4_1600x1071.png" styl=
+e=3D"-ms-interpolation-mode: bicubic; border: none !important; display: blo=
+ck; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !import=
+ant; vertical-align: middle; width: auto !important;"></a></td><td style=3D=
+"text-align: center;"></td></tr></tbody></table><figcaption class=3D"image-=
+caption" style=3D"box-sizing: content-box; color: #808080; font-size: 14px;=
+ font-weight: 400; letter-spacing: -.15px; line-height: 20px; margin-top: 8=
+px; padding-left: 15%; padding-right: 15%; text-align: center; width: 70%;"=
+><em>Helion</em></figcaption></figure></div><p style=3D"color: #404040; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Specifically, a=
+ccording to the </span><a href=3D"https://substack.com/redirect/d56f78d2-37=
+fc-42b6-b281-1ede29465e25?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepK=
+bqOsa8-6m8ExkRNpU" rel style=3D"color: #404040; text-decoration: underline;=
+">press release</a><span>:&#160;</span></p><blockquote style=3D"border-left=
+: 4px solid #67bdfc; margin: 20px 0; padding: 0;"><p style=3D"color: #40404=
+0; font-size: 16px; line-height: 26px; margin: 0 0 20px 0; margin-left: 20p=
+x;"><em><span>Helion Energy (Helion) today announced an agreement to provid=
+e Microsoft electricity from its first fusion power plant. The plant is </s=
+pan><strong>expected to be online by 2028</strong><span> and will target po=
+wer generation of 50 MW or greater after a 1-year ramp up period. The plann=
+ed operational date for this first of its kind facility is </span><strong>s=
+ignificantly sooner than typical projections for deployment of commercial f=
+usion power</strong><span>.</span></em></p></blockquote><p style=3D"color: =
+#404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Whi=
+le Sam Altman selling to Microsoft invites obvious </span><a href=3D"https:=
+//substack.com/redirect/29cf6a24-1a99-4901-80ee-6c5a62f9aa1e?j=3DeyJ1IjoiOX=
+AwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"color: #=
+404040; text-decoration: underline;">OpenAI</a><span> comparisons, the bett=
+er analogy may be to one of the companies founded by Sam&#8217;s erstwhile =
+OpenAI co-founder: SpaceX.&#160;</span></p><p style=3D"color: #404040; font=
+-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Like SpaceX, </s=
+pan><a href=3D"https://substack.com/redirect/569d0179-9e66-4b71-be3a-e3aedc=
+d389fb?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" =
+rel style=3D"color: #404040; text-decoration: underline;">Helion</a><span> =
+set an absurdly aggressive timeline in an industry not recently known for i=
+ts speed. Like SpaceX, Helion is the beneficiary of billions of dollars and=
+ decades&#8217; worth of government-funded research, of global competition =
+and cooperation in the pursuit of civilization-scale goals.&#160;</span></p=
+><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 =
+0 20px 0;"><span>And like SpaceX, Helion may mark a turning point in one of=
+ the coming decades&#8217; most consequential industries, the </span><stron=
+g>baton handoff from the measured and fundamental world of government and a=
+cademia into the chaos and haste of the market</strong><span>.&#160;</span>=
+</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin:=
+ 0 0 20px 0;">We&#8217;re using Helion liberally here. We don&#8217;t know =
+who will win Fusion Race 2.0, and this isn&#8217;t a winner-take-all market=
+=2E But Helion is a worthy stand-in for=
+ the growing number of privately funde=
+d fusion companies racing to bring the power of the stars to the earth&#821=
+7;s electric grid, economically.&#160;</p><p style=3D"color: #404040; font-=
+size: 16px; line-height: 26px; margin: 0 0 20px 0;">Imagine a bizarro relay=
+ marathon in which one runner carries the baton for the first 26.0 miles, o=
+pens up a backpack full of batons, and hands them out liberally to a waitin=
+g horde of sprinters to dash all-out for the final 0.2 miles. That&#8217;s =
+the best analogy we can come up with for this moment in the Fusion Race.&#1=
+60;</p><div class=3D"captioned-image-container-static" style=3D"font-size: =
+16px; line-height: 26px; margin: 32px auto;"><figure style=3D"margin: 0 aut=
+o; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;=
+"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" clas=
+s=3D"content" width=3D"908" style=3D"text-align: center;"><a class=3D"image=
+-link" target=3D"_blank" href=3D"https://substack.com/redirect/f69f09b2-d87=
+f-4baa-b25b-d7e709bed56b?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKb=
+qOsa8-6m8ExkRNpU" rel style=3D"align-items: center; border: none; display: =
+block; flex-direction: column; height: auto; margin: 0; padding: 0; positio=
+n: relative; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot=
+;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images=
+/f936bcdc-91cd-414a-8f88-315b7dbe7a62_908x458.png&quot;,&quot;fullscreen&qu=
+ot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:458,&quot;width&quot=
+;:908,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:n=
+ull,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quo=
+t;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect=
+&quot;:null}" alt width=3D"550" height=3D"277.42290748898677" class=3D"wide=
+-image" src=3D"https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_=
+auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazona=
+ws.com%2Fpublic%2Fimages%2Ff936bcdc-91cd-414a-8f88-315b7dbe7a62_908x458.png=
+" style=3D"-ms-interpolation-mode: bicubic; border: none !important; displa=
+y: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !=
+important; vertical-align: middle; width: auto !important;"></a></td><td st=
+yle=3D"text-align: center;"></td></tr></tbody></table><figcaption class=3D"=
+image-caption" style=3D"box-sizing: content-box; color: #808080; font-size:=
+ 14px; font-weight: 400; letter-spacing: -.15px; line-height: 20px; margin-=
+top: 8px; padding-left: 15%; padding-right: 15%; text-align: center; width:=
+ 70%;"><em>It was harder than expected to get Midjourney to draw this bizar=
+ro marathon</em></figcaption></figure></div><p style=3D"color: #404040; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><strong>Global govern=
+ments are the marathon runner</strong><span>. From the race to develop ther=
+monuclear weapons after World War II, to the $22 billion, 50+ year cooperat=
+ive </span><a href=3D"https://substack.com/redirect/4e72caac-c6dd-49ac-9495=
+-eb54bab1f978?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8Ex=
+kRNpU" rel style=3D"color: #404040; text-decoration: underline;">ITER</a><s=
+pan> reactor currently being built in France, to the </span><a href=3D"http=
+s://substack.com/redirect/d28495bc-46c6-42e7-9add-4a93ee76e349?j=3DeyJ1Ijoi=
+OXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"color:=
+ #404040; text-decoration: underline;">National Ignition Facility&#8217;s i=
+gnition achievement in December 2022</a><span>, governments have led fusion=
+ research efforts for the better part of eight decades.&#160;</span></p><di=
+v class=3D"captioned-image-container-static" style=3D"font-size: 16px; line=
+-height: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto; width: =
+100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><=
+tr><td style=3D"text-align: center;"></td><td align=3D"left" class=3D"conte=
+nt" width=3D"908" style=3D"text-align: center;"><a class=3D"image-link" tar=
+get=3D"_blank" href=3D"https://substack.com/redirect/8149d096-0c2e-4401-bb0=
+e-d58519f96c46?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8E=
+xkRNpU" rel style=3D"align-items: center; border: none; display: block; fle=
+x-direction: column; height: auto; margin: 0; padding: 0; position: relativ=
+e; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;=
+:&quot;https://substack-post-media.s3.amazonaws.com/public/images/f85a7f02-=
+ff2c-495b-8790-cfab6bb1facc_908x177.png&quot;,&quot;fullscreen&quot;:null,&=
+quot;imageSize&quot;:null,&quot;height&quot;:177,&quot;width&quot;:908,&quo=
+t;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;=
+title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowThe=
+Fold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:nul=
+l}" alt width=3D"550" height=3D"107.2136563876652" class=3D"wide-image" src=
+=3D"https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,f=
+l_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpu=
+blic%2Fimages%2Ff85a7f02-ff2c-495b-8790-cfab6bb1facc_908x177.png" style=3D"=
+-ms-interpolation-mode: bicubic; border: none !important; display: block; h=
+eight: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; =
+vertical-align: middle; width: auto !important;"></a></td><td style=3D"text=
+-align: center;"></td></tr></tbody></table><figcaption class=3D"image-capti=
+on" style=3D"box-sizing: content-box; color: #808080; font-size: 14px; font=
+-weight: 400; letter-spacing: -.15px; line-height: 20px; margin-top: 8px; p=
+adding-left: 15%; padding-right: 15%; text-align: center; width: 70%;"><em>=
+&#8220;Ivy Mike,&#8221; ITER, and Ignition</em></figcaption></figure></div>=
+<p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0=
+ 20px 0;"><span>The world&#8217;s governments have run a well-paced maratho=
+n, producing something akin to a Moore&#8217;s Law in fusion for half a cen=
+tury. The </span><strong>triple product</strong><span> &#8211; of density, =
+temperature, and time &#8211; is the figure-of-merit in fusion, and it doub=
+led every 1.8 years from the late 1950s through the early 2000s, as one typ=
+e of reactor - </span><strong>tokamaks, </strong><span>a form of</span><str=
+ong> magnetic confinement fusion (MCF) -</strong><span> got larger and more=
+ powerful.&#160;</span></p><div class=3D"captioned-image-container-static" =
+style=3D"font-size: 16px; line-height: 26px; margin: 32px auto;"><figure st=
+yle=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-pad=
+ding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><=
+td align=3D"left" class=3D"content" width=3D"981" style=3D"text-align: cent=
+er;"><a class=3D"image-link" target=3D"_blank" href=3D"https://substack.com=
+/redirect/87d97d40-bf15-4149-8fcd-604eb54333ad?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5=
+T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"align-items: center; b=
+order: none; display: block; flex-direction: column; height: auto; margin: =
+0; padding: 0; position: relative; text-decoration: none; width: auto;"><im=
+g data-attrs=3D"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazo=
+naws.com/public/images/ea6103c4-059c-43f5-9391-961741bb468f_981x932.png&quo=
+t;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot=
+;:932,&quot;width&quot;:981,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:=
+null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quo=
+t;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,=
+&quot;internalRedirect&quot;:null}" alt width=3D"550" height=3D"522.5280326=
+197758" class=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_1=
+962,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-=
+post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fea6103c4-059c-43f5-9391-961=
+741bb468f_981x932.png" style=3D"-ms-interpolation-mode: bicubic; border: no=
+ne !important; display: block; height: auto; margin: 0 auto; margin-bottom:=
+ 0; max-width: 100% !important; vertical-align: middle; width: auto !import=
+ant;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></table>=
+<figcaption class=3D"image-caption" style=3D"box-sizing: content-box; color=
+: #808080; font-size: 14px; font-weight: 400; letter-spacing: -.15px; line-=
+height: 20px; margin-top: 8px; padding-left: 15%; padding-right: 15%; text-=
+align: center; width: 70%;"><em><a href=3D"https://substack.com/redirect/cd=
+ac5dad-dbc1-471b-bece-42669cb8731f?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaM=
+ZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"text-decoration: underline;">Fusio=
+n Energy Base</a></em></figcaption></figure></div><p style=3D"color: #40404=
+0; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>In Decemb=
+er, scientists at the government-funded National Ignition Facility (NIF) at=
+ Lawrence Livermore made headlines when they achieved </span><strong>fusion=
+ ignition</strong><span>, or scientific energy breakeven, for the first tim=
+e in a controlled environment That is, they got more energy out of the fusi=
+on reaction than they spent on the laser energy used to drive it. The NIF u=
+sed a different approach: </span><strong>inertial confinement fusion (ICF)<=
+/strong><span>.&#160;</span></p><p style=3D"color: #404040; font-size: 16px=
+; line-height: 26px; margin: 0 0 20px 0;">The world rejoiced &#8211; fusion=
+ energy is possible! &#8211; and then sobered up &#8211; it was like a AA b=
+attery&#8217;s worth of energy and, experts pointed out, commercial-scale f=
+usion power might not arrive for decades.&#160;</p><p style=3D"color: #4040=
+40; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">That&#8217;s t=
+he joke in fusion, that fusion power is &#8220;always 30 years away.&#8221;=
+ Funny joke, to be sure, but it may no longer be true.&#160;</p><p style=3D=
+"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">W=
+e&#8217;re at the handoff point, from private to public, thanks to improvin=
+g compute and machine learning, better magnets and materials, the diverse r=
+ange of technical approaches that are finally becoming feasible, and dramat=
+ically increased capital availability for startups.&#160;</p><p style=3D"co=
+lor: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><str=
+ong>Companies like Helion, Commonwealth Fusion Systems, TAE Technologies, G=
+eneral Fusion, and Zap Energy are the sprinters</strong><span>. Armed with =
+$5 billion in funding, most of which has come in just the past two years, a=
+nd decades worth of research made feasible by new tools, fusion startups ar=
+e locked in a mad dash to the finish in what might be called Fusion Race 2.=
+0. At the end stands commercial fusion and a healthy chunk of the $15 trill=
+ion global energy market.&#160;</span></p><p style=3D"color: #404040; font-=
+size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Magic can happen =
+in this public-to-private handoff. After languishing for decades post-Moon =
+Landing, SpaceX revitalized the </span><a href=3D"https://substack.com/redi=
+rect/350fa65a-e093-4368-b7ec-259b64d9cd52?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA=
+_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"color: #404040; text-decora=
+tion: underline;">space economy</a><span> and enabled a constellation of ne=
+w businesses driven by both a sense of adventure and a profit motive. The c=
+ommercialization of space pulled in timelines for such sci-fi visions as as=
+teroid mining, space manufacturing, space hotels, and even Mars habitation =
+by decades.&#160;</span></p><p style=3D"color: #404040; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 20px 0;">We don&#8217;t pretend to know who th=
+e SpaceX of fusion will be &#8211; in fact, it may be a confluence of facto=
+rs more than any one company that unlocks the fusion economy &#8211; but we=
+ suspect that we&#8217;re at a similar point in fusion&#8217;s evolution.&#=
+160;</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 20px 0;">Commercial fusion may power (some of) our homes within th=
+e decade.&#160;</p><p style=3D"color: #404040; font-size: 16px; line-height=
+: 26px; margin: 0 0 20px 0;">As humanity embarks on this leg of one of our =
+most important journeys, we thought it would be useful to put together a li=
+ttle primer on what&#8217;s at stake, how fusion works, where it&#8217;s be=
+en, and where we&#8217;re heading. We&#8217;ll do that today by covering:</=
+p><ul style=3D"margin-top: 0; padding: 0;"><li style=3D"margin: 8px 0 0 32p=
+x; mso-special-format: bullet;"><p style=3D"box-sizing: border-box; color: =
+#404040; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0; p=
+adding-left: 4px;"><strong>Why is Fusion Important?</strong></p></li><li st=
+yle=3D"margin: 8px 0 0 32px; mso-special-format: bullet;"><p style=3D"box-s=
+izing: border-box; color: #404040; font-size: 16px; line-height: 26px; marg=
+in: 0; margin-bottom: 0; padding-left: 4px;"><strong>How Fusion Works</stro=
+ng></p></li><li style=3D"margin: 8px 0 0 32px; mso-special-format: bullet;"=
+><p style=3D"box-sizing: border-box; color: #404040; font-size: 16px; line-=
+height: 26px; margin: 0; margin-bottom: 0; padding-left: 4px;"><strong>A Br=
+ief History of Fusion</strong></p></li><li style=3D"margin: 8px 0 0 32px; m=
+so-special-format: bullet;"><p style=3D"box-sizing: border-box; color: #404=
+040; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0; paddi=
+ng-left: 4px;"><strong>Plasma Progress</strong></p></li><li style=3D"margin=
+: 8px 0 0 32px; mso-special-format: bullet;"><p style=3D"box-sizing: border=
+-box; color: #404040; font-size: 16px; line-height: 26px; margin: 0; margin=
+-bottom: 0; padding-left: 4px;"><strong>Fusion Race 2.0</strong></p></li><l=
+i style=3D"margin: 8px 0 0 32px; mso-special-format: bullet;"><p style=3D"b=
+ox-sizing: border-box; color: #404040; font-size: 16px; line-height: 26px; =
+margin: 0; margin-bottom: 0; padding-left: 4px;"><strong>The Fusion Startup=
+ Landscape</strong></p></li><li style=3D"margin: 8px 0 0 32px; mso-special-=
+format: bullet;"><p style=3D"box-sizing: border-box; color: #404040; font-s=
+ize: 16px; line-height: 26px; margin: 0; margin-bottom: 0; padding-left: 4p=
+x;"><strong>Energy Too Cheap to Meter, Too Soon to Believe</strong><span>&#=
+160;&#160;</span></p></li></ul><p style=3D"color: #404040; font-size: 16px;=
+ line-height: 26px; margin: 0 0 20px 0;">To start, let&#8217;s all get on t=
+he same page about why fusion is important in the first place.</p><h3 class=
+=3D"header-with-anchor-widget" style=3D"-moz-appearance: optimizelegibility=
+; -moz-osx-font-smoothing: antialiased; -webkit-appearance: optimizelegibil=
+ity; -webkit-font-smoothing: antialiased; appearance: optimizelegibility; c=
+olor: #404040; font-family: 'SF Compact Display', -apple-system, BlinkMacSy=
+stemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Em=
+oji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font-weight:=
+ bold; line-height: 1.16em; margin: 1em 0 0.625em 0; position: relative;"><=
+strong>Why is Fusion Important?&#160;</strong></h3><p style=3D"color: #4040=
+40; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">According to G=
+reek mythology, Prometheus defied the gods by stealing fire and bestowing i=
+t upon humanity. Humans harnessed the power of fire to construct magnificen=
+t cities and propel the growth of their civilization.</p><div class=3D"capt=
+ioned-image-container-static" style=3D"font-size: 16px; line-height: 26px; =
+margin: 32px auto;"><figure style=3D"margin: 0 auto; width: 100%;"><table c=
+lass=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D=
+"text-align: center;"></td><td align=3D"left" class=3D"content" width=3D"98=
+4" style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" =
+href=3D"https://substack.com/redirect/8fc0812b-b4c0-4b25-bab4-c57daeec6e96?=
+j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel sty=
+le=3D"align-items: center; border: none; display: block; flex-direction: co=
+lumn; height: auto; margin: 0; padding: 0; position: relative; text-decorat=
+ion: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://=
+substack-post-media.s3.amazonaws.com/public/images/6ad055df-9685-4a0e-ae19-=
+c9d1f0e43c19_984x554.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&=
+quot;:null,&quot;height&quot;:554,&quot;width&quot;:984,&quot;resizeWidth&q=
+uot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:nul=
+l,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true=
+,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null}" alt width=
+=3D"550" height=3D"309.6544715447154" class=3D"wide-image" src=3D"https://s=
+ubstackcdn.com/image/fetch/w_1968,c_limit,f_auto,q_auto:good,fl_progressive=
+:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages=
+%2F6ad055df-9685-4a0e-ae19-c9d1f0e43c19_984x554.png" style=3D"-ms-interpola=
+tion-mode: bicubic; border: none !important; display: block; height: auto; =
+margin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-alig=
+n: middle; width: auto !important;"></a></td><td style=3D"text-align: cente=
+r;"></td></tr></tbody></table><figcaption class=3D"image-caption" style=3D"=
+box-sizing: content-box; color: #808080; font-size: 14px; font-weight: 400;=
+ letter-spacing: -.15px; line-height: 20px; margin-top: 8px; padding-left: =
+15%; padding-right: 15%; text-align: center; width: 70%;"><em>The Myth of P=
+rometheus, Piero di Cosimo</em></figcaption></figure></div><p style=3D"colo=
+r: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">It&#82=
+17;s such an alluring myth that we still use it as a shorthand for human am=
+bition, innovation, and the quest for knowledge in the face of danger to th=
+is day.&#160;</p><p style=3D"color: #404040; font-size: 16px; line-height: =
+26px; margin: 0 0 20px 0;"><span>Fusion is the Promethean myth brought to l=
+ife, minus the </span><a href=3D"https://substack.com/redirect/31e9de6b-ee0=
+5-4b53-9c54-28b06e4e1e72?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKb=
+qOsa8-6m8ExkRNpU" rel style=3D"color: #404040; text-decoration: underline;"=
+>liver-eating Caucasian Eagle</a><span> (we hope). It&#8217;s the engine th=
+at powers the stars. By wresting the secret of unlimited energy production =
+from the heavens, humanity may once again construct wonders in the physical=
+ world and propel the growth of our civilization.&#160;</span></p><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+"><span>A few years ago, it might have been controversial to argue that the=
+ world should use </span><em>more </em><span>energy. The climate argument t=
+hrusted in the opposite direction &#8211; consume </span><em>less</em><span=
+> energy and transition whatever energy we still need to use to clean, rene=
+wable sources like solar and wind. Degrowth is a losing argument, and thank=
+fully, it is in the process of being replaced by a more optimistic one: the=
+ call for </span><strong>energy superabundance</strong><span>.</span></p><p=
+ style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 2=
+0px 0;">Instead of consuming less energy, this argument goes, we should pro=
+duce unimaginable amounts of clean energy from all of the sources we can: s=
+olar, wind, geothermal, nuclear fission, and one day, fusion. With practica=
+lly unlimited cheap energy, we&#8217;ll be able to suck CO2 out of the air,=
+ mitigate the effects of climate change, and have enough left over to meani=
+ngfully improve the quality of life for billions of people around the world=
+=2E We like this argument.</p><p style=
+=3D"color: #404040; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 20px 0;">Energy use is the bound of civilizati=
+on. If you increase it, civilization grows and progresses. If you limit it,=
+ civilization stagnates. If you diminish it, civilization crumbles. Energy =
+is the most fundamental determinant of a society&#8217;s success. It feeds =
+us, houses us, wins wars, powers technology, and dictates policy. Even mone=
+y is a mere proxy for energy.&#160;</p><p style=3D"color: #404040; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>More energy lifts al=
+l boats. Numerous studies have found a long-run, direct, </span><em>causal,=
+ </em><span>and </span><a href=3D"https://substack.com/redirect/2cb39cde-fa=
+4c-4c3c-b3ad-365c7d96fc20?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepK=
+bqOsa8-6m8ExkRNpU" rel style=3D"color: #404040; text-decoration: underline;=
+">bidirectional</a><span> relationship between energy consumption and econo=
+mic growth. </span><a href=3D"https://substack.com/redirect/2cb39cde-fa4c-4=
+c3c-b3ad-365c7d96fc20?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOs=
+a8-6m8ExkRNpU" rel style=3D"color: #404040; text-decoration: underline;">Re=
+searchers found</a><span> that a 1% increase in real GDP per capita increas=
+es total energy consumption by 0.6%. </span><a href=3D"https://substack.com=
+/redirect/61e63101-2e77-48f6-956b-979b1f72f979?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5=
+T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"color: #404040; text-d=
+ecoration: underline;">It works the other way, too</a><span>&#8212;a 0.9% i=
+ncrease in electricity use in OECD countries led to a 1.7% increase in GDP.=
+ </span><strong>For non&#8211;OECD countries, a 2% annual increase in elect=
+ricity use increases GDP by 3.8%. </strong><span>&#160;</span></p><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+">Simply put, more energy means more progress, and vice versa, across the b=
+oard. More energy, and the physical abundance it brings, would spur growth =
+without accelerating inequality.&#160;</p><p style=3D"color: #404040; font-=
+size: 16px; line-height: 26px; margin: 0 0 20px 0;">If you&#8217;re with us=
+ that more energy consumption is a good thing, then we have good news: huma=
+ns are consuming more energy than ever before.&#160;</p><blockquote style=
+=3D"border-left: 4px solid #67bdfc; margin: 20px 0; padding: 0;"><div class=
+=3D"captioned-image-container-static" style=3D"font-size: 16px; line-height=
+: 26px; margin: 32px auto; margin-bottom: 0; margin-left: 20px; margin-top:=
+ 0;"><figure style=3D"margin: 0 auto; width: 100%;"><table class=3D"image-w=
+rapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" sty=
+le=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: ce=
+nter;"></td><td align=3D"left" class=3D"content" width=3D"736" style=3D"tex=
+t-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https:/=
+/substack.com/redirect/a2e58d21-e427-419f-bff8-841e003b716f?j=3DeyJ1IjoiOXA=
+wZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"align-ite=
+ms: center; border: none; display: block; flex-direction: column; height: a=
+uto; margin: 0; margin-bottom: 0; margin-top: 0; padding: 0; position: rela=
+tive; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&qu=
+ot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/642142=
+f7-114b-4ecf-ab46-05630ac8ad8e_736x575.png&quot;,&quot;fullscreen&quot;:nul=
+l,&quot;imageSize&quot;:null,&quot;height&quot;:575,&quot;width&quot;:736,&=
+quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&qu=
+ot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;below=
+TheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:=
+null}" alt width=3D"550" height=3D"429.6875" class=3D"wide-image" src=3D"ht=
+tps://substackcdn.com/image/fetch/w_1472,c_limit,f_auto,q_auto:good,fl_prog=
+ressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2=
+Fimages%2F642142f7-114b-4ecf-ab46-05630ac8ad8e_736x575.png" style=3D"-ms-in=
+terpolation-mode: bicubic; border: none !important; display: block; height:=
+ auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertic=
+al-align: middle; width: auto !important;"></a></td><td style=3D"text-align=
+: center;"></td></tr></tbody></table><figcaption class=3D"image-caption" st=
+yle=3D"box-sizing: content-box; color: #808080; font-size: 14px; font-weigh=
+t: 400; letter-spacing: -.15px; line-height: 20px; margin-bottom: 0; margin=
+-top: 8px; padding-bottom: 0; padding-left: 15%; padding-right: 15%; text-a=
+lign: center; width: 70%;"><em><a href=3D"https://substack.com/redirect/d8f=
+b6be9-1954-40bf-8741-f1ed3365c5d4?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZ=
+jmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"text-decoration: underline;">Our Wo=
+rld in Data</a></em></figcaption></figure></div></blockquote><p style=3D"co=
+lor: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">The =
+challenge, of course, is that the sources of energy humanity has ridden to =
+such great heights also happen to be bad for the environment. The CO2, meth=
+ane, and other greenhouse gasses emitted when they&#8217;re burned pose an =
+existential risk to the planet. Even if they didn&#8217;t harm the environm=
+ent, fossil fuels will eventually run out, even if we find increasingly cle=
+ver ways to dig them up.&#160;</p><p style=3D"color: #404040; font-size: 16=
+px; line-height: 26px; margin: 0 0 20px 0;"><span>So the goal is to not jus=
+t </span><em>replace</em><span> fossil fuels with cleaner energy sources, b=
+ut to produce oodles and oodles of clean, abundant energy, multiples more t=
+han we produce and consume today.&#160;</span></p><div style=3D"font-size: =
+16px; line-height: 26px;"><hr style=3D"background: #e0e0e0; border: none; h=
+eight: 1px; margin: 32px 0; padding: 0;"></div><h4 class=3D"header-with-anc=
+hor-widget" style=3D"-moz-appearance: optimizelegibility; -moz-osx-font-smo=
+othing: antialiased; -webkit-appearance: optimizelegibility; -webkit-font-s=
+moothing: antialiased; appearance: optimizelegibility; color: #404040; font=
+-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI=
+', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emo=
+ji', 'Segoe UI Symbol'; font-size: 1.125em; font-weight: bold; line-height:=
+ 1.16em; margin: 1em 0 0.625em 0; position: relative;">For much, much more =
+&#8212; including how we&#8217;ll produce all that clean energy, a history =
+of fusion, and an overview of the startups racing to achieve ignition&#8230=
+;</h4><p class=3D"button-wrapper" data-attrs=3D"{&quot;url&quot;:&quot;http=
+s://www.notboring.co/i/122905321/why-is-fusion-important&quot;,&quot;text&q=
+uot;:&quot;Continue Reading Online&quot;,&quot;action&quot;:null,&quot;clas=
+s&quot;:null}" data-component-name=3D"ButtonCreateButton" style=3D"color: #=
+404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0; text-align:=
+ center;"><a class=3D"button primary" href=3D"https://substack.com/redirect=
+/46206a6c-4c9f-463b-b3ac-d31006ca4db0?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlN=
+uaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"background-color: #67bdfc; bord=
+er: none; border-radius: 4px; box-sizing: border-box; color: #ffffff !impor=
+tant; cursor: pointer; display: inline-block; font-family: -apple-system, B=
+linkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple=
+ Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-w=
+eight: 600; height: auto; line-height: 20px; margin: 0; opacity: 1; outline=
+: none; padding: 12px 20px; text-align: center; text-decoration: none !impo=
+rtant; white-space: nowrap;"><span style=3D"color: #ffffff; text-decoration=
+: none;">Continue Reading Online</span></a></p><p style=3D"color: #404040; =
+font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><em><span>If this =
+button breaks, you can find the full essay at </span><a href=3D"https://sub=
+stack.com/redirect/411ed924-9056-4585-a810-6214af5c01ec?j=3DeyJ1IjoiOXAwZ3Q=
+ifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"color: #40404=
+0; text-decoration: underline;">Not Boring</a><span>: </span></em></p><div =
+class=3D"embedded-publication-wrap" data-attrs=3D"{&quot;id&quot;:10025,&qu=
+ot;name&quot;:&quot;Not Boring by Packy McCormick&quot;,&quot;logo_url&quot=
+;:&quot;https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressi=
+ve:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.am=
+azonaws.com%2Fpublic%2Fimages%2F62784289-29bb-4fdf-9ada-642905c5a28b_400x40=
+0.png&quot;,&quot;base_url&quot;:&quot;https://www.notboring.co&quot;,&quot=
+;hero_text&quot;:&quot;Tech, web3, optimism, and strategy... but Not Boring=
+&quot;,&quot;author_name&quot;:&quot;Packy McCormick&quot;,&quot;show_subsc=
+ribe&quot;:true,&quot;logo_bg_color&quot;:&quot;#ffffff&quot;}" style=3D"fo=
+nt-size: 16px; line-height: 26px;"><table class=3D"embedded-publication" st=
+yle=3D"align-items: flex-start; border: 1px solid rgba(204, 204, 204, 0.5);=
+ border-radius: 8px; box-sizing: border-box; color: #404040; font-family: -=
+apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, san=
+s-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-wei=
+ght: 400; line-height: 1.5; margin: 36px auto; max-width: 600px; padding: 2=
+4px; text-align: left; text-decoration: none; width: 100%;"><tbody><tr><td =
+class=3D"embedded-publication-left" valign=3D"top" width=3D"56" style=3D"ma=
+rgin-right: 16px; padding-right: 16px; width: 40px;"><img class=3D"embedded=
+-publication-logo" src=3D"https://substackcdn.com/image/fetch/f_auto,q_auto=
+:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-=
+adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F62784289-29bb-4fdf-9ada-6=
+42905c5a28b_400x400.png" width=3D"40" height=3D"40" style=3D"-ms-interpolat=
+ion-mode: bicubic; background-color: #ffffff; border: none !important; bord=
+er-radius: 4px; display: block; height: 40px; margin: 0 auto; max-width: 10=
+0%; vertical-align: middle; width: 40px;"></td><td class=3D"embedded-public=
+ation-right"><h3 class=3D"embedded-publication-name" style=3D"-moz-appearan=
+ce: optimizelegibility; -moz-osx-font-smoothing: antialiased; -webkit-appea=
+rance: optimizelegibility; -webkit-font-smoothing: antialiased; appearance:=
+ optimizelegibility; color: #404040; font-family: 'SF Compact Display', -ap=
+ple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-=
+serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size:=
+ 16px; font-weight: 600; line-height: 24px; margin: 0 0 2px;"><a href=3D"ht=
+tps://substack.com/redirect/fd0a3911-9660-47b0-85ba-42780a67cbe7?j=3DeyJ1Ij=
+oiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"colo=
+r: #404040; text-decoration: none;">Not Boring by Packy McCormick</a></h3><=
+div class=3D"embedded-publication-hero-text" style=3D"font-size: 16px; line=
+-height: 21px; margin-bottom: 4px;"><a href=3D"https://substack.com/redirec=
+t/fd0a3911-9660-47b0-85ba-42780a67cbe7?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_Zl=
+NuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"color: #404040; text-decoratio=
+n: none;">Tech, web3, optimism, and strategy... but Not Boring</a></div></t=
+d></tr></tbody></table></div><div style=3D"font-size: 16px; line-height: 26=
+px;"><hr style=3D"background: #e0e0e0; border: none; height: 1px; margin: 3=
+2px 0; padding: 0;"></div><p style=3D"color: #404040; font-size: 16px; line=
+-height: 26px; margin: 0 0 20px 0;"><em><span>Thanks to </span><a href=3D"h=
+ttps://substack.com/redirect/c94964b8-6835-495f-aee4-b8b5293b9a55?j=3DeyJ1I=
+joiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel style=3D"col=
+or: #404040; text-decoration: underline;">Rahul</a><span> for the collabora=
+tion and to </span><a href=3D"https://substack.com/redirect/44f0586e-54ac-4=
+f1d-8363-88f0f0675c82?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOs=
+a8-6m8ExkRNpU" rel style=3D"color: #404040; text-decoration: underline;">Da=
+n</a><span> for editing! </span></em></p><div style=3D"font-size: 16px; lin=
+e-height: 26px;"><hr style=3D"background: #e0e0e0; border: none; height: 1p=
+x; margin: 32px 0; padding: 0;"></div><p style=3D"color: #404040; font-size=
+: 16px; line-height: 26px; margin: 0 0 20px 0;">That&#8217;s all for today!=
+ We&#8217;ll be back in your inbox a couple times later this week &#128064;=
+</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin:=
+ 0 0 20px 0;">Thanks for reading, </p><p style=3D"color: #404040; font-size=
+: 16px; line-height: 26px; margin: 0 0 20px 0; margin-bottom: 0;">Packy</p>=
+</div></div><table role=3D"presentation" width=3D"100%" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" class=3D"email-ufi-2-bottom" style=3D"border-=
+bottom: 1px solid rgba(0, 0, 0, .13); border-top: 1px solid rgba(0, 0, 0, .=
+13); min-width: 100%;"><tr height=3D"16"><td height=3D"16" style=3D"font-si=
+ze: 0px; line-height: 0;">&#160;</td></tr><tr><td><table role=3D"presentati=
+on" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td=
+><table role=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" style=3D"margin: 0 auto;"><tr><td style=3D"vertical-alig=
+n: middle;"><table role=3D"presentation" width=3D"auto" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a href=3D"https://s=
+ubstack.com/app-link/post?publication_id=3D10025&post_id=3D122905321&utm_so=
+urce=3Dsubstack&isFreemail=3Dtrue&submitLike=3Dtrue&token=3DeyJ1c2VyX2lkIjo=
+xNjI4MzU0OSwicG9zdF9pZCI6MTIyOTA1MzIxLCJyZWFjdGlvbiI6IuKdpCIsImlhdCI6MTY4ND=
+c1OTY0MCwiZXhwIjoxNjg3MzUxNjQwLCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJyZWFjdGlvb=
+iJ9.TXP8_YuzJGcu6nvopZ1losFZLQaLbPUwlu2BqJVmsXc&utm_medium=3Demail" class=
+=3D"email-button-outline" style=3D"border: 1px solid rgba(0, 0, 0, .13); bo=
+rder-radius: 100000px; color: #808080; display: inline-block; font-family: =
+'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI'=
+, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-height: 12px=
+; padding: 9px 14px; text-decoration: none; text-transform: uppercase;"><im=
+g src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good=
+,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3=
+D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" wi=
+dth=3D"18" height=3D"18" style=3D"border: none !important; margin-right: 8p=
+x; max-width: 18px; min-height: 18px; min-width: 18px; vertical-align: midd=
+le;" alt class=3D"icon"><span class=3D"email-button-text" style=3D"vertical=
+-align: middle;">Like</span></a></td></tr></table></td><td width=3D"8" styl=
+e=3D"min-width: 8px"></td><td style=3D"vertical-align: middle;"><table role=
+=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tr><td align=3D"center"><a href=3D"https://substack.com/app-link/po=
+st?publication_id=3D10025&post_id=3D122905321&utm_source=3Dsubstack&utm_med=
+ium=3Demail&isFreemail=3Dtrue&comments=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4M=
+zU0OSwicG9zdF9pZCI6MTIyOTA1MzIxLCJpYXQiOjE2ODQ3NTk2NDAsImV4cCI6MTY4NzM1MTY0=
+MCwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.VLWvDCqhot0jeLFMvd=
+x69CLrf8QiT9EL0qSrZtTDaN0&utm_source=3Dsubstack&utm_medium=3Demail" class=
+=3D"email-button-outline" style=3D"border: 1px solid rgba(0, 0, 0, .13); bo=
+rder-radius: 100000px; color: #808080; display: inline-block; font-family: =
+'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI'=
+, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-height: 12px=
+; padding: 9px 14px; text-decoration: none; text-transform: uppercase;"><im=
+g src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good=
+,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideComments%3F=
+v%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2"=
+ width=3D"18" height=3D"18" style=3D"border: none !important; margin-right:=
+ 8px; max-width: 18px; min-height: 18px; min-width: 18px; vertical-align: m=
+iddle;" alt class=3D"icon"><span class=3D"email-button-text" style=3D"verti=
+cal-align: middle;">Comment</span></a></td></tr></table></td><td width=3D"8=
+" style=3D"min-width: 8px"></td><td style=3D"vertical-align: middle;"><tabl=
+e role=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0"><tr><td align=3D"center"><a href=3D"https://substack.com/redir=
+ect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvdGhlLWZ1c2lvbi1yYWNlP3V0b=
+V9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT1lbWFpbCZhY3Rpb249cmVzdGFjay1jb21tZW50=
+IiwicCI6MTIyOTA1MzIxLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY=
+4NDc1OTY0MCwiZXhwIjoxNjg3MzUxNjQwLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaX=
+JlY3QifQ.E51I6of7PpX7ZsVfGzJpfnpfZBtrOaqlb4vdwPpLhMw?&utm_source=3Dsubstack=
+&utm_medium=3Demail" class=3D"email-button-outline" style=3D"border: 1px so=
+lid rgba(0, 0, 0, .13); border-radius: 100000px; color: #808080; display: i=
+nline-block; font-family: 'SF Pro Text', -apple-system, ui-sans-serif, Blin=
+kMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Co=
+lor Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font-weig=
+ht: 500; line-height: 12px; padding: 9px 14px; text-decoration: none; text-=
+transform: uppercase;"><img src=3D"https://substackcdn.com/image/fetch/w_36=
+,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%=
+2Ficon%2FNoteForwardIcon%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%25=
+23808080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: non=
+e !important; margin-right: 8px; max-width: 18px; min-height: 18px; min-wid=
+th: 18px; vertical-align: middle;" alt class=3D"icon"><span class=3D"email-=
+button-text" style=3D"vertical-align: middle;">Restack</span></a></td></tr>=
+</table></td></tr></table></td><td align=3D"right"><table role=3D"presentat=
+ion" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr></=
+tr></table></td></tr></table></td></tr><tr height=3D"16"><td height=3D"16" =
+style=3D"font-size: 0px; line-height: 0;">&#160;</td></tr></table><div clas=
+s=3D"footer frontend-email-shared-typed-module__footer--WmMp1" style=3D"col=
+or: #808080; font-size: 16px; line-height: 26px; padding: 24px 0; text-alig=
+n: center;"><div style=3D"font-size: 16px; line-height: 26px; padding-botto=
+m: 24px;"><p class=3D"pencraft frontend-pencraft-Box-module__reset--tAIEo f=
+rontend-pencraft-Text-module__size-12--2onFT frontend-pencraft-Text-module_=
+_color-secondary--XjVGl frontend-pencraft-Text-module__reset--20JLV small f=
+rontend-email-shared-typed-module__meta--AAyPr" style=3D"color: #808080; fo=
+nt-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica=
+, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbo=
+l'; font-size: 12px; letter-spacing: 0; line-height: 16px; margin: 0; paddi=
+ng-bottom: 0; text-decoration: unset;">&#169; 2023 <span>Packy McCormick</s=
+pan><br>Brooklyn, NY <br><a href=3D"https://substack.com/redirect/2/eyJlIjo=
+iaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5Sj=
+FjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVEl5T1RBMU16SXhMQ0pwWVhRa=
+U9qRTJPRFEzTlRrMk5EQXNJbVY0Y0NJNk1UWTROek0xTVRZME1Dd2lhWE56SWpvaWNIVmlMVEV3=
+TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LjFHb1hCYlVwbUlkLUh0N1JnZTJ=
+PeERVampyWUpCM0VMRThzd2VnbW5ZM00mZXhwaXJlcz0zNjVkIiwicCI6MTIyOTA1MzIxLCJzIj=
+oxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY4NDc1OTY0MCwiZXhwIjoxNjg3M=
+zUxNjQwLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.v0JShsLnMiKLHzMSe=
+g1E7MtmEziImz4CEfxcDBaoDAc?" style=3D"color: #808080; text-decoration: unde=
+rline;"><span style=3D"color: #808080; text-decoration: underline;">Unsubsc=
+ribe</span></a></p></div><p class=3D"frontend-email-shared-typed-module__fo=
+oterSection--9vwqp small powered-by-substack" style=3D"color: #808080; font=
+-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, =
+Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'=
+; font-size: 12px; line-height: 20px; margin: 0; margin-top: 0; padding: 0 =
+24px; padding-bottom: 0;"><a href=3D"https://substack.com/redirect/2/eyJlIj=
+oiaHR0cHM6Ly9zdWJzdGFjay5jb20vc2lnbnVwP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZ=
+Gl1bT1lbWFpbCZ1dG1fY29udGVudD1mb290ZXImdXRtX2NhbXBhaWduPWF1dG9maWxsZWQtZm9v=
+dGVyJmZyZWVTaWdudXBFbWFpbD1ub3Rib3JpbmdAa2hhbWVsLmNvbSIsInAiOjEyMjkwNTMyMSw=
+icyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2ODQ3NTk2NDAsImV4cCI6MT=
+Y4NzM1MTY0MCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.hkvHD_YA4Kn4V=
+kDYzLgMnwRoFkvdxCK34yO5A6nDp58?" style=3D"color: #808080; display: inline-b=
+lock; margin: 0 4px; text-decoration: none;"><img src=3D"https://substackcd=
+n.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_progressive:steep/htt=
+ps%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%402x.png" srcset=3D"=
+https://substackcdn.com/image/fetch/w_135,c_limit,f_auto,q_auto:good,fl_pro=
+gressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button.pn=
+g, https://substackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_=
+progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button=
+%402x.png 2x, https://substackcdn.com/image/fetch/w_405,c_limit,f_auto,q_au=
+to:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpub=
+lish-button%403x.png 3x" width=3D"135" alt=3D"Start writing" height=3D"40" =
+style=3D"border: none !important; max-width: 550px; vertical-align: middle;=
+"></a></p></div></div></td><td></td></tr></table><img src=3D"https://mailgu=
+n.substack.com/api/v1/email/open?token=3DeyJtIjoiPDIwMjMwNTIyMTI0NzEwLjMuOT=
+JiMDNiNWU3ZGI0MjY4YkBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MTYyODM1NDksInIiOiJub=
+3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoxMjI5MDUz=
+MjEsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTAwMjUsImMiOiJwb3N0Iiw=
+iZiI6dHJ1ZSwicG9zaXRpb24iOiJib3R0b20iLCJpYXQiOjE2ODQ3NTk2NDAsImV4cCI6MTY4Nz=
+M1MTY0MCwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.uxlnAwzGJkZh2nsvuW4B0pAR9a_G1uZJ=
+g4rehN96ywU" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height=
+:1px !important;width:1px !important;border-width:0 !important;margin-top:0=
+ !important;margin-bottom:0 !important;margin-right:0 !important;margin-lef=
+t:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding=
+-right:0 !important;padding-left:0 !important;"/><img width=3D"1px" height=
+=3D"1px" alt=3D"" src=3D"https://email.mg-d1.substack.com/o/eJxEkElu6zAQBU9=
+j7r7QbA6SFjyLwKEtExZJg8MPdPsgspFsqxuFwvO2017qaV6ldRaMWB0sXjMyXC9yVqvWwCjZeG=
+w7Zaq2U9hs_71KEKtgD2N9sMiVAkLyBGLhswrk5LrM-i5Qs2gQUIBC5ChnDpOYVnQgnKI5OIl6c=
+TcJaf8X-NSGa9365-RLYrFt90pXgul1EPsp3ewIkbInQ_-pniV_cAyGI66gBPI36eeLTKavdlDv=
+VNlruM2XlEaO_dwoW3dQ-IiHO6K3PZZ8iQBQsWpy6a7UmPebhOfDJjqurjZcKMnG_PfA-nvG0ah=
+eBo2LUHL9DgAA___RJHZr"></body></html>
+--3fccc223919aacf0931dd6db04b725235986710e457dc258f5bdd439b461--

@@ -1,0 +1,1739 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:5c7:b029:fa:486f:dd6a with SMTP id r7csp4061168lkr;
+        Tue, 15 Jun 2021 09:56:08 -0700 (PDT)
+X-Received: by 2002:aa7:c547:: with SMTP id s7mr474600edr.239.1623776168434;
+        Tue, 15 Jun 2021 09:56:08 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1623776168; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=x5eD9KOUY96Bnhj5jM2vbYJLUKrXEr5kQ2/OeA+FjrSvV9dYz9jkXIC8De1x2+La/T
+         3l2pHmujVl+tprN0nuFW+GfAQvAec6W9+7T+yYzbyC8h7iy/q1q2PEo8xah2xJcf+iek
+         GumnoIu3El3uZztkLe4egTsPgLykVCKnDMsBCOkO/6d0k8knG++mkptfg2VTAz2ZWHuE
+         RokvgOcaDeeeQI1srGKSJJJag2VSHghGY5fQT1YEcYOcPIPnQBr90ASIehD45EBYvFwR
+         IalGMMklbHCu8ts5TQCY4Ch1vpl9tYcZZQ1t66i/6Hm8UGtY7aPosXs+DejVup4e1GUZ
+         m6Bw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=8VuB9wtINUZNt7bTTgTIPJPisLuwq8phqC472zYlPyA=;
+        b=ldJzZB+YseGIvgjWMPDWqQLte2an+hVLrokRsnnYE3ZMEX+7YKP+cjV5XSPtsuEWaX
+         TzmjeCbphpxL2RuS5G/ItjxfX+fXmmpIrH/ub+UKDa4IWPMw+Y/Eraow3nzI1A71GKEa
+         Q043kCKRMES5vMmZ8wTL4Zv0FAPAb/FTurHpywdLMO417jqd+Vx6bey9iPYKhADMtVjh
+         uXtcyatKOB8uLASgxTQApulM1b+hJDEom89d0o9z2/4CTv0p20x2C0P4TQrKa8aBpotS
+         VT14WnU1o+G9711RMF/nmd5660LRKZxwKg5AujHWNeM5Xqw5EvfIMPQBs7CMQ7RI+9D8
+         WTPg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=kcyhy7fu;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id gn32sor2969582ejc.35.2021.06.15.09.56.08
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 15 Jun 2021 09:56:08 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=kcyhy7fu;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=8VuB9wtINUZNt7bTTgTIPJPisLuwq8phqC472zYlPyA=;
+        b=NT+/sRl3m8ztit6W7t8xtHxd9kovrqWyfeY8gVlEa9K1qPQ//nStrXvO+PSz2he/hW
+         PedQR97ucO1TNj8rEb0zpFvfLO5eIvfJbv7jB6cI7H7kzVdrlnfwCvDGSAtePZVksPyP
+         cbNmXpV+nlCvI1QM6HtWgU3jCsz0VY4jocXkvA9hgj+NoOyMmSkwNtGk3GNiDI8Z9VpA
+         fUfEsgk1WlUYUhE1gnYFW3NtSCQukMUJLfYiQSq1liibqiuO9ZUkfFQ2YYSRh5xHJyk8
+         F+r7wyPsJZLllhOrSJxlK3KCWG0hpACcmieuCUYCj70k8Pu8xXkE/hk2N9D1kLxoxixn
+         1CLw==
+X-Gm-Message-State: AOAM530iHwGZmbdlkrApru/deSBwd2G/sw+9xfk13p564VIw37vMv4yV
+	eMpvIo2pjfaI6XlBJBE6kfUjg5jsNyB5xqxHIZdYbxmolL7UxWu25A==
+X-Received: by 2002:a17:906:26db:: with SMTP id u27mr532164ejc.532.1623776168121;
+        Tue, 15 Jun 2021 09:56:08 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:ab4:9248:0:0:0:0:0 with SMTP id g8csp4052714ecz;
+        Tue, 15 Jun 2021 09:56:05 -0700 (PDT)
+X-Received: by 2002:a05:6402:3117:: with SMTP id dc23mr546704edb.246.1623776165445;
+        Tue, 15 Jun 2021 09:56:05 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1623776165; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=At4TFOm524vO1g9qTiex9WXPiRYcvh8DdzU8RZhcOa6x7WiADWVW89AEmpb83yvkW8
+         RAWCU6tCPvtIrxzXJT/Gx6KVdhd25A3PpuZ5KQrl470yu/IrZh2t6iUwBsQ95yEwJjsG
+         5RmvCuYyL7keDBSmfD7EKsuSfDgh/bljxnfP2wKWcLKy9Lf+T0J9bFzcEJ/53SUs8W00
+         5FqcwaWQyvxSpTpMP9CnY7BBvyH/9Nvj7DZyJqG50O7zRENkOLqd+o7dBUteGjPuKasI
+         q0EGworSt0AanRAisuGmbzrbyOJDZX8mtobX9M8ZMhj4tWuaIKR4sGMakQ74R68NAu79
+         TAMg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=8VuB9wtINUZNt7bTTgTIPJPisLuwq8phqC472zYlPyA=;
+        b=XvOAekuQ3679mUErLQKKtyt9oAYLqdmOAxl9OhtT47OC11fSrxNS/tIz4qKkEk9cp0
+         fvhZqvRieZmAMoQGeafd+s8TBzXtHgY1/r1dhGqKreOcvOyzekaw26M38YVuRqPB1AeE
+         9lbJ746Z4W2PFRE1z48npiYoYXulGCIcwifqdvfzsDk4iXeNu8sEl+9lb/dGJ3xA99Uc
+         6abQDyjqvsTt3jSfBfhViO7htLi+gaYQX5tSJs7PtbOh/WKRZZzzMq01zsI2/NdDm+x/
+         i0M9FoZba9qkCpbEGSQLffOcuZMkWV8q9786t1C9LRBu7Yqhu5n+5mRLUDPeu+BNf6Sz
+         itvw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=kcyhy7fu;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210615125450.24156291.260801@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210615125450.24156291.260801@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210615125450.24156291.260801@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id v5sor17038683edi.25.2021.06.15.09.56.05
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 15 Jun 2021 09:56:05 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210615125450.24156291.260801@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJxWLUTJGrs4FLQfGdopC8uV0WIZ8DMNyajr2CZ6DkHT30rwpHNAAEIvKrb66LhnLL/NdE3h+xBYJK4b1eUvtKG6FiMWphE=
+X-Received: by 2002:a50:934d:: with SMTP id n13mr239305eda.17.1623776165206;
+        Tue, 15 Jun 2021 09:56:05 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1623776165; cv=none;
+        d=google.com; s=arc-20160816;
+        b=RZFh0jSODFkIX/WxX0fCxryiFiTR4iiBc6btPUvikbQnyOKSy+ixYmxiK29oebdUC0
+         jsCZCG/l+EgeitFbUNzbvH7hW8pKAuqbfRvZsCUzSmHnzO6Ur3QpLkzESIK8Kfyiyyxf
+         RF4/1YCiAGE9a80380MeU1eLzHww32oxkuH+3Aky3E1DbITbqER+RndWA99hPHv/DOPc
+         XprdY1aEqHi27Aeeai55TOrjjBBD6s/sTJiu56g+P0xeB1aSLMSb5sEH+co6urPv1Fei
+         rzC/j1U23uak9vRJBhlfTekH53qpsbsk77G007wMWgtBOLLK1LZYZSaVYbbcICBSwR/Y
+         WohQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=8VuB9wtINUZNt7bTTgTIPJPisLuwq8phqC472zYlPyA=;
+        b=BIkMT5ic4Zo5itQDvqDZnEJJwpbDm4jEHrCD24ptSSRRiiHpBkiWaRHxf4sQHHIi5I
+         ocRThCSdwOlVSZgxZkYQomtLgjvBhJzf9Q28/PL5fbpXOjrsT3gp70LQJYCcYdkT+uQR
+         +CJ8hvk08EOtcpMYx+SvcvRW97oPWBGGbOaoTDgrS94W636A6gJ32Mu1wIG5l/0O9Udh
+         8O+AcBr0lmsL2gHafp29ShW6WHrx8e9kRja0o5T/Ow7y/Oby97mD8HltHicYA40BZ7Ee
+         tI0vNvrL+pyREZCwZB6DR0nM+2W74vLR4If2LLEGnJdLsy2suhMyIpIc5xwan4/45tT5
+         L5gg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=kcyhy7fu;
+       spf=pass (google.com: domain of delivery_20210615125450.24156291.260801@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210615125450.24156291.260801@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210615125450.24156291.260801@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id s9si159062edw.4.2021.06.15.09.56.04
+        for <khamel83@gmail.com>;
+        Tue, 15 Jun 2021 09:56:05 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210615125450.24156291.260801@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=fVbSg2uyCioDEE8ITVeCOqVNEe0=;
+ b=kcyhy7fuhARA/UYsoZjOUDi4QU7Ll1NURn+A+UHmj2iXIu+AcNhV5A5OSYuxU5WL8hrEiaKtqBMi
+   VzrVsolNq4IBVmBBJNf3oOFyWG+MBFNq5pM6nB47gTSFxf2WzokVr37U6tpl8MZPVlpgykmtQ4Cv
+   58T5gXS25X8zq1zgcwI=
+Received: from nj2mta-15.sailthru.com (204.153.121.15) by bloomberg-b.sailthru.com id hp3dq81qqbs2 for <bloomberg@khamel.com>; Tue, 15 Jun 2021 12:56:04 -0400 (envelope-from <delivery_20210615125450.24156291.260801@mx.sailthru.com>)
+Date: Tue, 15 Jun 2021 12:54:50 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210615125450.24156291.260801@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IExvcmRzdG93buKAmXMgRWxl?=
+ =?utf-8?B?Y3RyaWMtVHJ1Y2sgT3JkZXJzIFdlcmUgVmFndWU=?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_20788755_861777160.1623776090821"
+Precedence: bulk
+X-Feedback-ID: 6358:24156291:campaign:sailthru
+X-TM-ID: 20210615125450.24156291.260801
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-illmaroon.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cedr43.5l8h/b23d5bf9
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cedr43.5l8h/b23d5bf9>, <mailto:unsubscribe_20210615125450.24156291.260801@mx.sailthru.com>
+X-rpcampaign: stjko24156291
+
+------=_Part_20788755_861777160.1623776090821
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+ =20
+ =20
+  Money Stuff
+ =20
+body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+             =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+   =20
+       =20
+           =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+
+     =20
+     =20
+ =20
+   =20
+      LordstownWouldn=E2=80=99t it be funny if all the electric-vehicle sta=
+rtups went public by merging with special purpose acquisition companies, an=
+d they all marketed themselves to investors using ridiculously optimistic f=
+inancial projections predicting that they=E2=80=99d all make $10 billion of=
+ revenue in record time, and retail investors piled in to buy their stocks,=
+ and then all those projections came true and a dozen new electric-vehicle =
+companies all became world-changing giants and the people who bought their =
+SPACs all got rich? It would be weird, right? Like right now there is a gig=
+antic successful high-profile electric-vehicle company in Tesla Inc., and t=
+here are a bunch of legacy automakers who know how to build cars and who ar=
+e increasingly focused on=C2=A0building electric cars, and then there are l=
+ike a dozen companies that have never built anything but have plans to buil=
+d electric cars or vans or buses or trucks or whatever, and every one of th=
+em firmly believes that it will be somewhere between =E2=80=9Cthe next Tesl=
+a=E2=80=9D and =E2=80=9Cmuch bigger than Tesla.=E2=80=9D And in 20 years I =
+assume there will be an automotive industry, and it will be largely electri=
+cal, and there will be some small number of big competitors in that industr=
+y, and some of them will probably be currently existing legacy automakers, =
+and one of them will probably be Tesla,[1] and maybe one or two or =E2=80=
+=A6=C2=A0six? =E2=80=A6=C2=A0of them will be companies in the recent crop o=
+f SPAC-funded electric-vehicle startups. But will Nikola Corp. and Fisker I=
+nc. and Lordstown Motors Corp. and Canoo Inc. and Arrival Ltd. and Faraday =
+& Future Inc. and Lion Electric Co. and Proterra Inc. and the electric-vehi=
+cle companies I=E2=80=99m forgetting, not to mention the flying-electric-ve=
+hicle companies,=C2=A0all be the next Tesla? Seems implausible. Some of the=
+se things are not going to work out.And that=E2=80=99s fine, that=E2=80=99s=
+ life in capitalism; there is demand for electric vehicles and a bunch of p=
+eople start electric-vehicle companies and some of them will be=C2=A0good a=
+t making electric vehicles and prosper and others of them will be bad at ma=
+king electric vehicles and fail. And they all need lots of money to start m=
+aking vehicles, so they all go to investors to ask for money, and=C2=A0they=
+ all say that they will be the good ones. Ex ante, no one goes to investors=
+ and says =E2=80=9Cthere are like 12 electric-vehicle companies, and maybe =
+three of them will work out, and we are not one of those, we are going to t=
+ake all your money and noodle around for a while and then shrug and give up=
+.=E2=80=9D They all say that they will succeed! Because they all plan to su=
+cceed! They all say =E2=80=9Cthe total addressable market for electric vehi=
+cles is one kajillion dollars and we will get 90% of it.=E2=80=9D And if yo=
+u add up all of their projected market shares you get, you know, 1,000% or =
+whatever. And somebody =E2=80=94=C2=A0almost everybody =E2=80=94=C2=A0is wr=
+ong.And, yes, fine, some of them will be wrong about more specific, factual=
+ things. It is one thing to say =E2=80=9Cwe hope to sell a zillion electric=
+ trucks in 2030=E2=80=9D; it=E2=80=99s another thing to say =E2=80=9Cwe alr=
+eady have trucks=C2=A0rolling off the assembly line=E2=80=9D when you don=
+=E2=80=99t, as=C2=A0Nikola Corp. more or less did. That is the sort of, uh,=
+ let=E2=80=99s say fraud-adjacent behavior that you sometimes get with visi=
+onary startups. As I  wrote about Nikola:What you want, when you invest in =
+a startup, is a founder who combines (1) an insanely ambitious vision with =
+(2) a clear-eyed plan to make it come true and (3) the ability to make peop=
+le believe in the vision now. =E2=80=9CWe=E2=80=99ll tinker with hydrogen f=
+or a while and maybe in a decade or so a fuel-cell-powered truck will come =
+out of it=E2=80=9D: True, yes, but a bad pitch. The pitch is, like, you put=
+ your arm around the shoulder of an investor, you gesture sweepingly into t=
+he distance, you close your eyes, she closes her eyes, and you say in melli=
+fluous tones: =E2=80=9CCan=E2=80=99t you see the trucks rolling off the ass=
+embly line right now? Aren=E2=80=99t they beautiful? So clean and efficient=
+, look at how nicely they drive, look at all those components, all built in=
+-house, aren=E2=80=99t they amazing? Here, hold out your hand, you can touc=
+h the truck right now. Let=E2=80=99s go for a drive.=E2=80=9D=C2=A0Or I gue=
+ss Lordstown Motors Corp. was so excited about making and selling electric =
+trucks that it went around telling people it had already sold a bunch of th=
+em. But in fact it had not,  oops:Lordstown Motors Corp. shares took their =
+biggest one-day drop ever after its two top executives stepped down and the=
+ electric truckmaker=E2=80=99s board found evidence of inaccurate statement=
+s, dimming the shine of the onetime SPAC star. =E2=80=A6The company said in=
+ a separate statement that a board investigation concluded it had made miss=
+tatements about its vehicle preorders. The probe cited instances when the s=
+tartup inaccurately claimed preorders came from commercial fleets, instead =
+of from third-party management companies or =E2=80=9Cinfluencers=E2=80=9D t=
+hat didn=E2=80=99t plan to purchase trucks directly.It also found that some=
+ of the preorders were placed by ostensible buyers unlikely to have the res=
+ources to complete the orders or whose commitments were =E2=80=9Ctoo vague =
+or infirm to be appropriately included in the total number of preorders dis=
+closed.=E2=80=9DHere is the statement about the board investigation. The st=
+ock closed down 18.8% yesterday.The story of electric-vehicle startups is c=
+losely tied to the story of special purpose acquisition companies, and ever=
+y time an electric-vehicle company does something disappointing it is natur=
+al to conclude that SPACs are bad. Here is DealBook today:SPACs allow compa=
+nies to go public earlier than traditional I.P.O.s, in large part because t=
+hey can rely on projections to tell a story they probably couldn=E2=80=99t =
+by strictly relying on past numbers. (Such projections are not allowed in I=
+.P.O.s.) That can be good for a biotech firm that needs capital for promisi=
+ng research, for example. But it can be dangerous for investors, by allowin=
+g start-up execs to spin stories about the demand for, say, electric flying=
+ taxis, even if the chance that those vehicles will be widely available is =
+remote. =E2=80=A6=E2=80=9CYou=E2=80=99re going to see more of this, frankly=
+,=E2=80=9D Tony Aquila, Canoo=E2=80=99s new C.E.O., told DealBook. =E2=80=
+=9CThat=E2=80=99s the power of the SPAC right?=E2=80=9D he said. =E2=80=9CY=
+ou can get to the public markets sooner =E2=80=94 but that means you have t=
+o grow up in front of the public.=E2=80=9DThe S.E.C. could have helped with=
+ some of the issues at play here. The commission has said it=E2=80=99s look=
+ing at how SPACs treat their projections. If projections weren=E2=80=99t al=
+lowed, or if rules forced executives to make more judicious promises, perha=
+ps a company like Lordstown would not have made it into the public market s=
+o soon via a SPAC.But the SPAC boom did not invent, like, the concept of vi=
+sionary founders overpromising to investors. What the SPAC boom did that is=
+ interesting is make it much easier for visionary founders to overpromise t=
+o public=C2=A0investors. In, like, 2017, if you had a visionary idea that w=
+asn=E2=80=99t going to work out and you wanted to raise a lot of money to f=
+und it, you went to venture-capital funds or SoftBank Group Corp. and you p=
+itched them. And they were sophisticated people who could do lots of due di=
+ligence and understand your science and engineering and blah blah blah, but=
+ let=E2=80=99s not kid ourselves, they got a lot of calls wrong too. They f=
+unded a lot of visionary ideas that didn=E2=80=99t work out.What they reall=
+y had that was valuable was a self-consciously portfolio-based approach whe=
+re they understood that they would make a lot of bets on a lot of companies=
+, and those companies would all have world-changing ideas and visionary fou=
+nders and cool technology and smart engineers, and most of them would nonet=
+heless fail because changing the world is hard, but some would succeed and =
+return enormous amounts of money and make up for all the failures. And this=
+ approach worked, and works, reasonably well. And a lot of people =E2=80=94=
+=C2=A0including for instance  the previous chairman of the Securities and E=
+xchange Commission =E2=80=94=C2=A0noticed that the venture capitalists were=
+ quite rich and ordinary investors were less rich. And they noticed that U.=
+S. companies=C2=A0went public when they were bigger and older and more prof=
+itable and more stable than they did 20 years ago, and that more of the fas=
+t-growing innovative companies that contribute to economic growth were owne=
+d by private investors. And they thought, wouldn=E2=80=99t it be good if pu=
+blic investors could have access to these sorts of high-tech fast-growing e=
+xciting venture-capital-ish investments?And there was all sorts of talk abo=
+ut  accredited-investor definitions and encouraging initial public offering=
+s and so forth, but also independently the SPAC boom came along and now you=
+ can buy shares of=C2=A0like a dozen pre-revenue electric-vehicle startups.=
+ As Steven Davidoff wrote for DealBook over the weekend:SPACs are bringing =
+riskier companies to market. Stock Market 101 suggests that with more risk =
+come more reward and more failures.Should investors be exposed to these sor=
+ts of companies, which are inherently riskier? Make your own judgment, but =
+it wasn=E2=80=99t long ago when people were worried about start-ups staying=
+ private for too long, depriving public investors of exposure to potential =
+gains. Now that the SPAC solves this problem, regulators are backpedaling.B=
+ut it solves the problem not in the abstract sense of =E2=80=9Crisk=E2=80=
+=9D and =E2=80=9Creward,=E2=80=9D but in the specific sense of giving publi=
+c investors=C2=A0the opportunity to invest with visionary founders with wor=
+ld-changing ideas who might be lying to them. That's the deal that you get,=
+ as a venture capitalist! You fund 10 companies who say they will change th=
+e world, and one of them will succeed and seven will fail and two are just =
+telling you outrageous lies to get your money. And that's a good outcome fo=
+r you!=C2=A0I  once wrote:For a venture capital fund, the optimal amount of=
+ securities-fraud exposure is=C2=A0significantly higher than zero. If all t=
+he founders of all the companies that you fund are telling you the complete=
+ truth, without even a little bit of lying about how far along their techno=
+logy is or how good their financial results are looking, then you are not f=
+unding enough aggressive and optimistic founders. For a venture capital fun=
+d, you=C2=A0want=C2=A0high-variance strategies; you want to make as many be=
+ts as possible that succeed spectacularly (and give you unlimited upside) o=
+r fail spectacularly (and you lose your modest investment).=C2=A0If you are=
+ a public investor in SPAC-driven electric-vehicle companies, it does seem =
+like you can have that sort of portfolio. Pretty cool, right? And yet I can=
+ see why regulators wouldn=E2=80=99t think so.Meme zombiesSee this is  what=
+ I keep saying:It=E2=80=99s looking more and more like corporate-finance te=
+xtbooks need a chapter on memes.Being on the brink of bankruptcy no longer =
+seems to matter much in the U.S. stock market. While that might sound like =
+the beginning of a cautionary tale about the state of investing in 2021, th=
+e reality is far stranger. Redditors have bid up shares of AMC Entertainmen=
+t Holdings Inc. and GameStop Corp. so much that it=E2=80=99s saved them -- =
+for now, at least -- from deep trouble.Not a chapter, even; somebody should=
+ write a whole textbook on Meme Corporate Finance. Maybe it will be me.One =
+aspect of=C2=A0meme-stock corporate finance=C2=A0is that bad news is good. =
+A  standard meme-stock story =E2=80=94=C2=A0not the only story, certainly, =
+but a very prominent one =E2=80=94=C2=A0is that a well-known but, uh, somew=
+hat tired company runs into business trouble,=C2=A0its stock price falls, a=
+nd short sellers pile in, betting on it to fail. And then people on Reddit =
+notice this, get offended by the short sellers, decide to mess with them, b=
+uy lots of stock and call options, push the stock price up to stratospheric=
+ levels, and respond to any skepticism about the price by posting diamond-h=
+and emojis and buying more stock. And then the company =E2=80=94=C2=A0abort=
+ively, in the case of Hertz Global Holdings Inc., or grudgingly and belated=
+ly, in the case of GameStop, or gleefully and at every opportunity, in the =
+case of AMC=C2=A0=E2=80=94 sells a bunch of stock to Redditors at elevated =
+levels to capitalize on the enthusiasm. And then it has lots of money to fu=
+nd its projects.A basic fact of ordinary, non-meme corporate finance is tha=
+t bad news is bad. Like, if a company has disappointing=C2=A0earnings, its =
+stock goes down. If it doesn=E2=80=99t seem to have enough cash to pay its =
+debt, its debt will trade at distressed levels, well below par. Sometimes t=
+hese things are self-reinforcing: The stock and bonds trade down, nobody wa=
+nts to buy more, the company has trouble funding its business, the debt com=
+es due and no one will refinance it, the company fails.=C2=A0With meme stoc=
+ks, those relationships break down. Sometimes a company has bad news, its s=
+ecurities trade down, it can=E2=80=99t fund its activities, everything gets=
+ worse in a self-reinforcing cycle and it goes out of business. Other times=
+ a company has bad news, its securities trade down, a miracle occurs, its s=
+ecurities are short-squeezed, its stock rockets to the moon, it easily pays=
+ off its bonds at par, and everything magically gets=C2=A0much better than =
+it would have been if the company had had good news to begin with. It is a =
+little hard to tell in advance  which will be which.=C2=A0But it=E2=80=99s =
+not like it=E2=80=99s just AMC and GameStop:In a broad benchmark of U.S. st=
+ocks known as the Russell 3000 Index, there are 726 companies whose earning=
+s don=E2=80=99t cover their interest payments, a red flag to pros, accordin=
+g to data compiled by Bloomberg. These zombies are up an average of 30% in =
+2021 -- trouncing the 13% return for the whole index -- and 41 of them have=
+ doubled since New Year=E2=80=99s Eve.=C2=A0Even explicitly dire warnings d=
+on=E2=80=99t seem to register. A bankruptcy plan under consideration by GTT=
+ Communications Inc. would wipe out shareholders, which is typical in Chapt=
+er 11 cases, Bloomberg reported May 24. Nevertheless, the company=E2=80=99s=
+ stock is up about 69% since then.=C2=A0Wall Street is starting to factor i=
+n the impact of traders drumming up enthusiasm for stocks on social media a=
+nd Reddit threads. Theater operator AMC, which was on the brink of bankrupt=
+cy last year, now has a =E2=80=9Cpath to a sustainable capital structure,=
+=E2=80=9D according to S&P Global Ratings, in part because it=E2=80=99s bee=
+n able to sell new shares amid huge demand from retail investors. Video-gam=
+e retailer GameStop is now debt-free for the same reason.=E2=80=9CWhen look=
+ing at the debt of certain issuers, it=E2=80=99s becoming difficult not to =
+take into account equity valuations that may seem inflated by Reddit-driven=
+ trading, especially as companies such as AMC are able to monetize these va=
+luations,=E2=80=9D said Ben Briggs, a credit analyst at StoneX Financial In=
+c. =E2=80=A6GTT, an internet infrastructure company, spiked to an intraday =
+high of $4.75 on June 3 after sinking toward $1. The company caught the eye=
+ of Reddit traders, who pointed to its small market capitalization, high sh=
+ort interest and the CEO=E2=80=99s previous business turnarounds.The compan=
+y has repeatedly extended its forbearance agreement with lenders, something=
+ that=E2=80=99s been interpreted in online forums as a lifeline -- not a ro=
+utine part of restructuring negotiations, which it is. ...=E2=80=9CA lot of=
+ retail investors are very smart,=E2=80=9D said Christian Lawrence, a strat=
+egist at Rabobank in New York. =E2=80=9CThey aren=E2=80=99t given enough cr=
+edit. But without a doubt many don=E2=80=99t understand the exact mechanics=
+ surrounding bankruptcy.=E2=80=9DYeah, well, I said that about Hertz shareh=
+olders last year. =E2=80=9CIt is =E2=80=A6 possible =E2=80=A6 that many of =
+the thousands of brand-new investors on Robinhood have not carefully analyz=
+ed the capital structures to find the fulcrum securities,=E2=80=9D  I wrote=
+, snidely, as they bought up Hertz stock.  They were right and I was wrong.=
+ Maybe the bankruptcy experts and distressed-debt investors are the ones wh=
+o, now, do not understand the mechanics surrounding bankruptcy. Like it=E2=
+=80=99s possible that those mechanics are =E2=80=9Cwhen you go bankrupt you=
+r stock and bonds=C2=A0trade=C2=A0up because that=E2=80=99s how Reddit noti=
+ces you.=E2=80=9D=C2=A0Everything is like this. We talked the other day abo=
+ut  options skew. Traditionally, companies are more volatile when their sto=
+ck goes down than when it goes up: When your stock goes down, you are a sma=
+ller, more levered, more risky company; when your stock goes up you are a b=
+igger, less levered, more established company. Meme stocks reverse that: Wh=
+en your stock goes up, it=E2=80=99s because Redditors are wildly day-tradin=
+g it and it has become unmoored from fundamental value; when your stock goe=
+s down, Redditors will step in to punish the shorts and prevent it from fal=
+ling further. This makes option prices weird, but it also upends intuitions=
+ about trading and stock prices generally. Instead of stocks falling until =
+they hit a level of deep fundamental value, or falling further and further =
+in a doom spiral, stocks fall until they bounce, and then they bounce=C2=A0=
+to the moon.=C2=A0If I write the meme-finance textbook, Part One will be ti=
+tled like =E2=80=9CThis Is Pretty Weird Huh,=E2=80=9D and it will have chap=
+ters about options skew inverting and companies emerging from bankruptcy wo=
+rth more than when they went in and whatever. But then Part Two will have t=
+o be something like =E2=80=9CHow To Get In On It.=E2=80=9D If you are the C=
+EO of a company that is considering bankruptcy, should you:=09Put on a suit=
+, buckle down to sharpen your=C2=A0financial plan, and engage in marathon m=
+eetings with creditors to try to hammer out a forbearance, or=09Put on  no =
+pants and do a bunch of Zoom interviews with YouTube trading influencers wh=
+ere you complain about short sellers?Option 1 is the traditional answer, bu=
+t if Option 2 makes your stock price double and gives you enough equity cus=
+hion to negotiate with your creditors from a position of strength, what are=
+ you doing with pants on? The corporate-finance opportunity set has been dr=
+amatically expanded, but not in =E2=80=A6=C2=A0like =E2=80=A6=C2=A0business=
+-y ways? Raising a ton of money at a price unrelated to fundamental value i=
+s just a better corporate finance move than increasing your fundamental val=
+ue would be. It is hard to know what to do about that. Which is why there n=
+eed to be new textbooks.Or if you are a hedge-fund manager, should you be b=
+uying stocks and bonds where you see deep fundamental value, or should you =
+be picking stocks that might appeal to Reddit and then going on Reddit your=
+self and pseudonymously complaining about short sellers of those stocks? =
+=E2=80=9CThis company has no money so I will bet against its bonds=E2=80=9D=
+ is not an airtight thesis these days: Having no money might attract short =
+sellers, which might attract short squeezes, which might make the stock sho=
+ot up, which might attract an at-the-market equity offering, which might gi=
+ve the company enough money to pay off the bonds.=C2=A0Elsewhere, here is t=
+he story of the Hertz bankruptcy auction. It is a high-finance story, featu=
+ring=C2=A0bankers and lawyers and hedge-fund managers in conference rooms, =
+but there=E2=80=99s also this guy:=E2=80=9CThis was the perfect scenario, I=
+ just needed a couple of good bounces,=E2=80=9D says Eric Parkinson, a reta=
+il investor who likens himself to George Soros and Warren Buffett. Parkinso=
+n, based in Los Angeles, started speculating in Hertz shares around the tim=
+e Knighthead/Certares terms were announced. =E2=80=9CI love the intersectio=
+n of fear, a lazy media narrative, and where nothing makes sense,=E2=80=9D =
+he says, referring to the mainstream view that anyone buying Hertz stock wa=
+s a sucker.Parkinson, like the hedge funds that lawyer Andrew Glenn was pit=
+ching, noticed that Hertz bonds had jumped well over the 70 cent offer on t=
+he table. The implication was that the company=E2=80=99s equity would soon =
+start to be worth considerably more. Parkinson would accumulate 67,000 shar=
+es at an average price of below $1.=C2=A0I dunno, sounds like he understood=
+ bankruptcy pretty well. He made $400,000.
+
+
+   =20
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                           =20
+                           =20
+                       =20
+                   =20
+                   =20
+                       =20
+                           =20
+                                Sponsored Content
+                                Invest in world-changing startups on AngelL=
+ist
+
+
+AngelList is the leading platform for early-stage venture investing.=20
+Invest in experienced VCs that have backed Clubhouse, Notion, Pipe, and 77 =
+other unicorns. Adjust your investment size as your goals evolve.
+                               =20
+AngelList
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+Long-termismNot that long ago, public-company chief executive officers comp=
+lained constantly about how the public capital markets were relentlessly fo=
+cused on the short term. =E2=80=9CWe can=E2=80=99t invest for the future,=
+=E2=80=9D the CEOs would say, =E2=80=9Cbecause shareholders only care about=
+ this quarter=E2=80=99s earnings, and if we ever sacrifice short-term profi=
+ts for long-term sustainability they will get mad and throw us out.=E2=80=
+=9D This always struck me as  somewhat implausible. The shareholders care a=
+bout the present value of the company=E2=80=99s future earnings in perpetui=
+ty. If the managers maximize that, the shareholders will be happy. The shar=
+eholders simply don=E2=80=99t always trust that the managers are actually d=
+oing that; they worry that the managers are being lazy or dumb or building =
+up their own importance rather than maximizing the long-term cash flows. (W=
+ith some managers, they don=E2=80=99t worry about this; Jeff Bezos and Elon=
+ Musk have very little reason to complain about shareholder short-termism.[=
+2]) The shareholders want long-term value creation; they just want to hold =
+managers accountable for actually creating that value. Sometimes the most p=
+ractical way to do that is to check up on their results each quarter.=C2=A0=
+In any case, you hear this complaint a bit less=C2=A0these days. For one th=
+ing, there is the weird exogenous fact that quarterly corporate earnings we=
+nt down a lot recently, for evidently short-term reasons,=C2=A0and investor=
+s responded with cheerful enthusiasm.=C2=A0Last year the net income of the =
+S&P 500 index was down by 19% year-over-year, while the price of the=C2=A0i=
+ndex was up 16%.[3] Looking through the effect of a pandemic is not an=C2=
+=A0incredible=C2=A0triumph of long-termism or anything, but it does seem ha=
+rder to argue now that the market myopically=C2=A0overweights short-term re=
+sults.=C2=A0Also though now CEOs are too busy responding to investor demand=
+s that they focus more on the long term:Companies are racking up hefty bill=
+s as they invest in new facilities and products to reduce emissions or meet=
+ other targets, hoping for a payoff down the road.Businesses increasingly a=
+re coming under pressure from investors, lawmakers and regulators who deman=
+d more details on their spending plans and the progress they are making to =
+achieve their environmental, social and governance goals.As a result, car m=
+anufacturers such as General Motors Co. and Ford Motor Co. are boosting inv=
+estments in electric vehicles to reduce emissions, while utilities includin=
+g Xcel Energy Inc. and CenterPoint Energy Inc. are producing more renewable=
+ power.But, those investments present challenges for chief financial office=
+rs overseeing companies=E2=80=99 capital spending plans. Many of them are e=
+ntering unknown territory by allocating funds to projects that carry big pr=
+ice tags, cover long time horizons and yield returns that are sometimes har=
+d to quantify, executives said. Companies often make these investments befo=
+re new regulations are proposed or consumer choices change, adding to the d=
+ifficulty of finding the right balance.Those viewed as investing too little=
+ are already paying a price. Ratings firms in recent months have either cut=
+ the credit outlooks of oil-and-gas companies or outright downgraded them, =
+citing risks associated with the transition to green power and other factor=
+s. Among them were Chevron Corp. and Exxon Mobil Corp. , which last month l=
+ost a proxy battle against an activist investor. Credit downgrades can incr=
+ease companies=E2=80=99 borrowing costs and hurt their stock prices.A coupl=
+e of years ago, if a company got in a proxy fight with an activist investor=
+, the company=E2=80=99s managers would invariably say that the activist was=
+ a short-term-focused investor who wanted to make a quick buck and didn=E2=
+=80=99t understand or care about the company=E2=80=99s long-term business. =
+That was just how managers thought and talked about activists, and really h=
+ow everyone did: Activists wanted to take the money the company was going t=
+o spend on research and development and blow it on stock buybacks instead. =
+Now, when  Exxon lost a=C2=A0proxy=C2=A0fight last month, it was to an acti=
+vist who wants it to do more to transition to green energy, because he thin=
+ks that will create more long-term value even at the expense of=C2=A0short-=
+term profitability.Bearer shares?What the heck:A Massachusetts man who boug=
+ht a handful of=C2=A0McDonald's Corp. shares nearly 50 years ago is owed mo=
+re than $800,000 after the company split its stock eight times over the dec=
+ades without issuing him new shares, according to a federal lawsuit filed T=
+hursday.Samuel R. DiTrolio of Kingston, Massachusetts, claims he never rece=
+ived new stock certificates after buying 35 shares of McDonald's Corp. at a=
+ brokerage in Sanford, Maine, in June 1972.The shares split eight times in =
+the decades since, in either two-for-one or three-for-two splits that shoul=
+d have ballooned into 2,835 shares of the fast-food giant, DiTrolio says.=
+=C2=A0=E2=80=A6McDonald's responded through its attorneys at=C2=A0Nixon Pea=
+body LLP=C2=A0that DiTrolio with his certificate didn't provide sufficient =
+evidence to establish that he has shareholder rights."Mr. DiTrolio is not l=
+isted in McDonald's records as a registered shareholder," the company's law=
+yers said, asking DiTrolio to provide additional documents such as dividend=
+ payment stubs, statements, or communications regarding stock splits, or ta=
+x records to prove ownership."McDonald's takes Mr. DiTrolio's allegations v=
+ery seriously and is committed to reaching a fair outcome in this matter," =
+the company said in its letter to DiTrolio on June 4. "McDonald's has a sig=
+nificant interest, for the protection of the corporation and all of the cor=
+poration's shareholders, to ensure that any claim to ownership of stock is =
+fully, accurately, and carefully vetted."Here is the complaint, which says =
+that =E2=80=9Con or about June 5, 1972, Plaintiff for lawful consideration =
+purchased 35 shares of [McDonald=E2=80=99s] common stock at a branch of E.F=
+. Hutton in Sanford, Maine,=E2=80=9D and got a stock certificate. There is,=
+ in the United States in 2021, an ordinary, multi-tiered,  somewhat  imperf=
+ect way of figuring out who owns shares of a public company; it does not pu=
+t much stress on share certificates. It goes like this:=09The company=E2=80=
+=99s transfer agent has a list of shareholders and how many shares they own=
+.=09The main shareholder is usually Cede & Co., a sort of alias for the Dep=
+ository Trust Co., which is in the business of=C2=A0owning everyone=E2=80=
+=99s shares for them.=09DTC keeps a list of its participants =E2=80=94=C2=
+=A0banks and brokerages =E2=80=94=C2=A0and how many of the Cede shares they=
+ =E2=80=9Creally=E2=80=9D own.=09The participants keep a list of their cust=
+omers and how many shares they =E2=80=9Creally=E2=80=9D own.So if you own s=
+tock, what you actually own is an entry on a list at your broker, which in =
+turn owns an entry on a list at DTC, which in turn owns an entry on a list =
+at the company=E2=80=99s transfer agent. Which is fine; the main thing that=
+ anyone owns in modern society=C2=A0is entries on lists. (What is your bank=
+ account if not that?) You just have to hope that everyone does a good job =
+of maintaining the lists. If that troubles you, you might look into a block=
+chain, I dunno.On the other hand in 1972 some of this list-keeping was in i=
+ts infancy and you might have just brought home a stock certificate, secure=
+ in the knowledge that, whatever else happened, this fancy embossed piece o=
+f paper represented a valuable claim on an iconic American company. And the=
+n you went to bed for 50 years and woke up to find that you weren=E2=80=99t=
+ on the list(s). Perhaps they forgot you! Perhaps the embossed piece of pap=
+er is a forgery!=C2=A0Things happenPandemic Hangover: $11 Trillion in Corpo=
+rate Debt. Airbnb Is Spending Millions of Dollars to  Make Nightmares Go Aw=
+ay. Lumber Prices Are Falling Fast, Turning Hoarders Into Sellers. Deutsche=
+ Bank Set to Reap $1 Billion on Trader=E2=80=99s  Freight Bet. Morgan Stanl=
+ey chief talks tough on return to the office.=C2=A0SEC Picks Professor Who =
+Criticized Startup =E2=80=98Unicorns=E2=80=99 as Top Corporate Regulator. F=
+ed urged to aid money market funds as negative rates loom.=C2=A0EU freezes =
+10 banks out of bond sales over antitrust breaches. Wall Street Asks If  Bi=
+tcoin Can Ever Replace Fiat Currencies. Bitcoin on the Balance Sheet Is an =
+Accounting Headache for Tesla, Others. Goldman Expands in Crypto Trading Wi=
+th Plans for  Ether Options. Hedge funds expect to hold 7% of assets in cry=
+pto within five years. Web inventor Berners-Lee to auction original code as=
+ NFT. Petition urging Jeff Bezos to buy and eat the Mona Lisa gains steam.=
+=C2=A0If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, =
+right in your inbox, please=C2=A0subscribe at this link. Or you can subscri=
+be to Money Stuff and other great Bloomberg newsletters here. Thanks![1] No=
+t investing advice! Please do not email me about this prediction![2] Musk  =
+complains about it anyway of course.[3] S&P earnings are from Bloomberg=E2=
+=80=99s trailing 12-month earnings per share (SPX <index> FA) as of Dec. 31=
+, 2019 ($151.74), and Dec. 31, 2020 ($123.47).
+   =20
+ =20
+
+
+   =20
+     =20
+        Follow Us
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+     =20
+     =20
+     =20
+       =20
+          Get the newsletter
+       =20
+     =20
+   =20
+
+
+     =20
+     =20
+ =20
+   =20
+      =C2=A0
+   =20
+   =20
+     =20
+   =20
+   =20
+      Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+   =20
+   =20
+      =C2=A0
+   =20
+ =20
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+   =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cedr43.5l8h/4315054a.gif" alt=3D"" border=3D"0" /></a>
+
+
+
+------=_Part_20788755_861777160.1623776090821
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; color:=
+ #000; margin: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" clas=
+s=3D"brand-hdr">
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/24156291.260801/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1=
+dGhvcnMvQVJiVFFsUkxSakUvbWF0dGhldy1zLWxldmluZQ/607f07ceef4b8524a319a23cB4ae=
+c23dc"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%;" /><!--[if mso]>
+</div>
+<![endif]--></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"8">
+<tr>
+<td width=3D"206" align=3D"center">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24156291.260801/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cB1a21439=
+4">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top=
+: 30px; margin-bottom: 0;">Lordstown</h2><p style=3D"margin: 16px 0;">Would=
+n=E2=80=99t it be funny if all the electric-vehicle startups went public by=
+ merging with special purpose acquisition companies, and they all marketed =
+themselves to investors using ridiculously optimistic financial projections=
+ predicting that they=E2=80=99d all <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/24156291.260801/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9lb=
+GVjdHJpYy12ZWhpY2xlLXN0YXJ0dXBzLXByb21pc2UtcmVjb3JkLXNldHRpbmctcmV2ZW51ZS1n=
+cm93dGgtMTE2MTU4MDA2MDI/607f07ceef4b8524a319a23cBf4c5f765" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;">make $10 billion of revenu=
+e in record time</a>, and retail investors piled in to buy their stocks, an=
+d then all those projections came true and a dozen new electric-vehicle com=
+panies all became world-changing giants and the people who bought their SPA=
+Cs all got rich? It would be weird, right? Like right now there is a gigant=
+ic successful high-profile electric-vehicle company in Tesla Inc., and ther=
+e are a bunch of legacy automakers who know how to build cars and who are i=
+ncreasingly focused on=C2=A0building electric cars, and then there are like=
+ a dozen companies that have never built anything but have plans to build e=
+lectric cars or vans or buses or trucks or whatever, and every one of them =
+firmly believes that it will be somewhere between =E2=80=9Cthe next Tesla=
+=E2=80=9D and =E2=80=9Cmuch bigger than Tesla.=E2=80=9D And in 20 years I a=
+ssume there will be an automotive industry, and it will be largely electric=
+al, and there will be some small number of big competitors in that industry=
+, and some of them will probably be currently existing legacy automakers, a=
+nd one of them will probably be Tesla,[1] and maybe one or two or =E2=80=A6=
+=C2=A0six? =E2=80=A6=C2=A0of them will be companies in the recent crop of S=
+PAC-funded electric-vehicle startups. But will Nikola Corp. and Fisker Inc.=
+ and Lordstown Motors Corp. and Canoo Inc. and Arrival Ltd. and Faraday &am=
+p; Future Inc. and Lion Electric Co. and Proterra Inc. and the electric-veh=
+icle companies I=E2=80=99m forgetting, not to mention the flying-electric-v=
+ehicle companies,=C2=A0<em>all </em>be the next Tesla? Seems implausible. S=
+ome of these things are not going to work out.</p><p style=3D"margin: 16px =
+0;">And that=E2=80=99s fine, that=E2=80=99s life in capitalism; there is de=
+mand for electric vehicles and a bunch of people start electric-vehicle com=
+panies and some of them will be=C2=A0good at making electric vehicles and p=
+rosper and others of them will be bad at making electric vehicles and fail.=
+ And they all need lots of money to start making vehicles, so they all go t=
+o investors to ask for money, and=C2=A0<em>they all say that they will be t=
+he good ones</em>. Ex ante, no one goes to investors and says =E2=80=9Cther=
+e are like 12 electric-vehicle companies, and maybe three of them will work=
+ out, and we are not one of those, we are going to take all your money and =
+noodle around for a while and then shrug and give up.=E2=80=9D They all say=
+ that they will succeed! Because they all plan to succeed! They all say =E2=
+=80=9Cthe total addressable market for electric vehicles is one kajillion d=
+ollars and we will get 90% of it.=E2=80=9D And if you add up all of their p=
+rojected market shares you get, you know, 1,000% or whatever. And somebody =
+=E2=80=94=C2=A0almost everybody =E2=80=94=C2=A0is wrong.</p><p style=3D"mar=
+gin: 16px 0;">And, yes, fine, some of them will be wrong about more specifi=
+c, factual things. It is one thing to say =E2=80=9Cwe hope to sell a zillio=
+n electric trucks in 2030=E2=80=9D; it=E2=80=99s another thing to say =E2=
+=80=9Cwe already have trucks=C2=A0rolling off the assembly line=E2=80=9D wh=
+en you don=E2=80=99t, as=C2=A0Nikola Corp. more or less did. That is the so=
+rt of, uh, let=E2=80=99s say fraud-adjacent behavior that you sometimes get=
+ with visionary startups. As I <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/24156291.260801/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjEtMDItMjYvc3RhcnR1cHMtc29tZXRpbWVzLXN0cmV0Y2gtdGhlLXRydXRo/=
+607f07ceef4b8524a319a23cB511ed922" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> wrote about Nikola</a>:</p><blockquote><p style=
+=3D"margin: 16px 0;">What you want, when you invest in a startup, is a foun=
+der who combines (1) an insanely ambitious vision with (2) a clear-eyed pla=
+n to make it come true and (3) the ability to make people believe in the vi=
+sion now. =E2=80=9CWe=E2=80=99ll tinker with hydrogen for a while and maybe=
+ in a decade or so a fuel-cell-powered truck will come out of it=E2=80=9D: =
+True, yes, but a bad pitch. The pitch is, like, you put your arm around the=
+ shoulder of an investor, you gesture sweepingly into the distance, you clo=
+se your eyes, she closes her eyes, and you say in mellifluous tones: =E2=80=
+=9CCan=E2=80=99t you see the trucks rolling off the assembly line right now=
+? Aren=E2=80=99t they beautiful? So clean and efficient, look at how nicely=
+ they drive, look at all those components, all built in-house, aren=E2=80=
+=99t they amazing? Here, hold out your hand, you can touch the truck right =
+now. Let=E2=80=99s go for a drive.=E2=80=9D=C2=A0</p></blockquote><p style=
+=3D"margin: 16px 0;">Or I guess Lordstown Motors Corp. was so excited about=
+ making and selling electric trucks that it went around telling people it h=
+ad already sold a bunch of them. But in fact it had not, <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/24156291.260801/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMTQvbG9yZHN0b3duLW1vdG9ycy1zYXl=
+zLWNlby1jZm8tcmVzaWduLWluLWFicnVidC1kZXBhcnR1cmU/607f07ceef4b8524a319a23cB8=
+ca6ede4" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;"> =
+oops</a>:</p><blockquote><p style=3D"margin: 16px 0;">Lordstown Motors Corp=
+. shares took their biggest one-day drop ever after its two top executives =
+stepped down and the electric truckmaker=E2=80=99s board found evidence of =
+inaccurate statements, dimming the shine of the onetime SPAC star. =E2=80=
+=A6</p><p style=3D"margin: 16px 0;">The company said in a separate statemen=
+t that a board investigation concluded it had made misstatements about its =
+vehicle preorders. The probe cited instances when the startup inaccurately =
+claimed preorders came from commercial fleets, instead of from third-party =
+management companies or =E2=80=9Cinfluencers=E2=80=9D that didn=E2=80=99t p=
+lan to purchase trucks directly.</p><p style=3D"margin: 16px 0;">It also fo=
+und that some of the preorders were placed by ostensible buyers unlikely to=
+ have the resources to complete the orders or whose commitments were =E2=80=
+=9Ctoo vague or infirm to be appropriately included in the total number of =
+preorders disclosed.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">=
+Here is <a href=3D"https://link.mail.bloombergbusiness.com/click/24156291.2=
+60801/aHR0cHM6Ly9pbnZlc3Rvci5sb3Jkc3Rvd25tb3RvcnMuY29tL25ld3MtcmVsZWFzZXMvb=
+mV3cy1yZWxlYXNlLWRldGFpbHMvbG9yZHN0b3duLW1vdG9ycy1yZXBvcnRzLXJlc3VsdHMtc3Bl=
+Y2lhbC1jb21taXR0ZWUtaW52ZXN0aWdhdGlvbg/607f07ceef4b8524a319a23cBf05d64a7" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">the stateme=
+nt about the board investigation</a>. The stock closed down 18.8% yesterday=
+.</p><p style=3D"margin: 16px 0;">The story of electric-vehicle startups is=
+ closely tied to the story of special purpose acquisition companies, and ev=
+ery time an electric-vehicle company does something disappointing it is nat=
+ural to conclude that SPACs are bad. Here is <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24156291.260801/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20v=
+MjAyMS8wNi8xNS9idXNpbmVzcy9kZWFsYm9vay9sb3Jkc3Rvd24tc3BhY3Mtc2VjLmh0bWw/607=
+f07ceef4b8524a319a23cB0bc7d4c5" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">DealBook today</a>:</p><blockquote><p style=3D"margin=
+: 16px 0;">SPACs allow companies to go public earlier than traditional I.P.=
+O.s, in large part because they can rely on projections to tell a story the=
+y probably couldn=E2=80=99t by strictly relying on past numbers. (Such proj=
+ections are not allowed in I.P.O.s.) That can be good for a biotech firm th=
+at needs capital for promising research, for example. But it can be dangero=
+us for investors, by allowing start-up execs to spin stories about the dema=
+nd for, say, electric flying taxis, even if the chance that those vehicles =
+will be widely available is remote. =E2=80=A6</p><p style=3D"margin: 16px 0=
+;">=E2=80=9CYou=E2=80=99re going to see more of this, frankly,=E2=80=9D Ton=
+y Aquila, Canoo=E2=80=99s new C.E.O., told DealBook. =E2=80=9CThat=E2=80=99=
+s the power of the SPAC right?=E2=80=9D he said. =E2=80=9CYou can get to th=
+e public markets sooner =E2=80=94 but that means you have to grow up in fro=
+nt of the public.=E2=80=9D</p><p style=3D"margin: 16px 0;">The S.E.C. could=
+ have helped with some of the issues at play here. The commission has said =
+it=E2=80=99s looking at how SPACs treat their projections. If projections w=
+eren=E2=80=99t allowed, or if rules forced executives to make more judiciou=
+s promises, perhaps a company like Lordstown would not have made it into th=
+e public market so soon via a SPAC.</p></blockquote><p style=3D"margin: 16p=
+x 0;">But the SPAC boom did not invent, like, the concept of visionary foun=
+ders overpromising to investors. What the SPAC boom did that is interesting=
+ is make it much easier for visionary founders to overpromise to <em>public=
+=C2=A0</em>investors. In, like, 2017, if you had a visionary idea that wasn=
+=E2=80=99t going to work out and you wanted to raise a lot of money to fund=
+ it, you went to venture-capital funds or SoftBank Group Corp. and you pitc=
+hed them. And they were sophisticated people who could do lots of due dilig=
+ence and understand your science and engineering and blah blah blah, but le=
+t=E2=80=99s not kid ourselves, they got a lot of calls wrong too. They fund=
+ed a lot of visionary ideas that didn=E2=80=99t work out.</p><p style=3D"ma=
+rgin: 16px 0;">What they really had that was valuable was a self-consciousl=
+y portfolio-based approach where they understood that they would make a lot=
+ of bets on a lot of companies, and those companies would all have world-ch=
+anging ideas and visionary founders and cool technology and smart engineers=
+, and most of them would nonetheless fail because changing the world is har=
+d, but some would succeed and return enormous amounts of money and make up =
+for all the failures. And this approach worked, and works, reasonably well.=
+ And a lot of people =E2=80=94=C2=A0including for instance <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/24156291.260801/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTctMDctMTMvbWFpbi1zdHJlZXQtYW5kL=
+XByZW1pdW0tbGlzdGluZ3M/607f07ceef4b8524a319a23cB952598ee" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> the previous chairman of t=
+he Securities and Exchange Commission</a> =E2=80=94=C2=A0noticed that the v=
+enture capitalists were quite rich and ordinary investors were less rich. A=
+nd they noticed that U.S. companies=C2=A0went public when they were bigger =
+and older and more profitable and more stable than they did 20 years ago, a=
+nd that more of the fast-growing innovative companies that contribute to ec=
+onomic growth were owned by private investors. And they thought, wouldn=E2=
+=80=99t it be good if public investors could have access to these sorts of =
+high-tech fast-growing exciting venture-capital-ish investments?</p><p styl=
+e=3D"margin: 16px 0;">And there was all sorts of talk about <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/24156291.260801/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDktMjQvZWFybmluZy10aGUtcmln=
+aHQtdG8tZ2V0LXN3aW5kbGVk/607f07ceef4b8524a319a23cBc7f6d297" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: solid; background-color: #ccc;"> accredited-investor defi=
+nitions</a> and encouraging initial public offerings and so forth, but also=
+ independently the SPAC boom came along and now you can buy shares of=C2=A0=
+like a dozen pre-revenue electric-vehicle startups. As Steven Davidoff <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/24156291.260801/aHR0cH=
+M6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wNi8xMi9idXNpbmVzcy9kZWFsYm9vay9TUEFDcy1kZ=
+WZlbnNlLmh0bWw/607f07ceef4b8524a319a23cB04575618" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">wrote for DealBook</a> over the wee=
+kend:</p><blockquote><p style=3D"margin: 16px 0;">SPACs are bringing riskie=
+r companies to market. Stock Market 101 suggests that with more risk come m=
+ore reward and more failures.</p><p style=3D"margin: 16px 0;">Should invest=
+ors be exposed to these sorts of companies, which are inherently riskier? M=
+ake your own judgment, but it wasn=E2=80=99t long ago when people were worr=
+ied about start-ups staying private for too long, depriving public investor=
+s of exposure to potential gains. Now that the SPAC solves this problem, re=
+gulators are backpedaling.</p></blockquote><p style=3D"margin: 16px 0;">But=
+ it solves the problem not in the abstract sense of =E2=80=9Crisk=E2=80=9D =
+and =E2=80=9Creward,=E2=80=9D but in the specific sense of giving public in=
+vestors=C2=A0the opportunity to invest with visionary founders with world-c=
+hanging ideas who might be lying to them. That's the deal that you get, as =
+a venture capitalist! You fund 10 companies who say they will change the wo=
+rld, and one of them will succeed and seven will fail and two are just tell=
+ing you outrageous lies to get your money. And that's a good outcome for yo=
+u!=C2=A0I <a href=3D"https://link.mail.bloombergbusiness.com/click/24156291=
+.260801/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQ=
+tMjkvaWdub3JpbmctdGhlLXJ1bGVzLXNvbWV0aW1lcy13b3Jrcy1mb3ItZWxvbi1tdXNr/607f0=
+7ceef4b8524a319a23cB3e08ba58" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> once wrote</a>:</p><blockquote><p style=3D"margin: 16p=
+x 0;">For a venture capital fund, the optimal amount of securities-fraud ex=
+posure is=C2=A0<em>significantly higher than zero</em>. If all the founders=
+ of all the companies that you fund are telling you the complete truth, wit=
+hout even a little bit of lying about how far along their technology is or =
+how good their financial results are looking, then you are not funding enou=
+gh aggressive and optimistic founders. For a venture capital fund, you=C2=
+=A0<em>want=C2=A0</em>high-variance strategies; you want to make as many be=
+ts as possible that succeed spectacularly (and give you unlimited upside) o=
+r fail spectacularly (and you lose your modest investment).=C2=A0</p></bloc=
+kquote><p style=3D"margin: 16px 0;">If you are a public investor in SPAC-dr=
+iven electric-vehicle companies, it does seem like you can have that sort o=
+f portfolio. Pretty cool, right? And yet I can see why regulators wouldn=E2=
+=80=99t think so.</p><h2 style=3D"font-weight: bold; font-family: &quot;Ari=
+al Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: -1px; font-si=
+ze: 20px; border-bottom-width: 1px; border-bottom-style: dotted; padding-bo=
+ttom: 5px; margin-top: 30px; margin-bottom: 0;">Meme zombies</h2><p style=
+=3D"margin: 16px 0;">See this is <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/24156291.260801/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjEtMDYtMTEvem9tYmllLXN0b2Nrcy1kZWZ5LWJhbmtydXB0Y3ktbG9naWMtYXM=
+tbWVtZS10cmFkZXJzLWJpZC10aGVtLXVw/607f07ceef4b8524a319a23cBf0ae1f51" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> what I keep say=
+ing</a>:</p><blockquote><p style=3D"margin: 16px 0;">It=E2=80=99s looking m=
+ore and more like corporate-finance textbooks need a chapter on memes.</p><=
+p style=3D"margin: 16px 0;">Being on the brink of bankruptcy no longer seem=
+s to matter much in the U.S. stock market. While that might sound like the =
+beginning of a cautionary tale about the state of investing in 2021, the re=
+ality is far stranger. Redditors have bid up shares of AMC Entertainment Ho=
+ldings Inc. and GameStop Corp. so much that it=E2=80=99s saved them -- for =
+now, at least -- from deep trouble.</p></blockquote><p style=3D"margin: 16p=
+x 0;">Not a chapter, even; somebody should write a whole textbook on Meme C=
+orporate Finance. Maybe it will be me.</p><p style=3D"margin: 16px 0;">One =
+aspect of=C2=A0meme-stock corporate finance=C2=A0is that bad news is good. =
+A <a href=3D"https://link.mail.bloombergbusiness.com/click/24156291.260801/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMDkvdGh=
+lLW1lbWUtc3RvY2tzLWtlZXAtY29taW5n/607f07ceef4b8524a319a23cBa180216f" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> standard meme-s=
+tock story</a> =E2=80=94=C2=A0not the only story, certainly, but a very pro=
+minent one =E2=80=94=C2=A0is that a well-known but, uh, somewhat tired comp=
+any runs into business trouble,=C2=A0its stock price falls, and short selle=
+rs pile in, betting on it to fail. And then people on Reddit notice this, g=
+et offended by the short sellers, decide to mess with them, buy lots of sto=
+ck and call options, push the stock price up to stratospheric levels, and r=
+espond to any skepticism about the price by posting diamond-hand emojis and=
+ buying more stock. And then the company =E2=80=94=C2=A0abortively, in the =
+case of Hertz Global Holdings Inc., or grudgingly and belatedly, in the cas=
+e of GameStop, or gleefully and at every opportunity, in the case of AMC=C2=
+=A0=E2=80=94 sells a bunch of stock to Redditors at elevated levels to capi=
+talize on the enthusiasm. And then it has lots of money to fund its project=
+s.</p><p style=3D"margin: 16px 0;">A basic fact of ordinary, non-meme corpo=
+rate finance is that bad news is bad. Like, if a company has disappointing=
+=C2=A0earnings, its stock goes down. If it doesn=E2=80=99t seem to have eno=
+ugh cash to pay its debt, its debt will trade at distressed levels, well be=
+low par. Sometimes these things are self-reinforcing: The stock and bonds t=
+rade down, nobody wants to buy more, the company has trouble funding its bu=
+siness, the debt comes due and no one will refinance it, the company fails.=
+=C2=A0</p><p style=3D"margin: 16px 0;">With meme stocks, those relationship=
+s break down. Sometimes a company has bad news, its securities trade down, =
+it can=E2=80=99t fund its activities, everything gets worse in a self-reinf=
+orcing cycle and it goes out of business. Other times a company has bad new=
+s, its securities trade down, a miracle occurs, its securities are short-sq=
+ueezed, its stock rockets to the moon, it easily pays off its bonds at par,=
+ and everything magically gets=C2=A0much better than it would have been if =
+the company had had good news to begin with. It is a little hard to tell in=
+ advance <a href=3D"https://link.mail.bloombergbusiness.com/click/24156291.=
+260801/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYt=
+MTQvbW9yZ2FuLXN0YW5sZXktcy10ZWQtcGljay1tYXRjaGVkLXdpdHMtd2l0aC1nb2xkbWFuLXM=
+tYmxhbmtmZWlu/607f07ceef4b8524a319a23cB6dc53abd" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> which will be which</a>.=C2=A0</p><=
+p style=3D"margin: 16px 0;">But it=E2=80=99s not like it=E2=80=99s just AMC=
+ and GameStop:</p><blockquote><p style=3D"margin: 16px 0;">In a broad bench=
+mark of U.S. stocks known as the Russell 3000 Index, there are 726 companie=
+s whose earnings don=E2=80=99t cover their interest payments, a red flag to=
+ pros, according to data compiled by Bloomberg. These zombies are up an ave=
+rage of 30% in 2021 -- trouncing the 13% return for the whole index -- and =
+41 of them have doubled since New Year=E2=80=99s Eve.=C2=A0</p><p style=3D"=
+margin: 16px 0;">Even explicitly dire warnings don=E2=80=99t seem to regist=
+er. A bankruptcy plan under consideration by GTT Communications Inc. would =
+wipe out shareholders, which is typical in Chapter 11 cases, Bloomberg repo=
+rted May 24. Nevertheless, the company=E2=80=99s stock is up about 69% sinc=
+e then.=C2=A0</p><p style=3D"margin: 16px 0;">Wall Street is starting to fa=
+ctor in the impact of traders drumming up enthusiasm for stocks on social m=
+edia and Reddit threads. Theater operator AMC, which was on the brink of ba=
+nkruptcy last year, now has a =E2=80=9Cpath to a sustainable capital struct=
+ure,=E2=80=9D according to S&amp;P Global Ratings, in part because it=E2=80=
+=99s been able to sell new shares amid huge demand from retail investors. V=
+ideo-game retailer GameStop is now debt-free for the same reason.</p><p sty=
+le=3D"margin: 16px 0;">=E2=80=9CWhen looking at the debt of certain issuers=
+, it=E2=80=99s becoming difficult not to take into account equity valuation=
+s that may seem inflated by Reddit-driven trading, especially as companies =
+such as AMC are able to monetize these valuations,=E2=80=9D said Ben Briggs=
+, a credit analyst at StoneX Financial Inc. =E2=80=A6</p><p style=3D"margin=
+: 16px 0;">GTT, an internet infrastructure company, spiked to an intraday h=
+igh of $4.75 on June 3 after sinking toward $1. The company caught the eye =
+of Reddit traders, who pointed to its small market capitalization, high sho=
+rt interest and the CEO=E2=80=99s previous business turnarounds.</p><p styl=
+e=3D"margin: 16px 0;">The company has repeatedly extended its forbearance a=
+greement with lenders, something that=E2=80=99s been interpreted in online =
+forums as a lifeline -- not a routine part of restructuring negotiations, w=
+hich it is. ...</p><p style=3D"margin: 16px 0;">=E2=80=9CA lot of retail in=
+vestors are very smart,=E2=80=9D said Christian Lawrence, a strategist at R=
+abobank in New York. =E2=80=9CThey aren=E2=80=99t given enough credit. But =
+without a doubt many don=E2=80=99t understand the exact mechanics surroundi=
+ng bankruptcy.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">Yeah, =
+well, I said that about Hertz shareholders last year. =E2=80=9CIt is =E2=80=
+=A6 possible =E2=80=A6 that many of the thousands of brand-new investors on=
+ Robinhood have not carefully analyzed the capital structures to find the f=
+ulcrum securities,=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/24156291.260801/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fyd=
+GljbGVzLzIwMjAtMDYtMDkvdGhlLWJhZC1zdG9ja3MtYXJlLXRoZS1tb3N0LWZ1bg/607f07cee=
+f4b8524a319a23cBa138f7ff" itemprop=3D"StoryLink" itemscope=3D"itemscope" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> I wrote</a>, snidely, as they bought up Hertz stock. <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/24156291.260801/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMTIvdGhlLWhlcn=
+R6LWdhbWJsZXJzLXdlcmUtcmlnaHQ/607f07ceef4b8524a319a23cBe1679c1e" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> They were right</=
+a> and I was wrong. Maybe the bankruptcy experts and distressed-debt invest=
+ors are the ones who, now, do not understand the mechanics surrounding bank=
+ruptcy. Like it=E2=80=99s possible that those mechanics are =E2=80=9Cwhen y=
+ou go bankrupt your stock and bonds=C2=A0trade=C2=A0up because that=E2=80=
+=99s how Reddit notices you.=E2=80=9D=C2=A0</p><p style=3D"margin: 16px 0;"=
+>Everything is like this. We talked the other day about <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/24156291.260801/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMDkvdGhlLW1lbWUtc3RvY2tzLWtl=
+ZXAtY29taW5n/607f07ceef4b8524a319a23cCa180216f" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> options skew</a>. Traditionally, com=
+panies are more volatile when their stock goes down than when it goes up: W=
+hen your stock goes down, you are a smaller, more levered, more risky compa=
+ny; when your stock goes up you are a bigger, less levered, more establishe=
+d company. Meme stocks reverse that: When your stock goes up, it=E2=80=99s =
+because Redditors are wildly day-trading it and it has become unmoored from=
+ fundamental value; when your stock goes down, Redditors will step in to pu=
+nish the shorts and prevent it from falling further. This makes option pric=
+es weird, but it also upends intuitions about trading and stock prices gene=
+rally. Instead of stocks falling until they hit a level of deep fundamental=
+ value, or falling further and further in a doom spiral, stocks fall until =
+they bounce, and then they bounce=C2=A0to the moon.=C2=A0</p><p style=3D"ma=
+rgin: 16px 0;">If I write the meme-finance textbook, Part One will be title=
+d like =E2=80=9CThis Is Pretty Weird Huh,=E2=80=9D and it will have chapter=
+s about options skew inverting and companies emerging from bankruptcy worth=
+ more than when they went in and whatever. But then Part Two will have to b=
+e something like =E2=80=9CHow To Get In On It.=E2=80=9D If you are the CEO =
+of a company that is considering bankruptcy, should you:</p><ol style=3D"li=
+st-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=
+=3D"margin-bottom: 5px;">Put on a suit, buckle down to sharpen your=C2=A0fi=
+nancial plan, and engage in marathon meetings with creditors to try to hamm=
+er out a forbearance, or</li>=09<li style=3D"margin-bottom: 5px;">Put on <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/24156291.260801/aHR0=
+cHM6Ly93d3cucmVhZG1hcmdpbnMuY29tL3AvYXBlLWFybWllcy1hbmQtaW52ZXN0b3ItcmVsYXR=
+pb25z/607f07ceef4b8524a319a23cB35fef8df" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> no pants</a> and do a bunch of Zoom inter=
+views with YouTube trading influencers where you complain about short selle=
+rs?</li></ol><p style=3D"margin: 16px 0;">Option 1 is the traditional answe=
+r, but if Option 2 makes your stock price double and gives you enough equit=
+y cushion to negotiate with your creditors from a position of strength, wha=
+t are you doing with pants on? The corporate-finance opportunity set has be=
+en dramatically expanded, but not in =E2=80=A6=C2=A0like =E2=80=A6=C2=A0bus=
+iness-y ways? Raising a ton of money at a price unrelated to fundamental va=
+lue is just a better corporate finance move than increasing your fundamenta=
+l value would be. It is hard to know what to do about that. Which is why th=
+ere need to be new textbooks.</p><p style=3D"margin: 16px 0;">Or if you are=
+ a hedge-fund manager, should you be buying stocks and bonds where you see =
+deep fundamental value, or should you be picking stocks that might appeal t=
+o Reddit and then going on Reddit yourself and pseudonymously complaining a=
+bout short sellers of those stocks? =E2=80=9CThis company has no money so I=
+ will bet against its bonds=E2=80=9D is not an airtight thesis these days: =
+Having no money might attract short sellers, which might attract short sque=
+ezes, which might make the stock shoot up, which might attract an at-the-ma=
+rket equity offering, which might give the company enough money to pay off =
+the bonds.=C2=A0</p><p style=3D"margin: 16px 0;">Elsewhere, here is <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24156291.260801/aHR0cHM6L=
+y93d3cuZnQuY29tL2NvbnRlbnQvNWFjNjY3ZjQtNjNkOS00Yzc1LWJmOGItNWJkNGQ2MTA3YmMy=
+/607f07ceef4b8524a319a23cBfe02fd98" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">the story of the Hertz bankruptcy auction</a>. It=
+ is a high-finance story, featuring=C2=A0bankers and lawyers and hedge-fund=
+ managers in conference rooms, but there=E2=80=99s also this guy:</p><block=
+quote><p style=3D"margin: 16px 0;">=E2=80=9CThis was the perfect scenario, =
+I just needed a couple of good bounces,=E2=80=9D says Eric Parkinson, a ret=
+ail investor who likens himself to George Soros and Warren Buffett. Parkins=
+on, based in Los Angeles, started speculating in Hertz shares around the ti=
+me Knighthead/Certares terms were announced. =E2=80=9CI love the intersecti=
+on of fear, a lazy media narrative, and where nothing makes sense,=E2=80=9D=
+ he says, referring to the mainstream view that anyone buying Hertz stock w=
+as a sucker.</p><p style=3D"margin: 16px 0;">Parkinson, like the hedge fund=
+s that lawyer Andrew Glenn was pitching, noticed that Hertz bonds had jumpe=
+d well over the 70 cent offer on the table. The implication was that the co=
+mpany=E2=80=99s equity would soon start to be worth considerably more. Park=
+inson would accumulate 67,000 shares at an average price of below $1.=C2=A0=
+</p></blockquote><p style=3D"margin: 16px 0;">I dunno, sounds like he under=
+stood bankruptcy pretty well. He made $400,000.</p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 14px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td style=3D"padding: 15px 15px 0px;">
+<!--[if mso]>
+<table width=3D"500">
+<tr>
+<td>
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/inJXmAcNgA6I/v=
+0/-1x-1.png" width=3D"500" />
+</td>
+</tr>
+</table>
+<div style=3D"display:none">
+<![endif]-->
+<img width=3D"550" class=3D"sponsored-content__image" src=3D"https://assets=
+.bwbx.io/images/users/iqjWHBFdfxIU/inJXmAcNgA6I/v0/-1x-1.png" style=3D"widt=
+h: 100%; display: block; max-width: 550px; max-height: 150px;" />
+<!--[if mso]>
+</div>
+<![endif]-->
+</td>
+</tr>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Sponsored Content</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;"><p style=3D"margin: 10px 0px;"><strong>Invest in world-changing st=
+artups on AngelList</strong><br />
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24156291.260801/aH=
+R0cDovL2FuZ2VsbGlzdC5jb20_dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9tZWRpdW09ZW1ha=
+WwmdXRtX2NhbXBhaWduPW1vbmV5X3N0dWZm/607f07ceef4b8524a319a23cBadb01733" styl=
+e=3D"color: #000000; text-decoration: underline;">
+<br />
+AngelList</a><a href=3D"https://link.mail.bloombergbusiness.com/click/24156=
+291.260801/aHR0cDovL2FuZ2VsbGlzdC5jb20vP3V0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1f=
+bWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leV9zdHVmZg/607f07ceef4b8524a319a23c=
+Bb758bcf7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: underline;"> </a>is the leading =
+platform for early-stage venture investing. <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/24156291.260801/aHR0cHM6Ly93d3cuYW5nZWxsaXN0LmNvb=
+S9yb2xsaW5nP3V0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1w=
+YWlnbj1tb25leV9zdHVmZg/607f07ceef4b8524a319a23cB6de20a53" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: underline;">
+Invest</a> in experienced VCs that have backed Clubhouse, Notion, Pipe, and=
+ 77 other unicorns. Adjust your investment size as your goals evolve.</p></=
+div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;"><a href=3D"https=
+://link.mail.bloombergbusiness.com/click/24156291.260801/aHR0cHM6Ly93d3cuYW=
+5nZWxsaXN0LmNvbS8_dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9tZWRpdW09ZW1haWwmdXRtX=
+2NhbXBhaWduPW1vbmV5X3N0dWZm/607f07ceef4b8524a319a23cB6b0a72ec" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: underline;">
+AngelList</a></p></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top=
+: 30px; margin-bottom: 0;">Long-termism</h2><p style=3D"margin: 16px 0;">No=
+t that long ago, public-company chief executive officers complained constan=
+tly about how the public capital markets were relentlessly focused on the s=
+hort term. =E2=80=9CWe can=E2=80=99t invest for the future,=E2=80=9D the CE=
+Os would say, =E2=80=9Cbecause shareholders only care about this quarter=E2=
+=80=99s earnings, and if we ever sacrifice short-term profits for long-term=
+ sustainability they will get mad and throw us out.=E2=80=9D This always st=
+ruck me as <a href=3D"https://link.mail.bloombergbusiness.com/click/2415629=
+1.260801/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMD=
+YtMDcvY2Vvcy1zdGlsbC1kb24tdC1saWtlLXNob3J0LXRlcm1pc20/607f07ceef4b8524a319a=
+23cBd0afd5f1" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> somewhat implausible</a>. The shareholders care about the present valu=
+e of the company=E2=80=99s future earnings in perpetuity. If the managers m=
+aximize that, the shareholders will be happy. The shareholders simply don=
+=E2=80=99t always trust that the managers are actually doing that; they wor=
+ry that the managers are being lazy or dumb or building up their own import=
+ance rather than maximizing the long-term cash flows. (With some managers, =
+they don=E2=80=99t worry about this; Jeff Bezos and Elon Musk have very lit=
+tle reason to complain about shareholder short-termism.[2]) The shareholder=
+s want long-term value creation; they just want to hold managers accountabl=
+e for actually creating that value. Sometimes the most practical way to do =
+that is to check up on their results each quarter.=C2=A0</p><p style=3D"mar=
+gin: 16px 0;">In any case, you hear this complaint a bit less=C2=A0these da=
+ys. For one thing, there is the weird exogenous fact that quarterly corpora=
+te earnings went down a lot recently, for evidently short-term reasons,=C2=
+=A0and investors responded with cheerful enthusiasm.=C2=A0Last year the net=
+ income of the S&amp;P 500 index was down by 19% year-over-year, while the =
+price of the=C2=A0index was up 16%.[3] Looking through the effect of a pand=
+emic is not an=C2=A0<em>incredible=C2=A0</em>triumph of long-termism or any=
+thing, but it does seem harder to argue now that the market myopically=C2=
+=A0overweights short-term results.=C2=A0</p><p style=3D"margin: 16px 0;">Al=
+so though now CEOs are too busy responding to <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/24156291.260801/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnR=
+pY2xlcy9jb21wYW5pZXMtc3BlbmQtYmlnLW9uLWVzZy1pbnZlc3RtZW50cy1ob3BpbmctZm9yLW=
+xvbmctdGVybS1wYXlvZmYtMTE2MjM2NzAyMDA/607f07ceef4b8524a319a23cBa0416d49" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">investor dem=
+ands that they focus more on the long term</a>:</p><blockquote><p style=3D"=
+margin: 16px 0;">Companies are racking up hefty bills as they invest in new=
+ facilities and products to reduce emissions or meet other targets, hoping =
+for a payoff down the road.</p><p style=3D"margin: 16px 0;">Businesses incr=
+easingly are coming under pressure from investors, lawmakers and regulators=
+ who demand more details on their spending plans and the progress they are =
+making to achieve their environmental, social and governance goals.</p><p s=
+tyle=3D"margin: 16px 0;">As a result, car manufacturers such as General Mot=
+ors Co. and Ford Motor Co. are boosting investments in electric vehicles to=
+ reduce emissions, while utilities including Xcel Energy Inc. and CenterPoi=
+nt Energy Inc. are producing more renewable power.</p><p style=3D"margin: 1=
+6px 0;">But, those investments present challenges for chief financial offic=
+ers overseeing companies=E2=80=99 capital spending plans. Many of them are =
+entering unknown territory by allocating funds to projects that carry big p=
+rice tags, cover long time horizons and yield returns that are sometimes ha=
+rd to quantify, executives said. Companies often make these investments bef=
+ore new regulations are proposed or consumer choices change, adding to the =
+difficulty of finding the right balance.</p><p style=3D"margin: 16px 0;">Th=
+ose viewed as investing too little are already paying a price. Ratings firm=
+s in recent months have either cut the credit outlooks of oil-and-gas compa=
+nies or outright downgraded them, citing risks associated with the transiti=
+on to green power and other factors. Among them were Chevron Corp. and Exxo=
+n Mobil Corp. , which last month lost a proxy battle against an activist in=
+vestor. Credit downgrades can increase companies=E2=80=99 borrowing costs a=
+nd hurt their stock prices.</p></blockquote><p style=3D"margin: 16px 0;">A =
+couple of years ago, if a company got in a proxy fight with an activist inv=
+estor, the company=E2=80=99s managers would invariably say that the activis=
+t was a short-term-focused investor who wanted to make a quick buck and did=
+n=E2=80=99t understand or care about the company=E2=80=99s long-term busine=
+ss. That was just how managers thought and talked about activists, and real=
+ly how everyone did: Activists wanted to take the money the company was goi=
+ng to spend on research and development and blow it on stock buybacks inste=
+ad. Now, when <a href=3D"https://link.mail.bloombergbusiness.com/click/2415=
+6291.260801/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjE=
+tMDUtMjcvZXh4b24tbG9zdC1hLWNsaW1hdGUtcHJveHktZmlnaHQ/607f07ceef4b8524a319a2=
+3cB273fdb30" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> Exxon lost a=C2=A0proxy=C2=A0fight last month</a>, it was to an activis=
+t who wants it to do more to transition to green energy, because he thinks =
+that will create more long-term value even at the expense of=C2=A0short-ter=
+m profitability.</p><h2 style=3D"font-weight: bold; font-family: &quot;Aria=
+l Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: -1px; font-siz=
+e: 20px; border-bottom-width: 1px; border-bottom-style: dotted; padding-bot=
+tom: 5px; margin-top: 30px; margin-bottom: 0;">Bearer shares?</h2><p style=
+=3D"margin: 16px 0;">What <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/24156291.260801/aHR0cHM6Ly93d3cubGF3MzYwLmNvbS9mb29kYmV2ZXJhZ2UvYXJ=
+0aWNsZXMvMTM5MzA4Mi9tY2RvbmFsZC1zLWFjY3VzZWQtb2Ytb3dpbmctODAway1pbi1zaGFyZX=
+MtZGl2aWRlbmRz/607f07ceef4b8524a319a23cBc5d2756b" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">the heck</a>:</p><blockquote><p sty=
+le=3D"margin: 16px 0;">A Massachusetts man who bought a handful of=C2=A0McD=
+onald's Corp. shares nearly 50 years ago is owed more than $800,000 after t=
+he company split its stock eight times over the decades without issuing him=
+ new shares, according to a federal lawsuit filed Thursday.</p><p style=3D"=
+margin: 16px 0;">Samuel R. DiTrolio of Kingston, Massachusetts, claims he n=
+ever received new stock certificates after buying 35 shares of McDonald's C=
+orp. at a brokerage in Sanford, Maine, in June 1972.</p><p style=3D"margin:=
+ 16px 0;">The shares split eight times in the decades since, in either two-=
+for-one or three-for-two splits that should have ballooned into 2,835 share=
+s of the fast-food giant, DiTrolio says.=C2=A0=E2=80=A6</p><p style=3D"marg=
+in: 16px 0;">McDonald's responded through its attorneys at=C2=A0Nixon Peabo=
+dy LLP=C2=A0that DiTrolio with his certificate didn't provide sufficient ev=
+idence to establish that he has shareholder rights.</p><p style=3D"margin: =
+16px 0;">"Mr. DiTrolio is not listed in McDonald's records as a registered =
+shareholder," the company's lawyers said, asking DiTrolio to provide additi=
+onal documents such as dividend payment stubs, statements, or communication=
+s regarding stock splits, or tax records to prove ownership.</p><p style=3D=
+"margin: 16px 0;">"McDonald's takes Mr. DiTrolio's allegations very serious=
+ly and is committed to reaching a fair outcome in this matter," the company=
+ said in its letter to DiTrolio on June 4. "McDonald's has a significant in=
+terest, for the protection of the corporation and all of the corporation's =
+shareholders, to ensure that any claim to ownership of stock is fully, accu=
+rately, and carefully vetted."</p></blockquote><p style=3D"margin: 16px 0;"=
+>Here is <a href=3D"https://link.mail.bloombergbusiness.com/click/24156291.=
+260801/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElV=
+L3JQdndhcnFqUWRyOC92MA/607f07ceef4b8524a319a23cBe3503231" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">the complaint</a>, which sa=
+ys that =E2=80=9Con or about June 5, 1972, Plaintiff for lawful considerati=
+on purchased 35 shares of [McDonald=E2=80=99s] common stock at a branch of =
+E.F. Hutton in Sanford, Maine,=E2=80=9D and got a stock certificate. There =
+is, in the United States in 2021, an ordinary, multi-tiered, <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/24156291.260801/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTctMDItMTcvZG9sZS1mb29kLWhhZC1=
+0b28tbWFueS1zaGFyZXM/607f07ceef4b8524a319a23cB27c7a988" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> somewhat</a> <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/24156291.260801/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTUtMDctMTQvYmFua3MtZm9yZ290LXdo=
+by13YXMtc3VwcG9zZWQtdG8tb3duLWRlbGwtc2hhcmVz/607f07ceef4b8524a319a23cB2c24c=
+2a4" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> impe=
+rfect</a> way of figuring out who owns shares of a public company; it does =
+not put much stress on share certificates. It goes like this:</p><ol style=
+=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li s=
+tyle=3D"margin-bottom: 5px;">The company=E2=80=99s transfer agent has a lis=
+t of shareholders and how many shares they own.</li>=09<li style=3D"margin-=
+bottom: 5px;">The main shareholder is usually Cede &amp; Co., a sort of ali=
+as for the Depository Trust Co., which is in the business of=C2=A0owning ev=
+eryone=E2=80=99s shares for them.</li>=09<li style=3D"margin-bottom: 5px;">=
+DTC keeps a list of its participants =E2=80=94=C2=A0banks and brokerages =
+=E2=80=94=C2=A0and how many of the Cede shares they =E2=80=9Creally=E2=80=
+=9D own.</li>=09<li style=3D"margin-bottom: 5px;">The participants keep a l=
+ist of their customers and how many shares they =E2=80=9Creally=E2=80=9D ow=
+n.</li></ol><p style=3D"margin: 16px 0;">So if you own stock, what you actu=
+ally own is an entry on a list at your broker, which in turn owns an entry =
+on a list at DTC, which in turn owns an entry on a list at the company=E2=
+=80=99s transfer agent. Which is fine; the main thing that anyone owns in m=
+odern society=C2=A0is entries on lists. (What is your bank account if not t=
+hat?) You just have to hope that everyone does a good job of maintaining th=
+e lists. If that troubles you, you might look into a blockchain, I dunno.</=
+p><p style=3D"margin: 16px 0;">On the other hand in 1972 some of this list-=
+keeping was in its infancy and you might have just brought home a stock cer=
+tificate, secure in the knowledge that, whatever else happened, this fancy =
+embossed piece of paper represented a valuable claim on an iconic American =
+company. And then you went to bed for 50 years and woke up to find that you=
+ weren=E2=80=99t on the list(s). Perhaps they forgot you! Perhaps the embos=
+sed piece of paper is a forgery!=C2=A0</p><h2 style=3D"font-weight: bold; f=
+ont-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-s=
+pacing: -1px; font-size: 20px; border-bottom-width: 1px; border-bottom-styl=
+e: dotted; padding-bottom: 5px; margin-top: 30px; margin-bottom: 0;">Things=
+ happen</h2><p style=3D"margin: 16px 0;">Pandemic Hangover: $11 Trillion in=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/24156291.260801/a=
+HR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9wYW5kZW1pYy1zdXBlcmNoYXJnZWQtY29ycG9y=
+YXRlLWRlYnQtYm9vbS1yZWNvcmQtMTE2MjM2ODE1MTE_bW9kPWl0cF93c2omcnU9eWFob28/607=
+f07ceef4b8524a319a23cB3dcf3e18" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">Corporate Debt</a>. Airbnb Is Spending Millions of Do=
+llars to <a href=3D"https://link.mail.bloombergbusiness.com/click/24156291.=
+260801/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjEtMDYtMTUv=
+YWlyYm5iLXNwZW5kcy1taWxsaW9ucy1tYWtpbmctbmlnaHRtYXJlcy1hdC1saXZlLWFueXdoZXJ=
+lLXJlbnRhbHMtZ28tYXdheQ/607f07ceef4b8524a319a23cBa8ade115" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;"> Make Nightmares Go Away</=
+a>. <a href=3D"https://link.mail.bloombergbusiness.com/click/24156291.26080=
+1/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9sdW1iZXItcHJpY2VzLWFyZS1mYWxsaW5nL=
+WZhc3QtdHVybmluZy1ob2FyZGVycy1pbnRvLXNlbGxlcnMtMTE2MjM3NDk0MDE_bW9kPWhwX2xl=
+YWRfcG9zNA/607f07ceef4b8524a319a23cB8c54618a" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">Lumber Prices</a> Are Falling Fast, Tur=
+ning Hoarders Into Sellers. Deutsche Bank Set to Reap $1 Billion on Trader=
+=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/2415629=
+1.260801/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMT=
+UvZGV1dHNjaGUtYmFuay1zZXQtdG8tcmFrZS1pbi0xLWJpbGxpb24tb24tdHJhZGVyLXMtc2hpc=
+HBpbmctYmV0/607f07ceef4b8524a319a23cB5d2b99d2" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> Freight Bet</a>. Morgan Stanley chief=
+ talks tough on <a href=3D"https://link.mail.bloombergbusiness.com/click/24=
+156291.260801/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZmZkNjAzM2YtZThmYy00Mjg5L=
+Tg1YjItNDJiYzRkZGRkZDE2/607f07ceef4b8524a319a23cBb3b9ad0d" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;">return to the office</a>.=
+=C2=A0SEC Picks Professor Who Criticized Startup =E2=80=98Unicorns=E2=80=99=
+ as <a href=3D"https://link.mail.bloombergbusiness.com/click/24156291.26080=
+1/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zZWMtaGlyZXMtYm9zdG9uLWNvbGxlZ2Utc=
+HJvZmVzc29yLWFzLXRvcC1jb3Jwb3JhdGUtcmVndWxhdG9yLTExNjIzNjg2NDk0P21vZD1pdHBf=
+d3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cB29cf6e1e" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">Top Corporate Regulator</a>. Fed =
+urged to <a href=3D"https://link.mail.bloombergbusiness.com/click/24156291.=
+260801/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMWMzZWM0NzMtZTA4Zi00MDU3LTg3ZWMt=
+ZGNmYTBmNzg0NTIx/607f07ceef4b8524a319a23cB15ca0d7b" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">aid money market funds</a> as neg=
+ative rates loom.=C2=A0EU freezes 10 banks out of bond sales over <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24156291.260801/aHR0cHM6L=
+y93d3cuZnQuY29tL2NvbnRlbnQvMTMwY2YxOTItOGZlMC00ZWRiLWE5NjItMjYyNTEwN2VhZTJm=
+P3NlZ21lbnRpZD1hY2VlNDEzMS05OWMyLTA5ZDMtYTYzNS04NzNlNjE3NTRlYzYlNUM/607f07c=
+eef4b8524a319a23cB81ef3eeb" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">antitrust breaches</a>. Wall Street Asks If <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/24156291.260801/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMTMvd2FsbC1zdHJlZXQtYXNrcy=
+1pZi1iaXRjb2luLWNhbi1ldmVyLXJlcGxhY2UtZmlhdC1jdXJyZW5jaWVz/607f07ceef4b8524=
+a319a23cB55562549" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> Bitcoin</a> Can Ever Replace Fiat Currencies. Bitcoin on the Bala=
+nce Sheet Is an <a href=3D"https://link.mail.bloombergbusiness.com/click/24=
+156291.260801/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9iaXRjb2luLW9uLXRoZS1iY=
+WxhbmNlLXNoZWV0LWlzLWFuLWFjY291bnRpbmctaGVhZGFjaGUtZm9yLXRlc2xhLW90aGVycy0x=
+MTYyMzY2MzAwMT9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB895ca8e=
+1" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">Account=
+ing Headache</a> for Tesla, Others. Goldman Expands in Crypto Trading With =
+Plans for <a href=3D"https://link.mail.bloombergbusiness.com/click/24156291=
+.260801/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMTQ=
+vZ29sZG1hbi1leHBhbmRzLWluLWNyeXB0by10cmFkaW5nLXdpdGgtcGxhbnMtZm9yLWV0aGVyLW=
+9wdGlvbnM/607f07ceef4b8524a319a23cBfae4371e" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> Ether Options</a>. Hedge funds expect t=
+o hold <a href=3D"https://link.mail.bloombergbusiness.com/click/24156291.26=
+0801/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNGY4MDQ0YmYtOGYwZi00NmI0LTlmYjctNm=
+QwZWJhNzIzMDE3/607f07ceef4b8524a319a23cB48e39049" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">7% of assets in crypto</a> within f=
+ive years. Web inventor Berners-Lee to auction original code <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/24156291.260801/aHR0cHM6Ly93d3cu=
+ZnQuY29tL2NvbnRlbnQvYTc3YWQxYmYtZmFlMC00NzhiLWFhMDUtYTA3NzkwMzE0ZWJj/607f07=
+ceef4b8524a319a23cB158f4555" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">as NFT</a>. Petition urging Jeff Bezos to <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/24156291.260801/aHR0cHM6Ly93d3cu=
+Zm94bmV3cy5jb20vbGlmZXN0eWxlL3BldGl0aW9uLXVyZ2luZy1qZWZmLWJlem9zLXRvLWJ1eS1=
+hbmQtZWF0LXRoZS1tb25hLWxpc2EtZ2FpbnMtaHVuZHJlZHMtb2Ytc2lnbmF0dXJlcw/607f07c=
+eef4b8524a319a23cBb9f03b09" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">buy and eat the Mona Lisa</a> gains steam.=C2=A0</p><p st=
+yle=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-media"><e=
+m>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, righ=
+t in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbusiness=
+.com/click/24156291.260801/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5j=
+b20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI=
+5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBa30897e7" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">subscribe at this link</a>. Or you can subscribe to Money Stuf=
+f and other great Bloomberg newsletters <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/24156291.260801/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL=
+25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBf79c6f79" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span></p><=
+p style=3D"margin: 16px 0;"><em>[1] Not investing advice! Please do not ema=
+il me about this prediction!</em></p><p style=3D"margin: 16px 0;"><em>[2] M=
+usk <a href=3D"https://link.mail.bloombergbusiness.com/click/24156291.26080=
+1/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDgtMTMvZ=
+nVuZGluZy1mb3ItZWxvbi1tdXNrLXMtdGVzbGEtYnV5b3V0LXdhc24tdC1zby1zZWN1cmU/607f=
+07ceef4b8524a319a23cBaf1cf82d" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> complains about it anyway</a> of course.</em></p><p s=
+tyle=3D"margin: 16px 0;"><em>[3] S&amp;P earnings are from Bloomberg=E2=80=
+=99s trailing 12-month earnings per share (SPX &lt;index&gt; FA) as of Dec.=
+ 31, 2019 ($151.74), and Dec. 31, 2020 ($123.47).</em></p>
+</td>
+</tr>
+</table>
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24156291.260801/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBe8b1d875" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24156291.260801/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBc0609922" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24156291.260801/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB65e4e234" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24156291.260801/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB123dd200" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout">
+<tbody>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+<tr>
+<td class=3D"tout-label"></td>
+</tr>
+<tr>
+<td class=3D"tout-text"><p><em><strong>Like Money Stuff?</strong></em>=C2=
+=A0|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2415=
+6291.260801/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cB145172c0" itemprop=3D"StoryLink" itemscope=3D"items=
+cope">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p>Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Termin=
+al.=C2=A0Find out more about how the Terminal delivers information and anal=
+ysis that financial professionals can=E2=80=99t find anywhere else.=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/15638356.78421/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRl=
+cm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn more</a>.</p></td>
+</tr>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" id=3D"footer" width=3D"100%" align=3D"center" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; padding-bottom: 10px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> You received this mess=
+age because you are subscribed to Bloomberg's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24156291.260801/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC83965884" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24156291.260801/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBb3e2e6a2" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24156291.260801/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB9d08f76b" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</td>
+</tr>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cedr43.5l8h/4315054a.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_20788755_861777160.1623776090821--
+

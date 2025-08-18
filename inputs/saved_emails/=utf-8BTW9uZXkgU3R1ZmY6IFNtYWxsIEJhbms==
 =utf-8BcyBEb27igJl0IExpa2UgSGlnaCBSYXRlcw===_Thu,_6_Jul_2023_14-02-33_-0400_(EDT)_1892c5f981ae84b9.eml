@@ -1,0 +1,1861 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:1cc:b0:135:3fac:9508 with SMTP id e12csp561938rwa;
+        Thu, 6 Jul 2023 11:03:30 -0700 (PDT)
+X-Received: by 2002:a7b:cd08:0:b0:3fb:d81a:8b4 with SMTP id f8-20020a7bcd08000000b003fbd81a08b4mr876553wmj.16.1688666609859;
+        Thu, 06 Jul 2023 11:03:29 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1688666609; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=KvlRP04vA4b3Lnx5xylBXWq9Ma3yjMKNLVtyHR2x64X+uEac2Lj4Ls5ZJM9r6eeCrQ
+         ZQBXjxu1ZRRP2RgKy8cUjYi4UuyT8pm9Xm7Dm2wo9uE8QfsOYn071wIxHTmUdNRDZKBj
+         t+5Ygt7bgZ2LJVaZct+QpqaBFptQTPlYEzsRe3DW2w4ZQhjV8MbyQ/ILJl8+usnvGs2/
+         4h4Pr2NH7+V8Xr1CMBb1g07XPA+THWX8MSlQC2xg9JDyESRZvcSkvSGlFc33Q7kW9ytt
+         KrTx01mAb2ZbE3mSHHhodBQTd2wS6/VS0wry8uCQeRNPL8Rs23wo+InoRFeUT1vMkIRo
+         s1IQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=8VTMcujZ0IigAdf69Hm3yLQF2iAlthvqgIkJ0RnlDb0=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=wBdnWjMauBcxyRC+gSK053/RUcFfRJWl1qD+iny2cfYDgHP9XcNjtCK3EV1o3Gt52Z
+         yNntAgB8OP8/ufntrzZL8Kh3MRHNw3Lr7DSxcCdq23XBS7OAUoC3JisfxpJLwg3wknu9
+         RnFBdPediiHlf4B01ON3luExBKfsDZLhVDYP2GHM0Jp7RI8VEIcya03lAf7rVpv+znv9
+         dWyRs1D7CCjLO4BxzrJ+DkrrN3a7UtHa7eEl7IbWDOpI4iNKpuR3XHcktYy/N+b+/Rvg
+         eZ9q3eqPLq9jh00BfzNBMI8ZXSTiP3ZU+tjLsaPbpf9bQRG/xaiK+BvryFXd/+uLTmkl
+         hi1g==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=eTRAczvI;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id z4-20020a1c4c04000000b003fba6709c6fsor817071wmf.9.2023.07.06.11.03.29
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 06 Jul 2023 11:03:29 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=eTRAczvI;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1688666609; x=1691258609;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=8VTMcujZ0IigAdf69Hm3yLQF2iAlthvqgIkJ0RnlDb0=;
+        b=evJJpqjM3Csg66MBeTy0pgBJuNcEJpQhmhFMXoaJT+qlyZVD6OM0bk4ThgsLOjB7ZO
+         SaqAhkLDNceM4aBWk1awqkFhIEVc39oB1Q7dEegfVzhG0s098TQQg+AM9UsNv8ak1Vjy
+         2r4F5oK0f1nqbUmCHtmQ7zCR/1GeU0H4PrFg8H7BVcCPXrRZKDIKj7nBp0wGVa0SnAvV
+         vRxiyDSQDdDt36v28NrhAiYVk4muQ3yxKofQt/eP6BEu3SqUmK5lmNIAcKbWr/NKgv1O
+         UEWi2kJy69mxS9FuVhbW2X76qxfn4mkLLaqgw4VWXG8x+xjm2eWBzqy3It6KePhp9crW
+         wgcw==
+X-Gm-Message-State: ABy/qLYyDL8VF2Y1SQLBAABJCahu/FoSLzvUhp/D5xcTOnpG7qqh7vdC
+	ZxJQ4d0Kfv19Q+gS5RsRmAQwox+I9yBr8kAttzYfjCADxXj2E0kLkA==
+X-Received: by 2002:a05:600c:2251:b0:3f9:c82e:9d87 with SMTP id a17-20020a05600c225100b003f9c82e9d87mr1951281wmm.13.1688666609411;
+        Thu, 06 Jul 2023 11:03:29 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:4ec4:0:0:0:0:0 with SMTP id s4csp2107317wrv;
+        Thu, 6 Jul 2023 11:03:26 -0700 (PDT)
+X-Received: by 2002:a05:6870:168a:b0:1a6:4c71:8d8 with SMTP id j10-20020a056870168a00b001a64c7108d8mr3370056oae.31.1688666605593;
+        Thu, 06 Jul 2023 11:03:25 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1688666605; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=A7vX5DSAxSaGnwpducRhOZseEUs34ZCCpNKOEpKLuofrOROE6+LIeiKXKzw8IOgQsV
+         xk3vUpRfrAe7F3pl8gC8PrO1k0HlN4jJAhohBfjnQjD7I3yFxYxsg8GO5c42h+tfWM9q
+         D0YD+pX9s2b/8x1l7GA1WWZmmWZ3RRpk/2vhEpeo8N/owKgKaDlpuB2P8gvuwzBe+uyH
+         RPkf+xzbl9xSrgWgPljn42WNSbaf+lVI37us/xFErW8tDsogmNVKndFXDZ7Nh1+viBtF
+         mYQj1H45lv/V7oc4IJF2P3tEuedvSEUk+wK053coyb/SDihurFpmrPzaFAuF3cv7HaT1
+         Hhqw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=8VTMcujZ0IigAdf69Hm3yLQF2iAlthvqgIkJ0RnlDb0=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=CFczhTMf1RYMptcErzcZ3pRQmQow49Qrbyn+ucf4IcfXTS13DwpR1f5NWB0M7Ku9PH
+         wYKGGAqwjpkt33lPNALhdJnM95/q74QB4uTNtqP0wVFCJMxhD0nfawEVdzZ6QWw5VmWr
+         WRo7mZbcpDIp/zJ+wJCxsT8C38bekze27vjHVRkkpLgahdn/TdJgiPOGLX52M8PR7rqR
+         B4hVCpJB00ICmG1pqlqWTHBhaKKo22eizAw6mGzKXD73h4mS4LP8ydrXrk7GnQKPP7UI
+         F0Ac2rgxJWOQrRyIX6d4Q/9wM+hGJalAPZZG3hd5wEnJkTVnUSs820WvPdxfJ51kgksb
+         UkbA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=eTRAczvI;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230706140233.32004867.263405@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230706140233.32004867.263405@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230706140233.32004867.263405@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id n12-20020a9d710c000000b006b8b1f7d4a4sor810582otj.21.2023.07.06.11.03.25
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 06 Jul 2023 11:03:25 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230706140233.32004867.263405@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: APBJJlGBpJQkB53XHWWt2C73bEEqOZ3WPTCXh53BFEg8jMANH43hhwo0oWQK3SiUMySFusSExH07kW4cxJulromYK5Zjkgm61EQ=
+X-Received: by 2002:a05:6358:52c1:b0:123:5664:e493 with SMTP id z1-20020a05635852c100b001235664e493mr3725767rwz.27.1688666605201;
+        Thu, 06 Jul 2023 11:03:25 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1688666605; cv=none;
+        d=google.com; s=arc-20160816;
+        b=FjKuGOYHjFiEWc7c/HLKUt0XeQpboevsZ3+EPWaAxJgoLseWuV3wyKbEza5ndQExl8
+         tE7R/5TAYUOYTZ1JnegvaxmNipvQ5hSOT5gu77E6x53uq3XJTSTAowZyW7pJn47X+K45
+         YEuJyjjLgOo4sgjQewma7X7zjWHR0YVWjRwyyXS4WwQrM+bZGs7nTfe5fJHA5qvRHRZS
+         EQiwSc53v0Z9dX50RUF44DykzBmlhlDtvvQcTltEVrHytzLZtOd1veQts0iALZ1bp/xu
+         6v2ONA5A2QovPWAs5/I3CnrZ5MlbvuLb7+7kZGs6mGsvtY7bl2pjqFIF7us/WfAnywaU
+         oiwA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=8VTMcujZ0IigAdf69Hm3yLQF2iAlthvqgIkJ0RnlDb0=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=XRCzbGm5EBHEsowPZsm0QyL5cQk0UHfMVj2agEMU3jvrImrOCKy3vY5WAnwRO391tb
+         znnm7+s/fnhruEsehmB9f537iKFOZ+ltZYehvpYstP5x8YC6KEhXX82Th0yXhPxKGkNF
+         mSTI3o1Xi7CUAVXA2mU73tZxnatNx4rsQCtmuAd377kt/a6xp33QcNWWvzKA45LV/Z+N
+         2xgBWCtGw2mIDbRSA2FGnkhLAZnjOHGO5zbCecueh8HZ72+IcSj20S3rR7gOYVwgqoLL
+         +F93faWnJv4TMIiUv2Z0dB6O1/zgUnA4Ws1iwWcl3HoKYKqgyE+Dg2G0PqvrLwXb0Xpe
+         W4Zg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=eTRAczvI;
+       spf=pass (google.com: domain of delivery_20230706140233.32004867.263405@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230706140233.32004867.263405@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230706140233.32004867.263405@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id b15-20020a05620a270f00b007593c43f6edsi111593qkp.0.2023.07.06.11.03.25
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 06 Jul 2023 11:03:25 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230706140233.32004867.263405@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=EOxbJRnwzhyMbCiSjISkApvoHKw5K/AraGupJf9xlo8=;
+ b=eTRAczvIhYLNm8We54tS6dE+58FcUeDK5Typ257vXcEkjgBRi4qD1JN4/oAAQrbeNElAGDWUzYsm
+   TS82wB05PpuK2XlTyojrXgtk4XnIz0Zb3av4Y7h5aQnhcw7DxLVmocekRvzMxnn8JsEJ1qe0+Mza
+   HyO2irfWrIa5eKpkPOk=
+Received: from njmta-180.sailthru.com (173.228.155.180) by bloomberg-b.sailthru.com id hks0uo30nu8t for <bloomberg@khamel.com>; Thu, 6 Jul 2023 13:02:35 -0500 (envelope-from <delivery_20230706140233.32004867.263405@mx.sailthru.com>)
+Received: from nj1-oddlime.flt (172.18.20.14) by njmta-180.sailthru.com id hks0rm1qqbs2 for <bloomberg@khamel.com>; Thu, 6 Jul 2023 14:02:33 -0400 (envelope-from <delivery_20230706140233.32004867.263405@mx.sailthru.com>)
+Date: Thu, 6 Jul 2023 14:02:33 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230706140233.32004867.263405@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IFNtYWxsIEJhbms=?=
+ =?utf-8?B?cyBEb27igJl0IExpa2UgSGlnaCBSYXRlcw==?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8912566_1880212309.1688666553593"
+Precedence: bulk
+x-job: 6358-32004867-20230706
+X-Feedback-ID: 6358:32004867:campaign:sailthru
+X-TM-ID: 20230706140233.32004867.263405
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-oddlime.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj1z43.5n8t/f0d4f1b9
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj1z43.5n8t/f0d4f1b9>, <mailto:unsubscribe_20230706140233.32004867.263405@mx.sailthru.com>
+X-rpcampaign: stjko32004867
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_8912566_1880212309.1688666553593
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow and Monday, back=
+ on Tuesday.My basic model of banking is that it is a socially beneficial
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow and Monday, ba=
+ck on Tuesday.
+
+ =20
+   =20
+      Deposit beta
+   =20
+ =20
+
+My basic model of banking is that it is a socially beneficial trick. People=
+ deposit money in the bank, thinking that it is perfectly safe. The bank us=
+es that money to make loans, which are risky. It is good for society, and f=
+or economic growth, if people can get money to take risks, but the people w=
+ho have the money often do not want to take risks with it. The bank is a ma=
+gic trick that allows risk-averse savers to fund risky projects. Like any m=
+agic trick, it requires a certain suspension of disbelief: You can=E2=80=99=
+t just tell=C2=A0people =E2=80=9Cthe way it works is that=C2=A0we take risk=
+s with your money, but we tell you it=E2=80=99s safe.=E2=80=9D There are so=
+me genuine tools (capital, diversification, deposit insurance) to transform=
+ the risky loans into safe deposits, but there is also some residue of pure=
+ belief, and if people lose that belief=C2=A0then it stops working.
+You can take this a bit further, something like =E2=80=9Cbanks are a way fo=
+r society to collectively fund nice things, without anybody noticing that t=
+hey are doing that.=E2=80=9D Here is a way to tell the=C2=A0story of local =
+banking:
+=09Everybody loves the local bank! It sponsors the Little League team! It l=
+ends the local sandwich shop=C2=A0owner the money she needs to expand! It g=
+ives you your first mortgage! It=E2=80=99s got a nice building on Main Stre=
+et! With columns! The president of the bank is a civic fixture, smiling and=
+ shaking hands with everybody!=09So of course when you have money, you depo=
+sit it at the local bank, even though that bank does not pay a competitive =
+(or any) rate of interest.=09The bank is making an economic profit on your =
+deposits: It is paying you much less than the market rate of interest. You =
+could get paid 5% on a money-market fund, but instead you=E2=80=99re gettin=
+g paid 0% at the local bank; the bank would have to pay 5% to borrow from m=
+arket sources, but instead it=E2=80=99s paying you 0%.=09The bank is making=
+ an economic=C2=A0loss=C2=A0on the lending and the Little League sponsorshi=
+ps. It is charging the sandwich=C2=A0shop owner less interest on her loan t=
+han anyone else (a global megabank headquartered in the Big City, a middle-=
+market lending fund, a loanshark) would charge her, in part because the ban=
+k president looked her in the eye and shook her hand and tried a sandwich a=
+nd trusts her to repay the loan, but also in part because the bank wants to=
+ be a valued member of the community and that means taking some risks lendi=
+ng to local businesses. (It is just giving the money away to the Little Lea=
+gue team for free, purely for valued-community-member reasons.)=09The below=
+-market rate that the bank pays on deposits is subsidizing its civic and lo=
+cal-lending activities.=09You can analyze this as=C2=A0marketing:=C2=A0The =
+Little League sponsorship makes local citizens feel good about the bank, so=
+ they deposit money there, so they get cheap funding. (Or there is=C2=A0cro=
+ss-selling:=C2=A0The loan to the sandwich shop owner might require her to k=
+eep compensating balances at the bank.)=09But you can also analyze it as an=
+ indirect form of civic coordination: All of the people in the town with ex=
+tra money deposit it in the bank; they don=E2=80=99t get much in the way of=
+ interest payments, but what they=C2=A0do=C2=A0get is (1) more economic act=
+ivity in town, as local shop owners can get bank loans to expand=C2=A0and a=
+s young couples can get mortgages to buy houses and start families, and (2)=
+ a well-equipped Little League team. They feel good about this trade-off. T=
+he people in town with extra money subsidize business startups and househol=
+d formation in the town, the town thrives and everyone is better off.=09But=
+ it is not=C2=A0overt. Nobody goes around to the people of the town saying =
+=E2=80=9Cplease contribute $20 to the Help the Sandwich Shop Expand Fund,=
+=E2=80=9D or the Help the Smiths Buy a House Fund. The town council doesn=
+=E2=80=99t raise taxes to subsidize local businesses or make homes cheaper.=
+ It flows through the bank, through the relatively inconspicuous mechanism =
+of paying low interest rates on deposits.
+
+And the basic story of the 2023 problems in US regional banks is that marke=
+t interest rates have gone up a lot, and the regional banks all expected so=
+me form of this story to remain true, and it didn=E2=80=99t. Market interes=
+t rates went up, and depositors at US regional banks=C2=A0moved their money=
+, either out of concerns about the banks=E2=80=99 safety or because they co=
+uld get higher rates elsewhere. And the banks had to raise the rates they p=
+ay to keep depositors (or pay higher rates to get funding from market sourc=
+es or the Federal Reserve or the Federal Home Loan Bank system). And since =
+the interest the banks earn on their assets has gone up more slowly than sh=
+ort-term market rates (because the banks have some long-term fixed-rate ass=
+ets), they make less money.
+We have talked about this a lot as a financial story, but I suppose it=E2=
+=80=99s worth thinking about it as a civic coordination story too. Here is =
+a Wall Street Journal story titled =E2=80=9CEveryone Wants Interest on Thei=
+r Deposits. That=E2=80=99s Bad for Main Street Banks.=E2=80=9D
+
+When the Fed started raising interest rates to fight inflation, the convent=
+ional wisdom was that it would be a boon for Main Street banks. They were e=
+xpected to increase the rates they charged on loans faster than those paid =
+to depositors, pocketing the difference.
+Instead, the opposite is happening. The Fed=E2=80=99s hikes and the failure=
+s of a trio of midsize banks are prompting once-loyal customers to pull the=
+ir money out of checking accounts that pay no interest. Banks are paying mu=
+ch higher rates on the deposits they are retaining, which is eclipsing the =
+benefit of charging more on loans. They also are hoarding cash and tapping =
+high-cost loans in response to the recent failures.=C2=A0
+In the first quarter, community banks paid on average 1.14% on deposits, up=
+ 0.39 percentage point from the prior quarter, according to the Federal Dep=
+osit Insurance Corp. They earned 5.36% on loans, up 0.16 percentage point f=
+rom the prior quarter. ...
+These challenges could eventually speed up ongoing consolidation. There are=
+ fewer than 4,700 U.S. banks today, down from about 8,000 in 2010, accordin=
+g to the FDIC.=C2=A0
+That could leave more communities without the hometown banks that play a ke=
+y role in small-business lending and sponsor Little Leagues and parades. It=
+ could also make loans harder to get. When the local lender disappears, cre=
+dit often goes away, too. ...
+Businesses and wealthy customers were the first ones to start looking for h=
+igher rates last year. Now, every type of customer with extra cash is looki=
+ng for more interest, said Chip Reeves, CEO of MidWestOne Financial Group, =
+which is based in Iowa City, Iowa.=C2=A0
+
+If all the burghers of Small Town USA get together and say =E2=80=9Cwe want=
+ a local bank that lends to our small businesses and sponsors our parades,=
+=E2=80=9D the answer is =E2=80=9Cokay just keep your money on deposit there=
+ earning 0% interest.=E2=80=9D And if they say =E2=80=9Cno we can get 5% on=
+ our=C2=A0money-market funds=E2=80=9D then the answer is =E2=80=9Cokay=C2=
+=A0no parades for you then.=E2=80=9D (Or: =E2=80=9CFine, but take some of t=
+he interest you get from your money-market funds and contribute them to the=
+ parade fund, or the Kickstarter for your small businesses.=E2=80=9D) You c=
+an have the unconscious economic coordination of local banking, or you can =
+use modern technology to squeeze every basis point out of your cash, but no=
+t both.
+  [1]
+
+By the way, the same exact analysis applies to Silicon Valley, and to Silic=
+on Valley Bank.=C2=A0If all the venture-capital firms in Silicon Valley had=
+ kept their hundreds of millions of dollars of uninsured deposits at SVB ea=
+rning below-market interest rates despite holes in SVB=E2=80=99s balance sh=
+eet, then SVB would have stuck around and been able to make weird bespoke l=
+oans to startups and sponsor venture-capital conferences. SVB provided a pu=
+blic good to Silicon Valley, and venture capitalists knew that, and they=C2=
+=A0praised SVB while it was around and lamented it when it was gone. But it=
+ was not in their immediate self-interest to keep their money there as rate=
+s went up, so they didn=E2=80=99t.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Elsewhere in rates
+   =20
+ =20
+
+Meanwhile if you are a big global bank with a trading business, rising rate=
+s are good for you, in the broad sense that decades of zero-ish interest ra=
+tes made=C2=A0it kind of boring to trade interest rates, while higher and m=
+ore volatile rates make for more trading and so more revenue and more jobs:
+
+Societe Generale SA=C2=A0is bolstering its US rates desk as rising interest=
+ rates bring lucrative opportunities to the fixed-income market.
+The French bank is in the process of hiring as many as six new traders and =
+salespeople, according to=C2=A0Fouad Farah, head of global markets for the =
+Americas. SocGen is also expanding its rates business for Latin America wit=
+h new hires in New York.
+=E2=80=9CThe end of the zero-rates regime creates more opportunities for ou=
+r platform,=E2=80=9D New York-based Farah said in an interview. =E2=80=9CIn=
+stitutional clients like private equity and insurers are actively hedging o=
+n the rates side. It=E2=80=99s not temporary and it=E2=80=99s part of our r=
+ates strategy in the US.=E2=80=9D
+International banks including=C2=A0Barclays Plc=C2=A0and=C2=A0Nomura Holdin=
+gs Inc.=C2=A0are also making moves to bolster trading operations. In US rat=
+es, the biggest banks are set to make $19.2 billion in revenue this year, a=
+ccording to predictions from Vali Analytics.
+
+I wrote the other day that =E2=80=9Ca whole lot of people in fairly senior =
+roles at a whole lot of financial services companies grew up a world of low=
+ interest rates; large expanses of the financial industry collectively forg=
+ot that rates could go up,=E2=80=9D and that is going to be both financiall=
+y and sociologically interesting. Probably at some bank there is an interes=
+t-rate derivatives desk run by a managing director who has spent a decade s=
+elling rate caps that never went in the money. It would be funny if rates t=
+raders were like Cobol programmers, if banks were tracking down retired tra=
+ders and trying to lure them back because no current employees have ever se=
+en 5% interest rates.
+
+ =20
+   =20
+      Celsius
+   =20
+ =20
+
+I assume that everyone who has paid attention to crypto over the past few y=
+ears has their own personal top-10 list of =E2=80=9Cwhy aren=E2=80=99t thos=
+e people in jail?=E2=80=9D projects. So, so, so, so much of what has gone o=
+n in crypto seems clearly to violate US law, and so much of it ended in dis=
+aster and huge losses for customers, and I suspect that in quite a few case=
+s the answer to the question =E2=80=9Cwhy haven=E2=80=99t the authorities g=
+one after this project?=E2=80=9D is =E2=80=9Cthey are too busy going after =
+20 other projects=C2=A0that also broke the law and failed spectacularly.=E2=
+=80=9D=C2=A0We=E2=80=99re gonna be getting crypto enforcement actions for y=
+ears, but even so there will be a lot of people who did shady things and lo=
+st customer money and never face an enforcement action just because time an=
+d regulatory resources are finite. Enforcement here just has to be somewhat=
+ stochastic; the crypto industry moved so fast and broke so many things tha=
+t some people will just get away with it.
+Still there are some pretty obvious targets? I am not going to sit here and=
+ list my own top 10 or anything. But=C2=A0here is a Bloomberg News story th=
+at I read this morning:
+
+Investigators at the Commodity Futures Trading Commission have concluded th=
+at bankrupt crypto lender Celsius Network and its former chief executive of=
+ficer broke US rules before the firm=E2=80=99s implosion, according to peop=
+le familiar with the matter.
+If a majority of the CFTC=E2=80=99s commissioners agree with that conclusio=
+n, the agency could file a case in federal court as soon as this month, sai=
+d the people, who asked not to be identified discussing the confidential de=
+termination. Attorneys in the enforcement unit determined that Celsius misl=
+ed investors and should have registered with the regulator, and that former=
+ CEO Alex Mashinsky also broke regulations, said one of the people. ...
+Meanwhile, the Securities and Exchange Commission and federal prosecutors i=
+n Manhattan have also been investigating Celsius, according to bankruptcy f=
+ilings. Representatives for the SEC and the US Attorney=E2=80=99s Office fo=
+r the Southern District of New York declined to comment on the status of th=
+ose probes.=C2=A0
+
+How =E2=80=99bout that!
+
+ =20
+   =20
+      SBF & TB12
+   =20
+ =20
+
+Here is a New York Times story about quarterback Tom Brady; his ex-wife, su=
+permodel Gisele B=C3=BCndchen; Sam Bankman-Fried, the former head of crypto=
+ exchange FTX Trading; and Sina Nader, FTX=E2=80=99s head of partnerships, =
+who recruited Brady and=C2=A0B=C3=BCndchen to endorse FTX in exchange for a=
+lmost $50 million of FTX stock:
+
+A former college football player, Mr. Nader was in charge of recruiting Mr.=
+ Brady and other stars. In June 2021, Mr. Brady and Ms. B=C3=BCndchen agree=
+d to a deal with Mr. Bankman-Fried, praising the =E2=80=9Crevolutionary FTX=
+ team.=E2=80=9D Mr. Brady seemed genuinely interested in crypto, Mr. Nader =
+said, and occasionally had conversations with Mr. Bankman-Fried.
+=E2=80=9CImagine a tiger and a lion talking,=E2=80=9D Mr. Nader said. =E2=
+=80=9CThey=E2=80=99re slightly different, they do different things, but the=
+y=E2=80=99re really formidable in their own arenas.=E2=80=9D
+
+Imagine a tiger and a lion talking. Imagine Tom Brady and Sam Bankman-Fried=
+ talking. About crypto. Imagine Tom Brady and Sam Bankman-Fried talking abo=
+ut football. Imagine them talking about pandemic preparedness. Nutritional =
+supplements. AI alignment.=C2=A0Succession. Imagine a weekly podcast in whi=
+ch Tom Brady and Sam Bankman-Fried discuss the week=E2=80=99s news and pop =
+culture. I feel like if I were in charge of FTX=E2=80=99s bankruptcy I woul=
+d be working to develop that podcast and sell it to Spotify. Bankman-Fried =
+is facing a whole lot of prison, and Brady has been sued by disgruntled FTX=
+ customers, and I think both of them could improve their legal position sig=
+nificantly if FTX were just able to pay back its customers, and I feel like=
+ that podcast could bring in, what,=C2=A0$2 billion?
+  [2]
+=C2=A0No, no, probably not, but=C2=A0I=C2=A0would listen to it, and I am sa=
+d I can=E2=80=99t listen to it now. Imagine a tiger and a lion talking.=C2=
+=A0
+Crypto and celebrity were an odd symbiosis: A lot of crypto projects were v=
+alued mainly on=C2=A0attention; the thing that makes, say, Dogecoin valuabl=
+e is that a lot of people wanted to trade Dogecoin, not any underlying fund=
+amentals. So paying directly for attention =E2=80=94 hiring Tom Brady to ju=
+st put his face next to an ad saying =E2=80=9Chere have some crypto=E2=80=
+=9D =E2=80=94=C2=A0was a sensible move for crypto firms. =E2=80=9CFor a whi=
+le crypto was probably the highest bidder for celebrity and influence,=E2=
+=80=9D I wrote the other day, about FTX=E2=80=99s celebrity operation.=C2=
+=A0
+Similarly, if you were a celebrity during the crypto boom, crypto technolog=
+y seemed to offer a more lucrative and efficient way to turn celebrity into=
+ money than most previous methods. If you are Tom Brady you can autograph a=
+ football and sell it to someone but:
+=09You gotta get the football, and a pen, and sign it, and ship it.=09Not e=
+very rich person who loves Tom Brady has a room where they display football=
+s, and even if they do, the number of people who come to the room is going =
+to be fairly small, putting some limit on the value of this trophy.
+
+Whereas with non-fungible tokens:
+=09You can sell someone, like, a digital receipt conveying the information =
+=E2=80=9Cyou bought this receipt from Tom Brady,=E2=80=9D which has basical=
+ly zero marginal cost to you. You can sell an edition of 10,000 of them in =
+five seconds.=09The buyers=E2=80=99=C2=A0marginal cost of=C2=A0displaying=
+=C2=A0that receipt is basically zero; it lives online, and they can broadca=
+st to everyone on Twitter or whatever, =E2=80=9Clook, I got this Tom Brady =
+NFT.=E2=80=9D=09For a while a lot of crypto people had a lot of money and s=
+pent it on these things; I cannot explain it; even from the vantage point o=
+f 2023 it seems so alien.
+
+That Times story also says:
+
+In 2021, Mr. Brady also co-founded Autograph, which helps famous people sel=
+l the crypto collectibles known as nonfungible tokens, or NFTs. Autograph r=
+aised more than $200 million from investors, and Mr. Bankman-Fried joined t=
+he board. =E2=80=A6
+Mr. Brady=E2=80=99s other crypto venture has also struggled. Autograph=E2=
+=80=99s revenue sank last year amid the crypto meltdown, a person familiar =
+with its finances said. The start-up has shifted its strategy to focus more=
+ on helping celebrities find ways to foster loyalty with their fans, and le=
+ss on marketing crypto tokens to consumers, the person said. The firm has a=
+lso removed some crypto language from its marketing, downplaying terms like=
+ NFT, another person with knowledge of the company said.
+
+For a split second =E2=80=9Chelp famous people sell NFTs=E2=80=9D seemed li=
+ke a big business. What a weird time 2021 was.
+
+ =20
+   =20
+      Slot-machine streaming
+   =20
+ =20
+
+People watch the NBA=C2=A0because they enjoy seeing world-class athletes ac=
+complish physical feats that ordinary mortals couldn=E2=80=99t do, and beca=
+use they enjoy the drama of a hard-fought basketball game. I gather that pe=
+ople watch streamers play video games for basically similar reasons: Some p=
+eople are good at video games, and if you enjoy video games but are less go=
+od at them you might enjoy watching the top players play, and also video ga=
+mes are designed to be fun and exciting, so watching someone play one will =
+give you some=C2=A0dramatic entertainment.
+Similarly, I suppose that if you watched someone who was very good at slot =
+machines play a very exciting slot machine, you would derive similar pleasu=
+re from it, but (1) no one is good at slot machines,
+  [3]
+=C2=A0which are games of random chance with huge house edge,
+  [4]
+=C2=A0and (2) no=C2=A0slot=C2=A0machines are exciting,
+  [5]
+=C2=A0so this seems unlikely.  And yet!
+
+A new class of niche celebrities have turned the once-solitary experience o=
+f gambling at casino slot machines into a spectator sport with millions of =
+viewers and fan camaraderie. Using monopods or videographers to film the ac=
+tion, the players spend hours talking audiences through the highs and lows =
+of jackpots and losses.
+=E2=80=9CIt=E2=80=99s fun to watch somebody else play with their money whil=
+e you=E2=80=99re sitting on your couch drinking a beer,=E2=80=9D said Wayne=
+ Deck, a 60-year-old in Fairfax, Va., who watches Christopher online and vi=
+sits casinos in-real-life.
+
+I don=E2=80=99t see how that could be. None of these people (or any other p=
+eople)=C2=A0are good at slot machines, but I guess they=E2=80=99re good at =
+social media:
+
+Brian Christopher lost $300,000 gambling on slot machines in casinos last y=
+ear. Hundreds of thousands of people cheered him on, from the comfort of th=
+eir own homes. =E2=80=A6 Christopher declined to provide his total revenue,=
+ but said he makes enough to turn a profit after paying his staff and the $=
+300,000 in gambling losses.=C2=A0
+Some celebrity slots players disclose their losses as a badge of honor=E2=
+=80=94a signal they=E2=80=99re being honest about the odds. Francine Maric,=
+ a full-time high-roller known as Lady Luck HQ, posts her win-loss statemen=
+ts from casinos. She said she lost $320,000 last year, but still made a pro=
+fit thanks to advertising revenue and sponsorships.
+
+Well, I am vastly more skilled at slot machines than these people, in that =
+I have never lost $300,000, or even $300, playing slot machines. I should l=
+ivestream myself not losing $300,000 a year at slot machines. Just like wal=
+k by a row of slots with a videographer and turn confidingly to the camera =
+and whisper =E2=80=9Cmy winning strategy here is to keep walking.=E2=80=9D =
+It=E2=80=99s correct! And not=C2=A0more=C2=A0boring than watching me play s=
+lots.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Instagram Unveils  Threads App, a Threat to Musk=E2=80=99s Twitter. (Follow=
+ me on Threads!) Middle market CLOs are now private credit CLOs. Jefferies =
+Sees  Turnaround in Deals After Prolonged Drought. JetBlue, Turning Focus t=
+o Spirit Deal, Won=E2=80=99t Try to Save American Partnership. FTX Lawyer W=
+ho Made Problems Disappear Is Caught Up in Crypto Firm=E2=80=99s Fallout. E=
+x-UBS Trader Hayes Wins Chance to  Appeal Libor Conviction. Warren, Booker =
+Press  Bed Bath & Beyond on Worker Severance Pay.=C2=A0Companies Look to Pa=
+y Tech Vendors Based on  Business Outcomes, Not Usage.=C2=A0 CFA Level II S=
+uccess Rate Jumps Above Historic Average to 52%. More Manhattan Homebuyers =
+ Paying Cash in Sign of Luxury Strength. How a Morgan Stanley  Derivatives =
+Salesperson Became a Celebrity Chef. Right-wing  dog food. Colosseum old.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] I wrote in May about, basically, higher deposit betas, and proposed s=
+everal speculative explanations, including: =E2=80=9CRelationship businesse=
+s in general are on the decline. In a world of electronic communication and=
+ global supply chains and work-from-home and the gig economy, business rela=
+tionships are less sticky and =E2=80=98I am going to go into my bank branch=
+ and shake the hand of the manager and trust her with my life savings=E2=80=
+=99 doesn=E2=80=99t work. =E2=80=98I am going to do stuff for relationship =
+reasons, even if it costs me 0.5% of interest income, or a slightly increas=
+ed risk of losing my money=E2=80=99 is no longer a plausible thing to think=
+.=E2=80=9D You could tell a similar story about civic engagement: =E2=80=9C=
+I am going to keep my money at the local bank because they sponsor the Litt=
+le League=E2=80=9D is just less compelling now than it used to be.
+
+
+  [2] I am kidding about Spotify paying that much. It is not clear to me ho=
+w big the FTX customer shortfall is; the most recent report from its bankru=
+ptcy managers says that =E2=80=9Cas of the petition date, the FTX.com excha=
+nge owed customers approximately $8.7 billion,=E2=80=9D and =E2=80=9Cto dat=
+e, the Debtors have recovered approximately $7 billion in liquid assets, an=
+d they anticipate additional recoveries,=E2=80=9D suggesting an actual gap =
+of only about $1.7 billion or less and something like an 80% recovery. But =
+that doesn=E2=80=99t *feel* right to me? Also probably most of that money w=
+ill go to fees.
+
+
+  [3] Ahahaha like half of my readers are going to email me their systems f=
+or beating slot machines, and they'll work, because this is that sort of ne=
+wsletter. I am doing this intentionally; you=E2=80=99re going to tell me ho=
+w to make a fortune on slots and I=E2=80=99m going to do it and retire. And=
+ not livestream it.
+
+
+  [4] I suppose you could watch people play slots to appreciate the *casino=
+=E2=80=99s* skill at separating them from their money.
+
+
+  [5] No one is going to email me to contradict this one.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj1z43.5n8t/bf30a8b0.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_8912566_1880212309.1688666553593
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow and Monday, back on Tues=
+day.My basic model of banking is that it is a socially beneficial
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32004867.263405/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNzA2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MDYmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB500ab351"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32004867.263405/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMjAwNDg2NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIyNjgyNzImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB6b002686" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D32004867&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32268272&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note: </strong><em>Money S=
+tuff will be off tomorrow and Monday, back on Tuesday.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Deposit beta</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">My <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/32004867.263405/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMDMtMTcvYmlnLWJhbmtzLXRydXN0LWZpcnN0LXJlcHVibGljLXdpdGgt=
+dGhlaXItbW9uZXk_Y21waWQ9QkJEMDcwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ=
+1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzA2JnV0bV9jYW1wYWlnbj1tb25leX=
+N0dWZm/607f07ceef4b8524a319a23cBb16dce8d" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">basic model of banking</=
+a> is that it is a <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/32004867.263405/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLz=
+IwMjMtMDYtMjcvc2lsaWNvbi12YWxsZXktaXMtb24tZHJ1Z3M_Y21waWQ9QkJEMDcwNjIzX01PT=
+kVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09=
+MjMwNzA2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBe774bfd7"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">socially beneficial trick</a>. People deposit money in the bank, t=
+hinking that it is perfectly safe. The bank uses that money to make loans, =
+which are risky. It is good for society, and for economic growth, if people=
+ can get money to take risks, but the people who have the money often do no=
+t want to take risks with it. The bank is a magic trick that allows risk-av=
+erse savers to fund risky projects. Like any magic trick, it requires a cer=
+tain suspension of disbelief: You can=E2=80=99t just <em>tell=C2=A0</em>peo=
+ple =E2=80=9Cthe way it works is that=C2=A0we take risks with your money, b=
+ut we tell you it=E2=80=99s safe.=E2=80=9D There are some genuine tools (ca=
+pital, diversification, deposit insurance) to transform the risky loans int=
+o safe deposits, but there is also some residue of pure belief, and if peop=
+le lose that belief=C2=A0then it stops working.</p>
+<p style=3D"margin: 16px 0;">You can take this a bit further, something lik=
+e =E2=80=9Cbanks are a way for society to collectively fund nice things, wi=
+thout anybody noticing that they are doing that.=E2=80=9D Here is a way to =
+tell the=C2=A0story of local banking:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Everybody loves the local bank! It sp=
+onsors the Little League team! It lends the local sandwich shop=C2=A0owner =
+the money she needs to expand! It gives you your first mortgage! It=E2=80=
+=99s got a nice building on Main Street! With columns! The president of the=
+ bank is a civic fixture, smiling and shaking hands with everybody!</li>=09=
+<li style=3D"margin-bottom: 5px;">So of course when you have money, you dep=
+osit it at the local bank, even though that bank does not pay a competitive=
+ (or any) rate of interest.</li>=09<li style=3D"margin-bottom: 5px;">The ba=
+nk is making an economic profit on your deposits: It is paying you much les=
+s than the market rate of interest. You could get paid 5% on a money-market=
+ fund, but instead you=E2=80=99re getting paid 0% at the local bank; the ba=
+nk would have to pay 5% to borrow from market sources, but instead it=E2=80=
+=99s paying you 0%.</li>=09<li style=3D"margin-bottom: 5px;">The bank is ma=
+king an economic=C2=A0<em>loss=C2=A0</em>on the lending and the Little Leag=
+ue sponsorships. It is charging the sandwich=C2=A0shop owner less interest =
+on her loan than anyone else (a global megabank headquartered in the Big Ci=
+ty, a middle-market lending fund, a loanshark) would charge her, in part be=
+cause the bank president looked her in the eye and shook her hand and tried=
+ a sandwich and trusts her to repay the loan, but also in part because the =
+bank wants to be a valued member of the community and that means taking som=
+e risks lending to local businesses. (It is just giving the money away to t=
+he Little League team for free, purely for valued-community-member reasons.=
+)</li>=09<li style=3D"margin-bottom: 5px;">The below-market rate that the b=
+ank pays on deposits is subsidizing its civic and local-lending activities.=
+</li>=09<li style=3D"margin-bottom: 5px;">You can analyze this as=C2=A0<em>=
+marketing:=C2=A0</em>The Little League sponsorship makes local citizens fee=
+l good about the bank, so they deposit money there, so they get cheap fundi=
+ng. (Or there is=C2=A0<em>cross-selling:=C2=A0</em>The loan to the sandwich=
+ shop owner might require her to keep compensating balances at the bank.)</=
+li>=09<li style=3D"margin-bottom: 5px;">But you can also analyze it as an i=
+ndirect form of civic coordination: All of the people in the town with extr=
+a money deposit it in the bank; they don=E2=80=99t get much in the way of i=
+nterest payments, but what they=C2=A0<em>do=C2=A0</em>get is (1) more econo=
+mic activity in town, as local shop owners can get bank loans to expand=C2=
+=A0and as young couples can get mortgages to buy houses and start families,=
+ and (2) a well-equipped Little League team. They feel good about this trad=
+e-off. The people in town with extra money subsidize business startups and =
+household formation in the town, the town thrives and everyone is better of=
+f.</li>=09<li style=3D"margin-bottom: 5px;">But it is not=C2=A0<em>overt</e=
+m>. Nobody goes around to the people of the town saying =E2=80=9Cplease con=
+tribute $20 to the Help the Sandwich Shop Expand Fund,=E2=80=9D or the Help=
+ the Smiths Buy a House Fund. The town council doesn=E2=80=99t raise taxes =
+to subsidize local businesses or make homes cheaper. It flows through the b=
+ank, through the relatively inconspicuous mechanism of paying low interest =
+rates on deposits.</li>
+</ol>
+<p style=3D"margin: 16px 0;">And the basic story of the 2023 problems in US=
+ regional banks is that market interest rates have gone up a lot, and the r=
+egional banks all expected some form of this story to remain true, and it d=
+idn=E2=80=99t. Market interest rates went up, and depositors at US regional=
+ banks=C2=A0<em>moved their money</em>, either out of concerns about the ba=
+nks=E2=80=99 safety or because they could get higher rates elsewhere. And t=
+he banks had to raise the rates they pay to keep depositors (or pay higher =
+rates to get funding from market sources or the Federal Reserve or the Fede=
+ral Home Loan Bank system). And since the interest the banks earn on their =
+assets has gone up more slowly than short-term market rates (because the ba=
+nks have some long-term fixed-rate assets), they make less money.</p>
+<p style=3D"margin: 16px 0;">We have <a href=3D"https://link.mail.bloomberg=
+business.com/click/32004867.263405/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjMtMDUtMDQvbm9ib2R5LXRydXN0cy10aGUtYmFua3Mtbm93P2NtcGl=
+kPUJCRDA3MDYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbG=
+V0dGVyJnV0bV90ZXJtPTIzMDcwNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b85=
+24a319a23cBad6dbf9d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">talked</a> about <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/32004867.263405/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDUtMDkvaXQtcy1uZXZlci10b28tbGF0ZS1mb3ItY=
+mFua3MtdG8taGVkZ2U_Y21waWQ9QkJEMDcwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFp=
+bCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzA2JnV0bV9jYW1wYWlnbj1tb25=
+leXN0dWZm/607f07ceef4b8524a319a23cBc282ad1a" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">this</a> a <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/32004867.263405/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDUtMjIvYmFua3MtZ290LXJp=
+c2luZy1yYXRlcy13cm9uZz9jbXBpZD1CQkQwNzA2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWV=
+tYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MDYmdXRtX2NhbXBhaWduPW=
+1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB7cc61c7a" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">lot</a> as a finan=
+cial story, but I suppose it=E2=80=99s worth thinking about it as a civic c=
+oordination story too. Here is a <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/32004867.263405/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ldmVy=
+eW9uZS13YW50cy1pbnRlcmVzdC1vbi10aGVpci1kZXBvc2l0cy10aGF0cy1iYWQtZm9yLW1haW4=
+tc3RyZWV0LWJhbmtzLTExMzFmMWIzP21vZD1ocF9sZWFkX3Bvczc/607f07ceef4b8524a319a2=
+3cBee1e5723" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">Wall Street Journal story</a> titled =E2=80=9CEveryone=
+ Wants Interest on Their Deposits. That=E2=80=99s Bad for Main Street Banks=
+.=E2=80=9D</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">When the Fed started raising interest rates to=
+ fight inflation, the conventional wisdom was that it would be a boon for M=
+ain Street banks. They were expected to increase the rates they charged on =
+loans faster than those paid to depositors, pocketing the difference.</p>
+<p style=3D"margin: 16px 0;">Instead, the opposite is happening. The Fed=E2=
+=80=99s hikes and the failures of a trio of midsize banks are prompting onc=
+e-loyal customers to pull their money out of checking accounts that pay no =
+interest. Banks are paying much higher rates on the deposits they are retai=
+ning, which is eclipsing the benefit of charging more on loans. They also a=
+re hoarding cash and tapping high-cost loans in response to the recent fail=
+ures.=C2=A0</p>
+<p style=3D"margin: 16px 0;">In the first quarter, community banks paid on =
+average 1.14% on deposits, up 0.39 percentage point from the prior quarter,=
+ according to the Federal Deposit Insurance Corp. They earned 5.36% on loan=
+s, up 0.16 percentage point from the prior quarter. ...</p>
+<p style=3D"margin: 16px 0;">These challenges could eventually speed up ong=
+oing consolidation. There are fewer than 4,700 U.S. banks today, down from =
+about 8,000 in 2010, according to the FDIC.=C2=A0</p>
+<p style=3D"margin: 16px 0;">That could leave more communities without the =
+hometown banks that play a key role in small-business lending and sponsor L=
+ittle Leagues and parades. It could also make loans harder to get. When the=
+ local lender disappears, credit often goes away, too. ...</p>
+<p style=3D"margin: 16px 0;">Businesses and wealthy customers were the firs=
+t ones to start looking for higher rates last year. Now, every type of cust=
+omer with extra cash is looking for more interest, said Chip Reeves, CEO of=
+ MidWestOne Financial Group, which is based in Iowa City, Iowa.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">If all the burghers of Small Town USA get toge=
+ther and say =E2=80=9Cwe want a local bank that lends to our small business=
+es and sponsors our parades,=E2=80=9D the answer is =E2=80=9Cokay just keep=
+ your money on deposit there earning 0% interest.=E2=80=9D And if they say =
+=E2=80=9Cno we can get 5% on our=C2=A0money-market funds=E2=80=9D then the =
+answer is =E2=80=9Cokay=C2=A0no parades for you then.=E2=80=9D (Or: =E2=80=
+=9CFine, but take some of the interest you get from your money-market funds=
+ and contribute them to the parade fund, or the Kickstarter for your small =
+businesses.=E2=80=9D) You can have the unconscious economic coordination of=
+ local banking, or you can use modern technology to squeeze every basis poi=
+nt out of your cash, but not both.<a class=3D"footnote-index" href=3D"#foot=
+note-1" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !=
+important; background-color: transparent !important; display: inline-block;=
+">
+<span>[1]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">By the way, the <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/32004867.263405/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTcvYmlnLWJhbmtzLXRydXN0LWZpcnN0LXJlcHV=
+ibGljLXdpdGgtdGhlaXItbW9uZXk_Y21waWQ9QkJEMDcwNjIzX01PTkVZU1RVRkYmdXRtX21lZG=
+l1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzA2JnV0bV9jYW1wY=
+Wlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cCb16dce8d" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">same exact a=
+nalysis</a> applies to Silicon Valley, and to <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/32004867.263405/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTAvc3RhcnR1cC1iYW5rLWhhZC1hLXN0YXJ0dX=
+AtYmFuay1ydW4_Y21waWQ9QkJEMDcwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1d=
+G1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzA2JnV0bV9jYW1wYWlnbj1tb25leXN0=
+dWZm/607f07ceef4b8524a319a23cB2d8b2cef" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">Silicon Valley Bank</a>.=C2=
+=A0If all the venture-capital firms in Silicon Valley had kept their hundre=
+ds of millions of dollars of uninsured deposits at SVB earning below-market=
+ interest rates despite holes in SVB=E2=80=99s balance sheet, then SVB woul=
+d have stuck around and been able to make weird bespoke loans to startups a=
+nd sponsor venture-capital conferences. SVB provided a public good to Silic=
+on Valley, and venture capitalists knew that, and they=C2=A0praised SVB whi=
+le it was around and <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/32004867.263405/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS9zaWxpY29uLXZh=
+bGxleS1iYW5rLWdlbmVyYWwtY2F0YWx5c3QtdmMtZmlybXMtc3VwcG9ydC1zdGF0ZW1lbnQtMjA=
+yMy0z/607f07ceef4b8524a319a23cB7aa1cd2b" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">lamented it</a> when it =
+was gone. But it was not in their immediate self-interest to keep their mon=
+ey there as rates went up, so they didn=E2=80=99t.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32004867.263405/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjAwNDg2NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIyNjgyNzImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCf95c020f" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32004867&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32268272&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32004867.263405/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjAwNDg2NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIyNjgyNzImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDf95c020f" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32004867&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32268272&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Elsewhere in rates</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Meanwhile if you are a big global bank with a =
+trading business, rising rates are good for you, in the broad sense that de=
+cades of zero-ish interest rates made=C2=A0it kind of boring to trade inter=
+est rates, while higher and more volatile rates make for more trading and s=
+o <a href=3D"https://link.mail.bloombergbusiness.com/click/32004867.263405/=
+aHR0cHM6Ly9ibGlua3MuYmxvb21iZXJnLmNvbS9uZXdzL3N0b3JpZXMvUlg5R0pBVDBHMUtXP2N=
+tcGlkPUJCRDA3MDYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZX=
+dzbGV0dGVyJnV0bV90ZXJtPTIzMDcwNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef=
+4b8524a319a23cB905c402e" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">more revenue and more jobs</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Societe Generale SA=C2=A0is bolstering its US =
+rates desk as rising interest rates bring lucrative opportunities to the fi=
+xed-income market.</p>
+<p style=3D"margin: 16px 0;">The French bank is in the process of hiring as=
+ many as six new traders and salespeople, according to=C2=A0Fouad Farah, he=
+ad of global markets for the Americas. SocGen is also expanding its rates b=
+usiness for Latin America with new hires in New York.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe end of the zero-rates regime crea=
+tes more opportunities for our platform,=E2=80=9D New York-based Farah said=
+ in an interview. =E2=80=9CInstitutional clients like private equity and in=
+surers are actively hedging on the rates side. It=E2=80=99s not temporary a=
+nd it=E2=80=99s part of our rates strategy in the US.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">International banks including=C2=A0Barclays Pl=
+c=C2=A0and=C2=A0Nomura Holdings Inc.=C2=A0are also making moves to bolster =
+trading operations. In US rates, the biggest banks are set to make $19.2 bi=
+llion in revenue this year, according to predictions from Vali Analytics.</=
+p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/32004867.263405/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjMtMDYtMjAvZGVidC1jb3N0cy1tb3JlLXdoZW4tcmF0ZXMtZ28tdXA_Y21wa=
+WQ9QkJEMDcwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3Ns=
+ZXR0ZXImdXRtX3Rlcm09MjMwNzA2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b85=
+24a319a23cB3d15ffcf" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">wrote the other day</a> that =E2=80=9Ca whole=
+ lot of people in fairly senior roles at a whole lot of financial services =
+companies grew up a world of low interest rates; large expanses of the fina=
+ncial industry collectively forgot that rates could go up,=E2=80=9D and tha=
+t is going to be both financially and sociologically interesting. Probably =
+at some bank there is an interest-rate derivatives desk run by a managing d=
+irector who has spent a decade selling rate caps that never went in the mon=
+ey. It would be funny if rates traders were like <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/32004867.263405/aHR0cHM6Ly93d3cud2VhbHRoc2lt=
+cGxlLmNvbS9lbi1jYS9tYWdhemluZS9jb2JvbC1jb250cm9scy15b3VyLW1vbmV5/607f07ceef=
+4b8524a319a23cB4a5c56e0" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">Cobol programmers</a>, if banks were track=
+ing down retired traders and trying to lure them back because no current em=
+ployees have ever seen 5% interest rates.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Celsius</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I assume that everyone who has paid attention =
+to crypto over the past few years has their own personal top-10 list of =E2=
+=80=9Cwhy aren=E2=80=99t those people in jail?=E2=80=9D projects. So, so, s=
+o, so much of what has gone on in crypto seems clearly to violate US law, a=
+nd so much of it ended in disaster and huge losses for customers, and I sus=
+pect that in quite a few cases the answer to the question =E2=80=9Cwhy have=
+n=E2=80=99t the authorities gone after this project?=E2=80=9D is =E2=80=9Ct=
+hey are too busy going after 20 other projects=C2=A0that also broke the law=
+ and failed spectacularly.=E2=80=9D=C2=A0We=E2=80=99re gonna be getting cry=
+pto enforcement actions for years, but even so there will be a lot of peopl=
+e who did shady things and lost customer money and never face an enforcemen=
+t action just because time and regulatory resources are finite. Enforcement=
+ here just has to be somewhat stochastic; the crypto industry moved so fast=
+ and broke so many things that some people will just get away with it.</p>
+<p style=3D"margin: 16px 0;">Still there are some pretty obvious targets? I=
+ am not going to sit here and list my own top 10 or anything. But=C2=A0<a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/32004867.263405/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMDUvY2Z0Yy1wcm9iZ=
+S1jb25jbHVkZXMtY3J5cHRvLWxlbmRlci1jZWxzaXVzLWV4LWNlby1tYXNoaW5za3ktYnJva2Ut=
+cnVsZXM_Y21waWQ9QkJEMDcwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc29=
+1cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzA2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cBe1e23064" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">here is a Bloomberg News story th=
+at I read this morning</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Investigators at the Commodity Futures Trading=
+ Commission have concluded that bankrupt crypto lender Celsius Network and =
+its former chief executive officer broke US rules before the firm=E2=80=99s=
+ implosion, according to people familiar with the matter.</p>
+<p style=3D"margin: 16px 0;">If a majority of the CFTC=E2=80=99s commission=
+ers agree with that conclusion, the agency could file a case in federal cou=
+rt as soon as this month, said the people, who asked not to be identified d=
+iscussing the confidential determination. Attorneys in the enforcement unit=
+ determined that Celsius misled investors and should have registered with t=
+he regulator, and that former CEO Alex Mashinsky also broke regulations, sa=
+id one of the people. ...</p>
+<p style=3D"margin: 16px 0;">Meanwhile, the Securities and Exchange Commiss=
+ion and federal prosecutors in Manhattan have also been investigating Celsi=
+us, according to bankruptcy filings. Representatives for the SEC and the US=
+ Attorney=E2=80=99s Office for the Southern District of New York declined t=
+o comment on the status of those probes.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">How =E2=80=99bout that!</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">SBF &amp; TB12</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/32004867.263405/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMy8w=
+Ny8wNi90ZWNobm9sb2d5L3RvbS1icmFkeS1jcnlwdG8tZnR4Lmh0bWw/607f07ceef4b8524a31=
+9a23cBef6d80b8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">a New York Times story</a> about quarterback Tom Br=
+ady; his ex-wife, supermodel Gisele B=C3=BCndchen; Sam Bankman-Fried, the f=
+ormer head of crypto exchange FTX Trading; and Sina Nader, FTX=E2=80=99s he=
+ad of partnerships, who recruited Brady and=C2=A0B=C3=BCndchen to endorse F=
+TX in exchange for almost $50 million of FTX stock:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A former college football player, Mr. Nader wa=
+s in charge of recruiting Mr. Brady and other stars. In June 2021, Mr. Brad=
+y and Ms. B=C3=BCndchen agreed to a deal with Mr. Bankman-Fried, praising t=
+he =E2=80=9Crevolutionary FTX team.=E2=80=9D Mr. Brady seemed genuinely int=
+erested in crypto, Mr. Nader said, and occasionally had conversations with =
+Mr. Bankman-Fried.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CImagine a tiger and a lion talking,=
+=E2=80=9D Mr. Nader said. =E2=80=9CThey=E2=80=99re slightly different, they=
+ do different things, but they=E2=80=99re really formidable in their own ar=
+enas.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Imagine a tiger and a lion talking. Imagine To=
+m Brady and Sam Bankman-Fried talking. About crypto. Imagine Tom Brady and =
+Sam Bankman-Fried talking about football. Imagine them talking about pandem=
+ic preparedness. Nutritional supplements. AI alignment.=C2=A0<em>Succession=
+</em>. Imagine a weekly podcast in which Tom Brady and Sam Bankman-Fried di=
+scuss the week=E2=80=99s news and pop culture. I feel like if I were in cha=
+rge of FTX=E2=80=99s bankruptcy I would be working to develop that podcast =
+and sell it to Spotify. Bankman-Fried is facing a whole lot of prison, and =
+Brady has been sued by disgruntled FTX customers, and I think both of them =
+could improve their legal position significantly if FTX were just able to p=
+ay back its customers, and I feel like that podcast could bring in, what,=
+=C2=A0$2 billion?<a class=3D"footnote-index" href=3D"#footnote-2" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: none !important; backgr=
+ound-color: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0No, no, probably not, but=C2=A0<em>I=C2=A0</em>would listen to it=
+, and I am sad I can=E2=80=99t listen to it now. Imagine a tiger and a lion=
+ talking.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Crypto and celebrity were an odd symbiosis: A =
+lot of crypto projects were valued mainly on=C2=A0<em>attention</em>; the t=
+hing that makes, say, Dogecoin valuable is that a lot of people wanted to t=
+rade Dogecoin, not any underlying fundamentals. So paying directly for atte=
+ntion =E2=80=94 hiring Tom Brady to just put his face next to an ad saying =
+=E2=80=9Chere have some crypto=E2=80=9D =E2=80=94=C2=A0was a sensible move =
+for crypto firms. =E2=80=9CFor a while crypto was probably the highest bidd=
+er for celebrity and influence,=E2=80=9D I <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/32004867.263405/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjMtMDYtMjYvZnR4LXNwZW50LWJpZy1vbi1jZWxlYnJpdHk_Y=
+21waWQ9QkJEMDcwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5l=
+d3NsZXR0ZXImdXRtX3Rlcm09MjMwNzA2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBce3ca804" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">wrote the other day</a>, about FTX=E2=80=
+=99s celebrity operation.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Similarly, if you were a celebrity during the =
+crypto boom, crypto technology seemed to offer a more lucrative and efficie=
+nt way to turn celebrity into money than most previous methods. If you are =
+Tom Brady you can autograph a football and sell it to someone but:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You gotta get the football, and a pen=
+, and sign it, and ship it.</li>=09<li style=3D"margin-bottom: 5px;">Not ev=
+ery rich person who loves Tom Brady has a room where they display footballs=
+, and even if they do, the number of people who come to the room is going t=
+o be fairly small, putting some limit on the value of this trophy.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Whereas with non-fungible tokens:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You can sell someone, like, a digital=
+ receipt conveying the information =E2=80=9Cyou bought this receipt from To=
+m Brady,=E2=80=9D which has basically zero marginal cost to you. You can se=
+ll an edition of 10,000 of them in five seconds.</li>=09<li style=3D"margin=
+-bottom: 5px;">The <em>buyers=E2=80=99</em>=C2=A0marginal cost of=C2=A0<em>=
+displaying=C2=A0</em>that receipt is basically zero; it lives online, and t=
+hey can broadcast to everyone on Twitter or whatever, =E2=80=9Clook, I got =
+this Tom Brady NFT.=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">For a=
+ while a lot of crypto people had a lot of money and spent it on these thin=
+gs; I cannot explain it; even from the vantage point of 2023 it seems so al=
+ien.</li>
+</ol>
+<p style=3D"margin: 16px 0;">That Times story also says:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In 2021, Mr. Brady also co-founded Autograph, =
+which helps famous people sell the crypto collectibles known as nonfungible=
+ tokens, or NFTs. Autograph raised more than $200 million from investors, a=
+nd Mr. Bankman-Fried joined the board. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Mr. Brady=E2=80=99s other crypto venture has a=
+lso struggled. Autograph=E2=80=99s revenue sank last year amid the crypto m=
+eltdown, a person familiar with its finances said. The start-up has shifted=
+ its strategy to focus more on helping celebrities find ways to foster loya=
+lty with their fans, and less on marketing crypto tokens to consumers, the =
+person said. The firm has also removed some crypto language from its market=
+ing, downplaying terms like NFT, another person with knowledge of the compa=
+ny said.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">For a split second =E2=80=9Chelp famous people=
+ sell NFTs=E2=80=9D seemed like a big business. What a weird time 2021 was.=
+</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Slot-machine streaming</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">People watch the NBA=C2=A0because they enjoy s=
+eeing world-class athletes accomplish physical feats that ordinary mortals =
+couldn=E2=80=99t do, and because they enjoy the drama of a hard-fought bask=
+etball game. I gather that people watch streamers play video games for basi=
+cally similar reasons: Some people are good at video games, and if you enjo=
+y video games but are less good at them you might enjoy watching the top pl=
+ayers play, and also video games are designed to be fun and exciting, so wa=
+tching someone play one will give you some=C2=A0dramatic entertainment.</p>
+<p style=3D"margin: 16px 0;">Similarly, I suppose that if you watched someo=
+ne who was very good at slot machines play a very exciting slot machine, yo=
+u would derive similar pleasure from it, but (1) no one is good at slot mac=
+hines,<a class=3D"footnote-index" href=3D"#footnote-3" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: none !important; background-color:=
+ transparent !important; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0which are games of random chance with huge house edge,<a class=3D=
+"footnote-index" href=3D"#footnote-4" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: none !important; background-color: transparent !imp=
+ortant; display: inline-block;">
+<span>[4]</span>
+</a>=C2=A0and (2) no=C2=A0slot=C2=A0machines are exciting,<a class=3D"footn=
+ote-index" href=3D"#footnote-5" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: none !important; background-color: transparent !important=
+; display: inline-block;">
+<span>[5]</span>
+</a>=C2=A0so this seems unlikely. <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32004867.263405/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9nYW1=
+ibGluZy13YXRjaGluZy1zbG90LW1hY2hpbmVzLW9ubGluZS05YmZjMTM0NT9tb2Q9aHBfZmVhdH=
+N0X3BvczU/607f07ceef4b8524a319a23cB60b3718e" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> And yet</a>!</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A new class of niche celebrities have turned t=
+he once-solitary experience of gambling at casino slot machines into a spec=
+tator sport with millions of viewers and fan camaraderie. Using monopods or=
+ videographers to film the action, the players spend hours talking audience=
+s through the highs and lows of jackpots and losses.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIt=E2=80=99s fun to watch somebody el=
+se play with their money while you=E2=80=99re sitting on your couch drinkin=
+g a beer,=E2=80=9D said Wayne Deck, a 60-year-old in Fairfax, Va., who watc=
+hes Christopher online and visits casinos in-real-life.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t see how that could be. None of=
+ these people (or any other people)=C2=A0are good at slot machines, but I g=
+uess they=E2=80=99re good at social media:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Brian Christopher lost $300,000 gambling on sl=
+ot machines in casinos last year. Hundreds of thousands of people cheered h=
+im on, from the comfort of their own homes. =E2=80=A6 Christopher declined =
+to provide his total revenue, but said he makes enough to turn a profit aft=
+er paying his staff and the $300,000 in gambling losses.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Some celebrity slots players disclose their lo=
+sses as a badge of honor=E2=80=94a signal they=E2=80=99re being honest abou=
+t the odds. Francine Maric, a full-time high-roller known as Lady Luck HQ, =
+posts her win-loss statements from casinos. She said she lost $320,000 last=
+ year, but still made a profit thanks to advertising revenue and sponsorshi=
+ps.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Well, I am vastly more skilled at slot machine=
+s than these people, in that I have never lost $300,000, or even $300, play=
+ing slot machines. I should livestream myself not losing $300,000 a year at=
+ slot machines. Just like walk by a row of slots with a videographer and tu=
+rn confidingly to the camera and whisper =E2=80=9Cmy winning strategy here =
+is to keep walking.=E2=80=9D It=E2=80=99s correct! And not=C2=A0<em>more=C2=
+=A0</em>boring than watching me play slots.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Instagram Unveils <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/32004867.263405/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMDUvaW5zdGFncmFtLXVudmVpbHMtdGhyZWFkcy1hc=
+HAtYS1tYWpvci10aHJlYXQtdG8tbXVzay1zLXR3aXR0ZXI_Y21waWQ9QkJEMDcwNjIzX01PTkVZ=
+U1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjM=
+wNzA2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB11f29fb5" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> Threads App</a>, a Threat to Musk=E2=80=99s Twitter. (<a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/32004867.263405/aHR0cHM6Ly93d3cu=
+dGhyZWFkcy5uZXQvQGl0aXNtYXR0bGV2aW5l/607f07ceef4b8524a319a23cBd8981923" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">Follow me on Threads</a>!) Middle market CLOs are now <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/32004867.263405/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMDYvcHJpdmF0ZS1jcmVkaXQtaXMtc=
+28tYmlnLXRoYXQtaXQtcy1jaGFuZ2luZy1wYXJ0LW9mLWNsby1tYXJrZXQ_Y21waWQ9QkJEMDcw=
+NjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXR=
+tX3Rlcm09MjMwNzA2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB=
+617b7d34" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">private credit CLOs</a>. Jefferies Sees <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/32004867.263405/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMDYvamVmZmVyaWVzLXNlZXMtdHVybm=
+Fyb3VuZC1pbi1kZWFscy1hZnRlci1wcm9sb25nZWQtZHJvdWdodD9jbXBpZD1CQkQwNzA2MjNfT=
+U9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVy=
+bT0yMzA3MDYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB900a66=
+88" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Turnaround in Deals</a> After Prolonged Drought. <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/32004867.263405/aHR0cHM6Ly93d3=
+cud3NqLmNvbS9hcnRpY2xlcy9qZXRibHVlLXR1cm5pbmctZm9jdXMtdG8tc3Bpcml0LWRlYWwtd=
+29udC10cnktdG8tc2F2ZS1hbWVyaWNhbi1wYXJ0bmVyc2hpcC02MzQzZDdiOD9tb2Q9aXRwX3dz=
+aiZydT15YWhvbw/607f07ceef4b8524a319a23cB4e2f7d2f" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">JetBlue</a>, Turn=
+ing Focus to Spirit Deal, Won=E2=80=99t Try to Save American Partnership. <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/32004867.263405/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMDYvd2hvLWlzLW=
+RhbmllbC1mcmllZGJlcmctZnR4LWxhd3llci1pcy1jYXVnaHQtdXAtaW4tY3J5cHRvLWZpcm0tc=
+y1mYWxsb3V0P2NtcGlkPUJCRDA3MDYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRt=
+X3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcwNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHV=
+mZg/607f07ceef4b8524a319a23cBcf491fe1" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">FTX Lawyer</a> Who Made Prob=
+lems Disappear Is Caught Up in Crypto Firm=E2=80=99s Fallout. Ex-UBS Trader=
+ Hayes Wins Chance to <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/32004867.263405/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzI=
+wMjMtMDctMDYvZXgtdWJzLXRyYWRlci10b20taGF5ZXMtd2lucy1jaGFuY2UtdG8tYXBwZWFsLX=
+VrLWxpYm9yLWNvbnZpY3Rpb24_Y21waWQ9QkJEMDcwNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1b=
+T1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzA2JnV0bV9jYW1wYWln=
+bj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB5f699dfc" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> Appeal Libor C=
+onviction</a>. Warren, Booker Press <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/32004867.263405/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjMtMDctMDYvd2FycmVuLWJvb2tlci1wcmVzcy1iZWQtYmF0aC1iZXlvbmQt=
+b24td29ya2VyLXNldmVyYW5jZS1wYXk_Y21waWQ9QkJEMDcwNjIzX01PTkVZU1RVRkYmdXRtX21=
+lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzA2JnV0bV9jYW=
+1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB0027c0cf" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> Bed Bath=
+ &amp; Beyond</a> on Worker Severance Pay.=C2=A0Companies Look to Pay Tech =
+Vendors Based on <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+2004867.263405/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jb21wYW5pZXMtbG9vay10=
+by1wYXktdGVjaC12ZW5kb3JzLWJhc2VkLW9uLWJ1c2luZXNzLW91dGNvbWVzLW5vdC11c2FnZS0=
+0YzBiZDVjYj9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB50cc7267" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> Business Outcomes</a>, Not Usage.=C2=A0<a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/32004867.263405/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMDYvY2ZhLWxldmVsLWlpLXN1Y2Nlc3MtcmF0ZS1q=
+dW1wcy1hYm92ZS1oaXN0b3JpYy1hdmVyYWdlLXRvLTUyP2NtcGlkPUJCRDA3MDYyM19NT05FWVN=
+UVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMD=
+cwNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBd12c317b" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> CFA Level II</a> Success Rate Jumps Above Historic Average to 52%. Mo=
+re Manhattan Homebuyers <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/32004867.263405/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzL=
+zIwMjMtMDctMDYvbW9yZS1tYW5oYXR0YW4taG9tZWJ1eWVycy1wYXlpbmctY2FzaC1pbi1zaWdu=
+LW9mLWx1eHVyeS1zdHJlbmd0aD9jbXBpZD1CQkQwNzA2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXV=
+tPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MDYmdXRtX2NhbXBhaW=
+duPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBa67ff98b" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> Paying Cash</=
+a> in Sign of Luxury Strength. How a Morgan Stanley <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/32004867.263405/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMDUvZnJvbS1tb3JnYW4tc3RhbmxleS10by1j=
+ZWxlYnJpdHktY2hlZi01LW1pbnMtd2l0aC1qdWR5LWpvbz9jbXBpZD1CQkQwNzA2MjNfTU9ORVl=
+TVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMz=
+A3MDYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBbdceeac1" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> Derivatives Salesperson</a> Became a Celebrity Chef. Right-wing <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/32004867.263405/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMDYvYW50aS13b2tlL=
+WJyYW5kcy1mdWVsLXBhcmFsbGVsLW1hcmtldC1mb3ItY29uc2VydmF0aXZlLXNob3BwZXJzP2Nt=
+cGlkPUJCRDA3MDYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXd=
+zbGV0dGVyJnV0bV90ZXJtPTIzMDcwNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4=
+b8524a319a23cBd02a8c58" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> dog food</a>. Colosseum <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/32004867.263405/aHR0cHM6Ly93d3cubnl0=
+aW1lcy5jb20vMjAyMy8wNy8wNS93b3JsZC9ldXJvcGUvdG91cmlzdC1jb2xvc3NldW0tcm9tZS1=
+hcG9sb2d5Lmh0bWw/607f07ceef4b8524a319a23cBa726d28e" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">old</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32004867.263405/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBda9f85c7" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32004867.263405/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBf6675af3" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] I wrote in May about, basically, higher de=
+posit betas, and <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+2004867.263405/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIw=
+MjMtMDUtMDQvbm9ib2R5LXRydXN0cy10aGUtYmFua3Mtbm93P2NtcGlkPUJCRDA3MDYyM19NT05=
+FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPT=
+IzMDcwNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cCad6dbf9d"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">proposed several speculative explanations</a>, including: =E2=80=
+=9CRelationship businesses in general are on the decline. In a world of ele=
+ctronic communication and global supply chains and work-from-home and the g=
+ig economy, business relationships are less sticky and =E2=80=98I am going =
+to go into my bank branch and shake the hand of the manager and trust her w=
+ith my life savings=E2=80=99 doesn=E2=80=99t work. =E2=80=98I am going to d=
+o stuff for relationship reasons, even if it costs me 0.5% of interest inco=
+me, or a slightly increased risk of losing my money=E2=80=99 is no longer a=
+ plausible thing to think.=E2=80=9D You could tell a similar story about ci=
+vic engagement: =E2=80=9CI am going to keep my money at the local bank beca=
+use they sponsor the Little League=E2=80=9D is just less compelling now tha=
+n it used to be.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] I am kidding about Spotify paying that muc=
+h. It is not clear to me how big the FTX customer shortfall is; <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/32004867.263405/aHR0cHM6Ly9yZ=
+XN0cnVjdHVyaW5nLnJhLmtyb2xsLmNvbS9GVFgvSG9tZS1Eb3dubG9hZFBERj9pZDE9TVRVek56=
+YzBPQSUzRCUzRCZpZDI9MA/607f07ceef4b8524a319a23cBaac0388f" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">the most =
+recent report</a> from its bankruptcy managers says that =E2=80=9Cas of the=
+ petition date, the FTX.com exchange owed customers approximately $8.7 bill=
+ion,=E2=80=9D and =E2=80=9Cto date, the Debtors have recovered approximatel=
+y $7 billion in liquid assets, and they anticipate additional recoveries,=
+=E2=80=9D suggesting an actual gap of only about $1.7 billion or less and s=
+omething like an 80% recovery. But that doesn=E2=80=99t *feel* right to me?=
+ Also probably most of that money will <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/32004867.263405/aHR0cHM6Ly93d3cuY29pbmRlc2suY29tL3BvbG=
+ljeS8yMDIzLzA2LzIxL2Z0eHMtYmFua3J1cHRjeS1mZWVzLWFscmVhZHktdG9wcGVkLTIwMG0tY=
+291cnQtZXhhbWluZXItc2F5cy8jOn46dGV4dD1UaGUlMjB3aW5kJTJEdXAlMjBvZiUyMGNyeXB0=
+byxmZWVzJTIwaW4lMjBGVFgncyUyMGJhbmtydXB0Y3klMjBjYXNlLg/607f07ceef4b8524a319=
+a23cB4ebf60ae" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">go to fees</a>.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Ahahaha like half of my readers are going =
+to email me their systems for beating slot machines, and they'll work, beca=
+use this is that sort of newsletter. I am doing this intentionally; you=E2=
+=80=99re going to tell me how to make a fortune on slots and I=E2=80=99m go=
+ing to do it and retire. And not livestream it.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] I suppose you could watch people play slot=
+s to appreciate the *casino=E2=80=99s* skill at separating them from their =
+money.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] No one is going to email me to contradict =
+this one.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32004867.263405/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB0f6efbec" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32004867.263405/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB1fdd6d9f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32004867.263405/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBfb34d1f5" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32004867.263405/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB51c4ea55" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/32004867.263405/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB32d10f91" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/32004867.2634=
+05/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBb14fc23a" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32004867.263405/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC10b64074" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/32004867.263405/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBe9fcdd3f" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/32004867.263405/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB234ceb48" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32004867.263405/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBf=
+445c600" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32004867.263405/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB2=
+dd848be" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj1z43.5n8t/bf30a8b0.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_8912566_1880212309.1688666553593--
+

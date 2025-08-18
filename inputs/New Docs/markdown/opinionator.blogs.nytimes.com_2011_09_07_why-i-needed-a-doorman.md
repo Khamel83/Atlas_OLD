@@ -1,0 +1,47 @@
+# Why I Needed a Doorman - NYTimes.com
+
+**URL:** http://opinionator.blogs.nytimes.com/2011/09/07/why-i-needed-a-doorman/?pagemode=print
+**Date:** 2011-09-09 22:21:18
+
+---
+
+# Why I Needed a Doorman
+
+Ryan O Connell, Errol Morris, The Conversation, The End, The Great Divide, All Contributors, Series • September 07, 2011 
+
+![Why I Needed a Doorman](https://static01.nyt.com/images/blogs_v5/../icons/t_logo_291_black.png)
+
+Townies is a series about life in New York, and occasionally other cities.  
+  
+I was 21 when I moved to New York City, and I couldn’t tie my own shoes.  
+  
+Nine months earlier, I was struck by a car near where I lived in San Francisco, and suffered extensive nerve damage in my left hand. After six surgeries, a skin graft and intensive rehab, I still couldn’t open jars or water bottles, or put on the splint I had to wear at night to keep the fingers on my crippled hand from contracting.  
+  
+I needed help, but I also needed to resume some kind of normal life. It was the winter of 2008, and I was supposed to start as a transfer student at The New School in Manhattan. I was moving to a city where I didn’t know a soul, and I couldn’t just harass a stranger on the street to help me open a jar of tomato sauce. What I needed, short of a mother or a live-in nurse, was an on-call phantom roommate, someone I could count on whenever I ran into trouble. As much as it embarrassed me to admit it, I was still very much dependent upon others, in a city where independence is prized above most other virtues. In other words, I needed a doorman.  
+  
+I thought doormen existed for N.Y.U. trustafarians and socialites with jewelry lines — not for someone like me.  
+  
+Everything I knew about New York City doormen I’d learned from books or movies. I assumed their purpose was to sign for packages and confer prestige. I thought they existed for N.Y.U. trustafarians, Patrick Bateman-esque professionals, socialites with jewelry lines or chic 80-year-old women — in other words, not for someone like me. It was only later, after I had gotten to know them, that I realized they also acted as parental watchdogs, empathetic caregivers, unlicensed therapists and friends.  
+  
+My building had five doormen, all of varying ethnicities and ages. The youngest one had to be no older than 25, while the oldest appeared to be approximately 115. They were all men — I’ve heard that doorwomen are rare — and when they weren’t greeting people at the door, they were usually pacing around the lobby, looking bored out of their minds. I acquainted myself with all of them rather quickly by informing them of my handicap. In the first year of my living there, I relied on them to help me put on my splint (“It’s to prevent my fingers from becoming a claw!”), open my bottle of Vicodin (“This stuff makes you feel really good!” one doorman astutely pointed out) and help me fill out checks and address envelopes (I am left-handed and my penmanship was all but illegible).  
+  
+Their assistance in my daily life helped establish an unusual level of intimacy between us, and it wasn’t long before I got to know some of their stories. There was Howard, who lived in a rent-controlled apartment on St. Marks and read comics at work, and Nasir, who kept a pet bat in the lobby’s closet to scare away any intruder who tried to enter, and Norman, who never talked to me unless it was around Christmas and he wanted some cash stuffed in an envelope. I became particularly close to the youngest doorman, David. He was exactly the kind of person you would want to see after a long day — warm, affable and open — and even though we clearly came from different worlds, we bonded over both feeling disconnected from the building’s stuffy atmosphere.  
+  
+There was Howard, who read comics at work, and Nasir, who kept a pet bat in the lobby’s closet.  
+  
+David gave me all the gossip about the sordid lives of my neighbors. He pointed out the tenants who wouldn’t even acknowledge him when they wafted in, and told me who had been caught on camera having sex in the elevator and who had done lines of cocaine on the lounge chairs in the lobby. The building had a huge drug culture and the doormen seemed always to know who was indulging in what.  
+  
+On one memorable occasion, I remember talking to David late at night when an inebriated resident waltzed into the lobby. After exchanging the obligatory “hello” and “goodnight” he gestured at the video monitors and whispered to me, “Just watch. He’s going to do a bump of coke when he gets in the elevator.” I was shocked to see that David had been right. “It’s like clockwork with this guy. He’s got a big problem,” he told me, shaking his head with genuine concern.  
+  
+David was overflowing with machismo but there was also a sweetness to him. He seemed always to be having issues with his love life and would often ask for my advice on dating girls, which was laughable because I had no experience whatsoever in the matter. There would be countless nights where he would tell me a story about getting too drunk and blacking out because some girl had hurt his feelings. Every now and then, he even seemed to fall into a depression, greeting me at the door with blank eyes. I would usually stop and ask him what was wrong but we never got very far. Whenever he began to open up, we would be interrupted by a delivery man or a guest, and have to drop the conversation.  
+  
+I knew his girlfriends’ names and what he did over the weekend, and he knew about my accident, my school schedule and whom I was sleeping with. (Doormen always do: “Hi, it’s 4 in the morning and there’s a handsome young man waiting downstairs for you. Should we send him right up?” The answer is always “Yes!” and “Gee, I’m going to have a hard time looking you in the eye tomorrow.”)  
+  
+But how well did I really know him? I wanted to connect, but it wasn’t easy or, the truth is, particularly natural. We didn’t seek each other out; we didn’t have each other’s cellphone numbers. I felt I could talk to him only during those spare moments when I was going out or coming in, when the lobby was empty. Or when I had started to talk to myself in my apartment and decided that I needed some company.  
+  
+Outside of our building, would our friendship have translated? I was a gay, crippled hipster and he … wasn’t. Luckily, in the lobby, we didn’t have to answer that question. We were just two people who needed someone to talk to.  
+  
+I have since moved to a no-frills building a few blocks away, but I’ll still stop by if I know David is working. It feels strange talking to him now that I no longer live there, and I know eventually we’ll stop talking altogether. But until that day comes I’ll continue to pop in unexpectedly. Just to chat. I can open jars on my own now, thank you very much.  
+  
+Ryan O’Connell writes and edits for the blog Thought Catalog. 
+

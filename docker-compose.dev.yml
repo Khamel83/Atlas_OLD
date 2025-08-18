@@ -1,0 +1,89 @@
+version: '3.8'
+
+# Development-focused docker-compose for local development
+# Includes development tools and hot-reload capabilities
+
+services:
+  atlas-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: builder  # Use builder stage for development tools
+    container_name: atlas-dev
+    ports:
+      - "5000:5000"
+      - "8080:8080"
+    volumes:
+      # Bind mount for live code editing
+      - .:/home/atlas/app
+      - /home/atlas/app/__pycache__  # Prevent pycache pollution
+      # Data persistence
+      - atlas_dev_data:/home/atlas/app/data
+      - atlas_dev_logs:/home/atlas/app/logs
+    environment:
+      - FLASK_ENV=development
+      - FLASK_DEBUG=1
+      - ATLAS_CONFIG_PATH=/home/atlas/app/config/config.json
+      - PYTHONUNBUFFERED=1
+      - PYTHONPATH=/home/atlas/app
+    env_file:
+      - .env.development
+    networks:
+      - atlas-dev-network
+    command: >
+      bash -c "
+        echo 'Starting Atlas in development mode...' &&
+        pip install -e . &&
+        python scripts/atlas_background_service.py --debug
+      "
+    
+  # Development database browser
+  sqlite-web:
+    image: coleifer/sqlite-web
+    container_name: atlas-sqlite-browser
+    ports:
+      - "8081:8080"
+    volumes:
+      - atlas_dev_data:/data
+    command: ["sqlite_web", "/data/atlas.db", "--host", "0.0.0.0"]
+    networks:
+      - atlas-dev-network
+    profiles:
+      - dev-tools
+
+  # Development file browser
+  filebrowser:
+    image: filebrowser/filebrowser
+    container_name: atlas-filebrowser
+    ports:
+      - "8082:80"
+    volumes:
+      - .:/srv
+      - atlas_dev_data:/srv/data
+    environment:
+      - FB_BASEURL=/files
+    networks:
+      - atlas-dev-network
+    profiles:
+      - dev-tools
+
+  # Redis for development caching/queuing
+  redis-dev:
+    image: redis:alpine
+    container_name: atlas-redis-dev
+    ports:
+      - "6379:6379"
+    networks:
+      - atlas-dev-network
+    profiles:
+      - dev-tools
+
+volumes:
+  atlas_dev_data:
+    driver: local
+  atlas_dev_logs:
+    driver: local
+
+networks:
+  atlas-dev-network:
+    driver: bridge

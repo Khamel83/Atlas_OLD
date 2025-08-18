@@ -1,0 +1,13 @@
+# at-google-a-place-to-work-and-play.html
+
+**URL:** http://www.nytimes.com/2013/03/16/business/at-google-a-place-to-work-and-play.html?pagewanted=all&_r=0
+**Date:** 2013-03-16 22:13:26
+
+---
+
+# nytimes.com
+
+Unknown author • March 16, 2013 
+
+![nytimes.com]()
+

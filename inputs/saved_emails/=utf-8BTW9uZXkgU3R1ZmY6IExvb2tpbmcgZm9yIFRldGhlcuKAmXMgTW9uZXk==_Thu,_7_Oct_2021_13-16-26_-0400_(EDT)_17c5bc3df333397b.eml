@@ -1,0 +1,2332 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:7e97:0:b0:147:d9bd:f310 with SMTP id l23csp1945520lkh;
+        Thu, 7 Oct 2021 10:18:56 -0700 (PDT)
+X-Received: by 2002:a17:907:1b02:: with SMTP id mp2mr7111745ejc.196.1633627135880;
+        Thu, 07 Oct 2021 10:18:55 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1633627135; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=jfXDkj5CGLRTSY7pE+SHiobrfiCgbJ3ZS6UM3MIrysTZEc0+okjwqUt3m2XM/oGgWx
+         Pg/pG7X9twXl3whnUOKQotsEQXFiimN/8mlnktBSYriWex9IGuWsLHKyaSkxfwXq/bT1
+         reQ/Yyk4tYBUdg9jEhlaxDAgDcadbhgyh9tlHlqx17GjdPfuHYOEYyUjZTWfk8ZtTJil
+         KqcJVJ91oMmtjg2ay8RxZIrGC3zAK7AQpRGnfIknAw6f+IMs/wT5YzFRZYEau8HSGnbd
+         MYmA+YGaR/7h60qyxWe4lXZQfRRD5Q4UY2aL5UgsJyFUCAh4rnOOl28exvKtMI59+HZA
+         uqrg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=z5F5uKGbmFWe63Rbqd/pzGDye/tF3mkzQN73L0Qao5Y=;
+        b=vFlBDUaVpTUJuxbtep/uPe747vzaClvtdUZO6BdvQuETvNFMjLW7gzKbonF2PrcFhY
+         E+Mg6rSqQZHZ5MVMvhs696YVZ0KvPEjTsZ0TQDQ6iYUTr+C0KUcXFiKDGKr4RUN62KT/
+         KHK8dpNXtVXWN7FJ3mM8yuZX4y+/XCj3nS/HhgEESkoORC+1sZEZKx6H1RKyfz2NX3L/
+         CZsSAyidJTbCqEi7fyZKk9tguUUSQZQykMMrCHn/9xEGCbMrTbaS3DNTcPpsOOdYLRYH
+         F3ZdWpQLRPxzm42xM3oT0v8+aDazhlOYxgQ+xaKdwaRQAG2Bo1ekFYstiF3N7s8xFxoX
+         XhPQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=cqHoYuP3;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id y21sor206485eda.3.2021.10.07.10.18.55
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 07 Oct 2021 10:18:55 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=cqHoYuP3;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=z5F5uKGbmFWe63Rbqd/pzGDye/tF3mkzQN73L0Qao5Y=;
+        b=ywboGaP5oMap7lsWOZH0uESByhpFaM9i/orEusFKtNus+pC3hDxnl8RLRXQzTxcNEw
+         E35HQZXppcHzT7nWHD/Xb1HnWgn9bgcuXmyi05bSL4r5dNCvmvbH0tP8y+1ccDbw+gsv
+         u4KOgG5yr/oYpdpy55QAa9Ikjf+elhM+M4mV6igkZCrRSMNas3zYcZX+75Ex+jTsXfkP
+         VhMZZcTdAF69ai7bpLvCK5kNkzoPF3vI1OOoxSfiSb8j4MQBxwIMDFz1TArx52fCL8Cn
+         ybWa1lWEF07qCA/xddOFQjjondnlw6CqHWTrC22CWsMy+xhIL0U67ug0+jJsgWiUmida
+         IGXA==
+X-Gm-Message-State: AOAM533hrpApSywF0IijuokyRrq6MCwxl6v5bpyOjb5m/tm6rI5plSkP
+	0dWxPTmZFZc/jAoHT5ylRisGYPoxOymtVp3dGtCJZ8peIkcr15L9Q3L6
+X-Received: by 2002:a05:6402:11cf:: with SMTP id j15mr7822237edw.232.1633627135628;
+        Thu, 07 Oct 2021 10:18:55 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:3a91:0:0:0:0:0 with SMTP id b17csp1487677ect;
+        Thu, 7 Oct 2021 10:18:52 -0700 (PDT)
+X-Received: by 2002:a5d:47cd:: with SMTP id o13mr7187764wrc.85.1633627131964;
+        Thu, 07 Oct 2021 10:18:51 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1633627131; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=K04W0YcIv1mzvP+u3Fp91ar7PXfLOnHN6JSmSGVnzZ/c/xWLpYwFlUJd6+2U/9rj/M
+         q4zxtJNo4fY5AJUqlx7RTWg4+BZCMnENc0wuioEY636TwpeB8ReNxSEbcliSLUY6CUCX
+         cRSn6BOSvsq7qD+imySVWT0Q12Q/6tcii/+xRsAtjtSL3aKAwhY2HTaATvXVMvQ/apzQ
+         0jPaakNRws0fNiZ61hnb7H5VrvNFUi4jSZ+413Is0BIZmiZLc2MMx3UG/V0VXcZCcu2z
+         H/8J4qjTtXC7uUI92zqPXY5sqVEkkwHJf96LNmiaNogN3W7VBGxLf+4skMM1VNkTKpYI
+         t5jQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=z5F5uKGbmFWe63Rbqd/pzGDye/tF3mkzQN73L0Qao5Y=;
+        b=qxB9w8nLaBml2TBO5z6+zlXVC86/sXSYDLTz5vLLXsBkZ0IqWuGzdTT59qEcGKSPzo
+         FfBLTrIh1JpH5gMoBJwFv8ZWO5G4lF9ZSzTeXu2Con1PWqb/VX8KyXuTE7LPzsuEC6TZ
+         Bp+c1qleVKpsG/O0zSIzjzzxu/1JD7kUDecQsS4zOqBF4GJq9ZNjQi9jOg2VzSiwR4Sw
+         QZGxn9jRNDCWC2OWaAICQA/Celr+BTnugS546rr4u5JmrjiBNFysp67Rkxj984sAzhwr
+         zjhrzSwjsHvcvgeSHH7Ryr2zQdILgYxwYg/IfBos9Xx6C7bhd+lYENzL6CqBKG2nsrur
+         7KyQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=cqHoYuP3;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20211007131626.25266856.280691@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20211007131626.25266856.280691@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211007131626.25266856.280691@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id l7sor5662999wmq.15.2021.10.07.10.18.51
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 07 Oct 2021 10:18:51 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20211007131626.25266856.280691@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJy8mP5dI2bRQYf4b250sVRVvWite+T1TPw4CBkaFH8YNCIT3M+zagMpXM/PSjawkjhrrF66KH797HlpOk5ls1T639Gvby0=
+X-Received: by 2002:a7b:cb82:: with SMTP id m2mr18036116wmi.182.1633627131689;
+        Thu, 07 Oct 2021 10:18:51 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1633627131; cv=none;
+        d=google.com; s=arc-20160816;
+        b=sFkZz1V6mrMBT2jIqrHshMuIDlViJ3VMzQxlmGktUJ752lUjS86TyfNvrJgq9c5Vul
+         ntHAqP+OXFlQzFBYRBM3eqCp4lUptmrw/UKbFpjT02Ours/d/cKBtTabTbUbduUprBdE
+         4JZ+/r79OesBI/N9BrVrZPq0OklSTn+hlNXYUlT/LbNzD8+ZKXOrO3YOQw3TUeDTSWTX
+         Hcy/53mf7GbeaTNGf6QAfHy1BCTxZK6WU4b1B7gAtDMOEQ8pdBAOJDx9k9EL51Wtjb8a
+         t+Bk+bh6l74MWu72dQLJ/nYUdbdZIn+fVoWmqBO+jz5fXtGVV8GHZIVUND7jh3PWB1R0
+         wTKg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=z5F5uKGbmFWe63Rbqd/pzGDye/tF3mkzQN73L0Qao5Y=;
+        b=iHvzBvlT2uQZ+aRGHu7si723Dx2fnePVjMU39kZf/TzXj1AdFUoQHkSo0SF5UWBqGP
+         5TBExiSm4vKsGgindmkJwzZVuM2Gfkjvkt5sxmny5zHTIQJCN9oR82Iys5fvjcg4eAy1
+         QzRyc23sUrGo/wjWRjyN/41X+iqRqYY0GVgz4TM3Br0CsFa2VXZGGmhfk6+bUUcrlwJ9
+         ETQ0hHIW/0rbmqWSXTcAOMU1QShqDfF+5o5FhYu2n5CkYPRdmZPgJCUvW4HSHb5WmFGK
+         Grvd0KePa6xvgDfF5locLCCEHAiiC2suJVjp4F4d8+g26WPjYGX8b7qJShAlwBGavVww
+         7s0Q==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=cqHoYuP3;
+       spf=pass (google.com: domain of delivery_20211007131626.25266856.280691@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20211007131626.25266856.280691@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211007131626.25266856.280691@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id e2si3089wrj.4.2021.10.07.10.18.51
+        for <khamel83@gmail.com>;
+        Thu, 07 Oct 2021 10:18:51 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20211007131626.25266856.280691@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=1wH0i6an9DZ7JkZsVHq7UKWcf4Q=;
+ b=cqHoYuP3lL2rHT1HZpVxym6japddasZ7rcZyIcsVrmM1tl37M0niLP4nxlX0qPCm/QcftKtGOWcG
+   JVwx5rJmoxJb5j8SweVhWN/wywpQMQ4+K4dgc4+M6sCqwA6ulRXNFrArlVfATtozS3NCgWUhcGkM
+   m5O/xJHESGBXqlJJHS8=
+Received: from nj2mta-16.sailthru.com (204.153.121.16) by bloomberg-b.sailthru.com id hbslvm1qqbsc for <bloomberg@khamel.com>; Thu, 7 Oct 2021 13:18:17 -0400 (envelope-from <delivery_20211007131626.25266856.280691@mx.sailthru.com>)
+Date: Thu, 7 Oct 2021 13:16:26 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20211007131626.25266856.280691@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IExvb2tpbmcgZm9yIFRldGhlcuKAmXMgTW9uZXk=?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_21103689_294359709.1633626986032"
+Precedence: bulk
+X-Feedback-ID: 6358:25266856:campaign:sailthru
+X-TM-ID: 20211007131626.25266856.280691
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-fadindigo.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cf1k14.60kz/6dd0a887
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cf1k14.60kz/6dd0a887>, <mailto:unsubscribe_20211007131626.25266856.280691@mx.sailthru.com>
+X-rpcampaign: stjko25266856
+
+------=_Part_21103689_294359709.1633626986032
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.
+ =20
+   =20
+      Tether
+   =20
+ =20
+A (the?) main move in finance goes like this:=09You have a risky thing. It =
+will be worth a lot of money in some states of the world and less money in =
+some other states of the world. Perhaps it will be worth $200, or $100, or =
+$50. Perhaps it is trading at $100 now.=09You divide that risky thing into=
+=C2=A0junior and=C2=A0senior claims. When you find out how much the risky t=
+hing is worth, you pay off the senior claims first, and then the junior cla=
+ims get whatever=E2=80=99s left. Perhaps you issue $50 of senior claims and=
+ promise to pay them back=C2=A0$50,[1] and then you issue $50 of junior cla=
+ims and promise to pay them back whatever=E2=80=99s left. If the thing ends=
+ up being worth=C2=A0$200, the senior claims get $50 and the junior claims =
+get $150 and triple their money; if the thing ends up being worth $50, the =
+senior claims get $50 and the junior claims get $0 and lose all their money=
+. The junior claims are extra-risky =E2=80=94=C2=A0more risky than just the=
+ original risky thing itself =E2=80=94=C2=A0while the senior claims are, in=
+ this hypothetical scenario, completely safe. The senior claimants put in $=
+50 and get back $50 no matter what.There are variations on this move; princ=
+ipally, you can divide the thing into more than two tranches of=C2=A0claim.=
+ (Very safe super-senior claims get paid first, quite safe senior claims ge=
+t paid next, then somewhat risky mezzanine claims, then quite risky equity =
+claims.) Also you can compose this move: You can divide a bunch of things i=
+nto junior and senior claims, bundle a set of junior or senior claims toget=
+her, and then slice that bundle into junior and senior claims.Most of what =
+happens in finance is some form of this move. And the reason for that is ba=
+sically that some people want to own safe things, because they have money t=
+hat they don=E2=80=99t want to lose, and other people want to own risky thi=
+ngs, because they have money that they want to turn into more money. If you=
+ have something that is moderately risky, someone will buy it, but if you s=
+lice it into things that are super safe and things that are super risky,=C2=
+=A0more=C2=A0people might buy them. Financial theory suggests that this is =
+impossible but virtually all of financial practice disagrees.=C2=A0Some exa=
+mples. A=C2=A0business=C2=A0is a risky thing; its future cash flows might b=
+e high or low. It slices those cash flows into senior claims (debt) and jun=
+ior claims (equity). Some people (banks, etc.) want to lend the business mo=
+ney in exchange for a safe senior claim on its future cash flows. Other peo=
+ple (venture capitalists, etc.) want to give the business money in exchange=
+ for a lottery ticket that it will one day be worth a lot.=C2=A0A house can=
+ go up or down in value; it may end up being worth more or less than you pa=
+y for it. But if you get a mortgage, your bank puts up (say) 80% of the mon=
+ey and has a senior claim on your house. If your house loses 19% of its val=
+ue, and you sell it, you will be sad; your down payment evaporated. But the=
+ bank will be fine.Actually the bank doesn=E2=80=99t care because it has po=
+oled a bunch of those mortgages (senior claims on houses) into a mortgage-b=
+acked security,=C2=A0cut that security into tranches (senior claims, mezzan=
+ine claims, junior claims) and sold the tranches on to investors. Perhaps s=
+ome of those investors bought a bunch of mezzanine claims (junior-ish claim=
+s on a pool of senior claims on houses) and put them into a collateralized =
+debt obligation, another kind of pool, and then sold tranches of that. Perh=
+aps someone bought some of those tranches and put them into a CDO-squared. =
+If you buy the senior tranche of a CDO-squared you=E2=80=99re getting a sen=
+ior claim (the CDO-squared tranche) on a pool (the CDO-squared)=C2=A0of jun=
+ior claims (mezzanine CDO tranches) on a pool (the CDO)=C2=A0of junior clai=
+ms (mezzanine mortgage-backed security tranches) on a pool (the MBS) of sen=
+ior claims (mortgages) on houses.[2]=C2=A0Just composing the main move.Actu=
+ally the=C2=A0bank=C2=A0itself is a composition of this move. A bank makes =
+a bunch of loans in exchange for senior claims on businesses, houses, etc. =
+Then it pools those loans together on its balance sheet and issues a bunch =
+of different claims on them. The most senior claims, classically, are =E2=
+=80=9Cbank deposits=E2=80=9D; the most junior claims are =E2=80=9Cequity=E2=
+=80=9D or =E2=80=9Ccapital.=E2=80=9D Some people want to own a bank; they t=
+hink that First Bank of X is good at running its business and will grow its=
+ assets and improve its margins and its stock will be worth more in the fut=
+ure, so they buy equity (shares of stock) of the bank. Other people, though=
+, just want to keep their money safe; they put their deposits in the First =
+Bank of X because they are confident that a dollar deposited in an account =
+there will always be worth a dollar.The fundamental reason for this confide=
+nce is that bank deposits are senior claims (deposits) on a pool of senior =
+claims (loans) on a diversified set of good assets (businesses, houses). (I=
+n modern banking there are other reasons =E2=80=94=C2=A0deposit insurance, =
+etc. =E2=80=94=C2=A0but this is the=C2=A0fundamental=C2=A0reason.) But noti=
+ce that this is magic: At one end of the process you have risky businesses,=
+ at the other end of the process you have perfectly safe dollars. Again, th=
+is is due in part to deposit insurance and regulation and lenders of last r=
+esort, but it is due=C2=A0mainly=C2=A0to the magic of composing senior clai=
+ms on senior claims. You use seniority to turn risky things into safe thing=
+s.One more example. A share of stock is a junior claim (equity) on a busine=
+ss. A=C2=A0margin loan=C2=A0is a senior claim on a share of stock. You=E2=
+=80=99ve got a share of stock worth $100, your broker lends you $50, you pu=
+t up the other $50, if the stock doubles you pay off the loan and keep $150=
+, if the stock goes down by 50% you pay off the loan and lose all your mone=
+y. Either way the broker gets its $50 back. Of course if the stock goes dow=
+n by 90% the broker loses money. Not every senior claim is=C2=A0completely=
+=C2=A0safe. Just, safer.Okay now let=E2=80=99s do Bitcoin.Bitcoin is a risk=
+y asset that lives, in some sense, in an alternate financial world. Ownersh=
+ip of Bitcoin is recorded on the Bitcoin blockchain, not in the records of =
+the traditional financial system, and the brokerages and exchanges and proc=
+esses for trading and owning and financing Bitcoin (and cryptocurrency gene=
+rally)=C2=A0tend to be separate from the ones for stocks or bonds or mortga=
+ges or whatever.Some people live in that alternate financial world with Bit=
+coin. Sometimes this is because they do not live in the traditional financi=
+al world at all: They are drug dealers or sanctioned autocrats or crypto ut=
+opians or dogmatic libertarians or regular people in countries with failed =
+or repressive regimes. But sometimes they live in both worlds: They are hed=
+ge funds who trade both stocks and crypto, say. Even for those people, thou=
+gh, it costs time and effort to switch between worlds. Sending your counter=
+party dollars for her Bitcoins is sort of annoying; her Bitcoins live on th=
+e blockchain, in Bitcoin-world, while your dollars live at the bank, in tra=
+ditional-finance-world. It is convenient to be able to stay in the crypto w=
+orld.=C2=A0The people who live in Bitcoin world are people like anyone else=
+. Some of them (quite a lot of them by all accounts) want lots of risk: The=
+y are there to gamble; their goal is to increase their money as much as pos=
+sible. Bitcoin is volatile, but=C2=A0levered Bitcoin is even more volatile,=
+ and volatility is what they want.Others want no risk. They want to put the=
+ir money into a thing worth a dollar, and be sure that no matter what they=
+=E2=80=99ll get their dollar back. But they don=E2=80=99t want to do that i=
+n a bank account or whatever, because they want their dollar to live in cry=
+pto world. What they want is a =E2=80=9Cstablecoin=E2=80=9D: A thing that l=
+ives on the blockchain, is easily exchangeable for Bitcoin (or other crypto=
+ assets) using the tools and exchanges and brokerages and processes of cryp=
+to world, but is always worth a dollar.How do you get that thing? We have t=
+alked about stablecoins a=C2=A0lot around here. Here is how I would general=
+ly describe their mechanics:=C2=A0Some company (the stablecoin issuer) acts=
+ as a bridge between the crypto world and the traditional finance world. Th=
+e issuer sells you stablecoins on the blockchain in exchange for $1 from yo=
+ur bank account, it puts the $1 in its bank account, and it promises to red=
+eem the stablecoins at $1 (a dollar sent from its bank account to your bank=
+ account) if you want. The stablecoin issuer is selling, in effect, =E2=80=
+=9Cblockchain depositary receipts=E2=80=9D on U.S. dollars kept in the trad=
+itional financial system.[3] It says: =E2=80=9CMoving between the tradition=
+al and crypto worlds is difficult and complicated, so let me handle that fo=
+r you.=E2=80=9D (As compensation, it generally gets to keep the interest on=
+ the money it keeps in its bank account.)But there is another way, which is=
+ to apply that main move of finance to Bitcoin:=09You get a bunch of Bitcoi=
+ns.=09You slice them into junior and senior claims.=09You sell the junior c=
+laims to people who want levered Bitcoin: People who want margin loans agai=
+nst their Bitcoins, etc., who want to gamble on Bitcoin without putting up =
+too much cash.=09You sell the senior claims as stablecoins: =E2=80=9CEven i=
+f Bitcoin drops by 50%,=E2=80=9D you say, =E2=80=9Cthese coins will still b=
+e worth $1, because they are backed by $2 worth of Bitcoin.=E2=80=9DThis al=
+ternative has a huge advantage over the traditional, money-in-the-bank, blo=
+ckchain-depositary-receipt approach to stablecoins: It is, in a sense, self=
+-contained. You have manufactured a money-good $1 crypto claim=C2=A0out of =
+pure crypto, without ever going through the U.S. financial system, banks, e=
+tc. There is no nexus between this stablecoin and the traditional financial=
+ system; regulators can=E2=80=99t shut down its access to banks because it =
+doesn=E2=80=99t rely on banks.[4] It just takes volatile Bitcoins, does som=
+e magic to them, and spits out stablecoins worth a dollar.It also has a hug=
+e disadvantage over the traditional approach, which is that Bitcoin is quit=
+e young and=C2=A0very=C2=A0volatile. Today it is trading at about $54,000. =
+A year ago it was at about $11,000. Five years ago it was at about $600. If=
+ you very conservatively collateralized your stablecoin 20 to 1 =E2=80=94=
+=C2=A0if you issued just $5 worth of stablecoins for every $100 of Bitcoin =
+securing them =E2=80=94=C2=A0those stablecoins would be safe even if Bitcoi=
+n fell to $2,700, but Bitcoin was below $2,700 for much of 2017. Also, no c=
+ash flows, no=C2=A0intrinsic value, blah blah blah. If Bitcoin went to zero=
+ next year this stablecoin approach would not work at all. The only way it =
+can work is if people trust that Bitcoin=C2=A0won=E2=80=99t=C2=A0go to zero=
+, if they trust it enough that =E2=80=9Cthis senior claim on Bitcoin will a=
+lways be worth a dollar=E2=80=9D is persuasive. I would say that five years=
+ ago that claim was not broadly persuasive. I would say that now it is?So t=
+he point is that in theory you could have a Crypto Bank that works like thi=
+s:=09People who want stablecoins give it $1 million in cash U.S. dollars.=
+=09It mints=C2=A0one million of its own stablecoins, promising that they=C2=
+=A0will always be worth $1 each, and gives those coins to the people in ste=
+p 1.=09People who want levered Bitcoin exposure give it $1 million in cash =
+U.S. dollars.=09It buys the $2 million of Bitcoin with the cash and gives t=
+hose Bitcoins to the people in step 3, levered with a margin loan.If the Bi=
+tcoins lose value, the people in step 3 (the levered Bitcoin speculators) l=
+ose money, but if they don=E2=80=99t lose too much money the Crypto Bank is=
+ fine (it has a senior claim on the Bitcoins) and so the stablecoins are st=
+ill worth $1 each.I don=E2=80=99t mean anything by the loan-to-value ratio =
+here, by the way; possibly the people in step 3 should be putting up, say, =
+$2 million for $3 million worth of Bitcoin in order to appropriately overco=
+llateralize the stablecoins. Or perhaps you need to compose the move: Some =
+margin lender gives 2-to-1 leverage, but it=C2=A0borrows=C2=A0money (issuin=
+g a senior claim) from Crypto Bank, which then has a bit more security. Etc=
+.Anyway!=C2=A0I could quote all day from  this Zeke Faux story in Bloomberg=
+ Businessweek titled =E2=80=9CAnyone Seen Tether=E2=80=99s Billions,=E2=80=
+=9D which features a =E2=80=9Cformer child actor who=E2=80=99d missed a pen=
+alty shot in The Mighty Ducks,=E2=80=9D =E2=80=9Cthe Inspector Gadget co-cr=
+eator,=E2=80=9D =E2=80=9Ca former plastic surgeon from Italy=E2=80=9D who =
+=E2=80=9Cwas once fined for selling counterfeit Microsoft software=E2=80=9D=
+ and who =E2=80=9Cgoes by Merlinthewizard=E2=80=9D on Telegram, and a citat=
+ion to =E2=80=9Ca press release announcing a special bonus scene in the 200=
+8 film Young Harlots: In Detention.=E2=80=9D But the density of good lines =
+is high enough that rather than quote them here I will just suggest that yo=
+u read the whole thing. It=E2=80=99s very fun!We have talked about Tether, =
+a leading stablecoin, before and, uh, I cannot object to Faux=E2=80=99s des=
+cription of it here:It was hard to believe that people had sent $69 billion=
+ in real U.S. dollars to a company that seemed to be practically quilted ou=
+t of red flags. But every day, on cryptocurrency exchanges, traders buy and=
+ sell Tether coins as if they=E2=80=99re just as good as dollars. Some days=
+, more than $100 billion in Tether changes hands. It seemed the people with=
+ the most at stake in the crypto markets trusted Tether, and I wanted to kn=
+ow why.=C2=A0He goes on a hilarious quest to find where Tether is keeping i=
+ts $69 billion and, toward the end, gets this partial but very suggestive a=
+nswer:After I returned to the U.S., I obtained a document showing a detaile=
+d account of Tether Holdings=E2=80=99 reserves. It said they include billio=
+ns of dollars of short-term loans to large Chinese companies=E2=80=94someth=
+ing money-market funds avoid. And that was before one of the country=E2=80=
+=99s largest property developers, China Evergrande Group, started to collap=
+se. I also learned that Tether had lent billions of dollars more to other c=
+rypto companies, with Bitcoin as collateral. One of them is Celsius Network=
+ Ltd., a giant quasi-bank for cryptocurrency investors, its founder Alex Ma=
+shinsky told me. He said he pays an interest rate of 5% to 6% on $1 billion=
+ in loans from Tether. Tether has denied holding any Evergrande debt, but H=
+oegner, Tether=E2=80=99s lawyer, declined to say whether Tether had other C=
+hinese commercial paper. He said the vast majority of its commercial paper =
+has high grades from credit ratings firms, and that its secured loans are l=
+ow-risk, because borrowers have to put up Bitcoin that=E2=80=99s worth more=
+ than what they borrow. =E2=80=9CAll Tether tokens are fully backed,=E2=80=
+=9D he said.The standard story of Tether =E2=80=94=C2=A0the story that Teth=
+er tells =E2=80=94=C2=A0is the one that I have called the =E2=80=9Cblockcha=
+in depositary receipt.=E2=80=9D Tether takes dollars, it puts them into ver=
+y safe dollar-denominated traditional finance assets (bank accounts, highly=
+ rated commercial paper), and it issues stablecoins against them. If you wa=
+nt your dollar back, Tether basically takes it out of the bank and gives it=
+ to you in exchange for your stablecoin. Easy peasy.The standard objection =
+to this story is that nobody can figure out where Tether actually keeps the=
+ money:Elsewhere on the website, there=E2=80=99s a letter from an accountin=
+g firm stating that Tether has the reserves to back its coins, along with a=
+ pie chart showing that about $30 billion of its dollar holdings are invest=
+ed in commercial paper=E2=80=94short-term loans to corporations. That would=
+ make Tether the seventh-largest holder of such debt, right up there with C=
+harles Schwab and Vanguard Group.To fact-check this claim, a few colleagues=
+ and I canvassed Wall Street traders to see if any had seen Tether buying a=
+nything. No one had. =E2=80=9CIt=E2=80=99s a small market with a lot of peo=
+ple who know each other,=E2=80=9D said Deborah Cunningham, chief investment=
+ officer of global money markets at Federated Hermes, an asset management c=
+ompany in Pittsburgh. =E2=80=9CIf there were a new entrant, it would be usu=
+ally very obvious.=E2=80=9DThat sort of thing. In=C2=A0particular, people w=
+orry that a lot of the money=C2=A0might be in Chinese commercial paper that=
+ is riskier than its ratings would suggest. Why would Tether do this? Well,=
+ partly because it is somewhat difficult for a crypto company that has had =
+a few regulatory run-ins to put $69 billion somewhere safe and normal; some=
+ traditional counterparties might not want that business. But there is also=
+ a reaching-for-yield theory:Tether=E2=80=99s website had long displayed a =
+pledge: =E2=80=9CEvery Tether is always backed 1-to-1, by traditional curre=
+ncy held in our reserves.=E2=80=9D But, according to [Tether=E2=80=99s form=
+er banker in Puerto Rico,=C2=A0John] Betts, [Tether Chief Financial Officer=
+ and former plastic surgeon Giancarlo] Devasini wanted to use those reserve=
+s to make investments. If the $1 billion in reserves Tether said it had at =
+the time earned returns at, say, 1% a year, that would be $10 million in an=
+nual profit. Betts saw this as a conflict of interest for Devasini, since a=
+ny investment gains would go to Devasini and his partners, but Tether holde=
+rs would potentially lose everything if the investments went bad. When Bett=
+s objected, Devasini accused him of stealing. =E2=80=9CGiancarlo wanted a h=
+igher rate of return,=E2=80=9D Betts said. =E2=80=9CI repeatedly implored h=
+im to be patient and do the work with auditors.=E2=80=9DFine, all tradition=
+al stuff. And=C2=A0most=C2=A0of the story of Tether is in fact that it inve=
+sts dollars in traditional dollar assets, and some of those assets are very=
+ safe, and=C2=A0maybe=C2=A0some of them are a bit less safe than you=E2=80=
+=99d like and that might worry you, but it=E2=80=99s still hard to tell.But=
+ the part I want to talk about here is =E2=80=A6=C2=A0I=E2=80=99ll quote it=
+ again:I also learned that Tether had lent billions of dollars more to othe=
+r crypto companies, with Bitcoin as collateral. One of them is Celsius Netw=
+ork Ltd., a giant quasi-bank for cryptocurrency investors, its founder Alex=
+ Mashinsky told me.=C2=A0=E2=80=A6 Hoegner, Tether=E2=80=99s lawyer, [said]=
+ =E2=80=A6 that its secured loans are low-risk, because borrowers have to p=
+ut up Bitcoin that=E2=80=99s worth more than what they borrow.=C2=A0There! =
+That part! That seems to be only a=C2=A0minority=C2=A0of the Tether story, =
+but it=E2=80=99s the interesting part:=09Various crypto =E2=80=9Cquasi-bank=
+s=E2=80=9D give people levered exposure to Bitcoin and take senior claims o=
+n their Bitcoin.=09Those quasi-banks borrow dollars from Tether, giving Tet=
+her a senior claim on the Bitcoins they hold.=09Tether uses those pools of =
+Bitcoin to back its stablecoins.[5]Tether transmutes risky Bitcoins into ri=
+sk-free stablecoins. Or does it, ha ha ha; of course you can object to the =
+notion that anything risk-free can be extracted from Bitcoin (=E2=80=9Cit c=
+ould go to zero tomorrow!=E2=80=9D). Or you can say =E2=80=9Cwell that's fi=
+ne in theory, but for safety you need way more collateral than Tether deman=
+ds,=E2=80=9D though I have no idea how much collateral Tether actually dema=
+nds, because it doesn=E2=80=99t say.=C2=A0Again, I think if you told that s=
+tory five years ago people would think you were nuts. =E2=80=9CNo no no,=E2=
+=80=9D they would say, =E2=80=9Cyou can=E2=80=99t manufacture safe dollar a=
+ssets out of Bitcoin, Bitcoin is too volatile, there is no floor, it could =
+go to zero, this is nonsense.=E2=80=9D I think there is a good chance=C2=A0=
+that if you tell that story five years from now it will be=C2=A0unremarkabl=
+e. =E2=80=9CYes right of course the Bank of Tether issues deposits worth on=
+e Tether and uses those deposits to fund margin loans to levered Bitcoin in=
+vestors, that=E2=80=99s just how banking works,=E2=80=9D people will say. I=
+t is just a function of how confident people are in Bitcoin=E2=80=99s perma=
+nence and its function as a store of value. Right now we are in between;=C2=
+=A0the story is plausible but still weird. It=E2=80=99s not the story that =
+Tether wants to tell, and it=E2=80=99s not the main story of Tether. But it=
+'s the interesting part.This has gone on long enough but I do want to end o=
+n a couple of discussion questions:=09Traditional financial regulators seem=
+=C2=A0very=C2=A0worried about the implications of stablecoins for financial=
+ stability. (Faux: =E2=80=9CIf enough traders asked for their dollars back =
+at once, the company could have to liquidate its assets at a loss, setting =
+off a run on the not-bank. The losses could cascade into the regulated fina=
+ncial system by crashing credit markets.=E2=80=9D) If you found out that, i=
+nstead of being backed by U.S. Treasury bills and highly-rated commercial p=
+aper of large multinational companies, Tether is mostly backed by loans col=
+lateralized by Bitcoins, how would that make you feel about the threat that=
+ Tether does or does not pose to the traditional financial system?=09Same q=
+uestion except not about the stability of the traditional financial system,=
+ but about the stability of the=C2=A0crypto=C2=A0financial system. If Tethe=
+r=E2=80=99s always-worth-a-dollar value came from the value of senior claim=
+s on levered Bitcoin positions, rather than from Treasury bills etc. =E2=80=
+=94=C2=A0if the value of Tether comes in essence from people=E2=80=99s conf=
+idence in the value of Bitcoin =E2=80=94=C2=A0could a strong wind blow the =
+whole thing over?
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      SOFR loan
+   =20
+ =20
+If you are a company and you take out a loan, the loan will usually have a =
+floating rate, and periodically the rate will reset to (1)=C2=A0Libor, the =
+London interbank offered rate, a benchmark interest rate published each day=
+,=C2=A0plus=C2=A0(2) a credit spread that is fixed in the loan contract.[6]=
+ The contract might say =E2=80=9Ceach quarter the interest rate will reset =
+to 3-month Libor plus 225 basis points.=E2=80=9D That number =E2=80=94=C2=
+=A0225 basis points, 2.25% =E2=80=94=C2=A0is fixed in the contract and adde=
+d to 3-month Libor every three months; it is the credit spread. People will=
+ describe the loan=E2=80=99s pricing as being =E2=80=9CL+225,=E2=80=9D Libo=
+r plus 225 basis points.=C2=A0If you are a company you want your credit spr=
+ead to be lower rather than higher, both because it saves you money =E2=80=
+=94=C2=A0each basis point of credit spread costs you $100 of interest per y=
+ear per million dollars you borrow =E2=80=94=C2=A0and also as a matter of p=
+ride. A tighter credit spread means that you are a better credit, that lend=
+ers are more confident in you, that you are doing a better job of managing =
+risk, etc.=C2=A0Libor is going away though. Libor is in theory the rate at =
+which big banks can borrow unsecured for some specified period of time (3 m=
+onths, etc.); in practice they don=E2=80=99t do that much of that borrowing=
+ and they have some history of lying about the rates. So it is being replac=
+ed by more market-based rates. In the U.S., the main replacement is SOFR, t=
+he Secured Overnight Financing Rate, which is the rate that big institution=
+s=C2=A0pay to borrow overnight secured by Treasury securities. (There are v=
+arious ways to turn SOFR, an overnight rate, into a one- or three- or whate=
+ver-month rate, using for instance curves constructed from SOFR futures.)=
+=C2=A0I=E2=80=99ve been hearing about this transition for years, but it was=
+ always in the future. Companies kept getting loans, and they kept being in=
+dexed to Libor, despite increasingly impatient talk from regulators. Now th=
+at is finally changing:Real estate lender Walker & Dunlop Inc. became the f=
+irst company to announce a U.S. leveraged loan sale that fully embraces reg=
+ulators=E2=80=99 preferred replacement for the London interbank offered rat=
+e, a milestone in the shift away from Libor that could finally unleash a fl=
+ood of copycats.The $600 million seven-year loan will be benchmarked to the=
+ Secured Overnight Financing Rate, according to a person familiar with the =
+matter. Libor is being phased out because of the rigging scandal that came =
+to light a decade ago, and SOFR is a leading candidate to fill its role.Blo=
+omberg=E2=80=99s Paula Seligson writes:The announcement of a new loan offer=
+ing tied to the Secured Overnight Financing Rate, or SOFR, is a huge moment=
+ for Wall Street. It raises hopes that the leveraged-loan market is finally=
+ making a real attempt to ditch Libor, like other parts of the financial ma=
+rkets -- such as derivatives and investment-grade bonds -- where far more p=
+rogress has been made over the past few months, or even years.The bank mark=
+eting the loan, JPMorgan Chase & Co., has enormous clout. Its embrace of SO=
+FR on behalf of a customer could finally break the logjam that=E2=80=99s pr=
+evented borrowers from using SOFR -- the rate regulators want as the U.S. r=
+eplacement for Libor, the disgraced benchmark that can no longer be tied to=
+ new loans and other financial products sold after New Year=E2=80=99s Eve. =
+Existing loans will be able to reference Libor through mid-2023.The deal =
+=E2=80=9Cshould help to set a precedent and encourage other lenders to quic=
+kly move to offering more SOFR loans,=E2=80=9D said Tom Wipf, chairman of t=
+he Alternative Reference Rates Committee, the Federal Reserve-backed body g=
+uiding the transition.For months, finance pros have waited for SOFR deals i=
+n the $1.2 trillion leveraged loan market. Instead they were met with silen=
+ce, and nothing to suggest the new rate was going to be battle tested in ti=
+me. Now, with Tuesday=E2=80=99s deal, there=E2=80=99s suddenly greater conf=
+idence that other companies will step forward with similar offerings.Fine. =
+But here is a small technical problem. SOFR is a bit lower than Libor: SOFR=
+ is a rate for essentially risk-free loans secured by Treasuries, while Lib=
+or incorporates banks=E2=80=99 credit risk. =E2=80=9CRight now,=E2=80=9D wr=
+ites Seligson,=C2=A0=E2=80=9Cone-month Libor is 8.6 basis points, or just 2=
+.7 basis points above its SOFR counterpart=E2=80=9D (which is 0.059%), but =
+historically the difference has been somewhat wider. Let=E2=80=99s say that=
+ the correct long-term difference is 10 basis points.[7] In the long run =
+=E2=80=94=C2=A0over the course of a seven-year loan printed today =E2=80=94=
+ SOFR will average out to be 10 basis points lower than Libor.Meanwhile the=
+ loan is no less expensive for the bank to make, the company is no less ris=
+ky, etc., just because it says =E2=80=9CSOFR=E2=80=9D rather than =E2=80=9C=
+Libor.=E2=80=9D So the pricing=C2=A0of the loan should be the same. Which m=
+eans that, if SOFR is 10 basis points lower than Libor, then you need to ad=
+d 10 basis points to the spread to make the pricing correct. A company that=
+ could have gotten a loan at L+225 will instead get a loan at SOFR+235. Thi=
+s will cost the same amount: SOFR is 10 basis points lower than Libor, so S=
+OFR+235=C2=A0equals=C2=A0L+225.=C2=A0Except that finance is kind of dumb so=
+metimes. If you are the treasurer of a company, you have worked hard to get=
+ your credit spread down to 225 basis points. When a bank tells you that no=
+w it=E2=80=99s 235, you=E2=80=99ll be mad. =E2=80=9CBut this is a higher sp=
+read applied to a lower base so actually it=E2=80=99s=E2=80=94,=E2=80=9D th=
+e bank starts to say, but you don=E2=80=99t want to hear it. You want 225.M=
+eanwhile if you are an investor in loans you are looking at some spreadshee=
+t of comparable loans, and they are all at L+225, and you see this one is a=
+t +235 and you say =E2=80=9Cthat number is too high=E2=80=9D and you are fl=
+ummoxed. Things are supposed to be comparable.So there is lovely dumb solut=
+ion which is to put the 10 basis points somewhere else. Instead of saying "=
+the price is SOFR plus a spread,=E2=80=9D you say =E2=80=9Cthe price is SOF=
+R plus a spread plus a spread adjustment.=E2=80=9D[8]=C2=A0Seligson:Walker =
+& Dunlop will pay SOFR plus a =E2=80=9Ccredit spread adjustment=E2=80=9D of=
+ 10 basis points, along with some additional interest known as a spread tha=
+t hasn=E2=80=99t yet been determined. (Investors may still push for some ch=
+anges in the terms of the deal, which is due to be sold in the middle of ne=
+xt week.)=C2=A0The credit spread adjustment is meant to turn SOFR into some=
+thing approximating Libor, so investors and companies can see the spread an=
+d understand the loan=E2=80=99s pricing quickly.=C2=A0Right now a lot of lo=
+ans are indexed to Libor and a few (almost none, but more are coming) are i=
+ndexed to SOFR, and it would break everyone=E2=80=99s brains if some compan=
+ies were quoted on a spread to Libor and others were quoted on a spread to =
+SOFR, so instead some companies are quoted on a spread to Libor and others =
+are quoted on a (fully comparable) =E2=80=9Cspread to SOFR, but if it were =
+Libor.=E2=80=9D I love it.If Libor does go away entirely, I assume that the=
+ =E2=80=9Ccredit spread adjustment=E2=80=9D will also go away, and companie=
+s will just get loans at SOFR plus some spread and be quoted at =E2=80=9CSO=
+FR + whatever=E2=80=9D; everyone will use SOFR so everything will be compar=
+able.=C2=A0But maybe not! Who wants to be the first company to get rid of t=
+he adjustment and have a higher nominal spread? Maybe it will persist forev=
+er as a vestigial vanity item; maybe in 30 years junior law firm associates=
+ will cut and paste a loan agreement and ask their partner =E2=80=9Cwhy is =
+this Credit Spread Adjustment here=E2=80=9D and the partner will say =E2=80=
+=9Coh, nobody knows, that=E2=80=99s just in every loan agreement, you gotta=
+ adjust the credit spread.=E2=80=9D
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      NFT Stuff
+   =20
+ =20
+An important=C2=A0problem in finance is:=09There are private companies.=09Y=
+ou would like to buy their stock.=09But they=E2=80=99re=C2=A0private, so yo=
+u can=E2=80=99t.=C2=A0There is a related problem, which is that some people=
+ are shareholders of private companies=C2=A0(employees or venture capitalis=
+ts) and would like to=C2=A0sell=C2=A0their stock, but let us focus on the o=
+ther problem because it seems more popular. Some big famous tech startup is=
+ private, you keep hearing about it, you use its products, you read that it=
+ raised money at a $40 billion valuation, you expect=C2=A0that it will even=
+tually do an initial public offering at an $80 billion valuation, you love =
+it, but there is nothing you can do about it. You can=E2=80=99t buy the sto=
+ck.You  can=E2=80=99t buy the stock in part because generally only =E2=80=
+=9Caccredited investors=E2=80=9D (roughly, rich people and institutions) ha=
+ve access to private-company stock, but much more importantly because there=
+ is just not much stock for sale; the company occasionally sells slugs of s=
+tock to institutions in primary sales, and it gives stock to employees as c=
+ompensation, but all that stock gets locked up by transfer restrictions and=
+ isn=E2=80=99t available for anyone, accredited or not, to buy in the stock=
+ market.Finance sees you there, with your problem, and finance loves to sol=
+ve problems. And=C2=A0there have been lots of efforts to solve this one. Th=
+e main line of efforts is =E2=80=9Cwhat if we made it so you could buy the =
+stock,=E2=80=9D and so people build brokers and platforms and=C2=A0exchange=
+s for the trading of private-company shares. It is not obvious that these e=
+fforts solve any of the problems in the previous paragraph. Generally they =
+still require buyers to be accredited, but also they rely on the shares not=
+ being subject to transfer restrictions, which, uh, they often are. But the=
+ heads of the private company exchanges can go to the big private tech comp=
+anies and say =E2=80=9Chey you should let us trade your stock on our privat=
+e stock exchanges=E2=80=9D and then the big private tech companies can say =
+=E2=80=9Cno.=E2=80=9D=C2=A0There are other approaches. One is =E2=80=9Cwhat=
+ if a big institution bought the stock, put it in a pot, and sold you share=
+s of the pot.=E2=80=9D This can raise some technical problems, and probably=
+=C2=A0does not solve the accredited-investor problem, but it is fine as far=
+ as it goes, and there are lots of examples. (Special-purpose vehicles to b=
+uy unicorn stock, or  large bank-run funds to let their private-wealth clie=
+nts get access to unicorn stock.)Another approach is =E2=80=9Cwhat if we so=
+ld you a derivative on the stock.=E2=80=9D This is a fairly=C2=A0popular ap=
+proach; private-company employees and venture capitalists sometimes use for=
+ward sales to sell their stock, in the future, to outside investors. Or the=
+re are  unicorn structured notes? Again there are legal issues to consider:=
+ For one thing you do not solve the accredited-investor problem; for anothe=
+r thing, it is not always clear that the sellers of the forwards=C2=A0(empl=
+oyees, VCs) are=C2=A0allowed=C2=A0to enter into them under the terms of the=
+ir employment or shareholder agreements. But, sure, a thing.Another approac=
+h is =E2=80=9Cwhat if we sold you a derivative on the stock, but on the blo=
+ckchain.=E2=80=9D This has the advantage of, like, you can pretend that it=
+=E2=80=99s less illegal than it is, because people sometimes think that sec=
+urities laws don=E2=80=99t apply on the blockchain. People don=E2=80=99t be=
+lieve this as much as they used to, but a few years ago =E2=80=9Cderivative=
+s on private company stock but on the blockchain=E2=80=9D was  briefly sort=
+ of a thing.=C2=A0But =E2=80=A6=C2=A0look. Non-fungible tokens are hot righ=
+t now. The way a non-fungible token works is:=09I create a work of art, or =
+destroy a work of art, or make a joke, or do something else.=09I sell you a=
+ digital proof, enshrined permanently in an open blockchain, that you have =
+paid me for that work of art or whatever I did.=09That is the entire transa=
+ction: You get =E2=80=9Cownership=E2=80=9D of whatever I sold you in the fo=
+rm of that digital proof on the blockchain, but (in the general case) no le=
+gal rights to the thing.Are there NFTs of the Brooklyn Bridge? You=E2=80=99=
+d better believe it. What do you get when you buy an NFT of the Brooklyn Br=
+idge? You get proof, on a blockchain, that you bought the NFT of the Brookl=
+yn Bridge. What is that worth to you? Very little really, because if you bu=
+y a Brooklyn Bridge NFT it is uncomfortably clear that you are being made f=
+un of. With other NFTs it=E2=80=99s a bit less clear!What I propose is Unic=
+ornCoin:=09There=E2=80=99s some hot giant tech startup, Unicorn Inc., that =
+gets a lot of buzz and raises money at a $40 billion valuation.=09I mint 40=
+ billion UnicornCoins.=09=E2=80=9CAs Unicorn Inc. goes up in value, each Un=
+icornCoin will also gain value, I guess, whatever,=E2=80=9D I say.=09You bu=
+y UnicornCoins.=09Unicorn Inc. announces new cool things.=09People notice t=
+hat and UnicornCoin goes up.=09The system works.=09Unicorn Inc. goes public=
+ at an $80 billion valuation.=09Has the price of UnicornCoin doubled? Man, =
+I have no idea, none of this is anything, but does it=C2=A0feel=C2=A0like s=
+omething?I confess that I am inspired by NFTs, and I guess by Tether, but a=
+lso by  the SHIB cryptocurrency, which, through the awesome power of pure n=
+onsense, seems to track something like =E2=80=9Chow much attention are peop=
+le online paying to Elon Musk getting a Shiba Inu?=E2=80=9D When Musk tweet=
+s about getting a Shiba Inu dog, SHIB goes up. Is it worth more?=C2=A0Is th=
+ere a robust arbitrage mechanism to ensure that the price of SHIB tracks th=
+e cuteness of Musk=E2=80=99s Shiba Inu? Does SHIB confer any ownership righ=
+ts to Musk=E2=80=99s dog? Are there cash flows from the dog that are securi=
+tized into SHIB? No, absolutely not, it is nothing, it is a pure online jok=
+e, but when Musk tweets about his Shiba Inu people are like =E2=80=9Coh I r=
+emember that there=E2=80=99s an online joke token=C2=A0about this=E2=80=9D =
+and they buy SHIB and it goes up. It has a market capitalization of $10 bil=
+lion. It=E2=80=99s  up 216% this week because of a Musk tweet. This isn=E2=
+=80=99t my fault! I don=E2=80=99t make this stuff up! This is a real thing =
+that is happening!All I am saying is that if I sold you a crypto token that=
+ was called =E2=80=9CStripeCoin=E2=80=9D and I said =E2=80=9Cthis is a toke=
+n on the stock of Stripe=E2=80=9D you might say =E2=80=94=C2=A0because you =
+are reading Money Stuff, etc. =E2=80=94=C2=A0you might say =E2=80=9Cwait ho=
+w is the value of the token linked to the value of Stripe=E2=80=9D and I wo=
+uld say =E2=80=9Chahahaha it absolutely isn=E2=80=99t.=E2=80=9D But my hypo=
+thesis is that not everyone is as skeptical and literal-minded as you are, =
+and some people would just go buy StripeCoin=C2=A0when they had nice though=
+ts about Stripe and sell StripeCoin=C2=A0when they had sad thoughts about S=
+tripe and buy a whole lot of StripeCoin=C2=A0when Stripe went public,=C2=A0=
+and it would at least directionally end up being a sort of a proxy for Stri=
+pe stock. And everyone would get what they came for, which is a convenient =
+way to gamble on people=E2=80=99s feelings about Stripe.=C2=A0Anyway here=
+=E2=80=99s a much more complicated thing:The meme-ification of ownership an=
+d the wild acceleration of private startup valuations have led us to this m=
+oment where a former VC firm associate has built a crypto marketplace desig=
+ned for =E2=80=9Cfantasy startup investing,=E2=80=9D where users spend real=
+ money buying fake=C2=A0shares =E2=80=94 in NFT form, of course =E2=80=94 o=
+f real startups.The game, which launches out of closed beta today, is calle=
+d Visionrare and founders Jacob Claerhout and Boris Gordts see a way to tak=
+e the gamification of investing to its furthest end, mimicking the appeal o=
+f fantasy sports leagues and giving users a way to compete with friends by =
+betting on startups they think will be successful. Users can bid on NFT sha=
+res of hundreds of different startups at auction and compete to build the b=
+est performing fake portfolio. =E2=80=A6The game aims to simplify the compl=
+exity of venture capital in an auction format that=E2=80=99s tied to the ac=
+tual fundraising cycles of the startups and their real world performance. V=
+isionrare auctions off 100 serialized =E2=80=9CVisionShares=E2=80=9D per fu=
+nding round, one at a time for each startup, with bids starting at $5. Once=
+ a user accumulates a certain number of shares (at least five) they can joi=
+n a league and compete with other users through a fantasy-like experience, =
+moving up and down a leaderboard while competing for a share of the collect=
+ive value of the VisionShares based on the performance of their own portfol=
+io.No, boo, I don=E2=80=99t care about this, dream bigger and dumber.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Hedge funds cash in as green investors dump energy stocks. China=E2=80=99s =
+Central Bank Governor Vows to Continue Fintech Crackdown.=C2=A0Holders of E=
+vergrande-Linked Jumbo Fortune Bond Yet to Be Paid.=C2=A0 Cathie Wood=E2=80=
+=99s New York Exit Spotlights Overlooked Florida Region. How AT&T helped bu=
+ild far-right One America News.=C2=A0Twitch Hack Reveals How Much Revenue t=
+he Platform=E2=80=99s Biggest Streamers Make. Coffee costs $8 a cup in Alab=
+ama?If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, ri=
+ght in your inbox, please=C2=A0subscribe at this link. Or you can subscribe=
+ to Money Stuff and other great Bloomberg newsletters here. Thanks!=C2=A0[1=
+] Or, like, $52, because they will want to earn some interest, but never mi=
+nd that now.[2] This particular sequence of moves is frowned upon since the=
+ 2008 financial crisis but it is I think a helpful illustration.=C2=A0[3] W=
+e have also talked a bit about =E2=80=9Calgorithmic stablecoins,=E2=80=9D w=
+hich for our purposes here are largely nonsense that don=E2=80=99t work, so=
+ I do not plan to discuss them further except to say that, viewed at a cert=
+ain angle, they are related to the=C2=A0method that I discuss next in the t=
+ext. It is a question of emphasis. An algorithmic stablecoin that automatic=
+ally mints and burns its own self-created equity token to keep its senior s=
+tablecoin token at $1 is, generally speaking, likely to be nonsense. An alg=
+orithmic stablecoin that automatically market-makes between a greatly overc=
+ollateralized pool of Bitcoin and its own senior $1 stablecoin is more or l=
+ess what I describe next, which is not *quite* nonsense.[4] This is exagger=
+ated in practice; you will want some way to send a dollar to the stablecoin=
+ issuer to get back the stablecoin, etc. But in some bootstrapped sense it =
+is true; plenty of people trade Bitcoins for Tether without ever converting=
+ Tether into dollars or dollars into Tether. They own Tethers, and the doll=
+ar is mostly just an accounting unit for them.=C2=A0[5] When Tether got in =
+trouble with the New York attorney general for lending a lot of money to it=
+s affiliate Bitfinex after Bitfinex misplaced a bunch of customer money, I =
+made fun of it=C2=A0as a story about, as it were, traditional banking gone =
+wrong: Tether had been keeping its money in the bank but decided instead to=
+ move it into much worse dollar assets (loans to affiliates). But you can a=
+lso tell that story as =E2=80=9CTether started putting its money into a sen=
+ior claim on a Bitcoin business.=E2=80=9D And in fact Bitcoin went up, Bitf=
+inex was a good business to be in, the misplaced customer money was a drop =
+in the bucket, and (Faux writes) =E2=80=9Cin May 2019 a coalition of major =
+traders bailed out Bitfinex, investing an additional $1 billion in the busi=
+ness.=C2=A0The exchange used the money to pay back the loans to Tether Hold=
+ings.=E2=80=9D[6] The credit spread might not be entirely fixed: The loan c=
+ontract might say that your rate goes up if you are downgraded by credit ra=
+ting agencies, for instance. Or it might say that the rate goes down by a t=
+iny bit if you meet certain environmental goals. But let=E2=80=99s say=C2=
+=A0it=E2=80=99s fixed.=C2=A0[7] Regulators suggest using =E2=80=9Clong-term=
+ spread adjustments, based on historical 5-year median spreads for between =
+USD LIBOR and compounded averages of SOFR,=E2=80=9D of about 11.4 basis poi=
+nts for one-month Libor, 26.2 for three-month and 42.8 for six-month. I am =
+going to use 10 basis points and avoid getting into questions of tenor.[8] =
+To be clear, there=E2=80=99s more need for this in transitional loans that =
+are like =E2=80=9Cthis will be indexed to Libor for a while, then to SOFR.=
+=E2=80=9D There you want the rate to be Libor + Spread at first, and SOFR +=
+ Adjustment + Spread later. But for a loan like this that is always indexed=
+ to SOFR, the adjustment is basically aesthetic.=C2=A0
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cf1k14.60kz/23f5cf17.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_21103689_294359709.1633626986032
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.280691/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNTI2Njg1NiZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjU1NDc1NDcmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cB1b7f0389" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D25266856&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25547547&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 5px;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.280691/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cBe3d1670d"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.280691/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNTI2Njg1NiZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjU1NDc1NDcmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cC54cd67b5" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D25266856&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25547547&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"108" style=3D"width: 108px !important; display:block" =
+/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong> <em>Money S=
+tuff will be off tomorrow, back on Monday.</em></p><table class=3D"header" =
+width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Tether</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">A (the?) main move in finance goes lik=
+e this:</p><ol type=3D"1" style=3D"list-style-type: decimal; padding-left: =
+40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">You have a risk=
+y thing. It will be worth a lot of money in some states of the world and le=
+ss money in some other states of the world. Perhaps it will be worth $200, =
+or $100, or $50. Perhaps it is trading at $100 now.</li>=09<li style=3D"mar=
+gin-bottom: 5px;">You divide that risky thing into=C2=A0<em>junior </em>and=
+<em>=C2=A0senior</em> claims. When you find out how much the risky thing is=
+ worth, you pay off the senior claims first, and then the junior claims get=
+ whatever=E2=80=99s left. Perhaps you issue $50 of senior claims and promis=
+e to pay them back=C2=A0$50,[1] and then you issue $50 of junior claims and=
+ promise to pay them back whatever=E2=80=99s left. If the thing ends up bei=
+ng worth=C2=A0$200, the senior claims get $50 and the junior claims get $15=
+0 and triple their money; if the thing ends up being worth $50, the senior =
+claims get $50 and the junior claims get $0 and lose all their money. The j=
+unior claims are extra-risky =E2=80=94=C2=A0more risky than just the origin=
+al risky thing itself =E2=80=94=C2=A0while the senior claims are, in this h=
+ypothetical scenario, completely safe. The senior claimants put in $50 and =
+get back $50 no matter what.</li></ol><p style=3D"margin: 16px 0;">There ar=
+e variations on this move; principally, you can divide the thing into more =
+than two tranches of=C2=A0claim. (Very safe super-senior claims get paid fi=
+rst, quite safe senior claims get paid next, then somewhat risky mezzanine =
+claims, then quite risky equity claims.) Also you can compose this move: Yo=
+u can divide a bunch of things into junior and senior claims, bundle a set =
+of junior or senior claims together, and then slice that bundle into junior=
+ and senior claims.</p><p style=3D"margin: 16px 0;">Most of what happens in=
+ finance is some form of this move. And the reason for that is basically th=
+at some people want to own safe things, because they have money that they d=
+on=E2=80=99t want to lose, and other people want to own risky things, becau=
+se they have money that they want to turn into more money. If you have some=
+thing that is moderately risky, someone will buy it, but if you slice it in=
+to things that are super safe and things that are super risky,=C2=A0<em>mor=
+e=C2=A0</em>people might buy them. Financial theory <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/25266856.280691/aHR0cHM6Ly9lbi53aWtpcGVka=
+WEub3JnL3dpa2kvTW9kaWdsaWFuaSVFMiU4MCU5M01pbGxlcl90aGVvcmVt/607f07ceef4b852=
+4a319a23cBdb8c4578" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">suggests that this is impossible</a> but virt=
+ually all of financial practice disagrees.=C2=A0</p><p style=3D"margin: 16p=
+x 0;">Some examples. A=C2=A0<em>business=C2=A0</em>is a risky thing; its fu=
+ture cash flows might be high or low. It slices those cash flows into senio=
+r claims (debt) and junior claims (equity). Some people (banks, etc.) want =
+to lend the business money in exchange for a safe senior claim on its futur=
+e cash flows. Other people (venture capitalists, etc.) want to give the bus=
+iness money in exchange for a lottery ticket that it will one day be worth =
+a lot.=C2=A0</p><p style=3D"margin: 16px 0;">A <em>house</em> can go up or =
+down in value; it may end up being worth more or less than you pay for it. =
+But if you get a mortgage, your bank puts up (say) 80% of the money and has=
+ a senior claim on your house. If your house loses 19% of its value, and yo=
+u sell it, you will be sad; your down payment evaporated. But the bank will=
+ be fine.</p><p style=3D"margin: 16px 0;">Actually the bank doesn=E2=80=99t=
+ care because it has pooled a bunch of those mortgages (senior claims on ho=
+uses) into a mortgage-backed security,=C2=A0cut that security into tranches=
+ (senior claims, mezzanine claims, junior claims) and sold the tranches on =
+to investors. Perhaps some of those investors bought a bunch of mezzanine c=
+laims (junior-ish claims on a pool of senior claims on houses) and put them=
+ into a collateralized debt obligation, another kind of pool, and then sold=
+ tranches of that. Perhaps someone bought some of those tranches and put th=
+em into a CDO-squared. If you buy the senior tranche of a CDO-squared you=
+=E2=80=99re getting a senior claim (the CDO-squared tranche) on a pool (the=
+ CDO-squared)=C2=A0of junior claims (mezzanine CDO tranches) on a pool (the=
+ CDO)=C2=A0of junior claims (mezzanine mortgage-backed security tranches) o=
+n a pool (the MBS) of senior claims (mortgages) on houses.[2]=C2=A0Just com=
+posing the main move.</p><p style=3D"margin: 16px 0;">Actually the=C2=A0<em=
+>bank=C2=A0</em>itself is a composition of this move. A bank makes a bunch =
+of loans in exchange for senior claims on businesses, houses, etc. Then it =
+pools those loans together on its balance sheet and issues a bunch of diffe=
+rent claims on them. The most senior claims, classically, are =E2=80=9Cbank=
+ deposits=E2=80=9D; the most junior claims are =E2=80=9Cequity=E2=80=9D or =
+=E2=80=9Ccapital.=E2=80=9D Some people want to own a bank; they think that =
+First Bank of X is good at running its business and will grow its assets an=
+d improve its margins and its stock will be worth more in the future, so th=
+ey buy equity (shares of stock) of the bank. Other people, though, just wan=
+t to keep their money safe; they put their deposits in the First Bank of X =
+because they are confident that a dollar deposited in an account there will=
+ always be worth a dollar.</p><p style=3D"margin: 16px 0;">The fundamental =
+reason for this confidence is that bank deposits are senior claims (deposit=
+s) on a pool of senior claims (loans) on a diversified set of good assets (=
+businesses, houses). (In modern banking there are other reasons =E2=80=94=
+=C2=A0deposit insurance, etc. =E2=80=94=C2=A0but this is the=C2=A0<em>funda=
+mental=C2=A0</em>reason.) But notice that <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/25266856.280691/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+vcGluaW9uL2FydGljbGVzLzIwMTgtMDQtMTAvd2h5LWJhbmtpbmctbWFrZXMtZXZlcnlvbmUtc2=
+8tdW5jb21mb3J0YWJsZQ/607f07ceef4b8524a319a23cB3ac9ad81" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">this is mag=
+ic</a>: At one end of the process you have risky businesses, at the other e=
+nd of the process you have perfectly safe dollars. Again, this is due in pa=
+rt to deposit insurance and regulation and lenders of last resort, but it i=
+s due=C2=A0<em>mainly=C2=A0</em>to the magic of composing senior claims on =
+senior claims. You use seniority to turn risky things into safe things.</p>=
+<p style=3D"margin: 16px 0;">One more example. A share of stock is a junior=
+ claim (equity) on a business. A=C2=A0<em>margin loan=C2=A0</em>is a senior=
+ claim on a share of stock. You=E2=80=99ve got a share of stock worth $100,=
+ your broker lends you $50, you put up the other $50, if the stock doubles =
+you pay off the loan and keep $150, if the stock goes down by 50% you pay o=
+ff the loan and lose all your money. Either way the broker gets its $50 bac=
+k. Of course if the stock goes down by 90% the broker loses money. Not ever=
+y senior claim is=C2=A0<em>completely=C2=A0</em>safe. Just, safer.</p><p st=
+yle=3D"margin: 16px 0;">Okay now let=E2=80=99s do Bitcoin.</p><p style=3D"m=
+argin: 16px 0;">Bitcoin is a risky asset that lives, in some sense, in an a=
+lternate financial world. Ownership of Bitcoin is recorded on the Bitcoin b=
+lockchain, not in the records of the traditional financial system, and the =
+brokerages and exchanges and processes for trading and owning and financing=
+ Bitcoin (and cryptocurrency generally)=C2=A0tend to be separate from the o=
+nes for stocks or bonds or mortgages or whatever.</p><p style=3D"margin: 16=
+px 0;">Some people live in that alternate financial world with Bitcoin. Som=
+etimes this is because they do not live in the traditional financial world =
+at all: They are drug dealers or sanctioned autocrats or crypto utopians or=
+ dogmatic libertarians or regular people in countries with failed or repres=
+sive regimes. But sometimes they live in both worlds: They are hedge funds =
+who trade both stocks and crypto, say. Even for those people, though, it co=
+sts time and effort to switch between worlds. Sending your counterparty dol=
+lars for her Bitcoins is sort of annoying; her Bitcoins live on the blockch=
+ain, in Bitcoin-world, while your dollars live at the bank, in traditional-=
+finance-world. It is convenient to be able to stay in the crypto world.=C2=
+=A0</p><p style=3D"margin: 16px 0;">The people who live in Bitcoin world ar=
+e people like anyone else. Some of them (quite a lot of them by all account=
+s) want lots of risk: They are there to gamble; their goal is to increase t=
+heir money as much as possible. Bitcoin is volatile, but=C2=A0<em>levered <=
+/em>Bitcoin is even more volatile, and volatility is what they want.</p><p =
+style=3D"margin: 16px 0;">Others want no risk. They want to put their money=
+ into a thing worth a dollar, and be sure that no matter what they=E2=80=99=
+ll get their dollar back. But they don=E2=80=99t want to do that in a bank =
+account or whatever, because they want their dollar to live in crypto world=
+. What they want is a =E2=80=9Cstablecoin=E2=80=9D: A thing that lives on t=
+he blockchain, is easily exchangeable for Bitcoin (or other crypto assets) =
+using the tools and exchanges and brokerages and processes of crypto world,=
+ but is always worth a dollar.</p><p style=3D"margin: 16px 0;">How do you g=
+et that thing? We have <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/25266856.280691/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZX=
+JzLzIwMjEtMDYtMTYvbW9uZXktc3R1ZmYtZG9uLXQtcGF5LWdhbWJsaW5nLWRlYnRzLWJ5LWluc=
+2lkZXItdHJhZGluZw/607f07ceef4b8524a319a23cB21f2c4ee" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">talked</a> abo=
+ut <a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.280691=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDQtMjYvdG=
+hpbmdzLWdvdC13ZWlyZC1mb3Itc3RhYmxlY29pbi10ZXRoZXI/607f07ceef4b8524a319a23cB=
+b99ae60d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">stablecoins</a> a=C2=A0<a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/25266856.280691/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMTktMDYtMTgvZmFjZWJvb2std2lsbC1tYWtlLXRoZS1tb25leS1=
+ub3c/607f07ceef4b8524a319a23cB0d429260" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">lot</a> around here. Here i=
+s how I would generally describe their mechanics:=C2=A0Some company (the st=
+ablecoin issuer) acts as a bridge between the crypto world and the traditio=
+nal finance world. The issuer sells you stablecoins on the blockchain in ex=
+change for $1 from your bank account, it puts the $1 in its bank account, a=
+nd it promises to redeem the stablecoins at $1 (a dollar sent from its bank=
+ account to your bank account) if you want. The stablecoin issuer is sellin=
+g, in effect, =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/25266856.280691/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbG=
+VzLzIwMTktMDEtMDkvYmxvY2tjaGFpbi1zdG9jay1vZmZlcmluZ3MtYW5kLXN0YWJsZWNvaW5zL=
+XdpbGwtZW5oYW5jZS1jcnlwdG8/607f07ceef4b8524a319a23cBb078b84b" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">block=
+chain depositary receipts</a>=E2=80=9D on U.S. dollars kept in the traditio=
+nal financial system.[3] It says: =E2=80=9CMoving between the traditional a=
+nd crypto worlds is difficult and complicated, so let me handle that for yo=
+u.=E2=80=9D (As compensation, it generally gets to keep the interest on the=
+ money it keeps in its bank account.)</p><p style=3D"margin: 16px 0;">But t=
+here is another way, which is to apply that main move of finance to Bitcoin=
+:</p><ol type=3D"1" style=3D"list-style-type: decimal; padding-left: 40px; =
+margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">You get a bunch of Bi=
+tcoins.</li>=09<li style=3D"margin-bottom: 5px;">You slice them into junior=
+ and senior claims.</li>=09<li style=3D"margin-bottom: 5px;">You sell the j=
+unior claims to people who want levered Bitcoin: People who want margin loa=
+ns against their Bitcoins, etc., who want to gamble on Bitcoin without putt=
+ing up too much cash.</li>=09<li style=3D"margin-bottom: 5px;">You sell the=
+ senior claims as stablecoins: =E2=80=9CEven if Bitcoin drops by 50%,=E2=80=
+=9D you say, =E2=80=9Cthese coins will still be worth $1, because they are =
+backed by $2 worth of Bitcoin.=E2=80=9D</li></ol><p style=3D"margin: 16px 0=
+;">This alternative has a huge advantage over the traditional, money-in-the=
+-bank, blockchain-depositary-receipt approach to stablecoins: It is, in a s=
+ense, self-contained. You have manufactured a money-good $1 crypto claim=C2=
+=A0<em>out of pure crypto</em>, without ever going through the U.S. financi=
+al system, banks, etc. There is no nexus between this stablecoin and the tr=
+aditional financial system; regulators can=E2=80=99t shut down its access t=
+o banks because it doesn=E2=80=99t rely on banks.[4] It just takes volatile=
+ Bitcoins, does some magic to them, and spits out stablecoins worth a dolla=
+r.</p><p style=3D"margin: 16px 0;">It also has a huge disadvantage over the=
+ traditional approach, which is that Bitcoin is quite young and=C2=A0<em>ve=
+ry=C2=A0</em>volatile. Today it is trading at about $54,000. A year ago it =
+was at about $11,000. Five years ago it was at about $600. If you very cons=
+ervatively collateralized your stablecoin 20 to 1 =E2=80=94=C2=A0if you iss=
+ued just $5 worth of stablecoins for every $100 of Bitcoin securing them =
+=E2=80=94=C2=A0those stablecoins would be safe even if Bitcoin fell to $2,7=
+00, but Bitcoin was below $2,700 for much of 2017. Also, no cash flows, no=
+=C2=A0intrinsic value, blah blah blah. If Bitcoin went to zero next year th=
+is stablecoin approach would not work at all. The only way it can work is i=
+f people trust that Bitcoin=C2=A0<em>won=E2=80=99t=C2=A0</em>go to zero, if=
+ they trust it enough that =E2=80=9Cthis senior claim on Bitcoin will alway=
+s be worth a dollar=E2=80=9D is persuasive. I would say that five years ago=
+ that claim was not broadly persuasive. I would say that now it is?</p><p s=
+tyle=3D"margin: 16px 0;">So the point is that in theory you could have a Cr=
+ypto Bank that works like this:</p><ol type=3D"1" style=3D"list-style-type:=
+ decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-botto=
+m: 5px;">People who want stablecoins give it $1 million in cash U.S. dollar=
+s.</li>=09<li style=3D"margin-bottom: 5px;">It mints=C2=A0one million of it=
+s own stablecoins, promising that they=C2=A0will always be worth $1 each, a=
+nd gives those coins to the people in step 1.</li>=09<li style=3D"margin-bo=
+ttom: 5px;">People who want levered Bitcoin exposure give it $1 million in =
+cash U.S. dollars.</li>=09<li style=3D"margin-bottom: 5px;">It buys the $2 =
+million of Bitcoin with the cash and gives those Bitcoins to the people in =
+step 3, levered with a margin loan.</li></ol><p style=3D"margin: 16px 0;">I=
+f the Bitcoins lose value, the people in step 3 (the levered Bitcoin specul=
+ators) lose money, but if they don=E2=80=99t lose too much money the Crypto=
+ Bank is fine (it has a senior claim on the Bitcoins) and so the stablecoin=
+s are still worth $1 each.</p><p style=3D"margin: 16px 0;">I don=E2=80=99t =
+mean anything by the loan-to-value ratio here, by the way; possibly the peo=
+ple in step 3 should be putting up, say, $2 million for $3 million worth of=
+ Bitcoin in order to appropriately overcollateralize the stablecoins. Or pe=
+rhaps you need to compose the move: Some margin lender gives 2-to-1 leverag=
+e, but it=C2=A0<em>borrows=C2=A0</em>money (issuing a senior claim) from Cr=
+ypto Bank, which then has a bit more security. Etc.</p><p style=3D"margin: =
+16px 0;">Anyway!=C2=A0I could quote all day from <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/25266856.280691/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjEtMTAtMDcvY3J5cHRvLW15c3Rlcnktd2hlcmUtcy10aGU=
+tNjktYmlsbGlvbi1iYWNraW5nLXRoZS1zdGFibGVjb2luLXRldGhlcg/607f07ceef4b8524a31=
+9a23cB9063e9a8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> this Zeke Faux story in Bloomberg Businessweek</a>=
+ titled =E2=80=9CAnyone Seen Tether=E2=80=99s Billions,=E2=80=9D which feat=
+ures a =E2=80=9Cformer child actor who=E2=80=99d missed a penalty shot in <=
+em>The Mighty Ducks</em>,=E2=80=9D =E2=80=9Cthe <em>Inspector Gadget </em>c=
+o-creator,=E2=80=9D =E2=80=9Ca former plastic surgeon from Italy=E2=80=9D w=
+ho =E2=80=9Cwas once fined for selling counterfeit Microsoft software=E2=80=
+=9D and who =E2=80=9Cgoes by Merlinthewizard=E2=80=9D on Telegram, and a ci=
+tation to =E2=80=9Ca press release announcing a special bonus scene in the =
+2008 film <em>Young Harlots: In Detention</em>.=E2=80=9D But the density of=
+ good lines is high enough that rather than quote them here I will just sug=
+gest that you read the whole thing. It=E2=80=99s very fun!</p><p style=3D"m=
+argin: 16px 0;">We have <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/25266856.280691/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljb=
+GVzLzIwMTktMDQtMjYvdGhpbmdzLWdvdC13ZWlyZC1mb3Itc3RhYmxlY29pbi10ZXRoZXI/607f=
+07ceef4b8524a319a23cCb99ae60d" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">talked</a> about <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/25266856.280691/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMjQvdGhlLXZhY2NpbmUtaXMtbm90=
+LWEtY29tcGV0aXRpb24/607f07ceef4b8524a319a23cB7374fe5b" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">Tether</a>, =
+a leading stablecoin, before and, uh, I cannot object to Faux=E2=80=99s des=
+cription of it here:</p><blockquote><p style=3D"margin: 16px 0;">It was har=
+d to believe that people had sent $69 billion in real U.S. dollars to a com=
+pany that seemed to be practically quilted out of red flags. But every day,=
+ on cryptocurrency exchanges, traders buy and sell Tether coins as if they=
+=E2=80=99re just as good as dollars. Some days, more than $100 billion in T=
+ether changes hands. It seemed the people with the most at stake in the cry=
+pto markets trusted Tether, and I wanted to know why.=C2=A0</p></blockquote=
+><p style=3D"margin: 16px 0;">He goes on a hilarious quest to find where Te=
+ther is keeping its $69 billion and, toward the end, gets this partial but =
+very suggestive answer:</p><blockquote><p style=3D"margin: 16px 0;">After I=
+ returned to the U.S., I obtained a document showing a detailed account of =
+Tether Holdings=E2=80=99 reserves. It said they include billions of dollars=
+ of short-term loans to large Chinese companies=E2=80=94something money-mar=
+ket funds avoid. And that was before one of the country=E2=80=99s largest p=
+roperty developers, China Evergrande Group, started to collapse. I also lea=
+rned that Tether had lent billions of dollars more to other crypto companie=
+s, with Bitcoin as collateral. One of them is Celsius Network Ltd., a giant=
+ quasi-bank for cryptocurrency investors, its founder Alex Mashinsky told m=
+e. He said he pays an interest rate of 5% to 6% on $1 billion in loans from=
+ Tether. Tether has denied holding any Evergrande debt, but Hoegner, Tether=
+=E2=80=99s lawyer, declined to say whether Tether had other Chinese commerc=
+ial paper. He said the vast majority of its commercial paper has high grade=
+s from credit ratings firms, and that its secured loans are low-risk, becau=
+se borrowers have to put up Bitcoin that=E2=80=99s worth more than what the=
+y borrow. =E2=80=9CAll Tether tokens are fully backed,=E2=80=9D he said.</p=
+></blockquote><p style=3D"margin: 16px 0;">The standard story of Tether =E2=
+=80=94=C2=A0the story that Tether tells =E2=80=94=C2=A0is the one that I ha=
+ve called the =E2=80=9Cblockchain depositary receipt.=E2=80=9D Tether takes=
+ dollars, it puts them into very safe dollar-denominated traditional financ=
+e assets (bank accounts, highly rated commercial paper), and it issues stab=
+lecoins against them. If you want your dollar back, Tether basically takes =
+it out of the bank and gives it to you in exchange for your stablecoin. Eas=
+y peasy.</p><p style=3D"margin: 16px 0;">The standard objection to this sto=
+ry is that nobody can figure out where Tether actually keeps the money:</p>=
+<blockquote><p style=3D"margin: 16px 0;">Elsewhere on the website, there=E2=
+=80=99s a letter from an accounting firm stating that Tether has the reserv=
+es to back its coins, along with a pie chart showing that about $30 billion=
+ of its dollar holdings are invested in commercial paper=E2=80=94short-term=
+ loans to corporations. That would make Tether the seventh-largest holder o=
+f such debt, right up there with Charles Schwab and Vanguard Group.</p><p s=
+tyle=3D"margin: 16px 0;">To fact-check this claim, a few colleagues and I c=
+anvassed Wall Street traders to see if any had seen Tether buying anything.=
+ No one had. =E2=80=9CIt=E2=80=99s a small market with a lot of people who =
+know each other,=E2=80=9D said Deborah Cunningham, chief investment officer=
+ of global money markets at Federated Hermes, an asset management company i=
+n Pittsburgh. =E2=80=9CIf there were a new entrant, it would be usually ver=
+y obvious.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">That sort =
+of thing. In=C2=A0particular, people worry that a lot of the money=C2=A0mig=
+ht be in Chinese commercial paper that is riskier than its ratings would su=
+ggest. Why would Tether do this? Well, partly because it is somewhat diffic=
+ult for a crypto company that has had a few regulatory run-ins to put $69 b=
+illion somewhere safe and normal; some traditional counterparties might not=
+ want that business. But there is also a reaching-for-yield theory:</p><blo=
+ckquote><p style=3D"margin: 16px 0;">Tether=E2=80=99s website had long disp=
+layed a pledge: =E2=80=9CEvery Tether is always backed 1-to-1, by tradition=
+al currency held in our reserves.=E2=80=9D But, according to [Tether=E2=80=
+=99s former banker in Puerto Rico,=C2=A0John] Betts, [Tether Chief Financia=
+l Officer and former plastic surgeon Giancarlo] Devasini wanted to use thos=
+e reserves to make investments. If the $1 billion in reserves Tether said i=
+t had at the time earned returns at, say, 1% a year, that would be $10 mill=
+ion in annual profit. Betts saw this as a conflict of interest for Devasini=
+, since any investment gains would go to Devasini and his partners, but Tet=
+her holders would potentially lose everything if the investments went bad. =
+When Betts objected, Devasini accused him of stealing. =E2=80=9CGiancarlo w=
+anted a higher rate of return,=E2=80=9D Betts said. =E2=80=9CI repeatedly i=
+mplored him to be patient and do the work with auditors.=E2=80=9D</p></bloc=
+kquote><p style=3D"margin: 16px 0;">Fine, all traditional stuff. And=C2=A0<=
+em>most=C2=A0</em>of the story of Tether is in fact that it invests dollars=
+ in traditional dollar assets, and some of those assets are very safe, and=
+=C2=A0<em>maybe=C2=A0</em>some of them are a bit less safe than you=E2=80=
+=99d like and that might worry you, but it=E2=80=99s still hard to tell.</p=
+><p style=3D"margin: 16px 0;">But the part I want to talk about here is =E2=
+=80=A6=C2=A0I=E2=80=99ll quote it again:</p><blockquote><p style=3D"margin:=
+ 16px 0;">I also learned that Tether had lent billions of dollars more to o=
+ther crypto companies, with Bitcoin as collateral. One of them is Celsius N=
+etwork Ltd., a giant quasi-bank for cryptocurrency investors, its founder A=
+lex Mashinsky told me.=C2=A0=E2=80=A6 Hoegner, Tether=E2=80=99s lawyer, [sa=
+id] =E2=80=A6 that its secured loans are low-risk, because borrowers have t=
+o put up Bitcoin that=E2=80=99s worth more than what they borrow.=C2=A0</p>=
+</blockquote><p style=3D"margin: 16px 0;">There! That part! That seems to b=
+e only a=C2=A0<em>minority=C2=A0</em>of the Tether story, but it=E2=80=99s =
+the interesting part:</p><ol type=3D"1" style=3D"list-style-type: decimal; =
+padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">V=
+arious crypto =E2=80=9Cquasi-banks=E2=80=9D give people levered exposure to=
+ Bitcoin and take senior claims on their Bitcoin.</li>=09<li style=3D"margi=
+n-bottom: 5px;">Those quasi-banks borrow dollars from Tether, giving Tether=
+ a senior claim on the Bitcoins they hold.</li>=09<li style=3D"margin-botto=
+m: 5px;">Tether uses those pools of Bitcoin to back its stablecoins.[5]</li=
+></ol><p style=3D"margin: 16px 0;">Tether transmutes risky Bitcoins into ri=
+sk-free stablecoins. Or does it, ha ha ha; of course you can object to the =
+notion that anything risk-free can be extracted from Bitcoin (=E2=80=9Cit c=
+ould go to zero tomorrow!=E2=80=9D). Or you can say =E2=80=9Cwell that's fi=
+ne in theory, but for safety you need way more collateral than Tether deman=
+ds,=E2=80=9D though I have no idea how much collateral Tether actually dema=
+nds, because it doesn=E2=80=99t say.=C2=A0</p><p style=3D"margin: 16px 0;">=
+Again, I think if you told that story five years ago people would think you=
+ were nuts. =E2=80=9CNo no no,=E2=80=9D they would say, =E2=80=9Cyou can=E2=
+=80=99t manufacture safe dollar assets out of Bitcoin, Bitcoin is too volat=
+ile, there is no floor, it could go to zero, this is nonsense.=E2=80=9D I t=
+hink there is a good chance=C2=A0that if you tell that story five years fro=
+m now it will be=C2=A0<em>unremarkable</em>. =E2=80=9CYes right of course t=
+he Bank of Tether issues deposits worth one Tether and uses those deposits =
+to fund margin loans to levered Bitcoin investors, that=E2=80=99s just how =
+banking works,=E2=80=9D people will say. It is just a function of how confi=
+dent people are in Bitcoin=E2=80=99s permanence and its function as a store=
+ of value. Right now we are in between;=C2=A0the story is plausible but sti=
+ll weird. It=E2=80=99s not the story that Tether wants to tell, and it=E2=
+=80=99s not the main story of Tether. But it's the interesting part.</p><p =
+style=3D"margin: 16px 0;">This has gone on long enough but I do want to end=
+ on a couple of discussion questions:</p><ol type=3D"1" style=3D"list-style=
+-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin=
+-bottom: 5px;">Traditional financial regulators seem=C2=A0<em>very=C2=A0</e=
+m>worried about the implications of stablecoins for financial stability. (F=
+aux: =E2=80=9CIf enough traders asked for their dollars back at once, the c=
+ompany could have to liquidate its assets at a loss, setting off a run on t=
+he not-bank. The losses could cascade into the regulated financial system b=
+y crashing credit markets.=E2=80=9D) If you found out that, instead of bein=
+g backed by U.S. Treasury bills and highly-rated commercial paper of large =
+multinational companies, Tether is mostly backed by loans collateralized by=
+ Bitcoins, how would that make you feel about the threat that Tether does o=
+r does not pose to the traditional financial system?</li>=09<li style=3D"ma=
+rgin-bottom: 5px;">Same question except not about the stability of the trad=
+itional financial system, but about the stability of the=C2=A0<em>crypto=C2=
+=A0</em>financial system. If Tether=E2=80=99s always-worth-a-dollar value c=
+ame from the value of senior claims on levered Bitcoin positions, rather th=
+an from Treasury bills etc. =E2=80=94=C2=A0if the value of Tether comes in =
+essence from people=E2=80=99s confidence in the value of <em>Bitcoin</em> =
+=E2=80=94=C2=A0could a strong wind blow the whole thing over?</li></ol><tab=
+le class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D"0" =
+cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.280691/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTI2Njg1NiZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjU1NDc1NDcmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cDaa05b0e5" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25266856&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25547547&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.280691/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTI2Njg1NiZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjU1NDc1NDcmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cEaa05b0e5" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25266856&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25547547&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.280691/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTI2Njg1NiZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjU1NDc1NDcmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cFc100e84e" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25266856&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25547547&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.280691/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTI2Njg1NiZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjU1NDc1NDcmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cGc100e84e" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25266856&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25547547&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">SOFR loan</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">If you are a company and you take out =
+a loan, the loan will usually have a floating rate, and periodically the ra=
+te will reset to (1)=C2=A0Libor, the London interbank offered rate, a bench=
+mark interest rate published each day,=C2=A0<em>plus=C2=A0</em>(2) a credit=
+ spread that is fixed in the loan contract.[6] The contract might say =E2=
+=80=9Ceach quarter the interest rate will reset to 3-month Libor plus 225 b=
+asis points.=E2=80=9D That number =E2=80=94=C2=A0225 basis points, 2.25% =
+=E2=80=94=C2=A0is fixed in the contract and added to 3-month Libor every th=
+ree months; it is the credit spread. People will describe the loan=E2=80=99=
+s pricing as being =E2=80=9CL+225,=E2=80=9D Libor plus 225 basis points.=C2=
+=A0</p><p style=3D"margin: 16px 0;">If you are a company you want your cred=
+it spread to be lower rather than higher, both because it saves you money =
+=E2=80=94=C2=A0each basis point of credit spread costs you $100 of interest=
+ per year per million dollars you borrow =E2=80=94=C2=A0and also as a matte=
+r of pride. A tighter credit spread means that you are a better credit, tha=
+t lenders are more confident in you, that you are doing a better job of man=
+aging risk, etc.=C2=A0</p><p style=3D"margin: 16px 0;">Libor is going away =
+though. Libor is in theory the rate at which big banks can borrow unsecured=
+ for some specified period of time (3 months, etc.); in practice they don=
+=E2=80=99t do that much of that borrowing and they have some history of lyi=
+ng about the rates. So it is being replaced by more market-based rates. In =
+the U.S., the main replacement is SOFR, the Secured Overnight Financing Rat=
+e, which is the rate that big institutions=C2=A0pay to borrow overnight sec=
+ured by Treasury securities. (There are various ways to turn SOFR, an overn=
+ight rate, into a one- or three- or whatever-month rate, using for instance=
+ curves constructed from SOFR futures.)=C2=A0</p><p style=3D"margin: 16px 0=
+;">I=E2=80=99ve been hearing about this transition for years, but it was al=
+ways in the future. Companies kept getting loans, and they kept being index=
+ed to Libor, despite increasingly impatient talk from regulators. Now that =
+is <a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.280691=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTAtMDUvd2Fsa2=
+VyLWR1bmxvcC1nZXR0aW5nLWZpcnN0LWxldmVyYWdlZC1sb2FuLWZ1bGx5LXRpZWQtdG8tc29mc=
+g/607f07ceef4b8524a319a23cB5b94ff6a" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">finally changing</a>:</p><bloc=
+kquote><p style=3D"margin: 16px 0;">Real estate lender Walker &amp; Dunlop =
+Inc. became the first company to announce a U.S. leveraged loan sale that f=
+ully embraces regulators=E2=80=99 preferred replacement for the London inte=
+rbank offered rate, a milestone in the shift away from Libor that could fin=
+ally unleash a flood of copycats.</p><p style=3D"margin: 16px 0;">The $600 =
+million seven-year loan will be benchmarked to the Secured Overnight Financ=
+ing Rate, according to a person familiar with the matter. Libor is being ph=
+ased out because of the rigging scandal that came to light a decade ago, an=
+d SOFR is a leading candidate to fill its role.</p></blockquote><p style=3D=
+"margin: 16px 0;">Bloomberg=E2=80=99s Paula Seligson <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/25266856.280691/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTAtMDUvanBtb3JnYW4tcy1zZWFsLW9mLWFwcHJ=
+vdmFsLWdpdmVzLWh1Z2UtYm9vc3QtdG8tbGlib3ItaGVpci1zb2Zy/607f07ceef4b8524a319a=
+23cB45f40dc3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">writes</a>:</p><blockquote><p style=3D"margin: 16px 0=
+;">The announcement of a new loan offering tied to the Secured Overnight Fi=
+nancing Rate, or SOFR, is a huge moment for Wall Street. It raises hopes th=
+at the leveraged-loan market is finally making a real attempt to ditch Libo=
+r, like other parts of the financial markets -- such as derivatives and inv=
+estment-grade bonds -- where far more progress has been made over the past =
+few months, or even years.</p><p style=3D"margin: 16px 0;">The bank marketi=
+ng the loan, JPMorgan Chase &amp; Co., has enormous clout. Its embrace of S=
+OFR on behalf of a customer could finally break the logjam that=E2=80=99s p=
+revented borrowers from using SOFR -- the rate regulators want as the U.S. =
+replacement for Libor, the disgraced benchmark that can no longer be tied t=
+o new loans and other financial products sold after New Year=E2=80=99s Eve.=
+ Existing loans will be able to reference Libor through mid-2023.</p><p sty=
+le=3D"margin: 16px 0;">The deal =E2=80=9Cshould help to set a precedent and=
+ encourage other lenders to quickly move to offering more SOFR loans,=E2=80=
+=9D said Tom Wipf, chairman of the Alternative Reference Rates Committee, t=
+he Federal Reserve-backed body guiding the transition.</p><p style=3D"margi=
+n: 16px 0;">For months, finance pros have waited for SOFR deals in the $1.2=
+ trillion leveraged loan market. Instead they were met with silence, and no=
+thing to suggest the new rate was going to be battle tested in time. Now, w=
+ith Tuesday=E2=80=99s deal, there=E2=80=99s suddenly greater confidence tha=
+t other companies will step forward with similar offerings.</p></blockquote=
+><p style=3D"margin: 16px 0;">Fine. But here is a small technical problem. =
+SOFR is a bit lower than Libor: SOFR is a rate for essentially risk-free lo=
+ans secured by Treasuries, while Libor incorporates banks=E2=80=99 credit r=
+isk. =E2=80=9CRight now,=E2=80=9D <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/25266856.280691/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjEtMTAtMDYvcHJpY2luZy1sb2Fucy1vZmYtbGlib3ItaGVpci1sb29rcy1zaW=
+1wbGVyLXRoYW4tbWFya2V0LWZlYXJlZA/607f07ceef4b8524a319a23cB53459778" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>writes Seligson</a>,=C2=A0=E2=80=9Cone-month Libor is 8.6 basis points, or=
+ just 2.7 basis points above its SOFR counterpart=E2=80=9D (which is 0.059%=
+), but historically the difference has been somewhat wider. Let=E2=80=99s s=
+ay that the correct long-term difference is 10 basis points.[7] In the long=
+ run =E2=80=94=C2=A0over the course of a seven-year loan printed today =E2=
+=80=94 SOFR will average out to be 10 basis points lower than Libor.</p><p =
+style=3D"margin: 16px 0;">Meanwhile the loan is no less expensive for the b=
+ank to make, the company is no less risky, etc., just because it says =E2=
+=80=9CSOFR=E2=80=9D rather than =E2=80=9CLibor.=E2=80=9D So the pricing=C2=
+=A0of the loan should be the same. Which means that, if SOFR is 10 basis po=
+ints lower than Libor, then you need to add 10 basis points to the spread t=
+o make the pricing correct. A company that could have gotten a loan at L+22=
+5 will instead get a loan at SOFR+235. This will cost the same amount: SOFR=
+ is 10 basis points lower than Libor, so SOFR+235=C2=A0<em>equals=C2=A0</em=
+>L+225.=C2=A0</p><p style=3D"margin: 16px 0;">Except that finance is kind o=
+f dumb sometimes. If you are the treasurer of a company, you have worked ha=
+rd to get your credit spread down to 225 basis points. When a bank tells yo=
+u that now it=E2=80=99s 235, you=E2=80=99ll be mad. =E2=80=9CBut this is a =
+higher spread applied to a lower base so actually it=E2=80=99s=E2=80=94,=E2=
+=80=9D the bank starts to say, but you don=E2=80=99t want to hear it. You w=
+ant 225.</p><p style=3D"margin: 16px 0;">Meanwhile if you are an investor i=
+n loans you are looking at some spreadsheet of comparable loans, and they a=
+re all at L+225, and you see this one is at +235 and you say =E2=80=9Cthat =
+number is too high=E2=80=9D and you are flummoxed. Things are supposed to b=
+e comparable.</p><p style=3D"margin: 16px 0;">So there is lovely dumb solut=
+ion which is to put the 10 basis points somewhere else. Instead of saying "=
+the price is SOFR plus a spread,=E2=80=9D you say =E2=80=9Cthe price is SOF=
+R plus a spread plus a spread adjustment.=E2=80=9D[8]=C2=A0<a href=3D"https=
+://link.mail.bloombergbusiness.com/click/25266856.280691/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTAtMDYvcHJpY2luZy1sb2Fucy1vZmYtb=
+Glib3ItaGVpci1sb29rcy1zaW1wbGVyLXRoYW4tbWFya2V0LWZlYXJlZA/607f07ceef4b8524a=
+319a23cC53459778" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">Seligson</a>:</p><blockquote><p style=3D"margin: =
+16px 0;">Walker &amp; Dunlop will pay SOFR plus a =E2=80=9Ccredit spread ad=
+justment=E2=80=9D of 10 basis points, along with some additional interest k=
+nown as a spread that hasn=E2=80=99t yet been determined. (Investors may st=
+ill push for some changes in the terms of the deal, which is due to be sold=
+ in the middle of next week.)=C2=A0</p><p style=3D"margin: 16px 0;">The cre=
+dit spread adjustment is meant to turn SOFR into something approximating Li=
+bor, so investors and companies can see the spread and understand the loan=
+=E2=80=99s pricing quickly.=C2=A0</p></blockquote><p style=3D"margin: 16px =
+0;">Right now a lot of loans are indexed to Libor and a few (almost none, b=
+ut more are coming) are indexed to SOFR, and it would break everyone=E2=80=
+=99s brains if some companies were quoted on a spread to Libor and others w=
+ere quoted on a spread to SOFR, so instead some companies are quoted on a s=
+pread to Libor and others are quoted on a (fully comparable) =E2=80=9Csprea=
+d to SOFR, but if it were Libor.=E2=80=9D I love it.</p><p style=3D"margin:=
+ 16px 0;">If Libor does go away entirely, I assume that the =E2=80=9Ccredit=
+ spread adjustment=E2=80=9D will also go away, and companies will just get =
+loans at SOFR plus some spread and be quoted at =E2=80=9CSOFR + whatever=E2=
+=80=9D; everyone will use SOFR so everything will be comparable.=C2=A0But m=
+aybe not! Who wants to be the first company to get rid of the adjustment an=
+d have a higher nominal spread? Maybe it will persist forever as a vestigia=
+l vanity item; maybe in 30 years junior law firm associates will cut and pa=
+ste a loan agreement and ask their partner =E2=80=9Cwhy is this Credit Spre=
+ad Adjustment here=E2=80=9D and the partner will say =E2=80=9Coh, nobody kn=
+ows, that=E2=80=99s just in every loan agreement, you gotta adjust the cred=
+it spread.=E2=80=9D</p><table class=3D"liveintent-flex-ad" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.280691/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNTI2Njg1NiZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjU1NDc1NDcmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cH6934b2d6" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D25266856&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25547547&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">NFT Stuff</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">An important=C2=A0problem in finance i=
+s:</p><ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16=
+px 0;">=09<li style=3D"margin-bottom: 5px;">There are private companies.</l=
+i>=09<li style=3D"margin-bottom: 5px;">You would like to buy their stock.</=
+li>=09<li style=3D"margin-bottom: 5px;">But they=E2=80=99re=C2=A0private, s=
+o you can=E2=80=99t.=C2=A0</li></ol><p style=3D"margin: 16px 0;">There is a=
+ related problem, which is that some people are shareholders of private com=
+panies=C2=A0(employees or venture capitalists) and would like to=C2=A0<em>s=
+ell=C2=A0</em>their stock, but let us focus on the other problem because it=
+ seems more popular. Some big famous tech startup is private, you keep hear=
+ing about it, you use its products, you read that it raised money at a $40 =
+billion valuation, you expect=C2=A0that it will eventually do an initial pu=
+blic offering at an $80 billion valuation, you love it, but there is nothin=
+g you can do about it. You can=E2=80=99t buy the stock.</p><p style=3D"marg=
+in: 16px 0;">You <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+5266856.280691/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIw=
+MTktMDYtMTkvcHJpdmF0ZS1tYXJrZXRzLWNvdWxkLWJlLW1vcmUtcHVibGlj/607f07ceef4b85=
+24a319a23cBc1f179b2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> can=E2=80=99t buy the stock</a> in part beca=
+use generally only =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.=
+com/click/25266856.280691/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fyd=
+GljbGVzLzIwMTgtMDktMjQvZWFybmluZy10aGUtcmlnaHQtdG8tZ2V0LXN3aW5kbGVk/607f07c=
+eef4b8524a319a23cBee8fd0c4" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">accredited investors</a>=E2=80=9D (roug=
+hly, rich people and institutions) have access to private-company stock, bu=
+t much more importantly because there is just not much stock for sale; the =
+company occasionally sells slugs of stock to institutions in primary sales,=
+ and it gives stock to employees as compensation, but all that stock gets l=
+ocked up by transfer restrictions and isn=E2=80=99t available for anyone, a=
+ccredited or not, to buy in the stock market.</p><p style=3D"margin: 16px 0=
+;">Finance sees you there, with your problem, and finance loves to solve pr=
+oblems. And=C2=A0there have been lots of efforts to solve this one. The mai=
+n line of efforts is =E2=80=9Cwhat if we made it so you could buy the stock=
+,=E2=80=9D and so people build brokers and <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/25266856.280691/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9uZXdzL25ld3NsZXR0ZXJzLzIwMjEtMDktMTMvbW9uZXktc3R1ZmYtYm9hcmRzLWhhdmUtdG8tc=
+GF5LWF0dGVudGlvbg/607f07ceef4b8524a319a23cB34dc26cc" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">platforms</a> =
+and=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.=
+280691/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDct=
+MjMvc3BhYy1zaGFyZWhvbGRlcnMtZ2V0LWRpc3RyYWN0ZWQ/607f07ceef4b8524a319a23cB2f=
+e37f47" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">exchanges</a> for the trading of private-company shares. It=
+ is not obvious that these efforts solve any of the problems in the previou=
+s paragraph. Generally they still require buyers to be accredited, but also=
+ they rely on the shares not being subject to transfer restrictions, which,=
+ uh, they often are. But the heads of the private company exchanges can go =
+to the big private tech companies and say =E2=80=9Chey you should let us tr=
+ade your stock on our private stock exchanges=E2=80=9D and then the big pri=
+vate tech companies can say =E2=80=9Cno.=E2=80=9D=C2=A0</p><p style=3D"marg=
+in: 16px 0;">There are other approaches. One is =E2=80=9Cwhat if a big inst=
+itution bought the stock, put it in a pot, and sold you shares of the pot.=
+=E2=80=9D This can raise some technical problems, and probably=C2=A0does no=
+t solve the accredited-investor problem, but it is fine as far as it goes, =
+and there are lots of examples. (<a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/25266856.280691/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMTktMDUtMjIvbHlmdC1hbmQtdWJlci1zLXNoYXJlaG9sZGVycy13ZXJlLXN=
+0cmFuZ2Vycw/607f07ceef4b8524a319a23cBc4cee397" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">Special-purpose vehi=
+cles</a> to buy unicorn stock, or <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/25266856.280691/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMTYtMDEtMTUvdWJlci1pcy1yYWlzaW5nLW1vcmUtbW9uZXktZnJvbS1yaW=
+NoLXBlb3BsZQ/607f07ceef4b8524a319a23cB7e9a31b2" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> large bank-run fun=
+ds</a> to let their private-wealth clients get access to unicorn stock.)</p=
+><p style=3D"margin: 16px 0;">Another approach is =E2=80=9Cwhat if we sold =
+you a derivative on the stock.=E2=80=9D This is a fairly=C2=A0popular appro=
+ach; private-company employees and venture capitalists sometimes use <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/25266856.280691/aHR0cHM6=
+Ly93d3cuZmlucmEub3JnL2ludmVzdG9ycy9pbnNpZ2h0cy9ob3ctZW1wbG95ZWVzLXByaXZhdGU=
+tdGVjaC1jb21wYW5pZXMtdHJ5LWNhc2g/607f07ceef4b8524a319a23cB0d710986" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>forward sales</a> to sell their stock, in the future, to outside investors=
+. Or there are <a href=3D"https://link.mail.bloombergbusiness.com/click/252=
+66856.280691/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMT=
+ktMDQtMDQvdG9rZW4tc2FsZXMtaGF2ZS1zb21lLXJ1bGVzLW5vdw/607f07ceef4b8524a319a2=
+3cB05048e3c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> unicorn structured notes</a>? Again there are legal i=
+ssues to consider: For one thing you do not solve the accredited-investor p=
+roblem; for another thing, it is not always clear that the sellers of the f=
+orwards=C2=A0(employees, VCs) are=C2=A0<em>allowed=C2=A0</em>to enter into =
+them under the terms of their employment or shareholder agreements. But, su=
+re, a thing.</p><p style=3D"margin: 16px 0;">Another approach is =E2=80=9Cw=
+hat if we sold you a derivative on the stock, but on the blockchain.=E2=80=
+=9D This has the advantage of, like, you can pretend that it=E2=80=99s less=
+ illegal than it is, because people sometimes think that securities laws do=
+n=E2=80=99t apply on the blockchain. People don=E2=80=99t believe this as m=
+uch as they used to, but a few years ago =E2=80=9Cderivatives on private co=
+mpany stock but on the blockchain=E2=80=9D was <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/25266856.280691/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMTUtMDYtMTkvYml0Y29pbi1idWNrZXQtc2hvcC1raWNrc=
+y1idWNrZXQ/607f07ceef4b8524a319a23cB93df54eb" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> briefly sort of a th=
+ing</a>.=C2=A0</p><p style=3D"margin: 16px 0;">But =E2=80=A6=C2=A0look. Non=
+-fungible tokens are hot right now. The way a non-fungible token works is:<=
+/p><ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px =
+0;">=09<li style=3D"margin-bottom: 5px;">I create a work of art, or destroy=
+ a work of art, or make a joke, or do something else.</li>=09<li style=3D"m=
+argin-bottom: 5px;">I sell you a digital proof, enshrined permanently in an=
+ open blockchain, that you have paid me for that work of art or whatever I =
+did.</li>=09<li style=3D"margin-bottom: 5px;">That is the entire transactio=
+n: You get =E2=80=9Cownership=E2=80=9D of whatever I sold you in the form o=
+f that digital proof on the blockchain, but (in the general case) no legal =
+rights to the thing.</li></ol><p style=3D"margin: 16px 0;">Are there NFTs o=
+f the Brooklyn Bridge? You=E2=80=99d <a href=3D"https://link.mail.bloomberg=
+business.com/click/25266856.280691/aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tLzIwMjEv=
+My8yMi8yMjM0NDU1Ni9qb2huLWNsZWVzZS1tb250eS1weXRob24tbmZ0LWJyb29rbHluLWJyaWR=
+nZQ/607f07ceef4b8524a319a23cB080a2703" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">better</a> <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/25266856.280691/aHR0cHM6Ly93d3cuY29=
+pbmRlc2suY29tL21hcmtldHMvMjAyMS8wMy8xNS90aGUtYnJvb2tseW4tYnJpZGdlLWlzLWFjdH=
+VhbGx5LWZvci1zYWxlLWFuLW5mdC1vZi1pdC1hbnl3YXkv/607f07ceef4b8524a319a23cB5c4=
+267c4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">believe</a> it. What do you get when you buy an NFT of the B=
+rooklyn Bridge? You get proof, on a blockchain, that you bought the NFT of =
+the Brooklyn Bridge. What is that worth to you? Very little really, because=
+ if you buy a Brooklyn Bridge NFT it is uncomfortably clear that you are be=
+ing made fun of. With other NFTs it=E2=80=99s a bit less clear!</p><p style=
+=3D"margin: 16px 0;">What I propose is UnicornCoin:</p><ol style=3D"list-st=
+yle-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"mar=
+gin-bottom: 5px;">There=E2=80=99s some hot giant tech startup, Unicorn Inc.=
+, that gets a lot of buzz and raises money at a $40 billion valuation.</li>=
+=09<li style=3D"margin-bottom: 5px;">I mint 40 billion UnicornCoins.</li>=
+=09<li style=3D"margin-bottom: 5px;">=E2=80=9CAs Unicorn Inc. goes up in va=
+lue, each UnicornCoin will also gain value, I guess, whatever,=E2=80=9D I s=
+ay.</li>=09<li style=3D"margin-bottom: 5px;">You buy UnicornCoins.</li>=09<=
+li style=3D"margin-bottom: 5px;">Unicorn Inc. announces new cool things.</l=
+i>=09<li style=3D"margin-bottom: 5px;">People notice that and UnicornCoin g=
+oes up.</li>=09<li style=3D"margin-bottom: 5px;">The system works.</li>=09<=
+li style=3D"margin-bottom: 5px;">Unicorn Inc. goes public at an $80 billion=
+ valuation.</li>=09<li style=3D"margin-bottom: 5px;">Has the price of Unico=
+rnCoin doubled? Man, I have no idea, none of this is anything, but does it=
+=C2=A0<em>feel=C2=A0</em>like something?</li></ol><p style=3D"margin: 16px =
+0;">I confess that I am inspired by NFTs, and I guess by Tether, but also b=
+y <a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.280691/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMDYvd2h=
+5LW5vdC10cmFkZS1hbGwtbmlnaHQ/607f07ceef4b8524a319a23cBee8182da" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> th=
+e SHIB cryptocurrency</a>, which, through the awesome power of pure nonsens=
+e, seems to track something like =E2=80=9Chow much attention are people onl=
+ine paying to Elon Musk getting a Shiba Inu?=E2=80=9D When Musk tweets abou=
+t getting a Shiba Inu dog, SHIB goes up. Is it worth more?=C2=A0Is there a =
+robust arbitrage mechanism to ensure that the price of SHIB tracks the cute=
+ness of Musk=E2=80=99s Shiba Inu? Does SHIB confer any ownership rights to =
+Musk=E2=80=99s dog? Are there cash flows from the dog that are securitized =
+into SHIB? No, absolutely not, it is nothing, it is a pure online joke, but=
+ when Musk tweets about his Shiba Inu people are like =E2=80=9Coh I remembe=
+r that there=E2=80=99s an online joke token=C2=A0about this=E2=80=9D and th=
+ey buy SHIB and it goes up. It has a market capitalization of $10 billion. =
+It=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/25266=
+856.280691/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTAt=
+MDYvc2hpYmEtaW51LWNyeXB0by11cC0yMTYtaW4tYS13ZWVrLXdpdGgtc29tZS1oZWxwLWZyb20=
+tbXVzaw/607f07ceef4b8524a319a23cB718f130b" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> up 216%</a> this week b=
+ecause of a Musk tweet. This isn=E2=80=99t my fault! I don=E2=80=99t make t=
+his stuff up! This is a real thing that is happening!</p><p style=3D"margin=
+: 16px 0;">All I am saying is that if I sold you a crypto token that was ca=
+lled =E2=80=9CStripeCoin=E2=80=9D and I said =E2=80=9Cthis is a token on th=
+e stock of Stripe=E2=80=9D you might say =E2=80=94=C2=A0because you are rea=
+ding Money Stuff, etc. =E2=80=94=C2=A0you might say =E2=80=9Cwait how is th=
+e value of the token linked to the value of Stripe=E2=80=9D and I would say=
+ =E2=80=9Chahahaha it absolutely isn=E2=80=99t.=E2=80=9D But my hypothesis =
+is that not everyone is as skeptical and literal-minded as you are, and som=
+e people would just go buy StripeCoin=C2=A0when they had nice thoughts abou=
+t Stripe and sell StripeCoin=C2=A0when they had sad thoughts about Stripe a=
+nd buy a whole lot of StripeCoin=C2=A0when Stripe went public,=C2=A0and it =
+would at least directionally end up being a sort of a proxy for Stripe stoc=
+k. And everyone would get what they came for, which is a convenient way to =
+gamble on people=E2=80=99s feelings about Stripe.=C2=A0</p><p style=3D"marg=
+in: 16px 0;">Anyway <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/25266856.280691/aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS8yMDIxLzEwLzA2L2ZhbnRhc3ktZ=
+XF1aXR5LW5mdC1nYW1lLXdhbnRzLXlvdS10by1zcGVuZC1yZWFsLW1vbmV5LWJ1eWluZy1mYWtl=
+LXNoYXJlcy1vZi1yZWFsLXN0YXJ0dXBzLw/607f07ceef4b8524a319a23cB11954da3" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">here=E2=80=99s a much more complicated thing</a>:</p><blockquote><p styl=
+e=3D"margin: 16px 0;">The meme-ification of ownership and the wild accelera=
+tion of private startup valuations have led us to this moment where a forme=
+r VC firm associate has built a crypto marketplace designed for =E2=80=9Cfa=
+ntasy startup investing,=E2=80=9D where users spend real money buying fake=
+=C2=A0shares =E2=80=94 in NFT form, of course =E2=80=94 of real startups.</=
+p><p style=3D"margin: 16px 0;">The game, which launches out of closed beta =
+today, is called Visionrare and founders Jacob Claerhout and Boris Gordts s=
+ee a way to take the gamification of investing to its furthest end, mimicki=
+ng the appeal of fantasy sports leagues and giving users a way to compete w=
+ith friends by betting on startups they think will be successful. Users can=
+ bid on NFT shares of hundreds of different startups at auction and compete=
+ to build the best performing fake portfolio. =E2=80=A6</p><p style=3D"marg=
+in: 16px 0;">The game aims to simplify the complexity of venture capital in=
+ an auction format that=E2=80=99s tied to the actual fundraising cycles of =
+the startups and their real world performance. Visionrare auctions off 100 =
+serialized =E2=80=9CVisionShares=E2=80=9D per funding round, one at a time =
+for each startup, with bids starting at $5. Once a user accumulates a certa=
+in number of shares (at least five) they can join a league and compete with=
+ other users through a fantasy-like experience, moving up and down a leader=
+board while competing for a share of the collective value of the VisionShar=
+es based on the performance of their own portfolio.</p></blockquote><p styl=
+e=3D"margin: 16px 0;">No, boo, I don=E2=80=99t care about this, dream bigge=
+r and dumber.</p><table class=3D"header" width=3D"100%" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Hedge funds cash in as <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/25266856.280691/aHR0cHM6Ly93d3cuZ=
+nQuY29tL2NvbnRlbnQvZWQxMWM5NzEtYmUwMi00N2RjLTg3NWItOTA3NjJiMzUwODBl/607f07c=
+eef4b8524a319a23cB7a074c44" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">green investors</a> dump energy stocks.=
+ China=E2=80=99s Central Bank Governor Vows to Continue <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/25266856.280691/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTAtMDcvY2hpbmEtcy1jZW50cmFsLWJhbmst=
+Z292ZXJub3Itdm93cy10by1jb250aW51ZS1maW50ZWNoLWNyYWNrZG93bg/607f07ceef4b8524=
+a319a23cB76219fff" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">Fintech Crackdown</a>.=C2=A0Holders of Evergrand=
+e-Linked <a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.=
+280691/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTAtMDcv=
+aG9sZGVycy1vZi1ldmVyZ3JhbmRlLWxpbmtlZC1qdW1iby1mb3J0dW5lLWJvbmQteWV0LXRvLWJ=
+lLXBhaWQ/607f07ceef4b8524a319a23cBee8e4ade" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">Jumbo Fortune</a> Bond =
+Yet to Be Paid.=C2=A0 Cathie Wood=E2=80=99s New York Exit Spotlights Overlo=
+oked <a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.2806=
+91/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTAtMDcvY2F0=
+aGllLXdvb2Qtcy1uZXcteW9yay1leGl0LXNwb3RsaWdodHMtb3Zlcmxvb2tlZC1mbG9yaWRhLXJ=
+lZ2lvbg/607f07ceef4b8524a319a23cBf61001b6" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Florida Region</a>. How =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.280691/aH=
+R0cHM6Ly93d3cucmV1dGVycy5jb20vaW52ZXN0aWdhdGVzL3NwZWNpYWwtcmVwb3J0L3VzYS1vb=
+mVhbWVyaWNhLWF0dC8/607f07ceef4b8524a319a23cB90bf5204" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">AT&amp;T</a> =
+helped build far-right One America News.=C2=A0Twitch Hack Reveals How Much =
+Revenue the Platform=E2=80=99s <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/25266856.280691/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90d2l0Y2=
+gtc3VmZmVycy1kYXRhLWJyZWFjaC1kaXZ1bGdpbmctaG93LW11Y2gtcmV2ZW51ZS1pdHMtYmlnZ=
+2VzdC1zdHJlYW1lcnMtbWFrZS0xMTYzMzUzNjE2Nz9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f0=
+7ceef4b8524a319a23cB7e81e329" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">Biggest Streamers</a> Make. Coffee <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/25266856.280691/aHR0=
+cHM6Ly90d2l0dGVyLmNvbS9BTFNlY0NvbW1pc3Npb24vc3RhdHVzLzE0NDU0Mjk4NzgxNjYyNzQ=
+wNjA/607f07ceef4b8524a319a23cBefd87e2c" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">costs $8 a cup</a> in Alaba=
+ma?</p><p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consum=
+er-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy emai=
+l form, right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/25266856.280691/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdi=
+dXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2Z=
+mY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB95b39b75" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">subscribe at this link</a>. Or you can subscribe to=
+ Money Stuff and other great Bloomberg newsletters <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/25266856.280691/aHR0cHM6Ly9sb2dpbi5ibG9vbW=
+JlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB797fc5f8" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em><=
+/span></p><p style=3D"margin: 16px 0;">=C2=A0</p><p style=3D"margin: 16px 0=
+;"><em>[1] Or, like, $52, because they will want to earn some interest, but=
+ never mind that now.</em></p><p style=3D"margin: 16px 0;"><em>[2] This par=
+ticular sequence of moves is frowned upon since the 2008 financial crisis b=
+ut it is I think a helpful illustration.=C2=A0</em></p><p style=3D"margin: =
+16px 0;"><em>[3] We have also talked a bit about =E2=80=9Calgorithmic stabl=
+ecoins,=E2=80=9D which for our purposes here are <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/25266856.280691/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjEtMDYtMTcvbW9uZXktc3R1ZmYtdGl0YW5pdW0tZ29=
+0LWNydXNoZWQ/607f07ceef4b8524a319a23cB132ecffe" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">largely nonsense th=
+at don=E2=80=99t work</a>, so I do not plan to discuss them further except =
+to say that, viewed at a certain angle, they are related to the=C2=A0method=
+ that I discuss next in the text. It is a question of emphasis. An algorith=
+mic stablecoin that automatically mints and burns its own self-created equi=
+ty token to keep its senior stablecoin token at $1 is, generally speaking, =
+likely to be nonsense. An algorithmic stablecoin that automatically market-=
+makes between a greatly overcollateralized pool of Bitcoin and its own seni=
+or $1 stablecoin is more or less what I describe next, which is not *quite*=
+ nonsense.</em></p><p style=3D"margin: 16px 0;"><em>[4] This is exaggerated=
+ in practice; you will want some way to send a dollar to the stablecoin iss=
+uer to get back the stablecoin, etc. But in some bootstrapped sense it is t=
+rue; plenty of people trade Bitcoins for Tether without ever converting Tet=
+her into dollars or dollars into Tether. They own Tethers, and the dollar i=
+s mostly just an accounting unit for them.=C2=A0</em></p><p style=3D"margin=
+: 16px 0;"><em>[5] When Tether got in trouble with the New York attorney ge=
+neral for lending a lot of money to its affiliate Bitfinex after Bitfinex m=
+isplaced a bunch of customer money, I <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/25266856.280691/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMTktMDQtMjYvdGhpbmdzLWdvdC13ZWlyZC1mb3Itc3RhYmxlY29pbi=
+10ZXRoZXI/607f07ceef4b8524a319a23cDb99ae60d" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">made fun of it</a>=C2=
+=A0as a story about, as it were, traditional banking gone wrong: Tether had=
+ been keeping its money in the bank but decided instead to move it into muc=
+h worse dollar assets (loans to affiliates). But you can also tell that sto=
+ry as =E2=80=9CTether started putting its money into a senior claim on a Bi=
+tcoin business.=E2=80=9D And in fact Bitcoin went up, Bitfinex was a good b=
+usiness to be in, the misplaced customer money was a drop in the bucket, an=
+d (Faux writes) =E2=80=9Cin May 2019 a coalition of major traders bailed ou=
+t Bitfinex, investing an additional $1 billion in the business.=C2=A0The ex=
+change used the money to pay back the loans to Tether Holdings.=E2=80=9D</e=
+m></p><p style=3D"margin: 16px 0;"><em>[6] The credit spread might not be e=
+ntirely fixed: The loan contract might say that your rate goes up if you ar=
+e downgraded by credit rating agencies, for instance. Or it might say that =
+the rate <a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.=
+280691/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDkt=
+MDgvbGVuZGluZy1iaXRjb2lucy1pcy10cmlja3k/607f07ceef4b8524a319a23cB804c37bd" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">goes down by a tiny bit</a> if you meet certain environmental goals=
+. But let=E2=80=99s say=C2=A0it=E2=80=99s fixed.=C2=A0</em></p><p style=3D"=
+margin: 16px 0;"><em>[7] Regulators <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/25266856.280691/aHR0cHM6Ly93d3cubmV3eW9ya2ZlZC5vcmcvbWVka=
+WFsaWJyYXJ5L01pY3Jvc2l0ZXMvYXJyYy9maWxlcy8yMDIxL3NwcmVhZC1hZGp1c3RtZW50cy1u=
+YXJyYXRpdmUtb2N0LTYtMjAyMQ/607f07ceef4b8524a319a23cB97921e7f" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">sugge=
+st</a> using =E2=80=9Clong-term spread adjustments, based on historical 5-y=
+ear median spreads for between USD LIBOR and compounded averages of SOFR,=
+=E2=80=9D of about 11.4 basis points for one-month Libor, 26.2 for three-mo=
+nth and 42.8 for six-month. I am going to use 10 basis points and avoid get=
+ting into questions of tenor.</em></p><p style=3D"margin: 16px 0;"><em>[8] =
+To be clear, there=E2=80=99s more need for this in transitional loans that =
+are like =E2=80=9Cthis will be indexed to Libor for a while, then to SOFR.=
+=E2=80=9D There you want the rate to be Libor + Spread at first, and SOFR +=
+ Adjustment + Spread later. But for a loan like this that is always indexed=
+ to SOFR, the adjustment is basically aesthetic.=C2=A0</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.280691/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB7fc6b850" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.280691/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB9c99dfeb" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.280691/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB5088d023" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.280691/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBadc91b89" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.280691/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNTI2Njg1NiZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjU1NDc1NDcmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cI98e4bccb" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D25266856&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25547547&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2526685=
+6.280691/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBe86169c3" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25266856.280691/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCc1eec679" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25266856.280691/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB4d424d45" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25266856.280691/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB6dfdd6ff" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.280691/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB2=
+88f43f1" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25266856.280691/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBd=
+ab12cee" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D252668=
+56&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25547547&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D252668=
+56&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25547547&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D252668=
+56&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25547547&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D252668=
+56&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25547547&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D252668=
+56&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25547547&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cf1k14.60kz/23f5cf17.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_21103689_294359709.1633626986032--
+

@@ -1,0 +1,2205 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a0c:e6a4:0:b0:6a3:58d6:a1ad with SMTP id j4csp1109960qvn;
+        Thu, 16 May 2024 10:25:12 -0700 (PDT)
+X-Forwarded-Encrypted: i=5; AJvYcCWFKTqvEqcRpqpiJl96yay56lRolgXUpFRq+fAoK0kaX+dXveCUnwyaNJv7/Wy7UzO8ig+0Kp6m3aW5SgOpOoH4
+X-Received: by 2002:a19:5f5a:0:b0:51e:1146:16fd with SMTP id 2adb3069b0e04-5220fb768c0mr13248951e87.9.1715880311788;
+        Thu, 16 May 2024 10:25:11 -0700 (PDT)
+ARC-Seal: i=4; a=rsa-sha256; t=1715880311; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=T3F9Q6fAaDX4ilSjAYiW4v9u9qdjhWvT1zK1W+YjRG48o7rD3BcWnKNfXbdATXlNIm
+         oqYPy3BWBr4Z1/YqwcuBBSqo2VpdIzIvlnT4mjuRk+2qiLl34lcXP/rd16EdFkcrU8Xw
+         rIs9hi2I5+LBI6umYGPGjRqriioW7K4IC8ZanIN9Dvlr9YEjDw8u48HxhGj0nRkH/e0J
+         N/wTUqh2ji8IsQkI58pqbuLxYeDEHQ88roOfJr2rVqg3cBapc0wqyE1O+ss7eTEslw2P
+         dnl6Mrs0qa1MrW+LMdcx0yWTiFk/bvY2DvRMqae4TZpoXrSJJKx2ftUWjlQnNzxPl0hU
+         u2Mg==
+ARC-Message-Signature: i=4; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:dkim-signature:delivered-to;
+        bh=sQznKNt+TeXgxK7mCuMw9XEIjASrbfQyYNf66OJDSIs=;
+        fh=giQITBSESN+mxLvm9ThCcwVLut11fda2SvKYeckEMho=;
+        b=iTvQT6G32Iumn1tAaj88f/Lwr1FZOz4FNT2MbZ4kLAYlK/inieX3clgR0/4tMTq49X
+         Zrq7gMQjHXrZ9UUmIscfuWeHGgFEKGV0Jd7z+AbdUWpO2AdUCrN+TQ5OtFZBmwRxnZkJ
+         3Dn5Oog9/jhfLF1ejd1K6sPMIMwTksEMIkZljHMuVV4yubQLwaBvnJVF/8vHOWwOwdfH
+         UNMpSePTuEdmsfCGtRbjuG0Ru89QXKI/CdkyBe3eA0KoK7TfHTSV272X6T92jOHmar9K
+         fVbV/dXO9WYER90LRi/hm3bQR96aQ6FEIcwvSbTS8oFIZa1xCD9o6G3rB1YK/T7Rxs9z
+         ITAQ==;
+        dara=google.com
+ARC-Authentication-Results: i=4; mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=pUH95KXn;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=cJ5VzuiF;
+       arc=pass (i=3 spf=pass spfdomain=khamel.com dkim=pass dkdomain=khamel.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 5b1f17b1804b1-41fce524003sor46953935e9.7.2024.05.16.10.25.11
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 16 May 2024 10:25:11 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=pUH95KXn;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=cJ5VzuiF;
+       arc=pass (i=3 spf=pass spfdomain=khamel.com dkim=pass dkdomain=khamel.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+ARC-Seal: i=3; a=rsa-sha256; t=1715880311; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=ZiHY+fvpmpTKOIH2qDDm1etKwDP+lZR+VVya4i4xHxx7sPh8yTSETkv1sYhECmiBuv
+         ktT36994xqJNo6rgYfuxCwBwTnDF5g1mrn5AsJHY6WalPfBcU4hENpF+IPW7c/a28ElV
+         nwkkHQHX3BH8hNnKCeA8vpNMlJdTTlMCcMfASXnoAtC4NTGFwECa1ypNNghHUh+un1xw
+         nEt39HYsKrYyv6NYzcFvLVGIrtKLz+SH67zPdBL/aJgoUbhuGSGyDyAoN7SrOelHyhLo
+         WfPvByQEG645GYCDnZ8F8gikcvv7Gf/9glnM6d89CPQufYo6S5nzj4cmn6dzg4EGDTJi
+         nTRg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:dkim-signature:delivered-to;
+        bh=sQznKNt+TeXgxK7mCuMw9XEIjASrbfQyYNf66OJDSIs=;
+        fh=giQITBSESN+mxLvm9ThCcwVLut11fda2SvKYeckEMho=;
+        b=RybgUBd/1syIw6zebWe2MiR5DSz5dGwUkccjtUgRVo/NYGzFSXiqTpVgJhRNUGNnMv
+         v0hxtn55UavO+eYFPdC10bFfS30J5D+dXwOfU/9G00bJt7cV19/526eSwcts/I1ddgjc
+         e7dzUrqOz2/tXkakSyN2poVoxuk5ogeauhNj+K5xXvsnbN+0mMVhzwfHIYbn5Yk9WV/Z
+         QF5U8PFCQxCtwe/r2lsDFU7qgL1KyZVLNTAyGc9lRg0fm2JvIQqlOVULvj2wHxCYW3F5
+         OdcT7alenI8doPPjHDvTchR4EPF8+Eck5PYq0tOinAAP74RR1YIrB60+JfMeZIvMN6Rl
+         QT0w==;
+        dara=google.com
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=pUH95KXn;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=cJ5VzuiF;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com designates 209.61.151.227 as permitted sender) smtp.mailfrom="bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1715880311; x=1716485111;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:dkim-signature:delivered-to:x-forwarded-for
+         :x-forwarded-to:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=sQznKNt+TeXgxK7mCuMw9XEIjASrbfQyYNf66OJDSIs=;
+        b=w4vR3qZSi4sIF0vynfux3NdSed297y9GxPlQWhhzzVVgqtVjzsJcsDifim1VHJ8LCa
+         r6kjpPdQnqH6pdss09VMS45cj7JGvxMyNPJCcD+/K2tJBObKw38e9nGeTOgeb40MWBOR
+         0q8NYmzMpUVfrzBJghvzArsgaVuwtqOjg2zjx0HtGTT5QHvefu+p2ZxQSq4hdmH3PknJ
+         ORGBso7A12wGRNrbsio7bZ1c4WLvaqtHdNd6WuGYQyW6nvsEEaok6IL4N7SPqjUTuZgj
+         DsOjQOUNXMD91GAXfrDS/Z3+eh2Y6XsH68iR76NXHFhk/OUlfYGwH4g9aH0fi7njFdUS
+         Ojcw==
+X-Forwarded-Encrypted: i=3; AJvYcCX1iav+wPEYcvLWDWg11NfxncTZagVwF9xpiJ7E59LzbahrF358Gn9JYqlxwkfprXB1vBD3l05GubuWJ72Vyoq2
+X-Gm-Message-State: AOJu0YxxVwuWaR2GDOWv7vHV4WhC6KyXb5zUuaD+PbMdMwB8Vl7Pv700
+	QvHqEx/TAlXt6sR7nSCDkX2ozWcnCkR5R48q8Ch272z7GP8vo07y84jQ4ViCID5w1+vvL51OMZP
+	a2UE7aynj022OyFOHZpZw21WpZkre13o1ovqP/f6CuAeb/USFUrcvF6J5mQ==
+X-Received: by 2002:a05:600c:1e15:b0:420:2986:cce1 with SMTP id 5b1f17b1804b1-4202986d034mr20396195e9.32.1715880311253;
+        Thu, 16 May 2024 10:25:11 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:6250:0:b0:34d:5e0e:2f0e with SMTP id m16csp3379381wrv;
+        Thu, 16 May 2024 10:25:07 -0700 (PDT)
+X-Forwarded-Encrypted: i=3; AJvYcCXoCqOjMDnNogy7NoX8PIGdSwcMvLujVBEBokv30tGzJhN68YWgPwzh/HE+LWUtO5Qc6hkNqigUDXli6ECb7zbiaf4=
+X-Google-Smtp-Source: AGHT+IHeen/J/faWAPu0wc73mg8x4PYkQeRLlFSWLYezkGxPOnI0YTANe5pW4elHJzZCKJf4DdCZ
+X-Received: by 2002:a05:6830:3297:b0:6f1:1b18:7442 with SMTP id 46e09a7af769-6f11b18769amr8029811a34.17.1715880306997;
+        Thu, 16 May 2024 10:25:06 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1715880306; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Uhp4e34/9jUz+pkpD6tm2BGTue6wAgvblPxIjoveBNVytFyaGwnkdOVaiVaateuwJX
+         kF3cn39yerv6boLrzR3fLf/l4dddqXGjmbCbjPX+yrDvJ5MItZdwJyhuHjwTp6/WoWli
+         xXhqPxp7S+o+qs11gO1HiF6kFHavhz0qOK9WUc2HXV76phcgNawKTuhTV3D448By4lqI
+         D/7ONpMlW1iDMyUv9RI3+GAfm7jL/BhiqLxww8RFg+ANlIuSjjzY/koCSicx42pXc+r1
+         0yBsPGZ6vGqERlG7vRP5YDQKdrbNaBDQ6rWX+9ehcBntWmcSPyGSQuvttY2UvdnzYCiO
+         emUg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:dkim-signature;
+        bh=sQznKNt+TeXgxK7mCuMw9XEIjASrbfQyYNf66OJDSIs=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=0y/OfIbYnWJBcZy0GSr1DJZEZ5z5pExiLhfbnkPk1nSpZMsY0kndYHCzpZDpgM+afl
+         Sx9HEy0a/vjaOK8WrRsjj9eZ/VlVMxoKXclTgheO8eLWN6SAThazHttm9rBhKwKBKpJ8
+         /3z3jPNTTtuJuPvOtogVPCvz6cr3gchGGSPrZZeCOTlGccqgAGgP7BJg/9eDLnsZMwtf
+         0gdpZpPGdg0y/2LO4lR2OT94r1wQ/TTB4qxkSW8+ybU9RJbxhZz/8cUaZm8/OUCfWhA5
+         0OrqZncBlckcwTMc9Y4gOdrSt55oqVuyetxUwIyH+DamY7HqI+0jNA1KIs3c/R05GEzD
+         WRrg==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=pUH95KXn;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=cJ5VzuiF;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com designates 209.61.151.227 as permitted sender) smtp.mailfrom="bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com>
+Received: from rs227.mailgun.us (rs227.mailgun.us. [209.61.151.227])
+        by mx.google.com with UTF8SMTPS id 46e09a7af769-6f0e5e4ed1dsi5678148a34.48.2024.05.16.10.25.06
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 16 May 2024 10:25:06 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com designates 209.61.151.227 as permitted sender) client-ip=209.61.151.227;
+ARC-Seal: i=1; cv=none; a=rsa-sha256; d=mailgun.org; s=mg; t=1715880306;
+ b=JFN8ThQY5kV8STXnti1ZeaHuSwugchScJ/Mj+mR5INqw5oTtzvckJC4IrUQlzxDfpix45ZR0bUBqsKzw/hkb2/T9d1ittKXFPyhPYMTu7jqDjsMEyXG6t9DP3/zv+pIUPMB7GMWCXJL7A1jmfIfu1quggJbaJhxS2MQNPjPtYA8=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=mailgun.org; s=mg; t=1715880306;
+ h=List-Unsubscribe: X-Feedback-ID: Content-Type: MIME-Version: Subject: Subject: Message-ID: To: To: From: From: Date: X-Feedback-Id: Sender: DKIM-Signature: DKIM-Signature;
+ bh=sQznKNt+TeXgxK7mCuMw9XEIjASrbfQyYNf66OJDSIs=;
+ b=Z08JBgRVLQjLMCgNQZg0KHVz98b65HYFO01YwfAjQx9O1aL2BbwEOuqCoqZkjP3Q5J3gdeJsITUczF6KduZOePyAtgaFaHCHbK5JVOdPqx8CMzxE90qaqEuBvVSQEw0IFHePN+qou0GDN89bVIvKsQlUQ9M7wgWuYNJYTRPDPRs=
+ARC-Authentication-Results: i=1; mailgun.org;
+ dkim=pass header.d=mail.bloombergview.com header.s=sailthru header.b=cJ5VzuiF;
+ spf=pass (domain mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom="delivery_20240516132506.35403556.256337@mx.sailthru.com";
+ dmarc=pass (dkim=pass domain=mail.bloombergview.com) header.from=mail.bloombergview.com;
+ arc=none
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=khamel.com; q=dns/txt; s=pic; t=1715880306; x=1715887506;
+ h=List-Unsubscribe: X-Feedback-ID: Content-Type: MIME-Version: Subject: Subject: Message-ID: To: To: From: From: Date: X-Feedback-Id: Sender;
+ bh=sQznKNt+TeXgxK7mCuMw9XEIjASrbfQyYNf66OJDSIs=;
+ b=pUH95KXnIwkUANnTglELRwEIkuLbQFR+RtZxJkRkU4IJPA27fAPJGi1ges/A30LtGbBeVV0jN1+rPGbE0DuvY/Rism+BxEGTEzLttepHis8cbxGEdhiA9XTz7SlHS2Rb+Zoxb/VrotGljZHkYEcg2tePcVWDzfdjatA0RsHiBgU=
+X-Feedback-Id: delivery_20240516132506.35403556.256337@mx.sailthru.com::663d69d519aae0348c93b932:mailgun
+X-Mailgun-Sending-Ip: 209.61.151.227
+Received: from pmta29.sailthru.com (pmta29.sailthru.com [192.64.237.222]) by
+ 7c6e15088294 with SMTP id 66464172d14ec851c77dde45 (version=TLS1.3,
+ cipher=TLS_AES_128_GCM_SHA256); Thu, 16 May 2024 17:25:06 GMT
+Received: from pmta29.sailthru.com (pmta29.sailthru.com [192.64.237.222]) by
+ 7c6e15088294 with SMTP id <undefined> (version=TLS1.3,
+ cipher=TLS_AES_128_GCM_SHA256); Thu, 16 May 2024 17:25:06 GMT
+X-Envelope-From: delivery_20240516132506.35403556.256337@mx.sailthru.com
+X-Mailgun-Incoming: Yes
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=iegs1l2ROg29GAIOaYEsWa+b/7r/00ZUsiero9ZU/Jw=;
+ b=cJ5VzuiFlDSGqkPsgu3KgqBWxrNUOGdaJoZRkl8gQMEUfsheL4X2DtlO81wc5hEQjzNrWugTGcKo
+   foF9YJO3YZq8XpmiXXYR9PCdNhzSke9KE2/PrAPgFbcRmWpGHer2JVlnSIRiDNyhQh8rgXq+ztnq
+   sm6Nb0V4t1wEf+F+3mg=
+Received: from aws1-mta-relay6.sailthru.cloud (10.55.61.156) by pmta29.sailthru.com id h8p0n43791s3 for <bloomberg@khamel.com>; Thu, 16 May 2024 12:25:06 -0500 (envelope-from <delivery_20240516132506.35403556.256337@mx.sailthru.com>)
+Date: Thu, 16 May 2024 13:25:06 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20240516132506.35403556.256337@sailthru.com>
+Subject: Money Stuff: Crypto Brothers Front-Ran the Front-Runners
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_64320767_1837121694.1715880306170"
+Precedence: bulk
+x-job: 6358-35403556-20240516
+X-Feedback-ID: 6358:35403556:campaign:sailthru
+X-TM-ID: 20240516132506.35403556.256337
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: aws-campaign-mailer-19.sailthru.cloud
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cl2tk4.5hsh/7178d709
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cl2tk4.5hsh/7178d709>,<mailto:unsubscribe_20240516132506.35403556.256337@mx.sailthru.com>
+X-rpcampaign: stjko35403556
+
+------=_Part_64320767_1837121694.1715880306170
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Sometimes there are profitable trades, but not that often. Sometime=
+s someone is looking to sell 100 widgets at $20 on the American Widget Ex
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      MEV spoof
+   =20
+ =20
+
+Sometimes there are profitable trades, but not that often. Sometimes someon=
+e is looking to sell=C2=A0100 widgets=C2=A0at $20 on the American Widget Ex=
+change, and someone else is looking=C2=A0to buy 100 widgets for $21 on the =
+National Widget Exchange. And so you=C2=A0can buy on the AWE and sell on th=
+e NWE and make an instant $100 profit. But only=C2=A0one=C2=A0person can do=
+ that. Once you buy on the AWE and sell=C2=A0on the NWE, the window is clos=
+ed.
+Who gets to do the trade? The most intuitive answer, in most cases, is =E2=
+=80=9Cwhoever does it first.=E2=80=9D If you see the same thing trading for=
+ two different prices on two different exchanges, and I don=E2=80=99t, and =
+you send in the orders to the exchanges before me, then you do the trade an=
+d I don=E2=80=99t. For most human-scale trades, this makes sense and is eas=
+y to administer and feels basically fair.
+The US stock market mostly does not operate at human time scales, and there=
+ these intuitions break down. In the stock market, often, one algorithm spo=
+ts=C2=A0trade opportunities a microsecond before another algorithm, and peo=
+ple get mad about that. They worry that this microsecond-scale competition =
+between algorithms is socially wasteful, and they worry that it is unfair t=
+o people with worse algorithms. They think =E2=80=9Cyes, fine, the first pe=
+rson to see a trade should get to do it,=C2=A0within reason, but there=E2=
+=80=99s no social benefit to slicing it that fine.=E2=80=9D They propose th=
+ings like =E2=80=9Cfrequent batch auctions,=E2=80=9D where everyone who see=
+s the same trade within (say) a second of each other gets to compete on pri=
+ce=C2=A0to do it, rather than competing on=C2=A0time=C2=A0down to the micro=
+second.=C2=A0
+Crypto, however, has a different problem. Time in electronic stock markets =
+is maybe=C2=A0too continuous; the timeline of a stock exchange can be slice=
+d much more finely than the human brain can comprehend. But time in crypto =
+is oddly discrete. Time in crypto is measured in=C2=A0blocks. Intuitively, =
+people submit=C2=A0orders to do transactions on a crypto blockchain, and th=
+en periodically a batch of those transactions is=C2=A0enshrined in the offi=
+cial ledger of that blockchain. In Bitcoin, a block contains roughly 10 min=
+utes=E2=80=99 worth of transactions; in Ethereum, it=E2=80=99s seconds.
+So intuitively, Ethereum transactions happen in big simultaneous bunches ev=
+ery 12 seconds. But the bunches can=E2=80=99t really be simultaneous: If th=
+ere is one rare nonfungible token for sale, and two people want to buy it, =
+only one of them can. One transaction has to be first. So the transactions =
+within a block are=C2=A0ordered; they happen in sequence. But they are not =
+necessarily ordered by=C2=A0time.
+How does the blockchain decide which transactions to record, and in what or=
+der? In Ethereum, the answer is: with money.=C2=A0People who want to do tra=
+nsactions on the Ethereum network pay fees to execute the transactions; the=
+re is a flat base fee, but people can also bid more =E2=80=94=C2=A0a =E2=80=
+=9Cpriority fee=E2=80=9D or =E2=80=9Ctip=E2=80=9D =E2=80=94=C2=A0to get the=
+ir transactions executed quickly. Every 12 seconds, some computer on the Et=
+hereum network is selected to record the transactions in a block. This comp=
+uter used to be called a =E2=80=9Cminer,=E2=80=9D but in current proof-of-s=
+take Ethereum blocks are recorded by computers called =E2=80=9Cvalidators.=
+=E2=80=9D Each block is compiled by one validator, selected more or less at=
+ random, called a =E2=80=9Cproposer=E2=80=9D; the other validators vote to =
+accept the block. The validators share the transaction fees, with the block=
+ proposer getting more than the other validators.
+The block proposer will naturally prioritize the transactions that pay more=
+ fees, because then it will get more money. And, again, the validators are =
+all computers; they will be programmed=C2=A0to select the transactions that=
+ pay them the most money. And in fact there is a division of labor in moder=
+n Ethereum, where a computer called a =E2=80=9Cblock builder=E2=80=9D puts =
+together a list of transactions that will pay the most money to the validat=
+ors, and then the block proposer proposes a block with that list so it can =
+get paid.
+And so if you see 100 widget tokens trading for $20 on one Ethereum decentr=
+alized exchange, and 100 widget tokens trading for $21 on another Ethereum =
+decentralized exchange, you can buy them at $20 each and sell them for $21 =
+each and make $100. But if I=C2=A0also=C2=A0see that arbitrage, I will=C2=
+=A0also=C2=A0put in those orders. Which of our trades will execute first? W=
+hoever pays more in execution fees. How much should I offer to pay? Oh, you=
+ know, it=E2=80=99s a competitive auction. So roughly $99. The validators s=
+hould get most of the money from the arbitrage. This is called =E2=80=9CMEV=
+,=E2=80=9D for =E2=80=9Cminer extractable value,=E2=80=9D though now Ethere=
+um doesn=E2=80=99t have miners and the acronym stands much less informative=
+ly for =E2=80=9Cmaximal extractable value.=E2=80=9D
+What are the chances that both of us discovered the same arbitrage within 1=
+2 seconds of each other? Well, pretty good, in a competitive market with a =
+lot of arbitrageurs. But also, traditionally, when we want=C2=A0to do these=
+ transactions, we submit=C2=A0our orders=C2=A0publicly=C2=A0to the Ethereum=
+ network. (To the =E2=80=9Cmempool,=E2=80=9D the name given to the place wh=
+ere orders reside before they are included in a block.) Everyone can see th=
+e mempool. So if you are a clever speedy arbitrageur, watching a bunch of d=
+ecentralized exchanges for mispricings, you might see a=C2=A0mispricing and=
+ submit=C2=A0your arbitrage orders. And if=C2=A0I am a clever speedy=C2=A0f=
+ront-runner, watching the mempool for arbitrage trades, I would submit the =
+same trades a second or two after you, and pay more to execute them. And th=
+en I=C2=A0get to do the arbitrage and you don=E2=80=99t.
+But if I am a clever speedy front-runner, I don=E2=80=99t even have to wait=
+ for arbitrage trades. Let=E2=80=99s say you are not a clever arbitrageur, =
+but just a person who really likes the Shiba Inu token on the Ethereum bloc=
+kchain. You submit a huge order to buy SHIB on a decentralized exchange. Th=
+at will, quite predictably, push up the price of SHIB.
+  [1]
+=C2=A0If I see that order, I can just jump ahead of it: I can pay a bit mor=
+e in transaction fees to get my trades to execute first, and then I can buy=
+ the SHIB tokens ahead of you and then=C2=A0sell=C2=A0them to you for a pro=
+fit, all within the same block.
+That seems kind of rough on you? This sort of trade is sometimes called a =
+=E2=80=9Csandwich attack=E2=80=9D: I see your order to buy SHIB, and I sand=
+wich it between my order to buy SHIB (before you do, at a lower price) and =
+my order to sell SHIB (after you do, at a higher price). And people talk ab=
+out =E2=80=9Cgeneralized front running=E2=80=9D as a strategy:
+A generalized front-runner bot=C2=A0will search the mempool for profitable =
+transactions, then copy the transaction and replace the sender address with=
+ their own, then increase their bid (gas price) to price + x to be included=
+ in a block first front running the original searcher.
+I am giving a simplistic and somewhat old-fashioned description of MEV, and=
+ modern Ethereum has a whole, like, institutional structure around it. Ther=
+e are private mempools, where you can hide transactions from bots. There is=
+ Flashbots, =E2=80=9Ca research and development organization formed to miti=
+gate the negative externalities posed by Maximal Extractable Value (MEV) to=
+ stateful blockchains, starting with Ethereum,=E2=80=9D which has things li=
+ke MEV-Boost, which creates =E2=80=9Ca competitive block-building market=E2=
+=80=9D where validators can =E2=80=9Cmaximize their staking reward by selli=
+ng their blockspace to an open market,=E2=80=9D and MEV-Share, =E2=80=9Can =
+open-source protocol for users, wallets, and applications to internalize th=
+e MEV that their transactions create,=E2=80=9D letting them =E2=80=9Cselect=
+ively share data about their transactions with searchers who bid to include=
+ the transactions in bundles=E2=80=9D and get paid.=C2=A0
+Basically, transaction data on Ethereum is informative, and the value of th=
+at information (in making profitable trades) is quantifiable, and=C2=A0ther=
+e are cutthroat auctions among people who want to use that data to make the=
+ir own trades, and the people doing the transactions that create the data c=
+an themselves get paid for their data.=C2=A0
+There is a sort of cool purity to this. In stock markets, some people are f=
+aster than others, and can make money by trading ahead of a big order,
+  [2]
+=C2=A0and people get mad about this and think it is unfair and propose solu=
+tions. And when money changes hands for speed advantages =E2=80=94=C2=A0=E2=
+=80=9Cpayment for order flow,=E2=80=9D =E2=80=9Ccolocation=E2=80=9D =E2=80=
+=94=C2=A0people complain about corruption. In crypto it=E2=80=99s like =E2=
+=80=9Clet=E2=80=99s create an efficient market in trading ahead of big orde=
+rs.=E2=80=9D I once wrote: =E2=80=9CRather than solve this concern about tr=
+aditional markets, crypto made it explicit.=E2=80=9D That feels almost like=
+ a general philosophy of crypto: Take the problems of traditional finance a=
+nd make them,=C2=A0worse, sure, but more transparent and visible and explic=
+it and subject to unbridled free markets.
+In traditional financial markets, people sometimes get in trouble for =E2=
+=80=9Cspoofing,=E2=80=9D for submitting trade orders designed to fool peopl=
+e (algorithms) about their true trading intent. Every so often,=C2=A0the sp=
+oofer=E2=80=99s defense will be =E2=80=9Cno, all these algorithms are tryin=
+g to front-run me, they are trying to use my order information to make mone=
+y by trading ahead of me. So I created fake order information to fool them.=
+ I=E2=80=99m the hero in this story; the bots trying to front-run me are th=
+e villains.=E2=80=9D This tends not to work.
+Here, maybe, is the crypto version of that.=C2=A0Bloomberg=E2=80=99s Ava Be=
+nny-Morrison reports:
+
+Two brothers who studied at MIT were charged with exploiting a weakness in =
+the Ethereum blockchain and stealing $25 million in 12 seconds, in what pro=
+secutors called a first-of-its-kind caper.
+Anton Peraire-Bueno, 24, and James Peraire-Bueno, 28, were charged by feder=
+al prosecutors in Manhattan with fraud and money laundering offenses. They =
+are accused of carrying out the lightning-fast heist, plotted over the cour=
+se of months, from their keyboards last year.
+=E2=80=9CThe brothers, who studied computer science and math at one of the =
+most prestigious universities in the world, allegedly used their specialize=
+d skills and education to tamper with and manipulate the protocols relied u=
+pon by millions of Ethereum users across the globe,=E2=80=9D Damian William=
+s, the US attorney for the Southern District of New York, said in a stateme=
+nt.
+
+Here are the Justice Department press release and the indictment. The gist =
+of it is that, allegedly:
+=09The brothers=C2=A0set up =E2=80=9Ca series of Ethereum validators=E2=80=
+=9D so they could build blocks on the Ethereum blockchain.=09The =E2=80=9Ct=
+argeted three Victim Traders, =E2=80=A6=C2=A0who are searchers who operate =
+MEV Bots that specialize in cryptocurrency arbitrage trading.=E2=80=9D They=
+ =E2=80=9Ctested a series of bait transactions=E2=80=9D to see how the arbi=
+trageurs operated.=09Then, =E2=80=9Cafter receiving notification that one o=
+f their 16 Validators had been selected to validate a new block,=E2=80=9D t=
+hey proposed =E2=80=9Cat least eight specific transactions (the =E2=80=98Lu=
+re Transactions=E2=80=99)=E2=80=9D that they knew the arbitrageurs would li=
+ke.=09Specifically, transactions that the arbitrageurs would like to front-=
+run: =E2=80=9CThe Victim Traders effectively bought substantial amounts of =
+particular illiquid currencies (the frontrun trades), whose price the Victi=
+m Traders expected to increase as a result of the Lure Transactions, for ap=
+proximately $25 million of various stablecoins =E2=80=A6=C2=A0or other more=
+ liquid cryptocurrencies. The Victim Traders also included a sell transacti=
+on in each bundle, whereby the Victim Traders would sell their newly acquir=
+ed cryptocurrency =E2=80=94=C2=A0immediately after the Lure Transaction =E2=
+=80=94=C2=A0at a higher price than what they bought it for.=E2=80=9D It was=
+ a sandwich trade: The arbitrageurs saw the Peraire-Bueno=E2=80=99s =E2=80=
+=9Clure=E2=80=9D trades, which involved buying a bunch of illiquid crypto, =
+and they front-ran them by buying the illiquid crypto before them and selli=
+ng it after them.=09But then they=C2=A0exploited a bug in Ethereum to get t=
+he full contents of the proposed block and to tamper with it by (1) =E2=80=
+=9Callow[ing] the Victim Traders to complete their buy transactions (i.e., =
+their frontrun trades)=E2=80=9D and=C2=A0(2) =E2=80=9Creplac[ing] the Lure =
+Transactions with tampered transactions=E2=80=9D in which they =E2=80=9Csol=
+d the same illiquid cryptocurrencies that the Victim Traders had recently p=
+urchased,=E2=80=9D and which they apparently already held.
+  [3]
+
+=09That is, they front-ran and spoofed the front-runners: They put in a big=
+ order saying =E2=80=9Cbuy a ton of [some nonsense tokens],=E2=80=9D front-=
+running bots said =E2=80=9Cooh, big bid for nonsense tokens, let=E2=80=99s =
+get ahead of that,=E2=80=9D and the front-running bots bought the nonsense =
+tokens ahead of them. But then they tampered with the transactions to repla=
+ce their own buy order with a sell order,=C2=A0selling=C2=A0the nonsense to=
+kens =E2=80=94=C2=A0effectively, to=C2=A0the front-runners =E2=80=94 at inf=
+lated prices for $25 million. =E2=80=9CIn effect, the Tampered Transactions=
+ drained the particular liquidity pools of all the cryptocurrency that the =
+Victim Traders had deposited based on their frontrun trades.=E2=80=9D
+
+Now. Is this =E2=80=A6=C2=A0bad? Sure, I guess. In Step 5, the Peraire-Buen=
+os do seem to have exploited a real vulnerability in how Ethereum=E2=80=99s=
+ consensus mechanism worked. I do not pretend to fully understand the techn=
+ical details, but here is a Flashbots postmortem of the exploit. (They sent=
+ a signed but invalid block header to the relay, which caused the relay to =
+publish=C2=A0the contents of the proposed block, which they used to constru=
+ct their own block exploiting those contents as the proposer of the block.)=
+ The Justice Department calls it =E2=80=9Can alleged=C2=A0novel scheme by t=
+he defendants to exploit the very integrity of the Ethereum blockchain,=E2=
+=80=9D and that seems right: If people can reach in to alter the order of t=
+ransactions to swipe $25 million, that does sort of undermine the integrity=
+ of the blockchain.
+Also they did some bad googling. Before they did the trade, Anton Peraire-B=
+ueno allegedly =E2=80=9Csearched online for cryptocurrency exchanges with l=
+imited =E2=80=98know your customer=E2=80=99 protocols and ways to launder c=
+ryptocurrency, including searches for =E2=80=98how to wash crypto=E2=80=99 =
+and =E2=80=98cefi exchanges with no kyc.=E2=80=99=E2=80=9D
+  [4]
+ And after the trade, as they were allegedly =E2=80=9Claundering the fraud =
+proceeds from the Exploit,=E2=80=9D James Peraire-Bueno allegedly =E2=80=9C=
+searched online for, among other things, =E2=80=98money laundering,=E2=80=
+=99 =E2=80=98exploit,=E2=80=99 =E2=80=98computer fraud abuse act,=E2=80=99
+  [5]
+ and =E2=80=98does the united states extradite to [foreign country].=E2=80=
+=99=E2=80=9D The Justice Department, reasonably, cites these searches as ev=
+idence of a guilty conscience. Also though I wonder how well they worked? L=
+ike, has anyone ever (1) acquired $25 million of ill-gotten money, (2) goog=
+led =E2=80=9Cmoney laundering=E2=80=9D and (3) successfully used to results=
+ to launder the money? On the other hand I bet googling =E2=80=9Ccefi excha=
+nges with no kyc=E2=80=9D works great; really exchanges should pay a lot fo=
+r those keywords.
+But to me what is wild about this case is that the Justice Department is br=
+inging down the full weight of US federal criminal law to protect Ethereum =
+front-running bots. The word =E2=80=9Cfront-run=E2=80=9D is right there in =
+the indictment! The Justice Department has a long=C2=A0history of prosecuti=
+ng people for front-running! Because it is traditionally a crime! In tradit=
+ional finance, =E2=80=9Cfront-running=E2=80=9D is understood to mean violat=
+ing a fiduciary duty to your customers (or employer, etc.) by trading ahead=
+ of their orders, and it is=C2=A0a crime.
+  [6]
+
+But here the Justice Department is protecting the front-runners. And the tr=
+ades that the Victim Traders were trying to do look, to the naked eye, bad?=
+ They were =E2=80=9Cwe see you are trying to buy this illiquid cryptocurren=
+cy, so we=E2=80=99re going to buy it ahead of you so we can rip you off.=E2=
+=80=9D In Ethereum, that is pretty normal, and there is a large institution=
+al structure to make it work in a predictable and fair-ish way. But in trad=
+itional markets it just seems bad.
+We have talked a few times about Avi Eisenberg, the crypto trader arrested =
+(and convicted) for fraud because he did some market manipulation on a dece=
+ntralized crypto exchange. He absolutely did do that manipulation, but his =
+defense =E2=80=94=C2=A0which did not work =E2=80=94=C2=A0was that the crypt=
+o exchange did not have any norms=C2=A0against=C2=A0it. What he did was all=
+owed by the exchange=E2=80=99s code, he argued, so it was allowed. External=
+ norms like =E2=80=9Cdon=E2=80=99t do market manipulation=E2=80=9D did not =
+apply.=C2=A0
+This is controversial, and a lot of people in and out of crypto have compla=
+ints of the form =E2=80=9Clook, if decentralized finance exchanges do not w=
+ant to be subject to US regulation, why does the federal government need to=
+ protect them from market manipulators?=E2=80=9D I am sympathetic to those =
+complaints.
+But here! I mean! Ethereum and its decentralized exchanges have a market st=
+ructure that is like =E2=80=9Cbots can look at your transactions and front-=
+run them if that=E2=80=99s profitable.=E2=80=9D And these guys, allegedly, =
+front-ran the front-runners; they turned the market structure around so tha=
+t=C2=A0they=C2=A0could get an early look at the front-running bots=E2=80=99=
+ front-running transactions and front-run them instead. By=C2=A0hacking, su=
+re, sure, it=E2=80=99s=C2=A0bad. But it leaves the Justice Department in th=
+e odd position of saying that the integrity of crypto front-running is impo=
+rtant and must be defended.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Rare sats
+   =20
+ =20
+
+Crudely speaking there are two sorts of crypto tokens. There are=C2=A0fungi=
+ble=C2=A0tokens, like Bitcoin and Ether and Tether and Solana, which have a=
+pproximately cash-like properties: If a thing costs two=C2=A0Bitcoins, it d=
+oesn=E2=80=99t matter=C2=A0which two Bitcoins you use to pay for it; any tw=
+o Bitcoins are just as good as any other two Bitcoins. And there are=C2=A0n=
+onfungible=C2=A0tokens, NFTs, like Bored Ape Yacht Club, which have approxi=
+mately art-object-like properties: Each Bored Ape is different, and some =
+=E2=80=94=C2=A0based on their rarity or aesthetics or provenance =E2=80=94=
+=C2=A0are worth much more than others.
+Intuitively, fungible tokens are indistinguishable coins, while NFTs are un=
+ique images. But=C2=A0really=C2=A0neither of those things is true.=C2=A0Rea=
+lly they are both entries in detailed permanent transaction ledgers. An NFT=
+, for example,=C2=A0isn=E2=80=99t=C2=A0the little drawing of the monkey; th=
+e NFT is simply a numbered entry in a ledger that points to the drawing of =
+the monkey. I once wrote that =E2=80=9Can NFT consists of a series of numbe=
+red tokens, and the thing that makes it an NFT is that it has a different n=
+umber in its tokenId field from the other tokens in its series.=E2=80=9D=C2=
+=A0
+Meanwhile a fungible token like Bitcoin is=C2=A0not=C2=A0a numbered entry i=
+n a ledger; there is such a thing as =E2=80=9CBored Ape Number 3=E2=80=9D b=
+ut there is no such thing as =E2=80=9CBitcoin Number 3.=E2=80=9D But there =
+is a permanent immutable computer ledger containing every Bitcoin transacti=
+on, which means that you=C2=A0could, sort of, trace the ledger back to find=
+ what the third Bitcoin was and who holds it now.
+  [7]
+
+More generally, you could, if you wanted to, treat Bitcoins as completely n=
+onfungible. You could trace back the history of any Bitcoin, or fraction of=
+ a Bitcoin. And then you could say things like:
+=09=E2=80=9CI am willing to pay more for old=C2=A0Bitcoins, ones that were =
+mined in like 2009, than I will for new Bitcoins, ones that were only mined=
+ in 2024.=E2=80=9D=09=E2=80=9CI am willing to pay more for Bitcoins with co=
+ol provenance, like ones that were once owned by Satoshi Nakamoto=C2=A0or u=
+sed to pay for the 2010 Bitcoin Pizza, than I will for regular old Bitcoins=
+ with no fun history.=E2=80=9D=C2=A0=09=E2=80=9CI am willing to pay=C2=A0le=
+ss=C2=A0for Bitcoins with a troubled regulatory history, like the ones that=
+ were stolen in the Bitfinex hack, than I will for Bitcoins with a clean re=
+gulatory history.=E2=80=9D
+
+Bitcoins are fungible simply because it is standard convention among Bitcoi=
+n users to=C2=A0treat=C2=A0them as fungible, but they are=C2=A0distinguisha=
+ble from one another, and if=C2=A0you wanted to discriminate among Bitcoins=
+ you=C2=A0could. People mostly don=E2=80=99t, but the last thing on that li=
+st =E2=80=94=C2=A0=E2=80=9Ctry not to accept=C2=A0Bitcoins that have been s=
+tolen or are otherwise of interest to US law enforcement=E2=80=9D =E2=80=94=
+=C2=A0does=C2=A0have some traction. Some Bitcoins really=C2=A0are=C2=A0less=
+ valuable than others.
+And some are more. Here is a delightful story from Joel Khalili at Wired:
+In the same way a dollar is made up of 100 cents, one bitcoin is composed o=
+f 100 million satoshis=E2=80=94or sats, for short. But not all sats are mad=
+e equal. Those produced in the year bitcoin was created are considered vint=
+age, like a fine wine. Other coveted sats were part of transactions made by=
+ bitcoin=E2=80=99s inventor. Some correspond with a particular transaction =
+milestone. These and various other properties make some sats more scarce th=
+an others=E2=80=94and therefore more valuable. The very rarest can sell for=
+ tens of millions of times their face value; in April, a single sat, normal=
+ly worth $0.0006, sold for $2.1 million.
+There are two interesting points here. One is simply the existence of =E2=
+=80=9Crare sats=E2=80=9D: To at least some =E2=80=A6=C2=A0Bitcoin collector=
+s? =E2=80=A6=C2=A0some satoshis are worth more than others, due to their hi=
+story or provenance.=C2=A0
+The other is that, while some Bitcoin enthusiasts value rare sats highly an=
+d will pay a lot for them, others just cheerily assume=C2=A0that Bitcoin is=
+ a fungible currency. And so there is a trade:
+[Bill]=C2=A0Restey is part of a small, tight-knit band of hunters trying to=
+ root out these rare sats, which are scattered across the bitcoin network. =
+They do this by depositing batches of bitcoin with a crypto exchange, then =
+withdrawing the same amount=E2=80=94a little like depositing cash with a ba=
+nk teller and immediately taking it out again from the ATM outside. The coi=
+ns they receive in return are not the same they deposited, giving them a fr=
+esh stash through which to sift. They rinse and repeat.
+If you deposit one Bitcoin on a crypto exchange and then withdraw it, you w=
+ill get one Bitcoin. But you will not get the same Bitcoin you put in. The =
+exchange will say =E2=80=9Cehh Bitcoins are Bitcoins, it doesn=E2=80=99t ma=
+tter.=E2=80=9D But you might disagree.
+
+ =20
+   =20
+      Super =E2=80=A6=C2=A0users =E2=80=A6 ?
+   =20
+ =20
+
+Some companies post their earnings releases every quarter on their website =
+with a URL format like =E2=80=9Cxyzcorp.com/investorrelations/earnings_2023=
+q4.html.=E2=80=9D And they put out a press release earlier saying, like, =
+=E2=80=9Cwe will release our first-quarter earnings after the close of trad=
+ing at 4:05=C2=A0p.m. on May 16.=E2=80=9D And then at 4:05 p.m. they send t=
+he earnings release to the business wires. Ideally, also at 4:05 p.m., they=
+ upload the earnings to their website. But it is not=C2=A0absolutely unhear=
+d-of=C2=A0for a company to upload the earnings to the website a bit early, =
+but not tell anyone until 4:05. And so it is not absolutely unheard-of for =
+hedge fund analysts to figure out the URL format of a company=E2=80=99s ear=
+nings releases and point their browser to =E2=80=9Cxyzcorp.com/investorrela=
+tions/earnings_2024q1.html=E2=80=9D=C2=A0at, like, 3:45 p.m. Most of the ti=
+me, this turns up nothing. Occasionally, early earnings!
+I mean, I should say, this is a thing I have heard of. In 2024, it=E2=80=99=
+s reasonably well-known, and many companies try not to post their earnings =
+early on easily guessed web pages, so it=E2=80=99s not clear that it=E2=80=
+=99s worth looking.
+  [8]
+ Probably some companies still do this, but you cannot really rely on syste=
+matic widespread URL guessing as a source of edge. You=E2=80=99re not going=
+ to get rich by typing URLs into a browser 15 minutes before earnings are d=
+ue.
+And so=C2=A0here=E2=80=99s this:
+
+The US Bureau of Labor Statistics inadvertently published Consumer Price In=
+dex data 30 minutes early on Wednesday, raising fresh questions about how t=
+he agency releases some of the world=E2=80=99s most sensitive economic info=
+rmation.
+While there were no obvious signs that the early publication moved markets,=
+ the episode is likely to prompt a close look at the dissemination of data =
+that has implications for global asset prices and Federal Reserve policy.
+=E2=80=9CIn advance of today=E2=80=99s CPI and Real Earnings releases, BLS =
+inadvertently loaded a subset of files to the website approximately 30 minu=
+tes prior to the release,=E2=80=9D the agency said in a statement posted on=
+ its website Wednesday evening. =E2=80=A6
+US stock-index futures jumped and Treasury yields fell immediately after me=
+dia outlets including Bloomberg News reported the official CPI data at 8:30=
+ a.m., with the S&P 500 Index ending the day at an all-time high. There wer=
+e no sharp market movements in the half-hour stretch between the early data=
+ release and the scheduled one, suggesting the initial figures went unnotic=
+ed by investors.
+
+Here is the statement, which is vague about what subset of files it was. Pe=
+rhaps they were not the market-moving files. Or perhaps they were, and they=
+ sat on the website, but nobody was looking, because what were the chances =
+they would have found something?
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Dow 40,000. With a BlackRock CEO, $9 Trillion Vanguard Braces for Turbulenc=
+e. LME Warehouse Queue Returns After Jump in Aluminum Orders.=C2=A0Starwood=
+=E2=80=99s $10bn property fund taps credit line as investors pull money. Wa=
+rren Buffett=E2=80=99s Berkshire Reveals Its Mystery Stock: Chubb. Paramoun=
+t: the takeover battle that could reshape Hollywood.=C2=A0Top-Ranking Lende=
+rs See Diminishing Recoveries in Bankruptcy. How Coinbase Is Seeking to Eas=
+e Crypto=E2=80=99s Credit Crunch.=C2=A0Europe=E2=80=99s Banks Find Breaking=
+ Up With Russia Is Hard to Do. Billionaire Frank McCourt Plans Bid for TikT=
+ok in U.S.=C2=A0=E2=80=98Finfluencers=E2=80=99 charged for promoting unauth=
+orised trading scheme.=C2=A0Milei Targets Labor Law That=E2=80=99s Set to H=
+and Banker $10 Million Severance.=C2=A0Raccoon pitch invader caught with a =
+trash can during Philadelphia Union-NYCFC match.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Especially because crypto DEXes generally run mechanically so the pri=
+ce impact of a transaction is quite knowable.
+
+
+  [2] Do not email me about this, which is not the point. =E2=80=9CProbabil=
+istically make money by trading sort of in the middle of the execution of w=
+hat they identify as a big order,=E2=80=9D maybe.
+
+
+  [3] =E2=80=9CWhich the defendants already held as a result of information=
+ gathered through the bait transactions,=E2=80=9D says the indictment. Pres=
+umably the intuition is like: You buy some illiquid crypto slowly over time=
+, not moving the price. Then you send a big order to buy a lot of it, which=
+ gets front-runners interested. Then you pull it away.
+
+
+  [4] This trade relies on two sorts of exchanges, DeFi (decentralized fina=
+nce) DEXes (decentralized exchanges) and CeFi (centralized finance) exchang=
+es. The actual $25 million trade here has to happen *on the blockchain*, be=
+cause that is where they are spoofing and tampering with transaction orderi=
+ng; DEXes are where you trade crypto on the blockchain. But then getting th=
+e $25 million out requires a company that can wire money to your bank, and =
+that is a centralized exchange. So he searched for CeFi exchanges to be the=
+ on -and off-ramp for the trade, which they did on decentralized exchanges.
+
+
+  [5] In fact they are charged with wire fraud, not with hacking under the =
+CFAA, but it was probably reasonable to worry about getting charged with ha=
+cking too. But the lesson is probably that wire fraud is more general than =
+CFAA hacking =E2=80=94 everything is wire fraud! =E2=80=94 so it=E2=80=99s =
+the easier thing to charge.=20
+
+
+  [6] Of course, it is often used loosely to mean =E2=80=9Cusing order book=
+ data to try to trade faster than someone else,=E2=80=9D which is not tradi=
+tional front-running and not a crime. And that=E2=80=99s mostly the meaning=
+ in the indictment here.
+
+
+  [7] In actual fact the first 50 Bitcoins were minted all at once, and tha=
+t set of Bitcoins, according to Blockchain.com, =E2=80=9Cis unredeemable, a=
+s it was omitted from the transaction database. This means any attempt to s=
+pend it would be rejected by the network. Whether this was intentional or n=
+ot still remains unknown.=E2=80=9D Also I am being a little loose with term=
+inology here; there is not such a thing as =E2=80=9Ca Bitcoin,=E2=80=9D but=
+ rather any amount of Bitcoin that you get is the residue of various prior =
+transactions that can be traced back in time to when batches of Bitcoin wer=
+e mined. It=E2=80=99s not like individual coins have passed from hand to ha=
+nd, but the Bitcoins in your account reflect the history of the transaction=
+s that brought them there.
+
+
+  [8] Also there is, in the US, some risk that prosecutors might treat gues=
+sing URLs as illegal hacking? And thus, perhaps, also insider trading?
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cl2tk4.5hsh/7a20d972.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_64320767_1837121694.1715880306170
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Sometimes there are profitable trades, but not that often. Sometimes someon=
+e is looking to sell 100 widgets at $20 on the American Widget Ex
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35403556.256337/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNTE2MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDA1MTYmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB322207d2"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35403556.256337/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zNTQwMzU1NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzU2NTk4OTMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB5a20e8c7" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D35403556&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D35659893&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">MEV spoof</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Sometimes there are profitable trades, but not=
+ that often. Sometimes someone is looking to sell=C2=A0100 widgets=C2=A0at =
+$20 on the American Widget Exchange, and someone else is looking=C2=A0to bu=
+y 100 widgets for $21 on the National Widget Exchange. And so you=C2=A0can =
+buy on the AWE and sell on the NWE and make an instant $100 profit. But onl=
+y=C2=A0<em>one=C2=A0</em>person can do that. Once you buy on the AWE and se=
+ll=C2=A0on the NWE, the window is closed.</p>
+<p style=3D"margin: 16px 0;">Who gets to do the trade? The most intuitive a=
+nswer, in most cases, is =E2=80=9Cwhoever does it first.=E2=80=9D If you se=
+e the same thing trading for two different prices on two different exchange=
+s, and I don=E2=80=99t, and you send in the orders to the exchanges before =
+me, then you do the trade and I don=E2=80=99t. For most human-scale trades,=
+ this makes sense and is easy to administer and feels basically fair.</p>
+<p style=3D"margin: 16px 0;">The US stock market mostly does not operate at=
+ human time scales, and there <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/35403556.256337/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS92aWV3L2FydGl=
+jbGVzLzIwMTgtMDctMDIvd2FsbC1zdHJlZXQtaXMtc2hhcnBlbmluZy1vdXItbmFub3NlY29uZH=
+M_Y21waWQ9QkJEMDUxNjI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlP=
+W5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwNTE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07c=
+eef4b8524a319a23cB918bb945" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">these intuitions break down</a>. In the=
+ stock market, often, one algorithm spots=C2=A0trade opportunities a micros=
+econd before another algorithm, and people get mad about that. They worry t=
+hat this microsecond-scale competition between algorithms is socially waste=
+ful, and <a href=3D"https://link.mail.bloombergbusiness.com/click/35403556.=
+256337/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvRmxhc2hfQm95cw/607f07ceef4b8=
+524a319a23cB9bc748e5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">they worry</a> that it is unfair to people wi=
+th worse algorithms. They think =E2=80=9Cyes, fine, the first person to see=
+ a trade should get to do it,=C2=A0<em>within reason</em>, but there=E2=80=
+=99s no social benefit to slicing it that fine.=E2=80=9D They propose thing=
+s like =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/35=
+403556.256337/aHR0cHM6Ly9hY2FkZW1pYy5vdXAuY29tL3FqZS9hcnRpY2xlLzEzMC80LzE1N=
+DcvMTkxNjE0Ng/607f07ceef4b8524a319a23cBc0ceb6b3" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">frequent batch auc=
+tions</a>,=E2=80=9D where everyone who sees the same trade within (say) a s=
+econd of each other gets to compete <em>on price</em>=C2=A0to do it, rather=
+ than competing on=C2=A0<em>time=C2=A0</em>down to the microsecond.=C2=A0</=
+p>
+<p style=3D"margin: 16px 0;">Crypto, however, has a different problem. Time=
+ in electronic stock markets is maybe=C2=A0<em>too </em>continuous; the tim=
+eline of a stock exchange can be sliced much more finely than the human bra=
+in can comprehend. But time in crypto is oddly discrete. Time in crypto is =
+measured in=C2=A0<em>blocks</em>. Intuitively, people submit=C2=A0orders to=
+ do transactions on a crypto blockchain, and then periodically a batch of t=
+hose transactions is=C2=A0enshrined in the official ledger of that blockcha=
+in. In <a href=3D"https://link.mail.bloombergbusiness.com/click/35403556.25=
+6337/aHR0cHM6Ly93d3cuYmxvY2tjaGFpbi5jb20vZXhwbG9yZXI/607f07ceef4b8524a319a2=
+3cBeb22cd1b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">Bitcoin</a>, a block contains roughly 10 minutes=E2=80=
+=99 worth of transactions; in <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/35403556.256337/aHR0cHM6Ly9ldGhlcmV1bS5vcmcvZW4vZGV2ZWxvcGVycy9=
+kb2NzL2Jsb2Nrcy8/607f07ceef4b8524a319a23cB4db56ff5" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">Ethereum</a>, i=
+t=E2=80=99s seconds.</p>
+<p style=3D"margin: 16px 0;">So intuitively, Ethereum transactions happen i=
+n big simultaneous bunches every 12 seconds. But the bunches can=E2=80=99t =
+really be simultaneous: If there is one rare nonfungible token for sale, an=
+d two people want to buy it, only one of them can. One transaction has to b=
+e first. So the transactions within a block are=C2=A0<em>ordered</em>; they=
+ happen in sequence. But they are not necessarily ordered by=C2=A0<em>time.=
+</em></p>
+<p style=3D"margin: 16px 0;">How does the blockchain decide which transacti=
+ons to record, and in what order? In Ethereum, the answer is: with money.=
+=C2=A0People who want to do transactions on the Ethereum network <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/35403556.256337/aHR0cHM6Ly9l=
+dGhlcmV1bS5vcmcvZW4vZGV2ZWxvcGVycy9kb2NzL2dhcy8/607f07ceef4b8524a319a23cBec=
+411f8c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">pay fees to execute the transactions</a>; there is a flat b=
+ase fee, but people can also bid more =E2=80=94=C2=A0a =E2=80=9Cpriority fe=
+e=E2=80=9D or =E2=80=9Ctip=E2=80=9D =E2=80=94=C2=A0to get their transaction=
+s executed quickly. Every 12 seconds, some computer on the Ethereum network=
+ is selected to record the transactions in a block. This computer used to b=
+e called a =E2=80=9Cminer,=E2=80=9D but in current proof-of-stake Ethereum =
+blocks are recorded by computers called =E2=80=9Cvalidators.=E2=80=9D Each =
+block is compiled by one validator, <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/35403556.256337/aHR0cHM6Ly9ldGhlcmV1bS5vcmcvZW4vZGV2ZWxvc=
+GVycy9kb2NzL2NvbnNlbnN1cy1tZWNoYW5pc21zL3Bvcy9ibG9jay1wcm9wb3NhbC8/607f07ce=
+ef4b8524a319a23cB46a07f6a" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">selected</a> more or less at random, cal=
+led a =E2=80=9Cproposer=E2=80=9D; the other validators vote to accept the b=
+lock. The validators <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/35403556.256337/aHR0cHM6Ly9ldGhlcmV1bS5vcmcvZW4vZGV2ZWxvcGVycy9kb2NzL2Nv=
+bnNlbnN1cy1tZWNoYW5pc21zL3Bvcy9yZXdhcmRzLWFuZC1wZW5hbHRpZXMv/607f07ceef4b85=
+24a319a23cB22da7fd1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">share the transaction fees</a>, with the bloc=
+k proposer getting more than the other validators.</p>
+<p style=3D"margin: 16px 0;">The block proposer will naturally prioritize t=
+he transactions that pay more fees, because then it will get more money. An=
+d, again, the validators are all computers; they will be <em>programmed=C2=
+=A0</em>to select the transactions that pay them the most money. And in fac=
+t there is a <a href=3D"https://link.mail.bloombergbusiness.com/click/35403=
+556.256337/aHR0cHM6Ly9ldGhyZXNlYXIuY2gvdC9wcm9wb3Nlci1ibG9jay1idWlsZGVyLXNl=
+cGFyYXRpb24tZnJpZW5kbHktZmVlLW1hcmtldC1kZXNpZ25zLzk3MjU/607f07ceef4b8524a31=
+9a23cB9087334e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">division of labor</a> in modern Ethereum, where a c=
+omputer called a =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/35403556.256337/aHR0cHM6Ly9kb2NzLmZsYXNoYm90cy5uZXQvZmxhc2hib3RzLW1=
+ldi1ib29zdC9ibG9jay1idWlsZGVycw/607f07ceef4b8524a319a23cB52af7db5" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+block builder</a>=E2=80=9D puts together a list of transactions that will p=
+ay the most money to the validators, and then the block proposer proposes a=
+ block with that list so it can get paid.</p>
+<p style=3D"margin: 16px 0;">And so if you see 100 widget tokens trading fo=
+r $20 on one Ethereum decentralized exchange, and 100 widget tokens trading=
+ for $21 on another Ethereum decentralized exchange, you can buy them at $2=
+0 each and sell them for $21 each and make $100. But if I=C2=A0<em>also=C2=
+=A0</em>see that arbitrage, I will=C2=A0<em>also=C2=A0</em>put in those ord=
+ers. Which of our trades will execute first? Whoever pays more in execution=
+ fees. How much should I offer to pay? Oh, you know, it=E2=80=99s a competi=
+tive auction. So roughly $99. The validators should get most of the money f=
+rom the arbitrage. This is <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/35403556.256337/aHR0cHM6Ly93d3cuY29pbmRlc2suY29tL2xlYXJuL3doYXQtaX=
+MtbWV2LWFrYS1tYXhpbWFsLWV4dHJhY3RhYmxlLXZhbHVlLz9fZ2w9MSoxbG1qM3FkKl91cCpNU=
+S4uKl9nYSpNemt4TURNeE1EazVMakUzTVRVM09Ua3dOekkuKl9nYV9WTTNTVFJZVk44Kk1UY3hO=
+VGM1T1RBM01TNHhMakF1TVRjeE5UYzVPVEEzTVM0d0xqQXVNemN3TmpjeU9UZy4/607f07ceef4=
+b8524a319a23cBba41b3e9" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">called =E2=80=9CMEV,=E2=80=9D</a> for =E2=
+=80=9Cminer extractable value,=E2=80=9D though now Ethereum doesn=E2=80=99t=
+ have miners and the acronym stands much less informatively for =E2=80=9Cma=
+ximal extractable value.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">What are the chances that both of us discovere=
+d the same arbitrage within 12 seconds of each other? Well, pretty good, in=
+ a competitive market with a lot of arbitrageurs. But also, traditionally, =
+when we want=C2=A0to do these transactions, we submit=C2=A0our orders=C2=A0=
+<em>publicly=C2=A0</em>to the Ethereum network. (To the =E2=80=9C<a href=3D=
+"https://link.mail.bloombergbusiness.com/click/35403556.256337/aHR0cHM6Ly9l=
+eHBsb3Jlci5ibG9ja25hdGl2ZS5jb20vP3Y9MS40MS4wJjA9ZXRoZXJldW0mMT1tYWlu/607f07=
+ceef4b8524a319a23cBfc87c313" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">mempool</a>,=E2=80=9D the name given t=
+o the place where orders reside before they are included in a block.) Every=
+one can see the mempool. So if you are a clever speedy arbitrageur, watchin=
+g a bunch of decentralized exchanges for mispricings, you might see a=C2=A0=
+mispricing and submit=C2=A0your arbitrage orders. And if=C2=A0<em>I </em>am=
+ a clever speedy=C2=A0<em>front-runner</em>, watching the mempool for arbit=
+rage trades, I would submit the same trades a second or two after you, and =
+pay more to execute them. And then I=C2=A0get to do the arbitrage and you d=
+on=E2=80=99t.</p>
+<p style=3D"margin: 16px 0;">But if I am a clever speedy front-runner, I do=
+n=E2=80=99t even have to wait for arbitrage trades. Let=E2=80=99s say you a=
+re not a clever arbitrageur, but just a person who really likes the <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/35403556.256337/aHR0cHM6L=
+y9jb2lubWFya2V0Y2FwLmNvbS9jdXJyZW5jaWVzL3NoaWJhLWludS8_dXBkYXRlPTE3MTU4MDQx=
+NTMxMDU/607f07ceef4b8524a319a23cB86b4c90e" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Shiba Inu token</a> on t=
+he Ethereum blockchain. You submit a huge order to buy SHIB on a decentrali=
+zed exchange. That will, quite predictably, push up the price of SHIB.<a cl=
+ass=3D"footnote-index" href=3D"#footnote-1" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: none !important; background-color: transparen=
+t !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0If I see that order, I can just jump ahead of it: I can pay a bit=
+ more in transaction fees to get my trades to execute first, and then I can=
+ buy the SHIB tokens ahead of you and then=C2=A0<em>sell=C2=A0</em>them to =
+you for a profit, all within the same block.</p>
+<p style=3D"margin: 16px 0;">That seems kind of rough on you? This sort of =
+trade is sometimes called a =E2=80=9C<a href=3D"https://link.mail.bloomberg=
+business.com/click/35403556.256337/aHR0cHM6Ly9tZWRpdW0uY29tL0BrYWxleG90c3Uv=
+bWV2LXNhbmR3aWNoLWF0dGFjay1leGFtcGxlLXdpdGgtbGl2ZS10cmFuc2FjdGlvbnMtYmQwMmN=
+iY2IzYjlh/607f07ceef4b8524a319a23cBb10eb768" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">sandwich attack</a>=E2=
+=80=9D: I see your order to buy SHIB, and I sandwich it between my order to=
+ buy SHIB (before you do, at a lower price) and my order to sell SHIB (afte=
+r you do, at a higher price). And people talk about <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/35403556.256337/aHR0cHM6Ly9hc3NldHMuZXkuY=
+29tL2NvbnRlbnQvZGFtL2V5LXNpdGVzL2V5LWNvbS9lbl91cy90b3BpY3MvZmluYW5jaWFsLXNl=
+cnZpY2VzL2V5LWFuLWludHJvZHVjdGlvbi10by1tYXhpbWFsLWV4dHJhY3RhYmxlLXZhbHVlLW9=
+uLWV0aGVyZXVtLnBkZg/607f07ceef4b8524a319a23cBc12c2208" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">=E2=80=9Cgen=
+eralized front running=E2=80=9D as a strategy</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">A generalized front-runner bot=C2=
+=A0will search the mempool for profitable transactions, then copy the trans=
+action and replace the sender address with their own, then increase their b=
+id (gas price) to price + x to be included in a block first front running t=
+he original searcher.</p></blockquote>
+<p style=3D"margin: 16px 0;">I am giving a simplistic and somewhat old-fash=
+ioned description of MEV, and modern Ethereum has a whole, like, institutio=
+nal structure around it. There are <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/35403556.256337/aHR0cHM6Ly93d3cuY29pbmRlc2suY29tL3RlY2gvMj=
+AyNC8wMS8zMS9pbnNpZGUtdGhlLXByaXZhdGUtbWVtcG9vbHMtd2hlcmUtZXRoZXJldW0tdHJhZ=
+GVycy1oaWRlLWZyb20tZnJvbnQtcnVubmluZy1ib3RzLw/607f07ceef4b8524a319a23cB6404=
+2132" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">private mempools</a>, where you can hide transactions from bo=
+ts. There is <a href=3D"https://link.mail.bloombergbusiness.com/click/35403=
+556.256337/aHR0cHM6Ly9kb2NzLmZsYXNoYm90cy5uZXQv/607f07ceef4b8524a319a23cB8c=
+563889" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">Flashbots</a>, =E2=80=9Ca research and development organiza=
+tion formed to mitigate the negative externalities posed by Maximal Extract=
+able Value (MEV) to stateful blockchains, starting with Ethereum,=E2=80=9D =
+which has things like <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/35403556.256337/aHR0cHM6Ly9kb2NzLmZsYXNoYm90cy5uZXQvZmxhc2hib3RzLW1ldi1=
+ib29zdC9pbnRyb2R1Y3Rpb24/607f07ceef4b8524a319a23cB273fa567" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">MEV-Boo=
+st</a>, which creates =E2=80=9Ca competitive block-building market=E2=80=9D=
+ where validators can =E2=80=9Cmaximize their staking reward by selling the=
+ir blockspace to an open market,=E2=80=9D and <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/35403556.256337/aHR0cHM6Ly9kb2NzLmZsYXNoYm90cy5=
+uZXQvZmxhc2hib3RzLW1ldi1zaGFyZS9pbnRyb2R1Y3Rpb24/607f07ceef4b8524a319a23cB4=
+ddc613d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">MEV-Share</a>, =E2=80=9Can open-source protocol for users,=
+ wallets, and applications to internalize the MEV that their transactions c=
+reate,=E2=80=9D letting them =E2=80=9Cselectively share data about their tr=
+ansactions with searchers who bid to include the transactions in bundles=E2=
+=80=9D and get paid.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Basically, transaction data on Ethereum is inf=
+ormative, and the value of that information (in making profitable trades) i=
+s quantifiable, and=C2=A0there are cutthroat auctions among people who want=
+ to use that data to make their own trades, and the people doing the transa=
+ctions that create the data can themselves get paid for their data.=C2=A0</=
+p>
+<p style=3D"margin: 16px 0;">There is a sort of cool purity to this. In sto=
+ck markets, some people are faster than others, and can make money by tradi=
+ng ahead of a big order,<a class=3D"footnote-index" href=3D"#footnote-2" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: none !important;=
+ background-color: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0and people get mad about this and think it is unfair and propose =
+solutions. And when money changes hands for speed advantages =E2=80=94=C2=
+=A0=E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/354035=
+56.256337/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtM=
+DItMDUvcm9iaW5ob29kLWdhbWVzdG9wLXNhZ2EtcHJlc3N1cmVzLXBheW1lbnQtZm9yLW9yZGVy=
+LWZsb3c_Y21waWQ9QkJEMDUxNjI0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc29=
+1cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwNTE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cB4b9f181f" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">payment for order flow</a>,=E2=80=
+=9D =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/35403=
+556.256337/aHR0cHM6Ly93d3cubWFya2V0c21lZGlhLmNvbS9yZXZpc2l0aW5nLWZsYXNoLWJv=
+eXMv/607f07ceef4b8524a319a23cB9e2f4b78" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">colocation</a>=E2=80=9D =E2=
+=80=94=C2=A0people complain about corruption. In crypto it=E2=80=99s like =
+=E2=80=9Clet=E2=80=99s create an efficient market in trading ahead of big o=
+rders.=E2=80=9D I once wrote: =E2=80=9CRather than <em>solve </em>this conc=
+ern about traditional markets, crypto <em>made it explicit</em>.=E2=80=9D T=
+hat feels almost like a general philosophy of crypto: Take the problems of =
+traditional finance and make them,=C2=A0<em>worse</em>, sure, but more tran=
+sparent and visible and explicit and subject to unbridled free markets.</p>
+<p style=3D"margin: 16px 0;">In traditional financial markets, people somet=
+imes get in trouble for =E2=80=9Cspoofing,=E2=80=9D for submitting trade or=
+ders designed to fool people (algorithms) about their true trading intent. =
+Every so often,=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/35403556.256337/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVz=
+LzIwMTUtMDQtMjIvd2h5LWlzLXNwb29maW5nLWJhZC0_Y21waWQ9QkJEMDUxNjI0X01PTkVZU1R=
+VRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwNT=
+E2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB50421d80" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">the spoofer=E2=80=99s defense</a> will be =E2=80=9Cno, all these algorit=
+hms are trying to front-run me, they are trying to use my order information=
+ to make money by trading ahead of me. So I created fake order information =
+to fool them. I=E2=80=99m the hero in this story; the bots trying to front-=
+run me are the villains.=E2=80=9D This tends not to work.</p>
+<p style=3D"margin: 16px 0;">Here, maybe, is the crypto version of that.=C2=
+=A0Bloomberg=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/35403556.256337/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLz=
+IwMjQtMDUtMTUvbWl0LWJyb3RoZXJzLWFycmVzdGVkLW92ZXItbGlnaHRuaW5nLTI1LW1pbGxpb=
+24tY3J5cHRvLWhlaXN0P2NtcGlkPUJCRDA1MTYyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDUxNiZ1dG1fY2FtcGFpZ249bW9=
+uZXlzdHVmZg/607f07ceef4b8524a319a23cB3caab55b" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">Ava Benny-Morrison r=
+eports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Two brothers who studied at MIT were charged w=
+ith exploiting a weakness in the Ethereum blockchain and stealing $25 milli=
+on in 12 seconds, in what prosecutors called a first-of-its-kind caper.</p>
+<p style=3D"margin: 16px 0;">Anton Peraire-Bueno, 24, and James Peraire-Bue=
+no, 28, were charged by federal prosecutors in Manhattan with fraud and mon=
+ey laundering offenses. They are accused of carrying out the lightning-fast=
+ heist, plotted over the course of months, from their keyboards last year.<=
+/p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe brothers, who studied computer sc=
+ience and math at one of the most prestigious universities in the world, al=
+legedly used their specialized skills and education to tamper with and mani=
+pulate the protocols relied upon by millions of Ethereum users across the g=
+lobe,=E2=80=9D Damian Williams, the US attorney for the Southern District o=
+f New York, said in a statement.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here are the Justice Department <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/35403556.256337/aHR0cHM6Ly93d3cu=
+anVzdGljZS5nb3YvdXNhby1zZG55L3ByL3R3by1icm90aGVycy1hcnJlc3RlZC1hdHRhY2tpbmc=
+tZXRoZXJldW0tYmxvY2tjaGFpbi1hbmQtc3RlYWxpbmctMjUtbWlsbGlvbg/607f07ceef4b852=
+4a319a23cBb5dfbc4a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">press release</a> and <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/35403556.256337/aHR0cHM6Ly93d3cuanVzdGljZ=
+S5nb3YvdXNhby1zZG55L21lZGlhLzEzNTE5MzEvZGw/607f07ceef4b8524a319a23cBdf9667e=
+6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">the indictment</a>. The gist of it is that, allegedly:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The brothers=C2=A0set up =E2=80=9Ca s=
+eries of Ethereum validators=E2=80=9D so they could build blocks on the Eth=
+ereum blockchain.</li>=09<li style=3D"margin-bottom: 5px;">The =E2=80=9Ctar=
+geted three Victim Traders, =E2=80=A6=C2=A0who are searchers who operate ME=
+V Bots that specialize in cryptocurrency arbitrage trading.=E2=80=9D They =
+=E2=80=9Ctested a series of bait transactions=E2=80=9D to see how the arbit=
+rageurs operated.</li>=09<li style=3D"margin-bottom: 5px;">Then, =E2=80=9Ca=
+fter receiving notification that one of their 16 Validators had been select=
+ed to validate a new block,=E2=80=9D they proposed =E2=80=9Cat least eight =
+specific transactions (the =E2=80=98Lure Transactions=E2=80=99)=E2=80=9D th=
+at they knew the arbitrageurs would like.</li>=09<li style=3D"margin-bottom=
+: 5px;">Specifically, transactions that the arbitrageurs would like to fron=
+t-run: =E2=80=9CThe Victim Traders effectively bought substantial amounts o=
+f particular illiquid currencies (the frontrun trades), whose price the Vic=
+tim Traders expected to increase as a result of the Lure Transactions, for =
+approximately $25 million of various stablecoins =E2=80=A6=C2=A0or other mo=
+re liquid cryptocurrencies. The Victim Traders also included a sell transac=
+tion in each bundle, whereby the Victim Traders would sell their newly acqu=
+ired cryptocurrency =E2=80=94=C2=A0immediately after the Lure Transaction =
+=E2=80=94=C2=A0at a higher price than what they bought it for.=E2=80=9D It =
+was a sandwich trade: The arbitrageurs saw the Peraire-Bueno=E2=80=99s =E2=
+=80=9Clure=E2=80=9D trades, which involved buying a bunch of illiquid crypt=
+o, and they front-ran them by buying the illiquid crypto before them and se=
+lling it after them.</li>=09<li style=3D"margin-bottom: 5px;">But then they=
+=C2=A0exploited a bug in Ethereum to get the full contents of the proposed =
+block and to tamper with it by (1) =E2=80=9Callow[ing] the Victim Traders t=
+o complete their buy transactions (i.e., their frontrun trades)=E2=80=9D an=
+d=C2=A0(2) =E2=80=9Creplac[ing] the Lure Transactions with tampered transac=
+tions=E2=80=9D in which they =E2=80=9Csold the same illiquid cryptocurrenci=
+es that the Victim Traders had recently purchased,=E2=80=9D and which they =
+apparently already held.<a class=3D"footnote-index" href=3D"#footnote-3" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: none !important;=
+ background-color: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">That is, they front-ran and spoof=
+ed the front-runners: They put in a big order saying =E2=80=9Cbuy a ton of =
+[some nonsense tokens],=E2=80=9D front-running bots said =E2=80=9Cooh, big =
+bid for nonsense tokens, let=E2=80=99s get ahead of that,=E2=80=9D and the =
+front-running bots bought the nonsense tokens ahead of them. But then they =
+tampered with the transactions to replace their own buy order with a <em>se=
+ll </em>order,=C2=A0<em>selling=C2=A0</em>the nonsense tokens =E2=80=94=C2=
+=A0effectively, <em>to=C2=A0</em>the front-runners =E2=80=94 at inflated pr=
+ices for $25 million. =E2=80=9CIn effect, the Tampered Transactions drained=
+ the particular liquidity pools of all the cryptocurrency that the Victim T=
+raders had deposited based on their frontrun trades.=E2=80=9D</li>
+</ol>
+<p style=3D"margin: 16px 0;">Now. Is this =E2=80=A6=C2=A0bad? Sure, I guess=
+. In Step 5, the Peraire-Buenos do seem to have exploited a real vulnerabil=
+ity in how Ethereum=E2=80=99s consensus mechanism worked. I do not pretend =
+to fully understand the technical details, but here is a <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/35403556.256337/aHR0cHM6Ly9jb2xsZWN0=
+aXZlLmZsYXNoYm90cy5uZXQvdC9wb3N0LW1vcnRlbS1hcHJpbC0zcmQtMjAyMy1tZXYtYm9vc3Q=
+tcmVsYXktaW5jaWRlbnQtYW5kLXJlbGF0ZWQtdGltaW5nLWlzc3VlLzE1NDA/607f07ceef4b85=
+24a319a23cB894e41fb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Flashbots postmortem</a> of the exploit. (The=
+y sent a signed but invalid block header to the relay, which caused the rel=
+ay to publish=C2=A0the contents of the proposed block, which they used to c=
+onstruct their own block exploiting those contents as the proposer of the b=
+lock.) The Justice Department calls it =E2=80=9Can alleged=C2=A0novel schem=
+e by the defendants to exploit the very integrity of the Ethereum blockchai=
+n,=E2=80=9D and that seems right: If people can reach in to alter the order=
+ of transactions to swipe $25 million, that does sort of undermine the inte=
+grity of the blockchain.</p>
+<p style=3D"margin: 16px 0;">Also they did some bad googling. Before they d=
+id the trade, Anton Peraire-Bueno allegedly =E2=80=9Csearched online for cr=
+yptocurrency exchanges with limited =E2=80=98know your customer=E2=80=99 pr=
+otocols and ways to launder cryptocurrency, including searches for =E2=80=
+=98how to wash crypto=E2=80=99 and =E2=80=98cefi exchanges with no kyc.=E2=
+=80=99=E2=80=9D<a class=3D"footnote-index" href=3D"#footnote-4" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: none !important; backgrou=
+nd-color: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a> And after the trade, as they were allegedly =E2=80=9Claundering the fr=
+aud proceeds from the Exploit,=E2=80=9D James Peraire-Bueno allegedly =E2=
+=80=9Csearched online for, among other things, =E2=80=98money laundering,=
+=E2=80=99 =E2=80=98exploit,=E2=80=99 =E2=80=98computer fraud abuse act,=E2=
+=80=99<a class=3D"footnote-index" href=3D"#footnote-5" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: none !important; background-color:=
+ transparent !important; display: inline-block;">
+<span>[5]</span>
+</a> and =E2=80=98does the united states extradite to [foreign country].=E2=
+=80=99=E2=80=9D The Justice Department, reasonably, cites these searches as=
+ evidence of a guilty conscience. Also though I wonder how well they worked=
+? Like, has anyone ever (1) acquired $25 million of ill-gotten money, (2) g=
+oogled =E2=80=9Cmoney laundering=E2=80=9D and (3) successfully used to resu=
+lts to launder the money? On the other hand I bet googling =E2=80=9Ccefi ex=
+changes with no kyc=E2=80=9D works great; really exchanges should pay a lot=
+ for those keywords.</p>
+<p style=3D"margin: 16px 0;">But to me what is wild about this case is that=
+ the Justice Department is bringing down the full weight of US federal crim=
+inal law to protect <em>Ethereum front-running bots</em>. The word =E2=80=
+=9Cfront-run=E2=80=9D is right there in the indictment! The Justice Departm=
+ent has a <a href=3D"https://link.mail.bloombergbusiness.com/click/35403556=
+.256337/aHR0cHM6Ly93d3cuanVzdGljZS5nb3YvdXNhby1lZG55L3ByL2Zvcm1lci1nbG9iYWw=
+taGVhZC1oc2JjLXMtZm9yZWlnbi1leGNoYW5nZS1jYXNoLXRyYWRpbmctZm91bmQtZ3VpbHR5LW=
+9yY2hlc3RyYXRpbmc/607f07ceef4b8524a319a23cB3c69c1eb" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">long</a>=C2=A0=
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35403556.256337/aH=
+R0cHM6Ly93d3cuanVzdGljZS5nb3YvdXNhby1zZG55L3ByL2Zvcm1lci1hbmFseXN0LWNoYXJnZ=
+WQtOC1taWxsaW9uLWluc2lkZXItdHJhZGluZy1zY2hlbWUtZnJvbnQtcnVubmluZy1lbXBsb3ll=
+ci1z/607f07ceef4b8524a319a23cB1cfb9bc8" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">history</a> of <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/35403556.256337/aHR0cHM6Ly93d3=
+cuanVzdGljZS5nb3YvdXNhby1zZG55L3ByL3RyYWRlci1sYXJnZS1jYW5hZGlhbi1hc3NldC1tY=
+W5hZ2VtZW50LWZpcm0tY2hhcmdlZC1pbnNpZGVyLXRyYWRpbmctZW5nYWdpbmc/607f07ceef4b=
+8524a319a23cB6d7cb136" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">prosecuting</a> people for front-running! Be=
+cause it is traditionally a crime! In traditional finance, =E2=80=9Cfront-r=
+unning=E2=80=9D is understood to mean violating a fiduciary duty to your cu=
+stomers (or employer, etc.) by trading ahead of their orders, and it is=C2=
+=A0a crime.<a class=3D"footnote-index" href=3D"#footnote-6" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: none !important; background-c=
+olor: transparent !important; display: inline-block;">
+<span>[6]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">But here the Justice Department is protecting =
+the front-runners. And the trades that the Victim Traders were trying to do=
+ look, to the naked eye, bad? They were =E2=80=9Cwe see you are trying to b=
+uy this illiquid cryptocurrency, so we=E2=80=99re going to buy it ahead of =
+you so we can rip you off.=E2=80=9D In Ethereum, that is pretty normal, and=
+ there is a large institutional structure to make it work in a predictable =
+and fair-ish way. But in traditional markets it just seems bad.</p>
+<p style=3D"margin: 16px 0;">We have talked a few times <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/35403556.256337/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjQtMDQtMDkvYS1tZW1lLXN0b2NrLWZvci1w=
+cml2YXRlLWNvbXBhbmllcz9jbXBpZD1CQkQwNTE2MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWV=
+tYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDA1MTYmdXRtX2NhbXBhaWduPW=
+1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB875f826a" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">about Avi Eisenber=
+g</a>, the crypto trader arrested (and convicted) for fraud because he did =
+some market manipulation on a decentralized crypto exchange. He absolutely =
+did do that manipulation, but his defense =E2=80=94=C2=A0which did not work=
+ =E2=80=94=C2=A0was that the crypto exchange did not have any norms=C2=A0<e=
+m>against=C2=A0</em>it. What he did was allowed by the exchange=E2=80=99s c=
+ode, he argued, so it was allowed. External norms like =E2=80=9Cdon=E2=80=
+=99t do market manipulation=E2=80=9D did not apply.=C2=A0</p>
+<p style=3D"margin: 16px 0;">This is controversial, and a lot of people in =
+and out of crypto have complaints of the form =E2=80=9Clook, if decentraliz=
+ed finance exchanges do not want to be subject to US regulation, why does t=
+he federal government need to protect them from market manipulators?=E2=80=
+=9D I am sympathetic to those complaints.</p>
+<p style=3D"margin: 16px 0;">But here! I mean! Ethereum and its decentraliz=
+ed exchanges have a market structure that is like =E2=80=9Cbots can look at=
+ your transactions and front-run them if that=E2=80=99s profitable.=E2=80=
+=9D And these guys, allegedly, front-ran the front-runners; they turned the=
+ market structure around so that=C2=A0<em>they=C2=A0</em>could get an early=
+ look at the front-running bots=E2=80=99 front-running transactions and fro=
+nt-run them instead. By=C2=A0hacking, sure, sure, it=E2=80=99s=C2=A0bad. Bu=
+t it leaves the Justice Department in the odd position of saying that the i=
+ntegrity of crypto front-running is important and must be defended.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35403556.256337/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zNTQwMzU1NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzU2NTk4OTMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC25f24572" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D35403556&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D35659893&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35403556.256337/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zNTQwMzU1NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzU2NTk4OTMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD25f24572" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D35403556&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D35659893&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Rare sats</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Crudely speaking there are two sorts of crypto=
+ tokens. There are=C2=A0<em>fungible=C2=A0</em>tokens, like Bitcoin and Eth=
+er and Tether and Solana, which have approximately cash-like properties: If=
+ a thing costs two=C2=A0Bitcoins, it doesn=E2=80=99t matter=C2=A0<em>which =
+</em>two Bitcoins you use to pay for it; any two Bitcoins are just as good =
+as any other two Bitcoins. And there are=C2=A0<em>nonfungible=C2=A0</em>tok=
+ens, NFTs, like Bored Ape Yacht Club, which have approximately art-object-l=
+ike properties: Each Bored Ape is different, and some =E2=80=94=C2=A0based =
+on their rarity or aesthetics or provenance =E2=80=94=C2=A0are worth much m=
+ore than others.</p>
+<p style=3D"margin: 16px 0;">Intuitively, fungible tokens are indistinguish=
+able coins, while NFTs are unique images. But=C2=A0<em>really=C2=A0</em>nei=
+ther of those things is true.=C2=A0Really they are both entries in detailed=
+ permanent transaction ledgers. An NFT, for example,=C2=A0<em>isn=E2=80=99t=
+=C2=A0</em>the little drawing of the monkey; the NFT is simply a numbered e=
+ntry in a ledger that <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/35403556.256337/aHR0cHM6Ly9tb3hpZS5vcmcvMjAyMi8wMS8wNy93ZWIzLWZpcnN0LWl=
+tcHJlc3Npb25zLmh0bWw/607f07ceef4b8524a319a23cB1948adb4" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">points to t=
+he drawing of the monkey</a>. I <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/35403556.256337/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9mZWF0dXJlc=
+y8yMDIyLXRoZS1jcnlwdG8tc3RvcnkvP2NtcGlkPUJCRDA1MTYyNF9NT05FWVNUVUZGJnV0bV9t=
+ZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDUxNiZ1dG1fY2F=
+tcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBd433bed0" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">once wro=
+te</a> that =E2=80=9Can NFT consists of a series of numbered tokens, and th=
+e thing that makes it an NFT is that it has a different number in its token=
+Id field from the other tokens in its series.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">Meanwhile a fungible token like Bitcoin is=C2=
+=A0<em>not=C2=A0</em>a <em>numbered</em> entry in a ledger; there is <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/35403556.256337/aHR0cHM6=
+Ly9vcGVuc2VhLmlvL2Fzc2V0cy9ldGhlcmV1bS8weGJjNGNhMGVkYTc2NDdhOGFiN2MyMDYxYzJ=
+lMTE4YTE4YTkzNmYxM2QvMw/607f07ceef4b8524a319a23cBdefb7d69" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">such a t=
+hing as</a> =E2=80=9CBored Ape Number 3=E2=80=9D but there is no such thing=
+ as =E2=80=9CBitcoin Number 3.=E2=80=9D But there is a permanent immutable =
+computer ledger containing every Bitcoin transaction, which means that you=
+=C2=A0<em>could</em>, sort of, trace the ledger back to find what the third=
+ Bitcoin was and who holds it now.<a class=3D"footnote-index" href=3D"#foot=
+note-7" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !=
+important; background-color: transparent !important; display: inline-block;=
+">
+<span>[7]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">More generally, you could, if you wanted to, t=
+reat Bitcoins as completely nonfungible. You could trace back the history o=
+f any Bitcoin, or fraction of a Bitcoin. And then you could say things like=
+:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">=E2=80=9CI am willing to pay more for =
+old=C2=A0Bitcoins, ones that were mined in like 2009, than I will for new B=
+itcoins, ones that were only mined in 2024.=E2=80=9D</li>=09<li style=3D"ma=
+rgin-bottom: 5px;">=E2=80=9CI am willing to pay more for Bitcoins with cool=
+ provenance, like ones that were once <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/35403556.256337/aHR0cHM6Ly93d3cuYmxvY2tjaGFpbi5jb20vZXh=
+wbG9yZXIvYmxvY2tzL2J0Yy8wMDAwMDAwMDAwMTlkNjY4OWMwODVhZTE2NTgzMWU5MzRmZjc2M2=
+FlNDZhMmE2YzE3MmIzZjFiNjBhOGNlMjZm/607f07ceef4b8524a319a23cBf328306a" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">owned by Satoshi Nakamoto</a>=C2=A0or used to pay for the <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/35403556.256337/aHR0cHM6Ly93d3cu=
+Y29pbmRlc2suY29tL2NvbnNlbnN1cy1tYWdhemluZS8yMDIzLzA1LzIyL2NlbGVicmF0aW5nLWJ=
+pdGNvaW4tcGl6emEtZGF5LXRoZS10aW1lLWEtYml0Y29pbi11c2VyLWJvdWdodC0yLXBpenphcy=
+1mb3ItMTAwMDAtYnRjLw/607f07ceef4b8524a319a23cBf0bc9ed3" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">2010 Bitcoi=
+n Pizza</a>, than I will for regular old Bitcoins with no fun history.=E2=
+=80=9D=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">=E2=80=9CI am willing=
+ to pay=C2=A0<em>less=C2=A0</em>for Bitcoins with a troubled regulatory his=
+tory, like the ones that were <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/35403556.256337/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMjItMDItMDkvYnVzaW5lc3MtcmFwcGVyLXdhcy1iYWQtYXQtYml0Y29pbi1sYX=
+VuZGVyaW5nP2NtcGlkPUJCRDA1MTYyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX=
+3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDUxNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVm=
+Zg/607f07ceef4b8524a319a23cBc3ac1ae4" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">stolen in the Bitfinex hack</=
+a>, than I will for Bitcoins with a clean regulatory history.=E2=80=9D</li>
+</ul>
+<p style=3D"margin: 16px 0;">Bitcoins are fungible simply because it is sta=
+ndard convention among Bitcoin users to=C2=A0<em>treat=C2=A0</em>them as fu=
+ngible, but they <em>are=C2=A0</em>distinguishable from one another, and if=
+=C2=A0you wanted to discriminate among Bitcoins you=C2=A0<em>could</em>. Pe=
+ople mostly don=E2=80=99t, but the last thing on that list =E2=80=94=C2=A0=
+=E2=80=9Ctry not to accept=C2=A0Bitcoins that have been stolen or are <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/35403556.256337/aHR0cHM=
+6Ly93d3cudHJtbGFicy5jb20vcG9zdC91cy10cmVhc3VyeXMtb2ZhYy1zYW5jdGlvbmVkLXJ1c3=
+NpYS1iYXNlZC1jcnlwdG8tZXhjaGFuZ2VzLWFuZC1maW50ZWNocy1mb3ItZmFjaWxpdGF0aW5nL=
+XNhbmN0aW9ucy1ldmFzaW9u/607f07ceef4b8524a319a23cBa25e0e64" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">otherwis=
+e of interest</a> to US law enforcement=E2=80=9D =E2=80=94=C2=A0<em>does=C2=
+=A0</em>have some traction. Some Bitcoins really=C2=A0<em>are=C2=A0</em>les=
+s valuable than others.</p>
+<p style=3D"margin: 16px 0;">And some are more. Here is <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/35403556.256337/aHR0cHM6Ly9hcnN0ZWNob=
+mljYS5jb20vaW5mb3JtYXRpb24tdGVjaG5vbG9neS8yMDI0LzA1L3RoZS1odW50LWZvci1yYXJl=
+LWJpdGNvaW4taXMtbmVhcmluZy1hbi1lbmQv/607f07ceef4b8524a319a23cBcc157fc7" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">a delightful story from Joel Khalili at Wired</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">In the same way a dollar is made u=
+p of 100 cents, one bitcoin is composed of 100 million satoshis=E2=80=94or =
+sats, for short. But not all sats are made equal. Those produced in the yea=
+r bitcoin was created are considered vintage, like a fine wine. Other covet=
+ed sats were part of transactions made by bitcoin=E2=80=99s inventor. Some =
+correspond with a particular transaction milestone. These and various other=
+ properties make some sats more scarce than others=E2=80=94and therefore mo=
+re valuable. The very rarest can sell for tens of millions of times their f=
+ace value; in April, a single sat, normally worth $0.0006, sold for $2.1 mi=
+llion.</p></blockquote>
+<p style=3D"margin: 16px 0;">There are two interesting points here. One is =
+simply the existence of =E2=80=9Crare sats=E2=80=9D: To at least some =E2=
+=80=A6=C2=A0Bitcoin collectors? =E2=80=A6=C2=A0some satoshis are worth more=
+ than others, due to their history or provenance.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The other is that, while some Bitcoin enthusia=
+sts value rare sats highly and will pay a lot for them, others just cheeril=
+y assume=C2=A0that Bitcoin is a fungible currency. And so there is a trade:=
+</p>
+<blockquote><p style=3D"margin: 16px 0;">[Bill]=C2=A0Restey is part of a sm=
+all, tight-knit band of hunters trying to root out these rare sats, which a=
+re scattered across the bitcoin network. They do this by depositing batches=
+ of bitcoin with a crypto exchange, then withdrawing the same amount=E2=80=
+=94a little like depositing cash with a bank teller and immediately taking =
+it out again from the ATM outside. The coins they receive in return are not=
+ the same they deposited, giving them a fresh stash through which to sift. =
+They rinse and repeat.</p></blockquote>
+<p style=3D"margin: 16px 0;">If you deposit one Bitcoin on a crypto exchang=
+e and then withdraw it, you will get one Bitcoin. But you will not get the =
+same Bitcoin you put in. The exchange will say =E2=80=9Cehh Bitcoins are Bi=
+tcoins, it doesn=E2=80=99t matter.=E2=80=9D But you might disagree.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Super =E2=80=A6=C2=A0users =E2=80=A6 ?</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Some companies post their earnings releases ev=
+ery quarter on their website with a URL format like =E2=80=9Cxyzcorp.com/in=
+vestorrelations/earnings_2023q4.html.=E2=80=9D And they put out a press rel=
+ease earlier saying, like, =E2=80=9Cwe will release our first-quarter earni=
+ngs after the close of trading at 4:05=C2=A0p.m. on May 16.=E2=80=9D And th=
+en at 4:05 p.m. they send the earnings release to the business wires. Ideal=
+ly, also at 4:05 p.m., they upload the earnings to their website. But it is=
+ not=C2=A0<em>absolutely unheard-of=C2=A0</em>for a company to upload the e=
+arnings to the website a bit early, but not tell anyone until 4:05. And so =
+it is not absolutely unheard-of for hedge fund analysts to figure out the U=
+RL format of a company=E2=80=99s earnings releases and point their browser =
+to =E2=80=9Cxyzcorp.com/investorrelations/earnings_2024q1.html=E2=80=9D=C2=
+=A0at, like, 3:45 p.m. Most of the time, this turns up nothing. Occasionall=
+y, early earnings!</p>
+<p style=3D"margin: 16px 0;">I mean, I should say, <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/35403556.256337/aHR0cHM6Ly93d3cuZm9yYmVzLm=
+NvbS9zaXRlcy9icmlhbmNhdWxmaWVsZC8yMDExLzAxLzI3L2hvdy1zZWxlcml0eS1nb3QtbWljc=
+m9zb2Z0cy1lYXJuaW5ncy1lYXJseS1hbmQtaG93LXlvdS1jb3VsZC10b28vP3NoPWU5NmJiOWM0=
+NjQzOA/607f07ceef4b8524a319a23cB41f7dce4" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">this</a> is a <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/35403556.256337/aHR0cHM6Ly93=
+d3cuZm9yYmVzLmNvbS9zaXRlcy9icmlhbmNhdWxmaWVsZC8yMDExLzAxLzI3L2hvdy1zZWxlcml=
+0eS1nb3QtbWljcm9zb2Z0cy1lYXJuaW5ncy1lYXJseS1hbmQtaG93LXlvdS1jb3VsZC10b28vP3=
+NoPWU5NmJiOWM0NjQzOA/607f07ceef4b8524a319a23cC41f7dce4" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">thing</a> I=
+ have heard of. In 2024, it=E2=80=99s reasonably well-known, and many compa=
+nies try not to post their earnings early on easily guessed web pages, so i=
+t=E2=80=99s not clear that it=E2=80=99s worth looking.<a class=3D"footnote-=
+index" href=3D"#footnote-8" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: none !important; background-color: transparent !important; di=
+splay: inline-block;">
+<span>[8]</span>
+</a> Probably some companies still do this, but you cannot really rely on s=
+ystematic widespread URL guessing as a source of edge. You=E2=80=99re not g=
+oing to get rich by typing URLs into a browser 15 minutes before earnings a=
+re due.</p>
+<p style=3D"margin: 16px 0;">And so=C2=A0<a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/35403556.256337/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9u=
+ZXdzL2FydGljbGVzLzIwMjQtMDUtMTYvdXMtYmxzLXNheXMtYXByaWwtY3BpLWRhdGEtaW5hZHZ=
+lcnRlbnRseS1wb3N0ZWQtMzAtbWluLWVhcmx5P2NtcGlkPUJCRDA1MTYyNF9NT05FWVNUVUZGJn=
+V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDUxNiZ1d=
+G1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBc68ed0fc" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+here=E2=80=99s this</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The US Bureau of Labor Statistics inadvertentl=
+y published Consumer Price Index data 30 minutes early on Wednesday, raisin=
+g fresh questions about how the agency releases some of the world=E2=80=99s=
+ most sensitive economic information.</p>
+<p style=3D"margin: 16px 0;">While there were no obvious signs that the ear=
+ly publication moved markets, the episode is likely to prompt a close look =
+at the dissemination of data that has implications for global asset prices =
+and Federal Reserve policy.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIn advance of today=E2=80=99s CPI and=
+ Real Earnings releases, BLS inadvertently loaded a subset of files to the =
+website approximately 30 minutes prior to the release,=E2=80=9D the agency =
+said in a statement posted on its website Wednesday evening. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">US stock-index futures jumped and Treasury yie=
+lds fell immediately after media outlets including Bloomberg News reported =
+the official CPI data at 8:30 a.m., with the S&amp;P 500 Index ending the d=
+ay at an all-time high. There were no sharp market movements in the half-ho=
+ur stretch between the early data release and the scheduled one, suggesting=
+ the initial figures went unnoticed by investors.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/35403556.256337/aHR0cHM6Ly93d3cuYmxzLmdvdi9ibHMvZWFybHkt=
+ZGF0YS1yZWxlYXNlLTA1MTUyMDI0Lmh0bQ/607f07ceef4b8524a319a23cBfe968162" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">the statement</a>, which is vague about what subset of files it was. Per=
+haps they were not the market-moving files. Or perhaps they were, and they =
+sat on the website, but nobody was looking, because what were the chances t=
+hey would have found something?</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Dow <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/35403556.256337/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjQtMDUtMTYvZG93LWVjbGlwc2VzLTQwLTAwMC1mb3ItZmlyc3QtdGltZS1hcy1=
+pbnZlc3RvcnMtYmV0LW9uLXJhdGUtY3V0cz9jbXBpZD1CQkQwNTE2MjRfTU9ORVlTVFVGRiZ1dG=
+1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDA1MTYmdXRtX=
+2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB108af764" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">40,00=
+0</a>. With a BlackRock CEO, $9 Trillion <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/35403556.256337/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9u=
+ZXdzL2FydGljbGVzLzIwMjQtMDUtMTYvd2l0aC1hLWJsYWNrcm9jay1jZW8tOS10cmlsbGlvbi1=
+2YW5ndWFyZC1icmFjZXMtZm9yLXR1cmJ1bGVuY2U_Y21waWQ9QkJEMDUxNjI0X01PTkVZU1RVRk=
+YmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjQwNTE2J=
+nV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBe5231065" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Vanguard</a> Braces for Turbulence. LME <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/35403556.256337/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZ=
+XdzL2FydGljbGVzLzIwMjQtMDUtMTYvbG1lLXdhcmVob3VzZS1xdWV1ZXMtcmV0dXJuLW9uLWp1=
+bXAtaW4tYWx1bWludW0tb3JkZXJzP2NtcGlkPUJCRDA1MTYyNF9NT05FWVNUVUZGJnV0bV9tZWR=
+pdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDUxNiZ1dG1fY2FtcG=
+FpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB5a800bc6" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">Warehouse Q=
+ueue Returns</a> After Jump in Aluminum Orders.=C2=A0Starwood=E2=80=99s $10=
+bn property fund <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+5403556.256337/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMWIwY2U3OTEtZTM4Ny00ZWE0=
+LTg1MmEtMTRkNTliM2NlZDFm/607f07ceef4b8524a319a23cBd09f900a" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">taps cr=
+edit line</a> as investors pull money. Warren Buffett=E2=80=99s Berkshire R=
+eveals Its Mystery Stock: <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/35403556.256337/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL3N0b2Nrcy93YXJ=
+yZW4tYnVmZmV0dHMtYmVya3NoaXJlLXJldmVhbHMtaXRzLW15c3Rlcnktc3RvY2stY2h1YmItOG=
+NhMGI0YTM_bW9kPWl0cF93c2o/607f07ceef4b8524a319a23cB3456411b" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">Chubb<=
+/a>. Paramount: the takeover battle that could <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/35403556.256337/aHR0cHM6Ly93d3cuZnQuY29tL2Nvbn=
+RlbnQvZWFkNDE0NTgtOTE1YS00N2QwLWI0OWItYmUwZjQyMzZlMzAz/607f07ceef4b8524a319=
+a23cBbceb9ade" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">reshape Hollywood</a>.=C2=A0Top-Ranking Lenders See =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35403556.256337/aH=
+R0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90b3AtcmFua2luZy1sZW5kZXJzLXNlZS1kaW1pb=
+mlzaGluZy1yZWNvdmVyaWVzLWluLWJhbmtydXB0Y3ktNjUzYWY5N2U_bW9kPWl0cF93c2omcnU9=
+eWFob28/607f07ceef4b8524a319a23cBfc56f1b3" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Diminishing Recoveries</=
+a> in Bankruptcy. How Coinbase Is Seeking to Ease <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/35403556.256337/aHR0cHM6Ly93d3cudGhlaW5mb3J=
+tYXRpb24uY29tL2FydGljbGVzL2hvdy1jb2luYmFzZS1pcy1zZWVraW5nLXRvLWVhc2UtY3J5cH=
+Rvcy1jcmVkaXQtY3J1bmNo/607f07ceef4b8524a319a23cBae0a6dfc" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">Crypto=E2=
+=80=99s Credit Crunch</a>.=C2=A0Europe=E2=80=99s Banks Find <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/35403556.256337/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDUtMTYvZXVyb3BlYW4tYmFua3Mtc3Rp=
+bGwtaW4tcnVzc2lhLWFmdGVyLXB1dGluLXMtdWtyYWluZS1pbnZhc2lvbj9jbXBpZD1CQkQwNTE=
+2MjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG=
+1fdGVybT0yNDA1MTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB=
+fc7c3cab" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">Breaking Up With Russia</a> Is Hard to Do. Billionaire Fr=
+ank McCourt Plans <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+35403556.256337/aHR0cHM6Ly93d3cud3NqLmNvbS90ZWNoL3Utcy1iaWxsaW9uYWlyZS1mcmF=
+uay1tY2NvdXJ0LW9yZ2FuaXplcy1iaWQtdG8tYWNxdWlyZS10aWt0b2stODIwNTI4MDk_bW9kPW=
+l0cF93c2o/607f07ceef4b8524a319a23cB9622a296" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">Bid for TikTok</a> in =
+U.S.=C2=A0=E2=80=98<a href=3D"https://link.mail.bloombergbusiness.com/click=
+/35403556.256337/aHR0cHM6Ly93d3cuZmNhLm9yZy51ay9uZXdzL3ByZXNzLXJlbGVhc2VzL2=
+ZpbmZsdWVuY2Vycy1jaGFyZ2VkLXByb21vdGluZy11bmF1dGhvcmlzZWQtdHJhZGluZy1zY2hlb=
+WU/607f07ceef4b8524a319a23cB6cf11962" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">Finfluencers</a>=E2=80=99 cha=
+rged for promoting unauthorised trading scheme.=C2=A0Milei Targets Labor La=
+w That=E2=80=99s Set to Hand Banker <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/35403556.256337/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjQtMDUtMTYvY2l0aS1iYW5rZXItc3RhbmRzLXRvLWNvbGxlY3QtMTAtbWls=
+bGlvbi1zZXZlcmFuY2UtdW5kZXItYXJnZW50aW5hLWxhd3M_Y21waWQ9QkJEMDUxNjI0X01PTkV=
+ZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09Mj=
+QwNTE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB9129ae12" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">$10 Million Severance</a>.=C2=A0<a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/35403556.256337/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vYXRobG=
+V0aWMvNTQ5NzkzMS8yMDI0LzA1LzE2L3JhY2Nvb24tcGhpbGFkZWxwaGlhLXVuaW9uLW55Y2ZjL=
+TIv/607f07ceef4b8524a319a23cB7df18a43" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">Raccoon pitch invader</a> ca=
+ught with a trash can during Philadelphia Union-NYCFC match.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/35403556.256337/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB787fb309" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/35403556.256337/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB751a3a6c" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Especially because crypto DEXes generally =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35403556.256337/aH=
+R0cHM6Ly9jaGFpbi5saW5rL2VkdWNhdGlvbi1odWIvd2hhdC1pcy1hbi1hdXRvbWF0ZWQtbWFya=
+2V0LW1ha2VyLWFtbQ/607f07ceef4b8524a319a23cBbae7bde2" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">run mechanical=
+ly</a> so the price impact of a transaction is quite knowable.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Do not email me about this, which is not t=
+he point. =E2=80=9CProbabilistically make money by trading sort of in the m=
+iddle of the execution of what they identify as a big order,=E2=80=9D maybe=
+.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] =E2=80=9CWhich the defendants already held=
+ as a result of information gathered through the bait transactions,=E2=80=
+=9D says the indictment. Presumably the intuition is like: You buy some ill=
+iquid crypto slowly over time, not moving the price. Then you send a big or=
+der to buy a lot of it, which gets front-runners interested. Then you pull =
+it away.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] This trade relies on two sorts of exchange=
+s, DeFi (decentralized finance) DEXes (decentralized exchanges) and CeFi (c=
+entralized finance) exchanges. The actual $25 million trade here has to hap=
+pen *on the blockchain*, because that is where they are spoofing and tamper=
+ing with transaction ordering; DEXes are where you trade crypto on the bloc=
+kchain. But then getting the $25 million out requires a company that can wi=
+re money to your bank, and that is a centralized exchange. So he searched f=
+or CeFi exchanges to be the on -and off-ramp for the trade, which they did =
+on decentralized exchanges.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] In fact they are charged with wire fraud, =
+not with hacking under the <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/35403556.256337/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQ29tcHV0ZX=
+JfRnJhdWRfYW5kX0FidXNlX0FjdA/607f07ceef4b8524a319a23cBa57e84f1" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">CFA=
+A</a>, but it was probably reasonable to worry about getting charged with h=
+acking too. But the lesson is probably that wire fraud is more general than=
+ CFAA hacking =E2=80=94 everything is wire fraud! =E2=80=94 so it=E2=80=99s=
+ the easier thing to charge. </p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] Of course, it is often used loosely to mea=
+n =E2=80=9Cusing order book data to try to trade faster than someone else,=
+=E2=80=9D which is not traditional front-running and not a crime. And that=
+=E2=80=99s mostly the meaning in the indictment here.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] In actual fact the first 50 Bitcoins were =
+minted all at once, and that set of Bitcoins, <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/35403556.256337/aHR0cHM6Ly93d3cuYmxvY2tjaGFpbi5=
+jb20vZXhwbG9yZXIvYmxvY2tzL2J0Yy8wMDAwMDAwMDAwMTlkNjY4OWMwODVhZTE2NTgzMWU5Mz=
+RmZjc2M2FlNDZhMmE2YzE3MmIzZjFiNjBhOGNlMjZm/607f07ceef4b8524a319a23cCf328306=
+a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">according to Blockchain.com</a>, =E2=80=9Cis unredeemable, as =
+it was omitted from the transaction database. This means any attempt to spe=
+nd it would be rejected by the network. Whether this was intentional or not=
+ still remains unknown.=E2=80=9D Also I am being a little loose with termin=
+ology here; there is not such a thing as =E2=80=9Ca Bitcoin,=E2=80=9D but r=
+ather any amount of Bitcoin that you get is the residue of various prior tr=
+ansactions that can be traced back in time to when batches of Bitcoin were =
+mined. It=E2=80=99s not like individual coins have passed from hand to hand=
+, but the Bitcoins in your account reflect the history of the transactions =
+that brought them there.</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] Also there is, in the US, <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/35403556.256337/aHR0cHM6Ly93d3cudm=
+ljZS5jb20vZW4vYXJ0aWNsZS9ncXdlazQvbHVsei1hbmQtbGVnLWlyb25zLWluLXRoZS1jb3Vyd=
+HJvb20td2l0aC13ZWV2/607f07ceef4b8524a319a23cB7eae03e0" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">some</a> <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/35403556.256337/aHR0c=
+HM6Ly93d3cuZWZmLm9yZy9wcmVzcy9yZWxlYXNlcy9hcHBlYWxzLWNvdXJ0LW92ZXJ0dXJucy1h=
+bmRyZXctd2Vldi1hdWVybmhlaW1lci1jb252aWN0aW9u/607f07ceef4b8524a319a23cBd8a57=
+c76" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">risk</a> that prosecutors might treat guessing URLs as illegal=
+ hacking? And thus, perhaps, also insider trading?</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35403556.256337/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB8b2faa82" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35403556.256337/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB5bc3031e" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35403556.256337/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBde28af49" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35403556.256337/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBc42400d8" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/35403556.256337/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB16e38f1f" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/35403556.2563=
+37/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBa9b35b7f" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/35403556.256337/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCf3b8c1ec" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/35403556.256337/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB54b60192" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/35403556.256337/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB1c6e4c7e" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35403556.256337/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB0=
+3038cfa" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35403556.256337/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBc=
+17d9dad" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cl2tk4.5hsh/7a20d972.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_64320767_1837121694.1715880306170--

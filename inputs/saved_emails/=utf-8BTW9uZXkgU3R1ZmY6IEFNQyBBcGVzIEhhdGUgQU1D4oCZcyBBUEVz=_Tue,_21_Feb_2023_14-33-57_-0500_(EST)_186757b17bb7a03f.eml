@@ -1,0 +1,2618 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:6157:b0:f6:3c16:48e4 with SMTP id 23csp3265900rwt;
+        Tue, 21 Feb 2023 11:37:26 -0800 (PST)
+X-Received: by 2002:a05:6000:1141:b0:2c5:8e30:457f with SMTP id d1-20020a056000114100b002c58e30457fmr4206525wrx.29.1677008246540;
+        Tue, 21 Feb 2023 11:37:26 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1677008246; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=GCTANmQ/+gffoUtEX2nTK7nI7zTkv1+mtdZB47nGzNHfL/3DRLMGGlZCHislxfK4jx
+         8yk7ujZ9Hf83qYeH8KGqTGoujEiV7lx5NlWsryL1PMjod9RM5FAT6OtLiIiMDXFXuIPy
+         Fd+h4zAXQJ2Qc5cVIIjJSaAJHpScOrGxTEbHQFAYJMX0qzuQ6YMTv4FCS1J5hQoKrUYc
+         hlpsNVLAq/f9Hr1vV8Z+couuRsMwwVe6MroCAKpFf+/fiFe88gozYpYTlMmMgl0mt6qM
+         l30SGEei5v0R79reJR9yYeCnPsOBdHCCEUgHP8bk8vn/7fnWLyDbGeKHRW1bG5Iuj/Qs
+         8Npg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=xFWz2grFcujRRN4lcKdpZJKr15mefAb82PFm42y4rZk=;
+        b=tHBZ9Bn+aFwblxbcHdrxGrRt2cu3l7NQ+kILMyLKLn1pqO71wbOmzW8jCVcCIxiug3
+         UV/uq2QOU6dFAwOqnBg6th9/oeYYJOBOvvQTakwE5mw1rH5DU1od9o8/0Ajii4Wb3/A8
+         91pgFD9GrxDLEAcgrhKX0sD0JDesZsDFkUcCI/lmCzpyk0fymXmrv/ykrHTVgCRZwiGQ
+         PPyqJ+CUeNxoZeGi3hSO194cHaz9jY0AMdOL/P9c4W4ruoET5wRQQqkKKx5zxIDcQ4at
+         HMejncPBTUq4DVd/1Oj5RSQVcD+AgmPJi4MMagVbQsm+42v43KbE69MLSgRjFJlwZSVF
+         NXJQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=RcmlCLVc;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id c5-20020a5d5285000000b002c555ef1681sor1640845wrv.3.2023.02.21.11.37.26
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 21 Feb 2023 11:37:26 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=RcmlCLVc;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=xFWz2grFcujRRN4lcKdpZJKr15mefAb82PFm42y4rZk=;
+        b=61uXXT9OV04ApUXC2D5Jac/lNUbhhF31RxTJRPKItYf6qRKuNqq+8yl6lOBatVkUOC
+         BYRVNpFpp9islax8DFH/dDkEuqrrZxAQ1BOps+SyeZYIsllF39+X6avmxB1cSiLR0gcj
+         zBKX8+VEwIGvd2+e90WSmoy/HXnr/7I7FA9R+l83NVZZQJNLovQuqGl5Y9mu+krUGLq+
+         zZD/JtXfGD12eWkgJTZVZBbl0zqeXt/unT10+KN7bHAnqTSpzvktaT5pHCWnIpeENp64
+         fMxnO/IC8GwWBsatWU6lEjmRrFATqtSB0EBXpiOeECXXEYdtQIqKdTZJOcwIzH042Sct
+         1llw==
+X-Gm-Message-State: AO0yUKULkdxTWsM4Uz2ibQ/AFcihhA1HK6Ris/13NDa2laP5zwbmvTI0
+	VUKQzndk1dn7Xrxxm6GmlsmrFrIblj6DZ+Kx9DLsN40GBlMyHU2iBQ==
+X-Received: by 2002:a5d:46cb:0:b0:2c5:4f4a:4c9d with SMTP id g11-20020a5d46cb000000b002c54f4a4c9dmr112130wrs.85.1677008245950;
+        Tue, 21 Feb 2023 11:37:25 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:fa90:0:0:0:0:0 with SMTP id h16csp2344897wrr;
+        Tue, 21 Feb 2023 11:37:23 -0800 (PST)
+X-Received: by 2002:a05:600c:1656:b0:3e0:ffd4:bfab with SMTP id o22-20020a05600c165600b003e0ffd4bfabmr4766914wmn.13.1677008243049;
+        Tue, 21 Feb 2023 11:37:23 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1677008243; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=utOz5VFjmYGK61Fc9OnQoI+nVYZIuBPcs6yNNh8LkG/3Iv6vbPWjxSzRUIPgeUzlb4
+         rB679M2PYxFZtPrqBLgL6V/EZHuwG0p9kHFU8vhAhSD00aPc5s/iMu8hBN0dNrfju2Cy
+         eGL5z9V+h7zr8AYPSemzFOfdf9jaVdRhWTbFNgi2mFuIMeUrXQ+fCEbmBMoeKUUimNQC
+         Jfqi+ICoNLM8RK5T1+3yIppyc0RnChWO5J2RsOp2P93REcqBAJRh6ATahKVhqzwqZelO
+         noIy7M5uFBUI/SbYQWjn0rCukaDXEJTuIPclgV0VmRu0AJr19UcQXbEy/m9EIX3TGDdF
+         XESg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=xFWz2grFcujRRN4lcKdpZJKr15mefAb82PFm42y4rZk=;
+        b=c+HgywChVs7Lyf7/VfH2fHXSHlKBFEEVtCXeZ4snpEs61Ze3vWG+juMsDull8p7EST
+         PJF1uX2iLyegM0NoJZ/0/luzqn1sQUUEt6DVZB6dD1n8Kx9m9jOc1uDSYY78BJab76fZ
+         vk5pe1wJpPjE+CmNSJBzEIELDnwTZSkBj5r+qen4qQrXgAxrFQPtVHghmuRuwWFi4FSd
+         EWJoOsgg92wXFdoB96ojq9oFqBx8wNedLakCYqukcsDdD8/MYYoxlgjZsalknPDKBZ/B
+         VraPbs199bdtv1jh7c3LjavrhAdPjuJQvRTH3JCmP2Z/5CJYm9XhMbfBoA8FRMZ53KXt
+         7zwA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=RcmlCLVc;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230221143357.30618705.287441@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230221143357.30618705.287441@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230221143357.30618705.287441@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id n8-20020a05600c500800b003e1e175b94fsor2023153wmr.27.2023.02.21.11.37.22
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 21 Feb 2023 11:37:23 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20230221143357.30618705.287441@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AK7set9kj9g9xScaCG/ivWtc5pi7vzWk6xxXEJRoYreRpR3Yv36VYBRSf6XOKWH3jQKQlorgx7zDzimKNvN1K/kpy0O4d3UqTTU=
+X-Received: by 2002:a05:600c:3084:b0:3de:27c3:ef13 with SMTP id g4-20020a05600c308400b003de27c3ef13mr3730616wmn.9.1677008242780;
+        Tue, 21 Feb 2023 11:37:22 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1677008242; cv=none;
+        d=google.com; s=arc-20160816;
+        b=jZgtyKGIZyFU9LCZuhb85izNG8VudJ7yM3Y8kYRieYK+RW1VVYmueYVNpYI5ZKGyPm
+         Udoo7cCql5OVn5T4dEUF0uemWIfoB3hBmxPGHXarNTjnIVwJ90mQN/NJ/PjmTSVE1EbX
+         8zIe0UdWWYChySFSX3P+v69NO332mf1OUUzV5BjKOvICREzynOIkQecEqcDvMZ98So2d
+         1sA1Jr2A2wf+VdKJ0KZaUtkzJNz4HWWb+rKIw6aG9mEvVciOny9WFTW/kWRdUscxv95J
+         WahBERUyJRv5Q141gA3e/q+C7fKWxBqBeQeVVV1ao7E8t7xRIP/0HKzMHftpl9FiWN2/
+         vJGQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=xFWz2grFcujRRN4lcKdpZJKr15mefAb82PFm42y4rZk=;
+        b=EqQDaZBus0fKf+CUnaMlSYZJE8Onvz9Fuu8dJwBb36KWcneyTI6QRETcm6E0UGhR05
+         j4f1RAb1w9O4DORNwg8eK32ESVO/Lp1cOhTspjUxnbxQxb6Z/piqIA935hSCAt3z0cn2
+         K9pn+ZW9b/GcfCRmeR6DRp1bLNRZwl2w7WbyCHeXNRDMi+1/urYniNC0G5JSdxvULNuD
+         zb0013IW3JfGiwsI25/RboS53hkC3zGKJerxu0Olj+6i778m8HhPzzBGNLEd3AbGo8ou
+         MseiM0wPJcuQnE8BTKZrFOJe732/5s4WSEHoYuTuwRlks34hQjGlS2YRDSSnpSXancAZ
+         EvYw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=RcmlCLVc;
+       spf=pass (google.com: domain of delivery_20230221143357.30618705.287441@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230221143357.30618705.287441@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230221143357.30618705.287441@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id p21-20020a05600c1d9500b003e21fa67323si213928wms.0.2023.02.21.11.37.22
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 21 Feb 2023 11:37:22 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20230221143357.30618705.287441@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=0pph1TKtfzirdboE9D83536WkrWseGn3iNAOQZ55kVg=;
+ b=RcmlCLVc/x58c2xA40qktFmoop5urJtD3VaWbd82bxXvhIzhZrxYOj8LoTKKH9keTjIn/sqMSXHH
+   MTQsJCuYWKQ5YpyLvao9Jmp94zf+PEKPYssvdLl/NhDgY5mNQoZjUGkSQBWboWFgO0YldcLkXoeK
+   HzFonzoRAaXr0NVKhTI=
+Received: from nj2mta-18.sailthru.com (204.153.121.18) by pmta29.sailthru.com id huken22sd4sb for <bloomberg@khamel.com>; Tue, 21 Feb 2023 14:37:21 -0500 (envelope-from <delivery_20230221143357.30618705.287441@mx.sailthru.com>)
+Date: Tue, 21 Feb 2023 14:33:57 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230221143357.30618705.287441@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IEFNQyBBcGVzIEhhdGUgQU1D4oCZcyBBUEVz?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_54457742_671153999.1677008037043"
+Precedence: bulk
+X-Feedback-ID: 6358:30618705:campaign:sailthru
+X-TM-ID: 20230221143357.30618705.287441
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wrylilac.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ci89jl.65sh/befd7100
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ci89jl.65sh/befd7100>, <mailto:unsubscribe_20230221143357.30618705.287441@mx.sailthru.com>
+X-rpcampaign: stjko30618705
+
+------=_Part_54457742_671153999.1677008037043
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        I have previously expressed my fondness for AMC Entertainment Holdi=
+ngs Inc.=E2=80=99s APEs scheme. AMC was a big meme stock and had a lot of i=
+nvesto
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Apes vs. APEs
+   =20
+ =20
+
+I have previously  expressed my fondness=C2=A0for AMC Entertainment Holding=
+s Inc.=E2=80=99s APEs=C2=A0scheme. AMC was a big meme stock and had=C2=A0a =
+lot of investors who wanted to buy its stock; it also needed a lot of money=
+ and was happy to sell stock to them. But its corporate charter only allowe=
+d it to issue about 524 million common shares, and AMC was running out of s=
+tock to sell. It asked its shareholders to authorize more shares but =E2=80=
+=94=C2=A0well, they didn=E2=80=99t exactly say no. What happened is that AM=
+C withdrew the request for more shares because it couldn=E2=80=99t get enou=
+gh votes, and it couldn=E2=80=99t get enough votes=C2=A0in part=C2=A0becaus=
+e its existing shareholders were worried about dilution, but also in (proba=
+bly larger) part because AMC=E2=80=99s overwhelmingly retail investor base =
+simply doesn=E2=80=99t vote. Retail shareholders tend not to vote much on a=
+nything; they are hard to reach, and voting your shares is confusing and po=
+intless enough that ordinary retail investors rarely do it.
+But AMC needed a majority of all of its shares to vote to authorize new sha=
+res; not voting is equivalent to voting no. So AMC had people who wanted to=
+ buy stock, it wanted to sell them stock, and it (probably) thought that it=
+s shareholders wanted it to issue more stock =E2=80=94=C2=A0but it couldn=
+=E2=80=99t reach those shareholders to get them to vote to approve more sto=
+ck.
+So AMC came up with a clever trick, the APEs, AMC Preferred Equity Units. I=
+t created a new class of preferred stock; each preferred share has the econ=
+omic rights of 100 shares of common stock, gets 100 votes and votes togethe=
+r with the common stock on everything. Then it gave its shareholders 1/100t=
+h of a preferred share =E2=80=94=C2=A0an APE =E2=80=94=C2=A0for each common=
+ share, creating sort of a stock split. Then it started selling more APEs t=
+o raise cash, and sold a big block of APEs to a hedge fund called Antara Ca=
+pital. And now it is=C2=A0 asking its shareholders =E2=80=94=C2=A0APE holde=
+rs and common shareholders, all voting together =E2=80=94=C2=A0to approve a=
+ charter amendment to authorize new shares, do a reverse share split and co=
+nvert the APEs into common shares. This vote should succeed, because:
+=09There are now many more APEs than common shares, and the APE holders hav=
+e an incentive to vote yes. (APEs trade at a big discount to common shares,=
+ and if the APEs are converted that discount will naturally close.)=09APEs =
+are more likely to be held by professional arbitrageurs, not retail investo=
+rs, so they are more likely to vote.=09A big block of APEs is held by Antar=
+a, which has signed an agreement to vote its shares in favor of the amendme=
+nt.=09The preferred shares underlying the APEs are held by a depositary, Co=
+mputershare Trust Co., which has agreed to vote=C2=A0all=C2=A0of the prefer=
+red shares in proportion to how any voting APEs vote. So if 20% of the APEs=
+ vote yes, 5% vote no, and 75% don=E2=80=99t vote at all, Computershare wil=
+l vote 80% of the preferred stock for yes, which will be enough to pass the=
+ amendments even if all of the common stock doesn=E2=80=99t vote (or votes =
+no).
+
+AMC=E2=80=99s problem was that its retail investors don=E2=80=99t vote, and=
+ it came up with a solution. I like it!
+Not everyone does. Before=C2=A0the APEs, it probably made sense for AMC=E2=
+=80=99s common shareholders to vote to authorize more shares: AMC needed mo=
+ney, and if it could sell shares at high prices to new investors, that was =
+good for existing shareholders. (If you are selling stock at prices higher =
+than fundamental value, that=E2=80=99s=C2=A0accretive, not dilutive.
+  [1]
+) A rational AMC shareholder, pre-APEs, probably should have wanted to auth=
+orize more shares, even if the shareholders=C2=A0did not bother to=C2=A0vot=
+e=C2=A0to make that happen.=C2=A0
+But now that the APEs=C2=A0are=C2=A0outstanding, the common shareholders mi=
+ght rationally not want to convert them into common stock. The APEs closed =
+on Friday at $2.40 per APE; the common stock closed at $5.24. When the APEs=
+ convert into common, those prices will converge. It=E2=80=99s not entirely=
+ clear if the final price should be closer to $2.40 or $5.24, but it=E2=80=
+=99s plausible that it would be somewhere in the middle, meaning that votin=
+g for the conversion would reduce=C2=A0the value of the common stock. If yo=
+u are a common shareholder, converting all the APEs into common stock defin=
+itely=C2=A0is=C2=A0dilutive, and you might not like it.
+  [2]
+=C2=A0You might vote against authorizing new shares. That doesn=E2=80=99t m=
+atter very much: The APEs have a majority of the voting power and are very =
+incentivized to vote for their own conversion. But you might be mad.
+You might sue.=C2=A0Here is a lawsuit against AMC that was filed in Delawar=
+e Chancery Court yesterday:
+
+This Action challenges a course of complex and disloyal corporate engineeri=
+ng by the Defendants=E2=80=94described by AMC=E2=80=99s Chief Executive Off=
+icer and Chairman, Defendant Adam M. Aron (=E2=80=9CAron=E2=80=9D) as an ex=
+ercise in =E2=80=9C3-D chess=E2=80=9D=E2=80=94 devised to achieve a simple =
+aim: eviscerating the voting power of AMC=E2=80=99s Class A stockholders in=
+ order to force through approval of a proposed dilutive share count increas=
+e that those stockholders repeatedly had rebuffed and were not willing to s=
+upport at the corporate ballot box. ...
+Seizing on increases in AMC=E2=80=99s stock price driven by retail investor=
+s, AMC sold nearly all of the Company=E2=80=99s remaining authorized shares=
+ of Class A common stock to raise capital. Thereafter, AMC proposed on mult=
+iple occasions to amend the Company=E2=80=99s certificate of incorporation =
+to authorize the issuance of additional shares of Class A common stock=E2=
+=80=94but those proposals were rebuffed repeatedly by the Company=E2=80=99s=
+ existing Class A common stockholders, who twice forced the withdrawal of s=
+uch proposals.
+In response, AMC embarked on a course of complex corporate engineering for =
+the plain and obvious purpose of circumventing the will of the Company=E2=
+=80=99s existing stockholders and securing a dilutive increase in the numbe=
+r of authorized Class A shares over their unambiguous opposition. =E2=80=A6
+With outstanding APEs outnumbering the Class A common shares by nearly 2 to=
+ 1 and the Depositary Voting Requirement supercharging the APEs=E2=80=99 vo=
+ting power as a class vis-=C3=A0-vis AMC=E2=80=99s Class A stockholders, AM=
+C is poised to finally force through the Class A share count increase that =
+was opposed repeatedly by Class A stockholders before AMC and the Board too=
+k steps to reconstitute their electorate.
+AMC and the Board presumably believe their game of =E2=80=9C3-D chess=E2=80=
+=9D against the Class A stockholders is approaching checkmate. But, as deta=
+iled herein, the vote cannot be allowed to proceed as planned. In their zea=
+l to circumvent the will of the Class A stockholders, Defendants have breac=
+hed their fiduciary duties and violated the [Delaware General Corporation=
+=C2=A0Law].
+
+There are two main arguments. One is sort of a technical one: Delaware law =
+says that the common shareholders have to get to vote on any charter amendm=
+ent that would =E2=80=9Calter or change the powers, preferences, or special=
+ rights of the shares of such class so as to affect them adversely,=E2=80=
+=9D and the shareholders here argue that=C2=A0the issuance of the APEs=C2=
+=A0reduced their rights and so should have been put to a shareholder vote.
+  [3]
+ The APEs are what is called =E2=80=9Cblank-check preferred stock,=E2=80=9D=
+ meaning that AMC=E2=80=99s=C2=A0corporate charter=C2=A0allows the board of=
+ directors to create and issue new preferred stock with whatever terms they=
+ like, but the argument here is that creating the APEs reduced the rights o=
+f the common and so separately violated the law:
+
+At the time the Board created the Preferred Shares, AMC had only one class =
+of authorized stock with voting rights, its Class A common stock. The right=
+ to vote on matters requiring stockholder approval was not shared with any =
+other class. Thus, the right to vote was a special characteristic of the co=
+mmon stock in the capital structure of AMC.
+Specifically, the sole or primary purpose of the Preferred Stock=E2=80=99s =
+creation and issuance was to eviscerate the voting power of the Company=E2=
+=80=99s Class A=C2=A0stockholders and effectively fashion a new electorate =
+that, unlike the pre-existing stockholder base, would not rebuff the Board=
+=E2=80=99s proposals to issue additional common stock. That is, before the =
+creation of the Preferred Stock, AMC=E2=80=99s Class A stockholders had the=
+ power and right to reject a specific proposal desired by the Board. This p=
+ower and right conflicted with the desires of the Board, so the Board creat=
+ed and issued the Preferred Stock for the purpose of removing that power an=
+d right from the Company=E2=80=99s Class A stockholders.=C2=A0
+
+I am not really convinced =E2=80=94=C2=A0if this is right, then that means =
+that boards can never issue=C2=A0voting preferred stock without shareholder=
+ approval, which might make sense but would come as=C2=A0a surprise =E2=80=
+=94=C2=A0but you can see the appeal of it. It=C2=A0is=C2=A0strange to think=
+ that=C2=A0boards could issue new shares with unlimited voting power withou=
+t shareholder approval.
+The other argument is that the board violated its fiduciary duty to shareho=
+lders: Even if the technical mechanics of the APEs all work, AMC created th=
+e APEs to get around its shareholders=E2=80=99 preferences, which seems ick=
+y and disloyal. From the complaint:
+The Director Defendants approved the creation and sale of the Preferred Sto=
+ck, imposed the Depositary Voting Requirement, and arranged for the impendi=
+ng vote on the Proposals all for the purpose of circumventing the will of t=
+he Company=E2=80=99s existing stockholders, who previously had rejected pro=
+posals by the Board to increase the total number of authorized shares of Cl=
+ass A common stock=E2=80=94essentially creating a new electorate=C2=A0and n=
+ew voting rules, simply because they did not have the votes to get what the=
+y wanted. All of these steps were taken for the very purpose of reversing t=
+he likely outcome of Defendants=E2=80=99 desired vote to increase the autho=
+rized number of Class A shares. This course of conduct constituted a breach=
+ of fiduciary duty.
+Here again I think I sympathize with the board. It=E2=80=99s their job to r=
+un the company. In the exercise of their=C2=A0fiduciary duty, thinking abou=
+t what is best for the company and its shareholders, they figured the compa=
+ny would be better off issuing more stock. Their reasoning for that =E2=80=
+=94 that the company=C2=A0needed money and=C2=A0people  wanted to buy the s=
+tock at $60! =E2=80=94=C2=A0was, I think,=C2=A0impeccable.
+  [4]
+=C2=A0But they couldn=E2=80=99t do it, because they couldn=E2=80=99t get sh=
+areholder approval, in part because shareholders disagreed with them but in=
+ large part because the shareholders simply didn=E2=80=99t vote. The compan=
+y had a problem, its shareholders could not get their act together to solve=
+ it, so the board solved it for them. That=E2=80=99s what the board is supp=
+osed to do, and Delaware courts do tend to be pretty sympathetic to boards =
+of directors who make what they think is the right decision for their compa=
+ny even if the shareholders don=E2=80=99t like it.=C2=A0
+But they are less sympathetic to boards who try to take voting rights away =
+from shareholders, and there is something about the APEs that feels like ch=
+eating. So I don=E2=80=99t know what will happen. The special meeting to au=
+thorize new shares and convert the APEs into common is  scheduled for March=
+ 14; the complaining shareholders=C2=A0have asked to postpone it for 60 day=
+s while they argue to block it in court.
+One other point here. Shareholder class action lawsuits like this are now u=
+sually filed by institutional investors, often municipal retirement funds.
+  [5]
+=C2=A0The lead plaintiff here =E2=80=94=C2=A0the shareholder who brought th=
+e lawsuit =E2=80=94=C2=A0is the=C2=A0Allegheny County Employees=E2=80=99 Re=
+tirement System, a pretty normal shareholder class-action plaintiff, yet on=
+e who is somehow unrepresentative of AMC=E2=80=99s meme-stock shareholders.=
+ Really you want a pseudonymous individual Reddit poster to lead the lawsui=
+t.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Regional Health
+   =20
+ =20
+
+There seems to have been a wave of companies recently that are using blank-=
+check preferred stock to get around a lack of enthusiasm for shareholder vo=
+ting. AMC is the highest-profile example, but   we talked last week about S=
+oligenix Inc., which had a different approach: It gave all shareholders a d=
+ividend of a special preferred stock that gave them an extra 1,000 votes pe=
+r common share, but the preferred automatically disappears (1) right before=
+ the shareholder vote, if it doesn=E2=80=99t vote, or (2) right after the s=
+hareholder vote, if it does vote. So at the time of the vote, the only shar=
+es that are outstanding are the ones that vote,
+  [6]
+ so you never face the problem where a majority of the shareholders=C2=A0wh=
+o actually vote vote for the thing you want, but most shareholders don=E2=
+=80=99t vote at all so it doesn=E2=80=99t=C2=A0pass.
+This is, I think, a bit weirder than the AMC approach, but also less aggres=
+sive; AMC=E2=80=99s approach involved placing big chunks of new stock with =
+sympathetic holders, while this one is just sort of an accounting trick. An=
+yway it=E2=80=99s now a trend; Regional Health Properties  did one last Fri=
+day:
+
+Regional Health Properties, Inc. =E2=80=A6 announced today that its Board o=
+f Directors declared a dividend of one one-thousandth (1/1,000th) of a shar=
+e of the Company=E2=80=99s newly-designated Series E Redeemable Preferred S=
+hares, no par value per share (the =E2=80=9CSeries E Preferred Stock=E2=80=
+=9D), for each outstanding share of the Company=E2=80=99s common stock (=E2=
+=80=9CCommon Stock=E2=80=9D), payable on February 28, 2023 to shareholders =
+of record as of 5:00 p.m. Eastern Time on February 27, 2023. The outstandin=
+g shares of Series E Preferred Stock will vote together with the outstandin=
+g shares of Common Stock, as a single class, exclusively with respect to (a=
+) any proposal submitted to holders of Common Stock to amend the Company=E2=
+=80=99s Amended and Restated Articles of Incorporation to (i) make certain =
+changes to the terms of the Company=E2=80=99s 10.875% Series A Cumulative R=
+edeemable Preferred Shares and (ii) temporarily increase the authorized num=
+ber of shares of the Company (including the authorized shares of the Compan=
+y=E2=80=99s preferred stock) (the =E2=80=9CCharter Amendment Proposal=E2=80=
+=9D) .... Subject to certain limitations, each outstanding share of Series =
+E Preferred Stock will have 1,000,000 votes per share (or 1,000 votes per o=
+ne one-thousandth of a share of Series E Preferred Stock).
+All shares of Series E Preferred Stock that are not present in person or by=
+ proxy at any meeting of shareholders held to vote on the above-described p=
+roposals as of immediately prior to the opening of the polls on the Charter=
+ Amendment Proposal at such meeting will automatically be redeemed by the C=
+ompany. Any outstanding shares of Series E Preferred Stock that have not be=
+en so redeemed will be redeemed if such redemption is ordered by the Compan=
+y=E2=80=99s Board of Directors or automatically upon the approval by the Co=
+mpany=E2=80=99s shareholders of the Charter Amendment Proposal.
+
+On the one hand it seems like a good solution. On the other hand, the law s=
+ays that this sort of thing =E2=80=94=C2=A0here, approving the issuance of =
+new shares =E2=80=94=C2=A0requires the approval of a majority of the outsta=
+nding=C2=A0shares, not just a majority of the shares that vote. If you can =
+magically get around that requirement with this sort of accounting gimmick,=
+ then it=E2=80=99s not much of a requirement.
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Ensign Peak
+   =20
+ =20
+
+The rule in the US is roughly=C2=A0that if you are an institution =E2=80=94=
+=C2=A0a pension fund, an endowment, an investment firm, a bank, etc. =E2=80=
+=94=C2=A0and you own more than $100 million worth of stocks, you have to di=
+sclose your stock holdings every quarter.
+  [7]
+=C2=A0You file Form 13F with the US Securities and Exchange Commission, and=
+ it is publicly available and everyone can see what stocks you own.
+If you don=E2=80=99t like this, there are reasonably standard solutions. Th=
+e rule is actually that you have to file Form 13F if you =E2=80=9Cexercise =
+investment discretion=E2=80=9D over your stocks =E2=80=94=C2=A0meaning basi=
+cally that you decide what stocks to buy and sell
+  [8]
+=C2=A0=E2=80=94=C2=A0so the trick is not to do that. If you have $1 billion=
+ to invest in the stock market, you go to a big institutional investment ma=
+nager and say =E2=80=9Chi, here=E2=80=99s $1 billion, please buy some stock=
+s for me.=E2=80=9D You agree on some investment criteria =E2=80=94=C2=A0the=
+ mandate for your investment =E2=80=94=C2=A0and you pay the manager some fe=
+es, and the manager buys the stocks for you. This saves you all sorts of ag=
+gravation =E2=80=94=C2=A0picking the stocks, doing the trading, setting up =
+custody arrangements, etc. =E2=80=94=C2=A0but it also probably saves you fr=
+om filing a Form 13F, if that=E2=80=99s your goal. Instead, the investment =
+management firm files a Form 13F showing all of the stocks that it owns =E2=
+=80=94=C2=A0that it =E2=80=9Cexercises investment discretion=E2=80=9D over =
+=E2=80=94=C2=A0for its various clients, including you. You are just an anon=
+ymous client; your data is aggregated with the rest of the clients.
+Presumably if you=E2=80=99re a big enough account, and interested enough in=
+ the markets, you might end up doing some kibbitzing about what your invest=
+ment manager is buying. The manager=E2=80=99s mandate for your account migh=
+t be narrow and customized for=C2=A0your interests; if you are, for instanc=
+e, a fund that invests money for a religious group, you might tell the mana=
+ger=C2=A0to avoid certain sorts of sin stocks. You might chat periodically =
+with the manager about what they=E2=80=99re up to, and you might give them =
+some input, without quite =E2=80=9Cexercising investment discretion=E2=80=
+=9D over the account. The manager=C2=A0makes the investing decisions, but w=
+ith your preferences in mind.
+You could push this further. Hire an =E2=80=9Cinvestment manager=E2=80=9D t=
+o buy and sell stocks for you, but just tell them exactly what to buy and s=
+ell. They=E2=80=99re not=C2=A0really=C2=A0in the business of making the inv=
+estment decisions; they=E2=80=99re just in the business of sitting between =
+you and the public Form 13F requirement. This way you get exactly the stock=
+s you want, and presumably a fake investment manager is=C2=A0cheaper=C2=A0t=
+han a real one.
+This is an imperfect solution, since your fake investment manager presumabl=
+y won=E2=80=99t have=C2=A0other=C2=A0clients, so they=C2=A0will file a Form=
+ 13F that exactly describes your own stock holdings. Your name won=E2=80=99=
+t be on it, which is good, but if your holdings are big enough then people =
+might be curious. =E2=80=9CWho is this Anonymous Investments LLC that owns =
+$30 billion of stock and has one client,=E2=80=9D they might ask. But if yo=
+u=E2=80=99re doing this you can hire a=C2=A0bunch=C2=A0of different =E2=80=
+=9Cinvestment managers,=E2=80=9D have each of them own some of your stocks,=
+ and split up the disclosure=C2=A0into a bunch of anonymous Form 13F filing=
+s none of which are big or interesting enough to attract attention.
+This is illegal, though you can see how you might feel justified in doing i=
+t. =E2=80=9CWhy should random strangers get to know what stocks I own,=E2=
+=80=9D you might think. That seems to have been  what the Mormon Church tho=
+ught:
+
+The Securities and Exchange Commission today announced charges against Ensi=
+gn Peak Advisers Inc., a non-profit entity operated by The Church of Jesus =
+Christ of Latter-day Saints to manage the Church=E2=80=99s investments, for=
+ failing to file forms that would have disclosed the Church=E2=80=99s equit=
+y investments, and for instead filing forms for shell companies that obscur=
+ed the Church=E2=80=99s portfolio and misstated Ensign Peak=E2=80=99s contr=
+ol over the Church=E2=80=99s investment decisions. The SEC also announced c=
+harges against the Church for causing these violations. To settle the charg=
+es, Ensign Peak agreed to pay a $4 million penalty and the Church agreed to=
+ pay a $1 million penalty.
+The SEC=E2=80=99s order finds that, from 1997 through 2019, Ensign Peak fai=
+led to file Forms 13F, the forms on which investment managers are required =
+to disclose the value of certain securities they manage. According to the o=
+rder, the Church was concerned that disclosure of its portfolio, which by 2=
+018 grew to approximately $32 billion, would lead to negative consequences.=
+ To obscure the amount of the Church=E2=80=99s portfolio, and with the Chur=
+ch=E2=80=99s knowledge and approval, Ensign Peak created thirteen shell LLC=
+s, ostensibly with locations throughout the U.S., and filed Forms 13F in th=
+e names of these LLCs rather than in Ensign Peak=E2=80=99s name. The order =
+finds that Ensign Peak maintained investment discretion over all relevant s=
+ecurities, that it controlled the shell companies, and that it directed nom=
+inee =E2=80=9Cbusiness managers,=E2=80=9D most of whom were employed by the=
+ Church, to sign the Commission filings. The shell LLCs=E2=80=99 Forms 13F =
+misstated, among other things, that the LLCs had sole investment and voting=
+ discretion over the securities. In reality, the SEC=E2=80=99s order finds,=
+ Ensign Peak retained control over all investment and voting decisions.
+
+=E2=80=9CThe Church was concerned that disclosure of the assets in the name=
+ of Ensign Peak, a known Church affiliate, would lead to negative consequen=
+ces in light of the size of the Church=E2=80=99s portfolio,=E2=80=9D  says =
+the complaint, and you can see their point. The effect of the 13F rules her=
+e is mostly to make public that the church has a lot of money. But the rule=
+s are the rules, and setting up 13 shell LLCs to pretend to manage your mon=
+ey for you doesn=E2=80=99t really work to get around them.
+
+ =20
+   =20
+      Principles
+   =20
+ =20
+
+The term =E2=80=9Chedge fund=E2=80=9D can refer to both (1) a small firm ru=
+n by a single idiosyncratic genius with a gut instinct and a tiny pirate cr=
+ew or (2) a gigantic institution that is in the business of identifying tal=
+ented investors=C2=A0and  systematically extracting alpha from them. At som=
+e point a lot of the former category transition into the latter category, a=
+nd it can be awkward. If you started a hedge fund, and your firm grew into =
+a financial services behemoth with thousands of employees and tens of billi=
+ons of dollars under management, and you=E2=80=99re now at retirement age, =
+the tension is:
+=09On the one hand, it is very important to transition your firm into an in=
+stitution that can work without you: You owe it to your employees and to yo=
+ur clients to make sure that the firm will thrive after you leave; plus, yo=
+u probably own a bunch of shares and would like them to continue to be valu=
+able.=09On the other hand it is your firm, created in your image, and these=
+ other people don=E2=80=99t have your creative genius and are going to mess=
+ it up.
+
+I enjoyed  this New York Times article about how Ray Dalio, who has spent t=
+he last decade or so pretending to retire from Bridgewater Associates,
+  [9]
+=C2=A0apparently did his most recent retirement=C2=A0by going door to door =
+asking all of his employees for cash to get him to leave:
+
+But Mr. Dalio wasted little time in telling colleagues that he was not inte=
+rested in a simple passing of the baton, according to current and former em=
+ployees. He approached dozens of top employees =E2=80=94 at the time, Bridg=
+ewater had roughly 1,500 full-time staff members =E2=80=94 and told them th=
+ey would have to buy his shares with their own money, some of those employe=
+es said.
+Mr. Dalio offered to arrange 10-year loans to those who lacked the funds to=
+ buy him out, according to two former employees. If they declined, he intim=
+ated that they should consider leaving the firm, they said. Still, even as =
+he sold shares to his colleagues, decreasing his ownership, his founder sha=
+res kept him in control.
+
+On the one hand, that is not really how big institutional financial firms o=
+perate; Goldman Sachs Group Inc. did not take up a collection to get Lloyd =
+Blankfein to quit. On the other hand, while Bridgewater=C2=A0is=C2=A0a big =
+institutional financial firm, it is also an extension of Ray Dalio, and you=
+ can see why it=E2=80=99s hard for him to let go. =E2=80=9CAt an internal m=
+eeting last year during the heat of the exit negotiations, Mr. Dalio descri=
+bed the hedge fund as his =E2=80=98property rights,=E2=80=99 according to o=
+ne employee, and indicated that he expected to be compensated accordingly.=
+=E2=80=9D I mean, fair.
+Anyway for now there are non-Dalio=C2=A0 co-chief executive officers, Nir B=
+ar Dea and Mark Bertolini, and I guess they are remaking it in their image?
+
+In the meantime, Mr. Bar Dea has begun dismantling some parts of Mr. Dalio=
+=E2=80=99s legacy. Bridgewater dropped many of his =E2=80=9CPrinciples,=E2=
+=80=9D and their associated ratings tools. Giving unvarnished feedback to o=
+ne another =E2=80=94 a stalwart of Mr. Dalio=E2=80=99s =E2=80=9Cradical tra=
+nsparency=E2=80=9D=E2=80=94 is now optional, current employees said.
+Still, some of Mr. Bar Dea=E2=80=99s changes have a hint of the hedge fund=
+=E2=80=99s old ways. He has recently taken to telling employees that he is =
+coming up with his own list of =E2=80=9CPrinciples.=E2=80=9D
+
+What? Surely that=E2=80=99s the fastest way to get Dalio to un-retire again=
+. Never mind the money; if you scrap Dalio=E2=80=99s Principles and replace=
+ them with your own Principles and they are different principles =E2=80=94=
+=C2=A0if you replace radical transparency with radical politeness? =E2=80=
+=94=C2=A0then he=E2=80=99s going to be on you like a  hyena on a wildebeest=
+.
+
+ =20
+   =20
+      Top earning hedge fund manager
+   =20
+ =20
+
+Really the best-performing hedge fund each year =E2=80=94=C2=A0as measured =
+by percentage returns =E2=80=94=C2=A0always=C2=A0should=C2=A0be   one that =
+runs at 50x leverage:
+
+Said Haidar=E2=80=99s conviction that inflation was about to explode across=
+ the globe can be summarized by a single number: $63 billion. That=E2=80=99=
+s how much his Haidar Capital Management reported in assets to start 2022.
+The catch? The hedge fund actually oversaw just $1.2 billion.
+That copious leverage led to a tumultuous year =E2=80=94 one month the fund=
+ was up 54%, another it was down 20% =E2=80=94 but ultimately paid off, pro=
+ducing a 193% return for investors. Haidar bet big that interest rates woul=
+d climb at a rapid clip, correctly positioning to profit from the surge in =
+inflation that led to the most aggressive central bank tightening campaign =
+in a generation. =E2=80=A6
+Haidar personally raked in $859 million in 2022, placing him sixth on Bloom=
+berg=E2=80=99s annual ranking of top-earning hedge fund managers. He=E2=80=
+=99s the newest and least-known name on a list otherwise dominated by indus=
+try heavyweights. Citadel=E2=80=99s Ken Griffin, Point72=E2=80=99s Steve Co=
+hen and Millennium=E2=80=99s Izzy Englander, worth about $55 billion combin=
+ed, nabbed the first three spots.=C2=A0
+
+Obviously the worst-performing hedge fund each year should be a different o=
+ne that runs at 50x leverage. Anyway Bloomberg=E2=80=99s list of top-earnin=
+g hedge fund managers is mostly a list of=C2=A0huge multistrategy funds, su=
+ggesting that the hedge fund business is pretty institutionalized these day=
+s. But you still sometimes get a guy with his name on the door, a gut insti=
+nct and a ton of leverage breaking into the top ranks.
+
+ =20
+   =20
+      De-IPO
+   =20
+ =20
+
+We   talk   sometimes about the basic phenomenon that (1) public-market pri=
+ces move around a lot and (2) private-market prices don=E2=80=99t. If you r=
+un a private real estate firm or a portfolio of private tech company stocks=
+, and the price of publicly traded real estate companies or tech stocks fal=
+ls by 50%, you might say =E2=80=9Chuh, shame about all those public compani=
+es having problems, but=C2=A0our=C2=A0portfolio is actually=C2=A0up=C2=A01%=
+ this year.=E2=80=9D=C2=A0
+One interpretation of this is that the=C2=A0fundamental value of your secto=
+r=C2=A0really did fall by 50%, and the public market price reflects the bes=
+t possible consensus of that fact, and you are just able to ignore that bec=
+ause there is no publicly traded mark for your portfolio. Another, opposite=
+ interpretation is that the fundamental value hasn=E2=80=99t changed, but t=
+he public market panicked for reasons of its own, and you =E2=80=94=C2=A0wi=
+th your patient approach and absence of a trading price =E2=80=94=C2=A0can =
+just consider fundamental value and ignore meaningless volatility.=C2=A0
+In the latter case, private investors should want to buy public assets (and=
+ make them private) when the public market collapses, and sell private asse=
+ts (to make them public) when the public market rallies. The  Wall Street J=
+ournal reports:
+
+A growing number of newly public companies are racing back to private owner=
+ship after discovering that an IPO isn=E2=80=99t always all it=E2=80=99s cr=
+acked up to be.
+Of the hundreds of companies that went public in the boom years of 2020 and=
+ 2021, 10 have already agreed to sell themselves to private-equity firms, a=
+ccording to Dealogic. Of those that went public in 2018 or 2019, only eight=
+ have gone private in the ensuing years.
+Driving the decision to opt for a buyout over remaining public in many case=
+s is the dismal performance of the 2020-21 class of initial public offering=
+s, the majority of which now trade below their debut prices. =E2=80=A6
+Cvent Holding Corp., which entered the public market in 2021 after years of=
+ ownership by buyout firm Vista Equity Partners, is exploring a sale that c=
+ould value the event-software provider at upwards of $4 billion, The Wall S=
+treet Journal reported. Cvent had gone public by merging with a special-pur=
+pose acquisition company in a deal valued at $5.3 billion.
+
+Yes, right,=C2=A0if you own a private company and there is a SPAC boom wher=
+e people are desperate to give you cash to take it public at a high price, =
+you should do that, and then buy it back cheap a year later. On the other h=
+and the Journal  also reports:
+
+Fundraising by venture-capital firms hit a nine-year low in the fourth quar=
+ter, as the macroeconomic pressures that already weighed on technology star=
+tups began to affect the investors who underpin the industry.=C2=A0
+Venture firms raised $20.6 billion in new funds in the fourth quarter. That=
+ was a 65% drop from the year-earlier quarter and the lowest fourth-quarter=
+ amount since 2013, according to data firm Preqin Ltd., which tracks ventur=
+e-fund data. The amount was also less than half the level raised in the pre=
+ceding three months, the first time fundraising volumes decreased from the =
+third to fourth quarter since 2009, the data show.=C2=A0
+
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Vince McMahon Is Asking $9 Billion for His  Wrestling Empire.=C2=A0Vanguard=
+ chief defends decision to pull asset manager out of climate alliance. Debt=
+-Ceiling Standoff Prompts  Backup Plans, but They Face Hurdles Too. Under E=
+lon Musk, Twitter Faces Suits Claiming Over $14 Million in Unpaid Bills. Co=
+mpound Bank (not Bank!). HSBC Eyes=20
+Special Payout on Canada Sale After Ping An Battle. Adani Maps   Comeback S=
+trategy After $135 Billion Hindenburg Rout. In South Florida, an   Anti-Cat=
+hie Wood Investor Is Quietly Building a Stock Empire.=C2=A0Manchester Unite=
+d Begins Sifting Through Numerous Bids for Club. Mauritian regulators exami=
+ne bank in wake of Trafigura nickel fraud. World=E2=80=99s Largest   Four-D=
+ay Work Week Trial Finds Few Are Going Back.=C2=A0Iran   Rations Currency S=
+ales After Rial Weakens to New Record Low.=C2=A0You Want at Least $3 Millio=
+n in Savings to Retire Comfortably. Art Fair Visitor Breaks a  Jeff Koons B=
+alloon Dog Sculpture. Workers stunned as  4-foot alligator is hauled from B=
+rooklyn=E2=80=99s Prospect Park Lake.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] In fact AMC sold about 241.6 million shares for about $1.6 billion in=
+ 2021, for an average price of about $6.67, not much higher than today=E2=
+=80=99s share price (and today=E2=80=99s price is after the 2-for-1-ish pse=
+udo-stock-split caused by the APEs). But that average price is low because =
+it was selling a lot in desperation in early 2021, and had  only a few mill=
+ion shares left to sell by June 2021 when its stock was trading above $60 o=
+n meme energy. If shareholders had approved more shares *then*, as AMC=E2=
+=80=99s executives wanted, it could have hit that bid.
+
+
+  [2] A complicating factor here is that *not* voting to convert them, and =
+just letting AMC issue more APEs, is also dilutive, since it is effectively=
+ selling common-stock-like securities at a huge discount to the price of th=
+e common stock.
+
+
+  [3] The law =E2=80=94 DGCL section 242(b) =E2=80=94 also says that shareh=
+olders get to vote as a class =E2=80=9Cif the amendment would increase or d=
+ecrease the aggregate number of authorized shares of such class,=E2=80=9D b=
+ut a later sentence says that =E2=80=9CThe number of authorized shares of a=
+ny such class or classes of stock may be increased or decreased (but not be=
+low the number of shares thereof then outstanding) by the affirmative vote =
+of the holders of a majority of the stock of the corporation entitled to vo=
+te irrespective of this subsection, if so provided in the original certific=
+ate of incorporation,=E2=80=9D and AMC=E2=80=99s charter does opt out of th=
+at requirement. So the shareholders here can=E2=80=99t rely on *that* rule,=
+ but there is no exception for reducing the rights and powers of the class.
+
+
+  [4] Even the shareholder plaintiffs here  kind of agree: =E2=80=9CThe Boa=
+rd=E2=80=99s decision to sell the authorized Class A common shares was enor=
+mously profitable=E2=80=94raising over $1.8 billion in 2021. With this enor=
+mous influx of cash, the Company=E2=80=99s Board paid down some of its debt=
+s, obtained an increase in the Company=E2=80=99s credit rating, and embarke=
+d on an investment spree, greatly diversifying the Company=E2=80=99s invest=
+ments.=E2=80=9D
+
+
+  [5] The reason is that the law says that the lead plaintiff =E2=80=94 who=
+ does stuff like choose the lawyers and negotiate their fee =E2=80=94 has t=
+o be the shareholder who is =E2=80=9Cmost capable of adequately representin=
+g the interests of class members=E2=80=9D and who =E2=80=9Chas the largest =
+financial interest=E2=80=9D in the case, which tends to mean that it has to=
+ be a biggish professional institution, but the biggest asset managers most=
+ly don=E2=80=99t want to anger companies by leading lawsuits against them.
+
+
+  [6] Or, 99.9% of the shares are the ones that vote =E2=80=94 common share=
+s that don=E2=80=99t vote still count as votes against the proposal, but th=
+ey are swamped by the 1,000-vote preferred.
+
+
+  [7] More specifically,  Rule 13f-1 provides that =E2=80=9CEvery instituti=
+onal investment manager which exercises investment discretion with respect =
+to accounts holding section 13(f) securities =E2=80=A6 having an aggregate =
+fair market value on the last trading day of any month of any calendar year=
+ of at least $100,000,000 shall file a report on Form 13F =E2=80=A6 within =
+45 days after the last day of such calendar year and within 45 days after t=
+he last day of each of the first three calendar quarters of the subsequent =
+calendar year.=E2=80=9D =E2=80=9CSection 13(f) securities=E2=80=9D means ba=
+sically publicly traded stocks. =E2=80=9C Institutional investment manager=
+=E2=80=9D  means basically anyone other than an individual person trading t=
+heir own personal account. So rich individuals trading their own accounts a=
+re not subject to the rule.
+
+
+  [8] The  rules say: =E2=80=9CA person exercises =E2=80=98investment discr=
+etion=E2=80=99 with respect to an account if, directly or indirectly, such =
+person (A) is authorized to determine what securities or other property sha=
+ll be purchased or sold by or for the account, (B) makes decisions as to wh=
+at securities or other property shall be purchased or sold by or for the ac=
+count even though some other person may have responsibility for such invest=
+ment decisions, or (C) otherwise exercises such influence with respect to t=
+he purchase and sale of securities or other property by or for the account =
+as the Commission, by rule, determines, in the public interest or for the p=
+rotection of investors, should be subject to the operation of the provision=
+s of this chapter and the rules and regulations thereunder.=E2=80=9D
+
+
+  [9] Random fact: I am currently reading Jack Schwager=E2=80=99s Hedge Fun=
+d Market Wizards, which features Dalio and notes that, when he was intervie=
+wed for the book in 2011, he had recently transitioned from running Bridgew=
+ater to serving as its =E2=80=9Cmentor.=E2=80=9D This weekend=E2=80=99s Tim=
+es article describes a 2022 negotiation between Dalio and Bridgewater in wh=
+ich Dalio agreed that he would =E2=80=9Csurrender his titles, take on a new=
+ role as =E2=80=98mentor to the C.I.O.s and investment committee,=E2=80=99 =
+and remain a member of the hedge fund=E2=80=99s board.=E2=80=9D Ray Dalio i=
+s in a perpetual state of having just agreed to resign as Bridgewater=E2=80=
+=99s CIO to become its mentor.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ci89jl.65sh/8dbea826.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_54457742_671153999.1677008037043
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+I have previously expressed my fondness for AMC Entertainment Holdings Inc.=
+=E2=80=99s APEs scheme. AMC was a big meme stock and had a lot of investo
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0zMDYxODcwNSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5MDYxNDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBbcec40e2" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D30618705&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30906146&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMjIxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMjEmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBcc2274e3"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDYxODcwNSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5MDYxNDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC674394d1" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30618705&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30906146&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Apes vs. APEs</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I have previously <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/30618705.287441/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDItMDEvYW1jLWhhcy1zb21lLWNsZXZlci1hcGVzP=
+2NtcGlkPUJCRDAyMjEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1u=
+ZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIyMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ce=
+ef4b8524a319a23cB8b5fbb14" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> expressed my fondness</a>=C2=A0for AMC =
+Entertainment Holdings Inc.=E2=80=99s APEs=C2=A0scheme. AMC was a big meme =
+stock and had=C2=A0a lot of investors who wanted to buy its stock; it also =
+needed a lot of money and was happy to sell stock to them. But its corporat=
+e charter only allowed it to issue about 524 million common shares, and AMC=
+ was running out of stock to sell. It asked its shareholders to authorize m=
+ore shares but =E2=80=94=C2=A0well, they didn=E2=80=99t exactly say no. Wha=
+t happened is that AMC withdrew the request for more shares because it coul=
+dn=E2=80=99t get enough votes, and it couldn=E2=80=99t get enough votes=C2=
+=A0<em>in part=C2=A0</em>because its existing shareholders were worried abo=
+ut dilution, but also in (probably larger) part because AMC=E2=80=99s overw=
+helmingly retail investor base simply doesn=E2=80=99t vote. Retail sharehol=
+ders tend not to vote much on anything; they are hard to reach, and voting =
+your shares is confusing and pointless enough that ordinary retail investor=
+s rarely do it.</p>
+<p style=3D"margin: 16px 0;">But AMC needed a majority of all of its shares=
+ to vote to authorize new shares; not voting is equivalent to voting no. So=
+ AMC had people who wanted to buy stock, it wanted to sell them stock, and =
+it (probably) thought that its shareholders wanted it to issue more stock =
+=E2=80=94=C2=A0but it couldn=E2=80=99t reach those shareholders to get them=
+ to vote to approve more stock.</p>
+<p style=3D"margin: 16px 0;">So AMC came up with a clever trick, the APEs, =
+AMC Preferred Equity Units. It created a new class of preferred stock; each=
+ preferred share has the economic rights of 100 shares of common stock, get=
+s 100 votes and votes together with the common stock on everything. Then it=
+ gave its shareholders 1/100th of a preferred share =E2=80=94=C2=A0an APE =
+=E2=80=94=C2=A0for each common share, creating sort of a stock split. Then =
+it started selling more APEs to raise cash, and sold a big block of APEs to=
+ a hedge fund called Antara Capital. And now it is=C2=A0<a href=3D"https://=
+link.mail.bloombergbusiness.com/click/30618705.287441/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMDIvYW1jLWJyaW5ncy1vdXQtdGhl=
+LXBvcGNvcm4_Y21waWQ9QkJEMDIyMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1=
+fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjIxJnV0bV9jYW1wYWlnbj1tb25leXN0dW=
+Zm/607f07ceef4b8524a319a23cBb6931b81" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> asking its shareholders</a> =
+=E2=80=94=C2=A0APE holders and common shareholders, all voting together =E2=
+=80=94=C2=A0to approve a charter amendment to authorize new shares, do a re=
+verse share split and convert the APEs into common shares. This vote should=
+ succeed, because:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">There are now many more APEs than com=
+mon shares, and the APE holders have an incentive to vote yes. (APEs trade =
+at a big discount to common shares, and if the APEs are converted that disc=
+ount will naturally close.)</li>=09<li style=3D"margin-bottom: 5px;">APEs a=
+re more likely to be held by professional arbitrageurs, not retail investor=
+s, so they are more likely to vote.</li>=09<li style=3D"margin-bottom: 5px;=
+">A big block of APEs is held by Antara, which has signed an agreement to v=
+ote its shares in favor of the amendment.</li>=09<li style=3D"margin-bottom=
+: 5px;">The preferred shares underlying the APEs are held by a depositary, =
+Computershare Trust Co., which has agreed to vote=C2=A0<em>all=C2=A0</em>of=
+ the preferred shares in proportion to how any voting APEs vote. So if 20% =
+of the APEs vote yes, 5% vote no, and 75% don=E2=80=99t vote at all, Comput=
+ershare will vote 80% of the preferred stock for yes, which will be enough =
+to pass the amendments even if all of the common stock doesn=E2=80=99t vote=
+ (or votes no).</li>
+</ol>
+<p style=3D"margin: 16px 0;">AMC=E2=80=99s problem was that its retail inve=
+stors don=E2=80=99t vote, and it came up with a solution. I like it!</p>
+<p style=3D"margin: 16px 0;">Not everyone does. <em>Before=C2=A0</em>the AP=
+Es, it probably made sense for AMC=E2=80=99s common shareholders to vote to=
+ authorize more shares: AMC needed money, and if it could sell shares at hi=
+gh prices to new investors, that was good for existing shareholders. (If yo=
+u are selling stock at prices higher than fundamental value, that=E2=80=99s=
+=C2=A0<em>accretive</em>, not dilutive.<a class=3D"footnote-index" href=3D"=
+#footnote-1" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: n=
+one !important; background-color: transparent !important; display: inline-b=
+lock;">
+<span>[1]</span>
+</a>) A rational AMC shareholder, pre-APEs, probably <em>should</em> have w=
+anted to authorize more shares, even if the shareholders=C2=A0did not bothe=
+r to=C2=A0<em>vote=C2=A0</em>to make that happen.=C2=A0</p>
+<p style=3D"margin: 16px 0;">But now that the APEs=C2=A0<em>are=C2=A0</em>o=
+utstanding, the common shareholders might rationally not want to convert th=
+em into common stock. The APEs closed on Friday at $2.40 per APE; the commo=
+n stock closed at $5.24. When the APEs convert into common, those prices wi=
+ll converge. It=E2=80=99s not entirely clear if the final price should be c=
+loser to $2.40 or $5.24, but it=E2=80=99s plausible that it would be somewh=
+ere in the middle, meaning that voting for the conversion would <em>reduce=
+=C2=A0</em>the value of the common stock. If you are a common shareholder, =
+converting all the APEs into common stock definitely=C2=A0<em>is=C2=A0</em>=
+dilutive, and you might not like it.<a class=3D"footnote-index" href=3D"#fo=
+otnote-2" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none=
+ !important; background-color: transparent !important; display: inline-bloc=
+k;">
+<span>[2]</span>
+</a>=C2=A0You might vote against authorizing new shares. That doesn=E2=80=
+=99t matter very much: The APEs have a majority of the voting power and are=
+ very incentivized to vote for their own conversion. But you might be mad.<=
+/p>
+<p style=3D"margin: 16px 0;">You might sue.=C2=A0<a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/30618705.287441/aHR0cHM6Ly9hc3NldHMuYndieC5p=
+by9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JFZXNlSWdZYUZQYy92MA/607f07ceef4b=
+8524a319a23cB0c2921e4" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">Here is a lawsuit</a> against AMC that was f=
+iled in Delaware Chancery Court yesterday:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">This Action challenges a course of complex and=
+ disloyal corporate engineering by the Defendants=E2=80=94described by AMC=
+=E2=80=99s Chief Executive Officer and Chairman, Defendant Adam M. Aron (=
+=E2=80=9CAron=E2=80=9D) as an exercise in =E2=80=9C3-D chess=E2=80=9D=E2=80=
+=94 devised to achieve a simple aim: eviscerating the voting power of AMC=
+=E2=80=99s Class A stockholders in order to force through approval of a pro=
+posed dilutive share count increase that those stockholders repeatedly had =
+rebuffed and were not willing to support at the corporate ballot box. ...</=
+p>
+<p style=3D"margin: 16px 0;">Seizing on increases in AMC=E2=80=99s stock pr=
+ice driven by retail investors, AMC sold nearly all of the Company=E2=80=99=
+s remaining authorized shares of Class A common stock to raise capital. The=
+reafter, AMC proposed on multiple occasions to amend the Company=E2=80=99s =
+certificate of incorporation to authorize the issuance of additional shares=
+ of Class A common stock=E2=80=94but those proposals were rebuffed repeated=
+ly by the Company=E2=80=99s existing Class A common stockholders, who twice=
+ forced the withdrawal of such proposals.</p>
+<p style=3D"margin: 16px 0;">In response, AMC embarked on a course of compl=
+ex corporate engineering for the plain and obvious purpose of circumventing=
+ the will of the Company=E2=80=99s existing stockholders and securing a dil=
+utive increase in the number of authorized Class A shares over their unambi=
+guous opposition. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">With outstanding APEs outnumbering the Class A=
+ common shares by nearly 2 to 1 and the Depositary Voting Requirement super=
+charging the APEs=E2=80=99 voting power as a class vis-=C3=A0-vis AMC=E2=80=
+=99s Class A stockholders, AMC is poised to finally force through the Class=
+ A share count increase that was opposed repeatedly by Class A stockholders=
+ before AMC and the Board took steps to reconstitute their electorate.</p>
+<p style=3D"margin: 16px 0;">AMC and the Board presumably believe their gam=
+e of =E2=80=9C3-D chess=E2=80=9D against the Class A stockholders is approa=
+ching checkmate. But, as detailed herein, the vote cannot be allowed to pro=
+ceed as planned. In their zeal to circumvent the will of the Class A stockh=
+olders, Defendants have breached their fiduciary duties and violated the [D=
+elaware General Corporation=C2=A0Law].</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">There are two main arguments. One is sort of a=
+ technical one: <a href=3D"https://link.mail.bloombergbusiness.com/click/30=
+618705.287441/aHR0cHM6Ly9kZWxjb2RlLmRlbGF3YXJlLmdvdi90aXRsZTgvYzAwMS9zYzA4L=
+2luZGV4Lmh0bWw/607f07ceef4b8524a319a23cB8def53a5" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">Delaware law</a> =
+says that the common shareholders have to get to vote on any charter amendm=
+ent that would =E2=80=9Calter or change the powers, preferences, or special=
+ rights of the shares of such class so as to affect them adversely,=E2=80=
+=9D and the shareholders here argue that=C2=A0<em>the issuance of the APEs=
+=C2=A0</em>reduced their rights and so should have been put to a shareholde=
+r vote.<a class=3D"footnote-index" href=3D"#footnote-3" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: none !important; background-color=
+: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a> The APEs are what is called =E2=80=9Cblank-check preferred stock,=E2=
+=80=9D meaning that AMC=E2=80=99s=C2=A0<a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/30618705.287441/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy=
+9lZGdhci9kYXRhLzE0MTE1NzkvMDAwMTEwNDY1OTEzMDkyMDAxL2ExMy0yNjk1N18xZXgzZDEua=
+HRt/607f07ceef4b8524a319a23cB834e96f7" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">corporate charter</a>=C2=A0a=
+llows the board of directors to create and issue new preferred stock with w=
+hatever terms they like, but the argument here is that creating the APEs re=
+duced the rights of the common and so separately violated the law:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">At the time the Board created the Preferred Sh=
+ares, AMC had only one class of authorized stock with voting rights, its Cl=
+ass A common stock. The right to vote on matters requiring stockholder appr=
+oval was not shared with any other class. Thus, the right to vote was a spe=
+cial characteristic of the common stock in the capital structure of AMC.</p=
+>
+<p style=3D"margin: 16px 0;">Specifically, the sole or primary purpose of t=
+he Preferred Stock=E2=80=99s creation and issuance was to eviscerate the vo=
+ting power of the Company=E2=80=99s Class A=C2=A0stockholders and effective=
+ly fashion a new electorate that, unlike the pre-existing stockholder base,=
+ would not rebuff the Board=E2=80=99s proposals to issue additional common =
+stock. That is, before the creation of the Preferred Stock, AMC=E2=80=99s C=
+lass A stockholders had the power and right to reject a specific proposal d=
+esired by the Board. This power and right conflicted with the desires of th=
+e Board, so the Board created and issued the Preferred Stock for the purpos=
+e of removing that power and right from the Company=E2=80=99s Class A stock=
+holders.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I am not really convinced =E2=80=94=C2=A0if th=
+is is right, then that means that boards can never issue=C2=A0voting prefer=
+red stock without shareholder approval, which might make sense but would co=
+me as=C2=A0a surprise =E2=80=94=C2=A0but you can see the appeal of it. It=
+=C2=A0<em>is=C2=A0</em>strange to think that=C2=A0boards could issue new sh=
+ares with unlimited voting power without shareholder approval.</p>
+<p style=3D"margin: 16px 0;">The other argument is that the board violated =
+its fiduciary duty to shareholders: Even if the technical mechanics of the =
+APEs all work, AMC created the APEs to get around its shareholders=E2=80=99=
+ preferences, which seems icky and disloyal. From the complaint:</p>
+<blockquote><p style=3D"margin: 16px 0;">The Director Defendants approved t=
+he creation and sale of the Preferred Stock, imposed the Depositary Voting =
+Requirement, and arranged for the impending vote on the Proposals all for t=
+he purpose of circumventing the will of the Company=E2=80=99s existing stoc=
+kholders, who previously had rejected proposals by the Board to increase th=
+e total number of authorized shares of Class A common stock=E2=80=94essenti=
+ally creating a new electorate=C2=A0and new voting rules, simply because th=
+ey did not have the votes to get what they wanted. All of these steps were =
+taken for the very purpose of reversing the likely outcome of Defendants=E2=
+=80=99 desired vote to increase the authorized number of Class A shares. Th=
+is course of conduct constituted a breach of fiduciary duty.</p></blockquot=
+e>
+<p style=3D"margin: 16px 0;">Here again I think I sympathize with the board=
+. It=E2=80=99s their job to run the company. In the exercise of their=C2=A0=
+fiduciary duty, thinking about what is best for the company and its shareho=
+lders, they figured the company would be better off issuing more stock. The=
+ir reasoning for that =E2=80=94 that the company=C2=A0needed money and=C2=
+=A0people <a href=3D"https://link.mail.bloombergbusiness.com/click/30618705=
+.287441/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDY=
+tMDIvYW1jLWJyaW5ncy1vdXQtdGhlLXBvcGNvcm4_Y21waWQ9QkJEMDIyMTIzX01PTkVZU1RVRk=
+YmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjIxJ=
+nV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cCb6931b81" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ wanted to buy the stock at $60</a>! =E2=80=94=C2=A0was, I think,=C2=A0impe=
+ccable.<a class=3D"footnote-index" href=3D"#footnote-4" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: none !important; background-color=
+: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a>=C2=A0But they couldn=E2=80=99t do it, because they couldn=E2=80=99t ge=
+t shareholder approval, in part because shareholders disagreed with them bu=
+t in large part because the shareholders simply didn=E2=80=99t vote. The co=
+mpany had a problem, its shareholders could not get their act together to s=
+olve it, so the board solved it for them. That=E2=80=99s what the board is =
+supposed to do, and Delaware courts do tend to be pretty sympathetic to boa=
+rds of directors who make what they think is the right decision for their c=
+ompany even if the shareholders don=E2=80=99t like it.=C2=A0</p>
+<p style=3D"margin: 16px 0;">But they are less sympathetic to boards who tr=
+y to take voting rights away from shareholders, and there is something abou=
+t the APEs that feels like cheating. So I don=E2=80=99t know what will happ=
+en. The special meeting to authorize new shares and convert the APEs into c=
+ommon is <a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.=
+287441/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYt=
+MDIvYW1jLWJyaW5ncy1vdXQtdGhlLXBvcGNvcm4_Y21waWQ9QkJEMDIyMTIzX01PTkVZU1RVRkY=
+mdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjIxJn=
+V0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cDb6931b81" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ scheduled for March 14</a>; the complaining shareholders=C2=A0have <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aHR0cHM6L=
+y9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JXWmhXTVhYa1ZI=
+VS92MA/607f07ceef4b8524a319a23cBf2b19c9b" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">asked to postpone it</a>=
+ for 60 days while they argue to block it in court.</p>
+<p style=3D"margin: 16px 0;">One other point here. Shareholder class action=
+ lawsuits like this are now usually filed by institutional investors, often=
+ municipal retirement funds.<a class=3D"footnote-index" href=3D"#footnote-5=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: none !import=
+ant; background-color: transparent !important; display: inline-block;">
+<span>[5]</span>
+</a>=C2=A0The lead plaintiff here =E2=80=94=C2=A0the shareholder who brough=
+t the lawsuit =E2=80=94=C2=A0is the=C2=A0Allegheny County Employees=E2=80=
+=99 Retirement System, a pretty normal shareholder class-action plaintiff, =
+yet one who is somehow unrepresentative of AMC=E2=80=99s meme-stock shareho=
+lders. Really you want a pseudonymous individual Reddit poster to lead the =
+lawsuit.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDYxODcwNSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5MDYxNDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDef189531" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30618705&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30906146&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDYxODcwNSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5MDYxNDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEef189531" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30618705&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30906146&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDYxODcwNSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5MDYxNDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF4d6c34cf" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30618705&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30906146&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDYxODcwNSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5MDYxNDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG4d6c34cf" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30618705&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30906146&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDYxODcwNSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5MDYxNDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHcafac31d" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30618705&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30906146&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDYxODcwNSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5MDYxNDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIcafac31d" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30618705&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30906146&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Regional Health</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">There seems to have been a wave of companies r=
+ecently that are using blank-check preferred stock to get around a lack of =
+enthusiasm for shareholder voting. AMC is the highest-profile example, but =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDItMTYvdGhlL=
+XNlYy1jb21lcy1mb3ItY3J5cHRvLWN1c3RvZHk_Y21waWQ9QkJEMDIyMTIzX01PTkVZU1RVRkYm=
+dXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjIxJnV=
+0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB3e30c257" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  we talked last week about Soligenix Inc.</a>, which had a different appro=
+ach: It gave all shareholders a dividend of a special preferred stock that =
+gave them an extra 1,000 votes per common share, but the preferred automati=
+cally disappears (1) right before the shareholder vote, if it doesn=E2=80=
+=99t vote, or (2) right after the shareholder vote, if it does vote. So at =
+the time of the vote, the only shares that are outstanding are the ones tha=
+t vote,<a class=3D"footnote-index" href=3D"#footnote-6" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: none !important; background-color=
+: transparent !important; display: inline-block;">
+<span>[6]</span>
+</a> so you never face the problem where a majority of the shareholders=C2=
+=A0<em>who actually vote </em>vote for the thing you want, but most shareho=
+lders don=E2=80=99t vote at all so it doesn=E2=80=99t=C2=A0pass.</p>
+<p style=3D"margin: 16px 0;">This is, I think, a bit weirder than the AMC a=
+pproach, but also less aggressive; AMC=E2=80=99s approach involved placing =
+big chunks of new stock with sympathetic holders, while this one is just so=
+rt of an accounting trick. Anyway it=E2=80=99s now a trend; Regional Health=
+ Properties <a href=3D"https://link.mail.bloombergbusiness.com/click/306187=
+05.287441/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEwMDQ3MjQvM=
+DAwMTQ5MzE1MjIzMDA1NDc5L2V4OTktMS5odG0/607f07ceef4b8524a319a23cB280c59aa" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> did one last Friday</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Regional Health Properties, Inc. =E2=80=A6 ann=
+ounced today that its Board of Directors declared a dividend of one one-tho=
+usandth (1/1,000th) of a share of the Company=E2=80=99s newly-designated Se=
+ries E Redeemable Preferred Shares, no par value per share (the =E2=80=9CSe=
+ries E Preferred Stock=E2=80=9D), for each outstanding share of the Company=
+=E2=80=99s common stock (=E2=80=9CCommon Stock=E2=80=9D), payable on Februa=
+ry 28, 2023 to shareholders of record as of 5:00 p.m. Eastern Time on Febru=
+ary 27, 2023. The outstanding shares of Series E Preferred Stock will vote =
+together with the outstanding shares of Common Stock, as a single class, ex=
+clusively with respect to (a) any proposal submitted to holders of Common S=
+tock to amend the Company=E2=80=99s Amended and Restated Articles of Incorp=
+oration to (i) make certain changes to the terms of the Company=E2=80=99s 1=
+0.875% Series A Cumulative Redeemable Preferred Shares and (ii) temporarily=
+ increase the authorized number of shares of the Company (including the aut=
+horized shares of the Company=E2=80=99s preferred stock) (the =E2=80=9CChar=
+ter Amendment Proposal=E2=80=9D) .... Subject to certain limitations, each =
+outstanding share of Series E Preferred Stock will have 1,000,000 votes per=
+ share (or 1,000 votes per one one-thousandth of a share of Series E Prefer=
+red Stock).</p>
+<p style=3D"margin: 16px 0;">All shares of Series E Preferred Stock that ar=
+e not present in person or by proxy at any meeting of shareholders held to =
+vote on the above-described proposals as of immediately prior to the openin=
+g of the polls on the Charter Amendment Proposal at such meeting will autom=
+atically be redeemed by the Company. Any outstanding shares of Series E Pre=
+ferred Stock that have not been so redeemed will be redeemed if such redemp=
+tion is ordered by the Company=E2=80=99s Board of Directors or automaticall=
+y upon the approval by the Company=E2=80=99s shareholders of the Charter Am=
+endment Proposal.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">On the one hand it seems like a good solution.=
+ On the other hand, the law says that this sort of thing =E2=80=94=C2=A0her=
+e, approving the issuance of new shares =E2=80=94=C2=A0requires the approva=
+l of a majority of the outstanding=C2=A0shares, not just a majority of the =
+shares that vote. If you can magically get around that requirement with thi=
+s sort of accounting gimmick, then it=E2=80=99s not much of a requirement.<=
+/p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0zMDYxODcwNSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5MDYxNDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cJcb034785" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D30618705&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30906146&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Ensign Peak</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The rule in the US is roughly=C2=A0that if you=
+ are an institution =E2=80=94=C2=A0a pension fund, an endowment, an investm=
+ent firm, a bank, etc. =E2=80=94=C2=A0and you own more than $100 million wo=
+rth of stocks, you have to disclose your stock holdings every quarter.<a cl=
+ass=3D"footnote-index" href=3D"#footnote-7" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: none !important; background-color: transparen=
+t !important; display: inline-block;">
+<span>[7]</span>
+</a>=C2=A0You file <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/30618705.287441/aHR0cHM6Ly93d3cuc2VjLmdvdi9wZGYvZm9ybTEzZi5wZGY/607f07ceef=
+4b8524a319a23cB065f2c04" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">Form 13F</a> with the US Securities and Ex=
+change Commission, and it is publicly available and everyone can see what s=
+tocks you own.</p>
+<p style=3D"margin: 16px 0;">If you don=E2=80=99t like this, there are reas=
+onably standard solutions. The rule is actually that you have to file Form =
+13F if you =E2=80=9Cexercise investment discretion=E2=80=9D over your stock=
+s =E2=80=94=C2=A0meaning basically that you decide what stocks to buy and s=
+ell<a class=3D"footnote-index" href=3D"#footnote-8" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: none !important; background-color: tr=
+ansparent !important; display: inline-block;">
+<span>[8]</span>
+</a>=C2=A0=E2=80=94=C2=A0so the trick is not to do that. If you have $1 bil=
+lion to invest in the stock market, you go to a big institutional investmen=
+t manager and say =E2=80=9Chi, here=E2=80=99s $1 billion, please buy some s=
+tocks for me.=E2=80=9D You agree on some investment criteria =E2=80=94=C2=
+=A0the mandate for your investment =E2=80=94=C2=A0and you pay the manager s=
+ome fees, and the manager buys the stocks for you. This saves you all sorts=
+ of aggravation =E2=80=94=C2=A0picking the stocks, doing the trading, setti=
+ng up custody arrangements, etc. =E2=80=94=C2=A0but it also probably saves =
+you from filing a Form 13F, if that=E2=80=99s your goal. Instead, the inves=
+tment management firm files a Form 13F showing all of the stocks that it ow=
+ns =E2=80=94=C2=A0that it =E2=80=9Cexercises investment discretion=E2=80=9D=
+ over =E2=80=94=C2=A0for its various clients, including you. You are just a=
+n anonymous client; your data is aggregated with the rest of the clients.</=
+p>
+<p style=3D"margin: 16px 0;">Presumably if you=E2=80=99re a big enough acco=
+unt, and interested enough in the markets, you might end up doing some kibb=
+itzing about what your investment manager is buying. The manager=E2=80=99s =
+mandate for your account might be narrow and customized for=C2=A0your inter=
+ests; if you are, for instance, a fund that invests money for a religious g=
+roup, you might tell the manager=C2=A0to avoid certain sorts of sin stocks.=
+ You might chat periodically with the manager about what they=E2=80=99re up=
+ to, and you might give them some input, without quite =E2=80=9Cexercising =
+investment discretion=E2=80=9D over the account. The manager=C2=A0makes the=
+ investing decisions, but with your preferences in mind.</p>
+<p style=3D"margin: 16px 0;">You could push this further. Hire an =E2=80=9C=
+investment manager=E2=80=9D to buy and sell stocks for you, but just tell t=
+hem exactly what to buy and sell. They=E2=80=99re not=C2=A0<em>really=C2=A0=
+</em>in the business of making the investment decisions; they=E2=80=99re ju=
+st in the business of sitting between you and the public Form 13F requireme=
+nt. This way you get exactly the stocks you want, and presumably a fake inv=
+estment manager is=C2=A0<em>cheaper=C2=A0</em>than a real one.</p>
+<p style=3D"margin: 16px 0;">This is an imperfect solution, since your fake=
+ investment manager presumably won=E2=80=99t have=C2=A0<em>other=C2=A0</em>=
+clients, so they=C2=A0will file a Form 13F that exactly describes your own =
+stock holdings. Your name won=E2=80=99t be on it, which is good, but if you=
+r holdings are big enough then people might be curious. =E2=80=9CWho is thi=
+s Anonymous Investments LLC that owns $30 billion of stock and has one clie=
+nt,=E2=80=9D they might ask. But if you=E2=80=99re doing this you can hire =
+a=C2=A0<em>bunch=C2=A0</em>of different =E2=80=9Cinvestment managers,=E2=80=
+=9D have each of them own some of your stocks, and split up the disclosure=
+=C2=A0into a bunch of anonymous Form 13F filings none of which are big or i=
+nteresting enough to attract attention.</p>
+<p style=3D"margin: 16px 0;">This is illegal, though you can see how you mi=
+ght feel justified in doing it. =E2=80=9CWhy should random strangers get to=
+ know what stocks I own,=E2=80=9D you might think. That seems to have been =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aH=
+R0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMy0zNQ/607f07ceef4b85=
+24a319a23cBc253557a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> what the Mormon Church thought</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission today a=
+nnounced charges against Ensign Peak Advisers Inc., a non-profit entity ope=
+rated by The Church of Jesus Christ of Latter-day Saints to manage the Chur=
+ch=E2=80=99s investments, for failing to file forms that would have disclos=
+ed the Church=E2=80=99s equity investments, and for instead filing forms fo=
+r shell companies that obscured the Church=E2=80=99s portfolio and misstate=
+d Ensign Peak=E2=80=99s control over the Church=E2=80=99s investment decisi=
+ons. The SEC also announced charges against the Church for causing these vi=
+olations. To settle the charges, Ensign Peak agreed to pay a $4 million pen=
+alty and the Church agreed to pay a $1 million penalty.</p>
+<p style=3D"margin: 16px 0;">The SEC=E2=80=99s order finds that, from 1997 =
+through 2019, Ensign Peak failed to file Forms 13F, the forms on which inve=
+stment managers are required to disclose the value of certain securities th=
+ey manage. According to the order, the Church was concerned that disclosure=
+ of its portfolio, which by 2018 grew to approximately $32 billion, would l=
+ead to negative consequences. To obscure the amount of the Church=E2=80=99s=
+ portfolio, and with the Church=E2=80=99s knowledge and approval, Ensign Pe=
+ak created thirteen shell LLCs, ostensibly with locations throughout the U.=
+S., and filed Forms 13F in the names of these LLCs rather than in Ensign Pe=
+ak=E2=80=99s name. The order finds that Ensign Peak maintained investment d=
+iscretion over all relevant securities, that it controlled the shell compan=
+ies, and that it directed nominee =E2=80=9Cbusiness managers,=E2=80=9D most=
+ of whom were employed by the Church, to sign the Commission filings. The s=
+hell LLCs=E2=80=99 Forms 13F misstated, among other things, that the LLCs h=
+ad sole investment and voting discretion over the securities. In reality, t=
+he SEC=E2=80=99s order finds, Ensign Peak retained control over all investm=
+ent and voting decisions.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe Church was concerned that disclos=
+ure of the assets in the name of Ensign Peak, a known Church affiliate, wou=
+ld lead to negative consequences in light of the size of the Church=E2=80=
+=99s portfolio,=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30618705.287441/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2FkbWluLzIw=
+MjMvMzQtOTY5NTEucGRm/607f07ceef4b8524a319a23cBab9ae1df" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> says the c=
+omplaint</a>, and you can see their point. The effect of the 13F rules here=
+ is mostly to make public that the church has a lot of money. But the rules=
+ are the rules, and setting up 13 shell LLCs to pretend to manage your mone=
+y for you doesn=E2=80=99t really work to get around them.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Principles</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The term =E2=80=9Chedge fund=E2=80=9D can refe=
+r to both (1) a small firm run by a single idiosyncratic genius with a gut =
+instinct and a tiny pirate crew or (2) a gigantic institution that is in th=
+e business of identifying talented investors=C2=A0and <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/30618705.287441/aHR0cHM6Ly93d3cudGhlZGl=
+mZi5jby9hcmNoaXZlL3BvZC1wZW9wbGUv/607f07ceef4b8524a319a23cBba398e74" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> systematically extracting alpha from them</a>. At some point a lot of th=
+e former category transition into the latter category, and it can be awkwar=
+d. If you started a hedge fund, and your firm grew into a financial service=
+s behemoth with thousands of employees and tens of billions of dollars unde=
+r management, and you=E2=80=99re now at retirement age, the tension is:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">On the one hand, it is very important =
+to transition your firm into an institution that can work without you: You =
+owe it to your employees and to your clients to make sure that the firm wil=
+l thrive after you leave; plus, you probably own a bunch of shares and woul=
+d like them to continue to be valuable.</li>=09<li style=3D"margin-bottom: =
+5px;">On the other hand it is your firm, created in your image, and these o=
+ther people don=E2=80=99t have your creative genius and are going to mess i=
+t up.</li>
+</ul>
+<p style=3D"margin: 16px 0;">I enjoyed <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/30618705.287441/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMy=
+8wMi8yMC9idXNpbmVzcy9icmlkZ2V3YXRlci1yYXktZGFsaW8tcmV0aXJlLmh0bWw/607f07cee=
+f4b8524a319a23cB24742edd" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> this New York Times article</a> about ho=
+w Ray Dalio, who has spent the last decade or so pretending to retire from =
+Bridgewater Associates,<a class=3D"footnote-index" href=3D"#footnote-9" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: none !important; =
+background-color: transparent !important; display: inline-block;">
+<span>[9]</span>
+</a>=C2=A0apparently did his most recent retirement=C2=A0by going door to d=
+oor asking all of his employees for cash to get him to leave:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">But Mr. Dalio wasted little time in telling co=
+lleagues that he was not interested in a simple passing of the baton, accor=
+ding to current and former employees. He approached dozens of top employees=
+ =E2=80=94 at the time, Bridgewater had roughly 1,500 full-time staff membe=
+rs =E2=80=94 and told them they would have to buy his shares with their own=
+ money, some of those employees said.</p>
+<p style=3D"margin: 16px 0;">Mr. Dalio offered to arrange 10-year loans to =
+those who lacked the funds to buy him out, according to two former employee=
+s. If they declined, he intimated that they should consider leaving the fir=
+m, they said. Still, even as he sold shares to his colleagues, decreasing h=
+is ownership, his founder shares kept him in control.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">On the one hand, that is not really how big in=
+stitutional financial firms operate; Goldman Sachs Group Inc. did not take =
+up a collection to get Lloyd Blankfein to quit. On the other hand, while Br=
+idgewater=C2=A0<em>is=C2=A0</em>a big institutional financial firm, it is a=
+lso an extension of Ray Dalio, and you can see why it=E2=80=99s hard for hi=
+m to let go. =E2=80=9CAt an internal meeting last year during the heat of t=
+he exit negotiations, Mr. Dalio described the hedge fund as his =E2=80=98pr=
+operty rights,=E2=80=99 according to one employee, and indicated that he ex=
+pected to be compensated accordingly.=E2=80=9D I mean, fair.</p>
+<p style=3D"margin: 16px 0;">Anyway for now there are non-Dalio=C2=A0<a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aHR0cHM6=
+Ly93d3cuYnJpZGdld2F0ZXIuY29tL3Blb3BsZS9icmlkZ2V3YXRlcnMtbmV3LWxlYWRlcnNoaXA=
+/607f07ceef4b8524a319a23cBc614e145" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> co-chief executive officers</a=
+>, Nir Bar Dea and Mark Bertolini, and I guess they are remaking it in thei=
+r image?</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In the meantime, Mr. Bar Dea has begun dismant=
+ling some parts of Mr. Dalio=E2=80=99s legacy. Bridgewater dropped many of =
+his =E2=80=9CPrinciples,=E2=80=9D and their associated ratings tools. Givin=
+g unvarnished feedback to one another =E2=80=94 a stalwart of Mr. Dalio=E2=
+=80=99s =E2=80=9Cradical transparency=E2=80=9D=E2=80=94 is now optional, cu=
+rrent employees said.</p>
+<p style=3D"margin: 16px 0;">Still, some of Mr. Bar Dea=E2=80=99s changes h=
+ave a hint of the hedge fund=E2=80=99s old ways. He has recently taken to t=
+elling employees that he is coming up with his own list of =E2=80=9CPrincip=
+les.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">What? Surely that=E2=80=99s the fastest way to=
+ get Dalio to un-retire again. Never mind the money; if you scrap Dalio=E2=
+=80=99s Principles and replace them with your own Principles and they are d=
+ifferent principles =E2=80=94=C2=A0if you replace radical transparency with=
+ radical politeness? =E2=80=94=C2=A0then he=E2=80=99s going to be on you li=
+ke a <a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.2874=
+41/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAxMS8wMy8wMy90aGUtd2VpcmQtd29ybGQtb2YtcmF5=
+LWRhbGlvcy1icmlkZ2V3YXRlci1oZWRnZS1mdW5kLmh0bWw/607f07ceef4b8524a319a23cB8d=
+89b7a5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> hyena on a wildebeest</a>.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Top earning hedge fund manager</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Really the best-performing hedge fund each yea=
+r =E2=80=94=C2=A0as measured by percentage returns =E2=80=94=C2=A0always=C2=
+=A0<em>should=C2=A0</em>be <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30618705.287441/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbG=
+VzLzIwMjMtMDItMTcva2VuLWdyaWZmaW4tc3RldmUtY29oZW4tdG9wLWhpZ2hlc3QtaGVkZ2UtZ=
+nVuZC1lYXJuZXItbGlzdD9jbXBpZD1CQkQwMjIxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVt=
+YWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMjEmdXRtX2NhbXBhaWduPW1=
+vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB5cc13b3e" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">  one that runs at =
+50x leverage</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Said Haidar=E2=80=99s conviction that inflatio=
+n was about to explode across the globe can be summarized by a single numbe=
+r: $63 billion. That=E2=80=99s how much his Haidar Capital Management repor=
+ted in assets to start 2022.</p>
+<p style=3D"margin: 16px 0;">The catch? The hedge fund actually oversaw jus=
+t $1.2 billion.</p>
+<p style=3D"margin: 16px 0;">That copious leverage led to a tumultuous year=
+ =E2=80=94 one month the fund was up 54%, another it was down 20% =E2=80=94=
+ but ultimately paid off, producing a 193% return for investors. Haidar bet=
+ big that interest rates would climb at a rapid clip, correctly positioning=
+ to profit from the surge in inflation that led to the most aggressive cent=
+ral bank tightening campaign in a generation. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Haidar personally raked in $859 million in 202=
+2, placing him sixth on Bloomberg=E2=80=99s annual ranking of top-earning h=
+edge fund managers. He=E2=80=99s the newest and least-known name on a list =
+otherwise dominated by industry heavyweights. Citadel=E2=80=99s Ken Griffin=
+, Point72=E2=80=99s Steve Cohen and Millennium=E2=80=99s Izzy Englander, wo=
+rth about $55 billion combined, nabbed the first three spots.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Obviously the worst-performing hedge fund each=
+ year should be a different one that runs at 50x leverage. Anyway Bloomberg=
+=E2=80=99s list of top-earning hedge fund managers is mostly a list of=C2=
+=A0huge multistrategy funds, suggesting that the hedge fund business is pre=
+tty institutionalized these days. But you still sometimes get a guy with hi=
+s name on the door, a gut instinct and a ton of leverage breaking into the =
+top ranks.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">De-IPO</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/30618705.287441/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMDEtMDQvcHJpdmF0ZS1tYXJrZXRzLWRvbi10LWxpa2UtdG8tZ28tZG93=
+bj9jbXBpZD1CQkQwMjIxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U=
+9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMjEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07=
+ceef4b8524a319a23cB57cc865e" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">  talk</a> <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/30618705.287441/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMTItMjAveW91LWQtcGF5LW5vdC10by1zZWUteW91=
+ci1zdG9jay1wcmljZT9jbXBpZD1CQkQwMjIxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWl=
+sJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMjEmdXRtX2NhbXBhaWduPW1vbm=
+V5c3R1ZmY/607f07ceef4b8524a319a23cB70f0fcae" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">  sometimes</a> about =
+the basic phenomenon that (1) public-market prices move around a lot and (2=
+) private-market prices don=E2=80=99t. If you run a private real estate fir=
+m or a portfolio of private tech company stocks, and the price of publicly =
+traded real estate companies or tech stocks falls by 50%, you might say =E2=
+=80=9Chuh, shame about all those public companies having problems, but=C2=
+=A0<em>our=C2=A0</em>portfolio is actually=C2=A0<em>up=C2=A0</em>1% this ye=
+ar.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">One interpretation of this is that the=C2=A0<e=
+m>fundamental value </em>of your sector=C2=A0really did fall by 50%, and th=
+e public market price reflects the best possible consensus of that fact, an=
+d you are just able to ignore that because there is no publicly traded mark=
+ for your portfolio. Another, opposite interpretation is that the fundament=
+al value hasn=E2=80=99t changed, but the public market panicked for reasons=
+ of its own, and you =E2=80=94=C2=A0with your patient approach and absence =
+of a trading price =E2=80=94=C2=A0can just consider fundamental value and i=
+gnore meaningless volatility.=C2=A0</p>
+<p style=3D"margin: 16px 0;">In the latter case, private investors should w=
+ant to buy public assets (and make them private) when the public market col=
+lapses, and sell private assets (to make them public) when the public marke=
+t rallies. The <a href=3D"https://link.mail.bloombergbusiness.com/click/306=
+18705.287441/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9nb2luZy1wcml2YXRlLWFnYW=
+luLWlzLWFsbC10aGUtcmFnZS1hbW9uZy1uZXdseS1wdWJsaWMtY29tcGFuaWVzLTkzZmZmNDVlP=
+21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cB916b686b" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Wal=
+l Street Journal reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A growing number of newly public companies are=
+ racing back to private ownership after discovering that an IPO isn=E2=80=
+=99t always all it=E2=80=99s cracked up to be.</p>
+<p style=3D"margin: 16px 0;">Of the hundreds of companies that went public =
+in the boom years of 2020 and 2021, 10 have already agreed to sell themselv=
+es to private-equity firms, according to Dealogic. Of those that went publi=
+c in 2018 or 2019, only eight have gone private in the ensuing years.</p>
+<p style=3D"margin: 16px 0;">Driving the decision to opt for a buyout over =
+remaining public in many cases is the dismal performance of the 2020-21 cla=
+ss of initial public offerings, the majority of which now trade below their=
+ debut prices. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Cvent Holding Corp., which entered the public =
+market in 2021 after years of ownership by buyout firm Vista Equity Partner=
+s, is exploring a sale that could value the event-software provider at upwa=
+rds of $4 billion, The Wall Street Journal reported. Cvent had gone public =
+by merging with a special-purpose acquisition company in a deal valued at $=
+5.3 billion.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Yes, right,=C2=A0if you own a private company =
+and there is a SPAC boom where people are desperate to give you cash to tak=
+e it public at a high price, you should do that, and then buy it back cheap=
+ a year later. On the other hand the Journal <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/30618705.287441/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRp=
+Y2xlcy92ZW50dXJlLWZ1bmRyYWlzaW5nLWhpdHMtbmluZS15ZWFyLWxvdy1jMmI0Nzc0P21vZD1=
+ocF9sZWFkX3Bvczc/607f07ceef4b8524a319a23cBb48ff602" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> also reports</=
+a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Fundraising by venture-capital firms hit a nin=
+e-year low in the fourth quarter, as the macroeconomic pressures that alrea=
+dy weighed on technology startups began to affect the investors who underpi=
+n the industry.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Venture firms raised $20.6 billion in new fund=
+s in the fourth quarter. That was a 65% drop from the year-earlier quarter =
+and the lowest fourth-quarter amount since 2013, according to data firm Pre=
+qin Ltd., which tracks venture-fund data. The amount was also less than hal=
+f the level raised in the preceding three months, the first time fundraisin=
+g volumes decreased from the third to fourth quarter since 2009, the data s=
+how.=C2=A0</p>
+</blockquote>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Vince McMahon Is Asking $9 Billion for His <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMTcvdmluY2UtbWNt=
+YWhvbi1pcy1hc2tpbmctOS1iaWxsaW9uLWZvci1oaXMtd3Jlc3RsaW5nLWVtcGlyZT9jbXBpZD1=
+CQkQwMjIxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldH=
+RlciZ1dG1fdGVybT0yMzAyMjEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a=
+319a23cB9981922e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> Wrestling Empire</a>.=C2=A0Vanguard chief defend=
+s decision to pull asset manager out of <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/30618705.287441/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvO=
+WRhYjY1ZGQtNjRjOC00MGMwLWFlNmUtZmFjNDY4OWRjYzc3/607f07ceef4b8524a319a23cBba=
+901cb3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">climate alliance</a>. Debt-Ceiling Standoff Prompts <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aHR0cHM6L=
+y93d3cud3NqLmNvbS9hcnRpY2xlcy9kZWJ0LWNlaWxpbmctc3RhbmRvZmYtcHJvbXB0cy1iYWNr=
+dXAtcGxhbnMtYnV0LXRoZXktZmFjZS1odXJkbGVzLXRvby02NzFjM2NlMz9tb2Q9aHBfbGVhZF9=
+wb3Mz/607f07ceef4b8524a319a23cBd3e702ca" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Backup Plans</a>, but T=
+hey Face Hurdles Too. Under Elon Musk, Twitter Faces Suits Claiming Over $1=
+4 Million in <a href=3D"https://link.mail.bloombergbusiness.com/click/30618=
+705.287441/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy91bmRlci1lbG9uLW11c2stdHdp=
+dHRlci1mYWNlcy1zdWl0cy1jbGFpbWluZy1vdmVyLTE0LW1pbGxpb24taW4tdW5wYWlkLWJpbGx=
+zLTQ4NGQ4YmM0P21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cBfa4aff5b=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">Unpaid Bills</a>. Compound Bank (<a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/30618705.287441/aHR0cHM6Ly93d3cuYXhpb3MuY29tLzIwMj=
+MvMDIvMTgvY29tcG91bmQtYmFuYy1oaWdoLXlpZWxkLXNhdmluZ3MtNy1hcHk/607f07ceef4b8=
+524a319a23cBc602413e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">not Bank!</a>). HSBC Eyes <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/30618705.287441/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMjEvaHNiYy1jb25zaWRlcnMtc3BlY2lh=
+bC1wYXlvdXQtYWZ0ZXItZWFybmluZ3MtanVtcD9jbXBpZD1CQkQwMjIxMjNfTU9ORVlTVFVGRiZ=
+1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMjEmdX=
+RtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb69a97c3" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">
+Special Payout</a> on Canada Sale After Ping An Battle. Adani Maps <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMTkvYWRhbmktbWFwcy1j=
+b21lYmFjay1zdHJhdGVneS1hZnRlci0xMzItYmlsbGlvbi1oaW5kZW5idXJnLXJvdXQ_Y21waWQ=
+9QkJEMDIyMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZX=
+R0ZXImdXRtX3Rlcm09MjMwMjIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524=
+a319a23cBa1444eb7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">  Comeback Strategy</a> After $135 Billion Hinde=
+nburg Rout. In South Florida, an <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/30618705.287441/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjMtMDItMjEvZ3FnLWNvLWZvdW5kZXItcmFqaXYtamFpbi1pcy1jcmVhdGluZy1=
+hbi1pbnZlc3RpbmctZW1waXJlLWluLWZsb3JpZGE_Y21waWQ9QkJEMDIyMTIzX01PTkVZU1RVRk=
+YmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjIxJ=
+nV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB2ce848d7" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  Anti-Cathie Wood</a> Investor Is Quietly Building a Stock Empire.=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aHR0=
+cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9tYW5jaGVzdGVyLXVuaXRlZC1zYWxlLWdsYXplcnM=
+tcWF0YXItcmF0Y2xpZmZlLXByZW1pZXItbGVhZ3VlLWE1OWYxYTRkP21vZD1ocF9sZWFkX3Bvcz=
+Ez/607f07ceef4b8524a319a23cB5314fbc3" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">Manchester United</a> Begins =
+Sifting Through Numerous Bids for Club. Mauritian regulators examine bank i=
+n wake of Trafigura <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/30618705.287441/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvOWEzNjgzYTUtZjRjOC00Y=
+jU0LTkzN2YtZmIwMGFkMTk0OTY2/607f07ceef4b8524a319a23cB65c75304" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">nick=
+el fraud</a>. World=E2=80=99s Largest <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/30618705.287441/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXd=
+zL2FydGljbGVzLzIwMjMtMDItMjEvZm91ci1kYXktd29yay13ZWVrLXVrLXN0dWR5LWZpbmRzLW=
+1ham9yaXR5LW9mLWVtcGxveWVycy1zaGlmdGluZz9jbXBpZD1CQkQwMjIxMjNfTU9ORVlTVFVGR=
+iZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMjEm=
+dXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBff49a0ef" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  Four-Day Work Week</a> Trial Finds Few Are Going Back.=C2=A0Iran <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMjEvaXJhbi1yYXRpb25z=
+LWN1cnJlbmN5LXNhbGVzLWFmdGVyLXJpYWwtd2Vha2Vucy10by1uZXctcmVjb3JkLWxvdz9jbXB=
+pZD1CQkQwMjIxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2=
+xldHRlciZ1dG1fdGVybT0yMzAyMjEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8=
+524a319a23cB56f68448" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  Rations Currency Sales</a> After Rial Weake=
+ns to New Record Low.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30618705.287441/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbG=
+VzLzIwMjMtMDItMjEvc2F2aW5nLWZvci1yZXRpcmVtZW50LWludmVzdG9ycy1zYXkteW91LWxsL=
+W5lZWQtMy1taWxsaW9uLXRvLWJlLWNvbWZvcnRhYmxlP2NtcGlkPUJCRDAyMjEyM19NT05FWVNU=
+VUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDI=
+yMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB005a68ef" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">You</a> Want at Least $3 Million in Savings to Retire Comfortably. Art =
+Fair Visitor Breaks a <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/30618705.287441/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMy8wMi8xOC9hcnRzL2p=
+lZmYta29vbnMtc2N1bHB0dXJlLWJyb2tlbi1taWFtaS5odG1s/607f07ceef4b8524a319a23cB=
+8ee1ebda" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> Jeff Koons Balloon Dog</a> Sculpture. Workers stunned as=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/a=
+HR0cHM6Ly9ueXBvc3QuY29tLzIwMjMvMDIvMTkvZ2F0b3ItYWlkLTQtZm9vdC1hbGxpZ2F0b3It=
+aGF1bGVkLWZyb20tcHJvc3BlY3QtcGFyay1sYWtlLw/607f07ceef4b8524a319a23cBe55b499=
+1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> 4-foot alligator</a> is hauled from Brooklyn=E2=80=99s Prospe=
+ct Park Lake.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30618705.287441/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB97ba7208" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30618705.287441/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBee9f7d59" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] In fact AMC <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/30618705.287441/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9k=
+b2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTQxMTU3OS8wMDAxNTU4MzcwMjIwMDI1NzcvYW1jLTI=
+wMjExMjMxeDEway5odG0jSXRlbThGaW5hbmNpYWxTdGF0ZW1lbnRzYW5kU3VwcGxlbWVudGFyeQ=
+/607f07ceef4b8524a319a23cB3e6e84e6" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">sold about 241.6 million shares=
+</a> for about $1.6 billion in 2021, for an average price of about $6.67, n=
+ot much higher than today=E2=80=99s share price (and today=E2=80=99s price =
+is after the 2-for-1-ish pseudo-stock-split caused by the APEs). But that a=
+verage price is low because it was selling a lot in desperation in early 20=
+21, and had <a href=3D"https://link.mail.bloombergbusiness.com/click/306187=
+05.287441/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtM=
+DYtMDMvYW1jLWhhcy1hLWJpdC1tb3JlLXN0b2NrLXRvLXNlbGw_Y21waWQ9QkJEMDIyMTIzX01P=
+TkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm0=
+9MjMwMjIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBcd95553c=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> only a few million shares left to sell</a> by June 2021 when its=
+ stock was trading above $60 on meme energy. If shareholders had approved m=
+ore shares *then*, as AMC=E2=80=99s executives wanted, it could have hit th=
+at bid.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] A complicating factor here is that *not* v=
+oting to convert them, and just letting AMC issue more APEs, is also diluti=
+ve, since it is effectively selling common-stock-like securities at a huge =
+discount to the price of the common stock.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] The law =E2=80=94 DGCL section 242(b) =E2=
+=80=94 also says that shareholders get to vote as a class =E2=80=9Cif the a=
+mendment would increase or decrease the aggregate number of authorized shar=
+es of such class,=E2=80=9D but a later sentence says that =E2=80=9CThe numb=
+er of authorized shares of any such class or classes of stock may be increa=
+sed or decreased (but not below the number of shares thereof then outstandi=
+ng) by the affirmative vote of the holders of a majority of the stock of th=
+e corporation entitled to vote irrespective of this subsection, if so provi=
+ded in the original certificate of incorporation,=E2=80=9D and <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/30618705.287441/aHR0cHM6Ly93d3=
+cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTE1NzkvMDAwMTEwNDY1OTEzMDkyMDAxL=
+2ExMy0yNjk1N18xZXgzZDEuaHRt/607f07ceef4b8524a319a23cC834e96f7" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">AMC=
+=E2=80=99s charter</a> does opt out of that requirement. So the shareholder=
+s here can=E2=80=99t rely on *that* rule, but there is no exception for red=
+ucing the rights and powers of the class.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Even the shareholder plaintiffs here <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aHR0cHM=
+6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JFZXNlSWdZYU=
+ZQYy92MA/607f07ceef4b8524a319a23cC0c2921e4" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> kind of agree</a>: =E2=
+=80=9CThe Board=E2=80=99s decision to sell the authorized Class A common sh=
+ares was enormously profitable=E2=80=94raising over $1.8 billion in 2021. W=
+ith this enormous influx of cash, the Company=E2=80=99s Board paid down som=
+e of its debts, obtained an increase in the Company=E2=80=99s credit rating=
+, and embarked on an investment spree, greatly diversifying the Company=E2=
+=80=99s investments.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] The reason is that <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/30618705.287441/aHR0cHM6Ly93d3cuY29oZW5ta=
+WxzdGVpbi5jb20vdXBkYXRlL3NlY3VyaXRpZXMtbGl0aWdhdGlvbi0xMDEtcm9sZS1sZWFkLXBs=
+YWludGlmZg/607f07ceef4b8524a319a23cBb4307c04" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">the law says</a> that=
+ the lead plaintiff =E2=80=94 who does stuff like choose the lawyers and ne=
+gotiate their fee =E2=80=94 has to be the shareholder who is =E2=80=9Cmost =
+capable of adequately representing the interests of class members=E2=80=9D =
+and who =E2=80=9Chas the largest financial interest=E2=80=9D in the case, w=
+hich tends to mean that it has to be a biggish professional institution, bu=
+t the biggest asset managers mostly don=E2=80=99t want to anger companies b=
+y leading lawsuits against them.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] Or, 99.9% of the shares are the ones that =
+vote =E2=80=94 common shares that don=E2=80=99t vote still count as votes a=
+gainst the proposal, but they are swamped by the 1,000-vote preferred.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] More specifically, <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/30618705.287441/aHR0cHM6Ly93d3cubGF3LmNvc=
+m5lbGwuZWR1L2Nmci90ZXh0LzE3LzI0MC4xM2YtMQ/607f07ceef4b8524a319a23cB40f85a22=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> Rule 13f-1</a> provides that =E2=80=9CEvery institutional invest=
+ment manager which exercises investment discretion with respect to accounts=
+ holding section 13(f) securities =E2=80=A6 having an aggregate fair market=
+ value on the last trading day of any month of any calendar year of at leas=
+t $100,000,000 shall file a report on Form 13F =E2=80=A6 within 45 days aft=
+er the last day of such calendar year and within 45 days after the last day=
+ of each of the first three calendar quarters of the subsequent calendar ye=
+ar.=E2=80=9D =E2=80=9CSection 13(f) securities=E2=80=9D means basically pub=
+licly traded stocks. =E2=80=9C<a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30618705.287441/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L2RlZmluaXR=
+pb25zL3VzY29kZS5waHA_d2lkdGg9ODQwJmhlaWdodD04MDAmaWZyYW1lPXRydWUmZGVmX2lkPT=
+E1LVVTQy0yMDg2OTA1NTMzLTQ5MTU2MDE5MiZ0ZXJtX29jY3VyPTk5OSZ0ZXJtX3NyYz10aXRsZ=
+ToxNTpjaGFwdGVyOjJCOnNlY3Rpb246Nzhj/607f07ceef4b8524a319a23cB0696821f" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> Institutional investment manager</a>=E2=80=9D <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/30618705.287441/aHR0cHM6Ly93d3cuc2VjLmdvdi=
+9kaXZpc2lvbnMvaW52ZXN0bWVudC8xM2ZmYXE/607f07ceef4b8524a319a23cB6b37bcf4" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> means basically</a> anyone other than an individual person trading t=
+heir own personal account. So rich individuals trading their own accounts a=
+re not subject to the rule.</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] The <a href=3D"https://link.mail.bloomberg=
+business.com/click/30618705.287441/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L3Vz=
+Y29kZS90ZXh0LzE1Lzc4Yw/607f07ceef4b8524a319a23cB0070ab7e" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> rules sa=
+y</a>: =E2=80=9CA person exercises =E2=80=98investment discretion=E2=80=99 =
+with respect to an account if, directly or indirectly, such person (A) is a=
+uthorized to determine what securities or other property shall be purchased=
+ or sold by or for the account, (B) makes decisions as to what securities o=
+r other property shall be purchased or sold by or for the account even thou=
+gh some other person may have responsibility for such investment decisions,=
+ or (C) otherwise exercises such influence with respect to the purchase and=
+ sale of securities or other property by or for the account as the Commissi=
+on, by rule, determines, in the public interest or for the protection of in=
+vestors, should be subject to the operation of the provisions of this chapt=
+er and the rules and regulations thereunder.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-9" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[9] Random fact: I am currently reading Jack S=
+chwager=E2=80=99s Hedge Fund Market Wizards, which features Dalio and notes=
+ that, when he was interviewed for the book in 2011, he had recently transi=
+tioned from running Bridgewater to serving as its =E2=80=9Cmentor.=E2=80=9D=
+ This weekend=E2=80=99s Times article describes a 2022 negotiation between =
+Dalio and Bridgewater in which Dalio agreed that he would =E2=80=9Csurrende=
+r his titles, take on a new role as =E2=80=98mentor to the C.I.O.s and inve=
+stment committee,=E2=80=99 and remain a member of the hedge fund=E2=80=99s =
+board.=E2=80=9D Ray Dalio is in a perpetual state of having just agreed to =
+resign as Bridgewater=E2=80=99s CIO to become its mentor.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB4852849f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBb8ee18f4" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB610347fd" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBd1807495" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0zMDYxODcwNSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5MDYxNDYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cK02e9b4ac" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D30618705&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30906146&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB357a6299" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30618705.287441/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCa57fc2a6" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30618705.287441/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBadd1301f" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30618705.287441/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBe2c71544" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBf=
+c0c32f5" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30618705.287441/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBa=
+0108b73" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D306187=
+05&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30906146&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D306187=
+05&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30906146&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D306187=
+05&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30906146&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D306187=
+05&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30906146&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D306187=
+05&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30906146&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ci89jl.65sh/8dbea826.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_54457742_671153999.1677008037043--
+

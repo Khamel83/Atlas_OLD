@@ -1,0 +1,2262 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp587797rwb;
+        Thu, 8 Jun 2023 11:56:01 -0700 (PDT)
+X-Received: by 2002:a19:2d1b:0:b0:4f3:a7d3:28e0 with SMTP id k27-20020a192d1b000000b004f3a7d328e0mr31253lfj.28.1686250560376;
+        Thu, 08 Jun 2023 11:56:00 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1686250560; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=ujyjHHxVKhE8iZEvNzimeBcB72P8+ZAsafPhx8wNeFr/GEmCFsjPI9IZFeAmSO3OJd
+         0a2AWCb/HBD2pLuVaKVCSpbWJgA/lfQDT8IxQcIXccpMC1urOLKdl0Cb+b6uluLp3sjC
+         IPpVfUBJhwuQ+uP1DyziE3d4NdWolSemolae48XrtcCG3PqLmg+LA+vWJQNJCnUPlpdt
+         VQMLjf8FSzqYjj79wGly/Ny+7N2KJFr8uHOIyTJmlr59JbWe79oOviQwuYH/RXlA70tZ
+         ea43hzFiOEn7zbqxVOlkUsls3iGX0UdCMHnCYWB+ITe3pCzvcjrlSZ1EG0gSyJBBGwdd
+         baAg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=WRx0v45pCOJyrj8iA0vGfQ2nllZ3te9cFXUNY+uvM74=;
+        b=B1bexQRJR5aFbbUba+dRdBhfu6KpgUt2YmN3pnEeig53gR3SDz56vKhoLQMry0A9MT
+         xb4wVvEoNxAJp5OwiYCn5dcAuc//tkDIjS3RwWm/lnhRePsVN3YSieMHGaKfguLxnXrR
+         6ufT2JZhyRKTTcpynM5GCS35Z+yOvY+sBe6+D6oYMqI3x7wZUeyw6d795+qhLtuCcFB5
+         /L83yhXyhsUVWXdfqFahaf6QcJv7TQ02ox/TrAHriC3a9xx3H0svwXqCIBxY9MIKE45c
+         nM5uWixO84xVlpDVmxh7wK4xzkUac8v8qeRdzlzZjQlTjjcBqcqNkTzzzmtBqPhNUA7y
+         ndlA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="pvb33jC/";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id c42-20020a509fad000000b0051479196228sor631240edf.0.2023.06.08.11.56.00
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 08 Jun 2023 11:56:00 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="pvb33jC/";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1686250560; x=1688842560;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=WRx0v45pCOJyrj8iA0vGfQ2nllZ3te9cFXUNY+uvM74=;
+        b=R/swBik1zVlFQJ5rVXavB4Qg6AH7rWniWJy1A9s+ep8/z2ysfMk6U7rd7GBHgXa32g
+         vqoVKRtkGF7UGGz5DAR/0z2ivH1/qjDX7HWUe6e1j+Cczru/q303dzZd7nHGeTFiMOH8
+         eIYq8ez0w1UdJPKuJvM+eAs5uqgLTCBq3NNQQhsF1evx3gNT1D2YPLDuNRqL6HgkQlgy
+         OS1C7ESrEUvv1AH64//HAArhsgAJdBYhBGiKAo4W+Bx8XD2n1QTekrL25PHoEO1wFODl
+         ax4gtAKRDjFIN4K3jp7QYcKwFVPLu9mBSFyDs1KnknMADobgPWwaORwu8DW0tbCtoW+j
+         mnPg==
+X-Gm-Message-State: AC+VfDwchVuPcfz07WMeoyyjg4UzGs4F+FmQoucV/A0YobK/PUgzyDTO
+	AP/uUVIZL84RewUPQKCrz+pPMiUFxOxaQXBap3EzloueTvBET1VdqQ==
+X-Received: by 2002:a05:6000:1284:b0:30e:458d:e016 with SMTP id f4-20020a056000128400b0030e458de016mr1391362wrx.7.1686250559737;
+        Thu, 08 Jun 2023 11:55:59 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f8c2:0:0:0:0:0 with SMTP id f2csp466829wrq;
+        Thu, 8 Jun 2023 11:55:55 -0700 (PDT)
+X-Received: by 2002:a05:6a00:1895:b0:647:4dee:62b7 with SMTP id x21-20020a056a00189500b006474dee62b7mr6977256pfh.29.1686250555356;
+        Thu, 08 Jun 2023 11:55:55 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1686250555; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=gRCFHJH2q7J4kFUZucEIBYAE1++ZmAuwg/R3BvzN/jNTnjya07ElYuoDu9UW1p+wpf
+         gBQy4ol+Aunzne6U/lJNKDq6CDcHn9YoKQLLZ9P2YE6FcKFj1GcSza3SNQH1ccCUDkDD
+         XfC7kFtaHzmFsM6SyCwWXHMVSn3ffavpU343F0Ai4HBNcp2b8l1Nm/CVb3JvxsdsM0ml
+         GpMcFJ0RU49ub5Fz/9M7aKpB25Qw3SG1Lmh0F2hTvChE/mksW0ujV2XtQBkd5+bSv4DX
+         NQSQgOTdyEh42z5XeSOXQKYvCNQGPl6w2i/AgMlTM4rF5V2tDHMBNw9sKhZS0n1tlkmf
+         xBBw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=WRx0v45pCOJyrj8iA0vGfQ2nllZ3te9cFXUNY+uvM74=;
+        b=kUMFLpDUtwjIer3tNH1h5fnp9yT7nF59v0G5jwoNwoTU1czxIFBClRDuDDhqMTibY2
+         CL/MiefpYpbHg4hK8YOHfa/3N1phU9Sk8MBCPb450cfKqPOAgaYmxri6K18C8UCsnULO
+         THG5FLSaF4GPRJFjnuEy4LhrWIOP0AOR0wlI3zEgz/mOAUgjMEt5GpGkXjj1sV/hYagK
+         NlYert58KpEzNf+D3Ph4wL7awKoyrHORIFGAd2aO+cc0Ihdbl3IV2DH2uOAJa7G7FKS6
+         tGum7AcFUQTfSYolvab/JMVar9j9zPV1P42nVAc0HeLvtMReGZFMhA/lnSIaNOfiJNfM
+         cC0Q==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="pvb33jC/";
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230608145553.31735317.259418@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230608145553.31735317.259418@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230608145553.31735317.259418@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id a4-20020a621a04000000b006410a666007sor843745pfa.10.2023.06.08.11.55.55
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 08 Jun 2023 11:55:55 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230608145553.31735317.259418@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ACHHUZ7chTs6h/QygAHIRDR1RFWpQ8DO58eQztn2mZVcpzVfZMPx86T5erNb/+T0hI6DZ8+PbCIjfbf4w64k9QPFIzgSpjegEeo=
+X-Received: by 2002:a05:6a00:24ca:b0:649:450f:3231 with SMTP id d10-20020a056a0024ca00b00649450f3231mr6539319pfv.9.1686250554927;
+        Thu, 08 Jun 2023 11:55:54 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1686250554; cv=none;
+        d=google.com; s=arc-20160816;
+        b=R5JgFWUU8j8zBCSujqbzR20YiJ8QUinIH0CMvVpa91Bqramo5mKLIBG4ZgMIgmhjcc
+         slYFhFYpeb92hYKS/DyYYC8MqfqZ86D0cFxzRiZAZSBqI0jkbsKv6MkfzM0P4VMMINra
+         oVa+HuUkFbieAjxeOZgoKZK+rVnVEQUK5lGExz5GOmTO5JHZ95+bFvpu7dPjEEeIIEh4
+         hOdsrgoQKTbGzRG/cnbZdscQuAQglByOtlaM5uBw6grqrtMFEWXgp9Ea8VW+AFp3Q9Zw
+         cldawvKQnSMK/8y+9l7gksNz4+mHWNbJ5Ptbw8QKadIMqV/DlVLX95UvQB7Gsg+xQV7U
+         YRWA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=WRx0v45pCOJyrj8iA0vGfQ2nllZ3te9cFXUNY+uvM74=;
+        b=YNIN5m06RRfcjfE2ebSC/1NHraV43lRY3LAooh84NUlR4LrUS/FrG3T+RdUgLBvt/k
+         tewyk/eGTjmc3vonArCQIlYHGo+11LSVEo8LmYwdORW1ZLR0FxwEwHAoBKkbXGbHX/Dp
+         lm9DnBG1GHPLRihLZiTqsN9Ad8ynOxr+Qh/g710GbyM4ubyE27EparHE2F37yzD4xfVr
+         gBBjiXOAljvMtRgE17AcIagNulxYcGZgnPdAFz/IXOJgaRKKEshg8O6cv+aBwchdOkNT
+         YE39bdxexKf6T80FtGNKPjYfUJzlMVE4hTZ88ghWOV1rykSMyc8QMDe+tLQDMUJ39WcW
+         /TBg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="pvb33jC/";
+       spf=pass (google.com: domain of delivery_20230608145553.31735317.259418@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230608145553.31735317.259418@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230608145553.31735317.259418@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id y6-20020a056a001c8600b00656690ff212si149968pfw.2.2023.06.08.11.55.54
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 08 Jun 2023 11:55:54 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230608145553.31735317.259418@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=4gQ8949SK3RpGkF1TPyALR5wm1Ug9HXE5Og8OIsRHe8=;
+ b=pvb33jC/YWNcEaavuF3TzPWbgo/+80hF7mfUXDqYROsaKxOEKnoUXZoJP/Y+t079lK+0eUDUp8QG
+   6qFM/867EDXdvWilTWjVRkyicpop+WCSrJfH6ywqyRQwIV40b1GFUkuvF6B0wqwFDL7JnivY+oKj
+   xP5aXyYjcpGcODQODXE=
+Received: from nj2mta-17.sailthru.com (204.153.121.17) by pmta29.sailthru.com id hg8i3k2sd4s7 for <bloomberg@khamel.com>; Thu, 8 Jun 2023 13:55:53 -0500 (envelope-from <delivery_20230608145553.31735317.259418@mx.sailthru.com>)
+Date: Thu, 8 Jun 2023 14:55:53 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230608145553.31735317.259418@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IERvbuKAmXQgU3F1ZWV6ZSB0aGUgU2hvcnRz?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_13596993_352133007.1686250553848"
+Precedence: bulk
+x-job: 6358-31735317-20230608
+X-Feedback-ID: 6358:31735317:campaign:sailthru
+X-TM-ID: 20230608145553.31735317.259418
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-oddturquoise.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ciw74l.5k62/15046f95
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ciw74l.5k62/15046f95>, <mailto:unsubscribe_20230608145553.31735317.259418@mx.sailthru.com>
+X-rpcampaign: stjko31735317
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_13596993_352133007.1686250553848
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow and Monday, back=
+ on Tuesday.=E2=80=9CHe who sells what isn=E2=80=99t his=E2=80=99n, must bu=
+y it back or go to pri
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow and Monday, ba=
+ck on Tuesday.
+
+ =20
+   =20
+      MMTLP
+   =20
+ =20
+
+=E2=80=9CHe who sells what isn=E2=80=99t his=E2=80=99n, must buy it back  o=
+r go to prison,=E2=80=9D which sometimes gives people bad ideas. Here is=C2=
+=A0the bad idea:
+=09If people sell stock short, they have to borrow the stock from a stock l=
+ender, and return it when they are done. They borrow the stock, they sell i=
+t, they wait, and then they buy it back to return to the lender. (The short=
+ sellers hope that the stock goes down between when they sell it and when t=
+hey buy it.)=09If the stock pays a dividend, the short sellers have to pay =
+the dividend back to the stock lender.=09If the stock somehow becomes=C2=A0=
+not tradable, then the short sellers can=E2=80=99t buy it back to deliver t=
+o their lenders, and they are stuck, bwahahahahaha, prison!=09If the stock =
+pays a dividend that is not cash or regular stock, but rather some weird th=
+ing that is=C2=A0not tradable, then the short sellers can=E2=80=99t get the=
+ dividend to deliver to their lenders, and they are stuck,=C2=A0bwahahahaha=
+ha, prison!
+
+And so if you are a certain sort of public company chief executive officer,=
+ you might spend=C2=A0time thinking about questions like =E2=80=9Chow can I=
+ make my stock not tradable=E2=80=9D or =E2=80=9Chow can I pay my sharehold=
+ers a dividend that is not tradable,=E2=80=9D because if you can crack that=
+ nut then the people who have sold your stock short will be marched off to =
+prison and you will have won.
+I=E2=80=99m sorry, this is so dumb. If you are a public company chief execu=
+tive officer and your main goal, or even one of your top five goals, is pun=
+ishing short sellers, then you have already lost. That=E2=80=99s a terrible=
+ goal! The way to deal with short sellers is to run a good business that ma=
+kes a lot of money; this will make your stock go up, and the shorts will ta=
+ke care of themselves. Short sellers don=E2=80=99t matter! They can=E2=80=
+=99t hurt you! At most, they can make your stock go down a bit, but your bu=
+siness does not depend on your stock price; your business depends on your b=
+usiness. Just do your business! Ignore the shorts.
+There are two exceptions to this
+  [1]
+:
+=09If you are   a bank, then your business depends on confidence, and a dec=
+lining stock price can undermine confidence. It is sad and undignified when=
+ bank CEOs spend a lot of time worrying about short sellers, but it is=C2=
+=A0understandable.=09If your business is a pump-and-dump scam, then your bu=
+siness really is about the stock price. =E2=80=9CJust run a good business=
+=E2=80=9D is absurd advice when your business is putting out press releases=
+ to make your stock go up, and it does make sense that you would be laser-f=
+ocused on fighting short sellers.
+
+And so if you are a public company CEO and you spend all your time trying t=
+o devise ways to get your short sellers in trouble, that=E2=80=99s just sor=
+t of a bad sign?
+In 2019, Overstock.com launched a short squeeze. Its idiosyncratic CEO, Pat=
+rick Byrne, had a long-running crusade against short sellers and actually n=
+otched a few wins over the years. In 2019, he decided to destroy the shorts=
+ by issuing a special stock dividend on Overstock=E2=80=99s own blockchain =
+platform. Basically each shareholder would get shares of a new class of pre=
+ferred stock; the preferred stock would be tradable only on Overstock=E2=80=
+=99s blockchain and, more important, it would not be tradable at all for si=
+x months. This meant that, if you were short Overstock stock, you=E2=80=99d=
+ have to deliver the preferred stock to your stock lenders, but you couldn=
+=E2=80=99t deliver the preferred stock, because you couldn=E2=80=99t buy it=
+, because it wasn=E2=80=99t tradable. Checkmate!
+No, not checkmate, what actually happened is:
+=09Short sellers were fine; their lenders agreed to take cash instead of th=
+e special preferred stock.=09The SEC investigated, and short sellers sued, =
+Overstock for alleged=C2=A0market manipulation from this dividend scheme, t=
+hough the SEC never brought a case and  the short sellers lost. (To be fair=
+, Overstock had non-short-squeeze-y reasons for doing the dividend; Byrne w=
+as really into blockchain stuff.)=09Byrne  resigned as Overstock=E2=80=99s =
+CEO for reasons having to do with a Russian spy, I don=E2=80=99t know, it=
+=E2=80=99s very confusing.=09On his personal blog (DeepCapture.com), Byrne =
+ complained about the SEC rescuing short sellers in these terms: =E2=80=9CN=
+ow, after 15 years of being scofflaws, the shorts are crying because they a=
+re getting sucked into a black hole they created themselves. If you call =
+=E2=80=98Bazoomba!=E2=80=99 for them now, I am going to use this website to=
+ vaporize you with information I give the public. I am 100% confident that =
+at least one of you knows to what I am referring.=E2=80=9D
+
+Bazoomba. You would not call all of this an overwhelming success for Overst=
+ock or Byrne. The short sellers were not exactly vanquished. Overstock=E2=
+=80=99s stock fell about 70% between the  announcement of the special divid=
+end=C2=A0and the end of 2019, though it soared again in=C2=A02020 after Byr=
+ne left.
+On the other hand it was kind of a clever idea, and Byrne is not the only C=
+EO to hate short sellers. I can=E2=80=99t say there have been a lot of copy=
+cats, but for instance AMC Entertainment Holdings Inc. has spent some time =
+giving its shareholders weird stuff (  popcorn,  non-fungible tokens,   APE=
+ preferred shares), and I have occasionally talked about the Overstock prec=
+edent as a possible model: If you give each shareholder a dividend of one b=
+ag of popcorn flavored with your secret proprietary spice mix, you will mak=
+e life hard for short sellers who have to recreate that exact spice mix to =
+deliver to stock lenders. But AMC, sensibly, has not done this: Doing weird=
+ dividends to delight your shareholders is better than doing weird dividend=
+s to punish your short sellers.
+And then there is MMTLP. At the Wall Street Journal,  Alexander Osipovich d=
+oes the hard labor of explaining it:
+
+MMTLP was a set of preferred shares whose value was largely underpinned by =
+oil and gas assets in the Orogrande Basin of West Texas. They were issued i=
+n 2021 when Torchlight Energy Resources, a Plano, Texas-based oil company, =
+merged with Meta Materials, a Canadian nanotechnology firm. They traded in =
+the risky OTC market until December, when they were removed from circulatio=
+n.
+In their last weeks of trading, buzz mounted that the shares were poised fo=
+r a short squeeze, a phenomenon in which short sellers exit their bets agai=
+nst a stock, causing its price to rally. Fueled by such chatter, MMTLP surg=
+ed more than 650% from the start of October to Nov. 21. That put a peak val=
+uation of about $2 billion on the underlying assets=E2=80=94even though som=
+e oil and gas analysts have dismissed them as worthless.
+The catalyst for the anticipated squeeze was an unusual transaction in whic=
+h MMTLP shares were set to be converted into shares of a new, nonpublicly t=
+raded company called Next Bridge Hydrocarbons. Many investors were convince=
+d that short sellers had placed massive, hidden bets against MMTLP in the m=
+onths and years before the planned conversion. They expected it to trigger =
+a last-minute scramble as shorts snapped up MMTLP, sending the share price =
+surging.
+On Dec. 9, 2022, Finra halted trading in MMTLP. Such halts are part of Finr=
+a=E2=80=99s tool kit for preventing market disruptions. But the halt surpri=
+sed adherents of the short-squeeze theory, who expected two more days of tr=
+ading in which to realize their gains.
+Some investors had poured tens of thousands of dollars into MMTLP expecting=
+ big profits. Instead, they were stuck with shares they can=E2=80=99t sell.
+=E2=80=9CGiven the lack of drilling success, production or cash flow at Oro=
+grande, it is certainly possible the preferred stock transaction was simply=
+ a means to create the perception or reality of a short squeeze,=E2=80=9D s=
+aid Jeff Davies, a former energy hedge-fund manager.
+=E2=80=9CUnfortunately the people who bought into the short-squeeze thesis =
+and spent no time valuing the underlying assets got hurt the most.=E2=80=9D
+Fort Worth, Texas-based Next Bridge declined to comment. Meta Materials Chi=
+ef Executive George Palikaras said his company spun out the energy assets i=
+nto a private company to protect shareholders from problems such as naked s=
+hort selling=E2=80=94an abusive practice in which short sellers place bets =
+against a stock without obtaining the shares needed for the trade.
+
+Ah. There=E2=80=99s an oil company with some possibly worthless reserves. I=
+t was the subject of=C2=A0social-media  pump-and-dump schemes. (=E2=80=9CTo=
+rchlight management wasn=E2=80=99t aware of the schemes, and no executives =
+at Torchlight or Meta Materials have been accused,=E2=80=9D reports Osipovi=
+ch.) It merged with=C2=A0a nanotechnology firm, as one does, and put the oi=
+l assets in a new weird stock=C2=A0called MMTLP. MMTLP was a sort of tracki=
+ng stock or contingent value right on the oil and gas assets: Holders of th=
+e preferred stock  were entitled =E2=80=9Cto receive dividends, or Asset Sa=
+le Dividends, comprised of the holder=E2=80=99s pro rata portion of the pro=
+ceeds from the sale of the O&G Assets in the event that the Company consumm=
+ates one or more such transaction.=E2=80=9D
+That traded over the counter for a while, but the company never did sell th=
+e oil and gas assets. Instead, it decided to  spin them out to shareholders=
+, replacing the MMTLP tracking stock with actual shares in a new oil compan=
+y called Next Bridge Hydrocarbons Inc. (According to its most recent=C2=A0q=
+uarterly report, Next Bridge=C2=A0=E2=80=9Ccurrently has six full-time empl=
+oyees,=E2=80=9D=C2=A0=E2=80=9Chas not yet achieved profitable operations,=
+=E2=80=9D and =E2=80=9Chad no proved reserve value associated with our prop=
+erties.=E2=80=9D) Everyone=E2=80=99s MMTLP shares would automatically be co=
+nverted into Next Bridge common shares.
+Ordinarily, when a public company spins out a subsidiary to its shareholder=
+s, the subsidiary also becomes a public company: The whole point of the spi=
+noff is to let the subsidiary=E2=80=99s shares trade separately from the pa=
+rent=E2=80=99s; if you are giving new stock to your public shareholders, pr=
+esumably they want that stock to be public too. But Meta specifically desig=
+ned Next Bridge not to trade publicly, or at all. From  the prospectus:
+Our Common Stock is currently not listed for trading on any stock exchange =
+or market and we have not sought to be traded on any exchange or market. Th=
+e shares of Common Stock will not be eligible for electronic transfer throu=
+gh the Depository Trust Company or any other established clearing corporati=
+on. Accordingly, there currently is no public trading market for the Common=
+ Stock and there is no current expectation for a public market to develop.
+Not only is the stock not listed on a public exchange, but it is not eligib=
+le for transfer through DTC, meaning that all of your brokerage=E2=80=99s s=
+ystems for trading the stock don=E2=80=99t work, and probably your broker w=
+on=E2=80=99t want to bother with it. (=E2=80=9CThe restriction was an unusu=
+al, deliberate move by Meta Materials that would effectively make the new s=
+hares untradeable,=E2=80=9D writes Osipovich.) =E2=80=9CAccordingly, you ma=
+y have to hold the shares of Common Stock indefinitely,=E2=80=9D says the p=
+rospectus.
+This is very inconvenient for MMTLP/Next Bridge shareholders! Why would a c=
+ompany take its shareholders=E2=80=99 publicly traded shares and replace th=
+em with=C2=A0non-tradable=C2=A0shares? Not because it is nice for sharehold=
+ers to be unable to sell their shares. But because it is=C2=A0bad=C2=A0for=
+=C2=A0short sellers=C2=A0to be unable to=C2=A0buy=C2=A0shares. =E2=80=9CMet=
+a Materials Chief Executive George Palikaras said his company spun out the =
+energy assets into a private company to protect shareholders from problems =
+such as naked short selling=E2=80=9D: If nobody can sell the stock, then no=
+body can sell the stock short; if nobody can buy the stock, then short sell=
+ers can=E2=80=99t buy back their shorts, and they go to prison. In the abst=
+ract, if you are a CEO who hates short sellers, =E2=80=9Cmake it so that no=
+body can sell the stock=E2=80=9D seems like a good move. It is, however, an=
+ obviously bad move=C2=A0for your shareholders, because they can=E2=80=99t =
+sell the stock either, oops.=C2=A0
+The shareholders apparently didn=E2=80=99t mind, though, because they figur=
+ed that the Next Bridge distribution would create a short squeeze: Short se=
+llers wouldn=E2=80=99t be able to buy Next Bridge stock, so they would have=
+ to get out of their MMTLP short positions before MMTLP was replaced by Nex=
+t Bridge. And so the shareholders=C2=A0would sell their MMTLP stock into th=
+e short squeeze, as the shorts were forced to buy, just before the spinoff =
+was completed. In a risk factor (!), Next Bridge=C2=A0touted=C2=A0this poss=
+ibility:
+If any investors have sold shares of MMTLP short, then in connection with t=
+he Distribution such investors may feel compelled to buy shares of MMTLP to=
+ cover such sales before the Distribution. If this were to occur, given the=
+ potential high demand from buyers with a relatively low supply of MMTLP sh=
+ares available for sale on the OTC market, the MMTLP price per share as sho=
+wn on the OTC market may rise significantly but not be representative of th=
+e value of the underlying shares of our Common Stock that you will receive =
+in the Distribution.
+But it didn=E2=80=99t work, the MMTLP stock was halted,
+  [2]
+=C2=A0and now the people who bought it hoping that for a short squeeze are=
+=C2=A0stuck holding non-tradable stock in Next Bridge. A bad result, but al=
+so exactly what they were promised.
+They=E2=80=99re so mad. Osipovich:
+
+Over the past six months, MMTLP investors have formed a noisy protest movem=
+ent, wielding hashtags such as #FinraFraud. They allege that Finra=E2=80=99=
+s halt covered up a conspiracy among hedge funds and market makers to suppr=
+ess the price of Torchlight, and later MMTLP, through naked short selling.=
+=C2=A0
+Some MMTLP investors have picketed the Securities and Exchange Commission=
+=E2=80=99s headquarters in Washington, and one buttonholed the agency=E2=80=
+=99s head on Capitol Hill in April. =E2=80=A6 Some Finra employees and mark=
+et veterans caught up in debate around MMTLP have received death threats. I=
+n one anonymous message to a market veteran seen by The Wall Street Journal=
+, the sender alluded to mass shootings and vowed to come =E2=80=9Cpiss on y=
+our casket.=E2=80=9D
+
+Charming. This is the same complaint as Patrick Byrne=E2=80=99s: Meta, like=
+ Overstock, tried to issue non-tradable stock to artificially squeeze short=
+ sellers, and it didn=E2=80=99t work, and they blame the regulators for not=
+ letting it work.
+My takeaways would be:
+=09Naked short selling is an imaginary problem.=09US securities regulators =
+think that  engineering a short squeeze is market manipulation, and they ar=
+e not going to=C2=A0help=C2=A0a company=E2=80=99s efforts to squeeze its sh=
+orts.=09If a company is doing some baroque corporate-finance structuring wi=
+th the=C2=A0express purpose of hurting short sellers, that is good news for=
+ short=C2=A0sellers and bad news for shareholders.
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      UnTRustworthy
+   =20
+ =20
+
+I guess one trade you could do is, like, you incorporate a company called R=
+enaisssance Technologies LLC, and you register a domain like rentech.com, a=
+nd you send out letters to a bunch of big institutional allocators and high=
+-net-worth individuals saying =E2=80=9Cgood news, Renaisssance Technologies=
+ is opening its prestigious Medalion Fund to a few selected investors, you =
+are one of them, wire us some money, the fees are 5 and 50.=E2=80=9D All of=
+ the typos in that sentence are intentional. And some people who get the le=
+tter miss the typos and think that Renaissance Technologies is opening its =
+prestigious Medallion Fund to them, and they wire you $100 million, and the=
+n you have $100 million. You could steal it. Or, much better, you could inv=
+est it in a diversified portfolio of stocks=C2=A0and keep 5% of the assets =
+plus 50% of the gains for yourself. Stealing it is a crime; investing it an=
+d charging the fees that you agreed to is =E2=80=A6=C2=A0I mean =E2=80=A6=
+=C2=A0I don=E2=80=99t=C2=A0recommend=C2=A0it, but it=E2=80=99s an interesti=
+ng idea.
+Is it? Is this a thing? We   talk sometimes around here about people who pu=
+t out fake press releases announcing fake mergers, and sometimes the fake b=
+uyer is like KRK & Co. or Carlisle Group or Cerebrus or Blackst0ne or whate=
+ver, but I don=E2=80=99t think I=E2=80=99ve ever heard of someone intention=
+ally creating a confusing company name to try to solicit investors. Until n=
+ow! From Leanna Orr=E2=80=99s  Allocator newsletter:
+In March, the $18.1B asset manager EnTrust Global filed a lawsuit against a=
+n alleged copycat firm for using its brand to confuse and scam investors. E=
+nTRust Capital, a Cayman vehicle run by Hong Kong-based firm TR Capital, ha=
+d been soliciting investment from the =E2=80=9Creal=E2=80=9D EnTrust=E2=80=
+=99s clients since the start of 2022, the filing claims.
+Gorgeous. Here is  the complaint:
+
+In 2022, a Hong Kong-based entity calling itself =E2=80=9CEnTRust Capital=
+=E2=80=9D began soliciting investments from EnTrust=E2=80=99s investors. En=
+TRust Capital describes itself as an investment fund that provides =E2=80=
+=9Cprivate equity style investing in public markets=E2=80=9D=E2=80=94i.e., =
+the same exact investment business as EnTrust.
+In addition to blatantly copying EnTrust=E2=80=99s brand, Defendants1 have =
+also directly solicited EnTrust=E2=80=99s investors. =E2=80=A6 EnTrust has =
+been contacted by at least 14 investors who have been solicited by Defendan=
+ts and thought the solicitation was being made by EnTrust. Undoubtedly, man=
+y more investors have been confused but have not contacted EnTrust.
+Upon information and belief, it is apparent that Defendants are following a=
+ common strategy to knock off an American company and deceive U.S. investor=
+s. Defendants are using the=C2=A0same exact name to market substantially si=
+milar investment products to the same investors.=C2=A0It is currently unkno=
+wn how many investors may have mistakenly sent money to the sham =E2=80=9CE=
+nTRust=E2=80=9D run by Defendants.=C2=A0
+
+I hope it=E2=80=99s lots. I hope that EnTRust=E2=80=99s private-equity-styl=
+e investments in public markets=C2=A0are outperforming EnTrust=E2=80=99s. I=
+ hope this really is =E2=80=9Ca common strategy,=E2=80=9D and there are lot=
+s of BLackstones and Blackst0nes and Blakcstones and Bl=C3=A5ckstones out t=
+here.=C2=A0=C2=A0
+
+ =20
+   =20
+      GameStop
+   =20
+ =20
+
+I   talk a lot around here about Elon Musk=E2=80=99s magical ability to mov=
+e the prices of financial assets: Musk can tweet about Tesla Inc. stock or =
+Dogecoin or some small company, and the thing he tweets about will go up. T=
+he =E2=80=9CElon markets hypothesis,=E2=80=9D   I call it; =E2=80=9Cthe way=
+ finance works now is that things are valuable not based on their cash flow=
+s but on their proximity to Elon Musk.=E2=80=9D Mostly I just think it woul=
+d be amazing to have that power. =E2=80=9CI just think that if you presente=
+d this possibility to any famous investor throughout history they would abs=
+olutely faint with excitement,=E2=80=9D   I once wrote. To be fair, though,=
+ Musk is not the only person ever to be able to do this. Other famous inves=
+tors have been able to move stocks with the pure power of their attention. =
+Warren Buffett has a halo effect. Hindenburg Research can crash its short t=
+argets. If you get a reputation, and a following, you can get the power to =
+move stocks.
+Sometimes it=E2=80=99s temporary though. For a while, in the meme-stock boo=
+m, Ryan Cohen had this power: He was the Meme Stock Guy, and his involvemen=
+t in a stock could send it up. Early last year, Cohen bought some options o=
+n Bed Bath & Beyond Inc.;=C2=A0he=C2=A0reminded=C2=A0the market of his purc=
+hase in August, and the stock shot up from $4.89 to $30,   allowing Cohen t=
+o sell out at a profit. Great trade.
+But the magic is wearing off. Yesterday GameStop Inc., the meme-iest and Ry=
+an-Cohen-est of the meme stocks, reminded the market of Cohen=E2=80=99s pre=
+sence: He has been  chairman of GameStop=E2=80=99s board since June 2021, b=
+ut yesterday the company gave him the additional title of executive chairma=
+n. Also on Monday GameStop=E2=80=99s chief executive officer resigned, to b=
+e replaced by some combination of Cohen (as executive chairman) and the com=
+pany=E2=80=99s general counsel (who was promoted to general manager and pri=
+ncipal executive officer). It  didn=E2=80=99t work:
+
+GameStop shares plunged Wednesday after it terminated Chief Executive Matt =
+Furlong and elevated Ryan Cohen to executive chairman, the latest shake-up =
+at the videogame retailer, which has been struggling to find new ways to ju=
+ice sales.
+Cohen first joined the board as a director in early 2021 and rose to chairm=
+an that June as part of a restructuring of GameStop=E2=80=99s board. The co=
+mpany then overhauled its executive team, hiring Furlong from Amazon for th=
+e CEO job.
+GameStop shares fell 19% in after-hours trading.
+While the company didn=E2=80=99t cite a reason for the termination, Cohen a=
+ppeared to mock Furlong shortly after it was announced, tweeting =E2=80=9CN=
+ot for long.=E2=80=9D
+
+That=E2=80=99s the sort of mean-spirited Twitter wit you want from a memelo=
+rd, but it doesn=E2=80=99t have the effect it used to.
+When GameStop hired Furlong back in 2021,   I speculated about whether its =
+time as a meme stock could lead to fundamental business improvements. The t=
+heory was that GameStop=E2=80=99s stock went up a lot for more or less irra=
+tional reasons =E2=80=94=C2=A0memes, etc. =E2=80=94=C2=A0but that GameStop =
+had the opportunity to=C2=A0make=C2=A0it rational, to turn the stock-price =
+increase into business success. With a soaring stock price, you have more v=
+aluable stock to, for instance, pay senior Amazon executives to join your s=
+mall video-game retailer. You can raise money to fund your pivot from mall =
+retailer to online gaming distributor. You can make strategic acquisitions.=
+ Having a soaring stock price is kind of like having a lot of money =E2=80=
+=94=C2=A0the soaring stock price can be=C2=A0turned into=C2=A0money, usuall=
+y =E2=80=94=C2=A0and having a lot of money can help you improve your busine=
+ss. It is not automatic! Just spending a lot of money will not necessarily =
+improve the long-term fortunes of a mall-based video-game retailer, and piv=
+oting to a new business model is risky. But it could help. I wrote:
+If you just, like, exogenously discovered a gigantic pile of diamonds in th=
+e basement of your headquarters, that might make your stock price go up, bu=
+t would it make you better at doing your business? You could call up supers=
+tar executives and say =E2=80=9Chey come work for our company, we just foun=
+d a bunch of diamonds=E2=80=9D; would they do it? I don=E2=80=99t know! May=
+be? It=E2=80=99s a weird question. There are not a lot of natural experimen=
+ts.
+But GameStop was one!
+  [3]
+=C2=A0I don=E2=80=99t want to say that it didn=E2=80=99t work; corporations=
+ are perpetual, GameStop is still doing stuff, and maybe with Cohen more fi=
+rmly in charge it will finally etc. etc. etc. But  it kind of didn=E2=80=99=
+t work:
+
+Furlong was one of dozens of e-commerce veterans who joined GameStop in 202=
+1 and 2022 to help turn the company=E2=80=99s business around by expanding =
+online sales and launching a marketplace for nonfungible tokens, or NFTs. M=
+any of those executives left last year, including the chief growth officer,=
+ vice presidents of fulfillment and supply chain systems and the senior vic=
+e president of customer service.=C2=A0
+Also last year, GameStop began pulling back on its e-commerce efforts and r=
+eturned its focus to getting stores to be more efficient. ...
+Once he ascended to chairman, Cohen set out to turn GameStop into an e-comm=
+erce juggernaut by offering new products such as TVs and beanbags. The comp=
+any opened new fulfillment centers and a customer-service facility in antic=
+ipation of increased sales. However, it quickly ran into supply-chain chall=
+enges and found little demand for many of the new products, prompting the r=
+etailer to reverse course on those moves, The Wall Street Journal reported =
+in March. The company last year also cut several hundred corporate jobs cre=
+ated under Cohen.
+GameStop is now back to relying more on its stores to support its shrinking=
+ e-commerce business. It is using the stores as mini fulfillment centers, w=
+here employees package and mail online orders to local customers and custom=
+ers come in to pick up their purchases, the Journal=E2=80=99s March report =
+shows.
+
+If you paid $300 for GameStop stock in January 2021 because you thought tha=
+t Ryan Cohen would turn it into an e-commerce juggernaut to threaten Amazon=
+, your bet, uh, has not paid off yet. At noon today the stock was trading a=
+t about $21.45, which=C2=A0is=C2=A0still higher than where it started 2021.
+
+ =20
+   =20
+      Coinbase puts
+   =20
+ =20
+
+Coinbase Global Inc.=E2=80=99s stock is down about 17% this week, and I don=
+=E2=80=99t entirely understand why. Sure yes the US Securities and Exchange=
+ Commission=C2=A0  sued Coinbase on Tuesday, alleging that its core busines=
+s is an illegal securities exchange; if the SEC wins that case it will be d=
+evastating for Coinbase. But everyone knew, with an unusually high degree o=
+f confidence, that that case was coming, and what the SEC=E2=80=99s argumen=
+ts would be. I   wrote about it in March, because the SEC formally notified=
+ Coinbase that the lawsuit was coming, and Coinbase publicized that notice =
+and its response. And the SEC=E2=80=99s arguments =E2=80=94=C2=A0that most =
+crypto tokens are securities, so if you run a crypto exchange you are runni=
+ng an illegal securities exchange =E2=80=94=C2=A0are also well known, and t=
+he SEC made them when it   sued another crypto exchange, Bittrex, in April.=
+ There=E2=80=99s nothing really new in the Coinbase complaint. If the Coinb=
+ase complaint said =E2=80=9CCoinbase is offering illegal trading in crypto =
+tokens, plus stealing customer money,=E2=80=9D that would be bad, and news.=
+ But the complaint just says =E2=80=9CCoinbase is offering illegal trading =
+in crypto tokens,=E2=80=9D which we already knew. Surely that was priced in=
+?
+Of course last week there was still some uncertainty; maybe SEC Chair Gary =
+Gensler would get hit by a bus before he could get around to bringing the C=
+oinbase case that we all knew was coming. Or maybe the SEC would drag thing=
+s out a bit, negotiate, be persuaded by Coinbase=E2=80=99s arguments or=C2=
+=A0cowed by Coinbase=E2=80=99s promises to fight the case to the bitter end=
+ or chastened by congressional hearings criticizing its regulatory approach=
+. The filing of the lawsuit collapsed the uncertainty; the SEC is actually =
+doing the thing it was expected to do. So the stock went down.
+So I suppose you could have woken up on Monday and thought =E2=80=9Cwell, I=
+ know the SEC is probably going to sue Coinbase, and when it does the stock=
+ will go down, and the SEC seems to move pretty fast these days, so maybe i=
+t=E2=80=99ll be this week.=E2=80=9D So you might have put a bit of money in=
+to short-dated put options on Coinbase stock. That was an asymmetric bet th=
+at something bad would happen this week: If it did, you would make a lot of=
+ money; if it didn=E2=80=99t, you would lose a little bit of money. You wer=
+e betting that the market was too complacent about Coinbase. You were corre=
+ct, the market was too complacent about Coinbase. And you could pretty easi=
+ly have made that bet based on public information: Again, we=E2=80=99ve bee=
+n talking about this for months, and so has the SEC, and so has Coinbase!
+Or of course your buddy at the SEC could have tipped you off =E2=80=9Chey w=
+e=E2=80=99re doing Coinbase tomorrow, buy puts,=E2=80=9D and you could have=
+ traded on that inside tip and made a ton of money, but   I don=E2=80=99t t=
+hink that=E2=80=99s a necessary explanation:
+
+Less than a half hour before US regulators cracked down on a key crypto exc=
+hange, an options trader made a short-term bet against Coinbase Global Inc.=
+ that may have netted them millions of dollars.
+At 10:36 a.m. on Monday, a block of 4,806 contracts of Coinbase $50 puts ex=
+piring Friday hit the tape, when the stock was at $61.77. Roughly 24 minute=
+s later, the Securities and Exchange Commission announced that it was suing=
+ Binance Holdings Ltd, sparking a selloff across the crypto universe. =E2=
+=80=A6
+The already profitable bet became even more lucrative on Tuesday after the =
+SEC announced a separate suit again Coinbase itself.=C2=A0
+Shares of the cryptocurrency exchange tumbled as much as 21% at the open of=
+ trading, driving the value of the put options to $5.65 each. The move mean=
+s a trader could have potentially turned a $86,500 investment =E2=80=94 the=
+ sum spent on buying the puts =E2=80=94 into a windfall of as much as $2.6 =
+million in less than day.
+
+I don=E2=80=99t know! I used to talk a lot about my  laws of insider tradin=
+g, of which the most important was probably No. 2, =E2=80=9Cdon=E2=80=99t i=
+nsider trade=C2=A0by buying short-dated out-of-the-money call options on me=
+rger targets.=E2=80=9D More generally, if you have inside information about=
+ some news that is about to come out about a company, the most efficient wa=
+y to trade on that news is usually to buy short-dated out-of-the-money opti=
+ons on the company: The options will be cheap, and if the stock moves a ton=
+ in the next few days they will pay off a lot. You can turn a little bit of=
+ money, say $86,500, into a lot of money, say $2.6 million, which is hard t=
+o do with more linear bets like buying or shorting stock.
+Which is why I said that you=C2=A0shouldn=E2=80=99t=C2=A0do it: This trade =
+is=C2=A0so good=C2=A0that it=E2=80=99s the first place the authorities look=
+ for insider trading. And it looks bad! There are so many insider trading c=
+ases where the authorities say not only =E2=80=9Cthis guy bought short-date=
+d out-of-the-money call options on a merger target and made a bundle of mon=
+ey in three days,=E2=80=9D but also =E2=80=9Cand he has never traded option=
+s before in his life, and in fact had to Google =E2=80=98what is call optio=
+n=E2=80=99 before placing the order.=E2=80=9D If your first ever options tr=
+ade makes you a ton of money immediately on big unexpected news, that just =
+looks really suspicious.
+But one weirdly important market trend in the last few years is that everyo=
+ne is buying short-dated out-of-the-money options all the time now. Here=E2=
+=80=99s a Bloomberg story from March titled =E2=80=9C  =E2=80=98Degenerate =
+Gambling=E2=80=99 in Zero-Day Options Thrills Retail Traders,=E2=80=9D and =
+another one titled =E2=80=9C  Zero-Day Options Boom Is Turning Wall Street =
+Trading On Its Head,=E2=80=9D and one from May titled =E2=80=9C  Zero-Day O=
+ptions Are Reordering the Way the Stock Market Behaves.=E2=80=9D Here is a =
+Financial Times story from last December titled =E2=80=9C Big traders flock=
+ to US equity options with fleeting lifespans.=E2=80=9D Much of that is abo=
+ut index options trading, but   the meme-stock boom also involved a lot of =
+very short-dated single-stock options bets. It is fun to gamble! Short-date=
+d options are a satisfying way to gamble: You put in a little money, you ei=
+ther lose it or win a lot of money, and you find out fairly quickly. And so=
+ they have become very popular.
+But because they are popular, their value as a signal is much lower. If you=
+r first ever options trade makes you a ton of money immediately on big unex=
+pected news, that looks suspicious. If your thousandth short-dated out-of-t=
+he-money options trade makes you a ton of money immediately on big unexpect=
+ed news, that was bound to happen eventually.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Wall Street Firm Citadel Securities Courts AI Startups for Trading Edge. Ho=
+w Crispin Odey evaded sexual assault allegations for decades. Bonds Everywh=
+ere Suffer as   Rate-Hike Fears Swamp Traders.=20
+Binance Money Trail Reveals $70 Billion Flowing Through Silvergate, Signatu=
+re.=C2=A0EU eyes conflicts of interest crackdown in ESG ratings rules. Lawm=
+akers Try Again to Curb  Visa, Mastercard Fees, With Broader Support.  Bina=
+nce.US Was Deeply Unprofitable in 2022, Documents Show. IRS Sends Taxpayers=
+ Bills With  Wrong Due Dates.=C2=A0East Coast Air Crisis Seen Lingering Unt=
+il Tuesday:   Smoke Latest.=C2=A0Twitter Co-Founder Williams Says He Was =
+=E2=80=98Sad=E2=80=99 After Musk's Purchase.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] I will grudgingly concede that Elon Musk may be a third exception. I =
+have no good explanation for that, but he seems to spend a ton of time   ge=
+tting mad about short sellers, and it works out fine.
+
+
+  [2] Osipovich: =E2=80=9CBefore the opening bell on Friday, Dec. 9, Finra =
+halted trading. The reason, Finra said, is because U.S. stock trades take t=
+wo business days to settle, so only people who bought shares by Dec. 8 woul=
+d be recorded as owners of MMTLP by Dec. 12 and thus eligible for the Next =
+Bridge distribution. In a scenario where trading continued after Dec. 8, so=
+meone buying MMTLP wouldn=E2=80=99t be eligible to get the Next Bridge shar=
+es, so their unsettled MMTLP shares would be an empty shell with zero value=
+.=E2=80=9D
+
+
+  [3] [AMC Entertainment Holdings Inc. is another one; it raised a ton of m=
+oney from its meme-stock status and pivoted to, among other things,   gold =
+mining, with mixed results.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ciw74l.5k62/12c1946b.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_13596993_352133007.1686250553848
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow and Monday, back on Tues=
+day.=E2=80=9CHe who sells what isn=E2=80=99t his=E2=80=99n, must buy it bac=
+k or go to pri
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31735317.259418/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNjA4MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MDgmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB4bac2ad3"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31735317.259418/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMTczNTMxNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE5OTQ3MzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB2e43e00a" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D31735317&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31994735&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow and Monday, back on Tuesday.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">MMTLP</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">=E2=80=9CHe who sells what isn=E2=80=99t his=
+=E2=80=99n, must buy it back <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/31735317.259418/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvRGFuaWVs=
+X0RyZXc/607f07ceef4b8524a319a23cB1db19730" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> or go to prison</a>,=E2=
+=80=9D which sometimes gives people bad ideas. Here is=C2=A0the bad idea:</=
+p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">If people sell stock short, they have=
+ to borrow the stock from a stock lender, and return it when they are done.=
+ They borrow the stock, they sell it, they wait, and then they buy it back =
+to return to the lender. (The short sellers hope that the stock goes down b=
+etween when they sell it and when they buy it.)</li>=09<li style=3D"margin-=
+bottom: 5px;">If the stock pays a dividend, the short sellers have to pay t=
+he dividend back to the stock lender.</li>=09<li style=3D"margin-bottom: 5p=
+x;">If the stock somehow becomes=C2=A0<em>not tradable</em>, then the short=
+ sellers can=E2=80=99t buy it back to deliver to their lenders, and they ar=
+e stuck, bwahahahahaha, prison!</li>=09<li style=3D"margin-bottom: 5px;">If=
+ the stock pays a dividend that is not cash or regular stock, but rather so=
+me weird thing that is=C2=A0<em>not tradable</em>, then the short sellers c=
+an=E2=80=99t get the dividend to deliver to their lenders, and they are stu=
+ck,=C2=A0bwahahahahaha, prison!</li>
+</ol>
+<p style=3D"margin: 16px 0;">And so if you are a certain sort of public com=
+pany chief executive officer, you might spend=C2=A0time thinking about ques=
+tions like =E2=80=9Chow can I make my stock not tradable=E2=80=9D or =E2=80=
+=9Chow can I pay my shareholders a dividend that is not tradable,=E2=80=9D =
+because if you can crack that nut then the people who have sold your stock =
+short will be marched off to prison and you will have won.</p>
+<p style=3D"margin: 16px 0;">I=E2=80=99m sorry, this is so dumb. If you are=
+ a public company chief executive officer and your main goal, or even one o=
+f your top five goals, is punishing short sellers, then you have already lo=
+st. That=E2=80=99s a terrible goal! The way to deal with short sellers is t=
+o run a good business that makes a lot of money; this will make your stock =
+go up, and the shorts will take care of themselves. Short sellers don=E2=80=
+=99t matter! They can=E2=80=99t hurt you! At most, they can make your stock=
+ go down a bit, but your business does not depend on your stock price; your=
+ business depends on your business. Just do your business! Ignore the short=
+s.</p>
+<p style=3D"margin: 16px 0;">There are two exceptions to this<a class=3D"fo=
+otnote-index" href=3D"#footnote-1" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: none !important; background-color: transparent !import=
+ant; display: inline-block;">
+<span>[1]</span>
+</a>:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">If you are <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/31735317.259418/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDUtMjUvdGhlLXVzLW1pZ2h0LWJlLW9ubHktYWE=
+_Y21waWQ9QkJEMDYwODIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW=
+5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjA4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ce=
+ef4b8524a319a23cBee7b9299" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">  a bank</a>, then your business depends=
+ on confidence, and a declining stock price can undermine confidence. It is=
+ sad and undignified when bank CEOs spend a lot of time worrying about shor=
+t sellers, but it is=C2=A0<em>understandable</em>.</li>=09<li style=3D"marg=
+in-bottom: 5px;">If your business is a pump-and-dump scam, then your busine=
+ss really is about the stock price. =E2=80=9CJust run a good business=E2=80=
+=9D is absurd advice when your business is putting out press releases to ma=
+ke your stock go up, and it does make sense that you would be laser-focused=
+ on fighting short sellers.</li>
+</ol>
+<p style=3D"margin: 16px 0;">And so if you are a public company CEO and you=
+ spend all your time trying to devise ways to get your short sellers in tro=
+uble, that=E2=80=99s just sort of a bad sign?</p>
+<p style=3D"margin: 16px 0;">In 2019, Overstock.com launched a short squeez=
+e. Its idiosyncratic CEO, Patrick Byrne, had a long-running crusade against=
+ short sellers and actually notched a few wins over the years. In 2019, he =
+decided to destroy the shorts by issuing a special stock dividend on Overst=
+ock=E2=80=99s own blockchain platform. Basically each shareholder would get=
+ shares of a new class of preferred stock; the preferred stock would be tra=
+dable only on Overstock=E2=80=99s blockchain and, more important, it would =
+not be tradable <em>at all</em> for six months. This meant that, if you wer=
+e short Overstock stock, you=E2=80=99d have to deliver the preferred stock =
+to your stock lenders, but you couldn=E2=80=99t deliver the preferred stock=
+, because you couldn=E2=80=99t buy it, because it wasn=E2=80=99t tradable. =
+Checkmate!</p>
+<p style=3D"margin: 16px 0;">No, not checkmate, what actually happened is:<=
+/p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Short sellers were fine; their lenders=
+ agreed to take cash instead of the special preferred stock.</li>=09<li sty=
+le=3D"margin-bottom: 5px;">The SEC investigated, and short sellers sued, Ov=
+erstock for alleged=C2=A0market manipulation from this dividend scheme, tho=
+ugh the SEC never brought a case and <a href=3D"https://link.mail.bloomberg=
+business.com/click/31735317.259418/aHR0cHM6Ly9jb2ludGVsZWdyYXBoLmNvbS9uZXdz=
+L2NvdXJ0LXRvc3Nlcy1vdXQtc2hvcnQtc2VsbGVycy1sYXdzdWl0LXRhcmdldGluZy1vdmVyc3R=
+vY2stcy1kaWdpdGFsLWRpdmlkZW5k/607f07ceef4b8524a319a23cB8e7668ba" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ the short sellers lost</a>. (To be fair, Overstock had non-short-squeeze-y=
+ reasons for doing the dividend; Byrne was really into blockchain stuff.)</=
+li>=09<li style=3D"margin-bottom: 5px;">Byrne <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/31735317.259418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL25ld3NsZXR0ZXJzLzIwMTktMDgtMjMvbW9uZXktc3R1ZmYtb3ZlcnN0b2NrLW=
+xvc2VzLWEtc3B5Y2F0Y2hlci1jZW8_Y21waWQ9QkJEMDYwODIzX01PTkVZU1RVRkYmdXRtX21lZ=
+Gl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjA4JnV0bV9jYW1w=
+YWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBc2842f96" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> resigned a=
+s Overstock=E2=80=99s CEO</a> for reasons having to do with a Russian spy, =
+I don=E2=80=99t know, it=E2=80=99s very confusing.</li>=09<li style=3D"marg=
+in-bottom: 5px;">On his personal blog (<a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/31735317.259418/aHR0cHM6Ly93d3cuZGVlcGNhcHR1cmUuY29tLw=
+/607f07ceef4b8524a319a23cBcebf6e32" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">DeepCapture.com</a>), Byrne <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/31735317.259418/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL25ld3NsZXR0ZXJzLzIwMTktMDktMTkvbW9u=
+ZXktc3R1ZmYtb3ZlcnN0b2NrLWhhcy1oYWQtYS13aWxkLXdlZWs_Y21waWQ9QkJEMDYwODIzX01=
+PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm=
+09MjMwNjA4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBddcc38f=
+0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> complained about the SEC rescuing short sellers</a> in these =
+terms: =E2=80=9CNow, after 15 years of being scofflaws, the shorts are cryi=
+ng because they are getting sucked into a black hole they created themselve=
+s. If you call =E2=80=98Bazoomba!=E2=80=99 for them now, I am going to use =
+this website to vaporize you with information I give the public. I am 100% =
+confident that at least one of you knows to what I am referring.=E2=80=9D</=
+li>
+</ul>
+<p style=3D"margin: 16px 0;">Bazoomba. You would not call all of this an ov=
+erwhelming success for Overstock or Byrne. The short sellers were not exact=
+ly vanquished. Overstock=E2=80=99s stock fell about 70% between the <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31735317.259418/aHR0cHM6L=
+y93d3cuZ2xvYmVuZXdzd2lyZS5jb20vbmV3cy1yZWxlYXNlLzIwMTkvMDcvMzAvMTg5MzY1MS8w=
+L2VuL092ZXJzdG9jay1jb20tSW5jLURlY2xhcmVzLURpdmlkZW5kLW9mLU9uZS1EaWdpdGFsLVN=
+oYXJlLWZvci1FdmVyeS1UZW4tU2hhcmVzLUhlbGQuaHRtbA/607f07ceef4b8524a319a23cBff=
+61251d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> announcement of the special dividend</a>=C2=A0and the end =
+of 2019, though it soared again in=C2=A02020 after Byrne left.</p>
+<p style=3D"margin: 16px 0;">On the other hand it was kind of a clever idea=
+, and Byrne is not the only CEO to hate short sellers. I can=E2=80=99t say =
+there have been a lot of copycats, but for instance AMC Entertainment Holdi=
+ngs Inc. has spent some time giving its shareholders weird stuff (<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31735317.259418/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMDIvYW1jLWJyaW5n=
+cy1vdXQtdGhlLXBvcGNvcm4_Y21waWQ9QkJEMDYwODIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1=
+lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjA4JnV0bV9jYW1wYWlnbj=
+1tb25leXN0dWZm/607f07ceef4b8524a319a23cB6f8b2d16" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">  popcorn</a>, <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/31735317.259418/aHR0=
+cHM6Ly9pbnZlc3Rvci5hbWN0aGVhdHJlcy5jb20vbmV3c3Jvb20vbmV3cy1kZXRhaWxzLzIwMjE=
+vQU1DLVRoZWF0cmVzLWFuZC1XYXgtdG8tSXNzdWUtYS1OZXctRXhjbHVzaXZlLUktT3duLUFNQy=
+1ORlQtdG8tQWxsLUV4aXN0aW5nLWFuZC1OZXctTWVtYmVycy1vZi1BTUMtSW52ZXN0b3ItQ29ub=
+mVjdC9kZWZhdWx0LmFzcHg/607f07ceef4b8524a319a23cB355a7881" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> non-fung=
+ible tokens</a>, <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+1735317.259418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIw=
+MjItMDgtMjMvYW1jLWdvZXMtYXBlP2NtcGlkPUJCRDA2MDgyM19NT05FWVNUVUZGJnV0bV9tZWR=
+pdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDYwOCZ1dG1fY2FtcG=
+FpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB1a24bb89" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">  APE prefe=
+rred shares</a>), and I have occasionally talked about the Overstock preced=
+ent as a possible model: If you give each shareholder a dividend of one bag=
+ of popcorn flavored with your secret proprietary spice mix, you will make =
+life hard for short sellers who have to recreate that exact spice mix to de=
+liver to stock lenders. But AMC, sensibly, has not done this: Doing weird d=
+ividends to delight your shareholders is better than doing weird dividends =
+to punish your short sellers.</p>
+<p style=3D"margin: 16px 0;">And then there is MMTLP. At the Wall Street Jo=
+urnal, <a href=3D"https://link.mail.bloombergbusiness.com/click/31735317.25=
+9418/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ob3ctdGhlLXN0b2NrLXRpY2tlci1tbX=
+RscC1iZWNhbWUtYW4tYW50aS13YWxsLXN0cmVldC1yYWxseWluZy1jcnktM2UyYTUxMmE_bW9kP=
+Wl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB8536a58f" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> Alexande=
+r Osipovich does the hard labor</a> of explaining it:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">MMTLP was a set of preferred shares whose valu=
+e was largely underpinned by oil and gas assets in the Orogrande Basin of W=
+est Texas. They were issued in 2021 when Torchlight Energy Resources, a Pla=
+no, Texas-based oil company, merged with Meta Materials, a Canadian nanotec=
+hnology firm. They traded in the risky OTC market until December, when they=
+ were removed from circulation.</p>
+<p style=3D"margin: 16px 0;">In their last weeks of trading, buzz mounted t=
+hat the shares were poised for a short squeeze, a phenomenon in which short=
+ sellers exit their bets against a stock, causing its price to rally. Fuele=
+d by such chatter, MMTLP surged more than 650% from the start of October to=
+ Nov. 21. That put a peak valuation of about $2 billion on the underlying a=
+ssets=E2=80=94even though some oil and gas analysts have dismissed them as =
+worthless.</p>
+<p style=3D"margin: 16px 0;">The catalyst for the anticipated squeeze was a=
+n unusual transaction in which MMTLP shares were set to be converted into s=
+hares of a new, nonpublicly traded company called Next Bridge Hydrocarbons.=
+ Many investors were convinced that short sellers had placed massive, hidde=
+n bets against MMTLP in the months and years before the planned conversion.=
+ They expected it to trigger a last-minute scramble as shorts snapped up MM=
+TLP, sending the share price surging.</p>
+<p style=3D"margin: 16px 0;">On Dec. 9, 2022, Finra halted trading in MMTLP=
+. Such halts are part of Finra=E2=80=99s tool kit for preventing market dis=
+ruptions. But the halt surprised adherents of the short-squeeze theory, who=
+ expected two more days of trading in which to realize their gains.</p>
+<p style=3D"margin: 16px 0;">Some investors had poured tens of thousands of=
+ dollars into MMTLP expecting big profits. Instead, they were stuck with sh=
+ares they can=E2=80=99t sell.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CGiven the lack of drilling success, p=
+roduction or cash flow at Orogrande, it is certainly possible the preferred=
+ stock transaction was simply a means to create the perception or reality o=
+f a short squeeze,=E2=80=9D said Jeff Davies, a former energy hedge-fund ma=
+nager.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CUnfortunately the people who bought i=
+nto the short-squeeze thesis and spent no time valuing the underlying asset=
+s got hurt the most.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Fort Worth, Texas-based Next Bridge declined t=
+o comment. Meta Materials Chief Executive George Palikaras said his company=
+ spun out the energy assets into a private company to protect shareholders =
+from problems such as naked short selling=E2=80=94an abusive practice in wh=
+ich short sellers place bets against a stock without obtaining the shares n=
+eeded for the trade.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Ah. There=E2=80=99s an oil company with some p=
+ossibly worthless reserves. It was the subject of=C2=A0social-media <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31735317.259418/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMi0yMjE/607f07ceef4b8524a319=
+a23cB9b87bbe9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> pump-and-dump schemes</a>. (=E2=80=9CTorchlight man=
+agement wasn=E2=80=99t aware of the schemes, and no executives at Torchligh=
+t or Meta Materials have been accused,=E2=80=9D reports Osipovich.) It merg=
+ed with=C2=A0<em>a nanotechnology firm</em>, as one does, and put the oil a=
+ssets in a new weird stock=C2=A0called MMTLP. MMTLP was a sort of tracking =
+stock or contingent value right on the oil and gas assets: Holders of the p=
+referred stock <a href=3D"https://link.mail.bloombergbusiness.com/click/317=
+35317.259418/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdG=
+EvMTQzMTk1OS8wMDAwOTUwMTcwMjIwMDI2MDEvbW1hdC0yMDIxMTIzMS5odG0/607f07ceef4b8=
+524a319a23cB2bf0ff25" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> were entitled</a> =E2=80=9Cto receive divide=
+nds, or Asset Sale Dividends, comprised of the holder=E2=80=99s pro rata po=
+rtion of the proceeds from the sale of the O&amp;G Assets in the event that=
+ the Company consummates one or more such transaction.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">That traded over the counter for a while, but =
+the company never did sell the oil and gas assets. Instead, it decided to <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/31735317.259418/aHR=
+0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE5MzY3NTYvMDAwMTE5MzEyNT=
+IyMjkyMTE0L2QzMDI1NzZkNDI0YjQuaHRt/607f07ceef4b8524a319a23cB31fb2176" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> spin them out to shareholders</a>, replacing the MMTLP tracking stock w=
+ith actual shares in a new oil company called Next Bridge Hydrocarbons Inc.=
+ (According to its most recent=C2=A0<a href=3D"https://link.mail.bloombergb=
+usiness.com/click/31735317.259418/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY=
+2hpdmVzL2VkZ2FyL2RhdGEvMTkzNjc1Ni8wMDAxMTk5ODM1MjMwMDAyNDQvbmJoLTEwcS5odG0j=
+YTAwM192MQ/607f07ceef4b8524a319a23cB3737f780" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">quarterly report</a>,=
+ Next Bridge=C2=A0=E2=80=9Ccurrently has six full-time employees,=E2=80=9D=
+=C2=A0=E2=80=9Chas not yet achieved profitable operations,=E2=80=9D and =E2=
+=80=9Chad no proved reserve value associated with our properties.=E2=80=9D)=
+ Everyone=E2=80=99s MMTLP shares would automatically be converted into Next=
+ Bridge common shares.</p>
+<p style=3D"margin: 16px 0;">Ordinarily, when a public company spins out a =
+subsidiary to its shareholders, the subsidiary also becomes a public compan=
+y: The whole point of the spinoff is to let the subsidiary=E2=80=99s shares=
+ trade separately from the parent=E2=80=99s; if you are giving new stock to=
+ your public shareholders, presumably they want that stock to be public too=
+. But Meta specifically designed Next Bridge <em>not</em> to trade publicly=
+, or at all. From <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+31735317.259418/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE5MzY=
+3NTYvMDAwMTE5MzEyNTIyMjkyMTE0L2QzMDI1NzZkNDI0YjQuaHRt/607f07ceef4b8524a319a=
+23cC31fb2176" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> the prospectus</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">Our Common Stock is currently not =
+listed for trading on any stock exchange or market and we have not sought t=
+o be traded on any exchange or market. The shares of Common Stock will not =
+be eligible for electronic transfer through the Depository Trust Company or=
+ any other established clearing corporation. Accordingly, there currently i=
+s no public trading market for the Common Stock and there is no current exp=
+ectation for a public market to develop.</p></blockquote>
+<p style=3D"margin: 16px 0;">Not only is the stock not listed on a public e=
+xchange, but it is not eligible for transfer through DTC, meaning that all =
+of your brokerage=E2=80=99s systems for trading the stock don=E2=80=99t wor=
+k, and probably your broker won=E2=80=99t want to bother with it. (=E2=80=
+=9CThe restriction was an unusual, deliberate move by Meta Materials that w=
+ould effectively make the new shares untradeable,=E2=80=9D writes Osipovich=
+.) =E2=80=9CAccordingly, you may have to hold the shares of Common Stock in=
+definitely,=E2=80=9D says the prospectus.</p>
+<p style=3D"margin: 16px 0;">This is very inconvenient for MMTLP/Next Bridg=
+e shareholders! Why would a company take its shareholders=E2=80=99 publicly=
+ traded shares and replace them with=C2=A0<em>non-tradable=C2=A0</em>shares=
+? Not because it is nice for shareholders to be unable to sell their shares=
+. But because it is=C2=A0<em>bad=C2=A0</em>for=C2=A0<em>short sellers=C2=A0=
+</em>to be unable to=C2=A0<em>buy=C2=A0</em>shares. =E2=80=9CMeta Materials=
+ Chief Executive George Palikaras said his company spun out the energy asse=
+ts into a private company to protect shareholders from problems such as nak=
+ed short selling=E2=80=9D: If nobody can sell the stock, then nobody can se=
+ll the stock short; if nobody can buy the stock, then short sellers can=E2=
+=80=99t buy back their shorts, and they go to prison. In the abstract, if y=
+ou are a CEO who hates short sellers, =E2=80=9Cmake it so that nobody can s=
+ell the stock=E2=80=9D seems like a good move. It is, however, an obviously=
+ bad move=C2=A0<em>for your shareholders</em>, because they can=E2=80=99t s=
+ell the stock either, oops.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The shareholders apparently didn=E2=80=99t min=
+d, though, because they figured that the Next Bridge distribution would cre=
+ate a short squeeze: Short sellers wouldn=E2=80=99t be able to buy Next Bri=
+dge stock, so they would have to get out of their MMTLP short positions bef=
+ore MMTLP was replaced by Next Bridge. And so the shareholders=C2=A0would s=
+ell their MMTLP stock into the short squeeze, as the shorts were forced to =
+buy, just before the spinoff was completed. In a risk factor (!), Next Brid=
+ge=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/31735317.2=
+59418/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE5MzY3NTYvMDAwM=
+TE5MzEyNTIyMjkyMTE0L2QzMDI1NzZkNDI0YjQuaHRtI3RvYzMwMjU3Nl8z/607f07ceef4b852=
+4a319a23cB982ac7ac" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">touted=C2=A0this possibility</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">If any investors have sold shares =
+of MMTLP short, then in connection with the Distribution such investors may=
+ feel compelled to buy shares of MMTLP to cover such sales before the Distr=
+ibution. If this were to occur, given the potential high demand from buyers=
+ with a relatively low supply of MMTLP shares available for sale on the OTC=
+ market, the MMTLP price per share as shown on the OTC market may rise sign=
+ificantly but not be representative of the value of the underlying shares o=
+f our Common Stock that you will receive in the Distribution.</p></blockquo=
+te>
+<p style=3D"margin: 16px 0;">But it didn=E2=80=99t work, the MMTLP stock wa=
+s halted,<a class=3D"footnote-index" href=3D"#footnote-2" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: none !important; background-col=
+or: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0and now the people who bought it hoping that for a short squeeze =
+are=C2=A0stuck holding non-tradable stock in Next Bridge. A bad result, but=
+ also exactly what they were promised.</p>
+<p style=3D"margin: 16px 0;">They=E2=80=99re so mad. Osipovich:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Over the past six months, MMTLP investors have=
+ formed a noisy protest movement, wielding hashtags such as #FinraFraud. Th=
+ey allege that Finra=E2=80=99s halt covered up a conspiracy among hedge fun=
+ds and market makers to suppress the price of Torchlight, and later MMTLP, =
+through naked short selling.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Some MMTLP investors have picketed the Securit=
+ies and Exchange Commission=E2=80=99s headquarters in Washington, and one b=
+uttonholed the agency=E2=80=99s head on Capitol Hill in April. =E2=80=A6 So=
+me Finra employees and market veterans caught up in debate around MMTLP hav=
+e received death threats. In one anonymous message to a market veteran seen=
+ by The Wall Street Journal, the sender alluded to mass shootings and vowed=
+ to come =E2=80=9Cpiss on your casket.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Charming. This is the same complaint as Patric=
+k Byrne=E2=80=99s: Meta, like Overstock, tried to issue non-tradable stock =
+to artificially squeeze short sellers, and it didn=E2=80=99t work, and they=
+ blame the regulators for not letting it work.</p>
+<p style=3D"margin: 16px 0;">My takeaways would be:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Naked short selling is an imaginary p=
+roblem.</li>=09<li style=3D"margin-bottom: 5px;">US securities regulators t=
+hink that <a href=3D"https://link.mail.bloombergbusiness.com/click/31735317=
+.259418/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAxMi0yMDEyLTE=
+yMmh0bQ/607f07ceef4b8524a319a23cB8cc4dca1" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> engineering a short squ=
+eeze is market manipulation</a>, and they are not going to=C2=A0<em>help=C2=
+=A0</em>a company=E2=80=99s efforts to squeeze its shorts.</li>=09<li style=
+=3D"margin-bottom: 5px;">If a company is doing some baroque corporate-finan=
+ce structuring with the=C2=A0<em>express purpose of hurting short sellers</=
+em>, that is good news for short=C2=A0sellers and bad news for shareholders=
+.</li>
+</ol>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31735317.259418/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTczNTMxNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE5OTQ3MzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC70894bc2" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31735317&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31994735&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31735317.259418/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTczNTMxNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE5OTQ3MzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD70894bc2" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31735317&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31994735&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">UnTRustworthy</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I guess one trade you could do is, like, you i=
+ncorporate a company called Renaisssance Technologies LLC, and you register=
+ a domain like rentech.com, and you send out letters to a bunch of big inst=
+itutional allocators and high-net-worth individuals saying =E2=80=9Cgood ne=
+ws, Renaisssance Technologies is opening its prestigious Medalion Fund to a=
+ few selected investors, you are one of them, wire us some money, the fees =
+are 5 and 50.=E2=80=9D All of the typos in that sentence are intentional. A=
+nd some people who get the letter miss the typos and think that Renaissance=
+ Technologies is opening its prestigious Medallion Fund to them, and they w=
+ire you $100 million, and then you have $100 million. You could steal it. O=
+r, much better, you could invest it in a diversified portfolio of stocks=C2=
+=A0and keep 5% of the assets plus 50% of the gains for yourself. Stealing i=
+t is a crime; investing it and charging the fees that you agreed to is =E2=
+=80=A6=C2=A0I mean =E2=80=A6=C2=A0I don=E2=80=99t=C2=A0<em>recommend=C2=A0<=
+/em>it, but it=E2=80=99s an interesting idea.</p>
+<p style=3D"margin: 16px 0;">Is it? Is this a thing? We <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/31735317.259418/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTUtMDYtMDQvZ3V5LXdoby1kaWQtYXZvbi1o=
+b2F4LXdhcy10ZXJyaWJsZS1hdC1ob2F4ZXM_Y21waWQ9QkJEMDYwODIzX01PTkVZU1RVRkYmdXR=
+tX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjA4JnV0bV=
+9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB44c4b86e" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">  tal=
+k sometimes</a> around here about people who put out fake press releases an=
+nouncing fake mergers, and sometimes the fake buyer is like KRK &amp; Co. o=
+r Carlisle Group or Cerebrus or Blackst0ne or whatever, but I don=E2=80=99t=
+ think I=E2=80=99ve ever heard of someone intentionally creating a confusin=
+g company name to try to solicit investors. Until now! From Leanna Orr=E2=
+=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/31735317.2=
+59418/aHR0cHM6Ly9zdG9yYWdlLnBhcmRvdC5jb20vMjg0ODMyLzE2ODYxNTY2ODhSd1pORVlLT=
+i9FYXNpbHlfQ29uZnVzZWRfTFBzLnBkZg/607f07ceef4b8524a319a23cB1b404924" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> Allocator newsletter</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">In March, the $18.1B asset manager=
+ EnTrust Global filed a lawsuit against an alleged copycat firm for using i=
+ts brand to confuse and scam investors. EnTRust Capital, a Cayman vehicle r=
+un by Hong Kong-based firm TR Capital, had been soliciting investment from =
+the =E2=80=9Creal=E2=80=9D EnTrust=E2=80=99s clients since the start of 202=
+2, the filing claims.</p></blockquote>
+<p style=3D"margin: 16px 0;">Gorgeous. Here is <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/31735317.259418/aHR0cHM6Ly9hc3NldHMuYndieC5pby=
+9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JGNE85azRHTDc5cy92MA/607f07ceef4b85=
+24a319a23cB25252bd3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> the complaint</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In 2022, a Hong Kong-based entity calling itse=
+lf =E2=80=9CEnTRust Capital=E2=80=9D began soliciting investments from EnTr=
+ust=E2=80=99s investors. EnTRust Capital describes itself as an investment =
+fund that provides =E2=80=9Cprivate equity style investing in public market=
+s=E2=80=9D=E2=80=94i.e., the same exact investment business as EnTrust.</p>
+<p style=3D"margin: 16px 0;">In addition to blatantly copying EnTrust=E2=80=
+=99s brand, Defendants1 have also directly solicited EnTrust=E2=80=99s inve=
+stors. =E2=80=A6 EnTrust has been contacted by at least 14 investors who ha=
+ve been solicited by Defendants and thought the solicitation was being made=
+ by EnTrust. Undoubtedly, many more investors have been confused but have n=
+ot contacted EnTrust.</p>
+<p style=3D"margin: 16px 0;">Upon information and belief, it is apparent th=
+at Defendants are following a common strategy to knock off an American comp=
+any and deceive U.S. investors. Defendants are using the=C2=A0<em>same exac=
+t name to market substantially similar investment products to the same inve=
+stors</em>.=C2=A0It is currently unknown how many investors may have mistak=
+enly sent money to the sham =E2=80=9CEnTRust=E2=80=9D run by Defendants.=C2=
+=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I hope it=E2=80=99s lots. I hope that EnTRust=
+=E2=80=99s private-equity-style investments in public markets=C2=A0are outp=
+erforming EnTrust=E2=80=99s. I hope this really is =E2=80=9Ca common strate=
+gy,=E2=80=9D and there are lots of BLackstones and Blackst0nes and Blakcsto=
+nes and Bl=C3=A5ckstones out there.=C2=A0=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">GameStop</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/31735317.259418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjMtMDYtMDUvZWxvbi1tdXNrLWhhZC1mdW4td2l0aC1kb2dlY29pbj9jbXBpZ=
+D1CQkQwNjA4MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xl=
+dHRlciZ1dG1fdGVybT0yMzA2MDgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b852=
+4a319a23cBff67456a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  talk a lot around here</a> about Elon Musk=
+=E2=80=99s magical ability to move the prices of financial assets: Musk can=
+ tweet about Tesla Inc. stock or Dogecoin or some small company, and the th=
+ing he tweets about will go up. The =E2=80=9CElon markets hypothesis,=E2=80=
+=9D <a href=3D"https://link.mail.bloombergbusiness.com/click/31735317.25941=
+8/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMTAvZ=
+Wxvbi1tdXNrLXR3ZWV0cy1ncmVhdC1uZXdzLWZvci1iaXRjb2luLWJhZC1uZXdzLWZvci1lY29u=
+LW1ham9ycz9jbXBpZD1CQkQwNjA4MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9=
+zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MDgmdXRtX2NhbXBhaWduPW1vbmV5c3R1Zm=
+Y/607f07ceef4b8524a319a23cBe13c65ce" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">  I call it</a>; =E2=80=9Cthe =
+way finance works now is that things are valuable not based on their cash f=
+lows but on their proximity to Elon Musk.=E2=80=9D Mostly I just think it w=
+ould be amazing to have that power. =E2=80=9CI just think that if you prese=
+nted this possibility to any famous investor throughout history they would =
+absolutely faint with excitement,=E2=80=9D <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/31735317.259418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMTcvZWxvbi1tdXNrLWNvbnRyb2xzLWJpdGNvaW4tY=
+W5kLWRvZ2Vjb2luLXByaWNlcy13aXRoLXB1cmUtbWFnaWM_Y21waWQ9QkJEMDYwODIzX01PTkVZ=
+U1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjM=
+wNjA4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBa0442c66" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">  I once wrote</a>. To be fair, though, Musk is not the only person e=
+ver to be able to do this. Other famous investors <em>have</em> been able t=
+o move stocks with the pure power of their attention. Warren Buffett has a =
+halo effect. Hindenburg Research can crash its short targets. If you get a =
+reputation, and a following, you can get the power to move stocks.</p>
+<p style=3D"margin: 16px 0;">Sometimes it=E2=80=99s temporary though. For a=
+ while, in the meme-stock boom, Ryan Cohen had this power: He was the Meme =
+Stock Guy, and his involvement in a stock could send it up. Early last year=
+, Cohen bought some options on Bed Bath &amp; Beyond Inc.;=C2=A0he=C2=A0<em=
+>reminded=C2=A0</em>the market of his purchase in August, and the stock sho=
+t up from $4.89 to $30, <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/31735317.259418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljb=
+GVzLzIwMjItMDgtMzEvYmVkLWJhdGgtYmV5b25kLW1pc3NlZC10aGUtbWVtZXM_Y21waWQ9QkJE=
+MDYwODIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXI=
+mdXRtX3Rlcm09MjMwNjA4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a=
+23cBa2124d97" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">  allowing Cohen to sell out at a profit</a>. Great t=
+rade.</p>
+<p style=3D"margin: 16px 0;">But the magic is wearing off. Yesterday GameSt=
+op Inc., the meme-iest and Ryan-Cohen-est of the meme stocks, reminded the =
+market of Cohen=E2=80=99s presence: He has been <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/31735317.259418/aHR0cHM6Ly93d3cuc2VjLmdvdi9pe=
+D9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTMyNjM4MC8wMDAxMTkzMTI1MjMxMzI2NDkvZDQ2=
+NDYxNmRkZWYxNGEuaHRt/607f07ceef4b8524a319a23cC18426cdc" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> chairman o=
+f GameStop=E2=80=99s board</a> since June 2021, but yesterday the company g=
+ave him the additional title of <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/31735317.259418/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpd=
+mVzL2VkZ2FyL2RhdGEvMTMyNjM4MC8wMDAxMTkzMTI1MjMxNjI1NzIvZDUxODMzM2Q4ay5odG0/=
+607f07ceef4b8524a319a23cD63b517e1" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">executive chairman</a>. Also on =
+Monday GameStop=E2=80=99s chief executive officer resigned, to be replaced =
+by some combination of Cohen (as executive chairman) and the company=E2=80=
+=99s general counsel (who was promoted to general manager and principal exe=
+cutive officer). It <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/31735317.259418/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9nYW1lc3RvcC1maXJlc=
+y1jZW8tbmFtZXMtaW52ZXN0b3Itcnlhbi1jb2hlbi1leGVjdXRpdmUtY2hhaXJtYW4tMzk3ODJl=
+YWM_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB1eee0ea5" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ didn=E2=80=99t work</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">GameStop shares plunged Wednesday after it ter=
+minated Chief Executive Matt Furlong and elevated Ryan Cohen to executive c=
+hairman, the latest shake-up at the videogame retailer, which has been stru=
+ggling to find new ways to juice sales.</p>
+<p style=3D"margin: 16px 0;">Cohen first joined the board as a director in =
+early 2021 and rose to chairman that June as part of a restructuring of Gam=
+eStop=E2=80=99s board. The company then overhauled its executive team, hiri=
+ng Furlong from Amazon for the CEO job.</p>
+<p style=3D"margin: 16px 0;">GameStop shares fell 19% in after-hours tradin=
+g.</p>
+<p style=3D"margin: 16px 0;">While the company didn=E2=80=99t cite a reason=
+ for the termination, Cohen appeared to mock Furlong shortly after it was a=
+nnounced, tweeting =E2=80=9CNot for long.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">That=E2=80=99s the sort of mean-spirited Twitt=
+er wit you want from a memelord, but it doesn=E2=80=99t have the effect it =
+used to.</p>
+<p style=3D"margin: 16px 0;">When GameStop hired Furlong back in 2021, <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/31735317.259418/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMTAvbWF5YmUtZ=
+2FtZXN0b3AtaXMtZ29vZC1ub3c_Y21waWQ9QkJEMDYwODIzX01PTkVZU1RVRkYmdXRtX21lZGl1=
+bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjA4JnV0bV9jYW1wYWl=
+nbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB0aeeb7c1" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">  I speculated=
+</a> about whether its time as a meme stock could lead to fundamental busin=
+ess improvements. The theory was that GameStop=E2=80=99s stock went up a lo=
+t for more or less irrational reasons =E2=80=94=C2=A0memes, etc. =E2=80=94=
+=C2=A0but that GameStop had the opportunity to=C2=A0<em>make=C2=A0</em>it r=
+ational, to turn the stock-price increase into business success. With a soa=
+ring stock price, you have more valuable stock to, for instance, pay senior=
+ Amazon executives to join your small video-game retailer. You can raise mo=
+ney to fund your pivot from mall retailer to online gaming distributor. You=
+ can make strategic acquisitions. Having a soaring stock price is kind of l=
+ike having a lot of money =E2=80=94=C2=A0the soaring stock price can be=C2=
+=A0<em>turned into=C2=A0</em>money, usually =E2=80=94=C2=A0and having a lot=
+ of money can help you improve your business. It is not automatic! Just spe=
+nding a lot of money will not necessarily improve the long-term fortunes of=
+ a mall-based video-game retailer, and pivoting to a new business model is =
+risky. But it could help. I wrote:</p>
+<blockquote><p style=3D"margin: 16px 0;">If you just, like, exogenously dis=
+covered a gigantic pile of diamonds in the basement of your headquarters, t=
+hat might make your stock price go up, but would it make you better at doin=
+g your business? You could call up superstar executives and say =E2=80=9Che=
+y come work for our company, we just found a bunch of diamonds=E2=80=9D; wo=
+uld they do it? I don=E2=80=99t know! Maybe? It=E2=80=99s a weird question.=
+ There are not a lot of natural experiments.</p></blockquote>
+<p style=3D"margin: 16px 0;">But GameStop was one!<a class=3D"footnote-inde=
+x" href=3D"#footnote-3" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: none !important; background-color: transparent !important; displa=
+y: inline-block;">
+<span>[3]</span>
+</a>=C2=A0I don=E2=80=99t want to say that it didn=E2=80=99t work; corporat=
+ions are perpetual, GameStop is still doing stuff, and maybe with Cohen mor=
+e firmly in charge it will finally etc. etc. etc. But <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/31735317.259418/aHR0cHM6Ly93d3cud3NqLmN=
+vbS9hcnRpY2xlcy9nYW1lc3RvcC1maXJlcy1jZW8tbmFtZXMtaW52ZXN0b3Itcnlhbi1jb2hlbi=
+1leGVjdXRpdmUtY2hhaXJtYW4tMzk3ODJlYWM_bW9kPWl0cF93c2omcnU9eWFob28/607f07cee=
+f4b8524a319a23cC1eee0ea5" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> it kind of didn=E2=80=99t work</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Furlong was one of dozens of e-commerce vetera=
+ns who joined GameStop in 2021 and 2022 to help turn the company=E2=80=99s =
+business around by expanding online sales and launching a marketplace for n=
+onfungible tokens, or NFTs. Many of those executives left last year, includ=
+ing the chief growth officer, vice presidents of fulfillment and supply cha=
+in systems and the senior vice president of customer service.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Also last year, GameStop began pulling back on=
+ its e-commerce efforts and returned its focus to getting stores to be more=
+ efficient. ...</p>
+<p style=3D"margin: 16px 0;">Once he ascended to chairman, Cohen set out to=
+ turn GameStop into an e-commerce juggernaut by offering new products such =
+as TVs and beanbags. The company opened new fulfillment centers and a custo=
+mer-service facility in anticipation of increased sales. However, it quickl=
+y ran into supply-chain challenges and found little demand for many of the =
+new products, prompting the retailer to reverse course on those moves, The =
+Wall Street Journal reported in March. The company last year also cut sever=
+al hundred corporate jobs created under Cohen.</p>
+<p style=3D"margin: 16px 0;">GameStop is now back to relying more on its st=
+ores to support its shrinking e-commerce business. It is using the stores a=
+s mini fulfillment centers, where employees package and mail online orders =
+to local customers and customers come in to pick up their purchases, the Jo=
+urnal=E2=80=99s March report shows.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">If you paid $300 for GameStop stock in January=
+ 2021 because you thought that Ryan Cohen would turn it into an e-commerce =
+juggernaut to threaten Amazon, your bet, uh, has not paid off yet. At noon =
+today the stock was trading at about $21.45, which=C2=A0<em>is=C2=A0</em>st=
+ill higher than where it started 2021.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Coinbase puts</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Coinbase Global Inc.=E2=80=99s stock is down a=
+bout 17% this week, and I don=E2=80=99t entirely understand why. Sure yes t=
+he US Securities and Exchange Commission=C2=A0<a href=3D"https://link.mail.=
+bloombergbusiness.com/click/31735317.259418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDYtMDYvdGhlLXNlYy1jb21lcy1mb3ItY3J5cHRvP2=
+NtcGlkPUJCRDA2MDgyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZ=
+XdzbGV0dGVyJnV0bV90ZXJtPTIzMDYwOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07cee=
+f4b8524a319a23cBd9d229ea" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">  sued Coinbase on Tuesday</a>, alleging =
+that its core business is an illegal securities exchange; if the SEC wins t=
+hat case it will be devastating for Coinbase. But everyone knew, with an un=
+usually high degree of confidence, that that case was coming, and what the =
+SEC=E2=80=99s arguments would be. I <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/31735317.259418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjMtMDMtMjMvdGhlLXNlYy1pcy1jb21pbmctZm9yLWNvaW5iYXNlP2Nt=
+cGlkPUJCRDA2MDgyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXd=
+zbGV0dGVyJnV0bV90ZXJtPTIzMDYwOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4=
+b8524a319a23cBecb7d204" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">  wrote about it in March</a>, because the =
+SEC formally notified Coinbase that the lawsuit was coming, and Coinbase pu=
+blicized that notice and its response. And the SEC=E2=80=99s arguments =E2=
+=80=94=C2=A0that most crypto tokens are securities, so if you run a crypto =
+exchange you are running an illegal securities exchange =E2=80=94=C2=A0are =
+also well known, and the SEC made them when it <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/31735317.259418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDQtMTcvdGhlLXNlYy1jb21lcy1mb3ItYml0dHJle=
+D9jbXBpZD1CQkQwNjA4MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9=
+bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MDgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07c=
+eef4b8524a319a23cBf174c8b7" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">  sued another crypto exchange</a>, Bit=
+trex, in April. There=E2=80=99s nothing really new in the Coinbase complain=
+t. If the Coinbase complaint said =E2=80=9CCoinbase is offering illegal tra=
+ding in crypto tokens, plus stealing customer money,=E2=80=9D that would be=
+ bad, and news. But the complaint just says =E2=80=9CCoinbase is offering i=
+llegal trading in crypto tokens,=E2=80=9D which we already knew. Surely tha=
+t was priced in?</p>
+<p style=3D"margin: 16px 0;">Of course last week there was still some uncer=
+tainty; maybe SEC Chair Gary Gensler would get hit by a bus before he could=
+ get around to bringing the Coinbase case that we all knew was coming. Or m=
+aybe the SEC would drag things out a bit, negotiate, be persuaded by Coinba=
+se=E2=80=99s arguments or=C2=A0cowed by Coinbase=E2=80=99s promises to figh=
+t the case to the bitter end or chastened by congressional hearings critici=
+zing its regulatory approach. The filing of the lawsuit collapsed the uncer=
+tainty; the SEC is actually doing the thing it was expected to do. So the s=
+tock went down.</p>
+<p style=3D"margin: 16px 0;">So I suppose you could have woken up on Monday=
+ and thought =E2=80=9Cwell, I know the SEC is probably going to sue Coinbas=
+e, and when it does the stock will go down, and the SEC seems to move prett=
+y fast these days, so maybe it=E2=80=99ll be this week.=E2=80=9D So you mig=
+ht have put a bit of money into short-dated put options on Coinbase stock. =
+That was an asymmetric bet that something bad would happen this week: If it=
+ did, you would make a lot of money; if it didn=E2=80=99t, you would lose a=
+ little bit of money. You were betting that the market was too complacent a=
+bout Coinbase. You were correct, the market was too complacent about Coinba=
+se. And you could pretty easily have made that bet based on public informat=
+ion: Again, we=E2=80=99ve been talking about this for months, and so has th=
+e SEC, and so has Coinbase!</p>
+<p style=3D"margin: 16px 0;">Or of course your buddy at the SEC could have =
+tipped you off =E2=80=9Chey we=E2=80=99re doing Coinbase tomorrow, buy puts=
+,=E2=80=9D and you could have traded on that inside tip and made a ton of m=
+oney, but <a href=3D"https://link.mail.bloombergbusiness.com/click/31735317=
+.259418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMDc=
+vbXlzdGVyeS1iZXQtYmVmb3JlLXNlYy1jcnlwdG8tY3JhY2tkb3duLW1heS1taW50LXRyYWRlci=
+1taWxsaW9ucz9jbXBpZD1CQkQwNjA4MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MDgmdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cBf6e28277" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  I don=E2=80=99t think that=
+=E2=80=99s a necessary explanation</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Less than a half hour before US regulators cra=
+cked down on a key crypto exchange, an options trader made a short-term bet=
+ against Coinbase Global Inc. that may have netted them millions of dollars=
+.</p>
+<p style=3D"margin: 16px 0;">At 10:36 a.m. on Monday, a block of 4,806 cont=
+racts of Coinbase $50 puts expiring Friday hit the tape, when the stock was=
+ at $61.77. Roughly 24 minutes later, the Securities and Exchange Commissio=
+n announced that it was suing Binance Holdings Ltd, sparking a selloff acro=
+ss the crypto universe. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The already profitable bet became even more lu=
+crative on Tuesday after the SEC announced a separate suit again Coinbase i=
+tself.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Shares of the cryptocurrency exchange tumbled =
+as much as 21% at the open of trading, driving the value of the put options=
+ to $5.65 each. The move means a trader could have potentially turned a $86=
+,500 investment =E2=80=94 the sum spent on buying the puts =E2=80=94 into a=
+ windfall of as much as $2.6 million in less than day.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t know! I used to talk a lot abo=
+ut my <a href=3D"https://link.mail.bloombergbusiness.com/click/31735317.259=
+418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDgtMTI=
+vdGhlLTEwLWxhd3Mtb2YtaW5zaWRlci10cmFkaW5nP2NtcGlkPUJCRDA2MDgyM19NT05FWVNUVU=
+ZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDYwO=
+CZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB4405ca82" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> laws of insider trading</a>, of which the most important was probably No=
+. 2, =E2=80=9Cdon=E2=80=99t insider trade=C2=A0by buying short-dated out-of=
+-the-money call options on merger targets.=E2=80=9D More generally, if you =
+have inside information about some news that is about to come out about a c=
+ompany, the most efficient way to trade on that news is usually to buy shor=
+t-dated out-of-the-money options on the company: The options will be cheap,=
+ and if the stock moves a ton in the next few days they will pay off a lot.=
+ You can turn a little bit of money, say $86,500, into a lot of money, say =
+$2.6 million, which is hard to do with more linear bets like buying or shor=
+ting stock.</p>
+<p style=3D"margin: 16px 0;">Which is why I said that you=C2=A0<em>shouldn=
+=E2=80=99t=C2=A0</em>do it: This trade is=C2=A0<em>so good=C2=A0</em>that i=
+t=E2=80=99s the first place the authorities look for insider trading. And i=
+t looks bad! There are so many insider trading cases where the authorities =
+say not only =E2=80=9Cthis guy bought short-dated out-of-the-money call opt=
+ions on a merger target and made a bundle of money in three days,=E2=80=9D =
+but also =E2=80=9Cand he has never traded options before in his life, and i=
+n fact had to Google =E2=80=98what is call option=E2=80=99 before placing t=
+he order.=E2=80=9D If your first ever options trade makes you a ton of mone=
+y immediately on big unexpected news, that just looks really suspicious.</p=
+>
+<p style=3D"margin: 16px 0;">But one weirdly important market trend in the =
+last few years is that everyone is buying short-dated out-of-the-money opti=
+ons all the time now. Here=E2=80=99s a Bloomberg story from March titled =
+=E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/31735317.=
+259418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMjkv=
+MGR0ZS1vcHRpb25zLXJldGFpbC10cmFkZXJzLWV4cGxhaW4td2h5LXRoZXktcmlzay1pdC13aXR=
+oLXplcm8tZGF5LW9wdGlvbnM_Y21waWQ9QkJEMDYwODIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT=
+1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjA4JnV0bV9jYW1wYWlnb=
+j1tb25leXN0dWZm/607f07ceef4b8524a319a23cB4fbde81b" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">  =E2=80=98Degen=
+erate Gambling=E2=80=99 in Zero-Day Options Thrills Retail Traders</a>,=E2=
+=80=9D and another one titled =E2=80=9C<a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/31735317.259418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZX=
+dzL2FydGljbGVzLzIwMjMtMDMtMjIvdG95cy1vci10b29scy16ZXJvLWRheS1vcHRpb25zLXN0Y=
+XJ0LWNoYW5naW5nLXRoZS10cmFkaW5nLWdhbWU_Y21waWQ9QkJEMDYwODIzX01PTkVZU1RVRkYm=
+dXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjA4JnV=
+0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBfe193ad6" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  Zero-Day Options Boom Is Turning Wall Street Trading On Its Head</a>,=E2=
+=80=9D and one from May titled =E2=80=9C<a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/31735317.259418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZ=
+XdzL2FydGljbGVzLzIwMjMtMDUtMTgvemVyby1kYXktb3B0aW9ucy1hcmUtcmVvcmRlcmluZy10=
+aGUtd2F5LXRoZS1zdG9jay1tYXJrZXQtYmVoYXZlcz9jbXBpZD1CQkQwNjA4MjNfTU9ORVlTVFV=
+GRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA2MD=
+gmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB04d6d8bc" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">  Zero-Day Options Are Reordering the Way the Stock Market Behaves</a>.=
+=E2=80=9D Here is a Financial Times story from last December titled =E2=80=
+=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/31735317.259418=
+/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYTA5YmQzYjMtMTE4OC00N2QxLWEyYWUtNjQ1Yz=
+A0YWIzZDEx/607f07ceef4b8524a319a23cB87eb3fef" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> Big traders flock to=
+ US equity options with fleeting lifespans</a>.=E2=80=9D Much of that is ab=
+out index options trading, but <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/31735317.259418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjEtMDEtMjUvdGhlLWdhbWUtbmV2ZXItc3RvcHM_Y21waWQ9QkJEMDYwODIzX=
+01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rl=
+cm09MjMwNjA4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB87907=
+254" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  the meme-stock boom</a> also involved a lot of very short-da=
+ted single-stock options bets. It is fun to gamble! Short-dated options are=
+ a satisfying way to gamble: You put in a little money, you either lose it =
+or win a lot of money, and you find out fairly quickly. And so they have be=
+come very popular.</p>
+<p style=3D"margin: 16px 0;">But because they are popular, their value as a=
+ signal is much lower. If your first ever options trade makes you a ton of =
+money immediately on big unexpected news, that looks suspicious. If your th=
+ousandth short-dated out-of-the-money options trade makes you a ton of mone=
+y immediately on big unexpected news, that was bound to happen eventually.<=
+/p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Wall Street Firm <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/31735317.259418/aHR0cHM6Ly93d3cudGhlaW5mb3JtYXR=
+pb24uY29tL2FydGljbGVzL3dhbGwtc3RyZWV0LWZpcm0tY2l0YWRlbC1zZWN1cml0aWVzLWNvdX=
+J0cy1haS1zdGFydHVwcy1mb3ItdHJhZGluZy1lZGdlP3V0bV9tZWRpdW09ZW1haWwmdXRtX2Nhb=
+XBhaWduPWFydGljbGVfZW1haWwmdXRtX2NvbnRlbnQ9YXJ0aWNsZS0xMDY2NSZ1dG1fc291cmNl=
+PXNnJnJjPTFiZGk1aA/607f07ceef4b8524a319a23cB26df3828" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">Citadel Secur=
+ities</a> Courts AI Startups for Trading Edge. How <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/31735317.259418/aHR0cHM6Ly93d3cuZnQuY29tL2=
+NvbnRlbnQvZTVkMTQzOTgtZTg2Ni00NGIzLThlY2ItNGU2MzcxMTY3YzZk/607f07ceef4b8524=
+a319a23cB4aad5272" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">Crispin Odey</a> evaded sexual assault allegatio=
+ns for decades. Bonds Everywhere Suffer as <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/31735317.259418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9uZXdzL2FydGljbGVzLzIwMjMtMDYtMDgvYm9uZHMtZXZlcnl3aGVyZS1hcmUtc3VmZmVyaW5nL=
+WFzLXJhdGUtaGlrZS1mZWFycy1zd2FtcC10cmFkZXJzP2NtcGlkPUJCRDA2MDgyM19NT05FWVNU=
+VUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDY=
+wOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB14eb650a" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">  Rate-Hike Fears</a> Swamp Traders. <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/31735317.259418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9u=
+ZXdzL2FydGljbGVzLzIwMjMtMDYtMDgvYmluYW5jZS1tb25leS10cmFpbC1yZXZlYWxzLTcwLWJ=
+pbGxpb24tZmxvd3MtdG8tc2lsdmVyZ2F0ZS1zaWduYXR1cmU_Y21waWQ9QkJEMDYwODIzX01PTk=
+VZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09M=
+jMwNjA4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB17c640b5" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">
+Binance Money Trail</a> Reveals $70 Billion Flowing Through Silvergate, Sig=
+nature.=C2=A0EU eyes conflicts of interest crackdown in <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/31735317.259418/aHR0cHM6Ly93d3cuZnQuY=
+29tL2NvbnRlbnQvYjRlYWYzNzUtNjE0MS00NWE3LTlmMzAtZDk0NjI2MDVjMDFm/607f07ceef4=
+b8524a319a23cBcd1641ae" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">ESG ratings rules</a>. Lawmakers Try Again =
+to Curb <a href=3D"https://link.mail.bloombergbusiness.com/click/31735317.2=
+59418/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9sYXdtYWtlcnMtdHJ5LWFnYWluLXRvL=
+WN1cmItdmlzYS1tYXN0ZXJjYXJkLWZlZXMtd2l0aC1icm9hZGVyLXN1cHBvcnQtNjRhYjM4MDQ_=
+bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB72f8fbf4" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Vis=
+a, Mastercard Fees</a>, With Broader Support. <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/31735317.259418/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnR=
+pY2xlcy9iaW5hbmNlLXVzLXdhcy1kZWVwbHktdW5wcm9maXRhYmxlLWluLTIwMjItZG9jdW1lbn=
+RzLXNob3ctOWM5Yzk1YTY_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB=
+39c7db21" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> Binance.US</a> Was Deeply Unprofitable in 2022, Document=
+s Show. IRS Sends Taxpayers Bills With <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/31735317.259418/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy=
+9pcnMtc2VuZHMtdGF4cGF5ZXJzLWJpbGxzLXdpdGgtd3JvbmctZHVlLWRhdGVzLWVkYzdjZDVlP=
+21vZD1ocF9sZWFkX3BvczEx/607f07ceef4b8524a319a23cB835e8760" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> Wrong D=
+ue Dates</a>.=C2=A0East Coast Air Crisis Seen Lingering Until Tuesday: <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/31735317.259418/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDYtMDgvcGhpbGFkZWxwa=
+GlhLXNlZXMtd29yc3QtYWlyLWFzLWZpcmUtaW1wYWN0LWxpbmdlcnMtc21va2UtbGF0ZXN0P2Nt=
+cGlkPUJCRDA2MDgyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXd=
+zbGV0dGVyJnV0bV90ZXJtPTIzMDYwOCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4=
+b8524a319a23cB1a244e3a" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">  Smoke Latest</a>.=C2=A0Twitter Co-Founder=
+ Williams Says He Was =E2=80=98<a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/31735317.259418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydG=
+ljbGVzLzIwMjMtMDYtMDgvdHdpdHRlci1jby1mb3VuZGVyLXdpbGxpYW1zLXNheXMtaGUtd2FzL=
+XNhZC1hZnRlci1tdXNrLXMtcHVyY2hhc2U_Y21waWQ9QkJEMDYwODIzX01PTkVZU1RVRkYmdXRt=
+X21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNjA4JnV0bV9=
+jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB27e3fc5d" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">Sad</a=
+>=E2=80=99 After Musk's Purchase.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31735317.259418/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB511de92a" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31735317.259418/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB7948baf9" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] I will grudgingly concede that Elon Musk m=
+ay be a third exception. I have no good explanation for that, but he seems =
+to spend a ton of time <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/31735317.259418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbG=
+VzLzIwMTgtMDgtMTcvZWxvbi1tdXNrLWlzLXdvcmtpbmctdG9vLWhhcmQ_Y21waWQ9QkJEMDYwO=
+DIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRt=
+X3Rlcm09MjMwNjA4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBf=
+0fbd7de" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">  getting mad about short sellers</a>, and it works out fi=
+ne.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Osipovich: =E2=80=9CBefore the opening bel=
+l on Friday, Dec. 9, Finra halted trading. The reason, Finra said, is becau=
+se U.S. stock trades take two business days to settle, so only people who b=
+ought shares by Dec. 8 would be recorded as owners of MMTLP by Dec. 12 and =
+thus eligible for the Next Bridge distribution. In a scenario where trading=
+ continued after Dec. 8, someone buying MMTLP wouldn=E2=80=99t be eligible =
+to get the Next Bridge shares, so their unsettled MMTLP shares would be an =
+empty shell with zero value.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] [AMC Entertainment Holdings Inc. is anothe=
+r one; it raised a ton of money from its meme-stock status and pivoted to, =
+among other things, <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/31735317.259418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzL=
+zIwMjItMDMtMTUvYW1jLWJvdWdodC1hLWdvbGQtbWluZT9jbXBpZD1CQkQwNjA4MjNfTU9ORVlT=
+VFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA=
+2MDgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB7811e1e5" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">  gold mining</a>, with mixed results.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31735317.259418/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB6da953c7" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31735317.259418/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB1ad9af1e" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31735317.259418/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB7d607547" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31735317.259418/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB8bb4bb54" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/31735317.259418/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB636c260f" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/31735317.2594=
+18/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB213b0c10" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31735317.259418/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC54e6fd34" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/31735317.259418/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB62b907a9" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31735317.259418/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBe6a6b526" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31735317.259418/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBc=
+b11c9b8" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31735317.259418/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBd=
+fa07d94" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ciw74l.5k62/12c1946b.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_13596993_352133007.1686250553848--
+

@@ -1,0 +1,2939 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:a51:b0:e2:9b5b:7c1 with SMTP id 17csp2543381rwb;
+        Tue, 17 Jan 2023 05:48:50 -0800 (PST)
+X-Received: by 2002:a5d:5270:0:b0:27c:88f3:8cb8 with SMTP id l16-20020a5d5270000000b0027c88f38cb8mr2690347wrc.25.1673963329729;
+        Tue, 17 Jan 2023 05:48:49 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1673963329; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=S5DUfItfKDX6NIhYj0J0ai4A7DGtSi/ciZukpJc/lSQ8jnZd1IWJULRqlqKpTNE4dB
+         +LILmBj1kkxrH6BmEBjcbU0/nedBYTx7W/oEbQDRdzULh1VnHNry9P1SQ+I56j8GUA//
+         zu92EGXB1a4stmduSVmKKxf01JBbWLhh9W63u8J77ie7YmCvU7TN/Fsq/cISoEf2jPEm
+         4pmqj0XccZA3ZUR9sLF0B7Kz+u6ey+8AmTnJ+2hFVCoMga9IS/KrCVk/JN0hRXKMSrth
+         HZ7qCwtWzK7BagxY/pdMOmDHP9tSCs3d13js7fs/62hZdGbVaw0x6U2fAL5e0orN/e9h
+         j6Jg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-id:list-archive:sender:reply-to:in-reply-to:list-owner
+         :message-id:list-unsubscribe:list-url:list-post:date
+         :list-unsubscribe-post:references:to:from:subject:mime-version
+         :dkim-signature:delivered-to;
+        bh=Wqp4dJIpeIdM9HXjFAzC26DqWmCqMTGpo7h3Uh31S8k=;
+        b=rQAEUyeuGTNHYfXILLKlCqe/tHC2NTp2L654Ge+5wgUFLhbGIEKqO/ReunrNvTFOFN
+         SjckwJkjsx2bzCXqFtWQHDpejwrLD18VoZxsBB3Wm+8FYGCYIVmAbQiZSwODKx8PQqMx
+         yb2WAdOiFYJEC2O9Q8YNuYbio/jin5AVV03ckFUDdMQ8SYdrn9FzFUufeaalXkuHOJE8
+         VeV1JgkqFD9zc4+btTV1TQZXCqzd5DhtpanDZzlDWjrK8JJVhuAB9VHOm/hrwl1Axjvr
+         lxsH2ndEKG/Sk6TDgwR4v1KY9Rt/qUQyQ3K8t+HXa1yNtckV/2E6zcT2KDAXOFXq8meU
+         rqsQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=bsK984c+;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id t20-20020adfd014000000b002bdeb31dadasor3691900wrh.75.2023.01.17.05.48.49
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 17 Jan 2023 05:48:49 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=bsK984c+;
+       arc=pass (i=2 dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-id:list-archive:sender:reply-to:in-reply-to:list-owner
+         :message-id:list-unsubscribe:list-url:list-post:date
+         :list-unsubscribe-post:references:to:from:subject:mime-version
+         :dkim-signature:delivered-to:x-gm-message-state:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=Wqp4dJIpeIdM9HXjFAzC26DqWmCqMTGpo7h3Uh31S8k=;
+        b=yf60LWrW6exAWrTmM5D1G4XRzTQ2jiObWdRS8ObMq7Hhw4NhVwL4UG1ebA5Kvp0Y6z
+         BBU3KTXim0AtU5DnvW45TLv8/yQVpJIry2UkQA5vITh+W+3qLNnCgwwDDSokAlu1HA0l
+         gryr2Z09hck+E1ovg4GfwI7xxoGOw7kmXeGLzedP7W93OEpS4gmnVHrZiQ3Ou5igao6L
+         RVaJO6+IbsSDYZ1R1Dsh/hr+zZhdkFqkBzO9Wg084GFzRPRvl/+A3A4CnQL/FUrJtJVO
+         fZ8BzTNcFeu9Zxa1hahfZZO66qDG6NVr5rGJRc3WfabelL24YVxCrInNXfBS3t1alfee
+         ntIg==
+X-Gm-Message-State: AFqh2kqqFJEGra1U7BEHteOwWTiMysjpb9KBf77tzfvtQ7xwKMtQq8BZ
+	LIxpWUe/P65uuv2zgZN0FS+vXbxUe7UMD+CUjV/ZJJleEff06ssl0Q==
+X-Received: by 2002:a5d:4dc6:0:b0:2a9:9bab:810c with SMTP id f6-20020a5d4dc6000000b002a99bab810cmr135210wru.696.1673963328792;
+        Tue, 17 Jan 2023 05:48:48 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a05:6000:1c08:0:0:0:0 with SMTP id ba8csp786146wrb;
+        Tue, 17 Jan 2023 05:48:46 -0800 (PST)
+X-Received: by 2002:a17:902:9891:b0:192:7c38:4842 with SMTP id s17-20020a170902989100b001927c384842mr23932304plp.53.1673963325688;
+        Tue, 17 Jan 2023 05:48:45 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1673963325; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=PQMTuxE9qIQS90du3h+YTkUUVMF+3KWiSe3ZxQQxROFyPHRINlhitHRHaY5Kk7AKxM
+         PZGdEnk/FHv1PTD8NWcjIUsJUmZBMvhucCZBIY9GgVON1cGpGFoL1s9V8yS0pD5D4F4B
+         ClR39Kem8a67rD9xaD7askXJAzaNaO3sng6YFYr/NmI8dlj7KKxbVSgX1dYZuBTG8Cq5
+         Qfzir7PkQhOAPCAknnO0rAcbVEN+nNOhYtDNUrAFknrvdEJixihLFV5ZbKzUejqghQf5
+         ViVL57YmLTORQ5Y6GRkKiY1eO4TuUPK+gUcXWaFUcquc5W2jsLGU4ItEnVi9TNRO9f/v
+         SehQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-id:list-archive:sender:reply-to:in-reply-to:list-owner
+         :message-id:list-unsubscribe:list-url:list-post:date
+         :list-unsubscribe-post:references:to:from:subject:mime-version
+         :dkim-signature;
+        bh=Wqp4dJIpeIdM9HXjFAzC26DqWmCqMTGpo7h3Uh31S8k=;
+        b=u7RlUMsO6LplMMlVL32x0PscvujN8TYMGBl9fR0nwZIMvInCZOVsvV/tqWIj4QT9F3
+         cBxeVPLFRVQivjnE+FrPgtqLMlHko4IgcV5Gb67gfGs3KmWsunh8FFJTGjT1mDqObd/o
+         ylFOzHrAytMMPexF/2gTgGPaeJ1WIZg127Mnk1hyucAHH5bHY67Fs4bURwFRmkLOFkMk
+         Y1OihJfyiKI6yKu0xXj3sewnqOXvVmt7TuRW7UNL4WROaXKGgdWzmrA8VeKzeemuSyxx
+         vfiXi4/LLerspnfy4dlm6KWHuPWWr4x/ax24pNLasYpX1oUuQPei9T2Gr8CQdOvQZZPE
+         nocA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=bsK984c+;
+       arc=pass (i=1 spf=pass spfdomain=mg-d1.substack.com dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id q18-20020a170902f79200b001929827732bsor15014717pln.12.2023.01.17.05.48.45
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 17 Jan 2023 05:48:45 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AMrXdXvgpyEVnlMvSC1Qis53CXd8rCpCBhi4rCVMEq7naMua1cuPaaIRDLqx7FQFxgYL5b6eQOz4n1wAnXQxgja0MAJdrJCFaRw=
+X-Received: by 2002:a17:902:aa82:b0:193:2f1a:65b1 with SMTP id d2-20020a170902aa8200b001932f1a65b1mr22116371plr.59.1673963325245;
+        Tue, 17 Jan 2023 05:48:45 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1673963325; cv=none;
+        d=google.com; s=arc-20160816;
+        b=luBa1E+nz9V29yxDqZcpnleFdRUK6FdZ49L2wYIimyAI+yi+H15oFO/Us+68ubxRo+
+         Qp36g3220e4bokV5ZwYe05hYiMlgeH/iVygMTjYRmVhdoXHvll/Ib67icOvozeC2P3Hy
+         rfveN5GHY+2YfTLtZjpPzunm5lnZoR5YTEqTOu9F4AyuqtmIbCkZ3NCwhAWTfgfvIwlv
+         PI5Ot9ITFLraIPo0WFNDWpqfzm/0GXDo0YsXjvoe1OqP+OTB217GCxV8klpXE/0lYflH
+         W36QjBdhTg1GYpM17xOj2vXsxj1gT6Cdm7AQgFkfFA9+WGPCiuDqchry/KOsbakFvM0k
+         6NNA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-id:list-archive:sender:reply-to:in-reply-to:list-owner
+         :message-id:list-unsubscribe:list-url:list-post:date
+         :list-unsubscribe-post:references:to:from:subject:mime-version
+         :dkim-signature;
+        bh=Wqp4dJIpeIdM9HXjFAzC26DqWmCqMTGpo7h3Uh31S8k=;
+        b=xH/y1Z9TYgpNhokLz6F4ammcDkiN/SkinWbT54TIjuK7PDat9j6ntfJ1gwNzqVxt72
+         4nvRfCqcuGqjF4D3BBNos0JZhq4bb4KBzHMoxkroHaFO6gzkAD+UAIR20mcavcfgiMQL
+         lL4PplpTcS2gYNkRihb7GomezYWiOBbAR2EliC0VVy5TNkp9kUuGVXjyvNAASS3YB7IB
+         r+4An9VKPXoFd4cC9Ay1ceozmJGZsDJFbBTHA4LtXFEP2S6cLOhOyeYpMuxlONtBKs3W
+         aLtPvUZ8Uay3e4p5hTqZAVBgpqDsivPY9cNBtlBHY6L5JwhqSPVervzqrFNNW7yNw30P
+         mCAQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b=bsK984c+;
+       spf=pass (google.com: domain of bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com designates 159.112.244.5 as permitted sender) smtp.mailfrom="bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com>
+Received: from m244-5.mailgun.net (m244-5.mailgun.net. [159.112.244.5])
+        by gmr-mx.google.com with UTF8SMTPS id c4-20020a170902d48400b0018712ccd6e0si2815149plg.2.2023.01.17.05.48.39
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Tue, 17 Jan 2023 05:48:45 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com designates 159.112.244.5 as permitted sender) client-ip=159.112.244.5;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg-d1.substack.com; q=dns/txt;
+ s=k1; t=1673963317; x=1673970517; h=List-Id: List-Archive: Sender:
+ Sender: Reply-To: In-Reply-To: List-Owner: Message-Id:
+ List-Unsubscribe: List-Post: Date: References: To: To: From: From:
+ Subject: Subject: Content-Type: Mime-Version;
+ bh=Wqp4dJIpeIdM9HXjFAzC26DqWmCqMTGpo7h3Uh31S8k=; b=bsK984c+MMwgfW+OIfO8ur1cXN2y5+rRLAPGRi5HMBfCZJz7CeOG4zdvzazkTAV8FkCZRCJc
+ tX4IyYv2mrMbN7MXE0L66P0hCAn+t+FF1td1MuH02rjqfBmCizt5v+54se+AOeapWjxCCGxW
+ YSeoIsotVZRQs5z0Ood+Z7IKxKk=
+X-Mailgun-Sending-Ip: 159.112.244.5
+X-Mailgun-Sid: WyI1OTU0MCIsIm5vdGJvcmluZ0BraGFtZWwuY29tIiwiMzliMDhjNiJd
+Received: from <unknown> (<unknown> []) by 4ebd910395dd with HTTP id
+ 63c6a720865638554942fae8; Tue, 17 Jan 2023 13:48:13 GMT
+X-Mailgun-Batch-Id: 63c6a71df820f3c1205c00e4
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="e384716424d787862d9f396f28b3b65b3a40830f2977f2345a79c6441bab"
+Subject: Differentiation
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+X-Mailgun-Track-Clicks: false
+References: <post-97163783@substack.com>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Date: Tue, 17 Jan 2023 13:47:57 +0000
+List-Post: <https://www.notboring.co/p/differentiation>
+List-Url: <https://www.notboring.co/>
+List-Unsubscribe: <https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsL2Rpc2FibGU_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk9UY3hOak0zT0RNc0ltbGhkQ0k2TVRZM016azJNekk1TVN3aVpYaHdJam94TmpjMk5UVTFNamt4TENKcGMzTWlPaUp3ZFdJdE1UQXdNalVpTENKemRXSWlPaUprYVhOaFlteGxYMlZ0WVdsc0luMC51dGdPYnRqbUk1RVJtdTlpQzJnWW5xX2laWVdtY3FnTDZGRkZkNDBLOGRnIiwicCI6OTcxNjM3ODMsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjczOTYzMjkyLCJleHAiOjE2NzY1NTUyOTIsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.u0qcgnGwvHecIlzW-kg-cs4tcnbeS5iA9q3HvfxIgFQ?>
+Message-Id: <20230117134757.3.02c6409b9b55797b@mg-d1.substack.com>
+List-Owner: <mailto:notboring@substack.com>
+In-Reply-To: <post-97163783@substack.com>
+Reply-To: Not Boring
+ <reply+1luk1z&9p0gt&&ad4fb3a3ba28fb02c5cdfd6df021a06bac2346e91528853f401b7093635f6713@mg1.substack.com>
+Sender: Not Boring <notboring@substack.com>
+List-Archive: <https://www.notboring.co/archive>
+List-Id: <notboring.substack.com>
+X-Mailgun-Variables: {"category": "post", "comment_id": "",
+ "email_generated_at": "1673963292246", "is_freemail": "true",
+ "post_audience": "everyone", "post_id": "97163783", "post_type":
+ "newsletter", "pub_community_enabled": "true", "publication_id": "10025",
+ "subdomain": "notboring", "user_id": "16283549"}
+
+--e384716424d787862d9f396f28b3b65b3a40830f2977f2345a79c6441bab
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://www.notboring.co/p/differentiation
+
+Welcome to the=C2=A0836=C2=A0newly Not Boring people=C2=A0who have joined u=
+s since last Tuesday! If you haven=E2=80=99t subscribed, join=C2=A0181,749 =
+smart, curious folks by subscribing here:
+=F0=9F=8E=A7=C2=A0 For the audio version, listen on Spotify [ https://subst=
+ack.com/redirect/b74f3471-3a19-44d2-a7a3-731bb7288c31?j=3DeyJ1IjoiOXAwZ3Qif=
+Q.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] or=C2=A0Apple Podcasts [ ht=
+tps://substack.com/redirect/33a84db1-a5e0-4c25-9f01-d19ea56bbe88?j=3DeyJ1Ij=
+oiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]=20
+Today=E2=80=99s Not Boring is brought to you by=E2=80=A6 Create [ https://s=
+ubstack.com/redirect/4d9c9058-59a1-4443-80a1-ad17103e584e?j=3DeyJ1IjoiOXAwZ=
+3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] (Dan=E2=80=99s new comp=
+any!)
+Create [ https://substack.com/redirect/4d9c9058-59a1-4443-80a1-ad17103e584e=
+?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is th=
+e first modern creatine brand with a first-of-its-kind creatine monohydrate=
+ gummy.
+I know what you're probably thinking...creatine?! Me too. I had the same re=
+action when my brother Dan first texted me about starting the business. I a=
+lways associated creatine with bodybuilders and high school football player=
+s and bucketed it with =E2=80=9Csteroids.=E2=80=9D
+But Dan did his homework and showed me the research, and it turns out that =
+creatine is one of the safest and most effective general performance supple=
+ments on the market. Andrew Huberman is on the record as taking 5 grams per=
+ day. Peter Attia called it "the supplement he feels most confident recomme=
+nding to patients." The guys who know the most about this stuff view creati=
+ne as a table stakes supplement. Here's why:
+Safe: The FDA marked creatine monohydrate as "generally recognized as safe"=
+ in 2020.=20
+Effective: If you've ever taken creatine before, this one is obvious and it=
+'s what differentiates it from most other supplements: it works.
+Beneficial: increases strength, builds muscle, improves recovery. Recent re=
+search also indicates that creatine may benefit memory and general cognitiv=
+e performance.
+I now take 5 gummies (5g) per day to boost my recovery and overall performa=
+nce -- it's part of my morning routine now that I=E2=80=99m running more an=
+d I=E2=80=99m old. But I=E2=80=99m biased -- my brother started the company=
+ and I'm an investor. Try it out for yourself, 30% off:=20
+Hi friends =F0=9F=91=8B,=C2=A0
+Happy Tuesday! I hope those of you in the US had a great long weekend.=C2=
+=A0
+This is an essay I=E2=80=99ve wanted to write for a long time, since I expe=
+rienced what happens to a company when the differentiation disappears. I=E2=
+=80=99m glad I waited. It=E2=80=99s more relevant now than ever.
+Let=E2=80=99s get to it.=C2=A0
+Differentiation
+Being different beats being better, and differentiation=E2=80=99s lead is o=
+nly going to widen from here.
+If the last era rewarded conformity and competition, the next one will rewa=
+rd differentiation and cooperation.=C2=A0
+Quickly, what is differentiation? It=E2=80=99s a big strategy word that you=
+ hear a lot. It=E2=80=99s one of Michael Porter=E2=80=99s =E2=80=9Cgeneric =
+strategies,=E2=80=9D along with cost leadership and focus. These strategies=
+ are =E2=80=9Cgeneric=E2=80=9D because they can be applied to any type of b=
+usiness, big or small, complex or simple. In this context, differentiation =
+means a company=E2=80=99s efforts to distinguish its products or services f=
+rom competitors=E2=80=99 in customers=E2=80=99 minds in order to charge hig=
+her prices and generate higher profits. Instead of competing on cost, you c=
+ompete on convincing customers that there=E2=80=99s nothing else just like =
+you out there.
+That definition is part of what I=E2=80=99m talking about, but the differen=
+tiation we=E2=80=99ll cover today is more multifaceted than that, it applie=
+s beyond running a company, and it=E2=80=99s deeper than convincing custome=
+rs. The differentiation I=E2=80=99m talking about is doing something that n=
+o one else is doing, and that it=E2=80=99s possible no one else can.=C2=A0
+I=E2=80=99ll start to explain why I value differentiation so highly through=
+ three personal stories, and then I=E2=80=99ll explain why I=E2=80=99m fina=
+lly writing it now, and why I think differentiation will only get more impo=
+rtant from here.=C2=A0
+Ultimately, real differentiation is the only defensible moat left.=C2=A0
+Three Stories
+Story 1: Pumpkins=C2=A0
+My Sixth Grade teacher, Mr. Clarke, had a superpower, something that he was=
+ better at than anyone in the entire world.=C2=A0
+Of course, a lot of sixth graders think that their teachers are the smartes=
+t, or funniest, or strongest, or whateverest in the world. They don=E2=80=
+=99t know many grownups. But I had proof in the form of two cold, hard Guin=
+ness World Records.=C2=A0
+Fastest Time to Carve One Pumpkin [ https://substack.com/redirect/15f4b4e6-=
+d702-4784-a3cf-ca6a4cb9b01e?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXe=
+pKbqOsa8-6m8ExkRNpU ]: 16.47 second (2013)
+Fastest Time to Carve One Tonne of Pumpkins [ https://substack.com/redirect=
+/6c2cbff0-d87b-4740-bb5a-0f465d4b0116?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlN=
+uaMZjmlXXepKbqOsa8-6m8ExkRNpU ]: 3 hours, 33 minutes, 49 seconds (2008)
+Mr. Clarke could carve the shit out of a pumpkin. Every Halloween, he=E2=80=
+=99d show off his superpower to us wide-eyed students, and we=E2=80=99d all=
+ stare in wonder, duly amazed. But we were just the warmup. Mr. Clarke carv=
+ed pumpkins on the local news. Mr. Clarke carved pumpkins on the Today show=
+=2E One time, in 1999, the inventor of th=
+e internet, Al Gore, hired Mr. Clark=
+e to carve pumpkins for his Halloween party.=C2=A0
+I remember being awed, by the pumpkins of course, but more importantly, by =
+the fact that if you were the best in the world at anything, it could take =
+you places. Or, as Mr. Clarke put it in an October (it=E2=80=99s always Oct=
+ober) 2019 interview with Yahoo! [ https://substack.com/redirect/01bf230c-3=
+357-4109-8e99-eb2e5f0f3348?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXep=
+KbqOsa8-6m8ExkRNpU ]:=C2=A0
+Yeah, I love carving pumpkins and all, but it=E2=80=99s not saving the worl=
+d in any way. Given a choice, I=E2=80=99d probably rather be the world=E2=
+=80=99s best brain surgeon. But, in life, you don=E2=80=99t always get to c=
+hoose what talent you get. And once you figure out what it is, it=E2=80=99s=
+ your job to maximize it and do the best that you can.
+My grade school didn=E2=80=99t offer business classes, but those pumpkins w=
+ere my first lesson in differentiation. Find something you=E2=80=99re great=
+ at, even if it feels small, and maximize it.=C2=A0
+Story 2: Breather
+Now, let me tell you my Breather story. This one=E2=80=99s about what happe=
+ns when differentiation dies.
+Before Not Boring, I worked at a startup called Breather. Breather was Rube=
+ Goldbergian in its operational complexity.=C2=A0
+We leased office spaces, did construction, furnished them, rented them out =
+through an app for as little as 30 minutes, gave customers access via ever-=
+changing door codes, priced them dynamically based on demand, and cleaned a=
+nd refreshed them after every reservation. It was weird and hard.=C2=A0
+No one in their right mind would run a business like Breather, but that was=
+ the advantage. Breather=E2=80=99s weirdness was beautiful. Breather was di=
+fferentiated, and that came with a bunch of benefits:=C2=A0
+Booking a Breather, accessing an office with your phone, and getting a quie=
+t space to yourself in the city was a novel, magical experience that people=
+ told their friends about.=C2=A0
+We built direct relationships with our customers.=C2=A0
+We had pricing power.=C2=A0
+We attracted an exceptional team to do a really hard thing.=C2=A0
+And as hard as it was, our employee retention was high. It was fun coming t=
+o work.=C2=A0
+There was just one problem: our gross margins were shit. Different doesn=E2=
+=80=99t necessarily mean good. Four years in, we had expanded our real esta=
+te portfolio too quickly, had a bunch of spaces that sat empty day after da=
+y, and those spaces dragged our portfolio-wide gross margins to something l=
+ike -25%. Not good!=C2=A0
+Something needed to change, so one Christmas break, Ben Rollert [ https://s=
+ubstack.com/redirect/104b7acc-b218-43ed-9636-f2114c7ce206?j=3DeyJ1IjoiOXAwZ=
+3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] (now the CEO of Compose=
+r [ https://substack.com/redirect/35d52d7d-3005-4c1f-8e7f-48d96855e26b?j=3D=
+eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]) and I wor=
+ked on a plan. WeWork was the 800 lb gorilla, offering monthly workspaces f=
+or individuals and small teams. Knotel was the brash newcomer, spending rec=
+klessly on a monthly office product that felt like a real office instead of=
+ a glass box. Where did Breather fit in?=C2=A0
+The plan we came up with was even more operationally complex and weirder th=
+an our original model. It leveraged on our strengths (and our biggest weakn=
+ess):=C2=A0
+The app and short bookings as top-of-funnel=C2=A0
+The capability our data science and real estate teams had built up in under=
+writing and pricing spaces because we had more granular, real-time data tha=
+n anyone else
+The fact that we already did the hardest thing, short on-demand bookings
+The fact that we had too much supply
+We would use dynamic pricing and fill-rate projections to put a monthly pri=
+ce on all of our spaces, and let market dynamics work their magic. Our less=
+ popular spaces could be had for cheaper than competitors=E2=80=99 because =
+they were going to lose us money anyway, and when they were filled by the m=
+onth, demand got pushed to more popular spaces, turbo-charging their margin=
+s. Our more popular spaces could be rented at above-market prices, locking =
+in margins and once again redistributing demand to other hourly spaces. On =
+top of the monthly product, we created a richer offering than WeWork or Kno=
+tel could that we viewed as a living, breathing network of spaces that coul=
+d fill the different needs customers had at different times.
+All of this was really complex =E2=80=93 to explain to customers, for one t=
+hing, but even just to execute. We essentially bolted a second business ont=
+o the first, and needed to change the way we did practically everything, la=
+yering complexity on complexity.=C2=A0
+It was really fucking hard, but it was exhilirating. The company rallied be=
+hind the evolution. There were a lot of late nights and gong rings. We were=
+ doing something that no one else was doing. The difficulty was worth it, b=
+ecause the result was a differentiated product.=C2=A0
+And it worked! In less than six months, our portfolio-wide margins across o=
+ur ten markets, as Biggie would say, went from negative to positive. Specif=
+ically, we went from -25% gross margins to +25% gross margins. If different=
+iation is ultimately expressed in higher profits, our differentiation was f=
+inally paying off.=C2=A0
+At this point, after being promoted to VP of Product and VP of Experience, =
+respectively, the Board put Ben and me in the Office of the CEO. For our fi=
+rst board meeting, we put together what must have been one of the most comp=
+lex board decks in history to explain what we were doing and why it was wor=
+king. We were so proud. Our Board members smiled and nodded along. Turns ou=
+t, they were grinfucking us until they could find an adult to put in the CE=
+O slot, one who could simplify the business enough to make it profitable at=
+ the company level.=C2=A0
+They found their guy, and when the new CEO came in, he got to work simplify=
+ing. As two examples:
+Monthly Only. Bigger monthly spaces brought in more revenue, more consisten=
+tly, so we focused on acquiring bigger spaces that would be used exclusivel=
+y for monthly, and even yearly, offerings.=C2=A0
+Brokers. Our CEO learned that most commercial real estate is rented through=
+ brokers, so he pushed us to sell more of our monthly spaces through broker=
+s. This was bad because it disintermediated our relationship with the custo=
+mer, fumbled our opportunity to sell the broader offering, and especially b=
+ecause WeWork was offering 100% commissions for an entire year to brokers, =
+something we could never compete with.=C2=A0
+With each move, we started looking more and more like WeWork and Knotel, bu=
+t the smaller, poorer version. Our differentiation dissolved by the day. He=
+re=E2=80=99s a sampling of spaces available on the Breather website [ https=
+://substack.com/redirect/496b86ed-0b9b-40ce-bb6b-d37f76a866a4?j=3DeyJ1IjoiO=
+XAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] right now:
+Any business strategy textbook will tell you that, especially when you=E2=
+=80=99re the third or fourth biggest player in a competitive market, the wo=
+rst move is to compete directly with the bigger competitors, to try to play=
+ their game better. But first-hand experience taught me all of the less dis=
+cussed ways that being undifferentiated impacts a company.=C2=A0
+We went from being product-led to being sales-led. When you=E2=80=99re sell=
+ing the same thing as everyone else, the only ways to win are by lowering p=
+rices or =E2=80=A6 selling better than everyone else? This has a bunch of i=
+ts own negative consequences, like letting sales dictate the design of spac=
+es, making overly big concessions for customers, and putting burdens on the=
+ Ops team that would hurt the product downstream. Plus, salespeople were co=
+mmissioned on monthly sales, so we sold even our most profitable hourly spa=
+ces monthly, at prices too low to make sense.
+We cut costs in a way that hampered our ability to grow the top line. If yo=
+u have to compete on price instead of differentiation, you need to cut cost=
+s. Pretty basic. But that also meant that we offered a worse product than o=
+ur competitors, who had much more funding and could afford to eat losses wh=
+en they were being valued on top line growth, kicking off a downward spiral=
+=2E=C2=A0
+We went from an abundance mindset to a scarcity mindset, focusing on what w=
+e were doing worse than competitors instead of what we could do to double-d=
+own on our strengths. That created a culture of blame.
+Employee morale plummeted. It=E2=80=99s easier, even fun, to do something h=
+ard when you believe you=E2=80=99re doing something that no one else can. I=
+t=E2=80=99s really hard to go to work every day to build the same thing, or=
+ an even worse version, of what others are already building. As a result, t=
+here was a huge talent drain from the company. I left at the end of 2019.=
+=C2=A0
+These are obviously just my views of the situation. Forces beyond Breather=
+=E2=80=99s control certainly hurt the company=E2=80=99s prospects. WeWork=
+=E2=80=99s botched IPO in 2019 froze the funding market for anything that l=
+ooked like WeWork. COVID froze the office market completely in 2020. And in=
+ May 2021, after raising over $120 million, Breather was sold for parts to =
+Industrious [ https://substack.com/redirect/7f264bd5-7ede-485a-bba4-85ebb84=
+c9ab3?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] =
+for $3 million. Maybe the new strategy would have worked in a different mar=
+ket environment. I might like complexity a bit too much.
+But having to go into work every day and face my team after the magic and m=
+otivation had been sapped from all of us taught me that differentiation is =
+as important internally as it is externally. Simply put, better people will=
+ work harder for something they believe is unique and valuable.
+Story 3: Personal Monopoly
+I=E2=80=99ve told this third story before, although maybe not through this =
+exact lens, so I=E2=80=99ll tell the quick version now.=C2=A0
+During my last year at Breather, when I no longer had the complex problem o=
+f building a differentiated network to chew on, I decided that I wanted to =
+start writing again. I=E2=80=99d written a couple of blog posts and stashed=
+ them in my Medium drafts folder, but I wanted to do it more regularly and =
+actually publish, so when I saw David Perell [ https://substack.com/redirec=
+t/66ad370a-7eaa-423a-9570-f4fb75486fee?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_Zl=
+NuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]=E2=80=99s Write of Passage [ https://subst=
+ack.com/redirect/065168d8-a76b-468a-a92e-40a658b7baab?j=3DeyJ1IjoiOXAwZ3Qif=
+Q.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] course on Twitter, I signed=
+ up.=C2=A0
+The course worked. It forced me to write every week, gave me a community of=
+ people who were also trying to start writing, and taught me some useful ti=
+ps and tricks. The most useful of those was the concept of the Personal Mon=
+opoly.
+The Personal Monopoly is the intersection of the things you=E2=80=99re good=
+ at, the things you=E2=80=99re curious about, and your own personality. As =
+David describes it [ https://substack.com/redirect/c672c42b-2cb7-481d-abc0-=
+e7d19580d21c?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8Exk=
+RNpU ]:
+The ultimate goal of writing online is to build a Personal Monopoly. It=E2=
+=80=99s your unique intersection of skills, interests, and personality trai=
+ts where you can be known as the best thinker on a topic and open yourself =
+up to the serendipity that makes writing online so special.
+The Internet uniquely rewards people with Personal Monopolies because it re=
+wards differentiation.
+When I started writing, I had no idea what my Personal Monopoly was. I knew=
+ that I was decent at and very curious about tech strategy, but Ben Thompso=
+n [ https://substack.com/redirect/943a7648-bdaf-4003-b2e5-36aea5d31172?j=3D=
+eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] had alread=
+y been writing Stratechery [ https://substack.com/redirect/90aa3cff-dd81-40=
+d9-90bf-4f7b0c399469?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa=
+8-6m8ExkRNpU ] for seven years and was better at it than I could hope to be=
+=2E=C2=A0
+I tried a bunch of different things, like Philly Sports x Education x Inter=
+net [ https://substack.com/redirect/6eb7ee7c-a76e-41bd-8e4e-229cc76ddbb6?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], but th=
+ey didn=E2=80=99t quite work. Then I realized that most strategy writing is=
+ very serious, and I=E2=80=99m not. What if I combined tech strategy with p=
+op culture and a dash of my own personality? The first time I hit on the in=
+tersection was in a piece called Startup Economic Lessons From Shen Yun=E2=
+=80=99s Empire [ https://substack.com/redirect/4f4a2ca0-4487-4046-b332-748b=
+3d4a2a2a?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU=
+ ]. It combined my experience at an on-demand startup with a little bit of =
+my economics degree and interest in strategy with Shen Yun. It was a piece =
+that Ben Thompson couldn=E2=80=99t, or at least wouldn=E2=80=99t, have writ=
+ten.=C2=A0
+When I started writing Not Boring full-time a year later, my first essays l=
+ived at the intersection of tech strategy and pop culture: Jeff Bezos=E2=80=
+=99 Fashion Flex [ https://substack.com/redirect/079c37f4-c6d9-437e-a504-04=
+5a67ba6fab?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRN=
+pU ], Schumpeter=E2=80=99s Gale [ https://substack.com/redirect/94d04d7e-46=
+ab-4766-9d5a-6ab3fdf7d4fd?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepK=
+bqOsa8-6m8ExkRNpU ], Wackos and ZoomGl=C3=BCts [ https://substack.com/redir=
+ect/7ac2b81c-dbeb-4110-94a8-1d7158728674?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_=
+ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. The intersection forced me to different=
+iate, and over time, as I=E2=80=99ve dropped the direct pop culture referen=
+ces, I=E2=80=99ve tried to maintain my unique, less serious voice.=C2=A0
+Not Boring=E2=80=99s growth has been a result of that differentiation, and =
+as more people write about startups with a lighter tone, one of my goals in=
+ 2023 is to keep experimenting with ways to double-down on the uniqueness.=
+=C2=A0
+When I started writing, I thought that, if I was lucky, I=E2=80=99d be able=
+ to grow this to 5,000 subscribers and buy myself time to find a next job t=
+hat I really loved. I didn=E2=80=99t think I could build a real business of=
+f of the intersection of tech strategy and pop culture. My lesson here is t=
+hat the internet rewards differentiation in bigger ways than you can imagin=
+e before experiencing it.=C2=A0
+Differentiation Matters More Than Ever
+So why am I writing about this now?=C2=A0
+When I first thought about writing this essay, I planned to go deep on all =
+of the unexpected ways differentiation matters for startups, based in part =
+on my experience at Breather. In The Good Thing About Hard Things [ https:/=
+/substack.com/redirect/41f644ab-d0fe-4c1c-aca7-b77ab00bf9eb?j=3DeyJ1IjoiOXA=
+wZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], I wrote:
+I need to write a full piece on this one day, but I believe that differenti=
+ation is good for its own sake. It helps attract and retain talent, and hel=
+ps employees rally around the mission. If they don=E2=80=99t pull it off, i=
+t=E2=80=99s possible no one else will. And it attracts a certain type of em=
+ployee, the one who=E2=80=99s passionate about solving the problem at-hand,=
+ even if success is non-obvious and the path may be uncomfortable.
+There=E2=80=99s also a point to be made that the more playbooks there are, =
+the harder it is to build something profitable or magical by doing it. Aver=
+age at scale is no longer a profitable strategy, and differentiation within=
+ a smaller niche becomes necessary. Things like Replit, Urbit, APIs, and ge=
+nerative AI are only going to accelerate the ease with which people can bui=
+ld something, and exacerbate the challenges for startups building undiffere=
+ntiated products. Fleshing out where value accrues in this world probably d=
+eserves its own post.=C2=A0
+But I was spurred to write this post now by two great podcasts I listened t=
+o last week about the value of differentiation for individuals. I think the=
+ lessons generalize to companies as well.=C2=A0
+The first was Lex Fridman=E2=80=99s conversation with Mr. Beast:=C2=A0
+Mr. Beast is the most popular creator on YouTube [ https://substack.com/red=
+irect/59e31744-6ed0-4df3-aca8-be972db30faf?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7Gn=
+A_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. His videos routinely get over 100 mil=
+lion views. He recently launched Mr. Beast Burger [ https://substack.com/re=
+direct/c2e26748-4522-4710-a9f6-ff48b6cc9dde?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7G=
+nA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and Feastables [ https://substack.com=
+/redirect/38a61cf7-2639-4c39-a055-b1e27fbdf444?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5=
+T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], both of which are already doing m=
+illions in revenue. At 51:50, Lex asks his advice for other creators who wa=
+nt to become as big as him, and his response reinforces the value of differ=
+entiation.
+Lex: Would you recommend to other creators who want to make it big and they=
+ see Mr. Beast and they look up to you to copy some elements of you or to r=
+eally try to be unique?
+Mr. Beast: Unique. 100% unique. The next =E2=80=9CMr. Beast=E2=80=9D =E2=80=
+=93 it feels weird saying that in the third person, but whatever =E2=80=93 =
+is not going to do what I=E2=80=99m doing better, they=E2=80=99re just goin=
+g to invent their own way. You=E2=80=99re just not going to do what I do be=
+tter than me.
+The only way to really break out as a creator, according to the world=E2=80=
+=99s most successful creator, is by finding your Personal Monopoly. This is=
+ true despite, and because of, the fact that there are so many courses, thr=
+eads, YouTube videos, podcasts, and blog posts about how to become a succes=
+sful creator. While the nuts and bolts =E2=80=93 how to set up a camera, fo=
+r example =E2=80=93 might be useful, the premise is flawed. If you=E2=80=99=
+re following a playbook, you=E2=80=99re already dead.=C2=A0
+The second was Patrick O=E2=80=99Shaughnessy=E2=80=99s conversation with Gr=
+avity Blanket creator John Fio on Invest Like the Best:=C2=A0
+The whole conversation is worth listening to =E2=80=93 I=E2=80=99d never he=
+ard of John before and I almost skipped it, but it was one of my favorite e=
+pisodes in a while =E2=80=93 but one line stuck out:
+=E2=80=9CThe things that are going to be valuable are the things you can=E2=
+=80=99t teach or copy.=E2=80=9D=C2=A0
+This sounds almost obvious, and echoes Mr. Beast=E2=80=99s point, but it st=
+ands in direct opposition to the way the system is currently set up. Humans=
+ spend the first twenty-two years of our lives, and sometimes more, being t=
+aught and learning how to copy. Then we take more courses, learn best pract=
+ices, and apply them. Pre-Internet, being average in a rich enough country =
+was a safe way to ensure that you=E2=80=99d have a decent job and a middle =
+class lifestyle, but the Internet rewards differentiation with outsized rew=
+ards. Average is still employable, but the gap between average and differen=
+tiated keeps growing.=C2=A0=C2=A0
+Average may not even be employable for long, though, at least in knowledge =
+work. AI is exceptional at average. If something can be taught, it can lear=
+n it better. If it can be copied, it can copy it faster.=C2=A0
+Of course, there=E2=80=99s a whole economy outside of knowledge work and a =
+good argument to be made for doing a job 9-5, getting paid, and spending th=
+e rest of your time with your family and friends. Service jobs aren=E2=80=
+=99t going anywhere any time soon. In fact, one of the biggest surprises in=
+ AI is that it=E2=80=99s coming for knowledge workers first.=C2=A0
+But if you=E2=80=99re reading this, I assume that you=E2=80=99re interested=
+ in the kind of work that=E2=80=99s subject to the forces of differentiatio=
+n. And for that kind of work, at some point in the near future, differentia=
+tion is going to be the only way to thrive.=C2=A0
+Differentiation Is About to Get a Whole Lot More Important
+The third inspiration for this post was my conversation with Anton on the d=
+ata on which AI models are trained:=C2=A0
+I=E2=80=99d of course like for you to watch the whole thing and subscribe, =
+but I=E2=80=99ll give you the relevant takeaway here.=C2=A0
+In the current state of the art, models are only as good as the data they=
+=E2=80=99re trained on and the models can=E2=80=99t generate new training d=
+ata themselves. AI-generated output is based on the data that trained the A=
+I in the first place, so any data it creates will be a regurgitation of the=
+ data it already has. That means that humans will need to create fresh data=
+ by coming up with new ideas and new explanations of the world in order for=
+ the models to improve.=C2=A0
+There=E2=80=99s a very clear way to see how this could lead to a dystopian =
+future in which the AI hires people to generate new art, music, and ideas t=
+o fill in the gaps in its understanding, but there=E2=80=99s also a much mo=
+re hopeful way to view where this is heading.=C2=A0
+As the value of things you can teach or copy trends towards zero, the value=
+ of fresh new ideas increases. =C2=A0
+The stage is set for an era of fresh new ideas because the incentives have =
+never been more tilted in their favor. This current internet interstitial i=
+s just an appetizer.=C2=A0
+Today, it=E2=80=99s so tantalizingly easy to copy others, to create undiffe=
+rentiated products or ideas in the pursuit of doing something, that it=E2=
+=80=99s become the default. Just as AI doesn=E2=80=99t improve with stale, =
+rehashed data, the world doesn=E2=80=99t progress based upon stale, rehashe=
+d ideas. We progress, as we evolve, based on mutations.
+Siddhartha Mukherjee concludes his excellent book, The Gene: An Intimate Hi=
+story, with an acknowledgment of that fact: =E2=80=9CWe seek constancy in h=
+eredity =E2=80=93 and find its opposite: variation. Mutants are necessary t=
+o maintain the essence of ourselves.=E2=80=9D=C2=A0
+The alpha is being squeezed out of doing the same things slightly better. Y=
+ou need to become a mutant.=C2=A0
+A few minutes with ChatGPT, despite its flaws and shortcomings, will disava=
+il you of the belief that memorizing things just to memorize them will cont=
+inue to be valuable. A few minutes with Replit=E2=80=99s Ghostwriter will d=
+o the same for your belief in basic coding. Ditto for Lex [ https://substac=
+k.com/redirect/47bd8d75-7d8d-48f6-bca4-a72117110474?j=3DeyJ1IjoiOXAwZ3QifQ.=
+gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] and writing, or Stable Diffus=
+ion and drawing.=C2=A0
+Memorize, code, write, and draw if you love doing those things, if getting =
+your hands dirty helps you think better, if you=E2=80=99re trying to earn y=
+our corpus of basic knowledge the hard way so that you can jump off from a =
+stable base, or if you want to do them differently than anyone ever has; ot=
+herwise, don=E2=80=99t waste your time. It will regurgitate better than you=
+ ever could.=C2=A0
+The only answer is differentiation. Call it novelty, creativity, mutation.=
+=C2=A0
+Follow curiosities down deep rabbit holes and emerge with unique ideas. Par=
+take in vivid and varied adventures to build up a set of experiences that i=
+s unique to you. Run away from the areas in which you are average and towar=
+ds those where you might be special. Start a company because the world need=
+s it, and because if you don=E2=80=99t start that specific company, no one =
+else will.
+You don=E2=80=99t need to be the world=E2=80=99s best brain surgeon; you mi=
+ght be the world=E2=80=99s fastest pumpkin carver. And when you find those =
+areas where your curiosity, skills, and personality meet, lean in so hard t=
+hat you create a Personal Monopoly no human or machine can touch.=C2=A0
+The world will be a richer, more colorful place when more people are freed =
+up to learn, create, and build novel things that only they can. This might =
+be technology=E2=80=99s greatest gift to humanity. By making the competitio=
+n to be better at someone else=E2=80=99s game practically futile, it frees =
+us up to play different games.=C2=A0
+Thanks to Dan [ https://substack.com/redirect/37dd4400-713f-4415-92b3-5c12b=
+1f9bf4b?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU =
+] for editing!
+That=E2=80=99s all for today. We=E2=80=99ll be back in your inbox on Friday=
+ with the Weekly Dose.
+Thanks for reading,=20
+Packy
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TX=
+pVME9Td2ljRzl6ZEY5cFpDSTZPVGN4TmpNM09ETXNJbWxoZENJNk1UWTNNemsyTXpJNU1Td2laW=
+Gh3SWpveE5qYzJOVFUxTWpreExDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FY=
+TmhZbXhsWDJWdFlXbHNJbjAudXRnT2J0am1JNUVSbXU5aUMyZ1lucV9pWllXbWNxZ0w2RkZGZDQ=
+wSzhkZyIsInAiOjk3MTYzNzgzLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdC=
+I6MTY3Mzk2MzI5MiwiZXhwIjoxNjc2NTU1MjkyLCJpc3MiOiJwdWItMCIsInN1YiI6Imxpbmstc=
+mVkaXJlY3QifQ.dT4q0xgMVPsAM-7Es3yqtr2nqB8paJ11WBAU2nfgYjY?
+--e384716424d787862d9f396f28b3b65b3a40830f2977f2345a79c6441bab
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html style=3D""><head><title>Differentiation</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.youtube-inner div.youtube-screen,
+  .typography.editor .markup div.youtube-inner div.youtube-screen,
+  .typography .markup div.vimeo-inner div.youtube-screen,
+  .typography.editor .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet,
+  .typography.editor .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-text,
+  .typography.editor .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet .tweet-photos-container.two,
+  .typography.editor .markup .tweet .tweet-photos-container.two,
+  .typography .markup .tweet .tweet-photos-container.three,
+  .typography.editor .markup .tweet .tweet-photos-container.three,
+  .typography .markup .tweet .tweet-photos-container.four,
+  .typography.editor .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-img,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .typography .markup .tweet a.expanded-link .expanded-link-description,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-descript=
+ion {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .social-media-share-preview__description {
+    -webkit-line-clamp: 2;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer {
+    padding: 36px;
+    height: 680px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  .header-with-anchor-widget .header-anchor-widget,
+  .header-anchor-container .header-anchor-widget {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 32px 0 0 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .post-label {
+    margin-top: 8px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .footer-facepile-container {
+    height: 64px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.use-separators {
+    justify-content: center;
+    margin: 0 -16px;
+    padding: 0;
+    gap: 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .post-footer.next-prev {
+    height: 64px;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  body .markup table.image-wrapper img,
+  body .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.youtube-inner div.youtube-screen,
+  body .markup div.vimeo-inner div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  body .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.embedded-publication-wrap .embedded-publication.show-sub=
+scribe {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e {
+    padding: 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe .subscription-widget-subscribe .button,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet .tweet-photos-container.two,
+  body .markup .tweet .tweet-photos-container.three,
+  body .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  body .markup .tweet a.expanded-link .expanded-link-description {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  body .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed img.install-substack-app-embed-i=
+mg {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text=
+ {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-link=
+ {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 17px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .reader2-text-b3 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .reader2-text-h4 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper {
+    width: 100%;
+    padding: 0 16px;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper:empty {
+    display: none;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button {
+    width: 100%;
+    margin: 16px 0;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 650px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .poll-editor-modal {
+    min-width: calc(100% - 20px);
+  }
+}
+
+
+@media (max-width: 750px) {
+  .poll-embed .poll-anchor-target .poll-anchor-copy-button {
+    left: 8px;
+    top: 45px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    width: 552px;
+    padding: 26px 24px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .m=
+odal-exit-btn {
+    margin-right: -20px;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjMwMTE3MTM0NzU3LjMuMDJjNjQwOWI5YjU1Nzk3YkBtZy1kMS5zdWJzdGFjay5jb20-IiwidS=
+I6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFja=
+y5jb20iLCJwIjo5NzE2Mzc4MywidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjox=
+MDAyNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTY3Mzk2MzI=
+5MiwiZXhwIjoxNjc2NTU1MjkyLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.KF8Mp-QVnkok2T=
+uxHceF9jDHD2YjHO1yZOT0BFmOvns" alt=3D"" width=3D"1" height=3D"1" border=3D"=
+0" style=3D"height:1px !important;width:1px !important;border-width:0 !impo=
+rtant;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !im=
+portant;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 =
+!important;padding-right:0 !important;padding-left:0 !important;"/><div sty=
+le=3D"display:none;font-size:1px;color:#333333;line-height:1px;max-height:0=
+px;max-width:0px;opacity:0;overflow:hidden;" class=3D"preview">Or, why you =
+should be a mutant &#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;</div>=
+<table role=3D"presentation" width=3D"100%" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0" class=3D"email-body-container"><tr><td></td><td width=3D"=
+550" class=3D"content"></td><td></td></tr><tr><td></td><td align=3D"left" w=
+idth=3D"550" class=3D"content"><div style=3D"font-size: 16px; line-height: =
+26px; margin: 0 auto; max-width: 550px; overflow-wrap: break-word; width: 1=
+00%;"><table role=3D"presentation" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tr><td align=3D"right" style=3D"height: 20px;"><t=
+able role=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0"><tr><td style=3D"vertical-align: middle;"><span class=3D"tw=
+-font-body tw-text-ssm tw-text-substack-secondary" style=3D"color: #808080 =
+!important; font-family: SF Pro Text, -apple-system, BlinkMacSystemFont, In=
+ter, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Seg=
+oe UI Emoji, Segoe UI Symbol !important; font-size: 13px !important;"><a hr=
+ef=3D"https://open.substack.com/pub/notboring/p/differentiation?utm_source=
+=3Demail&redirect=3Dapp-store" class=3D"tw-text-substack-secondary tw-under=
+line" style=3D"-webkit-text-decoration-line: underline !important; color: #=
+808080 !important; text-decoration-line: underline !important;">Open in app=
+</a> or <a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cu=
+bm90Ym9yaW5nLmNvL3AvZGlmZmVyZW50aWF0aW9uP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk=
+0TXpVME9Td2ljRzl6ZEY5cFpDSTZPVGN4TmpNM09ETXNJbWxoZENJNk1UWTNNemsyTXpJNU1Td2=
+laWGh3SWpveE5qYzJOVFUxTWpreExDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKd=
+2IzTjBMWEpsWVdOMGFXOXVJbjAuUGNBZ1VLbnYwUndUbVE2cFZkcW16LVJuaGF2NmxSRHhLdEN5=
+V3JYN3NOZyIsInAiOjk3MTYzNzgzLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksIml=
+hdCI6MTY3Mzk2MzI5MiwiZXhwIjoxNjc2NTU1MjkyLCJpc3MiOiJwdWItMCIsInN1YiI6Imxpbm=
+stcmVkaXJlY3QifQ.HyTV2E0gOuXan--nRSFK8fu-h08mFN5lFRGxXpOqwn0?" class=3D"tw-=
+text-substack-secondary tw-underline" style=3D"-webkit-text-decoration-line=
+: underline !important; color: #808080 !important; text-decoration-line: un=
+derline !important;">online</a></span></td></tr></table></td></tr></table><=
+div dir=3D"auto" class=3D"post typography" style=3D"font-size: 16px; line-h=
+eight: 26px; padding: 16px 0 0 0;"><div class=3D"post-header" style=3D"font=
+-size: 16px; line-height: 26px;"><h1 class=3D"post-title published" style=
+=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialias=
+ed; color: #404040; font-family: 'SF Compact Display', -apple-system, Blink=
+MacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 32px; font-weigh=
+t: bold; line-height: 36px; margin: 0;"><a href=3D"https://substack.com/app=
+-link/post?publication_id=3D10025&post_id=3D97163783&utm_source=3Dpost-emai=
+l-title&isFreemail=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6O=
+TcxNjM3ODMsImlhdCI6MTY3Mzk2MzI5MSwiZXhwIjoxNjc2NTU1MjkxLCJpc3MiOiJwdWItMTAw=
+MjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.PcAgUKnv0RwTmQ6pVdqmz-Rnhav6lRDxKtCyWrX=
+7sNg" style=3D"color: #404040; text-decoration: none;">Differentiation</a><=
+/h1><h3 class=3D"subtitle" style=3D"-moz-osx-font-smoothing: antialiased; -=
+webkit-font-smoothing: antialiased; color: #808080; font-family: 'SF Compac=
+t Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetic=
+a, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symb=
+ol'; font-size: 18px; font-weight: normal; line-height: 24px; margin: 4px 0=
+ 0; margin-top: 12px;">Or, why you should be a mutant</h3><table cellpaddin=
+g=3D"0" cellspacing=3D"0" class=3D"post-meta custom" style=3D"align-items: =
+center; height: 20px; margin: 1em 0;"><tr><td title=3D"2023-01-17T13:48:02.=
+322Z" class=3D"post-meta-item post-date" style=3D"color: #808080; font-fami=
+ly: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial=
+, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; fon=
+t-size: 14px; font-weight: 400; height: 14px; margin-right: 0; padding: 0px=
+ 12px 0px 0; padding-bottom: 0; padding-right: 0; padding-top: 0; position:=
+ relative; text-decoration: none; white-space: nowrap;"><div class=3D"front=
+end-pencraft-Text-module__reset--20JLV frontend-pencraft-Text-module__size-=
+12--2onFT frontend-pencraft-Text-module__line-height-20--1soeQ frontend-pen=
+craft-Text-module__weight-medium--aTbx5 frontend-pencraft-Text-module__font=
+-meta--2i-cR frontend-pencraft-Text-module__color-secondary--XjVGl frontend=
+-pencraft-Text-module__meta--3RRSj" style=3D"color: #808080; font-family: '=
+SF Compact Text', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Inter'=
+, 'Segoe UI', Roboto,
+    Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'S=
+egoe UI Symbol'; font-size: 12px; font-weight: 500; letter-spacing: 0.2px; =
+line-height: 20px; margin: 0; text-decoration: unset; text-transform: upper=
+case;"><time dateTime=3D"2023-01-17T13:48:02.322Z">Jan 17</time></div></td>=
+</tr></table><table role=3D"presentation" width=3D"100%" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" class=3D"email-ufi-2-top" style=3D"border-bo=
+ttom: 1px solid #e0e0e0; border-top: 1px solid #e0e0e0; min-width: 100%;"><=
+tr height=3D"16"><td height=3D"16" style=3D"font-size: 0px; line-height: 0;=
+">&#160;</td></tr><tr><td><table role=3D"presentation" width=3D"100%" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td><table role=3D"presenta=
+tion" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><=
+td style=3D"vertical-align: middle;"><table role=3D"presentation" width=3D"=
+38" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"cente=
+r"><a href=3D"https://substack.com/app-link/post?publication_id=3D10025&pos=
+t_id=3D97163783&utm_source=3Dsubstack&isFreemail=3Dtrue&submitLike=3Dtrue&t=
+oken=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6OTcxNjM3ODMsInJlYWN0aW9uIjoi=
+4p2kIiwiaWF0IjoxNjczOTYzMjkyLCJleHAiOjE2NzY1NTUyOTIsImlzcyI6InB1Yi0xMDAyNSI=
+sInN1YiI6InJlYWN0aW9uIn0.vZeIfuavw5hYAuTBexRhoLMciVeAKU1rw7zkXdR76xc&utm_me=
+dium=3Demail" style=3D"border: 1px solid #e0e0e0; border-radius: 100000px; =
+box-sizing: border-box; color: #808080; display: inline-block; font-family:=
+ 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI=
+', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emo=
+ji', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-height: 1; =
+min-width: 38px; padding: 9px 0; text-decoration: none; text-transform: upp=
+ercase; width: 38px;" class=3D"email-icon-button"><img src=3D"https://subst=
+ackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/=
+https%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26fil=
+l%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"1=
+8" style=3D"border: none !important; max-width: 18px; vertical-align: middl=
+e;" alt=3D"" class=3D"icon"></a></td></tr></table></td><td width=3D"8" styl=
+e=3D"min-width: 8px"></td><td style=3D"vertical-align: middle;"><table role=
+=3D"presentation" width=3D"38" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tr><td align=3D"center"><a href=3D"https://substack.com/app-link/po=
+st?publication_id=3D10025&post_id=3D97163783&utm_source=3Dsubstack&utm_medi=
+um=3Demail&isFreemail=3Dtrue&comments=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4Mz=
+U0OSwicG9zdF9pZCI6OTcxNjM3ODMsImlhdCI6MTY3Mzk2MzI5MiwiZXhwIjoxNjc2NTU1MjkyL=
+CJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.ttKBQCEaPKh8qVaj2wT7=
+TbbhXfgM_UJ32xk3yNBoGo0&utm_source=3Dsubstack&utm_medium=3Demail" style=3D"=
+border: 1px solid #e0e0e0; border-radius: 100000px; box-sizing: border-box;=
+ color: #808080; display: inline-block; font-family: 'SF Pro Text', -apple-=
+system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, A=
+rial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';=
+ font-size: 12px; font-weight: 500; line-height: 1; min-width: 38px; paddin=
+g: 9px 0; text-decoration: none; text-transform: uppercase; width: 38px;" c=
+lass=3D"email-icon-button"><img src=3D"https://substackcdn.com/image/fetch/=
+w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.=
+com%2Ficon%2FLucideComments%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D=
+%2523808080%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: =
+none !important; max-width: 18px; vertical-align: middle;" alt=3D"" class=
+=3D"icon"></a></td></tr></table></td><td width=3D"8" style=3D"min-width: 8p=
+x"></td><td style=3D"vertical-align: middle;"><table role=3D"presentation" =
+width=3D"38" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=
+=3D"center"><a href=3D"https://substack.com/app-link/post?publication_id=3D=
+10025&post_id=3D97163783&utm_source=3Dsubstack&utm_medium=3Demail&utm_conte=
+nt=3Dshare&action=3Dshare&triggerShare=3Dtrue&isFreemail=3Dtrue&token=3DeyJ=
+1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6OTcxNjM3ODMsImlhdCI6MTY3Mzk2MzI5MiwiZX=
+hwIjoxNjc2NTU1MjkyLCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.t=
+tKBQCEaPKh8qVaj2wT7TbbhXfgM_UJ32xk3yNBoGo0" style=3D"border: 1px solid #e0e=
+0e0; border-radius: 100000px; box-sizing: border-box; color: #808080; displ=
+ay: inline-block; font-family: 'SF Pro Text', -apple-system, ui-sans-serif,=
+ BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'App=
+le Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font=
+-weight: 500; line-height: 1; min-width: 38px; padding: 9px 0; text-decorat=
+ion: none; text-transform: uppercase; width: 38px;" class=3D"email-icon-but=
+ton"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_a=
+uto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideSha=
+re%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth=
+%3D2" width=3D"18" height=3D"18" style=3D"border: none !important; max-widt=
+h: 18px; vertical-align: middle;" alt=3D"" class=3D"icon"></a></td></tr></t=
+able></td></tr></table></td><td align=3D"right"><table role=3D"presentation=
+" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td s=
+tyle=3D"vertical-align: middle;"><table role=3D"presentation" width=3D"auto=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"=
+><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL3AvZGlmZmVyZW50aWF0aW9uP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT=
+1lbWFpbCZ0b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5emRGOXBaQ0k2T1Rje=
+E5qTTNPRE1zSW1saGRDSTZNVFkzTXprMk16STVNaXdpWlhod0lqb3hOamMyTlRVMU1qa3lMQ0pw=
+YzNNaU9pSndkV0l0TVRBd01qVWlMQ0p6ZFdJaU9pSnpZWFpsTFhCdmMzUWlmUS5MWFVSUUN4VkE=
+zRW5ISlQtc2hPd2NNYnBVVklVcjhWN1RhTnFDdDRoRHo0JmFjdGlvbj1zYXZlIiwicCI6OTcxNj=
+M3ODMsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjczOTYzMjkyLCJle=
+HAiOjE2NzY1NTUyOTIsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.hOeraZt=
+24J4z5J9DvDwdxIFo1ZzPCBYZhlO7cLKn3O8?" class=3D"email-button-outline" style=
+=3D"border: 1px solid #e0e0e0; border-radius: 100000px; color: #808080; dis=
+play: inline-block; font-family: 'SF Pro Text', -apple-system, ui-sans-seri=
+f, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'A=
+pple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; fo=
+nt-weight: 500; line-height: 12px; padding: 9px 14px; text-decoration: none=
+; text-transform: uppercase;"><div class=3D"email-button-spacer" style=3D"d=
+isplay: inline-block; font-size: 16px; line-height: 26px; max-width: 0; min=
+-height: 18px; vertical-align: middle;"></div><span class=3D"email-button-t=
+ext" style=3D"vertical-align: middle;">Save</span></a></td></tr></table></t=
+d><td width=3D"8" style=3D"min-width: 8px"></td><td style=3D"vertical-align=
+: middle;"><table role=3D"presentation" width=3D"auto" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a href=3D"https://op=
+en.substack.com/pub/notboring/p/differentiation?utm_source=3Demail-ufi&play=
+_audio=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6OTcxNjM3ODMsI=
+mlhdCI6MTY3Mzk2MzI5MSwiZXhwIjoxNjc2NTU1MjkxLCJpc3MiOiJwdWItMTAwMjUiLCJzdWIi=
+OiJwb3N0LXJlYWN0aW9uIn0.PcAgUKnv0RwTmQ6pVdqmz-Rnhav6lRDxKtCyWrX7sNg" class=
+=3D"email-button-outline" style=3D"border: 1px solid #e0e0e0; border-radius=
+: 100000px; color: #808080; display: inline-block; font-family: 'SF Pro Tex=
+t', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, H=
+elvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe =
+UI Symbol'; font-size: 12px; font-weight: 500; line-height: 12px; padding: =
+9px 14px; text-decoration: none; text-transform: uppercase;"><div class=3D"=
+email-button-spacer" style=3D"display: inline-block; font-size: 16px; line-=
+height: 26px; max-width: 0; min-height: 18px; vertical-align: middle;"></di=
+v><span class=3D"email-button-text" style=3D"vertical-align: middle;">&#965=
+5;&#160;&#160;Listen</span></a></td></tr></table></td></tr></table></td></t=
+r></table></td></tr><tr height=3D"16"><td height=3D"16" style=3D"font-size:=
+ 0px; line-height: 0;">&#160;</td></tr></table></div></div><div dir=3D"auto=
+" class=3D"post typography" style=3D"font-size: 16px; line-height: 26px; pa=
+dding: 16px 0 0 0;"><div dir=3D"auto" class=3D"body markup" style=3D"font-s=
+ize: 16px; line-height: 26px; margin-bottom: 16px; text-align: initial; wid=
+th: 100%; word-break: break-word;"><p style=3D"color: #404040; font-size: 1=
+6px; line-height: 26px; margin: 0 0 20px 0; margin-top: 0;"><em><span>Welco=
+me to the&#160;</span><strong>836&#160;newly Not Boring people&#160;</stron=
+g><span>who have joined us since last Tuesday! If you haven&#8217;t subscri=
+bed, join&#160;</span><strong>181,749 </strong><span>smart, curious folks b=
+y subscribing here:</span></em></p><div class=3D"subscribe-widget is-signed=
+-up is-fully-subscribed" style=3D"direction: ltr; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 1em;"><p class=3D"button-wrapper" style=3D"color: #4=
+04040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0; text-align: =
+center;"><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3c=
+ubm90Ym9yaW5nLmNvL2FjY291bnQiLCJwIjo5NzE2Mzc4MywicyI6MTAwMjUsImYiOnRydWUsIn=
+UiOjE2MjgzNTQ5LCJpYXQiOjE2NzM5NjMyOTIsImV4cCI6MTY3NjU1NTI5MiwiaXNzIjoicHViL=
+TAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.dsxT4lQYHq0v1lh6ZOZSNJHpCRk75TgU8RUt2SS3=
+600?" class=3D"button subscribe-btn outline" style=3D"background: transpare=
+nt; background-color: transparent; border: 1px solid #67bdfc; border-radius=
+: 4px; box-sizing: border-box; color: #67bdfc; cursor: pointer; display: in=
+line-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Rob=
+oto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', '=
+Segoe UI Symbol'; font-size: 14px; font-weight: 600; height: auto; line-hei=
+ght: 20px; margin: 0 auto; opacity: 1; outline: none; padding: 12px 20px; t=
+ext-align: center; text-decoration: none !important; white-space: nowrap;">=
+<img src=3D"https://substackcdn.com/image/fetch/w_40,c_scale,f_png,q_auto:g=
+ood,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideCheck%3F=
+v%3D4%26height%3D40%26fill%3Dtransparent%26stroke%3D%252367bdfc%26strokeWid=
+th%3D2" width=3D"20" height=3D"20" style=3D"-ms-interpolation-mode: bicubic=
+; border: none !important; display: inline-block; height: auto; margin: -2p=
+x 8px 0 0; max-width: 20px; vertical-align: middle;" alt=3D"" class=3D"chec=
+k-icon static"><span style=3D"text-decoration: none;">Subscribe</span></a><=
+/p></div><p style=3D"color: #404040; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 20px 0;"><span>&#127911;</span><em><span>&#160; For the audio ver=
+sion, listen on </span><strong><a href=3D"https://substack.com/redirect/b74=
+f3471-3a19-44d2-a7a3-731bb7288c31?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZ=
+jmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoratio=
+n: underline;">Spotify</a><span> </span></strong><span>or&#160;</span><stro=
+ng><a href=3D"https://substack.com/redirect/33a84db1-a5e0-4c25-9f01-d19ea56=
+bbe88?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" r=
+el=3D"" style=3D"color: #404040; text-decoration: underline;">Apple Podcast=
+s</a><span> </span></strong></em></p><div style=3D"font-size: 16px; line-he=
+ight: 26px;"><hr style=3D"background: #e0e0e0; border: none; height: 1px; m=
+argin: 32px 0; padding: 0;"></div><p style=3D"color: #404040; font-size: 16=
+px; line-height: 26px; margin: 0 0 20px 0;"><strong><span>Today&#8217;s Not=
+ Boring is brought to you by&#8230; </span><a href=3D"https://substack.com/=
+redirect/4d9c9058-59a1-4443-80a1-ad17103e584e?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T=
+7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; te=
+xt-decoration: underline;">Create</a><span> (Dan&#8217;s new company!)</spa=
+n></strong></p><p style=3D"color: #404040; font-size: 16px; line-height: 26=
+px; margin: 0 0 20px 0;"><em><strong><a href=3D"https://substack.com/redire=
+ct/4d9c9058-59a1-4443-80a1-ad17103e584e?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_Z=
+lNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-dec=
+oration: underline;">Create</a></strong><span> is the first modern creatine=
+ brand with a first-of-its-kind creatine monohydrate gummy.</span></em></p>=
+<p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0=
+ 20px 0;"><em>I know what you're probably thinking...creatine?! Me too. I h=
+ad the same reaction when my brother Dan first texted me about starting the=
+ business. I always associated creatine with bodybuilders and high school f=
+ootball players and bucketed it with &#8220;steroids.&#8221;</em></p><p sty=
+le=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px =
+0;"><em><span>But Dan did his homework and showed me the research, and it t=
+urns out that creatine is one of the safest and most effective general perf=
+ormance supplements on the market. </span><strong>Andrew Huberman</strong><=
+span> is on the record as taking 5 grams per day. </span><strong>Peter Atti=
+a</strong><span> called it &quot;the supplement he feels most confident rec=
+ommending to patients.&quot; The guys who know the most about this stuff vi=
+ew creatine as a table stakes supplement. Here's why:</span></em></p><ul st=
+yle=3D"margin-top: 0; padding: 0;"><li style=3D"margin: 8px 0 0 32px; mso-s=
+pecial-format: bullet;"><p style=3D"box-sizing: border-box; color: #404040;=
+ font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0; padding-l=
+eft: 4px;"><em><strong>Safe: </strong><span>The FDA marked creatine monohyd=
+rate as &quot;generally recognized as safe&quot; in 2020. </span></em></p><=
+/li><li style=3D"margin: 8px 0 0 32px; mso-special-format: bullet;"><p styl=
+e=3D"box-sizing: border-box; color: #404040; font-size: 16px; line-height: =
+26px; margin: 0; margin-bottom: 0; padding-left: 4px;"><em><strong>Effectiv=
+e: </strong><span>If you've ever taken creatine before, this one is obvious=
+ and it's what differentiates it from most other supplements: </span><stron=
+g>it works.</strong></em></p></li><li style=3D"margin: 8px 0 0 32px; mso-sp=
+ecial-format: bullet;"><p style=3D"box-sizing: border-box; color: #404040; =
+font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0; padding-le=
+ft: 4px;"><em><strong>Beneficial: </strong><span>increases strength, builds=
+ muscle, improves recovery. Recent research also indicates that creatine ma=
+y benefit memory and general cognitive performance.</span></em></p></li></u=
+l><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0=
+ 0 20px 0;"><em><span>I now take 5 gummies (5g) per day to boost my recover=
+y and overall performance -- it's part of my morning routine now that I&#82=
+17;m running more and I&#8217;m old. But I&#8217;m biased -- my brother sta=
+rted the company and I'm an investor. Try it out for yourself, </span><stro=
+ng>30% off:</strong><span> </span></em></p><p class=3D"button-wrapper" data=
+-attrs=3D"{&quot;url&quot;:&quot;https://trycreate.co/pages/notboring&quot;=
+,&quot;text&quot;:&quot;Try Create&quot;,&quot;action&quot;:null,&quot;clas=
+s&quot;:null}" style=3D"color: #404040; font-size: 16px; line-height: 26px;=
+ margin: 0 0 20px 0; text-align: center;"><a class=3D"button primary" href=
+=3D"https://substack.com/redirect/4d9c9058-59a1-4443-80a1-ad17103e584e?j=3D=
+eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" st=
+yle=3D"background-color: #67bdfc; border: none; border-radius: 4px; box-siz=
+ing: border-box; color: #ffffff !important; cursor: pointer; display: inlin=
+e-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto=
+, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Seg=
+oe UI Symbol'; font-size: 14px; font-weight: 600; height: auto; line-height=
+: 20px; margin: 0; opacity: 1; outline: none; padding: 12px 20px; text-alig=
+n: center; text-decoration: none !important; white-space: nowrap;"><span st=
+yle=3D"color: #ffffff; text-decoration: none;">Try Create</span></a></p><di=
+v style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background: #e=
+0e0e0; border: none; height: 1px; margin: 32px 0; padding: 0;"></div><p sty=
+le=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px =
+0;">Hi friends &#128075;,&#160;</p><p style=3D"color: #404040; font-size: 1=
+6px; line-height: 26px; margin: 0 0 20px 0;">Happy Tuesday! I hope those of=
+ you in the US had a great long weekend.&#160;</p><p style=3D"color: #40404=
+0; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">This is an essa=
+y I&#8217;ve wanted to write for a long time, since I experienced what happ=
+ens to a company when the differentiation disappears. I&#8217;m glad I wait=
+ed. It&#8217;s more relevant now than ever.</p><p style=3D"color: #404040; =
+font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Let&#8217;s get to=
+ it.&#160;</p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=
+=3D"background: #e0e0e0; border: none; height: 1px; margin: 32px 0; padding=
+: 0;"></div><h1 class=3D"header-with-anchor-widget" style=3D"-moz-osx-font-=
+smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #404040=
+; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Se=
+goe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe =
+UI Emoji', 'Segoe UI Symbol'; font-size: 2em; font-weight: bold; line-heigh=
+t: 1.16em; margin: 1em 0 0.625em 0; position: relative;"><strong>Differenti=
+ation</strong></h1><div class=3D"captioned-image-container-static" style=3D=
+"font-size: 16px; line-height: 26px; margin: 32px auto;"><figure style=3D"m=
+argin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: =
+1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=
+=3D"left" class=3D"content" width=3D"1200" style=3D"text-align: center;"><a=
+ class=3D"image-link" target=3D"_blank" href=3D"https://substack.com/redire=
+ct/d18099ea-f1de-42b8-97c0-4fe894efb4af?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_Z=
+lNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"align-items: center; bor=
+der: none; display: block; flex-direction: column; height: auto; margin: 0;=
+ padding: 0; position: relative; text-decoration: none; width: auto;"><img =
+data-attrs=3D"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazona=
+ws.com/public/images/aaa7fcf0-9e2a-4424-96e7-e49bef7aa934_1200x600.png&quot=
+;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;=
+:600,&quot;width&quot;:1200,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:=
+69983,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;im=
+age/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;int=
+ernalRedirect&quot;:null}" alt=3D"" width=3D"550" height=3D"275" class=3D"w=
+ide-image" src=3D"https://substackcdn.com/image/fetch/w_2400,c_limit,f_auto=
+,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amaz=
+onaws.com%2Fpublic%2Fimages%2Faaa7fcf0-9e2a-4424-96e7-e49bef7aa934_1200x600=
+=2Epng" style=3D"-ms-interpolation-mode:=20=
+bicubic; border: none !important; di=
+splay: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 10=
+0% !important; vertical-align: middle; width: auto !important;"></a></td><t=
+d style=3D"text-align: center;"></td></tr></tbody></table></figure></div><p=
+ style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 2=
+0px 0;"><strong>Being different beats being better, and differentiation&#82=
+17;s lead is only going to widen from here.</strong></p><p style=3D"color: =
+#404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">If the la=
+st era rewarded conformity and competition, the next one will reward differ=
+entiation and cooperation.&#160;</p><p style=3D"color: #404040; font-size: =
+16px; line-height: 26px; margin: 0 0 20px 0;">Quickly, what is differentiat=
+ion? It&#8217;s a big strategy word that you hear a lot. It&#8217;s one of =
+Michael Porter&#8217;s &#8220;generic strategies,&#8221; along with cost le=
+adership and focus. These strategies are &#8220;generic&#8221; because they=
+ can be applied to any type of business, big or small, complex or simple. I=
+n this context, differentiation means a company&#8217;s efforts to distingu=
+ish its products or services from competitors&#8217; in customers&#8217; mi=
+nds in order to charge higher prices and generate higher profits. Instead o=
+f competing on cost, you compete on convincing customers that there&#8217;s=
+ nothing else just like you out there.</p><p style=3D"color: #404040; font-=
+size: 16px; line-height: 26px; margin: 0 0 20px 0;">That definition is part=
+ of what I&#8217;m talking about, but the differentiation we&#8217;ll cover=
+ today is more multifaceted than that, it applies beyond running a company,=
+ and it&#8217;s deeper than convincing customers. The differentiation I&#82=
+17;m talking about is doing something that no one else is doing, and that i=
+t&#8217;s possible no one else can.&#160;</p><p style=3D"color: #404040; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 20px 0;">I&#8217;ll start to =
+explain why I value differentiation so highly through three personal storie=
+s, and then I&#8217;ll explain why I&#8217;m finally writing it now, and wh=
+y I think differentiation will only get more important from here.&#160;</p>=
+<p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0=
+ 20px 0;">Ultimately, real differentiation is the only defensible moat left=
+=2E&#160;</p><h3 class=3D"header-with-anc=
+hor-widget" style=3D"-moz-osx-font-s=
+moothing: antialiased; -webkit-font-smoothing: antialiased; color: #404040;=
+ font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Seg=
+oe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe U=
+I Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font-weight: bold; line-he=
+ight: 1.16em; margin: 1em 0 0.625em 0; position: relative;"><strong>Three S=
+tories</strong></h3><h4 class=3D"header-with-anchor-widget" style=3D"-moz-o=
+sx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; color:=
+ #404040; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemF=
+ont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.125em; font-weight: bold=
+; line-height: 1.16em; margin: 1em 0 0.625em 0; position: relative;"><stron=
+g>Story 1: Pumpkins</strong><span>&#160;</span></h4><p style=3D"color: #404=
+040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">My Sixth Grad=
+e teacher, Mr. Clarke, had a superpower, something that he was better at th=
+an anyone in the entire world.&#160;</p><p style=3D"color: #404040; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 20px 0;">Of course, a lot of sixth=
+ graders think that their teachers are the smartest, or funniest, or strong=
+est, or whateverest in the world. They don&#8217;t know many grownups. But =
+I had proof in the form of two cold, hard Guinness World Records.&#160;</p>=
+<ol style=3D"margin-top: 0; padding: 0;"><li style=3D"margin: 8px 0 0 32px;=
+"><p style=3D"box-sizing: border-box; color: #404040; font-size: 16px; line=
+-height: 26px; margin: 0; margin-bottom: 0; padding-left: 4px;"><a href=3D"=
+https://substack.com/redirect/15f4b4e6-d702-4784-a3cf-ca6a4cb9b01e?j=3DeyJ1=
+IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=
+=3D"color: #404040; text-decoration: underline;">Fastest Time to Carve One =
+Pumpkin</a><span>: 16.47 second (2013)</span></p></li><li style=3D"margin: =
+8px 0 0 32px;"><p style=3D"box-sizing: border-box; color: #404040; font-siz=
+e: 16px; line-height: 26px; margin: 0; margin-bottom: 0; padding-left: 4px;=
+"><a href=3D"https://substack.com/redirect/6c2cbff0-d87b-4740-bb5a-0f465d4b=
+0116?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" re=
+l=3D"" style=3D"color: #404040; text-decoration: underline;">Fastest Time t=
+o Carve One Tonne of Pumpkins</a><span>: 3 hours, 33 minutes, 49 seconds (2=
+008)</span></p></li></ol><div class=3D"captioned-image-container-static" st=
+yle=3D"font-size: 16px; line-height: 26px; margin: 32px auto;"><figure styl=
+e=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"=
+100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding=
+-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td a=
+lign=3D"left" class=3D"content" width=3D"788" style=3D"text-align: center;"=
+><a class=3D"image-link" target=3D"_blank" href=3D"https://substack.com/red=
+irect/1a9c1536-730c-4138-81d6-55eab0a362f2?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7Gn=
+A_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"align-items: center; =
+border: none; display: block; flex-direction: column; height: auto; margin:=
+ 0; padding: 0; position: relative; text-decoration: none; width: auto;"><i=
+mg data-attrs=3D"{&quot;src&quot;:&quot;https://substack-post-media.s3.amaz=
+onaws.com/public/images/e0aeac34-e18a-40d5-8cdb-bb061be69a0f_788x505.png&qu=
+ot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quo=
+t;:505,&quot;width&quot;:788,&quot;resizeWidth&quot;:null,&quot;bytes&quot;=
+:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&qu=
+ot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;internalRedirect&quo=
+t;:null}" alt=3D"" width=3D"550" height=3D"352.4746192893401" class=3D"wide=
+-image" src=3D"https://substackcdn.com/image/fetch/w_1576,c_limit,f_auto,q_=
+auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazona=
+ws.com%2Fpublic%2Fimages%2Fe0aeac34-e18a-40d5-8cdb-bb061be69a0f_788x505.png=
+" style=3D"-ms-interpolation-mode: bicubic; border: none !important; displa=
+y: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !=
+important; vertical-align: middle; width: auto !important;"></a></td><td st=
+yle=3D"text-align: center;"></td></tr></tbody></table><figcaption class=3D"=
+image-caption" style=3D"color: #808080; font-size: 14px; font-weight: 400; =
+letter-spacing: -0.15px; line-height: 20px; margin-top: 8px; padding-left: =
+15%; padding-right: 15%; text-align: center; width: 70%;"><em>My Sixth Grad=
+e Teacher, Steve Clarke, With a Ton of Pumpkins, Guinness</em></figcaption>=
+</figure></div><p style=3D"color: #404040; font-size: 16px; line-height: 26=
+px; margin: 0 0 20px 0;">Mr. Clarke could carve the shit out of a pumpkin. =
+Every Halloween, he&#8217;d show off his superpower to us wide-eyed student=
+s, and we&#8217;d all stare in wonder, duly amazed. But we were just the wa=
+rmup. Mr. Clarke carved pumpkins on the local news. Mr. Clarke carved pumpk=
+ins on the Today show. One time, in 1999, the inventor of the internet, Al =
+Gore, hired Mr. Clarke to carve pumpkins for his Halloween party.&#160;</p>=
+<p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0=
+ 20px 0;"><span>I remember being awed, by the pumpkins of course, but more =
+importantly, by the fact that if you were the best in the world at </span><=
+em>anything</em><span>, it could take you places. Or, as Mr. Clarke put it =
+in an October (it&#8217;s always October) 2019 interview with </span><a hre=
+f=3D"https://substack.com/redirect/01bf230c-3357-4109-8e99-eb2e5f0f3348?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D""=
+ style=3D"color: #404040; text-decoration: underline;">Yahoo!</a><span>:&#1=
+60;</span></p><blockquote style=3D"border-left: 4px solid #67bdfc; margin: =
+20px 0; padding: 0;"><p style=3D"color: #404040; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 20px 0; margin-left: 20px;"><em><span>Yeah, I love ca=
+rving pumpkins and all, but it&#8217;s not saving the world in any way. Giv=
+en a choice, I&#8217;d probably rather be the world&#8217;s best brain surg=
+eon. But, </span><strong>in life, you don&#8217;t always get to choose what=
+ talent you get. And once you figure out what it is, it&#8217;s your job to=
+ maximize it and do the best that you can.</strong></em></p></blockquote><p=
+ style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 2=
+0px 0;"><span>My grade school didn&#8217;t offer business classes, but thos=
+e pumpkins were my first lesson in differentiation. </span><strong>Find som=
+ething you&#8217;re great at, even if it feels small, and maximize it.</str=
+ong><span>&#160;</span></p><h4 class=3D"header-with-anchor-widget" style=3D=
+"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased;=
+ color: #404040; font-family: 'SF Compact Display', -apple-system, BlinkMac=
+SystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color =
+Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.125em; font-weigh=
+t: bold; line-height: 1.16em; margin: 1em 0 0.625em 0; position: relative;"=
+><strong>Story 2: Breather</strong></h4><p style=3D"color: #404040; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 20px 0;">Now, let me tell you my B=
+reather story. This one&#8217;s about what happens when differentiation die=
+s.</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margi=
+n: 0 0 20px 0;">Before Not Boring, I worked at a startup called Breather. B=
+reather was Rube Goldbergian in its operational complexity.&#160;</p><p sty=
+le=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px =
+0;">We leased office spaces, did construction, furnished them, rented them =
+out through an app for as little as 30 minutes, gave customers access via e=
+ver-changing door codes, priced them dynamically based on demand, and clean=
+ed and refreshed them after every reservation. It was weird and hard.&#160;=
+</p><div class=3D"captioned-image-container-static" style=3D"font-size: 16p=
+x; line-height: 26px; margin: 32px auto;"><figure style=3D"margin: 0 auto; =
+width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;"><=
+tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" class=
+=3D"content" width=3D"908" style=3D"text-align: center;"><a class=3D"image-=
+link" target=3D"_blank" href=3D"https://substack.com/redirect/4881f5b5-5c4e=
+-42df-9d9d-00b281053163?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbq=
+Osa8-6m8ExkRNpU" rel=3D"" style=3D"align-items: center; border: none; displ=
+ay: block; flex-direction: column; height: auto; margin: 0; padding: 0; pos=
+ition: relative; text-decoration: none; width: auto;"><img data-attrs=3D"{&=
+quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/im=
+ages/5cae72b6-16cf-4768-b6e7-9581bf99095c_908x253.png&quot;,&quot;fullscree=
+n&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:253,&quot;width&=
+quot;:908,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quo=
+t;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,=
+&quot;belowTheFold&quot;:true,&quot;internalRedirect&quot;:null}" alt=3D"" =
+width=3D"550" height=3D"153.2488986784141" class=3D"wide-image" src=3D"http=
+s://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progre=
+ssive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fi=
+mages%2F5cae72b6-16cf-4768-b6e7-9581bf99095c_908x253.png" style=3D"-ms-inte=
+rpolation-mode: bicubic; border: none !important; display: block; height: a=
+uto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertical=
+-align: middle; width: auto !important;"></a></td><td style=3D"text-align: =
+center;"></td></tr></tbody></table><figcaption class=3D"image-caption" styl=
+e=3D"color: #808080; font-size: 14px; font-weight: 400; letter-spacing: -0.=
+15px; line-height: 20px; margin-top: 8px; padding-left: 15%; padding-right:=
+ 15%; text-align: center; width: 70%;"><em>Early NYC Breather Spaces</em></=
+figcaption></figure></div><p style=3D"color: #404040; font-size: 16px; line=
+-height: 26px; margin: 0 0 20px 0;">No one in their right mind would run a =
+business like Breather, but that was the advantage. Breather&#8217;s weirdn=
+ess was beautiful. Breather was differentiated, and that came with a bunch =
+of benefits:&#160;</p><ul style=3D"margin-top: 0; padding: 0;"><li style=3D=
+"margin: 8px 0 0 32px; mso-special-format: bullet;"><p style=3D"box-sizing:=
+ border-box; color: #404040; font-size: 16px; line-height: 26px; margin: 0;=
+ margin-bottom: 0; padding-left: 4px;">Booking a Breather, accessing an off=
+ice with your phone, and getting a quiet space to yourself in the city was =
+a novel, magical experience that people told their friends about.&#160;</p>=
+</li><li style=3D"margin: 8px 0 0 32px; mso-special-format: bullet;"><p sty=
+le=3D"box-sizing: border-box; color: #404040; font-size: 16px; line-height:=
+ 26px; margin: 0; margin-bottom: 0; padding-left: 4px;">We built direct rel=
+ationships with our customers.&#160;</p></li><li style=3D"margin: 8px 0 0 3=
+2px; mso-special-format: bullet;"><p style=3D"box-sizing: border-box; color=
+: #404040; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;=
+ padding-left: 4px;">We had pricing power.&#160;</p></li><li style=3D"margi=
+n: 8px 0 0 32px; mso-special-format: bullet;"><p style=3D"box-sizing: borde=
+r-box; color: #404040; font-size: 16px; line-height: 26px; margin: 0; margi=
+n-bottom: 0; padding-left: 4px;">We attracted an exceptional team to do a r=
+eally hard thing.&#160;</p></li><li style=3D"margin: 8px 0 0 32px; mso-spec=
+ial-format: bullet;"><p style=3D"box-sizing: border-box; color: #404040; fo=
+nt-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0; padding-left=
+: 4px;">And as hard as it was, our employee retention was high. It was fun =
+coming to work.&#160;</p></li></ul><p style=3D"color: #404040; font-size: 1=
+6px; line-height: 26px; margin: 0 0 20px 0;"><span>There was just one probl=
+em: </span><strong>our gross margins were shit</strong><span>. Different do=
+esn&#8217;t necessarily mean good. Four years in, we had expanded our real =
+estate portfolio too quickly, had a bunch of spaces that sat empty day afte=
+r day, and those spaces dragged our portfolio-wide gross margins to somethi=
+ng like </span><strong>-25%</strong><span>. Not good!&#160;</span></p><p st=
+yle=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px=
+ 0;"><span>Something needed to change, so one Christmas break, </span><a hr=
+ef=3D"https://substack.com/redirect/104b7acc-b218-43ed-9636-f2114c7ce206?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D""=
+ style=3D"color: #404040; text-decoration: underline;">Ben Rollert</a><span=
+> (now the CEO of </span><a href=3D"https://substack.com/redirect/35d52d7d-=
+3005-4c1f-8e7f-48d96855e26b?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXe=
+pKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration: und=
+erline;">Composer</a><span>) and I worked on a plan. WeWork was the 800 lb =
+gorilla, offering monthly workspaces for individuals and small teams. Knote=
+l was the brash newcomer, spending recklessly on a monthly office product t=
+hat felt like a real office instead of a glass box. Where did Breather fit =
+in?&#160;</span></p><p style=3D"color: #404040; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 20px 0;">The plan we came up with was even more operat=
+ionally complex and weirder than our original model. It leveraged on our st=
+rengths (and our biggest weakness):&#160;</p><ul style=3D"margin-top: 0; pa=
+dding: 0;"><li style=3D"margin: 8px 0 0 32px; mso-special-format: bullet;">=
+<p style=3D"box-sizing: border-box; color: #404040; font-size: 16px; line-h=
+eight: 26px; margin: 0; margin-bottom: 0; padding-left: 4px;">The app and s=
+hort bookings as top-of-funnel&#160;</p></li><li style=3D"margin: 8px 0 0 3=
+2px; mso-special-format: bullet;"><p style=3D"box-sizing: border-box; color=
+: #404040; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;=
+ padding-left: 4px;">The capability our data science and real estate teams =
+had built up in underwriting and pricing spaces because we had more granula=
+r, real-time data than anyone else</p></li><li style=3D"margin: 8px 0 0 32p=
+x; mso-special-format: bullet;"><p style=3D"box-sizing: border-box; color: =
+#404040; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0; p=
+adding-left: 4px;">The fact that we already did the hardest thing, short on=
+-demand bookings</p></li><li style=3D"margin: 8px 0 0 32px; mso-special-for=
+mat: bullet;"><p style=3D"box-sizing: border-box; color: #404040; font-size=
+: 16px; line-height: 26px; margin: 0; margin-bottom: 0; padding-left: 4px;"=
+>The fact that we had too much supply</p></li></ul><p style=3D"color: #4040=
+40; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>We would=
+ use dynamic pricing and fill-rate projections to put a monthly price on </=
+span><em>all</em><span> of our spaces, and let market dynamics work their m=
+agic. Our less popular spaces could be had for cheaper than competitors&#82=
+17; because they were going to lose us money anyway, and when they were fil=
+led by the month, demand got pushed to more popular spaces, turbo-charging =
+their margins. Our more popular spaces could be rented at above-market pric=
+es, locking in margins and once again redistributing demand to other hourly=
+ spaces. On top of the monthly product, we created a richer offering than W=
+eWork or Knotel could that we viewed as a living, breathing network of spac=
+es that could fill the different needs customers had at different times.</s=
+pan></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 20px 0;"><span>All of this was </span><em>really</em><span> comple=
+x &#8211; to explain to customers, for one thing, but even just to execute.=
+ We essentially bolted a second business onto the first, and needed to chan=
+ge the way we did practically everything, layering complexity on complexity=
+=2E&#160;</span></p><p style=3D"color: #4=
+04040; font-size: 16px; line-height:=
+ 26px; margin: 0 0 20px 0;">It was really fucking hard, but it was exhilira=
+ting. The company rallied behind the evolution. There were a lot of late ni=
+ghts and gong rings. We were doing something that no one else was doing. Th=
+e difficulty was worth it, because the result was a differentiated product.=
+&#160;</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; m=
+argin: 0 0 20px 0;">And it worked! In less than six months, our portfolio-w=
+ide margins across our ten markets, as Biggie would say, went from negative=
+ to positive. Specifically, we went from -25% gross margins to +25% gross m=
+argins. If differentiation is ultimately expressed in higher profits, our d=
+ifferentiation was finally paying off.&#160;</p><div class=3D"captioned-ima=
+ge-container-static" style=3D"font-size: 16px; line-height: 26px; margin: 3=
+2px auto;"><figure style=3D"margin: 0 auto; width: 100%;"><table class=3D"i=
+mage-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" style=3D"mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-ali=
+gn: center;"></td><td align=3D"left" class=3D"content" width=3D"842" style=
+=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"=
+https://substack.com/redirect/af535855-fe45-4a66-9bec-a3db5ee26db5?j=3DeyJ1=
+IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=
+=3D"align-items: center; border: none; display: block; flex-direction: colu=
+mn; height: auto; margin: 0; padding: 0; position: relative; text-decoratio=
+n: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://su=
+bstack-post-media.s3.amazonaws.com/public/images/29172fed-cb31-49cb-b9d6-65=
+f1a6f218ba_842x488.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&qu=
+ot;:null,&quot;height&quot;:488,&quot;width&quot;:842,&quot;resizeWidth&quo=
+t;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,=
+&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&=
+quot;internalRedirect&quot;:null}" alt=3D"" width=3D"550" height=3D"318.764=
+8456057007" class=3D"wide-image" src=3D"https://substackcdn.com/image/fetch=
+/w_1684,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubst=
+ack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29172fed-cb31-49cb-b9d6=
+-65f1a6f218ba_842x488.png" style=3D"-ms-interpolation-mode: bicubic; border=
+: none !important; display: block; height: auto; margin: 0 auto; margin-bot=
+tom: 0; max-width: 100% !important; vertical-align: middle; width: auto !im=
+portant;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></ta=
+ble><figcaption class=3D"image-caption" style=3D"color: #808080; font-size:=
+ 14px; font-weight: 400; letter-spacing: -0.15px; line-height: 20px; margin=
+-top: 8px; padding-left: 15%; padding-right: 15%; text-align: center; width=
+: 70%;"><em>Biggie Smalls, Juicy</em></figcaption></figure></div><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+">At this point, after being promoted to VP of Product and VP of Experience=
+, respectively, the Board put Ben and me in the Office of the CEO. For our =
+first board meeting, we put together what must have been one of the most co=
+mplex board decks in history to explain what we were doing and why it was w=
+orking. We were so proud. Our Board members smiled and nodded along. Turns =
+out, they were grinfucking us until they could find an adult to put in the =
+CEO slot, one who could simplify the business enough to make it profitable =
+at the company level.&#160;</p><p style=3D"color: #404040; font-size: 16px;=
+ line-height: 26px; margin: 0 0 20px 0;">They found their guy, and when the=
+ new CEO came in, he got to work simplifying. As two examples:</p><ul style=
+=3D"margin-top: 0; padding: 0;"><li style=3D"margin: 8px 0 0 32px; mso-spec=
+ial-format: bullet;"><p style=3D"box-sizing: border-box; color: #404040; fo=
+nt-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0; padding-left=
+: 4px;"><strong>Monthly Only.</strong><span> Bigger monthly spaces brought =
+in more revenue, more consistently, so we focused on acquiring bigger space=
+s that would be used </span><em>exclusively </em><span>for monthly, and eve=
+n yearly, offerings.&#160;</span></p></li><li style=3D"margin: 8px 0 0 32px=
+; mso-special-format: bullet;"><p style=3D"box-sizing: border-box; color: #=
+404040; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0; pa=
+dding-left: 4px;"><strong>Brokers.</strong><span> Our CEO learned that most=
+ commercial real estate is rented through brokers, so he pushed us to sell =
+more of our monthly spaces through brokers. This was bad because it disinte=
+rmediated our relationship with the customer, fumbled our opportunity to se=
+ll the broader offering, </span><em>and</em><span> especially because WeWor=
+k was offering 100% commissions for an entire year to brokers, something we=
+ could never compete with.&#160;</span></p></li></ul><p style=3D"color: #40=
+4040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>With e=
+ach move, we started looking more and more like WeWork and Knotel, but the =
+smaller, poorer version. Our differentiation dissolved by the day. Here&#82=
+17;s a sampling of spaces available on the </span><a href=3D"https://substa=
+ck.com/redirect/496b86ed-0b9b-40ce-bb6b-d37f76a866a4?j=3DeyJ1IjoiOXAwZ3QifQ=
+=2Egb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8Ex=
+kRNpU" rel=3D"" style=3D"color: #404=
+040; text-decoration: underline;">Breather website</a><span> right now:</sp=
+an></p><div class=3D"captioned-image-container-static" style=3D"font-size: =
+16px; line-height: 26px; margin: 32px auto;"><figure style=3D"margin: 0 aut=
+o; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-alt: 1em 0 1.6em;=
+"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" clas=
+s=3D"content" width=3D"940" style=3D"text-align: center;"><a class=3D"image=
+-link" target=3D"_blank" href=3D"https://substack.com/redirect/98220829-764=
+e-4317-b04e-88d885ef4f47?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKb=
+qOsa8-6m8ExkRNpU" rel=3D"" style=3D"align-items: center; border: none; disp=
+lay: block; flex-direction: column; height: auto; margin: 0; padding: 0; po=
+sition: relative; text-decoration: none; width: auto;"><img data-attrs=3D"{=
+&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/i=
+mages/d84e909f-4982-4b26-8199-4b5acc29e2f5_940x208.png&quot;,&quot;fullscre=
+en&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:208,&quot;width=
+&quot;:940,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&qu=
+ot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null=
+,&quot;belowTheFold&quot;:true,&quot;internalRedirect&quot;:null}" alt=3D""=
+ width=3D"550" height=3D"121.70212765957447" class=3D"wide-image" src=3D"ht=
+tps://substackcdn.com/image/fetch/w_1880,c_limit,f_auto,q_auto:good,fl_prog=
+ressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2=
+Fimages%2Fd84e909f-4982-4b26-8199-4b5acc29e2f5_940x208.png" style=3D"-ms-in=
+terpolation-mode: bicubic; border: none !important; display: block; height:=
+ auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertic=
+al-align: middle; width: auto !important;"></a></td><td style=3D"text-align=
+: center;"></td></tr></tbody></table><figcaption class=3D"image-caption" st=
+yle=3D"color: #808080; font-size: 14px; font-weight: 400; letter-spacing: -=
+0.15px; line-height: 20px; margin-top: 8px; padding-left: 15%; padding-righ=
+t: 15%; text-align: center; width: 70%;"><em>These just look like office sp=
+aces, Breather.com</em></figcaption></figure></div><p style=3D"color: #4040=
+40; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Any business s=
+trategy textbook will tell you that, especially when you&#8217;re the third=
+ or fourth biggest player in a competitive market, the worst move is to com=
+pete directly with the bigger competitors, to try to play their game better=
+=2E But first-hand experience taught me a=
+ll of the less discussed ways that b=
+eing undifferentiated impacts a company.&#160;</p><p style=3D"color: #40404=
+0; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>We went f=
+rom being </span><strong>product-led to being sales-led</strong><span>. Whe=
+n you&#8217;re selling the same thing as everyone else, the only ways to wi=
+n are by lowering prices or &#8230; selling better than everyone else? This=
+ has a bunch of its own negative consequences, like letting sales dictate t=
+he design of spaces, making overly big concessions for customers, and putti=
+ng burdens on the Ops team that would hurt the product downstream. Plus, sa=
+lespeople were commissioned on monthly sales, so we sold even our most prof=
+itable hourly spaces monthly, at prices too low to make sense.</span></p><p=
+ style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 2=
+0px 0;"><span>We </span><strong>cut costs in a way that hampered our abilit=
+y to grow the top line</strong><span>.</span><strong> </strong><span>If you=
+ have to compete on price instead of differentiation, you need to cut costs=
+=2E Pretty basic. But that also meant tha=
+t we offered a worse product than ou=
+r competitors, who had much more funding and could afford to eat losses whe=
+n they were being valued on top line growth, kicking off a downward spiral.=
+&#160;</span></p><p style=3D"color: #404040; font-size: 16px; line-height: =
+26px; margin: 0 0 20px 0;"><span>We went </span><strong>from an abundance m=
+indset to a scarcity mindset</strong><span>, focusing on what we were doing=
+ worse than competitors instead of what we could do to double-down on our s=
+trengths. That created a </span><strong>culture of blame</strong><span>.</s=
+pan></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 20px 0;"><strong>Employee morale plummeted</strong><span>. It&#821=
+7;s easier, even fun, to do something hard when you believe you&#8217;re do=
+ing something that no one else can. It&#8217;s really hard to go to work ev=
+ery day to build the same thing, or an even worse version, of what others a=
+re already building. As a result, there was a huge talent drain from the co=
+mpany. I left at the end of 2019.&#160;</span></p><p style=3D"color: #40404=
+0; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>These are=
+ obviously just my views of the situation. Forces beyond Breather&#8217;s c=
+ontrol certainly hurt the company&#8217;s prospects. WeWork&#8217;s botched=
+ IPO in 2019 froze the funding market for anything that looked like WeWork.=
+ COVID froze the office market completely in 2020. And in May 2021, after r=
+aising over $120 million, Breather was </span><a href=3D"https://substack.c=
+om/redirect/7f264bd5-7ede-485a-bba4-85ebb84c9ab3?j=3DeyJ1IjoiOXAwZ3QifQ.gb8=
+J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040;=
+ text-decoration: underline;">sold for parts to Industrious</a><span> for $=
+3 million. Maybe the new strategy would have worked in a different market e=
+nvironment. I might like complexity a bit too much.</span></p><p style=3D"c=
+olor: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><sp=
+an>But having to go into work every day and face my team after the magic an=
+d motivation had been sapped from all of us taught me that differentiation =
+is as important internally as it is externally. Simply put, </span><strong>=
+better people will work harder for something they believe is unique and val=
+uable</strong><span>.</span></p><h4 class=3D"header-with-anchor-widget" sty=
+le=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antiali=
+ased; color: #404040; font-family: 'SF Compact Display', -apple-system, Bli=
+nkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple C=
+olor Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.125em; font-=
+weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0; position: relat=
+ive;"><strong>Story 3: Personal Monopoly</strong></h4><p style=3D"color: #4=
+04040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">I&#8217;ve =
+told this third story before, although maybe not through this exact lens, s=
+o I&#8217;ll tell the quick version now.&#160;</p><p style=3D"color: #40404=
+0; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>During my=
+ last year at Breather, when I no longer had the complex problem of buildin=
+g a differentiated network to chew on, I decided that I wanted to start wri=
+ting again. I&#8217;d written a couple of blog posts and stashed them in my=
+ Medium drafts folder, but I wanted to do it more regularly and actually pu=
+blish, so when I saw </span><a href=3D"https://substack.com/redirect/66ad37=
+0a-7eaa-423a-9570-f4fb75486fee?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjml=
+XXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration: =
+underline;">David Perell</a><span>&#8217;s </span><a href=3D"https://substa=
+ck.com/redirect/065168d8-a76b-468a-a92e-40a658b7baab?j=3DeyJ1IjoiOXAwZ3QifQ=
+=2Egb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8Ex=
+kRNpU" rel=3D"" style=3D"color: #404=
+040; text-decoration: underline;">Write of Passage</a><span> course on Twit=
+ter, I signed up.&#160;</span></p><p style=3D"color: #404040; font-size: 16=
+px; line-height: 26px; margin: 0 0 20px 0;"><span>The course worked. It for=
+ced me to write every week, gave me a community of people who were also try=
+ing to start writing, and taught me some useful tips and tricks. The most u=
+seful of those was the concept of the </span><strong>Personal Monopoly</str=
+ong><span>.</span></p><div class=3D"captioned-image-container-static" style=
+=3D"font-size: 16px; line-height: 26px; margin: 32px auto;"><figure style=
+=3D"margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"1=
+00%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-padding-=
+alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td al=
+ign=3D"left" class=3D"content" width=3D"908" style=3D"text-align: center;">=
+<a class=3D"image-link" target=3D"_blank" href=3D"https://substack.com/redi=
+rect/0eadd015-93ad-4b51-8f11-84889019348f?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA=
+_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"align-items: center; b=
+order: none; display: block; flex-direction: column; height: auto; margin: =
+0; padding: 0; position: relative; text-decoration: none; width: auto;"><im=
+g data-attrs=3D"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazo=
+naws.com/public/images/5aacc0d9-6998-4545-a4ff-dcf2428b3dc2_908x513.png&quo=
+t;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot=
+;:513,&quot;width&quot;:908,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:=
+null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quo=
+t;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;internalRedirect&quot=
+;:null}" alt=3D"" width=3D"550" height=3D"310.7378854625551" class=3D"wide-=
+image" src=3D"https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_a=
+uto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaw=
+s.com%2Fpublic%2Fimages%2F5aacc0d9-6998-4545-a4ff-dcf2428b3dc2_908x513.png"=
+ style=3D"-ms-interpolation-mode: bicubic; border: none !important; display=
+: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !i=
+mportant; vertical-align: middle; width: auto !important;"></a></td><td sty=
+le=3D"text-align: center;"></td></tr></tbody></table><figcaption class=3D"i=
+mage-caption" style=3D"color: #808080; font-size: 14px; font-weight: 400; l=
+etter-spacing: -0.15px; line-height: 20px; margin-top: 8px; padding-left: 1=
+5%; padding-right: 15%; text-align: center; width: 70%;"><em><a href=3D"htt=
+ps://substack.com/redirect/334f7f46-e723-4294-bcb8-3a72c5725f30?j=3DeyJ1Ijo=
+iOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"=
+text-decoration: underline;">Jack Butcher</a><span>, </span><a href=3D"http=
+s://substack.com/redirect/2bbc4b33-a204-41f4-8619-6b65b1abad60?j=3DeyJ1Ijoi=
+OXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"t=
+ext-decoration: underline;">Building a Personal Monopoly</a></em></figcapti=
+on></figure></div><p style=3D"color: #404040; font-size: 16px; line-height:=
+ 26px; margin: 0 0 20px 0;"><span>The Personal Monopoly is the intersection=
+ of the things you&#8217;re good at, the things you&#8217;re curious about,=
+ and your own personality. As </span><a href=3D"https://substack.com/redire=
+ct/c672c42b-2cb7-481d-abc0-e7d19580d21c?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_Z=
+lNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-dec=
+oration: underline;">David describes it</a><span>:</span></p><blockquote st=
+yle=3D"border-left: 4px solid #67bdfc; margin: 20px 0; padding: 0;"><p styl=
+e=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0=
+; margin-left: 20px;"><em><span>The ultimate goal of writing online is to b=
+uild a Personal Monopoly. It&#8217;s your </span><strong>unique intersectio=
+n of skills, interests, and personality traits</strong><span> where you can=
+ be known as the best thinker on a topic and open yourself up to the serend=
+ipity that makes writing online so special.</span></em></p><p style=3D"colo=
+r: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0; margin-=
+left: 20px;"><em><strong>The Internet uniquely rewards people with Personal=
+ Monopolies because it rewards differentiation.</strong></em></p></blockquo=
+te><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: =
+0 0 20px 0;"><span>When I started writing, I had no idea what my Personal M=
+onopoly was. I knew that I was decent at and very curious about tech strate=
+gy, but </span><a href=3D"https://substack.com/redirect/943a7648-bdaf-4003-=
+b2e5-36aea5d31172?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6=
+m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration: underline;">B=
+en Thompson</a><span> had already been writing </span><a href=3D"https://su=
+bstack.com/redirect/90aa3cff-dd81-40d9-90bf-4f7b0c399469?j=3DeyJ1IjoiOXAwZ3=
+QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: =
+#404040; text-decoration: underline;">Stratechery</a><span> for seven years=
+ and was better at it than I could hope to be.&#160;</span></p><p style=3D"=
+color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><s=
+pan>I tried a bunch of different things, like </span><a href=3D"https://sub=
+stack.com/redirect/6eb7ee7c-a76e-41bd-8e4e-229cc76ddbb6?j=3DeyJ1IjoiOXAwZ3Q=
+ifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #=
+404040; text-decoration: underline;">Philly Sports x Education x Internet</=
+a><span>, but they didn&#8217;t quite work. Then I realized that most strat=
+egy writing is very serious, and I&#8217;m not. What if I combined tech str=
+ategy with pop culture and a dash of my own personality? The first time I h=
+it on the intersection was in a piece called </span><em><a href=3D"https://=
+substack.com/redirect/4f4a2ca0-4487-4046-b332-748b3d4a2a2a?j=3DeyJ1IjoiOXAw=
+Z3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color=
+: #404040; text-decoration: underline;">Startup Economic Lessons From Shen =
+Yun&#8217;s Empire</a></em><span>. It combined my experience at an on-deman=
+d startup with a little bit of my economics degree and interest in strategy=
+ with Shen Yun. It was a piece that Ben Thompson couldn&#8217;t, or at leas=
+t wouldn&#8217;t, have written.&#160;</span></p><p style=3D"color: #404040;=
+ font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>When I star=
+ted writing Not Boring full-time a year later, my first essays lived at the=
+ intersection of tech strategy and pop culture: </span><em><a href=3D"https=
+://substack.com/redirect/079c37f4-c6d9-437e-a504-045a67ba6fab?j=3DeyJ1IjoiO=
+XAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"co=
+lor: #404040; text-decoration: underline;">Jeff Bezos&#8217; Fashion Flex</=
+a></em><span>, </span><em><a href=3D"https://substack.com/redirect/94d04d7e=
+-46ab-4766-9d5a-6ab3fdf7d4fd?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXX=
+epKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-decoration: un=
+derline;">Schumpeter&#8217;s Gale</a><span>,</span></em><span> </span><em><=
+a href=3D"https://substack.com/redirect/7ac2b81c-dbeb-4110-94a8-1d715872867=
+4?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=
+=3D"" style=3D"color: #404040; text-decoration: underline;">Wackos and Zoom=
+Gl&#252;ts</a></em><span>. The intersection forced me to differentiate, and=
+ over time, as I&#8217;ve dropped the direct pop culture references, I&#821=
+7;ve tried to maintain my unique, less serious voice.&#160;</span></p><p st=
+yle=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px=
+ 0;">Not Boring&#8217;s growth has been a result of that differentiation, a=
+nd as more people write about startups with a lighter tone, one of my goals=
+ in 2023 is to keep experimenting with ways to double-down on the uniquenes=
+s.&#160;</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px;=
+ margin: 0 0 20px 0;"><span>When I started writing, I thought that, if I wa=
+s lucky, I&#8217;d be able to grow this to 5,000 subscribers and buy myself=
+ time to find a next job that I really loved. I didn&#8217;t think I could =
+build a real business off of the intersection of tech strategy and pop cult=
+ure. My lesson here is that </span><strong>the internet rewards differentia=
+tion in bigger ways than you can imagine before experiencing it</strong><sp=
+an>.&#160;</span></p><h3 class=3D"header-with-anchor-widget" style=3D"-moz-=
+osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; color=
+: #404040; font-family: 'SF Compact Display', -apple-system, BlinkMacSystem=
+Font, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji'=
+, 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font-weight: bol=
+d; line-height: 1.16em; margin: 1em 0 0.625em 0; position: relative;"><stro=
+ng>Differentiation Matters More Than Ever</strong></h3><p style=3D"color: #=
+404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">So why am =
+I writing about this now?&#160;</p><p style=3D"color: #404040; font-size: 1=
+6px; line-height: 26px; margin: 0 0 20px 0;"><span>When I first thought abo=
+ut writing this essay, I planned to go deep on all of the unexpected ways d=
+ifferentiation matters for </span><strong>startups</strong><span>, based in=
+ part on my experience at Breather. In </span><em><a href=3D"https://substa=
+ck.com/redirect/41f644ab-d0fe-4c1c-aca7-b77ab00bf9eb?j=3DeyJ1IjoiOXAwZ3QifQ=
+=2Egb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8Ex=
+kRNpU" rel=3D"" style=3D"color: #404=
+040; text-decoration: underline;">The Good Thing About Hard Things</a><span=
+>, </span></em><span>I wrote:</span></p><blockquote style=3D"border-left: 4=
+px solid #67bdfc; margin: 20px 0; padding: 0;"><p style=3D"color: #404040; =
+font-size: 16px; line-height: 26px; margin: 0 0 20px 0; margin-left: 20px;"=
+><em><span>I need to write a full piece on this one day, but I believe that=
+ </span><strong>differentiation is good for its own sake</strong><span>. It=
+ helps attract and retain talent, and helps employees rally around the miss=
+ion. If they don&#8217;t pull it off, it&#8217;s possible no one else will.=
+ And it attracts a certain type of employee, the one who&#8217;s passionate=
+ about solving the problem at-hand, even if success is non-obvious and the =
+path may be uncomfortable.</span></em></p></blockquote><p style=3D"color: #=
+404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Ther=
+e&#8217;s also a point to be made that the more playbooks there are, the ha=
+rder it is to build something profitable or magical by doing it. Average at=
+ scale is no longer a profitable strategy, and differentiation within a sma=
+ller niche becomes necessary. Things like Replit, Urbit, APIs, and generati=
+ve AI are only going to accelerate the ease with which people can build </s=
+pan><em>something</em><span>, and exacerbate the challenges for startups bu=
+ilding undifferentiated products. Fleshing out where value accrues in this =
+world probably deserves its own post.&#160;</span></p><p style=3D"color: #4=
+04040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>But I=
+ was spurred to write this post </span><em>now</em><span> by two great podc=
+asts I listened to last week about the value of differentiation for </span>=
+<strong>individuals</strong><span>. I think the lessons generalize to compa=
+nies as well.&#160;</span></p><p style=3D"color: #404040; font-size: 16px; =
+line-height: 26px; margin: 0 0 20px 0;">The first was Lex Fridman&#8217;s c=
+onversation with Mr. Beast:&#160;</p><a class=3D"audio-embed-static-outer" =
+href=3D"https://substack.com/redirect/d113689b-42c1-4321-8dd7-e813b8203631?=
+j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" target=
+=3D"_blank" style=3D"text-decoration: none;"><table class=3D"audio-embed-st=
+atic" cellspacing=3D"12" style=3D"background: #ffffff; border: 1px solid #e=
+0e0e0; border-radius: 8px; margin: 32px 0; min-height: 96px; min-width: 100=
+%; width: 100%;"><tbody><tr><td class=3D"thumbnail-container" style=3D"bord=
+er-radius: 8px; height: 88px; margin: 0; overflow: hidden; padding: 0; vert=
+ical-align: top; width: 88px;"><div class=3D"play-container" style=3D"font-=
+size: 16px; line-height: 26px; max-height: 0; opacity: 0.999; position: rel=
+ative; z-index: 1;"><img class=3D"play" src=3D"https://substackcdn.com/imag=
+e/fetch/w_72,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2F=
+substack.com%2Fimg%2Fthumbnail-play.png" height=3D"36" width=3D"36" style=
+=3D"-ms-interpolation-mode: bicubic; border: none !important; display: inli=
+ne-block; height: 40px; margin: 24px; max-width: 100%; vertical-align: midd=
+le; width: 40px;"></div><img class=3D"thumbnail" src=3D"https://i.scdn.co/i=
+mage/ab6765630000ba8a563ebb538d297875b10114b7" height=3D"80" width=3D"80" s=
+tyle=3D"-ms-interpolation-mode: bicubic; border: none !important; display: =
+block; height: 88px; margin: 0 auto; max-width: 100%; vertical-align: middl=
+e; width: 88px;"></td><td class=3D"audio-details" style=3D"-moz-osx-font-sm=
+oothing: antialiased; -webkit-font-smoothing: antialiased; font-family: 'SF=
+ Pro Display', -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Robo=
+to, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'S=
+egoe UI Symbol'; letter-spacing: -0.012em; text-decoration: none;"><p class=
+=3D"title" style=3D"color: #404040; font-size: 16px; font-weight: 700; line=
+-height: 20px; margin: 0 0 2px;">#351 &#8211; MrBeast: Future of YouTube, T=
+witter, TikTok, and Instagram</p><p class=3D"subtitle" style=3D"-moz-osx-fo=
+nt-smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #808=
+080; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, =
+'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Seg=
+oe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 400; line-he=
+ight: 20px; margin: 0 0 2px;">Lex Fridman</p><p class=3D"metadata" style=3D=
+"color: #808080; font-size: 14px; font-weight: 400; line-height: 20px; marg=
+in: 0 0 2px;">Episode</p></td></tr></tbody></table></a><p style=3D"color: #=
+404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Mr. =
+Beast is the most popular creator on </span><a href=3D"https://substack.com=
+/redirect/59e31744-6ed0-4df3-aca8-be972db30faf?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5=
+T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; t=
+ext-decoration: underline;">YouTube</a><span>. His videos routinely get ove=
+r 100 million views. He recently launched </span><a href=3D"https://substac=
+k.com/redirect/c2e26748-4522-4710-a9f6-ff48b6cc9dde?j=3DeyJ1IjoiOXAwZ3QifQ.=
+gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #4040=
+40; text-decoration: underline;">Mr. Beast Burger</a><span> and </span><a h=
+ref=3D"https://substack.com/redirect/38a61cf7-2639-4c39-a055-b1e27fbdf444?j=
+=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D""=
+ style=3D"color: #404040; text-decoration: underline;">Feastables</a><span>=
+, both of which are already doing millions in revenue. At 51:50, Lex asks h=
+is advice for other creators who want to become as big as him, and his resp=
+onse reinforces the value of differentiation.</span></p><blockquote style=
+=3D"border-left: 4px solid #67bdfc; margin: 20px 0; padding: 0;"><p style=
+=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;=
+ margin-left: 20px;"><em><strong>Lex:</strong><span> Would you recommend to=
+ other creators who want to make it big and they see Mr. Beast and they loo=
+k up to you to copy some elements of you or to really try to be unique?</sp=
+an></em></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px;=
+ margin: 0 0 20px 0; margin-left: 20px;"><em><strong>Mr. Beast:</strong><sp=
+an> Unique. 100% unique. </span><strong>The next &#8220;Mr. Beast&#8221; &#=
+8211; it feels weird saying that in the third person, but whatever &#8211; =
+is not going to do what I&#8217;m doing better, they&#8217;re just going to=
+ invent their own way.</strong><span> You&#8217;re just not going to do wha=
+t I do better than me.</span></em></p></blockquote><p style=3D"color: #4040=
+40; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>The only=
+ way to really break out as a creator, according to the world&#8217;s most =
+successful creator, is by finding your Personal Monopoly. This is true desp=
+ite, and because of, the fact that there are so many courses, threads, YouT=
+ube videos, podcasts, and blog posts about how to become a successful creat=
+or. While the nuts and bolts &#8211; how to set up a camera, for example &#=
+8211; might be useful, the premise is flawed. </span><strong>If you&#8217;r=
+e following a playbook, you&#8217;re already dead.</strong><span>&#160;</sp=
+an></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; marg=
+in: 0 0 20px 0;">The second was Patrick O&#8217;Shaughnessy&#8217;s convers=
+ation with Gravity Blanket creator John Fio on Invest Like the Best:&#160;<=
+/p><a class=3D"audio-embed-static-outer" href=3D"https://substack.com/redir=
+ect/d3118116-b8fe-4db4-81c8-acbbc8e16ef6?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_=
+ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" target=3D"_blank" style=3D"text-decoratio=
+n: none;"><table class=3D"audio-embed-static" cellspacing=3D"12" style=3D"b=
+ackground: #ffffff; border: 1px solid #e0e0e0; border-radius: 8px; margin: =
+32px 0; min-height: 96px; min-width: 100%; width: 100%;"><tbody><tr><td cla=
+ss=3D"thumbnail-container" style=3D"border-radius: 8px; height: 88px; margi=
+n: 0; overflow: hidden; padding: 0; vertical-align: top; width: 88px;"><div=
+ class=3D"play-container" style=3D"font-size: 16px; line-height: 26px; max-=
+height: 0; opacity: 0.999; position: relative; z-index: 1;"><img class=3D"p=
+lay" src=3D"https://substackcdn.com/image/fetch/w_72,c_limit,f_auto,q_auto:=
+good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Fthumbnail-play=
+=2Epng" height=3D"36" width=3D"36" style=3D=
+"-ms-interpolation-mode: bicubic; =
+border: none !important; display: inline-block; height: 40px; margin: 24px;=
+ max-width: 100%; vertical-align: middle; width: 40px;"></div><img class=3D=
+"thumbnail" src=3D"https://i.scdn.co/image/ab6765630000ba8ab3be709fb488192b=
+70058f38" height=3D"80" width=3D"80" style=3D"-ms-interpolation-mode: bicub=
+ic; border: none !important; display: block; height: 88px; margin: 0 auto; =
+max-width: 100%; vertical-align: middle; width: 88px;"></td><td class=3D"au=
+dio-details" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-sm=
+oothing: antialiased; font-family: 'SF Pro Display', -apple-system, BlinkMa=
+cSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Ap=
+ple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; letter-spacing: -0.0=
+12em; text-decoration: none;"><p class=3D"title" style=3D"color: #404040; f=
+ont-size: 16px; font-weight: 700; line-height: 20px; margin: 0 0 2px;">John=
+ Fio - Creating Magic for Consumers - [Invest Like the Best, EP.311]</p><p =
+class=3D"subtitle" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-f=
+ont-smoothing: antialiased; color: #808080; font-family: 'SF Compact Displa=
+y', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial=
+, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; fon=
+t-size: 14px; font-weight: 400; line-height: 20px; margin: 0 0 2px;">Coloss=
+us | Investing &amp; Business Podcasts</p><p class=3D"metadata" style=3D"co=
+lor: #808080; font-size: 14px; font-weight: 400; line-height: 20px; margin:=
+ 0 0 2px;">Episode</p></td></tr></tbody></table></a><p style=3D"color: #404=
+040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">The whole con=
+versation is worth listening to &#8211; I&#8217;d never heard of John befor=
+e and I almost skipped it, but it was one of my favorite episodes in a whil=
+e &#8211; but one line stuck out:</p><p style=3D"color: #404040; font-size:=
+ 16px; line-height: 26px; margin: 0 0 20px 0;"><strong>&#8220;The things th=
+at are going to be valuable are the things you can&#8217;t teach or copy.&#=
+8221;</strong><span>&#160;</span></p><p style=3D"color: #404040; font-size:=
+ 16px; line-height: 26px; margin: 0 0 20px 0;">This sounds almost obvious, =
+and echoes Mr. Beast&#8217;s point, but it stands in direct opposition to t=
+he way the system is currently set up. Humans spend the first twenty-two ye=
+ars of our lives, and sometimes more, being taught and learning how to copy=
+=2E Then we take more courses, learn best=
+ practices, and apply them. Pre-Inte=
+rnet, being average in a rich enough country was a safe way to ensure that =
+you&#8217;d have a decent job and a middle class lifestyle, but the Interne=
+t rewards differentiation with outsized rewards. Average is still employabl=
+e, but the gap between average and differentiated keeps growing.&#160;&#160=
+;</p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin=
+: 0 0 20px 0;"><span>Average may not even be employable for long, though, a=
+t least in knowledge work. </span><strong>AI is exceptional at average</str=
+ong><span>. If something can be taught, it can learn it better. If it can b=
+e copied, it can copy it faster.&#160;</span></p><p style=3D"color: #404040=
+; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">Of course, there=
+&#8217;s a whole economy outside of knowledge work and a good argument to b=
+e made for doing a job 9-5, getting paid, and spending the rest of your tim=
+e with your family and friends. Service jobs aren&#8217;t going anywhere an=
+y time soon. In fact, one of the biggest surprises in AI is that it&#8217;s=
+ coming for knowledge workers first.&#160;</p><p style=3D"color: #404040; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 20px 0;">But if you&#8217;re=
+ reading this, I assume that you&#8217;re interested in the kind of work th=
+at&#8217;s subject to the forces of differentiation. And for that kind of w=
+ork, at some point in the near future, differentiation is going to be the o=
+nly way to thrive.&#160;</p><h3 class=3D"header-with-anchor-widget" style=
+=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialias=
+ed; color: #404040; font-family: 'SF Compact Display', -apple-system, Blink=
+MacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font-we=
+ight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0; position: relativ=
+e;"><strong>Differentiation Is About to Get a Whole Lot More Important</str=
+ong></h3><p style=3D"color: #404040; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 20px 0;">The third inspiration for this post was my conversation =
+with Anton on the data on which AI models are trained:&#160;</p><a href=3D"=
+https://substack.com/redirect/1f9ff5b9-9747-4845-8a2a-784ffe58634c?j=3DeyJ1=
+IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" target=3D"_blan=
+k" class=3D"youtube-wrap" style=3D"display: block; margin: 1.6em 0;"><img s=
+rc=3D"https://substackcdn.com/image/youtube/w_550,c_limit/l_youtube_play_qy=
+qt8q,w_120/eyH1Y7Q4kxY" style=3D"-ms-interpolation-mode: bicubic; border: n=
+one !important; display: block; height: auto; margin: 0 auto; max-width: 10=
+0%; vertical-align: middle; width: 100%;"></a><p style=3D"color: #404040; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 20px 0;">I&#8217;d of course=
+ like for you to watch the whole thing and subscribe, but I&#8217;ll give y=
+ou the relevant takeaway here.&#160;</p><p style=3D"color: #404040; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>In the current stat=
+e of the art, </span><strong>models are only as good as the data they&#8217=
+;re trained on </strong><em><strong>and</strong></em><strong> the models ca=
+n&#8217;t generate new training data themselves.</strong><span> AI-generate=
+d output is based on the data that trained the AI in the first place, so an=
+y data it creates will be a regurgitation of the data it already has. That =
+means that humans will need to create fresh data by coming up with new idea=
+s and new explanations of the world in order for the models to improve.&#16=
+0;</span></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px=
+; margin: 0 0 20px 0;">There&#8217;s a very clear way to see how this could=
+ lead to a dystopian future in which the AI hires people to generate new ar=
+t, music, and ideas to fill in the gaps in its understanding, but there&#82=
+17;s also a much more hopeful way to view where this is heading.&#160;</p><=
+p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 =
+20px 0;"><strong>As the value of things you can teach or copy trends toward=
+s zero, the value of fresh new ideas increases. </strong><span>&#160;</span=
+></p><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margin=
+: 0 0 20px 0;">The stage is set for an era of fresh new ideas because the i=
+ncentives have never been more tilted in their favor. This current internet=
+ interstitial is just an appetizer.&#160;</p><p style=3D"color: #404040; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>Today, it&#821=
+7;s so tantalizingly easy to copy others, to create undifferentiated produc=
+ts or ideas in the pursuit of doing </span><em>something, </em><span>that i=
+t&#8217;s become the default. Just as AI doesn&#8217;t improve with stale, =
+rehashed data, the world doesn&#8217;t progress based upon stale, rehashed =
+ideas. We progress, as we evolve, based on </span><strong>mutations</strong=
+><span>.</span></p><p style=3D"color: #404040; font-size: 16px; line-height=
+: 26px; margin: 0 0 20px 0;"><span>Siddhartha Mukherjee concludes his excel=
+lent book, </span><em>The Gene: An Intimate History</em><span>, with an ack=
+nowledgment of that fact: &#8220;We seek constancy in heredity &#8211; and =
+find its opposite: variation. </span><strong>Mutants are necessary to maint=
+ain the essence of ourselves.</strong><span>&#8221;&#160;</span></p><p styl=
+e=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0=
+;">The alpha is being squeezed out of doing the same things slightly better=
+=2E You need to become a mutant.&#160;</p=
+><p style=3D"color: #404040; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 20px 0;"><span>A few minutes with =
+ChatGPT, despite its flaws and shortcomings, will disavail you of the belie=
+f that memorizing things just to memorize them will continue to be valuable=
+=2E A few minutes with Replit&#8217;s Gho=
+stwriter will do the same for your b=
+elief in basic coding. Ditto for </span><a href=3D"https://substack.com/red=
+irect/47bd8d75-7d8d-48f6-bca4-a72117110474?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7Gn=
+A_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"color: #404040; text-=
+decoration: underline;">Lex</a><span> and writing, or Stable Diffusion and =
+drawing.&#160;</span></p><p style=3D"color: #404040; font-size: 16px; line-=
+height: 26px; margin: 0 0 20px 0;">Memorize, code, write, and draw if you l=
+ove doing those things, if getting your hands dirty helps you think better,=
+ if you&#8217;re trying to earn your corpus of basic knowledge the hard way=
+ so that you can jump off from a stable base, or if you want to do them dif=
+ferently than anyone ever has; otherwise, don&#8217;t waste your time. It w=
+ill regurgitate better than you ever could.&#160;</p><p style=3D"color: #40=
+4040; font-size: 16px; line-height: 26px; margin: 0 0 20px 0;">The only ans=
+wer is differentiation. Call it novelty, creativity, mutation.&#160;</p><p =
+style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20=
+px 0;">Follow curiosities down deep rabbit holes and emerge with unique ide=
+as. Partake in vivid and varied adventures to build up a set of experiences=
+ that is unique to you. Run away from the areas in which you are average an=
+d towards those where you might be special. Start a company because the wor=
+ld needs it, and because if you don&#8217;t start that specific company, no=
+ one else will.</p><p style=3D"color: #404040; font-size: 16px; line-height=
+: 26px; margin: 0 0 20px 0;">You don&#8217;t need to be the world&#8217;s b=
+est brain surgeon; you might be the world&#8217;s fastest pumpkin carver. A=
+nd when you find those areas where your curiosity, skills, and personality =
+meet, lean in so hard that you create a Personal Monopoly no human or machi=
+ne can touch.&#160;</p><p style=3D"color: #404040; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 20px 0;"><span>The world will be a richer, more col=
+orful place when more people are freed up to learn, create, and build novel=
+ things that only they can. This might be technology&#8217;s greatest gift =
+to humanity. </span><strong>By making the competition to be better at someo=
+ne else&#8217;s game practically futile, it frees us up to play different g=
+ames.&#160;</strong></p><div style=3D"font-size: 16px; line-height: 26px;">=
+<hr style=3D"background: #e0e0e0; border: none; height: 1px; margin: 32px 0=
+; padding: 0;"></div><p style=3D"color: #404040; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 20px 0;"><em><span>Thanks to </span><a href=3D"https:=
+//substack.com/redirect/37dd4400-713f-4415-92b3-5c12b1f9bf4b?j=3DeyJ1IjoiOX=
+AwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" rel=3D"" style=3D"col=
+or: #404040; text-decoration: underline;">Dan</a><span> for editing!</span>=
+</em></p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"ba=
+ckground: #e0e0e0; border: none; height: 1px; margin: 32px 0; padding: 0;">=
+</div><p style=3D"color: #404040; font-size: 16px; line-height: 26px; margi=
+n: 0 0 20px 0;">That&#8217;s all for today. We&#8217;ll be back in your inb=
+ox on Friday with the Weekly Dose.</p><p style=3D"color: #404040; font-size=
+: 16px; line-height: 26px; margin: 0 0 20px 0;">Thanks for reading, </p><p =
+style=3D"color: #404040; font-size: 16px; line-height: 26px; margin: 0 0 20=
+px 0;">Packy</p><p style=3D"color: #404040; font-size: 16px; line-height: 2=
+6px; margin: 0 0 20px 0; margin-bottom: 0;"></p></div></div><table role=3D"=
+presentation" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" class=3D"email-ufi-2-bottom" style=3D"border-bottom: 1px solid #e0e0e0; =
+border-top: 1px solid #e0e0e0; min-width: 100%;"><tr height=3D"16"><td heig=
+ht=3D"16" style=3D"font-size: 0px; line-height: 0;">&#160;</td></tr><tr><td=
+><table role=3D"presentation" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0"><tr><td><table role=3D"presentation" width=3D"auto" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 0 auto;"><tr>=
+<td style=3D"vertical-align: middle;"><table role=3D"presentation" width=3D=
+"auto" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"ce=
+nter"><a href=3D"https://substack.com/app-link/post?publication_id=3D10025&=
+post_id=3D97163783&utm_source=3Dsubstack&isFreemail=3Dtrue&submitLike=3Dtru=
+e&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6OTcxNjM3ODMsInJlYWN0aW9uI=
+joi4p2kIiwiaWF0IjoxNjczOTYzMjkyLCJleHAiOjE2NzY1NTUyOTIsImlzcyI6InB1Yi0xMDAy=
+NSIsInN1YiI6InJlYWN0aW9uIn0.vZeIfuavw5hYAuTBexRhoLMciVeAKU1rw7zkXdR76xc&utm=
+_medium=3Demail" class=3D"email-button-outline" style=3D"border: 1px solid =
+#e0e0e0; border-radius: 100000px; color: #808080; display: inline-block; fo=
+nt-family: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont,=
+ 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Se=
+goe UI Emoji', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-h=
+eight: 12px; padding: 9px 14px; text-decoration: none; text-transform: uppe=
+rcase;"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,=
+q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucide=
+Heart%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWi=
+dth%3D2" width=3D"18" height=3D"18" style=3D"border: none !important; margi=
+n-right: 8px; max-width: 18px; min-height: 18px; min-width: 18px; vertical-=
+align: middle;" alt=3D"" class=3D"icon"><span class=3D"email-button-text" s=
+tyle=3D"vertical-align: middle;">Like</span></a></td></tr></table></td><td =
+width=3D"8" style=3D"min-width: 8px"></td><td style=3D"vertical-align: midd=
+le;"><table role=3D"presentation" width=3D"auto" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a href=3D"https://substa=
+ck.com/app-link/post?publication_id=3D10025&post_id=3D97163783&utm_source=
+=3Dsubstack&utm_medium=3Demail&isFreemail=3Dtrue&comments=3Dtrue&token=3Dey=
+J1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6OTcxNjM3ODMsImlhdCI6MTY3Mzk2MzI5MiwiZ=
+XhwIjoxNjc2NTU1MjkyLCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.=
+ttKBQCEaPKh8qVaj2wT7TbbhXfgM_UJ32xk3yNBoGo0&utm_source=3Dsubstack&utm_mediu=
+m=3Demail" class=3D"email-button-outline" style=3D"border: 1px solid #e0e0e=
+0; border-radius: 100000px; color: #808080; display: inline-block; font-fam=
+ily: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Sego=
+e UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI=
+ Emoji', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-height:=
+ 12px; padding: 9px 14px; text-decoration: none; text-transform: uppercase;=
+"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto=
+:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideCommen=
+ts%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth=
+%3D2" width=3D"18" height=3D"18" style=3D"border: none !important; margin-r=
+ight: 8px; max-width: 18px; min-height: 18px; min-width: 18px; vertical-ali=
+gn: middle;" alt=3D"" class=3D"icon"><span class=3D"email-button-text" styl=
+e=3D"vertical-align: middle;">Comment</span></a></td></tr></table></td><td =
+width=3D"8" style=3D"min-width: 8px"></td><td style=3D"vertical-align: midd=
+le;"><table role=3D"presentation" width=3D"auto" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0"><tr><td align=3D"center"><a href=3D"https://substa=
+ck.com/app-link/post?publication_id=3D10025&post_id=3D97163783&utm_source=
+=3Dsubstack&utm_medium=3Demail&utm_content=3Dshare&action=3Dshare&triggerSh=
+are=3Dtrue&isFreemail=3Dtrue&token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZC=
+I6OTcxNjM3ODMsImlhdCI6MTY3Mzk2MzI5MiwiZXhwIjoxNjc2NTU1MjkyLCJpc3MiOiJwdWItM=
+TAwMjUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.ttKBQCEaPKh8qVaj2wT7TbbhXfgM_UJ32xk3=
+yNBoGo0" class=3D"email-button-outline" style=3D"border: 1px solid #e0e0e0;=
+ border-radius: 100000px; color: #808080; display: inline-block; font-famil=
+y: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe =
+UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI E=
+moji', 'Segoe UI Symbol'; font-size: 12px; font-weight: 500; line-height: 1=
+2px; padding: 9px 14px; text-decoration: none; text-transform: uppercase;">=
+<img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:g=
+ood,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideShare%3F=
+v%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2"=
+ width=3D"18" height=3D"18" style=3D"border: none !important; margin-right:=
+ 8px; max-width: 18px; min-height: 18px; min-width: 18px; vertical-align: m=
+iddle;" alt=3D"" class=3D"icon"><span class=3D"email-button-text" style=3D"=
+vertical-align: middle;">Share</span></a></td></tr></table></td></tr></tabl=
+e></td><td align=3D"right"><table role=3D"presentation" width=3D"auto" bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr></tr></table></td></tr></t=
+able></td></tr><tr height=3D"16"><td height=3D"16" style=3D"font-size: 0px;=
+ line-height: 0;">&#160;</td></tr></table><div class=3D"footer frontend-ema=
+il-shared-typed-module__footer--WmMp1" style=3D"color: #808080; font-size: =
+16px; line-height: 26px; padding: 24px 0; text-align: center;"><div class=
+=3D"frontend-email-shared-typed-module__footerSection--9vwqp" style=3D"font=
+-size: 16px; line-height: 26px; padding: 0 24px;"><div style=3D"color: #404=
+040; font-family: 'SF Pro Display', -apple-system-headline, 'SF Pro Text', =
+-apple-system, ui-sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Helve=
+tica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sym=
+bol'; font-size: 16px; font-weight: 700; letter-spacing: -0.31px; line-heig=
+ht: 20px; margin: 0; margin-bottom: 4px; text-decoration: unset;" class=3D"=
+frontend-pencraft-Text-module__reset--20JLV frontend-pencraft-Text-module__=
+size-16--yeezN frontend-pencraft-Text-module__line-height-20--1soeQ fronten=
+d-pencraft-Text-module__weight-bold--VnIZR frontend-pencraft-Text-module__f=
+ont-display--v0e_A frontend-pencraft-Text-module__color-primary--2I-sF">Rea=
+d Not Boring by Packy McCormick in the app</div><div style=3D"color: #80808=
+0; font-family: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMacSystem=
+Font, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sym=
+bol'; font-size: 14px; font-weight: 400; letter-spacing: -0.15px; line-heig=
+ht: 20px; margin: 0; margin-bottom: 16px; text-decoration: unset;" class=3D=
+"frontend-pencraft-Text-module__reset--20JLV frontend-pencraft-Text-module_=
+_size-14--1PYz8 frontend-pencraft-Text-module__weight-normal--mEmBf fronten=
+d-pencraft-Text-module__font-text--hJYwu frontend-pencraft-Text-module__col=
+or-secondary--XjVGl frontend-pencraft-Text-module__body4--flxpT">Listen to =
+posts, join subscriber chats, and never miss an update from Packy McCormick=
+=2E</div><div style=3D"font-size: 16px; l=
+ine-height: 26px;"><a href=3D"https:=
+//substack.com/redirect/3726b742-213a-400f-8ffe-b92785892bfd?j=3DeyJ1IjoiOX=
+AwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" class=3D"email-footer=
+-button" style=3D"border-radius: 8px; display: inline-block; margin: 0 4px;=
+ overflow: hidden; text-decoration: none;"><img alt=3D"Get the iOS app" src=
+=3D"https://substackcdn.com/image/fetch/w_246,c_limit,f_auto,q_auto:good,fl=
+_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Fapp_page%2Fapp-store.=
+png" width=3D"123" height=3D"40" style=3D"border: none !important; max-widt=
+h: 550px; vertical-align: middle;"></a><a href=3D"https://substack.com/redi=
+rect/87413b96-b4a8-4201-bb86-7ffd0f3fbce1?j=3DeyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA=
+_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU" class=3D"email-footer-button" style=3D"b=
+order-radius: 8px; display: inline-block; margin: 0 4px; overflow: hidden; =
+text-decoration: none;"><img alt=3D"Get the Android app" src=3D"https://sub=
+stackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_progressive:st=
+eep/https%3A%2F%2Fsubstack.com%2Fimg%2Fapp_page%2Fgoogle-play.png%3Fv%3D1" =
+width=3D"135" height=3D"40" style=3D"border: none !important; max-width: 55=
+0px; vertical-align: middle;"></a></div></div><div class=3D"frontend-email-=
+shared-typed-module__divider--1oKOZ" style=3D"border-top: 1px solid #e0e0e0=
+; font-size: 16px; line-height: 26px; margin: 24px 0;"></div><div style=3D"=
+font-size: 16px; line-height: 26px; padding-bottom: 24px;"><p class=3D"fron=
+tend-pencraft-Text-module__reset--20JLV frontend-pencraft-Text-module__size=
+-12--2onFT frontend-pencraft-Text-module__color-secondary--XjVGl small fron=
+tend-email-shared-typed-module__meta--AAyPr" style=3D"color: #808080; font-=
+family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, A=
+rial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';=
+ font-size: 12px; letter-spacing: 0; line-height: 16px; margin: 0; padding-=
+bottom: 0; text-decoration: unset;">&#169; 2023 <span>Packy McCormick</span=
+><br>10 City Point, Brooklyn, NY 11201 <br><a href=3D"https://substack.com/=
+redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2Vt=
+YWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZPVGN4Tmp=
+NM09ETXNJbWxoZENJNk1UWTNNemsyTXpJNU1Td2laWGh3SWpveE5qYzJOVFUxTWpreExDSnBjM0=
+1pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKa2FYTmhZbXhsWDJWdFlXbHNJbjAudXRnT2J0a=
+m1JNUVSbXU5aUMyZ1lucV9pWllXbWNxZ0w2RkZGZDQwSzhkZyIsInAiOjk3MTYzNzgzLCJzIjox=
+MDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY3Mzk2MzI5MiwiZXhwIjoxNjc2NTU=
+1MjkyLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.dT4q0xgMVPsAM-7Es3y=
+qtr2nqB8paJ11WBAU2nfgYjY?" style=3D"color: #808080; text-decoration: underl=
+ine;"><span style=3D"color: #808080; text-decoration: underline;">Unsubscri=
+be</span></a></p></div><p class=3D"frontend-email-shared-typed-module__foot=
+erSection--9vwqp small powered-by-substack" style=3D"color: #808080; font-f=
+amily: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Ar=
+ial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; =
+font-size: 12px; line-height: 20px; margin: 0; margin-top: 0; padding: 0 24=
+px; padding-bottom: 0;"><a href=3D"https://substack.com/redirect/2/eyJlIjoi=
+aHR0cHM6Ly9zdWJzdGFjay5jb20vc2lnbnVwP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl=
+1bT1lbWFpbCZ1dG1fY29udGVudD1mb290ZXImdXRtX2NhbXBhaWduPWF1dG9maWxsZWQtZm9vdG=
+VyJmZyZWVTaWdudXBFbWFpbD1ub3Rib3JpbmdAa2hhbWVsLmNvbSZzd0V4cG9zdXJlPXRydWUiL=
+CJwIjo5NzE2Mzc4MywicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NzM5=
+NjMyOTIsImV4cCI6MTY3NjU1NTI5MiwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN=
+0In0.V5jasnnUSYm5w4BKOFGi8PSuqMkJeztDMSRKP-Ds8AM?" style=3D"color: #808080;=
+ display: inline-block; margin: 0 4px; text-decoration: none;"><img src=3D"=
+https://substackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_pro=
+gressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%40=
+2x.png" srcset=3D"https://substackcdn.com/image/fetch/w_135,c_limit,f_auto,=
+q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2=
+Fpublish-button.png, https://substackcdn.com/image/fetch/w_270,c_limit,f_au=
+to,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femai=
+l%2Fpublish-button%402x.png 2x, https://substackcdn.com/image/fetch/w_405,c=
+_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2=
+Fimg%2Femail%2Fpublish-button%403x.png 3x" width=3D"135" alt=3D"Start writi=
+ng" height=3D"40" style=3D"border: none !important; max-width: 550px; verti=
+cal-align: middle;"></a></p></div></div></td><td></td></tr></table><img src=
+=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDIwMjMw=
+MTE3MTM0NzU3LjMuMDJjNjQwOWI5YjU1Nzk3YkBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MTY=
+yODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb2=
+0iLCJwIjo5NzE2Mzc4MywidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMDAyN=
+SwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6ImJvdHRvbSIsImlhdCI6MTY3Mzk2MzI5=
+MiwiZXhwIjoxNjc2NTU1MjkyLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.iGUzBzef68P9aqQ=
+DEgnL0m1N9Cr8sixYUGxOQ_BGYIQ" alt=3D"" width=3D"1" height=3D"1" border=3D"0=
+" style=3D"height:1px !important;width:1px !important;border-width:0 !impor=
+tant;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !imp=
+ortant;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !=
+important;padding-right:0 !important;padding-left:0 !important;"/><img widt=
+h=3D"1px" height=3D"1px" alt=3D"" src=3D"https://email.mg-d1.substack.com/o=
+/eJxFUEluxCAQfE24xWJfDrwFsbQ9aGywME7k34cZJ8qt1V1dW_Qdltouu9ejI9h8Xt0CBdrYJ-=
+e7JVIxIxk1lHKJkmUmYB0lyoebG7wfbG8noP0Ma46-51pcTpZgTAV6WKm1n72eTeLaSK5pCoYRw=
+aQRysNs0EvY-TNlKBEsfEG7agEU67ZB6S-qGzIGo4hkSjOULcWUYUIUYVwJNbEJ0yg5NsEEIZRR=
+4YPjbflMZDrOcHQfn9NgRM2W2kNtuSwD8Hz4Ddb3Ybh3L8mz5H45KD6skO5g_e7mPKC9g0mqmeC=
+_xvu1gy3wfazQOzQ01FIdpZR_IQR_JTKifgAx0npH"></body></html>
+--e384716424d787862d9f396f28b3b65b3a40830f2977f2345a79c6441bab--

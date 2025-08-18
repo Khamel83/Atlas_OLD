@@ -1,0 +1,2288 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp2197629rwb;
+        Mon, 10 Apr 2023 11:19:03 -0700 (PDT)
+X-Received: by 2002:adf:ec84:0:b0:2d8:47c7:7b52 with SMTP id z4-20020adfec84000000b002d847c77b52mr7361991wrn.9.1681150742945;
+        Mon, 10 Apr 2023 11:19:02 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1681150742; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=ASrjyh6WIXZQsarU9CiDm37Qie2sOMo0i/v3MVxsnh4YpbBMkaV+F7P0Qr3X/9tM5z
+         rMxtwgI5V65BkMIW0+89QOgJJ2Z8IL9Sd0WtpDl/gNIEIhAGEZuo2OUfH9nFlOS+bxaE
+         qt85cZHOCeMcQE4w42vsCXB5PBnV8Q33H6unGdQ1z4SdmZnx315GM0xO8SX6OQ80qeqJ
+         LgHFkrg/chwT2MUsFEEBlVr3jnlquNyBa/RlzPtfCCgL7dc6IMn1pkDAU3EYKK/K11Mq
+         bXodqWHgIbkh35SnMsGJnc0JAQl/ucxlvYB0tTN8F7NSCIc+HAPDW8XVRn9u8sHmHiu3
+         D4hA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=dugRnXNVdXbDYUZpSac82pG98EqXnf/epE3ebOJmptk=;
+        b=rGkwdKes9mI8ZL5pGpvh05WLY4qEpVNzl+TkELgS2no1Nnzll9PXjFZZle9mAp2/BD
+         zWr1+TVvR1BOuVjbemY5ISiL01eZ3ZSZfxn+hcnGsq2qYyf+EIPoXCpycnvBDDAWHE9d
+         WqUxu7Qpz2lrFmvqwsR4KXCH04titeb4yJD+/0WIUyJ1GRH8Q39h93By0gJWGNV9pvg2
+         2Ibq34WC/We201XHiTb1JwQpqFn/xoGkRtTjwPQ5UXiGaYSTRzRld9yxpsBLg0VKRzAc
+         ZA3Uoio84Oiy5J0hH13s52oiE5pMVxIk4YMvyGi0iA4ZzpnnpQmM5h6fbD46JudWPt25
+         BVLw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Y91dYrvn;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id r16-20020a0560001b9000b002ce991d3b13sor3668084wru.25.2023.04.10.11.19.02
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 10 Apr 2023 11:19:02 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Y91dYrvn;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112; t=1681150742;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=dugRnXNVdXbDYUZpSac82pG98EqXnf/epE3ebOJmptk=;
+        b=fF2sAbVtPdIezfWnv1s4kf5GlXXEvq3stu8sTRyBf6btnDlvEK4IOk0cwWMIOwIV77
+         Z0VQNtR44Y8Hn5AraVHdFh3w2R+nFB5SImd1qz9BlbYRl1jeM1IZSpzIPu1bBGsDs2lF
+         wYGyisTRByRtuyzZkB11YC5lTRKcgRnln+NW5H6DFH2Tn37Ip0+lNcBTtIOWBdWme9bS
+         6wQLE41yEVESTSkhw4OUwMf/RXUixY8ENUITUzmAb+q5sYI4SzPDjqfNlFroqOcmUN8T
+         tgR6+1+hlgfiVG+lBqQoaNohgQJ2SBC6Q5Rt275AHy/TUht5JBI8Idm6QbUsLKGO5J5Z
+         +Y2Q==
+X-Gm-Message-State: AAQBX9cisDS9idA8v1RYzmPdWD1vI9AsaIGPdXstvlqT7ltlwV1wymO2
+	tIEBG4dtlA+CUlZLjvTl8xp9FIko4LNazgGC95p3k3hz3kSp73xlvw==
+X-Received: by 2002:adf:f68c:0:b0:2e4:cbfe:da51 with SMTP id v12-20020adff68c000000b002e4cbfeda51mr1621946wrp.1.1681150742355;
+        Mon, 10 Apr 2023 11:19:02 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:4c91:0:0:0:0:0 with SMTP id z17csp1216905wrs;
+        Mon, 10 Apr 2023 11:18:58 -0700 (PDT)
+X-Received: by 2002:a19:550d:0:b0:4e0:2455:3ade with SMTP id n13-20020a19550d000000b004e024553ademr2995157lfe.60.1681150738601;
+        Mon, 10 Apr 2023 11:18:58 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1681150738; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=VugaTpBaA800QfSySdGhSL9YxDxwDc6LVOEMsdo1qlem90y+LsMSTjSYDrM8GE7EI6
+         VwBzVXaZS2K5+T/um2sch15L5gzCCUOgmBfJm2feps8ANU9sV+ubWaezEJ4k/5S8NKpG
+         0PRR93NdkxarecRCEZQF6iDtilHl6OVwOWLeMqwKbh4rsu00lVekIs16b7pElGPnjqTh
+         p9Yifuljw5t9f59j/022rNegRztZKMvvNv4le9QZkYmInFNVsRbswcPjl5uQQ5oMOsVa
+         bixfLz6zVNW6xJSKaGhyBIUNpzDAvUngq4Lni8gXZKfUelwFiu4N08QtZU46WPLtASaO
+         Ta/Q==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=dugRnXNVdXbDYUZpSac82pG98EqXnf/epE3ebOJmptk=;
+        b=L/N3ycomVC55AYuPEXmjOuvKZPgkgHFla6X64mAZUxr69vsE2MelQOxBdoBf64bqQj
+         f+YWs/ZGUUKfnLa//jrLAw58WF9ylI9SaDP62LfunIsqpddOxiCIuJXwheekVULtq5l7
+         cJsuWxq9wWf+yCtJMK+ZflKVGHufYMnJum8ko3Xh/4qx8mZdrWGXWaxR23mYkzZPg3Bo
+         8bhTdJ6ilu02/sS6NmIh+57iyreg5YNLnVwIV9pnzdnvrJyWYThhYUO9w05jc3a/DvaN
+         VDapOwlw/M2JjKG2kuU/Dy9gFCA7y++MDFJF4s1bqu7HyCLcpgXadcy+HO1cXt1QmtGr
+         w3UA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Y91dYrvn;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230410141755.31118652.257452@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230410141755.31118652.257452@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230410141755.31118652.257452@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id p17-20020a05651238d100b004cb7cea04bdsor1691352lft.65.2023.04.10.11.18.58
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 10 Apr 2023 11:18:58 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230410141755.31118652.257452@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AKy350ZhEdxcW7GLPvwbsMl/hJgZa80wkXMnm/g1fJl4kUINwhikCmP8GEs5zZ6eEGqCBWwdZ2LCbN/OBPeofIJWp76JW8d0Vtw=
+X-Received: by 2002:a19:f612:0:b0:4cc:5e3a:dd82 with SMTP id x18-20020a19f612000000b004cc5e3add82mr2990231lfe.58.1681150738245;
+        Mon, 10 Apr 2023 11:18:58 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1681150738; cv=none;
+        d=google.com; s=arc-20160816;
+        b=choibeCzS+e3dz9tkj8v1bjRlM5tdJdx8oqpvhkdBWRRfuZLygRTylC1sA9YXuzn1V
+         GpfDUkbMn/FgkGhgwSEeQ03ts89fTcFUDrgIm2cz8cswuBQNzSlaAcb4t3U+yOI9ePAw
+         SJSQekI+iRdf3hzEyFOpE3plRmVZPqluNY7+06kWG1BRWVTf2rKJkjtL8/C7yjqgR1C3
+         Tyhk8J1BD0kzJN21bmEmzoRiKGVWAwhd/udG1PgD2ArcgoedYljCGbbtWfF4EVEmHsnU
+         TTCznkxxq3DlMiatdXex0C6/vm/f75379YOlkXQdCrdF8Z0w39H9eNDE1pA8bKNTB3TL
+         Yaxg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=dugRnXNVdXbDYUZpSac82pG98EqXnf/epE3ebOJmptk=;
+        b=vvK+FotAvs5DZxLjO84khkiMeA46ibK7Y0iNcxqT9dntdziihEpRPXFjTK2u0UK+Pv
+         JCicP+wSA/X22ZViIaRVQJsRne/IrGsyyAzx85uQJ1ap81bxYi8EX7bjI0N4cnvLm3i0
+         jYaiNtPAmguvfLnb0Nr8XawzFalBQKi4wMdiEkr+IUhFscia2L/Wf9Y4Bi3A++47qVhR
+         DXBRCcStW8GjV/FHSnVaJ38Rk5ah5biFAeJWEcGSAg4jLj0ZrrlLu/PWxAx/RGSCP740
+         D5DdVVpcqq3TtBHTHwvZQ34YMYNAJcWr2RJ7AwxQAtmKjJTPvQ1b12BfjhGQVNAdOXc7
+         3MKQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=Y91dYrvn;
+       spf=pass (google.com: domain of delivery_20230410141755.31118652.257452@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230410141755.31118652.257452@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230410141755.31118652.257452@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id k12-20020a0565123d8c00b004e9d34ac318si577862lfv.5.2023.04.10.11.18.57
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 10 Apr 2023 11:18:58 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230410141755.31118652.257452@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=e8Q14D2t1/CTTa11fYrZrTagV7uMj63p0Y3aYxgJw9k=;
+ b=Y91dYrvnI2kYJqfroY7BUmeGdXTPyyhW0ndPlMB+HzTOL78kCNwk9lqEo5H7AwMAr/J1w+fQAohP
+   gYD41SyUuOj64rQuuM8Fk5sPy9Jy2GSeH12U3mbGRI8Zcr/DTDeVvmZD5r72TxE7wu8hKbyQlmcZ
+   hCwwfjtsax4FzQQjaac=
+Received: from njmta-149.sailthru.com (173.228.155.149) by pmta29.sailthru.com id h6h9h02sd4sl for <bloomberg@khamel.com>; Mon, 10 Apr 2023 14:18:56 -0400 (envelope-from <delivery_20230410141755.31118652.257452@mx.sailthru.com>)
+Received: from nj1-fadindigo.flt (172.18.20.20) by njmta-149.sailthru.com id h6h9h01qqbs8 for <bloomberg@khamel.com>; Mon, 10 Apr 2023 14:17:55 -0400 (envelope-from <delivery_20230410141755.31118652.257452@mx.sailthru.com>)
+Date: Mon, 10 Apr 2023 14:17:55 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230410141755.31118652.257452@sailthru.com>
+Subject: Money Stuff: FTX Lost Track of Its Money
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_66604345_1213767921.1681150675276"
+Precedence: bulk
+X-Feedback-ID: 6358:31118652:campaign:sailthru
+X-TM-ID: 20230410141755.31118652.257452
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-fadindigo.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ciizb0.5ing/33b2ad4e
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ciizb0.5ing/33b2ad4e>, <mailto:unsubscribe_20230410141755.31118652.257452@mx.sailthru.com>
+X-rpcampaign: stjko31118652
+
+------=_Part_66604345_1213767921.1681150675276
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        What a weird job John Ray has. I suppose that in general, if a comp=
+any hires a new chief executive officer, the new CEO will have some disag
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      FTX
+   =20
+ =20
+
+What a weird job John Ray has. I suppose that in general, if a company hire=
+s a new chief executive officer, the new CEO will have some disagreements w=
+ith the previous CEO, and some incentive to make a meal of those disagreeme=
+nts. For one thing, CEOs are generally people with strong opinions. Also th=
+e new CEO was hired for a reason; quite possibly=C2=A0the old CEO did do so=
+mething wrong. Also the new CEO can make himself look better by making the =
+old one look worse: The more you say =E2=80=9Coh man the previous guy reall=
+y messed everything up, what a disaster this place is,=E2=80=9D the more cr=
+edit you will get for any improvements.
+Also I mean, separately, the former CEO of FTX Trading Ltd. really did mess=
+ the place up a lot, so Ray objectively has a lot to complain about.=C2=A0
+Still it is hard to think of a CEO in recent memory who has been more focus=
+ed on trashing the previous management? (Elon Musk I guess?)=C2=A0Ray was h=
+ired as the CEO of FTX to put it into bankruptcy, to steer it through bankr=
+uptcy, and to maximize recovery for FTX=E2=80=99s customers and other credi=
+tors, and he has spent a lot of his time publishing gleeful reports about h=
+ow bad everything at FTX is and how incompetent and criminal its former man=
+agers, led by former CEO Sam Bankman-Fried, were. Obviously a lot of people=
+ =E2=80=94=C2=A0most notably US federal prosecutors, but also FTX=E2=80=99s=
+ customers and, you know, journalists=C2=A0=E2=80=94=C2=A0are very interest=
+ed in how incompetent and criminal those former managers were, and the repo=
+rts are quite informative and I am glad he=E2=80=99s publishing them. Still=
+ they are in a little bit of=C2=A0tension with Ray=E2=80=99s=C2=A0main=C2=
+=A0job of maximizing recoveries. Occasionally Ray and his team will make no=
+ises about how they might=C2=A0restart FTX=E2=80=99s business=C2=A0to earn =
+money to pay off creditors, and then they=E2=80=99ll put out a report with =
+a title like =E2=80=9CFTX Debtors Discover That FTX Was the Worst Company i=
+n the History of Companies,=E2=80=9D and that doesn=E2=80=99t feel like=C2=
+=A0great advertising?
+Or maybe it is? Maybe the way to win back trust is to be very open about ho=
+w bad things were before? But I am not sure whether the goal of these repor=
+ts is to maximize the going-concern value of FTX=E2=80=99s business, or to =
+explain why that=E2=80=99s hard, or just to vent about the problems of prev=
+ious management.
+Anyway yesterday FTX  published another report about its prior incompetence=
+ =E2=80=94=C2=A0=E2=80=9CFTX Debtors Release Report on FTX Group's Control =
+Failures=E2=80=9D =E2=80=94=C2=A0and it is wild reading.
+  [1]
+=C2=A0A lot of it is=C2=A0elaboration on stuff we already knew (in part bec=
+ause Ray has   published previous reports about it): FTX was bad at keeping=
+ track of its accounts, it was bad at keeping control of its crypto, it han=
+ded over lots of money to insiders in unexplained and poorly documented way=
+s, and it let Alameda Research, Bankman-Fried=E2=80=99s trading firm, take =
+a ton of risks with customer money in a way that   ultimately bankrupted FT=
+X.
+Still there are new anecdotes that I cannot resist quoting. For instance, w=
+e knew that FTX=E2=80=99s accounting was bad, but here=E2=80=99s Bankman-Fr=
+ied making that point himself:
+
+In an internal communication, Bankman-Fried described Alameda as =E2=80=9Ch=
+ilariously beyond any threshold of any auditor being able to even get parti=
+ally through an audit,=E2=80=9D adding:
+=E2=80=9CAlameda is unauditable. I don=E2=80=99t mean this in the sense of =
+=E2=80=98a major accounting firm will have reservations about auditing it=
+=E2=80=99; I mean this in the sense of =E2=80=98we are only able to ballpar=
+k what its balances are, let alone something like a comprehensive transacti=
+on history.=E2=80=99 We sometimes find $50m of assets lying around that we =
+lost track of; such is life.=E2=80=9D
+Bankman-Fried=E2=80=99s statements evidence the challenges a competent audi=
+t firm would have had to overcome to audit Alameda=E2=80=99s business.
+
+Ha ha ha. Look, if you run a financial institution, and you=C2=A0sometimes =
+finding an extra $50 million of assets lying around, you might say things l=
+ike =E2=80=9Cooh money=E2=80=9D and =E2=80=9Cthat=E2=80=99s hilarious=E2=80=
+=9D and =E2=80=9Csuch is life.=E2=80=9D Finding money feels good! But it is=
+ indicative of a deeper problem. =E2=80=9CIf I sometimes find $50 million o=
+f assets lying around that I lost track of,=E2=80=9D you might think in mor=
+e reflective=C2=A0moments, =E2=80=9Cis it possible that I will sometimes fi=
+nd $50 million of liabilities lying around that I lost track of?=E2=80=9D B=
+ecause that would be bad. In the event,   FTX was undone because, and I can=
+not emphasize this strongly enough, IT FOUND $8 BILLION OF LIABILITIES LYIN=
+G AROUND THAT IT LOST TRACK OF, whoops. Better to keep track of all the mon=
+ey!
+The report also objects to=C2=A0how FTX held on to its crypto. Like any cry=
+pto exchange, FTX was in the business of holding crypto for itself and its =
+customers, and =E2=80=9Cholding crypto=E2=80=9D means basically keeping tra=
+ck of the private keys that allow you to access your crypto. There are some=
+ best practices for this sort of thing, if you are holding a lot of crypto =
+for customers: You try to keep most of it in =E2=80=9Ccold wallets=E2=80=9D=
+ not connected to the internet, and you write down your private keys in way=
+s that are (1) more permanent and secure than Post-It notes but also (2) le=
+ss hackable than iPhone notes. FTX=E2=80=99s new management says that FTX=
+=E2=80=99s old management used mostly worst practices to hold on to custome=
+r crypto:
+
+FTX Group kept virtually all crypto assets in hot wallets, which are far mo=
+re susceptible to hacking, theft, misappropriation, and inadvertent loss th=
+an cold wallets because hot wallets are internet-connected. Prudently-opera=
+ted crypto exchanges keep the vast majority of crypto assets in cold wallet=
+s, which are not connected to the internet, and maintain in hot wallets onl=
+y the limited amount necessary for daily operation, trading, and anticipate=
+d=C2=A0customer withdrawals.=C2=A0Relatedly, prudently-operated crypto exch=
+anges implement strict processes and controls to minimize the security risk=
+s (for example, the risk of hacking, theft or loss) inherent in the transfe=
+r of crypto assets between hot and cold wallets.
+The FTX Group undoubtedly recognized how a prudent crypto exchange should o=
+perate, because when asked by third parties to describe the extent to which=
+ it used cold storage, it lied. For example, in 2019, Bankman-Fried falsely=
+ responded to a customer question on Twitter by providing assurance that =
+=E2=80=9C[we use the] standard hot wallet/cold wallet setup.=E2=80=9D
+
+A general theme in the collapse of FTX is that FTX was quite good at=C2=A0s=
+ounding like=C2=A0it was a good crypto exchange. It knew how to say the rig=
+ht things, which created the impression that it was also doing them.=C2=A0I=
+n   proposals to regulators, and in Bankman-Fried=E2=80=99s   Twitter accou=
+nt, FTX regularly seemed to be thoughtful about managing the risks of a lev=
+eraged crypto futures exchange. FTX=E2=80=99s executives clearly=C2=A0thoug=
+ht about the right issues =E2=80=94=C2=A0liquidation of losing positions, h=
+ot wallet/cold wallet crypto storage =E2=80=94=C2=A0and so it was natural t=
+o assume that they=C2=A0did=C2=A0something about them. Turns out, nope!
+Also:
+
+The Debtors identified private keys to over $100 million in Ethereum assets=
+ stored in plain text and without encryption on an FTX Group server.
+The Debtors identified private keys, as well as credentials to third-party =
+exchanges, that enabled access to tens of millions of dollars in crypto ass=
+ets that were stored in plain text and without encryption across multiple s=
+ervers from which they could be accessed by many other servers and users in=
+ many locations.
+Single-signature-based private keys to billions of dollars in crypto assets=
+ were stored in AWS Secrets Manager (a cloud-based tool used to manage sens=
+itive information), and/or a password vault (a tool for secure storage of p=
+asswords), neither of which is designed to meet the needs of secure-key sto=
+rage; any of the many FTX Group employees who had access to AWS Secrets Man=
+ager or the password vault could access certain of the keys and unilaterall=
+y transfer the corresponding assets.
+
+I don=E2=80=99t know, is storing your secret passwords in Amazon=E2=80=99s =
+Secrets Manager a=C2=A0good practice or a bad one? I could see arguments ei=
+ther way. Also here=E2=80=99s this:
+Alameda also lacked appropriate documentation as to the description or usag=
+e of private keys. For example, a key for $600 million dollars=E2=80=99 wor=
+th of crypto assets was titled with four non-descriptive words, and stored =
+with no information about what the key was for, or who might have relevant =
+information about it. The Debtors identified other keys to millions of doll=
+ars in crypto assets that were simply titled =E2=80=9Cuse this=E2=80=9D or =
+=E2=80=9Cdo not use,=E2=80=9D with no further context.
+Incredibly relatable. Who among us has not saved our most precious data in =
+a file titled =E2=80=9Cuse this one=E2=80=9D? This works, I guess, imperfec=
+tly, if your company is basically a half-dozen friends in a suite in the Ba=
+hamas. But it=E2=80=99s not best practices, and in particular, if the frien=
+ds who run the company all get kicked out for incompetence and criminality =
+and angry professionals come in to clean up the mess, they will be very ann=
+oyed to find all the crypto stored like this.=C2=A0
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      He liked the bonds
+   =20
+ =20
+
+One fun little financial story=C2=A0of 2017 and 2018 involved the bonds of =
+American Media Inc., the publisher of the National Enquirer.=C2=A0AMI was m=
+ajority-owned by a hedge fund firm named=C2=A0Chatham Asset Management LLC.=
+ It had some bonds outstanding. Those bonds did not trade much, but they tr=
+aded some, and they kept trading at higher and higher prices. By November 2=
+017, some AMI bonds were trading at lower yields than the bonds of Apple In=
+c.
+  [2]
+=C2=A0I am sure AMI is a fine tabloid publisher but it is not Apple, and it=
+s bond prices were perplexing. Also in 2018 AMI tried to raise some more mo=
+ney  by selling more bonds, and it eventually sold them at a 10.5% interest=
+ rate, which was much higher than the trading yield of its existing bonds. =
+To the naked eye,=C2=A0AMI looked like a small, high-yield newspaper publis=
+her, and when it sold new bonds the prices reflected that. But its=C2=A0old=
+=C2=A0bonds traded in the secondary market at prices that made it look more=
+ creditworthy than Apple. What gives?
+Everyone kind of knew the answer, which is that the AMI bonds didn=E2=80=99=
+t trade that much, and they seemed to trade mostly within Chatham:Chatham, =
+the majority equity owner of AMI=E2=80=99s stock, also owned most of its bo=
+nds, and sometimes Chatham would sell the bonds to itself at ever-increasin=
+g prices. This didn=E2=80=99t cost Chatham much =E2=80=94=C2=A0it was basic=
+ally just overpaying itself =E2=80=94=C2=A0and made AMI=E2=80=99s credit lo=
+ok good. But of course when AMI wanted to raise money by selling more bonds=
+, Chatham was not going to buy those bonds at a 2% interest rate; it wanted=
+ a regular interest rate, like 10.5%.=C2=A0
+This is not particularly legal, and last week Chatham and its founder Antho=
+ny Melchiorre=C2=A0settled with the US Securities and Exchange Commission, =
+agreeing to  pay $19 million for doing this. Why=C2=A0did Chatham do this? =
+The story that  the SEC tells is basically that Chatham liked the bonds a l=
+ot and didn=E2=80=99t want to let them go. Chatham ran a bunch of different=
+ accounts =E2=80=94=C2=A0some hedge funds, some liquid alternatives funds =
+=E2=80=94=C2=A0and held large AMI bond positions=C2=A0in all of them. Somet=
+imes some accounts would need to sell AMI bonds: They had concentration lim=
+its that meant they couldn=E2=80=99t have too much of their money in AMI bo=
+nds, or customers took money out and Chatham needed to sell bonds to pay th=
+em. When this happened, Chatham did not want to let the bonds go, so it sol=
+d them to other Chatham=C2=A0accounts so they could stay in the family.  Th=
+e SEC says:
+Generally, when Chatham was forced to sell a high conviction AMI Bond in th=
+ese circumstances, Chatham desired to purchase the AMI Bond for another Cli=
+ent because Chatham still believed in the merits of the investment and woul=
+d not otherwise be selling the AMI Bonds if it were not for the portfolio r=
+estrictions or cash needs of the selling Clients.
+As a general matter, selling bonds to yourself=C2=A0is allowed, but awkward=
+: If you really believe in some bonds but have to sell them from one accoun=
+t, and you want to buy them in another account, you are not=C2=A0forbidden=
+=C2=A0from doing so, but there are lots of ways for it to look bad. General=
+ly the ways for it to look bad are (1) you overpay for the bonds, making mo=
+ney for the selling account at the expense of the buying account (and causi=
+ng the reported trading price of the bonds to be wrong) or=C2=A0(2) you und=
+erpay for the bonds, making money for the buying=C2=A0account at the expens=
+e of the selling account=C2=A0(and causing the reported trading price of th=
+e bonds to be wrong). The solution is generally to sell yourself the bonds =
+at a=C2=A0fair market price, neither underpaying nor overpaying. Broadly sp=
+eaking two ways to do that are:
+=09Sell the bonds into the market at market prices, and then buy them back =
+a bit later from the market at market prices: You don=E2=80=99t trade with =
+yourself at all, but only with arm=E2=80=99s-length counterparties; or=09Fi=
+gure out a fair market price using outside sources (trading pries, pricing =
+services, quotes from dealers, etc.) and sell the bonds to yourself at that=
+ price.=C2=A0
+
+The first option is probably better, but it requires an active market; if y=
+ou=E2=80=99re the only real buyer or seller of the bonds it=E2=80=99s hard.=
+=C2=A0
+Anyway Chatham sort of =E2=80=A6=C2=A0waved in the direction of doing this =
+the right way?
+Recognizing that there were legal restrictions on trading between RICs
+  [3]
+=C2=A0and their affiliates, which included other Chatham Clients, Chatham a=
+nd Melchiorre sought advice from a compliance consultant on how to facilita=
+te the Rebalancing Trades. The consultant advised Chatham to conduct the tr=
+ading either through a single broker over more than one day or through mult=
+iple brokers if on the same day. The foundational principle underlying the =
+advice was to ensure that the transactions occurred at independently-derive=
+d market prices.=C2=A0
+Yeah I mean that=E2=80=99s good generic advice, but when you are the market=
+ for the bonds it doesn=E2=80=99t work out great. Also Chatham did not nece=
+ssarily go all in on the=C2=A0spirit=C2=A0of that advice:
+
+Around the time that Chatham began to execute the Rebalancing Trades, Melch=
+iorre generally explained the purpose of the Rebalancing Trades to the Reba=
+lancing Brokers. Melchiorre informed each of the Rebalancing Brokers to who=
+m he sold a Client=E2=80=99s AMI Bonds that he likely would have an interes=
+t in repurchasing that same AMI Bond he was selling for another Client. Ove=
+r time, an understanding developed on the part of the Rebalancing Brokers t=
+hat whenever Melchiorre placed an order to sell one of the AMI Bonds for a =
+Client, he would repurchase it for another Client, either directly the foll=
+owing day or days, or indirectly through another broker.
+The Rebalancing Brokers engaged in the Rebalancing Trades because they expe=
+cted Melchiorre to repurchase the bonds. The business model of several of t=
+he Rebalancing Brokers was to =E2=80=9Cmatch=E2=80=9D buy and sell orders f=
+rom their customers. Those Rebalancing Brokers ordinarily did not purchase =
+securities for their own inventory=E2=80=94i.e., put the firm=E2=80=99s own=
+ capital at risk=E2=80=94or they did so on a very limited basis. Nonetheles=
+s, the vast majority of the Rebalancing Trades involved at least one Rebala=
+ncing Broker that purchased bonds into its firm=E2=80=99s inventory. For ex=
+ample, some of the Rebalancing Brokers would at times agree to purchase sec=
+urities from Chatham even though the Rebalancing Broker may not have lined =
+up the other leg of the transaction. These brokers=E2=80=99 willingness to =
+do so was based on their expectation that Chatham would repurchase the bond=
+s, either directly or through another broker.
+The purchasing Rebalancing Brokers generally did not offer the AMI Bonds to=
+ other customers in the market. Instead, in virtually every case, they reso=
+ld the securities to Chatham or to another broker who they understood was p=
+urchasing for Chatham.
+As Chatham=E2=80=99s need to conduct rebalancing in its various Client Acco=
+unts increased over time, Rebalancing Trades became routine. When Melchiorr=
+e wanted to sell an AMI Bond to one particular Rebalancing Broker (=E2=80=
+=9CRebalancing Broker A=E2=80=9D) and then repurchase it the following day,=
+ he would send Rebalancing Broker A a message indicating that he wanted to =
+sell an AMI Bond in the =E2=80=9Cusual drill.=E2=80=9D Rebalancing Broker A=
+ then would purchase the AMI Bond into the firm=E2=80=99s inventory until M=
+elchiorre repurchased it the following day.
+
+In the abstract, selling bonds to a broker one day and then buying them bac=
+k for a different account a day or two later could be a good way to do ever=
+ything at arm=E2=80=99s-length market prices: The broker will pay, and char=
+ge, prices that reflect market levels; it won=E2=80=99t overpay to buy from=
+ you or undercharge to sell to you.
+But in practice, if you are the only buyer and the only seller and you call=
+ up a broker and say =E2=80=9Chey it=E2=80=99s the usual drill,=E2=80=9D yo=
+u are not really getting a fair market price. The broker doesn=E2=80=99t ca=
+re what the buying price or selling price is, as long as you pay=C2=A0a com=
+mission. You can just pick whatever price you want:
+
+Melchiorre proposed the price for the Rebalancing Trades and the Rebalancin=
+g Brokers agreed to it without first soliciting bids from other market part=
+icipants.
+When proposing a price for Rebalancing Trades, Melchiorre considered a numb=
+er of factors, which included the prior day=E2=80=99s price as reflected in=
+ prices published by a pricing service. Those published prices would have b=
+een influenced, to some extent, by Chatham=E2=80=99s own trading. When purc=
+hasing the AMI Bonds, Melchiorre also added a spread to compensate the Reba=
+lancing Brokers. For example, in the case of a Rebalancing Trade executed t=
+hrough a single Rebalancing Broker overnight, Chatham would repurchase the =
+AMI Bonds for a small spread above what it had sold the AMI Bonds to the br=
+oker the day before.
+
+One consequence of this is that the compliance consultant=E2=80=99s basic i=
+dea of selling to brokers to get market prices was not really working. Anot=
+her consequence is that the prices kept going=C2=A0up:=C2=A0The only trades=
+ were Chatham=E2=80=99s trades, and it kept trading at=C2=A0higher prices t=
+o compensate its brokers. Eventually this became absurd:
+
+Over the Relevant Period, Chatham and Melchiorre engaged in over one hundre=
+d Rebalancing Trades in AMI Bonds, accounting for approximately 81 percent,=
+ on average, of the customer trading (i.e., not broker-to-broker trading) i=
+n such securities.
+Over time, the frequent Rebalancing Trades and repeated mark-ups to compens=
+ate the Rebalancing Brokers resulted in the market price of AMI Bonds incre=
+asing at a faster rate than prices of similar securities. For example, by N=
+ovember 2017, two of the AMI Bonds traded in Rebalancing Trades at implied =
+yields lower than the prevailing London Interbank Offered Rate (=E2=80=9CLI=
+BOR=E2=80=9D). Such yields ordinarily would have been associated with a bon=
+d of a much higher creditworthiness than the AMI Bonds.
+
+A third consequence is that Chatham=E2=80=99s assets under management kept =
+going up: It charged clients fees based on the value of its assets, and as =
+it kept increasing the prices of these bonds, that value kept going up. The=
+ SEC says:
+
+Chatham was compensated for its advisory services to the [hedge] Funds with=
+ a management fee and a performance fee, and to the [liquid alts funds]=C2=
+=A0with a management fee. The management fee charged to certain Clients was=
+ set at a percentage of the [net asset value]=C2=A0of those Clients.
+In order to calculate each Fund=E2=80=99s NAV, Chatham used an independent =
+pricing service to determine the value of each of the portfolio securities,=
+ including the AMI Bonds. The LAF administrators calculated their own NAVs,=
+ also using the same pricing service Chatham used.
+Chatham and Melchiorre understood that the pricing service that Chatham and=
+ the LAF administrators utilized was based to some extent on recent trading=
+ prices and that the Rebalancing Trades accounted for virtually all of the =
+trading in the Bonds during the Relevant Period. Because the Rebalancing Tr=
+ades at times increased the prices of the AMI Bonds, the NAVs of the Client=
+ accounts also were increased by that amount on those occasions.
+Accordingly, the Clients paid Chatham an estimated $11,000,000 in performan=
+ce and/or management fees that they would not have in the absence of Chatha=
+m=E2=80=99s Rebalancing Trades. Chatham in turn paid approximately 55 perce=
+nt of such fees to Melchiorre.
+
+Part of the $19 million settlement is paying back that $11 million to inves=
+tors. But the SEC doesn=E2=80=99t quite say that this is=C2=A0why Chatham d=
+id this. You could argue that this sort of thing =E2=80=94=C2=A0trading bon=
+ds back and forth with yourself in a way that raises their prices =E2=80=94=
+=C2=A0is market manipulation, that the goal was to raise prices to charge h=
+igher fees. But the SEC doesn=E2=80=99t say that: It says, more or less in =
+so many words, that the reason for the trading is that Chatham really liked=
+ the bonds, that it =E2=80=9Cstill believed in the merits of the investment=
+=E2=80=9D even when it had to sell them, so it kept buying them back. The h=
+igher prices and higher fees were just a happy byproduct.
+
+ =20
+   =20
+      APE Endgame
+   =20
+ =20
+
+You know the story. AMC Entertainment Holdings Inc. became a meme stock, so=
+ it sensibly sold a ton of stock to raise money and pay down debt. Eventual=
+ly it   ran out of stock to sell: Its corporate charter authorizes about 52=
+4 million shares of common stock, and it has sold basically all of them. Sh=
+areholders did not seem interested in amending the charter to authorize mor=
+e shares, because they were worried about dilution and/or because they are =
+retail investors who tend not to vote their shares at all. The way it works=
+ is that a majority of the=C2=A0outstanding shares=C2=A0need to approve the=
+ charter amendment to issue new shares, so not voting is the same as voting=
+ no.
+But AMC=E2=80=99s charter also allows the board to issue =E2=80=9Cblank-che=
+ck=E2=80=9D preferred stock, that is, preferred stock with any terms the bo=
+ard wants. So AMC   started issuing a new type of preferred=C2=A0stock call=
+ed APEs, AMC Preferred Equity Units, which are meant to be identical to the=
+ common stock: They have the same economic rights, same voting rights, etc.=
+ AMC did a quasi-stock-split in which shareholders got one APE for each com=
+mon share they held, and then it started selling new APEs to raise more mon=
+ey.
+Part of the plan here was just to sell APEs to raise money, but another   p=
+art of the plan was to   get the APEs to vote to amend the charter to allow=
+ AMC to issue more common shares. If that happens, the APEs will all be con=
+verted into common shares; since now the APEs trade at a discount to the co=
+mmon, this will be good for the APEs (and presumably bad for the common sto=
+ck). Because (1) there are more APEs than common shares, (2) the APEs and c=
+ommon shares all vote together on all issues, including whether to amend th=
+e charter,=C2=A0(3) the APEs are more likely to be held by professional inv=
+estors who actually vote, (4) voting to authorize more shares is strictly g=
+ood for the APEs and (5) the APEs have   a clever voting mechanism where a =
+trustee votes them even if their actual holders forget to vote, so that not=
+ voting is=C2=A0not=C2=A0like voting no=C2=A0=E2=80=94=C2=A0AMC figured tha=
+t if it held another vote to authorize more shares, the proposal would pass=
+ with the APEs=E2=80=99 support.
+And so AMC scheduled that vote, and   some holders of common shares sued, a=
+rguing that this is all an obvious way to disenfranchise actual shareholder=
+s. And AMC=E2=80=99s basic argument is, no, this is a way to=C2=A0enfranchi=
+se=C2=A0shareholders; the problem is that most retail shareholders just don=
+=E2=80=99t vote one way or another, so it=E2=80=99s impossible to get anyth=
+ing done, even things that most shareholders actually want. After the share=
+holders sued,   AMC agreed to a =E2=80=9Cstatus quo order=E2=80=9D banning =
+it from=C2=A0amending the charter, issuing=C2=A0new shares or converting th=
+e APEs until after a hearing in Delaware Chancery Court=C2=A0on April 27 =
+=E2=80=94=C2=A0but meanwhile AMC could=C2=A0hold the vote, basically to see=
+ what shareholders actually want.=C2=A0
+It held the vote last month, and   AMC, let us say, won. As a technical mat=
+ter, AMC got plenty of votes to amend the charter, issue new shares and con=
+vert the APEs: A majority of the APEs voted yes, and when you throw in the =
+clever trustee=C2=A0voting mechanism you get 91% of the APEs voting yes, al=
+ong with 25.5% of the common stock, making up a=C2=A0majority of the total =
+voting shares. And as a=C2=A0moral and equitable matter, the important thin=
+g is that 25.5% of the common shares voted yes and only 9.1% voted no: Most=
+ common shares didn=E2=80=99t vote, but almost three-quarters of those that=
+ did=C2=A0voted to convert the APEs.
+Where does that leave us? Well, in kind of a weird place:
+=09It seems clearly good for AMC to authorize more shares, convert the APEs=
+, and go back to being a normal company with normal common stock (and a lot=
+ of it to sell). Also it seems reasonably=C2=A0clear=C2=A0that this is what=
+ AMC=E2=80=99s shareholders =E2=80=94=C2=A0its APE holders, certainly, but =
+also most of its common shareholders =E2=80=94=C2=A0want. This is not free =
+from doubt =E2=80=94=C2=A0most of the common shareholders didn=E2=80=99t vo=
+te at all =E2=80=94=C2=A0but judging by the actual votes, it seems true.=09=
+Therefore it would be kind of=C2=A0bad=C2=A0for the court to declare the AP=
+E structure illegal: It=E2=80=99s a mess, it=E2=80=99s hard to undo, and AM=
+C would sort of be stuck with it forever, as it seems hopeless to get the c=
+ommon shareholders to vote for anything.=09On the other hand, it would be k=
+ind of bad for the court to declare the APE structure=C2=A0legal:=C2=A0It=
+=C2=A0is=C2=A0a way for AMC to get around the legal requirement that a majo=
+rity of its shares vote to approve new shares, and if you allow this stuff =
+it is a potential slippery slope to other, possibly worse uses of blank-che=
+ck stock. The Delaware court is not going to want to set a precedent like =
+=E2=80=9Cif the board of directors of a company doesn=E2=80=99t like the wa=
+y its shareholders vote, they can mess with the voting mechanics until the =
+vote comes out the way they like.=E2=80=9D The APEs are not quite that, but=
+ they=E2=80=99re not quite not that either.
+
+So the obvious good outcome here is an out-of-court settlement in which (1)=
+ AMC gets to convert the APEs into common stock, (2) the aggrieved=C2=A0com=
+mon shareholders get a little something to make them feel better, and (3) t=
+he court doesn=E2=80=99t have to rule one way or another on whether this is=
+ all legal.=C2=A0
+And so last week AMC  announced a settlement that would do that: The lawsui=
+t would go away, the charter would be amended, the APEs would be converted,=
+ and the aggrieved common shareholders would get an extra share of common s=
+tock for every 7.5 shares they currently hold.
+  [4]
+ The result of this is effectively to have the APEs convert into common sto=
+ck but at slightly less than a one-for-one conversion rate: Each APE become=
+s one share of common stock, but each share of old common stock becomes 1.1=
+3 shares.
+  [5]
+ The APEs effectively convert at about a 12% discount to the common. The av=
+erage price of the APEs over the last four weeks was $1.48; the average pri=
+ce of the common stock was $4.60.
+  [6]
+=C2=A0So a 12% discount is much=C2=A0tighter than the market discount, thou=
+gh also much wider than the identical economic rights that APE holders were=
+ originally promised.
+And then AMC and the suing shareholders went to the Delaware judge and aske=
+d her lift the =E2=80=9Cstatus quo order=E2=80=9D=C2=A0and let this all hap=
+pen, and on Wednesday  she said no. I suppose she will wait for a hearing t=
+o decide whether to approve the settlement.=C2=A0There are clearly some awk=
+ward elements here:
+=09If the APEs were illegal, then that=E2=80=99s bad, and I guess she shoul=
+d stop them?=09If the APEs were legal, then converting them at less than a =
+one-for-one ratio to the common stock seems a little bad. (Would the APEs h=
+ave voted overwhelmingly to convert last month, if they had known that the =
+common shareholders would get some extra stock? The answer is yes, of cours=
+e, but still it feels weird.)
+
+To me those awkward elements are a good reason for the court to=C2=A0want=
+=C2=A0a settlement =E2=80=94=C2=A0let AMC and its shareholders work this ou=
+t and don=E2=80=99t get too involved =E2=80=94=C2=A0but I guess once the co=
+urt is involved this much she has to make sure that what she=E2=80=99s sign=
+ing off on is legal.
+
+ =20
+   =20
+      Black swans
+   =20
+ =20
+
+The basic idea of a =E2=80=9Cblack swan fund=E2=80=9D is that you have $100=
+ invested in normal assets somewhere else, and you pay the black swan fund =
+like $1 a year for insurance. In a normal year, your normal assets go up 15=
+% or whatever and you make $15, and your black-swan premium is just an expe=
+nse; you lose the dollar, for a net return of 14%. And in a catastrophic ye=
+ar, your normal assets go down 20% or whatever and you lose $20, but your b=
+lack-swan insurance pays out and you get back $20, for a net return of 0%, =
+which is pretty good.
+What is the performance of the black swan fund in the normal year? Well, ne=
+gative 100%, give or take. (These are stylized schematic numbers, don=E2=80=
+=99t take them too seriously.) But the black-swan manager doesn=E2=80=99t t=
+hink of it that way, and you probably shouldn=E2=80=99t either. Instead the=
+ argument is something like: =E2=80=9CIf you didn=E2=80=99t have this black=
+-swan insurance, you=E2=80=99d have to invest much more conservatively, kee=
+p more assets in cash, etc., so your return on your $100 of normal assets w=
+ould only be like 8%. But the insurance gives you the confidence to invest =
+more aggressively, so you made 15% on your normal assets, though you paid 1=
+% for that insurance. So really the black swan fund added 6% to your overal=
+l return.=E2=80=9D
+Fine. What is the performance of the black swan fund in the catastrophic ye=
+ar? Oh ha it is absolutely +1,900%, come on, it made $19 on $1 of premium. =
+Bloomberg=E2=80=99s Justina Lee reported last week on   the returns at Mark=
+ Spitznagel=E2=80=99s Universa Investments:
+
+Sure, all hedge funds like to put a positive spin on performance, and that=
+=E2=80=99s well understood by their sophisticated clientele. But critics li=
+ke Saba Capital Management founder Boaz Weinstein and Citadel=E2=80=99s for=
+mer global head of fixed income, Derek Kaufman, say Miami-based Universa go=
+es a step too far, cherry-picking data to burnish results. ...
+The latest spat broke out on Twitter in the wake of Spitznagel=E2=80=99s Ja=
+nuary missive to clients. As he touted the virtues of Universa=E2=80=99s st=
+yle of hedging, he claimed a small allocation to the money manager equated =
+to an =E2=80=9Cannuity paying 114% a year.=E2=80=9D
+Considering that when Covid hit in March 2020, the firm said it returned 3,=
+612% in a single month, that didn=E2=80=99t seem like much. But it appears =
+to have been a final straw for naysayers such as Weinstein and Kaufman.
+=E2=80=9CNone of what they are saying makes sense,=E2=80=9D tweeted Kaufman=
+, while Weinstein =E2=80=94 who runs his own tail-hedge strategy in the cre=
+dit realm =E2=80=94 called the firm out for the way it calculates its figur=
+es. =E2=80=9CName another hedge fund or tail hedge fund that talks in retur=
+ns on premia spent over some interval instead of return on assets,=E2=80=9D=
+ he tweeted. ...
+=E2=80=9CWhile we cannot comment on returns, Universa Founder and CIO, Mark=
+ Spitznagel=E2=80=99s recent book, Safe Haven, explains in detail that the =
+point of what Universa does is raise a portfolio=E2=80=99s rate of returns =
+as a direct consequence of lowering its systematic risk,=E2=80=9D Brandon Y=
+arckin, chief operating officer at Universa, wrote in an email. =E2=80=9CCo=
+ntrary to Modern Portfolio Theory, this is the metric that matters, and it =
+is demonstrably what we have done in Universa=E2=80=99s 15 year life to dat=
+e.=E2=80=9D =E2=80=A6
+What Universa in effect does is calculate the return on an insurance policy=
+ using only one month of premium. Conveniently ignored there is the reality=
+ that clients typically pay Universa for protection for years =E2=80=94 a p=
+rocess so painful it=E2=80=99s known as the =E2=80=9Cbleed=E2=80=9D =E2=80=
+=94 before ever cashing in. =E2=80=A6
+To compound the confusion, Universa=E2=80=99s AUM =E2=80=94 now $16.4 billi=
+on =E2=80=94 is actually defined in a regulatory filing as the =E2=80=9Camo=
+unt of equity market risk that a client seeks to protect.=E2=80=9D That mea=
+ns the assets at the firm=E2=80=99s disposal are in practice far smaller.=
+=C2=A0
+
+Universa=E2=80=99s clients have $16.4 billion of assets (somewhere else) th=
+at they protect by paying premium to Universa, and =E2=80=9Cwhat Universa d=
+oes,=E2=80=9D in the long term,=C2=A0=E2=80=9Cis raise [that $16.4 billion]=
+=C2=A0portfolio=E2=80=99s rate of returns as a direct consequence of loweri=
+ng its systematic risk.=E2=80=9D But what Universa does in any particularly=
+ disastrous month for the stock market is earn a 3,612% return on=C2=A0that=
+ month=E2=80=99s premium. Most of the time Universa leads with the first th=
+ing =E2=80=94=C2=A0lowering systemic risk =E2=80=94=C2=A0but in the months =
+where it 36x=E2=80=99s its money it leads with that.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+First Republic  Suspends Dividends on Preferred Stock. A $1.5 Trillion Wall=
+ of Debt Is Looming for   US Commercial Properties.  European commercial re=
+al estate: the cracks are starting to show. Declines in Loan Values Are Wid=
+espread Among Banks.=C2=A0Lenders  Lost $301 for Each Mortgage They Made La=
+st Year.  Deposit insurance maximization as a service. Auditors  Didn=E2=80=
+=99t Flag Risks Building Up in Banks. China=E2=80=99s financial sector rock=
+ed by expansion of  anti-corruption drive. Private Equity=E2=80=99s  Food B=
+inge Goes Sour. =E2=80=9CThe  private equity business model keeps getting d=
+emocratized.=E2=80=9D =E2=80=9CForty-six percent of consumer brand marketer=
+s say they will increase their  metaverse budgets this year, and only 12% s=
+ay they will spend less.=E2=80=9D =E2=80=9CBeing able to sense someone  mes=
+sing with a website in real-time, moving the menu items around and forgetti=
+ng to close an HTML tag here and there, is a neat feeling.=E2=80=9D Scaramu=
+cci=E2=80=99s  SkyBridge Capital Was Spiraling, and Then Came FTX. Fyre Fes=
+tival  II.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] The full report  is here (pdf), or you can find it at document 1242 o=
+n  the bankruptcy docket.
+
+
+  [2] Data on the relevant AMI bonds is a little hard to find these days =
+=E2=80=94 they matured a while ago =E2=80=94 but the SEC complaint says tha=
+t =E2=80=9Cby November 2017, two of the AMI Bonds traded in Rebalancing Tra=
+des at implied yields lower than the prevailing London Interbank Offered Ra=
+te.=E2=80=9D I don=E2=80=99t know what that means really, but 3-month US do=
+llar Libor was in the 1.5% neighborhood in November 2017, and Apple=E2=80=
+=99s 3% bond due 2024 traded at around 2.7% that month. Also I *remember* s=
+omeone showing me these bonds and noticing they traded tighter than Apple.
+
+
+  [3] =E2=80=9CRegistered investment companies,=E2=80=9D which is the SEC=
+=E2=80=99s term for mutual funds. Chatham ran a variety of funds, including=
+ hedge funds, but also including liquid alternatives funds that were regist=
+ered as mutual funds.
+
+
+  [4] There is also a 1-for-10 reverse stock split involved, so it=E2=80=99=
+s more like if you have 750 shares now you=E2=80=99ll have 75 after the rev=
+erse split, and then get an extra 10 for the settlement.
+
+
+  [5] That is, each share of old common stock gets a bonus of 1/7.5 =3D 0.1=
+333 shares. Again, there is the reverse split, so it=E2=80=99s more like 10=
+ APEs become one common share and 10 common shares becomes 1.1333 common sh=
+ares.
+
+
+  [6] Those are taken from Bloomberg=E2=80=99s HP pages (for AMC Equity and=
+ APE Equity) for 3/13/2023 through 4/06/2023.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ciizb0.5ing/b1efdaad.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_66604345_1213767921.1681150675276
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+What a weird job John Ray has. I suppose that in general, if a company hire=
+s a new chief executive officer, the new CEO will have some disag
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31118652.257452/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNDEwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA0MTAmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBe1cac661"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31118652.257452/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMTExODY1MiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEzNzYxMDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB25cca260" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D31118652&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31376104&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">FTX</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">What a weird job John Ray has. I suppose that =
+in general, if a company hires a new chief executive officer, the new CEO w=
+ill have some disagreements with the previous CEO, and some incentive to ma=
+ke a meal of those disagreements. For one thing, CEOs are generally people =
+with strong opinions. Also the new CEO was hired for a reason; quite possib=
+ly=C2=A0the old CEO did do something wrong. Also the new CEO can make himse=
+lf look better by making the old one look worse: The more you say =E2=80=9C=
+oh man the previous guy really messed everything up, what a disaster this p=
+lace is,=E2=80=9D the more credit you will get for any improvements.</p>
+<p style=3D"margin: 16px 0;">Also I mean, separately, the former CEO of FTX=
+ Trading Ltd. really did mess the place up a lot, so Ray objectively has a =
+lot to complain about.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Still it is hard to think of a CEO in recent m=
+emory who has been more focused on trashing the previous management? (<a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/31118652.257452/aHR0cHM=
+6Ly93d3cubnByLm9yZy8yMDIyLzEyLzE0LzExNDI2NjYwNjcvZWxvbi1tdXNrLWlzLXVzaW5nLX=
+RoZS10d2l0dGVyLWZpbGVzLXRvLWRpc2NyZWRpdC1mb2VzLWFuZC1wdXNoLWNvbnNwaXJhY3ktd=
+Ghlb3I/607f07ceef4b8524a319a23cB55c88dd3" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Elon Musk I guess</a>?)=
+=C2=A0Ray was hired as the CEO of FTX to put it into bankruptcy, to steer i=
+t through bankruptcy, and to maximize recovery for FTX=E2=80=99s customers =
+and other creditors, and he has spent a lot of his time publishing gleeful =
+reports about how bad everything at FTX is and how incompetent and criminal=
+ its former managers, led by former CEO Sam Bankman-Fried, were. Obviously =
+a lot of people =E2=80=94=C2=A0most notably US federal prosecutors, but als=
+o FTX=E2=80=99s customers and, you know, journalists=C2=A0=E2=80=94=C2=A0ar=
+e very interested in how incompetent and criminal those former managers wer=
+e, and the reports are quite informative and I am glad he=E2=80=99s publish=
+ing them. Still they are in a little bit of=C2=A0tension with Ray=E2=80=99s=
+=C2=A0main<em>=C2=A0</em>job of maximizing recoveries. Occasionally Ray and=
+ his team will make noises about how they might=C2=A0<a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/31118652.257452/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDEtMTkvZnR4LWlzLXBsYW5uaW5nLWEtY29=
+tZWJhY2s_Y21waWQ9QkJEMDQxMDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc2=
+91cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNDEwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/=
+607f07ceef4b8524a319a23cBac29762d" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">restart FTX=E2=80=99s business</=
+a>=C2=A0to earn money to pay off creditors, and then they=E2=80=99ll put ou=
+t a report with a title like =E2=80=9CFTX Debtors Discover That FTX Was the=
+ Worst Company in the History of Companies,=E2=80=9D and that doesn=E2=80=
+=99t feel like=C2=A0great advertising?</p>
+<p style=3D"margin: 16px 0;">Or maybe it is? Maybe the way to win back trus=
+t is to be very open about how bad things were before? But I am not sure wh=
+ether the goal of these reports is to maximize the going-concern value of F=
+TX=E2=80=99s business, or to explain why that=E2=80=99s hard, or just to ve=
+nt about the problems of previous management.</p>
+<p style=3D"margin: 16px 0;">Anyway yesterday FTX <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/31118652.257452/aHR0cHM6Ly93d3cucHJuZXdzd2l=
+yZS5jb20vbmV3cy1yZWxlYXNlcy9mdHgtZGVidG9ycy1yZWxlYXNlLXJlcG9ydC1vbi1mdHgtZ3=
+JvdXBzLWNvbnRyb2wtZmFpbHVyZXMtMzAxNzkyODkxLmh0bWw/607f07ceef4b8524a319a23cB=
+fc0e0cb1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> published another report</a> about its prior incompetenc=
+e =E2=80=94=C2=A0=E2=80=9CFTX Debtors Release Report on FTX Group's Control=
+ Failures=E2=80=9D =E2=80=94=C2=A0and it is wild reading.<a class=3D"footno=
+te-index" href=3D"#footnote-1" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: none !important; background-color: transparent !important;=
+ display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0A lot of it is=C2=A0elaboration on stuff we already knew (in part=
+ because Ray has <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+1118652.257452/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIw=
+MjItMTEtMTcvbWF0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1mdHgtd2FzLW5vdC12ZXJ5LWNhcmV=
+mdWw_Y21waWQ9QkJEMDQxMDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNDEwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB68d9aec5" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  published previous reports about i=
+t</a>): FTX was bad at keeping track of its accounts, it was bad at keeping=
+ control of its crypto, it handed over lots of money to insiders in unexpla=
+ined and poorly documented ways, and it let Alameda Research, Bankman-Fried=
+=E2=80=99s trading firm, take a ton of risks with customer money in a way t=
+hat <a href=3D"https://link.mail.bloombergbusiness.com/click/31118652.25745=
+2/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTItMTMva=
+G93LXRvLWRvLWZyYXVkLWF0LWEtZnV0dXJlcy1leGNoYW5nZT9jbXBpZD1CQkQwNDEwMjNfTU9O=
+RVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0=
+yMzA0MTAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBec653b0e"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">  ultimately bankrupted FTX</a>.</p>
+<p style=3D"margin: 16px 0;">Still there are new anecdotes that I cannot re=
+sist quoting. For instance, we knew that FTX=E2=80=99s accounting was bad, =
+but here=E2=80=99s Bankman-Fried making that point himself:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In an internal communication, Bankman-Fried de=
+scribed Alameda as =E2=80=9Chilariously beyond any threshold of any auditor=
+ being able to even get partially through an audit,=E2=80=9D adding:</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CAlameda is unauditable. I don=E2=80=
+=99t mean this in the sense of =E2=80=98a major accounting firm will have r=
+eservations about auditing it=E2=80=99; I mean this in the sense of =E2=80=
+=98we are only able to ballpark what its balances are, let alone something =
+like a comprehensive transaction history.=E2=80=99 We sometimes find $50m o=
+f assets lying around that we lost track of; such is life.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Bankman-Fried=E2=80=99s statements evidence th=
+e challenges a competent audit firm would have had to overcome to audit Ala=
+meda=E2=80=99s business.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Ha ha ha. Look, if you run a financial institu=
+tion, and you=C2=A0sometimes finding an extra $50 million of assets lying a=
+round, you might say things like =E2=80=9Cooh money=E2=80=9D and =E2=80=9Ct=
+hat=E2=80=99s hilarious=E2=80=9D and =E2=80=9Csuch is life.=E2=80=9D Findin=
+g money feels good! But it is indicative of a deeper problem. =E2=80=9CIf I=
+ sometimes find $50 million of assets lying around that I lost track of,=E2=
+=80=9D you might think in more reflective=C2=A0moments, =E2=80=9Cis it poss=
+ible that I will sometimes find $50 million of<em> liabilities</em> lying a=
+round that I lost track of?=E2=80=9D Because that would be bad. In the even=
+t, <a href=3D"https://link.mail.bloombergbusiness.com/click/31118652.257452=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMTQvZn=
+R4LXMtYmFsYW5jZS1zaGVldC13YXMtYmFkP2NtcGlkPUJCRDA0MTAyM19NT05FWVNUVUZGJnV0b=
+V9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDQxMCZ1dG1f=
+Y2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB0ac1af08" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">  FTX=
+ was undone because</a>, and I cannot emphasize this strongly enough, IT FO=
+UND $8 BILLION OF LIABILITIES LYING AROUND THAT IT LOST TRACK OF, whoops. B=
+etter to keep track of all the money!</p>
+<p style=3D"margin: 16px 0;">The report also objects to=C2=A0how FTX held o=
+n to its crypto. Like any crypto exchange, FTX was in the business of holdi=
+ng crypto for itself and its customers, and =E2=80=9Cholding crypto=E2=80=
+=9D means basically keeping track of the private keys that allow you to acc=
+ess your crypto. There are some best practices for this sort of thing, if y=
+ou are holding a lot of crypto for customers: You try to keep most of it in=
+ =E2=80=9Ccold wallets=E2=80=9D not connected to the internet, and you writ=
+e down your private keys in ways that are (1) more permanent and secure tha=
+n Post-It notes but also (2) less hackable than iPhone notes. FTX=E2=80=99s=
+ new management says that FTX=E2=80=99s old management used mostly worst pr=
+actices to hold on to customer crypto:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">FTX Group kept virtually all crypto assets in =
+hot wallets, which are far more susceptible to hacking, theft, misappropria=
+tion, and inadvertent loss than cold wallets because hot wallets are intern=
+et-connected. Prudently-operated crypto exchanges keep the vast majority of=
+ crypto assets in cold wallets, which are not connected to the internet, an=
+d maintain in hot wallets only the limited amount necessary for daily opera=
+tion, trading, and anticipated=C2=A0customer withdrawals.=C2=A0Relatedly, p=
+rudently-operated crypto exchanges implement strict processes and controls =
+to minimize the security risks (for example, the risk of hacking, theft or =
+loss) inherent in the transfer of crypto assets between hot and cold wallet=
+s.</p>
+<p style=3D"margin: 16px 0;">The FTX Group undoubtedly recognized how a pru=
+dent crypto exchange should operate, because when asked by third parties to=
+ describe the extent to which it used cold storage, it lied. For example, i=
+n 2019, Bankman-Fried falsely responded to a customer question on Twitter b=
+y providing assurance that =E2=80=9C[we use the] standard hot wallet/cold w=
+allet setup.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">A general theme in the collapse of FTX is that=
+ FTX was quite good at=C2=A0<em>sounding like=C2=A0</em>it was a good crypt=
+o exchange. It knew how to say the right things, which created the impressi=
+on that it was also doing them.=C2=A0In <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/31118652.257452/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjItMTItMDEvc2JmLW1pc3NlZC1mdHgtcy1yaXNrcz9jbXBpZD1C=
+QkQwNDEwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHR=
+lciZ1dG1fdGVybT0yMzA0MTAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a3=
+19a23cB3903eccc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">  proposals to regulators</a>, and in Bankman-Frie=
+d=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/311186=
+52.257452/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItM=
+TItMDYveW91LWNhbi10LXRlbGwtYW5hbHlzdHMtdG9vLW11Y2g_Y21waWQ9QkJEMDQxMDIzX01P=
+TkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm0=
+9MjMwNDEwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB20a225af=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">  Twitter account</a>, FTX regularly seemed to be thoughtful abou=
+t managing the risks of a leveraged crypto futures exchange. FTX=E2=80=99s =
+executives clearly=C2=A0<em>thought</em> about the right issues =E2=80=94=
+=C2=A0liquidation of losing positions, hot wallet/cold wallet crypto storag=
+e =E2=80=94=C2=A0and so it was natural to assume that they=C2=A0<em>did=C2=
+=A0</em>something about them. Turns out, nope!</p>
+<p style=3D"margin: 16px 0;">Also:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Debtors identified private keys to over $1=
+00 million in Ethereum assets stored in plain text and without encryption o=
+n an FTX Group server.</p>
+<p style=3D"margin: 16px 0;">The Debtors identified private keys, as well a=
+s credentials to third-party exchanges, that enabled access to tens of mill=
+ions of dollars in crypto assets that were stored in plain text and without=
+ encryption across multiple servers from which they could be accessed by ma=
+ny other servers and users in many locations.</p>
+<p style=3D"margin: 16px 0;">Single-signature-based private keys to billion=
+s of dollars in crypto assets were stored in AWS Secrets Manager (a cloud-b=
+ased tool used to manage sensitive information), and/or a password vault (a=
+ tool for secure storage of passwords), neither of which is designed to mee=
+t the needs of secure-key storage; any of the many FTX Group employees who =
+had access to AWS Secrets Manager or the password vault could access certai=
+n of the keys and unilaterally transfer the corresponding assets.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t know, is storing your secret p=
+asswords in Amazon=E2=80=99s Secrets Manager a=C2=A0good practice or a bad =
+one? I could see arguments either way. Also here=E2=80=99s this:</p>
+<blockquote><p style=3D"margin: 16px 0;">Alameda also lacked appropriate do=
+cumentation as to the description or usage of private keys. For example, a =
+key for $600 million dollars=E2=80=99 worth of crypto assets was titled wit=
+h four non-descriptive words, and stored with no information about what the=
+ key was for, or who might have relevant information about it. The Debtors =
+identified other keys to millions of dollars in crypto assets that were sim=
+ply titled =E2=80=9Cuse this=E2=80=9D or =E2=80=9Cdo not use,=E2=80=9D with=
+ no further context.</p></blockquote>
+<p style=3D"margin: 16px 0;">Incredibly relatable. Who among us has not sav=
+ed our most precious data in a file titled =E2=80=9Cuse this one=E2=80=9D? =
+This works, I guess, imperfectly, if your company is basically a half-dozen=
+ friends in a suite in the Bahamas. But it=E2=80=99s not best practices, an=
+d in particular, if the friends who run the company all get kicked out for =
+incompetence and criminality and angry professionals come in to clean up th=
+e mess, they will be very annoyed to find all the crypto stored like this.=
+=C2=A0</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31118652.257452/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTExODY1MiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEzNzYxMDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCb04994e2" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31118652&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31376104&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31118652.257452/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTExODY1MiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzEzNzYxMDQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDb04994e2" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31118652&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31376104&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">He liked the bonds</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One fun little financial story=C2=A0of 2017 an=
+d 2018 involved the bonds of American Media Inc., the publisher of the Nati=
+onal Enquirer.=C2=A0AMI was majority-owned by a hedge fund firm named=C2=A0=
+Chatham Asset Management LLC. It had some bonds outstanding. Those bonds di=
+d not trade much, but they traded some, and they kept trading at higher and=
+ higher prices. By November 2017, some AMI bonds were trading at lower yiel=
+ds than the bonds of Apple Inc.<a class=3D"footnote-index" href=3D"#footnot=
+e-2" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: none !imp=
+ortant; background-color: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0I am sure AMI is a fine tabloid publisher but it is not Apple, an=
+d its bond prices were perplexing. Also in 2018 AMI tried to raise some mor=
+e money <a href=3D"https://link.mail.bloombergbusiness.com/click/31118652.2=
+57452/aHR0cHM6Ly93d3cuZm9yYmVzLmNvbS9zaXRlcy9kZWJ0d2lyZS8yMDE4LzA3LzI3L2FtZ=
+XJpY2FuLW1lZGlhLXF1aWV0bHktc2Vla2luZy00MjUtbWlsbGlvbi1pbi1ib25kcy1hcy1sZWdh=
+bC1hbmQtcG9saXRpY2FsLXNwZWN0YWNsZS1zd2lybHMvP3NoPTY0ZTAyYjk3MjU2Mw/607f07ce=
+ef4b8524a319a23cB077398bd" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> by selling more bonds</a>, and it event=
+ually sold them at a 10.5% interest rate, which was much higher than the tr=
+ading yield of its existing bonds. To the naked eye,=C2=A0AMI looked like a=
+ small, high-yield newspaper publisher, and when it sold new bonds the pric=
+es reflected that. But its=C2=A0<em>old=C2=A0</em>bonds traded in the secon=
+dary market at prices that made it look more creditworthy than Apple. What =
+gives?</p>
+<p style=3D"margin: 16px 0;">Everyone kind of knew the answer, which is tha=
+t the AMI bonds didn=E2=80=99t trade that much, and they seemed to trade mo=
+stly <em>within Chatham</em>:<br />Chatham, the majority equity owner of AM=
+I=E2=80=99s stock, also owned most of its bonds, and sometimes Chatham woul=
+d sell the bonds to itself at ever-increasing prices. This didn=E2=80=99t c=
+ost Chatham much =E2=80=94=C2=A0it was basically just overpaying itself =E2=
+=80=94=C2=A0and made AMI=E2=80=99s credit look good. But of course when AMI=
+ wanted to raise money by selling more bonds, Chatham was not going to buy =
+those bonds at a 2% interest rate; it wanted a regular interest rate, like =
+10.5%.=C2=A0</p>
+<p style=3D"margin: 16px 0;">This is not particularly legal, and last week =
+Chatham and its founder Anthony Melchiorre=C2=A0<a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/31118652.257452/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDQtMDMvY2hhdGhhbS1mb3VuZGVyLXRvLXBheS0xOS1t=
+aWxsaW9uLW92ZXItc2VjLWNhc2Utb24tYm9uZC10cmFkZXM_Y21waWQ9QkJEMDQxMDIzX01PTkV=
+ZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09Mj=
+MwNDEwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBa1513ce5" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">settled with the US Securities and Exchange Commission</a>, agreeing=
+ to <a href=3D"https://link.mail.bloombergbusiness.com/click/31118652.25745=
+2/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMy03Mg/607f07ceef=
+4b8524a319a23cB55090d03" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> pay $19 million</a> for doing this. <em>W=
+hy=C2=A0</em>did Chatham do this? The story that <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/31118652.257452/aHR0cHM6Ly93d3cuc2VjLmdvdi9s=
+aXRpZ2F0aW9uL2FkbWluLzIwMjMvaWEtNjI3MC5wZGY/607f07ceef4b8524a319a23cB48ece1=
+66" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> the SEC tells</a> is basically that Chatham liked the bonds a=
+ lot and didn=E2=80=99t want to let them go. Chatham ran a bunch of differe=
+nt accounts =E2=80=94=C2=A0some hedge funds, some liquid alternatives funds=
+ =E2=80=94=C2=A0and held large AMI bond positions=C2=A0in all of them. Some=
+times some accounts would need to sell AMI bonds: They had concentration li=
+mits that meant they couldn=E2=80=99t have too much of their money in AMI b=
+onds, or customers took money out and Chatham needed to sell bonds to pay t=
+hem. When this happened, Chatham did not want to let the bonds go, so it so=
+ld them to other Chatham=C2=A0accounts so they could stay in the family. <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/31118652.257452/aHR0=
+cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2FkbWluLzIwMjMvaWEtNjI3MC5wZGY/607f07c=
+eef4b8524a319a23cC48ece166" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> The SEC says</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">Generally, when Chatham was forced=
+ to sell a high conviction AMI Bond in these circumstances, Chatham desired=
+ to purchase the AMI Bond for another Client because Chatham still believed=
+ in the merits of the investment and would not otherwise be selling the AMI=
+ Bonds if it were not for the portfolio restrictions or cash needs of the s=
+elling Clients.</p></blockquote>
+<p style=3D"margin: 16px 0;">As a general matter, selling bonds to yourself=
+=C2=A0is allowed, but awkward: If you really believe in some bonds but have=
+ to sell them from one account, and you want to buy them in another account=
+, you are not=C2=A0<em>forbidden=C2=A0</em>from doing so, but there are lot=
+s of ways for it to look bad. Generally the ways for it to look bad are (1)=
+ you overpay for the bonds, making money for the selling account at the exp=
+ense of the buying account (and causing the reported trading price of the b=
+onds to be wrong) or=C2=A0(2) you underpay for the bonds, making money for =
+the buying=C2=A0account at the expense of the selling account=C2=A0(and cau=
+sing the reported trading price of the bonds to be wrong). The solution is =
+generally to sell yourself the bonds at a=C2=A0fair market price, neither u=
+nderpaying nor overpaying. Broadly speaking two ways to do that are:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Sell the bonds into the market at mar=
+ket prices, and then buy them back a bit later from the market at market pr=
+ices: You don=E2=80=99t trade with yourself at all, but only with arm=E2=80=
+=99s-length counterparties; or</li>=09<li style=3D"margin-bottom: 5px;">Fig=
+ure out a fair market price using outside sources (trading pries, pricing s=
+ervices, quotes from dealers, etc.) and sell the bonds to yourself at that =
+price.=C2=A0</li>
+</ol>
+<p style=3D"margin: 16px 0;">The first option is probably better, but it re=
+quires an active market; if you=E2=80=99re the only real buyer or seller of=
+ the bonds it=E2=80=99s hard.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Anyway Chatham sort of =E2=80=A6=C2=A0waved in=
+ the direction of doing this the right way?</p>
+<blockquote><p style=3D"margin: 16px 0;">Recognizing that there were legal =
+restrictions on trading between RICs<a class=3D"footnote-index" href=3D"#fo=
+otnote-3" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none=
+ !important; background-color: transparent !important; display: inline-bloc=
+k;">
+<span>[3]</span>
+</a>=C2=A0and their affiliates, which included other Chatham Clients, Chath=
+am and Melchiorre sought advice from a compliance consultant on how to faci=
+litate the Rebalancing Trades. The consultant advised Chatham to conduct th=
+e trading either through a single broker over more than one day or through =
+multiple brokers if on the same day. The foundational principle underlying =
+the advice was to ensure that the transactions occurred at independently-de=
+rived market prices.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">Yeah I mean that=E2=80=99s good generic advice=
+, but when you are the market for the bonds it doesn=E2=80=99t work out gre=
+at. Also Chatham did not necessarily go all in on the=C2=A0<em>spirit=C2=A0=
+</em>of that advice:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Around the time that Chatham began to execute =
+the Rebalancing Trades, Melchiorre generally explained the purpose of the R=
+ebalancing Trades to the Rebalancing Brokers. Melchiorre informed each of t=
+he Rebalancing Brokers to whom he sold a Client=E2=80=99s AMI Bonds that he=
+ likely would have an interest in repurchasing that same AMI Bond he was se=
+lling for another Client. Over time, an understanding developed on the part=
+ of the Rebalancing Brokers that whenever Melchiorre placed an order to sel=
+l one of the AMI Bonds for a Client, he would repurchase it for another Cli=
+ent, either directly the following day or days, or indirectly through anoth=
+er broker.</p>
+<p style=3D"margin: 16px 0;">The Rebalancing Brokers engaged in the Rebalan=
+cing Trades because they expected Melchiorre to repurchase the bonds. The b=
+usiness model of several of the Rebalancing Brokers was to =E2=80=9Cmatch=
+=E2=80=9D buy and sell orders from their customers. Those Rebalancing Broke=
+rs ordinarily did not purchase securities for their own inventory=E2=80=94i=
+.e., put the firm=E2=80=99s own capital at risk=E2=80=94or they did so on a=
+ very limited basis. Nonetheless, the vast majority of the Rebalancing Trad=
+es involved at least one Rebalancing Broker that purchased bonds into its f=
+irm=E2=80=99s inventory. For example, some of the Rebalancing Brokers would=
+ at times agree to purchase securities from Chatham even though the Rebalan=
+cing Broker may not have lined up the other leg of the transaction. These b=
+rokers=E2=80=99 willingness to do so was based on their expectation that Ch=
+atham would repurchase the bonds, either directly or through another broker=
+.</p>
+<p style=3D"margin: 16px 0;">The purchasing Rebalancing Brokers generally d=
+id not offer the AMI Bonds to other customers in the market. Instead, in vi=
+rtually every case, they resold the securities to Chatham or to another bro=
+ker who they understood was purchasing for Chatham.</p>
+<p style=3D"margin: 16px 0;">As Chatham=E2=80=99s need to conduct rebalanci=
+ng in its various Client Accounts increased over time, Rebalancing Trades b=
+ecame routine. When Melchiorre wanted to sell an AMI Bond to one particular=
+ Rebalancing Broker (=E2=80=9CRebalancing Broker A=E2=80=9D) and then repur=
+chase it the following day, he would send Rebalancing Broker A a message in=
+dicating that he wanted to sell an AMI Bond in the =E2=80=9Cusual drill.=E2=
+=80=9D Rebalancing Broker A then would purchase the AMI Bond into the firm=
+=E2=80=99s inventory until Melchiorre repurchased it the following day.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">In the abstract, selling bonds to a broker one=
+ day and then buying them back for a different account a day or two later c=
+ould be a good way to do everything at arm=E2=80=99s-length market prices: =
+The broker will pay, and charge, prices that reflect market levels; it won=
+=E2=80=99t overpay to buy from you or undercharge to sell to you.</p>
+<p style=3D"margin: 16px 0;">But in practice, if you are the only buyer and=
+ the only seller and you call up a broker and say =E2=80=9Chey it=E2=80=99s=
+ the usual drill,=E2=80=9D you are not really getting a fair market price. =
+The broker doesn=E2=80=99t care what the buying price or selling price is, =
+as long as you pay=C2=A0a commission. You can just pick whatever price you =
+want:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Melchiorre proposed the price for the Rebalanc=
+ing Trades and the Rebalancing Brokers agreed to it without first solicitin=
+g bids from other market participants.</p>
+<p style=3D"margin: 16px 0;">When proposing a price for Rebalancing Trades,=
+ Melchiorre considered a number of factors, which included the prior day=E2=
+=80=99s price as reflected in prices published by a pricing service. Those =
+published prices would have been influenced, to some extent, by Chatham=E2=
+=80=99s own trading. When purchasing the AMI Bonds, Melchiorre also added a=
+ spread to compensate the Rebalancing Brokers. For example, in the case of =
+a Rebalancing Trade executed through a single Rebalancing Broker overnight,=
+ Chatham would repurchase the AMI Bonds for a small spread above what it ha=
+d sold the AMI Bonds to the broker the day before.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">One consequence of this is that the compliance=
+ consultant=E2=80=99s basic idea of selling to brokers to get market prices=
+ was not really working. Another consequence is that the prices kept going=
+=C2=A0<em>up:=C2=A0</em>The only trades were Chatham=E2=80=99s trades, and =
+it kept trading at=C2=A0higher prices to compensate its brokers. Eventually=
+ this became absurd:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Over the Relevant Period, Chatham and Melchior=
+re engaged in over one hundred Rebalancing Trades in AMI Bonds, accounting =
+for approximately 81 percent, on average, of the customer trading (i.e., no=
+t broker-to-broker trading) in such securities.</p>
+<p style=3D"margin: 16px 0;">Over time, the frequent Rebalancing Trades and=
+ repeated mark-ups to compensate the Rebalancing Brokers resulted in the ma=
+rket price of AMI Bonds increasing at a faster rate than prices of similar =
+securities. For example, by November 2017, two of the AMI Bonds traded in R=
+ebalancing Trades at implied yields lower than the prevailing London Interb=
+ank Offered Rate (=E2=80=9CLIBOR=E2=80=9D). Such yields ordinarily would ha=
+ve been associated with a bond of a much higher creditworthiness than the A=
+MI Bonds.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">A third consequence is that Chatham=E2=80=99s =
+assets under management kept going up: It charged clients fees based on the=
+ value of its assets, and as it kept increasing the prices of these bonds, =
+that value kept going up. The SEC says:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Chatham was compensated for its advisory servi=
+ces to the [hedge] Funds with a management fee and a performance fee, and t=
+o the [liquid alts funds]=C2=A0with a management fee. The management fee ch=
+arged to certain Clients was set at a percentage of the [net asset value]=
+=C2=A0of those Clients.</p>
+<p style=3D"margin: 16px 0;">In order to calculate each Fund=E2=80=99s NAV,=
+ Chatham used an independent pricing service to determine the value of each=
+ of the portfolio securities, including the AMI Bonds. The LAF administrato=
+rs calculated their own NAVs, also using the same pricing service Chatham u=
+sed.</p>
+<p style=3D"margin: 16px 0;">Chatham and Melchiorre understood that the pri=
+cing service that Chatham and the LAF administrators utilized was based to =
+some extent on recent trading prices and that the Rebalancing Trades accoun=
+ted for virtually all of the trading in the Bonds during the Relevant Perio=
+d. Because the Rebalancing Trades at times increased the prices of the AMI =
+Bonds, the NAVs of the Client accounts also were increased by that amount o=
+n those occasions.</p>
+<p style=3D"margin: 16px 0;">Accordingly, the Clients paid Chatham an estim=
+ated $11,000,000 in performance and/or management fees that they would not =
+have in the absence of Chatham=E2=80=99s Rebalancing Trades. Chatham in tur=
+n paid approximately 55 percent of such fees to Melchiorre.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Part of the $19 million settlement is paying b=
+ack that $11 million to investors. But the SEC doesn=E2=80=99t quite say th=
+at this is=C2=A0<em>why </em>Chatham did this. You could argue that this so=
+rt of thing =E2=80=94=C2=A0trading bonds back and forth with yourself in a =
+way that raises their prices =E2=80=94=C2=A0is market manipulation, that th=
+e goal was to raise prices to charge higher fees. But the SEC doesn=E2=80=
+=99t say that: It says, more or less in so many words, that the reason for =
+the trading is that Chatham really liked the bonds, that it =E2=80=9Cstill =
+believed in the merits of the investment=E2=80=9D even when it had to sell =
+them, so it kept buying them back. The higher prices and higher fees were j=
+ust a happy byproduct.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">APE Endgame</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">You know the story. AMC Entertainment Holdings=
+ Inc. became a meme stock, so it sensibly sold a ton of stock to raise mone=
+y and pay down debt. Eventually it <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/31118652.257452/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW=
+9uL2FydGljbGVzLzIwMjEtMDYtMDMvYW1jLWhhcy1hLWJpdC1tb3JlLXN0b2NrLXRvLXNlbGw_Y=
+21waWQ9QkJEMDQxMDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5l=
+d3NsZXR0ZXImdXRtX3Rlcm09MjMwNDEwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB35606fd6" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">  ran out of stock to sell</a>: Its corpor=
+ate charter authorizes about 524 million shares of common stock, and it has=
+ sold basically all of them. Shareholders did not seem interested in amendi=
+ng the charter to authorize more shares, because they were worried about di=
+lution and/or because they are retail investors who tend not to vote their =
+shares at all. The way it works is that a majority of the=C2=A0<em>outstand=
+ing shares=C2=A0</em>need to approve the charter amendment to issue new sha=
+res, so not voting is the same as voting no.</p>
+<p style=3D"margin: 16px 0;">But AMC=E2=80=99s charter also allows the boar=
+d to issue =E2=80=9Cblank-check=E2=80=9D preferred stock, that is, preferre=
+d stock with any terms the board wants. So AMC <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/31118652.257452/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDgtMjMvYW1jLWdvZXMtYXBlP2NtcGlkPUJCRDA0M=
+TAyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0=
+bV90ZXJtPTIzMDQxMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23c=
+Bf7d8e84c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">  started issuing a new type of preferred=C2=A0stock cal=
+led APEs</a>, AMC Preferred Equity Units, which are meant to be identical t=
+o the common stock: They have the same economic rights, same voting rights,=
+ etc. AMC did a quasi-stock-split in which shareholders got one APE for eac=
+h common share they held, and then it started selling new APEs to raise mor=
+e money.</p>
+<p style=3D"margin: 16px 0;">Part of the plan here was just to sell APEs to=
+ raise money, but another <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/31118652.257452/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjMtMDEtMzEvbWF0dC1sZXZpbmUtam9obnNvbi1qb2huc29uLXMtam5qLWJhbmtydX=
+B0Y3ktZGlkbi10LXdvcms_Y21waWQ9QkJEMDQxMDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lb=
+WFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNDEwJnV0bV9jYW1wYWlnbj1t=
+b25leXN0dWZm/607f07ceef4b8524a319a23cBbf90993e" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">  part of the plan<=
+/a> was to <a href=3D"https://link.mail.bloombergbusiness.com/click/3111865=
+2.257452/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMT=
+ItMjIvZnR4LWZyaWVuZHMtZmxpcC1vbi1zYmY_Y21waWQ9QkJEMDQxMDIzX01PTkVZU1RVRkYmd=
+XRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNDEwJnV0=
+bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBa106bd77" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">  g=
+et the APEs to vote to amend the charter</a> to allow AMC to issue more com=
+mon shares. If that happens, the APEs will all be converted into common sha=
+res; since now the APEs trade at a discount to the common, this will be goo=
+d for the APEs (and presumably bad for the common stock). Because (1) there=
+ are more APEs than common shares, (2) the APEs and common shares all vote =
+together on all issues, including whether to amend the charter,=C2=A0(3) th=
+e APEs are more likely to be held by professional investors who actually vo=
+te, (4) voting to authorize more shares is strictly good for the APEs and (=
+5) the APEs have <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+1118652.257452/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIw=
+MjMtMDItMDEvYW1jLWhhcy1zb21lLWNsZXZlci1hcGVzP2NtcGlkPUJCRDA0MTAyM19NT05FWVN=
+UVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMD=
+QxMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB1fc3f87e" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">  a clever voting mechanism</a> where a trustee votes them even if the=
+ir actual holders forget to vote, so that not voting is=C2=A0<em>not=C2=A0<=
+/em>like voting no=C2=A0=E2=80=94=C2=A0AMC figured that if it held another =
+vote to authorize more shares, the proposal would pass with the APEs=E2=80=
+=99 support.</p>
+<p style=3D"margin: 16px 0;">And so AMC scheduled that vote, and <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/31118652.257452/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDItMjEvYW1jLWFwZXMtaGF=
+0ZS1hbWMtcy1hcGVzP2NtcGlkPUJCRDA0MTAyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haW=
+wmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDQxMCZ1dG1fY2FtcGFpZ249bW9uZ=
+XlzdHVmZg/607f07ceef4b8524a319a23cBbcd747dd" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">  some holders of comm=
+on shares sued</a>, arguing that this is all an obvious way to disenfranchi=
+se actual shareholders. And AMC=E2=80=99s basic argument is, no, this is a =
+way to=C2=A0<em>enfranchise=C2=A0</em>shareholders; the problem is that mos=
+t retail shareholders just don=E2=80=99t vote one way or another, so it=E2=
+=80=99s impossible to get anything done, even things that most shareholders=
+ actually want. After the shareholders sued, <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/31118652.257452/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDItMjgvYW1jLXMtYXBlcy1oYXZlLXRvLXdhaXQ_Y21=
+waWQ9QkJEMDQxMDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3=
+NsZXR0ZXImdXRtX3Rlcm09MjMwNDEwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b=
+8524a319a23cB86e0aea9" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">  AMC agreed to a =E2=80=9Cstatus quo order=
+=E2=80=9D banning it from=C2=A0amending the charter</a>, issuing=C2=A0new s=
+hares or converting the APEs until after a hearing in Delaware Chancery Cou=
+rt=C2=A0on April 27 =E2=80=94=C2=A0but meanwhile AMC could=C2=A0<em>hold th=
+e vote</em>, basically to see what shareholders actually want.=C2=A0</p>
+<p style=3D"margin: 16px 0;">It held the vote last month, and <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/31118652.257452/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTUvc2lsaWNvbi12YWxsZX=
+ktYmFuay1pcy1mb3Itc2FsZT9jbXBpZD1CQkQwNDEwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtP=
+WVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA0MTAmdXRtX2NhbXBhaWdu=
+PW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBa2f0bb8e" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">  AMC, let us sa=
+y, won</a>. As a technical matter, AMC got plenty of votes to amend the cha=
+rter, issue new shares and convert the APEs: A majority of the APEs voted y=
+es, and when you throw in the clever trustee=C2=A0voting mechanism you get =
+91% of the APEs voting yes, along with 25.5% of the common stock, making up=
+ a=C2=A0majority of the total voting shares. And as a=C2=A0moral and equita=
+ble matter, the important thing is that 25.5% of the common shares voted ye=
+s and only 9.1% voted no: Most common shares didn=E2=80=99t vote, but almos=
+t three-quarters of those that did=C2=A0voted to convert the APEs.</p>
+<p style=3D"margin: 16px 0;">Where does that leave us? Well, in kind of a w=
+eird place:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">It seems clearly good for AMC to autho=
+rize more shares, convert the APEs, and go back to being a normal company w=
+ith normal common stock (and a lot of it to sell). Also it seems <em>reason=
+ably=C2=A0</em>clear=C2=A0that this is what AMC=E2=80=99s shareholders =E2=
+=80=94=C2=A0its APE holders, certainly, but also most of its common shareho=
+lders =E2=80=94=C2=A0want. This is not free from doubt =E2=80=94=C2=A0most =
+of the common shareholders didn=E2=80=99t vote at all =E2=80=94=C2=A0but ju=
+dging by the actual votes, it seems true.</li>=09<li style=3D"margin-bottom=
+: 5px;">Therefore it would be kind of=C2=A0<em>bad=C2=A0</em>for the court =
+to declare the APE structure illegal: It=E2=80=99s a mess, it=E2=80=99s har=
+d to undo, and AMC would sort of be stuck with it forever, as it seems hope=
+less to get the common shareholders to vote for anything.</li>=09<li style=
+=3D"margin-bottom: 5px;">On the other hand, it would be kind of bad for the=
+ court to declare the APE structure=C2=A0<em>legal:=C2=A0</em>It=C2=A0<em>i=
+s=C2=A0</em>a way for AMC to get around the legal requirement that a majori=
+ty of its shares vote to approve new shares, and if you allow this stuff it=
+ is a potential slippery slope to other, possibly worse uses of blank-check=
+ stock. The Delaware court is not going to want to set a precedent like =E2=
+=80=9Cif the board of directors of a company doesn=E2=80=99t like the way i=
+ts shareholders vote, they can mess with the voting mechanics until the vot=
+e comes out the way they like.=E2=80=9D The APEs are not quite that, but th=
+ey=E2=80=99re not quite not that either.</li>
+</ul>
+<p style=3D"margin: 16px 0;">So the obvious good outcome here is an out-of-=
+court settlement in which (1) AMC gets to convert the APEs into common stoc=
+k, (2) the aggrieved=C2=A0common shareholders get a little something to mak=
+e them feel better, and (3) the court doesn=E2=80=99t have to rule one way =
+or another on whether this is all legal.=C2=A0</p>
+<p style=3D"margin: 16px 0;">And so last week AMC <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/31118652.257452/aHR0cHM6Ly93d3cuc2VjLmdvdi9=
+peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTQxMTU3OS8wMDAxMTA0NjU5MjMwNDA5NjEvdG=
+0yMzExNDA0ZDFfOGsuaHRt/607f07ceef4b8524a319a23cB377cf8d3" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> announce=
+d a settlement</a> that would do that: The lawsuit would go away, the chart=
+er would be amended, the APEs would be converted, and the aggrieved common =
+shareholders would get an extra share of common stock for every 7.5 shares =
+they currently hold.<a class=3D"footnote-index" href=3D"#footnote-4" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: none !important; ba=
+ckground-color: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a> The result of this is effectively to have the APEs convert into common=
+ stock but at slightly less than a one-for-one conversion rate: Each APE be=
+comes one share of common stock, but each share of old common stock becomes=
+ 1.13 shares.<a class=3D"footnote-index" href=3D"#footnote-5" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: none !important; background=
+-color: transparent !important; display: inline-block;">
+<span>[5]</span>
+</a> The APEs effectively convert at about a 12% discount to the common. Th=
+e average price of the APEs over the last four weeks was $1.48; the average=
+ price of the common stock was $4.60.<a class=3D"footnote-index" href=3D"#f=
+ootnote-6" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: non=
+e !important; background-color: transparent !important; display: inline-blo=
+ck;">
+<span>[6]</span>
+</a>=C2=A0So a 12% discount is <em>much=C2=A0</em>tighter than the market d=
+iscount, though also much wider than the identical economic rights that APE=
+ holders were originally promised.</p>
+<p style=3D"margin: 16px 0;">And then AMC and the suing shareholders went t=
+o the Delaware judge and asked her lift the =E2=80=9Cstatus quo order=E2=80=
+=9D=C2=A0and let this all happen, and on Wednesday <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/31118652.257452/aHR0cHM6Ly9jb3VydHMuZGVsYX=
+dhcmUuZ292L09waW5pb25zL0Rvd25sb2FkLmFzcHg_aWQ9MzQ2MDIw/607f07ceef4b8524a319=
+a23cBc8742629" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> she said no</a>. I suppose she will wait for a hear=
+ing to decide whether to approve the settlement.=C2=A0There are clearly som=
+e awkward elements here:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">If the APEs were illegal, then that=
+=E2=80=99s bad, and I guess she should stop them?</li>=09<li style=3D"margi=
+n-bottom: 5px;">If the APEs were legal, then converting them at less than a=
+ one-for-one ratio to the common stock seems a little bad. (Would the APEs =
+have voted overwhelmingly to convert last month, if they had known that the=
+ common shareholders would get some extra stock? The answer is yes, of cour=
+se, but still it feels weird.)</li>
+</ol>
+<p style=3D"margin: 16px 0;">To me those awkward elements are a good reason=
+ for the court to=C2=A0<em>want=C2=A0</em>a settlement =E2=80=94=C2=A0let A=
+MC and its shareholders work this out and don=E2=80=99t get too involved =
+=E2=80=94=C2=A0but I guess once the court is involved this much she has to =
+make sure that what she=E2=80=99s signing off on is legal.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Black swans</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The basic idea of a =E2=80=9Cblack swan fund=
+=E2=80=9D is that you have $100 invested in normal assets <em>somewhere els=
+e</em>, and you pay the black swan fund like $1 a year for insurance. In a =
+normal year, your normal assets go up 15% or whatever and you make $15, and=
+ your black-swan premium is just an expense; you lose the dollar, for a net=
+ return of 14%. And in a catastrophic year, your normal assets go down 20% =
+or whatever and you lose $20, but your black-swan insurance pays out and yo=
+u get back $20, for a net return of 0%, which is pretty good.</p>
+<p style=3D"margin: 16px 0;">What is the performance of the black swan fund=
+ in the normal year? Well, negative 100%, give or take. (These are stylized=
+ schematic numbers, don=E2=80=99t take them too seriously.) But the black-s=
+wan manager doesn=E2=80=99t think of it that way, and you probably shouldn=
+=E2=80=99t either. Instead the argument is something like: =E2=80=9CIf you =
+didn=E2=80=99t have this black-swan insurance, you=E2=80=99d have to invest=
+ much more conservatively, keep more assets in cash, etc., so your return o=
+n your $100 of normal assets would only be like 8%. But the insurance gives=
+ you the confidence to invest more aggressively, so you made 15% on your no=
+rmal assets, though you paid 1% for that insurance. So really the black swa=
+n fund added 6% to your overall return.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Fine. What is the performance of the black swa=
+n fund in the catastrophic year? Oh ha it is absolutely +1,900%, come on, i=
+t made $19 on $1 of premium. Bloomberg=E2=80=99s Justina Lee reported last =
+week on <a href=3D"https://link.mail.bloombergbusiness.com/click/31118652.2=
+57452/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDQtMDMvY=
+mxhY2stc3dhbnMtYW5ncnktaGVkZ2UtZnVuZHMtYW5kLWhvdy10by1tYWtlLWEtMy02MTItcmV0=
+dXJuP2NtcGlkPUJCRDA0MTAyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJ=
+jZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDQxMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607=
+f07ceef4b8524a319a23cB01131766" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">  the returns at Mark Spitznagel=E2=
+=80=99s Universa Investments</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Sure, all hedge funds like to put a positive s=
+pin on performance, and that=E2=80=99s well understood by their sophisticat=
+ed clientele. But critics like Saba Capital Management founder Boaz Weinste=
+in and Citadel=E2=80=99s former global head of fixed income, Derek Kaufman,=
+ say Miami-based Universa goes a step too far, cherry-picking data to burni=
+sh results. ...</p>
+<p style=3D"margin: 16px 0;">The latest spat broke out on Twitter in the wa=
+ke of Spitznagel=E2=80=99s January missive to clients. As he touted the vir=
+tues of Universa=E2=80=99s style of hedging, he claimed a small allocation =
+to the money manager equated to an =E2=80=9Cannuity paying 114% a year.=E2=
+=80=9D</p>
+<p style=3D"margin: 16px 0;">Considering that when Covid hit in March 2020,=
+ the firm said it returned 3,612% in a single month, that didn=E2=80=99t se=
+em like much. But it appears to have been a final straw for naysayers such =
+as Weinstein and Kaufman.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CNone of what they are saying makes se=
+nse,=E2=80=9D tweeted Kaufman, while Weinstein =E2=80=94 who runs his own t=
+ail-hedge strategy in the credit realm =E2=80=94 called the firm out for th=
+e way it calculates its figures. =E2=80=9CName another hedge fund or tail h=
+edge fund that talks in returns on premia spent over some interval instead =
+of return on assets,=E2=80=9D he tweeted. ...</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWhile we cannot comment on returns, U=
+niversa Founder and CIO, Mark Spitznagel=E2=80=99s recent book, <em>Safe Ha=
+ven</em>, explains in detail that the point of what Universa does is raise =
+a portfolio=E2=80=99s rate of returns as a direct consequence of lowering i=
+ts systematic risk,=E2=80=9D Brandon Yarckin, chief operating officer at Un=
+iversa, wrote in an email. =E2=80=9CContrary to Modern Portfolio Theory, th=
+is is the metric that matters, and it is demonstrably what we have done in =
+Universa=E2=80=99s 15 year life to date.=E2=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">What Universa in effect does is calculate the =
+return on an insurance policy using only one month of premium. Conveniently=
+ ignored there is the reality that clients typically pay Universa for prote=
+ction for years =E2=80=94 a process so painful it=E2=80=99s known as the =
+=E2=80=9Cbleed=E2=80=9D =E2=80=94 before ever cashing in. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">To compound the confusion, Universa=E2=80=99s =
+AUM =E2=80=94 now $16.4 billion =E2=80=94 is actually defined in a regulato=
+ry filing as the =E2=80=9Camount of equity market risk that a client seeks =
+to protect.=E2=80=9D That means the assets at the firm=E2=80=99s disposal a=
+re in practice far smaller.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Universa=E2=80=99s clients have $16.4 billion =
+of assets (somewhere else) that they protect by paying premium to Universa,=
+ and =E2=80=9Cwhat Universa does,=E2=80=9D in the long term,=C2=A0=E2=80=9C=
+is raise [that $16.4 billion]=C2=A0portfolio=E2=80=99s rate of returns as a=
+ direct consequence of lowering its systematic risk.=E2=80=9D But what Univ=
+ersa does in any particularly disastrous month for the stock market is earn=
+ a 3,612% return on=C2=A0<em>that month=E2=80=99s premium</em>. Most of the=
+ time Universa leads with the first thing =E2=80=94=C2=A0lowering systemic =
+risk =E2=80=94=C2=A0but in the months where it 36x=E2=80=99s its money it l=
+eads with that.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">First Republic <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31118652.257452/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY=
+2xlcy9maXJzdC1yZXB1YmxpYy1zdXNwZW5kcy1kaXZpZGVuZHMtb24tcHJlZmVycmVkLXN0b2Nr=
+LTYzZTZkMzg4P3N0PXY2YTMwNHY1dzJmaG9iMyZyZWZsaW5rPXNoYXJlX21vYmlsZXdlYnNoYXJ=
+l/607f07ceef4b8524a319a23cB7036ad47" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> Suspends Dividends</a> on Pre=
+ferred Stock. A $1.5 Trillion Wall of Debt Is Looming for <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/31118652.257452/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDQtMDgvYS0xLTUtdHJpbGxpb24td2FsbC=
+1vZi1kZWJ0LWlzLWxvb21pbmctZm9yLXVzLWNvbW1lcmNpYWwtcHJvcGVydGllcz9jbXBpZD1CQ=
+kQwNDEwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRl=
+ciZ1dG1fdGVybT0yMzA0MTAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a31=
+9a23cB8d10eb4e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">  US Commercial Properties</a>. <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/31118652.257452/aHR0cHM6Ly93d3cuZnQuY=
+29tL2NvbnRlbnQvNzMzYTI0ZDctMDU2ZC00ZjAyLThiMjAtOGJhOWY1NjZlOWY3/607f07ceef4=
+b8524a319a23cB814bb596" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> European commercial real estate</a>: the c=
+racks are starting to show. <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/31118652.257452/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9kZWNsaW5lc=
+y1pbi1sb2FuLXZhbHVlcy1hcmUtd2lkZXNwcmVhZC1hbW9uZy1iYW5rcy1jM2VlNjIyZg/607f0=
+7ceef4b8524a319a23cBa95debce" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">Declines in Loan Values</a> Are Wides=
+pread Among Banks.=C2=A0Lenders <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/31118652.257452/aHR0cHM6Ly93d3cud3NqLmNvbS9saXZlY292ZXJhZ2Uvc=
+3RvY2stbWFya2V0LW5ld3MtdG9kYXktMDQtMTAtMjAyMy9jYXJkL2xlbmRlcnMtbG9zdC0zMDEt=
+Zm9yLWVhY2gtbW9ydGdhZ2UtdGhleS1tYWRlLWxhc3QteWVhci1WOVFweERieGkwTHlHanBCd3J=
+Leg/607f07ceef4b8524a319a23cBeedfce50" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> Lost $301 for Each Mortgage=
+</a> They Made Last Year. <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/31118652.257452/aHR0cHM6Ly93d3cuYml0c2Fib3V0bW9uZXkuY29tL2FyY2hpdmU=
+vZGVwb3NpdC1pbnN1cmFuY2UtbWF4aW1pemF0aW9uLWFzLWEtc2VydmljZS8/607f07ceef4b85=
+24a319a23cBa341afa2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Deposit insurance maximization</a> as a serv=
+ice. Auditors <a href=3D"https://link.mail.bloombergbusiness.com/click/3111=
+8652.257452/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9hdWRpdG9ycy1kaWRudC1mbGF=
+nLXJpc2tzLWJ1aWxkaW5nLXVwLWluLWJhbmtzLTY1MDY1ODVjP21vZD1ocF9sZWFkX3BvczE/60=
+7f07ceef4b8524a319a23cB6f5574ed" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> Didn=E2=80=99t Flag Risks</a> Bui=
+lding Up in Banks. China=E2=80=99s financial sector rocked by expansion of =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31118652.257452/aH=
+R0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZWIxNDRiMmEtMzE0ZS00NDIwLThjZTUtMTBlZTRmZ=
+GU1NDlh/607f07ceef4b8524a319a23cB05666ba8" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> anti-corruption drive</=
+a>. Private Equity=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/31118652.257452/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9wcml2YXRl=
+LWVxdWl0eXMtZm9vZC1iaW5nZS1nb2VzLXNvdXItOGY4MzBkZDQ_bW9kPWhwX2xlYWRfcG9zMTE=
+/607f07ceef4b8524a319a23cB757289b4" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> Food Binge</a> Goes Sour. =E2=
+=80=9CThe <a href=3D"https://link.mail.bloombergbusiness.com/click/31118652=
+.257452/aHR0cHM6Ly93d3cuaW5zdGl0dXRpb25hbGludmVzdG9yLmNvbS9hcnRpY2xlL2I4eTR=
+kcHIxNTNwbjc4L1BFLU5lZWRzLXRvLVNxdWVlemUtTW9yZS1Qcm9maXRzLU91dC1vZi1Db21wYW=
+5pZXMtQ29uc3VsdGFudHMtQXJlLUxpbmluZy1VcC10by1IZWxw/607f07ceef4b8524a319a23c=
+B57dcaf9b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> private equity business model</a> keeps getting democra=
+tized.=E2=80=9D =E2=80=9CForty-six percent of consumer brand marketers say =
+they will increase their <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31118652.257452/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9tZXRhdmVyc2Ut=
+bWFuaWEtY29vbHMtZm9yLW1hbnktYnV0LW5vdC1mb3ItbWFya2V0ZXJzLWMwNzIxZTE3P21vZD1=
+pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cB632980f5" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> metaverse=
+ budgets</a> this year, and only 12% say they will spend less.=E2=80=9D =E2=
+=80=9CBeing able to sense someone <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31118652.257452/aHR0cHM6Ly9ibmV0LnN1YnN0YWNrLmNvbS9wL2luLWE=
+td2F5LXRoaXMtaXMtaG93LWl0LXNob3VsZC1iZQ/607f07ceef4b8524a319a23cBced60de5" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> messing with a website in real-time</a>, moving the menu items aro=
+und and forgetting to close an HTML tag here and there, is a neat feeling.=
+=E2=80=9D Scaramucci=E2=80=99s <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/31118652.257452/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYX=
+R1cmVzLzIwMjMtMDQtMDYvYW50aG9ueS1zY2FyYW11Y2NpLXMtc2t5YnJpZGdlLWNhcGl0YWwtd=
+29lcy1wcmVkYXRlLWZ0eD9jbXBpZD1CQkQwNDEwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVt=
+YWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA0MTAmdXRtX2NhbXBhaWduPW1=
+vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB331e4eaa" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> SkyBridge Capital =
+Was Spiraling</a>, and Then Came FTX. Fyre Festival <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/31118652.257452/aHR0cHM6Ly9naXptb2RvLmNvb=
+S9iaWxseS1tY2ZhcmxhbmQtZnlyZS1mZXN0LWJhaGFtYXMta2VuZGFsbC1qZW5uZXItMTg1MDMx=
+ODQyNg/607f07ceef4b8524a319a23cBf3da1917" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> II</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31118652.257452/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBf229b5f5" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31118652.257452/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB52b69f68" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] The full report <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/31118652.257452/aHR0cHM6Ly9yZXN0cnVjdHVyaW5n=
+LnJhLmtyb2xsLmNvbS9GVFgvSG9tZS1Eb3dubG9hZFBERj9pZDE9TVRRNU1EYzJPUT09JmlkMj0=
+tMQ/607f07ceef4b8524a319a23cB8618454a" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> is here (pdf)</a>, or you c=
+an find it at document 1242 on <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/31118652.257452/aHR0cHM6Ly9yZXN0cnVjdHVyaW5nLnJhLmtyb2xsLmNvbS=
+9GVFgvSG9tZS1Eb2NrZXRJbmZv/607f07ceef4b8524a319a23cBd0c7fd0e" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> the =
+bankruptcy docket</a>.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Data on the relevant AMI bonds is a little=
+ hard to find these days =E2=80=94 they matured a while ago =E2=80=94 but t=
+he SEC complaint says that =E2=80=9Cby November 2017, two of the AMI Bonds =
+traded in Rebalancing Trades at implied yields lower than the prevailing Lo=
+ndon Interbank Offered Rate.=E2=80=9D I don=E2=80=99t know what that means =
+really, but 3-month US dollar Libor was in the 1.5% neighborhood in Novembe=
+r 2017, and Apple=E2=80=99s 3% bond due 2024 traded at around 2.7% that mon=
+th. Also I *remember* someone showing me these bonds and noticing they trad=
+ed tighter than Apple.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] =E2=80=9CRegistered investment companies,=
+=E2=80=9D which is the SEC=E2=80=99s term for mutual funds. Chatham ran a v=
+ariety of funds, including hedge funds, but also including liquid alternati=
+ves funds that were registered as mutual funds.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] There is also a 1-for-10 reverse stock spl=
+it involved, so it=E2=80=99s more like if you have 750 shares now you=E2=80=
+=99ll have 75 after the reverse split, and then get an extra 10 for the set=
+tlement.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] That is, each share of old common stock ge=
+ts a bonus of 1/7.5 =3D 0.1333 shares. Again, there is the reverse split, s=
+o it=E2=80=99s more like 10 APEs become one common share and 10 common shar=
+es becomes 1.1333 common shares.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] Those are taken from Bloomberg=E2=80=99s H=
+P pages (for AMC Equity and APE Equity) for 3/13/2023 through 4/06/2023.</p=
+>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31118652.257452/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB0fe9284e" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31118652.257452/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB443e2dfa" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31118652.257452/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB3c44098b" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31118652.257452/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB1ec4b64f" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/31118652.257452/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBca44d411" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/31118652.2574=
+52/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBf1659a34" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31118652.257452/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC5c3ae7d0" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/31118652.257452/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB45512783" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31118652.257452/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB78df206e" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31118652.257452/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBe=
+a0dab9f" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31118652.257452/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB6=
+31d9ca0" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ciizb0.5ing/b1efdaad.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_66604345_1213767921.1681150675276--
+

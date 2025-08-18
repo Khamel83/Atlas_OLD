@@ -1,0 +1,2388 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:791:b0:dc:4011:408e with SMTP id n17csp521009rwj;
+        Wed, 16 Nov 2022 11:20:28 -0800 (PST)
+X-Received: by 2002:a5d:4562:0:b0:241:8103:769e with SMTP id a2-20020a5d4562000000b002418103769emr11703613wrc.240.1668626428361;
+        Wed, 16 Nov 2022 11:20:28 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1668626428; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=yv2xXGjkOn1MHIl3XJEFXj6nJ072k2jTQ0LiIBiwJsSSkUn1hJl+SjyAqiSa3quRhQ
+         cpg1aFL0kHYrxEeVhb99lsMnDYsBUfPmHxk5onmNwODIt+Gn43oDoepa+BmadsP9cuEY
+         Qdk59QtXkJHJFaZXFQQMVPeo7O5TcyV+V+VIjNJjXmgId4GbGW8Je8LFiVQrIlEyeBpV
+         3JdBPmgtgULxNHg7WQlE0YGqR+1bDhdbyNtCc4yIJQ2xwAz5HODj2Yj7qPXxnzBlVUdN
+         X+JmfAX2j3EwaG6g0On0lmm7KVZEEkDrGYWjGQI503kSnmdIX6UqVhscX3bT84T5PH3v
+         N8kQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=Gf0a03xYoHC3s+AOL+K/tho7Rv/3v2UbUEiiAib1STg=;
+        b=DnQ7ZWpNGb2Huy07TBmNfEYPy5uq05vko5c5XdKj1uqk/ujm9p7t50qRgQRIkokEsI
+         GG6uljMlY4Y1Yg6QQESkwfAZIwZDw9L61tPk2IIGXhV8ACEPWNqzxMIABK/ayPGMiEpk
+         wAJXR7eyZD8LXPgkofOYVqJ8gM3FEaO9x8KwHX9Cj+PmmM7JhgqTL9ZMPK0JBWQyjov3
+         FjUuXXDL68eOLJicOlr+H1IHIeXM5JRPswcIHCQRiHC3Lg+ATYbqLznobAtgdbIQ7xo3
+         XqN45jmpV5GS7m+vFurKivwha/5LKdccATB1TGaXEetotxADY1iGruE6Qu9BcqPu4EBe
+         huFw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=bCYNb0qz;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id az3-20020a05600c600300b003c6c7901fa4sor437775wmb.3.2022.11.16.11.20.28
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 16 Nov 2022 11:20:28 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=bCYNb0qz;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=Gf0a03xYoHC3s+AOL+K/tho7Rv/3v2UbUEiiAib1STg=;
+        b=J6f3WytymKnGpNOLbhtekS+rdUirla+7ja3SNffR0zWkPwZ0UCk/rwv27wCbZbvyJo
+         v4ZtYZVSJih2PPESF3fW6qMuDa+Qvl8Dt/0PHglLWovngkTCtoTv/dUGmU9XmG918G+F
+         xsdK1XdcXbi3md7CPVMMh6DG95t+x4BoaasDW6pAHtGOe1tYdn6luY0VJTEuKTwYVrAR
+         uLCSz/JxJuZUNKp7mASGVq/HZMTWVvOUodfGk8fI9mjfeyao9h2+si2yGX/3w647Bexw
+         lo5jzWETE3N6//DyhaNEVovvvU5LgfOfeNsa4eFSCTLK97fjUkKqy+m0iH8e9gG4pMpM
+         tQ+Q==
+X-Gm-Message-State: ANoB5plvqMIb/T5DcdIY4ro4Sm1l9krvyF4jthK6OPGG+FlSgZTQIG/M
+	N6pX2eoT0VwEW63IT6du2CsmTHoSaIQ0wGXdOFpdO9y4R2Z2ewbSFA==
+X-Received: by 2002:a05:600c:2313:b0:3cf:d0ba:e5ff with SMTP id 19-20020a05600c231300b003cfd0bae5ffmr3131192wmo.36.1668626428003;
+        Wed, 16 Nov 2022 11:20:28 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f647:0:0:0:0:0 with SMTP id x7csp526214wrp;
+        Wed, 16 Nov 2022 11:20:24 -0800 (PST)
+X-Received: by 2002:a05:6e02:1290:b0:300:5bd2:5af4 with SMTP id y16-20020a056e02129000b003005bd25af4mr10583380ilq.244.1668626424042;
+        Wed, 16 Nov 2022 11:20:24 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1668626424; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=ToAhucs0WnLFIQhl4022SUTGSNZyZ/eertYWCW8rUJEbds3OCyXieA/ggA/YcMC8v3
+         Ef+814mb/XX9xcVJznL/B0iuJeBotb/Sb+mLxeA1gotdnWBu3k/7z+v4SnLEdwl+xlug
+         /ADG/fUFYNlBWdQsS63sUI+C/LHUkCIu+s7wC0xeYMghRZYfcPRqL4mWptwA8P+bNy9f
+         0zI6bPtsWOx6V2/e/sNCrWyZc4ey0qcuboGQIGkLJA57dqx+6snD+5wUP4jo2tLyX6vO
+         Zo6Q0cvo0AmmpSnSKdTGN3NtmMd0lyh+twVF+R7Tt/xR1iad9rhcQFmddB4Qny8zL8TH
+         Tc4g==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=Gf0a03xYoHC3s+AOL+K/tho7Rv/3v2UbUEiiAib1STg=;
+        b=ojT95jM9kSzd5LD2x/x9BTPfiwu9CI52tWd7l50XrZCnOU8OtUfQL+kJ+Yc/8SJw6o
+         tHoDGKDcAhZp3m5xC50teZsOm6ATxPycjenw4wKshf2seTx4HDOTVML+fKCBuOOu4hKj
+         Qr56y18wOXYfAZUi8HtjQuTBE3jGg/pYpVWejfAA1/DFGAmKg4aGTMcviL7YzUkPF6dI
+         vqTZV+HlbySgtkVPUL1tyo+zrgeAK6WSMm6dalzrHiAwE+lKhvlIrwmNjgaz/JZoWqNZ
+         yAIGo28sxRlkVZQnAHK+DQrCqp7Ym2qtLQA++TSRrJXcm4dzUiYFU2vEb4B7uUzW28D5
+         Ddkg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=bCYNb0qz;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20221116141854.29719674.276531@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20221116141854.29719674.276531@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20221116141854.29719674.276531@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id g14-20020a056e021a2e00b0030259d095a2sor2824197ile.79.2022.11.16.11.20.23
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 16 Nov 2022 11:20:24 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20221116141854.29719674.276531@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AA0mqf6RZxB12/1mxIWdEgcpIPMdPnuNMGTtPRrUOoBjS4MCr9e3UkQK8W8pt35LCd+Zd5k0GIGDSKZhBZQ43qQ4ScEo0/ndGRo=
+X-Received: by 2002:a92:c509:0:b0:2fa:fbcb:4128 with SMTP id r9-20020a92c509000000b002fafbcb4128mr11602256ilg.229.1668626423689;
+        Wed, 16 Nov 2022 11:20:23 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1668626423; cv=none;
+        d=google.com; s=arc-20160816;
+        b=hSk32VxhpWLE4OSrluaS9OQLCMrVn4xcOKy4sC4csa//eQjkAU6+wbmPmD/Uyx5bYN
+         S78WjTjkKsQ4xO7Wan1neNRcH3X/RR6hF0mg2W5ZwdYd9HFgneHqyk8KDZKfLoBKaYN6
+         fCBOzzAkYS+TrVI9lX10kKB1BUdaJcLE6gRlrBG22m1uGXEP3LrrovfDPwQc25Rmq/7z
+         q8QiSrcrF/5CbLZeArg3wbT47EM+pdKjVnEHvcnQH4H1fZe5Y2t0y9BqOfR7uLwWCePA
+         iC8vs0686Gb/EZpOSVXDZcT0mLmS3P718dZxXJoZfHpEPitlhgAejXg/Vg4I9SFjk847
+         vCAQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=Gf0a03xYoHC3s+AOL+K/tho7Rv/3v2UbUEiiAib1STg=;
+        b=zQRwvcNsSHkZ/5ajFZcbGM+qyjn6bf60JuWY15rTUnWrJECOvLEpwnwgrY+KrO7cMa
+         8Sl1boRv6MSbbt/nJRlwkDMu7nxGPuR8gmhfuxLmKFzJhZhyDwi+NpOEwQJM/TEjt7ln
+         L8WUXNXnDBTP1fO4XLWLXhxGrrPpLdT0MthV6ikZzJcTMMlY+iyc9dglC9boNZ/M64sR
+         4orY4wyvl+5gBpQRVro0avUvI0KY8j6rjCQK7NNzfSp+pvjRO01XF9cUE87f+tpeVO4C
+         qxallzjJy3dwSQXluBY+t830P5VFQVpQHpp3EQY024D/9stHFxUsf2tdEnNJ4PvWWKNq
+         YHIA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=bCYNb0qz;
+       spf=pass (google.com: domain of delivery_20221116141854.29719674.276531@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20221116141854.29719674.276531@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20221116141854.29719674.276531@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id c2-20020a5d9a82000000b00684e0ad0804si899010iom.4.2022.11.16.11.20.23
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 16 Nov 2022 11:20:23 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20221116141854.29719674.276531@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=5LRFyYmYTsclbow5VWGO/04ZAed1eRy4fzxdBraQ5hA=;
+ b=bCYNb0qz7d9rmUByaj0Nt0/MUVlbuDEmZRWcbBLosjlpdAbquSfT0WjzUNS+vqXdXhsKVDkfkmwL
+   Y8yxYvTeXvcC4xFHjjpHpN7CbfdYMuuCSZFwOWHGhuADUl6IDMmLxuUwwi7YMhNyzFSAY+CyvTSQ
+   QAufRgXEB8uFv5Hvhb0=
+Received: from njmta-20.sailthru.com (173.228.155.20) by pmta29.sailthru.com id hekrvc2sd4s8 for <bloomberg@khamel.com>; Wed, 16 Nov 2022 14:20:22 -0500 (envelope-from <delivery_20221116141854.29719674.276531@mx.sailthru.com>)
+Received: from nj1-hotpine.flt (172.18.20.40) by njmta-20.sailthru.com id hekrvc1qqbsl for <bloomberg@khamel.com>; Wed, 16 Nov 2022 14:18:54 -0500 (envelope-from <delivery_20221116141854.29719674.276531@mx.sailthru.com>)
+Date: Wed, 16 Nov 2022 14:18:54 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20221116141854.29719674.276531@sailthru.com>
+Subject: Money Stuff: FTX Creates Crypto Contagion
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_10068758_1270063918.1668626334018"
+Precedence: bulk
+X-Feedback-ID: 6358:29719674:campaign:sailthru
+X-TM-ID: 20221116141854.29719674.276531
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-hotpine.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23chozui.5xdf/afc62064
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23chozui.5xdf/afc62064>, <mailto:unsubscribe_20221116141854.29719674.276531@mx.sailthru.com>
+X-rpcampaign: stjko29719674
+
+------=_Part_10068758_1270063918.1668626334018
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        I asked yesterday if there has ever been a liquidity crisis at a cr=
+ypto firm. I didn=E2=80=99t really get any answers.%3Cp%3EI%20actually%20go=
+t%20on
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Contagion
+   =20
+ =20
+
+I  asked yesterday if there has ever been a liquidity crisis at a crypto fi=
+rm. I didn=E2=80=99t really get any answers.
+  [1]
+=C2=A0But you could imagine how it might go:
+=09A well capitalized conservatively managed crypto lender takes in deposit=
+s of crypto and lends them out to other crypto trading firms, against good =
+collateral.=09The firm is borrowing short to lend long: Its deposits can be=
+ recalled on demand, but its loans have longer terms and can=E2=80=99t be r=
+ecalled immediately.=09Everything is fine and great, the loans are performi=
+ng, the collateral is good.=09A huge huge huge huge crisis of confidence hi=
+ts the world of centralized crypto firms, for reasons having nothing to do =
+with this good upstanding crypto lender.=09Everyone demands their deposits =
+back, from this lender and from everyone else, due to the crisis of confide=
+nce.=09The lender doesn=E2=80=99t have their deposits, because it has loane=
+d them to good creditworthy borrowers with good collateral and can=E2=80=99=
+t get them back immediately.
+
+In this scenario, the lender is perfectly solvent =E2=80=94=C2=A0the money =
+is safe and will be paid back in full, reasonably soon, leaving more than e=
+nough to repay depositors =E2=80=94=C2=A0but illiquid. It is a classic norm=
+al bank run.
+Is that this? Man,  what do I know:
+
+The fallout from the collapse of Sam Bankman-Fried=E2=80=99s sprawling cryp=
+to empire spread Wednesday, with digital-asset brokerage Genesis and crypto=
+ exchange Gemini becoming the latest pain points.=C2=A0
+Genesis is suspending redemptions and new loan originations at its lending =
+business after facing what it described as =E2=80=9Cabnormal withdrawal req=
+uests.=E2=80=9D Gemini, founded by Cameron Winklevoss and Tyler Winklevoss,=
+ subsequently announced its yield product targeting retail investors will a=
+lso halt redemptions as Genesis was a key partner in the program.=C2=A0
+As a counterparty to many in the sector, Genesis=E2=80=99 financial health =
+has been closely watched as a gauge of the industry=E2=80=99s strength or f=
+or signs of potential contagion. Some of Genesis=E2=80=99 biggest lenders i=
+nclude crypto exchange Gemini, which offers a product to users to generate =
+yield through Genesis, according to its website. On Wednesday, Gemini annou=
+nced that it=E2=80=99s working with Genesis to help customers redeem their =
+funds from the Earn product =E2=80=9Cas quickly as possible.=E2=80=9D =E2=
+=80=A6
+Genesis=E2=80=99s withdrawal requests exceeded current liquidity at Genesis=
+ Global Capital, the lending arm, according to interim Chief Executive Offi=
+cer Derar Islim. The New York-based company has hired advisers to explore a=
+ll possible options, including raising new funding, and will deliver a plan=
+ for its lending business next week, Islim said. Alvarez & Marsal and the l=
+aw firm Cleary Gottlieb are advising Genesis.
+
+We talked yesterday about Binance Holdings Ltd.=E2=80=99s  proposal for a s=
+ort of central bank of crypto, an =E2=80=9Cindustry recovery fund=E2=80=9D =
+that would =E2=80=9Chelp projects who are otherwise strong, but in a liquid=
+ity crisis.=E2=80=9D The sudden collapse of Sam Bankman-Fried=E2=80=99s cry=
+pto exchange FTX.com, and his associated crypto hedge fund Alameda Research=
+,=C2=A0could=C2=A0trigger liquidity crises at otherwise healthy crypto firm=
+s. Or, of course, not. Those firms could have had assets at FTX that are no=
+w gone. Or they could have made undercollateralized loans to Alameda that a=
+re now gone. What do I know. In any case the FTX collapse triggered a crisi=
+s of confidence that spread to other firms, healthy or not.
+One solution to this problem is that the central bank of crypto could sort =
+it out: Firms that run into trouble could go to Binance, and Binance could =
+examine their books and decide if they=E2=80=99re solvent, and if they are =
+then the industry recovery fund could lend them the money to keep their doo=
+rs open. It  seems to be moving forward:
+
+Binance Chief Executive Changpeng Zhao said on Wednesday there was signific=
+ant interest from industry players in a recovery fund his company plans to =
+launch to help crypto projects facing a liquidity squeeze following the col=
+lapse of rival FTX.
+Speaking at a conference in Abu Dhabi, Zhao said he doesn't have an exact f=
+igure in mind for the size of the recovery fund.
+"There are players that have strong financials and we should band together;=
+ we've got significant interest so far," he said, declining to name other e=
+xchanges or institutions at this point.
+
+But isn=E2=80=99t that a weird solution, for crypto? That some fund run by =
+the biggest exchange would examine each firm=E2=80=99s secret balance sheet=
+s and decide who is worthy of a bailout? What if =E2=80=A6=C2=A0what if the=
+re was some sort of=C2=A0decentralized=C2=A0solution? For instance, what if=
+ crypto firms made their balance sheets=C2=A0public, perhaps with some sort=
+ of auditing from a neutral expert=C2=A0accountant, so that investors could=
+ decide for themselves which firms were solvent and which were in trouble?
+Oh I am kidding, a little. Of course my point is that this is how normal pu=
+blic companies in traditional finance=C2=A0=E2=80=94=C2=A0including big ban=
+ks =E2=80=94=C2=A0work. But it is not like the published audited quarterly =
+balance sheets of big public=C2=A0traditional financial institutions actual=
+ly tell you all=C2=A0that=C2=A0much about their financial health, in a cris=
+is; they are mostly too complicated and too delayed to provide definitive a=
+nswers to questions like =E2=80=9Cdid this bank run out of money an hour ag=
+o?=E2=80=9D But they help. The actual method that traditional finance has h=
+it upon for addressing these problems is a complex combination of (1) publi=
+c financial disclosure, (2) safety-and-soundness regulation to keep banks f=
+rom taking too many dumb risks, (3) capital and liquidity regulation to mak=
+e sure they have enough money, (4) central bank liquidity support, (5) depo=
+sit insurance for customers, etc.
+Even=C2=A0before last week=E2=80=99s FTX meltdown,   I liked to say=C2=A0th=
+at the crypto industry managed to reinvent the 2008 financial crisis, compl=
+ete with opaque leverage and financial contagion. And for ages I have been =
+saying that crypto is in the business of re-learning all the lessons of tra=
+ditional finance. This week, it is learning the lesson of =E2=80=9Cit is go=
+od to have a central bank.=E2=80=9D But I am not sure that=E2=80=99s the=C2=
+=A0best=C2=A0lesson to learn here? And it is certainly not the=C2=A0only=C2=
+=A0one.=C2=A0
+ Elsewhere:
+
+BlockFi, which said in a Monday blog post that it had =E2=80=9Csignificant =
+exposure=E2=80=9D to FTX and the company=E2=80=99s related entities, is pre=
+paring a potential bankruptcy filing, the Wall Street Journal reported. Blo=
+ckFi halted withdrawals last week over uncertainties about FTX.=C2=A0 =E2=
+=80=A6
+Bankrupt crypto lender Voyager was forced to try to find a replacement buye=
+r for its assets after concluding FTX wouldn=E2=80=99t close a planned $1.4=
+ billion deal to buy the company.
+=E2=80=9CI don=E2=80=99t think we=E2=80=99ve seen the end of the contagion =
+factor or the fear that is running through the market,=E2=80=9D Voyager=E2=
+=80=99s main bankruptcy attorney Joshua Sussberg said during a court hearin=
+g Tuesday.
+
+BlockFi and Voyager are both examples of troubled crypto firms that got bai=
+louts from the central bank of crypto, back this summer when that central b=
+ank=C2=A0was FTX. Trusting one guy to save the crypto financial system in c=
+risis introduces its own, pretty obvious risks.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Tweeting through it
+   =20
+ =20
+
+Here are some=C2=A0tweets that Sam Bankman-Fried=C2=A0tweeted last night:
+
+A few weeks ago, FTX was handling ~$10b/day of volume and billions of trans=
+fers.
+But there was too much leverage--more than I realized. =C2=A0A run on the b=
+ank and market crash exhausted liquidity.
+So what can I try to do? =C2=A0Raise liquidity, make customers whole, and r=
+estart.
+Maybe I'll fail. Maybe I won't get anything more for customers than what's =
+already there.
+I've certainly failed before. You all know that now, all too well.
+But all I can do is to try. I've failed enough for the month.
+And part of me thinks I might get somewhere.
+I know you've all seen this, but here's where things stand today, roughly s=
+peaking. [LOTS OF CAVEATS, ETC.]
+Liquid: -$8bSemi: +$5.5bIlliquid: +$3.5b
+And yeah, maybe that $9b illiquid M2M isn't worth $9b (+$1b net). OTOH--a m=
+onth ago it was worth $18b; +$10b net.
+
+We talked on Monday about the  rough balance sheet that FTX sent around to =
+investors last week in a desperate effort to raise more capital before fili=
+ng for bankruptcy on Friday.=C2=A0=E2=80=9CFTX=E2=80=99s Balance Sheet Was =
+Bad,=E2=80=9D was my headline.
+  [2]
+=C2=A0=E2=80=9CIt=E2=80=99s an Excel file full of the howling of ghosts and=
+ the shrieking of tortured souls,=E2=80=9D I wrote. =E2=80=9CIf you look to=
+o long at that spreadsheet, you will go insane.=E2=80=9D I will not repeat =
+too much of my reasoning here =E2=80=94=C2=A0  go read Monday=E2=80=99s pos=
+t if you want =E2=80=94=C2=A0but the=C2=A0main=C2=A0point was that, of the=
+=C2=A0$9.6 billion of assets reflected on that balance sheet at market valu=
+es last week, at least $3.3 billion was in crypto tokens (mainly FTT, SRM a=
+nd MAPS) that were created by FTX, were held mainly by FTX, and were tied t=
+o the future value of FTX=E2=80=99s businesses.
+  [3]
+=C2=A0My guess was that the actual realizable market value of those tokens =
+is much closer to zero than it is to $3.3=C2=A0billion.
+  [4]
+
+But the numbers in Bankman-Fried=E2=80=99s tweet last night =E2=80=94=C2=A0=
+negative $8 billion of net liquid assets, but $5.5 billion of =E2=80=9Csemi=
+-liquid=E2=80=9D assets and $3.5 billion of illiquid assets, for a net equi=
+ty of positive $1 billion =E2=80=94 reflect almost exactly=C2=A0what=E2=80=
+=99s on that balance sheet. The only possible conclusion is that he is=C2=
+=A0shopping that same balance sheet, the one we all saw and gasped at, afte=
+r filing for bankruptcy, in the hopes of raising enough money (roughly $8 b=
+illion
+  [5]
+) to pay out his customers.
+I don=E2=80=99t know what to say about that except that it=E2=80=99s amazin=
+g? I want it to work, because if it does it will be one of the most surpris=
+ing and interesting financial-markets developments ever. Imagine a world wh=
+ere it works. Imagine that this evening Bankman-Fried tweets =E2=80=9Cgood =
+news, Investor X has agreed to put in $8 billion, due diligence is complete=
+ and the check has cleared, all customer withdrawals will be honored immedi=
+ately,=E2=80=9D and it=E2=80=99s all true.
+In that imaginary world, how could you explain Investor X=E2=80=99s decisio=
+n? Here are some possible scenarios:
+=09Bankman-Fried is right, and I am wrong, about FTX=E2=80=99s balance shee=
+t. The stuff that he classifies as =E2=80=9Csemi-liquid=E2=80=9D and =E2=80=
+=9Cilliquid,=E2=80=9D which he marks to market at $9 billion, really is wor=
+th at least $9 billion. Investor X does its due diligence on these assets a=
+nd concludes that those tokens that FTX made up really are worth at least $=
+3.3 billion, and it is correct, and it buys FTX and makes customers whole a=
+nd does well because it acquired at least $9 billion of assets for $8 billi=
+on. This scenario would, among other things, be incredibly bullish for cryp=
+to. The takeaway would be that tokens made up by a crypto exchange, tokens =
+tied to the future revenue of that exchange, retain their value=C2=A0even w=
+hen that exchange goes bankrupt after misplacing customer funds. The FTT to=
+ken is valuable, if at all, because you can use it to get discounts on trad=
+ing fees at FTX, and because it shares in the trading fees that FTX collect=
+s. What is the present value of those benefits, today? If your answer is =
+=E2=80=9Cat least half a billion dollars,=E2=80=9D that=E2=80=99s just=C2=
+=A0amazing.=09A variation on that scenario is something like: FTX=E2=80=99s=
+ stash of crypto assets=C2=A0is worthless, but FTX=E2=80=99s business=C2=A0=
+=E2=80=94=C2=A0the exchange, the technology, the customer goodwill, etc. =
+=E2=80=94=C2=A0is worth more than $8=C2=A0billion, so if you buy it and mak=
+e customers whole you=E2=80=99ll make a profit. Again that seems challengin=
+g,=C2=A0now. If you buy FTX, you=E2=80=99ll have to work pretty hard to kee=
+p the customers.=C2=A0=09I am right, and Bankman-Fried is wrong, about FTX=
+=E2=80=99s balance sheet, but Investor X is also wrong. =E2=80=9CSRM is the=
+ token of a decentralized crypto exchange protocol called Serum, and if Ser=
+um takes off then SRM holders will share in the trading fees on Serum, and =
+Serum is poised to be enormously valuable, so our stash of SRM is worth bil=
+lions, so you should give us billions=C2=A0for it,=E2=80=9D is roughly the =
+pitch here; in this scenario that pitch is=C2=A0wrong=C2=A0but it=C2=A0work=
+s. Investor X is like =E2=80=9Cooh decentralized finance, that can=E2=80=99=
+t miss, the market is huge, $8 billion for all of these tokens is a bargain=
+,=E2=80=9D and just hands over the $8 billion for a pile of magic beans tha=
+t turn out to be worthless. And Investor X, rather than FTX=E2=80=99s custo=
+mers, is left holding the bag. This scenario seems far-fetched, but in broa=
+d outlines it is=C2=A0a thing that worked not so long ago.=C2=A0Could you g=
+et venture capitalists to put in hundreds of millions of dollars, at least,=
+ to back FTX and to invest in tokens with some vague promise of utility in =
+a decentralized-finance future? Sure, you could. Can you do it=C2=A0now, at=
+ FTX, which is=C2=A0in bankruptcy=C2=A0for=C2=A0very notoriously misplacing=
+ customer money? I mean! No. But I can see why Bankman-Fried might try.=09I=
+ am right about FTX=E2=80=99s balance sheet, and Investor X knows it, but I=
+nvestor X doesn=E2=80=99t care. Investor X figures that FTX=E2=80=99s asset=
+s are worth less than $8 billion =E2=80=94=C2=A0though probably more than z=
+ero =E2=80=94=C2=A0and is willing to lose some number of billions of dollar=
+s to achieve some other purpose. Presumably =E2=80=94=C2=A0in this very hyp=
+othetical scenario =E2=80=94=C2=A0that other purpose is something like =E2=
+=80=9Cmaintain market confidence in crypto.=E2=80=9D If you are a huge well=
+-capitalized crypto mogul or business, losing a few billion dollars to stem=
+ the contagion here and prop up the crypto market generally might almost ma=
+ke sense? (If you are a huge, secretly=C2=A0poorly capitalized crypto busin=
+ess, doing that could also make sense, to avoid a run on your=C2=A0own=C2=
+=A0business.) This is roughly the reasoning that SBF himself used in buying=
+=C2=A0other=C2=A0busted crypto firms earlier this year: =E2=80=9CThe explic=
+it working principle we had,=E2=80=9D   he told me at the Bloomberg Crypto =
+Summit in July,=C2=A0=E2=80=9Cwas that it=E2=80=99s okay to do a deal that =
+is moderately bad =E2=80=A6=C2=A0like, we are incinerating a relatively sma=
+ll-ish amount of money in doing this,=E2=80=9D in order to keep the crypto =
+ecosystem healthy and =E2=80=9Cbe a good constructive actor in this space.=
+=E2=80=9D FTX and Alameda seem to have spent perhaps hundred of millions of=
+ dollars on this project, whereas Investor X would need to put billions int=
+o FTX, and it is hard to imagine who would want to do that. The most obviou=
+s answer is Binance Holdings Ltd., the biggest centralized crypto exchange,=
+ and it already   considered=C2=A0bailing out FTX and passed. But could you=
+ imagine some group of investors whose fortunes are so tied to crypto, and =
+who are so worried about the knock-on effects of FTX failing, that they wou=
+ld step in and incinerate=C2=A0billions of their own dollars to protect FTX=
+=E2=80=99s customers? I mean, it is hard. We talked yesterday, and above, a=
+bout   Binance=E2=80=99s plans for a sort of central bank of crypto. In 200=
+8, central banks did step in to save some pretty busted businesses, in orde=
+r to preserve the financial system as a whole. Is that a good analogy?=C2=
+=A0
+
+I should be clear that I rate all of these outcomes=C2=A0as=C2=A0extremely=
+=C2=A0unlikely. I do not think that Bankman-Fried is going to raise $8 bill=
+ion for his bankrupt exchange by tweeting about=C2=A0that=C2=A0balance shee=
+t. But it would be quite something if he did.
+Elsewhere,  Reuters has an in-depth report on FTX=E2=80=99s collapse, inclu=
+ding Bankman-Fried=E2=80=99s previous efforts to raise money:
+
+As customers withdrew billions of dollars from crypto exchange FTX one fran=
+tic Sunday this month, founder Sam Bankman-Fried worked the phones in a fut=
+ile bid to raise $7 billion in emergency funds.
+Hunkered in his Bahamas apartment, Bankman-Fried toiled through the night, =
+calling some of the world's biggest investors, including Sequoia Capital, A=
+pollo Global Management Inc. and TPG Inc,, according to three people with k=
+nowledge of the matter.
+Sequoia was among investors that lined up only months before to pump money =
+into Bankman-Fried's empire. But not now. Sequoia was shocked at the amount=
+ of money Bankman-Fried needed to save FTX, according to the sources, while=
+ Apollo first asked for more information, only to later decline. =E2=80=A6
+He sought to persuade officials at major financial institutions such as Sau=
+di Arabia's Public Investment Fund and Japanese investment bank Nomura Hold=
+ings Inc. to invest, according to a message he sent on Thursday to advisors=
+, along with two other people familiar with the talks. Those appeals are re=
+ported here for the first time. PIF and Nomura did not comment.
+Bankman-Fried also tried to get a group of crypto firms to each pitch in $1=
+ billion. But a balance sheet FTX sent to investors, showing only $900 mill=
+ion in liquid assets, spooked them, according to two people familiar with t=
+he matter.
+
+So the most promising=C2=A0targets said no a week ago, but I guess you gott=
+a keep trying.
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Clearing
+   =20
+ =20
+
+Earlier this year a big trader on the London Metals Exchange   ran into tro=
+uble. He had a huge short position in nickel futures, and the price of nick=
+el went up a lot when Russia invaded Ukraine. As a result, this trader =E2=
+=80=94=C2=A0Xiang Guangda of Tsingshan Holding Group Co. =E2=80=94 had big =
+losses, and the LME called his brokers and demanded that they post more col=
+lateral against his losing positions. The brokers called him for collateral=
+, and he didn=E2=80=99t have it. So the brokers liquidated his nickel posit=
+ions =E2=80=94=C2=A0no, just kidding, Xiang was too big and important, so t=
+he brokers did=C2=A0not=C2=A0liquidate his futures positions. Instead there=
+ was   a sort of weird ad hoc scramble in which the brokers loaned him some=
+ money to keep him afloat, the LME=C2=A0shut down trading for a week=C2=A0s=
+o he wouldn=E2=80=99t have to liquidate, and it=C2=A0reversed some trades t=
+hat had already happened=C2=A0so that he wouldn=E2=80=99t lose too much mon=
+ey. Eventually, in some sense, this =E2=80=9Cworked=E2=80=9D: The price of =
+nickel normalized, the LME reopened, and Xiang was able to close out his po=
+sitions at a more modest loss.
+People got really mad about this, for a number of reasons. For one thing it=
+ seems unfair to cancel trades to bail out one big trader; it is arbitrary,=
+ and the opposite of how markets are supposed to work, and particularly har=
+sh for the people on the other side of the trades. Also Xiang was a well-co=
+nnected Chinese metals tycoon, and the LME is Hong Kong-owned, and  there w=
+ere some theories about the LME bending its rules for=C2=A0favored clients.=
+ Also it just exposed a certain ricketiness in the system: Shouldn=E2=80=99=
+t the LME manage risk and positions so that it=C2=A0doesn=E2=80=99t=C2=A0ha=
+ve to shut down for a week because someone made a bad trade?
+A bit later, FTX proposed a plan to get into the business of futures tradin=
+g in the US with a novel clearing structure. We   discussed this proposal i=
+n June, and here I am going to oversimplify it, but for our purposes the tw=
+o key innovations were:
+=09In traditional futures market structure, the exchange (like LME) takes c=
+ollateral from brokers, and the brokers take collateral from their customer=
+s who have positions. In FTX=E2=80=99s proposal, the exchange (FTX) would f=
+ace customers directly, cutting out middlemen and holding the customers=E2=
+=80=99 collateral to support their trades.=09In traditional futures market =
+structure, there are some delays and fuzziness around margin calls. If your=
+ position moves against you, the exchange will call your broker for more co=
+llateral, and your broker will call you for more collateral. But there will=
+ be some time between when the position moves against you and when you get =
+called for collateral =E2=80=94=C2=A0during which things might get worse, o=
+r they might recover. And if you=E2=80=99re big enough and your broker call=
+s you for collateral, you can try saying things like =E2=80=9Cno,=E2=80=9D =
+and it might work, as it did for Xiang. The exchanges sometimes make the ju=
+dgment call that, if a trader doesn=E2=80=99t post collateral, they=E2=80=
+=99ll let it go, because putting that trader in default will cause a bigger=
+ crisis. =E2=80=9CWe chose to give the appropriate amount of time not to di=
+slocate the market and create a bigger stress on that,=E2=80=9D an executiv=
+e of a traditional exchange  said about one hair-raising day in the markets=
+, in discussions about FTX=E2=80=99s proposal. And: =E2=80=9CI had the keys=
+ to the castle at that point in time, and it would=E2=80=99ve been a very b=
+ad day.=E2=80=9D Meanwhile FTX=E2=80=99s proposal was to recalculate margin=
+ requirements every 30 seconds, 24 hours a day, and if a trader=E2=80=99s m=
+argin fell below the requirements, that trader would automatically and inst=
+antly be liquidated, with no room for judgment or delay.=C2=A0
+
+This, FTX implied, was how its own international crypto futures exchange al=
+ready operated (outside of US regulation), and it was good. It reduced cred=
+it risk and made markets fairer and more orderly. When we talked about it i=
+n June, I was =E2=80=A6=C2=A0interested but equivocal. The FTX model struck=
+ me as a bit more rigid and crypto-y and =E2=80=9Ccode is law=E2=80=9D than=
+ you might want; sometimes you=E2=80=99ll=C2=A0miss a margin call because y=
+ou=E2=80=99re asleep and that seems harsh. On the other hand, the LME exper=
+ience was fresh in everyone=E2=80=99s mind, and the FTX proposal seemed lik=
+e an improvement over=C2=A0that. I wrote:
+There are=C2=A0debates about whether this is good or bad; simplistically, y=
+ou=E2=80=99d expect the FTX model to lead to=C2=A0more=C2=A0defaults and li=
+quidations, but for those defaults to be=C2=A0less bad. In the traditional =
+system, sometimes people will have a =E2=80=9Ctechnical issue,=E2=80=9D and=
+ the exchange will =E2=80=9Cgive the appropriate amount of time not to disl=
+ocate the market and create a bigger stress on that,=E2=80=9D and it will w=
+ork out fine =E2=80=94=C2=A0but occasionally it=C2=A0won=E2=80=99t=C2=A0wor=
+k out fine, and by delaying the exchange will have caused a much bigger pro=
+blem.
+Anyway the proposal got a lot of attention, and a lot of people and firms f=
+rom traditional finance argued both sides. Loosely speaking I would say tha=
+t traditional exchange operators did not like this proposal, while electron=
+ic high-frequency-trader-type firms thought it was an improvement over the =
+current system of exchange operators=C2=A0having a lot of discretion.
+Last week FTX blew up. We are still learning the details of how it blew up,=
+ but the leading explanation seems to have roughly=C2=A0these features:
+=09Alameda Research, a crypto hedge fund that is affiliated with FTX (both =
+founded by Sam Bankman-Fried, both run out of the same group apartment in t=
+he Bahamas, etc.), had huge leveraged positions on FTX and elsewhere.=09FTX=
+ loaned Alameda lots of money to keep those positions going.=09As Alameda=
+=E2=80=99s problems got worse, FTX gave it more money, rather than shutting=
+ it down and liquidating its positions.=09By delaying, the exchange caused =
+a much bigger problem, ultimately bringing down FTX and Alameda and vaporiz=
+ing customer money.
+
+I don=E2=80=99t know. I am not sure that explanation is exactly right. But =
+=E2=80=A6=C2=A0doesn=E2=80=99t it look like LME? Doesn=E2=80=99t it look li=
+ke =E2=80=9CI had the keys to the castle at that point in time, and it woul=
+d=E2=80=99ve been a very bad day=E2=80=9D? Doesn=E2=80=99t it look like an =
+exchange bending its rules to extend more credit to a well-connected inside=
+r whale? And then the whale taking everyone else down with it? Alameda was=
+=C2=A0not=C2=A0getting blown out as soon as its positions moved against it;=
+ Alameda was accumulating more and more risk until the whole exchange came =
+down.
+This is all a bit speculative, but I think two reasonable lessons to take f=
+rom=C2=A0FTX=E2=80=99s blowup might be something like:
+=09At the margin, you should be=C2=A0less=C2=A0persuaded=C2=A0by FTX=E2=80=
+=99s proposal to have exchanges hold customer collateral directly: This is =
+a reminder that exchanges can=E2=80=99t always be trusted with customer mon=
+ey, and distributing that risk to many brokers might be better.=09At the ma=
+rgin, you should be=C2=A0more=C2=A0persuaded by FTX=E2=80=99s proposal to h=
+ave margining be automatic and instantaneous: This is a reminder that, when=
+ exchanges have discretion about extending credit to big well-connected wha=
+les, they sometimes make disastrous decisions.
+
+Anyway here are two Bloomberg News articles looking back at FTX=E2=80=99s p=
+roposal.   Annie Massa, Katherine Doherty and Isis Almeida report today abo=
+ut a Futures Industry Association conference this week; it=C2=A0was suppose=
+d to be sponsored by FTX until last week=E2=80=99s unpleasantness:
+
+=E2=80=9CThere are a few people in the industry that need to think hard abo=
+ut how someone can appear from nowhere and become the primary sponsor when =
+others have been around for twenty-plus years,=E2=80=9D Trading Technologie=
+s Chief Executive Officer Keith Todd said. =E2=80=9CThis is a wake up call.=
+ The adults need to run this industry. We need innovators, but also adults.=
+=E2=80=9D =E2=80=A6
+At the conference, Gerry Corcoran described a feeling of relief. Corcoran i=
+s the CEO of R.J. O=E2=80=99Brien & Associates, one of the futures market i=
+ntermediaries that FTX.US was trying to skirt around.
+=E2=80=9CThe current system in place for the futures industry is safe, robu=
+st, and proved over time,=E2=80=9D Corcoran said in an interview.
+
+And Michael Regan   rounds up FTX=E2=80=99s supporters:
+
+From Fidelity Investments to Fortress Investment Group, Susquehanna Interna=
+tional Group and Virtu Financial, from faculty members at Georgetown, the U=
+niversity of Chicago, William & Mary and Stanford, from the Jones Day law f=
+irm and the Heritage Foundation think tank, hundreds of letters in support =
+of FTX=E2=80=99s plan landed with the CFTC earlier this year.=C2=A0
+Collectively, the comments highlight how, even in some of the most sophisti=
+cated corridors of finance, Bankman-Fried=E2=80=99s operation had been look=
+ed upon as an important source of innovation with the potential to helpfull=
+y disrupt not just the crypto industry but traditional markets as well. Ins=
+tead, FTX=E2=80=99s collapse revealed a tangle of businesses rife with the =
+potential for conflicts. Scant oversight jeopardized customers=E2=80=99 fun=
+ds, leaving a gaping balance-sheet hole that sent the firm into bankruptcy.=
+=C2=A0
+
+Yeah I mean fine, I guess, but in some ways wasn=E2=80=99t it a=C2=A0good i=
+dea?
+
+ =20
+   =20
+      Culture
+   =20
+ =20
+
+There is definitely going to be a movie of the FTX meltdown. (Michael Lewis=
+ is already selling it.)=C2=A0Will it make a good movie? On the one hand, i=
+t will be set at a lavish penthouse in the Bahamas full of young people who=
+ want to change the world and/or misappropriate customer money. On the othe=
+r hand, Kevin Roose interviewed George Lerner, FTX=E2=80=99s =E2=80=9Cin-ho=
+use performance coach=E2=80=9D and psychiatrist, and he has some bad news o=
+n the sex and drugs front:
+
+Since FTX=E2=80=99s collapse, rumors have spread on Twitter that many FTX e=
+mployees took prescription stimulants, including Adderall, to enhance their=
+ productivity and work longer hours.
+But Dr. Lerner disputed that characterization. He said that some FTX employ=
+ees may have been given prescription medications to treat A.D.H.D., but tha=
+t the =E2=80=9Crate of A.D.H.D. in the company was in line with most tech c=
+ompanies.=E2=80=9D He said that he wrote some prescriptions to FTX employee=
+s, but only those he treated as part of his personal practice.
+
+And:
+
+Details about the romantic pairings reported by CoinDesk last week led some=
+ gossips on Twitter to dub FTX a =E2=80=9Cpolycule,=E2=80=9D a term for a w=
+eb of non-monogamous relationships.
+But Dr. Lerner rejected that idea, saying the company=E2=80=99s culture was=
+ far from orgiastic.
+=E2=80=9CIt=E2=80=99s a pretty tame place,=E2=80=9D Dr. Lerner said. =E2=80=
+=9CThe higher-ups, they mostly played chess and board games. There was no p=
+artying. They were undersexed, if anything.=E2=80=9D
+
+So probably not=C2=A0Wolf of Wall Street. Still, that=E2=80=99s fine. I rec=
+ently re-watched=C2=A0Margin Call, the best finance movie, and you could se=
+e this working in that genre. The dramatic moments are not the drug-fueled =
+orgies but the moment when the junior analyst notices the backdoor in the s=
+preadsheet. I would watch that kind of movie.
+Oh right that big Reuters report also includes this:
+
+According to the three FTX sources, only Bankman-Fried's innermost circle o=
+f associates knew about his use of client deposits: his co-founder and chie=
+f technology officer, Gary Wang; the head of engineering, Nishad Singh; and=
+ Caroline Ellison, chief executive of Alameda. Wang and Singh both worked w=
+ith Bankman-Fried at Alameda previously.
+Wang, Singh and Ellison did not return requests for comment.
+To conceal the transfers of customer funds to Alameda, Wang, a former Googl=
+e software developer, built a backdoor in FTX's book-keeping software, the =
+people said.
+Bankman-Fried often told employees tasked with monitoring the company's fin=
+ancials that the book-keeping system was "the ultimate source of truth" abo=
+ut the company's accounts, two of the people said. But the backdoor, known =
+only to his most trusted lieutenants, allowed Alameda to withdraw crypto de=
+posits without triggering internal red flags, they said.
+
+Seems bad.
+Elsewhere, Bloomberg   checked in with some crypto-industry employees about=
+ how they feel these days:
+
+Despite the massive losses and growing criticism that the industry is rife =
+with fraudsters and Ponzi schemes, a dozen industry employees interviewed b=
+y Bloomberg News said that while they=E2=80=99re rattled by the crisis, the=
+y remain committed to crypto and its potential =E2=80=94 even if that means=
+ enduring financial pain personally and professionally.=C2=A0
+Many gave up stable careers at big Wall Street firms including Goldman Sach=
+s and JPMorgan. They=E2=80=99ve watched as their personal investments evapo=
+rate and bonuses paid in crypto disappear. As jobs are cut and bankruptcies=
+ pile up, there are myriad reasons to head for the exits. But for now, the =
+true believers are unbowed, arguing that crypto=E2=80=99s long-term future =
+hasn=E2=80=99t been tainted by what they see as growing pains and a few bad=
+ actors.
+
+Look you could have written that in, like, 2014. Of course Bitcoin is way u=
+p since 2014, so in a sense you would have been right. But it=E2=80=99s a l=
+ot of years of growing pains and bad actors.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Musk issues ultimatum to staff: Commit to  =E2=80=98hardcore=E2=80=99 Twitt=
+er or take severance. Elon Musk Fires Twitter Employees Who Criticized Him.=
+=C2=A0  SpaceX Is in Funding Talks That Would Value It at Over $150 Billion=
+.=C2=A0Musk Claims No Role in Setting His   $55 Billion Pay Deal at Tesla. =
+Bay Area sports teams flee FTX after its spectacular collapse.=C2=A0FTX and=
+ Star Backers Including   Brady, Curry Sued by Investor.=C2=A0
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] I actually got one very funny answer, which is: =E2=80=9CMt. Gox?=E2=
+=80=9D A rough overview of the Mt. Gox story  is: (1) Mt. Gox was the large=
+st crypto exchange for a while, (2) in 2014 it got hacked and all its Bitco=
+ins were stolen, (3) it went bankrupt and customers had to wait for years f=
+or a recovery, (4) in the meantime it got back some but not all of its Bitc=
+oins, (5) also in the meantime the price of Bitcoin soared, so (6) by the t=
+ime the customers got their recovery, Mt. Gox had *way* more assets =E2=80=
+=94 measured in dollars and yen =E2=80=94 then the customers had lost. So a=
+t some level you could say =E2=80=9CMt. Gox had assets, it temporarily lost=
+ access to them, but then it got them back and had more than enough to pay =
+off all of its customers, so it was just a liquidity crisis.=E2=80=9D But n=
+ot really. For one thing, the customers *didn=E2=80=99t* all get paid back,=
+ measured in Bitcoin; they lost Bitcoins and got back fewer Bitcoins. (But =
+those Bitcoins were worth more dollars.) For another thing, getting all you=
+r assets stolen is traditionally a solvency problem, even if later you get =
+some of them back.
+
+
+  [2] A note on entities. That balance sheet is not the audited balance she=
+et of a particular legal entity running the FTX exchange. It is not the aud=
+ited balance sheet of anything, but as far as I can tell it is a spreadshee=
+t of all the stuff that FTX, Alameda Research and Sam Bankman-Fried can scr=
+ape together, offset by $9 billion of FTX customer liabilities. So some thi=
+ngs on that balance sheet =E2=80=94 in particular a stake in Robinhood Mark=
+ets Inc. =E2=80=94 seem to belong to Bankman-Fried entities that are not pa=
+rt of the FTX bankruptcy, but are being thrown in here to raise cash. I am =
+going to say =E2=80=9CFTX=E2=80=9D in the text but I mean more like =E2=80=
+=9Cthe FTX/Alameda/SBF consolidated group.=E2=80=9D One thing that I do not=
+ understand is the status of FTX.us, FTX=E2=80=99s US entity, which is sepa=
+rate from FTX but also seems to have shut withdrawals.
+
+
+  [3] That is: $554 million of the FTT token that provides fee discounts on=
+ FTX itself, $2,187 million of the SRM token of FTX=E2=80=99s Project Serum=
+ decentralized exchange, and $616 million of the MAPS token of another FTX =
+project. I think some other assets on that balance sheet might also fall in=
+to this category, though in smaller sizes. And $982 million of Solana=E2=80=
+=99s SOL token are also a risky proposition if you think that the success o=
+f the Solana blockchain depends in part on its ties to FTX.
+
+
+  [4] Also it is silly to be too precise here, but the balance sheet we all=
+ saw =E2=80=94 because the Financial Times published it =E2=80=94 is from l=
+ast Thursday. I don=E2=80=99t know exactly what time it took its prices fro=
+m, but I conservatively estimate that FTT and MAPS are down about 40% since=
+ then, with SRM down about 14%. That puts the value of this stash at about =
+$2.56 billion, down almost $800 million from last Thursday, almost enough t=
+o wipe out the net equity on that balance sheet.
+
+
+  [5] That number is, like, there is about $1 billion of liquid assets on t=
+he balance sheet, and about $9 billion owed to customers, so if you pay out=
+ the $1 billion and get $8 billion more of cash from an investor, you can p=
+ay off the customers. And then the investors who put in the $8 billion get =
+to keep the $9 billion of semi-liquid and illiquid assets, making this =E2=
+=80=94 on Bankman-Fried=E2=80=99s math =E2=80=94 an attractive deal for tho=
+se investors. That=E2=80=99s the theory.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23chozui.5xdf/5e1ebcef.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_10068758_1270063918.1668626334018
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+I asked yesterday if there has ever been a liquidity crisis at a crypto fir=
+m. I didn=E2=80=99t really get any answers.%3Cp%3EI%20actually%20got%20on
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29719674.276531/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yOTcxOTY3NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5OTYyMDUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB122ad695" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D29719674&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29996205&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29719674.276531/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMTE2MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjExMTYmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBaa1aca39"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29719674.276531/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yOTcxOTY3NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5OTYyMDUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC39605daf" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D29719674&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29996205&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Contagion</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/29719674.276531/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjItMTEtMTUvbWF0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1iaW5hbmNlLWZ0e=
+C1hbmQtY2Fycz9jbXBpZD1CQkQxMTE2MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0=
+bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjExMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R=
+1ZmY/607f07ceef4b8524a319a23cB562d98bb" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> asked yesterday</a> if the=
+re has ever been a liquidity crisis at a crypto firm. I didn=E2=80=99t real=
+ly get any answers.<a class=3D"footnote-index" href=3D"#footnote-1" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: none !important; ba=
+ckground-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0But you could imagine how it might go:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">A well capitalized conservatively man=
+aged crypto lender takes in deposits of crypto and lends them out to other =
+crypto trading firms, against good collateral.</li>=09<li style=3D"margin-b=
+ottom: 5px;">The firm is borrowing short to lend long: Its deposits can be =
+recalled on demand, but its loans have longer terms and can=E2=80=99t be re=
+called immediately.</li>=09<li style=3D"margin-bottom: 5px;">Everything is =
+fine and great, the loans are performing, the collateral is good.</li>=09<l=
+i style=3D"margin-bottom: 5px;">A huge huge huge huge crisis of confidence =
+hits the world of centralized crypto firms, for reasons having nothing to d=
+o with <em>this</em> good upstanding crypto lender.</li>=09<li style=3D"mar=
+gin-bottom: 5px;">Everyone demands their deposits back, from this lender an=
+d from everyone else, due to the crisis of confidence.</li>=09<li style=3D"=
+margin-bottom: 5px;">The lender doesn=E2=80=99t have their deposits, becaus=
+e it has loaned them to good creditworthy borrowers with good collateral an=
+d can=E2=80=99t get them back immediately.</li>
+</ol>
+<p style=3D"margin: 16px 0;">In this scenario, the lender is perfectly solv=
+ent =E2=80=94=C2=A0the money is safe and will be paid back in full, reasona=
+bly soon, leaving more than enough to repay depositors =E2=80=94=C2=A0but i=
+lliquid. It is a classic normal bank run.</p>
+<p style=3D"margin: 16px 0;">Is that this? Man, <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/29719674.276531/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMTYvY3J5cHRvLWJyb2tlcmFnZS1nZW5lc2lzLXN1=
+c3BlbmRzLXdpdGhkcmF3YWxzLWFuZC1vcmlnaW5hdGlvbnMtYXQtbGVuZGluZy1hcm0_Y21waWQ=
+9QkJEMTExNjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZX=
+R0ZXImdXRtX3Rlcm09MjIxMTE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524=
+a319a23cB09ec06eb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> what do I know</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The fallout from the collapse of Sam Bankman-F=
+ried=E2=80=99s sprawling crypto empire spread Wednesday, with digital-asset=
+ brokerage Genesis and crypto exchange Gemini becoming the latest pain poin=
+ts.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Genesis is suspending redemptions and new loan=
+ originations at its lending business after facing what it described as =E2=
+=80=9Cabnormal withdrawal requests.=E2=80=9D Gemini, founded by Cameron Win=
+klevoss and Tyler Winklevoss, subsequently announced its yield product targ=
+eting retail investors will also halt redemptions as Genesis was a key part=
+ner in the program.=C2=A0</p>
+<p style=3D"margin: 16px 0;">As a counterparty to many in the sector, Genes=
+is=E2=80=99 financial health has been closely watched as a gauge of the ind=
+ustry=E2=80=99s strength or for signs of potential contagion. Some of Genes=
+is=E2=80=99 biggest lenders include crypto exchange Gemini, which offers a =
+product to users to generate yield through Genesis, according to its websit=
+e. On Wednesday, Gemini announced that it=E2=80=99s working with Genesis to=
+ help customers redeem their funds from the Earn product =E2=80=9Cas quickl=
+y as possible.=E2=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Genesis=E2=80=99s withdrawal requests exceeded=
+ current liquidity at Genesis Global Capital, the lending arm, according to=
+ interim Chief Executive Officer Derar Islim. The New York-based company ha=
+s hired advisers to explore all possible options, including raising new fun=
+ding, and will deliver a plan for its lending business next week, Islim sai=
+d. Alvarez &amp; Marsal and the law firm Cleary Gottlieb are advising Genes=
+is.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">We talked yesterday about Binance Holdings Ltd=
+.=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/297196=
+74.276531/aHR0cHM6Ly90d2l0dGVyLmNvbS9jel9iaW5hbmNlL3N0YXR1cy8xNTkyMDQ0NDk2M=
+Tc0NjEyNDgy/607f07ceef4b8524a319a23cBcf9d8c72" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> proposal</a> for a =
+sort of central bank of crypto, an =E2=80=9Cindustry recovery fund=E2=80=9D=
+ that would =E2=80=9Chelp projects who are otherwise strong, but in a liqui=
+dity crisis.=E2=80=9D The sudden collapse of Sam Bankman-Fried=E2=80=99s cr=
+ypto exchange FTX.com, and his associated crypto hedge fund Alameda Researc=
+h,=C2=A0<em>could=C2=A0</em>trigger liquidity crises at otherwise healthy c=
+rypto firms. Or, of course, not. Those firms could have had assets at FTX t=
+hat are now gone. Or they could have made undercollateralized loans to Alam=
+eda that are now gone. What do I know. In any case the FTX collapse trigger=
+ed a crisis of confidence that spread to other firms, healthy or not.</p>
+<p style=3D"margin: 16px 0;">One solution to this problem is that the centr=
+al bank of crypto could sort it out: Firms that run into trouble could go t=
+o Binance, and Binance could examine their books and decide if they=E2=80=
+=99re solvent, and if they are then the industry recovery fund could lend t=
+hem the money to keep their doors open. It <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/29719674.276531/aHR0cHM6Ly93d3cucmV1dGVycy5jb20vdG=
+VjaG5vbG9neS9iaW5hbmNlLWNlby16aGFvLXNpZ25pZmljYW50LWludGVyZXN0LWNyeXB0by1pb=
+mR1c3RyeS1yZWNvdmVyeS1mdW5kLTIwMjItMTEtMTYv/607f07ceef4b8524a319a23cB3771a4=
+95" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> seems to be moving forward</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Binance Chief Executive Changpeng Zhao said on=
+ Wednesday there was significant interest from industry players in a recove=
+ry fund his company plans to launch to help crypto projects facing a liquid=
+ity squeeze following the collapse of rival FTX.</p>
+<p style=3D"margin: 16px 0;">Speaking at a conference in Abu Dhabi, Zhao sa=
+id he doesn't have an exact figure in mind for the size of the recovery fun=
+d.</p>
+<p style=3D"margin: 16px 0;">"There are players that have strong financials=
+ and we should band together; we've got significant interest so far," he sa=
+id, declining to name other exchanges or institutions at this point.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">But isn=E2=80=99t that a weird solution, for c=
+rypto? That some fund run by the biggest exchange would examine each firm=
+=E2=80=99s secret balance sheets and decide who is worthy of a bailout? Wha=
+t if =E2=80=A6=C2=A0what if there was some sort of=C2=A0<em>decentralized=
+=C2=A0</em>solution? For instance, what if crypto firms made their balance =
+sheets=C2=A0<em>public</em>, perhaps with some sort of auditing from a neut=
+ral expert=C2=A0accountant, so that investors could decide for themselves w=
+hich firms were solvent and which were in trouble?</p>
+<p style=3D"margin: 16px 0;">Oh I am kidding, a little. Of course my point =
+is that this is how normal public companies in traditional finance=C2=A0=E2=
+=80=94=C2=A0including big banks =E2=80=94=C2=A0work. But it is not like the=
+ published audited quarterly balance sheets of big public=C2=A0traditional =
+financial institutions actually tell you all=C2=A0<em>that=C2=A0</em>much a=
+bout their financial health, in a crisis; they are mostly too complicated a=
+nd too delayed to provide definitive answers to questions like =E2=80=9Cdid=
+ this bank run out of money an hour ago?=E2=80=9D But they help. The actual=
+ method that traditional finance has hit upon for addressing these problems=
+ is a complex combination of (1) public financial disclosure, (2) safety-an=
+d-soundness regulation to keep banks from taking too many dumb risks, (3) c=
+apital and liquidity regulation to make sure they have enough money, (4) ce=
+ntral bank liquidity support, (5) deposit insurance for customers, etc.</p>
+<p style=3D"margin: 16px 0;">Even=C2=A0before last week=E2=80=99s FTX meltd=
+own, <a href=3D"https://link.mail.bloombergbusiness.com/click/29719674.2765=
+31/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9mZWF0dXJlcy8yMDIyLXRoZS1jcnlwdG8tc3Rv=
+cnkvP2NtcGlkPUJCRDExMTYyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJ=
+jZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTExNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607=
+f07ceef4b8524a319a23cB8796f494" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">  I liked to say</a>=C2=A0that the =
+crypto industry managed to reinvent the 2008 financial crisis, complete wit=
+h opaque leverage and financial contagion. And for ages I have been saying =
+that crypto is in the business of re-learning all the lessons of traditiona=
+l finance. This week, it is learning the lesson of =E2=80=9Cit is good to h=
+ave a central bank.=E2=80=9D But I am not sure that=E2=80=99s the=C2=A0<em>=
+best=C2=A0</em>lesson to learn here? And it is certainly not the=C2=A0<em>o=
+nly=C2=A0</em>one.=C2=A0</p>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/29719674.276531/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjItMTEtMTUvZnR4LXMtY3J5cHRvLWNvbnRhZ2lvbi1pbmZlY3RzLWZpcm1zLWZyb20=
+tYmxvY2tmaS10by12b3lhZ2VyP2NtcGlkPUJCRDExMTYyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW=
+09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTExNiZ1dG1fY2FtcGFpZ=
+249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB1e34c0dc" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> Elsewhere</a>=
+:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">BlockFi, which said in a Monday blog post that=
+ it had =E2=80=9Csignificant exposure=E2=80=9D to FTX and the company=E2=80=
+=99s related entities, is preparing a potential bankruptcy filing, the Wall=
+ Street Journal reported. BlockFi halted withdrawals last week over uncerta=
+inties about FTX.=C2=A0 =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Bankrupt crypto lender Voyager was forced to t=
+ry to find a replacement buyer for its assets after concluding FTX wouldn=
+=E2=80=99t close a planned $1.4 billion deal to buy the company.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CI don=E2=80=99t think we=E2=80=99ve s=
+een the end of the contagion factor or the fear that is running through the=
+ market,=E2=80=9D Voyager=E2=80=99s main bankruptcy attorney Joshua Sussber=
+g said during a court hearing Tuesday.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">BlockFi and Voyager are both examples of troub=
+led crypto firms that got bailouts from the central bank of crypto, back th=
+is summer when that central bank=C2=A0<em>was FTX. </em>Trusting one guy to=
+ save the crypto financial system in crisis introduces its own, pretty obvi=
+ous risks.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29719674.276531/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yOTcxOTY3NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5OTYyMDUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD757659af" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D29719674&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29996205&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29719674.276531/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yOTcxOTY3NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5OTYyMDUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE757659af" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D29719674&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29996205&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29719674.276531/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yOTcxOTY3NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5OTYyMDUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFbad89ff3" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D29719674&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29996205&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29719674.276531/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yOTcxOTY3NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5OTYyMDUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGbad89ff3" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D29719674&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29996205&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Tweeting through it</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Here are some=C2=A0tweets that Sam Bankman-Fri=
+ed=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/29719674.2=
+76531/aHR0cHM6Ly90d2l0dGVyLmNvbS9TQkZfRlRYL3N0YXR1cy8xNTkyNzM5MzkzNTMzNzkyM=
+jU4/607f07ceef4b8524a319a23cBe258b917" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">tweeted last night</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A few weeks ago, FTX was handling ~$10b/day of=
+ volume and billions of transfers.</p>
+<p style=3D"margin: 16px 0;">But there was too much leverage--more than I r=
+ealized. =C2=A0A run on the bank and market crash exhausted liquidity.</p>
+<p style=3D"margin: 16px 0;">So what can I try to do? =C2=A0Raise liquidity=
+, make customers whole, and restart.</p>
+<p style=3D"margin: 16px 0;">Maybe I'll fail. Maybe I won't get anything mo=
+re for customers than what's already there.</p>
+<p style=3D"margin: 16px 0;">I've certainly failed before. You all know tha=
+t now, all too well.</p>
+<p style=3D"margin: 16px 0;">But all I can do is to try. I've failed enough=
+ for the month.</p>
+<p style=3D"margin: 16px 0;">And part of me thinks I might get somewhere.</=
+p>
+<p style=3D"margin: 16px 0;">I know you've all seen this, but here's where =
+things stand today, roughly speaking. [LOTS OF CAVEATS, ETC.]</p>
+<p style=3D"margin: 16px 0;">Liquid: -$8b<br />Semi: +$5.5b<br />Illiquid: =
++$3.5b</p>
+<p style=3D"margin: 16px 0;">And yeah, maybe that $9b illiquid M2M isn't wo=
+rth $9b (+$1b net). OTOH--a month ago it was worth $18b; +$10b net.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">We talked on Monday about the <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/29719674.276531/aHR0cHM6Ly93d3cuZn=
+QuY29tL2NvbnRlbnQvMGMyYTU1YjYtZDM0Yy00Njg1LThhOGQtM2M5NjI4ZjFmMTg1/607f07ce=
+ef4b8524a319a23cB95df0e37" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> rough balance sheet</a> that FTX sent a=
+round to investors last week in a desperate effort to raise more capital be=
+fore filing for bankruptcy on Friday.=C2=A0=E2=80=9CFTX=E2=80=99s Balance S=
+heet Was Bad,=E2=80=9D was my headline.<a class=3D"footnote-index" href=3D"=
+#footnote-2" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: n=
+one !important; background-color: transparent !important; display: inline-b=
+lock;">
+<span>[2]</span>
+</a>=C2=A0=E2=80=9CIt=E2=80=99s an Excel file full of the howling of ghosts=
+ and the shrieking of tortured souls,=E2=80=9D I wrote. =E2=80=9CIf you loo=
+k too long at that spreadsheet, you will go insane.=E2=80=9D I will not rep=
+eat too much of my reasoning here =E2=80=94=C2=A0<a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/29719674.276531/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMTQvZnR4LXMtYmFsYW5jZS1zaGVldC13YXM=
+tYmFkP2NtcGlkPUJCRDExMTYyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdX=
+JjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTExNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/60=
+7f07ceef4b8524a319a23cB0752167a" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">  go read Monday=E2=80=99s post if=
+ you want</a> =E2=80=94=C2=A0but the=C2=A0<em>main=C2=A0</em>point was that=
+, of the=C2=A0$9.6 billion of assets reflected on that balance sheet at mar=
+ket values last week, at least $3.3 billion was in crypto tokens (mainly FT=
+T, SRM and MAPS) that were created by FTX, were held mainly by FTX, and wer=
+e tied to the future value of FTX=E2=80=99s businesses.<a class=3D"footnote=
+-index" href=3D"#footnote-3" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: none !important; background-color: transparent !important; d=
+isplay: inline-block;">
+<span>[3]</span>
+</a>=C2=A0My guess was that the actual realizable market value of those tok=
+ens is much closer to zero than it is to $3.3=C2=A0billion.<a class=3D"foot=
+note-index" href=3D"#footnote-4" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: none !important; background-color: transparent !importan=
+t; display: inline-block;">
+<span>[4]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">But the numbers in Bankman-Fried=E2=80=99s twe=
+et last night =E2=80=94=C2=A0negative $8 billion of net liquid assets, but =
+$5.5 billion of =E2=80=9Csemi-liquid=E2=80=9D assets and $3.5 billion of il=
+liquid assets, for a net equity of positive $1 billion =E2=80=94 reflect al=
+most exactly=C2=A0what=E2=80=99s on that balance sheet. The only possible c=
+onclusion is that he is=C2=A0<em>shopping that same balance sheet, the one =
+we all saw and gasped at, after filing for bankruptcy</em>, in the hopes of=
+ raising enough money (roughly $8 billion<a class=3D"footnote-index" href=
+=3D"#footnote-5" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[5]</span>
+</a>) to pay out his customers.</p>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t know what to say about that ex=
+cept that it=E2=80=99s amazing? I want it to work, because if it does it wi=
+ll be one of the most surprising and interesting financial-markets developm=
+ents ever. Imagine a world where it works. Imagine that this evening Bankma=
+n-Fried tweets =E2=80=9Cgood news, Investor X has agreed to put in $8 billi=
+on, due diligence is complete and the check has cleared, all customer withd=
+rawals will be honored immediately,=E2=80=9D and it=E2=80=99s all true.</p>
+<p style=3D"margin: 16px 0;">In that imaginary world, how could you explain=
+ Investor X=E2=80=99s decision? Here are some possible scenarios:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Bankman-Fried is right, and I am wron=
+g, about FTX=E2=80=99s balance sheet. The stuff that he classifies as =E2=
+=80=9Csemi-liquid=E2=80=9D and =E2=80=9Cilliquid,=E2=80=9D which he marks t=
+o market at $9 billion, really is worth at least $9 billion. Investor X doe=
+s its due diligence on these assets and concludes that those tokens that FT=
+X made up really are worth at least $3.3 billion, and it is correct, and it=
+ buys FTX and makes customers whole and does well because it acquired at le=
+ast $9 billion of assets for $8 billion. This scenario would, among other t=
+hings, be <em>incredibly</em> bullish for crypto. The takeaway would be tha=
+t tokens made up by a crypto exchange, tokens tied to the future revenue of=
+ that exchange, retain their value=C2=A0<em>even when that exchange goes ba=
+nkrupt after misplacing customer funds</em>. The FTT token is valuable, if =
+at all, because you can use it to get discounts on trading fees at FTX, and=
+ because it shares in the trading fees that FTX collects. What is the prese=
+nt value of those benefits, today? If your answer is =E2=80=9Cat least half=
+ a billion dollars,=E2=80=9D that=E2=80=99s just=C2=A0<em>amazing</em>.</li=
+>=09<li style=3D"margin-bottom: 5px;">A variation on that scenario is somet=
+hing like: FTX=E2=80=99s stash of crypto assets=C2=A0is worthless, but FTX=
+=E2=80=99s <em>business</em>=C2=A0=E2=80=94=C2=A0the exchange, the technolo=
+gy, the customer goodwill, etc. =E2=80=94=C2=A0is worth more than $8=C2=A0b=
+illion, so if you buy it and make customers whole you=E2=80=99ll make a pro=
+fit. Again that seems challenging,=C2=A0<em>now</em>. If you buy FTX, you=
+=E2=80=99ll have to work pretty hard to keep the customers.=C2=A0</li>=09<l=
+i style=3D"margin-bottom: 5px;">I am right, and Bankman-Fried is wrong, abo=
+ut FTX=E2=80=99s balance sheet, but Investor X is also wrong. =E2=80=9CSRM =
+is the token of a decentralized crypto exchange protocol called Serum, and =
+if Serum takes off then SRM holders will share in the trading fees on Serum=
+, and Serum is poised to be enormously valuable, so our stash of SRM is wor=
+th billions, so you should give us billions=C2=A0for it,=E2=80=9D is roughl=
+y the pitch here; in this scenario that pitch is=C2=A0<em>wrong=C2=A0</em>b=
+ut it=C2=A0<em>works</em>. Investor X is like =E2=80=9Cooh decentralized fi=
+nance, that can=E2=80=99t miss, the market is huge, $8 billion for all of t=
+hese tokens is a bargain,=E2=80=9D and just hands over the $8 billion for a=
+ pile of magic beans that turn out to be worthless. And Investor X, rather =
+than FTX=E2=80=99s customers, is left holding the bag. This scenario seems =
+far-fetched, but in broad outlines it is=C2=A0<em>a thing that worked not s=
+o long ago.</em>=C2=A0Could you get venture capitalists to put in hundreds =
+of millions of dollars, at least, to back FTX and to invest in tokens with =
+some vague promise of utility in a decentralized-finance future? Sure, you =
+could. Can you do it<em>=C2=A0now</em>, at <em>FTX</em>, which is=C2=A0<em>=
+in bankruptcy=C2=A0</em>for=C2=A0<em>very notoriously misplacing customer m=
+oney</em>? I mean! No. But I can see why Bankman-Fried might try.</li>=09<l=
+i style=3D"margin-bottom: 5px;">I am right about FTX=E2=80=99s balance shee=
+t, and Investor X knows it, but Investor X doesn=E2=80=99t care. Investor X=
+ figures that FTX=E2=80=99s assets are worth less than $8 billion =E2=80=94=
+=C2=A0though probably more than zero =E2=80=94=C2=A0and is willing to lose =
+some number of billions of dollars to achieve some other purpose. Presumabl=
+y =E2=80=94=C2=A0in this very hypothetical scenario =E2=80=94=C2=A0that oth=
+er purpose is something like =E2=80=9Cmaintain market confidence in crypto.=
+=E2=80=9D If you are a huge well-capitalized crypto mogul or business, losi=
+ng a few billion dollars to stem the contagion here and prop up the crypto =
+market generally might almost make sense? (If you are a huge, secretly=C2=
+=A0<em>poorly </em>capitalized crypto business, doing that could also make =
+sense, to avoid a run on your=C2=A0<em>own=C2=A0</em>business.) This is rou=
+ghly the reasoning that SBF himself used in buying=C2=A0<em>other=C2=A0</em=
+>busted crypto firms earlier this year: =E2=80=9CThe explicit working princ=
+iple we had,=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/29719674.276531/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzI=
+wMjItMDctMTkvYmFua21hbi1mcmllZC1zYXlzLWNyeXB0by13aW50ZXItc2hpZnRzLWludmVzdG=
+9yLWZvY3VzLXRvLXByb2ZpdD9jbXBpZD1CQkQxMTE2MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtP=
+WVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjExMTYmdXRtX2NhbXBhaWdu=
+PW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB0a6e047d" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">  he told me</a>=
+ at the Bloomberg Crypto Summit in July,=C2=A0=E2=80=9Cwas that it=E2=80=99=
+s okay to do a deal that is moderately bad =E2=80=A6=C2=A0like, we are inci=
+nerating a relatively small-ish amount of money in doing this,=E2=80=9D in =
+order to keep the crypto ecosystem healthy and =E2=80=9Cbe a good construct=
+ive actor in this space.=E2=80=9D FTX and Alameda seem to have spent perhap=
+s hundred of millions of dollars on this project, whereas Investor X would =
+need to put billions into FTX, and it is hard to imagine who would want to =
+do that. The most obvious answer is Binance Holdings Ltd., the biggest cent=
+ralized crypto exchange, and it already <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/29719674.276531/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjItMTEtMTAvZnR4LWlzLXN0aWxsLWxvb2tpbmctZm9yLW1vbmV5=
+P2NtcGlkPUJCRDExMTYyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1=
+uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTExNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07c=
+eef4b8524a319a23cB50787d0a" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">  considered=C2=A0bailing out FTX</a> a=
+nd passed. But could you imagine some group of investors whose fortunes are=
+ so tied to crypto, and who are so worried about the knock-on effects of FT=
+X failing, that they would step in and incinerate=C2=A0billions of their ow=
+n dollars to protect FTX=E2=80=99s customers? I mean, it is hard. We talked=
+ yesterday, and above, about <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/29719674.276531/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fy=
+dGljbGVzLzIwMjItMTEtMTUvbWF0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1iaW5hbmNlLWZ0eC1=
+hbmQtY2Fycz9jbXBpZD1CQkQxMTE2MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV=
+9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjExMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1Z=
+mY/607f07ceef4b8524a319a23cC562d98bb" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">  Binance=E2=80=99s plans for=
+ a sort of central bank of crypto</a>. In 2008, central banks did step in t=
+o save some pretty busted businesses, in order to preserve the financial sy=
+stem as a whole. Is that a good analogy?=C2=A0</li>
+</ol>
+<p style=3D"margin: 16px 0;">I should be clear that I rate all of these out=
+comes=C2=A0as=C2=A0<em>extremely=C2=A0</em>unlikely. I do not think that Ba=
+nkman-Fried is going to raise $8 billion for his bankrupt exchange by tweet=
+ing about=C2=A0<em>that=C2=A0</em>balance sheet. But it would be quite some=
+thing if he did.</p>
+<p style=3D"margin: 16px 0;">Elsewhere, <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/29719674.276531/aHR0cHM6Ly93d3cucmV1dGVycy5jb20vdGVja=
+G5vbG9neS9mdHhzLWJhbmttYW4tZnJpZWQtYmVnZ2VkLXJlc2N1ZS1ldmVuLWhlLXJldmVhbGVk=
+LWh1Z2UtaG9sZXMtZmlybXMtYm9va3MtMjAyMi0xMS0xNi8/607f07ceef4b8524a319a23cB3d=
+ba9d58" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> Reuters has an in-depth report</a> on FTX=E2=80=99s collap=
+se, including Bankman-Fried=E2=80=99s previous efforts to raise money:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">As customers withdrew billions of dollars from=
+ crypto exchange FTX one frantic Sunday this month, founder Sam Bankman-Fri=
+ed worked the phones in a futile bid to raise $7 billion in emergency funds=
+.</p>
+<p style=3D"margin: 16px 0;">Hunkered in his Bahamas apartment, Bankman-Fri=
+ed toiled through the night, calling some of the world's biggest investors,=
+ including Sequoia Capital, Apollo Global Management Inc. and TPG Inc,, acc=
+ording to three people with knowledge of the matter.</p>
+<p style=3D"margin: 16px 0;">Sequoia was among investors that lined up only=
+ months before to pump money into Bankman-Fried's empire. But not now. Sequ=
+oia was shocked at the amount of money Bankman-Fried needed to save FTX, ac=
+cording to the sources, while Apollo first asked for more information, only=
+ to later decline. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">He sought to persuade officials at major finan=
+cial institutions such as Saudi Arabia's Public Investment Fund and Japanes=
+e investment bank Nomura Holdings Inc. to invest, according to a message he=
+ sent on Thursday to advisors, along with two other people familiar with th=
+e talks. Those appeals are reported here for the first time. PIF and Nomura=
+ did not comment.</p>
+<p style=3D"margin: 16px 0;">Bankman-Fried also tried to get a group of cry=
+pto firms to each pitch in $1 billion. But a balance sheet FTX sent to inve=
+stors, showing only $900 million in liquid assets, spooked them, according =
+to two people familiar with the matter.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">So the most promising=C2=A0targets said no a w=
+eek ago, but I guess you gotta keep trying.</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29719674.276531/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yOTcxOTY3NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5OTYyMDUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHad907d79" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D29719674&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29996205&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Clearing</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Earlier this year a big trader on the London M=
+etals Exchange <a href=3D"https://link.mail.bloombergbusiness.com/click/297=
+19674.276531/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMj=
+ItMDMtMTQvbmlja2VsLWJsb3d1cC1tYWRlLWEtbG90LW9mLXRyb3VibGU_Y21waWQ9QkJEMTExN=
+jIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRt=
+X3Rlcm09MjIxMTE2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB8=
+321a053" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">  ran into trouble</a>. He had a huge short position in ni=
+ckel futures, and the price of nickel went up a lot when Russia invaded Ukr=
+aine. As a result, this trader =E2=80=94=C2=A0Xiang Guangda of Tsingshan Ho=
+lding Group Co. =E2=80=94 had big losses, and the LME called his brokers an=
+d demanded that they post more collateral against his losing positions. The=
+ brokers called him for collateral, and he didn=E2=80=99t have it. So the b=
+rokers liquidated his nickel positions =E2=80=94=C2=A0no, just kidding, Xia=
+ng was too big and important, so the brokers did=C2=A0<em>not=C2=A0</em>liq=
+uidate his futures positions. Instead there was <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/29719674.276531/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDctMDcvbmlja2VsLWJpZy1zaG90LWNhbGxlZC10=
+aGUtc2hvdHM_Y21waWQ9QkJEMTExNjIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1=
+fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMTE2JnV0bV9jYW1wYWlnbj1tb25leXN0dW=
+Zm/607f07ceef4b8524a319a23cB5dbed131" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">  a sort of weird ad hoc scra=
+mble</a> in which the brokers loaned him some money to keep him afloat, the=
+ LME=C2=A0<em>shut down trading for a week=C2=A0</em>so he wouldn=E2=80=99t=
+ have to liquidate, and it=C2=A0<em>reversed some trades that had already h=
+appened=C2=A0</em>so that he wouldn=E2=80=99t lose too much money. Eventual=
+ly, in some sense, this =E2=80=9Cworked=E2=80=9D: The price of nickel norma=
+lized, the LME reopened, and Xiang was able to close out his positions at a=
+ more modest loss.</p>
+<p style=3D"margin: 16px 0;">People got really mad about this, for a number=
+ of reasons. For one thing it seems unfair to cancel trades to bail out one=
+ big trader; it is arbitrary, and the opposite of how markets are supposed =
+to work, and particularly harsh for the people on the other side of the tra=
+des. Also Xiang was a well-connected Chinese metals tycoon, and the LME is =
+Hong Kong-owned, and <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/29719674.276531/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9sb25kb24tbWV0YWwt=
+ZXhjaGFuZ2UtbG1lLWNoaW5hLWludGVyZmVyZW5jZS10cmFkaW5nLW5pY2tlbC1ydXNzaWEtY2F=
+uY2VsbGF0aW9uLTExNjQ4MjI2NDAz/607f07ceef4b8524a319a23cBffcb4239" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ there were some theories</a> about the LME bending its rules for=C2=A0favo=
+red clients. Also it just exposed a certain ricketiness in the system: Shou=
+ldn=E2=80=99t the LME manage risk and positions so that it=C2=A0<em>doesn=
+=E2=80=99t=C2=A0</em>have to shut down for a week because someone made a ba=
+d trade?</p>
+<p style=3D"margin: 16px 0;">A bit later, FTX proposed a plan to get into t=
+he business of futures trading in the US with a novel clearing structure. W=
+e <a href=3D"https://link.mail.bloombergbusiness.com/click/29719674.276531/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDYtMDEvY3J=
+5cHRvLWNsZWFyaW5nLWFuZC1jcmVkaXQ_Y21waWQ9QkJEMTExNjIyX01PTkVZU1RVRkYmdXRtX2=
+1lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMTE2JnV0bV9jY=
+W1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB6551d9d9" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">  discus=
+sed this proposal in June</a>, and here I am going to oversimplify it, but =
+for our purposes the two key innovations were:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">In traditional futures market structu=
+re, the exchange (like LME) takes collateral from brokers, and the brokers =
+take collateral from their customers who have positions. In FTX=E2=80=99s p=
+roposal, the exchange (FTX) would face customers directly, cutting out midd=
+lemen and holding the customers=E2=80=99 collateral to support their trades=
+.</li>=09<li style=3D"margin-bottom: 5px;">In traditional futures market st=
+ructure, there are some delays and fuzziness around margin calls. If your p=
+osition moves against you, the exchange will call your broker for more coll=
+ateral, and your broker will call you for more collateral. But there will b=
+e some time between when the position moves against you and when you get ca=
+lled for collateral =E2=80=94=C2=A0during which things might get worse, or =
+they might recover. And if you=E2=80=99re big enough and your broker calls =
+you for collateral, you can try saying things like =E2=80=9Cno,=E2=80=9D an=
+d it might work, as it did for Xiang. The exchanges sometimes make the judg=
+ment call that, if a trader doesn=E2=80=99t post collateral, they=E2=80=99l=
+l let it go, because putting that trader in default will cause a bigger cri=
+sis. =E2=80=9CWe chose to give the appropriate amount of time not to disloc=
+ate the market and create a bigger stress on that,=E2=80=9D an executive of=
+ a traditional exchange <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/29719674.276531/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMjE2ODY2ZTctY2VjY=
+i00NjUwLWFlYTUtYjlkZWRjN2Q3YzdjJw/607f07ceef4b8524a319a23cB31c35ed6" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> said about one hair-raising day in the markets</a>, in discussions about=
+ FTX=E2=80=99s proposal. And: =E2=80=9CI had the keys to the castle at that=
+ point in time, and it would=E2=80=99ve been a very bad day.=E2=80=9D Meanw=
+hile FTX=E2=80=99s proposal was to recalculate margin requirements every 30=
+ seconds, 24 hours a day, and if a trader=E2=80=99s margin fell below the r=
+equirements, that trader would automatically and instantly be liquidated, w=
+ith no room for judgment or delay.=C2=A0</li>
+</ol>
+<p style=3D"margin: 16px 0;">This, FTX implied, was how its own internation=
+al crypto futures exchange already operated (outside of US regulation), and=
+ it was good. It reduced credit risk and made markets fairer and more order=
+ly. When we talked about it in June, I was =E2=80=A6=C2=A0interested but eq=
+uivocal. The FTX model struck me as a bit more rigid and crypto-y and =E2=
+=80=9Ccode is law=E2=80=9D than you might want; sometimes you=E2=80=99ll=C2=
+=A0miss a margin call because you=E2=80=99re asleep and that seems harsh. O=
+n the other hand, the LME experience was fresh in everyone=E2=80=99s mind, =
+and the FTX proposal seemed like an improvement over=C2=A0<em>that</em>. I =
+wrote:</p>
+<blockquote><p style=3D"margin: 16px 0;">There are=C2=A0debates about wheth=
+er this is good or bad; simplistically, you=E2=80=99d expect the FTX model =
+to lead to=C2=A0<em>more=C2=A0</em>defaults and liquidations, but for those=
+ defaults to be=C2=A0<em>less bad</em>. In the traditional system, sometime=
+s people will have a =E2=80=9Ctechnical issue,=E2=80=9D and the exchange wi=
+ll =E2=80=9Cgive the appropriate amount of time not to dislocate the market=
+ and create a bigger stress on that,=E2=80=9D and it will work out fine =E2=
+=80=94=C2=A0but occasionally it=C2=A0<em>won=E2=80=99t=C2=A0</em>work out f=
+ine, and by delaying the exchange will have caused a much bigger problem.</=
+p></blockquote>
+<p style=3D"margin: 16px 0;">Anyway the proposal got a lot of attention, an=
+d a lot of people and firms from traditional finance argued both sides. Loo=
+sely speaking I would say that traditional exchange operators did not like =
+this proposal, while electronic high-frequency-trader-type firms thought it=
+ was an improvement over the current system of exchange operators=C2=A0havi=
+ng a lot of discretion.</p>
+<p style=3D"margin: 16px 0;">Last week FTX blew up. We are still learning t=
+he details of how it blew up, but the leading explanation seems to have rou=
+ghly=C2=A0these features:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Alameda Research, a crypto hedge fund=
+ that is affiliated with FTX (both founded by Sam Bankman-Fried, both run o=
+ut of the same group apartment in the Bahamas, etc.), had huge leveraged po=
+sitions on FTX and elsewhere.</li>=09<li style=3D"margin-bottom: 5px;">FTX =
+loaned Alameda lots of money to keep those positions going.</li>=09<li styl=
+e=3D"margin-bottom: 5px;">As Alameda=E2=80=99s problems got worse, FTX gave=
+ it more money, rather than shutting it down and liquidating its positions.=
+</li>=09<li style=3D"margin-bottom: 5px;">By delaying, the exchange caused =
+a much bigger problem, ultimately bringing down FTX and Alameda and vaporiz=
+ing customer money.</li>
+</ol>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t know. I am not sure that expla=
+nation is exactly right. But =E2=80=A6=C2=A0doesn=E2=80=99t it look like LM=
+E? Doesn=E2=80=99t it look like =E2=80=9CI had the keys to the castle at th=
+at point in time, and it would=E2=80=99ve been a very bad day=E2=80=9D? Doe=
+sn=E2=80=99t it look like an exchange bending its rules to extend more cred=
+it to a well-connected insider whale? And then the whale taking everyone el=
+se down with it? Alameda was=C2=A0<em>not=C2=A0</em>getting blown out as so=
+on as its positions moved against it; Alameda was accumulating more and mor=
+e risk until the whole exchange came down.</p>
+<p style=3D"margin: 16px 0;">This is all a bit speculative, but I think two=
+ reasonable lessons to take from=C2=A0FTX=E2=80=99s blowup might be somethi=
+ng like:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">At the margin, you should be=C2=A0<em=
+>less=C2=A0</em>persuaded=C2=A0by FTX=E2=80=99s proposal to have exchanges =
+hold customer collateral directly: This is a reminder that exchanges can=E2=
+=80=99t always be trusted with customer money, and distributing that risk t=
+o many brokers might be better.</li>=09<li style=3D"margin-bottom: 5px;">At=
+ the margin, you should be=C2=A0<em>more=C2=A0</em>persuaded by FTX=E2=80=
+=99s proposal to have margining be automatic and instantaneous: This is a r=
+eminder that, when exchanges have discretion about extending credit to big =
+well-connected whales, they sometimes make disastrous decisions.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Anyway here are two Bloomberg News articles lo=
+oking back at FTX=E2=80=99s proposal. <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/29719674.276531/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXd=
+zL2ZlYXR1cmVzLzIwMjItMTEtMTYvc2FtLWJhbmttYW4tZnJpZWQtcy1mdHgtY29sbGFwc2UtY2=
+91bGQtdmUtYmVlbi1tdWNoLXdvcnNlLWZvci13YWxsLXN0cmVldD9jbXBpZD1CQkQxMTE2MjJfT=
+U9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVy=
+bT0yMjExMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB1f32c4=
+9a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Annie Massa, Katherine Doherty and Isis Almeida report today=
+</a> about a Futures Industry Association conference this week; it=C2=A0was=
+ supposed to be sponsored by FTX until last week=E2=80=99s unpleasantness:<=
+/p>
+<blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CThere are a few people in the industr=
+y that need to think hard about how someone can appear from nowhere and bec=
+ome the primary sponsor when others have been around for twenty-plus years,=
+=E2=80=9D Trading Technologies Chief Executive Officer Keith Todd said. =E2=
+=80=9CThis is a wake up call. The adults need to run this industry. We need=
+ innovators, but also adults.=E2=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">At the conference, Gerry Corcoran described a =
+feeling of relief. Corcoran is the CEO of R.J. O=E2=80=99Brien &amp; Associ=
+ates, one of the futures market intermediaries that FTX.US was trying to sk=
+irt around.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe current system in place for the f=
+utures industry is safe, robust, and proved over time,=E2=80=9D Corcoran sa=
+id in an interview.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">And Michael Regan <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/29719674.276531/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMTUvZnR4LW9uY2UtaGFkLWZpZGVsaXR5LWZvcnRyZ=
+XNzLWJpZy1maW5hbmNlLXNvbGQtb24tZGVyaXZhdGl2ZXMtcGxhbj9jbXBpZD1CQkQxMTE2MjJf=
+TU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGV=
+ybT0yMjExMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBe0e40=
+c53" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  rounds up FTX=E2=80=99s supporters</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">From Fidelity Investments to Fortress Investme=
+nt Group, Susquehanna International Group and Virtu Financial, from faculty=
+ members at Georgetown, the University of Chicago, William &amp; Mary and S=
+tanford, from the Jones Day law firm and the Heritage Foundation think tank=
+, hundreds of letters in support of FTX=E2=80=99s plan landed with the CFTC=
+ earlier this year.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Collectively, the comments highlight how, even=
+ in some of the most sophisticated corridors of finance, Bankman-Fried=E2=
+=80=99s operation had been looked upon as an important source of innovation=
+ with the potential to helpfully disrupt not just the crypto industry but t=
+raditional markets as well. Instead, FTX=E2=80=99s collapse revealed a tang=
+le of businesses rife with the potential for conflicts. Scant oversight jeo=
+pardized customers=E2=80=99 funds, leaving a gaping balance-sheet hole that=
+ sent the firm into bankruptcy.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Yeah I mean fine, I guess, but in some ways wa=
+sn=E2=80=99t it a=C2=A0<em>good idea?</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Culture</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">There is definitely going to be a movie of the=
+ FTX meltdown. (Michael Lewis is <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/29719674.276531/aHR0cHM6Ly9naXptb2RvLmNvbS9mdHgtbWljaGFlbC1s=
+ZXdpcy1tb3ZpZS1yaWdodHMtYml0Y29pbi1wcmljZS1ldGhlci1zYmYtMTg0OTc3ODQ2Mw/607f=
+07ceef4b8524a319a23cBc54553de" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">already selling it</a>.)=C2=A0Will i=
+t make a good movie? On the one hand, it will be set at a lavish penthouse =
+in the Bahamas full of young people who want to change the world and/or mis=
+appropriate customer money. On the other hand, Kevin Roose interviewed Geor=
+ge Lerner, FTX=E2=80=99s =E2=80=9Cin-house performance coach=E2=80=9D and p=
+sychiatrist, and he has <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/29719674.276531/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8xMS8xNS90ZWNob=
+m9sb2d5L2Z0eC1zYW0tYmFua21hbi1mcmllZC1wc3ljaGlhdHJpc3QuaHRtbA/607f07ceef4b8=
+524a319a23cB98f8f634" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">some bad news on the sex and drugs front</a>:=
+</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Since FTX=E2=80=99s collapse, rumors have spre=
+ad on Twitter that many FTX employees took prescription stimulants, includi=
+ng Adderall, to enhance their productivity and work longer hours.</p>
+<p style=3D"margin: 16px 0;">But Dr. Lerner disputed that characterization.=
+ He said that some FTX employees may have been given prescription medicatio=
+ns to treat A.D.H.D., but that the =E2=80=9Crate of A.D.H.D. in the company=
+ was in line with most tech companies.=E2=80=9D He said that he wrote some =
+prescriptions to FTX employees, but only those he treated as part of his pe=
+rsonal practice.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">And:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Details about the romantic pairings reported b=
+y CoinDesk last week led some gossips on Twitter to dub FTX a =E2=80=9Cpoly=
+cule,=E2=80=9D a term for a web of non-monogamous relationships.</p>
+<p style=3D"margin: 16px 0;">But Dr. Lerner rejected that idea, saying the =
+company=E2=80=99s culture was far from orgiastic.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIt=E2=80=99s a pretty tame place,=E2=
+=80=9D Dr. Lerner said. =E2=80=9CThe higher-ups, they mostly played chess a=
+nd board games. There was no partying. They were undersexed, if anything.=
+=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">So probably not=C2=A0<em>Wolf of Wall Street</=
+em>. Still, that=E2=80=99s fine. I recently re-watched=C2=A0<em>Margin Call=
+</em>, the best finance movie, and you could see this working in that genre=
+. The dramatic moments are not the drug-fueled orgies but the moment when t=
+he junior analyst notices the backdoor in the spreadsheet. I would watch th=
+at kind of movie.</p>
+<p style=3D"margin: 16px 0;">Oh right that big Reuters report <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/29719674.276531/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMTUvbWF0dC1sZXZpbmUtcy=
+1tb25leS1zdHVmZi1iaW5hbmNlLWZ0eC1hbmQtY2Fycz9jbXBpZD1CQkQxMTE2MjJfTU9ORVlTV=
+FVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEx=
+MTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cD562d98bb" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">also includes this</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">According to the three FTX sources, only Bankm=
+an-Fried's innermost circle of associates knew about his use of client depo=
+sits: his co-founder and chief technology officer, Gary Wang; the head of e=
+ngineering, Nishad Singh; and Caroline Ellison, chief executive of Alameda.=
+ Wang and Singh both worked with Bankman-Fried at Alameda previously.</p>
+<p style=3D"margin: 16px 0;">Wang, Singh and Ellison did not return request=
+s for comment.</p>
+<p style=3D"margin: 16px 0;">To conceal the transfers of customer funds to =
+Alameda, Wang, a former Google software developer, built a backdoor in FTX'=
+s book-keeping software, the people said.</p>
+<p style=3D"margin: 16px 0;">Bankman-Fried often told employees tasked with=
+ monitoring the company's financials that the book-keeping system was "the =
+ultimate source of truth" about the company's accounts, two of the people s=
+aid. But the backdoor, known only to his most trusted lieutenants, allowed =
+Alameda to withdraw crypto deposits without triggering internal red flags, =
+they said.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Seems bad.</p>
+<p style=3D"margin: 16px 0;">Elsewhere, Bloomberg <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/29719674.276531/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMTYvZnR4LWJhbmtydXB0Y3ktd29ya2Vycy13aG=
+8tbGVmdC13YWxsLXN0cmVldC1mb3ItY3J5cHRvLWZpcm1zLWFyZS1yYXR0bGVkP2NtcGlkPUJCR=
+DExMTYyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVy=
+JnV0bV90ZXJtPTIyMTExNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319=
+a23cB29690d28" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">  checked in with some crypto-industry employees</a>=
+ about how they feel these days:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Despite the massive losses and growing critici=
+sm that the industry is rife with fraudsters and Ponzi schemes, a dozen ind=
+ustry employees interviewed by Bloomberg News said that while they=E2=80=99=
+re rattled by the crisis, they remain committed to crypto and its potential=
+ =E2=80=94 even if that means enduring financial pain personally and profes=
+sionally.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Many gave up stable careers at big Wall Street=
+ firms including Goldman Sachs and JPMorgan. They=E2=80=99ve watched as the=
+ir personal investments evaporate and bonuses paid in crypto disappear. As =
+jobs are cut and bankruptcies pile up, there are myriad reasons to head for=
+ the exits. But for now, the true believers are unbowed, arguing that crypt=
+o=E2=80=99s long-term future hasn=E2=80=99t been tainted by what they see a=
+s growing pains and a few bad actors.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Look you could have written that in, like, 201=
+4. Of course Bitcoin is way up since 2014, so in a sense you would have bee=
+n right. But it=E2=80=99s a lot of years of growing pains and bad actors.</=
+p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Musk issues ultimatum to staff: Commit to <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/29719674.276531/aHR0cH=
+M6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL3RlY2hub2xvZ3kvMjAyMi8xMS8xNi9tdXNrLXR3a=
+XR0ZXItZW1haWwtdWx0aW1hdHVtLXRlcm1pbmF0aW9uLw/607f07ceef4b8524a319a23cBa6bb=
+e935" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> =E2=80=98hardcore=E2=80=99 Twitter</a> or take severance. El=
+on Musk <a href=3D"https://link.mail.bloombergbusiness.com/click/29719674.2=
+76531/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8xMS8xNS90ZWNobm9sb2d5L2Vsb24tb=
+XVzay10d2l0dGVyLWZpcmVkLWNyaXRpY2lzbS5odG1s/607f07ceef4b8524a319a23cBb4adcb=
+8c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Fires Twitter Employees Who Criticized Him</a>.=C2=A0<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/29719674.276531/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMTUvc3BhY2V4LXNhaWQt=
+aW4tdGFsa3MtdG8tcmFpc2UtY2FwaXRhbC1hYm92ZS0xNTAtYmlsbGlvbi12YWx1ZT9jbXBpZD1=
+CQkQxMTE2MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldH=
+RlciZ1dG1fdGVybT0yMjExMTYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a=
+319a23cBd70ac9ca" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">  SpaceX</a> Is in Funding Talks That Would Value=
+ It at Over $150 Billion.=C2=A0Musk Claims No Role in Setting His <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/29719674.276531/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMTYvbXVzay1jbGFpbXMt=
+bm8tcm9sZS1pbi1zZXR0aW5nLWhpcy01NS1iaWxsaW9uLXBheS1kZWFsLWF0LXRlc2xhP2NtcGl=
+kPUJCRDExMTYyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbG=
+V0dGVyJnV0bV90ZXJtPTIyMTExNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b85=
+24a319a23cBb49f6779" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  $55 Billion Pay Deal</a> at Tesla. Bay Area=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/29719674.276531/a=
+HR0cHM6Ly93d3cuc2ZnYXRlLmNvbS93YXJyaW9ycy9hcnRpY2xlL2JheS1hcmVhLXRlYW1zLWxl=
+YXZlLWZ0eC0xNzU4NjE4MC5waHA/607f07ceef4b8524a319a23cB0cb3ba82" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">spor=
+ts teams</a> flee FTX after its spectacular collapse.=C2=A0FTX and Star Bac=
+kers Including <a href=3D"https://link.mail.bloombergbusiness.com/click/297=
+19674.276531/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMT=
+EtMTYvY29uc3VtZXItbGF3c3VpdC1zYXlzLWZ0eC10YXJnZXRlZC11bnNvcGhpc3RpY2F0ZWQta=
+W52ZXN0b3JzP2NtcGlkPUJCRDExMTYyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRt=
+X3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTExNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHV=
+mZg/607f07ceef4b8524a319a23cB7e798ce7" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  Brady, Curry</a> Sued by I=
+nvestor.=C2=A0</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/29719674.276531/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB4d73deed" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/29719674.276531/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBab7166b5" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] I actually got one very funny answer, whic=
+h is: =E2=80=9CMt. Gox?=E2=80=9D A rough overview of <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/29719674.276531/aHR0cHM6Ly9lbi53aWtpcGVk=
+aWEub3JnL3dpa2kvTXQuX0dveA/607f07ceef4b8524a319a23cB8162766b" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">the M=
+t. Gox story</a>  is: (1) Mt. Gox was the largest crypto exchange for a whi=
+le, (2) in 2014 it got hacked and all its Bitcoins were stolen, (3) it went=
+ bankrupt and customers had to wait for years for a recovery, (4) in the me=
+antime it got back some but not all of its Bitcoins, (5) also in the meanti=
+me the price of Bitcoin soared, so (6) by the time the customers got their =
+recovery, Mt. Gox had *way* more assets =E2=80=94 measured in dollars and y=
+en =E2=80=94 then the customers had lost. So at some level you could say =
+=E2=80=9CMt. Gox had assets, it temporarily lost access to them, but then i=
+t got them back and had more than enough to pay off all of its customers, s=
+o it was just a liquidity crisis.=E2=80=9D But not really. For one thing, t=
+he customers *didn=E2=80=99t* all get paid back, measured in Bitcoin; they =
+lost Bitcoins and got back fewer Bitcoins. (But those Bitcoins were worth m=
+ore dollars.) For another thing, getting all your assets stolen is traditio=
+nally a solvency problem, even if later you get some of them back.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] A note on entities. That balance sheet is =
+not the audited balance sheet of a particular legal entity running the FTX =
+exchange. It is not the audited balance sheet of anything, but as far as I =
+can tell it is a spreadsheet of all the stuff that FTX, Alameda Research an=
+d Sam Bankman-Fried can scrape together, offset by $9 billion of FTX custom=
+er liabilities. So some things on that balance sheet =E2=80=94 in particula=
+r a stake in Robinhood Markets Inc. =E2=80=94 seem to belong to Bankman-Fri=
+ed entities that are not part of the FTX bankruptcy, but are being thrown i=
+n here to raise cash. I am going to say =E2=80=9CFTX=E2=80=9D in the text b=
+ut I mean more like =E2=80=9Cthe FTX/Alameda/SBF consolidated group.=E2=80=
+=9D One thing that I do not understand is the status of FTX.us, FTX=E2=80=
+=99s US entity, which is separate from FTX but also seems to have shut with=
+drawals.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] That is: $554 million of the FTT token tha=
+t provides fee discounts on FTX itself, $2,187 million of the SRM token of =
+FTX=E2=80=99s Project Serum decentralized exchange, and $616 million of the=
+ MAPS token of another FTX project. I think some other assets on that balan=
+ce sheet might also fall into this category, though in smaller sizes. And $=
+982 million of Solana=E2=80=99s SOL token are also a risky proposition if y=
+ou think that the success of the Solana blockchain depends in part on its t=
+ies to FTX.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Also it is silly to be too precise here, b=
+ut the balance sheet we all saw =E2=80=94 because the Financial Times publi=
+shed it =E2=80=94 is from last Thursday. I don=E2=80=99t know exactly what =
+time it took its prices from, but I conservatively estimate that FTT and MA=
+PS are down about 40% since then, with SRM down about 14%. That puts the va=
+lue of this stash at about $2.56 billion, down almost $800 million from las=
+t Thursday, almost enough to wipe out the net equity on that balance sheet.=
+</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] That number is, like, there is about $1 bi=
+llion of liquid assets on the balance sheet, and about $9 billion owed to c=
+ustomers, so if you pay out the $1 billion and get $8 billion more of cash =
+from an investor, you can pay off the customers. And then the investors who=
+ put in the $8 billion get to keep the $9 billion of semi-liquid and illiqu=
+id assets, making this =E2=80=94 on Bankman-Fried=E2=80=99s math =E2=80=94 =
+an attractive deal for those investors. That=E2=80=99s the theory.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29719674.276531/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBf4cda874" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29719674.276531/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBad954363" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29719674.276531/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBdbc2f51e" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29719674.276531/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB8b5fddab" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29719674.276531/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yOTcxOTY3NCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjk5OTYyMDUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI1f5d006d" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D29719674&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29996205&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/29719674.276531/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB70c8b5ea" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/29719674.276531/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC9800ef1b" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/29719674.276531/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB03eec721" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/29719674.276531/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB53b2d429" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29719674.276531/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB4=
+9797c71" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/29719674.276531/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB5=
+f715ad2" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D297196=
+74&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29996205&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D297196=
+74&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29996205&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D297196=
+74&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29996205&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D297196=
+74&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29996205&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D297196=
+74&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29996205&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23chozui.5xdf/5e1ebcef.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_10068758_1270063918.1668626334018--
+

@@ -1,0 +1,1876 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:7ed0:0:b0:1aa:da54:354f with SMTP id o16csp693206lkl;
+        Thu, 7 Apr 2022 10:37:33 -0700 (PDT)
+X-Received: by 2002:a05:6000:2c8:b0:204:f83:ba35 with SMTP id o8-20020a05600002c800b002040f83ba35mr11737086wry.539.1649353053510;
+        Thu, 07 Apr 2022 10:37:33 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1649353053; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=X3L2k0GhEhl1wBXKFkXAG3REoXJLwWHLXLpKSoPL/CaC5ioSutgv5JmuCDIqy9uavJ
+         q9gEFZdzGPQO8Rdo2qvjnWlRxrIVMOI/puqtTzTRe7m39p7CA3E4zGzvwaO8R6CcpRcH
+         5mFE2Qahrr9859jwVYK+zaFZsriKzts5a1FJMX7D5J4AZUwatEEzxiExrnf7k2YqWd5M
+         C7FOqcmQYPBFFMENzMDvxME+1sVTcW7rvwUm6kUBsZo1QLoXqpGhRukI2fK6Rt1UdD1G
+         r1EosusNktXLJNzw4uahvPsmc1s6Fr4Lvk5tsvqM8MU6AjxmZxhTXJPk2Z6kbY7371Wk
+         d4UQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=y6Dn6hTyPI/Sn/Z5E4B6rIWOYacPYYEADTnMZJcp+NA=;
+        b=DE7Xej0O9Ppp/tgIT4Ow0ieWMrA7mLEPjUhDsvR0qwvjSrWFoWeZBFlMhOLAM05cbp
+         4J26NeRYjvU5EE4JInGSMxR3xX28fkBcXWw7DeXbFWpZmQrzYnl8qfzsJfZLEQWey1Qj
+         rKuSsq/9UeUg1AqwxdGs1INlUjQznT0BC9fmHoFlZHmRLSe0hJ4VRo6P4m/nGyJnOQW/
+         ksIzVCFn9XSOuK6a8Oedm3ekg1S53E0hyBB6tS21S7XMign1Pm7sD3F6l+vabhjRO1Ii
+         WqwqbRXWGUEXk75BMNbqGpCLKACALfHe810Hj6adFncgTCQUXFlXn5TENG8dl/nkrjUa
+         tFNw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=iOJeAF6O;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id d10-20020a05600c34ca00b0038e6c2c8e9csor2570117wmq.0.2022.04.07.10.37.33
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 07 Apr 2022 10:37:33 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=iOJeAF6O;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=y6Dn6hTyPI/Sn/Z5E4B6rIWOYacPYYEADTnMZJcp+NA=;
+        b=5Qea/Lfaljcpc2jgtaJuYmtAnLAjMIdCrpgQV+JKPfUL8Qd70v01RBAX7QlEu5Bos7
+         OpfFeRb/56XpfBiiBlz8aNOVSpB0EFPHVQNBjn4VR5tUAY5DGxCwVkeObrDKw/yPn4bQ
+         q6g7atQtEtMsWXI32fSuBQzKPEmyD7NajeFwXzhmDqIDfpQy/C6usK/MQIrrPud3oFO1
+         f5ANronA6yz+C0w/+jQOTlw0Ypj6hJD3CZWcUtshfqk/NP2MA2Wj3c9ONSOEX7nOAsIw
+         tAWpFXybKNfjo5QMXjWuBuTiUVFBjiArJgku+oDyDo45zQugkKHhzL1nVUPGM9Y7ugWX
+         CUZw==
+X-Gm-Message-State: AOAM5307Zt8UCfVRih1MrgOmW4dzi5zY5HBSa6YJhnnsX0Ro/alr8QTa
+	NBYG1wuWNYQDiY05GNx8/y/HO/0J4CUwuEd/jDeO0I8KAcekk8jbrrR5
+X-Received: by 2002:a05:600c:4e4b:b0:38c:eebc:2ec4 with SMTP id e11-20020a05600c4e4b00b0038ceebc2ec4mr13525815wmq.47.1649353053216;
+        Thu, 07 Apr 2022 10:37:33 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:694f:0:0:0:0:0 with SMTP id r15csp551037wrw;
+        Thu, 7 Apr 2022 10:37:30 -0700 (PDT)
+X-Received: by 2002:a17:902:a502:b0:151:8289:b19 with SMTP id s2-20020a170902a50200b0015182890b19mr15233033plq.149.1649353050289;
+        Thu, 07 Apr 2022 10:37:30 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1649353050; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=fnvg9QITxiF3MZRM+YLrulnatMV4R3VrgKnEK5IMlvWUipWfsAvPksl/kXv+rRx5ih
+         YSoJ9JBIU7HMKSeSqLPXC89u0xLUp1KZ48rTfl9J6JRVmSXlPAC0OlaeETXRJ92LZvxH
+         83ggM1XevlwdVEUrNGWLEPOKKPqzwow7nuW18KLdsRJWSWAncWXIYMuJQFkZklIzht2j
+         ni8fo532KyocjCHXvde573uzPSajv6NOq4d1brLe/z6+5RRHvywMzJaqznRqzF7B2mLI
+         WwzX0L8+UjL/dOyl9psAfkhEynHs0uJvzfQ+XdsFqGVcJT9lLOMSworx1buZfSaKP6iV
+         IizA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=y6Dn6hTyPI/Sn/Z5E4B6rIWOYacPYYEADTnMZJcp+NA=;
+        b=C7Fak11hVQrFE6kDzTJCTLt32L3NF721K6Uon7qjEPHWuXiaSdOj95L/apdzhyGH6+
+         QIZyKHM/lwk6wsPt02By2HaXiPByX/x68iYYbfoACmfhXfVoC9yyvAoDGoa3XPHluXp0
+         98ZFjaqzd0jHqa9eWIKGjvcB1B1tQT34kZ37ZeOD+pNL74zSoK3rV8B1e5LywWkxmaqe
+         Hh1BpiDedsukLmT34w8rETCawba9bPcfIl3p59tj0vXr8zvwRsI7NEK8Txt0/IJ0d0ej
+         qpopjTmpFsBxhmH8UlfrPpfDyzPBBgcbTfRAdKfG2v2i8P1aOqM2n/BRMs/cD5CnoUlN
+         m3rw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=iOJeAF6O;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220407133655.27290711.284600@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220407133655.27290711.284600@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220407133655.27290711.284600@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id m13-20020a170902db0d00b00151f6b21253sor115014plx.139.2022.04.07.10.37.30
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 07 Apr 2022 10:37:30 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220407133655.27290711.284600@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJwDI733BiJjGJCIoy06rZ7oX5llYLLsyFMT/l2dobzVX2Mrd+txCPJGOODlXGgqDVANWsK4ztvpYjUqZrWpLqoZa3kRjCs=
+X-Received: by 2002:a17:902:e80e:b0:156:9c9d:b401 with SMTP id u14-20020a170902e80e00b001569c9db401mr4941982plg.64.1649353049805;
+        Thu, 07 Apr 2022 10:37:29 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1649353049; cv=none;
+        d=google.com; s=arc-20160816;
+        b=mNNnuQc+pl1JkzKDLaH596aUq/ZHj9m4Hzu/5kAbGhOWvIbljGlKLdH1OXQLCnnajw
+         SX7IfiiYzBy//jrnb5WTK4ajs87y8He3rzHOACH8Y9Q4ukZD4D+xI/lKLsekAPdUi6D/
+         23cqwnW1zOuq6HzUo80U6E5/O8Ufi895b67oecgYFqzW/zfAWzysC2KXS0fOz1LDO4mh
+         paqUpVxdk/XndUtlBsiz/tdwrpY4k20zhtcDzDJ80qiYWLz0xqS0c/dlow0vjZwo8uxw
+         /A2WI4SqhO1yxuIwBuAun/LiFXhBOKWd7a+OFI+IIG9FC3rId5wuHVc5wZ+gd6gJd9Kq
+         PeHQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=y6Dn6hTyPI/Sn/Z5E4B6rIWOYacPYYEADTnMZJcp+NA=;
+        b=n1LVkbmBZ9GzBL5x95EDgRkOjsvOd9P4hnPvflAV6rUh0IB3fEau+/7mhVNQ23KpBx
+         jK1U5V122exX6/wKMAd4tXfQ15OvFYQW3P6G6mOg7XjcXMG1YncyT67HbA0f/lXvmeRA
+         hqMrRefwc7Jf8lI6cLHuBsBeMYltvsR4mZ2yC4YsHdq6pd6Gky/4jTqsiI2gWr0EY8qW
+         8+VORJL4rtodO/IVDMKJU3ZkGCCnjadFam/nQJiy7HqOw6tVlAXG4r8mzw2cV03s1K0n
+         uBFvlmLohs6MYL4WRb4D0r7lO9sbwdRguj4sT+Mzl4p1561a21qiG1+MO6fc9B8sSE4y
+         rSXQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=iOJeAF6O;
+       spf=pass (google.com: domain of delivery_20220407133655.27290711.284600@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20220407133655.27290711.284600@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220407133655.27290711.284600@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id w9-20020a17090aad4900b001bfa3e36392si223262pjv.0.2022.04.07.10.37.29
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 07 Apr 2022 10:37:29 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220407133655.27290711.284600@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=xFLgwPKN1Q5Sg6lzh22sxROceCiFqIQpGfWWGyDDe8Y=;
+ b=iOJeAF6Oa5b4H9HFgqlxMNenXhEZLQIxOV4GXIhvwxxwg4Q+xEPapFCG4CEjJiYspfCtyRRXyUnN
+   g/ogRgkbTle0pfM/6VFEuqM7sqnb3jz2EC0I1HZZfQ/uy1yhceKJbfuEybLBSZSc2+FlgwVSW1+l
+   pwFqGMwYwfKVWNARmfc=
+Received: from nj2mta-16.sailthru.com (204.153.121.16) by pmta29.sailthru.com id h9sgle2sd4s4 for <bloomberg@khamel.com>; Thu, 7 Apr 2022 13:37:27 -0400 (envelope-from <delivery_20220407133655.27290711.284600@mx.sailthru.com>)
+Date: Thu, 7 Apr 2022 13:36:55 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220407133655.27290711.284600@sailthru.com>
+Subject: Money Stuff: Distressed-Debt Deal Makes People Mad
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_15664103_314741852.1649353015904"
+Precedence: bulk
+X-Feedback-ID: 6358:27290711:campaign:sailthru
+X-TM-ID: 20220407133655.27290711.284600
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-illmaroon.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cg8xnb.63lk/d50612c4
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cg8xnb.63lk/d50612c4>, <mailto:unsubscribe_20220407133655.27290711.284600@mx.sailthru.com>
+X-rpcampaign: stjko27290711
+
+------=_Part_15664103_314741852.1649353015904
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Monday.=
+ Unless Elon Musk does something weird I guess.IncoraHere=E2=80=99s a schem=
+atic d
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y. Unless Elon Musk does something weird I guess.
+ =20
+   =20
+      Incora
+   =20
+ =20
+Here=E2=80=99s a schematic description of how modern distressed-debt invest=
+ing works[1]:=09A company borrows $1 billion, in a syndicated loan or a bon=
+d issue, from a bunch of different investors.=09As is customary, the loan a=
+greement or bond indenture says =E2=80=9Cthis agreement may be amended by a=
+ majority of the investors.=E2=80=9D[2]=09Time passes and the company runs =
+into some trouble.=09The company goes out to 51% of the investors =E2=80=94=
+=C2=A0holders of $510 million of the bond or loan =E2=80=94=C2=A0and says: =
+=E2=80=9CPsst. We will pay you back 110=C2=A0cents on the dollar =E2=80=94=
+=C2=A0$561 million total =E2=80=94=C2=A0if you agree to let us stiff the ot=
+her guys.=E2=80=9D=09So the 51% holders vote to amend the agreement to say =
+=E2=80=9Cthese holders will get 110 cents on the dollar, and the other hold=
+ers will get zero.=E2=80=9D=09The other 49% are really mad=C2=A0and surpris=
+ed.=09The amendment works, 51% of the holders make a nice profit, 49% of th=
+e holders lose all their money, and the company pockets the extra $439 mill=
+ion.Now of course I am kidding, and you can=E2=80=99t actually do this. But=
+ it would be cool if you could (for the company, and the 51% creditors). An=
+d it is a good model to keep in mind, because modern distressed investing o=
+ften works by getting as close as possible=C2=A0to this.The reason this sch=
+ematic version doesn=E2=80=99t work is that the bond indenture or loan agre=
+ement will say =E2=80=9Cthis agreement may be amended by a majority of the =
+investors,=E2=80=9D but it will include a lot of exceptions that either req=
+uire a supermajority or can=E2=80=99t be amended at all.[3] Most notably, y=
+ou can=E2=80=99t amend the principal; you can=E2=80=99t get a majority of b=
+ondholders to vote that some (or all) of the bonds will get paid back $0.[4=
+] So my little schematic description can=E2=80=99t work.But you can amend=
+=C2=A0other=C2=A0things about the loan or bond, and the game is to amend it=
+ to make things unpleasant ways for the 49% while making things more pleasa=
+nt for the 51%. You take value from the 49% lenders, you give some of it to=
+ the 51% as a payoff for approving the deal, and you keep the rest of it fo=
+r the company.=C2=A0Much of the action in recent years has been about primi=
+ng and lien stripping:=09A company issues a secured loan or bond, giving cr=
+editors a lien on all of the company=E2=80=99s assets. The loan has securit=
+y provisions, like =E2=80=9Cthis loan is secured by a first lien on all of =
+the assets,=E2=80=9D and =E2=80=9Cwe cannot issue any debt with a higher-pr=
+iority claim on our assets.=E2=80=9D=09The loan or bond says =E2=80=9Cthis =
+agreement may be amended by a majority of investors, except that we can=E2=
+=80=99t amend fundamental provisions like how much we pay back and when, et=
+c.=E2=80=9D=09The list of exceptions does not include the liens, or the cov=
+enant against issuing higher-priority debt.=09Time passes and the company r=
+uns into some trouble.=09The company goes to the 51% and says =E2=80=9Chey =
+we=E2=80=99ll give you an extra-super-top-priority lien on all of our asset=
+s in exchange for taking away the liens from the other guys.=E2=80=9D=09The=
+ 51% vote to amend the agreement to allow new higher-priority bonds, exchan=
+ge their old bonds into the new higher-priority bonds, and on the way out v=
+ote to amend the old bonds to release their liens and no longer be secured =
+by any assets.=09The other 49% now own unsecured bonds and are real sad.Thi=
+s is not as exciting as my first, extremely schematic version, mainly becau=
+se in this version the company still has to pay back the 49%. The debt does=
+n=E2=80=99t go away; it just becomes riskier. In practice, this trade only =
+happens when the company is in serious distress: Stripping liens on the 49%=
+ and giving priority to the 51% is only valuable to the 51% if the company =
+might not have enough money to pay everyone. And it only makes sense for th=
+e company if it gets something in return from the 51%. Generally this means=
+ new money: For instance, the 51% roll their $510 million of old debt, plus=
+ $250 million of new cash, into $760 million of new super-priority bonds, g=
+iving the company a bit more money to operate in exchange for the higher se=
+curity. (The 51% might also extend maturities, reduce interest rates, etc.,=
+ to give the company more breathing room, though new money is usually a key=
+ ask.)Some variations on the theme. First of all, in my basic description, =
+I say that the company goes to 51% of the investors and offers to bribe the=
+m in exchange for hosing the 49%. And in fact that is a thing that happens,=
+ because the company is often owned by a private equity sponsor who loves e=
+xtracting value from creditors. Private equity sponsors are always thinking=
+ about clever new ways to take money from creditors and give it to themselv=
+es.But it could also happen the other way: If you own some bonds, and you c=
+an get your friends together until you own 51%, why not go to the company (=
+or its sponsor) and ask for a little payoff? Getting 110 cents on the dolla=
+r is better than 100, and certainly better than zero, and if you can offer =
+the company a way to extract money from other bondholders, keep some for it=
+self, and give some to you, why not do it?Especially because everyone else =
+is doing it! It is much better for you to receive a small bribe to zero oth=
+er creditors than it is for you to be zeroed because other creditors receiv=
+ed a small bribe. And so in practice in some distressed-debt situations the=
+re is a horrible race in which two different groups of creditors get togeth=
+er to try to (1) get a majority of the debt and (2) be the first to offer t=
+he company a trade that advantages their group and hoses the other group of=
+ creditors.=C2=A0Another variation: Let=E2=80=99s say you can get, say, 40%=
+ of the creditors together to agree to do the thing you want. That=E2=80=99=
+s not a majority. Does that mean you can=E2=80=99t do it? Nah! Here=E2=80=
+=99s the trade:=09Get 40%.=09Have the company=C2=A0issue some more=C2=A0of =
+the debt=E2=80=94=C2=A0=E2=80=9Caccordion=E2=80=9D the term loan, reopen th=
+e bond deal =E2=80=94=C2=A0to the 40% holders, until they have 51%.=09Vote =
+on the amendment you want, etc.This does not always work =E2=80=94=C2=A0som=
+etimes the agreement will not permit the company to issue more debt, and if=
+ you don=E2=80=99t have a majority yet you can=E2=80=99t amend=C2=A0it[5] =
+=E2=80=94=C2=A0but sometimes it does.=C2=A0If you can get close to a majori=
+ty, you can issue yourself the rest of the way there. Or, similarly, if you=
+ need a supermajority to do what you want to do, you can issue more bonds u=
+ntil you have the votes you need.Anyway here=E2=80=99s the latest  ghastly =
+distressed-debt deal:Last week, struggling aerospace supplier Incora secure=
+d a financial lifeline from a group of investors including Silver Point Cap=
+ital and Pacific Investment Management Co. that pushed rival creditors down=
+ the repayment line, aided by unusually aggressive moves from its private-e=
+quity sponsor Platinum Equity.The transaction -- known as priming -- is eli=
+citing uproar from the creditors left behind. It=E2=80=99s also sparking fr=
+esh fears in the industry that investors are ramping up a costly fight amon=
+gst themselves to put money to work in an evaporated $200 billion pool of d=
+istressed debt.Wesco Aircraft Holdings Inc., which operates under the name =
+Incora, forged a deal with both investment firms that will give it $250 mil=
+lion of fresh cash and swap bonds due in 2024 for longer-dated maturities.=
+=C2=A0The new securities will be backed by collateral that was previously p=
+ledged to other creditors, meaning those outside the Silver Point-led group=
+ -- including Golden Gate Capital, JPMorgan Chase & Co.=E2=80=99s asset man=
+agement arm and funds managed by BlackRock Inc. -- will be left worse off i=
+n any future restructuring.Both Silver Point and Pimco negotiated a deal wi=
+th the firm and Platinum directly, which ultimately diluted the claims of o=
+ther creditors on Incora=E2=80=99s assets, according to people with knowled=
+ge of the matter who asked not to be identified discussing private discussi=
+ons. =E2=80=A6Platinum owned some of Incora=E2=80=99s unsecured debt and ro=
+lled up its holdings, a move considered unusual and aggressive to industry =
+observers, the people said. The transaction transformed a slug of secured a=
+nd unsecured debt into new longer-dated secured debt that ranked ahead of e=
+xisting obligations and reduced protections on those older debts. =E2=80=A6=
+Some holders of Incora=E2=80=99s 9% secured bonds due 2026, fearing how the=
+ir positions would fare, banded together to try to block the deal, the peop=
+le said. When it appeared the bondholder group was large enough to stop the=
+ transaction, Incora issued more 2026 securities -- diluting the other cred=
+itors=E2=80=99 stake. The move then handed Pimco and Silver Point enough vo=
+tes to allow Incora to issue the new, higher-ranking obligations, the peopl=
+e said.Incora had some secured bonds outstanding, secured by liens on the c=
+ompany=E2=80=99s assets. Those bonds have a provision saying that holders o=
+f two-thirds of the bonds can vote to amend them to release the liens on th=
+e collateral.[6] The Pimco and Silver Point group owned a lot of the bonds,=
+ but not two-thirds. But the bond indenture also allowed Incora to issue a =
+bit more debt, so it did, to Pimco and Silver Point, giving them the two-th=
+irds they needed. Once they had the votes, they voted to (1) allow issuance=
+ of new, super-priority debt and (2) to=C2=A0take away=C2=A0the collateral =
+from the existing bond. Then they exchanged their (now unsecured) bond into=
+ the new, super-priority bonds. They also let Platinum exchange some of its=
+ unsecured debt =E2=80=94=C2=A0which had ranked below the old secured bonds=
+ =E2=80=94=C2=A0into new secured bonds, letting Platinum jump ahead of the =
+other (formerly) secured creditors. Here is how=C2=A0the Petition newslette=
+r describes the mechanics:Step One: Issue incremental basket capacity to Si=
+lver Point and PIMCO =E2=80=A6 dilute the minority non-participating lender=
+s and hand Silver Point and PIMCO the steering wheel =E2=80=A6 mutually agr=
+ee to amend basket capacity under the indenture to issue a meaningful amoun=
+t of new debt =E2=80=A6 use that new power to viciously strip liens from th=
+e other noteholders =E2=80=A6Step Two: Permit Silver Point and PIMCO to exc=
+hange their pre-existing secured notes =E2=80=A6 plus newly issued secured =
+notes =E2=80=A6 into new superpriority secured 26s =E2=80=A6=C2=A0dusting t=
+he Akin cohort [i.e., the other group of bondholders] in the processsssssss=
+sssss.Step Three: Let Platinum have some fun toooooo. Uptier their holdings=
+ in unsecured 27s into ~$475mm of new 1.25 lien notes due in =E2=80=9822 (m=
+ostly PIK) and =E2=80=9823 (higher cash pay, but also PIK) AT PAR (lol) =E2=
+=80=A6 prime the minority secured lenders(!!!!!!!!) =E2=80=A6and dust the s=
+tub piece of unsecured bondholders too LOLOLIs this allowed? I don=E2=80=99=
+t know, it is at least arguably allowed; Incora and Pimco and Silver Point =
+think it=E2=80=99s allowed. The other side seems pretty upset. The 9% bonds=
+ due 2026, which have about $882 million outstanding and were trading at ab=
+out 103 cents on the dollar on March 23,[7]=C2=A0are at about 69 cents toda=
+y. This deal extracted about $300 million of value from those bonds=C2=A0an=
+d redistributed it among Incora, its sponsors and the bondholders who won.B=
+roadly speaking you can=E2=80=99t do stuff like this in the stock market. B=
+roadly speaking, companies have fiduciary duties to their shareholders, and=
+ have some baseline obligation=C2=A0to treat them all equally. This is not =
+always binding in every way, but it is a good general starting point; you c=
+an=E2=80=99t get 51% of shareholders to vote themselves a big dividend at t=
+he expense of the other 49%.=C2=A0In the debt market, this is not the basel=
+ine assumption: The company is not a fiduciary for its lenders; it owes the=
+m only what the contract says it does.=C2=A0If the contract is not airtight=
+, the company and 51% of its lenders can gang up to abuse the other 49%. Th=
+e contract probably=C2=A0isn=E2=80=99t=C2=A0airtight, in part because it is=
+ hard to write an airtight 100-page contract, in part because lenders in bu=
+ll markets are not always sticklers about negotiating airtight covenants, a=
+nd in part because it=C2=A0shouldn=E2=80=99t=C2=A0be; there=C2=A0should=C2=
+=A0be some flexibility for the company to renegotiate its debt to respond t=
+o, for instance, a business downturn during a pandemic. You could write the=
+ contract to say =E2=80=9Cwhatever we do, we will always treat all lenders =
+equally,=E2=80=9D[8]=C2=A0but again that limits the company=E2=80=99s flexi=
+bility =E2=80=94=C2=A0it is pleasant, for the company, to be able to play l=
+enders off against each other =E2=80=94=C2=A0and is not always the rule.Inc=
+identally here is how Incora described the deal:The recapitalization, which=
+ includes an immediate liquidity infusion of $250 million, was supported by=
+ majorities across all of the company's funded debt including bondholders a=
+nd bank lenders."This is a resounding vote of confidence from our financing=
+ partners and a great day for Incora and its employees, customers, vendors =
+and business partners," said David Coleal, Incora's chief executive officer=
+. =C2=A0"This transaction provides a combination of fresh liquidity, maturi=
+ty relief and debt service reduction, allowing Incora the financial stabili=
+ty to continue delivering innovative, first-in-class service to our existin=
+g customers, and to seize new business opportunities as the defense industr=
+y signals increased growth and the commercial aerospace industry rebounds."=
+That sounds so much nicer! Maybe it=E2=80=99s right? The basic way distress=
+ed investing works now is that a company that is having a hard time can ext=
+ract value from some of its lenders, give it to its other lenders, and stay=
+ afloat a while longer. That=E2=80=99s nice for the company.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Oh Elon
+   =20
+ =20
+Just tying up a little loose end here. On Monday, Elon Musk filed a Schedul=
+e 13G showing that he owned 9.2% of Twitter Inc. On Tuesday, he filed a Sch=
+edule 13D showing that he owned 9.1%. On Wednesday,  I wrote:Oh by the way =
+his 13G on Monday said he owned 9.2% of Twitter (73,486,938 shares), and hi=
+s 13D on Tuesday said 9.1% (73,115,038)? This discrepancy cannot really be =
+explained by =E2=80=9Che sold 371,900 shares on Monday and Tuesday,=E2=80=
+=9D since the 13D has to report all of his Twitter stock transactions in th=
+e last 60 days, and that report lists purchases of 73,115,038 shares and no=
+ sales. Could the discrepancy be explained by =E2=80=9Che forgot how many s=
+hares he owned=E2=80=9D?=C2=A0It sure could man, it sure could. Later that =
+day Musk tweeted =E2=80=9CNo sale took place. Initial share number filed wa=
+s incorrect.=E2=80=9D=C2=A0The  theme of  this  week has pretty much been =
+=E2=80=9CElon Musk is real bad at filling out SEC forms.=E2=80=9D It is har=
+d to know what to make of that? You are supposed to fill out the forms righ=
+t, the U.S. Securities and Exchange Commission does care about this sort of=
+ thing, and there is a whole industry of expensive lawyers =E2=80=94=C2=A0s=
+ome of them employed by Musk! =E2=80=94=C2=A0who fill out the forms. Also M=
+usk seems to have  saved himself about $140 million by filling out the form=
+s=C2=A0late:=C2=A0He kept buying Twitter stock after the disclosure deadlin=
+e, at around $39 per share, without disclosing his stake; once he disclosed=
+ that stake the stock went up to $50. Arguably the people who sold at $39 s=
+hould have gotten $50; arguably he tricked them into selling too low by ill=
+egally hiding his ownership.=C2=A0But the traditional penalty for filling o=
+ut these forms wrong or late is small. I have suggested that the SEC=E2=80=
+=99s Elon Musk Division, which loves fighting with Elon Musk almost as much=
+ as he loves fighting with the SEC, might try to go after him for the $140 =
+million, but that seems like a tough one:Musk=E2=80=99s windfall may come w=
+ith a slap on the wrist in the form of a fine from the SEC but will probabl=
+y be limited to hundreds of thousands of dollars, according to the legal an=
+d security experts.The SEC could also argue in court that Musk needs to par=
+t with the theoretical profit, but that would be a long shot, said Adam Pri=
+tchard, a professor of securities law at University of Michigan=E2=80=99s l=
+aw school.The SEC =E2=80=9Cwould have to be really angry with him to try th=
+at because they would have a good chance of a court rejecting that argument=
+,=E2=80=9D he said.Individual shareholders, Pritchard said, have no right t=
+o sue Musk because the public disclosure is a regulatory requirement and no=
+t something he legally owes to Twitter=E2=80=99s shareholders.=E2=80=9CThe =
+SEC would have to be really angry with Elon Musk to try that=E2=80=9D sugge=
+sts an almost 100% probability that it will try that, since the SEC exists =
+in a state of perpetual rage at Elon Musk, but I guess the point is it won=
+=E2=80=99t work.=C2=A0Also I should clarify that I am joking when I refer t=
+o the =E2=80=9CElon Musk Division=E2=80=9D of the SEC, but here is the New =
+York Times:=C2=A0=E2=80=9CGiven Musk=E2=80=99s tendency to say or tweet new=
+sworthy things, he could well land himself or Twitter in trouble,=E2=80=9D =
+James Angel, a finance professor at Georgetown=E2=80=99s business school, t=
+old DealBook. =E2=80=9CThe Elon Musk division at the S.E.C. will have fun w=
+ith this.=E2=80=9DIn like six months people will refer to the SEC EMD as a =
+matter of course. In another year the SEC will formally create the division=
+, give it a few floors of office space and appoint a director. What a weird=
+ job that will be. On the other hand, it is in many ways the most fun secur=
+ities-law job there is; you get to think about a complicated novel high-pro=
+file legal issue every day. On the other hand it is grinding scorched-earth=
+ litigation and you are unemployable when you leave.=C2=A0
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Toucan
+   =20
+ =20
+Here is a Bloomberg Green  story about Toucan, a crypto platform that aims =
+to rid the world of bad carbon offsets by buying them all itself:By organiz=
+ing an effort to purchase the cheapest carbon credits, crypto users could r=
+id the market of low-quality projects. An oil company would have to pay hig=
+her prices for offsets derived from more rigorous projects once Toucan=E2=
+=80=99s users helped clear away the worst offenders. The crypto community e=
+ven came up with a term for this method: =E2=80=9Csweeping the floor.=E2=80=
+=9DA rough model for this is that if 100 carbon credits come on the market =
+each year, and Toucan buys 25 of them, then there are only 75 left for poll=
+uting companies to buy. This drives up the price and makes it more economic=
+al for the polluting companies to=C2=A0reduce their own pollution=C2=A0rath=
+er than just paying for carbon offsets, which people think are kind of fake=
+ anyway. Raising the cost of carbon credits raises the cost of polluting, w=
+hich leads to less pollution.The problem with this logic is that the supply=
+ of carbon credits is not fixed, and it is especially easy to expand the su=
+pply of the worst carbon credits. Rigorous new projects to capture carbon a=
+re expensive and hard; looking at some trees and saying =E2=80=9Csure whate=
+ver I won=E2=80=99t cut down those trees, now give me my money=E2=80=9D is =
+easy. If you announce =E2=80=9Cwe=E2=80=99ll pay top dollar for the worst c=
+arbon credits, to drive them off the market,=E2=80=9D then people are just =
+going to make more to sell to you:If the intention was to raise the quality=
+ and price of carbon credits, things are moving backwards. The assumption w=
+as that there=E2=80=99s a finite pool of bad offsets, which could be bought=
+ and locked away, allowing good projects to be priced better. But the assum=
+ption was flawed.Spiking demand for cheap Verra credits triggered by Toucan=
+ and its allies has created new reasons to generate the bad offsets. Accord=
+ing to an analysis by CarbonPlan, dozens of project developers who haven=E2=
+=80=99t issued credits in years have suddenly started selling again =E2=80=
+=94 even though they don=E2=80=99t need the money to keep operating, much l=
+ess get off the ground.=E2=80=9CThe problem we are seeing is that Toucan is=
+ creating incentives to bring zombie projects to life that have no environm=
+ental integrity,=E2=80=9D said Danny Cullenward, policy director at CarbonP=
+lan.
+ =20
+   =20
+      Bitcoin as legal tender
+   =20
+ =20
+Bloomberg=E2=80=99s Michael McDonald went to El Salvador and tried to pay f=
+or goods and services in the country=E2=80=99s legal tender, Bitcoin. It we=
+nt about  as well as you=E2=80=99d expect:Outside the airport, I approach a=
+ dozen cab drivers who are chatting and waiting for fares. I pop the questi=
+on: =E2=80=9CWill you take my Bitcoin?=E2=80=9D Two throw up their arms and=
+ walk away. One says he knows a guy who does, but he=E2=80=99s not here. Th=
+e rest ignore me and continue their conversations.I go with a driver in a w=
+hite Toyota van. He=E2=80=99ll take me to my hotel for $30=E2=80=94actual, =
+not digital dollars. =E2=80=9CMost people prefer cash, and almost no one as=
+ks if they can pay in Bitcoin,=E2=80=9D says Saul Escobar, 55. =E2=80=9CThe=
+ system fails a lot, and lately it=E2=80=99s been really slow. There was a =
+lot of enthusiasm last year, but it=E2=80=99s died down.=E2=80=9DIn the hou=
+r it takes to exit the airport and reach my hotel, the Bitcoin in my phone =
+falls 2% in value. I decide to stop checking.I feel like =E2=80=9CBitcoin i=
+s digital cash that people will be able to use for regular real-world trans=
+actions=E2=80=9D was a thing people said a few years ago that has now gone =
+entirely out of fashion. =E2=80=9CBitcoin is digital gold that people will =
+use as a store of value, a speculative asset and perhaps an inflation hedge=
+=E2=80=9D is now the respectable position, and perfectly compatible with be=
+ing bullish on Bitcoin. It was a weird throwback for El Salvador to make Bi=
+tcoin legal tender=C2=A0last year, after everyone had moved on from the Bit=
+coin-is-useful-money idea. And now you see why everyone moved on.
+ =20
+   =20
+      A statistical analysis of Money Stuff=E2=80=99s length and publish ti=
+me
+   =20
+ =20
+I=E2=80=99m sorry, I=E2=80=99m doing my best.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Why Russia Doesn=E2=80=99t Want to Default=E2=80=94Even in a Time of War. S=
+hell Warns of Up to $5 Billion Hit From Russia Exit. A Year On,  Greensill =
+Still Has $9.3 Billion to Pay on Its Notes. Tesla-Backed Startup Made  Chea=
+p Power a Debt Burden for the World=E2=80=99s Poorest. Ex-McKinsey Partner =
+ Gets 2 Years for Trading on Goldman Deal. =E2=80=9CPeople don=E2=80=99t en=
+joy websites anymore because there=E2=80=99s only 5 left and they all reali=
+zed that it=E2=80=99s more profitable to piss people off. And this is espec=
+ially true for Twitter!=E2=80=9D=C2=A0If you'd like to get=C2=A0Money=C2=A0=
+Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0subscribe =
+at this link. Or you can subscribe to Money Stuff and other great Bloomberg=
+ newsletters here. Thanks![1] We have  talked about this schematic model be=
+fore, when Serta Simmons Bedding LLC did a trade like this.[2] As is common=
+ but not quite technically accurate, when I say =E2=80=9Ca majority of cred=
+itors=E2=80=9D I mean =E2=80=9Ccreditors holding a majority of the principa=
+l amount of the loan or bond issue.=E2=80=9D[3] That is, certain terms can=
+=E2=80=99t be changed in a way that affects any creditor unless that credit=
+or agrees. So they can be amended by unanimous consent.[4] Except in bankru=
+ptcy but that=E2=80=99s different.[5] A classic, wild example is that Winds=
+tream Holdings Inc. tried to get bondholder consent to a restructuring by i=
+ssuing new bonds to friendly holders, but  somehow messed it up, violated t=
+he covenant restricting new indebtedness, and did not get the benefit of th=
+e consents.[6] Covenant Review, in a Feb. 11 note, quotes the bonds=E2=80=
+=99 offering memo: =E2=80=9CIn addition, without the consent of the holders=
+ of at least 66 2/3% in aggregate principal amount of the Secured Notes the=
+n outstanding of the applicable series (including, without limitation, cons=
+ents obtained in connection with a purchase of, or tender offer or exchange=
+ offer for, the Secured Notes), no amendment, supplement or waiver may (1) =
+have the effect of releasing all or substantially all of the Collateral fro=
+m the Liens created pursuant to the Security Documents (except as permitted=
+ by the terms of the applicable Secured Notes Indenture, the Security Docum=
+ents or the Intercreditor Agreements) or changing or altering the priority =
+of the security interests of the holders of the Secured Notes in the Collat=
+eral under the ABL Intercreditor Agreement or the Pari Passu Intercreditor =
+Agreement.=E2=80=9D[7] That seems like an artificially high number; they se=
+em to have traded above par mostly because people were buying them up in th=
+e race to get a majority position to be able to dictate terms to the compan=
+y. =E2=80=9CThere=E2=80=99s some chatter about a short squeeze here,=E2=80=
+=9D notes Petition.[8] Covenant Review notes: =E2=80=9CA customary Payments=
+ for Consent covenant requires that if an issuer pays any bondholders as an=
+ inducement to any consent to any waiver, supplement or amendment to the te=
+rms of the indenture for a series of bonds, it must offer the same=C2=A0con=
+sideration to all holders of that series of bonds. If the Secured Notes had=
+ a customary Payments for Consent covenant, this protection would prevent l=
+ien subordination by the supermajority consent discussed above, without all=
+ bondholders being offered the same deal. Unfortunately for bondholders, th=
+e OM does not contain a customary Payments for Consent covenant.=E2=80=9D I=
+ am not sure it is obvious that a payments for consent covenant would apply=
+ to a deal like this, where the majority bondholders did not get a consent =
+fee but rather rolled into new bonds, etc.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cg8xnb.63lk/151ffd05.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_15664103_314741852.1649353015904
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Monday. Unless =
+Elon Musk does something weird I guess.IncoraHere=E2=80=99s a schematic d
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27290711.284600/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNzI5MDcxMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc1NzUzMTEmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBd26edf18" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D27290711&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27575311&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27290711.284600/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNDA3MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA0MDcmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB96ea3a42"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27290711.284600/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNzI5MDcxMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc1NzUzMTEmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC688db973" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D27290711&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27575311&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong> <em>Money S=
+tuff will be off tomorrow, back on Monday. Unless Elon Musk does something =
+weird I guess.</em></p><table class=3D"header" width=3D"100%" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Incora</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here=E2=80=99s a schematic description=
+ of how modern distressed-debt investing works[1]:</p><ol style=3D"list-sty=
+le-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"marg=
+in-bottom: 5px;">A company borrows $1 billion, in a syndicated loan or a bo=
+nd issue, from a bunch of different investors.</li>=09<li style=3D"margin-b=
+ottom: 5px;">As is customary, the loan agreement or bond indenture says =E2=
+=80=9Cthis agreement may be amended by a majority of the investors.=E2=80=
+=9D[2]</li>=09<li style=3D"margin-bottom: 5px;">Time passes and the company=
+ runs into some trouble.</li>=09<li style=3D"margin-bottom: 5px;">The compa=
+ny goes out to 51% of the investors =E2=80=94=C2=A0holders of $510 million =
+of the bond or loan =E2=80=94=C2=A0and says: =E2=80=9CPsst. We will pay you=
+ back 110=C2=A0cents on the dollar =E2=80=94=C2=A0$561 million total =E2=80=
+=94=C2=A0if you agree to let us stiff the other guys.=E2=80=9D</li>=09<li s=
+tyle=3D"margin-bottom: 5px;">So the 51% holders vote to amend the agreement=
+ to say =E2=80=9Cthese holders will get 110 cents on the dollar, and the ot=
+her holders will get zero.=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;=
+">The other 49% are really mad=C2=A0and surprised.</li>=09<li style=3D"marg=
+in-bottom: 5px;">The amendment works, 51% of the holders make a nice profit=
+, 49% of the holders lose all their money, and the company pockets the extr=
+a $439 million.</li></ol><p style=3D"margin: 16px 0;">Now of course I am ki=
+dding, and you can=E2=80=99t actually do this. But it would be cool if you =
+could (for the company, and the 51% creditors). And it is a good model to k=
+eep in mind, because modern distressed investing often works by getting <em=
+>as close as possible=C2=A0</em>to this.</p><p style=3D"margin: 16px 0;">Th=
+e reason this schematic version doesn=E2=80=99t work is that the bond inden=
+ture or loan agreement will say =E2=80=9Cthis agreement may be amended by a=
+ majority of the investors,=E2=80=9D but it will include a lot of exception=
+s that either require a supermajority or can=E2=80=99t be amended at all.[3=
+] Most notably, you can=E2=80=99t amend the <em>principal</em>; you can=E2=
+=80=99t get a majority of bondholders to vote that some (or all) of the bon=
+ds will get paid back $0.[4] So my little schematic description can=E2=80=
+=99t work.</p><p style=3D"margin: 16px 0;">But you can amend=C2=A0<em>other=
+=C2=A0</em>things about the loan or bond, and the game is to amend it to ma=
+ke things unpleasant ways for the 49% while making things more pleasant for=
+ the 51%. You take value from the 49% lenders, you give some of it to the 5=
+1% as a payoff for approving the deal, and you keep the rest of it for the =
+company.=C2=A0Much of the action in recent years has been about priming and=
+ lien stripping:</p><ol style=3D"list-style-type: decimal; padding-left: 40=
+px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">A company issues =
+a secured loan or bond, giving creditors a lien on all of the company=E2=80=
+=99s assets. The loan has security provisions, like =E2=80=9Cthis loan is s=
+ecured by a first lien on all of the assets,=E2=80=9D and =E2=80=9Cwe canno=
+t issue any debt with a higher-priority claim on our assets.=E2=80=9D</li>=
+=09<li style=3D"margin-bottom: 5px;">The loan or bond says =E2=80=9Cthis ag=
+reement may be amended by a majority of investors, except that we can=E2=80=
+=99t amend fundamental provisions like how much we pay back and when, etc.=
+=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">The list of exceptions d=
+oes not include the liens, or the covenant against issuing higher-priority =
+debt.</li>=09<li style=3D"margin-bottom: 5px;">Time passes and the company =
+runs into some trouble.</li>=09<li style=3D"margin-bottom: 5px;">The compan=
+y goes to the 51% and says =E2=80=9Chey we=E2=80=99ll give you an extra-sup=
+er-top-priority lien on all of our assets in exchange for taking away the l=
+iens from the other guys.=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;"=
+>The 51% vote to amend the agreement to allow new higher-priority bonds, ex=
+change their old bonds into the new higher-priority bonds, and on the way o=
+ut vote to amend the old bonds to release their liens and no longer be secu=
+red by any assets.</li>=09<li style=3D"margin-bottom: 5px;">The other 49% n=
+ow own unsecured bonds and are real sad.</li></ol><p style=3D"margin: 16px =
+0;">This is not as exciting as my first, extremely schematic version, mainl=
+y because in this version the company still has to pay back the 49%. The de=
+bt doesn=E2=80=99t go away; it just becomes riskier. In practice, this trad=
+e only happens when the company is in serious distress: Stripping liens on =
+the 49% and giving priority to the 51% is only valuable to the 51% if the c=
+ompany might not have enough money to pay everyone. And it only makes sense=
+ for the company if it gets something in return from the 51%. Generally thi=
+s means new money: For instance, the 51% roll their $510 million of old deb=
+t, plus $250 million of new cash, into $760 million of new super-priority b=
+onds, giving the company a bit more money to operate in exchange for the hi=
+gher security. (The 51% might also extend maturities, reduce interest rates=
+, etc., to give the company more breathing room, though new money is usuall=
+y a key ask.)</p><p style=3D"margin: 16px 0;">Some variations on the theme.=
+ First of all, in my basic description, I say that the company goes to 51% =
+of the investors and offers to bribe them in exchange for hosing the 49%. A=
+nd in fact that is a thing that happens, because the company is often owned=
+ by a private equity sponsor who loves extracting value from creditors. Pri=
+vate equity sponsors are always thinking about clever new ways to take mone=
+y from creditors and give it to themselves.</p><p style=3D"margin: 16px 0;"=
+>But it could also happen the other way: If you own some bonds, and you can=
+ get your friends together until you own 51%, why not go to the company (or=
+ its sponsor) and ask for a little payoff? Getting 110 cents on the dollar =
+is better than 100, and certainly better than zero, and if you can offer th=
+e company a way to extract money from other bondholders, keep some for itse=
+lf, and give some to you, why not do it?</p><p style=3D"margin: 16px 0;">Es=
+pecially because everyone else is doing it! It is much better for you to re=
+ceive a small bribe to zero other creditors than it is for you to be zeroed=
+ because other creditors received a small bribe. And so in practice in some=
+ distressed-debt situations there is a horrible race in which two different=
+ groups of creditors get together to try to (1) get a majority of the debt =
+and (2) be the first to offer the company a trade that advantages their gro=
+up and hoses the other group of creditors.=C2=A0</p><p style=3D"margin: 16p=
+x 0;">Another variation: Let=E2=80=99s say you can get, say, 40% of the cre=
+ditors together to agree to do the thing you want. That=E2=80=99s not a maj=
+ority. Does that mean you can=E2=80=99t do it? Nah! Here=E2=80=99s the trad=
+e:</p><ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16=
+px 0;">=09<li style=3D"margin-bottom: 5px;">Get 40%.</li>=09<li style=3D"ma=
+rgin-bottom: 5px;">Have the company=C2=A0<em>issue some more=C2=A0</em>of t=
+he debt=E2=80=94=C2=A0=E2=80=9Caccordion=E2=80=9D the term loan, reopen the=
+ bond deal =E2=80=94=C2=A0to the 40% holders, until they have 51%.</li>=09<=
+li style=3D"margin-bottom: 5px;">Vote on the amendment you want, etc.</li><=
+/ol><p style=3D"margin: 16px 0;">This does not always work =E2=80=94=C2=A0s=
+ometimes the agreement will not permit the company to issue more debt, and =
+if you don=E2=80=99t have a majority yet you can=E2=80=99t amend=C2=A0it[5]=
+ =E2=80=94=C2=A0but sometimes it does.=C2=A0If you can get close to a major=
+ity, you can issue yourself the rest of the way there. Or, similarly, if yo=
+u need a supermajority to do what you want to do, you can issue more bonds =
+until you have the votes you need.</p><p style=3D"margin: 16px 0;">Anyway h=
+ere=E2=80=99s the latest <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/27290711.284600/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVz=
+LzIwMjItMDQtMDUvc2lsdmVyLXBvaW50LXBpbWNvLWNvb2stdXAtY3JlZGl0LXRyYWRlLXRoYXQ=
+taGFzLXJpdmFscy1mdW1pbmc_Y21waWQ9QkJEMDQwNzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT=
+1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNDA3JnV0bV9jYW1wYWlnb=
+j1tb25leXN0dWZm/607f07ceef4b8524a319a23cBf2506d69" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> ghastly distres=
+sed-debt deal</a>:</p><blockquote><p style=3D"margin: 16px 0;">Last week, s=
+truggling aerospace supplier Incora secured a financial lifeline from a gro=
+up of investors including Silver Point Capital and Pacific Investment Manag=
+ement Co. that pushed rival creditors down the repayment line, aided by unu=
+sually aggressive moves from its private-equity sponsor Platinum Equity.</p=
+><p style=3D"margin: 16px 0;">The transaction -- known as priming -- is eli=
+citing uproar from the creditors left behind. It=E2=80=99s also sparking fr=
+esh fears in the industry that investors are ramping up a costly fight amon=
+gst themselves to put money to work in an evaporated $200 billion pool of d=
+istressed debt.</p><p style=3D"margin: 16px 0;">Wesco Aircraft Holdings Inc=
+., which operates under the name Incora, forged a deal with both investment=
+ firms that will give it $250 million of fresh cash and swap bonds due in 2=
+024 for longer-dated maturities.=C2=A0</p><p style=3D"margin: 16px 0;">The =
+new securities will be backed by collateral that was previously pledged to =
+other creditors, meaning those outside the Silver Point-led group -- includ=
+ing Golden Gate Capital, JPMorgan Chase &amp; Co.=E2=80=99s asset managemen=
+t arm and funds managed by BlackRock Inc. -- will be left worse off in any =
+future restructuring.</p><p style=3D"margin: 16px 0;">Both Silver Point and=
+ Pimco negotiated a deal with the firm and Platinum directly, which ultimat=
+ely diluted the claims of other creditors on Incora=E2=80=99s assets, accor=
+ding to people with knowledge of the matter who asked not to be identified =
+discussing private discussions. =E2=80=A6</p><p style=3D"margin: 16px 0;">P=
+latinum owned some of Incora=E2=80=99s unsecured debt and rolled up its hol=
+dings, a move considered unusual and aggressive to industry observers, the =
+people said. The transaction transformed a slug of secured and unsecured de=
+bt into new longer-dated secured debt that ranked ahead of existing obligat=
+ions and reduced protections on those older debts. =E2=80=A6</p><p style=3D=
+"margin: 16px 0;">Some holders of Incora=E2=80=99s 9% secured bonds due 202=
+6, fearing how their positions would fare, banded together to try to block =
+the deal, the people said. When it appeared the bondholder group was large =
+enough to stop the transaction, Incora issued more 2026 securities -- dilut=
+ing the other creditors=E2=80=99 stake. The move then handed Pimco and Silv=
+er Point enough votes to allow Incora to issue the new, higher-ranking obli=
+gations, the people said.</p></blockquote><p style=3D"margin: 16px 0;">Inco=
+ra had some secured bonds outstanding, secured by liens on the company=E2=
+=80=99s assets. Those bonds have a provision saying that holders of two-thi=
+rds of the bonds can vote to amend them to release the liens on the collate=
+ral.[6] The Pimco and Silver Point group owned a lot of the bonds, but not =
+two-thirds. But the bond indenture also allowed Incora to issue a bit more =
+debt, so it did, to Pimco and Silver Point, giving them the two-thirds they=
+ needed. Once they had the votes, they voted to (1) allow issuance of new, =
+super-priority debt and (2) to=C2=A0<em>take away=C2=A0</em>the collateral =
+from the existing bond. Then they exchanged their (now unsecured) bond into=
+ the new, super-priority bonds. They also let Platinum exchange some of its=
+ unsecured debt =E2=80=94=C2=A0which had ranked below the old secured bonds=
+ =E2=80=94=C2=A0into new secured bonds, letting Platinum jump ahead of the =
+other (formerly) secured creditors. Here is how=C2=A0<a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/27290711.284600/aHR0cHM6Ly9wZXRpdGlvbi5z=
+dWJzdGFjay5jb20vcC9pbmNvcmFkZWFs/607f07ceef4b8524a319a23cB8745502b" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>the Petition newsletter describes the mechanics</a>:</p><blockquote><p sty=
+le=3D"margin: 16px 0;">Step One: Issue incremental basket capacity to Silve=
+r Point and PIMCO =E2=80=A6 dilute the minority non-participating lenders a=
+nd hand Silver Point and PIMCO the steering wheel =E2=80=A6 mutually agree =
+to amend basket capacity under the indenture to issue a meaningful amount o=
+f new debt =E2=80=A6 use that new power to viciously strip liens from the o=
+ther noteholders =E2=80=A6</p><p style=3D"margin: 16px 0;">Step Two: Permit=
+ Silver Point and PIMCO to exchange their pre-existing secured notes =E2=80=
+=A6 plus newly issued secured notes =E2=80=A6 into new superpriority secure=
+d 26s =E2=80=A6=C2=A0dusting the Akin cohort [<em>i.e., the other group of =
+bondholders</em>] in the processssssssssssss.</p><p style=3D"margin: 16px 0=
+;">Step Three: Let Platinum have some fun toooooo. Uptier their holdings in=
+ unsecured 27s into ~$475mm of new 1.25 lien notes due in =E2=80=9822 (most=
+ly PIK) and =E2=80=9823 (higher cash pay, but also PIK) AT PAR (lol) =E2=80=
+=A6 prime the minority secured lenders(!!!!!!!!) =E2=80=A6and dust the stub=
+ piece of unsecured bondholders too LOLOL</p></blockquote><p style=3D"margi=
+n: 16px 0;">Is this allowed? I don=E2=80=99t know, it is at least arguably =
+allowed; Incora and Pimco and Silver Point think it=E2=80=99s allowed. The =
+other side seems pretty upset. The 9% bonds due 2026, which have about $882=
+ million outstanding and were trading at about 103 cents on the dollar on M=
+arch 23,[7]=C2=A0are at about 69 cents today. This deal extracted about $30=
+0 million of value from those bonds=C2=A0and redistributed it among Incora,=
+ its sponsors and the bondholders who won.</p><p style=3D"margin: 16px 0;">=
+Broadly speaking you can=E2=80=99t do stuff like this in the stock market. =
+Broadly speaking, companies have fiduciary duties to their shareholders, an=
+d have some baseline obligation=C2=A0to treat them all equally. This is not=
+ always binding in every way, but it is a good general starting point; you =
+can=E2=80=99t get 51% of shareholders to vote themselves a big dividend at =
+the expense of the other 49%.=C2=A0</p><p style=3D"margin: 16px 0;">In the =
+debt market, this is not the baseline assumption: The company is not a fidu=
+ciary for its lenders; it owes them only what the contract says it does.=C2=
+=A0If the contract is not airtight, the company and 51% of its lenders can =
+gang up to abuse the other 49%. The contract probably=C2=A0<em>isn=E2=80=99=
+t=C2=A0</em>airtight, in part because it is hard to write an airtight 100-p=
+age contract, in part because lenders in bull markets are not always stickl=
+ers about negotiating airtight covenants, and in part because it=C2=A0<em>s=
+houldn=E2=80=99t=C2=A0</em>be; there=C2=A0<em>should=C2=A0</em>be some flex=
+ibility for the company to renegotiate its debt to respond to, for instance=
+, a business downturn during a pandemic. You could write the contract to sa=
+y =E2=80=9Cwhatever we do, we will always treat all lenders equally,=E2=80=
+=9D[8]=C2=A0but again that limits the company=E2=80=99s flexibility =E2=80=
+=94=C2=A0it is pleasant, for the company, to be able to play lenders off ag=
+ainst each other =E2=80=94=C2=A0and is not always the rule.</p><p style=3D"=
+margin: 16px 0;">Incidentally here is <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/27290711.284600/aHR0cHM6Ly93d3cuaW5jb3JhLmNvbS9uZXdzLWZ=
+lYXR1cmVzL25ld3MtZmVhdHVyZXMtZGV0YWlsLz9pZD1pbmNvcmEtY29tcGxldGVzLWNvbXByZW=
+hlbnNpdmUtcmVjYXBpdGFsaXphdGlvbg/607f07ceef4b8524a319a23cB10175cfc" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>how Incora described the deal</a>:</p><blockquote><p style=3D"margin: 16px=
+ 0;">The recapitalization, which includes an immediate liquidity infusion o=
+f $250 million, was supported by majorities across all of the company's fun=
+ded debt including bondholders and bank lenders.</p><p style=3D"margin: 16p=
+x 0;">"This is a resounding vote of confidence from our financing partners =
+and a great day for Incora and its employees, customers, vendors and busine=
+ss partners," said David Coleal, Incora's chief executive officer. =C2=A0"T=
+his transaction provides a combination of fresh liquidity, maturity relief =
+and debt service reduction, allowing Incora the financial stability to cont=
+inue delivering innovative, first-in-class service to our existing customer=
+s, and to seize new business opportunities as the defense industry signals =
+increased growth and the commercial aerospace industry rebounds."</p></bloc=
+kquote><p style=3D"margin: 16px 0;">That sounds so much nicer! Maybe it=E2=
+=80=99s right? The basic way distressed investing works now is that a compa=
+ny that is having a hard time can extract value from some of its lenders, g=
+ive it to its other lenders, and stay afloat a while longer. That=E2=80=99s=
+ nice for the company.</p><table class=3D"liveintent-sponsored-content" wid=
+th=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27290711.284600/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzI5MDcxMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc1NzUzMTEmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD481eb1db" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27290711&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27575311&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27290711.284600/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzI5MDcxMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc1NzUzMTEmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE481eb1db" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27290711&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27575311&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27290711.284600/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzI5MDcxMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc1NzUzMTEmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF2d6da7bf" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27290711&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27575311&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27290711.284600/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzI5MDcxMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc1NzUzMTEmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG2d6da7bf" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27290711&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27575311&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oh Elon</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Just tying up a little loose end here.=
+ On Monday, Elon Musk filed a <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/27290711.284600/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9=
+kYXRhLzE0MTgwOTEvMDAwMTEwNDY1OTIyMDQxOTExL3RtMjIxMTQ4MmQxX3NjMTNnLmh0bQ/607=
+f07ceef4b8524a319a23cB1e43a042" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">Schedule 13G</a> showing that he ow=
+ned 9.2% of Twitter Inc. On Tuesday, he filed a Schedule 13D showing that h=
+e owned 9.1%. On Wednesday, <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/27290711.284600/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fyd=
+GljbGVzLzIwMjItMDQtMDYvZWxvbi1tdXNrLWlzLWFjdGl2ZS1ub3c_Y21waWQ9QkJEMDQwNzIy=
+X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3R=
+lcm09MjIwNDA3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB1d78=
+f173" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> I wrote</a>:</p><blockquote><p style=3D"margin: 16px 0;">Oh =
+by the way his 13G on Monday said he owned 9.2% of Twitter (73,486,938 shar=
+es), and his 13D on Tuesday said 9.1% (73,115,038)? This discrepancy cannot=
+ really be explained by =E2=80=9Che sold 371,900 shares on Monday and Tuesd=
+ay,=E2=80=9D since the 13D has to report all of his Twitter stock transacti=
+ons in the last 60 days, and that report lists purchases of 73,115,038 shar=
+es and no sales. Could the discrepancy be explained by =E2=80=9Che forgot h=
+ow many shares he owned=E2=80=9D?=C2=A0</p></blockquote><p style=3D"margin:=
+ 16px 0;">It sure could man, it sure could. Later that day <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/27290711.284600/aHR0cHM6Ly90d2l0dG=
+VyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTUxMTgwNjAxOTkxNTE5ODQ4Nw/607f07ceef4b8524a3=
+19a23cBe53bec3a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">Musk tweeted</a> =E2=80=9CNo sale took place. Init=
+ial share number filed was incorrect.=E2=80=9D=C2=A0</p><p style=3D"margin:=
+ 16px 0;">The <a href=3D"https://link.mail.bloombergbusiness.com/click/2729=
+0711.284600/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjI=
+tMDQtMDQvZWxvbi1tdXNrLWJvdWdodC1zb21lLXR3aXR0ZXI_Y21waWQ9QkJEMDQwNzIyX01PTk=
+VZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09M=
+jIwNDA3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB91c876cf" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> theme</a> of <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/27290711.284600/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGV=
+zLzIwMjItMDQtMDUvZWxvbi1tdXNrLWdvdC1hLXR3aXR0ZXItYm9hcmQtc2VhdD9jbXBpZD1CQk=
+QwNDA3MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlc=
+iZ1dG1fdGVybT0yMjA0MDcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319=
+a23cBc447dbcf" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> this</a> <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/27290711.284600/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjItMDQtMDYvZWxvbi1tdXNrLWlzLWFjdGl2ZS1ub3c_Y21waWQ9QkJEMDQ=
+wNzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdX=
+RtX3Rlcm09MjIwNDA3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23c=
+C1d78f173" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> week</a> has pretty much been =E2=80=9CElon Musk is rea=
+l bad at filling out SEC forms.=E2=80=9D It is hard to know what to make of=
+ that? You are supposed to fill out the forms right, the U.S. Securities an=
+d Exchange Commission does care about this sort of thing, and there is a wh=
+ole industry of expensive lawyers =E2=80=94=C2=A0some of them employed by M=
+usk! =E2=80=94=C2=A0who fill out the forms. Also Musk seems to have <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27290711.284600/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtMDYvZWxvbi1tdXNr=
+LWlzLWFjdGl2ZS1ub3c_Y21waWQ9QkJEMDQwNzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWF=
+pbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNDA3JnV0bV9jYW1wYWlnbj1tb2=
+5leXN0dWZm/607f07ceef4b8524a319a23cD1d78f173" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> saved himself about =
+$140 million</a> by filling out the forms=C2=A0<em>late:=C2=A0</em>He kept =
+buying Twitter stock after the disclosure deadline, at around $39 per share=
+, without disclosing his stake; once he disclosed that stake the stock went=
+ up to $50. Arguably the people who sold at $39 should have gotten $50; arg=
+uably he tricked them into selling too low by illegally hiding his ownershi=
+p.=C2=A0</p><p style=3D"margin: 16px 0;">But the traditional penalty for fi=
+lling out these forms wrong or late is small. I have suggested that the SEC=
+=E2=80=99s Elon Musk Division, which loves fighting with Elon Musk almost a=
+s much as he loves fighting with the SEC, might try to go after him for the=
+ $140 million, but <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/27290711.284600/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL3RlY2hub2xvZ3kvMj=
+AyMi8wNC8wNi9tdXNrLXR3aXR0ZXItc2VjLw/607f07ceef4b8524a319a23cB628e0690" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">that seems like a tough one</a>:</p><blockquote><p style=3D"margin: 16=
+px 0;">Musk=E2=80=99s windfall may come with a slap on the wrist in the for=
+m of a fine from the SEC but will probably be limited to hundreds of thousa=
+nds of dollars, according to the legal and security experts.</p><p style=3D=
+"margin: 16px 0;">The SEC could also argue in court that Musk needs to part=
+ with the theoretical profit, but that would be a long shot, said Adam Prit=
+chard, a professor of securities law at University of Michigan=E2=80=99s la=
+w school.</p><p style=3D"margin: 16px 0;">The SEC =E2=80=9Cwould have to be=
+ really angry with him to try that because they would have a good chance of=
+ a court rejecting that argument,=E2=80=9D he said.</p><p style=3D"margin: =
+16px 0;">Individual shareholders, Pritchard said, have no right to sue Musk=
+ because the public disclosure is a regulatory requirement and not somethin=
+g he legally owes to Twitter=E2=80=99s shareholders.</p></blockquote><p sty=
+le=3D"margin: 16px 0;">=E2=80=9CThe SEC would have to be really angry with =
+Elon Musk to try that=E2=80=9D suggests an almost 100% probability that it =
+will try that, since the SEC exists in a state of perpetual rage at Elon Mu=
+sk, but I guess the point is it won=E2=80=99t work.=C2=A0</p><p style=3D"ma=
+rgin: 16px 0;">Also I should clarify that I am joking when I refer to the =
+=E2=80=9CElon Musk Division=E2=80=9D of the SEC, but <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/27290711.284600/aHR0cHM6Ly93d3cubnl0aW1l=
+cy5jb20vMjAyMi8wNC8wNi9idXNpbmVzcy9kZWFsYm9vay9rb2NoLWRlc2ltb25lLWJsdWUtY3V=
+ycmVudC1iYXR0ZXJpZXMuaHRtbA/607f07ceef4b8524a319a23cB6bd75244" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">here=
+ is the New York Times</a>:</p><blockquote><p style=3D"margin: 16px 0;">=C2=
+=A0=E2=80=9CGiven Musk=E2=80=99s tendency to say or tweet newsworthy things=
+, he could well land himself or Twitter in trouble,=E2=80=9D James Angel, a=
+ finance professor at Georgetown=E2=80=99s business school, told DealBook. =
+=E2=80=9CThe Elon Musk division at the S.E.C. will have fun with this.=E2=
+=80=9D</p></blockquote><p style=3D"margin: 16px 0;">In like six months peop=
+le will refer to the SEC EMD as a matter of course. In another year the SEC=
+ will formally create the division, give it a few floors of office space an=
+d appoint a director. What a weird job that will be. On the other hand, it =
+is in many ways the most fun securities-law job there is; you get to think =
+about a complicated novel high-profile legal issue every day. On the other =
+hand it is grinding scorched-earth litigation and <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/27290711.284600/aHR0cHM6Ly93d3cud3NqLmNvbS9=
+hcnRpY2xlcy9lbG9uLW11c2tzLXRlc2xhLWFza2VkLWxhdy1maXJtLXRvLWZpcmUtYXNzb2NpYX=
+RlLWhpcmVkLWZyb20tc2VjLTExNjQyMjY1MDA3/607f07ceef4b8524a319a23cBbfdf09f8" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">you are unemployable when you leave</a>.=C2=A0</p><table class=3D"li=
+veintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D=
+"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27290711.284600/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNzI5MDcxMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc1NzUzMTEmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH93ca0119" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D27290711&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27575311&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Toucan</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here is a Bloomberg Green <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/27290711.284600/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDQtMDcvdGhlLWJpZ2dlc3QtY3J5c=
+HRvLWVmZm9ydC10by1lbmQtdXNlbGVzcy1jYXJib24tb2Zmc2V0cy1pcy1iYWNrZmlyaW5nP2Nt=
+cGlkPUJCRDA0MDcyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXd=
+zbGV0dGVyJnV0bV90ZXJtPTIyMDQwNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4=
+b8524a319a23cBb0800bed" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> story about Toucan</a>, a crypto platform =
+that aims to rid the world of bad carbon offsets by buying them all itself:=
+</p><blockquote><p style=3D"margin: 16px 0;">By organizing an effort to pur=
+chase the cheapest carbon credits, crypto users could rid the market of low=
+-quality projects. An oil company would have to pay higher prices for offse=
+ts derived from more rigorous projects once Toucan=E2=80=99s users helped c=
+lear away the worst offenders. The crypto community even came up with a ter=
+m for this method: =E2=80=9Csweeping the floor.=E2=80=9D</p></blockquote><p=
+ style=3D"margin: 16px 0;">A rough model for this is that if 100 carbon cre=
+dits come on the market each year, and Toucan buys 25 of them, then there a=
+re only 75 left for polluting companies to buy. This drives up the price an=
+d makes it more economical for the polluting companies to=C2=A0<em>reduce t=
+heir own pollution=C2=A0</em>rather than just paying for carbon offsets, wh=
+ich people think are kind of fake anyway. Raising the cost of carbon credit=
+s raises the cost of polluting, which leads to less pollution.</p><p style=
+=3D"margin: 16px 0;">The problem with this logic is that the supply of carb=
+on credits is not fixed, and it is especially easy to expand the supply of =
+<em>the worst carbon credits</em>. Rigorous new projects to capture carbon =
+are expensive and hard; looking at some trees and saying =E2=80=9Csure what=
+ever I won=E2=80=99t cut down those trees, now give me my money=E2=80=9D is=
+ easy. If you announce =E2=80=9Cwe=E2=80=99ll pay top dollar for the worst =
+carbon credits, to drive them off the market,=E2=80=9D then people are just=
+ going to make more to sell to you:</p><blockquote><p style=3D"margin: 16px=
+ 0;">If the intention was to raise the quality and price of carbon credits,=
+ things are moving backwards. The assumption was that there=E2=80=99s a fin=
+ite pool of bad offsets, which could be bought and locked away, allowing go=
+od projects to be priced better. But the assumption was flawed.</p><p style=
+=3D"margin: 16px 0;">Spiking demand for cheap Verra credits triggered by To=
+ucan and its allies has created new reasons to generate the bad offsets. Ac=
+cording to an analysis by CarbonPlan, dozens of project developers who have=
+n=E2=80=99t issued credits in years have suddenly started selling again =E2=
+=80=94 even though they don=E2=80=99t need the money to keep operating, muc=
+h less get off the ground.</p><p style=3D"margin: 16px 0;">=E2=80=9CThe pro=
+blem we are seeing is that Toucan is creating incentives to bring zombie pr=
+ojects to life that have no environmental integrity,=E2=80=9D said Danny Cu=
+llenward, policy director at CarbonPlan.</p></blockquote><table class=3D"he=
+ader" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bitcoin as legal tender</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Bloomberg=E2=80=99s Michael McDonald w=
+ent to El Salvador and tried to pay for goods and services in the country=
+=E2=80=99s legal tender, Bitcoin. It went about <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/27290711.284600/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9mZWF0dXJlcy8yMDIyLWJpdGNvaW4tdHJhdmVsLXByb2JsZW1zP2NtcGlkPUJCRDA0MDcy=
+Ml9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9=
+0ZXJtPTIyMDQwNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBa3=
+d29a83" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> as well as you=E2=80=99d expect</a>:</p><blockquote><p sty=
+le=3D"margin: 16px 0;">Outside the airport, I approach a dozen cab drivers =
+who are chatting and waiting for fares. I pop the question: =E2=80=9CWill y=
+ou take my Bitcoin?=E2=80=9D Two throw up their arms and walk away. One say=
+s he knows a guy who does, but he=E2=80=99s not here. The rest ignore me an=
+d continue their conversations.</p><p style=3D"margin: 16px 0;">I go with a=
+ driver in a white Toyota van. He=E2=80=99ll take me to my hotel for $30=E2=
+=80=94actual, not digital dollars. =E2=80=9CMost people prefer cash, and al=
+most no one asks if they can pay in Bitcoin,=E2=80=9D says Saul Escobar, 55=
+. =E2=80=9CThe system fails a lot, and lately it=E2=80=99s been really slow=
+. There was a lot of enthusiasm last year, but it=E2=80=99s died down.=E2=
+=80=9D</p><p style=3D"margin: 16px 0;">In the hour it takes to exit the air=
+port and reach my hotel, the Bitcoin in my phone falls 2% in value. I decid=
+e to stop checking.</p></blockquote><p style=3D"margin: 16px 0;">I feel lik=
+e =E2=80=9CBitcoin is digital cash that people will be able to use for regu=
+lar real-world transactions=E2=80=9D was a thing people said a few years ag=
+o that has now gone entirely out of fashion. =E2=80=9CBitcoin is digital go=
+ld that people will use as a store of value, a speculative asset and perhap=
+s an inflation hedge=E2=80=9D is now the respectable position, and perfectl=
+y compatible with being bullish on Bitcoin. It was a weird throwback for El=
+ Salvador to make Bitcoin legal tender=C2=A0<em>last year</em>, after every=
+one had moved on from the Bitcoin-is-useful-money idea. And now you see why=
+ everyone moved on.</p><table class=3D"header" width=3D"100%" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">A statistical analysis of Money Stuff=E2=80=99s length and publish ti=
+me</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I=E2=80=99m sorry, <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/27290711.284600/aHR0cHM6Ly9kYW5pZWxzd=
+G9uZS5zdWJzdGFjay5jb20vcC9tb25leS1zdHVmZi1pcy1saW5lYXItaXNoP3M9dw/607f07cee=
+f4b8524a319a23cBbd3487e3" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">I=E2=80=99m doing my best</a>.</p><table =
+class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Why Russia <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/27290711.284600/aHR0cHM6Ly93d3cud3NqLmNvbS9hc=
+nRpY2xlcy93aHktcnVzc2lhLWRvZXNudC13YW50LXRvLWRlZmF1bHRldmVuLWluLWEtdGltZS1v=
+Zi13YXItMTE2NDkzMzYyNjk/607f07ceef4b8524a319a23cBbf417e59" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">Doesn=E2=
+=80=99t Want to Default</a>=E2=80=94Even in a Time of War. Shell Warns of U=
+p to $5 Billion Hit From <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/27290711.284600/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zaGVsbC10by1i=
+b29rLXVwLXRvLTUtYmlsbGlvbi1pbi1pbXBhaXJtZW50cy1mcm9tLXJ1c3NpYS1vcGVyYXRpb25=
+zLTExNjQ5MzE0MTAxP21vZD1ocF9sZWFkX3BvczE/607f07ceef4b8524a319a23cB5ec380d6"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">Russia Exit</a>. A Year On, <a href=3D"https://link.mail.bloomberg=
+business.com/click/27290711.284600/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2FydGljbGVzLzIwMjItMDQtMDcvYS15ZWFyLW9uLWdyZWVuc2lsbC1zdGlsbC1oYXMtOS0zLWJ=
+pbGxpb24tdG8tcGF5LW9uLWl0cy1ub3Rlcz9jbXBpZD1CQkQwNDA3MjJfTU9ORVlTVFVGRiZ1dG=
+1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA0MDcmdXRtX=
+2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB7101381b" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Gree=
+nsill</a> Still Has $9.3 Billion to Pay on Its Notes. Tesla-Backed Startup =
+Made <a href=3D"https://link.mail.bloombergbusiness.com/click/27290711.2846=
+00/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjItMDQtMDcvaG93=
+LXBheS1hcy15b3UtZ28tc29sYXItbWFkZS10aGUtd29ybGQtcy1jaGVhcGVzdC1uZXctZW5lcmd=
+5LXVuYWZmb3JkYWJsZT9jbXBpZD1CQkQwNDA3MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYW=
+lsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA0MDcmdXRtX2NhbXBhaWduPW1vb=
+mV5c3R1ZmY/607f07ceef4b8524a319a23cB1c035f52" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> Cheap Power</a> a De=
+bt Burden for the World=E2=80=99s Poorest. Ex-McKinsey Partner <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/27290711.284600/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDQtMDYvZXgtbWNraW5zZXktcGFyd=
+G5lci1nZXRzLXR3by15ZWFycy1mb3ItdHJhZGluZy1vbi1nb2xkbWFuLWRlYWw_Y21waWQ9QkJE=
+MDQwNzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXI=
+mdXRtX3Rlcm09MjIwNDA3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a=
+23cBaeca3d22" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> Gets 2 Years</a> for Trading on Goldman Deal. =E2=80=
+=9CPeople don=E2=80=99t enjoy websites anymore because there=E2=80=99s only=
+ 5 left and they all realized that it=E2=80=99s <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/27290711.284600/aHR0cHM6Ly93d3cuZ2FyYmFnZWRhe=
+S5lbWFpbC9wL2ktdGhpbmstdHdpdHRlci10aGlua3Mtd2UtbGlrZS11c2luZw/607f07ceef4b8=
+524a319a23cBe9a656a1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">more profitable to piss people off</a>. And t=
+his is especially true for Twitter!=E2=80=9D=C2=A0</p><p style=3D"margin: 1=
+6px 0;"><span class=3D"news-designed-for-consumer-media"><em>If you'd like =
+to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox,=
+ please=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/27290=
+711.284600/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20v=
+bW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/=
+607f07ceef4b8524a319a23cB288a5212" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">subs=
+cribe at this link</a>. Or you can subscribe to Money Stuff and other great=
+ Bloomberg newsletters <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/27290711.284600/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/6=
+07f07ceef4b8524a319a23cBc24e6feb" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">here</a>. Thanks!</em></span></p><p style=3D"margin=
+: 16px 0;"><em>[1] We have <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27290711.284600/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydG=
+ljbGVzLzIwMjAtMDctMTAvbWF0dHJlc3MtY29tcGFueS1zdGlmZnMtc29tZS1sZW5kZXJzP2Ntc=
+GlkPUJCRDA0MDcyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdz=
+bGV0dGVyJnV0bV90ZXJtPTIyMDQwNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b=
+8524a319a23cBde631286" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> talked about this schematic model before</a=
+>, when Serta Simmons Bedding LLC did a trade like this.</em></p><p style=
+=3D"margin: 16px 0;"><em>[2] As is common but not quite technically accurat=
+e, when I say =E2=80=9Ca majority of creditors=E2=80=9D I mean =E2=80=9Ccre=
+ditors holding a majority of the principal amount of the loan or bond issue=
+.=E2=80=9D</em></p><p style=3D"margin: 16px 0;"><em>[3] That is, certain te=
+rms can=E2=80=99t be changed in a way that affects any creditor unless that=
+ creditor agrees. So they can be amended by unanimous consent.</em></p><p s=
+tyle=3D"margin: 16px 0;"><em>[4] Except in bankruptcy but that=E2=80=99s di=
+fferent.</em></p><p style=3D"margin: 16px 0;"><em>[5] A classic, wild examp=
+le is that Windstream Holdings Inc. tried to get bondholder consent to a re=
+structuring by issuing new bonds to friendly holders, but <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/27290711.284600/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDItMTkvYXVyZWxpdXMtd2lucy1hZ2=
+FpbnN0LXdpbmRzdHJlYW0_Y21waWQ9QkJEMDQwNzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lb=
+WFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwNDA3JnV0bV9jYW1wYWlnbj1t=
+b25leXN0dWZmI2Zvb3Rub3RlLTQ/607f07ceef4b8524a319a23cBc0c6aa9c" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> som=
+ehow messed it up</a>, violated the covenant restricting new indebtedness, =
+and did not get the benefit of the consents.</em></p><p style=3D"margin: 16=
+px 0;"><em>[6] <a href=3D"https://link.mail.bloombergbusiness.com/click/272=
+90711.284600/aHR0cHM6Ly9jb3ZlbmFudHJldmlldy5jb20v/607f07ceef4b8524a319a23cB=
+125b0a16" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">Covenant Review</a>, in a Feb. 11 note, quotes the bonds=
+=E2=80=99 offering memo: =E2=80=9CIn addition, without the consent of the h=
+olders of at least 66 2/3% in aggregate principal amount of the Secured Not=
+es then outstanding of the applicable series (including, without limitation=
+, consents obtained in connection with a purchase of, or tender offer or ex=
+change offer for, the Secured Notes), no amendment, supplement or waiver ma=
+y (1) have the effect of releasing all or substantially all of the Collater=
+al from the Liens created pursuant to the Security Documents (except as per=
+mitted by the terms of the applicable Secured Notes Indenture, the Security=
+ Documents or the Intercreditor Agreements) or changing or altering the pri=
+ority of the security interests of the holders of the Secured Notes in the =
+Collateral under the ABL Intercreditor Agreement or the Pari Passu Intercre=
+ditor Agreement.=E2=80=9D</em></p><p style=3D"margin: 16px 0;"><em>[7] That=
+ seems like an artificially high number; they seem to have traded above par=
+ mostly because people were buying them up in the race to get a majority po=
+sition to be able to dictate terms to the company. =E2=80=9CThere=E2=80=99s=
+ some chatter about a short squeeze here,=E2=80=9D notes Petition.</em></p>=
+<p style=3D"margin: 16px 0;"><em>[8] Covenant Review notes: =E2=80=9CA cust=
+omary Payments for Consent covenant requires that if an issuer pays any bon=
+dholders as an inducement to any consent to any waiver, supplement or amend=
+ment to the terms of the indenture for a series of bonds, it must offer the=
+ same=C2=A0consideration to all holders of that series of bonds. If the Sec=
+ured Notes had a customary Payments for Consent covenant, this protection w=
+ould prevent lien subordination by the supermajority consent discussed abov=
+e, without all bondholders being offered the same deal. Unfortunately for b=
+ondholders, the OM does not contain a customary Payments for Consent covena=
+nt.=E2=80=9D I am not sure it is obvious that a payments for consent covena=
+nt would apply to a deal like this, where the majority bondholders did not =
+get a consent fee but rather rolled into new bonds, etc.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27290711.284600/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBc770e01c" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27290711.284600/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBa057aa7d" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27290711.284600/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBe0d48e22" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27290711.284600/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB38ed8632" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27290711.284600/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNzI5MDcxMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9Mjc1NzUzMTEmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIa1d5bf68" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D27290711&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27575311&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2729071=
+1.284600/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB97e35a97" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/27290711.284600/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCbdcdbadb" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27290711.284600/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBe3a1d4a3" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/27290711.284600/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBc6e450af" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27290711.284600/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBb=
+7e816ef" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27290711.284600/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB3=
+09e3f96" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D272907=
+11&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27575311&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D272907=
+11&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27575311&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D272907=
+11&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27575311&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D272907=
+11&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27575311&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D272907=
+11&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27575311&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cg8xnb.63lk/151ffd05.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_15664103_314741852.1649353015904--
+

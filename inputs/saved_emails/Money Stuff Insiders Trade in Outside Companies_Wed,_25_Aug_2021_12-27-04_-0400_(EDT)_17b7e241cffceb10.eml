@@ -1,0 +1,1456 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:4d0d:b0:138:a0a2:ca29 with SMTP id cy13csp771800lkb;
+        Wed, 25 Aug 2021 09:28:21 -0700 (PDT)
+X-Received: by 2002:a05:6402:3485:: with SMTP id v5mr48828082edc.205.1629908901278;
+        Wed, 25 Aug 2021 09:28:21 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1629908901; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=d+c/wOFp3Oq5FSli5UsJ2I5EwZNBC8qHnB1g+xNdFL+acimfuND/wTH5gUyNBAvi6t
+         0o97PTZ0KulpK6+ZKVixIPCdWcNeYVRjySBVEWizBbLr9WtG32V7tpzzPHeI6FlppDG7
+         bIvC3eE2OBhxlycNc2eikvmomiQGGMPDeyHNFwDnsMDzEo0hawVku769Os5bNw5l7Bij
+         F5lsrtg0vdgwH3sh5bvTg6MPSWBgOq0QoRCm6cUvXq8IIrFuvD27+gOciZm07cqP0rIG
+         hGLXJN5MqJFJF6JDNLRBK4oVCnMRm622XQOgw9b4Z3vpHdLsoukI0g9zR/ZOiqrVWFf4
+         8Ydg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=5VEB+WtjyFm57puvh3ilhxamnaEi2QEJgk660OiR2ao=;
+        b=DyL2pVtrYRi+kYFb6zuFsZJTjPnKooIkbWUrjEsnQ6vgtWUaOmpLBzXCDu/OzeaEs+
+         x21uDQlboKQLM2xZQlRzyWgCVZQBvZX/k/bYEfnjitK8j9JiiALBtxD0ItG6K8yrhpyA
+         wjsVF15ef1TuPAOTJgn9focxAc0NGBZyAmijipoU0QTqzaosjQ809X0b4OOWwmllt0D5
+         v1Br5fwi1CpaFTEarZXxFpMkXogbKvBleRkIDNFQM/8OnoyCjVtQjsr5n2VNDq9AmZjG
+         3pL1sUnsI0oo8RsImE/1CVkOP3vRoXA4DHwS1rhLjvsAx4ygIuj2y08j8s1025sV6TgG
+         RDKA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=MoIzcuFq;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id g17sor208293ejk.50.2021.08.25.09.28.20
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 25 Aug 2021 09:28:21 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=MoIzcuFq;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=5VEB+WtjyFm57puvh3ilhxamnaEi2QEJgk660OiR2ao=;
+        b=JUyqCaLfPbhRda8VSjkp8kw/lSn9CkA5eSOxHubMIdCTxsf+L+jLaQ/EQP/0Jazic2
+         gRgQdybZnYA3eN1v6VdcYbUqsUcaieLubr7WTPqqXx3YRuQWd/6YhXpnm9DL7UYbbjCj
+         YHLTRtkf67jgiMIkTAkckGVBo89i7d4bB9Eh79avnSm+a5XB4yfa1H3Kp37AmfB6Nng4
+         7Hww8TdPAsJ1jw7b/CaYTePyYvuhgI0szM9NowC+V4JgSWzXwQZYPWqK0LwvleG9Jhei
+         JoXGISfRTJc1Vw/XqxLgzrQW8Uiz9qfKndOal/K4TFXV9HxaIEwIAe3RkXbLOhLU8kU2
+         hnQQ==
+X-Gm-Message-State: AOAM531ltFCelQX6xPRnfzONz0R5xYAQcI35u6UPVwM5NY4haCZzBMSn
+	VBlxI+WPvgnRcFa9sqQl62H/ckXbdqE2vWqAA/be8Ze1ts+6yl6+TA==
+X-Received: by 2002:a17:906:1d59:: with SMTP id o25mr19387949ejh.431.1629908900507;
+        Wed, 25 Aug 2021 09:28:20 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:3bce:0:0:0:0:0 with SMTP id g14csp337110ecu;
+        Wed, 25 Aug 2021 09:28:17 -0700 (PDT)
+X-Received: by 2002:a67:e243:: with SMTP id w3mr5862807vse.41.1629908897174;
+        Wed, 25 Aug 2021 09:28:17 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1629908897; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=JSWfDmqoVUWsrfamIGDA8UoRQ0SkcHXqyxU6FVAS5lyedTHq2P38CEnexvOE7TvjvH
+         rsSrHpRtg55s1rjoK5uipj7wzaur/ut1zcGEHK+L8ccnbQW28uWt8gEPzHAurzIO+bMf
+         7KHAfdPF2pNbJmzp9EkGuUwFBB1ovQZ3E9UwRz0w+RLUfF/Hb/yJgW0ObCCNRx/BmiYq
+         G0KWkt6mYJ60lZgtXy1Gv8DUNLs+PzKFMUtH1RLm5la24AlRzGIImgCrOpFP2lS896Oy
+         JxoqZMS11QwEyNUFRuOGO+nEYQegfwz+UY4TO+7KWegBpcH8GScSBlRBXWCaSO00yVcj
+         gCag==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=5VEB+WtjyFm57puvh3ilhxamnaEi2QEJgk660OiR2ao=;
+        b=cuXsk/dy427tR22LsalKeOSOzrW4YpL4cw0KbPnpfiCD25jNPvjFr65NtUVRjcdbGp
+         vBAOvUUcQJakhOwT8AfWUUvTB/AlQ/2kOxw4RuLHT3ecJHQ9IQ7KFEcw2K6aHRbG2SDk
+         s9QzTtMDG4uM8uIrK+pFBBBL3LCBZwG6bKls3G6i1mYXqWIfB/a6e5RYo5OeVMXCEyVt
+         owVEUh9tbP3NV7v81WsxZZf34W5ecvAoMol8hs6ZO8e4MTlZyOEvpeGbuEPmZChwJqu+
+         4I3hoapba5s+WZPqNZ8IBX//MD7zN7gy2rljE/o4Owr8b2nEjZ2w5VYl57f0avs1HL8N
+         p9Dg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=MoIzcuFq;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210825122704.24851756.270933@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210825122704.24851756.270933@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210825122704.24851756.270933@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id w10sor110720vsa.14.2021.08.25.09.28.16
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 25 Aug 2021 09:28:17 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210825122704.24851756.270933@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJyQt8A9PzyS4DOicyP1om3sO4BI9lao1xfantljnuW+5XOnnc8HcQU3eHOcktsQL4XBZrDv2PpFOmf/zYt5adDoz+tKIrc=
+X-Received: by 2002:a05:6102:819:: with SMTP id g25mr33785916vsb.8.1629908895342;
+        Wed, 25 Aug 2021 09:28:15 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1629908895; cv=none;
+        d=google.com; s=arc-20160816;
+        b=twxNMqDgbWNikYBWPG4vDFTub8OwzqZVq5Pm1Kxux2mC93VbA8MrOpn/CQhvG/7UBY
+         3qNpkTlU5Y9ve8ZL5Eh3W/eRpGFg8v/7tRJnHtjoGYDBlU1R7egVklTctM2NsIlcwyqM
+         BB84/ehUF7oAvoNWKWsQRkUl4lC3Lx13+THCmG5CjNZUe+DS6SOu4pzn31O87i6Px1QA
+         Q7fN+6XLj1dtftqDgewe7qY30SJZimwI/ikO5F/NMk1X0Of7lL5HOhzBdS5vn8Y+1gC+
+         FUQsb1xf4/kG/SoBiuOXMpKbwu6MHKbtk5cgC+FTjAlkPspOaGg2mqf/IUba2kyjJ7UZ
+         PlkQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=5VEB+WtjyFm57puvh3ilhxamnaEi2QEJgk660OiR2ao=;
+        b=NOJwUS7i+kftusn1teRmN2UVIH8THcI2aCcLfRmMujZbhG/6Gk+tNWB0HO8+e2Xgv3
+         gKGHXGSQrWasrsvPzQsn1nb4hMN6fVAHg+NFkpVcdMCpQshPkUzu9C6ofDqor2ESHbdM
+         dWawPtEld8unX/EMjP6pp32H8iJfqWi7kSiDdalqk7ulcC7GGscoVmHydkFpgDoDVxtV
+         9aokDn9E4Ex9HSTBuGwo7qYU7xw7gMD651CjnAg3ilEQjbRUbi5hdwp5aLCx3mSHget3
+         Z+BILizOcfj7HYdKiJrd+yLrZF1rPUOcaPw6SDgqgN+gVkGUjcpESKEgZ4uTHeOSnjNK
+         fFTg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=MoIzcuFq;
+       spf=pass (google.com: domain of delivery_20210825122704.24851756.270933@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210825122704.24851756.270933@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210825122704.24851756.270933@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id t139si15042vst.0.2021.08.25.09.28.15
+        for <khamel83@gmail.com>;
+        Wed, 25 Aug 2021 09:28:15 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210825122704.24851756.270933@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=d9g9ccshrVZgCu+1WY47BVR+5uM=;
+ b=MoIzcuFqy+Uz3ON/3tKQWmPd55GDILPdUWGhcyIidUntBQyhVFKxo/zu4KW9egHz1+3KPAW+zrOv
+   92odCmQ4zzaeR/ghCu7yAfR9f+zsL0BLwnjmA0hePF/K8sPAWPk5wDajxJ7dFNTmGghbceurYwed
+   ALYqz7OB5UsAQjyt8uc=
+Received: from nj2mta-17.sailthru.com (204.153.121.17) by bloomberg-b.sailthru.com id h4pnpu1qqbsa for <bloomberg@khamel.com>; Wed, 25 Aug 2021 12:28:14 -0400 (envelope-from <delivery_20210825122704.24851756.270933@mx.sailthru.com>)
+Date: Wed, 25 Aug 2021 12:27:04 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210825122704.24851756.270933@sailthru.com>
+Subject: Money Stuff: Insiders Trade in Outside Companies
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_22856184_1860561774.1629908824631"
+Precedence: bulk
+X-Feedback-ID: 6358:24851756:campaign:sailthru
+X-TM-ID: 20210825122704.24851756.270933
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-tancanary.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cesnqk.5t1x/a9c78827
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cesnqk.5t1x/a9c78827>, <mailto:unsubscribe_20210825122704.24851756.270933@mx.sailthru.com>
+X-rpcampaign: stjko24851756
+
+------=_Part_22856184_1860561774.1629908824631
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Shadow trading
+   =20
+ =20
+We  talked on Monday=C2=A0about a U.S. Securities and Exchange Commission i=
+nsider trading case against a guy who allegedly worked at a public company =
+(Medivation Inc.), learned through his job that his company was about to be=
+ acquired, and went out and bought call options on another company (Incyte =
+Corp., a biotech company similar to Medivation), presumably on the theory t=
+hat:=09Good news for Medivation would be good for Incyte=E2=80=99s stock, s=
+o he=E2=80=99d make money, but=09The SEC probably wouldn=E2=80=99t go after=
+ him for insider trading, because he wasn=E2=80=99t an Incyte insider.The f=
+irst part was correct =E2=80=94=C2=A0Incyte=E2=80=99s stock went up when Me=
+divation announced its merger, and he made money =E2=80=94=C2=A0but the sec=
+ond part was not. The SEC sued him for insider trading, arguing that (1) th=
+e information he had was material to Incyte=E2=80=99s stock and (2) he had =
+a duty to Medivation=C2=A0to keep it confidential. This was a learning expe=
+rience for all of us, really.=C2=A0One thing that I said on Monday is that,=
+ while the SEC=E2=80=99s argument is not particularly surprising, I had nev=
+er seen a case like this before, and I pondered a bit what that could mean.=
+ I suggested two possibilities: Perhaps people just don=E2=80=99t go around=
+ using their companies=E2=80=99 information to trade on comparable companie=
+s, or perhaps they do and the SEC just doesn=E2=80=99t go after them. I gue=
+ssed that the second possibility was more likely but I had no real data.But=
+ here are a paper=C2=A0and blog post from last year, by Mihir Mehta, David =
+Reeb and Wanli Zhao, about =E2=80=9CShadow Trading,=E2=80=9D which is =E2=
+=80=A6=C2=A0this:We examine whether corporate insiders attempt to circumven=
+t insider trading restrictions by facilitating trading in competitors and s=
+upply chain partners, an activity we label Shadow Trading.To identify situa=
+tions in which insiders could use their private information to facilitate s=
+hadow trading, we use corporate announcements. We focus on announcements th=
+at are likely to represent the release of private information held by a fir=
+m=E2=80=99s insiders such as earnings announcements, M&A transaction announ=
+cements, and announcements about new products. Using multiple proxies of in=
+formed trading from the literature to measure shadow trading, we document t=
+hat immediately before one of these corporate news announcements by a focal=
+ firm, competitors and supply chain partners display increased informed tra=
+ding levels in their stocks. In particular, the magnitude of informed tradi=
+ng is linked to the magnitude of the information shocks. Each news event ap=
+pears to represent a significant opportunity for profitable trading=E2=80=
+=94a back-of-the-envelope calculation suggests that the average profit from=
+ a single shadow trading event ranges from about $140,000 to over $650,000.=
+ =E2=80=A6Overall, our evidence shows that employees facilitate trading in =
+their firms=E2=80=99 business partners and competitors to circumvent inside=
+r trading regulations designed to limit their ability to exploit private in=
+formation.So, yes, the answer is apparently that insiders of one company re=
+gularly use corporate information to trade in the stocks of other companies=
+, but the SEC doesn=E2=80=99t usually go after them.Should it? I dunno. The=
+ Incyte/Medivation case looks pretty bad: The guy allegedly had the paradig=
+matic most-material-possible inside information (his company was being acqu=
+ired at a premium) and used it to trade the paradigmatic most-insider-trade=
+r-y-possible instruments (short-dated out-of-the-money call options). If yo=
+u look at those facts, you are going to say =E2=80=9Cyeah this seems like i=
+nsider trading.=E2=80=9D But=C2=A0in general=C2=A0I am not sure it=E2=80=99=
+s so bad for public-company employees to use things they learn at work to t=
+rade in the stocks of other companies in their industry. A story like =E2=
+=80=9CMs. X is an oil-company executive at Company Y, through her job she h=
+as come to know a lot about geology and drilling technologies and the perso=
+nalities in the sector, she met the executives of Company Z at an industry =
+conference and thought that they=E2=80=99re a smart crew, she studies maps =
+and geological reports at her job and thinks Company Z owns some good prope=
+rties, so she bought some Company Z stock as an investment=E2=80=9D =E2=80=
+=94=C2=A0I could see how you=C2=A0might=C2=A0object to that story, but all =
+in all it seems fairly innocuous, more =E2=80=9Ccareful research using expe=
+rt knowledge=E2=80=9D than =E2=80=9Cinsider trading.=E2=80=9D The line betw=
+een =E2=80=9Csomeone who works in an industry uses her specialized knowledg=
+e to make smart investments in comparable companies=E2=80=9D and =E2=80=9Ci=
+nsider trading=E2=80=9D is a bit blurry, and perhaps the SEC should only go=
+ after people who, you know, buy short-dated out-of-the-money call options =
+on their competitors=C2=A0a couple of days before their company announces a=
+ merger.There is one other factor that might have been important in the Med=
+ivation/Incyte case. Mehta, Reeb and Zhao write:We also examine whether fir=
+ms can directly influence shadow trading activity. Firms have incentives to=
+ prohibit their employees from engaging in shadow trading because the publi=
+c revelation of such actions could adversely affect their business relation=
+ships. Using a subsample of firms for which we can obtain corporate policy =
+handbooks, we show that shadow trading activity is relatively lower when fi=
+rms explicitly mandate prohibitions against it in their employee handbooks.=
+Presumably what that looks like is a corporate insider trading policy that =
+says something like =E2=80=9Cyou can=E2=80=99t use what you learn at work t=
+o trade our stock or anyone else=E2=80=99s,=E2=80=9D as opposed to just =E2=
+=80=9Cyou can=E2=80=99t use what you learn at work to trade our stock.=E2=
+=80=9D When companies have policies like that, their employees do in fact d=
+o less trading in comparable-company stocks.And in fact Medivation had that=
+ sort of policy. From the SEC=E2=80=99s complaint (its emphasis):Panuwat al=
+so signed Medivation=E2=80=99s insider trading policy, which prohibited emp=
+loyees from personally profiting from material nonpublic information concer=
+ning Medivation by trading in Medivation securities or the securities of an=
+other publicly traded company. The policy stated, =E2=80=9CDuring the cours=
+e of your employment =E2=80=A6 with the Company, you may receive important =
+information that is not yet publicly disseminated =E2=80=A6 about the Compa=
+ny. =E2=80=A6 Because of your access to this information, you may be in a p=
+osition to profit financially by buying or selling or in some other way dea=
+ling in the Company=E2=80=99s securities =E2=80=A6 or the securities of ano=
+ther publicly traded company, including all significant collaborators, cust=
+omers, partners, suppliers, or competitors of the Company. =E2=80=A6 For an=
+yone to use such information to gain personal benefit =E2=80=A6 is illegal.=
+ =E2=80=A6=E2=80=9D=C2=A0What if it hadn=E2=80=99t said that? What if it ha=
+d said =E2=80=9Cdon=E2=80=99t use information you get in=C2=A0your job to t=
+rade Medivation stock, but do whatever you want to other stocks=E2=80=9D? I=
+nsider trading, I often say, is not about fairness, but=C2=A0about theft; h=
+ere the alleged theft was from Medivation. The SEC=E2=80=99s theory here is=
+ that the inside information here was material to Incyte but was misappropr=
+iated from Medivation, that the insider had a duty to Medivation to keep it=
+ confidential and, because he violated that duty, he broke the law. If he h=
+ad not had an=C2=A0explicit=C2=A0duty to Medivation not to trade on it, cou=
+ld the SEC argue the same thing? Maybe? =E2=80=9CYou were supposed to use w=
+hat you learned at work to help your company, not to buy call options on co=
+mpetitors.=E2=80=9D (And =E2=80=94 as Mehta et al. point out =E2=80=94=C2=
+=A0companies are harmed by this, since it =E2=80=9Ccould adversely affect t=
+heir business relationships=E2=80=9D if their executives are privately prof=
+iting from what they learn in negotiations with customers and suppliers, et=
+c.) But it=E2=80=99s a much weaker argument. If Medivation didn=E2=80=99t c=
+are that its employees were using inside information to trade on competitor=
+s, why should the SEC?
+ =20
+   =20
+      Banque Worms
+   =20
+ =20
+About a year ago, Citigroup Inc. accidentally wired $900 million to some he=
+dge funds. The next day it called them up and said =E2=80=9Coops, our mista=
+ke, can we have our money back?=E2=80=9D Some said yes. Other, craftier hed=
+ge funds said no. There was a lawsuit, and to the surprise of pretty much e=
+veryone Citi lost. The hedge funds who kept the money get to keep keeping t=
+he money. (Even weirder, some of the hedge funds who gave the money back mi=
+ght  get it back?) Citi appealed, and the=C2=A0appeal is still pending, and=
+ I still think Citi is going to win in the end because it makes no sense to=
+ let the funds keep the money, but you never know.We  talked about the case=
+ in February when the decision came down. The gist is that Citi was the adm=
+inistrative agent for a syndicated loan to Revlon Inc., and it accidentally=
+ paid off the whole loan early when it meant to just make an interest payme=
+nt. The hedge funds who kept the money had reasons of their own for doing s=
+o (involving a dispute over a restructuring of Revlon=E2=80=99s debt), but =
+those reasons are not particularly relevant to judge=E2=80=99s decision. Fo=
+r his purposes, all that matters is that (1) Revlon really owed money to th=
+ose hedge funds, (2) Citi paid off the amount Revlon=C2=A0owed, and (3) the=
+ hedge funds thought, for at least a split second, that Citi might have bee=
+n intentionally paying off the loan on Revlon=E2=80=99s behalf. This is cal=
+led the =E2=80=9Cdischarge for value defense=E2=80=9D under New York law, t=
+he leading case is something called =E2=80=9CBanque Worms,=E2=80=9D and you=
+ can read more about it in the judge=E2=80=99s opinion but honestly it won=
+=E2=80=99t make much more sense if you do.Everyone was surprised by the dec=
+ision, it makes no sense, it is not how anyone thinks sophisticated financi=
+al counterparties operate, and so it is=C2=A0not=C2=A0how sophisticated fin=
+ancial counterparties operate. Basically as soon as the decision came down,=
+ bank lawyers starting writing in new syndicated loan documents =E2=80=9Cal=
+so if we send you money by accident you have to send it back, Banque Worms =
+or no Banque Worms.=E2=80=9D And lawyers for hedge funds and other syndicat=
+ed lenders did not push back on these clauses, because=C2=A0obviously=C2=A0=
+if the bank sends them money by accident they have to send it back. These c=
+lauses are called =E2=80=9CRevlon blockers,=E2=80=9D and we  discussed them=
+ in March, a few weeks after the decision came down. I wrote:This doctrine =
+is dumb and no one in the world of syndicated lending actually meant to sig=
+n up for it; =E2=80=9Cif you send us the wrong money we will keep it=E2=80=
+=9D is not a rule that anyone wanted built into their loan documents. It di=
+d not occur to anyone to opt out of it=E2=80=94it did not occur to anyone, =
+outside of the small fellowship of Finders Keepers lawyers, that this rule =
+even existed=E2=80=94until it cost Citi $500 million. But now everyone is e=
+xtremely aware of it, the big banks want to opt out, they have consulted wi=
+th their own Finders Keepers lawyers, they have put the opt-out language in=
+to the contracts, and the other lenders don=E2=80=99t really have a choice.=
+ What are they going to do, object? =E2=80=9CNo, if you send us money by ac=
+cident, we=E2=80=99d prefer to keep it=E2=80=9D? It=E2=80=99s just not a re=
+asonable ask. It=E2=80=99s the law, sure=E2=80=94at least by default=E2=80=
+=94but it=E2=80=99s not reasonable.Anyway here=E2=80=99s a recent paper by =
+Eric Talley of Columbia Law School called =E2=80=9CDischarging the Discharg=
+e for Value Defense,=E2=80=9D which criticizes the Revlon decision and also=
+ counts up the Revlon blockers:I document a rapid, precipitous trend toward=
+s writing and/or amending debt contracts so as to nullify the Citibank opin=
+ion in its entirety, manifested in a variety of =E2=80=9CRevlon blocker=E2=
+=80=9D provisions that have appeared in hundreds of publicly disclosed cont=
+racts. The firms that adopt Revlon blockers are systematically the largest =
+and most sophisticated companies in the public markets, and their rejection=
+ of Citibank appears to have met with general market approval.=C2=A0=E2=80=
+=9CThis analysis underscores the critical role that default rules play in c=
+ontract law and policy,=E2=80=9D writes Talley,=C2=A0=E2=80=9Cand the high =
+stakes involved in getting them right,=E2=80=9D but I am actually not sure =
+the stakes are that high here? I mean, Citi is out $500 million (maybe), so=
+ the stakes are high for Citi, though presumably Revlon will eventually pay=
+ it back even if it loses on appeal. (I think?) But the fact that this is a=
+ bad=C2=A0rule=C2=A0doesn=E2=80=99t matter that much for future=C2=A0cases,=
+ because it is a default rule, and syndicated lenders are big and sophistic=
+ated and can just change their contracts to opt out of the rule.The funnies=
+t part of the paper might be that the judge in the Revlon/Citi case thought=
+ the rule=C2=A0was=C2=A0important, and that his decision would cause big go=
+od changes in the banking industry. From the paper:The written opinion itse=
+lf speculated that lending communities and their trade associations would p=
+otentially alter their practices, for example by effectuating broad changes=
+ to compliance staffing, reforms to industry standards, and enhancements to=
+ quality control protocols, so as to further reduce (or in the words of the=
+ Court, =E2=80=9Celiminate=E2=80=9D) the possibility of unanticipated mista=
+kes.And from the opinion:Here, there is no doubt that the party best positi=
+oned to avoid the error that occurred was Citibank. The bank took that role=
+ seriously in adopting the six-eye approval process for wire transfers of t=
+he kind made here. And while that process obviously failed in this instance=
+, the=C2=A0unprecedented nature of the mistake in this case suggests that i=
+t has generally been successful. Moreover, banks could =E2=80=94 and, perha=
+ps after this case, will =E2=80=94 take other relatively costless steps to =
+both minimize the risk of errors and increase the probability of clawing ba=
+ck erroneous payments. For example, banks could, either on their own, or th=
+rough an industry association like the LSTA, create clear standards governi=
+ng the content and timing of payment notices. If a payment notice akin to t=
+he Calculation Statements here always preceded an actual payment by some sp=
+ecified interval (and banks adopted security procedures, akin to the six-ey=
+es process, to ensure that they did), then the absence of such a notice wou=
+ld indeed raise a red flag that the payment was erroneous. So too, if such =
+notices always unambiguously and explicitly described the size and nature o=
+f the payment, the recipient of a payment that deviated from the notice wou=
+ld plainly be on notice of the mistake. For example, one could imagine paym=
+ent notices that stated something like: =E2=80=9CYou will shortly receive a=
+ wire payment of $X. This payment is for interest only; it does not include=
+ any payment of principal. If you receive more than $X, any excess would be=
+ the result of an error and you would not be entitled to keep it.=E2=80=9D =
+Suffice it to say, had the Calculation Statements in this case included sim=
+ple and clear language along these lines, this costly litigation would almo=
+st surely have been avoided. In short, although the mistake that gave rise =
+to this case may be the proverbial Black Swan event, and the risk of a reoc=
+currence=C2=A0may therefore be small, the banking industry could =E2=80=94 =
+and would be wise to =E2=80=94 eliminate the risk altogether by taking thes=
+e or similarly modest steps.=C2=A0The message here is something like =E2=80=
+=9Cbanks need to be more careful with their money, and to teach them a less=
+on I won=E2=80=99t let Citi have its money back.=E2=80=9D And the banks res=
+ponded, rationally, by changing their contracts so they don=E2=80=99t have =
+to be more careful.
+ =20
+   =20
+      Free stock, expensive emails
+   =20
+ =20
+Every year, every public company holds an annual meeting, and they all send=
+ proxy statements to their shareholders ahead of the meetings. As we  discu=
+ssed yesterday, it apparently costs 25 cents per shareholder to send those =
+statements=C2=A0by email? Weird technology they=E2=80=99ve got going there.=
+=C2=A0Anyway one problem with the recent boom in retail trading is that com=
+panies are sending more of those 25-cent emails. In part because there are =
+more retail investors, but also because it=E2=80=99s easier for them to buy=
+ more stocks. With commission-free trading and fractional shares, you can b=
+uy 0.5 shares of 100 stocks almost as easily as you can buy 100 shares of o=
+ne stock. Also when you sign up for Robinhood you get some free stock. The =
+Wall Street Journal reports:Brokerages like Robinhood are required to deliv=
+er proxy materials to a public company=E2=80=99s shareholders ahead of annu=
+al meetings. They are then reimbursed by the public company for the cost of=
+ distribution.This means that Robinhood=E2=80=99s stock giveaways have sadd=
+led some companies with larger bills for delivering proxy statements. Now, =
+the practice is sparking a backlash from companies and scrutiny from market=
+ regulators.One company pushing back is Florida-based drugmaker Catalyst Ph=
+armaceuticals Inc., which says Robinhood=E2=80=99s program cost it more tha=
+n $200,000 last year and could be even more expensive this year.=E2=80=9CCa=
+talyst has become aware that Robinhood has been giving away shares of Catal=
+yst=E2=80=99s common stock at no charge as part of its promotional program,=
+=E2=80=9D Catalyst Chief Executive Patrick McEnany wrote in a June comment =
+letter to the Securities and Exchange Commission. =E2=80=9CCatalyst believe=
+s that there are likely numerous companies facing this same issue, and that=
+ the costs of distributing materials to small stockholders under these circ=
+umstances is onerous and unreasonable.=E2=80=9DFollowing this and other let=
+ters, on Aug. 13, the SEC approved a proposed rule change from the New York=
+ Stock Exchange that prohibits brokers from seeking reimbursement from comp=
+anies for delivering proxy materials to investors who received shares from =
+their broker at no cost.The new rule won=E2=80=99t immediately affect Robin=
+hood, which isn=E2=80=99t a member of the NYSE.But companies are now urging=
+ the Financial Industry Regulatory Authority, or Finra, which oversees brok=
+ers including Robinhood, to pass a similar rule change. =E2=80=A6Last fall,=
+ Catalyst learned that the number of people who owned its stock had soared =
+over the previous year to 280,000 from 25,000. The 74-employee company rece=
+ived a bill from a Robinhood service provider for $234,000 to cover the cos=
+ts of sending out proxy materials to investors ahead of its 2020 shareholde=
+r meeting, up from $12,500 in 2019.Again, as a non-expert who sends out ema=
+ils for a living, I cannot resist thinking that the best solution to this p=
+roblem is something like =E2=80=9Cyou could probably send a bunch of email =
+attachments pretty cheaply,=E2=80=9D but I suppose multiple financial regul=
+ators adopting rules saying =E2=80=9Cif a broker gives away free shares to =
+customers it has to eat the six-figure cost of forwarding email attachments=
+ to those customers=E2=80=9D is also reasonable?[1] I guess?=C2=A0
+ =20
+   =20
+      Everything is super weird
+   =20
+ =20
+I mean, I dunno,  here=E2=80=99s your market news:A basket of so-called mem=
+e stocks is surging, fueled by afternoon rallies for GameStop Corp. and AMC=
+ Entertainment Holdings Inc.The group of 37 retail-trader favorites tracked=
+ by Bloomberg soared 10% Tuesday, the most since early June, as trading vol=
+umes accelerated. GameStop and AMC, two of the most closely-followed meme s=
+tocks, surged 28% and 20% respectively.The afternoon rally caught most anal=
+ysts by surprise as investors await insights from Federal Reserve Chairman =
+Jerome Powell=E2=80=99s address from Jackson Hole later this week.=E2=80=9C=
+I was expecting some calm as we await Jackson Hole, but it looks like =E2=
+=80=98Meme Stock Mania=E2=80=99 sees an opportunity here,=E2=80=9D said Ed =
+Moya, senior market analyst at Oanda Corp. =E2=80=9CIt seems this is retail=
+ jumping back in on their favorite trades after last Friday=E2=80=99s optio=
+ns expiration.=E2=80=9DA struggling mall-based video-game retailer was up 2=
+8% yesterday on no news.[2] It used to be that when a stock went up 28% in =
+a day you=E2=80=99d be like, well, right, they just announced that they wer=
+e being acquired. Or at least blow-out earnings. Now it=E2=80=99s like =E2=
+=80=9Ceh people like options or whatever.=E2=80=9D Also GameStop closed at =
+$210.29 per share yesterday? For a market cap of $16.2 billion? And it trad=
+ed $2.9 billion of volume? Back in February, I  wrote about GameStop:But I =
+tell you what, if we are still here in a month I will absolutely freak out.=
+ Stock prices can get totally disconnected from fundamental value for a whi=
+le, it=E2=80=99s fine, we all have a good laugh. But if they stay that way =
+forever, if everyone decides that cash flows are irrelevant and that the im=
+portant factor in any stock is how much fun it is to trade, then =E2=80=A6 =
+what are we all doing here?People keep reminding me of that line. GameStop =
+closed at $134.14 that day. It was more than six months ago. I am keeping i=
+t together, you know, but sure, I=E2=80=99m a little freaked out.Meanwhile =
+at Bloomberg Businessweek, Michael Regan and Vildana Hajric write about how=
+  everything is=C2=A0weird:Despite the seemingly endless supply of brainpow=
+er and cutting-edge technology that=E2=80=99s put to work in financial mark=
+ets, at times it feels as if nobody knows anything.That=E2=80=99s perhaps t=
+he hardest-to-digest lesson learned=E2=80=94or at least reinforced=E2=80=94=
+from the past year and a half, during which the U.S. stock market doubled a=
+t the fastest pace since 1932: The accrued wisdom of Wall Street can be a s=
+wiftly depreciating asset. =E2=80=A6In past years, the whims of individual =
+investors weren=E2=80=99t considered to be a major influence on the fate of=
+ most stocks or the market as a whole. That changed during the pandemic, be=
+cause of a confluence of events: a price war between brokerages in late 201=
+9 reduced the cost of placing a trade to literally nothing, just in time fo=
+r lockdowns to create a surplus of time and money for Americans to dabble i=
+n the market.The number of shares traded by customers of the main retail br=
+okerages rose from 700 million a day before the pandemic to 2.9 billion ear=
+lier this year, to account for as much as a quarter of the market=E2=80=99s=
+ volume, according to Bloomberg Intelligence. Retail options trading more t=
+han doubled. Fueled by influential voices on Reddit and other social media,=
+ the new hordes of day traders often pumped up the shares of companies that=
+ were teetering on bankruptcy and had been left for dead by professional mo=
+ney managers.I feel like 100 years ago a stock=C2=A0would go up and you=E2=
+=80=99d be like =E2=80=9Cwhy=E2=80=9D and the answer would be =E2=80=9Cthe =
+people who buy stocks like this stock so they bought it and it went up,=E2=
+=80=9D and that was, if not an entirely illuminating explanation, at least =
+the best you were gonna get. And then people invented fundamental analysis =
+and discounted-cash-flow valuation, and companies started disclosing detail=
+ed financial information,=C2=A0and stock investing became professionalized,=
+ and the importance of institutional investors grew as the influence of ind=
+ividual investors waned, and individuals started investing through funds an=
+d eventually index funds and left stock trading to be a highly competitive =
+business done by financial professionals. And it became fashionable to say =
+things like =E2=80=9Cthe price of a stock reflects the present value of its=
+ expected future cash flows,=E2=80=9D and if a stock went up and you asked =
+why and someone replied =E2=80=9Cwell people decided to buy it=E2=80=9D you=
+ would think they were being annoying. And then retail trading became free =
+and the pandemic happened and everyone=E2=80=99s brains broke and now GameS=
+top goes up 28% in a day and you ask =E2=80=9Cwhy=E2=80=9D and the answer i=
+s that it=E2=80=99s August and people like the stock. What are we all doing=
+ here.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Goldman  Requires Vaccines and Masks at Work to Fight Variant. SEC Chief Wa=
+rns =E2=80=98Clock Is Ticking=E2=80=99 on  Delisting Chinese Stocks. Yale n=
+ames Matthew Mendelsohn to run $31bn endowment. OnlyFans  Drops Plan to Ban=
+ Sexually Explicit Content. UK=E2=80=99s FCA says it is =E2=80=98not capabl=
+e=E2=80=99 of supervising crypto exchange Binance. FCC proposes record $5 m=
+illion fine against Jacob Wohl, Jack Burkman for election robocalls.=C2=A0A=
+ Famous Honesty Researcher Is Retracting A Study Over Fake Data. We Need to=
+ Talk About the Great    Mayonnaise Inflation Mystery. Somebody just paid $=
+1.3 million for a picture of a rock.If you'd like to get=C2=A0Money=C2=A0St=
+uff=C2=A0in handy email form, right in your inbox, please=C2=A0subscribe at=
+ this link. Or you can subscribe to Money Stuff and other great Bloomberg n=
+ewsletters here. Thanks![1] I realize that some people get paper proxy stat=
+ements in the mail, but it does feel like most Robinhood users could be per=
+suaded to opt out of that? Like they are trading on their phones? They are =
+young and tech-savvy and so forth? They do not want to get a proxy statemen=
+t in the mail for a company where they own $4.17 worth of stock?[2] No news=
+ that I saw. One piece of GameStop-adjacent news over the weekend  was that=
+ Citadel plans to redeem $500 million of its investment in Melvin Capital M=
+anagement, the hedge fund that became famous (and lost a bunch of money, ne=
+cessitating the Citadel investment) in January for betting against GameStop=
+. This has absolutely nothing to do with GameStop but you can sort of imagi=
+ne it as being psychologically connected. Retail traders see the news and a=
+re like =E2=80=9Chahaha, I remember when we took down Melvin, good times, b=
+etter buy some GameStop call options.=E2=80=9D
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cesnqk.5t1x/497ef3e5.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_22856184_1860561774.1629908824631
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px 0px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24851756.270933/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cBfa58622c"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Shadow trading</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/24851756.270933/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjEtMDgtMjMvc3BhYy1zdWl0LWxlYWRzLXRvLXNwYXJjcw/607f0=
+7ceef4b8524a319a23cB86b29aa6" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> talked on Monday</a>=C2=A0about a U.S. Securities and =
+Exchange Commission insider trading case against a guy who allegedly worked=
+ at a public company (Medivation Inc.), learned through his job that his co=
+mpany was about to be acquired, and went out and bought call options on <em=
+>another </em>company (Incyte Corp., a biotech company similar to Medivatio=
+n), presumably on the theory that:</p><ol style=3D"list-style-type: decimal=
+; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;"=
+>Good news for Medivation would be good for Incyte=E2=80=99s stock, so he=
+=E2=80=99d make money, but</li>=09<li style=3D"margin-bottom: 5px;">The SEC=
+ probably wouldn=E2=80=99t go after him for insider trading, because he was=
+n=E2=80=99t an Incyte insider.</li></ol><p style=3D"margin: 16px 0;">The fi=
+rst part was correct =E2=80=94=C2=A0Incyte=E2=80=99s stock went up when Med=
+ivation announced its merger, and he made money =E2=80=94=C2=A0but the seco=
+nd part was not. The SEC sued him for insider trading, arguing that (1) the=
+ information he had was material <em>to Incyte=E2=80=99s stock </em>and (2)=
+ he had a duty <em>to Medivation=C2=A0</em>to keep it confidential. This wa=
+s a learning experience for all of us, really.=C2=A0</p><p style=3D"margin:=
+ 16px 0;">One thing that I said on Monday is that, while the SEC=E2=80=99s =
+argument is not particularly surprising, I had never seen a case like this =
+before, and I pondered a bit what that could mean. I suggested two possibil=
+ities: Perhaps people just don=E2=80=99t go around using their companies=E2=
+=80=99 information to trade on comparable companies, or perhaps they do and=
+ the SEC just doesn=E2=80=99t go after them. I guessed that the second poss=
+ibility was more likely but I had no real data.</p><p style=3D"margin: 16px=
+ 0;">But here are a <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/24851756.270933/aHR0cHM6Ly9wYXBlcnMuc3Nybi5jb20vc29sMy9wYXBlcnMuY2ZtP2Fic=
+3RyYWN0X2lkPTM2ODkxNTQ/607f07ceef4b8524a319a23cBb715aa3a" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">paper</a>=C2=A0and <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24851756.270933/aHR0cHM6L=
+y9jb3JwZ292Lmxhdy5oYXJ2YXJkLmVkdS8yMDIwLzEwLzA4L3NoYWRvdy10cmFkaW5nLw/607f0=
+7ceef4b8524a319a23cB4ffc9361" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">blog post</a> from last year, by Mihir Mehta, David Ree=
+b and Wanli Zhao, about =E2=80=9CShadow Trading,=E2=80=9D which is =E2=80=
+=A6=C2=A0this:</p><blockquote><p style=3D"margin: 16px 0;">We examine wheth=
+er corporate insiders attempt to circumvent insider trading restrictions by=
+ facilitating trading in competitors and supply chain partners, an activity=
+ we label Shadow Trading.</p><p style=3D"margin: 16px 0;">To identify situa=
+tions in which insiders could use their private information to facilitate s=
+hadow trading, we use corporate announcements. We focus on announcements th=
+at are likely to represent the release of private information held by a fir=
+m=E2=80=99s insiders such as earnings announcements, M&amp;A transaction an=
+nouncements, and announcements about new products. Using multiple proxies o=
+f informed trading from the literature to measure shadow trading, we docume=
+nt that immediately before one of these corporate news announcements by a f=
+ocal firm, competitors and supply chain partners display increased informed=
+ trading levels in their stocks. In particular, the magnitude of informed t=
+rading is linked to the magnitude of the information shocks. Each news even=
+t appears to represent a significant opportunity for profitable trading=E2=
+=80=94a back-of-the-envelope calculation suggests that the average profit f=
+rom a single shadow trading event ranges from about $140,000 to over $650,0=
+00. =E2=80=A6</p><p style=3D"margin: 16px 0;">Overall, our evidence shows t=
+hat employees facilitate trading in their firms=E2=80=99 business partners =
+and competitors to circumvent insider trading regulations designed to limit=
+ their ability to exploit private information.</p></blockquote><p style=3D"=
+margin: 16px 0;">So, yes, the answer is apparently that insiders of one com=
+pany regularly use corporate information to trade in the stocks of other co=
+mpanies, but the SEC doesn=E2=80=99t usually go after them.</p><p style=3D"=
+margin: 16px 0;">Should it? I dunno. The Incyte/Medivation case looks prett=
+y bad: The guy allegedly had the paradigmatic most-material-possible inside=
+ information (his company was being acquired at a premium) and used it to t=
+rade the paradigmatic most-insider-trader-y-possible instruments (short-dat=
+ed out-of-the-money call options). If you look at those facts, you are goin=
+g to say =E2=80=9Cyeah this seems like insider trading.=E2=80=9D But=C2=A0<=
+em>in general</em>=C2=A0I am not sure it=E2=80=99s so bad for public-compan=
+y employees to use things they learn at work to trade in the stocks of othe=
+r companies in their industry. A story like =E2=80=9CMs. X is an oil-compan=
+y executive at Company Y, through her job she has come to know a lot about =
+geology and drilling technologies and the personalities in the sector, she =
+met the executives of Company Z at an industry conference and thought that =
+they=E2=80=99re a smart crew, she studies maps and geological reports at he=
+r job and thinks Company Z owns some good properties, so she bought some Co=
+mpany Z stock as an investment=E2=80=9D =E2=80=94=C2=A0I could see how you=
+=C2=A0<em>might=C2=A0</em>object to that story, but all in all it seems fai=
+rly innocuous, more =E2=80=9Ccareful research using expert knowledge=E2=80=
+=9D than =E2=80=9Cinsider trading.=E2=80=9D The line between =E2=80=9Csomeo=
+ne who works in an industry uses her specialized knowledge to make smart in=
+vestments in comparable companies=E2=80=9D and =E2=80=9Cinsider trading=E2=
+=80=9D is a bit blurry, and perhaps the SEC should only go after people who=
+, you know, buy short-dated out-of-the-money call options on their competit=
+ors=C2=A0a couple of days before their company announces a merger.</p><p st=
+yle=3D"margin: 16px 0;">There is one other factor that might have been impo=
+rtant in the Medivation/Incyte case. Mehta, Reeb and Zhao write:</p><blockq=
+uote><p style=3D"margin: 16px 0;">We also examine whether firms can directl=
+y influence shadow trading activity. Firms have incentives to prohibit thei=
+r employees from engaging in shadow trading because the public revelation o=
+f such actions could adversely affect their business relationships. Using a=
+ subsample of firms for which we can obtain corporate policy handbooks, we =
+show that shadow trading activity is relatively lower when firms explicitly=
+ mandate prohibitions against it in their employee handbooks.</p></blockquo=
+te><p style=3D"margin: 16px 0;">Presumably what that looks like is a corpor=
+ate insider trading policy that says something like =E2=80=9Cyou can=E2=80=
+=99t use what you learn at work to trade our stock or anyone else=E2=80=99s=
+,=E2=80=9D as opposed to just =E2=80=9Cyou can=E2=80=99t use what you learn=
+ at work to trade our stock.=E2=80=9D When companies have policies like tha=
+t, their employees do in fact do less trading in comparable-company stocks.=
+</p><p style=3D"margin: 16px 0;">And in fact Medivation had that sort of po=
+licy. From <a href=3D"https://link.mail.bloombergbusiness.com/click/2485175=
+6.270933/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9uL2NvbXBsYWludHMvMjAyMS9jb2=
+1wLXByMjAyMS0xNTUucGRm/607f07ceef4b8524a319a23cB24c6af73" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">the SEC=E2=80=99s complaint=
+</a> (its emphasis):</p><blockquote><p style=3D"margin: 16px 0;">Panuwat al=
+so signed Medivation=E2=80=99s insider trading policy, which prohibited emp=
+loyees from personally profiting from material nonpublic information concer=
+ning Medivation by trading in Medivation securities or the securities of an=
+other publicly traded company. The policy stated, =E2=80=9CDuring the cours=
+e of your employment =E2=80=A6 with the Company, you may receive important =
+information that is not yet publicly disseminated =E2=80=A6 about the Compa=
+ny. =E2=80=A6 Because of your access to this information, you may be in a p=
+osition to profit financially by buying or selling or in some other way dea=
+ling in the Company=E2=80=99s securities =E2=80=A6 <strong>or the securitie=
+s of another publicly traded company,</strong> including all significant co=
+llaborators, customers, partners, suppliers, or competitors of the Company.=
+ =E2=80=A6 For anyone to use such information to gain personal benefit =E2=
+=80=A6 is illegal. =E2=80=A6=E2=80=9D=C2=A0</p></blockquote><p style=3D"mar=
+gin: 16px 0;">What if it hadn=E2=80=99t said that? What if it had said =E2=
+=80=9Cdon=E2=80=99t use information you get in=C2=A0your job to trade Mediv=
+ation stock, but do whatever you want to other stocks=E2=80=9D? Insider tra=
+ding, I often say, is not about fairness, but=C2=A0about theft; here the al=
+leged theft was from Medivation. The SEC=E2=80=99s theory here is that the =
+inside information here was material to Incyte but was misappropriated from=
+ Medivation, that the insider had a duty to Medivation to keep it confident=
+ial and, because he violated that duty, he broke the law. If he had not had=
+ an=C2=A0<em>explicit=C2=A0</em>duty to Medivation not to trade on it, coul=
+d the SEC argue the same thing? Maybe? =E2=80=9CYou were supposed to use wh=
+at you learned at work to help your company, not to buy call options on com=
+petitors.=E2=80=9D (And =E2=80=94 as Mehta et al. point out =E2=80=94=C2=A0=
+companies are harmed by this, since it =E2=80=9Ccould adversely affect thei=
+r business relationships=E2=80=9D if their executives are privately profiti=
+ng from what they learn in negotiations with customers and suppliers, etc.)=
+ But it=E2=80=99s a much weaker argument. If Medivation didn=E2=80=99t care=
+ that its employees were using inside information to trade on competitors, =
+why should the SEC?</p><table class=3D"header" width=3D"100%" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Banque Worms</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">About a year ago, Citigroup Inc. accid=
+entally wired $900 million to some hedge funds. The next day it called them=
+ up and said =E2=80=9Coops, our mistake, can we have our money back?=E2=80=
+=9D Some said yes. Other, craftier hedge funds said no. There was a lawsuit=
+, and to the surprise of pretty much everyone Citi lost. The hedge funds wh=
+o kept the money get to keep keeping the money. (Even weirder, some of the =
+hedge funds who gave the money back might <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/24851756.270933/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL2FydGljbGVzLzIwMjEtMDQtMDkvY2l0aS1zYXlzLWl0LWtub3dzLW9mLWFub3RoZXItYm=
+Fuay1tYWtpbmctYmlnLXBheW1lbnQtZXJyb3I/607f07ceef4b8524a319a23cB65c0f9c2" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> get it back=
+</a>?) Citi appealed, and the=C2=A0appeal is still pending, and I still thi=
+nk Citi is going to win in the end because it makes no sense to let the fun=
+ds keep the money, but you never know.</p><p style=3D"margin: 16px 0;">We <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/24851756.270933/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMTcvY2l0aS=
+1jYW4tdC1oYXZlLWl0cy05MDAtbWlsbGlvbi1iYWNr/607f07ceef4b8524a319a23cB4d069bb=
+6" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> talked=
+ about the case</a> in February when the decision came down. The gist is th=
+at Citi was the administrative agent for a syndicated loan to Revlon Inc., =
+and it accidentally paid off the whole loan early when it meant to just mak=
+e an interest payment. The hedge funds who kept the money had reasons of th=
+eir own for doing so (involving a dispute over a restructuring of Revlon=E2=
+=80=99s debt), but those reasons are not particularly relevant to judge=E2=
+=80=99s decision. For his purposes, all that matters is that (1) Revlon rea=
+lly owed money to those hedge funds, (2) Citi paid off the amount Revlon=C2=
+=A0owed, and (3) the hedge funds thought, for at least a split second, that=
+ Citi might have been intentionally paying off the loan on Revlon=E2=80=99s=
+ behalf. This is called the =E2=80=9Cdischarge for value defense=E2=80=9D u=
+nder New York law, the leading case is something called =E2=80=9CBanque Wor=
+ms,=E2=80=9D and you can read more about it in <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/24851756.270933/aHR0cHM6Ly9hc3NldHMuYndieC5pby=
+9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JyQnJRUVBCN19pOC92MA/607f07ceef4b85=
+24a319a23cB47a0b1bc" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">the judge=E2=80=99s opinion</a> but honestly it won=E2=80=99t =
+make much more sense if you do.</p><p style=3D"margin: 16px 0;">Everyone wa=
+s surprised by the decision, it makes no sense, it is not how anyone thinks=
+ sophisticated financial counterparties operate, and so it is=C2=A0<em>not=
+=C2=A0</em>how sophisticated financial counterparties operate. Basically as=
+ soon as the decision came down, bank lawyers starting writing in new syndi=
+cated loan documents =E2=80=9Calso if we send you money by accident you hav=
+e to send it back, Banque Worms or no Banque Worms.=E2=80=9D And lawyers fo=
+r hedge funds and other syndicated lenders did not push back on these claus=
+es, because=C2=A0<em>obviously=C2=A0</em>if the bank sends them money by ac=
+cident they have to send it back. These clauses are called =E2=80=9CRevlon =
+blockers,=E2=80=9D and we <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/24851756.270933/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjEtMDMtMDMvY2l0aS13b24tdC1taXNwbGFjZS01MDAtbWlsbGlvbi1hZ2Fpbg/607=
+f07ceef4b8524a319a23cB3177dc8f" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> discussed them in March</a>, a few weeks after the d=
+ecision came down. I wrote:</p><blockquote><p style=3D"margin: 16px 0;">Thi=
+s doctrine is dumb and no one in the world of syndicated lending actually m=
+eant to sign up for it; =E2=80=9Cif you send us the wrong money we will kee=
+p it=E2=80=9D is not a rule that anyone wanted built into their loan docume=
+nts. It did not occur to anyone to opt out of it=E2=80=94it did not occur t=
+o anyone, outside of the small fellowship of Finders Keepers lawyers, that =
+this rule even existed=E2=80=94until it cost Citi $500 million. But now eve=
+ryone is extremely aware of it, the big banks want to opt out, they have co=
+nsulted with their own Finders Keepers lawyers, they have put the opt-out l=
+anguage into the contracts, and the other lenders don=E2=80=99t really have=
+ a choice. What are they going to do, object? =E2=80=9CNo, if you send us m=
+oney by accident, we=E2=80=99d prefer to keep it=E2=80=9D? It=E2=80=99s jus=
+t not a reasonable ask. It=E2=80=99s the <em>law</em>, sure=E2=80=94at leas=
+t by default=E2=80=94but it=E2=80=99s not reasonable.</p></blockquote><p st=
+yle=3D"margin: 16px 0;">Anyway here=E2=80=99s a recent paper by Eric Talley=
+ of Columbia Law School called =E2=80=9C<a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/24851756.270933/aHR0cHM6Ly9wYXBlcnMuc3Nybi5jb20vc29sM=
+y9wYXBlcnMuY2ZtP2Fic3RyYWN0X2lkPTM5MDYyMDE/607f07ceef4b8524a319a23cCceda7b3=
+7" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">Dischar=
+ging the Discharge for Value Defense</a>,=E2=80=9D which criticizes the Rev=
+lon decision and also counts up the Revlon blockers:</p><blockquote><p styl=
+e=3D"margin: 16px 0;">I document a rapid, precipitous trend towards writing=
+ and/or amending debt contracts so as to nullify the Citibank opinion in it=
+s entirety, manifested in a variety of =E2=80=9CRevlon blocker=E2=80=9D pro=
+visions that have appeared in hundreds of publicly disclosed contracts. The=
+ firms that adopt Revlon blockers are systematically the largest and most s=
+ophisticated companies in the public markets, and their rejection of Citiba=
+nk appears to have met with general market approval.=C2=A0</p></blockquote>=
+<p style=3D"margin: 16px 0;">=E2=80=9CThis analysis underscores the critica=
+l role that default rules play in contract law and policy,=E2=80=9D writes =
+Talley,=C2=A0=E2=80=9Cand the high stakes involved in getting them right,=
+=E2=80=9D but I am actually not sure the stakes are that high here? I mean,=
+ Citi is out $500 million (maybe), so the stakes are high for Citi, though =
+presumably Revlon will eventually pay it back even if it loses on appeal. (=
+I think?) But the fact that this is a bad=C2=A0<em>rule=C2=A0</em>doesn=E2=
+=80=99t matter that much for <em>future=C2=A0</em>cases, because it is a de=
+fault rule, and syndicated lenders are big and sophisticated and can just c=
+hange their contracts to opt out of the rule.</p><p style=3D"margin: 16px 0=
+;">The funniest part of the paper might be that the judge in the Revlon/Cit=
+i case thought the rule=C2=A0<em>was=C2=A0</em>important, and that his deci=
+sion would cause big good changes in the banking industry. From the paper:<=
+/p><blockquote><p style=3D"margin: 16px 0;">The written opinion itself spec=
+ulated that lending communities and their trade associations would potentia=
+lly alter their practices, for example by effectuating broad changes to com=
+pliance staffing, reforms to industry standards, and enhancements to qualit=
+y control protocols, so as to further reduce (or in the words of the Court,=
+ =E2=80=9Celiminate=E2=80=9D) the possibility of unanticipated mistakes.</p=
+></blockquote><p style=3D"margin: 16px 0;">And from the opinion:</p><blockq=
+uote><p style=3D"margin: 16px 0;">Here, there is no doubt that the party be=
+st positioned to avoid the error that occurred was Citibank. The bank took =
+that role seriously in adopting the six-eye approval process for wire trans=
+fers of the kind made here. And while that process obviously failed in this=
+ instance, the=C2=A0unprecedented nature of the mistake in this case sugges=
+ts that it has generally been successful. Moreover, banks could =E2=80=94 a=
+nd, perhaps after this case, will =E2=80=94 take other relatively costless =
+steps to both minimize the risk of errors and increase the probability of c=
+lawing back erroneous payments. For example, banks could, either on their o=
+wn, or through an industry association like the LSTA, create clear standard=
+s governing the content and timing of payment notices. If a payment notice =
+akin to the Calculation Statements here always preceded an actual payment b=
+y some specified interval (and banks adopted security procedures, akin to t=
+he six-eyes process, to ensure that they did), then the absence of such a n=
+otice would indeed raise a red flag that the payment was erroneous. So too,=
+ if such notices always unambiguously and explicitly described the size and=
+ nature of the payment, the recipient of a payment that deviated from the n=
+otice would plainly be on notice of the mistake. For example, one could ima=
+gine payment notices that stated something like: =E2=80=9CYou will shortly =
+receive a wire payment of $X. This payment is for interest only; it does no=
+t include any payment of principal. If you receive more than $X, any excess=
+ would be the result of an error and you would not be entitled to keep it.=
+=E2=80=9D Suffice it to say, had the Calculation Statements in this case in=
+cluded simple and clear language along these lines, this costly litigation =
+would almost surely have been avoided. In short, although the mistake that =
+gave rise to this case may be the proverbial Black Swan event, and the risk=
+ of a reoccurrence=C2=A0may therefore be small, the banking industry could =
+=E2=80=94 and would be wise to =E2=80=94 eliminate the risk altogether by t=
+aking these or similarly modest steps.=C2=A0</p></blockquote><p style=3D"ma=
+rgin: 16px 0;">The message here is something like =E2=80=9Cbanks need to be=
+ more careful with their money, and to teach them a lesson I won=E2=80=99t =
+let Citi have its money back.=E2=80=9D And the banks responded, rationally,=
+ by changing their contracts so they don=E2=80=99t have to be more careful.=
+</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Free stock, expensive emails</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Every year, every public company holds=
+ an annual meeting, and they all send proxy statements to their shareholder=
+s ahead of the meetings. As we <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/24851756.270933/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjEtMDgtMjQvaGVkZ2UtZnVuZHMtd2FudC10by1zdGF5LXBvcHVsYXI/607f0=
+7ceef4b8524a319a23cB4e51fe41" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> discussed yesterday</a>, it apparently costs 25 cents =
+per shareholder to send those statements=C2=A0<em>by email</em>? Weird tech=
+nology they=E2=80=99ve got going there.=C2=A0</p><p style=3D"margin: 16px 0=
+;">Anyway one problem with the recent boom in retail trading is that compan=
+ies are sending more of those 25-cent emails. In part because there are mor=
+e retail investors, but also because it=E2=80=99s easier for them to buy mo=
+re stocks. With commission-free trading and fractional shares, you can buy =
+0.5 shares of 100 stocks almost as easily as you can buy 100 shares of one =
+stock. Also when you sign up for Robinhood you get some free stock. The <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/24851756.270933/aHR0c=
+HM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9yZWd1bGF0b3JzLXNjcnV0aW5pemUtYS1yb2Jpbmhv=
+b2QtbWFya2V0aW5nLXBsb3ktZnJlZS1zaGFyZXMtMTE2Mjk4OTEwMTQ_bW9kPWhwX2xlYWRfcG9=
+zMTA/607f07ceef4b8524a319a23cB2b35cb49" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Wall Street Journal reports</a>:</p><blockquo=
+te><p style=3D"margin: 16px 0;">Brokerages like Robinhood are required to d=
+eliver proxy materials to a public company=E2=80=99s shareholders ahead of =
+annual meetings. They are then reimbursed by the public company for the cos=
+t of distribution.</p><p style=3D"margin: 16px 0;">This means that Robinhoo=
+d=E2=80=99s stock giveaways have saddled some companies with larger bills f=
+or delivering proxy statements. Now, the practice is sparking a backlash fr=
+om companies and scrutiny from market regulators.</p><p style=3D"margin: 16=
+px 0;">One company pushing back is Florida-based drugmaker Catalyst Pharmac=
+euticals Inc., which says Robinhood=E2=80=99s program cost it more than $20=
+0,000 last year and could be even more expensive this year.</p><p style=3D"=
+margin: 16px 0;">=E2=80=9CCatalyst has become aware that Robinhood has been=
+ giving away shares of Catalyst=E2=80=99s common stock at no charge as part=
+ of its promotional program,=E2=80=9D Catalyst Chief Executive Patrick McEn=
+any wrote in a June comment letter to the Securities and Exchange Commissio=
+n. =E2=80=9CCatalyst believes that there are likely numerous companies faci=
+ng this same issue, and that the costs of distributing materials to small s=
+tockholders under these circumstances is onerous and unreasonable.=E2=80=9D=
+</p><p style=3D"margin: 16px 0;">Following this and other letters, on Aug. =
+13, the SEC approved a proposed rule change from the New York Stock Exchang=
+e that prohibits brokers from seeking reimbursement from companies for deli=
+vering proxy materials to investors who received shares from their broker a=
+t no cost.</p><p style=3D"margin: 16px 0;">The new rule won=E2=80=99t immed=
+iately affect Robinhood, which isn=E2=80=99t a member of the NYSE.</p><p st=
+yle=3D"margin: 16px 0;">But companies are now urging the Financial Industry=
+ Regulatory Authority, or Finra, which oversees brokers including Robinhood=
+, to pass a similar rule change. =E2=80=A6</p><p style=3D"margin: 16px 0;">=
+Last fall, Catalyst learned that the number of people who owned its stock h=
+ad soared over the previous year to 280,000 from 25,000. The 74-employee co=
+mpany received a bill from a Robinhood service provider for $234,000 to cov=
+er the costs of sending out proxy materials to investors ahead of its 2020 =
+shareholder meeting, up from $12,500 in 2019.</p></blockquote><p style=3D"m=
+argin: 16px 0;">Again, as a non-expert who sends out emails for a living, I=
+ cannot resist thinking that the best solution to this problem is something=
+ like =E2=80=9Cyou could probably send a bunch of email attachments pretty =
+cheaply,=E2=80=9D but I suppose multiple financial regulators adopting rule=
+s saying =E2=80=9Cif a broker gives away free shares to customers it has to=
+ eat the six-figure cost of forwarding email attachments to those customers=
+=E2=80=9D is also reasonable?[1] I guess?=C2=A0</p><table class=3D"header" =
+width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Everything is super weird</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I mean, I dunno, <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/24851756.270933/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDgtMjQvbWVtZS1zdG9ja3MtZXllLWJlc3QtZG=
+F5LXNpbmNlLWp1bmUtYXMtZ2FtZXN0b3AtYW1jLXN1cmdl/607f07ceef4b8524a319a23cB950=
+c4f70" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> he=
+re=E2=80=99s your market news</a>:</p><blockquote><p style=3D"margin: 16px =
+0;">A basket of so-called meme stocks is surging, fueled by afternoon ralli=
+es for GameStop Corp. and AMC Entertainment Holdings Inc.</p><p style=3D"ma=
+rgin: 16px 0;">The group of 37 retail-trader favorites tracked by Bloomberg=
+ soared 10% Tuesday, the most since early June, as trading volumes accelera=
+ted. GameStop and AMC, two of the most closely-followed meme stocks, surged=
+ 28% and 20% respectively.</p><p style=3D"margin: 16px 0;">The afternoon ra=
+lly caught most analysts by surprise as investors await insights from Feder=
+al Reserve Chairman Jerome Powell=E2=80=99s address from Jackson Hole later=
+ this week.</p><p style=3D"margin: 16px 0;">=E2=80=9CI was expecting some c=
+alm as we await Jackson Hole, but it looks like =E2=80=98Meme Stock Mania=
+=E2=80=99 sees an opportunity here,=E2=80=9D said Ed Moya, senior market an=
+alyst at Oanda Corp. =E2=80=9CIt seems this is retail jumping back in on th=
+eir favorite trades after last Friday=E2=80=99s options expiration.=E2=80=
+=9D</p></blockquote><p style=3D"margin: 16px 0;">A struggling mall-based vi=
+deo-game retailer was up 28% yesterday on no news.[2] It used to be that wh=
+en a stock went up 28% in a day you=E2=80=99d be like, well, right, they ju=
+st announced that they were being acquired. Or at least blow-out earnings. =
+Now it=E2=80=99s like =E2=80=9Ceh people like options or whatever.=E2=80=9D=
+ Also GameStop closed at $210.29 per share yesterday? For a market cap of $=
+16.2 billion? And it traded $2.9 billion of volume? Back in February, I <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/24851756.270933/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDEvZ2FtZXN0=
+b3AtZ21lLWlzLW9sZC1uZXdzLWFmdGVyLXJlZGRpdC1kaXNjb3ZlcnMtc2lsdmVyLWZ1dHVyZXM=
+/607f07ceef4b8524a319a23cB092e120f" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> wrote about GameStop</a>:</p><blockquote><p styl=
+e=3D"margin: 16px 0;">But I tell you what, if we are still here in a month =
+I will absolutely freak out. Stock prices can get totally disconnected from=
+ fundamental value for a while, it=E2=80=99s fine, we all have a good laugh=
+. But if they stay that way forever, if everyone decides that cash flows ar=
+e irrelevant and that the important factor in any stock is how much fun it =
+is to trade, then =E2=80=A6 what are we all doing here?</p></blockquote><p =
+style=3D"margin: 16px 0;">People keep reminding me of that line. GameStop c=
+losed at $134.14 that day. It was more than six months ago. I am keeping it=
+ together, you know, but sure, I=E2=80=99m a little freaked out.</p><p styl=
+e=3D"margin: 16px 0;">Meanwhile at Bloomberg Businessweek, Michael Regan an=
+d Vildana Hajric write about how <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/24851756.270933/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjEtMDgtMjQvd2FsbC1zdHJlZXQtcy1sZXNzb24tZnJvbS1jb3ZpZC1zb21ldGl=
+tZXMtd2UtcmUtYWxsLWNsdWVsZXNzLWFib3V0LXN0b2NrLW1hcmtldA/607f07ceef4b8524a31=
+9a23cBfb313919" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> everything is=C2=A0weird</a>:</p><blockquote><p style=3D"margin: 16p=
+x 0;">Despite the seemingly endless supply of brainpower and cutting-edge t=
+echnology that=E2=80=99s put to work in financial markets, at times it feel=
+s as if nobody knows anything.</p><p style=3D"margin: 16px 0;">That=E2=80=
+=99s perhaps the hardest-to-digest lesson learned=E2=80=94or at least reinf=
+orced=E2=80=94from the past year and a half, during which the U.S. stock ma=
+rket doubled at the fastest pace since 1932: The accrued wisdom of Wall Str=
+eet can be a swiftly depreciating asset. =E2=80=A6</p><p style=3D"margin: 1=
+6px 0;">In past years, the whims of individual investors weren=E2=80=99t co=
+nsidered to be a major influence on the fate of most stocks or the market a=
+s a whole. That changed during the pandemic, because of a confluence of eve=
+nts: a price war between brokerages in late 2019 reduced the cost of placin=
+g a trade to literally nothing, just in time for lockdowns to create a surp=
+lus of time and money for Americans to dabble in the market.</p><p style=3D=
+"margin: 16px 0;">The number of shares traded by customers of the main reta=
+il brokerages rose from 700 million a day before the pandemic to 2.9 billio=
+n earlier this year, to account for as much as a quarter of the market=E2=
+=80=99s volume, according to Bloomberg Intelligence. Retail options trading=
+ more than doubled. Fueled by influential voices on Reddit and other social=
+ media, the new hordes of day traders often pumped up the shares of compani=
+es that were teetering on bankruptcy and had been left for dead by professi=
+onal money managers.</p></blockquote><p style=3D"margin: 16px 0;">I feel li=
+ke 100 years ago a stock=C2=A0would go up and you=E2=80=99d be like =E2=80=
+=9Cwhy=E2=80=9D and the answer would be =E2=80=9Cthe people who buy stocks =
+like this stock so they bought it and it went up,=E2=80=9D and that was, if=
+ not an entirely illuminating explanation, at least the best you were gonna=
+ get. And then people <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/24851756.270933/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvU2VjdXJpdHlfQW5=
+hbHlzaXNfKGJvb2sp/607f07ceef4b8524a319a23cB20bcf008" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">invented fundamental analysis</a=
+> and discounted-cash-flow valuation, and companies started disclosing deta=
+iled financial information,=C2=A0and stock investing became professionalize=
+d, and the importance of institutional investors grew as the influence of i=
+ndividual investors waned, and individuals started investing through funds =
+and eventually index funds and left stock trading to be a highly competitiv=
+e business done by financial professionals. And it became fashionable to sa=
+y things like =E2=80=9Cthe price of a stock reflects the present value of i=
+ts expected future cash flows,=E2=80=9D and if a stock went up and you aske=
+d why and someone replied =E2=80=9Cwell people decided to buy it=E2=80=9D y=
+ou would think they were being annoying. And then retail trading became fre=
+e and the pandemic happened and everyone=E2=80=99s brains broke and now Gam=
+eStop goes up 28% in a day and you ask =E2=80=9Cwhy=E2=80=9D and the answer=
+ is that it=E2=80=99s August and people like the stock. What <em>are </em>w=
+e all doing here.</p><table class=3D"header" width=3D"100%" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Goldman <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24851756.270933/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9uZXdzL2FydGljbGVzLzIwMjEtMDgtMjQvZ29sZG1hbi1yZXF1aXJlcy12YWNjaW5lcy1tYXN=
+rcy1hdC13b3JrLXRvLWZpZ2h0LWRlbHRhLXZhcmlhbnQ/607f07ceef4b8524a319a23cB1c0a3=
+0e7" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Requ=
+ires Vaccines</a> and Masks at Work to Fight Variant. SEC Chief Warns =E2=
+=80=98Clock Is Ticking=E2=80=99 on <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/24851756.270933/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2=
+FydGljbGVzLzIwMjEtMDgtMjUvc2VjLWNoaWVmLXdhcm5zLWNsb2NrLWlzLXRpY2tpbmctb24tZ=
+GVsaXN0aW5nLWNoaW5lc2Utc3RvY2tz/607f07ceef4b8524a319a23cB0083b812" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> Delisting Chinese=
+ Stocks</a>. Yale names <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/24851756.270933/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvM2E0MmU3MzAtMGQ0M=
+y00MDJmLWFmYjgtYzExYmIzMGU1ODM4/607f07ceef4b8524a319a23cBde5a64ad" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">Matthew Mendelsohn=
+</a> to run $31bn endowment. OnlyFans <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/24851756.270933/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXd=
+zL2FydGljbGVzLzIwMjEtMDgtMjUvb25seWZhbnMtZHJvcHMtcGxhbi10by1iYW4tc2V4dWFsbH=
+ktZXhwbGljaXQtY29udGVudC1hbWlkLXVwcm9hcg/607f07ceef4b8524a319a23cB04a9236a"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> Drops Pl=
+an</a> to Ban Sexually Explicit Content. UK=E2=80=99s FCA says it is =E2=80=
+=98not capable=E2=80=99 of supervising crypto exchange <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/24851756.270933/aHR0cHM6Ly93d3cuZnQuY2=
+9tL2NvbnRlbnQvMTc2MjBhM2ItYjgyZC00Yjg1LWFhODUtNGNmMjc5M2I3YTAy/607f07ceef4b=
+8524a319a23cB4bfcb2b2" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Binance</a>. FCC proposes record $5 million fine against <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/24851756.270933/aHR0cHM=
+6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL3RlY2hub2xvZ3kvMjAyMS8wOC8yNC9mY2Mtcm9ib2=
+NhbGwtZmluZS8/607f07ceef4b8524a319a23cB9318fccc" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">Jacob Wohl</a>, Jack Burkman for ele=
+ction robocalls.=C2=A0A Famous Honesty Researcher Is Retracting A Study Ove=
+r <a href=3D"https://link.mail.bloombergbusiness.com/click/24851756.270933/=
+aHR0cHM6Ly93d3cuYnV6emZlZWRuZXdzLmNvbS9hcnRpY2xlL3N0ZXBoYW5pZW1sZWUvZGFuLWF=
+yaWVseS1ob25lc3R5LXN0dWR5LXJldHJhY3Rpb24/607f07ceef4b8524a319a23cB4e46e2ec"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">Fake Data=
+</a>. We Need to Talk About the Great <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/24851756.270933/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXd=
+zL2FydGljbGVzLzIwMjEtMDgtMjUvd2UtbmVlZC10by10YWxrLWFib3V0LXRoZS1ncmVhdC1tYX=
+lvbm5haXNlLWluZmxhdGlvbi1teXN0ZXJ5/607f07ceef4b8524a319a23cB090b38df" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">   Mayonnaise I=
+nflation</a> Mystery. Somebody just paid $1.3 million for a <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/24851756.270933/aHR0cHM6Ly93d3cuY=
+25iYy5jb20vMjAyMS8wOC8yMy9wZW9wbGUtYXJlLXBheWluZy1taWxsaW9ucy1vZi1kb2xsYXJz=
+LWZvci1kaWdpdGFsLXBpY3R1cmVzLW9mLXJvY2tzLmh0bWw/607f07ceef4b8524a319a23cB1d=
+1e76a0" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: solid; background-color: #ccc;">pi=
+cture of a rock</a>.</p><p style=3D"margin: 16px 0;"><span class=3D"news-de=
+signed-for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=
+=C2=A0in handy email form, right in your inbox, please=C2=A0<a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/24851756.270933/aHR0cDovL2xpbmsub=
+WFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFz=
+aD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBa06=
+600ca" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">subscribe at this link</a>. Or y=
+ou can subscribe to Money Stuff and other great Bloomberg newsletters <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/24851756.270933/aHR0cHM=
+6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB5418=
+d1c6" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">here=
+</a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1] I realize=
+ that some people get paper proxy statements in the mail, but it does feel =
+like most Robinhood users could be persuaded to opt out of that? Like they =
+are trading on their phones? They are young and tech-savvy and so forth? Th=
+ey do not want to get a proxy statement in the mail for a company where the=
+y own $4.17 worth of stock?</em></p><p style=3D"margin: 16px 0;"><em>[2] No=
+ news that I saw. One piece of GameStop-adjacent news over the weekend <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/24851756.270933/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDgtMjEvY2l0YWRlbC10b=
+y1yZWRlZW0tYWJvdXQtNTAwLW1pbGxpb24tZnJvbS1tZWx2aW4tY2FwaXRhbC1kag/607f07cee=
+f4b8524a319a23cBf9a083b1" itemprop=3D"StoryLink" itemscope=3D"itemscope" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> was that</a> Citadel plans to redeem $500 million of its i=
+nvestment in Melvin Capital Management, the hedge fund that became famous (=
+and lost a bunch of money, necessitating the Citadel investment) in January=
+ for betting against GameStop. This has absolutely nothing to do with GameS=
+top but you can sort of imagine it as being psychologically connected. Reta=
+il traders see the news and are like =E2=80=9Chahaha, I remember when we to=
+ok down Melvin, good times, better buy some GameStop call options.=E2=80=9D=
+</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24851756.270933/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBeb8ffe19" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24851756.270933/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB29355f4e" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24851756.270933/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB14262fc6" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24851756.270933/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBce6d0f34" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2485175=
+6.270933/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBa67289f6" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24851756.270933/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC7dff5072" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24851756.270933/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB84b16bb9" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24851756.270933/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBc198caa9" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cesnqk.5t1x/497ef3e5.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_22856184_1860561774.1629908824631--
+

@@ -1,0 +1,2531 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:6157:b0:f6:3c16:48e4 with SMTP id 23csp3672616rwt;
+        Mon, 13 Feb 2023 11:34:20 -0800 (PST)
+X-Received: by 2002:a5d:4bc7:0:b0:2c3:ee83:5195 with SMTP id l7-20020a5d4bc7000000b002c3ee835195mr25034943wrt.29.1676316860445;
+        Mon, 13 Feb 2023 11:34:20 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1676316860; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=h2iY2P5wYVyBiQvA7RcFMngxEYdTGfmCH4ih+9mly2K4ZO66aEyTBI0hoARUpreyc1
+         h/zxsvIIPWvg00G+1/3zOLgZzCy5gRd+bukUkg3qwkVwQYaCdgB4GnI7Mc03JUYik2cM
+         /Hn9I5VVprVg09Phln+vq4ieWsp/VJDn7bbMxh4dA1oENpzcfqievZCIi11Gj54A6rq3
+         pLDVGMbE3mKUCxy4XFXGTnLnzFOiHp1ZYHdiXit1rN+2yteX8AXVQnxLJ53oneSvTWfu
+         w4PJYIEo4qHBwR0wkCVUYwetmzWOKbBAdzkK+6UX35D0p5xFCRrDX3dAFMNbkwIFFWCQ
+         kDSw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=Xfwk/FczK7TRO6ldtMb0blFv/tziLUa9gpe4scYeJhg=;
+        b=sBAijKFn6WdPaHX6g8BuF8VyKxU9Gw1hITGcKOVIEyiJfQ00AEDC8iFOzdoGRmxnBA
+         d6KqMOGwKHZWWe9QVPJ0aCGaH0UosgrqyAQxSoAxI14N9JqESYHHxnZQ5Y/7jfHWAnfy
+         +9Fb8nADWu3jUHq1UgmRtKsbx6rJcv1hAhwt65zUzzrM6qAeHKgAYXn8W6Xi3WWHfKwh
+         R3z/nfZuUOn/wQOToUyFTZVIEKwomKiI/sTD1+CW+nmENsblLKCnVoBcp0doQCjYG9qs
+         W6HH3uu5s8gjdOOiaqT5H5C02pACzWe2e7XRN/lgxvf6kDZ5b5K9i1mGRG3PFeu2IOBd
+         SMgw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=gmngMXkm;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id p10-20020a5d458a000000b0022ee5b30eccsor4892455wrq.79.2023.02.13.11.34.20
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 13 Feb 2023 11:34:20 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=gmngMXkm;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=Xfwk/FczK7TRO6ldtMb0blFv/tziLUa9gpe4scYeJhg=;
+        b=IN7TAXqvlDXeFFSr8tTvOMhQdqOImEN3OOxlClkZomyMMldMrIlcI5nlr/rV/lT8g5
+         R4qAzmlqoCwgxlnHvSEwzvDqIyofpQH9BWYfAE0tWmbPTRDGne40IupGZWvCd+7MoaBF
+         8mADrsyFXN6LiPU4LpbHBJhLSb0JlfgVF1hVLjpafuhJbMhhdxjD9di1mRvrHXdcHdd4
+         5gokHXT7plLzUMWJIkmrB/RRtWOpYhvyDnPmElYkEGgf4KzIsPaIb736SBpIoinULZvA
+         KCU9z2Sx/OZB5R5Amc43sRclsFnJcRm8nKNlHZ8KnVetkH/8IppxqCn9RVCjqgoWEPyh
+         rU4A==
+X-Gm-Message-State: AO0yUKUd9WQtJPtgjcovl3/ruFFsJzimMI+p0B5wppoiYjEdGYKobkFk
+	s+CF5UjL5IZ0uF0ikPL7jrHy/oge47Wb1kInTEqbv97xZrKZ/H2iRg==
+X-Received: by 2002:adf:f54b:0:b0:2c5:5331:f9a6 with SMTP id j11-20020adff54b000000b002c55331f9a6mr355076wrp.214.1676316859962;
+        Mon, 13 Feb 2023 11:34:19 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:9bcb:0:0:0:0:0 with SMTP id e11csp2542057wrc;
+        Mon, 13 Feb 2023 11:34:16 -0800 (PST)
+X-Received: by 2002:a25:928d:0:b0:8d3:3b1d:7eed with SMTP id y13-20020a25928d000000b008d33b1d7eedmr36616ybl.8.1676316855879;
+        Mon, 13 Feb 2023 11:34:15 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1676316855; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Ye/CvStur47rCoBACwDObcMwJihn+BnWg4AfGHUjY+diPisOlTuCrRqkAZIhlY5Snb
+         WqwjUQpieSbaZv7l05BBC/U7DUS7BAMR1BScwzsJL7TuLTyNDAQBkyqnHWTx02PhCqLr
+         P5p247DoADZBJWWDtIZX8xSG3EuOE0pNX5YYGOOG1okw837AZAXpvELdOTcI28ilnh4X
+         eRyTRIoJS67lwOoeFBE5Ah3202p7HMXhBXrgK8jLktUrsjRHZdUGC1QB41WGrETBNvsq
+         b7T8ULGg4K7P+x98BaiCtuFtga7wcpEqouWLjUW4LZWzKJZ41UVA9vf+ALA7+6gEcyxN
+         Furg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=Xfwk/FczK7TRO6ldtMb0blFv/tziLUa9gpe4scYeJhg=;
+        b=WymnqC0MzEF6MT2MxfqbZf1NpYB7GrOR7rH+/rYXah1PLPi/XWzq36nzfvqrOb1PDA
+         vq9WQdzPC9qDYiV4MLVHzoLGmDWBiuANZQOLCP893tkfLVWtvfYxAuPNNzVMl0/qKEYu
+         ik76o9BnS02K9ZSHB54DBVvufIq/EzXC3ZbhH+DbpFbVKNwM3Vgd1Dql22bppzYsbUe3
+         7PsWUNBK1r/ryCzRkiB2IzkHecc3hNcqTPG5SIBunyEqNRb0YUfNf/XhNZD24W0zMX6k
+         Y17tfCrvPV6DBxrCBffGAAoVrjjFrje+psvTfHpk1HABajxpPdhYSoohUWz3CvJC014d
+         0RPQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=gmngMXkm;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230213143154.30539045.268773@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230213143154.30539045.268773@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230213143154.30539045.268773@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id r15-20020a25828f000000b007d493ff9599sor2244744ybk.95.2023.02.13.11.34.15
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 13 Feb 2023 11:34:15 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20230213143154.30539045.268773@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AK7set8aBGV3pYgqeoMyWaCVVDTPG03onm0YnWsR1npgsFqC3v/5Lbg2w39Wmp9eIK9NxqLormTCNmABKou6goC/MDTKNV6Mm8k=
+X-Received: by 2002:a5b:249:0:b0:708:e6b:f198 with SMTP id g9-20020a5b0249000000b007080e6bf198mr17748711ybp.42.1676316855331;
+        Mon, 13 Feb 2023 11:34:15 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1676316855; cv=none;
+        d=google.com; s=arc-20160816;
+        b=KnAwGQc2TKqhp0LMTtAsUp99bnd+ifrQWDAs+u2Celas52xSabqPoKCP+E9SOUrhPE
+         cfC+bBYAVLRmOZXXCZB0Q5+lvHhQQZoaSy88h4WyuhcFoH2ydXAaJ/9o2OjVva6gavF9
+         ynR850cux+MyNEnceEXJSP6sMTrjtB+0wlmLuFN8VcGjCCEHBIxDFx7c4rF7EIvZEhcR
+         NKOB/b+VXTXDPuayNpGXN6qt/wseqBBGl51akuD5GZhyi68gIiFib4V9E7fPl6pyXt5a
+         aZNXGsvraq105x9iA63iZX697uJAJ9v2NcTYWwS4kFCI74dTHpuhlxV8XzdPbm5OaLdh
+         4UAw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=Xfwk/FczK7TRO6ldtMb0blFv/tziLUa9gpe4scYeJhg=;
+        b=bErgaA3rdBxaSDrrdkOioTEp7qge3gw1OWfMT4kUmRXQqzfVB5mq4HI4oEU4L5Bisb
+         mruSo8KQ6QF2/brpFwiA68VBlbw7eNZt5VIXK6Uff92l0LES7XgHbJ0HNN6Lox/xacdS
+         KP5KGd6HorG5l2tSVE2Jq7qX41/9UPpFUek8tFKavIFQ0fE3CGn+QoX8XACSe2CM//5S
+         +AWuyi3FNWEJWzy2HI4tWNA3/QtOBakuQwSeQzb2m014DGG7a5YhPG8TTvWzO/a97okN
+         bKRwtwPE/GRo7fmwECrLKrWw1Vy4hBf2Llwq0BlCLuhoiuBfGAxSnHsYU1Q0LEYhxCAe
+         00zg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=gmngMXkm;
+       spf=pass (google.com: domain of delivery_20230213143154.30539045.268773@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230213143154.30539045.268773@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230213143154.30539045.268773@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id s142-20020a257794000000b0090621221d35si953500ybc.2.2023.02.13.11.34.14
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 13 Feb 2023 11:34:15 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20230213143154.30539045.268773@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=AihGxYhYqkiof8laKNfOpmEtHhrr7RJ7JnU2gDHGqWU=;
+ b=gmngMXkm3L6acWld9KOd5zoXqTkE89/SxNsB9Bd5PRimq1lL0dIClvYJ4uB0LUvMdDJxcDBkyUKo
+   e9BFIfZQJDrX/NVVLJ7q6jxE0Oa3sl87rM7ogcSV/L1ioXh3soE9vcixr+5jOtdY5O3bwYB4wwJi
+   gb025d+VddtJ/gTdBvI=
+Received: from mtast-04.sailthru.com (204.153.121.10) by pmta29.sailthru.com id hta8bc2sd4s2 for <bloomberg@khamel.com>; Mon, 13 Feb 2023 14:34:14 -0500 (envelope-from <delivery_20230213143154.30539045.268773@mx.sailthru.com>)
+Received: from nj1-madbrick.flt (172.18.20.7) by mtast-04.sailthru.com id hta8bc1s6j01 for <bloomberg@khamel.com>; Mon, 13 Feb 2023 14:31:54 -0500 (envelope-from <delivery_20230213143154.30539045.268773@mx.sailthru.com>)
+Date: Mon, 13 Feb 2023 14:31:54 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230213143154.30539045.268773@sailthru.com>
+Subject: Money Stuff: The SEC Cracks Down on Crypto
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_70095314_2024425694.1676316714300"
+Precedence: bulk
+X-Feedback-ID: 6358:30539045:campaign:sailthru
+X-TM-ID: 20230213143154.30539045.268773
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-madbrick.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ci6k2t.5rdx/a88fa5fa
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ci6k2t.5rdx/a88fa5fa>, <mailto:unsubscribe_20230213143154.30539045.268773@mx.sailthru.com>
+X-rpcampaign: stjko30539045
+
+------=_Part_70095314_2024425694.1676316714300
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Imagine that you are a financial regulator, and consider the genera=
+l proposition: There is some crypto entity, some company that does someth
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Central crypto
+   =20
+ =20
+
+Imagine that you are a financial regulator, and consider the general propos=
+ition:
+=09There is some crypto entity, some company that does something=C2=A0in th=
+e crypto industry.=09Regular people give it their dollars or crypto for som=
+e purpose.=09It gives them back some sort of crypto receipt, saying =E2=80=
+=9Cwe owe you one dollar=E2=80=9D or =E2=80=9Cwe owe you one crypto=E2=80=
+=9D or whatever.
+
+At a very high level of generality, what do you think about that? What I wo=
+uld say is:
+=09In 2013,=C2=A0you probably thought =E2=80=9Cah, yes, this entity is doin=
+g a fraud, and plans to steal the money or crypto.=E2=80=9D But (1) you did=
+n=E2=80=99t think about it that=C2=A0much, since these entities tended to b=
+e small and cater to a small niche of crypto enthusiasts,=C2=A0and (2) it i=
+s not like the crypto entity was coming to your office to have meetings wit=
+h you.=09In 2021, you probably thought =E2=80=9Cah, yes, innovation, let us=
+ work with this crypto entity to build the future of finance on the blockch=
+ain.=E2=80=9D Unless you were the US Securities and Exchange Commission; th=
+ey never really thought that. But otherwise. The New York Department of Fin=
+ancial Services was  out issuing =E2=80=9CBitLicenses=E2=80=9D to crypto en=
+tities. Crypto entities were regularly walking into your office, accompanie=
+d by reputable high-powered lawyers who probably used to work at your offic=
+e, with suggestions for how you should best regulate crypto. They seemed ni=
+ce and earnest, and you took their suggestions seriously.=09In 2023, you pr=
+obably think =E2=80=9Cah, yes, this entity is doing a fraud, and plans to s=
+teal the money or crypto.=E2=80=9D
+
+Look around! Voyager Digital Ltd. is a crypto entity that is based in New Y=
+ork and was  publicly traded on the Toronto Stock Exchange; it took custome=
+rs=E2=80=99 money, promised them interest, and then lost the money, shut do=
+wn withdrawals and  went bankrupt in July. Gemini Trust Co. is a New York r=
+egulated crypto entity that ran lots of ads about how =E2=80=9Cthe revoluti=
+on needs rules=E2=80=9D; it took customers=E2=80=99 money, promised them in=
+terest, and then=C2=A0loaned=C2=A0the money to Genesis Global Capital LLC, =
+which lost it; Gemini=C2=A0 shut down=C2=A0withdrawals from its Earn produc=
+t in November and is now trying to get the money back in  Genesis=E2=80=99s=
+ bankruptcy. FTX Trading Ltd. is a crypto entity whose founder, Sam Bankman=
+-Fried, appeared regularly on stage with politicians and regulators and tes=
+tified before Congress about how to improve crypto regulation; FTX took cus=
+tomers=E2=80=99 money, loaned it to its affiliates,   lost it, shut down wi=
+thdrawals and filed for bankruptcy in November; Bankman-Fried was arrested,=
+   accused of fraud.
+I submit to you that the main fact of crypto regulation in early 2023 is th=
+at regulators feel really burned by the events of 2022, and particularly by=
+ the collapse of FTX. =E2=80=9CWe want to work with these nice smart young =
+people who are building the financial system of the future, and I am sure t=
+hat with their advice we can write=C2=A0smart regulations=C2=A0that protect=
+=C2=A0consumers while still fostering innovation=E2=80=9D was a totally nor=
+mal thing for regulators (except the SEC) to think and say in 2021. But now=
+ it is not! Now too many of those smart young people are under indictment o=
+r giving interviews from undisclosed locations; too much customer money is =
+gone. If you run a crypto exchange and you want to set up a meeting with re=
+gulators to talk about how to write regulations to prevent a repeat of the =
+recent crypto collapses, they will not trust you, because=C2=A0that is what=
+ FTX was saying too. There is not much goodwill left.
+Meanwhile, in the US, a lot of the=C2=A0law=C2=A0around this stuff is a bit=
+ uncertain and debatable. There are long-running boring debates about wheth=
+er certain sorts of cryptocurrencies are =E2=80=9Csecurities=E2=80=9D subje=
+ct to the SEC=E2=80=99s jurisdiction. The SEC   tends to think that almost =
+everything in crypto is a security; most crypto companies think that almost=
+ nothing is a security. (Very few crypto companies register their token or =
+product offerings with the SEC, and the SEC sometimes sues them for doing u=
+nregistered securities offerings.) The  general rule =E2=80=94=C2=A0called =
+the =E2=80=9CHowey test=E2=80=9D =E2=80=94=C2=A0is that a security is =E2=
+=80=9Cthe investment of money in a common enterprise with a reasonable expe=
+ctation of profits to be derived from the efforts of others.=E2=80=9D A lot=
+ of crypto projects look a lot like that, but you can debate the specifics.
+In 2021, if the SEC thought your token was a security and you thought it wa=
+sn=E2=80=99t, you could go to court to argue about it, and try to convince =
+a judge that the SEC was wrong on the law. You might win, who knows. (Rippl=
+e Labs Inc. is in a court fight with the SEC about whether its XRP token is=
+ a security; the SEC sued in 2020, and   a ruling is expected pretty soon.)=
+ But in 2023, the SEC can go to court and say to a judge =E2=80=9Cwe need t=
+o protect investors from unregistered crypto securities offerings, because=
+=C2=A0look at how many of them are frauds that went bankrupt,=E2=80=9D and =
+while that=C2=A0legal=C2=A0argument is no better than it was in 2021, it is=
+ much more=C2=A0persuasive=C2=A0now.
+  [1]
+=C2=A0At some emotional level the debate is =E2=80=9Cwe need to stop frauds=
+ters=E2=80=9D versus =E2=80=9Cwe need to allow for innovation,=E2=80=9D and=
+ the fraud/innovation balance has shifted a lot in recent months.
+Anyway, there have been=C2=A0some recent regulatory actions on some crypto =
+things, and I will talk about them below, but I want to start with this sor=
+t of legal realist point. When crypto is popular and exciting and going up,=
+ if you are a regulator who says =E2=80=9Cno, we must stop this,=E2=80=9D y=
+ou look like a killjoy. Investors want to put their money into stuff that i=
+s going up, and they are mad at you for stopping them. Politicians like the=
+ stuff that is going up, and hold hearings about how you=E2=80=99re stiflin=
+g innovation. Crypto founders are rich and popular and criticize you on Twi=
+tter and get a lot of likes and retweets. Your own regulatory employees, wh=
+o have an eye on their next private-sector jobs, want to be leaders in cryp=
+to innovation rather than just banning everything.
+When crypto is going down and so many projects are evaporating in fraud and=
+ bankruptcy, you can kind of say =E2=80=9CI told you so.=E2=80=9D=C2=A0Ther=
+e is just a lot more appetite to regulate, or I guess just to shut everythi=
+ng down. =E2=80=9CYou are stifling innovation,=E2=80=9D the indicted founde=
+r of a bankrupt crypto firm can say, but nobody cares.=C2=A0
+I guess this is a little bad, in the sense that it would be better for regu=
+lators to impose sensible regulations on the way up =E2=80=94=C2=A0before p=
+eople lose all their money =E2=80=94=C2=A0rather than being too lax on the =
+way up and overreacting after the crash. But it seems hard to avoid. Also t=
+he advantage of regulating after the crash is that you have a better sense =
+of what the risks are. =E2=80=9CCrypto is decentralized and transparent and=
+ avoids the risks of traditional fractional reserve banking, so it doesn=E2=
+=80=99t need to be regulated like traditional finance,=E2=80=9D I suppose p=
+eople could say in 2021. But now we   know better.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Staking
+   =20
+ =20
+
+To   oversimplify a lot, Ethereum is a  global distributed computer system.=
+ People can run programs =E2=80=94 smart contracts, crypto exchanges, etc. =
+=E2=80=94=C2=A0on the Ethereum system, which is a sort of virtual computer =
+whose state is maintained by thousands of independent nodes. Anyone can run=
+ programs on Ethereum, though you have to pay transaction fees =E2=80=94=C2=
+=A0called =E2=80=9Cgas=E2=80=9D =E2=80=94=C2=A0to run your program. The fee=
+s are paid in Ether, the currency of the Ethereum system.=C2=A0There is a s=
+ystem for validating Ethereum transactions, for making sure that all the no=
+des of=C2=A0the distributed virtual computer agree=C2=A0on what programs ha=
+ve been run and what the results were.  This system involves people =E2=80=
+=94=C2=A0called =E2=80=9Cstakers=E2=80=9D =E2=80=94=C2=A0depositing 32 Ethe=
+r and then running computer programs to validate the transactions. In excha=
+nge for doing this, the stakers get paid in Ether; effectively they get a s=
+hare of the fees that people pay to run programs on the computer that they =
+help maintain.
+What does this make Ether? Well, it is a little bit of a lot of things:
+=09Ether is a way to pay for computer time: You get Ether to pay to run pro=
+grams on the Ethereum system, or you get paid Ether for running those progr=
+ams. Ether is like an arcade token, or like a Starbucks card or airline mil=
+es, a limited-use form of money that can be used to pay for a=C2=A0 particu=
+lar service. In crypto this idea is called a =E2=80=9Cutility token,=E2=80=
+=9D a cryptocurrency that you need to pay to use some crypto project.=09Eth=
+er is kind of like money more generally =E2=80=94=C2=A0you can use Ether to=
+ pay for lots of stuff that is not Ethereum transaction fees =E2=80=94=C2=
+=A0and the staking mechanism is a way to=C2=A0earn interest on your money. =
+Staking is sort of like a =E2=80=A6=C2=A0bank account? A bond? But decentra=
+lized; the =E2=80=9Cissuer=E2=80=9D of the bond is the Ethereum system rath=
+er than a particular company.=C2=A0=09Ether is kind of like=C2=A0stock=C2=
+=A0in the Ethereum system. If a lot of people want to use Ethereum to run p=
+rograms and do stuff, then the value of Ether will go up. And owning Ether =
+sort of gives you =E2=80=94=C2=A0through the staking mechanism =E2=80=94=C2=
+=A0a share of the profits. Sort of.
+
+I don=E2=80=99t want to insist on any of these things. Ether is the crypto =
+token of the Ethereum system; it=E2=80=99s a crypto thing; it=E2=80=99s not=
+ exactly anything else, though it has some of the properties of various oth=
+er things.
+Under US securities laws, though, things are either securities or they aren=
+=E2=80=99t. If you are selling a security, you need to register the sale wi=
+th the US Securities and Exchange Commission, unless it is exempt from regi=
+stration. (There are various exemptions, but for our purposes the main one =
+is that if you are selling securities in private transactions restricted to=
+ wealthy investors, or only to foreigners, you don=E2=80=99t have to regist=
+er with the SEC, but if you=E2=80=99re selling them broadly to the US publi=
+c then you do.) Stocks are securities. Bonds are mostly securities, though =
+bank accounts mostly are not, and=C2=A0  the rules about what =E2=80=9Cnote=
+s=E2=80=9D qualify as securities are a bit fuzzy. Arcade tokens, Starbucks =
+cards and airline miles are   not securities, though the SEC has been   kno=
+wn to be a=C2=A0touch aggressive about utility tokens. Again,=C2=A0the gene=
+ral rule is that a security is =E2=80=9Cthe investment of money in a common=
+ enterprise with a reasonable expectation of profits to be derived from the=
+ efforts of others=E2=80=9D; Ether kind of is and kind of isn=E2=80=99t lik=
+e that.
+Ethereum is  not a security, I am pretty sure (not legal advice!), for some=
+ combination of historical and conceptual reasons that are not especially w=
+orth worrying about here. I don=E2=80=99t think that conclusion is=C2=A0ent=
+irely obvious, but it does seem to be the conclusion.
+  [2]
+
+But in order to  participate in validating Ethereum transactions=C2=A0and g=
+et paid staking rewards, you need (1) 32 Ether, worth almost $50,000 at tod=
+ay=E2=80=99s prices, (2) some computer hardware and (3) a certain amount of=
+ computer and crypto savvy. Not everyone has all of those things. So there =
+are various sort of pooled staking solutions where you can take whatever Et=
+her you have (presumably less than 32), put them in a pot with other people=
+=E2=80=99s Ether, and collectively participate in staking to earn rewards. =
+Here you are not necessarily doing much directly to validate transactions o=
+r maintain the security of the Ethereum system =E2=80=94=C2=A0you don=E2=80=
+=99t run the software or really know how it works, etc. =E2=80=94=C2=A0but =
+you=C2=A0are=C2=A0earning, effectively, interest payments on your Ether. Yo=
+u have some Ether, you=E2=80=99d like to earn some yield, some pooled staki=
+ng service offers a 5% yield, you=E2=80=99re like =E2=80=9Cwell 5% is bette=
+r than nothing,=E2=80=9D you deposit your Ether and get your yield.
+Some of these pooled staking things are decentralized; there are smart cont=
+racts where you pool your Ether with other people and participate in stakin=
+g semi-directly. Others, though, are run by big centralized crypto companie=
+s, particularly crypto=C2=A0exchanges. A crypto exchange is, in the general=
+ case, holding on to a lot of crypto for a lot of customers. Those customer=
+s would like to earn a yield. One way to pay a yield to the customers is by=
+ taking their crypto and lending it to other customers who want to borrow i=
+t and will pay interest: This is the=C2=A0normal=C2=A0way to earn a yield i=
+n banking, and in the world in general, but has had some bad results in cry=
+pto recently (Voyager, Celsius, BlockFi, FTX, etc.). Another way to pay a y=
+ield is for the exchanges to offer staking services.
+Is=C2=A0that=C2=A0a security? Here I want to make four points:
+=09If you hand over your crypto to an exchange for staking, and it promises=
+ you a yield, is that =E2=80=9Cthe investment of money in a common enterpri=
+se with a reasonable expectation of profits to be derived from the efforts =
+of others=E2=80=9D? I mean? Yes? The money is your crypto, the common enter=
+prise is the pooled staking thing, the expectation of profits is the yield,=
+ and the efforts of others are the work that the exchange does to run the v=
+alidator software. I think you could debate some of the details, but surely=
+ the SEC is on pretty firm ground in saying that this is a security under t=
+he Howey test.=09If you stake your crypto through some centralized exchange=
+=E2=80=99s staking program, what sorts of disclosure should that exchange h=
+ave to give you? I think the possible answers here are =E2=80=9Cit should g=
+ive you the same disclosure about its own finances that a public company wo=
+uld give its investors in a registered securities offering,=E2=80=9D or =E2=
+=80=9Cless than that.=E2=80=9D And I think the answer comes down to: With s=
+taking, are you an investor=C2=A0in the exchange?=C2=A0Do you have economic=
+ risk to the exchange's business? If it goes bankrupt, do you automatically=
+ get your staked Ether back, or are you an unsecured creditor in the bankru=
+ptcy, or are you not sure? I think the answer here will depend on the terms=
+ of the staking program, but my guess is that a lot of the time, if you hav=
+e deposited crypto with an exchange and it has turned around and re-deposit=
+ed the crypto somewhere else to earn the yield it has promised you, you wil=
+l end up an unsecured creditor. Which means that you should care about the =
+financial health of the exchange. Which means that a reasonable securities =
+regulator would want you to have audited financial statements and other inf=
+ormation that investors in public securities get.=09The SEC has   repeatedl=
+y   argued that crypto=C2=A0lending=C2=A0programs =E2=80=94=C2=A0the other =
+main way to get yield on the crypto you have deposited with a centralized=
+=C2=A0exchange =E2=80=94=C2=A0are securities, and has not gotten a lot of p=
+ushback; crypto lending companies have agreed to shut down or register thei=
+r lending programs. Staking is not exactly like lending, but there are cert=
+ain similarities to the naked eye. Given the SEC=E2=80=99s track record of =
+successfully going after lending, you might expect it to successfully go af=
+ter staking.=09Seriously, read the first section of this column. Centralize=
+d crypto firms keep going bankrupt and losing the money that customers have=
+ locked up with them!=C2=A0There are just so many centralized crypto entiti=
+es that were like =E2=80=9Cwin economic freedom and participate in the dece=
+ntralized economy of the future by trusting your crypto to us to do decentr=
+alized things!=E2=80=9D and then lost their customers=E2=80=99 crypto. It i=
+s a bad look! If you are a centralized crypto exchange running a staking se=
+rvice, and you are like =E2=80=9Cwell=C2=A0we=C2=A0are just plopping the co=
+ins directly into Ethereum staking,=C2=A0we=E2=80=99re=C2=A0not doing anyth=
+ing shady,=C2=A0we=E2=80=99ve=C2=A0never lost any customer money=E2=80=9D=
+=C2=A0=E2=80=94=C2=A0that might be totally true but nobody wants to hear it=
+ anymore!
+
+Anyway last week=C2=A0 the SEC shut down Kraken=E2=80=99s staking service:
+
+The Securities and Exchange Commission [Thursday] charged Payward Ventures,=
+ Inc. and Payward Trading Ltd., both commonly known as Kraken, with failing=
+ to register the offer and sale of their crypto asset staking-as-a-service =
+program, whereby investors transfer crypto assets to Kraken for staking in =
+exchange for advertised annual investment returns of as much as 21 percent.
+To settle the SEC=E2=80=99s charges, the two Kraken entities agreed to imme=
+diately cease offering or selling securities through crypto asset staking s=
+ervices or staking programs and pay $30 million in disgorgement, prejudgmen=
+t interest, and civil penalties.
+According to the SEC=E2=80=99s complaint, since 2019, Kraken has offered an=
+d sold its crypto asset =E2=80=9Cstaking services=E2=80=9D to the general p=
+ublic, whereby Kraken pools certain crypto assets transferred by investors =
+and stakes them on behalf of those investors. Staking is a process in which=
+ investors lock up =E2=80=93 or =E2=80=9Cstake=E2=80=9D =E2=80=93 their cry=
+pto tokens with a blockchain validator with the goal of being rewarded with=
+ new tokens when their staked crypto tokens become part of the process for =
+validating data for the blockchain. When investors provide tokens to stakin=
+g-as-a-service providers, they lose control of those tokens and take on ris=
+ks associated with those platforms, with very little protection. The compla=
+int alleges that Kraken touts that its staking investment program offers an=
+ easy-to-use platform and benefits that derive from Kraken=E2=80=99s effort=
+s on behalf of investors, including Kraken=E2=80=99s strategies to obtain r=
+egular investment returns and payouts
+=E2=80=9CWhether it=E2=80=99s through staking-as-a-service, lending, or oth=
+er means, crypto intermediaries, when offering investment contracts in exch=
+ange for investors=E2=80=99 tokens, need to provide the proper disclosures =
+and safeguards required by our securities laws,=E2=80=9D said SEC Chair Gar=
+y Gensler. =E2=80=9CToday=E2=80=99s action should make clear to the marketp=
+lace that staking-as-a-service providers must register and provide full, fa=
+ir, and truthful disclosure and investor protection.=E2=80=9D
+=E2=80=9CIn case after case, we=E2=80=99ve seen the consequences when indiv=
+iduals and businesses tout and offer crypto investments outside of the prot=
+ections provided by the federal securities laws: investors lack the disclos=
+ures they deserve and are harmed when they don=E2=80=99t receive them,=E2=
+=80=9D said Gurbir S. Grewal, Director of the SEC=E2=80=99s Division of Enf=
+orcement. =E2=80=9CToday, we take another step in protecting retail investo=
+rs by shutting down this unregistered crypto staking program, through which=
+ Kraken not only offered investors outsized returns untethered to any econo=
+mic realities, but also retained the right to pay them no returns at all. A=
+ll the while, it provided them zero insight into, among other things, its f=
+inancial condition and whether it even had the means of paying the marketed=
+ returns in the first place.=E2=80=9D
+
+=E2=80=9CIn case after case, we=E2=80=99ve seen the consequences when indiv=
+iduals and businesses tout and offer crypto investments outside of the prot=
+ections provided by the federal securities laws=E2=80=9D: That=E2=80=99s so=
+mething the SEC can say now, after the bitter experience of 2022.=C2=A0Krak=
+en=C2=A0hasn=E2=80=99t lost any customer money, but enough crypto companies=
+ have that the SEC is emboldened.
+Here is  the complaint. It mentions, among other things, the sorts of discl=
+osures that public securities investors get that staking investors don=E2=
+=80=99t:
+
+The absence of any registration statement means that investors have lacked =
+material information about the Kraken Staking Program. Missing material inf=
+ormation includes, but is not limited to, the business and financial condit=
+ion of Defendants, the fees charged by Defendants, the extent of Defendants=
+=E2=80=99 profits, and specific and detailed risks of the investment, inclu=
+ding how Defendants determine to stake investor tokens or purportedly hold =
+them in reserve and the extent of these purported liquidity reserves, or wh=
+ether tokens are put to some other use. Investors have had no insight into =
+Defendants=E2=80=99 financial condition and whether Defendants=C2=A0have th=
+e means of paying the marketed returns=E2=80=94and indeed, per the Kraken T=
+erms of Service, Defendants retain the right not to pay any investor return=
+. Defendants have disclosed only the information that they wish, not the in=
+formation required by law. =E2=80=A6
+Investors put their crypto assets at risk as part of the Kraken Staking Pro=
+gram. Defendants have control over all the crypto assets invested in the Kr=
+aken Staking Program and choose when and how to use them. (As explained abo=
+ve, Defendants do not actually stake all crypto assets received from invest=
+ors.) Moreover, according to the Kraken Terms of Service, these crypto asse=
+ts may be encumbered by Kraken=E2=80=99s creditors.=C2=A0
+
+That doesn=E2=80=99t exactly say =E2=80=9Cif you stake with Kraken you are =
+an unsecured creditor,=E2=80=9D but it at least hints that investors should=
+ care about Kraken=E2=80=99s financial condition, and don=E2=80=99t get any=
+ information about it.
+  [3]
+
+SEC Chair Gary Gensler gave a  strange television interview after this enfo=
+rcement action, minimizing the burden of the US securities registration sys=
+tem. =E2=80=9CIt=E2=80=99s just a form on our website,=E2=80=9D Gensler sai=
+d, which is surely news to the public companies that spend millions of doll=
+ars a year on public-company securities-law compliance.
+  [4]
+=C2=A0There is a  widespread view in the crypto industry that it is basical=
+ly=C2=A0impossible=C2=A0to register crypto offerings as securities, that th=
+e existing US securities laws are not written for crypto projects and the S=
+EC is not flexible about adapting them, so that saying a crypto offering is=
+ a security is equivalent to banning it. I am   broadly sympathetic to this=
+ view =E2=80=94 a lot of crypto stuff=C2=A0is=C2=A0decentralized and so har=
+d to fit into traditional securities disclosure =E2=80=94=C2=A0though I kin=
+d of think that, in=C2=A0this=C2=A0case, you could find a way to register a=
+ centralized crypto staking product? It=E2=80=99s, like, a variable-interes=
+t note of a company? You could probably register it? But you=E2=80=99d need=
+ the exchange to be a public company and release audited financials? I don=
+=E2=80=99t think that releasing audited financials would cure all of the pr=
+oblems that centralized crypto saw in the last year =E2=80=94=C2=A0Voyager =
+was a public company with public financials, and it=E2=80=99s bankrupt =E2=
+=80=94=C2=A0but I think it would have helped. There were a lot of centraliz=
+ed crypto companies that raised a lot of money without publishing much fina=
+ncial information, and eventually they went bankrupt and published their fi=
+nancials, and they were horrific. If people had seen the horrific financial=
+s first, they might have trusted less money to   FTX and   Celsius Network =
+Ltd., and that might have been a good thing, and the SEC knows it.
+SEC Commissioner  Hester Peirce dissented from the Kraken enforcement actio=
+n:
+
+We have known about crypto staking programs for a long time. Although it ma=
+y not have made a difference, I should have called for us to put out guidan=
+ce on staking long before now. Instead of taking the path of thinking throu=
+gh staking programs and issuing guidance, we again chose to speak through a=
+n enforcement action, purporting to =E2=80=9Cmake clear to the marketplace =
+that staking-as-a-service providers must register and provide full, fair, a=
+nd truthful disclosure and investor protection.=E2=80=9D Using enforcement =
+actions to tell people what the law is in an emerging industry is not an ef=
+ficient or fair way of regulating. Moreover, staking services are not unifo=
+rm, so one-off enforcement actions and cookie-cutter analysis does not cut =
+it.
+Most concerning, though, is that our solution to a registration violation i=
+s to shut down entirely a program that has served people well. The program =
+will no longer be available in the United States, and Kraken is enjoined fr=
+om ever offering a staking service in the United States, registered or not.=
+ A paternalistic and lazy regulator settles on a solution like the one in t=
+his settlement: do not initiate a public process to develop a workable regi=
+stration process that provides valuable information to investors, just shut=
+ it down.
+
+Again, I have   some general sympathy for that viewpoint. But it is Februar=
+y 2023! The demand for =E2=80=9Ca public process to develop a workable regi=
+stration process=E2=80=9D for centralized crypto investments has gone down =
+considerably; the demand for just shutting them down has gone up.
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Stablecoins
+   =20
+ =20
+
+The standard way that a stablecoin works is:
+=09There is some crypto entity, the stablecoin issuer.=09Regular people giv=
+e it their dollars.=09It gives them back a stablecoin, a crypto receipt say=
+ing=C2=A0=E2=80=9Cwe owe you one dollar=E2=80=9D that can be used as a doll=
+ar on some crypto blockchain.
+
+Is that a security? I actually think the answer is=C2=A0no; that to me read=
+s like it is=C2=A0not =E2=80=9Cthe investment of money in a common enterpri=
+se with a reasonable expectation of profits to be derived from the efforts =
+of others.=E2=80=9D=C2=A0(There is no expectation of profit.
+  [5]
+) But that is just my opinion,=C2=A0and this is close enough to being   a m=
+oney-market mutual fund (a security!) that a lot of people think the answer=
+ is yes.
+Also, consider what I said above about what sort of disclosure you would wa=
+nt:=C2=A0If you give your dollars to a centralized stablecoin issuer,=C2=A0=
+what sorts of disclosure should that issuer have to give you? Is the answer=
+ =E2=80=9Cit should give you the same disclosure about its own finances tha=
+t a public company would give its investors in a registered securities offe=
+ring,=E2=80=9D or is it =E2=80=9Cnothing=E2=80=9D? You are pretty clearly a=
+n unsecured creditor of the stablecoin issuer,
+  [6]
+=C2=A0and if the stablecoin issuer is in fact stealing all the dollars =E2=
+=80=94=C2=A0or investing them in risky ventures, etc. =E2=80=94=C2=A0then t=
+hat is bad for you and you=E2=80=99d want to know about it. In fact there i=
+s a history of stablecoin issuers being  comically bad at releasing audited=
+ financials, and sometimes   not being as fully backed by safe assets as yo=
+u might like.=C2=A0
+Also, again, I think it should be relatively easy to register a stablecoin =
+with the SEC.=C2=A0This is not some decentralized autonomous=C2=A0project w=
+ith characteristics totally different from regular securities offerings.=C2=
+=A0It=E2=80=99s just a money-market mutual fund, and people register those =
+all the time.
+So might the SEC conclude that centralized stablecoins are securities that =
+need to register with the SEC and publish audited financials? Sure, I dunno=
+,  maybe, who knows:
+
+The Securities and Exchange Commission has told crypto firm Paxos Trust Co.=
+ that it plans to sue the company for violating investor protection laws, a=
+ccording to people familiar with the matter, the latest move in the agency=
+=E2=80=99s escalating campaign in crypto enforcement.
+The SEC=E2=80=99s enforcement staff issued a letter to Paxos known as a Wel=
+ls notice, which the agency uses to inform companies and individuals of a p=
+ossible enforcement action, according to the people.
+The notice alleges that Binance USD, a digital asset that Paxos issues and =
+lists, is an unregistered security, according to the people.
+BUSD is a Binance-branded stablecoin pegged to the dollar on a one-to-one r=
+atio. Binance and Paxos announced the partnership to launch it in 2019. The=
+ Paxos-run digital asset exchange, itBit, also lists BUSD. Many other excha=
+nges also list BUSD.
+
+Again this feels like a very February 2023 move. In  other BUSD news:
+
+New York regulators directed a crypto company to stop issuing one of the la=
+rgest dollar-pegged cryptocurrencies, as a government clampdown on the sect=
+or widens.=C2=A0
+The New York Department of Financial Services ordered Paxos Trust Co., whic=
+h issues and lists Binance=E2=80=99s dollar-pegged cryptocurrency, to stop =
+creating more of its BUSD token, Binance said in a statement. Paxos will co=
+ntinue to manage redemptions of the product, the crypto exchange added. =E2=
+=80=A6
+New York=E2=80=99s financial regulator found that Paxos failed to conduct p=
+eriodic risk assessments and due diligence of Binance and customers holding=
+ BUSD issued by Paxos, according to a person familiar with the matter. The =
+department ordered Paxos to stop issuing BUSD after it failed to address th=
+ose and other deficiencies, the person said.=C2=A0
+
+Here is  the DFS consumer alert, saying that =E2=80=9CDFS has ordered Paxos=
+ to cease minting Paxos-issued BUSD as a result of several unresolved issue=
+s related to Paxos=E2=80=99 oversight of its relationship with Binance in r=
+egard to Paxos-issued BUSD.=E2=80=9D Paxos is a trust company supervised by=
+ the DFS, and it is required to have enough assets to fully back its BUSD c=
+oin, so I don=E2=80=99t think that this is a statement about the investment=
+ risk of BUSD. But it certainly is a statement that regulators are less sym=
+pathetic than they used to be.
+
+ =20
+   =20
+      Yacht tax
+   =20
+ =20
+
+Here=E2=80=99s a trade I guess?
+=09You have a yacht you don=E2=80=99t want. It is worth $1.3 million.=09You=
+ would like to get more than $1.3 million from it.=09You donate=C2=A0it to =
+charity. The charity gives you a receipt saying that the yacht is worth $4.=
+9 million. You take a $4.9 million tax deduction, which is worth about $2 m=
+illion given your tax rate =E2=80=94=C2=A0more than the yacht was worth if =
+you had sold it.=09The charity sells the yacht=C2=A0to your lawyers=C2=A0fo=
+r $4.9 million, though they pay in the form of a $4.9 million promissory no=
+te rather than cash.=09The charity=C2=A0assigns the promissory note to your=
+ lawyers, meaning that they basically owe themselves the $4.9 million.=09Th=
+e lawyers sell the yacht for $1.3 million and give the charity a 10% fee fo=
+r its trouble.
+
+The result is that you get a tax deduction worth $2 million, the charity ge=
+ts $130,000, and the lawyers get the rest of the value of the yacht.=C2=A0T=
+his shouldn=E2=80=99t work, and it doesn=E2=80=99t work, but it=E2=80=99s f=
+unny to think about. A good pressure point in the tax code is the charitabl=
+e deduction for non-cash assets: If you have some unique non-traded asset (=
+art, yacht, etc.), you can donate it to charity and deduct the market value=
+ of the asset, and if there is no market value then you and the charity hav=
+e some leeway to make it up. You want the value to be high (so you get a bi=
+gger deduction), and the charity doesn=E2=80=99t care (it isn=E2=80=99t pay=
+ing the made-up price), so there are incentives to make up a big number. Th=
+e IRS knows this and tries to crack down by requiring appraisals, etc., but=
+ if you can generate what looks like a market transaction at the made-up pr=
+ice, I guess that helps. But if you generate what looks like a fake transac=
+tion, it doesn=E2=80=99t.
+Here is  a Wall Street Journal article about some pyramid-scheme moguls (=
+=E2=80=9CHe dismissed claims that his business was a pyramid scheme, instea=
+d saying it was a =E2=80=98dimaryp=E2=80=99=E2=80=94pyramid spelled backwar=
+d=E2=80=9D) who tried this and =E2=80=9Cended up paying $3.5 million in tax=
+es and penalties.=E2=80=9D They=E2=80=99re suing the lawyers.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+DeSantis Proposes   Barring ESG Criteria in Florida Muni-Bond Sales. Adani =
+Shock Rips Through   ESG Funds as Strategy Fails Test. Goldman CEO tells pa=
+rtners he  should have cut jobs earlier.=C2=A0Google  Miscalculates Stock S=
+everance, Apologizes to Laid-Off Workers.=C2=A0Blackstone=E2=80=99s Big New=
+ Idea  Leaves It Bruised.=C2=A0  Remote Work Is Costing Manhattan More Than=
+ $12 Billion a Year. Bergdorf=E2=80=99s, Central Park:  Flaco the escaped o=
+wl takes a tour of Manhattan. Bourbon  insider trading. =E2=80=9CBy dating =
+a banker, I got the best of both worlds. I hardly saw him, so I still got t=
+o go out with my own friends, but  we texted a lot.=E2=80=9D=C2=A0
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] My own view is that the legal argument was always pretty good: Under =
+longstanding US law, it sure does seem that most crypto tokens are securiti=
+es. But pre-FTX, crypto people could go around saying =E2=80=9Cthe SEC is r=
+elying on outdated legal doctrines that don=E2=80=99t fit the innovative mo=
+dern crypto economy,=E2=80=9D and that had some appeal; it has so much less=
+ appeal now.
+
+
+  [2] In particular, Ethereum's founders *sold* Ether tokens, before Ethere=
+um was live, to finance building out the system. That sounds a whole lot li=
+ke a securities offering, and the SEC has   halted very similar offerings i=
+n recent years. I suspect if Ethereum did that *today*, instead of in 2014,=
+ the SEC would have objections. I once wrote that =E2=80=9Cthere=E2=80=99s =
+a sense in which this sale=E2=80=94the Ether =E2=80=98pre-mine,=E2=80=99 or=
+ =E2=80=98initial coin offering=E2=80=99 (ICO)=E2=80=94was the original sin=
+ of crypto as a financing tool,=E2=80=9D and I bet the SEC thinks that too.
+
+
+  [3] There are also hints that just staking your own Ether doesn=E2=80=99t=
+ make Ethereum a security: It=E2=80=99s Kraken=E2=80=99s centralized offeri=
+ng of staking as a service that makes this a pooled investment relying on t=
+he efforts of others, not the staking rewards themselves. See, e.g., paragr=
+aph 39: =E2=80=9CThe Kraken Staking Program has several features that diffe=
+rentiate it from staking and earning rewards on your own,=E2=80=9D etc.
+
+
+  [4] Kraken=E2=80=99s former CEO, Jesse Powell,  tweeted: =E2=80=9COh man,=
+ all I had to do was fill out a form on a website and tell people that stak=
+ing rewards come from staking? Wish I'd seen this video before paying a $30=
+m fine and agreeing to permanently shut down the service in the US. How dum=
+b do I look. Gosh.=E2=80=9D
+
+
+  [5] One weird fact about stablecoins is that they =E2=80=94 and crypto =
+=E2=80=94 grew up largely in a low-interest-rate environment, and it is jus=
+t sort of the norm that stablecoin issuers do not pay interest. Of course t=
+hey *earn* interest =E2=80=94 they keep the dollars in bank accounts or Tre=
+asury bills or whatever =E2=80=94 but they don=E2=80=99t pass it on to hold=
+ers of the coins; the issuer just keeps the interest. This is weird and luc=
+rative but also a good argument against being a security. One possibility i=
+s that SEC suspicion of stablecoins will *prevent* stablecoin issuers from =
+ever paying interest, making the business more lucrative.
+
+
+  [6] Actually there is some weirdness around redemption, and it=E2=80=99s =
+not obvious that every stablecoin owner is a direct creditor of the issuer.=
+ But you are certainly economically exposed to the issuer=E2=80=99s finance=
+s if you own its stablecoins.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ci6k2t.5rdx/950c232a.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_70095314_2024425694.1676316714300
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Imagine that you are a financial regulator, and consider the general propos=
+ition: There is some crypto entity, some company that does someth
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0zMDUzOTA0NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4MDc4MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB4dc0415c" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D30539045&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30807818&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMjEzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMTMmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBa1d01016"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDUzOTA0NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4MDc4MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCe2f18027" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30539045&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30807818&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Central crypto</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Imagine that you are a financial regulator, an=
+d consider the general proposition:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">There is some crypto entity, some com=
+pany that does something=C2=A0in the crypto industry.</li>=09<li style=3D"m=
+argin-bottom: 5px;">Regular people give it their dollars or crypto for some=
+ purpose.</li>=09<li style=3D"margin-bottom: 5px;">It gives them back some =
+sort of crypto receipt, saying =E2=80=9Cwe owe you one dollar=E2=80=9D or =
+=E2=80=9Cwe owe you one crypto=E2=80=9D or whatever.</li>
+</ol>
+<p style=3D"margin: 16px 0;">At a very high level of generality, what do yo=
+u think about that? What I would say is:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">In 2013,=C2=A0you probably thought =E2=
+=80=9Cah, yes, this entity is doing a fraud, and plans to steal the money o=
+r crypto.=E2=80=9D But (1) you didn=E2=80=99t think about it that=C2=A0<em>=
+much</em>, since these entities tended to be small and cater to a small nic=
+he of crypto enthusiasts,=C2=A0and (2) it is not like the crypto entity was=
+ coming to your office to have meetings with you.</li>=09<li style=3D"margi=
+n-bottom: 5px;">In 2021, you probably thought =E2=80=9Cah, yes, innovation,=
+ let us work with this crypto entity to build the future of finance on the =
+blockchain.=E2=80=9D Unless you were the US Securities and Exchange Commiss=
+ion; they never really thought that. But otherwise. The New York Department=
+ of Financial Services was <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30539045.268773/aHR0cHM6Ly93d3cuZGZzLm55Lmdvdi92aXJ0dWFsX2N1cnJlbm=
+N5X2J1c2luZXNzZXM/607f07ceef4b8524a319a23cB5f022822" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> out issuing =
+=E2=80=9CBitLicenses=E2=80=9D</a> to crypto entities. Crypto entities were =
+regularly walking into your office, accompanied by reputable high-powered l=
+awyers who probably used to work at your office, with suggestions for how y=
+ou should best regulate crypto. They seemed nice and earnest, and you took =
+their suggestions seriously.</li>=09<li style=3D"margin-bottom: 5px;">In 20=
+23, you probably think =E2=80=9Cah, yes, this entity is doing a fraud, and =
+plans to steal the money or crypto.=E2=80=9D</li>
+</ul>
+<p style=3D"margin: 16px 0;">Look around! Voyager Digital Ltd. is a crypto =
+entity that is based in New York and was <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/30539045.268773/aHR0cHM6Ly93d3cuaW52ZXN0dm95YWdlci5j=
+b20vcHJlc3NyZWxlYXNlcy92b3lhZ2VyLWRpZ2l0YWwtYW5ub3VuY2VzLWNvbW1lbmNlbWVudC1=
+vZi10cmFkaW5nLW9uLXRoZS10c3gtdW5kZXItdGhlLXRpY2tlci1zeW1ib2wtdm95Zw/607f07c=
+eef4b8524a319a23cB25cfbfd5" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> publicly traded</a> on the Toronto Sto=
+ck Exchange; it took customers=E2=80=99 money, promised them interest, and =
+then lost the money, shut down withdrawals and <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/30539045.268773/aHR0cHM6Ly9jYXNlcy5zdHJldHRvLm=
+NvbS9Wb3lhZ2VyL2NvdXJ0LWRvY2tldC8/607f07ceef4b8524a319a23cB436cca5e" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> went bankrupt in July</a>. Gemini Trust Co. is a New York regulated cryp=
+to entity that ran lots of ads about how =E2=80=9Cthe revolution needs rule=
+s=E2=80=9D; it took customers=E2=80=99 money, promised them interest, and t=
+hen=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.=
+268773/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDEt=
+MTcvc2VjLWNvbWVzLWZvci1nZW1pbmktdG9vLWxhdGU_Y21waWQ9QkJEMDIxMzIzX01PTkVZU1R=
+VRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMj=
+EzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB3ae7a3b1" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">loaned=C2=A0the money</a> to Genesis Global Capital LLC, which lost it; =
+Gemini=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/305390=
+45.268773/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAyMi8xMS8xNi9nZW5lc2lzLWxlbmRpbmctd=
+W5pdC1oYWx0cy13aXRoZHJhd2Fscy1pbi1hZnRlcm1hdGgtb2YtZnR4LWNvbGxhcHNlLmh0bWw/=
+607f07ceef4b8524a319a23cBee5a118d" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> shut down=C2=A0withdrawals</a> =
+from its Earn product in November and is now trying to get the money back i=
+n <a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/=
+aHR0cHM6Ly9hc3NldHMuY3RmYXNzZXRzLm5ldC9qZzZsbzlhMnVrdnIvMTh5SHRja0NXbTV2MVR=
+XVW1xa1REaS8wYmQ0NDRkNTEwZTFhZWJmN2I0NGU5NWUwMGJhMjU2Zi8yMDIzLTAyLTEwX1N0YX=
+RlbWVudF8tZGNrdF84MF8wLS5wZGY/607f07ceef4b8524a319a23cB07bb3f89" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Genesis=E2=80=99s bankruptcy</a>. FTX Trading Ltd. is a crypto entity whos=
+e founder, Sam Bankman-Fried, appeared regularly on stage with politicians =
+and regulators and testified before Congress about how to improve crypto re=
+gulation; FTX took customers=E2=80=99 money, loaned it to its affiliates, <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMTQvZnR4LX=
+MtYmFsYW5jZS1zaGVldC13YXMtYmFkP2NtcGlkPUJCRDAyMTMyM19NT05FWVNUVUZGJnV0bV9tZ=
+WRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIxMyZ1dG1fY2Ft=
+cGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB6e90a1ee" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">  lost it=
+</a>, shut down withdrawals and filed for bankruptcy in November; Bankman-F=
+ried was arrested, <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/30539045.268773/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLz=
+IwMjItMTItMTMvaG93LXRvLWRvLWZyYXVkLWF0LWEtZnV0dXJlcy1leGNoYW5nZT9jbXBpZD1CQ=
+kQwMjEzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRl=
+ciZ1dG1fdGVybT0yMzAyMTMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a31=
+9a23cB0cd7cdc3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">  accused of fraud</a>.</p>
+<p style=3D"margin: 16px 0;">I submit to you that the main fact of crypto r=
+egulation in early 2023 is that regulators feel really burned by the events=
+ of 2022, and particularly by the collapse of FTX. =E2=80=9CWe want to work=
+ with these nice smart young people who are building the financial system o=
+f the future, and I am sure that with their advice we can write=C2=A0smart =
+regulations=C2=A0that protect=C2=A0consumers while still fostering innovati=
+on=E2=80=9D was a totally normal thing for regulators (except the SEC) to t=
+hink and say in 2021. But now it is not! Now too many of those smart young =
+people are under indictment or giving interviews from undisclosed locations=
+; too much customer money is gone. If you run a crypto exchange and you wan=
+t to set up a meeting with regulators to talk about how to write regulation=
+s to prevent a repeat of the recent crypto collapses, they will not trust y=
+ou, because=C2=A0<em>that is what FTX was saying too</em>. There is not muc=
+h goodwill left.</p>
+<p style=3D"margin: 16px 0;">Meanwhile, in the US, a lot of the=C2=A0<em>la=
+w=C2=A0</em>around this stuff is a bit uncertain and debatable. There are l=
+ong-running boring debates about whether certain sorts of cryptocurrencies =
+are =E2=80=9Csecurities=E2=80=9D subject to the SEC=E2=80=99s jurisdiction.=
+ The SEC <a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.=
+268773/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDkt=
+MDgvZ2FyeS1nZW5zbGVyLXdhbnRzLXRvLXJlZ3VsYXRlLWNyeXB0bz9jbXBpZD1CQkQwMjEzMjN=
+fTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdG=
+VybT0yMzAyMTMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB17f4=
+4d29" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">  tends to think</a> that almost everything in crypto is a se=
+curity; most crypto companies think that almost nothing is a security. (Ver=
+y few crypto companies register their token or product offerings with the S=
+EC, and the SEC sometimes sues them for doing unregistered securities offer=
+ings.) The <a href=3D"https://link.mail.bloombergbusiness.com/click/3053904=
+5.268773/aHR0cHM6Ly93d3cuc2VjLmdvdi9maWxlcy9kbHQtZnJhbWV3b3JrLnBkZg/607f07c=
+eef4b8524a319a23cBed0f74e3" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> general rule</a> =E2=80=94=C2=A0called=
+ the =E2=80=9CHowey test=E2=80=9D =E2=80=94=C2=A0is that a security is =E2=
+=80=9Cthe investment of money in a common enterprise with a reasonable expe=
+ctation of profits to be derived from the efforts of others.=E2=80=9D A lot=
+ of crypto projects look a lot like that, but you can debate the specifics.=
+</p>
+<p style=3D"margin: 16px 0;">In 2021, if the SEC thought your token was a s=
+ecurity and you thought it wasn=E2=80=99t, you could go to court to argue a=
+bout it, and try to convince a judge that the SEC was wrong on the law. You=
+ might win, who knows. (Ripple Labs Inc. is in a court fight with the SEC a=
+bout whether its XRP token is a security; the SEC sued in 2020, and <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMTcvZnR4LWNvbGxhcHNl=
+LXB1dHMtZm9jdXMtb24tcmlwcGxlLWNhc2UtZm9yLXdoby1zaG91bGQtcmVndWxhdGUtY3J5cHR=
+vP2NtcGlkPUJCRDAyMTMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT=
+1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIxMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07=
+ceef4b8524a319a23cB0b1164fb" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">  a ruling is expected pretty soon</a>=
+.) But in 2023, the SEC can go to court and say to a judge =E2=80=9Cwe need=
+ to protect investors from unregistered crypto securities offerings, becaus=
+e=C2=A0<em>look at how many of them are frauds that went bankrupt</em>,=E2=
+=80=9D and while that=C2=A0<em>legal=C2=A0</em>argument is no better than i=
+t was in 2021, it is much more=C2=A0<em>persuasive=C2=A0</em>now.<a class=
+=3D"footnote-index" href=3D"#footnote-1" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: none !important; background-color: transparent !=
+important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0At some emotional level the debate is =E2=80=9Cwe need to stop fr=
+audsters=E2=80=9D versus =E2=80=9Cwe need to allow for innovation,=E2=80=9D=
+ and the fraud/innovation balance has shifted a lot in recent months.</p>
+<p style=3D"margin: 16px 0;">Anyway, there have been=C2=A0some recent regul=
+atory actions on some crypto things, and I will talk about them below, but =
+I want to start with this sort of legal realist point. When crypto is popul=
+ar and exciting and going up, if you are a regulator who says =E2=80=9Cno, =
+we must stop this,=E2=80=9D you look like a killjoy. Investors want to put =
+their money into stuff that is going up, and they are mad at you for stoppi=
+ng them. Politicians like the stuff that is going up, and hold hearings abo=
+ut how you=E2=80=99re stifling innovation. Crypto founders are rich and pop=
+ular and criticize you on Twitter and get a lot of likes and retweets. Your=
+ own regulatory employees, who have an eye on their next private-sector job=
+s, want to be leaders in crypto innovation rather than just banning everyth=
+ing.</p>
+<p style=3D"margin: 16px 0;">When crypto is going down and so many projects=
+ are evaporating in fraud and bankruptcy, you can kind of say =E2=80=9CI to=
+ld you so.=E2=80=9D=C2=A0There is just a lot more appetite to regulate, or =
+I guess just to shut everything down. =E2=80=9CYou are stifling innovation,=
+=E2=80=9D the indicted founder of a bankrupt crypto firm can say, but nobod=
+y cares.=C2=A0</p>
+<p style=3D"margin: 16px 0;">I guess this is a little bad, in the sense tha=
+t it would be better for regulators to impose sensible regulations on the w=
+ay up =E2=80=94=C2=A0<em>before</em> people lose all their money =E2=80=94=
+=C2=A0rather than being too lax on the way up and overreacting after the cr=
+ash. But it seems hard to avoid. Also the advantage of regulating after the=
+ crash is that you have a better sense of what the risks are. =E2=80=9CCryp=
+to is decentralized and transparent and avoids the risks of traditional fra=
+ctional reserve banking, so it doesn=E2=80=99t need to be regulated like tr=
+aditional finance,=E2=80=9D I suppose people could say in 2021. But now we =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTItMDUvY3J5c=
+HRvLWhhZC1hLWNyZWRpdC1idWJibGU_Y21waWQ9QkJEMDIxMzIzX01PTkVZU1RVRkYmdXRtX21l=
+ZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjEzJnV0bV9jYW1=
+wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB6b9bbfad" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">  know bet=
+ter</a>.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDUzOTA0NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4MDc4MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD52ff6504" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30539045&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30807818&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDUzOTA0NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4MDc4MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE52ff6504" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30539045&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30807818&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDUzOTA0NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4MDc4MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF5b0439ab" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30539045&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30807818&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDUzOTA0NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4MDc4MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG5b0439ab" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30539045&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30807818&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDUzOTA0NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4MDc4MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH06a28045" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30539045&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30807818&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDUzOTA0NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4MDc4MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI06a28045" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30539045&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30807818&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Staking</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">To <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/30539045.268773/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9mZWF0dXJlc=
+y8yMDIyLXRoZS1jcnlwdG8tc3RvcnkvP2NtcGlkPUJCRDAyMTMyM19NT05FWVNUVUZGJnV0bV9t=
+ZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIxMyZ1dG1fY2F=
+tcGFpZ249bW9uZXlzdHVmZiNhLWRpc3RyaWJ1dGVkLWNvbXB1dGVy/607f07ceef4b8524a319a=
+23cB1a70331f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">  oversimplify a lot</a>, Ethereum is a <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/30539045.268773/aHR0cHM6Ly9ldGh=
+lcmV1bS5vcmcvZW4vd2hpdGVwYXBlci8/607f07ceef4b8524a319a23cB99c7d9e1" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> global distributed computer system</a>. People can run programs =E2=80=94=
+ smart contracts, crypto exchanges, etc. =E2=80=94=C2=A0on the Ethereum sys=
+tem, which is a sort of virtual computer whose state is maintained by thous=
+ands of independent nodes. Anyone can run programs on Ethereum, though you =
+have to pay transaction fees =E2=80=94=C2=A0called =E2=80=9Cgas=E2=80=9D =
+=E2=80=94=C2=A0to run your program. The fees are paid in Ether, the currenc=
+y of the Ethereum system.=C2=A0There is a system for validating Ethereum tr=
+ansactions, for making sure that all the nodes of=C2=A0the distributed virt=
+ual computer agree=C2=A0on what programs have been run and what the results=
+ were. <a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.26=
+8773/aHR0cHM6Ly9ldGhlcmV1bS5vcmcvZW4vc3Rha2luZy8/607f07ceef4b8524a319a23cBf=
+9a290df" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> This system</a> involves people =E2=80=94=C2=A0called =E2=
+=80=9Cstakers=E2=80=9D =E2=80=94=C2=A0depositing 32 Ether and then running =
+computer programs to validate the transactions. In exchange for doing this,=
+ the stakers get paid in Ether; effectively they get a share of the fees th=
+at people pay to run programs on the computer that they help maintain.</p>
+<p style=3D"margin: 16px 0;">What does this make Ether? Well, it is a littl=
+e bit of a lot of things:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Ether is a way to pay for computer ti=
+me: You get Ether to pay to run programs on the Ethereum system, or you get=
+ paid Ether for running those programs. Ether is like an <em>arcade token</=
+em>, or like a Starbucks card or airline miles, a limited-use form of money=
+ that can be used to pay for a=C2=A0 particular service. In crypto this ide=
+a is called a =E2=80=9Cutility token,=E2=80=9D a cryptocurrency that you ne=
+ed to pay to use some crypto project.</li>=09<li style=3D"margin-bottom: 5p=
+x;">Ether is kind of like <em>money </em>more generally =E2=80=94=C2=A0you =
+can use Ether to pay for lots of stuff that is <em>not </em>Ethereum<em> </=
+em>transaction fees =E2=80=94=C2=A0and the staking mechanism is a way to=C2=
+=A0<em>earn interest on your money</em>. Staking is sort of like a =E2=80=
+=A6=C2=A0bank account? A bond? But decentralized; the =E2=80=9Cissuer=E2=80=
+=9D of the bond is the Ethereum system rather than a particular company.=C2=
+=A0</li>=09<li style=3D"margin-bottom: 5px;">Ether is kind of like=C2=A0<em=
+>stock=C2=A0</em>in the Ethereum system. If a lot of people want to use Eth=
+ereum to run programs and do stuff, then the value of Ether will go up. And=
+ owning Ether sort of gives you =E2=80=94=C2=A0through the staking mechanis=
+m =E2=80=94=C2=A0a share of the profits. Sort of.</li>
+</ol>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t want to insist on any of these=
+ things. Ether is the crypto token of the Ethereum system; it=E2=80=99s a c=
+rypto thing; it=E2=80=99s not exactly anything else, though it has some of =
+the properties of various other things.</p>
+<p style=3D"margin: 16px 0;">Under US securities laws, though, things are e=
+ither securities or they aren=E2=80=99t. If you are selling a security, you=
+ need to register the sale with the US Securities and Exchange Commission, =
+unless it is exempt from registration. (There are various exemptions, but f=
+or our purposes the main one is that if you are selling securities in priva=
+te transactions restricted to wealthy investors, or only to foreigners, you=
+ don=E2=80=99t have to register with the SEC, but if you=E2=80=99re selling=
+ them broadly to the US public then you do.) Stocks are securities. Bonds a=
+re mostly securities, though bank accounts mostly are not, and=C2=A0<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDEtMTcvc2VjLWNvbWVz=
+LWZvci1nZW1pbmktdG9vLWxhdGU_Y21waWQ9QkJEMDIxMzIzX01PTkVZU1RVRkYmdXRtX21lZGl=
+1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjEzJnV0bV9jYW1wYW=
+lnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cC3ae7a3b1" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">  the rules a=
+bout what =E2=80=9Cnotes=E2=80=9D qualify as securities</a> are a bit fuzzy=
+. Arcade tokens, Starbucks cards and airline miles are <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/30539045.268773/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDgtMDEvd2h5LWV4Y2hhbmdlcy1saWtlL=
+XNwZWVkLWJ1bXBzP2NtcGlkPUJCRDAyMTMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwm=
+dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIxMyZ1dG1fY2FtcGFpZ249bW9uZXl=
+zdHVmZg/607f07ceef4b8524a319a23cBb33fa210" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  not securities</a>, th=
+ough the SEC has been <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/30539045.268773/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGV=
+zLzIwMTktMDUtMTAvdGhlLXVuaWNvcm4td29ycmllcnMtd2VyZW4tdC13cm9uZz9jbXBpZD1CQk=
+QwMjEzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlc=
+iZ1dG1fdGVybT0yMzAyMTMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319=
+a23cBbf3878d9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">  known to be a=C2=A0<em>touch </em>aggressive</a> a=
+bout utility tokens. Again,=C2=A0the general rule is that a security is =E2=
+=80=9Cthe investment of money in a common enterprise with a reasonable expe=
+ctation of profits to be derived from the efforts of others=E2=80=9D; Ether=
+ kind of is and kind of isn=E2=80=99t like that.</p>
+<p style=3D"margin: 16px 0;">Ethereum is <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/30539045.268773/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAxOC8w=
+Ni8xNC9iaXRjb2luLWFuZC1ldGhlcmV1bS1hcmUtbm90LXNlY3VyaXRpZXMtYnV0LXNvbWUtY3J=
+5cHRvY3VycmVuY2llcy1tYXktYmUtc2VjLW9mZmljaWFsLXNheXMuaHRtbA/607f07ceef4b852=
+4a319a23cB186e4a24" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> not a security</a>, I am pretty sure (not le=
+gal advice!), for some combination of historical and conceptual reasons tha=
+t are not especially worth worrying about here. I don=E2=80=99t think that =
+conclusion is=C2=A0<em>entirely obvious</em>, but it does seem to be the co=
+nclusion.<a class=3D"footnote-index" href=3D"#footnote-2" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: none !important; background-col=
+or: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">But in order to <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/30539045.268773/aHR0cHM6Ly9ldGhlcmV1bS5vcmcvZW4v=
+c3Rha2luZy8/607f07ceef4b8524a319a23cCf9a290df" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> participate in vali=
+dating Ethereum transactions</a>=C2=A0and get paid staking rewards, you nee=
+d (1) 32 Ether, worth almost $50,000 at today=E2=80=99s prices, (2) some co=
+mputer hardware and (3) a certain amount of computer and crypto savvy. Not =
+everyone has all of those things. So there are various sort of pooled staki=
+ng solutions where you can take whatever Ether you have (presumably less th=
+an 32), put them in a pot with other people=E2=80=99s Ether, and collective=
+ly participate in staking to earn rewards. Here you are not necessarily doi=
+ng much directly to validate transactions or maintain the security of the E=
+thereum system =E2=80=94=C2=A0you don=E2=80=99t run the software or really =
+know how it works, etc. =E2=80=94=C2=A0but you=C2=A0<em>are=C2=A0</em>earni=
+ng, effectively, interest payments on your Ether. You have some Ether, you=
+=E2=80=99d like to earn some yield, some pooled staking service offers a 5%=
+ yield, you=E2=80=99re like =E2=80=9Cwell 5% is better than nothing,=E2=80=
+=9D you deposit your Ether and get your yield.</p>
+<p style=3D"margin: 16px 0;">Some of these pooled staking things are decent=
+ralized; there are smart contracts where you pool your Ether with other peo=
+ple and participate in staking semi-directly. Others, though, are run by bi=
+g centralized crypto companies, particularly crypto=C2=A0<em>exchanges</em>=
+. A crypto exchange is, in the general case, holding on to a lot of crypto =
+for a lot of customers. Those customers would like to earn a yield. One way=
+ to pay a yield to the customers is by taking their crypto and lending it t=
+o other customers who want to borrow it and will pay interest: This is the=
+=C2=A0<em>normal=C2=A0</em>way to earn a yield in banking, and in the world=
+ in general, but has had some bad results in crypto recently (Voyager, Cels=
+ius, BlockFi, FTX, etc.). Another way to pay a yield is for the exchanges t=
+o offer staking services.</p>
+<p style=3D"margin: 16px 0;">Is=C2=A0<em>that=C2=A0</em>a security? Here I =
+want to make four points:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">If you hand over your crypto to an ex=
+change for staking, and it promises you a yield, is that =E2=80=9Cthe inves=
+tment of money in a common enterprise with a reasonable expectation of prof=
+its to be derived from the efforts of others=E2=80=9D? I mean? Yes? The mon=
+ey is your crypto, the common enterprise is the pooled staking thing, the e=
+xpectation of profits is the yield, and the efforts of others are the work =
+that the exchange does to run the validator software. I think you could deb=
+ate some of the details, but surely the SEC is on pretty firm ground in say=
+ing that this is a security under the Howey test.</li>=09<li style=3D"margi=
+n-bottom: 5px;">If you stake your crypto through some centralized exchange=
+=E2=80=99s staking program, what sorts of disclosure <em>should</em> that e=
+xchange have to give you? I think the possible answers here are =E2=80=9Cit=
+ should give you the same disclosure about its own finances that a public c=
+ompany would give its investors in a registered securities offering,=E2=80=
+=9D or =E2=80=9Cless than that.=E2=80=9D And I think the answer comes down =
+to: With staking, are you an investor=C2=A0<em>in the exchange?=C2=A0</em>D=
+o you have economic risk to the exchange's business? If it goes bankrupt, d=
+o you automatically get your staked Ether back, or are you an unsecured cre=
+ditor in the bankruptcy, or are you not sure? I think the answer here will =
+depend on the terms of the staking program, but my guess is that a lot of t=
+he time, if you have deposited crypto with an exchange and it has turned ar=
+ound and re-deposited the crypto somewhere else to earn the yield it has pr=
+omised you, you will end up an unsecured creditor. Which means that you sho=
+uld care about the financial health of the exchange. Which means that a rea=
+sonable securities regulator would want you to have audited financial state=
+ments and other information that investors in public securities get.</li>=
+=09<li style=3D"margin-bottom: 5px;">The SEC has <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/30539045.268773/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDktMDgvbGVuZGluZy1iaXRjb2lucy1pcy10cml=
+ja3k_Y21waWQ9QkJEMDIxMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjEzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB1a0bf0c8" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  repeatedly</a> <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/30539045.268773/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDEtMTcvc2VjLWNvbWVzLWZvci1nZW1p=
+bmktdG9vLWxhdGU_Y21waWQ9QkJEMDIxMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ=
+1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjEzJnV0bV9jYW1wYWlnbj1tb25leX=
+N0dWZm/607f07ceef4b8524a319a23cD3ae7a3b1" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  argued</a> that crypto=
+=C2=A0<em>lending=C2=A0</em>programs =E2=80=94=C2=A0the other main way to g=
+et yield on the crypto you have deposited with a centralized=C2=A0exchange =
+=E2=80=94=C2=A0are securities, and has not gotten a lot of pushback; crypto=
+ lending companies have agreed to shut down or register their lending progr=
+ams. Staking is not exactly like lending, but there are certain similaritie=
+s to the naked eye. Given the SEC=E2=80=99s track record of successfully go=
+ing after lending, you might expect it to successfully go after staking.</l=
+i>=09<li style=3D"margin-bottom: 5px;">Seriously, read the first section of=
+ this column. Centralized crypto firms keep going bankrupt and losing the m=
+oney that customers have locked up with them!=C2=A0There are just so many c=
+entralized crypto entities that were like =E2=80=9Cwin economic freedom and=
+ participate in the decentralized economy of the future by trusting your cr=
+ypto to us to do decentralized things!=E2=80=9D and then lost their custome=
+rs=E2=80=99 crypto. It is a bad look! If you are a centralized crypto excha=
+nge running a staking service, and you are like =E2=80=9Cwell=C2=A0<em>we=
+=C2=A0</em>are just plopping the coins directly into Ethereum staking,=C2=
+=A0<em>we=E2=80=99re=C2=A0</em>not doing anything shady,=C2=A0<em>we=E2=80=
+=99ve=C2=A0</em>never lost any customer money=E2=80=9D=C2=A0=E2=80=94=C2=A0=
+that might be totally true but nobody wants to hear it anymore!</li>
+</ol>
+<p style=3D"margin: 16px 0;">Anyway last week=C2=A0<a href=3D"https://link.=
+mail.bloombergbusiness.com/click/30539045.268773/aHR0cHM6Ly93d3cuc2VjLmdvdi=
+9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMy0yNQ/607f07ceef4b8524a319a23cBc5ffe633" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> the SEC shut down Kraken=E2=80=99s staking service</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission [Thursd=
+ay] charged Payward Ventures, Inc. and Payward Trading Ltd., both commonly =
+known as Kraken, with failing to register the offer and sale of their crypt=
+o asset staking-as-a-service program, whereby investors transfer crypto ass=
+ets to Kraken for staking in exchange for advertised annual investment retu=
+rns of as much as 21 percent.</p>
+<p style=3D"margin: 16px 0;">To settle the SEC=E2=80=99s charges, the two K=
+raken entities agreed to immediately cease offering or selling securities t=
+hrough crypto asset staking services or staking programs and pay $30 millio=
+n in disgorgement, prejudgment interest, and civil penalties.</p>
+<p style=3D"margin: 16px 0;">According to the SEC=E2=80=99s complaint, sinc=
+e 2019, Kraken has offered and sold its crypto asset =E2=80=9Cstaking servi=
+ces=E2=80=9D to the general public, whereby Kraken pools certain crypto ass=
+ets transferred by investors and stakes them on behalf of those investors. =
+Staking is a process in which investors lock up =E2=80=93 or =E2=80=9Cstake=
+=E2=80=9D =E2=80=93 their crypto tokens with a blockchain validator with th=
+e goal of being rewarded with new tokens when their staked crypto tokens be=
+come part of the process for validating data for the blockchain. When inves=
+tors provide tokens to staking-as-a-service providers, they lose control of=
+ those tokens and take on risks associated with those platforms, with very =
+little protection. The complaint alleges that Kraken touts that its staking=
+ investment program offers an easy-to-use platform and benefits that derive=
+ from Kraken=E2=80=99s efforts on behalf of investors, including Kraken=E2=
+=80=99s strategies to obtain regular investment returns and payouts</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWhether it=E2=80=99s through staking-=
+as-a-service, lending, or other means, crypto intermediaries, when offering=
+ investment contracts in exchange for investors=E2=80=99 tokens, need to pr=
+ovide the proper disclosures and safeguards required by our securities laws=
+,=E2=80=9D said SEC Chair Gary Gensler. =E2=80=9CToday=E2=80=99s action sho=
+uld make clear to the marketplace that staking-as-a-service providers must =
+register and provide full, fair, and truthful disclosure and investor prote=
+ction.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIn case after case, we=E2=80=99ve see=
+n the consequences when individuals and businesses tout and offer crypto in=
+vestments outside of the protections provided by the federal securities law=
+s: investors lack the disclosures they deserve and are harmed when they don=
+=E2=80=99t receive them,=E2=80=9D said Gurbir S. Grewal, Director of the SE=
+C=E2=80=99s Division of Enforcement. =E2=80=9CToday, we take another step i=
+n protecting retail investors by shutting down this unregistered crypto sta=
+king program, through which Kraken not only offered investors outsized retu=
+rns untethered to any economic realities, but also retained the right to pa=
+y them no returns at all. All the while, it provided them zero insight into=
+, among other things, its financial condition and whether it even had the m=
+eans of paying the marketed returns in the first place.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CIn case after case, we=E2=80=99ve see=
+n the consequences when individuals and businesses tout and offer crypto in=
+vestments outside of the protections provided by the federal securities law=
+s=E2=80=9D: That=E2=80=99s something the SEC can say now, after the bitter =
+experience of 2022.=C2=A0<em>Kraken=C2=A0</em>hasn=E2=80=99t lost any custo=
+mer money, but enough crypto companies have that the SEC is emboldened.</p>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/30539045.268773/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9u=
+L2NvbXBsYWludHMvMjAyMy9jb21wLXByMjAyMy0yNS5wZGY/607f07ceef4b8524a319a23cB53=
+9939eb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> the complaint</a>. It mentions, among other things, the so=
+rts of disclosures that public securities investors get that staking invest=
+ors don=E2=80=99t:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The absence of any registration statement mean=
+s that investors have lacked material information about the Kraken Staking =
+Program. Missing material information includes, but is not limited to, the =
+business and financial condition of Defendants, the fees charged by Defenda=
+nts, the extent of Defendants=E2=80=99 profits, and specific and detailed r=
+isks of the investment, including how Defendants determine to stake investo=
+r tokens or purportedly hold them in reserve and the extent of these purpor=
+ted liquidity reserves, or whether tokens are put to some other use. Invest=
+ors have had no insight into Defendants=E2=80=99 financial condition and wh=
+ether Defendants=C2=A0have the means of paying the marketed returns=E2=80=
+=94and indeed, per the Kraken Terms of Service, Defendants retain the right=
+ not to pay any investor return. Defendants have disclosed only the informa=
+tion that they wish, not the information required by law. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Investors put their crypto assets at risk as p=
+art of the Kraken Staking Program. Defendants have control over all the cry=
+pto assets invested in the Kraken Staking Program and choose when and how t=
+o use them. (As explained above, Defendants do not actually stake all crypt=
+o assets received from investors.) Moreover, according to the Kraken Terms =
+of Service, these crypto assets may be encumbered by Kraken=E2=80=99s credi=
+tors.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">That doesn=E2=80=99t exactly say =E2=80=9Cif y=
+ou stake with Kraken you are an unsecured creditor,=E2=80=9D but it at leas=
+t hints that investors should care about Kraken=E2=80=99s financial conditi=
+on, and don=E2=80=99t get any information about it.<a class=3D"footnote-ind=
+ex" href=3D"#footnote-3" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: none !important; background-color: transparent !important; displ=
+ay: inline-block;">
+<span>[3]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">SEC Chair Gary Gensler gave a <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/30539045.268773/aHR0cHM6Ly93d3cuY2=
+5iYy5jb20vdmlkZW8vMjAyMy8wMi8xMC9zaG9ydC1zZWMtY2hhaXItZ2Vuc2xlci1oZXJlcy13a=
+Hktd2UtY3JhY2tlZC1kb3duLW9uLWtyYWtlbi5odG1s/607f07ceef4b8524a319a23cB4e1f2f=
+69" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> strange television interview</a> after this enforcement actio=
+n, minimizing the burden of the US securities registration system. =E2=80=
+=9CIt=E2=80=99s just a form on our website,=E2=80=9D Gensler said, which is=
+ surely news to the public companies that spend millions of dollars a year =
+on public-company securities-law compliance.<a class=3D"footnote-index" hre=
+f=3D"#footnote-4" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: none !important; background-color: transparent !important; display: inl=
+ine-block;">
+<span>[4]</span>
+</a>=C2=A0There is a <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/30539045.268773/aHR0cHM6Ly90d2l0dGVyLmNvbS9vaGFpb20vc3RhdHVzLzE2MjQ1MzQ5=
+OTgwNjkwMDYzMzc/607f07ceef4b8524a319a23cB68122499" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> widespread view=
+</a> in the crypto industry that it is basically=C2=A0<em>impossible=C2=A0<=
+/em>to register crypto offerings as securities, that the existing US securi=
+ties laws are not written for crypto projects and the SEC is not flexible a=
+bout adapting them, so that saying a crypto offering is a security is equiv=
+alent to banning it. I am <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/30539045.268773/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjItMDktMDgvZ2FyeS1nZW5zbGVyLXdhbnRzLXRvLXJlZ3VsYXRlLWNyeXB0bz9jbX=
+BpZD1CQkQwMjEzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c=
+2xldHRlciZ1dG1fdGVybT0yMzAyMTMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b=
+8524a319a23cC17f44d29" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">  broadly sympathetic</a> to this view =E2=
+=80=94 a lot of crypto stuff=C2=A0<em>is=C2=A0</em>decentralized and so har=
+d to fit into traditional securities disclosure =E2=80=94=C2=A0though I kin=
+d of think that, in=C2=A0<em>this=C2=A0</em>case, you could find a way to r=
+egister a centralized crypto staking product? It=E2=80=99s, like, a variabl=
+e-interest note of a company? You could probably register it? But you=E2=80=
+=99d need the exchange to be a public company and release audited financial=
+s? I don=E2=80=99t think that releasing audited financials would cure all o=
+f the problems that centralized crypto saw in the last year =E2=80=94=C2=A0=
+Voyager was a public company with public financials, and it=E2=80=99s bankr=
+upt =E2=80=94=C2=A0but I think it would have helped. There were a lot of ce=
+ntralized crypto companies that raised a lot of money without publishing mu=
+ch financial information, and eventually they went bankrupt and published t=
+heir financials, and they were horrific. If people had seen the horrific fi=
+nancials first, they might have trusted less money to <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/30539045.268773/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMTQvZnR4LXMtYmFsYW5jZS1zaGVldC=
+13YXMtYmFkP2NtcGlkPUJCRDAyMTMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX=
+3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIxMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVm=
+Zg/607f07ceef4b8524a319a23cC6e90a1ee" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">  FTX</a> and <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/30539045.268773/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDEtMzEvbWF0dC1sZXZpbmUtam9o=
+bnNvbi1qb2huc29uLXMtam5qLWJhbmtydXB0Y3ktZGlkbi10LXdvcms_Y21waWQ9QkJEMDIxMzI=
+zX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3=
+Rlcm09MjMwMjEzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB65c=
+49c23" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">  Celsius Network Ltd.</a>, and that might have been a good =
+thing, and the SEC knows it.</p>
+<p style=3D"margin: 16px 0;">SEC Commissioner <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/30539045.268773/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXd=
+zL3N0YXRlbWVudC9wZWlyY2Utc3RhdGVtZW50LWtyYWtlbi0wMjA5MjM/607f07ceef4b8524a3=
+19a23cB896983a1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> Hester Peirce dissented</a> from the Kraken enfor=
+cement action:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">We have known about crypto staking programs fo=
+r a long time. Although it may not have made a difference, I should have ca=
+lled for us to put out guidance on staking long before now. Instead of taki=
+ng the path of thinking through staking programs and issuing guidance, we a=
+gain chose to speak through an enforcement action, purporting to =E2=80=9Cm=
+ake clear to the marketplace that staking-as-a-service providers must regis=
+ter and provide full, fair, and truthful disclosure and investor protection=
+.=E2=80=9D Using enforcement actions to tell people what the law is in an e=
+merging industry is not an efficient or fair way of regulating. Moreover, s=
+taking services are not uniform, so one-off enforcement actions and cookie-=
+cutter analysis does not cut it.</p>
+<p style=3D"margin: 16px 0;">Most concerning, though, is that our solution =
+to a registration violation is to shut down entirely a program that has ser=
+ved people well. The program will no longer be available in the United Stat=
+es, and Kraken is enjoined from ever offering a staking service in the Unit=
+ed States, registered or not. A paternalistic and lazy regulator settles on=
+ a solution like the one in this settlement: do not initiate a public proce=
+ss to develop a workable registration process that provides valuable inform=
+ation to investors, just shut it down.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Again, I have <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/30539045.268773/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjItMDktMTMvY3J5cHRvLXdhbnRzLXNvbWUtc2VjLXJ1bGVzP=
+2NtcGlkPUJCRDAyMTMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1u=
+ZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIxMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ce=
+ef4b8524a319a23cB68998842" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">  some general sympathy</a> for that vie=
+wpoint. But it is February 2023! The demand for =E2=80=9Ca public process t=
+o develop a workable registration process=E2=80=9D for centralized crypto i=
+nvestments has gone down considerably; the demand for just shutting them do=
+wn has gone up.</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0zMDUzOTA0NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4MDc4MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cJ49db625f" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D30539045&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30807818&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Stablecoins</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The standard way that a stablecoin works is:</=
+p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">There is some crypto entity, the stab=
+lecoin issuer.</li>=09<li style=3D"margin-bottom: 5px;">Regular people give=
+ it their dollars.</li>=09<li style=3D"margin-bottom: 5px;">It gives them b=
+ack a stablecoin, a crypto receipt saying=C2=A0=E2=80=9Cwe owe you one doll=
+ar=E2=80=9D that can be used as a dollar on some crypto blockchain.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Is that a security? I actually think the answe=
+r is=C2=A0<em>no</em>; that to me reads like it is=C2=A0<em>not</em> =E2=80=
+=9Cthe investment of money in a common enterprise with a reasonable expecta=
+tion of profits to be derived from the efforts of others.=E2=80=9D=C2=A0(Th=
+ere is no expectation of profit.<a class=3D"footnote-index" href=3D"#footno=
+te-5" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !im=
+portant; background-color: transparent !important; display: inline-block;">
+<span>[5]</span>
+</a>) But that is just my opinion,=C2=A0and this is close enough to being <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDktMDQvcHV0LX=
+RoZS1tb25leS1mdW5kLW9uLXRoZS1ibG9ja2NoYWluP2NtcGlkPUJCRDAyMTMyM19NT05FWVNUV=
+UZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDIx=
+MyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBe1178e25" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">  a money-market mutual fund</a> (a security!) that a lot of people thin=
+k the answer is yes.</p>
+<p style=3D"margin: 16px 0;">Also, consider what I said above about what so=
+rt of disclosure you would want:=C2=A0If you give your dollars to a central=
+ized stablecoin issuer,=C2=A0what sorts of disclosure should that issuer ha=
+ve to give you? Is the answer =E2=80=9Cit should give you the same disclosu=
+re about its own finances that a public company would give its investors in=
+ a registered securities offering,=E2=80=9D or is it =E2=80=9Cnothing=E2=80=
+=9D? You are pretty clearly an unsecured creditor of the stablecoin issuer,=
+<a class=3D"footnote-index" href=3D"#footnote-6" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: none !important; background-color: trans=
+parent !important; display: inline-block;">
+<span>[6]</span>
+</a>=C2=A0and if the stablecoin issuer is in fact stealing all the dollars =
+=E2=80=94=C2=A0or investing them in risky ventures, etc. =E2=80=94=C2=A0the=
+n that is bad for you and you=E2=80=99d want to know about it. In fact ther=
+e is a history of stablecoin issuers being <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/30539045.268773/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2=
+xlcy90ZXRoZXItc2F5cy1hdWRpdC1pcy1zdGlsbC1tb250aHMtYXdheS1hcy1jcnlwdG8tbWFya=
+2V0LWZhbHRlcnMtMTE2NjE1Njg5NzE/607f07ceef4b8524a319a23cB108a4a2a" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ comically bad at releasing audited financials</a>, and sometimes <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDQtMjYvdGhpbmdzLWdv=
+dC13ZWlyZC1mb3Itc3RhYmxlY29pbi10ZXRoZXI_Y21waWQ9QkJEMDIxMzIzX01PTkVZU1RVRkY=
+mdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjEzJn=
+V0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBcbf2be79" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  not being as fully backed by safe assets</a> as you might like.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Also, again, I think it should be relatively e=
+asy to register a stablecoin with the SEC.=C2=A0This is not some decentrali=
+zed autonomous=C2=A0project with characteristics totally different from reg=
+ular securities offerings.=C2=A0It=E2=80=99s just a money-market mutual fun=
+d, and people register those all the time.</p>
+<p style=3D"margin: 16px 0;">So might the SEC conclude that centralized sta=
+blecoins are securities that need to register with the SEC and publish audi=
+ted financials? Sure, I dunno, <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/30539045.268773/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jcnlwdG=
+8tZmlybS1wYXhvcy1mYWNlcy1zZWMtbGF3c3VpdC1vdmVyLWJpbmFuY2UtdXNkLXRva2VuLTgwM=
+zFlN2E3/607f07ceef4b8524a319a23cB95d42e59" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> maybe, who knows</a>:</=
+p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission has tol=
+d crypto firm Paxos Trust Co. that it plans to sue the company for violatin=
+g investor protection laws, according to people familiar with the matter, t=
+he latest move in the agency=E2=80=99s escalating campaign in crypto enforc=
+ement.</p>
+<p style=3D"margin: 16px 0;">The SEC=E2=80=99s enforcement staff issued a l=
+etter to Paxos known as a Wells notice, which the agency uses to inform com=
+panies and individuals of a possible enforcement action, according to the p=
+eople.</p>
+<p style=3D"margin: 16px 0;">The notice alleges that Binance USD, a digital=
+ asset that Paxos issues and lists, is an unregistered security, according =
+to the people.</p>
+<p style=3D"margin: 16px 0;">BUSD is a Binance-branded stablecoin pegged to=
+ the dollar on a one-to-one ratio. Binance and Paxos announced the partners=
+hip to launch it in 2019. The Paxos-run digital asset exchange, itBit, also=
+ lists BUSD. Many other exchanges also list BUSD.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Again this feels like a very February 2023 mov=
+e. In <a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268=
+773/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jcnlwdG8tZmlybS1wYXhvcy10by1zdG9=
+wLWlzc3VpbmctZG9sbGFyLXBlZ2dlZC1iaW5hbmNlLXRva2VuLTk0ZjY1ZTUy/607f07ceef4b8=
+524a319a23cB3572fcac" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> other BUSD news</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">New York regulators directed a crypto company =
+to stop issuing one of the largest dollar-pegged cryptocurrencies, as a gov=
+ernment clampdown on the sector widens.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The New York Department of Financial Services =
+ordered Paxos Trust Co., which issues and lists Binance=E2=80=99s dollar-pe=
+gged cryptocurrency, to stop creating more of its BUSD token, Binance said =
+in a statement. Paxos will continue to manage redemptions of the product, t=
+he crypto exchange added. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">New York=E2=80=99s financial regulator found t=
+hat Paxos failed to conduct periodic risk assessments and due diligence of =
+Binance and customers holding BUSD issued by Paxos, according to a person f=
+amiliar with the matter. The department ordered Paxos to stop issuing BUSD =
+after it failed to address those and other deficiencies, the person said.=
+=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/30539045.268773/aHR0cHM6Ly93d3cuZGZzLm55Lmdvdi9jb25zdW1l=
+cnMvYWxlcnRzL1BheG9zX2FuZF9CaW5hbmNl/607f07ceef4b8524a319a23cB4e40ca80" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> the DFS consumer alert</a>, saying that =E2=80=9CDFS has ordered Paxo=
+s to cease minting Paxos-issued BUSD as a result of several unresolved issu=
+es related to Paxos=E2=80=99 oversight of its relationship with Binance in =
+regard to Paxos-issued BUSD.=E2=80=9D Paxos is a trust company supervised b=
+y the DFS, and it is required to have enough assets to fully back its BUSD =
+coin, so I don=E2=80=99t think that this is a statement about the investmen=
+t risk of BUSD. But it certainly is a statement that regulators are less sy=
+mpathetic than they used to be.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Yacht tax</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Here=E2=80=99s a trade I guess?</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You have a yacht you don=E2=80=99t wa=
+nt. It is worth $1.3 million.</li>=09<li style=3D"margin-bottom: 5px;">You =
+would like to get more than $1.3 million from it.</li>=09<li style=3D"margi=
+n-bottom: 5px;">You donate=C2=A0it to charity. The charity gives you a rece=
+ipt saying that the yacht is worth $4.9 million. You take a $4.9 million ta=
+x deduction, which is worth about $2 million given your tax rate =E2=80=94=
+=C2=A0more than the yacht was worth if you had sold it.</li>=09<li style=3D=
+"margin-bottom: 5px;">The charity sells the yacht=C2=A0<em>to your lawyers=
+=C2=A0</em>for $4.9 million, though they pay in the form of a $4.9 million =
+promissory note rather than cash.</li>=09<li style=3D"margin-bottom: 5px;">=
+The charity=C2=A0<em>assigns the promissory note to your lawyers</em>, mean=
+ing that they basically owe themselves the $4.9 million.</li>=09<li style=
+=3D"margin-bottom: 5px;">The lawyers sell the yacht for $1.3 million and gi=
+ve the charity a 10% fee for its trouble.</li>
+</ol>
+<p style=3D"margin: 16px 0;">The result is that you get a tax deduction wor=
+th $2 million, the charity gets $130,000, and the lawyers get the rest of t=
+he value of the yacht.=C2=A0This shouldn=E2=80=99t work, and it doesn=E2=80=
+=99t work, but it=E2=80=99s funny to think about. A good pressure point in =
+the tax code is the charitable deduction for non-cash assets: If you have s=
+ome unique non-traded asset (art, yacht, etc.), you can donate it to charit=
+y and deduct the market value of the asset, and if there is no market value=
+ then you and the charity have some leeway to make it up. You want the valu=
+e to be high (so you get a bigger deduction), and the charity doesn=E2=80=
+=99t care (it isn=E2=80=99t <em>paying </em>the made-up price), so there ar=
+e incentives to make up a big number. The IRS knows this and tries to crack=
+ down by requiring appraisals, etc., but if you can generate what looks lik=
+e a market transaction at the made-up price, I guess that helps. But if you=
+ generate what looks like a fake transaction, it doesn=E2=80=99t.</p>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/30539045.268773/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90=
+aGVzZS1taWxsaW9uYWlyZXMtdHJpZWQtdHVybmluZy1hLXlhY2h0LWludG8tYS10YXgtYnJlYWs=
+tdGhlLWlycy1zYW5rLXRoZWlyLXBsYW4tYWRiNTMzYjc_bW9kPWl0cF93c2omcnU9eWFob28/60=
+7f07ceef4b8524a319a23cBfe56578d" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> a Wall Street Journal article</a>=
+ about some pyramid-scheme moguls (=E2=80=9CHe dismissed claims that his bu=
+siness was a pyramid scheme, instead saying it was a =E2=80=98dimaryp=E2=80=
+=99=E2=80=94pyramid spelled backward=E2=80=9D) who tried this and =E2=80=9C=
+ended up paying $3.5 million in taxes and penalties.=E2=80=9D They=E2=80=99=
+re suing the lawyers.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">DeSantis Proposes <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/30539045.268773/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMTMvZGVzYW50aXMtcHJvcG9zZXMtYmFycmluZy1lc=
+2ctaW4tZmxvcmlkYS1tdW5pY2lwYWwtYm9uZC1zYWxlcz9jbXBpZD1CQkQwMjEzMjNfTU9ORVlT=
+VFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA=
+yMTMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB501953e4" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">  Barring ESG Criteria</a> in Florida Muni-Bond Sales. Adani Shock Rip=
+s Through <a href=3D"https://link.mail.bloombergbusiness.com/click/30539045=
+.268773/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMTM=
+vYWRhbmktc2hvY2stcmlwcy10aHJvdWdoLWVzZy1mdW5kcy1hcy1zdHJhdGVneS1mYWlscy1sYX=
+Rlc3QtdGVzdD9jbXBpZD1CQkQwMjEzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAyMTMmdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cBe0a03783" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  ESG Funds</a> as Strategy =
+Fails Test. Goldman CEO tells partners he <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/30539045.268773/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQ=
+vZDUwMTZiMGMtOTBmMi00ZWMxLWEwNDktMmZkM2QxNjM3NWJi/607f07ceef4b8524a319a23cB=
+88074190" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> should have cut jobs earlier</a>.=C2=A0Google <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/30539045.268773/aHR0cHM6Ly93=
+d3cudGhlaW5mb3JtYXRpb24uY29tL2FydGljbGVzL2dvb2dsZS1taXNjYWxjdWxhdGVzLXN0b2N=
+rLXNldmVyYW5jZS1hcG9sb2dpemVzLXRvLWxhaWQtb2ZmLXdvcmtlcnM_dXRtX2NhbXBhaWduPU=
+F1dG9tYXRlZCtGYWxsYmFjaytSJnV0bV9jb250ZW50PTg5JnV0bV9tZWRpdW09ZW1haWwmdXRtX=
+3NvdXJjZT1jaW8mdXRtX3Rlcm09MTkmcmM9MWJkaTVo/607f07ceef4b8524a319a23cBef5240=
+3b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Miscalculates Stock Severance</a>, Apologizes to Laid-Off Wor=
+kers.=C2=A0Blackstone=E2=80=99s Big New Idea <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/30539045.268773/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRp=
+Y2xlcy9ibGFja3N0b25lcy1iaWctbmV3LWlkZWEtbGVhdmVzLWl0LWJydWlzZWQtZDY2ZGUzNjE=
+_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cBdda42e5d" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Le=
+aves It Bruised</a>.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/30539045.268773/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9ncmFwaGljcy8yMDI=
+zLW1hbmhhdHRhbi13b3JrLWZyb20taG9tZS8_Y21waWQ9QkJEMDIxMzIzX01PTkVZU1RVRkYmdX=
+RtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjEzJnV0b=
+V9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB7c8a3528" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">  Re=
+mote Work</a> Is Costing Manhattan More Than $12 Billion a Year. Bergdorf=
+=E2=80=99s, Central Park: <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/30539045.268773/aHR0cHM6Ly93d3cudGhlZ3VhcmRpYW4uY29tL3VzLW5ld3MvMjA=
+yMy9mZWIvMDkvZmxhY28tb3dsLWNlbnRyYWwtcGFyay16b28tbmV3LXlvcmstYmVyZ2RvcmZzP0=
+NNUD1TaGFyZV9pT1NBcHBfT3RoZXI/607f07ceef4b8524a319a23cB2ddd5368" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Flaco the escaped owl</a> takes a tour of Manhattan. Bourbon <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/30539045.268773/aHR0cHM6Ly93d3c=
+ubnl0aW1lcy5jb20vMjAyMy8wMi8xMC91cy9vcmVnb24tb2xjYy1wYXBweS12YW4td2lua2xlLW=
+JvdXJib24uaHRtbD9zZWFyY2hSZXN1bHRQb3NpdGlvbj0y/607f07ceef4b8524a319a23cB273=
+4bf3f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> insider trading</a>. =E2=80=9CBy dating a banker, I got the=
+ best of both worlds. I hardly saw him, so I still got to go out with my ow=
+n friends, but <a href=3D"https://link.mail.bloombergbusiness.com/click/305=
+39045.268773/aHR0cHM6Ly93d3cuZWZpbmFuY2lhbGNhcmVlcnMuY28udWsvbmV3cy8yMDIzLz=
+AyL2RhdGluZy1hLWJhbmtlcg/607f07ceef4b8524a319a23cB6d9d959b" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> we tex=
+ted a lot</a>.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30539045.268773/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB618c59d6" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30539045.268773/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB7b9dd382" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] My own view is that the legal argument was=
+ always pretty good: Under longstanding US law, it sure does seem that most=
+ crypto tokens are securities. But pre-FTX, crypto people could go around s=
+aying =E2=80=9Cthe SEC is relying on outdated legal doctrines that don=E2=
+=80=99t fit the innovative modern crypto economy,=E2=80=9D and that had som=
+e appeal; it has so much less appeal now.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] In particular, Ethereum's founders *sold* =
+Ether tokens, before Ethereum was live, to finance building out the system.=
+ That sounds a whole lot like a securities offering, and the SEC has <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMTAtMTQvdGhlLXNlYy1=
+yZWFsbHktZG9lc24tdC1saWtlLWljb3M_Y21waWQ9QkJEMDIxMzIzX01PTkVZU1RVRkYmdXRtX2=
+1lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMjEzJnV0bV9jY=
+W1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBcfe75fbf" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">  halted=
+ very similar offerings</a> in recent years. I suspect if Ethereum did that=
+ *today*, instead of in 2014, the SEC would have objections. I <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/30539045.268773/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9mZWF0dXJlcy8yMDIyLXRoZS1jcnlwdG8tc3RvcnkvP2NtcGlkPUJCR=
+DAyMTMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVy=
+JnV0bV90ZXJtPTIzMDIxMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZiNhLWRpc3RyaWJ1dGVkLWN=
+vbXB1dGVy/607f07ceef4b8524a319a23cC1a70331f" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">once wrote that</a> =
+=E2=80=9Cthere=E2=80=99s a sense in which this sale=E2=80=94the Ether =E2=
+=80=98pre-mine,=E2=80=99 or =E2=80=98initial coin offering=E2=80=99 (ICO)=
+=E2=80=94was the original sin of crypto as a financing tool,=E2=80=9D and I=
+ bet the SEC thinks that too.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] There are also hints that just staking you=
+r own Ether doesn=E2=80=99t make Ethereum a security: It=E2=80=99s Kraken=
+=E2=80=99s centralized offering of staking as a service that makes this a p=
+ooled investment relying on the efforts of others, not the staking rewards =
+themselves. See, e.g., paragraph 39: =E2=80=9CThe Kraken Staking Program ha=
+s several features that differentiate it from staking and earning rewards o=
+n your own,=E2=80=9D etc.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Kraken=E2=80=99s former CEO, Jesse Powell,=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/a=
+HR0cHM6Ly90d2l0dGVyLmNvbS9qZXNwb3cvc3RhdHVzLzE2MjQxNzc1ODgwNzQ4NDgyNTY/607f=
+07ceef4b8524a319a23cB3c1ef908" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> tweeted</a>: =E2=80=9COh man, all I=
+ had to do was fill out a form on a website and tell people that staking re=
+wards come from staking? Wish I'd seen this video before paying a $30m fine=
+ and agreeing to permanently shut down the service in the US. How dumb do I=
+ look. Gosh.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] One weird fact about stablecoins is that t=
+hey =E2=80=94 and crypto =E2=80=94 grew up largely in a low-interest-rate e=
+nvironment, and it is just sort of the norm that stablecoin issuers do not =
+pay interest. Of course they *earn* interest =E2=80=94 they keep the dollar=
+s in bank accounts or Treasury bills or whatever =E2=80=94 but they don=E2=
+=80=99t pass it on to holders of the coins; the issuer just keeps the inter=
+est. This is weird and lucrative but also a good argument against being a s=
+ecurity. One possibility is that SEC suspicion of stablecoins will *prevent=
+* stablecoin issuers from ever paying interest, making the business more lu=
+crative.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] Actually there is some weirdness around re=
+demption, and it=E2=80=99s not obvious that every stablecoin owner is a dir=
+ect creditor of the issuer. But you are certainly economically exposed to t=
+he issuer=E2=80=99s finances if you own its stablecoins.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB9052feee" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBf2b8f3c8" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBdcdc1a57" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBfd32ac2b" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0zMDUzOTA0NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA4MDc4MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cK99e3bba3" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D30539045&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30807818&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBb5d4a7f1" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30539045.268773/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC1be7f56d" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30539045.268773/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBf0afdc64" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30539045.268773/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB9668c30c" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBf=
+7302d1c" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30539045.268773/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB2=
+70d5369" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D305390=
+45&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30807818&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D305390=
+45&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30807818&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D305390=
+45&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30807818&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D305390=
+45&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30807818&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D305390=
+45&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30807818&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ci6k2t.5rdx/950c232a.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_70095314_2024425694.1676316714300--
+

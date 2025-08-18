@@ -23,6 +23,8 @@ from helpers.metadata_manager import ContentType
 from helpers.path_manager import PathType
 from helpers.dedupe import link_uid
 from helpers.utils import log_info, log_error
+from helpers.transcript_parser import TranscriptParser
+from helpers.transcript_search_indexer import TranscriptSearchIndexer
 from modules.podcasts.cli import AtlasPodCLI
 from modules.podcasts.store import PodcastStore
 
@@ -48,6 +50,8 @@ class PodcastTranscriptIngestor(BaseIngestor):
         super().__init__(config, ContentType.PODCAST, "podcast_transcript_ingestor")
         self.atlas_pod_cli = AtlasPodCLI()
         self.atlas_pod_cli.init_store()
+        self.transcript_parser = TranscriptParser()
+        self.search_indexer = TranscriptSearchIndexer()
         
     def discover_and_process_transcripts(self, podcast_slugs: List[str] = None):
         """
@@ -179,6 +183,39 @@ class PodcastTranscriptIngestor(BaseIngestor):
                 
         return transcript_files
     
+    def _parse_transcript_content(self, content: str, metadata: Dict[str, Any]) -> Dict[str, Any]:
+        """Parse transcript content into structured data using TranscriptParser"""
+        try:
+            # Create parser metadata
+            parser_metadata = {
+                'episode_title': metadata.get('title'),
+                'podcast_name': metadata.get('podcast'),
+                'episode_url': metadata.get('episode_url'),
+                'duration': metadata.get('duration'),
+                'publish_date': metadata.get('publish_date')
+            }
+            
+            # Parse the transcript
+            parsed_result = self.transcript_parser.parse_transcript(content, parser_metadata)
+            
+            log_info(self.log_path, 
+                f"📝 Parsed transcript: {len(parsed_result.get('segments', []))} segments, "
+                f"{len(parsed_result.get('speakers', []))} speakers, "
+                f"quality: {parsed_result.get('parse_quality', 'unknown')}")
+            
+            return parsed_result
+            
+        except Exception as e:
+            log_error(self.log_path, f"Error parsing transcript content: {e}")
+            # Return minimal structure on error
+            return {
+                'speakers': [],
+                'segments': [],
+                'topics': [],
+                'parse_quality': 'failed',
+                'error': str(e)
+            }
+    
     def _process_transcript_file(self, transcript_file: Path) -> bool:
         """Process individual transcript markdown file through Atlas"""
         try:
@@ -197,14 +234,17 @@ class PodcastTranscriptIngestor(BaseIngestor):
                 log_error(self.log_path, f"Transcript too short or empty: {transcript_file}")
                 return False
             
+            # Parse transcript content into structured data
+            parsed_transcript = self._parse_transcript_content(content, metadata)
+            
             # Create Atlas-compatible metadata
-            atlas_metadata = self._create_atlas_metadata(metadata, transcript_file)
+            atlas_metadata = self._create_atlas_metadata(metadata, transcript_file, parsed_transcript)
             
             # Generate unique ID for deduplication
             unique_id = link_uid(metadata.get('episode_url', str(transcript_file)))
             
             # Use existing Atlas processing pipeline
-            success = self.process_content(content, atlas_metadata, unique_id)
+            success = self.process_content(content, atlas_metadata, unique_id, parsed_transcript)
             
             if success:
                 log_info(self.log_path, f"✅ Processed transcript: {metadata.get('title', transcript_file.name)}")
@@ -218,7 +258,7 @@ class PodcastTranscriptIngestor(BaseIngestor):
             return False
     
     def _create_atlas_metadata(self, transcript_metadata: Dict[str, Any], 
-                              transcript_file: Path) -> Dict[str, Any]:
+                              transcript_file: Path, parsed_transcript: Dict[str, Any] = None) -> Dict[str, Any]:
         """Convert transcript metadata to Atlas format"""
         
         # Extract podcast info from path
@@ -239,6 +279,14 @@ class PodcastTranscriptIngestor(BaseIngestor):
             'transcript_file': str(transcript_file)
         }
         
+        # Add parsed transcript data if available
+        if parsed_transcript:
+            atlas_metadata['parsed_transcript'] = parsed_transcript
+            atlas_metadata['speakers'] = parsed_transcript.get('speakers', [])
+            atlas_metadata['parse_quality'] = parsed_transcript.get('parse_quality', 'unknown')
+            atlas_metadata['segment_count'] = len(parsed_transcript.get('segments', []))
+            atlas_metadata['topic_count'] = len(parsed_transcript.get('topics', []))
+        
         # Add type-specific metadata for podcasts
         atlas_metadata['type_specific'] = {
             'podcast_name': atlas_metadata['podcast_name'],
@@ -253,7 +301,7 @@ class PodcastTranscriptIngestor(BaseIngestor):
         
         return atlas_metadata
     
-    def process_content(self, content: str, metadata: Dict[str, Any], unique_id: str) -> bool:
+    def process_content(self, content: str, metadata: Dict[str, Any], unique_id: str, parsed_transcript: Dict[str, Any] = None) -> bool:
         """Process transcript content through Atlas pipeline"""
         try:
             # Use path manager to get file paths
@@ -280,6 +328,26 @@ class PodcastTranscriptIngestor(BaseIngestor):
             
             # Save raw data for preservation
             self.save_raw_data(metadata, meta, "transcript_metadata")
+            
+            # Save parsed transcript data if available
+            if parsed_transcript:
+                self.save_raw_data(parsed_transcript, meta, "parsed_transcript")
+                
+                # Index parsed transcript for enhanced search
+                try:
+                    search_metadata = {
+                        'title': metadata['title'],
+                        'podcast_name': metadata['podcast_name'],
+                        'episode_url': metadata['source'],
+                        'publish_date': metadata.get('publish_date')
+                    }
+                    
+                    self.search_indexer.index_transcript_content(unique_id, parsed_transcript, search_metadata)
+                    log_info(self.log_path, f"✅ Indexed transcript for enhanced search: {meta.title}")
+                    
+                except Exception as e:
+                    log_error(self.log_path, f"Error indexing transcript for search: {e}")
+                    # Don't fail the whole process if search indexing fails
             
             # Generate summary if enabled
             if self.config.get('generate_summaries', True):

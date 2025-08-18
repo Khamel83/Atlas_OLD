@@ -1,0 +1,2138 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:60d:b029:116:5c91:524e with SMTP id gq13csp6710314lkb;
+        Thu, 29 Jul 2021 10:16:34 -0700 (PDT)
+X-Received: by 2002:a17:907:1c9b:: with SMTP id nb27mr4022961ejc.226.1627578993679;
+        Thu, 29 Jul 2021 10:16:33 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1627578993; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=C2LIdn8buOiiRttLTbN2/B+DtH9f2pMAs2WCbTmnaqpFLDFIXzxQ9YjFBihRdD48Zm
+         ORp9sRnXHWMS4AcZmn9Rh1x87hEskRZ5tIxJjh0uOoxB7JAt2qzUDD50HU1R5tO8+7gL
+         zzvaSfrLF+ZWEL4ks+JwMwRosOTL7RaogtYmxNLUEOUWmWjMjm88WSBBYEQiCBA4b0GX
+         N6ynT8E1zSEIg9pGNlyZGKjvAYjaE1mXpn4k1Ja1wR9mm4NRyG/1e/w1T31gM+B9t6Cs
+         2iKc7sE9o9iBDQjlHs9nJo4vGyXWEyeOBbPtOK4r4nxYc8rzq+21jeP4cYj7eGw242JE
+         +d2Q==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=MK4ezp4nCmfbBk4TdzgMLHa6gzY1U5HIIPVQ9LjxOHo=;
+        b=M642Oi3Xfi0a2XT8Us/tX2a4Z2fu5JMcXyC97oFXecxOJr9VjYmIDfqS+ZHKkWuOoM
+         MPVaLZgngbWcyWaK0ijwf2duOPwWJjibTROBUL4UCqHuUP+chSgTerUFn4WOdGpSMGxG
+         wU4EN3i1NXH28xlKdizayBHIAiWaCWJ2PhnJ80f72XF/2SHcJGQ1HdXCuqO20Ptg5lNg
+         5wRd0hC6m/KB/1aYtoCwgH4y0iU+nMc1L5yofTTk7b7JRhM5fFMHo7CBCgv/z3qWJj7j
+         Km74GX58b2m0/Yg8ftb/Pvk31iXcevOLQmwa79CnX00zBmwuF0XnT/PHSgb1MU3x0WA2
+         IJsQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=jMsx2UvN;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id l13sor1778332ejz.54.2021.07.29.10.16.33
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 29 Jul 2021 10:16:33 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=jMsx2UvN;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=MK4ezp4nCmfbBk4TdzgMLHa6gzY1U5HIIPVQ9LjxOHo=;
+        b=dRgUSuIAaqK1t2JY4p6ANwzjhy5OrOiU13LDcv/oGYXpxjs1aunZVTa+czxmCYY7EP
+         SNImXs6Dz+kexgX4Mvk2/6VGp+bjCkoeHndKgwzjP7PnwHiyiIVk8sk0ksbDrCzC25Od
+         gyXJaRWO2YvOoyWOzSPwL9TKovTUPFYm3iMIbfipwxsLv3N/qf5E3avOsSQvn2vKdw1r
+         sjHN4ylQUQM87ldchj6mqzKos7qz/uOPKwMx5572lYRnkfP0cxWiDz3NRZQXqbdkvHXT
+         NoJsOWx/zCtXeb6CCFK4onVwBKQwLKHQDpxyPfp/odtE3W/j8+U3GsF3DfPxsomNGCTM
+         +WMw==
+X-Gm-Message-State: AOAM531C2F4NYhboGjZLzWjBcImnRSYPKWVlMdTeEFY99nomxEfUeYbv
+	vnhNm/w1RYNmwqraHxwCqzXaPXSG/y88UQHe+L4L9tzJmadxh/94gw==
+X-Received: by 2002:a17:907:9875:: with SMTP id ko21mr3034542ejc.83.1627578993361;
+        Thu, 29 Jul 2021 10:16:33 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:ab4:9b88:0:0:0:0:0 with SMTP id h8csp4995085ecz;
+        Thu, 29 Jul 2021 10:16:29 -0700 (PDT)
+X-Received: by 2002:a05:620a:ed3:: with SMTP id x19mr6337424qkm.22.1627578989753;
+        Thu, 29 Jul 2021 10:16:29 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1627578989; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Jr0LDyqnm/7ZiZINXrn936qXmntLSpzMY27sbS6trnQ7h6q4i6Uat5S85Xwi/aQ8aR
+         n7decgW0ua4PhbVwzlV8Hkx6C0UivtQlyuCceohQwYKGqsLKV/z+LhxB1g2gZZpDrEWe
+         Vx4EuRHGJ8f4K1Umc4pkPh4m4GPWEV24r3NPsBx80IKrF0dFvoD4M30WUXdJGW9IW6gl
+         r3VqtXNc1gHcXbofeCaYm7eZ8G40usc1VlphC1AzIHOV/G5i+H0O7LfpJGx8d+Bs4cw/
+         YUYdJXgEgC5Jri6c3uD3cw7ONjhal4Nd0HEkhUoA5A8QRRrwcZCqJB/RWVCRuemwAq2n
+         9NQg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=MK4ezp4nCmfbBk4TdzgMLHa6gzY1U5HIIPVQ9LjxOHo=;
+        b=dme7bQmgHjndeh8VrRDWTm9khVYCyVfPoff8xovUC92GNGqvODHuOCNCK9PylqNK1u
+         KvPMoD+5ql0dKAGYXf2AdlqwPOnrJ+92TJ36XPmVOt5ky9UWUU8UhiYO+qDkaU3iYWH7
+         TYmVKV9i4QHnzK6cVYpCrzLxlPs3NBOFzvwn+ujLHB1QPem9aLBfpmEyN9F26uN6b7Rl
+         CRJa/pEtv/A9XSEECI9PIQpl5Ya8L4ez7xqxapyJUL1MegLyPiTrSF6MLWn58EG5no+6
+         LHHBgd/e3iY9fGwwJYBBhoLOogdmz9+OY40uCwTRW+DYracgJ2eyoSxcQRuMlBvkscsv
+         Dzxg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=jMsx2UvN;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210729131458.24592602.260173@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210729131458.24592602.260173@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210729131458.24592602.260173@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id d16sor2918438qtd.32.2021.07.29.10.16.29
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 29 Jul 2021 10:16:29 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210729131458.24592602.260173@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJziS/bm5IcWAtjQjRUl3F7oYzHyAHE9YXDFcCVNOuCsSdop5h1cyZ7GSpk5O8ykqaHWnpG7x18qbVQ3a/ChZRW4TUelO0o=
+X-Received: by 2002:ac8:7cab:: with SMTP id z11mr5130392qtv.87.1627578989326;
+        Thu, 29 Jul 2021 10:16:29 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1627578989; cv=none;
+        d=google.com; s=arc-20160816;
+        b=D6XykIxnZ/xCmIHVvACtzl5pFo//8kaB2B696x6X6oaoJfsSQam1ORrB2TSi1WrZoX
+         is5R8ogQPHHWAMgFvxIcflaO8wrjHMF23ruJjY543a7pQZDDq/PYkVjber+/GvAXw0q9
+         767+kJHbJkMkm3pJwJ8XeaE+rPCGy8tRAVmf0NXDAMNAqPQtbJjmFMqz1s6lg51Extsp
+         WqIMhTJQovdstMfC3DxVowP5GO5MkbkSWVr9gLnzJ+BSXrN0Lf/41JZXE3cgcQ6jDlE0
+         oENkVGMUvJmHiCoCmsidYWu/Ez7yOV3Oka23iKUFF6YQErFx3SHGq6p5sFshGyKxqQaQ
+         F4DA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=MK4ezp4nCmfbBk4TdzgMLHa6gzY1U5HIIPVQ9LjxOHo=;
+        b=nppoMUCOevoHcJJNCNSTASuUaTPR4UP150MTFM+9gM020OiGjwvBs44yU/k3wr+kf/
+         Kjmc0zZlmomByXYkSXiTOYHTsFBxbp5bzhkI/ca4wVcQzlXIDwm06lzNiI7kxwkhp7pK
+         4qHd3gAAGN0W4cD5GrUefRLPaYEMiGtzbJduT41sEX670YebO9hchkOxZN7aTkUTT7pf
+         lFEiWoZb+6IWqCI8DU4PYug3AXyt4Um52JTDnW1DIXXWaTRr7ETc33BkKYp4x/9Qkcpg
+         X+Y/HXTajRbIuovJUqc2MJcl7Kvqn2ql6M16Qjj9FF6CCwLiihA+IShsI8OMvvbWrYEv
+         S2Mw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=jMsx2UvN;
+       spf=pass (google.com: domain of delivery_20210729131458.24592602.260173@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210729131458.24592602.260173@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210729131458.24592602.260173@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id s29si213072qtc.5.2021.07.29.10.16.29
+        for <khamel83@gmail.com>;
+        Thu, 29 Jul 2021 10:16:29 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210729131458.24592602.260173@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=z2tLj/uY+22RnM5MxKMXSInAuYU=;
+ b=jMsx2UvNrWeLwrdUhjcIZRSCgFFPX0rmw6jzvKyKga7AlUux8oudAeo9kZ6PirzQ+PyVkcdt/dpL
+   /OT6yoM3zC1idx0ecxAiah5khSOBL4cvYLlGP894CkTEHwP2yYwd/qE7Sy6AngcFzW2DwTqemWRq
+   2bGuOGCq33ptHq4l1J8=
+Received: from njmta-90.sailthru.com (173.228.155.90) by bloomberg-b.sailthru.com id h0bh6q1qqbs1 for <bloomberg@khamel.com>; Thu, 29 Jul 2021 13:16:28 -0400 (envelope-from <delivery_20210729131458.24592602.260173@mx.sailthru.com>)
+Received: from nj1-oddlime.flt (172.18.20.14) by njmta-90.sailthru.com id h0bh6o1qqbs3 for <bloomberg@khamel.com>; Thu, 29 Jul 2021 13:14:58 -0400 (envelope-from <delivery_20210729131458.24592602.260173@mx.sailthru.com>)
+Date: Thu, 29 Jul 2021 13:14:58 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210729131458.24592602.260173@sailthru.com>
+Subject: Money Stuff: Archegos Was Too Busy for Margin Calls
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_78280132_1208859285.1627578898491"
+Precedence: bulk
+X-Feedback-ID: 6358:24592602:campaign:sailthru
+X-TM-ID: 20210729131458.24592602.260173
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-oddlime.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cen3ru.5kr1/051fd7c3
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cen3ru.5kr1/051fd7c3>, <mailto:unsubscribe_20210729131458.24592602.260173@mx.sailthru.com>
+X-rpcampaign: stjko24592602
+
+------=_Part_78280132_1208859285.1627578898491
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+       =20
+           =20
+               =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.
+ =20
+   =20
+      Archegos
+   =20
+ =20
+One important thing that investment banks do is lend money to hedge funds t=
+o buy stocks. This is risky: If the stocks go down, the hedge fund=C2=A0mig=
+ht not repay the loans, and then the bank might lose money. So a central qu=
+estion of risk management is whether=C2=A0the hedge fund has posted enough =
+collateral =E2=80=94=C2=A0that is, that the stocks it owns are worth signif=
+icantly more than the money the bank has loaned it, so that if the stocks g=
+o down=C2=A0the bank will not lose money.One aspect of this question is: Wh=
+at is the right amount of collateral? This question can be reduced to quest=
+ions like: How much will the stocks go down in a plausible worst case? How =
+quickly can we sell the stocks, and how much more will they go down due to =
+our selling? You can look at numbers about historical and implied volatilit=
+y and=C2=A0correlations of the stocks in the portfolio, you can compare the=
+ position sizes to the stocks=E2=80=99 daily volumes, you can plug these th=
+ings into=C2=A0formulas and run scenario analyses, you can get some numbers=
+. These are well-known problems that have received a great deal of academic=
+, regulatory and practitioner attention, and you can read papers and books =
+about the best practices for figuring out the right amount of collateral.Bu=
+t another, underrated aspect of the question is: Once you know the right am=
+ount of collateral, and you call up the hedge fund to tell it to post more =
+collateral, and the hedge fund says =E2=80=9CI=E2=80=99m busy today let=E2=
+=80=99s talk tomorrow,=E2=80=9D and you call them tomorrow and they say =E2=
+=80=9Chey this week got away from me but send me an email,=E2=80=9D and you=
+ send them an email summarizing your collateral demand and call them next w=
+eek and they say =E2=80=9Coh I haven=E2=80=99t had a chance to look at your=
+ email yet but I will very soon,=E2=80=9D and meanwhile the right amount of=
+ collateral keeps ticking up =E2=80=A6=C2=A0what do you do about that? Ther=
+e is a=C2=A0theoretical=C2=A0and contractual=C2=A0answer, which is, if the =
+client doesn=E2=80=99t post the collateral you want then you terminate the =
+swap, but you are a person and the hedge fund does sound really busy and su=
+rely it can=E2=80=99t hurt to talk to them tomorrow? Plus if you terminate =
+the swap you lose their business, and your whole job is about doing more bu=
+siness.Here=E2=80=99s an absolutely majestic paragraph about investment ban=
+k risk management:On February 19, 2021, the PSR analyst sent a dynamic marg=
+ining proposal to the Head of PSR for internal review, noting that he had m=
+ade the terms =E2=80=9Cabout as tight=E2=80=9D as possible, yielding an ave=
+rage margin of 16.74% if applied to Archegos=E2=80=99s existing swaps portf=
+olio and leading to a day-one step up of approximately $1.27 billion in add=
+itional margin. This was less than half of the additional initial margin th=
+at would have been required if Archegos=E2=80=99s Prime Brokerage dynamic m=
+argining rules were applied to Archegos=E2=80=99s swaps portfolio.On Februa=
+ry 23, 2021, the PSR analyst covering Archegos reached out to Archegos=E2=
+=80=99s Accounting Manager and asked to speak about dynamic margining. Arch=
+egos=E2=80=99s Accounting Manager said he would not have time that day, but=
+ could speak the next day. The following day, he again put off the discussi=
+on, but agreed to review the proposed framework, which PSR sent over that d=
+ay. Archegos did not respond to the proposal and, a week-and-a-half later, =
+on March 4, 2021, the PSR analyst followed up to ask whether Archegos =E2=
+=80=9Chad any thoughts on the proposal.=E2=80=9D His contact at Archegos sa=
+id he =E2=80=9Chadn=E2=80=99t had a chance to take a look yet,=E2=80=9D but=
+ was hoping to look =E2=80=9Ctoday or tomorrow.=E2=80=9DThe first few sente=
+nces there are about technical questions of the right amount of collateral,=
+ etc. But once you have the right amount, you call the client. And the clie=
+nt is busy! And then what?=C2=A0In this particular case the answer to =E2=
+=80=9Cand then what=E2=80=9D is that, a couple of weeks later, the stocks t=
+hat Archegos Capital Management owned went down a lot, and it  did not have=
+ enough money to pay back its loans from=C2=A0Credit Suisse Group AG (whose=
+ Prime Services Risk analyst had called Archegos to ask for more margin), a=
+nd Credit Suisse=C2=A0lost $5.5 billion because it turns out it did not hav=
+e enough collateral against Archegos=E2=80=99s positions. So, not great. Cr=
+edit Suisse was very sad about this, and its board of directors commissione=
+d a report from the law firm Paul, Weiss, Rifkind, Wharton & Garrison LP ab=
+out what went wrong, and today it=C2=A0published it, and the quote above is=
+ from page 116 of the report.The report=C2=A0is =E2=80=A6=C2=A0look, tastes=
+ will vary, and I concede that I am a weird guy,=C2=A0but it is so, so good=
+? It is thrilling reading, as good as anything you will ever read about the=
+ management and sociology and processes of big investment banks. And that, =
+it turns out, is the story. There is not some fancy finance thing that went=
+ wrong, some clever trick that Credit Suisse missed, some interesting probl=
+em in the math or the legal regime that caused Credit Suisse to lose so muc=
+h money. Nor is this a story of individual stupidity or greed or recklessne=
+ss; people generally had the right facts and were trying to do the right th=
+ing and kept each other in the loop. It=E2=80=99s just that they sort of ke=
+pt each other in the loop as a substitute for actually doing anything. The =
+processes were all moving along nicely, which gave everyone a false sense o=
+f security that they would produce the right result. Unfortunately the proc=
+esses were slow and Archegos blew up quickly.(Credit Suisse  responded to t=
+he report by doing a bunch of things, including adding new risk officers, g=
+etting rid of some executives, and clawing back $70 million of bonuses.)Whe=
+n the Archegos story came out this spring, there was a sense, from the outs=
+ide, that the banks had missed something, that there was some structural co=
+mponent of Archegos=E2=80=99s trades that=C2=A0caused the banks to underest=
+imate=C2=A0the risks they were taking. For instance, there was a widespread=
+ theory that, because Archegos did most of its trades in the form of total =
+return swaps (rather than owning stocks directly), it didn=E2=80=99t have t=
+o disclose its positions publicly, and because it did those swaps with mult=
+iple banks, none of the banks knew how big and concentrated Archegos=E2=80=
+=99s total positions were, so they didn=E2=80=99t know how bad it would be =
+if Archegos defaulted.But, nope, absolutely not, Credit Suisse was entirely=
+ plugged in=C2=A0to Archegos=E2=80=99s=C2=A0strategy and how much trading i=
+t was doing with other banks, and focused clearly on this risk. Its=C2=A0Cr=
+edit Risk Management (CRM) unit, which was in charge of managing Credit Sui=
+sse=E2=80=99s overall credit risk,=C2=A0got detailed information about Arch=
+egos=E2=80=99s portfolio, its concentration, and how long it would take to =
+liquidate it. From pages 17-18 of the report:In December 2020, Archegos rep=
+orted to CRM that its top five long positions represented=C2=A0175% of its =
+NAV; moreover, Archegos held two positions that represented between 5 and 1=
+0 days=E2=80=99 DTV [daily trading volume], six positions that represented =
+between 2.5 and 4.99 days=E2=80=99 DTV, and another nine positions that rep=
+resented between 1 and 2.49 days=E2=80=99 DTV in those respective stocks.In=
+ January 2021, in connection with its 2020 annual credit review, CRM downgr=
+aded Archegos=E2=80=99s credit rating from BB- to B+, which put Archegos in=
+ the bottom-third of CS=E2=80=99s hedge fund counterparties by rating. CRM =
+noted that, while in prior years Archegos had estimated that its portfolio =
+could be liquidated within a few days, Archegos now estimated that it would=
+ take =E2=80=9Cbetween two weeks and one month=E2=80=9D to liquidate its fu=
+ll portfolio.=C2=A0And the business unit that managed the Archegos relation=
+ship, Prime Services, had its own risk team (Prime Services Risk, or PSR); =
+when CRM downgraded Archegos, the PSR analyst asked why and summarized the =
+answers as follows (page 113):CS sees a vertical slice of [Archegos=E2=80=
+=99s] book, meaning there are not any hidden names we=E2=80=99re unaware of=
+So names like Viacom, Tencent, Discovery all > 3 DTV [in the CS portfolio],=
+ if there is an issue, all brokers would be looking to exit simultaneouslyA=
+nd CRM further warned Prime Services the next day (page 114):The CRM analys=
+t covering Archegos escalated the same concern that the PSR analyst had ele=
+vated to the PSR Head the day before: namely, that Archegos=E2=80=99s conce=
+ntrated positions with CS were likely also spread across its other prime br=
+okers. The CRM analyst told his supervisors that, while Archegos refused to=
+ answer specific questions about its holdings at other prime brokers, Arche=
+gos had told him that, =E2=80=9Cas they leg in to positions, they ideally p=
+refer to do so pro rata across their core [prime brokerage] providers,=E2=
+=80=9D including CS, although that was not always accomplished. The CRM ana=
+lyst noted that CS =E2=80=9Cshould assume that [Archegos] potentially ha[d]=
+ additional exposure=E2=80=9D on the same large, concentrated names =E2=80=
+=9Caway from [CS].=E2=80=9DSo there is just no truth to the idea that Credi=
+t Suisse didn=E2=80=99t know what was going on. It knew that Archegos had l=
+arge concentrated swap positions with Credit Suisse, and that it replicated=
+ those positions with other big brokers; it knew that =E2=80=9Cif there is =
+an issue, all brokers would be looking to exit simultaneously.=E2=80=9D It =
+knew that if things went wrong they=E2=80=99d go very wrong, and the right =
+people cared about this risk.Similarly, there was a sense from the outside =
+that the fact that Archegos did its trades on swap, rather than by owning t=
+he stock directly and borrowing from Credit Suisse using margin loans, redu=
+ced the amount of collateral that it posted to Credit Suisse. This part is =
+true, for sort of a dumb reason. If you buy $1 billion worth of stock and a=
+re required to post 25% margin, you put up $250 million. If the stock goes =
+up to $2 billion,=C2=A0you have to have $500 million of margin. At that poi=
+nt you have $1.25 billion of equity in your account (the $250 million you o=
+riginally posted plus your $1 billion gain), and you can take out $750 mill=
+ion of it, leaving you with 25% of margin.Similarly if you buy $1 billion w=
+orth of stock on swap (that is, Credit Suisse buys the stock and gives you =
+the economic exposure via a swap), and you are required to post 25% initial=
+ margin, you put up $250 million.=C2=A0But if you bought $1 billion worth o=
+f stock, on swap, from Credit Suisse, when Archegos started putting on thes=
+e trades, that initial margin was =E2=80=9Cstatic=E2=80=9D: It's 25% of the=
+ initial value of the contract, not its=C2=A0current=C2=A0value. So if the =
+stock goes up to $2 billion, you still only need to have $250 million of ma=
+rgin in your account. So you can take out your full $1 billion of profits, =
+leaving you with 12.5% of margin.[1]=C2=A0And that is basically what happen=
+ed: Archegos did lots of swaps with Credit Suisse, and the stocks went up a=
+ lot, and it took out all of its profits, leaving Credit Suisse with very l=
+ittle collateral.At some point Credit Suisse realized this was bad, and man=
+y pages of the report are devoted to Credit Suisse=E2=80=99s efforts to get=
+ its swaps business onto a =E2=80=9Cdynamic margining=E2=80=9D system that =
+would allow it to require more margin as positions expand. But these effort=
+s were stymied by the two great permanent obstacles to good risk management=
+:=09The business people didn=E2=80=99t want to ask the client for more marg=
+in, because they worried that they=E2=80=99d lose the business; and=09When =
+they=C2=A0did eventually=C2=A0ask the client for more margin =E2=80=94=C2=
+=A0less than the risk managers wanted, but something =E2=80=94=C2=A0the cli=
+ent was busy and promised to get back to them.We covered Point 2 above (=E2=
+=80=9Che =E2=80=98hadn=E2=80=99t had a chance to take a look yet,=E2=80=99 =
+but was hoping to look =E2=80=98today or tomorrow=E2=80=99=E2=80=9D), but i=
+t was sometimes subtler. In some internal discussions, Credit Suisse took s=
+ome comfort from the fact that its contracts allowed it to terminate the sw=
+aps or raise margin requirements quickly. But it would be hard for Credit S=
+uisse to exercise those rights because=C2=A0the client didn=E2=80=99t want =
+them to. Page 109 includes an email from CRM to PSR with this piece of bitt=
+er sarcasm:Need to understand purpose of having daily termination rights an=
+d ability to raise margin [with] 3-days notice on swap if client is not ame=
+nable to us using those rights.=C2=A0If you have a contractual right to rai=
+se margin requirements, but your client would get really mad if you used it=
+, that=E2=80=99s better than nothing, but not much. You can=E2=80=99t raise=
+ margin requirements while things are good, because you don=E2=80=99t want =
+to make the client mad. When things are bad, you stop caring about making t=
+he client mad, and you can raise margin requirements =E2=80=94=C2=A0but by =
+then it's probably too late.=C2=A0On Point 1, here is page 19 of the report=
+, again about February 2021, a month before Archegos blew up:CRM suggested =
+that the business develop a precise timeline for transitioning Archegos to =
+dynamic margining, that it return to monitoring Archegos under the more pun=
+itive Severe Equity Crash scenario, and that Archegos be required to post $=
+1 billion of additional initial margin with CS. The business forcefully rej=
+ected the idea of requiring Archegos to post $1 billion of additional margi=
+n, saying it was =E2=80=9Cpretty much asking them to move their business.=
+=E2=80=9DIt turns out that asking Archegos to move their business would hav=
+e been a really good idea! As Credit Suisse found out a month later. But th=
+at is the sort of thing that business units only ever discover in hindsight=
+. Nobody gets to run a business unit at a bank by cheerfully sending client=
+s away.That=E2=80=99s why you have risk managers! Unfortunately (page 13)[2=
+]:Around [August 2020], the CRM analyst covering Archegos raised concerns t=
+o his supervisor about PSR=E2=80=99s overall management of counterparty ris=
+k, including, specifically, with respect to Archegos. He observed that the =
+PSR team in New York (covering Archegos) was not =E2=80=9Cadequately staffe=
+d to be reliable=E2=80=9D; experienced PSR employees who had left CS had no=
+t been replaced; everyone he would =E2=80=9Ctrust to have a backbone and pu=
+sh back on a coverage person asking for zero margin on a heaping pile=E2=80=
+=9D was gone; =E2=80=9Cthe team is run by a salesperson learning the role f=
+rom people=E2=80=9D he did not trust to have a backbone; and PSR was not =
+=E2=80=9Cthe best first line of defense function anymore.=E2=80=9D=C2=A0The=
+ way of a bank is that coverage people ask =E2=80=9Cfor zero margin on a he=
+aping pile,=E2=80=9D and the risk managers have backbone and say no. Or the=
+y don=E2=80=99t, and you get a $5.5 billion loss and this report.Everything=
+ in the report=C2=A0is like this. This report is not a bunch of lawyers ide=
+ntifying a bunch of problems and characterizing them, in hindsight, as =E2=
+=80=9Cred flags.=E2=80=9D Everyone saw all the problems here, evaluated the=
+m reasonably, came up with sensible solutions and then didn=E2=80=99t do=C2=
+=A0them. A ghostly recurring character in the report is the CPOC, the Count=
+erparty Oversight Committee, a fancy committee that Credit Suisse started a=
+fter losing a bunch of money on swaps with=C2=A0another=C2=A0hedge fund, Ma=
+lachite Capital Management, in 2020.[3] CPOC grew out of =E2=80=9C=E2=80=98=
+Project Copper,=E2=80=99 an initiative to =E2=80=98improve [CS=E2=80=99s] a=
+bility to identify early warning signs of a default event,=E2=80=99 and =E2=
+=80=98enhance [CS=E2=80=99s] controls and escalation framework across funct=
+ions during periods of stress=E2=80=99=E2=80=9D (page 15). And at the very =
+first meeting of CPOC, in September 2020, it discussed Archegos, identified=
+ the key problems, agreed on good solutions, and then forgot about them for=
+ever:The meeting materials observed that Archegos =E2=80=9Cmakes substantia=
+l use of leverage relative to peer [long/short] equity funds and exhibits a=
+ highly volatile performance pattern=E2=80=9D; that Archegos =E2=80=9Chas g=
+enerated some of the largest scenario exposures in global [hedge fund] port=
+folio=E2=80=9D; and that Archegos had =E2=80=9C[c]hunky single-name stock e=
+xposures (a number of positions > $750 mm and > 10% GMV) albeit in liquid n=
+ames.=E2=80=9D At the meeting, participants recall that members of CRM and =
+the Head of PSR co-presented Archegos. The Head of PSR noted that the busin=
+ess=C2=A0and Risk had already agreed on actions to address Archegos=E2=80=
+=99s limit breaches and observed that Archegos had never missed a margin ca=
+ll, even in the tumultuous markets earlier in the year. While the minutes r=
+eflect general discussion of Archegos=E2=80=99s concentrated positions and =
+the =E2=80=9Cdesirab[ility]=E2=80=9D of an automated margin add-on for conc=
+entration, we have seen no evidence that anyone called for urgent action. I=
+ndeed, the =E2=80=9CAction/Decision=E2=80=9D for Archegos was for CRM to =
+=E2=80=9Cnotify of any changes with the counterparty and revisit the counte=
+rparty at a future meeting.=E2=80=9D CPOC did not set a deadline for remedi=
+ating Archegos=E2=80=99s limit breaches, for moving Archegos to dynamic mar=
+gining with add-ons, or even for reporting back or revisiting the status of=
+ Archegos at a future meeting. CPOC did not discuss Archegos again for near=
+ly six months, until March 8, 2021, at which point Archegos=E2=80=99s risk =
+exposure had increased dramatically.In some very abstract sense, the way to=
+ manage your exposure to a large counterparty is to talk about it in a meet=
+ing of a senior-level committee and agree on good solutions. Because someon=
+e will walk out of that meeting and say =E2=80=9Cooh this powerful committe=
+e plans to check back in on this counterparty at a future meeting, and if I=
+ haven't fixed the problem by then I will look dumb and lazy in front of my=
+ bosses,=E2=80=9D and then they will go fix the problem. Usually that more =
+or less works! It=E2=80=99s not ironclad though.On March 8, a couple of wee=
+ks before Archegos blew up, CPOC discussed it again. It again correctly ide=
+ntified the problem (page 20):The CPOC discussion also highlighted Archegos=
+=E2=80=99s =E2=80=9C[s]ingle issuer concentration,=E2=80=9D including a $3.=
+3 billion position representing =E2=80=9Cmore than 8% outstanding float (ne=
+xt five largest are in the range of USD 1.2bn to USD 1.5bn).=E2=80=9D CPOC =
+discussed the difficulty of potential liquidation given the size of these p=
+ositions.But then it proposed an inadequate solution with a deadline that t=
+urned out to be too late:Notwithstanding the red flags relating to the size=
+, concentration, and liquidity of Archegos=E2=80=99s portfolio, CPOC conclu=
+ded: =E2=80=9CAction/Decision: Move client to dynamic margining with add-on=
+s for concentration and=C2=A0liquidity within the next couple of weeks. If =
+no traction perceived by the middle of week of March 15, request an additio=
+nal USD 250mn margin from the counterparty.=E2=80=9D The Head of PSR was de=
+signated the =E2=80=9Cowner=E2=80=9D of the action item and given a target =
+completion date of April 2021. Notably, that $250 million request was less =
+than one fifth of the amount that would have been required as a day-one ste=
+p up under the dynamic margining proposal PSR sent Archegos just two weeks =
+earlier (and one twelfth of the day-one step up that would have been requir=
+ed if Archegos=E2=80=99s dynamic margining rules for Prime Brokerage had be=
+en applied).And then the business people went off to implement the solution=
+ by asking Archegos for more money, but=C2=A0unfortunately Archegos continu=
+ed to be very busy (page 21):The business continued to chase Archegos on th=
+e dynamic margining proposal to no avail; indeed, the business scheduled th=
+ree follow-up calls in the five business days before Archegos=E2=80=99s def=
+ault, all of which Archegos cancelled at the last minute.And then, in a tru=
+ly incredible move, while it was ignoring Credit Suisse=E2=80=99s demands f=
+or more money, Archegos was=C2=A0demanding money from Credit Suisse, and Cr=
+edit Suisse was=C2=A0giving it the money:=C2=A0Moreover, during the several=
+ weeks that Archegos was =E2=80=9Cconsidering=E2=80=9D this dynamic margini=
+ng proposal, it began calling the excess variation margin it had historical=
+ly maintained with CS. Between March 11 and March 19, and despite the fact =
+that the dynamic margining proposal sent to Archegos was being ignored, CS =
+paid Archegos a total of $2.4 billion=E2=80=94all of which was approved by =
+PSR and CRM. Moreover, from March 12 through March 26, the date of Archegos=
+=E2=80=99s default, Prime Financing permitted Archegos to execute $1.48 bil=
+lion of additional net long positions, though margined at an average rate=
+=C2=A0of 21.2%.This is my favorite thing about the Archegos story, and I st=
+ill don=E2=80=99t know what to make of it. Basically Archegos did a bunch o=
+f swaps with a bunch of banks on a handful of stocks. Then those stocks wen=
+t up a lot. This meant that Archegos was in the money on all of its swaps: =
+It had huge=C2=A0profits, which the banks had to post as =E2=80=9Cvariation=
+ margin,=E2=80=9D crediting Archegos with money for the profits on its swap=
+s. And in March of 2021, days or weeks before it blew up, Archegos cashed i=
+n those profits: It =E2=80=9Cswept=E2=80=9D its variation margin, asking it=
+s banks to send it the money that it had made, leaving only the minimum =E2=
+=80=9Cinitial margin=E2=80=9D in its accounts.[4] And because the swaps had=
+ gone up so much, the margin Archegos had left at Credit Suisse represented=
+ a tiny percentage of the total amount, roughly 9.4% of the exposure (page =
+127).And then in late March, Archegos=E2=80=99s stocks went down, and Credi=
+t Suisse asked for the money back, and Archegos said, whoops, no[5]:Archego=
+s=E2=80=99s concentrated positions had dramatically appreciated in value in=
+ the months leading up to its default. During the week of March 22nd, the v=
+alue of these positions began to fall precipitously. Archegos=E2=80=99s sin=
+gle largest position, ViacomCBS, dropped 6.7% on March 22 and continued to =
+fall in the days that followed. On March 23, Archegos had over $600 million=
+ of excess margin remaining at CS but, by the next day, that excess margin =
+was wiped out by market movements and Archegos owed CS more than $175 milli=
+on of additional variation margin, which CS called, and Archegos paid. That=
+ same day, March 24, while the ViacomCBS stock price continued to fall, ano=
+ther of Archegos=E2=80=99s significant long positions, Tencent Music Entert=
+ainment Group, plummeted 20%. CS determined that it would be making a $2.7 =
+billion call for variation margin the next day. Given the size of that call=
+, the matter was escalated to the Co-Heads of Prime Services and the Head o=
+f Equities, who scheduled a call with Archegos for that evening to inform i=
+t of the upcoming margin call. Archegos=E2=80=99s COO informed CS that Arch=
+egos no longer had the liquidity to meet either CS=E2=80=99s or any of its =
+other prime brokers=E2=80=99 margin calls on the following day. That evenin=
+g, CS=E2=80=99s IB CEO and Group CRO were informed about the Archegos situa=
+tion; it was the first time that either recalled hearing about Archegos.On =
+the morning of March 25, 2021, CS issued two margin calls=E2=80=94one for P=
+rime Brokerage and one for Prime Financing=E2=80=94that together totaled ov=
+er $2.8 billion. That day, Archegos reiterated that its cash reserves had b=
+een exhausted by margin calls from other prime brokers earlier in the week.=
+=C2=A0While Archegos claimed it was committed to making its counterparties =
+whole, it explained that it was only slowly liquidating its positions so as=
+ not to disrupt the market. That evening, Archegos held a call with its pri=
+me=C2=A0brokers, including CS. On the call, Archegos informed its brokers t=
+hat it had $120 billion in gross exposure and just $9-$10 billion in remain=
+ing equity. Archegos asked its prime brokers to enter into a standstill agr=
+eement, whereby the brokers would agree not to default Archegos while it li=
+quidated its positions. The prime brokers declined. On the morning of March=
+ 26, CS delivered an Event of Default notice to Archegos and began unwindin=
+g its Archegos positions. CS lost approximately $5.5 billion as a result of=
+ Archegos=E2=80=99s default and the resulting unwind.Archegos took $2.4 bil=
+lion out of Credit Suisse in mid-March. In late March, Credit Suisse asked =
+Archegos for $2.8 billion back, and Archegos made a comical show of turning=
+ its pockets inside out to demonstrate that it didn=E2=80=99t have a penny =
+remaining. Where did it go? One possible answer is that Archegos plowed all=
+ of it into margin for new=C2=A0swaps, and clearly some of that is true. (A=
+rchegos did $1.48 billion of new swaps with Credit Suisse in late March, po=
+sting 21.2% margin, and rolled over some other swaps; presumably it did sim=
+ilar trades with other banks.) Another possible answer is that Archegos cam=
+e out of this trade better than its banks did.[6] The banks had to have com=
+mittee meetings and consider the client=E2=80=99s feelings before asking fo=
+r more money. Archegos didn=E2=80=99t have all of those processes and commi=
+ttees and sensitivities. It could=C2=A0just demand its money.
+ =20
+   =20
+      Robinhood
+   =20
+ =20
+Yesterday afternoon, a  Bloomberg Terminal headline came out saying =E2=80=
+=9CRobinhood Is Said to See Investor Demand Within IPO Price Range,=E2=80=
+=9D the faintest imaginable praise. =E2=80=9CRobinhood is seeing demand fro=
+m investors to buy its shares within the marketed range of $38-$42/share, p=
+eople with knowledge of the matter said,=E2=80=9D is fine, technically, but=
+ generally not what you say when things are going great. =E2=80=9CSome peop=
+le want to buy our IPO at some price=E2=80=9D is better than =E2=80=9Coops =
+nobody wants to buy it=E2=80=9D (in the capital markets we call that one =
+=E2=80=9Cthe WeWork=E2=80=9D), but the more normal thing to say, at 3:30 p.=
+m. on the pricing day, is =E2=80=9CRobinhood IPO is multiple times oversubs=
+cribed.=E2=80=9D =E2=80=9CMultiple times oversubscribed=E2=80=9D is kind of=
+ table stakes on the afternoon of pricing. Robinhood had =E2=80=9Cwell, the=
+re=E2=80=99s demand.=E2=80=9DAnyway here=E2=80=99s  how that worked out:Rob=
+inhood Markets Inc. will start trading later on Thursday after pricing its =
+initial public offering at the low end of its range, in what was a muted st=
+art for one of the year=E2=80=99s most highly anticipated listings.The pric=
+e indicates investors weren=E2=80=99t clamoring to buy Robinhood=E2=80=99s =
+stock the way they had with some of the year=E2=80=99s hottest offerings. S=
+till, a weaker price in the IPO could allow more room for the =E2=80=9Cfirs=
+t-day pop=E2=80=9D craved by investors when the stock opens.A big pop out o=
+f the gate could benefit the Robinhood users that took advantage of the com=
+pany=E2=80=99s move to open up its IPO to retail investors. It reserved up =
+to 35% of its IPO for its customers. ...Robinhood was still the seventh-big=
+gest IPO on a U.S. exchange this year. The trading app company and some of =
+its investors sold 55 million shares Wednesday for $38 each to raise $2.1 b=
+illion, according to a statement. Shares of the company at the center of th=
+is year=E2=80=99s meme stock frenzy had been offered for $38 to $42 each.Th=
+e company has a market value at the IPO price of just under $32 billion bas=
+ed on the outstanding shares listed in its filings. Accounting for employee=
+ stock options and similar holdings, Robinhood=E2=80=99s fully diluted valu=
+e would be closer to $33 billion. That falls short of the $36 billion that =
+it would have had at the top end of its price range..As of 11:45 a.m. New Y=
+ork time, as I was finishing this column, Robinhood had not yet opened for =
+trading, but was indicated to open at right around the $38 IPO price. We  t=
+alked yesterday about the dynamics here, but the short answer is that I hav=
+e no idea what will happen. Either the stock will go up as retail investors=
+ who didn=E2=80=99t get allocated in the IPO buy it, or it will go down as =
+people who bought in the IPO flip their stock and no one wants to buy, or i=
+t will stay flat because Robinhood judged demand so precisely that everyone=
+ who wants its stock bought it at exactly the right price. Each option will=
+ be funny in its own way.Incidentally, if you are a retail investor who bou=
+ght Robinhood stock in the IPO through your Robinhood account, and you want=
+ to sell it today=C2=A0to make a quick buck (or a quick loss! whichever), y=
+ou =E2=80=A6=C2=A0can =E2=80=A6=C2=A0but Robinhood will be disappointed in =
+you. From its website:Issuing companies and their underwriters may discoura=
+ge flipping by refusing to allocate IPO shares to customers who have flippe=
+d shares in the past. Flipping could also lead us to offer fewer IPOs in th=
+e future. See the SEC's Investor Bulletin to learn more about "flipping" an=
+d investing in an IPO.Like any investment you make, you can sell the shares=
+ you received through IPO Access at any point in time. However, if you sell=
+ IPO shares within 30 days of the IPO, it's considered "flipping" and you m=
+ay be prevented from participating in IPOs for 60 days. This policy applies=
+ to all IPOs offered on IPO Access.I don=E2=80=99t know how much of a deter=
+rent that is.Elsewhere, Charlie Gasparino reported yesterday that Robinhood=
+ is =E2=80=9Ctelling institutional investors about plans to become a market=
+ maker to reduce reliance on =E2=80=98payment for order flow,=E2=80=99 whic=
+h now represents 70% of its revs.=E2=80=9D I really hope that happens. The =
+way I  explained payment for order flow in February was by imagining that a=
+ big retail broker simply internalizes its own order flow: Some people on R=
+obinhood want to buy stock, some people on Robinhood want to sell stock, an=
+d Robinhood matches them up with each other and collects a small spread. (S=
+maller than the spread on the public stock exchanges.)Of course it doesn=E2=
+=80=99t really work that way: The buys and sells don=E2=80=99t come in at e=
+xactly the same time, so some market maker needs to use its balance sheet t=
+o intermediate them in time, buying from the sellers and selling to the buy=
+ers and taking seconds or minutes or hours of risk before it can match up t=
+he trades. In practice, most discount brokerages don=E2=80=99t do this them=
+selves; they outsource it to electronic market-making firms, who pay a port=
+ion of the spread back to the brokerages. This payment is called =E2=80=9Cp=
+ayment for order flow.=E2=80=9DBut they=C2=A0could=C2=A0do it themselves? L=
+ike Robinhood could take on a lot of balance-sheet risk in all the stocks i=
+t offers, and build the sophisticated speedy technology to accurately and r=
+apidly price and trade those stocks and lay off risk on public exchanges? A=
+nd make even more money than it gets paid for order flow?=C2=A0I mean, peop=
+le do it; there are huge important high-frequency trading firms started by =
+young people in recent decades, it is not impossible or anything. And yet w=
+hen I think of Robinhood,  well-capitalized prudent  risk management, caref=
+ul  regulatory compliance and  100% reliable technology are not the first t=
+hings I think of. If Robinhood becomes its own high-frequency trading firm =
+it will be really fun to watch?
+
+
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                               =20
+                               =20
+                               =20
+                           =20
+                       =20
+                       =20
+                           =20
+                               =20
+                                    Sponsored Content
+                                   =20
+Modern Treasury makes money move faster
+
+Their  software platform=C2=A0connects directly to your corporate bank acco=
+unts and ERP systems so that finance teams get  full visibility and control=
+ over payments and developers get flexible APIs to automate complex payment=
+ flows.=C2=A0
+
+Learn how innovative companies like Pipe used MT to transform how they move=
+ money.
+
+                                    Modern Treasury
+                               =20
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+ =20
+   =20
+      Nikola
+   =20
+ =20
+Back in February, Nikola Corp., the electric-truck company that went public=
+ last year by merging with a special purpose acquisition company, released =
+a report by its own lawyers finding that its founder had lied about some st=
+uff. I  summarized the report like this:Did Nikola=E2=80=99s founder lie ab=
+out whether Nikola had produced a zero-emissions truck? Yes, say Nikola=E2=
+=80=99s own lawyers in Nikola=E2=80=99s own annual report to the U.S. Secur=
+ities and Exchange Commission. Did he lie about whether the truck worked? Y=
+es. Did he lie when he said that all the major components for the truck wer=
+e made in-house? Yes. Did he lie when he said that trucks were coming off t=
+he assembly line? Of course. Did Nikola produce a video to make it seem lik=
+e the truck could be driven, when in fact it was only moving because it was=
+ rolling down a hill? Yes, that is also a real thing that this company real=
+ly did.But was the company =E2=80=9Can =E2=80=98intricate=E2=80=99 or =E2=
+=80=98massive fraud=E2=80=99=E2=80=9D? No, no, what are you talking about, =
+not a fraud at all.My point was that startups, in their early stages, somet=
+imes say things that aren't quite true in order to encourage a shared sense=
+ of belief by employees and investors, and that if this works it can sort o=
+f be bootstrapped into reality. If Nikola=E2=80=99s founder lied about its =
+trucks early on, in order to raise funding to make those trucks real, then,=
+ as I put it, =E2=80=9Cthat's not a =E2=80=98massive fraud,=E2=80=99 that=
+=E2=80=99s just, like, startups, man.=E2=80=9DThis is a better defense for=
+=C2=A0Nikola=C2=A0=E2=80=94 a continuing company that is trying to make tru=
+cks with all that money =E2=80=94=C2=A0than it is for that=C2=A0founder, th=
+ough. If he lied to investors, that=E2=80=99s not great, even if later ever=
+ything more or less comes true.  Anyway:Nikola Corp. founder and former cha=
+irman Trevor Milton has been charged by prosecutors with making false state=
+ments to investors in the electric-vehicle startup.Milton, who stepped down=
+ from the company in September, is in federal custody after voluntarily sur=
+rendering. He=E2=80=99s charged with misleading investors from November 201=
+9 until about September 2020 with the development of Nikola=E2=80=99s produ=
+cts and technology, according to an indictment unsealed Thursday by federal=
+ prosecutors in N.Y. The Securities and Exchange Commission also filed a co=
+mplaint against him.Here are the SEC and Justice Department announcements. =
+Here=E2=80=99s the indictment, which suggests that Milton was =E2=80=A6=C2=
+=A0a good meme-stock CEO?For example, on or about March 2, 2020, which was =
+the day before Nikola publicly announced that it would combine with VectoIQ=
+, MILTON wrote in an email to a member of the board of directors of Nikola,=
+ that we =E2=80=9Cneed to make sure we are getting=C2=A0retail investors on=
+ our side. That is what prevents the stock short selling. This is super imp=
+ortant to me.=E2=80=9DAccordingly, TREVOR MILTON, the defendant, appeared f=
+or numerous interviews on podcasts and on television, and in print and onli=
+ne media, beginning immediately following the announcement of Nikola=E2=80=
+=99s going public combination with VectoIQ.=C2=A0Also, like everyone else,=
+=C2=A0the grand jury can=E2=80=99t resist that=C2=A0truck rolling down the =
+hill:In or about 2017, a representative of a large multinational corporatio=
+n approached Nikola and asked to use the Nikola One in a commercial celebra=
+ting innovation. The concept for the video included a shot of the Nikola On=
+e coming to a stop in front of a stop sign. In order to accomplish this fea=
+t with a vehicle that could not drive, the Nikola One was towed to the top =
+of hill, at which point the =E2=80=9Cdriver=E2=80=9D released the brakes, a=
+nd the truck rolled down the hill until being brought to a stop in front of=
+ the stop sign. For additional takes, the truck was towed to the top of the=
+ hill and rolled down the hill twice more. Additionally, the Nikola One=E2=
+=80=99s door, which had been constructed using minivan parts, had to be tap=
+ed up during the shoot to prevent it from falling off. Moreover, because th=
+e Nikola One had not been tested and was not safe (and indeed could not ope=
+rate), certain precautions were taken before towing the vehicle to the comm=
+ercial shoot. In particular, the turbine, which was designed to run on natu=
+ral gas, and batteries were entirely removed from the vehicle to mitigate r=
+isk of fire, explosion, or damage. =E2=80=A6Following the commercial shoot,=
+ TREVOR MILTON, the defendant, directed a Nikola employee to make a condens=
+ed video of the Nikola One truck moving using raw footage from the shoot. =
+=E2=80=A6=C2=A0In the video, the Nikola One appears to be driving down a ro=
+ad with no incline. In other words, the Nikola One appears to be driving on=
+ its own power, notwithstanding that the Nikola One could not do so and has=
+ never done so.
+ =20
+   =20
+      Business Insider Wall Street intern diaries are back
+   =20
+ =20
+Honestly there is no higher form of internet art=C2=A0than these, except ma=
+ybe those articles where=C2=A0people insist that it=E2=80=99s impossible to=
+ live in New York=C2=A0on $600,000 a year. Here=E2=80=99s what=C2=A0Monday =
+looks like for =E2=80=9Can intern at a top New York bulge-bracket investmen=
+t bank=E2=80=9D:9 A.M.: Head into the office. I live uptown, but a quick tr=
+ip on the express train takes me about 10 minutes.10 A.M.: Coffee with a se=
+nior banker. We're all assigned a mentor to focus on our learning, growth, =
+and answering questions during the internship.1 P.M.: Lunch with my intern =
+class in the cafeteria.2 P.M.: Back to my desk. For the next few hours, I t=
+ake notes on an internal call for an upcoming public offering, work on some=
+ slides for a marketing book, and receive edits from more senior people on =
+my team.6:30 P.M.: Meet with a friend from a nearby bank for dinner.8 P.M.:=
+ Back to the office to work on some slides for an upcoming public offering =
+for a client.=C2=A01 A.M.: Head homeI would love to tell you that by Friday=
+ it is:5 A.M.: I wake from an hour of uneasy sleep. We lost many brave inte=
+rns last night in the fighting at the cafeteria, and have little to show fo=
+r it. Montresor=E2=80=99s forces are strong and he is a formidable adversar=
+y. But I shall avenge my fallen brethren.6 A.M.: The game is afoot. Montres=
+or has built a fortress of monitors on the rates desk and guards it sleeple=
+ssly, but I know that he must tire and I will seize my chance. I have fashi=
+oned a crude battle-ax from a deal toy and our late VP=E2=80=99s femur; soo=
+n he shall meet his fate.8 A.M.: Catastrophe! Starving interns on the munis=
+ desk have captured our food supplies. We are left with only the contents o=
+f a single vending machine; if we do not quickly organize a counter-raid ou=
+r forces shall starve to death.10:30 A.M.: An associate confronted my most =
+doughty warrior with a vending machine challenge, and he felt honor-bound t=
+o accept. So now all of our food supplies are gone. We must attack now, or =
+perish.11 A.M.: Mentorship chat with an MD in leveraged finance. I asked ab=
+out the group=E2=80=99s exit opportunities into private equity, which are r=
+eally second to none.=C2=A011:30 A.M.: The battle is bloody, but we have dr=
+iven Montresor back from the rates desk and captured much valuable land and=
+ plunder. I have displaced Montresor from the Throne of Skulls, which is wh=
+at we call the late Co-Head of Trading=E2=80=99s Aeron chair. Also I used M=
+ontresor's Seamless allowance to order lunch, staving off the threat of sta=
+rvation for another day.But, no, the tone never really changes. Friday invo=
+lves working on a VP=E2=80=99s edits and then =E2=80=9CI=C2=A0regroup and c=
+hange into my outfit for the evening: a pink polo and jeans for a fun night=
+ of parties in Brooklyn with friends.=E2=80=9D On Saturday it=E2=80=99s a p=
+arty in the West Village with =E2=80=9CPrinceton friends and some other Gol=
+dman interns,=E2=80=9D and then back to the office.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Didi Global Considers Going Private to Placate China and Compensate Investo=
+rs. China Stocks Rally as Beijing Intensifies Effort to  Calm Market. Apoll=
+o Books $1.6 Billion Gain Selling Hospital Chain  to Itself. BlackRock Supp=
+ort Sought in Bid to End 5-Month  Coal-Mine Strike. Jared Kushner Plans to =
+ Open Investment Firm in Miami, Israel. Adam Neumann Spotted in the Hampton=
+s With a Pizza and a Rabbi. Can the Mets Paint Their Faces Like Mr. Met? Wi=
+th God as My Witness I Will Not Pick the Restaurant.If you'd like to get=C2=
+=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=
+=C2=A0subscribe at this link. Or you can subscribe to Money Stuff and other=
+ great Bloomberg newsletters here. Thanks![1] Page 7 of the report discusse=
+s the difference between Archegos=E2=80=99s physical stock holdings, which =
+got margin loans from Credit Suisse's Prime Brokerage division, and its swa=
+p holdings, which were financed out of Credit Suisse=E2=80=99s Prime Financ=
+e division (both part=C2=A0of Prime Services): =E2=80=9CArchegos=E2=80=99s =
+Prime Brokerage portfolio was margined under CS=E2=80=99s Standard Margin P=
+rocedure, with dynamic margining to factor in changes to its portfolio char=
+acteristics (volatility, concentration, bias, etc.). By contrast, Archegos=
+=E2=80=99s swaps with Prime Financing were statically margined. This meant =
+that initial margins were calculated based on the notional value of the swa=
+p at inception and remained static in dollar terms over the life of the swa=
+p; thus, if the value of Archegos=E2=80=99s position increased, the initial=
+ margin as a percentage of the position being financed eroded (and Archegos=
+=E2=80=99s leverage with CS increased). This margin erosion was exacerbated=
+ by the specific form of swaps that Archegos favored, so-called =E2=80=98bu=
+llet=E2=80=99=C2=A0swaps, which did not periodically reset to the current m=
+arket value (with a corresponding increase in margin) and had an average te=
+nor of 24 months.=E2=80=9D[2] Pages 86-87 of the report have more detail, i=
+ncluding more of the email.[3] Another ghostly committee pops up on pages 8=
+5-86 of the report: =E2=80=9CThe CRM analyst also pointed to the significan=
+t size of Archegos=E2=80=99s positions in certain companies and asked if th=
+ese positions had been pre-approved by CRM or the Prime Services Risk Commi=
+ttee (=E2=80=98PSRC=E2=80=99). The PSRC, which included the Co-Heads of Pri=
+me Services, the Head of PSR, and various global and regional business head=
+s,=C2=A0had existed since 2010 and met on a quarterly basis, although meeti=
+ngs of the PSRC appear to have been discontinued in 2020. According to a PS=
+RC guideline published in 2018, large, single-name swap trades with a singl=
+e counterparty over $250 million required PSRC approval. While the Co-Heads=
+ of Prime Services and Head of PSR explained that the approval of large tra=
+des was time sensitive and was handled by email since it could not await a =
+quarterly meeting, we have uncovered no explanation for why the PSRC meetin=
+gs had been discontinued or why there was no other meeting attended by the =
+Co-Heads of Prime Services and the Head of PSR devoted to risk in the Prime=
+ Services business. The Head of PSR told the CRM analyst that he was unawar=
+e of whether the Archegos trades had been pre-approved by PSRC and indicate=
+d he would check. The Head of PSR later acknowledged, however, that, based =
+on his inquiry, he believes the traders sought approval for some, but not a=
+ll, of the large trades executed for Archegos, and that he thereafter held =
+a global call with the Delta One desk to remind the traders of their obliga=
+tion to seek pre-approval for such trades.=E2=80=9D Big trades required app=
+roval from this fancy committee, but everyone just forgot about it.[4] Ther=
+e is a suggestion (on page 110) that Archegos only started regularly sweepi=
+ng variation margin in February 2021, shortly before it defaulted; before t=
+hat (including during the GameStop short squeeze) it kept a lot of its winn=
+ings in its account with Credit Suisse, so when positions moved against Arc=
+hegos, Credit Suisse didn=E2=80=99t need to call extra margin.[5] This is p=
+ages 22-23. Note the delicate phrasing from Credit Suisse=E2=80=99s lawyers=
+ here. If, as described here, Archegos asked its banks not to blow out its =
+positions, and the banks considered it, that doesn=E2=80=99t sound like an =
+antitrust violation. If, as suggested in some news reports, *Credit Suisse*=
+ was like =E2=80=9Chey guys let's not sell any of this stock for a while to=
+ keep the price up,=E2=80=9D  that is riskier.=C2=A0[6] This is speculative=
+ but man do I *want* it to be true. I have discussed it before, e.g.  here =
+and  here.=C2=A0
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cen3ru.5kr1/682a13fc.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_78280132_1208859285.1627578898491
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px 0px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24592602.260173/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cB50775712"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tr>
+<td width=3D"206" align=3D"center" class=3D"sponsored-ad-container" style=
+=3D"padding-top: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24592602.260173/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cBc804a0b=
+b">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" style=3D"display: block;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong> <em>Money S=
+tuff will be off tomorrow, back on Monday.</em></p><table class=3D"header" =
+width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Archegos</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">One important thing that investment ba=
+nks do is lend money to hedge funds to buy stocks. This is risky: If the st=
+ocks go down, the hedge fund=C2=A0might not repay the loans, and then the b=
+ank might lose money. So a central question of risk management is whether=
+=C2=A0the hedge fund has posted enough collateral =E2=80=94=C2=A0that is, t=
+hat the stocks it owns are worth significantly more than the money the bank=
+ has loaned it, so that if the stocks go down=C2=A0the bank will not lose m=
+oney.</p><p style=3D"margin: 16px 0;">One aspect of this question is: What =
+is the right amount of collateral? This question can be reduced to question=
+s like: How much will the stocks go down in a plausible worst case? How qui=
+ckly can we sell the stocks, and how much more will they go down due to our=
+ selling? You can look at numbers about historical and implied volatility a=
+nd=C2=A0correlations of the stocks in the portfolio, you can compare the po=
+sition sizes to the stocks=E2=80=99 daily volumes, you can plug these thing=
+s into=C2=A0formulas and run scenario analyses, you can get some numbers. T=
+hese are well-known problems that have received a great deal of academic, r=
+egulatory and practitioner attention, and you can read papers and books abo=
+ut the best practices for figuring out the right amount of collateral.</p><=
+p style=3D"margin: 16px 0;">But another, underrated aspect of the question =
+is: Once you know the right amount of collateral, and you call up the hedge=
+ fund to tell it to post more collateral, and the hedge fund says =E2=80=9C=
+I=E2=80=99m busy today let=E2=80=99s talk tomorrow,=E2=80=9D and you call t=
+hem tomorrow and they say =E2=80=9Chey this week got away from me but send =
+me an email,=E2=80=9D and you send them an email summarizing your collatera=
+l demand and call them next week and they say =E2=80=9Coh I haven=E2=80=99t=
+ had a chance to look at your email yet but I will very soon,=E2=80=9D and =
+meanwhile the right amount of collateral keeps ticking up =E2=80=A6=C2=A0wh=
+at do you do about that? There is a=C2=A0theoretical=C2=A0and contractual=
+=C2=A0answer, which is, if the client doesn=E2=80=99t post the collateral y=
+ou want then you terminate the swap, but you are a person and the hedge fun=
+d does sound really busy and surely it can=E2=80=99t hurt to talk to them t=
+omorrow? Plus if you terminate the swap you lose their business, and your w=
+hole job is about doing more business.</p><p style=3D"margin: 16px 0;">Here=
+=E2=80=99s an absolutely majestic paragraph about investment bank risk mana=
+gement:</p><blockquote><p style=3D"margin: 16px 0;">On February 19, 2021, t=
+he PSR analyst sent a dynamic margining proposal to the Head of PSR for int=
+ernal review, noting that he had made the terms =E2=80=9Cabout as tight=E2=
+=80=9D as possible, yielding an average margin of 16.74% if applied to Arch=
+egos=E2=80=99s existing swaps portfolio and leading to a day-one step up of=
+ approximately $1.27 billion in additional margin. This was less than half =
+of the additional initial margin that would have been required if Archegos=
+=E2=80=99s Prime Brokerage dynamic margining rules were applied to Archegos=
+=E2=80=99s swaps portfolio.On February 23, 2021, the PSR analyst covering A=
+rchegos reached out to Archegos=E2=80=99s Accounting Manager and asked to s=
+peak about dynamic margining. Archegos=E2=80=99s Accounting Manager said he=
+ would not have time that day, but could speak the next day. The following =
+day, he again put off the discussion, but agreed to review the proposed fra=
+mework, which PSR sent over that day. Archegos did not respond to the propo=
+sal and, a week-and-a-half later, on March 4, 2021, the PSR analyst followe=
+d up to ask whether Archegos =E2=80=9Chad any thoughts on the proposal.=E2=
+=80=9D His contact at Archegos said he =E2=80=9Chadn=E2=80=99t had a chance=
+ to take a look yet,=E2=80=9D but was hoping to look =E2=80=9Ctoday or tomo=
+rrow.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">The first few s=
+entences there are about technical questions of the right amount of collate=
+ral, etc. But once you have the right amount, you call the client. And the =
+client is busy! And then what?=C2=A0</p><p style=3D"margin: 16px 0;">In thi=
+s particular case the answer to =E2=80=9Cand then what=E2=80=9D is that, a =
+couple of weeks later, the stocks that Archegos Capital Management owned we=
+nt down a lot, and it <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/24592602.260173/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGV=
+zLzIwMjEtMDQtMDUvYmlsbC1od2FuZy1zLWFyY2hlZ29zLXN3YXAtYWZ0ZXJtYXRoLWlzLWF3a3=
+dhcmQtZm9yLWJhbmtz/607f07ceef4b8524a319a23cB2281a781" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> did not have enough money</a> =
+to pay back its loans from=C2=A0Credit Suisse Group AG (whose Prime Service=
+s Risk analyst had called Archegos to ask for more margin), and Credit Suis=
+se=C2=A0lost $5.5 billion because it turns out it did not have enough colla=
+teral against Archegos=E2=80=99s positions. So, not great. Credit Suisse wa=
+s very sad about this, and its board of directors commissioned a report fro=
+m the law firm Paul, Weiss, Rifkind, Wharton &amp; Garrison LP about what w=
+ent wrong, and today it=C2=A0<a href=3D"https://link.mail.bloombergbusiness=
+.com/click/24592602.260173/aHR0cHM6Ly93d3cuY3JlZGl0LXN1aXNzZS5jb20vYWJvdXQt=
+dXMtbmV3cy9lbi9hcnRpY2xlcy9tZWRpYS1yZWxlYXNlcy9hcmNoZWdvcy0yMDIxMDcuaHRtbA/=
+607f07ceef4b8524a319a23cBaa4885f1" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">published it</a>, and the quote above is from page=
+ 116 of <a href=3D"https://link.mail.bloombergbusiness.com/click/24592602.2=
+60173/aHR0cHM6Ly93d3cuY3JlZGl0LXN1aXNzZS5jb20vbWVkaWEvYXNzZXRzL2NvcnBvcmF0Z=
+S9kb2NzL2Fib3V0LXVzL2ludmVzdG9yLXJlbGF0aW9ucy9maW5hbmNpYWwtZGlzY2xvc3VyZXMv=
+cmVzdWx0cy9jc2ctc3BlY2lhbC1jb21taXR0ZWUtYm9kLXJlcG9ydC1hcmNoZWdvcy5wZGY/607=
+f07ceef4b8524a319a23cBe75f5713" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">the report</a>.</p><p style=3D"margin: 16px 0;">The r=
+eport=C2=A0is =E2=80=A6=C2=A0look, tastes will vary, and I concede that I a=
+m a weird guy,=C2=A0but it is so, so good? It is thrilling reading, as good=
+ as anything you will ever read about the management and sociology and proc=
+esses of big investment banks. And that, it turns out, is the story. There =
+is not some fancy finance thing that went wrong, some clever trick that Cre=
+dit Suisse missed, some interesting problem in the math or the legal regime=
+ that caused Credit Suisse to lose so much money. Nor is this a story of in=
+dividual stupidity or greed or recklessness; people generally had the right=
+ facts and were trying to do the right thing and kept each other in the loo=
+p. It=E2=80=99s just that they sort of kept each other in the loop as a sub=
+stitute for actually doing anything. The processes were all moving along ni=
+cely, which gave everyone a false sense of security that they would produce=
+ the right result. Unfortunately the processes were slow and Archegos blew =
+up quickly.</p><p style=3D"margin: 16px 0;">(Credit Suisse <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/24592602.260173/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjkvY3JlZGl0LXN1aXNzZS1jbGF3Z=
+WQtYmFjay1wYXktYXMtaXQtZmF1bHRlZC1zdGFmZi1mb3ItYXJjaGVnb3M/607f07ceef4b8524=
+a319a23cBbed9bb05" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> responded to the report</a> by doing a bunch of things, including=
+ adding new risk officers, getting rid of some executives, and clawing back=
+ $70 million of bonuses.)</p><p style=3D"margin: 16px 0;">When the Archegos=
+ story came out this spring, there was a sense, from the outside, that the =
+banks had missed something, that there was some structural component of Arc=
+hegos=E2=80=99s trades that=C2=A0caused the banks to underestimate=C2=A0the=
+ risks they were taking. For instance, there was a widespread theory that, =
+because Archegos did most of its trades in the form of total return swaps (=
+rather than owning stocks directly), it didn=E2=80=99t have to disclose its=
+ positions publicly, and because it did those swaps with multiple banks, no=
+ne of the banks knew how big and concentrated Archegos=E2=80=99s total posi=
+tions were, so they didn=E2=80=99t know how bad it would be if Archegos def=
+aulted.</p><p style=3D"margin: 16px 0;">But, nope, absolutely not, Credit S=
+uisse was entirely plugged in=C2=A0to Archegos=E2=80=99s=C2=A0strategy and =
+how much trading it was doing with other banks, and focused clearly on this=
+ risk. Its=C2=A0Credit Risk Management (CRM) unit, which was in charge of m=
+anaging Credit Suisse=E2=80=99s overall credit risk,=C2=A0got detailed info=
+rmation about Archegos=E2=80=99s portfolio, its concentration, and how long=
+ it would take to liquidate it. From pages 17-18 of the report:</p><blockqu=
+ote><p style=3D"margin: 16px 0;">In December 2020, Archegos reported to CRM=
+ that its top five long positions represented=C2=A0175% of its NAV; moreove=
+r, Archegos held two positions that represented between 5 and 10 days=E2=80=
+=99 DTV [<em>daily trading volume</em>], six positions that represented bet=
+ween 2.5 and 4.99 days=E2=80=99 DTV, and another nine positions that repres=
+ented between 1 and 2.49 days=E2=80=99 DTV in those respective stocks.</p><=
+p style=3D"margin: 16px 0;">In January 2021, in connection with its 2020 an=
+nual credit review, CRM downgraded Archegos=E2=80=99s credit rating from BB=
+- to B+, which put Archegos in the bottom-third of CS=E2=80=99s hedge fund =
+counterparties by rating. CRM noted that, while in prior years Archegos had=
+ estimated that its portfolio could be liquidated within a few days, Archeg=
+os now estimated that it would take =E2=80=9Cbetween two weeks and one mont=
+h=E2=80=9D to liquidate its full portfolio.=C2=A0</p></blockquote><p style=
+=3D"margin: 16px 0;">And the business unit that managed the Archegos relati=
+onship, Prime Services, had its own risk team (Prime Services Risk, or PSR)=
+; when CRM downgraded Archegos, the PSR analyst asked why and summarized th=
+e answers as follows (page 113):</p><blockquote><p style=3D"margin: 16px 0;=
+">CS sees a vertical slice of [Archegos=E2=80=99s] book, meaning there are =
+not any hidden names we=E2=80=99re unaware of</p><p style=3D"margin: 16px 0=
+;">So names like Viacom, Tencent, Discovery all &gt; 3 DTV [in the CS portf=
+olio], if there is an issue, all brokers would be looking to exit simultane=
+ously</p></blockquote><p style=3D"margin: 16px 0;">And CRM further warned P=
+rime Services the next day (page 114):</p><blockquote><p style=3D"margin: 1=
+6px 0;">The CRM analyst covering Archegos escalated the same concern that t=
+he PSR analyst had elevated to the PSR Head the day before: namely, that Ar=
+chegos=E2=80=99s concentrated positions with CS were likely also spread acr=
+oss its other prime brokers. The CRM analyst told his supervisors that, whi=
+le Archegos refused to answer specific questions about its holdings at othe=
+r prime brokers, Archegos had told him that, =E2=80=9Cas they leg in to pos=
+itions, they ideally prefer to do so pro rata across their core [prime brok=
+erage] providers,=E2=80=9D including CS, although that was not always accom=
+plished. The CRM analyst noted that CS =E2=80=9Cshould assume that [Archego=
+s] potentially ha[d] additional exposure=E2=80=9D on the same large, concen=
+trated names =E2=80=9Caway from [CS].=E2=80=9D</p></blockquote><p style=3D"=
+margin: 16px 0;">So there is just no truth to the idea that Credit Suisse d=
+idn=E2=80=99t know what was going on. It knew that Archegos had large conce=
+ntrated swap positions with Credit Suisse, and that it replicated those pos=
+itions with other big brokers; it knew that =E2=80=9Cif there is an issue, =
+all brokers would be looking to exit simultaneously.=E2=80=9D It knew that =
+if things went wrong they=E2=80=99d go very wrong, and the right people car=
+ed about this risk.</p><p style=3D"margin: 16px 0;">Similarly, there was a =
+sense from the outside that the fact that Archegos did its trades on swap, =
+rather than by owning the stock directly and borrowing from Credit Suisse u=
+sing margin loans, reduced the amount of collateral that it posted to Credi=
+t Suisse. This part is true, for sort of a dumb reason. If you buy $1 billi=
+on worth of stock and are required to post 25% margin, you put up $250 mill=
+ion. If the stock goes up to $2 billion,=C2=A0you have to have $500 million=
+ of margin. At that point you have $1.25 billion of equity in your account =
+(the $250 million you originally posted plus your $1 billion gain), and you=
+ can take out $750 million of it, leaving you with 25% of margin.</p><p sty=
+le=3D"margin: 16px 0;">Similarly if you buy $1 billion worth of stock on sw=
+ap (that is, Credit Suisse buys the stock and gives you the economic exposu=
+re via a swap), and you are required to post 25% initial margin, you put up=
+ $250 million.=C2=A0But if you bought $1 billion worth of stock, on swap, f=
+rom Credit Suisse, when Archegos started putting on these trades, that init=
+ial margin was =E2=80=9Cstatic=E2=80=9D: It's 25% of the initial value of t=
+he contract, not its=C2=A0<em>current=C2=A0</em>value. So if the stock goes=
+ up to $2 billion, you still only need to have $250 million of margin in yo=
+ur account. So you can take out your full $1 billion of profits, leaving yo=
+u with 12.5% of margin.[1]=C2=A0</p><p style=3D"margin: 16px 0;">And that i=
+s basically what happened: Archegos did lots of swaps with Credit Suisse, a=
+nd the stocks went up a lot, and it took out all of its profits, leaving Cr=
+edit Suisse with very little collateral.</p><p style=3D"margin: 16px 0;">At=
+ some point Credit Suisse realized this was bad, and many pages of the repo=
+rt are devoted to Credit Suisse=E2=80=99s efforts to get its swaps business=
+ onto a =E2=80=9Cdynamic margining=E2=80=9D system that would allow it to r=
+equire more margin as positions expand. But these efforts were stymied by t=
+he two great permanent obstacles to good risk management:</p><ol style=3D"l=
+ist-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=
+=3D"margin-bottom: 5px;">The business people didn=E2=80=99t want to ask the=
+ client for more margin, because they worried that they=E2=80=99d lose the =
+business; and</li>=09<li style=3D"margin-bottom: 5px;">When they=C2=A0<em>d=
+id </em>eventually=C2=A0ask the client for more margin =E2=80=94=C2=A0less =
+than the risk managers wanted, but something =E2=80=94=C2=A0the client was =
+busy and promised to get back to them.</li></ol><p style=3D"margin: 16px 0;=
+">We covered Point 2 above (=E2=80=9Che =E2=80=98hadn=E2=80=99t had a chanc=
+e to take a look yet,=E2=80=99 but was hoping to look =E2=80=98today or tom=
+orrow=E2=80=99=E2=80=9D), but it was sometimes subtler. In some internal di=
+scussions, Credit Suisse took some comfort from the fact that its contracts=
+ allowed it to terminate the swaps or raise margin requirements quickly. Bu=
+t it would be hard for Credit Suisse to exercise those rights because=C2=A0=
+<em>the client didn=E2=80=99t want them to</em>. Page 109 includes an email=
+ from CRM to PSR with this piece of bitter sarcasm:</p><blockquote><p style=
+=3D"margin: 16px 0;">Need to understand purpose of having daily termination=
+ rights and ability to raise margin [with] 3-days notice on swap if client =
+is not amenable to us using those rights.=C2=A0</p></blockquote><p style=3D=
+"margin: 16px 0;">If you have a contractual right to raise margin requireme=
+nts, but your client would get really mad if you used it, that=E2=80=99s be=
+tter than nothing, but not much. You can=E2=80=99t raise margin requirement=
+s while things are good, because you don=E2=80=99t want to make the client =
+mad. When things are bad, you stop caring about making the client mad, and =
+you can raise margin requirements =E2=80=94=C2=A0but by then it's probably =
+too late.=C2=A0</p><p style=3D"margin: 16px 0;">On Point 1, here is page 19=
+ of the report, again about February 2021, a month before Archegos blew up:=
+</p><blockquote><p style=3D"margin: 16px 0;">CRM suggested that the busines=
+s develop a precise timeline for transitioning Archegos to dynamic marginin=
+g, that it return to monitoring Archegos under the more punitive Severe Equ=
+ity Crash scenario, and that Archegos be required to post $1 billion of add=
+itional initial margin with CS. The business forcefully rejected the idea o=
+f requiring Archegos to post $1 billion of additional margin, saying it was=
+ =E2=80=9Cpretty much asking them to move their business.=E2=80=9D</p></blo=
+ckquote><p style=3D"margin: 16px 0;">It turns out that asking Archegos to m=
+ove their business would have been a really good idea! As Credit Suisse fou=
+nd out a month later. But that is the sort of thing that business units onl=
+y ever discover in hindsight. Nobody gets to run a business unit at a bank =
+by cheerfully sending clients away.</p><p style=3D"margin: 16px 0;">That=E2=
+=80=99s why you have risk managers! Unfortunately (page 13)[2]:</p><blockqu=
+ote><p style=3D"margin: 16px 0;">Around [August 2020], the CRM analyst cove=
+ring Archegos raised concerns to his supervisor about PSR=E2=80=99s overall=
+ management of counterparty risk, including, specifically, with respect to =
+Archegos. He observed that the PSR team in New York (covering Archegos) was=
+ not =E2=80=9Cadequately staffed to be reliable=E2=80=9D; experienced PSR e=
+mployees who had left CS had not been replaced; everyone he would =E2=80=9C=
+trust to have a backbone and push back on a coverage person asking for zero=
+ margin on a heaping pile=E2=80=9D was gone; =E2=80=9Cthe team is run by a =
+salesperson learning the role from people=E2=80=9D he did not trust to have=
+ a backbone; and PSR was not =E2=80=9Cthe best first line of defense functi=
+on anymore.=E2=80=9D=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">The=
+ way of a bank is that coverage people ask =E2=80=9Cfor zero margin on a he=
+aping pile,=E2=80=9D and the risk managers have backbone and say no. Or the=
+y don=E2=80=99t, and you get a $5.5 billion loss and this report.</p><p sty=
+le=3D"margin: 16px 0;">Everything in the report=C2=A0is like this. This rep=
+ort is not a bunch of lawyers identifying a bunch of problems and character=
+izing them, in hindsight, as =E2=80=9Cred flags.=E2=80=9D Everyone saw all =
+the problems here, evaluated them reasonably, came up with sensible solutio=
+ns and then didn=E2=80=99t do=C2=A0them. A ghostly recurring character in t=
+he report is the CPOC, the Counterparty Oversight Committee, a fancy commit=
+tee that Credit Suisse started after losing a bunch of money on swaps with=
+=C2=A0<em>another=C2=A0</em>hedge fund, Malachite Capital Management, in 20=
+20.[3] CPOC grew out of =E2=80=9C=E2=80=98Project Copper,=E2=80=99 an initi=
+ative to =E2=80=98improve [CS=E2=80=99s] ability to identify early warning =
+signs of a default event,=E2=80=99 and =E2=80=98enhance [CS=E2=80=99s] cont=
+rols and escalation framework across functions during periods of stress=E2=
+=80=99=E2=80=9D (page 15). And at the very first meeting of CPOC, in Septem=
+ber 2020, it discussed Archegos, identified the key problems, agreed on goo=
+d solutions, and then forgot about them forever:</p><blockquote><p style=3D=
+"margin: 16px 0;">The meeting materials observed that Archegos =E2=80=9Cmak=
+es substantial use of leverage relative to peer [long/short] equity funds a=
+nd exhibits a highly volatile performance pattern=E2=80=9D; that Archegos =
+=E2=80=9Chas generated some of the largest scenario exposures in global [he=
+dge fund] portfolio=E2=80=9D; and that Archegos had =E2=80=9C[c]hunky singl=
+e-name stock exposures (a number of positions &gt; $750 mm and &gt; 10% GMV=
+) albeit in liquid names.=E2=80=9D At the meeting, participants recall that=
+ members of CRM and the Head of PSR co-presented Archegos. The Head of PSR =
+noted that the business=C2=A0and Risk had already agreed on actions to addr=
+ess Archegos=E2=80=99s limit breaches and observed that Archegos had never =
+missed a margin call, even in the tumultuous markets earlier in the year. W=
+hile the minutes reflect general discussion of Archegos=E2=80=99s concentra=
+ted positions and the =E2=80=9Cdesirab[ility]=E2=80=9D of an automated marg=
+in add-on for concentration, we have seen no evidence that anyone called fo=
+r urgent action. Indeed, the =E2=80=9C<strong>Action/Decision</strong>=E2=
+=80=9D for Archegos was for CRM to =E2=80=9Cnotify of any changes with the =
+counterparty and revisit the counterparty at a future meeting.=E2=80=9D CPO=
+C did not set a deadline for remediating Archegos=E2=80=99s limit breaches,=
+ for moving Archegos to dynamic margining with add-ons, or even for reporti=
+ng back or revisiting the status of Archegos at a future meeting. CPOC did =
+not discuss Archegos again for nearly six months, until March 8, 2021, at w=
+hich point Archegos=E2=80=99s risk exposure had increased dramatically.</p>=
+</blockquote><p style=3D"margin: 16px 0;">In some very abstract sense, the =
+way to manage your exposure to a large counterparty is to talk about it in =
+a meeting of a senior-level committee and agree on good solutions. Because =
+someone will walk out of that meeting and say =E2=80=9Cooh this powerful co=
+mmittee plans to check back in on this counterparty at a future meeting, an=
+d if I haven't fixed the problem by then I will look dumb and lazy in front=
+ of my bosses,=E2=80=9D and then they will go fix the problem. Usually that=
+ more or less works! It=E2=80=99s not ironclad though.</p><p style=3D"margi=
+n: 16px 0;">On March 8, a couple of weeks before Archegos blew up, CPOC dis=
+cussed it again. It again correctly identified the problem (page 20):</p><b=
+lockquote><p style=3D"margin: 16px 0;">The CPOC discussion also highlighted=
+ Archegos=E2=80=99s =E2=80=9C[s]ingle issuer concentration,=E2=80=9D includ=
+ing a $3.3 billion position representing =E2=80=9Cmore than 8% outstanding =
+float (next five largest are in the range of USD 1.2bn to USD 1.5bn).=E2=80=
+=9D CPOC discussed the difficulty of potential liquidation given the size o=
+f these positions.</p></blockquote><p style=3D"margin: 16px 0;">But then it=
+ proposed an inadequate solution with a deadline that turned out to be too =
+late:</p><blockquote><p style=3D"margin: 16px 0;">Notwithstanding the red f=
+lags relating to the size, concentration, and liquidity of Archegos=E2=80=
+=99s portfolio, CPOC concluded: =E2=80=9CAction/Decision: Move client to dy=
+namic margining with add-ons for concentration and=C2=A0liquidity within th=
+e next couple of weeks. If no traction perceived by the middle of week of M=
+arch 15, request an additional USD 250mn margin from the counterparty.=E2=
+=80=9D The Head of PSR was designated the =E2=80=9Cowner=E2=80=9D of the ac=
+tion item and given a target completion date of April 2021. Notably, that $=
+250 million request was less than one fifth of the amount that would have b=
+een required as a day-one step up under the dynamic margining proposal PSR =
+sent Archegos just two weeks earlier (and one twelfth of the day-one step u=
+p that would have been required if Archegos=E2=80=99s dynamic margining rul=
+es for Prime Brokerage had been applied).</p></blockquote><p style=3D"margi=
+n: 16px 0;">And then the business people went off to implement the solution=
+ by asking Archegos for more money, but=C2=A0unfortunately Archegos continu=
+ed to be very busy (page 21):</p><blockquote><p style=3D"margin: 16px 0;">T=
+he business continued to chase Archegos on the dynamic margining proposal t=
+o no avail; indeed, the business scheduled three follow-up calls in the fiv=
+e business days before Archegos=E2=80=99s default, all of which Archegos ca=
+ncelled at the last minute.</p></blockquote><p style=3D"margin: 16px 0;">An=
+d then, in a truly incredible move, while it was ignoring Credit Suisse=E2=
+=80=99s demands for more money, Archegos was=C2=A0<em>demanding money from =
+Credit Suisse</em>, and Credit Suisse was=C2=A0<em>giving it the money:=C2=
+=A0</em></p><blockquote><p style=3D"margin: 16px 0;">Moreover, during the s=
+everal weeks that Archegos was =E2=80=9Cconsidering=E2=80=9D this dynamic m=
+argining proposal, it began calling the excess variation margin it had hist=
+orically maintained with CS. Between March 11 and March 19, and despite the=
+ fact that the dynamic margining proposal sent to Archegos was being ignore=
+d, CS paid Archegos a total of $2.4 billion=E2=80=94all of which was approv=
+ed by PSR and CRM. Moreover, from March 12 through March 26, the date of Ar=
+chegos=E2=80=99s default, Prime Financing permitted Archegos to execute $1.=
+48 billion of additional net long positions, though margined at an average =
+rate=C2=A0of 21.2%.</p></blockquote><p style=3D"margin: 16px 0;">This is my=
+ favorite thing about the Archegos story, and I still don=E2=80=99t know wh=
+at to make of it. Basically Archegos did a bunch of swaps with a bunch of b=
+anks on a handful of stocks. Then those stocks went up a lot. This meant th=
+at Archegos was in the money on all of its swaps: It had huge=C2=A0profits,=
+ which the banks had to post as =E2=80=9Cvariation margin,=E2=80=9D crediti=
+ng Archegos with money for the profits on its swaps. And in March of 2021, =
+days or weeks before it blew up, Archegos cashed in those profits: It =E2=
+=80=9Cswept=E2=80=9D its variation margin, asking its banks to send it the =
+money that it had made, leaving only the minimum =E2=80=9Cinitial margin=E2=
+=80=9D in its accounts.[4] And because the swaps had gone up so much, the m=
+argin Archegos had left at Credit Suisse represented a tiny percentage of t=
+he total amount, roughly 9.4% of the exposure (page 127).</p><p style=3D"ma=
+rgin: 16px 0;">And then in late March, Archegos=E2=80=99s stocks went down,=
+ and Credit Suisse asked for the money back, and Archegos said, whoops, no[=
+5]:</p><blockquote><p style=3D"margin: 16px 0;">Archegos=E2=80=99s concentr=
+ated positions had dramatically appreciated in value in the months leading =
+up to its default. During the week of March 22nd, the value of these positi=
+ons began to fall precipitously. Archegos=E2=80=99s single largest position=
+, ViacomCBS, dropped 6.7% on March 22 and continued to fall in the days tha=
+t followed. On March 23, Archegos had over $600 million of excess margin re=
+maining at CS but, by the next day, that excess margin was wiped out by mar=
+ket movements and Archegos owed CS more than $175 million of additional var=
+iation margin, which CS called, and Archegos paid. That same day, March 24,=
+ while the ViacomCBS stock price continued to fall, another of Archegos=E2=
+=80=99s significant long positions, Tencent Music Entertainment Group, plum=
+meted 20%. CS determined that it would be making a $2.7 billion call for va=
+riation margin the next day. Given the size of that call, the matter was es=
+calated to the Co-Heads of Prime Services and the Head of Equities, who sch=
+eduled a call with Archegos for that evening to inform it of the upcoming m=
+argin call. Archegos=E2=80=99s COO informed CS that Archegos no longer had =
+the liquidity to meet either CS=E2=80=99s or any of its other prime brokers=
+=E2=80=99 margin calls on the following day. That evening, CS=E2=80=99s IB =
+CEO and Group CRO were informed about the Archegos situation; it was the fi=
+rst time that either recalled hearing about Archegos.</p><p style=3D"margin=
+: 16px 0;">On the morning of March 25, 2021, CS issued two margin calls=E2=
+=80=94one for Prime Brokerage and one for Prime Financing=E2=80=94that toge=
+ther totaled over $2.8 billion. That day, Archegos reiterated that its cash=
+ reserves had been exhausted by margin calls from other prime brokers earli=
+er in the week.=C2=A0While Archegos claimed it was committed to making its =
+counterparties whole, it explained that it was only slowly liquidating its =
+positions so as not to disrupt the market. That evening, Archegos held a ca=
+ll with its prime=C2=A0brokers, including CS. On the call, Archegos informe=
+d its brokers that it had $120 billion in gross exposure and just $9-$10 bi=
+llion in remaining equity. Archegos asked its prime brokers to enter into a=
+ standstill agreement, whereby the brokers would agree not to default Arche=
+gos while it liquidated its positions. The prime brokers declined. On the m=
+orning of March 26, CS delivered an Event of Default notice to Archegos and=
+ began unwinding its Archegos positions. CS lost approximately $5.5 billion=
+ as a result of Archegos=E2=80=99s default and the resulting unwind.</p></b=
+lockquote><p style=3D"margin: 16px 0;">Archegos took $2.4 billion out of Cr=
+edit Suisse in mid-March. In late March, Credit Suisse asked Archegos for $=
+2.8 billion back, and Archegos made a comical show of turning its pockets i=
+nside out to demonstrate that it didn=E2=80=99t have a penny remaining. Whe=
+re did it go? One possible answer is that Archegos plowed all of it into ma=
+rgin for <em>new</em>=C2=A0swaps, and clearly some of that is true. (Archeg=
+os did $1.48 billion of new swaps with Credit Suisse in late March, posting=
+ 21.2% margin, and rolled over some other swaps; presumably it did similar =
+trades with other banks.) Another possible answer is that Archegos came out=
+ of this trade better than its banks did.[6] The banks had to have committe=
+e meetings and consider the client=E2=80=99s feelings before asking for mor=
+e money. Archegos didn=E2=80=99t have all of those processes and committees=
+ and sensitivities. It could=C2=A0just demand its money.</p><table class=3D=
+"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Robinhood</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Yesterday afternoon, a <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/24592602.260173/aHR0cHM6Ly9ibGlua=
+3MuYmxvb21iZXJnLmNvbS9uZXdzL3N0b3JpZXMvUVdZWEdBVDFVTTBa/607f07ceef4b8524a31=
+9a23cB3b9fec87" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> Bloomberg Terminal headline</a> came out saying =E2=80=9CRobinhood I=
+s Said to See Investor Demand Within IPO Price Range,=E2=80=9D the faintest=
+ imaginable praise. =E2=80=9CRobinhood is seeing demand from investors to b=
+uy its shares within the marketed range of $38-$42/share, people with knowl=
+edge of the matter said,=E2=80=9D is <em>fine</em>, technically, but genera=
+lly not what you say when things are going great. =E2=80=9CSome people want=
+ to buy our IPO at some price=E2=80=9D is better than =E2=80=9Coops nobody =
+wants to buy it=E2=80=9D (in the capital markets we call that one =E2=80=9C=
+the WeWork=E2=80=9D), but the more normal thing to say, at 3:30 p.m. on the=
+ pricing day, is =E2=80=9CRobinhood IPO is multiple times oversubscribed.=
+=E2=80=9D =E2=80=9CMultiple times oversubscribed=E2=80=9D is kind of table =
+stakes on the afternoon of pricing. Robinhood had =E2=80=9Cwell, there=E2=
+=80=99s demand.=E2=80=9D</p><p style=3D"margin: 16px 0;">Anyway here=E2=80=
+=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/24592602.2601=
+73/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjkvcm9i=
+aW5ob29kLWlzLXNhaWQtdG8tcHJpY2UtaXBvLWF0LWJvdHRvbS1vZi1tYXJrZXRlZC1yYW5nZQ/=
+607f07ceef4b8524a319a23cBca4dcfda" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> how that worked out</a>:</p><blockquote><p style=
+=3D"margin: 16px 0;">Robinhood Markets Inc. will start trading later on Thu=
+rsday after pricing its initial public offering at the low end of its range=
+, in what was a muted start for one of the year=E2=80=99s most highly antic=
+ipated listings.</p><p style=3D"margin: 16px 0;">The price indicates invest=
+ors weren=E2=80=99t clamoring to buy Robinhood=E2=80=99s stock the way they=
+ had with some of the year=E2=80=99s hottest offerings. Still, a weaker pri=
+ce in the IPO could allow more room for the =E2=80=9Cfirst-day pop=E2=80=9D=
+ craved by investors when the stock opens.</p><p style=3D"margin: 16px 0;">=
+A big pop out of the gate could benefit the Robinhood users that took advan=
+tage of the company=E2=80=99s move to open up its IPO to retail investors. =
+It reserved up to 35% of its IPO for its customers. ...</p><p style=3D"marg=
+in: 16px 0;">Robinhood was still the seventh-biggest IPO on a U.S. exchange=
+ this year. The trading app company and some of its investors sold 55 milli=
+on shares Wednesday for $38 each to raise $2.1 billion, according to a stat=
+ement. Shares of the company at the center of this year=E2=80=99s meme stoc=
+k frenzy had been offered for $38 to $42 each.</p><p style=3D"margin: 16px =
+0;">The company has a market value at the IPO price of just under $32 billi=
+on based on the outstanding shares listed in its filings. Accounting for em=
+ployee stock options and similar holdings, Robinhood=E2=80=99s fully dilute=
+d value would be closer to $33 billion. That falls short of the $36 billion=
+ that it would have had at the top end of its price range..</p></blockquote=
+><p style=3D"margin: 16px 0;">As of 11:45 a.m. New York time, as I was fini=
+shing this column, Robinhood had not yet opened for trading, but was indica=
+ted to open at right around the $38 IPO price. We <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/24592602.260173/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDctMjgvcm9iaW5ob29kLXVzZXJzLWdldC10by=
+1vd24tcm9iaW5ob29k/607f07ceef4b8524a319a23cB615b84c0" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> talked yesterday</a> about the=
+ dynamics here, but the short answer is that I have no idea what will happe=
+n. Either the stock will go up as retail investors who didn=E2=80=99t get a=
+llocated in the IPO buy it, or it will go down as people who bought in the =
+IPO flip their stock and no one wants to buy, or it will stay flat because =
+Robinhood judged demand so precisely that everyone who wants its stock boug=
+ht it at exactly the right price. Each option will be funny in its own way.=
+</p><p style=3D"margin: 16px 0;">Incidentally, if you are a retail investor=
+ who bought Robinhood stock in the IPO through your Robinhood account, and =
+you want to sell it today=C2=A0to make a quick buck (or a quick loss! which=
+ever), you =E2=80=A6=C2=A0can =E2=80=A6=C2=A0but Robinhood will be disappoi=
+nted in you. <a href=3D"https://link.mail.bloombergbusiness.com/click/24592=
+602.260173/aHR0cHM6Ly9yb2Jpbmhvb2QuY29tL3VzL2VuL3N1cHBvcnQvYXJ0aWNsZXMvaXBv=
+LWFjY2Vzcy8/607f07ceef4b8524a319a23cBf3e35e54" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">From its website</a>:</p><blockquote><=
+p style=3D"margin: 16px 0;">Issuing companies and their underwriters may di=
+scourage flipping by refusing to allocate IPO shares to customers who have =
+flipped shares in the past. Flipping could also lead us to offer fewer IPOs=
+ in the future. See the SEC's Investor Bulletin to learn more about "flippi=
+ng" and investing in an IPO.</p><p style=3D"margin: 16px 0;">Like any inves=
+tment you make, you can sell the shares you received through IPO Access at =
+any point in time. However, if you sell IPO shares within 30 days of the IP=
+O, it's considered "flipping" and you may be prevented from participating i=
+n IPOs for 60 days. This policy applies to all IPOs offered on IPO Access.<=
+/p></blockquote><p style=3D"margin: 16px 0;">I don=E2=80=99t know how much =
+of a deterrent that is.</p><p style=3D"margin: 16px 0;">Elsewhere, Charlie =
+Gasparino <a href=3D"https://link.mail.bloombergbusiness.com/click/24592602=
+.260173/aHR0cHM6Ly90d2l0dGVyLmNvbS9DR2FzcGFyaW5vL3N0YXR1cy8xNDIwNDE0NTY0NDQ=
+xNzMxMDc0/607f07ceef4b8524a319a23cB6d874d2e" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">reported yesterday</a> that Robinhood is=
+ =E2=80=9Ctelling institutional investors about plans to become a market ma=
+ker to reduce reliance on =E2=80=98payment for order flow,=E2=80=99 which n=
+ow represents 70% of its revs.=E2=80=9D I really hope that happens. The way=
+ I <a href=3D"https://link.mail.bloombergbusiness.com/click/24592602.260173=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDUvcm=
+9iaW5ob29kLWdhbWVzdG9wLXNhZ2EtcHJlc3N1cmVzLXBheW1lbnQtZm9yLW9yZGVyLWZsb3c/6=
+07f07ceef4b8524a319a23cB382a3c40" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> explained payment for order flow</a> in February w=
+as by imagining that a big retail broker simply internalizes its own order =
+flow: Some people on Robinhood want to buy stock, some people on Robinhood =
+want to sell stock, and Robinhood matches them up with each other and colle=
+cts a small spread. (Smaller than the spread on the public stock exchanges.=
+)</p><p style=3D"margin: 16px 0;">Of course it doesn=E2=80=99t really work =
+that way: The buys and sells don=E2=80=99t come in at exactly the same time=
+, so some market maker needs to use its balance sheet to intermediate them =
+in time, buying from the sellers and selling to the buyers and taking secon=
+ds or minutes or hours of risk before it can match up the trades. In practi=
+ce, most discount brokerages don=E2=80=99t do this themselves; they outsour=
+ce it to electronic market-making firms, who pay a portion of the spread ba=
+ck to the brokerages. This payment is called =E2=80=9Cpayment for order flo=
+w.=E2=80=9D</p><p style=3D"margin: 16px 0;">But they=C2=A0<em>could=C2=A0</=
+em>do it themselves? Like Robinhood could take on a lot of balance-sheet ri=
+sk in all the stocks it offers, and build the sophisticated speedy technolo=
+gy to accurately and rapidly price and trade those stocks and lay off risk =
+on public exchanges? And make even more money than it gets paid for order f=
+low?=C2=A0I mean, people do it; there are huge important high-frequency tra=
+ding firms started by young people in recent decades, it is not impossible =
+or anything. And yet when I think of Robinhood, <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/24592602.260173/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDIvZ2FtZXN0b3AtdHJhZGUtd2FzLWEtbWl4=
+ZWQtYmFnLWZvci1yb2Jpbmhvb2Q/607f07ceef4b8524a319a23cB63d7cc09" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> well-capitalized</a> =
+prudent <a href=3D"https://link.mail.bloombergbusiness.com/click/24592602.2=
+60173/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDEtM=
+jkvcmVkZGl0LXRyYWRlcnMtb24tcm9iaW5ob29kLWFyZS1vbi1ib3RoLXNpZGVzLW9mLWdhbWVz=
+dG9w/607f07ceef4b8524a319a23cB2dec560b" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> risk management</a>, careful <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/24592602.260173/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMTItMTcvcm9iaW5ob29kLWNoZWNr=
+aW5nLW1vdmVkLWZhc3QtYW5kLWJyb2tl/607f07ceef4b8524a319a23cB2451a927" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> regulatory compl=
+iance</a> and <a href=3D"https://link.mail.bloombergbusiness.com/click/2459=
+2602.260173/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjA=
+tMDMtMDMvcm9iaW5ob29kLXBpY2tlZC1hLWJhZC1kYXktdG8tYnJlYWs/607f07ceef4b8524a3=
+19a23cB0ccde17b" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> 100% reliable technology</a> are not the first things I think of. I=
+f Robinhood becomes its own high-frequency trading firm it will be really f=
+un to watch?</p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 20px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td style=3D"padding: 15px 15px 0px;">
+<!--[if mso]>
+<table width=3D"500">
+<tr>
+<td>
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iiFgdpyK_rI4/v=
+0/-1x-1.png" width=3D"500" />
+</td>
+</tr>
+</table>
+<div style=3D"display:none">
+<![endif]-->
+<img width=3D"550" class=3D"sponsored-content__image" src=3D"https://assets=
+.bwbx.io/images/users/iqjWHBFdfxIU/iiFgdpyK_rI4/v0/-1x-1.png" style=3D"widt=
+h: 100%; display: block; max-width: 550px; max-height: 150px;" />
+<!--[if mso]>
+</div>
+<![endif]-->
+</td>
+</tr>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Sponsored Content</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;">
+<p style=3D"margin: 10px 0px;"><strong>Modern Treasury makes money move fas=
+ter</strong></p>
+<p style=3D"margin: 10px 0px;">Their <a href=3D"https://link.mail.bloomberg=
+business.com/click/24592602.260173/aHR0cHM6Ly93d3cubW9kZXJudHJlYXN1cnkuY29t=
+L21vbmV5c3R1ZmYtMQ/607f07ceef4b8524a319a23cBfd0e6a26" style=3D"color: #0000=
+00; text-decoration: underline;"> software platform</a>=C2=A0connects direc=
+tly to your corporate bank accounts and ERP systems so that finance teams g=
+et <a href=3D"https://link.mail.bloombergbusiness.com/click/24592602.260173=
+/aHR0cHM6Ly93d3cubW9kZXJudHJlYXN1cnkuY29tL21vbmV5c3R1ZmYtMg/607f07ceef4b852=
+4a319a23cB41ec2ed5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" title=3D"full visibility and control" style=3D"color: #000000; =
+text-decoration: underline;"> full visibility and control</a> over payments=
+ and developers get flexible APIs to automate complex payment flows.=C2=A0<=
+/p>
+<p style=3D"margin: 10px 0px;"><a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/24592602.260173/aHR0cHM6Ly93d3cubW9kZXJudHJlYXN1cnkuY29tL21vbm=
+V5c3R1ZmYtMw/607f07ceef4b8524a319a23cBa2fc7366" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" title=3D"Learn how" style=3D"color: #000000; text-decor=
+ation: underline;">Learn how</a> innovative companies like Pipe used MT to =
+transform how they move money.</p>
+</div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;">Modern Treasury<=
+/p></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Nikola</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Back in February, Nikola Corp., the el=
+ectric-truck company that went public last year by merging with a special p=
+urpose acquisition company, released a report by its own lawyers finding th=
+at its founder had lied about some stuff. I <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/24592602.260173/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMjYvc3RhcnR1cHMtc29tZXRpbWVzLXN0cmV0Y2gt=
+dGhlLXRydXRo/607f07ceef4b8524a319a23cB826a721e" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> summarized the report</a> like this:=
+</p><blockquote><p style=3D"margin: 16px 0;">Did Nikola=E2=80=99s founder l=
+ie about whether Nikola had produced a zero-emissions truck? Yes, say Nikol=
+a=E2=80=99s own lawyers in Nikola=E2=80=99s own annual report to the U.S. S=
+ecurities and Exchange Commission. Did he lie about whether the truck worke=
+d? Yes. Did he lie when he said that all the major components for the truck=
+ were made in-house? Yes. Did he lie when he said that trucks were coming o=
+ff the assembly line? Of course. Did Nikola produce a video to make it seem=
+ like the truck could be driven, when in fact it was only moving because it=
+ was rolling down a hill? Yes, that is also a real thing that this company =
+really did.</p><p style=3D"margin: 16px 0;">But was the company =E2=80=9Can=
+ =E2=80=98intricate=E2=80=99 or =E2=80=98massive fraud=E2=80=99=E2=80=9D? N=
+o, no, what are you talking about, not a fraud at all.</p></blockquote><p s=
+tyle=3D"margin: 16px 0;">My point was that startups, in their early stages,=
+ sometimes say things that aren't quite true in order to encourage a shared=
+ sense of belief by employees and investors, and that if this works it can =
+sort of be bootstrapped into reality. If Nikola=E2=80=99s founder lied abou=
+t its trucks early on, in order to raise funding to make those trucks real,=
+ then, as I put it, =E2=80=9Cthat's not a =E2=80=98massive fraud,=E2=80=99 =
+that=E2=80=99s just, like, startups, man.=E2=80=9D</p><p style=3D"margin: 1=
+6px 0;">This is a better defense for=C2=A0<em>Nikola=C2=A0</em>=E2=80=94 a =
+continuing company that is trying to make trucks with all that money =E2=80=
+=94=C2=A0than it is for that=C2=A0<em>founder</em>, though. If he lied to i=
+nvestors, that=E2=80=99s not great, even if later everything more or less c=
+omes true. <a href=3D"https://link.mail.bloombergbusiness.com/click/2459260=
+2.260173/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMj=
+kvbmlrb2xhLWZvdW5kZXItY2hhcmdlZC1mb3ItYWxsZWdlZGx5LW1pc2xlYWRpbmctaW52ZXN0b=
+3Jz/607f07ceef4b8524a319a23cB7c9e4800" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: sol=
+id; background-color: #ccc;"> Anyway</a>:</p><blockquote><p style=3D"margin=
+: 16px 0;">Nikola Corp. founder and former chairman Trevor Milton has been =
+charged by prosecutors with making false statements to investors in the ele=
+ctric-vehicle startup.</p><p style=3D"margin: 16px 0;">Milton, who stepped =
+down from the company in September, is in federal custody after voluntarily=
+ surrendering. He=E2=80=99s charged with misleading investors from November=
+ 2019 until about September 2020 with the development of Nikola=E2=80=99s p=
+roducts and technology, according to an indictment unsealed Thursday by fed=
+eral prosecutors in N.Y. The Securities and Exchange Commission also filed =
+a complaint against him.</p></blockquote><p style=3D"margin: 16px 0;">Here =
+are the <a href=3D"https://link.mail.bloombergbusiness.com/click/24592602.2=
+60173/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMS0xNDE/607f0=
+7ceef4b8524a319a23cBc4d589f6" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">SEC</a> and <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/24592602.260173/aHR0cHM6Ly93d3cuanVzdGljZS5nb3YvdXNhby1zZG55L=
+3ByL2Zvcm1lci1uaWtvbGEtY29ycG9yYXRpb24tY2VvLXRyZXZvci1taWx0b24tY2hhcmdlZC1z=
+ZWN1cml0aWVzLWZyYXVkLXNjaGVtZQ/607f07ceef4b8524a319a23cB9647f372" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">Justice Department=
+</a> announcements. Here=E2=80=99s <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/24592602.260173/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudH=
+MvdXNlcnMvaXFqV0hCRmRmeElVL3JCYkJNYVJKa1pOcy92MA/607f07ceef4b8524a319a23cB5=
+68ac9c5" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;">t=
+he indictment</a>, which suggests that Milton was =E2=80=A6=C2=A0a good mem=
+e-stock CEO?</p><blockquote><p style=3D"margin: 16px 0;">For example, on or=
+ about March 2, 2020, which was the day before Nikola publicly announced th=
+at it would combine with VectoIQ, MILTON wrote in an email to a member of t=
+he board of directors of Nikola, that we =E2=80=9Cneed to make sure we are =
+getting=C2=A0retail investors on our side. That is what prevents the stock =
+short selling. This is super important to me.=E2=80=9D</p><p style=3D"margi=
+n: 16px 0;">Accordingly, TREVOR MILTON, the defendant, appeared for numerou=
+s interviews on podcasts and on television, and in print and online media, =
+beginning immediately following the announcement of Nikola=E2=80=99s going =
+public combination with VectoIQ.=C2=A0</p></blockquote><p style=3D"margin: =
+16px 0;">Also, like everyone else,=C2=A0the grand jury can=E2=80=99t resist=
+ that=C2=A0truck rolling down the hill:</p><blockquote><p style=3D"margin: =
+16px 0;">In or about 2017, a representative of a large multinational corpor=
+ation approached Nikola and asked to use the Nikola One in a commercial cel=
+ebrating innovation. The concept for the video included a shot of the Nikol=
+a One coming to a stop in front of a stop sign. In order to accomplish this=
+ feat with a vehicle that could not drive, the Nikola One was towed to the =
+top of hill, at which point the =E2=80=9Cdriver=E2=80=9D released the brake=
+s, and the truck rolled down the hill until being brought to a stop in fron=
+t of the stop sign. For additional takes, the truck was towed to the top of=
+ the hill and rolled down the hill twice more. Additionally, the Nikola One=
+=E2=80=99s door, which had been constructed using minivan parts, had to be =
+taped up during the shoot to prevent it from falling off. Moreover, because=
+ the Nikola One had not been tested and was not safe (and indeed could not =
+operate), certain precautions were taken before towing the vehicle to the c=
+ommercial shoot. In particular, the turbine, which was designed to run on n=
+atural gas, and batteries were entirely removed from the vehicle to mitigat=
+e risk of fire, explosion, or damage. =E2=80=A6</p><p style=3D"margin: 16px=
+ 0;">Following the commercial shoot, TREVOR MILTON, the defendant, directed=
+ a Nikola employee to make a condensed video of the Nikola One truck moving=
+ using raw footage from the shoot. =E2=80=A6=C2=A0In the video, the Nikola =
+One appears to be driving down a road with no incline. In other words, the =
+Nikola One appears to be driving on its own power, notwithstanding that the=
+ Nikola One could not do so and has never done so.</p></blockquote><table c=
+lass=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Business Insider Wall Street intern diaries are back</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Honestly there is no higher form of in=
+ternet art=C2=A0than <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/24592602.260173/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS93YWxsLXN0cmVl=
+dC1zdW1tZXItaW50ZXJuLXNjaGVkdWxlLWhvdXJzLWludmVzdG1lbnQtYmFua2luZy13b3JrLWx=
+pZmUtMjAyMS03/607f07ceef4b8524a319a23cBb546fcb6" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">these</a>, except maybe those articl=
+es where=C2=A0people insist that it=E2=80=99s impossible to live in New Yor=
+k=C2=A0on $600,000 a year. Here=E2=80=99s what=C2=A0Monday looks like for =
+=E2=80=9Can intern at a top New York bulge-bracket investment bank=E2=80=9D=
+:</p><blockquote><p style=3D"margin: 16px 0;">9 A.M.: Head into the office.=
+ I live uptown, but a quick trip on the express train takes me about 10 min=
+utes.<br />10 A.M.: Coffee with a senior banker. We're all assigned a mento=
+r to focus on our learning, growth, and answering questions during the inte=
+rnship.<br />1 P.M.: Lunch with my intern class in the cafeteria.<br />2 P.=
+M.: Back to my desk. For the next few hours, I take notes on an internal ca=
+ll for an upcoming public offering, work on some slides for a marketing boo=
+k, and receive edits from more senior people on my team.<br />6:30 P.M.: Me=
+et with a friend from a nearby bank for dinner.<br />8 P.M.: Back to the of=
+fice to work on some slides for an upcoming public offering for a client.=
+=C2=A0<br />1 A.M.: Head home</p></blockquote><p style=3D"margin: 16px 0;">=
+I would love to tell you that by Friday it is:</p><blockquote><p style=3D"m=
+argin: 16px 0;">5 A.M.: I wake from an hour of uneasy sleep. We lost many b=
+rave interns last night in the fighting at the cafeteria, and have little t=
+o show for it. Montresor=E2=80=99s forces are strong and he is a formidable=
+ adversary. But I shall avenge my fallen brethren.</p><p style=3D"margin: 1=
+6px 0;">6 A.M.: The game is afoot. Montresor has built a fortress of monito=
+rs on the rates desk and guards it sleeplessly, but I know that he must tir=
+e and I will seize my chance. I have fashioned a crude battle-ax from a dea=
+l toy and our late VP=E2=80=99s femur; soon he shall meet his fate.</p><p s=
+tyle=3D"margin: 16px 0;">8 A.M.: Catastrophe! Starving interns on the munis=
+ desk have captured our food supplies. We are left with only the contents o=
+f a single vending machine; if we do not quickly organize a counter-raid ou=
+r forces shall starve to death.</p><p style=3D"margin: 16px 0;">10:30 A.M.:=
+ An associate confronted my most doughty warrior with a <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/24592602.260173/aHR0cHM6Ly9kZWFsYnJlY=
+Wtlci5jb20vMjAxMS8xMC92ZW5kaW5nLW1hY2hpbmUtY2hhbGxlbmdlLXVuZGVyd2F5/607f07c=
+eef4b8524a319a23cB6964d3a3" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">vending machine challenge</a>, and he felt honor-bound to=
+ accept. So now all of our food supplies are gone. We must attack now, or p=
+erish.</p><p style=3D"margin: 16px 0;">11 A.M.: Mentorship chat with an MD =
+in leveraged finance. I asked about the group=E2=80=99s exit opportunities =
+into private equity, which are really second to none.=C2=A0</p><p style=3D"=
+margin: 16px 0;">11:30 A.M.: The battle is bloody, but we have driven Montr=
+esor back from the rates desk and captured much valuable land and plunder. =
+I have displaced Montresor from the Throne of Skulls, which is what we call=
+ the late Co-Head of Trading=E2=80=99s Aeron chair. Also I used Montresor's=
+ Seamless allowance to order lunch, staving off the threat of starvation fo=
+r another day.</p></blockquote><p style=3D"margin: 16px 0;">But, no, the to=
+ne never really changes. Friday involves working on a VP=E2=80=99s edits an=
+d then =E2=80=9CI=C2=A0regroup and change into my outfit for the evening: a=
+ pink polo and jeans for a fun night of parties in Brooklyn with friends.=
+=E2=80=9D On Saturday it=E2=80=99s a party in the West Village with =E2=80=
+=9CPrinceton friends and some other Goldman interns,=E2=80=9D and then back=
+ to the office.</p><table class=3D"header" width=3D"100%" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Didi Global <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/24592602.260173/aHR0cHM6Ly93d3cud3NqLmNvbS9h=
+cnRpY2xlcy9kaWRpLWdsb2JhbC1jb25zaWRlcnMtZ29pbmctcHJpdmF0ZS10by1wbGFjYXRlLWN=
+oaW5hLWFuZC1jb21wZW5zYXRlLWludmVzdG9ycy0xMTYyNzU1MTA3MT9tb2Q9aHBfbGVhZF9wb3=
+Mz/607f07ceef4b8524a319a23cBde1c2451" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;">Considers Going Private</a> to Placate China an=
+d Compensate Investors. China Stocks Rally as Beijing Intensifies Effort to=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/24592602.260173/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjkvY2hpbmEt=
+c3RvY2tzLXJpc2UtYXMtYmVpamluZy1lc2NhbGF0ZXMtZWZmb3J0LXRvLWNhbG0tbWFya2V0/60=
+7f07ceef4b8524a319a23cB84992054" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> Calm Market</a>. Apollo Books $1.6 Billion Gain Sel=
+ling Hospital Chain <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/24592602.260173/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwM=
+jEtMDctMjkvYXBvbGxvLWJvb2tzLTEtNi1iaWxsaW9uLWdhaW4tc2VsbGluZy1ob3NwaXRhbC1j=
+aGFpbi10by1pdHNlbGY/607f07ceef4b8524a319a23cB14332dad" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> to Itself</a>. BlackRock Supp=
+ort Sought in Bid to End 5-Month <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/24592602.260173/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjEtMDctMjgvYmxhY2tyb2NrLXN1cHBvcnQtc291Z2h0LWluLWJpZC10by1lbmQ=
+tNS1tb250aC1jb2FsLW1pbmUtc3RyaWtl/607f07ceef4b8524a319a23cB08c38c10" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> Coal-Mine Strik=
+e</a>. Jared Kushner Plans to <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24592602.260173/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGl=
+jbGVzLzIwMjEtMDctMjgvamFyZWQta3VzaG5lci1wbGFucy10by1vcGVuLWludmVzdG1lbnQtZm=
+lybS1pbi1taWFtaS1pc3JhZWw/607f07ceef4b8524a319a23cBb4992963" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Open Investment Firm</a=
+> in Miami, Israel. Adam Neumann <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/24592602.260173/aHR0cHM6Ly93d3cuZ2F3a2VyLmNvbS9uZXdzL2FkYW0t=
+bmV1bWFubi1zcG90dGVkLWluLXRoZS1oYW1wdG9ucy13aXRoLXJhYmJpLXBpenph/607f07ceef=
+4b8524a319a23cB9c097e53" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">Spotted in the Hamptons</a> With a Pizza and a Rabbi. Can th=
+e Mets Paint Their Faces <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24592602.260173/aHR0cHM6Ly93d3cuZ2F3a2VyLmNvbS9jdWx0dXJlL2Nhbi10aGUt=
+bWV0cy1wYWludC10aGVpci1mYWNlcy1saWtlLW1yLW1ldA/607f07ceef4b8524a319a23cB0e3=
+3ae00" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">Lik=
+e Mr. Met</a>? With God as My Witness I Will Not <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/24592602.260173/aHR0cHM6Ly93d3cubWNzd2VlbmV5=
+cy5uZXQvYXJ0aWNsZXMvd2l0aC1nb2QtYXMtbXktd2l0bmVzcy1pLXdpbGwtbm90LXBpY2stdGh=
+lLXJlc3RhdXJhbnQ/607f07ceef4b8524a319a23cB2518d56b" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">Pick the Restaurant</a>.</p><p st=
+yle=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-media"><e=
+m>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, righ=
+t in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbusiness=
+.com/click/24592602.260173/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5j=
+b20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI=
+5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB0d001f1d" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">subscribe at this link</a>. Or you can subscribe to Money Stuf=
+f and other great Bloomberg newsletters <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/24592602.260173/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL=
+25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB67e9278a" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span></p><=
+p style=3D"margin: 16px 0;"><em>[1] Page 7 of the report discusses the diff=
+erence between Archegos=E2=80=99s physical stock holdings, which got margin=
+ loans from Credit Suisse's Prime Brokerage division, and its swap holdings=
+, which were financed out of Credit Suisse=E2=80=99s Prime Finance division=
+ (both part=C2=A0of Prime Services): =E2=80=9CArchegos=E2=80=99s Prime Brok=
+erage portfolio was margined under CS=E2=80=99s Standard Margin Procedure, =
+with dynamic margining to factor in changes to its portfolio characteristic=
+s (volatility, concentration, bias, etc.). By contrast, Archegos=E2=80=99s =
+swaps with Prime Financing were statically margined. This meant that initia=
+l margins were calculated based on the notional value of the swap at incept=
+ion and remained static in dollar terms over the life of the swap; thus, if=
+ the value of Archegos=E2=80=99s position increased, the initial margin as =
+a percentage of the position being financed eroded (and Archegos=E2=80=99s =
+leverage with CS increased). This margin erosion was exacerbated by the spe=
+cific form of swaps that Archegos favored, so-called =E2=80=98bullet=E2=80=
+=99=C2=A0swaps, which did not periodically reset to the current market valu=
+e (with a corresponding increase in margin) and had an average tenor of 24 =
+months.=E2=80=9D</em></p><p style=3D"margin: 16px 0;"><em>[2] Pages 86-87 o=
+f the report have more detail, including more of the email.</em></p><p styl=
+e=3D"margin: 16px 0;"><em>[3] Another ghostly committee pops up on pages 85=
+-86 of the report: =E2=80=9CThe CRM analyst also pointed to the significant=
+ size of Archegos=E2=80=99s positions in certain companies and asked if the=
+se positions had been pre-approved by CRM or the Prime Services Risk Commit=
+tee (=E2=80=98PSRC=E2=80=99). The PSRC, which included the Co-Heads of Prim=
+e Services, the Head of PSR, and various global and regional business heads=
+,=C2=A0had existed since 2010 and met on a quarterly basis, although meetin=
+gs of the PSRC appear to have been discontinued in 2020. According to a PSR=
+C guideline published in 2018, large, single-name swap trades with a single=
+ counterparty over $250 million required PSRC approval. While the Co-Heads =
+of Prime Services and Head of PSR explained that the approval of large trad=
+es was time sensitive and was handled by email since it could not await a q=
+uarterly meeting, we have uncovered no explanation for why the PSRC meeting=
+s had been discontinued or why there was no other meeting attended by the C=
+o-Heads of Prime Services and the Head of PSR devoted to risk in the Prime =
+Services business. The Head of PSR told the CRM analyst that he was unaware=
+ of whether the Archegos trades had been pre-approved by PSRC and indicated=
+ he would check. The Head of PSR later acknowledged, however, that, based o=
+n his inquiry, he believes the traders sought approval for some, but not al=
+l, of the large trades executed for Archegos, and that he thereafter held a=
+ global call with the Delta One desk to remind the traders of their obligat=
+ion to seek pre-approval for such trades.=E2=80=9D Big trades required appr=
+oval from this fancy committee, but everyone just forgot about it.</em></p>=
+<p style=3D"margin: 16px 0;"><em>[4] There is a suggestion (on page 110) th=
+at Archegos only started regularly sweeping variation margin in February 20=
+21, shortly before it defaulted; before that (including during the GameStop=
+ short squeeze) it kept a lot of its winnings in its account with Credit Su=
+isse, so when positions moved against Archegos, Credit Suisse didn=E2=80=99=
+t need to call extra margin.</em></p><p style=3D"margin: 16px 0;"><em>[5] T=
+his is pages 22-23. Note the delicate phrasing from Credit Suisse=E2=80=99s=
+ lawyers here. If, as described here, Archegos asked its banks not to blow =
+out its positions, and the banks considered it, that doesn=E2=80=99t sound =
+like an antitrust violation. If, as suggested in some news reports, *Credit=
+ Suisse* was like =E2=80=9Chey guys let's not sell any of this stock for a =
+while to keep the price up,=E2=80=9D <a href=3D"https://link.mail.bloomberg=
+business.com/click/24592602.260173/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjEtMDYtMzAvYW1hem9uLWdvdC1zb21lLXdhcnJhbnRz/607f07ceef=
+4b8524a319a23cB9484f2c8" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> that is riskier</a>.=C2=A0</em></p><p style=3D"margin: 16px=
+ 0;"><em>[6] This is speculative but man do I *want* it to be true. I have =
+discussed it before, e.g. <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/24592602.260173/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjEtMDYtMDgvbW92aWVwYXNzLWNoYW5nZWQtc29tZS1wYXNzd29yZHM/607f07ceef=
+4b8524a319a23cB6fdea6d7" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> here</a> and <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/24592602.260173/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fy=
+dGljbGVzLzIwMjEtMDYtMTAvbWF5YmUtZ2FtZXN0b3AtaXMtZ29vZC1ub3c/607f07ceef4b852=
+4a319a23cB4819a823" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> here</a>.=C2=A0</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24592602.260173/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB5a17f3ce" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24592602.260173/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB434f2cba" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24592602.260173/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB1529c2ba" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24592602.260173/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB79139592" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2459260=
+2.260173/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB2320f9a3" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24592602.260173/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC0c49dabb" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24592602.260173/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB99950a1f" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24592602.260173/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB95981b5e" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cen3ru.5kr1/682a13fc.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_78280132_1208859285.1627578898491--
+

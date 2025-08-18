@@ -1,0 +1,2136 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:aa6:c011:0:b0:191:bcf:3d4e with SMTP id z17csp158434lko;
+        Mon, 31 Jan 2022 05:58:34 -0800 (PST)
+X-Received: by 2002:a05:600c:3552:: with SMTP id i18mr7644663wmq.21.1643637514335;
+        Mon, 31 Jan 2022 05:58:34 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1643637514; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=NY7EN1BLsHlAK45d+8Z3HMtOnG9vWGT4YsHgau2g5kNojTS1EDCMLgyBBQmSZuc2bg
+         KcsXZ8KXOfJHErsP3fSE/zytIEKOZrHUR/ymoutd7z07FN43iSECdwm5SXRbXf1AvRL7
+         a+QZ+dZ+P+8eUw3TKQ2DuRRq4VGScshE+JUAg+9EmLHS10n9+3X6ng2kcOycqqvIXxIv
+         oFXSW7x1fA7bgyakcMPqqnEzOICuvoifm0e3weJeTKvNhB5Nqo6zWd8maKmWgQSYtRl0
+         TDjOIR+7LV5RzjYQhesV09QHB8xlLaHVuxtcLk6ujKU1HQNHxPda3Ut7eisVsYU5m1hO
+         bx8w==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=references:list-id:sender:list-url:list-unsubscribe:reply-to
+         :in-reply-to:date:list-archive:list-owner:list-unsubscribe-post
+         :list-post:message-id:to:from:subject:mime-version:dkim-signature
+         :delivered-to;
+        bh=LG9nME+4xZD9i8+LGE5B0Hf2+V1M3mEQpvn/kp23a/Y=;
+        b=Eqxuz2Z8wEfZWcvs0ikxetmgjk2YCSPhYdAJKnDPrlOlTHvGioZIydxpWkwAghuoKI
+         A9nrTtm8BRofpeOuQ6WNbCJTeeIFPG7Jmy2zjZhSu4QK1B5TIi0HoFfOqiV2JPPqOfJP
+         t8zifOiqKh6wpw1aX3umiEcNQ5Qrpt7Hp6sa5stbJTUFWl9fFXIqYlGPDkjFikFI/MpB
+         GHfG57iWM1oBo5iOIs+kTWe+UhAiD1Qcz4nLYIOQf41y7e3ptlWPNiVd0JOgjnOZ3jyO
+         qz8QZxjHYR1+rdEPf7j7UkelJGv6mC4Mjg24QxNez8xVtQabQrZoMrPQAH8EGVCfuXXM
+         gS4A==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=J8xhURl+;
+       arc=pass (i=2 dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id m22sor4739472wmq.3.2022.01.31.05.58.33
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 31 Jan 2022 05:58:34 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=J8xhURl+;
+       arc=pass (i=2 dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:mime-version:subject
+         :from:to:message-id:list-post:list-unsubscribe-post:list-owner
+         :list-archive:date:in-reply-to:reply-to:list-unsubscribe:list-url
+         :sender:list-id:references;
+        bh=LG9nME+4xZD9i8+LGE5B0Hf2+V1M3mEQpvn/kp23a/Y=;
+        b=EN/ptXKAtWZLxB4LkHDBxb0ra0qHvx0nuGzWnidYB9X0wAkxhi9hJG6C7zoG/puV20
+         myPKcODAyhKnqOS8Sh1lSw0PV9Lp1/RnhU1M4jGZFzbbowi5kk5OtmxjRwOAKPrJRc7d
+         jwa+dSG2WG6I+hKvkBTsfiN+Cq+woZf+NKW6qi6ZzhDdH4J7Kyrywq64ztDliWt+1Cx7
+         0ITQmKhg+FH+dSYLRrMASISuknZIc6opdlicqE59LESdceKfRRw2SNdCS5RCQ8BVxS8F
+         xe+M13zUXE52TLQAdIQBOxPZ6BtKxpyYlTjBxPSAoczP75id8Gh0wFjYoOeuDeTw///R
+         WdTw==
+X-Gm-Message-State: AOAM532oyDXAk6vCYPTE1ZL0Zo8swUlnJPKtBIVkXOEO6V3AGQaHVwoi
+	jmp0hBBjlK/BaqHQxy3QMll1pQ7DCX1JDzRfWC/WtkNh9zBZN2Ojeg==
+X-Received: by 2002:a1c:440a:: with SMTP id r10mr19147303wma.142.1643637513749;
+        Mon, 31 Jan 2022 05:58:33 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f350:0:0:0:0:0 with SMTP id e16csp100847wrp;
+        Mon, 31 Jan 2022 05:58:31 -0800 (PST)
+X-Received: by 2002:ad4:5c4f:: with SMTP id a15mr17597821qva.109.1643637510889;
+        Mon, 31 Jan 2022 05:58:30 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1643637510; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=PDaZK1WvOno220CUbiU7DOp4iQKvsFRmzgDLaSFI3g16/WWWmd8GSYs4SbdI5sZYl2
+         wf+EiY4CEkDC6h0xHK/bFms/BplW7hxePc5uH9W9GQTaADtzywEYWxHY8hUD4EfLrIFN
+         njjfmLh2SK9Lk/QVRR6ho/By2KaPATe8jT0vqfV0YWFKFTES3vqg0jfn0GRYwr5pNiHL
+         XBR02V/2J0vwNW+yGsWM+7HTtHWmAdUgn3LXfwfQK/thvs+mEV+kNGjLfJqa5Je6O17i
+         dIiq4KPaMLlwcRINvbuOi6O17+G17YVGmIbNLhI3EqrKi26x0rHxsFEMfdPeQHROERWP
+         4Uvg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=references:list-id:sender:list-url:list-unsubscribe:reply-to
+         :in-reply-to:date:list-archive:list-owner:list-unsubscribe-post
+         :list-post:message-id:to:from:subject:mime-version:dkim-signature;
+        bh=LG9nME+4xZD9i8+LGE5B0Hf2+V1M3mEQpvn/kp23a/Y=;
+        b=eb5opFG3hPJJrMLTMl6ThWwxKfLIw1ZvUtCsZKQGXHINn0C16gbltg5unfd0NHpW7l
+         4/A7xSXL24KVM/WiSyPVc0m/HAFGT/6kuDjuBzJ23Cqk7clFWvMB8zh6lbGcyvLQbh9t
+         KCXDOeH7+cCvBXqDAR1RNrhQDmTO1AJRmKhnyyiVaU/1FUR/6jBfr/h9tdnRrMVUKZxn
+         E24wve19n1OTsxZLihYwBz/VWC1/FD7BrZhLuX5EgFaQJM7281ipVirUWgTalOgqnh04
+         9v1f654jJoiHVNVpi7+JqZB9+U88+TvFgiH/mkPgkVR1yfM4kdv5QnOHWsELmHjnIUmK
+         tRKQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=J8xhURl+;
+       arc=pass (i=1 spf=pass spfdomain=mg2.substack.com dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id u10sor7387424qvg.54.2022.01.31.05.58.30
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 31 Jan 2022 05:58:30 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJw/GTcWiFq+I9leiKxWPZs+Jh3pmBSzTfZyLT1DTC+EkbQfHRCxEetC0ePCzR7XzCdbhVtw9tFaJZRN23fbcOlqN0bNnKM=
+X-Received: by 2002:ad4:5761:: with SMTP id r1mr13713598qvx.22.1643637510333;
+        Mon, 31 Jan 2022 05:58:30 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1643637510; cv=none;
+        d=google.com; s=arc-20160816;
+        b=VRK8Ek/tj6G7CSzbbZgtkpvWHJvms7qmo+SIZZviIzE428EPLLf6A2U01gqsgDz/LU
+         11B8Np2ycv7zEOaglWzg/MzuYM4WoboYxaYeziM82bWmQ+JZO+EWWqcu1EhZKd5wM6FM
+         bKncnCerAIn3myb+tGXLV4wBxaXUspjDNxhGJNl0EEVyvNizIFr/aWI6EiZjPnLqRapI
+         tPEMQhndu0W25DP7tdHgLtI7aBSlbowTK8iMuQapzEkI98Z4QL/iIImJcu9HGW0MQ40q
+         J+SN7I/B7qF4L94fwzLcNNNTc8H1Q5iwfgtOcVCiw02cT5hrijsBfwA6PjYO5H/XvVT2
+         MDJA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=references:list-id:sender:list-url:list-unsubscribe:reply-to
+         :in-reply-to:date:list-archive:list-owner:list-unsubscribe-post
+         :list-post:message-id:to:from:subject:mime-version:dkim-signature;
+        bh=LG9nME+4xZD9i8+LGE5B0Hf2+V1M3mEQpvn/kp23a/Y=;
+        b=bLcIr8wRZA5xr9rPlCXOhwbHnWCI/6vXyLH6AyfQR1BEhJdtcPvhKReoGMVnorOm+r
+         jcLg6UThS12avthSpnOfMPpJTQJKU41G38OYQdf5YswwzwH6SC+vCaN1y4pyp8FhJ6kC
+         9hGXku7noG3s4YVlUBtuWkugIK9yzIGLsFwmkUkcp9PCJEvOYUUQ47HHYd3c8pzn8pYQ
+         yCftIvIcINVUXaXoPtIorL0QMEgMvxk1kuY4DnsBoHMhDWusrrARDhCKMpn3uNJe34lL
+         5InjHXnBptXWK4xEcShGpTNHy1EWpcJSmWJ7c1AVWTgu7DbqEwT+gLh+ZBZrnVApZOb4
+         r8wg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=J8xhURl+;
+       spf=pass (google.com: domain of bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com designates 166.78.71.234 as permitted sender) smtp.mailfrom="bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com>
+Received: from mg-71-234.substack.com (mg-71-234.substack.com. [166.78.71.234])
+        by gmr-mx.google.com with UTF8SMTPS id 196si99063qkj.1.2022.01.31.05.58.23
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 31 Jan 2022 05:58:30 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com designates 166.78.71.234 as permitted sender) client-ip=166.78.71.234;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg2.substack.com; q=dns/txt;
+ s=mailo; t=1643637510; h=References: List-Id: Sender: List-Unsubscribe:
+ Reply-To: In-Reply-To: Date: List-Archive: List-Owner: List-Post:
+ Message-Id: To: From: Subject: Content-Type: Mime-Version;
+ bh=LG9nME+4xZD9i8+LGE5B0Hf2+V1M3mEQpvn/kp23a/Y=; b=J8xhURl+V4XxqMbNqUaDUMyvkRxfR3YUrhcAN0LwDPq4sqK2sYDiq/2XmAF3ccD7OFo2q0Kc
+ ypLFT2Ihinn/J5iZhWPrgt+MH9KgsksR5uxu/ec9M0XFFqRnDPQGDlJaSjNs8QDdNMLptTQG
+ FBlbWJDR/5q0wtpe2xsyhlZs3Wc=
+X-Mailgun-Sending-Ip: 166.78.71.234
+X-Mailgun-Sid: WyIyZDMzMyIsICJub3Rib3JpbmdAa2hhbWVsLmNvbSIsICI0ZDE4NTgiXQ==
+Received: from <unknown> (<unknown> []) by
+ api-n18.prod.us-west-2.postgun.com with HTTP id 61f7eaf7010f6e6b41edae92;
+ Mon, 31 Jan 2022 13:58:13 GMT
+X-Mailgun-Batch-Id: 61f7eaf5b360e817985c8e43
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="113a1938c7080481f41dd77aad6acd46376cedc785424b09a6db44c7482a"
+Subject: Braintrust: Fighting Capitalism with Capitalism
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+Message-Id: <20220131135804.2.7636ca1e0241b1e4.7yafusaq@mg2.substack.com>
+List-Post: <https://www.notboring.co/p/braintrust-fighting-capitalism-with>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Owner: <mailto:notboring@substack.com>
+List-Archive: <https://www.notboring.co/archive>
+Date: Mon, 31 Jan 2022 13:58:04 +0000
+In-Reply-To: <post-47959522@substack.com>
+Reply-To: Not Boring
+ <reply+sjxsy&9p0gt&&2ee97a111aea08d33f57af75358ce682ef7a694d0dfdf2f67e24962520696d48@mg1.substack.com>
+List-Unsubscribe: <https://www.notboring.co/action/disable_email/disable?token=eyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NDc5NTk1MjIsImlhdCI6MTY0MzYzNzQ5MiwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoiZGlzYWJsZV9lbWFpbCJ9.aOrnDYeaYn8dSA8byckHfUXUcQkwUDpYaCx0M0Sbyvs>
+List-Url: <https://www.notboring.co/>
+Sender: Not Boring <notboring@substack.com>
+List-Id: <notboring.substack.com>
+References: <post-47959522@substack.com>
+X-Mailgun-Variables: {"category":"post", "email_generated_at":"1643637492672",
+ "is_freemail":"true", "post_audience":"everyone", "post_id":"47959522",
+ "post_type":"newsletter", "pub_community_enabled":"true",
+ "publication_id":"10025", "subdomain":"notboring", "user_id":"16283549"}
+
+--113a1938c7080481f41dd77aad6acd46376cedc785424b09a6db44c7482a
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://email.mg2.substack.com/c/eJxFkMtuxCAMR=
+b9m2E3EM48Fi276G5EhngRNAik4jfL3pTNSKwGWfLGOfDwQzilfdk-F2O8z0rWjjXiWFYkws6Ng=
+HsNkRSt7ZfTAJqsn0ZuehTI-MuIGYbWUD2T74dbggUKKrwnOpWGLdZ0xxg0wKY29RyeUU30vWgU=
+c65fhzYVjChg9WvzGfKWIbLUL0V5u6uMmP-s5z7OJiVzKIc6NT7W11-syhFj5he6PMC9Uw7uHPR=
+CsoWz3M9DCgpVcSi6UEMr0XDey6VrVehDIpRZOoG66Cx5Hga-b5tssm3K4QuCfFbSxbP_ANX4us=
+OH6CurKY63bEQNdI0ZwK05vG_SW-vIzzhgxV9nTCFRVatWqTg-y7eR7-6pLd4MZjJSskqdUp-I_=
+9Af7lZBU
+
+Welcome to the=C2=A02,262=C2=A0newly Not Boring people=C2=A0who have joined=
+ us since last Monday! Join=C2=A0103,299 smart, curious folks by subscribin=
+g here:=20
+=F0=9F=8E=A7=C2=A0To get this essay straight in your ears:=C2=A0listen=C2=
+=A0on=C2=A0Spotify [https://email.mg2.substack.com/c/eJxFkU1LxDAQhn9Ncyz5ar=
+o55KAugqiIHxdPJU1mu2HbpCapGn-9cfcgDDMwLy_v8IzRGaYQi1pDyuivDbmsoDx8pRlyhoi2B=
+HFwVhFBd6zjElnFLdl1O-TScIgAi3azynEDtG7j7IzOLvizA2PaoaMyUkihzYjxSMZOUmukNRak=
+FHyHeX-45OrNOvAGFHxCLMEDmtUx5zU17Kqht7XCCr5Na8juUFoTlrpKx_BVhziR94frz6eXl8c=
+S0n1h3-T7bm7YbXIN2-_Xwt3Nff_c0VfywBn5SW94Qk5RTCkmjBDW1UNa2vaCCaMJYMrJSIC3fd=
+GHLemPhuNlom3axpS1Of2lo6h8yGOIzk9VPh31AvNZqBiGOpfNu1wG8HqcwV4I5QvoM7NhAg-xP=
+sAOOle8nAnWc0lFTy9EKkLey052lKKabEN1-f_QX1qSlD4] or=C2=A0Apple Podcasts [htt=
+ps://email.mg2.substack.com/c/eJxFkEtuxCAMhk8z7BqBgZAsWHTTa0QEnAyaBFIerXL7M=
+pNKI1k2tmX_-LOm4BrTqY-YC3m6qZwH6oC_ecNSMJGaMU3eadbDwKUYidPCsUEOxOdpSYi78Zsu=
+qSI56rx5a4qP4TVBKUhy1-gWZa0QKLkAwQY1qr7n3DFqhkEu9tI11XkMFjX-YDpjQLLpeylHvvH=
+PG3w1O6KzJpfcmePYsLNxb8Wa3532CrF8zDH5sLbEOyZBCWAjZ8RroACUcca4HKjooFM9761hSN=
+uvZoaiU6dZajbfN0H3Fbpc51yMfTylSNJt9_9qQR93s-P2arSrpxb3Gnw5Jwxm3tBdQMrF9YVoW=
+jFgarzdZEqjKXjPlRihV3ABaMSEGuUoAUhTdrFNhbfoHzYPjks]
+Hi friends =F0=9F=91=8B,
+Happy Monday!
+I was planning to write this Sponsored Deep Dive on Braintrust and send it =
+last Thursday like I normally do for Sponsored Deep Dives, but as I got dee=
+per into the piece, I realized that Braintrust is a perfect case study on h=
+ow a web3 protocol can compete with, and potentially beat, web2.0 incumbent=
+s.=20
+It=E2=80=99s playing out now, in real-time, and is one of those approachabl=
+e =E2=80=9Creal use cases=E2=80=9D that supporters and skeptics alike long =
+for.=C2=A0
+So this is a Sponsored Deep Dive on a company that I invested in via Not Bo=
+ring Capital last year. You can read my Sponsored Deep Dive selection and t=
+hought process here [https://email.mg2.substack.com/c/eJxFkU1vwyAMhn9NOUaBE=
+EIOHCpt09Suu0yqtlNEwElRE0j5WJV_P9ocJmFsYb1-rQclI4zOr2JxIaLH1cV1AWHhHiaIETxK=
+AXxntMCM8KqmLdKCasxrjkzoBg8wSzOJ6BOgJfWTUTIaZ5-KsiQ1uggJbNBcyrLtST0wrrhiFGO=
+pMRBSqn7zlUkbsAoE_IJfnQU0iUuMS9hV-x15y0c7FYrRuXGCQrl5e0kz2Pgoc-AjoXp_rK_Nx3=
+v6OYXDadVEqpev2533r_owd4syZz-fP78fI0GbiIwgZd4CVxhXNS9pQYqGVUxJDCWhuMdAi2aVQ=
+wrytqPlPJIipD5Eqa6PJZAX1sXeeWPH3L5e5AzTs5FhdDnPyZq4dmBlP4HeOMUN95NcN4IFn79B=
+dzJmyLRiVUNbwhqycckgadPWbU0Iys7aZZX9N_0DxbqXUA], but on a Monday, not a Thu=
+rsday.
+I=E2=80=99ve only written one other SDD on a Monday =E2=80=93 Solana Summer=
+ [https://email.mg2.substack.com/c/eJxFkMtuxCAMRb9m2DUCQ14LFt30NyIHnAyaBFIe=
+jfL3pTNVKwGWuLKv7zGYaQ3x0kdImf08U74O0p7OtFHOFFlJFCdntehgkK0amdXKiqEdmEvTEol=
+2dJvOsRA7yrw5g9kF_-zgHFp214vskM92MDOMSGq0pu9wGSyX0A6jhJcvFuvIG9L0RfEKntim7z=
+kf6Sbfb_BRz3mejQ95DtH5tTGhfh31prChx7dU9r2u6zRwAC6kELIduGqg6TvZGRTEQYlZkGr6C=
+5eS8POm-L5Ck8qcMppHHbmzqP8sqvy4407bU6jhplr34l2-JvI4b2RfufML35PEtJKnWLHaCXOF=
+pmQnezVC1__mrGBUP7ZjC8Cqsw21y_-bfgNQNYf-] =E2=80=93 and like that piece, I=
+=E2=80=99m only doing it because this is a piece that I would have written =
+on a Monday, and I=E2=80=99m writing it just like I would write a Monday pi=
+ece. I=E2=80=99m not selling anything =E2=80=93 there=E2=80=99s no tracking=
+ link anywhere =E2=80=93 and I=E2=80=99m not telling you to invest.=C2=A0
+It=E2=80=99s just that, in Braintrust, I found the perfect vehicle for so m=
+any of the arguments I=E2=80=99ve been trying to put into words.=C2=A0
+Disclaimer: Brainstrust has a publicly traded token =E2=80=93 BTRST =E2=80=
+=93 so let me yell this as loudly as I can: THIS IS NOT INVESTMENT ADVICE. =
+I mean this. BTRST is worth multiples of what it was when I invested last y=
+ear. The whole crypto market has been volatile, and BTRST has been more vol=
+atile. Not Boring Capital owns BTRST tokens, but I have no idea what the pr=
+ice will do in the next day, week, month, year, or decade. The team has sai=
+d publicly many times that they don=E2=80=99t care what the token price is.=
+ Always DYOR.=C2=A0
+Let=E2=80=99s get to it.
+Braintrust: Fighting Capitalism with Capitalism
+In the very first post I wrote about web3 last January, The Value Chain of =
+the Open Metaverse [https://email.mg2.substack.com/c/eJxFkM2OhCAMgJ9muGn4FT=
+1w2Mu-hkGtSkbBhTLGt19mTHYTCkmb8rXfaBGWEC9zhITkffV4HWA8nGkDRIgkJ4i9mwxreCuU7=
+Mhk5MRa1RKX-jkC7NZtBmMGcuRhc6NFF_yng1KuyGrkwEB1zM6NYt2gtaQth07PklOmKRc31-bJ=
+gR_BwAviFTyQzayIR3qIrwf_Luc8z9oHHEJ0fqnHUFJHCVyhetktQzWu1vkqzNU7FQ7w1Q5oy3c=
+JiDOc8gIUjAnVUlnzWjeiGS0DyiUrI8paX3bOyf48JN0XXqc8JLTjs6B2Es0fupSfq91h-xTK0n=
+159-wdXj14O2ww3T7w1vox1C_gIRbdU2-xyJSiEVp2vNH83r8Ik7pTneKcFPIUSpf_h_4Cp9uPm=
+A], I wrote:=C2=A0
+That=E2=80=99s what excites me most about Web3: the new business models it =
+enables and the new value chains that emerge when the middleman is removed.=
+=C2=A0
+I wrote that piece as someone who had previously been curiously skeptical a=
+bout web3. The first thing that clicked for me was the understanding that a=
+s people spent more and more time online, in ~*the metaverse*~, we would wa=
+nt to buy, own, and sell our own digital things without needing to rely on,=
+ and more importantly pay an extractive take rate to, someone sitting in th=
+e middle.=C2=A0
+I made this beautiful graphic to help visualize what that looks like:=C2=A0
+As you know, my brain can get out there, and an imagined future in which we=
+ rely more heavily on digital assets and would like to own and transact wit=
+h those assets wherever we go in digital space was enough for me to buy in =
+to the web3 vision.=C2=A0
+But I also understand that many people want to see =E2=80=9Creal use cases=
+=E2=80=9D before getting too excited. =E2=80=9CJust show me one thing that =
+a normal person would use in their everyday life,=E2=80=9D these people rea=
+sonably demand, =E2=80=9Cthat is better than the existing alternative becau=
+se of the use of web3 tools.=E2=80=9D=C2=A0
+Allow me to introduce Braintrust [https://email.mg2.substack.com/c/eJxFUMtu=
+xCAM_JrlGIGBPA4ceulvIBKcLNoEUnAa5e_Lbg6VLFvyaDyemRzhkvJl9lSIvZula0cT8SwrEmF=
+mR8FsgzeihV5qNTBvlBe97lkods6ImwuroXwg249xDZOjkOKHwTlo9jTedz06redZS-XBwcwnId=
+sRpOzmFvDWdYcPGCc0-Iv5ShHZap5Ee3nIrwd81zrPs6nfjNmFWPUKNVPa6p4FAxyACymE1D1XD=
+TRdK9vJCeSgxChQNd3l5qO4n4fi2wJNOcZCbnq9T7BsYqIx5RCXCr-ebsP1A1RDts7tiIEui9GN=
+K_rbK92RfdzbBSPmGqW3jmpQSrayUwO0HdzeahiqG_SgAVhV9qmy4r_oH-yNg9o].=C2=A0
+Braintrust is a user-owned talent network that is growing fast and reaching=
+ real scale just eighteen months after launching the public beta of the pro=
+tocol last June. $37 million in Gross Service Value (GSV) =E2=80=93 what Cl=
+ients pay Talent =E2=80=93 has flowed through the network, with nearly twic=
+e that contracted for the coming months.=C2=A0
+This isn=E2=80=99t theoretical or conceptual. It=E2=80=99s happening now, m=
+atching real people with real jobs at top companies. You can watch the grow=
+th daily on its public dashboard [https://email.mg2.substack.com/c/eJxFkEFu=
+xCAMRU8zLCMwEJIFi256DeQQJ4OaQAqkVW5fZrKoZNmLL_v7P4-V1pQve6RS2au5eh1kI_2WjWq=
+lzM5C2YXZih4GqdXIZqtmMeiBheKWTLRj2GzNJ7HjnLbgsYYU3xucg2ZP26MAuSApMS7ecAO0DI=
+MZcdJCewXm9sVzDhQ9WfqhfKVIbLPPWo_ykB8P-GwV4pI6PI6uvTRlDLGZltr5tDeRBQscgAsph=
+NQDVx10ppe9R0EclJgEqc5cuJwFvx-K7yt05ZxKRf_1OsGyjalOKYe4NvnriTttb6Glcm3uZwz1=
+chRx2mi-A9eb2xuBWylSbjxnh7XRUrKXRo3QG7gDNiLKjHrUAKw5z6ltxX_TPysShTo]. That =
+dashboard also shows that 2,373 total jobs have been completed at an averag=
+e project size of $72,474 and duration of 228 days.=C2=A0
+Braintrust=E2=80=99s market cap is $315 million, its fully diluted market c=
+ap is $896 million, and in December, it announced a fresh $100 million toke=
+n sale [https://email.mg2.substack.com/c/eJxFkEuOwyAMQE9Tdo34hmTBYjZzjYiAm6=
+ImkAEzUW4_tFmMhGzJlnn2cxZhSfk0eypI3mHCcwcT4SgrIEImtUCegjes54NQciTeSM8GNZBQp=
+kcG2GxYDeYKZK_zGpzFkOJnglKuyNMIKjSHwQ5McdePo6VaCKHVg4HXfJQX11YfIDow8Av5TBHI=
+ap6Ie7mJrxv_bu84jq5tM2cbYuMV7FzaWn1e09LSvfG2-4y54H2v2T1tARIMp5xTJhgTaqCy453=
+uRe8sA8olmxnITp_2UYv9uUm6LbwrdS5o3ev9O8kmJpxTDnFp7dfTbrB-Gu3WqeWtxoDnBNHOK_=
+hLA142P2KmBSLkZtlPFptDKXqh5ch7za-zmyepRzUqzkkj-9Sm4j_0D0jPjBY] to Coatue, T=
+iger, and existing investors to fund grants to grow the ecosystem.=C2=A0
+This is web3 in the real-world.=C2=A0
+Braintrust is not a radically new product or business model. It doesn=E2=80=
+=99t require you to believe that digital objects have value or promise mult=
+i-thousand percent yields. Braintrust just connects companies looking to hi=
+re flexible technical talent with that talent, and charges a fee for doing =
+so. Simple.=C2=A0
+It looks like a normal talent marketplace on the surface.=C2=A0This is its =
+homepage:=C2=A0
+It doesn=E2=80=99t slap you in the face with web3. You need to scroll to th=
+e fifth section to find the first glimpse: =E2=80=9CTake ownership: Braintr=
+ust is controlled by you, the Talent, through the BTRST token [https://emai=
+l.mg2.substack.com/c/eJxFkMtuhDAMRb-G7Iry4rXIolI1q_4DysNANJDQxBTx980Mi0qWLd=
+myr--xGmGO6VJ7zEheacRrBxXgzCsgQiJHhjR6p1jLe9HIgTglHeubnvg8Tglg035VmA4g-2FWb=
+zX6GN4blPKGLMqabnLOgKQDG6gVQrdTQycrYLLDYOytqw_nIVhQ8AvpigHIqhbEPVfis-KPEud5=
+1uUbk7QPRS9jbeNW-gZTxg-MTwiVeCz5W4e5El8QiFecck6ZYEw0PZU1r7tWtFYzoFwyw0DW3aW=
+nI-ufStJt5nU-TEZtn6_bJKkQ0cTky0FJn4veYH0PitOx1O0IHq8RgjYruBsC3izfWMYZAqTC2I=
+0aC0EpWtHJgbcdv00XSrIbmqHhnBRlF8tW-Bf9A54ajYY].=E2=80=9D=C2=A0
+The value proposition to the two sides of the marketplace =E2=80=93 Talent =
+and Enterprises =E2=80=93 mentions the token as just one of six reasons to =
+use Braintrust.=C2=A0
+Braintrust is a clear distillation of an incredibly important point: good t=
+okenomics can enhance a strong value proposition, but can=E2=80=99t replace=
+ a strong value proposition.=C2=A0
+Side Note: we=E2=80=99re going to talk about tokenomics a bunch, so let=E2=
+=80=99s define the term. I like to think about it as designing economies by=
+ setting rules for how tokens are distributed, what participants can do wit=
+h them, and how value accrues to them. Tokenomics are one reason tokens hav=
+e advantages over equities: they can be programmed to do more. OK, back to =
+it.=C2=A0
+But even without mentioning a token, the reasons that both sides of the mar=
+ket start using Braintrust are clear:=C2=A0
+Enterprises, or Clients, use Braintrust because they can find and hire vett=
+ed technical and design talent globally quickly for an industry-low 10% fee=
+=2E They find the right talent for their=20=
+project in as little as three days i=
+nstead of many weeks.=C2=A0
+Talent uses Braintrust because they can find high-paying, flexible technica=
+l work at top companies like Nike and Porsche and pay no fee on what they e=
+arn. They can quit their full-time jobs, get as much work as they want, and=
+ log off when they want.=C2=A0
+The fact that they can also earn tokens in order to have a vote on the futu=
+re direction of the network is icing on top, but important icing. When you =
+trust a platform with your livelihood, you want to make sure it can=E2=80=
+=99t break that trust.=C2=A0
+Instead of being the network=E2=80=99s raison d=E2=80=99etre, web3 is a too=
+lkit that Braintrust uses to do the long-term strategically rational things=
+ that all marketplaces should do but that many can=E2=80=99t because of ali=
+gnment and time horizon misalignment, like keeping take rates minimally ext=
+ractive.=C2=A0
+To be clear, using web3 tools doesn=E2=80=99t mean that Braintrust is perfe=
+ct. Tokens aren=E2=80=99t magic beans. This Redditor [https://email.mg2.sub=
+stack.com/c/eJxFkUuOhSAQRVfzGBr5-Bsw6Elvg6CUSp6CDeWz3X2XOugESKWKy705DBZhiun=
+UW8zIrsPguYEOcOQFECGxPUMy3mlei1ZWqmNOK8fbqmU-mzEBrNYvGtMObNv7xQ8WfQy3oixFxW=
+bddgBQq7aW0jnJoelE1Y98kK1shrEuH1-7Ow9hAA0fSGcMwBY9I275Jb9e4pvWcRxFAuc8FkNcq=
+ZFoXwkWSzqqqbtCwExlmMbURypsuN4ys_2Agd8N0m1iDo-z6ZP1gZJnpIvMa1EKUXLJuazaUhWi=
+aGpZD5ZDKRTvOaiiOe24Z_vzUuU6iSLvfUY7vK88LOkQsY_Jh4nG79musNwDwmKuaHvweBoItl_=
+APcTwAX8zNBMESPQhzlgk3ErWslGdqBvxECKkqumqrhKCkbOLpAr_pn_iqZ1a] provides a g=
+ood first-hand account as a freelancer with both pros and cons. Community g=
+overnance can be messy and imperfect. Tokens invite people to game or scam =
+the system. I=E2=80=99m sure there will be many unhappy Clients and Talent =
+over the years.=C2=A0
+Braintrust isn=E2=80=99t a foregone conclusions, but a series of bets:=C2=
+=A0
+That good tokenomics can lower costs and unstick and accelerate the flywhee=
+l
+That a user-owned network can stay minimally extractive longer than an inve=
+stor-owned one
+That a minimally extractive network can actually be the most valuable
+That it can eat so much of the global talent market that a small 10% take r=
+ate becomes a very big number
+It=E2=80=99s early, but the bets seem to be paying off. Since founding Brai=
+ntrust in 2018, co-founders Adam Jackson [https://email.mg2.substack.com/c/=
+eJxFkE2OgzAMhU_TLFFiQoBFFrPpNVB-DM0UEiYxU3H7SctiJMuWZdnP73OGcEn51HsqxN5ponN=
+HHfFVViTCzI6CeQpeCwVD28mReS29GLqBhTLNGXEzYdWUD2T7YdfgDIUUPxucQ8ceerYoPIwSkB=
+tQ3qp5VqPthl5Z59DOl645fMDoUOMv5jNFZKt-EO3l1n7d4F6DXuH9UePSVjvjzfZt3LOkWGYWN=
+HAALloh2m7gsoGmV61yRiAHKaxA2fSnmY9ifm6Sbws05bCF6oH3PZZ1TGRTDnGp4-fDbLh-BtXT=
+VOt2xEDnhNHYFf1lly5qHwDTghFzpeknQ5WVbFXbyxFUD5e9ykP2Yzd2AKwq-1S34r_oH3DXhd4=
+] and Gabriel Luna-Ostaseski [https://email.mg2.substack.com/c/eJxFUMuOwyAM=
+_JpyjMBA0hw47GV_IzLESVETyPLYKn-_tDmsZNmyRuPxjMNCa0ynOWIu7N2mch5kAr3yRqVQYjV=
+TmvxsRA93qdXIZqNmcdd35vO0JKId_WZKqsSOajfvsPgYPgzOQbOHcQtwOVqHDmiBwRJqMWI_SK=
+U1DG68dLHOnoIjQ7-UzhiIbeZRypFv8usG363Ky78_6lzc27aipa0GjMwb4ABcSCGkvnPVQTf0s=
+ncoiIMSVpDqhhOXmvHnpvi-QperzQXd832LJRNisTH5sDb4-cCdtg_Q_Ext7jX4ck4U0G40X1bL=
+ldjH_LRSoNSSnCcsLSclezmoEfoBLmstCzWMetQArCnPsbHCv-gfVJ2Dbw], along with the=
+ core teams and community, have built Braintrust into one of the most pragm=
+atic and fastest-growing web3 businesses on the planet.=C2=A0
+But there=E2=80=99s a long way to go to achieve the vision and pull all tal=
+ent network business onto its protocol. Braintrust has done $37 million in =
+volume all-time. Upwork, a Web2 talent network, did $904 million in its las=
+t quarter [https://email.mg2.substack.com/c/eJxFkMuOhCAQRb-m2Wl4CbpgMZv5DcO=
+jtEkrODy6498Po4tJCFRxq3KSY3WBNaZTHTEX9HfN5TxABfjkDUqBhGqGNHuniKAjG_iEnOKOjM=
+OIfJ6XBLBrv6mSKqCjms1bXXwM1wbGdEBPBWwxVggKwzJRPfHBSkwEjFS2wEh3c3V1HoIFBW9IZ=
+wyANvUs5cgP9vWg3-348IZcYsp9PT4xvXob9_adSyPabvEb5NZygbUcOe6so67jHLvOwLR0oA0A=
+xZQDCORVqygmjBA2jJj3tJeCCasJtAliCPBennqpWf88ON5X2udqGsleVJRUiMXE5MPa4tdT77B=
+dQVMwt3evwZdzhqDNBu62U27Jl695hQCpyXezLk0tZ4JJPlEh6W2j6eNyGqaBUtTILrat8A_9BR=
+DTkt4] alone, Fiverr [https://email.mg2.substack.com/c/eJxFkUuO5CAMhk9T7Dri=
+lYQsWMymV7Np9QEQD6eCmkAKyIxy-3FVLUZCNsa2fvzZ2w73Ui99lNbJ05h-HaAz_G0JeodKzgb=
+VxKDZxJUY5UKCloGpUZHYzFoBdhuT7vUEcpwuRW97LPnVQSkfyabVNM9hdIuTXC1UeTZJvjq3zo=
+oxp1b21rVniJA9aPgD9SoZSNJb70e7iV83_omncTE8pA958GXHeJaLoEoIhfc1JmjoQ_FmjdlmH=
+216PnDKGbqHQPMlzDM0nxEl6sf3ZitsJQWoH79fww5HWEnUWMQpE4yJUVE58GGexOQtA8olcwzk=
+MF92PZt93CTd73xop2vd-p_nx0jVuXRXasx3TP9sdof0SiAeg34_c-yXgWxdgvAm198LeLE0d8h=
+QcTHB2I7YpZgEjsqnmb9JIVo5L-Myck5QORTsyv9F_wEDPJo_] did ~$260 million. Deloi=
+tte did $50.2 billion in revenue in 2021. In all, companies spend trillions=
+ of dollars on talent every year. In that context, Braintrust=E2=80=99s vol=
+ume to date should look like a blip in a year or a decade. And now that Bra=
+intrust has gone full DAO, it=E2=80=99s up to the community to pull it off.=
+=C2=A0
+Ultimately, Braintrust is a familiar business model in one of the oldest bu=
+sinesses in the world =E2=80=93 hiring =E2=80=93 with a few modern enhancem=
+ents. Its success will be measured by how it competes against public incumb=
+ents over time.=C2=A0
+The question for Braintrust is: can a user-owned network both create and ca=
+pture more value than its investor-owned counterparts?=C2=A0
+If by the end of this piece, you can understand how the answer might be yes=
+, then you understand web3. Braintrust is the gateway drug. So today, we=E2=
+=80=99re going to go deep on how it all works:=C2=A0
+The Braintrust Manifesto
+Web2 Marketplaces and the Take Rate Temptation
+How Braintrust Works
+Value Accrual and the Protocol Upgrade
+The Braintrust Thesis & How User-Owned Network Wins
+But first, I want to turn it over to Adam to set the stage.=C2=A0
+The Braintrust Manifesto
+In October, Braintrust co-founder and CEO Adam Jackson joined my friends Be=
+n [https://email.mg2.substack.com/c/eJxFUMtuxCAM_JrlGIGBPA4ceulvRBCcLNoEUnC=
+6yt-XbA6VLFvWaDyemSzhkvJp9lSIXW2kc0cT8V1WJMLMjoJ5DN6IFnqp1cC8UV70umehjHNG3G=
+xYDeUD2X64NUyWQoofBueg2dPIYRjULKTkXjvdzqiFUqBa57gCAH_r2sMHjBMa_MV8pohsNU-iv=
+Tzk1wO-a9E7XB81U9rqtoTVYSYWDHAALqQQUvdcNdB0rWwnK5CDEk6garrTzkexPw_FtwWacrhC=
+dnpdl1g2MZFLOcSlwq-n3XD9ANXNWOd2xEDniNG6Ff1tlO68PtbHBSPmmqMfLdWUlGxlpwZoO7i=
+N1SRUN-hBA7Cq7FNlxX_RPy0fgbU] and David [https://email.mg2.substack.com/c/e=
+JxFkMuOwyAMRb-mLCMgkMeCxWz6G4iHkzJNIANmqvz90GYxkmXLsuzje51BWFM-1ZEKknfSeB6g=
+IrzKBoiQSS2QdfCKDXzqpZiJV8KzSU4kFL1kgN2ETWGuQI5qt-AMhhQ_G5RySR5qWKwF2stp9s5=
+Z1g9uYT2TTs6M-UXCxTXVB4gOFPxCPlMEsqkH4lFu_deN31vgK7w_6lzaW-e_cyoQkQTFKee0nW=
+SNQUXHu3FoEMOAcsEsA9GNp1lqMT83QfeVd6XagsY936dIVjGhTTnEtY2fD7PD9hk0ObrVvcaAp=
+4Zo7Ab-UoqXYR_teoUIuRnptcFmk-iHfhQzH0Z-KWtWiHGWs-ScNLJPbSv-Q_8ACBiDVw] on t=
+he Acquired LP Show [https://email.mg2.substack.com/c/eJxFkU1v2zAMhn-NdZuhL=
+1vSQYcWW7piG7oBwdCeDNmiHSG25EhyOv_7qcmhAEESfEG8xMPBZJhC3PUaUkYfqcv7CtrDe5oh=
+Z4hoSxA7ZzVpqWQNV8hqbolsJHKpGyPAYtysc9wArVs_u8FkF_xtA2PaoJMmopViFCNtKTG9VFI=
+Ka4VUwiiJe0XuvmazDvwAGq4Q9-ABzfqU85oq9lDRQ4mwgq_TGrIb93oISxnB6lKwULr28OPnS3=
+xlp29_wxVH8_b252m6VOyQXMW-4umX-vLv6fH4sFyO59_P34_k-TohpymmFBNGCGsk5jWtRcvaw=
+RDAlJOeAK_FbsYtmUvF8TLROm19ymY4fxyAovYh9yE6PxX5fDILzDehkOhKXTbv8t6BN_0M9g4p=
+31nfsHUTeIjlB7YzuRDmrGWCK9oKeodSKHKhGtVQioqzDWXLf5r-B2oslOc]. At one point =
+Ben asked him how his =E2=80=9Cincendiary=E2=80=9D comments about Web2 mark=
+etplaces jibed with his history as a three-time Web2 marketplace entreprene=
+ur.=C2=A0
+Adam=E2=80=99s answer is a modern Greed is Good speech.=20
+I=E2=80=99ll title it Fighting Capitalism with Capitalism. It=E2=80=99s a l=
+ong block. Read it.=C2=A0
+I=E2=80=99ve always felt that if something is good for business, but your c=
+ustomers hate you, there=E2=80=99s opportunity there for competition. Now I=
+ get called a Socialist, like somebody from Bloomberg called me a Socialist=
+, are you fucking crazy? I=E2=80=99ve been making money my whole life. I=E2=
+=80=99m a red-blooded, red meat entrepreneur. I helped start a hedge fund, =
+right? I=E2=80=99m not a Socialist.=C2=A0
+When marketplace operators or any company is abusive to their customers to =
+the point where the customers are trying to pass laws to change=E2=80=A6 li=
+ke, I think there=E2=80=99s opportunity. I don=E2=80=99t believe in the gov=
+ernment regulating those things. I think the AB-5 here in California was co=
+mplete un-well-thought-out corrupt horseshit just like everything else the =
+state does, but these are market-created problems that markets can solve. S=
+o if you operate a marketplace and half your customers hate you, that=E2=80=
+=99s an entrepreneur=E2=80=99s dream.
+So the dream here is: new technology =E2=80=93 blockchain =E2=80=93 powerin=
+g a new organizational model =E2=80=93 user-owned, user-controlled =E2=80=
+=93 eats away at the central rent seekers who are disproportionately extrac=
+ting value. Look, without blockchain, there=E2=80=99s no way to compete wit=
+h these guys. There=E2=80=99s no one more operationally excellent than Door=
+Dash, you have to really tip your hat to them, it=E2=80=99s an amazing app =
+and an incredibly well-run business=E2=80=A6 but if they=E2=80=99re being a=
+busive to a major part of their marketplace, then the door=E2=80=99s open f=
+or disruption.
+If web3 had to elect a President to appeal to the widest swatch of the popu=
+lation, Adam might be the guy. His is a pragmatic, no bullshit approach. Th=
+at speech sets the terms for the rest of the piece and makes it clear what =
+he=E2=80=99s going for.=C2=A0
+Braintrust will be less extractive than the incumbents, not out of a sense =
+of charity but out of a sense of capitalism. Your take rate is my opportuni=
+ty [https://email.mg2.substack.com/c/eJxFkU9v4yAQxT-NudWCAfznwCHa3R730kN7sz=
+BMEjY2ZGGc1vvplySHSiPmodHTG_3GWcJTyru5pkLs_ky0X9FE_CwLEmFmW8E8BW9EB4PUamTeK=
+C8GPbBQpmNGXG1YDOUN2XWbl-AshRQfDs5Bs7MBZXs8CiXk7CQOFgHGHgQOvvdWIz5z7eYDRocG=
+b5j3FJEt5kx0LY08NPBaiz7DfaPWpbX-nA9fKVZRyNJWqhAKdKf0UJsGPnRaQiNfq_8n8AY6quL=
+9z8ev85u8_XhZ_o2Xw-_3G3dfBxYMcAAupBBSD1y10Pad7JwVyEGJWaBq-90et2L_NoqvJ2jLNt=
+dgd7lvw7KJieaUQzzV8eVsV1weg0pkqn3dYqB9wmjnBf0TFj2ZP_BNJ4yY6y38ZKmSVrKTvRqh6=
+-EJp9JU_ahHDcBqsk_VFb9D_wNbqJVA], in practice.
+Adam wants to make a lot of money through the ownership of his BTRST tokens=
+ over time, which means value will need to accrue to token holders.=C2=A0
+The rest of this piece is about figuring out whether web3 makes those two s=
+eemingly contradictory ideas =E2=80=93 extracting less and capturing more v=
+alue =E2=80=93 possible. (Hint: I think it can.)
+That requires understanding how marketplaces have typically worked.
+Web2 Marketplaces and the Take Rate Temptation
+First things first: I think Web2 marketplaces are great. I ordered dinner o=
+n DoorDash last night. I took an Uber home the night before that. I=E2=80=
+=99m staying in an Airbnb later this week.=C2=A0
+Marketplaces are some of the biggest and most impressive businesses built i=
+n the past two decades. Even after recent selloffs, they=E2=80=99re worth h=
+undreds of billions of combined dollars, all value created in the past deca=
+de or so (except eBay, which I think came out of Bell Labs in the1950s):=C2=
+=A0
+These marketplaces not only organized existing markets and stole share from=
+ incumbents; they grew the markets in which they operate through their exis=
+tence. The vacation rental market is bigger because Airbnb exists. Rideshar=
+ing is bigger because Uber exists. Done right, marketplaces attract and mat=
+ch new supply and new demand while removing friction and lowering costs. Gr=
+eat stuff. Love Web2 marketplaces.=C2=A0
+But there are also challenges with the model, or opportunities for improvem=
+ent:=C2=A0
+Like the fact that marketplaces need to pay a lot to acquire both supply an=
+d demand, often over and over. See: the bloody Uber v Lyft battle.=C2=A0
+Or that so many successful marketplace businesses end up becoming advertisi=
+ng businesses =E2=80=93 great for the business, annoying for the customer. =
+See: all of the national fast food chain advertisements at the top of your =
+DoorDash screen.=C2=A0
+Or that at some point, in order to increase supply, they drop the quality b=
+ar and people figure out how to game the system and it gets really hard to =
+figure out what=E2=80=99s good and what=E2=80=99s not. See: Amazon third-pa=
+rty sellers.
+Or that successful marketplaces often increase take rates in order to incre=
+ase profits once they believe participants are sufficiently locked in that =
+they won=E2=80=99t leave. See: practically every marketplace in the history=
+ of marketplaces.=C2=A0
+To learn more about why web2 marketplaces switch from attract to extract an=
+d why they often do it too early, how Braintrust works and why it can keep =
+take rates lower, longer, how value accrues to the token, and the answer to=
+ the question =E2=80=94 how can a user-owned network both create and captur=
+e more value=E2=80=A6.=20
+Thanks to Dan [https://email.mg2.substack.com/c/eJxFkMtuhDAMRb9mskTkRWCRRTf=
+9jSgPw0QDCU1MR_x9w7CoZNmyLPv6Hm8RllxOveeK5EoGzx10gnddAREKOSoUE4OmAxu5FBMJWg=
+Q6ypHEauYCsNm4aiwHkP1wa_QWY06fjb5nkjx1EG4QLqgQpqDcoNg420HIyc1ilk7ZW9ceIULyo=
+OEXypkTkFU_Eff64F8P9t0C3_H6qPN5a12wm_e5bNG_KCdRs56xnnJKuRx70bFODXzwlkLPBHUU=
+RKdOOx_V_jxEvy2sq4eraP3rukeKThldLjEtbfx62g3Wz6B5Mq1uR4p4GkjWrRBuu3hT-wAwCyQ=
+ojWYwFhsrwQeuxMSa29te4yHUJCfJGGnKIbet9C_6B8RrhRc] for editing, and for Adam=
+ and the Braintrust community for working with me!
+Thanks for reading and see you on Monday,
+Packy
+
+Unsubscribe https://email.mg2.substack.com/c/eJxFkl-PojAUxT-NPJK2lH8PPEx0nc=
+EsTiaOjvhCSnvVChSWlmHg02_VZDdp2ubc3Hua3ylnBi5tPyVdq41z3wozdZAoGHUNxkDvDBr6Q=
+ooEByTyfBo7IqECR37kSF2ce4CGyTox_QBON5S15MzIVj06ECK-c00CP46JH5I4CllEWRQFnHEM=
+NGAsBErR05cNQoLikMA39FOrwKmTqzGdXngvC7K2axxHV7WmbHupLi5vrcT43cxehNSsrKF4vGb=
+hrU1bgVp4K5g2mJPDdCR1ld7an-0tpdm8R--7UfLXeBbruDst02C74v72s8LZLdVpU1-F1bLPHG=
+VzPm_nDz-To2TH7WxnSP52kL8_f43ZKsWp1bl3kHf99FrP-ddGnw5xXX6tu3K5iV323qtVDixXk=
+di9ROXEq7fz_rjnH9W4X3U5W_6gDO3K6Vs7MiGIEIQ9jD0_QtQlbhh4lhYGRCguLTM3nNh50OzP=
+gqLmQlw9lNowXlkcjdMn__DYcnVlDdSPgg2msGczKGmmAtQdlXhmZp7RP7gVF1DQ2y8hCmZs4NQ=
+LvJDGJAjJMyMbKg1jP_YJcayzaG2X-m_6F2v7yBY
+--113a1938c7080481f41dd77aad6acd46376cedc785424b09a6db44c7482a
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><title>Braintrust: Fighting Capitalism with Capitalism</title><=
+style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup iframe.spotify-wrap,
+  .typography.editor .markup iframe.spotify-wrap,
+  .typography .markup a.spotify-wrap,
+  .typography.editor .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.youtube-wrap div.youtube-screen,
+  .typography.editor .markup div.youtube-wrap div.youtube-screen,
+  .typography .markup div.vimeo-wrap div.youtube-screen,
+  .typography.editor .markup div.vimeo-wrap div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media print {
+  .typography .markup .button-wrapper,
+  .typography.editor .markup .button-wrapper {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 15px 0 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+table.post-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 15px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg table.post-meta.alternative-meta tr td.post-meta-item,
+  table.post-meta.alternative-meta tr td.post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg table.post-meta.alternative-meta tr td.post-meta-item,
+  table.post-meta.alternative-meta tr td.post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg table.post-meta.alternative-meta tr td.post-meta-item.guest=
+-author-publication,
+  table.post-meta.alternative-meta tr td.post-meta-item.guest-author-public=
+ation {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  table.post-meta tr td.post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  table.post-meta tr td.post-meta-item .post-meta-button .meta-button-label=
+ {
+    display: none;
+  }
+  table.post-meta tr td.post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  table.post-meta tr td.post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  body .markup table.image-wrapper img,
+  body .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .markup iframe.spotify-wrap,
+  body .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .markup div.youtube-wrap div.youtube-screen,
+  body .markup div.vimeo-wrap div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .markup div.embedded-publication-wrap .embedded-publication.show-sub=
+scribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subsc=
+ribe .subscription-widget-subscribe .button,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscrib=
+e .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media print {
+  body .markup .button-wrapper {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .footer {
+    outline: 8px solid #f8f8f8 !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 18px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 630px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (max-width: 259px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 30%;
+    width: 30%;
+  }
+  .audio-player-wrapper-fancy .audio-player {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 60%;
+    width: 60%;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 70%;
+    width: 70%;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .video-player-wrapper .video-player-button {
+    padding-top: 22.8%;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .video-player-wrapper .video-player-button.no-text {
+    padding-top: 18%;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjIwMTMxMTM1ODA0LjIuNzYzNmNhMWUwMjQxYjFlNC43eWFmdXNhcUBtZzIuc3Vic3RhY2suY2=
+9tPiIsInUiOjE2MjgzNTQ5LCJyIjoibm90Ym9yaW5nQGtoYW1lbC5jb20iLCJkIjoibWcyLnN1Y=
+nN0YWNrLmNvbSIsInAiOjQ3OTU5NTIyLCJzIjoxMDAyNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJp=
+YXQiOjE2NDM2Mzc0OTIsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.bb4R5CyjHyMOBGJhkCE2=
+VAUlhzPHSLjbrhy5wHLXiHI" alt=3D"" width=3D"1" height=3D"1" border=3D"0" sty=
+le=3D"height:1px !important;width:1px !important;border-width:0 !important;=
+margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !importan=
+t;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !impor=
+tant;padding-right:0 !important;padding-left:0 !important;"/><div style=3D"=
+display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max=
+-width:0px;opacity:0;overflow:hidden;" class=3D"preview">Or, how web3 busin=
+esses can use tokenomics to create and capture long-term value&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;</div><table role=3D"presentation" wid=
+th=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"email=
+-body-container"><tr><td></td><td width=3D"550" class=3D"content"></td><td>=
+</td></tr><tr><td></td><td align=3D"left" width=3D"550" class=3D"content"><=
+div style=3D"font-size: 16px; line-height: 26px; margin: 0 auto; max-width:=
+ 550px; overflow-wrap: break-word; width: 100%;"><div dir=3D"auto" class=3D=
+"post typography" style=3D"font-size: 16px; line-height: 26px; padding: 9px=
+ 0;"><div class=3D"post-header" style=3D"font-size: 16px; line-height: 26px=
+;"><h1 class=3D"post-title long published" style=3D"-moz-osx-font-smoothing=
+: antialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-fa=
+mily: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', =
+Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'=
+, 'Segoe UI Symbol'; font-size: 1.625em; font-weight: bold; line-height: 13=
+0%; margin: 0.378em 0 0 0;"><a href=3D"https://email.mg2.substack.com/c/eJx=
+FUl1vozAQ_DXhLQgb8_XAw6kpLdVBr9dcLukLMvYCTsBQbErh19dNpDtp7ZVmtDvSzjCqoe7HJR=
+56pa3vr9DLALGEWbWgNYzWpGAsBI-Rj0PXI5HFY8JR6IWWUEU1AnRUtLEeJ7CGqWwFo1r08jrhO=
+NizmjjAFSDMQggIZlA5NDLlsTAkmENUuTddOnEBkkEMHzAuvQSrjRutB7Vxf2xwYmqeZ1v2uuxH=
+IWub9QYazCtHKqTRV3pbibrRhtwyOghNW6G67Sx0s3ET3V9AbtwdLE-I4cNyxO0lPfef-Tkl2fr=
+HeX6dBXuIVp5Ew9td6uc75uX7C8rOqUq7tuEGy_YnJ1tPa76-eJmYBT3mq9kh2ONB_Nzfz9kuRa=
+nBmXsQV_x73x1a3v4mZ_7QfpTiKbKD3RFe25fT72e_Kffjx1kFmbr_lX-ynCTbRxfWQb1DsvN4b=
+YkYOxg7yEXI9UKH2NgOfNdnFIGDCSoREDtYaDUp-r4hTldjW02l0pRdzH06a4z_3cvQl4Z20F4J=
+41RhejdJoZcCJC1b4DcT9S0LV1uLGiSMJiO8oNokgLi-G5AI-wG-mWZcJkHkRR7GllHmvZmS_0W=
+_AEiLzuc" style=3D"color: #1a1a1a; text-decoration: none;">Braintrust: Figh=
+ting Capitalism with Capitalism</a></h1><h3 class=3D"subtitle" style=3D"-mo=
+z-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; col=
+or: #767676; font-family: 'SF Compact Display', -apple-system, BlinkMacSyst=
+emFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoj=
+i', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 20px; font-weight: norm=
+al; line-height: 1.16em; margin: 4px 0 0; margin-top: 8px;">Or, how web3 bu=
+sinesses can use tokenomics to create and capture long-term value</h3><tabl=
+e cellpadding=3D"0" cellspacing=3D"0" class=3D"post-meta   custom" style=3D=
+"margin: 1em 0;"><tr><td title=3D"2022-01-31T13:58:11.155Z" class=3D"post-m=
+eta-item post-date" style=3D"color: #767676; font-family: -apple-system, Bl=
+inkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple =
+Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-we=
+ight: 400; height: 14px; line-height: 100%; padding: 0px 12px 0px 0; paddin=
+g-bottom: 0; padding-top: 0; position: relative; text-decoration: none; ver=
+tical-align: middle; white-space: nowrap;"><time dateTime=3D"2022-01-31T13:=
+58:11.155Z">Jan 31</time></td><td class=3D"post-meta-item icon" style=3D"co=
+lor: #767676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', R=
+oboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Symbol'; font-size: 14px; font-weight: 400; height: 14px; line-h=
+eight: 100%; padding: 0px 12px 0px 0; padding-bottom: 0; padding-top: 0; po=
+sition: relative; text-decoration: none; text-indent: 3px; vertical-align: =
+middle; white-space: nowrap;"><a class=3D"" href=3D"https://email.mg2.subst=
+ack.com/c/eJxFUsFymzAU_BpzMyOEAHPg0IlDQqaQpnFdOxdGEg-QDYIgEQJfX9lO2xlJh33S7=
+tPb5VRD1Q1z1HdKW5cj13MPkYRJNaA1DNaoYMhFETk-3rgeCa0iIoWz8TaWUHk5ALRUNJEeRrD6=
+kTWCUy06eX2BEPasOiIkQBz5JWNl6WFU-mgDwCgJGbghZfimS8dCgOQQwQcMcyfBaqJa616t3G8=
+rHJs1TZMtO826QcjK5p2BerPZQIU0-kqvS1HV2hTXnPZC00aodj0JXZtbvGtbkNqwxbo7g1y5W5=
+ifHI738wE35-TUfWanhKTLL_T8Ogn-EC5FHPZvd4mfbbmX7c5OekpU0jZ1YbB0d0Tpclyy5cVLx=
+SToIVsMh-CPe_F9dz-l28RJDM7dvbjiF747Z377HZ-Kh-aDiafQDrYHeG1ejj-f_Zrtho-TClJ1=
+_yP75BmJ148uLL16h3jrFdUK-6Nuc9WNAwfTuxqZ0pSfv_AWCjG2lz9d3LBEhBHGyHEdx_U2iNj=
+YDnzX59QBhInDHCB2MNNyVPR9RVBbYfsvoZlraw3Rvzmb8rmmLTTXgnE4v0xylELPOUjKGihu5u=
+tbhq4N5BVIGEy2ipxqkxzi-m5AQuwHX2abdJAg9EIPY8soF515Jf-L_gHYmeNs" style=3D"co=
+lor: #767676; display: block; text-decoration: none;"><img src=3D"https://c=
+dn.substack.com/image/fetch/w_28,c_scale,f_png,q_auto:good,fl_progressive:s=
+teep/https%3A%2F%2Fsubstack.com%2Ficon%2FCommentIconRounded%3Fv%3D3%26heigh=
+t%3D28%26fill%3D%2523757575%26stroke%3D%2523757575%26strokeWidth%3D2" width=
+=3D"14" height=3D"14" style=3D"border: none !important; display: inline-blo=
+ck; float: left; height: 14px; max-width: 14px; vertical-align: top; width:=
+ auto;" alt=3D"Comment" class=3D"comment-icon post-meta-icon"></a></td><td =
+class=3D"post-meta-item icon" style=3D"color: #767676; font-family: -apple-=
+system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-seri=
+f, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14p=
+x; font-weight: 400; height: 14px; line-height: 100%; margin-right: 0; padd=
+ing: 0px 12px 0px 0; padding-bottom: 0; padding-right: 0; padding-top: 0; p=
+osition: relative; text-decoration: none; text-indent: 3px; vertical-align:=
+ middle; white-space: nowrap;"><span><a href=3D"https://email.mg2.substack.=
+com/c/eJxNkttyozAMhp8m3IXBByBccLHTNC2dhW632WzbG8bYSnAChtqmFJ5-nWRPM7Zm_MmSR=
+tLPmYVDp6e074z1zqa0Uw-pgtE0YC1obzCgSylSFOEVCWniiZQKtApXnjTlXgO0TDap1QN4_VA1=
+kjMrO3WJCAIcenUahFEU7_dJkhDkzAqTMBa0oolgPIpjcq3LBiFBcUjhA_TUKfCatLa2NwvyZYE=
+37ozj6KvOVp2W6uDzzqHe3UozqVx9Y5d7eaitcy4566VljTTtcpS2XpDNYNvSdIPmsCBrM1TGMn=
+5a4OjMWxByaB2_9PIb8k5ZUPb8u2YaHGX83Nl_wHYnOL9hekAc76YX3JyyY_dZHDOazz-Cx-dR8=
+rtkFpukf7vJomLNw2J7QvkxM1nb1MKxfPsa5PPrXMxPYS5HyV6K2eWQ_H4nv25vx3ydocxxTnby=
+ws_5btD09nNzFHfNRyUfEj9ev8Bz8_T6_TGqq63-OJo4N7ffik9e0M3ynsDcm3fYrENx8GSKA4w=
+DRBAi4SqgPvbjiEScIQgwRRUC6scT2w-GvS9o0B6w_2dcbuatp9O_O3DuU81aaC4Ot303tLYdlL=
+RTCYpVDYirMOxVX5fxlgdQoJ3uRMmsUxUlEYlpgqMYX4XglEPjJExCjD1XWXQuSv0r-gtg_OvB"=
+ style=3D"color: #767676; display: block; text-decoration: none;"><img src=
+=3D"https://cdn.substack.com/image/fetch/w_32,c_scale,f_png,q_auto:good,fl_=
+progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FRecommendIconRounded%=
+3Fv%3D2%26height%3D32%26fill%3D%2523757575%26stroke%3Dnone%26strokeWidth%3D=
+2" width=3D"16" height=3D"16" style=3D"border: none !important; display: in=
+line-block; float: left; height: 16px; max-width: 550px; vertical-align: to=
+p; width: 16px;" alt=3D"Share" class=3D"recommend-icon post-meta-icon"></a>=
+</span></td></tr></table></div></div><div dir=3D"auto" class=3D"post typogr=
+aphy" style=3D"font-size: 16px; line-height: 26px; padding: 9px 0;"><div di=
+r=3D"auto" class=3D"body markup" style=3D"font-size: 16px; line-height: 26p=
+x; margin-bottom: 12px; text-align: initial; width: 100%; word-break: break=
+-word;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 1em 0; margin-top: 0;"><em>Welcome to the&nbsp;<strong>2,262&nbsp;=
+newly Not Boring people&nbsp;</strong>who have joined us since last Monday!=
+ Join&nbsp;<strong>103,299 </strong>smart, curious folks by subscribing her=
+e: </em></p><div class=3D"subscribe-widget is-signed-up" style=3D"direction=
+: ltr; font-size: 16px; line-height: 26px; margin: 0 0 1em;"><p class=3D"bu=
+tton-wrapper" style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; =
+margin: 0 0 1em 0; text-align: center;"><a href=3D"https://email.mg2.substa=
+ck.com/c/eJxFUcuO5CAQ-5pw24hnHgcOI7XmNyIClTSaAD1QbJS_X6Z71CuhOpRtbLmsQdhTvv=
+QjFSQ_Y8HrATrCWQ5AhExqgbx4p9nAJ6HkTJyWjk1qIr4sWwYIxh8acwXyqOvhrUGf4lNBKVfkr=
+mc6jsNmqZktpWpa5QxmUkytm-SbMfPL11TnIVrQ8BfylSKQQ98RH6UTHx3_bO88zz4mXFP2ce9t=
+aqtS12KzX6ETjTFUDEsA52voxO0Z7HdZUs22kW5vwZ_Tux3wF7cpIkRsBDnOalacE6855ZwywZh=
+QE5U978dBDNYwoFyylYHsx8tstZjvTtKw8_7nczT2q2ULJOt31gZ_3U2A4wm0lppfCDV6vBaIZj=
+3AvQrE1x2eyZcdIuR2H7cYbO1LMYhRznwY-auw1vA7bHN2qanif9N__TqgqQ" class=3D"butt=
+on primary subscribe-btn" style=3D"background-color: #67bdfc; border: none;=
+ border-radius: 3px; box-sizing: border-box; color: #ffffff !important; cur=
+sor: pointer; display: inline-block; font-family: -apple-system, BlinkMacSy=
+stemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Em=
+oji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: no=
+rmal; height: auto; line-height: 20px; margin: 0; opacity: 1; outline: none=
+; padding: 12px 20px; text-align: center; text-decoration: none !important;=
+ white-space: nowrap;"><span style=3D"color: #ffffff; text-decoration: none=
+;">Subscribe now</span></a></p></div><p style=3D"color: #1a1a1a; font-size:=
+ 16px; line-height: 26px; margin: 0 0 1em 0;">&#127911;<em>&nbsp;To get thi=
+s essay straight in your ears:&nbsp;listen&nbsp;on&nbsp;<strong><a href=3D"=
+https://email.mg2.substack.com/c/eJxFkU1LxDAQhn9Ncyz5aro55KAugqiIHxdPJU1mu2=
+HbpCapGn-9cfcgDDMwLy_v8IzRGaYQi1pDyuivDbmsoDx8pRlyhoi2BHFwVhFBd6zjElnFLdl1O=
+-TScIgAi3azynEDtG7j7IzOLvizA2PaoaMyUkihzYjxSMZOUmukNRakFHyHeX-45OrNOvAGFHxC=
+LMEDmtUx5zU17Kqht7XCCr5Na8juUFoTlrpKx_BVhziR94frz6eXl8cS0n1h3-T7bm7YbXIN2-_=
+Xwt3Nff_c0VfywBn5SW94Qk5RTCkmjBDW1UNa2vaCCaMJYMrJSIC3fdGHLemPhuNlom3axpS1Of=
+2lo6h8yGOIzk9VPh31AvNZqBiGOpfNu1wG8HqcwV4I5QvoM7NhAg-xPsAOOle8nAnWc0lFTy9EK=
+kLey052lKKabEN1-f_QX1qSlD4" rel=3D"" style=3D"color: #1a1a1a; text-decorati=
+on: underline;">Spotify</a> </strong>or&nbsp;<strong><a href=3D"https://ema=
+il.mg2.substack.com/c/eJxFkEtuxCAMhk8z7BqBgZAsWHTTa0QEnAyaBFIerXL7MpNKI1k2t=
+mX_-LOm4BrTqY-YC3m6qZwH6oC_ecNSMJGaMU3eadbDwKUYidPCsUEOxOdpSYi78ZsuqSI56rx5=
+a4qP4TVBKUhy1-gWZa0QKLkAwQY1qr7n3DFqhkEu9tI11XkMFjX-YDpjQLLpeylHvvHPG3w1O6K=
+zJpfcmePYsLNxb8Wa3532CrF8zDH5sLbEOyZBCWAjZ8RroACUcca4HKjooFM9761hSNuvZoaiU6=
+dZajbfN0H3Fbpc51yMfTylSNJt9_9qQR93s-P2arSrpxb3Gnw5Jwxm3tBdQMrF9YVoWjFgarzdZ=
+EqjKXjPlRihV3ABaMSEGuUoAUhTdrFNhbfoHzYPjks" rel=3D"" style=3D"color: #1a1a1=
+a; text-decoration: underline;">Apple Podcasts</a></strong></em></p><div st=
+yle=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background: #e0ecf=
+6; border: none; height: 1px; margin: 24px 0; padding: 0;"></div><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>Hi friends &#128075;,</p><p style=3D"color: #1a1a1a; font-size: 16px; line=
+-height: 26px; margin: 0 0 1em 0;">Happy Monday!</p><p style=3D"color: #1a1=
+a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">I was planning=
+ to write this Sponsored Deep Dive on Braintrust and send it last Thursday =
+like I normally do for Sponsored Deep Dives, but as I got deeper into the p=
+iece, I realized that <strong>Braintrust is a perfect case study on how a w=
+eb3 protocol can compete with, and potentially beat, web2.0 incumbents</str=
+ong>. </p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; m=
+argin: 0 0 1em 0;">It&#8217;s playing out now, in real-time, and is one of =
+those approachable &#8220;real use cases&#8221; that supporters and skeptic=
+s alike long for.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0;">So this is a Sponsored Deep Dive on a c=
+ompany that I invested in via Not Boring Capital last year. You can read my=
+ Sponsored Deep Dive selection and thought process <a href=3D"https://email=
+=2Emg2.substack.com/c/eJxFkU1vwyAMhn9NOUa=
+BEEIOHCpt09Suu0yqtlNEwElRE0j5WJV_P9o=
+cJmFsYb1-rQclI4zOr2JxIaLH1cV1AWHhHiaIETxKAXxntMCM8KqmLdKCasxrjkzoBg8wSzOJ6B=
+OgJfWTUTIaZ5-KsiQ1uggJbNBcyrLtST0wrrhiFGOpMRBSqn7zlUkbsAoE_IJfnQU0iUuMS9hV-=
+x15y0c7FYrRuXGCQrl5e0kz2Pgoc-AjoXp_rK_Nx3v6OYXDadVEqpev2533r_owd4syZz-fP78f=
+I0GbiIwgZd4CVxhXNS9pQYqGVUxJDCWhuMdAi2aVQwrytqPlPJIipD5Eqa6PJZAX1sXeeWPH3L5=
+e5AzTs5FhdDnPyZq4dmBlP4HeOMUN95NcN4IFn79BdzJmyLRiVUNbwhqycckgadPWbU0Iys7aZZ=
+X9N_0DxbqXUA" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;=
+">here</a>, but on a Monday, not a Thursday.</p><p style=3D"color: #1a1a1a;=
+ font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">I&#8217;ve only wr=
+itten one other SDD on a Monday &#8211; <em><a href=3D"https://email.mg2.su=
+bstack.com/c/eJxFkMtuxCAMRb9m2DUCQ14LFt30NyIHnAyaBFIejfL3pTNVKwGWuLKv7zGYaQ=
+3x0kdImf08U74O0p7OtFHOFFlJFCdntehgkK0amdXKiqEdmEvTEol2dJvOsRA7yrw5g9kF_-zgH=
+Fp214vskM92MDOMSGq0pu9wGSyX0A6jhJcvFuvIG9L0RfEKntim7zkf6Sbfb_BRz3mejQ95DtH5=
+tTGhfh31prChx7dU9r2u6zRwAC6kELIduGqg6TvZGRTEQYlZkGr6C5eS8POm-L5Ck8qcMppHHbm=
+zqP8sqvy4407bU6jhplr34l2-JvI4b2RfufML35PEtJKnWLHaCXOFpmQnezVC1__mrGBUP7ZjC8=
+Cqsw21y_-bfgNQNYf-" rel=3D"" style=3D"color: #1a1a1a; text-decoration: unde=
+rline;">Solana Summer</a></em> &#8211; and like that piece, I&#8217;m only =
+doing it because this is a piece that I would have written on a Monday, and=
+ I&#8217;m writing it just like I would write a Monday piece. I&#8217;m not=
+ selling anything &#8211; there&#8217;s no tracking link anywhere &#8211; a=
+nd I&#8217;m not telling you to invest.&nbsp;</p><p style=3D"color: #1a1a1a=
+; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">It&#8217;s just t=
+hat, in Braintrust, I found the perfect vehicle for so many of the argument=
+s I&#8217;ve been trying to put into words.&nbsp;</p><p style=3D"color: #1a=
+1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em><strong>D=
+isclaimer:</strong> Brainstrust has a publicly traded token &#8211; BTRST &=
+#8211; so let me yell this as loudly as I can: <strong>THIS IS NOT INVESTME=
+NT ADVICE</strong>. I mean this. BTRST is worth multiples of what it was wh=
+en I invested last year. The whole crypto market has been volatile, and BTR=
+ST has been more volatile. Not Boring Capital owns BTRST tokens, but I have=
+ no idea what the price will do in the next day, week, month, year, or deca=
+de. The team has said publicly many times that they don&#8217;t care what t=
+he token price is. Always DYOR.</em>&nbsp;</p><p style=3D"color: #1a1a1a; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Let&#8217;s get to i=
+t.</p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"backg=
+round: #e0ecf6; border: none; height: 1px; margin: 24px 0; padding: 0;"></d=
+iv><h1 style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothin=
+g: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-s=
+ystem, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif=
+, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 2em;=
+ font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;"><strong>=
+Braintrust: Fighting Capitalism with Capitalism</strong></h1><div class=3D"=
+captioned-image-container-static" style=3D"font-size: 16px; line-height: 26=
+px; margin-bottom: 16px; text-align: center;"><figure style=3D"display: inl=
+ine-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" wid=
+th=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margi=
+n: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-al=
+ign: center;"></td><td align=3D"left" class=3D"content" width=3D"1200" styl=
+e=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D=
+"https://email.mg2.substack.com/c/eJxVUsuOpDAM_JrmBso7cOAwGml_AzmJoaOGhEnCz=
+LJfv2k4rFaKbMeWqyyXLRRcYjrHPebSvM1Uzh3HgD95xVIwNUfGNHk3UsV6LsXQuFE42su-8Xma=
+E-IGfh1LOrDZD7N6C8XHcHUQwmTzHGfnemapRSMVBaU5QQecONQ4D0rSmxcO5zFYHPEb0xkDNuv=
+4LGXPD_7xYL_qsy50-TC5gH11Nm415TdYsPoZi32-fYUp8cE-v-6Afywxuvqf12lPcUmYs__Gms=
+8Fca8dNwWTbxL5pqnGHPaFtZ5aJNIY24vWAPBWcI3tIGnfgjOcGdR66EWXeQcb_IkBfvI9V8W4d=
+3GF15D5CqlhnMgZWqOcbgU1vELJvh3cAEQYjozOE2WE_FaEdHtYGj8ywhihnFIueyI61mnFlQWK=
+hFUAiqLTJ8xHhq-HINvC_ttRk8YQi4nJh6WWX0_YcL0KdcCp-u0IvpwTBjArulvHcp_Dpey0YMB=
+Uz8RNUOoRCK64FgNTmt26VaGFHuQgGWsqs4u1K_wj_Qs89McY" rel=3D"" style=3D"border=
+: none; display: block; height: auto; margin: 0; padding: 0; text-decoratio=
+n: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bu=
+cketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images=
+/1b2305fa-b6d7-41b3-ad58-9d9a04b3e21f_1200x600.png&quot;,&quot;fullscreen&q=
+uot;:null,&quot;height&quot;:600,&quot;width&quot;:1200,&quot;resizeWidth&q=
+uot;:null,&quot;bytes&quot;:298897,&quot;alt&quot;:null,&quot;title&quot;:n=
+ull,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null}" alt=3D""=
+ width=3D"550" height=3D"275" class=3D"wide-image" src=3D"https://cdn.subst=
+ack.com/image/fetch/w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/=
+https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.c=
+om%2Fpublic%2Fimages%2F1b2305fa-b6d7-41b3-ad58-9d9a04b3e21f_1200x600.png" s=
+tyle=3D"-ms-interpolation-mode: bicubic; border: none !important; display: =
+block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 550px; ve=
+rtical-align: middle; width: 100%;"></a></td><td style=3D"text-align: cente=
+r;"></td></tr></tbody></table></figure></div><p style=3D"color: #1a1a1a; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 1em 0;">In the very first pos=
+t I wrote about web3 last January, <em><a href=3D"https://email.mg2.substac=
+k.com/c/eJxFkM2OhCAMgJ9muGn4FT1w2Mu-hkGtSkbBhTLGt19mTHYTCkmb8rXfaBGWEC9zhIT=
+kffV4HWA8nGkDRIgkJ4i9mwxreCuU7Mhk5MRa1RKX-jkC7NZtBmMGcuRhc6NFF_yng1KuyGrkwE=
+B1zM6NYt2gtaQth07PklOmKRc31-bJgR_BwAviFTyQzayIR3qIrwf_Luc8z9oHHEJ0fqnHUFJHC=
+VyhetktQzWu1vkqzNU7FQ7w1Q5oy3cJiDOc8gIUjAnVUlnzWjeiGS0DyiUrI8paX3bOyf48JN0X=
+Xqc8JLTjs6B2Es0fupSfq91h-xTK0n159-wdXj14O2ww3T7w1vox1C_gIRbdU2-xyJSiEVp2vNH=
+83r8Ik7pTneKcFPIUSpf_h_4Cp9uPmA" rel=3D"" style=3D"color: #1a1a1a; text-dec=
+oration: underline;">The Value Chain of the Open Metaverse</a>,</em> I wrot=
+e:&nbsp;</p><blockquote style=3D"border-left: 4px solid #67bdfc; margin: 1e=
+m 0;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margi=
+n: 0 0 1em 0; margin-left: 1em;"><em><strong>That&#8217;s what excites me m=
+ost about Web3: the new business models it enables and the new value chains=
+ that emerge when the middleman is removed.&nbsp;</strong></em></p></blockq=
+uote><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin=
+: 0 0 1em 0;">I wrote that piece as someone who had previously been curious=
+ly skeptical about web3. The first thing that clicked for me was the unders=
+tanding that as people spent more and more time online, in ~*the metaverse*=
+~, we would want to buy, own, and sell our own digital things without needi=
+ng to rely on, and more importantly pay an extractive take rate to, someone=
+ sitting in the middle.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16p=
+x; line-height: 26px; margin: 0 0 1em 0;">I made this beautiful graphic to =
+help visualize what that looks like:&nbsp;</p><div class=3D"captioned-image=
+-container-static" style=3D"font-size: 16px; line-height: 26px; margin-bott=
+om: 16px; text-align: center;"><figure style=3D"display: inline-block; marg=
+in: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; ms=
+o-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"><=
+/td><td align=3D"left" class=3D"content" width=3D"1100" style=3D"text-align=
+: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://email.=
+mg2.substack.com/c/eJxVUsuOpDAM_JrmBsqThAOH0Uj7GygPQ0cNCZOEmWW_ft1wWK0U2Y4t=
+u6wqO1NhSfkc91Rq8zZTPXcYI_yUFWqF3BwF8hT8SHumuRRD40fhqZa6CWWaM8BmwjrWfECzH3Y=
+NztSQ4tVBCJPNc7SDJnPPqCIznSX1ThHnleAD65XmvbxxzeEDRAcjfEM-U4RmHZ-17uXBPx7sFz=
+7nY1cOW6pxr86lDVNhMwugn6G659vjmJoe7PPrDvjHkpLH_7xOe05LhlLCN2C-VIAdO24IJt8g8=
+g2Dxh7uBVjPLRBprdOitcbwVnAF7SCpbo23nFlQatCiK7wzm_mTovkp91444-biCq8lyxXqmXtw=
+wFtOqMd5xLUD7V3LtDICaXJ2MBNF4n5rPnR7XJowMsIYoZxSLjURHetUz3tnKBAmqKUgOnWa-Sj=
+m6yHItrD_OGryGFO1KYe4YPn1NBusVwEXnNBvRwz1nCAau4K_daz3OVzKTgtEyHgmfjIVj0Dwni=
+vxlo7duqHQQg1ykIw1iOwTdsV_oH8Bv2TFwQ" rel=3D"" style=3D"border: none; displ=
+ay: block; height: auto; margin: 0; padding: 0; text-decoration: none; widt=
+h: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bb=
+c84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/8f3dece3-301=
+d-430c-916c-287a4980cb9a_1100x839.png&quot;,&quot;fullscreen&quot;:null,&qu=
+ot;height&quot;:839,&quot;width&quot;:1100,&quot;resizeWidth&quot;:null,&qu=
+ot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&=
+quot;:null,&quot;href&quot;:null}" alt=3D"" width=3D"550" height=3D"419.5" =
+class=3D"wide-image" src=3D"https://cdn.substack.com/image/fetch/w_2200,c_l=
+imit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc=
+84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8f3dece=
+3-301d-430c-916c-287a4980cb9a_1100x839.png" style=3D"-ms-interpolation-mode=
+: bicubic; border: none !important; display: block; height: auto; margin: 0=
+ auto; margin-bottom: 0; max-width: 550px; vertical-align: middle; width: 1=
+00%;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></table>=
+</figure></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26=
+px; margin: 0 0 1em 0;">As you know, my brain can get out there, and an ima=
+gined future in which we rely more heavily on digital assets and would like=
+ to own and transact with those assets wherever we go in digital space was =
+enough for me to buy in to the web3 vision.&nbsp;</p><p style=3D"color: #1a=
+1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">But I also un=
+derstand that many people want to see &#8220;<strong>real use cases</strong=
+>&#8221; before getting too excited. &#8220;Just show me one thing that a n=
+ormal person would use in their everyday life,&#8221; these people reasonab=
+ly demand, &#8220;that is better than the existing alternative because of t=
+he use of web3 tools.&#8221;&nbsp;</p><p style=3D"color: #1a1a1a; font-size=
+: 16px; line-height: 26px; margin: 0 0 1em 0;">Allow me to introduce <stron=
+g><a href=3D"https://email.mg2.substack.com/c/eJxFUMtuxCAM_JrlGIGBPA4ceulvI=
+BKcLNoEUnAa5e_Lbg6VLFvyaDyemRzhkvJl9lSIvZula0cT8SwrEmFmR8FsgzeihV5qNTBvlBe9=
+7lkods6ImwuroXwg249xDZOjkOKHwTlo9jTedz06redZS-XBwcwnIdsRpOzmFvDWdYcPGCc0-Iv=
+5ShHZap5Ee3nIrwd81zrPs6nfjNmFWPUKNVPa6p4FAxyACymE1D1XDTRdK9vJCeSgxChQNd3l5q=
+O4n4fi2wJNOcZCbnq9T7BsYqIx5RCXCr-ebsP1A1RDts7tiIEui9GNK_rbK92RfdzbBSPmGqW3j=
+mpQSrayUwO0HdzeahiqG_SgAVhV9qmy4r_oH-yNg9o" rel=3D"" style=3D"color: #1a1a1=
+a; text-decoration: underline;">Braintrust</a></strong>.&nbsp;</p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>Braintrust is a <strong>user-owned talent network</strong> that is growing=
+ fast and reaching real scale just eighteen months after launching the publ=
+ic beta of the protocol last June. $37 million in Gross Service Value (GSV)=
+ &#8211; what Clients pay Talent &#8211; has flowed through the network, wi=
+th nearly twice that contracted for the coming months.&nbsp;</p><div class=
+=3D"captioned-image-container-static" style=3D"font-size: 16px; line-height=
+: 26px; margin-bottom: 16px; text-align: center;"><figure style=3D"display:=
+ inline-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper"=
+ width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"m=
+argin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"tex=
+t-align: center;"></td><td align=3D"left" class=3D"content" width=3D"1114" =
+style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" hre=
+f=3D"https://email.mg2.substack.com/c/eJxVUl2PpSAM_TXXNw1QEHzwYTLJ_g3DR_WSq=
+-AAzqz765erD5tNSFvanJ6mp1YXXGI6xz3m0rzNVM4dx4A_ecVSMDVHxjR5N9KeKRB8aNzIHVVC=
+NT5Pc0LctF_Hkg5s9sOs3uriY7gQhDDRPEdHxKClhYHNcjZsdtwqIiwKRjgo4DevPpzHYHHEb0x=
+nDNis47OUPT_g48F-1Wdd6PJhctH21dm41ZTf9ILVz1js8-1rmxIf7PPrDuBjidHV_7xOe4pLwp=
+z9N9Z8Loh7RdwUTLxJxJumGnPYF9Z6apEIY6zirdEaWg4S20FQ1WpngBmUclC8y9DpTf-JQf_ke=
+67a497FFV5D5ivUAOD6gbfzXFtxoubWSMvbwSmLFDRlwkyUUv6bA3R7WBo_MsIYoUApCEV4xzrZ=
+Q281RcI4NRR5J089H1l_PTjZFvbfjpo0hlhMTD4stfx66g3Xq1AHnKrfjuDLOWHQZkV361juc7i=
+UnRYMmOqZuEmXegQcepB8YL1kt25VaC4HMQjGmsrsYkWFf6R_Ae-6xns" rel=3D"" style=3D=
+"border: none; display: block; height: auto; margin: 0; padding: 0; text-de=
+coration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;htt=
+ps://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public=
+/images/a333d694-ff7e-408f-b7c4-9d8ce13a125b_1114x433.png&quot;,&quot;fulls=
+creen&quot;:null,&quot;height&quot;:433,&quot;width&quot;:1114,&quot;resize=
+Width&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&qu=
+ot;:null,&quot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" width=3D"55=
+0" height=3D"213.77917414721725" class=3D"wide-image" src=3D"https://cdn.su=
+bstack.com/image/fetch/w_2228,c_limit,f_auto,q_auto:good,fl_progressive:ste=
+ep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaw=
+s.com%2Fpublic%2Fimages%2Fa333d694-ff7e-408f-b7c4-9d8ce13a125b_1114x433.png=
+" style=3D"-ms-interpolation-mode: bicubic; border: none !important; displa=
+y: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 550px;=
+ vertical-align: middle; width: 100%;"></a></td><td style=3D"text-align: ce=
+nter;"></td></tr></tbody></table><figcaption class=3D"image-caption" style=
+=3D"color: #767676; font-family: sans-serif; font-size: 14px; font-weight: =
+300; line-height: 1.4em; text-align: center;"><em>Braintrust Network Dashbo=
+ard</em></figcaption></figure></div><p style=3D"color: #1a1a1a; font-size: =
+16px; line-height: 26px; margin: 0 0 1em 0;">This isn&#8217;t theoretical o=
+r conceptual. It&#8217;s happening now, matching real people with real jobs=
+ at top companies. You can watch the growth daily on its <a href=3D"https:/=
+/email.mg2.substack.com/c/eJxFkEFuxCAMRU8zLCMwEJIFi256DeQQJ4OaQAqkVW5fZrKoZ=
+NmLL_v7P4-V1pQve6RS2au5eh1kI_2WjWqlzM5C2YXZih4GqdXIZqtmMeiBheKWTLRj2GzNJ7Hj=
+nLbgsYYU3xucg2ZP26MAuSApMS7ecAO0DIMZcdJCewXm9sVzDhQ9WfqhfKVIbLPPWo_ykB8P-Gw=
+V4pI6PI6uvTRlDLGZltr5tDeRBQscgAsphNQDVx10ppe9R0EclJgEqc5cuJwFvx-K7yt05ZxKRf=
+_1OsGyjalOKYe4NvnriTttb6Glcm3uZwz1chRx2mi-A9eb2xuBWylSbjxnh7XRUrKXRo3QG7gDN=
+iLKjHrUAKw5z6ltxX_TPysShTo" rel=3D"" style=3D"color: #1a1a1a; text-decorati=
+on: underline;">public dashboard</a>. That dashboard also shows that 2,373 =
+total jobs have been completed at an average project size of $72,474 and du=
+ration of 228 days.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; l=
+ine-height: 26px; margin: 0 0 1em 0;">Braintrust&#8217;s market cap is $315=
+ million, its fully diluted market cap is $896 million, and in December, it=
+ announced a fresh <a href=3D"https://email.mg2.substack.com/c/eJxFkEuOwyAM=
+QE9Tdo34hmTBYjZzjYiAm6ImkAEzUW4_tFmMhGzJlnn2cxZhSfk0eypI3mHCcwcT4SgrIEImtUC=
+egjes54NQciTeSM8GNZBQpkcG2GxYDeYKZK_zGpzFkOJnglKuyNMIKjSHwQ5McdePo6VaCKHVg4=
+HXfJQX11YfIDow8Av5TBHIap6Ie7mJrxv_bu84jq5tM2cbYuMV7FzaWn1e09LSvfG2-4y54H2v2=
+T1tARIMp5xTJhgTaqCy453uRe8sA8olmxnITp_2UYv9uUm6LbwrdS5o3ev9O8kmJpxTDnFp7dfT=
+brB-Gu3WqeWtxoDnBNHOK_hLA142P2KmBSLkZtlPFptDKXqh5ch7za-zmyepRzUqzkkj-9Sm4j_=
+0D0jPjBY" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">$1=
+00 million token sale</a> to Coatue, Tiger, and existing investors to fund =
+grants to grow the ecosystem.&nbsp;</p><p style=3D"color: #1a1a1a; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 1em 0;">This is web3 in the real-wo=
+rld.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26p=
+x; margin: 0 0 1em 0;">Braintrust is not a radically new product or busines=
+s model. It doesn&#8217;t require you to believe that digital objects have =
+value or promise multi-thousand percent yields. Braintrust just connects co=
+mpanies looking to hire flexible technical talent with that talent, and cha=
+rges a fee for doing so. Simple.&nbsp;</p><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0 0 1em 0;">It looks like a normal t=
+alent marketplace on the surface.&nbsp;This is its homepage:&nbsp;</p><div =
+class=3D"captioned-image-container-static" style=3D"font-size: 16px; line-h=
+eight: 26px; margin-bottom: 16px; text-align: center;"><figure style=3D"dis=
+play: inline-block; margin: 0 auto; width: 100%;"><table class=3D"image-wra=
+pper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=
+=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=
+=3D"text-align: center;"></td><td align=3D"left" class=3D"content" width=3D=
+"1456" style=3D"text-align: center;"><a class=3D"image-link" target=3D"_bla=
+nk" href=3D"https://email.mg2.substack.com/c/eJxVUtGOpSAM_ZrrmwYKKD74MJlkf8=
+MUqF5zFRzAmXW_frn6sNmEtIc27Wl6ajHTHOI57CHl6m3GfO40ePpJK-VMsToSxXFxA29BCyX7y=
+g3Sca10taRxikQbLuuQ40HVfph1sZiX4K8KxkBVz0G4Vk5WKDDCSg7aTMQ4c6x3QqAS7ubFwy3k=
+LQ30TfEMnqp1eOa8p4f4eMCv8qzzTTpMymhfjQ1bCS0bzlT8RNk-3760yeEBn183EB9zCK78p3X=
+cY5gjpbR8U4mnTLSXipsC1JtEvWmKMYd9UcnHmpgyxmpZG0RRS9FR3Suua3RGgKGu67Vskmhwwz=
+_B40-65yo97l1c8BoyXRC4FUAKa6dbqOWEsu5tb-rJOIlQUNuykUvNf2vRN7ufq2UABsC44Fwoz=
+WQDTdeK1iInBpIbTrLpTpyOhF8PybYZ_ttRFQcfsglx8XNJv5640XolyoBj8dvhl3yO5NGs5G4d=
+830Ol7LjTJ5iORM3Yi5HIEUrOtlD28GtWxFadr3qFUBVmF0oVf4f6V9EosbK" rel=3D"" styl=
+e=3D"border: none; display: block; height: auto; margin: 0; padding: 0; tex=
+t-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot=
+;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/pu=
+blic/images/21c32e5a-d862-4fa4-9c9b-fbd4a2c9b660_1481x839.png&quot;,&quot;f=
+ullscreen&quot;:null,&quot;height&quot;:825,&quot;width&quot;:1456,&quot;re=
+sizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;titl=
+e&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" width=
+=3D"550" height=3D"311.6414835164835" class=3D"wide-image" src=3D"https://c=
+dn.substack.com/image/fetch/w_2912,c_limit,f_auto,q_auto:good,fl_progressiv=
+e:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.ama=
+zonaws.com%2Fpublic%2Fimages%2F21c32e5a-d862-4fa4-9c9b-fbd4a2c9b660_1481x83=
+9.png" style=3D"-ms-interpolation-mode: bicubic; border: none !important; d=
+isplay: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 5=
+50px; vertical-align: middle; width: 100%;"></a></td><td style=3D"text-alig=
+n: center;"></td></tr></tbody></table><figcaption class=3D"image-caption" s=
+tyle=3D"color: #767676; font-family: sans-serif; font-size: 14px; font-weig=
+ht: 300; line-height: 1.4em; text-align: center;"><em>Braintrust Homepage</=
+em></figcaption></figure></div><p style=3D"color: #1a1a1a; font-size: 16px;=
+ line-height: 26px; margin: 0 0 1em 0;">It doesn&#8217;t slap you in the fa=
+ce with web3. You need to scroll to the fifth section to find the first gli=
+mpse: &#8220;Take ownership: Braintrust is controlled by you, the Talent, t=
+hrough the <a href=3D"https://email.mg2.substack.com/c/eJxFkMtuhDAMRb-G7Iry=
+4rXIolI1q_4DysNANJDQxBTx980Mi0qWLdmyr--xGmGO6VJ7zEheacRrBxXgzCsgQiJHhjR6p1j=
+Le9HIgTglHeubnvg8Tglg035VmA4g-2FWbzX6GN4blPKGLMqabnLOgKQDG6gVQrdTQycrYLLDYO=
+ytqw_nIVhQ8AvpigHIqhbEPVfis-KPEud51uUbk7QPRS9jbeNW-gZTxg-MTwiVeCz5W4e5El8Qi=
+Fecck6ZYEw0PZU1r7tWtFYzoFwyw0DW3aWnI-ufStJt5nU-TEZtn6_bJKkQ0cTky0FJn4veYH0P=
+itOx1O0IHq8RgjYruBsC3izfWMYZAqTC2I0aC0EpWtHJgbcdv00XSrIbmqHhnBRlF8tW-Bf9A54=
+ajYY" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">BTRST =
+token</a>.&#8221;&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0;">The value proposition to the two sides =
+of the marketplace &#8211; Talent and Enterprises &#8211; mentions the toke=
+n as just one of six reasons to use Braintrust.&nbsp;</p><div class=3D"capt=
+ioned-image-container-static" style=3D"font-size: 16px; line-height: 26px; =
+margin-bottom: 16px; text-align: center;"><figure style=3D"display: inline-=
+block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin:=
+ 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-alig=
+n: center;"></td><td align=3D"left" class=3D"content" width=3D"1292" style=
+=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"=
+https://email.mg2.substack.com/c/eJxVUl2PpSAM_TXXNw0UEHjwYTLJ_g3DR_Waq-AAzq=
+z765erD5tNSFvanJ6mp84UnGM6hz3m0rzNWM4dh4A_ecVSMDVHxjQufqA9KCa4bvzAPVVCNUsep=
+4S4mWUdSjqw2Q-7Ls6UJYYLQQiI5jlMhmipQffWeUonNxE1cWF5zVJNe37zmsMvGBwO-I3pjAGb=
+dXiWsucH-3jAr_qcD10-bC7GvToXt5paNjNj9RMW93z72qbEB3x-3QH7mGP09T-t457inDDn5Rt=
+rPhfEvSJuChBvEvGmqcYe7oW1nlokwlqneGuNYS1nElstqGqNtwwsSqkV7zLrzGb-xGB-8j1X7X=
+Hv4gqvIfMVUkedRa7bnvSu5ThBa7SElimBSk1UAncjBQ2_paTdHuZmGYAAEMooZUIR3kEne9Y7Q=
+5EAp5Yi7-RppiObrwcn2wz_7ahJQ4jFxrSEuZZfT7PhehXqgGP12xGWco4YjF3R3zqW-xwuZccZ=
+A6Z6Jn40pR4BZz2TXEMv4datCs2lFloANJXZx4oK_0j_AmHFxgM" rel=3D"" style=3D"bord=
+er: none; display: block; height: auto; margin: 0; padding: 0; text-decorat=
+ion: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://=
+bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/imag=
+es/1c1cbe49-606c-4ef2-a972-385e88f1724c_1292x771.png&quot;,&quot;fullscreen=
+&quot;:null,&quot;height&quot;:771,&quot;width&quot;:1292,&quot;resizeWidth=
+&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:n=
+ull,&quot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" width=3D"550" he=
+ight=3D"328.2120743034056" class=3D"wide-image" src=3D"https://cdn.substack=
+=2Ecom/image/fetch/w_2584,c_limit,f_auto,=
+q_auto:good,fl_progressive:steep/htt=
+ps%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%=
+2Fpublic%2Fimages%2F1c1cbe49-606c-4ef2-a972-385e88f1724c_1292x771.png" styl=
+e=3D"-ms-interpolation-mode: bicubic; border: none !important; display: blo=
+ck; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 550px; verti=
+cal-align: middle; width: 100%;"></a></td><td style=3D"text-align: center;"=
+></td></tr></tbody></table><figcaption class=3D"image-caption" style=3D"col=
+or: #767676; font-family: sans-serif; font-size: 14px; font-weight: 300; li=
+ne-height: 1.4em; text-align: center;"><em>Braintrust</em></figcaption></fi=
+gure></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; =
+margin: 0 0 1em 0;">Braintrust is a clear distillation of an incredibly imp=
+ortant point: <strong>good tokenomics can enhance a strong value propositio=
+n, but can&#8217;t </strong><em><strong>replace</strong></em><strong> a str=
+ong value proposition</strong>.&nbsp;</p><p style=3D"color: #1a1a1a; font-s=
+ize: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>Side Note: we&#8217;r=
+e going to talk about <strong>tokenomics</strong> a bunch, so let&#8217;s d=
+efine the term. I like to think about it as <strong>designing economies by =
+setting rules for how tokens are distributed, what participants can do with=
+ them, and how value accrues to them</strong>. Tokenomics are one reason to=
+kens have advantages over equities: they can be programmed to do more. OK, =
+back to it.&nbsp;</em></p><p style=3D"color: #1a1a1a; font-size: 16px; line=
+-height: 26px; margin: 0 0 1em 0;">But even without mentioning a token, the=
+ reasons that both sides of the market start using Braintrust are clear:&nb=
+sp;</p><ul style=3D"margin-top: 0;"><li style=3D"margin-bottom: 3.75px; mar=
+gin-left: 7.5px; margin-right: 0; margin-top: 3.75px; mso-special-format: b=
+ullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; mar=
+gin: 0; margin-bottom: 0;">Enterprises, or <strong>Clients</strong>, use Br=
+aintrust because they can find and hire vetted technical and design talent =
+globally quickly for an industry-low 10% fee. They find the right talent fo=
+r their project in as little as three days instead of many weeks.&nbsp;</p>=
+</li></ul><ul style=3D"margin-top: 0;"><li style=3D"margin-bottom: 3.75px; =
+margin-left: 7.5px; margin-right: 0; margin-top: 3.75px; mso-special-format=
+: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; =
+margin: 0; margin-bottom: 0;"><strong>Talent</strong> uses Braintrust becau=
+se they can find high-paying, flexible technical work at top companies like=
+ Nike and Porsche and <strong>pay no fee</strong> on what they earn. They c=
+an quit their full-time jobs, get as much work as they want, and log off wh=
+en they want.&nbsp;</p></li></ul><p style=3D"color: #1a1a1a; font-size: 16p=
+x; line-height: 26px; margin: 0 0 1em 0;">The fact that they can also earn =
+tokens in order to have a vote on the future direction of the network is ic=
+ing on top, but important icing. <strong>When you trust a platform with you=
+r livelihood, you want to make sure it </strong><em><strong>can&#8217;t</st=
+rong></em><strong> break that trust.</strong>&nbsp;</p><p style=3D"color: #=
+1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Instead of =
+being the network&#8217;s raison d&#8217;etre, <strong>web3 is a toolkit th=
+at Braintrust uses to do the long-term strategically rational things that a=
+ll marketplaces </strong><em><strong>should</strong></em><strong> do but th=
+at many can&#8217;t</strong> because of alignment and time horizon misalign=
+ment, like keeping take rates minimally extractive.&nbsp;</p><p style=3D"co=
+lor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">To be=
+ clear, using web3 tools doesn&#8217;t mean that Braintrust is perfect. Tok=
+ens aren&#8217;t magic beans. <a href=3D"https://email.mg2.substack.com/c/e=
+JxFkUuOhSAQRVfzGBr5-Bsw6Elvg6CUSp6CDeWz3X2XOugESKWKy705DBZhiunUW8zIrsPguYEO=
+cOQFECGxPUMy3mlei1ZWqmNOK8fbqmU-mzEBrNYvGtMObNv7xQ8WfQy3oixFxWbddgBQq7aW0jn=
+JoelE1Y98kK1shrEuH1-7Ow9hAA0fSGcMwBY9I275Jb9e4pvWcRxFAuc8FkNcqZFoXwkWSzqqqb=
+tCwExlmMbURypsuN4ys_2Agd8N0m1iDo-z6ZP1gZJnpIvMa1EKUXLJuazaUhWiaGpZD5ZDKRTvO=
+aiiOe24Z_vzUuU6iSLvfUY7vK88LOkQsY_Jh4nG79musNwDwmKuaHvweBoItl_APcTwAX8zNBME=
+SPQhzlgk3ErWslGdqBvxECKkqumqrhKCkbOLpAr_pn_iqZ1a" rel=3D"" style=3D"color: =
+#1a1a1a; text-decoration: underline;">This Redditor</a> provides a good fir=
+st-hand account as a freelancer with both pros and cons. Community governan=
+ce can be messy and imperfect. Tokens invite people to game or scam the sys=
+tem. I&#8217;m sure there will be many unhappy Clients and Talent over the =
+years.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 2=
+6px; margin: 0 0 1em 0;">Braintrust isn&#8217;t a foregone conclusions, but=
+ a series of bets:<strong>&nbsp;</strong></p><ol style=3D"margin-top: 0;"><=
+li style=3D"margin-bottom: 3.75px; margin-left: 7.5px; margin-right: 0; mar=
+gin-top: 3.75px;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0; margin-bottom: 0;"><strong>That good tokenomics can lower=
+ costs and unstick and accelerate the flywheel</strong></p></li><li style=
+=3D"margin-bottom: 3.75px; margin-left: 7.5px; margin-right: 0; margin-top:=
+ 3.75px;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; m=
+argin: 0; margin-bottom: 0;"><strong>That a user-owned network can stay min=
+imally extractive longer than an investor-owned one</strong></p></li><li st=
+yle=3D"margin-bottom: 3.75px; margin-left: 7.5px; margin-right: 0; margin-t=
+op: 3.75px;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px=
+; margin: 0; margin-bottom: 0;"><strong>That a minimally extractive network=
+ can actually be the most valuable</strong></p></li><li style=3D"margin-bot=
+tom: 3.75px; margin-left: 7.5px; margin-right: 0; margin-top: 3.75px;"><p s=
+tyle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; marg=
+in-bottom: 0;"><strong>That it can eat so much of the global talent market =
+that a small 10% take rate becomes a very big number</strong></p></li></ol>=
+<p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0=
+ 1em 0;">It&#8217;s early, but the bets seem to be paying off. Since foundi=
+ng Braintrust in 2018, co-founders <a href=3D"https://email.mg2.substack.co=
+m/c/eJxFkE2OgzAMhU_TLFFiQoBFFrPpNVB-DM0UEiYxU3H7SctiJMuWZdnP73OGcEn51HsqxN5=
+ponNHHfFVViTCzI6CeQpeCwVD28mReS29GLqBhTLNGXEzYdWUD2T7YdfgDIUUPxucQ8ceerYoPI=
+wSkBtQ3qp5VqPthl5Z59DOl645fMDoUOMv5jNFZKt-EO3l1n7d4F6DXuH9UePSVjvjzfZt3LOkW=
+GYWNHAALloh2m7gsoGmV61yRiAHKaxA2fSnmY9ifm6Sbws05bCF6oH3PZZ1TGRTDnGp4-fDbLh-=
+BtXTVOt2xEDnhNHYFf1lly5qHwDTghFzpeknQ5WVbFXbyxFUD5e9ykP2Yzd2AKwq-1S34r_oH3D=
+Xhd4" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Adam J=
+ackson</a> and <a href=3D"https://email.mg2.substack.com/c/eJxFUMuOwyAM_Jpy=
+jMBA0hw47GV_IzLESVETyPLYKn-_tDmsZNmyRuPxjMNCa0ynOWIu7N2mch5kAr3yRqVQYjVTmvx=
+sRA93qdXIZqNmcdd35vO0JKId_WZKqsSOajfvsPgYPgzOQbOHcQtwOVqHDmiBwRJqMWI_SKU1DG=
+68dLHOnoIjQ7-UzhiIbeZRypFv8usG363Ky78_6lzc27aipa0GjMwb4ABcSCGkvnPVQTf0sncoi=
+IMSVpDqhhOXmvHnpvi-QperzQXd832LJRNisTH5sDb4-cCdtg_Q_Ext7jX4ck4U0G40X1bLldjH=
+_LRSoNSSnCcsLSclezmoEfoBLmstCzWMetQArCnPsbHCv-gfVJ2Dbw" rel=3D"" style=3D"c=
+olor: #1a1a1a; text-decoration: underline;">Gabriel Luna-Ostaseski</a>, alo=
+ng with the core teams and community, have built Braintrust into one of the=
+ most pragmatic and fastest-growing web3 businesses on the planet.&nbsp;</p=
+><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 =
+0 1em 0;">But there&#8217;s a long way to go to achieve the vision and <str=
+ong>pull all talent network business onto its protocol</strong>. Braintrust=
+ has done $37 million in volume all-time. Upwork, a Web2 talent network, di=
+d $904 million in its <a href=3D"https://email.mg2.substack.com/c/eJxFkMuOh=
+CAQRb-m2Wl4CbpgMZv5DcOjtEkrODy6498Po4tJCFRxq3KSY3WBNaZTHTEX9HfN5TxABfjkDUqB=
+hGqGNHuniKAjG_iEnOKOjMOIfJ6XBLBrv6mSKqCjms1bXXwM1wbGdEBPBWwxVggKwzJRPfHBSkw=
+EjFS2wEh3c3V1HoIFBW9IZwyANvUs5cgP9vWg3-348IZcYsp9PT4xvXob9_adSyPabvEb5NZygb=
+UcOe6so67jHLvOwLR0oA0AxZQDCORVqygmjBA2jJj3tJeCCasJtAliCPBennqpWf88ON5X2udqG=
+sleVJRUiMXE5MPa4tdT77BdQVMwt3evwZdzhqDNBu62U27Jl695hQCpyXezLk0tZ4JJPlEh6W2j=
+6eNyGqaBUtTILrat8A_9BRDTkt4" rel=3D"" style=3D"color: #1a1a1a; text-decorat=
+ion: underline;">last quarter</a> alone, <a href=3D"https://email.mg2.subst=
+ack.com/c/eJxFkUuO5CAMhk9T7DrilYQsWMymV7Np9QEQD6eCmkAKyIxy-3FVLUZCNsa2fvzZ2=
+w73Ui99lNbJ05h-HaAz_G0JeodKzgbVxKDZxJUY5UKCloGpUZHYzFoBdhuT7vUEcpwuRW97LPnV=
+QSkfyabVNM9hdIuTXC1UeTZJvjq3zooxp1b21rVniJA9aPgD9SoZSNJb70e7iV83_omncTE8pA9=
+58GXHeJaLoEoIhfc1JmjoQ_FmjdlmH216PnDKGbqHQPMlzDM0nxEl6sf3ZitsJQWoH79fww5HWE=
+nUWMQpE4yJUVE58GGexOQtA8olcwzkMF92PZt93CTd73xop2vd-p_nx0jVuXRXasx3TP9sdof0S=
+iAeg34_c-yXgWxdgvAm198LeLE0d8hQcTHB2I7YpZgEjsqnmb9JIVo5L-Myck5QORTsyv9F_wED=
+PJo_" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Fiverr=
+</a> did ~$260 million. Deloitte did $50.2 billion in revenue in 2021. In a=
+ll, <strong>companies spend trillions of dollars on talent every year</stro=
+ng>. In that context, Braintrust&#8217;s volume to date should look like a =
+blip in a year or a decade. And now that Braintrust has gone full DAO, it&#=
+8217;s up to the community to pull it off.&nbsp;</p><p style=3D"color: #1a1=
+a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Ultimately, Br=
+aintrust is a familiar business model in one of the oldest businesses in th=
+e world &#8211; hiring &#8211; with a few modern enhancements. Its success =
+will be measured by how it competes against public incumbents over time.&nb=
+sp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; marg=
+in: 0 0 1em 0;">The question for Braintrust is: <strong>can a user-owned ne=
+twork </strong><em><strong>both create and capture</strong></em><strong> mo=
+re value than its investor-owned counterparts?&nbsp;</strong></p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+><strong>If by the end of this piece, you can understand how the answer mig=
+ht be yes, then you understand web3.</strong> Braintrust is the gateway dru=
+g. So today, we&#8217;re going to go deep on how it all works:&nbsp;</p><ul=
+ style=3D"margin-top: 0;"><li style=3D"margin-bottom: 3.75px; margin-left: =
+7.5px; margin-right: 0; margin-top: 3.75px; mso-special-format: bullet;"><p=
+ style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; ma=
+rgin-bottom: 0;"><strong>The Braintrust Manifesto</strong></p></li><li styl=
+e=3D"margin-bottom: 3.75px; margin-left: 7.5px; margin-right: 0; margin-top=
+: 3.75px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-siz=
+e: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>Web2 Mark=
+etplaces and the Take Rate Temptation</strong></p></li><li style=3D"margin-=
+bottom: 3.75px; margin-left: 7.5px; margin-right: 0; margin-top: 3.75px; ms=
+o-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0; margin-bottom: 0;"><strong>How Braintrust Works<=
+/strong></p></li><li style=3D"margin-bottom: 3.75px; margin-left: 7.5px; ma=
+rgin-right: 0; margin-top: 3.75px; mso-special-format: bullet;"><p style=3D=
+"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bott=
+om: 0;"><strong>Value Accrual and the Protocol Upgrade</strong></p></li><li=
+ style=3D"margin-bottom: 3.75px; margin-left: 7.5px; margin-right: 0; margi=
+n-top: 3.75px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; fon=
+t-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>The =
+Braintrust Thesis &amp; How User-Owned Network Wins</strong></p></li></ul><=
+p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 =
+1em 0;">But first, I want to turn it over to Adam to set the stage.&nbsp;</=
+p><h3 style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing=
+: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-sy=
+stem, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,=
+ 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375=
+em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;"><stro=
+ng>The Braintrust Manifesto</strong></h3><p style=3D"color: #1a1a1a; font-s=
+ize: 16px; line-height: 26px; margin: 0 0 1em 0;">In October, Braintrust co=
+-founder and CEO Adam Jackson joined my friends <a href=3D"https://email.mg=
+2.substack.com/c/eJxFUMtuxCAM_JrlGIGBPA4ceulvRBCcLNoEUnC6yt-XbA6VLFvWaDyemS=
+zhkvJp9lSIXW2kc0cT8V1WJMLMjoJ5DN6IFnqp1cC8UV70umehjHNG3GxYDeUD2X64NUyWQoofB=
+ueg2dPIYRjULKTkXjvdzqiFUqBa57gCAH_r2sMHjBMa_MV8pohsNU-ivTzk1wO-a9E7XB81U9rq=
+toTVYSYWDHAALqQQUvdcNdB0rWwnK5CDEk6garrTzkexPw_FtwWacrhCdnpdl1g2MZFLOcSlwq-=
+n3XD9ANXNWOd2xEDniNG6Ff1tlO68PtbHBSPmmqMfLdWUlGxlpwZoO7iN1SRUN-hBA7Cq7FNlxX=
+_RPy0fgbU" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">B=
+en</a> and <a href=3D"https://email.mg2.substack.com/c/eJxFkMuOwyAMRb-mLCMg=
+kMeCxWz6G4iHkzJNIANmqvz90GYxkmXLsuzje51BWFM-1ZEKknfSeB6gIrzKBoiQSS2QdfCKDXz=
+qpZiJV8KzSU4kFL1kgN2ETWGuQI5qt-AMhhQ_G5RySR5qWKwF2stp9s5Z1g9uYT2TTs6M-UXCxT=
+XVB4gOFPxCPlMEsqkH4lFu_deN31vgK7w_6lzaW-e_cyoQkQTFKee0nWSNQUXHu3FoEMOAcsEsA=
+9GNp1lqMT83QfeVd6XagsY936dIVjGhTTnEtY2fD7PD9hk0ObrVvcaAp4Zo7Ab-UoqXYR_teoUI=
+uRnptcFmk-iHfhQzH0Z-KWtWiHGWs-ScNLJPbSv-Q_8ACBiDVw" rel=3D"" style=3D"color=
+: #1a1a1a; text-decoration: underline;">David</a> on the <a href=3D"https:/=
+/email.mg2.substack.com/c/eJxFkU1v2zAMhn-NdZuhL1vSQYcWW7piG7oBwdCeDNmiHSG25=
+EhyOv_7qcmhAEESfEG8xMPBZJhC3PUaUkYfqcv7CtrDe5ohZ4hoSxA7ZzVpqWQNV8hqbolsJHKp=
+GyPAYtysc9wArVs_u8FkF_xtA2PaoJMmopViFCNtKTG9VFIKa4VUwiiJe0XuvmazDvwAGq4Q9-A=
+BzfqU85oq9lDRQ4mwgq_TGrIb93oISxnB6lKwULr28OPnS3xlp29_wxVH8_b252m6VOyQXMW-4u=
+mX-vLv6fH4sFyO59_P34_k-TohpymmFBNGCGsk5jWtRcvawRDAlJOeAK_FbsYtmUvF8TLROm19y=
+mY4fxyAovYh9yE6PxX5fDILzDehkOhKXTbv8t6BN_0M9g4p31nfsHUTeIjlB7YzuRDmrGWCK9oK=
+eodSKHKhGtVQioqzDWXLf5r-B2oslOc" rel=3D"" style=3D"color: #1a1a1a; text-dec=
+oration: underline;">Acquired LP Show</a>. At one point Ben asked him how h=
+is &#8220;incendiary&#8221; comments about Web2 marketplaces jibed with his=
+ history as a three-time Web2 marketplace entrepreneur.&nbsp;</p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>Adam&#8217;s answer is a modern Greed is Good speech. <br><br></p><div cla=
+ss=3D"captioned-image-container-static" style=3D"font-size: 16px; line-heig=
+ht: 26px; margin-bottom: 16px; text-align: center;"><figure style=3D"displa=
+y: inline-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrappe=
+r" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D=
+"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"t=
+ext-align: center;"></td><td align=3D"left" class=3D"content" width=3D"808"=
+ style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" hr=
+ef=3D"https://email.mg2.substack.com/c/eJxVUsuOpDAM_JrmBsqThAOH0Uj7G8hJDB01=
+JEwSZpb9-k3DYbVSZDu2ymW5bKHgEtM57jGX5m2mcu44BvzJK5aCqTkypsm7kfZMcymGxo3CUS1=
+14_M0J8QN_DqWdGCzH2b1FoqP4UIQwmTzHAkDS-hsDXXAYJZ2BjXjLGhvjTVO37xwOI_B4ojfmM=
+4YsFnHZyl7fvCPB_tVn3Why4fJBeyrs3GrKb_BgtXPWOzz7WubEh_s8-sO-McSo6v_eZ32FJeEO=
+ftvrPlcEPeKuCmYfJPIN0015rAvrPXUIpHGWC1aA8BbwRW2g6S6BWc4M6jUoEWXeQcb_IkBfvI9=
+V-1x7-IKryHz3ZlTOSjLWxgG2gqmsQXTy9ZKQc1gAetiJ030byl5t4el8SMjjBHKKeVSE9GxTvW=
+8t0CRsIqhKDp1wnxk-HoIsi3svxU1aQyxmJh8WGr59YQN16tQ55uq347gyzlhALOiu2Us9zVcwk=
+4LBkz1StwEpd6A4D1XYmC9YrdsVWehBjlIxprK7GJFhX-kfwH1uceJ" rel=3D"" style=3D"b=
+order: none; display: block; height: auto; margin: 0; padding: 0; text-deco=
+ration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https=
+://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/i=
+mages/b31597c3-a991-428e-ab65-c541b9cae185_808x553.png&quot;,&quot;fullscre=
+en&quot;:null,&quot;height&quot;:553,&quot;width&quot;:808,&quot;resizeWidt=
+h&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:=
+null,&quot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" width=3D"550" h=
+eight=3D"376.4232673267327" class=3D"wide-image" src=3D"https://cdn.substac=
+k.com/image/fetch/w_1616,c_limit,f_auto,q_auto:good,fl_progressive:steep/ht=
+tps%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com=
+%2Fpublic%2Fimages%2Fb31597c3-a991-428e-ab65-c541b9cae185_808x553.png" styl=
+e=3D"-ms-interpolation-mode: bicubic; border: none !important; display: blo=
+ck; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 550px; verti=
+cal-align: middle; width: 100%;"></a></td><td style=3D"text-align: center;"=
+></td></tr></tbody></table></figure></div><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0 0 1em 0;">I&#8217;ll title it <str=
+ong>Fighting Capitalism with Capitalism</strong>. It&#8217;s a long block. =
+Read it.&nbsp;</p><blockquote style=3D"border-left: 4px solid #67bdfc; marg=
+in: 1em 0;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px;=
+ margin: 0 0 1em 0; margin-left: 1em;"><em>I&#8217;ve always felt that <str=
+ong>if something is good for business, but your customers hate you, there&#=
+8217;s opportunity there for competition</strong>. Now I get called a Socia=
+list, like somebody from <strong>Bloomberg called me a Socialist, are you f=
+ucking crazy</strong>? I&#8217;ve been making money my whole life. <strong>=
+I&#8217;m a red-blooded, red meat entrepreneur.</strong> I helped start a h=
+edge fund, right? I&#8217;m not a Socialist.&nbsp;</em></p><p style=3D"colo=
+r: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; margin-l=
+eft: 1em;"><em><strong>When marketplace operators or any company is abusive=
+ to their customers to the point where the customers are trying to pass law=
+s to change&#8230; like, I think there&#8217;s opportunity</strong>. I don&=
+#8217;t believe in the government regulating those things. I think the AB-5=
+ here in California was complete un-well-thought-out corrupt horseshit just=
+ like everything else the state does, but these are market-created problems=
+ that markets can solve. <strong>So if you operate a marketplace and half y=
+our customers hate you, that&#8217;s an entrepreneur&#8217;s dream.</strong=
+></em></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; m=
+argin: 0 0 1em 0; margin-left: 1em;"><em><strong>So the dream here is: new =
+technology &#8211; blockchain &#8211; powering a new organizational model &=
+#8211; user-owned, user-controlled &#8211; eats away at the central rent se=
+ekers who are disproportionately extracting value.</strong> Look, without b=
+lockchain, there&#8217;s no way to compete with these guys. There&#8217;s n=
+o one more operationally excellent than DoorDash, you have to really tip yo=
+ur hat to them, it&#8217;s an amazing app and an incredibly well-run busine=
+ss&#8230; <strong>but if they&#8217;re being abusive to a major part of the=
+ir marketplace, then the door&#8217;s open for disruption.</strong></em></p=
+></blockquote><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26p=
+x; margin: 0 0 1em 0;">If web3 had to elect a President to appeal to the wi=
+dest swatch of the population, Adam might be the guy. His is a pragmatic, n=
+o bullshit approach. That speech sets the terms for the rest of the piece a=
+nd makes it clear what he&#8217;s going for.&nbsp;</p><ul style=3D"margin-t=
+op: 0;"><li style=3D"margin-bottom: 3.75px; margin-left: 7.5px; margin-righ=
+t: 0; margin-top: 3.75px; mso-special-format: bullet;"><p style=3D"color: #=
+1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;">B=
+raintrust will be less extractive than the incumbents, not out of a sense o=
+f charity but out of a sense of capitalism. <strong><a href=3D"https://emai=
+l.mg2.substack.com/c/eJxFkU9v4yAQxT-NudWCAfznwCHa3R730kN7szBMEjY2ZGGc1vvply=
+SHSiPmodHTG_3GWcJTyru5pkLs_ky0X9FE_CwLEmFmW8E8BW9EB4PUamTeKC8GPbBQpmNGXG1YD=
+OUN2XWbl-AshRQfDs5Bs7MBZXs8CiXk7CQOFgHGHgQOvvdWIz5z7eYDRocGb5j3FJEt5kx0LY08=
+NPBaiz7DfaPWpbX-nA9fKVZRyNJWqhAKdKf0UJsGPnRaQiNfq_8n8AY6quL9z8ev85u8_XhZ_o2=
+Xw-_3G3dfBxYMcAAupBBSD1y10Pad7JwVyEGJWaBq-90et2L_NoqvJ2jLNtdgd7lvw7KJieaUQz=
+zV8eVsV1weg0pkqn3dYqB9wmjnBf0TFj2ZP_BNJ4yY6y38ZKmSVrKTvRqh6-EJp9JU_ahHDcBqs=
+k_VFb9D_wNbqJVA" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underli=
+ne;">Your take rate is my opportunity</a></strong>, in practice.</p></li><l=
+i style=3D"margin-bottom: 3.75px; margin-left: 7.5px; margin-right: 0; marg=
+in-top: 3.75px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; fo=
+nt-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;">Adam wants =
+to make a lot of money through the ownership of his BTRST tokens over time,=
+ which means <strong>value will need to accrue to token holders</strong>.&n=
+bsp;</p></li></ul><p style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0 0 1em 0;">The rest of this piece is about figuring out whe=
+ther web3 makes those two seemingly contradictory ideas &#8211; extracting =
+less and capturing more value &#8211; possible. (Hint: I think it can.)</p>=
+<p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0=
+ 1em 0;">That requires understanding how marketplaces have typically worked=
+=2E</p><h3 style=3D"-moz-osx-font-smoothi=
+ng: antialiased; -webkit-font-smooth=
+ing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple=
+-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-ser=
+if, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.=
+375em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;"><s=
+trong>Web2 Marketplaces and the Take Rate Temptation</strong></h3><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>First things first: I think Web2 marketplaces are great. I ordered dinner =
+on DoorDash last night. I took an Uber home the night before that. I&#8217;=
+m staying in an Airbnb later this week.&nbsp;</p><p style=3D"color: #1a1a1a=
+; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Marketplaces are =
+some of the biggest and most impressive businesses built in the past two de=
+cades. Even after recent selloffs, they&#8217;re worth hundreds of billions=
+ of combined dollars, all value created in the past decade or so (except eB=
+ay, which I think came out of Bell Labs in the1950s):&nbsp;</p><div class=
+=3D"captioned-image-container-static" style=3D"font-size: 16px; line-height=
+: 26px; margin-bottom: 16px; text-align: center;"><figure style=3D"display:=
+ inline-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper"=
+ width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"m=
+argin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"tex=
+t-align: center;"></td><td align=3D"left" class=3D"content" width=3D"934" s=
+tyle=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=
+=3D"https://email.mg2.substack.com/c/eJxVUsuOpDAM_JrmBsqTkAOH0Uj7GygPQ0cNCZ=
+OEmWW_ft1wWK0U2Y6tclkuO1NhSfkc91Rq8zZTPXcYI_yUFWqF3BwF8hT8SHs2cCl040fh6SCHJ=
+pRpzgCbCetY8wHNftg1OFNDiheCECab50i0JKCdo0A019J6KwUbej73nHGQ6uY1hw8QHYzwDflM=
+EZp1fNa6lwf_eLBf-JyPXTlsqca9Opc2TIXNLIB-huqeb49tanqwz6874B9LSh7_8zrtOS0ZSgn=
+fgPlSAXZE3BRMvknkmwaNPdwLsJ5bINJaN4jWGsNbwRW0WtKhNd5yZkEpPYiu8M5s5k-K5qfcc2=
+GPexdXeA1Z7s5KapDct8IINMSLVvc9xWg2ijI7gxKT5uK3EKLb49KEkRHGCOWUcjkQ0bFO9bx3B=
+pfJBLUURKdOMx_FfD0E2Rb234qaPMZUbcohLlh-Pc0G61XA-Sb02xFDPSeIxq7gbxnrfQ2XsNMC=
+ETJeiZ9MxRsQvOdKaNYrdsuGOgulpZaMNcjsE6LiP9K_R7jFmQ" rel=3D"" style=3D"borde=
+r: none; display: block; height: auto; margin: 0; padding: 0; text-decorati=
+on: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://b=
+ucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/image=
+s/b759e53d-4a4d-40d4-9661-40fa712bfe74_934x444.png&quot;,&quot;fullscreen&q=
+uot;:null,&quot;height&quot;:444,&quot;width&quot;:934,&quot;resizeWidth&qu=
+ot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null=
+,&quot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" width=3D"550" heigh=
+t=3D"261.4561027837259" class=3D"wide-image" src=3D"https://cdn.substack.co=
+m/image/fetch/w_1868,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%=
+3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fp=
+ublic%2Fimages%2Fb759e53d-4a4d-40d4-9661-40fa712bfe74_934x444.png" style=3D=
+"-ms-interpolation-mode: bicubic; border: none !important; display: block; =
+height: auto; margin: 0 auto; margin-bottom: 0; max-width: 550px; vertical-=
+align: middle; width: 100%;"></a></td><td style=3D"text-align: center;"></t=
+d></tr></tbody></table></figure></div><p style=3D"color: #1a1a1a; font-size=
+: 16px; line-height: 26px; margin: 0 0 1em 0;">These marketplaces not only =
+organized existing markets and stole share from incumbents; <strong>they gr=
+ew the markets in which they operate through their existence</strong>. The =
+vacation rental market is bigger because Airbnb exists. Ridesharing is bigg=
+er because Uber exists. Done right, marketplaces attract and match new supp=
+ly and new demand while removing friction and lowering costs. Great stuff. =
+Love Web2 marketplaces.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16p=
+x; line-height: 26px; margin: 0 0 1em 0;">But there are also challenges wit=
+h the model, or opportunities for improvement:&nbsp;</p><p style=3D"color: =
+#1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Like the f=
+act that <strong>marketplaces need to pay a lot to acquire both supply and =
+demand</strong>, often over and over. See: the bloody <strong>Uber v Lyft</=
+strong> battle.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-=
+height: 26px; margin: 0 0 1em 0;">Or that so many successful <strong>market=
+place businesses end up becoming advertising businesses</strong> &#8211; gr=
+eat for the business, annoying for the customer. See: all of the <strong>na=
+tional fast food chain advertisements</strong> at the top of your DoorDash =
+screen.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0 0 1em 0;">Or that at some point, in order to increase suppl=
+y, they <strong>drop the quality bar</strong> and people figure out how to =
+game the system and it gets really hard to figure out what&#8217;s good and=
+ what&#8217;s not. See: <strong>Amazon third-party sellers</strong>.</p><p =
+style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1e=
+m 0;">Or that successful marketplaces often <strong>increase take rates in =
+order to increase profits</strong> once they believe participants are suffi=
+ciently locked in that they won&#8217;t leave. See: <strong>practically eve=
+ry marketplace in the history of marketplaces</strong>.&nbsp;</p><h4 style=
+=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialias=
+ed; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, Blink=
+MacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.125em; font-we=
+ight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;"><strong>To learn=
+ more</strong> about why web2 marketplaces switch from attract to extract a=
+nd why they often do it too early, how Braintrust works and why it can keep=
+ take rates lower, longer, how value accrues to the token, and the answer t=
+o the question &#8212; how can a user-owned network both create and capture=
+ more value&#8230;. </h4><p class=3D"button-wrapper" data-attrs=3D"{&quot;u=
+rl&quot;:&quot;https://www.notboring.co/p/braintrust-fighting-capitalism-wi=
+th?token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NDc5NTk1MjIsImlhdCI6MTY0=
+MzYzNzQ5MiwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.7DXeSlQYRO=
+6hbTrvjs7MsEPNxcN4F-H3ezpsqeFD5dg&quot;,&quot;text&quot;:&quot;Continue Rea=
+ding Online&quot;,&quot;action&quot;:null,&quot;class&quot;:null}" style=3D=
+"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; tex=
+t-align: center;"><a class=3D"button primary" href=3D"https://email.mg2.sub=
+stack.com/c/eJxFUl1vozAQ_DXhLQgb8_XAw6kpLdVBr9dcLukLMvYCTsBQbErh19dNpDtp7ZV=
+mtDvSzjCqoe7HJR56pa3vr9DLALGEWbWgNYzWpGAsBI-Rj0PXI5HFY8JR6IWWUEU1AnRUtLEeJ7=
+CGqWwFo1r08jrhONizmjjAFSDMQggIZlA5NDLlsTAkmENUuTddOnEBkkEMHzAuvQSrjRutB7Vxf=
+2xwYmqeZ1v2uuxHIWub9QYazCtHKqTRV3pbibrRhtwyOghNW6G67Sx0s3ET3V9AbtwdLE-I4cNy=
+xO0lPfef-Tkl2frHeX6dBXuIVp5Ew9td6uc75uX7C8rOqUq7tuEGy_YnJ1tPa76-eJmYBT3mq9k=
+h2ONB_Nzfz9kuRanBmXsQV_x73x1a3v4mZ_7QfpTiKbKD3RFe25fT72e_Kffjx1kFmbr_lX-ynC=
+TbRxfWQb1DsvN4bYkYOxg7yEXI9UKH2NgOfNdnFIGDCSoREDtYaDUp-r4hTldjW02l0pRdzH06a=
+4z_3cvQl4Z20F4J41RhejdJoZcCJC1b4DcT9S0LV1uLGiSMJiO8oNokgLi-G5AI-wG-mWZcJkHk=
+RR7GllHmvZmS_0W_AEiLzuc" rel=3D"" style=3D"background-color: #67bdfc; borde=
+r: none; border-radius: 3px; box-sizing: border-box; color: #ffffff !import=
+ant; cursor: pointer; display: inline-block; font-family: -apple-system, Bl=
+inkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple =
+Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-we=
+ight: normal; height: auto; line-height: 20px; margin: 0; opacity: 1; outli=
+ne: none; padding: 12px 20px; text-align: center; text-decoration: none !im=
+portant; white-space: nowrap;"><span style=3D"color: #ffffff; text-decorati=
+on: none;">Continue Reading Online</span></a></p><div style=3D"font-size: 1=
+6px; line-height: 26px;"><hr style=3D"background: #e0ecf6; border: none; he=
+ight: 1px; margin: 24px 0; padding: 0;"></div><p style=3D"color: #1a1a1a; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>Thanks to <a hre=
+f=3D"https://email.mg2.substack.com/c/eJxFkMtuhDAMRb9mskTkRWCRRTf9jSgPw0QDC=
+U1MR_x9w7CoZNmyLPv6Hm8RllxOveeK5EoGzx10gnddAREKOSoUE4OmAxu5FBMJWgQ6ypHEauYC=
+sNm4aiwHkP1wa_QWY06fjb5nkjx1EG4QLqgQpqDcoNg420HIyc1ilk7ZW9ceIULyoOEXypkTkFU=
+_Eff64F8P9t0C3_H6qPN5a12wm_e5bNG_KCdRs56xnnJKuRx70bFODXzwlkLPBHUURKdOOx_V_j=
+xEvy2sq4eraP3rukeKThldLjEtbfx62g3Wz6B5Mq1uR4p4GkjWrRBuu3hT-wAwCyQojWYwFhsrw=
+QeuxMSa29te4yHUJCfJGGnKIbet9C_6B8RrhRc" rel=3D"" style=3D"color: #1a1a1a; t=
+ext-decoration: underline;">Dan</a> for editing, and for Adam and the Brain=
+trust community for working with me!</em></p><div style=3D"font-size: 16px;=
+ line-height: 26px;"><hr style=3D"background: #e0ecf6; border: none; height=
+: 1px; margin: 24px 0; padding: 0;"></div><p style=3D"color: #1a1a1a; font-=
+size: 16px; line-height: 26px; margin: 0 0 1em 0;">Thanks for reading and s=
+ee you on Monday,</p><p style=3D"color: #1a1a1a; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 1em 0; margin-bottom: 0;">Packy</p></div></div><table=
+ cellpadding=3D"0" cellspacing=3D"0" class=3D"post-meta big centered custom=
+" style=3D"margin: 0 auto;"><tr><td class=3D"post-meta-item icon" style=3D"=
+color: #767676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',=
+ Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji=
+', 'Segoe UI Symbol'; font-size: 14px; height: 18px; line-height: 18px; pad=
+ding: 0px 12px 0px 0; padding-right: 16px; position: relative; text-decorat=
+ion: none; text-indent: 3px; vertical-align: middle; white-space: nowrap;">=
+<a href=3D"https://email.mg2.substack.com/c/eJxFUsFymzAU_BpzMyOEAHPg0IlDQqa=
+QpnFdOxdGEg-QDYIgEQJfX9lO2xlJh33S7tPb5VRD1Q1z1HdKW5cj13MPkYRJNaA1DNaoYMhFET=
+k-3rgeCa0iIoWz8TaWUHk5ALRUNJEeRrD6kTWCUy06eX2BEPasOiIkQBz5JWNl6WFU-mgDwCgJG=
+bghZfimS8dCgOQQwQcMcyfBaqJa616t3G8rHJs1TZMtO826QcjK5p2BerPZQIU0-kqvS1HV2hTX=
+nPZC00aodj0JXZtbvGtbkNqwxbo7g1y5W5ifHI738wE35-TUfWanhKTLL_T8Ogn-EC5FHPZvd4m=
+fbbmX7c5OekpU0jZ1YbB0d0Tpclyy5cVLxSToIVsMh-CPe_F9dz-l28RJDM7dvbjiF747Z377HZ=
+-Kh-aDiafQDrYHeG1ejj-f_Zrtho-TClJ1_yP75BmJ148uLL16h3jrFdUK-6Nuc9WNAwfTuxqZ0=
+pSfv_AWCjG2lz9d3LBEhBHGyHEdx_U2iNjYDnzX59QBhInDHCB2MNNyVPR9RVBbYfsvoZlraw3R=
+vzmb8rmmLTTXgnE4v0xylELPOUjKGihu5utbhq4N5BVIGEy2ipxqkxzi-m5AQuwHX2abdJAg9EI=
+PY8soF515Jf-L_gHYmeNs" class=3D"post-meta-button button" style=3D"backgroun=
+d-color: transparent; border: 1px solid #e0ecf6; border-radius: 3px; box-si=
+zing: border-box; color: #767676; cursor: pointer; display: block; font-fam=
+ily: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Aria=
+l, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; fo=
+nt-size: 16px; font-weight: normal; height: auto; line-height: 15px; margin=
+: 0; opacity: 1; outline: none; padding: 10px 16px; text-align: center; tex=
+t-decoration: none; white-space: nowrap;"><img src=3D"https://cdn.substack.=
+com/image/fetch/w_28,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3=
+A%2F%2Fsubstack.com%2Ficon%2FCommentIconRounded%3Fv%3D3%26height%3D28%26fil=
+l%3D%2523757575%26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"14" heig=
+ht=3D"14" style=3D"border: none !important; display: inline-block; float: l=
+eft; height: 14px; margin-right: 4px; max-width: 14px; vertical-align: top;=
+ width: auto;" alt=3D"Comment" class=3D"comment-icon post-meta-icon"><span =
+class=3D"meta-button-label">Comment</span></a></td><td class=3D"post-meta-i=
+tem icon" style=3D"color: #767676; font-family: -apple-system, BlinkMacSyst=
+emFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoj=
+i', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; height: 18px; lin=
+e-height: 18px; margin-right: 0; padding: 0px 12px 0px 0; padding-right: 0;=
+ position: relative; text-decoration: none; text-indent: 3px; vertical-alig=
+n: middle; white-space: nowrap;"><span><a href=3D"https://email.mg2.substac=
+k.com/c/eJxNkttyozAMhp8m3IXBByBccLHTNC2dhW632WzbG8bYSnAChtqmFJ5-nWRPM7Zm_Mm=
+SRtLPmYVDp6e074z1zqa0Uw-pgtE0YC1obzCgSylSFOEVCWniiZQKtApXnjTlXgO0TDap1QN4_V=
+A1kjMrO3WJCAIcenUahFEU7_dJkhDkzAqTMBa0oolgPIpjcq3LBiFBcUjhA_TUKfCatLa2NwvyZ=
+YE37ozj6KvOVp2W6uDzzqHe3UozqVx9Y5d7eaitcy4566VljTTtcpS2XpDNYNvSdIPmsCBrM1TG=
+Mn5a4OjMWxByaB2_9PIb8k5ZUPb8u2YaHGX83Nl_wHYnOL9hekAc76YX3JyyY_dZHDOazz-Cx-d=
+R8rtkFpukf7vJomLNw2J7QvkxM1nb1MKxfPsa5PPrXMxPYS5HyV6K2eWQ_H4nv25vx3ydocxxTn=
+byws_5btD09nNzFHfNRyUfEj9ev8Bz8_T6_TGqq63-OJo4N7ffik9e0M3ynsDcm3fYrENx8GSKA=
+4wDRBAi4SqgPvbjiEScIQgwRRUC6scT2w-GvS9o0B6w_2dcbuatp9O_O3DuU81aaC4Ot303tLYd=
+lLRTCYpVDYirMOxVX5fxlgdQoJ3uRMmsUxUlEYlpgqMYX4XglEPjJExCjD1XWXQuSv0r-gtg_Ov=
+B" class=3D"button post-meta-button" style=3D"background-color: transparent=
+; border: 1px solid #e0ecf6; border-radius: 3px; box-sizing: border-box; co=
+lor: #767676; cursor: pointer; display: block; font-family: -apple-system, =
+BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Appl=
+e Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-=
+weight: normal; height: auto; line-height: 15px; margin: 0; opacity: 1; out=
+line: none; padding: 10px 16px; text-align: center; text-decoration: none; =
+white-space: nowrap;"><img src=3D"https://cdn.substack.com/image/fetch/w_32=
+,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%=
+2Ficon%2FRecommendIconRounded%3Fv%3D2%26height%3D32%26fill%3D%2523757575%26=
+stroke%3Dnone%26strokeWidth%3D2" width=3D"16" height=3D"16" style=3D"border=
+: none !important; display: inline-block; float: left; height: 16px; margin=
+-right: 4px; max-width: 550px; vertical-align: top; width: 16px;" alt=3D"Sh=
+are" class=3D"recommend-icon post-meta-icon"><span class=3D"meta-button-lab=
+el">Share</span></a></span></td></tr></table><div class=3D"container-border=
+" style=3D"border-top: 1px solid #e0ecf6; box-sizing: border-box; font-size=
+: 16px; line-height: 26px; margin: 32px 0 0; width: 100%;"></div><div class=
+=3D"post-cta" style=3D"font-size: 16px; line-height: 26px; margin: 24px 0 4=
+0px;"><p style=3D"color: #1a1a1a; font-size: 16px; font-style: italic; line=
+-height: 26px; margin: 24px 0 0; margin-top: 0;"><span>If you liked this po=
+st from <a href=3D"https://email.mg2.substack.com/c/eJxFUMtuhDAQ-5rNEeUdOOT=
+QS38DTcjARgsJTUIRf990kVppNCONZVv2BBWXlC-7p1LJ7xrrtaONeJYVa8VMjoJ5DN4yzXuh5E=
+C8lZ71qiehjHNG3CCstuYDyX64NUxQQ4pvBqVckadFCeAowqz0PCN1gwGBQlOj3CCMY7cvHD5gn=
+NDiN-YrRSSrfda6l4f4ePDPNud5djFVl3KISzel9iLBcso5ZYIxoXoqO94ZLfQEDCmXzDGUnblg=
+Pgp8PSTdFt6Vw5UK06spbCTbP8UGv56w4foGWpax3e2IoV4jRnAr-jtmvdt6Bx8XjJhbi36E2jq=
+SQgsjB64Nv2O1HqQZ1KA4J83Zp8aK_6Y_VT6CAg" style=3D"color: #1a1a1a; text-deco=
+ration: underline;">Not Boring by Packy McCormick</a>, why not share it?</s=
+pan></p><p class=3D"cta-box" style=3D"color: #1a1a1a; font-size: 16px; font=
+-style: italic; line-height: 26px; margin: 24px 0 0; text-align: center;"><=
+a role=3D"button" href=3D"https://email.mg2.substack.com/c/eJxFUduq5CAQ_Jr4=
+NsF4yeXBhwPL-Y3Q0Z5ETjRZbTfk79eZgV1QG6tpqrrKAuF6pNucRyb2ema6TzQRr7wjESZWMqb=
+ZO9P1YpRaTcwZ5bpRj8zn-ZkQA_jdUCrIzrLs3gL5I74nOBeabUbDMvJBdYtcuAaNw-g0jJPVgx=
+VqwvHDC8V5jBYN_sF0HxHZbjaiMzfyqxHf9VzX1caDliP5uLb2qNBZ75LAx8qf6fH060a1-bBwe=
+oLd5_C4PG2N_C4U5oDOl9DIX2_NjehfoIVwgl9jhS1BBcG-FqjfvEFC5o3gQvBOdp3UI1etaIde=
+9hY65KIu1aFqhxueJcPvRvGwijaXJRPYn6oxsGT-aa7tnw0C7u9GdWuuNZTo6Z4xwrKj-xhJnzz=
+eMucVI6aak5uBagpK9nJQk-gH8TGuOq2GSU9aCFaZ3VGn4n_Sv3V_pO0" class=3D"button p=
+rimary twitter-link" style=3D"background-color: #67bdfc; border: 0px solid =
+#67bdfc; border-radius: 4px; border-width: 13px 20px 13px 18px; box-sizing:=
+ content-box; color: #ffffff !important; cursor: pointer; display: inline-b=
+lock; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, H=
+elvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe =
+UI Symbol'; font-size: 17px; font-style: normal; font-weight: 300; height: =
+24px; line-height: 24px; margin: 0; opacity: 1; outline: none; padding: 0; =
+text-align: center; text-decoration: none !important; vertical-align: middl=
+e; white-space: nowrap;"><img src=3D"https://cdn.substack.com/image/fetch/w=
+_23.1,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack=
+=2Ecom%2Ficon%2FShareIcon%3Fv%3D2%26heigh=
+t%3D42%26stroke%3D%2523FFF%26strokeW=
+idth%3D2" width=3D"11.55" height=3D"21" style=3D"border: none !important; d=
+isplay: inline-block; height: 21px; margin-right: 8px; max-width: 11.55px; =
+vertical-align: middle; width: 21px;" alt=3D""><span style=3D"color: #fffff=
+f; text-decoration: none;">Share</span></a></p></div><div class=3D"footer" =
+style=3D"background: #f8f8f8 !important; color: #bcbcbc; font-size: 16px; l=
+ine-height: 26px; margin-top: 24px; padding: 32px; text-align: center;"><p =
+class=3D"small" style=3D"color: #bcbcbc; font-family: -apple-system, BlinkM=
+acSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Colo=
+r Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 13px; line-height=
+: 26px; margin: 0 0 1em 0; margin-bottom: 0; padding-bottom: 30px;">&#169; =
+2022 <span>Packy McCormick</span> <a href=3D"https://email.mg2.substack.com=
+/c/eJxFkl-PojAUxT-NPJK2lH8PPEx0ncEsTiaOjvhCSnvVChSWlmHg02_VZDdp2ubc3Hua3yln=
+Bi5tPyVdq41z3wozdZAoGHUNxkDvDBr6QooEByTyfBo7IqECR37kSF2ce4CGyTox_QBON5S15Mz=
+IVj06ECK-c00CP46JH5I4CllEWRQFnHEMNGAsBErR05cNQoLikMA39FOrwKmTqzGdXngvC7K2ax=
+xHV7WmbHupLi5vrcT43cxehNSsrKF4vGbhrU1bgVp4K5g2mJPDdCR1ld7an-0tpdm8R--7UfLXe=
+BbruDst02C74v72s8LZLdVpU1-F1bLPHGVzPm_nDz-To2TH7WxnSP52kL8_f43ZKsWp1bl3kHf9=
+9FrP-ddGnw5xXX6tu3K5iV323qtVDixXkdi9ROXEq7fz_rjnH9W4X3U5W_6gDO3K6Vs7MiGIEIQ=
+9jD0_QtQlbhh4lhYGRCguLTM3nNh50OzPgqLmQlw9lNowXlkcjdMn__DYcnVlDdSPgg2msGczKG=
+mmAtQdlXhmZp7RP7gVF1DQ2y8hCmZs4NQLvJDGJAjJMyMbKg1jP_YJcayzaG2X-m_6F2v7yBY" =
+style=3D"color: #bcbcbc; text-decoration: underline;"><span style=3D"color:=
+ #bcbcbc; text-decoration: underline;">Unsubscribe</span></a><br>10 City Po=
+int, Brooklyn, NY 11201</p><p class=3D"small powered-by-substack" style=3D"=
+color: #bcbcbc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',=
+ Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji=
+', 'Segoe UI Symbol'; font-size: 13px; line-height: 26px; margin: 0 0 1em 0=
+; margin-bottom: 0; padding-bottom: 0;"><a href=3D"https://email.mg2.substa=
+ck.com/c/eJxNkcFu5CAQRL_GHC1osPEcOESK8hsWhvYMioEJNLvy34eZyWojtfpQpVYVD2cJr7=
+mc5p4rscda6byjSfi3HkiEhbWKZQ3eiBkWOakL80Z5sUwLC3XdC2K04TBUGrJ7247gLIWcnhecw=
+8RuRiBufNultYsFzcU8aSd26cEC6M3pV65tPmByaPAPljMnZIe5Ed3rIN8G-OhT21bJus_R5fhQ=
+5EejuNbcisNBvv-zB5gfekQfWuz6s-CP6HIiTNTVPefH64IBDsCFFEJOC1cjjHqWs7MCOSixCVS=
+jPu3eqv0aFI9XGH_XYMWkTFsuIV27_XmzEY-n0Vn0tBhbCnSumOx2oH9hohftZ6_1iglL_wW_Wu=
+qMlZylVheYNbywdI5KX6bLBMB6ss_9Kv0P_QbBNpjW" style=3D"color: #bcbcbc; text-d=
+ecoration: none;"><img alt=3D"Publish on Substack" src=3D"https://cdn.subst=
+ack.com/image/fetch/w_340,c_limit,f_auto,q_auto:good,fl_progressive:steep/h=
+ttps%3A%2F%2Fsubstack.com%2Fimg%2Fpublish-on-substack.png" width=3D"170" he=
+ight=3D"32" style=3D"border: none !important; margin-top: 3px; max-width: 5=
+50px; vertical-align: middle;"></a></p></div></div></td><td></td></tr></tab=
+le><img width=3D"1px" height=3D"1px" alt=3D"" src=3D"https://email.mg2.subs=
+tack.com/o/eJxFUEmOxCAMfM1wjDCBQA68BbE4adQJ9LD0KL8fpnMYXyxVWa7F24Z7Lpd-5doI=
+njYeZseEZeDB2KZh4fMyS76yRTISNA-ghCKxmq3g51630pG8ujuity3mZGLQQCkT5KEF3yiMcVK=
+A3MCjUwEsUuFAYbCK_Oka20PE5FHjG8uVE97w-MPlKlbBGImaUcYozACzUJRPbJLLvHgLSBkHB8=
+gnedmtV_v9xem5s6l2V5v1z8nnkxSdcnO5xLQP-vmwJx4fYhg3Y589xXYZTNYdGO5M7W6lVyyfT=
+AtTs-Drba5dL9QJf-qBrWEhQy3k0Uf6F_oFRkd1vQ"></body></html>
+--113a1938c7080481f41dd77aad6acd46376cedc785424b09a6db44c7482a--

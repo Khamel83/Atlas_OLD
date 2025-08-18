@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "📊 Atlas Podcast Discovery Monitor"
+echo "=================================="
+echo "🔄 Background discovery process running..."
+echo ""
+echo "💡 Monitor commands:"
+echo "  Watch progress: python3 scripts/monitor_podcast_processing.py"
+echo "  Check logs: tail -f logs/bulk_processing_output.log" 
+echo "  View discovery: tail -f /tmp/claude-*/stdout"
+echo ""
+echo "🎯 Current status (last few discoveries):"
+tail -20 /proc/$(pgrep -f 'discover --all')/fd/1 2>/dev/null || echo "Process completed or not found"

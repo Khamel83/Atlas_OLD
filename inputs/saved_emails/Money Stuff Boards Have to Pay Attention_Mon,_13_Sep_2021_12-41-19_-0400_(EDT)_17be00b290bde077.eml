@@ -1,0 +1,2193 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:712:b0:13b:de3:276c with SMTP id o18csp4177681lki;
+        Mon, 13 Sep 2021 09:43:53 -0700 (PDT)
+X-Received: by 2002:a17:906:3383:: with SMTP id v3mr13896916eja.213.1631551433081;
+        Mon, 13 Sep 2021 09:43:53 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1631551433; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=a4/bOqi00WqBJqsyYvZ26FrPxSjaYuFwhTO3MTihOlzD63rGvuSLnQmZ090vslvreB
+         eWeYCQcLZV1DBzzA4gx15jy+ddUhWi/SZZ0BoA17he7S3+/s9nSwpPbUoK+zgRK5dP20
+         0E9492yoeSaTuWXjpTZAq2aKOxnMIyqdBNputkM/E3aQ0xUXfEE96eMeUmS6GE5pKqMY
+         aAvUN57bB0oIWV2DPQ9vMKkU4XqgRJus3y14vQmCBNNW9hqYkhlai4VZSHtUztjsZzOo
+         GUads3RsL6Ybnk1EWa49NmICDwupn6oF0WAaN1SZI/4iESp31CXiqNYLhQP87/3HDHP+
+         JGXw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=sXlc6P2orkFBHP+L7JP69isjc3FMnUl9PrdF9ph/uJU=;
+        b=H/qosUPG6+2CQadMHI1NtKasR4BFGi5Ofl5Gq6jOgJKvaYtvguaK2V9uC0QYWQmOM1
+         G5uKLo9cVZPPHbV0wQKJq8gXWYXDQVN6wkqdzyur8Lrh/LnAxR4f+dzo3INDjKhI4b14
+         4bJFduMw/KWDSXB/+3U3fhXMhRpefFloRA12dnuKdV1cQ0/FdKMX0Ro5dPGEAXVPWLME
+         r+jDncJt6dpLQA37iSGPm803Cqr5CzO+ia2StU5CsnAUtkdPLV+XLuvIGjT/ENZzVzuC
+         PoEOXQsmrb0nzaFYu21eQmD3jwtzqtOJtNCaod1b8r+9XXCpB1HisyyqF3JZkA8FbuqN
+         57+w==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="FMKi0/Zf";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id ga3sor3958429ejc.2.2021.09.13.09.43.52
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 13 Sep 2021 09:43:53 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="FMKi0/Zf";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=sXlc6P2orkFBHP+L7JP69isjc3FMnUl9PrdF9ph/uJU=;
+        b=Vt4vwKO9sDQng4Cte9dZnH0jChx0oFndoeE4H6pbE33iTA571OXCo+OW86KG8ucG2V
+         bBzr29F3WZEvlxQaP/MlWhDdQRhD0xNwIKSLQDF+PaYPmZgprHdDODKY9xlSC6x0lyaH
+         cuUxWmy7HvpXRCfOx9lN2OnuVOiHF+5xFqpV9wnR2Mue/EIHRq9aNnizdbnigkH68m5k
+         CVAXbt4LCJzqC4Dj1euUJ6x5nKkl2Uw71aQ7E+bjUHZD68iwQIMIM5XG4WNDBIryOGAJ
+         T1L2Fgqa9c0aYr9wNmppVCodg3fIAUy1qMfG4XOlrQpkcFj52dTt7/hGX5nvuVfl+neX
+         gPHQ==
+X-Gm-Message-State: AOAM5336qnyITggi2dJayTYoev5n5b3oW8c5FPBdFgL46LIcftNu2Jdf
+	HdZyRK0M8BJXA3NeQx3+NibxDONVzFx2EEBEADIzaMwsBQKqcMhw4A==
+X-Received: by 2002:a17:906:ed1:: with SMTP id u17mr14180050eji.304.1631551432530;
+        Mon, 13 Sep 2021 09:43:52 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:ab4:a245:0:0:0:0:0 with SMTP id dh5csp4236626ecb;
+        Mon, 13 Sep 2021 09:43:49 -0700 (PDT)
+X-Received: by 2002:a63:f959:: with SMTP id q25mr12046433pgk.79.1631551428588;
+        Mon, 13 Sep 2021 09:43:48 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1631551428; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=I0quIDubrbdu7yDZdFsxIV61pikX1bHofuK0M4UuTI5oejBTppGVY6LDmJze5SzwLH
+         rMs5tmV5DrhmymHqSfnzTk29Wjr17rrk3SWEEBoHBNPvSP/iOJ+Pr8hvUS+TEwY4eJfc
+         7UIQUWePpE46gGQGNHu70Q7/H1JvINtftKwxJQ9bBc2dYvs06GkBLzmE4ZLK8DZiDUVv
+         SJUh6wc+a+n/P4WX+NA9BTWgKqxxpKJhIKtmiswUZfrqf3oq87HfopbE7IhE5ebaJh/T
+         l+w9tWigCUsw9q/gVZkXcTbVr602fiTT8/GgBoBJvJOqUWcPR7eJgaHs1IjTyiYI/imr
+         YSFA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=sXlc6P2orkFBHP+L7JP69isjc3FMnUl9PrdF9ph/uJU=;
+        b=Qb44jjkXNWN6UrMwkv4kAbrwpmvU+lZUG6XviQ6izZ4FQwF1cUTV5Oei5PzYmVjx80
+         VXd0Ufoox/62xqCCzlNmvTQBqSUoE2Aj9KuR7BxuD1avM6csHPt987lN5PgCT4wBowyj
+         AnUxUbmbCiVBSEujUa5a5HTf7N302g5TadLq6YFfn3G5AG3TRWRZdWSjnpDJVeps5yeZ
+         2OZ6NyfMUfwNzGy+8WYoqKbcYqRDtDdXYf3eDqPTUfudl1RaNdB0ePYuYEpK2kwRzSGh
+         0ZgRFq7fPADvWRhRl6SSxm538Gq67aNShg6UcA/JEasqSEvfbOJ6XQvMtVE6m5zQIRDG
+         VsBQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="FMKi0/Zf";
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210913124119.25029699.260586@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210913124119.25029699.260586@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210913124119.25029699.260586@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id a15sor1342298plm.66.2021.09.13.09.43.48
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 13 Sep 2021 09:43:48 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210913124119.25029699.260586@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJw20UW/WDHqdxbpiOtmp130YMgunJmgb3UykPzUDVJr0/XOo3hbBI8Mc/kE84JTacSdZlXNPHbygPMVAf+iznlJ/aIEqVo=
+X-Received: by 2002:a17:902:7687:b0:13a:8c8:dbc6 with SMTP id m7-20020a170902768700b0013a08c8dbc6mr11062774pll.89.1631551428096;
+        Mon, 13 Sep 2021 09:43:48 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1631551428; cv=none;
+        d=google.com; s=arc-20160816;
+        b=JjDyctiLtMGPR1hBdWYxhKqmzQg1lDqZ1CJ7hZX5hqyf0CU5H5lmCca6bt+QpAY6ca
+         Agb+tC7MYD1YOV7xLxaHMNXtDDG5csxf09Anjcivwj9qSnP2VEn3bQO5xpwI5dQU9QEA
+         9lbAk1n9XL6TYjnMfH+441zkRzX8HPHbP/lEA7uhBrn/K6HM9jom8A+9HVYpkkPfs9+L
+         tRF1ylVV+PD4ZwGdQu1g1HaFubF1sZMOBb5J4/ZTx6K1WC1labSRd2vC0xR9Tm5O+wDq
+         PeQLfCuaz9xwnHVVFqXfRrMEi0SkpCNS1Yn4S+QH7TeKMLS1lh41lskeFPgZBK1OKKWT
+         xFrQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=sXlc6P2orkFBHP+L7JP69isjc3FMnUl9PrdF9ph/uJU=;
+        b=f1mKBh3N/vrq0EvJ6mR14p+VWugNcXlP0cGEf47i6736ZOyF1MI6sYjLbjRomU0890
+         yXzo33AZns7/lZyjK0Lxv9O0RkbYRQR0QKSLb9UhcY46u5aN+kC+oUllYBSB2kiYU6Ap
+         2vfXc1Boo3+oEjdlNKB9A2poXr/Z0lG7Bd+bTV8b7idgmyZ1ro4jkVuI780yf9+JgWB4
+         ZktPEwjJiBbupiMosNjB/25tvccSKGv4RbljLRygIeOIzie9OiOikd2UOcVSEXTGoYr3
+         BukhdQCJuGXrjTfmtFQC/ke7eJAOgm7IFLJ8Q4suNzAwUuF2CQbkZyZ7lMGL0Bt5WfHL
+         TwBA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="FMKi0/Zf";
+       spf=pass (google.com: domain of delivery_20210913124119.25029699.260586@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20210913124119.25029699.260586@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210913124119.25029699.260586@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id g24si535860pgm.0.2021.09.13.09.43.47
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 13 Sep 2021 09:43:48 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210913124119.25029699.260586@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=kLUgKnJYQcP427azE+6Lr8UTp7+wA+QTwObhKmZ4d2M=;
+ b=FMKi0/ZfhocMIOWPA/ayADakPFtJRPUKJra2EbL0ksXU+iYHWZvZ4HdJumc/in+aWn55og9ZBO07
+   hBtSlh+527xqqbmqg15g960LtamhWsGwi1Q0zcetROdb6ClTRBsmTboJxN1dAy/iLClGfSabc3bY
+   aun88D00Rs5Q0paj9sU=
+Received: from nj2mta-15.sailthru.com (204.153.121.15) by pmta29.sailthru.com id h7tvs62qflc0 for <bloomberg@khamel.com>; Mon, 13 Sep 2021 12:43:46 -0400 (envelope-from <delivery_20210913124119.25029699.260586@mx.sailthru.com>)
+Date: Mon, 13 Sep 2021 12:41:19 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210913124119.25029699.260586@sailthru.com>
+Subject: Money Stuff: Boards Have to Pay Attention
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_7471014_1481193166.1631551279872"
+Precedence: bulk
+X-Feedback-ID: 6358:25029699:campaign:sailthru
+X-TM-ID: 20210913124119.25029699.260586
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-tancanary.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cewh1f.5l2i/d83fc514
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cewh1f.5l2i/d83fc514>, <mailto:unsubscribe_20210913124119.25029699.260586@mx.sailthru.com>
+X-rpcampaign: stjko25029699
+
+------=_Part_7471014_1481193166.1631551279872
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Everything is shareholder derivative claims
+   =20
+ =20
+The basic rule is that when there is a devastating plane crash, the shareho=
+lders of the company that makes the plane will sue the company for securiti=
+es fraud. =E2=80=9CYou built planes that would crash, but you lied and told=
+ everyone that you built planes that wouldn=E2=80=99t crash, and we bought =
+your stock thinking your planes wouldn=E2=80=99t crash, and then they did s=
+o the stock went down.=E2=80=9D I don=E2=80=99t make the rules, and I reali=
+ze that this is both bizarre and ghoulish, but it is the rule. =E2=80=9CEve=
+rything is securities fraud,=E2=80=9D  I call it. And in fact Boeing Co. ma=
+kes=C2=A0planes, including the 737 Max, and in 2019 and 2020 two 737 Max pl=
+anes=C2=A0crashed, and Boeing=E2=80=99s=C2=A0stock went down, and sharehold=
+ers brought securities fraud lawsuits against it.=C2=A0Standard stuff.=C2=
+=A0But there are other, related but slightly different theories. For instan=
+ce instead of suing=C2=A0the company=C2=A0for failing to=C2=A0disclose=C2=
+=A0that its planes would crash, you could sue=C2=A0the executives and direc=
+tors for failing to stop the planes from crashing. =E2=80=9CThe directors a=
+nd officers had a fiduciary duty to build safe planes, not planes that cras=
+hed, and they failed in their fiduciary duties so they should pay damages.=
+=E2=80=9D This sort of lawsuit is called a =E2=80=9Cshareholder derivative =
+claim,=E2=80=9D[1] and it is in many ways more complicated than the everyth=
+ing-is-securities-fraud theory. It is hard, generally, to get a court to se=
+cond-guess directors=E2=80=99 and officers=E2=80=99 business decisions; it =
+is hard to hold them personally liable for business failures.But the deriva=
+tive lawsuit has=C2=A0some advantages. For one thing, it doesn=E2=80=99t re=
+ly on finding misstatements in the disclosure. If Boeing=E2=80=99s public s=
+tatements were along the lines of =E2=80=9Cwe try to make safe planes, but =
+there is a risk that they might crash due to design flaws, and if they did =
+that would be very bad for our business,=E2=80=9D[2] and then some planes c=
+rashed, it is a little hard to argue that it=C2=A0deceived=C2=A0anyone. You=
+ can, of course =E2=80=94=C2=A0=E2=80=9Cyou said you had a culture of safet=
+y and you had a culture of not-safety,=E2=80=9D etc. =E2=80=94=C2=A0but it=
+=E2=80=99s hard. It seems somehow more straightforward to argue =E2=80=9Clo=
+ok, your job was to make safe planes, and you didn=E2=80=99t, so now you ha=
+ve to pay.=E2=80=9DFor another thing, if you are a shareholder and you sue =
+the company for securities fraud, and you win, the company pays you, which =
+is sort of pointless? It just moves money from the corporation (whose share=
+s you own) to your bank account, but it was your money anyway. And now the =
+lawyers get a chunk of it. But if you sue the directors and win,=C2=A0the m=
+oney goes from the directors=E2=80=99 personal accounts to you; money that =
+was not yours becomes yours (and the lawyers get a chunk). In practice dire=
+ctors are generally indemnified and insurance is paying for all of this, bu=
+t it does make a little bit more intuitive sense for shareholders to sue th=
+e=C2=A0people=C2=A0who (allegedly) messed up the corporation than it does t=
+o sue the corporation itself.Anyway some shareholders brought a derivative =
+action against Boeing=E2=80=99s directors and officers, and the directors a=
+nd officers asked a Delaware court to dismiss the case, and last week Delaw=
+are Vice Chancellor Morgan Zurn ruled that the case against the directors (=
+though not the officers[3]) can go forward:The narrow question before this =
+Court today is whether Boeing=E2=80=99s stockholders have alleged that a ma=
+jority of the Company=E2=80=99s directors face a substantial likelihood of =
+liability for Boeing=E2=80=99s losses. This may be based on the directors=
+=E2=80=99 complete failure to establish a reporting system for airplane saf=
+ety, or on their turning a blind eye to a red flag representing airplane sa=
+fety problems. I conclude the stockholders have pled both sources of board =
+liability. The stockholders may pursue the Company=E2=80=99s oversight clai=
+m against the board.It is hard to sue directors for breaching their fiducia=
+ry duties. In general, the =E2=80=9Cbusiness judgment rule=E2=80=9D insulat=
+es directors=E2=80=99 business decisions from judicial review. But a 1996 D=
+elaware court decision called Caremark allows directors to be held liable f=
+or some kinds of failure to oversee the company. Vice Chancellor Zurn expla=
+ins:As Chancellor Allen first observed in Caremark, and as since emphasized=
+ by this Court many times, perhaps to redundance, the claim that corporate =
+fiduciaries have breached their duties to stockholders by failing to monito=
+r corporate affairs is =E2=80=9Cpossibly the most difficult theory in corpo=
+ration law upon which a plaintiff might hope to win a judgment.=E2=80=9D=C2=
+=A0A decade after Caremark, our Supreme Court affirmed the doctrine Chancel=
+lor Allen announced there and clarified that our law will hold directors pe=
+rsonally liable only where, in failing to oversee the operations of the com=
+pany, =E2=80=9Cthe directors knew that they were not discharging their fidu=
+ciary=C2=A0obligations.=E2=80=9D=C2=A0At the pleading stage, a plaintiff mu=
+st allege particularized facts that satisfy one of the necessary conditions=
+ for director oversight liability articulated in Caremark: either that (1) =
+=E2=80=9Cthe directors utterly failed to implement any reporting or informa=
+tion system or controls=E2=80=9D; or (2) =E2=80=9Chaving implemented such a=
+ system or controls, [the directors] consciously failed to monitor or overs=
+ee its operations thus disabling themselves from being informed of risks or=
+ problems requiring their attention.=E2=80=9D=C2=A0=C2=A0I respectfully ref=
+er to these conditions as Caremark =E2=80=9Cprong one=E2=80=9D and =E2=80=
+=9Cprong two.=E2=80=9D =E2=80=A6As our Supreme Court explained in In re Wal=
+t Disney Co. Derivative Litigation, the =E2=80=9Cintentional dereliction of=
+ duty=E2=80=9D or =E2=80=9Cconscious disregard for one=E2=80=99s responsibi=
+lities,=E2=80=9D which =E2=80=9Cis more culpable than simple inattention or=
+ failure to be informed of all facts material to the decision,=E2=80=9D ref=
+lects that directors have acted in bad faith and cannot avail themselves of=
+ defenses grounded in a presumption of good faith.=C2=A0In order to plead a=
+ derivative claim under Caremark, therefore, a plaintiff must plead particu=
+larized facts that allow a reasonable inference the directors acted with sc=
+ienter which in turn =E2=80=9Crequires [not only] proof that a director act=
+ed=C2=A0inconsistent[ly] with his fiduciary duties,=E2=80=9D but also =E2=
+=80=9Cmost importantly, that the director knew he was so acting.=E2=80=9DTh=
+is is a somewhat strange standard. The words make it sound like the directo=
+rs can only be liable if there is proof that they sat around cackling and s=
+aying =E2=80=9Cwe don=E2=80=99t care about safety, let it all burn.=E2=80=
+=9D But in practice it rarely works like that; instead, mainly the rule is =
+that if the board just didn=E2=80=99t pay enough attention to safety, it wi=
+ll get in trouble.=C2=A0Here, Boeing=E2=80=99s board =E2=80=9Chad no commit=
+tee charged with direct responsibility to monitor airplane safety,=E2=80=9D=
+ and =E2=80=9Cdid not regularly allocate meeting time or devote=C2=A0discus=
+sion to airplane safety and quality control until after the second crash=E2=
+=80=9D:The period after the Lion Air Crash is emblematic of these deficienc=
+ies. The Board=E2=80=99s first call on November 23 was explicitly optional.=
+ The crash did not appear on the Board=E2=80=99s formal agenda until the Bo=
+ard=E2=80=99s regularly scheduled December meeting; those board materials r=
+eflect discussion of restoration of profitability and efficiency, but not p=
+roduct safety, MCAS, or the AOA sensor.=C2=A0The Audit Committee devoted sl=
+ices of five-minute blocks to the crash, through the lens of supply chain, =
+factory disruption, and legal issues=E2=80=94not safety.The next board meet=
+ing, in February 2019, addressed factory production recovery and a rate inc=
+rease, but not product safety or MCAS.=C2=A0At that meeting, the Board affi=
+rmatively decided to delay its investigation into the 737 MAX, notwithstand=
+ing publicly reported concerns about the airplane=E2=80=99s safety. Weeks l=
+ater, after the Ethiopian Airlines Crash,=C2=A0the Board still did not cons=
+ider the 737 MAX=E2=80=99s=C2=A0safety. It was not until April 2019=E2=80=
+=94after the FAA grounded the 737 MAX fleet=E2=80=94that the Board built in=
+ time to address airplane safety.The=C2=A0obvious lessons here are that if =
+you are the board of directors of a public company, you should:=09Make a li=
+st of the things that can plausibly go horribly wrong at your company.=09Se=
+t up a board committee to address each of those things, or perhaps a single=
+ committee to address all of them. (The law firm Wachtell, Lipton, Rosen & =
+Katz, in a client memo about this case, suggests that boards =E2=80=9Cconsi=
+der risk management committees tasked with regular review of key enterprise=
+ risks.=E2=80=9D[4])=09Make sure you talk about those things at each board =
+meeting, and ask management how they are going.=C2=A0=09Have some sort of f=
+ormalized reporting and monitoring system: If airplane safety is high on yo=
+ur list of worries, you will tell the CEO to write a safety policy, and you=
+ will review it, and you will want it to say among other things something l=
+ike =E2=80=9Cif anyone at the company sees any safety problem, they can cal=
+l this number to report it directly to the board.=E2=80=9DThere is somethin=
+g formalistic about these lessons; they all read like ways to avoid legal l=
+iability. But also they seem good? Like, the directors are in charge of sup=
+ervising the company. They=C2=A0should spend time thinking about what might=
+ go horribly wrong, and trying to get the officers to think about those thi=
+ngs, and putting structures in place to prevent those things. If Boeing=E2=
+=80=99s board had spent 20 minutes at each meeting talking about safety, wo=
+uld that have prevented the 737 Max crashes? Probably not, no. But maybe? A=
+t least with the benefit of hindsight, =E2=80=9CBoeing=E2=80=99s board shou=
+ld have thought more about safety=E2=80=9D does seem like good advice?The w=
+hole thing of shareholders suing when terrible things happen at a company i=
+s always embarrassing. In this case, Vice Chancellor Zurn has to start by a=
+pologizing for the triviality of treating shareholders as the victims:The p=
+rimary victims of the crashes are, of course, the deceased, their families,=
+ and their loved ones. While it may seem callous in the face of their losse=
+s, corporate law recognizes another set of victims: Boeing as an enterprise=
+, and its stockholders. The crashes caused the Company and its investors to=
+ lose billions of dollars in value. Stockholders have come to this Court cl=
+aiming Boeing=E2=80=99s directors and officers failed them in overseeing mi=
+ssion-critical airplane safety to protect enterprise and stockholder value.=
+=C2=A0But at least it makes a little bit more sense here than in the everyt=
+hing-is-securities-fraud cases. For one thing, suing the=C2=A0directors=C2=
+=A0is a better deterrent than suing=C2=A0the corporation.=C2=A0Directors ar=
+e going to care more about being held personally liable (even if they=E2=80=
+=99re indemnified, etc.) than they are about the company losing a bit more =
+money in shareholder settlements on top of the money it already lost from t=
+he bad event itself.For another thing, though, here you are at least suing =
+about the right sorts of stuff. In everything-is-securities-fraud cases, th=
+e allegation is always =E2=80=9Cyou said you try to=C2=A0do good things, bu=
+t you did bad things,=E2=80=9D and the simple solution is to=C2=A0stop sayi=
+ng you do good things.=C2=A0If shareholders  sue you for not living up to y=
+our aspirational  diversity policy, get rid of the diversity policy. But he=
+re, the allegation is =E2=80=9Cyou should do a better job of making sure th=
+at the company doesn=E2=80=99t do bad things.=E2=80=9D And the only way to =
+address that is by doing your job.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Private markets are the new public markets
+   =20
+ =20
+Or not. But:Forge Global Inc., an online marketplace for buying and selling=
+ shares of private firms, plans to go public by merging with a special-purp=
+ose acquisition company.The deal with Motive Capital Corp. values the resul=
+ting company at $2 billion, the companies said. If completed, the transacti=
+on would make Forge the first dedicated trading platform for private shares=
+ to become a public company.Trading in private shares has heated up in rece=
+nt years as startups have waited longer to hold initial public offerings. S=
+uch trading allows employees to cash out of their shares and lets some inve=
+stors get early access to potentially fast-growing technology startups.Most=
+ individual investors aren=E2=80=99t able to buy shares on Forge or other t=
+rading platforms for pre-IPO stock. Under Securities and Exchange Commissio=
+n rules, such deals are typically limited to accredited investors=E2=80=94p=
+eople who meet certain wealth criteria, such as having a net worth of more =
+than $1 million, excluding one=E2=80=99s home, or an annual income above $2=
+00,000.=E2=80=9CThe public markets need an investment that is a proxy for t=
+he private markets,=E2=80=9D Forge Chief Executive Kelly Rodriques said in =
+an interview. =E2=80=9CThat=E2=80=99s Forge.=E2=80=9DWhat is interesting ab=
+out the Forge deal is that it provides some public information about privat=
+e-company trading. (Or, at least, about the trading of private companies on=
+ Forge=E2=80=99s platform.) Here is the investor presentation that Forge an=
+d Motive filed today. Forge claims that there are 762 unicorns =E2=80=94=C2=
+=A0venture-backed private companies with a valuation of at least $1 billion=
+ =E2=80=94=C2=A0in the world, of which 142 have traded on its platform in t=
+he last year. But they don=E2=80=99t trade that much:=C2=A0The average publ=
+ic company trades 126% of its market capitalization every year; a billion-d=
+ollar public company will do about $1.26 billion of stock-market volume per=
+ year, or about $5 million=C2=A0per day. The average private company (on Fo=
+rge) trades about 0.2% of its value per year (on Forge); a billion-dollar u=
+nicorn will do about $2 million worth of trading in a year. Forge has trade=
+d $10 billion of private-company stock since its inception; Tesla Inc.=E2=
+=80=99s stock traded $11.4 billion on Friday.=E2=80=9CPrivate markets are t=
+he new public markets,=E2=80=9D I like to say around here; thanks to modern=
+ technology and global capital markets,=C2=A0private companies can offer th=
+eir shareholders much better liquidity than they could get in the past. But=
+ still not=C2=A0that=C2=A0much. The average private company still has less =
+liquidity in a year than the average public company does in a day. Trading =
+private-company stock remains a special occasion; you can sometimes line up=
+ a secondary trade with another venture fund or hedge fund, or buy stock fr=
+om employees in a tender offer, but it=E2=80=99s not just a matter of putti=
+ng in an order on the exchange.Also while private-company trades are infreq=
+uent, they are also expensive:In public markets, brokers and wholesalers an=
+d exchanges compete fiercely and controversially over fractions of pennies =
+to execute trades. In the private market Forge makes about 2.5% or 3%.=C2=
+=A0I don=E2=80=99t want to suggest that public stock markets are perfect, b=
+ut they are, in some sense,=C2=A0perfected. A lot of the large-scale proble=
+ms are solved, and very smart people compete fiercely to execute trades 1 m=
+illisecond faster than each other. You can trade as much stock as you want,=
+ basically instantaneously and basically for free, and even the problem=C2=
+=A0of picking which stocks to buy=C2=A0is so thoroughly analyzed at this po=
+int that lots of people just index. Public stock markets are boring, in the=
+ sense that the low-hanging fruit has largely been plucked, and there is a =
+lot of intense competition over basis points and plumbing.=C2=A0One thing t=
+hat you could do is embrace this and work to shave half a basis point off y=
+our index fund=E2=80=99s expense ratio, but another very popular approach i=
+s to abandon traditional public markets for places where the problems are l=
+ess solved. You could get into crypto, for instance. As an investor (becaus=
+e some cryptocurrencies go up a lot), sure; but providing various services =
+in crypto =E2=80=94=C2=A0running an exchange, running a market maker, const=
+ructing derivatives =E2=80=94=C2=A0also seems to be a lot more lucrative th=
+an providing those services in the transparent, well-understood, boring tra=
+ditional financial markets. Similarly, if you are investing in=C2=A0the pri=
+vate markets you can put some money into a tiny startup that will be the ne=
+xt Facebook. Or you can provide the platform for trading that company=E2=80=
+=99s stock and collect 3%.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Supply chain finance
+   =20
+ =20
+Here is a  Bloomberg Businessweek story from last week about Greensill Capi=
+tal. It includes this quick summary of how Greensill=E2=80=99s business was=
+ supposed to work (it  did not always work this way):Greensill Capital had =
+the melon farm. Lex Greensill, founder and chief executive officer of the L=
+ondon-based lender that proclaimed it was =E2=80=9Cmaking finance fairer,=
+=E2=80=9D loved regaling anyone within earshot about his parents scratching=
+ out a living in the flatlands around Bundaberg, Australia. A good harvest =
+of melons and sugar cane meant fat times, but a dry year could wreak havoc.=
+ Just as stressful were the monthslong delays in payments from customers, l=
+eaving the family short of cash. In Greensill=E2=80=99s telling, his compan=
+y had come up with a way to help small businesspeople like his parents get =
+their money faster.Greensill offered a version of something called supply c=
+hain finance, an arcane corner of banking in which a middleman pays a suppl=
+ier immediately, but at a discount, and then collects the full amount from =
+the buyer a few months later. Greensill Capital=E2=80=99s technology, the c=
+ompany said, could assess the risk of loans with the help of artificial int=
+elligence. Rather than making all these loans with its own cash, Greensill =
+Capital often sold the IOUs it arranged to outside investors, who saw them =
+as a way to earn better-than-average returns with virtually no risk. After =
+all, the loans were based on sales that had already happened=E2=80=94Greens=
+ill was merely working out a kink in the cash flow.Here=E2=80=99s a story a=
+bout a big company that provides short-term financing for small businesses =
+secured against those businesses=E2=80=99 accounts receivable. That company=
+ is Facebook Inc.:Facebook [last] week announced a $100 million commitment =
+to a program that supports small businesses owned by women and minorities b=
+y buying up their outstanding invoices.By buying up outstanding invoices, t=
+he Facebook Invoice Fast Track program puts money in the hands of small bus=
+inesses that would have otherwise had to wait weeks if not months to get pa=
+id by their customers.=C2=A0The program is the latest effort by Facebook to=
+ build its relationships and long-term loyalty among small businesses, many=
+ of whom rely on the social network to place ads targeted to niche demograp=
+hics who may be interested in their services.=C2=A0Businesses can submit ou=
+tstanding invoices of a minimum of $1,000, and if accepted, Facebook will b=
+uy the invoice from the small business and pay them within a matter of days=
+. The customers then pay Facebook the outstanding invoices at the same term=
+s they had agreed to with the small business. For Facebook, which generated=
+ nearly $86 billion in revenue in 2020, waiting for payments is much less d=
+ire than it is for small businesses.=C2=A0Okay so there is a business of (1=
+) using artificial intelligence to evaluate the payment risk involved in in=
+voices, (2) advancing cash against those invoices, and (3) trying to make s=
+ure they get paid back. My questions are:=09Who has better AI technology: F=
+acebook or this Australian ex-melon farmer?=09Who has cheaper access to cas=
+h?=09Who has more leverage to get paid back?I dunno, how do you compete wit=
+h Facebook? =E2=80=9CEvery bank wants to be a tech company, but every tech =
+company wants to be a bank,=E2=80=9D[5] and it does seem like the tech gian=
+ts have some key advantages if they want to get into banking. For one thing=
+, they are good at data and so forth. For another thing, so much of commerc=
+e runs through them anyway. Also though they are kind of where the money is=
+.In the most general terms, if you are a small business and you need financ=
+ing, whom should you ask for financing? The traditional answer is that you =
+ask your bank, but that answer feels pass=C3=A9 nowadays; banks are stodgy =
+and slow-moving and risk-averse. The modern answer is that you ask some sor=
+t of specialized finance company, like Greensill or like =E2=80=9Cmerchant =
+cash advance=E2=80=9D companies. But these are often expensive, and there a=
+re some search costs involved in you finding them or them finding you. The =
+postmodern answer is, like, =E2=80=9Cwe sell all our products by buying ads=
+ on a couple of big tech platforms, we might as well see if they=E2=80=99ll=
+ give us money too.=E2=80=9D Sometimes they will.=C2=A0
+ =20
+   =20
+      Value
+   =20
+ =20
+Is AMC Entertainment Holdings Inc. a growth stock or a value stock? Well, n=
+o. It=E2=80=99s a meme stock. A growth stock trades at a high multiple beca=
+use its earnings are growing quickly. A value stock trades at a low multipl=
+e because=C2=A0its earnings are growing slowly.[6] A meme stock trades at a=
+ high multiple because it is funny.AMC has a market capitalization of $25.7=
+ billion, net income of negative $2.76 billion over the last 12 months, and=
+ a book value of negative $1.4 billion; conventionally, you would say that =
+its trading multiples are somewhere between =E2=80=9Chigh=E2=80=9D and =E2=
+=80=9Cnot meaningful.=E2=80=9D Meanwhile its revenue grew 7.5% from 2017 to=
+ 2018 and=C2=A00.2% from 2018 to 2019, then shrank 77% from 2019 to 2020 (d=
+ue to pandemic, fine, but still);=C2=A0Bloomberg=E2=80=99s roundup of analy=
+st estimates shows that it is not expected to return to 2019 revenue levels=
+ (or make a profit) through 2023. Conventionally, you would not say that it=
+ is all that fast-growing. On the other hand its=C2=A0stock is up 2,266% th=
+is year, its chief executive officer is known as =E2=80=9CSilverback,=E2=80=
+=9D=C2=A0it talks about Bitcoin=C2=A0and=C2=A0it gives away popcorn with it=
+s stock. It is as classical a meme stock as you can get, with the proviso t=
+hat the whole category of =E2=80=9Cmeme stock=E2=80=9D is about a=C2=A0year=
+ old.If you want to buy an index fund of meme stocks you can absolutely do =
+that; index-fund providers are falling over themselves to offer meme-stock =
+index funds. (We  recently talked about a meme-stock exchange-traded fund w=
+ith the helpful ticker MEME.) But it has historically been more traditional=
+ to invest in growth stocks or value stocks. For instance some investors ow=
+n the Russell 2000 value index, made up of the value stocks in the Russell =
+2000 index of small-cap U.S. stocks. Other investors own the Russell 2000 g=
+rowth index, made up of the growth stocks in that index. The methodology us=
+ed to construct these indexes is old-school; it assumes that stocks are gro=
+wth stocks or value stocks, but makes no provision for meme stocks. So stuf=
+f gets weird:The Russell 2000 value index=E2=80=99s gains this year have be=
+en powered by some meme stocks such as AMC Entertainment Holdings Inc.=C2=
+=A0That stock=E2=80=99s rally of more than 2,000% this year has helped the =
+Russell 2000 value index outperform the Russell 2000 growth benchmark by th=
+e widest margin since 2002, according to Dow Jones Market Data. ...AMC stil=
+l belongs to the value index, puzzling some investors who say that it is a =
+misfit. Shares of AMC already appear pricey after their meteoric gains this=
+ year, according to some investors.=E2=80=9CIt doesn=E2=80=99t make sense,=
+=E2=80=9D said Chris Covington, head of investments at AJOVista. =E2=80=9CI=
+t=E2=80=99s really all a nuance of the index construction process.=E2=80=9D=
+FTSE Russell, the index provider, says in materials provided to investors t=
+hat the value index is designed to include companies with lower price-to-bo=
+ok ratios and lower expected growth in the future. =E2=80=A6AMC=E2=80=99s p=
+lace in the value index means the movie giant=E2=80=99s shares crop up in e=
+xchange-traded funds tracking value stocks. AMC is the biggest holding in t=
+he roughly $16 billion iShares Russell 2000 Value ETF =E2=80=94one of the b=
+iggest tracking the sector=E2=80=94and the roughly $1 billion Vanguard Russ=
+ell 2000 Value ETF.Intuitively, at least at the start of the year, =E2=80=
+=9Cold-fashioned movie-theater company that has been beaten down by a pande=
+mic=E2=80=9D did feel like a value stock. Now it has transcended growth and=
+ value=C2=A0and become a meme.
+ =20
+   =20
+      Non-fungible tokens etc.
+   =20
+ =20
+We  talked on Thursday about the idea of slicing a non-fungible token (a bl=
+ockchain pointer to a digital picture of a dog) into billions of=C2=A0fungi=
+ble=C2=A0shares and selling them for more than you paid for the original to=
+ken. And then we  talked on Friday about the idea of slicing the NFT into l=
+ots of=C2=A0non-fungible=C2=A0shares =E2=80=94=C2=A0an NFT-squared, if you =
+will =E2=80=94=C2=A0and then selling them separately for more than you paid=
+ for the original token. Say, sell each pixel of the picture of the dog sep=
+arately, or whatever.I got a lot of correspondence about these things, whic=
+h =E2=80=A6=C2=A0isn=E2=80=99t that suggestive in itself? Obviously I find =
+this all a bit absurd, but the fact that I and my readers find it so intere=
+sting tells you something, no? The NFT craze is essentially a way to moneti=
+ze conceptual art, and the lesson from my correspondence is that the concep=
+ts are=C2=A0good enough to capture the imagination?Anyway lots of readers e=
+mailed to point out analogies, in the digital and analog worlds. For instan=
+ce:=09Last year, fun art/branding group MSCHF bought a print of a Damien Hi=
+rst spot painting, cut out the dots and  sold each of them separately (for =
+a profit).=09Someone did the same thing with a Picasso print  back in 1986.=
+=09One reader pointed out that, in sports trading cards, =E2=80=9Cspecial i=
+nsert cards will often contain a patch of a game-used uniform, with certain=
+ aspects of the uniform valued at a premium (i.e. the NFL shield logo is mo=
+re valuable than a nondescript =E2=80=98background=E2=80=99=C2=A0patch of t=
+he jersey).=E2=80=9D The uniform is fractionalized, but in a non-fungible w=
+ay.=09Everyone points to the Green Bay Packers, fine, Packers shares are NF=
+Ts, okay.=09There=E2=80=99s the  Million Dollar Homepage, where someone sol=
+d the pixels of a website for $1 each back in 2005.=09At least two people h=
+ave suggested that selling shares of a picture of a dog for more than you p=
+aid for the picture of the dog is reminiscent of  the Banach-Tarski paradox=
+, which honestly feels a little generous to me.[7]Also I enjoyed this proje=
+ct from SHL0MS=C2=A0last month, called =E2=80=9CFNTN,=E2=80=9D described as=
+ =E2=80=9Ca contemporary, crypto-native rendition of Marcel Duchamp=E2=80=
+=99s iconic, controversial Dadaist sculpture =E2=80=98Fountain=E2=80=99=E2=
+=80=9D and =E2=80=9Cthe crypto art market=E2=80=99s first physically-fracti=
+onalized NFT sculpture and irl-generative collectible.=E2=80=9D What that m=
+eans is that he bought=C2=A0a urinal, spray-painted=C2=A0=E2=80=9CSHL0MS.ET=
+H 2021=E2=80=9D on it, had some people smash=C2=A0it up with a hammer, took=
+ rotating video of each piece of the smashed urinal (and also the hammer), =
+and sold those videos=C2=A0as NFTs. There are also =E2=80=9CSHL0MS urinal c=
+akes.=E2=80=9D=C2=A0Here=E2=80=99s the secondary market for the urinal piec=
+es. Basically what I want from NFTs is that they should be funnier than the=
+ baseline of =E2=80=9Cwe burned a painting and sold it as an NFT=E2=80=9D o=
+r =E2=80=9Cwe drew a bunch of GIFs and sold them as NFTs=E2=80=9D or =E2=80=
+=9Cwe have nothing and sold it is an NFT=E2=80=9D; I feel like the smashed =
+urinal just qualifies. =E2=80=9CPhysically fractionalized,=E2=80=9D that=E2=
+=80=99s a good joke.Elsewhere, the woman who did=C2=A0this infamous tweet:I=
+f you make a NFT of a real diamond, and the diamond itself gets destroyed i=
+n a fire tomorrow, you still have the same asset.=C2=A0Because the token st=
+ill exists and is in limited supply just as before. Nothing has changed.Wha=
+t NFT is doing to the concept of asset, few understand.=E2=80=A6=C2=A0went =
+and=C2=A0bought a diamond, destroyed it, and sold an NFT about it. Not frac=
+tionalized, nothing=C2=A0interesting, just a standard =E2=80=9Cobject-fire-=
+token-money=E2=80=9D NFT. She seems to have made a profit. It=E2=80=99s fin=
+e but honestly she should have sold an NFT of that tweet.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Beijing to break up Ant=E2=80=99s Alipay and force creation of separate loa=
+ns app. Kansas City Southern Says Canadian Pacific Bid Superior to Canadian=
+ National Deal. Horta-Os=C3=B3rio tightens his grip at Credit Suisse. UBS w=
+ealth business booms but are risks piling up? Back-to-School Season Has  St=
+ock Sellers Tapping Market in Droves. Libor Transition Stokes Sales of Risk=
+y Corporate Debt. Evergrande  75% Haircut Is Now a Base Case for Bond Analy=
+sts. House Democrats Consider 26.5% Corporate Tax Rate. Build America Bonds=
+,  Advance Refundings Revived by House Panel. Brevan Howard Hedge Fund Join=
+s the  Rush to Crypto With New Unit. Portland unveils =E2=80=98Ned Flanders=
+ Bridge=E2=80=99 after iconic Simpsons character. =E2=80=9CC=E2=80=99mon, y=
+ou=E2=80=99ll see your friends again!=E2=80=9D=C2=A0If you'd like to get=C2=
+=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=
+=C2=A0subscribe at this link. Or you can subscribe to Money Stuff and other=
+ great Bloomberg newsletters here. Thanks![1]=C2=A0Executives and directors=
+ do not, technically, have a duty *to particular shareholders*=C2=A0to stop=
+ the planes from crashing. Their fiduciary duty =E2=80=94 their duties of c=
+are and loyalty, their duty to do a good job =E2=80=94=C2=A0is to *the comp=
+any*; technically, if they do a bad job, the company could sue them but the=
+ shareholders cannot. However there is a thing in corporate law called a =
+=E2=80=9Cshareholder derivative lawsuit=E2=80=9D: Shareholders can sue dire=
+ctors and executives *on behalf of the corporation*, if (1) the directors a=
+nd executives do something bad enough and (2) the shareholders can demonstr=
+ate that the corporation won=E2=80=99t make a good decision to sue the dire=
+ctors itself (because, for instance, the directors are all conflicted =E2=
+=80=94=C2=A0they make decisions for the company and they would also be the =
+defendants). In the Boeing case discussed in the text, the judge dismissed =
+claims against the officers of the company, because she concluded that the =
+board was not so conflicted that it couldn=E2=80=99t decide to sue the offi=
+cers. (The board is not gonna sue the officers, this is sort of a formalism=
+ of corporate law.) But she allowed claims against the directors to continu=
+e because they are obviously conflicted.[2] Weirdly Boeing=E2=80=99s risk f=
+actors *don=E2=80=99t*=C2=A0say that in any particularly clear way. Here ar=
+e the risk factors in the most recent 10-K, and the ones in the 2017 10-K (=
+the one before the crashes at issue here). They essentially don=E2=80=99t m=
+ention =E2=80=9Csafety=E2=80=9D at all. They do say this: =E2=80=9CIf our c=
+ommercial airplanes fail to satisfy performance and reliability requirement=
+s, we could face additional costs and/or lower revenues. Developing and man=
+ufacturing commercial aircraft that meet or exceed our performance and reli=
+ability standards, as well as those of customers and regulatory agencies, c=
+an be costly and technologically challenging. These challenges are particul=
+arly significant with newer aircraft programs. Any failure of any Boeing ai=
+rcraft to satisfy performance or reliability requirements could result in d=
+isruption to our operations, higher costs and/or lower revenues.=E2=80=9D I=
+ suppose that counts.[3] See footnote 1: The point is not that the officers=
+ can=E2=80=99t be personally responsible, but that there's no reason to let=
+ *shareholders* sue them on behalf of the company.[4] Disclosure, I used to=
+ work at Wachtell. The memo does not seem to be available on the web yet.[5=
+] I put this in quotes because it is not original to me and seems to be a p=
+opular thought, though I cannot find an original source. But you can find v=
+ersions here=C2=A0or here.[6] Don=E2=80=99t take these definitions too seri=
+ously, but note that FTSE Russell itself =E2=80=9Cuses three variables in t=
+he determination of growth and value. For value, book-to-price (B/P) ratio =
+is used, while for growth, two variables=E2=80=94I/B/E/S forecast medium-te=
+rm growth (2-year) and sales per share historical growth (5-year) are used.=
+=E2=80=9D So a low multiple defines a value stock, while high revenue growt=
+h and expected earnings growth define a growth stock, and =E2=80=94=C2=A0cr=
+ucially =E2=80=94=C2=A0every stock is either a growth stock or a value stoc=
+k or some combination of the two. (=E2=80=9CIn general, a stock with a lowe=
+r CVS [composite value score] is considered growth, a stock with a higher C=
+VS is considered value and a stock with a CVS in the middle range is consid=
+ered to have both growth and value characteristics, and is weighted proport=
+ionately in the growth and value index.Stocks are always fully represented =
+by the combination of their growth and value weights; e.g., a stock that is=
+ given a 20% weight in a Russell value index will have an 80% weight in the=
+ corresponding Russell=C2=A0growth index.=E2=80=9D) So a stock with a low m=
+ultiple but high earnings growth =E2=80=94=C2=A0=E2=80=9Cboth a growth stoc=
+k and a value stock=E2=80=9D =E2=80=94=C2=A0will be somewhere in the middle=
+ and will have some weight in both the growth and value indexes. Meanwhile =
+a stock with a high multiple but low earnings growth =E2=80=94=C2=A0=E2=80=
+=9Cneither a growth stock nor a value stock=E2=80=9D =E2=80=94=C2=A0will be=
+ treated about the same.[7] Like the intuitive idea here is that you have t=
+aken a digital object, divided it, and recombined the divided parts into tw=
+o copies of the digital object, each of which should be worth as much as th=
+e original =E2=80=94=C2=A0and a result in set-theoretic geometry says that =
+that=E2=80=99s possible. I dunno, man. I think *finance* draws in more fact=
+s about the world than set-theoretic geometry does. Maybe the parts are wor=
+th more than the whole because more people can pay $1 for 1/100,000,000th o=
+f the thing than can pay $10 million for the whole thing. Maybe the parts a=
+re worth more than the whole because it=E2=80=99s a pump-and-dump where peo=
+ple can trade a tiny fraction back and forth at increasing prices, while yo=
+u can=E2=80=99t print big trades on the whole thing. Etc.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cewh1f.5l2i/204a9e97.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_7471014_1481193166.1631551279872
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNTAyOTY5OSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUyOTAyODUmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cB9bc3f3ac" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D25029699&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25290285&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 5px;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cB4b1c5b1f"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNTAyOTY5OSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUyOTAyODUmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cC1bf3ade3" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D25029699&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25290285&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"108" style=3D"width: 108px !important; display:block" =
+/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Everything is shareholder derivative claims</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The basic rule is that when there is a=
+ devastating plane crash, the shareholders of the company that makes the pl=
+ane will sue the company for securities fraud. =E2=80=9CYou built planes th=
+at would crash, but you lied and told everyone that you built planes that w=
+ouldn=E2=80=99t crash, and we bought your stock thinking your planes wouldn=
+=E2=80=99t crash, and then they did so the stock went down.=E2=80=9D I don=
+=E2=80=99t make the rules, and I realize that this is both bizarre and ghou=
+lish, but it is the rule. =E2=80=9CEverything is securities fraud,=E2=80=9D=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDMvZ29s=
+ZG1hbi1zYWNocy1nb2VzLXRvLXN1cHJlbWUtY291cnQtaGVkZ2UtZnVuZHMtd29uLW9uLWdhbWV=
+zdG9wLWtrcG9lNndz/607f07ceef4b8524a319a23cB2cecbcc9" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> I call it</a>. And in fact Boei=
+ng Co. makes=C2=A0planes, including the 737 Max, and in 2019 and 2020 <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/aHR0cHM=
+6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQm9laW5nXzczN19NQVhfZ3JvdW5kaW5ncw/607f07c=
+eef4b8524a319a23cB8ca7e770" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">two 737 Max planes=C2=A0crashed</a>, and Boeing=E2=80=99s=
+=C2=A0stock went down, and shareholders <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/25029699.260586/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY=
+29tL2J1c2luZXNzLzIwMTkvMDQvMTAvYm9laW5nLXNoYXJlaG9sZGVyLWZpbGVzLWNsYXNzLWFj=
+dGlvbi1sYXdzdWl0LWFsbGVnZXMtcGxhbmUtbWFrZXItY29uY2VhbGVkLW1heC1zYWZldHktcml=
+za3Mv/607f07ceef4b8524a319a23cBbfe6c0f9" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">brought securities fraud lawsuits</a> agai=
+nst it.=C2=A0Standard stuff.=C2=A0</p><p style=3D"margin: 16px 0;">But ther=
+e are other, related but slightly different theories. For instance instead =
+of suing=C2=A0<em>the company=C2=A0</em>for failing to=C2=A0<em>disclose=C2=
+=A0</em>that its planes would crash, you could sue=C2=A0<em>the executives =
+and directors </em>for failing to<em> stop the planes from crashing</em>. =
+=E2=80=9CThe directors and officers had a fiduciary duty to build safe plan=
+es, not planes that crashed, and they failed in their fiduciary duties so t=
+hey should pay damages.=E2=80=9D This sort of lawsuit is called a =E2=80=9C=
+shareholder derivative claim,=E2=80=9D[1] and it is in many ways more compl=
+icated than the everything-is-securities-fraud theory. It is hard, generall=
+y, to get a court to second-guess directors=E2=80=99 and officers=E2=80=99 =
+business decisions; it is hard to hold them personally liable for business =
+failures.</p><p style=3D"margin: 16px 0;">But the derivative lawsuit has=C2=
+=A0some advantages. For one thing, it doesn=E2=80=99t rely on finding misst=
+atements in the disclosure. If Boeing=E2=80=99s public statements were alon=
+g the lines of =E2=80=9Cwe try to make safe planes, but there is a risk tha=
+t they might crash due to design flaws, and if they did that would be very =
+bad for our business,=E2=80=9D[2] and then some planes crashed, it is a lit=
+tle hard to argue that it=C2=A0<em>deceived=C2=A0</em>anyone. You can, of c=
+ourse =E2=80=94=C2=A0=E2=80=9Cyou said you had a culture of safety and you =
+had a culture of not-safety,=E2=80=9D etc. =E2=80=94=C2=A0but it=E2=80=99s =
+hard. It seems somehow more straightforward to argue =E2=80=9Clook, your jo=
+b was to make safe planes, and you didn=E2=80=99t, so now you have to pay.=
+=E2=80=9D</p><p style=3D"margin: 16px 0;">For another thing, if you are a s=
+hareholder and you sue the company for securities fraud, and you win, the c=
+ompany pays you, which is sort of pointless? It just moves money from the c=
+orporation (whose shares you own) to your bank account, but it was your mon=
+ey anyway. And now the lawyers get a chunk of it. But if you sue the direct=
+ors and win,=C2=A0the money goes from the directors=E2=80=99 personal accou=
+nts to you; money that was not yours becomes yours (and the lawyers get a c=
+hunk). In practice directors are generally indemnified and insurance is pay=
+ing for all of this, but it does make a little bit more intuitive sense for=
+ shareholders to sue the=C2=A0<em>people=C2=A0</em>who (allegedly) messed u=
+p the corporation than it does to sue the corporation itself.</p><p style=
+=3D"margin: 16px 0;">Anyway some shareholders brought a derivative action a=
+gainst Boeing=E2=80=99s directors and officers, and the directors and offic=
+ers asked a Delaware court to dismiss the case, and last week <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/25029699.260586/aHR0cHM6Ly9jb3V=
+ydHMuZGVsYXdhcmUuZ292L09waW5pb25zL0Rvd25sb2FkLmFzcHg_aWQ9MzI0MTIw/607f07cee=
+f4b8524a319a23cB58f27251" itemprop=3D"StoryLink" itemscope=3D"itemscope" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">Delaware Vice Chancellor Morgan Zurn ruled</a> that the cas=
+e against the directors (though not the officers[3]) can go forward:</p><bl=
+ockquote><p style=3D"margin: 16px 0;">The narrow question before this Court=
+ today is whether Boeing=E2=80=99s stockholders have alleged that a majorit=
+y of the Company=E2=80=99s directors face a substantial likelihood of liabi=
+lity for Boeing=E2=80=99s losses. This may be based on the directors=E2=80=
+=99 complete failure to establish a reporting system for airplane safety, o=
+r on their turning a blind eye to a red flag representing airplane safety p=
+roblems. I conclude the stockholders have pled both sources of board liabil=
+ity. The stockholders may pursue the Company=E2=80=99s oversight claim agai=
+nst the board.</p></blockquote><p style=3D"margin: 16px 0;">It is hard to s=
+ue directors for breaching their fiduciary duties. In general, the =E2=80=
+=9Cbusiness judgment rule=E2=80=9D insulates directors=E2=80=99 business de=
+cisions from judicial review. But a 1996 Delaware court decision called Car=
+emark allows directors to be held liable for some kinds of failure to overs=
+ee the company. Vice Chancellor Zurn explains:</p><blockquote><p style=3D"m=
+argin: 16px 0;">As Chancellor Allen first observed in <em>Caremark</em>, an=
+d as since emphasized by this Court many times, perhaps to redundance, the =
+claim that corporate fiduciaries have breached their duties to stockholders=
+ by failing to monitor corporate affairs is =E2=80=9Cpossibly the most diff=
+icult theory in corporation law upon which a plaintiff might hope to win a =
+judgment.=E2=80=9D=C2=A0A decade after <em>Caremark</em>, our Supreme Court=
+ affirmed the doctrine Chancellor Allen announced there and clarified that =
+our law will hold directors personally liable only where, in failing to ove=
+rsee the operations of the company, =E2=80=9Cthe directors knew that they w=
+ere not discharging their fiduciary=C2=A0obligations.=E2=80=9D=C2=A0At the =
+pleading stage, a plaintiff must allege particularized facts that satisfy o=
+ne of the necessary conditions for director oversight liability articulated=
+ in <em>Caremark</em>: either that (1) =E2=80=9Cthe directors utterly faile=
+d to implement any reporting or information system or controls=E2=80=9D; or=
+ (2) =E2=80=9Chaving implemented such a system or controls, [the directors]=
+ consciously failed to monitor or oversee its operations thus disabling the=
+mselves from being informed of risks or problems requiring their attention.=
+=E2=80=9D=C2=A0=C2=A0I respectfully refer to these conditions as <em>Carema=
+rk </em>=E2=80=9Cprong one=E2=80=9D and =E2=80=9Cprong two.=E2=80=9D =E2=80=
+=A6</p><p style=3D"margin: 16px 0;">As our Supreme Court explained in In re=
+ <em>Walt Disney Co. Derivative Litigation</em>, the =E2=80=9Cintentional d=
+ereliction of duty=E2=80=9D or =E2=80=9Cconscious disregard for one=E2=80=
+=99s responsibilities,=E2=80=9D which =E2=80=9Cis more culpable than simple=
+ inattention or failure to be informed of all facts material to the decisio=
+n,=E2=80=9D reflects that directors have acted in bad faith and cannot avai=
+l themselves of defenses grounded in a presumption of good faith.=C2=A0In o=
+rder to plead a derivative claim under <em>Caremark</em>, therefore, a plai=
+ntiff must plead particularized facts that allow a reasonable inference the=
+ directors acted with scienter which in turn =E2=80=9Crequires [not only] p=
+roof that a director acted=C2=A0inconsistent[ly] with his fiduciary duties,=
+=E2=80=9D but also =E2=80=9Cmost importantly, that the director knew he was=
+ so acting.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">This is a=
+ somewhat strange standard. The words make it sound like the directors can =
+only be liable if there is proof that they sat around cackling and saying =
+=E2=80=9Cwe don=E2=80=99t care about safety, let it all burn.=E2=80=9D But =
+in practice it rarely works like that; instead, mainly the rule is that if =
+the board just didn=E2=80=99t pay enough attention to safety, it will get i=
+n trouble.=C2=A0Here, Boeing=E2=80=99s board =E2=80=9Chad no committee char=
+ged with direct responsibility to monitor airplane safety,=E2=80=9D and =E2=
+=80=9Cdid not regularly allocate meeting time or devote=C2=A0discussion to =
+airplane safety and quality control until after the second crash=E2=80=9D:<=
+/p><blockquote><p style=3D"margin: 16px 0;">The period after the Lion Air C=
+rash is emblematic of these deficiencies. The Board=E2=80=99s first call on=
+ November 23 was explicitly optional. The crash did not appear on the Board=
+=E2=80=99s formal agenda until the Board=E2=80=99s regularly scheduled Dece=
+mber meeting; those board materials reflect discussion of restoration of pr=
+ofitability and efficiency, but not product safety, MCAS, or the AOA sensor=
+.=C2=A0The Audit Committee devoted slices of five-minute blocks to the cras=
+h, through the lens of supply chain, factory disruption, and legal issues=
+=E2=80=94not safety.</p><p style=3D"margin: 16px 0;">The next board meeting=
+, in February 2019, addressed factory production recovery and a rate increa=
+se, but not product safety or MCAS.=C2=A0At that meeting, the Board affirma=
+tively decided to delay its investigation into the 737 MAX, notwithstanding=
+ publicly reported concerns about the airplane=E2=80=99s safety. Weeks late=
+r, after the Ethiopian Airlines Crash,=C2=A0the Board still did not conside=
+r the 737 MAX=E2=80=99s=C2=A0safety. It was not until April 2019=E2=80=94af=
+ter the FAA grounded the 737 MAX fleet=E2=80=94that the Board built in time=
+ to address airplane safety.</p></blockquote><p style=3D"margin: 16px 0;">T=
+he=C2=A0obvious lessons here are that if you are the board of directors of =
+a public company, you should:</p><ol style=3D"list-style-type: decimal; pad=
+ding-left: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Make=
+ a list of the things that can plausibly go horribly wrong at your company.=
+</li>=09<li style=3D"margin-bottom: 5px;">Set up a board committee to addre=
+ss each of those things, or perhaps a single committee to address all of th=
+em. (The law firm Wachtell, Lipton, Rosen &amp; Katz, in a client memo abou=
+t this case, suggests that boards =E2=80=9Cconsider risk management committ=
+ees tasked with regular review of key enterprise risks.=E2=80=9D[4])</li>=
+=09<li style=3D"margin-bottom: 5px;">Make sure you talk about those things =
+at each board meeting, and ask management how they are going.=C2=A0</li>=09=
+<li style=3D"margin-bottom: 5px;">Have some sort of formalized reporting an=
+d monitoring system: If airplane safety is high on your list of worries, yo=
+u will tell the CEO to write a safety policy, and you will review it, and y=
+ou will want it to say among other things something like =E2=80=9Cif anyone=
+ at the company sees any safety problem, they can call this number to repor=
+t it directly to the board.=E2=80=9D</li></ol><p style=3D"margin: 16px 0;">=
+There is something formalistic about these lessons; they all read like ways=
+ to avoid legal liability. But also they seem good? Like, the directors are=
+ in charge of supervising the company. They=C2=A0<em>should </em>spend time=
+ thinking about what might go horribly wrong, and trying to get the officer=
+s to think about those things, and putting structures in place to prevent t=
+hose things. If Boeing=E2=80=99s board had spent 20 minutes at each meeting=
+ talking about safety, would that have prevented the 737 Max crashes? Proba=
+bly not, no. But maybe? At least with the benefit of hindsight, =E2=80=9CBo=
+eing=E2=80=99s board should have thought more about safety=E2=80=9D does se=
+em like good advice?</p><p style=3D"margin: 16px 0;">The whole thing of sha=
+reholders suing when terrible things happen at a company is always embarras=
+sing. In this case, Vice Chancellor Zurn has to start by apologizing for th=
+e triviality of treating shareholders as the victims:</p><blockquote><p sty=
+le=3D"margin: 16px 0;">The primary victims of the crashes are, of course, t=
+he deceased, their families, and their loved ones. While it may seem callou=
+s in the face of their losses, corporate law recognizes another set of vict=
+ims: Boeing as an enterprise, and its stockholders. The crashes caused the =
+Company and its investors to lose billions of dollars in value. Stockholder=
+s have come to this Court claiming Boeing=E2=80=99s directors and officers =
+failed them in overseeing mission-critical airplane safety to protect enter=
+prise and stockholder value.=C2=A0</p></blockquote><p style=3D"margin: 16px=
+ 0;">But at least it makes a little bit more sense here than in the everyth=
+ing-is-securities-fraud cases. For one thing, suing the=C2=A0<em>directors=
+=C2=A0</em>is a better deterrent than suing=C2=A0<em>the corporation.</em>=
+=C2=A0Directors are going to care more about being held personally liable (=
+even if they=E2=80=99re indemnified, etc.) than they are about the company =
+losing a bit more money in shareholder settlements on top of the money it a=
+lready lost from the bad event itself.</p><p style=3D"margin: 16px 0;">For =
+another thing, though, here you are at least suing about the right sorts of=
+ stuff. In everything-is-securities-fraud cases, the allegation is always =
+=E2=80=9Cyou said you try to=C2=A0do good things, but you did bad things,=
+=E2=80=9D and the simple solution is to=C2=A0<em>stop saying you do good th=
+ings.=C2=A0</em>If shareholders <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/25029699.260586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjAtMDctMjAvdGhleS1yZS1hbGwtZnJpZW5kcy1pbi10aGUtaW5kZXg/607f=
+07ceef4b8524a319a23cB46b440a1" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> sue you</a> for not living up to your aspirational <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDctMTMvd2UtaGF=
+zLWRlY2lkZWQtdG8tbWFrZS1tb25leQ/607f07ceef4b8524a319a23cBf0c2f784" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> diversity policy<=
+/a>, get rid of the diversity policy. But here, the allegation is =E2=80=9C=
+you should do a better job of making sure that the company doesn=E2=80=99t =
+do bad things.=E2=80=9D And the only way to address that is by doing your j=
+ob.</p><table class=3D"liveintent-sponsored-content" width=3D"auto" cellpad=
+ding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTAyOTY5OSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUyOTAyODUmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cDdbeb8f49" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25029699&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25290285&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTAyOTY5OSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUyOTAyODUmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cEdbeb8f49" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25029699&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25290285&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTAyOTY5OSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUyOTAyODUmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cF89fd3047" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25029699&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25290285&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTAyOTY5OSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUyOTAyODUmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cG89fd3047" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25029699&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25290285&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Private markets are the new public markets</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Or not. <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/25029699.260586/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRp=
+Y2xlcy9wcmUtaXBvLW1hcmtldHBsYWNlLWZvcmdlLWdsb2JhbC10by1nby1wdWJsaWMtaW4tMi1=
+iaWxsaW9uLXNwYWMtZGVhbC0xMTYzMTUzMDgwMA/607f07ceef4b8524a319a23cBa84cc75f" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">But</a>:</=
+p><blockquote><p style=3D"margin: 16px 0;">Forge Global Inc., an online mar=
+ketplace for buying and selling shares of private firms, plans to go public=
+ by merging with a special-purpose acquisition company.</p><p style=3D"marg=
+in: 16px 0;">The deal with Motive Capital Corp. values the resulting compan=
+y at $2 billion, the companies said. If completed, the transaction would ma=
+ke Forge the first dedicated trading platform for private shares to become =
+a public company.</p><p style=3D"margin: 16px 0;">Trading in private shares=
+ has heated up in recent years as startups have waited longer to hold initi=
+al public offerings. Such trading allows employees to cash out of their sha=
+res and lets some investors get early access to potentially fast-growing te=
+chnology startups.</p><p style=3D"margin: 16px 0;">Most individual investor=
+s aren=E2=80=99t able to buy shares on Forge or other trading platforms for=
+ pre-IPO stock. Under Securities and Exchange Commission rules, such deals =
+are typically limited to accredited investors=E2=80=94people who meet certa=
+in wealth criteria, such as having a net worth of more than $1 million, exc=
+luding one=E2=80=99s home, or an annual income above $200,000.</p><p style=
+=3D"margin: 16px 0;">=E2=80=9CThe public markets need an investment that is=
+ a proxy for the private markets,=E2=80=9D Forge Chief Executive Kelly Rodr=
+iques said in an interview. =E2=80=9CThat=E2=80=99s Forge.=E2=80=9D</p></bl=
+ockquote><p style=3D"margin: 16px 0;">What is interesting about the Forge d=
+eal is that it provides some public information about private-company tradi=
+ng. (Or, at least, about the trading of private companies on Forge=E2=80=99=
+s platform.) Here is the <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25029699.260586/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRh=
+LzE4Mjc4MjEvMDAwMTEwNDY1OTIxMTE0OTA1L3RtMjEyNzQyMGQxX2V4OTktMi5odG0/607f07c=
+eef4b8524a319a23cB4699e876" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">investor presentation</a> that Forge and Motive filed tod=
+ay. Forge claims that there are 762 unicorns =E2=80=94=C2=A0venture-backed =
+private companies with a valuation of at least $1 billion =E2=80=94=C2=A0in=
+ the world, of which 142 have traded on its platform in the last year. But =
+they don=E2=80=99t trade that much:=C2=A0</p><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"" src=3D"https://assets.bwbx.io/im=
+ages/users/iqjWHBFdfxIU/ikwm0NQqxFXM/v0/-1x-1.png" width=3D"550" /></td></t=
+r></table>
+<div style=3D"display:none">
+<![endif]--><img alt=3D"" src=3D"https://assets.bwbx.io/images/users/iqjWHB=
+FdfxIU/ikwm0NQqxFXM/v0/-1x-1.png" style=3D"max-width: 550px; display: block=
+; width: 100%; margin-top: 20px;" /><!--[if mso]>
+</div>
+<![endif]--><p style=3D"margin: 16px 0;">The average public company trades =
+126% of its market capitalization every year; a billion-dollar public compa=
+ny will do about $1.26 billion of stock-market volume per year, or about $5=
+ million=C2=A0per day. The average private company (on Forge) trades about =
+0.2% of its value per year (on Forge); a billion-dollar unicorn will do abo=
+ut $2 million worth of trading in a year. Forge has traded $10 billion of p=
+rivate-company stock since its inception; Tesla Inc.=E2=80=99s stock traded=
+ $11.4 billion on Friday.</p><p style=3D"margin: 16px 0;">=E2=80=9CPrivate =
+markets are the new public markets,=E2=80=9D I like to say around here; tha=
+nks to modern technology and global capital markets,=C2=A0private companies=
+ can offer their shareholders much better liquidity than they could get in =
+the past. But still not=C2=A0<em>that=C2=A0</em>much. The average private c=
+ompany still has less liquidity in a year than the average public company d=
+oes in a day. Trading private-company stock remains a special occasion; you=
+ can sometimes line up a secondary trade with another venture fund or hedge=
+ fund, or buy stock from employees in a tender offer, but it=E2=80=99s not =
+just a matter of putting in an order on the exchange.</p><p style=3D"margin=
+: 16px 0;">Also while private-company trades are infrequent, they are also =
+expensive:</p><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"" src=3D"https://assets.bwbx.io/im=
+ages/users/iqjWHBFdfxIU/iHeXoyBh1RG8/v0/-1x-1.png" width=3D"550" /></td></t=
+r></table>
+<div style=3D"display:none">
+<![endif]--><img alt=3D"" src=3D"https://assets.bwbx.io/images/users/iqjWHB=
+FdfxIU/iHeXoyBh1RG8/v0/-1x-1.png" style=3D"max-width: 550px; display: block=
+; width: 100%; margin-top: 20px;" /><!--[if mso]>
+</div>
+<![endif]--><p style=3D"margin: 16px 0;">In public markets, brokers and who=
+lesalers and exchanges compete fiercely and controversially over fractions =
+of pennies to execute trades. In the private market Forge makes about 2.5% =
+or 3%.=C2=A0</p><p style=3D"margin: 16px 0;">I don=E2=80=99t want to sugges=
+t that public stock markets are perfect, but they are, in some sense,=C2=A0=
+<em>perfected</em>. A lot of the large-scale problems are solved, and very =
+smart people compete fiercely to execute trades 1 millisecond faster than e=
+ach other. You can trade as much stock as you want, basically instantaneous=
+ly and basically for free, and even the problem=C2=A0of <em>picking which s=
+tocks to buy</em>=C2=A0is so thoroughly analyzed at this point that lots of=
+ people just index. Public stock markets are boring, in the sense that the =
+low-hanging fruit has largely been plucked, and there is a lot of intense c=
+ompetition over basis points and plumbing.=C2=A0</p><p style=3D"margin: 16p=
+x 0;">One thing that you could do is embrace this and work to shave half a =
+basis point off your index fund=E2=80=99s expense ratio, but another very p=
+opular approach is to abandon traditional public markets for places where t=
+he problems are less solved. You could get into crypto, for instance. As an=
+ investor (because some cryptocurrencies go up a lot), sure; but providing =
+various services in crypto =E2=80=94=C2=A0running an exchange, running a ma=
+rket maker, constructing derivatives =E2=80=94=C2=A0also seems to be a lot =
+more lucrative than providing those services in the transparent, well-under=
+stood, boring traditional financial markets. Similarly, if you are investin=
+g in=C2=A0the private markets you can put some money into a tiny startup th=
+at will be the next Facebook. Or you can provide the platform for trading t=
+hat company=E2=80=99s stock and collect 3%.</p><table class=3D"liveintent-f=
+lex-ad" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNTAyOTY5OSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUyOTAyODUmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cHc2c2af91" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D25029699&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25290285&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Supply chain finance</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here is a <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/25029699.260586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9uZXdzL2ZlYXR1cmVzLzIwMjEtMDktMDgvd2h5LWRpZC1ncmVlbnNpbGwtY29sbGFwc2Utd=
+GhlLXNpbXBsZS1wcm9ibGVtLWJlaGluZC10aGUtZmluYW5jaWFsLWVtcGlyZQ/607f07ceef4b8=
+524a319a23cB9848c77e" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Bloomberg Businessweek story</a> from last week about Greensi=
+ll Capital. It includes this quick summary of how Greensill=E2=80=99s busin=
+ess was supposed to work (it <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/25029699.260586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fy=
+dGljbGVzLzIwMjEtMDMtMTcvZ3JlZW5zaWxsLWRpZG4tdC1qdXN0LWZpbmFuY2UtYmx1ZXN0b25=
+lLXMtc3VwcGx5LWNoYWlu/607f07ceef4b8524a319a23cBe71f96a0" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> did not always work this wa=
+y</a>):</p><blockquote><p style=3D"margin: 16px 0;">Greensill Capital had t=
+he melon farm. Lex Greensill, founder and chief executive officer of the Lo=
+ndon-based lender that proclaimed it was =E2=80=9Cmaking finance fairer,=E2=
+=80=9D loved regaling anyone within earshot about his parents scratching ou=
+t a living in the flatlands around Bundaberg, Australia. A good harvest of =
+melons and sugar cane meant fat times, but a dry year could wreak havoc. Ju=
+st as stressful were the monthslong delays in payments from customers, leav=
+ing the family short of cash. In Greensill=E2=80=99s telling, his company h=
+ad come up with a way to help small businesspeople like his parents get the=
+ir money faster.</p><p style=3D"margin: 16px 0;">Greensill offered a versio=
+n of something called supply chain finance, an arcane corner of banking in =
+which a middleman pays a supplier immediately, but at a discount, and then =
+collects the full amount from the buyer a few months later. Greensill Capit=
+al=E2=80=99s technology, the company said, could assess the risk of loans w=
+ith the help of artificial intelligence. Rather than making all these loans=
+ with its own cash, Greensill Capital often sold the IOUs it arranged to ou=
+tside investors, who saw them as a way to earn better-than-average returns =
+with virtually no risk. After all, the loans were based on sales that had a=
+lready happened=E2=80=94Greensill was merely working out a kink in the cash=
+ flow.</p></blockquote><p style=3D"margin: 16px 0;">Here=E2=80=99s a story =
+about a big company that provides short-term financing for small businesses=
+ secured against those businesses=E2=80=99 accounts receivable. That compan=
+y <a href=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/=
+aHR0cHM6Ly93d3cuY25iYy5jb20vMjAyMS8wOS8xMS9mYWNlYm9vay10by1idXktMTAwLW1pbGx=
+pb24tb2YtaW52b2ljZXMtZnJvbS1kaXZlcnNlLW93bmVkLWJ1c2luZXNzZXMuaHRtbD8mdXRtX3=
+NvdXJjZT1uZXdzbGV0dGVyJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPW5ld3NsZXR0Z=
+XImdXRtX3Rlcm09bnVsbA/607f07ceef4b8524a319a23cB8240ded7" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">is Facebook Inc.</a>:</p><bl=
+ockquote><p style=3D"margin: 16px 0;">Facebook [last] week announced a $100=
+ million commitment to a program that supports small businesses owned by wo=
+men and minorities by buying up their outstanding invoices.</p><p style=3D"=
+margin: 16px 0;">By buying up outstanding invoices, the Facebook Invoice Fa=
+st Track program puts money in the hands of small businesses that would hav=
+e otherwise had to wait weeks if not months to get paid by their customers.=
+=C2=A0</p><p style=3D"margin: 16px 0;">The program is the latest effort by =
+Facebook to build its relationships and long-term loyalty among small busin=
+esses, many of whom rely on the social network to place ads targeted to nic=
+he demographics who may be interested in their services.=C2=A0</p><p style=
+=3D"margin: 16px 0;">Businesses can submit outstanding invoices of a minimu=
+m of $1,000, and if accepted, Facebook will buy the invoice from the small =
+business and pay them within a matter of days. The customers then pay Faceb=
+ook the outstanding invoices at the same terms they had agreed to with the =
+small business. For Facebook, which generated nearly $86 billion in revenue=
+ in 2020, waiting for payments is much less dire than it is for small busin=
+esses.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Okay so there is =
+a business of (1) using artificial intelligence to evaluate the payment ris=
+k involved in invoices, (2) advancing cash against those invoices, and (3) =
+trying to make sure they get paid back. My questions are:</p><ol style=3D"l=
+ist-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=
+=3D"margin-bottom: 5px;">Who has better AI technology: Facebook or this Aus=
+tralian ex-melon farmer?</li>=09<li style=3D"margin-bottom: 5px;">Who has c=
+heaper access to cash?</li>=09<li style=3D"margin-bottom: 5px;">Who has mor=
+e leverage to get paid back?</li></ol><p style=3D"margin: 16px 0;">I dunno,=
+ how do you compete with Facebook? =E2=80=9CEvery bank wants to be a tech c=
+ompany, but every tech company wants to be a bank,=E2=80=9D[5] and it does =
+seem like the tech giants have some key advantages if they want to get into=
+ banking. For one thing, they are good at data and so forth. For another th=
+ing, so much of commerce runs through them anyway. Also though they are kin=
+d of where the money is.</p><p style=3D"margin: 16px 0;">In the most genera=
+l terms, if you are a small business and you need financing, whom should yo=
+u ask for financing? The traditional answer is that you ask your bank, but =
+that answer feels pass=C3=A9 nowadays; banks are stodgy and slow-moving and=
+ risk-averse. The modern answer is that you ask some sort of specialized fi=
+nance company, like Greensill or like =E2=80=9C<a href=3D"https://link.mail=
+.bloombergbusiness.com/click/25029699.260586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9jb25mZXNzaW9ucy1vZi1qdWRnbWVudA/607f07ceef4b8524a319a23cB390797d9" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">merchant cash=
+ advance</a>=E2=80=9D companies. But these are often expensive, and there a=
+re some search costs involved in you finding them or them finding you. The =
+postmodern answer is, like, =E2=80=9Cwe sell all our products by buying ads=
+ on a couple of big tech platforms, we might as well see if they=E2=80=99ll=
+ give us money too.=E2=80=9D Sometimes they will.=C2=A0</p><table class=3D"=
+header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Value</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Is AMC Entertainment Holdings Inc. a g=
+rowth stock or a value stock? Well, no. It=E2=80=99s a meme stock. A growth=
+ stock trades at a high multiple because its earnings are growing quickly. =
+A value stock trades at a low multiple because=C2=A0its earnings are growin=
+g slowly.[6] A meme stock trades at a high multiple because it is funny.</p=
+><p style=3D"margin: 16px 0;">AMC has a market capitalization of $25.7 bill=
+ion, net income of negative $2.76 billion over the last 12 months, and a bo=
+ok value of <a href=3D"https://link.mail.bloombergbusiness.com/click/250296=
+99.260586/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvM=
+TQxMTU3OS8wMDAxNTU4MzcwMjEwMTEwMDQvYW1jLTIwMjEwNjMweDEwcS5odG0jQkFMQU5DRVNI=
+RUVUU18xNDAyOQ/607f07ceef4b8524a319a23cBd131fea1" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">negative $1.4 billion</a>; conventi=
+onally, you would say that its trading multiples are somewhere between =E2=
+=80=9Chigh=E2=80=9D and =E2=80=9Cnot meaningful.=E2=80=9D Meanwhile its <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/aHR0c=
+HM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTQxMTU3OS8wMDAx=
+NDExNTc5MjEwMDAwMDYvYW1jLTIwMjAxMjMxeDEway5odG0jSXRlbTZTZWxlY3RlZEZpbmFuY2l=
+hbERhdGFfNzEyOTg5/607f07ceef4b8524a319a23cBa8509167" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">revenue</a> grew 7.5% from 2017 =
+to 2018 and=C2=A00.2% from 2018 to 2019, then shrank 77% from 2019 to 2020 =
+(due to pandemic, fine, but still);=C2=A0Bloomberg=E2=80=99s roundup of ana=
+lyst estimates shows that it is not expected to return to 2019 revenue leve=
+ls (or make a profit) through 2023. Conventionally, you would not say that =
+it is all that fast-growing. On the other hand its=C2=A0stock is up 2,266% =
+this year, its chief executive officer is known as =E2=80=9C<a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/25029699.260586/aHR0cHM6Ly9tYXJrZ=
+XRzLmJ1c2luZXNzaW5zaWRlci5jb20vbmV3cy9zdG9ja3MvaG93LWFtYy1jZW8tYWRhbS1hcm9u=
+LWVtYnJhY2VkLXRoZS1jb21wYW55LW1lbWUtc3RhdHVzLTIwMjEtNg/607f07ceef4b8524a319=
+a23cBa4b4d5b5" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">Silverback</a>,=E2=80=9D=C2=A0it <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/25029699.260586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXd=
+zL25ld3NsZXR0ZXJzLzIwMjEtMDgtMTAvbW9uZXktc3R1ZmYtc3BlbmQteW91ci1iaXRjb2lucy=
+1hdC10aGUtZ2FtZXN0b3AtaW4tdGhlLWFtYw/607f07ceef4b8524a319a23cBa23e1f7e" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">talks about B=
+itcoin</a>=C2=A0and=C2=A0it <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/25029699.260586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZ=
+XR0ZXJzLzIwMjEtMDYtMDIvbW9uZXktc3R1ZmYtYW1jLWJyaW5ncy1vdXQtdGhlLXBvcGNvcm4/=
+607f07ceef4b8524a319a23cB8b49465b" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">gives away popcorn</a> with its stock. It is as cl=
+assical a meme stock as you can get, with the proviso that the whole catego=
+ry of =E2=80=9Cmeme stock=E2=80=9D is about a=C2=A0year old.</p><p style=3D=
+"margin: 16px 0;">If you want to buy an index fund of meme stocks you can a=
+bsolutely do that; index-fund providers are falling over themselves to offe=
+r meme-stock index funds. (We <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25029699.260586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMjEtMDgtMzAvZXNnLWFjY291bnRpbmctcmVxdWlyZXMtYWNjb3VudGFudHM/60=
+7f07ceef4b8524a319a23cBe8926354" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> recently talked about</a> a meme-stock exchange-tra=
+ded fund with the helpful ticker MEME.) But it has historically been more t=
+raditional to invest in growth stocks or value stocks. For instance some in=
+vestors own the Russell 2000 value index, made up of the value stocks in th=
+e Russell 2000 index of small-cap U.S. stocks. Other investors own the Russ=
+ell 2000 growth index, made up of the growth stocks in that index. The meth=
+odology used to construct these indexes is old-school; it assumes that stoc=
+ks are growth stocks or value stocks, but makes no provision for meme stock=
+s. So <a href=3D"https://link.mail.bloombergbusiness.com/click/25029699.260=
+586/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9tZW1lLXN0b2Nrcy1hbWMtYW5kLWdhbWV=
+zdG9wLXB1c2gtc21hbGwtY2FwLWJlbmNobWFyay1oaWdoZXItMTE2MzE1MjU1ODA_bW9kPWhwX2=
+xlYWRfcG9zMg/607f07ceef4b8524a319a23cB642d0ae3" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">stuff gets weird</a>:</p><blockquote>=
+<p style=3D"margin: 16px 0;">The Russell 2000 value index=E2=80=99s gains t=
+his year have been powered by some meme stocks such as AMC Entertainment Ho=
+ldings Inc.=C2=A0That stock=E2=80=99s rally of more than 2,000% this year h=
+as helped the Russell 2000 value index outperform the Russell 2000 growth b=
+enchmark by the widest margin since 2002, according to Dow Jones Market Dat=
+a. ...</p><p style=3D"margin: 16px 0;">AMC still belongs to the value index=
+, puzzling some investors who say that it is a misfit. Shares of AMC alread=
+y appear pricey after their meteoric gains this year, according to some inv=
+estors.</p><p style=3D"margin: 16px 0;">=E2=80=9CIt doesn=E2=80=99t make se=
+nse,=E2=80=9D said Chris Covington, head of investments at AJOVista. =E2=80=
+=9CIt=E2=80=99s really all a nuance of the index construction process.=E2=
+=80=9D</p><p style=3D"margin: 16px 0;">FTSE Russell, the index provider, sa=
+ys in materials provided to investors that the value index is designed to i=
+nclude companies with lower price-to-book ratios and lower expected growth =
+in the future. =E2=80=A6</p><p style=3D"margin: 16px 0;">AMC=E2=80=99s plac=
+e in the value index means the movie giant=E2=80=99s shares crop up in exch=
+ange-traded funds tracking value stocks. AMC is the biggest holding in the =
+roughly $16 billion iShares Russell 2000 Value ETF =E2=80=94one of the bigg=
+est tracking the sector=E2=80=94and the roughly $1 billion Vanguard Russell=
+ 2000 Value ETF.</p></blockquote><p style=3D"margin: 16px 0;">Intuitively, =
+at least at the start of the year, =E2=80=9Cold-fashioned movie-theater com=
+pany that has been beaten down by a pandemic=E2=80=9D did feel like a value=
+ stock. Now it has transcended growth and value=C2=A0and become a meme.</p>=
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Non-fungible tokens etc.</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/25029699.260586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjEtMDktMDkvdHdlbnR5LXBlcmNlbnQtb2YtYS1waWN0dXJlLW9m=
+LWEtZG9n/607f07ceef4b8524a319a23cB4dea46e1" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> talked on Thursday</a> about the idea of=
+ slicing a non-fungible token (a blockchain pointer to a digital picture of=
+ a dog) into billions of=C2=A0<em>fungible=C2=A0</em>shares and selling the=
+m for more than you paid for the original token. And then we <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/25029699.260586/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDktMTAvZnVuZ2libGUtc2xpY2V=
+zLW9mLW5vbi1mdW5naWJsZS10b2tlbnM/607f07ceef4b8524a319a23cB007e35b2" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> talked on Friday=
+</a> about the idea of slicing the NFT into lots of=C2=A0<em>non-fungible=
+=C2=A0</em>shares =E2=80=94=C2=A0an NFT-squared, if you will =E2=80=94=C2=
+=A0and then selling them separately for more than you paid for the original=
+ token. Say, sell each pixel of the picture of the dog separately, or whate=
+ver.</p><p style=3D"margin: 16px 0;">I got a lot of correspondence about th=
+ese things, which =E2=80=A6=C2=A0isn=E2=80=99t that suggestive in itself? O=
+bviously I find this all a bit absurd, but the fact that I and my readers f=
+ind it so interesting tells you something, no? The NFT craze is essentially=
+ a way to monetize conceptual art, and the lesson from my correspondence is=
+ that the concepts are=C2=A0good enough to capture the imagination?</p><p s=
+tyle=3D"margin: 16px 0;">Anyway lots of readers emailed to point out analog=
+ies, in the digital and analog worlds. For instance:</p><ul style=3D"list-s=
+tyle-type: disc; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margi=
+n-bottom: 5px;">Last year, fun art/branding group MSCHF bought a print of a=
+ Damien Hirst spot painting, cut out the dots and <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/25029699.260586/aHR0cHM6Ly93d3cuY25uLmNvbS9=
+zdHlsZS9hcnRpY2xlL2RhbWllbi1oaXJzdC1tc2NoZi1zZXZlcmVkLXNwb3RzL2luZGV4Lmh0bW=
+w/607f07ceef4b8524a319a23cBc070fe76" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> sold each of them separately</a> (for a profit)=
+.</li>=09<li style=3D"margin-bottom: 5px;">Someone did the same thing with =
+a Picasso print <a href=3D"https://link.mail.bloombergbusiness.com/click/25=
+029699.260586/aHR0cHM6Ly9hcG5ld3MuY29tL2FydGljbGUvZGFkMWYyZTUwYWE1ZDUzNzMwN=
+GQwYWFmNjNhYThlNjI/607f07ceef4b8524a319a23cB25a0789d" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> back in 1986</a>.</li>=09<li s=
+tyle=3D"margin-bottom: 5px;">One reader pointed out that, in sports trading=
+ cards, =E2=80=9Cspecial insert cards will often contain a patch of a game-=
+used uniform, with certain aspects of the uniform valued at a premium (i.e.=
+ the NFL shield logo is more valuable than a nondescript =E2=80=98backgroun=
+d=E2=80=99=C2=A0patch of the jersey).=E2=80=9D The uniform is fractionalize=
+d, but in a non-fungible way.</li>=09<li style=3D"margin-bottom: 5px;">Ever=
+yone points to the Green Bay Packers, fine, Packers shares are NFTs, okay.<=
+/li>=09<li style=3D"margin-bottom: 5px;">There=E2=80=99s the <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/25029699.260586/aHR0cHM6Ly9lbi53=
+aWtpcGVkaWEub3JnL3dpa2kvVGhlX01pbGxpb25fRG9sbGFyX0hvbWVwYWdl/607f07ceef4b85=
+24a319a23cB544b9c7d" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Million Dollar Homepage</a>, where someone sold the pixels of=
+ a website for $1 each back in 2005.</li>=09<li style=3D"margin-bottom: 5px=
+;">At least two people have suggested that selling shares of a picture of a=
+ dog for more than you paid for the picture of the dog is reminiscent of <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/aHR0=
+cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQmFuYWNoJUUyJTgwJTkzVGFyc2tpX3BhcmFkb3g=
+/607f07ceef4b8524a319a23cB14a3b187" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> the Banach-Tarski paradox</a>, which honestly fe=
+els a little generous to me.[7]</li></ul><p style=3D"margin: 16px 0;">Also =
+I enjoyed <a href=3D"https://link.mail.bloombergbusiness.com/click/25029699=
+.260586/aHR0cHM6Ly90d2l0dGVyLmNvbS9TSEwwTVMvc3RhdHVzLzE0MzEwNTg4NzA3MDk5ODE=
+xODc_cz0yMA/607f07ceef4b8524a319a23cB6b501829" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">this project</a> from <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/25029699.260586/aHR0cHM6Ly93d3cuc2=
+hsMG1zLmNvbS9hYm91dC1mbnRu/607f07ceef4b8524a319a23cB1ec03cd0" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">SHL0MS</a>=C2=A0last mo=
+nth, called =E2=80=9CFNTN,=E2=80=9D described as =E2=80=9Ca contemporary, c=
+rypto-native rendition of Marcel Duchamp=E2=80=99s iconic, controversial Da=
+daist sculpture =E2=80=98Fountain=E2=80=99=E2=80=9D and =E2=80=9Cthe crypto=
+ art market=E2=80=99s first physically-fractionalized NFT sculpture and irl=
+-generative collectible.=E2=80=9D What that means is that he bought=C2=A0a =
+urinal, spray-painted=C2=A0=E2=80=9CSHL0MS.ETH 2021=E2=80=9D on it, had som=
+e people smash=C2=A0it up with a hammer, took rotating video of each piece =
+of the smashed urinal (and also the hammer), and sold those videos=C2=A0as =
+NFTs. There are also =E2=80=9CSHL0MS urinal cakes.=E2=80=9D=C2=A0Here=E2=80=
+=99s the <a href=3D"https://link.mail.bloombergbusiness.com/click/25029699.=
+260586/aHR0cHM6Ly9vcGVuc2VhLmlvL2NvbGxlY3Rpb24vZm50bj9zZWFyY2glNUJzb3J0QXNj=
+ZW5kaW5nJTVEPWZhbHNlJnNlYXJjaCU1QnNvcnRCeSU1RD1QUklDRQ/607f07ceef4b8524a319=
+a23cBc731c120" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">secondary market</a> for the urinal pieces. Basically what I want from=
+ NFTs is that they should be funnier than the baseline of =E2=80=9Cwe burne=
+d a painting and sold it as an NFT=E2=80=9D or =E2=80=9Cwe drew a bunch of =
+GIFs and sold them as NFTs=E2=80=9D or =E2=80=9Cwe have nothing and sold it=
+ is an NFT=E2=80=9D; I feel like the smashed urinal just qualifies. =E2=80=
+=9CPhysically fractionalized,=E2=80=9D that=E2=80=99s a good joke.</p><p st=
+yle=3D"margin: 16px 0;">Elsewhere, the woman who did=C2=A0<a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/25029699.260586/aHR0cHM6Ly90d2l0dGV=
+yLmNvbS9SZWFsTmF0YXNoYUNoZS9zdGF0dXMvMTQyOTU3NjcwMDM0Njc0ODkzOA/607f07ceef4=
+b8524a319a23cB135cb3d3" itemprop=3D"StoryLink" itemscope=3D"itemscope" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">this infamous tweet</a>:</p><blockquote><p style=3D"margin: 1=
+6px 0;">If you make a NFT of a real diamond, and the diamond itself gets de=
+stroyed in a fire tomorrow, you still have the same asset.=C2=A0</p><p styl=
+e=3D"margin: 16px 0;">Because the token still exists and is in limited supp=
+ly just as before. Nothing has changed.</p><p style=3D"margin: 16px 0;">Wha=
+t NFT is doing to the concept of asset, few understand.</p></blockquote><p =
+style=3D"margin: 16px 0;">=E2=80=A6=C2=A0went and=C2=A0bought a diamond, de=
+stroyed it, and <a href=3D"https://link.mail.bloombergbusiness.com/click/25=
+029699.260586/aHR0cHM6Ly9vcGVuc2VhLmlvL2Fzc2V0cy8weDJhOWU0MDQ1MTg1YzhkNzc4Y=
+jg1NjEwY2E5NmQ3OWJkOGVjZGM3MjAvMQ/607f07ceef4b8524a319a23cBac2a058e" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">sold an NFT abou=
+t it</a>. Not fractionalized, nothing=C2=A0interesting, just a standard =E2=
+=80=9Cobject-fire-token-money=E2=80=9D NFT. She seems to have made a profit=
+. It=E2=80=99s fine but honestly she should have sold an NFT of that tweet.=
+</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Beijing to <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/25029699.260586/aHR0cHM6Ly93d3cuZnQuY29tL2Nvb=
+nRlbnQvMDFiN2M3Y2EtNzFhZC00YmFhLWJkZGYtYTRkNWU2NWM1ZDc5/607f07ceef4b8524a31=
+9a23cB6cd1b924" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">break up Ant=E2=80=99s Alipay</a> and force creation of separate loan=
+s app. Kansas City Southern Says <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/25029699.260586/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9rYW5z=
+YXMtY2l0eS1zb3V0aGVybi1zYXlzLWNhbmFkaWFuLXBhY2lmaWMtYmlkLXN1cGVyaW9yLXRvLWN=
+hbmFkaWFuLW5hdGlvbmFsLWRlYWwtMTE2MzE0Njk4NDg_bW9kPWl0cF93c2omcnU9eWFob28/60=
+7f07ceef4b8524a319a23cB24ff1da0" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">Canadian Pacific Bid</a> Superior to Canadian Nation=
+al Deal. Horta-Os=C3=B3rio <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25029699.260586/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMWJiNTA1MTAtZT=
+U0OS00MTcwLWJjMjEtNzc1YzJjZTFhNTMx/607f07ceef4b8524a319a23cB0f877c62" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">tightens his gr=
+ip</a> at Credit Suisse. UBS <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/25029699.260586/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvM2I1ODBjMWMt=
+Yzk0Ni00MjhhLTlmYzAtMzM5NWU3ZGM5MmY2/607f07ceef4b8524a319a23cBf78891c1" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">wealth busine=
+ss booms</a> but are risks piling up? Back-to-School Season Has <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/25029699.260586/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDktMTIvYmFjay10by1zY2hvb2wt=
+c2Vhc29uLWhhcy1zdG9jay1zZWxsZXJzLXRhcHBpbmctbWFya2V0LWluLWRyb3Zlcw/607f07ce=
+ef4b8524a319a23cBe1e3159c" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> Stock Sellers</a> Tapping Market in Droves. Libor Transit=
+ion <a href=3D"https://link.mail.bloombergbusiness.com/click/25029699.26058=
+6/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9saWJvci10cmFuc2l0aW9uLXN0b2tlcy1zY=
+Wxlcy1vZi1yaXNreS1jb3Jwb3JhdGUtZGVidC0xMTYzMTQ1MTYwMT9tb2Q9aHBfbGVhZF9wb3My=
+/607f07ceef4b8524a319a23cBa11b7237" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">Stokes Sales</a> of Risky Corporate Debt. Evergra=
+nde <a href=3D"https://link.mail.bloombergbusiness.com/click/25029699.26058=
+6/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDktMTIvZXZlc=
+mdyYW5kZS1oYWlyY3V0LW9mLTc1LWlzLW5vdy1hLWJhc2UtY2FzZS1mb3ItYm9uZC1hbmFseXN0=
+cw/607f07ceef4b8524a319a23cBd2c462c1" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;"> 75% Haircut</a> Is Now a Base Case for Bond An=
+alysts. House Democrats Consider <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/25029699.260586/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ob3Vz=
+ZS1kZW1vY3JhdHMtZXllLTI2LTUtY29ycG9yYXRlLXRheC1yYXRlLTExNjMxNDg0MjYwP21vZD1=
+ocF9sZWFkX3BvczM/607f07ceef4b8524a319a23cBf0af4e43" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">26.5% Corporate Tax Rate</a>. Bui=
+ld America Bonds, <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+25029699.260586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjE=
+tMDktMTMvYnVpbGQtYW1lcmljYS1ib25kcy1hZHZhbmNlLXJlZnVuZGluZ3MtcmV2aXZlZC1ieS=
+1ob3VzZS1wYW5lbA/607f07ceef4b8524a319a23cB933fa129" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> Advance Refundings</a> Revived b=
+y House Panel. Brevan Howard Hedge Fund Joins the <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/25029699.260586/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDktMTMvYnJldmFuLWhvd2FyZC1mb3Jtcy1kaWdpdG=
+FsLWFzc2V0cy11bml0LWluLWNyeXB0by1pbnZlc3RpbmctcHVzaA/607f07ceef4b8524a319a2=
+3cB38021163" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> Rush to Crypto</a> With New Unit. Portland unveils =E2=80=98<a href=3D"=
+https://link.mail.bloombergbusiness.com/click/25029699.260586/aHR0cHM6Ly9ue=
+XBvc3QuY29tLzIwMjEvMDkvMTIvcG9ydGxhbmQtdW52ZWlscy1uZWQtZmxhbmRlcnMtYnJpZGdl=
+LWFmdGVyLXNpbXBzb25zLWNoYXJhY3Rlci8_dXRtX2NhbXBhaWduPWlwaG9uZV9ueXAmdXRtX3N=
+vdXJjZT1HbWFpbA/607f07ceef4b8524a319a23cB046d4cf3" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">Ned Flanders Bridge</a>=E2=80=99 a=
+fter iconic Simpsons character. =E2=80=9CC=E2=80=99mon, you=E2=80=99ll <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/aHR0cH=
+M6Ly90d2l0dGVyLmNvbS9qdWxpYWhvYnNiYXdtL3N0YXR1cy8xNDM2MzU1MjY1NjcxMTQzNDI3/=
+607f07ceef4b8524a319a23cB06f3e9c1" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">see your friends again</a>!=E2=80=9D=C2=A0</p><p s=
+tyle=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-media"><=
+em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, rig=
+ht in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25029699.260586/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5=
+jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNj=
+I5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBce93db1b" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">subscribe at this link</a>. Or you can subscribe to Money Stuf=
+f and other great Bloomberg newsletters <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/25029699.260586/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL=
+25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB7833eab8" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span></p><=
+p style=3D"margin: 16px 0;"><em>[1]=C2=A0Executives and directors do not, t=
+echnically, have a duty *to particular shareholders*=C2=A0to stop the plane=
+s from crashing. Their fiduciary duty =E2=80=94 their duties of care and lo=
+yalty, their duty to do a good job =E2=80=94=C2=A0is to *the company*; tech=
+nically, if they do a bad job, the company could sue them but the sharehold=
+ers cannot. However there is a thing in corporate law called a =E2=80=9Csha=
+reholder derivative lawsuit=E2=80=9D: Shareholders can sue directors and ex=
+ecutives *on behalf of the corporation*, if (1) the directors and executive=
+s do something bad enough and (2) the shareholders can demonstrate that the=
+ corporation won=E2=80=99t make a good decision to sue the directors itself=
+ (because, for instance, the directors are all conflicted =E2=80=94=C2=A0th=
+ey make decisions for the company and they would also be the defendants). I=
+n the Boeing case discussed in the text, the judge dismissed claims against=
+ the officers of the company, because she concluded that the board was not =
+so conflicted that it couldn=E2=80=99t decide to sue the officers. (The boa=
+rd is not gonna sue the officers, this is sort of a formalism of corporate =
+law.) But she allowed claims against the directors to continue because they=
+ are obviously conflicted.</em></p><p style=3D"margin: 16px 0;"><em>[2] Wei=
+rdly Boeing=E2=80=99s risk factors *don=E2=80=99t*=C2=A0say that in any par=
+ticularly clear way. Here are the risk factors in <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/25029699.260586/aHR0cHM6Ly93d3cuc2VjLmdvdi9=
+peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTI5MjcvMDAwMDAxMjkyNzIxMDAwMDExL2JhLT=
+IwMjAxMjMxLmh0bSNpOTY1OTBiOGM2ZTMxNDgwMGJlMDE1MWZhMGRhYWM5NjJfNjE/607f07cee=
+f4b8524a319a23cB10d1e81f" itemprop=3D"StoryLink" itemscope=3D"itemscope" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">the most recent 10-K</a>, and the ones in <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/25029699.260586/aHR0cHM6Ly93d3cuc2V=
+jLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEyOTI3LzAwMDAwMTI5MjcxODAwMDAwNy9hMjAxNz=
+EyZGVjMzExMGsuaHRtI3NCQTJCMDkzNzE1QUI1QTY3QTRBRTJGREVEQ0JBQkQ4Nw/607f07ceef=
+4b8524a319a23cB8d986c90" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">the 2017 10-K</a> (the one before the crashes at issue here)=
+. They essentially don=E2=80=99t mention =E2=80=9Csafety=E2=80=9D at all. T=
+hey do say this: =E2=80=9C</em><em>If our commercial airplanes fail to sati=
+sfy performance and reliability requirements, we could face additional cost=
+s and/or lower revenues. Developing and manufacturing commercial aircraft t=
+hat meet or exceed our performance and reliability standards, as well as th=
+ose of customers and regulatory agencies, can be costly and technologically=
+ challenging. These challenges are particularly significant with newer airc=
+raft programs. Any failure of any Boeing aircraft to satisfy performance or=
+ reliability requirements could result in disruption to our operations, hig=
+her costs and/or lower revenues.=E2=80=9D I suppose that counts.</em></p><p=
+ style=3D"margin: 16px 0;"><em>[3] See footnote 1: The point is not that th=
+e officers can=E2=80=99t be personally responsible, but that there's no rea=
+son to let *shareholders* sue them on behalf of the company.</em></p><p sty=
+le=3D"margin: 16px 0;"><em>[4] Disclosure, I used to work at Wachtell. The =
+memo does not seem to be available on the web yet.</em></p><p style=3D"marg=
+in: 16px 0;"><em>[5] I put this in quotes because it is not original to me =
+and seems to be a popular thought, though I cannot find an original source.=
+ But you can find versions <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25029699.260586/aHR0cHM6Ly93d3cud2lyZWQuY29tL3N0b3J5L3RlY2gtY29tcG=
+FuaWVzLWJhbmtzLw/607f07ceef4b8524a319a23cBfe508f0b" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">here</a>=C2=A0or <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/25029699.260586/aHR0cHM6Ly9hMTZ6Lm=
+NvbS8yMDIwLzAxLzIxL2V2ZXJ5LWNvbXBhbnktd2lsbC1iZS1hLWZpbnRlY2gtY29tcGFueS8/6=
+07f07ceef4b8524a319a23cB55be7d97" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">here</a>.</em></p><p style=3D"margin: 16px 0;"><em>=
+[6] Don=E2=80=99t take these definitions too seriously, but note that <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/aHR0cHM=
+6Ly9yZXNlYXJjaC5mdHNlcnVzc2VsbC5jb20vcHJvZHVjdHMvZG93bmxvYWRzL1J1c3NlbGwtVV=
+MtaW5kZXhlcy5wZGY_X2dhPTIuMTY4OTE0NzkyLjg1ODA4NTA0NC4xNjMxNTI3MTUwLTE2NjI3M=
+zY0ODAuMTYzMTUyNzE1MA/607f07ceef4b8524a319a23cB022e5e4d" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">FTSE Russell itself</a> =E2=
+=80=9Cuses three variables in the determination of growth and value. For va=
+lue, book-to-price (B/P) ratio is used, while for growth, two variables=E2=
+=80=94I/B/E/S forecast medium-term growth (2-year) and sales per share hist=
+orical growth (5-year) are used.=E2=80=9D So a low multiple defines a value=
+ stock, while high revenue growth and expected earnings growth define a gro=
+wth stock, and =E2=80=94=C2=A0crucially =E2=80=94=C2=A0every stock is eithe=
+r a growth stock or a value stock or some combination of the two. (=E2=80=
+=9CIn general, a stock with a lower CVS [composite value score] is consider=
+ed growth, a stock with a higher CVS is considered value and a stock with a=
+ CVS in the middle range is considered to have both growth and value charac=
+teristics, and is weighted proportionately in the growth and value index.St=
+ocks are always fully represented by the combination of their growth and va=
+lue weights; e.g., a stock that is given a 20% weight in a Russell value in=
+dex will have an 80% weight in the corresponding Russell=C2=A0growth index.=
+=E2=80=9D) So a stock with a low multiple but high earnings growth =E2=80=
+=94=C2=A0=E2=80=9Cboth a growth stock and a value stock=E2=80=9D =E2=80=94=
+=C2=A0will be somewhere in the middle and will have some weight in both the=
+ growth and value indexes. Meanwhile a stock with a high multiple but low e=
+arnings growth =E2=80=94=C2=A0=E2=80=9Cneither a growth stock nor a value s=
+tock=E2=80=9D =E2=80=94=C2=A0will be treated about the same.</em></p><p sty=
+le=3D"margin: 16px 0;"><em>[7] Like the intuitive idea here is that you hav=
+e taken a digital object, divided it, and recombined the divided parts into=
+ two copies of the digital object, each of which should be worth as much as=
+ the original =E2=80=94=C2=A0and a result in set-theoretic geometry says th=
+at that=E2=80=99s possible. I dunno, man. I think *finance* draws in more f=
+acts about the world than set-theoretic geometry does. Maybe the parts are =
+worth more than the whole because more people can pay $1 for 1/100,000,000t=
+h of the thing than can pay $10 million for the whole thing. Maybe the part=
+s are worth more than the whole because it=E2=80=99s a pump-and-dump where =
+people can trade a tiny fraction back and forth at increasing prices, while=
+ you can=E2=80=99t print big trades on the whole thing. Etc.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBa4270980" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBedee5f1e" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBa7cf4332" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB9f2c4d7f" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNTAyOTY5OSZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUyOTAyODUmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cIefd6b8af" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D25029699&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25290285&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2502969=
+9.260586/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB7bcb8d44" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25029699.260586/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCeabbcb48" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25029699.260586/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBee969794" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25029699.260586/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB929f7feb" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBd=
+124132e" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25029699.260586/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB3=
+ed891b4" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D250296=
+99&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25290285&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D250296=
+99&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25290285&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D250296=
+99&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25290285&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D250296=
+99&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25290285&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D250296=
+99&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25290285&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cewh1f.5l2i/204a9e97.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_7471014_1481193166.1631551279872--
+
