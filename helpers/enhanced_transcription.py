@@ -13,6 +13,7 @@ Provides speed vs accuracy testing and comparison capabilities.
 """
 
 import os
+import sys
 import time
 import subprocess
 from pathlib import Path
@@ -146,7 +147,7 @@ class EnhancedTranscriptionEngine:
         try:
             # Build Whisper command
             command = [
-                "whisper",
+                str(Path(sys.executable).parent / "whisper"),
                 str(audio_path),
                 "--model", model,
                 "--output_format", "txt",
@@ -407,14 +408,32 @@ class EnhancedTranscriptionEngine:
         # Try tiny model first (fastest)
         try:
             return self.transcribe_whisper_local(audio_path, WhisperModel.TINY.value, log_path)
-        except Exception as e:
+        except Exception:
             pass
         
         # Fallback to OpenRouter if available
         if self.openrouter_key:
             try:
                 return self.transcribe_openrouter(audio_path, log_path)
-            except Exception as e:
+            except Exception:
+                pass
+        
+        # Fallback to small model
+        try:
+            return self.transcribe_whisper_local(audio_path, WhisperModel.SMALL.value, log_path)
+        except Exception as e:
+            raise Exception(f"All fast transcription methods failed: {e}")
+    
+    try:
+            return self.transcribe_whisper_local(audio_path, WhisperModel.TINY.value, log_path)
+        except Exception:
+            pass
+        
+        # Fallback to OpenRouter if available
+        if self.openrouter_key:
+            try:
+                return self.transcribe_openrouter(audio_path, log_path)
+            except Exception:
                 pass
         
         # Fallback to small model
@@ -428,28 +447,22 @@ class EnhancedTranscriptionEngine:
         # Try large model first
         try:
             return self.transcribe_whisper_local(audio_path, WhisperModel.LARGE.value, log_path)
-        except Exception as e:
+        except Exception:
             pass
         
         # Try AssemblyAI (generally high quality)
         if self.assemblyai_key:
             try:
                 return self.transcribe_assemblyai(audio_path, log_path)
-            except Exception as e:
+            except Exception:
                 pass
         
         # Try OpenAI API
         if self.openai_key:
             try:
                 return self.transcribe_openai_api(audio_path, log_path)
-            except Exception as e:
+            except Exception:
                 pass
-        
-        # Fallback to medium model
-        try:
-            return self.transcribe_whisper_local(audio_path, WhisperModel.MEDIUM.value, log_path)
-        except Exception as e:
-            raise Exception(f"All high-quality transcription methods failed: {e}")
     
     def compare_transcription_quality(self, audio_path: str, ground_truth: str, log_path: str) -> Dict[str, Any]:
         """Compare all transcription methods against ground truth"""

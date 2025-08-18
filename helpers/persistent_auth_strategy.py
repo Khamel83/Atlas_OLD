@@ -5,11 +5,10 @@ Maintains login sessions with cookie persistence for NYTimes, WSJ, and other pay
 """
 
 import json
-import os
 import random
 import time
 from pathlib import Path
-from typing import Dict, Any, Optional, Tuple
+from typing import Dict, Optional, Tuple
 from playwright.sync_api import sync_playwright, BrowserContext, Page
 
 from helpers.article_strategies import ArticleFetchStrategy, FetchResult, ContentAnalyzer, USER_AGENT

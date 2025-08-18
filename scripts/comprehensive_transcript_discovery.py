@@ -24,7 +24,6 @@ from typing import Dict, List, Any, Optional
 from pathlib import Path
 from dataclasses import dataclass, asdict
 from datetime import datetime
-import csv
 
 from modules.podcasts.store import PodcastStore, Episode
 from modules.podcasts.resolvers.smart_discovery import SmartDiscoveryResolver
@@ -614,7 +613,7 @@ def main():
         print(f"   Total content: {result.total_content_length:,} characters")
         
         if result.transcript_sources:
-            print(f"\n📄 Sample transcripts found:")
+            print("\n📄 Sample transcripts found:")
             for source in result.transcript_sources[:5]:
                 print(f"   • {source['episode_title'][:60]}... (conf: {source['confidence']:.2f})")
     

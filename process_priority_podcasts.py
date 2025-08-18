@@ -6,14 +6,12 @@ Process priority podcasts from configuration CSV
 import csv
 import sys
 import os
-from datetime import datetime
 
 # Add the project root to the Python path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from helpers.podcast_ingestor import PodcastIngestor
 from helpers.config import load_config
-from helpers.utils import log_info
 
 def load_podcast_config(csv_path):
     """Load podcast configuration from CSV"""
@@ -93,9 +91,9 @@ def main():
             success = ingestor.process_feed(feed_url)
             
             if success:
-                print(f"   ✅ SUCCESS")
+                print("   ✅ SUCCESS")
             else:
-                print(f"   ❌ FAILED")
+                print("   ❌ FAILED")
                 
         except Exception as e:
             print(f"   ❌ ERROR: {e}")
@@ -103,7 +101,7 @@ def main():
         print()
     
     print("🎯 Podcast processing complete!")
-    print(f"💡 Next: Check output/ directory for processed episodes")
+    print("💡 Next: Check output/ directory for processed episodes")
 
 if __name__ == "__main__":
     main()

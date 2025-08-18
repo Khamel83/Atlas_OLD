@@ -12,7 +12,6 @@ Run this once a week, not constantly.
 """
 
 import sys
-import os
 sys.path.append('/home/ubuntu/dev/atlas')
 
 import requests
@@ -80,7 +79,7 @@ class SimpleTranscriptDiscovery:
         with open(self.results_file, 'w') as f:
             json.dump(results, f, indent=2)
         
-        print(f"\n✅ Weekly check complete!")
+        print("\n✅ Weekly check complete!")
         print(f"   📊 Checked {results['podcasts_checked']} podcasts")
         print(f"   🎯 Found {results['new_transcripts_found']} new transcripts")
         
@@ -254,7 +253,7 @@ class SimpleTranscriptDiscovery:
                         if episode_links:
                             break  # Found the right pattern
                             
-                except Exception as e:
+                except Exception:
                     continue
                     
         except Exception as e:
@@ -292,7 +291,7 @@ class SimpleTranscriptDiscovery:
                             print(f"      📝 Potential transcript: {link}")
                             new_count += 1
                             
-            except Exception as e:
+            except Exception:
                 continue
         
         return new_count
@@ -375,7 +374,7 @@ def main():
     discovery = SimpleTranscriptDiscovery()
     results = discovery.run_weekly_check()
     
-    print(f"\n📊 Summary:")
+    print("\n📊 Summary:")
     print(f"   Podcasts checked: {results['podcasts_checked']}")
     print(f"   New transcripts: {results['new_transcripts_found']}")
 

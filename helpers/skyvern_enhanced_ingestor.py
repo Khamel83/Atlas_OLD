@@ -382,22 +382,6 @@ class AIInstapaperEnhancer:
         if not self.ai_enabled:
             raise RuntimeError("AI enhancement not available for Instapaper scraping")
 
-        instapaper_prompt = f"""
-        1. Navigate to https://www.instapaper.com/user/login
-        2. Fill in the username field with: {login}
-        3. Fill in the password field with: {password}
-        4. Click the login button
-        5. Wait for the main reading list page to load
-        6. Scroll down to load all articles in the reading list
-        7. For each article, extract:
-           - Article title
-           - Original URL
-           - Date added (if visible)
-           - Any tags or categories
-        8. Continue scrolling until no new articles appear
-        9. Return the complete list of articles with their metadata
-        """
-
         # For now, delegate to existing Instapaper strategies
         # Future enhancement could use browser automation with AI guidance
         try:

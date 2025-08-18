@@ -54,6 +54,8 @@ class YouTubeIngestor(BaseIngestor):
         log_info(self.log_path, "YouTube ingestion complete.")
 
     def ingest_single_video(self, url: str) -> bool:
+        meta = None
+        meta_path = None
         try:
             # Accept both raw video IDs and URLs
             if url.startswith("http"):

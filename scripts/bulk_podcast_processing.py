@@ -5,11 +5,8 @@ Runs discovery and transcript fetching for all podcasts in the background.
 """
 
 import os
-import sys
 import subprocess
-import time
 import logging
-from pathlib import Path
 
 # Setup logging
 logging.basicConfig(

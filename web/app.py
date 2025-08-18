@@ -42,7 +42,7 @@ def get_metadata_manager():
 
 app = FastAPI(title="Atlas Cognitive Platform")
 
-templates = Jinja2Templates(directory="web/templates")
+templates = Jinja2Templates(directory="templates")
 
 # Initialize cognitive engine
 cognitive_engine = CognitiveEngine()

@@ -5,15 +5,13 @@ Works for ALL podcasts using learned patterns
 """
 
 import sys
-import os
 sys.path.append('/home/ubuntu/dev/atlas')
 
 import requests
 import sqlite3
 import time
 import re
-from urllib.parse import urlparse, urljoin
-from collections import defaultdict
+from urllib.parse import urlparse
 import json
 from pathlib import Path
 

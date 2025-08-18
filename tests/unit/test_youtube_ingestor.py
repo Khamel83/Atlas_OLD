@@ -35,6 +35,7 @@ def test_initialization(ingestor):
 def test_ingest_single_video_success(mock_transcript, mock_youtube, ingestor):
     mock_yt_instance = MagicMock()
     mock_yt_instance.title = "Test Video"
+    mock_yt_instance.length = 120
     mock_yt_instance.streams.filter.return_value.order_by.return_value.desc.return_value.first.return_value.download.return_value = (
         None
     )

@@ -5,10 +5,8 @@ Uses Firecrawl MCP Server as last resort with 500/month limit tracking.
 """
 
 import json
-import os
-import time
 from pathlib import Path
-from typing import Dict, Any, Optional
+from typing import Dict, Any
 import requests
 from datetime import datetime
 

@@ -3,7 +3,6 @@
 Test script for persistent authentication strategy
 """
 
-import os
 import sys
 sys.path.append('/home/ubuntu/dev/atlas')
 

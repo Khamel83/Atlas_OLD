@@ -74,9 +74,7 @@ def main():
 
     # Run the requested ingestion types
     if args.all or args.articles:
-        logging.info("Starting article ingestion...")
-        fetch_and_save_articles(config)
-        logging.info("Article ingestion complete.")
+        logging.info("Article ingestion is now handled via --urls or --instapaper-csv. No direct article ingestion initiated.")
 
     if args.all or args.podcasts:
         logging.info("Starting podcast ingestion...")

@@ -5,11 +5,9 @@ Enhanced search capabilities for transcript content with speaker attribution,
 topic filtering, and conversation-aware results.
 """
 
-import json
 import logging
-from typing import Dict, List, Any, Optional
+from typing import Dict, List, Any
 from flask import Flask, request, jsonify
-from datetime import datetime
 
 from helpers.transcript_search_indexer import TranscriptSearchIndexer
 from helpers.transcript_search_ranking import ConversationRanking

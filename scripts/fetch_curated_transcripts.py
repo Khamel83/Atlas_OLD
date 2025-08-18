@@ -7,7 +7,6 @@ Respects user preferences and priorities.
 import os
 import subprocess
 import logging
-import time
 
 # Setup logging
 logging.basicConfig(
@@ -37,7 +36,7 @@ def main():
             logger.info("✅ Transcript fetching completed successfully")
             logger.info(f"Output: {result.stdout}")
         else:
-            logger.error(f"❌ Transcript fetching failed")
+            logger.error("❌ Transcript fetching failed")
             logger.error(f"Error: {result.stderr}")
             
     except subprocess.TimeoutExpired:

@@ -6,8 +6,7 @@ Discovers transcript URLs directly from RSS feed links and metadata.
 """
 
 import logging
-import requests
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any
 from urllib.parse import urljoin, urlparse
 import re
 

@@ -4,11 +4,10 @@ Scheduler for continuous podcast transcript discovery.
 Handles watch mode and periodic discovery runs.
 """
 
-import time
 import logging
 import threading
-from datetime import datetime, timedelta
-from typing import Dict, Any, Optional, Callable
+from datetime import datetime
+from typing import Dict, Any, Callable
 import signal
 import sys
 

@@ -8,8 +8,8 @@ without fetching content first.
 
 import logging
 import re
-from typing import List, Dict, Any, Optional
-from urllib.parse import urljoin, urlparse, parse_qs
+from typing import List, Dict, Any
+from urllib.parse import urlparse
 from datetime import datetime
 
 from modules.podcasts.store import Episode

@@ -103,10 +103,10 @@ def main():
     for i, podcast in enumerate(found_high_value, 1):
         print(f"  {i:2d}. {podcast['title']}")
     
-    print(f"\n💡 RECOMMENDATION:")
-    print(f"   Start with 5-10 high-value podcasts")
-    print(f"   Process last 10-20 episodes each")
-    print(f"   Focus on evergreen content over news")
+    print("\n💡 RECOMMENDATION:")
+    print("   Start with 5-10 high-value podcasts")
+    print("   Process last 10-20 episodes each")
+    print("   Focus on evergreen content over news")
 
 if __name__ == "__main__":
     main()

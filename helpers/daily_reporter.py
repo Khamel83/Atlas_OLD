@@ -5,12 +5,10 @@ Generates comprehensive daily reports of Atlas ingestion, processing, and system
 """
 
 import json
-import os
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Dict, List, Any
 import sqlite3
-import glob
 
 class AtlasDailyReporter:
     """Generate daily activity reports for Atlas system."""

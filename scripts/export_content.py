@@ -163,7 +163,7 @@ def run_single_export(exporter, args):
         output_path = f"exports/atlas_export_{args.format}_{timestamp}"
     
     if args.verbose:
-        print(f"Export configuration:")
+        print("Export configuration:")
         print(f"  Format: {args.format}")
         print(f"  Output: {output_path or 'preview mode'}")
         print(f"  Filters: {filters}")
@@ -182,12 +182,12 @@ def run_single_export(exporter, args):
         )
         
         if result["status"] == "success":
-            print(f"✅ Export successful!")
+            print("✅ Export successful!")
             print(f"   Content items: {result['content_count']}")
             print(f"   Format: {result['format']}")
             
             if args.preview:
-                print(f"   Preview mode - no files written")
+                print("   Preview mode - no files written")
                 if args.verbose and "data" in result:
                     if isinstance(result["data"], list):
                         print(f"   Would create {len(result['data'])} files")
@@ -225,7 +225,7 @@ def run_batch_export(exporter, args):
         return 1
     
     if not isinstance(batch_configs, list):
-        print(f"❌ Batch config must be a list of export configurations")
+        print("❌ Batch config must be a list of export configurations")
         return 1
     
     print(f"🚀 Starting batch export with {len(batch_configs)} configurations...")
@@ -236,7 +236,7 @@ def run_batch_export(exporter, args):
             progress_callback=progress_callback if args.verbose else None
         )
         
-        print(f"✅ Batch export completed!")
+        print("✅ Batch export completed!")
         print(f"   Total exports: {result['total_exports']}")
         print(f"   Successful: {result['successful']}")
         print(f"   Failed: {result['total_exports'] - result['successful']}")

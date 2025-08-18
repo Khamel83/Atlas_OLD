@@ -5,13 +5,11 @@ Prove the scaling approach works on our highest-value target.
 """
 
 import sys
-import os
 sys.path.append('/home/ubuntu/dev/atlas')
 
 import requests
 import time
 from urllib.parse import urlparse, urljoin
-import re
 import sqlite3
 from pathlib import Path
 import json
@@ -37,7 +35,7 @@ class LexFridmanDiscoveryTest:
             print("❌ Could not find Lex Fridman podcast in database")
             return
             
-        print(f"📊 Current status:")
+        print("📊 Current status:")
         print(f"   Podcast: {lex_info['name']}")
         print(f"   Total episodes: {lex_info['total_episodes']}")
         print(f"   Current transcripts: {lex_info['current_transcripts']}")
@@ -51,7 +49,7 @@ class LexFridmanDiscoveryTest:
             print(f"   • {domain}")
             
         # Test each source for more episodes
-        print(f"\n🔍 Testing sources for more episodes...")
+        print("\n🔍 Testing sources for more episodes...")
         new_transcripts_found = 0
         
         for source in sources[:3]:  # Test top 3 sources
@@ -64,11 +62,11 @@ class LexFridmanDiscoveryTest:
             time.sleep(2)
             
         # Try common patterns for Lex Fridman
-        print(f"\n🌟 Testing common patterns for Lex Fridman...")
+        print("\n🌟 Testing common patterns for Lex Fridman...")
         pattern_found = self._test_common_patterns(lex_info)
         new_transcripts_found += pattern_found
         
-        print(f"\n✅ Discovery test complete!")
+        print("\n✅ Discovery test complete!")
         print(f"   🎯 Potential new transcripts found: {new_transcripts_found}")
         print(f"   📈 Potential total: {lex_info['current_transcripts'] + new_transcripts_found}")
         
@@ -228,7 +226,7 @@ class LexFridmanDiscoveryTest:
                     
                     # Look for transcript-like content
                     if self._has_transcript_content(response.text):
-                        print(f"   📝 Has transcript content!")
+                        print("   📝 Has transcript content!")
                         found_count += 3  # Estimate multiple episodes
                         
                 elif response.status_code == 404:
@@ -320,7 +318,7 @@ def main():
         print(f"\n✅ Found {result} potential transcripts - approach shows promise")
         print("   Worth optimizing and scaling to other podcasts")
     else:
-        print(f"\n🤔 No new transcripts found - may need different approach")
+        print("\n🤔 No new transcripts found - may need different approach")
         print("   Current discovery methods may already be comprehensive")
 
 if __name__ == "__main__":

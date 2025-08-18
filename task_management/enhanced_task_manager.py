@@ -5,8 +5,6 @@ Extends existing Agent OS task system with AI agent automation
 """
 
 import json
-import os
-from datetime import datetime
 from typing import Dict, List, Optional, Any
 from pathlib import Path
 

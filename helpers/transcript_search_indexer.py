@@ -8,10 +8,9 @@ and conversation-aware search capabilities.
 import json
 import sqlite3
 import logging
-from typing import Dict, List, Any, Optional, Tuple
+from typing import Dict, List, Any, Optional
 from pathlib import Path
-from datetime import datetime
-from collections import defaultdict, Counter
+from collections import defaultdict
 
 
 class TranscriptSearchIndexer:
@@ -378,7 +377,7 @@ class TranscriptSearchIndexer:
                 FROM transcript_segments ts
                 WHERE ts.id != ? 
                 AND (
-                    {' OR '.join([f"ts.topic_tags LIKE ?" for _ in source_topics])}
+                    {' OR '.join(["ts.topic_tags LIKE ?" for _ in source_topics])}
                 )
                 GROUP BY ts.id
                 ORDER BY topic_overlap DESC, ts.word_count DESC

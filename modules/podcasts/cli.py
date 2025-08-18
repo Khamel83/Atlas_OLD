@@ -10,10 +10,9 @@ import sys
 import logging
 from pathlib import Path
 import time
-import json
 import csv
 from datetime import datetime
-from typing import List, Dict, Any, Optional
+from typing import Dict, Any
 
 # Add parent directory to path for imports
 sys.path.append(str(Path(__file__).parent.parent.parent))
@@ -326,7 +325,7 @@ class AtlasPodCLI:
             episodes_to_fetch = [ep for ep in episodes if ep.transcript_status == 'found']
             
             if not episodes_to_fetch:
-                print(f"   ℹ️  No episodes with transcript sources to fetch")
+                print("   ℹ️  No episodes with transcript sources to fetch")
                 continue
                 
             print(f"   📊 Processing {len(episodes_to_fetch)} episodes with transcript sources")
@@ -419,7 +418,7 @@ class AtlasPodCLI:
     
     def cmd_watch(self, args):
         """Watch mode for continuous discovery"""
-        print(f"👀 Watch mode not yet implemented")
+        print("👀 Watch mode not yet implemented")
         print(f"📋 This will run discovery every {args.interval} minutes")
         return True
     
@@ -433,23 +432,23 @@ class AtlasPodCLI:
         
         # Database stats
         stats = self.store.get_stats()
-        print(f"📊 Database Statistics:")
+        print("📊 Database Statistics:")
         print(f"   Total podcasts: {stats['total_podcasts']}")
         
         if stats['episodes_by_status']:
-            print(f"   Episodes by status:")
+            print("   Episodes by status:")
             for status, count in stats['episodes_by_status'].items():
                 print(f"     {status}: {count}")
         
         # Recent runs
         if stats['recent_runs']:
-            print(f"\n🔄 Recent Discovery Runs:")
+            print("\n🔄 Recent Discovery Runs:")
             for run in stats['recent_runs'][:5]:
                 print(f"   Podcast {run['podcast_id']}: {run['episodes_found']} episodes, "
                       f"{run['transcripts_found']} transcripts ({run['status']})")
         
         # File system check
-        print(f"\n📁 File System:")
+        print("\n📁 File System:")
         data_dir = Path("data/podcasts")
         if data_dir.exists():
             print(f"   Data directory: ✅ {data_dir}")

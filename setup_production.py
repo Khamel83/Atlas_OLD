@@ -125,7 +125,7 @@ def main():
     print("-" * 25)
     print(f"🔍 Search: {'✅' if search_ok else '❌ (install Meilisearch)'}")
     print(f"📚 Indexing: {'✅' if index_ok else '❌'}")
-    print(f"📊 Monitoring: ✅")
+    print("📊 Monitoring: ✅")
     
     if search_ok and index_ok:
         print("\n🌟 Atlas is production-ready!")

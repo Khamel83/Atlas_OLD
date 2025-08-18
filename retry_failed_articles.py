@@ -45,7 +45,7 @@ def retry_with_enhanced_strategies(failed_articles, max_retries=None, use_skyver
         # Use Skyvern-enhanced ingestor for AI-powered recovery
         from helpers.skyvern_enhanced_ingestor import SkyvernEnhancedIngestor
         ingestor = SkyvernEnhancedIngestor(config)
-        print(f"🤖 Using AI-Enhanced Skyvern recovery system")
+        print("🤖 Using AI-Enhanced Skyvern recovery system")
         print(f"   AI Enhancement: {'enabled' if ingestor.ai_enabled else 'disabled'}")
         print(f"   Model: {ingestor.model if ingestor.ai_enabled else 'N/A'}")
     else:
@@ -61,8 +61,8 @@ def retry_with_enhanced_strategies(failed_articles, max_retries=None, use_skyver
     print("   ✅ Multiple user agents and bypasses")
     if use_skyvern:
         print(f"   🤖 AI-powered content extraction: {ingestor.ai_enabled}")
-        print(f"   🧠 Complex site detection: enabled")
-        print(f"   🔐 Paywall intelligence: enabled")
+        print("   🧠 Complex site detection: enabled")
+        print("   🔐 Paywall intelligence: enabled")
     
     successes = 0
     failures = 0

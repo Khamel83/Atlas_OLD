@@ -12,8 +12,8 @@ import sqlite3
 import requests
 import argparse
 from pathlib import Path
-from datetime import datetime, timedelta
-from typing import Dict, List, Optional, Tuple
+from datetime import datetime
+from typing import Dict, Optional, Tuple
 
 # Add the parent directory to the path to import Atlas modules
 sys.path.insert(0, str(Path(__file__).parent.parent))

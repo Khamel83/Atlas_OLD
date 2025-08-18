@@ -1,7 +1,4 @@
 #!/usr/bin/env python3
-import requests
-from bs4 import BeautifulSoup
-import pandas as pd
 import time
 import os
 from docx import Document
@@ -93,7 +90,7 @@ for i, article in enumerate(articles):
     doc.add_heading(article['Title'], level=1)
     doc.add_paragraph(f"URL: {article['URL']}")
     doc.add_paragraph(f"Summary: {article['Summary']}")
-    doc.add_paragraph(f"Full content:")
+    doc.add_paragraph("Full content:")
 
     for attempt in range(3):
         try:

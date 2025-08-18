@@ -3,7 +3,6 @@
 Test working authentication system on real NYTimes/WSJ articles
 """
 
-import os
 import sys
 sys.path.append('/home/ubuntu/dev/atlas')
 
@@ -61,7 +60,7 @@ def test_working_auth():
         except Exception as e:
             print(f"💥 ERROR: {e}")
     
-    print(f"\n✅ Authentication test completed")
+    print("\n✅ Authentication test completed")
 
 if __name__ == "__main__":
     test_working_auth()

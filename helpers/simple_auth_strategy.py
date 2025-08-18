@@ -5,11 +5,10 @@ Avoids Playwright async issues while maintaining login sessions for paywall site
 """
 
 import json
-import os
 import random
 import time
 from pathlib import Path
-from typing import Dict, Any, Optional, Tuple
+from typing import Optional, Tuple
 import requests
 from bs4 import BeautifulSoup
 

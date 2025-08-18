@@ -93,8 +93,8 @@ def run_priority_discovery():
             logger.error(f"❌ Error processing {podcast.name}: {e}")
     
     # Final summary
-    logger.info(f"\n🎯 PRIORITY DISCOVERY COMPLETE")
-    logger.info(f"📊 Total Results:")
+    logger.info("\n🎯 PRIORITY DISCOVERY COMPLETE")
+    logger.info("📊 Total Results:")
     logger.info(f"   • Podcasts processed: {len(priority_podcasts)}")
     logger.info(f"   • Episodes checked: {total_episodes}")
     logger.info(f"   • Transcripts found: {total_transcripts}")
@@ -107,7 +107,7 @@ def run_priority_discovery():
         reverse=True
     )
     
-    logger.info(f"\n🏆 TOP PERFORMERS:")
+    logger.info("\n🏆 TOP PERFORMERS:")
     for i, (name, result) in enumerate(top_results[:5], 1):
         logger.info(f"   {i}. {name}: {result.transcripts_found} transcripts ({result.success_rate:.1%})")
     

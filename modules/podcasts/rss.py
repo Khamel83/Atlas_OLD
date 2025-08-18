@@ -7,7 +7,7 @@ Extracts episodes and metadata from podcast RSS feeds.
 import feedparser
 import logging
 from datetime import datetime
-from typing import List, Dict, Any, Optional
+from typing import List, Optional
 from urllib.parse import urljoin, urlparse
 import requests
 from dataclasses import dataclass

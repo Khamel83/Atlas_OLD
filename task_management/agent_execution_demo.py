@@ -51,28 +51,28 @@ Before starting, read these files to understand the system:
     for file_path in package.get("context_files", []):
         instructions += f"- `{file_path}`\n"
     
-    instructions += f"""
+    instructions += """
 ## EXECUTION STEPS
 """
     
     for step in package.get("execution_instructions", []):
         instructions += f"{step}\n"
     
-    instructions += f"""
+    instructions += """
 ## SUCCESS PATTERNS (Follow These)
 """
     
     for pattern in task_data.get('ai_context', {}).get('success_patterns', []):
         instructions += f"✅ {pattern}\n"
     
-    instructions += f"""
+    instructions += """
 ## COMMON PITFALLS (Avoid These)
 """
     
     for pitfall in task_data.get('ai_context', {}).get('common_pitfalls', []):
         instructions += f"⚠️ {pitfall}\n"
     
-    instructions += f"""
+    instructions += """
 ## VALIDATION SCRIPTS
 Run these to verify your work:
 """
@@ -86,7 +86,7 @@ Run these to verify your work:
 {script.get('description', '')}
 """
     
-    instructions += f"""
+    instructions += """
 ## QUALITY GATES
 All of these must pass before marking task complete:
 """
@@ -96,7 +96,7 @@ All of these must pass before marking task complete:
         instructions += f"- **{gate['gate']}** ({required}): {gate['description']}\n"
         instructions += f"  Command: `{gate['command']}`\n"
     
-    instructions += f"""
+    instructions += """
 ## RECOVERY INSTRUCTIONS
 If something goes wrong:
 

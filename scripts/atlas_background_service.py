@@ -5,10 +5,8 @@ Handles all continuous background processing in one organized service.
 """
 
 import os
-import sys
 import time
 import subprocess
-import threading
 import logging
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -137,7 +135,6 @@ class AtlasBackgroundService:
         try:
             # Import here to avoid circular imports
             import sqlite3
-            from pathlib import Path
             
             db_path = self.base_dir / "data" / "podcasts" / "atlas_podcasts.db"
             

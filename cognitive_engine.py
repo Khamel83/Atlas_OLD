@@ -19,7 +19,7 @@ class CognitiveEngine:
         self.config = load_config()
         try:
             self.search_engine = get_search_engine(self.config)
-        except:
+        except Exception:
             self.search_engine = None
         self.openrouter_api_key = self.config.get("OPENROUTER_API_KEY")
         self.model = self.config.get("llm_model", "google/gemini-2.0-flash-lite-001")
@@ -96,7 +96,7 @@ class CognitiveEngine:
                 insight_text = result["choices"][0]["message"]["content"]
                 try:
                     return json.loads(insight_text)
-                except:
+                except Exception:
                     return {"insights": [insight_text.strip()]}
         except Exception as e:
             print(f"Insight extraction error: {e}")
@@ -183,7 +183,7 @@ def demo_cognitive_features():
         
         insights = analysis['insights'].get('insights', [])
         if insights:
-            print(f"💡 Key Insights:")
+            print("💡 Key Insights:")
             for i, insight in enumerate(insights[:3], 1):
                 print(f"   {i}. {insight}")
         

@@ -4,7 +4,6 @@ Monitor the bulk podcast processing progress.
 """
 
 import os
-import time
 import subprocess
 from pathlib import Path
 
@@ -50,7 +49,7 @@ def main():
     print(f"🔄 Background Process: {'RUNNING' if is_running else 'STOPPED'}")
     
     if is_running:
-        print(f"📝 Recent Log Output:")
+        print("📝 Recent Log Output:")
         print("-" * 30)
         print(get_log_tail(15))
     

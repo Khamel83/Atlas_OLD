@@ -410,7 +410,7 @@ class DocumentIngestor(BaseIngestor):
                         text_sample = f.read(1024).decode('latin-1')
                         content_preview["text_sample"] = text_sample[:200]
                         content_preview["detected_encoding"] = "latin-1"
-                    except Exception as e:
+                    except Exception:
                         pass
         except Exception as e:
             content_preview = {"error": f"Could not read file preview: {e}"}

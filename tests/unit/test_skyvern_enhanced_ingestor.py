@@ -12,7 +12,7 @@ import pytest
 
 from helpers.metadata_manager import ContentMetadata, ContentType
 from helpers.skyvern_enhanced_ingestor import (
-    SkyvernEnhancedIngestor, SkyvernInstapaperEnhancer,
+    SkyvernEnhancedIngestor,
     create_skyvern_enhanced_ingestor)
 
 

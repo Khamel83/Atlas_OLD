@@ -10,9 +10,8 @@ import logging
 import requests
 import time
 from typing import List, Dict, Any, Optional
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin
 import re
-from pathlib import Path
 
 from modules.podcasts.store import Episode
 

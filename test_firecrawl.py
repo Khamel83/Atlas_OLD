@@ -3,7 +3,6 @@
 Test Firecrawl integration with real API key
 """
 
-import os
 import sys
 sys.path.append('/home/ubuntu/dev/atlas')
 
@@ -28,7 +27,7 @@ def test_firecrawl():
     
     # Check usage stats
     stats = firecrawl.get_usage_stats()
-    print(f"📊 Usage stats:")
+    print("📊 Usage stats:")
     print(f"   • Current month: {stats['current_month']}")
     print(f"   • Used this month: {stats['usage_this_month']}/{stats['monthly_limit']}")
     print(f"   • Remaining: {stats['remaining']}")
@@ -47,7 +46,7 @@ def test_firecrawl():
             result = firecrawl.fetch(url, f"firecrawl_test_{i}.log")
             
             if result.success:
-                print(f"✅ SUCCESS with Firecrawl")
+                print("✅ SUCCESS with Firecrawl")
                 print(f"   Content length: {len(result.content)} chars")
                 print(f"   Title: {result.title or 'N/A'}")
                 print(f"   Content type: {result.metadata.get('content_type', 'unknown')}")
@@ -68,12 +67,12 @@ def test_firecrawl():
         stats = firecrawl.get_usage_stats()
         print(f"   Usage after request: {stats['usage_this_month']}/{stats['monthly_limit']}")
     
-    print(f"\n📈 Final Usage Statistics:")
+    print("\n📈 Final Usage Statistics:")
     final_stats = firecrawl.get_usage_stats()
     for key, value in final_stats.items():
         print(f"   • {key}: {value}")
     
-    print(f"\n✅ Firecrawl test completed")
+    print("\n✅ Firecrawl test completed")
 
 if __name__ == "__main__":
     test_firecrawl()

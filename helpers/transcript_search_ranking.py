@@ -5,10 +5,8 @@ Implements ranking algorithms optimized for conversational content,
 Q&A patterns, and dialogue flow.
 """
 
-import re
 import logging
-from typing import List, Dict, Any, Optional
-from collections import Counter
+from typing import List, Dict, Any
 
 
 class ConversationRanking:

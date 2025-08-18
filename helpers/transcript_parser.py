@@ -6,8 +6,7 @@ segments, timestamps, and topic extraction for enhanced search capabilities.
 """
 
 import re
-import json
-from typing import Dict, List, Any, Optional, Tuple
+from typing import Dict, List, Any, Optional
 from datetime import datetime
 
 

@@ -10,8 +10,8 @@ import logging
 import requests
 import time
 import re
-from typing import List, Dict, Any, Optional, Set
-from urllib.parse import urlparse, urljoin, quote
+from typing import List, Dict, Any, Optional
+from urllib.parse import urlparse
 import json
 from pathlib import Path
 from dataclasses import dataclass

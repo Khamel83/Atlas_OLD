@@ -27,7 +27,7 @@ def test_full_ingestion_pipeline(dummy_config):
     with patch(
         "helpers.article_fetcher.fetch_and_save_article", return_value=True
     ) as mock_article:
-        result = fetch_and_save_articles(dummy_config)
+        result = fetch_and_save_articles([], dummy_config["article_output_path"])
         assert result is None or result is True or isinstance(result, dict)
         mock_article.assert_not_called()  # No input file, so nothing processed
 
@@ -66,7 +66,7 @@ def test_full_ingestion_pipeline(dummy_config):
     ), patch(
         "helpers.youtube_ingestor.generate_markdown_summary", return_value="# Markdown"
     ), patch(
-        "helpers.youtube_ingestor.EvaluationFile"
+        "helpers.base_ingestor.EvaluationFile"
     ), patch(
         "helpers.youtube_ingestor.log_info"
     ), patch(

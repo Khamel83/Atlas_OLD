@@ -11,7 +11,7 @@ import requests
 import time
 import re
 from typing import List, Dict, Any, Optional
-from urllib.parse import urlparse, quote
+from urllib.parse import urlparse
 import random
 
 from modules.podcasts.store import Episode
@@ -158,7 +158,7 @@ class GoogleSearchResolver:
         
         try:
             # Use Google Custom Search API if available, otherwise scrape
-            search_url = f"https://www.google.com/search"
+            search_url = "https://www.google.com/search"
             params = {
                 'q': query,
                 'num': 10,  # Get 10 results

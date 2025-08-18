@@ -6,8 +6,6 @@ import pandas as pd
 import time
 import os
 from requests.exceptions import RequestException
-from urllib.parse import urljoin
-import csv
 from datetime import date
 
 # Define login details

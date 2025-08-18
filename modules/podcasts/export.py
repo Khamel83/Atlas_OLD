@@ -4,12 +4,11 @@ Export functionality for transcript content.
 Handles saving transcripts as markdown files and integrating with Atlas data structure.
 """
 
-import os
 import json
 import logging
 from pathlib import Path
 from datetime import datetime
-from typing import Dict, Any, Optional, List
+from typing import Dict, Any, List
 import re
 
 from modules.podcasts.store import Episode, Podcast

@@ -7,7 +7,7 @@ import json
 import csv
 import sqlite3
 from pathlib import Path
-from typing import Dict, List, Optional, Any, Union
+from typing import Dict, List, Optional, Any
 from datetime import datetime
 import yaml
 from jinja2 import Environment, FileSystemLoader, Template
@@ -239,7 +239,7 @@ class ContentExporter:
         
         try:
             template_obj = self.jinja_env.get_template(template_name)
-        except:
+        except Exception:
             # Fallback to default markdown template
             template_obj = Template(self._get_default_markdown_template())
         

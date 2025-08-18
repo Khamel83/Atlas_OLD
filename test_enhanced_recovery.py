@@ -3,9 +3,7 @@
 Test Enhanced Recovery Strategies for Failed Articles
 """
 
-import os
 import sys
-import json
 sys.path.append('/home/ubuntu/dev/atlas')
 
 from helpers.config import load_config
@@ -40,7 +38,7 @@ def test_recovery_strategies():
     result = wayback_strategy.fetch(wayback_test_url, "test_wayback.log")
     
     if result.success:
-        print(f"✅ Enhanced Wayback SUCCESS")
+        print("✅ Enhanced Wayback SUCCESS")
         print(f"   Method: {result.method}")
         print(f"   Content length: {len(result.content)} chars")
         if result.metadata:
@@ -50,7 +48,7 @@ def test_recovery_strategies():
         print(f"❌ Enhanced Wayback FAILED: {result.error}")
     
     # Test full ArticleFetcher with all strategies
-    print(f"\n🎯 Testing Full Article Fetcher (All Strategies)")
+    print("\n🎯 Testing Full Article Fetcher (All Strategies)")
     fetcher = ArticleFetcher(config)
     
     for i, url in enumerate(test_urls[:2]):  # Test first 2 URLs
@@ -75,11 +73,11 @@ def test_recovery_strategies():
         except Exception as e:
             print(f"💥 ERROR: {e}")
     
-    print(f"\n📈 Strategy Priority Order:")
+    print("\n📈 Strategy Priority Order:")
     for i, strategy in enumerate(fetcher.strategies, 1):
         print(f"   {i}. {strategy.get_strategy_name()}")
     
-    print(f"\n✅ Recovery test completed")
+    print("\n✅ Recovery test completed")
 
 if __name__ == "__main__":
     test_recovery_strategies()
