@@ -3,6 +3,31 @@
 ## 🎯 Token Efficiency Priority
 **MAXIMIZE TOKEN EFFICIENCY** - Conserve input/output tokens. Use compact responses, abbreviations, bullet points. Compress documentation when needed without losing critical information.
 
+## 🚀 Daily Development Startup
+
+### **One-Command Startup (ALWAYS USE THIS)**
+```bash
+./start_work.sh                 # Everything you need - never fails!
+```
+
+**OR use the status dashboard:**
+```bash
+python atlas_status.py          # Quick status check
+python atlas_status.py --detailed # Full progress report  
+python atlas_status.py --dev    # Development startup
+```
+
+**What you'll see instantly:**
+- ✅ **Background service status** - Running/stopped + process details
+- ✅ **Recent progress** - Articles/podcasts processed in last hour/day/week
+- ✅ **Current queue** - What's remaining, what's being processed
+- ✅ **System health** - Any issues, disk space, errors
+- ✅ **Development context** - API keys loaded, model config, CLAUDE.md updates
+
+**Never fails:** Even if broken, always tells you how to keep working. See `docs/workflow/STARTUP_GUIDE.md` for complete documentation.
+
+---
+
 ## 🎯 Current Status (Aug 18, 2025)
 
 ### ✅ DOCKER & OCI DEPLOYMENT COMPLETE - Block 6 Finished
