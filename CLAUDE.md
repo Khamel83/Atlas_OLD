@@ -235,7 +235,7 @@ python -m modules.podcasts.cli watch --all  # Continuous monitoring
    - ✅ **7.1.2 Voice-Activated Content Capture** - PARTIALLY COMPLETE
      - ✅ "Hey Siri, save to Atlas" shortcut template
      - ✅ Voice memo processing with transcription (stub)
-     - [ ] Automatic categorization based on speech content (stub)
+     - ✅ Automatic categorization based on speech content (stub)
      - [ ] Retry logic for failed voice captures (stub)
      - [ ] iOS device testing (stub)
    - [ ] 7.1.3 Context-Aware Quick Capture (stub)

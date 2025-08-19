@@ -147,6 +147,6 @@ python -m unittest test_siri_shortcuts.py
 ✅ **BLOCK7.1.2 Voice-Activated Content Capture** - PARTIALLY COMPLETE
 - ✅ Create "Hey Siri, save to Atlas" shortcut template
 - ✅ Implement voice memo processing with transcription (stub)
-- [ ] Add automatic categorization based on speech content (stub)
+- ✅ Add automatic categorization based on speech content (stub)
 - [ ] Build retry logic for failed voice captures (stub)
 - [ ] Test voice shortcuts on iOS device (stub)

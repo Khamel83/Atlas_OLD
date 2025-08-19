@@ -317,9 +317,9 @@ class SiriShortcutManager:
         # 1. Save the audio data to a file
         # 2. Call the VoiceProcessor from voice_processing.py
         # 3. Return the transcription and analysis results
-
+        
         # For now, we'll return a placeholder result
-        return {
+        base_result = {
             "status": "processed",
             "transcript": "[Voice memo processed - transcription would appear here]",
             "confidence": 0.95,
@@ -331,5 +331,50 @@ class SiriShortcutManager:
             "action_items": [],
             "summary": "Voice memo captured via Siri shortcut",
             "processing_time": 0.1,
-            "audio_quality": "good",
+            "audio_quality": "good"
         }
+        
+        # Add automatic categorization based on speech content
+        if metadata and "transcript" in metadata:
+            transcript = metadata["transcript"]
+            categories = self._categorize_speech_content(transcript)
+            base_result["categories"] = categories
+        else:
+            # Default categories for voice memos
+            base_result["categories"] = ["voice_memo", "personal"]
+        
+        return base_result
+    
+    def _categorize_speech_content(self, transcript: str) -> List[str]:
+        """Automatically categorize speech content based on keywords"""
+        categories = []
+        
+        # Convert to lowercase for case-insensitive matching
+        text_lower = transcript.lower()
+        
+        # Category keywords
+        category_keywords = {
+            "meeting": ["meeting", "discuss", "agenda", "action items", "follow up", "attendees", "conference call"],
+            "idea": ["idea", "thought", "concept", "brainstorm", "innovation", "creative", "brainstorming"],
+            "task": ["task", "todo", "remind", "schedule", "plan", "organize", "deadline", "due date", "need to", "have to"],
+            "learning": ["learn", "study", "book", "article", "research", "education", "course", "lecture", "exam"],
+            "health": ["health", "exercise", "workout", "medicine", "doctor", "fitness", "wellness", "diet"],
+            "finance": ["money", "budget", "finance", "investment", "expense", "income", "invest", "stocks", "bank"],
+            "personal": ["personal", "family", "friend", "relationship", "life", "home", "house"],
+            "work": ["work", "job", "career", "project", "client", "colleague", "office", "business"],
+            "shopping": ["buy", "purchase", "shop", "store", "grocery", "wishlist", "shopping", "mall"],
+            "travel": ["travel", "trip", "vacation", "flight", "hotel", "destination", "airport", "journey"]
+        }
+        
+        # Match keywords to categories
+        for category, keywords in category_keywords.items():
+            for keyword in keywords:
+                if keyword in text_lower:
+                    categories.append(category)
+                    break  # Only add category once
+        
+        # If no categories found, default to personal
+        if not categories:
+            categories = ["personal"]
+        
+        return categories
