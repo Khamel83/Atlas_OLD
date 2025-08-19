@@ -55,6 +55,15 @@ manager.create_shortcut(
     content_types=["text"]
 )
 
+# Create a voice memo shortcut
+manager.create_shortcut(
+    name="capture_voice_memo",
+    phrase="Capture voice memo",
+    action=ActionType.VOICE_MEMO,
+    parameters={"transcription": True, "category": "ideas"},
+    content_types=["voice"]
+)
+
 # Create the voice capture shortcut
 manager.create_voice_capture_shortcut()
 
@@ -63,6 +72,10 @@ shortcuts = manager.list_shortcuts()
 
 # Execute a shortcut
 result = manager.execute_shortcut("log_mood")
+
+# Process a voice memo
+audio_data = b"your audio data here"
+result = manager.process_voice_memo(audio_data, {"source": "siri"})
 
 # Validate a shortcut file
 validation = manager.validate_shortcut_file("log_mood")
@@ -97,6 +110,9 @@ List all available shortcuts.
 #### `validate_shortcut_file(name: str) -> Dict[str, Any]`
 Validate a shortcut file for errors.
 
+#### `process_voice_memo(audio_data: bytes, metadata: Optional[Dict[str, Any]] = None) -> Dict[str, Any]`
+Process a voice memo with transcription and analysis (stub implementation).
+
 ### ActionType Enum
 
 Supported action types:
@@ -130,7 +146,7 @@ python -m unittest test_siri_shortcuts.py
 
 ✅ **BLOCK7.1.2 Voice-Activated Content Capture** - PARTIALLY COMPLETE
 - ✅ Create "Hey Siri, save to Atlas" shortcut template
-- [ ] Implement voice memo processing with transcription (stub)
+- ✅ Implement voice memo processing with transcription (stub)
 - [ ] Add automatic categorization based on speech content (stub)
 - [ ] Build retry logic for failed voice captures (stub)
 - [ ] Test voice shortcuts on iOS device (stub)

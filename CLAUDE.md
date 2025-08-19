@@ -234,7 +234,7 @@ python -m modules.podcasts.cli watch --all  # Continuous monitoring
      - ✅ Unit tests for shortcut generation
    - ✅ **7.1.2 Voice-Activated Content Capture** - PARTIALLY COMPLETE
      - ✅ "Hey Siri, save to Atlas" shortcut template
-     - [ ] Voice memo processing with transcription (stub)
+     - ✅ Voice memo processing with transcription (stub)
      - [ ] Automatic categorization based on speech content (stub)
      - [ ] Retry logic for failed voice captures (stub)
      - [ ] iOS device testing (stub)

@@ -72,6 +72,12 @@ class SiriShortcut:
                 self.parameters["title"], str
             ):
                 raise ValueError("CREATE_NOTE title must be a string")
+        elif self.action == ActionType.VOICE_MEMO:
+            # Voice memo specific validation
+            if "transcription" in self.parameters and not isinstance(
+                self.parameters["transcription"], bool
+            ):
+                raise ValueError("VOICE_MEMO transcription parameter must be a boolean")
 
     def to_dict(self) -> Dict[str, Any]:
         """Convert to dictionary for JSON serialization"""
@@ -302,3 +308,28 @@ class SiriShortcutManager:
             return {"valid": False, "error": f"Malformed JSON: {e}"}
         except Exception as e:
             return {"valid": False, "error": f"Validation error: {e}"}
+
+    def process_voice_memo(
+        self, audio_data: bytes, metadata: Optional[Dict[str, Any]] = None
+    ) -> Dict[str, Any]:
+        """Process a voice memo with transcription (stub implementation)"""
+        # This is a stub implementation - in a real implementation, this would:
+        # 1. Save the audio data to a file
+        # 2. Call the VoiceProcessor from voice_processing.py
+        # 3. Return the transcription and analysis results
+
+        # For now, we'll return a placeholder result
+        return {
+            "status": "processed",
+            "transcript": "[Voice memo processed - transcription would appear here]",
+            "confidence": 0.95,
+            "language": "en",
+            "duration": len(audio_data) / (44100 * 2),  # Rough estimate
+            "speaker_count": 1,
+            "emotional_tone": "neutral",
+            "key_topics": ["voice_memo"],
+            "action_items": [],
+            "summary": "Voice memo captured via Siri shortcut",
+            "processing_time": 0.1,
+            "audio_quality": "good",
+        }
