@@ -1,0 +1,1787 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:3ec8:0:b029:f4:4708:ac4 with SMTP id s8csp3258231lkd;
+        Mon, 3 May 2021 09:47:08 -0700 (PDT)
+X-Received: by 2002:a05:6402:120c:: with SMTP id c12mr20842613edw.98.1620060428119;
+        Mon, 03 May 2021 09:47:08 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1620060428; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=mShlRq/6wjtapZmDS0NwDTkIQ5kzlpIpdtq+au+/YrtC2vcOxOk/jsmsR/lLkxQxz/
+         14CDe1JQ61/269k0e7rt1pK31o6Qz22sr/w4ku9qAoHZPX9B/Du4zDfdi4N3noMu3AIG
+         UMRXdhNOI5LLTlHiJueIHf5kYXWw3QZm3e3aSLWyLGhnzwsDdBg4QdRMcn7JhypddS4c
+         P51V6VJWQisasYiBXwR4s8wX2DfzLCPMJu+XiaW2iZZ5V28V0A+2Ep1CzGO1zHHVLzpG
+         GJC85EIDbFY4OTkI9gx05r7HdOGnNoQs1bGQGmSdAhEkljauAdbwjv+NmOa4PJ1WEDQw
+         oFYw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=KLbRgVq+jX5aFDn1fLkgKOy/5Upnj+GOYKHWF5yuttk=;
+        b=W8mGT7vTDAnz8sudvXzFHS10hi6Jx7H6YbWRbkyNzRIsITFRVYzfsu/zzc2HjdyCVp
+         ZhM1ml6jbzJ33+T1cvU/k6sqtVjRvTRGPe9wAjRqwcw3DOXyh7cP/gnfx21yfEvVXBSk
+         ZRNwwE+13nA3y+iFASHdmc8SnS3hFAkyMTeeMdGo46aMgzK0cynltkc+je1qlHNXQCOj
+         d/6Fx6gM4JiOrxw6POYeanl0baUmOU7SzjkAuAD9NYLerriBEtjy6iHRaZ3+rslZ96Xj
+         w9lMDvsHo927bTSAuD9vOvGP/vfDgk7RlOU6fc4pctuhaQYIxxOW6ae7cpXz5eQa/Fob
+         V55g==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=AALLDewr;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id cs10sor8038617ejc.80.2021.05.03.09.47.08
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 03 May 2021 09:47:08 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=AALLDewr;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=KLbRgVq+jX5aFDn1fLkgKOy/5Upnj+GOYKHWF5yuttk=;
+        b=oHxqtB+iB/P/j7cTOz5bE386UXIuMewE4aewC6JNNNz68lDfb1GK4j1P4EXw9u3SKn
+         uZdkDDcPirGHpG7z+WnImhZ49QMkKlfZ7wyDQO/EXaiX2WcBpTBuaCIfgkyMLE5wuKBU
+         2AvAL4hUhSzVEG2jrLx6pJyfzicDB+haTdRuhlYH4uh6Oxp9Xllvb+j1fMSe6cXi6/Un
+         6r/210uDgWnhVGwGUcZV8ZyaalAffQPKqRXvMgxhB4drsUpvHow+gO3MQZvC16uPNMIf
+         W+ZgSJCa1D6mzw19pWU0E9H8z82K8TLbv8epmFQsY6oJVCWN/53pMuOAPqR9jV+6durs
+         miFA==
+X-Gm-Message-State: AOAM533uOmjpgetbKHoBHKLj+ZAk7+wbboky5xbXXclCnvpkKvtTCFcx
+	h29iAg5MmHTbgjZgSO2ks40hNiISQbtQRKaQvSvz8Cp2GLiKPbYKDQ==
+X-Received: by 2002:aa7:cc94:: with SMTP id p20mr21245075edt.353.1620060427848;
+        Mon, 03 May 2021 09:47:07 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:3b92:0:0:0:0:0 with SMTP id h18csp3122076ecn;
+        Mon, 3 May 2021 09:47:03 -0700 (PDT)
+X-Received: by 2002:a17:90a:5295:: with SMTP id w21mr7122441pjh.27.1620060423406;
+        Mon, 03 May 2021 09:47:03 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1620060423; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=iMIw+WdjT0XPbXVnxaXJycp0a1GPP91/r3txsKNJ0sg1lJDOaSl28SOAcI2peu4Ey7
+         f9ZmciGbZks63V8yDydqAWQHfAuzrzkAIZAw23X4RH4QdAcNDAT9lHxJUS8yroD9wl22
+         s/ZVwnaZiduQerYTvGj8YXWmq+LsBJpIQtQ4VmWWdukCYEHaoKxiC+yfh0HFplxwZQWD
+         TY85LUZpShAqiR6Io7Ud6D1EZRBox/bKsQp+P7D6wvGvLDQe9rtCApjpolNI7NMYJbE4
+         nVr0GxJnZUpF39Y8FKd/MAkDw0Kp+6SvfO7Bb3eWsD37oNdKR0EmbSJRJfsoQdvenuCY
+         Ki7Q==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=KLbRgVq+jX5aFDn1fLkgKOy/5Upnj+GOYKHWF5yuttk=;
+        b=G9uZhWeWUL/UHl6r3Q5O9ZZ1DTAHwLrk87GRaUQhlUMSPEtGZ20ABXzHtBHLmOINo9
+         zrtM3FS6gdW01LQbGpt7OHq457jNfFxK+hyIX2cOu0OECYUPbK02p2YxalBocp2m8AwF
+         43jUeiht8Pn7Mg03lzuqsjIHYeVj0Pdwh6n13z5EhdyCHu54viQar6xBT8Iw3kt/uCcZ
+         rCyje+HGeUxWTom8XxZS/UlSGcaLNbfnoNVo2LruBQoAYkSX1M+gW0ux/9dLxiBYwzzw
+         qwJTa5gcPCh6Y0h3yNwkl4vVMxrHYfRybmbe+EzpsrAcHMNWlO6wxxhSSo3mBQjCq1MO
+         MiNQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=AALLDewr;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210503124557.23728147.287998@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210503124557.23728147.287998@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210503124557.23728147.287998@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id cq3sor7524510pjb.22.2021.05.03.09.47.03
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 03 May 2021 09:47:03 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210503124557.23728147.287998@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJyA0m5HVnE4ENNGVLN/b7RN6LM0sk2OlMdJCxzTpTTJHTnd8uxp83KXRhkeTqnbFpa4ZJFu2mz8IOR6gKsqJJyJEbjSLaE=
+X-Received: by 2002:a17:90b:1d8a:: with SMTP id pf10mr12121651pjb.145.1620060423006;
+        Mon, 03 May 2021 09:47:03 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1620060423; cv=none;
+        d=google.com; s=arc-20160816;
+        b=RjrlvGQhk2wG4bVPcFdRhAhZDefCWU3p5fLgBRh8r2gwetw+SPnwcApL++ZKPr5G84
+         vI/dM5Odk4wOt1UZRmMAHvrmJnt4k4fDiRdIJFGotvbXRgAnwItOBEZIbaS5vvIGnLA3
+         zhDRkRzoSjXsIJLUyPLWBu+uFVhBSGnmhiG5Gapmh7bYE1staALyVu4fQVK1+MgF309l
+         B5J6K04H6QrRODecvgZOvDT55BHJbE1HeMCMg8tQ5thIMJJAYGiklN3rJYS5QXGEZj18
+         UFblh5bVS9CwLo1LpoAbeC2OrwIw7t4QyKXHbtUY2fGPdh8dylAcV6UASKjBE0StsYxD
+         +w3w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=KLbRgVq+jX5aFDn1fLkgKOy/5Upnj+GOYKHWF5yuttk=;
+        b=k3PRCql8wu1lvxPKU0PGQ9kMKSNFl74JUdhx7DSN+5MI3u1SzqppaO7V4f24JZeHXs
+         4RgP+otlAT3vq31hB6iYw1h4gK5w8EUNDx+Y8PowiTjmx4OaYjZ7K3a2fuDZaJ0U4Uif
+         KJg/F7F68VWIRPdHJXo+Kqpz5eueL7glH1RdAUf0n8cIKh9t+48Ann51C2OCRPWKMC/u
+         ZJi+0oFtmyiNE0s/InNy4y15vhDEHmh8zzYRflIfRMAJPepMvmlnFrrWHQ/i5goiIZgZ
+         +D6uO01oLk5ewS7JrBzSnfzbc+mM2+VQrEWaxHIDUskTPauMos5b/W8L295U2a/1BU3s
+         /fPg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=AALLDewr;
+       spf=pass (google.com: domain of delivery_20210503124557.23728147.287998@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20210503124557.23728147.287998@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210503124557.23728147.287998@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTP id n35si1349pfv.6.2021.05.03.09.47.02
+        for <khamel83@gmail.com>;
+        Mon, 03 May 2021 09:47:02 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210503124557.23728147.287998@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=22R2COl9VbFAlmjx4UoFtJfVoKQ=;
+ b=AALLDewrEA6k2iAMPWKLH5C448S8eT6fCKOmGlrtmFU4F0XQvIH07tw6ALeGkik8Aa6cB8zMbaB1
+   U0sJAovwqBMF2B9IR58cfU46TBuPAmMA7/3UuFb1PGcuJ/2hNXvKuCNQYGfLLD1hlIUsBe5ySLSj
+   12j+pouam6Jd2azNoVM=
+Received: from nj2mta-17.sailthru.com (204.153.121.17) by pmta29.sailthru.com id hi0kgc1qqbst for <bloomberg@khamel.com>; Mon, 3 May 2021 12:47:02 -0400 (envelope-from <delivery_20210503124557.23728147.287998@mx.sailthru.com>)
+Date: Mon, 3 May 2021 12:45:57 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210503124557.23728147.287998@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IFNQQUNzIEFyZQ==?=
+ =?utf-8?B?buKAmXQgQWx3YXlzIGEgR3VhcmFudGVl?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_6092703_1632180680.1620060357670"
+Precedence: bulk
+X-TM-ID: 20210503124557.23728147.287998
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-dimpine.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ce4kr7.667y/41adf70b
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ce4kr7.667y/41adf70b>, <mailto:unsubscribe_20210503124557.23728147.287998@mx.sailthru.com>
+X-rpcampaign: stjko23728147
+
+------=_Part_6092703_1632180680.1620060357670
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+  @media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+
+ =20
+ =20
+  Money Stuff
+body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+             =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+   =20
+       =20
+           =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+
+     =20
+     =20
+ =20
+   =20
+      Programming note: Money Stuff will be off tomorrow, back on Wednesday=
+.SPAC-downOne big advantage of going public by merging with a special purpo=
+se acquisition company, instead of through a traditional initial public off=
+ering, is that the SPAC tends to offer more certainty of price and size. Wi=
+th an IPO, you announce =E2=80=9Cwe=E2=80=99d like to raise $400 million at=
+ a valuation of $1.8 billion to $2.2 billion,=E2=80=9D or whatever, and the=
+n you go out and market the deal to investors. Perhaps they love it and you=
+ upsize and reprice the deal, raising $500 million at a $2.5 billion valuat=
+ion. Perhaps they hate it and you downsize and reprice to raise $300 millio=
+n at a $1.5 billion valuation. Perhaps they super hate it and you end up pu=
+lling the deal, raising no money at any valuation. Most IPOs mostly go fine=
+, but some go poorly, and if yours goes poorly that=E2=80=99s a serious bla=
+ck eye.With a SPAC,  you negotiate the price=C2=A0first. You meet with SPAC=
+s, and you discuss valuation, and you agree to a deal at a specific valuati=
+on. Alongside that deal, you negotiate a PIPE, a private investment in publ=
+ic equity, with several big institutional investors. Then when the price an=
+d size are locked up, you announce the deal. =E2=80=9CWe=E2=80=99re going t=
+o raise $455 million at a $1.9 billion valuation,=E2=80=9D you say, and you=
+ have the signed merger agreement to prove it. By the time you go public wi=
+th the deal, the deal is done; the risk of failure and embarrassment is min=
+imized.I mean, roughly. Actually there are contingencies to the SPAC too. I=
+n particular, the shareholders of the SPAC =E2=80=94=C2=A0the investors who=
+ have put money into the SPAC=E2=80=99s pot of money, hoping that it will f=
+ind and negotiate a good acquisition =E2=80=94=C2=A0get to evaluate the dea=
+l after you announce it. If they don=E2=80=99t like it, they can vote again=
+st it. Or they can pull their money out of the SPAC: They invested $10 per =
+share in the SPAC, and it was put into a trust; if they don=E2=80=99t like =
+the deal that the SPAC does, they can get their money back from the trust w=
+ith interest. If your deal was for $455 million, with $230 million from the=
+ SPAC=E2=80=99s trust and $225 million from the PIPE, that $230 million is =
+fully at risk: You might end up with $225 million, or $455 million, or anyt=
+hing in between. Or the SPAC shareholders might vote no and the whole deal =
+will be off.=C2=A0So there is still marketing to be done =E2=80=94=C2=A0to =
+the SPAC=E2=80=99s shareholders =E2=80=94=C2=A0after the deal is announced.=
+ And this marketing takes a bit of time; you have to do a proxy statement a=
+nd get a shareholder vote and get regulatory approvals and so forth. And=C2=
+=A0if anything goes wrong in that time =E2=80=94=C2=A0if there's bad news a=
+bout the company, or if the market goes down =E2=80=94=C2=A0then you are at=
+ risk for the same sort of embarrassing black eye as you=E2=80=99d get from=
+ a failed IPO.As with IPOs, this is not much of a problem for hot deals in =
+booming markets: You announce the deal, the SPAC=E2=80=99s shares =E2=80=94=
+ which represent $10 in cash =E2=80=94=C2=A0trade up from, say, $12 (where =
+they were trading based on the mere=C2=A0hope=C2=A0of a hot deal) to, say, =
+$20 (reflecting a view that the SPAC is dramatically underpaying for the co=
+mpany it is taking public), everybody votes in favor of the deal, nobody re=
+deems, everything goes great and I  write a smug post about how you =E2=80=
+=9Cleft money on the table=E2=80=9D by selling $20 worth of stock for $10.=
+=C2=A0But as with IPOs, as the market cools, sometimes deals struggle. Here=
+=E2=80=99s one:CF Finance Acquisition Corp. III (Nasdaq: CFAC) (=E2=80=9CCF=
+ III=E2=80=9D), a special purpose acquisition company sponsored by Cantor F=
+itzgerald, and AEye, Inc. (=E2=80=9CAEye=E2=80=9D), the global leader in ac=
+tive, next generation LiDAR solutions, today announced that due to recent v=
+aluation changes of publicly traded lidar companies and changing conditions=
+ in the automotive lidar industry, they have amended their previously annou=
+nced merger agreement. Under the terms of the amended merger agreement, AEy=
+e will be valued on a pre-merger basis at $1.52 billion at the closing of t=
+he transaction, compared to $1.9 billion at the time of the merger announce=
+ment in February 2021. =E2=80=A6Assuming no redemptions by CF III stockhold=
+ers, gross proceeds from the transaction are expected to be up to $455 mill=
+ion, including the contribution of up to $230 million of cash held in CF II=
+I=E2=80=99s trust account. The transaction is further supported by a $225 m=
+illion fully committed PIPE anchored by strategic and institutional investo=
+rs including Continental, GM Ventures, Subaru-SBI, Intel Capital, Hella Ven=
+tures, and Taiwania Capital.Here are the original merger agreement=C2=A0and=
+ press release, from February, and today=E2=80=99s amendment. As far as I c=
+an tell both the SPAC shareholders and the PIPE investors will get the new =
+lower price; they agreed to $1.9 billion back in February but the market ha=
+s changed and they=E2=80=99re not willing to do that anymore. And they have=
+ leverage to renegotiate, because if the price is too high, the SPAC shareh=
+olders will just vote it down. CF Finance III closed at $9.98 on Friday, be=
+low its trust value, suggesting that most shareholders would choose to rede=
+em; this morning it traded a bit north of $10, suggesting that at the new p=
+rice there=E2=80=99s a better shot of getting the deal done.=C2=A0I assume =
+there will be more of this. In hot markets, most IPOs trade above their IPO=
+ price, and most SPACs trade above their deal price.[1] In cooler markets, =
+some IPOs reprice down and still struggle. The same should be true of SPACs=
+.SPACs are weird though because of a time lag: In hot SPAC markets (like th=
+e end of 2020 and the beginning of 2021), lots of sponsors go out and raise=
+ lots of money for lots of SPACs. Then the money sits in the SPACs=E2=80=99=
+ pots as they look for companies to take public. For the sponsors to make m=
+oney, they need to find a deal and get it approved. That means a lot of SPA=
+Cs chasing deals even as the market cools and SPAC shareholders, and potent=
+ial PIPE investors, get increasingly picky. That might mean a lot of repric=
+ing.Elsewhere:Of the 41 special purpose acquisition companies that have com=
+pleted transactions since the start of 2020, only three are even within 5 p=
+er cent of their share price peaks. Eighteen of them have more than halved,=
+ and several are down by more than 80 per cent. The average decline is 39 p=
+er cent.Archegos feesWe  talked last month about the odd fact that Credit S=
+uisse=E2=80=99s chief executive officer and chief risk officer =E2=80=9Conl=
+y became aware of the bank=E2=80=99s exposure to Archegos in the days leadi=
+ng up to the forced liquidation of the fund.=E2=80=9D Archegos Capital Mana=
+gement  is of course the family office of Bill Hwang, which accumulated eno=
+rmous concentrated levered=C2=A0positions in a handful of stocks and then m=
+issed a margin call. Its bank counterparties sold off the stocks =E2=80=94=
+=C2=A0some more quickly than others =E2=80=94=C2=A0and the ones who waited =
+too long, particularly Credit Suisse, got smoked. Credit Suisse had more th=
+an $20 billion of Archegos exposure at the peak, and lost $5.4 billion in t=
+he crash.Last month, I speculated that senior management at Credit Suisse m=
+ight not have paid too much attention to Archegos because, when it started,=
+ it wasn=E2=80=99t a particularly big client: Archegos started relatively s=
+mall, made aggressive bets, kept winning, and kept doubling down; its expos=
+ures only became massive pretty recently. But here=E2=80=99s another reason=
+ that senior managers might not have paid attention: Revenue-wise,  it just=
+=C2=A0wasn=E2=80=99t=C2=A0a very big client:Credit Suisse made just SFr16m =
+of revenue last year from Archegos Capital, the family office whose sudden =
+collapse in March caused the Swiss bank $5.4bn in losses, according to peop=
+le with knowledge of the relationship.The paltry fees Credit Suisse receive=
+d from Archegos, whose implosion was one of the most devastating in recent =
+history, raises further questions about the risks the lender was prepared t=
+o shoulder in pursuit of relationships with ultra-wealthy clients. =E2=80=
+=A6Despite extending billions of dollars of credit to Archegos, Credit Suis=
+se made just $17.5m from the relationship last year. The low level of fees =
+and high risk exposure have caused concern among the board and senior execu=
+tives, who are investigating the arrangement, according to two people with =
+knowledge of the process.The bank=E2=80=99s management was particularly ala=
+rmed after being told that Hwang was not a private banking client of the gr=
+oup, suggesting there was little incentive to pursue his prime brokerage bu=
+siness, the people said.Credit Suisse also demanded a margin of only 10 per=
+ cent for the equity swaps it traded with Archegos and allowed the family o=
+ffice 10-times leverage on some transactions, according to people familiar =
+with the trades and first reported by Risk.net. That was about double the l=
+everage offered by fellow prime broker Goldman Sachs, which took minimal lo=
+sses when unwinding its positions.I do not know what to make of that. If Cr=
+edit Suisse had $20 billion of Archegos exposure and got $17.5 million of r=
+evenue, that=E2=80=99s a margin of about 9 basis points on the financing it=
+ provided. That seems =E2=80=A6=C2=A0very thin? Credit Suisse had a return =
+on assets of 0.3% last year, which you get by combining the trades that wor=
+ked out (and provided a return on assets of 0.5% or 1% or 1.5% or whatever)=
+ with the trades that didn=E2=80=99t work out (and provided a return on ass=
+ets of -2% or -20% or whatever). The Archegos trade, this year, had a retur=
+n on assets of something like negative 25%, which is bad, but last year =E2=
+=80=94=C2=A0a good year, for the Archegos trade! =E2=80=94=C2=A0it returned=
+ something like 0.1%.[2]=C2=A0Which is worse, really. If your upside is a 0=
+.1% return and your downside is an enormous loss, you are not going to do v=
+ery well over the long run.Elsewhere in Credit Suisse oopsie=C2=A0news, her=
+e is a Times of London article about =E2=80=9CHow to renovate a Proven=C3=
+=A7al farmouse,=E2=80=9D based on Shauna Varvel=E2=80=99s experience restor=
+ing a mansion on an island in the Rh=C3=B4ne near Avignon. The house is=C2=
+=A0beautiful, and the renovation =E2=80=94=C2=A0led by French architect Ale=
+xandre Lafourcade =E2=80=94=C2=A0was painstaking:Her suggestion to sculpt t=
+he plasterwork more decoratively was firmly rejected by Lafourcade, as were=
+ other embellishments described in her Provence Style book about the house.=
+ For the mas to be rooted in the area, he said, materials had to come from =
+nearby, not from Gordes, 45 minutes away, where stone was white. Instead, h=
+e insisted, floors had to be local limestone (=E2=80=9CHe really wanted ant=
+ique, but they were too dirty for me=E2=80=9D), shutters painted a specific=
+ shade of blue, roofs and floors had to be tiled in reclaimed terracotta.An=
+d then, after loving descriptions of the luxurious features of the house, c=
+omes this paragraph, with its incredible bracketed explanation:Now back in =
+Connecticut, she says she can=E2=80=99t wait to get back to her French home=
+. The property covers 65 acres. As well as five acres of pear trees (hence =
+its name, Le Mas des Poiriers), they=E2=80=99ve planted sunflowers and whea=
+t. And she misses the markets =E2=80=93 at Saint-R=C3=A9my for food, Eygali=
+=C3=A8res for crafts and their local town, Villeneuve-l=C3=A8s-Avignon, at =
+the foot of a walled city, for cheese and bread. She loves the markets =E2=
+=80=9Cbecause you never know what you might find=E2=80=9D, although her hus=
+band is now less keen on antique hunting. =E2=80=9CWe used to do it all the=
+ time together, but now he says decorating the house is more like a job and=
+ he already has one of those [albeit a reduced role, thanks to the Greensil=
+l collapse, after which he was demoted as Credit Suisse=E2=80=99s head of a=
+sset management]. I=E2=80=99ll never tire of it.=E2=80=9DHer husband is Eri=
+c Varvel, who ran asset management at Credit Suisse  until March, when he w=
+as replaced due to the collapse of Greensill Capital, the supply-chain-fina=
+nce firm that got a lot of its financing from funds run by Credit Suisse. I=
+ am not sure how relevant that is to readers looking for home renovation ti=
+ps? There are no more committed or slyer socialists than the writers of lux=
+ury real estate stories in major newspapers.=C2=A0
+
+
+   =20
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                                Paid Post
+                               =20
+86% of wealth managers recommend investing in art. It=E2=80=99s no surprise=
+, contemporary art prices outperformed the S&P by 174% from 1995-2000.
+
+If you=E2=80=99re looking to diversify into a real asset to hedge against i=
+nflation, explore Masterworks today. Money Stuff subscribers can  skip the =
+17,500 person waitlist today.*
+
+*
+See=C2=A0
+important information
+
+                                Masterworks
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+Should index funds be illegal?There is  a theory, which we  talk about a lo=
+t around here, that says that when a bunch of companies in the same industr=
+y have the same shareholders =E2=80=94=C2=A0when they are all owned by the =
+same handful of big asset managers =E2=80=94=C2=A0that will reduce competit=
+ion in product markets. If all the airlines are owned by the same group of =
+index funds, those overlapping shareholders will not want any one airline t=
+o cut prices to win market share, because that market share will come at th=
+e expense of the other airlines that the shareholders also own.  The theory=
+ suggests that the airlines will consider these interests of their common s=
+hareholders, and compete less vigorously.I=C2=A0have suggested that this is=
+ actually just one application of a much more general theory. I wrote last =
+February:The structure of the argument has such wide application. If you be=
+lieve =E2=80=A6=C2=A0that common ownership of multiple companies by big ins=
+titutional investors can somehow cause them all to act like they=E2=80=99re=
+ on the same team, then you can believe it about anything. You can talk abo=
+ut it in terms of consumer prices, which is what started all of the worryin=
+g about common ownership: If all the airlines are owned by the same funds, =
+won=E2=80=99t they raise airfares, etc. You can talk about it in terms of t=
+ax evasion, apparently. But really anything that would be hard for a compan=
+y to do individually, but that would be good for companies collectively, ca=
+n fit into this story.I listed some possible examples, good and bad. An obv=
+ious good one that I mentioned is that climate change raises a host of coll=
+ective action problems that can perhaps be addressed by companies with the =
+same owners. Since then, the Covid-19 pandemic has supplied another good ex=
+ample, and we have  talked a few  times about the  notion that, when pharma=
+ceutical companies are owned by the same big index funds that own every oth=
+er company, they have pro-social incentives to cooperate to find vaccines a=
+nd distribute them cheaply: The vaccine is good for the economy, which is g=
+ood for every company, which is good for the bottom line of the pharmaceuti=
+cal companies=E2=80=99=C2=A0shareholders=C2=A0whether or not it=E2=80=99s g=
+ood for the individual bottom lines of the individual pharmaceutical compan=
+ies.=C2=A0An obvious bad one, I wrote, was labor-market competition:Here=E2=
+=80=99s one: =E2=80=9CCommon ownership depresses employee wages: If one com=
+pany cuts wages it will lose skilled workers to competitors, but=C2=A0if th=
+ey all agree to cut wages the workers will have no ability to push back, an=
+d index funds blah blah blah.=E2=80=9D That=E2=80=99s sort of an obvious ex=
+tension of the antitrust theory. I have not Googled it carefully but I assu=
+me that there is already a literature; if there isn=E2=80=99t, though, go w=
+rite it!=C2=A0That=E2=80=99ll get you tenure!=C2=A0Real wage stagnation=C2=
+=A0over the past few decades has coincided with the rise of index funds and=
+=C2=A0common ownership, so, you know, it=C2=A0feels=C2=A0empirically true. =
+(You=E2=80=99ll probably want to be more careful empirically, for tenure.)=
+=C2=A0And the theory behind it is the same as the theory behind everything =
+else.=C2=A0Well,=C2=A0now=C2=A0there=E2=80=99s a literature. Here is =E2=80=
+=9CCommon Ownership and the Decline of the American Worker,=E2=80=9D by Zoh=
+ar Goshen and Doron Levit:The last forty years have seen two major economic=
+ trends: Wages have stalled despite rising productivity, and institutional =
+investors have replaced retail shareholders as the predominant owners of th=
+e American equity markets. A few powerful institutional investors=E2=80=94d=
+ubbed common owners=E2=80=94now hold large stakes in most U.S. corporations=
+. It is not a coincidence that at the same time American workers got a new =
+set of bosses, their wages stopped growing, and shareholder returns went up=
+. This Article reveals how common owners shift wealth from labor to capital=
+, exacerbating income inequality.Powerful institutional investors=E2=80=99 =
+policy of pushing public corporations to adopt strong corporate governance =
+has an inherent, painful tradeoff. While strong governance can improve corp=
+orate efficiency=E2=80=94by reducing management agency costs=E2=80=94it can=
+ also reduce social welfare=E2=80=94by limiting investment and depressing t=
+he labor market. The shift to strong governance causes managers to limit in=
+vestment and thus hiring, thereby depressing labor prices. Common owners ac=
+t as a wage cartel, pushing labor prices below their competitive level. Imp=
+ortantly, common owners transfer wealth from workers to shareholders not by=
+ actively pursuing anticompetitive measures but rather by allocating more c=
+ontrol to shareholders=E2=80=94control that can then be exercised by other =
+shareholders, such as hostile raiders and activist hedge funds. If policyma=
+kers wish to restore the equilibrium that existed before common ownership d=
+ominated the market, they should break up institutional investors by limiti=
+ng their size.I guess it is not an empirical literature. You can imagine a =
+simple story. There=E2=80=99s a shareholder class and a worker class. The s=
+hareholders buy labor from the workers through companies. When the companie=
+s have different shareholders, they compete with each other to buy labor, s=
+o they have to pay more for it. When they all have the same shareholders, t=
+here is less incentive to compete. Why should Airline A pay above market to=
+ attract the best pilots from Airline B, when they have the same shareholde=
+rs? Etc. Goshen and Levit=E2=80=99s=C2=A0proposed mechanism is that diversi=
+fied institutional investors push for=C2=A0good governance=C2=A0at every co=
+mpany, and good governance =E2=80=94=C2=A0in the classic corporate-governan=
+ce-scholar sense of single-class stock, declassified boards, etc. =E2=80=94=
+=C2=A0leads to reduced investment and hiring.=C2=A0=C2=A0Again, it=E2=80=99=
+s not an empirical paper, and I don=E2=80=99t exactly mean to endorse its c=
+onclusions. I just want to say that this theory is sort of an inevitable co=
+nsequence of the general theory of common ownership, so I am glad someone h=
+as built it out.Warren Buffett says thingsThe Berkshire Hathaway Inc. annua=
+l meeting was this weekend, and as usual Warren Buffett and Charlie Munger =
+said various folksy things. At Bloomberg,  Katherine Chiglinsky has the six=
+-paragraph highlights: SPACs are bad, Robinhood is bad, etc.:=E2=80=9CIt=E2=
+=80=99s a killer,=E2=80=9D Buffett said about the influence of special purp=
+ose acquisition companies on Berkshire=E2=80=99s ability to find businesses=
+ to buy. =E2=80=9CThat won=E2=80=99t go on forever, but it=E2=80=99s where =
+the money is now and Wall Street goes where the money is.=E2=80=9D =E2=80=
+=A6=E2=80=9CThe gambling impulse is very strong in people worldwide and occ=
+asionally it gets an enormous shove and conditions lead to this place where=
+ more people are entering the casino than are leaving everyday,=E2=80=9D Bu=
+ffett said. =E2=80=9CAnd it creates its own reality for a while and nobody =
+tells you when the clock=E2=80=99s going to strike 12 and it all turns to p=
+umpkins and mice.=E2=80=9D Bloomberg and CNBC also have some longer highlig=
+hts, including that Bitcoin is bad:=E2=80=9CI think the whole damn developm=
+ent is disgusting and contrary to the interests of civilization,=E2=80=9D s=
+aid Munger.Buffett=E2=80=99s right-hand-man called bitcoin a =E2=80=9Cfinan=
+cial product invented out of thin air.=E2=80=9D =E2=80=9COf course I hate t=
+he bitcoin success,=E2=80=9D Munger said. =E2=80=9CI don=E2=80=99t welcome =
+a currency that is so useful to kidnappers and extortionists.=E2=80=9DAlso =
+this is funny:During a wide-ranging question and answer session with Buffet=
+t and Berkshire Hathaway Vice Chairmen Charlie Munger, Ajit Jain, and Greg =
+Abel, one shareholder posed a question about whether the conglomerate would=
+ be open to a call from Elon Musk with a request to insure SpaceX's future =
+mission to and colonization of Mars.The question was directed at Jain, who'=
+s in charge of Berkshire's insurance business and is seen as a possible fro=
+nt-runner to succeed Buffett as CEO.[3]=C2=A0=E2=80=9CSpecifically he wants=
+ insurance to insure SpaceX=E2=80=99s heavy rocket, capsule, payload, and h=
+uman capital," the shareholder said of the hypothetical request. "Would you=
+ underwrite any portion of a venture like that?=E2=80=9D=C2=A0Without hesit=
+ation, Jain responded, =E2=80=9CThis is an easy one. No thank you. I'll pas=
+s.=E2=80=9DBuffett, who like Musk is one of the richest people in the world=
+, joked that he'd more amenable to the idea of insuring SpaceX's aim to lan=
+d humans on Mars, which it has pledged to do by 2024.=E2=80=9CWell, I would=
+ say it would depend on the premium. And I would say that I would probably =
+have a somewhat different rate if Elon was on board, or not on board,=E2=80=
+=9D Buffett added, referring to the famously mercurial CEO of both SpaceX a=
+nd electric car company Tesla (TSLA).Which way?=C2=A0Is the thinking here =
+=E2=80=9CSpaceX will be more careful if its chief executive officer is on b=
+oard, so it should be cheaper to insure,=E2=80=9D or is it =E2=80=9CElon Mu=
+sk is so crazy, I=E2=80=99d rather insure a rocket piloted by a professiona=
+l astronaut than one piloted by a comic-book villain=E2=80=9D? I think the =
+first choice is correct but I can see the argument the other way.Elsewhere =
+in Warren Buffett, Insider reporter Bob Bryan =E2=80=9Cate like Warren Buff=
+ett for a week =E2=80=94=C2=A0and it was miserable.=E2=80=9D Sounds right! =
+Buffett famously has an=C2=A0insurance=C2=A0rationale for his horrible diet=
+:"I checked the actuarial tables, and the lowest death rate is among 6-year=
+-olds, so I decided to eat like a 6-year-old," Buffett told Fortune. "It's =
+the safest course I can take."I am not sure it works that way, but it=E2=80=
+=99s a good tip for Elon Musk when he wants to get that rocket insured. Cal=
+l up Warren Buffett and say =E2=80=9Cthe lowest death rate is among 6-year-=
+olds, so I=E2=80=99m going to behave like a 6-year-old, specifically by try=
+ing to fly a spaceship to Mars.=E2=80=9DETFsI suppose for a lot of people, =
+the basic idea of an exchange-traded fund is that it=E2=80=99s a mutual fun=
+d that doesn=E2=80=99t send you a tax bill every year. With an ordinary mut=
+ual fund, the fund will sometimes buy or sell shares (as it adjusts its hol=
+dings, or as people invest or withdraw money from the fund), and when it do=
+es that it generates capital gains that it allocates among its investors. A=
+n ETF will work hard  never to buy or sell shares itself, but only to do in=
+-kind creations and redemptions that do not generate taxable income. The re=
+sult is that if you buy a mutual fund, you pay capital-gains taxes every ye=
+ar even if you don=E2=80=99t sell your shares; with an ETF, you only pay ca=
+pital gains taxes when you sell.On the one hand, the ETF=E2=80=99s treatmen=
+t seems to be an exploit of a  somewhat accidental provision of the tax cod=
+e. On the other hand, everyone seems to accept that it=E2=80=99s correct =
+=E2=80=94=C2=A0that an ETF is a mutual fund that doesn=E2=80=99t pay taxes =
+=E2=80=94=C2=A0and also, to be fair, it makes more intuitive sense than the=
+ mutual-fund treatment. Why pay taxes when you don=E2=80=99t sell your shar=
+es?Anyway one obvious lesson here is that if you raise capital gains taxes,=
+  more people will buy ETFs:President Joe Biden=E2=80=99s plan to double th=
+e rate those making more than $1 million a year pay on investment profits w=
+ould accelerate a shift that=E2=80=99s already seen hundreds of billions of=
+ dollars migrate from mutual funds to exchange-traded funds, market watcher=
+s say. That=E2=80=99s because ETFs are generally more tax efficient, spinni=
+ng off fewer capital-gain disbursements that for some could soon become a l=
+ot more costly.In fact, by one measure, the tax efficiency of ETFs has been=
+ the single most important driver behind the tectonic shift in asset alloca=
+tions in recent years. While the administration=E2=80=99s plan remains in i=
+ts infancy and is sure to face intense scrutiny from lawmakers in the month=
+s ahead, even an incremental hike in the capital-gains rate would likely sp=
+ur further ETF usage, according to David Perlman, an ETF strategist at UBS =
+Global Wealth Management.It is kind of weird that the U.S. tax code offers =
+two essentially identical forms of mutual fund, one of which has taxes and =
+one of which doesn=E2=80=99t. (Yes, fine, the ETF only=C2=A0defers=C2=A0tax=
+es, but that is still valuable.) Effectively, the U.S. tax code makes payin=
+g taxes on your mutual funds optional. But, given that choice, lots of peop=
+le choose to pay the taxes anyway. As the taxes go up, that may change.NFTs=
+Page Six has a pretty good non-technical explanation of how non-fungible to=
+kens work:Model-agent-turned-ambassador Paolo Zampolli threw a party at his=
+ new Washington D.C. mansion for =E2=80=9CMighty Ducks=E2=80=9D-star-turned=
+-cryptocurrency-guru Brock Pierce. And Pierce explained the NTF phenomenon =
+to Zampolli =E2=80=94 by setting fire to a work by [Domingo] Zapata. ...=E2=
+=80=9CBrock brought up that he had just bought an NFT created by none other=
+ than Mick Jagger for $50,000,=E2=80=9D said a spy. =E2=80=9CWhen Paolo sai=
+d he was an old school art collector and still didn=E2=80=99t understand th=
+e concept of NFT=E2=80=99s, Brock said, =E2=80=98Let me show you how its do=
+ne.'=E2=80=9DWe=E2=80=99re told Pierce perused the art on Zampolli=E2=80=99=
+s walls, and he chose a piece that turned out to be by Zapata.=E2=80=9CBroc=
+k said to Paolo, =E2=80=98Can we burn this?=E2=80=99 Paolo was in total sho=
+ck and said it was a very valuable piece of art,=E2=80=9D said the party-go=
+er.=E2=80=9CSince Paolo is friends with Domingo, he told Brock he better ca=
+ll him first to see if this is OK,=E2=80=9D we=E2=80=99re told, =E2=80=9CTh=
+ey called him together and Domingo loved the concept and told them to go fo=
+r it!=E2=80=9DWe=E2=80=99re told the pair put the piece in a large Champagn=
+e bucket and set it on fire in front of party guests.Pierce is turning the =
+video of painting pyre into an NFT and Zapata hopes to auction it off at th=
+e Kennedy Center =E2=80=94 where ID Models founder Zampolli sits on the boa=
+rd =E2=80=94 in June at a fundraiser to benefit endangered sharks.How do no=
+n-fungible tokens work? Well, if you ask a =E2=80=9CMighty Ducks=E2=80=9D-s=
+tar-turned-cryptocurrency-guru, he will give you an explanation, or rather =
+demonstration, that is perhaps light on the details of blockchain technolog=
+y=C2=A0work but that captures the essentials:=09You take a painting.=09You =
+light it on fire.=09You create a little note on a blockchain saying =E2=80=
+=9Clol I lit that painting on fire.=E2=80=9D=09You sell that note=C2=A0for =
+more than you could get for the original painting.=09You give the money to =
+some sharks.=E2=80=9CI=E2=80=99m an old-school art collector, in the sense =
+that I collect art.=E2=80=9D =E2=80=9CUgh, how pass=C3=A9, today=E2=80=99s =
+modern collectors know that the right way to treat art is to light it on fi=
+re in a Champagne bucket.=E2=80=9DI want to stress that he is completely co=
+rrect; this is a perfectly accurate explanation of NFTs. We have  previousl=
+y discussed some other NFT jokers who burned a Banksy painting to sell on t=
+he blockchain. It would be =E2=80=A6=C2=A0appropriate? =E2=80=A6=C2=A0if th=
+e end result of the NFT craze is that the concept of burning art on the blo=
+ckchain becomes reliably more valuable than actual art, so that all of the =
+world=E2=80=99s paintings are burnt up to increase their value. And then th=
+e whole history of art will be gone, but it will be preserved forever on th=
+e blockchain, in the form of cryptographically encoded videos of all the ar=
+t being burnt. =E2=80=9CWhy did we think this was a good idea,=E2=80=9D fut=
+ure generations will ask after watching the videos, and perhaps=C2=A0=E2=80=
+=9CMighty Ducks=E2=80=9D-star-turned-cryptocurrency-guru Brock Pierce will =
+have a good answer for them; I do not. I hope the sharks are happy.Things h=
+appenRobinhood=E2=80=99s Biggest Business More Than Tripled Amid Trading Fr=
+enzy. Verizon Sells 90% of  Media Division to Apollo for $5 Billion. For Ap=
+ollo=E2=80=99s New CEO, Insurance Is In=E2=80=94Racy Buyouts, Not So Much. =
+Collapsing yields on risky US debt test investors=E2=80=99 limits. Why Bide=
+n=E2=80=99s Plan to Raise Taxes for Rich Investors Isn=E2=80=99t Hurting St=
+ocks.=C2=A0Fidelity Halves Its Ant Group Valuation After Beijing=E2=80=99s =
+Clampdown.=C2=A0Andreessen Horowitz plans $1bn cryptocurrency VC fund.=C2=
+=A0New York City Is  Roaring Back to Life, One Year After Its Nadir.=C2=A0T=
+he New Menu at Eleven Madison Park Will Be Meatless. Saudi Crown Prince=E2=
+=80=99s Vision for Neom, a Desert City-State, Tests His Builders.=C2=A0A Gr=
+udge Match in Japan: One Corner, Two 7-Elevens.If you'd like to get=C2=A0Mo=
+ney=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0s=
+ubscribe at this link. Or you can subscribe to Money Stuff and other great =
+Bloomberg newsletters here. Thanks![1] That is, they trade above their $10 =
+trust price after the deal is announced: The trust price is effectively the=
+ amount that the SPAC pays per share of the newly public company, so if the=
+ SPAC=E2=80=99s shares trade at $11 or $13 or $25 that means SPAC sharehold=
+ers are happy.[2] I am probably exaggerating; I assume that Credit Suisse=
+=E2=80=99s exposure grew rapidly to $20 billion this year, so the $17.5 mil=
+lion it earned last year was on a lower exposure. Even if the average expos=
+ure last year was like $10 billion, though, $17.5 million of revenue=C2=A0=
+=E2=80=94=C2=A00.18% of assets =E2=80=94=C2=A0seems pretty slim.[3] Actuall=
+y, Buffett and Munger disclosed that  Greg Abel, who is in charge of the no=
+n-insurance businesses, is the designated successor.
+   =20
+ =20
+
+
+   =20
+     =20
+        Follow Us
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+     =20
+     =20
+       =20
+          Get the newsletter
+       =20
+     =20
+   =20
+
+
+     =20
+     =20
+ =20
+   =20
+      =C2=A0
+   =20
+   =20
+     =20
+   =20
+   =20
+      Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+   =20
+   =20
+      =C2=A0
+   =20
+ =20
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+   =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ce4kr7.667y/cda35cd6.gif" alt=3D"" border=3D"0" /></a>
+
+
+
+------=_Part_6092703_1632180680.1620060357670
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<style>@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+</style><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Du=
+tf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<title>Money Stuff</title>
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; color:=
+ #000; margin: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" clas=
+s=3D"brand-hdr">
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/23728147.287998/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1=
+dGhvcnMvQVJiVFFsUkxSakUvbWF0dGhldy1zLWxldmluZQ/607f07ceef4b8524a319a23cB225=
+24a0a"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%;" /><!--[if mso]>
+</div>
+<![endif]--></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"8">
+<tr>
+<td width=3D"206" align=3D"center">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23728147.287998/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cB567e13e=
+7">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note: </strong><em>Money S=
+tuff will be off tomorrow, back on Wednesday.</em></p><h2 style=3D"font-wei=
+ght: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-ser=
+if; letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; border=
+-bottom-style: dotted; padding-bottom: 5px; margin-top: 30px; margin-bottom=
+: 0;">SPAC-down</h2><p style=3D"margin: 16px 0;">One big advantage of going=
+ public by merging with a special purpose acquisition company, instead of t=
+hrough a traditional initial public offering, is that the SPAC tends to off=
+er <a href=3D"https://link.mail.bloombergbusiness.com/click/23728147.287998=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjAtMDYtMjMvbW=
+9uZXktc3R1ZmYtYmlsbC1hY2ttYW4td2FudHMtYS1tYXR1cmUtdW5pY29ybg/607f07ceef4b85=
+24a319a23cB71c7baaf" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">more certainty of price and size</a>. With an IPO, you announc=
+e =E2=80=9Cwe=E2=80=99d like to raise $400 million at a valuation of $1.8 b=
+illion to $2.2 billion,=E2=80=9D or whatever, and then you go out and marke=
+t the deal to investors. Perhaps they love it and you upsize and reprice th=
+e deal, raising $500 million at a $2.5 billion valuation. Perhaps they hate=
+ it and you downsize and reprice to raise $300 million at a $1.5 billion va=
+luation. Perhaps they super hate it and you end up pulling the deal, raisin=
+g no money at any valuation. Most IPOs mostly go fine, but some go poorly, =
+and if yours goes poorly that=E2=80=99s a serious black eye.</p><p style=3D=
+"margin: 16px 0;">With a SPAC, <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/23728147.287998/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjEtMDMtMjMvaGFwcHktZ2FtZXN0b3AtZWFybmluZ3MtZGF5/607f07ceef4b=
+8524a319a23cBb0ad233d" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> you negotiate the price=C2=A0<em>first</em></a>. You meet wit=
+h SPACs, and you discuss valuation, and you agree to a deal at a specific v=
+aluation. Alongside that deal, you negotiate a PIPE, a private investment i=
+n public equity, with several big institutional investors. Then when the pr=
+ice and size are locked up, you announce the deal. =E2=80=9CWe=E2=80=99re g=
+oing to raise $455 million at a $1.9 billion valuation,=E2=80=9D you say, a=
+nd you have the signed merger agreement to prove it. By the time you go pub=
+lic with the deal, the deal is done; the risk of failure and embarrassment =
+is minimized.</p><p style=3D"margin: 16px 0;">I mean, roughly. Actually the=
+re are contingencies to the SPAC too. In particular, the shareholders of th=
+e SPAC =E2=80=94=C2=A0the investors who have put money into the SPAC=E2=80=
+=99s pot of money, hoping that it will find and negotiate a good acquisitio=
+n =E2=80=94=C2=A0get to evaluate the deal after you announce it. If they do=
+n=E2=80=99t like it, they can vote against it. Or they can <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/23728147.287998/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjEtMDEtMDgvbW9uZXktc3R1ZmYtc3BhY=
+y1tYWdpYy1pc24tdC1mcmVl/607f07ceef4b8524a319a23cB883f42cc" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;">pull their money out of th=
+e SPAC</a>: They invested $10 per share in the SPAC, and it was put into a =
+trust; if they don=E2=80=99t like the deal that the SPAC does, they can get=
+ their money back from the trust with interest. If your deal was for $455 m=
+illion, with $230 million from the SPAC=E2=80=99s trust and $225 million fr=
+om the PIPE, that $230 million is fully at risk: You might end up with $225=
+ million, or $455 million, or anything in between. Or the SPAC shareholders=
+ might vote no and the whole deal will be off.=C2=A0</p><p style=3D"margin:=
+ 16px 0;">So there is still marketing to be done =E2=80=94=C2=A0to the SPAC=
+=E2=80=99s shareholders =E2=80=94=C2=A0after the deal is announced. And thi=
+s marketing takes a bit of time; you have to do a proxy statement and get a=
+ shareholder vote and get regulatory approvals and so forth. And=C2=A0if an=
+ything goes wrong in that time =E2=80=94=C2=A0if there's bad news about the=
+ company, or if the market goes down =E2=80=94=C2=A0then you are at risk fo=
+r the same sort of embarrassing black eye as you=E2=80=99d get from a faile=
+d IPO.</p><p style=3D"margin: 16px 0;">As with IPOs, this is not much of a =
+problem for hot deals in booming markets: You announce the deal, the SPAC=
+=E2=80=99s shares =E2=80=94 which represent $10 in cash =E2=80=94=C2=A0trad=
+e up from, say, $12 (where they were trading based on the mere=C2=A0<em>hop=
+e=C2=A0</em>of a hot deal) to, say, $20 (reflecting a view that the SPAC is=
+ dramatically underpaying for the company it is taking public), everybody v=
+otes in favor of the deal, nobody redeems, everything goes great and I <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/23728147.287998/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMjMvdGVzbGEtc=
+ml2YWwtbHVjaWQtbW90b3JzLXBhaWQtYS1wcmljZS1mb3ItaXRzLXNwYWMtZGVhbA/607f07cee=
+f4b8524a319a23cB65eab9a3" itemprop=3D"StoryLink" itemscope=3D"itemscope" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> write a smug post</a> about how you =E2=80=9Cleft money on=
+ the table=E2=80=9D by selling $20 worth of stock for $10.=C2=A0</p><p styl=
+e=3D"margin: 16px 0;">But as with IPOs, as the market cools, sometimes deal=
+s struggle. <a href=3D"https://link.mail.bloombergbusiness.com/click/237281=
+47.287998/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE4MTg2NDQvM=
+DAwMTIxMzkwMDIxMDI0MTE3L2VhMTQwMjI4ZXg5OS0xX2NmZmluYW5jZTMuaHRt/607f07ceef4=
+b8524a319a23cB324c3709" itemprop=3D"StoryLink" itemscope=3D"itemscope" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">Here=E2=80=99s one</a>:</p><blockquote><p style=3D"margin: 16=
+px 0;">CF Finance Acquisition Corp. III (Nasdaq: CFAC) (=E2=80=9CCF III=E2=
+=80=9D), a special purpose acquisition company sponsored by Cantor Fitzgera=
+ld, and AEye, Inc. (=E2=80=9CAEye=E2=80=9D), the global leader in active, n=
+ext generation LiDAR solutions, today announced that due to recent valuatio=
+n changes of publicly traded lidar companies and changing conditions in the=
+ automotive lidar industry, they have amended their previously announced me=
+rger agreement. Under the terms of the amended merger agreement, AEye will =
+be valued on a pre-merger basis at $1.52 billion at the closing of the tran=
+saction, compared to $1.9 billion at the time of the merger announcement in=
+ February 2021. =E2=80=A6</p><p style=3D"margin: 16px 0;">Assuming no redem=
+ptions by CF III stockholders, gross proceeds from the transaction are expe=
+cted to be up to $455 million, including the contribution of up to $230 mil=
+lion of cash held in CF III=E2=80=99s trust account. The transaction is fur=
+ther supported by a $225 million fully committed PIPE anchored by strategic=
+ and institutional investors including Continental, GM Ventures, Subaru-SBI=
+, Intel Capital, Hella Ventures, and Taiwania Capital.</p></blockquote><p s=
+tyle=3D"margin: 16px 0;">Here are the <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/23728147.287998/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9=
+lZGdhci9kYXRhLzE4MTg2NDQvMDAwMTIxMzkwMDIxMDA5OTQzL2VhMTM1ODUyZXgyLTFfY2ZmaW=
+5hbmNlMy5odG0/607f07ceef4b8524a319a23cBd49f9dda" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">original merger agreement</a>=C2=A0a=
+nd <a href=3D"https://link.mail.bloombergbusiness.com/click/23728147.287998=
+/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE4MTg2NDQvMDAwMTIxMz=
+kwMDIxMDA5OTQzL2VhMTM1ODUyZXg5OS0xX2NmZmluYW5jZTMuaHRt/607f07ceef4b8524a319=
+a23cB6742a7d1" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">press release</a>, from February, and <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/23728147.287998/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaX=
+Zlcy9lZGdhci9kYXRhLzE4MTg2NDQvMDAwMTIxMzkwMDIxMDI0MTE3L2VhMTQwMjI4ZXgyLTFfY=
+2ZmaW5hbmNlMy5odG0/607f07ceef4b8524a319a23cBa760b35f" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">today=E2=80=99s amendment</a>. =
+As far as I can tell both the SPAC shareholders and the PIPE investors will=
+ get the new lower price; they agreed to $1.9 billion back in February but =
+the market has changed and they=E2=80=99re not willing to do that anymore. =
+And they have leverage to renegotiate, because if the price is too high, th=
+e SPAC shareholders will just vote it down. CF Finance III closed at $9.98 =
+on Friday, below its trust value, suggesting that most shareholders would c=
+hoose to redeem; this morning it traded a bit north of $10, suggesting that=
+ at the new price there=E2=80=99s a better shot of getting the deal done.=
+=C2=A0</p><p style=3D"margin: 16px 0;">I assume there will be more of this.=
+ In hot markets, most IPOs trade above their IPO price, and most SPACs trad=
+e above their deal price.[1] In cooler markets, some IPOs reprice down and =
+still struggle. The same should be true of SPACs.</p><p style=3D"margin: 16=
+px 0;">SPACs are weird though because of a time lag: In hot SPAC markets (l=
+ike the end of 2020 and the beginning of 2021), lots of sponsors go out and=
+ raise lots of money for lots of SPACs. Then the money sits in the SPACs=E2=
+=80=99 pots as they look for companies to take public. For the sponsors to =
+make money, they need to find a deal and get it approved. That means a lot =
+of SPACs chasing deals even as the market cools and SPAC shareholders, and =
+potential PIPE investors, get increasingly picky. That might mean a lot of =
+repricing.</p><p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/23728147.287998/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbn=
+QvYzdjMGYxMWMtYjY3OC00OTFkLTkxNzMtZmU0OWVhMjliNGI4/607f07ceef4b8524a319a23c=
+Bcb3b61e2" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>Elsewhere</a>:</p><blockquote><p style=3D"margin: 16px 0;">Of the 41 speci=
+al purpose acquisition companies that have completed transactions since the=
+ start of 2020, only three are even within 5 per cent of their share price =
+peaks. Eighteen of them have more than halved, and several are down by more=
+ than 80 per cent. The average decline is 39 per cent.</p></blockquote><h2 =
+style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial, He=
+lvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bottom-w=
+idth: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top: 30=
+px; margin-bottom: 0;">Archegos fees</h2><p style=3D"margin: 16px 0;">We <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/23728147.287998/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtMjIvanBtb3J=
+nYW4tcy1ldXJvcGVhbi1zdXBlci1sZWFndWUtZGViYWNsZS1pcy1hYm91dC1zdGFrZWhvbGRlcn=
+M/607f07ceef4b8524a319a23cB543988a8" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> talked last month</a> about the odd fact that C=
+redit Suisse=E2=80=99s chief executive officer and chief risk officer =E2=
+=80=9Conly became aware of the bank=E2=80=99s exposure to Archegos in the d=
+ays leading up to the forced liquidation of the fund.=E2=80=9D Archegos Cap=
+ital Management <a href=3D"https://link.mail.bloombergbusiness.com/click/23=
+728147.287998/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwM=
+jEtMDQtMDUvYmlsbC1od2FuZy1zLWFyY2hlZ29zLXN3YXAtYWZ0ZXJtYXRoLWlzLWF3a3dhcmQt=
+Zm9yLWJhbmtz/607f07ceef4b8524a319a23cB0e3d3327" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> is of course</a> the family office o=
+f Bill Hwang, which accumulated enormous concentrated levered=C2=A0position=
+s in a handful of stocks and then missed a margin call. Its bank counterpar=
+ties sold off the stocks =E2=80=94=C2=A0some more quickly than others =E2=
+=80=94=C2=A0and the ones who waited too long, particularly Credit Suisse, g=
+ot smoked. Credit Suisse had <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/23728147.287998/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jcmVkaXQt=
+c3Vpc3Nlcy1leHBvc3VyZS10by1hcmNoZWdvcy1pbnZlc3RtZW50cy1ncmV3LXRvLW1vcmUtdGh=
+hbi0yMC1iaWxsaW9uLTExNjE5MDQ1OTg4/607f07ceef4b8524a319a23cBfb81ceea" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">more than $20 bi=
+llion</a> of Archegos exposure at the peak, and <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/23728147.287998/aHR0cHM6Ly93d3cuZnQuY29tL2Nvb=
+nRlbnQvNDI5ZjJjZDItZGI1NS00MmI4LWE2NWMtYTIyOGNkYjMwODlk/607f07ceef4b8524a31=
+9a23cBd587cbbf" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">lost $5.4 billion</a> in the crash.</p><p style=3D"margin: 16px 0;">L=
+ast month, I speculated that senior management at Credit Suisse might not h=
+ave paid too much attention to Archegos because, when it started, it wasn=
+=E2=80=99t a particularly big client: Archegos started relatively small, ma=
+de aggressive bets, kept winning, and kept doubling down; its exposures onl=
+y became massive pretty recently. But here=E2=80=99s another reason that se=
+nior managers might not have paid attention: Revenue-wise, <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/23728147.287998/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtMjIvanBtb3JnYW4tcy1ldXJvc=
+GVhbi1zdXBlci1sZWFndWUtZGViYWNsZS1pcy1hYm91dC1zdGFrZWhvbGRlcnM/607f07ceef4b=
+8524a319a23cC543988a8" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> it just=C2=A0<em>wasn=E2=80=99t=C2=A0</em>a very big client</=
+a>:</p><blockquote><p style=3D"margin: 16px 0;">Credit Suisse made just SFr=
+16m of revenue last year from Archegos Capital, the family office whose sud=
+den collapse in March caused the Swiss bank $5.4bn in losses, according to =
+people with knowledge of the relationship.</p><p style=3D"margin: 16px 0;">=
+The paltry fees Credit Suisse received from Archegos, whose implosion was o=
+ne of the most devastating in recent history, raises further questions abou=
+t the risks the lender was prepared to shoulder in pursuit of relationships=
+ with ultra-wealthy clients. =E2=80=A6</p><p style=3D"margin: 16px 0;">Desp=
+ite extending billions of dollars of credit to Archegos, Credit Suisse made=
+ just $17.5m from the relationship last year. The low level of fees and hig=
+h risk exposure have caused concern among the board and senior executives, =
+who are investigating the arrangement, according to two people with knowled=
+ge of the process.</p><p style=3D"margin: 16px 0;">The bank=E2=80=99s manag=
+ement was particularly alarmed after being told that Hwang was not a privat=
+e banking client of the group, suggesting there was little incentive to pur=
+sue his prime brokerage business, the people said.</p><p style=3D"margin: 1=
+6px 0;">Credit Suisse also demanded a margin of only 10 per cent for the eq=
+uity swaps it traded with Archegos and allowed the family office 10-times l=
+everage on some transactions, according to people familiar with the trades =
+and first reported by Risk.net. That was about double the leverage offered =
+by fellow prime broker Goldman Sachs, which took minimal losses when unwind=
+ing its positions.</p></blockquote><p style=3D"margin: 16px 0;">I do not kn=
+ow what to make of that. If Credit Suisse had $20 billion of Archegos expos=
+ure and got $17.5 million of revenue, that=E2=80=99s a margin of about 9 ba=
+sis points on the financing it provided. That seems =E2=80=A6=C2=A0very thi=
+n? Credit Suisse had a <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/23728147.287998/aHR0cHM6Ly93d3cuY3JlZGl0LXN1aXNzZS5jb20vbWVkaWEvYXNzZX=
+RzL2NvcnBvcmF0ZS9kb2NzL2Fib3V0LXVzL2ludmVzdG9yLXJlbGF0aW9ucy9maW5hbmNpYWwtZ=
+GlzY2xvc3VyZXMvZmluYW5jaWFsLXJlcG9ydHMvY3NnLWFyLTIwMjAtZW4ucGRm/607f07ceef4=
+b8524a319a23cBce1ac8b6" itemprop=3D"StoryLink" itemscope=3D"itemscope" titl=
+e=3D"page A-2" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">return on assets</a> of 0.3% last year, wh=
+ich you get by combining the trades that worked out (and provided a return =
+on assets of 0.5% or 1% or 1.5% or whatever) with the trades that didn=E2=
+=80=99t work out (and provided a return on assets of -2% or -20% or whateve=
+r). The Archegos trade, this year, had a return on assets of something like=
+ negative 25%, which is bad, but last year =E2=80=94=C2=A0a good year, for =
+the Archegos trade! =E2=80=94=C2=A0it returned something like 0.1%.[2]=C2=
+=A0Which is worse, really. If your upside is a 0.1% return and your downsid=
+e is an enormous loss, you are not going to do very well over the long run.=
+</p><p style=3D"margin: 16px 0;">Elsewhere in Credit Suisse oopsie=C2=A0new=
+s, here is a Times of London article about =E2=80=9C<a href=3D"https://link=
+.mail.bloombergbusiness.com/click/23728147.287998/aHR0cHM6Ly93d3cudGhldGltZ=
+XMuY28udWsvYXJ0aWNsZS9kZGJkYjI2OC1hNzVhLTExZWItOWI3Ni05NTAwYTM5MTdlNWY_c2hh=
+cmVUb2tlbj1hZTI5ZGI5NDI5YzJlNTMzYzA0MDhkZTYyMWUwNGU3YQ/607f07ceef4b8524a319=
+a23cBba1e3e5c" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">How to renovate a Proven=C3=A7al farmouse</a>,=E2=80=9D based on Shaun=
+a Varvel=E2=80=99s experience restoring a mansion on an island in the Rh=C3=
+=B4ne near Avignon. The house is=C2=A0beautiful, and the renovation =E2=80=
+=94=C2=A0led by French architect Alexandre Lafourcade =E2=80=94=C2=A0was pa=
+instaking:</p><blockquote><p style=3D"margin: 16px 0;">Her suggestion to sc=
+ulpt the plasterwork more decoratively was firmly rejected by Lafourcade, a=
+s were other embellishments described in her Provence Style book about the =
+house. For the mas to be rooted in the area, he said, materials had to come=
+ from nearby, not from Gordes, 45 minutes away, where stone was white. Inst=
+ead, he insisted, floors had to be local limestone (=E2=80=9CHe really want=
+ed antique, but they were too dirty for me=E2=80=9D), shutters painted a sp=
+ecific shade of blue, roofs and floors had to be tiled in reclaimed terraco=
+tta.</p></blockquote><p style=3D"margin: 16px 0;">And then, after loving de=
+scriptions of the luxurious features of the house, comes this paragraph, wi=
+th its incredible bracketed explanation:</p><blockquote><p style=3D"margin:=
+ 16px 0;">Now back in Connecticut, she says she can=E2=80=99t wait to get b=
+ack to her French home. The property covers 65 acres. As well as five acres=
+ of pear trees (hence its name, Le Mas des Poiriers), they=E2=80=99ve plant=
+ed sunflowers and wheat. And she misses the markets =E2=80=93 at Saint-R=C3=
+=A9my for food, Eygali=C3=A8res for crafts and their local town, Villeneuve=
+-l=C3=A8s-Avignon, at the foot of a walled city, for cheese and bread. She =
+loves the markets =E2=80=9Cbecause you never know what you might find=E2=80=
+=9D, although her husband is now less keen on antique hunting. =E2=80=9CWe =
+used to do it all the time together, but now he says decorating the house i=
+s more like a job and he already has one of those [albeit a reduced role, t=
+hanks to the Greensill collapse, after which he was demoted as Credit Suiss=
+e=E2=80=99s head of asset management]. I=E2=80=99ll never tire of it.=E2=80=
+=9D</p></blockquote><p style=3D"margin: 16px 0;">Her husband is Eric Varvel=
+, who ran asset management at Credit Suisse <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/23728147.287998/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2FydGljbGVzLzIwMjEtMDMtMTgvY3JlZGl0LXN1aXNzZS1hc3NldC1tYW5hZ2VtZW50=
+LWhlYWQtc3RlcHMtZG93bi1hcy11bml0cy1zcGxpdA/607f07ceef4b8524a319a23cBee7cd4e=
+5" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> until =
+March</a>, when he was replaced due to the collapse of Greensill Capital, t=
+he supply-chain-finance firm that got a lot of its financing from funds run=
+ by Credit Suisse. I am not sure how relevant that is to readers looking fo=
+r home renovation tips? There are no more committed or slyer socialists tha=
+n the writers of luxury real estate stories in major newspapers.=C2=A0</p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td style=3D"padding: 14px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Paid Post</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;">
+<p style=3D"margin: 10px 0px;"><strong>86% of wealth managers recommend inv=
+esting in art. It=E2=80=99s no surprise, contemporary art prices outperform=
+ed the S&amp;P by 174% from 1995-2000.</strong><br />
+<br />
+If you=E2=80=99re looking to diversify into a real asset to hedge against i=
+nflation, explore Masterworks today. Money Stuff subscribers can <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/23728147.287998/aHR0cHM6Ly93=
+d3cubWFzdGVyd29ya3MuaW8vP3V0bV9zb3VyY2U9bW9uZXlzdHVmZiZ1dG1fbWVkaXVtPW5ld3N=
+sZXR0ZXImdXRtX2NhbXBhaWduPTUtMy0yMSZ1dG1fdGVybT1Nb25leSUyMFN0dWZmJTIwU3Vic2=
+NyaWJlcnM/607f07ceef4b8524a319a23cB2bc33674" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: underline;"> skip the 17,500 person waitlist today</a>.*</p>
+<p style=3D"margin: 10px 0px;">*<a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/23728147.287998/aHR0cHM6Ly93d3cubWFzdGVyd29ya3MuaW8vP3V0bV9zb=
+3VyY2U9bW9uZXlzdHVmZiZ1dG1fbWVkaXVtPW5ld3NsZXR0ZXImdXRtX2NhbXBhaWduPTUtMy0y=
+MSZ1dG1fdGVybT1Nb25leSUyMFN0dWZmJTIwU3Vic2NyaWJlcnM/607f07ceef4b8524a319a23=
+cC2bc33674" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: =
+#000000; text-decoration: underline;">
+See=C2=A0
+important information</a></p>
+</div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;">Masterworks</p><=
+/div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top=
+: 30px; margin-bottom: 0;">Should index funds be illegal?</h2><p style=3D"m=
+argin: 16px 0;">There is <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/23728147.287998/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGlj=
+bGVzLzIwMTgtMTItMDcvcmVndWxhdG9ycy1hc2staWYtaW5kZXgtZnVuZHMtYXJlLWJhZA/607f=
+07ceef4b8524a319a23cB2cd63453" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> a theory</a>, which we <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/23728147.287998/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMTUtMDctMjIvaW5kZXgtZnVuZHMtbWF5LXdvcmstYS1saXR=
+0bGUtdG9vLXdlbGw/607f07ceef4b8524a319a23cBaf80b67c" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> talk about</a> a lot around here=
+, that says that when a bunch of companies in the same industry have the sa=
+me shareholders =E2=80=94=C2=A0when they are all owned by the same handful =
+of big asset managers =E2=80=94=C2=A0that will reduce competition in produc=
+t markets. If all the airlines are owned by the same group of index funds, =
+those overlapping shareholders will not want any one airline to cut prices =
+to win market share, because that market share will come at the expense of =
+the other airlines that the shareholders also own. <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/23728147.287998/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTUtMDQtMTYvc2hvdWxkLW11dHVhbC1mdW5kcy1iZ=
+S1pbGxlZ2FsLQ/607f07ceef4b8524a319a23cB09565154" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> The theory suggests</a> that the ai=
+rlines will consider these interests of their common shareholders, and comp=
+ete less vigorously.</p><p style=3D"margin: 16px 0;">I=C2=A0have suggested =
+that this is actually just one application of a much more general theory. I=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/23728147.287998/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjAtMDItMjEvbW9u=
+ZXktc3R1ZmYtdGhlLWNvbXBhbmllcy1hcmUtb24tdGhlLXNhbWUtdGVhbQ/607f07ceef4b8524=
+a319a23cB44d61660" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">wrote last February</a>:</p><blockquote><p style=3D"margin: 16px 0=
+;">The structure of the argument has such wide application. If you believe =
+=E2=80=A6=C2=A0that common ownership of multiple companies by big instituti=
+onal investors can somehow cause them all to act like they=E2=80=99re on th=
+e same team, then you can believe it about anything. You can talk about it =
+in terms of consumer prices, which is what started all of the worrying abou=
+t common ownership: If all the airlines are owned by the same funds, won=E2=
+=80=99t they raise airfares, etc. You can talk about it in terms of tax eva=
+sion, apparently. But really <em>anything</em> that would be hard for a com=
+pany to do individually, but that would be good for companies collectively,=
+ can fit into this story.</p></blockquote><p style=3D"margin: 16px 0;">I li=
+sted some possible examples, good and bad. An obvious good one that I menti=
+oned is that climate change raises a host of collective action problems tha=
+t can perhaps be addressed by companies with the same owners. Since then, t=
+he Covid-19 pandemic has supplied another good example, and we have <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/23728147.287998/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMjQvdGhlLXZhY2Np=
+bmUtaXMtbm90LWEtY29tcGV0aXRpb24/607f07ceef4b8524a319a23cB7d64ee49" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> talked</a> a few =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23728147.287998/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDctMjMveW91L=
+WRvbi10LW5lZWQtcHJvZml0cy1hbnltb3Jl/607f07ceef4b8524a319a23cB48308f6d" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> times</a> abo=
+ut the <a href=3D"https://link.mail.bloombergbusiness.com/click/23728147.28=
+7998/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDQtMj=
+QvaW52ZXN0b3JzLXdhbnQtYS1jdXJlLW5vdC1hLXdpbm5lcg/607f07ceef4b8524a319a23cB0=
+e170610" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;"> =
+notion</a> that, when pharmaceutical companies are owned by the same big in=
+dex funds that own every other company, they have pro-social incentives to =
+cooperate to find vaccines and distribute them cheaply: The vaccine is good=
+ for the economy, which is good for every company, which is good for the bo=
+ttom line of the pharmaceutical companies=E2=80=99=C2=A0<em>shareholders=C2=
+=A0</em>whether or not it=E2=80=99s good for the individual bottom lines of=
+ the individual pharmaceutical companies.=C2=A0</p><p style=3D"margin: 16px=
+ 0;">An obvious bad one, I wrote, was labor-market competition:</p><blockqu=
+ote><p style=3D"margin: 16px 0;">Here=E2=80=99s one: =E2=80=9CCommon owners=
+hip depresses employee wages: If one company cuts wages it will lose skille=
+d workers to competitors, but=C2=A0if they all agree to cut wages the worke=
+rs will have no ability to push back, and index funds blah blah blah.=E2=80=
+=9D That=E2=80=99s sort of an obvious extension of the antitrust theory. I =
+have not Googled it carefully but I assume that there is already a literatu=
+re; if there isn=E2=80=99t, though, go write it!=C2=A0That=E2=80=99ll get y=
+ou tenure!=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/23=
+728147.287998/aHR0cHM6Ly93d3cucGV3cmVzZWFyY2gub3JnL2ZhY3QtdGFuay8yMDE4LzA4L=
+zA3L2Zvci1tb3N0LXVzLXdvcmtlcnMtcmVhbC13YWdlcy1oYXZlLWJhcmVseS1idWRnZWQtZm9y=
+LWRlY2FkZXMv/607f07ceef4b8524a319a23cB53e0724e" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">Real wage stagnation</a>=C2=A0over the past few decades has coinci=
+ded with the rise of index funds and=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/23728147.287998/aHR0cHM6Ly9wZGZzLnNlbWFudGljc2Nob2x=
+hci5vcmcvYjVhYi9mOTI4ZGExOTVhOWE2NGE0ZmViODYxZjRlNjM2Y2Y5MGExY2EucGRm/607f0=
+7ceef4b8524a319a23cBfa2c696f" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">common ow=
+nership</a>, so, you know, it=C2=A0<em>feels=C2=A0</em>empirically true. (Y=
+ou=E2=80=99ll probably want to be more careful empirically, for tenure.)=C2=
+=A0And the theory behind it is the same as the theory behind everything els=
+e.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Well,=C2=A0<em>now=C2=
+=A0</em>there=E2=80=99s a literature. Here is =E2=80=9C<a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/23728147.287998/aHR0cHM6Ly9wYXBlcnMuc3=
+Nybi5jb20vc29sMy9wYXBlcnMuY2ZtP2Fic3RyYWN0X2lkPTM4MzIwNjk/607f07ceef4b8524a=
+319a23cB6b204639" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">Common Ownership and the Decline of the American Worker</a>,=E2=80=
+=9D by Zohar Goshen and Doron Levit:</p><blockquote><p style=3D"margin: 16p=
+x 0;">The last forty years have seen two major economic trends: Wages have =
+stalled despite rising productivity, and institutional investors have repla=
+ced retail shareholders as the predominant owners of the American equity ma=
+rkets. A few powerful institutional investors=E2=80=94dubbed common owners=
+=E2=80=94now hold large stakes in most U.S. corporations. It is not a coinc=
+idence that at the same time American workers got a new set of bosses, thei=
+r wages stopped growing, and shareholder returns went up. This Article reve=
+als how common owners shift wealth from labor to capital, exacerbating inco=
+me inequality.</p><p style=3D"margin: 16px 0;">Powerful institutional inves=
+tors=E2=80=99 policy of pushing public corporations to adopt strong corpora=
+te governance has an inherent, painful tradeoff. While strong governance ca=
+n improve corporate efficiency=E2=80=94by reducing management agency costs=
+=E2=80=94it can also reduce social welfare=E2=80=94by limiting investment a=
+nd depressing the labor market. The shift to strong governance causes manag=
+ers to limit investment and thus hiring, thereby depressing labor prices. C=
+ommon owners act as a wage cartel, pushing labor prices below their competi=
+tive level. Importantly, common owners transfer wealth from workers to shar=
+eholders not by actively pursuing anticompetitive measures but rather by al=
+locating more control to shareholders=E2=80=94control that can then be exer=
+cised by other shareholders, such as hostile raiders and activist hedge fun=
+ds. If policymakers wish to restore the equilibrium that existed before com=
+mon ownership dominated the market, they should break up institutional inve=
+stors by limiting their size.</p></blockquote><p style=3D"margin: 16px 0;">=
+I guess it is not an empirical literature. You can imagine a simple story. =
+There=E2=80=99s a shareholder class and a worker class. The shareholders bu=
+y labor from the workers through companies. When the companies have differe=
+nt shareholders, they compete with each other to buy labor, so they have to=
+ pay more for it. When they all have the same shareholders, there is less i=
+ncentive to compete. Why should Airline A pay above market to attract the b=
+est pilots from Airline B, when they have the same shareholders? Etc. Goshe=
+n and Levit=E2=80=99s=C2=A0proposed mechanism is that diversified instituti=
+onal investors push for=C2=A0<em>good governance=C2=A0</em>at every company=
+, and good governance =E2=80=94=C2=A0in the classic corporate-governance-sc=
+holar sense of single-class stock, declassified boards, etc. =E2=80=94=C2=
+=A0leads to reduced investment and hiring.=C2=A0=C2=A0</p><p style=3D"margi=
+n: 16px 0;">Again, it=E2=80=99s not an empirical paper, and I don=E2=80=99t=
+ exactly mean to endorse its conclusions. I just want to say that this theo=
+ry is sort of an inevitable consequence of the general theory of common own=
+ership, so I am glad someone has built it out.</p><h2 style=3D"font-weight:=
+ bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; =
+letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; border-bot=
+tom-style: dotted; padding-bottom: 5px; margin-top: 30px; margin-bottom: 0;=
+">Warren Buffett says things</h2><p style=3D"margin: 16px 0;">The Berkshire=
+ Hathaway Inc. annual meeting was this weekend, and as usual Warren Buffett=
+ and Charlie Munger said various folksy things. At Bloomberg, <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/23728147.287998/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMDEvYnVmZmV0dC1jYWxscy1zcG=
+Fjcy1hLWtpbGxlci1tYWtlLWJlcmtzaGlyZS1sZXNzLWNvbXBldGl0aXZl/607f07ceef4b8524=
+a319a23cB0b02e7c4" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> Katherine Chiglinsky has the six-paragraph highlights</a>: SPACs =
+are bad, Robinhood is bad, etc.:</p><blockquote><p style=3D"margin: 16px 0;=
+">=E2=80=9CIt=E2=80=99s a killer,=E2=80=9D Buffett said about the influence=
+ of special purpose acquisition companies on Berkshire=E2=80=99s ability to=
+ find businesses to buy. =E2=80=9CThat won=E2=80=99t go on forever, but it=
+=E2=80=99s where the money is now and Wall Street goes where the money is.=
+=E2=80=9D =E2=80=A6</p><p style=3D"margin: 16px 0;">=E2=80=9CThe gambling i=
+mpulse is very strong in people worldwide and occasionally it gets an enorm=
+ous shove and conditions lead to this place where more people are entering =
+the casino than are leaving everyday,=E2=80=9D Buffett said. =E2=80=9CAnd i=
+t creates its own reality for a while and nobody tells you when the clock=
+=E2=80=99s going to strike 12 and it all turns to pumpkins and mice.=E2=80=
+=9D</p></blockquote><p style=3D"margin: 16px 0;"><a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/23728147.287998/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMDIvd2FycmVuLWJ1ZmZldHQtdGVjaC1zaGFyZXM=
+tYXJlLWJhcmdhaW4tc3RvY2stcGlja2luZy1pcy1oYXJkLWJ1eS1pbmRleC1mdW5kcw/607f07c=
+eef4b8524a319a23cB2079b534" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> Bloomberg</a> and <a href=3D"https://link.mail.bloomberg=
+business.com/click/23728147.287998/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAyMS8wNS8w=
+MS9iZXJrc2hpcmUtaGF0aGF3YXktbWVldGluZy1saXZlLXVwZGF0ZXMuaHRtbA/607f07ceef4b=
+8524a319a23cB8dfe44b2" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">CNBC</a> also have some longer highlights, including that Bitc=
+oin is bad:</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=9CI think th=
+e whole damn development is disgusting and contrary to the interests of civ=
+ilization,=E2=80=9D said Munger.</p><p style=3D"margin: 16px 0;">Buffett=E2=
+=80=99s right-hand-man called bitcoin a =E2=80=9Cfinancial product invented=
+ out of thin air.=E2=80=9D =E2=80=9COf course I hate the bitcoin success,=
+=E2=80=9D Munger said. =E2=80=9CI don=E2=80=99t welcome a currency that is =
+so useful to kidnappers and extortionists.=E2=80=9D</p></blockquote><p styl=
+e=3D"margin: 16px 0;">Also <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/23728147.287998/aHR0cHM6Ly9uZXdzLnlhaG9vLmNvbS93YXJyZW4tYnVmZmV0dC=
+13cml0aW5nLWluc3VyYW5jZS1wb2xpY3ktZm9yLWVsb24tbXVzay0xMTU5NTgyODMuaHRtbA/60=
+7f07ceef4b8524a319a23cBe54ca496" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">this is funny</a>:</p><blockquote><p style=3D"margin=
+: 16px 0;">During a wide-ranging question and answer session with Buffett a=
+nd Berkshire Hathaway Vice Chairmen Charlie Munger, Ajit Jain, and Greg Abe=
+l, one shareholder posed a question about whether the conglomerate would be=
+ open to a call from Elon Musk with a request to insure SpaceX's future mis=
+sion to and colonization of Mars.</p><p style=3D"margin: 16px 0;">The quest=
+ion was directed at Jain, who's in charge of Berkshire's insurance business=
+ and is seen as a possible front-runner to succeed Buffett as CEO.[3]=C2=A0=
+</p><p style=3D"margin: 16px 0;">=E2=80=9CSpecifically he wants insurance t=
+o insure SpaceX=E2=80=99s heavy rocket, capsule, payload, and human capital=
+," the shareholder said of the hypothetical request. "Would you underwrite =
+any portion of a venture like that?=E2=80=9D=C2=A0</p><p style=3D"margin: 1=
+6px 0;">Without hesitation, Jain responded, =E2=80=9CThis is an easy one. N=
+o thank you. I'll pass.=E2=80=9D</p><p style=3D"margin: 16px 0;">Buffett, w=
+ho like Musk is one of the richest people in the world, joked that he'd mor=
+e amenable to the idea of insuring SpaceX's aim to land humans on Mars, whi=
+ch it has pledged to do by 2024.</p><p style=3D"margin: 16px 0;">=E2=80=9CW=
+ell, I would say it would depend on the premium. And I would say that I wou=
+ld probably have a somewhat different rate if Elon was on board, or not on =
+board,=E2=80=9D Buffett added, referring to the famously mercurial CEO of b=
+oth SpaceX and electric car company Tesla (TSLA).</p></blockquote><p style=
+=3D"margin: 16px 0;"><em>Which way?=C2=A0</em>Is the thinking here =E2=80=
+=9CSpaceX will be more careful if its chief executive officer is on board, =
+so it should be cheaper to insure,=E2=80=9D or is it =E2=80=9CElon Musk is =
+so crazy, I=E2=80=99d rather insure a rocket piloted by a professional astr=
+onaut than one piloted by a comic-book villain=E2=80=9D? I think the first =
+choice is correct but I can see the argument the other way.</p><p style=3D"=
+margin: 16px 0;">Elsewhere in Warren Buffett, Insider reporter Bob Bryan =
+=E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/23728147.=
+287998/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS93YXJyZW4tYnVmZmV0dC1kaWV0=
+LTIwMTctMTA/607f07ceef4b8524a319a23cBed264b8b" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">ate like Warren Buffett for a week =E2=
+=80=94=C2=A0and it was miserable</a>.=E2=80=9D Sounds right! Buffett famous=
+ly has an=C2=A0<em>insurance=C2=A0</em>rationale for his horrible diet:</p>=
+<blockquote><p style=3D"margin: 16px 0;">"I checked the actuarial tables, a=
+nd the lowest death rate is among 6-year-olds, so I decided to eat like a 6=
+-year-old," Buffett told Fortune. "It's the safest course I can take."</p><=
+/blockquote><p style=3D"margin: 16px 0;">I am not sure it works that way, b=
+ut it=E2=80=99s a good tip for Elon Musk when he wants to get that rocket i=
+nsured. Call up Warren Buffett and say =E2=80=9Cthe lowest death rate is am=
+ong 6-year-olds, so I=E2=80=99m going to behave like a 6-year-old, specific=
+ally by trying to fly a spaceship to Mars.=E2=80=9D</p><h2 style=3D"font-we=
+ight: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-se=
+rif; letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; borde=
+r-bottom-style: dotted; padding-bottom: 5px; margin-top: 30px; margin-botto=
+m: 0;">ETFs</h2><p style=3D"margin: 16px 0;">I suppose for a lot of people,=
+ the basic idea of an exchange-traded fund is that it=E2=80=99s a mutual fu=
+nd that doesn=E2=80=99t send you a tax bill every year. With an ordinary mu=
+tual fund, the fund will sometimes buy or sell shares (as it adjusts its ho=
+ldings, or as people invest or withdraw money from the fund), and when it d=
+oes that it generates capital gains that it allocates among its investors. =
+An ETF will work hard <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/23728147.287998/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGV=
+zLzIwMTktMDMtMjkvZGVhbHMtb24tdGhlLXRyYWluLWFyZS1ldmVyeW9uZS1zLWJ1c2luZXNz/6=
+07f07ceef4b8524a319a23cBc6600b62" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> never to buy or sell shares itself</a>, but only t=
+o do in-kind creations and redemptions that do not generate taxable income.=
+ The result is that if you buy a mutual fund, you pay capital-gains taxes e=
+very year even if you don=E2=80=99t sell your shares; with an ETF, you only=
+ pay capital gains taxes when you sell.</p><p style=3D"margin: 16px 0;">On =
+the one hand, the ETF=E2=80=99s treatment seems to be an exploit of a <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/23728147.287998/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9ncmFwaGljcy8yMDE5LWV0Zi10YXgtZG9kZ2UtbGV0cy1pbn=
+Zlc3RvcnMtc2F2ZS1iaWcv/607f07ceef4b8524a319a23cB25ba54fc" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> somewhat accidental provis=
+ion</a> of the tax code. On the other hand, everyone seems to accept that i=
+t=E2=80=99s correct =E2=80=94=C2=A0that an ETF is a mutual fund that doesn=
+=E2=80=99t pay taxes =E2=80=94=C2=A0and also, to be fair, it makes more int=
+uitive sense than the mutual-fund treatment. Why pay taxes when you don=E2=
+=80=99t sell your shares?</p><p style=3D"margin: 16px 0;">Anyway one obviou=
+s lesson here is that if you raise capital gains taxes, <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/23728147.287998/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMDIvcmljaC1hbWVyaWNhbnMtZmxlZWlu=
+Zy10YXgtaGlrZXMtbWF5LXR1cmJvY2hhcmdlLXNoaWZ0LXRvLWV0ZnM/607f07ceef4b8524a31=
+9a23cBe1b3a7c1" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> more people will buy ETFs</a>:</p><blockquote><p style=3D"margin: 16=
+px 0;">President Joe Biden=E2=80=99s plan to double the rate those making m=
+ore than $1 million a year pay on investment profits would accelerate a shi=
+ft that=E2=80=99s already seen hundreds of billions of dollars migrate from=
+ mutual funds to exchange-traded funds, market watchers say. That=E2=80=99s=
+ because ETFs are generally more tax efficient, spinning off fewer capital-=
+gain disbursements that for some could soon become a lot more costly.</p><p=
+ style=3D"margin: 16px 0;">In fact, by one measure, the tax efficiency of E=
+TFs has been the single most important driver behind the tectonic shift in =
+asset allocations in recent years. While the administration=E2=80=99s plan =
+remains in its infancy and is sure to face intense scrutiny from lawmakers =
+in the months ahead, even an incremental hike in the capital-gains rate wou=
+ld likely spur further ETF usage, according to David Perlman, an ETF strate=
+gist at UBS Global Wealth Management.</p></blockquote><p style=3D"margin: 1=
+6px 0;">It is kind of weird that the U.S. tax code offers two essentially i=
+dentical forms of mutual fund, one of which has taxes and one of which does=
+n=E2=80=99t. (Yes, fine, the ETF only=C2=A0<em>defers</em>=C2=A0taxes, but =
+that is still valuable.) Effectively, the U.S. tax code makes paying taxes =
+on your mutual funds optional. But, given that choice, lots of people choos=
+e to pay the taxes anyway. As the taxes go up, that may change.</p><h2 styl=
+e=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial, Helvet=
+ica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bottom-width=
+: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top: 30px; =
+margin-bottom: 0;">NFTs</h2><p style=3D"margin: 16px 0;">Page Six has a pre=
+tty good non-technical explanation of <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/23728147.287998/aHR0cHM6Ly9wYWdlc2l4LmNvbS8yMDIxLzA0LzM=
+wL21vZGVsaW5nLWFnZW50LXBhb2xhLXphbXBvbGxpLWJ1cm5zLXZhbHVhYmxlLWFydC10by1tYW=
+tlLW5mdC8/607f07ceef4b8524a319a23cB490c9b6f" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">how non-fungible tokens work</a>:</p><bl=
+ockquote><p style=3D"margin: 16px 0;">Model-agent-turned-ambassador Paolo Z=
+ampolli threw a party at his new Washington D.C. mansion for =E2=80=9CMight=
+y Ducks=E2=80=9D-star-turned-cryptocurrency-guru Brock Pierce. And Pierce e=
+xplained the NTF phenomenon to Zampolli =E2=80=94 by setting fire to a work=
+ by [Domingo] Zapata. ...</p><p style=3D"margin: 16px 0;">=E2=80=9CBrock br=
+ought up that he had just bought an NFT created by none other than Mick Jag=
+ger for $50,000,=E2=80=9D said a spy. =E2=80=9CWhen Paolo said he was an ol=
+d school art collector and still didn=E2=80=99t understand the concept of N=
+FT=E2=80=99s, Brock said, =E2=80=98Let me show you how its done.'=E2=80=9D<=
+/p><p style=3D"margin: 16px 0;">We=E2=80=99re told Pierce perused the art o=
+n Zampolli=E2=80=99s walls, and he chose a piece that turned out to be by Z=
+apata.</p><p style=3D"margin: 16px 0;">=E2=80=9CBrock said to Paolo, =E2=80=
+=98Can we burn this?=E2=80=99 Paolo was in total shock and said it was a ve=
+ry valuable piece of art,=E2=80=9D said the party-goer.</p><p style=3D"marg=
+in: 16px 0;">=E2=80=9CSince Paolo is friends with Domingo, he told Brock he=
+ better call him first to see if this is OK,=E2=80=9D we=E2=80=99re told, =
+=E2=80=9CThey called him together and Domingo loved the concept and told th=
+em to go for it!=E2=80=9D</p><p style=3D"margin: 16px 0;">We=E2=80=99re tol=
+d the pair put the piece in a large Champagne bucket and set it on fire in =
+front of party guests.</p><p style=3D"margin: 16px 0;">Pierce is turning th=
+e video of painting pyre into an NFT and Zapata hopes to auction it off at =
+the Kennedy Center =E2=80=94 where ID Models founder Zampolli sits on the b=
+oard =E2=80=94 in June at a fundraiser to benefit endangered sharks.</p></b=
+lockquote><p style=3D"margin: 16px 0;">How do non-fungible tokens work? Wel=
+l, if you ask a =E2=80=9CMighty Ducks=E2=80=9D-star-turned-cryptocurrency-g=
+uru, he will give you an explanation, or rather demonstration, that is perh=
+aps light on the details of blockchain technology=C2=A0work but that captur=
+es the essentials:</p><ol style=3D"list-style-type: decimal; padding-left: =
+40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">You take a pain=
+ting.</li>=09<li style=3D"margin-bottom: 5px;">You light it on fire.</li>=
+=09<li style=3D"margin-bottom: 5px;">You create a little note on a blockcha=
+in saying =E2=80=9Clol I lit that painting on fire.=E2=80=9D</li>=09<li sty=
+le=3D"margin-bottom: 5px;">You sell that note=C2=A0for more than you could =
+get for the original painting.</li>=09<li style=3D"margin-bottom: 5px;">You=
+ give the money to some sharks.</li></ol><p style=3D"margin: 16px 0;">=E2=
+=80=9CI=E2=80=99m an old-school art collector, in the sense that I collect =
+art.=E2=80=9D =E2=80=9CUgh, how pass=C3=A9, today=E2=80=99s modern collecto=
+rs know that the right way to treat art is to light it on fire in a Champag=
+ne bucket.=E2=80=9D</p><p style=3D"margin: 16px 0;">I want to stress that h=
+e is completely correct; this is a perfectly accurate explanation of NFTs. =
+We have <a href=3D"https://link.mail.bloombergbusiness.com/click/23728147.2=
+87998/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDMtM=
+DgvbGlib3ItaXMtZ29pbmctYXdheS1mb3ItcmVhbA/607f07ceef4b8524a319a23cB56e20501=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> previou=
+sly discussed</a> some other NFT jokers who burned a Banksy painting to sel=
+l on the blockchain. It would be =E2=80=A6=C2=A0appropriate? =E2=80=A6=C2=
+=A0if the end result of the NFT craze is that the concept of burning art on=
+ the blockchain becomes reliably more valuable than actual art, so that all=
+ of the world=E2=80=99s paintings are burnt up to increase their value. And=
+ then the whole history of art will be gone, but it will be preserved forev=
+er on the blockchain, in the form of cryptographically encoded videos of al=
+l the art being burnt. =E2=80=9CWhy did we think this was a good idea,=E2=
+=80=9D future generations will ask after watching the videos, and perhaps=
+=C2=A0=E2=80=9CMighty Ducks=E2=80=9D-star-turned-cryptocurrency-guru Brock =
+Pierce will have a good answer for them; I do not. I hope the sharks are ha=
+ppy.</p><h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot=
+;, Arial, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; bor=
+der-bottom-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; ma=
+rgin-top: 30px; margin-bottom: 0;">Things happen</h2><p style=3D"margin: 16=
+px 0;">Robinhood=E2=80=99s Biggest Business <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/23728147.287998/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY=
+2xlcy9yb2Jpbmhvb2RzLWJpZ2dlc3QtYnVzaW5lc3MtbW9yZS10aGFuLXRyaXBsZWQtaW4tdGhl=
+LWZpcnN0LXF1YXJ0ZXItMTE2MTk5NzU1MzQ_bW9kPWhwX2xlYWRfcG9zNA/607f07ceef4b8524=
+a319a23cB518ed8ab" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">More Than Tripled</a> Amid Trading Frenzy. Verizon Sells 90% of <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/23728147.287998/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMDMvdmVyaXpvbi1=
+zZWxscy05MC1vZi1tZWRpYS1kaXZpc2lvbi10by1hcG9sbG8tZm9yLTUtYmlsbGlvbg/607f07c=
+eef4b8524a319a23cB1591bb57" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> Media Division</a> to Apollo for $5 Billion. For Apollo=
+=E2=80=99s New CEO, <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/23728147.287998/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9mb3ItYXBvbGxvcy1uZ=
+XctY2VvLWluc3VyYW5jZS1pcy1pbnJhY3ktYnV5b3V0cy1ub3Qtc28tbXVjaC0xMTYxOTk1Njgw=
+Mz9tb2Q9aHBfbGlzdGFfcG9zMw/607f07ceef4b8524a319a23cBef50e6a1" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">Insurance Is In</a>=E2=
+=80=94Racy Buyouts, Not So Much. Collapsing yields on <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/23728147.287998/aHR0cHM6Ly93d3cuZnQuY29=
+tL2NvbnRlbnQvZTM1YzhjNGYtYjkzMS00OTg4LTg0OWEtZTdhZDg4YzIxYmY1/607f07ceef4b8=
+524a319a23cB645734ee" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">risky US debt</a> test investors=E2=80=99 limits. Why Biden=E2=
+=80=99s Plan to Raise Taxes for Rich Investors <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/23728147.287998/aHR0cHM6Ly93d3cubnl0aW1lcy5jb2=
+0vMjAyMS8wNS8wMy9idXNpbmVzcy90YXgtaW5jcmVhc2Utc3RvY2stbWFya2V0Lmh0bWw_cmVmZ=
+XJyaW5nU291cmNlPWFydGljbGVTaGFyZQ/607f07ceef4b8524a319a23cBb9d081c1" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">Isn=E2=80=99t Hu=
+rting Stocks</a>.=C2=A0Fidelity Halves Its <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/23728147.287998/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2=
+xlcy9maWRlbGl0eS1oYWx2ZXMtaXRzLWFudC1ncm91cC12YWx1YXRpb24tYWZ0ZXItYmVpamluZ=
+3MtY2xhbXBkb3duLTExNjIwMDM2MDA0/607f07ceef4b8524a319a23cBc2ebdca3" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">Ant Group Valuatio=
+n</a> After Beijing=E2=80=99s Clampdown.=C2=A0Andreessen Horowitz plans $1b=
+n <a href=3D"https://link.mail.bloombergbusiness.com/click/23728147.287998/=
+aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvY2M1MGMyMjQtMDQ0NC00MThiLWIzMzUtNzgyOTE=
+2ZjhiOTY3/607f07ceef4b8524a319a23cB7dd169c0" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">cryptocurrency VC fund</a>.=C2=A0New Yor=
+k City Is <a href=3D"https://link.mail.bloombergbusiness.com/click/23728147=
+.287998/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjEtMDUtMDE=
+vbmV3LXlvcmstY2l0eS1jb3ZpZC1yZW9wZW5pbmctcmVzdGF1cmFudHMtYXJ0LWN1bHR1cmUtY2=
+9taW5nLWJhY2s/607f07ceef4b8524a319a23cB7e41d509" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> Roaring Back to Life</a>, One Year =
+After Its Nadir.=C2=A0The New Menu at <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/23728147.287998/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8=
+wNC8zMC9idXNpbmVzcy9qYXBhbi03LWVsZXZlbi5odG1sP3JlZmVycmluZ1NvdXJjZT1hcnRpY2=
+xlU2hhcmU/607f07ceef4b8524a319a23cB45a9d9f7" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">Eleven Madison Park</a> Will Be Meatless=
+. Saudi Crown Prince=E2=80=99s Vision for <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/23728147.287998/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2x=
+lcy9zYXVkaS1jcm93bi1wcmluY2VzLXZpc2lvbi1mb3ItbmVvbS1hLWRlc2VydC1jaXR5LXN0YX=
+RlLXRlc3RzLWhpcy1idWlsZGVycy0xMTYxOTg3MDQwMT9tb2Q9aHBfbGlzdGJfcG9zMw/607f07=
+ceef4b8524a319a23cBa77778e5" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">Neom</a>, a Desert City-State, Tests His Builders.=C2=A0=
+A Grudge Match in Japan: One Corner, <a href=3D"https://link.mail.bloomberg=
+business.com/click/23728147.287998/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8w=
+NC8zMC9idXNpbmVzcy9qYXBhbi03LWVsZXZlbi5odG1sP3JlZmVycmluZ1NvdXJjZT1hcnRpY2x=
+lU2hhcmU/607f07ceef4b8524a319a23cC45a9d9f7" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">Two 7-Elevens</a>.</p><p style=3D"margin:=
+ 16px 0;"><span class=3D"news-designed-for-consumer-media"><em>If you'd lik=
+e to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbo=
+x, please=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/237=
+28147.287998/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d2=
+0vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3Y=
+Q/607f07ceef4b8524a319a23cB4b844982" target=3D"_blank" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: solid; background-color: #ccc;">su=
+bscribe at this link</a>. Or you can subscribe to Money Stuff and other gre=
+at Bloomberg newsletters <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/23728147.287998/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz=
+/607f07ceef4b8524a319a23cB7eb4d23d" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">here</a>. Thanks!</em></span></p><p style=3D"marg=
+in: 16px 0;"><em>[1] That is, they trade above their $10 trust price after =
+the deal is announced: The trust price is effectively the amount that the S=
+PAC pays per share of the newly public company, so if the SPAC=E2=80=99s sh=
+ares trade at $11 or $13 or $25 that means SPAC shareholders are happy.</em=
+></p><p style=3D"margin: 16px 0;"><em>[2] I am probably exaggerating; I ass=
+ume that Credit Suisse=E2=80=99s exposure grew rapidly to $20 billion this =
+year, so the $17.5 million it earned last year was on a lower exposure. Eve=
+n if the average exposure last year was like $10 billion, though, $17.5 mil=
+lion of revenue=C2=A0=E2=80=94=C2=A00.18% of assets =E2=80=94=C2=A0seems pr=
+etty slim.</em></p><p style=3D"margin: 16px 0;"><em>[3] Actually, Buffett a=
+nd Munger disclosed that <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/23728147.287998/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVz=
+LzIwMjEtMDUtMDMvYnVmZmV0dC10ZWxscy1jbmJjLWFiZWwtd291bGQtc3VjY2VlZC1oaW0taWY=
+taGUtd2VyZS10by1sZWF2ZQ/607f07ceef4b8524a319a23cB78334058" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;"> Greg Abel</a>, who is in =
+charge of the non-insurance businesses, is the designated successor.</em></=
+p>
+</td>
+</tr>
+</table>
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; border-right-wi=
+dth: 10px; border-right-color: white; border-right-style: solid; padding: 9=
+px 0;">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23728147.287998/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBb074457d" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iSTidtzUTVno/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23728147.287998/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB6fc9b5ff" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ivgKTIiTGA3M/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23728147.287998/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBae414b61" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iD_P6YIGeql4/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; border-left-wid=
+th: 10px; border-left-color: white; border-left-style: solid; padding: 9px =
+0;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23728147.287998/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB68a1cbd5" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout">
+<tbody>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+<tr>
+<td class=3D"tout-label"></td>
+</tr>
+<tr>
+<td class=3D"tout-text"><p><em><strong>Like Money Stuff?</strong></em>=C2=
+=A0|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2372=
+8147.287998/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cB64b341a3" itemprop=3D"StoryLink" itemscope=3D"items=
+cope">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p>Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Termin=
+al.=C2=A0Find out more about how the Terminal delivers information and anal=
+ysis that financial professionals can=E2=80=99t find anywhere else.=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/15638356.78421/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRl=
+cm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn more</a>.</p></td>
+</tr>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" id=3D"footer" width=3D"100%" align=3D"center" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; padding-bottom: 10px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> You received this mess=
+age because you are subscribed to Bloomberg's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/23728147.287998/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC482d86a8" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/23728147.287998/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBe9901c81" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/23728147.287998/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB6c10e560" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</td>
+</tr>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ce4kr7.667y/cda35cd6.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_6092703_1632180680.1620060357670--
+

@@ -1,0 +1,2291 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:5d4:b0:1a3:fa90:e4b0 with SMTP id r20csp3512501lkr;
+        Tue, 15 Mar 2022 10:33:23 -0700 (PDT)
+X-Received: by 2002:a05:600c:418a:b0:389:99da:c728 with SMTP id p10-20020a05600c418a00b0038999dac728mr4042405wmh.151.1647365603030;
+        Tue, 15 Mar 2022 10:33:23 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1647365603; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=CM0264d61z/BP0LdpRB5FoUEKFQ8XuOzmGhW+bwdwWTqNkIBba5UPy1PD5KfIynKN6
+         HfXH84OW7IX/t6SWBPmhig5qFaeq3IKtcvTZCszAn2w4KVnLDJd0NwV01MIE13zfm+7o
+         02ExXejn9OV8u8qNpXeWo/drvsrmZkgYuyxRJJu2xh8LAx3Ug9lI6YFdYDRqH/ToHYht
+         WUfJYRvQJsBGe92kTLo43gElwZm9PXKA05Al6jp+YwLvmynqNK7QOnzjq/aPPZ3gj6bU
+         lXeBMsAqPgbX+4AUwVQw/kV4Lhta6Uan7Mhl4nbsvJzVq4u8mTQGZciqVqqiUKzwh6fX
+         tUOA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=Q6NEcxrymkmZkO+wg5rS5PsQD0gnYF4ChCrweI2FYc8=;
+        b=Pi/ScM7zhQbwz0RuyQrBEzyf8XxZ7y9W1f5Ydl9q94OMIj5ABhTYrHhfRl0du6kNoL
+         lOyU/fW/NtgrHDi1S1yDbe/fli0/IhEAp2U6gSifBbQTaoq/rx8iKm9j4NoWcFRzhZpf
+         VgxkzrVtFXhRMFsSzNU2wCkLL4ZiSmCmIKYhjJ/vw0GUOoaV3DZejg3aReeFblvwxy3I
+         TKDZY6iBBT7vdSxWIjgUkm0XyspUIof18mCiXOt6yoFTPa9IlzF4zMGQ3KOcxxmLiJwN
+         uSKYrtnKSkmmsA5FSjUc3uUX2UaoWikpG+cXY/HTigeECAk5atXzjnjHpqRwpQH6FITo
+         PVag==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=6NDr7bsS;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id m2-20020adfdc42000000b001ede4df6f02sor9092085wrj.22.2022.03.15.10.33.22
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 15 Mar 2022 10:33:23 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=6NDr7bsS;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=Q6NEcxrymkmZkO+wg5rS5PsQD0gnYF4ChCrweI2FYc8=;
+        b=gE/EzlSg7xzIuQamuvsAWIIkOdcZ9RydCxkpoQAxLrYU01C/7x8Kam4EqT9y06JmWQ
+         Gg97LzC0L+jHiGm9523VwijkiHBpFlvMZ3slMyBAPfUoqQo0cVNMz/nZYxpCT8niEp7N
+         70P+fVkpb7fB8PT3Zn45VyU0TYmfLOULpt6RKnF6MNDeoWvOeatKniFKKZsPpK+57ucq
+         LuCKeF0X4E2mwLDMii6B/LRC0dQrkosZJTNXVQaTr7gE5rQsyDVsWLpzafSy4YALpz3l
+         qXVetKIV1fjcmVuFHZaU8FaZk5BX+MegNwVOo+d0iXKtQ8TtldcAhKy2mPPXJrFEBLpn
+         eI7w==
+X-Gm-Message-State: AOAM533utRrxFe+OKpul3ENmC4vlvj8wevWmtBKsIxTHa3UfXPg61XAQ
+	mt7DFUQ1zBVDDicgVl7oLkIKnD4iw8rmE79Aws6t61UfWVvQ47ydlA==
+X-Received: by 2002:a5d:47a3:0:b0:203:8cc3:3647 with SMTP id 3-20020a5d47a3000000b002038cc33647mr19464833wrb.321.1647365602499;
+        Tue, 15 Mar 2022 10:33:22 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:9f4b:0:0:0:0:0 with SMTP id f11csp2887519wrg;
+        Tue, 15 Mar 2022 10:33:19 -0700 (PDT)
+X-Received: by 2002:ab0:6f4f:0:b0:342:3ccf:e981 with SMTP id r15-20020ab06f4f000000b003423ccfe981mr11135638uat.115.1647365598658;
+        Tue, 15 Mar 2022 10:33:18 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1647365598; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=XVUHM4gavpfC2Bl8ag57mHeumhfIRibkvec58pIf+hFz72ULoglB22FhLsS7XU8Xgx
+         PNczmdVvJOBIkzVr9TC8VfynF7m6SOAMNGXSgBEmUTW1zUEt3hQ8Rew6Bhb1Hggmx0fF
+         NLnuo8R43XYZa0ORx6SV/uPWHCLIPU8ZPNXXKhLgNl4GJT7WB51uNstOftP9SI7cTg4v
+         InLAQiXVcUb29lIJ36Qr8JXYHAOpJk1wf6OUiAg6l1hWiL0waRvzRYfWexvvOnK5yilg
+         Knp6io7W7M2UhQc8kJ4S6Cg68ZWcuzldRaDdOY7yjDzs0b5VcTU16D5KiBgLjDJUo97T
+         ymxA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=Q6NEcxrymkmZkO+wg5rS5PsQD0gnYF4ChCrweI2FYc8=;
+        b=X/4w7BiGEqX7dQm/8gMc5WWf2B9tOKDyMS/hc71722fYKUFUrBclOsMH8qQ+9m19jZ
+         9WDyITpG4/E36EoQqyqY72zoruSlvQdw9+ymRHIAbL7yo4CDME02bBcmfDsjTvC52grV
+         lCbi/MA35JNsc5ry3jYre3KYshTD6jTIrt9yABmrHDW/RSf/xE4R+4LN33WsR8eMsG+H
+         vPZaTxlqgxRk8EtaWyMfuab+txUfBR+jpuvMEsGFCRfuLrMP6g1mtPQhnBAZX3Dj7NBf
+         v3OuCGYqDRx2XcObPmuoCJ69pbQu5nOlo1cAj2t/ppyoGLATOMxkxmDrCiSDgcZiy0eY
+         zXfg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=6NDr7bsS;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220315133150.27034348.257604@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220315133150.27034348.257604@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220315133150.27034348.257604@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id x127-20020a1f3185000000b00336c9fd395esor3892657vkx.10.2022.03.15.10.33.18
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 15 Mar 2022 10:33:18 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220315133150.27034348.257604@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJyLI1XC3aIeKKnF7QuBCIrI+3hXOleS5CKaHja2MVRf6ju2QtJ++mBzgPOrVQbr5jMWMTYkURPzyrYa7Mfu440Pe1Hq+u8=
+X-Received: by 2002:ac5:c252:0:b0:337:26a0:b672 with SMTP id n18-20020ac5c252000000b0033726a0b672mr12704307vkk.24.1647365598210;
+        Tue, 15 Mar 2022 10:33:18 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1647365598; cv=none;
+        d=google.com; s=arc-20160816;
+        b=xWxshbkXiVDmrRpf8GeTkQcP6GItpsSvNxeQuFbAu41RsP1T1SAbEWJXEeEat6/mON
+         QWgBR60UisQ/LXT4O8HGZuaURtmfbbLLP84wbmjne1hkh8wrvAJ2JsYnqbIhgK+nQqHa
+         eIcqy1Q/+9pXl1CjzkCOwoCSQl3WpV8wQw5QkWSVqQC/yXPVh5pZGmdbT613IoOxJ48J
+         lOrXRiiLLcl1xrT0T9COjzThWisMDORG3RfnYWteMWXuSPuOTvcjF7Jq5ruS6s2X4xGv
+         lQXTcJFH3r+pE2TBZlcmej7fLP4SkCNLQ1izb8E1ML8luw3xaByGSKUNw+PsTOdCAfqq
+         KxhA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=Q6NEcxrymkmZkO+wg5rS5PsQD0gnYF4ChCrweI2FYc8=;
+        b=FKAzOWM1L1wnSstFpjeDrM88nsHQKSo2Hb1PQ0/vP5E7XpncFEpngykq2HyLuSryQ8
+         12b3nrXq3mo70ZOfSAyCh2kWmhx1dALiLZES0NPUY8B+67qi1JOON9WDrtv5zUd1n5zk
+         M8lu2zG/RCNEFxZxj63C20gib1eSE3Z7dwh+pzahHuj/SG1XnMjRKU0XQ//Gb8JLzJUd
+         gxffeDr8bsmPxtuv6HjOQHyguRFOwG7D4gx1zUSf58ZLqYSwTKOhOwmPEFgAb0EejEy0
+         mzY0wWoiIJkqbhyeXy/pMJ3HzSBkOlG15cfc1F647Fve8yAkgEJAxQZ0SsRjyb07fIXT
+         WrLw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=6NDr7bsS;
+       spf=pass (google.com: domain of delivery_20220315133150.27034348.257604@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20220315133150.27034348.257604@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220315133150.27034348.257604@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id f22-20020a67fd16000000b00320a3066befsi933473vsr.1.2022.03.15.10.33.08
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 15 Mar 2022 10:33:18 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220315133150.27034348.257604@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=v9kLxJv0mTPBvar9cynUl5kHb7oCy0n1qKCZt2+5D4M=;
+ b=6NDr7bsSovyqPjIaqlMZpVppF7f3ej1gCEqr2tht2CC2lmLE792GM5VoCyOFKe6Wwg/bbpxGGudT
+   PRGpgYrKaxiQeUKKYxSFYhmI7U0KkJZ1gUSpKUgaohtcVtBpQ4HkvMOS/RUNu2YW2RXiAJtd9L1U
+   JMazZyYTeymVy3lpEvI=
+Received: from nj2mta-17.sailthru.com (204.153.121.17) by bloomberg-b.sailthru.com id h636tc2tkt0l for <bloomberg@khamel.com>; Tue, 15 Mar 2022 13:32:58 -0400 (envelope-from <delivery_20220315133150.27034348.257604@mx.sailthru.com>)
+Date: Tue, 15 Mar 2022 13:31:50 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220315133150.27034348.257604@sailthru.com>
+Subject: Money Stuff: AMC Bought a Gold Mine
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_22972668_1911541958.1647365510288"
+Precedence: bulk
+X-Feedback-ID: 6358:27034348:campaign:sailthru
+X-TM-ID: 20220315133150.27034348.257604
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-rawolive.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cg3fu4.5iro/156c795e
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cg3fu4.5iro/156c795e>, <mailto:unsubscribe_20220315133150.27034348.257604@mx.sailthru.com>
+X-rpcampaign: stjko27034348
+
+------=_Part_22972668_1911541958.1647365510288
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        A gold mineWe haven=E2=80=99t checked in with AMC Entertainment Hol=
+dings Inc. recently; let=E2=80=99s see what they=E2=80=99re up to: LEAWOOD,=
+ Kan.--(BUSINESS WIRE)
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      A gold mine
+   =20
+ =20
+We haven=E2=80=99t checked in with AMC Entertainment Holdings Inc. recently=
+; let=E2=80=99s see what they=E2=80=99re up to:LEAWOOD, Kan.--(BUSINESS WIR=
+E)-- AMC Theatres (NYSE:AMC), the largest theatrical exhibitor in the Unite=
+d States, in Europe & the Middle East, and in the world, today announced it=
+ is buying 22% of Hycroft Mining Holding Corporation (NASDAQ:HYMC) and its =
+71,000 acre Hycroft Mine in northern Nevada. Independent third-party studie=
+s confirm that the Hycroft Mine has some 15 million ounces of gold deposits=
+ and some 600 million ounces of silver deposit. In addition, AMC will recei=
+ve an additional 23.4 million warrants in Hycroft at $1.07 per share. =E2=
+=80=A6Commenting on the investment in Hycroft, Adam Aron, chairman and CEO =
+of AMC Entertainment said, =E2=80=9CThe strength of SPIDER-MAN: NO WAY HOME=
+ and THE BATMAN, as well as 2022=E2=80=99s promising industry box office, h=
+eighten AMC Entertainment=E2=80=99s conviction that we are on a glide path =
+to recovery. Our strategic investment being announced today is the result o=
+f our having identified a company in an unrelated industry that appears to =
+be just like AMC of a year ago. It, too, has rock-solid assets, but for a v=
+ariety of reasons, it has been facing a severe and immediate liquidity issu=
+e. Its share price has been knocked low as a result. We are confident that =
+our involvement can greatly help it to surmount its challenges =E2=80=94 to=
+ its benefit, and to ours.=E2=80=9D=C2=A0Ah. Well. I confess that when I re=
+ad the headline I assumed it was a Bitcoin mining company? Really it should=
+ be a nickel mining company? Strike while the meme iron (nickel) is hot?=C2=
+=A0There is a reason that we have not checked in with AMC recently. AMC =E2=
+=80=94=C2=A0and GameStop and Dogecoin and non-fungible tokens and the gener=
+al boom in meme investing=C2=A0=E2=80=94=C2=A0was the great financial marke=
+t story of 2021, but 2022 has=C2=A0marked a grim return to normal. These da=
+ys the market cares about war and inflation and sovereign default, not whet=
+her Adam Aron wore pants on a Zoom interview. The whole meme-stock thing mi=
+ght have been a function of plentiful money and Covid lockdowns, and now it=
+ might have run its course. Still =E2=80=9CAMC buys a stake in a micro-cap =
+gold miner=E2=80=9D is an incredible, like, final exam for the meme stock e=
+ra. What on earth!First of all, here is Aron on Twitter:AMC is playing on o=
+ffense again with a bold diversification move. We just purchased 22% of Hyc=
+roft Mining (NASDAQ: HYMC) of northern Nevada. It has 15 million ounces of =
+gold resources! And 600 million ounces of silver resources! Our expertise t=
+o help them bolster their liquidity.=E2=80=9CDiversification=E2=80=9D is so=
+mething of a dirty word in modern corporate finance. Investors=C2=A0can div=
+ersify. If you want to own=C2=A0both=C2=A0a meme-stock movie-theater chain=
+=C2=A0and=C2=A0a penny-stock gold mine, you can. You can buy AMC on the sto=
+ck exchange, you can buy Hycroft on the stock exchange, you can buy both in=
+ any combination you want. Except that now if you buy AMC you also get some=
+ Hycroft, whether you like it or not.[1] Aron buying a chunk of Hycroft for=
+ AMC shareholders=C2=A0reduces=C2=A0their choice set.One reason for a compa=
+ny to diversify is something like: =E2=80=9CWe are in a declining industry,=
+ we make good money now but in the long run we worry, so we=E2=80=99d bette=
+r get into some new industries with a brighter future.=E2=80=9D A thesis li=
+ke that for AMC might=C2=A0suggest buying a stake in, you know, a streaming=
+ service, or a chain of movie theaters in the metaverse. Use some of AMC=E2=
+=80=99s entertainment-industry expertise to move into an adjacent but more =
+futuristic bit of entertainment. But, nope, a gold mine.Still you can sort =
+of gesture at a diversification rationale here. AMC stock is in some sense =
+an ownership share in=C2=A0a chain of movie theaters, but in another sense =
+it is a financial instrument that reflects Adam Aron=E2=80=99s ability to d=
+o funny stuff that attracts attention and delights people online. The stock=
+ goes up because people online get excited, not because AMC sells more movi=
+e tickets, and so it makes sense for AMC to expand into new and unrelated w=
+ays to do funny stuff online.So buying a stake of a gold mine gives AMC som=
+e meme diversification. For one thing, this purchase is itself a funny thin=
+g that attracts attention and delights people online. (AMC=E2=80=99s stock =
+was up about 2.5% as of 11 a.m. today.) But also, you know, gold has been a=
+ meme for millennia; owning a gold mine just gives you many more opportunit=
+ies to say stuff and attract attention. =E2=80=9CThe Fed has printed too mu=
+ch money and hyperinflation is around the corner, buy movie tickets!=E2=80=
+=9D: sounds weird, right?=C2=A0But =E2=80=9C=E2=80=A6=C2=A0buy gold!=E2=80=
+=9D totally works. Just a huge expansion of the meme arsenal.Next: How many=
+ ounces of gold and silver did Hycroft Mining mine and sell last month? If =
+you answered anything other than =E2=80=9Czero,=E2=80=9D you do not underst=
+and how meme stocks work. The answer is zero:We are not currently conductin=
+g commercial mining operations at the Hycroft Mine. There is no certainty t=
+hat the mineral resources estimated at the Hycroft Mine will be mined or, i=
+f mined, processed profitably. We have no specific plans and cannot current=
+ly predict when we will be able to bring the Hycroft Mine back into product=
+ion. The commercial viability of the Hycroft Mine is dependent on a number =
+of factors, including metal prices, the availability of and ability to rais=
+e capital for development, government policy and regulation and environment=
+al protection, which are beyond our control. We may not generate commercial=
+-scale revenues until we bring the Hycroft Mine back into production.To be =
+fair, Hycroft sold $31.7 million of gold and silver in the third quarter of=
+ 2021; it=C2=A0does=C2=A0own a mine and=C2=A0was=C2=A0operating it. But it =
+stopped.[2] A rough corporate history of Hycroft is that it operated a gold=
+ mine in Nevada for a while and then went bankrupt in 2015 due to declining=
+ gold prices. While it was bankrupt it stopped mining gold, but it came out=
+ of bankruptcy and then started mining=C2=A0again in 2019. And then it stop=
+ped again late last year.During the brief window when Hycroft was mining go=
+ld again, it went public in 2020. Because this is the final exam of meme st=
+ocks, you will not be surprised to learn that it went public by merging wit=
+h a special purpose acquisition company. It had a limited recent history of=
+ producing gold at that point=C2=A0but, because it went public by SPAC merg=
+er, it was able to market itself on=C2=A0projected=C2=A0future production. =
+For instance it estimated that it would produce 163,000 ounces of gold in 2=
+021 and 189,000 in 2022. (The actual numbers seem to be maybe=C2=A050,000 o=
+r so ounces of gold in 2021 and zero-ish so far in 2022.[3])When it went pu=
+blic by SPAC, it was working on a novel process to make the mining more eco=
+nomical, which is what it touted in its SPAC prospectus.=C2=A0Apparently it=
+ has abandoned that process. But it has a new process![4] So it=E2=80=99s r=
+aising more money.Where is it raising that money from? Well, AMC is kicking=
+ in about $28 million, and =E2=80=9CEric Sprott, one of the world=E2=80=99s=
+ leading gold and silver investors,=E2=80=9D is kicking in another $28 mill=
+ion. But today Hycroft also filed a prospectus for up to a $500 million at-=
+the-market stock offering. We have talked about ATM offerings before. They =
+are the standard way to sell meme stocks.=C2=A0As I wrote=C2=A0last year:Wh=
+ereas an underwritten offering is normally sold to a smallish group of inst=
+itutional investors who have relationships with the underwriting banks, an =
+at-the-market offering is sold to absolutely anyone who wants to buy, anony=
+mously, on the stock exchange. What this means, in particular, is that it i=
+s sold to=C2=A0retail investors. And so if you are sort of a meme-y company=
+, and you want to raise money specifically from your enthusiastic retail in=
+vestors, at-the-market offerings are the way to go. As we have discussed, t=
+hey=E2=80=99re=C2=A0Tesla=E2=80=99s preferred way to sell stock, because Te=
+sla has enthusiastic retail investors. When Hertz Global Holdings Inc. did =
+a stock offering=C2=A0while it was in bankruptcy, to capitalize on baffling=
+ (but=C2=A0in hindsight correct!) retail demand, of course=C2=A0it did an A=
+TM. The big 2021 meme stocks =E2=80=94=C2=A0GameStop, AMC Entertainment =E2=
+=80=94=C2=A0have of course done ATMs.If I ran a micro-cap company and I was=
+ looking to raise money, here=E2=80=99s what I would do:=09Get everything r=
+eady to file for a large at-the-market offering.=09Ask Adam Aron what I sho=
+uld do to attract attention to my stock.=09Do whatever he tells me, because=
+ he is very good at   attracting attention and using that attention to   do=
+ ATM offerings=C2=A0into rising markets.=09Immediately file for the ATM off=
+ering and bang out all the stock to retail investors who are pushing up the=
+ stock price because they=C2=A0are thrilled by whatever Adam Aron suggested=
+.At 11 a.m. today Hycroft=E2=80=99s stock was up about 31% from yesterday=
+=E2=80=99s close, and up 490% from where it was two weeks ago. I assume tha=
+t Hycroft is selling some of that $500 million of stock into that market.On=
+e way to interpret this is that Adam Aron is sort of the Warren Buffett of =
+meme stocks. Yes, sure, in the sense that he is now apparently building a d=
+iversified conglomerate of unrelated businesses. But also, the basic way th=
+at  Warren Buffett works is:=09when he announces an investment in a stock, =
+that stock goes up;=09he knows that, and companies know that;=C2=A0=09he ch=
+arges them for it.If you are Goldman Sachs Group Inc. and there is a financ=
+ial crisis, you might go to Warren Buffett for money. If he invests $5 bill=
+ion, that will validate your business and reassure other investors. This wi=
+ll cause your stock to go up and make it easier for you to raise lots more =
+money at better prices. So it is fine for you to raise the $5 billion from =
+Buffett at a horrible price. Give him a sweet deal, who cares, it will make=
+ everything else better for you.Similarly if you are a micro-cap gold compa=
+ny and you need money to mine gold, you might go to AMC for money. If AMC i=
+nvests $28 million, that will make your stock a meme and attract retail inv=
+estors. This will cause your stock to go up and make it easier for you to r=
+aise lots more money at better prices. So it is fine for you to raise the $=
+28 million from AMC at a horrible price.=C2=A0Give it a sweet deal, who car=
+es, it will make everything else better for you.I=E2=80=99m not sure how sw=
+eet AMC=E2=80=99s deal was on a fundamental basis or anything, but the gist=
+ of it is that AMC is paying $1.193 per share for about 23.4 million shares=
+; it is also getting warrants to buy another 23.4 million shares for $1.068=
+ each. That $1.193 price is about a 14% discount to yesterday=E2=80=99s clo=
+sing price, but yesterday=E2=80=99s price isn=E2=80=99t what matters; what =
+matters is that the stock rallied today=C2=A0on the news. At 11 a.m. the st=
+ock was at about $1.82, giving AMC a paper profit of about $32 million on i=
+ts $28 million commitment.[5] In like four hours!=C2=A0Your model here coul=
+d be that Adam Aron is very good at meme-stocking, but at some point there =
+are diminishing returns for him to keep meme-stocking AMC. But he can=C2=A0=
+rent=C2=A0his meme-stocking prowess to=C2=A0other=C2=A0companies, and charg=
+e them for it, and=C2=A0that will create additional value for AMC. If he do=
+es a deal like this once a week =E2=80=94=C2=A0a grueling schedule of meme-=
+ing, but I bet he=E2=80=99s up for it =E2=80=94 that=E2=80=99s like $1.6 bi=
+llion of annual revenue for AMC. That=E2=80=99s more than it made selling m=
+ovie tickets last year.Or as Aron put it in the press release:To state the =
+obvious, one would not normally think that a movie theatre company=E2=80=99=
+s core competency includes gold or silver mining. In recent years, however,=
+ AMC Entertainment has had enormous success and demonstrated expertise in g=
+uiding a company with otherwise valuable assets through a time of severe li=
+quidity challenge, the raising of capital, and strengthening of balance she=
+ets, as well as communicating with individual retail investors. It is all t=
+hat experience and skill that we bring to the table to assist the talented =
+mining professionals at Hycroft.AMC=E2=80=99s core competency isn=E2=80=99t=
+ gold mining,=C2=A0but it isn=E2=80=99t running movie theaters either. It i=
+s using the meme-stock mechanism to raise money, and now it is in the busin=
+ess of selling that expertise to other companies. AMC is=C2=A0an investment=
+ bank, or really a merchant bank that helps small companies=C2=A0do meme-dr=
+iven at-the-market offerings and takes equity for its fee. It=E2=80=99s a w=
+eird niche, but I guess a lucrative one. Certainly it diversifies AMC=E2=80=
+=99s cash flows.=C2=A0One thing I like about this model is that it imagines=
+ Adam Aron holding court as a stream of hopeful meme-stock supplicants come=
+ to him to ask for money. Just an absolute Mos Eisley cantina of cannabis e=
+ntrepreneurs and gold miners and NFT artists hanging out outside his door, =
+hoping for his favor.=C2=A0How does he decide? One curious fact about this =
+deal is that the SPAC that took Hycroft public was called Mudrick Capital A=
+cquisition Corp. As the name suggests, Mudrick was sponsored by Jason Mudri=
+ck and Mudrick Capital, a distressed-investing firm. Mudrick is also notabl=
+e for having bought (and resold) a lot of AMC stock during its big meme run=
+ last year. =E2=80=9CEven before Reddit day traders pushed AMC Entertainmen=
+t Holdings Inc.=E2=80=99s stock up 1,400%,=E2=80=9D Bloomberg News  reporte=
+d last June,=C2=A0=E2=80=9CJason Mudrick had been telling the company it sh=
+ould take advantage of the wild rally by selling stock to stay in business.=
+=E2=80=9D That worked out really well for AMC! (Less well for Mudrick  for =
+weird reasons.) You can see why they=E2=80=99d want to do it again.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Elsewhere in meme stocks
+   =20
+ =20
+You know who really did well from last year=E2=80=99s meme stock frenzy?  C=
+itadel Securities:Citadel Securities LP was thrust into the spotlight in 20=
+21, with day traders, lawmakers and regulators all scrutinizing the firm at=
+ the center of one of the U.S. stock market=E2=80=99s wildest periods. They=
+=E2=80=99re about to learn that amid the uproar, the financial giant had it=
+s best year ever.Billionaire Ken Griffin=E2=80=99s stock-trading powerhouse=
+ posted record revenue of $7 billion, as frenzied bouts of volatility helpe=
+d drive up earnings. The figure, disclosed by people familiar with the matt=
+er who declined to be named discussing private information, topped the firm=
+=E2=80=99s previous record of $6.7 billion in 2020, when the pandemic upend=
+ed global markets.Imagine if instead of Eric Sprott, Ken Griffin co-investe=
+d in some micro-cap company with AMC. What a great trade that would be for =
+everyone.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Russia
+   =20
+ =20
+I guess Russia is going to  default on its debt:Russia=E2=80=99s economy is=
+ fraying, its currency has collapsed, and its debt is junk. Next up is a po=
+tential default that could cost investors billions and shut the country out=
+ of most funding markets.Warning lights are flashing as the government kick=
+starts the process of paying $117 million in interest on dollar bonds Wedne=
+sday, a key moment for debt holders who=E2=80=99ve already seen the value o=
+f their investments plunge since Russia invaded Ukraine last month.=C2=A0Th=
+e government says that all debt will be serviced, though it will happen in =
+rubles as long as sanctions =E2=80=94 imposed because of the war =E2=80=94 =
+don=E2=80=99t allow dollar settlements. Failure to pay, or paying in local =
+currency instead of dollars, would start the clock ticking on a potential w=
+ave of defaults on about $150 billion in foreign-currency debt owed by both=
+ the government and Russian companies including Gazprom, Lukoil and Sberban=
+k. =E2=80=A6Signs of looming financial damage are becoming apparent at many=
+ of the world's biggest money managers, including BlackRock Inc. and Pacifi=
+c Investment Management Co. But it=E2=80=99s not likely to be limited to th=
+ese giant funds. Because much of Russia=E2=80=99s debt was rated investment=
+ grade just weeks ago, the securities were pervasive across global fixed-in=
+come portfolios and benchmarks, meaning the impact could ripple across pens=
+ion funds, endowments and foundations.=E2=80=9CThis will be a monumental de=
+fault,=E2=80=9D said Jonathan Prin, a portfolio manager at Greylock Capital=
+ Associates. =E2=80=9CIn dollar terms, it will be the most impactful emergi=
+ng-market default since Argentina=E2=80=99s. In terms of broader market imp=
+act, it=E2=80=99s probably the most broadly felt emerging-market default si=
+nce Russia itself in 1998.=E2=80=9DYeah, I don=E2=80=99t know, I mean. If R=
+ussia doesn=E2=80=99t pay interest tomorrow, or pays it in rubles, will tha=
+t =E2=80=9Cshut the country out of most funding markets=E2=80=9D? Russia is=
+ just unbelievably shut out of most funding markets right now. It is illega=
+l for U.S. financial institutions to buy bonds from=C2=A0Russia or several =
+of its state-owned companies. It is controversial for Western companies to =
+buy oil from Russia.=C2=A0Russia can=E2=80=99t even  access its=C2=A0bank a=
+ccounts=C2=A0in dollars, euros or pounds. Irritating holders of its dollar-=
+ and euro-denominated bonds is just not that high on Russia=E2=80=99s list =
+of concerns.Meanwhile it=E2=80=99s pretty high on those bondholders=E2=80=
+=99 lists of concerns, but it=E2=80=99s so high on their list that they=E2=
+=80=99ve already taken their losses. Those bonds with coupons due tomorrow,=
+ a $1.5 billion 5.857% dollar bond due 2043 and a $3 billion 4.875% dollar =
+bond due 2023, are trading at about 25=C2=A0and 28 cents on the dollar, res=
+pectively. If Russia pays those coupons in dollars, presumably they will tr=
+ade up. If it pays the coupon in rubles, or not at all, I=E2=80=99m not sur=
+e they=E2=80=99ll trade down all that much? Those bonds are basically price=
+d for =E2=80=9Cyou=E2=80=99re not getting any money for a while but let=E2=
+=80=99s see what happens.=E2=80=9D If you own those bonds and don=E2=80=99t=
+ get a coupon tomorrow and panic and sell them, you are way too late.We are=
+ in a weird world of sovereign debt. Historically the reason=C2=A0countries=
+ defaulted on their debt was pretty much that they ran out of money. When t=
+his happened, they would call up their creditors and get in a room to negot=
+iate some sort of restructuring. The creditors would agree to give the coun=
+try more time to pay them less money, and in exchange they=E2=80=99d eventu=
+ally get something. There were many, many ways for this to go wrong, but in=
+ broad strokes it was basically a viable process.=C2=A0But with Russia =E2=
+=80=94=C2=A0and also to some extent with Venezuela=E2=80=99s default in 201=
+7 =E2=80=94 the reason for the default is geopolitical, and there=E2=80=99s=
+ not really a way to get everyone in a room to restructure. If U.S. sanctio=
+ns forbid investors from doing financing transactions with a country, then =
+it is very hard for those investors to negotiate a restructuring. And if Ru=
+ssia is shut out of international financing markets anyway, there is not mu=
+ch incentive for it to negotiate a restructuring anytime soon. In the case =
+of Venezuela, there are state-owned commercial assets abroad (chiefly Citgo=
+, a subsidiary of its state oil company), and so there has been some  legal=
+ maneuvering by creditors to try to seize those assets. In the case of Russ=
+ia, that is considerably less promising. As I  said yesterday:It is a nucle=
+ar power whose president has a history of murdering his opponents abroad wi=
+th polonium. When Argentina defaulted on some foreign debt, a hedge fund fa=
+mously got a court judgment and used it to seize an Argentine naval vessel.=
+ That's a fun lark for a hedge fund! Trying to seize a Russian naval vessel=
+ is not.So the likely outcome is that Russia will not pay interest on those=
+ bonds, or will pay it in rubles. And then those bonds will be in default. =
+And Russia will say =E2=80=9Cwe=E2=80=99re not really in default; our defau=
+lt was caused by the mechanics of the international financial system, not b=
+y our unwillingness or inability to pay.=E2=80=9D (It won=E2=80=99t be enti=
+rely wrong!) And Russia will not be all that interested in negotiating a re=
+structuring as long as it is at war and subject to sanctions, and even if i=
+t was interested its big international creditors won=E2=80=99t really be ab=
+le to negotiate a restructuring anyway. The Financial Times notes:A =E2=80=
+=9Cnormal=E2=80=9D restructuring seems unlikely in Russia=E2=80=99s case. T=
+he sanctions are designed to lock the country out of global bond markets an=
+d the participation of western investors in any new debt sales is forbidden=
+.Instead, investors will probably have to sit tight, writing off their Russ=
+ian bonds and awaiting a de-escalation in the Ukraine conflict that might l=
+ead to an easing of sanctions.=C2=A0So these bonds will be in limbo for a w=
+hile.
+ =20
+   =20
+      Volcano bond
+   =20
+ =20
+Last year El Salvador announced that it would sell a bond linked to Bitcoin=
+. If you buy the bond =E2=80=94=C2=A0it=E2=80=99s sometimes called a =E2=80=
+=9Cvolcano bond=E2=80=9D=C2=A0=E2=80=94=C2=A0then you get:=09an El Salvador=
+ sovereign bond with a below-market coupon,=09an option on some Bitcoin and=
+=09the satisfaction of doing some crypto mumbo-jumbo with El Salvador and i=
+ts =E2=80=9CBitcoin bro=E2=80=9D president Nayib Bukele.=C2=A0At the time o=
+f the announcement I did a little  sum-of-the-parts analysis and found that=
+ quite a lot of the value of the Volcano Bond came from Part 3, the vague s=
+ense of crypto mumbo-jumbo participation. In particular if you just want ex=
+posure to (1) El Salvador sovereign credit and (2) Bitcoin, you could (1) b=
+uy=C2=A0regular=C2=A0El Salvador bonds and (2) buy Bitcoin and put together=
+ an instrument that outperforms the volcano bond in all scenarios. However!=
+ Then you would not get the satisfaction of saying that you own volcano bon=
+ds, which is a very cool name, and which I suppose is also attractive becau=
+se you are hastening the adoption of Bitcoin by sovereign nations, etc. May=
+be this is all worth it to you! But if you just like money, or El Salvador=
+=E2=80=99s credit, or Bitcoin, there are better ways to get more of those t=
+hings.Anyway here=E2=80=99s an update on the volcano bond, which is schedul=
+ed to launch this week:=E2=80=9CIf this is a failure, a lot of doors close,=
+=E2=80=9D said Carlos Acevedo, a former president of El Salvador=E2=80=99s =
+central bank. =E2=80=9CThis issuance is going to define a lot.=E2=80=9DSeve=
+ral institutional investors said they were watching the bond with interest =
+but would not participate, noting that buyers were more likely to be retail=
+ crypto investors. Some analysts think the launch will be delayed but Bukel=
+e=E2=80=99s tight control of Congress means the relevant legislation can be=
+ approved quickly =E2=80=94 the bill to make bitcoin legal tender passed in=
+ a matter of hours. =E2=80=A6The crypto bond will be issued by state therma=
+l energy company La Geo, according to investors and bankers. Americans will=
+ be unable to buy the bonds as they are prohibited from using Bitfinex, the=
+ trading platform which will sell them. In El Salvador=E2=80=99s original p=
+resentation, it said that investments would be allowed in dollar, bitcoin a=
+nd tether.The financial attractions of the bond were limited, analysts said=
+. The bond offers an annual coupon of 6.5 per cent =E2=80=94 much less than=
+ the yield currently available on El Salvador=E2=80=99s sovereign bonds =E2=
+=80=94 plus 50 per cent of the gain in the price of bitcoin after five year=
+s. That made it more suited to investors who want to back El Salvador=E2=80=
+=99s broader crypto experiment rather than seek the best profit, said analy=
+sts.=E2=80=9CIf El Salvador had solid public finances=E2=80=89.=E2=80=89.=
+=E2=80=89.=E2=80=89it [the bitcoin bond] could be a different story,=E2=80=
+=9D Acevedo said. =E2=80=9CAnyone who does a cold analysis will just buy bi=
+tcoin directly.=E2=80=9DYes people who do a cold analysis are very much not=
+ the target buyers of=C2=A0the volcano bonds.
+ =20
+   =20
+      Brady bets
+   =20
+ =20
+I feel like, now that sports gambling is legal and popular in so much of th=
+e U.S., we=E2=80=99re about three years away from a federal law against bet=
+ting on sports using material nonpublic information? Don=E2=80=99t you thin=
+k? Like we talk a lot about insider trading on stocks around here, and we o=
+ften discuss the nuances of U.S. insider trading law and how it sometimes d=
+oes not match up with people=E2=80=99s intuitions about fairness. But broad=
+ly speaking betting on the stock market is a popular U.S. pastime, it is im=
+portant to bettors and regulators that that pastime be perceived as fair, a=
+nd so there are laws that try to make it reasonably fair. Betting on sports=
+ is also a popular U.S. pastime, and becoming much more popular now that it=
+=E2=80=99s much more legal, and it=E2=80=99s going to be increasingly impor=
+tant that it be perceived as fair.=C2=A0And there is going to be political =
+hay to be made by regulating it to make it fairer.Anyway here=E2=80=99s a f=
+un story:On Thursday, while bookmakers and bettors were focused on college =
+basketball tournaments, big wagers on the Tampa Bay Buccaneers to win the S=
+uper Bowl showed up at multiple Las Vegas sportsbooks.Tampa Bay was around =
+a 50-1 long shot when bets upward of $10,000 came in Thursday at the SuperB=
+ook, South Point and Circa Sports. Bookmakers drastically adjusted their od=
+ds, while trying to determine what was behind the flurry of interest in the=
+ Buccaneers. They'd find out three days later, right in the middle of the m=
+adness.=C2=A0At 7:13 p.m. ET, Sunday, just minutes after the bracket for th=
+e NCAA tournament was released, Tom Brady announced he was unretiring and w=
+ould be returning to play for Tampa Bay. ...Chris Andrews, sportsbook direc=
+tor for the South Point in Las Vegas, said he took three bets over the coun=
+ter from the same customer on the Buccaneers to win the Super Bowl just bef=
+ore 3 p.m. Thursday. Andrews said the customer, whom he described as a "str=
+anger," bet on the Bucs at odds of 50-1, 30-1 and 25-1. He declined to offe=
+r additional details about the size of the bets but did acknowledge that he=
+ had a multi-six-figure liability on Tampa Bay. On Sunday, after Brady's an=
+nouncement, Andrews moved the Bucs to 4-1 to win the Super Bowl, making Tam=
+pa Bay the Super Bowl favorite at the South Point."I have a feeling that he=
+ had good information," Andrews said.Circa Sports also took what sportsbook=
+ manager Chris Bennett called a "significant" bet on the Buccaneers to win =
+the Super Bowl at 30-1 on Thursday."I would say confidently that this perso=
+n knew that [Brady] was coming back," Bennett said.Also good:The ball from =
+the last career touchdown pass quarterback Tom Brady threw as a member of t=
+he Tampa Bay Buccaneers has sold for $518,000, according to the auction sit=
+e Lelands.With 3:20 to go in the fourth quarter of the NFC divisional playo=
+ff game against the Los Angeles Rams, Brady heaved a 55-yard touchdown pass=
+ to wide receiver Mike Evans, cutting the Rams' lead to 27-20.Because Brady=
+ had not given any indication that he would retire, and at that point, ther=
+e were only rumors that he was contemplating hanging it up, Evans threw the=
+ ball into the stands. The fan who caught the ball consigned the item.That =
+was like the day before he un-retired. Now it is no longer =E2=80=9Cthe bal=
+l from the last career touchdown pass quarterback Tom Brady threw as a memb=
+er of the Tampa Bay Buccaneers,=E2=80=9D oops. I assume that reduces its va=
+lue though maybe not; maybe =E2=80=9Cthe ball sold one day before Tom Brady=
+ un-retired=E2=80=9D has its own value as a good story. It would have been =
+funnier if Brady had gotten the ball back and auctioned it himself, and the=
+n announced the next day that he wasn=E2=80=99t retiring.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+London Nickel Trading to Restart Wednesday, With Caps on Price Moves. Son B=
+oosts SoftBank Collateral Pledges to 33% of Holdings.=C2=A0Stock Buybacks A=
+re on Course for Another Record. Banks on alert for Russian reprisal cyber =
+attacks on Swift. Ukraine War Has Insurers Worried About Cyber Policies. EU=
+ regulators rule out ban on bank payouts in response to Ukraine crisis. Tig=
+er Global Changes Up Its Private Market Strategy. China  Belt and Road Bank=
+s Halted Overseas Energy Loans Last Year. A Year After Suez Canal Fiasco, B=
+ad Luck Strikes Again for  Evergreen. =E2=80=9CAlien Drone Swarm=E2=80=9D F=
+orm Giant Hovering QR Code Over Austin to Promote =E2=80=98Halo.=E2=80=99If=
+ you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in=
+ your inbox, please=C2=A0subscribe at this link. Or you can subscribe to Mo=
+ney Stuff and other great Bloomberg newsletters here. Thanks![1] If you wan=
+t pure movie-theater exposure you can buy AMC and short Hycroft, ahahahaha,=
+ hahahaha, no, just kidding. It=E2=80=99s a micro-cap=C2=A0meme stock, why =
+would you do that.[2]=C2=A0From its 10-Q for that quarter, filed last Novem=
+ber: =E2=80=9CDuring the first nine months of 2021 we operated a convention=
+al run-of-mine (=E2=80=98ROM=E2=80=99) operation at 2020 pre-commercial sca=
+le using a mix of the Hycroft-owned mining fleet and a rental mining fleet.=
+ As a result of current and expected ongoing cost pressures for many of the=
+ reagents and consumables used at the Hycroft Mine, and the timeline for co=
+mpleting our updated technical studies in early 2022, effective immediately=
+ the Company is discontinuing pre-commercial scale mining at its ROM operat=
+ion. =E2=80=A6 The Company has previously discussed its strategy for develo=
+ping an economic sulfide process for Hycroft. Based on the Company's findin=
+gs to-date, including the analysis completed by an independent third-party =
+research laboratory and the independent reviews by two metallurgical consul=
+tants, the Company does not believe the novel two-stage sulfide heap oxidat=
+ion and leach process (=E2=80=98Novel Process=E2=80=99), as currently desig=
+ned in the 2019 Technical Report, dated July 31 2019 (=E2=80=982019 Technic=
+al Report=E2=80=99), is economic at current metal prices or those metal pri=
+ces used in the 2019 Technical Report.=E2=80=9D[3] Hycroft produced 45,532 =
+ounces of gold in the first nine months of 2021, or about 5,000 ounces per =
+month, according to its most recent financial statements.=C2=A0It continued=
+ operating the mine for about another 40 days before announcing that it was=
+ discontinuing mining on Nov. 10.[4] From today=E2=80=99s 8-K: =E2=80=9CIn =
+February 2022, the Company, along with its third-party consultants, complet=
+ed and filed an Initial Assessment Technical Report Summary for the Hycroft=
+ Mine with an effective date of February 18, 2022 (the =E2=80=982022 Hycrof=
+t TRS=E2=80=99) and prepared in accordance with the Modernization of Proper=
+ty Disclosures for Mining Registrants (the =E2=80=98Modernization Rules=E2=
+=80=99) set forth in subpart 1300 of Regulation S-K, as promulgated by the =
+United States Securities and Exchange Commission (=E2=80=98SEC=E2=80=99). T=
+he 2022 Hycroft TRS provides an Initial Assessment of the mineral resource =
+estimate utilizing a milling and acid pressure oxidation (=E2=80=98Acid POX=
+=E2=80=99) process for sulfide mineralization and heap leaching process for=
+ oxide and transition mineralization. As a result of the milling and Acid P=
+OX process presented in the 2022 Hycroft TRS, as compared to the novel two-=
+step oxidation and heap leap process in the Hycroft Technical Report Heap L=
+eaching Feasibility Study, prepared in accordance with the requirements of =
+the Modernization Rules, with an effective date of July 31, 2019 (the =E2=
+=80=982019 Hycroft TRS=E2=80=99), and the associated fundamental changes to=
+ the assumptions underlying the 2019 Hycroft TRS, the 2022 Hycroft TRS supe=
+rsedes and replaces the 2019 Hycroft TRS and the 2019 Hycroft TRS and infor=
+mation from such 2019 Hycroft TRS should no longer be relied upon.=C2=A0...=
+=C2=A0Upon furnishing the 2022 Hycroft TRS, the Hycroft Mine had measured a=
+nd indicated mineral resources of 9.6 million ounces of gold and 446.0 mill=
+ion ounces of silver and inferred mineral resources of 5.0 million ounces o=
+f gold and 150.4 million ounces of silver, which are contained in oxide, tr=
+ansitional, and sulfide ores. Hycroft does not have comparable mineral rese=
+rves and mineral resources to provide for the prior year or periods due to =
+changes in its intended mining process and the fact that such information w=
+ould have been under the 2019 Hycroft TRS that has been superseded and repl=
+aced by the 2022 Hycroft TRS. As a result, any meaningful comparison of yea=
+r end mineral resources and reserves is not possible.=E2=80=9D[5] That is, =
+23.4 million shares times ($1.82 minus $1.193) is about $14.7 million of pr=
+ofit on the shares; 23.4 million warrants times ($1.82 minus $1.068) is abo=
+ut $17.6 million of profit on the warrants. Strictly that profit is on the =
+$28 million initial investment (for units of shares plus warrants) plus ano=
+ther $25 million that AMC would have to pay to exercise the warrants. Also =
+in the next sentence I say =E2=80=9Cfour hours=E2=80=9D; the press release =
+seems to have gone out a little before 7 a.m. New York time today.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cg3fu4.5iro/ed5e140e.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_22972668_1911541958.1647365510288
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+A gold mineWe haven=E2=80=99t checked in with AMC Entertainment Holdings In=
+c. recently; let=E2=80=99s see what they=E2=80=99re up to: LEAWOOD, Kan.--(=
+BUSINESS WIRE)
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27034348.257604/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNzAzNDM0OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyOTE5NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB9280d6a7" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D27034348&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27291952&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27034348.257604/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMzE1MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMTUmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB77b91d76"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27034348.257604/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNzAzNDM0OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyOTE5NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC8ccc9451" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D27034348&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27291952&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">A gold mine</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">We haven=E2=80=99t checked in with AMC=
+ Entertainment Holdings Inc. recently; let=E2=80=99s see <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly9pbnZlc3Rv=
+ci5hbWN0aGVhdHJlcy5jb20vbmV3c3Jvb20vbmV3cy1kZXRhaWxzLzIwMjIvQU1DLUVudGVydGF=
+pbm1lbnQtSG9sZGluZ3MtSW5jLi1Bbm5vdW5jZXMtU2lnbmlmaWNhbnQtSW52ZXN0bWVudC1CdX=
+lpbmctMjItb2YtSHljcm9mdC1NaW5pbmctSG9sZGluZy1Db3Jwb3JhdGlvbi9kZWZhdWx0LmFzc=
+Hg/607f07ceef4b8524a319a23cBb5e5d3ad" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">what they=E2=80=99re up to</a=
+>:</p><blockquote><p style=3D"margin: 16px 0;">LEAWOOD, Kan.--(BUSINESS WIR=
+E)-- AMC Theatres (NYSE:AMC), the largest theatrical exhibitor in the Unite=
+d States, in Europe &amp; the Middle East, and in the world, today announce=
+d it is buying 22% of Hycroft Mining Holding Corporation (NASDAQ:HYMC) and =
+its 71,000 acre Hycroft Mine in northern Nevada. Independent third-party st=
+udies confirm that the Hycroft Mine has some 15 million ounces of gold depo=
+sits and some 600 million ounces of silver deposit. In addition, AMC will r=
+eceive an additional 23.4 million warrants in Hycroft at $1.07 per share. =
+=E2=80=A6</p><p style=3D"margin: 16px 0;">Commenting on the investment in H=
+ycroft, Adam Aron, chairman and CEO of AMC Entertainment said, =E2=80=9CThe=
+ strength of SPIDER-MAN: NO WAY HOME and THE BATMAN, as well as 2022=E2=80=
+=99s promising industry box office, heighten AMC Entertainment=E2=80=99s co=
+nviction that we are on a glide path to recovery. Our strategic investment =
+being announced today is the result of our having identified a company in a=
+n unrelated industry that appears to be just like AMC of a year ago. It, to=
+o, has rock-solid assets, but for a variety of reasons, it has been facing =
+a severe and immediate liquidity issue. Its share price has been knocked lo=
+w as a result. We are confident that our involvement can greatly help it to=
+ surmount its challenges =E2=80=94 to its benefit, and to ours.=E2=80=9D=C2=
+=A0</p></blockquote><p style=3D"margin: 16px 0;">Ah. Well. I confess that w=
+hen I read the headline I assumed it was a Bitcoin mining company? Really i=
+t should be a nickel mining company? Strike while the meme iron (nickel) is=
+ hot?=C2=A0</p><p style=3D"margin: 16px 0;">There is a reason that we have =
+not checked in with AMC recently. AMC =E2=80=94=C2=A0and GameStop and Dogec=
+oin and non-fungible tokens and the general boom in meme investing=C2=A0=E2=
+=80=94=C2=A0was the great financial market story of 2021, but 2022 has<em>=
+=C2=A0</em>marked a grim return to normal. These days the market cares abou=
+t war and inflation and sovereign default, not whether Adam Aron <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93=
+d3cucmVhZG1hcmdpbnMuY29tL3AvYXBlLWFybWllcy1hbmQtaW52ZXN0b3ItcmVsYXRpb25zP3M=
+9cg/607f07ceef4b8524a319a23cB8f35fc76" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">wore pants on a Zoom intervi=
+ew</a>. The whole meme-stock thing might have been a function of plentiful =
+money and Covid lockdowns, and now it might have run its course. Still =E2=
+=80=9CAMC buys a stake in a micro-cap gold miner=E2=80=9D is an incredible,=
+ like, final exam for the meme stock era. What on earth!</p><p style=3D"mar=
+gin: 16px 0;">First of all, <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/27034348.257604/aHR0cHM6Ly90d2l0dGVyLmNvbS9DRU9BZGFtL3N0YXR1cy8xN=
+TAzNjkxNzEzNDc0NDAwMjU3/607f07ceef4b8524a319a23cB7e11bc3d" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">here is =
+Aron on Twitter</a>:</p><blockquote><p style=3D"margin: 16px 0;">AMC is pla=
+ying on offense again with a bold diversification move. We just purchased 2=
+2% of Hycroft Mining (NASDAQ: HYMC) of northern Nevada. It has 15 million o=
+unces of gold resources! And 600 million ounces of silver resources! Our ex=
+pertise to help them bolster their liquidity.</p></blockquote><p style=3D"m=
+argin: 16px 0;">=E2=80=9CDiversification=E2=80=9D is something of a dirty w=
+ord in modern corporate finance. <em>Investors=C2=A0</em>can diversify. If =
+you want to own=C2=A0<em>both=C2=A0</em>a meme-stock movie-theater chain=C2=
+=A0<em>and=C2=A0</em>a penny-stock gold mine, you can. You can buy AMC on t=
+he stock exchange, you can buy Hycroft on the stock exchange, you can buy b=
+oth in any combination you want. Except that now if you buy AMC you also ge=
+t some Hycroft, whether you like it or not.[1] Aron buying a chunk of Hycro=
+ft for AMC shareholders=C2=A0<em>reduces=C2=A0</em>their choice set.</p><p =
+style=3D"margin: 16px 0;">One reason for a company to diversify is somethin=
+g like: =E2=80=9CWe are in a declining industry, we make good money now but=
+ in the long run we worry, so we=E2=80=99d better get into some new industr=
+ies with a brighter future.=E2=80=9D A thesis like that for AMC might=C2=A0=
+suggest buying a stake in, you know, a streaming service, or a chain of mov=
+ie theaters in the metaverse. Use some of AMC=E2=80=99s entertainment-indus=
+try expertise to move into an adjacent but more futuristic bit of entertain=
+ment. But, nope, a gold mine.</p><p style=3D"margin: 16px 0;">Still you can=
+ sort of gesture at a diversification rationale here. AMC stock is in some =
+sense an ownership share in=C2=A0a chain of movie theaters, but in another =
+sense it is a financial instrument that reflects Adam Aron=E2=80=99s abilit=
+y to do funny stuff that attracts attention and delights people online. The=
+ stock goes up because people online get excited, not because AMC sells mor=
+e movie tickets, and so it makes sense for AMC to expand into new and unrel=
+ated ways to do funny stuff online.</p><p style=3D"margin: 16px 0;">So buyi=
+ng a stake of a gold mine gives AMC some meme diversification. For one thin=
+g, this purchase is itself a funny thing that attracts attention and deligh=
+ts people online. (AMC=E2=80=99s stock was up about 2.5% as of 11 a.m. toda=
+y.) But also, you know, gold has been a meme for millennia; owning a gold m=
+ine just gives you many more opportunities to say stuff and attract attenti=
+on. =E2=80=9CThe Fed has printed too much money and hyperinflation is aroun=
+d the corner, buy movie tickets!=E2=80=9D: sounds weird, right?=C2=A0But =
+=E2=80=9C=E2=80=A6=C2=A0buy gold!=E2=80=9D totally works. Just a huge expan=
+sion of the meme arsenal.</p><p style=3D"margin: 16px 0;">Next: How many ou=
+nces of gold and silver did Hycroft Mining mine and sell last month? If you=
+ answered anything other than =E2=80=9Czero,=E2=80=9D you do not understand=
+ how meme stocks work. <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/27034348.257604/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2=
+FyL2RhdGEvMTcxODQwNS8wMDAxMTA0NjU5MjIwMzM1NTYvdG0yMjkxNzZkMl84ay5odG0/607f0=
+7ceef4b8524a319a23cB62053fc0" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">The answer is zero</a>:</p><blockquot=
+e><p style=3D"margin: 16px 0;">We are not currently conducting commercial m=
+ining operations at the Hycroft Mine. There is no certainty that the minera=
+l resources estimated at the Hycroft Mine will be mined or, if mined, proce=
+ssed profitably. We have no specific plans and cannot currently predict whe=
+n we will be able to bring the Hycroft Mine back into production. The comme=
+rcial viability of the Hycroft Mine is dependent on a number of factors, in=
+cluding metal prices, the availability of and ability to raise capital for =
+development, government policy and regulation and environmental protection,=
+ which are beyond our control. We may not generate commercial-scale revenue=
+s until we bring the Hycroft Mine back into production.</p></blockquote><p =
+style=3D"margin: 16px 0;">To be fair, Hycroft <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9=
+kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTcxODQwNS8wMDAxNzE4NDA1MjEwMDAxMTAvaHltYy=
+0yMDIxMDkzMC5odG0jaTExODI4YjcyNjQ5NTQ4ZDU4YTg2MzMxMmYyYWViZjI0XzE2/607f07ce=
+ef4b8524a319a23cBb522244b" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">sold $31.7 million</a> of gold and silve=
+r in the third quarter of 2021; it=C2=A0<em>does=C2=A0</em>own a mine and=
+=C2=A0<em>was=C2=A0</em>operating it. But it stopped.[2] A rough <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93=
+d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE3MTg0MDUvMDAwMTEwNDY1OTIwMDU4MDg=
+4L3RtMjA3Mjc5LTE0XzQyNGIzLmh0bSN0T1ZF/607f07ceef4b8524a319a23cB1997ceee" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">corporate history of Hycroft</a> is that it operated a gold mine in N=
+evada for a while and then went bankrupt in 2015 due to declining gold pric=
+es. While it was bankrupt it stopped mining gold, but it came out of bankru=
+ptcy and then started mining=C2=A0again in 2019. And then it stopped again =
+late last year.</p><p style=3D"margin: 16px 0;">During the brief window whe=
+n Hycroft was mining gold again, it went public in 2020. Because this is th=
+e final exam of meme stocks, you will not be surprised to learn that it wen=
+t public by merging with a special purpose acquisition company. It had a li=
+mited recent history of producing gold at that point=C2=A0but, because it w=
+ent public by SPAC merger, it was able to market itself on=C2=A0<em>project=
+ed=C2=A0</em>future production. For instance <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNo=
+aXZlcy9lZGdhci9kYXRhLzE3MTg0MDUvMDAwMTEwNDY1OTIwMDU4MDg4L3RtMjA3Mjc5LTE0XzQ=
+yNGIzLmh0bSN0Q1NQRg/607f07ceef4b8524a319a23cB93dbeed9" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">it estimated=
+</a> that it would produce 163,000 ounces of gold in 2021 and 189,000 in 20=
+22. (The actual numbers seem to be maybe=C2=A050,000 or so ounces of gold i=
+n 2021 and zero-ish so far in 2022.[3])</p><p style=3D"margin: 16px 0;">Whe=
+n it went public by SPAC, it was working on a novel process to make the min=
+ing more economical, which is what it touted in its SPAC prospectus.=C2=A0A=
+pparently it has abandoned that process. But it has a new process![4] So it=
+=E2=80=99s raising more money.</p><p style=3D"margin: 16px 0;">Where is it =
+raising that money from? Well, AMC is kicking in about $28 million, <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6L=
+y9pbnZlc3Rvci5hbWN0aGVhdHJlcy5jb20vbmV3c3Jvb20vbmV3cy1kZXRhaWxzLzIwMjIvQU1D=
+LUVudGVydGFpbm1lbnQtSG9sZGluZ3MtSW5jLi1Bbm5vdW5jZXMtU2lnbmlmaWNhbnQtSW52ZXN=
+0bWVudC1CdXlpbmctMjItb2YtSHljcm9mdC1NaW5pbmctSG9sZGluZy1Db3Jwb3JhdGlvbi9kZW=
+ZhdWx0LmFzcHg/607f07ceef4b8524a319a23cCb5e5d3ad" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">and</a> =E2=80=9CE=
+ric Sprott, one of the world=E2=80=99s leading gold and silver investors,=
+=E2=80=9D is kicking in another $28 million. But today Hycroft also <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE3MTg0MDUvMDAwMTEwNDY1OTIyMDMz=
+NjIwL3RtMjI5MTc2ZDFfNDI0YjUuaHRt/607f07ceef4b8524a319a23cBd25599d3" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>filed a prospectus</a> for up to a $500 million at-the-market stock offeri=
+ng. We have talked about ATM offerings before. They are the standard way to=
+ <em>sell meme stocks.=C2=A0</em>As I <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXd=
+zL25ld3NsZXR0ZXJzLzIwMjEtMDctMjcvbWF0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1sb3Jkc3=
+Rvd24taXMtc2VsbGluZy1zb21lLXN0b2NrLWtybTh2OWJxP2NtcGlkPUJCRDAzMTUyMl9NT05FW=
+VNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIy=
+MDMxNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB69ee65b1" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">wrote=C2=A0last year</a>:</p><blockquote><p style=3D"margin: 16px 0;=
+">Whereas an underwritten offering is normally sold to a smallish group of =
+institutional investors who have relationships with the underwriting banks,=
+ an at-the-market offering is sold to absolutely anyone who wants to buy, a=
+nonymously, on the stock exchange. What this means, in particular, is that =
+it is sold to=C2=A0<em>retail investors</em>. And so if you are sort of a m=
+eme-y company, and you want to raise money specifically from your enthusias=
+tic retail investors, at-the-market offerings are the way to go. As we have=
+ discussed, they=E2=80=99re=C2=A0<a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/27034348.257604/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjEtMDEtMDYvdGVzbGEta2VwdC1idXN5LWluLTIwMjA_Y21waWQ9QkJEMDM=
+xNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdX=
+RtX3Rlcm09MjIwMzE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23c=
+B6f6c9418" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">Tesla=E2=80=99s preferred wa=
+y to sell stock</a>, because Tesla has enthusiastic retail investors. When =
+Hertz Global Holdings Inc. did a stock offering=C2=A0<em>while it was in ba=
+nkruptcy</em>, to capitalize on baffling (but=C2=A0<a href=3D"https://link.=
+mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMTIvdGhlLWhlcnR6LWdhbWJsZXJzLXdlc=
+mUtcmlnaHQ_Y21waWQ9QkJEMDMxNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1f=
+c291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZ=
+m/607f07ceef4b8524a319a23cB642610eb" target=3D"_blank" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: solid; background-color: #ccc;">in=
+ hindsight correct</a>!) retail demand, of course=C2=A0<a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDYtMTIvaWYteW91LXdhbnQtaGVydHota=
+GF2ZS1zb21lLWhlcnR6P2NtcGlkPUJCRDAzMTUyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMxNSZ1dG1fY2FtcGFpZ249bW9=
+uZXlzdHVmZg/607f07ceef4b8524a319a23cB1a14e66c" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">it did an ATM</a>. The big 2021 meme stocks =E2=80=94=C2=A0GameStop=
+, AMC Entertainment =E2=80=94=C2=A0have of course done ATMs.</p></blockquot=
+e><p style=3D"margin: 16px 0;">If I ran a micro-cap company and I was looki=
+ng to raise money, here=E2=80=99s what I would do:</p><ol style=3D"list-sty=
+le-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"marg=
+in-bottom: 5px;">Get everything ready to file for a large at-the-market off=
+ering.</li>=09<li style=3D"margin-bottom: 5px;">Ask Adam Aron what I should=
+ do to attract attention to my stock.</li>=09<li style=3D"margin-bottom: 5p=
+x;">Do whatever he tells me, because he is very good at <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMDIvYW1jLWJyaW5ncy1vdXQtdGhl=
+LXBvcGNvcm4_Y21waWQ9QkJEMDMxNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1=
+fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzE1JnV0bV9jYW1wYWlnbj1tb25leXN0dW=
+Zm/607f07ceef4b8524a319a23cB0388c9f7" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">  attracting attention</a> an=
+d using that attention to <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/27034348.257604/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjEtMDYtMDMvYW1jLWhhcy1hLWJpdC1tb3JlLXN0b2NrLXRvLXNlbGw_Y21waWQ9Qk=
+JEMDMxNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0Z=
+XImdXRtX3Rlcm09MjIwMzE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a31=
+9a23cBc90bf879" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">  do ATM offerings</a>=C2=A0into rising markets.</l=
+i>=09<li style=3D"margin-bottom: 5px;">Immediately file for the ATM offerin=
+g and bang out all the stock to retail investors who are pushing up the sto=
+ck price because they=C2=A0are thrilled by whatever Adam Aron suggested.</l=
+i></ol><p style=3D"margin: 16px 0;">At 11 a.m. today Hycroft=E2=80=99s stoc=
+k was up about 31% from yesterday=E2=80=99s close, and up 490% from where i=
+t was two weeks ago. I assume that Hycroft is selling some of that $500 mil=
+lion of stock into that market.</p><p style=3D"margin: 16px 0;">One way to =
+interpret this is that Adam Aron is sort of the Warren Buffett of meme stoc=
+ks. Yes, sure, <a href=3D"https://link.mail.bloombergbusiness.com/click/270=
+34348.257604/aHR0cHM6Ly90d2l0dGVyLmNvbS9tYWNyb2NlcGhhbG9wb2Qvc3RhdHVzLzE1MD=
+M3MTc3NjQ5NTkyOTM0NDk/607f07ceef4b8524a319a23cB6dc0e488" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">in the sen=
+se that</a> he is now apparently building a diversified conglomerate of unr=
+elated businesses. But also, the basic way that <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDMtMDYvc29tZW9uZS1zdG9sZS13YXJyZW4tYnVm=
+ZmV0dC1zLWhhbG8_Y21waWQ9QkJEMDMxNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ=
+1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzE1JnV0bV9jYW1wYWlnbj1tb25leX=
+N0dWZm/607f07ceef4b8524a319a23cB2196bc90" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Warren Buffett works</a=
+> is:</p><ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16=
+px 0;">=09<li style=3D"margin-bottom: 5px;">when he announces an investment=
+ in a stock, that stock goes up;</li>=09<li style=3D"margin-bottom: 5px;">h=
+e knows that, and companies know that;=C2=A0</li>=09<li style=3D"margin-bot=
+tom: 5px;">he charges them for it.</li></ul><p style=3D"margin: 16px 0;">If=
+ you are Goldman Sachs Group Inc. and there is a financial crisis, you migh=
+t <a href=3D"https://link.mail.bloombergbusiness.com/click/27034348.257604/=
+aHR0cHM6Ly93d3cuZ29sZG1hbnNhY2hzLmNvbS9vdXItZmlybS9oaXN0b3J5L21vbWVudHMvMjA=
+wOC1idWZmZXR0LWludmVzdG1lbnQuaHRtbA/607f07ceef4b8524a319a23cB4d2baf1b" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">go to Warren Buffett for money</a>. If he invests $5 billion, that will=
+ validate your business and reassure other investors. This will cause your =
+stock to go up and make it easier for you to raise lots more money at bette=
+r prices. So it is fine for you to raise the $5 billion from Buffett at a h=
+orrible price. Give him a sweet deal, who cares, it will make everything el=
+se better for you.</p><p style=3D"margin: 16px 0;">Similarly if you are a m=
+icro-cap gold company and you need money to mine gold, you might go to AMC =
+for money. If AMC invests $28 million, that will make your stock a meme and=
+ attract retail investors. This will cause your stock to go up and make it =
+easier for you to raise lots more money at better prices. So it is fine for=
+ you to raise the $28 million from AMC at a horrible price.=C2=A0Give it a =
+sweet deal, who cares, it will make everything else better for you.</p><p s=
+tyle=3D"margin: 16px 0;">I=E2=80=99m not sure how sweet AMC=E2=80=99s deal =
+was on a fundamental basis or anything, but <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb=
+2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTcxODQwNS8wMDAxMTA0NjU5MjIwMzM1NTYvdG0yMjkx=
+NzZkMl84ay5odG0/607f07ceef4b8524a319a23cC62053fc0" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">the gist of it</=
+a> is that AMC is paying $1.193 per share for about 23.4 million shares; it=
+ is also getting warrants to buy another 23.4 million shares for $1.068 eac=
+h. That $1.193 price is about a 14% discount to yesterday=E2=80=99s closing=
+ price, but yesterday=E2=80=99s price isn=E2=80=99t what matters; what matt=
+ers is that the stock rallied <em>today=C2=A0</em>on the news. At 11 a.m. t=
+he stock was at about $1.82, giving AMC a paper profit of about $32 million=
+ on its $28 million commitment.[5] In like four hours!=C2=A0</p><p style=3D=
+"margin: 16px 0;">Your model here could be that Adam Aron is very good at m=
+eme-stocking, but at some point there are diminishing returns for him to ke=
+ep meme-stocking AMC. But he can=C2=A0<em>rent=C2=A0</em>his meme-stocking =
+prowess to=C2=A0<em>other=C2=A0</em>companies, and charge them for it, and=
+=C2=A0that will create additional value for AMC. If he does a deal like thi=
+s once a week =E2=80=94=C2=A0a grueling schedule of meme-ing, but I bet he=
+=E2=80=99s up for it =E2=80=94 that=E2=80=99s like $1.6 billion of annual r=
+evenue for AMC. That=E2=80=99s more than it made <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cuc2VjLmdvdi9p=
+eD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTQxMTU3OS8wMDAxNTU4MzcwMjIwMDI1NzcvYW1=
+jLTIwMjExMjMxeDEway5odG0jSXRlbThGaW5hbmNpYWxTdGF0ZW1lbnRzYW5kU3VwcGxlbWVudG=
+FyeQ/607f07ceef4b8524a319a23cB814d2ae1" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">selling movie tickets</a> l=
+ast year.</p><p style=3D"margin: 16px 0;">Or as Aron put it in <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly9pbn=
+Zlc3Rvci5hbWN0aGVhdHJlcy5jb20vbmV3c3Jvb20vbmV3cy1kZXRhaWxzLzIwMjIvQU1DLUVud=
+GVydGFpbm1lbnQtSG9sZGluZ3MtSW5jLi1Bbm5vdW5jZXMtU2lnbmlmaWNhbnQtSW52ZXN0bWVu=
+dC1CdXlpbmctMjItb2YtSHljcm9mdC1NaW5pbmctSG9sZGluZy1Db3Jwb3JhdGlvbi9kZWZhdWx=
+0LmFzcHg/607f07ceef4b8524a319a23cDb5e5d3ad" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">the press release</a>:<=
+/p><blockquote><p style=3D"margin: 16px 0;">To state the obvious, one would=
+ not normally think that a movie theatre company=E2=80=99s core competency =
+includes gold or silver mining. In recent years, however, AMC Entertainment=
+ has had enormous success and demonstrated expertise in guiding a company w=
+ith otherwise valuable assets through a time of severe liquidity challenge,=
+ the raising of capital, and strengthening of balance sheets, as well as co=
+mmunicating with individual retail investors. It is all that experience and=
+ skill that we bring to the table to assist the talented mining professiona=
+ls at Hycroft.</p></blockquote><p style=3D"margin: 16px 0;">AMC=E2=80=99s c=
+ore competency isn=E2=80=99t gold mining,=C2=A0<em>but it isn=E2=80=99t run=
+ning movie theaters either</em>. It is using the meme-stock mechanism to ra=
+ise money, and now it is in the business of selling that expertise to other=
+ companies. AMC is=C2=A0<em>an investment bank</em>, or really a merchant b=
+ank that helps small companies=C2=A0do meme-driven at-the-market offerings =
+and takes equity for its fee. It=E2=80=99s a weird niche, but I guess a luc=
+rative one. Certainly it diversifies AMC=E2=80=99s cash flows.=C2=A0</p><p =
+style=3D"margin: 16px 0;">One thing I like about this model is that it imag=
+ines Adam Aron holding court as a stream of hopeful meme-stock supplicants =
+come to him to ask for money. Just an absolute <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3=
+JnL3dpa2kvTW9zX0Vpc2xleQ/607f07ceef4b8524a319a23cBbe3d3bfe" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">Mos Eis=
+ley cantina</a> of cannabis entrepreneurs and gold miners and NFT artists h=
+anging out outside his door, hoping for his favor.=C2=A0</p><p style=3D"mar=
+gin: 16px 0;">How does he decide? One curious fact about <em>this</em> deal=
+ is that the SPAC that took Hycroft public <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaX=
+Zlcy9lZGdhci9kYXRhLzE3MTg0MDUvMDAwMTEwNDY1OTIwMDU4MDg4L3RtMjA3Mjc5LTE0XzQyN=
+GIzLmh0bQ/607f07ceef4b8524a319a23cBea6d31af" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">was called</a> Mudrick=
+ Capital Acquisition Corp. As the name suggests, <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cuc2VjLmdvdi9B=
+cmNoaXZlcy9lZGdhci9kYXRhLzE3MTg0MDUvMDAwMTU3MTA0OTE4MDAwMDM1L3QxNzAyOTU1LXM=
+xLmh0bQ/607f07ceef4b8524a319a23cBd0553070" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Mudrick was sponsored</a=
+> by Jason Mudrick and Mudrick Capital, a distressed-investing firm. Mudric=
+k is also notable for having bought (and resold) a lot of AMC stock during =
+its big meme run last year. =E2=80=9CEven before Reddit day traders pushed =
+AMC Entertainment Holdings Inc.=E2=80=99s stock up 1,400%,=E2=80=9D Bloombe=
+rg News <a href=3D"https://link.mail.bloombergbusiness.com/click/27034348.2=
+57604/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMDEvY=
+W1jLWNvbGxlY3RzLTI1MC1taWxsaW9uLWJ5LWdpdmluZy1tdWRyaWNrLXMtZnVuZC1hLXF1aWNr=
+LWNhbWVvP2NtcGlkPUJCRDAzMTUyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3N=
+vdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDMxNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg=
+/607f07ceef4b8524a319a23cBf137c8c1" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> reported last June</a>,=C2=A0=
+=E2=80=9CJason Mudrick had been telling the company it should take advantag=
+e of the wild rally by selling stock to stay in business.=E2=80=9D That wor=
+ked out really well for AMC! (Less well for Mudrick <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMTEvbXVkcmljay1zLWFtYy1iZXQtYmFja2Zp=
+cmVzLWFmdGVyLW1lbWUtZnJlbnp5LXdyZWNrcy1oZWRnZXM_Y21waWQ9QkJEMDMxNTIyX01PTkV=
+ZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09Mj=
+IwMzE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB1301b31a" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> for weird reasons</a>.) You can see why they=E2=80=99d want to do i=
+t again.</p><table class=3D"liveintent-sponsored-content" width=3D"auto" ce=
+llpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27034348.257604/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzAzNDM0OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyOTE5NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD2dcb38f6" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27034348&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27291952&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27034348.257604/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNzAzNDM0OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyOTE5NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE2dcb38f6" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D27034348&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27291952&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27034348.257604/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzAzNDM0OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyOTE5NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF1666bf31" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27034348&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27291952&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27034348.257604/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNzAzNDM0OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyOTE5NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG1666bf31" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D27034348&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27291952&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Elsewhere in meme stocks</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">You know who really did well from last=
+ year=E2=80=99s meme stock frenzy? <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/27034348.257604/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2=
+FydGljbGVzLzIwMjItMDMtMTUvY2l0YWRlbC1zZWN1cml0aWVzLW9wZW5zLXVwLWFmdGVyLXJlY=
+29yZC03LWJpbGxpb24td2luZGZhbGw_Y21waWQ9QkJEMDMxNTIyX01PTkVZU1RVRkYmdXRtX21l=
+ZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzE1JnV0bV9jYW1=
+wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB3d5bad4f" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> Citadel S=
+ecurities</a>:</p><blockquote><p style=3D"margin: 16px 0;">Citadel Securiti=
+es LP was thrust into the spotlight in 2021, with day traders, lawmakers an=
+d regulators all scrutinizing the firm at the center of one of the U.S. sto=
+ck market=E2=80=99s wildest periods. They=E2=80=99re about to learn that am=
+id the uproar, the financial giant had its best year ever.</p><p style=3D"m=
+argin: 16px 0;">Billionaire Ken Griffin=E2=80=99s stock-trading powerhouse =
+posted record revenue of $7 billion, as frenzied bouts of volatility helped=
+ drive up earnings. The figure, disclosed by people familiar with the matte=
+r who declined to be named discussing private information, topped the firm=
+=E2=80=99s previous record of $6.7 billion in 2020, when the pandemic upend=
+ed global markets.</p></blockquote><p style=3D"margin: 16px 0;">Imagine if =
+instead of Eric Sprott, Ken Griffin co-invested in some micro-cap company w=
+ith AMC. What a great trade that would be for everyone.</p><table class=3D"=
+liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=
+=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27034348.257604/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNzAzNDM0OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyOTE5NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHaba1abe3" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D27034348&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27291952&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Russia</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I guess Russia is going to <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjItMDMtMTUvd2hhdC1pZi1ydXNzaWEt=
+ZGVmYXVsdHMtb24taXRzLWRlYnQtdWtyYWluZS13YXItc2FuY3Rpb25zLXJpc2stMTUwLWJpbGx=
+pb24_Y21waWQ9QkJEMDMxNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBcbac62d0" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> default on its debt</a>:</p><blockq=
+uote><p style=3D"margin: 16px 0;">Russia=E2=80=99s economy is fraying, its =
+currency has collapsed, and its debt is junk. Next up is a potential defaul=
+t that could cost investors billions and shut the country out of most fundi=
+ng markets.</p><p style=3D"margin: 16px 0;">Warning lights are flashing as =
+the government kickstarts the process of paying $117 million in interest on=
+ dollar bonds Wednesday, a key moment for debt holders who=E2=80=99ve alrea=
+dy seen the value of their investments plunge since Russia invaded Ukraine =
+last month.=C2=A0</p><p style=3D"margin: 16px 0;">The government says that =
+all debt will be serviced, though it will happen in rubles as long as sanct=
+ions =E2=80=94 imposed because of the war =E2=80=94 don=E2=80=99t allow dol=
+lar settlements. Failure to pay, or paying in local currency instead of dol=
+lars, would start the clock ticking on a potential wave of defaults on abou=
+t $150 billion in foreign-currency debt owed by both the government and Rus=
+sian companies including Gazprom, Lukoil and Sberbank. =E2=80=A6</p><p styl=
+e=3D"margin: 16px 0;">Signs of looming financial damage are becoming appare=
+nt at many of the world's biggest money managers, including BlackRock Inc. =
+and Pacific Investment Management Co. But it=E2=80=99s not likely to be lim=
+ited to these giant funds. Because much of Russia=E2=80=99s debt was rated =
+investment grade just weeks ago, the securities were pervasive across globa=
+l fixed-income portfolios and benchmarks, meaning the impact could ripple a=
+cross pension funds, endowments and foundations.</p><p style=3D"margin: 16p=
+x 0;">=E2=80=9CThis will be a monumental default,=E2=80=9D said Jonathan Pr=
+in, a portfolio manager at Greylock Capital Associates. =E2=80=9CIn dollar =
+terms, it will be the most impactful emerging-market default since Argentin=
+a=E2=80=99s. In terms of broader market impact, it=E2=80=99s probably the m=
+ost broadly felt emerging-market default since Russia itself in 1998.=E2=80=
+=9D</p></blockquote><p style=3D"margin: 16px 0;">Yeah, I don=E2=80=99t know=
+, I mean. If Russia doesn=E2=80=99t pay interest tomorrow, or pays it in ru=
+bles, will that =E2=80=9Cshut the country out of most funding markets=E2=80=
+=9D? Russia is just unbelievably shut out of most funding markets right now=
+. It is illegal for U.S. financial institutions to <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly9ob21lLnRyZWFzdX=
+J5Lmdvdi9uZXdzL3ByZXNzLXJlbGVhc2VzL2p5MDEyNw/607f07ceef4b8524a319a23cB51c6a=
+2da" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">buy bonds from=C2=A0Russia</a> or several of its <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly9ob21=
+lLnRyZWFzdXJ5Lmdvdi9uZXdzL3ByZXNzLXJlbGVhc2VzL2p5MDYwOA/607f07ceef4b8524a31=
+9a23cB417667f6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">state-owned companies</a>. It is controversial for =
+Western companies to buy oil from Russia.=C2=A0Russia can=E2=80=99t even <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/27034348.257604/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDItMjgvcnVzc2l=
+hLXMtbW9uZXktaXMtZ29uZT9jbXBpZD1CQkQwMzE1MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPW=
+VtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMTUmdXRtX2NhbXBhaWduP=
+W1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB92ba4335" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> access its=C2=A0=
+</a><em><a href=3D"https://link.mail.bloombergbusiness.com/click/27034348.2=
+57604/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDItM=
+jgvcnVzc2lhLXMtbW9uZXktaXMtZ29uZT9jbXBpZD1CQkQwMzE1MjJfTU9ORVlTVFVGRiZ1dG1f=
+bWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMTUmdXRtX2N=
+hbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cC92ba4335" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">bank ac=
+counts</a>=C2=A0</em>in dollars, euros or pounds. Irritating holders of its=
+ dollar- and euro-denominated bonds is just not that high on Russia=E2=80=
+=99s list of concerns.</p><p style=3D"margin: 16px 0;">Meanwhile it=E2=80=
+=99s pretty high on those bondholders=E2=80=99 lists of concerns, but it=E2=
+=80=99s so high on their list that they=E2=80=99ve already taken their loss=
+es. Those bonds with coupons due tomorrow, a $1.5 billion 5.857% dollar bon=
+d due 2043 and a $3 billion 4.875% dollar bond due 2023, are trading at abo=
+ut 25=C2=A0and 28 cents on the dollar, respectively. If Russia pays those c=
+oupons in dollars, presumably they will trade up. If it pays the coupon in =
+rubles, or not at all, I=E2=80=99m not sure they=E2=80=99ll trade down all =
+that much? Those bonds are basically priced for =E2=80=9Cyou=E2=80=99re not=
+ getting any money for a while but let=E2=80=99s see what happens.=E2=80=9D=
+ If you own those bonds and don=E2=80=99t get a coupon tomorrow and panic a=
+nd sell them, you are way too late.</p><p style=3D"margin: 16px 0;">We are =
+in a weird world of sovereign debt. Historically the reason=C2=A0countries =
+defaulted on their debt was pretty much that they ran out of money. When th=
+is happened, they would call up their creditors and get in a room to negoti=
+ate some sort of restructuring. The creditors would agree to give the count=
+ry more time to pay them less money, and in exchange they=E2=80=99d eventua=
+lly get something. There were many, many ways for this to go wrong, but in =
+broad strokes it was basically a viable process.=C2=A0</p><p style=3D"margi=
+n: 16px 0;">But with Russia =E2=80=94=C2=A0and also to some extent with <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/27034348.257604/aHR0c=
+HM6Ly9tb25leS5jbm4uY29tLzIwMTcvMTEvMTQvbmV3cy9lY29ub215L3ZlbmV6dWVsYS1kZWJ0=
+LWRlZmF1bHQtc3AvaW5kZXguaHRtbA/607f07ceef4b8524a319a23cBef4a5f98" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Venezuela=E2=80=99s default</a> in 2017 =E2=80=94 the reason for the defaul=
+t is geopolitical, and there=E2=80=99s not really a way to get everyone in =
+a room to restructure. If U.S. sanctions forbid investors from doing financ=
+ing transactions with a country, then it is <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cuamRzdXByYS5jb20vc=
+G9zdC9jb250ZW50Vmlld2VyRW1iZWQuYXNweD9maWQ9NDQ5NjU4ZTctOTNmOS00YzVjLTk4NTEt=
+ZGRhM2VhODQyNzkx/607f07ceef4b8524a319a23cB1dcfac02" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">very hard</a> f=
+or those investors to negotiate a restructuring. And if Russia is shut out =
+of international financing markets anyway, there is not much incentive for =
+it to negotiate a restructuring anytime soon. In the case of Venezuela, the=
+re are state-owned commercial assets abroad (chiefly Citgo, a subsidiary of=
+ its state oil company), and so there has been some <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTctMTEtMTMvdmVuZXp1ZWxhbi1kZWJ0LWFuZC1i=
+aXRjb2luLWNsYWltcz9jbXBpZD1CQkQwMzE1MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWl=
+sJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAzMTUmdXRtX2NhbXBhaWduPW1vbm=
+V5c3R1ZmY/607f07ceef4b8524a319a23cB12e9be32" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> legal maneuvering by =
+creditors</a> to try to seize those assets. In the case of Russia, that is =
+considerably less promising. As I <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/27034348.257604/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMjItMDMtMTQvbmlja2VsLWJsb3d1cC1tYWRlLWEtbG90LW9mLXRyb3VibG=
+U_Y21waWQ9QkJEMDMxNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlP=
+W5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzE1JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07c=
+eef4b8524a319a23cBfc584ebf" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> said yesterday</a>:</p><blockquote><p =
+style=3D"margin: 16px 0;">It is a nuclear power whose president has a histo=
+ry of murdering his opponents abroad with polonium. When Argentina defaulte=
+d on some foreign debt, a hedge fund famously got a court judgment and used=
+ it to seize an Argentine naval vessel. That's a fun lark for a hedge fund!=
+ Trying to seize a Russian naval vessel is not.</p></blockquote><p style=3D=
+"margin: 16px 0;">So the likely outcome is that Russia will not pay interes=
+t on those bonds, or will pay it in rubles. And then those bonds will be in=
+ default. And Russia will say =E2=80=9Cwe=E2=80=99re not really in default;=
+ our default was caused by the mechanics of the international financial sys=
+tem, not by our unwillingness or inability to pay.=E2=80=9D (It won=E2=80=
+=99t be entirely wrong!) And Russia will not be all that interested in nego=
+tiating a restructuring as long as it is at war and subject to sanctions, a=
+nd even if it was interested its big international creditors won=E2=80=99t =
+really be able to negotiate a restructuring anyway. The <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cuZnQuY=
+29tL2NvbnRlbnQvOWVkMDMzZjItZWFhNC00Y2NlLTk3NGQtNzg1OTJhMzA3NWFmP3NoYXJlVHlw=
+ZT1ub25naWZ0/607f07ceef4b8524a319a23cB9dfa6b39" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">Financial Times not=
+es</a>:</p><blockquote><p style=3D"margin: 16px 0;">A =E2=80=9Cnormal=E2=80=
+=9D restructuring seems unlikely in Russia=E2=80=99s case. The sanctions ar=
+e designed to lock the country out of global bond markets and the participa=
+tion of western investors in any new debt sales is forbidden.</p><p style=
+=3D"margin: 16px 0;">Instead, investors will probably have to sit tight, wr=
+iting off their Russian bonds and awaiting a de-escalation in the Ukraine c=
+onflict that might lead to an easing of sanctions.=C2=A0</p></blockquote><p=
+ style=3D"margin: 16px 0;">So these bonds will be in limbo for a while.</p>=
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Volcano bond</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Last year El Salvador announced that i=
+t would sell a bond linked to Bitcoin. If you buy the bond =E2=80=94=C2=A0i=
+t=E2=80=99s sometimes called a =E2=80=9Cvolcano bond=E2=80=9D=C2=A0=E2=80=
+=94=C2=A0then you get:</p><ol style=3D"list-style-type: decimal; padding-le=
+ft: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">an El Salva=
+dor sovereign bond with a below-market coupon,</li>=09<li style=3D"margin-b=
+ottom: 5px;">an option on some Bitcoin and</li>=09<li style=3D"margin-botto=
+m: 5px;">the satisfaction of doing some crypto mumbo-jumbo with El Salvador=
+ and its =E2=80=9CBitcoin bro=E2=80=9D president Nayib Bukele.=C2=A0</li></=
+ol><p style=3D"margin: 16px 0;">At the time of the announcement I did a lit=
+tle <a href=3D"https://link.mail.bloombergbusiness.com/click/27034348.25760=
+4/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTEtMjIvY=
+mUtY2FyZWZ1bC13aXRoLXZvbGNhbm8tYm9uZHM_Y21waWQ9QkJEMDMxNTIyX01PTkVZU1RVRkYm=
+dXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzE1JnV=
+0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB230289b5" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ sum-of-the-parts analysis</a> and found that quite a lot of the value of t=
+he Volcano Bond came from Part 3, the vague sense of crypto mumbo-jumbo par=
+ticipation. In particular if you just want exposure to (1) El Salvador sove=
+reign credit and (2) Bitcoin, you could (1) buy=C2=A0<em>regular=C2=A0</em>=
+El Salvador bonds and (2) buy <em>Bitcoin </em>and put together an instrume=
+nt that outperforms the volcano bond in all scenarios. However! Then you wo=
+uld not get the satisfaction of saying that you own volcano bonds, which is=
+ a very cool name, and which I suppose is also attractive because you are h=
+astening the adoption of Bitcoin by sovereign nations, etc. Maybe this is a=
+ll worth it to you! But if you just like money, or El Salvador=E2=80=99s cr=
+edit, or Bitcoin, there are better ways to get more of those things.</p><p =
+style=3D"margin: 16px 0;">Anyway here=E2=80=99s <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cuZnQuY29tL2Nvb=
+nRlbnQvNTk3MjA5OWEtOGE4Yy00YTg1LTgyMTYtOTEyY2Q3OGI3MTBi/607f07ceef4b8524a31=
+9a23cB2fd39d33" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">an update on the volcano bond</a>, which is schedul=
+ed to launch this week:</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=
+=9CIf this is a failure, a lot of doors close,=E2=80=9D said Carlos Acevedo=
+, a former president of El Salvador=E2=80=99s central bank. =E2=80=9CThis i=
+ssuance is going to define a lot.=E2=80=9D</p><p style=3D"margin: 16px 0;">=
+Several institutional investors said they were watching the bond with inter=
+est but would not participate, noting that buyers were more likely to be re=
+tail crypto investors. Some analysts think the launch will be delayed but B=
+ukele=E2=80=99s tight control of Congress means the relevant legislation ca=
+n be approved quickly =E2=80=94 the bill to make bitcoin legal tender passe=
+d in a matter of hours. =E2=80=A6</p><p style=3D"margin: 16px 0;">The crypt=
+o bond will be issued by state thermal energy company La Geo, according to =
+investors and bankers. Americans will be unable to buy the bonds as they ar=
+e prohibited from using Bitfinex, the trading platform which will sell them=
+. In El Salvador=E2=80=99s original presentation, it said that investments =
+would be allowed in dollar, bitcoin and tether.</p><p style=3D"margin: 16px=
+ 0;">The financial attractions of the bond were limited, analysts said. The=
+ bond offers an annual coupon of 6.5 per cent =E2=80=94 much less than the =
+yield currently available on El Salvador=E2=80=99s sovereign bonds =E2=80=
+=94 plus 50 per cent of the gain in the price of bitcoin after five years. =
+That made it more suited to investors who want to back El Salvador=E2=80=99=
+s broader crypto experiment rather than seek the best profit, said analysts=
+.</p><p style=3D"margin: 16px 0;">=E2=80=9CIf El Salvador had solid public =
+finances=E2=80=89.=E2=80=89.=E2=80=89.=E2=80=89it [the bitcoin bond] could =
+be a different story,=E2=80=9D Acevedo said. =E2=80=9CAnyone who does a col=
+d analysis will just buy bitcoin directly.=E2=80=9D</p></blockquote><p styl=
+e=3D"margin: 16px 0;">Yes people who do a cold analysis are very much not t=
+he target buyers of=C2=A0the volcano bonds.</p><table class=3D"header" widt=
+h=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Brady bets</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I feel like, now that sports gambling =
+is legal and popular in so much of the U.S., we=E2=80=99re about three year=
+s away from a federal law against betting on sports using material nonpubli=
+c information? Don=E2=80=99t you think? Like we talk a lot about insider tr=
+ading on stocks around here, and we often discuss the nuances of U.S. insid=
+er trading law and how it sometimes does not match up with <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDMtMTMveW91LWhhdmUtdG8tcGF5L=
+XRoZS1yaWdodC1wZXJzb24_Y21waWQ9QkJEMDMxNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1l=
+bWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzE1JnV0bV9jYW1wYWlnbj1=
+tb25leXN0dWZm/607f07ceef4b8524a319a23cB53467f3d" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">people=E2=80=99s i=
+ntuitions about fairness</a>. But broadly speaking betting on the stock mar=
+ket is a popular U.S. pastime, it is important to bettors and regulators th=
+at that pastime be perceived as fair, and so there are laws that try to mak=
+e it reasonably fair. Betting on sports is also a popular U.S. pastime, and=
+ becoming much more popular now that it=E2=80=99s much more legal, and it=
+=E2=80=99s going to be increasingly important that it be perceived as fair.=
+=C2=A0And there is going to be political hay to be made by regulating it to=
+ make it fairer.</p><p style=3D"margin: 16px 0;">Anyway <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cuZXNwb=
+i5jb20vY2hhbGsvc3RvcnkvXy9pZC8zMzUwMjk4Ni9sYXMtdmVnYXMtc3BvcnRzYm9va3Mtc2F3=
+LXVuZXhwZWN0ZWQtYmlnLWJldHMtdGFtcGEtYmF5LWJ1Y2NhbmVlcnMtd2luLXN1cGVyLWJvd2w=
+tYWhlYWQtdG9tLWJyYWR5LWFubm91bmNlbWVudA/607f07ceef4b8524a319a23cB1d39b406" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">here=E2=80=99s a fun story</a>:</p><blockquote><p style=3D"margin: =
+16px 0;">On Thursday, while bookmakers and bettors were focused on college =
+basketball tournaments, big wagers on the Tampa Bay Buccaneers to win the S=
+uper Bowl showed up at multiple Las Vegas sportsbooks.</p><p style=3D"margi=
+n: 16px 0;">Tampa Bay was around a 50-1 long shot when bets upward of $10,0=
+00 came in Thursday at the SuperBook, South Point and Circa Sports. Bookmak=
+ers drastically adjusted their odds, while trying to determine what was beh=
+ind the flurry of interest in the Buccaneers. They'd find out three days la=
+ter, right in the middle of the madness.=C2=A0</p><p style=3D"margin: 16px =
+0;">At 7:13 p.m. ET, Sunday, just minutes after the bracket for the NCAA to=
+urnament was released, Tom Brady announced he was unretiring and would be r=
+eturning to play for Tampa Bay. ...</p><p style=3D"margin: 16px 0;">Chris A=
+ndrews, sportsbook director for the South Point in Las Vegas, said he took =
+three bets over the counter from the same customer on the Buccaneers to win=
+ the Super Bowl just before 3 p.m. Thursday. Andrews said the customer, who=
+m he described as a "stranger," bet on the Bucs at odds of 50-1, 30-1 and 2=
+5-1. He declined to offer additional details about the size of the bets but=
+ did acknowledge that he had a multi-six-figure liability on Tampa Bay. On =
+Sunday, after Brady's announcement, Andrews moved the Bucs to 4-1 to win th=
+e Super Bowl, making Tampa Bay the Super Bowl favorite at the South Point.<=
+/p><p style=3D"margin: 16px 0;">"I have a feeling that he had good informat=
+ion," Andrews said.</p><p style=3D"margin: 16px 0;">Circa Sports also took =
+what sportsbook manager Chris Bennett called a "significant" bet on the Buc=
+caneers to win the Super Bowl at 30-1 on Thursday.</p><p style=3D"margin: 1=
+6px 0;">"I would say confidently that this person knew that [Brady] was com=
+ing back," Bennett said.</p></blockquote><p style=3D"margin: 16px 0;">Also =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27034348.257604/aH=
+R0cHM6Ly93d3cuZXNwbi5jb20vbmZsL3N0b3J5L18vaWQvMzM0OTM0MTEvcmV0aXJlZC1xYi10b=
+20tYnJhZHktZmluYWwtdG91Y2hkb3duLWJhbGwtZ29lcy01MThrLWF1Y3Rpb24/607f07ceef4b=
+8524a319a23cB84466ef4" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">good</a>:</p><blockquote><p style=3D"margin:=
+ 16px 0;">The ball from the last career touchdown pass quarterback Tom Brad=
+y threw as a member of the Tampa Bay Buccaneers has sold for $518,000, acco=
+rding to the auction site Lelands.</p><p style=3D"margin: 16px 0;">With 3:2=
+0 to go in the fourth quarter of the NFC divisional playoff game against th=
+e Los Angeles Rams, Brady heaved a 55-yard touchdown pass to wide receiver =
+Mike Evans, cutting the Rams' lead to 27-20.</p><p style=3D"margin: 16px 0;=
+">Because Brady had not given any indication that he would retire, and at t=
+hat point, there were only rumors that he was contemplating hanging it up, =
+Evans threw the ball into the stands. The fan who caught the ball consigned=
+ the item.</p></blockquote><p style=3D"margin: 16px 0;">That was like the d=
+ay before he un-retired. Now it is no longer =E2=80=9Cthe ball from the las=
+t career touchdown pass quarterback Tom Brady threw as a member of the Tamp=
+a Bay Buccaneers,=E2=80=9D oops. I assume that reduces its value though may=
+be not; maybe =E2=80=9Cthe ball sold one day before Tom Brady un-retired=E2=
+=80=9D has its own value as a good story. It would have been funnier if Bra=
+dy had gotten the ball back and auctioned it himself, and then announced th=
+e next day that he wasn=E2=80=99t retiring.</p><table class=3D"header" widt=
+h=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">London <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY=
+2xlcy9sb25kb24tbmlja2VsLXRyYWRpbmctdG8tcmVzdGFydC13ZWRuZXNkYXktd2l0aC1jYXBz=
+LW9uLXByaWNlLW1vdmVzLTExNjQ3MzE5ODQ2P21vZD1ocF9sZWFkX3BvczY/607f07ceef4b852=
+4a319a23cB8c35e4a5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Nickel Trading</a> to Restart Wednesday, With=
+ Caps on Price Moves. Son Boosts <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/27034348.257604/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjItMDMtMTUvc29uLWJvb3N0cy1zb2Z0YmFuay1jb2xsYXRlcmFsLXBsZWRnZXM=
+tdG8tMzMtb2YtaG9sZGluZ3M_Y21waWQ9QkJEMDMxNTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT=
+1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMzE1JnV0bV9jYW1wYWlnb=
+j1tb25leXN0dWZm/607f07ceef4b8524a319a23cBd4cdc3f2" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">SoftBank Collate=
+ral Pledges</a> to 33% of Holdings.=C2=A0<a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xl=
+cy9zdG9jay1idXliYWNrcy1hcmUtb24tY291cnNlLWZvci1hbm90aGVyLXJlY29yZC0xMTY0NzM=
+wNDQ5NT9tb2Q9aHBfbGVhZF9wb3Mz/607f07ceef4b8524a319a23cB86afeb0c" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Stock Buybacks</a> Are on Course for Another Record. Banks on alert for Rus=
+sian reprisal <a href=3D"https://link.mail.bloombergbusiness.com/click/2703=
+4348.257604/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYTJiZGJhM2ItZjFkZC00YzlmLWE=
+wZGUtOWZmZmY2ZTc0NGU0/607f07ceef4b8524a319a23cB9c729a83" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">cyber atta=
+cks on Swift</a>. Ukraine War Has Insurers Worried About <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cud3Nq=
+LmNvbS9hcnRpY2xlcy91a3JhaW5lLXdhci1oYXMtaW5zdXJlcnMtd29ycmllZC1hYm91dC1jeWJ=
+lci1wb2xpY2llcy0xMTY0NzI1MjE4MD9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b852=
+4a319a23cB7fa0aecd" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Cyber Policies</a>. EU regulators rule out ba=
+n on <a href=3D"https://link.mail.bloombergbusiness.com/click/27034348.2576=
+04/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNjNiOTY5NzYtMjMzYS00N2VjLTkxOWEtYzEx=
+OTJlYjQwNzFl/607f07ceef4b8524a319a23cBa796f567" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">bank payouts</a> in=
+ response to Ukraine crisis. Tiger Global Changes Up Its <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cuaW5z=
+dGl0dXRpb25hbGludmVzdG9yLmNvbS9hcnRpY2xlL2IxeDUxajA1ZjZ3NmxqL1RpZ2VyLUdsb2J=
+hbC1DaGFuZ2VzLVVwLUl0cy1Qcml2YXRlLU1hcmtldC1TdHJhdGVneQ/607f07ceef4b8524a31=
+9a23cB3ea4bf70" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">Private Market Strategy</a>. China <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMTUvY2hpbmEtYmVsdC1hbmQtcm9hZ=
+C1iYW5rcy1oYWx0ZWQtb3ZlcnNlYXMtZW5lcmd5LWxvYW5zLWxhc3QteWVhcj9jbXBpZD1CQkQw=
+MzE1MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ=
+1dG1fdGVybT0yMjAzMTUmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a2=
+3cBb529d077" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> Belt and Road Banks</a> Halted Overseas Energy Loans =
+Last Year. A Year After Suez Canal Fiasco, Bad Luck Strikes Again for <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDMtMTQvZXZlcmdyZWVuLX=
+NoaXAtZ2V0cy1zdHVjay1uZWFyLXUtcy1wb3J0LWEteWVhci1wb3N0LXN1ZXotZmlhc2NvP2Ntc=
+GlkPUJCRDAzMTUyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdz=
+bGV0dGVyJnV0bV90ZXJtPTIyMDMxNSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b=
+8524a319a23cB5c1b9454" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> Evergreen</a>. =E2=80=9CAlien Drone Swarm=
+=E2=80=9D Form <a href=3D"https://link.mail.bloombergbusiness.com/click/270=
+34348.257604/aHR0cHM6Ly93d3cuaG9sbHl3b29kcmVwb3J0ZXIuY29tL3R2L3R2LW5ld3MvaG=
+Fsby1zeHN3LWRyb25lcy0xMjM1MTEwODgyLw/607f07ceef4b8524a319a23cB55911e5c" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">Giant Hovering QR Code</a> Over Austin to Promote =E2=80=98Halo.=E2=80=
+=99</p><p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consum=
+er-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy emai=
+l form, right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/27034348.257604/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdi=
+dXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2Z=
+mY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB80cb8118" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">subscribe at this link</a>. Or you can subscribe to=
+ Money Stuff and other great Bloomberg newsletters <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly9sb2dpbi5ibG9vbW=
+JlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB4ce6a484" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em><=
+/span></p><p style=3D"margin: 16px 0;"><em>[1] If you want pure movie-theat=
+er exposure you can buy AMC and short Hycroft, ahahahaha, hahahaha, no, jus=
+t kidding. It=E2=80=99s a micro-cap=C2=A0meme stock, why would you do that.=
+</em></p><p style=3D"margin: 16px 0;"><em>[2]=C2=A0From <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cuc2VjL=
+mdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTcxODQwNS8wMDAxNzE4NDA1MjEwMDAx=
+MTAvaHltYy0yMDIxMDkzMC5odG0jaTExODI4YjcyNjQ5NTQ4ZDU4YTg2MzMxMmYyYWViZjI0Xzk=
+x/607f07ceef4b8524a319a23cB78cf3dd7" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">its 10-Q for that quarter</a>,=
+ filed last November: =E2=80=9CDuring the first nine months of 2021 we oper=
+ated a conventional run-of-mine (=E2=80=98ROM=E2=80=99) operation at 2020 p=
+re-commercial scale using a mix of the Hycroft-owned mining fleet and a ren=
+tal mining fleet. As a result of current and expected ongoing cost pressure=
+s for many of the reagents and consumables used at the Hycroft Mine, and th=
+e timeline for completing our updated technical studies in early 2022, effe=
+ctive immediately the Company is discontinuing pre-commercial scale mining =
+at its ROM operation. =E2=80=A6 The Company has previously discussed its st=
+rategy for developing an economic sulfide process for Hycroft. Based on the=
+ Company's findings to-date, including the analysis completed by an indepen=
+dent third-party research laboratory and the independent reviews by two met=
+allurgical consultants, the Company does not believe the novel two-stage su=
+lfide heap oxidation and leach process (=E2=80=98Novel Process=E2=80=99), a=
+s currently designed in the 2019 Technical Report, dated July 31 2019 (=E2=
+=80=982019 Technical Report=E2=80=99), is economic at current metal prices =
+or those metal prices used in the 2019 Technical Report.=E2=80=9D</em></p><=
+p style=3D"margin: 16px 0;"><em>[3] Hycroft produced <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/27034348.257604/aHR0cHM6Ly93d3cuc2VjLmdv=
+di9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTcxODQwNS8wMDAxNzE4NDA1MjEwMDAxMTA=
+vaHltYy0yMDIxMDkzMC5odG0jaTExODI4YjcyNjQ5NTQ4ZDU4YTg2MzMxMmYyYWViZjI0Xzkx/6=
+07f07ceef4b8524a319a23cC78cf3dd7" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">45,532 ounces of gold</a> in the =
+first nine months of 2021, or about 5,000 ounces per month, according to it=
+s most recent financial statements.=C2=A0It continued operating the mine fo=
+r about another 40 days before <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/27034348.257604/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci=
+9kYXRhLzE3MTg0MDUvMDAwMTcxODQwNTIxMDAwMTA3L2J1c2luZXNzYW5kb3BlcmF0aW5ndXBkY=
+S5odG0/607f07ceef4b8524a319a23cBbc16593c" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">announcing</a> that it w=
+as discontinuing mining on Nov. 10.</em></p><p style=3D"margin: 16px 0;"><e=
+m>[4] From <a href=3D"https://link.mail.bloombergbusiness.com/click/2703434=
+8.257604/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMT=
+cxODQwNS8wMDAxMTA0NjU5MjIwMzM1NTYvdG0yMjkxNzZkMl84ay5odG0/607f07ceef4b8524a=
+319a23cD62053fc0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">today=E2=80=99s 8-K</a>: =E2=80=9CIn February 202=
+2, the Company, along with its third-party consultants, completed and filed=
+ an Initial Assessment Technical Report Summary for the Hycroft Mine with a=
+n effective date of February 18, 2022 (the =E2=80=982022 Hycroft TRS=E2=80=
+=99) and prepared in accordance with the Modernization of Property Disclosu=
+res for Mining Registrants (the =E2=80=98Modernization Rules=E2=80=99) set =
+forth in subpart 1300 of Regulation S-K, as promulgated by the United State=
+s Securities and Exchange Commission (=E2=80=98SEC=E2=80=99). The 2022 Hycr=
+oft TRS provides an Initial Assessment of the mineral resource estimate uti=
+lizing a milling and acid pressure oxidation (=E2=80=98Acid POX=E2=80=99) p=
+rocess for sulfide mineralization and heap leaching process for oxide and t=
+ransition mineralization. As a result of the milling and Acid POX process p=
+resented in the 2022 Hycroft TRS, as compared to the novel two-step oxidati=
+on and heap leap process in the Hycroft Technical Report Heap Leaching Feas=
+ibility Study, prepared in accordance with the requirements of the Moderniz=
+ation Rules, with an effective date of July 31, 2019 (the =E2=80=982019 Hyc=
+roft TRS=E2=80=99), and the associated fundamental changes to the assumptio=
+ns underlying the 2019 Hycroft TRS, the 2022 Hycroft TRS supersedes and rep=
+laces the 2019 Hycroft TRS and the 2019 Hycroft TRS and information from su=
+ch 2019 Hycroft TRS should no longer be relied upon.=C2=A0...=C2=A0Upon fur=
+nishing the 2022 Hycroft TRS, the Hycroft Mine had measured and indicated m=
+ineral resources of 9.6 million ounces of gold and 446.0 million ounces of =
+silver and inferred mineral resources of 5.0 million ounces of gold and 150=
+.4 million ounces of silver, which are contained in oxide, transitional, an=
+d sulfide ores. Hycroft does not have comparable mineral reserves and miner=
+al resources to provide for the prior year or periods due to changes in its=
+ intended mining process and the fact that such information would have been=
+ under the 2019 Hycroft TRS that has been superseded and replaced by the 20=
+22 Hycroft TRS. As a result, any meaningful comparison of year end mineral =
+resources and reserves is not possible.=E2=80=9D</em></p><p style=3D"margin=
+: 16px 0;"><em>[5] That is, 23.4 million shares times ($1.82 minus $1.193) =
+is about $14.7 million of profit on the shares; 23.4 million warrants times=
+ ($1.82 minus $1.068) is about $17.6 million of profit on the warrants. Str=
+ictly that profit is on the $28 million initial investment (for units of sh=
+ares plus warrants) plus another $25 million that AMC would have to pay to =
+exercise the warrants. Also in the next sentence I say =E2=80=9Cfour hours=
+=E2=80=9D; the press release seems to have gone out a little before 7 a.m. =
+New York time today.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27034348.257604/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBafc6ed05" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27034348.257604/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBa4a154a7" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27034348.257604/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB066a179f" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27034348.257604/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB13ca155f" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27034348.257604/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNzAzNDM0OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjcyOTE5NTImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI410b3069" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D27034348&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27291952&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2703434=
+8.257604/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBa00af9bd" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/27034348.257604/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCffcd253c" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/27034348.257604/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB1c1c29a9" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/27034348.257604/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB00d0b99b" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27034348.257604/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB2=
+b069535" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/27034348.257604/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB2=
+50b2046" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D270343=
+48&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27291952&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D270343=
+48&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27291952&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D270343=
+48&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27291952&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D270343=
+48&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27291952&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D270343=
+48&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D27291952&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cg3fu4.5iro/ed5e140e.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_22972668_1911541958.1647365510288--
+

@@ -1,0 +1,1481 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:3ec8:0:b029:f4:4708:ac4 with SMTP id s8csp4313873lkd;
+        Tue, 11 May 2021 10:21:47 -0700 (PDT)
+X-Received: by 2002:a17:907:d25:: with SMTP id gn37mr31504042ejc.538.1620753707138;
+        Tue, 11 May 2021 10:21:47 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1620753707; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=h5RdvmVtRlsYTkMk4HfS02BNTDcTK/kBnP7cGn7fQk16GeU1s2TGKltXj7I/barjQo
+         0NWEN0xD6WXUbazdodxefU5f2T5MCeUG/5rznv9fQ789wsCESy1agEFd3f+RDH4f5K1f
+         UaW3Nw9PEnZFtBxCVWAbzhr3iAGwZdEIt1YhGuf9wHxqwmS5FInrGPzCTEwZS+viaq/R
+         jxas1yocPzExHcrLT583PugvdYZ74w9Ed1SXHhyJoQTr5lGyOO6gF0VuOvC2tEZ6ImN7
+         qwZP9fwK9ugKsEtPxKRXDOf6Hj5nXXFin8FmqqnAcrmKY4DgLzjWAIUuF7eKnUEga2S/
+         +i4w==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=IFZlzHmDAbZ2lr48HfBUyD66IuDQKs/oAaYcLwkVEIo=;
+        b=0K/wv7w09Wo9DSrDbqWeydLAhxkEsIhKJ453G7kzD3NRNbE2mgftSIcBz7MBmjuGcl
+         hOlPR2NGJubmDaTKQ3DAwC5fT5OT6qvdDOtaKWMGy4mjpoWXdUJhAj5W9SVSnRRy1cSZ
+         0K9kMGD3DocgTXsRxHL4mXMJYEUlSHbOgn3Ipyf4zYEiPKaIwDR1v7XF2ZkdOSHNSmhg
+         l4W5p1h04yd7E2IdcTbEKMJbcLIt2P0Z0J/IGKhmcliIVlUAb41pfZ4PWRR0IqNkWxyb
+         Dl8GYMKeHiDJ8ASPMDm42fhvrRdIJCTmBbKlYvk9TiBZC2B9cvmQwoRq48gipmaX8Ahq
+         cRMw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=spSlif8I;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id lh11sor9873837ejb.42.2021.05.11.10.21.47
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 11 May 2021 10:21:47 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=spSlif8I;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=IFZlzHmDAbZ2lr48HfBUyD66IuDQKs/oAaYcLwkVEIo=;
+        b=uUgvEWDrG0YGAv9F3fSdq5YZQ0mqOBoNllQFmJMRQ1juMxkBbnxQyBsMT9rIQwiwZS
+         7INwdoe8TT1v64FeZauEhkvuvpyWnI5FdrtPmAtx76ZtAriEUsitCD9551TCwNhVQmoS
+         xxz0kAWIb+4uCFZAZeY6s8cnGkJvT/E9q5r+LLAA0oRJB6pBZAR4j3n/ka8pZhAD7pr9
+         fCWHHemHJaos6WBZXHEnZC+tZxFFLGqHF85CtR5b0BtzPx5XP3yRZv+OBXKi6WogI4q9
+         xzaCm3eyWdwZ63fDV6h1lH+uz5ufD2ZYBxPCAX+zh8hrjwvcV4vGq6uiG2N6Jz43+3g+
+         U+1g==
+X-Gm-Message-State: AOAM532MltR8SBhzWloQoVYk9C4HHFmKEewDZyVrjMOlg45KFdaOQCdr
+	SMdWzsaFA9B/oUmk6HaG4ljtIkLOdbxQwUpfKUXOQOIrYetK/aXeZA==
+X-Received: by 2002:a17:907:7749:: with SMTP id kx9mr33351991ejc.90.1620753706857;
+        Tue, 11 May 2021 10:21:46 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:3b92:0:0:0:0:0 with SMTP id h18csp4481847ecn;
+        Tue, 11 May 2021 10:21:44 -0700 (PDT)
+X-Received: by 2002:a9d:7593:: with SMTP id s19mr27803175otk.268.1620753704000;
+        Tue, 11 May 2021 10:21:44 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1620753703; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=kxDq2vLINHF/vQVHhpOLViA9PWxX00en5J3hsdK+VIqdNOOKGc9rm/DNEN5quJDkLW
+         F8GD3jj1ocO9J6PlKSRKMw1LrE88zB5uwtlpWrwAc/giZEa3N6rUQXsaKrr4S1Wjjv0z
+         rwu4XSp8iJ6Xgi4hzbcalozqi7wdyq/hW9LelLj+p0Yb01pq1SSNuPOTGedq5zlwN2qE
+         p6CxOKoGv6hjQ5Qu8P8cPynk4+2Kz1MySb/0RnH3ihuMkycuF+BX9JUtt3nduuyZe5LA
+         Ni1rsCeUGS77qf6fnSTHAoqbefbkVpuKswK63J1s+ShPC+p38opJGzeBdZL+Hp2rR4gP
+         76WQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=IFZlzHmDAbZ2lr48HfBUyD66IuDQKs/oAaYcLwkVEIo=;
+        b=SyMbzYmfFq/U5TuYMPzwYeHLazV7v5duv98CDAbgPredd4MXuJBweXrTWPpYGBYgS/
+         5vE8L9Rttx+eQ+dg+sMYwlvFv0ACAp3Hpl2lm2MM1cpMIWHy/fLR3Cul252/uPhczHVb
+         yCA/g/DhSHKMIeytnqnJOB8M5ePql1E7CLVPf7V5yMyewVGEGrwGlWuUKvGWDVkUPaq8
+         m8dVMC5ZOqo7EDjl0DglNr4rj3aN47RyIyUosq5ZjXXLufa+dSnvaw1qdk21FVkfiqDv
+         QU0x5uNk9RIvMW7V2NldsooZltyB7ViYSiToYnP4yIJNL7nh9lp2xWKiRQidNq+2wWep
+         HQLQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=spSlif8I;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210511124455.23810341.264122@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210511124455.23810341.264122@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210511124455.23810341.264122@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id b11sor7287402ooq.11.2021.05.11.10.21.43
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 11 May 2021 10:21:43 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210511124455.23810341.264122@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJwFsU0KIhXU8s8RK8nEojFE/v2yICqWP8JIqNWIy2Cz3vxt4T5yQrmG0Kjuv/B/xsAJDKX6CjEm2RLHfMxvIzzfYYiNCQE=
+X-Received: by 2002:a4a:2743:: with SMTP id w3mr24080324oow.29.1620753703625;
+        Tue, 11 May 2021 10:21:43 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1620753703; cv=none;
+        d=google.com; s=arc-20160816;
+        b=r2QDWooxlzUfgg09lfZ9Q/N9dxkB/P744jl4rMxGUwMwmyUQjvQ3In9dO8bmrhPWXb
+         iKnnvfMrNftSnUIaMTlam1/3TBvn83W7dd6QAfBjkD1InNex+Y4jmHI6qJeVZcmxNz1f
+         RGYoC20zro1Dv+37LFICV2TJVf5xXmEaqizm2caKyT3vN1A1spGvXcfELT5MB/EbweGX
+         7mv2GG8yTRpC5ksfNQiyX0fHmuEetEvPdudnjb4hDK+pSgmwigrAxpABiYxvfNioRvGp
+         tH6SFeN7Iq6jFzDLJdYZ7qbbTFG3QcXLK1Ubcl30+X+zgy49Xi6Y09vuuQbZwL+Sj+RJ
+         A/Kg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=IFZlzHmDAbZ2lr48HfBUyD66IuDQKs/oAaYcLwkVEIo=;
+        b=hFFxwfgwooFd1a4uZ9iWnN4KSk60zZWKtuim56wRMr3el0oaxilTgtIusyV370DgN0
+         hEgoJb/NV+kClraFLj/icSkiAL5HcbLcI9UXTo9NQOntGJCN251CgD70i8yruXClcwMr
+         y74GOLycfNUSoXZqFbtqdjxWlQsAdEM9frLC9RS1qmlAOzrW94DZAgTBG5E1zYxFSNuY
+         COsNh3hsFGfj8VqSQuNWV22aqZq7EP9KMV53vajlQYGKF6vQCsGE+qgN9C7FSxxVUUd6
+         YcnbM4BK8+yeCmarME6I/BHGbLv3JbT9TWtcmc5O7f/SvIc9AVDZ8YQAh8E5o786eyG2
+         m3Iw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=spSlif8I;
+       spf=pass (google.com: domain of delivery_20210511124455.23810341.264122@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20210511124455.23810341.264122@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210511124455.23810341.264122@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTP id 4si2015985oiy.5.2021.05.11.10.21.43
+        for <khamel83@gmail.com>;
+        Tue, 11 May 2021 10:21:43 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210511124455.23810341.264122@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=fj7Vx2OcRndh73L2F7tkq/BPcwE=;
+ b=spSlif8IK84iD21wxUyAdt72Jin7GoTdYbskhPhx3GDBp8QCkjGLMHxmum9c+diYdbKZlLL7B/tX
+   GdxVGm9/jibip7ERHTc/tegj2Ec4/oCa/fy+mdQcjOLONo50m3W4P0TDp52v6v/BO13S1Dsexm8Z
+   h2V6djRO9M2yDLz1moU=
+Received: from nj1-wetmaroon.flt (172.18.20.22) by pmta29.sailthru.com id hjauie1qqbss for <bloomberg@khamel.com>; Tue, 11 May 2021 12:44:55 -0400 (envelope-from <delivery_20210511124455.23810341.264122@mx.sailthru.com>)
+Date: Tue, 11 May 2021 12:44:55 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210511124455.23810341.264122@sailthru.com>
+Subject: Money Stuff: Crypto Markets Are Where the Fun Is
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_6851322_646035576.1620751495548"
+Precedence: bulk
+X-TM-ID: 20210511124455.23810341.264122
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wetmaroon.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ce6c6d.5nsq/c7e21ec3
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ce6c6d.5nsq/c7e21ec3>, <mailto:unsubscribe_20210511124455.23810341.264122@mx.sailthru.com>
+X-rpcampaign: stjko23810341
+
+------=_Part_6851322_646035576.1620751495548
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+ =20
+ =20
+  Money Stuff
+ =20
+body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #ffffff !important;
+  }
+}
+[data-ogsc] body {
+  color: #ffffff !important;
+}
+@media (prefers-color-scheme: dark) {
+  .body-component a, .body-component a:visited {
+    color: #ffffff !important;
+    border-bottom: 1px solid #ffffff !important;
+    background-color: #3e3e3e !important;
+  }
+  .body-component h1 a, .body-component h1 a:visited {
+    color: #ffffff !important;
+  }
+}
+
+[data-ogsc] .body-component a, [data-ogsc] .body-component a:visited {
+  color: #ffffff !important;
+  border-bottom: 1px solid #ffffff !important;
+}
+[data-ogsc] .body-component h1 a, [data-ogsc] .body-component h1 a:visited =
+{
+  color: #ffffff !important;
+}
+@media (prefers-color-scheme: dark) {
+  .social-component a {
+    color: #ffffff !important;
+  }
+  .social-component td {
+    border-color: #ffffff !important;
+  }
+}
+
+[data-ogsc] .social-component a {
+  color: #ffffff !important;
+}
+[data-ogsc] .social-component td {
+  border-color: #ffffff !important;
+}
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+             =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+     =20
+     =20
+ =20
+   =20
+      Crypto is fun for tradersA  model that I often use for cryptocurrency=
+ is that it is  rediscovering  traditional  finance: In its early days, cry=
+pto was=C2=A0a brand-new financial system, unsullied by the old evils of ce=
+ntral banking, leverage, regulation, etc.; eventually people realized that =
+some of those things were good, and started reinventing them. One way to re=
+invent finance is for idealistic crypto technologists to invent banking, le=
+verage, regulation, etc., from first principles, with cursory or no knowled=
+ge of how the traditional financial system addressed these issues or why it=
+ rejected other solutions. You would expect this to lead to flawed but inte=
+resting results, whole new ways of doing things that might blow up horribly=
+ but that might instead point the way to a better future.Another way to rei=
+nvent finance is for, like, Wall Street derivatives structurers or high-fre=
+quency traders or securities regulators to say =E2=80=9Cwait, I know this s=
+tuff, lemme go do crypto where it=E2=80=99s easy and no one else knows it.=
+=E2=80=9D Here is  a very fun story from Bloomberg=E2=80=99s Justina Lee:=
+=E2=80=9CAll the fun that used to be had 30 years ago in the commodity mark=
+ets and is no longer fun -- that fun is now in crypto,=E2=80=9D says [forme=
+r Wall Street energy trader Trey Griggs,] the U.S. chief executive officer =
+at GSR Markets in Houston.Griggs is among crypto newcomers deploying system=
+atic strategies that are tried-and-tested in conventional asset classes -- =
+price arbitrage, futures trading, options writing -- in a booming new corne=
+r of finance. As more mainstream investors get behind Bitcoin, boutique fir=
+ms are joining the likes of Mike Novogratz in an ever-broadening crypto ral=
+ly that keeps breaking records. =E2=80=A6Take Mark Treinkman. After a caree=
+r mostly at proprietary stock-trading shops like Chimera Securities, digita=
+l money is renewing his passion for quant trading.=C2=A0=E2=80=9CI=E2=80=99=
+ve been going through some of my old strategies and things that wouldn=E2=
+=80=99t have worked in equities in decades have an edge in crypto still,=E2=
+=80=9D he says.I assume that a lot of these strategies involve very sophist=
+icated intellectual property and instincts built up over decades in high fi=
+nance, but others are just, like, you can simultaneously buy a coin at $80 =
+and sell it for $100:For a few minutes during trading on Wednesday, for exa=
+mple, the price of Ethereum Classic jumped well above $100 on the Coinbase =
+exchange. The digital token was trading at less than $80 at other venues, o=
+ffering an obvious opportunity for investors to make money simply by buying=
+ in one place and selling in another.Or there is money lying around for any=
+one to claim as long as they can confidently use the word =E2=80=9Ccontango=
+=E2=80=9D:And the opportunities pop up everywhere. For instance, when longe=
+r-dated futures in pretty much any asset class trade higher than the spot p=
+rice -- known as contango -- the former almost always converges to the latt=
+er as the contracts mature.That=E2=80=99s popularized the crypto basis trad=
+e, where an investor goes long the spot rate and shorts the futures.When Bi=
+tcoin last peaked in mid-April, the December contracts were nearly 4% highe=
+r than August which were in turn about 2% higher than the spot reference ra=
+te, as speculators unleashed bets on rising prices.=C2=A0Obviously one aspe=
+ct of this story is that if you are a futures trader or electronic market m=
+aker or derivatives structurer in traditional finance, you work very hard t=
+o scratch out a few basis points in a competitive industry. If you move to =
+the much shaggier crypto industry, there is less competition =E2=80=94=C2=
+=A0in the relevant senses of well-capitalized players with good technology =
+and access to leverage and pricing models =E2=80=94=C2=A0and you can potent=
+ially make a lot more money a lot more easily. If you work on Wall Street, =
+you probably like money, so moving to a place that gives you more money is =
+pretty tempting.But another aspect of it is that if you work on Wall Street=
+ =E2=80=94=C2=A0particularly as a derivatives structurer or high-frequency =
+trading developer=C2=A0or securities lawyer =E2=80=94=C2=A0you actually=C2=
+=A0like this stuff. You are there because you are fascinated by structure, =
+because you enjoy puzzling out the technical details of these mechanisms an=
+d trying to find new ways to push on them. In traditional finance this is a=
+ll sort of saturated and competitive: Not only is it hard to get rich by co=
+ming up with a new derivative=C2=A0structure or trading algorithm, but it=
+=E2=80=99s hard to even get the intellectual satisfaction of doing that, be=
+cause so much of what is possible has already been done, and innovation ten=
+ds to be technical and incremental. Whereas in crypto it can feel like more=
+ of a blank slate, or at least, like a different foundation where it takes =
+ingenuity to=C2=A0re-erect the old structures.=C2=A0Neither of these arbitr=
+ages will last forever, of course. Eventually crypto trading will be as com=
+petitive as traditional finance, and innovation in crypto markets will be a=
+s difficult. But for now, if you are in the business of inventing the struc=
+tures of traditional finance,=C2=A0reinventing=C2=A0those structures in cry=
+pto might look like more fun.Elsewhere, a Goldman Dogecoin trader=C2=A0call=
+ed in rich:A managing director is said to have quit Goldman Sachs in London=
+ after making millions at Dogecoin.Sources say that Aziz McMahon, a managin=
+g director and head of emerging market sales at Goldman Sachs in London, ha=
+s resigned, allegedly after making money on Dogecoin the cryptocurrency cha=
+mpioned by Elon Musk whose value rose 72 times between the start of January=
+ and late last week.KYC=C2=A0One thing to think about, if you run a company=
+, is how much crime your company should do.=C2=A0The na=C3=AFve answer woul=
+d be that the optimal level of crime, for any company, is zero: Doing crime=
+s is bad, it is forbidden, you should not do forbidden things, it is a pret=
+ty basic argument.I suppose an occasional theme around here is that this vi=
+ew is not quite right, and that the optimal level of crime for many compani=
+es is somewhat higher than zero. I have  suggested  recently, for instance,=
+ that a venture capitalist should want the level of securities fraud among =
+her portfolio companies to be a bit higher than zero: If some of your found=
+ers aren=E2=80=99t lying to you, you aren=E2=80=99t backing enough bold out=
+-of-consensus founders. If you run an investment bank and you want aggressi=
+ve rainmakers to pursue hard-won business in distant parts of the world, so=
+me of them might do some bribes, and if you cut the level of bribes to zero=
+ it might lead to unacceptable losses of legitimate business. Or just more =
+simply, if you have tens of thousands of employees, some of them will be st=
+ealing office supplies or whatever, and the costs of monitoring might be hi=
+gher than the costs of some crime. In your personal life you might have an =
+=E2=80=9Cabsolutely no crime=E2=80=9D rule, but in a large enough company y=
+our enforcement will necessarily=C2=A0be somewhat statistical, and absolute=
+ly zero crime might be hard to achieve and not worth it.But never mind all =
+of that. What if your company=E2=80=99s business is crime? What if you are =
+a Mafia family, or a ransomware hacking group? Clearly the optimal level of=
+ crime is not zero: If your business is crime, you have to do crime to get =
+revenue. But the optimal level of crime is also not=C2=A0infinite:=C2=A0If =
+you do too many crimes, or crimes that are too bad, you will get in too muc=
+h trouble. Doing more and bigger crimes should increase=C2=A0your crime-bas=
+ed revenue, but it also increases the resources that officials will expend =
+on trying to shut you=C2=A0down, and thus your risks of being stopped and p=
+unished. At some point the lines cross, and you should forego some criminal=
+ revenue in order to keep your legal risk manageable.This is more or less t=
+he same calculation that regular businesses often make=C2=A0=E2=80=94=C2=A0=
+=E2=80=9Cwe don=E2=80=99t want this piece of business, even though it=E2=80=
+=99s very lucrative, because it has too much legal risk=E2=80=9D =E2=80=94=
+=C2=A0just with a different baseline. An ordinary business wants to commit =
+very few felonies, perhaps zero; a crime business wants to commit many. But=
+ they both have to make decisions at the margin, about whether to commit on=
+e more felony.[1]So for instance if you run a ransomware business and shut =
+down, like, a marketing agency or a dating app or a cryptocurrency exchange=
+=C2=A0until it pays you a ransom in Bitcoin, that=E2=80=99s great, that=E2=
+=80=99s good money. A crime, sure, but good money.=C2=A0But if you shut dow=
+n the biggest oil pipeline in the U.S. for days, that=E2=80=99s dangerous, =
+that=E2=80=99s a U.S. national security issue, that gets you too much=C2=A0=
+attention and runs the risk of blowing up your whole business.  So:The Fede=
+ral Bureau of Investigation attributed the massive Colonial Pipeline breach=
+ to ransomware created by a relatively new gang called DarkSide on Monday a=
+s new details emerged about the group accused of carrying out the attack. .=
+..In its own statement, the DarkSide group hinted that an affiliate may hav=
+e been behind the attack and that it never intended to cause such upheaval.=
+ Like some other ransomware groups, DarkSide offers to sell its malware to =
+others in what is known as =E2=80=9Cransomware-as-a-service,=E2=80=9D accor=
+ding to the cybersecurity firm Cybereason.In a message posted on the dark w=
+eb, where DarkSide maintains a site, the group suggested one of its custome=
+rs was behind the attack and promised to do a better job vetting them going=
+ forward.=E2=80=9CWe are apolitical. We do not participate in geopolitics,=
+=E2=80=9D the message says. =E2=80=9COur goal is to make money and not crea=
+ting problems for society. From today, we introduce moderation and check ea=
+ch company that our partners want to encrypt to avoid social consequences i=
+n the future.=E2=80=9DIf you want to use their ransomware software to do cr=
+imes, apparently you have to submit a resume demonstrating that you are goo=
+d at committing crimes. (=E2=80=9CHopeful affiliates are subject to DarkSid=
+e=E2=80=99s rigorous vetting process, which examines the candidate=E2=80=99=
+s =E2=80=98work history,=E2=80=99 areas of expertise, and past profits amon=
+g other things.=E2=80=9D) But not too good! The goal is to bring a midsize =
+company to its knees and extract a large ransom, not to bring society to it=
+s knees and extract terrible vengeance.Imagine being the chief compliance o=
+fficer at DarkSide. People constantly come to you with crimes, and you are =
+commercial, you are like =E2=80=9Csure go ahead do that crime,=E2=80=9D but=
+ occasionally you have to stop them and say =E2=80=9Cno the reputational ri=
+sk of that crime is too great, we can=E2=80=99t do it,=E2=80=9D and the sal=
+es reps grumble that you are getting in the way of business.  Just like at =
+a bank!Or here is an amazing DarkSide compliance story:In November 2020, th=
+ey issued another press release stating they were creating a "sustainable" =
+data leak storage system hosted on servers in Iran.As Iran is on the US san=
+ctions list, this caused ransomware negotiation firms, such as Coveware, to=
+ put DarkSide on their restricted list and no longer negotiate ransom payme=
+nt for this operation."DarkSide's own TOR site announces the intent to use =
+infrastructure hosted within Iran, a sanctioned nexus. The purpose of this =
+infrastructure is to store data stolen from victims of ransom attacks.""It =
+is probable that a portion of the proceeds from any prospective ransom paym=
+ent to DarkSide would be used to pay services providers within Iran. =C2=A0=
+Accordingly, we have placed DarkSide on our restricted list," Coveware CEO =
+Bill Siegel told BleepingComputer.DarkSide eventually had to walk back thei=
+r claims of working with hosting service in Iran for fear of losing ransom =
+payments.See, hacking into companies=E2=80=99 computers and making them use=
+less=C2=A0until you get a Bitcoin ransom is a=C2=A0crime, but it=E2=80=99s =
+a crime that has a legal infrastructure built up around it. You do the crim=
+e, a legal ransomware negotiation firm sends you the money, it all runs on =
+well-maintained tracks. But you move your servers to=C2=A0Iran, and you imp=
+licate a whole different=C2=A0legal regime: Sure sure sure U.S. companies c=
+an pay ransoms to=C2=A0Russian crime syndicates, no problem, but=C2=A0doing=
+ business with Iran=C2=A0=E2=80=94=C2=A0even in the form of sending money t=
+o Russian crime syndicates with servers in Iran =E2=80=94=C2=A0is a whole d=
+ifferent kind of illegal. Nobody can do business with you =E2=80=94=C2=A0ev=
+en criminal business =E2=80=94=C2=A0if it would violate U.S. sanctions on I=
+ran. Doing ransomware is a matter of standard business crime; sending payme=
+nts to Iran is a matter of U.S. national security. You don=E2=80=99t want t=
+hat.Whistle-blowersHere is a slightly stylized description of how the U.S. =
+Commodity Futures Trading Commission=E2=80=99s whistle-blower program works=
+:=09The CFTC extracts fines from companies that do bad things.=09It puts a =
+portion of those fines in a pot labeled =E2=80=9CWhistle-Blower Program.=E2=
+=80=9D=09The pot is capped at $100 million: If the CFTC extracts more fines=
+ than that, they just get paid to the U.S. Treasury.=09Years after extracti=
+ng a fine, the CFTC will pay=C2=A0a percentage of the fine to the whistle-b=
+lower who helped extract it. The fine comes from the pot and reduces the am=
+ount in the pot.=09The pot is not replenished until there is a new fine.=09=
+Oh also the people at the CFTC who work on the whistle-blower program draw =
+their salaries from the pot.This mechanism can work indefinitely if:=09The =
+rate and amount of fines is predictable and steady or rising over time, and=
+=09No single whistle-blower collects close to the entire $100 million.Like,=
+ if you collect $1 billion of fines in the first year, and then pay $100 mi=
+llion of awards to the first-year whistle-blowers in the second year, that =
+is fine as long as you are also collecting $1 billion (or $2 billion, etc.)=
+ of fines in the second year. The pot gets replenished. On the other hand i=
+f you collect $10 billion of fines in the first year, and those whistle-blo=
+wers come to you with claims for $1 billion of awards in the second year, b=
+ut there are no fines in the second year=C2=A0because you did all the finin=
+g already, then you just pay out the $100 million cap and close up shop. Yo=
+u have no money left for the rest of the awards.And because the whistle-blo=
+wer program salaries are paid out of the pot, you literally close up shop: =
+The whistle-blower program officials get furloughed, there=E2=80=99s no one=
+ left to monitor the whistle-blower phone lines, no more whistles get blown=
+, there are fewer investigations, there are no fines to collect in the thir=
+d year, etc.You could imagine a whole range of better solutions. (Instead o=
+f capping the pot at an arbitrary $100 million, why not just make the pot e=
+qual to =E2=80=9Cthe amount of fines we collect, times the percentage we pl=
+an to give to whistle-blowers=E2=80=9D?) But government accounting does not=
+ always pursue the best solutions. Anyway here=E2=80=99s a funny Wall Stree=
+t Journal article:The Commodity Futures Trading Commission=E2=80=99s whistl=
+eblower program is in turmoil over a potential payout exceeding $100 millio=
+n to a former Deutsche Bank AG executive=E2=80=94one so large it would depl=
+ete the agency=E2=80=99s whistleblower funds and has led it to seek congres=
+sional action.The executive had provided information that helped CFTC and J=
+ustice Department investigations that led to roughly $2.5 billion in settle=
+ments with Deutsche Bank in 2015, including $800 million with the CFTC. The=
+y alleged that the bank manipulated the London interbank offered rate, or L=
+ibor, a benchmark interest rate used to set short-term loans for global ban=
+ks. =E2=80=A6Agency leaders have contended there is no mechanism to pay the=
+ bank executive and other applicants and keep funding the whistleblower pro=
+gram.The CFTC pays whistleblowers from money it collects in enforcement pen=
+alties. But the agency=E2=80=99s whistleblower fund can be replenished only=
+ when it falls below $100 million. Penalties collected otherwise typically =
+go into the U.S. Treasury.It would be difficult to quickly replenish the fu=
+nd through new settlements after a large whistleblower award because many o=
+f the agency=E2=80=99s penalties are $5 million or less, according to a per=
+son familiar with the matter.In the abstract, =E2=80=9Ccollect a $2.5 billi=
+on fine and then pay 4% of that to the whistle-blower who brought it in=E2=
+=80=9D would seem=C2=A0good=C2=A0for the agency=E2=80=99s budget: It keeps =
+the other 96% (or gives it to the Treasury, fine); financially, that=E2=80=
+=99s a trade you should be happy with. But the accounting for it =E2=80=94=
+=C2=A0and the long delay between collecting the fines (in 2015) and paying =
+the whistle-blower (in 2021, maybe) =E2=80=94=C2=A0means that instead it is=
+ somehow a crisis.Also:Agency staffers wrote a memo last summer stating tha=
+t the whistleblower did deserve a substantial award, according to the peopl=
+e familiar with the matter.The agency=E2=80=99s whistleblower office could =
+end up furloughed if the fund is depleted. The Government Accountability Of=
+fice in October said there is no other mechanism to fund the office.Some CF=
+TC officials have argued that the agency could find legal solutions, but th=
+e agency=E2=80=99s leadership says there is no other option but to furlough=
+ the whistleblower office staff if the large award is paid, according to th=
+e people familiar with the matter.I have to say that it is sort of impressi=
+ve that an agency=E2=80=99s staff would recommend paying out 100% of its bu=
+dget to a whistle-blower and then furloughing themselves. Like, it was deba=
+table that this whistle-blower actually deserved a payout; the CFTC initial=
+ly denied his claim. The staff could easily have said =E2=80=9Cnope, he doe=
+sn=E2=80=99t deserve it, keep paying us instead.=E2=80=9D Instead, they rec=
+ommended paying the whistle-blower, in effect, out of their own pockets.NFT=
+sI  write a  lot around  here about non-fungible tokens, and particularly a=
+bout the rather salient subset of NFTs that consist of (1) buying a work of=
+ art, (2) lighting it on fire, (3) filming it as it burns, and (4) selling =
+some vague claim to =E2=80=9Cownership=E2=80=9D of the now-nonexistent art =
+as a token on the blockchain. When I write about this I usually try to make=
+ it sound as dumb as possible, but=C2=A0I can=E2=80=99t compete with the pe=
+ople who are actually doing it. Here is a New Yorker Talk of the Town piece=
+ about =E2=80=9CBurnt Banksy,=E2=80=9D the art-world pseudonym of a=C2=A0gu=
+y who originated this kind of NFT when he, uh, burned a Banksy painting. He=
+re he is:=E2=80=9CArt is whatever you want it to be,=E2=80=9D the young man=
+, who goes by the name Burnt Banksy, said, laughing. =E2=80=9CDo I think I=
+=E2=80=99m an artist? Yes and no. I don=E2=80=99t think it=E2=80=99s even r=
+emotely fair to compare me to someone like Banksy. I=E2=80=99m just trying =
+to make a message.=E2=80=9D=C2=A0And:Everything went as planned, except tha=
+t the art work wouldn=E2=80=99t catch fire. Fifty thousand people watched l=
+ive on Twitter as Burnt Banksy struggled to burn a Banksy.=E2=80=9CIt was t=
+he worst thing in the world,=E2=80=9D he said. =E2=80=9CIt took, like, fift=
+een minutes for it to burn. Some of the comments on the video were, like, =
+=E2=80=98This kid=E2=80=99s never burnt down the establishment before!=E2=
+=80=99 =E2=80=9D (Another comment: =E2=80=9CI hate my generation so much lo=
+l.=E2=80=9D )It goes on like that, but I cannot. He bought the Banksy print=
+ for $95,000 and sold the resulting NFT for $380,000. I don=E2=80=99t like =
+it, but I cannot fault the trade here.Incidentally what I said at the top, =
+about traditional Wall Street people getting into crypto because it=E2=80=
+=99s easy and there=E2=80=99s a ton of money involved, goes like a hundredf=
+old for=C2=A0artists. It is definitely true that, for decades, the traditio=
+nal fine-art market supported a certain amount of low-effort conceptual jok=
+ing about the relationship between art and money. Duchamp signed a urinal i=
+n 1917. Rauschenberg=C2=A0erased a de Kooning drawing=C2=A0in 1953. That Ba=
+nksy print that Burnt Banksy burned was called =E2=80=9CMorons,=E2=80=9D fr=
+om 2006; it depicts=C2=A0an auctioneer selling a framed piece saying =E2=80=
+=9CI can=E2=80=99t believe you morons actually buy this,=E2=80=9D plus a sw=
+ear word. =E2=80=9CLol I have done a dumb thing and called it art, now to m=
+ake fun of people for paying for it=E2=80=9D is at least a=C2=A0century-old=
+=C2=A0move in the art world.And so it has been taught in art schools and be=
+come part of the contemporary artistic tradition, to the point that =E2=80=
+=94=C2=A0while I know more derivative structurers than artists =E2=80=94=C2=
+=A0I assume that a lot of young artists got into that racket because they h=
+ave a genuine love for interrogating and parodying the financial structures=
+ that support the art market. And they want to do that interrogating, and a=
+lso get rich, but the space for it has narrowed: That market is saturated, =
+Duchamp already did the urinal, there are only so many new and extreme thin=
+gs you can do to create artworks that make=C2=A0fun of people for buying th=
+em.=C2=A0And then along came NFTs! As crypto reinvented traditional financi=
+al markets, NFTs have reinvented the traditional=C2=A0art market.=C2=A0And =
+as crypto has progressed through centuries of financial history in the last=
+ decade, so NFTs have progressed through centuries of art-world history in =
+like a year, and now a major category of NFT is the conceptual NFT that mak=
+es fun of its owner for buying it. But whereas that move was=C2=A0harder an=
+d harder to do in the regular art world =E2=80=94=C2=A0because it had been =
+done so many times, because artists and critics and collectors were so fami=
+liar with it, because artists themselves wanted to do something=C2=A0new=C2=
+=A0and that move was so old =E2=80=94=C2=A0it has been reinvigorated in the=
+ NFT market. Crypto millionaires had not yet experienced being made fun of =
+for buying NFTs, so it is a novel and exciting experience for them and they=
+ pay a lot for it; artists had not yet created conceptual nothings=C2=A0on =
+the blockchain, so that is an exciting theoretical novelty for them. Also t=
+he money is good.Finance and art are both centuries-old traditions. If you =
+are a practitioner within them, you probably care about those traditions an=
+d find them beautiful, but you also=C2=A0experience them as a burden, limit=
+ing what you can do and restricting radical innovation. Starting over on th=
+e blockchain lets you enjoy the traditions you love while also doing someth=
+ing new.Things happenInside  Pictet, the Secretive Swiss Bank for the World=
+=E2=80=99s Richest People.=C2=A0Robinhood=E2=80=99s Big Gamble.=C2=A0New Am=
+azon bond rivals yield on US Treasuries in record-breaking sale. Biggest Cr=
+ypto Exchange Binance Briefly  Stopped Withdrawals.=C2=A0Meet the academic =
+who has fired up moonshot investing.=C2=A0Commodities boom sends bulk shipp=
+ing costs to decade highs.=C2=A0Vice Media Targets Valuation of Nearly $3 B=
+illion in Proposed SPAC Deal.=C2=A0 Oatly Sees Valuation Possibly Over $10 =
+Billion as U.S. IPO Nears. Bennifer are back. Odd Lots  blog. Elon Musk and=
+ Grimes party with Miley Cyrus at crypto-themed =E2=80=98SNL=E2=80=99 bash.=
+ =E2=80=9CAn Italian television personality who claims the title Prince of =
+Venice, which is also the name of his Los Angeles restaurant and former foo=
+d truck.=E2=80=9DIf you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy e=
+mail form, right in your inbox, please=C2=A0subscribe at this link. Or you =
+can subscribe to Money Stuff and other great Bloomberg newsletters here. Th=
+anks![1] For a legal business it=E2=80=99s more like a decision about wheth=
+er to commit 0.1 more felonies =E2=80=94=C2=A0like, =E2=80=9Cthis deal is l=
+ucrative, but there=E2=80=99s a 10% chance it=E2=80=99s a felony.=E2=80=9D
+   =20
+ =20
+
+
+   =20
+     =20
+        Follow Us
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+     =20
+     =20
+     =20
+       =20
+          Get the newsletter
+       =20
+     =20
+   =20
+
+
+     =20
+     =20
+ =20
+   =20
+      =C2=A0
+   =20
+   =20
+     =20
+   =20
+   =20
+      Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+   =20
+   =20
+      =C2=A0
+   =20
+ =20
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+   =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ce6c6d.5nsq/deb98cc0.gif" alt=3D"" border=3D"0" /></a>
+
+
+
+------=_Part_6851322_646035576.1620751495548
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" /><meta name=3D"color=
+-scheme" content=3D"light dark" /><meta name=3D"supported-color-schemes" co=
+ntent=3D"light dark" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+@media (prefers-color-scheme: dark) {
+body {
+color: #ffffff !important;
+}
+}
+[data-ogsc] body {
+color: #ffffff !important;
+}
+@media (prefers-color-scheme: dark) {
+.body-component a, .body-component a:visited {
+color: #ffffff !important;
+border-bottom: 1px solid #ffffff !important;
+background-color: #3e3e3e !important;
+}
+.body-component h1 a, .body-component h1 a:visited {
+color: #ffffff !important;
+}
+}
+[data-ogsc] .body-component a, [data-ogsc] .body-component a:visited {
+color: #ffffff !important;
+border-bottom: 1px solid #ffffff !important;
+}
+[data-ogsc] .body-component h1 a, [data-ogsc] .body-component h1 a:visited =
+{
+color: #ffffff !important;
+}
+@media (prefers-color-scheme: dark) {
+.social-component a {
+color: #ffffff !important;
+}
+.social-component td {
+border-color: #ffffff !important;
+}
+}
+[data-ogsc] .social-component a {
+color: #ffffff !important;
+}
+[data-ogsc] .social-component td {
+border-color: #ffffff !important;
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; color:=
+ #000; margin: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" clas=
+s=3D"brand-hdr">
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/23810341.264122/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1=
+dGhvcnMvQVJiVFFsUkxSakUvbWF0dGhldy1zLWxldmluZQ/607f07ceef4b8524a319a23cBb09=
+05e62"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%;" /><!--[if mso]>
+</div>
+<![endif]--></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+</td>
+</tr>
+</table>
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top=
+: 30px; margin-bottom: 0;">Crypto is fun for traders</h2><p style=3D"margin=
+: 16px 0;">A <a href=3D"https://link.mail.bloombergbusiness.com/click/23810=
+341.264122/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEt=
+MDEtMTIvZG9uLXQtZm9yZ2V0LXlvdXItYml0Y29pbnM/607f07ceef4b8524a319a23cB603636=
+10" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> model=
+</a> that I often use for cryptocurrency is that it is <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/23810341.264122/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMjQvdGhlLXZhY2NpbmUtaXMtbm90L=
+WEtY29tcGV0aXRpb24/607f07ceef4b8524a319a23cB9db4cce7" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> rediscovering</a> <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/23810341.264122/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDUtMTYvaGlnaC1mcmVxdWVuY=
+3ktdHJhZGluZy1mb3ItYml0Y29pbnM/607f07ceef4b8524a319a23cBa39fd987" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> traditional</a> <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/23810341.264122/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTctMDctMjYvdG9rZW=
+5zLXZhdWx0cy10aWVzLWFuZC10YXhlcw/607f07ceef4b8524a319a23cB1d4729a6" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> finance</a>: In =
+its early days, crypto was=C2=A0a brand-new financial system, unsullied by =
+the old evils of central banking, leverage, regulation, etc.; eventually pe=
+ople realized that some of those things were good, and started reinventing =
+them. One way to reinvent finance is for idealistic crypto technologists to=
+ invent banking, leverage, regulation, etc., from first principles, with cu=
+rsory or no knowledge of how the traditional financial system addressed the=
+se issues or why it rejected other solutions. You would expect this to lead=
+ to flawed but interesting results, whole new ways of doing things that mig=
+ht blow up horribly but that might instead point the way to a better future=
+.</p><p style=3D"margin: 16px 0;">Another way to reinvent finance is for, l=
+ike, Wall Street derivatives structurers or high-frequency traders or secur=
+ities regulators to say =E2=80=9Cwait, I know this stuff, lemme go do crypt=
+o where it=E2=80=99s easy and no one else knows it.=E2=80=9D Here is <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/23810341.264122/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMTAvd2FsbC1zdHJlZXQ=
+tdW5sZWFzaGVzLW9sZC10cmlja3MtaW4tMi01LXRyaWxsaW9uLWNyeXB0by1qdW5nbGU/607f07=
+ceef4b8524a319a23cB31d522a0" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> a very fun story</a> from Bloomberg=E2=80=99s Justina L=
+ee:</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=9CAll the fun that u=
+sed to be had 30 years ago in the commodity markets and is no longer fun --=
+ that fun is now in crypto,=E2=80=9D says [former Wall Street energy trader=
+ Trey Griggs,] the U.S. chief executive officer at GSR Markets in Houston.<=
+/p><p style=3D"margin: 16px 0;">Griggs is among crypto newcomers deploying =
+systematic strategies that are tried-and-tested in conventional asset class=
+es -- price arbitrage, futures trading, options writing -- in a booming new=
+ corner of finance. As more mainstream investors get behind Bitcoin, boutiq=
+ue firms are joining the likes of Mike Novogratz in an ever-broadening cryp=
+to rally that keeps breaking records. =E2=80=A6</p><p style=3D"margin: 16px=
+ 0;">Take Mark Treinkman. After a career mostly at proprietary stock-tradin=
+g shops like Chimera Securities, digital money is renewing his passion for =
+quant trading.=C2=A0</p><p style=3D"margin: 16px 0;">=E2=80=9CI=E2=80=99ve =
+been going through some of my old strategies and things that wouldn=E2=80=
+=99t have worked in equities in decades have an edge in crypto still,=E2=80=
+=9D he says.</p></blockquote><p style=3D"margin: 16px 0;">I assume that a l=
+ot of these strategies involve very sophisticated intellectual property and=
+ instincts built up over decades in high finance, but others are just, like=
+, you can simultaneously buy a coin at $80 and sell it for $100:</p><blockq=
+uote><p style=3D"margin: 16px 0;">For a few minutes during trading on Wedne=
+sday, for example, the price of Ethereum Classic jumped well above $100 on =
+the Coinbase exchange. The digital token was trading at less than $80 at ot=
+her venues, offering an obvious opportunity for investors to make money sim=
+ply by buying in one place and selling in another.</p></blockquote><p style=
+=3D"margin: 16px 0;">Or there is money lying around for anyone to claim as =
+long as they can confidently use the word =E2=80=9Ccontango=E2=80=9D:</p><b=
+lockquote><p style=3D"margin: 16px 0;">And the opportunities pop up everywh=
+ere. For instance, when longer-dated futures in pretty much any asset class=
+ trade higher than the spot price -- known as contango -- the former almost=
+ always converges to the latter as the contracts mature.</p><p style=3D"mar=
+gin: 16px 0;">That=E2=80=99s popularized the crypto basis trade, where an i=
+nvestor goes long the spot rate and shorts the futures.</p><p style=3D"marg=
+in: 16px 0;">When Bitcoin last peaked in mid-April, the December contracts =
+were nearly 4% higher than August which were in turn about 2% higher than t=
+he spot reference rate, as speculators unleashed bets on rising prices.=C2=
+=A0</p></blockquote><p style=3D"margin: 16px 0;">Obviously one aspect of th=
+is story is that if you are a futures trader or electronic market maker or =
+derivatives structurer in traditional finance, you work very hard to scratc=
+h out a few basis points in a competitive industry. If you move to the much=
+ shaggier crypto industry, there is less competition =E2=80=94=C2=A0in the =
+relevant senses of well-capitalized players with good technology and access=
+ to leverage and pricing models =E2=80=94=C2=A0and you can potentially make=
+ a lot more money a lot more easily. If you work on Wall Street, you probab=
+ly like money, so moving to a place that gives you more money is pretty tem=
+pting.</p><p style=3D"margin: 16px 0;">But another aspect of it is that if =
+you work on Wall Street =E2=80=94=C2=A0particularly as a derivatives struct=
+urer or high-frequency trading developer=C2=A0or securities lawyer =E2=80=
+=94=C2=A0you actually=C2=A0<em>like this stuff</em>. You are there because =
+you are fascinated by structure, because you enjoy puzzling out the technic=
+al details of these mechanisms and trying to find new ways to push on them.=
+ In traditional finance this is all sort of saturated and competitive: Not =
+only is it hard to get rich by coming up with a new derivative=C2=A0structu=
+re or trading algorithm, but it=E2=80=99s hard to even get the intellectual=
+ satisfaction of doing that, because so much of what is possible has alread=
+y been done, and innovation tends to be technical and incremental. Whereas =
+in crypto it can feel like more of a blank slate, or at least, like a diffe=
+rent foundation where it takes ingenuity to=C2=A0re-erect the old structure=
+s.=C2=A0</p><p style=3D"margin: 16px 0;">Neither of these arbitrages will l=
+ast forever, of course. Eventually crypto trading will be as competitive as=
+ traditional finance, and innovation in crypto markets will be as difficult=
+. But for now, if you are in the business of inventing the structures of tr=
+aditional finance,=C2=A0<em>reinventing=C2=A0</em>those structures in crypt=
+o might look like more fun.</p><p style=3D"margin: 16px 0;">Elsewhere, a Go=
+ldman Dogecoin trader=C2=A0<a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/23810341.264122/aHR0cHM6Ly93d3cuZWZpbmFuY2lhbGNhcmVlcnMuY29tL25ld3=
+MvMjAyMS8wNS9nb2xkbWFuLXNhY2hzLWxvbmRvbi1tZC1kb2dlY29pbg/607f07ceef4b8524a3=
+19a23cBf99e731d" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">called in rich</a>:</p><blockquote><p style=3D"margin: 16px 0;">A ma=
+naging director is said to have quit Goldman Sachs in London after making m=
+illions at Dogecoin.</p><p style=3D"margin: 16px 0;">Sources say that Aziz =
+McMahon, a managing director and head of emerging market sales at Goldman S=
+achs in London, has resigned, allegedly after making money on Dogecoin the =
+cryptocurrency championed by Elon Musk whose value rose 72 times between th=
+e start of January and late last week.</p></blockquote><h2 style=3D"font-we=
+ight: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-se=
+rif; letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; borde=
+r-bottom-style: dotted; padding-bottom: 5px; margin-top: 30px; margin-botto=
+m: 0;">KYC=C2=A0</h2><p style=3D"margin: 16px 0;">One thing to think about,=
+ if you run a company, is how much crime your company should do.=C2=A0The n=
+a=C3=AFve answer would be that the optimal level of crime, for any company,=
+ is zero: Doing crimes is bad, it is forbidden, you should not do forbidden=
+ things, it is a pretty basic argument.</p><p style=3D"margin: 16px 0;">I s=
+uppose an occasional theme around here is that this view is not quite right=
+, and that the optimal level of crime for many companies is somewhat higher=
+ than zero. I have <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/23810341.264122/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLz=
+IwMjEtMDUtMDYvZG9nZWNvaW4taXMtdXAtYmVjYXVzZS1pdC1zLWZ1bm55/607f07ceef4b8524=
+a319a23cBb839e0dd" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> suggested</a> <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/23810341.264122/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljb=
+GVzLzIwMjEtMDQtMjkvaWdub3JpbmctdGhlLXJ1bGVzLXNvbWV0aW1lcy13b3Jrcy1mb3ItZWxv=
+bi1tdXNr/607f07ceef4b8524a319a23cB8ea3c969" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> recently</a>, for instance, that a ventu=
+re capitalist should want the level of securities fraud among her portfolio=
+ companies to be a bit higher than zero: If some of your founders aren=E2=
+=80=99t lying to you, you aren=E2=80=99t backing enough bold out-of-consens=
+us founders. If you run an investment bank and you want aggressive rainmake=
+rs to pursue hard-won business in distant parts of the world, some of them =
+might do some bribes, and if you cut the level of bribes to zero it might l=
+ead to unacceptable losses of legitimate business. Or just more simply, if =
+you have tens of thousands of employees, some of them will be stealing offi=
+ce supplies or whatever, and the costs of monitoring might be higher than t=
+he costs of some crime. In your personal life you might have an =E2=80=9Cab=
+solutely no crime=E2=80=9D rule, but in a large enough company your enforce=
+ment will necessarily=C2=A0be somewhat statistical, and absolutely zero cri=
+me might be hard to achieve and not worth it.</p><p style=3D"margin: 16px 0=
+;">But never mind all of that. What if your company=E2=80=99s business is c=
+rime? What if you are a Mafia family, or a ransomware hacking group? Clearl=
+y the optimal level of crime is not zero: If your business is crime, you ha=
+ve to do crime to get revenue. But the optimal level of crime is also not=
+=C2=A0<em>infinite:=C2=A0</em>If you do too many crimes, or crimes that are=
+ too bad, you will get in too much trouble. Doing more and bigger crimes sh=
+ould increase=C2=A0your crime-based revenue, but it also increases the reso=
+urces that officials will expend on trying to shut you=C2=A0down, and thus =
+your risks of being stopped and punished. At some point the lines cross, an=
+d you should forego some criminal revenue in order to keep your legal risk =
+manageable.</p><p style=3D"margin: 16px 0;">This is more or less the same c=
+alculation that regular businesses often make=C2=A0=E2=80=94=C2=A0=E2=80=9C=
+we don=E2=80=99t want this piece of business, even though it=E2=80=99s very=
+ lucrative, because it has too much legal risk=E2=80=9D =E2=80=94=C2=A0just=
+ with a different baseline. An ordinary business wants to commit very few f=
+elonies, perhaps zero; a crime business wants to commit many. But they both=
+ have to make decisions at the margin, about whether to commit one more fel=
+ony.[1]</p><p style=3D"margin: 16px 0;">So for instance if you run a ransom=
+ware business and shut down, like, a marketing agency or a dating app or a =
+cryptocurrency exchange=C2=A0until it pays you a ransom in Bitcoin, that=E2=
+=80=99s great, that=E2=80=99s good money. A <em>crime</em>, sure, but good =
+money.=C2=A0But if you shut down the biggest oil pipeline in the U.S. for d=
+ays, that=E2=80=99s dangerous, that=E2=80=99s a U.S. national security issu=
+e, that gets you <em>too much=C2=A0</em>attention and runs the risk of blow=
+ing up your whole business. <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/23810341.264122/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljb=
+GVzLzIwMjEtMDUtMTAvd2hpdGUtaG91c2UtY3JlYXRlcy10YXNrLWZvcmNlLXRvLWRlYWwtd2l0=
+aC1waXBlbGluZS1icmVhY2g/607f07ceef4b8524a319a23cBd8a63649" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;"> So</a>:</p><blockquote><p=
+ style=3D"margin: 16px 0;">The Federal Bureau of Investigation attributed t=
+he massive Colonial Pipeline breach to ransomware created by a relatively n=
+ew gang called DarkSide on Monday as new details emerged about the group ac=
+cused of carrying out the attack. ...</p><p style=3D"margin: 16px 0;">In it=
+s own statement, the DarkSide group hinted that an affiliate may have been =
+behind the attack and that it never intended to cause such upheaval. Like s=
+ome other ransomware groups, DarkSide offers to sell its malware to others =
+in what is known as =E2=80=9Cransomware-as-a-service,=E2=80=9D according to=
+ the cybersecurity firm Cybereason.</p><p style=3D"margin: 16px 0;">In a me=
+ssage posted on the dark web, where DarkSide maintains a site, the group su=
+ggested one of its customers was behind the attack and promised to do a bet=
+ter job vetting them going forward.</p><p style=3D"margin: 16px 0;">=E2=80=
+=9CWe are apolitical. We do not participate in geopolitics,=E2=80=9D the me=
+ssage says. =E2=80=9COur goal is to make money and not creating problems fo=
+r society. From today, we introduce moderation and check each company that =
+our partners want to encrypt to avoid social consequences in the future.=E2=
+=80=9D</p></blockquote><p style=3D"margin: 16px 0;">If you want to use thei=
+r ransomware software to do crimes, apparently you have to submit a resume =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23810341.264122/aH=
+R0cHM6Ly93d3cuc2VudGluZWxvbmUuY29tL2Jsb2cvbWVldC1kYXJrc2lkZS1hbmQtdGhlaXItc=
+mFuc29td2FyZS1zZW50aW5lbG9uZS1jdXN0b21lcnMtcHJvdGVjdGVkLw/607f07ceef4b8524a=
+319a23cBb42aeb6f" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">demonstrating that you are good at committing crimes</a>. (=E2=80=
+=9CHopeful affiliates are subject to DarkSide=E2=80=99s rigorous vetting pr=
+ocess, which examines the candidate=E2=80=99s =E2=80=98work history,=E2=80=
+=99 areas of expertise, and past profits among other things.=E2=80=9D) But =
+not too good! The goal is to bring a midsize company to its knees and extra=
+ct a large ransom, not to bring society to its knees and extract terrible v=
+engeance.</p><p style=3D"margin: 16px 0;">Imagine being the chief complianc=
+e officer at DarkSide. People constantly come to you with crimes, and you a=
+re commercial, you are like =E2=80=9Csure go ahead do that crime,=E2=80=9D =
+but occasionally you have to stop them and say =E2=80=9Cno the reputational=
+ risk of that crime is too great, we can=E2=80=99t do it,=E2=80=9D and the =
+sales reps grumble that you are getting in the way of business. <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/23810341.264122/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDMtMjgvZ29sZG1hbi11LXR1cm4t=
+b24taHdhbmctcHV0LWJhbmstYXQtbmV4dXMtb2YtbWFyZ2luLWNhbGwtbWF5aGVt/607f07ceef=
+4b8524a319a23cBd355bef3" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> Just like at a bank</a>!</p><p style=3D"margin: 16px 0;">Or=
+ here is an amazing <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/23810341.264122/aHR0cHM6Ly93d3cuYmxlZXBpbmdjb21wdXRlci5jb20vbmV3cy9zZWN1c=
+ml0eS9kYXJrc2lkZS1yYW5zb213YXJlLXdpbGwtbm93LXZldC10YXJnZXRzLWFmdGVyLXBpcGVs=
+aW5lLWN5YmVyYXR0YWNrLw/607f07ceef4b8524a319a23cB2a36df80" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">DarkSide compliance story</=
+a>:</p><blockquote><p style=3D"margin: 16px 0;">In November 2020, they issu=
+ed another press release stating they were creating a "sustainable" data le=
+ak storage system hosted on servers in Iran.</p><p style=3D"margin: 16px 0;=
+">As Iran is on the US sanctions list, this caused ransomware negotiation f=
+irms, such as Coveware, to put DarkSide on their restricted list and no lon=
+ger negotiate ransom payment for this operation.</p><p style=3D"margin: 16p=
+x 0;">"DarkSide's own TOR site announces the intent to use infrastructure h=
+osted within Iran, a sanctioned nexus. The purpose of this infrastructure i=
+s to store data stolen from victims of ransom attacks."</p><p style=3D"marg=
+in: 16px 0;">"It is probable that a portion of the proceeds from any prospe=
+ctive ransom payment to DarkSide would be used to pay services providers wi=
+thin Iran. =C2=A0Accordingly, we have placed DarkSide on our restricted lis=
+t," Coveware CEO Bill Siegel told BleepingComputer.</p><p style=3D"margin: =
+16px 0;">DarkSide eventually had to walk back their claims of working with =
+hosting service in Iran for fear of losing ransom payments.</p></blockquote=
+><p style=3D"margin: 16px 0;">See, hacking into companies=E2=80=99 computer=
+s and making them useless=C2=A0until you get a Bitcoin ransom is a=C2=A0<em=
+>crime</em>, but it=E2=80=99s a crime that has a legal infrastructure built=
+ up around it. You do the crime, a legal ransomware negotiation firm sends =
+you the money, it all runs on well-maintained tracks. But you move your ser=
+vers to=C2=A0<em>Iran</em>, and you implicate a whole different=C2=A0legal =
+regime: Sure sure sure U.S. companies can pay ransoms to=C2=A0<em>Russian c=
+rime syndicates</em>, no problem, but=C2=A0<em>doing business with Iran</em=
+>=C2=A0=E2=80=94=C2=A0even in the form of sending money to Russian crime sy=
+ndicates with servers in Iran =E2=80=94=C2=A0is a whole different kind of i=
+llegal. Nobody can do business with you =E2=80=94=C2=A0even criminal busine=
+ss =E2=80=94=C2=A0if it would violate U.S. sanctions on Iran. Doing ransomw=
+are is a matter of standard business crime; sending payments to Iran is a m=
+atter of U.S. national security. You don=E2=80=99t want that.</p><h2 style=
+=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial, Helveti=
+ca, sans-serif; letter-spacing: -1px; font-size: 20px; border-bottom-width:=
+ 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top: 30px; m=
+argin-bottom: 0;">Whistle-blowers</h2><p style=3D"margin: 16px 0;">Here is =
+a slightly stylized description of how the U.S. Commodity Futures Trading C=
+ommission=E2=80=99s whistle-blower program works:</p><ol style=3D"list-styl=
+e-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margi=
+n-bottom: 5px;">The CFTC extracts fines from companies that do bad things.<=
+/li>=09<li style=3D"margin-bottom: 5px;">It puts a portion of those fines i=
+n a pot labeled =E2=80=9CWhistle-Blower Program.=E2=80=9D</li>=09<li style=
+=3D"margin-bottom: 5px;">The pot is capped at $100 million: If the CFTC ext=
+racts more fines than that, they just get paid to the U.S. Treasury.</li>=
+=09<li style=3D"margin-bottom: 5px;">Years after extracting a fine, the CFT=
+C will pay=C2=A0a percentage of the fine to the whistle-blower who helped e=
+xtract it. The fine comes from the pot and reduces the amount in the pot.</=
+li>=09<li style=3D"margin-bottom: 5px;">The pot is not replenished until th=
+ere is a new fine.</li>=09<li style=3D"margin-bottom: 5px;">Oh also the peo=
+ple at the CFTC who work on the whistle-blower program draw their salaries =
+from the pot.</li></ol><p style=3D"margin: 16px 0;">This mechanism can work=
+ indefinitely if:</p><ul style=3D"list-style-type: disc; padding-left: 40px=
+; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">The rate and amount=
+ of fines is predictable and steady or rising over time, and</li>=09<li sty=
+le=3D"margin-bottom: 5px;">No single whistle-blower collects close to the e=
+ntire $100 million.</li></ul><p style=3D"margin: 16px 0;">Like, if you coll=
+ect $1 billion of fines in the first year, and then pay $100 million of awa=
+rds to the first-year whistle-blowers in the second year, that is fine as l=
+ong as you are also collecting $1 billion (or $2 billion, etc.) of fines in=
+ the second year. The pot gets replenished. On the other hand if you collec=
+t $10 billion of fines in the first year, and those whistle-blowers come to=
+ you with claims for $1 billion of awards in the second year, but there are=
+ no fines in the second year=C2=A0because you did all the fining already, t=
+hen you just pay out the $100 million cap and close up shop. You have no mo=
+ney left for the rest of the awards.</p><p style=3D"margin: 16px 0;">And be=
+cause the whistle-blower program salaries are paid out of the pot, you lite=
+rally close up shop: The whistle-blower program officials get furloughed, t=
+here=E2=80=99s no one left to monitor the whistle-blower phone lines, no mo=
+re whistles get blown, there are fewer investigations, there are no fines t=
+o collect in the third year, etc.</p><p style=3D"margin: 16px 0;">You could=
+ imagine a whole range of better solutions. (Instead of capping the pot at =
+an arbitrary $100 million, why not just make the pot equal to =E2=80=9Cthe =
+amount of fines we collect, times the percentage we plan to give to whistle=
+-blowers=E2=80=9D?) But government accounting does not always pursue the be=
+st solutions. Anyway <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/23810341.264122/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jZnRjLXdoaXN0bGVi=
+bG93ZXItcHJvZ3JhbS1pbi1wZXJpbC1vdmVyLXBvdGVudGlhbC0xMDAtbWlsbGlvbi1wbHVzLXB=
+heW91dC0xMTYyMDczMjYwMA/607f07ceef4b8524a319a23cB2f6e2de9" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;">here=E2=80=99s a funny Wal=
+l Street Journal article</a>:</p><blockquote><p style=3D"margin: 16px 0;">T=
+he Commodity Futures Trading Commission=E2=80=99s whistleblower program is =
+in turmoil over a potential payout exceeding $100 million to a former Deuts=
+che Bank AG executive=E2=80=94one so large it would deplete the agency=E2=
+=80=99s whistleblower funds and has led it to seek congressional action.</p=
+><p style=3D"margin: 16px 0;">The executive had provided information that h=
+elped CFTC and Justice Department investigations that led to roughly $2.5 b=
+illion in settlements with Deutsche Bank in 2015, including $800 million wi=
+th the CFTC. They alleged that the bank manipulated the London interbank of=
+fered rate, or Libor, a benchmark interest rate used to set short-term loan=
+s for global banks. =E2=80=A6</p><p style=3D"margin: 16px 0;">Agency leader=
+s have contended there is no mechanism to pay the bank executive and other =
+applicants and keep funding the whistleblower program.</p><p style=3D"margi=
+n: 16px 0;">The CFTC pays whistleblowers from money it collects in enforcem=
+ent penalties. But the agency=E2=80=99s whistleblower fund can be replenish=
+ed only when it falls below $100 million. Penalties collected otherwise typ=
+ically go into the U.S. Treasury.</p><p style=3D"margin: 16px 0;">It would =
+be difficult to quickly replenish the fund through new settlements after a =
+large whistleblower award because many of the agency=E2=80=99s penalties ar=
+e $5 million or less, according to a person familiar with the matter.</p></=
+blockquote><p style=3D"margin: 16px 0;">In the abstract, =E2=80=9Ccollect a=
+ $2.5 billion fine and then pay 4% of that to the whistle-blower who brough=
+t it in=E2=80=9D would seem=C2=A0<em>good=C2=A0</em>for the agency=E2=80=99=
+s budget: It keeps the other 96% (or gives it to the Treasury, fine); finan=
+cially, that=E2=80=99s a trade you should be happy with. But the accounting=
+ for it =E2=80=94=C2=A0and the long delay between collecting the fines (in =
+2015) and paying the whistle-blower (in 2021, maybe) =E2=80=94=C2=A0means t=
+hat instead it is somehow a crisis.</p><p style=3D"margin: 16px 0;">Also:</=
+p><blockquote><p style=3D"margin: 16px 0;">Agency staffers wrote a memo las=
+t summer stating that the whistleblower did deserve a substantial award, ac=
+cording to the people familiar with the matter.</p><p style=3D"margin: 16px=
+ 0;">The agency=E2=80=99s whistleblower office could end up furloughed if t=
+he fund is depleted. The Government Accountability Office in October said t=
+here is no other mechanism to fund the office.</p><p style=3D"margin: 16px =
+0;">Some CFTC officials have argued that the agency could find legal soluti=
+ons, but the agency=E2=80=99s leadership says there is no other option but =
+to furlough the whistleblower office staff if the large award is paid, acco=
+rding to the people familiar with the matter.</p></blockquote><p style=3D"m=
+argin: 16px 0;">I have to say that it is sort of impressive that an agency=
+=E2=80=99s staff would recommend paying out 100% of its budget to a whistle=
+-blower and then furloughing themselves. Like, it was debatable that this w=
+histle-blower actually deserved a payout; the CFTC initially denied his cla=
+im. The staff could easily have said =E2=80=9Cnope, he doesn=E2=80=99t dese=
+rve it, keep paying us instead.=E2=80=9D Instead, they recommended paying t=
+he whistle-blower, in effect, out of their own pockets.</p><h2 style=3D"fon=
+t-weight: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, san=
+s-serif; letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; b=
+order-bottom-style: dotted; padding-bottom: 5px; margin-top: 30px; margin-b=
+ottom: 0;">NFTs</h2><p style=3D"margin: 16px 0;">I <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/23810341.264122/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDMtMDgvbGlib3ItaXMtZ29pbmctYXdheS1mb=
+3ItcmVhbA/607f07ceef4b8524a319a23cBeb4e4833" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> write</a> a <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/23810341.264122/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMDMvc3BhY3MtYXJlbi10LWEtZ3VhcmFudGVl=
+LWNmLWZpbmFuY2UtaWlpLWFuZC1hZXllLWFyZS1wcm9vZg/607f07ceef4b8524a319a23cB915=
+b7b16" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> lo=
+t</a> around <a href=3D"https://link.mail.bloombergbusiness.com/click/23810=
+341.264122/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEt=
+MDUtMTAvZWxvbi1tdXNrLXMtc25sLWRlYnV0LWRpZG4tdC1oZWxwLXRoZS1kb2dlY29pbi1idWx=
+scw/607f07ceef4b8524a319a23cB7d126cfa" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: sol=
+id; background-color: #ccc;"> here</a> about non-fungible tokens, and parti=
+cularly about the rather salient subset of NFTs that consist of (1) buying =
+a work of art, (2) lighting it on fire, (3) filming it as it burns, and (4)=
+ selling some vague claim to =E2=80=9Cownership=E2=80=9D of the now-nonexis=
+tent art as a token on the blockchain. When I write about this I usually tr=
+y to make it sound as dumb as possible, but=C2=A0I can=E2=80=99t compete wi=
+th the people who are actually doing it. Here is a <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/23810341.264122/aHR0cHM6Ly93d3cubmV3eW9ya2=
+VyLmNvbS9tYWdhemluZS8yMDIxLzA1LzE3L2J1cm50LWJhbmtzeXMtaW5mbGFtbWF0b3J5LW5md=
+C1ub3QtYXJ0/607f07ceef4b8524a319a23cBe8450ba1" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">New Yorker Talk of the Town piece</a> =
+about =E2=80=9CBurnt Banksy,=E2=80=9D the art-world pseudonym of a=C2=A0guy=
+ who originated this kind of NFT when he, uh, burned a Banksy painting. Her=
+e he is:</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=9CArt is whatev=
+er you want it to be,=E2=80=9D the young man, who goes by the name Burnt Ba=
+nksy, said, laughing. =E2=80=9CDo I think I=E2=80=99m an artist? Yes and no=
+. I don=E2=80=99t think it=E2=80=99s even remotely fair to compare me to so=
+meone like Banksy. I=E2=80=99m just trying to make a message.=E2=80=9D=C2=
+=A0</p></blockquote><p style=3D"margin: 16px 0;">And:</p><blockquote><p sty=
+le=3D"margin: 16px 0;">Everything went as planned, except that the art work=
+ wouldn=E2=80=99t catch fire. Fifty thousand people watched live on Twitter=
+ as Burnt Banksy struggled to burn a Banksy.</p><p style=3D"margin: 16px 0;=
+">=E2=80=9CIt was the worst thing in the world,=E2=80=9D he said. =E2=80=9C=
+It took, like, fifteen minutes for it to burn. Some of the comments on the =
+video were, like, =E2=80=98This kid=E2=80=99s never burnt down the establis=
+hment before!=E2=80=99 =E2=80=9D (Another comment: =E2=80=9CI hate my gener=
+ation so much lol.=E2=80=9D )</p></blockquote><p style=3D"margin: 16px 0;">=
+It goes on like that, but I cannot. He bought the Banksy print for $95,000 =
+and sold the resulting NFT for $380,000. I don=E2=80=99t like it, but I can=
+not fault the trade here.</p><p style=3D"margin: 16px 0;">Incidentally what=
+ I said at the top, about traditional Wall Street people getting into crypt=
+o because it=E2=80=99s easy and there=E2=80=99s a ton of money involved, go=
+es like a hundredfold for=C2=A0<em>artists</em>. It is definitely true that=
+, for decades, the traditional fine-art market supported a certain amount o=
+f low-effort conceptual joking about the relationship between art and money=
+. Duchamp <a href=3D"https://link.mail.bloombergbusiness.com/click/23810341=
+.264122/aHR0cHM6Ly93d3cuc2Ztb21hLm9yZy9hcnR3b3JrLzk4LjI5MS8/607f07ceef4b852=
+4a319a23cB02853824" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">signed a urinal</a> in 1917. Rauschenberg=C2=A0<a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/23810341.264122/aHR0cHM6Ly93d3cuc2Zt=
+b21hLm9yZy9hcnR3b3JrLzk4LjI5OC8/607f07ceef4b8524a319a23cB0f0c15d8" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">erased a de Koonin=
+g drawing</a>=C2=A0in 1953. That Banksy print that Burnt Banksy burned was =
+called =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/23=
+810341.264122/aHR0cHM6Ly9vbmxpbmVvbmx5LmNocmlzdGllcy5jb20vcy9iYW5rc3ktaS1jY=
+W50LWJlbGlldmUteW91LW1vcm9ucy1hY3R1YWxseS1idXktc2gtdC9iYW5rc3ktYi0xOTc0LTYv=
+MTE1MTk1P2xkcF9icmVhZGNydW1iPWJhY2s/607f07ceef4b8524a319a23cBecc62a10" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">Morons</a>,=E2=
+=80=9D from 2006; it depicts=C2=A0an auctioneer selling a framed piece sayi=
+ng =E2=80=9CI can=E2=80=99t believe you morons actually buy this,=E2=80=9D =
+plus a swear word. =E2=80=9CLol I have done a dumb thing and called it art,=
+ now to make fun of people for paying for it=E2=80=9D is at least a=C2=A0<e=
+m>century-old=C2=A0</em>move in the art world.</p><p style=3D"margin: 16px =
+0;">And so it has been taught in art schools and become part of the contemp=
+orary artistic tradition, to the point that =E2=80=94=C2=A0while I know mor=
+e derivative structurers than artists =E2=80=94=C2=A0I assume that a lot of=
+ young artists got into that racket because they have a genuine love for in=
+terrogating and parodying the financial structures that support the art mar=
+ket. And they want to do that interrogating, and also get rich, but the spa=
+ce for it has narrowed: That market is saturated, Duchamp already did the u=
+rinal, there are only so many new and extreme things you can do to create a=
+rtworks that make=C2=A0fun of people for buying them.=C2=A0</p><p style=3D"=
+margin: 16px 0;">And then along came NFTs! As crypto reinvented traditional=
+ financial markets, NFTs have reinvented the traditional=C2=A0<em>art marke=
+t.=C2=A0</em>And as crypto has progressed through centuries of financial hi=
+story in the last decade, so NFTs have progressed through centuries of art-=
+world history in like a year, and now a major category of NFT is the concep=
+tual NFT that makes fun of its owner for buying it. But whereas that move w=
+as=C2=A0harder and harder to do in the regular art world =E2=80=94=C2=A0bec=
+ause it had been done so many times, because artists and critics and collec=
+tors were so familiar with it, because artists themselves wanted to do some=
+thing=C2=A0<em>new</em>=C2=A0and that move was so old =E2=80=94=C2=A0it has=
+ been reinvigorated in the NFT market. Crypto millionaires had not yet expe=
+rienced being made fun of for buying NFTs, so it is a novel and exciting ex=
+perience for them and they pay a lot for it; artists had not yet created co=
+nceptual nothings=C2=A0<em>on the blockchain</em>, so that is an exciting t=
+heoretical novelty for them. Also the money is good.</p><p style=3D"margin:=
+ 16px 0;">Finance and art are both centuries-old traditions. If you are a p=
+ractitioner within them, you probably care about those traditions and find =
+them beautiful, but you also=C2=A0experience them as a burden, limiting wha=
+t you can do and restricting radical innovation. Starting over on the block=
+chain lets you enjoy the traditions you love while also doing something new=
+.</p><h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, =
+Arial, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border=
+-bottom-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margi=
+n-top: 30px; margin-bottom: 0;">Things happen</h2><p style=3D"margin: 16px =
+0;">Inside <a href=3D"https://link.mail.bloombergbusiness.com/click/2381034=
+1.264122/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjEtMDUtMT=
+Evc2VjcmV0aXZlLXN3aXNzLWJhbmstcGljdGV0LXRvcm4tYmV0d2Vlbi1vbGQtbW9uZXktYW5kL=
+W5ldy1yaXNr/607f07ceef4b8524a319a23cB0cb939ab" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> Pictet</a>, the Secretive Swiss Bank =
+for the World=E2=80=99s Richest People.=C2=A0<a href=3D"https://link.mail.b=
+loombergbusiness.com/click/23810341.264122/aHR0cHM6Ly93d3cubmV3eW9ya2VyLmNv=
+bS9tYWdhemluZS8yMDIxLzA1LzE3L3JvYmluaG9vZHMtYmlnLWdhbWJsZQ/607f07ceef4b8524=
+a319a23cBaac2c8e9" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">Robinhood=E2=80=99s</a> Big Gamble.=C2=A0New <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/23810341.264122/aHR0cHM6Ly93d3cuZnQuY29=
+tL2NvbnRlbnQvODMxMDcyNTUtZDNmMi00MTZiLWFiYTktMzdhOGNhZGIwMjk2/607f07ceef4b8=
+524a319a23cB9276e9fa" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Amazon bond</a> rivals yield on US Treasuries in record-breaki=
+ng sale. Biggest Crypto Exchange Binance Briefly <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/23810341.264122/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMTAvYmlnZ2VzdC1jcnlwdG8tZXhjaGFuZ2UtYml=
+uYW5jZS1icmllZmx5LXN1c3BlbmRlZC13aXRoZHJhd2Fscw/607f07ceef4b8524a319a23cB27=
+bb73c9" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: solid; background-color: #ccc;"> S=
+topped Withdrawals</a>.=C2=A0Meet the academic who has fired up <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/23810341.264122/aHR0cHM6Ly93d=
+3cuZnQuY29tL2NvbnRlbnQvNTU3MzgyMTMtZGUwNi00NTc1LTg0OTItYjViMzY2ZWI4OGRjP2Rl=
+c2t0b3A9dHJ1ZSZzZWdtZW50SWQ9N2M4ZjA5YjktOWI2MS00ZmJiLTk0MzAtOTIwOGE5ZTIzM2M=
+4/607f07ceef4b8524a319a23cBa592e8fe" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">moonshot investing</a>.=C2=A0Commodities boom se=
+nds <a href=3D"https://link.mail.bloombergbusiness.com/click/23810341.26412=
+2/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvODQ5NDM0YmItMTMxMS00ZDg5LWJjMTMtM2U2Y=
+zVkYzcxMTFh/607f07ceef4b8524a319a23cBc43f92e8" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">bulk shipping</a> costs to decade high=
+s.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/23810341.2=
+64122/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy92aWNlLW1lZGlhLXRhcmdldHMtdmFsd=
+WF0aW9uLW9mLW5lYXJseS0zLWJpbGxpb24taW4tcHJvcG9zZWQtc3BhYy1kZWFsLTExNjIwNjQ0=
+NDAzP21vZD1ocF9saXN0YV9wb3M0/607f07ceef4b8524a319a23cB9122c8c9" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">Vice Media</a> Target=
+s Valuation of Nearly $3 Billion in Proposed SPAC Deal.=C2=A0<a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/23810341.264122/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMTEvb2F0bHktYW5kLWludmVzdG9=
+ycy1leHBlY3QtaXBvLXRvLXJhaXNlLXVwLXRvLTEtNjUtYmlsbGlvbg/607f07ceef4b8524a31=
+9a23cB8f2bdbe1" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> Oatly</a> Sees Valuation Possibly Over $10 Billion as U.S. IPO Nears=
+. Bennifer <a href=3D"https://link.mail.bloombergbusiness.com/click/2381034=
+1.264122/aHR0cHM6Ly93d3cuZW9ubGluZS5jb20vbmV3cy8xMjY3MzkxL2plbm5pZmVyLWxvcG=
+V6LWFuZC1iZW4tYWZmbGVjay1lbmpveS13ZWVrbG9uZy12YWNhdGlvbi0xNy15ZWFycy1hZnRlc=
+i10aGVpci1zcGxpdD9jb250ZW50PW9yZ2FuaWMmbWVkaXVtPWxpbmstcG9zdCZzb3VyY2U9dHdp=
+dHRlci1lbmV3cyZjbXBpZD1zb2NpYWwmZmJjbGlkPUl3QVIwck5NbWU0NmZLRWVQYW1BQ05pTzJ=
+kc3hseHVlXzBpUF9hbmRueExtSWpkeGpTZkppU19TNDlOS2M/607f07ceef4b8524a319a23cB7=
+a3bd63d" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;">a=
+re back</a>. Odd Lots <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/23810341.264122/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzI=
+wMjEtMDUtMTEvYmxvb21iZXJnLXMtb2RkLWxvdHMtaXMtZXhwYW5kaW5nLXdpdGgtY29udGVudC=
+1leGNsdXNpdmVseS1mb3Itc3Vic2NyaWJlcnM/607f07ceef4b8524a319a23cB7162abe6" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> blog</a>. E=
+lon Musk and Grimes party with Miley Cyrus at crypto-themed =E2=80=98SNL=E2=
+=80=99 bash. =E2=80=9CAn Italian television personality who claims the titl=
+e Prince of Venice, which is also the name of his Los Angeles restaurant an=
+d <a href=3D"https://link.mail.bloombergbusiness.com/click/23810341.264122/=
+aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wNS8wOS93b3JsZC9ldXJvcGUvaXRhbHktaG9=
+1c2Utb2Ytc2F2b3ktcm95YWx0eS5odG1s/607f07ceef4b8524a319a23cB7b7a7983" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">former food truc=
+k</a>.=E2=80=9D</p><p style=3D"margin: 16px 0;"><span class=3D"news-designe=
+d-for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0i=
+n handy email form, right in your inbox, please=C2=A0<a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/23810341.264122/aHR0cDovL2xpbmsubWFpbC5i=
+bG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDI=
+yMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB780817ab" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">subscribe at this link</a>. Or you can =
+subscribe to Money Stuff and other great Bloomberg newsletters <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/23810341.264122/aHR0cHM6Ly9sb2=
+dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB09e94ce3" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">here</a>. T=
+hanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1] For a legal busi=
+ness it=E2=80=99s more like a decision about whether to commit 0.1 more fel=
+onies =E2=80=94=C2=A0like, =E2=80=9Cthis deal is lucrative, but there=E2=80=
+=99s a 10% chance it=E2=80=99s a felony.=E2=80=9D</em></p>
+</td>
+</tr>
+</table>
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23810341.264122/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB652c4c45" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23810341.264122/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB6e656e4f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23810341.264122/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB09cf4a1d" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23810341.264122/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB197c700d" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout">
+<tbody>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+<tr>
+<td class=3D"tout-label"></td>
+</tr>
+<tr>
+<td class=3D"tout-text"><p><em><strong>Like Money Stuff?</strong></em>=C2=
+=A0|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2381=
+0341.264122/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cB220b83b9" itemprop=3D"StoryLink" itemscope=3D"items=
+cope">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p>Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Termin=
+al.=C2=A0Find out more about how the Terminal delivers information and anal=
+ysis that financial professionals can=E2=80=99t find anywhere else.=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/15638356.78421/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRl=
+cm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn more</a>.</p></td>
+</tr>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" id=3D"footer" width=3D"100%" align=3D"center" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; padding-bottom: 10px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> You received this mess=
+age because you are subscribed to Bloomberg's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/23810341.264122/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC13c4184d" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/23810341.264122/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB7770ba4e" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/23810341.264122/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBd27a1231" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</td>
+</tr>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ce6c6d.5nsq/deb98cc0.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_6851322_646035576.1620751495548--
+

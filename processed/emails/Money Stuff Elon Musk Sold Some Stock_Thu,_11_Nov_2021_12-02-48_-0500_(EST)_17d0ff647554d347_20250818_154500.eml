@@ -1,0 +1,2236 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:30f:b0:14d:664d:9bd1 with SMTP id gk15csp761663lkb;
+        Thu, 11 Nov 2021 09:05:38 -0800 (PST)
+X-Received: by 2002:a50:bf48:: with SMTP id g8mr11654448edk.10.1636650338045;
+        Thu, 11 Nov 2021 09:05:38 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1636650338; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=jPFgARLblQhZ0l5/ZLEcViOcAtgwXA4E2INQojxm0jgTZ8uYMgH6StPqZpzv6ipZM4
+         L2GnhQ0o4RGAFERmSPIOwG9kk2MpweFL7GxCDDZX1tEJEbyMsCNVwjzk05mZQeMZJMaB
+         v/z9YA7vQ6YnHxrPgFRXFNb//s0gAP8sHK4eDfoXE59Cj0yV+GjWo0L1flroi3lRCT+q
+         GGVSH2438Jz4+OBVjG+fWOBzf7Cx7L2QktkCo9Pyi32Y/dE/1aN0q+ezMDYzIPg9iaWT
+         hts98Hci7HzaEYljp1V8Cq9I/Wo239DEcIeFM+cpo4Z1VpZwnoeFCGMjrIi4X03pT1ID
+         d+uw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=BVhxx7YosH2ymgrfWUpQy6LoVn5S3MYDKBRQpOHzBtE=;
+        b=CsxkXSBJe3NX1Y2PxgGnlEvvlRJJ6r28PBTY5gWLDd3ecoM38wfIjq9d9l6SDZtHb3
+         QPJqJCJST5D+0md0kPsEZd2AvtbBImC4/bTl3wSrcs6C6C1QeXLlmjMrrDlB6VUiDRsD
+         tttYWzZKDrQ332UO40ObbsWrOOhD16ZXHxdqdTo8lL08MBqn+0zSis2290UtnY8yG2qT
+         8fDLV3woomuOIMW5rLAx7uQK666GaJu6hrzACUBN+FGh7tveca0O/PCon8BkNi6dFBdv
+         bRvMYqFZ0AByz9/yeSqWie/myKQflro/VQAh31cLepszlzCbpxhMF9qEUalI5sMmHDmm
+         No+A==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=UwF68Jo2;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id pw19sor2278074ejb.65.2021.11.11.09.05.37
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 11 Nov 2021 09:05:38 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=UwF68Jo2;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=BVhxx7YosH2ymgrfWUpQy6LoVn5S3MYDKBRQpOHzBtE=;
+        b=Tubv3nbTLLakd0QM++J1E38yjGzDX1viifBypUefTyW/Kak5EaRKKRH37k/ibN7tgl
+         79KCSpX2PR/xsz5/wBkUCCnyJh8F2L1LOlUT1U9AjR9+qNUC70CtJol3q2JPtdHm3Usl
+         r41+ZAoUKdzxpSF2SAHnvT9Boee2uQVIkWtOYu15wsrpA6EebjP9PhZIQVwENMnnHivH
+         t7EE4QYiKqMrjWUG8HplvECC7yw53daJg1BRp5SZNXUBupWFShZtEa/QhjD0gSfsK14f
+         k9kWr2RP8tm2BucuctVz6zleOKNpjp8rzpoTuqq25VgxTmgef/yLv4emOyLxY/nr669r
+         Ulpg==
+X-Gm-Message-State: AOAM531QBlxi+JIpaScir8hWHACDLAaR8vMFDGNQUqnGzFFlbMNM/2yr
+	+BZfU0WfMrYjaizvBM1p24iBZIIqCY+Me2UoHT+V7P368XwYC8qSG0yN
+X-Received: by 2002:a17:907:720d:: with SMTP id dr13mr11507881ejc.153.1636650337370;
+        Thu, 11 Nov 2021 09:05:37 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:2c0a:0:0:0:0:0 with SMTP id g10csp411689ecp;
+        Thu, 11 Nov 2021 09:05:32 -0800 (PST)
+X-Received: by 2002:a05:6122:1696:: with SMTP id 22mr13372259vkl.2.1636650332403;
+        Thu, 11 Nov 2021 09:05:32 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1636650332; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=PHEwltgrNy6fC7FOLcxDEpgCIYaN2m74OALKcDgSK3/xxUQhBZ4bamFZOtEPbIp8zz
+         GzYyrVGUCQJzfXYPOCDUvChzPep5e0FTR9fRFaofLGUY9et1uuQI2up3s+Y5NLtKYFpf
+         LocH0JboYOQ5vAKAdxPJ27It6X0NGo4AbB0ntIMQh5DENqHsgU2N9KNRQPRCEhTj8b0s
+         MAk+0sTI6l+DKYSwNbh+qZnjbY2NNePHnYal66Kf6T3cxNSImjFbbA4MmQygFH5ZIxWh
+         fw+WRWOqPB0+s/jlWQYo4Zm5Eh5zL8zXdiV2umJyRRIxl7xHsraR56iTb6bFWGz+YRpV
+         nkZA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=BVhxx7YosH2ymgrfWUpQy6LoVn5S3MYDKBRQpOHzBtE=;
+        b=LqJNMGv9pAsHanXMDQLoMhZlP3jSt7vJEvSloZBqpUXXrB0CAN1hE+I+4KPw7gofXD
+         9CcX+v4KfIvrujgn1Vq+c/zQ4Ct+fuuA4w3jkSuXZvqBDaG6pKKBV5nWH3YFVt467JQI
+         F8nMMUb8S0hfLQd7k7cHcTXfq5T1b3XzolJhsmr38N7oxRwzx0ylo1l6bGVTzGVq5MYo
+         DFaQT+II43OOf9q5SoBVFHRsYCNiD1AIKKjLmBcC295OOcPvqgUaPLe3VAX4L1wTkvoU
+         RxvEVmSCWtsqR7Wew7Jg/NKz0Ks4rBqiyV1hdAKt7/yDdvwD+KOZEaeJKs0lKLxba7Jp
+         B16A==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=UwF68Jo2;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20211111120248.25665904.269658@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20211111120248.25665904.269658@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211111120248.25665904.269658@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id q18sor1640310vsj.106.2021.11.11.09.05.30
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 11 Nov 2021 09:05:32 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20211111120248.25665904.269658@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJzavQEDCCx8/GlYlzqE0uOo5rLuC6kWRYuV2yab09XxYzqFXfllfHYic9H00PBevFN78SmfACaFp1htvUulvu5HsYHZV00=
+X-Received: by 2002:a05:6102:3f50:: with SMTP id l16mr228197vsv.57.1636650330226;
+        Thu, 11 Nov 2021 09:05:30 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1636650330; cv=none;
+        d=google.com; s=arc-20160816;
+        b=xCBMs1UuNV0FqR+IYlEx0ULPPtifmD79Ybkw4L1fu0csYwPY2EgyOtG73C2XJT1pE7
+         KWGpweWZpNpjaMHn5qDjgOgHWeiEjm8fW8ioVoAWDc6Lqx3eWH8w2EwsOvQGKg2FnFnu
+         GicDxIiPfJESYPSObkKf6FuU7O1Z3jyFBucHlEkUGfLds1lo5UB3oj43itw23ANrwEx1
+         syppd03Kegxy0Els2BiDl0x5DLawomjzC95ezhTOCF6YYW2lmy636mTAS4OIlaahACzI
+         lDpc/y0+WPdXdsfeMibcN1XotLaMHe0lcbp2y85ABxzJvrcvPkK0FR72THpgrQ/6972m
+         tkEA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=BVhxx7YosH2ymgrfWUpQy6LoVn5S3MYDKBRQpOHzBtE=;
+        b=M1c+DXahbV2C3hUH2RrYxbt9Vg8KUG8COEhhESrlaAeNqxNVrtSDkui/aHhG48gRXJ
+         V29owITbzSs/ucDNOZdLYs+3tOWsABECC87j8VyqmN0OucoSjcBIzHEdLdidd/IEwxi9
+         CM1ns/LTAfmhlJkejIB1s/Zs6r+izmkTopqbieIVAMlogXLghQdH4UsrQfz8be0lQNPB
+         ktY/ljKfUNx4Hl7Q+nslKlGjkI60UQYlhyt9rtPLTpFtc0WqbvwHyafolYPOnBeevAd1
+         Zk27WbWhyYEsJ3fBuWDRTfOhTP7pOElMCsF6t4C49e/S2meXN8Pddaz+StZMGtQnEIw+
+         +fUw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=UwF68Jo2;
+       spf=pass (google.com: domain of delivery_20211111120248.25665904.269658@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20211111120248.25665904.269658@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211111120248.25665904.269658@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id g8si363490vsk.0.2021.11.11.09.05.20
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 11 Nov 2021 09:05:30 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20211111120248.25665904.269658@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=Mi+XJRLTinQlN77uOV3HQbEEgiaZpuEicsR14UXHikk=;
+ b=UwF68Jo2WBe63Owb6ROE8cQasM5Frd3v+Z9XwODnOFh4nv5NBNzzDP7cAV6lL6tpTVIxBQuQH2qt
+   c7nPhm/2vNYkAonTpGPe1T/Lr/f8ABzvQUsnVaW+64ZqdBIrdaDfSAoFoQFaBL9Wvk+ldTIM0h5q
+   7+yif/0EB7VOy9d/Qok=
+Received: from njmta-149.sailthru.com (173.228.155.149) by pmta29.sailthru.com id hhl6l22tem47 for <bloomberg@khamel.com>; Thu, 11 Nov 2021 12:05:16 -0500 (envelope-from <delivery_20211111120248.25665904.269658@mx.sailthru.com>)
+Received: from nj1-madbrick.flt (172.18.20.7) by njmta-149.sailthru.com id hhl6km1qqbs7 for <bloomberg@khamel.com>; Thu, 11 Nov 2021 12:02:48 -0500 (envelope-from <delivery_20211111120248.25665904.269658@mx.sailthru.com>)
+Date: Thu, 11 Nov 2021 12:02:48 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20211111120248.25665904.269658@sailthru.com>
+Subject: Money Stuff: Elon Musk Sold Some Stock
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8454894_694273681.1636650168440"
+Precedence: bulk
+X-Feedback-ID: 6358:25665904:campaign:sailthru
+X-TM-ID: 20211111120248.25665904.269658
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-madbrick.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfa3xs.5s2i/6b78837c
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfa3xs.5s2i/6b78837c>, <mailto:unsubscribe_20211111120248.25665904.269658@mx.sailthru.com>
+X-rpcampaign: stjko25665904
+
+------=_Part_8454894_694273681.1636650168440
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Monday.=
+Oh ElonWell here you go sure sure sure: Tesla Inc. Chief Executive Office
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.
+ =20
+   =20
+      Oh Elon
+   =20
+ =20
+Well here you go  sure sure sure:Tesla Inc. Chief Executive Officer Elon Mu=
+sk unloaded $5 billion of stock in the electric-car maker, shortly after re=
+stoking a social media debate over the tax treatment of billionaires=E2=80=
+=99 shareholdings.The world=E2=80=99s richest person so far has disposed of=
+ more than 4.5 million shares this week, according to regulatory filings. T=
+hose were his first sales in more than five years.Musk, who frequently stok=
+es controversy on Twitter, created a firestorm over the weekend with a surv=
+ey asking whether he should sell part of his Tesla stake. While he portraye=
+d his proposal as having to do with debate over the ultra-wealthy avoiding =
+taxes, the filings released Wednesday show some of the transactions were pr=
+e-arranged in mid-September -- weeks before the poll. He also didn=E2=80=99=
+t mention in the tweets that he has millions of stock options that must be =
+exercised before next August, when they expire.There are two sets of sales.=
+ On Monday, he exercised 2.15 million stock options that were granted in 20=
+12, paying about $13.4 million to acquire 2.15 million shares; then he sold=
+ 934,091 of those shares for about $1.1 billion.=C2=A0The Form 4 disclosure=
+s for the exercise and sales are here and here. Footnote 1 of each of Musk=
+=E2=80=99s Form 4s says:=C2=A0=E2=80=9CThe transactions reported on this fo=
+rm 4 were automatically effected pursuant to a Rule 10b5-1 trading plan pre=
+viously adopted on September 14, 2021 and established by the reporting pers=
+on for the purpose of an orderly sale of shares related to the exercises of=
+ options scheduled to expire in 2022.=E2=80=9D=C2=A0Actually it says that i=
+n all caps. I like my readers so I rendered it in sentence case for readabi=
+lity, but now I=E2=80=99m going to say it again in all caps, for accuracy b=
+ut also for emphasis: =E2=80=9CTHE TRANSACTIONS REPORTED ON THIS FORM 4 WER=
+E AUTOMATICALLY EFFECTED PURSUANT TO A RULE 10B5-1 TRADING PLAN PREVIOUSLY =
+ADOPTED ON SEPTEMBER 14, 2021 AND ESTABLISHED BY THE REPORTING PERSON FOR T=
+HE PURPOSE OF AN ORDERLY SALE OF SHARES RELATED TO THE EXERCISES OF OPTIONS=
+ SCHEDULED TO EXPIRE IN 2022.=E2=80=9DOn Tuesday and Wednesday, he sold a t=
+otal of about 3.6 million of the 170.5 million shares that he already owned=
+ (i.e.=C2=A0not=C2=A0shares subject to options), for proceeds of about $3.9=
+ billion. There are a bunch of Form 4s for these sales (here, here, here, h=
+ere, here, here, here, here).[1] They do not mention a prearranged 10b5-1 p=
+lan; presumably he decided to sell them this week, and then did.Some backgr=
+ound. First, in September,=C2=A0a few weeks after he put this Rule 10b5-1 p=
+lan in place,  he said publicly at a conference that =E2=80=9Ca huge block =
+of options will sell in Q4 =E2=80=94=C2=A0because I have to or they=E2=80=
+=99ll expire.=E2=80=9D[2] He  has 22,862,050 options in the tranche set to =
+expire next August; he exercised 2.15 million of them on Monday, leaving hi=
+m with about 20.7 million options in that =E2=80=9Chuge block=E2=80=9D that=
+ he plans to =E2=80=9Csell in Q4.=E2=80=9DSecond, this past Saturday,   Mus=
+k tweeted a poll. =E2=80=9CMuch is made lately of unrealized gains being a =
+means of tax avoidance,=E2=80=9D  he wrote,=C2=A0=E2=80=9Cso I propose sell=
+ing 10% of my Tesla stock. Do you support this?=E2=80=9D In a second tweet,=
+ he said =E2=80=9CI will abide by the results of this poll, whichever way i=
+t goes.=E2=80=9D The poll closed on Sunday, with 57.9% of the votes in favo=
+r of Musk selling 10% of his stock.It is not clear what =E2=80=9C10% of my =
+Tesla stock=E2=80=9D means. At the time of the poll, Musk owned about 170.5=
+ million shares of Tesla stock. But he was also, for legal purposes, the =
+=E2=80=9Cbeneficial owner=E2=80=9D of another 73.5 million shares underlyin=
+g options; Tesla=E2=80=99s filings show him owning 244 million shares. So i=
+f Musk were to sell 10% of his stock that would mean selling somewhere betw=
+een 17 million and 24 million shares, give or take.Discussion questions!=09=
+On Monday, Musk sold about 0.9 million shares to pay taxes on his options e=
+xercise, pursuant to a plan he put in place in September. Sorry, I mean, PU=
+RSUANT TO A PLAN HE PUT IN PLACE IN SEPTEMBER. Do those shares count toward=
+ the 17 million-ish shares that he has to sell because of his Twitter poll?=
+=C2=A0=09Also, as of Monday afternoon, Musk owned 1,220,481=C2=A0more=C2=A0=
+Tesla shares than he did on Saturday when he tweeted the poll: He bought 2.=
+15 million shares (for $13.4 million, by exercising options granted in 2012=
+) and sold 934,091=C2=A0of them (for about $1.1 billion). If you are counti=
+ng these shares for his poll, should=C2=A0they count=C2=A0against=C2=A0his =
+obligation to sell stock? If on Sunday he had to sell 17 million shares to =
+satisfy his poll obligations, now does he have to sell 18.2 million?=09On T=
+uesday and Wednesday, he sold 3.6 million of the 17ish million shares that =
+he has to sell because of the poll. There doesn=E2=80=99t seem to be any=C2=
+=A0reason to sell those shares other than the poll. How many shares does he=
+ have to go? Is the answer 13.5 million (17ish million minus the 3.6ish mil=
+lion he sold for poll-related reasons) or 12.5 million (17ish million minus=
+ everything he sold so far this week) or something else?=09He has exercised=
+ only 2.15 million of the 22.9 million=C2=A0options that he previously said=
+ he will exercise this quarter, and sold only 0.9 million of the 10 million=
+ or so shares that he said he will sell to pay taxes on those exercises.[3]=
+ So presumably another 9 million or so shares of sales are coming this quar=
+ter =E2=80=94=C2=A0i.e. in the next eight weeks =E2=80=94 under his prearra=
+nged 10b5-1 plan for options exercises. Will those shares count toward his =
+remaining poll obligations? If so, most of his remaining sales will be for =
+options exercises. If not =E2=80=94=C2=A0if the poll and the options plan a=
+re separate =E2=80=94 then he=E2=80=99ll be selling 22+ million more shares=
+ this quarter.=09I said =E2=80=9Cthis quarter,=E2=80=9D but how long does h=
+e get to satisfy his poll obligations? Musk and Twitter both seem impatient=
+, and I suppose he=E2=80=99s going to get this done fast, but I=E2=80=99m n=
+ot sure he has any strict obligations.=09How does that 10b5-1 plan work, an=
+yway? The point of a  Rule 10b5-1 plan =E2=80=94=C2=A0we have   discussed t=
+hem a few   times around here =E2=80=94=C2=A0is that it automates the tradi=
+ng decision: When you=C2=A0don=E2=80=99t have any material nonpublic inform=
+ation, you agree on a plan that gives up discretion on the timing and price=
+ of trading decisions; then, you can automatically trade under the plan eve=
+n if you later get material nonpublic information. One possible way to do t=
+hat would be to say =E2=80=9Cexercise 2 million shares of options, and sell=
+ half the shares, each day starting on Nov. 8 and going until we=E2=80=99ve=
+ exercised all the options.=E2=80=9D But that doesn=E2=80=99t seem to be wh=
+at his plan says, because it seems like he exercised options and sold share=
+s on Monday, but then=C2=A0not=C2=A0on Tuesday or Wednesday.[4] There are v=
+arious possible explanations for that. Maybe the plan says =E2=80=9Cexercis=
+e 2.15 million shares per week and sell the stock,=E2=80=9D but gives his b=
+roker discretion on when during the week to do that; perhaps his broker did=
+ the whole week=E2=80=99s trade on Monday.[5] Or maybe the plan says =E2=80=
+=9Cexercise options and sell on days when the stock is above $1,100,=E2=80=
+=9D as it was on Monday but not Tuesday or Wednesday.[6]=C2=A0=09But one im=
+portant thing to say about the 10b5-1 plan is that it seems to have been ha=
+rd-coded to start on Monday.[7] Which means that when Musk tweeted his poll=
+ on Saturday, he knew that he=E2=80=99d be selling stock on Monday. Isn=E2=
+=80=99t that wild? Are you mad at him, for doing that? (I am not, for the r=
+ecord, but I have unusual biases here: Musk being weird on Twitter is good =
+for me professionally.)=C2=A0Is it somehow securities fraud to ask your Twi=
+tter followers if you should sell stock, knowing that you already have an a=
+utomatic plan to sell stock the following day? When we talked about his Twi=
+tter poll on Monday,   I wrote: =E2=80=9CIf he was going to sell the stock =
+anyway to pay taxes on options exercise, but did this poll as a distraction=
+, is that somehow fraud? =E2=80=98You were going to sell stock to pay your =
+tax bill like a rational person, but instead you pretended to sell stock ba=
+sed on a Twitter poll like a reckless weirdo, and I believed you and was de=
+ceived=E2=80=99? Would that be a misrepresentation of a material fact? Who =
+would have a claim for damages against him?=E2=80=9D Now that we know that =
+that is in fact (partly, sort of)=C2=A0what happened, I suppose I=E2=80=99l=
+l ask those questions again.=09What if people had voted no in the poll? He =
+didn=E2=80=99t have to do the Tuesday and Wednesday sales, sure, but he was=
+ all set to automatically sell almost a million shares on Monday. What if=
+=C2=A0he took a poll over the weekend and the=C2=A0result was =E2=80=9Cno, =
+don=E2=80=99t sell stock=E2=80=9D? What could he do? One possible answer is=
+: Sell the stock anyway and say =E2=80=9Cwhat, no, the poll was about me se=
+lling 10% of my stock for vague wealth-tax-protest=C2=A0reasons; this is to=
+tally different, this is me exercising options and selling stock to pay tax=
+es on those; actually I have=C2=A0more=C2=A0stock than I did on Saturday; t=
+his is unrelated.=E2=80=9D That strikes me as an=C2=A0annoying=C2=A0but not=
+ technically incorrect answer. Like, if he did that, you could probably sue=
+ him for securities fraud (everything is securities fraud!), but he=E2=80=
+=99d have a pretty good defense.[8] But the other possible answer[9] is: He=
+ could have=C2=A0canceled the 10b5-1 plan. The rules of 10b5-1 plans requir=
+e you to be =E2=80=9Cclean=E2=80=9D of material nonpublic information when =
+you set up the plan, but you can=C2=A0cancel=C2=A0the plan for any reason, =
+even if you have material nonpublic information. People complain about this=
+ because it is an=C2=A0obvious avenue for abuse, but that=E2=80=99s not par=
+ticularly relevant for our purposes here. Again, there=E2=80=99s no reason =
+to think Musk has any material nonpublic information now; the fact that he =
+also made non-prearranged sales on Tuesday and Wednesday implies he does no=
+t. He could have canceled the 10b5-1 plan just because the Twitter poll tol=
+d him to. That would be public information! Seems fine.=09Consider your ans=
+wers to Question 6 (basically: Why did his 10b5-1 plan have him exercising =
+options and selling shares on Monday, and then stop) and Question 8 (basica=
+lly: Could he have canceled=C2=A0his 10b5-1 plan if the poll had voted no?)=
+. What are the odds that Musk=C2=A0canceled=C2=A0his 10b5-1 plan after Mond=
+ay in order to focus on his poll-related discretionary=C2=A0selling? Low, I=
+ would think, but who knows. (If this=C2=A0did=C2=A0happen, again, it seems=
+ fine: Musk has no material nonpublic information, he=E2=80=99s making non-=
+10b5-1 sales, so canceling the 10b5-1 plan would not be abusive.)=09Why did=
+ he do the poll?=C2=A0Why did he do the poll now?=C2=A0Tesla=E2=80=99s stoc=
+k hit an all-time high last Thursday and was pretty close to it on Friday. =
+If Musk had just started selling on Monday, pursuant to his prearranged pla=
+n,=C2=A0without saying anything to anyone, presumably the stock price would=
+ have stayed high and he=E2=80=99d have sold on Monday in the $1,220 area. =
+Instead he asked Twitter about dumping stock, Twitter was like =E2=80=9Csur=
+e yeah dump some stock,=E2=80=9D the stock fell on Monday and he got about =
+$1,180 per share. The poll cost him perhaps $40 per share on 934,000 shares=
+, or about $37 million on Monday=E2=80=99s sales. (And he=E2=80=99s got ano=
+ther 9 million or so of shares to sell this quarter to pay taxes on option =
+exercise, which will all presumably come at a lower price because the poll =
+drew attention to, and increased, his sales.=C2=A0If he=E2=80=99d waited un=
+til after he sold those shares to do his poll, he=E2=80=99d likely have cle=
+ared hundreds of millions more dollars on those sales.) Was a little Twitte=
+r fun worth $37 million to him? To ask that question is to answer it:=C2=A0=
+Of course=C2=A0a little Twitter fun is worth $37 million to the world=E2=80=
+=99s richest and most Twitter-obsessed human.=09Isn=E2=80=99t this really=
+=C2=A0good=C2=A0disclosure? Another quite sensible and valid complaint that=
+ people have about 10b5-1 plans is that they don=E2=80=99t have to be discl=
+osed in advance. Securities and Exchange Commission Chair Gary Gensler  has=
+ proposed to =E2=80=9Cfreshen up Rule 10b5-1,=E2=80=9D including to require=
+ =E2=80=9Cmore disclosure regarding the adoption, modification, and terms o=
+f Rule 10b5=E2=80=911 plans by individuals and companies.=E2=80=9D But righ=
+t now, a CEO can adopt a 10b5-1 plan in September, not tell anyone about it=
+, start selling stock automatically in November, and not tell anyone anythi=
+ng until two days=C2=A0after her sales, when she files a Form 4. (The  rule=
+s say that=C2=A0=E2=80=9CForm 4 must be filed within two business days foll=
+owing the transaction date,=E2=80=9D which is why Musk waited until Wednesd=
+ay to disclose his Monday trades, but he helpfully disclosed his Tuesday an=
+d Wednesday trades that same evening.) The Form 4 will say =E2=80=9Cthese s=
+ales were pursuant to a 10b5-1 plan,=E2=80=9D but it won=E2=80=99t describe=
+ the terms of the plan; in particular, it won=E2=80=99t say if=C2=A0more=C2=
+=A0sales are coming. If you are buying stock while the CEO is selling, not =
+knowing that she=E2=80=99s selling, you might feel a bit aggrieved. Meanwhi=
+le Musk adopted a 10b5-1 plan in September,=C2=A0described it at a conferen=
+ce in September, and then, when he was about to start selling stock automat=
+ically in November,=C2=A0told everyone on Twitter that he=E2=80=99d be sell=
+ing=C2=A0a bunch=C2=A0of stock=C2=A0in a highly salient way. Isn=E2=80=99t =
+that=C2=A0much better disclosure=C2=A0than you=E2=80=99d expect to get from=
+ a public-company CEO selling his stock? Didn=E2=80=99t he tell you what he=
+=E2=80=99d do in advance, even though he didn=E2=80=99t have to, even thoug=
+h it lowered his selling price and cost him tens of millions of dollars? Is=
+n=E2=80=99t that information that you=E2=80=99d want as a shareholder, and =
+that other CEOs wouldn=E2=80=99t give you? Sure he did it in a weird annoyi=
+ng winking=C2=A0way, but he=E2=80=99s Elon Musk, you just gotta accept that=
+. If you get past the winking weirdness, isn=E2=80=99t this a model of disc=
+losure that other CEOs should follow?
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Banking fees
+   =20
+ =20
+If you work at an investment bank, at some point early in your career you w=
+ill be told the inspirational story of The Banker Who Told The Client Not T=
+o Do The Deal. This legendary banker was approached by a valued client abou=
+t buying another company. The client wanted to do the deal, and would pay t=
+he bank a big fee for doing it, which would result in a big bonus for The B=
+anker Who Told The Client Not To Do The Deal. The deal could easily be done=
+. But=C2=A0The Banker Who Told The Client Not To Do The Deal took a look at=
+ the financials and the business logic and said to the client =E2=80=9Cno, =
+client, you will be better off not doing the deal.=E2=80=9D The client relu=
+ctantly agreed. The=C2=A0bank missed out on the fee. But the client respect=
+ed the bank, and it especially respected The Banker Who Told The Client Not=
+ To Do The Deal, who became a trusted adviser to the client forever. Later =
+it turned out that the deal would have been bad, and=C2=A0The Banker Who To=
+ld The Client Not To Do The Deal saved the client from a costly mistake.[10=
+]=C2=A0Later the client did lots of other, bigger deals, and always paid th=
+e bank big fees for advising on them.This is an inspirational story designe=
+d to drive home the message that you should always do the right thing for t=
+he client, be long-term greedy, keep the client=E2=80=99s interests in mind=
+ instead of your grubby fee, etc. But the fact that it is told with such re=
+verence suggests that it is, you know, unusual. Most of the time, if a clie=
+nt really wants to do a deal, you=E2=80=99re like =E2=80=9Cwell, it's their=
+ money, I am just a service provider.=E2=80=9D Also, most of the time,=C2=
+=A0if a client really wants to do a deal and you say =E2=80=9Cno, don=E2=80=
+=99t do that deal,=E2=80=9D the client will not respect you; the client wil=
+l be like =E2=80=9Cthis banker doesn=E2=80=99t understand my rare business =
+genius=E2=80=9D and will just hire someone else. Also, most of the time, yo=
+ur interactions with clients are=C2=A0largely about=C2=A0pitching them=C2=
+=A0deals; it would be weird to turn around and say =E2=80=9Cactually never =
+mind don=E2=80=99t do that deal.=E2=80=9D Also, if you tell a client not to=
+ do a deal that would bring in a big fee, maybe in 10 years you will be spo=
+ken of in tones of hushed reverence=C2=A0as=C2=A0The Banker Who Told The Cl=
+ient Not To Do The Deal, but meanwhile you won=E2=80=99t bring in the big f=
+ee and your bonus will be lower. Future tones of hushed reverence won=E2=80=
+=99t buy you a beach house.Anyway General Electric Co. is maybe the best in=
+vestment banking client in the world because it does so many deals. In part=
+icular it did a lot of deals to build a big conglomerate, and then it did a=
+ lot of deals to dismantle the big conglomerate, with more coming now as it=
+ plans to=C2=A0break=C2=A0up into three pieces. Bankers rarely said no:Gene=
+ral Electric has paid more than $7bn in investment banking fees since 2000,=
+ as Wall Street lenders reaped rewards from a frenzied period of dealmaking=
+ that culminated in a sinking share price and the eventual break-up of the =
+best-known US conglomerate. =E2=80=A6Since 2000, the company has shelled ou=
+t more on investment banking fees than any other US business, according to =
+the Refinitiv figures. The next biggest spenders were Citi and JPMorgan, wh=
+ich paid their bankers $6.8bn, while the biggest outlay at an industrial gr=
+oup was GM, which spent $3.8bn.Critics=E2=80=89have said the outsized fees =
+are indicative of how bankers =E2=80=94 who have profited despite GE=E2=80=
+=99s market value falling about 75 per cent since 2000 =E2=80=94 care more =
+about completing lucrative transactions than acting in the best interests o=
+f their clients.=E2=80=9CGE has been on an acquiring spree for more than 20=
+ years, with disastrous outcomes,=E2=80=9D said Nuno Fernandes, professor o=
+f finance at IESE Business School.Fernandes added: =E2=80=9CThere=E2=80=99s=
+ a pernicious conflict of interest here=E2=80=89.=E2=80=89.=E2=80=89. Becau=
+se investment banks receive much larger fees when the deals are closed, ban=
+kers were always on the side of completing as many deals as possible, not o=
+n GE=E2=80=99s side.=E2=80=9DI dunno, I would not call it a =E2=80=9Cpernic=
+ious conflict of interest.=E2=80=9D It=E2=80=99s like, GE wanted deals, so =
+it went to the deal-executers and said =E2=80=9Cexecute these deals for us =
+and we=E2=80=99ll pay you,=E2=80=9D and the deal-executers executed the dea=
+ls and cashed the checks. They=C2=A0could have=C2=A0said no, but it would h=
+ave been kind of a weird move.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Trump SPAC PIPE
+   =20
+ =20
+The rough basic facts are that Donald Trump has an imaginary company called=
+ Trump Media & Technology Group (TMTG), he  signed a deal with a special pu=
+rpose acquisition company called Digital World Acquisition Company (DWAC) t=
+o take his imaginary company public at a valuation of about $875 million, a=
+nd the SPAC=E2=80=99s current trading price gives the imaginary company a v=
+aluation of about $7=C2=A0billion.[11]=C2=A0If you are a professional inves=
+tor and someone offers you the opportunity to invest in Trump=E2=80=99s ima=
+ginary company at an $875 million valuation, I think you should do it? I do=
+n=E2=80=99t give investing advice around here, and you could have some ESG-=
+ish reasons to stay away. But buying something worth $7 billion for $875 mi=
+llion seems like a good trade.To be clear, you could reasonably disagree. Y=
+ou could have some=C2=A0financial=C2=A0reasons to stay away: Sure TMTG is t=
+rading at a $7=C2=A0billion valuation=C2=A0now, but it could go below $875 =
+million=C2=A0later. That=E2=80=99s entirely possible, given that it is an i=
+maginary company.=C2=A0It has disclosed no financial information, no busine=
+ss plans, no nothing; the market=E2=80=99s belief that it is worth $7=C2=A0=
+billion is based on political loyalty and memes and some vague bluster from=
+ Trump.=C2=A0Let=E2=80=99s sharpen the hypothetical and say that you are be=
+ing offered the chance to invest in a PIPE, a private investment in public =
+equity, in the TMTG/DWAC deal. You have to commit now; when the SPAC deal c=
+loses and TMTG goes public, you will have to hand over your cash and get yo=
+ur=C2=A0shares. If things happen in the interim =E2=80=94=C2=A0if, for inst=
+ance, TMTG=C2=A0puts out=C2=A0some public disclosure of its financial state=
+ments, operations, business plans, any of that stuff that companies have to=
+ disclose before going public, and that disclosure is bad =E2=80=94=C2=A0th=
+en the stock might drop, but you don=E2=80=99t get to change your mind. Let=
+'s also assume that you have to agree to lock up your shares for a while af=
+ter closing: You can=E2=80=99t dump them as soon as the deal closes and TMT=
+G goes public, but you have to hold them for a few months afterward. If the=
+ stock drops after TMTG goes public, you might not be able to get out immed=
+iately. This is all not risk-free.=C2=A0But that $7=C2=A0billion is a lot o=
+f cushion. It=E2=80=99s not a crazy trade.If you are a professional investo=
+r and someone offered you the opportunity to invest in Trump=E2=80=99s imag=
+inary company at a $7=C2=A0billion valuation, =E2=80=A6=C2=A0=E2=80=A6=C2=
+=A0=E2=80=A6=C2=A0=E2=80=A6=C2=A0=E2=80=A6=C2=A0=E2=80=A6=C2=A0=E2=80=A6=C2=
+=A0=E2=80=A6=C2=A0=E2=80=A6 ??? I don=E2=80=99t give investing advice aroun=
+d here! But it seems to me that DWAC shares are trading at very high prices=
+ due to retail enthusiasm and political factors, and that it would be very =
+hard for a professional investor to underwrite a $7=C2=A0billion valuation =
+for a company that is at this point, I really must emphasize, imaginary. Wh=
+at do its financial statements or projections or business plans look like? =
+Who is building the technology for its social media platform? I will not be=
+labor these questions because no one actually cares, but if you are a profe=
+ssional being asked to underwrite a $7=C2=A0billion valuation you should pr=
+obably care?=C2=A0Again you could reasonably disagree! You could say, you k=
+now, the Trump brand is so powerful that any media-ish company he starts=C2=
+=A0will be worth $50 billion, so getting in at $7=C2=A0billion is a bargain=
+. That=E2=80=99s fine! I am not going to argue with you. Still, investing a=
+t $7=C2=A0billion with a lockup is an aggressive choice. Especially since y=
+ou can just buy the publicly traded stock of DWAC at that valuation, withou=
+t locking up your money.I suppose there is some number between $875 million=
+ and $7 billion where you could get=C2=A0some=C2=A0professional investors t=
+o sign up.Anyway:Digital World Acquisition Corp. has begun scheduling meeti=
+ngs with prospective investors for a private investment in public equity, o=
+r PIPE, transaction to support its merger with Trump Media & Technology Gro=
+up, according to people with knowledge of the matter. While the PIPE=E2=80=
+=99s terms haven=E2=80=99t been finalized, it may exceed $500 million in si=
+ze, said one of the people, who asked not to be named because the talks are=
+ private.=C2=A0Any fresh capital would add more funding to launch the media=
+ conglomerate, which plans to initially get off the ground with a social ne=
+twork called Truth Social that would give Trump a platform after he was ban=
+ned from Facebook and Twitter. PIPEs also help to lend credibility to speci=
+al purpose acquisition company mergers and can provide a cash buffer if ear=
+ly investors decide to redeem their shares.Traditionally, PIPEs are priced =
+at $10 a share, in line with the initial public offering price of most SPAC=
+s. But day traders and Reddit enthusiasts have helped fuel a spectacular ra=
+lly in Digital World shares, which reached a closing high of $94.20 last mo=
+nth before leveling out to recently trade around $60. In light of those gai=
+ns, any PIPE is expected to price above $10, one of the people familiar wit=
+h the matter said.=C2=A0The prospect of lucrative profits could lure invest=
+ors in, especially if a Trump PIPE deal is structured similarly to the capi=
+tal injection that supported electric-vehicle maker Lucid Motors=E2=80=99s =
+merger with Churchill Capital Corp IV., which created=C2=A0Lucid Group Inc.=
+=C2=A0PIPE investors in that transaction signed up at $15 a share, ensuring=
+ a huge paper profit over the $52.94 it closed at before the deal was annou=
+nced. Despite turbulence in the ensuing months, Lucid has so far paid off f=
+or those investors, trading Monday at $47.61 as of 3:15 p.m. New York time.=
+Yeah see ordinarily the PIPE deal=C2=A0sort of validates the valuation of t=
+he SPAC deal: If the SPAC deal is done at $10 per share, and the PIPE is do=
+ne at $10 per share, that means that smart institutional investors believe =
+in the valuation. If the SPAC shares are trading at $60 per share, and the =
+PIPE investors come in at $15 per share, that means that smart institutiona=
+l investors=C2=A0very much do not=C2=A0believe in the valuation that SPAC i=
+nvestors believe in.[12] If the stock has been trading at $60 for weeks sin=
+ce the deal was announced, and you announced =E2=80=9Chey great news we fou=
+nd some hedge funds willing to pay $15 for this,=E2=80=9D that is not=C2=A0=
+great=C2=A0news, you know?=C2=A0Still it is=C2=A0kind of=C2=A0good news bec=
+ause you have to assume that the PIPE investors did=C2=A0some=C2=A0due dili=
+gence and=C2=A0got=C2=A0some=C2=A0disclosure about TMTG that goes beyond th=
+e comically vague =E2=80=9CCompany Overview=E2=80=9D on TMTG=E2=80=99s webs=
+ite. Maybe not=C2=A0financial statements=C2=A0or a=C2=A0business plan, but =
+at least, like, some human being called the up potential investors and said=
+ =E2=80=9Chey would you like to invest in TMTG=E2=80=9D and the investors s=
+aid =E2=80=9Cuh I don=E2=80=99t know does it exist?=E2=80=9D and the caller=
+ was like =E2=80=9Cdefine =E2=80=98exists=E2=80=99=E2=80=9D and they went f=
+rom there. More than the SPAC investors got, anyway.
+ =20
+   =20
+      Ozy=C2=A0
+   =20
+ =20
+Well, obviously:The Justice Department and the Securities and Exchange Comm=
+ission have opened investigations into the embattled Silicon Valley company=
+ Ozy Media, according to people with knowledge of the matter.Federal prosec=
+utors with the Eastern District of New York have in recent weeks been in co=
+ntact with at least one company that had dealings with Ozy, two people with=
+ knowledge of the matter said. In the parallel civil inquiry, S.E.C. invest=
+igators have contacted at least two companies that discussed investing in O=
+zy, two people with knowledge of the commission=E2=80=99s effort said.If yo=
+u are a federal prosecutor or an SEC enforcement lawyer, and you wake up on=
+e day and read in the New York Times that a private company executive=C2=A0=
+impersonated a YouTube executive on a due diligence call with Goldman Sachs=
+ Asset Management, what do you do about it? Go back to bed? I suppose there=
+ is an argument that you spring into action, issue subpoenas, and generally=
+ race to be the very first enforcement lawyer to nab this company, because =
+how fun will that trial be?But there is another argument that once a story =
+that good is in the New York Times, it is too late for you to wring any glo=
+ry from it. There is a sort of $100-bill-on-the-sidewalk problem with that =
+story: If you=E2=80=99re a prosecutor and you read that story, you have to =
+figure =E2=80=9Ceither this story is somehow exaggerated and if I investiga=
+te it I will be disappointed, or this story is true and like nine other fed=
+eral prosecutors have already called dibs on it.=E2=80=9D It is just too lu=
+dicrous for=C2=A0you=C2=A0to be the first prosecutor to investigate it.=C2=
+=A0Still, someone had to seize the opportunity. And the Eastern District an=
+d the SEC apparently did.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Wall Street Is Offering  8-Figure Pay Packages to Woo Top Talent. AMC Chief=
+ Aron to Sell $53 Million in Stock. Evergrande Set to  Avoid Default After =
+Paying Overdue Interest. China=E2=80=99s Plan to Manage Evergrande: Take It=
+ Apart, Slowly.=C2=A0Zillow Sells 2,000 Homes in Dismantling Its House-Flip=
+ping Business. J&J Wins Halt to 38,000  Baby Powder Lawsuits Amid Bankruptc=
+y.=C2=A0Rivian Shares Surge in Largest U.S. IPO Since 2014. Icahn Threatens=
+ Legal Action as  Southwest Gas Spat Intensifies. Hershey Plans to Spend $1=
+.2 Billion in Deals for Pretzel Producers.=C2=A0Culinary Detectives Try to =
+Recover the Formula for a Deliciously Fishy Roman Condiment.If you'd like t=
+o get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, =
+please=C2=A0subscribe at this link. Or you can subscribe to Money Stuff and=
+ other great Bloomberg newsletters here. Thanks![1] The shares he sold on M=
+onday were owned by Elon Musk: He had options, he exercised them, he got th=
+e shares, he sold them. The shares he sold on Tuesday and Wednesday were ow=
+ned by =E2=80=9Cthe Elon Musk Revocable Trust dated July 22, 2003, for whic=
+h the reporting person is trustee=E2=80=9D; that=E2=80=99s how all of his s=
+hares were held prior to this week. So trust shares are old shares, shares =
+he already owned; new shares =E2=80=94=C2=A0option shares =E2=80=94=C2=A0co=
+me in his own name.[2] He discusses it at about the 42-minute mark here.[3]=
+=C2=A0Here I assume that the 934,000 shares he sold on 2.15 million options=
+ exercised on Monday were sufficient to pay the taxes on those options. Tha=
+t=E2=80=99s a 43% tax rate, less than he has=C2=A0said he pays. (He said he=
+ pays a 53% rate.) But at that rate he would need to sell 9.9 million of th=
+e 22.9 million shares underlying the options to pay taxes. At a 53% rate he=
+=E2=80=99d need to sell about 12.1 million of those 22.9 million shares.[4]=
+ I say =E2=80=9Cseems=E2=80=9D because technically you get two business day=
+s to file a Form 4, so I guess it=E2=80=99s theoretically possible that he =
+exercised options and sold options shares under his Rule 10b5-1 plan on Tue=
+sday and Wednesday and hasn=E2=80=99t yet disclosed that. It would be *very=
+* weird, though, since he has already disclosed millions of shares of non-1=
+0b5-1 sales on those days; why would he disclose some early and wait on oth=
+ers?[5] Note that 2.15 million shares a week *isn=E2=80=99t fast enough*: I=
+f he wants to exercise all 22.9 million shares by the end of 2021, to avoid=
+ a tax increase next year, he=E2=80=99s only got eight weeks; he=E2=80=99d =
+need to do about 2.9 million a week.[6] This would be a very weird thing fo=
+r the plan to say, given that he put it in place in mid-September when the =
+stock was in the $700s; =E2=80=9Csell stock only if it=E2=80=99s up more th=
+an 50%=E2=80=9D is not normal a way make sure all your options get exercise=
+d. Maybe it=E2=80=99s like =E2=80=9Cexercise 2.15 million options per day u=
+nless the stock closed down more than X% the previous day,=E2=80=9D I dunno=
+.[7] One other point about the 10b5-1 plan is that it=E2=80=99s not clear t=
+hat it=E2=80=99s *necessary*. In general, if you are the chief executive of=
+ficer of a public company there are not a lot of open windows when you can =
+sell stock. But Musk is in one: Tesla  announced its third-quarter earnings=
+ on Oct. 20, and it=E2=80=99s still 50-odd days from the end of the fourth =
+quarter. And so Musk was able to sell stock on Tuesday and Wednesday *witho=
+ut* a prearranged plan. He could have done the options that way too. It=E2=
+=80=99s still best practice=C2=A0to do the 10b5-1 plan: In September, he kn=
+ew he=E2=80=99d need to exercise the options, but he didn=E2=80=99t know if=
+ he=E2=80=99d have material nonpublic information in November and December,=
+ so it was a good idea to set up an automatic exercise/sales plan to make s=
+ure he=E2=80=99d be able to sell. And if the plan does involve selling over=
+ the entire remaining quarter, eventually he=E2=80=99ll go into a blackout =
+period (near the end of the quarter) and then the 10b5-1 plan will be neces=
+sary. But this week, he could have just freely exercised options and sold s=
+tock without a 10b5-1 plan.[8] For what it=E2=80=99s worth, I think that ev=
+en if Musk completely ignored the results of the poll and did the opposite =
+of what his Twitter voters wanted, you=E2=80=99d have a tough time making o=
+ut a case of securities fraud, though I have no doubt that someone would tr=
+y.[9] A third possible answer=C2=A0is: No, Elon Musk knows what he is doing=
+, he knows his audience on Twitter, he phrased the poll the way he did, the=
+re was no way that the poll would have gone the other way, he knew that, an=
+d he was confident that he=E2=80=99d be selling on Monday with the blessing=
+ of his Twitter followers.[10] In some versions of the story, the client do=
+es the deal anyway with another bank, the other bank gets the fee,=C2=A0the=
+ deal is a disaster, the client regrets it, and *then* the client respects =
+and trusts=C2=A0The Banker Who Told The Client Not To Do The Deal forever.[=
+11] These numbers are a little fuzzy. The $875 million comes from the annou=
+ncement of the deal: =E2=80=9CThe transaction values Trump Media & Technolo=
+gy Group at an initial enterprise value of $875 Million.=E2=80=9D The merge=
+r agreement (which I  discussed here) reveals that what this means is that =
+TMTG=E2=80=99s current shareholders (presumably Trump and others)=C2=A0will=
+ get a number of shares in the post-SPAC company equal to $875 million divi=
+ded by the trust value per share of the SPAC, which is $10.20, meaning that=
+ they get about 85.8 million shares for their company. They also get up to =
+40 million =E2=80=9Cearnout=E2=80=9D shares if the stock price is above $30=
+ consistently; it=E2=80=99s been above $50 basically since the deal was ann=
+ounced, so I=E2=80=99m crediting them with the full earnout. So they get 12=
+5.8 million shares of the combined company. The shares of the SPAC trade cl=
+osed yesterday at $58.30. So TMTG=E2=80=99s shares are worth about $7.33 bi=
+llion. I should say that these numbers are not quite fair. If you buy in at=
+ $58.30 per share, and then the stock *drops* to $10 and stays there, you d=
+idn=E2=80=99t *really* buy in at a $7=C2=A0billion valuation: TMTG=E2=80=99=
+s shareholders won=E2=80=99t get the earnout, they=E2=80=99ll end up with o=
+nly 85.8 million shares, and your entry valuation was effectively $5 billio=
+n.[12]=C2=A0Yes, it happened in Lucid, though that was a little different i=
+n that the PIPE was signed at the same time as the SPAC deal. (The SPAC was=
+ just trading at ridiculous levels pre-deal.) But, yeah:  Lucid was a reall=
+y weird deal!=C2=A0
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfa3xs.5s2i/94886783.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_8454894_694273681.1636650168440
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Monday.Oh ElonW=
+ell here you go sure sure sure: Tesla Inc. Chief Executive Office
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25665904.269658/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNTY2NTkwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5MzU1NjImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cB48f0960d" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D25665904&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25935562&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25665904.269658/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMTExMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMTEmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB4399e5f2"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25665904.269658/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNTY2NTkwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5MzU1NjImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cC71c7897d" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D25665904&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25935562&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"108" style=3D"width: 108px !important; display:block" =
+/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Monday.</em></p><table class=3D"header" =
+width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oh Elon</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Well here you go <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMTAvZWxvbi1tdXNrLXNlbGxzLXRlc2xhLX=
+N0b2NrLWFmdGVyLXR3aXR0ZXItdm90ZS10by1tZWV0LXRheGVzP2NtcGlkPUJCRDExMTEyMV9NT=
+05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJt=
+PTIxMTExMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBbfbdb8b=
+c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> sure sure sure</a>:</p><blockquote><p style=3D"margin: 16px 0=
+;">Tesla Inc. Chief Executive Officer Elon Musk unloaded $5 billion of stoc=
+k in the electric-car maker, shortly after restoking a social media debate =
+over the tax treatment of billionaires=E2=80=99 shareholdings.</p><p style=
+=3D"margin: 16px 0;">The world=E2=80=99s richest person so far has disposed=
+ of more than 4.5 million shares this week, according to regulatory filings=
+. Those were his first sales in more than five years.</p><p style=3D"margin=
+: 16px 0;">Musk, who frequently stokes controversy on Twitter, created a fi=
+restorm over the weekend with a survey asking whether he should sell part o=
+f his Tesla stake. While he portrayed his proposal as having to do with deb=
+ate over the ultra-wealthy avoiding taxes, the filings released Wednesday s=
+how some of the transactions were pre-arranged in mid-September -- weeks be=
+fore the poll. He also didn=E2=80=99t mention in the tweets that he has mil=
+lions of stock options that must be exercised before next August, when they=
+ expire.</p></blockquote><p style=3D"margin: 16px 0;">There are two sets of=
+ sales. On Monday, he exercised 2.15 million stock options that were grante=
+d in 2012, paying about $13.4 million to acquire 2.15 million shares; then =
+he sold 934,091 of those shares for about $1.1 billion.=C2=A0The Form 4 dis=
+closures for the exercise and sales are <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlc=
+y9lZGdhci9kYXRhLzEzMTg2MDUvMDAwMDg5OTI0MzIxMDQ0MDYwL3hzbEYzNDVYMDMvZG9jNC54=
+bWw/607f07ceef4b8524a319a23cB8185514a" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">here</a> and <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cuc=
+2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEzMTg2MDUvMDAwMDg5OTI0MzIxMDQ0MDc3L3hz=
+bEYzNDVYMDMvZG9jNC54bWw/607f07ceef4b8524a319a23cBc31115b5" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">here</a>=
+. Footnote 1 of each of Musk=E2=80=99s Form 4s says:=C2=A0<span>=E2=80=9CTh=
+e transactions reported on this form 4 were automatically effected pursuant=
+ to a Rule 10b5-1 trading plan previously adopted on September 14, 2021 and=
+ established by the reporting person for the purpose of an orderly sale of =
+shares related to the exercises of options scheduled to expire in 2022.=E2=
+=80=9D</span>=C2=A0<span>Actually it says that in all caps. I like my reade=
+rs so I rendered it in sentence case for readability, but now I=E2=80=99m g=
+oing to say it again in all caps, for accuracy but also for emphasis: =E2=
+=80=9C</span>THE TRANSACTIONS REPORTED ON THIS FORM 4 WERE AUTOMATICALLY EF=
+FECTED PURSUANT TO A RULE 10B5-1 TRADING PLAN PREVIOUSLY ADOPTED ON SEPTEMB=
+ER 14, 2021 AND ESTABLISHED BY THE REPORTING PERSON FOR THE PURPOSE OF AN O=
+RDERLY SALE OF SHARES RELATED TO THE EXERCISES OF OPTIONS SCHEDULED TO EXPI=
+RE IN 2022.=E2=80=9D</p><p style=3D"margin: 16px 0;">On Tuesday and Wednesd=
+ay, he sold a total of about 3.6 million of the 170.5 million shares that h=
+e already owned (i.e.=C2=A0<em>not=C2=A0</em>shares subject to options), fo=
+r proceeds of about $3.9 billion. There are a bunch of Form 4s for these sa=
+les (<a href=3D"https://link.mail.bloombergbusiness.com/click/25665904.2696=
+58/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEzMTg2MDUvMDAwMDg5=
+OTI0MzIxMDQ0MjQ0L3hzbEYzNDVYMDMvZG9jNC54bWw/607f07ceef4b8524a319a23cBca66a6=
+2b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">here</a>, <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/25665904.269658/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLz=
+EzMTg2MDUvMDAwMDg5OTI0MzIxMDQ0MjQyL3hzbEYzNDVYMDMvZG9jNC54bWw/607f07ceef4b8=
+524a319a23cB70aebbbc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">here</a>, <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlc=
+y9lZGdhci9kYXRhLzEzMTg2MDUvMDAwMDg5OTI0MzIxMDQ0MjQxL3hzbEYzNDVYMDMvZG9jNC54=
+bWw/607f07ceef4b8524a319a23cB1b065a37" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">here</a>, <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cuc2Vj=
+Lmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEzMTg2MDUvMDAwMDg5OTI0MzIxMDQ0MjQwL3hzbEY=
+zNDVYMDMvZG9jNC54bWw/607f07ceef4b8524a319a23cBfd51e18f" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">here</a>, <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/25665904.269658/aHR=
+0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEzMTg2MDUvMDAwMDg5OTI0Mz=
+IxMDQ0MjM1L3hzbEYzNDVYMDMvZG9jNC54bWw/607f07ceef4b8524a319a23cB83df4876" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">here</a>, <a href=3D"https://link.mail.bloombergbusiness.com/click/25=
+665904.269658/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEzMTg2M=
+DUvMDAwMDg5OTI0MzIxMDQ0MjMyL3hzbEYzNDVYMDMvZG9jNC54bWw/607f07ceef4b8524a319=
+a23cBbd261b96" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">here</a>, <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/25665904.269658/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdh=
+ci9kYXRhLzEzMTg2MDUvMDAwMDg5OTI0MzIxMDQ0MjI5L3hzbEYzNDVYMDMvZG9jNC54bWw/607=
+f07ceef4b8524a319a23cB6323d22e" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">here</a>, <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cuc2VjLmdvdi9=
+BcmNoaXZlcy9lZGdhci9kYXRhLzEzMTg2MDUvMDAwMDg5OTI0MzIxMDQ0MjI1L3hzbEYzNDVYMD=
+MvZG9jNC54bWw/607f07ceef4b8524a319a23cB1d7da396" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">here</a>).[1] They=
+ do not mention a prearranged 10b5-1 plan; presumably he decided to sell th=
+em this week, and then did.</p><p style=3D"margin: 16px 0;">Some background=
+. First, in September,=C2=A0a few weeks after he put this Rule 10b5-1 plan =
+in place, <a href=3D"https://link.mail.bloombergbusiness.com/click/25665904=
+.269658/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAyMS8wOS8yOS9lbG9uLW11c2stdGFrZXMtc2h=
+vdHMtYXQtYmlkZW4tc2VjLWFudGktbnVjbGVhci1zZW50aW1lbnQtYXQtY29kZS5odG1s/607f0=
+7ceef4b8524a319a23cB7566283c" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> he said publicly at a conference</a>=
+ that =E2=80=9Ca huge block of options will sell in Q4 =E2=80=94=C2=A0becau=
+se I have to or they=E2=80=99ll expire.=E2=80=9D[2] He <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cuc2VjLm=
+dvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEzMTg2MDUvMDAwMTU2NDU5MDIxMDQ1OTI2L3RzbGEtZ=
+GVmMTRhXzIwMjEwODI2Lmh0bSNPVVRTVElOR19FUVVJVFlfQVdBUkRTX0FUXzIwMTlfRklTQ0FM=
+X1lF/607f07ceef4b8524a319a23cBff3eea2a" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> has 22,862,050 options</a>=
+ in the tranche set to expire next August; he exercised 2.15 million of the=
+m on Monday, leaving him with about 20.7 million options in that =E2=80=9Ch=
+uge block=E2=80=9D that he plans to =E2=80=9Csell in Q4.=E2=80=9D</p><p sty=
+le=3D"margin: 16px 0;">Second, this past Saturday, <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTEtMDgvZWxvbi1tdXNrLWRpZC1zb21lLXR3Z=
+WV0cz9jbXBpZD1CQkQxMTExMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3Vy=
+Y2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmYjZm9=
+vdG5vdGUtMQ/607f07ceef4b8524a319a23cB08a324cc" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">  Musk tweeted a pol=
+l</a>. =E2=80=9CMuch is made lately of unrealized gains being a means of ta=
+x avoidance,=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/25665904.269658/aHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTQ1NzA=
+2NDY5Nzc4MjQ4OTA4OA/607f07ceef4b8524a319a23cB3adad839" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> he wrote</a=
+>,=C2=A0=E2=80=9Cso I propose selling 10% of my Tesla stock. Do you support=
+ this?=E2=80=9D In a second tweet, he said =E2=80=9CI will abide by the res=
+ults of this poll, whichever way it goes.=E2=80=9D The poll closed on Sunda=
+y, with 57.9% of the votes in favor of Musk selling 10% of his stock.</p><p=
+ style=3D"margin: 16px 0;">It is not clear what =E2=80=9C10% of my Tesla st=
+ock=E2=80=9D means. At the time of the poll, Musk owned about 170.5 million=
+ shares of Tesla stock. But he was also, for legal purposes, the =E2=80=9Cb=
+eneficial owner=E2=80=9D of another 73.5 million shares underlying options;=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/25665904.269658/a=
+HR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEzMTg2MDUvMDAwMTU2NDU5=
+MDIxMDQ1OTI2L3RzbGEtZGVmMTRhXzIwMjEwODI2Lmh0bSNPV05FUlNISVBfU0VDVVJJVElFUw/=
+607f07ceef4b8524a319a23cB997df5c9" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">Tesla=E2=80=99s filings</a> show=
+ him owning 244 million shares. So if Musk were to sell 10% of his stock th=
+at would mean selling somewhere between 17 million and 24 million shares, g=
+ive or take.</p><p style=3D"margin: 16px 0;">Discussion questions!</p><ol s=
+tyle=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<=
+li style=3D"margin-bottom: 5px;">On Monday, Musk sold about 0.9 million sha=
+res to pay taxes on his options exercise, pursuant to a plan he put in plac=
+e in September. Sorry, I mean, PURSUANT TO A PLAN HE PUT IN PLACE IN SEPTEM=
+BER. Do those shares count toward the 17 million-ish shares that he has to =
+sell because of his Twitter poll?=C2=A0</li>=09<li style=3D"margin-bottom: =
+5px;">Also, as of Monday afternoon, Musk owned 1,220,481=C2=A0<em>more=C2=
+=A0</em>Tesla shares than he did on Saturday when he tweeted the poll: He b=
+ought 2.15 million shares (for $13.4 million, by exercising options granted=
+ in 2012) and sold 934,091=C2=A0of them (for about $1.1 billion). If you ar=
+e counting these shares for his poll, should=C2=A0they count=C2=A0<em>again=
+st=C2=A0</em>his obligation to sell stock? If on Sunday he had to sell 17 m=
+illion shares to satisfy his poll obligations, now does he have to sell 18.=
+2 million?</li>=09<li style=3D"margin-bottom: 5px;">On Tuesday and Wednesda=
+y, he sold 3.6 million of the 17ish million shares that he has to sell beca=
+use of the poll. There doesn=E2=80=99t seem to be any=C2=A0reason to sell t=
+hose shares other than the poll. How many shares does he have to go? Is the=
+ answer 13.5 million (17ish million minus the 3.6ish million he sold for po=
+ll-related reasons) or 12.5 million (17ish million minus everything he sold=
+ so far this week) or something else?</li>=09<li style=3D"margin-bottom: 5p=
+x;">He has exercised only 2.15 million of the 22.9 million=C2=A0options tha=
+t he previously said he will exercise this quarter, and sold only 0.9 milli=
+on of the 10 million or so shares that he said he will sell to pay taxes on=
+ those exercises.[3] So presumably another 9 million or so shares of sales =
+are coming this quarter =E2=80=94=C2=A0i.e. in the next eight weeks =E2=80=
+=94 under his prearranged 10b5-1 plan for options exercises. Will those sha=
+res count toward his remaining poll obligations? If so, most of his remaini=
+ng sales will be for options exercises. If not =E2=80=94=C2=A0if the poll a=
+nd the options plan are separate =E2=80=94 then he=E2=80=99ll be selling 22=
++ million more shares this quarter.</li>=09<li style=3D"margin-bottom: 5px;=
+">I said =E2=80=9Cthis quarter,=E2=80=9D but how long does he get to satisf=
+y his poll obligations? Musk and Twitter both seem impatient, and I suppose=
+ he=E2=80=99s going to get this done fast, but I=E2=80=99m not sure he has =
+any strict obligations.</li>=09<li style=3D"margin-bottom: 5px;">How does t=
+hat 10b5-1 plan work, anyway? The point of a <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwu=
+ZWR1L2Nmci90ZXh0LzE3LzI0MC4xMGI1LTE/607f07ceef4b8524a319a23cB51d92afe" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> Rule 10b5-1 plan</a> =E2=80=94=C2=A0we have <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMDgvbW92aWVwYXNzLWNoYW5nZWQtc29tZS1=
+wYXNzd29yZHM_Y21waWQ9QkJEMTExMTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG=
+1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMTExJnV0bV9jYW1wYWlnbj1tb25leXN0d=
+WZm/607f07ceef4b8524a319a23cB2f1e6773" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  discussed</a> them a few <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/25665904.269658/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDktMjkvaW5zaW=
+RlcnMtYXJlLWdvb2QtYXQtdHJhZGluZz9jbXBpZD1CQkQxMTExMjFfTU9ORVlTVFVGRiZ1dG1fb=
+WVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMTEmdXRtX2Nh=
+bXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB584050a1" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">  times<=
+/a> around here =E2=80=94=C2=A0is that it automates the trading decision: W=
+hen you=C2=A0<em>don=E2=80=99t </em>have any material nonpublic information=
+, you agree on a plan that gives up discretion on the timing and price of t=
+rading decisions; then, you can automatically trade under the plan even if =
+you later get material nonpublic information. One possible way to do that w=
+ould be to say =E2=80=9Cexercise 2 million shares of options, and sell half=
+ the shares, each day starting on Nov. 8 and going until we=E2=80=99ve exer=
+cised all the options.=E2=80=9D But that doesn=E2=80=99t seem to be what hi=
+s plan says, because it seems like he exercised options and sold shares on =
+Monday, but then=C2=A0<em>not=C2=A0</em>on Tuesday or Wednesday.[4] There a=
+re various possible explanations for that. Maybe the plan says =E2=80=9Cexe=
+rcise 2.15 million shares per week and sell the stock,=E2=80=9D but gives h=
+is broker discretion on when during the week to do that; perhaps his broker=
+ did the whole week=E2=80=99s trade on Monday.[5] Or maybe the plan says =
+=E2=80=9Cexercise options and sell on days when the stock is above $1,100,=
+=E2=80=9D as it was on Monday but not Tuesday or Wednesday.[6]=C2=A0</li>=
+=09<li style=3D"margin-bottom: 5px;">But one important thing to say about t=
+he 10b5-1 plan is that it seems to have been hard-coded to start on Monday.=
+[7] Which means that when Musk tweeted his poll on Saturday, he knew that h=
+e=E2=80=99d be selling stock on Monday. Isn=E2=80=99t that wild? Are you ma=
+d at him, for doing that? (<a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25665904.269658/aHR0cHM6Ly90d2l0dGVyLmNvbS9tYXR0X2xldmluZS9zdGF0dX=
+MvMTQ1ODU5MDAwNzYyNzc2MzcxNA/607f07ceef4b8524a319a23cB870fc345" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">I a=
+m not</a>, for the record, but I have unusual biases here: Musk being weird=
+ on Twitter is good for me professionally.)=C2=A0Is it somehow securities f=
+raud to ask your Twitter followers if you should sell stock, knowing that y=
+ou already have an automatic plan to sell stock the following day? When we =
+talked about his Twitter poll on Monday, <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjEtMTEtMDgvZWxvbi1tdXNrLWRpZC1zb21lLXR3ZWV0cz9jbXB=
+pZD1CQkQxMTExMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2=
+xldHRlciZ1dG1fdGVybT0yMTExMTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8=
+524a319a23cB753ce678" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  I wrote</a>: =E2=80=9CIf he was going to se=
+ll the stock anyway to pay taxes on options exercise, but did this poll as =
+a distraction, is that somehow fraud? =E2=80=98You were going to sell stock=
+ to pay your tax bill like a rational person, but instead you pretended to =
+sell stock based on a Twitter poll like a reckless weirdo, and I believed y=
+ou and was deceived=E2=80=99? Would that be a misrepresentation of a <em>ma=
+terial</em> fact? Who would have a claim for damages against him?=E2=80=9D =
+Now that we know that that is in fact (partly, sort of)=C2=A0what happened,=
+ I suppose I=E2=80=99ll ask those questions again.</li>=09<li style=3D"marg=
+in-bottom: 5px;">What if people had voted no in the poll? He didn=E2=80=99t=
+ have to do the Tuesday and Wednesday sales, sure, but he was all set to au=
+tomatically sell almost a million shares on Monday. What if=C2=A0he took a =
+poll over the weekend and the=C2=A0result was =E2=80=9Cno, don=E2=80=99t se=
+ll stock=E2=80=9D? What could he do? One possible answer is: Sell the stock=
+ anyway and say =E2=80=9Cwhat, no, the poll was about me selling 10% of my =
+stock for vague wealth-tax-protest=C2=A0reasons; this is totally different,=
+ this is me exercising options and selling stock to pay taxes on those; act=
+ually I have=C2=A0<em>more=C2=A0</em>stock than I did on Saturday; this is =
+unrelated.=E2=80=9D That strikes me as an<em>=C2=A0annoying=C2=A0</em>but n=
+ot technically incorrect answer. Like, if he did that, you could probably s=
+ue him for securities fraud (everything is securities fraud!), but he=E2=80=
+=99d have a pretty good defense.[8] But the other possible answer[9] is: He=
+ could have=C2=A0<em>canceled the 10b5-1 plan</em>. The rules of 10b5-1 pla=
+ns require you to be =E2=80=9Cclean=E2=80=9D of material nonpublic informat=
+ion when you set up the plan, but you can=C2=A0<em>cancel=C2=A0</em>the pla=
+n for any reason, even if you have material nonpublic information. People c=
+omplain about this because it is an=C2=A0<a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjEtMDYtMDgvbW92aWVwYXNzLWNoYW5nZWQtc29tZS1wYXNzd29=
+yZHM_Y21waWQ9QkJEMTExMTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMTExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cC2f1e6773" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">obvious avenue for abuse</a>, but th=
+at=E2=80=99s not particularly relevant for our purposes here. Again, there=
+=E2=80=99s no reason to think Musk has any material nonpublic information n=
+ow; the fact that he also made non-prearranged sales on Tuesday and Wednesd=
+ay implies he does not. He could have canceled the 10b5-1 plan just because=
+ the Twitter poll told him to. That would be public information! Seems fine=
+.</li>=09<li style=3D"margin-bottom: 5px;">Consider your answers to Questio=
+n 6 (basically: Why did his 10b5-1 plan have him exercising options and sel=
+ling shares on Monday, and then stop) and Question 8 (basically: Could he h=
+ave canceled=C2=A0his 10b5-1 plan if the poll had voted no?). What are the =
+odds that Musk=C2=A0<em>canceled=C2=A0</em>his 10b5-1 plan after Monday in =
+order to focus on his poll-related discretionary=C2=A0selling? Low, I would=
+ think, but who knows. (If this=C2=A0<em>did=C2=A0</em>happen, again, it se=
+ems fine: Musk has no material nonpublic information, he=E2=80=99s making n=
+on-10b5-1 sales, so canceling the 10b5-1 plan would not be abusive.)</li>=
+=09<li style=3D"margin-bottom: 5px;"><em>Why did he do the poll?</em>=C2=A0=
+Why did he do the poll <em>now</em>?=C2=A0Tesla=E2=80=99s stock hit an all-=
+time high last Thursday and was pretty close to it on Friday. If Musk had j=
+ust started selling on Monday, pursuant to his prearranged plan,=C2=A0<em>w=
+ithout saying anything to anyone</em>, presumably the stock price would hav=
+e stayed high and he=E2=80=99d have sold on Monday in the $1,220 area. Inst=
+ead he asked Twitter about dumping stock, Twitter was like =E2=80=9Csure ye=
+ah dump some stock,=E2=80=9D the stock fell on Monday and he got about $1,1=
+80 per share. The poll cost him perhaps $40 per share on 934,000 shares, or=
+ about $37 million on Monday=E2=80=99s sales. (And he=E2=80=99s got another=
+ 9 million or so of shares to sell this quarter to pay taxes on option exer=
+cise, which will all presumably come at a lower price because the poll drew=
+ attention to, and increased, his sales.=C2=A0If he=E2=80=99d waited until =
+after he sold those shares to do his poll, he=E2=80=99d likely have cleared=
+ hundreds of millions more dollars on those sales.) Was a little Twitter fu=
+n worth $37 million to him? To ask that question is to answer it:=C2=A0<em>=
+Of course=C2=A0</em>a little Twitter fun is worth $37 million to the world=
+=E2=80=99s richest and most Twitter-obsessed human.</li>=09<li style=3D"mar=
+gin-bottom: 5px;">Isn=E2=80=99t this really=C2=A0<em>good=C2=A0</em>disclos=
+ure? Another quite sensible and valid complaint that people have about 10b5=
+-1 plans is that they don=E2=80=99t have to be disclosed in advance. Securi=
+ties and Exchange Commission Chair Gary Gensler <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZ=
+XdzL3NwZWVjaC9nZW5zbGVyLWNmby1uZXR3b3JrLTIwMjEtMDYtMDc/607f07ceef4b8524a319=
+a23cBa5e876f1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> has proposed</a> to =E2=80=9Cfreshen up Rule 10b5-1=
+,=E2=80=9D including to require =E2=80=9Cmore disclosure regarding the adop=
+tion, modification, and terms of Rule 10b5=E2=80=911 plans by individuals a=
+nd companies.=E2=80=9D But right now, a CEO can adopt a 10b5-1 plan in Sept=
+ember, not tell anyone about it, start selling stock automatically in Novem=
+ber, and not tell anyone anything until two days=C2=A0<em>after </em>her sa=
+les, when she files a Form 4. (The <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/25665904.269658/aHR0cHM6Ly93d3cuc2VjLmdvdi9maWxlcy9mb3Jtcy=
+0zLTQtNS5wZGY/607f07ceef4b8524a319a23cB452ffd22" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> rules say that</a=
+>=C2=A0=E2=80=9CForm 4 must be filed within two business days following the=
+ transaction date,=E2=80=9D which is why Musk waited until Wednesday to dis=
+close his Monday trades, but he helpfully disclosed his Tuesday and Wednesd=
+ay trades that same evening.) The Form 4 will say =E2=80=9Cthese sales were=
+ pursuant to a 10b5-1 plan,=E2=80=9D but it won=E2=80=99t describe the term=
+s of the plan; in particular, it won=E2=80=99t say if=C2=A0<em>more=C2=A0</=
+em>sales are coming. If you are buying stock while the CEO is selling, not =
+knowing that she=E2=80=99s selling, you might feel a bit aggrieved. Meanwhi=
+le Musk adopted a 10b5-1 plan in September,=C2=A0<em>described it at a conf=
+erence in September</em>, and then, when he was about to start selling stoc=
+k automatically in November,=C2=A0<em>told everyone on Twitter that he=E2=
+=80=99d be selling=C2=A0a bunch=C2=A0of stock=C2=A0</em>in a highly salient=
+ way. Isn=E2=80=99t that=C2=A0<em>much better disclosure=C2=A0</em>than you=
+=E2=80=99d expect to get from a public-company CEO selling his stock? Didn=
+=E2=80=99t he tell you what he=E2=80=99d do in advance, even though he didn=
+=E2=80=99t have to, even though it lowered his selling price and cost him t=
+ens of millions of dollars? Isn=E2=80=99t that information that you=E2=80=
+=99d want as a shareholder, and that other CEOs wouldn=E2=80=99t give you? =
+Sure he did it in a weird annoying winking=C2=A0way, but he=E2=80=99s Elon =
+Musk, you just gotta accept that. If you get past the winking weirdness, is=
+n=E2=80=99t this a model of disclosure that other CEOs should follow?</li><=
+/ol><table class=3D"liveintent-sponsored-content" width=3D"auto" cellpaddin=
+g=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25665904.269658/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTY2NTkwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5MzU1NjImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cD806da65f" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25665904&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25935562&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25665904.269658/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTY2NTkwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5MzU1NjImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cE806da65f" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25665904&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25935562&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25665904.269658/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTY2NTkwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5MzU1NjImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cF962004ec" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25665904&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25935562&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25665904.269658/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTY2NTkwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5MzU1NjImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cG962004ec" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25665904&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25935562&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Banking fees</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">If you work at an investment bank, at =
+some point early in your career you will be told the inspirational story of=
+ The Banker Who Told The Client Not To Do The Deal. This legendary banker w=
+as approached by a valued client about buying another company. The client w=
+anted to do the deal, and would pay the bank a big fee for doing it, which =
+would result in a big bonus for The Banker Who Told The Client Not To Do Th=
+e Deal. The deal could easily be done. But=C2=A0The Banker Who Told The Cli=
+ent Not To Do The Deal took a look at the financials and the business logic=
+ and said to the client =E2=80=9Cno, client, you will be better off not doi=
+ng the deal.=E2=80=9D The client reluctantly agreed. The=C2=A0bank missed o=
+ut on the fee. But the client respected the bank, and it especially respect=
+ed The Banker Who Told The Client Not To Do The Deal, who became a trusted =
+adviser to the client forever. Later it turned out that the deal would have=
+ been bad, and=C2=A0The Banker Who Told The Client Not To Do The Deal saved=
+ the client from a costly mistake.[10]=C2=A0Later the client did lots of ot=
+her, bigger deals, and always paid the bank big fees for advising on them.<=
+/p><p style=3D"margin: 16px 0;">This is an inspirational story designed to =
+drive home the message that you should always do the right thing for the cl=
+ient, be long-term greedy, keep the client=E2=80=99s interests in mind inst=
+ead of your grubby fee, etc. But the fact that it is told with such reveren=
+ce suggests that it is, you know, unusual. Most of the time, if a client re=
+ally wants to do a deal, you=E2=80=99re like =E2=80=9Cwell, it's their mone=
+y, I am just a service provider.=E2=80=9D Also, most of the time,=C2=A0if a=
+ client really wants to do a deal and you say =E2=80=9Cno, don=E2=80=99t do=
+ that deal,=E2=80=9D the client will not respect you; the client will be li=
+ke =E2=80=9Cthis banker doesn=E2=80=99t understand my rare business genius=
+=E2=80=9D and will just hire someone else. Also, most of the time, your int=
+eractions with clients are=C2=A0largely about=C2=A0<em>pitching them=C2=A0<=
+/em>deals; it would be weird to turn around and say =E2=80=9Cactually never=
+ mind don=E2=80=99t do that deal.=E2=80=9D Also, if you tell a client not t=
+o do a deal that would bring in a big fee, maybe in 10 years you will be sp=
+oken of in tones of hushed reverence=C2=A0as=C2=A0The Banker Who Told The C=
+lient Not To Do The Deal, but meanwhile you won=E2=80=99t bring in the big =
+fee and your bonus will be lower. Future tones of hushed reverence won=E2=
+=80=99t buy you a beach house.</p><p style=3D"margin: 16px 0;">Anyway Gener=
+al Electric Co. is maybe the best investment banking client in the world be=
+cause it does so many deals. In particular it did a lot of deals to build a=
+ big conglomerate, and then it did a lot of deals to dismantle the big cong=
+lomerate, with more coming now as it plans to=C2=A0break=C2=A0up into three=
+ pieces. Bankers <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+5665904.269658/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZmE3MTk1NzQtYjQ1Ny00M2Zk=
+LTljNDUtYWUxOWE1MTBjMWNi/607f07ceef4b8524a319a23cB6866ac77" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">rarely =
+said no</a>:</p><blockquote><p style=3D"margin: 16px 0;">General Electric h=
+as paid more than $7bn in investment banking fees since 2000, as Wall Stree=
+t lenders reaped rewards from a frenzied period of dealmaking that culminat=
+ed in a sinking share price and the eventual break-up of the best-known US =
+conglomerate. =E2=80=A6</p><p style=3D"margin: 16px 0;">Since 2000, the com=
+pany has shelled out more on investment banking fees than any other US busi=
+ness, according to the Refinitiv figures. The next biggest spenders were Ci=
+ti and JPMorgan, which paid their bankers $6.8bn, while the biggest outlay =
+at an industrial group was GM, which spent $3.8bn.</p><p style=3D"margin: 1=
+6px 0;">Critics=E2=80=89have said the outsized fees are indicative of how b=
+ankers =E2=80=94 who have profited despite GE=E2=80=99s market value fallin=
+g about 75 per cent since 2000 =E2=80=94 care more about completing lucrati=
+ve transactions than acting in the best interests of their clients.</p><p s=
+tyle=3D"margin: 16px 0;">=E2=80=9CGE has been on an acquiring spree for mor=
+e than 20 years, with disastrous outcomes,=E2=80=9D said Nuno Fernandes, pr=
+ofessor of finance at IESE Business School.</p><p style=3D"margin: 16px 0;"=
+>Fernandes added: =E2=80=9CThere=E2=80=99s a pernicious conflict of interes=
+t here=E2=80=89.=E2=80=89.=E2=80=89. Because investment banks receive much =
+larger fees when the deals are closed, bankers were always on the side of c=
+ompleting as many deals as possible, not on GE=E2=80=99s side.=E2=80=9D</p>=
+</blockquote><p style=3D"margin: 16px 0;">I dunno, I would not call it a =
+=E2=80=9Cpernicious conflict of interest.=E2=80=9D It=E2=80=99s like, GE wa=
+nted deals, so it went to the deal-executers and said =E2=80=9Cexecute thes=
+e deals for us and we=E2=80=99ll pay you,=E2=80=9D and the deal-executers e=
+xecuted the deals and cashed the checks. They=C2=A0<em>could have=C2=A0</em=
+>said no, but it would have been kind of a weird move.</p><table class=3D"l=
+iveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=
+=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25665904.269658/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNTY2NTkwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5MzU1NjImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cHe8bf2375" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D25665904&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25935562&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Trump SPAC PIPE</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">The rough basic facts are that Donald =
+Trump has an imaginary company called Trump Media &amp; Technology Group (T=
+MTG), he <a href=3D"https://link.mail.bloombergbusiness.com/click/25665904.=
+269658/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAt=
+MjEvbWF0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1kb25hbGQtdHJ1bXAtZG9lcy1hLXNwYWM_Y21=
+waWQ9QkJEMTExMTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3=
+NsZXR0ZXImdXRtX3Rlcm09MjExMTExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b=
+8524a319a23cBe5161a56" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> signed a deal</a> with a special purpose ac=
+quisition company called Digital World Acquisition Company (DWAC) to take h=
+is imaginary company public at a valuation of about $875 million, and the S=
+PAC=E2=80=99s current trading price gives the imaginary company a valuation=
+ of about $7=C2=A0billion.[11]=C2=A0</p><p style=3D"margin: 16px 0;">If you=
+ are a professional investor and someone offers you the opportunity to inve=
+st in Trump=E2=80=99s imaginary company at an $875 million valuation, I thi=
+nk you should do it? I don=E2=80=99t give investing advice around here, and=
+ you could have <a href=3D"https://link.mail.bloombergbusiness.com/click/25=
+665904.269658/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8xMC8yMi9idXNpbmVzcy9kZ=
+WFsYm9vay9ib2F6LXdlaW5zdGVpbi10cnVtcC1zcGFjLmh0bWw/607f07ceef4b8524a319a23c=
+B7c047a8d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">some ESG-ish reasons to stay away</a>. But buying someth=
+ing worth $7 billion for $875 million seems like a good trade.</p><p style=
+=3D"margin: 16px 0;">To be clear, you could reasonably disagree. You could =
+have some=C2=A0<em>financial=C2=A0</em>reasons to stay away: Sure TMTG is t=
+rading at a $7=C2=A0billion valuation=C2=A0<em>now</em>, but it could go be=
+low $875 million=C2=A0<em>later</em>. That=E2=80=99s entirely possible, giv=
+en that it is an imaginary company.=C2=A0It has disclosed no financial info=
+rmation, no business plans, no nothing; the market=E2=80=99s belief that it=
+ is worth $7=C2=A0billion is based on political loyalty and memes and some =
+vague bluster from Trump.=C2=A0</p><p style=3D"margin: 16px 0;">Let=E2=80=
+=99s sharpen the hypothetical and say that you are being offered the chance=
+ to invest in a PIPE, a private investment in public equity, in the TMTG/DW=
+AC deal. You have to commit now; when the SPAC deal closes and TMTG goes pu=
+blic, you will have to hand over your cash and get your=C2=A0shares. If thi=
+ngs happen in the interim =E2=80=94=C2=A0if, for instance, TMTG=C2=A0puts o=
+ut=C2=A0some public disclosure of its financial statements, operations, bus=
+iness plans, any of that stuff that companies have to disclose before going=
+ public, and that disclosure is bad =E2=80=94=C2=A0then the stock might dro=
+p, but you don=E2=80=99t get to change your mind. Let's also assume that yo=
+u have to agree to lock up your shares for a while after closing: You can=
+=E2=80=99t dump them as soon as the deal closes and TMTG goes public, but y=
+ou have to hold them for a few months afterward. If the stock drops after T=
+MTG goes public, you might not be able to get out immediately. This is all =
+not risk-free.=C2=A0But that $7=C2=A0billion is a lot of cushion. It=E2=80=
+=99s not a crazy trade.</p><p style=3D"margin: 16px 0;">If you are a profes=
+sional investor and someone offered you the opportunity to invest in Trump=
+=E2=80=99s imaginary company at a $7=C2=A0billion valuation, =E2=80=A6=C2=
+=A0=E2=80=A6=C2=A0=E2=80=A6=C2=A0=E2=80=A6=C2=A0=E2=80=A6=C2=A0=E2=80=A6=C2=
+=A0=E2=80=A6=C2=A0=E2=80=A6=C2=A0=E2=80=A6 ??? I don=E2=80=99t give investi=
+ng advice around here! But it seems to me that DWAC shares are trading at v=
+ery high prices due to retail enthusiasm and political factors, and that it=
+ would be very hard for a professional investor to underwrite a $7=C2=A0bil=
+lion valuation for a company that is at this point, I really must emphasize=
+, imaginary. What do its financial statements or projections or business pl=
+ans look like? Who is building the technology for its social media platform=
+? I will not belabor these questions because no one actually cares, but if =
+you are a professional being asked to underwrite a $7=C2=A0billion valuatio=
+n you should probably care?=C2=A0</p><p style=3D"margin: 16px 0;">Again you=
+ could reasonably disagree! You could say, you know, the Trump brand is so =
+powerful that any media-ish company he starts=C2=A0will be worth $50 billio=
+n, so getting in at $7=C2=A0billion is a bargain. That=E2=80=99s fine! I am=
+ not going to argue with you. Still, investing at $7=C2=A0billion with a lo=
+ckup is an aggressive choice. Especially since you can just buy the publicl=
+y traded stock of DWAC at that valuation, without locking up your money.</p=
+><p style=3D"margin: 16px 0;">I suppose there is some number between $875 m=
+illion and $7 billion where you could get=C2=A0some<em>=C2=A0</em>professio=
+nal investors to sign up.</p><p style=3D"margin: 16px 0;"><a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMDgvc3BhYy10aWVkLXRvLXRydW1wLX=
+MtbWVkaWEtdmVudHVyZS1zZWVrcy13YWxsLXN0cmVldC1iYWNraW5nP2NtcGlkPUJCRDExMTEyM=
+V9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90=
+ZXJtPTIxMTExMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBb2b=
+11b3a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">Anyway</a>:</p><blockquote><p style=3D"margin: 16px 0;">Digi=
+tal World Acquisition Corp. has begun scheduling meetings with prospective =
+investors for a private investment in public equity, or PIPE, transaction t=
+o support its merger with Trump Media &amp; Technology Group, according to =
+people with knowledge of the matter. While the PIPE=E2=80=99s terms haven=
+=E2=80=99t been finalized, it may exceed $500 million in size, said one of =
+the people, who asked not to be named because the talks are private.=C2=A0<=
+/p><p style=3D"margin: 16px 0;">Any fresh capital would add more funding to=
+ launch the media conglomerate, which plans to initially get off the ground=
+ with a social network called Truth Social that would give Trump a platform=
+ after he was banned from Facebook and Twitter. PIPEs also help to lend cre=
+dibility to special purpose acquisition company mergers and can provide a c=
+ash buffer if early investors decide to redeem their shares.</p><p style=3D=
+"margin: 16px 0;">Traditionally, PIPEs are priced at $10 a share, in line w=
+ith the initial public offering price of most SPACs. But day traders and Re=
+ddit enthusiasts have helped fuel a spectacular rally in Digital World shar=
+es, which reached a closing high of $94.20 last month before leveling out t=
+o recently trade around $60. In light of those gains, any PIPE is expected =
+to price above $10, one of the people familiar with the matter said.=C2=A0<=
+/p><p style=3D"margin: 16px 0;">The prospect of lucrative profits could lur=
+e investors in, especially if a Trump PIPE deal is structured similarly to =
+the capital injection that supported electric-vehicle maker Lucid Motors=E2=
+=80=99s merger with Churchill Capital Corp IV., which created=C2=A0Lucid Gr=
+oup Inc.=C2=A0PIPE investors in that transaction signed up at $15 a share, =
+ensuring a huge paper profit over the $52.94 it closed at before the deal w=
+as announced. Despite turbulence in the ensuing months, Lucid has so far pa=
+id off for those investors, trading Monday at $47.61 as of 3:15 p.m. New Yo=
+rk time.</p></blockquote><p style=3D"margin: 16px 0;">Yeah see ordinarily t=
+he PIPE deal=C2=A0sort of validates the valuation of the SPAC deal: If the =
+SPAC deal is done at $10 per share, and the PIPE is done at $10 per share, =
+that means that smart institutional investors believe in the valuation. If =
+the SPAC shares are trading at $60 per share, and the PIPE investors come i=
+n at $15 per share, that means that smart institutional investors=C2=A0<em>=
+very much do not=C2=A0</em>believe in the valuation that SPAC investors bel=
+ieve in.[12] If the stock has been trading at $60 for weeks since the deal =
+was announced, and you announced =E2=80=9Chey great news we found some hedg=
+e funds willing to pay $15 for this,=E2=80=9D that is not=C2=A0<em>great=C2=
+=A0</em>news, you know?=C2=A0</p><p style=3D"margin: 16px 0;">Still it is=
+=C2=A0<em>kind of=C2=A0</em>good news because you have to assume that the P=
+IPE investors did=C2=A0<em>some=C2=A0</em>due diligence and=C2=A0got=C2=A0<=
+em>some=C2=A0</em>disclosure about TMTG that goes beyond the comically vagu=
+e =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/2566590=
+4.269658/aHR0cHM6Ly90bXRnY29ycC5jb20vY29tcGFueS1vdmVydmlldw/607f07ceef4b852=
+4a319a23cB568a158f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Company Overview</a>=E2=80=9D on TMTG=E2=80=
+=99s website. Maybe not=C2=A0<em>financial statements=C2=A0</em>or a=C2=A0<=
+em>business plan</em>, but at least, like, some human being called the up p=
+otential investors and said =E2=80=9Chey would you like to invest in TMTG=
+=E2=80=9D and the investors said =E2=80=9Cuh I don=E2=80=99t know does it e=
+xist?=E2=80=9D and the caller was like =E2=80=9Cdefine =E2=80=98exists=E2=
+=80=99=E2=80=9D and they went from there. More than the SPAC investors got,=
+ anyway.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Ozy=C2=A0</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Well, <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMj=
+AyMS8xMS8xMC9idXNpbmVzcy9venktZG9qLXNlYy1pbnZlc3RpZ2F0aW9ucy5odG1s/607f07ce=
+ef4b8524a319a23cB3c66bdbb" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">obviously</a>:</p><blockquote><p style=
+=3D"margin: 16px 0;">The Justice Department and the Securities and Exchange=
+ Commission have opened investigations into the embattled Silicon Valley co=
+mpany Ozy Media, according to people with knowledge of the matter.</p><p st=
+yle=3D"margin: 16px 0;">Federal prosecutors with the Eastern District of Ne=
+w York have in recent weeks been in contact with at least one company that =
+had dealings with Ozy, two people with knowledge of the matter said. In the=
+ parallel civil inquiry, S.E.C. investigators have contacted at least two c=
+ompanies that discussed investing in Ozy, two people with knowledge of the =
+commission=E2=80=99s effort said.</p></blockquote><p style=3D"margin: 16px =
+0;">If you are a federal prosecutor or an SEC enforcement lawyer, and you w=
+ake up one day and <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/25665904.269658/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wOS8yNi9idXNpbmVzcy=
+9tZWRpYS9venktbWVkaWEtZ29sZG1hbi1zYWNocy5odG1s/607f07ceef4b8524a319a23cBcc7=
+3b6a2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">read in the New York Times</a> that a private company execut=
+ive=C2=A0<em><a href=3D"https://link.mail.bloombergbusiness.com/click/25665=
+904.269658/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEt=
+MDktMjcvaW1wb3N0b3JzLW9uLXRoZS1kdWUtZGlsaWdlbmNlLWNhbGw_Y21waWQ9QkJEMTExMTI=
+xX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3=
+Rlcm09MjExMTExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB97f=
+cec9d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">impersonated a YouTube executive</a> on a due diligence call=
+ with Goldman Sachs Asset Management</em>, what do you do about it? Go back=
+ to bed? I suppose there is an argument that you spring into action, issue =
+subpoenas, and generally race to be the very first enforcement lawyer to na=
+b this company, because how fun will that trial be?</p><p style=3D"margin: =
+16px 0;">But there is another argument that once a story that good is in th=
+e New York Times, it is too late for you to wring any glory from it. There =
+is a sort of $100-bill-on-the-sidewalk problem with that story: If you=E2=
+=80=99re a prosecutor and you read that story, you have to figure =E2=80=9C=
+either this story is somehow exaggerated and if I investigate it I will be =
+disappointed, or this story is true and like nine other federal prosecutors=
+ have already called dibs on it.=E2=80=9D It is just too ludicrous for=C2=
+=A0<em>you=C2=A0</em>to be the first prosecutor to investigate it.=C2=A0Sti=
+ll, someone had to seize the opportunity. And the Eastern District and the =
+SEC apparently did.</p><table class=3D"header" width=3D"100%" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Wall Street Is Offering <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMTEvam9iLWhvcHBpbmctb24td2F=
+sbC1zdHJlZXQtc3BlZWRzLXVwLXdpdGgtZWlnaHQtZmlndXJlLXBhY2thZ2VzP2NtcGlkPUJCRD=
+ExMTEyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJ=
+nV0bV90ZXJtPTIxMTExMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a=
+23cB4870772d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> 8-Figure Pay Packages</a> to Woo Top Talent. AMC Chi=
+ef Aron to <a href=3D"https://link.mail.bloombergbusiness.com/click/2566590=
+4.269658/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9hbWMtY2hpZWYtYXJvbi10by1zZW=
+xsLTUzLW1pbGxpb24taW4tc3RvY2stMTE2MzY1ODQwNzE_bW9kPWl0cF93c2omcnU9eWFob28/6=
+07f07ceef4b8524a319a23cBcd983df2" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">Sell $53 Million in Stock</a>. Ev=
+ergrande Set to <a href=3D"https://link.mail.bloombergbusiness.com/click/25=
+665904.269658/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtM=
+TEtMTAvZXZlcmdyYW5kZS1zYWlkLXRvLXBheS1kZWxheWVkLWludGVyZXN0LW9uLWF0LWxlYXN0=
+LXR3by1ib25kcz9jbXBpZD1CQkQxMTExMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV=
+0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTExMTEmdXRtX2NhbXBhaWduPW1vbmV5c3=
+R1ZmY/607f07ceef4b8524a319a23cBb7884abc" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Avoid Default</a> After=
+ Paying Overdue Interest. China=E2=80=99s Plan to <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cud3NqLmNvbS9=
+hcnRpY2xlcy9ldmVyZ3JhbmRlLWNoaW5hLWNyaXNpcy1yZWFsLWVzdGF0ZS1kZXZlbG9wZXJzLT=
+ExNjM2NTUyNTA3P21vZD1ocF9sZWFkX3BvczU/607f07ceef4b8524a319a23cBd2c56f7d" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">Manage Evergrande</a>: Take It Apart, Slowly.=C2=A0Zillow <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d=
+3cud3NqLmNvbS9hcnRpY2xlcy96aWxsb3ctc2VsbHMtMi0wMDAtaG9tZXMtaW4tZGlzbWFudGxp=
+bmctaXRzLWhvdXNlLWZsaXBwaW5nLWJ1c2luZXNzLTExNjM2NTQ1NjAxP21vZD1pdHBfd3NqJnJ=
+1PXlhaG9v/607f07ceef4b8524a319a23cBca71d4a4" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">Sells 2,000 Homes</a> =
+in Dismantling Its House-Flipping Business. J&amp;J Wins Halt to 38,000 <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/25665904.269658/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMTAvai1qLXdpbnMt=
+aGFsdC10by0zOC0wMDAtYmFieS1wb3dkZXItbGF3c3VpdHMtYW1pZC1iYW5rcnVwdGN5P2NtcGl=
+kPUJCRDExMTEyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbG=
+V0dGVyJnV0bV90ZXJtPTIxMTExMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b85=
+24a319a23cB69f314f0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Baby Powder Lawsuits</a> Amid Bankruptcy.=C2=
+=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/25665904.269658=
+/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9lbGVjdHJpYy12ZWhpY2xlLXN0YXJ0dXAtcm=
+l2aWFuLWdvZXMtcHVibGljLWluLWxhcmdlc3QtdS1zLWlwby1zaW5jZS0yMDE0LTExNjM2NTU1M=
+jY2P21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cBf4588347" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Rivian</a> Shares Surge in Largest U.S. IPO Since 2014. Icahn Threatens Leg=
+al Action as <a href=3D"https://link.mail.bloombergbusiness.com/click/25665=
+904.269658/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEt=
+MTEvaWNhaG4tdGhyZWF0ZW5zLWxlZ2FsLWFjdGlvbi1hcy1zb3V0aHdlc3QtZ2FzLXNwYXQtaW5=
+0ZW5zaWZpZXM_Y21waWQ9QkJEMTExMTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG=
+1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMTExJnV0bV9jYW1wYWlnbj1tb25leXN0d=
+WZm/607f07ceef4b8524a319a23cB48b3e0a0" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> Southwest Gas</a> Spat Inte=
+nsifies. Hershey Plans to Spend $1.2 Billion in Deals for <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cud3N=
+qLmNvbS9hcnRpY2xlcy9oZXJzaGV5LXBsYW5zLXRvLXNwZW5kLTEtMi1iaWxsaW9uLWluLWRlYW=
+xzLWZvci1wcmV0emVsLXByb2R1Y2Vycy0xMTYzNjU1MDEwMT9tb2Q9aXRwX3dzaiZydT15YWhvb=
+w/607f07ceef4b8524a319a23cB9b19acad" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">Pretzel Producers</a>.=C2=A0Cu=
+linary Detectives Try to Recover the Formula for a <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cuc21pdGhzb2=
+5pYW5tYWcuY29tL2FydHMtY3VsdHVyZS9yZWNvdmluZy10aGUtcmVjaXBlLWZvci1nYXJ1bS0xO=
+DA5Nzg4NDYv/607f07ceef4b8524a319a23cB1cc4177c" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">Deliciously Fishy</a=
+> Roman Condiment.</p><p style=3D"margin: 16px 0;"><span class=3D"news-desi=
+gned-for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=
+=A0in handy email form, right in your inbox, please=C2=A0<a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/25665904.269658/aHR0cDovL2xpbmsubWFp=
+bC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD0=
+1NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB208181=
+4c" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">subscribe at this link</a>. Or you =
+can subscribe to Money Stuff and other great Bloomberg newsletters <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/25665904.269658/aHR0cHM6L=
+y9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBf827ff=
+04" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">here</=
+a>. Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1] The shares =
+he sold on Monday were owned by Elon Musk: He had options, he exercised the=
+m, he got the shares, he sold them. The shares he sold on Tuesday and Wedne=
+sday were owned by =E2=80=9Cthe Elon Musk Revocable Trust dated July 22, 20=
+03, for which the reporting person is trustee=E2=80=9D; that=E2=80=99s how =
+all of his shares were held prior to this week. So trust shares are old sha=
+res, shares he already owned; new shares =E2=80=94=C2=A0option shares =E2=
+=80=94=C2=A0come in his own name.</em></p><p style=3D"margin: 16px 0;"><em>=
+[2] He discusses it at about the 42-minute mark <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/25665904.269658/aHR0cHM6Ly9wb2RjYXN0cy5hcHBsZ=
+S5jb20vdXMvcG9kY2FzdC9ib251cy1lcGlzb2RlLWVsb24tbXVzay1hdC1jb2RlLWNvbmZlcmVu=
+Y2UtMjAyMS9pZDEwNzMyMjY3MTk_aT0xMDAwNTM3NzE3Mjcy/607f07ceef4b8524a319a23cB5=
+b0ce38e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">here</a>.</em></p><p style=3D"margin: 16px 0;"><em>[3]=C2=
+=A0Here I assume that the 934,000 shares he sold on 2.15 million options ex=
+ercised on Monday were sufficient to pay the taxes on those options. That=
+=E2=80=99s a 43% tax rate, less than he has=C2=A0said he pays. (<a href=3D"=
+https://link.mail.bloombergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d=
+3cuY25iYy5jb20vMjAyMS8wOS8yOS9lbG9uLW11c2stdGFrZXMtc2hvdHMtYXQtYmlkZW4tc2Vj=
+LWFudGktbnVjbGVhci1zZW50aW1lbnQtYXQtY29kZS5odG1s/607f07ceef4b8524a319a23cC7=
+566283c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">He said</a> he pays a 53% rate.) But at that rate he would=
+ need to sell 9.9 million of the 22.9 million shares underlying the options=
+ to pay taxes. At a 53% rate he=E2=80=99d need to sell about 12.1 million o=
+f those 22.9 million shares.</em></p><p style=3D"margin: 16px 0;"><em>[4] I=
+ say =E2=80=9Cseems=E2=80=9D because technically you <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cuc2VjLmdv=
+di9maWxlcy9mb3Jtcy0zLTQtNS5wZGY/607f07ceef4b8524a319a23cC452ffd22" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+get two business days to file a Form 4</a>, so I guess it=E2=80=99s theoret=
+ically possible that he exercised options and sold options shares under his=
+ Rule 10b5-1 plan on Tuesday and Wednesday and hasn=E2=80=99t yet disclosed=
+ that. It would be *very* weird, though, since he has already disclosed mil=
+lions of shares of non-10b5-1 sales on those days; why would he disclose so=
+me early and wait on others?</em></p><p style=3D"margin: 16px 0;"><em>[5] N=
+ote that 2.15 million shares a week *isn=E2=80=99t fast enough*: If he want=
+s to exercise all 22.9 million shares by the end of 2021, to avoid a tax in=
+crease next year, he=E2=80=99s only got eight weeks; he=E2=80=99d need to d=
+o about 2.9 million a week.</em></p><p style=3D"margin: 16px 0;"><em>[6] Th=
+is would be a very weird thing for the plan to say, given that he put it in=
+ place in mid-September when the stock was in the $700s; =E2=80=9Csell stoc=
+k only if it=E2=80=99s up more than 50%=E2=80=9D is not normal a way make s=
+ure all your options get exercised. Maybe it=E2=80=99s like =E2=80=9Cexerci=
+se 2.15 million options per day unless the stock closed down more than X% t=
+he previous day,=E2=80=9D I dunno.</em></p><p style=3D"margin: 16px 0;"><em=
+>[7] One other point about the 10b5-1 plan is that it=E2=80=99s not clear t=
+hat it=E2=80=99s *necessary*. In general, if you are the chief executive of=
+ficer of a public company there are not a lot of open windows when you can =
+sell stock. But Musk is in one: Tesla <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9=
+lZGdhci9kYXRhLzEzMTg2MDUvMDAwMTU2NDU5MDIxMDUxMzA3L3RzbGEtZXg5OTFfODUuaHRt/6=
+07f07ceef4b8524a319a23cBfc6bae8f" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> announced its third-quarter earn=
+ings</a> on Oct. 20, and it=E2=80=99s still 50-odd days from the end of the=
+ fourth quarter. And so Musk was able to sell stock on Tuesday and Wednesda=
+y *without* a prearranged plan. He could have done the options that way too=
+. It=E2=80=99s still best practice=C2=A0to do the 10b5-1 plan: In September=
+, he knew he=E2=80=99d need to exercise the options, but he didn=E2=80=99t =
+know if he=E2=80=99d have material nonpublic information in November and De=
+cember, so it was a good idea to set up an automatic exercise/sales plan to=
+ make sure he=E2=80=99d be able to sell. And if the plan does involve selli=
+ng over the entire remaining quarter, eventually he=E2=80=99ll go into a bl=
+ackout period (near the end of the quarter) and then the 10b5-1 plan will b=
+e necessary. But this week, he could have just freely exercised options and=
+ sold stock without a 10b5-1 plan.</em></p><p style=3D"margin: 16px 0;"><em=
+>[8] For what it=E2=80=99s worth, I think that even if Musk completely igno=
+red the results of the poll and did the opposite of what his Twitter voters=
+ wanted, you=E2=80=99d have a tough time making out a case of securities fr=
+aud, though I have no doubt that someone would try.</em></p><p style=3D"mar=
+gin: 16px 0;"><em>[9] A third possible answer=C2=A0is: No, Elon Musk knows =
+what he is doing, he knows his audience on Twitter, he phrased the poll the=
+ way he did, there was no way that the poll would have gone the other way, =
+he knew that, and he was confident that he=E2=80=99d be selling on Monday w=
+ith the blessing of his Twitter followers.</em></p><p style=3D"margin: 16px=
+ 0;"><em>[10] In some versions of the story, the client does the deal anywa=
+y with another bank, the other bank gets the fee,=C2=A0the deal is a disast=
+er, the client regrets it, and *then* the client respects and trusts=C2=A0T=
+he Banker Who Told The Client Not To Do The Deal forever.</em></p><p style=
+=3D"margin: 16px 0;"><em>[11] These numbers are a little fuzzy. The $875 mi=
+llion comes from <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+5665904.269658/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE4NDk2=
+MzUvMDAwMTEwNDY1OTIxMTI4MjMyL3RtMjEzMDcyNGQxX2V4OTktMS5odG0/607f07ceef4b852=
+4a319a23cB5c66503d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">the announcement of the deal</a>: =E2=80=9CTh=
+e transaction values Trump Media &amp; Technology Group at an initial enter=
+prise value of $875 Million.=E2=80=9D The <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZ=
+lcy9lZGdhci9kYXRhLzAwMDE4NDk2MzUvMDAwMTE5MzEyNTIxMzA4MTQ2L2QyMzAyMjFkZXgyMS=
+5odG0/607f07ceef4b8524a319a23cBa052ada5" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">merger agreement</a> (wh=
+ich I <a href=3D"https://link.mail.bloombergbusiness.com/click/25665904.269=
+658/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMjc=
+vYmlsbGlvbmFpcmUtaW52ZXN0b3JzLWFyZS13b3JyaWVkLWFib3V0LW9pbC1kcmlsbGluZz9jbX=
+BpZD1CQkQxMTExMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c=
+2xldHRlciZ1dG1fdGVybT0yMTExMTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmYjZm9vdG5vdGUt=
+NA/607f07ceef4b8524a319a23cB7f15c1cd" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> discussed here</a>) reveals =
+that what this means is that TMTG=E2=80=99s current shareholders (presumabl=
+y Trump and others)=C2=A0will get a number of shares in the post-SPAC compa=
+ny equal to $875 million divided by the trust value per share of the SPAC, =
+which is $10.20, meaning that they get about 85.8 million shares for their =
+company. They also get up to 40 million =E2=80=9Cearnout=E2=80=9D shares if=
+ the stock price is above $30 consistently; it=E2=80=99s been above $50 bas=
+ically since the deal was announced, so I=E2=80=99m crediting them with the=
+ full earnout. So they get 125.8 million shares of the combined company. Th=
+e shares of the SPAC trade closed yesterday at $58.30. So TMTG=E2=80=99s sh=
+ares are worth about $7.33 billion. I should say that these numbers are not=
+ quite fair. If you buy in at $58.30 per share, and then the stock *drops* =
+to $10 and stays there, you didn=E2=80=99t *really* buy in at a $7=C2=A0bil=
+lion valuation: TMTG=E2=80=99s shareholders won=E2=80=99t get the earnout, =
+they=E2=80=99ll end up with only 85.8 million shares, and your entry valuat=
+ion was effectively $5 billion.</em></p><p style=3D"margin: 16px 0;"><em>[1=
+2]=C2=A0Yes, it happened in Lucid, though that was a little different in th=
+at the PIPE was signed at the same time as the SPAC deal. (The SPAC was jus=
+t trading at ridiculous levels pre-deal.) But, yeah: <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/25665904.269658/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMjMvdGVzbGEtcml2YWwtbHVjaWQtbW9=
+0b3JzLXBhaWQtYS1wcmljZS1mb3ItaXRzLXNwYWMtZGVhbD9jbXBpZD1CQkQxMTExMjFfTU9ORV=
+lTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yM=
+TExMTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBdf1deade" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> Lucid was a really weird deal</a>!=C2=A0</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25665904.269658/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB30eb2990" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25665904.269658/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBfa797212" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25665904.269658/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBf9f2b9e3" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25665904.269658/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB90b47de6" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25665904.269658/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNTY2NTkwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjU5MzU1NjImc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cI138c7834" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D25665904&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25935562&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2566590=
+4.269658/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB3c3d498e" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25665904.269658/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC5576aa37" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25665904.269658/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBc284dc0b" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25665904.269658/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBe9f2b215" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25665904.269658/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB7=
+5792508" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25665904.269658/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB4=
+b9c1279" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D256659=
+04&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25935562&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D256659=
+04&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25935562&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D256659=
+04&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25935562&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D256659=
+04&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25935562&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D256659=
+04&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D25935562&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfa3xs.5s2i/94886783.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_8454894_694273681.1636650168440--
+

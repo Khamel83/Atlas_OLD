@@ -1,0 +1,1851 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:48:b029:f3:cbe0:21b with SMTP id i8csp1395571lkm;
+        Mon, 26 Apr 2021 09:58:21 -0700 (PDT)
+X-Received: by 2002:a17:906:29ca:: with SMTP id y10mr20096921eje.250.1619456301376;
+        Mon, 26 Apr 2021 09:58:21 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1619456301; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Zm+kveFFt0wWlLX9XXR49CgeOFYMpvA3U9o1+piTkS3bJxcIglmTR6GiwMLskhvF47
+         f1P6HVzBDZdB57CZDcl/tWeZLoLCY534+ViM6CCXMEhv3A/qxJuw1l/FGzFKbSRrZpHG
+         I5V7qs0See6Fqxf5wRYrepqLW++4b4Fq4Z2YyHqHg96U/AHboPPGE7rG+pJLVvrHhSPh
+         5b3+ztgDPIhYzuJMB9dx2N1+9OyIOoUY5NHq49M7Rer/a8ehBjzlX/vwjNdIc0eB+UZN
+         yx/Xt+EQX8B4MLWfOsAI2leeRpib9pXSwCA5PQO4KCiYr+nApDLb91QHRXsJIirXYA6s
+         zlkw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=Kzj1vsuxMPZK5txYeVeZaaRSilhPx9CoXPp9/3m3A2E=;
+        b=W6V8cW5L2lj1r2nwYdV5+bRhnO5ZqxDfNL8Fzx/biK8PenSQG7KjcRkkEfwV1y2dR/
+         u+q1KRQ3CDuvgv2z3wWg9vyVAMZRP9IO76sBAUXLf78G+85YS/+0b5eRcWWkdUvddQGx
+         Q+FdLZWJRgEIdhewYwUJML5za3wJgTUlLeFKPYV/87GS/QydJ+d+PRYP2x1mTrwZCWng
+         OiAdJcCOZKTkUrT6vOf4q60DbkicIaMNXm3pkfgRUIi+vWOOiqQotclJbObhpCUwKgJH
+         91zqvsjfgT0iNHF0lQ1qUS9fCDQ9ArkDUQF6JzPS8WUNfyXN6fPlCf7Hi59bCs0vKn6n
+         TWvA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=jPRYWC+o;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id m18sor9926852eji.11.2021.04.26.09.58.20
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 26 Apr 2021 09:58:21 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=jPRYWC+o;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=Kzj1vsuxMPZK5txYeVeZaaRSilhPx9CoXPp9/3m3A2E=;
+        b=Ct7aJR5favWWM3SX51taaWPVfFyR0LeCjcaIHcVH5QEY8XVW1DDNfbRaCpbFf2BwD/
+         fUbwFNjCvuirJsI2j8Mp7ycXjgU8TfABlVrOhIhNZ9cSjUWZf8rvKeqEyoE12jfkF7hU
+         R7Xu2Ubncvhm1O5N8EI9eQKdH1Yus0GETAuDyxCRLdqzQdtYnWdrjGzOCg18JmgKvN1D
+         4yl6mV7CYqidC+x5Gz1+zjV0lEzzzImU9kM+Gx/h45//KNOk7rkFPJJybDIk21fWUeh3
+         HHf+yR13PEbCtUiaDcyRZqmUaLVcg0ilbEsiNhnPeCe9g/a1QqK3ovcPta2+cQKv5V9j
+         WzVQ==
+X-Gm-Message-State: AOAM530nRB7iQb/ehBZ0otHjprHJB1PfWinNRcoB7lWlgbrpI04cLYTz
+	EL/PuMX7vTC2v/vpGCdT41cjJh6G2g1Lg9VGeLA+XpMHyfi4B+KEgA==
+X-Received: by 2002:a17:907:1b1e:: with SMTP id mp30mr19524859ejc.532.1619456300775;
+        Mon, 26 Apr 2021 09:58:20 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:3b92:0:0:0:0:0 with SMTP id h18csp3982369ecn;
+        Mon, 26 Apr 2021 09:58:17 -0700 (PDT)
+X-Received: by 2002:a05:651c:1069:: with SMTP id y9mr14345196ljm.259.1619456297472;
+        Mon, 26 Apr 2021 09:58:17 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1619456297; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=EAviF1NeQ5+FohO7eCCV6akRsvmaVHBfKul0gj00HatzYg25yG6JWfcp/dNB2dFB8j
+         lIQRykCoH2KeycdQk7vabyE1CRDehi4KwIQ9HjtIBX04p/TTL4CaFZRj8B3H9aforiEj
+         V+qgcSDSCfqc0RAB4JlAoV0wuHZOYSTxyL+llV2SA7iWxnNbtBgXIkisY9aCyu4LKKxG
+         /K1xy0390k5jUsUfj130ux03vDOPZXJUnd/pgVTYEdrHRPWVdHEfI3YRlTD6hP1XowAy
+         4PQjz92PvwuzgBy770cuo90CWY2yFl4X28j/gmTqKi6II9l6SQiIXGNM2F0h8RYmpfWw
+         CBYQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=Kzj1vsuxMPZK5txYeVeZaaRSilhPx9CoXPp9/3m3A2E=;
+        b=mw4x6TFd/K1jvbAkLphFAaO+vfFwamwAsxcTYwi3xt3IXB2OV+Ygaslw05zFtMqX4o
+         SS5GFj+pQDjFYB+JbLjovuVMcxpvRPQvPWDwTPS5g8QkNjBiF5g/gEHqZgbul4zmmb/k
+         891pUiKsSDVTzkVtO82SsaHR9rn9He9ecTSzM0GJI75OvvW7BOEw02Np/tehHt9GmO2t
+         Sj5/SlGcWoJgbo+WTyQzA6UmFq/1+1450a1Xygnrb9z1PCtUnkVhnUI460DxUxxnEOEq
+         SvaY0aC7yLAtuAyZ/eGx7ucEcDhyTDV+SNWjUhm5hm53lbeE1MqI2XA1T4beYeAcNxax
+         ClHA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=jPRYWC+o;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210426125700.23656910.289653@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210426125700.23656910.289653@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210426125700.23656910.289653@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id a11sor7342397ljm.2.2021.04.26.09.58.17
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 26 Apr 2021 09:58:17 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210426125700.23656910.289653@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJwx8yxLk4pjV1gUvIBcdtiEvZXvqbXk397JPygN5/JMQ8bStcsBzzD2RyI1H3VWw+PBC0wXjW1abTfi5A1DRp05jB0m4dA=
+X-Received: by 2002:a2e:864e:: with SMTP id i14mr13777130ljj.15.1619456296961;
+        Mon, 26 Apr 2021 09:58:16 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1619456296; cv=none;
+        d=google.com; s=arc-20160816;
+        b=YYviS+JnXtCZbAJwLD0oTcWc/qCnJwe2y8GgBaXWpNZh0XoFmvRWqgll6tjk+DFyHz
+         W3XYkX85fOBPslyMjF4fIs785pZgHOlYhhmNcRes0fyvLo6KpypTl6D1L4Nu0We3DNTF
+         O/ReXfstIaQbrsaDPe8nQZ0PvHmRgm+Tf10BhBBUvXejHUFjcD5LsEkT6kXsr0On/jiu
+         mb0pOh0igehkUPQIxL2gwzIdZCqxmk+NAAR6N02p7RKMRo44Bjn2qpZvU0CEXv+hIK9s
+         d1oaWIXEgq/97en+2AYPWTE+UnBU+hmIlWN6FXFjaWbY3pPo5zqobuesBQPxISf0ZlbV
+         4aIA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=Kzj1vsuxMPZK5txYeVeZaaRSilhPx9CoXPp9/3m3A2E=;
+        b=W8KwSkZUYzbcZVh9DP1PBiKkQcD7U7fvit3l3TsCA/XQVrJlVPlLe2OK3+OZoWD21F
+         negRp/yKsuLKbnAbr2vPP/UlKLY+pRe+/kAUGKFJsqEndDnZ3cWkTIxSoEFm2zqMwUAu
+         FzGlmac+icRS75VQcRKKVjZ0I9PUU2HfghjYetwmbeXyOoOmVhbPnsMGmKCyYtmPMsOt
+         /uY1Omix6VzALK+AuFls907jymsY5wB1KRWnoq/38Wh0Gd2QTnWNuKi/J6M7TtyX7FOL
+         dzg5UdGGYmiEzi0y5yDbc4gJR64a9zHMEya2BR1C6dUJa+2DMYuRUyfqI5QiUHFfgvq2
+         XfeQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=jPRYWC+o;
+       spf=pass (google.com: domain of delivery_20210426125700.23656910.289653@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210426125700.23656910.289653@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210426125700.23656910.289653@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id j7si1454722ljc.6.2021.04.26.09.58.16
+        for <khamel83@gmail.com>;
+        Mon, 26 Apr 2021 09:58:16 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210426125700.23656910.289653@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=asnWtNxPMO56S/J8yYaRfsC0Cy0=;
+ b=jPRYWC+oUKhRlc+xKWXmr2D+lgOrn/RTBPpoYl8UjvzP5ba3xHWmYb4dxZJ1bSyg9HZ6aXUjWc0m
+   7ZRHYmpeJWslglRp0m0nq/DJBgiAqKH/rMfl7t7i+UIQlA0fI6R738zmx5rZjOX/ODLggc76eT14
+   WQ03fjMbnE8xwWhlcUw=
+Received: from njmta-180.sailthru.com (173.228.155.180) by bloomberg-b.sailthru.com id hgroig1qqbsm for <bloomberg@khamel.com>; Mon, 26 Apr 2021 12:58:15 -0400 (envelope-from <delivery_20210426125700.23656910.289653@mx.sailthru.com>)
+Received: from nj1-oddturquoise.flt (172.18.48.8) by njmta-180.sailthru.com id hgroic1qqbsa for <bloomberg@khamel.com>; Mon, 26 Apr 2021 12:57:00 -0400 (envelope-from <delivery_20210426125700.23656910.289653@mx.sailthru.com>)
+Date: Mon, 26 Apr 2021 12:57:00 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210426125700.23656910.289653@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IEdhbWVTdG9w4oCZcyBDRU8gR29lcyBPdXQgb24gVG9w?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_52270208_423244712.1619456220188"
+Precedence: bulk
+X-TM-ID: 20210426125700.23656910.289653
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-oddturquoise.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ce31se.67hx/d7f166ab
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ce31se.67hx/d7f166ab>, <mailto:unsubscribe_20210426125700.23656910.289653@mx.sailthru.com>
+X-rpcampaign: stjko23656910
+
+------=_Part_52270208_423244712.1619456220188
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+  @media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+
+ =20
+ =20
+  Money Stuff
+body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+             =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+   =20
+       =20
+           =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+
+     =20
+     =20
+ =20
+   =20
+      Programming note: Money Stuff will be off tomorrow, back on Wednesday=
+.GMEIs George Sherman one of the greatest public-company chief executive of=
+ficers in American history? He became CEO of GameStop Corp. on April 15, 20=
+19. The stock closed at $8.94 per share that day. On April 19, 2021 =E2=80=
+=94=C2=A0almost exactly two years later =E2=80=94=C2=A0GameStop announced t=
+hat he will be stepping down by July. The stock closed at $164.37 that day.=
+ That=E2=80=99s a 1,739% return over his two-year term, or about 325% annua=
+lized. (The S&P 500 index was up 43%, or about 20% a year, over those two y=
+ears.) GameStop=E2=80=99s market capitalization went from about $900 millio=
+n to about $11.5 billion; Sherman added about $10.5 billion of shareholder =
+value in two years.[1]=C2=A0How much should he get paid, for doing this ama=
+zing work for shareholders? A billion dollars? Two billion? If GameStop=E2=
+=80=99s shareholders had only gotten the S&P 500 return over the last few y=
+ears, they=E2=80=99d have missed out on more than $10 billion in value; I s=
+uppose you could make a case that they should be willing to pay Sherman up =
+to $10 billion for his magic touch.=C2=A0But GameStop shareholders got a=C2=
+=A0bargain:It is a lucrative time to be leaving GameStop Corp.=E2=80=99s=C2=
+=A0C-suite as the run-up in the videogame retailer=E2=80=99s share price ha=
+s enabled four executives to depart with vested stock now valued at roughly=
+ $290 million.Separation agreements between GameStop and the four executive=
+s, including Chief Executive Officer George Sherman, have provisions that l=
+et stock awarded during their tenure to vest when they leave. While such a =
+handling of leadership transitions isn=E2=80=99t atypical, it does potentia=
+lly allow the executives to sell their shares near GameStop=E2=80=99s histo=
+rically high levels. ...GameStop has said that Mr. Sherman will step down b=
+y July 31 and that it is searching for his replacement. His exit agreement =
+calls for the accelerated vesting of more than 1.1 million GameStop shares,=
+ according to filings, valued at roughly $169 million as of Friday=E2=80=99=
+s close.Mr. Sherman=E2=80=99s severance pay could have been higher. Accordi=
+ng to his separation agreement and GameStop=E2=80=99s recent proxy filing, =
+the CEO agreed to give up at least $5 million in cash, stock valued at roug=
+hly $47 million as of Friday, and additional equity awards. No reason was g=
+iven for the changes, and Mr. Sherman declined to comment.They make it soun=
+d like a bad thing!Obviously I am kidding a little.=C2=A0I don=E2=80=99t kn=
+ow what to tell you. Ordinarily the way executive compensation works is, li=
+ke:=09You hire a CEO hoping that he will do good things to make the company=
+ better.=09The shorthand way of measuring that is the stock price: The stoc=
+k price discounts all the future cash flows of the company, so the more lon=
+g-term value that the CEO adds to the company, the higher the stock price w=
+ill be.=09Thus you might tie compensation explicitly to the stock price (gi=
+ve the CEO a bigger bonus if the stock price goes up a lot, etc.), or you m=
+ight just pay the CEO largely in the form of stock and stock options, so th=
+at the higher the stock price goes the more his compensation will be worth.=
+=09If the stock price goes up=C2=A0three hundred twenty-five percent a year=
+=C2=A0during the CEO=E2=80=99s tenure, then that is very very very very ver=
+y good, he has added an unheard-of amount of long-term value to the company=
+, and you should be absolutely thrilled to pay him a=C2=A0ton of money.Ordi=
+narily there are quibbles. The stock price is not a perfect measure of long=
+-term value: Investors can arguably take a short-term perspective, stock pr=
+ices can arguably=C2=A0be juiced through financial engineering, stock price=
+s arguably do not reflect the value that the company provides to (or takes =
+away from) non-shareholder stakeholders, etc. Nobody really says =E2=80=9CC=
+EOs should be compensated purely based on stock price appreciation.=E2=80=
+=9D Still the=C2=A0model above has an obvious appeal, and it is the basic s=
+tarting point for most executive compensation.GameStop=E2=80=99s stock is =
+=E2=80=A6=C2=A0look, I truly know nothing, but I think it is reasonably fai=
+r to say that GameStop=E2=80=99s stock is not up 1,739% over two years beca=
+use=C2=A0George Sherman revolutionized its business. GameStop had a net los=
+s of $673 million in the fiscal year just before Sherman took over; it had =
+a net loss of $215 million in the fiscal year just before he left. An impro=
+vement! But not great. GameStop is up 1,739% because:=09In late 2020, Ryan =
+Cohen, a founder of Chewy.com with a history of success in internet sales, =
+bought a lot of stock and became an activist pushing for a new digital stra=
+tegy. Cohen succeeded in winning over the board: He=E2=80=99s on the board =
+and=C2=A0will become=C2=A0its chairman, work is underway on the digital tra=
+nsformation, Cohen-picked executives with good digital track records are jo=
+ining GameStop in senior positions, etc.=09Retail investors on Reddit like =
+the stock.=09 Short squeeze.=09Rocket rocket rocket diamond hands.When I fi=
+rst wrote about George Sherman,=C2=A0I said:=C2=A0One possible conclusion h=
+ere is that the world in which GameStop is a fun gambling token and up a zi=
+llion percent really is cut off from the world in which GameStop is a compa=
+ny with a CEO and a board and 5,000 struggling stores in malls and a big ac=
+tivist investor with plans to turn its business around. They can see each o=
+ther, but they can never interact. =E2=80=9CHuh, lotta crazy news about som=
+ething called =E2=80=98GameStop,=E2=80=99=E2=80=9D George Sherman or Ryan C=
+ohen might think; =E2=80=9Cit would be weird if they were talking about us.=
+=E2=80=9D But they=E2=80=99re not.You could argue that I was wrong about Co=
+hen, and that the stock-price surge really was due to rational optimism abo=
+ut his plans. Sherman, not so much. He seems to have been largely a bystand=
+er as his company became a meme. And now he gets paid. =E2=80=9CIt does pot=
+entially allow the executives to sell their shares near GameStop=E2=80=99s =
+historically high levels.=E2=80=9D Ordinarily that=E2=80=99s the whole poin=
+t of executive compensation! The whole point is to pay executives more when=
+ the stock price goes up, so that they will have incentives to do things th=
+at make the stock price go up. But in 2021, with GameStop, the stock price =
+became disconnected from the business. But not from the executive compensat=
+ion.Meanwhile who=E2=80=99s gonna be the new CEO? And how will that person =
+get paid? Do you give the new CEO stock options struck at like $300? If the=
+ stock falls back to, say, $90 =E2=80=94=C2=A0up 400% from the start of 202=
+1! =E2=80=94=C2=A0that will be a disaster for the new CEO. The market seems=
+ to think that GameStop is an $11 billion company. Does its board think tha=
+t? (The company is  selling stock at these levels.) Does the new CEO? Never=
+ mind what Sherman did or did not do, as CEO; just look at=C2=A0how much th=
+e stock price increased during his tenure. How do you follow that act?SPAC =
+SPAC SPACThe way an initial public offering works is that a bank helps a co=
+mpany go public by selling stock to new investors, and in exchange the bank=
+ takes a fee of roughly 1% to 7% of the amount the company raises. Lots of =
+people think these fees =E2=80=94=C2=A0particularly the 7% fees that are st=
+andard in smaller IPOs =E2=80=94=C2=A0are too high.The way a special purpos=
+e acquisition company works is that a sponsor helps a company go public by =
+selling stock to new investors, and in return the sponsor takes stock =E2=
+=80=94=C2=A0a =E2=80=9Cpromote=E2=80=9D =E2=80=94 equal to 20% of the amoun=
+t the company sells.[2] A bank helps too, and charges a separate 5.5% fee.[=
+3]An important point about SPACs is that  20% is more than 7%? I mean! Thes=
+e numbers are not apples-to-apples. The 20% is paid in stock, not cash; usu=
+ally the sponsor will be required to hold onto the stock for a while. (Wher=
+eas IPO banks just get a check and move on.) Often the sponsors, or funds t=
+hat they run, will also invest their own (funds=E2=80=99) money in the SPAC=
+, alongside the free stock that they get. (Whereas IPO banks are generally =
+just service providers, not co-investors.) And that free stock isn=E2=80=99=
+t exactly free; the SPAC sponsors will have to put up a bit of money to cov=
+er startup expenses, though they get the stock at a huge discount. (Whereas=
+ IPO banks pay for fewer expenses, though not none; someone=E2=80=99s gotta=
+ pay for snacks at the roadshow.) Also the SPAC deal will often have a PIPE=
+ deal (private investment in public equity) alongside it, raising more mone=
+y that is not subject to=C2=A0the sponsor promote.Still 20% (or 25.5%) real=
+ly is more than 7%, never mind the 1% to 3% fees that are more common in la=
+rger IPOs. And so tons of celebrities became vaguely affiliated with SPACs,=
+ because SPACS are incredibly lucrative and  have a ton of money to throw a=
+round for celebrity sponsors.There are important and at least partially cor=
+rect theories about SPACs that hold that they are a better way for investor=
+s to access newly public companies, because of the financial engineering of=
+ their structures, or because they allow normal investors a chance to captu=
+re something like the  IPO pop. There are other important and at least part=
+ially correct theories holding that SPACs are a better way for companies to=
+ access public markets, because of the timing and certainty advantages of a=
+ SPAC deal, or the chance to have an engaged high-profile sponsor on your b=
+oard, or the ability=C2=A0to  market your company based on projections. But=
+ it always seems like the most obvious fact about SPACs is that they are a =
+very attractive=C2=A0compensation scheme=C2=A0for SPAC sponsors: A lot of e=
+ffort goes into forming and pitching SPACs because, if you sponsor a SPAC, =
+that=E2=80=99s a really good deal=C2=A0for you.Anyway=C2=A0here=E2=80=99s t=
+oday=E2=80=99s Wall Street Journal:Investors who bought into a special-purp=
+ose acquisition company that took a healthcare-services company public last=
+ year in an $11 billion deal have suffered steep losses. Promoters of the S=
+PAC still stand to make millions.The paper gains for insiders, even as shar=
+es of MultiPlan Corp. fall, result from the unique incentives given to SPAC=
+ creators, also known as sponsors. They are allowed to buy 20% of the compa=
+ny at a deep discount, a stake that is then transferred into the firm the S=
+PAC takes public. Those extremely cheap shares let the creators make, on av=
+erage, several times their initial investment. They also let the SPAC backe=
+rs make money even if the company they take public struggles and later inve=
+stors lose money, a source of criticism for the process. =E2=80=A6Shares of=
+ several other firms tied to blank-check companies have also been in retrea=
+t recently, raising the likelihood of a similar divergence between returns =
+for insiders and later investors in many other SPACs. A growing gap between=
+ returns for insiders and later investors would challenge the common view t=
+hat blank-check companies democratize finance, critics said, threatening th=
+e overall popularity of the product going forward.I think that=E2=80=99s so=
+rt of the wrong way to look at it. It=E2=80=99s not, like, a conflict of in=
+terest; it=E2=80=99s not like SPAC sponsors=C2=A0want=C2=A0their companies =
+to go down.[4] It=E2=80=99s just that they are largely=C2=A0service provide=
+rs. A SPAC sponsor is not in the business of picking the perfect company an=
+d guaranteeing investors that it will go up. A SPAC sponsor is in the busin=
+ess of bringing together investors who want a new company and a company tha=
+t wants new investors, setting up a deal between them, and collecting a cut=
+. That=E2=80=99s basically the same business that IPO banks are in, except =
+that the SPAC=C2=A0sponsor takes a much bigger cut. It=E2=80=99s nice work =
+if you can get it.In other SPAC news, here is a memo from Akin Gump Strauss=
+ Hauer & Feld=C2=A0about how plaintiffs=E2=80=99 lawyers have started suing=
+ SPACs for allegedly poor disclosures in their de-SPAC mergers:The complain=
+ts focus on the SPAC=E2=80=99s disclosures regarding a proposed de-SPAC bus=
+iness combination. Specifically, the complaints generally allege inadequate=
+ disclosures, targeting certain categories of information that are allegedl=
+y materially misleading or incomplete in the publicly filed initial SPAC me=
+rger announcement. The SEC=E2=80=99s December 2020 SPAC disclosure guidance=
+ covers some of these categories of allegedly misstated or omitted informat=
+ion. For example, the complaints track the SEC=E2=80=99s disclosure guidanc=
+e regarding the continued relationship, if any, the SPAC=E2=80=99s director=
+s or officers may have with the combined company, potentially giving rise t=
+o conflicts of interest with the interests of public shareholders.=C2=A0The=
+ complaints also frequently allege inadequate disclosures relating to the S=
+PAC=E2=80=99s financial advisor=E2=80=99s compensation, including whether a=
+ny portion is contingent upon consummation of the de-SPAC transaction, and =
+potential conflicts of interest arising from the financial advisor=E2=80=99=
+s past services for any parties to the transaction.When=C2=A0a SPAC finds a=
+ company to take public, it signs a merger agreement and publishes a proxy =
+statement so its public shareholders can vote on the deal. The U.S. Securit=
+ies and Exchange Commission has scolded SPACs about the sorts of things the=
+y should disclose in those proxies, conflicts of interest and financial inc=
+entives and continuing relationships that the sponsors might have. If the p=
+roxy doesn=E2=80=99t fully disclose these things, in theory, the shareholde=
+r vote will not be fully informed; lawyers will sue to hold up the sharehol=
+der vote until the proxy is fixed. The idea is that the SPAC will settle th=
+e case by (1) agreeing to revise the proxy to include more disclosure and (=
+2) pay the plaintiffs=E2=80=99 lawyers a=C2=A0fee. This was a common move i=
+n mergers-and-acquisitions transactions =E2=80=94=C2=A0it was referred to a=
+s the =E2=80=9CM&A tax,=E2=80=9D because every deal had to pay off some pla=
+intiffs=E2=80=99 lawyers =E2=80=94=C2=A0until the Delaware courts got sick =
+of it=C2=A0and stopped approving these settlements. But these cases are fil=
+ed in New York, and=C2=A0 against SPACs, so perhaps now there will be a SPA=
+C tax.I guess the point here is that this is sort of trivial, garden-variet=
+y stuff? The real money in suing SPACs is surely:=09A SPAC takes a company=
+=C2=A0public at a high price with optimistic projections.=09The projections=
+ don=E2=80=99t work out.=09The company goes to zero.=09Sue!If you sue to ho=
+ld up a shareholder vote, the best you=E2=80=99re going to do is get a six-=
+figure-ish fee when the SPAC settles by revising its proxy. If you wait to=
+=C2=A0sue until investors have lost a billion dollars, you can sue for a bi=
+llion dollars! And take like 20% of it for lawyers=E2=80=99 fees! There is =
+a theory that SPACs can say whatever they like in their projections without=
+ getting sued, but there=E2=80=99s also a theory =E2=80=94=C2=A0kind of end=
+orsed by the SEC? =E2=80=94=C2=A0that they can=E2=80=99t, and if you are an=
+ adventurous plaintiffs=E2=80=99 lawyer surely you can argue that theory.[5=
+] =E2=80=9CThe Beginning Wave of SPAC Litigation,=E2=80=9D Akin Gump calls =
+it, but I think even that is premature; the real lawsuits will go after the=
+ SPACs that don=E2=80=99t work out.
+
+
+   =20
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                       =20
+                   =20
+                   =20
+                       =20
+                           =20
+                                Paid Post
+                               =20
+Invest in Highly-Competitive Venture Deals
+
+Not happy with your venture portfolio?=20
+Alumni Ventures is a network-powered venture firm helping accredited indivi=
+duals own a smart, simple venture capital portfolio. Their network is their=
+ secret sauce, and they exclusively co-invest alongside a =E2=80=9Cwho=E2=
+=80=99s who=E2=80=9D of venture firms=E2=80=93names you=E2=80=99ll recogniz=
+e. To access highly competitive venture deals, with an investment minimum o=
+f just $25K,  check out Alumni Ventures.
+
+                               =20
+
+Alumni Ventures
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+Everything is money launderingHere is a story about three guys from Brookly=
+n who allegedly=C2=A0noticed that banks in eastern Europe=C2=A0were not as =
+secure as banks in Brooklyn, and so decided to rob them. Here is=C2=A0how t=
+hey allegedly robbed them:As set forth in the indictment and court filings,=
+ between March 2015 and October 2019, the defendants and their co-conspirat=
+ors allegedly stole over $30 million in cash and other valuables from safe =
+deposit boxes at banks in multiple foreign countries, including the Ukraine=
+, Russia, North Macedonia, Moldova, Latvia, Uzbekistan and Azerbaijan.=C2=
+=A0 The co-conspirators targeted foreign banks that appeared to lack securi=
+ty features, including video surveillance cameras in certain areas.=C2=A0 A=
+fter a bank was selected, they rented safe deposit boxes at the location by=
+ posing as customers.=C2=A0 The co-conspirators entered the safe deposit bo=
+x rooms of the targeted banks and used sophisticated camera equipment, incl=
+uding borescopes that are typically used in medical procedures, to photogra=
+ph the insides of locks of safe deposit boxes belonging to other individual=
+s.=C2=A0 Another co-conspirator used these photographs to create duplicate =
+keys, and then other co-conspirators used the duplicate keys to open the vi=
+ctim safe deposit boxes in order to steal the contents, including currency,=
+ gold bars, jewelry and other property.=C2=A0I=E2=80=99m sorry but that=E2=
+=80=99s cool. Photographing the inside of locks of safe deposit boxes?=C2=
+=A0That is just fun bank heisting. =E2=80=9CThe crimes we allege in this in=
+dictment read like something straight out of Hollywood fiction,=E2=80=9D sa=
+ys an FBI agent in the press release, and he is right. Good story!Weird tha=
+t they were arrested? To be clear, this is not a case of police in =E2=80=
+=9CUkraine, Russia, North Macedonia, Moldova, Latvia, Uzbekistan and Azerba=
+ijan=E2=80=9D=C2=A0noticing the crimes, identifying the perpetrators, track=
+ing them to Brooklyn and asking U.S. authorities to arrest and extradite th=
+em. This is the U.S. Attorney for the Eastern District of New York arrestin=
+g them on his own initiative, not to ship them off to Ukraine etc. to be pr=
+osecuted for bank robbery, but to prosecute them in Brooklyn for =E2=80=A6=
+=C2=A0money =E2=80=A6=C2=A0laundering?The defendants and their co-conspirat=
+ors agreed to use the United States financial system in furtherance of thes=
+e crimes. For example, a co-conspirator =E2=80=A6=C2=A0used a credit card i=
+ssued in the United States =E2=80=A6=C2=A0to make multiple purchases to pro=
+mote the bank thefts, including, among other things (i) to purchase airline=
+ tickets to fly from, among other places, the Eastern District of New York =
+to the locations of the thefts; and (ii) to rent hotel rooms for COOPER and=
+ the defendant GARRI SMITH, among others. The defendant ALEX LEVIN used ban=
+k accounts in the United States, including accounts located in the Eastern =
+District=C2=A0of New York, among other things, to purchase sophisticated ca=
+mera equipment used in the thefts, some of which was shipped to LEVIN=E2=80=
+=99s residence in the Eastern District of New York, and to launder the proc=
+eeds of those crimes.The U.S. financial system is amazing. If you use a U.S=
+. credit card to buy a plane ticket to a foreign country, and then you do a=
+ crime in that country, that=E2=80=99s also a crime in the U.S. (It violate=
+s the Travel Act.) And if you rob a bank abroad,=C2=A0deposit the proceeds =
+of the heist into a U.S. checking account, and use the money to pay your re=
+nt or whatever, that=E2=80=99s a big U.S. crime; that=E2=80=99s (allegedly)=
+ =E2=80=9Cmoney laundering.=E2=80=9D Everything is money laundering.=C2=A0D=
+ual-class IPOsThe basic story I like to tell about dual-class IPOs goes lik=
+e this. Once upon a time companies needed money; when they went public, it =
+was to tap a large pool of capital that they needed to grow their business.=
+ Money was hard to get, so the companies were solicitous of public investor=
+s. There was a norm that, if you invested money in a risky, newly public co=
+mpany, you got some say in how the company was run. Not=C2=A0so=C2=A0much s=
+ay, but just regular shareholder rights. You got voting stock, at least, so=
+ you could vote for directors and maybe kick them out if they did a bad job=
+.But in modern markets companies have a much easier time of raising money. =
+There is a ton of money out there, due to general liquidity conditions,=C2=
+=A0the globalization of the capital markets, technological innovations that=
+ have made capital raising easier, etc. Meanwhile globalized product market=
+s are increasingly winner-take-all; if you have a good idea it will make a =
+lot of money for your investors. The result is that investors need companie=
+s more than companies need investors: Money is plentiful but good investmen=
+ts are scarce. So the balance of power has shifted: Investors are not valua=
+ble partners whose desires must be taken seriously; they=E2=80=99re just fu=
+ngible sources of cash, and if they annoy a company it can just go elsewher=
+e. The balance of power has shifted so that entrepreneurs are in control an=
+d shareholders have to do whatever they say.And one thing that entrepreneur=
+s really want, besides money, is perpetual control of their companies. They=
+ identify with their companies; they built them; they feel like they own th=
+em. They want to raise cash from public shareholders without giving up cont=
+rol to those shareholders. And now they don=E2=80=99t have to.=C2=A0Here ar=
+e a paper and related blog post=C2=A0on =E2=80=9CThe Rise of Dual-Class Sto=
+ck IPOs=E2=80=9D by Dhruv Aggarwal, Ofer Eldar, Yael Hochberg and Lubomir L=
+itov, which flesh that argument out. From their blog post:When examining th=
+e evolution of control, we find that the rise in the number of dual-class I=
+POs is associated with an increase in the power of firms=E2=80=99 founders.=
+ As shown in Figure 1, much of the increase in the number of dual-class fir=
+ms is attributable to founder-controlled firms. The percentage of founder-c=
+ontrolled dual-class firms doubled from 2006-2019 as compared with 1994-200=
+5. In 2017-2019, a staggering 18 percent of all IPOs were founder-controlle=
+d dual-class firms. Thus, while there is wide variation in the types of con=
+trollers, the increase in the number of dual-class IPOs is mostly driven by=
+ founders=E2=80=99 ability to dictate the governance of newly public firms.=
+One reason that founders will have more power is that money is more plentif=
+ul:We hypothesize that one determinant of dual-class structures is the rela=
+tive bargaining power of investors versus founders. When founders have grea=
+ter bargaining power due to greater availability of investment capital, the=
+y are more likely to be able to negotiate for greater control rights at the=
+ time of IPO, and thus the firm is more likely to adopt a dual-class struct=
+ure. This theory is particularly appropriate for explaining the controlling=
+ power of dominant founders in software companies, such as Facebook and Sna=
+p. As argued by Goshen & Hamdani (2015), such founders place high value on =
+the ability to pursue their visions.To test the bargaining hypothesis, we c=
+onstruct two proxies for the founders=E2=80=99 relative bargaining power at=
+ the time the firm goes public. The first is the amount of late-stage VC in=
+vestment at the industry level in the year before the IPO. The second is th=
+e amount of dry powder in the industry, defined as the amount of funds rais=
+ed, but not yet invested, by VC firms. Both proxies reflect the notion that=
+ when private financing is readily available, it serves as an alternative t=
+o going public (Ewens & Farre=E2=80=93Mensa, 2018). Greater amounts of avai=
+lable funding lead to =E2=80=9Cmoney chasing deals,=E2=80=9D which in turn =
+leads to a rise in valuations in the private market. More plentiful funding=
+ allows founders to negotiate for greater control rights in a public offeri=
+ng relative to what might be available in a tighter financing environment.C=
+onsistent with our hypothesis, we show that these proxies for bargaining po=
+wer are positively related to founders=E2=80=99 control and the wedge betwe=
+en founders=E2=80=99 voting and economic rights. In contrast, the bargainin=
+g power proxies do not predict dual-class structures in which the controlle=
+r is not the founder.=C2=A0Another reason that founders will have more powe=
+r is that they=C2=A0need=C2=A0less money: The hot businesses that go public=
+ are often less capital-intensive than they used to be.We exploit the intro=
+duction of cloud computing in 2006, which reduced the costs of operations f=
+or startups in industries such as software, finance, leisure, and services =
+=E2=80=93 collectively =E2=80=9CCloud=E2=80=9D industries (Ewens, Nanda and=
+ Kropp Rhodes 2018). As a result, startups in these industries became less =
+reliant on VC funding, increasing the relative bargaining power of their fo=
+unders vis-=C3=A0-vis their investors. We show that following the introduct=
+ion of cloud computing, firms in Cloud industries became more likely to ado=
+pt dual-class structures that give greater control to founders, particularl=
+y for VC-backed IPOs. This finding is consistent with a diminution in the g=
+overnance role of VC firms over time (Lerner & Nanda 2020) and anecdotal ev=
+idence that VC firms have become more deferential to entrepreneurs in the s=
+oftware industry.If you don=E2=80=99t need much money, and there=E2=80=99s =
+lots of money available, you don=E2=80=99t have to give up much control to =
+get it.Good business modelThe internet contains a lot of sites that publish=
+ unverified negative information about people, search-engine-optimized =E2=
+=80=9Cgripe sites=E2=80=9D about people who cheat on their partners or do o=
+ther bad stuff.=C2=A0The internet also contains lots of =E2=80=9Creputation=
+ management=E2=80=9D companies that promise to remove posts about people fr=
+om gripe sites: If you pay the reputation management company thousands of d=
+ollars, it promises to scrub negative information about you from the gripe =
+sites.There are obvious synergies: If you run a gripe site, and I run a rep=
+utation management company, we can enter into an arrangement where=C2=A0you=
+ can increase my sales=C2=A0(by publishing slander about people, and runnin=
+g ads for my reputation management company next to the slanders) and make m=
+y job easier (by taking down the slanders when I ask you to), and I can pro=
+vide you with revenue (by paying you a cut of my fees when you take down th=
+e slanders).This synergy is so obvious that, the New York Times reports, th=
+e norm in the industry appears to be for the gripe sites to be affiliated w=
+ith the reputation management companies. The synergy is also =E2=80=A6=C2=
+=A0I mean, is it extortion? It=E2=80=99s extortion-esque, right? It has obv=
+ious similarities to extortion? Pleasingly the Times asked a reputation man=
+ager this question, and she, uh:Ms. Glosser charges $750 or more per post r=
+emoval, which adds up to thousands of dollars for most of her clients. To g=
+et posts removed, she said, she often pays an =E2=80=9Cadministrative fee=
+=E2=80=9D to the gripe site=E2=80=99s webmaster. We asked her whether this =
+was extortion. =E2=80=9CI can=E2=80=99t really give you a direct answer,=E2=
+=80=9D she said.Yeah, no, I can see how it would be hard for her to give a =
+direct answer.=C2=A0Good communication strategyI am mostly going to quote t=
+his because it is funny, though I suppose I can justify its inclusion in a =
+financial newsletter by saying that, if you are running a competitive aucti=
+on in a mergers-and-acquisitions situation, you might study the telephone w=
+ork of=C2=A0industrialist and soccer magnate Andrea Agnelli. Agnelli was pl=
+anning to announce the European Super League, which was expected to be a de=
+vastating blow to Europe=E2=80=99s existing soccer organization (UEFA, the =
+Union of European Football Associations), led by Aleksander Ceferin:Ceferin=
+ =E2=80=94 the godfather to Agnelli=E2=80=99s youngest child =E2=80=94 text=
+ed the Italian=E2=80=99s wife and asked if she might get the Juventus presi=
+dent to call him urgently. He was three hours into his journey when his cel=
+lphone rang. Breezily, Agnelli reassured Ceferin, again, that everything wa=
+s fine.Ceferin suggested they issue a joint communiqu=C3=A9 that would put =
+the issue to rest. Agnelli agreed. Ceferin drafted a statement from the car=
+ and sent it to Agnelli. An hour later, Agnelli asked for time to send back=
+ an amended version. Hours passed. The men traded more calls. Eventually, t=
+he Italian told Ceferin he needed another 30 minutes.And then Agnelli turne=
+d off his phone.If you want to ascend to the highest levels of business, it=
+ probably helps to have an absolutely preternatural ability to string peopl=
+e along and then turn off your phone.K thnSr wh nt:Standard Life Aberdeen p=
+lc ("the Company") today announces its intention to change its name to "Abr=
+dn plc". The new Abrdn name (pronounced =E2=80=9CAberdeen=E2=80=9D) will be=
+ part of a modern, agile, digitally-enabled brand that will also be used fo=
+r all the Company's client-facing businesses globally.The new brand identit=
+y marks the next stage in the reshaping of the business and future-focused =
+growth strategy. The Company is focused on three interrelated growth vector=
+s: global asset management (Investments), technology platforms for UK finan=
+cial advisers and their customers (Adviser), and UK savings and wealth (Per=
+sonal).The rebranding roll-out process for the new name and associated visu=
+al identity will begin in the summer and progress through 2021, alongside i=
+mplementation of a full stakeholder engagement plan to manage the transitio=
+n.Doesn=E2=80=99t it feel like April Fools=E2=80=99 Day lasts for months no=
+w? It=E2=80=99s a spectacular piece of work. =E2=80=9CPronounced =E2=80=98A=
+berdeen=E2=80=99=E2=80=9D might be my favorite part, though they should hav=
+e gone all out and said =E2=80=9Cpronounced =E2=80=98Standard Life Aberdeen=
+ plc.=E2=80=99=E2=80=9D=C2=A0But I am also very fond of =E2=80=9Cmodern, ag=
+ile, digitally-enabled brand,=E2=80=9D =E2=80=9Cfocused on three interrelat=
+ed growth vectors=E2=80=9D and =E2=80=9Calongside implementation of a full =
+stakeholder engagement plan to manage the transition.=E2=80=9D It must be w=
+eird to be a portfolio manager at Standard Life Aberdeen, managing hundreds=
+ of millions of dollars of investments on behalf of customers, and come in =
+to work one day to find that, instead of an=C2=A0investment company, you ac=
+tually=C2=A0work at a =E2=80=9Cmodern, agile, digitally-enabled=C2=A0brand=
+=E2=80=9D with 75% fewer vowels.=C2=A0I was sorely tempted to write this pa=
+ragraph without vowels too but held off, you=E2=80=99re welcome.Sure, right=
+, yes I mean:About 60% of crypto investors say their belief or investments =
+in the space have had a negative impact on their personal relationships, ac=
+cording to a SurveyMonkey survey performed on behalf of .Tech Domains that =
+looked at numerous issues around digital assets. What=E2=80=99s more, there=
+=E2=80=99s a direct correlation between the percentage of someone=E2=80=99s=
+ net worth that=E2=80=99s invested in cryptocurrencies and the likelihood t=
+hey say their personal relationships have been impacted negatively.Meanwhil=
+e zero percent of my net worth is invested in crypto and I am universally b=
+eloved.Things happenNew Edgar dropped. Wall Street Banks Say Time for  Loan=
+ Market to Ditch the Fax. Carlyle CEO Kewsong Lee Plots Rebound for Private=
+-Equity Pioneer. Bill Hwang=E2=80=99s Implosion Bruises  Billionaire Teache=
+r From China. A Hedge Fund, a Jewish School and $1.1 Billion in  Cum-Ex Tra=
+des. Is it a Federal Crime for a University to Submit Fake Numbers to U.S. =
+News to Change Its Ranking? Hedge Fund Manager Accused of Bilking Clients f=
+or  Race Car Hobby. Man fills bowling ball with father=E2=80=99s ashes =E2=
+=80=94 then rolls perfect game.=C2=A0For Extra Days Off, Officials Say, Cou=
+ple Had 4 Weddings and 3 Divorces. Japanese man arrested after dating 35 wo=
+men at the same time in bid to 'get birthday presents.' A woman =E2=80=9Csa=
+ng Fleetwood Mac=E2=80=99s =E2=80=98Landslide=E2=80=99 during her company=
+=E2=80=99s recent talent show while accompanying herself on the ukulele.=E2=
+=80=9D Elon Musk will host =E2=80=9CSaturday Night Live.=E2=80=9DIf you'd l=
+ike to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your in=
+box, please=C2=A0subscribe at this link. Or you can subscribe to Money Stuf=
+f and other great Bloomberg newsletters here. Thanks![1] For comparison, Am=
+azon.com Inc. hit a $900 million market cap in September 1997 and crossed $=
+11.5 billion in December 1998. So Jeff Bezos accomplished this feat faster =
+than Sherman. But that is a high bar. Tesla took almost=C2=A0three years to=
+ go from a $1.7 billion valuation at its initial public offering to $11.5 b=
+illion.[2] Er, generally, 20% of the SPAC. So if the company raises $100 mi=
+llion by distributing 10 million shares to public SPAC shareholders, the sp=
+onsor will generally get 2.5 million shares (20% of 12.5 million total shar=
+es distributed). This is not set in stone but is common.[3]=C2=A0That fee s=
+eems more standard in SPACs than it is in IPOs, though there is some variat=
+ion; Pershing Square Tontine Holdings paid 4.6%. But in other big-name SPAC=
+s, 5.5% seems to be the norm; e.g. here is Churchill Capital Corp IV, or So=
+cial Capital Hedosophia Holdings Corp. VI. The bank=E2=80=99s fee is paid p=
+artly up front and partly when the SPAC closes its acquisition.[4] Of cours=
+e =E2=80=9Cthe view that blank-check companies democratize finance=E2=80=9D=
+ is silly, but I don=E2=80=99t actually believe that it=E2=80=99s commonly =
+held. I think it=E2=80=99s just a thing that SPAC sponsors say sometimes, b=
+ut that no one believes.=C2=A0[5] The theory I link to, which we discussed =
+a couple of weeks ago, is =E2=80=A6=C2=A0very aggressive =E2=80=A6=C2=A0but=
+ you could have other theories along the lines of =E2=80=9Cthe SPAC *knew* =
+that its projections were false," and I think you will at least sometimes h=
+ave something to work with.
+   =20
+ =20
+
+
+   =20
+     =20
+        Follow Us
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+       =20
+         =20
+       =20
+     =20
+     =20
+       =20
+          Get the newsletter
+       =20
+     =20
+   =20
+
+
+     =20
+     =20
+ =20
+   =20
+      =C2=A0
+   =20
+   =20
+     =20
+   =20
+   =20
+      Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+   =20
+   =20
+      =C2=A0
+   =20
+ =20
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+   =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ce31se.67hx/17c2d2f0.gif" alt=3D"" border=3D"0" /></a>
+
+
+
+------=_Part_52270208_423244712.1619456220188
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<style>@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {}=20
+</style><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Du=
+tf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<title>Money Stuff</title>
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: =
+0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; color:=
+ #000; margin: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" clas=
+s=3D"brand-hdr">
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/23656910.289653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1=
+dGhvcnMvQVJiVFFsUkxSakUvbWF0dGhldy1zLWxldmluZQ/607f07ceef4b8524a319a23cBb4c=
+3b0ae"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%;" /><!--[if mso]>
+</div>
+<![endif]--></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"8">
+<tr>
+<td width=3D"206" align=3D"center">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23656910.289653/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cB8419ddb=
+7">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong> <em>Money S=
+tuff will be off tomorrow, back on Wednesday.</em></p><h2 style=3D"font-wei=
+ght: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-ser=
+if; letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; border=
+-bottom-style: dotted; padding-bottom: 5px; margin-top: 30px; margin-bottom=
+: 0;">GME</h2><p style=3D"margin: 16px 0;">Is George Sherman one of the gre=
+atest public-company chief executive officers in American history? He becam=
+e CEO of GameStop Corp. on <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/23656910.289653/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYX=
+RhLzEzMjYzODAvMDAwMTMyNjM4MDE5MDAwMDMwL2V4OTkxcHJlc3NyZWxlYXNlY2VvYXBwb2luL=
+mh0bQ/607f07ceef4b8524a319a23cB7d7b31bf" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">April 15, 2019</a>. The stock closed at $8=
+.94 per share that day. On April 19, 2021 =E2=80=94=C2=A0almost exactly two=
+ years later =E2=80=94=C2=A0<a href=3D"https://link.mail.bloombergbusiness.=
+com/click/23656910.289653/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kY=
+XRhLzEzMjYzODAvMDAwMTE5MzEyNTIxMTIwMzA0L2QzMDc1OTlkZXg5OTEuaHRt/607f07ceef4=
+b8524a319a23cB190e449d" itemprop=3D"StoryLink" itemscope=3D"itemscope" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">GameStop announced</a> that he will be stepping down by July.=
+ The stock closed at $164.37 that day. That=E2=80=99s a 1,739% return over =
+his two-year term, or about 325% annualized. (The S&amp;P 500 index was up =
+43%, or about 20% a year, over those two years.) GameStop=E2=80=99s market =
+capitalization went from about $900 million to about $11.5 billion; Sherman=
+ added about $10.5 billion of shareholder value in two years.[1]=C2=A0</p><=
+p style=3D"margin: 16px 0;">How much should he get paid, for doing this ama=
+zing work for shareholders? A billion dollars? Two billion? If GameStop=E2=
+=80=99s shareholders had only gotten the S&amp;P 500 return over the last f=
+ew years, they=E2=80=99d have missed out on more than $10 billion in value;=
+ I suppose you could make a case that they should be willing to pay Sherman=
+ up to $10 billion for his magic touch.=C2=A0</p><p style=3D"margin: 16px 0=
+;">But GameStop shareholders <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/23656910.289653/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9nYW1lc3Rv=
+cHMtY2VvLWlzLWdldHRpbmctbWlsbGlvbnMtb24taGlzLXdheS1vdXQtaGVzLW5vdC10aGUtb25=
+seS1vbmUtMTE2MTkzNTY4MjM_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a2=
+3cBa2a6394a" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">got a=C2=A0bargain</a>:</p><blockquote><p style=3D"margin: 16px 0;">It i=
+s a lucrative time to be leaving GameStop Corp.=E2=80=99s=C2=A0C-suite as t=
+he run-up in the videogame retailer=E2=80=99s share price has enabled four =
+executives to depart with vested stock now valued at roughly $290 million.<=
+/p><p style=3D"margin: 16px 0;">Separation agreements between GameStop and =
+the four executives, including Chief Executive Officer George Sherman, have=
+ provisions that let stock awarded during their tenure to vest when they le=
+ave. While such a handling of leadership transitions isn=E2=80=99t atypical=
+, it does potentially allow the executives to sell their shares near GameSt=
+op=E2=80=99s historically high levels. ...</p><p style=3D"margin: 16px 0;">=
+GameStop has said that Mr. Sherman will step down by July 31 and that it is=
+ searching for his replacement. His exit agreement calls for the accelerate=
+d vesting of more than 1.1 million GameStop shares, according to filings, v=
+alued at roughly $169 million as of Friday=E2=80=99s close.</p><p style=3D"=
+margin: 16px 0;">Mr. Sherman=E2=80=99s severance pay could have been higher=
+. According to his separation agreement and GameStop=E2=80=99s recent proxy=
+ filing, the CEO agreed to give up at least $5 million in cash, stock value=
+d at roughly $47 million as of Friday, and additional equity awards. No rea=
+son was given for the changes, and Mr. Sherman declined to comment.</p></bl=
+ockquote><p style=3D"margin: 16px 0;">They make it sound like a bad thing!<=
+/p><p style=3D"margin: 16px 0;">Obviously I am kidding a little.=C2=A0I don=
+=E2=80=99t know what to tell you. Ordinarily the way executive compensation=
+ works is, like:</p><ol style=3D"list-style-type: decimal; padding-left: 40=
+px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">You hire a CEO ho=
+ping that he will do good things to make the company better.</li>=09<li sty=
+le=3D"margin-bottom: 5px;">The shorthand way of measuring that is the stock=
+ price: The stock price discounts all the future cash flows of the company,=
+ so the more long-term value that the CEO adds to the company, the higher t=
+he stock price will be.</li>=09<li style=3D"margin-bottom: 5px;">Thus you m=
+ight tie compensation explicitly to the stock price (give the CEO a bigger =
+bonus if the stock price goes up a lot, etc.), or you might just pay the CE=
+O largely in the form of stock and stock options, so that the higher the st=
+ock price goes the more his compensation will be worth.</li>=09<li style=3D=
+"margin-bottom: 5px;">If the stock price goes up=C2=A0<em>three hundred twe=
+nty-five percent a year=C2=A0</em>during the CEO=E2=80=99s tenure, then tha=
+t is very very very very very good, he has added an unheard-of amount of lo=
+ng-term value to the company, and you should be absolutely thrilled to pay =
+him a=C2=A0ton of money.</li></ol><p style=3D"margin: 16px 0;">Ordinarily t=
+here are quibbles. The stock price is not a perfect measure of long-term va=
+lue: Investors can arguably take a short-term perspective, stock prices can=
+ arguably=C2=A0be juiced through financial engineering, stock prices arguab=
+ly do not reflect the value that the company provides to (or takes away fro=
+m) non-shareholder stakeholders, etc. Nobody really says =E2=80=9CCEOs shou=
+ld be compensated purely based on stock price appreciation.=E2=80=9D Still =
+the=C2=A0model above has an obvious appeal, and it is the basic starting po=
+int for most executive compensation.</p><p style=3D"margin: 16px 0;">GameSt=
+op=E2=80=99s stock is =E2=80=A6=C2=A0look, I truly know nothing, but I thin=
+k it is reasonably fair to say that GameStop=E2=80=99s stock is not up 1,73=
+9% over two years because=C2=A0George Sherman revolutionized its business. =
+GameStop had a net loss of $673 million in the fiscal year just before Sher=
+man took over; it had a net loss of $215 million in the fiscal year just be=
+fore he left. An improvement! But not great. GameStop is up 1,739% because:=
+</p><ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px=
+ 0;">=09<li style=3D"margin-bottom: 5px;">In late 2020, Ryan Cohen, a found=
+er of Chewy.com with a history of success in internet sales, bought a lot o=
+f stock and became an activist pushing for a new digital strategy. Cohen su=
+cceeded in winning over the board: He=E2=80=99s on the board and=C2=A0<a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/23656910.289653/aHR0cHM=
+6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9nYW1lc3RvcC10by1uYW1lLWNoZXd5LWNvLWZvdW5kZX=
+Itcnlhbi1jb2hlbi1hcy1jaGFpcm1hbi0xMTYxNzg4Mjg2Ng/607f07ceef4b8524a319a23cB8=
+6c59196" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;">w=
+ill become=C2=A0its chairman</a>, work is underway on the digital transform=
+ation, Cohen-picked executives with good digital track records are joining =
+GameStop in senior positions, etc.</li>=09<li style=3D"margin-bottom: 5px;"=
+>Retail investors on Reddit like the stock.</li>=09<li style=3D"margin-bott=
+om: 5px;"><a href=3D"https://link.mail.bloombergbusiness.com/click/23656910=
+.289653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDE=
+tMjUvdGhlLWdhbWUtbmV2ZXItc3RvcHM/607f07ceef4b8524a319a23cB315ef5d3" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> Short squeeze</a=
+>.</li>=09<li style=3D"margin-bottom: 5px;">Rocket rocket rocket diamond ha=
+nds.</li></ol><p style=3D"margin: 16px 0;">When I first wrote about George =
+Sherman,=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2365=
+6910.289653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjE=
+tMDEtMjcvcmVkZGl0LWRyaXZlbi1zdXJnZS1wdXRzLWdhbWVzdG9wLWFuZC1yeWFuLWNvaGVuLW=
+luLWEtd2VpcmQtc3BvdA/607f07ceef4b8524a319a23cB5adea445" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">I said</a>:=C2=A0</p><blockqu=
+ote><p style=3D"margin: 16px 0;">One possible conclusion here is that the w=
+orld in which GameStop is a fun gambling token and up a zillion percent rea=
+lly is cut off from the world in which GameStop is a company with a CEO and=
+ a board and 5,000 struggling stores in malls and a big activist investor w=
+ith plans to turn its business around. They can see each other, but they ca=
+n never interact. =E2=80=9CHuh, lotta crazy news about something called =E2=
+=80=98GameStop,=E2=80=99=E2=80=9D George Sherman or Ryan Cohen might think;=
+ =E2=80=9Cit would be weird if they were talking about us.=E2=80=9D But the=
+y=E2=80=99re not.</p></blockquote><p style=3D"margin: 16px 0;">You could ar=
+gue that I was wrong about Cohen, and that the stock-price surge really was=
+ due to rational optimism about his plans. Sherman, not so much. He seems t=
+o have been largely a bystander as his company became a meme. And now he ge=
+ts paid. =E2=80=9CIt does potentially allow the executives to sell their sh=
+ares near GameStop=E2=80=99s historically high levels.=E2=80=9D Ordinarily =
+that=E2=80=99s the whole point of executive compensation! The whole point i=
+s to pay executives more when the stock price goes up, so that they will ha=
+ve incentives to do things that make the stock price go up. But in 2021, wi=
+th GameStop, the stock price became disconnected from the business. But not=
+ from the executive compensation.</p><p style=3D"margin: 16px 0;">Meanwhile=
+ who=E2=80=99s gonna be the new CEO? And how will that person get paid? Do =
+you give the new CEO stock options struck at like $300? If the stock falls =
+back to, say, $90 =E2=80=94=C2=A0up 400% from the start of 2021! =E2=80=94=
+=C2=A0that will be a disaster for the new CEO. The market seems to think th=
+at GameStop is an $11 billion company. Does its board think that? (The comp=
+any is <a href=3D"https://link.mail.bloombergbusiness.com/click/23656910.28=
+9653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtMD=
+UvYmlsbC1od2FuZy1zLWFyY2hlZ29zLXN3YXAtYWZ0ZXJtYXRoLWlzLWF3a3dhcmQtZm9yLWJhb=
+mtz/607f07ceef4b8524a319a23cBcb119d85" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: sol=
+id; background-color: #ccc;"> selling stock</a> at these levels.) Does the =
+new CEO? Never mind what Sherman did or did not do, as CEO; just look at=C2=
+=A0how much the stock price increased during his tenure. How do you follow =
+that act?</p><h2 style=3D"font-weight: bold; font-family: &quot;Arial Black=
+&quot;, Arial, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px=
+; border-bottom-width: 1px; border-bottom-style: dotted; padding-bottom: 5p=
+x; margin-top: 30px; margin-bottom: 0;">SPAC SPAC SPAC</h2><p style=3D"marg=
+in: 16px 0;">The way an initial public offering works is that a bank helps =
+a company go public by selling stock to new investors, and in exchange the =
+bank takes a fee of roughly 1% to 7% of the amount the company raises. Lots=
+ of people think these fees =E2=80=94=C2=A0particularly the 7% fees that ar=
+e standard in smaller IPOs =E2=80=94=C2=A0are too high.</p><p style=3D"marg=
+in: 16px 0;">The way a special purpose acquisition company works is that a =
+sponsor helps a company go public by selling stock to new investors, and in=
+ return the sponsor takes stock =E2=80=94=C2=A0a =E2=80=9Cpromote=E2=80=9D =
+=E2=80=94 equal to 20% of the amount the company sells.[2] A bank helps too=
+, and charges a separate 5.5% fee.[3]</p><p style=3D"margin: 16px 0;">An im=
+portant point about SPACs is that <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/23656910.289653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMjAtMDctMjcvc3BhY3MtYXJlbi10LWNoZWFwZXItdGhhbi1pcG9zLXlldA=
+/607f07ceef4b8524a319a23cB72051b13" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> 20% is more than 7%</a>? I mean! These numbers a=
+re not apples-to-apples. The 20% is paid in stock, not cash; usually the sp=
+onsor will be required to hold onto the stock for a while. (Whereas IPO ban=
+ks just get a check and move on.) Often the sponsors, or funds that they ru=
+n, will also invest their own (funds=E2=80=99) money in the SPAC, alongside=
+ the free stock that they get. (Whereas IPO banks are generally just servic=
+e providers, not co-investors.) And that free stock isn=E2=80=99t exactly f=
+ree; the SPAC sponsors will have to put up a bit of money to cover startup =
+expenses, though they get the stock at a huge discount. (Whereas IPO banks =
+pay for fewer expenses, though not none; someone=E2=80=99s gotta pay for sn=
+acks at the roadshow.) Also the SPAC deal will often have a PIPE deal (priv=
+ate investment in public equity) alongside it, raising more money that is n=
+ot subject to=C2=A0the sponsor promote.</p><p style=3D"margin: 16px 0;">Sti=
+ll 20% (or 25.5%) really is more than 7%, never mind the 1% to 3% fees that=
+ are more common in larger IPOs. And so tons of celebrities became vaguely =
+affiliated with SPACs, because SPACS are incredibly lucrative and <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/23656910.289653/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDMtMDIvamF5LXotYWxl=
+eC1yb2RyaWd1ZXotc3RlcGgtY3Vycnktc3BhY3MtYXJlLWEtY2VsZWJyaXR5LWFmZmFpcg/607f=
+07ceef4b8524a319a23cB5b139f6d" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> have a ton of money to throw around for celebrity spo=
+nsors</a>.</p><p style=3D"margin: 16px 0;">There are important and at least=
+ partially correct theories about SPACs that hold that they are a better wa=
+y for investors to access newly public companies, because of the <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/23656910.289653/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjEtMDEtMDgvbW9uZXktc3R1ZmY=
+tc3BhYy1tYWdpYy1pc24tdC1mcmVl/607f07ceef4b8524a319a23cB4bf580c4" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">financial engineer=
+ing</a> of their structures, or because they allow normal investors a chanc=
+e to capture something like the <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/23656910.289653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjEtMDItMjMvdGVzbGEtcml2YWwtbHVjaWQtbW90b3JzLXBhaWQtYS1wcmlj=
+ZS1mb3ItaXRzLXNwYWMtZGVhbA/607f07ceef4b8524a319a23cBf2b7d4ef" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> IPO pop</a>. There are=
+ other important and at least partially correct theories holding that SPACs=
+ are a better way for companies to access public markets, because of the <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/23656910.289653/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjAtMDYtMjMvbW9uZXk=
+tc3R1ZmYtYmlsbC1hY2ttYW4td2FudHMtYS1tYXR1cmUtdW5pY29ybg/607f07ceef4b8524a31=
+9a23cBf6d46f10" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">timing and certainty advantages</a> of a SPAC deal, or the chance to =
+have an engaged high-profile sponsor on your board, or the ability=C2=A0to =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23656910.289653/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtMTIvbWF5Y=
+mUtc3BhY3MtYXJlLXJlYWxseS1pcG9z/607f07ceef4b8524a319a23cB638ae35b" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> market your compa=
+ny based on projections</a>. But it always seems like the most obvious fact=
+ about SPACs is that they are a very attractive=C2=A0<em>compensation schem=
+e=C2=A0</em>for SPAC sponsors: A lot of effort goes into forming and pitchi=
+ng SPACs because, if you sponsor a SPAC, that=E2=80=99s a really good deal=
+=C2=A0<em>for you</em>.</p><p style=3D"margin: 16px 0;">Anyway=C2=A0<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/23656910.289653/aHR0cHM6L=
+y93d3cud3NqLmNvbS9hcnRpY2xlcy9zcGFjLWluc2lkZXJzLWNhbi1tYWtlLW1pbGxpb25zLWV2=
+ZW4td2hlbi10aGUtY29tcGFueS10aGV5LXRha2UtcHVibGljLXN0cnVnZ2xlcy0xMTYxOTM0MzA=
+wMD9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB2bb0e90e" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">here=E2=80=99s tod=
+ay=E2=80=99s Wall Street Journal</a>:</p><blockquote><p style=3D"margin: 16=
+px 0;">Investors who bought into a special-purpose acquisition company that=
+ took a healthcare-services company public last year in an $11 billion deal=
+ have suffered steep losses. Promoters of the SPAC still stand to make mill=
+ions.</p><p style=3D"margin: 16px 0;">The paper gains for insiders, even as=
+ shares of MultiPlan Corp. fall, result from the unique incentives given to=
+ SPAC creators, also known as sponsors. They are allowed to buy 20% of the =
+company at a deep discount, a stake that is then transferred into the firm =
+the SPAC takes public. Those extremely cheap shares let the creators make, =
+on average, several times their initial investment. They also let the SPAC =
+backers make money even if the company they take public struggles and later=
+ investors lose money, a source of criticism for the process. =E2=80=A6</p>=
+<p style=3D"margin: 16px 0;">Shares of several other firms tied to blank-ch=
+eck companies have also been in retreat recently, raising the likelihood of=
+ a similar divergence between returns for insiders and later investors in m=
+any other SPACs. A growing gap between returns for insiders and later inves=
+tors would challenge the common view that blank-check companies democratize=
+ finance, critics said, threatening the overall popularity of the product g=
+oing forward.</p></blockquote><p style=3D"margin: 16px 0;">I think that=E2=
+=80=99s sort of the wrong way to look at it. It=E2=80=99s not, like, a conf=
+lict of interest; it=E2=80=99s not like SPAC sponsors=C2=A0<em>want=C2=A0</=
+em>their companies to go down.[4] It=E2=80=99s just that they are largely=
+=C2=A0<em>service providers</em>. A SPAC sponsor is not in the business of =
+picking the perfect company and guaranteeing investors that it will go up. =
+A SPAC sponsor is in the business of bringing together investors who want a=
+ new company and a company that wants new investors, setting up a deal betw=
+een them, and collecting a cut. That=E2=80=99s basically the same business =
+that IPO banks are in, except that the SPAC=C2=A0sponsor takes a much bigge=
+r cut. It=E2=80=99s nice work if you can get it.</p><p style=3D"margin: 16p=
+x 0;">In other SPAC news, <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/23656910.289653/aHR0cHM6Ly9jb3JwZ292Lmxhdy5oYXJ2YXJkLmVkdS8yMDIxLzA=
+0LzIzL3JlY2VudC1zcGFjLXNoYXJlaG9sZGVyLXN1aXRzLWluLW5ldy15b3JrLXN0YXRlLWNvdX=
+J0cy10aGUtYmVnaW5uaW5nLXdhdmUtb2Ytc3BhYy1saXRpZ2F0aW9u/607f07ceef4b8524a319=
+a23cBf59cc9bd" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">here is a memo from Akin Gump Strauss Hauer &amp; Feld</a>=C2=A0about =
+how plaintiffs=E2=80=99 lawyers have started suing SPACs for allegedly poor=
+ disclosures in their de-SPAC mergers:</p><blockquote><p style=3D"margin: 1=
+6px 0;">The complaints focus on the SPAC=E2=80=99s disclosures regarding a =
+proposed de-SPAC business combination. Specifically, the complaints general=
+ly allege inadequate disclosures, targeting certain categories of informati=
+on that are allegedly materially misleading or incomplete in the publicly f=
+iled initial SPAC merger announcement. The SEC=E2=80=99s December 2020 SPAC=
+ disclosure guidance covers some of these categories of allegedly misstated=
+ or omitted information. For example, the complaints track the SEC=E2=80=99=
+s disclosure guidance regarding the continued relationship, if any, the SPA=
+C=E2=80=99s directors or officers may have with the combined company, poten=
+tially giving rise to conflicts of interest with the interests of public sh=
+areholders.=C2=A0The complaints also frequently allege inadequate disclosur=
+es relating to the SPAC=E2=80=99s financial advisor=E2=80=99s compensation,=
+ including whether any portion is contingent upon consummation of the de-SP=
+AC transaction, and potential conflicts of interest arising from the financ=
+ial advisor=E2=80=99s past services for any parties to the transaction.</p>=
+</blockquote><p style=3D"margin: 16px 0;">When=C2=A0a SPAC finds a company =
+to take public, it signs a merger agreement and publishes a proxy statement=
+ so its public shareholders can vote on the deal. The U.S. Securities and E=
+xchange Commission <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/23656910.289653/aHR0cHM6Ly93d3cuc2VjLmdvdi9jb3JwZmluL2Rpc2Nsb3N1cmUtc3BlY2=
+lhbC1wdXJwb3NlLWFjcXVpc2l0aW9uLWNvbXBhbmllcw/607f07ceef4b8524a319a23cB4054d=
+d1e" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">has s=
+colded SPACs</a> about the sorts of things they should disclose in those pr=
+oxies, conflicts of interest and financial incentives and continuing relati=
+onships that the sponsors might have. If the proxy doesn=E2=80=99t fully di=
+sclose these things, in theory, the shareholder vote will not be fully info=
+rmed; lawyers will sue to hold up the shareholder vote until the proxy is f=
+ixed. The idea is that the SPAC will settle the case by (1) agreeing to rev=
+ise the proxy to include more disclosure and (2) pay the plaintiffs=E2=80=
+=99 lawyers a=C2=A0fee. This was a common move in mergers-and-acquisitions =
+transactions =E2=80=94=C2=A0it was referred to as the =E2=80=9CM&amp;A tax,=
+=E2=80=9D because every deal had to pay off some plaintiffs=E2=80=99 lawyer=
+s =E2=80=94=C2=A0until <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/23656910.289653/aHR0cHM6Ly93d3cucGF1bHdlaXNzLmNvbS9wcmFjdGljZXMvdHJhbn=
+NhY3Rpb25hbC9tZXJnZXJzLWFjcXVpc2l0aW9ucy9wdWJsaWNhdGlvbnMvZGVsYXdhcmUtY291c=
+nQtb2YtY2hhbmNlcnktcmVqZWN0cy1hbm90aGVyLWRpc2Nsb3N1cmUtb25seS1zZXR0bGVtZW50=
+P2lkPTIxNDAz/607f07ceef4b8524a319a23cB604770e4" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">the Delaware courts got sick of it</a=
+>=C2=A0and stopped approving these settlements. But these cases are filed i=
+n New York, and=C2=A0 against SPACs, so perhaps now there will be a SPAC ta=
+x.</p><p style=3D"margin: 16px 0;">I guess the point here is that this is s=
+ort of trivial, garden-variety stuff? The real money in suing SPACs is sure=
+ly:</p><ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 1=
+6px 0;">=09<li style=3D"margin-bottom: 5px;">A SPAC takes a company=C2=A0pu=
+blic at a high price with optimistic projections.</li>=09<li style=3D"margi=
+n-bottom: 5px;">The projections don=E2=80=99t work out.</li>=09<li style=3D=
+"margin-bottom: 5px;">The company goes to zero.</li>=09<li style=3D"margin-=
+bottom: 5px;">Sue!</li></ol><p style=3D"margin: 16px 0;">If you sue to hold=
+ up a shareholder vote, the best you=E2=80=99re going to do is get a six-fi=
+gure-ish fee when the SPAC settles by revising its proxy. If you wait to=C2=
+=A0sue until investors have lost a billion dollars, you can sue for a billi=
+on dollars! And take like 20% of it for lawyers=E2=80=99 fees! There is a t=
+heory that SPACs can say whatever they like in their projections without ge=
+tting sued, but there=E2=80=99s also a theory =E2=80=94=C2=A0<a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/23656910.289653/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtMTIvbWF5YmUtc3BhY3MtYXJ=
+lLXJlYWxseS1pcG9z/607f07ceef4b8524a319a23cC638ae35b" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">kind of endorsed by the SEC?</a>=
+ =E2=80=94=C2=A0that they can=E2=80=99t, and if you are an adventurous plai=
+ntiffs=E2=80=99 lawyer surely you can argue that theory.[5] =E2=80=9CThe Be=
+ginning Wave of SPAC Litigation,=E2=80=9D Akin Gump calls it, but I think e=
+ven that is premature; the real lawsuits will go after the SPACs that don=
+=E2=80=99t work out.</p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td style=3D"padding: 14px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td style=3D"padding: 15px 15px 0px;">
+<img width=3D"550" class=3D"sponsored-content__image" src=3D"https://assets=
+.bwbx.io/images/users/iqjWHBFdfxIU/iSU.aDtgzowQ/v0/-1x-1.png" style=3D"widt=
+h: 100%; display: block; max-width: 550px; max-height: 150px;" />
+</td>
+</tr>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Paid Post</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;">
+<p style=3D"margin: 10px 0px;"><strong>Invest in Highly-Competitive Venture=
+ Deals</strong></p>
+<p style=3D"margin: 10px 0px;">Not happy with your venture portfolio? <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/23656910.289653/aHR0cHM=
+6Ly9odWJzLmx5L0gwTDBrcXgw/607f07ceef4b8524a319a23cB57be3290" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" title=3D"Alumni Ventures=
+" style=3D"color: #000000; text-decoration: underline;">
+Alumni Ventures</a> is a network-powered venture firm helping accredited in=
+dividuals own a smart, simple venture capital portfolio. Their network is t=
+heir secret sauce, and they exclusively co-invest alongside a =E2=80=9Cwho=
+=E2=80=99s who=E2=80=9D of venture firms=E2=80=93names you=E2=80=99ll recog=
+nize. To access highly competitive venture deals, with an investment minimu=
+m of just $25K, <a href=3D"https://link.mail.bloombergbusiness.com/click/23=
+656910.289653/aHR0cHM6Ly9odWJzLmx5L0gwTDBrcXgw/607f07ceef4b8524a319a23cC57b=
+e3290" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0000=
+00; text-decoration: underline;"> check out Alumni Ventures.</a></p>
+</div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;"><a href=3D"https=
+://link.mail.bloombergbusiness.com/click/23656910.289653/aHR0cHM6Ly9odWJzLm=
+x5L0gwTDBrcXgw/607f07ceef4b8524a319a23cD57be3290" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" title=3D"Alumni Ventures" style=3D"=
+color: #000000; text-decoration: underline;">
+<span>Alumni Ventures</span></a></p></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-top=
+: 30px; margin-bottom: 0;">Everything is money laundering</h2><p style=3D"m=
+argin: 16px 0;">Here is a story about <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/23656910.289653/aHR0cHM6Ly93d3cuanVzdGljZS5nb3YvdXNhby1=
+lZG55L3ByL3RocmVlLWJyb29rbHluLXJlc2lkZW50cy1jaGFyZ2VkLW1vbmV5LWxhdW5kZXJpbm=
+ctc2NoZW1lLXN0ZWFsaW5nLW92ZXItMzAtbWlsbGlvbg/607f07ceef4b8524a319a23cB590dd=
+a84" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">three=
+ guys from Brooklyn</a> who allegedly=C2=A0noticed that banks in eastern Eu=
+rope=C2=A0were not as secure as banks in Brooklyn, and so decided to rob th=
+em. Here is=C2=A0how they allegedly robbed them:</p><blockquote><p style=3D=
+"margin: 16px 0;">As set forth in the indictment and court filings, between=
+ March 2015 and October 2019, the defendants and their co-conspirators alle=
+gedly stole over $30 million in cash and other valuables from safe deposit =
+boxes at banks in multiple foreign countries, including the Ukraine, Russia=
+, North Macedonia, Moldova, Latvia, Uzbekistan and Azerbaijan.=C2=A0 The co=
+-conspirators targeted foreign banks that appeared to lack security feature=
+s, including video surveillance cameras in certain areas.=C2=A0 After a ban=
+k was selected, they rented safe deposit boxes at the location by posing as=
+ customers.=C2=A0 The co-conspirators entered the safe deposit box rooms of=
+ the targeted banks and used sophisticated camera equipment, including bore=
+scopes that are typically used in medical procedures, to photograph the ins=
+ides of locks of safe deposit boxes belonging to other individuals.=C2=A0 A=
+nother co-conspirator used these photographs to create duplicate keys, and =
+then other co-conspirators used the duplicate keys to open the victim safe =
+deposit boxes in order to steal the contents, including currency, gold bars=
+, jewelry and other property.=C2=A0</p></blockquote><p style=3D"margin: 16p=
+x 0;">I=E2=80=99m sorry but that=E2=80=99s cool. Photographing the inside o=
+f locks of safe deposit boxes?=C2=A0That is just fun bank heisting. =E2=80=
+=9CThe crimes we allege in this indictment read like something straight out=
+ of Hollywood fiction,=E2=80=9D says an FBI agent in the press release, and=
+ he is right. Good story!</p><p style=3D"margin: 16px 0;">Weird that they w=
+ere arrested? To be clear, this is not a case of police in =E2=80=9CUkraine=
+, Russia, North Macedonia, Moldova, Latvia, Uzbekistan and Azerbaijan=E2=80=
+=9D=C2=A0noticing the crimes, identifying the perpetrators, tracking them t=
+o Brooklyn and asking U.S. authorities to arrest and extradite them. This i=
+s the U.S. Attorney for the Eastern District of New York arresting them on =
+his own initiative, not to ship them off to Ukraine etc. to be prosecuted f=
+or bank robbery, but to prosecute them in Brooklyn <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/23656910.289653/aHR0cHM6Ly93d3cuanVzdGljZS=
+5nb3YvdXNhby1lZG55L3ByZXNzLXJlbGVhc2UvZmlsZS8xMzg4Mjg2L2Rvd25sb2Fk/607f07ce=
+ef4b8524a319a23cBaeb11b45" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">for =E2=80=A6=C2=A0money =E2=80=A6=C2=A0laundering</a>?</p=
+><blockquote><p style=3D"margin: 16px 0;">The defendants and their co-consp=
+irators agreed to use the United States financial system in furtherance of =
+these crimes. For example, a co-conspirator =E2=80=A6=C2=A0used a credit ca=
+rd issued in the United States =E2=80=A6=C2=A0to make multiple purchases to=
+ promote the bank thefts, including, among other things (i) to purchase air=
+line tickets to fly from, among other places, the Eastern District of New Y=
+ork to the locations of the thefts; and (ii) to rent hotel rooms for COOPER=
+ and the defendant GARRI SMITH, among others. The defendant ALEX LEVIN used=
+ bank accounts in the United States, including accounts located in the East=
+ern District=C2=A0of New York, among other things, to purchase sophisticate=
+d camera equipment used in the thefts, some of which was shipped to LEVIN=
+=E2=80=99s residence in the Eastern District of New York, and to launder th=
+e proceeds of those crimes.</p></blockquote><p style=3D"margin: 16px 0;">Th=
+e U.S. financial system is amazing. If you use a U.S. credit card to buy a =
+plane ticket to a foreign country, and then you do a crime in that country,=
+ that=E2=80=99s also a crime in the U.S. (It violates the <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/23656910.289653/aHR0cHM6Ly9lbi53aWt=
+pcGVkaWEub3JnL3dpa2kvVHJhdmVsX0FjdA/607f07ceef4b8524a319a23cB3da0af84" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">Travel Act</a>=
+.) And if you rob a bank abroad,=C2=A0deposit the proceeds of the heist int=
+o a U.S. checking account, and use the money to pay your rent or whatever, =
+that=E2=80=99s a big U.S. crime; that=E2=80=99s (allegedly) =E2=80=9Cmoney =
+laundering.=E2=80=9D Everything is money laundering.=C2=A0</p><h2 style=3D"=
+font-weight: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, =
+sans-serif; letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px=
+; border-bottom-style: dotted; padding-bottom: 5px; margin-top: 30px; margi=
+n-bottom: 0;">Dual-class IPOs</h2><p style=3D"margin: 16px 0;">The basic st=
+ory I like to tell about dual-class IPOs goes like this. Once upon a time c=
+ompanies needed money; when they went public, it was to tap a large pool of=
+ capital that they needed to grow their business. Money was hard to get, so=
+ the companies were solicitous of public investors. There was a norm that, =
+if you invested money in a risky, newly public company, you got some say in=
+ how the company was run. Not=C2=A0<em>so=C2=A0</em>much say, but just regu=
+lar shareholder rights. You got voting stock, at least, so you could vote f=
+or directors and maybe kick them out if they did a bad job.</p><p style=3D"=
+margin: 16px 0;">But in modern markets companies have a much easier time of=
+ raising money. There is a ton of money out there, due to general liquidity=
+ conditions,=C2=A0the globalization of the capital markets, technological i=
+nnovations that have made capital raising easier, etc. Meanwhile globalized=
+ product markets are increasingly winner-take-all; if you have a good idea =
+it will make a lot of money for your investors. The result is that investor=
+s need companies more than companies need investors: Money is plentiful but=
+ good investments are scarce. So the balance of power has shifted: Investor=
+s are not valuable partners whose desires must be taken seriously; they=E2=
+=80=99re just fungible sources of cash, and if they annoy a company it can =
+just go elsewhere. The balance of power has shifted so that entrepreneurs a=
+re in control and shareholders have to do whatever they say.</p><p style=3D=
+"margin: 16px 0;">And one thing that entrepreneurs really want, besides mon=
+ey, is perpetual control of their companies. They identify with their compa=
+nies; they built them; they feel like they own them. They want to raise cas=
+h from public shareholders without giving up control to those shareholders.=
+ And now they don=E2=80=99t have to.=C2=A0</p><p style=3D"margin: 16px 0;">=
+Here are a <a href=3D"https://link.mail.bloombergbusiness.com/click/2365691=
+0.289653/aHR0cHM6Ly9wYXBlcnMuc3Nybi5jb20vc29sMy9wYXBlcnMuY2ZtP2Fic3RyYWN0X2=
+lkPTM2OTA2NzA/607f07ceef4b8524a319a23cB634ec568" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">paper</a> and <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/23656910.289653/aHR0cHM6Ly9jbHNibHVlc2t5=
+Lmxhdy5jb2x1bWJpYS5lZHUvMjAyMS8wNC8yMS90aGUtcmlzZS1vZi1kdWFsLWNsYXNzLXN0b2N=
+rLWlwb3Mv/607f07ceef4b8524a319a23cB8a22d684" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">related blog post</a>=C2=A0on =E2=80=9CT=
+he Rise of Dual-Class Stock IPOs=E2=80=9D by Dhruv Aggarwal, Ofer Eldar, Ya=
+el Hochberg and Lubomir Litov, which flesh that argument out. From their bl=
+og post:</p><blockquote><p style=3D"margin: 16px 0;">When examining the evo=
+lution of control, we find that the rise in the number of dual-class IPOs i=
+s associated with an increase in the power of firms=E2=80=99 founders. As s=
+hown in Figure 1, much of the increase in the number of dual-class firms is=
+ attributable to founder-controlled firms. The percentage of founder-contro=
+lled dual-class firms doubled from 2006-2019 as compared with 1994-2005. In=
+ 2017-2019, a staggering 18 percent of all IPOs were founder-controlled dua=
+l-class firms. Thus, while there is wide variation in the types of controll=
+ers, the increase in the number of dual-class IPOs is mostly driven by foun=
+ders=E2=80=99 ability to dictate the governance of newly public firms.</p><=
+/blockquote><p style=3D"margin: 16px 0;">One reason that founders will have=
+ more power is that money is more plentiful:</p><blockquote><p style=3D"mar=
+gin: 16px 0;">We hypothesize that one determinant of dual-class structures =
+is the relative bargaining power of investors versus founders. When founder=
+s have greater bargaining power due to greater availability of investment c=
+apital, they are more likely to be able to negotiate for greater control ri=
+ghts at the time of IPO, and thus the firm is more likely to adopt a dual-c=
+lass structure. This theory is particularly appropriate for explaining the =
+controlling power of dominant founders in software companies, such as Faceb=
+ook and Snap. As argued by Goshen &amp; Hamdani (2015), such founders place=
+ high value on the ability to pursue their visions.</p><p style=3D"margin: =
+16px 0;">To test the bargaining hypothesis, we construct two proxies for th=
+e founders=E2=80=99 relative bargaining power at the time the firm goes pub=
+lic. The first is the amount of late-stage VC investment at the industry le=
+vel in the year before the IPO. The second is the amount of dry powder in t=
+he industry, defined as the amount of funds raised, but not yet invested, b=
+y VC firms. Both proxies reflect the notion that when private financing is =
+readily available, it serves as an alternative to going public (Ewens &amp;=
+ Farre=E2=80=93Mensa, 2018). Greater amounts of available funding lead to =
+=E2=80=9Cmoney chasing deals,=E2=80=9D which in turn leads to a rise in val=
+uations in the private market. More plentiful funding allows founders to ne=
+gotiate for greater control rights in a public offering relative to what mi=
+ght be available in a tighter financing environment.</p><p style=3D"margin:=
+ 16px 0;">Consistent with our hypothesis, we show that these proxies for ba=
+rgaining power are positively related to founders=E2=80=99 control and the =
+wedge between founders=E2=80=99 voting and economic rights. In contrast, th=
+e bargaining power proxies do not predict dual-class structures in which th=
+e controller is not the founder.=C2=A0</p></blockquote><p style=3D"margin: =
+16px 0;">Another reason that founders will have more power is that they=C2=
+=A0<em>need=C2=A0</em>less money: The hot businesses that go public are oft=
+en less capital-intensive than they used to be.</p><blockquote><p style=3D"=
+margin: 16px 0;">We exploit the introduction of cloud computing in 2006, wh=
+ich reduced the costs of operations for startups in industries such as soft=
+ware, finance, leisure, and services =E2=80=93 collectively =E2=80=9CCloud=
+=E2=80=9D industries (Ewens, Nanda and Kropp Rhodes 2018). As a result, sta=
+rtups in these industries became less reliant on VC funding, increasing the=
+ relative bargaining power of their founders vis-=C3=A0-vis their investors=
+. We show that following the introduction of cloud computing, firms in Clou=
+d industries became more likely to adopt dual-class structures that give gr=
+eater control to founders, particularly for VC-backed IPOs. This finding is=
+ consistent with a diminution in the governance role of VC firms over time =
+(Lerner &amp; Nanda 2020) and anecdotal evidence that VC firms have become =
+more deferential to entrepreneurs in the software industry.</p></blockquote=
+><p style=3D"margin: 16px 0;">If you don=E2=80=99t need much money, and the=
+re=E2=80=99s lots of money available, you don=E2=80=99t have to give up muc=
+h control to get it.</p><h2 style=3D"font-weight: bold; font-family: &quot;=
+Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: -1px; font=
+-size: 20px; border-bottom-width: 1px; border-bottom-style: dotted; padding=
+-bottom: 5px; margin-top: 30px; margin-bottom: 0;">Good business model</h2>=
+<p style=3D"margin: 16px 0;">The internet contains a lot of sites that publ=
+ish unverified negative information about people, search-engine-optimized =
+=E2=80=9Cgripe sites=E2=80=9D about people who cheat on their partners or d=
+o other bad stuff.=C2=A0The internet also contains lots of =E2=80=9Creputat=
+ion management=E2=80=9D companies that promise to remove posts about people=
+ from gripe sites: If you pay the reputation management company thousands o=
+f dollars, it promises to scrub negative information about you from the gri=
+pe sites.</p><p style=3D"margin: 16px 0;">There are obvious synergies: If y=
+ou run a gripe site, and I run a reputation management company, we can ente=
+r into an arrangement where=C2=A0you can increase my sales=C2=A0(by publish=
+ing slander about people, and running ads for my reputation management comp=
+any next to the slanders) and make my job easier (by taking down the slande=
+rs when I ask you to), and I can provide you with revenue (by paying you a =
+cut of my fees when you take down the slanders).</p><p style=3D"margin: 16p=
+x 0;">This synergy is so obvious that, <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/23656910.289653/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vaW50ZX=
+JhY3RpdmUvMjAyMS8wNC8yNC90ZWNobm9sb2d5L29ubGluZS1zbGFuZGVyLXdlYnNpdGVzLmh0b=
+Ww/607f07ceef4b8524a319a23cB5f03f678" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;">the New York Times reports</a>, the norm in the=
+ industry appears to be for the gripe sites to be affiliated with the reput=
+ation management companies. The synergy is also =E2=80=A6=C2=A0I mean, is i=
+t extortion? It=E2=80=99s extortion-esque, right? It has obvious similariti=
+es to extortion? Pleasingly the Times asked a reputation manager this quest=
+ion, and she, uh:</p><blockquote><p style=3D"margin: 16px 0;">Ms. Glosser c=
+harges $750 or more per post removal, which adds up to thousands of dollars=
+ for most of her clients. To get posts removed, she said, she often pays an=
+ =E2=80=9Cadministrative fee=E2=80=9D to the gripe site=E2=80=99s webmaster=
+. We asked her whether this was extortion. =E2=80=9CI can=E2=80=99t really =
+give you a direct answer,=E2=80=9D she said.</p></blockquote><p style=3D"ma=
+rgin: 16px 0;">Yeah, no, I can see how it would be hard for her to give a d=
+irect answer.=C2=A0</p><h2 style=3D"font-weight: bold; font-family: &quot;A=
+rial Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: -1px; font-=
+size: 20px; border-bottom-width: 1px; border-bottom-style: dotted; padding-=
+bottom: 5px; margin-top: 30px; margin-bottom: 0;">Good communication strate=
+gy</h2><p style=3D"margin: 16px 0;">I am mostly going to quote this because=
+ it is funny, though I suppose I can justify its inclusion in a financial n=
+ewsletter by saying that, if you are running a competitive auction in a mer=
+gers-and-acquisitions situation, you might study the telephone work of=C2=
+=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/23656910.289653=
+/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wNC8yMi9zcG9ydHMvc29jY2VyL3N1cGVyLW=
+xlYWd1ZS1zb2NjZXIuaHRtbA/607f07ceef4b8524a319a23cBef4a038f" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: solid; background-color: #ccc;">industrialist and soccer =
+magnate Andrea Agnelli</a>. Agnelli was planning to announce the European S=
+uper League, which was expected to be a devastating blow to Europe=E2=80=99=
+s existing soccer organization (UEFA, the Union of European Football Associ=
+ations), led by Aleksander Ceferin:</p><blockquote><p style=3D"margin: 16px=
+ 0;">Ceferin =E2=80=94 the godfather to Agnelli=E2=80=99s youngest child =
+=E2=80=94 texted the Italian=E2=80=99s wife and asked if she might get the =
+Juventus president to call him urgently. He was three hours into his journe=
+y when his cellphone rang. Breezily, Agnelli reassured Ceferin, again, that=
+ everything was fine.</p><p style=3D"margin: 16px 0;">Ceferin suggested the=
+y issue a joint communiqu=C3=A9 that would put the issue to rest. Agnelli a=
+greed. Ceferin drafted a statement from the car and sent it to Agnelli. An =
+hour later, Agnelli asked for time to send back an amended version. Hours p=
+assed. The men traded more calls. Eventually, the Italian told Ceferin he n=
+eeded another 30 minutes.</p><p style=3D"margin: 16px 0;">And then Agnelli =
+turned off his phone.</p></blockquote><p style=3D"margin: 16px 0;">If you w=
+ant to ascend to the highest levels of business, it probably helps to have =
+an absolutely preternatural ability to string people along and then turn of=
+f your phone.</p><h2 style=3D"font-weight: bold; font-family: &quot;Arial B=
+lack&quot;, Arial, Helvetica, sans-serif; letter-spacing: -1px; font-size: =
+20px; border-bottom-width: 1px; border-bottom-style: dotted; padding-bottom=
+: 5px; margin-top: 30px; margin-bottom: 0;">K thn</h2><p style=3D"margin: 1=
+6px 0;">Sr <a href=3D"https://link.mail.bloombergbusiness.com/click/2365691=
+0.289653/aHR0cHM6Ly93d3cuc3RhbmRhcmRsaWZlYWJlcmRlZW4uY29tL2VuL3NsYS10by1iZW=
+NvbWUtYWJyZG4/607f07ceef4b8524a319a23cB65ff7a6a" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">wh nt</a>:</p><blockquote><p style=
+=3D"margin: 16px 0;">Standard Life Aberdeen plc ("the Company") today annou=
+nces its intention to change its name to "Abrdn plc". The new Abrdn name (p=
+ronounced =E2=80=9CAberdeen=E2=80=9D) will be part of a modern, agile, digi=
+tally-enabled brand that will also be used for all the Company's client-fac=
+ing businesses globally.</p><p style=3D"margin: 16px 0;">The new brand iden=
+tity marks the next stage in the reshaping of the business and future-focus=
+ed growth strategy. The Company is focused on three interrelated growth vec=
+tors: global asset management (Investments), technology platforms for UK fi=
+nancial advisers and their customers (Adviser), and UK savings and wealth (=
+Personal).</p><p style=3D"margin: 16px 0;">The rebranding roll-out process =
+for the new name and associated visual identity will begin in the summer an=
+d progress through 2021, alongside implementation of a full stakeholder eng=
+agement plan to manage the transition.</p></blockquote><p style=3D"margin: =
+16px 0;">Doesn=E2=80=99t it feel like April Fools=E2=80=99 Day lasts for mo=
+nths now? It=E2=80=99s a spectacular piece of work. =E2=80=9CPronounced =E2=
+=80=98Aberdeen=E2=80=99=E2=80=9D might be my favorite part, though they sho=
+uld have gone all out and said =E2=80=9Cpronounced =E2=80=98Standard Life A=
+berdeen plc.=E2=80=99=E2=80=9D=C2=A0But I am also very fond of =E2=80=9Cmod=
+ern, agile, digitally-enabled brand,=E2=80=9D =E2=80=9Cfocused on three int=
+errelated growth vectors=E2=80=9D and =E2=80=9Calongside implementation of =
+a full stakeholder engagement plan to manage the transition.=E2=80=9D It mu=
+st be weird to be a portfolio manager at Standard Life Aberdeen, managing h=
+undreds of millions of dollars of investments on behalf of customers, and c=
+ome in to work one day to find that, instead of an=C2=A0investment company,=
+ you actually=C2=A0work at a =E2=80=9Cmodern, agile, digitally-enabled=C2=
+=A0brand=E2=80=9D with 75% fewer vowels.=C2=A0I was sorely tempted to write=
+ this paragraph without vowels too but held off, you=E2=80=99re welcome.</p=
+><h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Aria=
+l, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bot=
+tom-width: 1px; border-bottom-style: dotted; padding-bottom: 5px; margin-to=
+p: 30px; margin-bottom: 0;">Sure, right, yes</h2><p style=3D"margin: 16px 0=
+;"><a href=3D"https://link.mail.bloombergbusiness.com/click/23656910.289653=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDQtMjQvY3J5cH=
+RvLWhvbGRlcnMtc2F5LWl0LXMtaHVydC10aGVpci1wZXJzb25hbC1yZWxhdGlvbnNoaXBz/607f=
+07ceef4b8524a319a23cB0111946b" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> I mean</a>:</p><blockquote><p style=3D"margin: 16px 0=
+;">About 60% of crypto investors say their belief or investments in the spa=
+ce have had a negative impact on their personal relationships, according to=
+ a SurveyMonkey survey performed on behalf of .Tech Domains that looked at =
+numerous issues around digital assets. What=E2=80=99s more, there=E2=80=99s=
+ a direct correlation between the percentage of someone=E2=80=99s net worth=
+ that=E2=80=99s invested in cryptocurrencies and the likelihood they say th=
+eir personal relationships have been impacted negatively.</p></blockquote><=
+p style=3D"margin: 16px 0;">Meanwhile zero percent of my net worth is inves=
+ted in crypto and I am universally beloved.</p><h2 style=3D"font-weight: bo=
+ld; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; let=
+ter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; border-bottom=
+-style: dotted; padding-bottom: 5px; margin-top: 30px; margin-bottom: 0;">T=
+hings happen</h2><p style=3D"margin: 16px 0;">New <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/23656910.289653/aHR0cHM6Ly93d3cuc2VjLmdvdi9=
+lZGdhci9zZWFyY2hlZGdhci9jb21wYW55c2VhcmNoLmh0bWw/607f07ceef4b8524a319a23cB5=
+180262d" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;">E=
+dgar</a> dropped. Wall Street Banks Say Time for <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/23656910.289653/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDQtMjMvd2FsbC1zdHJlZXQtYmFua3Mtc2F5LXRpbWU=
+tZm9yLWxvYW4tbWFya2V0LXRvLWRpdGNoLXRoZS1mYXg/607f07ceef4b8524a319a23cBc2dc1=
+059" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Loan=
+ Market</a> to Ditch the Fax. Carlyle CEO Kewsong Lee <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/23656910.289653/aHR0cHM6Ly93d3cud3NqLmN=
+vbS9hcnRpY2xlcy9jYXJseWxlLWNlby1rZXdzb25nLWxlZS1wbG90cy1yZWJvdW5kLWZvci1wcm=
+l2YXRlLWVxdWl0eS1waW9uZWVyLTExNjE5MzUyMDAxP21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f=
+07ceef4b8524a319a23cBb9c3998e" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">Plots Rebound</a> for Private-Equity Pioneer. Bill Hwa=
+ng=E2=80=99s Implosion Bruises <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/23656910.289653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydG=
+ljbGVzLzIwMjEtMDQtMjQvYmlsbC1od2FuZy1zLWltcGxvc2lvbi1icnVpc2VzLWJpbGxpb25ha=
+XJlLXRlYWNoZXItZnJvbS1jaGluYQ/607f07ceef4b8524a319a23cB6c9a3f78" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> Billionaire Teach=
+er From China</a>. A Hedge Fund, a Jewish School and $1.1 Billion in <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/23656910.289653/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDQtMjMvYS1oZWRnZS1mdW5=
+kLWEtamV3aXNoLXNjaG9vbC1hbmQtMS0xLWJpbGxpb24taW4tY3VtLWV4LXRyYWRlcw/607f07c=
+eef4b8524a319a23cB5211ae4b" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> Cum-Ex Trades</a>. Is it a <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/23656910.289653/aHR0cHM6Ly9yZWFzb24uY29tL3ZvbG9=
+raC8yMDIxLzA0LzIzL2lzLWl0LWEtZmVkZXJhbC1jcmltZS1mb3ItYS11bml2ZXJzaXR5LXRvLX=
+N1Ym1pdC1mYWtlLW51bWJlcnMtdG8tdS1zLW5ld3MtdG8tY2hhbmdlLWl0cy1yYW5raW5nLw/60=
+7f07ceef4b8524a319a23cBe94075ea" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">Federal Crime</a> for a University to Submit Fake Nu=
+mbers to U.S. News to Change Its Ranking? Hedge Fund Manager Accused of Bil=
+king Clients for <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+3656910.289653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEt=
+MDQtMjMvaGVkZ2UtZnVuZC1tYW5hZ2VyLWFjY3VzZWQtb2YtYmlsa2luZy1jbGllbnRzLWZvci1=
+yYWNlLWNhci1ob2JieQ/607f07ceef4b8524a319a23cBf0dff1a4" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> Race Car Hobby</a>. Man fills=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/23656910.289653/a=
+HR0cHM6Ly9ueXBvc3QuY29tLzIwMjEvMDQvMjIvbWFuLWZpbGxzLWJvd2xpbmctYmFsbC13aXRo=
+LWRhZHMtYXNoZXMtYm93bHMtcGVyZmVjdC1nYW1lLw/607f07ceef4b8524a319a23cB01d24f8=
+f" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">bowling=
+ ball</a> with father=E2=80=99s ashes =E2=80=94 then rolls perfect game.=C2=
+=A0For <a href=3D"https://link.mail.bloombergbusiness.com/click/23656910.28=
+9653/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wNC8yMi93b3JsZC9hc2lhL3RhaXdhbi=
+1tYXJyaWFnZS1sZWF2ZS1zY2FtLmh0bWw_c210eXA9Y3VyJnNtaWQ9dHctbnl0aW1lcw/607f07=
+ceef4b8524a319a23cB2ddd94b1" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">Extra Days Off</a>, Officials Say, Couple Had 4 Weddings=
+ and 3 Divorces. Japanese man arrested after dating 35 women at the same ti=
+me in bid to '<a href=3D"https://link.mail.bloombergbusiness.com/click/2365=
+6910.289653/aHR0cHM6Ly9uZXdzLnlhaG9vLmNvbS9qYXBhbi1tYW4tYXJyZXN0ZWQtZGF0aW5=
+nLTM1LTE1MjkzNTUwNS5odG1s/607f07ceef4b8524a319a23cBebe9c505" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">get birthday presents</a=
+>.' A woman =E2=80=9Csang Fleetwood Mac=E2=80=99s =E2=80=98Landslide=E2=80=
+=99 during her <a href=3D"https://link.mail.bloombergbusiness.com/click/236=
+56910.289653/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jb21wYW55LXRhbGVudC1jb2=
+50ZXN0cy1lbXBsb3llZS10YWxlbnQtc2hvdy0xMTYxOTEwNTYwNg/607f07ceef4b8524a319a2=
+3cB4f91ae51" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">company=E2=80=99s recent talent show</a> while accompanying herself on t=
+he ukulele.=E2=80=9D Elon Musk <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/23656910.289653/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjEvMDQvMjQvdGVzbG=
+EtY2VvLWVsb24tbXVzay1zZXQtdG8taG9zdC1zbmw/607f07ceef4b8524a319a23cBf7af0f5b=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">will hos=
+t</a> =E2=80=9CSaturday Night Live.=E2=80=9D</p><p style=3D"margin: 16px 0;=
+"><span class=3D"news-designed-for-consumer-media"><em>If you'd like to get=
+=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, pleas=
+e=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/23656910.28=
+9653/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZX=
+lzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07=
+ceef4b8524a319a23cB2df815ac" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">subscribe =
+at this link</a>. Or you can subscribe to Money Stuff and other great Bloom=
+berg newsletters <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+3656910.289653/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07c=
+eef4b8524a319a23cBbf2853b5" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">here</a>. Thanks!</em></span></p><p style=3D"margin: 16px=
+ 0;"><em>[1] For comparison, Amazon.com Inc. hit a $900 million market cap =
+in September 1997 and crossed $11.5 billion in December 1998. So Jeff Bezos=
+ accomplished this feat faster than Sherman. But that is a high bar. Tesla =
+took almost=C2=A0three years to go from a $1.7 billion valuation at its ini=
+tial public offering to $11.5 billion.</em></p><p style=3D"margin: 16px 0;"=
+><em>[2] Er, generally, 20% of the SPAC. So if the company raises $100 mill=
+ion by distributing 10 million shares to public SPAC shareholders, the spon=
+sor will generally get 2.5 million shares (20% of 12.5 million total shares=
+ distributed). This is not set in stone but is common.</em></p><p style=3D"=
+margin: 16px 0;"><em>[3]=C2=A0That fee seems more standard in SPACs than it=
+ is in IPOs, though there is some variation; Pershing Square Tontine Holdin=
+gs <a href=3D"https://link.mail.bloombergbusiness.com/click/23656910.289653=
+/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE4MTE4ODIvMDAwMTE5Mz=
+EyNTIwMTk3Nzc2L2Q5MzAwNTVkNDI0YjQuaHRt/607f07ceef4b8524a319a23cB8e72bbcc" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">paid 4.6%</=
+a>. But in other big-name SPACs, 5.5% seems to be the norm; e.g. here is <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/23656910.289653/aHR0=
+cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE4MTEyMTAvMDAwMTEwNDY1OTI=
+wMDg4NDQxL3RtMjAyMDY0Ny0xNV80MjRiNC5odG0/607f07ceef4b8524a319a23cB0f7ab4ee"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">Churchill=
+ Capital Corp IV</a>, or <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/23656910.289653/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRh=
+LzE4MTg4NzMvMDAwMTEwNDY1OTIwMTE0NTE4L3RtMjAyNTU5Mi0xMV80MjRiNC5odG0/607f07c=
+eef4b8524a319a23cB96158002" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">Social Capital Hedosophia Holdings Corp. VI</a>. The bank=
+=E2=80=99s fee is paid partly up front and partly when the SPAC closes its =
+acquisition.</em></p><p style=3D"margin: 16px 0;"><em>[4] Of course =E2=80=
+=9Cthe view that blank-check companies democratize finance=E2=80=9D is sill=
+y, but I don=E2=80=99t actually believe that it=E2=80=99s commonly held. I =
+think it=E2=80=99s just a thing that SPAC sponsors say sometimes, but that =
+no one believes.=C2=A0</em></p><p style=3D"margin: 16px 0;"><em>[5] The the=
+ory I link to, which we discussed a couple of weeks ago, is =E2=80=A6=C2=A0=
+very aggressive =E2=80=A6=C2=A0but you could have other theories along the =
+lines of =E2=80=9Cthe SPAC *knew* that its projections were false," and I t=
+hink you will at least sometimes have something to work with.</em></p>
+</td>
+</tr>
+</table>
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; border-right-wi=
+dth: 10px; border-right-color: white; border-right-style: solid; padding: 9=
+px 0;">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23656910.289653/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB92d82ced" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iSTidtzUTVno/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23656910.289653/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB99d22e77" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ivgKTIiTGA3M/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23656910.289653/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBfcf6abe9" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iD_P6YIGeql4/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; border-left-wid=
+th: 10px; border-left-color: white; border-left-style: solid; padding: 9px =
+0;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/23656910.289653/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBafde39cb" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout">
+<tbody>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+<tr>
+<td class=3D"tout-label"></td>
+</tr>
+<tr>
+<td class=3D"tout-text"><p><em><strong>Like Money Stuff?</strong></em>=C2=
+=A0|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2365=
+6910.289653/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3V=
+yY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cB52ce5ffc" itemprop=3D"StoryLink" itemscope=3D"items=
+cope">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p>Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Termin=
+al.=C2=A0Find out more about how the Terminal delivers information and anal=
+ysis that financial professionals can=E2=80=99t find anywhere else.=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/15638356.78421/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRl=
+cm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn more</a>.</p></td>
+</tr>
+<tr>
+<td height=3D"20">=C2=A0</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" id=3D"footer" width=3D"100%" align=3D"center" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; padding-bottom: 10px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> You received this mess=
+age because you are subscribed to Bloomberg's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/23656910.289653/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCce3a675d" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/23656910.289653/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBcdabb339" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/23656910.289653/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBc3e7873e" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</td>
+</tr>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ce31se.67hx/17c2d2f0.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_52270208_423244712.1619456220188--
+

@@ -1,0 +1,2325 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp2442060rwb;
+        Mon, 17 Apr 2023 11:57:53 -0700 (PDT)
+X-Received: by 2002:a7b:c7d6:0:b0:3ed:3268:5f35 with SMTP id z22-20020a7bc7d6000000b003ed32685f35mr11398864wmk.18.1681757873312;
+        Mon, 17 Apr 2023 11:57:53 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1681757873; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=lzrhs2u82n+RC/T2OBLtZyCxmuyuCFXCszF+N4V0I+Jaw0cxunXwlIWG76QeHvJhZv
+         QEWhTVvm8/60IEcDvAU6VlK1GGrYynxifyCQHIuFma7BIoamPwXr5PSXculwWlY8pRkF
+         rQeZFmForpzgPEllJZf/ZnplrlXUTejJMLFw73E2JymjhgeaBp856ShK15uI56wEd15h
+         Pc1bIfTS8evZvyiMT7nedFAC5ZhTXqyI1Pzo/CIH/Dw+UmTrsajIyMzMJ5EJzlU93JTu
+         n78mJN62zsbU47Yi8iXuzUBoVu3T5bXFhRcveHGVERoXLY0WqSxBDEOm4TJZl03dXcSd
+         gBtA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=MGTgOMNuhYoD+Vk8aH13oJScVC5kHB+6XH4rY5kr2J0=;
+        b=f218cjN/Npc5baqR46tmrrtxltBkcn9CyF6pFKOjt5I4tHmMBjxF1AnuojJ6/1KyqC
+         eNPn9LfAK/QjNte829CX7FLEa7oucil9TmwBVLtPLXxCoxaNdxbMGXqHbKwEKkHnTa0R
+         qsBn3LEIUaTlMhpJYUV1tlhfYXT62hYGw39L4GL1KbxCcvvyFyjdzqkg8g5zFNs5z/re
+         +TJzEJ/t7WDhBpCHGFZDvRLzdFWI7obqByh02uME4lfK4NCOThflG6GV4Jo0az0tHIiF
+         FTG/SyErPwbdMKAZ/9a6e26IKtvKWeg+oYki7z6ZUz81GTBbqgfe5afViJB4cPQpH2k0
+         vReg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=b33SFU1f;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id x10-20020a05600c21ca00b003f1757f69acsor719993wmj.19.2023.04.17.11.57.53
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 17 Apr 2023 11:57:53 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=b33SFU1f;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1681757873; x=1684349873;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=MGTgOMNuhYoD+Vk8aH13oJScVC5kHB+6XH4rY5kr2J0=;
+        b=RoH6wbPwYpQ2VsVDx0G1N7sQUnzcYizcz7jablnfnjbD52kKK8sxI8FqXIgoeDJSUw
+         wjJi3oqU2aYoexw1UZcR6z4j4xQwYH6YbwVY164qDXWPmJIQC1LUr+WW0rilpnNIso1L
+         5seBrjUm30J1sNbWQE4MCESMGpE8mahWdpeA++HF9mM1M/WglLmonxkJUK+YaC1GC5Lf
+         iYGThYKJsRKrfjF/9kGhyU8wJO2mpeg/uNfF1+CWTMpz+wcxs4UbtZ9MQoOFsL3JjqCB
+         tDU1jQQH0ZyHqmG4AIFqWt76itc3BW67G5eqnu2wABedm1nGyhZaehLeHuMp04vp7B80
+         8uMg==
+X-Gm-Message-State: AAQBX9eKsPVP9VMM2j6S+BQZhnVUEXV7B2btNBNSwUVoe9z45ig0qcdH
+	sJq7ZgT1kOkQJbKA+qC8PduFMDCoW9Qk9gkg0fSeKaI0mknu+EZVFw==
+X-Received: by 2002:a7b:cbcc:0:b0:3f1:68cb:5f2a with SMTP id n12-20020a7bcbcc000000b003f168cb5f2amr1484938wmi.8.1681757872762;
+        Mon, 17 Apr 2023 11:57:52 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:ee03:0:0:0:0:0 with SMTP id y3csp1813152wrn;
+        Mon, 17 Apr 2023 11:57:48 -0700 (PDT)
+X-Received: by 2002:a2e:be9a:0:b0:2a8:c277:7ad1 with SMTP id a26-20020a2ebe9a000000b002a8c2777ad1mr1458863ljr.10.1681757868795;
+        Mon, 17 Apr 2023 11:57:48 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1681757868; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=yqOFPl+i86zu+utxsMYso7VyJmnWxFyGdnXdZFlsF3CsLnqKJ2NUYEGhIhY0sMShcP
+         1pCxv8xP/sfk22mYzVA9M7RA04fDuiWtuNSpesDO9DlFFADje0fwZ5umIRsBpjdQM1b8
+         +29tLrQmjq9ttvR7s3vzhxbMNTeHxY+8uEBrUgOydwiVOKNE7MpBH86b3kvYoOKt4tbY
+         BEFIw4at8/5jdSL8jHOeh5fOEkyoTS6zgec9m8MSPuXigUBLxvA7D5g0KbM8cA0wSES2
+         //A4YstNH9U8927wyQXXR99YK193tbvF1opEP6Jmj9wxVRa2wy/VQ/7vKAjftNzupwq/
+         3kpg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=MGTgOMNuhYoD+Vk8aH13oJScVC5kHB+6XH4rY5kr2J0=;
+        b=XGvW58ynsSiBAchaygzd/Pd/rc7S604wEjeozb6EdvgYkGNBJePeeRfcSUJbv/dLsr
+         bWPfZmZFn/EC11mFvS9w4iBuwDpUO+4Fjljgh6yd8bt2JVw4CtEICvTjBm7bfdwqAuTZ
+         DgaZe73MURVFdd+D+xg+7p8zp2efxscBBum8vYcigfWPnBWCuwrDhERSCNICsXKRO7gn
+         zlbPest6e2nH53jpkxXK87ySSfF7A2s9UApy+Fb/hOtBooKxl3m6N5B+9OFAMWvPjb8j
+         Jk3u1npXXtVYxucm+vQ0XF1olYiO4G/304xfy4HfV4InwmNmQG3IY/8hG+5Q0/K4w9U6
+         pYsA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=b33SFU1f;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230417145653.31193834.260451@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230417145653.31193834.260451@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230417145653.31193834.260451@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id a13-20020a2eb16d000000b002a8d1a4454esor691457ljm.56.2023.04.17.11.57.48
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 17 Apr 2023 11:57:48 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230417145653.31193834.260451@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AKy350YtAt6O6m8wFXvC6jG31yG+PO1YxP0Py+mmp/GwqqPidnomDVm6wdoqxGc5QEzvSwVbm96/KImMluDMS/gnEcO9AMRUdnQ=
+X-Received: by 2002:a2e:9c08:0:b0:2a2:ac00:4de4 with SMTP id s8-20020a2e9c08000000b002a2ac004de4mr3956936lji.22.1681757868362;
+        Mon, 17 Apr 2023 11:57:48 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1681757868; cv=none;
+        d=google.com; s=arc-20160816;
+        b=yPJhn8jv+H5FHNUkzOqKaMaRbmaSRzfzdHWk9xscDb24HValcT1nWWVTN5Pd5iZgmE
+         TQ7ZFZOAFPA34T/M6t0agnUxnl20llm8plnoXqutLovttTDYjbaNdZG9gLZlB0D9d7/N
+         P1w4ZTlshoLKvRVcwx0Llqlrc27zrhsJS/qKWjHJ/3DQSE1Sr004OuceGTVbWjzzR4Sa
+         wwrdGmIy2SNMWhZTSBLtV0JpaeYCj7gsWep0hJDnvKgHIDx+ulH5tCLFBe1lO9XHw5/n
+         SK71N4T6ROecJNfS84I1YYkqGpRpTv7WsB8vjqVjOUpVqp56Cj11C0+4OGJ38aLKr2Gk
+         dXAw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=MGTgOMNuhYoD+Vk8aH13oJScVC5kHB+6XH4rY5kr2J0=;
+        b=rFLojulMKKvPleqQjsS1nPFTWE2YsYmJPvxfPJTspKNCjLT+c3ST8H/X68+ZqcncX+
+         R+5VirFuvuxqzd9L+BoxNQ1z0mhL7d3jV20HfumEWDajMxij9cXFmcH3udlJpOHMl4Rb
+         Hec2K3Dv2Ctr0fUfxio28bATNAR4hsxcAzi7iyWivGMX7pc3pNqYUcaVQdZk7atFG/lg
+         Yss7+HxZSFDl+j7VkwXmEiYana/H6lQw8raZdzU5BBnXeS4c5DJ/eg5I72nUv8f3xmEb
+         IoV6xYnfGo4HDPoQeXjpLjxJy4mAEJlxJASqWmM9l1EZ8j7cDInrobQS7TBKKXCuPbOz
+         6M2w==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=b33SFU1f;
+       spf=pass (google.com: domain of delivery_20230417145653.31193834.260451@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230417145653.31193834.260451@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230417145653.31193834.260451@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id a33-20020a2ebea1000000b002a763482613si573470ljr.6.2023.04.17.11.57.47
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 17 Apr 2023 11:57:48 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230417145653.31193834.260451@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=BYD8Gpdte7K20GfMTmXv1M0Pa+SxINHCaUmtW/nI4zM=;
+ b=b33SFU1fxpRmWqEv2c0IDIWu4Sy5aWReyi/OVnkf8sMWX3//Ap6pjKjiQczk3hk/IrhWUOk3Ydsq
+   U+tCjmcz6/9HtxvYHdN3uS/bD9clzNRaEdJ5YY0Zb4wat7c8oDGjNxnsfT1+z6bxwG3LlD1DaQgX
+   4HWi1Mw4CyrRJSm1Zfw=
+Received: from mtast-04.sailthru.com (204.153.121.10) by pmta29.sailthru.com id h7mbak2sd4su for <bloomberg@khamel.com>; Mon, 17 Apr 2023 14:57:46 -0400 (envelope-from <delivery_20230417145653.31193834.260451@mx.sailthru.com>)
+Received: from nj1-heypurple.flt (172.18.20.12) by mtast-04.sailthru.com id h7mbak1s6j0t for <bloomberg@khamel.com>; Mon, 17 Apr 2023 14:56:53 -0400 (envelope-from <delivery_20230417145653.31193834.260451@mx.sailthru.com>)
+Date: Mon, 17 Apr 2023 14:56:53 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230417145653.31193834.260451@sailthru.com>
+Subject: Money Stuff: The SEC Comes for Bittrex
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_39985697_897913030.1681757813344"
+Precedence: bulk
+X-Feedback-ID: 6358:31193834:campaign:sailthru
+X-TM-ID: 20230417145653.31193834.260451
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-heypurple.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ciklbe.5kyr/a76b3870
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ciklbe.5kyr/a76b3870>, <mailto:unsubscribe_20230417145653.31193834.260451@mx.sailthru.com>
+X-rpcampaign: stjko31193834
+
+------=_Part_39985697_897913030.1681757813344
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        The basic rule in the US is that, if you operate a stock exchange, =
+you need to register with the US Securities and Exchange Commission as a=20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Bittrex
+   =20
+ =20
+
+The basic rule in the US is that, if you operate a stock exchange, you need=
+ to register with the US Securities and Exchange Commission as a national s=
+tock exchange. This comes with a lot of oversight; in particular, the rules=
+ of your exchange have to be published and transparent and approved by the =
+SEC.
+I suppose you could debate what qualifies as a stock exchange. Roughly, an =
+exchange is a venue for bringing together buyers and sellers of stock so th=
+ey can trade with each other, but in modern finance there are gray areas. T=
+here are some things that look sort of like stock exchanges =E2=80=94 dark =
+pools,=C2=A0alternative trading systems=C2=A0=E2=80=94 that are not actuall=
+y registered as stock exchanges. But they are=C2=A0registered with the SEC=
+=C2=A0too, and the SEC also supervises their operations. For that matter th=
+ere are stockbrokers: A broker=E2=80=99s website and mobile app can look an=
+d feel a bit like a stock exchange, to a retail customer; you can log onto =
+Robinhood and see prices and buy and sell stock. But  there are rules disti=
+nguishing brokers from exchanges (a broker mostly does not provide a platfo=
+rm for people to trade with each other, but routes orders to other market v=
+enues), and anyway broker-dealers are=C2=A0also=C2=A0registered with the SE=
+C. Also stock=C2=A0clearinghouses=C2=A0(which settle trades, moving stock f=
+rom the seller to the buyer) have to register.=C2=A0Basically any stock-exc=
+hange-like thing has to register with the SEC.
+Now, these are not really rules about=C2=A0stock=C2=A0exchanges; technicall=
+y the rules are about=C2=A0securities, not stocks. If you run an exchange-l=
+ike thing for trading securities =E2=80=94=C2=A0stocks, bonds, options, etc=
+. =E2=80=94=C2=A0you have to register with the SEC.
+There are crypto exchanges in the US. They operate as exchanges (venues for=
+ bringing together buyers and sellers), and also often as clearinghouses (t=
+hey move tokens from sellers to buyers
+  [1]
+). They are not generally registered with the SEC as securities exchanges (=
+or ATSs, or clearinghouses).=C2=A0They offer trading in crypto tokens. Some=
+ of those tokens =E2=80=94=C2=A0Bitcoin, Ether =E2=80=94=C2=A0are not secur=
+ities.
+  [2]
+=C2=A0But the SEC takes the view =E2=80=94=C2=A0in speeches, in various enf=
+orcement actions =E2=80=94=C2=A0that almost all of them are securities.=C2=
+=A0
+This means that most crypto exchanges that operate in the US are probably, =
+in the SEC=E2=80=99s view, breaking the law. I assert this pretty confident=
+ly based on my reading of the SEC=E2=80=99s whole vibe, but the SEC has not=
+ really come out and said it directly, by, you know, bringing enforcement c=
+ases against crypto exchanges. It has come close. Last year it brought an i=
+nsider trading case against a former Coinbase Global Inc. employee, accusin=
+g him of insider trading some tokens that Coinbase listed; the SEC claimed =
+that these tokens were securities, and  I tweeted =E2=80=9CThis is a weird =
+way for the SEC to say that Coinbase is running an illegal securities excha=
+nge?=E2=80=9D Last month the SEC   sent a Wells notice to Coinbase, basical=
+ly telling Coinbase that it is=C2=A0going=C2=A0to bring charges against it =
+for operating an illegal securities exchange. But not yet.
+Today  the SEC brought charges against Bittrex Inc. for allegedly operating=
+ an illegal securities exchange:
+
+The Securities and Exchange Commission today charged crypto asset trading p=
+latform Bittrex, Inc. and its co-founder and former CEO William Shihara for=
+ operating an unregistered national securities exchange, broker, and cleari=
+ng agency. ...
+Since at least 2014, Bittrex has held itself out as a platform that facilit=
+ated buying and selling of crypto assets that the SEC=E2=80=99s complaint a=
+lleges were offered and sold as securities. From 2017 through 2022, Bittrex=
+ earned at least $1.3 billion in revenues from, among other things, transac=
+tion fees from investors, including U.S. investors, while servicing them as=
+ a broker, exchange, and clearing agency without registering any of these a=
+ctivities with the Commission.
+
+Here is  the SEC=E2=80=99s complaint, which is=C2=A0straightforward. Bittre=
+x is an exchange (and a broker, and a clearinghouse). It lists a bunch of t=
+okens. Some of them, in the SEC=E2=80=99s view, are securities. =E2=80=9CFo=
+r purposes of prevailing on the Exchange Act claims set forth herein, the S=
+EC needonly establish that Bittrex transacted in a single crypto asset secu=
+rity,=E2=80=9D says the complaint, but then it goes on to list six crypto t=
+okens that the SEC is pretty sure are securities.
+Here again the argument is straightforward and familiar. The US Supreme Cou=
+rt  has said that a =E2=80=9Csecurity=E2=80=9D includes =E2=80=9Cthe invest=
+ment of money in a common enterprise with a reasonable expectation of profi=
+ts to be derived from the efforts of others.=E2=80=9D Lots and lots of cryp=
+to projects raised money from investors by promising to build some sort of =
+profitable product or ecosystem on the blockchain. The SEC cites some of th=
+em.
+
+Algorand is a blockchain protocol founded by Silvio Micali. The Algorand bl=
+ockchain uses a consensus algorithm it calls =E2=80=9Cpure proof-of-stake,=
+=E2=80=9D in which each user=E2=80=99s ability to influence the choice of a=
+ new block is proportional to its stake (number of tokens) in the system.
+=E2=80=9CALGO=E2=80=9D is the native token of the Algorand blockchain, and =
+has a maximum supply of 10 billion ALGO minted at the launch of the Algoran=
+d network. Because ALGO is the native token of the Algorand blockchain, tho=
+se utilizing the Algorand blockchain need to hold (and potentially stake) c=
+ertain amounts of ALGO.
+The Algorand Foundation Ltd. (the =E2=80=9CAlgorand Foundation=E2=80=9D) co=
+nducted an initial ALGO token sale on or about June 19, 2019, selling 25 mi=
+llion tokens at $2.40 per ALGO, raising approximately $60 million. =E2=80=
+=A6=C2=A0
+The publicly available information disseminated by Algorand, Inc. and the A=
+lgorand Foundation led ALGO investors to reasonably expect to profit from A=
+lgorand, Inc.=E2=80=99s and the Algorand Foundation=E2=80=99s efforts to gr=
+ow the Algorand protocol, which would in turn potentially increase demand f=
+or, and therefore the value of, the ALGO token itself. =E2=80=A6
+The Algorand Foundation described =E2=80=9CGovernance=E2=80=9D as a way for=
+ investors to make investment returns on their ALGO purchases=E2=80=94stati=
+ng it is =E2=80=9Ca decentralized program which allows Algo holders to vote=
+ on the future of Algorand=E2=80=9D and =E2=80=9Cthe best way to earn rewar=
+ds for holding Algo, with APY% of 10.02% - 14.05% seen in previous periods.=
+=E2=80=9D =E2=80=A6
+The Algorand, Inc. and Algorand Foundation websites tout their teams=E2=80=
+=99 technical experience and expertise in the areas of cryptography and bus=
+iness development. For example, Algorand, Inc.=E2=80=99s website states: =
+=E2=80=9CBlending technical mastery and professional stability, the Algoran=
+d team consists of internationally recognized researchers, mathematicians, =
+cryptographers, and economists along with proven business leaders from glob=
+al technology companies.=E2=80=9D
+
+None of this stuff even sounds particularly bad. But the bones of it are:
+=09Algorand (and lots of other crypto projects) raised money from investors=
+ to build its project.=09The investors expected to make money from their in=
+vestment in this enterprise.=09They expected to make this money because of =
+=E2=80=9Cthe efforts of others=E2=80=9D: The team promoting the project (an=
+d raising the money) was also going to build it, and the investors were hop=
+ing for a return because they thought the team would do a good job.
+
+That=E2=80=99s just stock. There=E2=80=99s a blockchain, sure, and the mech=
+anics of how ALGO tokens participate in the upside of the Algorand blockcha=
+in are somewhat different from the mechanics of how META shares participate=
+ in the upside of Meta Platforms Inc. But basically, the SEC says,=C2=A0thi=
+s is stock: You invest money in a team that is building a tech project, and=
+ if the project works out you get rich. Bittrex was offering this stock on =
+its exchange. So it should have registered as a stock exchange.
+The complaint also details that Bittrex kind of knew this:
+When deciding whether to include an asset on the Bittrex Platform, Bittrex =
+assessed whether the financial benefits of doing so outweighed the risk tha=
+t the asset in question would be subject to scrutiny by regulators, includi=
+ng specifically the SEC. For example, in or around March 2017, Shihara told=
+ the other Bittrex co-founders with regards to a particular crypto asset: =
+=E2=80=9Cthe problem is that its going to be seen by the SEC as a security.=
+ im meeting with these guys face to face to get specifics on how much they =
+want to raise, who they are raising it from, and what they expect the after=
+ market to be. its a big enough opportunity that we might want to roll the =
+dice on the sec investigation. we have a couple of paths forward but one id=
+ea was to have them take a position in bittrex and own the risk of an SEC i=
+nvestigation with us.=E2=80=9D
+And:
+
+To further its dual goals of making more crypto assets available on the Bit=
+trex Platform and avoiding regulatory scrutiny, starting in at least May 20=
+17, Bittrex routinely directed that crypto asset issuers =E2=80=9Cscrub=E2=
+=80=9D their offering and marketing materials of =E2=80=9Cinvestment-relate=
+d terms,=E2=80=9D including language that would =E2=80=9Cget unwanted atten=
+tion from the SEC.=E2=80=9D Bittrex regularly asked issuers to remove =E2=
+=80=9Cproblematic statements=E2=80=9D from their marketing materials=E2=80=
+=94statements indicating that the asset was marketed as a security=E2=80=94=
+as a prerequisite for making the issuers=E2=80=99 crypto assets available f=
+or trading on the Bittrex Platform. Bittrex unofficially dubbed this practi=
+ce the =E2=80=9Cproblematic statement cleanup.=E2=80=9D=C2=A0
+The =E2=80=9Cproblematic statement cleanup=E2=80=9D was nearly always done =
+after the initial offering of the crypto asset=E2=80=94i.e., after the cryp=
+to asset had already been offered and sold to investors. In other=C2=A0word=
+s, the issuers of the crypto assets had already marketed, offered, and sold=
+ the crypto assets to the investing public by using the very =E2=80=9Cprobl=
+ematic statements=E2=80=9D that Bittrex recognized were =E2=80=9Cinvestment=
+-related terms=E2=80=9D that indicated the assets could be securities. In r=
+equiring issuers to =E2=80=9Cscrub=E2=80=9D their documents, Bittrex did no=
+t actually change the economic reality of those offers and sales, but rathe=
+r simply attempted to remove or =E2=80=9Cscrub=E2=80=9D any evidence of the=
+se public statements without changing the actual characteristics of the off=
+ering or asset even assuming the deletions were successful.
+
+The SEC quotes a =E2=80=9Ccheat sheet=E2=80=9D that Bittrex gave its employ=
+ees to flag bad features of crypto tokens. One =E2=80=9Ccommon problematic =
+feature=E2=80=9D is =E2=80=9CTokens providing=C2=A0passive income (e.g. div=
+idends, buy back and burning of tokens),=E2=80=9D
+  [3]
+=C2=A0and one =E2=80=9Ccommon problematic statement=E2=80=9D is =E2=80=9C[p=
+roof of work] and [proof of stake] rewards described as token holders recei=
+ving =E2=80=98interest.=E2=80=99=E2=80=9D That is, the common=C2=A0economic=
+=C2=A0features of crypto tokens =E2=80=94=C2=A0the ways that a token partic=
+ipates in the upside of its project, either through token buybacks or throu=
+gh issuance of new tokens to holders =E2=80=94=C2=A0run the risk of turning=
+ them into securities, according to Bittrex.
+The complaint also explains=C2=A0why=C2=A0the SEC cares about this, why it =
+thinks that the system of securities exchange registration matters. One asp=
+ect of it is that, in traditional finance, brokers and exchanges and cleari=
+nghouses tend to be=C2=A0different entities; there is a lot of intermediati=
+on in traditional finance, where regular customers access the market throug=
+h their broker=E2=80=99s=C2=A0website, brokers trade on a separate stock ex=
+change, and settlement happens through a separate clearinghouse.
+Crypto has enthusiastically disintermediated this: Retail traders open acco=
+unts directly on the crypto exchange, and the exchange matches trades, hold=
+s everyone=E2=80=99s crypto for them and settles trades. A year ago a lot o=
+f people in crypto would have told you that this was good and efficient, th=
+at they had cut out the layers of wasteful middlemen in traditional finance=
+. Then FTX failed and took billions of dollars of customer money with it an=
+d, you know, that position is more controversial.
+The SEC endorses the traditional system:
+
+Separation of these core functions aims to minimize conflicts between the i=
+nterests of securities intermediaries and investors. Registration provides =
+the means for the SEC to understand the business of the securities intermed=
+iaries and their relationship with investors in order to protect those inve=
+stors and the securities markets, and to prevent fraud or other abuses.=C2=
+=A0
+Investors in traditional national securities markets do not generally trade=
+ directly with national securities exchanges or clearing agencies but inste=
+ad are customers of broker-dealers.
+
+The SEC also makes the point that traditional stock exchanges have to have =
+published transparent rules, including about how they list and delist stock=
+s. Crypto exchanges don=E2=80=99t:
+
+By contrast, a crypto asset platform that fails to register in any capacity=
+ declares itself free from any obligation to follow those provisions in the=
+ Exchange Act, including the types of rules described above, that are desig=
+ned to protect investors, promote the public interest, and provide truthful=
+ and material information to investors. As a result, investors are at the w=
+him of the crypto asset platform to give them information about their stand=
+ards and procedures for listing (and de-listing) investments, about the inv=
+estments themselves, including whether any particular listed crypto asset m=
+ay potentially be delisted, and the platform=E2=80=99s operations.
+A private conversation in or around June 2017 between a Bittrex employee an=
+d one of Bittrex=E2=80=99s three founders illustrates the type of investor =
+harm that can result from a crypto asset platform failing to follow or even=
+ recognize these obligations. The employee complained to the founder: =E2=
+=80=9CI hate people bitching that we don=E2=80=99t email them about market =
+removals=E2=80=A6I LOST SO MUCH CAUSE I DIDn=E2=80=99T KNOW.=E2=80=9D The f=
+ounder responded that his preferred response to those investors was =E2=80=
+=9Cgo f*** yourself=E2=80=9D or at a minimum to tell them to =E2=80=9Ctrack=
+ your own damn investment or get a broker to do it for you.=E2=80=9D
+
+=E2=80=9CSeattle-based Bittrex was already prepared to wind down its U.S. o=
+perations,=E2=80=9D  reports the Wall Street Journal, =E2=80=9Cciting the d=
+ifficulty of working with U.S. regulators that have taken enforcement actio=
+n against over 100 crypto defendants in six years.=E2=80=9D=C2=A0
+Which: yes.=C2=A0If you run a crypto exchange and you come into the SEC and=
+ say =E2=80=9Cwe want to register as a securities=C2=A0exchange so we can l=
+et our customers trade securities tokens on our website,=E2=80=9D the SEC w=
+ill stop you right there and say =E2=80=9CWait: customers? Website? No no n=
+o no no, if you are an=C2=A0exchange, you can=E2=80=99t have=C2=A0customers=
+, or a=C2=A0website; that=E2=80=99s for=C2=A0brokers. You can=E2=80=99t com=
+e in here and register a securities exchange with customers.=E2=80=9D And t=
+hen you go away, confused and sad and probably sued. There is a traditional=
+ financial system, and crypto has built a different system, and the SEC has=
+ pretty much everywhere said =E2=80=9Cnah, you gotta follow the traditional=
+ system.=E2=80=9D=C2=A0And crypto people have said =E2=80=9Cwell we can=E2=
+=80=99t really do that because ...=E2=80=9D and the SEC has said =E2=80=9Cs=
+hh, shh, we don=E2=80=99t care.=E2=80=9D
+And so last week the SEC  issued an update on a proposed rule=C2=A0updating=
+ the definition of =E2=80=9Cexchange=E2=80=9D to, among other things, cover=
+ decentralized-finance crypto exchanges. Republican SEC Commissioner Hester=
+ Peirce  dissented, complaining that =E2=80=9Crather than embracing the pro=
+mise of new technology as we have done in the past, here we propose to embr=
+ace stagnation, force centralization, urge expatriation, and welcome extinc=
+tion of new technology.=E2=80=9D Her point is that crypto exchanges have bu=
+ilt innovative new ways to trade securities, and rather than adapting the r=
+ules to those innovations, the SEC is demanding that those exchanges abando=
+n the innovations and conform to the traditional rules.
+I have said this before, but that=E2=80=99s the sort of argument that peopl=
+e took seriously a year ago, and now do not. I   wrote in February:
+I submit to you that the main fact of crypto regulation in early 2023 is th=
+at regulators feel really burned by the events of 2022, and particularly by=
+ the collapse of FTX. =E2=80=9CWe want to work with these nice smart young =
+people who are building the financial system of the future, and I am sure t=
+hat with their advice we can write=C2=A0smart regulations=C2=A0that protect=
+=C2=A0consumers while still fostering innovation=E2=80=9D was a totally nor=
+mal thing for regulators (except the SEC) to think and say in 2021. But now=
+ it is not! Now too many of those smart young people are under indictment o=
+r giving interviews from undisclosed locations; too much customer money is =
+gone.
+Nobody wants to hear it! Ooh, if we enforce traditional securities laws wit=
+hout adapting them to crypto, there will be no crypto trading in the US: fi=
+ne!=C2=A0The SEC=E2=80=99s majority view is just crystal clear here:
+=09Virtually all crypto tokens are securities.=09Securities cannot legally =
+be traded, in the US, except on a registered securities exchange.
+  [4]
+
+=09Hahaha good luck registering your crypto exchange!
+
+Peirce says:
+
+During my time as a Commissioner, this agency repeatedly has urged firms se=
+eking to sell crypto tokens or build crypto businesses to come in and regis=
+ter. Many firms have responded to this call; they have engaged with staff a=
+nd Commissioners intensively to determine whether they need to register and=
+, if so, how they might do so. With the exception of a few token registrati=
+ons and a very small number of ATSs employing a clunky (to satisfy regulato=
+ry demands) method of facilitating trades, no firm has been able to do so.
+A Commission serious about regulating=E2=80=94and not destroying=E2=80=94th=
+is market would reflect on this near unblemished record of regulatory failu=
+re and do something about it. We would consider the possibility that our ru=
+les, which in the past have evolved to address the needs of, and the risks =
+presented by, investors and firms in the traditional securities markets, mi=
+ght require some tweaking to permit firms to offer innovative ways of doing=
+ finance using novel technologies.=C2=A0
+
+=E2=80=9CA Commission serious about regulating=E2=80=94and not destroying=
+=E2=80=94this market=E2=80=9D would be a different SEC! You don=E2=80=99t h=
+ave to=C2=A0like=C2=A0it, but it is easy to know what the SEC wants.
+Also, I should note that two of the crypto tokens mentioned as securities h=
+ere =E2=80=94=C2=A0DASH and  Algorand =E2=80=94 appear to be listed on Coin=
+base. If it=E2=80=99s illegal for Bittrex to trade them then presumably it =
+is also illegal for Coinbase to trade them. I=E2=80=99m sure we=E2=80=99ll =
+find out the SEC=E2=80=99s views on that soon enough.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      IO mortgages
+   =20
+ =20
+
+For most people, the biggest interest-rate bet they will make in their live=
+s is taking out a mortgage.
+  [5]
+=C2=A0If you were a pretty sophisticated Wall Street professional =E2=80=94=
+=C2=A0say, the president of Goldman Sachs Group Inc.? =E2=80=94=C2=A0and it=
+ was 2020, what sort of interest-rate bet would you want to make? Well, at =
+least with the hindsight of 2023, =E2=80=9Cinterest rates in 2020 are very =
+low and they will probably go up from here=E2=80=9D would have been a good =
+bet, so you might have wanted to get short duration. So you=E2=80=99d borro=
+w as much money as you could=C2=A0at a low long-term fixed interest rate. M=
+ost banks would give you a 30-year mortgage at a fixed rate, which is a goo=
+d start. But most mortgages amortize =E2=80=94=C2=A0you pay back some of th=
+e principal each month =E2=80=94 which reduces their duration. If you=C2=A0=
+wanted to be short a=C2=A0lot=C2=A0of duration, you might look for a bank t=
+o give you a non-amortizing mortgage where you only pay interest, not princ=
+ipal, for many years. (Ideally you=E2=80=99d pay a very low interest rate b=
+ecause of your good credit and fancy job.) And then you could use the money=
+ to pay for a house that you could have bought with cash, and invest the ca=
+sh in very short-term investments =E2=80=94=C2=A0like bank deposits? =E2=80=
+=94=C2=A0so that it is available to deploy when rates go up. You have borro=
+wed long to lend short; you have effectively gotten yourself an interest-ra=
+te swap where you pay a fixed rate and receive a floating rate.=C2=A0
+Of course most people do not take out mortgages primarily to make interest-=
+rate bets; most people take out mortgages because that=E2=80=99s how they c=
+an afford to buy a house. The president of Goldman Sachs though ... probabl=
+y more thoughtful about his interest-rate bets? Less likely to need the mon=
+ey, more likely to be doing a trade? More likely to have a view on the path=
+ of rates, and a desire to get short duration? More likely to shop around f=
+or the bank that will buy as much duration from him as possible?=C2=A0
+Bloomberg=E2=80=99s=C2=A0Noah Buhayar, Jennifer Surane, Max Reyes and Ann C=
+hoi have a story about how First Republic Bank sought out sophisticated ric=
+h customers,   which was a mistake:
+
+Wealthy homebuyers and property investors with high incomes and sterling cr=
+edit scores could get a mortgage from First Republic Bank with a rock-botto=
+m rate for several years. Better yet, they didn=E2=80=99t have to start rep=
+aying the principal for a decade.=C2=A0
+Across Manhattan, the San Francisco Bay area and Southern California, those=
+ terms attracted legions of wealthy clients =E2=80=94 including executives =
+from other banks =E2=80=94 as interest rates sank during the pandemic. The =
+loans left borrowers with more cash to invest and spend than if they financ=
+ed their properties with more conventional mortgages. Demand was so strong =
+that it helped First Republic double its assets in four years, while deposi=
+ts surged. =E2=80=A6
+The mortgages are performing well, but their low rates and delayed repaymen=
+ts hurt their value. =E2=80=A6 By the start of this year, First Republic es=
+timated its $137 billion stockpile of mortgages would be worth about $19 bi=
+llion less than their carrying value if sold off, its annual report shows. =
+=E2=80=A6
+New York City property records from the past few years show customers came =
+from all over the financial sector and included industry leaders such as Go=
+ldman Sachs Group Inc. President John Waldron, who took out an $11.2 millio=
+n mortgage in June 2020, and R. Lawrence Roth, a board member at Oppenheime=
+r Holdings Inc. =E2=80=A6=C2=A0All of their loans had 10-year interest-only=
+ periods and rates starting below 3%.
+
+Yes look if you are a regional bank and the president of Goldman Sachs come=
+s in and says =E2=80=9Chi I=E2=80=99d like to make an $11 million interest-=
+rate bet with you,=E2=80=9D you are getting adversely selected.=C2=A0
+One way to think about the 2023 banking mini-crisis in the US is that the p=
+roblem was with banks whose customers were too sophisticated.
+  [6]
+=C2=A0Silicon Valley Bank borrowed short to lend long and ended up with a m=
+ark-to-market hole in its balance sheet when interest rates went up, but th=
+at=E2=80=99s   a pretty common story for any bank; the problem at SVB was t=
+hat   all of its depositors were venture-backed tech firms who=C2=A0noticed=
+=C2=A0that hole in the balance sheet, shared that information with their ne=
+tworks, and acted quickly to protect themselves. They were too smart for   =
+their bank=E2=80=99s own good.
+Similarly First Republic courted wealthy and sophisticated clients with fav=
+orable mortgage rates. But wealthy and sophisticated clients are kind of a =
+mixed bag! Sure they have the money to pay you back; their=C2=A0credit=C2=
+=A0is good. But the risk is that you=C2=A0will=C2=A0sell them products that=
+ are advantageous for them, and not so much for you.
+
+ =20
+   =20
+      Schwab
+   =20
+ =20
+
+A good price for a stock trade is $0. If you run a retail brokerage and you=
+ charge customers $0 for stock trades, they will tend to keep their money w=
+ith you and=C2=A0do a lot of stock trades; if you charge them $4.99 they=E2=
+=80=99ll say =E2=80=9Cmeh, stock trading, not great.=E2=80=9D Making stock =
+trading frictionless is good for attracting stock trading, and you are in t=
+he business of attracting stock trading.
+But it costs you money to do the trades =E2=80=94=C2=A0you need computers a=
+nd customer service and so forth =E2=80=94=C2=A0and so you need to pay for =
+them somehow. And so a big question in modern US retail stock brokerage is =
+how brokers can make money to subsidize commission-free stock trading. One=
+=C2=A0approach that gets a lot of attention=C2=A0is payment for order flow:=
+ The broker can charge its customer $0 for a trade, and then instead of pay=
+ing to execute the trade on a stock exchange, it can get paid by a market m=
+aker that really wants to execute the trade. This is hotly controversial fo=
+r reasons we have   discussed too many times, and the US Securities and Exc=
+hange Commission has been   working on rules to restrict it, rules that mig=
+ht make it harder for brokers to offer commission-free trading.
+But there is another, simpler, more popular=C2=A0approach, which is that mo=
+st brokerage customers tend to have=C2=A0cash=C2=A0in their brokerage accou=
+nts, cash that they have not yet invested in stocks. The brokerage can take=
+ that cash, invest it in safe bonds, earn some interest, pay a little of th=
+e interest to customers, keep the rest of it for itself, and subsidize free=
+ trading that way. That is, the brokerage can also be a bank, and make a ne=
+t interest margin on the difference between what it pays customers on their=
+ deposits and what it earns from investing them.=C2=A0In 2019,  Patrick McK=
+enzie pointed out that =E2=80=9C57% of Schwab=E2=80=99s revenues are from n=
+et interest. The firm could literally give away every other service; discou=
+nt the mutual fund fees to zero, do away with commissions, etc etc, and the=
+y would still be profitable.=E2=80=9D=C2=A0
+It is possible that that was a low-rates phenomenon, or at least that it br=
+eaks down a bit when rates rise rapidly. Bloomberg=E2=80=99s=C2=A0Annie Mas=
+sa and Edward Harrison   reported last week:
+
+Charles Schwab Corp. stunned Wall Street in 2019 by slashing trading commis=
+sions to zero, forcing its competitors to adapt. The move amounted to a big=
+ bet that its bank =E2=80=94 rather than its well-known discount brokerage =
+=E2=80=94 would keep driving profits.
+For a while, it worked to perfection. The pandemic hit, interest rates were=
+ pinned near historic lows, and Schwab raked in billions as the fees it had=
+ forsaken were offset by what the company earned from its banking operation=
+.
+But last month=E2=80=99s collapse of three US banks, the industry=E2=80=99s=
+ worst crisis since 2008, has turned that wager on its head.
+Now Schwab, the biggest publicly traded US brokerage, faces one of the most=
+ painful moments in its 50-year history. After a rapid surge in interest ra=
+tes, deposits sank while unrealized losses swelled.=C2=A0
+
+Schwab got customer cash and invested it in bonds that lost money:
+
+Because Schwab generates most of its money from customer funds idling in lo=
+w-yielding accounts =E2=80=94 which it =E2=80=9Csweeps=E2=80=9D into its ba=
+nk arm =E2=80=94 the firm needed somewhere to invest incoming cash as tradi=
+ng surged.=C2=A0
+Like Silicon Valley Bank, the largest of the three lenders that imploded la=
+st month, Schwab plowed into debt that will take five years or more to matu=
+re. =E2=80=A6 The investments are now underwater, though Schwab won=E2=80=
+=99t have to book a loss unless it=E2=80=99s forced to sell them.=C2=A0
+
+And meanwhile the customer cash is drying up because there are better rates=
+ elsewhere:
+
+Whether the remaining deposits stay put will depend to a degree on the big =
+independent advisers that buttress Schwab=E2=80=99s business. They=E2=80=99=
+re increasingly focused on getting the best returns for clients=E2=80=99 ca=
+sh.
+Charles Sachs, chief investment officer at Kaufman Rossin Wealth, is among =
+them. He moves customer money from Schwab sweep accounts into its higher-yi=
+elding money-market funds, on almost a daily basis.
+
+When rates are very low and your brokerage customers are YOLO=E2=80=99ing G=
+ameStop Corp. options, it is not really worth their time to move money from=
+ a cash sweep account earning 0% to a money-market fund earning 0.5%. When =
+rates go up, though, the money-market funds start looking more attractive, =
+and leaving cash idle to be ready to buy meme stocks is less attractive.=C2=
+=A0
+Anyway Schwab   reported earnings today and they were fine:
+
+Shares of Schwab rose 2.8% to $52.18 at 11:46 a.m. in New York, paring thei=
+r decline this year to 37%. =E2=80=A6 Schwab=E2=80=99s customer deposits sl=
+id 11% since year-end to $325.7 billion as of March 31. They=E2=80=99re dow=
+n 30% from a year earlier, a drop that roughly matched Wall Street estimate=
+s. =C2=A0
+In a sign of strength, customers continued to add money to Schwab=E2=80=99s=
+ investment offerings. Core net new assets totaled $132 billion, including =
+more than $53 billion in March alone, the second-most ever for that month.=
+=C2=A0
+The Federal Reserve=E2=80=99s rapid interest rate hikes buffeted Schwab=E2=
+=80=99s business in recent quarters. Deposits, which underpin revenue, decl=
+ined as customers moved away from lower-interest accounts and looked for in=
+vestments that provide better returns for their excess cash. That trend is =
+beginning to moderate, executives said Monday.
+
+
+ =20
+   =20
+      Everything is securities fraud
+   =20
+ =20
+
+If a publicly traded company owns a television network and uses it to make =
+false claims=C2=A0about rigged US elections, is that securities fraud? Uh, =
+I mean, technically   this is a shareholder derivative lawsuit, but I=E2=80=
+=99m going to count it:
+A Fox Corp. investor sued Rupert Murdoch and his son Lachlan on Tuesday, bl=
+aming them for allowing Fox News to spread lies about the election and prom=
+pting the [Dominion] defamation case. Delaware=E2=80=99s Chancery Court sui=
+t accuses the Murdochs and three other Fox directors of =E2=80=9Cknowingly=
+=E2=80=9D hosts and guests to spread Trump=E2=80=99s false stolen-election =
+claims.
+Here is  the complaint, which =E2=80=9Casserts claims for breaches of fiduc=
+iary duty=E2=80=9D against the directors. A sample:
+
+The Board=E2=80=99s decision to chase viewers by promoting the false stolen=
+ election claims has exposed the Company to public ridicule and negatively =
+impacted the credibility of Fox News as a media organization that is suppos=
+ed to accurately report newsworthy events. The Company is now the subject o=
+f two defamation cases, with combined damages claimed to exceed $4 billion.=
+ =E2=80=A6
+The Board=E2=80=99s failures caused and/or allowed the Company to sell a fi=
+ctitious story of election fraud for the sole purpose of serving its own bu=
+siness purposes, in disregard for the truth, the Board=E2=80=99s fiduciary =
+obligations and the Company=E2=80=99s best interests.
+
+What a weird sentence. Surely =E2=80=9Cserving [the Company=E2=80=99s] own =
+business purposes=E2=80=9D is the main fiduciary obligation of the board? M=
+ore than credibility or avoiding ridicule? Like if the claim here was that =
+Fox frittered away all of its money on things that the directors liked but =
+that were bad for business, fine, but here the claim is that the directors =
+thought the election lies were distasteful but good for business. I am not =
+sure how that is a fiduciary breach.
+The complaint cites various feel-good Fox public statements=C2=A0and says t=
+hat =E2=80=9CDefendants=E2=80=99 actions/inactions violated the Statement o=
+f Corporate Governance, the Standards of Business Conduct, the Corporate So=
+cial Responsibility policies, and the [Sustainability Accounting Standards =
+Board]=C2=A0standard.=E2=80=9D A   standard everything-is-securities-fraud =
+  theory is that if a company says publicly that it has good ethics, and th=
+en it turns out that in fact it did unethical things, and the stock drops, =
+then shareholders will sue for fraud; fine. (Fox=E2=80=99s stock is up sinc=
+e the 2020 election but never mind.)=C2=A0You can sue for=C2=A0securities f=
+raud if the public statements=C2=A0are false. But suing for a=C2=A0breach o=
+f fiduciary duties=C2=A0seems odder: The essential claim here is that the d=
+irectors prioritized the business interests of the company over truth, ethi=
+cs, US democracy, etc. Which is=C2=A0bad, but not necessarily bad=C2=A0for =
+shareholders.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+JPMorgan, Citigroup and Wells Fargo  Reap Gains From Rates Roiling Small Ba=
+nks.=C2=A0Banks Are Finally Facing Pressure to Pay Depositors More.=C2=A0In=
+ Morgan Stanley CEO Race,   Wealth Boss Emerges as One to Watch. Bank Failu=
+res Rattle Market for  Short-Term Lending.=C2=A0 Life Insurance Is Profitab=
+le Again, but Too Late for Many Insurers.=C2=A0Saudi Arabia Transfers Nearl=
+y $78 Billion of  Aramco Shares to Wealth Fund. Swiss-owned company=E2=80=
+=99s  Russian gold trades expose gap in western sanctions.=C2=A0ChatGPT Can=
+ Decode Fed Speak,   Predict Stock Moves From Headlines.=C2=A0Elon Musk=E2=
+=80=99s Twitter Payment Plan Puts   NYC Subway Alerts at Risk. =E2=80=98Ove=
+remployed=E2=80=99 Hustlers Exploit ChatGPT To Take On Even  More Full-Time=
+ Jobs. A $300,000 Salary   Feels Like $100,000 in The Priciest US Cities. P=
+olice search for group of suspects who stole  2 million dimes from truck in=
+ Northeast Philadelphia.=C2=A0Athletics Ireland sorry for mix-up that led t=
+o national 10km race being  too short.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] This is not a necessary function of a crypto exchange, really: The ex=
+change could match buyers and sellers, and then the trades could settle =E2=
+=80=9Con chain,=E2=80=9D with the tokens moving from the seller=E2=80=99s w=
+allet to the buyer=E2=80=99s on the relevant crypto blockchain without ever=
+ passing through the exchange. Historically crypto exchanges have been more=
+ convenient when they=E2=80=99re centralized and keep custody of their cust=
+omers=E2=80=99 tokens (and cash), but there are lots of decentralized excha=
+nges that are not especially clearinghouse-like, and some big centralized e=
+xchanges let users self-custody these days. Still most centralized exchange=
+s are also in the clearing business.
+
+
+  [2] They are commodities. A feature of US law is that, broadly speaking, =
+you can run a commodities exchange without much oversight, but if you run a=
+ commodities *futures* exchange you have to register with the US Commodity =
+Futures Trading Commission. And so crypto exchanges tend not to offer deriv=
+atives trading to US customers, to avoid CFTC registration; sometimes they =
+let US customers trade futures and then   get in trouble with the CFTC. A s=
+pot Bitcoin exchange =E2=80=94 no futures, no securities =E2=80=94 is the s=
+weet spot for avoiding most US registration requirements.
+
+
+  [3] Another is =E2=80=9Ctokens used/advertised for illegal activities and=
+ purposes (e.g. gambling, narcotics, darknet markets),=E2=80=9D which doesn=
+=E2=80=99t strike me as a big *securities-law* problem but is, you know, a =
+problem.
+
+
+  [4] This is loose =E2=80=94 they can be traded on an ATS, or directly wit=
+h a market maker, etc., as discussed above =E2=80=94 but I suspect pretty c=
+lose to what the SEC thinks.
+
+
+  [5] Well. Arguably every financial decision is in some deep sense an inte=
+rest-rate bet, so, like, going to work at a startup or getting a graduate d=
+egree or having children are in some sense decisions about discount rates. =
+But the mortgage is an explicit rates bet.
+
+
+  [6] Or   in crypto. That=E2=80=99s different.=20
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ciklbe.5kyr/00242d7b.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_39985697_897913030.1681757813344
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+The basic rule in the US is that, if you operate a stock exchange, you need=
+ to register with the US Securities and Exchange Commission as a=20
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31193834.260451/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNDE3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA0MTcmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB3833e7df"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31193834.260451/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMTE5MzgzNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE0NTQyODUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB8d60c72d" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D31193834&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31454285&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bittrex</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The basic rule in the US is that, if you opera=
+te a stock exchange, you need to register with the US Securities and Exchan=
+ge Commission as a national stock exchange. This comes with a lot of oversi=
+ght; in particular, the rules of your exchange have to be published and tra=
+nsparent and approved by the SEC.</p>
+<p style=3D"margin: 16px 0;">I suppose you could debate what qualifies as a=
+ stock exchange. Roughly, an exchange is a venue for bringing together buye=
+rs and sellers of stock so they can trade with each other, but in modern fi=
+nance there are gray areas. There are some things that look sort of like st=
+ock exchanges =E2=80=94 dark pools,=C2=A0<a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/31193834.260451/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1=
+L2RlZmluaXRpb25zL2luZGV4LnBocD93aWR0aD04NDAmaGVpZ2h0PTgwMCZpZnJhbWU9dHJ1ZSZ=
+kZWZfaWQ9NGY0ZTNhZTI2NTI3MGNhYTdjZWViZTg5ZDE2N2QwMGImdGVybV9vY2N1cj05OTkmdG=
+VybV9zcmM9VGl0bGU6MTc6Q2hhcHRlcjpJSTpQYXJ0OjI0MjoyNDIuMzAx/607f07ceef4b8524=
+a319a23cB39c791e5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">alternative trading systems</a>=C2=A0=E2=80=94 t=
+hat are not actually registered as stock exchanges. But they are=C2=A0<a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/31193834.260451/aHR0cHM=
+6Ly93d3cuc2VjLmdvdi9kaXZpc2lvbnMvbWFya2V0cmVnL2Zvcm0tYXRzLW4tZmlsaW5ncy5odG=
+0/607f07ceef4b8524a319a23cBaa86749c" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">registered with the SEC</a>=C2=
+=A0too, and the SEC also supervises their operations. For that matter there=
+ are stockbrokers: A broker=E2=80=99s website and mobile app can look and f=
+eel a bit like a stock exchange, to a retail customer; you can log onto Rob=
+inhood and see prices and buy and sell stock. But <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/31193834.260451/aHR0cHM6Ly93d3cuZWNmci5nb3Y=
+vY3VycmVudC90aXRsZS0xNy9jaGFwdGVyLUlJL3BhcnQtMjQwL3N1YnBhcnQtQS9zdWJqZWN0LW=
+dyb3VwLUVDRlI3OTI4NzY2NGMzMjczNDEvc2VjdGlvbi0yNDAuM2ItMTY/607f07ceef4b8524a=
+319a23cB7ba41b0d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> there are rules</a> distinguishing brokers from =
+exchanges (a broker mostly does not provide a platform for people to trade =
+with each other, but routes orders to other market venues), and anyway brok=
+er-dealers are=C2=A0<em>also=C2=A0</em>registered with the SEC. Also stock=
+=C2=A0<em>clearinghouses=C2=A0</em>(which settle trades, moving stock from =
+the seller to the buyer) have to register.=C2=A0Basically any stock-exchang=
+e-like thing has to register with the SEC.</p>
+<p style=3D"margin: 16px 0;">Now, these are not really rules about=C2=A0<em=
+>stock=C2=A0</em>exchanges; technically the rules are about=C2=A0<em>securi=
+ties</em>, not stocks. If you run an exchange-like thing for trading securi=
+ties =E2=80=94=C2=A0stocks, bonds, options, etc. =E2=80=94=C2=A0you have to=
+ register with the SEC.</p>
+<p style=3D"margin: 16px 0;">There are crypto exchanges in the US. They ope=
+rate as exchanges (venues for bringing together buyers and sellers), and al=
+so often as clearinghouses (they move tokens from sellers to buyers<a class=
+=3D"footnote-index" href=3D"#footnote-1" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: none !important; background-color: transparent !=
+important; display: inline-block;">
+<span>[1]</span>
+</a>). They are not generally registered with the SEC as securities exchang=
+es (or ATSs, or clearinghouses).=C2=A0They offer trading in crypto tokens. =
+Some of those tokens =E2=80=94=C2=A0Bitcoin, Ether =E2=80=94=C2=A0are not s=
+ecurities.<a class=3D"footnote-index" href=3D"#footnote-2" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: none !important; background-co=
+lor: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0But the SEC takes the view =E2=80=94=C2=A0in speeches, in various=
+ enforcement actions =E2=80=94=C2=A0that almost all of them are securities.=
+=C2=A0</p>
+<p style=3D"margin: 16px 0;">This means that most crypto exchanges that ope=
+rate in the US are probably, in the SEC=E2=80=99s view, breaking the law. I=
+ assert this pretty confidently based on my reading of the SEC=E2=80=99s wh=
+ole vibe, but the SEC has not really come out and said it directly, by, you=
+ know, bringing enforcement cases against crypto exchanges. It has come clo=
+se. Last year it brought an insider trading case against a former Coinbase =
+Global Inc. employee, accusing him of insider trading some tokens that Coin=
+base listed; the SEC claimed that these tokens were securities, and <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31193834.260451/aHR0cHM6L=
+y90d2l0dGVyLmNvbS9tYXR0X2xldmluZS9zdGF0dXMvMTU1MDIwMjAzNjU3MDAxNzc5Mg/607f0=
+7ceef4b8524a319a23cB0de8bc42" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> I tweeted</a> =E2=80=9CThis is a wei=
+rd way for the SEC to say that Coinbase is running an illegal securities ex=
+change?=E2=80=9D Last month the SEC <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/31193834.260451/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjMtMDMtMjMvdGhlLXNlYy1pcy1jb21pbmctZm9yLWNvaW5iYXNlP2Nt=
+cGlkPUJCRDA0MTcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXd=
+zbGV0dGVyJnV0bV90ZXJtPTIzMDQxNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4=
+b8524a319a23cB54c11be9" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">  sent a Wells notice to Coinbase</a>, basi=
+cally telling Coinbase that it is=C2=A0<em>going=C2=A0</em>to bring charges=
+ against it for operating an illegal securities exchange. But not yet.</p>
+<p style=3D"margin: 16px 0;">Today <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/31193834.260451/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLX=
+JlbGVhc2UvMjAyMy03OA/607f07ceef4b8524a319a23cB5b3c471c" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> the SEC br=
+ought charges against Bittrex Inc.</a> for allegedly operating an illegal s=
+ecurities exchange:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission today c=
+harged crypto asset trading platform Bittrex, Inc. and its co-founder and f=
+ormer CEO William Shihara for operating an unregistered national securities=
+ exchange, broker, and clearing agency. ...</p>
+<p style=3D"margin: 16px 0;">Since at least 2014, Bittrex has held itself o=
+ut as a platform that facilitated buying and selling of crypto assets that =
+the SEC=E2=80=99s complaint alleges were offered and sold as securities. Fr=
+om 2017 through 2022, Bittrex earned at least $1.3 billion in revenues from=
+, among other things, transaction fees from investors, including U.S. inves=
+tors, while servicing them as a broker, exchange, and clearing agency witho=
+ut registering any of these activities with the Commission.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/31193834.260451/aHR0cHM6Ly93d3cuc2VjLmdvdi9saXRpZ2F0aW9u=
+L2NvbXBsYWludHMvMjAyMy9jb21wLXByMjAyMy03OC5wZGY/607f07ceef4b8524a319a23cB05=
+527160" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> the SEC=E2=80=99s complaint</a>, which is=C2=A0straightfor=
+ward. Bittrex is an exchange (and a broker, and a clearinghouse). It lists =
+a bunch of tokens. Some of them, in the SEC=E2=80=99s view, are securities.=
+ =E2=80=9CFor purposes of prevailing on the Exchange Act claims set forth h=
+erein, the SEC need<br />only establish that Bittrex transacted in a single=
+ crypto asset security,=E2=80=9D says the complaint, but then it goes on to=
+ list six crypto tokens that the SEC is pretty sure are securities.</p>
+<p style=3D"margin: 16px 0;">Here again the argument is straightforward and=
+ familiar. The US Supreme Court <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/31193834.260451/aHR0cHM6Ly93d3cuc2VjLmdvdi9jb3JwZmluL2ZyYW1ld=
+29yay1pbnZlc3RtZW50LWNvbnRyYWN0LWFuYWx5c2lzLWRpZ2l0YWwtYXNzZXRz/607f07ceef4=
+b8524a319a23cBabed6677" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> has said</a> that a =E2=80=9Csecurity=E2=
+=80=9D includes =E2=80=9Cthe investment of money in a common enterprise wit=
+h a reasonable expectation of profits to be derived from the efforts of oth=
+ers.=E2=80=9D Lots and lots of crypto projects raised money from investors =
+by promising to build some sort of profitable product or ecosystem on the b=
+lockchain. The SEC cites some of them.</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Algorand is a blockchain protocol founded by S=
+ilvio Micali. The Algorand blockchain uses a consensus algorithm it calls =
+=E2=80=9Cpure proof-of-stake,=E2=80=9D in which each user=E2=80=99s ability=
+ to influence the choice of a new block is proportional to its stake (numbe=
+r of tokens) in the system.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CALGO=E2=80=9D is the native token of =
+the Algorand blockchain, and has a maximum supply of 10 billion ALGO minted=
+ at the launch of the Algorand network. Because ALGO is the native token of=
+ the Algorand blockchain, those utilizing the Algorand blockchain need to h=
+old (and potentially stake) certain amounts of ALGO.</p>
+<p style=3D"margin: 16px 0;">The Algorand Foundation Ltd. (the =E2=80=9CAlg=
+orand Foundation=E2=80=9D) conducted an initial ALGO token sale on or about=
+ June 19, 2019, selling 25 million tokens at $2.40 per ALGO, raising approx=
+imately $60 million. =E2=80=A6=C2=A0</p>
+<p style=3D"margin: 16px 0;">The publicly available information disseminate=
+d by Algorand, Inc. and the Algorand Foundation led ALGO investors to reaso=
+nably expect to profit from Algorand, Inc.=E2=80=99s and the Algorand Found=
+ation=E2=80=99s efforts to grow the Algorand protocol, which would in turn =
+potentially increase demand for, and therefore the value of, the ALGO token=
+ itself. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The Algorand Foundation described =E2=80=9CGov=
+ernance=E2=80=9D as a way for investors to make investment returns on their=
+ ALGO purchases=E2=80=94stating it is =E2=80=9Ca decentralized program whic=
+h allows Algo holders to vote on the future of Algorand=E2=80=9D and =E2=80=
+=9Cthe best way to earn rewards for holding Algo, with APY% of 10.02% - 14.=
+05% seen in previous periods.=E2=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The Algorand, Inc. and Algorand Foundation web=
+sites tout their teams=E2=80=99 technical experience and expertise in the a=
+reas of cryptography and business development. For example, Algorand, Inc.=
+=E2=80=99s website states: =E2=80=9CBlending technical mastery and professi=
+onal stability, the Algorand team consists of internationally recognized re=
+searchers, mathematicians, cryptographers, and economists along with proven=
+ business leaders from global technology companies.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">None of this stuff even sounds particularly ba=
+d. But the bones of it are:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Algorand (and lots of other crypto pro=
+jects) raised money from investors to build its project.</li>=09<li style=
+=3D"margin-bottom: 5px;">The investors expected to make money from their in=
+vestment in this enterprise.</li>=09<li style=3D"margin-bottom: 5px;">They =
+expected to make this money because of =E2=80=9Cthe efforts of others=E2=80=
+=9D: The team promoting the project (and raising the money) was also going =
+to build it, and the investors were hoping for a return because they though=
+t the team would do a good job.</li>
+</ul>
+<p style=3D"margin: 16px 0;">That=E2=80=99s just stock. There=E2=80=99s a b=
+lockchain, sure, and the mechanics of how ALGO tokens participate in the up=
+side of the Algorand blockchain are somewhat different from the mechanics o=
+f how META shares participate in the upside of Meta Platforms Inc. But basi=
+cally, the SEC says,=C2=A0this is stock: You invest money in a team that is=
+ building a tech project, and if the project works out you get rich. Bittre=
+x was offering this stock on its exchange. So it should have registered as =
+a stock exchange.</p>
+<p style=3D"margin: 16px 0;">The complaint also details that Bittrex kind o=
+f knew this:</p>
+<blockquote><p style=3D"margin: 16px 0;">When deciding whether to include a=
+n asset on the Bittrex Platform, Bittrex assessed whether the financial ben=
+efits of doing so outweighed the risk that the asset in question would be s=
+ubject to scrutiny by regulators, including specifically the SEC. For examp=
+le, in or around March 2017, Shihara told the other Bittrex co-founders wit=
+h regards to a particular crypto asset: =E2=80=9Cthe problem is that its go=
+ing to be seen by the SEC as a security. im meeting with these guys face to=
+ face to get specifics on how much they want to raise, who they are raising=
+ it from, and what they expect the after market to be. its a big enough opp=
+ortunity that we might want to roll the dice on the sec investigation. we h=
+ave a couple of paths forward but one idea was to have them take a position=
+ in bittrex and own the risk of an SEC investigation with us.=E2=80=9D</p><=
+/blockquote>
+<p style=3D"margin: 16px 0;">And:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">To further its dual goals of making more crypt=
+o assets available on the Bittrex Platform and avoiding regulatory scrutiny=
+, starting in at least May 2017, Bittrex routinely directed that crypto ass=
+et issuers =E2=80=9Cscrub=E2=80=9D their offering and marketing materials o=
+f =E2=80=9Cinvestment-related terms,=E2=80=9D including language that would=
+ =E2=80=9Cget unwanted attention from the SEC.=E2=80=9D Bittrex regularly a=
+sked issuers to remove =E2=80=9Cproblematic statements=E2=80=9D from their =
+marketing materials=E2=80=94statements indicating that the asset was market=
+ed as a security=E2=80=94as a prerequisite for making the issuers=E2=80=99 =
+crypto assets available for trading on the Bittrex Platform. Bittrex unoffi=
+cially dubbed this practice the =E2=80=9Cproblematic statement cleanup.=E2=
+=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">The =E2=80=9Cproblematic statement cleanup=E2=
+=80=9D was nearly always done after the initial offering of the crypto asse=
+t=E2=80=94i.e., after the crypto asset had already been offered and sold to=
+ investors. In other=C2=A0words, the issuers of the crypto assets had alrea=
+dy marketed, offered, and sold the crypto assets to the investing public by=
+ using the very =E2=80=9Cproblematic statements=E2=80=9D that Bittrex recog=
+nized were =E2=80=9Cinvestment-related terms=E2=80=9D that indicated the as=
+sets could be securities. In requiring issuers to =E2=80=9Cscrub=E2=80=9D t=
+heir documents, Bittrex did not actually change the economic reality of tho=
+se offers and sales, but rather simply attempted to remove or =E2=80=9Cscru=
+b=E2=80=9D any evidence of these public statements without changing the act=
+ual characteristics of the offering or asset even assuming the deletions we=
+re successful.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The SEC quotes a =E2=80=9Ccheat sheet=E2=80=9D=
+ that Bittrex gave its employees to flag bad features of crypto tokens. One=
+ =E2=80=9Ccommon problematic feature=E2=80=9D is =E2=80=9CTokens providing=
+=C2=A0passive income (e.g. dividends, buy back and burning of tokens),=E2=
+=80=9D<a class=3D"footnote-index" href=3D"#footnote-3" style=3D"color: #000=
+000; text-decoration: none !important; border-bottom-width: 1px; border-bot=
+tom-color: #000000; border-bottom-style: none !important; background-color:=
+ transparent !important; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0and one =E2=80=9Ccommon problematic statement=E2=80=9D is =E2=80=
+=9C[proof of work] and [proof of stake] rewards described as token holders =
+receiving =E2=80=98interest.=E2=80=99=E2=80=9D That is, the common=C2=A0<em=
+>economic=C2=A0</em>features of crypto tokens =E2=80=94=C2=A0the ways that =
+a token participates in the upside of its project, either through token buy=
+backs or through issuance of new tokens to holders =E2=80=94=C2=A0run the r=
+isk of turning them into securities, <em>according to Bittrex</em>.</p>
+<p style=3D"margin: 16px 0;">The complaint also explains=C2=A0<em>why=C2=A0=
+</em>the SEC cares about this, why it thinks that the system of securities =
+exchange registration matters. One aspect of it is that, in traditional fin=
+ance, brokers and exchanges and clearinghouses tend to be=C2=A0<em>differen=
+t entities</em>; there is a lot of intermediation in traditional finance, w=
+here regular customers access the market through their broker=E2=80=99s=C2=
+=A0website, brokers trade on a separate stock exchange, and settlement happ=
+ens through a separate clearinghouse.</p>
+<p style=3D"margin: 16px 0;">Crypto has enthusiastically disintermediated t=
+his: Retail traders open accounts directly on the crypto exchange, and the =
+exchange matches trades, holds everyone=E2=80=99s crypto for them and settl=
+es trades. A year ago a lot of people in crypto would have told you that th=
+is was good and efficient, that they had cut out the layers of wasteful mid=
+dlemen in traditional finance. Then FTX failed and took billions of dollars=
+ of customer money with it and, you know, that position is more controversi=
+al.</p>
+<p style=3D"margin: 16px 0;">The SEC endorses the traditional system:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Separation of these core functions aims to min=
+imize conflicts between the interests of securities intermediaries and inve=
+stors. Registration provides the means for the SEC to understand the busine=
+ss of the securities intermediaries and their relationship with investors i=
+n order to protect those investors and the securities markets, and to preve=
+nt fraud or other abuses.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Investors in traditional national securities m=
+arkets do not generally trade directly with national securities exchanges o=
+r clearing agencies but instead are customers of broker-dealers.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The SEC also makes the point that traditional =
+stock exchanges have to have published transparent rules, including about h=
+ow they list and delist stocks. Crypto exchanges don=E2=80=99t:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">By contrast, a crypto asset platform that fail=
+s to register in any capacity declares itself free from any obligation to f=
+ollow those provisions in the Exchange Act, including the types of rules de=
+scribed above, that are designed to protect investors, promote the public i=
+nterest, and provide truthful and material information to investors. As a r=
+esult, investors are at the whim of the crypto asset platform to give them =
+information about their standards and procedures for listing (and de-listin=
+g) investments, about the investments themselves, including whether any par=
+ticular listed crypto asset may potentially be delisted, and the platform=
+=E2=80=99s operations.</p>
+<p style=3D"margin: 16px 0;">A private conversation in or around June 2017 =
+between a Bittrex employee and one of Bittrex=E2=80=99s three founders illu=
+strates the type of investor harm that can result from a crypto asset platf=
+orm failing to follow or even recognize these obligations. The employee com=
+plained to the founder: =E2=80=9CI hate people bitching that we don=E2=80=
+=99t email them about market removals=E2=80=A6I LOST SO MUCH CAUSE I DIDn=
+=E2=80=99T KNOW.=E2=80=9D The founder responded that his preferred response=
+ to those investors was =E2=80=9Cgo f*** yourself=E2=80=9D or at a minimum =
+to tell them to =E2=80=9Ctrack your own damn investment or get a broker to =
+do it for you.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CSeattle-based Bittrex was already pre=
+pared to wind down its U.S. operations,=E2=80=9D <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/31193834.260451/aHR0cHM6Ly93d3cud3NqLmNvbS9h=
+cnRpY2xlcy9zZWMtdGFyZ2V0cy1iaXR0cmV4LWZhbGxlbi1naWFudC1vZi11LXMtY3J5cHRvLWV=
+4Y2hhbmdlcy00YmQ2MTViNj9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23=
+cB667196c1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> reports the Wall Street Journal</a>, =E2=80=9Cciting t=
+he difficulty of working with U.S. regulators that have taken enforcement a=
+ction against over 100 crypto defendants in six years.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">Which: yes.=C2=A0If you run a crypto exchange =
+and you come into the SEC and say =E2=80=9Cwe want to register as a securit=
+ies=C2=A0exchange so we can let our customers trade securities tokens on ou=
+r website,=E2=80=9D the SEC will stop you right there and say =E2=80=9CWait=
+: customers? Website? No no no no no, if you are an=C2=A0<em>exchange</em>,=
+ you can=E2=80=99t have=C2=A0<em>customers</em>, or a=C2=A0<em>website</em>=
+; that=E2=80=99s for=C2=A0<em>brokers</em>. You can=E2=80=99t come in here =
+and register a securities exchange with <em>customers</em>.=E2=80=9D And th=
+en you go away, confused and sad and probably sued. There is a traditional =
+financial system, and crypto has built a different system, and the SEC has =
+pretty much everywhere said =E2=80=9Cnah, you gotta follow the traditional =
+system.=E2=80=9D=C2=A0And crypto people have said =E2=80=9Cwell we can=E2=
+=80=99t really do that because ...=E2=80=9D and the SEC has said =E2=80=9Cs=
+hh, shh, we don=E2=80=99t care.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">And so last week the SEC <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/31193834.260451/aHR0cHM6Ly93d3cuc2VjLmd=
+vdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMy03Nw/607f07ceef4b8524a319a23cBa5642b91" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> issued an update on a proposed rule</a>=C2=A0updating the definiti=
+on of =E2=80=9Cexchange=E2=80=9D to, among other things, cover decentralize=
+d-finance crypto exchanges. Republican SEC Commissioner Hester Peirce <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/31193834.260451/aHR0cHM=
+6Ly93d3cuc2VjLmdvdi9uZXdzL3N0YXRlbWVudC9wZWlyY2UtcmVuZGVyaW5nLWlub3ZhdGlvbi=
+0yMDIzLTA0LTEy/607f07ceef4b8524a319a23cB018cdaa1" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> dissented</a>, c=
+omplaining that =E2=80=9Crather than embracing the promise of new technolog=
+y as we have done in the past, here we propose to embrace stagnation, force=
+ centralization, urge expatriation, and welcome extinction of new technolog=
+y.=E2=80=9D Her point is that crypto exchanges have built innovative new wa=
+ys to trade securities, and rather than adapting the rules to those innovat=
+ions, the SEC is demanding that those exchanges abandon the innovations and=
+ conform to the traditional rules.</p>
+<p style=3D"margin: 16px 0;">I have said this before, but that=E2=80=99s th=
+e sort of argument that people took seriously a year ago, and now do not. I=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/31193834.260451/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDItMTMvdGhl=
+LXNlYy1jcmFja3MtZG93bi1vbi1jcnlwdG8_Y21waWQ9QkJEMDQxNzIzX01PTkVZU1RVRkYmdXR=
+tX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNDE3JnV0bV=
+9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBad131ace" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">  wro=
+te in February</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">I submit to you that the main fact=
+ of crypto regulation in early 2023 is that regulators feel really burned b=
+y the events of 2022, and particularly by the collapse of FTX. =E2=80=9CWe =
+want to work with these nice smart young people who are building the financ=
+ial system of the future, and I am sure that with their advice we can write=
+=C2=A0smart regulations=C2=A0that protect=C2=A0consumers while still foster=
+ing innovation=E2=80=9D was a totally normal thing for regulators (except t=
+he SEC) to think and say in 2021. But now it is not! Now too many of those =
+smart young people are under indictment or giving interviews from undisclos=
+ed locations; too much customer money is gone.</p></blockquote>
+<p style=3D"margin: 16px 0;">Nobody wants to hear it! Ooh, if we enforce tr=
+aditional securities laws without adapting them to crypto, there will be no=
+ crypto trading in the US: fine!=C2=A0The SEC=E2=80=99s majority view is ju=
+st crystal clear here:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Virtually all crypto tokens are securi=
+ties.</li>=09<li style=3D"margin-bottom: 5px;">Securities cannot legally be=
+ traded, in the US, except on a registered securities exchange.<a class=3D"=
+footnote-index" href=3D"#footnote-4" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: none !important; background-color: transparent !impo=
+rtant; display: inline-block;">
+<span>[4]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">Hahaha good luck registering your=
+ crypto exchange!</li>
+</ul>
+<p style=3D"margin: 16px 0;">Peirce says:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">During my time as a Commissioner, this agency =
+repeatedly has urged firms seeking to sell crypto tokens or build crypto bu=
+sinesses to come in and register. Many firms have responded to this call; t=
+hey have engaged with staff and Commissioners intensively to determine whet=
+her they need to register and, if so, how they might do so. With the except=
+ion of a few token registrations and a very small number of ATSs employing =
+a clunky (to satisfy regulatory demands) method of facilitating trades, no =
+firm has been able to do so.</p>
+<p style=3D"margin: 16px 0;">A Commission serious about regulating=E2=80=94=
+and not destroying=E2=80=94this market would reflect on this near unblemish=
+ed record of regulatory failure and do something about it. We would conside=
+r the possibility that our rules, which in the past have evolved to address=
+ the needs of, and the risks presented by, investors and firms in the tradi=
+tional securities markets, might require some tweaking to permit firms to o=
+ffer innovative ways of doing finance using novel technologies.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CA Commission serious about regulating=
+=E2=80=94and not destroying=E2=80=94this market=E2=80=9D would <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/31193834.260451/aHR0cHM6Ly93d3=
+cuZ29vZ2xlLmNvbS9zZWFyY2g_cT1tYXR0K2xldmluZStnZW5zbGVyK3JlZ3VsYXRlK2NyeXB0b=
+yZybHo9MUM1Q0hGQV9lblVTODA3VVM4MDcmb3E9bWF0dCtsZXZpbmUrZ2Vuc2xlcityZWd1bGF0=
+ZStjcnlwdG8mYXFzPWNocm9tZS4uNjlpNTdqMzNpMTYwbDIuNDg0N2owajcmc291cmNlaWQ9Y2h=
+yb21lJmllPVVURi04/607f07ceef4b8524a319a23cB9f3df13a" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">be a different=
+ SEC</a>! You don=E2=80=99t have to=C2=A0<em>like=C2=A0</em>it, but it is e=
+asy to know what the SEC wants.</p>
+<p style=3D"margin: 16px 0;">Also, I should note that two of the crypto tok=
+ens mentioned as securities here =E2=80=94=C2=A0<a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/31193834.260451/aHR0cHM6Ly93d3cuY29pbmJhc2UuY=
+29tL3ByaWNlL2Rhc2g/607f07ceef4b8524a319a23cBbc39edc3" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">DASH</a> and =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31193834.260451/aH=
+R0cHM6Ly93d3cuY29pbmJhc2UuY29tL3ByaWNlL2FsZ29yYW5k/607f07ceef4b8524a319a23c=
+B5af590b1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> Algorand</a> =E2=80=94 appear to be listed on Coinbase.=
+ If it=E2=80=99s illegal for Bittrex to trade them then presumably it is al=
+so illegal for Coinbase to trade them. I=E2=80=99m sure we=E2=80=99ll find =
+out the SEC=E2=80=99s views on that soon enough.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31193834.260451/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTE5MzgzNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE0NTQyODUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCa4edb1da" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31193834&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31454285&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31193834.260451/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTE5MzgzNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE0NTQyODUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDa4edb1da" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31193834&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31454285&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">IO mortgages</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">For most people, the biggest interest-rate bet=
+ they will make in their lives is taking out a mortgage.<a class=3D"footnot=
+e-index" href=3D"#footnote-5" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: none !important; background-color: transparent !important; =
+display: inline-block;">
+<span>[5]</span>
+</a>=C2=A0If you were a pretty sophisticated Wall Street professional =E2=
+=80=94=C2=A0say, the president of Goldman Sachs Group Inc.? =E2=80=94=C2=A0=
+and it was 2020, what sort of interest-rate bet would you want to make? Wel=
+l, at least with the hindsight of 2023, =E2=80=9Cinterest rates in 2020 are=
+ very low and they will probably go up from here=E2=80=9D would have been a=
+ good bet, so you might have wanted to get short duration. So you=E2=80=99d=
+ borrow as much money as you could=C2=A0at a low long-term fixed interest r=
+ate. Most banks would give you a 30-year mortgage at a fixed rate, which is=
+ a good start. But most mortgages amortize =E2=80=94=C2=A0you pay back some=
+ of the principal each month =E2=80=94 which reduces their duration. If you=
+=C2=A0wanted to be short a=C2=A0<em>lot=C2=A0</em>of duration, you might lo=
+ok for a bank to give you a non-amortizing mortgage where you only pay inte=
+rest, not principal, for many years. (Ideally you=E2=80=99d pay a very low =
+interest rate because of your good credit and fancy job.) And then you coul=
+d use the money to pay for a house that you could have bought with cash, an=
+d invest the cash in very short-term investments =E2=80=94=C2=A0like bank d=
+eposits? =E2=80=94=C2=A0so that it is available to deploy when rates go up.=
+ You have borrowed long to lend short; you have effectively gotten yourself=
+ an interest-rate swap where you pay a fixed rate and receive a floating ra=
+te.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Of course most people do not take out mortgage=
+s primarily to make interest-rate bets; most people take out mortgages beca=
+use that=E2=80=99s how they can afford to buy a house. The president of Gol=
+dman Sachs though ... probably more thoughtful about his interest-rate bets=
+? Less likely to need the money, more likely to be doing a trade? More like=
+ly to have a view on the path of rates, and a desire to get short duration?=
+ More likely to shop around for the bank that will buy as much duration fro=
+m him as possible?=C2=A0</p>
+<p style=3D"margin: 16px 0;">Bloomberg=E2=80=99s=C2=A0Noah Buhayar, Jennife=
+r Surane, Max Reyes and Ann Choi have a story about how First Republic Bank=
+ sought out sophisticated rich customers, <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/31193834.260451/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL2FydGljbGVzLzIwMjMtMDQtMTYvZmlyc3QtcmVwdWJsaWMtcy1sb2Fucy10by1yaWNoLW=
+NsaWVudHMtZHJhZy1lYXJuaW5ncy1oaW5kZXItcG90ZW50aWFsLXNhbGU_Y21waWQ9QkJEMDQxN=
+zIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRt=
+X3Rlcm09MjMwNDE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBb=
+495a371" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">  which was a mistake</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Wealthy homebuyers and property investors with=
+ high incomes and sterling credit scores could get a mortgage from First Re=
+public Bank with a rock-bottom rate for several years. Better yet, they did=
+n=E2=80=99t have to start repaying the principal for a decade.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Across Manhattan, the San Francisco Bay area a=
+nd Southern California, those terms attracted legions of wealthy clients =
+=E2=80=94 including executives from other banks =E2=80=94 as interest rates=
+ sank during the pandemic. The loans left borrowers with more cash to inves=
+t and spend than if they financed their properties with more conventional m=
+ortgages. Demand was so strong that it helped First Republic double its ass=
+ets in four years, while deposits surged. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The mortgages are performing well, but their l=
+ow rates and delayed repayments hurt their value. =E2=80=A6 By the start of=
+ this year, First Republic estimated its $137 billion stockpile of mortgage=
+s would be worth about $19 billion less than their carrying value if sold o=
+ff, its annual report shows. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">New York City property records from the past f=
+ew years show customers came from all over the financial sector and include=
+d industry leaders such as Goldman Sachs Group Inc. President John Waldron,=
+ who took out an $11.2 million mortgage in June 2020, and R. Lawrence Roth,=
+ a board member at Oppenheimer Holdings Inc. =E2=80=A6=C2=A0All of their lo=
+ans had 10-year interest-only periods and rates starting below 3%.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Yes look if you are a regional bank and the pr=
+esident of Goldman Sachs comes in and says =E2=80=9Chi I=E2=80=99d like to =
+make an $11 million interest-rate bet with you,=E2=80=9D you are getting ad=
+versely selected.=C2=A0</p>
+<p style=3D"margin: 16px 0;">One way to think about the 2023 banking mini-c=
+risis in the US is that the problem was with banks whose customers were too=
+ sophisticated.<a class=3D"footnote-index" href=3D"#footnote-6" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: none !important; backgrou=
+nd-color: transparent !important; display: inline-block;">
+<span>[6]</span>
+</a>=C2=A0Silicon Valley Bank borrowed short to lend long and ended up with=
+ a mark-to-market hole in its balance sheet when interest rates went up, bu=
+t that=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+1193834.260451/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIw=
+MjMtMDMtMTMvc3ZiLWNvdWxkbi10LWlnbm9yZS1pdHMtbG9zc2VzLWJ1dC10aGUtZmVkLWNhbj9=
+jbXBpZD1CQkQwNDE3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bm=
+V3c2xldHRlciZ1dG1fdGVybT0yMzA0MTcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07cee=
+f4b8524a319a23cB5e505755" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">  a pretty common story</a> for any bank;=
+ the problem at SVB was that <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/31193834.260451/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2Fy=
+dGljbGVzLzIwMjMtMDMtMTQvc3ZiLXRvb2stdGhlLXdyb25nLXJpc2tzP2NtcGlkPUJCRDA0MTc=
+yM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV=
+90ZXJtPTIzMDQxNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBc=
+142d2d1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">  all of its depositors</a> were venture-backed tech firms=
+ who=C2=A0<em>noticed=C2=A0</em>that hole in the balance sheet, shared that=
+ information with their networks, and acted quickly to protect themselves. =
+They were too smart for <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/31193834.260451/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljb=
+GVzLzIwMjMtMDMtMTcvYmlnLWJhbmtzLXRydXN0LWZpcnN0LXJlcHVibGljLXdpdGgtdGhlaXIt=
+bW9uZXk_Y21waWQ9QkJEMDQxNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc29=
+1cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNDE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cB4e7dc4fa" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  their bank=E2=80=99s own good</=
+a>.</p>
+<p style=3D"margin: 16px 0;">Similarly First Republic courted wealthy and s=
+ophisticated clients with favorable mortgage rates. But wealthy and sophist=
+icated clients are kind of a mixed bag! Sure they have the money to pay you=
+ back; their=C2=A0<em>credit=C2=A0</em>is good. But the risk is that you=C2=
+=A0will=C2=A0sell them products that are advantageous for them, and not so =
+much for you.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Schwab</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">A good price for a stock trade is $0. If you r=
+un a retail brokerage and you charge customers $0 for stock trades, they wi=
+ll tend to keep their money with you and=C2=A0do a lot of stock trades; if =
+you charge them $4.99 they=E2=80=99ll say =E2=80=9Cmeh, stock trading, not =
+great.=E2=80=9D Making stock trading frictionless is good for attracting st=
+ock trading, and you are in the business of attracting stock trading.</p>
+<p style=3D"margin: 16px 0;">But it costs you money to do the trades =E2=80=
+=94=C2=A0you need computers and customer service and so forth =E2=80=94=C2=
+=A0and so you need to pay for them somehow. And so a big question in modern=
+ US retail stock brokerage is how brokers can make money to subsidize commi=
+ssion-free stock trading. One=C2=A0approach that gets a lot of attention=C2=
+=A0is payment for order flow: The broker can charge its customer $0 for a t=
+rade, and then instead of paying to execute the trade on a stock exchange, =
+it can get paid by a market maker that really wants to execute the trade. T=
+his is hotly controversial for reasons we have <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/31193834.260451/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMDUvcm9iaW5ob29kLWdhbWVzdG9wLXNhZ2Etc=
+HJlc3N1cmVzLXBheW1lbnQtZm9yLW9yZGVyLWZsb3c_Y21waWQ9QkJEMDQxNzIzX01PTkVZU1RV=
+RkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNDE=
+3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB5ee81709" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">  discussed too many times</a>, and the US Securities and Exchange Commis=
+sion has been <a href=3D"https://link.mail.bloombergbusiness.com/click/3119=
+3834.260451/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjI=
+tMTItMTUvdGhlLXNlYy13YW50cy1tb3JlLXN0b2NrLWF1Y3Rpb25zP2NtcGlkPUJCRDA0MTcyM1=
+9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90Z=
+XJtPTIzMDQxNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB4384=
+9bbd" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">  working on rules to restrict it</a>, rules that might make =
+it harder for brokers to offer commission-free trading.</p>
+<p style=3D"margin: 16px 0;">But there is another, simpler, more popular=C2=
+=A0approach, which is that most brokerage customers tend to have=C2=A0<em>c=
+ash=C2=A0</em>in their brokerage accounts, cash that they have not yet inve=
+sted in stocks. The brokerage can take that cash, invest it in safe bonds, =
+earn some interest, pay a little of the interest to customers, keep the res=
+t of it for itself, and subsidize free trading that way. That is, the broke=
+rage can also be a bank, and make a net interest margin on the difference b=
+etween what it pays customers on their deposits and what it earns from inve=
+sting them.=C2=A0In 2019, <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/31193834.260451/aHR0cHM6Ly93d3cua2FsenVtZXVzLmNvbS8yMDE5LzYvMjYvaG9=
+3LWJyb2tlcmFnZXMtbWFrZS1tb25leS8/607f07ceef4b8524a319a23cBb26cf85c" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> Patrick McKenzie pointed out</a> that =E2=80=9C57% of Schwab=E2=80=99s re=
+venues are from net interest. The firm could literally give away every othe=
+r service; discount the mutual fund fees to zero, do away with commissions,=
+ etc etc, and they would still be profitable.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">It is possible that that was a low-rates pheno=
+menon, or at least that it breaks down a bit when rates rise rapidly. Bloom=
+berg=E2=80=99s=C2=A0Annie Massa and Edward Harrison <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/31193834.260451/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDQtMTQvc2Nod2FiLWVhcm5pbmdzLWJyb2tlcmFn=
+ZS1mYWNlcy1mcmVzaC1yaXNrcy1pbi10aGUtemVyby1mZWUtbGFuZHNjYXBlLWl0LXNoYXBlZD9=
+jbXBpZD1CQkQwNDE3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bm=
+V3c2xldHRlciZ1dG1fdGVybT0yMzA0MTcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07cee=
+f4b8524a319a23cB7fa1502d" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">  reported last week</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Charles Schwab Corp. stunned Wall Street in 20=
+19 by slashing trading commissions to zero, forcing its competitors to adap=
+t. The move amounted to a big bet that its bank =E2=80=94 rather than its w=
+ell-known discount brokerage =E2=80=94 would keep driving profits.</p>
+<p style=3D"margin: 16px 0;">For a while, it worked to perfection. The pand=
+emic hit, interest rates were pinned near historic lows, and Schwab raked i=
+n billions as the fees it had forsaken were offset by what the company earn=
+ed from its banking operation.</p>
+<p style=3D"margin: 16px 0;">But last month=E2=80=99s collapse of three US =
+banks, the industry=E2=80=99s worst crisis since 2008, has turned that wage=
+r on its head.</p>
+<p style=3D"margin: 16px 0;">Now Schwab, the biggest publicly traded US bro=
+kerage, faces one of the most painful moments in its 50-year history. After=
+ a rapid surge in interest rates, deposits sank while unrealized losses swe=
+lled.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Schwab got customer cash and invested it in bo=
+nds that lost money:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Because Schwab generates most of its money fro=
+m customer funds idling in low-yielding accounts =E2=80=94 which it =E2=80=
+=9Csweeps=E2=80=9D into its bank arm =E2=80=94 the firm needed somewhere to=
+ invest incoming cash as trading surged.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Like Silicon Valley Bank, the largest of the t=
+hree lenders that imploded last month, Schwab plowed into debt that will ta=
+ke five years or more to mature. =E2=80=A6 The investments are now underwat=
+er, though Schwab won=E2=80=99t have to book a loss unless it=E2=80=99s for=
+ced to sell them.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">And meanwhile the customer cash is drying up b=
+ecause there are better rates elsewhere:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Whether the remaining deposits stay put will d=
+epend to a degree on the big independent advisers that buttress Schwab=E2=
+=80=99s business. They=E2=80=99re increasingly focused on getting the best =
+returns for clients=E2=80=99 cash.</p>
+<p style=3D"margin: 16px 0;">Charles Sachs, chief investment officer at Kau=
+fman Rossin Wealth, is among them. He moves customer money from Schwab swee=
+p accounts into its higher-yielding money-market funds, on almost a daily b=
+asis.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">When rates are very low and your brokerage cus=
+tomers are YOLO=E2=80=99ing GameStop Corp. options, it is not really worth =
+their time to move money from a cash sweep account earning 0% to a money-ma=
+rket fund earning 0.5%. When rates go up, though, the money-market funds st=
+art looking more attractive, and leaving cash idle to be ready to buy meme =
+stocks is less attractive.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Anyway Schwab <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/31193834.260451/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9uZXdzL2FydGljbGVzLzIwMjMtMDQtMTcvc2Nod2FiLWRlcG9zaXRzLWRyb3AtYXMtYnJva2VyY=
+WdlLXBhdXNlcy1zaGFyZS1yZXB1cmNoYXNlcz9jbXBpZD1CQkQwNDE3MjNfTU9ORVlTVFVGRiZ1=
+dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA0MTcmdXR=
+tX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb34555c4" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">  r=
+eported earnings today</a> and they were fine:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Shares of Schwab rose 2.8% to $52.18 at 11:46 =
+a.m. in New York, paring their decline this year to 37%. =E2=80=A6 Schwab=
+=E2=80=99s customer deposits slid 11% since year-end to $325.7 billion as o=
+f March 31. They=E2=80=99re down 30% from a year earlier, a drop that rough=
+ly matched Wall Street estimates. =C2=A0</p>
+<p style=3D"margin: 16px 0;">In a sign of strength, customers continued to =
+add money to Schwab=E2=80=99s investment offerings. Core net new assets tot=
+aled $132 billion, including more than $53 billion in March alone, the seco=
+nd-most ever for that month.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The Federal Reserve=E2=80=99s rapid interest r=
+ate hikes buffeted Schwab=E2=80=99s business in recent quarters. Deposits, =
+which underpin revenue, declined as customers moved away from lower-interes=
+t accounts and looked for investments that provide better returns for their=
+ excess cash. That trend is beginning to moderate, executives said Monday.<=
+/p>
+</blockquote>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Everything is securities fraud</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If a publicly traded company owns a television=
+ network and uses it to make false claims=C2=A0about rigged US elections, i=
+s that securities fraud? Uh, I mean, technically <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/31193834.260451/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDQtMTEvZm94LWNvbnNwaXJhY3ktdGhlb3JpZXMtc3B=
+1ci1kZWx1Z2Utb2YtdGhyZWF0cy1kb21pbmlvbi1zYXlzP2NtcGlkPUJCRDA0MTcyM19NT05FWV=
+NUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzM=
+DQxNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBb3dc0da3" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">  this is a shareholder derivative lawsuit</a>, but I=E2=80=99m going=
+ to count it:</p>
+<blockquote><p style=3D"margin: 16px 0;">A Fox Corp. investor sued Rupert M=
+urdoch and his son Lachlan on Tuesday, blaming them for allowing Fox News t=
+o spread lies about the election and prompting the [Dominion] defamation ca=
+se. Delaware=E2=80=99s Chancery Court suit accuses the Murdochs and three o=
+ther Fox directors of =E2=80=9Cknowingly=E2=80=9D hosts and guests to sprea=
+d Trump=E2=80=99s false stolen-election claims.</p></blockquote>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/31193834.260451/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVu=
+dHMvdXNlcnMvaXFqV0hCRmRmeElVL3JnR2RyZm80UjhnWS92MA/607f07ceef4b8524a319a23c=
+B392dc5ef" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> the complaint</a>, which =E2=80=9Casserts claims for br=
+eaches of fiduciary duty=E2=80=9D against the directors. A sample:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Board=E2=80=99s decision to chase viewers =
+by promoting the false stolen election claims has exposed the Company to pu=
+blic ridicule and negatively impacted the credibility of Fox News as a medi=
+a organization that is supposed to accurately report newsworthy events. The=
+ Company is now the subject of two defamation cases, with combined damages =
+claimed to exceed $4 billion. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The Board=E2=80=99s failures caused and/or all=
+owed the Company to sell a fictitious story of election fraud for the sole =
+purpose of serving its own business purposes, in disregard for the truth, t=
+he Board=E2=80=99s fiduciary obligations and the Company=E2=80=99s best int=
+erests.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">What a weird sentence. Surely =E2=80=9Cserving=
+ [the Company=E2=80=99s] own business purposes=E2=80=9D is the main fiducia=
+ry obligation of the board? More than credibility or avoiding ridicule? Lik=
+e if the claim here was that Fox frittered away all of its money on things =
+that the directors liked but that were bad for business, fine, but here the=
+ claim is that the directors thought the election lies were distasteful but=
+ <em>good</em> for business. I am not sure how that is a fiduciary breach.<=
+/p>
+<p style=3D"margin: 16px 0;">The complaint cites various feel-good Fox publ=
+ic statements=C2=A0and says that =E2=80=9CDefendants=E2=80=99 actions/inact=
+ions violated the Statement of Corporate Governance, the Standards of Busin=
+ess Conduct, the Corporate Social Responsibility policies, and the [Sustain=
+ability Accounting Standards Board]=C2=A0standard.=E2=80=9D A <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/31193834.260451/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDUtMDEvaXQtZG9lc24tdC1wYX=
+ktdG8tYmUtdG9vLWV0aGljYWw_Y21waWQ9QkJEMDQxNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1b=
+T1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNDE3JnV0bV9jYW1wYWln=
+bj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB6fe6631a" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">  standard</a> =
+everything-is-securities-fraud <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/31193834.260451/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjEtMDItMDMvZ29sZG1hbi1zYWNocy1nb2VzLXRvLXN1cHJlbWUtY291cnQta=
+GVkZ2UtZnVuZHMtd29uLW9uLWdhbWVzdG9wLWtrcG9lNndzP2NtcGlkPUJCRDA0MTcyM19NT05F=
+WVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI=
+zMDQxNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB7feea288" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">  theory</a> is that if a company says publicly that it has good et=
+hics, and then it turns out that in fact it did unethical things, and the s=
+tock drops, then shareholders will sue for fraud; fine. (Fox=E2=80=99s stoc=
+k is <em>up</em> since the 2020 election but never mind.)=C2=A0You can sue =
+for=C2=A0<em>securities fraud </em>if the public statements=C2=A0are false.=
+ But suing for a=C2=A0<em>breach of fiduciary duties=C2=A0</em>seems odder:=
+ The essential claim here is that the directors prioritized the business in=
+terests of the company over truth, ethics, US democracy, etc. Which is=C2=
+=A0<em>bad</em>, but not necessarily bad=C2=A0<em>for shareholders</em>.</p=
+>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">JPMorgan, Citigroup and Wells Fargo <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/31193834.260451/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDQtMTQvanBtb3JnYW4tY2l0aS1=
+3ZWxscy1yZWFwLWdhaW5zLWZyb20tcmF0ZXMtcm9pbGluZy1zbWFsbC1iYW5rcz9jbXBpZD1CQk=
+QwNDE3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlc=
+iZ1dG1fdGVybT0yMzA0MTcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319=
+a23cBf68b80db" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> Reap Gains</a> From Rates Roiling Small Banks.=C2=
+=A0Banks Are Finally Facing Pressure to <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/31193834.260451/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlc=
+y9iYW5rcy1hcmUtZmluYWxseS1mYWNpbmctcHJlc3N1cmUtdG8tcGF5LWRlcG9zaXRvcnMtbW9y=
+ZS04OGQ2NDQ3ZD9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB628d0cf=
+2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Pay Depositors More</a>.=C2=A0In Morgan Stanley CEO Race, <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/31193834.260451/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjMtMDQtMTYvbW9yZ2FuLXN0Y=
+W5sZXktY2VvLXJhY2Utd2h5LWFuZHktc2FwZXJzdGVpbi1pcy10aGUtbWFuLXRvLXdhdGNoP2Nt=
+cGlkPUJCRDA0MTcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXd=
+zbGV0dGVyJnV0bV90ZXJtPTIzMDQxNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4=
+b8524a319a23cB6915dc5c" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">  Wealth Boss</a> Emerges as One to Watch. =
+Bank Failures Rattle Market for <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/31193834.260451/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9iYW5rL=
+WZhaWx1cmVzLXJhdHRsZS1tYXJrZXQtZm9yLXNob3J0LXRlcm0tbGVuZGluZy1kMGU3ZWVjZD9t=
+b2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB17ce65f0" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Shor=
+t-Term Lending</a>.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31193834.260451/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9saWZlLWluc3Vy=
+YW5jZS1pcy1wcm9maXRhYmxlLWFnYWluLWJ1dC10b28tbGF0ZS1mb3ItbWFueS1pbnN1cmVycy0=
+3YWJiN2JlMT9tb2Q9aHBfbGVhZF9wb3M2/607f07ceef4b8524a319a23cB4dcfaa48" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> Life Insurance</a> Is Profitable Again, but Too Late for Many Insurers.=
+=C2=A0Saudi Arabia Transfers Nearly $78 Billion of <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/31193834.260451/aHR0cHM6Ly93d3cud3NqLmNvbS=
+9hcnRpY2xlcy9zYXVkaS1hcmFiaWEtdHJhbnNmZXJzLWFyYW1jby1zaGFyZXMtd29ydGgtbmVhc=
+mx5LTc4LWJpbGxpb24tdG8td2VhbHRoLWZ1bmQtZjNhODM1NzQ_bW9kPWl0cF93c2omcnU9eWFo=
+b28/607f07ceef4b8524a319a23cBa8e25365" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> Aramco Shares</a> to Wealth=
+ Fund. Swiss-owned company=E2=80=99s <a href=3D"https://link.mail.bloomberg=
+business.com/click/31193834.260451/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNmQ1=
+MWZkMWUtMDdiNC00YWE2LTk1YjAtZTE2MzQ4MTZiZjNk/607f07ceef4b8524a319a23cBa88dc=
+18e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Russian gold trades</a> expose gap in western sanctions.=C2=
+=A0ChatGPT Can Decode Fed Speak, <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/31193834.260451/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjMtMDQtMTcvY2hhdGdwdC1jYW4tZGVjb2RlLWZlZC1zcGVhay1wcmVkaWN0LXN=
+0b2NrLW1vdmVzLWZyb20taGVhZGxpbmVzP2NtcGlkPUJCRDA0MTcyM19NT05FWVNUVUZGJnV0bV=
+9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDQxNyZ1dG1fY=
+2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB098fecff" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">  Pred=
+ict Stock Moves</a> From Headlines.=C2=A0Elon Musk=E2=80=99s Twitter Paymen=
+t Plan Puts <a href=3D"https://link.mail.bloombergbusiness.com/click/311938=
+34.260451/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDQtM=
+TcvbnljLXN1YndheS1hbGVydHMtYXQtcmlzay11bmRlci10d2l0dGVyLXBsYW4tdG8tbWFrZS1t=
+dGEtcGF5P2NtcGlkPUJCRDA0MTcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3N=
+vdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDQxNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg=
+/607f07ceef4b8524a319a23cB07235398" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">  NYC Subway Alerts</a> at Risk=
+. =E2=80=98Overemployed=E2=80=99 Hustlers Exploit ChatGPT To Take On Even <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/31193834.260451/aHR=
+0cHM6Ly93d3cudmljZS5jb20vZW4vYXJ0aWNsZS92N2JlZ3gvb3ZlcmVtcGxveWVkLWh1c3RsZX=
+JzLWV4cGxvaXQtY2hhdGdwdC10by10YWtlLW9uLWV2ZW4tbW9yZS1mdWxsLXRpbWUtam9icz9yZ=
+WY9dGhlZGlmZi5jbw/607f07ceef4b8524a319a23cB5edf0a55" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> More Full-Tim=
+e Jobs</a>. A $300,000 Salary <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31193834.260451/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGl=
+jbGVzLzIwMjMtMDQtMTUvbWFraW5nLTMwMC0wMDAtYS15ZWFyLWZlZWxzLW1vcmUtbGlrZS0xMD=
+AtMDAwLXNhbGFyeS1pbi10aGVzZS10aHJlZS1jaXRpZXM_Y21waWQ9QkJEMDQxNzIzX01PTkVZU=
+1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMw=
+NDE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBce9c58f5" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">  Feels Like $100,000</a> in The Priciest US Cities. Police search for=
+ group of suspects who stole <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/31193834.260451/aHR0cHM6Ly82YWJjLmNvbS9kaW1lLXRoZWZ0LXRyYWlsZXIt=
+Y29udGFpbmluZy1kaW1lcy1waGlsYWRlbHBoaWEtd2FsbWFydC1wYXJraW5nLWxvdC8xMzEyNzE=
+yMS8/607f07ceef4b8524a319a23cB8709f225" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> 2 million dimes</a> from t=
+ruck in Northeast Philadelphia.=C2=A0Athletics Ireland sorry for mix-up tha=
+t led to national 10km race being <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31193834.260451/aHR0cHM6Ly93d3cuYmJjLmNvbS9zcG9ydC9hdGhsZXR=
+pY3MvNjUyOTU0NDM/607f07ceef4b8524a319a23cBc0bc4020" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> too short</a>.=
+</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31193834.260451/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB92fb71ba" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31193834.260451/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBbb777e19" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] This is not a necessary function of a cryp=
+to exchange, really: The exchange could match buyers and sellers, and then =
+the trades could settle =E2=80=9Con chain,=E2=80=9D with the tokens moving =
+from the seller=E2=80=99s wallet to the buyer=E2=80=99s on the relevant cry=
+pto blockchain without ever passing through the exchange. Historically cryp=
+to exchanges have been more convenient when they=E2=80=99re centralized and=
+ keep custody of their customers=E2=80=99 tokens (and cash), but there are =
+lots of decentralized exchanges that are not especially clearinghouse-like,=
+ and some big centralized exchanges let users self-custody these days. Stil=
+l most centralized exchanges are also in the clearing business.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] They are commodities. A feature of US law =
+is that, broadly speaking, you can run a commodities exchange without much =
+oversight, but if you run a commodities *futures* exchange you have to regi=
+ster with the US Commodity Futures Trading Commission. And so crypto exchan=
+ges tend not to offer derivatives trading to US customers, to avoid CFTC re=
+gistration; sometimes they let US customers trade futures and then <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/31193834.260451/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMjcvdGhlLWNmdGMt=
+Y29tZXMtZm9yLWJpbmFuY2U_Y21waWQ9QkJEMDQxNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1=
+lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNDE3JnV0bV9jYW1wYWlnbj=
+1tb25leXN0dWZm/607f07ceef4b8524a319a23cBefe6c618" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">  get in trouble =
+with the CFTC</a>. A spot Bitcoin exchange =E2=80=94 no futures, no securit=
+ies =E2=80=94 is the sweet spot for avoiding most US registration requireme=
+nts.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Another is =E2=80=9Ctokens used/advertised=
+ for illegal activities and purposes (e.g. gambling, narcotics, darknet mar=
+kets),=E2=80=9D which doesn=E2=80=99t strike me as a big *securities-law* p=
+roblem but is, you know, a problem.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] This is loose =E2=80=94 they can be traded=
+ on an ATS, or directly with a market maker, etc., as discussed above =E2=
+=80=94 but I suspect pretty close to what the SEC thinks.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] Well. Arguably every financial decision is=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/31193834.260451/a=
+HR0cHM6Ly93d3cuYml0c2Fib3V0bW9uZXkuY29tL2FyY2hpdmUvYmFua2luZy1pbi12ZXJ5LXVu=
+Y2VydGFpbi10aW1lcy8/607f07ceef4b8524a319a23cBedd34004" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">in some deep=
+ sense an interest-rate bet</a>, so, like, going to work at a startup or ge=
+tting a graduate degree or having children are in some sense decisions abou=
+t discount rates. But the mortgage is an explicit rates bet.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] Or <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/31193834.260451/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjMtMDMtMDIvc2lsdmVyZ2F0ZS1oYWQtYS1jcnlwdG8tYmFuay1ydW4_=
+Y21waWQ9QkJEMDQxNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5=
+ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNDE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07cee=
+f4b8524a319a23cB288fadda" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">  in crypto</a>. That=E2=80=99s different=
+. </p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31193834.260451/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBc11d7a85" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31193834.260451/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB6f0d9044" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31193834.260451/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBea88152b" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31193834.260451/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB62c88043" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/31193834.260451/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB9515d990" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/31193834.2604=
+51/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB8040a17a" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31193834.260451/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC2b00ad18" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/31193834.260451/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB9724ed28" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31193834.260451/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB415099bd" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31193834.260451/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB6=
+aa51423" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31193834.260451/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB1=
+8467481" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ciklbe.5kyr/00242d7b.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_39985697_897913030.1681757813344--
+

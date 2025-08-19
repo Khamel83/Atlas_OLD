@@ -11,14 +11,8 @@ from datetime import datetime
 sys.path.append('/home/ubuntu/dev/atlas')
 
 from cognitive_engine import CognitiveEngine
-from helpers.config import load_config
-from cognitive_engine import CognitiveEngine
 import glob
-import os
 import json
-import time
-import subprocess
-from datetime import datetime
 
 def check_current_status():
     """Check what we have so far"""

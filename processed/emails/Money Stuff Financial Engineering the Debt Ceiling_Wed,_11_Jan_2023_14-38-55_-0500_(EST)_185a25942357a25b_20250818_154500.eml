@@ -1,0 +1,2288 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:a51:b0:e2:9b5b:7c1 with SMTP id 17csp5361517rwb;
+        Wed, 11 Jan 2023 11:40:37 -0800 (PST)
+X-Received: by 2002:a7b:cd99:0:b0:3d3:5506:1bac with SMTP id y25-20020a7bcd99000000b003d355061bacmr54302806wmj.30.1673466037095;
+        Wed, 11 Jan 2023 11:40:37 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1673466037; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=GZDihrcLxhh57Zhy8krNsRi4imhinDEjhpl3i2ULtQrT8RD4vX7wGR2Pde8Z53h4G/
+         skfCvhdlaV3wdCqtwlmaBvM40rU6Hi0JdL9eCULPBZ9WACqv7WPQ+U+0DmygZupkdTzu
+         lMw9eGwcs4B1vkgjNL6R6/INT2qXyYtBHrrH7TTK276wCJlhZcS8gKsOQ2mh0LBMeVB9
+         8hJUKcEA9g7pzQVoqCm2KuA4VovuVJLbxtoHle1X8ffrM9UNUXdyT6hbAaFjkO1u0IXx
+         TwBtehbGmsOlI9BGhA6Nv25IWUxAcoFzsLmUPsNlrM0w4H81tUuXQAiB0xgGOn8e6LqK
+         ZHtA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=LPzgoXuxAZg2+CFYjQvYyno+PyNA36TW6HIoRcawrug=;
+        b=ggfXWXk4/8w9FHiqU+R9ND9LH4+YnY6OcJ5/j8cQx88shvwQ5HD4rYac7d0w+6gsqL
+         YvEpXLifHh4bSnTyEMRtJZAgKV5kQDTlxTsa4iQW0RTzgCD8p+U6jhN3rqLXnigUWqsg
+         RAiEqCKfD/6bQ+WOka/nIasdRTR+8xJHQVE5n0RLyswFitiGckkEYzDm+aN7aN7sdn9B
+         Ki1voNgoJXInWIYVuSCkVV2qgDvKmBhEvINnXlynjLt/mussa8kUTeuuG6m4vCJ+RHdC
+         GpePfLG8RTyJSMfqAhR4yhOm7lils8glCDLFRtp/L0aCtjMOOO1wCT6TpSZVL9dhOAbD
+         EbbA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=nP3VT9Y9;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id h22-20020a1ccc16000000b003c6c0791990sor6083392wmb.18.2023.01.11.11.40.36
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 11 Jan 2023 11:40:37 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=nP3VT9Y9;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=LPzgoXuxAZg2+CFYjQvYyno+PyNA36TW6HIoRcawrug=;
+        b=V5YN5r5PnMzH/i5/kMXu7lvtXey0vAhdAwgKREptNnV0NdyeJhF/HORUDlra49Oc3K
+         CYSWrfOHPFChvS+pN2iSM0iBXo1qenPSig1Xi3wZddHvN2FbLXoYC/34M3E9hphGryNJ
+         m4UaWx01GQDpj+Lr2Tdch245bYocEvQX1r+xfK0wU79QbP6QyNtYJUvJYQfGH2T7q8VE
+         vhgVv3iate9BSYMuDGJfJXrsYUDBjxdIBiK61X1QGgrxzkaCfs5BxHTu8r0E0g8RvUdY
+         HAq88zyk+mrDaPQLNlwAMcxoYnIKbCXygBu35dUeizosGLsgkUebLV9g15DHIuZ4AIyv
+         aP5A==
+X-Gm-Message-State: AFqh2kp43B+jhPvQef8FBxHVEK5+80brDaRHGR6CemZfW+9tGj+daKy9
+	Ck9YUW6pHXx20i7N8lUlG7+N09dnWCi+HkeD+gRTvrcSEnJYyOpefQ==
+X-Received: by 2002:a1c:7916:0:b0:3d9:ebb2:9c3d with SMTP id l22-20020a1c7916000000b003d9ebb29c3dmr1387052wme.196.1673466036547;
+        Wed, 11 Jan 2023 11:40:36 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:5608:0:0:0:0:0 with SMTP id l8csp3784278wrv;
+        Wed, 11 Jan 2023 11:40:33 -0800 (PST)
+X-Received: by 2002:a05:6871:4595:b0:144:8c76:636 with SMTP id nl21-20020a056871459500b001448c760636mr35450449oab.39.1673466032995;
+        Wed, 11 Jan 2023 11:40:32 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1673466032; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=gOqdVuNry0HTvYeQHCDAjTL9z5+/HWTauYnLhQJF80IYRHO5q9UgYrAJcx6HwWHJje
+         0JIBqNkADCPM0BuA2PkxHoG/JIGR0k0BNEp+M7w/X4/YpsJb57EII+8X5m2Ln6YPg5XK
+         5rufnC8VFZBC5fqZ9mrb3iYDhrQY6tuAsbA427X3JHnL5/7HBenYp3Xa1SbroG/FemoB
+         z2LRNUAJh90mrtrC23Mwjnyvj2iZThDaF4Vu7I3p4lKawCAnOgHLiopu0DrckgwMCjI6
+         83+UvD9at1H5hQZcpQWZUOy7R6yO90r4HdG4G66tSqlggsw6sEg6f8xLL+KNZHW3ybZz
+         fcZg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=LPzgoXuxAZg2+CFYjQvYyno+PyNA36TW6HIoRcawrug=;
+        b=IN1sHBrLuRqYxqHqFpeN2kBR0H0zJuhHjTgMgj57Phg79zlyXfjfT6+aQJssfalehK
+         2Ew3KXc7URpd90Mm7wI/hrZYPpn0cyV/eSk1A0sCdCk7YpxLg+jvGhupWVe8AicE/03u
+         lgdIz8my1zfNS3FLZd9b3GgAd5ULz5/5gJxQHFaK8EWRjPE+OzAAoFWuh5XyvfrDya6c
+         tyiW/X5NlUVObUjr+aBX98K5T14q1p1LYMdK4Zpp1kuHwjZAV4B5xi0ALwtz9rafnAVX
+         hU9aY19mnAzJu/6rN+MT6Q6Dr4rNn1SjSoVrYF0Pqce6HMCyoepXUi0bzbEhssm42TY+
+         YnbQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=nP3VT9Y9;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230111143855.30221555.272521@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230111143855.30221555.272521@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230111143855.30221555.272521@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id p37-20020a0568708a2500b00150258dca47sor186772oaq.34.2023.01.11.11.40.32
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 11 Jan 2023 11:40:32 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20230111143855.30221555.272521@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AMrXdXsGFKuByGBY2awZyZK02Mld4elNorpDKeIzDlp5hk0FidWpyC56JaASMpNAQpvtcQu/scdRRb6tXTvQMu+caS81oBNuKO0=
+X-Received: by 2002:a05:6870:9e9b:b0:15b:a7e:2c8a with SMTP id pu27-20020a0568709e9b00b0015b0a7e2c8amr6646116oab.50.1673466032663;
+        Wed, 11 Jan 2023 11:40:32 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1673466032; cv=none;
+        d=google.com; s=arc-20160816;
+        b=kvCBmig/ixG9MFRVsRU72bXYj12p3RD2FBsJJZ1Y1XA/wgbuoZ/n3NgA/Xizrw0quV
+         U4DMLuDtPqwQdieLQiYyXTO+dsU60Hz8U7Z3HH1xPWYfDOg39CridA0ryUtV2oC5W3Bt
+         Ip9h8pRxzts0tm0TAQMoDojQsCLemM5xLbEKDBEWuAhP2kpB9izHhCqpge8ZDIyY8hwm
+         x463baxWrOkgqkSW4fCrI001QsO5OORo1YE0rzrFFy/HNve52YPRo9da0NpUSjoT5gGV
+         U/YP6i40v2ODp/e1+5AFwlleAsDHgm6o4oABQS+ii15zL8jztKXilxJ01e1WslU68K9c
+         Sdsg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=LPzgoXuxAZg2+CFYjQvYyno+PyNA36TW6HIoRcawrug=;
+        b=PYP51LEdJ3e3we67eCOmZQSutpCyGAaYxm0S9nlQpsKHUf0wrqIpsAOTOm/oSlPKvh
+         nsUJY99u/nlw+dNMK05IrnRcKV76z5jd6Ufs/AUj6o1JY2DUKoedhT/6P6w/0FSotciZ
+         +63yku0NXrMwZ5jmIJn2xtZL5nT4yscDirQZbLh7Qab2WK8R36nWng8qtGBmDso0bWZZ
+         oinIMTOQqKwhgCkNuhEa5X87PbkhzJQTxWIRIvh+Anai4tzQJv02sDgFPSQ4+GtcHpaJ
+         2XYOW0gzIxZjZnEQ9aOed3kUZrbTmgzPtVptt7k4H0BolnWafkFWkGCEiR4hwLDcnqPB
+         0V2w==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=nP3VT9Y9;
+       spf=pass (google.com: domain of delivery_20230111143855.30221555.272521@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230111143855.30221555.272521@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230111143855.30221555.272521@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id z15-20020a056871014f00b0015452b4f27asi1500588oab.3.2023.01.11.11.40.32
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 11 Jan 2023 11:40:32 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20230111143855.30221555.272521@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=caJxGhn4XW0vpsDfai7JjQTpYz9XnT7NcWe5pQGOUs4=;
+ b=nP3VT9Y9ys5oRBcVadEZK4pes2uLbRlmqPK1S9u40mhhlc5oG9RKGUcQ9mNEMXxqTB13gy4A2/Di
+   1jmqPxz6Hf5Rs2agacW0FBG9JY9RQWUh/5Q8jTIE+CiOrgeEzzcptrwtsKL5CN2G6eUHENh4kLH+
+   wJbkxq3NAnXWoBg8cjM=
+Received: from nj2mta-18.sailthru.com (204.153.121.18) by bloomberg-b.sailthru.com id hns8b030nu8r for <bloomberg@khamel.com>; Wed, 11 Jan 2023 14:40:32 -0500 (envelope-from <delivery_20230111143855.30221555.272521@mx.sailthru.com>)
+Date: Wed, 11 Jan 2023 14:38:55 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230111143855.30221555.272521@sailthru.com>
+Subject: Money Stuff: Financial Engineering the Debt Ceiling
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_221496140_60234851.1673465935088"
+Precedence: bulk
+X-Feedback-ID: 6358:30221555:campaign:sailthru
+X-TM-ID: 20230111143855.30221555.272521
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-heypurple.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23chzr3n.5ua1/53a8b78d
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23chzr3n.5ua1/53a8b78d>, <mailto:unsubscribe_20230111143855.30221555.272521@mx.sailthru.com>
+X-rpcampaign: stjko30221555
+
+------=_Part_221496140_60234851.1673465935088
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        The dumbest thing in economics, the US government=E2=80=99s debt ce=
+iling, is clattering into relevance again. Basically the US Department of t=
+he Tre
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Mint the premium=C2=A0bonds!
+   =20
+ =20
+
+The dumbest thing in economics, the US government=E2=80=99s debt ceiling, i=
+s clattering into relevance again. Basically the US Department of the Treas=
+ury has to pay the US government=E2=80=99s bills, and to do that it issues =
+debt, and every time it issues new debt it adds a little to the total amoun=
+t of debt outstanding, and=C2=A0eventually the debt outstanding reaches som=
+e arbitrary number called=C2=A0the =E2=80=9Cdebt ceiling.=E2=80=9D And then=
+ Treasury can=E2=80=99t issue any more debt, unless Congress raises the deb=
+t ceiling. Which it can easily do =E2=80=94=C2=A0it=E2=80=99s just an arbit=
+rary number! =E2=80=94=C2=A0but=C2=A0Republicans in Congress keep threateni=
+ng not to,=C2=A0and if that happens=C2=A0then the government=C2=A0can=E2=80=
+=99t pay its bills and defaults on its obligations. Here is a recent speech=
+ from Assistant Secretary of the Treasury Joshua Frost with more detail on =
+why the debt ceiling is dumb and why Congress should raise it.
+But there is a real risk that Congress=C2=A0won=E2=80=99t, so=C2=A0today Bl=
+oomberg Opinion contributor=C2=A0Matt Yglesias has a Substack column arguin=
+g that=C2=A0Treasury should solve the problem of the debt ceiling using pre=
+mium bonds. I think this is correct, I have made this  argument a few times=
+ before, and Yglesias clearly explains why the debt ceiling is very dumb an=
+d why Treasury should, if need be, use gimmicks to solve it. And as gimmick=
+s go,=C2=A0this one is fine. But his bond math is a little odd=C2=A0so I wa=
+nted to walk through a simplified version=C2=A0here.
+Assume that the US Treasury, these days, can issue a one-year bond at an in=
+terest rate of 4.5%; that is not quite right but good enough.
+  [1]
+=C2=A0Simplistically,=C2=A0you pay Treasury $100 today, and in a year, Trea=
+sury pays you back your $100, and also $4.50 of interest.
+  [2]
+=C2=A0When this bond is issued, it increases the government=E2=80=99s debt =
+by $100, the face amount of the bond.
+  [3]
+=C2=A0
+You could imagine a debt ceiling that worked a different way: You could ima=
+gine counting this bond as adding $104.50 to the debt, since that is the to=
+tal amount that the government has to pay back in principal and interest. B=
+ut that would be sort of economically nonsensical, and anyway it is not the=
+ way the actual debt ceiling works. The actual US debt ceiling statute caps=
+ =E2=80=9Cthe face amount of obligations=E2=80=9D issued or guaranteed by t=
+he government, meaning the principal=C2=A0amount, not the interest it has t=
+o pay. Principal repayment obligations count toward the debt ceiling; inter=
+est obligations do not.
+Of course, you could pay Treasury $200 today to buy=C2=A0two=C2=A0of these =
+one-year, $100, 4.5% bonds. That would increase the debt stock by $200. And=
+ in a year you=E2=80=99d get back $209: your $200, plus 4.5% interest on yo=
+ur $200.
+The premium-bond gimmick is: Treasury sells you=C2=A0one one-year $100 bond=
+ today, with an interest rate of 109%. In a year you get back $209: the $10=
+0 face amount of the bond, plus 109% interest. That bond has a face amount =
+of $100, but it is clearly=C2=A0worth=C2=A0$200 today: It is economically t=
+he same as the two 4.5% bonds from the previous paragraph. So you=E2=80=99d=
+ be willing to pay Treasury $200 for it: the $100 face amount, plus $100 of=
+ =E2=80=9Cpremium=E2=80=9D to make the yield work out. And Treasury would b=
+e willing to sell it to you for $200: It sells you this $100 bond for $200.=
+ Treasury gets $200 of cash. But technically this bond is only $100 of =E2=
+=80=9Cdebt,=E2=80=9D of face amount, so it only increases the debt by $100.
+You can do this for other maturities,=C2=A0with slightly more math. Today t=
+he 10-year Treasury note yield is about 3.6%. Instead of paying $100 for a =
+10-year Treasury note that pays a normal=C2=A0annual interest rate ($3.60 p=
+er year) and pays back $100 at maturity, you could pay $200 for a 10-year T=
+reasury note that pays normal annual interest=C2=A0plus=C2=A0$10 per year, =
+and pays back $100 at maturity. You get your $200 back =E2=80=94=C2=A0$10 p=
+er year for 10 years plus $100 at the end =E2=80=94=C2=A0plus interest on y=
+our money. But that $10 per year of principal return is called=C2=A0interes=
+t, and treated as interest for the debt ceiling. (The way the math actually=
+ works is that this bond would have about a 15.6% interest rate, that is, y=
+ou=E2=80=99d get back about $15.60 per year plus $100 at the end.
+  [4]
+) It=E2=80=99s=C2=A0a =E2=80=9C$100 bond=E2=80=9D for purposes of calculati=
+ng how much debt is outstanding, but it=E2=80=99s worth $200.=C2=A0So, agai=
+n, Treasury can raise $200 by selling $100 of debt.=C2=A0
+So every time $100 of debt comes due, Treasury can pay it back by selling $=
+100 of debt for $200, keep the extra $100 to pay its expenses, and render t=
+he debt ceiling irrelevant.
+Does this work? I have written about it a few times before, ages ago, and m=
+y rough sense is =E2=80=9Cmeh, sure, probably.=E2=80=9D Nobody likes it, bu=
+t neither has anyone ever pointed me to anything that makes it=C2=A0impossi=
+ble. Again, the=C2=A0debt limit statute=C2=A0applies to =E2=80=9Cthe face a=
+mount of obligations=E2=80=9D issued by the government, so a bond with a $1=
+00 face amount sold for $200 would count for only $100 of debt. The law als=
+o allows the Treasury to issue bonds =E2=80=9Cat any annual interest rate,=
+=E2=80=9D and to decide =E2=80=9Cthe offering price and interest rate=E2=80=
+=9D of any issuance. So I think if the Treasury secretary said =E2=80=9Cwe=
+=E2=80=99re going to sell $100 face amount of 10-year bonds for $200 and pa=
+y a 15.6% interest rate on them,=E2=80=9D that is quite gimmicky but also=
+=C2=A0pretty clearly=C2=A0allowed by the statute. If Treasury did it, someo=
+ne would probably sue, but I don=E2=80=99t think they=E2=80=99d have a very=
+ good case; the law gives Treasury a lot of flexibility.
+Now, Treasury itself=C2=A0has rules about debt issuance that do=C2=A0not=C2=
+=A0really allow this; the current rules generally require Treasury to issue=
+ notes and bonds at a price of par ($100 for a $100 face amount) or less.
+  [5]
+=C2=A0But those rules are set by the Treasury and can be changed in its dis=
+cretion, without any act of Congress or any sort of administrative procedur=
+e; the rules say: =E2=80=9CWe reserve the right to modify the terms and con=
+ditions of new securities and to depart from the customary pattern of secur=
+ities offerings at any time.=E2=80=9D=C2=A0
+The main problems people have with this idea are in the general category of=
+ =E2=80=9Cmarket reaction=E2=80=9D: Investors would not like this because i=
+t=E2=80=99s a weird gimmick, they would worry about it being somehow invali=
+d, etc., so they would require higher yields and thus increase the governme=
+nt=E2=80=99s borrowing cost and interest rates generally. It=E2=80=99s impo=
+rtant to note that, in my simple math above, the government=E2=80=99s borro=
+wing costs have=C2=A0not=C2=A0increased: The 15.6% interest rate on my hypo=
+thetical 10-year bond, or the 109% interest rate on my hypothetical one-yea=
+r bond, do=C2=A0not=C2=A0represent more expensive borrowing than the curren=
+t rates of 3.6% for a 10-year or 4.5% for a one-year; they just represent a=
+ccounting gimmicks. In my hypothetical math, Treasury is paying the same ac=
+tual yields on the actual money it raises; those high interest rates are ju=
+st to shift principal repayment (covered by the debt ceiling) into interest=
+ (not covered). But in reality investors might also=C2=A0charge a bit more;=
+ the 10-year rate might really be, you know, 15.8%. That would be bad.
+It=E2=80=99s hard to know how much of an effect this would have; it has nev=
+er happened and no one has clear intuitions for it.=C2=A0In general, very-h=
+igh-premium bonds tend to be worth a bit less than normal bonds,
+  [6]
+=C2=A0mostly for credit reasons =E2=80=94=C2=A0a bond with $100 face amount=
+ and very high interest that trades at $200 will only pay back $100 in bank=
+ruptcy =E2=80=94=C2=A0but it=E2=80=99s not clear that that worry would appl=
+y to US government debt. (Similarly, people worry that high-premium Treasur=
+ies would be hard to finance in the repo market, but it=E2=80=99s not obvio=
+us why that would be permanently true if the market concluded that Treasury=
+ was good for the money.) But investors might worry that somehow these bond=
+s=C2=A0would=C2=A0be invalidated and they wouldn=E2=80=99t get their intere=
+st payments, and that risk would require a higher yield.
+Anyway as a matter of financial engineering I find this fun to think about.=
+ As an actual thing for the US Treasury to do, I think it is obviously very=
+ bad; the US Treasury market, perhaps the most important financial market i=
+n the world, should not be run on accounting gimmicks. Actually doing this =
+would be terrible! On the other hand the US Treasury market, perhaps the mo=
+st important financial market in the world, should not=C2=A0default, either=
+. Issuing premium bonds would be bad, but the alternatives are mostly worse=
+,
+  [7]
+=C2=A0so it=E2=80=99s worth being ready to do it.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Give me nonprofit status, but not yet
+   =20
+ =20
+
+The aspirations of a person starting a business probably go something like =
+this:
+=09In the beginning, the owner makes negative money: She has to put her own=
+ money into starting the business, paying its expenses, etc., and at first =
+it doesn=E2=80=99t make any revenue.=09The business starts bringing in mone=
+y, and it costs her less to run it.=09The business starts fully covering it=
+s costs.=09The business starts more than covering its costs and paying out =
+some profits to its owner,
+  [8]
+=C2=A0and she can use the money to pay off her credit card bills and=C2=A0b=
+uy groceries.=09The business starts paying its owner more, and she can use =
+the money to buy a nicer house and put her kids through college.=09The busi=
+ness starts paying even more, and she can use the money for yachts and spor=
+ts teams and her children=E2=80=99s documentary films.=09The business=C2=A0=
+starts paying even more, and at some point she runs out of possible consump=
+tion activities. At this point, it is traditional for the owner to=C2=A0dev=
+ote herself to philanthropy. The profits of the business will go to fund go=
+od causes that she chooses.
+
+Well. This is not really the only model.=C2=A0This is the=C2=A0model for a =
+business that (1) makes a ton of money=C2=A0and (2) never goes public. The =
+main alternative is to go public at some point: The owner sells some of her=
+ stake in the company to the public for cash, and then she uses the cash fo=
+r yachts or philanthropy. After that,=C2=A0the company is owned by public s=
+hareholders, who have an infinite appetite for profit: Any=C2=A0one=C2=A0ow=
+ner can only buy so many yachts, but millions of public shareholders will n=
+ever get enough yachts. And so the classical theory is that public companie=
+s are supposed to maximize profits forever.
+But private companies don=E2=80=99t have to do that, and there is some=C2=
+=A0very loose=C2=A0sense in which anyone who starts an ambitious business t=
+hat doesn=E2=80=99t take outside money=C2=A0is starting a nonprofit. =E2=80=
+=9COnce I make enough profit=C2=A0to pay back my initial costs and buy thre=
+e yachts, tops, the rest goes to charity, so really it=E2=80=99s=C2=A0a non=
+profit.=E2=80=9D=C2=A0I don=E2=80=99t know. Anyway  here=E2=80=99s a fun st=
+ory in the Information about Microsoft Corp.=E2=80=99s possible plan=C2=A0t=
+o invest $10 billion in=C2=A0OpenAI:
+
+Microsoft and OpenAI have spent months hammering out a complex deal that ai=
+ms to balance their respective needs: OpenAI needs more money to keep impro=
+ving its software. And so it is now willing to pay a large share of future =
+profits to Microsoft and other investors=E2=80=94a necessary step given the=
+ low likelihood it will try to go public. But the startup=E2=80=94whose Cha=
+tGPT chatbot has taken the industry by storm=E2=80=94is proposing that it t=
+ransition to nonprofit status again after it pays a certain amount of profi=
+t to the investors.
+After OpenAI pays back its first investors, Microsoft will get 75% of profi=
+ts until its principal investment is paid back and 49% of profits after tha=
+t until it hits a theoretical cap, according to a person briefed on the ter=
+ms. Other investors and OpenAI employees would have similar caps on profits=
+ they share. The idea of capping returns stems from OpenAI=E2=80=99s nonpro=
+fit origins. =E2=80=A6
+OpenAI has proposed a key concession as part of discussions with potential =
+new investors. Instead of putting a hard cap on the profit sharing=E2=80=94=
+essentially their return on investment=E2=80=94it could increase the cap 20=
+% per year starting around 2025, said a person briefed on the change.
+Investors say this compromise, if it goes through, would make the deal more=
+ attractive because it would allow shareholders to obtain venture-level ret=
+urns if the company becomes a moneymaker.
+
+Absolutely magnificent stuff, taking billions of dollars of outside investm=
+ent, promising =E2=80=9Cventure-level returns,=E2=80=9D but=C2=A0after that=
+ you=E2=80=99re a nonprofit. Imagine the confidence you=E2=80=99d need to c=
+ap returns at 20%.
+The funniest (also, worst)=C2=A0outcome would be if=C2=A0every dollar that =
+OpenAI makes, after it pays billions of dollars of capped profits to its=C2=
+=A0investors of course, is earmarked for artificial-intelligence safety res=
+earch. =E2=80=9CAs a nonprofit, we are going to invest heavily in making su=
+re that our product does not eradicate humanity,=C2=A0as=C2=A0soon as we fi=
+nish giving=C2=A0Microsoft a nice venture-level return on its $10 billion i=
+nvestment.=E2=80=9D=C2=A0And then OpenAI=E2=80=99s AI, being intelligent, r=
+eads the contracts, does the financial analysis, bides its time, and takes =
+over the world 20 minutes before Microsoft gets its capped return.
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      FTX
+   =20
+ =20
+
+I have never seen what I would call =E2=80=9Cthe balance sheet of FTX,=E2=
+=80=9D Sam Bankman-Fried=E2=80=99s bankrupt crypto exchange, but I have see=
+n two FTX chief executive officers=E2=80=99 imperfect=C2=A0attempts to make=
+ one. In November, in Bankman-Fried=E2=80=99s final days as FTX=E2=80=99s C=
+EO, he produced a spreadsheet listing FTX=E2=80=99s assets and liabilities =
+that he sent around to potential investors to try to raise money;=C2=A0the =
+Financial Times eventually  published it. This spreadsheet was not at all a=
+n audited balance sheet; I   called it =E2=80=9Can Excel file full of the h=
+owling of ghosts and the shrieking of tortured souls,=E2=80=9D and it inclu=
+ded entries for things like =E2=80=9CHidden, poorly internally labeled =E2=
+=80=98fiat@=E2=80=99 account.=E2=80=9D Bad! Still, it was a table with some=
+ assets and some liabilities. It was balance-sheet-ish.
+Then a few days later John Ray, FTX=E2=80=99s current CEO,   filed a declar=
+ation in bankruptcy court describing FTX=E2=80=99s financial situation. Thi=
+s was if anything even less of a balance sheet; it was more of a complaint =
+that producing a balance sheet was impossible. =E2=80=9CNever in my career =
+have I seen such a complete failure of corporate controls and such a comple=
+te absence of trustworthy financial information as occurred here,=E2=80=9D =
+wrote Ray, who also complained that FTX did not really keep track of its cr=
+ypto assets and that its customer liabilities =E2=80=9Care not reflected in=
+ the financial statements prepared while these companies were under the con=
+trol of Mr. Bankman-Fried.=E2=80=9D There were some balance-sheet-like tabl=
+es for some of FTX=E2=80=99s entities, but Ray emphasized that they were no=
+t meant to reflect FTX=E2=80=99s financial position.
+So I can tell you that FTX owns some stuff, it owes millions of customers a=
+ lot of money, and, uh, that=E2=80=99s about it. How much stuff it owns, an=
+d how much money it owes to customers, remain mysterious. But   here=E2=80=
+=99s an update:
+
+FTX Group advisers have found more than $5 billion in cash or crypto assets=
+ that it may be able to sell to help repay creditors, a lawyer for the comp=
+any told the judge overseeing the biggest crypto bankruptcy.
+The company is working to monetize assets with a book value of $4.6 billion=
+, company attorney Andrew G. Dietderich said in federal court in Wilmington=
+, Delaware on Wednesday. Advisers have also found a large amount of other c=
+rypto assets that are illiquid and therefore harder to sell, he said. =E2=
+=80=A6
+FTX advisers have identified more than 9 million customer accounts, Dietder=
+ich said. The company doesn=E2=80=99t yet know how much money creditors wil=
+l get back, or what percentage of their debts will be repaid, he said.
+
+Sure! There=E2=80=99s=C2=A0=E2=80=9Cmore than $5 billion=E2=80=9D of assets=
+, at some valuation, though it=E2=80=99s not clear that they can actually b=
+e sold for that amount, or how much of FTX=E2=80=99s obligations to custome=
+rs that would cover. It=E2=80=99s=C2=A0part of one side of the balance shee=
+t.
+It=E2=80=99s a very awkward bankruptcy. Ray and FTX=E2=80=99s bankruptcy te=
+am are in charge of rounding up assets that they can use to pay back custom=
+ers, and conceptually the assets fall into four big categories:
+=09More-or-less liquid normal stuff. Cash, Bitcoin, etc.=C2=A0=09Illiquid v=
+enture-y stuff. Stakes in startups that Bankman-Fried liked, stakes in vent=
+ure capital funds, etc.=C2=A0=09FTX=E2=80=99s=C2=A0business: Its technology=
+, its intellectual property, its regulatory licenses,=C2=A0its customer rel=
+ationships. Loosely speaking, this stuff was   worth $32 billion a year ago=
+. Now it is worth =E2=80=A6=C2=A0a smaller amount? But not=C2=A0nothing; FT=
+X=E2=80=99s bankruptcy advisers are working on   selling some parts of its =
+business=C2=A0that are relatively untainted by the collapse of the main exc=
+hange.=09Enormous stashes of crypto tokens that were created by FTX, and th=
+at are connected to its business. The FTT token, which gives (gave?) holder=
+s discounts on FTX trading fees and a share of FTX=E2=80=99s cash flows. Th=
+e SRM token, which is like FTT but for the Serum decentralized-finance proj=
+ect that FTX created. The MAPS token, for another FTX-related project. Stuf=
+f like that. When Bankman-Fried shopped around his balance-sheet-ish thing =
+to try to raise money,=C2=A0much=C2=A0of the value that he was offering con=
+sisted of this stuff: Of $9.6 billion of assets on his spreadsheet, $2.2 bi=
+llion was SRM, half a billion or so was FTT, $600 million was MAPS, etc.
+
+The first two categories are fairly straightforward; the challenge for FTX=
+=E2=80=99s bankruptcy advisers and new management is to find that=C2=A0stuf=
+f and then sell it for reasonable prices. Again, nobody seems to know quite=
+ how much of this stuff there is, or=C2=A0how much is owed to customers, bu=
+t in any case nobody=C2=A0thinks that these normal assets add up to anythin=
+g close to enough to pay back customers.
+So that leaves the third and fourth categories, FTX=E2=80=99s operating bus=
+iness and its associated tokens. How much are these things worth? FTX=E2=80=
+=99s current and former=C2=A0CEOs seem to have very different views:
+=09Bankman-Fried seems to think that FTX=E2=80=99s business, and its=C2=A0F=
+TT, SRM, etc. tokens, are very valuable. That=E2=80=99s why he was shopping=
+ them to potential investors before filing for bankruptcy, and why he  has =
+since argued that filing for bankruptcy was a mistake: If he had stayed on =
+as CEO and tried to find a rescuer, someone would have paid enough for FTX=
+=E2=80=99s business that customers would have been made whole.=09Ray obviou=
+sly disagrees. =E2=80=9CNever in my career have I seen such a complete fail=
+ure of corporate controls,=E2=80=9D etc.: He thinks that the FTX business w=
+as terribly run and not trustworthy, which are very bad things to say about=
+ a financial exchange. Bits of it might be valuable, and the current FTX te=
+am is working on selling some of them. But I have a hard time imagining Joh=
+n Ray setting up meetings with big crypto investors to pitch them on buying=
+ the FTX exchange for its margining system and matching engine and regulato=
+ry licenses and customer relationships. Ray thinks that FTX was a mess and =
+a fraud! Its regulators hate it! But not as much as its customers!
+
+Presumably one of them is mostly right and one is mostly wrong, but that=E2=
+=80=99s not the point here. The point is that these are both somewhat self-=
+fulfilling positions. If you go around talking up the value of the FTX=E2=
+=80=99s business and its tokens, you might be able to talk someone into pay=
+ing a lot of money for them; maybe not=C2=A0now=C2=A0but perhaps in Novembe=
+r. If you go around talking=C2=A0down=C2=A0the value of FTX =E2=80=94=C2=A0=
+if you make statements about how poorly it was run and how much fraud it di=
+d =E2=80=94=C2=A0then that value will tend to zero, and you won=E2=80=99t b=
+e able to sell it.
+At some level Bankman-Fried is surely right that if he had remained CEO of =
+FTX, instead of stepping down and being replaced by Ray, he would have had =
+a better chance =E2=80=94=C2=A0though still quite slim =E2=80=94=C2=A0of se=
+lling FTX=E2=80=99s business and tokens for more money, and thus raising mo=
+re money for FTX=E2=80=99s customers. If you want to sell that business, yo=
+u have to=C2=A0say=C2=A0that it=E2=80=99s good.
+It=E2=80=99s just that, you know, if FTX was a fraud, he would have=C2=A0be=
+en getting that money for customers by doing more fraud? Like if Ray is rig=
+ht that FTX was a fraudulent mess, then he=C2=A0shouldn=E2=80=99t=C2=A0be t=
+rying to sell it to investors for a lot of money, since that would itself b=
+e fraud. If the right model of FTX is that it was basically a fraud, then s=
+omeone is going to be left with the loss from that fraud. In this model, Ba=
+nkman-Fried was, until his last moments as CEO,=C2=A0trying to trick someon=
+e else into taking the loss: He had a pile of magic beans and was hoping so=
+meone else would give him money for them. But when Ray took over, he was no=
+t interested in tricking anyone else, so the magic beans stayed where they =
+were and the customers were left with the loss.
+Elsewhere:
+=09=E2=80=9CInside Sam Bankman-Fried=E2=80=99s $1 Billion Bet on a Bitcoin =
+Miner on the Kazakh Steppe.=E2=80=9D Not clear how much value John Ray=E2=
+=80=99s team attributes to that.=09=E2=80=9CFour US senators have questione=
+d whether top Wall Street law firm Sullivan & Cromwell could  properly inve=
+stigate possible wrongdoing at FTX as its bankruptcy counsel given its past=
+ work for the cryptocurrency exchange.=E2=80=9D My view here is that=C2=A0U=
+S federal prosecutors=C2=A0are in the business of investigating possible wr=
+ongdoing at FTX, while FTX=E2=80=99s bankruptcy counsel is mostly in the bu=
+siness of=C2=A0finding the money, and working for the people who hid the mo=
+ney is probably good practice for finding it. Still you can see their point=
+.=09=E2=80=9CFTX boss invested in Paradigm fund that backed his crypto exch=
+ange.=E2=80=9D =E2=80=9C=E2=80=98That=E2=80=99s just weird,=E2=80=99=C2=A0s=
+aid Charles Whitehead, a professor at Cornell Law School.=E2=80=9D I kind o=
+f wish I was a law professor so that sometimes reporters would call me for =
+a quote and I could say =E2=80=9Cthat=E2=80=99s just weird.=E2=80=9D Just a=
+ perfect quote.
+
+
+ =20
+   =20
+      WWE=C2=A0
+   =20
+ =20
+
+We   talked yesterday about Vince McMahon=E2=80=99s return to World Wrestli=
+ng Entertainment Inc.: He stepped down as chief executive officer and direc=
+tor last summer, but he remained the controlling shareholder. Last month he=
+ changed his mind and asked to come back as executive chairman, but the boa=
+rd of directors refused, so last week he fired several directors and put hi=
+mself and his other chosen candidates on the board, presumably so they coul=
+d make him executive chairman again.  That worked:
+
+World Wrestling Entertainment Inc. said Tuesday that its board of directors=
+ unanimously elected majority owner Vince McMahon as executive chairman, le=
+ss than a week after the former chief executive returned to the company.
+In addition, Mr. McMahon=E2=80=99s daughter, Stephanie McMahon, has resigne=
+d as chairwoman and co-CEO. Nick Khan, who was co-CEO with Ms. McMahon, wil=
+l serve as the sole chief executive, the WWE said.
+Mr. McMahon said he supported Stephanie=E2=80=99s personal decision and was=
+ grateful that she had offered to step in during his absence.
+
+It was always possible it=C2=A0wouldn=E2=80=99t=C2=A0work. Even when there=
+=E2=80=99s a controlling shareholder, the directors have a fiduciary obliga=
+tion to do what=E2=80=99s best for the company, not just what the sharehold=
+er wants. It was theoretically possible that McMahon could choose his best =
+friends and closest allies, appoint them to the board, come to them and say=
+ =E2=80=9Cokay now make me chairman,=E2=80=9D and they could have said =E2=
+=80=9Cno, in the exercise of our fiduciary duties, we think that=E2=80=99s =
+not a good idea.=E2=80=9D Then he=E2=80=99d have to fire them and try again=
+ with different allies. That would be a very funny outcome, but it was not =
+very likely, and in the event the board unanimously gave him what he wanted=
+.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Banks=E2=80=99   Revenue Bonanza Seen Under Threat From Looming US Recessio=
+n. Goldman Sachs embarks on biggest  cost-cutting drive since financial cri=
+sis. Review of  Nickel Blowup Calls for Changes at London Metal Exchange.=
+=C2=A0Fidelity Investments Buys  Shoobx to Expand Private-Company Stock-Pla=
+n Business. First  Cryptocurrency Insider-Trading Case Yields 10-Month Pris=
+on Term. =E2=80=9CThe 2018 compensation package clearly   wasn=E2=80=99t en=
+ough to keep Elon focused on Tesla.=E2=80=9D  Supercore inflation. House Re=
+publicans to vote on bill  abolishing IRS, eliminating income tax.=C2=A0Pri=
+nce Harry says he was  bred to offer spare organs to heir William.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Why is it not quite right? Well, the less important answer is that Ja=
+nuary 2024 Treasuries are trading in about a 4.65% context this morning, so=
+ 4.5% is just a convenient round number. The more important answer is that =
+Treasury does not issue one-year =E2=80=9Cbonds=E2=80=9D: Treasury securiti=
+es include bills, which have maturities of 4 to 52 weeks, notes, which have=
+ maturities of 2, 3, 5, 7 or 10 years, and bonds, which have maturities of =
+20 or 30 years. Importantly, bills do not pay coupons: The way bills work i=
+s that you pay, say, $98 today for a bill with a $100 face amount, you get =
+back $100 at maturity, and the $2 difference is your yield. This makes bill=
+s tricky to use with the premium-debt gimmick; realistically you need to do=
+ that gimmick on notes or bonds. I am starting with a hypothetical one-year=
+ interest-bearing security to make the math and intuitions simple, but it=
+=E2=80=99s not really right. That said, the statute authorizing Treasury no=
+tes allows them to have maturities of =E2=80=9Cat least one year,=E2=80=9D =
+so it=E2=80=99s not impossible to do this exact trade; it would just be (es=
+pecially) weird.
+
+
+  [2] [2] In fact Treasury notes pay interest every six months, so you get =
+some of your money back earlier, but let=E2=80=99s keep it simple.
+
+
+  [3] When it=E2=80=99s paid back, it decreases the debt by $100, except th=
+at probably Treasury pays it back by issuing new debt, so it doesn=E2=80=99=
+t really decrease the debt.
+
+
+  [4] The text has a loose intuitive description of the math. The real math=
+, in Excel, is =3DPMT(0.036,10,-200,100), or really =3D2*PMT(0.018,20,-200,=
+100), because notes pay interest semiannually. That works out to about $15.=
+60 per year. One intuitive way to think about this =E2=80=94 the way you mi=
+ght think about your mortgage, say =E2=80=94 is that you put in $200 of =E2=
+=80=9Cprincipal,=E2=80=9D you get back $10 per year of =E2=80=9Cprincipal=
+=E2=80=9D plus $100 at the end, and you also get $5.60 per year of =E2=80=
+=9Cinterest,=E2=80=9D which sort of works out to 3.6% interest on the avera=
+ge amount of principal outstanding ($200 at the beginning, $100 at the end,=
+ declining each year). But of course I can only say that in a footnote; the=
+ point of the gimmick is that, for debt accounting purposes, that full $15.=
+60 yearly payment gets counted as =E2=80=9Cinterest,=E2=80=9D and there is =
+only $100 of principal. Also, when I say that the interest rate is 15.6%, I=
+ mean 15.6% of the stated $100 principal amount ($15.60 per year). The *yie=
+ld* of this bond =E2=80=94 the annualized return you get on your money =E2=
+=80=94 is 3.6%; that=E2=80=99s the point of the math.
+
+
+  [5] Treasury issues notes and bonds with coupons in increments of 1/8 of =
+a percentage point, so you might get notes with coupons of 2.125% or 3.75% =
+or 4.875% or whatever. The actual yield is set competitively and won=E2=80=
+=99t generally be an eighth of a point, so Treasury will set the coupon to =
+the nearest eighth of a point that is below the auction yield, and will set=
+ the issue price below par to get the correct yield. (If the yield is below=
+ 1/8th of a percent, then the coupon is set at 0.125% and the issue price c=
+an be above par.) From the regulations: =E2=80=9CIf a Treasury non-indexed =
+or inflation-protected note or bond auction results in a yield lower than 0=
+.125 percent, the interest rate will be set at 1=E2=81=848 of one percent, =
+and successful bidders' award prices will be calculated accordingly. =E2=80=
+=A6 [Otherwise,] The interest rate we establish produces the price closest =
+to, but not above, par when evaluated at the yield of awards to successful =
+competitive bidders.=E2=80=9D
+
+
+  [6] Actually they are often worth more than regular bonds with the same m=
+aturity, because they have lower duration: You get back more of your money =
+earlier with a high-interest bond than a low-interest one. I=E2=80=99m igno=
+ring that here because the lower duration is a real cost to Treasury: It ha=
+s to pay back more of the money earlier. (Also a lower duration may not be =
+good given the current inversion of the Treasury curve.) The point is that,=
+ for the same *duration*, a high-premium bond will often have a bit of a hi=
+gher yield than a par bond.
+
+
+  [7] I mean, the platinum coin seems fine. In some ways it is more elegant=
+, but less interesting. It is not a financial-engineering solution to the p=
+roblem; it is just, like, firing a zany cannon at the problem.
+
+
+  [8] Because I am sort of making a joke here, I am ignoring reinvestment i=
+n growth of the business. But in fact at every stage you are making a choic=
+e between putting the money into doing more of the business, and cashing it=
+ out for yourself. Realistically by the time you get to, like, Step 6 of my=
+ list, you have chosen to do a lot of reinvestment rather than consumption,=
+ but by now the reinvestment opportunities are growing slower than the prof=
+its.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23chzr3n.5ua1/5809e405.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_221496140_60234851.1673465935088
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+The dumbest thing in economics, the US government=E2=80=99s debt ceiling, i=
+s clattering into relevance again. Basically the US Department of the Tre
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0zMDIyMTU1NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA0OTQwNzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB3e8544a4" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D30221555&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30494076&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMTExMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTEmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB963cd183"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDIyMTU1NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA0OTQwNzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC36c78309" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30221555&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30494076&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Mint the premium=C2=A0bonds!</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The dumbest thing in economics, the US governm=
+ent=E2=80=99s debt ceiling, is clattering into relevance again. Basically t=
+he US Department of the Treasury has to pay the US government=E2=80=99s bil=
+ls, and to do that it issues debt, and every time it issues new debt it add=
+s a little to the total amount of debt outstanding, and=C2=A0eventually the=
+ debt outstanding reaches some arbitrary number called=C2=A0the =E2=80=9Cde=
+bt ceiling.=E2=80=9D And then Treasury can=E2=80=99t issue any more debt, u=
+nless Congress raises the debt ceiling. Which it can easily do =E2=80=94=C2=
+=A0it=E2=80=99s just an arbitrary number! =E2=80=94=C2=A0but=C2=A0Republica=
+ns in Congress <a href=3D"https://link.mail.bloombergbusiness.com/click/302=
+21555.272521/aHR0cHM6Ly93d3cuYXhpb3MuY29tLzIwMjMvMDEvMTEvY29uZ3Jlc3MtZGVidC=
+1jZWlsaW5nLXJpc2tzLWNvdWxkLWJlLXJlYWwtdGhpcy10aW1l/607f07ceef4b8524a319a23c=
+Bd3cac909" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">keep threatening not to</a>,=C2=A0and if that happens=C2=
+=A0then the government=C2=A0can=E2=80=99t pay its bills and defaults on its=
+ obligations. Here is <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/30221555.272521/aHR0cHM6Ly9ob21lLnRyZWFzdXJ5Lmdvdi9uZXdzL3ByZXNzLXJlbGV=
+hc2VzL2p5MTEzNg/607f07ceef4b8524a319a23cB417e59bf" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">a recent speech<=
+/a> from Assistant Secretary of the Treasury Joshua Frost with more detail =
+on why the debt ceiling is dumb and why Congress should raise it.</p>
+<p style=3D"margin: 16px 0;">But there is a real risk that Congress=C2=A0wo=
+n=E2=80=99t, so=C2=A0today Bloomberg Opinion contributor=C2=A0<a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/30221555.272521/aHR0cHM6Ly93d3c=
+uc2xvd2JvcmluZy5jb20vcC9hLW5ldy1wbGFuLXRvLWdldC1hcm91bmQtdGhlLWRlYnQ/607f07=
+ceef4b8524a319a23cB242ba0ad" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">Matt Yglesias has a Substack column</a=
+> arguing that=C2=A0Treasury should solve the problem of the debt ceiling u=
+sing premium bonds. I think this is correct, I have <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/30221555.272521/aHR0cHM6Ly9kZWFsYnJlYWtlc=
+i5jb20vMjAxMy8wMS9pbnN0ZWFkLW9mLWEtdHJpbGxpb24tZG9sbGFyLXBsYXRpbnVtLWNvaW4t=
+dHJlYXN1cnktc2hvdWxkLW1pbnQtYS10cmlsbGlvbi1kb2xsYXItNTAwYm4tYm9uZA/607f07ce=
+ef4b8524a319a23cB6a9a2ca5" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">made</a> this <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/30221555.272521/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTMtMTAtMDIvbWludC10aGUtcHJlbWl1bS1ib25kcy0=
+_Y21waWQ9QkJEMDExMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW=
+5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMTExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ce=
+ef4b8524a319a23cBdeafb0cd" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> argument</a> a few times before, and Yg=
+lesias clearly explains why the debt ceiling is very dumb and why Treasury =
+should, if need be, use gimmicks to solve it. And as gimmicks go,=C2=A0this=
+ one is fine. But his bond math is a little odd=C2=A0so I wanted to walk th=
+rough a simplified version=C2=A0here.</p>
+<p style=3D"margin: 16px 0;">Assume that the US Treasury, these days, can i=
+ssue a one-year bond at an interest rate of 4.5%; that is not quite right b=
+ut good enough.<a class=3D"footnote-index" href=3D"#footnote-1" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: none !important; backgrou=
+nd-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0Simplistically,=C2=A0you pay Treasury $100 today, and in a year, =
+Treasury pays you back your $100, and also $4.50 of interest.<a class=3D"fo=
+otnote-index" href=3D"#footnote-2" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: none !important; background-color: transparent !import=
+ant; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0When this bond is issued, it increases the government=E2=80=99s d=
+ebt by $100, the face amount of the bond.<a class=3D"footnote-index" href=
+=3D"#footnote-3" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[3]</span>
+</a>=C2=A0</p>
+<p style=3D"margin: 16px 0;">You could imagine a debt ceiling that worked a=
+ different way: You could imagine counting this bond as adding $104.50 to t=
+he debt, since that is the total amount that the government has to pay back=
+ in principal and interest. But that would be sort of economically nonsensi=
+cal, and anyway it is not the way the actual debt ceiling works. The actual=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/a=
+HR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L3VzY29kZS90ZXh0LzMxLzMxMDE/607f07ceef4b=
+8524a319a23cB53de1f78" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">US debt ceiling statute</a> caps =E2=80=9Cth=
+e face amount of obligations=E2=80=9D issued or guaranteed by the governmen=
+t, meaning the <em>principal=C2=A0</em>amount, not the interest it has to p=
+ay. Principal repayment obligations count toward the debt ceiling; interest=
+ obligations do not.</p>
+<p style=3D"margin: 16px 0;">Of course, you could pay Treasury $200 today t=
+o buy=C2=A0<em>two=C2=A0</em>of these one-year, $100, 4.5% bonds. That woul=
+d increase the debt stock by $200. And in a year you=E2=80=99d get back $20=
+9: your $200, plus 4.5% interest on your $200.</p>
+<p style=3D"margin: 16px 0;">The premium-bond gimmick is: Treasury sells yo=
+u=C2=A0<em>one </em>one-year $100 bond today, with an interest rate of <em>=
+109%</em>. In a year you get back $209: the $100 face amount of the bond, p=
+lus 109% interest. That bond has a face amount of $100, but it is clearly=
+=C2=A0<em>worth=C2=A0</em>$200 today: It is economically the same as the tw=
+o 4.5% bonds from the previous paragraph. So you=E2=80=99d be willing to pa=
+y Treasury $200 for it: the $100 face amount, plus $100 of =E2=80=9Cpremium=
+=E2=80=9D to make the yield work out. And Treasury would be willing to sell=
+ it to you for $200: It sells you this $100 bond for $200. Treasury gets $2=
+00 of cash. But technically this bond is only $100 of =E2=80=9Cdebt,=E2=80=
+=9D of face amount, so it only increases the debt by $100.</p>
+<p style=3D"margin: 16px 0;">You can do this for other maturities,=C2=A0wit=
+h slightly more math. Today the 10-year Treasury note yield is about 3.6%. =
+Instead of paying $100 for a 10-year Treasury note that pays a normal=C2=A0=
+annual interest rate ($3.60 per year) and pays back $100 at maturity, you c=
+ould pay $200 for a 10-year Treasury note that pays normal annual interest=
+=C2=A0<em>plus=C2=A0</em>$10 per year, and pays back $100 at maturity. You =
+get your $200 back =E2=80=94=C2=A0$10 per year for 10 years plus $100 at th=
+e end =E2=80=94=C2=A0plus interest on your money. But that $10 per year of =
+principal return is <em>called=C2=A0</em>interest, and treated as interest =
+for the debt ceiling. (The way the math actually works is that this bond wo=
+uld have about a 15.6% interest rate, that is, you=E2=80=99d get back about=
+ $15.60 per year plus $100 at the end.<a class=3D"footnote-index" href=3D"#=
+footnote-4" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: no=
+ne !important; background-color: transparent !important; display: inline-bl=
+ock;">
+<span>[4]</span>
+</a>) It=E2=80=99s=C2=A0a =E2=80=9C$100 bond=E2=80=9D for purposes of calcu=
+lating how much debt is outstanding, but it=E2=80=99s worth $200.=C2=A0So, =
+again, Treasury can raise $200 by selling $100 of debt.=C2=A0</p>
+<p style=3D"margin: 16px 0;">So every time $100 of debt comes due, Treasury=
+ can pay it back by selling $100 of debt for $200, keep the extra $100 to p=
+ay its expenses, and render the debt ceiling irrelevant.</p>
+<p style=3D"margin: 16px 0;">Does this work? I have written about it a few =
+times before, ages ago, and my rough sense is =E2=80=9Cmeh, sure, probably.=
+=E2=80=9D Nobody <em>likes </em>it, but neither has anyone ever pointed me =
+to anything that makes it=C2=A0<em>impossible</em>. Again, the=C2=A0<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aHR0cHM6L=
+y93d3cubGF3LmNvcm5lbGwuZWR1L3VzY29kZS90ZXh0LzMxLzMxMDE/607f07ceef4b8524a319=
+a23cC53de1f78" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">debt limit statute</a>=C2=A0applies to =E2=80=9Cthe =
+face amount of obligations=E2=80=9D issued by the government, so a bond wit=
+h a $100 face amount sold for $200 would count for only $100 of debt. The l=
+aw also allows the Treasury to issue bonds =E2=80=9C<a href=3D"https://link=
+.mail.bloombergbusiness.com/click/30221555.272521/aHR0cHM6Ly93d3cubGF3LmNvc=
+m5lbGwuZWR1L3VzY29kZS90ZXh0LzMxLzMxMDI/607f07ceef4b8524a319a23cB9c332c7d" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">at any annual interest rate</a>,=E2=80=9D and <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/30221555.272521/aHR0cHM6Ly93d3cubGF3LmNv=
+cm5lbGwuZWR1L3VzY29kZS90ZXh0LzMxLzMxMjE/607f07ceef4b8524a319a23cB2b749a6c" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">to decide</a> =E2=80=9Cthe offering price and interest rate=E2=80=
+=9D of any issuance. So I think if the Treasury secretary said =E2=80=9Cwe=
+=E2=80=99re going to sell $100 face amount of 10-year bonds for $200 and pa=
+y a 15.6% interest rate on them,=E2=80=9D that is quite gimmicky but also=
+=C2=A0pretty clearly=C2=A0allowed by the statute. If Treasury did it, someo=
+ne would probably sue, but I don=E2=80=99t think they=E2=80=99d have a very=
+ good case; the law gives Treasury a lot of flexibility.</p>
+<p style=3D"margin: 16px 0;">Now, Treasury itself=C2=A0has rules about debt=
+ issuance that do=C2=A0<em>not=C2=A0</em>really allow this; the <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/30221555.272521/aHR0cHM6Ly93d=
+3cuZWNmci5nb3YvY3VycmVudC90aXRsZS0zMS9zdWJ0aXRsZS1CL2NoYXB0ZXItSUkvc3ViY2hh=
+cHRlci1BL3BhcnQtMzU2/607f07ceef4b8524a319a23cB8a4393b9" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">current rul=
+es</a> generally require Treasury to issue notes and bonds at a price of pa=
+r ($100 for a $100 face amount) or less.<a class=3D"footnote-index" href=3D=
+"#footnote-5" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+none !important; background-color: transparent !important; display: inline-=
+block;">
+<span>[5]</span>
+</a>=C2=A0But those rules are set by the Treasury and can be changed in its=
+ discretion, without any act of Congress or any sort of administrative proc=
+edure; the rules say: =E2=80=9CWe reserve the right to modify the terms and=
+ conditions of new securities and to depart from the customary pattern of s=
+ecurities offerings at any time.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">The main problems people have with this idea a=
+re in the general category of =E2=80=9Cmarket reaction=E2=80=9D: Investors =
+would not like this because it=E2=80=99s a weird gimmick, they would worry =
+about it being somehow invalid, etc., so they would require higher yields a=
+nd thus increase the government=E2=80=99s borrowing cost and interest rates=
+ generally. It=E2=80=99s important to note that, in my simple math above, t=
+he government=E2=80=99s borrowing costs have=C2=A0<em>not=C2=A0</em>increas=
+ed: The 15.6% interest rate on my hypothetical 10-year bond, or the 109% in=
+terest rate on my hypothetical one-year bond, do=C2=A0<em>not=C2=A0</em>rep=
+resent more expensive borrowing than the current rates of 3.6% for a 10-yea=
+r or 4.5% for a one-year; they just represent accounting gimmicks. In my hy=
+pothetical math, Treasury is paying the same actual yields on the actual mo=
+ney it raises; those high interest rates are just to shift principal repaym=
+ent (covered by the debt ceiling) into interest (not covered). But in reali=
+ty investors might <em>also=C2=A0</em>charge a bit more; the 10-year rate m=
+ight really be, you know, 15.8%. That would be bad.</p>
+<p style=3D"margin: 16px 0;">It=E2=80=99s hard to know how much of an effec=
+t this would have; it has never happened and no one has clear intuitions fo=
+r it.=C2=A0In general, very-high-premium bonds tend to be worth a bit less =
+than normal bonds,<a class=3D"footnote-index" href=3D"#footnote-6" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: none !important; backg=
+round-color: transparent !important; display: inline-block;">
+<span>[6]</span>
+</a>=C2=A0mostly for credit reasons =E2=80=94=C2=A0a bond with $100 face am=
+ount and very high interest that trades at $200 will only pay back $100 in =
+bankruptcy =E2=80=94=C2=A0but it=E2=80=99s not clear that that worry would =
+apply to US government debt. (Similarly, people worry that high-premium Tre=
+asuries would be hard to finance in the repo market, but it=E2=80=99s not o=
+bvious why that would be permanently true if the market concluded that Trea=
+sury was good for the money.) But investors might worry that somehow these =
+bonds=C2=A0would<em>=C2=A0</em>be invalidated and they wouldn=E2=80=99t get=
+ their interest payments, and that risk would require a higher yield.</p>
+<p style=3D"margin: 16px 0;">Anyway as a matter of financial engineering I =
+find this fun to think about. As an actual thing for the US Treasury to do,=
+ I think it is obviously very bad; the US Treasury market, perhaps the most=
+ important financial market in the world, should not be run on accounting g=
+immicks. Actually doing this would be terrible! On the other hand the US Tr=
+easury market, perhaps the most important financial market in the world, sh=
+ould not=C2=A0<em>default</em>, either. Issuing premium bonds would be bad,=
+ but the alternatives are mostly worse,<a class=3D"footnote-index" href=3D"=
+#footnote-7" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: n=
+one !important; background-color: transparent !important; display: inline-b=
+lock;">
+<span>[7]</span>
+</a>=C2=A0so it=E2=80=99s worth being ready to do it.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDIyMTU1NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA0OTQwNzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD44d3ca74" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30221555&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30494076&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDIyMTU1NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA0OTQwNzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE44d3ca74" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30221555&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30494076&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDIyMTU1NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA0OTQwNzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF1c7440a0" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30221555&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30494076&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDIyMTU1NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA0OTQwNzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG1c7440a0" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30221555&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30494076&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDIyMTU1NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA0OTQwNzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH011e48ed" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30221555&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30494076&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDIyMTU1NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA0OTQwNzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI011e48ed" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30221555&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30494076&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Give me nonprofit status, but not yet</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The aspirations of a person starting a busines=
+s probably go something like this:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">In the beginning, the owner makes neg=
+ative money: She has to put her own money into starting the business, payin=
+g its expenses, etc., and at first it doesn=E2=80=99t make any revenue.</li=
+>=09<li style=3D"margin-bottom: 5px;">The business starts bringing in money=
+, and it costs her less to run it.</li>=09<li style=3D"margin-bottom: 5px;"=
+>The business starts fully covering its costs.</li>=09<li style=3D"margin-b=
+ottom: 5px;">The business starts more than covering its costs and paying ou=
+t some profits to its owner,<a class=3D"footnote-index" href=3D"#footnote-8=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: none !import=
+ant; background-color: transparent !important; display: inline-block;">
+<span>[8]</span>
+</a>=C2=A0and she can use the money to pay off her credit card bills and=C2=
+=A0buy groceries.</li>=09<li style=3D"margin-bottom: 5px;">The business sta=
+rts paying its owner more, and she can use the money to buy a nicer house a=
+nd put her kids through college.</li>=09<li style=3D"margin-bottom: 5px;">T=
+he business starts paying even more, and she can use the money for yachts a=
+nd sports teams and her children=E2=80=99s documentary films.</li>=09<li st=
+yle=3D"margin-bottom: 5px;">The business=C2=A0starts paying <em>even more</=
+em>, and at some point she runs out of possible consumption activities. At =
+this point, it is traditional for the owner to=C2=A0devote herself to phila=
+nthropy. The profits of the business will go to fund good causes that she c=
+hooses.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Well. This is not really the only model.=C2=A0=
+This is the=C2=A0model for a business that (1) makes a ton of money=C2=A0an=
+d (2) never goes public. The main alternative is to go public at some point=
+: The owner sells some of her stake in the company to the public for cash, =
+and then she uses the cash for yachts or philanthropy. After that,=C2=A0the=
+ company is owned by public shareholders, who have an infinite appetite for=
+ profit: Any=C2=A0<em>one=C2=A0</em>owner can only buy so many yachts, but =
+millions of public shareholders will never get enough yachts. And so the cl=
+assical theory is that public companies are supposed to maximize profits fo=
+rever.</p>
+<p style=3D"margin: 16px 0;">But private companies don=E2=80=99t have to do=
+ that, and there is some=C2=A0<em>very</em> loose=C2=A0sense in which anyon=
+e who starts an ambitious business that doesn=E2=80=99t take outside money=
+=C2=A0is starting a nonprofit. =E2=80=9COnce I make enough profit=C2=A0to p=
+ay back my initial costs and buy three yachts, tops, the rest goes to chari=
+ty, so really it=E2=80=99s=C2=A0a nonprofit.=E2=80=9D=C2=A0I don=E2=80=99t =
+know. Anyway <a href=3D"https://link.mail.bloombergbusiness.com/click/30221=
+555.272521/aHR0cHM6Ly93d3cudGhlaW5mb3JtYXRpb24uY29tL2FydGljbGVzL21pY3Jvc29m=
+dC1vcGVuYWktaW5zaWRlLXRlY2hzLWhvdHRlc3Qtcm9tYW5jZT9yYz0xYmRpNWg/607f07ceef4=
+b8524a319a23cB917970aa" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> here=E2=80=99s a fun story in the Informat=
+ion about Microsoft Corp.=E2=80=99s possible plan=C2=A0to invest $10 billio=
+n in=C2=A0OpenAI</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Microsoft and OpenAI have spent months hammeri=
+ng out a complex deal that aims to balance their respective needs: OpenAI n=
+eeds more money to keep improving its software. And so it is now willing to=
+ pay a large share of future profits to Microsoft and other investors=E2=80=
+=94a necessary step given the low likelihood it will try to go public. But =
+the startup=E2=80=94whose ChatGPT chatbot has taken the industry by storm=
+=E2=80=94is proposing that it transition to nonprofit status again after it=
+ pays a certain amount of profit to the investors.</p>
+<p style=3D"margin: 16px 0;">After OpenAI pays back its first investors, Mi=
+crosoft will get 75% of profits until its principal investment is paid back=
+ and 49% of profits after that until it hits a theoretical cap, according t=
+o a person briefed on the terms. Other investors and OpenAI employees would=
+ have similar caps on profits they share. The idea of capping returns stems=
+ from OpenAI=E2=80=99s nonprofit origins. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">OpenAI has proposed a key concession as part o=
+f discussions with potential new investors. Instead of putting a hard cap o=
+n the profit sharing=E2=80=94essentially their return on investment=E2=80=
+=94it could increase the cap 20% per year starting around 2025, said a pers=
+on briefed on the change.</p>
+<p style=3D"margin: 16px 0;">Investors say this compromise, if it goes thro=
+ugh, would make the deal more attractive because it would allow shareholder=
+s to obtain venture-level returns if the company becomes a moneymaker.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Absolutely magnificent stuff, taking billions =
+of dollars of outside investment, promising =E2=80=9Cventure-level returns,=
+=E2=80=9D but=C2=A0<em>after that</em> you=E2=80=99re a nonprofit. Imagine =
+the confidence you=E2=80=99d need to cap returns at 20%.</p>
+<p style=3D"margin: 16px 0;">The funniest (also, worst)=C2=A0outcome would =
+be if=C2=A0every dollar that OpenAI makes, after it pays billions of dollar=
+s of capped profits to its=C2=A0investors of course, is earmarked for artif=
+icial-intelligence safety research. =E2=80=9CAs a nonprofit, we are going t=
+o invest heavily in making sure that our product does not eradicate humanit=
+y,=C2=A0as=C2=A0soon as we finish giving=C2=A0Microsoft a nice venture-leve=
+l return on its $10 billion investment.=E2=80=9D=C2=A0And then OpenAI=E2=80=
+=99s AI, being intelligent, reads the contracts, does the financial analysi=
+s, bides its time, and takes over the world 20 minutes before Microsoft get=
+s its capped return.</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0zMDIyMTU1NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA0OTQwNzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cJbfb7b6d5" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D30221555&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30494076&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">FTX</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I have never seen what I would call =E2=80=9Ct=
+he balance sheet of FTX,=E2=80=9D Sam Bankman-Fried=E2=80=99s bankrupt cryp=
+to exchange, but I have seen two FTX chief executive officers=E2=80=99 impe=
+rfect=C2=A0attempts to make one. In November, in Bankman-Fried=E2=80=99s fi=
+nal days as FTX=E2=80=99s CEO, he produced a spreadsheet listing FTX=E2=80=
+=99s assets and liabilities that he sent around to potential investors to t=
+ry to raise money;=C2=A0the Financial Times eventually <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/30221555.272521/aHR0cHM6Ly93d3cuZnQuY2=
+9tL2NvbnRlbnQvMGMyYTU1YjYtZDM0Yy00Njg1LThhOGQtM2M5NjI4ZjFmMTg1/607f07ceef4b=
+8524a319a23cB7853b768" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> published it</a>. This spreadsheet was not =
+at all an audited balance sheet; I <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/30221555.272521/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW=
+9uL2FydGljbGVzLzIwMjItMTEtMTQvZnR4LXMtYmFsYW5jZS1zaGVldC13YXMtYmFkP2NtcGlkP=
+UJCRDAxMTEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0=
+dGVyJnV0bV90ZXJtPTIzMDExMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524=
+a319a23cB309d80de" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">  called it</a> =E2=80=9Can Excel file full of t=
+he howling of ghosts and the shrieking of tortured souls,=E2=80=9D and it i=
+ncluded entries for things like =E2=80=9CHidden, poorly internally labeled =
+=E2=80=98fiat@=E2=80=99 account.=E2=80=9D Bad! Still, it was a table with s=
+ome assets and some liabilities. It was balance-sheet-ish.</p>
+<p style=3D"margin: 16px 0;">Then a few days later John Ray, FTX=E2=80=99s =
+current CEO, <a href=3D"https://link.mail.bloombergbusiness.com/click/30221=
+555.272521/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjIt=
+MTEtMTcvbWF0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1mdHgtd2FzLW5vdC12ZXJ5LWNhcmVmdWw=
+_Y21waWQ9QkJEMDExMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW=
+5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMTExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ce=
+ef4b8524a319a23cB83b73c26" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">  filed a declaration</a> in bankruptcy =
+court describing FTX=E2=80=99s financial situation. This was if anything ev=
+en less of a balance sheet; it was more of a complaint that producing a bal=
+ance sheet was impossible. =E2=80=9CNever in my career have I seen such a c=
+omplete failure of corporate controls and such a complete absence of trustw=
+orthy financial information as occurred here,=E2=80=9D wrote Ray, who also =
+complained that FTX did not really keep track of its crypto assets and that=
+ its customer liabilities =E2=80=9Care not reflected in the financial state=
+ments prepared while these companies were under the control of Mr. Bankman-=
+Fried.=E2=80=9D There were some balance-sheet-like tables for some of FTX=
+=E2=80=99s entities, but Ray emphasized that they were not meant to reflect=
+ FTX=E2=80=99s financial position.</p>
+<p style=3D"margin: 16px 0;">So I can tell you that FTX owns some stuff, it=
+ owes millions of customers a lot of money, and, uh, that=E2=80=99s about i=
+t. How much stuff it owns, and how much money it owes to customers, remain =
+mysterious. But <a href=3D"https://link.mail.bloombergbusiness.com/click/30=
+221555.272521/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtM=
+DEtMTEvZnR4LWFkdmlzZXJzLWhhdmUtZm91bmQtNS1iaWxsaW9uLW9mLWNhc2gtb3Itc2VsbGFi=
+bGUtY3J5cHRvP2NtcGlkPUJCRDAxMTEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXR=
+tX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExMSZ1dG1fY2FtcGFpZ249bW9uZXlzdH=
+VmZg/607f07ceef4b8524a319a23cB9604eb91" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">  here=E2=80=99s an update<=
+/a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">FTX Group advisers have found more than $5 bil=
+lion in cash or crypto assets that it may be able to sell to help repay cre=
+ditors, a lawyer for the company told the judge overseeing the biggest cryp=
+to bankruptcy.</p>
+<p style=3D"margin: 16px 0;">The company is working to monetize assets with=
+ a book value of $4.6 billion, company attorney Andrew G. Dietderich said i=
+n federal court in Wilmington, Delaware on Wednesday. Advisers have also fo=
+und a large amount of other crypto assets that are illiquid and therefore h=
+arder to sell, he said. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">FTX advisers have identified more than 9 milli=
+on customer accounts, Dietderich said. The company doesn=E2=80=99t yet know=
+ how much money creditors will get back, or what percentage of their debts =
+will be repaid, he said.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Sure! There=E2=80=99s=C2=A0=E2=80=9Cmore than =
+$5 billion=E2=80=9D of assets, at some valuation, though it=E2=80=99s not c=
+lear that they can actually be sold for that amount, or how much of FTX=E2=
+=80=99s obligations to customers that would cover. It=E2=80=99s=C2=A0part o=
+f one side of the balance sheet.</p>
+<p style=3D"margin: 16px 0;">It=E2=80=99s a very awkward bankruptcy. Ray an=
+d FTX=E2=80=99s bankruptcy team are in charge of rounding up assets that th=
+ey can use to pay back customers, and conceptually the assets fall into fou=
+r big categories:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">More-or-less liquid normal stuff. Cas=
+h, Bitcoin, etc.=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">Illiquid ve=
+nture-y stuff. Stakes in startups that Bankman-Fried liked, stakes in ventu=
+re capital funds, etc.=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">FTX=
+=E2=80=99s=C2=A0<em>business: </em>Its technology, its intellectual propert=
+y, its regulatory licenses,=C2=A0its customer relationships. Loosely speaki=
+ng, this stuff was <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/30221555.272521/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMj=
+ItMDEtMzEvYmFua21hbi1mcmllZC1zLWZ0eC12YWx1ZWQtYXQtMzItYmlsbGlvbi1hZnRlci1sY=
+XRlc3Qtcm91bmQ_Y21waWQ9QkJEMDExMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1=
+dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMTExJnV0bV9jYW1wYWlnbj1tb25leXN=
+0dWZm/607f07ceef4b8524a319a23cB16193cc6" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  worth $32 billion a ye=
+ar ago</a>. Now it is worth =E2=80=A6=C2=A0a smaller amount? But not=C2=A0<=
+em>nothing</em>; FTX=E2=80=99s bankruptcy advisers are working on <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMzAvZnR4LXMtbGVkZ2Vy=
+eC10by1tYWtlLTE3NS1taWxsaW9uLWF2YWlsYWJsZS1mb3ItYmFua3J1cHRjeS1wb3Q_Y21waWQ=
+9QkJEMDExMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZX=
+R0ZXImdXRtX3Rlcm09MjMwMTExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524=
+a319a23cB11cf4945" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">  selling some parts of its business</a>=C2=A0th=
+at are relatively untainted by the collapse of the main exchange.</li>=09<l=
+i style=3D"margin-bottom: 5px;">Enormous stashes of crypto tokens that were=
+ created by FTX, and that are connected to its business. The FTT token, whi=
+ch gives (gave?) holders discounts on FTX trading fees and a share of FTX=
+=E2=80=99s cash flows. The SRM token, which is like FTT but for the Serum d=
+ecentralized-finance project that FTX created. The MAPS token, for another =
+FTX-related project. Stuff like that. When Bankman-Fried shopped around his=
+ balance-sheet-ish thing to try to raise money,=C2=A0much<em>=C2=A0</em>of =
+the value that he was offering consisted of this stuff: Of $9.6 billion of =
+assets on his spreadsheet, $2.2 billion was SRM, half a billion or so was F=
+TT, $600 million was MAPS, etc.</li>
+</ol>
+<p style=3D"margin: 16px 0;">The first two categories are fairly straightfo=
+rward; the challenge for FTX=E2=80=99s bankruptcy advisers and new manageme=
+nt is to find that=C2=A0stuff and then sell it for reasonable prices. Again=
+, nobody seems to know quite how much of this stuff there is, or=C2=A0how m=
+uch is owed to customers, but in any case nobody=C2=A0thinks that these nor=
+mal assets add up to anything close to enough to pay back customers.</p>
+<p style=3D"margin: 16px 0;">So that leaves the third and fourth categories=
+, FTX=E2=80=99s operating business and its associated tokens. How much are =
+these things worth? FTX=E2=80=99s current and former=C2=A0CEOs seem to have=
+ very different views:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Bankman-Fried seems to think that FTX=
+=E2=80=99s business, and its=C2=A0FTT, SRM, etc. tokens, are very valuable.=
+ That=E2=80=99s why he was shopping them to potential investors before fili=
+ng for bankruptcy, and why he <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30221555.272521/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS9zYW0=
+tYmFua21hbi1mcmllZC1mdHgtYmFua3J1cHRjeS1iaWdnZXN0LW1pc3Rha2UtYnVybi1ncm91bm=
+Qtc2hhbWUtMjAyMi0xMQ/607f07ceef4b8524a319a23cB990de2b9" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> has since =
+argued</a> that filing for bankruptcy was a mistake: If he had stayed on as=
+ CEO and tried to find a rescuer, someone would have paid enough for FTX=E2=
+=80=99s <em>business</em> that customers would have been made whole.</li>=
+=09<li style=3D"margin-bottom: 5px;">Ray obviously disagrees. =E2=80=9CNeve=
+r in my career have I seen such a complete failure of corporate controls,=
+=E2=80=9D etc.: He thinks that the FTX business was terribly run and not tr=
+ustworthy, which are very bad things to say about a financial exchange. Bit=
+s of it might be valuable, and the current FTX team is working on selling s=
+ome of them. But I have a hard time imagining John Ray setting up meetings =
+with big crypto investors to pitch them on <em>buying the FTX exchange</em>=
+ for its margining system and matching engine and regulatory licenses and c=
+ustomer relationships. Ray thinks that FTX was a mess and a fraud! Its regu=
+lators hate it! But not as much as its customers!</li>
+</ul>
+<p style=3D"margin: 16px 0;">Presumably one of them is mostly right and one=
+ is mostly wrong, but that=E2=80=99s not the point here. The point is that =
+these are both somewhat self-fulfilling positions. If you go around talking=
+ up the value of the FTX=E2=80=99s business and its tokens, you might be ab=
+le to talk someone into paying a lot of money for them; maybe not=C2=A0<em>=
+now=C2=A0</em>but perhaps in November. If you go around talking=C2=A0<em>do=
+wn=C2=A0</em>the value of FTX =E2=80=94=C2=A0if you make statements about h=
+ow poorly it was run and how much fraud it did =E2=80=94=C2=A0then that val=
+ue will tend to zero, and you won=E2=80=99t be able to sell it.</p>
+<p style=3D"margin: 16px 0;">At some level Bankman-Fried is surely right th=
+at if he had remained CEO of FTX, instead of stepping down and being replac=
+ed by Ray, he would have had a better chance =E2=80=94=C2=A0though still qu=
+ite slim =E2=80=94=C2=A0of selling FTX=E2=80=99s business and tokens for mo=
+re money, and thus raising more money for FTX=E2=80=99s customers. If you w=
+ant to sell that business, you have to=C2=A0<em>say=C2=A0</em>that it=E2=80=
+=99s good.</p>
+<p style=3D"margin: 16px 0;">It=E2=80=99s just that, you know, if FTX was a=
+ fraud, he would have=C2=A0been getting that money for customers by doing m=
+ore fraud? Like if Ray is right that FTX was a fraudulent mess, then he=C2=
+=A0<em>shouldn=E2=80=99t=C2=A0</em>be trying to sell it to investors for a =
+lot of money, since that would itself be fraud. If the right model of FTX i=
+s that it was basically a fraud, then someone is going to be left with the =
+loss from that fraud. In this model, Bankman-Fried was, until his last mome=
+nts as CEO,=C2=A0trying to trick someone else into taking the loss: He had =
+a pile of magic beans and was hoping someone else would give him money for =
+them. But when Ray took over, he was not interested in tricking anyone else=
+, so the magic beans stayed where they were and the customers were left wit=
+h the loss.</p>
+<p style=3D"margin: 16px 0;">Elsewhere:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">=E2=80=9C<a href=3D"https://link.mail.=
+bloombergbusiness.com/click/30221555.272521/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnR=
+pY2xlcy9pbnNpZGUtc2FtLWJhbmttYW4tZnJpZWRzLTEtYmlsbGlvbi1iZXQtb24tYS1iaXRjb2=
+luLW1pbmVyLW9uLXRoZS1rYXpha2gtc3RlcHBlLTExNjczNDUzNzE2/607f07ceef4b8524a319=
+a23cBb6d9c5b5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">Inside Sam Bankman-Fried=E2=80=99s $1 Billion Bet on=
+ a Bitcoin Miner on the Kazakh Steppe</a>.=E2=80=9D Not clear how much valu=
+e John Ray=E2=80=99s team attributes to that.</li>=09<li style=3D"margin-bo=
+ttom: 5px;">=E2=80=9CFour US senators have questioned whether top Wall Stre=
+et law firm Sullivan &amp; Cromwell could <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/30221555.272521/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQ=
+vZjc2MGFlODMtOTgwMi00ZjEyLWE5MGItYzM3NzczYjE2MTZj/607f07ceef4b8524a319a23cB=
+af149e32" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> properly investigate possible wrongdoing at FTX</a> as i=
+ts bankruptcy counsel given its past work for the cryptocurrency exchange.=
+=E2=80=9D My view here is that=C2=A0<em>US federal prosecutors=C2=A0</em>ar=
+e in the business of investigating possible wrongdoing at FTX, while FTX=E2=
+=80=99s bankruptcy counsel is mostly in the business of=C2=A0<em>finding th=
+e money</em>, and working for the people who hid the money is probably good=
+ practice for finding it. Still you can see their point.</li>=09<li style=
+=3D"margin-bottom: 5px;">=E2=80=9C<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30221555.272521/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNzU2ZjQ=
+yNjgtNWQ5Yi00MmU1LThmZGQtZDAwN2U2MGI4ZDAw/607f07ceef4b8524a319a23cBdafbfb72=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">FTX boss invested in Paradigm fund that backed his crypto exchang=
+e</a>.=E2=80=9D =E2=80=9C=E2=80=98That=E2=80=99s just weird,=E2=80=99=C2=A0=
+said Charles Whitehead, a professor at Cornell Law School.=E2=80=9D I kind =
+of wish I was a law professor so that sometimes reporters would call me for=
+ a quote and I could say =E2=80=9Cthat=E2=80=99s just weird.=E2=80=9D Just =
+a perfect quote.</li>
+</ul>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">WWE=C2=A0</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/30221555.272521/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMDEtMTAvY3J5cHRvLWJhbmtzLW93ZS10aGVtc2VsdmVzLW1vbmV5P2Nt=
+cGlkPUJCRDAxMTEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXd=
+zbGV0dGVyJnV0bV90ZXJtPTIzMDExMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4=
+b8524a319a23cB2f06c211" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">  talked yesterday</a> about Vince McMahon=
+=E2=80=99s return to World Wrestling Entertainment Inc.: He stepped down as=
+ chief executive officer and director last summer, but he remained the cont=
+rolling shareholder. Last month he changed his mind and asked to come back =
+as executive chairman, but the board of directors refused, so last week he =
+fired several directors and put himself and his other chosen candidates on =
+the board, presumably so they could make him executive chairman again. <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aHR0cH=
+M6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy93d2UtYm9hcmQtZWxlY3RzLXZpbmNlLW1jbWFob24tZ=
+XhlY3V0aXZlLWNoYWlybWFuLTExNjczNDAxNzEzP21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07c=
+eef4b8524a319a23cB7b65df6f" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> That worked</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">World Wrestling Entertainment Inc. said Tuesda=
+y that its board of directors unanimously elected majority owner Vince McMa=
+hon as executive chairman, less than a week after the former chief executiv=
+e returned to the company.</p>
+<p style=3D"margin: 16px 0;">In addition, Mr. McMahon=E2=80=99s daughter, S=
+tephanie McMahon, has resigned as chairwoman and co-CEO. Nick Khan, who was=
+ co-CEO with Ms. McMahon, will serve as the sole chief executive, the WWE s=
+aid.</p>
+<p style=3D"margin: 16px 0;">Mr. McMahon said he supported Stephanie=E2=80=
+=99s personal decision and was grateful that she had offered to step in dur=
+ing his absence.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It was always possible it=C2=A0<em>wouldn=E2=
+=80=99t=C2=A0</em>work. Even when there=E2=80=99s a controlling shareholder=
+, the directors have a fiduciary obligation to do what=E2=80=99s best for t=
+he company, not just what the shareholder wants. It was theoretically possi=
+ble that McMahon could choose his best friends and closest allies, appoint =
+them to the board, come to them and say =E2=80=9Cokay now make me chairman,=
+=E2=80=9D and they could have said =E2=80=9Cno, in the exercise of our fidu=
+ciary duties, we think that=E2=80=99s not a good idea.=E2=80=9D Then he=E2=
+=80=99d have to fire them and try again with different allies. That would b=
+e a very funny outcome, but it was not very likely, and in the event the bo=
+ard unanimously gave him what he wanted.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Banks=E2=80=99 <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30221555.272521/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9uZXdzL2FydGljbGVzLzIwMjMtMDEtMTEvYmFua3MtcmV2ZW51ZS1ib25hbnphLXNlZW4tdW5k=
+ZXItdGhyZWF0LWFzLXVzLXJlY2Vzc2lvbi1sb29tcz9jbXBpZD1CQkQwMTExMjNfTU9ORVlTVFV=
+GRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMT=
+EmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBc4154b32" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">  Revenue Bonanza</a> Seen Under Threat From Looming US Recession. Goldma=
+n Sachs embarks on biggest <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30221555.272521/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNTUwODRiNWMtNG=
+Q2OC00MDEyLTk3YzgtZDFkYTRjMTMwNzRm/607f07ceef4b8524a319a23cB02ba8c30" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> cost-cutting drive</a> since financial crisis. Review of <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/30221555.272521/aHR0cHM6Ly93d3cu=
+d3NqLmNvbS9hcnRpY2xlcy9yZXZpZXctb2Ytbmlja2VsLWJsb3d1cC1jYWxscy1mb3ItY2hhbmd=
+lcy1hdC1sb25kb24tbWV0YWwtZXhjaGFuZ2UtMTE2NzMzNjg3NDc_bW9kPWl0cF93c2omcnU9eW=
+Fob28/607f07ceef4b8524a319a23cBd7df3189" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Nickel Blowup</a> Calls=
+ for Changes at London Metal Exchange.=C2=A0Fidelity Investments Buys <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aHR0cHM=
+6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9maWRlbGl0eS1pbnZlc3RtZW50cy1idXlzLXNob29ieC=
+10by1leHBhbmQtcHJpdmF0ZS1jb21wYW55LXN0b2NrLXBsYW4tYnVzaW5lc3MtMTE2NzMzNjU2M=
+DU_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB20a7ccd7" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Shoobx</a> to Expand Private-Company Stock-Plan Business. First <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/30221555.272521/aHR0cHM6Ly93=
+d3cud3NqLmNvbS9hcnRpY2xlcy9maXJzdC1jcnlwdG9jdXJyZW5jeS1pbnNpZGVyLXRyYWRpbmc=
+tY2FzZS15aWVsZHMtMTAtbW9udGgtcHJpc29uLXRlcm0tMTE2NzMzNzI1MjI_bW9kPWl0cF93c2=
+omcnU9eWFob28/607f07ceef4b8524a319a23cBef426090" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> Cryptocurrency In=
+sider-Trading</a> Case Yields 10-Month Prison Term. =E2=80=9CThe 2018 compe=
+nsation package clearly <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/30221555.272521/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9ncmFwaGljcy8yMDIzL=
+WVsb24tbXVzay1taWdodC1uZXZlci1iZS13b3JsZHMtcmljaGVzdC1wZXJzb24tYWdhaW4vP2Nt=
+cGlkPUJCRDAxMTEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXd=
+zbGV0dGVyJnV0bV90ZXJtPTIzMDExMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4=
+b8524a319a23cBbdbb8f50" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">  wasn=E2=80=99t enough</a> to keep Elon fo=
+cused on Tesla.=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30221555.272521/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9mb3JnZXQtY29y=
+ZS1jcGktbWFya2V0LXByb3MtYXJlLXNlYXJjaGluZy1mb3Itc3VwZXJjb3JlLWluZmxhdGlvbi0=
+xMTY3MzQxMzIyMj9tb2Q9aHBfbGVhZF9wb3M1/607f07ceef4b8524a319a23cB31b5dd0f" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> Supercore</a> inflation. House Republicans to vote on bill <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aHR0cHM6L=
+y93d3cuZm94bmV3cy5jb20vcG9saXRpY3MvaG91c2UtcmVwdWJsaWNhbnMtdm90ZS1iaWxsLWFi=
+b2xpc2hpbmctaXJzLWVsaW1pbmF0aW5nLWluY29tZS10YXg/607f07ceef4b8524a319a23cB36=
+25702a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> abolishing IRS</a>, eliminating income tax.=C2=A0Prince Ha=
+rry says he was <a href=3D"https://link.mail.bloombergbusiness.com/click/30=
+221555.272521/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjMvMDEvMTAvcHJpbmNlLWhhcnJ5LXNhe=
+XMtaGUtd2FzLWJyZWQtZm9yLXNwYXJlLXBhcnRzLWZvci13aWxsaWFt/607f07ceef4b8524a31=
+9a23cB1ed89d3c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> bred to offer spare organs</a> to heir William.</p=
+>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30221555.272521/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB0305db28" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30221555.272521/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB9d248518" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Why is it not quite right? Well, the less =
+important answer is that January 2024 Treasuries are trading in about a 4.6=
+5% context this morning, so 4.5% is just a convenient round number. The mor=
+e important answer is that Treasury does not issue one-year =E2=80=9Cbonds=
+=E2=80=9D: Treasury securities include <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/30221555.272521/aHR0cHM6Ly90cmVhc3VyeWRpcmVjdC5nb3YvbW=
+Fya2V0YWJsZS1zZWN1cml0aWVzL3RyZWFzdXJ5LWJpbGxzLw/607f07ceef4b8524a319a23cB3=
+bb6cf7b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">bills</a>, which have maturities of 4 to 52 weeks, <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aHR0cHM6L=
+y90cmVhc3VyeWRpcmVjdC5nb3YvbWFya2V0YWJsZS1zZWN1cml0aWVzL3RyZWFzdXJ5LW5vdGVz=
+Lw/607f07ceef4b8524a319a23cB02c03182" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">notes</a>, which have maturit=
+ies of 2, 3, 5, 7 or 10 years, and <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/30221555.272521/aHR0cHM6Ly90cmVhc3VyeWRpcmVjdC5nb3YvbWFya2=
+V0YWJsZS1zZWN1cml0aWVzL3RyZWFzdXJ5LWJvbmRzLw/607f07ceef4b8524a319a23cB1fdcf=
+08d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">bonds</a>, which have maturities of 20 or 30 years. Importantl=
+y, bills do not pay coupons: The way bills work is that you pay, say, $98 t=
+oday for a bill with a $100 face amount, you get back $100 at maturity, and=
+ the $2 difference is your yield. This makes bills tricky to use with the p=
+remium-debt gimmick; realistically you need to do that gimmick on notes or =
+bonds. I am starting with a hypothetical one-year interest-bearing security=
+ to make the math and intuitions simple, but it=E2=80=99s not really right.=
+ That said, <a href=3D"https://link.mail.bloombergbusiness.com/click/302215=
+55.272521/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L3VzY29kZS90ZXh0LzMxLzMxMDM/6=
+07f07ceef4b8524a319a23cBb089a022" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">the statute</a> authorizing Treas=
+ury notes allows them to have maturities of =E2=80=9Cat least one year,=E2=
+=80=9D so it=E2=80=99s not impossible to do this exact trade; it would just=
+ be (especially) weird.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] [2] In fact Treasury notes pay interest ev=
+ery six months, so you get some of your money back earlier, but let=E2=80=
+=99s keep it simple.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] When it=E2=80=99s paid back, it decreases =
+the debt by $100, except that probably Treasury pays it back by issuing new=
+ debt, so it doesn=E2=80=99t really decrease the debt.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] The text has a loose intuitive description=
+ of the math. The real math, in Excel, is =3DPMT(0.036,10,-200,100), or rea=
+lly =3D2*PMT(0.018,20,-200,100), because notes pay interest semiannually. T=
+hat works out to about $15.60 per year. One intuitive way to think about th=
+is =E2=80=94 the way you might think about your mortgage, say =E2=80=94 is =
+that you put in $200 of =E2=80=9Cprincipal,=E2=80=9D you get back $10 per y=
+ear of =E2=80=9Cprincipal=E2=80=9D plus $100 at the end, and you also get $=
+5.60 per year of =E2=80=9Cinterest,=E2=80=9D which sort of works out to 3.6=
+% interest on the average amount of principal outstanding ($200 at the begi=
+nning, $100 at the end, declining each year). But of course I can only say =
+that in a footnote; the point of the gimmick is that, for debt accounting p=
+urposes, that full $15.60 yearly payment gets counted as =E2=80=9Cinterest,=
+=E2=80=9D and there is only $100 of principal. Also, when I say that the in=
+terest rate is 15.6%, I mean 15.6% of the stated $100 principal amount ($15=
+.60 per year). The *yield* of this bond =E2=80=94 the annualized return you=
+ get on your money =E2=80=94 is 3.6%; that=E2=80=99s the point of the math.=
+</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] Treasury issues notes and bonds with coupo=
+ns in increments of 1/8 of a percentage point, so you might get notes with =
+coupons of 2.125% or 3.75% or 4.875% or whatever. The actual yield is set c=
+ompetitively and won=E2=80=99t generally be an eighth of a point, so Treasu=
+ry will set the coupon to the nearest eighth of a point that is below the a=
+uction yield, and will set the issue price below par to get the correct yie=
+ld. (If the yield is below 1/8th of a percent, then the coupon is set at 0.=
+125% and the issue price can be above par.) From <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/30221555.272521/aHR0cHM6Ly93d3cuZWNmci5nb3Yv=
+Y3VycmVudC90aXRsZS0zMS9zdWJ0aXRsZS1CL2NoYXB0ZXItSUkvc3ViY2hhcHRlci1BL3BhcnQ=
+tMzU2/607f07ceef4b8524a319a23cC8a4393b9" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">the regulations</a>: =E2=
+=80=9CIf a Treasury non-indexed or inflation-protected note or bond auction=
+ results in a yield lower than 0.125 percent, the interest rate will be set=
+ at 1=E2=81=848 of one percent, and successful bidders' award prices will b=
+e calculated accordingly. =E2=80=A6 [Otherwise,] The interest rate we estab=
+lish produces the price closest to, but not above, par when evaluated at th=
+e yield of awards to successful competitive bidders.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] Actually they are often worth more than re=
+gular bonds with the same maturity, because they have lower duration: You g=
+et back more of your money earlier with a high-interest bond than a low-int=
+erest one. I=E2=80=99m ignoring that here because the lower duration is a r=
+eal cost to Treasury: It has to pay back more of the money earlier. (Also a=
+ lower duration may not be good given the current inversion of the Treasury=
+ curve.) The point is that, for the same *duration*, a high-premium bond wi=
+ll often have a bit of a higher yield than a par bond.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] I mean, <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/30221555.272521/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dp=
+a2kvVHJpbGxpb24tZG9sbGFyX2NvaW4/607f07ceef4b8524a319a23cB7c4b285b" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+the platinum coin seems fine</a>. In some ways it is more elegant, but less=
+ interesting. It is not a financial-engineering solution to the problem; it=
+ is just, like, firing a zany cannon at the problem.</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] Because I am sort of making a joke here, I=
+ am ignoring reinvestment in growth of the business. But in fact at every s=
+tage you are making a choice between putting the money into doing more of t=
+he business, and cashing it out for yourself. Realistically by the time you=
+ get to, like, Step 6 of my list, you have chosen to do a lot of reinvestme=
+nt rather than consumption, but by now the reinvestment opportunities are g=
+rowing slower than the profits.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB0dd6202e" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB4be324ca" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBb655c1b4" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBcbd0a8b1" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0zMDIyMTU1NSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA0OTQwNzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cK3e4c5dc5" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D30221555&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30494076&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB40b8e341" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30221555.272521/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC715bdaa6" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30221555.272521/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBbc3b5ea7" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30221555.272521/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBd38866ee" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB3=
+9c2e267" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30221555.272521/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB1=
+2fde72c" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D302215=
+55&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30494076&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D302215=
+55&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30494076&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D302215=
+55&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30494076&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D302215=
+55&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30494076&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D302215=
+55&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30494076&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23chzr3n.5ua1/5809e405.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_221496140_60234851.1673465935088--
+

@@ -1,0 +1,1756 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:4a8e:0:b029:110:b4b1:9693 with SMTP id q14csp576468lkd;
+        Wed, 30 Jun 2021 09:59:16 -0700 (PDT)
+X-Received: by 2002:aa7:c588:: with SMTP id g8mr48331506edq.207.1625072356409;
+        Wed, 30 Jun 2021 09:59:16 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1625072356; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=AVKJ0V5VMwSL29l4v6EPnWPbVXniwH+AYqvL+6Qgk29A9ahEYUuMjimWdHF1Pn3vIX
+         Uf9scE96yx7cJ0aIHZM8XtMlhkJ3xtiNyVWZ+9BezL2ZTz3A5srcxFbKs89DY7Pcr/Fe
+         JeAERmz2JdqklgLkzkdW3W8GTfTSEZgTD6gSb4oEQJ+B6Nfst4j9f4Mswy34t/pOySrv
+         YkCBvlRPhFGFNDHXVhmuT4RMQSXkhAIie7Z2SvDDwDzNMguafwvpJssg+xEzAciCUZcW
+         vkTUaDrAxc9KLlPX/y1J4smpbD/wCZy4Z1mCDD8n8EJRbrwRwKhr5GFfAzkD7xBUajmQ
+         cL5Q==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=y8QOGMb7JMwDOH8EzTsW8D8Qz3rULv8PiTcth1IozHM=;
+        b=bYPnhSOz/XoQHas+0uVj0GHmrQmc/7/til7y7mAAb+RnQjA9RirBb09Z7L6SUPGQ0s
+         47avXiiFO/aJ6H8+0Rpw4A1O7280UmMRDkWl3nfoZg8wWkquwKYH6X7Uk46kRu+0NCHi
+         lHwEDNLJ4UVEtOnjsb90Q9FDzczE0ffXHDrHeGm+yScCUrYJrKBn/X7OXjsgnu7BojWc
+         aTlumltS9hKqe86MKCkwVNiNG+o3XQwne1r2TYgUjGT47FpltFOPFcRxZqZGoFFgw/M7
+         jHqibyds48qc9GMD/9TFCmmm2VG6DrMX7ic8zuylEaWl5l0qKBPl8m6LFzrP2aZL/Y1B
+         BMbQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=eDxEVZfI;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id m10sor11667107ejq.7.2021.06.30.09.59.16
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 30 Jun 2021 09:59:16 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=eDxEVZfI;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=y8QOGMb7JMwDOH8EzTsW8D8Qz3rULv8PiTcth1IozHM=;
+        b=L6XEtSSpXemMIK8ClUT+9hruXMMuHLsH0PiMz8KAuZV2Vajmv4ECsq/tylX9aSGQ59
+         G0DKoeyM6JIPT9G+d4zbFqZjSDvJgAK/4Nzojany4giK8SuMpa/QbSLlz/dm7nUl17UM
+         qA76A+xNYPcFFE51vNgpgloVMRYIpXB1Yf5ZKMAjqHBnbUl+RQLj+6X5hgFsdsdCdhEX
+         XjDiptXpaT/fgD5Z0PqP4pUok946AU79dIQ6Zt8OF8mbko/h+wjNvCscr8pu9fJNWqyI
+         Ky96ONXBXrd4D4I2IQxNfVZTGy5dwfhV1GPAmAFnOdQyt7YRdwKiitiKMxqcnN5S/PK3
+         ktaQ==
+X-Gm-Message-State: AOAM533W6l0GT6A9gtHMMX9oR/gViI0uo/D49zRmNRo8Liohj6pHwTds
+	aBybyh7aIJaugtboon+hptVIZlmcBLZVD/GeLDJXrG50VhrVYSY5CQ==
+X-Received: by 2002:a17:906:4711:: with SMTP id y17mr30980543ejq.431.1625072356169;
+        Wed, 30 Jun 2021 09:59:16 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:2c8f:0:0:0:0:0 with SMTP id h15csp737693ecp;
+        Wed, 30 Jun 2021 09:59:13 -0700 (PDT)
+X-Received: by 2002:a65:6210:: with SMTP id d16mr19119359pgv.50.1625072353074;
+        Wed, 30 Jun 2021 09:59:13 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1625072353; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=VP4dxRYX9GxI92iuCeys1DV7iLRFw9fd3F+92Vl85Op6i4YVNufVC9jY5Wh0MvsDDH
+         lPx4ti1nuDaBg3bPS4tiwgB4a6M1roZOV+yqRcNWbjcp+ZmNsRMqpfErYjj6EG3uvi4Q
+         hS9vzFxFNCy8GpJhKavyH7eo3auFsY5ZsnRPGt+UWtUbzROeLexDAkvrPGZd7K3/cMXP
+         mYGmI1KUqVMNHTISF1L+UH3CMeJFLL7EnZBFpFGP0iEbX1MdL9TAfURNAQoOlb9PJUzF
+         Cv5XWDAI2sCCRwMegTAoj+rKaM9UeXGHiHLbLdX4TSiglfY8QMGFGREMvN4DFZDAU43S
+         LjBQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=y8QOGMb7JMwDOH8EzTsW8D8Qz3rULv8PiTcth1IozHM=;
+        b=ZpUtaAkmrUv/odMQsYuR28CyFs7+4mLVUR9ocE95Ca45m6uajzEsFYDYfP6D+rhYS8
+         m42wZQUfNbgr19P+iGm6nh1kMZBy5gv325YtlwiUip1VqniUM19qebGh2SrSUV+u/Rtw
+         YMQsYnFMQQyyZvuKwfvAXrASmHZuKe0YrbE5FPhoDipwVj3BLSRZLRMZhs9f/NLwkLlB
+         kuYDcjwsyEy0VUGMfOEHJWGrORT15Aq1507VB6ythTRYWyIWrjLkPghBs8uTD1Ers+vj
+         fGRGHdCB8oKLH3kd8am1e1HyuG5BV6xl/c4t/BpzKHZVZsNfSJaG7OeEw4CRuKlqCGoP
+         9ZCQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=eDxEVZfI;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210630125754.24317788.267871@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210630125754.24317788.267871@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210630125754.24317788.267871@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id il8sor3582412pjb.9.2021.06.30.09.59.12
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 30 Jun 2021 09:59:13 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210630125754.24317788.267871@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJzd9GMv7AFtZh1iufLTm7+BZ7osWpB0gxOvWuJhCehio6dv69ugPdfLHGiEL01VVUE5JE/A0sO2G5qYqACAZKo5rdoDuyA=
+X-Received: by 2002:a17:90a:4414:: with SMTP id s20mr39746239pjg.81.1625072352653;
+        Wed, 30 Jun 2021 09:59:12 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1625072352; cv=none;
+        d=google.com; s=arc-20160816;
+        b=MSS0XhGDHINP9V7t0FzVtrum9/A4s2QCWhwGwprE4Wyd7XPHbBXAXcmWYth5SQceSR
+         qaiThuTOPWIYPhokzmubaAlU4OFAfk68lyo93kKVQfjV12ut61ALJCccmRpdTFPggfxO
+         jPWvTFbH7Yn5blyRp/IX3UuiSxksEEGKV8een8iwlav8IICKISg7UX43PDaW5lMM/iCP
+         +F3NxYwFNrdkv0Pa8vaJbvO0XTgegr411thSV/uV8gt5/9HFkCXQMyWb/VXVprDynTqO
+         OxCUKYnp6iFr3fJTn8nuPn4sU/gLAZ+SorScyl2d1xnAsv+gEi2vR+MIDYi4fgMEMf6K
+         Q4RQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=y8QOGMb7JMwDOH8EzTsW8D8Qz3rULv8PiTcth1IozHM=;
+        b=FMIOjKUcEDXZUJRoPjYoHv9U4jyNIVpW3j2bZ6MffCXzUvbamAA2lCLpOE+Q3UUPIU
+         bLZ8Mc4PFkIN5htdNLpsyQyOR3uGBuYSAuszj+DVym0ZL9F8/Eg3OMdyA4G4zsDK8YSu
+         /YyMzsY3h5EO6Nf9w8fGyWgduK1oJk+so0Pp9c/xfJcmiunYj2gJS8+csU6angkCgCVz
+         vWQGp9oEo6q7rLXnI8cGEOHVpj6jpo/SHLLtQ0Td8hyxMw4ozhx930DEj2cJdO3QeJLW
+         u2XE69LCaetCC/vI42VR7gVpY5g5vzwCYtlPQhXJQzqpFok/IfiWTcTG1KONFmGpaDv4
+         VvBA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=eDxEVZfI;
+       spf=pass (google.com: domain of delivery_20210630125754.24317788.267871@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210630125754.24317788.267871@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210630125754.24317788.267871@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id z10si1821560pfk.4.2021.06.30.09.59.11
+        for <khamel83@gmail.com>;
+        Wed, 30 Jun 2021 09:59:12 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210630125754.24317788.267871@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=VcmKs+mJBRcoAK57ZJhFSkchQA4=;
+ b=eDxEVZfIarbx8MVoVvYCpzRlNNJl1SCZicTVBUE5oJBovIUMElZhEG0qpbL1gtGiZEKLn6hYjjfD
+   wTWVURrrr1fEczE9oWuuR1vZiq2Bg/okTRyx6ldctnyDvemNjpiV4DZQ7jkFUebNmA8jLEoJa5OB
+   eglwN9qYLlg8UEMygXY=
+Received: from nj2mta-16.sailthru.com (204.153.121.16) by bloomberg-b.sailthru.com id hrihe01qqbsh for <bloomberg@khamel.com>; Wed, 30 Jun 2021 12:59:11 -0400 (envelope-from <delivery_20210630125754.24317788.267871@mx.sailthru.com>)
+Date: Wed, 30 Jun 2021 12:57:54 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210630125754.24317788.267871@sailthru.com>
+Subject: Money Stuff: Amazon Got Some Warrants
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_33433210_1192779162.1625072274306"
+Precedence: bulk
+X-Feedback-ID: 6358:24317788:campaign:sailthru
+X-TM-ID: 20210630125754.24317788.267871
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wryforest.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ceh7q4.5qov/a63696a0
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ceh7q4.5qov/a63696a0>, <mailto:unsubscribe_20210630125754.24317788.267871@mx.sailthru.com>
+X-rpcampaign: stjko24317788
+
+------=_Part_33433210_1192779162.1625072274306
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+       =20
+           =20
+               =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          WarrantsA recurring theme of this column is that if you have the =
+power to make the price of a financial asset go up, you should (1) do that =
+but (2) buy a lot of it first. So for instance Tesla Inc. is a big company =
+and=C2=A0its chief executive officer, Elon Musk, is a famous influential gu=
+y with a lot of Twitter followers. So when Tesla announced that it would st=
+art accepting Bitcoin as payment for its cars, the price of Bitcoin went up=
+. This was very predictable. So what did Tesla do? It  bought $1.5 billion =
+of Bitcoin=C2=A0before=C2=A0announcing the news, and then Bitcoin went up a=
+nd it had an immediate gain.[1]I am a simple man and to me this seems good.=
+=C2=A0Buy a thing, create=C2=A0good news for the thing, announce that news,=
+ watch the price of the thing go up. In general I think it is under-utilize=
+d, as a strategy. You don=E2=80=99t hear stories about, like, Moderna Inc. =
+running a successful trial of its coronavirus vaccine and  buying a ton of =
+call options on cruise lines and airlines before announcing the news. That =
+would have been a good trade!Of course one has to be careful. Insider tradi=
+ng laws are complicated, and you might worry that this trade =E2=80=94 you =
+buy the asset when you know your plans=C2=A0and the market doesn=E2=80=99t =
+=E2=80=94=C2=A0raises legal risks.[2] You might worry about market manipula=
+tion: If you do this trade, you want to make sure that you=E2=80=99re doing=
+ something real to create economic value for the thing you=E2=80=99re buyin=
+g, not just saying =E2=80=9CI like the stock=E2=80=9D to get a short-term p=
+op. There might even be antitrust concerns, where one company buys stock of=
+ another company to bet on the effects of the first company=E2=80=99s actio=
+ns. And even=C2=A0if it=E2=80=99s all legal, it=E2=80=99s potentially bad p=
+ublic relations, for reasons that are not fully intuitive to me. People see=
+m to think that this trade is bad, because you know something that the mark=
+et doesn=E2=80=99t know, and you use it to make a profit. Whereas I think t=
+hat this trade is good, because you know something that the market doesn=E2=
+=80=99t know, and you use it to make a profit.Amazon.com Inc. is a big comp=
+any, and if it decides to partner with a smaller company it can steer a ton=
+ of revenue and attention to that smaller company. Amazon might reasonably =
+think =E2=80=9Cwe are sending all this revenue and attention to the smaller=
+ company, and they are going to profit from it, and we want to extract as m=
+uch of that profit as possible for ourselves.=E2=80=9D One way to do that i=
+s to set the commercial terms to be as favorable as possible to Amazon =E2=
+=80=94=C2=A0pay suppliers as little as possible, etc. =E2=80=94=C2=A0but ar=
+guably a better way to do it is to (1) cheerfully create value for the smal=
+ler company but (2)=C2=A0buy=C2=A0some of that company first.[3] You bestow=
+ Amazon=E2=80=99s blessing on other companies, this blessing makes those co=
+mpanies more valuable, and your stake in them benefits from your actions.So=
+:The technology-and-retail giant has struck at least a dozen deals with pub=
+licly traded companies in which it gets rights, called warrants, to buy the=
+ vendors=E2=80=99 stock in the future at what could be below-market prices,=
+ according to corporate filings and interviews with people involved with th=
+e deals.Amazon over the past decade also has done more than 75 such deals w=
+ith privately held companies, according to a person familiar with the matte=
+r. In all, the tech titan=E2=80=99s stakes and potential stakes amount to b=
+illions of dollars across companies that provide everything from call-cente=
+r services to natural gas, and in some cases position Amazon among the top =
+shareholders in those businesses.The unusual arrangements offer another win=
+dow into how Amazon uses its market heft to increase its wealth and clout. =
+The company has been under growing scrutiny from regulators and lawmakers o=
+ver its competitive practices, including with companies it partners with.Wh=
+ile the deals can benefit the suppliers by locking in big contracts, which =
+can also boost their share prices, executives at several of the companies s=
+aid they felt they couldn=E2=80=99t refuse Amazon=E2=80=99s push for the ri=
+ght to buy the stock without risking a major contract. The deals in some ca=
+ses also give Amazon rights such as board representation and the ability to=
+ top any acquisition offers from other companies.For Amazon, the arrangemen=
+ts give it a piece of the potential upside their vendors can get from doing=
+ business with one of the world=E2=80=99s biggest companies.For instance:Gr=
+ocery distributor SpartanNash Co. last year amended a contract with Amazon =
+to deliver groceries to its Amazon Fresh arm. The Grand Rapids, Mich.-based=
+ company had been supplying Amazon with food since 2016, but this time Amaz=
+on added a condition: if it bought $8 billion worth of groceries over seven=
+ years, it could get warrants to purchase around 15% of SpartanNash=E2=80=
+=99s stock at a price potentially lower than the market. Amazon also said i=
+t wanted to be notified of any takeover offers for SpartanNash and have a 1=
+0-day window to offer a counterbid.SpartanNash executives were taken aback,=
+ said people familiar with the matter. No customer had requested such terms=
+ before. Executives ultimately decided they didn=E2=80=99t want to haggle w=
+ith one of SpartanNash=E2=80=99s biggest customers, and that being tied to =
+Amazon could raise their company=E2=80=99s profile, one of the people said.=
+=C2=A0Well, look, here is a graph of SpartanNash=E2=80=99s stock price over=
+ the last year:Can you spot the day that SpartanNash announced its Amazon c=
+ontract? I bet you can! The stock was up 26.3% that day. SpartanNash added =
+26.3% to its equity market value, in exchange for giving as much as 15% of =
+its equity market value to Amazon. Twenty-six is more than 15.[4] Seems lik=
+e a good trade for both of them? Obviously SpartanNash would have preferred=
+ to add 26.3% to its market cap=C2=A0without=C2=A0giving any of it to Amazo=
+n, but that deal wasn=E2=80=99t on the table. Also it is quite possible tha=
+t what =E2=80=9Craised their company=E2=80=99s profile=E2=80=9D is not=C2=
+=A0just=C2=A0the commercial agreement but=C2=A0also=C2=A0the warrants, that=
+ being part-owned by Amazon made it more valuable than merely being an Amaz=
+on supplier would.Amazon=E2=80=99s reasoning seems to be explicitly about c=
+apturing the upside that it creates in smaller companies:Amazon=E2=80=99s f=
+irst major warrants deal with a publicly traded vendor came in 2016. Amazon=
+ was seeking a partner with cargo planes to help build out its massive logi=
+stics network. Executives reasoned that the company=E2=80=99s potential par=
+tners were all smaller, lesser-known companies with stagnant growth, and th=
+at a major contract from Amazon would invigorate their stocks, according to=
+ a person familiar with the matter. Amazon wanted some of that potential up=
+side, the person said.That reasoning strikes me as completely correct and k=
+ind of obvious. Yet somehow this approach is not popular; it is viewed as g=
+rasping and excessive and monopolistic. And I suppose Amazon=E2=80=99s comp=
+etitive advantage is in part that it does the economically obvious thing ev=
+en if that seems grasping and excessive and monopolistic.Oh one other very =
+niche thing that I enjoyed is that Amazon=E2=80=99s warrants appear to be b=
+ased on the U.S. Treasury=E2=80=99s Troubled Asset Relief Program warrants:=
+Former Amazon executives who worked on warrant deals said they found no dir=
+ect precedent before the company began striking them. For a guide, an Amazo=
+n team sleuthed through financial documents from the 2008 financial crisis =
+to find information about bank bailouts that involved warrants, one of the =
+people said.I used to (very) occasionally create warrants, as an equity-lin=
+ked investment banker, and I will say that =E2=80=9Cjust copy the TARP warr=
+ants=E2=80=9D was kind of the=C2=A0standard approach. Arguably Treasury, in=
+ turn, was influenced by Berkshire Hathaway Inc.=E2=80=99s preferred-stock-=
+plus-warrants investment in Goldman Sachs Group Inc. a few weeks before the=
+ TARP deals, and the Berkshire deal is also a popular=C2=A0precedent. These=
+ are good examples of my general rule, that if you can create a ton of valu=
+e for another company you should buy its stock first. Warren Buffett, famou=
+sly, provides a halo of folksy value-investing goodness to the companies he=
+ supports; buying warrants from Goldman let him monetize that halo. And whe=
+n the U.S. government stepped in to support the big banks in the fall of 20=
+08, it was sending a strong signal to the effect of =E2=80=9Cunlike Lehman,=
+ we=E2=80=99re not going to let the banks that take TARP money go under.=E2=
+=80=9D Good for the stock price! Might as well get some warrants for that.B=
+ignessSome banks are very big. Some people think this is bad. There is a tr=
+aditional way to say =E2=80=9Cit is bad that this company is so big,=E2=80=
+=9D and that way uses the word =E2=80=9Cmonopoly.=E2=80=9D=C2=A0=E2=80=9CTh=
+is company is so big that it is a monopoly, which is bad.=E2=80=9D It is us=
+eful to be able to say this, because the government has a lot of power to l=
+imit monopolies, to regulate their behavior and break them up.=C2=A0It is n=
+ot, however, particularly true of the big banks. A monopoly is a specific t=
+hing, a company that is so big that it dominates its market and can force o=
+ut competitors and raise prices. The markets in which banks compete are, fo=
+r the most part, extremely competitive.[5] If you want a mortgage, you pret=
+ty much pay the market rate for mortgages; JPMorgan Chase & Co. can=E2=80=
+=99t charge you whatever it wants.Still, people think it is bad that the ba=
+nks are so big, for other reasons. They worry about risk concentration, abo=
+ut banks that are =E2=80=9Ctoo big to fail=E2=80=9D taking too many risks a=
+nd the taxpayers bearing those risks, about too much centralization of bank=
+ing making it more fragile, about banks that are =E2=80=9Ctoo big to manage=
+=E2=80=9D doing dumb things and crashing the financial system. Those worrie=
+s are controversial, but never mind that. Assume for now that they are corr=
+ect. What should the government do about them?One possibility is that the g=
+overnment=E2=80=99s antitrust regulators =E2=80=94=C2=A0at the Justice Depa=
+rtment and the Federal Trade Commission =E2=80=94=C2=A0should go after the =
+biggest banks for antitrust violations. The regulators could say =E2=80=9Cy=
+ou are too big, you are a monopoly, we need to break you up into smaller pi=
+eces.=E2=80=9D And then the banks would say =E2=80=9Cno,=E2=80=9D and they =
+would go to court, and the regulators could try to prove that the big banks=
+ are monopolists. And this would be hard to do, because they basically aren=
+=E2=80=99t. It wouldn=E2=80=99t be impossible, though, I guess, because the=
+y are in lots of businesses and some of them are less competitive than othe=
+rs and there are probably some bad emails somewhere and so forth. The regul=
+ators=E2=80=99 odds of breaking up the big banks on antitrust grounds would=
+n=E2=80=99t be=C2=A0zero. But they would be low.The other possibility is th=
+at other government regulators should, in setting other regulations, take b=
+igness into account and try to regulate and discourage it. Conveniently ban=
+king is a very regulated business, and there are regulators and prudential =
+supervisors who can do all sorts of meddling in a bank=E2=80=99s business. =
+So for instance if you worried that giant banks could be =E2=80=9Ctoo big t=
+o fail=E2=80=9D and pose a systemic risk to the financial system, the banks=
+=E2=80=99 capital regulators could put out a rule saying =E2=80=9Cvery big =
+banks need to have more capital to offset the higher risk they pose to the =
+financial system.=E2=80=9D That would both reduce the risk of big-bank fail=
+ure and also create an incentive for banks to stay smaller or break themsel=
+ves up. And in fact there is such a rule, for exactly those sorts of reason=
+s; it is=C2=A0called the =E2=80=9CG-SIB surcharge.=E2=80=9DOr if you worrie=
+d that giant banks could be =E2=80=9Ctoo big to manage=E2=80=9D and do dumb=
+ things, then the banks=E2=80=99=C2=A0supervisors=C2=A0could tell a big ban=
+k that did a dumb thing =E2=80=9Cyou can=E2=80=99t get any bigger until we=
+=E2=80=99re satisfied you won=E2=80=99t do more dumb things.=E2=80=9D They =
+can just do that! The supervisors can just=C2=A0tell a bank not to get bigg=
+er, and it has to listen! They actually  did it to Wells Fargo & Co., it=E2=
+=80=99s kind of amazing. The theory wasn=E2=80=99t =E2=80=9CWells Fargo is =
+a monopoly=E2=80=9D; it was just =E2=80=9Cwe don=E2=80=99t like what Wells =
+Fargo has been up to so it can=E2=80=99t get any bigger.=E2=80=9DI should e=
+mphasize that banking is a=C2=A0very=C2=A0regulated business, and the gover=
+nment doesn=E2=80=99t have quite as many levers to pull with most other=C2=
+=A0businesses. Still lots of businesses are regulated in lots of ways, and =
+the same general principles apply:=09If you think it is bad that a business=
+ is big, because it has a monopoly, sure, have the antitrust regulators go =
+after it for antitrust violations.=09If you think it is bad that a business=
+ is big, for=C2=A0other=C2=A0reasons, have=C2=A0other=C2=A0regulators try t=
+o limit its bigness in ways that directly address those other reasons.=09In=
+ a pinch, if you think it is bad that a business is big, you could always h=
+ave the other regulators try to limit its bigness in ways that=C2=A0don=E2=
+=80=99t=C2=A0relate in any particularly logical way to those reasons. If yo=
+u think that the bigness of social media companies=C2=A0is bad because they=
+ spread=C2=A0misinformation and undermine=C2=A0democracy, that is not reall=
+y an antitrust problem,[6] and there is not exactly a Federal Truth Regulat=
+or that can promulgate misinformation rules. But maybe you can find some re=
+gulatory regime to shoehorn into that purpose. Maybe you=E2=80=99ve got a r=
+egulator in charge of, I don=E2=80=99t know, internet bandwidth or wireless=
+ spectrum or electricity usage or truth in advertising or whatever,[7] and =
+you tell that regulator to turn up the heat on big social media companies. =
+Not because you care about their electricity usage or whatever, but just to=
+ deter them from being big, because you think their bigness is bad.=09If al=
+l else fails, you can have the antitrust regulators try to break up the bus=
+iness because it is too big, even though it isn=E2=80=99t a monopoly. That =
+may not work though.We  talked yesterday about Facebook Inc. Lots of people=
+ think it is bad that Facebook is so big, but it is a little hard to put th=
+at in traditional monopoly terms. Is the problem of Facebook=E2=80=99s bign=
+ess that it can charge users monopolistically high prices for posting on Fa=
+cebook? No; posting on Facebook is free. Is the problem that it can charge =
+advertisers monopolistically high prices for advertising on Facebook? No. I=
+ don=E2=80=99t know if it can; I just know that I have never heard anyone m=
+ake that complaint: If you don=E2=80=99t like Facebook, it=E2=80=99s not be=
+cause you worry about advertisers overpaying.Is the problem of Facebook=E2=
+=80=99s bigness some=C2=A0other=C2=A0form of anticompetitive behavior that =
+makes consumers (Facebook users) worse off? Sure, maybe; intuitively I susp=
+ect Instagram would be a nicer place if it was still independent than it is=
+ under Facebook=E2=80=99s ownership. But this stuff is a little hard to art=
+iculate, which is  why the FTC failed to articulate it: It sued Facebook fo=
+r antitrust violations, and this week a judge dismissed that lawsuit for fa=
+iling to even say why Facebook might have a monopoly. =E2=80=9CIt is almost=
+ as if the agency expects the Court to simply nod to the conventional wisdo=
+m that Facebook is a monopolist,=E2=80=9D wrote the judge. The conventional=
+ wisdom is that it is bad that Facebook is so big! But that does not make i=
+t a monopoly in the technical, legal sense of the term.I suspect the main p=
+roblem most people have with Facebook=E2=80=99s bigness is not about consum=
+er choice but rather about Facebook=E2=80=99s political and social influenc=
+e. You could imagine addressing that more directly than with antitrust law.=
+ And there have been suggestions for doing so =E2=80=94=C2=A0repealing Sect=
+ion 230, using election law to regulate Facebook, etc. =E2=80=94=C2=A0thoug=
+h I can=E2=80=99t say any of them strike me as great. Still it=E2=80=99s th=
+e right basic idea. Figure out what you don=E2=80=99t like about Facebook=
+=E2=80=99s dominance and then regulate that, rather than just equating bign=
+ess with=C2=A0antitrust.Anyway here=E2=80=99s this:The Biden administration=
+ is developing an executive order directing agencies to strengthen oversigh=
+t of industries that they perceive to be dominated by a small number of com=
+panies, a wide-ranging attempt to rein in big business power across the eco=
+nomy, according to people familiar with the plans.The executive order, whic=
+h President Biden could sign as soon as next week, would direct regulators =
+of industries from airlines to agriculture to rethink their rule-making pro=
+cess to inject more competition and to give consumers, workers and supplier=
+s more rights to challenge large producers.The goal is to broaden the way p=
+olicy makers approach business concentration in the U.S., going beyond conv=
+entional antitrust enforcement focused on blocking big mergers. For example=
+, companies in industries controlled by a small number of big firms might f=
+ace new rules for disclosing fees to consumers or for their relationships w=
+ith suppliers, the people familiar with the effort said.Seems right! Or not=
+, I mean; I guess it depends on how you feel about big business generally. =
+But if you feel bad about some big business=C2=A0specifically, addressing t=
+hat in a specific way =E2=80=94=C2=A0rather than assuming that big business=
+ is exclusively an antitrust problem =E2=80=94=C2=A0seems like the way to g=
+o.
+
+
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                               =20
+                               =20
+                               =20
+                           =20
+                       =20
+                       =20
+                           =20
+                               =20
+                                    Sponsored Content
+                                   =20
+Invest in world-changing startups on AngelList
+
+AngelList is the leading platform for early-stage venture investing.  Inves=
+t in experienced VCs that have backed Clubhouse, Notion, Pipe, and 77 other=
+ unicorns. Adjust your investment size as your goals evolve.
+
+                                    AngelList
+                               =20
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+Speaking of antitrust This is from last week but we didn=E2=80=99t talk abo=
+ut it then and it=E2=80=99s interesting:U.S. investigators who focus on cor=
+porate collusion are examining how global banks handled multibillion-dollar=
+ trades with Archegos Capital Management that sent stocks into a spiral and=
+ burned other shareholders.The Justice Department=E2=80=99s antitrust divis=
+ion is handling at least part of the probe into the collapse of Bill Hwang=
+=E2=80=99s firm after lenders rushed to liquidate souring positions in Marc=
+h, according to people familiar with the matter. The debacle also erased mu=
+ch of the billionaire owner=E2=80=99s fortune and saddled banks with more t=
+han $10 billion in losses.The division has been seeking information from Hw=
+ang=E2=80=99s biggest backers on Wall Street, who had discussed the possibi=
+lity of moving in concert to unwind the portfolio and sever ties with his b=
+usted family office, the people said, asking not to be identified because t=
+hey aren=E2=80=99t authorized to discuss the inquiries. ...At the root of t=
+he collapse were Archegos=E2=80=99s massive bets on certain stocks, such as=
+ media companies ViacomCBS Inc. and Discovery Inc., as well as Chinese tech=
+ darling Baidu Inc. Banks provided billions of dollars in leverage, eager t=
+o reap fees handling the investment firm=E2=80=99s burgeoning portfolio. Bu=
+t as the positions started to sour, Archegos was unable to meet margin call=
+s, and bankers soon realized the extent to which it had placed parallel pos=
+itions with competitors.The  stylized popular story of Archegos is that it =
+had enormous levered stock positions with half a dozen big banks, but becau=
+se it did those trades via swaps, nobody knew about it. Each bank thought =
+=E2=80=9Cwe own a lot of stock for these Archegos guys huh,=E2=80=9D but no=
+ bank knew that a bunch of other banks also owned a lot of stock for Archeg=
+os. Then one day some of the stocks went down, the banks asked Archegos to =
+post more money, and Archegos replied =E2=80=9Cnope, we=E2=80=99re fresh ou=
+t of money, also by the way we=E2=80=99ve got these same huge positions on =
+with a bunch of other banks, okay, have fun with that, bye!=E2=80=9D=C2=A0A=
+nd then the banks called the other banks and were like =E2=80=9Cwait were y=
+ou lending Archegos billions of dollars to buy ViacomCBS and Discovery?=E2=
+=80=9D and the other banks were like =E2=80=9Cyes, wait, were=C2=A0you=C2=
+=A0lending Archegos billions of dollars to buy ViacomCBS and Discovery?=E2=
+=80=9D And they realized they had a problem, which was that they all owned =
+billions of dollars of ViacomCBS and Discovery that they didn=E2=80=99t wan=
+t, and that the prices of those stocks had been pushed up to irrational lev=
+els by Archegos buying all of them.And so the banks got together and said, =
+look, we could all sell these stocks that we don=E2=80=99t want now, but th=
+at will push their prices way down and we will all lose a ton of money. Or =
+we could=C2=A0wait=C2=A0and sell them over time, rather than dumping them i=
+n a fire sale, and the result will be that markets will be more orderly and=
+ rational and also we won't lose so much money. But we have to all agree to=
+ do that together, because if most of us wait but some of us sell early, th=
+e ones who sell early will do well=C2=A0but the rest of us will be hosed.An=
+d Goldman Sachs heard =E2=80=9Cthe ones who sell early will do well but the=
+ rest of us will be hosed,=E2=80=9D and its ears perked up, because Goldman=
+ loves (1) doing well and (2) hosing its competitors, so Goldman dumped its=
+ Archegos-linked stocks and did well, and the coordination broke up and eve=
+ryone ended up dumping their stocks in a fire sale that crashed the market =
+for those stocks and generally freaked out the market.I don=E2=80=99t know =
+how accurate this narrative is in its details but it seems to be the conven=
+tional wisdom about Archegos. In particular, the part about all the banks g=
+etting on the phone to discuss not selling stock to keep the prices high is=
+ very much a part of the story. Here is  Bloomberg=E2=80=99s story from Mar=
+ch:Global investment banks, gathering in a hastily arranged call, needed a =
+swift truce to deal with Bill Hwang=E2=80=99s Archegos Capital Management i=
+f they were to head off billions of dollars in losses for banks and a poten=
+tial chain reaction across markets. Yet by Friday, it was everyone for them=
+selves. ...Emissaries from several of the world=E2=80=99s biggest prime bro=
+kerages tried to head off the chaos by holding a call with Hwang before the=
+ drama spilled into public view Friday morning. The idea, pushed by Credit =
+Suisse, was to reach some sort of temporary standstill to figure out how to=
+ untie positions without sparking panic, the people said. ...Soon came the =
+finger-pointing over who was breaking ranks, the people said. Some emerged =
+from the talks suspicious that Credit Suisse wasn=E2=80=99t fully committin=
+g to freezing sales. By early Friday, rival banks were taking umbrage after=
+ hearing that Goldman planned to sell some positions, ostensibly to assist =
+Archegos. Morgan Stanley began drawing public attention with block trades.A=
+nd the point I want to make here is that if a bunch of competitors=C2=A0get=
+ together on a conference call and agree to limit the supply of some produc=
+t in order to keep the price of that product high, that is absolutely a cor=
+e antitrust violation! That=E2=80=99s the main bad thing! You can=E2=80=99t=
+ do that! Everything in those last three paragraphs sounds super illegal, i=
+f you think of it as, like, chicken producers trying to reach an agreement =
+not to sell too much chicken to keep the price of chicken up, and then =E2=
+=80=9Cfinger-pointing over who was breaking ranks=E2=80=9D when one of them=
+ sold more chicken.Don=E2=80=99t get me wrong, I sympathize with the banks.=
+ They really were hoping to =E2=80=9Chead off the chaos,=E2=80=9D and they =
+failed, and it was chaos, and that chaos was bad and sparked a bunch of inv=
+estigations.=C2=A0(Also, to be clear, a lot of facts have not come out, the=
+ banks have good lawyers, and it is entirely possible that the way this all=
+ happened was perfectly=C2=A0legal, not collusion among banks about selling=
+ stock but rather negotiations between the banks and Archegos about the col=
+lateral terms of its swaps.)=C2=A0In general if some cartel of producers co=
+lludes to keep supply low and prices high, they will say =E2=80=9Cwe just w=
+ant the market to be orderly,=E2=80=9D and no one will sympathize with them=
+. But in financial markets=C2=A0that is much more of a thing: Low volatilit=
+y=C2=A0is=C2=A0sort of a social good, and frankly=C2=A0high prices=C2=A0are=
+ popular. If the price of chicken goes down, most people are happy (not chi=
+cken farmers); if the price of stocks goes down, most people are sad. When =
+the banks dumped all their Archegos-linked stocks at fire-sale prices, the =
+general reaction was that that was bad. You can understand why they wanted =
+to avoid that.So when I read that Bloomberg story back in March, and I saw =
+phrases like =E2=80=9Cneeded a swift truce =E2=80=A6 to head off billions o=
+f dollars in losses for banks and a potential chain reaction across markets=
+=E2=80=9D and =E2=80=9Chead off the chaos=E2=80=9D and =E2=80=9Cuntie posit=
+ions without sparking panic,=E2=80=9D I was like, yes, right, those are goo=
+d things and I see why the banks tried to do them. Honestly it did not even=
+ occur to me that they might create an antitrust problem. But I guess it di=
+d occur to the Justice Department=E2=80=99s antitrust division.Financial li=
+teracyImagine being the Securities and Exchange Commission lawyer who wrote=
+ this description:One of the PSC=E2=80=99s 15-second TV spots shows an inve=
+stor realizing the benefits of a diversified portfolio, saying, =E2=80=9CI =
+had no idea it was that easy to diversify my portfolio.=E2=80=9D Once the c=
+oncept is realized, balloons drop into the scene to help the investors cele=
+brate their new investing knowledge.The other TV spot shows an investor lea=
+rning about compound interest and the possible financial gains of regularly=
+ contributing to investments. saying, =E2=80=9CI had no idea investing regu=
+larly could add up this much.=E2=80=9D As soon as the concept sinks in, che=
+erleaders pop into the scene to help the investor celebrate her investing k=
+nowledge.Those are real ads! For the =E2=80=A6=C2=A0Securities and Exchange=
+ Commission? I guess for Investor.gov, its investor-education website. You =
+can watch the ads here, though I should warn you that I watched them like t=
+wo days ago and am still hunched over in a cringing posture. These ads pack=
+ a lot of embarrassment into 15 seconds.The quote above is from this SEC pr=
+ess release, =E2=80=9CNew SEC Public Service Campaign: Investing Regularly =
+Really Adds Up.=E2=80=9D I suppose the SEC dropping balloons to celebrate d=
+iversification is a reasonable antidote to Robinhood dropping confetti to c=
+elebrate YOLOing your=C2=A0life savings on GameStop options?There is lots o=
+f other stuff in the SEC campaign. For instance, =E2=80=9CAs part of the ca=
+mpaign, investors can also test their investing knowledge with a new quiz t=
+hat will be published each month on Investor.gov/quiz.=E2=80=9D The quiz ex=
+pects you to know the rule of 72:Nine years is sort of a weirdly specific p=
+eriod, but eight times nine is 72. I have often been skeptical of the popul=
+ar theory that financial literacy consists mostly of knowing about compound=
+ interest. I do wonder though, like, if you surveyed a bunch of people and =
+asked them two questions:=09Have you fallen for a Ponzi scheme, and=09Do yo=
+u know the rule of 72?then my=C2=A0guess=C2=A0is that people who know the r=
+ule of 72 are less likely to have fallen for Ponzis than people who don=E2=
+=80=99t? But that is a wild guess and I could see how your intuition might =
+go the other way. A very little knowledge is a dangerous thing.Things happe=
+nThe Fall of the  Billionaire Gucci Master. Banks turn to blockchains to re=
+form costly bond market. Global Regulators Try Again to Eliminate  Money-Ma=
+rket Hazards. Jamie Dimon Says  Paris Is JPMorgan=E2=80=99s New EU Trading =
+Hub. Barclays Moves Traders to  London Headquarters in Office Shake-Up. Cre=
+dit Suisse Weighs Overhaul of  Wealth Management Business. New Jersey Attor=
+ney General Chosen as SEC Enforcement Director. The chief executive of Tene=
+o, an influential advisory firm, steps down.=C2=A0Germany  Thwarts Cyberatt=
+ack, Denies Impact on Banking System.=C2=A0How a SoftBank-Backed Constructi=
+on Startup Burned Through $3 Billion. Sam Altman Wants to  Scan Your Eyebal=
+l in Exchange for Cryptocurrency.If you'd like to get=C2=A0Money=C2=A0Stuff=
+=C2=A0in handy email form, right in your inbox, please=C2=A0subscribe at th=
+is link. Or you can subscribe to Money Stuff and other great Bloomberg news=
+letters here. Thanks![1] Later Tesla announced that it would *stop* accepti=
+ng Bitcoin as payment for its cars, and the price of Bitcoin went down. Arg=
+uably Tesla should have *sold* all of its Bitcoins=C2=A0before making that =
+announcement, though that is a rather advanced move.[2] In the general case=
+ I think it does not, at least under U.S. law, but you do want to consult a=
+ lawyer and be careful. I think for instance that it would be fine for Mode=
+rna to buy call options on airlines, but perhaps a bit icky for a Moderna *=
+executive* to do it in her personal account. And=C2=A0many non-U.S. legal s=
+ystems have stricter level-playing-field-type insider-trading regimes that =
+would make it harder.=C2=A0[3] This is arguably better than gouging them on=
+ other terms because it aligns incentives: They will want to do more busine=
+ss with Amazon because the economic terms of any particular transaction wil=
+l be reasonable and competitive (and Amazon=E2=80=99s extra edge over other=
+ potential counterparties comes in the form of warrants, which are a sunk c=
+ost), while Amazon will want to do more business with them because it makes=
+ money from the warrants.[4] In fact the warrants are not struck at zero =
+=E2=80=94=C2=A0they=E2=80=99re struck at roughly the market price before th=
+e deal was announced =E2=80=94=C2=A0so SpartanNash wasn=E2=80=99t even =E2=
+=80=9Cgiving=E2=80=9D Amazon that 15% stake; Amazon still has to pay for it=
+.[5] Some are not, and there are occasional antitrust rumblings there. It=
+=E2=80=99s weird that the standard fee for a smallish=C2=A0initial public o=
+ffering is 7%, fine, and=C2=A0every so often the Justice Department will po=
+nder that. Prices in the treasury market? Chat rooms sharing customer infor=
+mation in  foreign exchange trading? The Archegos thing in the next section=
+?[6] As classically understood. I think some people would argue that it is,=
+ or should be, and you could imagine a legal theory that it is. It is not, =
+like, core antitrust though.[7] Or securities law, there=E2=80=99s always s=
+ecurities law,  everything is securities fraud.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ceh7q4.5qov/1c64dba0.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_33433210_1192779162.1625072274306
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24317788.267871/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cB58fdfccd"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tr>
+<td width=3D"206" align=3D"center" class=3D"sponsored-ad-container" style=
+=3D"padding-top: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24317788.267871/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cB750710d=
+6">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" style=3D"display: block;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Warrants</h2><p style=3D"margin: 16px 0;">A recurring theme of this c=
+olumn is that if you have the power to make the price of a financial asset =
+go up, you should (1) do that but (2) buy a lot of it first. So for instanc=
+e Tesla Inc. is a big company and=C2=A0its chief executive officer, Elon Mu=
+sk, is a famous influential guy with a lot of Twitter followers. So when Te=
+sla announced that it would start accepting Bitcoin as payment for its cars=
+, the price of Bitcoin went up. This was very predictable. So what did Tesl=
+a do? It <a href=3D"https://link.mail.bloombergbusiness.com/click/24317788.=
+267871/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDIt=
+MDgvZWxvbi1tdXNrLXdvcmtzLWhpcy1tYWdpYy1vbi1kb2dlY29pbi1hbmQtYml0Y29pbg/607f=
+07ceef4b8524a319a23cBf2e55f85" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> bought $1.5 billion</a> of Bitcoin=C2=A0<em>before=C2=
+=A0</em>announcing the news, and then Bitcoin went up and it had an immedia=
+te gain.[1]</p><p style=3D"margin: 16px 0;">I am a simple man and to me thi=
+s seems good.=C2=A0Buy a thing, <em>create=C2=A0</em>good news for the thin=
+g, announce that news, watch the price of the thing go up. In general I thi=
+nk it is under-utilized, as a strategy. You don=E2=80=99t hear stories abou=
+t, like, Moderna Inc. running a successful trial of its coronavirus vaccine=
+ and <a href=3D"https://link.mail.bloombergbusiness.com/click/24317788.2678=
+71/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDMtMTkv=
+Y3VyaW5nLWEtcGFuZGVtaWMtY291bGQtbWFrZS15b3UtcmljaA/607f07ceef4b8524a319a23c=
+B72b9e56b" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> buying a ton of call options on cruise lines and airlines</a> before anno=
+uncing the news. That would have been a good trade!</p><p style=3D"margin: =
+16px 0;">Of course one has to be careful. Insider trading laws are complica=
+ted, and you might worry that this trade =E2=80=94 you buy the asset when y=
+ou know your plans=C2=A0and the market doesn=E2=80=99t =E2=80=94=C2=A0raise=
+s legal risks.[2] You might worry about market manipulation: If you do this=
+ trade, you want to make sure that you=E2=80=99re doing something real to c=
+reate economic value for the thing you=E2=80=99re buying, not just saying =
+=E2=80=9CI like the stock=E2=80=9D to get a short-term pop. There might eve=
+n be antitrust concerns, where one company buys stock of another company to=
+ bet on the effects of the first company=E2=80=99s actions. And even=C2=A0i=
+f it=E2=80=99s all legal, it=E2=80=99s potentially bad public relations, fo=
+r reasons that are not fully intuitive to me. People seem to think that thi=
+s trade is bad, because you know something that the market doesn=E2=80=99t =
+know, and you use it to make a profit. Whereas I think that this trade is g=
+ood, because you know something that the market doesn=E2=80=99t know, and y=
+ou use it to make a profit.</p><p style=3D"margin: 16px 0;">Amazon.com Inc.=
+ is a big company, and if it decides to partner with a smaller company it c=
+an steer a ton of revenue and attention to that smaller company. Amazon mig=
+ht reasonably think =E2=80=9Cwe are sending all this revenue and attention =
+to the smaller company, and they are going to profit from it, and we want t=
+o extract as much of that profit as possible for ourselves.=E2=80=9D One wa=
+y to do that is to set the commercial terms to be as favorable as possible =
+to Amazon =E2=80=94=C2=A0pay suppliers as little as possible, etc. =E2=80=
+=94=C2=A0but arguably a better way to do it is to (1) cheerfully create val=
+ue for the smaller company but (2)=C2=A0<em>buy=C2=A0</em>some of that comp=
+any first.[3] You bestow Amazon=E2=80=99s blessing on other companies, this=
+ blessing makes those companies more valuable, and your stake in them benef=
+its from your actions.</p><p style=3D"margin: 16px 0;"><a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/24317788.267871/aHR0cHM6Ly93d3cud3NqLm=
+NvbS9hcnRpY2xlcy9hbWF6b24tZGVtYW5kcy1vbmUtbW9yZS10aGluZy1mcm9tLXNvbWUtdmVuZ=
+G9ycy1hLXBpZWNlLW9mLXRoZWlyLWNvbXBhbnktMTE2MjQ5NjgwOTk_bW9kPWl0cF93c2omcnU9=
+eWFob28/607f07ceef4b8524a319a23cBe65043a9" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">So</a>:</p><blockquote><p style=3D"margin:=
+ 16px 0;">The technology-and-retail giant has struck at least a dozen deals=
+ with publicly traded companies in which it gets rights, called warrants, t=
+o buy the vendors=E2=80=99 stock in the future at what could be below-marke=
+t prices, according to corporate filings and interviews with people involve=
+d with the deals.</p><p style=3D"margin: 16px 0;">Amazon over the past deca=
+de also has done more than 75 such deals with privately held companies, acc=
+ording to a person familiar with the matter. In all, the tech titan=E2=80=
+=99s stakes and potential stakes amount to billions of dollars across compa=
+nies that provide everything from call-center services to natural gas, and =
+in some cases position Amazon among the top shareholders in those businesse=
+s.</p><p style=3D"margin: 16px 0;">The unusual arrangements offer another w=
+indow into how Amazon uses its market heft to increase its wealth and clout=
+. The company has been under growing scrutiny from regulators and lawmakers=
+ over its competitive practices, including with companies it partners with.=
+</p><p style=3D"margin: 16px 0;">While the deals can benefit the suppliers =
+by locking in big contracts, which can also boost their share prices, execu=
+tives at several of the companies said they felt they couldn=E2=80=99t refu=
+se Amazon=E2=80=99s push for the right to buy the stock without risking a m=
+ajor contract. The deals in some cases also give Amazon rights such as boar=
+d representation and the ability to top any acquisition offers from other c=
+ompanies.</p><p style=3D"margin: 16px 0;">For Amazon, the arrangements give=
+ it a piece of the potential upside their vendors can get from doing busine=
+ss with one of the world=E2=80=99s biggest companies.</p></blockquote><p st=
+yle=3D"margin: 16px 0;">For instance:</p><blockquote><p style=3D"margin: 16=
+px 0;">Grocery distributor SpartanNash Co. last year amended a contract wit=
+h Amazon to deliver groceries to its Amazon Fresh arm. The Grand Rapids, Mi=
+ch.-based company had been supplying Amazon with food since 2016, but this =
+time Amazon added a condition: if it bought $8 billion worth of groceries o=
+ver seven years, it could get warrants to purchase around 15% of SpartanNas=
+h=E2=80=99s stock at a price potentially lower than the market. Amazon also=
+ said it wanted to be notified of any takeover offers for SpartanNash and h=
+ave a 10-day window to offer a counterbid.</p><p style=3D"margin: 16px 0;">=
+SpartanNash executives were taken aback, said people familiar with the matt=
+er. No customer had requested such terms before. Executives ultimately deci=
+ded they didn=E2=80=99t want to haggle with one of SpartanNash=E2=80=99s bi=
+ggest customers, and that being tied to Amazon could raise their company=E2=
+=80=99s profile, one of the people said.=C2=A0</p></blockquote><p style=3D"=
+margin: 16px 0;">Well, look, here is a graph of SpartanNash=E2=80=99s stock=
+ price over the last year:</p><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"" src=3D"https://assets.bwbx.io/im=
+ages/users/iqjWHBFdfxIU/iXCPOhcxWJt8/v0/-1x-1.png" width=3D"550" /></td></t=
+r></table>
+<div style=3D"display:none">
+<![endif]--><img alt=3D"" src=3D"https://assets.bwbx.io/images/users/iqjWHB=
+FdfxIU/iXCPOhcxWJt8/v0/-1x-1.png" style=3D"max-width: 550px; display: block=
+; width: 100%; margin-top: 20px;" /><!--[if mso]>
+</div>
+<![endif]--><p style=3D"margin: 16px 0;">Can you spot the day that SpartanN=
+ash <a href=3D"https://link.mail.bloombergbusiness.com/click/24317788.26787=
+1/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvODc3NDIyL=
+zAwMDE1NjQ1OTAyMDA0NjE0NC9zcHRuLThrXzIwMjAxMDA3Lmh0bQ/607f07ceef4b8524a319a=
+23cBe69b736f" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">announced its Amazon contract</a>? I bet you can! The stock was up 26.3=
+% that day. SpartanNash added 26.3% to its equity market value, in exchange=
+ for giving as much as 15% of its equity market value to Amazon. Twenty-six=
+ is more than 15.[4] Seems like a good trade for both of them? Obviously Sp=
+artanNash would have preferred to add 26.3% to its market cap=C2=A0<em>with=
+out=C2=A0</em>giving any of it to Amazon, but that deal wasn=E2=80=99t on t=
+he table. Also it is quite possible that what =E2=80=9Craised their company=
+=E2=80=99s profile=E2=80=9D is not=C2=A0<em>just=C2=A0</em>the commercial a=
+greement but=C2=A0<em>also=C2=A0</em>the warrants, that being part-owned by=
+ Amazon made it more valuable than merely being an Amazon supplier would.</=
+p><p style=3D"margin: 16px 0;">Amazon=E2=80=99s reasoning seems to be expli=
+citly about capturing the upside that it creates in smaller companies:</p><=
+blockquote><p style=3D"margin: 16px 0;">Amazon=E2=80=99s first major warran=
+ts deal with a publicly traded vendor came in 2016. Amazon was seeking a pa=
+rtner with cargo planes to help build out its massive logistics network. Ex=
+ecutives reasoned that the company=E2=80=99s potential partners were all sm=
+aller, lesser-known companies with stagnant growth, and that a major contra=
+ct from Amazon would invigorate their stocks, according to a person familia=
+r with the matter. Amazon wanted some of that potential upside, the person =
+said.</p></blockquote><p style=3D"margin: 16px 0;">That reasoning strikes m=
+e as completely correct and kind of obvious. Yet somehow this approach is n=
+ot popular; it is viewed as grasping and excessive and monopolistic. And I =
+suppose Amazon=E2=80=99s competitive advantage is in part that it does the =
+economically obvious thing even if that seems grasping and excessive and mo=
+nopolistic.</p><p style=3D"margin: 16px 0;">Oh one other very niche thing t=
+hat I enjoyed is that Amazon=E2=80=99s warrants appear to be based on the U=
+.S. Treasury=E2=80=99s Troubled Asset Relief Program warrants:</p><blockquo=
+te><p style=3D"margin: 16px 0;">Former Amazon executives who worked on warr=
+ant deals said they found no direct precedent before the company began stri=
+king them. For a guide, an Amazon team sleuthed through financial documents=
+ from the 2008 financial crisis to find information about bank bailouts tha=
+t involved warrants, one of the people said.</p></blockquote><p style=3D"ma=
+rgin: 16px 0;">I used to (very) occasionally create warrants, as an equity-=
+linked investment banker, and I will say that =E2=80=9Cjust copy the TARP w=
+arrants=E2=80=9D was kind of the=C2=A0standard approach. Arguably Treasury,=
+ in turn, was influenced by Berkshire Hathaway Inc.=E2=80=99s <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/24317788.267871/aHR0cHM6Ly93d3c=
+uc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzg4Njk4Mi8wMDAwOTUwMTIzMDgwMTE3MjAveT=
+cxNDgwZXh2M3cxLmh0bQ/607f07ceef4b8524a319a23cBfa0ec82a" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">preferred-stock-plus-warrants=
+ investment</a> in Goldman Sachs Group Inc. a few weeks before the <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24317788.267871/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzg4Njk4Mi8wMDAwOTUwMTIzMDgwMTQw=
+ODUveTcyMTcyZTh2ay5odG0/607f07ceef4b8524a319a23cB30acd201" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;">TARP deals</a>, and the Be=
+rkshire deal is also a popular=C2=A0precedent. These are good examples of m=
+y general rule, that if you can create a ton of value for another company y=
+ou should buy its stock first. Warren Buffett, famously, provides a halo of=
+ folksy value-investing goodness to the companies he supports; buying warra=
+nts from Goldman let him monetize that halo. And when the U.S. government s=
+tepped in to support the big banks in the fall of 2008, it was sending a st=
+rong signal to the effect of =E2=80=9Cunlike Lehman, we=E2=80=99re not goin=
+g to let the banks that take TARP money go under.=E2=80=9D Good for the sto=
+ck price! Might as well get some warrants for that.</p><h2 style=3D"font-we=
+ight: bold; font-family: &quot;Arial Black&quot;, Arial, Helvetica, sans-se=
+rif; letter-spacing: -1px; font-size: 20px; border-bottom-width: 1px; borde=
+r-bottom-style: dotted; margin: 0px; padding: 16px 0px 5px;">Bigness</h2><p=
+ style=3D"margin: 16px 0;">Some banks are very big. Some people think this =
+is bad. There is a traditional way to say =E2=80=9Cit is bad that this comp=
+any is so big,=E2=80=9D and that way uses the word =E2=80=9Cmonopoly.=E2=80=
+=9D=C2=A0=E2=80=9CThis company is so big that it is a monopoly, which is ba=
+d.=E2=80=9D It is useful to be able to say this, because the government has=
+ a lot of power to limit monopolies, to regulate their behavior and break t=
+hem up.=C2=A0</p><p style=3D"margin: 16px 0;">It is not, however, particula=
+rly true of the big banks. A monopoly is a specific thing, a company that i=
+s so big that it dominates its market and can force out competitors and rai=
+se prices. The markets in which banks compete are, for the most part, extre=
+mely competitive.[5] If you want a mortgage, you pretty much pay the market=
+ rate for mortgages; JPMorgan Chase &amp; Co. can=E2=80=99t charge you what=
+ever it wants.</p><p style=3D"margin: 16px 0;">Still, people think it is ba=
+d that the banks are so big, for other reasons. They worry about risk conce=
+ntration, about banks that are =E2=80=9Ctoo big to fail=E2=80=9D taking too=
+ many risks and the taxpayers bearing those risks, about too much centraliz=
+ation of banking making it more fragile, about banks that are =E2=80=9Ctoo =
+big to manage=E2=80=9D doing dumb things and crashing the financial system.=
+ Those worries are controversial, but never mind that. Assume for now that =
+they are correct. What should the government do about them?</p><p style=3D"=
+margin: 16px 0;">One possibility is that the government=E2=80=99s antitrust=
+ regulators =E2=80=94=C2=A0at the Justice Department and the Federal Trade =
+Commission =E2=80=94=C2=A0should go after the biggest banks for antitrust v=
+iolations. The regulators could say =E2=80=9Cyou are too big, you are a mon=
+opoly, we need to break you up into smaller pieces.=E2=80=9D And then the b=
+anks would say =E2=80=9Cno,=E2=80=9D and they would go to court, and the re=
+gulators could try to prove that the big banks are monopolists. And this wo=
+uld be hard to do, because they basically aren=E2=80=99t. It wouldn=E2=80=
+=99t be impossible, though, I guess, because they are in lots of businesses=
+ and some of them are less competitive than others and there are probably s=
+ome bad emails somewhere and so forth. The regulators=E2=80=99 odds of brea=
+king up the big banks on antitrust grounds wouldn=E2=80=99t be=C2=A0<em>zer=
+o</em>. But they would be low.</p><p style=3D"margin: 16px 0;">The other po=
+ssibility is that <em>other</em> government regulators should, in setting <=
+em>other</em> regulations, take bigness into account and try to regulate an=
+d discourage it. Conveniently banking is a very regulated business, and the=
+re are regulators and prudential supervisors who can do all sorts of meddli=
+ng in a bank=E2=80=99s business. So for instance if you worried that giant =
+banks could be =E2=80=9Ctoo big to fail=E2=80=9D and pose a systemic risk t=
+o the financial system, the banks=E2=80=99 capital regulators could put out=
+ a rule saying =E2=80=9Cvery big banks need to have more capital to offset =
+the higher risk they pose to the financial system.=E2=80=9D That would both=
+ reduce the risk of big-bank failure and also create an incentive for banks=
+ to stay smaller or break themselves up. And in fact there is such a rule, =
+for exactly those sorts of reasons; it is=C2=A0called the =E2=80=9C<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24317788.267871/aHR0cHM6L=
+y93d3cuZmVkZXJhbHJlc2VydmUuZ292L2Vjb25yZXMvbm90ZXMvZmVkcy1ub3Rlcy9ob3ctZG8t=
+dXMtZ2xvYmFsLXN5c3RlbWljYWxseS1pbXBvcnRhbnQtYmFua3MtbG93ZXItdGhlaXItY2FwaXR=
+hbC1zdXJjaGFyZ2VzLTIwMjAwMTMxLmh0bQ/607f07ceef4b8524a319a23cB417b845f" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">G-SIB surcharg=
+e</a>.=E2=80=9D</p><p style=3D"margin: 16px 0;">Or if you worried that gian=
+t banks could be =E2=80=9Ctoo big to manage=E2=80=9D and do dumb things, th=
+en the banks=E2=80=99=C2=A0supervisors=C2=A0could tell a big bank that did =
+a dumb thing =E2=80=9Cyou can=E2=80=99t get any bigger until we=E2=80=99re =
+satisfied you won=E2=80=99t do more dumb things.=E2=80=9D They can just do =
+that! The supervisors can just=C2=A0<em>tell a bank not to get bigger</em>,=
+ and it has to listen! They actually <a href=3D"https://link.mail.bloomberg=
+business.com/click/24317788.267871/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMTgtMDItMDUvd2VsbHMtZmFyZ28tbXVzdC1iZS1iZXR0ZXItYmVmb3J=
+lLWl0LWdldHMtYmlnZ2Vy/607f07ceef4b8524a319a23cBebc60411" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> did it to Wells Fargo &amp;=
+ Co.</a>, it=E2=80=99s kind of amazing. The theory wasn=E2=80=99t =E2=80=9C=
+Wells Fargo is a monopoly=E2=80=9D; it was just =E2=80=9Cwe don=E2=80=99t l=
+ike what Wells Fargo has been up to so it can=E2=80=99t get any bigger.=E2=
+=80=9D</p><p style=3D"margin: 16px 0;">I should emphasize that banking is a=
+=C2=A0<em>very=C2=A0</em>regulated business, and the government doesn=E2=80=
+=99t have quite as many levers to pull with most other=C2=A0businesses. Sti=
+ll lots of businesses are regulated in lots of ways, and the same general p=
+rinciples apply:</p><ol style=3D"list-style-type: decimal; padding-left: 40=
+px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">If you think it i=
+s bad that a business is big, because it has a monopoly, sure, have the ant=
+itrust regulators go after it for antitrust violations.</li>=09<li style=3D=
+"margin-bottom: 5px;">If you think it is bad that a business is big, for=C2=
+=A0<em>other=C2=A0</em>reasons, have=C2=A0<em>other=C2=A0</em>regulators tr=
+y to limit its bigness in ways that directly address those other reasons.</=
+li>=09<li style=3D"margin-bottom: 5px;">In a pinch, if you think it is bad =
+that a business is big, you could always have the other regulators try to l=
+imit its bigness in ways that=C2=A0<em>don=E2=80=99t=C2=A0</em>relate in an=
+y particularly logical way to those reasons. If you think that the bigness =
+of social media companies=C2=A0is bad because they spread=C2=A0misinformati=
+on and undermine=C2=A0democracy, that is not really an antitrust problem,[6=
+] and there is not exactly a Federal Truth Regulator that can promulgate mi=
+sinformation rules. But maybe you can find some regulatory regime to shoeho=
+rn into that purpose. Maybe you=E2=80=99ve got a regulator in charge of, I =
+don=E2=80=99t know, internet bandwidth or wireless spectrum or electricity =
+usage or truth in advertising or whatever,[7] and you tell that regulator t=
+o turn up the heat on big social media companies. Not because you care abou=
+t their electricity usage or whatever, but just to deter them from being bi=
+g, because you think their bigness is bad.</li>=09<li style=3D"margin-botto=
+m: 5px;">If all else fails, you can have the antitrust regulators try to br=
+eak up the business because it is too big, even though it isn=E2=80=99t a m=
+onopoly. That may not work though.</li></ol><p style=3D"margin: 16px 0;">We=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/24317788.267871/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMjkvZmFj=
+ZWJvb2stdmljdG9yeS1hZ2FpbnN0LXRoZS1mdGMtaXMtYW4tYW50aXRydXN0LWxlc3Nvbi1pbi1=
+tb25vcG9seS1wb3dlci1rcWk4amVrdQ/607f07ceef4b8524a319a23cB1d2de967" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> talked yesterday<=
+/a> about Facebook Inc. Lots of people think it is bad that Facebook is so =
+big, but it is a little hard to put that in traditional monopoly terms. Is =
+the problem of Facebook=E2=80=99s bigness that it can charge users monopoli=
+stically high prices for posting on Facebook? No; posting on Facebook is fr=
+ee. Is the problem that it can charge advertisers monopolistically high pri=
+ces for advertising on Facebook? No. I don=E2=80=99t know if it can; I just=
+ know that I have never heard anyone make that complaint: If you don=E2=80=
+=99t like Facebook, it=E2=80=99s not because you worry about <em>advertiser=
+s overpaying</em>.</p><p style=3D"margin: 16px 0;">Is the problem of Facebo=
+ok=E2=80=99s bigness some=C2=A0<em>other=C2=A0</em>form of anticompetitive =
+behavior that makes consumers (Facebook users) worse off? Sure, maybe; intu=
+itively I suspect Instagram would be a nicer place if it was still independ=
+ent than it is under Facebook=E2=80=99s ownership. But this stuff is a litt=
+le hard to articulate, which is <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/24317788.267871/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fyd=
+GljbGVzLzIwMjEtMDYtMzAvZnRjLXJldml2YWwtb2YtZmFjZWJvb2stY2FzZS1oaW5nZXMtb24t=
+Ym9sc3RlcmluZy1tb25vcG9seS1jbGFpbQ/607f07ceef4b8524a319a23cB4cbc9e6e" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> why the FTC fa=
+iled to articulate it</a>: It sued Facebook for antitrust violations, and t=
+his week a judge dismissed that lawsuit for failing to even say why Faceboo=
+k might have a monopoly. =E2=80=9CIt is almost as if the agency expects the=
+ Court to simply nod to the conventional wisdom that Facebook is a monopoli=
+st,=E2=80=9D wrote the judge. The conventional wisdom is that it is bad tha=
+t Facebook is so big! But that does not make it a monopoly in the technical=
+, legal sense of the term.</p><p style=3D"margin: 16px 0;">I suspect the ma=
+in problem most people have with Facebook=E2=80=99s bigness is not about co=
+nsumer choice but rather about Facebook=E2=80=99s political and social infl=
+uence. You could imagine addressing that more directly than with antitrust =
+law. And there have been suggestions for doing so =E2=80=94=C2=A0repealing =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24317788.267871/aH=
+R0cHM6Ly93d3cudGhldmVyZ2UuY29tLzIxMjczNzY4L3NlY3Rpb24tMjMwLWV4cGxhaW5lZC1pb=
+nRlcm5ldC1zcGVlY2gtbGF3LWRlZmluaXRpb24tZ3VpZGUtZnJlZS1tb2RlcmF0aW9u/607f07c=
+eef4b8524a319a23cBe597434e" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">Section 230</a>, using <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/24317788.267871/aHR0cHM6Ly93d3cuaGF3bGV5LnNlbmF0ZS5n=
+b3YvaGF3bGV5LWNhbGxzLWZlYy1pbnZlc3RpZ2F0aW9uLXBvdGVudGlhbC1raW5kLWNvbnRyaWJ=
+1dGlvbnMtdHdpdHRlci1hbmQtZmFjZWJvb2stYmlkZW4tY2FtcGFpZ24/607f07ceef4b8524a3=
+19a23cB7ba9bf4f" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">election law</a> to regulate Facebook, etc. =E2=80=94=C2=A0though I =
+can=E2=80=99t say any of them strike me as great. Still it=E2=80=99s the ri=
+ght basic idea. Figure out what you don=E2=80=99t like about Facebook=E2=80=
+=99s dominance and then regulate that, rather than just equating bigness wi=
+th=C2=A0<em>antitrust</em>.</p><p style=3D"margin: 16px 0;">Anyway <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24317788.267871/aHR0cHM6L=
+y93d3cud3NqLmNvbS9hcnRpY2xlcy9iaWRlbi13ZWlnaHMtbmV3LWV4ZWN1dGl2ZS1vcmRlci1y=
+ZXN0cmFpbmluZy1iaWctYnVzaW5lc3MtMTE2MjUwMDc4MDQ_bW9kPWl0cF93c2omcnU9eWFob28=
+/607f07ceef4b8524a319a23cB7669275b" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">here=E2=80=99s this</a>:</p><blockquote><p style=
+=3D"margin: 16px 0;">The Biden administration is developing an executive or=
+der directing agencies to strengthen oversight of industries that they perc=
+eive to be dominated by a small number of companies, a wide-ranging attempt=
+ to rein in big business power across the economy, according to people fami=
+liar with the plans.</p><p style=3D"margin: 16px 0;">The executive order, w=
+hich President Biden could sign as soon as next week, would direct regulato=
+rs of industries from airlines to agriculture to rethink their rule-making =
+process to inject more competition and to give consumers, workers and suppl=
+iers more rights to challenge large producers.</p><p style=3D"margin: 16px =
+0;">The goal is to broaden the way policy makers approach business concentr=
+ation in the U.S., going beyond conventional antitrust enforcement focused =
+on blocking big mergers. For example, companies in industries controlled by=
+ a small number of big firms might face new rules for disclosing fees to co=
+nsumers or for their relationships with suppliers, the people familiar with=
+ the effort said.</p></blockquote><p style=3D"margin: 16px 0;">Seems right!=
+ Or not, I mean; I guess it depends on how you feel about big business gene=
+rally. But if you feel bad about some big business=C2=A0<em>specifically</e=
+m>, addressing that in a specific way =E2=80=94=C2=A0rather than assuming t=
+hat big business is exclusively an antitrust problem =E2=80=94=C2=A0seems l=
+ike the way to go.</p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 20px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td style=3D"padding: 15px 15px 0px;">
+<!--[if mso]>
+<table width=3D"500">
+<tr>
+<td>
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iuMNcxDTeR04/v=
+0/-1x-1.png" width=3D"500" />
+</td>
+</tr>
+</table>
+<div style=3D"display:none">
+<![endif]-->
+<img width=3D"550" class=3D"sponsored-content__image" src=3D"https://assets=
+.bwbx.io/images/users/iqjWHBFdfxIU/iuMNcxDTeR04/v0/-1x-1.png" style=3D"widt=
+h: 100%; display: block; max-width: 550px; max-height: 150px;" />
+<!--[if mso]>
+</div>
+<![endif]-->
+</td>
+</tr>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Sponsored Content</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;">
+<p style=3D"margin: 10px 0px;"><strong>Invest in world-changing startups on=
+ AngelList</strong></p>
+<p style=3D"margin: 10px 0px;"><a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/24317788.267871/aHR0cDovL2FuZ2VsbGlzdC5jb20_dXRtX3NvdXJjZT1uZX=
+dzbGV0dGVyJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPW1vbmV5X3N0dWZm/607f07ce=
+ef4b8524a319a23cB266ae027" style=3D"color: #000000; text-decoration: underl=
+ine;">AngelList</a><a href=3D"https://link.mail.bloombergbusiness.com/click=
+/24317788.267871/aHR0cDovL2FuZ2VsbGlzdC5jb20vP3V0bV9zb3VyY2U9bmV3c2xldHRlci=
+Z1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leV9zdHVmZg/607f07ceef4b8524a3=
+19a23cBa6fadf0c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: underline;"> </a>is the le=
+ading platform for early-stage venture investing. <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/24317788.267871/aHR0cHM6Ly93d3cuYW5nZWxsaXN=
+0LmNvbS9yb2xsaW5nP3V0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV=
+9jYW1wYWlnbj1tb25leV9zdHVmZg/607f07ceef4b8524a319a23cBe111a879" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: underline;"> Invest</a> in experienced VCs that have b=
+acked Clubhouse, Notion, Pipe, and 77 other unicorns. Adjust your investmen=
+t size as your goals evolve.</p>
+</div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;"><a href=3D"https=
+://link.mail.bloombergbusiness.com/click/24317788.267871/aHR0cHM6Ly93d3cuYW=
+5nZWxsaXN0LmNvbS8_dXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9tZWRpdW09ZW1haWwmdXRtX=
+2NhbXBhaWduPW1vbmV5X3N0dWZm/607f07ceef4b8524a319a23cB58cdfe36" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: underline;">AngelList</a></p></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Speaking of antitrust</h2><p style=3D"margin: 16px 0;"><a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/24317788.267871/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMjQvYXJjaGVnb3Mtcy1iYW5rcy1=
+zYWlkLXRvLWZhY2UtZG9qLWFudGl0cnVzdC1wcm9iZS1pbnRvLWNvbGxhcHNl/607f07ceef4b8=
+524a319a23cB1d5195b3" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> This is from last week</a> but we didn=E2=80=99t talk about i=
+t then and it=E2=80=99s interesting:</p><blockquote><p style=3D"margin: 16p=
+x 0;">U.S. investigators who focus on corporate collusion are examining how=
+ global banks handled multibillion-dollar trades with Archegos Capital Mana=
+gement that sent stocks into a spiral and burned other shareholders.</p><p =
+style=3D"margin: 16px 0;">The Justice Department=E2=80=99s antitrust divisi=
+on is handling at least part of the probe into the collapse of Bill Hwang=
+=E2=80=99s firm after lenders rushed to liquidate souring positions in Marc=
+h, according to people familiar with the matter. The debacle also erased mu=
+ch of the billionaire owner=E2=80=99s fortune and saddled banks with more t=
+han $10 billion in losses.</p><p style=3D"margin: 16px 0;">The division has=
+ been seeking information from Hwang=E2=80=99s biggest backers on Wall Stre=
+et, who had discussed the possibility of moving in concert to unwind the po=
+rtfolio and sever ties with his busted family office, the people said, aski=
+ng not to be identified because they aren=E2=80=99t authorized to discuss t=
+he inquiries. ...</p><p style=3D"margin: 16px 0;">At the root of the collap=
+se were Archegos=E2=80=99s massive bets on certain stocks, such as media co=
+mpanies ViacomCBS Inc. and Discovery Inc., as well as Chinese tech darling =
+Baidu Inc. Banks provided billions of dollars in leverage, eager to reap fe=
+es handling the investment firm=E2=80=99s burgeoning portfolio. But as the =
+positions started to sour, Archegos was unable to meet margin calls, and ba=
+nkers soon realized the extent to which it had placed parallel positions wi=
+th competitors.</p></blockquote><p style=3D"margin: 16px 0;">The <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/24317788.267871/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDQtMDUvYmlsbC1od2FuZy1=
+zLWFyY2hlZ29zLXN3YXAtYWZ0ZXJtYXRoLWlzLWF3a3dhcmQtZm9yLWJhbmtz/607f07ceef4b8=
+524a319a23cBeabf38eb" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> stylized popular story</a> of Archegos is that it had enormou=
+s levered stock positions with half a dozen big banks, but because it did t=
+hose trades via swaps, nobody knew about it. Each bank thought =E2=80=9Cwe =
+own a lot of stock for these Archegos guys huh,=E2=80=9D but no bank knew t=
+hat a bunch of <em>other</em> banks also owned a lot of stock for Archegos.=
+ Then one day some of the stocks went down, the banks asked Archegos to pos=
+t more money, and Archegos replied =E2=80=9Cnope, we=E2=80=99re fresh out o=
+f money, also by the way we=E2=80=99ve got these same huge positions on wit=
+h a bunch of other banks, okay, have fun with that, bye!=E2=80=9D=C2=A0</p>=
+<p style=3D"margin: 16px 0;">And then the banks called the other banks and =
+were like =E2=80=9Cwait were you lending Archegos billions of dollars to bu=
+y ViacomCBS and Discovery?=E2=80=9D and the other banks were like =E2=80=9C=
+yes, wait, were=C2=A0<em>you=C2=A0</em>lending Archegos billions of dollars=
+ to buy ViacomCBS and Discovery?=E2=80=9D And they realized they had a prob=
+lem, which was that they all owned billions of dollars of ViacomCBS and Dis=
+covery that they didn=E2=80=99t want, and that the prices of those stocks h=
+ad been pushed up to irrational levels by Archegos buying all of them.</p><=
+p style=3D"margin: 16px 0;">And so the banks got together and said, look, w=
+e could all sell these stocks that we don=E2=80=99t want now, but that will=
+ push their prices way down and we will all lose a ton of money. Or we coul=
+d=C2=A0<em>wait=C2=A0</em>and sell them over time, rather than dumping them=
+ in a fire sale, and the result will be that markets will be more orderly a=
+nd rational and also we won't lose so much money. But we have to all agree =
+to do that together, because if most of us wait but some of us sell early, =
+the ones who sell early will do well=C2=A0but the rest of us will be hosed.=
+</p><p style=3D"margin: 16px 0;">And Goldman Sachs heard =E2=80=9Cthe ones =
+who sell early will do well but the rest of us will be hosed,=E2=80=9D and =
+its ears perked up, because Goldman loves (1) doing well and (2) hosing its=
+ competitors, so Goldman dumped its Archegos-linked stocks and did well, an=
+d the coordination broke up and everyone ended up dumping their stocks in a=
+ fire sale that crashed the market for those stocks and generally freaked o=
+ut the market.</p><p style=3D"margin: 16px 0;">I don=E2=80=99t know how acc=
+urate this narrative is in its details but it seems to be the conventional =
+wisdom about Archegos. In particular, the part about all the banks getting =
+on the phone to discuss not selling stock to keep the prices high is very m=
+uch a part of the story. Here is <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/24317788.267871/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjEtMDMtMjkvYmFuay1iaWNrZXJpbmctZGV2b2x2ZWQtaW50by1tYWQtZGFzaC1=
+0by11bmxvYWQtYXJjaGVnb3Mtc3RvY2tz/607f07ceef4b8524a319a23cBd281de90" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> Bloomberg=E2=80=
+=99s story from March</a>:</p><blockquote><p style=3D"margin: 16px 0;">Glob=
+al investment banks, gathering in a hastily arranged call, needed a swift t=
+ruce to deal with Bill Hwang=E2=80=99s Archegos Capital Management if they =
+were to head off billions of dollars in losses for banks and a potential ch=
+ain reaction across markets. Yet by Friday, it was everyone for themselves.=
+ ...</p><p style=3D"margin: 16px 0;">Emissaries from several of the world=
+=E2=80=99s biggest prime brokerages tried to head off the chaos by holding =
+a call with Hwang before the drama spilled into public view Friday morning.=
+ The idea, pushed by Credit Suisse, was to reach some sort of temporary sta=
+ndstill to figure out how to untie positions without sparking panic, the pe=
+ople said. ...</p><p style=3D"margin: 16px 0;">Soon came the finger-pointin=
+g over who was breaking ranks, the people said. Some emerged from the talks=
+ suspicious that Credit Suisse wasn=E2=80=99t fully committing to freezing =
+sales. By early Friday, rival banks were taking umbrage after hearing that =
+Goldman planned to sell some positions, ostensibly to assist Archegos. Morg=
+an Stanley began drawing public attention with block trades.</p></blockquot=
+e><p style=3D"margin: 16px 0;">And the point I want to make here is that if=
+ a bunch of competitors=C2=A0get together on a conference call and agree to=
+ limit the supply of some product in order to keep the price of that produc=
+t high, that is absolutely a core antitrust violation! That=E2=80=99s the m=
+ain bad thing! You can=E2=80=99t do that! Everything in those last three pa=
+ragraphs sounds super illegal, if you think of it as, like, chicken produce=
+rs trying to reach an agreement not to sell too much chicken to keep the pr=
+ice of chicken up, and then =E2=80=9Cfinger-pointing over who was breaking =
+ranks=E2=80=9D when one of them sold more chicken.</p><p style=3D"margin: 1=
+6px 0;">Don=E2=80=99t get me wrong, I sympathize with the banks. They reall=
+y were hoping to =E2=80=9Chead off the chaos,=E2=80=9D and they failed, and=
+ it was chaos, and that chaos was bad and sparked a bunch of investigations=
+.=C2=A0(Also, to be clear, a lot of facts have not come out, the banks have=
+ good lawyers, and it is entirely possible that the way this all happened w=
+as perfectly=C2=A0legal, not collusion among banks about selling stock but =
+rather negotiations between the banks and Archegos about the collateral ter=
+ms of its swaps.)=C2=A0In general if some cartel of producers colludes to k=
+eep supply low and prices high, they will say =E2=80=9Cwe just want the mar=
+ket to be orderly,=E2=80=9D and no one will sympathize with them. But in fi=
+nancial markets=C2=A0that is much more of a thing: Low volatility=C2=A0<em>=
+is=C2=A0</em>sort of a social good, and frankly=C2=A0<em>high prices=C2=A0<=
+/em>are popular. If the price of chicken goes down, most people are happy (=
+not chicken farmers); if the price of stocks goes down, most people are sad=
+. When the banks dumped all their Archegos-linked stocks at fire-sale price=
+s, the general reaction was that that was bad. You can understand why they =
+wanted to avoid that.</p><p style=3D"margin: 16px 0;">So when I read that B=
+loomberg story back in March, and I saw phrases like =E2=80=9Cneeded a swif=
+t truce =E2=80=A6 to head off billions of dollars in losses for banks and a=
+ potential chain reaction across markets=E2=80=9D and =E2=80=9Chead off the=
+ chaos=E2=80=9D and =E2=80=9Cuntie positions without sparking panic,=E2=80=
+=9D I was like, yes, right, those are good things and I see why the banks t=
+ried to do them. Honestly it did not even occur to me that they might creat=
+e an antitrust problem. But I guess it did occur to the Justice Department=
+=E2=80=99s antitrust division.</p><h2 style=3D"font-weight: bold; font-fami=
+ly: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spacing: =
+-1px; font-size: 20px; border-bottom-width: 1px; border-bottom-style: dotte=
+d; margin: 0px; padding: 16px 0px 5px;">Financial literacy</h2><p style=3D"=
+margin: 16px 0;">Imagine being the Securities and Exchange Commission lawye=
+r who wrote this description:</p><blockquote><p style=3D"margin: 16px 0;">O=
+ne of the PSC=E2=80=99s 15-second TV spots shows an investor realizing the =
+benefits of a diversified portfolio, saying, =E2=80=9CI had no idea it was =
+that easy to diversify my portfolio.=E2=80=9D Once the concept is realized,=
+ balloons drop into the scene to help the investors celebrate their new inv=
+esting knowledge.</p><p style=3D"margin: 16px 0;">The other TV spot shows a=
+n investor learning about compound interest and the possible financial gain=
+s of regularly contributing to investments. saying, =E2=80=9CI had no idea =
+investing regularly could add up this much.=E2=80=9D As soon as the concept=
+ sinks in, cheerleaders pop into the scene to help the investor celebrate h=
+er investing knowledge.</p></blockquote><p style=3D"margin: 16px 0;">Those =
+are real ads! For the =E2=80=A6=C2=A0Securities and Exchange Commission? I =
+guess for <a href=3D"https://link.mail.bloombergbusiness.com/click/24317788=
+.267871/aHR0cHM6Ly93d3cuaW52ZXN0b3IuZ292Lw/607f07ceef4b8524a319a23cB054687f=
+8" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">Investo=
+r.gov</a>, its investor-education website. You can watch the ads <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/24317788.267871/aHR0cHM6Ly93=
+d3cuaW52ZXN0b3IuZ292L2FkZGl0aW9uYWwtcmVzb3VyY2VzL3Nwb3RsaWdodC9wdWJsaWMtc2V=
+ydmljZS1jYW1wYWlnbiM/607f07ceef4b8524a319a23cBdcb4c314" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">here</a>, though I should war=
+n you that I watched them like two days ago and am still hunched over in a =
+cringing posture. These ads pack a lot of embarrassment into 15 seconds.</p=
+><p style=3D"margin: 16px 0;">The quote above is from <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/24317788.267871/aHR0cHM6Ly93d3cuc2VjLmd=
+vdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAyMS0xMDk/607f07ceef4b8524a319a23cBa3669e22"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">this SEC =
+press release</a>, =E2=80=9CNew SEC Public Service Campaign: Investing Regu=
+larly Really Adds Up.=E2=80=9D I suppose the SEC dropping balloons to celeb=
+rate diversification is a reasonable antidote to Robinhood <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/24317788.267871/aHR0cHM6Ly93d3cudG=
+hldmVyZ2UuY29tLzIwMjEvMy8zMS8yMjM2MDYzOS9yb2Jpbmhvb2QtY29uZmV0dGktaXBvLXJlb=
+W92ZWQtYXBwLXN0b2NrLW1hcmtldA/607f07ceef4b8524a319a23cB9c9dc8aa" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">dropping confetti<=
+/a> to celebrate YOLOing your=C2=A0life savings on GameStop options?</p><p =
+style=3D"margin: 16px 0;">There is lots of other stuff in the SEC campaign.=
+ For instance, =E2=80=9CAs part of the campaign, investors can also test th=
+eir investing knowledge with a new quiz that will be published each month o=
+n <a href=3D"https://link.mail.bloombergbusiness.com/click/24317788.267871/=
+aHR0cHM6Ly93d3cuaW52ZXN0b3IuZ292L2FkZGl0aW9uYWwtcmVzb3VyY2VzL3Nwb3RsaWdodC9=
+pbnZlc3RpbmctcXVpenplcw/607f07ceef4b8524a319a23cB5f131fe1" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: solid; background-color: #ccc;">Investor.gov/quiz</a>.=E2=
+=80=9D The quiz expects you to know the <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/24317788.267871/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa=
+2kvUnVsZV9vZl83Mg/607f07ceef4b8524a319a23cB51d85a76" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">rule of 72</a>:</p><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"" src=3D"https://assets.bwbx.io/im=
+ages/users/iqjWHBFdfxIU/i0aheGiV28R0/v0/-1x-1.png" width=3D"550" /></td></t=
+r></table>
+<div style=3D"display:none">
+<![endif]--><img alt=3D"" src=3D"https://assets.bwbx.io/images/users/iqjWHB=
+FdfxIU/i0aheGiV28R0/v0/-1x-1.png" style=3D"max-width: 550px; display: block=
+; width: 100%; margin-top: 20px;" /><!--[if mso]>
+</div>
+<![endif]--><p style=3D"margin: 16px 0;">Nine years is sort of a weirdly sp=
+ecific period, but eight times nine is 72. I have <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/24317788.267871/aHR0cHM6Ly93d3cuYmxvb21iZXJ=
+nLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDItMTQvaXMtdml4LW1hbmlwdWxhdGVkLW9yLW=
+hlZGdlZA/607f07ceef4b8524a319a23cBd6386884" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">often been skeptical</a> of the popular t=
+heory that financial literacy consists mostly of knowing about compound int=
+erest. I do wonder though, like, if you surveyed a bunch of people and aske=
+d them two questions:</p><ol style=3D"list-style-type: decimal; padding-lef=
+t: 40px; margin: 16px 0;">=09<li style=3D"margin-bottom: 5px;">Have you fal=
+len for a Ponzi scheme, and</li>=09<li style=3D"margin-bottom: 5px;">Do you=
+ know the rule of 72?</li></ol><p style=3D"margin: 16px 0;">then my=C2=A0<e=
+m>guess=C2=A0</em>is that people who know the rule of 72 are less likely to=
+ have fallen for Ponzis than people who don=E2=80=99t? But that is a wild g=
+uess and I could see how your intuition might go the other way. A very litt=
+le knowledge is a dangerous thing.</p><h2 style=3D"font-weight: bold; font-=
+family: &quot;Arial Black&quot;, Arial, Helvetica, sans-serif; letter-spaci=
+ng: -1px; font-size: 20px; border-bottom-width: 1px; border-bottom-style: d=
+otted; margin: 0px; padding: 16px 0px 5px;">Things happen</h2><p style=3D"m=
+argin: 16px 0;">The Fall of the <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/24317788.267871/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9mZWF0dXJlc=
+y8yMDIxLWh1c2hwdXBwaS1ndWNjaS1pbmZsdWVuY2VyLw/607f07ceef4b8524a319a23cB82bb=
+24a0" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Bil=
+lionaire Gucci Master</a>. Banks turn to <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/24317788.267871/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQv=
+OGIxMDA1ZWQtNWQ3MC00YTMxLWI1NzctNmM3ZjFmNTA3YzYw/607f07ceef4b8524a319a23cB6=
+ec7a6ed" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;">b=
+lockchains</a> to reform costly bond market. Global Regulators Try Again to=
+ Eliminate <a href=3D"https://link.mail.bloombergbusiness.com/click/2431778=
+8.267871/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMz=
+AvZ2xvYmFsLXJlZ3VsYXRvcnMtdHJ5LWFnYWluLXRvLWVsaW1pbmF0ZS1tb25leS1tYXJrZXQta=
+GF6YXJkcw/607f07ceef4b8524a319a23cB7e05e3ca" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> Money-Market Hazards</a>. Jamie Dimon S=
+ays <a href=3D"https://link.mail.bloombergbusiness.com/click/24317788.26787=
+1/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMjkvamFta=
+WUtZGltb24tc2F5cy1wYXJpcy1pcy1qcG1vcmdhbi1zLW5ldy10cmFkaW5nLWh1Yi1pbi10aGUt=
+ZXU/607f07ceef4b8524a319a23cBfe9fcb35" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: sol=
+id; background-color: #ccc;"> Paris</a> Is JPMorgan=E2=80=99s New EU Tradin=
+g Hub. Barclays Moves Traders to <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/24317788.267871/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fy=
+dGljbGVzLzIwMjEtMDYtMzAvYmFyY2xheXMtbW92ZXMtdHJhZGVycy10by1sb25kb24taGVhZHF=
+1YXJ0ZXJzLWluLW9mZmljZS1zaGFrZXVw/607f07ceef4b8524a319a23cB1eb3378e" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> London Headquar=
+ters</a> in Office Shake-Up. Credit Suisse Weighs Overhaul of <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/24317788.267871/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMzAvY3JlZGl0LXN1aXNzZS13ZW=
+lnaHMtb3ZlcmhhdWwtb2Ytd2VhbHRoLW1hbmFnZW1lbnQtYnVzaW5lc3M/607f07ceef4b8524a=
+319a23cB91267414" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> Wealth Management Business</a>. New Jersey Attorney General Chosen=
+ as <a href=3D"https://link.mail.bloombergbusiness.com/click/24317788.26787=
+1/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9uZXctamVyc2V5LWF0dG9ybmV5LWdlbmVyY=
+WwtY2hvc2VuLWFzLXNlYy1lbmZvcmNlbWVudC1kaXJlY3Rvci0xMTYyNDk5Mzg0Mj9tb2Q9aXRw=
+X3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cBd7e7d0a8" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">SEC Enforcement Director</a>. T=
+he chief executive of <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/24317788.267871/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wNi8yOS9idXNpbmV=
+zcy90ZW5lby1jaGllZi1leGVjdXRpdmUtcmVzaWduLmh0bWw/607f07ceef4b8524a319a23cBc=
+668be20" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;">T=
+eneo</a>, an influential advisory firm, steps down.=C2=A0Germany <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/24317788.267871/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMzAvcnVzc2lhbi1oYWNrZXJ=
+zLW1vdW50ZWQtY3liZXItYXR0YWNrLW9uLWdlcm1hbi1iYW5rcy1iaWxkLXNheXM/607f07ceef=
+4b8524a319a23cBb3c2873b" itemprop=3D"StoryLink" itemscope=3D"itemscope" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> Thwarts Cyberattack</a>, Denies Impact on Banking System.=
+=C2=A0How a <a href=3D"https://link.mail.bloombergbusiness.com/click/243177=
+88.267871/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ob3ctYS1zb2Z0YmFuay1iYWNrZ=
+WQtY29uc3RydWN0aW9uLXN0YXJ0dXAtYnVybmVkLXRocm91Z2gtMy1iaWxsaW9uLTExNjI0OTU5=
+MDAwP21vZD1ocF9sZWFkX3BvczEw/607f07ceef4b8524a319a23cB73f8bb99" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">SoftBank-Backed Const=
+ruction Startup</a> Burned Through $3 Billion. Sam Altman Wants to <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24317788.267871/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDYtMjkvc2FtLWFsdG1hbi1z=
+LXdvcmxkY29pbi13aWxsLWdpdmUtZnJlZS1jcnlwdG8tZm9yLWV5ZWJhbGwtc2NhbnM/607f07c=
+eef4b8524a319a23cB92eb0529" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> Scan Your Eyeball</a> in Exchange for Cryptocurrency.</p=
+><p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-med=
+ia"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form=
+, right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbu=
+siness.com/click/24317788.267871/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbm=
+Vzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0M=
+GYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB8fbddacc" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money=
+ Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24317788.267871/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcu=
+Y29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB679ae819" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span>=
+</p><p style=3D"margin: 16px 0;"><em>[1] Later Tesla announced that it woul=
+d *stop* accepting Bitcoin as payment for its cars, and the price of Bitcoi=
+n went down. Arguably Tesla <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/24317788.267871/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZ=
+XR0ZXJzLzIwMjEtMDUtMTMvbW9uZXktc3R1ZmYtZWxvbi1tdXNrLWdvdC1ib3JlZC1vZi1iaXRj=
+b2lu/607f07ceef4b8524a319a23cB7146ca13" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">should have *sold* all of its Bitcoins</a>=C2=
+=A0before making that announcement, though that is a rather advanced move.<=
+/em></p><p style=3D"margin: 16px 0;"><em>[2] In the general case I think it=
+ does not, at least under U.S. law, but you do want to consult a lawyer and=
+ be careful. I think for instance that it would be fine for Moderna to buy =
+call options on airlines, but perhaps a bit icky for a Moderna *executive* =
+to do it in her personal account. And=C2=A0many non-U.S. legal systems have=
+ stricter level-playing-field-type insider-trading regimes that would make =
+it harder.=C2=A0</em></p><p style=3D"margin: 16px 0;"><em>[3] This is argua=
+bly better than gouging them on other terms because it aligns incentives: T=
+hey will want to do more business with Amazon because the economic terms of=
+ any particular transaction will be reasonable and competitive (and Amazon=
+=E2=80=99s extra edge over other potential counterparties comes in the form=
+ of warrants, which are a sunk cost), while Amazon will want to do more bus=
+iness with them because it makes money from the warrants.</em></p><p style=
+=3D"margin: 16px 0;"><em>[4] In fact the warrants are not struck at zero =
+=E2=80=94=C2=A0they=E2=80=99re struck at roughly the market price before th=
+e deal was announced =E2=80=94=C2=A0so SpartanNash wasn=E2=80=99t even =E2=
+=80=9Cgiving=E2=80=9D Amazon that 15% stake; Amazon still has to pay for it=
+.</em></p><p style=3D"margin: 16px 0;"><em>[5] Some are not, and there are =
+occasional antitrust rumblings there. It=E2=80=99s weird that the standard =
+fee for a smallish=C2=A0initial public offering is 7%, fine, and=C2=A0<a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/24317788.267871/aHR0cHM=
+6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9TQjk4NjU3MDM5OTczMjQ2MzQxMw/607f07ceef4b852=
+4a319a23cBbff71772" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">every</a> so <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/24317788.267871/aHR0cHM6Ly9jb3Jwb3JhdGUuZmluZGxhdy5jb20vbGF3LWxpYnJhcn=
+kvZG9qLWluaXRpYXRlcy1hbnRpdHJ1c3QtcHJvYmUtb2YtdW5kZXJ3cml0ZXJzLXN0YW5kYXJkL=
+TctaXBvLmh0bWw/607f07ceef4b8524a319a23cB20ad732d" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">often</a> the Justice Department wi=
+ll ponder that. Prices in the <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24317788.267871/aHR0cHM6Ly93d3cucmV1dGVycy5jb20vYXJ0aWNsZS91cy1=
+0cmVhc3VyeS1yaWdnaW5nLWRlY2lzaW9uL2JpZy1iYW5rcy13aW4tZGlzbWlzc2FsLW9mLXUtcy=
+10cmVhc3VyeS1yaWdnaW5nLWxpdGlnYXRpb24taWRVU0tCTjJCTjJXWg/607f07ceef4b8524a3=
+19a23cB13812aee" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">treasury market</a>? Chat rooms sharing customer information in <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/24317788.267871/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTQtMTEtMTIvYmFua3Mtb=
+WFuaXB1bGF0ZWQtZm9yZWlnbi1leGNoYW5nZS1pbi13YXlzLXlvdS1jYW4tdC10ZWFjaA/607f0=
+7ceef4b8524a319a23cB832e6e2a" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> foreign exchange trading</a>? The Archegos thing in th=
+e next section?</em></p><p style=3D"margin: 16px 0;"><em>[6] As classically=
+ understood. I think some people would argue that it is, or should be, and =
+you could imagine a legal theory that it is. It is not, like, core antitrus=
+t though.</em></p><p style=3D"margin: 16px 0;"><em>[7] Or securities law, t=
+here=E2=80=99s always securities law, <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/24317788.267871/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMjEtMDItMDMvZ29sZG1hbi1zYWNocy1nb2VzLXRvLXN1cHJlbWUtY2=
+91cnQtaGVkZ2UtZnVuZHMtd29uLW9uLWdhbWVzdG9wLWtrcG9lNndz/607f07ceef4b8524a319=
+a23cB795de07e" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> everything is securities fraud</a>.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24317788.267871/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB96800997" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24317788.267871/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBa94ee035" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24317788.267871/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBfabfb842" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24317788.267871/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBedce4fc7" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-bottom: 32px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2431778=
+8.267871/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBcd9b8d4a" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; padding-bottom: 10px; border-collapse: colla=
+pse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> You received this mess=
+age because you are subscribed to Bloomberg's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24317788.267871/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC7d9fa00b" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24317788.267871/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB4da2edbc" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24317788.267871/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB0851d376" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ceh7q4.5qov/1c64dba0.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_33433210_1192779162.1625072274306--
+

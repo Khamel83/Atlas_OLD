@@ -1,0 +1,444 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:43c3:0:b029:ac:f626:5e47 with SMTP id t3csp15595904lko;
+        Mon, 4 Jan 2021 11:40:06 -0800 (PST)
+X-Received: by 2002:a17:907:9d0:: with SMTP id bx16mr70764933ejc.426.1609789206550;
+        Mon, 04 Jan 2021 11:40:06 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1609789206; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=SHroRnrAugw1lm82KndGgY2CRFh/tGQ3uw14RRiFgavNbmWXZU0P8yfXRe9P//1Syq
+         evjj554tEwSM99WPLcO8SlcXWEYnAtD/H/F6/hXFJAPUKePKEhW/Hzj99kCMI1dysST2
+         sU4V+nnRA0IkTFzc3eEi544C3G3bICqiLXoRoCHtLcFx2cT5rCiBy6MKDm07nU3SR5NS
+         WXTWQj78/fudDX0i5chf6rQhOWtvhG9ZfetLbgw+1GPkc4sbP+9ndBNCvxemIt0jewxM
+         VeE4+6b3UUQNChP8sQL9kIE6tL3woVZrD/4Z7zhchHBkU7mdJykkChfPNVkzPBug7c6Y
+         c1DQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:mime-version:subject:from:to:list-id
+         :reply-to:date:message-id:list-unsubscribe:sender:list-owner
+         :list-url:dkim-signature:delivered-to;
+        bh=wmqj7Q6eBOtZ62uUFNyYvzY7AXMYTIY1I+no7Izfdkg=;
+        b=V/vUJtDFzuWFY8YSsC6UuWPfi9t0amyn0b5zlchLMUB9OYG4X0WZbaW/y7Rnp1DPHg
+         PX21a0o9hDZvLHanSRTZ3Hcwfk1ZcNCWzT6Vw/rwLrN1wW+XaELr7ULSAtk9GvVQSuYD
+         2V5lIA4w/XWX/9HyKzNQ9jlGeC4EJEEGfnbh2y+HVBnsx52NvlKZqRu7Bz2KGugRMrF3
+         w1NlSaveqKAPT3mfwvXsWBGJVX6VQ6b0r5n9eeMxevvi6R5S4Q5UdiYhNBemm6tW7hd4
+         xHsQ2qfeIbx4sXu66vT+kzrGzUYBpoDTPG7YdcMjVbfgwspcs0k3jqHB/DHc/iyyE49D
+         Wp0w==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg1.substack.com header.s=mailo header.b=pHW0tDV7;
+       arc=pass (i=2 dkim=pass dkdomain=mg1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=NONE dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id bg8sor20221582ejb.59.2021.01.04.11.40.06
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 04 Jan 2021 11:40:06 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg1.substack.com header.s=mailo header.b=pHW0tDV7;
+       arc=pass (i=2 dkim=pass dkdomain=mg1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=NONE dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:list-url:list-owner
+         :sender:list-unsubscribe:message-id:date:reply-to:list-id:to:from
+         :subject:mime-version:content-transfer-encoding;
+        bh=wmqj7Q6eBOtZ62uUFNyYvzY7AXMYTIY1I+no7Izfdkg=;
+        b=Lz+WHZSs681hkV4fSUWcWn5BHPjIFKX7AJYV78CDT2sNPhmcvItDIOrnKpR7SiCcLw
+         cJGrnOzkSOa1fsYeriW6PzxkyzDw2EGG+E31wCBn9P8f/+gXQ7C4Bv3aCVN2ktguYTQu
+         6QPct0xXP7Wy7kh8OnRWFaRpVZVWFrYUopN5ssysk/YqGrHYhGaFyVODJgUP2nXsq4U6
+         4qLO3+V8sZzp9k5n8rYrvfwk241yve7XhZabvOvEj09SQ5H8yaqg2lMsnuGp3XNz3PqC
+         P809CoJwUlveV2DjlkCxvMlg4mkKIMg23ib5rmQNXfICECB/oZ3iBjbPn9zEnK3bCpSt
+         cHkw==
+X-Gm-Message-State: AOAM5319g81ChAt540red+biKHCy48x5qVJDwblJwIQWZZlYXs8jEDap
+	rY6/TxKmDTnHuRtxjvfaU9qSpDfy3R1/cnd5Vum+19TrFYHSZ7jc4w==
+X-Received: by 2002:a17:906:7b8d:: with SMTP id s13mr67418586ejo.479.1609789206385;
+        Mon, 04 Jan 2021 11:40:06 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:2606:0:0:0:0:0 with SMTP id u6csp14801223ecn;
+        Mon, 4 Jan 2021 11:40:05 -0800 (PST)
+X-Received: by 2002:a17:90a:2e84:: with SMTP id r4mr395720pjd.147.1609789205071;
+        Mon, 04 Jan 2021 11:40:05 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1609789205; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=bJXdgU5ILZcqMzljDajCOCn+Hb7DyscZ40mbFt/jFwAnKjTKuQZpGwKUbJjhgxsSB2
+         +hLYMWn19MVKe6+Wzr9/wA9ba0BQVIlB+B1bILh3DDk4q4xYSTh7NHVns16OzsBTZwCJ
+         l6gUZmPT2Mo2fh/Fn1a4T8XrbNgP9gKYon6ryyab8TQ2pbGaY+1sN1l6U41JTixx2TWO
+         b4AMzqL5LsBv3jm+NSHyYEFp50c+D05nrxCTOmlErtQSI84cMg9WVwZ90ynIh4g1+FIK
+         VE2D54/ka/h3DVuXYrzPpwKvRGxH5tzmjR2hRATvDnE1qqxvJd8kjrjfs5NRTba4nVzV
+         YNQw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:mime-version:subject:from:to:list-id
+         :reply-to:date:message-id:list-unsubscribe:sender:list-owner
+         :list-url:dkim-signature;
+        bh=wmqj7Q6eBOtZ62uUFNyYvzY7AXMYTIY1I+no7Izfdkg=;
+        b=iKXNDzh4KvnEXcWTxsPjP2cpOf+YEjb6DhnALjwumPRLaStHjcbmmx+9wUho/pIq8K
+         Fg6cJ64RqHUkIudsFyySJMNS7MRPgFmfy/3wPeP1x6tpuRENW2G8+aAdx2Dpb9BQDZnc
+         6vFWn6Qkv6sEbEmOp2g8lEFKHgN+ch5AiVrIrp+0sU11WCVuy+QU4UWlaUZe41ghY/gS
+         Qmv85FHZ/CWTRgRibnLQRVZtQXAPSNW/6zcbikgXwYfrIYmjVoOvuosLmhXuWDLaLT1v
+         QKoAhf5NKdYB9iIJN6wW5IUBSONTsM61FGBe9MPVlq7BWRVZKr8afoH3X/OhPUyjxiEn
+         jumQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg1.substack.com header.s=mailo header.b=pHW0tDV7;
+       arc=pass (i=1 spf=pass spfdomain=mg1.substack.com dkim=pass dkdomain=mg1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com";
+       dmarc=pass (p=REJECT sp=NONE dis=NONE) header.from=substack.com
+Return-Path: <bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id y11sor21046356pff.67.2021.01.04.11.40.04
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 04 Jan 2021 11:40:05 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJyZUrouM8o7QMr/WL3CEq8hQN+E8ru8Ijbm7DqA0zYoNruJ1hPUHg4/VxvTAt68p7CbVoA+Pgtu7GU+dZIy+WhxR3riUf4=
+X-Received: by 2002:a05:6a00:7c7:b029:19d:bab0:bc90 with SMTP id n7-20020a056a0007c7b029019dbab0bc90mr67566564pfu.62.1609789204789;
+        Mon, 04 Jan 2021 11:40:04 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1609789204; cv=none;
+        d=google.com; s=arc-20160816;
+        b=B7Z/WkOykjmU5QbxZMBTzNkhU26aN0gMGSUu+IQAAyFlAGrh2jA5Rj7COjGVoYCzYg
+         1535TUDA2jBfOz6ypZxQQ3L9yQgJ+OpR6Hz0DxyAD6r1OGxnljjg0POIX354dbHha6cu
+         Oxzmv2cJxOGyQB7tRK8+oCcpj7DKRMGF6Zg3Kd8Ens8fYRraWeSyltARSkvhxTApkGm9
+         /jW5fA3+/X721M1/wT12zAhzJRHS3ZvLia05NYHIDkbjlsvFRQsdqD5iEpzOCIIAVM0D
+         gxMZONR5JUpAYu8XCg7uLmkW8r9Qgm8iw/MSltdNvXntq+th1XlaTu8LNllIsVSOZsvS
+         PdaQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:mime-version:subject:from:to:list-id
+         :reply-to:date:message-id:list-unsubscribe:sender:list-owner
+         :list-url:dkim-signature;
+        bh=wmqj7Q6eBOtZ62uUFNyYvzY7AXMYTIY1I+no7Izfdkg=;
+        b=aRrrL/eTV3wheDX+Hjud94Oy8OzJggkZ8gYWhUr0a8N2RVcy4QcDCIG9UbdiKLdAX4
+         jJRjzwDlYPojN83YgCWIBH9emRQhkzIxAEmnG1vjvqOWo6dA2rVQ3u7McJWhEFWoNcGl
+         XAHNyUjCCMpc6HT0VBm0sd7pE3W2vgnpI/S1CjpCbdCdmV03kw3dcBObw8rMPVAdne0A
+         J/0z7mu8sTr+ZotCgZsmfGsmgZ2SG8r4bg4UibZLkpqpkqXG2h7X3WXr6uI4vAvKcGYs
+         jmJ9uN76ZaZNuR5Upk+tLjuCMMjYzu6z8xjGM381PcXM0tgmIZ2eOLr+un5L/TpWDPaa
+         YUEA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg1.substack.com header.s=mailo header.b=pHW0tDV7;
+       spf=pass (google.com: domain of bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com designates 159.135.235.32 as permitted sender) smtp.mailfrom="bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com";
+       dmarc=pass (p=REJECT sp=NONE dis=NONE) header.from=substack.com
+Return-Path: <bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com>
+Received: from mg-235-32.substack.com (mg-235-32.substack.com. [159.135.235.32])
+        by gmr-mx.google.com with UTF8SMTPS id b19si1817905pgh.3.2021.01.04.11.40.02
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 04 Jan 2021 11:40:04 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce+60590d.072c7b-notboring=khamel.com@mg1.substack.com designates 159.135.235.32 as permitted sender) client-ip=159.135.235.32;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg1.substack.com; q=dns/txt;
+ s=mailo; t=1609789204; h=Content-Transfer-Encoding: Mime-Version:
+ Content-Type: Subject: From: To: List-Id: Reply-To: Date: Message-Id:
+ List-Unsubscribe: Sender: List-Owner;
+ bh=wmqj7Q6eBOtZ62uUFNyYvzY7AXMYTIY1I+no7Izfdkg=; b=pHW0tDV77tR8SOlrU4t0wp0iYWRMvIjmUFem12YySbF2oS63KRM6n4Pe9JUN7wwnGSBKWgZ7
+ 9r/Cs2qnW3cuOWTwyvpaSD/ApTTbkYvYHtT76EZfad0wupXcd76KahNvLGRCvX9fXqdEARdQ
+ kGpsTiRSLWzG3fRIyh85VmO1DzE=
+X-Mailgun-Sending-Ip: 159.135.235.32
+X-Mailgun-Sid: WyIwMzJmMCIsICJub3Rib3JpbmdAa2hhbWVsLmNvbSIsICIwNzJjN2IiXQ==
+Received: by luna.mailgun.net with HTTP; Mon, 04 Jan 2021 19:39:49 +0000
+X-Mailgun-Variables: {"category": "podcast-rss-setup", "email_generated_at":
+ "1609789189013", "is_freemail": "", "publication_id": "10025",
+ "post_audience": "", "post_id": "", "pub_community_enabled": "true",
+ "user_id": "16283549", "post_type": "", "subdomain": "notboring"}
+List-Url: <https://notboring.substack.com/>
+List-Owner: <mailto:notboring@substack.com>
+Sender: "Not Boring" <notboring@substack.com>
+List-Unsubscribe: <https://notboring.substack.com/action/disable_email?podcast=&token=eyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6bnVsbCwiaWF0IjoxNjA5Nzg5MTg5LCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJkaXNhYmxlX2VtYWlsIn0.vbf-9AzdqN8_SKeDRpu0SnpCL4cX0l0qHFHZ0Zbix_I>
+Message-Id: <20210104193949.1.6wkw6ikhga9@mg1.substack.com>
+Date: Mon, 4 Jan 2021 19:39:49 +0000
+Reply-To: "Substack" <no-reply@substack.com>
+List-Id: <notboring.substack.com>
+X-Mailgun-Tag: podcast-rss-setup
+To: notboring@khamel.com
+From: Not Boring <notboring@substack.com>
+Subject: Podcast app setup
+Content-Type: text/html; charset="ascii"
+Mime-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><title>hi</title><meta charset=3D"utf-8"><style>
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .post .markup table.image-wrapper img,
+  .post .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .markup iframe.spotify-wrap,
+  .post .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media print {
+  .post .markup .button-wrapper {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 15px 0;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 15px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  table.post-meta tr td.post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  body .markup table.image-wrapper img,
+  body .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .markup iframe.spotify-wrap,
+  body .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media print {
+  body .markup .button-wrapper {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table .subscription-amount .subscription-disco=
+unt {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .footer {
+    outline: 8px solid #f8f8f8 !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  table.thread-head .markup table.image-wrapper img,
+  table.thread-head .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  table.thread-head .markup iframe.spotify-wrap,
+  table.thread-head .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media print {
+  table.thread-head .markup .button-wrapper {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+    min-width: 112px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+</style></head><body style=3D"font-kerning: auto;"><p style=3D"color: #1a1a=
+1a; line-height: 1.6em; margin: 0 0 1em 0;">Open this <b>on your phone</b> =
+and click the button below:</p><p style=3D"color: #1a1a1a; line-height: 1.6=
+em; margin: 0 0 1em 0;"><a href=3D"https://email.mg1.substack.com/c/eJxtUl1=
+vmzAU_TXwlsjmw8ADD6RZOqKFLG2ytX2xjO2AA9gImzbk188j1aZJkyzZvudK595zDiWGV2qY0l=
+4xSrRZDFovNDdj7_ZKG2ymnqfuqPmABUsh8mI_DBKXpSDyaFS6QuPzwHlHRJu6_Vi2ghIjlJy7A=
+fBCt07jAIEIQZScmQ-JT0PCiV_ykAU8giiM7kxkZIJLatnatDam146fOd7GHqlMqQYhq6UeS20I=
+bZZUdRYglKpRmt8vxhafGzj-xqiGS8df82kLqfdjevHaJr-oa3HJg93tBPbPH4L83IB7LQuLWxX=
+ujlXw7WHb8q-Z2F--eLtjdtsfd-F-Xem8a290ylEuV_BVgOtunU3Fc65zWdj_XH9_eyxq6h-M5Q=
+PsJRPnw7I8fb9e1nW8yMI3pFYcPbTe-pDBS3bTj--v4woX234bx0_45HhoNB3Wahwot5N_7oJnJ=
+_AsrytSD3gQQBDAxE-CZAmX6KP5QKKpK5I4Aegq-I9C7pD-kc7CTU063s6ANQrbuxulMBPmkpQt=
+Z6kZRu6a_yRh5scVl3ywcWGYGJsEkERxAuMEQP9uoHXctfRM2W75l_kXjuXP0Q" class=3D"bu=
+tton primary" style=3D"background-color: #67bdfc; border: none; border-radi=
+us: 4px; box-sizing: border-box; color: #ffffff; cursor: pointer; display: =
+inline-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', R=
+oboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Symbol'; font-size: 16px; height: 42px; line-height: 1.5em; marg=
+in: 0; opacity: 1; outline: none; padding: 10px 20px; text-decoration: none=
+ !important;">Add to podcast app</a></p><img width=3D"1px" height=3D"1px" a=
+lt=3D"" src=3D"https://email.mg1.substack.com/o/eJxtj02OhCAUhE8z7NqA0CgLzkK=
+e8FCiguEnHW_fxEwym1lX1VdVFiquKd_6Ss5Cqa9cyqtgbRdpBbMJTjM5zvwtFMETwmFWjJh7yh=
+moXaNqmhWbFWWcOE2n0U4LCcX4jI9fk6stR7BQQ4oPjtLxTTbthecKmHAwi9laJrnnXCJITycPi=
+ORKpRpoLmC0qEnQIx0ZZVQwxZVQAxvkZ__IsG8rqB9Bz5UNpS2lgt0Hm06SdUx1STnEtcv7Bice=
+j_CQ6311av3neB9suu1sMdTbYITlQKdrbr-b-gnSi1zq_-JfxxeOT3Ha"></body></html>

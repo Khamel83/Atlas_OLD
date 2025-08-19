@@ -1,0 +1,2278 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6359:4201:b0:b5:9df0:5e91 with SMTP id kn1csp4102476rwb;
+        Wed, 7 Sep 2022 11:16:38 -0700 (PDT)
+X-Received: by 2002:a05:6a00:a92:b0:53e:5912:db76 with SMTP id b18-20020a056a000a9200b0053e5912db76mr5205126pfl.38.1662574597933;
+        Wed, 07 Sep 2022 11:16:37 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1662574597; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Ea6d/d8o3upeufXXHQxpSZ8CARHca6UvK7NbC2krLazeUzducMtNrhomJZkj8d1NL4
+         njGLjZ1VTTQxI5d/kiHpwd7kP+Dw6blcy0KipQyKa0WqMaD3GrCG5EjcU9NWnvSZFDlB
+         6ftbKxhyY7CfWWLdReVAWVcX4KAWDOemSOX60oVwM0yf349V8FFu0ArR7IQcxCiZCEkp
+         Lrv/bdHT4kfI8C/3y8+WR8VyTpIjK9y/HCtFdSljpxuuCqMcnNK8773RrQfvH9xRIkuG
+         MkOXWvFSuUo3yHRqbhDXvf6iajI/2NhRJXui8fKrfVzjnsK+5as2MmbS2nQSJKnC0C74
+         jw7w==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=XmBQ0UdVMM4RuSBMkmu4FhsTLyLZcYLp8AOD4pESAUk=;
+        b=rqwZuEO5jtfEKjnDsj7FG72SlzRvrzOzrQ9wkQyPwPA4ui1zbKupCefe9f00jkqayP
+         qutSBAyugmyymS8ydgyHO28U/Rx9ZKiW4Ve4BeLxJwiOu0U361wInhLkjl3GTCOSUT1e
+         fOd3V9jVGG07uANjg9G+LsoRNk+MubAbIEvoWkmQzfq/JwO0X2K4MpNAULPITeLqFfVk
+         NTgb/eo3q9SQ7vq+cOMg5zKblfreCTfeeCzo8KaT/4WS27tjBOeHb65eWbH+TcrdZJg8
+         TGDSsz+2En8qZlYPX54p6xhbVSnu6wb1AihPepqGFQJqXaXau0LrHgqfKVSlx1YodEvx
+         t32A==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=ujVOq7ts;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id d4-20020a170902728400b0017315bf999bsor5329400pll.86.2022.09.07.11.16.37
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 07 Sep 2022 11:16:37 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=ujVOq7ts;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date;
+        bh=XmBQ0UdVMM4RuSBMkmu4FhsTLyLZcYLp8AOD4pESAUk=;
+        b=nCe0eefg5tpELNFzI9w7ervP1rQyMWJSvfrm8Oxl0iXR1nkatPAtIYiowmSUt1Y0Uq
+         PD6GexVULNZqgFOKhDfCfPmfVRdJFXKVW0yK/jitwEOg5nX8k/zyAKvlrRXtiaW6oHyp
+         MG/7BTeGKQZyslF78cc0EvpSla2oPSxYmqam9r9MXpbRSt6nKtqFVxlXhe9sJjmudJ7t
+         GJROaRcPVPHt47RtvP2samCiC2rUQlG3tRVa7hLBHe6nNIpor8qOIltHZE3jmW5Rm2lT
+         ioNb51z8Ip14PfkDYWVsZwJpCNEhmUh8sw00x8R5W5iFCoL6rL19dcNqK4tNS3XMjaaA
+         +2zQ==
+X-Gm-Message-State: ACgBeo3yFgm/8T7WkUCHuqa4Pdvquxdw315TD94etDgnkrFGzCuUu6at
+	0Awt4rq1G6hYdtqcxBIjAFiiUVEig5tboTg5tOQh09RqrasZDwlcUw==
+X-Received: by 2002:a17:902:a5c7:b0:172:dd10:f638 with SMTP id t7-20020a170902a5c700b00172dd10f638mr5029470plq.127.1662574597524;
+        Wed, 07 Sep 2022 11:16:37 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a17:90a:bb07:0:0:0:0 with SMTP id u7csp4162172pjr;
+        Wed, 7 Sep 2022 11:16:33 -0700 (PDT)
+X-Received: by 2002:a05:6214:d8a:b0:4a0:25a3:f270 with SMTP id e10-20020a0562140d8a00b004a025a3f270mr4087096qve.127.1662574593331;
+        Wed, 07 Sep 2022 11:16:33 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1662574593; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=UDH/YQ1lWmkQvSqZTRIGRdcomlMkgADucF9hnEOz9u+jd/EhtRWgOoMzCTlCeldWtR
+         xtlLMPAbmDT2h/fFJYr6+Ki5QZbUgpRzCsz5IUFhavU5NGHkFrb77vjyWq3ztS6oa8T/
+         OLOEDQswWiK4rEfP8Z6Jy+QAuZmUJ+LiWbeq8+CukukP1B15OWAWMrKY4apKMJqFV+dY
+         VDB6MWB9gjfMXt3QrfqrV+2DoKVq8N0ci8LyDRf05Vqxp2KbFDbCXYhrW5wAsYzF06yb
+         xjxMeszGVDae1vaHTk3YHG0LChocZJM+cx4fHXIJ7YTpYy86uAefjwTXmERvyXhhaexS
+         JaNQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=XmBQ0UdVMM4RuSBMkmu4FhsTLyLZcYLp8AOD4pESAUk=;
+        b=Xk7yZS/Eot8hyPF2uWvlGv5OVvbz/4pWZC7gKUakFOzQhZQZbvTqx6FE+VpN6kmMhr
+         nf36E0ob7dZ8IM+co72QnOfTZGBLJg+7B1rw8SZszaC9kKLdzF192zLU8J/HPWExwo1R
+         cfcLvCq0gtXJ+K2Y4QL/9gc+jcK9UeiWenZAajyzFnYQ5ZgZTSzoWMns9Py11zBCcnBV
+         IOOkIrDSa25znOG4IejbWYux98Sjp8pP3S+oOl/xa5RJPuAgVUJyjsmyEQc8WvTonqGp
+         pug4YhYxvBFt3hUZ6WsIOsqfvm0GOsaEkAm/B6KHrjAnCZmH0jpVfVGGTeUZzpUv4FhB
+         5vhg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=ujVOq7ts;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220907141631.28977032.259543@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220907141631.28977032.259543@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220907141631.28977032.259543@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id b126-20020ae9eb84000000b006bb49f08650sor5423771qkg.88.2022.09.07.11.16.33
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 07 Sep 2022 11:16:33 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20220907141631.28977032.259543@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AA6agR5d3DX9kQJQBHhBxL6h2ZcS7X3Zq3WKJTc00DxZx52N4+LjSYg2zIOdmw7BTGya8LYMyDU9193QnCfj3E5hws5QYBVrl78=
+X-Received: by 2002:a05:620a:298c:b0:6bb:7a53:fbb with SMTP id r12-20020a05620a298c00b006bb7a530fbbmr3763601qkp.495.1662574593028;
+        Wed, 07 Sep 2022 11:16:33 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1662574593; cv=none;
+        d=google.com; s=arc-20160816;
+        b=H7nAPO9hf9xI2hxdJQwQ2Zhs1D0ow6wuoSZnUXFAzI+eTSJZXvPtN7A5yPfd1ii1O0
+         XxKY3UiBRlwe84biJKzUHjmObE5isQ226RJoIHpa/XO+RWeJBAFQ/hqC00xNpX44W874
+         P4zTpz9T7eC/N4KkhV7mCuM86zniQUZQkwrWFSoC+8p/sRcd66DUXD7areyT+j1ShxCG
+         QPncV6habtVe0SJFPWLDgJDWwH9y4vij/Zx/HSUshIRCfOGUpUkv8bYdvAAQxtz/KX9m
+         pl7kI7e/CpRM4SxHdmGxBOTPLoyemTVOoJOvsqRRoFWbovgzSZZL4tQnPwAVfC0mBaP2
+         dNBw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=XmBQ0UdVMM4RuSBMkmu4FhsTLyLZcYLp8AOD4pESAUk=;
+        b=0gHJF8G7C88yKP9SQIbkS3C/Ov2r41t5t8P32hluI0dn4z8CI6Utf9N8NqyDt1aWnq
+         s+Ticzg6WlPIY+/l0xi7IW9FWBc/WhuVgbCZy16vd7Rx52DU/LCWFNe/ojWUa+Iqpxty
+         SRAYTWTFQ6swc0bHGQLCuW+SWLatASrHQkPB96gO9m1wG/WZ1Tx8sZLbZ+LeyI0xLdEh
+         u1N0wYcWybJuO5En5L0QqaO7XeYcJ3QzZJWIqG2/pr6HTmtMPpduiE94X11rtSdmzdNH
+         niOWdGT0fgV/p75aduw57B6+lWMaXogRNLHUKMIJ04U2dQ+xvH7eInzxRv99ejqeUa+D
+         kKzA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=ujVOq7ts;
+       spf=pass (google.com: domain of delivery_20220907141631.28977032.259543@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20220907141631.28977032.259543@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220907141631.28977032.259543@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id d21-20020ac84e35000000b00341a027f09fsi1523591qtw.4.2022.09.07.11.16.32
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 07 Sep 2022 11:16:33 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20220907141631.28977032.259543@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=IiYZLqUgr9/DvDZIWZ5TX7LBSqFOG0OZ9ANka8Kh+Ww=;
+ b=ujVOq7tshz/tFpZECxnV0QWrHcGe47wFtRrD66+c3J3VPReB/jNq+bg8QxZXFyolRcrFU4KeGU7u
+   HbJZygXlITgeHMmZl+cfsBxxITuOFDEmsoPCk3FmQiumH3PHk9J2pKkFwHvrh6agTgVeUyKehROH
+   s7TCmtL0Mf5IHk7q8jY=
+Received: from njmta-53.sailthru.com (173.228.155.53) by bloomberg-b.sailthru.com id h33g0030nu83 for <bloomberg@khamel.com>; Wed, 7 Sep 2022 14:16:32 -0400 (envelope-from <delivery_20220907141631.28977032.259543@mx.sailthru.com>)
+Received: from nj1-illcherry.flt (172.18.20.10) by njmta-53.sailthru.com id h33g001qqbsn for <bloomberg@khamel.com>; Wed, 7 Sep 2022 14:16:31 -0400 (envelope-from <delivery_20220907141631.28977032.259543@mx.sailthru.com>)
+Date: Wed, 7 Sep 2022 14:16:31 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220907141631.28977032.259543@sailthru.com>
+Subject: Money Stuff: Does Elon Musk Know How Mergers Work?
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8661887_577709087.1662574591663"
+Precedence: bulk
+X-Feedback-ID: 6358:28977032:campaign:sailthru
+X-TM-ID: 20220907141631.28977032.259543
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-illcherry.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ch92tk.5k9j/a2d3782b
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ch92tk.5k9j/a2d3782b>, <mailto:unsubscribe_20220907141631.28977032.259543@mx.sailthru.com>
+X-rpcampaign: stjko28977032
+
+------=_Part_8661887_577709087.1662574591663
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        I think that the simplest explanation might be that Elon Musk does =
+not know what a merger agreement is. It is not uncommon, in the world, fo
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Oh Elon
+   =20
+ =20
+
+I think that the simplest explanation might be that Elon Musk does not know=
+ what a merger agreement is. It is not uncommon, in the world, for two comp=
+anies to get together and discuss one buying the other. And sometimes these=
+ talks will go well and they will get together and=C2=A0sign some sort of d=
+ocument =E2=80=94=C2=A0a =E2=80=9Cmemorandum of understanding,=E2=80=9D per=
+haps =E2=80=94=C2=A0that says, basically, =E2=80=9Cnow we are going to talk=
+ really seriously about me buying you.=E2=80=9D Sometimes they will have a =
+price lined up=C2=A0when they sign this document, say $54.20,=C2=A0and=C2=
+=A0that price will be written into the document, and the expectation will b=
+e that eventually the buyer will pay $54.20 to buy the seller. But things c=
+an go wrong. There will be continuing due diligence, where the buyer examin=
+es the seller=E2=80=99s business, and the buyer might change its mind. Fact=
+s might come to light in due diligence that could make the buyer walk away =
+or want to revise the price downward. The market might crash, making the se=
+ller less valuable or making it harder for the buyer to get financing.=C2=
+=A0The MOU is an agreement to talk more seriously; it reflects a general mu=
+tual desire to come to a deal at $54.20, but it is not binding. Nobody is c=
+ommitted to a deal at $54.20. Nothing is certain until the final deal is si=
+gned.
+That, again, is a description of=C2=A0a thing that can happen in the world;=
+ some business acquisitions do go through a process=C2=A0like that. But it =
+is not a description of US public-company merger agreements. In normal US p=
+ublic-company mergers, you don=E2=80=99t sign a memorandum saying =E2=80=9C=
+we=E2=80=99re going to negotiate seriously about buying you.=E2=80=9D
+  [1]
+=C2=A0You=C2=A0negotiate seriously, and then=C2=A0you sign a merger agreeme=
+nt saying =E2=80=9Cwe agree to buy you for $54.20.=E2=80=9D And then if the=
+ buyer changes its mind, it still has to pay $54.20. And if the market cras=
+hes, the buyer still has to pay $54.20. The deal is the deal; once it is si=
+gned, the merger agreement is binding and definitive.
+  [2]
+
+It is confusing, though. When you sign a public-company merger agreement, y=
+ou do not immediately own the company you are buying. You are still months,=
+ perhaps years, away from the =E2=80=9Cclosing=E2=80=9D of the deal, when y=
+ou actually pay the money and=C2=A0take over the company. The delay is nece=
+ssary to get regulatory approvals (antitrust, etc.), and to write a proxy s=
+tatement and submit the merger to a vote of the target=E2=80=99s shareholde=
+rs. (You sign the merger agreement with the target=E2=80=99s board of direc=
+tors, but they don=E2=80=99t get the final say; the shareholders do.) Also,=
+ if you need to borrow money to buy the target, this delay gives you time t=
+o market the debt and actually get the money. (When you sign the deal, you =
+probably=C2=A0have commitment letters from your banks promising you the mon=
+ey, but by closing you can actually have the specific loans in place.)
+And during this delay, things can go wrong. The regulators might not approv=
+e. The shareholders might vote no. The financing might fall apart.
+  [3]
+=C2=A0When you sign the merger agreement, the buyer and seller agree to wor=
+k together and use their =E2=80=9Creasonable best efforts=E2=80=9D to get t=
+he regulatory approvals and shareholder vote and financing and everything e=
+lse needed for the deal to close, but even if they do all of that sometimes=
+ it=E2=80=99s not enough, and the deal falls apart. Signing a merger agreem=
+ent doesn=E2=80=99t mean that the buyer will=C2=A0definitely=C2=A0buy the s=
+eller. It is a serious binding commitment, but it is not 100%.
+If you are the buyer, you might think about=C2=A0other=C2=A0things that mig=
+ht go wrong. What if the seller=E2=80=99s business all burns to the ground =
+in a fire? Seems unfair for you to have to buy it anyway. What if the fire =
+was the seller=E2=80=99s fault? What if it turns out that the seller was ru=
+nning a massive fraud and the whole business is fake? Seems really unfair f=
+or you to have to buy it anyway.
+And so, yes, even if you get the regulatory and shareholder approvals and t=
+he financing, there are still times when a buyer can get out of a deal betw=
+een signing and closing. But they are quite limited. The main one is that t=
+he seller makes representations in the merger agreement =E2=80=94=C2=A0stat=
+ements about the company that it promises are true, things like =E2=80=9Cou=
+r financial statements are true=E2=80=9D and =E2=80=9Cwe are not breaking a=
+ny laws=E2=80=9D=C2=A0=E2=80=94=C2=A0and if those statements are false, and=
+ they are=C2=A0so=C2=A0false that they would have a =E2=80=9Cmaterial adver=
+se effect=E2=80=9D on the business, then the buyer can get out of the deal.=
+ (A typo in the financial statements is not enough to get out of the deal, =
+but inflating revenue for years might be.) That is a high bar, and=C2=A0Del=
+aware courts =E2=80=94=C2=A0which hear most big merger cases, since most pu=
+blic companies are incorporated in Delaware =E2=80=94   almost never find M=
+AEs. But in theory, yes, if the buyer was misled and the seller=E2=80=99s b=
+usiness is falling apart, the buyer can get out. And there are a very few o=
+ther possible excuses; for instance, if the seller does not comply with its=
+ covenants =E2=80=94=C2=A0the things that it agreed to do between signing a=
+nd closing =E2=80=94=C2=A0then the buyer   might have an out. Or if the buy=
+er was tricked into signing the merger agreement by   intentional and mater=
+ial=C2=A0fraud, that would be an out.
+But the buyer can=E2=80=99t get out because it changed its mind. Or because=
+ the market went down and it is overpaying. Or because the market went down=
+ and it doesn=E2=80=99t have as much money as it used to. Or because the se=
+ller=E2=80=99s business turns out to be worse than the buyer thought in a g=
+eneral way. Broadly speaking, the merger agreement is meant to be binding. =
+Getting out of it is the exception.
+Elon Musk is trying to get out of the merger agreement he signed in April=
+=C2=A0to buy Twitter Inc. for $54.20 per share, or about $44 billion total.=
+ He has good professional lawyers, and they are working hard, and certainly=
+=C2=A0they know what a merger agreement is, so all of Musk=E2=80=99s offici=
+al statements and legal filings and so forth are phrased in terms of covena=
+nt violations and material adverse effects and fraud.
+But it seems completely obvious to me that=C2=A0Musk doesn=E2=80=99t care a=
+bout those magic words, and that he wants to get out of the deal for some c=
+ombination of (1) the market went down and $54.20 per share=C2=A0looks pret=
+ty rich for Twitter, (2) the market went down and $44 billion looks like a =
+big hit to Musk=E2=80=99s own wealth, and (3) he wanted to buy Twitter on a=
+ whim and he=E2=80=99s gotten bored by now. I have been saying this for mon=
+ths and I am bored of it and I=E2=80=99m sure you are too, so I am not goin=
+g to rehash the point here.
+  [4]
+
+Instead I will just point out that Musk=E2=80=99s own=C2=A0statements =E2=
+=80=94=C2=A0not the ones from his lawyers in court =E2=80=94=C2=A0suggest t=
+hat he doesn=E2=80=99t know what a merger agreement is. The first sign that=
+ he wanted out of the deal was back in May, barely two weeks after he signe=
+d the deal,  when he tweeted =E2=80=9CTwitter deal temporarily on hold pend=
+ing details supporting calculation that spam/fake accounts do indeed repres=
+ent less than 5% of users.=E2=80=9D No! No! No!=C2=A0As   I said at the tim=
+e:
+=E2=80=9CTemporarily on hold=E2=80=9D is not a thing. Elon Musk has signed =
+a binding contract requiring him to buy Twitter. Legions of bankers and law=
+yers and Twitter employees and special-purpose-vehicle promoters are workin=
+g to fulfill his legal obligation to get the deal closed. =E2=80=9CThe part=
+ies hereto will use their respective reasonable best efforts to consummate =
+and make effective the transactions contemplated by this Agreement,=E2=80=
+=9D says the merger agreement. (Section 6.3(a).) He can=E2=80=99t just put =
+that =E2=80=9Con hold.=E2=80=9D
+If you were in the process of=C2=A0negotiating a merger, and then you got n=
+ervous that some element of the company=E2=80=99s business might not be wha=
+t you thought, you might put the negotiations =E2=80=9Con hold.=E2=80=9D Yo=
+u might demand more information about the company=E2=80=99s bot calculation=
+s, and you might stop negotiating other details of the deal until you got i=
+t. If the information wasn=E2=80=99t what you wanted, you might walk away, =
+or demand a lower price. All of these things are things that could happen b=
+efore you sign a merger agreement. Not, generally, after.
+Yesterday there was a big hearing in Delaware Chancery Court on the Musk/Tw=
+itter lawsuit. Some of it was about discovery issues =E2=80=94=C2=A0Musk an=
+d Twitter have been demanding information from each other, and fighting abo=
+ut what they have to provide and when. But the more important part was abou=
+t whether Musk can amend his claims to add more reasons to get out of the d=
+eal. Initially, Musk argued that he could get out of his deal to buy Twitte=
+r mostly for reasons relating to his apparent belief that Twitter has too m=
+any bots. But then last month Twitter=E2=80=99s former head of security, Pe=
+iter =E2=80=9CMudge=E2=80=9D Zatko, publicized a whistle-blower complaint a=
+rguing that Twitter does a bunch of other bad things, and Musk wants to add=
+ those claims to his arguments. If Twitter has bad information security pra=
+ctices, then maybe that=E2=80=99s fraud, or maybe its representations are f=
+alse and there=E2=80=99s=C2=A0a material adverse effect, and Musk might as =
+well argue that too.
+At the hearing, Musk=E2=80=99s lawyers argued that Zatko=E2=80=99s claims=
+=C2=A0might be true, and if they are then they might give Musk a way out of=
+ the deal, and so we=C2=A0might as well find out. And Twitter=E2=80=99s law=
+yers argued that Musk is just fishing for excuses to get out of the deal.=
+=C2=A0(Disclosure, Twitter=E2=80=99s lawyers are at Wachtell, Lipton, Rosen=
+ & Katz, where I used to work.) As Bloomberg=E2=80=99s   Kurt Wagner and Je=
+f Feeley=C2=A0report:
+
+Bill Savitt, an attorney for Twitter, brought up a text message between Mus=
+k and one of his bankers as evidence during a Chancery Court hearing Tuesda=
+y. In the message from May 8, Musk asked the banker to slow down the deal p=
+rocess until after Russian President Vladimir Putin gave a speech the follo=
+wing day, during which Putin defended his decision to invade Ukraine.
+=E2=80=9CIt won=E2=80=99t make sense to buy Twitter if we=E2=80=99re headin=
+g into World War III,=E2=80=9D Musk wrote. He had already agreed to buy Twi=
+tter for $44 billion two weeks earlier.
+
+Yes, right, see, if the global environment has gotten worse for business, i=
+t is perfectly reasonable for a rich businessman to text the bankers who ar=
+e negotiating a merger=C2=A0to  tell them =E2=80=9CLet=E2=80=99s slow down =
+just a few days.=E2=80=9D You don=E2=80=99t want to sign a merger agreement=
+ if things are getting worse! At least you=E2=80=99ll want to rethink the p=
+rice.
+The problem is that Musk had already signed the merger agreement. There is =
+no =E2=80=9Con hold,=E2=80=9D no =E2=80=9Clet=E2=80=99s slow down,=E2=80=9D=
+ once you sign. You have committed to use your reasonable best efforts to g=
+et the deal done, and when you text your bankers to tell them to maybe use =
+their third-best efforts to get it done, you are breaching the agreement.
+Or:
+A lawyer for Twitter also disclosed during the hearing about a discussion b=
+etween/with Musk and third party banker Perella Weinberg in mid June about =
+using a contingent value right, or CVR, as a way to renegotiate the Twitter=
+ (TWTR) deal.
+A  CVR is a way to bridge a valuation gap in a merger negotiation. If a pot=
+ential buyer thinks that a company is worth $45, and a seller won=E2=80=99t=
+ take less than $54.20, perhaps you can use a CVR to get a deal done. =E2=
+=80=9CI will pay you $45,=E2=80=9D the buyer says, =E2=80=9Cbut I will pay =
+you another $9.20 if the business hits certain revenue milestones in the ye=
+ar after I buy it.=E2=80=9D And then if the business is as good as the sell=
+ers think it is they get their $54.20, but if it isn=E2=80=99t then the buy=
+er only pays $45.
+But the Twitter situation is the opposite of that. Twitter=E2=80=99s shareh=
+olders thought it was worth about $45, tops, and then Musk   came along out=
+ of nowhere and   bid $54.20 for it, and Twitter=E2=80=99s   board was like=
+ =E2=80=9Csure if you want to pay us $54.20 we=E2=80=99ll take it.=E2=80=9D=
+ And then they signed a deal at a fixed price. And then Musk decided a few =
+weeks later that that price was a bit rich, so he considered proposing=C2=
+=A0a CVR. To bridge the gap between the price he agreed to pay and the pric=
+e he=E2=80=99d rather pay. Again, it doesn=E2=80=99t work that way.=C2=A0
+Or Savitt at one point in the hearing=C2=A0 said: =E2=80=9CYou don't do due=
+ diligence to get out of a merger agreement, you do it to get into one.=E2=
+=80=9D Musk signed a merger agreement, and then started to do due diligence=
+, at which point he got nervous about the bots.=C2=A0Savitt is right: You d=
+o the diligence=C2=A0before=C2=A0you sign the merger agreement. But if you =
+don=E2=80=99t know how merger agreements work, you might get this reversed.
+I think this stuff is just obviously true. I think it is clear that Elon Mu=
+sk doesn=E2=80=99t believe in binding merger agreements, and he changed his=
+ mind about buying Twitter and now wants his merger agreement to go away. A=
+nd everything else =E2=80=94=C2=A0the stuff about bots, the stuff about the=
+ whistle-blower, allegations of covenant breaches and material adverse effe=
+cts and fraud =E2=80=94=C2=A0is just lawyers trying to justify that.=C2=A0
+But that doesn=E2=80=99t mean he=C2=A0loses. If he changed his mind about T=
+witter because the market crashed,=C2=A0and also=C2=A0it turns out that Twi=
+tter breached its covenants or suffered a material adverse effect or was do=
+ing a massive fraud, then he (probably) gets to get out of the deal. That w=
+ould be kind of a weird coincidence, but honestly not=C2=A0that=C2=A0weird.=
+ Most of the time when a merger is terminated   or renegotiated,=C2=A0it is=
+ for some combination of (1) the buyer got market-driven cold feet and (2) =
+it found something bad about the target that gave it an excuse. And=C2=A0Tw=
+itter is an odd=C2=A0and broken company,=C2=A0which is explicitly  why Musk=
+ wanted to buy it, so it wouldn=E2=80=99t be hugely surprising if it was br=
+oken in particular ways that breached a standard merger agreement. Even if =
+Musk is just looking for excuses to get out of the deal, that doesn=E2=80=
+=99t mean he can=E2=80=99t find one.=C2=A0
+Musk=E2=80=99s main requests at yesterday=E2=80=99s hearing were:
+=09To amend his counterclaims to put in all of Zatko=E2=80=99s claims about=
+ fraud.=09To get to do more discovery, demanding more documents from Twitte=
+r about Zatko=E2=80=99s claims.=09To delay the trial, currently scheduled f=
+or October, so he could have more time to do all of this.
+
+This morning the judge, Chancellor Kathaleen McCormick, ruled on his reques=
+ts, and I think  her opinion is a fairly clear win for Twitter. She will le=
+t Musk amend his claims, which is technically a win for him, but which to s=
+ome extent limits his freedom of action. If she had said no, he could have =
+appealed. (He would have had a good argument; the standard for amending cla=
+ims is low.)=C2=A0He could have found another court to sue in, some other a=
+udience to listen to him. But now he has to argue about Zatko=E2=80=99s com=
+plaint in Chancellor McCormick=E2=80=99s court, alongside all of his other =
+excuses for getting out of the deal. She has the relevant context.=C2=A0
+She will also let Musk do a little bit of discovery on those claims, but no=
+t too much. (=E2=80=9CDefendants are permitted only incremental discovery r=
+elevant to the new allegations. That discovery can be made through targeted=
+ document discovery and minimal additional experts and fact witnesses.=E2=
+=80=9D)
+And, crucially, she won=E2=80=99t push back the trial, which is still sched=
+uled to start on Oct. 17. If you looked at this case and thought =E2=80=9Cu=
+h oh, Twitter has been running a massive fraud and Elon Musk just learned a=
+bout it,=E2=80=9D you would want to push back the trial to let him find out=
+ more about the fraud. If you looked at it and thought =E2=80=9Cwow, Elon M=
+usk keeps coming up with new excuses to get out of the merger agreement he =
+signed, and here=E2=80=99s another one,=E2=80=9D you would let him=C2=A0arg=
+ue=C2=A0about that excuse, but you wouldn=E2=80=99t give him any more time.=
+ You would want to make sure that you=E2=80=99ve heard all of his arguments=
+ before rejecting them, but you wouldn=E2=80=99t let him drag the case out =
+forever.=C2=A0
+It is relevant here, I think, that Chancellor McCormick definitely knows ho=
+w merger agreements work. She is a Delaware chancellor. They do all the pub=
+lic-company M&A litigation. She has   seen buyers who want to get out of me=
+rgers before, and she has seen Musk=E2=80=99s claims so far. =E2=80=9CI am =
+reticent to say more concerning the merits of the counterclaims at this pos=
+ture before they have been fully litigated,=E2=80=9D she wrote in today=E2=
+=80=99s opinion.=C2=A0=E2=80=9CThe world will have to wait for the post-tri=
+al decision.=E2=80=9D=C2=A0
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Anti-ESG
+   =20
+ =20
+
+If you are the chief executive officer of a big integrated oil company, and=
+ holders of 60% of shares tell you that you should focus more on renewable =
+energy, should you do it? I actually think that this is a non-obvious quest=
+ion. Some considerations:
+=09Possibly pivoting to renewables will cost you more money now but increas=
+e long-term profits. Or perhaps not. You=E2=80=99re an oil-company CEO, tho=
+ugh; I guess you=E2=80=99re the expert on allocating capital to energy proj=
+ects.=C2=A0=09You are a fiduciary for shareholders and you have your own in=
+dependent fiduciary obligation to do what is right for them. If you think t=
+hat focusing on renewables is the best long-term value-enhancing strategy f=
+or the company and its shareholders, you should do that. If you think that =
+drilling more oil is the best strategy, then you are in charge, and you sho=
+uld do that. Your job is not to just do whatever they say; your job is to m=
+anage the company.=09That said, the shareholders are not dummies =E2=80=94=
+=C2=A0certainly=C2=A0lots=C2=A0of your shares are held by institutional inv=
+estors=C2=A0who are economically motivated and smart =E2=80=94=C2=A0and so =
+if they think that renewables are a better strategy, you should at least he=
+ar them out. It is not=C2=A0certain=C2=A0that you are a better allocator of=
+ capital to energy projects than they are.=09Also, to the extent that=C2=A0=
+your job is to do what is right for shareholders, their subjective preferen=
+ces might factor into it.=C2=A0Like if you think that focusing more on rene=
+wables will produce less income but=C2=A0make your shareholders happy, then=
+, as a fiduciary for your shareholders, shouldn=E2=80=99t you do what makes=
+ them happy?=09Also, to the extent that your job is to=C2=A0make the stock =
+price go up=C2=A0=E2=80=94=C2=A0the simplest proxy for creating shareholder=
+ value =E2=80=94=C2=A0then, again, their subjective preferences might facto=
+r into it. If you focus on renewables and that makes shareholders happy and=
+ they buy more stock and the stock goes up, then that is what matters, not =
+the income statement.=09You are a modern CEO and  you think about all stake=
+holders, not just shareholder value. So even if your shareholders think you=
+ should pivot to renewables and are correct that that is the right financia=
+l choice, you might say =E2=80=9Cno I don=E2=80=99t want to lay off any oil=
+ drillers, so I=E2=80=99m sticking with drilling.=E2=80=9D (Or: You say =E2=
+=80=9Csure, shareholders, you are worried about financial returns, but I am=
+ worried about Europe=E2=80=99s resolve in resisting Russian aggression, so=
+ I am going to drill to keep oil prices low.=E2=80=9D Lots of stakeholders!=
+)=09There is the fact that the shareholders own 60% of the stock and so the=
+y get to vote on stuff, so even if you don=E2=80=99t want to do what they w=
+ant, you have to consider that your job is on the line. Oh, maybe not, mayb=
+e not; it is very hard for even 60% of shareholders to make=C2=A0binding=C2=
+=A0changes at a big public company. But there is precedent: Exxon Mobil Cor=
+p.   lost a proxy fight with a teeny tiny activist shareholder over issues =
+like this. Big shareholders wanted more renewables, Exxon wasn=E2=80=99t gi=
+ving them what they wanted, so the activist =E2=80=94=C2=A0a hedge fund cal=
+led Engine No. 1 =E2=80=94=C2=A0ran a proxy fight and got several Exxon dir=
+ectors replaced. If you ignore your shareholders=E2=80=99 demands, they mig=
+ht get together and replace you too.
+
+All in all I think the basic answer is =E2=80=9Clisten respectfully to your=
+ shareholders, consider their arguments seriously, be open to changing your=
+ mind, say soothing things to them, but ultimately do what you think is bes=
+t for the long-term value of the company even if it=E2=80=99s not what shar=
+eholders say they want, and if you get fired=C2=A0then that=E2=80=99s life.=
+=E2=80=9D But I could see arguments for other approaches.
+Here is an approach that I honestly had not thought of:
+=09Your shareholders are not your shareholders. Most of your shares are hel=
+d by big institutions like BlackRock Inc., which manage money on behalf of =
+thousands of individual customers. The stated desires and subjective prefer=
+ences of the managers at BlackRock Inc. are irrelevant and you should ignor=
+e them. You cannot know the preferences of BlackRock=E2=80=99s=C2=A0custome=
+rs, because you do not deal with them directly. So you should do whatever y=
+ou think is best and kick BlackRock out of your office.
+
+I think this approach is flawed, for at least two reasons:
+=09You know a little bit about the preferences of BlackRock=E2=80=99s custo=
+mers, don=E2=80=99t you? You know that they let BlackRock manage their mone=
+y. That at least suggests that they might=C2=A0agree with the preferences t=
+hat BlackRock=E2=80=99s managers express. It=E2=80=99s a weak signal, sure.=
+ But it makes it hard to=C2=A0ignore=C2=A0BlackRock.=09BlackRock does get t=
+o vote the stock, and if they vote you out of office you don=E2=80=99t get =
+to say =E2=80=9Cyou=E2=80=99re a fake shareholder anyway!=E2=80=9D You have=
+ to leave.
+
+Here=E2=80=99s a fun  Wall Street Journal story about anti-ESG activist=C2=
+=A0Vivek Ramaswamy of Strive Asset Management:
+
+A conservative activist turned investor who has criticized Wall Street=E2=
+=80=99s efforts to address climate change and other issues is publicly urgi=
+ng Chevron Corp. to pump more fossil fuels over the next decade.
+Vivek Ramaswamy, who launched an energy-focused exchange-traded fund nearly=
+ a month ago, is among the most prominent critics of so-called environmenta=
+l, social and governance=E2=80=94or ESG=E2=80=94investing. He quickly turne=
+d his sights on Chevron, arguing the country=E2=80=99s second-biggest fossi=
+l-fuel company should slow spending on its energy-transition plan, which he=
+ said was partially motivated by pressure from top shareholders such as Bla=
+ckRock Inc.=C2=A0
+In the letter Tuesday to Chevron CEO Mike Wirth and the company=E2=80=99s b=
+oard, Mr. Ramaswamy said he wanted to =E2=80=9Cliberate you from constraint=
+s imposed on Chevron by its ESG-promoting =E2=80=98shareholders.=E2=80=99=
+=E2=80=9D=C2=A0
+
+Notice his quotation marks around =E2=80=9Cshareholders.=E2=80=9D Here=E2=
+=80=99s  the letter, which explains:
+
+We understand that you are in a challenging position when Chevron=E2=80=99s=
+ top =E2=80=9Cshareholders=E2=80=9D mandate your board to adopt a course of=
+ action that you believe is not in the best interests of Chevron=E2=80=99s =
+shareholders. But here is the reality: your purported =E2=80=9Cshareholders=
+=E2=80=9D are not the actual owners of your company.
+Today the three largest passive asset managers in the world =E2=80=93 Black=
+Rock, State Street, and Vanguard =E2=80=93 manage over $20 trillion, approx=
+imately equal to the total U.S. gross domestic product. In 2021 these firms=
+ appeared in public filings as Chevron=E2=80=99s top 3 shareholders. By con=
+trast, the actual owners of Chevron are not BlackRock, State Street, Vangua=
+rd =E2=80=93 or, for that matter, Strive. Chevron=E2=80=99s actual owners a=
+re the clients of these institutions: everyday citizens whose capital is in=
+vested in passively managed index funds.
+You owe a fiduciary duty to the actual owners of Chevron, not to the instit=
+utions who claim to represent these owners. There is strong reason to belie=
+ve that these large asset managers are not voting with their clients=E2=80=
+=99 best interests in mind.
+
+The context here is that 60% of Chevron=E2=80=99s shares  voted in favor of=
+ reducing Chevron=E2=80=99s Scope 3 emissions in 2021, and Ramaswamy wants =
+Chevron to ignore them. (As, legally, it totally can!) =E2=80=9COur goal in=
+ writing this letter is to liberate you from constraints imposed on Chevron=
+ by its ESG- promoting =E2=80=98shareholders,=E2=80=99=E2=80=9D says the le=
+tter, but it is a bit thin on=C2=A0how=C2=A0Strive will do its liberating. =
+=E2=80=9CMr. Ramaswamy, whose fund holds a roughly 0.02% stake in Chevron, =
+would likely need support from large shareholders who have generally embrac=
+ed Chevron=E2=80=99s current strategy to get the company to change course,=
+=E2=80=9D notes the Journal.
+Chapter 1 of Jean Tirole=E2=80=99s =E2=80=9C Theory of Corporate Finance=E2=
+=80=9D says that =E2=80=9Cthe premise behind modern corporate finance in ge=
+neral and this book in particular is that corporate insiders need not act i=
+n the best interests of the providers of the funds=E2=80=9D: That is, the c=
+entral issue in corporate finance is agency costs and conflicts of interest=
+. Generally people think of this in terms of the conflict between the manag=
+ers of a company and its shareholders. Sometimes they think of it in terms =
+of the conflict between the managers of an investment fund and its clients.=
+ But modern corporate finance is about all three: the managers of the compa=
+ny, the professional managers of the investment funds that own its shares, =
+and the clients of those investment funds. Typically the investment manager=
+s tell the corporate managers that=C2=A0they=C2=A0represent the ultimate cl=
+ients, but I guess there is nothing inevitable about that. Could the CEO of=
+ Chevron tell BlackRock =E2=80=9Cno, you don=E2=80=99t own 6.99% of our sto=
+ck, your clients do, and you don=E2=80=99t represent their interests, I do=
+=E2=80=9D? Sure, I guess, why not.
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      DWAC
+   =20
+ =20
+
+A brief update on Digital World Acquisition Corp., the special purpose acqu=
+isition company that has signed a deal to take Donald Trump=E2=80=99s socia=
+l media company public. We   talked yesterday about how it has to close the=
+ deal by tomorrow or else close up shop and return $10.20 per share to shar=
+eholders, unless it gets an extension. It has asked its shareholders to vot=
+e on a one-year extension, but it needs 65% of them to vote yes, and I gues=
+s they are hard to reach; so far it doesn=E2=80=99t seem to have enough vot=
+es, and it has delayed the vote to the last minute to round up some more.=
+=C2=A0DWAC=E2=80=99s managers can also unilaterally give themselves=C2=A0up=
+ to two three-month extensions, but (1) it=E2=80=99s not clear that=E2=80=
+=99s enough time and (2) they have to pay $2.875 million for each extension=
+, from their own money, and it=E2=80=99s not clear that=E2=80=99s a good ga=
+mble. I mean, if the odds are 50 to 1 against the deal closing, it=E2=80=99=
+s a good gamble; they will get paid very well if the deal closes. But if th=
+e odds are 100 to 1 against, probably not. When we discussed this yesterday=
+ they had not said yet if they=E2=80=99d put up the money, which perhaps su=
+ggests something about the odds.
+Slightly belatedly, though, DWAC  announced yesterday that they=E2=80=99ll =
+pay up if they have to:
+If the Extension Amendment is not approved by the stockholders by September=
+ 8, 2022, ARC Global Investments II, LLC, the Company=E2=80=99s sponsor (th=
+e =E2=80=9CSponsor=E2=80=9D), intends to contribute to the Company=E2=80=99=
+s trust account an aggregate amount of $2,875,000, which is equal to $0.10 =
+per share of Class A common stock issued in the Company=E2=80=99s initial p=
+ublic offering, to extend the time to consummate an initial business combin=
+ation for a three-month period, until December 8, 2022.
+So there you go.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+EU plans =E2=82=AC200/MWh  price cap on non-gas generated electricity. Junk=
+-Loan  Defaults Worry Wall Street Investors. Wall Street Banks Lead   Retur=
+n-to-Office With Labor Day Push. Blackstone-backed  song rights machine suf=
+fers growing pains. Theranos Founder Elizabeth Holmes  Seeks New Trial, Cit=
+ing Fresh Evidence.   Libyan Fund Wins $1.2 Billion Court Fight Over Seized=
+ Assets.=C2=A0Bankrupt Crypto Lender   Voyager Digital Heads to Auction Blo=
+ck. Investor Who Made 1,700% on   Mt. Gox Crash Circles Crypto Again. An An=
+atomy of  Crypto-Enabled Cybercrimes. Andreessen Horowitz wants to fix  NFT=
+ copyright with its =E2=80=98Can=E2=80=99t Be Evil=E2=80=99 license. Being =
+  Sad May Be Great for ESG. Kim Kardashian Starts   Private Equity Firm Wit=
+h Carlyle Partner.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Public companies don=E2=80=99t ordinarily sign an MOU as a preliminar=
+y to a definitive merger agreement in part because that would require *disc=
+losure*, and companies do not like to disclose that they are being acquired=
+ unless they are really being acquired. If you disclose =E2=80=9Cwe are lik=
+e 75% likely to be bought for $54.20,=E2=80=9D and then you are *not* bough=
+t for $54.20, that is generally interpreted as being a disaster for the sto=
+ck price, investor relations, employee morale, etc. See if you can figure o=
+ut why!
+
+
+  [2] Incidentally, a US public-company deal that looked a littttttttle lik=
+e the memorandum-of-understanding approach is  Tesla Inc.=E2=80=99s acquisi=
+tion of SolarCity Corp., which we   discussed in April. I mean, not exactly=
+, but Tesla did make a preliminary proposal of $28.50 per share in stock, e=
+veryone sort of agreed to negotiate, they negotiated, diligence continued, =
+and ultimately they agreed to a deal at a lower price because of what they =
+found in due diligence. And because Elon Musk controlled both companies, th=
+eir fairly casual decision to negotiate with each other felt *real* without=
+ being *binding*: Musk was on both sides, so when he decided that Tesla sho=
+uld buy SolarCity for $28.50-ish that meant that Tesla would probably buy S=
+olarCity for $28.50-ish, but not certainly, and perhaps not for exactly tha=
+t amount. Arguably that is the model that Musk has in mind for how public-c=
+ompany mergers work: one where he controls both sides and can drop it at an=
+y time.
+
+
+  [3] In modern US public-company M&A practice this is often not considered=
+ a valid excuse to get out of the deal =E2=80=94 there is often =E2=80=9Cno=
+ financing out=E2=80=9D =E2=80=94 but, still, I am listing it as a thing th=
+at can go wrong, because if the buyer really doesn=E2=80=99t have the money=
+ at closing, that really is a problem.
+
+
+  [4] I guess I will here? When Musk wanted to get out of the deal, the exc=
+use he seized on was that he thinks that more than 5% of Twitter=E2=80=99s =
+users are bots. This is a terrible excuse! For one thing, there=E2=80=99s n=
+ever been any evidence at all that it=E2=80=99s true.   For another thing, =
+Twitter never made any representation to him that fewer than 5% of its user=
+s are bots.   For a third thing, when he was trying to buy Twitter, and whe=
+n he signed the deal, Musk was going around crowing that Twitter had too ma=
+ny bots and that he was going to clean them up, so the argument that he was=
+ somehow tricked into believing there weren=E2=80=99t too many bots is insa=
+ne. Musk=E2=80=99s lawyers realized that this was a terrible excuse, and   =
+tried to cook up a better one for him. And, since the richest person in the=
+ world is very publicly looking for some evidence that Twitter is a fraud, =
+a disgruntled ex-employee publicized a whistle-blower complaint claiming th=
+at Twitter is   doing lots of miscellaneous fraud, which Musk is now claimi=
+ng to believe.=20
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ch92tk.5k9j/46e1f14e.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_8661887_577709087.1662574591663
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+I think that the simplest explanation might be that Elon Musk does not know=
+ what a merger agreement is. It is not uncommon, in the world, fo
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yODk3NzAzMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkyMzY1NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB2badfcce" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D28977032&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29236575&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwOTA3MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA5MDcmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB357f300e"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yODk3NzAzMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkyMzY1NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCefab909e" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D28977032&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29236575&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oh Elon</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I think that the simplest explanation might be=
+ that Elon Musk does not know what a merger agreement is. It is not uncommo=
+n, in the world, for two companies to get together and discuss one buying t=
+he other. And sometimes these talks will go well and they will get together=
+ and=C2=A0sign some sort of document =E2=80=94=C2=A0a =E2=80=9Cmemorandum o=
+f understanding,=E2=80=9D perhaps =E2=80=94=C2=A0that says, basically, =E2=
+=80=9Cnow we are going to talk really seriously about me buying you.=E2=80=
+=9D Sometimes they will have a price lined up=C2=A0when they sign this docu=
+ment, say $54.20,=C2=A0and=C2=A0that price will be written into the documen=
+t, and the expectation will be that eventually the buyer will pay $54.20 to=
+ buy the seller. But things can go wrong. There will be continuing due dili=
+gence, where the buyer examines the seller=E2=80=99s business, and the buye=
+r might change its mind. Facts might come to light in due diligence that co=
+uld make the buyer walk away or want to revise the price downward. The mark=
+et might crash, making the seller less valuable or making it harder for the=
+ buyer to get financing.=C2=A0The MOU is an agreement to talk more seriousl=
+y; it reflects a general mutual desire to come to a deal at $54.20, but it =
+is not binding. Nobody is committed to a deal at $54.20. Nothing is certain=
+ until the final deal is signed.</p>
+<p style=3D"margin: 16px 0;">That, again, is a description of=C2=A0a thing =
+that can happen in the world; some business acquisitions do go through a pr=
+ocess=C2=A0like that. But it is not a description of<em> US public-company =
+merger agreements</em>. In normal US public-company mergers, you don=E2=80=
+=99t sign a memorandum saying =E2=80=9Cwe=E2=80=99re going to negotiate ser=
+iously about buying you.=E2=80=9D<a class=3D"footnote-index" href=3D"#footn=
+ote-1" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !i=
+mportant; background-color: transparent !important; display: inline-block;"=
+>
+<span>[1]</span>
+</a>=C2=A0You=C2=A0negotiate seriously, and <em>then=C2=A0</em>you sign a m=
+erger agreement saying =E2=80=9Cwe agree to buy you for $54.20.=E2=80=9D An=
+d then if the buyer changes its mind, it still has to pay $54.20. And if th=
+e market crashes, the buyer still has to pay $54.20. The deal is the deal; =
+once it is signed, the merger agreement is binding and definitive.<a class=
+=3D"footnote-index" href=3D"#footnote-2" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: none !important; background-color: transparent !=
+important; display: inline-block;">
+<span>[2]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">It is confusing, though. When you sign a publi=
+c-company merger agreement, you do not immediately own the company you are =
+buying. You are still months, perhaps years, away from the =E2=80=9Cclosing=
+=E2=80=9D of the deal, when you actually pay the money and=C2=A0take over t=
+he company. The delay is necessary to get regulatory approvals (antitrust, =
+etc.), and to write a proxy statement and submit the merger to a vote of th=
+e target=E2=80=99s shareholders. (You sign the merger agreement with the ta=
+rget=E2=80=99s board of directors, but they don=E2=80=99t get the final say=
+; the shareholders do.) Also, if you need to borrow money to buy the target=
+, this delay gives you time to market the debt and actually get the money. =
+(When you sign the deal, you probably=C2=A0have commitment letters from you=
+r banks promising you the money, but by closing you can actually have the s=
+pecific loans in place.)</p>
+<p style=3D"margin: 16px 0;">And during this delay, things can go wrong. Th=
+e regulators might not approve. The shareholders might vote no. The financi=
+ng might fall apart.<a class=3D"footnote-index" href=3D"#footnote-3" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: none !important; ba=
+ckground-color: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0When you sign the merger agreement, the buyer and seller agree to=
+ work together and use their =E2=80=9Creasonable best efforts=E2=80=9D to g=
+et the regulatory approvals and shareholder vote and financing and everythi=
+ng else needed for the deal to close, but even if they do all of that somet=
+imes it=E2=80=99s not enough, and the deal falls apart. Signing a merger ag=
+reement doesn=E2=80=99t mean that the buyer will=C2=A0<em>definitely=C2=A0<=
+/em>buy the seller. It is a serious binding commitment, but it is not 100%.=
+</p>
+<p style=3D"margin: 16px 0;">If you are the buyer, you might think about=C2=
+=A0<em>other=C2=A0</em>things that might go wrong. What if the seller=E2=80=
+=99s business all burns to the ground in a fire? Seems unfair for you to ha=
+ve to buy it anyway. What if the fire was the seller=E2=80=99s fault? What =
+if it turns out that the seller was running a massive fraud and the whole b=
+usiness is fake? Seems <em>really</em> unfair for you to have to buy it any=
+way.</p>
+<p style=3D"margin: 16px 0;">And so, yes, even if you get the regulatory an=
+d shareholder approvals and the financing, there are still times when a buy=
+er can get out of a deal between signing and closing. But they are quite li=
+mited. The main one is that the seller makes representations in the merger =
+agreement =E2=80=94=C2=A0statements about the company that it promises are =
+true, things like =E2=80=9Cour financial statements are true=E2=80=9D and =
+=E2=80=9Cwe are not breaking any laws=E2=80=9D=C2=A0=E2=80=94=C2=A0and if t=
+hose statements are false, and they are=C2=A0<em>so=C2=A0</em>false that th=
+ey would have a =E2=80=9Cmaterial adverse effect=E2=80=9D on the business, =
+then the buyer can get out of the deal. (A typo in the financial statements=
+ is not enough to get out of the deal, but inflating revenue for years migh=
+t be.) That is a high bar, and=C2=A0Delaware courts =E2=80=94=C2=A0which he=
+ar most big merger cases, since most public companies are incorporated in D=
+elaware =E2=80=94 <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+28977032.259543/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzI=
+wMjItMDUtMTMvZWxvbi1tdXNrLXRyb2xscy10d2l0dGVyP2NtcGlkPUJCRDA5MDcyMl9NT05FWV=
+NUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyM=
+DkwNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB60f55853" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">  almost never find MAEs</a>. But in theory, yes, if the buyer was mi=
+sled and the seller=E2=80=99s business is falling apart, the buyer can get =
+out. And there are a very few other possible excuses; for instance, if the =
+seller does not comply with its covenants =E2=80=94=C2=A0the things that it=
+ agreed to do between signing and closing =E2=80=94=C2=A0then the buyer <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDYtMDYvZWxvbi1o=
+YXMtYS1uZXctYm90LWV4Y3VzZT9jbXBpZD1CQkQwOTA3MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXV=
+tPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA5MDcmdXRtX2NhbXBhaW=
+duPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB2da774cf" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">  might have a=
+n out</a>. Or if the buyer was tricked into signing the merger agreement by=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDgtMjkvbXVz=
+ay10cmllcy1hLW5ldy13YXktb3V0LW9mLXR3aXR0ZXI_Y21waWQ9QkJEMDkwNzIyX01PTkVZU1R=
+VRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwOT=
+A3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB0e397a07" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">  intentional and material=C2=A0<em>fraud</em></a>, that would be an out=
+.</p>
+<p style=3D"margin: 16px 0;">But the buyer can=E2=80=99t get out because it=
+ changed its mind. Or because the market went down and it is overpaying. Or=
+ because the market went down and it doesn=E2=80=99t have as much money as =
+it used to. Or because the seller=E2=80=99s business turns out to be worse =
+than the buyer thought in a general way. Broadly speaking, the merger agree=
+ment is meant to be binding. Getting out of it is the exception.</p>
+<p style=3D"margin: 16px 0;">Elon Musk is trying to get out of the merger a=
+greement he signed in April=C2=A0to buy Twitter Inc. for $54.20 per share, =
+or about $44 billion total. He has good professional lawyers, and they are =
+working hard, and certainly=C2=A0<em>they </em>know what a merger agreement=
+ is, so all of Musk=E2=80=99s official statements and legal filings and so =
+forth are phrased in terms of covenant violations and material adverse effe=
+cts and fraud.</p>
+<p style=3D"margin: 16px 0;">But it seems completely obvious to me that=C2=
+=A0<em>Musk </em>doesn=E2=80=99t care about those magic words, and that he =
+wants to get out of the deal for some combination of (1) the market went do=
+wn and $54.20 per share=C2=A0looks pretty rich for Twitter, (2) the market =
+went down and $44 billion looks like a big hit to Musk=E2=80=99s own wealth=
+, and (3) he wanted to buy Twitter on a whim and he=E2=80=99s gotten bored =
+by now. I have been saying this for months and I am bored of it and I=E2=80=
+=99m sure you are too, so I am not going to rehash the point here.<a class=
+=3D"footnote-index" href=3D"#footnote-4" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: none !important; background-color: transparent !=
+important; display: inline-block;">
+<span>[4]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Instead I will just point out that Musk=E2=80=
+=99s own=C2=A0statements =E2=80=94=C2=A0not the ones from his lawyers in co=
+urt =E2=80=94=C2=A0suggest that he doesn=E2=80=99t know what a merger agree=
+ment is. The first sign that he wanted out of the deal was back in May, bar=
+ely two weeks after he signed the deal, <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/28977032.259543/aHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVza=
+y9zdGF0dXMvMTUyNTA0OTM2OTU1MjA0ODEyOQ/607f07ceef4b8524a319a23cBfd1615dd" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> when he tweeted</a> =E2=80=9CTwitter deal temporarily on hold pendin=
+g details supporting calculation that spam/fake accounts do indeed represen=
+t less than 5% of users.=E2=80=9D No! No! No!=C2=A0As <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/28977032.259543/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMTMvZWxvbi1tdXNrLXRyb2xscy10d2=
+l0dGVyP2NtcGlkPUJCRDA5MDcyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nvd=
+XJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDkwNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/6=
+07f07ceef4b8524a319a23cC60f55853" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  I said at the time</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">=E2=80=9CTemporarily on hold=E2=80=
+=9D is not a thing. Elon Musk has signed a binding contract requiring him t=
+o buy Twitter. Legions of bankers and lawyers and Twitter employees and spe=
+cial-purpose-vehicle promoters are working to fulfill his legal obligation =
+to get the deal closed. =E2=80=9CThe parties hereto will use their respecti=
+ve reasonable best efforts to consummate and make effective the transaction=
+s contemplated by this Agreement,=E2=80=9D says the merger agreement. (Sect=
+ion 6.3(a).) He can=E2=80=99t just put that =E2=80=9Con hold.=E2=80=9D</p><=
+/blockquote>
+<p style=3D"margin: 16px 0;">If you were in the process of=C2=A0<em>negotia=
+ting </em>a merger, and then you got nervous that some element of the compa=
+ny=E2=80=99s business might not be what you thought, you might put the nego=
+tiations =E2=80=9Con hold.=E2=80=9D You might demand more information about=
+ the company=E2=80=99s bot calculations, and you might stop negotiating oth=
+er details of the deal until you got it. If the information wasn=E2=80=99t =
+what you wanted, you might walk away, or demand a lower price. All of these=
+ things are things that could happen before you sign a merger agreement. No=
+t, generally, after.</p>
+<p style=3D"margin: 16px 0;">Yesterday there was a big hearing in Delaware =
+Chancery Court on the Musk/Twitter lawsuit. Some of it was about discovery =
+issues =E2=80=94=C2=A0Musk and Twitter have been demanding information from=
+ each other, and fighting about what they have to provide and when. But the=
+ more important part was about whether Musk can amend his claims to add mor=
+e reasons to get out of the deal. Initially, Musk argued that he could get =
+out of his deal to buy Twitter mostly for reasons relating to his apparent =
+belief that Twitter has too many bots. But then last month Twitter=E2=80=99=
+s former head of security, Peiter =E2=80=9CMudge=E2=80=9D Zatko, publicized=
+ a whistle-blower complaint arguing that Twitter does a bunch of other bad =
+things, and Musk wants to add those claims to his arguments. If Twitter has=
+ bad information security practices, then maybe that=E2=80=99s fraud, or ma=
+ybe its representations are false and there=E2=80=99s=C2=A0a material adver=
+se effect, and Musk might as well argue that too.</p>
+<p style=3D"margin: 16px 0;">At the hearing, Musk=E2=80=99s lawyers argued =
+that Zatko=E2=80=99s claims=C2=A0might be true, and if they are then they m=
+ight give Musk a way out of the deal, and so we=C2=A0might as well find out=
+. And Twitter=E2=80=99s lawyers argued that Musk is just fishing for excuse=
+s to get out of the deal.=C2=A0(Disclosure, Twitter=E2=80=99s lawyers are a=
+t Wachtell, Lipton, Rosen &amp; Katz, where I used to work.) As Bloomberg=
+=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/2897703=
+2.259543/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDktMD=
+YvbXVzay11cmdlZC1iYW5rZXJzLXRvLXNsb3ctdHdpdHRlci1kZWFsLW9uLXdhci1yaXNrLWxhd=
+3llci1zYXlzP2NtcGlkPUJCRDA5MDcyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRt=
+X3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDkwNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHV=
+mZg/607f07ceef4b8524a319a23cBba67d1c5" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  Kurt Wagner and Jef Feeley=
+=C2=A0report</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Bill Savitt, an attorney for Twitter, brought =
+up a text message between Musk and one of his bankers as evidence during a =
+Chancery Court hearing Tuesday. In the message from May 8, Musk asked the b=
+anker to slow down the deal process until after Russian President Vladimir =
+Putin gave a speech the following day, during which Putin defended his deci=
+sion to invade Ukraine.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIt won=E2=80=99t make sense to buy Tw=
+itter if we=E2=80=99re heading into World War III,=E2=80=9D Musk wrote. He =
+had already agreed to buy Twitter for $44 billion two weeks earlier.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Yes, right, see, if the global environment has=
+ gotten worse for business, it is perfectly reasonable for a rich businessm=
+an to text the bankers who are negotiating a merger=C2=A0to <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/28977032.259543/aHR0cHM6Ly9ueW1hZ=
+y5jb20vaW50ZWxsaWdlbmNlci8yMDIyLzA5L2Vsb24tbXVzay13b3JyaWVkLWFib3V0LXdvcmxk=
+LXdhci10aHJlZS1mb3ItdHdpdHRlci1kZWFsLmh0bWw/607f07ceef4b8524a319a23cBe9620a=
+5e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> tell them</a> =E2=80=9CLet=E2=80=99s slow down just a few day=
+s.=E2=80=9D You don=E2=80=99t want to sign a merger agreement if things are=
+ getting worse! At least you=E2=80=99ll want to rethink the price.</p>
+<p style=3D"margin: 16px 0;">The problem is that Musk had already signed th=
+e merger agreement. There is no =E2=80=9Con hold,=E2=80=9D no =E2=80=9Clet=
+=E2=80=99s slow down,=E2=80=9D once you sign. You have committed to use you=
+r reasonable best efforts to get the deal done, and when you text your bank=
+ers to tell them to maybe use their third-best efforts to get it done, you =
+are breaching the agreement.</p>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/28977032.259543/aHR0cHM6Ly9zZWVraW5nYWxwaGEuY29tL25ld3MvMzg4MDU2=
+Ni10d2l0dGVyLXRpY2tzLWhpZ2hlci1hcy1qdWRnZS1jcml0aWNpemVzLW11c2stbGF3eWVyLW9=
+2ZXItZGlzY292ZXJ5LXByb2Nlc3M/607f07ceef4b8524a319a23cB8289ff03" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">Or<=
+/a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">A lawyer for Twitter also disclose=
+d during the hearing about a discussion between/with Musk and third party b=
+anker Perella Weinberg in mid June about using a contingent value right, or=
+ CVR, as a way to renegotiate the Twitter (TWTR) deal.</p></blockquote>
+<p style=3D"margin: 16px 0;">A <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/28977032.259543/aHR0cHM6Ly93d3cud2xyay5jb20vd2ViZG9jcy93bHJrbm=
+V3L0F0dG9ybmV5UHVicy9XTFJLLjE4NDA1LjExLnBkZg/607f07ceef4b8524a319a23cBe1b07=
+1d6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> CVR</a> is a way to bridge a valuation gap in a merger negoti=
+ation. If a potential buyer thinks that a company is worth $45, and a selle=
+r won=E2=80=99t take less than $54.20, perhaps you can use a CVR to get a d=
+eal done. =E2=80=9CI will pay you $45,=E2=80=9D the buyer says, =E2=80=9Cbu=
+t I will pay you another $9.20 if the business hits certain revenue milesto=
+nes in the year after I buy it.=E2=80=9D And then if the business is as goo=
+d as the sellers think it is they get their $54.20, but if it isn=E2=80=99t=
+ then the buyer only pays $45.</p>
+<p style=3D"margin: 16px 0;">But the Twitter situation is the opposite of t=
+hat. Twitter=E2=80=99s shareholders thought it was worth about $45, tops, a=
+nd then Musk <a href=3D"https://link.mail.bloombergbusiness.com/click/28977=
+032.259543/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjIt=
+MDQtMDQvZWxvbi1tdXNrLWJvdWdodC1zb21lLXR3aXR0ZXI_Y21waWQ9QkJEMDkwNzIyX01PTkV=
+ZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09Mj=
+IwOTA3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB8eed5922" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">  came along out of nowhere</a> and <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/28977032.259543/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtMjAvZWxvbi1jaGVja3MtaGlzLXBvY2tldHM_Y21wa=
+WQ9QkJEMDkwNzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3Ns=
+ZXR0ZXImdXRtX3Rlcm09MjIwOTA3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b85=
+24a319a23cB964992e9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  bid $54.20 for it</a>, and Twitter=E2=80=99=
+s <a href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMDIvdHd=
+pdHRlci1zLWJvYXJkLWdhdmUtdXA_Y21waWQ9QkJEMDkwNzIyX01PTkVZU1RVRkYmdXRtX21lZG=
+l1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwOTA3JnV0bV9jYW1wY=
+Wlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBf0cec530" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">  board was =
+like</a> =E2=80=9Csure if you want to pay us $54.20 we=E2=80=99ll take it.=
+=E2=80=9D And then they signed a deal at a fixed price. And then Musk decid=
+ed a few weeks later that that price was a bit rich, so he considered propo=
+sing=C2=A0a CVR. To bridge the gap between the price he agreed to pay and t=
+he price he=E2=80=99d rather pay. Again, it doesn=E2=80=99t work that way.=
+=C2=A0</p>
+<p style=3D"margin: 16px 0;">Or Savitt at one point in the hearing=C2=A0<a =
+href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aHR0c=
+HM6Ly9tb2JpbGUudHdpdHRlci5jb20vY2hhbmNlcnlfZGFpbHkvc3RhdHVzLzE1NjcyNDMyNjQx=
+NzYxNDQzODY/607f07ceef4b8524a319a23cBa5805abf" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> said</a>: =E2=80=9C=
+You don't do due diligence to get out of a merger agreement, you do it to g=
+et into one.=E2=80=9D Musk signed a merger agreement, and then started to d=
+o due diligence, at which point he got nervous about the bots.=C2=A0Savitt =
+is right: You do the diligence=C2=A0<em>before=C2=A0</em>you sign the merge=
+r agreement. But if you don=E2=80=99t know how merger agreements work, you =
+might get this reversed.</p>
+<p style=3D"margin: 16px 0;">I think this stuff is just obviously true. I t=
+hink it is clear that Elon Musk doesn=E2=80=99t believe in binding merger a=
+greements, and he changed his mind about buying Twitter and now wants his m=
+erger agreement to go away. And everything else =E2=80=94=C2=A0the stuff ab=
+out bots, the stuff about the whistle-blower, allegations of covenant breac=
+hes and material adverse effects and fraud =E2=80=94=C2=A0is just lawyers t=
+rying to justify that.=C2=A0</p>
+<p style=3D"margin: 16px 0;">But that doesn=E2=80=99t mean he=C2=A0<em>lose=
+s</em>. If he changed his mind about Twitter because the market crashed,=C2=
+=A0<em>and also=C2=A0</em>it turns out that Twitter breached its covenants =
+or suffered a material adverse effect or was doing a massive fraud, then he=
+ (probably) gets to get out of the deal. That would be kind of a weird coin=
+cidence, but honestly not=C2=A0<em>that=C2=A0</em>weird. Most of the time w=
+hen a merger is terminated <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/28977032.259543/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydG=
+ljbGVzLzIwMjItMDYtMTMvbWVyZ2VyLWJ1eWVyLXMtcmVtb3JzZS1zb21ldGltZXMtd29ya3M_Y=
+21waWQ9QkJEMDkwNzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5l=
+d3NsZXR0ZXImdXRtX3Rlcm09MjIwOTA3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB62220b7d" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">  or renegotiated</a>,=C2=A0it is for some=
+ combination of (1) the buyer got market-driven cold feet and (2) it found =
+something bad about the target that gave it an excuse. And=C2=A0Twitter is =
+an odd=C2=A0and broken company,=C2=A0<em>which is explicitly <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/28977032.259543/aHR0cHM6Ly93d3cu=
+c2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTEwNDY1OTIyMDQ1NjQxL3R=
+tMjIxMjc0OGQxX3NjMTNkYS5odG0/607f07ceef4b8524a319a23cB6070fe4c" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> wh=
+y Musk wanted to buy it</a></em>, so it wouldn=E2=80=99t be hugely surprisi=
+ng if it was broken in particular ways that breached a standard merger agre=
+ement. Even if Musk is just looking for excuses to get out of the deal, tha=
+t doesn=E2=80=99t mean he can=E2=80=99t <em>find </em>one.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Musk=E2=80=99s main requests at yesterday=E2=
+=80=99s hearing were:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">To amend his counterclaims to put in =
+all of Zatko=E2=80=99s claims about fraud.</li>=09<li style=3D"margin-botto=
+m: 5px;">To get to do more discovery, demanding more documents from Twitter=
+ about Zatko=E2=80=99s claims.</li>=09<li style=3D"margin-bottom: 5px;">To =
+delay the trial, currently scheduled for October, so he could have more tim=
+e to do all of this.</li>
+</ol>
+<p style=3D"margin: 16px 0;">This morning the judge, Chancellor Kathaleen M=
+cCormick, ruled on his requests, and I think <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/28977032.259543/aHR0cHM6Ly9jb3VydHMuZGVsYXdhcmUu=
+Z292L09waW5pb25zL0Rvd25sb2FkLmFzcHg_aWQ9MzM3NDUw/607f07ceef4b8524a319a23cB2=
+45d4ada" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> her opinion</a> is a fairly clear win for Twitter. She <e=
+m>will</em> let Musk amend his claims, which is technically a win for him, =
+but which to some extent limits his freedom of action. If she had said no, =
+he could have appealed. (He would have had a good argument; the standard fo=
+r amending claims is low.)=C2=A0He could have found another court to sue in=
+, some other audience to listen to him. But now he has to argue about Zatko=
+=E2=80=99s complaint in Chancellor McCormick=E2=80=99s court, alongside all=
+ of his other excuses for getting out of the deal. She has the relevant con=
+text.=C2=A0</p>
+<p style=3D"margin: 16px 0;">She will also let Musk do a little bit of disc=
+overy on those claims, but not too much. (=E2=80=9CDefendants are permitted=
+ only incremental discovery relevant to the new allegations. That discovery=
+ can be made through targeted document discovery and minimal additional exp=
+erts and fact witnesses.=E2=80=9D)</p>
+<p style=3D"margin: 16px 0;">And, crucially, she won=E2=80=99t push back th=
+e trial, which is still scheduled to start on Oct. 17. If you looked at thi=
+s case and thought =E2=80=9Cuh oh, Twitter has been running a massive fraud=
+ and Elon Musk just learned about it,=E2=80=9D you would want to push back =
+the trial to let him find out more about the fraud. If you looked at it and=
+ thought =E2=80=9Cwow, Elon Musk keeps coming up with new excuses to get ou=
+t of the merger agreement he signed, and here=E2=80=99s another one,=E2=80=
+=9D you would let him=C2=A0<em>argue=C2=A0</em>about that excuse, but you w=
+ouldn=E2=80=99t give him any more time. You would want to make sure that yo=
+u=E2=80=99ve heard all of his arguments before rejecting them, but you woul=
+dn=E2=80=99t let him drag the case out forever.=C2=A0</p>
+<p style=3D"margin: 16px 0;">It is relevant here, I think, that Chancellor =
+McCormick definitely knows how merger agreements work. She is a Delaware ch=
+ancellor. They do all the public-company M&amp;A litigation. She has <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDctMTIvaS13YXMtdG9=
+sZC10aGVyZS1kLWJlLWEtY2FrZS1tZXJnZXI_Y21waWQ9QkJEMDkwNzIyX01PTkVZU1RVRkYmdX=
+RtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwOTA3JnV0b=
+V9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB8bf54ffa" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">  se=
+en buyers who want to get out of mergers before</a>, and she has seen Musk=
+=E2=80=99s claims so far. =E2=80=9CI am reticent to say more concerning the=
+ merits of the counterclaims at this posture before they have been fully li=
+tigated,=E2=80=9D she wrote in today=E2=80=99s opinion.=C2=A0=E2=80=9CThe w=
+orld will have to wait for the post-trial decision.=E2=80=9D=C2=A0</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yODk3NzAzMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkyMzY1NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD65eac871" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D28977032&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29236575&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yODk3NzAzMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkyMzY1NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cE65eac871" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D28977032&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29236575&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yODk3NzAzMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkyMzY1NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFd5e35973" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D28977032&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29236575&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yODk3NzAzMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkyMzY1NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGd5e35973" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D28977032&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29236575&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Anti-ESG</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If you are the chief executive officer of a bi=
+g integrated oil company, and holders of 60% of shares tell you that you sh=
+ould focus more on renewable energy, should you do it? I actually think tha=
+t this is a non-obvious question. Some considerations:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Possibly pivoting to renewables will c=
+ost you more money now but increase long-term profits. Or perhaps not. You=
+=E2=80=99re an oil-company CEO, though; I guess you=E2=80=99re the expert o=
+n allocating capital to energy projects.=C2=A0</li>=09<li style=3D"margin-b=
+ottom: 5px;">You are a fiduciary for shareholders and you have your own ind=
+ependent fiduciary obligation to do what is right for them. If you think th=
+at focusing on renewables is the best long-term value-enhancing strategy fo=
+r the company and its shareholders, you should do that. If you think that d=
+rilling more oil is the best strategy, then you are in charge, and you shou=
+ld do that. Your job is not to just do whatever they say; your job is to ma=
+nage the company.</li>=09<li style=3D"margin-bottom: 5px;">That said, the s=
+hareholders are not dummies =E2=80=94=C2=A0certainly=C2=A0lots=C2=A0of your=
+ shares are held by institutional investors=C2=A0who are economically motiv=
+ated and smart =E2=80=94=C2=A0and so if they think that renewables are a be=
+tter strategy, you should at least hear them out. It is not=C2=A0<em>certai=
+n=C2=A0</em>that you are a better allocator of capital to energy projects t=
+han they are.</li>=09<li style=3D"margin-bottom: 5px;">Also, to the extent =
+that=C2=A0your job is to do what is right for shareholders, their subjectiv=
+e preferences might factor into it.=C2=A0Like if you think that focusing mo=
+re on renewables will produce less income but=C2=A0<em>make your shareholde=
+rs happy</em>, then, as a fiduciary for your shareholders, shouldn=E2=80=99=
+t you do what makes them happy?</li>=09<li style=3D"margin-bottom: 5px;">Al=
+so, to the extent that your job is to=C2=A0<em>make the stock price go up=
+=C2=A0</em>=E2=80=94=C2=A0the simplest proxy for creating shareholder value=
+ =E2=80=94=C2=A0then, again, their subjective preferences might factor into=
+ it. If you focus on renewables and that makes shareholders happy and they =
+buy more stock and the stock goes up, then that is what matters, not the in=
+come statement.</li>=09<li style=3D"margin-bottom: 5px;">You are a modern C=
+EO and <a href=3D"https://link.mail.bloombergbusiness.com/click/28977032.25=
+9543/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDgtMT=
+kvbWF4aW1pemUtc2hhcmVob2xkZXItdmFsdWUtdG9wLWNlb3MtbWlnaHQtYmUtb3B0aW5nLW91d=
+D9jbXBpZD1CQkQwOTA3MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9=
+bmV3c2xldHRlciZ1dG1fdGVybT0yMjA5MDcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07c=
+eef4b8524a319a23cBbdd7a481" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> you think about all stakeholders</a>, =
+not just shareholder value. So even if your shareholders think you should p=
+ivot to renewables and are correct that that is the right financial choice,=
+ you might say =E2=80=9Cno I don=E2=80=99t want to lay off any oil drillers=
+, so I=E2=80=99m sticking with drilling.=E2=80=9D (Or: You say =E2=80=9Csur=
+e, shareholders, you are worried about financial returns, but I am worried =
+about Europe=E2=80=99s resolve in resisting Russian aggression, so I am goi=
+ng to drill to keep oil prices low.=E2=80=9D Lots of stakeholders!)</li>=09=
+<li style=3D"margin-bottom: 5px;">There is the fact that the shareholders o=
+wn 60% of the stock and so they get to vote on stuff, so even if you don=E2=
+=80=99t want to do what they want, you have to consider that your job is on=
+ the line. Oh, maybe not, maybe not; it is very hard for even 60% of shareh=
+olders to make=C2=A0<em>binding=C2=A0</em>changes at a big public company. =
+But there is precedent: Exxon Mobil Corp. <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/28977032.259543/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMjcvZXh4b24tbG9zdC1hLWNsaW1hdGUtcHJveHktZm=
+lnaHQ_Y21waWQ9QkJEMDkwNzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291c=
+mNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwOTA3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607=
+f07ceef4b8524a319a23cBfbd28eac" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">  lost a proxy fight</a> with a tee=
+ny tiny activist shareholder over issues like this. Big shareholders wanted=
+ more renewables, Exxon wasn=E2=80=99t giving them what they wanted, so the=
+ activist =E2=80=94=C2=A0a hedge fund called Engine No. 1 =E2=80=94=C2=A0ra=
+n a proxy fight and got several Exxon directors replaced. If you ignore you=
+r shareholders=E2=80=99 demands, they might get together and replace you to=
+o.</li>
+</ul>
+<p style=3D"margin: 16px 0;">All in all I think the basic answer is =E2=80=
+=9Clisten respectfully to your shareholders, consider their arguments serio=
+usly, be open to changing your mind, say soothing things to them, but ultim=
+ately do what you think is best for the long-term value of the company even=
+ if it=E2=80=99s not what shareholders say they want, and if you get fired=
+=C2=A0then that=E2=80=99s life.=E2=80=9D But I could see arguments for othe=
+r approaches.</p>
+<p style=3D"margin: 16px 0;">Here is an approach that I honestly had not th=
+ought of:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Your shareholders are not your shareho=
+lders. Most of your shares are held by big institutions like BlackRock Inc.=
+, which manage money on behalf of thousands of individual customers. The st=
+ated desires and subjective preferences of the managers at BlackRock Inc. a=
+re irrelevant and you should ignore them. You cannot know the preferences o=
+f BlackRock=E2=80=99s=C2=A0<em>customers</em>, because you do not deal with=
+ them directly. So you should do whatever you think is best and kick BlackR=
+ock out of your office.</li>
+</ul>
+<p style=3D"margin: 16px 0;">I think this approach is flawed, for at least =
+two reasons:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You know a little bit about the prefe=
+rences of BlackRock=E2=80=99s customers, don=E2=80=99t you? You know that t=
+hey let BlackRock manage their money. That at least suggests that they <em>=
+might=C2=A0</em>agree with the preferences that BlackRock=E2=80=99s manager=
+s express. It=E2=80=99s a weak signal, sure. But it makes it hard to=C2=A0<=
+em>ignore=C2=A0</em>BlackRock.</li>=09<li style=3D"margin-bottom: 5px;">Bla=
+ckRock does get to vote the stock, and if they vote you out of office you d=
+on=E2=80=99t get to say =E2=80=9Cyou=E2=80=99re a fake shareholder anyway!=
+=E2=80=9D You have to leave.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Here=E2=80=99s a fun <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/28977032.259543/aHR0cHM6Ly93d3cud3NqLmNvbS9=
+hcnRpY2xlcy9hbnRpLWVzZy1hY3RpdmlzdC1pbnZlc3Rvci11cmdlcy1jaGV2cm9uLXRvLWluY3=
+JlYXNlLW9pbC1wcm9kdWN0aW9uLTExNjYyNDk0NzY5P21vZD1ocF9sZWFkX3BvczM/607f07cee=
+f4b8524a319a23cB8f0cbb02" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> Wall Street Journal story</a> about anti=
+-ESG activist=C2=A0Vivek Ramaswamy of Strive Asset Management:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A conservative activist turned investor who ha=
+s criticized Wall Street=E2=80=99s efforts to address climate change and ot=
+her issues is publicly urging Chevron Corp. to pump more fossil fuels over =
+the next decade.</p>
+<p style=3D"margin: 16px 0;">Vivek Ramaswamy, who launched an energy-focuse=
+d exchange-traded fund nearly a month ago, is among the most prominent crit=
+ics of so-called environmental, social and governance=E2=80=94or ESG=E2=80=
+=94investing. He quickly turned his sights on Chevron, arguing the country=
+=E2=80=99s second-biggest fossil-fuel company should slow spending on its e=
+nergy-transition plan, which he said was partially motivated by pressure fr=
+om top shareholders such as BlackRock Inc.=C2=A0</p>
+<p style=3D"margin: 16px 0;">In the letter Tuesday to Chevron CEO Mike Wirt=
+h and the company=E2=80=99s board, Mr. Ramaswamy said he wanted to =E2=80=
+=9Cliberate you from constraints imposed on Chevron by its ESG-promoting =
+=E2=80=98shareholders.=E2=80=99=E2=80=9D=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Notice his quotation marks around =E2=80=9Csha=
+reholders.=E2=80=9D Here=E2=80=99s <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/28977032.259543/aHR0cHM6Ly9zdHJpdmUuY29tL3N0cml2ZS1hc3NldC=
+1tYW5hZ2VtZW50LWxldHRlci10by1jaGV2cm9uLw/607f07ceef4b8524a319a23cB1778025d"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> the letter</a>, which explains:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">We understand that you are in a challenging po=
+sition when Chevron=E2=80=99s top =E2=80=9Cshareholders=E2=80=9D mandate yo=
+ur board to adopt a course of action that you believe is not in the best in=
+terests of Chevron=E2=80=99s shareholders. But here is the reality: your pu=
+rported =E2=80=9Cshareholders=E2=80=9D are not the actual owners of your co=
+mpany.</p>
+<p style=3D"margin: 16px 0;">Today the three largest passive asset managers=
+ in the world =E2=80=93 BlackRock, State Street, and Vanguard =E2=80=93 man=
+age over $20 trillion, approximately equal to the total U.S. gross domestic=
+ product. In 2021 these firms appeared in public filings as Chevron=E2=80=
+=99s top 3 shareholders. By contrast, the <em>actual</em> owners of Chevron=
+ are not BlackRock, State Street, Vanguard =E2=80=93 or, for that matter, S=
+trive. Chevron=E2=80=99s actual owners are the <em>clients</em> of these in=
+stitutions: everyday citizens whose capital is invested in passively manage=
+d index funds.</p>
+<p style=3D"margin: 16px 0;">You owe a fiduciary duty to the actual owners =
+of Chevron, not to the institutions who claim to represent these owners. Th=
+ere is strong reason to believe that these large asset managers are not vot=
+ing with their clients=E2=80=99 best interests in mind.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The context here is that 60% of Chevron=E2=80=
+=99s shares <a href=3D"https://link.mail.bloombergbusiness.com/click/289770=
+32.259543/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvO=
+TM0MTAvMDAwMDA5MzQxMDIxMDAwMDIwL2N2eC0yMDIxMDUyNi5odG0/607f07ceef4b8524a319=
+a23cB9fcf3a4e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> voted in favor</a> of reducing Chevron=E2=80=99s Sc=
+ope 3 emissions in 2021, and Ramaswamy wants Chevron to ignore them. (As, l=
+egally, it totally can!) =E2=80=9COur goal in writing this letter is to lib=
+erate you from constraints imposed on Chevron by its ESG- promoting =E2=80=
+=98shareholders,=E2=80=99=E2=80=9D says the letter, but it is a bit thin on=
+=C2=A0<em>how=C2=A0</em>Strive will do its liberating. =E2=80=9CMr. Ramaswa=
+my, whose fund holds a roughly 0.02% stake in Chevron, would likely need su=
+pport from large shareholders who have generally embraced Chevron=E2=80=99s=
+ current strategy to get the company to change course,=E2=80=9D notes the J=
+ournal.</p>
+<p style=3D"margin: 16px 0;">Chapter 1 of Jean Tirole=E2=80=99s =E2=80=9C<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aHR0=
+cHM6Ly93d3cuYW1hem9uLmNvbS9UaGVvcnktQ29ycG9yYXRlLUZpbmFuY2UtSmVhbi1UaXJvbGU=
+vZHAvMDY5MTEyNTU2Mi9yZWY9c3JfMV8xP2tleXdvcmRzPXRpcm9sZStjb3Jwb3JhdGUrZmluYW=
+5jZSZxaWQ9MTY2MjU3MDA5OCZzcj04LTE/607f07ceef4b8524a319a23cBb49f97a5" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> Theory of Corporate Finance</a>=E2=80=9D says that =E2=80=9Cthe premise =
+behind modern corporate finance in general and this book in particular is t=
+hat corporate insiders need not act in the best interests of the providers =
+of the funds=E2=80=9D: That is, the central issue in corporate finance is a=
+gency costs and conflicts of interest. Generally people think of this in te=
+rms of the conflict between the managers of a company and its shareholders.=
+ Sometimes they think of it in terms of the conflict between the managers o=
+f an investment fund and its clients. But modern corporate finance is about=
+ all three: the managers of the company, the professional managers of the i=
+nvestment funds that own its shares, and the clients of those investment fu=
+nds. Typically the investment managers tell the corporate managers that=C2=
+=A0<em>they=C2=A0</em>represent the ultimate clients, but I guess there is =
+nothing inevitable about that. Could the CEO of Chevron tell BlackRock =E2=
+=80=9Cno, you don=E2=80=99t own 6.99% of our stock, your clients do, and yo=
+u don=E2=80=99t represent their interests, I do=E2=80=9D? Sure, I guess, wh=
+y not.</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yODk3NzAzMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkyMzY1NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH9d072c90" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D28977032&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29236575&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">DWAC</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">A brief update on Digital World Acquisition Co=
+rp., the special purpose acquisition company that has signed a deal to take=
+ Donald Trump=E2=80=99s social media company public. We <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/28977032.259543/aHR0cHM6Ly93d3cuYmxvb=
+21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDktMDYvdHJ1bXAtc3BhYy1kb2Vzbi10=
+LWhhdmUtdGhlLXZvdGVzP2NtcGlkPUJCRDA5MDcyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1=
+haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDkwNyZ1dG1fY2FtcGFpZ249bW=
+9uZXlzdHVmZg/607f07ceef4b8524a319a23cBfcfbf7e2" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">  talked yesterday<=
+/a> about how it has to close the deal by tomorrow or else close up shop an=
+d return $10.20 per share to shareholders, unless it gets an extension. It =
+has asked its shareholders to vote on a one-year extension, but it needs 65=
+% of them to vote yes, and I guess they are hard to reach; so far it doesn=
+=E2=80=99t seem to have enough votes, and it has delayed the vote to the la=
+st minute to round up some more.=C2=A0DWAC=E2=80=99s managers can also unil=
+aterally give themselves=C2=A0up to two three-month extensions, but (1) it=
+=E2=80=99s not clear that=E2=80=99s enough time and (2) they have to pay $2=
+.875 million for each extension, from their own money, and it=E2=80=99s not=
+ clear that=E2=80=99s a good gamble. I mean, if the odds are 50 to 1 agains=
+t the deal closing, it=E2=80=99s a good gamble; they will get paid very wel=
+l if the deal closes. But if the odds are 100 to 1 against, probably not. W=
+hen we discussed this yesterday they had not said yet if they=E2=80=99d put=
+ up the money, which perhaps suggests something about the odds.</p>
+<p style=3D"margin: 16px 0;">Slightly belatedly, though, DWAC <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/28977032.259543/aHR0cHM6Ly93d3c=
+uc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE4NDk2MzUvMDAwMTE5MzEyNTIyMjM4ODY1L2=
+QzOTI1NDZkZGVmYTE0YS5odG0/607f07ceef4b8524a319a23cBa703c47b" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> annou=
+nced yesterday</a> that they=E2=80=99ll pay up if they have to:</p>
+<blockquote><p style=3D"margin: 16px 0;">If the Extension Amendment is not =
+approved by the stockholders by September 8, 2022, ARC Global Investments I=
+I, LLC, the Company=E2=80=99s sponsor (the =E2=80=9CSponsor=E2=80=9D), inte=
+nds to contribute to the Company=E2=80=99s trust account an aggregate amoun=
+t of $2,875,000, which is equal to $0.10 per share of Class A common stock =
+issued in the Company=E2=80=99s initial public offering, to extend the time=
+ to consummate an initial business combination for a three-month period, un=
+til December 8, 2022.</p></blockquote>
+<p style=3D"margin: 16px 0;">So there you go.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">EU plans =E2=82=AC200/MWh <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/28977032.259543/aHR0cHM6Ly93d3cuZnQuY2=
+9tL2NvbnRlbnQvYWI0NjllMmQtOGU4Ny00NGVlLTg1NWItZjQ2YjViMmRkMTdl/607f07ceef4b=
+8524a319a23cB217df1ab" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> price cap</a> on non-gas generated electric=
+ity. Junk-Loan <a href=3D"https://link.mail.bloombergbusiness.com/click/289=
+77032.259543/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9qdW5rLWxvYW4tZGVmYXVsdH=
+Mtd29ycnktd2FsbC1zdHJlZXQtaW52ZXN0b3JzLTExNjYyNDI5NjMyP21vZD1ocF9sZWFkX3Bvc=
+zEz/607f07ceef4b8524a319a23cBcc239f0e" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> Defaults</a> Worry Wall Str=
+eet Investors. Wall Street Banks Lead <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/28977032.259543/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXd=
+zL2FydGljbGVzLzIwMjItMDktMDYvd2FsbC1zdHJlZXQtYmFua3MtbGVhZC1yZW5ld2VkLXJldH=
+Vybi10by1vZmZpY2UtcHVzaC1hZnRlci1sYWJvci1kYXk_Y21waWQ9QkJEMDkwNzIyX01PTkVZU=
+1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIw=
+OTA3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBe977357a" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">  Return-to-Office</a> With Labor Day Push. Blackstone-backed <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aHR0cHM6L=
+y93d3cuZnQuY29tL2NvbnRlbnQvNjZiYTBhYTMtNDc4Ny00MmM1LWEwMjQtZTU0YmQwMDU4YmIw=
+/607f07ceef4b8524a319a23cB92ec9dab" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> song rights machine</a> suffer=
+s growing pains. Theranos Founder Elizabeth Holmes <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/28977032.259543/aHR0cHM6Ly93d3cud3NqLmNvbS=
+9hcnRpY2xlcy90aGVyYW5vcy1mb3VuZGVyLWVsaXphYmV0aC1ob2xtZXMtc2Vla3MtbmV3LXRya=
+WFsLWNpdGluZy1mcmVzaC1ldmlkZW5jZS0xMTY2MjQ5NjM3Nj9tb2Q9aHBfbGVhZF9wb3MxMg/6=
+07f07ceef4b8524a319a23cBe6716f2f" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> Seeks New Trial</a>, Citing Fres=
+h Evidence. <a href=3D"https://link.mail.bloombergbusiness.com/click/289770=
+32.259543/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDktM=
+DcvbGlieWFuLWZ1bmQtd2lucy0xLTItYmlsbGlvbi1jb3VydC1maWdodC1vdmVyLXNlaXplZC1h=
+c3NldHM_Y21waWQ9QkJEMDkwNzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc29=
+1cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwOTA3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/6=
+07f07ceef4b8524a319a23cBb9aad501" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  Libyan Fund</a> Wins $1.2 Billi=
+on Court Fight Over Seized Assets.=C2=A0Bankrupt Crypto Lender <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/28977032.259543/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDktMDcvYmFua3J1cHQtY3J5cHRvL=
+WxlbmRlci12b3lhZ2VyLWRpZ2l0YWwtaGVhZHMtdG8tYXVjdGlvbi1ibG9jaz9jbXBpZD1CQkQw=
+OTA3MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ=
+1dG1fdGVybT0yMjA5MDcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a2=
+3cB9c95d2cf" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">  Voyager Digital</a> Heads to Auction Block. Investor=
+ Who Made 1,700% on <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/28977032.259543/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwM=
+jItMDktMDcvaW52ZXN0b3Itd2hvLW1hZGUtMS03MDAtb24tbXQtZ294LWNyYXNoLWNpcmNsZXMt=
+Y3J5cHRvLWFnYWluP2NtcGlkPUJCRDA5MDcyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDkwNyZ1dG1fY2FtcGFpZ249bW9uZX=
+lzdHVmZg/607f07ceef4b8524a319a23cBadf863a4" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">  Mt. Gox Crash</a> Cir=
+cles Crypto Again. An Anatomy of <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/28977032.259543/aHR0cHM6Ly9wYXBlcnMuc3Nybi5jb20vc29sMy9wYXBl=
+cnMuY2ZtP2Fic3RyYWN0X2lkPTQxODg2NjE/607f07ceef4b8524a319a23cB2d3cbd30" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> Crypto-Enabled Cybercrimes</a>. Andreessen Horowitz wants to fix <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aHR0cHM=
+6Ly93d3cudGhldmVyZ2UuY29tLzIwMjIvOS82LzIzMzMxNTkxL2FuZHJlZXNzZW4taG9yb3dpdH=
+otYTE2ei1uZnQtY2FudC1iZS1ldmlsLWNvcHlyaWdodC1jcmVhdGl2ZS1jb21tb25zLWxpY2Vuc=
+2Vz/607f07ceef4b8524a319a23cB4e4674bc" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> NFT copyright</a> with its =
+=E2=80=98Can=E2=80=99t Be Evil=E2=80=99 license. Being <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/28977032.259543/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDktMDcvYmVpbmctc2FkLWdpdmVzLXR3aXN0Z=
+WQtYm9vc3QtdG8tZXNnLWludmVzdGluZy1ncmVlbi1pbnNpZ2h0P2NtcGlkPUJCRDA5MDcyMl9N=
+T05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJ=
+tPTIyMDkwNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB6e28e4=
+c8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Sad</a> May Be Great for ESG. Kim Kardashian Starts <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDktMDcva2ltLWthcmRhc2hp=
+YW4tc3RhcnRzLXByaXZhdGUtZXF1aXR5LWZpcm0td2l0aC1jYXJseWxlLXBhcnRuZXI_Y21waWQ=
+9QkJEMDkwNzIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZX=
+R0ZXImdXRtX3Rlcm09MjIwOTA3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524=
+a319a23cB46d0c0c8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">  Private Equity Firm</a> With Carlyle Partner.<=
+/p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/28977032.259543/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB5b13fe47" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/28977032.259543/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB56c4b6d7" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Public companies don=E2=80=99t ordinarily =
+sign an MOU as a preliminary to a definitive merger agreement in part becau=
+se that would require *disclosure*, and companies do not like to disclose t=
+hat they are being acquired unless they are really being acquired. If you d=
+isclose =E2=80=9Cwe are like 75% likely to be bought for $54.20,=E2=80=9D a=
+nd then you are *not* bought for $54.20, that is generally interpreted as b=
+eing a disaster for the stock price, investor relations, employee morale, e=
+tc. See if you can figure out why!</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Incidentally, a US public-company deal tha=
+t looked a littttttttle like the memorandum-of-understanding approach is <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aHR0=
+cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MDgzNTYvMDAwMTE5MzEyNTE=
+2NzM2Mzc5L2QyMzE0OTNkZGVmbTE0YS5odG0jdG9jMjQxMTkyXzEz/607f07ceef4b8524a319a=
+23cBa58c9b56" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> Tesla Inc.=E2=80=99s acquisition of SolarCity Corp.<=
+/a>, which we <a href=3D"https://link.mail.bloombergbusiness.com/click/2897=
+7032.259543/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjI=
+tMDQtMjgvZWxvbi1tdXNrLXMtb3RoZXItbWVyZ2VyLXdvcmtlZC1vdXQ_Y21waWQ9QkJEMDkwNz=
+IyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX=
+3Rlcm09MjIwOTA3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBd5=
+8295ff" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">  discussed in April</a>. I mean, not exactly, but Tesla di=
+d make a preliminary proposal of $28.50 per share in stock, everyone sort o=
+f agreed to negotiate, they negotiated, diligence continued, and ultimately=
+ they agreed to a deal at a lower price because of what they found in due d=
+iligence. And because Elon Musk controlled both companies, their fairly cas=
+ual decision to negotiate with each other felt *real* without being *bindin=
+g*: Musk was on both sides, so when he decided that Tesla should buy SolarC=
+ity for $28.50-ish that meant that Tesla would probably buy SolarCity for $=
+28.50-ish, but not certainly, and perhaps not for exactly that amount. Argu=
+ably that is the model that Musk has in mind for how public-company mergers=
+ work: one where he controls both sides and can drop it at any time.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] In modern US public-company M&amp;A practi=
+ce this is often not considered a valid excuse to get out of the deal =E2=
+=80=94 there is often =E2=80=9Cno financing out=E2=80=9D =E2=80=94 but, sti=
+ll, I am listing it as a thing that can go wrong, because if the buyer real=
+ly doesn=E2=80=99t have the money at closing, that really is a problem.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] I guess I will here? When Musk wanted to g=
+et out of the deal, the excuse he seized on was that he thinks that more th=
+an 5% of Twitter=E2=80=99s users are bots. This is a terrible excuse! For o=
+ne thing, there=E2=80=99s never been any evidence at all that it=E2=80=99s =
+true. <a href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259=
+543/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDctMTg=
+vZWxvbi13YW50cy10by1maWdodC10aGUtYm90cz9jbXBpZD1CQkQwOTA3MjJfTU9ORVlTVFVGRi=
+Z1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjA5MDcmd=
+XRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB34b23b32" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  For another thing</a>, Twitter never made any representation to him that =
+fewer than 5% of its users are bots. <a href=3D"https://link.mail.bloomberg=
+business.com/click/28977032.259543/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjItMDUtMTcvZWxvbi1tdXNrLWRvZXMtbm90LWNhcmUtYWJvdXQtc3B=
+hbS1ib3RzP2NtcGlkPUJCRDA5MDcyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3=
+NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDkwNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZ=
+g/607f07ceef4b8524a319a23cB9ad02d1f" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">  For a third thing</a>, when =
+he was trying to buy Twitter, and when he signed the deal, Musk was going a=
+round crowing that Twitter had too many bots and that he was going to clean=
+ them up, so the argument that he was somehow tricked into believing there =
+weren=E2=80=99t too many bots is insane. Musk=E2=80=99s lawyers realized th=
+at this was a terrible excuse, and <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/28977032.259543/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW=
+9uL2FydGljbGVzLzIwMjItMDYtMDYvZWxvbi1oYXMtYS1uZXctYm90LWV4Y3VzZT9jbXBpZD1CQ=
+kQwOTA3MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRl=
+ciZ1dG1fdGVybT0yMjA5MDcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a31=
+9a23cC2da774cf" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">  tried to cook up a better one for him</a>. And, s=
+ince the richest person in the world is very publicly looking for some evid=
+ence that Twitter is a fraud, a disgruntled ex-employee publicized a whistl=
+e-blower complaint claiming that Twitter is <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/28977032.259543/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9vcGluaW9uL2FydGljbGVzLzIwMjItMDgtMjMvYW1jLWdvZXMtYXBlP2NtcGlkPUJCRDA5MDcy=
+Ml9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9=
+0ZXJtPTIyMDkwNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBf7=
+c702fd" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">  doing lots of miscellaneous fraud</a>, which Musk is now =
+claiming to believe. </p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB55b1588a" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBb3fbda69" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB13b512b4" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB24a7298a" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yODk3NzAzMiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjkyMzY1NzUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI2c51b73f" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D28977032&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29236575&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBca752510" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/28977032.259543/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCd01567a6" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/28977032.259543/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB28f0046a" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/28977032.259543/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB07c87040" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB4=
+e46a6bb" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/28977032.259543/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB1=
+da154d5" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D289770=
+32&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29236575&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D289770=
+32&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29236575&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D289770=
+32&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29236575&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D289770=
+32&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29236575&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D289770=
+32&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D29236575&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ch92tk.5k9j/46e1f14e.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_8661887_577709087.1662574591663--
+

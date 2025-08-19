@@ -1,0 +1,1824 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a0c:f810:0:b0:6a3:58d6:a1ad with SMTP id r16csp388982qvn;
+        Wed, 22 May 2024 09:55:11 -0700 (PDT)
+X-Forwarded-Encrypted: i=5; AJvYcCWSRPqVfG5tY/+HGOXUKjDs/Y8aB8AM1+VebxboA1QEguLi7Gl+1VJUUPmDSUw7yi/+6cbfJFzKlAv4krJXU/Cg
+X-Received: by 2002:a5d:5609:0:b0:354:e762:8a44 with SMTP id ffacd0b85a97d-354e7628bd6mr1827535f8f.32.1716396911370;
+        Wed, 22 May 2024 09:55:11 -0700 (PDT)
+ARC-Seal: i=4; a=rsa-sha256; t=1716396911; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Kwru0E9buvu2F2tiU7ARwkSdfXJQAU12dDYfWX0rfIC/h8l3X8bbLoZLipEQvfC0PJ
+         Tj9kQBjojP1EvDTb+eI6Cq1H11Lwc4be5Ryk5iFl36ZySn/E31n6W2uchEBSNQdYOPri
+         RZ1dlEz+JTrf1hbgJhTD2AowadihWAA1EcsanI1Lb+JU2vrwG7WnegiqbGRGKoo4v/5T
+         JKeDFALg5T0EzV09FzTnkxCcbNhsw8RxF/4cGqip2cFaMLnoCaN3gq4KOtnUWGm/Swpj
+         9BWLVxfj1lrJU0b763MVn2xVadscXGCLAZ6fd1ToSsGmstEAjH+vynasFVg3cZkbtd3K
+         9fqQ==
+ARC-Message-Signature: i=4; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:dkim-signature:delivered-to;
+        bh=OOr+6wqD6SB4h0ropMoVnd9pxMyt97c1m6jh170X+do=;
+        fh=OD5bz+yZttDNbGLTIyfKk+RwMirZ2H8T33C0W8/S6aE=;
+        b=Hjtw85WEdr8CIjd1n7CeuizGrDse4B3st1aBV9N+Vnl6dYAO2enbBh0cJiZLSp068l
+         iOhaDQBEwKznUw4buO1mhg+XPuMz7L/IXKeB0fkTDdPFNukTMf08Ydjjt8HmhvxiXKMR
+         7yUIArXiRu8XSjXc3AvGlhZZKim7nOzAICZGREkj6Vihn3smtUPfAFMTR7CgCjZfPOi+
+         5/0baXJi1aVSp4QcRPrenUcU5Bmj9xtgQ6PRveGB3ZCIIN+iEyVu/UkL1iubqgzciNWt
+         0eX2Ydi3y1kSxcnc/b79FWDwmLwk7VW4qXcDj1T2VtXxNoG0he/vUxkYxruFiq/njLIa
+         vYsg==;
+        dara=google.com
+ARC-Authentication-Results: i=4; mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=bivc2im4;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=JNG5Xaqy;
+       arc=pass (i=3 spf=pass spfdomain=khamel.com dkim=pass dkdomain=khamel.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id ffacd0b85a97d-354c0d7f5bbsor1878809f8f.5.2024.05.22.09.55.11
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 22 May 2024 09:55:11 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=bivc2im4;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=JNG5Xaqy;
+       arc=pass (i=3 spf=pass spfdomain=khamel.com dkim=pass dkdomain=khamel.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+ARC-Seal: i=3; a=rsa-sha256; t=1716396911; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=kwTZap2Hlrqo+Xxh7mZ4QiZ2CQqWbn2gKAgaL96rjqUIjHd/AQgnFDU2XZMjJcn096
+         AJFMsYNYqcvF+A3xKIHUQROQFgyDtZ86AMQo+YwA/JtJbN0joJp9iB89CQRsGSmSE1Eg
+         ySRh7KyBaN0J3TzgFaq8Xu2NfxUsAiwNbd87kcvFr3jATLc9YLFZ1nRWMDjaWpRX1Vpt
+         FirswIQwAYt9uB0zxkRgk20pH8SBcSCGy91QmXtaIB88qEKe1/b2j/afGZ4yVyIgotS8
+         n0JckMFt7FFCdwZUdIJdwmE5QfyI19LzXSzuTxj5A1tyYFoBORvmlBxFYqP6QYUdwMn5
+         RXiQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:dkim-signature:delivered-to;
+        bh=OOr+6wqD6SB4h0ropMoVnd9pxMyt97c1m6jh170X+do=;
+        fh=OD5bz+yZttDNbGLTIyfKk+RwMirZ2H8T33C0W8/S6aE=;
+        b=p4/RjJyY/g3URPBiygWrPUkZJfqEYqQWLUBe5Yt8Se5c24mpMfBF0pwfroiDbSk4tg
+         LNf2daHJM3t+eDeGg5FLyVV/avBKvELVDA/s4W/xNXwqIwtbbPFXTqg8ciioA58uozZX
+         1e2P/1w9mw/NF4jWAOEBnI+jEy88piIwxY2tPlUagFdYO43xwxCv32TZdZ+gSSZ8b5qB
+         LZXHRDwHOJw5gTv4A9R6GA1q0JZvohuFNKk+3iSzWsubLw/0Tbp4abYKjOlYWxroVd4q
+         Xx+N3caP+Fmw4tr8f/gWe0dd/xEBk8EPyIc/yWeei4d8QLNPzTe3O01LaaIHD3E8DUAW
+         GZuA==;
+        dara=google.com
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=bivc2im4;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=JNG5Xaqy;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com designates 209.61.151.227 as permitted sender) smtp.mailfrom="bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1716396911; x=1717001711;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:dkim-signature:delivered-to:x-forwarded-for
+         :x-forwarded-to:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=OOr+6wqD6SB4h0ropMoVnd9pxMyt97c1m6jh170X+do=;
+        b=M6C+v4ZLQMIpuFRQhJhI3gQnsDUdiPCh5GcILWlniwJud24zpTUiUeZP9VzlvvEVx8
+         CCfVMleBLuCgYQ8esvoqFwj/fKxQt4iGH7DK3biuNX9I5ZOfBTQVkDG1maA/2a1GehPU
+         zahCb6JqvrejPMXzd2GMjPoBbyHNV9gvctH5mVPUhnXwK/rE4h81O4wYWp/5kpUZyHKO
+         kkLJ1puiCTN3v91wAnGgvx3tV/h6xxNyimbLPYepzovcGqNkSK6vjmuUkKWb5MBhSKIk
+         Cn5xduwGIIJ7LFybWP9c8OutKUOgWb6YvBU+7PpuuEVG+a3Y13f/s7whWl5uu1FuTf7E
+         evXA==
+X-Forwarded-Encrypted: i=3; AJvYcCUZ3QvqJ39JMBt/gY/vZUc4qtpCNa6N66zqiswWH/1sg9GNOazNkiIF7Hrb+JtJs+MLWLPitt7jg/IQgfXSjEuP
+X-Gm-Message-State: AOJu0YxNN0F6gyF8DA1jfq3yzLS3gsjTrbrJLv6EgXn0WcZdbmYRE8qE
+	/W6prMLuJnXV7clGjCCJNna6J4r2R5Qd74ei4D9sILTEkz/JJezc0XKjhddH1/OT5sOOX/aZtie
+	sqGMWthxJnSkykBTrIrJVQE3CFaEQOTMl8Z6V+sCjs2lW4gZUyCpPlQxV/cyB
+X-Received: by 2002:a5d:6a8c:0:b0:34e:5284:4753 with SMTP id ffacd0b85a97d-354d800344fmr2524758f8f.1.1716396910772;
+        Wed, 22 May 2024 09:55:10 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:6a8f:0:b0:354:c4e3:9ffa with SMTP id s15csp42664wru;
+        Wed, 22 May 2024 09:55:06 -0700 (PDT)
+X-Forwarded-Encrypted: i=3; AJvYcCVWgzNLj+GXnP3k7jHNtzrM00vB+QszfMRxU4t6x7Ns3UMSZmBrhPsrIWU3QA+ksoJg6hhZ25xGyid7kaR5OlRYYGo=
+X-Google-Smtp-Source: AGHT+IEGExLEoYhO3AZLcm8bS+ahVgOQGAYQ2dfN9xsthsTAjASeuJUQbpkfMWOZ1eSBQvSiUoar
+X-Received: by 2002:a05:6870:f14e:b0:23e:69ae:462b with SMTP id 586e51a60fabf-24c68b685d0mr3766447fac.35.1716396905395;
+        Wed, 22 May 2024 09:55:05 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1716396905; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=SnvqEEU3GU5vV6bDp3FkiPTdrxpXHvXgdldxd9qVnwwNfhdMaQrQXejE4FWz+Ada0C
+         VMbmLGd3rcIZsLWw7powxCzSXg4MgQQ8lTKQyUVlBHpqxNY+mCD8y3Fq4FlyyPo3hhb6
+         kPHV+JVJWvG7gS77v4aS1cGOMmLrheK8FyOpOGPN1tRV1p5jGqezlOx0t7yoGKM427aG
+         kYYee1r80wC6pDbK6rjOuL14S682CP6qa2nuwKC30JpRJA2sTQy281jd7byAZ3L+MzyD
+         cdJVWw2sIjAGhe5Tv223UYbc1SCJ1leRO9j8L78a5abhmdCdOSG4t/n0bVhK5BwfBdhE
+         ZgpA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:dkim-signature;
+        bh=OOr+6wqD6SB4h0ropMoVnd9pxMyt97c1m6jh170X+do=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=z4G4ACo7bx4tEwwu/6I5hxi8Fsg2xBPoUDL9pTo2ahak9zmrm35BkyhQhXlqZoW1TZ
+         wyoMxufqtDlgWv86LaYrQ8uYGmDgUxNAEJnSCFQDAhzcgO7uQ/JxI7ptPJD40ZHCSxJQ
+         R6jGQ4Zja+a5YNzNNgVbkZtgo650w+fwfSqnsgWXkmn3d1YUwKOwJSAP9YQ2uIA6+Rjq
+         opqaKsSjAkA5NYQEu5iyWHSsiGkotVtEadUhVsicuXNK9AjlvhcgBB13LPMxSGqkqekX
+         7eqg0q51jRkXP8HQXxzXeCZ+FspkpUSfYmsFdJfUEOuXJRu9+YM+iCNygq4l9vms8a8o
+         eTFg==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@khamel.com header.s=pic header.b=bivc2im4;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=JNG5Xaqy;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com designates 209.61.151.227 as permitted sender) smtp.mailfrom="bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com>
+Received: from rs227.mailgun.us (rs227.mailgun.us. [209.61.151.227])
+        by mx.google.com with UTF8SMTPS id 586e51a60fabf-2412acd6ec6si10942091fac.234.2024.05.22.09.55.04
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Wed, 22 May 2024 09:55:05 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+97f4d2.df8def-khamel83=gmail.com@khamel.com designates 209.61.151.227 as permitted sender) client-ip=209.61.151.227;
+ARC-Seal: i=1; cv=none; a=rsa-sha256; d=mailgun.org; s=mg; t=1716396904;
+ b=HOZ/4L8DFpu7xmGCxrY/BjjekS6JuXODSEYhxHa4GFF7Aix5iLKu+5stPQfqbkuoPfrIJsBpxZdL6OVH6OQaVObsHksP9tUiMjRH9ftghvlyWc/ea0ZCxSyFTU5Nwv/kyqZ154OKiUBj7i6TGEVrNWEBo0kBoNqNqg5yimaBhC4=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=mailgun.org; s=mg; t=1716396904;
+ h=List-Unsubscribe: X-Feedback-ID: Content-Type: MIME-Version: Subject: Subject: Message-ID: To: To: From: From: Date: X-Feedback-Id: Sender: DKIM-Signature: DKIM-Signature;
+ bh=OOr+6wqD6SB4h0ropMoVnd9pxMyt97c1m6jh170X+do=;
+ b=gwEIRNEIyF7Aq0dVFL8octC0pSe9HuW466yedc6YDbjcTnlfw27a5CZaju4U2X/reBAX4GT47nGTPtreqSxO6Q92PoHRurYWD7pF+2be/aYZIiBWkvLrd6BhAtu5htu/AuA1U+5Lg05XgtyXoC5v4VmmvDuszRsPwE4uajVUIqE=
+ARC-Authentication-Results: i=1; mailgun.org;
+ dkim=pass header.d=mail.bloombergview.com header.s=sailthru header.b=JNG5Xaqy;
+ spf=pass (domain mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom="delivery_20240522125503.35465286.256336@mx.sailthru.com";
+ dmarc=pass (dkim=pass domain=mail.bloombergview.com) header.from=mail.bloombergview.com;
+ arc=none
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=khamel.com; q=dns/txt; s=pic; t=1716396904; x=1716404104;
+ h=List-Unsubscribe: X-Feedback-ID: Content-Type: MIME-Version: Subject: Subject: Message-ID: To: To: From: From: Date: X-Feedback-Id: Sender;
+ bh=OOr+6wqD6SB4h0ropMoVnd9pxMyt97c1m6jh170X+do=;
+ b=bivc2im4gfI9I6Y2qxAHRY7wTevu96TYMkA2QmLBwGATbkOVH5cv77G0E9z+WcGFP9UNPpUH8wqDti7NYBK7RSlKymdtkluzlr3iMt6saZ4RrnLbo3xg5AAeiZU+trwoQL9/GgKSPBf/0L60+7igyjmInLsleHeITJF7UJhQKbQ=
+X-Feedback-Id: delivery_20240522125503.35465286.256336@mx.sailthru.com::663d69d519aae0348c93b932:mailgun
+X-Mailgun-Sending-Ip: 209.61.151.227
+Received: from pmta29.sailthru.com (pmta29.sailthru.com [192.64.237.222]) by
+ 9e7044632bf8 with SMTP id 664e2367c796016b5de66293 (version=TLS1.3,
+ cipher=TLS_AES_128_GCM_SHA256); Wed, 22 May 2024 16:55:03 GMT
+Received: from pmta29.sailthru.com (pmta29.sailthru.com [192.64.237.222]) by
+ 9e7044632bf8 with SMTP id <undefined> (version=TLS1.3,
+ cipher=TLS_AES_128_GCM_SHA256); Wed, 22 May 2024 16:55:03 GMT
+X-Envelope-From: delivery_20240522125503.35465286.256336@mx.sailthru.com
+X-Mailgun-Incoming: Yes
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=ZjI1vHLmNCn7MF/aYQwUjeNmF5S5FZj92xEYRbfmb3Q=;
+ b=JNG5XaqycZ2+EYOcz2a0UH9rM1liYnOk6OjrjKvm5YtmNm242DVzKLxM5WQYo1yVzAQwocvhE+gC
+   TobHmJUcTAmQB/2XF31pyz3tBwVvxJP5xEhW1lYgiGBmejAowURObElml6VbNeejB4k33TG3v144
+   688GbNd4s1Vdicl/o44=
+Received: from aws1-mta-relay8.sailthru.cloud (10.55.75.62) by pmta29.sailthru.com id h9ohme3791sp for <bloomberg@khamel.com>; Wed, 22 May 2024 11:55:03 -0500 (envelope-from <delivery_20240522125503.35465286.256336@mx.sailthru.com>)
+Date: Wed, 22 May 2024 12:55:03 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20240522125503.35465286.256336@sailthru.com>
+Subject: Money Stuff: Citi Missed a Fat Finger
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_28368474_1707726864.1716396903142"
+Precedence: bulk
+x-job: 6358-35465286-20240522
+X-Feedback-ID: 6358:35465286:campaign:sailthru
+X-TM-ID: 20240522125503.35465286.256336
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: aws-campaign-mailer-15.sailthru.cloud
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cl456u.5hsg/e582109a
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cl456u.5hsg/e582109a>,<mailto:unsubscribe_20240522125503.35465286.256336@mx.sailthru.com>
+X-rpcampaign: stjko35465286
+
+------=_Part_28368474_1707726864.1716396903142
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Sometimes banks get in trouble with regulators for misconduct, and =
+the regulators fine the banks and issue an order describing the misconduc
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Oops
+   =20
+ =20
+Sometimes banks get in trouble with regulators for misconduct, and the regu=
+lators fine the banks and issue an order describing=C2=A0the misconduct, an=
+d I read a description of the misconduct and am like =E2=80=9Cah yes that s=
+ounds like misconduct.=E2=80=9D Other times, I read the description and am=
+=C2=A0like =E2=80=9Chmm I guess but that=E2=80=99s kind of a gray area and =
+I can understand why they thought it was allowed.=E2=80=9D (Perhaps this is=
+ just me.) But sometimes, I read the description of the misconduct and am=
+=C2=A0like =E2=80=9Cwell that=E2=80=99s just=C2=A0using a computer, that=E2=
+=80=99s just how computers work, anyone would mess that up,=C2=A0you=C2=A0c=
+an=E2=80=99t blame them for that.=E2=80=9D Of course there the misconduct i=
+s in=C2=A0designing=C2=A0the computer system in such a way that people will=
+ inevitably mess it up.For some reason, that=C2=A0sort of misconduct seems =
+to happen a lot at Citigroup Inc. In 2021, Citi accidentally sent $900 mill=
+ion to some angry hedge funds because of what I called =E2=80=9Ca gothic ho=
+rror story about software design.=E2=80=9D=C2=A0Today the UK=E2=80=99s Fina=
+ncial Conduct Authority and Prudential Regulatory Authority fined Citi =C2=
+=A361.6 million ($79 million) for a 2022 fat-finger stock trade that happen=
+ed like this:On the morning of 2 May 2022 (a UK Bank Holiday), a trader on =
+the Delta 1 Desk made an inputting error whilst loading a basket of equitie=
+s into an Order Management System (OMS) used by the Delta 1 Desk, called PT=
+E. The trader had=C2=A0intended to sell a basket of equities to the value U=
+S$58m. However, the trader erroneously loaded a basket with a notional size=
+ of US$444bn comprising 349 stocks, across multiple European markets. =E2=
+=80=A6The trader had entered the value of the basket of equities in the wro=
+ng field, the unit quantity field rather than the notional value field, whi=
+lst entering the instructions which created the erroneous basket.That is=C2=
+=A0from the FCA=E2=80=99s order; here are the announcement and the PRA orde=
+r, which actually goes through a number of previous Citigroup computer erro=
+rs. But this May 2022 incident is the big one.Here, the story is that the t=
+rader worked on the delta-one desk, trading equity index futures. Citi got =
+a client order to sell a block of MSCI World Index futures, and the trader =
+=E2=80=9Cset about booking a basket of equities to hedge a proportion of CG=
+ML=E2=80=99s European exposure to the MSCI World Index.=E2=80=9D This meant=
+ selling a lot of individual stocks:=C2=A0Citi=E2=80=99s computer had =E2=
+=80=9Ca pre-loaded index=E2=80=9D reflecting 349 stocks =E2=80=9Cacross 13 =
+European countries=E2=80=9D that the trader wanted to sell to hedge.So ther=
+e=E2=80=99s a computer=C2=A0screen with=C2=A0a box for =E2=80=9Chow many sh=
+ares do you want to sell=E2=80=9D (or, rather, units of the basket)=C2=A0an=
+d another box for =E2=80=9Chow many dollars worth do you want to sell,=E2=
+=80=9D and you can input your trade either way. If the units of the basket =
+have a notional value of $7,684 each, you can type =E2=80=9C7,548=E2=80=9D =
+in the =E2=80=9Cunits=E2=80=9D field, or you can type =E2=80=9C58,000,000=
+=E2=80=9D in the =E2=80=9Cdollars=E2=80=9D field, and either way you will s=
+ell about 7,548 units for about $58 million.
+  [1]
+But if instead you type =E2=80=9C58,000,000=E2=80=9D in the units field, yo=
+u will sell 58 million units for $444 billion. And that will be extremely b=
+ad, because you did not mean to do that, and selling $444 billion of stock =
+all at once is going to crash the market.=C2=A0So you will try very hard no=
+t to type your order in the wrong box. Most days, you will succeed. In fact=
+, the chances are good that you will go your whole career as a trader at Ci=
+tigroup without ever typing a big order in the wrong box. But will=C2=A0one=
+=C2=A0Citi trader=C2=A0once=C2=A0type a big order in the wrong box? With a =
+large enough sample, yes, of course. This one did.But it is not entirely th=
+e trader=E2=80=99s fault. Amazingly, Citi also programmed its computer syst=
+em to confuse=C2=A0units and dollars. The trader typed the order in the wro=
+ng box, but then the system calculated the notional value and showed it to =
+the trader. If you multiply 58 million units by the $7,684 price of the bas=
+ket, you get a $444 billion notional amount, which is what the system shoul=
+d have shown, and which might have alerted the trader that there was a prob=
+lem. But the system instead displayed a notional amount of $58 million =E2=
+=80=94=C2=A0the same as the number of units =E2=80=94=C2=A0which is exactly=
+ what the trader was expecting. Here is an insane paragraph from the FCA or=
+der (emphasis added):Ordinarily, the Value at Benchmark field (ValAtBM) on =
+the PTE screen displays the value of the relevant basket at a specified ben=
+chmark and is used where traders need to track the value against a referenc=
+e price. In this case, PTE defaulted to the option "Strike". The default "S=
+trike" option was programmed to determine the price of the Index at the pri=
+or day's close, by reference to an external data feed. However, as data fro=
+m that external feed was unavailable, the price of the value of the Index i=
+nstead defaulted to -1 rather than the benchmark price which was US$7684.40=
+. The quantity of units was therefore multiplied by -1. There were number o=
+f other fields on the PTE screen in which the total notional value of the b=
+asket was correctly displayed. However, the trader only checked the the Val=
+AtBM on PTE to confirm the size of the basket. When the trader checked the =
+value of the inputted basket, they were presented with a figure of negative=
+ 58 million for the value of the basket (58 million multiplied by -1). The =
+trader saw a ValAtBM of -58,000,000, which was the number they expected to =
+see, and thus they clicked Execute to continue to the next check. The quant=
+ity box, next to the ValAtBM also presented 58,000,000. Had the data feed b=
+een available, ValAtBM would have shown a basket of approximately US$444bn =
+i.e., the true notional value of the basket.The most human possible mistake=
+, in an order-entry system, is typing a dollar amount in the shares field.
+  [2]
+ In designing an order-entry system, you should try to make it impossible t=
+o make that mistake. But instead Citi=E2=80=99s system=C2=A0defaulted to di=
+splaying a value of $1 per share=C2=A0(technically -$1, but that=E2=80=99s =
+a hard distinction to notice
+  [3]
+) when its data feeds were turned off.
+  [4]
+=C2=A0So the trader typed 58,000,000 in the shares field, meaning to type i=
+t in the dollars field, and the software was like =E2=80=9Cokay right 58 mi=
+llion dollars.=E2=80=9D Insane!Still, let=E2=80=99s call it=C2=A0human erro=
+r. (=E2=80=9CThere were number of other fields on the PTE screen in which t=
+he total notional value of the basket was correctly displayed.=E2=80=9D) Th=
+e next question=C2=A0is =E2=80=9Cwell what does the computer system do to s=
+afeguard against it?=E2=80=9D But you already know the answer. The answer i=
+s =E2=80=9Cthe computer system pops up a series of warnings, but it does th=
+at on every trade, so traders have learned from experience to ignore the wa=
+rnings.=E2=80=9D I mean, that is how I interpret=C2=A0this passage from the=
+ FCA order:At 08:56 a =E2=80=98Trade Limit Warning=E2=80=99 pop-up alert ap=
+peared within PTE. This presented the trader with 711 warning messages, con=
+sisting of hard block and soft block messages, listed in a single alert whe=
+re only the first 18 lines of alerts were immediately visible unless the pe=
+rson who received the alert scrolled down. The trader did not appreciate th=
+eir inputting error and overrode all of the soft warnings in the pop-up.You=
+ get 711 alerts, you=C2=A0only see 18 of them, you are like =E2=80=9Cehh 18=
+ alerts is pretty much the normal number,=E2=80=9D you override them all wi=
+thout reading.Two hard blocks generated by the PTE system, which could not =
+be overridden, collectively stopped US$248bn of the basket of equities prog=
+ressing for execution. The trader was then presented with a further pop-up =
+alert entitled =E2=80=9CFinal Trade Confirmation=E2=80=9D. It contained a w=
+ave notional value of all the individual equities in the basket as a total =
+(which was approximately US$196bn). The trader clicked the =E2=80=9COK=E2=
+=80=9D option which routed the remaining basket of equities with a notional=
+ value of $196bn into CitiSmart for execution using a VWAP trading algorith=
+m, where individual parent and child orders were generated.Okay here my sym=
+pathy starts to wane a little.=C2=A0Getting 711 warnings is apparently exac=
+tly as good as getting 18 warnings, and roughly as good as getting zero; no=
+body=E2=80=99s going to read 18 warnings. But getting one =E2=80=9Care you =
+sure you want to sell $196 billion of stock???=E2=80=9D pop-up=C2=A0is=C2=
+=A0pretty informative? You probably=C2=A0should=C2=A0look at that one? And =
+click yes if you want to sell $196 billion of stock? Which you don=E2=80=99=
+t? Typing the number in the wrong box is understandable; confirming a trade=
+ at 3,000 times the intended notional is worse. I suppose that if you have =
+been doing this long enough you start to have a reflex like =E2=80=9CI type=
+d my order on the screen already, I don=E2=80=99t need to read the confirma=
+tion pop-up before I click=C2=A0it,=E2=80=9D but here the software design p=
+robably does know better than you do. You=C2=A0should=C2=A0read the confirm=
+ation pop-up before you click it!Now, it does seem to be important that thi=
+s was a delta-one trader selling, not one stock, but rather a basket of 349=
+ stocks. Citi did have=C2=A0various safeguards =E2=80=94=C2=A0what the FCA =
+calls =E2=80=9Chard blocks=E2=80=9D =E2=80=94=C2=A0of the form =E2=80=9Cif =
+someone tries to send an order that is too big, don=E2=80=99t let them, eve=
+n if they click =E2=80=98yes.=E2=80=99=E2=80=9D The problem is that these b=
+locks applied on a stock-by-stock basis, and this trader was selling all th=
+e stocks at once. Citi=E2=80=99s system had a hard block=C2=A0for =E2=80=9C=
+order notional,=E2=80=9D which was =E2=80=9Cset at US$2bn (for each individ=
+ual item in an order),=E2=80=9D so if you tried to sell more than $2 billio=
+n of a stock the system would block it. It had a similar hard block for sel=
+ling more than 200 million=C2=A0shares=C2=A0of any stock.=C2=A0Selling $444=
+ billion of a market-cap-weighted basket of 349 stocks will require selling=
+ more than $2 billion of a lot of those stocks, and more than 200 million s=
+hares of others, and those trades were blocked: =E2=80=9CThese hard blocks =
+prevented 58 orders totalling US$248bn of the original US$444bn notional va=
+lue of the basket progressing for execution.=E2=80=9DBut that leaves orders=
+ to sell less than $2 billion each of 291 stocks, for a total of=C2=A0$196 =
+billion, which is still a lot. And there was no overall order-size hard blo=
+ck, what the FCA calls =E2=80=9Ca Wave Notional hard block that would cance=
+l basket trades that exceeded a total value limit and prevent the entire or=
+der progressing for execution.=E2=80=9D The FCA notes that Citi=E2=80=99s N=
+ew York delta-one desk =E2=80=9Cdid have a wave notional hard block of this=
+ type,=E2=80=9D=C2=A0set at $4 billion. But =E2=80=9Cthe wave notional hard=
+ block was not rolled out to the EMEA instance of=E2=80=9D Citi=E2=80=99s s=
+oftware.
+  [5]
+=C2=A0Citi knew that if traders were trying to=C2=A0sell more than $4 billi=
+on of an index at once that was probably a mistake, but they only prevented=
+ it=C2=A0in New York, not in London.Other protections also kicked in =E2=80=
+=94=C2=A0including when the initial orders caused the underlying stocks to =
+drop =E2=80=94=C2=A0and the trader was eventually able to cancel the rest o=
+f the order, but =E2=80=9Ca total US$1.4bn sell orders were executed across=
+ various European exchanges,=E2=80=9D causing a roughly 4% flash crash in E=
+uropean indexes=C2=A0and losing $48 million for Citi.Meanwhile, what were a=
+ll the risk managers doing? Some combination of =E2=80=9Cbeing on vacation,=
+=E2=80=9D =E2=80=9Calso ignoring annoying duplicative alerts,=E2=80=9D and =
+=E2=80=9Csending emails to which they got no responses=E2=80=9D:At 08:48 on=
+ 2 May 2022 as a result of scheduled staff leave, the Algorithmic Service D=
+esk, a team responsible for real-time monitoring of internal executions, pa=
+ssed its responsibilities to the Electronic Execution desk (EE Desk). The E=
+E Desk is primarily responsible for real time monitoring of algorithmic ord=
+er flow originated from external clients. The EE Desk did not escalate eith=
+er the 284 information alerts generated from the erroneous basket trade, or=
+ the suspension alerts. Furthermore, additional post-trade monitoring perfo=
+rmed by the E-Trading Risk and Controls Team (ETRC) failed to escalate the =
+incident appropriately because their monitoring system filtered out all but=
+ eight of the information alerts relating to the erroneous basket trade. Th=
+e ETRC team escalated the incident to the EE Desk covering the Algorithmic =
+Service Desk, via email, at 09:31, 20 minutes after the trader had cancelle=
+d the order. Having received no response to their email, the ETRC team foll=
+owed up with them four hours later.Note the FCA=E2=80=99s timestamps. The A=
+lgorithmic Service Desk handed off its responsibilities at 8:48; the trader=
+ was ignoring pop-up warnings by=C2=A08:56. I really do not know what to ma=
+ke of the fact=C2=A0that the =E2=80=9Cteam responsible for real-time monito=
+ring of internal executions=E2=80=9D went on vacation=C2=A0eight minutes be=
+fore=C2=A0an internal execution got fat-fingered. Is some Citi trader fat-f=
+ingering trades like this all the time, and only the heroic concentration o=
+f the Algorithmic Service Desk keeps it from hourly disaster?I like to imag=
+ine that the Algorithmic Service Desk person wrapped up work, sent an email=
+ formally handing off her responsibilities, left her desk, and was still in=
+ the office waiting for the elevator when this all went down.
+  [6]
+=C2=A0Her phone buzzed frantically and she took it out, looked, sighed, tur=
+ned it off,=C2=A0said =E2=80=9Cnope, I=E2=80=99m on vacation, this is=C2=A0=
+someone else=E2=80=99s problem,=E2=80=9D and got on the elevator.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Certificate of dumb transfer
+   =20
+ =20
+My one good regulatory idea is the Certificate of Dumb Investment, which wo=
+uld replace the US Securities and Exchange Commission=E2=80=99s current=C2=
+=A0regime of =E2=80=9Caccredited investors=E2=80=9D with a simpler one. You=
+ sign a form saying:I want to buy a dumb investment. I understand that the =
+person selling it will almost certainly steal all my money, and that I woul=
+d almost certainly be better off just buying index funds, but I want to do =
+this dumb thing anyway. I agree that I will never, under any circumstances,=
+ complain to anyone when this investment inevitably goes wrong. I understan=
+d that violating this agreement is a felony.And then you take it to an SEC =
+employee, =E2=80=9Cwho slaps you hard across the face and says =E2=80=98rea=
+lly???=E2=80=99=E2=80=9D And if you say =E2=80=9Cyes, really,=E2=80=9D then=
+ you get the certificate, and you can invest in whatever you want to, but i=
+f you then lose all of your money you are not allowed to complain.The form,=
+ to be clear, is the least important part of this. Virtually any dumb inves=
+tment will require you to sign a form saying =E2=80=9CI understand that thi=
+s investment is risky and I could lose all my money, but I=E2=80=99m oh so =
+smart and daring and I am not bothered by that.=E2=80=9D Anyone would sign =
+that! That=E2=80=99s=C2=A0marketing.=C2=A0Who doesn=E2=80=99t want to be so=
+phisticated? No, the important parts are:=09Slapping you beforehand, and=09=
+Not allowing you to complain afterwards.Anyway here=E2=80=99s a Telegraph s=
+tory about Revolut:The banking app, which is not a licensed bank, is asking=
+ suspected fraud victims to take selfies while holding up a piece of paper =
+that says they understand they are =E2=80=9Cunlikely=E2=80=9D to get their =
+money back.The app requires customers to go through the security checks whe=
+n it suspects they could be the victim of a scam.It uses this intervention,=
+ Revolut said, to =E2=80=9Cbreak the spell=E2=80=9D of a potential scammer.=
+But the selfies were described as =E2=80=9Chorrible=E2=80=9D and =E2=80=9Cl=
+ike hostage photos=E2=80=9D by solicitors who represented scam victims.I ga=
+ther that if you tell Revolut to send your money to a scammer, and Revolut =
+notices, it says =E2=80=9Cyou are being scammed, are you sure?,=E2=80=9D an=
+d if you say =E2=80=9Cyes=E2=80=9D then they make you send the selfie befor=
+e they will send the money. I=E2=80=99m kind of with Revolut here, but on t=
+he other hand, if they=E2=80=99re so sure it=E2=80=99s a scam maybe they sh=
+ould just not allow the transfer? Even if the customer sends the selfie? Pe=
+rhaps you want a hard block here.
+ =20
+   =20
+      NFT backdating
+   =20
+ =20
+In 2021, Damien Hirst offered art collectors a proposition that was=C2=A0ve=
+ry 2021 and very Damien Hirst:=09Hirst had made 10,000 paintings of =E2=80=
+=9Ccolourful hand-painted dots on A4 paper,=E2=80=9D as today=E2=80=99s sto=
+ry in the Guardian=C2=A0puts it, and he was offering them for sale, but wit=
+h a twist.=09The twist was that you could buy a nonfungible token (NFT), on=
+ the blockchain, corresponding to one of those dot paintings.=09Then Hirst =
+would light your painting on fire, and you=E2=80=99d get to keep the NFT.=
+=09Or, or, or, you could keep the painting, but then you would lose the NFT=
+.=E2=80=9CIn total, buyers chose to retain the physical versions of 5,149 p=
+aintings=E2=80=9D; almost 4,000 buyers chose the fire and the NFT. (=E2=80=
+=9CHirst kept 1,000 of the works, although he opted to hold them as the NFT=
+ versions,=E2=80=9D says the Guardian.)=C2=A0Anyway Hirst obviously did not=
+ bother putting all the dots on all 10,000 papers; there was a factory:Acco=
+rding to sources familiar with the production of The Currency series, dozen=
+s of artists were hired to assist with the factory-style production of the =
+paintings in 2018 and 2019. Some worked eight-hour days for several months,=
+ wearing cumbersome masks to protect from the paint fumes. ...Lawyers for H=
+irst and Science said they always adhered to relevant health and safety rul=
+es and practices.Sure. But the news today is:The initial sale brought in ab=
+out $18m. At the time, Hirst said of the project: =E2=80=9CIt comprises of =
+10,000 NFTs, each corresponding to a unique physical artwork made in 2016.=
+=E2=80=9DThe paintings were sold via a single authorised seller, Heni, run =
+by Hirst=E2=80=99s business manager. It said at the time that the works wer=
+e =E2=80=9Ccreated by hand in 2016=E2=80=9D.=C2=A0However, five sources fam=
+iliar with the creation of the works, including some of the painters who pu=
+t the dots to paper, told the Guardian many of them were mass-produced in 2=
+018 and 2019.I gather that early-career Damien Hirst works are worth more t=
+han later-career Damien Hirst factory products, though I am not sure why th=
+e difference between 2016 and 2019 would matter all that much. Surely no on=
+e was expecting that Hirst himself put all the dots on all the papers; sure=
+ly, when you pay for a Damien Hirst painting, part of what you are paying f=
+or is, like, the joke that Hirst is making about the mass production and co=
+mmercialization of art.=C2=A0But here specifically you were paying for the =
+joke he was making about the blockchain! He was gonna burn the paintings! I=
+magine being angry that you paid Damien Hirst to burn a painting that his f=
+actory made in 2016, but then you found out that he actually burned a paint=
+ing that his factory made in 2019.Honestly this makes me like Hirst more. I=
+ think this is the first good joke that I=E2=80=99ve ever seen in the =E2=
+=80=9Cobject-fire-token-money=E2=80=9D NFT genre? In particular, it is a so=
+phisticated=C2=A0blockchain=C2=A0joke. The blockchain, of course, is a tamp=
+er-proof=C2=A0record of provenance. Whatever bad things you can say about N=
+FTs, one thing that is surely true of an NFT is that you can tell when it w=
+as created. The creation date of these NFTs =E2=80=94=C2=A02021, of course!=
+ =E2=80=94=C2=A0is permanently and immutably inscribed in the blockchain. T=
+he paintings=E2=80=99 creation date, man, who knows; he burned those. You=
+=C2=A0can=E2=80=99t=C2=A0backdate the creation of a crypto artwork; immutab=
+le provable time sequencing is in some deep sense the=C2=A0point=C2=A0of cr=
+ypto. But Hirst found a way to do it.
+ =20
+   =20
+      Endless shrimp
+   =20
+ =20
+I still think I=E2=80=99m mostly kidding about the endless shrimp thing? Re=
+d Lobster filed for bankruptcy over the weekend, complaining that its ultim=
+ate endless shrimp promotion cost it $11 million, but it does $2 billion of=
+ revenue and was =E2=80=9Cbogged down by increased labor costs and expensiv=
+e leases on its restaurants.=E2=80=9D It would be very funny if Red Lobster=
+=E2=80=99s equity owner and shrimp supplier, Thai Union, stripped cash out =
+of the company by stuffing it with impossible quantities of shrimp, causing=
+ its bankruptcy, but I think it=E2=80=99s probably not the main cause.Still=
+, Red Lobster=E2=80=99s chief executive officer did sort of insinuate in th=
+e bankruptcy filings that that=E2=80=99s what happened, and it would be an =
+incredible story of crustacean=C2=A0financial engineering=C2=A0if it were t=
+rue. Anyway the first-day bankruptcy hearing happened yesterday and here=E2=
+=80=99s the update from Thai Union:The Thai seafood supplier that owns Red =
+Lobster Management LLC disputed allegations that it forced the now-bankrupt=
+ business to take its shrimp while former management promoted an =E2=80=9Ce=
+ndless=E2=80=9D shrimp deal at its restaurants.Thai Union Group Plc dispute=
+d the contents of a sworn statement filed in bankruptcy court from Red Lobs=
+ter Chief Executive Officer Jonathan Tibus, which included allegations that=
+ the seafood supplier =E2=80=9Cexercised an outsized influence on the compa=
+ny=E2=80=99s shrimp purchasing.=E2=80=9DA Red Lobster lawyer read a stateme=
+nt from Thai Union during the restaurant chain=E2=80=99s first bankruptcy c=
+ourt hearing in Orlando, Florida on Tuesday. Thai Union disputes all statem=
+ents concerning the company and its relationship to Red Lobster, the lawyer=
+ said.Fine fine but I hope that lawyer brought a briefcase full of shrimp t=
+o the hearing just for comedy purposes.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Anglo Opens Talks With BHP After Rejecting $49 Billion Offer.=C2=A0Blacksto=
+ne to Grant Equity to Most Employees in Future U.S. Buyouts. The Highest Pa=
+id CEOs of 2023. BuzzFeed Shares Soar as Ramaswamy Takes Stake, Seeks Talks=
+. Foreign Purchase of U.S. Ammo Maker Sparks National-Security Battle. Oakt=
+ree seizes control of Inter Milan after Chinese owner fails to repay loan. =
+RFK Jr. says he invested $24K in GameStop after meme stock rally: =E2=80=98=
+Apes together strong.=E2=80=99=C2=A0=E2=80=9COnce you come to New York, you=
+ won=E2=80=99t go back to New Haven.=E2=80=9DIf you'd like to get=C2=A0Mone=
+y=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0sub=
+scribe at this link. Or you can subscribe to Money Stuff and other great Bl=
+oomberg newsletters here. Thanks!
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+             =20
+           =20
+         =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+       =20
+         =20
+       =20
+  [1] The $7,684 comes from page 15 of the FCA order, the benchmark price o=
+f the basket. The 7,548 is just $58 million divided by $7,684.40. And 58 mi=
+llion times $7,684 gets you $444 billion.
+
+
+  [2] That and orders of magnitude, like typing =E2=80=9C58,000,000=E2=80=
+=9D in the =E2=80=9Cquantity in millions" field.
+
+
+  [3] My experience of financial software is that quantities are often sign=
+ed in unintuitive ways. And this one is intuitive! If I tried to sell $58 m=
+illion of stock, and the software said =E2=80=9CORDER QUANTITY -$58,000,000=
+,=E2=80=9D I=E2=80=99d be like =E2=80=9Csure, right, $58 million, and I=E2=
+=80=99m selling, so it=E2=80=99s negative.=E2=80=9D It is possible that som=
+e software designer somewhere thought =E2=80=9Cif we default to -1 for erro=
+neous prices, everyone will immediately see that that=E2=80=99s impossible,=
+ you can=E2=80=99t have a negative price,=E2=80=9D but traders see minus si=
+gns on quantities all the time and are unfazed by them. Also of course the =
+minus sign is small and you might miss it.
+
+
+  [4] I assume because of the bank holiday, though I don=E2=80=99t know, an=
+d it could be about trading hours or time differences or something.
+
+
+  [5] Also, Citi had a hard block on certain orders that exceeded 95% of av=
+erage daily volume for a stock. But this block applied to =E2=80=9CDMA flow=
+,=E2=80=9D meaning =E2=80=9Cdirect market access,=E2=80=9D or orders sent d=
+irectly to smart order routers, but not =E2=80=9CDSA flow,=E2=80=9D meaning=
+ orders generated within Citi=E2=80=99s CitiSmart algorithmic trading syste=
+m. This trade was from CitiSmart and so not subject to a volume limit.
+
+
+  [6] I understand that this is unlikely at 8:48 in the morning, and it=E2=
+=80=99s probably more like =E2=80=9Csome other geography was in charge over=
+night and ordinarily hands off to London Algorithmic Service Desk in the Lo=
+ndon morning, but this day, because of a bank holiday, they handed off to a=
+ different desk.=E2=80=9D=20
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cl456u.5hsg/a139504b.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_28368474_1707726864.1716396903142
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Sometimes banks get in trouble with regulators for misconduct, and the regu=
+lators fine the banks and issue an order describing the misconduc
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35465286.256336/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNTIyMjRfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yNDA1MjImdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB0bbf32d6"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/img7rZ7yYddA/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/img7rZ7yYddA/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35465286.256336/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zNTQ2NTI4NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzU3MjE2MjImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBe22a7130" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D35465286&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D35721622&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oops</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Sometimes banks get in trouble with re=
+gulators for misconduct, and the regulators fine the banks and issue an ord=
+er describing=C2=A0the misconduct, and I read a description of the miscondu=
+ct and am like =E2=80=9Cah yes that sounds like misconduct.=E2=80=9D Other =
+times, I read the description and am=C2=A0like =E2=80=9Chmm I guess but tha=
+t=E2=80=99s kind of a gray area and I can understand why they thought it wa=
+s allowed.=E2=80=9D (Perhaps this is just me.) But sometimes, I read the de=
+scription of the misconduct and am=C2=A0like =E2=80=9Cwell that=E2=80=99s j=
+ust=C2=A0using a computer, that=E2=80=99s just how computers work, anyone w=
+ould mess that up,=C2=A0you=C2=A0can=E2=80=99t blame them for that.=E2=80=
+=9D Of course there the misconduct is in=C2=A0<em>designing=C2=A0</em>the c=
+omputer system in such a way that people will inevitably mess it up.</p><p =
+style=3D"margin: 16px 0;">For some reason, that=C2=A0sort of misconduct see=
+ms to happen a lot at Citigroup Inc. In 2021, Citi accidentally sent $900 m=
+illion to some angry hedge funds because of <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/35465286.256336/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMTcvY2l0aS1jYW4tdC1oYXZlLWl0cy05MDAtbWls=
+bGlvbi1iYWNrP2NtcGlkPUJCRDA1MjIyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXR=
+tX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDUyMiZ1dG1fY2FtcGFpZ249bW9uZXlzdH=
+VmZg/607f07ceef4b8524a319a23cB715431d0" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">what I called</a> =E2=80=9C=
+a gothic horror story about software design.=E2=80=9D=C2=A0Today the UK=E2=
+=80=99s Financial Conduct Authority and Prudential Regulatory Authority <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/35465286.256336/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDUtMjIvY2l0aWdyb3Vw=
+LWZpbmVkLTYxLTYtbWlsbGlvbi1vdmVyLWZhdC1maW5nZXItdHJhZGluZy1ibHVuZGVyP2NtcGl=
+kPUJCRDA1MjIyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbG=
+V0dGVyJnV0bV90ZXJtPTI0MDUyMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b85=
+24a319a23cBb455fde9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">fined Citi =C2=A361.6 million</a> ($79 millio=
+n) for a 2022 fat-finger stock trade that <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/35465286.256336/aHR0cHM6Ly93d3cuZmNhLm9yZy51ay9wdWJ=
+saWNhdGlvbi9maW5hbC1ub3RpY2VzL2NpdGlncm91cC1nbG9iYWwtbWFya2V0cy1saW1pdGVkLT=
+IwMjQucGRm/607f07ceef4b8524a319a23cBeaf13b9d" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">happened like this</a=
+>:</p><blockquote><p style=3D"margin: 16px 0;">On the morning of 2 May 2022=
+ (a UK Bank Holiday), a trader on the Delta 1 Desk made an inputting error =
+whilst loading a basket of equities into an Order Management System (OMS) u=
+sed by the Delta 1 Desk, called PTE. The trader had=C2=A0intended to sell a=
+ basket of equities to the value US$58m. However, the trader erroneously lo=
+aded a basket with a notional size of US$444bn comprising 349 stocks, acros=
+s multiple European markets. =E2=80=A6</p><p style=3D"margin: 16px 0;">The =
+trader had entered the value of the basket of equities in the wrong field, =
+the unit quantity field rather than the notional value field, whilst enteri=
+ng the instructions which created the erroneous basket.</p></blockquote><p =
+style=3D"margin: 16px 0;">That is=C2=A0from <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/35465286.256336/aHR0cHM6Ly93d3cuYmFua29mZW5nbGFuZ=
+C5jby51ay8tL21lZGlhL2JvZS9maWxlcy9wcnVkZW50aWFsLXJlZ3VsYXRpb24vcmVndWxhdG9y=
+eS1hY3Rpb24vZmluYWwtbm90aWNlLWZyb20tYm9lLWFuZC1wcmEtdG8tY2l0aWdyb3VwLWdsb2J=
+hbC1tYXJrZXRzLWxpbWl0ZWQucGRm/607f07ceef4b8524a319a23cB29f8195e" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+the FCA=E2=80=99s order</a>; here are <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/35465286.256336/aHR0cHM6Ly93d3cuZmNhLm9yZy51ay9uZXdzL3B=
+yZXNzLXJlbGVhc2VzL2ZjYS1maW5lcy1jZ21sLTI3LW1pbGxpb24/607f07ceef4b8524a319a2=
+3cB0d3a7c05" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">the announcement</a> and <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/35465286.256336/aHR0cHM6Ly93d3cuYmFua29mZW5nbGF=
+uZC5jby51ay8tL21lZGlhL2JvZS9maWxlcy9wcnVkZW50aWFsLXJlZ3VsYXRpb24vcmVndWxhdG=
+9yeS1hY3Rpb24vZmluYWwtbm90aWNlLWZyb20tYm9lLWFuZC1wcmEtdG8tY2l0aWdyb3VwLWdsb=
+2JhbC1tYXJrZXRzLWxpbWl0ZWQucGRm/607f07ceef4b8524a319a23cC29f8195e" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+the PRA order</a>, which actually goes through a number of previous Citigro=
+up computer errors. But this May 2022 incident is the big one.</p><p style=
+=3D"margin: 16px 0;">Here, the story is that the trader worked on the delta=
+-one desk, trading equity index futures. Citi got a client order to sell a =
+block of MSCI World Index futures, and the trader =E2=80=9Cset about bookin=
+g a basket of equities to hedge a proportion of CGML=E2=80=99s European exp=
+osure to the MSCI World Index.=E2=80=9D This meant selling a lot of individ=
+ual stocks:=C2=A0Citi=E2=80=99s computer had =E2=80=9Ca pre-loaded index=E2=
+=80=9D reflecting 349 stocks =E2=80=9Cacross 13 European countries=E2=80=9D=
+ that the trader wanted to sell to hedge.</p><p style=3D"margin: 16px 0;">S=
+o there=E2=80=99s a computer=C2=A0screen with=C2=A0a box for =E2=80=9Chow m=
+any shares do you want to sell=E2=80=9D (or, rather, units of the basket)=
+=C2=A0and another box for =E2=80=9Chow many dollars worth do you want to se=
+ll,=E2=80=9D and you can input your trade either way. If the units of the b=
+asket have a notional value of $7,684 each, you can type =E2=80=9C7,548=E2=
+=80=9D in the =E2=80=9Cunits=E2=80=9D field, or you can type =E2=80=9C58,00=
+0,000=E2=80=9D in the =E2=80=9Cdollars=E2=80=9D field, and either way you w=
+ill sell about 7,548 units for about $58 million.<a class=3D"footnote-index=
+" href=3D"#footnote-1" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: none !important; background-color: transparent !important; display=
+: inline-block;">
+<span>[1]</span>
+</a></p><p style=3D"margin: 16px 0;">But if instead you type =E2=80=9C58,00=
+0,000=E2=80=9D in the units field, you will sell 58 million units for $444 =
+billion. And that will be extremely bad, because you did not mean to do tha=
+t, and selling $444 billion of stock all at once is going to crash the mark=
+et.=C2=A0So you will try very hard not to type your order in the wrong box.=
+ Most days, you will succeed. In fact, the chances are good that you will g=
+o your whole career as a trader at Citigroup without ever typing a big orde=
+r in the wrong box. But will=C2=A0<em>one=C2=A0</em>Citi trader=C2=A0<em>on=
+ce=C2=A0</em>type a big order in the wrong box? With a large enough sample,=
+ yes, of course. This one did.</p><p style=3D"margin: 16px 0;">But it is no=
+t entirely the trader=E2=80=99s fault. Amazingly, Citi also <em>programmed =
+its computer system to confuse=C2=A0units and dollars</em>. The trader type=
+d the order in the wrong box, but then the system calculated the notional v=
+alue and showed it to the trader. If you multiply 58 million units by the $=
+7,684 price of the basket, you get a $444 billion notional amount, which is=
+ what the system should have shown, and which might have alerted the trader=
+ that there was a problem. But the system instead displayed a notional amou=
+nt of $58 million =E2=80=94=C2=A0the same as the number of units =E2=80=94=
+=C2=A0which is exactly what the trader was expecting. Here is an insane par=
+agraph from the FCA order (emphasis added):</p><blockquote><p style=3D"marg=
+in: 16px 0;">Ordinarily, the Value at Benchmark field (ValAtBM) on the PTE =
+screen displays the value of the relevant basket at a specified benchmark a=
+nd is used where traders need to track the value against a reference price.=
+ In this case, PTE defaulted to the option "Strike". The default "Strike" o=
+ption was programmed to determine the price of the Index at the prior day's=
+ close, by reference to an external data feed. <strong>However, as data fro=
+m that external feed was unavailable, the price of the value of the Index i=
+nstead defaulted to -1 rather than the benchmark price which was US$7684.40=
+</strong>. The quantity of units was therefore multiplied by -1. There were=
+ number of other fields on the PTE screen in which the total notional value=
+ of the basket was correctly displayed. However, the trader only checked th=
+e the ValAtBM on PTE to confirm the size of the basket. When the trader che=
+cked the value of the inputted basket, they were presented with a figure of=
+ negative 58 million for the value of the basket (58 million multiplied by =
+-1). The trader saw a ValAtBM of -58,000,000, which was the number they exp=
+ected to see, and thus they clicked Execute to continue to the next check. =
+The quantity box, next to the ValAtBM also presented 58,000,000. Had the da=
+ta feed been available, ValAtBM would have shown a basket of approximately =
+US$444bn i.e., the true notional value of the basket.</p></blockquote><p st=
+yle=3D"margin: 16px 0;">The most human possible mistake, in an order-entry =
+system, is typing a dollar amount in the shares field.<a class=3D"footnote-=
+index" href=3D"#footnote-2" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: none !important; background-color: transparent !important; di=
+splay: inline-block;">
+<span>[2]</span>
+</a> In designing an order-entry system, you should try to make it impossib=
+le to make that mistake. But instead Citi=E2=80=99s system=C2=A0<em>default=
+ed to displaying a value of $1 per share</em>=C2=A0(technically -$1, but th=
+at=E2=80=99s a hard distinction to notice<a class=3D"footnote-index" href=
+=3D"#footnote-3" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[3]</span>
+</a>) when its data feeds were turned off.<a class=3D"footnote-index" href=
+=3D"#footnote-4" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[4]</span>
+</a>=C2=A0So the trader typed 58,000,000 in the shares field, meaning to ty=
+pe it in the dollars field, and the software was like =E2=80=9Cokay right 5=
+8 million dollars.=E2=80=9D Insane!</p><p style=3D"margin: 16px 0;">Still, =
+let=E2=80=99s call it=C2=A0human error. (=E2=80=9CThere were number of othe=
+r fields on the PTE screen in which the total notional value of the basket =
+was correctly displayed.=E2=80=9D) The next question=C2=A0is =E2=80=9Cwell =
+what does the computer system do to safeguard against it?=E2=80=9D But you =
+already know the answer. The answer is =E2=80=9Cthe computer system pops up=
+ a series of warnings, but it does that on every trade, so traders have lea=
+rned from experience to ignore the warnings.=E2=80=9D I mean, that is how I=
+ interpret=C2=A0this passage from the FCA order:</p><blockquote><p style=3D=
+"margin: 16px 0;">At 08:56 a =E2=80=98Trade Limit Warning=E2=80=99 pop-up a=
+lert appeared within PTE. This presented the trader with 711 warning messag=
+es, consisting of hard block and soft block messages, listed in a single al=
+ert where only the first 18 lines of alerts were immediately visible unless=
+ the person who received the alert scrolled down. The trader did not apprec=
+iate their inputting error and overrode all of the soft warnings in the pop=
+-up.</p></blockquote><p style=3D"margin: 16px 0;">You get 711 alerts, you=
+=C2=A0only see 18 of them, you are like =E2=80=9Cehh 18 alerts is pretty mu=
+ch the normal number,=E2=80=9D you override them all without reading.</p><b=
+lockquote><p style=3D"margin: 16px 0;">Two hard blocks generated by the PTE=
+ system, which could not be overridden, collectively stopped US$248bn of th=
+e basket of equities progressing for execution. The trader was then present=
+ed with a further pop-up alert entitled =E2=80=9CFinal Trade Confirmation=
+=E2=80=9D. It contained a wave notional value of all the individual equitie=
+s in the basket as a total (which was approximately US$196bn). The trader c=
+licked the =E2=80=9COK=E2=80=9D option which routed the remaining basket of=
+ equities with a notional value of $196bn into CitiSmart for execution usin=
+g a VWAP trading algorithm, where individual parent and child orders were g=
+enerated.</p></blockquote><p style=3D"margin: 16px 0;">Okay here my sympath=
+y starts to wane a little.=C2=A0Getting 711 warnings is apparently exactly =
+as good as getting 18 warnings, and roughly as good as getting zero; nobody=
+=E2=80=99s going to read 18 warnings. But getting one =E2=80=9Care you sure=
+ you want to sell $196 billion of stock???=E2=80=9D pop-up=C2=A0<em>is=C2=
+=A0</em>pretty informative? You probably=C2=A0<em>should=C2=A0</em>look at =
+that one? And click yes if you want to sell $196 billion of stock? Which yo=
+u don=E2=80=99t? Typing the number in the wrong box is understandable; conf=
+irming a trade at 3,000 times the intended notional is worse. I suppose tha=
+t if you have been doing this long enough you start to have a reflex like =
+=E2=80=9CI typed my order on the screen already, I don=E2=80=99t need to re=
+ad the confirmation pop-up before I click=C2=A0it,=E2=80=9D but here the so=
+ftware design probably does know better than you do. You=C2=A0<em>should=C2=
+=A0</em>read the confirmation pop-up before you click it!</p><p style=3D"ma=
+rgin: 16px 0;">Now, it does seem to be important that this was a delta-one =
+trader selling, not one stock, but rather a basket of 349 stocks. Citi <em>=
+did</em> have=C2=A0various safeguards =E2=80=94=C2=A0what the FCA calls =E2=
+=80=9Chard blocks=E2=80=9D =E2=80=94=C2=A0of the form =E2=80=9Cif someone t=
+ries to send an order that is too big, don=E2=80=99t let them, even if they=
+ click =E2=80=98yes.=E2=80=99=E2=80=9D The problem is that these blocks app=
+lied on a stock-by-stock basis, and this trader was selling all the stocks =
+at once. Citi=E2=80=99s system had a hard block=C2=A0for =E2=80=9Corder not=
+ional,=E2=80=9D which was =E2=80=9Cset at US$2bn (for each individual item =
+in an order),=E2=80=9D so if you tried to sell more than $2 billion of a st=
+ock the system would block it. It had a similar hard block for selling more=
+ than 200 million=C2=A0<em>shares=C2=A0</em>of any stock.=C2=A0Selling $444=
+ billion of a market-cap-weighted basket of 349 stocks will require selling=
+ more than $2 billion of a lot of those stocks, and more than 200 million s=
+hares of others, and those trades were blocked: =E2=80=9CThese hard blocks =
+prevented 58 orders totalling US$248bn of the original US$444bn notional va=
+lue of the basket progressing for execution.=E2=80=9D</p><p style=3D"margin=
+: 16px 0;">But that leaves orders to sell less than $2 billion each of 291 =
+stocks, for a total of=C2=A0$196 billion, which is still a lot. And there w=
+as no overall order-size hard block, what the FCA calls =E2=80=9Ca Wave Not=
+ional hard block that would cancel basket trades that exceeded a total valu=
+e limit and prevent the entire order progressing for execution.=E2=80=9D Th=
+e FCA notes that Citi=E2=80=99s New York delta-one desk =E2=80=9Cdid have a=
+ wave notional hard block of this type,=E2=80=9D=C2=A0set at $4 billion. Bu=
+t =E2=80=9Cthe wave notional hard block was not rolled out to the EMEA inst=
+ance of=E2=80=9D Citi=E2=80=99s software.<a class=3D"footnote-index" href=
+=3D"#footnote-5" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[5]</span>
+</a>=C2=A0Citi knew that if traders were trying to=C2=A0sell more than $4 b=
+illion of an index at once that was probably a mistake, but they only preve=
+nted it=C2=A0in New York, not in London.</p><p style=3D"margin: 16px 0;">Ot=
+her protections also kicked in =E2=80=94=C2=A0including when the initial or=
+ders caused the underlying stocks to drop =E2=80=94=C2=A0and the trader was=
+ eventually able to cancel the rest of the order, but =E2=80=9Ca total US$1=
+.4bn sell orders were executed across various European exchanges,=E2=80=9D =
+causing a roughly 4% flash crash in European indexes=C2=A0and losing $48 mi=
+llion for Citi.</p><p style=3D"margin: 16px 0;">Meanwhile, what were all th=
+e risk managers doing? Some combination of =E2=80=9Cbeing on vacation,=E2=
+=80=9D =E2=80=9Calso ignoring annoying duplicative alerts,=E2=80=9D and =E2=
+=80=9Csending emails to which they got no responses=E2=80=9D:</p><blockquot=
+e><p style=3D"margin: 16px 0;">At 08:48 on 2 May 2022 as a result of schedu=
+led staff leave, the Algorithmic Service Desk, a team responsible for real-=
+time monitoring of internal executions, passed its responsibilities to the =
+Electronic Execution desk (EE Desk). The EE Desk is primarily responsible f=
+or real time monitoring of algorithmic order flow originated from external =
+clients. The EE Desk did not escalate either the 284 information alerts gen=
+erated from the erroneous basket trade, or the suspension alerts. Furthermo=
+re, additional post-trade monitoring performed by the E-Trading Risk and Co=
+ntrols Team (ETRC) failed to escalate the incident appropriately because th=
+eir monitoring system filtered out all but eight of the information alerts =
+relating to the erroneous basket trade. The ETRC team escalated the inciden=
+t to the EE Desk covering the Algorithmic Service Desk, via email, at 09:31=
+, 20 minutes after the trader had cancelled the order. Having received no r=
+esponse to their email, the ETRC team followed up with them four hours late=
+r.</p></blockquote><p style=3D"margin: 16px 0;">Note the FCA=E2=80=99s time=
+stamps. The Algorithmic Service Desk handed off its responsibilities at 8:4=
+8; the trader was ignoring pop-up warnings by=C2=A08:56. I really do not kn=
+ow what to make of the fact=C2=A0that the =E2=80=9Cteam responsible for rea=
+l-time monitoring of internal executions=E2=80=9D went on vacation=C2=A0<em=
+>eight minutes before=C2=A0</em>an internal execution got fat-fingered. Is =
+some Citi trader fat-fingering trades like this all the time, and only the =
+heroic concentration of the Algorithmic Service Desk keeps it from hourly d=
+isaster?</p><p style=3D"margin: 16px 0;">I like to imagine that the Algorit=
+hmic Service Desk person wrapped up work, sent an email formally handing of=
+f her responsibilities, left her desk, and was still in the office waiting =
+for the elevator when this all went down.<a class=3D"footnote-index" href=
+=3D"#footnote-6" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[6]</span>
+</a>=C2=A0Her phone buzzed frantically and she took it out, looked, sighed,=
+ turned it off,=C2=A0said =E2=80=9Cnope, I=E2=80=99m on vacation, this is=
+=C2=A0someone else=E2=80=99s problem,=E2=80=9D and got on the elevator.</p>=
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35465286.256336/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zNTQ2NTI4NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzU3MjE2MjImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCc339158e" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D35465286&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D35721622&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35465286.256336/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zNTQ2NTI4NiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzU3MjE2MjImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDc339158e" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D35465286&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D35721622&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Certificate of dumb transfer</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">My one good regulatory idea is the <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/35465286.256336/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMDktMjQvZWFybmlu=
+Zy10aGUtcmlnaHQtdG8tZ2V0LXN3aW5kbGVkP2NtcGlkPUJCRDA1MjIyNF9NT05FWVNUVUZGJnV=
+0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDUyMiZ1dG=
+1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBd195a180" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">Cer=
+tificate of Dumb Investment</a>, which would replace the US Securities and =
+Exchange Commission=E2=80=99s current=C2=A0regime of =E2=80=9Caccredited in=
+vestors=E2=80=9D with a simpler one. You sign a form saying:</p><blockquote=
+><p style=3D"margin: 16px 0;">I want to buy a dumb investment. I understand=
+ that the person selling it will almost certainly steal all my money, and t=
+hat I would almost certainly be better off just buying index funds, but I w=
+ant to do this dumb thing anyway. I agree that I will never, under any circ=
+umstances, complain to anyone when this investment inevitably goes wrong. I=
+ understand that violating this agreement is a felony.</p></blockquote><p s=
+tyle=3D"margin: 16px 0;">And then you take it to an SEC employee, =E2=80=9C=
+who slaps you hard across the face and says =E2=80=98really???=E2=80=99=E2=
+=80=9D And if you say =E2=80=9Cyes, really,=E2=80=9D then you get the certi=
+ficate, and you can invest in whatever you want to, but if you then lose al=
+l of your money you are not allowed to complain.</p><p style=3D"margin: 16p=
+x 0;">The form, to be clear, is the least important part of this. Virtually=
+ any dumb investment will require you to sign a form saying =E2=80=9CI unde=
+rstand that this investment is risky and I could lose all my money, but I=
+=E2=80=99m oh so smart and daring and I am not bothered by that.=E2=80=9D A=
+nyone would sign that! That=E2=80=99s=C2=A0<em>marketing</em>.=C2=A0Who doe=
+sn=E2=80=99t want to be sophisticated? No, the important parts are:</p><ol =
+style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09=
+<li style=3D"margin-bottom: 5px;">Slapping you beforehand, and</li>=09<li s=
+tyle=3D"margin-bottom: 5px;">Not allowing you to complain afterwards.</li><=
+/ol><p style=3D"margin: 16px 0;">Anyway <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/35465286.256336/aHR0cHM6Ly93d3cudGVsZWdyYXBoLmNvLnVrL=
+21vbmV5L2JhbmtpbmcvY3VycmVudC1hY2NvdW50cy9yZXZvbHV0LWFza3Mtc3VzcGVjdGVkLXNj=
+YW0tdmljdGltcy1zZW5kLWhvc3RhZ2Utc2VsZmllLw/607f07ceef4b8524a319a23cB78e9698=
+1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">here=E2=80=99s a Telegraph story about Revolut</a>:</p><blockq=
+uote><p style=3D"margin: 16px 0;">The banking app, which is not a licensed =
+bank, is asking suspected fraud victims to take selfies while holding up a =
+piece of paper that says they understand they are =E2=80=9Cunlikely=E2=80=
+=9D to get their money back.</p><p style=3D"margin: 16px 0;">The app requir=
+es customers to go through the security checks when it suspects they could =
+be the victim of a scam.</p><p style=3D"margin: 16px 0;">It uses this inter=
+vention, Revolut said, to =E2=80=9Cbreak the spell=E2=80=9D of a potential =
+scammer.</p><p style=3D"margin: 16px 0;">But the selfies were described as =
+=E2=80=9Chorrible=E2=80=9D and =E2=80=9Clike hostage photos=E2=80=9D by sol=
+icitors who represented scam victims.</p></blockquote><p style=3D"margin: 1=
+6px 0;">I gather that if you tell Revolut to send your money to a scammer, =
+and Revolut notices, it says =E2=80=9Cyou are being scammed, are you sure?,=
+=E2=80=9D and if you say =E2=80=9Cyes=E2=80=9D then they make you send the =
+selfie before they will send the money. I=E2=80=99m kind of with Revolut he=
+re, but on the other hand, if they=E2=80=99re so sure it=E2=80=99s a scam m=
+aybe they should just not allow the transfer? Even if the customer sends th=
+e selfie? Perhaps you want a hard block here.</p><table class=3D"header" wi=
+dth=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">NFT backdating</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">In 2021, Damien Hirst offered art coll=
+ectors a proposition that was=C2=A0very 2021 and very Damien Hirst:</p><ol =
+style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09=
+<li style=3D"margin-bottom: 5px;">Hirst had made 10,000 paintings of =E2=80=
+=9Ccolourful hand-painted dots on A4 paper,=E2=80=9D as <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/35465286.256336/aHR0cHM6Ly93d3cudGhlZ=
+3VhcmRpYW4uY29tL2FydGFuZGRlc2lnbi9hcnRpY2xlLzIwMjQvbWF5LzIyL2RhbWllbi1oaXJz=
+dC1hcnR3b3Jrcy1wYWludGVkLXllYXJzLWxhdGVyLWN1cnJlbmN5LWFydGlzdA/607f07ceef4b=
+8524a319a23cBff1b4f59" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">today=E2=80=99s story in the Guardian</a>=C2=
+=A0puts it, and he was offering them for sale, but with a twist.</li>=09<li=
+ style=3D"margin-bottom: 5px;">The twist was that you could buy a nonfungib=
+le token (NFT), on the blockchain, corresponding to one of those dot painti=
+ngs.</li>=09<li style=3D"margin-bottom: 5px;">Then Hirst would light your p=
+ainting on fire, and you=E2=80=99d get to keep the NFT.</li>=09<li style=3D=
+"margin-bottom: 5px;"><em>Or</em>, or, or, you could keep the painting, but=
+ then you would lose the NFT.</li></ol><p style=3D"margin: 16px 0;">=E2=80=
+=9CIn total, buyers chose to retain the physical versions of 5,149 painting=
+s=E2=80=9D; almost 4,000 buyers chose the fire and the NFT. (=E2=80=9CHirst=
+ kept 1,000 of the works, although he opted to hold them as the NFT version=
+s,=E2=80=9D says the Guardian.)=C2=A0</p><p style=3D"margin: 16px 0;">Anywa=
+y Hirst obviously did not bother putting all the dots on all 10,000 papers;=
+ there was a factory:</p><blockquote><p style=3D"margin: 16px 0;">According=
+ to sources familiar with the production of The Currency series, dozens of =
+artists were hired to assist with the factory-style production of the paint=
+ings in 2018 and 2019. Some worked eight-hour days for several months, wear=
+ing cumbersome masks to protect from the paint fumes. ...</p><p style=3D"ma=
+rgin: 16px 0;">Lawyers for Hirst and Science said they always adhered to re=
+levant health and safety rules and practices.</p></blockquote><p style=3D"m=
+argin: 16px 0;">Sure. But the news today is:</p><blockquote><p style=3D"mar=
+gin: 16px 0;">The initial sale brought in about $18m. At the time, Hirst sa=
+id of the project: =E2=80=9CIt comprises of 10,000 NFTs, each corresponding=
+ to a unique physical artwork made in 2016.=E2=80=9D</p><p style=3D"margin:=
+ 16px 0;">The paintings were sold via a single authorised seller, Heni, run=
+ by Hirst=E2=80=99s business manager. It said at the time that the works we=
+re =E2=80=9Ccreated by hand in 2016=E2=80=9D.=C2=A0</p><p style=3D"margin: =
+16px 0;">However, five sources familiar with the creation of the works, inc=
+luding some of the painters who put the dots to paper, told the Guardian ma=
+ny of them were mass-produced in 2018 and 2019.</p></blockquote><p style=3D=
+"margin: 16px 0;">I gather that early-career Damien Hirst works are worth m=
+ore than later-career Damien Hirst factory products, though I am not sure w=
+hy the difference between 2016 and 2019 would matter all that much. Surely =
+no one was expecting that Hirst himself put all the dots on all the papers;=
+ surely, when you pay for a Damien Hirst painting, part of what you are pay=
+ing for is, like, the joke that Hirst is making about the mass production a=
+nd commercialization of art.=C2=A0</p><p style=3D"margin: 16px 0;">But here=
+ specifically you were paying for the joke he was making about the blockcha=
+in! He was gonna burn the paintings! Imagine being angry that you paid Dami=
+en Hirst to burn a painting that his factory made in 2016, but then you fou=
+nd out that he actually burned a painting that his factory made in 2019.</p=
+><p style=3D"margin: 16px 0;">Honestly this makes me like Hirst more. I thi=
+nk this is the first good joke that I=E2=80=99ve ever seen in the <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/35465286.256336/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjEtMDktMTAvbW9uZXktc3R1=
+ZmYtZnVuZ2libGUtc2xpY2VzLW9mLW5vbi1mdW5naWJsZS10b2tlbnM_Y21waWQ9QkJEMDUyMjI=
+0X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3=
+Rlcm09MjQwNTIyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBf01=
+b457b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">=E2=80=9Cobject-fire-token-money=E2=80=9D NFT genre</a>? In =
+particular, it is a sophisticated=C2=A0<em>blockchain=C2=A0</em>joke. The b=
+lockchain, of course, is a tamper-proof=C2=A0record of provenance. Whatever=
+ bad things you can say about NFTs, one thing that is surely true of an NFT=
+ is that you can tell when it was created. The creation date of these NFTs =
+=E2=80=94=C2=A02021, of course! =E2=80=94=C2=A0is permanently and immutably=
+ inscribed in the blockchain. The paintings=E2=80=99 creation date, man, wh=
+o knows; he burned those. You=C2=A0<em>can=E2=80=99t=C2=A0</em>backdate the=
+ creation of a crypto artwork; immutable provable time sequencing is in som=
+e deep sense the=C2=A0<em>point=C2=A0</em>of crypto. But Hirst found a way =
+to do it.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Endless shrimp</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I still think I=E2=80=99m mostly kiddi=
+ng about <a href=3D"https://link.mail.bloombergbusiness.com/click/35465286.=
+256336/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjQtMDUt=
+MjAvdGhlLWVuZGxlc3Mtc2hyaW1wLWludmVzdGlnYXRpb24_Y21waWQ9QkJEMDUyMjI0X01PTkV=
+ZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09Mj=
+QwNTIyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB5679d8f9" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">the endless shrimp thing</a>? Red Lobster <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/35465286.256336/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjQtMDUtMjAvc2VhZm9vZC1jaGFpbi1yZWQtbG9ic3Rlci1=
+maWxlcy1mb3ItYmFua3J1cHRjeS1wcm90ZWN0aW9uLWx3ZWg3dHBqP2NtcGlkPUJCRDA1MjIyNF=
+9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90Z=
+XJtPTI0MDUyMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBbad6=
+7c82" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">filed for bankruptcy</a> over the weekend, complaining that i=
+ts ultimate endless shrimp promotion cost it $11 million, but it does $2 bi=
+llion of revenue <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+5465286.256336/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS9yZWQtbG9ic3Rlci1l=
+bmRsZXNzLXNocmltcC1iYW5rcnVwdGN5LXByaXZhdGUtZXF1aXR5LWRlYnQtcmVhbC1lc3RhdGU=
+tMjAyNC01/607f07ceef4b8524a319a23cBdc20cf94" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">and was</a> =E2=80=9Cb=
+ogged down by increased labor costs and expensive leases on its restaurants=
+.=E2=80=9D It would be very funny if Red Lobster=E2=80=99s equity owner and=
+ shrimp supplier, Thai Union, stripped cash out of the company by stuffing =
+it with impossible quantities of shrimp, causing its bankruptcy, but I thin=
+k it=E2=80=99s probably not the main <em>cause</em>.</p><p style=3D"margin:=
+ 16px 0;">Still, Red Lobster=E2=80=99s chief executive officer did sort of =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35465286.256336/aH=
+R0cHM6Ly9kb2N1bWVudC5lcGlxMTEuY29tL2RvY3VtZW50L2dldGRvY3VtZW50Ynljb2RlP2RvY=
+0lkPTQzMzQwMzYmcHJvamVjdENvZGU9UkxSJnNvdXJjZT1ETQ/607f07ceef4b8524a319a23cB=
+c49e967d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">insinuate in the bankruptcy filings</a> that that=E2=80=
+=99s what happened, and it would be an incredible story of crustacean=C2=A0=
+financial engineering=C2=A0if it were true. Anyway the first-day bankruptcy=
+ hearing happened yesterday and <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/35465286.256336/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fyd=
+GljbGVzLzIwMjQtMDUtMjEvcmVkLWxvYnN0ZXItb3duZXItdGhhaS11bmlvbi1kaXNwdXRlcy1l=
+bmRsZXNzLXNocmltcC1kZWFsLWFsbGVnYXRpb25zP2NtcGlkPUJCRDA1MjIyNF9NT05FWVNUVUZ=
+GJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDUyMi=
+Z1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBf4b38d61" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>here=E2=80=99s the update from Thai Union</a>:</p><blockquote><p style=3D"=
+margin: 16px 0;">The Thai seafood supplier that owns Red Lobster Management=
+ LLC disputed allegations that it forced the now-bankrupt business to take =
+its shrimp while former management promoted an =E2=80=9Cendless=E2=80=9D sh=
+rimp deal at its restaurants.</p><p style=3D"margin: 16px 0;">Thai Union Gr=
+oup Plc disputed the contents of a sworn statement filed in bankruptcy cour=
+t from Red Lobster Chief Executive Officer Jonathan Tibus, which included a=
+llegations that the seafood supplier =E2=80=9Cexercised an outsized influen=
+ce on the company=E2=80=99s shrimp purchasing.=E2=80=9D</p><p style=3D"marg=
+in: 16px 0;">A Red Lobster lawyer read a statement from Thai Union during t=
+he restaurant chain=E2=80=99s first bankruptcy court hearing in Orlando, Fl=
+orida on Tuesday. Thai Union disputes all statements concerning the company=
+ and its relationship to Red Lobster, the lawyer said.</p></blockquote><p s=
+tyle=3D"margin: 16px 0;">Fine fine but I hope that lawyer brought a briefca=
+se full of shrimp to the hearing just for comedy purposes.</p><table class=
+=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+>
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Anglo <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/35465286.256336/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9uZXdzL2FydGljbGVzLzIwMjQtMDUtMjIvYW5nbG8tb3BlbnMtdGFsa3Mtd2l0aC1iaHAtYWZ0Z=
+XItcmVqZWN0aW5nLXRoaXJkLXByb3Bvc2FsP2NtcGlkPUJCRDA1MjIyNF9NT05FWVNUVUZGJnV0=
+bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDUyMiZ1dG1=
+fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBace665b3" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">Open=
+s Talks With BHP</a> After Rejecting $49 Billion Offer.=C2=A0Blackstone to =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35465286.256336/aH=
+R0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL2JsYWNrc3RvbmUtdG8tZ3JhbnQtZXF1aXR5LXRvL=
+W1vc3QtZW1wbG95ZWVzLWluLWZ1dHVyZS11LXMtYnV5b3V0cy0zYzVmZWQ0NT9tb2Q9aXRwX3dz=
+ag/607f07ceef4b8524a319a23cB0ea48748" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">Grant Equity to Most Employee=
+s</a> in Future U.S. Buyouts. The <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/35465286.256336/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmVzcy9oaWd=
+oZXN0LXBhaWQtY2VvLTIwMjMtY2hhcnRzLTBkNjViZTNiP21vZD1ocF9sZWFkX3BvczE/607f07=
+ceef4b8524a319a23cBa699dea0" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">Highest Paid CEOs</a> of 2023. BuzzFee=
+d Shares Soar as <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+5465286.256336/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjQt=
+MDUtMjIvYnV6emZlZWQtc2hhcmVzLXNvYXItYXMtdml2ZWstcmFtYXN3YW15LXRha2VzLXN0YWt=
+lLXNlZWtzLXRhbGtzP2NtcGlkPUJCRDA1MjIyNF9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haW=
+wmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTI0MDUyMiZ1dG1fY2FtcGFpZ249bW9uZ=
+XlzdHVmZg/607f07ceef4b8524a319a23cB3d6a9341" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">Ramaswamy Takes Stake<=
+/a>, Seeks Talks. Foreign Purchase of U.S. <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/35465286.256336/aHR0cHM6Ly93d3cud3NqLmNvbS9wb2xpdG=
+ljcy9uYXRpb25hbC1zZWN1cml0eS9mb3JlaWduLXB1cmNoYXNlLW9mLXUtcy1hbW1vLW1ha2VyL=
+XNwYXJrcy1uYXRpb25hbC1zZWN1cml0eS1iYXR0bGUtZGIzMTQ5MGQ_bW9kPWhwX2xlYWRfcG9z=
+Mw/607f07ceef4b8524a319a23cB05b20367" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">Ammo Maker</a> Sparks Nationa=
+l-Security Battle. Oaktree seizes control of <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/35465286.256336/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRl=
+bnQvZjI4N2IxZjgtOWJlYi00ZDE3LThkZjEtODFkMjI0MzQ2YzM4/607f07ceef4b8524a319a2=
+3cB01e4ea38" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">Inter Milan</a> after Chinese owner fails to repay loa=
+n. RFK Jr. says he <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/35465286.256336/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjQvMDUvMjIvYnVzaW5lc3MvcmZrLW=
+pyLXNheXMtaGUtaW52ZXN0ZWQtMjRrLWluLWdhbWVzdG9wLWFmdGVyLW1lbWUtc3RvY2stcmFsb=
+Hkv/607f07ceef4b8524a319a23cB2af001b5" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">invested $24K in GameStop</a=
+> after meme stock rally: =E2=80=98Apes together strong.=E2=80=99=C2=A0=E2=
+=80=9COnce you come to New York, you <a href=3D"https://link.mail.bloomberg=
+business.com/click/35465286.256336/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjQvMDUvMjEv=
+dXMtbmV3cy9ueWMtYnVybnMtY29ubmVjdGljdXQtb3Zlci1icmF6ZW4tYXR0ZW1wdC10by1zZWl=
+6ZS1iZXN0LXBpenphLWNyb3duLWNoZWVzeS1zdHVudC8/607f07ceef4b8524a319a23cB9a8f9=
+eae" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">won=E2=80=99t go back to New Haven</a>.=E2=80=9D</p><p style=
+=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-media"><em>I=
+f you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right i=
+n your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/35465286.256336/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20=
+vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5Yz=
+I1YWNlYTY3YQ/607f07ceef4b8524a319a23cBd6439a3a" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">subscribe at this link</a>. Or you can subscribe to Money Stuff an=
+d other great Bloomberg newsletters <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/35465286.256336/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld=
+3NsZXR0ZXJz/607f07ceef4b8524a319a23cB4f231fd6" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">here</a>. Thanks!</em></span></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"image-wrapper" style=3D"border-collapse: collapse; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"image-component" width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0">
+<tr>
+<td style=3D"width: 100%; border-collapse: collapse; mso-table-lspace: 0pt;=
+ mso-table-rspace: 0pt;" width=3D"100%">
+<center>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35465286.256336/aH=
+R0cHM6Ly9saW5rLmNodGJsLmNvbS9Nb25leS1TdHVmZi1Qb2RjYXN0LU5ld3NsZXR0ZXI/607f0=
+7ceef4b8524a319a23cB46dee6b0" target=3D"_blank">
+<!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Listen to the Money Stuff Podcast"=
+ src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i6H.ue2bNPOA/v0/-1=
+x-1.png" width=3D"550" /></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"image-component__image" src=3D"https://assets.bwb=
+x.io/images/users/iqjWHBFdfxIU/i6H.ue2bNPOA/v0/-1x-1.png" alt=3D"Listen to =
+the Money Stuff Podcast" style=3D"max-width: 550px; display: block; width: =
+100%;" /><!--[if mso]>
+</div>
+<![endif]-->
+</a>
+</center>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] The $7,684 comes from page 15 of the FCA o=
+rder, the benchmark price of the basket. The 7,548 is just $58 million divi=
+ded by $7,684.40. And 58 million times $7,684 gets you $444 billion.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] That and orders of magnitude, like typing =
+=E2=80=9C58,000,000=E2=80=9D in the =E2=80=9Cquantity in millions" field.</=
+p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] My experience of financial software is tha=
+t quantities are often signed in unintuitive ways. And this one is intuitiv=
+e! If I tried to sell $58 million of stock, and the software said =E2=80=9C=
+ORDER QUANTITY -$58,000,000,=E2=80=9D I=E2=80=99d be like =E2=80=9Csure, ri=
+ght, $58 million, and I=E2=80=99m selling, so it=E2=80=99s negative.=E2=80=
+=9D It is possible that some software designer somewhere thought =E2=80=9Ci=
+f we default to -1 for erroneous prices, everyone will immediately see that=
+ that=E2=80=99s impossible, you can=E2=80=99t have a negative price,=E2=80=
+=9D but traders see minus signs on quantities all the time and are unfazed =
+by them. Also of course the minus sign is small and you might miss it.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] I assume because of the bank holiday, thou=
+gh I don=E2=80=99t know, and it could be about trading hours or time differ=
+ences or something.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] Also, Citi had a hard block on certain ord=
+ers that exceeded 95% of average daily volume for a stock. But this block a=
+pplied to =E2=80=9CDMA flow,=E2=80=9D meaning =E2=80=9Cdirect market access=
+,=E2=80=9D or orders sent directly to smart order routers, but not =E2=80=
+=9CDSA flow,=E2=80=9D meaning orders generated within Citi=E2=80=99s CitiSm=
+art algorithmic trading system. This trade was from CitiSmart and so not su=
+bject to a volume limit.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] I understand that this is unlikely at 8:48=
+ in the morning, and it=E2=80=99s probably more like =E2=80=9Csome other ge=
+ography was in charge overnight and ordinarily hands off to London Algorith=
+mic Service Desk in the London morning, but this day, because of a bank hol=
+iday, they handed off to a different desk.=E2=80=9D </p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35465286.256336/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB204f8a3c" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35465286.256336/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB2059e427" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35465286.256336/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB09698bdf" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35465286.256336/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB97b3c9e7" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/35465286.256336/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB2dd11849" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/35465286.2563=
+36/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBaa915190" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/35465286.256336/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC73233889" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/35465286.256336/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB86354604" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/35465286.256336/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBc237b305" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35465286.256336/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB8=
+fba436b" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/35465286.256336/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB2=
+ebedd64" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cl456u.5hsg/a139504b.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_28368474_1707726864.1716396903142--

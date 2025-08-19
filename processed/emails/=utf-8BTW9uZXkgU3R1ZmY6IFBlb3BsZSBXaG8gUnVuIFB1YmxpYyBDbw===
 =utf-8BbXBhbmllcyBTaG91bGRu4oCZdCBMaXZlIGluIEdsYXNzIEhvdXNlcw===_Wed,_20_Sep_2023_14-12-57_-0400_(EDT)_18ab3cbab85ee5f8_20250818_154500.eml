@@ -1,0 +1,2285 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6359:5c04:b0:13e:ba3b:de11 with SMTP id pu4csp796646rwb;
+        Wed, 20 Sep 2023 11:13:04 -0700 (PDT)
+X-Received: by 2002:adf:fdc3:0:b0:321:6388:bccb with SMTP id i3-20020adffdc3000000b003216388bccbmr2885573wrs.21.1695233584102;
+        Wed, 20 Sep 2023 11:13:04 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1695233584; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=nHrDMuEjdSP6huDV4mp8tyrP+q9WhWUYaTdkbckCoWNpLjGyiFUdBTG/vYYOCgaPeS
+         hGPS+s6fOrKFKoTiPcrgFuXW5PVX7h3W3HPRgC1zaK+HoeqcpGk/Pea8U6XMHYjg7JqS
+         9RJuLnyKLBEe0orIcvw8p1ECdiv44yQgoOK0IKJD4k6aO1Ixxzt8TRV2rzt1MnzJeuiT
+         19hG1PtHHs78G7o/w61dHNll0Df/JQiSbRCr6IHGyccvP1Cj7e9EHUV3Eh/wyYQv+05n
+         Z2D+gB2eoyiYmgs583SHhy9+QNhVSkdXgKrft+EET1T9vaP25gwu9hpSAH8ZKo9K77YF
+         pVng==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=BMj/YxLjgKaczcjws0sgyOXRz3+4hXrPB40IBJVcPrY=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=YSzbLPwmNdbscukHra3oTrXhqElAW0rNAuFQccMcMz9cPAiIdb5Pr0d/XqF9hVxADg
+         mktbjy8HpZAXgA119RgQ+dmEGI+OJwoaGNUjIwtE8YTEi9JtpeYdMulkHoyPRqcxHK56
+         TKyi5dSawYqHRsjVU0/R9Jcx7s7ZQgC0bnUY5guYXqCiOiMLnB6qiHXT5K1cBOFwZwMm
+         KnL8kE1OCXRCBYODLvGevcfh/lCubPw9wK+fJVzgHZ+VtSNkmjxELqLlJwAil1pjZvFw
+         JNLR+jZinmNofEdXLZcowpotmfzW+hrSKsu9YwVSvkAiKjRfSZiWaMClng1hQl55U1Jm
+         N6sw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=f2k3DjF8;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id r26-20020adfa15a000000b003198597352dsor1245397wrr.3.2023.09.20.11.13.03
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 20 Sep 2023 11:13:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=f2k3DjF8;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1695233583; x=1695838383;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=BMj/YxLjgKaczcjws0sgyOXRz3+4hXrPB40IBJVcPrY=;
+        b=KxV9kRIXtYQJhzTwl6P5l/N06bXwQvCJRlN1D4E8Zh2YKUlAbaU0+m/lY0FL5hU5AX
+         qUYQ1aFbxmVO5regzWWvTBYrndjI+LViEP+WcIdTc6ZVRUXYHjoMhT1kaKYxdowH5uzy
+         EQsOtFiOLvvq6Dx79xzmcZ3m/NpvAmNdeOqFuLvjRUe7PXELUVhCchIsn5/OJxxCE6OD
+         HUIW7OeB+yWm9414huBo4T4WSkYWGUtyq3ehPY+ThXr1a6y6aZdGfO56YqQlwzl7iVbT
+         5HovEUAU9U0ncyU1xPhdCe72QxpSiOFBhNLWFt5UQ7Til95AV/gfN5EotcWf/HKDB9EO
+         e7qA==
+X-Gm-Message-State: AOJu0Yzrzkz7QHIicZ5C1cfgeSbZceBEqIpVSJ4oDJjVclSP+aNRnloH
+	zjmO4lGuz2ZCJ1thaXkzq/HWMX5xkRqzfDY7LyMuJxVZqzJAfxMUOg==
+X-Received: by 2002:a05:6000:118d:b0:321:6936:c217 with SMTP id g13-20020a056000118d00b003216936c217mr3154941wrx.14.1695233583452;
+        Wed, 20 Sep 2023 11:13:03 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:49ce:0:b0:317:6ac3:4e22 with SMTP id t14csp48873wrs;
+        Wed, 20 Sep 2023 11:12:59 -0700 (PDT)
+X-Received: by 2002:a05:6808:6398:b0:3a8:f3e7:d696 with SMTP id ec24-20020a056808639800b003a8f3e7d696mr2798919oib.45.1695233578943;
+        Wed, 20 Sep 2023 11:12:58 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1695233578; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=fRCGR6qDqHdfAEhl2gIkju4K/cqT7nI81o30gH4Rhpzsj5nyC8Nkj0Lnfknm4Okc3X
+         k0hhy+Hx0iJUes93TV0dZwddeerhgKN+dyGJzPeZA8ZUB7u6IVpYXwdCj1j/BLw49Ll6
+         H0a0LQxS2UuBeJoYRGZdtX8bLk40KBDhFr9jNRQjdcHI8ebW74FgMj9IQJ1s2t2qrOsf
+         GjNVOnaAYurkBwDIoxVxIDLd/PXo6JYBC0qemstmldbSNgmUEsrMUtPnRobr+h2T02L+
+         6A8fbKrB5c7qJKiKPnn8MCpuCLnbGQ5PpPq8YnTcY4e+URoHBRmnxh6M1ghkwWHD2SpP
+         9Qgg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=BMj/YxLjgKaczcjws0sgyOXRz3+4hXrPB40IBJVcPrY=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=lHImyhVc8yNlhabN7SuGPhmEU7T4+6+5R0E7GeCOct5JXERJlJZO/uPJEwWR3vIxvt
+         AJGNo4mAcAZjeml490118DetzYoEVgKEBhpZ/n8pMnRTa2anXjWLBWZpfiZT0O2YEz7I
+         FeWwexdh958hYvmkFpr+DkwPYa0QN7A4+5eNxQR7XlONHUrTTdLkj+zOu4SoPtn8+6kd
+         +PrpPM1ME6Sl+ZYPnhUr2D3ByaV+8M5Sv5Jo4SJSrv1b6jEoAhIjCagTaGhvkaNKcfkJ
+         Kg2behCzvoLyGoBg07VvJnAG2qLGq71gJRiJzEWLmHqygOiWUqLHeUT3tud5BrwAzdMN
+         81iA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=f2k3DjF8;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230920141257.32776778.258423@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230920141257.32776778.258423@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20230920141257.32776778.258423@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id en10-20020a056808394a00b003a9947d9f8csor8577690oib.6.2023.09.20.11.12.58
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 20 Sep 2023 11:12:58 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230920141257.32776778.258423@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IHkQp7/CmxuN2VkytO4Ys2XYw5gv2fc/hy0MKf6Ext1uQiCNi/rdeNCO1OpmP8NWgYsoqkmnNj9gyjueX9HnRpYc3vLFB0=
+X-Received: by 2002:a05:6808:1805:b0:3a1:eccc:26da with SMTP id bh5-20020a056808180500b003a1eccc26damr3718742oib.25.1695233578485;
+        Wed, 20 Sep 2023 11:12:58 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1695233578; cv=none;
+        d=google.com; s=arc-20160816;
+        b=qTSRMRtLt+k5z3VQLLXA3MB8fAD48uhNSKHV4B84ZO5YgHFDiA8qP2ndrb9dlTIOlw
+         lothQeVbg4DB6OFQRo0I0ihIrHfn7ZcBgUn8DTBglaqByN6LKN6p7+0k8KAxQLgnTg6z
+         SUDfxLD1ILDO+9ugU6c5LmDB1oQZqudh5KUe0D6SS9PCJ9lK1YJmbwe/bBfxhna3oX9k
+         iTVKyD1o3lnbpvhoPwdZk3c+pJB7CNe3gxsI2nOGW7Y8Wgfx0Taf0Xbws8PHaPxiemC6
+         ZDt5xLsAMFInprgM3h2SW6eDMNDASfKWpktFq4F10k2ENaGjlRzuvzglmn8j69CFg/mm
+         TKbA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=BMj/YxLjgKaczcjws0sgyOXRz3+4hXrPB40IBJVcPrY=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=vLWuXWtKHtK3W2CJ8Vccp9ZIUGx/i/Qes4ZZahrvZ/JhyqVAUZv6z/LCVYlCBj9hpZ
+         sTXZK2aa++JLAdy07A1TsBMEUiwdunPPhpn6fntHp1Owx2skH2NUUav4T+BnW5wu806Q
+         OiigW48QKAsiDlCuHhMgNz0csBdbwhuqLJHP+BVO9LSMw1Ww8qBlR6LGvI0t7HYrr23N
+         DdhqqoDar0ecme9gnC0xOqFVpMRE5Gxyhy5w7vb8bwWwwLmflbM8Givq0pndCShAPVc1
+         Wkk7UWJD/sRD4ANBPI2xfieYfPeOYrGwsv7Qe4QcDjwkFvfmJbY02aHwPekGEBCjDSNJ
+         A9ZQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=f2k3DjF8;
+       spf=pass (google.com: domain of delivery_20230920141257.32776778.258423@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230920141257.32776778.258423@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20230920141257.32776778.258423@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id gr14-20020a0568083a0e00b003adb3013457si1488647oib.0.2023.09.20.11.12.58
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 20 Sep 2023 11:12:58 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230920141257.32776778.258423@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=dJ7dgI5THCV/C80Etb9yuZ+u5XjS86X8NHpPJHV+U6w=;
+ b=f2k3DjF8MaZX/BUhuScMlM3NVInVpBoxnsIdDqZBnU/R+DdoZcf1J77SMOmbCuEfIiOdW54WGQvM
+   PyQhN004B/Oho5lvQGocPI5UECEf1E94Nhbnghugntc1rbmJN8/rMD9Q31lc+DgUxwBZKN5rW+Tz
+   bf5+7X2HtLYjVTybiSc=
+Received: from ip-10-55-63-166.ec2.internal (10.55.63.166) by aws1-mta-relay10.sailthru.cloud id h1cr2i1qqbs1 for <bloomberg@khamel.com>; Wed, 20 Sep 2023 13:12:57 -0500 (envelope-from <delivery_20230920141257.32776778.258423@mx.sailthru.com>)
+Date: Wed, 20 Sep 2023 14:12:57 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230920141257.32776778.258423@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IFBlb3BsZSBXaG8gUnVuIFB1YmxpYyBDbw==?=
+ =?utf-8?B?bXBhbmllcyBTaG91bGRu4oCZdCBMaXZlIGluIEdsYXNzIEhvdXNlcw==?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_14211589_29927754.1695233577711"
+Precedence: bulk
+x-job: 6358-32776778-20230920
+X-Feedback-ID: 6358:32776778:campaign:sailthru
+X-TM-ID: 20230920141257.32776778.258423
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-63-166.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjiiq2.5jef/434d1d1e
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjiiq2.5jef/434d1d1e>, <mailto:unsubscribe_20230920141257.32776778.258423@mx.sailthru.com>
+X-rpcampaign: stjko32776778
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_14211589_29927754.1695233577711
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        I think that if you are a Tesla Inc. investor the deal you are sign=
+ing up for is: Elon Musk is a bad and annoying chief executive officer by
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Tesla perks
+   =20
+ =20
+
+I=C2=A0think that if you are a Tesla Inc. investor the deal you are signing=
+ up for is:
+=09Elon Musk is a bad and annoying chief executive officer by almost every =
+conventional metric.
+  [1]
+ He is distracted by running  several  other  companies and by weird person=
+al projects and by getting in  dumb fights online. He constantly gets in  t=
+rouble with  regulators and says things about Tesla=C2=A0that   aren=E2=80=
+=99t true. He is  rude and unhelpful to analysts on earnings calls.=C2=A0He=
+ overpromises and  underdelivers. He loves   doing transactions that create=
+   conflicts of interest, that make no business sense=C2=A0and that seem to=
+ advance his interests over those of shareholders. The board of directors i=
+s stocked with his loyalists and brother. His pay package is comically,   p=
+erhaps illegally large.=C2=A0His impulsiveness makes Tesla=E2=80=99s stock =
+more volatile: He sometimes pumps up the price=C2=A0by   making false publi=
+c statements, and sometimes knocks it down by   tweeting that it should go =
+down.=C2=A0=09Tesla makes cool electric cars and sells them for, increasing=
+ly, a profit, and over time the stock goes up a lot. It=E2=80=99s up more t=
+han=C2=A0100% year-to-date, though it had a rough 2022, and up more than 1,=
+000% over the last five years.=C2=A0Tesla=E2=80=99s equity market capitaliz=
+ation is about $850 billion, value that Musk has, in a fairly direct sense,=
+ created for shareholders.
+
+My assumption is that every Tesla shareholder
+  [2]
+=C2=A0is=C2=A0very happy=C2=A0with this tradeoff. They are in the stock mos=
+tly to make money, and whatever Musk=E2=80=99s other problems are, he=C2=A0=
+does make them money. Also some of them are in the stock a little bit to be=
+ entertained by Musk=E2=80=99s antics, and while not everyone finds=C2=A0th=
+ose antics=C2=A0entertaining, presumably the shareholders do.=C2=A0
+This is, I think, very true of Tesla=E2=80=99s meme-stock-y retail investor=
+s, but it is also pretty clearly true of a more institutional class of Elon=
+ Musk fans. When Musk went off on his apparently harebrained and so-far-mon=
+ey-losing acquisition of Twitter Inc., several big investment firms and bil=
+lionaires clamored to join him, happily writing big checks with no due dili=
+gence. The thinking   seems to have been=C2=A0=E2=80=9Cthis guy does a lot =
+of nonsense but he has made us a lot of money, so let=E2=80=99s see where t=
+his goes,=E2=80=9D which strikes me as a perfectly rational investment thes=
+is.
+In fact the whole deal strikes me as perfectly rational, and quite good, fo=
+r Tesla=E2=80=99s shareholders.=C2=A0I personally am not a huge fan of Musk=
+=E2=80=99s antics, but then, I don=E2=80=99t own Tesla stock.
+  [3]
+=C2=A0If you offered to let me travel back in time to 2018 and take this de=
+al =E2=80=94=C2=A0=E2=80=9Cyou put your money in Tesla stock, Elon Musk wil=
+l make it go up 10x, but he=E2=80=99ll do a lot of nonsense along the way=
+=E2=80=9D =E2=80=94=C2=A0I would absolutely take it. I=E2=80=99d tune out t=
+he nonsense and enjoy=C2=A0the money. Or I=E2=80=99d even enjoy the nonsens=
+e. =E2=80=9COh you scamp, using Tesla to bail out another company you own, =
+good thing you=E2=80=99re making me all this money,=E2=80=9D I=E2=80=99d ch=
+uckle, like many Tesla shareholders do.
+If you are an investor in Space Exploration Technologies Corp. =E2=80=94=C2=
+=A0SpaceX, Musk=E2=80=99s second-biggest company =E2=80=94=C2=A0you get bas=
+ically the same deal.   Conflicted transactions, conflicted board of direct=
+ors, constant distractions, occasional rocket explosions, but also he built=
+ a successful space company from scratch and it=E2=80=99s   worth like $150=
+ billion.=C2=A0
+But SpaceX is a private company,
+  [4]
+=C2=A0and Tesla is a public company. With a private company, the deal betwe=
+en the entrepreneur and the investors can kind of be whatever you want: The=
+ company can have more or less whatever contractual terms or informal under=
+standings or governance structure the entrepreneur and the investors agree =
+to. If Musk comes to the board of SpaceX and says =E2=80=9Chey you need to =
+lend me $1 billion for a week so I can win this fight I=E2=80=99m having on=
+line,=E2=80=9D the board can be like =E2=80=9Csure here you go you little r=
+ascal.=E2=80=9D It might not even have to tell shareholders. And if the sha=
+reholders find out in the newspaper they can be like =E2=80=9Clol that=E2=
+=80=99s our boy=E2=80=9D and everyone can be perfectly happy about it.=C2=
+=A0
+Whereas with a public company, there are just rules that apply to all publi=
+c companies, and that constrain the deals you can make. There are standard =
+rules, enshrined in the US securities laws, regulating what companies have =
+to disclose to investors and how they have to communicate and what their re=
+lationship with their CEO can look like. And if you break those rules it is=
+ mostly not a defense to say, like, =E2=80=9Cbut my shareholders love me an=
+d think this is funny,=E2=80=9D or =E2=80=9Cbut look how much money I am ma=
+king for them.=E2=80=9D
+If Elon Musk says nonsense about SpaceX online and his investors are happy,=
+ then it=E2=80=99s fine.
+  [5]
+=C2=A0If Elon Musk says nonsense about Tesla online and his investors are h=
+appy, but the US Securities and Exchange Commission is not happy, then  the=
+ SEC can step in and fine him $20 million and make him stop being Tesla=E2=
+=80=99s board chairman. Is that what Tesla=E2=80=99s shareholders wanted? P=
+robably not, no, but a public company is not just a deal between Musk and h=
+is shareholders; the SEC gets a say too.
+Similarly if Musk went to the board of SpaceX and said =E2=80=9CI would lik=
+e you to spend a billion dollars of shareholder money to build me a mansion=
+ that floats in midair 500 feet above Texas, powered by several rocket thru=
+sters,=E2=80=9D there would probably be permitting issues, and maybe the di=
+rectors would say no. But if the directors were cool with it and the shareh=
+olders were cool with it and the, uh, rocket house regulators were cool wit=
+h it then no securities regulator would get to step in to say =E2=80=9Cno, =
+this is not an acceptable use of shareholder money, you need to disclose th=
+is and put it to a vote.=E2=80=9D
+Whereas:
+
+Federal prosecutors are scrutinizing personal benefits Tesla may have provi=
+ded Elon Musk since 2017=E2=80=94longer than previously known=E2=80=94as pa=
+rt of a criminal investigation examining issues including a proposed house =
+for the chief executive.=C2=A0
+The U.S. Attorney=E2=80=99s Office for the Southern District of New York al=
+so has sought information about transactions between Tesla and other entiti=
+es connected to the billionaire, people familiar with the investigation sai=
+d. Prosecutors have referenced the involvement of a grand jury. =E2=80=A6
+Among the questions prosecutors are examining is whether Tesla properly dis=
+closed perks Musk might have received. Internal or external lawyers typical=
+ly handle such disclosures. At Tesla, Musk has at times personally guided w=
+hat information to disclose to shareholders. It couldn=E2=80=99t be learned=
+ whether that was the case with any perks that prosecutors are scrutinizing=
+. Tesla has said it generally doesn=E2=80=99t provide perks or other person=
+al benefits to its top executives.
+
+A criminal investigation! At SpaceX, Musk could send the board a group text=
+ being like =E2=80=9Chey fyi I took $1 billion out of the petty cash drawer=
+ for purposes, will put it back next week or so=E2=80=9D and it=E2=80=99s f=
+ine.
+Musk=E2=80=99s funniest Tesla perk is an  alleged glass house:
+
+=C2=A0The Wall Street Journal reported last month that the Justice Departme=
+nt is investigating Tesla=E2=80=99s use of company resources on a secret pr=
+oject that was described internally as a house for Musk.=C2=A0
+The house effort was known within the carmaker as =E2=80=9CProject 42,=E2=
+=80=9D and plans called for an expansive glass building to be constructed n=
+ear Tesla=E2=80=99s Austin-area factory and headquarters.=C2=A0
+The Securities and Exchange Commission has opened a separate civil investig=
+ation into the project, the Journal has reported.=C2=A0
+On X, the social-media platform formerly known as Twitter, Musk has said th=
+ere isn=E2=80=99t a glass house =E2=80=9Cbuilt, under construction or plann=
+ed.=E2=80=9D He didn=E2=80=99t address past work or plans; neither he nor h=
+is representatives have responded to requests for comment.=C2=A0
+
+I have   written about the house before:
+Look honestly I think spending millions of dollars to build a giant glass h=
+ouse for Elon Musk right near Tesla headquarters is a=C2=A0good=C2=A0use of=
+ corporate funds? Keep an eye on him. Really if the board had thought of th=
+is I would be praising it as an innovative corporate governance idea. You c=
+an=E2=80=99t necessarily make Elon Musk warn you when he=E2=80=99s going to=
+=C2=A0tweet something material=C2=A0or go buy another company to run full-t=
+ime, but you=C2=A0can=C2=A0give him the gift of a glass house and get yours=
+elf a telescope.
+But also just Elon Musk has a lot of weird whims and if you are an investor=
+ or director at one of his companies it makes some sense to spend sharehold=
+er money to=C2=A0satisfy his whims so that he will be content and=C2=A0devo=
+te more of his attention to your company, since his attention does, empiric=
+ally, seem to make most of his companies more valuable. (Not Twitter?
+  [6]
+) And so in some informal sense Elon Musk=E2=80=99s compensation-and-perks =
+package at his companies is =E2=80=9Cwhatever he wants, just keep him happy=
+.=E2=80=9D At SpaceX that is a basically plausible package. At Tesla it=E2=
+=80=99s=C2=A0possibly a crime.
+I   wrote a few weeks ago about that SpaceX loan:
+
+Back in 2018, when Musk was musing about taking Tesla private, I argued tha=
+t it made no sense: The public markets had been very kind to Tesla, allowin=
+g Musk to raise billions of dollars and giving his company a huge valuation=
+ without actually imposing any real restrictions on him. ...
+But I think I may have missed the main issue. The main issue is that Musk r=
+uns a web of companies, some of which need cash and some of which have cash=
+, and he is also in the business of starting or buying other companies, cre=
+ating more cash needs. If all of the companies are private, he can sort of =
+use their cash interchangeably: Sure, each company has different outside in=
+vestors and its own board of directors, but they are all part of the Elon M=
+usk family, and it=E2=80=99s not too hard to work something out. =E2=80=A6=
+=C2=A0
+But there are=C2=A0some=C2=A0limits from being public. =E2=80=A6=C2=A0If yo=
+u want to run a web of companies that all support each other, it might be e=
+asier if they are private.
+
+I don=E2=80=99t know, it=E2=80=99s just a strange situation.=C2=A0In genera=
+l=C2=A0it makes sense for US public companies to have rules like =E2=80=9Ct=
+he CEO=E2=80=99s perks should be disclosed to shareholders=E2=80=9D or =E2=
+=80=9Cthe CEO can=E2=80=99t go around lying about the company=E2=80=99s bus=
+iness=E2=80=9D or whatever. And the rough rule that sophisticated sharehold=
+ers of private companies can make informed choices to strike whatever deal =
+they want with their CEOs, while public-company shareholders are protected =
+by standard universal rules enforced by the SEC and the Justice Department,=
+ also makes sense. In general, public-company=C2=A0CEOs should not be allow=
+ed to act like Elon Musk.
+But Elon Musk really has made a lot of money for Tesla=E2=80=99s shareholde=
+rs! And for SpaceX shareholders, but there seems to be  no rush to go publi=
+c there. I increasingly think that, when he was pretending to take Tesla pr=
+ivate in 2018, Musk was in some sense serious: He realized that, while goin=
+g=C2=A0public was good for Tesla=E2=80=99s financing, it was a bad fit for =
+his personality, and he kind of wanted to reverse=C2=A0it. CEOs often compl=
+ain about the costs and constraints and short-termism and legal risks of ru=
+nning a public company; regulators sometimes talk about bringing more compa=
+nies into the public markets or about giving more investors access to the p=
+rivate markets. But one important feature of public markets, for better or =
+worse, is that they are not very compatible with=C2=A0the whole Elon Musk d=
+eal.=C2=A0
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Goldman GreenSky
+   =20
+ =20
+
+A basic fact about the mergers-and-acquisitions advisory business is that, =
+if you run a company, and an investment banker comes in to pitch you on doi=
+ng an acquisition:
+=09That acquisition might or might not be a good idea for your company. In =
+general the  track record of companies doing acquisitions is mixed to bad.=
+=C2=A0=09It=E2=80=99s definitely a good idea for the banker! If you hire he=
+r bank to do the acquisition, it will get a big fee and she=E2=80=99ll get =
+a big bonus.
+  [7]
+=C2=A0If the deal turns out to be a dud for you, that=E2=80=99s not her pro=
+blem.
+  [8]
+
+
+
+Everybody who has ever been pitched on doing a merger probably knows this. =
+The banker sitting across from you is your trusted adviser, sure, but she=
+=E2=80=99s also selling you something, and it=E2=80=99s your job to figure =
+out if it=E2=80=99s a good idea for you. You know it=E2=80=99s a good idea =
+for her.
+We have   talked a lot in recent months about Goldman Sachs Group Inc. part=
+ners who are disgruntled with the regime of Chief Executive Officer David S=
+olomon, who runs Goldman like a normal public company rather than like the =
+private partnership that it was for many years, and that it sort of pretend=
+ed to be for another 20 years after that. (Usual disclosure: I used to work=
+ at Goldman.)
+Here is =E2=80=9CWhy former Goldman Sachs partners say they left the firm=
+=E2=80=9D by Dakin Campbell at Insider, based on interviews with six anonym=
+ous former partners. The basic complaints about Solomon boil down to (1) he=
+ treats the partners like employees rather than like partners and (2) Goldm=
+an put a lot of chips into a bet on consumer banking that didn=E2=80=99t wo=
+rk out, and it is now doing an  embarrassing and costly retreat.
+These complaints are related=C2=A0in the sense that they are both partly ab=
+out nostalgia for the good old days, when Goldman was an elite player in hi=
+gh finance that would never deign to do small-dollar consumer business, and=
+ when the partners were the elite=C2=A0within the elite who were running th=
+e show. Now =E2=80=9Cpartner=E2=80=9D is a courtesy title and Goldman is gi=
+ving out toasters when you open a checking account, feh.
+I often   quote John Whitehead=E2=80=99s  Investment Banking Services comma=
+ndments around here. =E2=80=9CDon=E2=80=99t waste your time going after bus=
+iness we don=E2=80=99t really want,=E2=80=9D is one of them. =E2=80=9CIt=E2=
+=80=99s just as easy to get a first-rate piece of business as a second-rate=
+ one,=E2=80=9D is another. My favorite is: =E2=80=9CImportant people like t=
+o deal with other important people. Are you one?=E2=80=9D You can see why s=
+ome Goldman partners who grew up with those commandments might be grumbling=
+ now. They see Goldman going after business they don=E2=80=99t really want,=
+ and they don=E2=80=99t feel as important as they used to.
+Also though there=E2=80=99s this anecdote:
+
+The bank is also now selling its GreenSky point-of-sale financing business.=
+ Yet the acquisition, which Goldman made in 2021 for $2.2 billion, still ra=
+nkles Goldmanites. The deal never made sense to many people inside Goldman,=
+ especially those in its investment-banking division who had spent their ca=
+reers advising corporate executives on takeover targets. =E2=80=A6
+It's not just internal people who have noticed. One former partner who spok=
+e with Insider said that in calling on clients, people had had to answer fo=
+r Goldman's consumer-banking missteps.=C2=A0
+"It's kind of embarrassing when you are showing up to a client pitching for=
+ M&A business, position yourself as the best M&A advisor, pointing to these=
+ credentials, and our own deals have been an absolute mess," the person sai=
+d. "The number of jokes clients make, and there is some truth, why hire you=
+ to do M&A if you can't even do your own M&A." =C2=A0
+
+Oh come on! I do not believe for a second that some Goldman investment bank=
+er showed up to pitch a merger and the client was like =E2=80=9Cnope, not t=
+aking your merger pitch because Goldman bought GreenSky, proving that you=
+=E2=80=99re dummies like everyone else.=E2=80=9D I mean, sure, as a joke. B=
+ut the idea here is that previously Goldman would pitch M&A deals and the c=
+lients were like =E2=80=9Coh wow Goldman says I should buy this company, th=
+at must be right, they are very smart and their M&A pitch is=C2=A0a disinte=
+rested search for truth,=E2=80=9D but now that GreenSky didn=E2=80=99t work=
+ the clients realize that Goldman is fallible. Everyone always knew the M&A=
+ pitches were fallible! Still, fine, I concede that it is a little funny to=
+ make fun of your M&A banker for her bank=E2=80=99s bad M&A deals.
+
+ =20
+   =20
+      Floating rates
+   =20
+ =20
+
+If you lend someone money at a floating interest rate, and then rates go up=
+ a lot, you get paid the new higher interest rate. If you lend someone mone=
+y at a fixed interest rate, and then rates go up a lot, you still get paid =
+the old low interest rate. Getting paid more is better than getting paid le=
+ss, so from first principles=C2=A0floating-rate loans are a better investme=
+nt than fixed-rate bonds,=C2=A0if interest rates are about to go up rapidly=
+.
+  [9]
+
+From second principles you could quibble with that. Floating-rate loans pay=
+ higher interest as rates go up, which means that they are riskier=C2=A0for=
+ the borrower=C2=A0as rates go up. If you make a loan at the Secured Overni=
+ght Financing Rate plus 5% when SOFR is zero, then the borrower pays about =
+5% interest; if SOFR then goes up to 5.3%, then the borrower has to pay 10.=
+3% interest, more than doubling its interest expense. Maybe the borrower ca=
+n=E2=80=99t afford that, and goes bankrupt, and you get nothing instead of =
+your 10.3%. Whereas if you had made the loan at a 6% fixed rate, and then r=
+ates went up, the borrower would still be paying 6%, which it could presuma=
+bly still afford. You=E2=80=99d be getting less interest, but you=E2=80=99d=
+ still be getting it.
+From third principles this is sort of a silly objection? Like if the borrow=
+er called you and said =E2=80=9CI can=E2=80=99t pay 10.3%=E2=80=9D you coul=
+d say =E2=80=9Cwell okay pay like 6.3%=E2=80=9D and maybe they=E2=80=99d be=
+ fine and you=E2=80=99d still be doing better than if you had made a 6% fix=
+ed-rate loan. And some of your borrowers would still be paying 10.3% with n=
+o problem, or with some problem but it=E2=80=99s not=C2=A0your=C2=A0problem=
+, you are a senior creditor, you are just collecting interest. I dunno, it =
+just seems obvious that floating-rate loans would outperform fixed-rate bon=
+ds when interest rates rise really far really fast, even if the default ris=
+k on floating-rate loans ticks up faster than it does on fixed-rate bonds.
+Anyway here=E2=80=99s a Wall Street Journal story about the facts that (1) =
+yes, floating-rate loans have outperformed fixed-rate bonds as rates have s=
+hot up
+  [10]
+=C2=A0but (2) people find that surprising:
+
+It is one of the biggest surprises on Wall Street: the outsize performance =
+of risky corporate loans.
+Since the start of last year through Friday, loans backed by companies incl=
+uding PetSmart and Uber Technologies in the Morningstar LSTA U.S. Leveraged=
+ Loan Index delivered a return of 9.3%, buoyed by higher interest rates and=
+ a resilient economy. Investment-grade bonds lost 13% in that time, countin=
+g price changes and interest payments, while the S&P 500 lost 3.9%.
+Few investments have been as maligned as leveraged loans, the low-rated deb=
+t often used to fund private-equity company buyouts. When the Federal Reser=
+ve started aggressively raising rates last year, many analysts warned that =
+these loans were vulnerable because their rates rise and fall with those se=
+t by the central bank.=C2=A0
+Higher rates, these analysts warned, would squeeze loan borrowers by saddli=
+ng them with larger interest payments and tipping the economy into a recess=
+ion, thereby depressing corporate revenue. Individual investors pulled bill=
+ions of dollars out of loan funds starting around mid-2022.
+So far, the skeptics have been mistaken. The economy has remained strong, h=
+elping issuers withstand rising interest costs and keep cash flowing to inv=
+estors. Meanwhile, prices of bonds with ultralow fixed rates have tumbled, =
+amplifying the advantage of floating-rate debt.
+
+I do feel like that was always the advertisement for leveraged loan funds? =
+The advertisement was =E2=80=9Crates are zero now, but they won=E2=80=99t b=
+e forever, and if they go up you will want to own floating-rate loans=E2=80=
+=9D? And that was correct?
+
+ =20
+   =20
+      Financial transactions tax
+   =20
+ =20
+
+Chicago is a city with outsized global importance in the industry of high-s=
+peed trading. If you are buying financial assets and selling them a millise=
+cond later, you are disproportionately likely to be doing that from Chicago=
+. Also there=E2=80=99s a decent chance that you make a nice living. Meanwhi=
+le Chicago=E2=80=99s municipal budget does not look all that hot, and so it=
+s civic leaders naturally think about how to raise more revenue. They see a=
+ll these people doing all these high-speed trades and making a lot of money=
+ doing it, and they think, well, if we charged these people just $1 per tra=
+de we=E2=80=99d make up our budget shortfall in no time, and surely they wo=
+uldn=E2=80=99t miss the dollar?
+Bloomberg=E2=80=99s  Isis Almeida reports=C2=A0that they=E2=80=99ll miss th=
+e dollar:
+
+[Financial] firms=E2=80=99 commitment to the Windy City is being tested by =
+some $800 million in taxes proposed by a new mayor staring down a budget ga=
+p that=E2=80=99s swelled to half a billion dollars. One idea is a levy on f=
+inancial transactions, which has alarmed companies already worried about a =
+jump in crime that shows few signs of abating.
+Behind the scenes, market makers and exchanges are working together to pres=
+s their case with policymakers, with firms that typically compete with each=
+ other sharing data to help explain their economic benefits to Chicago. Whi=
+le executives haven=E2=80=99t explicitly threatened to leave, in private co=
+nversations it=E2=80=99s clear they will consider quitting the city if crim=
+e remains an issue and the financial transaction tax passes. =E2=80=A6
+Mayor Brandon Johnson=E2=80=99s office said that no decision has been made =
+on a transactions tax and the administration is open to dialogue with busin=
+esses. Jason Lee, a senior adviser, noted that Chicago has a diversified ec=
+onomy and =E2=80=9Cwe are lucky we don=E2=80=99t depend on a single industr=
+y.=E2=80=9D
+=E2=80=9CWe know the financial transaction one has been highly debated and =
+there may be merit in that, but we look forward to that debate,=E2=80=9D he=
+ said. =E2=80=9CWhat the mayor has said is that solutions cannot disproport=
+ionately impact the working and middle class of our city.=E2=80=9D =E2=80=
+=A6
+Most importantly for the derivatives industry, Johnson has floated seeking =
+another $100 million with a levy of $1 to $2 for every securities contract =
+traded. That would boost costs by as much as 800%, according to CME. =E2=80=
+=A6=C2=A0Illinois Governor=C2=A0JB Pritzker, who would need to approve a tr=
+ansactions levy, opposes the idea, saying he=E2=80=99s worried =E2=80=9Cit =
+would be easy for those companies and servers to move out of the state.=E2=
+=80=9D
+
+There are occasional proposals for=C2=A0a financial transactions tax at the=
+ US federal level, and these discussions often point out that the UK has a =
+somewhat similar tax. And people who oppose the tax are like =E2=80=9Cno th=
+is would drive the financial industry to other countries without the tax,=
+=E2=80=9D and people who support it are like =E2=80=9Cno, that=E2=80=99s du=
+mb, London remains a global financial hub despite having a stamp tax, and t=
+he advantages that the US has in terms of deep capital markets and the rule=
+ of law are not going to be outweighed by a teeny tiny transaction tax.=E2=
+=80=9D
+But in Chicago? You could move to Florida, or even to like Evanston, and ge=
+t the same capital markets but no transaction tax. A=C2=A0city=C2=A0is prob=
+ably too small an entity to have its own capital markets regulation; it=E2=
+=80=99s too easy to move to another city.=C2=A0It is the case that Chicago =
+is unusually blessed, among global cities, with people who sit at computers=
+ moving huge quantities of money around. But that does seem like kind of a =
+fragile resource. They could put the computers anywhere.
+
+ =20
+   =20
+      Vote weighting
+   =20
+ =20
+
+Last week Institutional Investor published a  profile of Andy Golden, the p=
+resident of Princeton University=E2=80=99s endowment manager, which include=
+s this lovely fact:
+
+Today at PRINCO, Golden=C2=A0and his approximately 20-person team sit in on=
+e large room. They meet three times a week and vote on investment decisions=
+. The weighting of the votes, famous among those who know Golden well, is b=
+ased on a secret formula he has in his head. The mechanism for voting is =
+=E2=80=9Codd and secret and unstable,=E2=80=9D he says, declining to provid=
+e details.
+The process and constant conversation between him and his team members keep=
+s them engaged, he says. He believes this flow of information can improve i=
+nvestment outcomes and attract and retain talent. And those things are nece=
+ssities for his leadership method.
+
+I don=E2=80=99t know what that means but I could imagine, like, programming=
+ a computer model that weights each analyst=E2=80=99s vote by (1) her track=
+ record of being correct in previous votes, (2) her expressed confidence in=
+ the current vote, (3) how much the CIO likes her personally and wants to g=
+et along with her, etc. And then you=C2=A0feed the votes into that model an=
+d the computer is like =E2=80=9Cthis proposal passes with 9 Yes votes and 1=
+1 No votes, but the Yeses are a little better than the Noes.=E2=80=9D
+In particular I could imagine Bridgewater Associates doing it on the comput=
+er, using way more data to compute everyone=E2=80=99s vote weight, and publ=
+ishing everyone=E2=80=99s coefficients. =E2=80=9CYour vote counted for 0.47=
+ votes yesterday but then Dave found you a little annoying in a meeting and=
+ pushed the negative feedback button on the app, so now your vote only coun=
+ts for 0.44.=E2=80=9D
+Also though I could imagine=C2=A0not=C2=A0programming a computer model to d=
+o that, and just doing it informally in your head? Like Golden apparently d=
+oes? What is life but interacting with people who give greater or lesser we=
+ight to your views and desires, and trying to get your weight up? And havin=
+g your own=C2=A0formula, in your own head, for how you weight other people=
+=E2=80=99s views and desires?=C2=A0Everyone=E2=80=99s formula for that is o=
+dd and secret and unstable: Life changes, friendships change, there=E2=80=
+=99s no accounting for taste, the heart wants what it wants, etc. Except at=
+ Bridgewater the formula is probably in the computer.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Deutsche Bank struggles with fallout after huge  Postbank IT migration. CLO=
+ Investors Push Back on Use of =E2=80=98  Snooze Drag=E2=80=99 Tactic. CLOs=
+ Desperate for Collateral Are Loading Up on   Junk Bonds. Goldman Raises $1=
+4 Billion For Private Equity   Secondaries Fund. UBS, French Tycoon Face $1=
+.5 Billion Claim in   Tuna Bond Scandal. Why Dollar General Might Just Be t=
+he   Worst Retail Job in America.=C2=A0EU to  ban =E2=80=98climate neutral=
+=E2=80=99 claims by 2026. Jaguars QB   Trevor Lawrence Settles FTX Endorsem=
+ent Lawsuit. Kim Kardashian's   Doubters Only Motivate Her to Work Harder. =
+Starbucks   combinatorics. =E2=80=9CDespite the pervasiveness of exclusivit=
+y and rejection on Yale=E2=80=99s campus, most of the students I spoke with=
+ didn=E2=80=99t feel that they were living in an  end-stage meritocracy hel=
+lscape.=E2=80=9D=C2=A0The Wild Quest to Create a  Fake Indian Cricket Leagu=
+e ... That Was Just the Beginning.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Or maybe he's not even a CEO? In 2018 he  half-joked on Twitter that =
+he had =E2=80=9Cdeleted my Tesla titles,=E2=80=9D and in 2021 he  changed h=
+is title to =E2=80=9CTechnoking of Tesla,=E2=80=9D though by now I think he=
+=E2=80=99s  back to =E2=80=9CTechnoking of Tesla and Chief Executive Office=
+r.=E2=80=9D
+
+
+  [2] Except the index funds lol. Also except the ones who sue him, but tha=
+t=E2=80=99s a special case.
+
+
+  [3] I mean, I own index funds, but they mostly got into Tesla late and mi=
+ssed much of the rise.
+
+
+  [4] As is Musk=E2=80=99s Twitter adventure, now.
+
+
+  [5] I am probably exaggerating these differences. The SEC has brought ple=
+nty of private-company securities fraud cases, and I don=E2=80=99t want to =
+say it couldn=E2=80=99t find something to complain about with SpaceX. But t=
+he surface area for SEC enforcement is just much, much smaller.
+
+
+  [6] I mean, Musk=E2=80=99s attention was very good for Twitter=E2=80=99s =
+*former* public shareholders.
+
+
+  [7] I=E2=80=99m exaggerating. For one thing, if you hire her bank to do t=
+he acquisition and then don=E2=80=99t do it =E2=80=94 because the target sa=
+ys no, or another bidder gets it, or the market crashes, or you change your=
+ mind or whatever =E2=80=94 then she will have done a lot of work for nothi=
+ng. For another thing, if you also hire her bank to finance the acquisition=
+, it might lose more on the financing than it makes on fees. (Ask   Elon Mu=
+sk=E2=80=99s Twitter banks.) Still, though, M&A is generally pretty lucrati=
+ve for banks, and it is usually lucrative in a low-risk, purely fee-paying =
+way.
+
+
+  [8] Again exaggerating, in the sense that it might be more lucrative for =
+her in the long run to have a good trusted advisory relationship with you, =
+and to strengthen that relationship by only bringing you good deals. Still,=
+ if the deal is a dud, that=E2=80=99s much more your problem than hers.
+
+
+  [9] As always there is an expectations component here, and if everyone kn=
+ows that interest rates are going to go up a lot then long-term bond rates =
+will be high now, etc., but you know what I mean. I mean something like =E2=
+=80=9Cif you know that rates are going to go up a lot, but the market hasn=
+=E2=80=99t figured that out yet, you should make floating-rate loans.=E2=80=
+=9D
+
+
+  [10] I kid a little, it=E2=80=99s not just about fixed vs. floating but a=
+lso investment-grade vs. non-investment-grade, but still.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjiiq2.5jef/6c876018.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_14211589_29927754.1695233577711
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+I think that if you are a Tesla Inc. investor the deal you are signing up f=
+or is: Elon Musk is a bad and annoying chief executive officer by
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwOTIwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MjAmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB294fd181"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMjc3Njc3OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMwMzUyMDEmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBea3a62c5" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D32776778&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33035201&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Tesla perks</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I=C2=A0think that if you are a Tesla Inc. inve=
+stor the deal you are signing up for is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Elon Musk is a bad and annoying chief=
+ executive officer by almost every conventional metric.<a class=3D"footnote=
+-index" href=3D"#footnote-1" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: none !important; background-color: transparent !important; d=
+isplay: inline-block;">
+<span>[1]</span>
+</a> He is distracted by running <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/32776778.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMTgtMDYtMTEvZWxvbi1tdXNrLWlzLWZpbmFuY2luZy13aXRoLWZsYW1ldGh=
+yb3dlcnM_Y21waWQ9QkJEMDkyMDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc2=
+91cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTIwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/=
+607f07ceef4b8524a319a23cBe6b0b9f3" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> several</a> <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/32776778.258423/aHR0cHM6Ly9mdXR1cmlzb=
+S5jb20vbmVvc2NvcGUvZWxvbi1tdXNrLW5ldXJhbGluay10ZXJtaW5hbGx5LWlsbC1tb25rZXlz=
+/607f07ceef4b8524a319a23cB9d9436f3" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> other</a> <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/32776778.258423/aHR0cHM6Ly93d3cuaW5jLm=
+NvbS9qdXN0aW4tYmFyaXNvL2Vsb24tbXVzay14LXR3aXR0ZXItYW5ub3VuY2VtZW50LW1vbnRob=
+Hktc3Vic2NyaXB0aW9uLWZlZS5odG1s/607f07ceef4b8524a319a23cB29d5f797" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ companies</a> and by weird personal projects and by getting in <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/32776778.258423/aHR0cHM6Ly93d=
+3cuY25uLmNvbS8yMDE5LzEyLzAzL21lZGlhL2Vsb24tbXVzay10ZXN0aWZpZXMvaW5kZXguaHRt=
+bA/607f07ceef4b8524a319a23cBdc0012b1" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> dumb fights</a> online. He c=
+onstantly gets in <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+32776778.258423/aHR0cHM6Ly93d3cubnByLm9yZy8yMDIyLzAyLzE1LzEwODA4ODQ4OTkvY2F=
+saWZvcm5pYS1zdWVzLXRlc2xhLWFsbGVnaW5nLXJhbXBhbnQtcmFjaXNtLWF0LWZhY3Rvcnk/60=
+7f07ceef4b8524a319a23cBbad64d78" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> trouble</a> with <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/32776778.258423/aHR0cHM6Ly93d3cuZX=
+BhLmdvdi9uZXdzcmVsZWFzZXMvdXMtZXBhLXNldHRsZXMtdGVzbGEtb3Zlci1jbGVhbi1haXItY=
+WN0LXZpb2xhdGlvbnMtZnJlbW9udC1jYWxpZi1mYWNpbGl0eQ/607f07ceef4b8524a319a23cB=
+df97e139" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> regulators</a> and says things about Tesla=C2=A0that <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDMtMTIvZG9uLXQt=
+dGFrZS1lbG9uLW11c2stc28tc2VyaW91c2x5P2NtcGlkPUJCRDA5MjAyM19NT05FWVNUVUZGJnV=
+0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDkyMCZ1dG=
+1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBcf18a9a1" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">  a=
+ren=E2=80=99t true</a>. He is <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32776778.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS92aWV3L2FydGl=
+jbGVzLzIwMTgtMDUtMDMvZWxvbi1tdXNrLWlzLWZvcmNpbmctdGVzbGEtaW52ZXN0b3JzLXRvLW=
+Nob29zZT9jbXBpZD1CQkQwOTIwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb=
+3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MjAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/=
+607f07ceef4b8524a319a23cBf9b413b2" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> rude and unhelpful</a> to analy=
+sts on earnings calls.=C2=A0He overpromises and <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/32776778.258423/aHR0cHM6Ly9qYWxvcG5pay5jb20vZ=
+Wxvbi1tdXNrLXRlc2xhLXNlbGYtZHJpdmluZy1jYXJzLWFubml2ZXJzYXJ5LWF1dG9waWxvdC0x=
+ODUwNDMyMzU3/607f07ceef4b8524a319a23cBf9b06d43" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> underdelivers</a>.=
+ He loves <a href=3D"https://link.mail.bloombergbusiness.com/click/32776778=
+.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDc=
+tMTMvZWxvbi1tdXNrLW5ldmVyLXdhbnRlZC10by1iZS10ZXNsYS1jZW8_Y21waWQ9QkJEMDkyMD=
+IzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX=
+3Rlcm09MjMwOTIwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBf0=
+dc4294" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">  doing transactions</a> that create <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/32776778.258423/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtMjgvZWxvbi1tdXNrLXMtb3RoZXItbWV=
+yZ2VyLXdvcmtlZC1vdXQ_Y21waWQ9QkJEMDkyMDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbW=
+FpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTIwJnV0bV9jYW1wYWlnbj1tb=
+25leXN0dWZm/607f07ceef4b8524a319a23cB89172f19" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">  conflicts of inter=
+est</a>, that make no business sense=C2=A0and that seem to advance his inte=
+rests over those of shareholders. The board of directors is stocked with hi=
+s loyalists and brother. His pay package is comically, <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/32776778.258423/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMjEvdGVzbGEtYm9hcmQtbWlzcmVwcmVzZ=
+W50ZWQtbXVzay1zLTU1LWJpbGxpb24tcGF5ZGF5LWp1ZGdlLXRvbGQ_Y21waWQ9QkJEMDkyMDIz=
+X01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3R=
+lcm09MjMwOTIwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBd12a=
+31eb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">  perhaps illegally</a> large.=C2=A0His impulsiveness makes T=
+esla=E2=80=99s stock more volatile: He sometimes pumps up the price=C2=A0by=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTUtMDQtMDIvdGVz=
+bGEtc3RvY2tob2xkZXJzLWNhbi10LXRha2UtYS1qb2tlP2NtcGlkPUJCRDA5MjAyM19NT05FWVN=
+UVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMD=
+kyMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBc5129b60" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">  making false public statements</a>, and sometimes knocks it down by =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDUtMDQvZWxvb=
+i1tdXNrLWlzbi10LXN1cmUtYWJvdXQtdGVzbGEtc3RvY2s_Y21waWQ9QkJEMDkyMDIzX01PTkVZ=
+U1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjM=
+wOTIwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB14ec12e7" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">  tweeting that it should go down</a>.=C2=A0</li>=09<li style=3D"marg=
+in-bottom: 5px;">Tesla makes cool electric cars and sells them for, increas=
+ingly, a profit, and over time the stock goes up a lot. It=E2=80=99s up mor=
+e than=C2=A0100% year-to-date, though it had a rough 2022, and up more than=
+ 1,000% over the last five years.=C2=A0Tesla=E2=80=99s equity market capita=
+lization is about $850 billion, value that Musk has, in a fairly direct sen=
+se, created for shareholders.</li>
+</ol>
+<p style=3D"margin: 16px 0;">My assumption is that every Tesla shareholder<=
+a class=3D"footnote-index" href=3D"#footnote-2" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: none !important; background-color: transp=
+arent !important; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0is=C2=A0<em>very happy=C2=A0</em>with this tradeoff. They are in =
+the stock mostly to make money, and whatever Musk=E2=80=99s other problems =
+are, he=C2=A0does make them money. Also some of them are in the stock a lit=
+tle bit to be entertained by Musk=E2=80=99s antics, and while not everyone =
+finds=C2=A0those antics=C2=A0entertaining, presumably the shareholders do.=
+=C2=A0</p>
+<p style=3D"margin: 16px 0;">This is, I think, very true of Tesla=E2=80=99s=
+ meme-stock-y retail investors, but it is also pretty clearly true of a mor=
+e institutional class of Elon Musk fans. When Musk went off on his apparent=
+ly harebrained and so-far-money-losing acquisition of Twitter Inc., several=
+ big investment firms and billionaires clamored to join him, happily writin=
+g big checks with no due diligence. The thinking <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/32776778.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTAtMDMvZXZlcnlvbmUtd2FudGVkLXRvLWJ1eS1=
+0d2l0dGVyLXdpdGgtZWxvbj9jbXBpZD1CQkQwOTIwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPW=
+VtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MjAmdXRtX2NhbXBhaWduP=
+W1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB45316d96" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">  seems to have b=
+een</a>=C2=A0=E2=80=9Cthis guy does a lot of nonsense but he has made us a =
+lot of money, so let=E2=80=99s see where this goes,=E2=80=9D which strikes =
+me as a perfectly rational investment thesis.</p>
+<p style=3D"margin: 16px 0;">In fact the whole deal strikes me as perfectly=
+ rational, and quite good, for Tesla=E2=80=99s shareholders.=C2=A0I persona=
+lly am not a huge fan of Musk=E2=80=99s antics, but then, I don=E2=80=99t o=
+wn Tesla stock.<a class=3D"footnote-index" href=3D"#footnote-3" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: none !important; backgrou=
+nd-color: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0If you offered to let me travel back in time to 2018 and take thi=
+s deal =E2=80=94=C2=A0=E2=80=9Cyou put your money in Tesla stock, Elon Musk=
+ will make it go up 10x, but he=E2=80=99ll do a lot of nonsense along the w=
+ay=E2=80=9D =E2=80=94=C2=A0I would absolutely take it. I=E2=80=99d tune out=
+ the nonsense and enjoy=C2=A0the money. Or I=E2=80=99d even enjoy the nonse=
+nse. =E2=80=9COh you scamp, using Tesla to bail out another company you own=
+, good thing you=E2=80=99re making me all this money,=E2=80=9D I=E2=80=99d =
+chuckle, like many Tesla shareholders do.</p>
+<p style=3D"margin: 16px 0;">If you are an investor in Space Exploration Te=
+chnologies Corp. =E2=80=94=C2=A0SpaceX, Musk=E2=80=99s second-biggest compa=
+ny =E2=80=94=C2=A0you get basically the same deal. <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/32776778.258423/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDktMDYvc3BhY2V4LWxvYW5lZC1lbG9uLW11c=
+2stc29tZS1tb25leT9jbXBpZD1CQkQwOTIwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MjAmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB236dc1d8" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">  Conflicted transactio=
+ns</a>, conflicted board of directors, constant distractions, occasional ro=
+cket explosions, but also he built a successful space company from scratch =
+and it=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+2776778.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMt=
+MDYtMjMvc3BhY2V4LXRlbmRlci1vZmZlci1zYWlkLXRvLXZhbHVlLWNvbXBhbnktYXQtYWJvdXQ=
+tMTUwLWJpbGxpb24_Y21waWQ9QkJEMDkyMDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbC=
+Z1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTIwJnV0bV9jYW1wYWlnbj1tb25le=
+XN0dWZm/607f07ceef4b8524a319a23cB9620b844" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  worth like $150 billio=
+n</a>.=C2=A0</p>
+<p style=3D"margin: 16px 0;">But SpaceX is a private company,<a class=3D"fo=
+otnote-index" href=3D"#footnote-4" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: none !important; background-color: transparent !import=
+ant; display: inline-block;">
+<span>[4]</span>
+</a>=C2=A0and Tesla is a public company. With a private company, the deal b=
+etween the entrepreneur and the investors can kind of be whatever you want:=
+ The company can have more or less whatever contractual terms or informal u=
+nderstandings or governance structure the entrepreneur and the investors ag=
+ree to. If Musk comes to the board of SpaceX and says =E2=80=9Chey you need=
+ to lend me $1 billion for a week so I can win this fight I=E2=80=99m havin=
+g online,=E2=80=9D the board can be like =E2=80=9Csure here you go you litt=
+le rascal.=E2=80=9D It might not even have to tell shareholders. And if the=
+ shareholders find out in the newspaper they can be like =E2=80=9Clol that=
+=E2=80=99s our boy=E2=80=9D and everyone can be perfectly happy about it.=
+=C2=A0</p>
+<p style=3D"margin: 16px 0;">Whereas with a public company, there are just =
+rules that apply to all public companies, and that constrain the deals you =
+can make. There are standard rules, enshrined in the US securities laws, re=
+gulating what companies have to disclose to investors and how they have to =
+communicate and what their relationship with their CEO can look like. And i=
+f you break those rules it is mostly not a defense to say, like, =E2=80=9Cb=
+ut my shareholders love me and think this is funny,=E2=80=9D or =E2=80=9Cbu=
+t look how much money I am making for them.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">If Elon Musk says nonsense about SpaceX online=
+ and his investors are happy, then it=E2=80=99s fine.<a class=3D"footnote-i=
+ndex" href=3D"#footnote-5" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: none !important; background-color: transparent !important; dis=
+play: inline-block;">
+<span>[5]</span>
+</a>=C2=A0If Elon Musk says nonsense about Tesla online and his investors a=
+re happy, but the US Securities and Exchange Commission is not happy, then =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/aH=
+R0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXNzLXJlbGVhc2UvMjAxOC0yMjY/607f07ceef4b8=
+524a319a23cB1dfb75f0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> the SEC can step in</a> and fine him $20 mil=
+lion and make him stop being Tesla=E2=80=99s board chairman. Is that what T=
+esla=E2=80=99s shareholders wanted? Probably not, no, but a public company =
+is not just a deal between Musk and his shareholders; the SEC gets a say to=
+o.</p>
+<p style=3D"margin: 16px 0;">Similarly if Musk went to the board of SpaceX =
+and said =E2=80=9CI would like you to spend a billion dollars of shareholde=
+r money to build me a mansion that floats in midair 500 feet above Texas, p=
+owered by several rocket thrusters,=E2=80=9D there would probably be permit=
+ting issues, and maybe the directors would say no. But if the directors wer=
+e cool with it and the shareholders were cool with it and the, uh, rocket h=
+ouse regulators were cool with it then no securities regulator would get to=
+ step in to say =E2=80=9Cno, this is not an acceptable use of shareholder m=
+oney, you need to disclose this and put it to a vote.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/32776778.258423/aHR0cHM6Ly93d3cud3NqLmNvbS90ZWNoL2p1c3RpY2UtZGVw=
+YXJ0bWVudC1wcm9iZS1zY3J1dGluaXplcy1lbG9uLW11c2stcGVya3MtYXQtdGVzbGEtZ29pbmc=
+tYmFjay15ZWFycy0zNDkzZTMyMT9tb2Q9aXRwX3dzag/607f07ceef4b8524a319a23cBf34010=
+c9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Whereas</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Federal prosecutors are scrutinizing personal =
+benefits Tesla may have provided Elon Musk since 2017=E2=80=94longer than p=
+reviously known=E2=80=94as part of a criminal investigation examining issue=
+s including a proposed house for the chief executive.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The U.S. Attorney=E2=80=99s Office for the Sou=
+thern District of New York also has sought information about transactions b=
+etween Tesla and other entities connected to the billionaire, people famili=
+ar with the investigation said. Prosecutors have referenced the involvement=
+ of a grand jury. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Among the questions prosecutors are examining =
+is whether Tesla properly disclosed perks Musk might have received. Interna=
+l or external lawyers typically handle such disclosures. At Tesla, Musk has=
+ at times personally guided what information to disclose to shareholders. I=
+t couldn=E2=80=99t be learned whether that was the case with any perks that=
+ prosecutors are scrutinizing. Tesla has said it generally doesn=E2=80=99t =
+provide perks or other personal benefits to its top executives.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">A criminal investigation! At SpaceX, Musk coul=
+d send the board a group text being like =E2=80=9Chey fyi I took $1 billion=
+ out of the petty cash drawer for purposes, will put it back next week or s=
+o=E2=80=9D and it=E2=80=99s fine.</p>
+<p style=3D"margin: 16px 0;">Musk=E2=80=99s funniest Tesla perk is an <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/aHR0cHM=
+6Ly93d3cud3NqLmNvbS90ZWNoL2p1c3RpY2UtZGVwYXJ0bWVudC1wcm9iZS1zY3J1dGluaXplcy=
+1lbG9uLW11c2stcGVya3MtYXQtdGVzbGEtZ29pbmctYmFjay15ZWFycy0zNDkzZTMyMT9tb2Q9a=
+XRwX3dzag/607f07ceef4b8524a319a23cCf34010c9" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> alleged glass house</=
+a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">=C2=A0The Wall Street Journal reported last mo=
+nth that the Justice Department is investigating Tesla=E2=80=99s use of com=
+pany resources on a secret project that was described internally as a house=
+ for Musk.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The house effort was known within the carmaker=
+ as =E2=80=9CProject 42,=E2=80=9D and plans called for an expansive glass b=
+uilding to be constructed near Tesla=E2=80=99s Austin-area factory and head=
+quarters.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission has ope=
+ned a separate civil investigation into the project, the Journal has report=
+ed.=C2=A0</p>
+<p style=3D"margin: 16px 0;">On X, the social-media platform formerly known=
+ as Twitter, Musk has said there isn=E2=80=99t a glass house =E2=80=9Cbuilt=
+, under construction or planned.=E2=80=9D He didn=E2=80=99t address past wo=
+rk or plans; neither he nor his representatives have responded to requests =
+for comment.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I have <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/32776778.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjMtMDctMTIvaXQtcy1lYXN5LXRvLW1ha2Utb2lsLWNvbXBhbmllcy1l=
+c2c_Y21waWQ9QkJEMDkyMDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmN=
+lPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTIwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f0=
+7ceef4b8524a319a23cB69ce2f82" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">  written about the house before</a>:=
+</p>
+<blockquote><p style=3D"margin: 16px 0;">Look honestly I think spending mil=
+lions of dollars to build a giant glass house for Elon Musk right near Tesl=
+a headquarters is a=C2=A0<em>good</em>=C2=A0use of corporate funds? Keep an=
+ eye on him. Really if the board had thought of this I would be praising it=
+ as an innovative corporate governance idea. You can=E2=80=99t necessarily =
+make Elon Musk warn you when he=E2=80=99s going to=C2=A0tweet something mat=
+erial=C2=A0or go buy another company to run full-time, but you=C2=A0<em>can=
+=C2=A0</em>give him the gift of a glass house and get yourself a telescope.=
+</p></blockquote>
+<p style=3D"margin: 16px 0;">But also just Elon Musk has a lot of weird whi=
+ms and if you are an investor or director at one of his companies it makes =
+some sense to spend shareholder money to=C2=A0satisfy his whims so that he =
+will be content and=C2=A0devote more of his attention to your company, sinc=
+e his attention does, empirically, seem to make most of his companies more =
+valuable. (Not Twitter?<a class=3D"footnote-index" href=3D"#footnote-6" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: none !important; =
+background-color: transparent !important; display: inline-block;">
+<span>[6]</span>
+</a>) And so in some informal sense Elon Musk=E2=80=99s compensation-and-pe=
+rks package at his companies is =E2=80=9Cwhatever he wants, just keep him h=
+appy.=E2=80=9D At SpaceX that is a basically plausible package. At Tesla it=
+=E2=80=99s=C2=A0<em>possibly a crime.</em></p>
+<p style=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/32776778.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjMtMDktMDYvc3BhY2V4LWxvYW5lZC1lbG9uLW11c2stc29tZS1tb25leT9jb=
+XBpZD1CQkQwOTIwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3=
+c2xldHRlciZ1dG1fdGVybT0yMzA5MjAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4=
+b8524a319a23cC236dc1d8" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">  wrote a few weeks ago</a> about that Spac=
+eX loan:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Back in 2018, when Musk was musing about takin=
+g Tesla private, I argued that it made no sense: The public markets had bee=
+n very kind to Tesla, allowing Musk to raise billions of dollars and giving=
+ his company a huge valuation without actually imposing any real restrictio=
+ns on him. ...</p>
+<p style=3D"margin: 16px 0;">But I think I may have missed the main issue. =
+The main issue is that Musk runs a web of companies, some of which need cas=
+h and some of which have cash, and he is also in the business of starting o=
+r buying other companies, creating more cash needs. If all of the companies=
+ are private, he can sort of use their cash interchangeably: Sure, each com=
+pany has different outside investors and its own board of directors, but th=
+ey are all part of the Elon Musk family, and it=E2=80=99s not too hard to w=
+ork something out. =E2=80=A6=C2=A0</p>
+<p style=3D"margin: 16px 0;">But there are=C2=A0<em>some=C2=A0</em>limits f=
+rom being public. =E2=80=A6=C2=A0If you want to run a web of companies that=
+ all support each other, it might be easier if they are private.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t know, it=E2=80=99s just a stra=
+nge situation.=C2=A0<em>In general=C2=A0</em>it makes sense for US public c=
+ompanies to have rules like =E2=80=9Cthe CEO=E2=80=99s perks should be disc=
+losed to shareholders=E2=80=9D or =E2=80=9Cthe CEO can=E2=80=99t go around =
+lying about the company=E2=80=99s business=E2=80=9D or whatever. And the ro=
+ugh rule that sophisticated shareholders of private companies can make info=
+rmed choices to strike whatever deal they want with their CEOs, while publi=
+c-company shareholders are protected by standard universal rules enforced b=
+y the SEC and the Justice Department, also makes sense. In general, public-=
+company=C2=A0CEOs should not be allowed to act like Elon Musk.</p>
+<p style=3D"margin: 16px 0;">But Elon Musk really has made a lot of money f=
+or Tesla=E2=80=99s shareholders! And for SpaceX shareholders, but there see=
+ms to be <a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.=
+258423/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAyMy8wNy8xMy9lbG9uLW11c2stc3BhY2V4LW5l=
+YXItMTUwLWJpbGxpb24tdmFsdWF0aW9uLmh0bWw/607f07ceef4b8524a319a23cB6959ca49" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> no rush to go public</a> there. I increasingly think that, when he=
+ was pretending to take Tesla private in 2018, Musk was in some sense serio=
+us: He realized that, while going=C2=A0public was good for Tesla=E2=80=99s =
+financing, it was a bad fit for his personality, and he kind of wanted to r=
+everse=C2=A0it. CEOs often complain about the costs and constraints and sho=
+rt-termism and legal risks of running a public company; regulators sometime=
+s talk about bringing more companies into the public markets or about givin=
+g more investors access to the private markets. But one important feature o=
+f public markets, for better or worse, is that they are not very compatible=
+ with=C2=A0the whole Elon Musk deal.=C2=A0</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjc3Njc3OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMwMzUyMDEmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC130b298b" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32776778&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33035201&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjc3Njc3OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzMwMzUyMDEmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD130b298b" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32776778&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33035201&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Goldman GreenSky</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">A basic fact about the mergers-and-acquisition=
+s advisory business is that, if you run a company, and an investment banker=
+ comes in to pitch you on doing an acquisition:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">That acquisition might or might not b=
+e a good idea for your company. In general the <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/32776778.258423/aHR0cHM6Ly93d3cud3NqLmNvbS9idX=
+NpbmVzcy9kZWFscy9tLWEtY2FuLXBheS1vZmYtYnV0LWl0cy1mYXItZnJvbS1hLXN1cmUtdGhpb=
+mctMmMwZGQzOGI/607f07ceef4b8524a319a23cB23629b29" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> track record of =
+companies doing acquisitions</a> is mixed to bad.=C2=A0</li>=09<li style=3D=
+"margin-bottom: 5px;">It=E2=80=99s definitely a good idea for the banker! I=
+f you hire her bank to do the acquisition, it will get a big fee and she=E2=
+=80=99ll get a big bonus.<a class=3D"footnote-index" href=3D"#footnote-7" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: none !important=
+; background-color: transparent !important; display: inline-block;">
+<span>[7]</span>
+</a>=C2=A0If the deal turns out to be a dud for you, that=E2=80=99s not her=
+ problem.<a class=3D"footnote-index" href=3D"#footnote-8" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: none !important; background-col=
+or: transparent !important; display: inline-block;">
+<span>[8]</span>
+</a>
+</li>
+</ol>
+<p style=3D"margin: 16px 0;">Everybody who has ever been pitched on doing a=
+ merger probably knows this. The banker sitting across from you is your tru=
+sted adviser, sure, but she=E2=80=99s also selling you something, and it=E2=
+=80=99s your job to figure out if it=E2=80=99s a good idea for you. You kno=
+w it=E2=80=99s a good idea for her.</p>
+<p style=3D"margin: 16px 0;">We have <a href=3D"https://link.mail.bloomberg=
+business.com/click/32776778.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMjMtMDgtMjEvZXZlcnlvbmUtd2FudHMtYS1waWVjZS1vZi1zY3VscHR=
+vcj9jbXBpZD1CQkQwOTIwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MjAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f0=
+7ceef4b8524a319a23cB92666f60" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">  talked</a> a lot in recent months a=
+bout Goldman Sachs Group Inc. partners who are disgruntled with the regime =
+of Chief Executive Officer David Solomon, who runs Goldman like a normal pu=
+blic company rather than like the private partnership that it was for many =
+years, and that it sort of pretended to be for another 20 years after that.=
+ (Usual disclosure: I used to work at Goldman.)</p>
+<p style=3D"margin: 16px 0;">Here is =E2=80=9C<a href=3D"https://link.mail.=
+bloombergbusiness.com/click/32776778.258423/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnN=
+pZGVyLmNvbS9nb2xkbWFuLXNhY2hzLWRhdmlkLXNvbG9tb24tY2VvLXBhcnRuZXJzLWRlcGFydH=
+VyZXMtc3RyYXRlZ3ktMjAyMy05P3V0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fc291cmNlPVNha=
+Wx0aHJ1JnV0bV9jYW1wYWlnbj1JbnNpZGVyX1RvZGF5/607f07ceef4b8524a319a23cB81fd12=
+f5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Why former Goldman Sachs partners say they left the firm</a>=
+=E2=80=9D by Dakin Campbell at Insider, based on interviews with six anonym=
+ous former partners. The basic complaints about Solomon boil down to (1) he=
+ treats the partners like employees rather than like partners and (2) Goldm=
+an put a lot of chips into a bet on consumer banking that didn=E2=80=99t wo=
+rk out, and it is now doing an <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/32776778.258423/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL2Jhbmtpbm=
+cvZ29sZG1hbi1zYWNocy1pbi1hZHZhbmNlZC10YWxrcy10by1zZWxsLWdyZWVuc2t5LWluLWJpZ=
+y1zdGVwLWluLWNvbnN1bWVyLXJldHJlYXQtYzAyMjFmNjc_bW9kPWhwX2xlYWRfcG9zNg/607f0=
+7ceef4b8524a319a23cBab82242b" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> embarrassing and costly retreat</a>.=
+</p>
+<p style=3D"margin: 16px 0;">These complaints are related=C2=A0in the sense=
+ that they are both partly about nostalgia for the good old days, when Gold=
+man was an elite player in high finance that would never deign to do small-=
+dollar consumer business, and when the partners were the elite=C2=A0within =
+the elite who were running the show. Now =E2=80=9Cpartner=E2=80=9D is a cou=
+rtesy title and Goldman is giving out toasters when you open a checking acc=
+ount, feh.</p>
+<p style=3D"margin: 16px 0;">I often <a href=3D"https://link.mail.bloomberg=
+business.com/click/32776778.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlu=
+aW9uL2FydGljbGVzLzIwMTktMDMtMDYvYmUtY2FyZWZ1bC13ZWFyaW5nLWplYW5zLWF0LWdvbGR=
+tYW4_Y21waWQ9QkJEMDkyMDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTIwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB81100f2d" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  quote</a> John Whitehead=E2=80=99s=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/a=
+HR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS9qb2huLXdoaXRlaGVhZC10ZW4tY29tbWFu=
+ZG1lbnRzLTIwMTUtMg/607f07ceef4b8524a319a23cBc579fc33" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Investment B=
+anking Services commandments</a> around here. =E2=80=9CDon=E2=80=99t waste =
+your time going after business we don=E2=80=99t really want,=E2=80=9D is on=
+e of them. =E2=80=9CIt=E2=80=99s just as easy to get a first-rate piece of =
+business as a second-rate one,=E2=80=9D is another. My favorite is: =E2=80=
+=9CImportant people like to deal with other important people. Are you one?=
+=E2=80=9D You can see why some Goldman partners who grew up with those comm=
+andments might be grumbling now. They see Goldman going after business they=
+ don=E2=80=99t really want, and they don=E2=80=99t feel as important as the=
+y used to.</p>
+<p style=3D"margin: 16px 0;">Also though <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/32776778.258423/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVy=
+LmNvbS9nb2xkbWFuLXNhY2hzLWRhdmlkLXNvbG9tb24tY2VvLXBhcnRuZXJzLWRlcGFydHVyZXM=
+tc3RyYXRlZ3ktMjAyMy05P3V0bV9tZWRpdW09bmV3c2xldHRlciZ1dG1fc291cmNlPVNhaWx0aH=
+J1JnV0bV9jYW1wYWlnbj1JbnNpZGVyX1RvZGF5/607f07ceef4b8524a319a23cC81fd12f5" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">there=E2=80=99s this anecdote</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The bank is also now selling its GreenSky poin=
+t-of-sale financing business. Yet the acquisition, which Goldman made in 20=
+21 for $2.2 billion, still rankles Goldmanites. The deal never made sense t=
+o many people inside Goldman, especially those in its investment-banking di=
+vision who had spent their careers advising corporate executives on takeove=
+r targets. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">It's not just internal people who have noticed=
+. One former partner who spoke with Insider said that in calling on clients=
+, people had had to answer for Goldman's consumer-banking missteps.=C2=A0</=
+p>
+<p style=3D"margin: 16px 0;">"It's kind of embarrassing when you are showin=
+g up to a client pitching for M&amp;A business, position yourself as the be=
+st M&amp;A advisor, pointing to these credentials, and our own deals have b=
+een an absolute mess," the person said. "The number of jokes clients make, =
+and there is some truth, why hire you to do M&amp;A if you can't even do yo=
+ur own M&amp;A." =C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Oh come on! I do not believe for a second that=
+ some Goldman investment banker showed up to pitch a merger and the client =
+was like =E2=80=9Cnope, not taking your merger pitch because Goldman bought=
+ GreenSky, proving that you=E2=80=99re dummies like everyone else.=E2=80=9D=
+ I mean, sure, as a joke. But the idea here is that previously Goldman woul=
+d pitch M&amp;A deals and the clients were like =E2=80=9Coh wow Goldman say=
+s I should buy this company, that must be right, they are very smart and th=
+eir M&amp;A pitch is=C2=A0a disinterested search for truth,=E2=80=9D but no=
+w that GreenSky didn=E2=80=99t work the clients realize that Goldman is fal=
+lible. Everyone always knew the M&amp;A pitches were fallible! Still, fine,=
+ I concede that it is a little funny to make fun of your M&amp;A banker for=
+ her bank=E2=80=99s bad M&amp;A deals.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Floating rates</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If you lend someone money at a floating intere=
+st rate, and then rates go up a lot, you get paid the new higher interest r=
+ate. If you lend someone money at a fixed interest rate, and then rates go =
+up a lot, you still get paid the old low interest rate. Getting paid more i=
+s better than getting paid less, so from first principles=C2=A0floating-rat=
+e loans are a better investment than fixed-rate bonds,=C2=A0<em>if interest=
+ rates are about to go up rapidly</em>.<a class=3D"footnote-index" href=3D"=
+#footnote-9" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: n=
+one !important; background-color: transparent !important; display: inline-b=
+lock;">
+<span>[9]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">From second principles you could quibble with =
+that. Floating-rate loans pay higher interest as rates go up, which means t=
+hat they are riskier=C2=A0<em>for the borrower=C2=A0</em>as rates go up. If=
+ you make a loan at the Secured Overnight Financing Rate plus 5% when SOFR =
+is zero, then the borrower pays about 5% interest; if SOFR then goes up to =
+5.3%, then the borrower has to pay 10.3% interest, more than doubling its i=
+nterest expense. Maybe the borrower can=E2=80=99t afford that, and goes ban=
+krupt, and you get nothing instead of your 10.3%. Whereas if you had made t=
+he loan at a 6% fixed rate, and then rates went up, the borrower would stil=
+l be paying 6%, which it could presumably still afford. You=E2=80=99d be ge=
+tting less interest, but you=E2=80=99d still be getting it.</p>
+<p style=3D"margin: 16px 0;">From third principles this is sort of a silly =
+objection? Like if the borrower called you and said =E2=80=9CI can=E2=80=99=
+t pay 10.3%=E2=80=9D you could say =E2=80=9Cwell okay pay like 6.3%=E2=80=
+=9D and maybe they=E2=80=99d be fine and you=E2=80=99d still be doing bette=
+r than if you had made a 6% fixed-rate loan. And some of your borrowers wou=
+ld still be paying 10.3% with no problem, or with some problem but it=E2=80=
+=99s not=C2=A0<em>your=C2=A0</em>problem, you are a senior creditor, you ar=
+e just collecting interest. I dunno, it just seems obvious that floating-ra=
+te loans would outperform fixed-rate bonds when interest rates rise really =
+far really fast, even if the default risk on floating-rate loans ticks up f=
+aster than it does on fixed-rate bonds.</p>
+<p style=3D"margin: 16px 0;">Anyway <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/32776778.258423/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL2lud=
+mVzdGluZy90aGUtbWFya2V0LWJlYXRpbmctaW52ZXN0bWVudC10aGF0cy1kZWZ5aW5nLXdhbGwt=
+c3RyZWV0LXNrZXB0aWNzLTE0OWUzMzRjP21vZD1ocF9sZWFkX3BvczEw/607f07ceef4b8524a3=
+19a23cB155b1b62" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">here=E2=80=99s a Wall Street Journal story</a> abo=
+ut the facts that (1) yes, floating-rate loans have outperformed fixed-rate=
+ bonds as rates have shot up<a class=3D"footnote-index" href=3D"#footnote-1=
+0" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: none !impor=
+tant; background-color: transparent !important; display: inline-block;">
+<span>[10]</span>
+</a>=C2=A0but (2) people find that surprising:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">It is one of the biggest surprises on Wall Str=
+eet: the outsize performance of risky corporate loans.</p>
+<p style=3D"margin: 16px 0;">Since the start of last year through Friday, l=
+oans backed by companies including PetSmart and Uber Technologies in the Mo=
+rningstar LSTA U.S. Leveraged Loan Index delivered a return of 9.3%, buoyed=
+ by higher interest rates and a resilient economy. Investment-grade bonds l=
+ost 13% in that time, counting price changes and interest payments, while t=
+he S&amp;P 500 lost 3.9%.</p>
+<p style=3D"margin: 16px 0;">Few investments have been as maligned as lever=
+aged loans, the low-rated debt often used to fund private-equity company bu=
+youts. When the Federal Reserve started aggressively raising rates last yea=
+r, many analysts warned that these loans were vulnerable because their rate=
+s rise and fall with those set by the central bank.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Higher rates, these analysts warned, would squ=
+eeze loan borrowers by saddling them with larger interest payments and tipp=
+ing the economy into a recession, thereby depressing corporate revenue. Ind=
+ividual investors pulled billions of dollars out of loan funds starting aro=
+und mid-2022.</p>
+<p style=3D"margin: 16px 0;">So far, the skeptics have been mistaken. The e=
+conomy has remained strong, helping issuers withstand rising interest costs=
+ and keep cash flowing to investors. Meanwhile, prices of bonds with ultral=
+ow fixed rates have tumbled, amplifying the advantage of floating-rate debt=
+.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I do feel like that was always the advertiseme=
+nt for leveraged loan funds? The advertisement was =E2=80=9Crates are zero =
+now, but they won=E2=80=99t be forever, and if they go up you will want to =
+own floating-rate loans=E2=80=9D? And that was correct?</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Financial transactions tax</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Chicago is a city with outsized global importa=
+nce in the industry of high-speed trading. If you are buying financial asse=
+ts and selling them a millisecond later, you are disproportionately likely =
+to be doing that from Chicago. Also there=E2=80=99s a decent chance that yo=
+u make a nice living. Meanwhile Chicago=E2=80=99s municipal budget does not=
+ look all that hot, and so its civic leaders naturally think about how to r=
+aise more revenue. They see all these people doing all these high-speed tra=
+des and making a lot of money doing it, and they think, well, if we charged=
+ these people just $1 per trade we=E2=80=99d make up our budget shortfall i=
+n no time, and surely they wouldn=E2=80=99t miss the dollar?</p>
+<p style=3D"margin: 16px 0;">Bloomberg=E2=80=99s <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/32776778.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMTgvdHJpbGxpb24tZG9sbGFyLWluZHVzdHJ5LXB=
+vd2VyaW5nLWNoaWNhZ28taXMtYXQtcmlzay1vZi1sZWF2aW5nP2NtcGlkPUJCRDA5MjAyM19NT0=
+5FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtP=
+TIzMDkyMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBfcba8b72=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> Isis Almeida reports</a>=C2=A0that they=E2=80=99ll miss the doll=
+ar:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">[Financial] firms=E2=80=99 commitment to the W=
+indy City is being tested by some $800 million in taxes proposed by a new m=
+ayor staring down a budget gap that=E2=80=99s swelled to half a billion dol=
+lars. One idea is a levy on financial transactions, which has alarmed compa=
+nies already worried about a jump in crime that shows few signs of abating.=
+</p>
+<p style=3D"margin: 16px 0;">Behind the scenes, market makers and exchanges=
+ are working together to press their case with policymakers, with firms tha=
+t typically compete with each other sharing data to help explain their econ=
+omic benefits to Chicago. While executives haven=E2=80=99t explicitly threa=
+tened to leave, in private conversations it=E2=80=99s clear they will consi=
+der quitting the city if crime remains an issue and the financial transacti=
+on tax passes. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Mayor Brandon Johnson=E2=80=99s office said th=
+at no decision has been made on a transactions tax and the administration i=
+s open to dialogue with businesses. Jason Lee, a senior adviser, noted that=
+ Chicago has a diversified economy and =E2=80=9Cwe are lucky we don=E2=80=
+=99t depend on a single industry.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWe know the financial transaction one=
+ has been highly debated and there may be merit in that, but we look forwar=
+d to that debate,=E2=80=9D he said. =E2=80=9CWhat the mayor has said is tha=
+t solutions cannot disproportionately impact the working and middle class o=
+f our city.=E2=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Most importantly for the derivatives industry,=
+ Johnson has floated seeking another $100 million with a levy of $1 to $2 f=
+or every securities contract traded. That would boost costs by as much as 8=
+00%, according to CME. =E2=80=A6=C2=A0Illinois Governor=C2=A0JB Pritzker, w=
+ho would need to approve a transactions levy, opposes the idea, saying he=
+=E2=80=99s worried =E2=80=9Cit would be easy for those companies and server=
+s to move out of the state.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">There are occasional proposals for=C2=A0a <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/aHR0cH=
+M6Ly93d3cuYnJvb2tpbmdzLmVkdS9hcnRpY2xlcy93aGF0LWlzLWEtZmluYW5jaWFsLXRyYW5zY=
+WN0aW9uLXRheC0yLw/607f07ceef4b8524a319a23cB749a9720" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">financial tran=
+sactions tax</a> at the US federal level, and these discussions often point=
+ out that the UK has a <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/32776778.258423/aHR0cHM6Ly93d3cuZ292LnVrL3RheC1idXktc2hhcmVzIzp-OnRleH=
+Q9V2hlbiUyMHlvdSUyMGJ1eSUyMHNoYXJlcyUyQyUyMHlvdSx0cmFuc2FjdGlvbiUyMGlzJTIwb=
+3ZlciUyMCVDMiVBMzElMkMwMDA/607f07ceef4b8524a319a23cBcd0638b4" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">somew=
+hat similar tax</a>. And people who oppose the tax are like =E2=80=9Cno thi=
+s would drive the financial industry to other countries without the tax,=E2=
+=80=9D and people who support it are like =E2=80=9Cno, that=E2=80=99s dumb,=
+ London remains a global financial hub despite having a stamp tax, and the =
+advantages that the US has in terms of deep capital markets and the rule of=
+ law are not going to be outweighed by a teeny tiny transaction tax.=E2=80=
+=9D</p>
+<p style=3D"margin: 16px 0;">But in Chicago? You could move to Florida, or =
+even to like Evanston, and get the same capital markets but no transaction =
+tax. A=C2=A0<em>city=C2=A0</em>is probably too small an entity to have its =
+own capital markets regulation; it=E2=80=99s too easy to move to another ci=
+ty.=C2=A0It is the case that Chicago is unusually blessed, among global cit=
+ies, with people who sit at computers moving huge quantities of money aroun=
+d. But that does seem like kind of a fragile resource. They could put the c=
+omputers anywhere.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Vote weighting</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Last week Institutional Investor published a <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/aHR=
+0cHM6Ly93d3cuaW5zdGl0dXRpb25hbGludmVzdG9yLmNvbS9hcnRpY2xlLzJjNmY4a3A5anJ5bH=
+drd2l3aXFyay9jdWx0dXJlL2hvdy1hbmR5LWdvbGRlbi1yZWludmVudGVkLXRoZS1lbmRvd21lb=
+nQtbW9kZWwtZm9yLXByaW5jZXRvbg/607f07ceef4b8524a319a23cBa40c1af4" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ profile of Andy Golden</a>, the president of Princeton University=E2=80=99=
+s endowment manager, which includes this lovely fact:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Today at PRINCO, Golden=C2=A0and his approxima=
+tely 20-person team sit in one large room. They meet three times a week and=
+ vote on investment decisions. The weighting of the votes, famous among tho=
+se who know Golden well, is based on a secret formula he has in his head. T=
+he mechanism for voting is =E2=80=9Codd and secret and unstable,=E2=80=9D h=
+e says, declining to provide details.</p>
+<p style=3D"margin: 16px 0;">The process and constant conversation between =
+him and his team members keeps them engaged, he says. He believes this flow=
+ of information can improve investment outcomes and attract and retain tale=
+nt. And those things are necessities for his leadership method.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t know what that means but I cou=
+ld imagine, like, programming a computer model that weights each analyst=E2=
+=80=99s vote by (1) her track record of being correct in previous votes, (2=
+) her expressed confidence in the current vote, (3) how much the CIO likes =
+her personally and wants to get along with her, etc. And then you=C2=A0feed=
+ the votes into that model and the computer is like =E2=80=9Cthis proposal =
+passes with 9 Yes votes and 11 No votes, but the Yeses are a little better =
+than the Noes.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">In particular I could imagine Bridgewater Asso=
+ciates <a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.25=
+8423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTYtMDItMD=
+UvYnJpZGdld2F0ZXItcy1ib3NzZXMtYXJlLWZpZ2h0aW5nLW92ZXItc29tZXRoaW5nP2NtcGlkP=
+UJCRDA5MjAyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0=
+dGVyJnV0bV90ZXJtPTIzMDkyMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524=
+a319a23cB40f43ed5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">doing it on the computer</a>, using way more dat=
+a to compute everyone=E2=80=99s vote weight, and publishing everyone=E2=80=
+=99s coefficients. =E2=80=9CYour vote counted for 0.47 votes yesterday but =
+then Dave found you a little annoying in a meeting and pushed the <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS92aWV3L2FydGljbGVzLzIwMTktMDItMDEvYnJpZGdld2F0ZXIt=
+YXNzb2NpYXRlcy1wcm92ZXMtc2VsZi1vYnNlc3Npb24tYWN0dWFsbHktd29ya3M_Y21waWQ9QkJ=
+EMDkyMDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZX=
+ImdXRtX3Rlcm09MjMwOTIwJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319=
+a23cB24ff1f2a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">negative feedback button</a> on the app, so now your=
+ vote only counts for 0.44.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Also though I could imagine=C2=A0<em>not=C2=A0=
+</em>programming a computer model to do that, and just doing it informally =
+in your head? Like Golden apparently does? What is life but interacting wit=
+h people who give greater or lesser weight to your views and desires, and t=
+rying to get your weight up? And having your own=C2=A0formula, in your own =
+head, for how you weight other people=E2=80=99s views and desires?=C2=A0Eve=
+ryone=E2=80=99s formula for that is odd and secret and unstable: Life chang=
+es, friendships change, there=E2=80=99s no accounting for taste, the heart =
+wants what it wants, etc. Except at Bridgewater the formula is probably in =
+the computer.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Deutsche Bank struggles with fallout after hug=
+e <a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/=
+aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNDEzODg3NmMtNWExMC00NmQ0LWI2YzYtN2Q0MjF=
+jYmQ5ZGYw/607f07ceef4b8524a319a23cBdb58ecb7" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> Postbank IT migration=
+</a>. CLO Investors Push Back on Use of =E2=80=98<a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/32776778.258423/aHR0cHM6Ly9uZXdzLmJsb29tYmVy=
+Z2xhdy5jb20vYmFua2luZy1sYXcvY2xvLWludmVzdG9ycy1wdXNoLWJhY2stb24tbWFuYWdlcnM=
+tdXNlLW9mLXNub296ZS1kcmFnLXRhY3RpYw/607f07ceef4b8524a319a23cBd4734adc" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">  Snooze Drag</a>=E2=80=99 Tactic. CLOs Desperate for Collateral Are Lo=
+ading Up on <a href=3D"https://link.mail.bloombergbusiness.com/click/327767=
+78.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktM=
+TkvY2xvcy1idXktanVuay1ib25kcy1saWtlLW5ldmVyLWJlZm9yZS1hbWlkLWNvbGxhdGVyYWwt=
+c2hvcnRhZ2U_Y21waWQ9QkJEMDkyMDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1=
+fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTIwJnV0bV9jYW1wYWlnbj1tb25leXN0dW=
+Zm/607f07ceef4b8524a319a23cB93c04529" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">  Junk Bonds</a>. Goldman Rai=
+ses $14 Billion For Private Equity <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/32776778.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2=
+FydGljbGVzLzIwMjMtMDktMjAvZ29sZG1hbi1yYWlzZXMtMTQtYmlsbGlvbi1mb3ItcHJpdmF0Z=
+S1lcXVpdHktc2Vjb25kYXJpZXMtZnVuZD9jbXBpZD1CQkQwOTIwMjNfTU9ORVlTVFVGRiZ1dG1f=
+bWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MjAmdXRtX2N=
+hbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb4e44e31" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">  Secon=
+daries Fund</a>. UBS, French Tycoon Face $1.5 Billion Claim in <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/32776778.258423/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMjAvdWJzLWZyZW5jaC10eWNvb=
+24tZmFjZS0xLTUtYmlsbGlvbi1jbGFpbS1pbi10dW5hLWJvbmQtc2NhbmRhbD9jbXBpZD1CQkQw=
+OTIwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ=
+1dG1fdGVybT0yMzA5MjAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a2=
+3cB4f87e086" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">  Tuna Bond</a> Scandal. Why Dollar General Might Just=
+ Be the <a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.2=
+58423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjMtMDktMjAvZ=
+G9sbGFyLWdlbmVyYWwtZW1wbG95ZWVzLXNheS1pdC1zLWEtdGVycmlibGUtcGxhY2UtdG8td29y=
+az9jbXBpZD1CQkQwOTIwMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U=
+9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MjAmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07=
+ceef4b8524a319a23cB24bc2398" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">  Worst Retail Job</a> in America.=C2=
+=A0EU to <a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.=
+258423/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvNTNmODRmMDMtMWYxYy00MjQwLTk3N2Yt=
+OWRlMGU0ODkzMzc3/607f07ceef4b8524a319a23cB5beaa117" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> ban =E2=80=98c=
+limate neutral=E2=80=99 claims</a> by 2026. Jaguars QB <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/32776778.258423/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDktMTUvamFndWFycy1xYi10cmV2b3ItbGF3c=
+mVuY2UtdG8tc2V0dGxlLWZ0eC1lbmRvcnNlbWVudC1mcmF1ZC1zdWl0P2NtcGlkPUJCRDA5MjAy=
+M19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9=
+0ZXJtPTIzMDkyMCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB35=
+9692de" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">  Trevor Lawrence</a> Settles FTX Endorsement Lawsuit. Kim =
+Kardashian's <a href=3D"https://link.mail.bloombergbusiness.com/click/32776=
+778.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDkt=
+MjAva2ltLWthcmRhc2hpYW4taW50ZXJ2aWV3LWt5bGllLWplbm5lci1za2ltcy1hbmQtYmVjb21=
+pbmctYS1sYXd5ZXI_Y21waWQ9QkJEMDkyMDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbC=
+Z1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTIwJnV0bV9jYW1wYWlnbj1tb25le=
+XN0dWZm/607f07ceef4b8524a319a23cB438c83c4" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  Doubters</a> Only Moti=
+vate Her to Work Harder. Starbucks <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/32776778.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2=
+ZlYXR1cmVzLzIwMjMtMDktMjAvc3RhcmJ1Y2tzLXNwZW5kcy1iaWxsaW9ucy10by1zbGFzaC13Y=
+Wl0LXRpbWVzLXdpdGgtZmFzdGVyLW9yZGVycz9jbXBpZD1CQkQwOTIwMjNfTU9ORVlTVFVGRiZ1=
+dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA5MjAmdXR=
+tX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBda31c1e5" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">  c=
+ombinatorics</a>. =E2=80=9CDespite the pervasiveness of exclusivity and rej=
+ection on Yale=E2=80=99s campus, most of the students I spoke with didn=E2=
+=80=99t feel that they were living in an <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/32776778.258423/aHR0cHM6Ly93d3cudGhlYXRsYW50aWMuY29t=
+L2lkZWFzL2FyY2hpdmUvMjAyMy8wOS95YWxlLWNvbGxlZ2UtdW5kZXJncmFkLWNsdWJzLWNvbXB=
+ldGl0aXZlLzY3NTIxOS8/607f07ceef4b8524a319a23cB3fa35677" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> end-stage =
+meritocracy hellscape</a>.=E2=80=9D=C2=A0The Wild Quest to Create a <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/aHR0cHM6L=
+y93d3cuc2kuY29tL2JldHRpbmcvMjAyMy8wOS8xNS9mYWtlLWluZGlhbi1jcmlja2V0LWxlYWd1=
+ZS1kYWlseS1jb3Zlcg/607f07ceef4b8524a319a23cB821c7cbe" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Fake Indian =
+Cricket League</a> ... That Was Just the Beginning.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32776778.258423/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB11155ed7" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32776778.258423/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB4eadfadf" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Or maybe he's not even a CEO? In 2018 he <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS92aWV3L2FydGljbGVzLzIwMTgtMTAtMzAvZWxvbi1tdX=
+NrLWlzbi10LXRoZS1ub3RoaW5nLW9mLXRlc2xhP2NtcGlkPUJCRDA5MjAyM19NT05FWVNUVUZGJ=
+nV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDkyMCZ1=
+dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB793eeabf" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ half-joked on Twitter</a> that he had =E2=80=9Cdeleted my Tesla titles,=E2=
+=80=9D and in 2021 he <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/32776778.258423/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE=
+zMTg2MDUvMDAwMTU2NDU5MDIxMDEyOTgxL3RzbGEtOGtfMjAyMTAzMTUuaHRt/607f07ceef4b8=
+524a319a23cB4ce65c70" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> changed his title</a> to =E2=80=9CTechnoking=
+ of Tesla,=E2=80=9D though by now I think he=E2=80=99s <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/32776778.258423/aHR0cHM6Ly93d3cuc2VjLm=
+dvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTMxODYwNS8wMDAxMTkzMTI1MjMwOTQwN=
+zUvZDQ1MTM0MmRkZWYxNGEuaHRtI3RvYzQ1MTM0Ml80Ng/607f07ceef4b8524a319a23cB27a3=
+5afc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> back to</a> =E2=80=9CTechnoking of Tesla and Chief Executive=
+ Officer.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Except the index funds lol. Also except th=
+e ones who sue him, but that=E2=80=99s a special case.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] I mean, I own index funds, but they mostly=
+ got into Tesla late and missed much of the rise.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] As is Musk=E2=80=99s Twitter adventure, no=
+w.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] I am probably exaggerating these differenc=
+es. The SEC has brought plenty of private-company securities fraud cases, a=
+nd I don=E2=80=99t want to say it couldn=E2=80=99t find something to compla=
+in about with SpaceX. But the surface area for SEC enforcement is just much=
+, much smaller.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] I mean, Musk=E2=80=99s attention was very =
+good for Twitter=E2=80=99s *former* public shareholders.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] I=E2=80=99m exaggerating. For one thing, i=
+f you hire her bank to do the acquisition and then don=E2=80=99t do it =E2=
+=80=94 because the target says no, or another bidder gets it, or the market=
+ crashes, or you change your mind or whatever =E2=80=94 then she will have =
+done a lot of work for nothing. For another thing, if you also hire her ban=
+k to finance the acquisition, it might lose more on the financing than it m=
+akes on fees. (Ask <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/32776778.258423/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMj=
+ItMTEtMTAvdHdpdHRlci1sb2Fucy1nZXQtYmlkLWF0LTYwLWNlbnRzLWFzLWJhbmtzLXNvdW5kL=
+W91dC1pbnZlc3RvcnM_Y21waWQ9QkJEMDkyMDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFp=
+bCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwOTIwJnV0bV9jYW1wYWlnbj1tb25=
+leXN0dWZm/607f07ceef4b8524a319a23cBfbaf5a54" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">  Elon Musk=E2=80=99s =
+Twitter banks</a>.) Still, though, M&amp;A is generally pretty lucrative fo=
+r banks, and it is usually lucrative in a low-risk, purely fee-paying way.<=
+/p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] Again exaggerating, in the sense that it m=
+ight be more lucrative for her in the long run to have a good trusted advis=
+ory relationship with you, and to strengthen that relationship by only brin=
+ging you good deals. Still, if the deal is a dud, that=E2=80=99s much more =
+your problem than hers.</p>
+</div>
+<div id=3D"footnote-9" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[9] As always there is an expectations compone=
+nt here, and if everyone knows that interest rates are going to go up a lot=
+ then long-term bond rates will be high now, etc., but you know what I mean=
+. I mean something like =E2=80=9Cif you know that rates are going to go up =
+a lot, but the market hasn=E2=80=99t figured that out yet, you should make =
+floating-rate loans.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-10" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[10] I kid a little, it=E2=80=99s not just abo=
+ut fixed vs. floating but also investment-grade vs. non-investment-grade, b=
+ut still.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB76986521" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBc4b100f8" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB2ac9fb25" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBeeac10cf" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB3ad3d296" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.2584=
+23/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB17bcc731" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32776778.258423/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC46c9be9d" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/32776778.258423/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBa0c6dac9" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/32776778.258423/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBa73ebb4f" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB2=
+10de678" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32776778.258423/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB7=
+7527ee2" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjiiq2.5jef/6c876018.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_14211589_29927754.1695233577711--
+

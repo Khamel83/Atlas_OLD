@@ -1,0 +1,1967 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp5653rwb;
+        Wed, 17 May 2023 11:18:09 -0700 (PDT)
+X-Received: by 2002:a05:600c:d4:b0:3f4:255e:e375 with SMTP id u20-20020a05600c00d400b003f4255ee375mr2438076wmm.9.1684347489512;
+        Wed, 17 May 2023 11:18:09 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1684347489; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=tx+wRdzW56/7+k9rUvd1pH7Jb7fZ0tPvdJYrg22tzSbv0oPlxVtUt9/j+lMuvKkiOF
+         cJwwiEbXzxnqE/O2ulrY+alZaGosgrypwyVd7l/l+y+sBSAi7LTiFs2R5zWLqAeNPVgM
+         iW0o+yDCFTQMncZjKpNymvue++XHsiaqx2vET4NU9470JZc6HlJm5YywZf3V4js2L3WW
+         vJk9IxR4L9azFdURgmdIwML2zkXajxjr3EpJdwvfEAcgUJQVaEyFk3Dt0eGSyy5oCEbR
+         Ciopgeo8ugJI/SNyFUmrP3zPoeP28OnTqkLlPP/kTQ0ZxcPnbh+ltDAKthCuJWiEltjk
+         Srag==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=KPGNOeq5I1tWLSoH7zbB2UggPjIhzquKDuMFktPyVeM=;
+        b=hXJsMqtex3wylTdl1ng91+7bZFkJLjPJWikNxQ/3Q6yJlVQ9qKkcx6hYAqr+ZUsG7m
+         8DNxlmk+9aQ47GKADotQk5kqKE+Vk0X3mDKNrJ8XP2cLI1z408eWVV1xmovkpO0VeQtL
+         09CbwLhFFdeOLYY1OBENHyz8OfOedCKivo7PmjkLMiXjAWSgW8uqrgo5asfnbMl2rUEd
+         bze3Luoz5EpilLUL/Qb2/MqeEyGF651k2oqzm9i+0qSVw7iKJRlwEadkgM4JrZzmsmxX
+         KrqC2lkLuj3xDiRCIJBNZ+ZgRr/6W3v0lZeW29aGxPE4ctaGK/wJtVsC7e4Qeu29I5w+
+         PJbQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="rb7F/7dy";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id f12-20020a7bcc0c000000b003edee3f39desor715792wmh.2.2023.05.17.11.18.09
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 17 May 2023 11:18:09 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="rb7F/7dy";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1684347489; x=1686939489;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=KPGNOeq5I1tWLSoH7zbB2UggPjIhzquKDuMFktPyVeM=;
+        b=V6zXb9k2GKHzfFxGlnappQWyCvTBWRRmuRcV7AzD7gljimShEQ7p0WsdOHcgKeJnoE
+         jYLQwRRimUu4MI70OhD7EbbCDYNDdCMHjo3P+aPzgS6XRBvlwBeK+N9o6BkwHno5HmhE
+         sHRLrVg392JiYUHugeo6mocoT1pQ1naMMI9KqJN+PgjKXy3fh5Joug+R+WcJB/k10n0b
+         gIgFSsK9v/ii/ogjvqYxobvCR/Vi461rKsTuxXHLRH3/Vh/kDytlI5WOnrOrlcY0prM3
+         Tgylk8/Vvooat7u/jYcQLG7bTma/52bjK8+2NX5Bu24e9aZXNGlB2P2PWjl7gMy/Wr/s
+         Cx2w==
+X-Gm-Message-State: AC+VfDwqzOI1rEuSaC+2oF5Qcilom0nGdbn30W3BErDGflbG/tbLoWNH
+	0vbr9b5h99wFLXx68665VYu2LhmkkyZAYaaSiPx4biDrSfMBje1eyw==
+X-Received: by 2002:a05:600c:2101:b0:3f4:2158:288b with SMTP id u1-20020a05600c210100b003f42158288bmr6533141wml.2.1684347488711;
+        Wed, 17 May 2023 11:18:08 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:f404:0:0:0:0:0 with SMTP id g4csp1044067wro;
+        Wed, 17 May 2023 11:18:05 -0700 (PDT)
+X-Received: by 2002:a05:6808:5d9:b0:394:4912:3367 with SMTP id d25-20020a05680805d900b0039449123367mr10783553oij.45.1684347484658;
+        Wed, 17 May 2023 11:18:04 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1684347484; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=etNuDuNQYsYzTtwPbXFaXe8W3uU7x9I3cwJpb+/1ue29rt7vk2nvwggI8khrLN+HFT
+         eNpXzfL/d5H2UymtJLlrIeLFWZPHOUUXuYUVud5p+8v/TLGSJsWwD7YT1+/mAviioTqz
+         iTHzUFGSlktBnQCgX+QxK2Qv+E40MZAwobhZSRPBKSWHbFVBp/Pg/q8FT+jrfkv5F5EB
+         V2+NUfF+An5ApIVu5wWQZg3eLj1VBp1MPf4QMrIWSnPhqlutkR6fdiF9PQswPEZCjuTe
+         ML5KX09pYIFGWaKst1+wuXgRyPomKzbrQjxojH6SfM3ySDR7i4h39SLH0qL80e1x0vlb
+         xmvw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=KPGNOeq5I1tWLSoH7zbB2UggPjIhzquKDuMFktPyVeM=;
+        b=LOjAUhH8xgK1Mgqy5jeV0afwMqbdzujLlo4FJ/qDvvh93zdnhFMlm+3KgHNQHGcvQ6
+         9bLIrbch0PNUKj6z2tLJrCkUV0uyxmSVqYvr7yuiba351RC4tXF6LvUPanuibok6nLE6
+         aQ4/a0beXJPEDowC4mWABB63xu3d4lL0DiJ0rPFnpYjokQVWGGTM3rC+e7JOJ3+jL9PY
+         M6dmaMmct6GickrkU5BemLHKvR0H+L/MZiCVKCLIV1ht5tdrZxf0eMGg4tb9guYfR3fn
+         9tshZVnwiTNrSIHjTbqdYWFwDYI6h9gdHOws+/IxEczH63HqTStdTP0AjAWmTTzCne4U
+         A+rg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="rb7F/7dy";
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230517141702.31513959.263431@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230517141702.31513959.263431@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230517141702.31513959.263431@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id q4-20020acaf204000000b0039252ffbf2bsor2922064oih.4.2023.05.17.11.18.04
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 17 May 2023 11:18:04 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230517141702.31513959.263431@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ACHHUZ6cAH3Rh/bucMGO/LKEzOfrYDBMoo5QAEXgAKSHzNDLMqOghYNVGzR8i5I4vQvMAUygc2ZC7cJmaFfsZUG3AB6Vscw1z5o=
+X-Received: by 2002:a05:6808:14cd:b0:396:4cf:3265 with SMTP id f13-20020a05680814cd00b0039604cf3265mr6473061oiw.9.1684347484241;
+        Wed, 17 May 2023 11:18:04 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1684347484; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Di8InLoVn/fEUpmFLyuadoZf5G4ZnFV5pjEzaWBtFiKKAND7z8MVQJROyDgdsGTMQy
+         eS7DdBjln/kA3PyRpf6KSg8IqirqzNAL2dRZfgauKsjtoMXGdVQCjZylHahUJ7cxPHmE
+         hu1LyjkErVEfKHYeKNoH9B5JxVBGmGBnvVf0xY6CLl7+mB8wdcKBVSbt991GXB7ZD5xv
+         +flntKLfNIdwtwRXqOEEe/MMQsQf4s5z89jG6ib7BsIrwtPPvVQAy+ApQRRgSUun7TsW
+         +eOG6Pu0x1BSaVNvhkRo0X0qbbrypHIVSwveNoe+KLuqvr1Oxv7sbT9McukclwyOGkC/
+         P2hw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=KPGNOeq5I1tWLSoH7zbB2UggPjIhzquKDuMFktPyVeM=;
+        b=yRFQwFc6sed0oSEdzwTxq1Cp6NNVZnZKj3Pxj4FwoxkhZrPND7GZUa7WZGsw4LxLhQ
+         KTEEwbjqtaVE7spzFmKC3Q3UDRs0xxprLFED64Bw5jO4Ls9NpTRtNwpePYXVe4Rq+mgt
+         DEntxsrF4xylH5ROTjcQbv8kG6+RIjdVsTS1zqh1qF2kDbD1xsm/dZJcvCbtuhVyQtPB
+         TlY4ofQp9mm5pEuhdWML/+ADzWX8fD+y2KCmlY6q3edac+/hSLFzhKN4TqNrZDginfhs
+         KhkbNyAnqz64Av9V22Y+I0tZvOOfskbbXklyYsSOzf/2fOwFcrBv8JczDSsZmc1qwprN
+         hH8A==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="rb7F/7dy";
+       spf=pass (google.com: domain of delivery_20230517141702.31513959.263431@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230517141702.31513959.263431@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230517141702.31513959.263431@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id be5-20020a056808218500b0039429b25b38si1324751oib.2.2023.05.17.11.18.03
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 17 May 2023 11:18:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230517141702.31513959.263431@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=y1ypmOUexAmhWhdgg7CGobOAA6Awzvnl+ZYhAyIWXsc=;
+ b=rb7F/7dy4Cv7bgMMdBQuxFp5QbPvaAeRzF2PTLOU0YlH4U0i3V9nWHzzlV55PNDH4MsFPnngCKzD
+   SwfCD7kGpLQ0esUtfmz8IJPpX2rGA8x5zF/xNa0QUrbj6cH0fDW8ngI/EsrngRZvNVNH0R/ZCsKy
+   RqtBV/BdiWnSiACums8=
+Received: from mtast-04.sailthru.com (204.153.121.10) by bloomberg-b.sailthru.com id hckd5m30nu8l for <bloomberg@khamel.com>; Wed, 17 May 2023 14:18:02 -0400 (envelope-from <delivery_20230517141702.31513959.263431@mx.sailthru.com>)
+Received: from nj1-tancanary.flt (172.18.20.9) by mtast-04.sailthru.com id hckd5k1s6j0t for <bloomberg@khamel.com>; Wed, 17 May 2023 14:17:02 -0400 (envelope-from <delivery_20230517141702.31513959.263431@mx.sailthru.com>)
+Date: Wed, 17 May 2023 14:17:02 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230517141702.31513959.263431@sailthru.com>
+Subject: Money Stuff: Banks Want a Break From the FDIC
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_13922636_1641198965.1684347422908"
+Precedence: bulk
+X-Feedback-ID: 6358:31513959:campaign:sailthru
+X-TM-ID: 20230517141702.31513959.263431
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-tancanary.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cirgbr.5n9j/11f8667e
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cirgbr.5n9j/11f8667e>, <mailto:unsubscribe_20230517141702.31513959.263431@mx.sailthru.com>
+X-rpcampaign: stjko31513959
+
+------=_Part_13922636_1641198965.1684347422908
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        A lot of this spring=E2=80=99s US regional banking crisis can be ex=
+plained this way: Banks bought a lot of Treasury bonds and other US governm=
+ent-ba
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      FDIC
+   =20
+ =20
+
+A lot of this spring=E2=80=99s=C2=A0US regional banking crisis can be expla=
+ined this way:
+=09Banks bought a lot of=C2=A0Treasury bonds and other US government-backed=
+ securities when interest rates were low, paying roughly 100 cents on the d=
+ollar for them.=09Interest rates went up a lot, driving the prices of those=
+ bonds=C2=A0down to, say, 85 cents on the dollar.=09Banks had big losses on=
+ those bonds, eating through a lot of their capital.=09People noticed, stoc=
+ks went down, deposits fled, some banks failed and others have looked shaky=
+.
+
+One solution to this crisis would be that, if the bonds magically went back=
+ to being worth 100 cents on the dollar, the banks would mostly be fine aga=
+in.
+  [1]
+=C2=A0That seems improbable, though=C2=A0I guess one interesting=C2=A0mecha=
+nism=C2=A0would be if the banking crisis caused enough of a recession to dr=
+ive long-term interest rates back to where they were in 2020.=C2=A0Then=C2=
+=A0the bonds would be fine, though probably the banks would have credit los=
+ses.
+Another solution to this crisis would be that, if the US government just=C2=
+=A0bought=C2=A0the bonds from the banks at 100 cents on the dollar, the ban=
+ks would mostly be fine again. Of course then the government would have pai=
+d 100 cents for stuff worth 85 cents, which seems bad. But through the magi=
+c of held-to-maturity accounting, you can sort of wave your hands and prete=
+nd that it=E2=80=99s not bad. If the government paid 100 cents today for a =
+bond worth 85 cents, and then held it until it matured, it would get back 1=
+00 cents. (Plus interest, though not very much.) In some accounting sense, =
+the government would not lose any money: It would get a below-market rate o=
+f interest on its money for the next few years, but it would technically ge=
+t all of its money back.
+And in fact this is kind of how the banks thought of these bonds: They were=
+ often in the banks=E2=80=99 held-to-maturity portfolios, meaning that they=
+ didn=E2=80=99t need to be marked down when they lost value due to changing=
+ interest rates. It=E2=80=99s just that, when people notice this stuff and =
+deposits flee, you=C2=A0can=E2=80=99t=C2=A0hold the bonds to maturity, beca=
+use you have to sell them, at a loss,=C2=A0to pay back depositors. But the =
+government is not funded by short-term deposits, so it really=C2=A0can hold=
+ the bonds to maturity.
+And in fact this is kind of, a little bit, a solution that the government h=
+it on: In response to the failure of Silicon Valley Bank, the US Federal Re=
+serve announced a new Bank Term Funding Program that would=C2=A0lend=C2=A0t=
+he banks 100 cents on the dollar against bonds worth 85 cents on the dollar=
+. This is not the same thing as=C2=A0buying=C2=A0the bonds at 100 cents on =
+the dollar =E2=80=94=C2=A0the banks, rather than the government, are still =
+economically on the hook for the losses =E2=80=94=C2=A0but it is motivated =
+by the same sort of thinking. =E2=80=9CEventually these bonds=C2=A0will=C2=
+=A0pay out 100 cents on the dollar, so it=E2=80=99s fine to lend 100 cents =
+on the dollar against them, even if they are worth 85 cents today.=E2=80=9D
+But nobody has=C2=A0actually=C2=A0embraced a program of =E2=80=9Cthe govern=
+ment will just buy the bonds back at par to make the banks healthy again,=
+=E2=80=9D because it is kind of an extreme=C2=A0transfer of losses from ban=
+ks to taxpayers, even if you can wave your hands a bit and pretend it isn=
+=E2=80=99t.
+  [2]
+=C2=A0But here=E2=80=99s  this from Andrew Ackerman at the Wall Street Jour=
+nal:
+
+Banks have spent the past week or so testing what would be a clever gambit:=
+ Paying billions of dollars they collectively owe to replenish a federal de=
+posit insurance fund using Treasurys instead of cash.
+The idea=E2=80=94floated to regulators and lawmakers by PNC Financial Servi=
+ces Group and supported by others=E2=80=94could allow banks to take securit=
+ies that are currently worth, say, 90 cents on the dollar, and give them to=
+ the Federal Deposit Insurance Corp. at full price. That would effectively =
+shift losses clogging the banks=E2=80=99 balance sheets to the FDIC, accord=
+ing to people familiar with the proposal. ...
+Proponents say nothing in the law says FDIC fees have to be paid in cash, s=
+o the agency could change its rules. They say the move, if greenlighted by =
+the FDIC, would help the banking system address the way rising rates over t=
+he past year have saddled lenders with billions in losses on their portfoli=
+os of bonds. Those losses helped sink Silicon Valley Bank in March, sparkin=
+g turmoil across the banking sector. =E2=80=A6
+Supporters say the government would hold the securities until maturity, all=
+owing them to recover principal and interest on the debt. The government wo=
+uld suffer no losses, they say.
+
+The FDIC has spent billions of dollars on its bank rescues =E2=80=94=C2=A0w=
+hich is also a transfer of losses from banks to the government  to make the=
+ banking system more solvent=C2=A0=E2=80=94=C2=A0but it is getting the mone=
+y back by charging a special assessment to be paid by about 113 big=C2=A0=
+=C2=A0banks. If the banks pay the assessment with Treasuries that are worth=
+ 90 cents on the dollar, but that count for 100 cents on the dollar, then t=
+hey get a little discount on the assessment=C2=A0and=C2=A0get to move unple=
+asant assets off their balance sheets.
+Why stop there? They should pay their taxes in Treasuries. Really what they=
+ should do is pay executive bonuses in Treasuries: =E2=80=9CWe=E2=80=99re g=
+iving you a $1 million bonus, technically it is only worth $850,000 but if =
+you hold it to maturity it=E2=80=99s a million.=E2=80=9D=C2=A0
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Bed Bath & Beyond: beyond=C2=A0bankruptcy
+   =20
+ =20
+
+At some point in, let=E2=80=99s say, January, Bed Bath & Beyond Inc.  was n=
+o longer a viable business. It was losing money, it had a lot of debt, it w=
+as in default on that debt and couldn=E2=80=99t pay. It looked around for s=
+omebody to buy the company =E2=80=94=C2=A0in or out of bankruptcy =E2=80=94=
+=C2=A0and continue operating its stores, but it couldn=E2=80=99t find anyon=
+e. It prepared to file for bankruptcy, with a plan to liquidate the invento=
+ry, sell what it could, and give its creditors whatever was left, which wou=
+ld be a fraction of what it owed them.
+And then somebody had the bright idea of, hey, why not=C2=A0sell a bunch of=
+ stock? Bed Bath was a meme stock, retail investors liked it, and Bed Bath =
+could sell stock to them to raise cash to =E2=80=A6=C2=A0well, to hand over=
+ to the creditors. It couldn=E2=80=99t sell stock to raise enough money to =
+fix its problems and become a functional business again; that would require=
+ too much cash, and any cash that it did raise, it was contractually requir=
+ed to hand directly to its creditors. But if it sold a lot of stock, it wou=
+ld have some more cash to hand to the creditors. At this point in its life =
+=E2=80=94=C2=A0the all-but-bankruptcy part of its life =E2=80=94=C2=A0Bed B=
+ath was pretty much in the business of maximizing recovery for its creditor=
+s, and selling stock was a way to do that.
+  [3]
+
+And so it went out to sell worthless stock in a business that was no longer=
+ viable, to retail investors who did not realize that the stock was worthle=
+ss and the business was no longer viable. To be fair, Bed Bath did=C2=A0tel=
+l=C2=A0them. If a company wants to sell stock, it has to put out a prospect=
+us with disclosure about its business, and Bed Bath did, and the prospectus=
+ very much included phrases like =E2=80=9Cthe Company expects that it will =
+likely file for bankruptcy protection=E2=80=9D and =E2=80=9Cour equity hold=
+ers would likely not receive any recovery at all in a bankruptcy scenario.=
+=E2=80=9D
+But two facts about=C2=A0meme-stock retail investors are (1) they ain=E2=80=
+=99t reading all that and (2) they are always hopeful, so Bed Bath managed =
+to raise several hundred million dollars in a series of stock offerings.=C2=
+=A0Then it  filed for bankruptcy last month, with, still, a plan to liquida=
+te its assets and return what was left to creditors. It estimated that the =
+liquidation would raise about $718 million, to pay back about $1.8 billion =
+of debt, so the several hundred million dollars that it raised from the sto=
+ck market was a big help. For the creditors. Not for the shareholders, obvi=
+ously. They are getting zero.
+Look! This is all debatable! What do I know? In January, Bed Bath did not k=
+now=C2=A0that it was no longer viable, and I do not=C2=A0know=C2=A0that now=
+. It is in bankruptcy, but it has not liquidated everything yet. There is a=
+lways some optionality, some chance that the business will recover in such =
+a way that the company is viable and the stock is valuable. =E2=80=9CBed Ba=
+th & Beyond has pulled off long shot transactions several times in the last=
+ six months, so nobody should think Bed Bath & Beyond will not be able to d=
+o so again,=E2=80=9D it said in its bankruptcy declaration.=C2=A0Maybe it w=
+ill discover a $5 billion stash of diamonds in one of its stores and say =
+=E2=80=9Chey, we=E2=80=99re rich now, no need to liquidate, let=E2=80=99s p=
+ay back all our debt, refresh our inventory and get back to selling housewa=
+res.=E2=80=9D Or maybe Elon Musk will put in a bid to buy it just for giggl=
+es, and then somehow be forced to follow through.=C2=A0And then the stock w=
+ill be worth a lot, and the people who bought it for $0.30 in April will ma=
+ke a fortune. I do not expect this outcome, but  I have been wrong before, =
+and it is not, like, a physical impossibility.
+Still I mean I have read the bankruptcy filings. Then there is this:
+
+Passionate fans think Bed Bath & Beyond stock isn=E2=80=99t dead yet.=C2=A0
+Investors in meme stocks are typically eternal optimists, wagering on stock=
+s they are excited about even if the underlying fundamentals are weak. Even=
+ in that world, the Bed Bath & Beyond bet is extreme. The company has said =
+it expects shareholders will be wiped out, a projection that emphasizes the=
+ hard math of its chapter 11 filing.
+=E2=80=9CIt is obviously the ultimate form of speculation, with buyers bett=
+ing on the success of a reorganization on a worthless stock,=E2=80=9D said =
+Charles Geisst, a retired professor of finance at Manhattan College.
+The stock now trades for pennies in the over-the-counter market, the provin=
+ce of companies that generally can=E2=80=99t trade on regular exchanges. Si=
+nce it started trading on May 3, Bed Bath & Beyond stock has made up more t=
+han 9% of trades in the Pink Current Market, the over-the-counter market in=
+ which it resides, according to data from OTC Markets Group as of Friday.=
+=C2=A0=E2=80=A6
+Michael =E2=80=9CJared=E2=80=9D Martin, 25, said that most of his portfolio=
+ is tied up in shares of Bed Bath & Beyond and GameStop. When he received a=
+ bonus check from his IT job, he said he poured much of it into the retaile=
+r=E2=80=99s shares this March. He doesn=E2=80=99t plan to sell.
+=E2=80=9CI think that Bed Bath & Beyond, even in bankruptcy, is one of the =
+best deals in the stock market,=E2=80=9D said Martin, who is based near Lou=
+isville, Ky.
+Martin, who started chatting with other traders on the Reddit forum WallStr=
+eetBets years ago, first got into the stock around the time that the billio=
+naire investor Ryan Cohen did so last year.=C2=A0
+Martin has gradually increased his stake, while doing hours of analysis on =
+the company and how it might exit bankruptcy. =E2=80=9CYou can call me a co=
+nspiracy theorist,=E2=80=9D he said.=C2=A0
+
+As far as I can tell, Bed Bath kept selling stock until very close to the t=
+ime it filed for bankruptcy. I =E2=80=A6=C2=A0assume =E2=80=A6=C2=A0it =E2=
+=80=A6=C2=A0has =E2=80=A6=C2=A0stopped? When Hertz Global Holdings Inc. dec=
+ided to sell stock to retail investors=C2=A0while in bankruptcy, it  asked =
+the bankruptcy court for permission first; the bankruptcy court was like =
+=E2=80=9Csure I guess, this is nuts but good for creditors so go ahead.=E2=
+=80=9D (The US Securities and Exchange Commission quickly  shut it down tho=
+ugh.) I assume that Bed Bath has not asked for permission to keep selling s=
+tock because it is not still selling stock. But, you know. Somebody is buyi=
+ng it! It trades several million dollars a day, and the price is up more th=
+an 100% since its lows of early May. If Bed Bath captured, like, 20% of tha=
+t volume, by selling more stock in a public at-the-market offering, that wo=
+uld raise enough money to put a dent in its legal bills anyway. Bankruptcy =
+is expensive, retail traders want to give someone money to buy Bed Bath sto=
+ck, why shouldn=E2=80=99t the company take that money to spend on its bankr=
+uptcy?
+Oh, reasons, sure, but honestly not=C2=A0that=C2=A0much has changed since B=
+ed Bath last sold stock to retail investors. When it sold stock in April, t=
+hings were pretty hopeless, and it warned buyers that it would probably go =
+bankrupt and their stock would be worthless. Now it is May, things remain p=
+retty hopeless, Bed Bath is=C2=A0in=C2=A0bankruptcy, the stock sure looks w=
+orthless, but people are still buying it. Before it filed for bankruptcy, B=
+ed Bath was pretty ruthless about taking advantage of that demand. Why stop=
+ with bankruptcy?
+Why stop with anything? Eventually Bed Bath=E2=80=99s bankruptcy will concl=
+ude. Current expectations are that it will conclude with liquidating the as=
+sets and cashing out the creditors at some fraction of what they are owed. =
+But why not leave the corporate shell around, let its stock keep trading, l=
+et it keep selling stock, and send the proceeds to creditors? Give creditor=
+s cash now, plus a residual stream of quarterly payments from stock investo=
+rs, just a little tax on people who want to keep trading Bed Bath stock lon=
+g after it stops making sense. Somebody somewhere will have a conspiracy th=
+eory about Bed Bath=E2=80=99s revival that can survive the end of the bankr=
+uptcy case. Part of the value of Bed Bath & Beyond is that it is a meme sto=
+ck with=C2=A0retail shareholders whom=C2=A0harsh economic reality cannot de=
+ter from buying the stock. That value belongs to the creditors now!=C2=A0
+
+ =20
+   =20
+      AT1 reforms
+   =20
+ =20
+
+A tension in bank regulation is that you want people to buy the equity of b=
+anks, so that banks have lots of capital to absorb losses in a crisis so th=
+ey don=E2=80=99t lose depositor money or require government bailouts. When =
+there is a bank failure, you will want the equity to absorb losses: That is=
+ what it is there for, and better for equity investors =E2=80=94=C2=A0who w=
+ere consciously taking risk buying the bank=E2=80=99s stock, and expected t=
+o do well if the bank did well and to lose everything if it went bust =E2=
+=80=94=C2=A0to lose money than for depositors or taxpayers to lose money.
+But bank failures tend to come in waves, and you will want=C2=A0other=C2=A0=
+banks to be able to raise lots of equity easily to shore up confidence in t=
+he system and make their failure less likely. And if the equity of=C2=A0thi=
+s=C2=A0bank absorbs too many losses, people won=E2=80=99t want to buy stock=
+ in=C2=A0other=C2=A0banks, because they will notice how risky bank stocks a=
+re. And then the other banks won=E2=80=99t be able to raise capital, and th=
+e crisis will continue. We have seen a bit of this with US regional banks: =
+Several banks were briskly seized and had their equity written down to zero=
+, and the result is that other   regional bank stocks got crushed. And so w=
+hile lots of regional banks could probably use more equity, nobody is about=
+ to go out and do a stock offering.
+The exact same analysis applies to other bank capital securities. Additiona=
+l tier 1 capital securities, for instance, which are perpetual-ish debt-ish=
+ securities that pay a high interest rate but get crushed if the bank fails=
+, are designed to absorb losses. If a bank fails, it is good and right for =
+them to absorb losses. But, though it says right on the tin that they absor=
+b losses, and though they pay a high interest rate in compensation for the =
+risk that investors are taking, they are not=C2=A0really=C2=A0bought by ris=
+k-seeking gamblers. They are bought by fixed-income funds and high-net-wort=
+h investors who want steady income. When an AT1 gets written down to zero, =
+those investors stop buying all the=C2=A0other=C2=A0AT1s. And that makes=C2=
+=A0other=C2=A0banks riskier: They can=E2=80=99t raise as much loss-absorbin=
+g capital, or they can but they have to pay more for it.=C2=A0
+In some rough sense, the ideal way for a bank capital instrument=C2=A0to wo=
+rk would be:
+=09People buy it thinking that it can never lose money.=09If the bank fails=
+, it goes to zero to absorb losses.
+
+There are second-order effects, and this is not really right. If people rea=
+lly think they can=E2=80=99t lose money on bank AT1s, then ordinary people =
+will put their life savings in bank AT1s, businesses will put their payroll=
+ in bank AT1s, and writing down bank AT1s will have huge consequences for t=
+he economy. Still it is=C2=A0kind=C2=A0of right. You want the people who=C2=
+=A0can=C2=A0bear the risk of bank failures to=C2=A0want=C2=A0to bear the ri=
+sk, and then, when a bank fails, you want them to actually bear the risk.
+Anyway, Credit Suisse Group AG failed in March,   its AT1 securities were w=
+ritten down to zero, people have been hopping mad ever since, and European =
+bank regulators have taken pains to say =E2=80=9Coh=C2=A0we=C2=A0would neve=
+r do that, AT1s are totally safe, why would they absorb losses?=E2=80=9D Bl=
+oomberg=E2=80=99s=C2=A0  Abhinav Ramnarayan and Steven Arons report:
+
+The European Banking Authority has been holding talks on ways to boost inve=
+stor interest in the AT1 market after Switzerland=E2=80=99s shock decision =
+to wipe out about $17 billion of Credit Suisse Group AG notes.
+The EBA earlier this month addressed ideas such as a ban on banks paying di=
+vidends before they consider skipping an AT1 coupon to preserve capital dur=
+ing times of stress, people familiar with the matter said, asking not to be=
+ identified discussing the private information. Other ideas floated at an e=
+vent held by the body included a requirement to pay out skipped AT1 coupons=
+ at a later stage rather than allowing them to be canceled altogether, the =
+people said. =E2=80=A6
+The price of issuing AT1 bonds is still elevated compared with levels befor=
+e the Credit Suisse rescue. Their average yield in an index of European AT1=
+ debt is currently above 11% =E2=80=94 almost twice the average coupon of r=
+oughly 6% on previously issued AT1 bonds, according to data compiled by Blo=
+omberg.
+
+These changes would make AT1s=C2=A0less loss-absorbing, which would be bad =
+for their usefulness as bank capital, but=C2=A0more attractive to investors=
+, and if nobody buys them then they=E2=80=99re not that useful anyway.
+Incidentally my own view of the correct regulatory response here is somethi=
+ng like =E2=80=9Cmemories in financial markets are extremely short, and any=
+ time a bond investor indignantly huffs that she will never buy some type o=
+f bond again, she=E2=80=99ll be buying it within a week.=E2=80=9D You have =
+a meeting with AT1 investors, they say =E2=80=9Cyou need to make sure that =
+these bonds can never lose money,=E2=80=9D you nod and say =E2=80=9Cof cour=
+se, of course,=E2=80=9D you wait six minutes, you forget all about it. I am=
+ not sure that will work here but I don=E2=80=99t think I=E2=80=99d bet aga=
+inst it.
+
+ =20
+   =20
+      Elsewhere in Credit Suisse AT1s
+   =20
+ =20
+
+When Credit Suisse=E2=80=99s additional tier 1 capital securities were zero=
+ed in March, its subordinated bonds were not. The subordinated bonds were f=
+ine, they are still outstanding, and Credit Suisse (which is being acquired=
+ by UBS Group AG) is still paying them. Intuitively, the way to describe th=
+is is something like =E2=80=9Cthe subordinated bonds are senior to the AT1s=
+, so the subordinated bonds get paid before the AT1s do.=E2=80=9D And in fa=
+ct it was and is fairly standard to describe the capital structure of Credi=
+t Suisse =E2=80=94=C2=A0or any other big European bank =E2=80=94=C2=A0by sa=
+ying that AT1s are below subordinated bonds, which are below senior unsecur=
+ed bonds, etc.
+There are credit default swaps outstanding on Credit Suisse=E2=80=99s subor=
+dinated bonds. These swaps would be triggered, and would pay off, if the su=
+bordinated bonds were written down, but those bonds were not written down. =
+They would also be triggered, though, if any Credit Suisse bonds that are =
+=E2=80=9Cnot subordinated to=E2=80=9D those bonds were written down. The AT=
+1s were written down. Were the AT1s =E2=80=9Cnot subordinated to=E2=80=9D t=
+he subordinated bonds? Obviously they were subordinated, in a practical=C2=
+=A0sense =E2=80=94 they were written down and the bonds were not!=C2=A0=E2=
+=80=94=C2=A0but the documents are a little ambiguous and these things thriv=
+e on technicalities, so some hedge funds bought CDS on the sub bonds and   =
+claimed it was triggered.=C2=A0Today they lost:
+
+A panel tasked with overseeing the credit default swaps market has ruled th=
+at the write down of=C2=A0Credit Suisse Group AG=E2=80=99s Additional Tier =
+1 notes will not trigger an insurance payout.=C2=A0
+The Credit Derivatives Determinations Committee (CDDC) determined at a meet=
+ing on Wednesday that the write down would not lead to a payout of the defa=
+ult swaps tied to the bank=E2=80=99s subordinated debt, according to a=C2=
+=A0notice=C2=A0on its website. In reaching its decision, the committee took=
+ the view that the AT1 notes were in fact junior to the subordinated bonds =
+underlying the swaps.
+
+Of course, but weirder things have happened and it was worth a shot.
+
+ =20
+   =20
+      Going Infinite
+   =20
+ =20
+
+One thing that I have found, in writing about finance for a long time, is t=
+hat financial scandals, crimes and disasters are more fun=C2=A0to write abo=
+ut than stuff going well. Part of this is that the scandals often have stak=
+es and drama, while everything going fine does not. Part of it is that much=
+ of normal finance is=C2=A0secretive =E2=80=94=C2=A0if you have a good inve=
+stment strategy or product you are not necessarily going to explain how it =
+works =E2=80=94=C2=A0while the scandals tend to produce lots of public info=
+rmation, in the form of court filings. Part of it is that the scandals are =
+often pretty funny;=C2=A0frauds tend to play on interesting quirks of human=
+ nature and financial markets, and also the people doing the fraud often se=
+nd=C2=A0each other entertaining=C2=A0emails about it.
+And so, when some big financial scandal happens, am I a bit gleeful? I am. =
+Do I feel bad for the people who have lost their life savings in the fraud,=
+ and the people who might go to prison for doing it? I do. But I am gleeful=
+ for=C2=A0me.
+Anyway here is an interview with Michael Lewis, who has a new book coming o=
+ut about Sam Bankman-Fried and the collapse of FTX. Lewis was spending a lo=
+t of time with Bankman-Fried back when he was just a financial=C2=A0success=
+=C2=A0story, a young self-made billionaire who was creating the future of f=
+inance. And then Bankman-Fried=C2=A0became a huge scandal, which worked out=
+ even better for Lewis:
+
+When he was arrested, did you worry that it might blow up your book, or mak=
+e it better?
+I hate to say this. It=E2=80=99s horrible. It does not reflect well on me a=
+s a human being, but my first thought was, =E2=80=98Oh my God=E2=80=99 =E2=
+=80=94 it was like a lock clicking into place =E2=80=94 =E2=80=98now I have=
+ the story.=E2=80=99 It didn=E2=80=99t occur to me for a moment that it wou=
+ld blow up the book. I did think, just how messy is this going to get, as t=
+he writer, because I=E2=80=99d been so involved. Nobody watched this the wa=
+y I did, so, was I going to be dragged into this in some way? But I=E2=80=
+=99ve been allowed to do my job, and it=E2=80=99s been one of the most exci=
+ting creative experiences I=E2=80=99ve ever had.
+You=E2=80=99ve continued to visit Bankman-Fried. How has his legal situatio=
+n affected your access to him, and do you feel he=E2=80=99s more guarded in=
+ his conversations with you?
+He=E2=80=99s the ideal subject. He=E2=80=99s locked up in his house an hour=
+ from my house with an ankle monitor. He can=E2=80=99t go anywhere. It=E2=
+=80=99s unbelievably convenient, as long as they keep him there. So, as lon=
+g as he welcomes me into the house, it=E2=80=99s fine. I=E2=80=99ve been se=
+eing him roughly every two weeks.
+
+He=E2=80=99s not wrong.
+
+ =20
+   =20
+      Salad robots
+   =20
+ =20
+
+In 10 years, do you think it is more likely that the food service industry =
+will have been entirely replaced by robots, or the financial services indus=
+try?
+  [4]
+ At Bloomberg Businessweek, Elizabeth Dunn reports from Sweetgreen=E2=80=99=
+s  secret salad robot lab:
+
+A small team of engineers is on-site here in the Chicago suburb of Napervil=
+le, working out any last-minute kinks in the automated assembly line. Micha=
+el Farid, one of the Infinite Kitchen=E2=80=99s inventors, is excited to sh=
+ow off what it can do. He keys in an order for a spring asparagus salad on =
+one of the restaurant=E2=80=99s touchscreen tablets. In front of us, a comp=
+ostable bowl whizzes forward along a track, pausing beneath a series of cle=
+ar plastic tubes that call to mind bulk candy dispensers, except they=E2=80=
+=99re filled with arugula and lentils and beets. The bowl rotates as ingred=
+ients drop inside=E2=80=94in engineering-speak, this is a =E2=80=9Ctwo degr=
+ees of freedom plating system,=E2=80=9D but imagine a salad bowl doing piro=
+uettes=E2=80=94ensuring that they=E2=80=99re all arranged neatly, just like=
+ in the photos.
+The exact dispensing mechanism is a matter of strict secrecy, and I=E2=80=
+=99ve sworn to take what I=E2=80=99m seeing inside the Infinite Kitchen to =
+my grave. The upshot is that it can serve up most of Sweetgreen=E2=80=99s 5=
+0-odd ingredients, everything from hardboiled eggs to shredded cabbage to d=
+elicate cheeses. At the end of the line, an aproned employee adds any items=
+ the robots can=E2=80=99t handle, such as herbs and a side of dressing, the=
+n gives the order a final once-over and places it on a pickup shelf. =E2=80=
+=9CI would say our portioning system is a version six or seven at this poin=
+t,=E2=80=9D Farid says. =E2=80=9CWe used to joke that if our whole menu was=
+ edamame, this would be so much easier.=E2=80=9D
+
+It does kind of feel like, in terms of difficulty for robots, synthesizing =
+and analyzing all of human knowledge to predict the future of financial mar=
+kets might be easier than gently distributing delicate cheeses. They=E2=80=
+=99re getting there with the cheeses.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+UBS details lower than expected $35bn gain from  Credit Suisse rescue. Bide=
+n =E2=80=98Confident=E2=80=99 on   Reaching Debt Deal as He Heads to Japan.=
+  Venture-Fund Returns Show Worst Slump in More Than a Decade. Wall Street=
+=E2=80=99s Biggest Banks Face a Harsh   Reality Check in China. Two Trading=
+ Apps That Allowed Chinese Citizens to Invest Overseas Get Pulled From Chin=
+a. $730 Billion   Saudi Fund Hires Goldman, Point72 Executives for New York=
+ Unit. Theranos Founder  Elizabeth Holmes=E2=80=99s Request to Stay Out of =
+Prison Denied.=C2=A0Citadel Securities Alleges Former Employees   Stole Tra=
+de Secrets.=C2=A0Brew Another Pot, Robinhood=E2=80=99s   24-Hour Stock Trad=
+ing Is Here.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] The government-bonds stuff is *most* true of Silicon Valley Bank; som=
+e other big rickety banks (like First Republic Bank) had more trouble with =
+interest-rate risk in the loan book. But probably everyone would be *helped=
+* if their bonds went back up.
+
+
+  [2] Also, I mean, here we are in a debt-ceiling crisis; Treasury is not a=
+bout to pay 100 for bonds worth 85 when every penny counts. Though when I s=
+ay =E2=80=9Cthe government=E2=80=9D I *mostly*, though not entirely, mean t=
+he Federal Reserve, which has a separate balance sheet.
+
+
+  [3] I am being a bit loose here, and to the extent the cash flow was nega=
+tive you might do better to shut down immediately rather than prolonging th=
+ings for a few months by selling stock. But I think it was at least reasona=
+ble to estimate that selling stock would raise more money than the delay co=
+st.
+
+
+  [4] Don=E2=80=99t tell me about the financial blogging industry.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cirgbr.5n9j/89b55e2b.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_13922636_1641198965.1684347422908
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+A lot of this spring=E2=80=99s US regional banking crisis can be explained =
+this way: Banks bought a lot of Treasury bonds and other US government-ba
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31513959.263431/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNTE3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1MTcmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB0ce3f5a0"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31513959.263431/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMTUxMzk1OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE3NzczOTAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB4ff95739" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D31513959&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31777390&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">FDIC</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">A lot of this spring=E2=80=99s=C2=A0US regiona=
+l banking crisis can be explained this way:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Banks bought a lot of=C2=A0Treasury b=
+onds and other US government-backed securities when interest rates were low=
+, paying roughly 100 cents on the dollar for them.</li>=09<li style=3D"marg=
+in-bottom: 5px;">Interest rates went up a lot, driving the prices of those =
+bonds=C2=A0down to, say, 85 cents on the dollar.</li>=09<li style=3D"margin=
+-bottom: 5px;">Banks had big losses on those bonds, eating through a lot of=
+ their capital.</li>=09<li style=3D"margin-bottom: 5px;">People noticed, st=
+ocks went down, deposits fled, some banks failed and others have looked sha=
+ky.</li>
+</ol>
+<p style=3D"margin: 16px 0;">One solution to this crisis would be that, if =
+the bonds magically went back to being worth 100 cents on the dollar, the b=
+anks would mostly be fine again.<a class=3D"footnote-index" href=3D"#footno=
+te-1" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !im=
+portant; background-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0That seems improbable, though=C2=A0I guess one interesting=C2=A0m=
+echanism=C2=A0would be if the banking crisis caused enough of a recession t=
+o drive long-term interest rates back to where they were in 2020.=C2=A0Then=
+<em>=C2=A0</em>the <em>bonds</em> would be fine, though probably the banks =
+would have credit losses.</p>
+<p style=3D"margin: 16px 0;">Another solution to this crisis would be that,=
+ if the US government just=C2=A0<em>bought=C2=A0</em>the bonds from the ban=
+ks at 100 cents on the dollar, the banks would mostly be fine again. Of cou=
+rse then the government would have paid 100 cents for stuff worth 85 cents,=
+ which seems bad. But through the magic of held-to-maturity accounting, you=
+ can sort of wave your hands and pretend that it=E2=80=99s not bad. If the =
+government paid 100 cents today for a bond worth 85 cents, and then held it=
+ until it matured, it would get back 100 cents. (Plus interest, though not =
+very much.) In some accounting sense, the government would not lose any mon=
+ey: It would get a below-market rate of interest on its money for the next =
+few years, but it would technically get all of its money back.</p>
+<p style=3D"margin: 16px 0;">And in fact this is kind of how the banks thou=
+ght of these bonds: They were often in the banks=E2=80=99 held-to-maturity =
+portfolios, meaning that they didn=E2=80=99t need to be marked down when th=
+ey lost value due to changing interest rates. It=E2=80=99s just that, when =
+people notice this stuff and deposits flee, you=C2=A0<em>can=E2=80=99t=C2=
+=A0</em>hold the bonds to maturity, because you have to sell them, at a los=
+s,=C2=A0to pay back depositors. But the government is not funded by short-t=
+erm deposits, so it really=C2=A0<em>can</em> hold the bonds to maturity.</p=
+>
+<p style=3D"margin: 16px 0;">And in fact this is kind of, a little bit, <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/31513959.263431/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTMvc3ZiLWNv=
+dWxkbi10LWlnbm9yZS1pdHMtbG9zc2VzLWJ1dC10aGUtZmVkLWNhbj9jbXBpZD1CQkQwNTE3MjN=
+fTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdG=
+VybT0yMzA1MTcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB2aad=
+2fba" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">a solution that the government hit on</a>: In response to the=
+ failure of Silicon Valley Bank, the US Federal Reserve announced a new Ban=
+k Term Funding Program that would=C2=A0<em>lend=C2=A0</em>the banks 100 cen=
+ts on the dollar against bonds worth 85 cents on the dollar. This is not th=
+e same thing as=C2=A0<em>buying=C2=A0</em>the bonds at 100 cents on the dol=
+lar =E2=80=94=C2=A0the banks, rather than the government, are still economi=
+cally on the hook for the losses =E2=80=94=C2=A0but it is motivated by the =
+same sort of thinking. =E2=80=9CEventually these bonds=C2=A0<em>will=C2=A0<=
+/em>pay out 100 cents on the dollar, so it=E2=80=99s fine to lend 100 cents=
+ on the dollar against them, even if they are worth 85 cents today.=E2=80=
+=9D</p>
+<p style=3D"margin: 16px 0;">But nobody has=C2=A0<em>actually=C2=A0</em>emb=
+raced a program of =E2=80=9Cthe government will just buy the bonds back at =
+par to make the banks healthy again,=E2=80=9D because it is kind of an extr=
+eme=C2=A0transfer of losses from banks to taxpayers, even if you can wave y=
+our hands a bit and pretend it isn=E2=80=99t.<a class=3D"footnote-index" hr=
+ef=3D"#footnote-2" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: none !important; background-color: transparent !important; display: in=
+line-block;">
+<span>[2]</span>
+</a>=C2=A0But here=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/31513959.263431/aHR0cHM6Ly93d3cud3NqLmNvbS9saXZlY292ZXJhZ2Uvc3Rv=
+Y2stbWFya2V0LXRvZGF5LWRvdy1qb25lcy0wNS0xNy0yMDIzL2NhcmQvYmFua3MtZXhwbG9yZS1=
+nYW1iaXQtdG8tcmVwbGVuaXNoLWZkaWMtaW5zdXJhbmNlLWZ1bmQtODVUdnRDazZEaDJiaXJmN1=
+hiSTc/607f07ceef4b8524a319a23cBed86d775" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> this from Andrew Ackerm=
+an at the Wall Street Journal</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Banks have spent the past week or so testing w=
+hat would be a clever gambit: Paying billions of dollars they collectively =
+owe to replenish a federal deposit insurance fund using Treasurys instead o=
+f cash.</p>
+<p style=3D"margin: 16px 0;">The idea=E2=80=94floated to regulators and law=
+makers by PNC Financial Services Group and supported by others=E2=80=94coul=
+d allow banks to take securities that are currently worth, say, 90 cents on=
+ the dollar, and give them to the Federal Deposit Insurance Corp. at full p=
+rice. That would effectively shift losses clogging the banks=E2=80=99 balan=
+ce sheets to the FDIC, according to people familiar with the proposal. ...<=
+/p>
+<p style=3D"margin: 16px 0;">Proponents say nothing in the law says FDIC fe=
+es have to be paid in cash, so the agency could change its rules. They say =
+the move, if greenlighted by the FDIC, would help the banking system addres=
+s the way rising rates over the past year have saddled lenders with billion=
+s in losses on their portfolios of bonds. Those losses helped sink Silicon =
+Valley Bank in March, sparking turmoil across the banking sector. =E2=80=A6=
+</p>
+<p style=3D"margin: 16px 0;">Supporters say the government would hold the s=
+ecurities until maturity, allowing them to recover principal and interest o=
+n the debt. The government would suffer no losses, they say.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The FDIC has spent billions of dollars on its =
+bank rescues =E2=80=94=C2=A0which is also a transfer of losses from banks t=
+o the government <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+1513959.263431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIw=
+MjMtMDUtMTAvY29tcGFuaWVzLWFyZS1hbGxvd2VkLXRvLWRvLWJhZC1tZXJnZXJzP2NtcGlkPUJ=
+CRDA1MTcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dG=
+VyJnV0bV90ZXJtPTIzMDUxNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a3=
+19a23cB37a0752b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> to make the banking system more solvent</a>=C2=A0=
+=E2=80=94=C2=A0but it is getting the money back by <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/31513959.263431/aHR0cHM6Ly93d3cuZmRpYy5nb3=
+YvbmV3cy9wcmVzcy1yZWxlYXNlcy8yMDIzL3ByMjMwMzcuaHRtbA/607f07ceef4b8524a319a2=
+3cB10bdfb53" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">charging a special assessment to be paid by about 113 =
+big=C2=A0=C2=A0banks</a>. If the banks pay the assessment with Treasuries t=
+hat are worth 90 cents on the dollar, but that count for 100 cents on the d=
+ollar, then they get a little discount on the assessment=C2=A0and<em>=C2=A0=
+</em>get to move unpleasant assets off their balance sheets.</p>
+<p style=3D"margin: 16px 0;">Why stop there? They should pay their taxes in=
+ Treasuries. Really what they should do is pay executive bonuses in Treasur=
+ies: =E2=80=9CWe=E2=80=99re giving you a $1 million bonus, technically it i=
+s only worth $850,000 but if you hold it to maturity it=E2=80=99s a million=
+.=E2=80=9D=C2=A0</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31513959.263431/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTUxMzk1OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE3NzczOTAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCd9737850" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31513959&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31777390&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31513959.263431/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMTUxMzk1OSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzE3NzczOTAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDd9737850" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D31513959&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31777390&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bed Bath &amp; Beyond: beyond=C2=A0bankruptcy</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">At some point in, let=E2=80=99s say, January, =
+Bed Bath &amp; Beyond Inc. <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/31513959.263431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydG=
+ljbGVzLzIwMjMtMDQtMjQvYmVkLWJhdGgtbW92ZXMtaW50by10aGUtYmV5b25kP2NtcGlkPUJCR=
+DA1MTcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVy=
+JnV0bV90ZXJtPTIzMDUxNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319=
+a23cBbab795d0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> was no longer a viable business</a>. It was losing =
+money, it had a lot of debt, it was in default on that debt and couldn=E2=
+=80=99t pay. It looked around for somebody to buy the company =E2=80=94=C2=
+=A0in or out of bankruptcy =E2=80=94=C2=A0and continue operating its stores=
+, but it couldn=E2=80=99t find anyone. It prepared to file for bankruptcy, =
+with a plan to liquidate the inventory, sell what it could, and give its cr=
+editors whatever was left, which would be a fraction of what it owed them.<=
+/p>
+<p style=3D"margin: 16px 0;">And then somebody had the bright idea of, hey,=
+ why not=C2=A0<em>sell a bunch of stock</em>? Bed Bath was a meme stock, re=
+tail investors liked it, and Bed Bath could sell stock to them to raise cas=
+h to =E2=80=A6=C2=A0well, to hand over to the creditors. It couldn=E2=80=99=
+t sell stock to raise enough money to fix its problems and become a functio=
+nal business again; that would require too much cash, and any cash that it =
+did raise, it was contractually required to hand directly to its creditors.=
+ But if it sold a lot of stock, it would have some more cash to hand to the=
+ creditors. At this point in its life =E2=80=94=C2=A0the all-but-bankruptcy=
+ part of its life =E2=80=94=C2=A0Bed Bath was pretty much in the business o=
+f maximizing recovery for its creditors, and selling stock was a way to do =
+that.<a class=3D"footnote-index" href=3D"#footnote-3" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: none !important; background-color: =
+transparent !important; display: inline-block;">
+<span>[3]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">And so it went out to sell worthless stock in =
+a business that was no longer viable, to retail investors who did not reali=
+ze that the stock was worthless and the business was no longer viable. To b=
+e fair, Bed Bath did=C2=A0<em>tell=C2=A0</em>them. If a company wants to se=
+ll stock, it has to put out a prospectus with disclosure about its business=
+, and Bed Bath did, and <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/31513959.263431/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhL=
+zg4NjE1OC8wMDAxMTkzMTI1MjMwMzAzNTYvZDQwNjM2OGQ0MjRiNS5odG0jc3VwcHJvbTQwNjM2=
+OF82/607f07ceef4b8524a319a23cBb84cabed" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">the prospectus</a> very muc=
+h included phrases like =E2=80=9Cthe Company expects that it will likely fi=
+le for bankruptcy protection=E2=80=9D and =E2=80=9Cour equity holders would=
+ likely not receive any recovery at all in a bankruptcy scenario.=E2=80=9D<=
+/p>
+<p style=3D"margin: 16px 0;">But two facts about=C2=A0meme-stock retail inv=
+estors are (1) they ain=E2=80=99t reading all that and (2) they are always =
+hopeful, so Bed Bath managed to raise several hundred million dollars in a =
+series of stock offerings.=C2=A0Then it <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/31513959.263431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjMtMDQtMjQvYmVkLWJhdGgtbW92ZXMtaW50by10aGUtYmV5b25k=
+P2NtcGlkPUJCRDA1MTcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1=
+uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUxNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07c=
+eef4b8524a319a23cCbab795d0" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> filed for bankruptcy last month</a>, w=
+ith, still, a plan to liquidate its assets and return what was left to cred=
+itors. It estimated that the liquidation would raise about $718 million, to=
+ pay back about $1.8 billion of debt, so the several hundred million dollar=
+s that it raised from the stock market was a big help. For the creditors. N=
+ot for the shareholders, obviously. They are getting zero.</p>
+<p style=3D"margin: 16px 0;">Look! This is all debatable! What do I know? I=
+n January, Bed Bath did not <em>know=C2=A0</em>that it was no longer viable=
+, and I do not=C2=A0<em>know=C2=A0</em>that now. It is in bankruptcy, but i=
+t has not liquidated everything yet. There is always some optionality, some=
+ chance that the business will recover in such a way that the company is vi=
+able and the stock is valuable. =E2=80=9CBed Bath &amp; Beyond has pulled o=
+ff long shot transactions several times in the last six months, so nobody s=
+hould think Bed Bath &amp; Beyond will not be able to do so again,=E2=80=9D=
+ it said in <a href=3D"https://link.mail.bloombergbusiness.com/click/315139=
+59.263431/aHR0cHM6Ly9yZXN0cnVjdHVyaW5nLnJhLmtyb2xsLmNvbS9iYmJ5L0hvbWUtRG93b=
+mxvYWRQREY_aWQxPU1UUTVOREF5TVE9PSZpZDI9LTE/607f07ceef4b8524a319a23cB8f9b434=
+4" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">its bankruptcy declaration</a>.=C2=A0Maybe it will discover a =
+$5 billion stash of diamonds in one of its stores and say =E2=80=9Chey, we=
+=E2=80=99re rich now, no need to liquidate, let=E2=80=99s pay back all our =
+debt, refresh our inventory and get back to selling housewares.=E2=80=9D Or=
+ maybe Elon Musk will put in a bid to buy it just for giggles, and then som=
+ehow be forced to follow through.=C2=A0And then the stock will be worth a l=
+ot, and the people who bought it for $0.30 in April will make a fortune. I =
+do not expect this outcome, but <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/31513959.263431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjEtMDUtMTIvdGhlLWhlcnR6LWdhbWJsZXJzLXdlcmUtcmlnaHQ_Y21waWQ9=
+QkJEMDUxNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR=
+0ZXImdXRtX3Rlcm09MjMwNTE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a=
+319a23cB6ea71319" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> I have been wrong before</a>, and it is not, lik=
+e, a physical impossibility.</p>
+<p style=3D"margin: 16px 0;">Still I mean I have read the bankruptcy filing=
+s. Then <a href=3D"https://link.mail.bloombergbusiness.com/click/31513959.2=
+63431/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zb21lLWludmVzdG9ycy1hcmVudC1na=
+XZpbmctdXAtb24tYmVkLWJhdGgtYmV5b25kLTdjMWRjZDM3P21vZD1ocF9sZWFkX3BvczY/607f=
+07ceef4b8524a319a23cBe533fbfa" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">there is this</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Passionate fans think Bed Bath &amp; Beyond st=
+ock isn=E2=80=99t dead yet.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Investors in meme stocks are typically eternal=
+ optimists, wagering on stocks they are excited about even if the underlyin=
+g fundamentals are weak. Even in that world, the Bed Bath &amp; Beyond bet =
+is extreme. The company has said it expects shareholders will be wiped out,=
+ a projection that emphasizes the hard math of its chapter 11 filing.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIt is obviously the ultimate form of =
+speculation, with buyers betting on the success of a reorganization on a wo=
+rthless stock,=E2=80=9D said Charles Geisst, a retired professor of finance=
+ at Manhattan College.</p>
+<p style=3D"margin: 16px 0;">The stock now trades for pennies in the over-t=
+he-counter market, the province of companies that generally can=E2=80=99t t=
+rade on regular exchanges. Since it started trading on May 3, Bed Bath &amp=
+; Beyond stock has made up more than 9% of trades in the Pink Current Marke=
+t, the over-the-counter market in which it resides, according to data from =
+OTC Markets Group as of Friday.=C2=A0=E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Michael =E2=80=9CJared=E2=80=9D Martin, 25, sa=
+id that most of his portfolio is tied up in shares of Bed Bath &amp; Beyond=
+ and GameStop. When he received a bonus check from his IT job, he said he p=
+oured much of it into the retailer=E2=80=99s shares this March. He doesn=E2=
+=80=99t plan to sell.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CI think that Bed Bath &amp; Beyond, e=
+ven in bankruptcy, is one of the best deals in the stock market,=E2=80=9D s=
+aid Martin, who is based near Louisville, Ky.</p>
+<p style=3D"margin: 16px 0;">Martin, who started chatting with other trader=
+s on the Reddit forum WallStreetBets years ago, first got into the stock ar=
+ound the time that the billionaire investor Ryan Cohen did so last year.=C2=
+=A0</p>
+<p style=3D"margin: 16px 0;">Martin has gradually increased his stake, whil=
+e doing hours of analysis on the company and how it might exit bankruptcy. =
+=E2=80=9CYou can call me a conspiracy theorist,=E2=80=9D he said.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">As far as I can tell, Bed Bath kept selling st=
+ock until very close to the time it filed for bankruptcy. I =E2=80=A6=C2=A0=
+assume =E2=80=A6=C2=A0it =E2=80=A6=C2=A0has =E2=80=A6=C2=A0stopped? When He=
+rtz Global Holdings Inc. decided to sell stock to retail investors=C2=A0<em=
+>while in bankruptcy</em>, it <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31513959.263431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMjAtMDYtMTIvaWYteW91LXdhbnQtaGVydHotaGF2ZS1zb21lLWhlcnR6P2NtcG=
+lkPUJCRDA1MTcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzb=
+GV0dGVyJnV0bV90ZXJtPTIzMDUxNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8=
+524a319a23cB9666fcfd" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> asked the bankruptcy court for permission</a=
+> first; the bankruptcy court was like =E2=80=9Csure I guess, this is nuts =
+but good for creditors so go ahead.=E2=80=9D (The US Securities and Exchang=
+e Commission quickly <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/31513959.263431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVz=
+LzIwMjAtMDYtMjIvdGhlLWJlc3QtZnJhdWQtaXMtaW4tcGxhaW4tc2lnaHQ_Y21waWQ9QkJEMDU=
+xNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdX=
+RtX3Rlcm09MjMwNTE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23c=
+B70e8da81" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> shut it down</a> though.) I assume that Bed Bath has no=
+t asked for permission to keep selling stock because it is not still sellin=
+g stock. But, you know. Somebody is buying it! It trades several million do=
+llars a day, and the price is up more than 100% since its lows of early May=
+. If Bed Bath captured, like, 20% of that volume, by selling more stock in =
+a public at-the-market offering, that would raise enough money to put a den=
+t in its legal bills anyway. Bankruptcy is expensive, retail traders want t=
+o give someone money to buy Bed Bath stock, why shouldn=E2=80=99t the compa=
+ny take that money to spend on its bankruptcy?</p>
+<p style=3D"margin: 16px 0;">Oh, reasons, sure, but honestly not=C2=A0<em>t=
+hat=C2=A0</em>much has changed since Bed Bath last sold stock to retail inv=
+estors. When it sold stock in April, things were pretty hopeless, and it wa=
+rned buyers that it would probably go bankrupt and their stock would be wor=
+thless. Now it is May, things remain pretty hopeless, Bed Bath is=C2=A0<em>=
+in=C2=A0</em>bankruptcy, the stock sure looks worthless, but people are sti=
+ll buying it. Before it filed for bankruptcy, Bed Bath was pretty ruthless =
+about taking advantage of that demand. Why stop with bankruptcy?</p>
+<p style=3D"margin: 16px 0;">Why stop with anything? Eventually Bed Bath=E2=
+=80=99s bankruptcy will conclude. Current expectations are that it will con=
+clude with liquidating the assets and cashing out the creditors at some fra=
+ction of what they are owed. But why not leave the corporate shell around, =
+let its stock keep trading, let it keep selling stock, and send the proceed=
+s to creditors? Give creditors cash now, plus a residual stream of quarterl=
+y payments from stock investors, just a little tax on people who want to ke=
+ep trading Bed Bath stock long after it stops making sense. Somebody somewh=
+ere will have a conspiracy theory about Bed Bath=E2=80=99s revival that can=
+ survive the end of the bankruptcy case. Part of the value of Bed Bath &amp=
+; Beyond is that it is a meme stock with=C2=A0retail shareholders whom=C2=
+=A0harsh economic reality cannot deter from buying the stock. That value be=
+longs to the creditors now!=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">AT1 reforms</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">A tension in bank regulation is that you want =
+people to buy the equity of banks, so that banks have lots of capital to ab=
+sorb losses in a crisis so they don=E2=80=99t lose depositor money or requi=
+re government bailouts. When there is a bank failure, you will want the equ=
+ity to absorb losses: That is what it is there for, and better for equity i=
+nvestors =E2=80=94=C2=A0who were consciously taking risk buying the bank=E2=
+=80=99s stock, and expected to do well if the bank did well and to lose eve=
+rything if it went bust =E2=80=94=C2=A0to lose money than for depositors or=
+ taxpayers to lose money.</p>
+<p style=3D"margin: 16px 0;">But bank failures tend to come in waves, and y=
+ou will want=C2=A0<em>other=C2=A0</em>banks to be able to raise lots of equ=
+ity easily to shore up confidence in the system and make their failure less=
+ likely. And if the equity of=C2=A0<em>this=C2=A0</em>bank absorbs too many=
+ losses, people won=E2=80=99t want to buy stock in=C2=A0<em>other=C2=A0</em=
+>banks, because they will notice how risky bank stocks are. And then the ot=
+her banks won=E2=80=99t be able to raise capital, and the crisis will conti=
+nue. We have seen a bit of this with US regional banks: Several banks were =
+briskly seized and had their equity written down to zero, and the result is=
+ that other <a href=3D"https://link.mail.bloombergbusiness.com/click/315139=
+59.263431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtM=
+DUtMDUvYmFuay1zdG9ja3MtbG9vay13b3JzZS10aGFuLWJhbmtzLWRvP2NtcGlkPUJCRDA1MTcy=
+M19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9=
+0ZXJtPTIzMDUxNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB03=
+f2986a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">  regional bank stocks got crushed</a>. And so while lots o=
+f regional banks could probably use more equity, nobody is about to go out =
+and do a stock offering.</p>
+<p style=3D"margin: 16px 0;">The exact same analysis applies to other bank =
+capital securities. Additional tier 1 capital securities, for instance, whi=
+ch are perpetual-ish debt-ish securities that pay a high interest rate but =
+get crushed if the bank fails, are designed to absorb losses. If a bank fai=
+ls, it is good and right for them to absorb losses. But, though it says rig=
+ht on the tin that they absorb losses, and though they pay a high interest =
+rate in compensation for the risk that investors are taking, they are not=
+=C2=A0<em>really=C2=A0</em>bought by risk-seeking gamblers. They are bought=
+ by fixed-income funds and high-net-worth investors who want steady income.=
+ When an AT1 gets written down to zero, those investors stop buying all the=
+=C2=A0<em>other=C2=A0</em>AT1s. And that makes=C2=A0<em>other=C2=A0</em>ban=
+ks riskier: They can=E2=80=99t raise as much loss-absorbing capital, or the=
+y can but they have to pay more for it.=C2=A0</p>
+<p style=3D"margin: 16px 0;">In some rough sense, the ideal way for a bank =
+capital instrument=C2=A0to work would be:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">People buy it thinking that it can nev=
+er lose money.</li>=09<li style=3D"margin-bottom: 5px;">If the bank fails, =
+it goes to zero to absorb losses.</li>
+</ul>
+<p style=3D"margin: 16px 0;">There are second-order effects, and this is no=
+t really right. If people really think they can=E2=80=99t lose money on ban=
+k AT1s, then ordinary people will put their life savings in bank AT1s, busi=
+nesses will put their payroll in bank AT1s, and writing down bank AT1s will=
+ have huge consequences for the economy. Still it is=C2=A0<em>kind=C2=A0</e=
+m>of right. You want the people who=C2=A0<em>can=C2=A0</em>bear the risk of=
+ bank failures to=C2=A0<em>want=C2=A0</em>to bear the risk, and then, when =
+a bank fails, you want them to actually bear the risk.</p>
+<p style=3D"margin: 16px 0;">Anyway, Credit Suisse Group AG failed in March=
+, <a href=3D"https://link.mail.bloombergbusiness.com/click/31513959.263431/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMjAvdWJ=
+zLWdvdC1jcmVkaXQtc3Vpc3NlLWZvci1hbG1vc3Qtbm90aGluZz9jbXBpZD1CQkQwNTE3MjNfTU=
+9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVyb=
+T0yMzA1MTcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBbf86bd4=
+2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  its AT1 securities were written down to zero</a>, people hav=
+e been hopping mad ever since, and European bank regulators have taken pain=
+s to say =E2=80=9Coh=C2=A0<em>we=C2=A0</em>would never do that, AT1s are to=
+tally safe, why would they absorb losses?=E2=80=9D Bloomberg=E2=80=99s=C2=
+=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/31513959.263431=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMTcvZXVyb3=
+BlYW4td2F0Y2hkb2ctZGlzY3Vzc2VzLWF0MS1yZWZvcm1zLWFmdGVyLTE3LWJpbGxpb24taGl0P=
+2NtcGlkPUJCRDA1MTcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1u=
+ZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUxNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ce=
+ef4b8524a319a23cB99e179a9" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">  Abhinav Ramnarayan and Steven Arons re=
+port</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The European Banking Authority has been holdin=
+g talks on ways to boost investor interest in the AT1 market after Switzerl=
+and=E2=80=99s shock decision to wipe out about $17 billion of Credit Suisse=
+ Group AG notes.</p>
+<p style=3D"margin: 16px 0;">The EBA earlier this month addressed ideas suc=
+h as a ban on banks paying dividends before they consider skipping an AT1 c=
+oupon to preserve capital during times of stress, people familiar with the =
+matter said, asking not to be identified discussing the private information=
+. Other ideas floated at an event held by the body included a requirement t=
+o pay out skipped AT1 coupons at a later stage rather than allowing them to=
+ be canceled altogether, the people said. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The price of issuing AT1 bonds is still elevat=
+ed compared with levels before the Credit Suisse rescue. Their average yiel=
+d in an index of European AT1 debt is currently above 11% =E2=80=94 almost =
+twice the average coupon of roughly 6% on previously issued AT1 bonds, acco=
+rding to data compiled by Bloomberg.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">These changes would make AT1s=C2=A0<em>less lo=
+ss-absorbing</em>, which would be bad for their usefulness as bank capital,=
+ but=C2=A0<em>more attractive to investors</em>, and if nobody buys them th=
+en they=E2=80=99re not that useful anyway.</p>
+<p style=3D"margin: 16px 0;">Incidentally my own view of the correct regula=
+tory response here is something like =E2=80=9Cmemories in financial markets=
+ are extremely short, and any time a bond investor indignantly huffs that s=
+he will never buy some type of bond again, she=E2=80=99ll be buying it with=
+in a week.=E2=80=9D You have a meeting with AT1 investors, they say =E2=80=
+=9Cyou need to make sure that these bonds can never lose money,=E2=80=9D yo=
+u nod and say =E2=80=9Cof course, of course,=E2=80=9D you wait six minutes,=
+ you forget all about it. I am not sure that will work here but I don=E2=80=
+=99t think I=E2=80=99d bet against it.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Elsewhere in Credit Suisse AT1s</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">When Credit Suisse=E2=80=99s additional tier 1=
+ capital securities were zeroed in March, its subordinated bonds were not. =
+The subordinated bonds were fine, they are still outstanding, and Credit Su=
+isse (which is being acquired by UBS Group AG) is still paying them. Intuit=
+ively, the way to describe this is something like =E2=80=9Cthe subordinated=
+ bonds are senior to the AT1s, so the subordinated bonds get paid before th=
+e AT1s do.=E2=80=9D And in fact it was and is fairly standard to describe t=
+he capital structure of Credit Suisse =E2=80=94=C2=A0or any other big Europ=
+ean bank =E2=80=94=C2=A0by saying that AT1s are below subordinated bonds, w=
+hich are below senior unsecured bonds, etc.</p>
+<p style=3D"margin: 16px 0;">There are credit default swaps outstanding on =
+Credit Suisse=E2=80=99s subordinated bonds. These swaps would be triggered,=
+ and would pay off, if the subordinated bonds were written down, but those =
+bonds were not written down. They would also be triggered, though, if any C=
+redit Suisse bonds that are =E2=80=9Cnot subordinated to=E2=80=9D those bon=
+ds were written down. The AT1s were written down. Were the AT1s =E2=80=9Cno=
+t subordinated to=E2=80=9D the subordinated bonds? Obviously they were subo=
+rdinated, in a practical=C2=A0sense =E2=80=94 they were written down and th=
+e bonds were not!=C2=A0=E2=80=94=C2=A0but the documents are a little ambigu=
+ous and these things thrive on technicalities, so some hedge funds bought C=
+DS on the sub bonds and <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/31513959.263431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljb=
+GVzLzIwMjMtMDUtMTUvY3J5cHRvLWhhZC1pdHMtYmFuay1ydW5zLXRvbz9jbXBpZD1CQkQwNTE3=
+MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1=
+fdGVybT0yMzA1MTcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB9=
+fc269de" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">  claimed it was triggered</a>.=C2=A0<a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/31513959.263431/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMTcvY2RzLXBhbmVsLXJ1bGVzLWNyZWRpdC=
+1zdWlzc2UtYXQxLXdpcGVvdXQtZG9lc24tdC10cmlnZ2VyLXBheW91dD9jbXBpZD1CQkQwNTE3M=
+jNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1f=
+dGVybT0yMzA1MTcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb7=
+925973" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">Today they lost</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A panel tasked with overseeing the credit defa=
+ult swaps market has ruled that the write down of=C2=A0Credit Suisse Group =
+AG=E2=80=99s Additional Tier 1 notes will not trigger an insurance payout.=
+=C2=A0</p>
+<p style=3D"margin: 16px 0;">The Credit Derivatives Determinations Committe=
+e (CDDC) determined at a meeting on Wednesday that the write down would not=
+ lead to a payout of the default swaps tied to the bank=E2=80=99s subordina=
+ted debt, according to a=C2=A0notice=C2=A0on its website. In reaching its d=
+ecision, the committee took the view that the AT1 notes were in fact junior=
+ to the subordinated bonds underlying the swaps.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Of course, but weirder things have happened an=
+d it was worth a shot.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Going Infinite</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One thing that I have found, in writing about =
+finance for a long time, is that financial scandals, crimes and disasters a=
+re more fun=C2=A0<em>to write about</em> than stuff going well. Part of thi=
+s is that the scandals often have stakes and drama, while everything going =
+fine does not. Part of it is that much of normal finance is=C2=A0<em>secret=
+ive =E2=80=94</em>=C2=A0if you have a good investment strategy or product y=
+ou are not necessarily going to explain how it works =E2=80=94=C2=A0while t=
+he scandals tend to produce lots of <em>public information</em>, in the for=
+m of court filings. Part of it is that the scandals are often pretty funny;=
+=C2=A0frauds tend to play on interesting quirks of human nature and financi=
+al markets, and also the people doing the fraud often send=C2=A0each other =
+entertaining=C2=A0emails about it.</p>
+<p style=3D"margin: 16px 0;">And so, when some big financial scandal happen=
+s, am I a bit gleeful? I am. Do I feel bad for the people who have lost the=
+ir life savings in the fraud, and the people who might go to prison for doi=
+ng it? I do. But I am gleeful for=C2=A0<em>me</em>.</p>
+<p style=3D"margin: 16px 0;">Anyway here is <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31513959.263431/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vM=
+jAyMy8wNS8xNi9ib29rcy9taWNoYWVsLWxld2lzLWZ0eC1iYW5rbWFuLWZyaWVkLWdvaW5nLWlu=
+ZmluaXRlLmh0bWw/607f07ceef4b8524a319a23cBa8cc737b" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">an interview wit=
+h Michael Lewis</a>, who has a new book coming out about Sam Bankman-Fried =
+and the collapse of FTX. Lewis was spending a lot of time with Bankman-Frie=
+d back when he was just a financial=C2=A0<em>success=C2=A0</em>story, a you=
+ng self-made billionaire who was creating the future of finance. And then B=
+ankman-Fried=C2=A0became a huge scandal, which worked out even better for L=
+ewis:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;"><strong>When he was arrested, did you worry th=
+at it might blow up your book, or make it better?</strong></p>
+<p style=3D"margin: 16px 0;">I hate to say this. It=E2=80=99s horrible. It =
+does not reflect well on me as a human being, but my first thought was, =E2=
+=80=98Oh my God=E2=80=99 =E2=80=94 it was like a lock clicking into place =
+=E2=80=94 =E2=80=98now I have the story.=E2=80=99 It didn=E2=80=99t occur t=
+o me for a moment that it would blow up the book. I did think, just how mes=
+sy is this going to get, as the writer, because I=E2=80=99d been so involve=
+d. Nobody watched this the way I did, so, was I going to be dragged into th=
+is in some way? But I=E2=80=99ve been allowed to do my job, and it=E2=80=99=
+s been one of the most exciting creative experiences I=E2=80=99ve ever had.=
+</p>
+<p style=3D"margin: 16px 0;"><strong>You=E2=80=99ve continued to visit Bank=
+man-Fried. How has his legal situation affected your access to him, and do =
+you feel he=E2=80=99s more guarded in his conversations with you?</strong><=
+/p>
+<p style=3D"margin: 16px 0;">He=E2=80=99s the ideal subject. He=E2=80=99s l=
+ocked up in his house an hour from my house with an ankle monitor. He can=
+=E2=80=99t go anywhere. It=E2=80=99s unbelievably convenient, as long as th=
+ey keep him there. So, as long as he welcomes me into the house, it=E2=80=
+=99s fine. I=E2=80=99ve been seeing him roughly every two weeks.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">He=E2=80=99s not wrong.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Salad robots</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">In 10 years, do you think it is more likely th=
+at the food service industry will have been entirely replaced by robots, or=
+ the financial services industry?<a class=3D"footnote-index" href=3D"#footn=
+ote-4" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: none !i=
+mportant; background-color: transparent !important; display: inline-block;"=
+>
+<span>[4]</span>
+</a> At Bloomberg Businessweek, Elizabeth Dunn reports from Sweetgreen=E2=
+=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/31513959.2=
+63431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjMtMDUtMTcvc=
+3dlZXRncmVlbi10ZXN0cy1zYWxhZC1tYWtpbmctcm9ib3RzLWF0LW5ldy1pbGxpbm9pcy1zdG9y=
+ZT9jbXBpZD1CQkQwNTE3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U=
+9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1MTcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07=
+ceef4b8524a319a23cBda40961e" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> secret salad robot lab</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A small team of engineers is on-site here in t=
+he Chicago suburb of Naperville, working out any last-minute kinks in the a=
+utomated assembly line. Michael Farid, one of the Infinite Kitchen=E2=80=99=
+s inventors, is excited to show off what it can do. He keys in an order for=
+ a spring asparagus salad on one of the restaurant=E2=80=99s touchscreen ta=
+blets. In front of us, a compostable bowl whizzes forward along a track, pa=
+using beneath a series of clear plastic tubes that call to mind bulk candy =
+dispensers, except they=E2=80=99re filled with arugula and lentils and beet=
+s. The bowl rotates as ingredients drop inside=E2=80=94in engineering-speak=
+, this is a =E2=80=9Ctwo degrees of freedom plating system,=E2=80=9D but im=
+agine a salad bowl doing pirouettes=E2=80=94ensuring that they=E2=80=99re a=
+ll arranged neatly, just like in the photos.</p>
+<p style=3D"margin: 16px 0;">The exact dispensing mechanism is a matter of =
+strict secrecy, and I=E2=80=99ve sworn to take what I=E2=80=99m seeing insi=
+de the Infinite Kitchen to my grave. The upshot is that it can serve up mos=
+t of Sweetgreen=E2=80=99s 50-odd ingredients, everything from hardboiled eg=
+gs to shredded cabbage to delicate cheeses. At the end of the line, an apro=
+ned employee adds any items the robots can=E2=80=99t handle, such as herbs =
+and a side of dressing, then gives the order a final once-over and places i=
+t on a pickup shelf. =E2=80=9CI would say our portioning system is a versio=
+n six or seven at this point,=E2=80=9D Farid says. =E2=80=9CWe used to joke=
+ that if our whole menu was edamame, this would be so much easier.=E2=80=9D=
+</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It does kind of feel like, in terms of difficu=
+lty for robots, synthesizing and analyzing all of human knowledge to predic=
+t the future of financial markets might be easier than gently distributing =
+delicate cheeses. They=E2=80=99re getting there with the cheeses.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">UBS details lower than expected $35bn gain fro=
+m <a href=3D"https://link.mail.bloombergbusiness.com/click/31513959.263431/=
+aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZDM3NTkzMzgtYzE4Zi00MjExLThkNTgtM2U3ZTR=
+lZjFiYzM1/607f07ceef4b8524a319a23cB667952be" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> Credit Suisse rescue<=
+/a>. Biden =E2=80=98Confident=E2=80=99 on <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/31513959.263431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL2FydGljbGVzLzIwMjMtMDUtMTcvYmlkZW4tY29uZmlkZW50LW9uLXJlYWNoaW5nLWRlYn=
+QtZGVhbC1hcy1oZS1sZWF2ZXMtZm9yLWphcGFuP2NtcGlkPUJCRDA1MTcyM19NT05FWVNUVUZGJ=
+nV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDUxNyZ1=
+dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB90fd8ddd" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  Reaching Debt Deal</a> as He Heads to Japan. <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/31513959.263431/aHR0cHM6Ly93d3cud3NqLmNvbS9hcn=
+RpY2xlcy92ZW50dXJlLWZ1bmQtcmV0dXJucy1zdWZmZXItYW1pZC1sb3dlci1zdGFydHVwLXZhb=
+HVlcy0xNWRjMDEzMD9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB5cb4=
+bbf2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> Venture-Fund Returns</a> Show Worst Slump in More Than a Dec=
+ade. Wall Street=E2=80=99s Biggest Banks Face a Harsh <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/31513959.263431/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMTYvd2FsbC1zdHJlZXQtcmV0aGluay1nb2=
+xkbWFuLW1vcmdhbi1zdGFubGV5LWNoaW5hLWFtYml0aW9ucy1pbi1kb3VidD9jbXBpZD1CQkQwN=
+TE3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1=
+dG1fdGVybT0yMzA1MTcmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23=
+cB7dbc92a2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">  Reality Check in China</a>. Two Trading Apps That All=
+owed Chinese Citizens to Invest Overseas Get <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/31513959.263431/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRp=
+Y2xlcy9mdXR1LXRpZ2VyLXRvLXJlbW92ZS1jaGluYS10cmFkaW5nLWFwcHMtYXMtcmVndWxhdG9=
+yeS1wcmVzc3VyZS1tb3VudHMtYTJmOTlmNjE_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef=
+4b8524a319a23cB2718f5ff" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">Pulled From China</a>. $730 Billion <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/31513959.263431/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMTYvc2F1ZGktd2VhbHR=
+oLWZ1bmQtc3RhZmZzLW55LXVuaXQtd2l0aC1nb2xkbWFuLXBvaW50NzItaGlyZXM_Y21waWQ9Qk=
+JEMDUxNzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0Z=
+XImdXRtX3Rlcm09MjMwNTE3JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a31=
+9a23cB77e4b37c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">  Saudi Fund</a> Hires Goldman, Point72 Executives =
+for New York Unit. Theranos Founder <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/31513959.263431/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90a=
+GVyYW5vcy1mb3VuZGVyLWVsaXphYmV0aC1ob2xtZXNzLXJlcXVlc3QtdG8tc3RheS1mcmVlLW9u=
+LWJhaWwtZGVuaWVkLTUyZWY3NTMwP21vZD1ocF9sZWFkX3BvczEx/607f07ceef4b8524a319a2=
+3cBb41476f9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> Elizabeth Holmes=E2=80=99s</a> Request to Stay Out of=
+ Prison Denied.=C2=A0Citadel Securities Alleges Former Employees <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/31513959.263431/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDUtMTcvY2l0YWRlbC1zZWN1cml=
+0aWVzLWFsbGVnZXMtZm9ybWVyLWVtcGxveWVlcy1zdG9sZS10cmFkZS1zZWNyZXRzP2NtcGlkPU=
+JCRDA1MTcyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0d=
+GVyJnV0bV90ZXJtPTIzMDUxNyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a=
+319a23cB80577ee6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">  Stole Trade Secrets</a>.=C2=A0Brew Another Pot,=
+ Robinhood=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/31513959.263431/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIw=
+MjMtMDUtMTcvbmV3LXJvYmluaG9vZC10cmFkaW5nLWhvdXJzLW1lYW4tMjQtaG91ci1yZXRhaWw=
+tc3RvY2stdHJhZGluZz9jbXBpZD1CQkQwNTE3MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYW=
+lsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA1MTcmdXRtX2NhbXBhaWduPW1vb=
+mV5c3R1ZmY/607f07ceef4b8524a319a23cB75842741" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">  24-Hour Stock Tradi=
+ng</a> Is Here.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/31513959.263431/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB823317e8" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/31513959.263431/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB76342fc3" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] The government-bonds stuff is *most* true =
+of Silicon Valley Bank; some other big rickety banks (like First Republic B=
+ank) had more trouble with interest-rate risk in the loan book. But probabl=
+y everyone would be *helped* if their bonds went back up.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Also, I mean, here we are in a debt-ceilin=
+g crisis; Treasury is not about to pay 100 for bonds worth 85 when every pe=
+nny counts. Though when I say =E2=80=9Cthe government=E2=80=9D I *mostly*, =
+though not entirely, mean the Federal Reserve, which has a separate balance=
+ sheet.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] I am being a bit loose here, and to the ex=
+tent the cash flow was negative you might do better to shut down immediatel=
+y rather than prolonging things for a few months by selling stock. But I th=
+ink it was at least reasonable to estimate that selling stock would raise m=
+ore money than the delay cost.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Don=E2=80=99t tell me about the financial =
+blogging industry.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31513959.263431/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB87e55437" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31513959.263431/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBb91b107f" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31513959.263431/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBa586ab3f" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31513959.263431/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB1e16b09c" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/31513959.263431/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB43d69c82" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/31513959.2634=
+31/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB7ba8e8bc" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/31513959.263431/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCa6835629" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/31513959.263431/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBf4d612c3" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/31513959.263431/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBd292448a" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31513959.263431/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB5=
+d7f646f" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/31513959.263431/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBa=
+e082507" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cirgbr.5n9j/89b55e2b.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_13922636_1641198965.1684347422908--
+

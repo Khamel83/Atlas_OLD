@@ -1,0 +1,1697 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:60d:b029:116:5c91:524e with SMTP id gq13csp709016lkb;
+        Thu, 22 Jul 2021 10:26:06 -0700 (PDT)
+X-Received: by 2002:aa7:c857:: with SMTP id g23mr859473edt.100.1626974766644;
+        Thu, 22 Jul 2021 10:26:06 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1626974766; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=nMUN8iqbgWspjt4F8JYVdhUD7pKokroE1yGejzZQRKVHZDs+hHkQhB02yYtW/YNzN1
+         B/KBj6FqhMKarqpQGcI/56wZ6vseSJ/IGArzDPo5MfmL/WewCzSKKl8iFvE51IfddLIP
+         TeUA3GwO01lfMPGb28bPwgzyv7qP+WOjRYEqnB8c3lggIh46n4xdsZ3xVFzLRVDZzaFN
+         ccQU6TXpbXG4Gi5wrUFDDkE0pUpTWzAvWRta5aKPi2Pf9OklWbIx+GywiuIX/p6tWdrN
+         JOHbsfStJgkkOmg9VrxtPcXMLirxUNNXiTDm061Hkehm+HKNxHqTWGgyh0P3RJBVnBIs
+         5F8Q==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=kphyd3PzIT2eDJd+j9KE+KpcoHACck8OfGJ4ZMEBV44=;
+        b=SuCfVWAaQxOVNdi2vjPJE315CRNvq0owfZQnjfqNoeaeyL2NhSxdHGTPMjKFaj0MBJ
+         ky/odaWr1ibV+yuWeA/qtnYrvcXe9+t6k5TZ441pC+x4lEz6qHFtDbwtIM4MwkplN9FC
+         wwC124/Gmyt1CZvjt0jcp69Qd9LEvxr++G8HgTHtuW/1BRfixbSFLtSKFS+6TCaE2oLS
+         0No/lsxrRPSKNcdOpaHrWJwCI10wcPrGPF1yEg7Li4Ek6upBTlQW+U4nadhuws+9PPHK
+         P1dv/1pbQ4g/O8xKl30IGW93mGqx09XmyQWZjLxW2p8mpzsaG6z/wSEtN6Zgzz1zA2Z7
+         EhBw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="IuixmFq/";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id n23sor3799443ejx.15.2021.07.22.10.26.06
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 22 Jul 2021 10:26:06 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="IuixmFq/";
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=kphyd3PzIT2eDJd+j9KE+KpcoHACck8OfGJ4ZMEBV44=;
+        b=NgTtRy1rYMtWbIgKJ80xQImVZjzWHM+ZmfD+BRWP0xIWoT1c+RfOt4FspkdyrOMwkd
+         YcDTPnmzYLTSzzduxjKBScBfAs44CAgdHx6w0w9rVwv5OqcPDZX64cvNnomefBImuQBh
+         KfA6mxfwpUs4N7N7SmIWtOcibeUo+w2seZC0JhLiQ2GEzYZxQQE+rlYlbF8hI8sTB6Dy
+         6XvzDT0YivsRbU9oWTjpLwiXbVc9srTKzM2hSMXq9MQBjZEJi4yNT/RNc+vxY76oAjsR
+         OVEhHrWNB6sUVKKxE75rikDDM2ip3w34mhFgehnNMitBG1iY3L4J8feNU2K5Y54zEhdG
+         +WWQ==
+X-Gm-Message-State: AOAM531FLIUC+PEcCc8xTSWbkpqWfpmI3qKryB6/CYAVH7EiBSb528Xr
+	UWeb8GRXAoGDg7vAd6P1ETkguGYT/DFb3lIKDum+3bwd2VgqVSa8zw==
+X-Received: by 2002:a17:906:9b88:: with SMTP id dd8mr907031ejc.83.1626974766290;
+        Thu, 22 Jul 2021 10:26:06 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:314a:0:0:0:0:0 with SMTP id k10csp64631ecs;
+        Thu, 22 Jul 2021 10:26:03 -0700 (PDT)
+X-Received: by 2002:a05:6402:5142:: with SMTP id n2mr897509edd.10.1626974763362;
+        Thu, 22 Jul 2021 10:26:03 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1626974763; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=fJuHsdO61jhIRam+o4S9QbUFBb7hVdEEvHP50txM+LR7jFsVq9IdOquJGBMInilb2D
+         5Tk65BF4famdpWwUvhw8TxtR5r1FgFqWsmwTQ3V/03ytLljIuZj0n7znL1ZxDDupuGTz
+         PugQILicjW0DWnYVKXt7GQ+FTu7snDrrIINBV8578TPc9KC0Xc1w7PBX1xlZVL51KNER
+         aNJr3gzANtuQlz7brT12isCXnk5MWhUWvhkcirsVSj+OeNydBUfqRmom1OQ26AmLyprj
+         Tc9XRsx2KZLWD2Gz5NWx4YilI19JQqfwZr5SvLPSfqjAt6+IA/aqNpVaXIEWSBhsf/BM
+         E3og==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=kphyd3PzIT2eDJd+j9KE+KpcoHACck8OfGJ4ZMEBV44=;
+        b=cUaRUPDgfdyMWRZ+0qda5Rvcaq0fUrxtdnr7EUlWzopRWQL5fmAMnAUHdoOvdM/fjM
+         99/jOsmiUnZvT4w9jEo1a2wvZiQleY3otAFyA/uJDIR0f4sHmkbdibUrhpRbkv9XmjOI
+         VSeEECL3/Fip/rb1yCC4B0paJR3EHHWGfN9I7r7Wvb1rpQUfOOvVaq25sZwwE57xGUB6
+         XcbLX41WCmwmx0hRV2r7nanj0l+teZa4CpI0BhTMQvpmx5m9RZ/bHTJS4cddgEJIB7s4
+         WCMRI2QxpfYzxc27Wyqr+gTBEIfC25Yqk8JpHbw0NhlQOqfYH08J2YOucO2Ch1TeyxW8
+         m+Gg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="IuixmFq/";
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210722132454.24525843.267046@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210722132454.24525843.267046@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210722132454.24525843.267046@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id le16sor3946221ejb.64.2021.07.22.10.26.03
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 22 Jul 2021 10:26:03 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210722132454.24525843.267046@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJwdiSlsHzN7LMh6yVt00nboaoKu+kT9wG9a8cWINvQfOyRYtCLhCMf/rUlDMrcTJO3hdq8WtRae5jT1F/ebs8HpQm9chu0=
+X-Received: by 2002:a17:907:7b9f:: with SMTP id ne31mr878778ejc.133.1626974763154;
+        Thu, 22 Jul 2021 10:26:03 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1626974763; cv=none;
+        d=google.com; s=arc-20160816;
+        b=AgaFDZ/Z/4eTULDo1IfRlurYiBRtdRv3Vn3lVgMO07smoardTIHvhglaDW3avxWB/N
+         tibZjTDeMXK1g6vEPdc6nVDzBMZCp0lhM+XyqWJLgREz3K/tKGxj4OXcGM4HdyBXMziQ
+         1VJPg4iXRfCbDlHJE63504zsrgE/W5TMbnBcgxDFpHxgLktwdxxxYX82e1YHa7YgtTcD
+         BwNj2kkVZ91GImzkCLmGBsT2tPoSvAXIRwjpuZn1gDuSt+zn+art9kGGRn3j/B9XLZAM
+         9nmWr6UqNQ1wlCAuWKxQzADlEAcTpKhQv0/o2rq2HTOtFKg0nvyGUBvKQW9wJl2NSkin
+         3RZw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=kphyd3PzIT2eDJd+j9KE+KpcoHACck8OfGJ4ZMEBV44=;
+        b=y3QfkxmnuZ8YUYpzXiEZfD6+LNrIH+2QyxzPPHhzPR1AIcT8Y09DrOpLZr6/OvUC4r
+         aRUoHjUbWn8zdx9ZHCe0/pdnq7wSnl8fu7zT9T4riuEQkHgdtqhSCt66g/MbpmDT2Kv7
+         MuvlMjBIRZFDyva4vPkYDZ/W/ZIToyNXMMFVcXYO7GJIpk+1EqaMBy9DJP/Y25vrJrEE
+         hvqS7fnvDYbtg+Zv/biIhEQDGRrpllW8gIWC9OginaNB+giYpkvlP0F+Ka+aBRKiWVly
+         wt15+CzB277ikyLRsDOEm0zPcLfbgWc+E7UIHq+eOBEXYwUU8dX6AhJSiaXb9tMFTn9c
+         kLXA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b="IuixmFq/";
+       spf=pass (google.com: domain of delivery_20210722132454.24525843.267046@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210722132454.24525843.267046@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210722132454.24525843.267046@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id d26si623772edr.3.2021.07.22.10.26.02
+        for <khamel83@gmail.com>;
+        Thu, 22 Jul 2021 10:26:03 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210722132454.24525843.267046@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=9vdppva97EHKAw2wmheSJCQMMVk=;
+ b=IuixmFq/vTKjhdc7CCl046T4mMKsIqz80edmElUw2bUtm30PXjZ5KKen9AG4VNh0LdR99hQcfE7y
+   2g05lPNpB8FdU+L3S1fJ1BZYEv1v09gaot6AgJHpfI9Q/Uy19rhmLixaFvNvTUkEDt0cHJnxdBEw
+   MVrPDCk1tROOt0UAPwU=
+Received: from njmta-149.sailthru.com (173.228.155.149) by bloomberg-b.sailthru.com id hv6l2k1qqbst for <bloomberg@khamel.com>; Thu, 22 Jul 2021 13:26:02 -0400 (envelope-from <delivery_20210722132454.24525843.267046@mx.sailthru.com>)
+Received: from nj1-lowvermillion.flt (172.18.20.37) by njmta-149.sailthru.com id hv6l2k1qqbst for <bloomberg@khamel.com>; Thu, 22 Jul 2021 13:24:54 -0400 (envelope-from <delivery_20210722132454.24525843.267046@mx.sailthru.com>)
+Date: Thu, 22 Jul 2021 13:24:54 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210722132454.24525843.267046@sailthru.com>
+Subject: Money Stuff: Private Equity Firm Got Rich Making Private Equity
+ Firms Rich
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1401088_1514670555.1626974694731"
+Precedence: bulk
+X-Feedback-ID: 6358:24525843:campaign:sailthru
+X-TM-ID: 20210722132454.24525843.267046
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-lowvermillion.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23celo9f.5q1y/627f2f3c
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23celo9f.5q1y/627f2f3c>, <mailto:unsubscribe_20210722132454.24525843.267046@mx.sailthru.com>
+X-rpcampaign: stjko24525843
+
+------=_Part_1401088_1514670555.1626974694731
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+       =20
+           =20
+               =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Blue Owl
+   =20
+ =20
+A sneakily important fact of finance is that if you make $10 million a year=
+, you make $10 million a year, but if you own a company that makes $10 mill=
+ion a year, it=E2=80=99s worth at least, say, $100 million. A stream of=C2=
+=A0income is worth some multiple of a year=E2=80=99s income, depending on t=
+hings like interest rates and how risky the income is and how much it is ex=
+pected to grow; I am going to use a multiple of 10x for simplicity but real=
+ numbers will vary. (The price/earnings ratio of the S&P 500 index right no=
+w is about 29.6x; a company with that multiple and a $10 million annual net=
+ income would be worth $296 million.)This means that if you are in some mon=
+ey-making business, it might be a good idea to sell a portion of your busin=
+ess. If you make $10 million a year, and the right multiple on your earning=
+s is 10 times, then you own a $100 million business. If you sell 20% of tha=
+t business to someone else, then that gets you several benefits:=09You have=
+ $20 million=C2=A0to spend on houses, boats, etc., right now. (Of course, n=
+ow you only get $8 million a year from your business; the buyer gets the ot=
+her $2 million. But you get more money=C2=A0now.)=C2=A0=09You are=C2=A0rich=
+er=C2=A0than you were. Before you sold a stake, you were making $10 million=
+ a year; presumably you put some of that in the bank etc., but you were als=
+o paying taxes and stuff and it would take many years=C2=A0for you to accum=
+ulate $100 million. Now you have $20 million, and an 80% stake in a $100 mi=
+llion business; your net worth is $100 million more than it was. Of course =
+this isn=E2=80=99t=C2=A0true; before selling the stake, you owned 100% of t=
+his same business, which was presumably worth=C2=A0$100 million. But no one=
+ is quite going to believe you that it=E2=80=99s a $100 million business=C2=
+=A0until you sell the stake; selling the stake is what validates it as a $1=
+00 million business and makes you a centimillionaire. In particular, sellin=
+g a minority stake of a business is a traditional way to become =E2=80=9Ca =
+billionaire=E2=80=9D: You have some high-eight-figure-ish annual income wit=
+h good prospects for more,[1] you are rich but not a billionaire, but then =
+you package that income into a company and sell a minority stake at a billi=
+on-dollar valuation and, bam, you get the =E2=80=9Cbillionaire=E2=80=9D tit=
+le.[2] None of this is economically important =E2=80=94=C2=A0the income str=
+eam is what it is, etc. =E2=80=94=C2=A0but it can be psychologically import=
+ant.=09You have taken some risk off the table: If the business crashes tomo=
+rrow, you don=E2=80=99t get your $10 million (or $8 million) a year anymore=
+, but you get to keep the $20 million. Your new co-owner shares the risk of=
+ the business with you.=09You save on taxes. Probably the $10 million a yea=
+r that you were making before was taxed as ordinary income, at relatively h=
+igh rates. But when you sell 20% of your business for $20 million, that's c=
+apital gains: That's not income for your labor (taxed at high rates), but r=
+ather an increase in the value of stock that you own in your business (taxe=
+d at lower rates).[3] By selling a stake in your business you get to transm=
+ute ordinary income into capital gains.[4]This is very straightforward stuf=
+f, but it is=C2=A0finance-y stuff; it is stuff that not everyone knows or t=
+hinks about. So there is a business of just going around to people who run =
+their own prosperous businesses=C2=A0and telling them this. You run a priva=
+te equity firm, you go to family businesses or doctors' practices or whatev=
+er, you say =E2=80=9Chey you could work for the next 10 years and get paid =
+for your work and pay taxes on your income, or you could sell a portion of =
+that income to us in advance, get money now, save on taxes, and mark your w=
+ealth to market so you can tell people that you=E2=80=99re really rich.=E2=
+=80=9D And the doctors or whoever are like =E2=80=9Chuh I never thought of =
+that, give me the money,=E2=80=9D and you=E2=80=99ve got a good trade. The =
+tax advantages alone =E2=80=94=C2=A0converting future ordinary income into =
+present capital gains =E2=80=94=C2=A0can make it a good deal for both sides=
+.One thing is that, if you do run a private equity firm that does this sort=
+ of trade, a lot of your income comes in the form of recurring management f=
+ees on the private equity funds that you run. These fees are taxed as ordin=
+ary income, and the main purpose of most private equity managers' lives is =
+to turn ordinary income into capital gains.[5] Another life purpose=C2=A0is=
+ of course becoming a billionaire. And so you might look around and say =E2=
+=80=A6=C2=A0wait a minute, I am buying stakes in family businesses so their=
+ owners can get nominally richer and optimize their taxes; who will buy a s=
+take in=C2=A0my=C2=A0business so I can be nominally richer and optimize my =
+taxes?And the answer is Michael Rees:Until Michael Rees became a billionair=
+e this year, he was arguably the most popular man on Wall Street. ...In lit=
+tle more than a decade the firm that Rees co-owned, Dyal Capital, has paid =
+out well over $10bn to buy minority stakes in some of the best-performing c=
+ompanies in finance. He has forked out hundreds of millions of dollars to t=
+he founders of private equity firms including Silver Lake and Providence Eq=
+uity; to hedge fund managers including Jana Capital; and to firms such as G=
+olub Capital and Owl Rock, which are displacing banks as chief lenders to a=
+ swath of corporate America.That is from this delightful Financial Times pr=
+ofile of Rees and Dyal, which =E2=80=9Cgives top financiers a way to conver=
+t their paper fortunes into cash and potentially lower their tax bills.=E2=
+=80=9DBut then if you are Michael Rees, and you are in the business of buyi=
+ng stakes in private equity firms so their owners can get nominally richer =
+and optimize their taxes, you might look around and say =E2=80=A6=C2=A0wait=
+ a minute, who will buy a stake in=C2=A0my=C2=A0business so I can be nomina=
+lly richer and optimize my taxes? And the answer is a complicated three-way=
+ merger involving a special purpose acquisition company that allowed Dyal C=
+apital to go public as part of Blue Owl Capital Inc.:This year Rees, 46, be=
+came a billionaire in his own right. Having started Dyal in 2011 as an expe=
+rimental division on the fringes of asset manager Neuberger Berman, he brok=
+e free of his parent company and pulled off a $12bn transaction that amount=
+s to one of the biggest ever stock market debuts by a US private capital gr=
+oup. The enlarged company, known as Blue Owl, instantly achieved a market c=
+apitalisation close to that of Carlyle Group, Ares Management and other mor=
+e established rivals.He =E2=80=9Cbecame a billionaire=E2=80=9D in this stri=
+ctly nominal sense: He had a stream of income before, and he has that strea=
+m of income now, but having sold a stake in it at a multibillion-dollar val=
+uation, now=C2=A0he=E2=80=99s a billionaire.Anyway the Blue Owl deal was ho=
+tly controversial because, if you are an alternative investment manager in =
+the business of taking minority stakes in alternative investment managers, =
+eventually there are going to be conflicts of interest. Specifically, Dyal =
+owned stakes in a couple of private credit funds called Sixth Street Capita=
+l and Golub Capital, and the three-way merger that created Blue Owl involve=
+d not just a SPAC but also another private credit fund named Owl Rock:Even =
+some executives close to the deal acknowledge it appears rife with conflict=
+.A Dyal fund had previously invested $500m in Owl Rock, before it merged wi=
+th Dyal. It meant that Rees and Ward were now managing a fund that is also =
+one of the biggest shareholders in their own firm. While the investors in D=
+yal=E2=80=99s funds are still waiting for an opportunity to cash out, the s=
+tock market listing has already given Rees and Ward big payouts of their ow=
+n.The sharpest objections came from executives at Sixth Street and Golub Ca=
+pital, who were unhappy that Dyal =E2=80=94 one of their biggest shareholde=
+rs =E2=80=94 was merging with Owl Rock, one of their most formidable rivals=
+. They characterised the transaction as a =E2=80=9Cbetrayal=E2=80=9D that w=
+ould put their confidential financial information in the hands of a competi=
+tor. And insisted that their deal with Dyal gave them a power of veto.It di=
+d not.=C2=A0Golub and Sixth Street sued, claiming that transfer restriction=
+s in their contract with Dyal prevented Dyal from merging; Delaware and New=
+ York courts disagreed. Also the worries about betrayal do not seem particu=
+larly real; the Delaware court found that =E2=80=9Cthis litigation and the =
+parallel action in New York were part and parcel of a calculated effort to =
+=E2=80=98muck up=E2=80=99 the Transaction to force a buyback=E2=80=9D of Dy=
+al=E2=80=99s stakes in Golub and Sixth Street on cheap terms:After learning=
+ of the Transaction, in December 2020, Sixth Street=E2=80=99s senior execut=
+ives assured their investors that the Transaction would have =E2=80=9Czero =
+impact on our business=E2=80=9D because Dyal III was a =E2=80=9Ccompletely =
+passive investor=E2=80=9D run by =E2=80=9Cgood folks.=E2=80=9D=C2=A0And imp=
+ortantly, they emphasized that Dyal =E2=80=9C[does not] get competitively s=
+ensitive information from us in any real sense,=E2=80=9D=C2=A0and that =E2=
+=80=9Cwhatever information they [Dyal] get will be manag[ed]=E2=80=9D with =
+=E2=80=9Cinformational firewalls.=E2=80=9D Accordingly, David Stiepleman, S=
+ixth Street=E2=80=99s Co-President and Chief Operating Officer, stated that=
+ he was =E2=80=9Cnot particularly concerned about the theoretical possibili=
+ty of [Owl Rock as] a smaller firm in the credit space seeing [Sixth Street=
+=E2=80=99s] info.=E2=80=9D=C2=A0Sixth Street reiterated its lack of concern=
+ on multiple occasions, assuring=C2=A0investors that Dyal III was a =E2=80=
+=9C[p]assive 10% owner of Sixth Street=E2=80=9D and there was =E2=80=9Cnoth=
+ing [to be] concerned about at all=E2=80=9D with respect to the Transaction=
+. =E2=80=A6Since filing, nothing in the record indicates Sixth Street ever =
+actually became concerned about its confidential information. ...=C2=A0In h=
+is deposition, Alan Waxman, Sixth Street=E2=80=99s CEO, testified that =E2=
+=80=9C[Blue Owl is] not getting our pipeline. They=E2=80=99re not going to =
+be involved in our investment process.=E2=80=9DIt=E2=80=99s good to sell a =
+stake in your business to get cash and be rich, but the downside is that if=
+ your business keeps growing, you have given up some of the upside. If you =
+can buy it back cheap, you might as well try.
+ =20
+   =20
+      Tether
+   =20
+ =20
+Here is the website for the JPMorgan Prime Money Market Fund. If you click =
+on the tab labeled =E2=80=9Cportfolio,=E2=80=9D you can see what the fund o=
+wns. The first item alphabetically is $50 million face amount of asset-back=
+ed commercial paper issued by Alpine Securitization Corp. and maturing on O=
+ct. 12. Its=C2=A0CUSIP =E2=80=94=C2=A0its official security identifier =E2=
+=80=94=C2=A0is 02089XMG9. There are certificates of deposit at big banks, r=
+epurchase agreements, even a little bit of non-financial commercial paper. =
+The fund lends some money to LVMH Moet Hennessy Louis Vuitton and Toyota Mo=
+tor Finance (Netherlands) BV. You can see exactly how much (both face amoun=
+t and market value), and when it matures, and the CUSIP for each holding.JP=
+Morgan is not on the bleeding edge of transparency here or anything; this i=
+s just how money market funds work. You disclose your holdings.Here is an i=
+ncredible=C2=A0interview that the chief technology officer and general coun=
+sel of Tether did yesterday with CNBC=E2=80=99s Deirdre Bosa.=C2=A0Tether i=
+s a stablecoin that we have talked about around here  because it was=C2=A0s=
+ued by the New York attorney general for lying about its reserves, and beca=
+use it subsequently disclosed its reserves in a format that satisfied basic=
+ally no one. Tether now says that its reserves consist mostly of commercial=
+ paper,  which=C2=A0apparently=C2=A0makes it one of the largest commercial =
+paper holders in the world. There is a fun game among  financial journalist=
+s and other interested=C2=A0observers=C2=A0who try to find anyone who has a=
+ctually traded commercial paper with Tether, or any of its actual holdings.=
+ The game is hard! As far as I know, no one has ever won it, or even scored=
+ a point; I have never seen anyone=C2=A0publicly identify=C2=A0a security t=
+hat Tether holds or a counterparty that has traded commercial paper with it=
+.Bosa, who had two Tether executives on her show, sensibly asked them about=
+ it several times, but you can=E2=80=99t win the game that easily! =E2=80=
+=9CWe don=E2=80=99t disclose our commercial partners, so that is quite impo=
+rtant,=E2=80=9D says CTO Paolo Ardoino at around the 5-minute mark. =E2=80=
+=9CGiven our portfolio composition in commercial paper, we believe that it =
+is quite important to respect the privacy of the banking partners that we w=
+ork with.=E2=80=9D That=E2=80=99s not a thing! That=E2=80=99s not a thing a=
+t all! Every money-market fund just lists all of its holdings, by size and =
+issuer and CUSIP! Tether has broken new ground in the concept of commercial=
+-paper privacy rights! But, why?Everything in this interview melted my brai=
+n. Another favorite came at around the 13-minute mark, when GC Stuart Hoegn=
+er says =E2=80=9Cwe maintain cash, for example, that is many multiples abov=
+e our single biggest redemption thus far, as well as above our biggest 24-h=
+our period of redemptions,=E2=80=9D which is =E2=80=A6=C2=A0not =E2=80=A6=
+=C2=A0that =E2=80=A6=C2=A0much? (Banks, for instance, are generally require=
+d to have =E2=80=9Chigh-quality liquid assets=E2=80=9D sufficient for =E2=
+=80=9Ca 30 calendar day liquidity stress scenario.=E2=80=9D) There is more =
+here, including a promise that audited financials are =E2=80=9Conly months =
+away.=E2=80=9D I do not watch a lot of 32-minute business-television interv=
+iews but I found this one riveting.Elsewhere, here is a paper from Gary Gor=
+ton and Jeffery Zhang on =E2=80=9CTaming Wildcat Stablecoins=E2=80=9D:Crypt=
+ocurrencies are all the rage, but there is nothing new about privately prod=
+uced money. The goal of private money is to be accepted at par with no ques=
+tions asked. This did not occur during the Free Banking Era in the United S=
+tates=E2=80=94a period that most resembles the current world of stablecoins=
+. State-chartered banks in the Free Banking Era experienced panics, and the=
+ir private monies made it very hard to transact because of fluctuating pric=
+es. That system was curtailed by the National Bank Act of 1863, which creat=
+ed a uniform national currency backed by U.S. Treasury bonds. Subsequent le=
+gislation taxed the state-chartered banks=E2=80=99 paper currencies out of =
+existence in favor of a single sovereign currency.The newest type of privat=
+e money is now upon us=E2=80=94in the form of stablecoins like =E2=80=9CTet=
+her=E2=80=9D and Facebook=E2=80=99s =E2=80=9CDiem=E2=80=9D (formerly =E2=80=
+=9CLibra=E2=80=9D). Based on lessons learned from history, we argue that pr=
+ivately produced monies are not an effective medium of exchange because the=
+y are not always accepted at par and are subject to runs. We present propos=
+als to address the systemic risks created by stablecoins, including regulat=
+ing stablecoin issuers as banks and issuing a central bank digital currency=
+.I guess. I am skeptical about the systemic risks of stablecoins; I  wrote =
+last month=C2=A0that =E2=80=9CI think of stablecoins as sort of the lobby o=
+f the casino that is crypto speculation, and I assume that the main use of =
+Tether is to take a quick break from betting on Bitcoin without actually le=
+aving the casino.=E2=80=9D If that=E2=80=99s the main use case then the wor=
+st thing that happens, in a run on Tether, is that a bunch of gamblers lose=
+ their money; that is bad for them but I am not sure how it is a=C2=A0syste=
+mic=C2=A0problem. As Byrne Hobart writes: =E2=80=9CCrypto is incredibly wel=
+l-contained,=C2=A0in that there are giant companies that do crypto (and alm=
+ost nothing else), and there are giant companies with massively diversified=
+ portfolios that have a tiny slice of crypto.=E2=80=9D There may be systemi=
+c risks=C2=A0within crypto, but it=E2=80=99s hard to see how they could be =
+systemic risks to the rest of the economy.Also, on the claim that =E2=80=9C=
+privately produced monies are not an effective medium of exchange because t=
+hey are not always accepted at par and are subject to runs,=E2=80=9D CoinMa=
+rketCap tells me that Tether has traded between $0.9996 and $1.0009 over th=
+e last seven days, including during yesterday=E2=80=99s interview. That=E2=
+=80=99s a pretty tight range given that, you know, anyone can watch the int=
+erview.
+
+
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                               =20
+                               =20
+                               =20
+                           =20
+                       =20
+                       =20
+                           =20
+                               =20
+                                    Sponsored Content
+                                   =20
+For over 20 years, Selective Search Matchmakers have protected our clients=
+=E2=80=99 time, privacy and preferences in their search for love. Customize=
+d searches that employ proven executive search methodologies have resulted =
+in love for thousands of couples.
+
+Get started with a complimentary consultation.
+
+                                    Selective Search LLC.
+                               =20
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+ =20
+   =20
+      Elon Musk=C2=A0Cathie Wood=C2=A0Bitcoin=C2=A0Dogecoin
+   =20
+ =20
+One thing about Elon Musk is that he runs Tesla Inc., and also Space Explor=
+ation Technologies Corp., and also the Boring Co., and also a direct-to-con=
+sumer clothing retailer, and also a tequila business, and also he=E2=80=99s=
+ very rich in his personal account. Another thing about Elon Musk is that w=
+hen he buys (or sells) Bitcoin (or Dogecoin), people rush to copy him, and =
+the price of Bitcoin (or Dogecoin) goes up (or down). He can combine these =
+two facts to really precisely fine-tune the price of Bitcoin. If he wants B=
+itcoin to go up, he can  say that Tesla is buying it. If it goes up too hig=
+h, he can  say that Tesla isn=E2=80=99t buying it anymore. If then it goes =
+down too low, he can say that SpaceX is buying it. If he wants to nudge it =
+just a touch higher he can say =E2=80=9Cwe=E2=80=99re now accepting Bitcoin=
+ as payment for our short shorts.=E2=80=9D  Et cetera:Speaking at =E2=80=9C=
+The B Word=E2=80=9D conference hosted by the Crypto Council for Innovation,=
+ Musk discussed the outlook for Bitcoin with fellow backers Cathie Wood, he=
+ad of Ark Investment Management, and Jack Dorsey, chief executive officer o=
+f Twitter Inc. and Square Inc.Musk said that he personally owns Bitcoin, Et=
+hereum and Dogecoin, while Tesla and SpaceX both exclusively own Bitcoin. T=
+he cryptocurrency climbed as high as $32,820 during the panel Wednesday bef=
+ore falling to about $31,683 at 3:49 p.m. New York time.Great, super, that=
+=E2=80=99s fantastic. I look forward to his next panel:Musk: I bought some =
+Dogecoin in a college savings account for my child  Ethan, I mean, X =C3=86=
+ A-Xii.Dogecoin: [goes up to $0.76]Musk: But Tesla will not=C2=A0accept it =
+as payment for our tequila.Dogecoin: [goes down to $0.61]Musk: Also the Bor=
+ing Co. will start digging Dogecoin mines.Dogecoin: [goes up to $0.72]Musk:=
+ But my brother Kimbal has been selling Dogecoin.Dogecoin: [goes down to $0=
+.68]Musk: But my ex-wife=E2=80=99s cousin=E2=80=99s nephew bought some.Doge=
+coin: [goes up to $0.69]Musk: Nice.I have  said before that Musk=C2=A0could=
+=C2=A0do this as a profit-making enterprise: Buy Dogecoin, say he=E2=80=99d=
+ bought Dogecoin, watch the price go up, sell Dogecoin, say he=E2=80=99d so=
+ld Dogecoin, watch the price go down, repeat indefinitely. But it=E2=80=99s=
+ fairly clear that, except occasionally by accident, that=E2=80=99s not wha=
+t he=E2=80=99s doing. He=E2=80=99s not whipsawing the price of Bitcoin or D=
+ogecoin=C2=A0for profit. He doesn=E2=80=99t need profit. He=E2=80=99s the r=
+ichest or second-richest person on Earth, depending on who=E2=80=99s in spa=
+ce that day, and he supposedly doesn=E2=80=99t like possessions. He likes=
+=C2=A0trolling people online; that=E2=80=99s why he=E2=80=99s whipsawing th=
+e price of Bitcoin and Dogecoin.Or as he  put it yesterday:=E2=80=9CI would=
+ like to see Bitcoin succeed,=E2=80=9D Musk said. =E2=80=9CIf the price of =
+Bitcoin goes down, I lose money. I might pump but don=E2=80=99t dump.=E2=80=
+=9DIt=E2=80=99s in his economic interests to make the price of Bitcoin go u=
+p, and he also has fun doing it, but sometimes it=E2=80=99s also fun to mak=
+e it go down instead.Also at that conference, by the way:Wood said corporat=
+ions should consider adding Bitcoin to their balance sheets, partly as a he=
+dge against deflation.I feel like there=E2=80=99s been a decade of Bitcoin =
+evangelists saying that Bitcoin is a good inflation hedge, since there is a=
+ finite cap on the number of Bitcoins while the Federal Reserve can print b=
+lah blah blah blah blah. But nope:Bitcoin=E2=80=99s steep selloff is underc=
+utting the argument made by the digital currency=E2=80=99s proponents that =
+it=E2=80=99s an inflation hedge. ...Bitcoin=E2=80=99s supporters for years =
+have touted it as an inflation hedge like gold, mainly because the bitcoin =
+network has a set limit on the number of units that can be created: 21 mill=
+ion. Their argument hadn=E2=80=99t previously been tested, however, because=
+ inflation has largely been under the Federal Reserve=E2=80=99s 2% target s=
+ince bitcoin=E2=80=99s 2009 launch.Now for the first time in years, shortag=
+es of semiconductors, lumber and workers are putting pressure on consumer p=
+rices, sparking worries about inflation. At the same time, governments and =
+central banks have been forced to spend trillions to prop up their economie=
+s, potentially sapping the purchasing power of their currencies.The consume=
+r-price index rose to 5.4% in June, its fastest pace in 13 years. And infla=
+tion measures in 49 countries have all been rising since the beginning of t=
+he year, according to the Center for Financial Stability, a New York-based =
+nonprofit think tank.Bitcoin is going in the other direction. The digital c=
+urrency has fallen in five of the past seven days and is down 7.9% in July,=
+ extending its monthslong selloff. It is now up 10% in 2021.But if it=E2=80=
+=99s not a good inflation hedge then it's a good deflation hedge, I guess t=
+hat=E2=80=99s how finance works, why not.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Deutsche Bank  Raises Pay for Juniors to Keep Up With Rivals.=C2=A0UBS  Lif=
+ts Junior Bankers=E2=80=99 Pay, Following Rivals on Wall Street.=C2=A0The I=
+nelastic Markets Hypothesis. Wall Street banks redirect China IPOs to Hong =
+Kong after Didi shock. China Weighs  Unprecedented Penalty for Didi After U=
+.S. IPO. Assets in Ant Group=E2=80=99s Flagship Money-Market Fund Drop to 2=
+016 Levels. The Saudi Prince of Oil Prices Vows to Drill =E2=80=98Every Las=
+t Molecule.=E2=80=99=C2=A0AMC Names CEO Adam Aron as Chairman. States Annou=
+nce $26 Billion Settlement to Resolve Opioid Lawsuits. Evergrande shares ju=
+mp as developer says spat with bank resolved. Tom Barrack Held Forth on Tru=
+mp, Real Estate Just  Days Before Arrest. Fraud on the Farm: How a baby-fac=
+ed CEO turned a Farmville clone into a massive Ponzi scheme. =E2=80=9CHustl=
+e bro populism.=E2=80=9D=C2=A0Man Calling Libraries And Masturbating To A S=
+upreme Court Opinion.If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in han=
+dy email form, right in your inbox, please=C2=A0subscribe at this link. Or =
+you can subscribe to Money Stuff and other great Bloomberg newsletters here=
+. Thanks![1] Here I am mostly talking about normal=C2=A0cash-flowing busine=
+sses, but of course another very traditional way to become a billionaire is=
+ to start a tech company, lose money every year for a while, and then take =
+the company public at like a $50 billion valuation. There the value is all =
+in the uncertain future cash flows, not the current ones. Same core idea th=
+ough.[2] Actually in 2018, Forbes awarded Kylie Jenner the =E2=80=9Cbillion=
+aire=E2=80=9D title even though she *hadn=E2=80=99t* sold a stake in her bu=
+siness, which at the time was making a nine-figure net income, and Felix Sa=
+lmon got annoyed: =E2=80=9CShe has taken no outside investment at all, so t=
+here=E2=80=99s no valuation at which anybody has bought into her company. F=
+orbes has slapped an $800 million valuation onto Kylie Cosmetics, without a=
+nybody doing any kind of diligence on it at all, and has declared that enti=
+re sum to be part of Jenner=E2=80=99s present wealth.=E2=80=9D He was right=
+ that the *traditional* =E2=80=9Cmechanism for turning future assets into p=
+resent assets ... is called selling all or part of the corporate entity you=
+ own.=E2=80=9D As an economic matter, selling a minority stake in a busines=
+s shouldn=E2=80=99t change the value of the business, but as a a matter of =
+*getting on lists of billionaires* I think Salmon was probably right.[3] Pr=
+esumably you got the stock for $0, when you founded the business, so this i=
+s all taxable gain.[4] Also, you don=E2=80=99t pay taxes on the $80 million=
+ value of the business that you retain. This is good, first of all, for hav=
+ing a high nominal net worth: If you make $10 million a year and pay 50% ta=
+x, your wealth accrues by at most $5 million a year, but if you turn that i=
+nto an 80% stake in a $100 million company your nominal wealth goes up by $=
+80 million, even though you=E2=80=99d have to pay taxes (at a lower rate) i=
+f you sold it.=C2=A0You get to point to your pretax rather than post-tax we=
+alth, as it were. But also there *are* sometimes ways to extract this money=
+ without paying taxes, along =E2=80=9Cbuy borrow die=E2=80=9D lines.=C2=A0[=
+5] Most famously, private equity managers also get paid in =E2=80=9Ccarried=
+ interest,=E2=80=9D which is taxed as capital gains, and everyone complains=
+ about this =E2=80=9Ccarried interest loophole.=E2=80=9D Also, though, they=
+ like to turn management fees (ordinary income) into carry (capital gains);=
+ a classic method is the =E2=80=9Cmanagement fee waiver,=E2=80=9D which has=
+ been controversial for like a decade.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23celo9f.5q1y/80b536ed.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_1401088_1514670555.1626974694731
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px 0px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24525843.267046/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cB1588bd35"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tr>
+<td width=3D"206" align=3D"center" class=3D"sponsored-ad-container" style=
+=3D"padding-top: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24525843.267046/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cBd0b0c12=
+c">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" style=3D"display: block;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Blue Owl</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">A sneakily important fact of finance i=
+s that if you make $10 million a year, you make $10 million a year, but if =
+you own a company that makes $10 million a year, it=E2=80=99s worth at leas=
+t, say, $100 million. A stream of=C2=A0income is worth some multiple of a y=
+ear=E2=80=99s income, depending on things like interest rates and how risky=
+ the income is and how much it is expected to grow; I am going to use a mul=
+tiple of 10x for simplicity but real numbers will vary. (The price/earnings=
+ ratio of the S&amp;P 500 index right now is about 29.6x; a company with th=
+at multiple and a $10 million annual net income would be worth $296 million=
+.)</p><p style=3D"margin: 16px 0;">This means that if you are in some money=
+-making business, it might be a good idea to sell a portion of your busines=
+s. If you make $10 million a year, and the right multiple on your earnings =
+is 10 times, then you own a $100 million business. If you sell 20% of that =
+business to someone else, then that gets you several benefits:</p><ol style=
+=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li s=
+tyle=3D"margin-bottom: 5px;">You have $20 million=C2=A0to spend on houses, =
+boats, etc., right now. (Of course, now you only get $8 million a year from=
+ your business; the buyer gets the other $2 million. But you get more money=
+=C2=A0<em>now</em>.)=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">You are=
+=C2=A0<em>richer=C2=A0</em>than you were. Before you sold a stake, you were=
+ making $10 million a year; presumably you put some of that in the bank etc=
+., but you were also paying taxes and stuff and it would take many years=C2=
+=A0for you to accumulate $100 million. Now you have $20 million, and an 80%=
+ stake in a $100 million business; your net worth is $100 million more than=
+ it was. Of course this isn=E2=80=99t=C2=A0<em>true</em>; before selling th=
+e stake, you owned 100% of this same business, which was presumably worth=
+=C2=A0$100 million. But no one is quite going to <em>believe</em> you that =
+it=E2=80=99s a $100 million business=C2=A0until you sell the stake; selling=
+ the stake is what validates it as a $100 million business and makes you a =
+centimillionaire. In particular, selling a minority stake of a business is =
+a traditional way to become =E2=80=9Ca billionaire=E2=80=9D: You have some =
+high-eight-figure-ish annual income with good prospects for more,[1] you ar=
+e rich but not a billionaire, but then you package that income into a compa=
+ny and sell a minority stake at a billion-dollar valuation and, bam, you ge=
+t the =E2=80=9Cbillionaire=E2=80=9D title.[2] None of this is economically =
+important =E2=80=94=C2=A0the income stream is what it is, etc. =E2=80=94=C2=
+=A0but it can be psychologically important.</li>=09<li style=3D"margin-bott=
+om: 5px;">You have taken some risk off the table: If the business crashes t=
+omorrow, you don=E2=80=99t get your $10 million (or $8 million) a year anym=
+ore, but you get to keep the $20 million. Your new co-owner shares the risk=
+ of the business with you.</li>=09<li style=3D"margin-bottom: 5px;">You sav=
+e on taxes. Probably the $10 million a year that you were making before was=
+ taxed as ordinary income, at relatively high rates. But when you sell 20% =
+of your business for $20 million, that's capital gains: That's not income f=
+or your labor (taxed at high rates), but rather an increase in the value of=
+ stock that you own in your business (taxed at lower rates).[3] By selling =
+a stake in your business you get to transmute ordinary income into capital =
+gains.[4]</li></ol><p style=3D"margin: 16px 0;">This is very straightforwar=
+d stuff, but it is=C2=A0<em>finance-</em>y stuff; it is stuff that not ever=
+yone knows or thinks about. So there is a business of just going around to =
+people who run their own prosperous businesses=C2=A0and <em>telling them th=
+is</em>. You run a private equity firm, you go to family businesses or <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/24525843.267046/aHR0cH=
+M6Ly9yZXZjeWNsZWludGVsbGlnZW5jZS5jb20vbmV3cy9wcml2YXRlLWVxdWl0eS1maXJtcy1pb=
+mNyZWFzaW5nbHktYnV5aW5nLXBoeXNpY2lhbi1wcmFjdGljZXM/607f07ceef4b8524a319a23c=
+B0490d5c5" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>doctors' practices</a> or whatever, you say =E2=80=9Chey you could work fo=
+r the next 10 years and get paid for your work and pay taxes on your income=
+, or you could sell a portion of that income to us in advance, get money no=
+w, save on taxes, and mark your wealth to market so you can tell people tha=
+t you=E2=80=99re really rich.=E2=80=9D And the doctors or whoever are like =
+=E2=80=9Chuh I never thought of that, give me the money,=E2=80=9D and you=
+=E2=80=99ve got a good trade. The tax advantages alone =E2=80=94=C2=A0conve=
+rting future ordinary income into present capital gains =E2=80=94=C2=A0can =
+make it a good deal for both sides.</p><p style=3D"margin: 16px 0;">One thi=
+ng is that, if you do run a private equity firm that does this sort of trad=
+e, a lot of your income comes in the form of recurring management fees on t=
+he private equity funds that you run. These fees are taxed as ordinary inco=
+me, and the main purpose of most private equity managers' lives is to turn =
+ordinary income into capital gains.[5] Another life purpose=C2=A0is of cour=
+se becoming a billionaire. And so you might look around and say =E2=80=A6=
+=C2=A0wait a minute, I am buying stakes in family businesses so their owner=
+s can get nominally richer and optimize their taxes; who will buy a stake i=
+n=C2=A0<em>my=C2=A0</em>business so I can be nominally richer and optimize =
+my taxes?</p><p style=3D"margin: 16px 0;">And the answer is Michael Rees:</=
+p><blockquote><p style=3D"margin: 16px 0;">Until Michael Rees became a bill=
+ionaire this year, he was arguably the most popular man on Wall Street. ...=
+</p><p style=3D"margin: 16px 0;">In little more than a decade the firm that=
+ Rees co-owned, Dyal Capital, has paid out well over $10bn to buy minority =
+stakes in some of the best-performing companies in finance. He has forked o=
+ut hundreds of millions of dollars to the founders of private equity firms =
+including Silver Lake and Providence Equity; to hedge fund managers includi=
+ng Jana Capital; and to firms such as Golub Capital and Owl Rock, which are=
+ displacing banks as chief lenders to a swath of corporate America.</p></bl=
+ockquote><p style=3D"margin: 16px 0;">That is from <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/24525843.267046/aHR0cHM6Ly93d3cuZnQuY29tL2=
+NvbnRlbnQvZjYzYzI2MzYtODI5Yy00OGIxLTlhYmItMjg4NTEwY2JmODE2P3NoYXJlVHlwZT1ub=
+25naWZ0/607f07ceef4b8524a319a23cBdd70ca66" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">this delightful Financial Times profile</a=
+> of Rees and Dyal, which =E2=80=9Cgives top financiers a way to convert th=
+eir paper fortunes into cash and potentially lower their tax bills.=E2=80=
+=9D</p><p style=3D"margin: 16px 0;">But then if you are Michael Rees, and y=
+ou are in the business of buying stakes in private equity firms so their ow=
+ners can get nominally richer and optimize their taxes, you might look arou=
+nd and say =E2=80=A6=C2=A0wait a minute, who will buy a stake in=C2=A0<em>m=
+y=C2=A0</em>business so I can be nominally richer and optimize my taxes? An=
+d the answer is a complicated three-way merger involving a special purpose =
+acquisition company that allowed Dyal Capital to go public as part of Blue =
+Owl Capital Inc.:</p><blockquote><p style=3D"margin: 16px 0;">This year Ree=
+s, 46, became a billionaire in his own right. Having started Dyal in 2011 a=
+s an experimental division on the fringes of asset manager Neuberger Berman=
+, he broke free of his parent company and pulled off a $12bn transaction th=
+at amounts to one of the biggest ever stock market debuts by a US private c=
+apital group. The enlarged company, known as Blue Owl, instantly achieved a=
+ market capitalisation close to that of Carlyle Group, Ares Management and =
+other more established rivals.</p></blockquote><p style=3D"margin: 16px 0;"=
+>He =E2=80=9Cbecame a billionaire=E2=80=9D in this strictly nominal sense: =
+He had a stream of income before, and he has that stream of income now, but=
+ having sold a stake in it at a multibillion-dollar valuation, <em>now=C2=
+=A0</em>he=E2=80=99s a billionaire.</p><p style=3D"margin: 16px 0;">Anyway =
+the Blue Owl deal was hotly controversial because, if you are an alternativ=
+e investment manager in the business of taking minority stakes in alternati=
+ve investment managers, eventually there are going to be conflicts of inter=
+est. Specifically, Dyal owned stakes in a couple of private credit funds ca=
+lled Sixth Street Capital and Golub Capital, and the three-way merger that =
+created Blue Owl involved not just a SPAC but also another private credit f=
+und named Owl Rock:</p><blockquote><p style=3D"margin: 16px 0;">Even some e=
+xecutives close to the deal acknowledge it appears rife with conflict.</p><=
+p style=3D"margin: 16px 0;">A Dyal fund had previously invested $500m in Ow=
+l Rock, before it merged with Dyal. It meant that Rees and Ward were now ma=
+naging a fund that is also one of the biggest shareholders in their own fir=
+m. While the investors in Dyal=E2=80=99s funds are still waiting for an opp=
+ortunity to cash out, the stock market listing has already given Rees and W=
+ard big payouts of their own.</p><p style=3D"margin: 16px 0;">The sharpest =
+objections came from executives at Sixth Street and Golub Capital, who were=
+ unhappy that Dyal =E2=80=94 one of their biggest shareholders =E2=80=94 wa=
+s merging with Owl Rock, one of their most formidable rivals. They characte=
+rised the transaction as a =E2=80=9Cbetrayal=E2=80=9D that would put their =
+confidential financial information in the hands of a competitor. And insist=
+ed that their deal with Dyal gave them a power of veto.</p></blockquote><p =
+style=3D"margin: 16px 0;">It did not.=C2=A0Golub and Sixth Street sued, cla=
+iming that transfer restrictions in their contract with Dyal prevented Dyal=
+ from merging; Delaware and New York courts disagreed. Also the worries abo=
+ut betrayal do not seem particularly real; <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/24525843.267046/aHR0cHM6Ly9jb3VydHMuZGVsYXdhcmUuZ2=
+92L09waW5pb25zL0Rvd25sb2FkLmFzcHg_aWQ9MzE5MjYw/607f07ceef4b8524a319a23cB084=
+6d7b6" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">the=
+ Delaware court found</a> that =E2=80=9Cthis litigation and the parallel ac=
+tion in New York were part and parcel of a calculated effort to =E2=80=98mu=
+ck up=E2=80=99 the Transaction to force a buyback=E2=80=9D of Dyal=E2=80=99=
+s stakes in Golub and Sixth Street on cheap terms:</p><blockquote><p style=
+=3D"margin: 16px 0;">After learning of the Transaction, in December 2020, S=
+ixth Street=E2=80=99s senior executives assured their investors that the Tr=
+ansaction would have =E2=80=9Czero impact on our business=E2=80=9D because =
+Dyal III was a =E2=80=9Ccompletely passive investor=E2=80=9D run by =E2=80=
+=9Cgood folks.=E2=80=9D=C2=A0And importantly, they emphasized that Dyal =E2=
+=80=9C[does not] get competitively sensitive information from us in any rea=
+l sense,=E2=80=9D=C2=A0and that =E2=80=9Cwhatever information they [Dyal] g=
+et will be manag[ed]=E2=80=9D with =E2=80=9Cinformational firewalls.=E2=80=
+=9D Accordingly, David Stiepleman, Sixth Street=E2=80=99s Co-President and =
+Chief Operating Officer, stated that he was =E2=80=9Cnot particularly conce=
+rned about the theoretical possibility of [Owl Rock as] a smaller firm in t=
+he credit space seeing [Sixth Street=E2=80=99s] info.=E2=80=9D=C2=A0Sixth S=
+treet reiterated its lack of concern on multiple occasions, assuring=C2=A0i=
+nvestors that Dyal III was a =E2=80=9C[p]assive 10% owner of Sixth Street=
+=E2=80=9D and there was =E2=80=9Cnothing [to be] concerned about at all=E2=
+=80=9D with respect to the Transaction. =E2=80=A6</p><p style=3D"margin: 16=
+px 0;">Since filing, nothing in the record indicates Sixth Street ever actu=
+ally became concerned about its confidential information. ...=C2=A0In his d=
+eposition, Alan Waxman, Sixth Street=E2=80=99s CEO, testified that =E2=80=
+=9C[Blue Owl is] not getting our pipeline. They=E2=80=99re not going to be =
+involved in our investment process.=E2=80=9D</p></blockquote><p style=3D"ma=
+rgin: 16px 0;">It=E2=80=99s good to sell a stake in your business to get ca=
+sh and be rich, but the downside is that if your business keeps growing, yo=
+u have given up some of the upside. If you can buy it back cheap, you might=
+ as well try.</p><table class=3D"header" width=3D"100%" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Tether</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24525843.267046/aHR0cHM6Ly9hbS5qcG1vcmdhbi5jb20v=
+dXMvZW4vYXNzZXQtbWFuYWdlbWVudC9hZHYvcHJvZHVjdHMvanBtb3JnYW4tcHJpbWUtbW9uZXk=
+tbWFya2V0LWZ1bmQtbW9yZ2FuLTQ4MTJhMjcwMiMvcG9ydGZvbGlv/607f07ceef4b8524a319a=
+23cB20950e73" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">the website</a> for the JPMorgan Prime Money Market Fund. If you click =
+on the tab labeled =E2=80=9Cportfolio,=E2=80=9D you can see what the fund o=
+wns. The first item alphabetically is $50 million face amount of asset-back=
+ed commercial paper issued by Alpine Securitization Corp. and maturing on O=
+ct. 12. Its=C2=A0CUSIP =E2=80=94=C2=A0its official security identifier =E2=
+=80=94=C2=A0is 02089XMG9. There are certificates of deposit at big banks, r=
+epurchase agreements, even a little bit of non-financial commercial paper. =
+The fund lends some money to LVMH Moet Hennessy Louis Vuitton and Toyota Mo=
+tor Finance (Netherlands) BV. You can see exactly how much (both face amoun=
+t and market value), and when it matures, and the CUSIP for each holding.</=
+p><p style=3D"margin: 16px 0;">JPMorgan is not on the bleeding edge of tran=
+sparency here or anything; this is just how money market funds work. You di=
+sclose your holdings.</p><p style=3D"margin: 16px 0;">Here is <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/24525843.267046/aHR0cHM6Ly93d3c=
+ueW91dHViZS5jb20vd2F0Y2g_dj1aQkVxeWlPMzVjUQ/607f07ceef4b8524a319a23cB0372c1=
+38" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">an inc=
+redible=C2=A0interview</a> that the chief technology officer and general co=
+unsel of Tether did yesterday with CNBC=E2=80=99s Deirdre Bosa.=C2=A0Tether=
+ is a stablecoin that we have talked about around here <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/24525843.267046/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDQtMjYvdGhpbmdzLWdvdC13ZWlyZC1mb=
+3Itc3RhYmxlY29pbi10ZXRoZXI/607f07ceef4b8524a319a23cB48ee354a" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> because</a> it was=C2=
+=A0sued by the New York attorney general for lying about its reserves, <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/24525843.267046/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjEtMDYtMTYvbW9uZXktc=
+3R1ZmYtZG9uLXQtcGF5LWdhbWJsaW5nLWRlYnRzLWJ5LWluc2lkZXItdHJhZGluZw/607f07cee=
+f4b8524a319a23cBe455a5fd" itemprop=3D"StoryLink" itemscope=3D"itemscope" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">and because</a> it subsequently <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/24525843.267046/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjEtMDYtMTYvbW9uZXktc3R1ZmYtZG9uLXQtcGF5LWdh=
+bWJsaW5nLWRlYnRzLWJ5LWluc2lkZXItdHJhZGluZw/607f07ceef4b8524a319a23cCe455a5f=
+d" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">disclos=
+ed its reserves</a> in a format that satisfied basically no one. Tether now=
+ says that its reserves consist mostly of commercial paper, <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/24525843.267046/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDUtMjIvYS1uZXctcmVwb3J0LWZyb20t=
+anBtb3JnYW4tc2hvd3MtanVzdC1ob3ctYmlnLXRldGhlci1oYXMtYmVjb21l/607f07ceef4b85=
+24a319a23cB99add68d" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> which</a>=C2=A0apparently=C2=A0<a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24525843.267046/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRl=
+bnQvMzQyOTY2YWYtOThkYy00YjQ4LWI5OTctMzhjMDA4MDQyNzBh/607f07ceef4b8524a319a2=
+3cB24909e4c" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">makes it</a> one of the largest commercial paper holders in the world. T=
+here is a fun game among <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24525843.267046/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0=
+ZXJzLzIwMjEtMDctMDIvdGhlLXdlZWtseS1maXgtYm9uZHMtdHJlYXN1cmllcy1wYXlyb2xscy1=
+jcnlwdG8tdGV0aGVy/607f07ceef4b8524a319a23cB0e5025b3" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> financial journalists</a> and o=
+ther <a href=3D"https://link.mail.bloombergbusiness.com/click/24525843.2670=
+46/aHR0cHM6Ly90d2l0dGVyLmNvbS9wYXRpbzExL3N0YXR1cy8xMzk1OTA5OTM5OTQ4NzExOTM3=
+/607f07ceef4b8524a319a23cBbe86dd2c" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">interested</a>=C2=A0<a href=3D"https://link.mail.=
+bloombergbusiness.com/click/24525843.267046/aHR0cHM6Ly90d2l0dGVyLmNvbS9kc3F=
+1YXJlZGRpZ2VzdC9zdGF0dXMvMTQwMjkxNDI4NjI4NTAzMzQ3OA/607f07ceef4b8524a319a23=
+cB827cc41d" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">observers</a>=C2=A0who try to find anyone who has actually traded commerc=
+ial paper with Tether, or any of its actual holdings. The game is hard! As =
+far as I know, no one has ever won it, or even scored a point; I have never=
+ seen anyone=C2=A0publicly identify=C2=A0a security that Tether holds or a =
+counterparty that has traded commercial paper with it.</p><p style=3D"margi=
+n: 16px 0;">Bosa, who had two Tether executives on her show, sensibly asked=
+ them about it several times, but you can=E2=80=99t win the game that easil=
+y! =E2=80=9CWe don=E2=80=99t disclose our commercial partners, so that is q=
+uite important,=E2=80=9D says CTO Paolo Ardoino at around the 5-minute mark=
+. =E2=80=9CGiven our portfolio composition in commercial paper, we believe =
+that it is quite important to respect the privacy of the banking partners t=
+hat we work with.=E2=80=9D That=E2=80=99s not a thing! That=E2=80=99s not a=
+ thing at all! Every money-market fund just lists all of its holdings, by s=
+ize and issuer and CUSIP! Tether has broken new ground in the concept of co=
+mmercial-paper privacy rights! But, why?</p><p style=3D"margin: 16px 0;">Ev=
+erything in this interview melted my brain. Another favorite came at around=
+ the 13-minute mark, when GC Stuart Hoegner says =E2=80=9Cwe maintain cash,=
+ for example, that is many multiples above our single biggest redemption th=
+us far, as well as above our biggest 24-hour period of redemptions,=E2=80=
+=9D which is =E2=80=A6=C2=A0not =E2=80=A6=C2=A0that =E2=80=A6=C2=A0much? (B=
+anks, for instance, are <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/24525843.267046/aHR0cHM6Ly93d3cuYmlzLm9yZy9wdWJsL2JjYnMyMzgucGRm/607f=
+07ceef4b8524a319a23cB8c2aaab3" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">generally required</a> to have =E2=80=9Chigh-quality l=
+iquid assets=E2=80=9D sufficient for =E2=80=9Ca 30 calendar day liquidity s=
+tress scenario.=E2=80=9D) There is more <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/24525843.267046/aHR0cHM6Ly93d3cuY29pbmRlc2suY29tL3Rld=
+Ghlci1leGVjdXRpdmVzLWNuYmMtdGVjaC1jaGVjaw/607f07ceef4b8524a319a23cBb2bde969=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">here</a>=
+, including a promise that audited financials are =E2=80=9Conly months away=
+.=E2=80=9D I do not watch a lot of 32-minute business-television interviews=
+ but I found this one riveting.</p><p style=3D"margin: 16px 0;">Elsewhere, =
+here is a paper from Gary Gorton and Jeffery Zhang on =E2=80=9C<a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/24525843.267046/aHR0cHM6Ly9wYX=
+BlcnMuc3Nybi5jb20vc29sMy9wYXBlcnMuY2ZtP2Fic3RyYWN0X2lkPTM4ODg3NTI/607f07cee=
+f4b8524a319a23cB8e16c906" itemprop=3D"StoryLink" itemscope=3D"itemscope" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">Taming Wildcat Stablecoins</a>=E2=80=9D:</p><blockquote><p =
+style=3D"margin: 16px 0;">Cryptocurrencies are all the rage, but there is n=
+othing new about privately produced money. The goal of private money is to =
+be accepted at par with no questions asked. This did not occur during the F=
+ree Banking Era in the United States=E2=80=94a period that most resembles t=
+he current world of stablecoins. State-chartered banks in the Free Banking =
+Era experienced panics, and their private monies made it very hard to trans=
+act because of fluctuating prices. That system was curtailed by the Nationa=
+l Bank Act of 1863, which created a uniform national currency backed by U.S=
+. Treasury bonds. Subsequent legislation taxed the state-chartered banks=E2=
+=80=99 paper currencies out of existence in favor of a single sovereign cur=
+rency.</p><p style=3D"margin: 16px 0;">The newest type of private money is =
+now upon us=E2=80=94in the form of stablecoins like =E2=80=9CTether=E2=80=
+=9D and Facebook=E2=80=99s =E2=80=9CDiem=E2=80=9D (formerly =E2=80=9CLibra=
+=E2=80=9D). Based on lessons learned from history, we argue that privately =
+produced monies are not an effective medium of exchange because they are no=
+t always accepted at par and are subject to runs. We present proposals to a=
+ddress the systemic risks created by stablecoins, including regulating stab=
+lecoin issuers as banks and issuing a central bank digital currency.</p></b=
+lockquote><p style=3D"margin: 16px 0;">I guess. I am skeptical about the sy=
+stemic risks of stablecoins; I <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/24525843.267046/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjEtMDYtMTYvZG9uLXQtcGF5LWdhbWJsaW5nLWRlYnRzLWJ5LWluc2lkZXItd=
+HJhZGluZw/607f07ceef4b8524a319a23cB8792a1bf" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> wrote last month</a>=C2=A0that =E2=80=
+=9CI think of stablecoins as sort of the lobby of the casino that is crypto=
+ speculation, and I assume that the main use of Tether is to take a quick b=
+reak from betting on Bitcoin without actually leaving the casino.=E2=80=9D =
+If that=E2=80=99s the main use case then the worst thing that happens, in a=
+ run on Tether, is that a bunch of gamblers lose their money; that is bad f=
+or them but I am not sure how it is a=C2=A0<em>systemic=C2=A0</em>problem. =
+As <a href=3D"https://link.mail.bloombergbusiness.com/click/24525843.267046=
+/aHR0cHM6Ly9kaWZmLnN1YnN0YWNrLmNvbS9wL2Jhbmtpbmctd2FudHMtdG8tYmUtZnJlZS1idX=
+QtZnJlZQ/607f07ceef4b8524a319a23cBcb5ed1cc" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">Byrne Hobart writes</a>: =E2=80=9CCrypto =
+is <em>incredibly</em> well-contained,=C2=A0in that there are giant compani=
+es that do crypto (and almost nothing else), and there are giant companies =
+with massively diversified portfolios that have a tiny slice of crypto.=E2=
+=80=9D There may be systemic risks=C2=A0<em>within crypto</em>, but it=E2=
+=80=99s hard to see how they could be systemic risks to the rest of the eco=
+nomy.</p><p style=3D"margin: 16px 0;">Also, on the claim that =E2=80=9Cpriv=
+ately produced monies are not an effective medium of exchange because they =
+are not always accepted at par and are subject to runs,=E2=80=9D CoinMarket=
+Cap <a href=3D"https://link.mail.bloombergbusiness.com/click/24525843.26704=
+6/aHR0cHM6Ly9jb2lubWFya2V0Y2FwLmNvbS9jdXJyZW5jaWVzL3RldGhlci8/607f07ceef4b8=
+524a319a23cB233d151d" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">tells me</a> that Tether has traded between $0.9996 and $1.000=
+9 over the last seven days, including during yesterday=E2=80=99s interview.=
+ That=E2=80=99s a pretty tight range given that, you know, anyone can watch=
+ the interview.</p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 20px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td style=3D"padding: 15px 15px 0px;">
+<!--[if mso]>
+<table width=3D"500">
+<tr>
+<td>
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iLp_LAZeAHVk/v=
+0/-1x-1.jpg" width=3D"500" />
+</td>
+</tr>
+</table>
+<div style=3D"display:none">
+<![endif]-->
+<img width=3D"550" class=3D"sponsored-content__image" src=3D"https://assets=
+.bwbx.io/images/users/iqjWHBFdfxIU/iLp_LAZeAHVk/v0/-1x-1.jpg" style=3D"widt=
+h: 100%; display: block; max-width: 550px; max-height: 150px;" />
+<!--[if mso]>
+</div>
+<![endif]-->
+</td>
+</tr>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Sponsored Content</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;">
+<p style=3D"margin: 10px 0px;">For over 20 years, Selective Search Matchmak=
+ers have protected our clients=E2=80=99 time, privacy and preferences in th=
+eir search for love. Customized searches that employ proven executive searc=
+h methodologies have resulted in love for thousands of couples.</p>
+<p style=3D"margin: 10px 0px;"><a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/24525843.267046/aHR0cHM6Ly93d3cuc2VsZWN0aXZlc2VhcmNoLmNvbS9ibG=
+9vbWJlcmc_dXRtX3NvdXJjZT1ibG9vbWJlcmcmdXRtX21lZGl1bT1wcmludCZ1dG1fY2FtcGFpZ=
+249bWVubm93JnV0bV9jb250ZW50PXB1cnN1aXRz/607f07ceef4b8524a319a23cBa5ff947b" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: underline;"><strong>Get started with a comp=
+limentary consultation.</strong></a></p>
+</div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;">Selective Search=
+ LLC.</p></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Elon Musk=C2=A0Cathie Wood=C2=A0Bitcoin=C2=A0Dogecoin</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">One thing about Elon Musk is that he r=
+uns Tesla Inc., and also Space Exploration Technologies Corp., and also the=
+ Boring Co., and also a <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/24525843.267046/aHR0cHM6Ly93d3cuY25ldC5jb20vbmV3cy9lbG9uLW11c2stcmV2Z=
+WFscy02OS00MjAtdGVzbGEtc2hvcnQtc2hvcnRzLyM6fjp0ZXh0PVRlc2xhJTIwaGFzJTIwbGF1=
+bmNoZWQlMjBsaW1pdGVkJTJEZWRpdGlvbixpbnZlc3RvcnMlMjB3aG8lMjBiZXQlMjBhZ2FpbnN=
+0JTIwVGVzbGEu/607f07ceef4b8524a319a23cB1559321b" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">direct-to-consumer clothing retailer=
+</a>, and also a <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+4525843.267046/aHR0cHM6Ly93d3cuY25ldC5jb20vbmV3cy9lbG9uLW11c2stdHJpZWQtdG8t=
+Y2FsbC1oaXMtdGVxdWlsYS10ZXNsYXF1aWxhLWJ1dC1tZXhpY28tc2FpZC1uby8jOn46dGV4dD1=
+FbnRlcnRhaW5tZW50JTIwU2VydmljZXMlMjAlMjYlMjBTb2Z0d2FyZS0sRWxvbiUyME11c2slMj=
+B0cmllZCUyMHRvJTIwY2FsbCUyMGhpcyUyMHRlcXVpbGElMjAnVGVzbGFxdWlsYSUyQyclMjBid=
+XQsaXQlMjB3YXMlMjB3b3J0aCUyMGElMjBzaG90LiZ0ZXh0PUl0J3MlMjBkZXNjcmliZWQlMjBh=
+cyUyMCUyMmFuJTIwZXhjbHVzaXZlLG1vbnRocyUyMGluJTIwRnJlbmNoJTIwb2FrJTIwYmFycmV=
+scy4/607f07ceef4b8524a319a23cBc6c75a3e" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">tequila business</a>, and also he=E2=80=99s v=
+ery rich in his personal account. Another thing about Elon Musk is that whe=
+n he buys (or sells) Bitcoin (or Dogecoin), people rush to copy him, and th=
+e price of Bitcoin (or Dogecoin) goes up (or down). He can combine these tw=
+o facts to really precisely fine-tune the price of Bitcoin. If he wants Bit=
+coin to go up, he can <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/24525843.267046/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGV=
+zLzIwMjEtMDItMDgvZWxvbi1tdXNrLXdvcmtzLWhpcy1tYWdpYy1vbi1kb2dlY29pbi1hbmQtYm=
+l0Y29pbg/607f07ceef4b8524a319a23cBd6cdb0df" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> say that</a> Tesla is buying it. If it g=
+oes up too high, he can <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/24525843.267046/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljb=
+GVzLzIwMjEtMDUtMTMvZWxvbi1tdXNrLWdvdC1ib3JlZC1vZi1iaXRjb2lu/607f07ceef4b852=
+4a319a23cBa19352d6" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> say that</a> Tesla isn=E2=80=99t buying it anymore. If then it g=
+oes down too low, he can say that SpaceX is buying it. If he wants to nudge=
+ it just a touch higher he can say =E2=80=9Cwe=E2=80=99re now accepting Bit=
+coin as payment for our short shorts.=E2=80=9D <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/24525843.267046/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjEvYml0Y29pbi1qdW1wcy1wYXN0LTMyLTAwMC1hc=
+y1tdXNrLXNheXMtc3BhY2V4LW93bnMtdG9rZW4/607f07ceef4b8524a319a23cB811de27c" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;"> Et cetera<=
+/a>:</p><blockquote><p style=3D"margin: 16px 0;">Speaking at =E2=80=9CThe B=
+ Word=E2=80=9D conference hosted by the Crypto Council for Innovation, Musk=
+ discussed the outlook for Bitcoin with fellow backers Cathie Wood, head of=
+ Ark Investment Management, and Jack Dorsey, chief executive officer of Twi=
+tter Inc. and Square Inc.</p><p style=3D"margin: 16px 0;">Musk said that he=
+ personally owns Bitcoin, Ethereum and Dogecoin, while Tesla and SpaceX bot=
+h exclusively own Bitcoin. The cryptocurrency climbed as high as $32,820 du=
+ring the panel Wednesday before falling to about $31,683 at 3:49 p.m. New Y=
+ork time.</p></blockquote><p style=3D"margin: 16px 0;">Great, super, that=
+=E2=80=99s fantastic. I look forward to his next panel:</p><blockquote><p s=
+tyle=3D"margin: 16px 0;"><strong>Musk:</strong> I bought some Dogecoin in a=
+ college savings account for my child <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/24525843.267046/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGl=
+uaW9uL2FydGljbGVzLzIwMjAtMDUtMjYvZ29sZG1hbi13YXMtanVzdC10cnlpbmctdG8taGVscA=
+/607f07ceef4b8524a319a23cB02245e67" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> Ethan</a>, I mean, X =C3=86 A-Xii.</p><p style=
+=3D"margin: 16px 0;"><strong>Dogecoin:</strong> [<em>goes up to $0.76</em>]=
+</p><p style=3D"margin: 16px 0;"><strong>Musk:</strong> But Tesla will not=
+=C2=A0accept it as payment for our tequila.</p><p style=3D"margin: 16px 0;"=
+><strong>Dogecoin:</strong> [<em>goes down to $0.61</em>]</p><p style=3D"ma=
+rgin: 16px 0;"><strong>Musk:</strong> Also the Boring Co. will start diggin=
+g Dogecoin mines.</p><p style=3D"margin: 16px 0;"><strong>Dogecoin:</strong=
+> [<em>goes up to $0.72</em>]</p><p style=3D"margin: 16px 0;"><strong>Musk:=
+</strong> But my brother Kimbal has been selling Dogecoin.</p><p style=3D"m=
+argin: 16px 0;"><strong>Dogecoin:</strong> [<em>goes down to $0.68</em>]</p=
+><p style=3D"margin: 16px 0;"><strong>Musk:</strong> But my ex-wife=E2=80=
+=99s cousin=E2=80=99s nephew bought some.</p><p style=3D"margin: 16px 0;"><=
+strong>Dogecoin:</strong> [<em>goes up to $0.69</em>]</p><p style=3D"margin=
+: 16px 0;"><strong>Musk: </strong>Nice.</p></blockquote><p style=3D"margin:=
+ 16px 0;">I have <a href=3D"https://link.mail.bloombergbusiness.com/click/2=
+4525843.267046/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIw=
+MjEtMDUtMTcvZWxvbi1tdXNrLWNvbnRyb2xzLWJpdGNvaW4tYW5kLWRvZ2Vjb2luLXByaWNlcy1=
+3aXRoLXB1cmUtbWFnaWM/607f07ceef4b8524a319a23cB816624b9" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> said before</a> that Musk=C2=
+=A0<em>could=C2=A0</em>do this as a profit-making enterprise: Buy Dogecoin,=
+ say he=E2=80=99d bought Dogecoin, watch the price go up, sell Dogecoin, sa=
+y he=E2=80=99d sold Dogecoin, watch the price go down, repeat indefinitely.=
+ But it=E2=80=99s fairly clear that, except occasionally by accident, that=
+=E2=80=99s not what he=E2=80=99s doing. He=E2=80=99s not whipsawing the pri=
+ce of Bitcoin or Dogecoin=C2=A0<em>for profit</em>. He doesn=E2=80=99t need=
+ profit. He=E2=80=99s the richest or second-richest person on Earth, depend=
+ing on <a href=3D"https://link.mail.bloombergbusiness.com/click/24525843.26=
+7046/aHR0cHM6Ly90d2l0dGVyLmNvbS9pcHJlZmVyU0ovc3RhdHVzLzE0MTc1MTM0NDkyOTEwOT=
+YwNjU/607f07ceef4b8524a319a23cB447005ef" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">who=E2=80=99s in space that day</a>, and h=
+e supposedly <a href=3D"https://link.mail.bloombergbusiness.com/click/24525=
+843.267046/aHR0cHM6Ly93d3cudmFuaXR5ZmFpci5jb20vc3R5bGUvMjAyMS8wMS9lbG9uLW11=
+c2stc2VsbHMtYWxsLWNhbGlmb3JuaWEtcmVhbC1lc3RhdGUtbW92ZXMtdG8tdGV4YXM/607f07c=
+eef4b8524a319a23cBe35b8b1f" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">doesn=E2=80=99t like possessions</a>. He likes=C2=A0troll=
+ing people online; that=E2=80=99s why he=E2=80=99s whipsawing the price of =
+Bitcoin and Dogecoin.</p><p style=3D"margin: 16px 0;">Or as he <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/24525843.267046/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjEvYml0Y29pbi1qdW1wcy1wY=
+XN0LTMyLTAwMC1hcy1tdXNrLXNheXMtc3BhY2V4LW93bnMtdG9rZW4/607f07ceef4b8524a319=
+a23cC811de27c" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> put it yesterday</a>:</p><blockquote><p style=3D"margin: 16px 0;">=E2=
+=80=9CI would like to see Bitcoin succeed,=E2=80=9D Musk said. =E2=80=9CIf =
+the price of Bitcoin goes down, I lose money. I might pump but don=E2=80=99=
+t dump.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">It=E2=80=99s =
+in his economic interests to make the price of Bitcoin go up, and he also h=
+as fun doing it, but sometimes it=E2=80=99s also fun to make it go down ins=
+tead.</p><p style=3D"margin: 16px 0;">Also at that conference, by the way:<=
+/p><blockquote><p style=3D"margin: 16px 0;">Wood said corporations should c=
+onsider adding Bitcoin to their balance sheets, partly as a hedge against d=
+eflation.</p></blockquote><p style=3D"margin: 16px 0;">I feel like there=E2=
+=80=99s been a decade of Bitcoin evangelists saying that Bitcoin is a good =
+inflation hedge, since there is a finite cap on the number of Bitcoins whil=
+e the Federal Reserve can print blah blah blah blah blah. <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/24525843.267046/aHR0cHM6Ly93d3cud3N=
+qLmNvbS9hcnRpY2xlcy9iaXRjb2luLWlzLWZhaWxpbmctaXRzLWZpcnN0LWluZmxhdGlvbi10ZX=
+N0LWFzLXNlbGxvZmYtZGVlcGVucy0xMTYyNjk0NjM4OT9tb2Q9aHBfbGVhZF9wb3M1/607f07ce=
+ef4b8524a319a23cB16e48457" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">But nope</a>:</p><blockquote><p style=3D"margin: 16px 0;">=
+Bitcoin=E2=80=99s steep selloff is undercutting the argument made by the di=
+gital currency=E2=80=99s proponents that it=E2=80=99s an inflation hedge. .=
+..</p><p style=3D"margin: 16px 0;">Bitcoin=E2=80=99s supporters for years h=
+ave touted it as an inflation hedge like gold, mainly because the bitcoin n=
+etwork has a set limit on the number of units that can be created: 21 milli=
+on. Their argument hadn=E2=80=99t previously been tested, however, because =
+inflation has largely been under the Federal Reserve=E2=80=99s 2% target si=
+nce bitcoin=E2=80=99s 2009 launch.</p><p style=3D"margin: 16px 0;">Now for =
+the first time in years, shortages of semiconductors, lumber and workers ar=
+e putting pressure on consumer prices, sparking worries about inflation. At=
+ the same time, governments and central banks have been forced to spend tri=
+llions to prop up their economies, potentially sapping the purchasing power=
+ of their currencies.</p><p style=3D"margin: 16px 0;">The consumer-price in=
+dex rose to 5.4% in June, its fastest pace in 13 years. And inflation measu=
+res in 49 countries have all been rising since the beginning of the year, a=
+ccording to the Center for Financial Stability, a New York-based nonprofit =
+think tank.</p><p style=3D"margin: 16px 0;">Bitcoin is going in the other d=
+irection. The digital currency has fallen in five of the past seven days an=
+d is down 7.9% in July, extending its monthslong selloff. It is now up 10% =
+in 2021.</p></blockquote><p style=3D"margin: 16px 0;">But if it=E2=80=99s n=
+ot a good inflation hedge then it's a good deflation hedge, I guess that=E2=
+=80=99s how finance works, why not.</p><table class=3D"header" width=3D"100=
+%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Deutsche Bank <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/24525843.267046/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjAvZGV1dHNjaGUtYmFuay1qb2lucy1yaXZhb=
+HMtaW4tYm9vc3RpbmctcGF5LWZvci1qdW5pb3ItYmFua2Vycw/607f07ceef4b8524a319a23cB=
+66f1cd77" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Raises Pay for Juniors</a> to Keep Up With Rivals.=C2=A0UBS <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/24525843.267046/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjEvdWJzLWxpZnRzLWp1bmlvci1=
+iYW5rZXJzLXBheS1mb2xsb3dpbmctcml2YWxzLW9uLXdhbGwtc3RyZWV0/607f07ceef4b8524a=
+319a23cB5632e70b" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;"> Lifts Junior Bankers=E2=80=99 Pay</a>, Following Rivals on Wall St=
+reet.=C2=A0The <a href=3D"https://link.mail.bloombergbusiness.com/click/245=
+25843.267046/aHR0cHM6Ly9wYXBlcnMuc3Nybi5jb20vc29sMy9wYXBlcnMuY2ZtP2Fic3RyYW=
+N0X2lkPTM2ODY5MzU/607f07ceef4b8524a319a23cCecc17824" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">Inelastic Markets Hypothesis</a>=
+. Wall Street banks <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/24525843.267046/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvOTA2MjBjMmMtZWEwNy00N=
+DI1LTlhMTgtZjNiNDU4N2VkM2Fk/607f07ceef4b8524a319a23cBa1f082a4" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">redirect China IPOs</a=
+> to Hong Kong after Didi shock. China Weighs <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/24525843.267046/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjIvY2hpbmEtaXMtc2FpZC10by13ZWlnaC11bnByZW=
+NlZGVudGVkLXBlbmFsdHktZm9yLWRpZGktYWZ0ZXItaXBv/607f07ceef4b8524a319a23cB5eb=
+2a952" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Un=
+precedented Penalty for Didi</a> After U.S. IPO. Assets in <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/24525843.267046/aHR0cHM6Ly93d3cud3=
+NqLmNvbS9hcnRpY2xlcy9hc3NldHMtaW4tYW50LWdyb3Vwcy1mbGFnc2hpcC1tb25leS1tYXJrZ=
+XQtZnVuZC10dW1ibGUtdG8tMjAxNi1sZXZlbHMtMTE2MjY4MzYwMzM_bW9kPWl0cF93c2omcnU9=
+eWFob28/607f07ceef4b8524a319a23cB90afa0bd" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">Ant Group=E2=80=99s</a> Flagship Money-Mar=
+ket Fund Drop to 2016 Levels. The Saudi Prince of Oil Prices Vows to Drill =
+=E2=80=98<a href=3D"https://link.mail.bloombergbusiness.com/click/24525843.=
+267046/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjEtMDctMjIv=
+c2F1ZGktcHJpbmNlLWFiZHVsYXppei1iaW4tc2FsbWFuLXNlZWtzLXRvLXRhbWUtb2lsLXByaWN=
+lcy1vcGVjLXJ1c3NpYQ/607f07ceef4b8524a319a23cB84ffdbd4" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">Every Last Molecule</a>.=E2=80=
+=99=C2=A0AMC Names CEO <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/24525843.267046/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9hbWMtbmFtZXMtY2=
+VvLWFkYW0tYXJvbi1hcy1jaGFpcm1hbi0xMTYyNjg3NTIzOT9tb2Q9aXRwX3dzaiZydT15YWhvb=
+w/607f07ceef4b8524a319a23cB48d22e76" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">Adam Aron</a> as Chairman. States Announce $26 B=
+illion Settlement to <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/24525843.267046/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zdGF0ZXMtYW5ub3Vu=
+Y2UtMjYtYmlsbGlvbi1zZXR0bGVtZW50LXRvLXJlc29sdmUtb3Bpb2lkLWxhd3N1aXRzLTExNjI=
+2ODkwNjEzP21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319a23cB22374bcc" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">Resolve Opio=
+id Lawsuits</a>. Evergrande shares jump as developer says <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/24525843.267046/aHR0cHM6Ly93d3cuZnQ=
+uY29tL2NvbnRlbnQvYjJmNTJiMDktOWE3OS00OWQxLWIxNDQtYjFmMjg4NzI3ZDJl/607f07cee=
+f4b8524a319a23cB7d16dc5f" itemprop=3D"StoryLink" itemscope=3D"itemscope" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">spat with bank</a> resolved. Tom Barrack Held Forth on Trum=
+p, Real Estate Just <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/24525843.267046/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwM=
+jEtMDctMjEvYmFycmFjay1oZWxkLWZvcnRoLW9uLXRydW1wLXJlYWwtZXN0YXRlLWp1c3QtZGF5=
+cy1iZWZvcmUtYXJyZXN0/607f07ceef4b8524a319a23cB04c2aea2" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> Days Before Arrest</a>. Frau=
+d on the Farm: How a baby-faced CEO turned a <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24525843.267046/aHR0cHM6Ly9yZXN0b2Z3b3JsZC5vcmcv=
+MjAyMS9mYXJtYmFuay10dXJrZXktc2NhbS1qYWlsLXRpbWUv/607f07ceef4b8524a319a23cB7=
+bf60ebf" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;">F=
+armville clone</a> into a massive Ponzi scheme. =E2=80=9C<a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/24525843.267046/aHR0cHM6Ly9mb3JlaWdu=
+cG9saWN5LmNvbS8yMDIxLzA3LzE5L2VsLXNhbHZhZG9yLWJ1a2VsZS1iaXRjb2luLWh1c3RsZS1=
+icm8tcG9wdWxpc20v/607f07ceef4b8524a319a23cB29ca8241" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">Hustle bro</a> populism.=E2=80=
+=9D=C2=A0Man <a href=3D"https://link.mail.bloombergbusiness.com/click/24525=
+843.267046/aHR0cHM6Ly9hYm92ZXRoZWxhdy5jb20vMjAyMS8wNy9tYW4tY2FsbGluZy1saWJy=
+YXJpZXMtYW5kLW1hc3R1cmJhdGluZy10by1hLXN1cHJlbWUtY291cnQtb3Bpbmlvbi8/607f07c=
+eef4b8524a319a23cB9b35d710" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">Calling Libraries</a> And Masturbating To A Supreme Court=
+ Opinion.</p><p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-=
+consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in hand=
+y email form, right in your inbox, please=C2=A0<a href=3D"https://link.mail=
+.bloombergbusiness.com/click/24525843.267046/aHR0cDovL2xpbmsubWFpbC5ibG9vbW=
+JlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwM=
+WNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB0ce82c4b" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">subscribe at this link</a>. Or you can subscr=
+ibe to Money Stuff and other great Bloomberg newsletters <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/24525843.267046/aHR0cHM6Ly9sb2dpbi5i=
+bG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBb4e833e5" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">here</a>. Thanks!=
+</em></span></p><p style=3D"margin: 16px 0;"><em>[1] Here I am mostly talki=
+ng about normal=C2=A0cash-flowing businesses, but of course another very tr=
+aditional way to become a billionaire is to start a tech company, lose mone=
+y every year for a while, and then take the company public at like a $50 bi=
+llion valuation. There the value is all in the uncertain future cash flows,=
+ not the current ones. Same core idea though.</em></p><p style=3D"margin: 1=
+6px 0;"><em>[2] Actually in 2018, Forbes awarded Kylie Jenner the =E2=80=9C=
+billionaire=E2=80=9D title even though she *hadn=E2=80=99t* sold a stake in=
+ her business, which at the time was making a nine-figure net income, and <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/24525843.267046/aHR=
+0cHM6Ly9zbGF0ZS5jb20vYnVzaW5lc3MvMjAxOC8wNy9reWxpZS1qZW5uZXItbmV0LXdvcnRoLX=
+NoZXMtbm90LWEtYmlsbGlvbmFpcmUtYnV0LW5vdC1ub3QtYS1iaWxsaW9uYWlyZS5odG1s/607f=
+07ceef4b8524a319a23cBa413039e" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">Felix Salmon got annoyed</a>: =E2=80=9CShe has taken n=
+o outside investment at all, so there=E2=80=99s no valuation at which anybo=
+dy has bought into her company. Forbes has slapped an $800 million valuatio=
+n onto Kylie Cosmetics, without anybody doing any kind of diligence on it a=
+t all, and has declared that entire sum to be part of Jenner=E2=80=99s pres=
+ent wealth.=E2=80=9D He was right that the *traditional* =E2=80=9Cmechanism=
+ for turning future assets into present assets ... is called selling all or=
+ part of the corporate entity you own.=E2=80=9D As an economic matter, sell=
+ing a minority stake in a business shouldn=E2=80=99t change the value of th=
+e business, but as a a matter of *getting on lists of billionaires* I think=
+ Salmon was probably right.</em></p><p style=3D"margin: 16px 0;"><em>[3] Pr=
+esumably you got the stock for $0, when you founded the business, so this i=
+s all taxable gain.</em></p><p style=3D"margin: 16px 0;"><em>[4] Also, you =
+don=E2=80=99t pay taxes on the $80 million value of the business that you r=
+etain. This is good, first of all, for having a high nominal net worth: If =
+you make $10 million a year and pay 50% tax, your wealth accrues by at most=
+ $5 million a year, but if you turn that into an 80% stake in a $100 millio=
+n company your nominal wealth goes up by $80 million, even though you=E2=80=
+=99d have to pay taxes (at a lower rate) if you sold it.=C2=A0You get to po=
+int to your pretax rather than post-tax wealth, as it were. But also there =
+*are* sometimes ways to extract this money without paying taxes, along =E2=
+=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/24525843.267=
+046/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9idXktYm9ycm93LWRpZS1ob3ctcmljaC1=
+hbWVyaWNhbnMtbGl2ZS1vZmYtdGhlaXItcGFwZXItd2VhbHRoLTExNjI1OTA5NTgz/607f07cee=
+f4b8524a319a23cBda284563" itemprop=3D"StoryLink" itemscope=3D"itemscope" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">buy borrow die</a>=E2=80=9D lines.=C2=A0</em></p><p style=
+=3D"margin: 16px 0;"><em>[5] Most famously, private equity managers also ge=
+t paid in =E2=80=9Ccarried interest,=E2=80=9D which is taxed as capital gai=
+ns, and everyone complains about this =E2=80=9C<a href=3D"https://link.mail=
+.bloombergbusiness.com/click/24525843.267046/aHR0cHM6Ly93d3cubnl0aW1lcy5jb2=
+0vMjAyMS8wNC8yMy9idXNpbmVzcy9kZWFsYm9vay9jYXJyaWVkLWludGVyZXN0LWJpZGVuLmh0b=
+Ww/607f07ceef4b8524a319a23cB07da5dbf" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;">carried interest loophole</a>.=E2=80=9D Also, t=
+hough, they like to turn management fees (ordinary income) into carry (capi=
+tal gains); a classic method is the =E2=80=9Cmanagement fee waiver,=E2=80=
+=9D which has <a href=3D"https://link.mail.bloombergbusiness.com/click/2452=
+5843.267046/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMS8wNi8xMi9idXNpbmVzcy9wcml=
+2YXRlLWVxdWl0eS10YXhlcy5odG1s/607f07ceef4b8524a319a23cBf414a0f0" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">been controversial=
+</a> for like <a href=3D"https://link.mail.bloombergbusiness.com/click/2452=
+5843.267046/aHR0cHM6Ly93d3cucmV1dGVycy5jb20vYXJ0aWNsZS91cy1wcml2YXRlLWVxdWl=
+0eS10YXgvYW5hbHlzaXMtbmV3LXlvcmstYWdzLXByaXZhdGUtZXF1aXR5LXByb2JlLW1heS1oYX=
+ZlLWxpdHRsZS1iaXRlLWlkVVNCUkU4ODYwNkUyMDEyMDkwNw/607f07ceef4b8524a319a23cB7=
+53a1e80" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: solid; background-color: #ccc;">a=
+ decade</a>.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24525843.267046/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBce98e746" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24525843.267046/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB6c064050" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24525843.267046/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBaca665a4" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24525843.267046/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB74901868" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2452584=
+3.267046/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB33065ea6" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24525843.267046/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCbaef610c" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24525843.267046/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB9695ffab" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24525843.267046/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBadd367e8" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23celo9f.5q1y/80b536ed.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_1401088_1514670555.1626974694731--
+

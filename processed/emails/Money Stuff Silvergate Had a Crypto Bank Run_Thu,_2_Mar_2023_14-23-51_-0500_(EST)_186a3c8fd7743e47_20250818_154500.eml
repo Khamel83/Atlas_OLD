@@ -1,0 +1,2755 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp12707rwb;
+        Thu, 2 Mar 2023 11:25:04 -0800 (PST)
+X-Received: by 2002:a05:600c:4b27:b0:3eb:3945:d3f4 with SMTP id i39-20020a05600c4b2700b003eb3945d3f4mr9295315wmp.2.1677785103858;
+        Thu, 02 Mar 2023 11:25:03 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1677785103; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Dh6zLfK77kpLUhT2QdI75vn7JAmuHKig+w/eoT3weNEq15Umw8XBI5Rczuzd4QTbA2
+         3smk4qDzF64ZPusDXPHoZonjN1rKsZLNYmxrMbMci7IZy3jOxSdpAdwAipU1yBu7lPOD
+         2WMdcK20/4cb+4OEYlNUUtntg9JxFLFiP0/P8HXICHNxWFtowqQsFc4rbX7Lz0vbUzTN
+         QUz56ZkbnWhpu9Gl+I9A1IiJy+4QG++36p+CfHEYRfHFy00WSK1JAJGNVlfDA1up7+4h
+         ARF37u+GRJ8qBX5x7mkwScPqrTQaddM4yRK53ovr9i1i1VmBuhwvl9r0V7OOv/zwEKA2
+         Ro9g==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=XXaJS1jBfHDfoPXU4bMcE/OlGvAPHsahZghHLqD0wdY=;
+        b=aMd+xr9dnkaoc4US79VqSq4kcX3yHDYqPa9lFmuldGIAyHsSMIZFuCD0MikLIAKcMk
+         aPGt9/tSyVRJHdAt2ZSRkZT71OrDaJzSHgT3rcr8RZG365GKLFVqudMbuzzrghMW02yH
+         XUk5+Ly8sK0EWpZ0ySGjkSh6cD9rzblBchDt0COd2WNGEExKWDO/D0wldbNKeAFyzPI7
+         KeUi9v8q8HW56CBsBDj2sF0NY5lesCOazOoezEA7/D6rmMyGvT+XKw3bxIhmPY/rG+23
+         42UcW1Srbuc3lVtdsYKRK9X/5aBuo/W2GuWuWhgVNbWFWRkspp7D57UAuq5vRpNci9mz
+         4g/w==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=4fzlw8a4;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id j4-20020a05600c1c0400b003dc5417d42dsor146504wms.42.2023.03.02.11.25.03
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 02 Mar 2023 11:25:03 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=4fzlw8a4;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112; t=1677785103;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=XXaJS1jBfHDfoPXU4bMcE/OlGvAPHsahZghHLqD0wdY=;
+        b=1e/JMUVfFz7SoDyOMUEh0/XRNmHRUgwibJVAcIAABiGThXbEjujS7n63wcqpj3ba+E
+         pKS3YyWBoJ2NBkVhQxewQaEI1XbsQeRd6p2TpkFHSkCI45lrmTf9Gqf7uBZPzzhBEIfs
+         eylzpgRnHKJo5ig6D5hc6MHSHN+zdSriIK3SVFmvMHSck3BJ1DZT6c8EUQEapgMsOXp1
+         cpT1N0PDF18u/ycCn0YitF4p/0QCmcijTjVJTGMVbDOfXPc4EeIpIxybA68QFn2sQcEu
+         8gy3sAgT97k8t0CQkf/UrZkuPU61Vzg+L0X3cU16FuFJOe9DPMP0t7zlBIkx33Wx3yIn
+         rPGQ==
+X-Gm-Message-State: AO0yUKWA1ikbLknKdeBmibdaNIpiUdYF70fRLbVDkA8J4wHtih/+e/hx
+	kNlz3NT+0BBFUXiIibeR9bkh9y6l9SJpPuFs9ylPoBSB4BcAzBLUIQ==
+X-Received: by 2002:a05:600c:3110:b0:3eb:122f:f3c0 with SMTP id g16-20020a05600c311000b003eb122ff3c0mr3181046wmo.5.1677785103427;
+        Thu, 02 Mar 2023 11:25:03 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:fa90:0:0:0:0:0 with SMTP id h16csp67046wrr;
+        Thu, 2 Mar 2023 11:24:59 -0800 (PST)
+X-Received: by 2002:a19:7408:0:b0:4d9:8773:7d76 with SMTP id v8-20020a197408000000b004d987737d76mr2990101lfe.11.1677785099603;
+        Thu, 02 Mar 2023 11:24:59 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1677785099; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=fDXMU0sFvLkOegdBXKLwh5Lj4J9gzptQYVRrmcf2Uhyy5WqUtJQM/B+z9oQquh+K9q
+         OprZeWRJqXZai3TUXVd+9g+RhL/LTuTZGE9mQPwD1vTaihcFC3U14ckgtuCZCVYbrdH1
+         KWz83AIyZYhIw7yrd5hC1JQsLTqkckeoz+bPUvZRuuVjdhG+u3qOpDz3QiQRBysPr2MZ
+         aJ/iyX0ZHh19wE9EVMWoDLlG4A4q+d01ZE6kXCKsZLq2rsy3FrE8gbS9GZIWSRNcGP3l
+         TjQIZcvmQJ065MKz/HY7tzEJQ3c7KUOxjap91C/eKKevLNDSYEeALzkTApT9qNb/aRvB
+         a6jA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=XXaJS1jBfHDfoPXU4bMcE/OlGvAPHsahZghHLqD0wdY=;
+        b=fMFc94Q6wpZEtko99awoMh+nyRC4tqyH4zUfSZdt3iR2nhL3ovq98JBEYT/rtf5O+R
+         f4Ydr+vQ3UzZ0FPf7HRa6SXJAZxZhuhuzIg+b4cE2AgamOZ69kRDVd0wbErqfjll1F+D
+         cpCJqbPNCyC2XBIz5r5980M+zTg7ct4GtZ/jTDj0Hjw24DFdnVl259vb+lY+oqfAkuGR
+         lUw49n2o/5+0c96835KUN1+T0B2T3Qbyrikcbg28/c1Hhx+Lv62m7vurqg8plVSnxNdf
+         QrLh8KHCG0TiXl2uPSIbf7WGHLu1ph+ZNd3vM0WiIerMP+G8Rc+tFXXbF8nK8gIf/+iE
+         winw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=4fzlw8a4;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230302142351.30710887.257420@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230302142351.30710887.257420@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230302142351.30710887.257420@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id t21-20020ac24c15000000b004dc4dde2915sor81741lfq.17.2023.03.02.11.24.59
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 02 Mar 2023 11:24:59 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20230302142351.30710887.257420@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AK7set8qUWvMx7SfxWJmVcHXeqj3wvykbxNtNdbVC8zmq/AalRhLnWQlzgW6bA/LKTa5WwYVsIg+0JJYr9Tkzp7jkrVDwwbOOBk=
+X-Received: by 2002:ac2:44c5:0:b0:4cd:afbf:c206 with SMTP id d5-20020ac244c5000000b004cdafbfc206mr3363648lfm.22.1677785099216;
+        Thu, 02 Mar 2023 11:24:59 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1677785099; cv=none;
+        d=google.com; s=arc-20160816;
+        b=tTW83hTC6d0EFZe4WBAEwRWdEAjd6guh76kEmEPGP7L6ZJuCsI+y30Z2yjdv+icYhz
+         ZDIVbuJg+jjHlV94ZuA+5My3lKOcbgB5N7lDer35bjHDfahYNBYl8XwghzXjdxReuaWu
+         DhvCJajVXNgGg4A0GL+cN9Cn1ps7p91cOvakQ26dkFbqeQpTBvGYAvOQdKAOmPTa3X/1
+         2hc3p92XDBP8T7PwDJ4TMWJ+dVDO9eAMj3+iMQ6HmdcPEnn4cBsOt7AuSGpzLuLYBDpg
+         JemClx3RcDHqhJP8B4ERnQvMCRtY+jwXokhdRq+L3cOEOcyq4taGx+swyd6McFjKa0xl
+         sCbw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=XXaJS1jBfHDfoPXU4bMcE/OlGvAPHsahZghHLqD0wdY=;
+        b=RnxyhAanj8YhU/ZjiEj7jYlI/HhiWGD8V9/d204qKUkYIJcKzu47unmVU3ldnfpyF+
+         xB2S62PDKmBjxobbnjOhfo7rhIiPacVYsP8Gs/PlW9R4aVGpURlhKdVRASFHnhQMQSej
+         UwyHvrB3y+1tdirBfPiugyGYAIQe+b2CUMytAsOIrdVUqXFStWoeDL242Zj743OedKpU
+         801Ab9EXSBBLKMUo5Ti9IaX7LGmJYW/huGz/rKMdtUFcv6yCqtma3Pb4K7TcHZnvkIaZ
+         AY6fyK/GowyC7c9Ubj5zVCUzOoeT5shPap/iyZb05Rv1sQrFQB1wQVV0ZeGvNTFmjv6j
+         6g+Q==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=4fzlw8a4;
+       spf=pass (google.com: domain of delivery_20230302142351.30710887.257420@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20230302142351.30710887.257420@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230302142351.30710887.257420@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id f20-20020ac25334000000b004dd7665b536si18889lfh.1.2023.03.02.11.24.58
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 02 Mar 2023 11:24:59 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20230302142351.30710887.257420@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=p/OblXe9jTwv8ksh+ixiVVptqANJlHyfMIpTeGfj1L4=;
+ b=4fzlw8a4J8r5hH9F4XotvZfGv7rT7uEdk2z0hWgj6HoCwjYc/JQj4wUYKdYKmkEmQM95EDLFpOIL
+   fpdSQjEg8fnaMUOxOxlPD0J3fITDMub3/AYYmjeim77PuuK3sbxLyZ8gAerE47Sui/AdNvAvKfiY
+   ro9QWEm8c48zkiv+YTA=
+Received: from njmta-53.sailthru.com (173.228.155.53) by pmta29.sailthru.com id h03s0i2sd4sn for <bloomberg@khamel.com>; Thu, 2 Mar 2023 14:24:57 -0500 (envelope-from <delivery_20230302142351.30710887.257420@mx.sailthru.com>)
+Received: from nj1-tancanary.flt (172.18.20.9) by njmta-53.sailthru.com id h03s0i1qqbsa for <bloomberg@khamel.com>; Thu, 2 Mar 2023 14:23:51 -0500 (envelope-from <delivery_20230302142351.30710887.257420@mx.sailthru.com>)
+Date: Thu, 2 Mar 2023 14:23:51 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230302142351.30710887.257420@sailthru.com>
+Subject: Money Stuff: Silvergate Had a Crypto Bank Run
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8460864_1328184801.1677785031046"
+Precedence: bulk
+X-Feedback-ID: 6358:30710887:campaign:sailthru
+X-TM-ID: 20230302142351.30710887.257420
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-tancanary.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cia8o7.5imk/cf15980f
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cia8o7.5imk/cf15980f>, <mailto:unsubscribe_20230302142351.30710887.257420@mx.sailthru.com>
+X-rpcampaign: stjko30710887
+
+------=_Part_8460864_1328184801.1677785031046
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        The basic function of crypto is that you can buy cryptocurrencies w=
+ith dollars and sell cryptocurrencies for dollars. I suppose there are ot
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Silvergate
+   =20
+ =20
+
+The basic function of crypto is that you can buy cryptocurrencies with doll=
+ars and sell cryptocurrencies for dollars. I suppose   there are other func=
+tions? But the main thing is that if you think Bitcoin=C2=A0will go up, you=
+ spend some dollars to buy some Bitcoin, and then if it goes up (or doesn=
+=E2=80=99t), you sell it for dollars.
+If you like crypto a lot =E2=80=94=C2=A0or if you are an institutional-ish =
+crypto trader =E2=80=94 you will do this a lot, and you may find yourself f=
+rustrated with the=C2=A0dollar=C2=A0side of things. Crypto trades globally,=
+ 24 hours a day, seven days a week; you can use smart contracts to send cry=
+pto automatically, and sending crypto is generally a permissionless lightly=
+-regulated activity. But if you want to buy crypto with dollars, you need t=
+o use the US dollar financial system, which can feel clunky to you, a crypt=
+o native. You will probably have to send a bank transfer, but the banks are=
+ not open 24/7, and some of them might raise annoying questions if you try =
+to transfer money from your bank account to buy crypto.=C2=A0
+There are solutions. One solution is that you take your dollars, you deposi=
+t them at a big trustworthy crypto=C2=A0exchange, and then you use the doll=
+ars in your exchange account to buy and sell crypto. The exchange holds a b=
+unch of dollars and a bunch of crypto for its customers, and when you buy c=
+rypto the exchange deducts some dollars from your account and adds some cry=
+pto to your account, and vice versa when you sell. There are problems with =
+this solution. The biggest is of course that sometimes the   big trustworth=
+y crypto exchanges=C2=A0aren=E2=80=99t, and they lose or steal your dollars=
+. But another issue is that, when you deposit your dollars at the exchange,=
+ it=C2=A0needs to deposit them somewhere. It needs to keep customer dollars=
+ at some crypto-friendly bank that will give them back on demand.
+Another solution is stablecoins: Instead of keeping your dollars at a bank,=
+ you turn them into=C2=A0crypto dollars=C2=A0by buying stablecoins that are=
+ meant to always be worth a dollar, and then instead of buying and selling =
+crypto with dollars you buy and sell crypto with dollar-denominated stablec=
+oins.=C2=A0But here too you have to trust the stablecoin issuer, which is n=
+ot always a great idea. (Other stablecoins are algorithmic and   that=E2=80=
+=99s also risky.) And the stablecoin issuer=C2=A0needs to put the money som=
+ewhere, so again there is a need for a crypto-friendly bank.
+Another solution is=C2=A0 bank fraud, but don=E2=80=99t do that.
+So you need a=C2=A0crypto-friendly bank. For big US crypto exchanges and tr=
+aders, that bank is often=C2=A0Silvergate Capital Corp., a bank that is so =
+crypto-friendly that it not only accepts deposits from crypto exchanges and=
+ traders, it also built its own payments network for crypto settlement. By =
+=E2=80=9Cpayments network=E2=80=9D I mean that, if I have an account at Sil=
+vergate and you have an account at Silvergate and I want to buy some Bitcoi=
+n from you for dollars, we can do the dollars side of the transaction by te=
+lling Silvergate to deduct the dollars from my account and add them to your=
+ account. Here=E2=80=99s how Silvergate  describes its Silvergate Exchange =
+Network:
+
+We designed the SEN as a network of digital currency exchanges and digital =
+currency investors that enables the efficient movement of U.S. dollars betw=
+een SEN participants 24 hours a day, 7 days a week, 365 days a year. In thi=
+s respect, the SEN is a first-of-its-kind digital currency infrastructure s=
+olution.
+The core function of the SEN is to allow participants to make transfers of =
+U.S. dollars from their SEN account at the Bank to the Bank account of anot=
+her SEN participant with which a counterparty relationship has been establi=
+shed, and to view funds transfers received from their SEN counterparties. C=
+ounterparty relationships between parties effecting digital currency transa=
+ctions are established on the SEN to facilitate U.S. dollar transfers assoc=
+iated with those transactions.
+SEN transfers occur on a virtually instantaneous basis as compared to elect=
+ronic funds transfers being sent outside of the Bank, such as wire transfer=
+s and ACH transactions, which can take from several hours to several days t=
+o complete. Our proprietary, cloud-based API combined with our online banki=
+ng tools, allows customers to efficiently control their fiat currency, tran=
+sact through the SEN and automate their interactions with our technology pl=
+atform.
+
+It=E2=80=99s a way to send dollars, at a bank, that feels welcoming to cryp=
+to investors: It=E2=80=99s 24/7, it has a cloud-based API, crypto exchanges=
+ are on it, etc.
+And so Silvergate attracted a lot of crypto deposits. If you are a crypto e=
+xchange or a crypto trading firm, you will find it attractive to keep your =
+money at Silvergate, because (1) they are nice to you and=C2=A0like crypto,=
+ which is not so true of a lot of other banks, (2) they let you send money =
+to your crypto-trading buddies at 2 a.m. on a Saturday, which is also not t=
+rue of a lot of other banks, and (3) they are a real live bank, regulated b=
+y US banking regulators, with public audited financial statements and capit=
+al regulation to try to keep them from losing your money, which is definite=
+ly not true of a lot of crypto exchanges and stablecoin issuers.
+This suggests a very simple=C2=A0=E2=80=9Cnarrow banking=E2=80=9D business =
+model for Silvergate:
+=09Take lots of deposits from crypto exchanges and investors, who really ne=
+ed a friendly bank, and pay them no interest.=09Invest the deposits in very=
+ safe assets, US Treasuries and reserves at the Fed, because you have cheap=
+ deposit funding and don=E2=80=99t need to take a lot of risk to earn a nic=
+e return.
+
+In practice =E2=80=A6=C2=A0oh, I mean, everyone takes a bit more risk than=
+=C2=A0that. The obvious risk for Silvergate to take, on the asset side of i=
+ts balance sheet, would be to succumb to the temptation of=C2=A0lending aga=
+inst crypto: Its customers (crypto traders and exchanges) have a lot of Bit=
+coin, they might want to borrow dollars, they=E2=80=99ll pay high interest =
+rates, Silvergate has a lot of dollars (from its customers), it is just a n=
+atural fit.
+  [1]
+ Does Silvergate do this?  Oh sure:
+Our SEN Leverage product enables our digital currency customers to borrow U=
+.S. dollars directly from the Bank to provide liquidity to support bitcoin =
+trading activity using bitcoin as the collateral for these loans, which we =
+refer to as SEN Leverage direct lending. In the SEN Leverage direct lending=
+ structure, a digital currency service provider, acting as custodian, holds=
+ the borrower=E2=80=99s bitcoin and the Bank uses the SEN to fund the loan =
+directly to the borrower=E2=80=99s account at the exchange. In addition, th=
+e Bank also provides loans collateralized by bitcoin to digital currency in=
+dustry companies for corporate treasury and other business purposes, which =
+we refer to as SEN Leverage indirect lending. In the indirect lending struc=
+ture, the lender uses bitcoin to collateralize its loan with the Bank and t=
+he funding of the loan and liquidation of the collateral may or may not occ=
+ur via the SEN.
+At  the end of 2022, =E2=80=9Ctotal SEN Leverage commitments were $1.1 bill=
+ion,=E2=80=9D of which about $300 million seems to have been drawn. =E2=80=
+=9CAll of our SEN Leverage loans continued to perform as expected, with no =
+losses or forced liquidations,=E2=80=9D Silvergate  said in January.=C2=A0
+A more boring risk for Silvergate to take would be just regular old interes=
+t-rate risk. Instead of taking customer money and parking it at the Fed, or=
+ in one-month Treasury bills, Silvergate could buy other pretty safe stuff =
+=E2=80=94=C2=A0Treasury notes, US agency securities, mortgage-backed securi=
+ties, municipal bonds =E2=80=94=C2=A0to try to get a bit more yield. And th=
+at seems to be the main risk that Silvergate took. Its  balance sheet as of=
+ Sept. 30, 2022, shows about $11.4 billion of =E2=80=9Csecurities,=E2=80=9D=
+ meaning bonds: muni bonds, mortgage-backed securities, agency and Treasury=
+ securities. Meanwhile there was about $1.4 billion of =E2=80=9Cloans,=E2=
+=80=9D meaning the $300 million of Bitcoin loans plus some real-estate lend=
+ing.=C2=A0
+Then some bad stuff happened in the fourth quarter of 2022. Bloomberg=E2=80=
+=99s   Max Reyes reports:
+
+For months, US authorities have been racing to sever ties between banks and=
+ risky crypto ventures, worried the financial system could someday suffer s=
+erious losses. They may have been too late.
+In the starkest warning yet by a US bank catering to the sector, Silvergate=
+ Capital Corp. said Wednesday it needs more time to assess the extent of da=
+mage to its finances stemming from last year=E2=80=99s crypto rout =E2=80=
+=94 including whether it can remain viable. The shares plunged about 30% in=
+ premarket trading on Thursday. =C2=A0
+The firm, which already reported a $1 billion loss for the fourth quarter, =
+said that figure could climb higher. The company is still tallying the cost=
+ of rapidly selling assets to repay advances from the Federal Home Loan Ban=
+k System. It may also need to mark down the value of some remaining holding=
+s.
+That could result in =E2=80=9Cbeing less than well-capitalized,=E2=80=9D La=
+ Jolla, California-based Silvergate wrote in a regulatory filing. =E2=80=9C=
+The company is evaluating the impact that these subsequent events have on i=
+ts ability to continue as a going concern.=E2=80=9D
+
+Here is  the filing. The problem is:
+=09Silvergate had tons of crypto deposits: $13.2 billion of deposits  at th=
+e end of September, most of them not paying interest.=09Then crypto melted =
+down and=C2=A0crypto investors took their money back from exchanges, which =
+in turn took it back from Silvergate. By the end of December, noninterest b=
+earing deposits were down from $12 billion to  just $3.9 billion.=C2=A0=09S=
+ilvergate needed to come up with about $8 billion of cash to pay out these =
+withdrawals.
+
+It got some of the cash by borrowing $4.3 billion from the Federal Home Loa=
+n Bank of San Francisco, a government-chartered institution that is basical=
+ly in the business of  giving short-term secured loans to banks that have a=
+ sudden need for cash.
+  [2]
+ In late 2022 and early 2023, that described crypto-y banks, and it  became=
+ controversial that they were borrowing from the FHLBs.
+It got the rest of the money by selling a bunch of its bond portfolio: At t=
+he end of September it had $11.4 billion of bonds, $8.3 billion of them =E2=
+=80=9Cavailable-for-sale=E2=80=9D (an accounting term meaning that Silverga=
+te had to mark them on its books at their fair value) and others =E2=80=9Ch=
+eld-to-maturity=E2=80=9D (meaning that Silvergate could mark them at cost a=
+nd not worry about changes in market value). At the end of December, it had=
+ just $5.7 billion of bonds, all of them available-for-sale. It had sold th=
+e rest.
+This caused problems, though, because the bonds were worth less than Silver=
+gate paid for them, basically because interest rates went up a lot in 2022.=
+ One thing this means is that Silvergate  realized losses on the sales:
+In order to accommodate sustained lower deposit levels and to maintain a hi=
+ghly liquid balance sheet, Silvergate sold $5.2 billion of debt securities =
+for cash proceeds during the fourth quarter of 2022. The sale resulted in a=
+ loss on the sale of securities of $751.4 million during the fourth quarter=
+ of 2022.=C2=A0
+Another thing it means is that Silvergate had to recognize losses on the bo=
+nds that it kept, because it=C2=A0had=C2=A0been accounting for some of them=
+ as hold-to-maturity (no need to recognize losses), and now it has to accou=
+nt for them as available-for-sale: =E2=80=9CIn addition, the Company record=
+ed a $134.5 million impairment charge related to an estimated $1.7 billion =
+of securities it expects to sell in the first quarter of 2023 to reduce bor=
+rowings.=E2=80=9D
+The Bitcoin loans held up fine but that=E2=80=99s not the point. The result=
+ is that Silvergate had a  net loss of $1.05 billion in the fourth quarter.
+A core feature of bank regulation is capital requirements. If you are a ban=
+k, and you take $100 of deposits and make $100 of loans, and one of the loa=
+ns defaults and you only get back $98, then you don=E2=80=99t have enough m=
+oney to pay back all of your depositors, and that=E2=80=99s very bad. What =
+regulators do is require that a bank that makes $100 of loans has to fund t=
+hose loans with at most, say, $92 of deposits; the other $8 has to come fro=
+m the bank=E2=80=99s shareholders. Then if some loans default and the bank =
+only gets back $98, it can pay back all $92 of deposits, and only the share=
+holders lose money.
+Capital requirements are mostly =E2=80=9Crisk-based=E2=80=9D: You have to h=
+ave about $8 of capital for every $100 of =E2=80=9Crisk-weighted assets,=E2=
+=80=9D and different assets have different risk weights. A bank that makes =
+a lot of sensible mortgage and business loans might have to have $8 of capi=
+tal for every $100 of loans, while a bank that, uh,   holds lots of Bitcoin=
+ might have to have $100 of capital for every $100 of assets. Very safe ass=
+ets =E2=80=94=C2=A0US Treasury bonds, for instance =E2=80=94=C2=A0have a ri=
+sk weighting of zero: They are so safe that regulators don=E2=80=99t worry =
+about you losing money on Treasuries.
+There is a backstop to this rule, though, called the =E2=80=9Cleverage rati=
+o.=E2=80=9D Basically, a bank needs to have at least $5 of capital for ever=
+y $100 of assets to be =E2=80=9Cwell capitalized,=E2=80=9D regardless of th=
+e risk weights of those assets.
+  [3]
+=C2=A0If you are a pretty narrow bank with just $95 of deposits that you pa=
+rk in Treasuries, you still need to put $5 of your own money in as well.
+Silvergate=E2=80=99s=C2=A0assets are very safe, despite those Bitcoin loans=
+: They consist mostly of highly-rated bonds that are likely to be paid back=
+ in full.  As of September, Silvergate had:
+=09$15.5 billion of assets;=09$14.1 billion of liabilities;=09$1.3 billion =
+of shareholders=E2=80=99 equity (about 8.6% of assets);=C2=A0=09a regulator=
+y leverage ratio of 10.7%;
+  [4]
+
+=09a total risk-based capital ratio of 45.5%, because a lot of its assets h=
+ad zero risk weights.
+
+That capital ratio of 45.5% looks=C2=A0very=C2=A0safe. The leverage ratio o=
+f 10.7% looks fine. But then Silvergate lost a ton of deposits, had to sell=
+ assets, and had a billion-dollar net loss. That left it with
+  [5]
+:
+=09$11.4=C2=A0billion of assets;=09$10.8 billion of liabilities;=09$571.8 m=
+illion of shareholders' equity (about 5.0% of assets);=09a regulatory lever=
+age ratio of about 5.1%;=09a total risk-based capital ratio of 57%.
+
+That capital ratio of 57% looks=C2=A0very=C2=A0safe. The leverage ratio of =
+5.1% looks a=C2=A0whisper=C2=A0higher than the 5% regulatory requirement to=
+ be =E2=80=9Cwell capitalized.=E2=80=9D If Silvergate had just an extra $19=
+ million of losses, it would be below 5%.
+From Silvergate=E2=80=99s  filing yesterday:
+Subsequent to December 31, 2022, a number of circumstances have occurred wh=
+ich will negatively impact the timing and the unaudited results previously =
+reported in the Earnings Release, including the sale of additional investme=
+nt securities beyond what was previously anticipated and disclosed in the E=
+arnings Release primarily to repay in full the Company=E2=80=99s outstandin=
+g advances from the Federal Home Loan Bank of San Francisco. The Company so=
+ld additional debt securities in January and February 2023 and expects to r=
+ecord further losses related to the other-than-temporary impairment on the =
+securities portfolio. These additional losses will negatively impact the re=
+gulatory capital ratios of the Company and the Company's wholly owned subsi=
+diary, Silvergate Bank (the "Bank"), and could result in the Company and th=
+e Bank being less than well-capitalized. In addition, the Company is evalua=
+ting the impact that these subsequent events have on its ability to continu=
+e as a going concern for the twelve months following the issuance of its fi=
+nancial statements. The Company is currently in the process of reevaluating=
+ its businesses and strategies in light of the business and regulatory chal=
+lenges it currently faces. =C2=A0
+Silvergate had to sell more bonds to repay the Federal Home Loan Bank loan,=
+ so it booked more losses, so =E2=80=A6=C2=A0it is a close question, but it=
+ seems possible that it now has a leverage ratio below 5% and so is not =E2=
+=80=9Cwell capitalized.=E2=80=9D That is not technically the end of the wor=
+ld =E2=80=94 if the number is above 4%, Silvergate would still be =E2=80=9C=
+adequately capitalized=E2=80=9D =E2=80=94=C2=A0but it=E2=80=99s not great, =
+and it=E2=80=99s pointing in the wrong direction.
+If you are a bank you do not want to be pointing in the wrong direction, be=
+cause that becomes self-fulfilling.   Bloomberg reports today:
+
+Investors and business partners headed for the exits, with the stock down a=
+s much as 55%, while Coinbase Global Inc., Galaxy Digital Holdings Ltd., Pa=
+xos Trust Co. and other crypto firms decided to stop accepting or initiatin=
+g payments through Silvergate. The exodus may threaten the bank=E2=80=99s k=
+ey source of deposits and a platform for crypto participants to transfer mo=
+ney among each other.
+=E2=80=9CIn light of recent developments & out of an abundance of caution, =
+Coinbase is no longer accepting or initiating payments to or from Silvergat=
+e,=E2=80=9D Coinbase said on Twitter. =E2=80=9CCoinbase will be facilitatin=
+g institutional client cash transactions with our other banking partners.=
+=E2=80=9D
+
+We have talked a lot over the last year about crypto shadow banks imploding=
+. Often, when a crypto shadow bank implodes, its leader   will say that the=
+re was a =E2=80=9Crun on the bank=E2=80=9D: It had valuable assets, but cus=
+tomers asked for their money back all at once, so it had to dump the assets=
+, so they lost value, so it didn=E2=80=99t have enough=C2=A0money to pay ba=
+ck all the customers. I have been skeptical of these claims, because in gen=
+eral the valuable assets were, like, magic beans that the crypto shadow ban=
+k had invented itself. The crypto shadow bank=E2=80=99s assets =E2=80=94=C2=
+=A0in the case of   Terra, of   FTX, of   Celsius, so many others =E2=80=94=
+=C2=A0were mostly=C2=A0confidence in the shadow bank itself, and when that =
+evaporated so did the assets.
+Meanwhile in actual regulated US banking, the idea of a =E2=80=9Crun on the=
+ bank=E2=80=9D is somewhat quaint.
+  [6]
+=C2=A0A run on the bank happens in, like,=C2=A0It=E2=80=99s a Wonderful Lif=
+e, but in the real world of big US banks,  that particular dynamic =E2=80=
+=94=C2=A0you hear some bad rumors about your bank, you rush to withdraw mon=
+ey, the bank has to dump assets to get the money, it becomes insolvent =E2=
+=80=94=C2=A0would be strange. In modern US banking, there is deposit insura=
+nce to reassure small depositors. There are programs =E2=80=94=C2=A0the Fed=
+eral Home Loan Banks, the Federal Reserve=E2=80=99s discount window =E2=80=
+=94=C2=A0designed to make sure that a=C2=A0solvent=C2=A0bank can get cash t=
+o pay out depositors. And there are capital and prudential regulations desi=
+gned to make sure that the banks are solvent.
+But Silvergate is having a real run on the bank! It has lost money, not by =
+making dumb Bitcoin loans =E2=80=94=C2=A0the Bitcoin loans are fine =E2=80=
+=94=C2=A0but by doing the normal business of banking, borrowing short (taki=
+ng deposits from crypto firms) to lend long (buying Treasuries and munis). =
+Silvergate=E2=80=99s assets are real boring normal stuff, and if=C2=A0its d=
+epositors had kept their money at Silvergate, its bonds would have matured =
+with plenty of money to pay them back. Instead, the depositors demanded the=
+ir money back all at once, and Silvergate had to dump its long-term assets =
+at big losses to repay them.
+The story=C2=A0today=C2=A0is that Silvergate=E2=80=99s customers are withdr=
+awing their money because they are worried=C2=A0about Silvergate, =E2=80=9C=
+in light of recent developments & out of an abundance of caution,=E2=80=9D =
+classic bank-run stuff. But that's not why they were withdrawing their mone=
+y in late 2022, when the trouble started.=C2=A0Then, they were withdrawing =
+their money because=C2=A0crypto had collapsed:=C2=A0Silvergate=E2=80=99s cr=
+ypto-exchange customers faced withdrawals from=C2=A0their=C2=A0customers, s=
+o they took their money out of Silvergate. The customers =E2=80=94=C2=A0cry=
+pto exchanges =E2=80=94=C2=A0were the problem, not Silvergate.
+It=E2=80=99s just last week that US regulators  warned banks about this:
+
+The Board of Governors of the Federal Reserve System (Federal Reserve), the=
+ Federal Deposit Insurance Corporation (FDIC), and the Office of the Comptr=
+oller of the Currency (OCC) (collectively, the agencies) are issuing this s=
+tatement on the liquidity risks presented by certain sources of funding fro=
+m crypto-asset-related entities, and some effective practices to manage suc=
+h risks. =E2=80=A6
+Deposits placed by a crypto-asset-related entity that are for the benefit o=
+f the crypto-asset-related entity=E2=80=99s customers (end customers). The =
+stability of such deposits may be driven by the behavior of the end custome=
+r or crypto-asset sector dynamics, and not solely by the crypto-asset-relat=
+ed entity itself, which is the banking organization=E2=80=99s direct counte=
+rparty. The stability of the deposits may be influenced by, for example, pe=
+riods of stress, market volatility, and related vulnerabilities in the cryp=
+to-asset sector, which may or may not be specific to the crypto-asset-relat=
+ed entity. Such deposits can be susceptible to large and rapid inflows as w=
+ell as outflows, when end customers react to=C2=A0crypto-asset-sector-relat=
+ed market events, media reports, and uncertainty. This uncertainty and resu=
+lting deposit volatility can be exacerbated by end customer confusion relat=
+ed to inaccurate or misleading representations of deposit insurance by a cr=
+ypto-asset-related entity.
+
+It=E2=80=99s almost like they knew this was coming. The regulators did not =
+quite say =E2=80=9Ctherefore, don=E2=80=99t bank crypto exchanges=E2=80=9D;=
+ in fact,  they said the opposite: =E2=80=9CBanking organizations are neith=
+er prohibited nor discouraged from providing banking services to customers =
+of any specific class or type, as permitted by law or regulation.=E2=80=9D =
+But you got the idea.
+I suppose this counts as contagion from the crypto crash to the real financ=
+ial system: A regulated US bank is worried about =E2=80=9Cits ability to co=
+ntinue as a going concern,=E2=80=9D and it is dumping Treasuries and munis =
+and mortgage-backed securities to pay back its debts. It is a narrow sort o=
+f contagion: That bank is pretty much the Bank of Crypto, and I don=E2=80=
+=99t think that, like, your mortgage rate will be materially higher because=
+ Silvergate had to sell off a few billion dollars of bonds. But it is certa=
+inly the sort of contagion that regulators will want to discourage, and now=
+ they have clear evidence that it=E2=80=99s real.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Football governance
+   =20
+ =20
+
+A major-league=C2=A0professional sports team, as a company, is a weird comb=
+ination of (1) a multibillion-dollar business and (2) some guy=E2=80=99s pe=
+rsonal hobby. You would not expect the corporate governance of the average =
+sports team to be pristine, because after all it is generally a toy that a =
+billionaire bought for himself to make watching sports more fun. On the oth=
+er hand, because sports teams=C2=A0are=C2=A0such big businesses, it is not =
+uncommon for them to have minority owners: There=E2=80=99s the guy who is t=
+he =E2=80=9Cowner=E2=80=9D of the team, the public face, the hobbyist in ch=
+arge, and then there could be=C2=A0a few other investors who also own small=
+er stakes in the team. They are also there mostly for hobbyist reasons, to =
+be clear, and might prioritize, like, hanging out with the players over max=
+imizing free cash flow. But they won=E2=80=99t want the team to spend money=
+ recklessly in ways that mainly benefit the=C2=A0majority=C2=A0owner. Where=
+as the majority owner might think =E2=80=9Cthis is my toy and I can do what=
+ever I want with it.=E2=80=9D
+Here is a very funny  ESPN story about corporate governance at the Washingt=
+on Commanders of the National Football League, whose majority owner is the =
+controversial Daniel Snyder, but which also has some minority owners. The m=
+inority owners have things like a shareholder agreement specifying their ri=
+ghts=C2=A0and a board of directors that is supposed to meet to oversee the =
+team=E2=80=99s management, but really it is Snyder=E2=80=99s team and the g=
+overnance stuff doesn=E2=80=99t count for much. The problems here start wit=
+h the fact that the=C2=A0team took out a $55 million credit line without bo=
+ard approval, but things snowball from there:
+
+The documents obtained by ESPN show that minority partners Robert Rothman, =
+Dwight Schar and Frederick W. Smith protested the loan after they discovere=
+d it in a financial report's fine print. They then started looking closely =
+into the team's finances and found Snyder was using the team as his "person=
+al piggy bank," including charging the team $4.5 million to put its logo on=
+ his private jet, they alleged in the arbitration petition filed with the N=
+FL. =E2=80=A6
+When Rothman complained that the team's board had not met in years, Snyder =
+responded, "What the f--- do I need a board meeting for?" according to the =
+documents.
+In a June 5, 2020, letter, Snyder's lawyer told the partners that Snyder pl=
+anned to expense more than $7 million in "unreimbursed business expenses" f=
+or fiscal years 2017 through 2020. Snyder also revealed that he was seeking=
+ $1 million in reimbursements for vehicle costs "and extra security require=
+d during foreign travel (due to his high-profile position as Owner)."
+
+
+In the letter, Snyder revealed that the expenses included a July 2018 yacht=
+ party in the south of France, where he hosted fellow owners Jerry Jones of=
+ the Dallas Cowboys, Robert Kraft of the New England Patriots and Terry Peg=
+ula of the Buffalo Bills.
+"This included 'world-class cuisine prepared by some of the top personal ch=
+efs in the world and the highest quality wine/beverages,'" the partners sai=
+d in their petition. =E2=80=A6
+The partners said they discovered Snyder had leased his personal jets back =
+to the team. Besides Snyder paying himself a salary of $10 million a year, =
+he also had arranged for the franchise to pay him a total of $4.5 million f=
+or having the team logo emblazoned on his personal jet. "An advertising fee=
+," Snyder had called it, documents show.
+
+The thing is that if you are the high-profile owner=C2=A0of a football team=
+=C2=A0then in some sense everything you do really=C2=A0is=C2=A0somehow on b=
+ehalf of the team: You are the face of the team, your yacht parties are tea=
+m-related events, your jet has to be in team colors, etc. Your whole lifest=
+yle is bound up with the team. And if the team has some minority investors,=
+ well, they=E2=80=99re going to help pay for that lifestyle.
+Elsewhere: =E2=80=9CWashington=E2=80=99s football team, which owner Dan Sny=
+der is exploring selling, ranked last in a new survey conducted by the NFL =
+Players Association that rated teams in eight categories, including the tre=
+atment of players=E2=80=99 families, nutrition, the training staff and team=
+ travel. In three categories, the Commanders received an F- grade.=E2=80=9D
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Elsewhere in private jets
+   =20
+ =20
+
+I guess if you are the chief executive officer of a company it is just a go=
+od business decision to buy a private jet? For yourself, I mean, with your =
+own money, not for the company. The trade is that you buy the jet for yours=
+elf, you use it to fly around to business meetings, and you=C2=A0charge you=
+r company=C2=A0for the use of the jet. You do enough meetings and the jet p=
+ays for itself, with shareholder money. This is not exactly=C2=A0legal, but=
+  here we are:
+
+The Securities and Exchange Commission today announced settled charges agai=
+nst Oregon-based freight transportation supply company, The Greenbrier Comp=
+anies Inc., and its founder and former CEO and Chairman, William A. Furman,=
+ for failing to disclose perks provided to Furman and other Greenbrier exec=
+utives and compensation Furman received from Greenbrier=E2=80=99s charters =
+of Furman=E2=80=99s private plane for travel by company executives, includi=
+ng Furman. Greenbrier and Furman agreed to pay $1 million and $100,000 in c=
+ivil penalties, respectively, to settle the charges.
+The SEC=E2=80=99s orders find that Furman owned a private aircraft, which h=
+e leased to an aircraft management company to charter to third parties on h=
+is behalf. According to the orders, during fiscal years 2017 to 2021, Green=
+brier paid the management company approximately $3 million to charter Furma=
+n=E2=80=99s plane for business-related travel, but Greenbrier did not discl=
+ose that Furman received approximately $1.6 million of that amount.=C2=A0
+
+I bet he=E2=80=99s kicking himself that it never occurred to him to put the=
+ company=E2=80=99s logo on the jet and charge extra for that.
+
+ =20
+   =20
+      Private equity boondoggles
+   =20
+ =20
+
+If you run a private equity fund that seeks investment from state pension f=
+unds, you will want to have some sort of governance board that includes rep=
+resentatives from those pension funds, not just =E2=80=94=C2=A0not primaril=
+y =E2=80=94=C2=A0as a governance tool but also s a marketing tool, a way to=
+ maintain friendly relationships with the pension funds who give you money.=
+ You=E2=80=99ll invite the representatives to meetings, schmooze with them,=
+ make them feel included, help them understand and appreciate what you are =
+doing, make them feel good about your fund and the relationship. Will you s=
+hare a nice meal with them, at these meetings? Will you pick up the check? =
+Will the meetings be in Tuscany? Oh sure. Bloomberg=E2=80=99s  Neil Weinber=
+g reports:
+
+Two Michigan pension fund officials attended a 2018 Apax Partners event at =
+the Four Seasons Hotel in Florence, Italy, that featured =E2=80=9Ccustom ta=
+ilored activities and itineraries,=E2=80=9D including tours of the Tuscan c=
+ountryside on vintage Vespa scooters and a gala dinner at the 17th Century =
+Villa le Corti.=C2=A0
+The bill for the state: less than $200 for each official, according to publ=
+ic records obtained by Bloomberg. And Michigan is hardly alone in letting p=
+rivate equity firms foot most of the bill for luxury travel and trips by st=
+ate pension fund managers, who are public employees.=C2=A0
+Gaw Capital paid for most of the $21,127 business-class airfare for an Illi=
+nois fund official attending its 2018 meeting at the Renaissance Resort in =
+Okinawa, Japan =E2=80=94 the state paid just $392. Florida officials visite=
+d Milan, Rome and Paris last June, courtesy of JPMorgan Chase & Co. funds. =
+Other funds have since covered Florida officials=E2=80=99 trips to London, =
+Stockholm and Helsinki.
+Those trips were all for officials to attend meetings as members of private=
+ equity firms=E2=80=99 limited partnership advisory councils, which have de=
+veloped a reputation for taking place in posh, far-flung destinations.
+=E2=80=9CI can=E2=80=99t remember an advisory committee meeting that wasn=
+=E2=80=99t in a nice place,=E2=80=9D says Joseph John =E2=80=9CJ.J.=E2=80=
+=9D Jelincic, a retired staffer and director of the California Public Emplo=
+yees=E2=80=99 Retirement System. =E2=80=9CProbably the worst was Manhattan.=
+=E2=80=9D
+Such LPACs are supposed to be a means of giving state officials a voice in =
+how the firms invest public money. But some worry that the luxurious trips =
+may unduly influence the officials who are treated to them.
+
+Presumably=C2=A0the LPAC could do its governance and advisory work over ema=
+il and Zoom, and honestly that seems like it would be more convenient for a=
+ lot of these pension funds. But imagine being the first private equity fir=
+m to announce that change.=C2=A0
+
+
+ =20
+   =20
+      Cramer ETF
+   =20
+ =20
+
+Incredible   bit here:
+
+Whether you=E2=80=99re a lover or loather of Jim Cramer =E2=80=94 and on bo=
+th Wall Street and Main Street, there are plenty of each =E2=80=94 you=E2=
+=80=99re now able to express that view via the magic of ETFs.
+A pair of new products is launching Thursday that will help US investors be=
+t either on or against the stock picks of the host of CNBC=E2=80=99s Mad Mo=
+ney show, arguably the world=E2=80=99s most-famous financial pundit. =E2=80=
+=A6
+Matthew Tuttle, CEO of Tuttle Capital Management, has turned his attention =
+to Cramer, fulfilling a long-running finance joke that the CNBC anchor shou=
+ld get his own inverse fund.
+=E2=80=9CIf he specifically says either buy, buy, buy a stock, then we=E2=
+=80=99re gonna go short that stock at the next practical moment,=E2=80=9D T=
+uttle told Bloomberg=E2=80=99s Trillions podcast, referring to the inverse =
+strategy. =E2=80=9CIf he tells you he hates a stock or sell, sell, sell or =
+something like that, then we=E2=80=99re gonna go long that name again at th=
+e next kind of practical entry point.=E2=80=9D ...
+The methodology behind the ETFs is decidedly low-tech. To design the portfo=
+lios, which are equal weight, Tuttle and two colleagues watch Cramer=E2=80=
+=99s television appearances throughout the day and monitor his Twitter acco=
+unt. The result is two actively managed portfolios that hold between 20 to =
+50 names with a high turnover rate, Tuttle said. Both products carry an exp=
+ense ratio of 1.2%.=C2=A0
+
+They=E2=80=99re called LJIM and SJIM, for long and short, respectively. Her=
+e is  the website. Here is  the prospectus for SJIM:
+Investment Objective: The Inverse Cramer Tracker ETF (the =E2=80=9CFund=E2=
+=80=9D) seeks to provide investments results that are approximately the opp=
+osite of, before fees and expenses, the results of the investments recommen=
+ded by television personality Jim Cramer.=C2=A0
+Oh yeah.
+The Fund=E2=80=99s adviser monitors Cramer=E2=80=99s stock selection and ov=
+erall market recommendations throughout the trading day as publicly announc=
+ed on Twitter or his television programs broadcast on CNBC and sells Cramer=
+=E2=80=99s stock recommendations short. The Fund goes short or long on stoc=
+ks or ETFs, including Index ETFs and inverse Index ETFs, to take the opposi=
+te side of Cramer=E2=80=99s announced market or sector view. The Fund=E2=80=
+=99s portfolio is comprised generally of=C2=A020 to 50 equity securities of=
+ any market capitalization of domestic and foreign issuers through American=
+ Depositary Receipts, and/or ETFs if Cramer makes market or sector recommen=
+dations. Should Cramer recommend buying any of the securities in the Fund=
+=E2=80=99s portfolio, the Fund will dispose of those holdings. Should Crame=
+r recommend selling any of the securities in the Fund=E2=80=99s portfolio, =
+the Fund will keep those holdings. The adviser may also sell securities tha=
+t have gone =E2=80=9Cstale=E2=80=9D=E2=80=94i.e., have been held for severa=
+l weeks with no further commentary by Cramer. If Cramer does not take=C2=A0=
+any view on any of the securities in the Fund=E2=80=99s portfolio, includin=
+g when he is absent from CNBC or Twitter for any reason, the adviser furthe=
+r retains discretion to sell positions if market conditions such as large s=
+wings in either direction necessitate a sale because profit or loss targets=
+ are met and replace them with securities that represent the opposite side =
+of Cramer=E2=80=99s announced market or sector view. Under normal circumsta=
+nces, the Fund will hold positions no longer than a 5-day trading week but =
+could hold a position longer if Cramer continues to have a contrary opinion=
+.=C2=A0
+I feel like this is what the financial industry is all about? I love it. Th=
+e prospectus is notably short on backtest data (there is none), presumably =
+because it is hard to do a backtest on the strategy, presumably=C2=A0becaus=
+e no one was sitting around making notes of all of Cramer=E2=80=99s recomme=
+ndations for months=C2=A0before=C2=A0launching this thing. It is very funny=
+ to have a job that is just sitting around watching Jim Cramer=E2=80=99s sh=
+ow all day and doing the opposite of every trade he recommends, but you pro=
+bably wouldn=E2=80=99t do it if you weren=E2=80=99t getting paid 1.2%.
+I mean! You might do it if it had alpha? It=C2=A0is =E2=80=9Ca long-running=
+ finance joke=E2=80=9D that doing the opposite of Cramer=E2=80=99s recommen=
+dations could make you money. Presumably at some point some bored young per=
+son dreaming of making it as a stock trader tried to actually do it? Watch =
+TV, do the opposite of Cramer=E2=80=99s trades, get rich? Presumably that p=
+erson did not get rich?=C2=A0Presumably if it worked people would just do i=
+t, instead of selling it as an ETF; in general this is not a perfect heuris=
+tic but it feels right here. Especially since both SJIM and LJIM exist, and=
+ they can=E2=80=99t really=C2=A0both=C2=A0work. The point of these products=
+ is not that Cramer=E2=80=99s recommendations have positive or negative alp=
+ha; the point is that (1) the products are funny and (2) people might buy t=
+hem for comedy and/or celebrity reasons?
+Also, from the prospectus:
+The Trust, the Fund and the adviser are not affiliated with Cramer or any o=
+f the media by which his recommendations are communicated. Cramer is not in=
+volved in the creation, management or operations of the Fund. The adviser d=
+oes not in all cases perform fundamental investment analysis of securities =
+bought, sold and held by the Fund. The primary factor for transacting in su=
+ch securities or related securities is the fact that they are mentioned by =
+Cramer.
+Surely if one of these funds consistently outperforms the market, Cramer sh=
+ould stop giving away free alpha to Tuttle and start running his own fund (=
+or inverse fund) himself? It would be funny if it was the inverse one.=C2=
+=A0
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+How is former Fugee and Jho Low acquaintance=C2=A0  Pras Mich=C3=A9l doing?=
+ How is BitMEX founder  Arthur Hayes doing? Joe Biden expected to issue fir=
+st presidential veto in  anti-ESG vote.  Bank Profits Fell 6% Last Year as =
+War, Inflation and Higher Rates Hurt Results. London Dealmakers Say   Move =
+to Wall Street From The City Is Just Starting. Scandal at South Africa=E2=
+=80=99s Eskom: the CEO and the  cyanide-laced coffee.=C2=A0 Carlyle deal to=
+ bolster buyout fund falls flat with investors.   Tesla Erases $50 Billion =
+in Market Value as Its Investor Day Disappoints.=C2=A0U.S. regulators rejec=
+ted Elon Musk=E2=80=99s bid to  test brain chips in humans, citing safety r=
+isks. China holds up Arm=E2=80=99s exit from  troubled joint venture. See i=
+nside the  luxury bunkers where the super-rich reportedly plan to save them=
+selves from a future apocalypse.  Whiskey Fungus Fed by Jack Daniel=E2=80=
+=99s Encrusts a Tennessee Town.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Crypto exchanges, which are also in the business of holding dollars f=
+or customers,=20
+often do this, and it is a natural way for them to fall into disaster =E2=
+=80=94 particularly if they are lending against cryptocurrencies that they =
+made up.
+
+
+  [2] Schedule RC-M of Silvergate=E2=80=99s  call report for December 2022 =
+lists $4.3 billion of FHLB advances with a maturity of one year or less.
+
+
+  [3] There are various thresholds, but for Silvergate, the requirement is =
+a 5% leverage ratio to count as =E2=80=9Cwell capitalized.=E2=80=9D See pag=
+e 17 of its  2021 Form 10-K. =E2=80=9CAdequately capitalized=E2=80=9D is 4%=
+.
+
+
+  [4] See page 31 of the  Form 10-Q for these ratios. Also note that the le=
+verage ratio (10.7%) is not quite the same as equity divided by assets (8.6=
+%), because regulatory capital and financial statements use different accou=
+nting methods.
+
+
+  [5] Numbers from the  earnings release and the  call report; the actual b=
+alance sheet has not been filed yet.
+
+
+  [6] Oh, to be clear, in all sorts of US shadow banking it=E2=80=99s prett=
+y standard and explains, you know, 2008.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cia8o7.5imk/055ff373.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_8460864_1328184801.1677785031046
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+The basic function of crypto is that you can buy cryptocurrencies with doll=
+ars and sell cryptocurrencies for dollars. I suppose there are ot
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0zMDcxMDg4NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5NjgzMDcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB3563373f" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D30710887&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30968307&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMzAyMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMDImdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBaa5a15d2"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDcxMDg4NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5NjgzMDcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC03f13ced" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30710887&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30968307&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Silvergate</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The basic function of crypto is that you can b=
+uy cryptocurrencies with dollars and sell cryptocurrencies for dollars. I s=
+uppose <a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.25=
+7420/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9mZWF0dXJlcy8yMDIyLXRoZS1jcnlwdG8tc3=
+RvcnkvP2NtcGlkPUJCRDAzMDIyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nvd=
+XJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMwMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/6=
+07f07ceef4b8524a319a23cBb1864a36" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  there are other functions</a>? =
+But the main thing is that if you think Bitcoin=C2=A0will go up, you spend =
+some dollars to buy some Bitcoin, and then if it goes up (or doesn=E2=80=99=
+t), you sell it for dollars.</p>
+<p style=3D"margin: 16px 0;">If you like crypto a lot =E2=80=94=C2=A0or if =
+you are an institutional-ish crypto trader =E2=80=94 you will do this a lot=
+, and you may find yourself frustrated with the=C2=A0<em>dollar=C2=A0</em>s=
+ide of things. Crypto trades globally, 24 hours a day, seven days a week; y=
+ou can use smart contracts to send crypto automatically, and sending crypto=
+ is generally a permissionless lightly-regulated activity. But if you want =
+to buy crypto with dollars, you need to use the US dollar financial system,=
+ which can feel clunky to you, a crypto native. You will probably have to s=
+end a bank transfer, but the banks are not open 24/7, and some of them migh=
+t raise annoying questions if you try to transfer money from your bank acco=
+unt to buy crypto.=C2=A0</p>
+<p style=3D"margin: 16px 0;">There are solutions. One solution is that you =
+take your dollars, you deposit them at a big trustworthy crypto=C2=A0<em>ex=
+change</em>, and then you use the dollars in your exchange account to buy a=
+nd sell crypto. The exchange holds a bunch of dollars and a bunch of crypto=
+ for its customers, and when you buy crypto the exchange deducts some dolla=
+rs from your account and adds some crypto to your account, and vice versa w=
+hen you sell. There are problems with this solution. The biggest is of cour=
+se that sometimes the <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/30710887.257420/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGV=
+zLzIwMjItMTEtMDkvYmFua21hbi1mcmllZC1zLWZ0eC1oYWQtYS1kZWF0aC1zcGlyYWwtYmVmb3=
+JlLWJpbmFuY2UtZGVhbD9jbXBpZD1CQkQwMzAyMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtY=
+WlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMDImdXRtX2NhbXBhaWduPW1v=
+bmV5c3R1ZmY/607f07ceef4b8524a319a23cBcbdaa2cf" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;">  big trustworthy</a=
+> crypto exchanges=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/=
+click/30710887.257420/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljb=
+GVzLzIwMjItMTItMTMvaG93LXRvLWRvLWZyYXVkLWF0LWEtZnV0dXJlcy1leGNoYW5nZT9jbXBp=
+ZD1CQkQwMzAyMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2x=
+ldHRlciZ1dG1fdGVybT0yMzAzMDImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b85=
+24a319a23cB0bc2de19" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"><em>aren=E2=80=99t</em></a>, and they lose or=
+ steal your dollars. But another issue is that, when you deposit your dolla=
+rs at the exchange, <em>it=C2=A0</em>needs to deposit them somewhere. It ne=
+eds to keep customer dollars at some crypto-friendly bank that will give th=
+em back on demand.</p>
+<p style=3D"margin: 16px 0;">Another solution is stablecoins: Instead of ke=
+eping your dollars at a bank, you turn them into=C2=A0<em>crypto dollars=C2=
+=A0</em>by buying stablecoins that are meant to always be worth a dollar, a=
+nd then instead of buying and selling crypto with dollars you buy and sell =
+crypto with dollar-denominated stablecoins.=C2=A0But here too you have to t=
+rust the stablecoin issuer, which is not always a great idea. (Other stable=
+coins are algorithmic and <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/30710887.257420/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMjMtMDMtMDEvZ29sZG1hbi13YW50cy10by1iZS1tb3JlLWJvcmluZz9jbXBpZD1CQk=
+QwMzAyMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlc=
+iZ1dG1fdGVybT0yMzAzMDImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319=
+a23cB3f72b82b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">  that=E2=80=99s also risky</a>.) And the stablecoin=
+ issuer=C2=A0needs to put the money somewhere, so again there is a need for=
+ a crypto-friendly bank.</p>
+<p style=3D"margin: 16px 0;">Another solution is=C2=A0<a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/30710887.257420/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDItMjQvc29tZS1zcGFjcy1oYXZlLXNwYX=
+JlLWNhc2g_Y21waWQ9QkJEMDMwMjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc=
+291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzAyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm=
+/607f07ceef4b8524a319a23cB1d2a17ad" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> bank fraud</a>, but don=E2=80=
+=99t do that.</p>
+<p style=3D"margin: 16px 0;">So you need a=C2=A0crypto-friendly bank. For b=
+ig US crypto exchanges and traders, that bank is often=C2=A0Silvergate Capi=
+tal Corp., a bank that is so crypto-friendly that it not only accepts depos=
+its from crypto exchanges and traders, it also built its own payments netwo=
+rk for crypto settlement. By =E2=80=9Cpayments network=E2=80=9D I mean that=
+, if I have an account at Silvergate and you have an account at Silvergate =
+and I want to buy some Bitcoin from you for dollars, we can do the dollars =
+side of the transaction by telling Silvergate to deduct the dollars from my=
+ account and add them to your account. Here=E2=80=99s how Silvergate <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aHR0cHM6=
+Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTMxMjEwOS8wMDAxMzE=
+yMTA5MjIwMDAwNTEvc2ktMjAyMTEyMzEuaHRt/607f07ceef4b8524a319a23cBf804fdb4" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> describes its Silvergate Exchange Network</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">We designed the SEN as a network of digital cu=
+rrency exchanges and digital currency investors that enables the efficient =
+movement of U.S. dollars between SEN participants 24 hours a day, 7 days a =
+week, 365 days a year. In this respect, the SEN is a first-of-its-kind digi=
+tal currency infrastructure solution.</p>
+<p style=3D"margin: 16px 0;">The core function of the SEN is to allow parti=
+cipants to make transfers of U.S. dollars from their SEN account at the Ban=
+k to the Bank account of another SEN participant with which a counterparty =
+relationship has been established, and to view funds transfers received fro=
+m their SEN counterparties. Counterparty relationships between parties effe=
+cting digital currency transactions are established on the SEN to facilitat=
+e U.S. dollar transfers associated with those transactions.</p>
+<p style=3D"margin: 16px 0;">SEN transfers occur on a virtually instantaneo=
+us basis as compared to electronic funds transfers being sent outside of th=
+e Bank, such as wire transfers and ACH transactions, which can take from se=
+veral hours to several days to complete. Our proprietary, cloud-based API c=
+ombined with our online banking tools, allows customers to efficiently cont=
+rol their fiat currency, transact through the SEN and automate their intera=
+ctions with our technology platform.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It=E2=80=99s a way to send dollars, at a bank,=
+ that feels welcoming to crypto investors: It=E2=80=99s 24/7, it has a clou=
+d-based API, crypto exchanges are on it, etc.</p>
+<p style=3D"margin: 16px 0;">And so Silvergate attracted a lot of crypto de=
+posits. If you are a crypto exchange or a crypto trading firm, you will fin=
+d it attractive to keep your money at Silvergate, because (1) they are nice=
+ to you and=C2=A0<em>like crypto</em>, which is not so true of a lot of oth=
+er banks, (2) they let you send money to your crypto-trading buddies at 2 a=
+.m. on a Saturday, which is also not true of a lot of other banks, and (3) =
+they are a real live bank, regulated by US banking regulators, with public =
+audited financial statements and capital regulation to try to keep them fro=
+m losing your money, which is definitely not true of a lot of crypto exchan=
+ges and stablecoin issuers.</p>
+<p style=3D"margin: 16px 0;">This suggests a very simple=C2=A0=E2=80=9C<a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDMtMDgvdGhlLWZlZ=
+C12ZXJzdXMtdGhlLW5hcnJvdy1iYW5rP2NtcGlkPUJCRDAzMDIyM19NT05FWVNUVUZGJnV0bV9t=
+ZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMwMiZ1dG1fY2F=
+tcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB7bd50974" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">narrow b=
+anking</a>=E2=80=9D business model for Silvergate:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Take lots of deposits from crypto exc=
+hanges and investors, who really need a friendly bank, and pay them no inte=
+rest.</li>=09<li style=3D"margin-bottom: 5px;">Invest the deposits in very =
+safe assets, US Treasuries and reserves at the Fed, because you have cheap =
+deposit funding and don=E2=80=99t need to take a lot of risk to earn a nice=
+ return.</li>
+</ol>
+<p style=3D"margin: 16px 0;">In practice =E2=80=A6=C2=A0oh, I mean, everyon=
+e takes a bit more risk than=C2=A0<em>that</em>. The obvious risk for Silve=
+rgate to take, on the asset side of its balance sheet, would be to succumb =
+to the temptation of=C2=A0<em>lending against crypto: </em>Its customers (c=
+rypto traders and exchanges) have a lot of Bitcoin, they might want to borr=
+ow dollars, they=E2=80=99ll pay high interest rates, Silvergate has a lot o=
+f dollars (from its customers), it is just a natural fit.<a class=3D"footno=
+te-index" href=3D"#footnote-1" style=3D"color: #000000; text-decoration: no=
+ne !important; border-bottom-width: 1px; border-bottom-color: #000000; bord=
+er-bottom-style: none !important; background-color: transparent !important;=
+ display: inline-block;">
+<span>[1]</span>
+</a> Does Silvergate do this? <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30710887.257420/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmV=
+zL2VkZ2FyL2RhdGEvMTMxMjEwOS8wMDAxMzEyMTA5MjIwMDAwNTEvc2ktMjAyMTEyMzEuaHRt/6=
+07f07ceef4b8524a319a23cCf804fdb4" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> Oh sure</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">Our SEN Leverage product enables o=
+ur digital currency customers to borrow U.S. dollars directly from the Bank=
+ to provide liquidity to support bitcoin trading activity using bitcoin as =
+the collateral for these loans, which we refer to as SEN Leverage direct le=
+nding. In the SEN Leverage direct lending structure, a digital currency ser=
+vice provider, acting as custodian, holds the borrower=E2=80=99s bitcoin an=
+d the Bank uses the SEN to fund the loan directly to the borrower=E2=80=99s=
+ account at the exchange. In addition, the Bank also provides loans collate=
+ralized by bitcoin to digital currency industry companies for corporate tre=
+asury and other business purposes, which we refer to as SEN Leverage indire=
+ct lending. In the indirect lending structure, the lender uses bitcoin to c=
+ollateralize its loan with the Bank and the funding of the loan and liquida=
+tion of the collateral may or may not occur via the SEN.</p></blockquote>
+<p style=3D"margin: 16px 0;">At <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/30710887.257420/aHR0cHM6Ly9pci5zaWx2ZXJnYXRlLmNvbS9uZXdzL25ld=
+3MtZGV0YWlscy8yMDIzL1NpbHZlcmdhdGUtQ2FwaXRhbC1Db3Jwb3JhdGlvbi1Bbm5vdW5jZXMt=
+Rm91cnRoLVF1YXJ0ZXItMjAyMi1SZXN1bHRzL2RlZmF1bHQuYXNweA/607f07ceef4b8524a319=
+a23cBcceade7b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> the end of 2022</a>, =E2=80=9Ctotal SEN Leverage co=
+mmitments were $1.1 billion,=E2=80=9D of which about $300 million seems to =
+have been drawn. =E2=80=9CAll of our SEN Leverage loans continued to perfor=
+m as expected, with no losses or forced liquidations,=E2=80=9D Silvergate <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aHR=
+0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEzMTIxMDkvMDAwMTMxMjEwOT=
+IzMDAwMDI4L2V4OTkxc2ljb25mZXJlbmNlY2FsbHRyYW5zLmh0bQ/607f07ceef4b8524a319a2=
+3cB583e6b20" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> said in January</a>.=C2=A0</p>
+<p style=3D"margin: 16px 0;">A more boring risk for Silvergate to take woul=
+d be just regular old interest-rate risk. Instead of taking customer money =
+and parking it at the Fed, or in one-month Treasury bills, Silvergate could=
+ buy other pretty safe stuff =E2=80=94=C2=A0Treasury notes, US agency secur=
+ities, mortgage-backed securities, municipal bonds =E2=80=94=C2=A0to try to=
+ get a bit more yield. And that seems to be the main risk that Silvergate t=
+ook. Its <a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.=
+257420/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEzMTIxMDkvMDAw=
+MTMxMjEwOTIyMDAwMjA2L3NpLTIwMjIwOTMwLmh0bQ/607f07ceef4b8524a319a23cBa0c77af=
+6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> balance sheet</a> as of Sept. 30, 2022, shows about $11.4 bil=
+lion of =E2=80=9Csecurities,=E2=80=9D meaning bonds: muni bonds, mortgage-b=
+acked securities, agency and Treasury securities. Meanwhile there was about=
+ $1.4 billion of =E2=80=9Cloans,=E2=80=9D meaning the $300 million of Bitco=
+in loans plus some real-estate lending.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Then some bad stuff happened in the fourth qua=
+rter of 2022. Bloomberg=E2=80=99s <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30710887.257420/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjMtMDMtMDIvc2lsdmVyZ2F0ZS1zLXdvcnNlbmluZy1jcnlwdG8tbG9zc2VzLW=
+ZlZWQtd2F0Y2hkb2dzLXdvcnN0LWZlYXJzP2NtcGlkPUJCRDAzMDIyM19NT05FWVNUVUZGJnV0b=
+V9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMwMiZ1dG1f=
+Y2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB4829aaed" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">  Max=
+ Reyes reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">For months, US authorities have been racing to=
+ sever ties between banks and risky crypto ventures, worried the financial =
+system could someday suffer serious losses. They may have been too late.</p=
+>
+<p style=3D"margin: 16px 0;">In the starkest warning yet by a US bank cater=
+ing to the sector, Silvergate Capital Corp. said Wednesday it needs more ti=
+me to assess the extent of damage to its finances stemming from last year=
+=E2=80=99s crypto rout =E2=80=94 including whether it can remain viable. Th=
+e shares plunged about 30% in premarket trading on Thursday. =C2=A0</p>
+<p style=3D"margin: 16px 0;">The firm, which already reported a $1 billion =
+loss for the fourth quarter, said that figure could climb higher. The compa=
+ny is still tallying the cost of rapidly selling assets to repay advances f=
+rom the Federal Home Loan Bank System. It may also need to mark down the va=
+lue of some remaining holdings.</p>
+<p style=3D"margin: 16px 0;">That could result in =E2=80=9Cbeing less than =
+well-capitalized,=E2=80=9D La Jolla, California-based Silvergate wrote in a=
+ regulatory filing. =E2=80=9CThe company is evaluating the impact that thes=
+e subsequent events have on its ability to continue as a going concern.=E2=
+=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/30710887.257420/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9l=
+ZGdhci9kYXRhLzEzMTIxMDkvMDAwMTEwNDY1OTIzMDI3MzUzL3RtMjM4MjUxZDFfbnQxMGsuaHR=
+t/607f07ceef4b8524a319a23cB89341276" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> the filing</a>. The problem i=
+s:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Silvergate had tons of crypto deposit=
+s: $13.2 billion of deposits <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30710887.257420/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9k=
+YXRhLzEzMTIxMDkvMDAwMTMxMjEwOTIyMDAwMjA2L3NpLTIwMjIwOTMwLmh0bQ/607f07ceef4b=
+8524a319a23cCa0c77af6" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> at the end of September</a>, most of them n=
+ot paying interest.</li>=09<li style=3D"margin-bottom: 5px;">Then crypto me=
+lted down and=C2=A0crypto investors took their money back from exchanges, w=
+hich in turn took it back from Silvergate. By the end of December, noninter=
+est bearing deposits were down from $12 billion to <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/30710887.257420/aHR0cHM6Ly9pci5zaWx2ZXJnYX=
+RlLmNvbS9uZXdzL25ld3MtZGV0YWlscy8yMDIzL1NpbHZlcmdhdGUtQ2FwaXRhbC1Db3Jwb3Jhd=
+Glvbi1Bbm5vdW5jZXMtRm91cnRoLVF1YXJ0ZXItMjAyMi1SZXN1bHRzL2RlZmF1bHQuYXNweA/6=
+07f07ceef4b8524a319a23cCcceade7b" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> just $3.9 billion</a>.=C2=A0</li=
+>=09<li style=3D"margin-bottom: 5px;">Silvergate needed to come up with abo=
+ut $8 billion of cash to pay out these withdrawals.</li>
+</ol>
+<p style=3D"margin: 16px 0;">It got some of the cash by borrowing $4.3 bill=
+ion from the Federal Home Loan Bank of San Francisco, a government-chartere=
+d institution that is basically in the business of <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/30710887.257420/aHR0cHM6Ly9maGxiYW5rcy5jb2=
+0vYWR2YW5jZXMv/607f07ceef4b8524a319a23cBb8e4e566" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> giving short-ter=
+m secured loans to banks</a> that have a sudden need for cash.<a class=3D"f=
+ootnote-index" href=3D"#footnote-2" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: none !important; background-color: transparent !impor=
+tant; display: inline-block;">
+<span>[2]</span>
+</a> In late 2022 and early 2023, that described crypto-y banks, and it <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aHR0c=
+HM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9jcnlwdG8tYmFua3MtYm9ycm93LWJpbGxpb25zLWZy=
+b20taG9tZS1sb2FuLWJhbmtzLXRvLXBsdWctc2hvcnRmYWxscy0xMTY3NDI2MzQyNA/607f07ce=
+ef4b8524a319a23cB6bed4e63" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> became controversial</a> that they were=
+ borrowing from the FHLBs.</p>
+<p style=3D"margin: 16px 0;">It got the rest of the money by selling a bunc=
+h of its bond portfolio: At the end of September it had $11.4 billion of bo=
+nds, $8.3 billion of them =E2=80=9Cavailable-for-sale=E2=80=9D (an accounti=
+ng term meaning that Silvergate had to mark them on its books at their fair=
+ value) and others =E2=80=9Cheld-to-maturity=E2=80=9D (meaning that Silverg=
+ate could mark them at cost and not worry about changes in market value). A=
+t the end of December, it had just $5.7 billion of bonds, all of them avail=
+able-for-sale. It had sold the rest.</p>
+<p style=3D"margin: 16px 0;">This caused problems, though, because the bond=
+s were worth less than Silvergate paid for them, basically because interest=
+ rates went up a lot in 2022. One thing this means is that Silvergate <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aHR0cHM=
+6Ly9pci5zaWx2ZXJnYXRlLmNvbS9uZXdzL25ld3MtZGV0YWlscy8yMDIzL1NpbHZlcmdhdGUtQ2=
+FwaXRhbC1Db3Jwb3JhdGlvbi1Bbm5vdW5jZXMtRm91cnRoLVF1YXJ0ZXItMjAyMi1SZXN1bHRzL=
+2RlZmF1bHQuYXNweA/607f07ceef4b8524a319a23cDcceade7b" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> realized loss=
+es on the sales</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">In order to accommodate sustained =
+lower deposit levels and to maintain a highly liquid balance sheet, Silverg=
+ate sold $5.2 billion of debt securities for cash proceeds during the fourt=
+h quarter of 2022. The sale resulted in a loss on the sale of securities of=
+ $751.4 million during the fourth quarter of 2022.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">Another thing it means is that Silvergate had =
+to recognize losses on the bonds that it kept, because it=C2=A0<em>had=C2=
+=A0</em>been accounting for some of them as hold-to-maturity (no need to re=
+cognize losses), and now it has to account for them as available-for-sale: =
+=E2=80=9CIn addition, the Company recorded a $134.5 million impairment char=
+ge related to an estimated $1.7 billion of securities it expects to sell in=
+ the first quarter of 2023 to reduce borrowings.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">The Bitcoin loans held up fine but that=E2=80=
+=99s not the point. The result is that Silvergate had a <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/30710887.257420/aHR0cHM6Ly9pci5zaWx2Z=
+XJnYXRlLmNvbS9uZXdzL25ld3MtZGV0YWlscy8yMDIzL1NpbHZlcmdhdGUtQ2FwaXRhbC1Db3Jw=
+b3JhdGlvbi1Bbm5vdW5jZXMtRm91cnRoLVF1YXJ0ZXItMjAyMi1SZXN1bHRzL2RlZmF1bHQuYXN=
+weA/607f07ceef4b8524a319a23cEcceade7b" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> net loss of $1.05 billion</=
+a> in the fourth quarter.</p>
+<p style=3D"margin: 16px 0;">A core feature of bank regulation is capital r=
+equirements. If you are a bank, and you take $100 of deposits and make $100=
+ of loans, and one of the loans defaults and you only get back $98, then yo=
+u don=E2=80=99t have enough money to pay back all of your depositors, and t=
+hat=E2=80=99s very bad. What regulators do is require that a bank that make=
+s $100 of loans has to fund those loans with at most, say, $92 of deposits;=
+ the other $8 has to come from the bank=E2=80=99s shareholders. Then if som=
+e loans default and the bank only gets back $98, it can pay back all $92 of=
+ deposits, and only the shareholders lose money.</p>
+<p style=3D"margin: 16px 0;">Capital requirements are mostly =E2=80=9Crisk-=
+based=E2=80=9D: You have to have about $8 of capital for every $100 of =E2=
+=80=9Crisk-weighted assets,=E2=80=9D and different assets have different ri=
+sk weights. A bank that makes a lot of sensible mortgage and business loans=
+ might have to have $8 of capital for every $100 of loans, while a bank tha=
+t, uh, <a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.25=
+7420/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDYtMT=
+AvbWF5YmUtZ2FtZXN0b3AtaXMtZ29vZC1ub3c_Y21waWQ9QkJEMDMwMjIzX01PTkVZU1RVRkYmd=
+XRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzAyJnV0=
+bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB5777fcfb" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">  h=
+olds lots of Bitcoin</a> might have to have $100 of capital for every $100 =
+of assets. Very safe assets =E2=80=94=C2=A0US Treasury bonds, for instance =
+=E2=80=94=C2=A0have a risk weighting of zero: They are so safe that regulat=
+ors don=E2=80=99t worry about you losing money on Treasuries.</p>
+<p style=3D"margin: 16px 0;">There is a backstop to this rule, though, call=
+ed the =E2=80=9Cleverage ratio.=E2=80=9D Basically, a bank needs to have at=
+ least $5 of capital for every $100 of assets to be =E2=80=9Cwell capitaliz=
+ed,=E2=80=9D regardless of the risk weights of those assets.<a class=3D"foo=
+tnote-index" href=3D"#footnote-3" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: none !important; background-color: transparent !importa=
+nt; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0If you are a pretty narrow bank with just $95 of deposits that yo=
+u park in Treasuries, you still need to put $5 of your own money in as well=
+.</p>
+<p style=3D"margin: 16px 0;">Silvergate=E2=80=99s=C2=A0<em>assets </em>are =
+very safe, despite those Bitcoin loans: They consist mostly of highly-rated=
+ bonds that are likely to be paid back in full. <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/30710887.257420/aHR0cHM6Ly93d3cuc2VjLmdvdi9Bc=
+mNoaXZlcy9lZGdhci9kYXRhLzEzMTIxMDkvMDAwMTMxMjEwOTIyMDAwMjA2L3NpLTIwMjIwOTMw=
+Lmh0bQ/607f07ceef4b8524a319a23cDa0c77af6" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> As of September</a>, Si=
+lvergate had:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">$15.5 billion of assets;</li>=09<li st=
+yle=3D"margin-bottom: 5px;">$14.1 billion of liabilities;</li>=09<li style=
+=3D"margin-bottom: 5px;">$1.3 billion of shareholders=E2=80=99 equity (abou=
+t 8.6% of assets);=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">a regulat=
+ory leverage ratio of 10.7%;<a class=3D"footnote-index" href=3D"#footnote-4=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: none !import=
+ant; background-color: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">a total risk-based capital ratio =
+of 45.5%, because a lot of its assets had zero risk weights.</li>
+</ul>
+<p style=3D"margin: 16px 0;">That capital ratio of 45.5% looks=C2=A0<em>ver=
+y=C2=A0</em>safe. The leverage ratio of 10.7% looks fine. But then Silverga=
+te lost a ton of deposits, had to sell assets, and had a billion-dollar net=
+ loss. That left it with<a class=3D"footnote-index" href=3D"#footnote-5" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: none !important;=
+ background-color: transparent !important; display: inline-block;">
+<span>[5]</span>
+</a>:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">$11.4=C2=A0billion of assets;</li>=09<=
+li style=3D"margin-bottom: 5px;">$10.8 billion of liabilities;</li>=09<li s=
+tyle=3D"margin-bottom: 5px;">$571.8 million of shareholders' equity (about =
+5.0% of assets);</li>=09<li style=3D"margin-bottom: 5px;">a regulatory leve=
+rage ratio of about 5.1%;</li>=09<li style=3D"margin-bottom: 5px;">a total =
+risk-based capital ratio of 57%.</li>
+</ul>
+<p style=3D"margin: 16px 0;">That capital ratio of 57% looks=C2=A0<em>very=
+=C2=A0</em>safe. The leverage ratio of 5.1% looks a=C2=A0<em>whisper=C2=A0<=
+/em>higher than the 5% regulatory requirement to be =E2=80=9Cwell capitaliz=
+ed.=E2=80=9D If Silvergate had just an extra $19 million of losses, it woul=
+d be below 5%.</p>
+<p style=3D"margin: 16px 0;">From Silvergate=E2=80=99s <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/30710887.257420/aHR0cHM6Ly93d3cuc2VjLm=
+dvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEzMTIxMDkvMDAwMTEwNDY1OTIzMDI3MzUzL3RtMjM4M=
+jUxZDFfbnQxMGsuaHRt/607f07ceef4b8524a319a23cC89341276" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> filing yest=
+erday</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">Subsequent to December 31, 2022, a=
+ number of circumstances have occurred which will negatively impact the tim=
+ing and the unaudited results previously reported in the Earnings Release, =
+including the sale of additional investment securities beyond what was prev=
+iously anticipated and disclosed in the Earnings Release primarily to repay=
+ in full the Company=E2=80=99s outstanding advances from the Federal Home L=
+oan Bank of San Francisco. The Company sold additional debt securities in J=
+anuary and February 2023 and expects to record further losses related to th=
+e other-than-temporary impairment on the securities portfolio. These additi=
+onal losses will negatively impact the regulatory capital ratios of the Com=
+pany and the Company's wholly owned subsidiary, Silvergate Bank (the "Bank"=
+), and could result in the Company and the Bank being less than well-capita=
+lized. In addition, the Company is evaluating the impact that these subsequ=
+ent events have on its ability to continue as a going concern for the twelv=
+e months following the issuance of its financial statements. The Company is=
+ currently in the process of reevaluating its businesses and strategies in =
+light of the business and regulatory challenges it currently faces. =C2=A0<=
+/p></blockquote>
+<p style=3D"margin: 16px 0;">Silvergate had to sell more bonds to repay the=
+ Federal Home Loan Bank loan, so it booked more losses, so =E2=80=A6=C2=A0i=
+t is a close question, but it seems possible that it now has a leverage rat=
+io below 5% and so is not =E2=80=9Cwell capitalized.=E2=80=9D That is not t=
+echnically the end of the world =E2=80=94 if the number is above 4%, Silver=
+gate would still be =E2=80=9Cadequately capitalized=E2=80=9D =E2=80=94=C2=
+=A0but it=E2=80=99s not great, and it=E2=80=99s pointing in the wrong direc=
+tion.</p>
+<p style=3D"margin: 16px 0;">If you are a bank you do not want to be pointi=
+ng in the wrong direction, because that becomes self-fulfilling. <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/30710887.257420/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMDIvc2lsdmVyZ2F0ZS1zaW5=
+rcy10by1yZWNvcmQtbG93LW9uLXJldmlldy1vZi1nb2luZy1jb25jZXJuLXN0YXR1cz9jbXBpZD=
+1CQkQwMzAyMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xld=
+HRlciZ1dG1fdGVybT0yMzAzMDImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524=
+a319a23cBae1ef06e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">  Bloomberg reports today</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Investors and business partners headed for the=
+ exits, with the stock down as much as 55%, while Coinbase Global Inc., Gal=
+axy Digital Holdings Ltd., Paxos Trust Co. and other crypto firms decided t=
+o stop accepting or initiating payments through Silvergate. The exodus may =
+threaten the bank=E2=80=99s key source of deposits and a platform for crypt=
+o participants to transfer money among each other.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIn light of recent developments &amp;=
+ out of an abundance of caution, Coinbase is no longer accepting or initiat=
+ing payments to or from Silvergate,=E2=80=9D Coinbase said on Twitter. =E2=
+=80=9CCoinbase will be facilitating institutional client cash transactions =
+with our other banking partners.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">We have talked a lot over the last year about =
+crypto shadow banks imploding. Often, when a crypto shadow bank implodes, i=
+ts leader <a href=3D"https://link.mail.bloombergbusiness.com/click/30710887=
+.257420/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTE=
+tMTAvZnR4LWlzLXN0aWxsLWxvb2tpbmctZm9yLW1vbmV5P2NtcGlkPUJCRDAzMDIyM19NT05FWV=
+NUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzM=
+DMwMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBd7ad13d3" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">  will say that</a> there was a =E2=80=9Crun on the bank=E2=80=9D: It=
+ had valuable assets, but customers asked for their money back all at once,=
+ so it had to dump the assets, so they lost value, so it didn=E2=80=99t hav=
+e enough=C2=A0money to pay back all the customers. I have been skeptical of=
+ these claims, because in general the valuable assets were, like, magic bea=
+ns that the crypto shadow bank had invented itself. The crypto shadow bank=
+=E2=80=99s assets =E2=80=94=C2=A0in the case of <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/30710887.257420/aHR0cHM6Ly93d3cuYmxvb21iZXJnL=
+mNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMTEvdGVycmEtZmxvcHM_Y21waWQ9QkJEMDMw=
+MjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXR=
+tX3Rlcm09MjMwMzAyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB=
+ea9a6d01" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">  Terra</a>, of <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30710887.257420/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMjItMTEtMTQvZnR4LXMtYmFsYW5jZS1zaGVldC13YXMtYmFkP2NtcGlkPU=
+JCRDAzMDIyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0d=
+GVyJnV0bV90ZXJtPTIzMDMwMiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a=
+319a23cB21c4ade6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">  FTX</a>, of <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/30710887.257420/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjMtMDEtMzEvbWF0dC1sZXZpbmUtam9obnNvbi1qb2huc29uLXMt=
+am5qLWJhbmtydXB0Y3ktZGlkbi10LXdvcms_Y21waWQ9QkJEMDMwMjIzX01PTkVZU1RVRkYmdXR=
+tX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzAyJnV0bV=
+9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB194f9ca9" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">  Cel=
+sius</a>, so many others =E2=80=94=C2=A0were mostly=C2=A0<em>confidence in =
+the shadow bank itself</em>, and when that evaporated so did the assets.</p=
+>
+<p style=3D"margin: 16px 0;">Meanwhile in actual regulated US banking, the =
+idea of a =E2=80=9Crun on the bank=E2=80=9D is somewhat quaint.<a class=3D"=
+footnote-index" href=3D"#footnote-6" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: none !important; background-color: transparent !impo=
+rtant; display: inline-block;">
+<span>[6]</span>
+</a>=C2=A0A run on the bank happens in, like,=C2=A0<em>It=E2=80=99s a Wonde=
+rful Life</em>, but in the real world of big US banks, <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/30710887.257420/aHR0cHM6Ly9lbi53aWtpcG=
+VkaWEub3JnL3dpa2kvRGlhbW9uZCVFMiU4MCU5M0R5YnZpZ19tb2RlbA/607f07ceef4b8524a3=
+19a23cBdcf614db" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> that particular dynamic</a> =E2=80=94=C2=A0you he=
+ar some bad rumors about your bank, you rush to withdraw money, the bank ha=
+s to dump assets to get the money, it becomes insolvent =E2=80=94=C2=A0woul=
+d be strange. In modern US banking, there is deposit insurance to reassure =
+small depositors. There are programs =E2=80=94=C2=A0the Federal Home Loan B=
+anks, the Federal Reserve=E2=80=99s discount window =E2=80=94=C2=A0designed=
+ to make sure that a=C2=A0<em>solvent=C2=A0</em>bank can get cash to pay ou=
+t depositors. And there are capital and prudential regulations designed to =
+make sure that the banks are solvent.</p>
+<p style=3D"margin: 16px 0;">But Silvergate is having a real run on the ban=
+k! It has lost money, not by making dumb Bitcoin loans =E2=80=94=C2=A0the B=
+itcoin loans are fine =E2=80=94=C2=A0but by doing the normal business of ba=
+nking, borrowing short (taking deposits from crypto firms) to lend long (bu=
+ying Treasuries and munis). Silvergate=E2=80=99s assets are real boring nor=
+mal stuff, and if=C2=A0its depositors had kept their money at Silvergate, i=
+ts bonds would have matured with plenty of money to pay them back. Instead,=
+ the depositors demanded their money back all at once, and Silvergate had t=
+o dump its long-term assets at big losses to repay them.</p>
+<p style=3D"margin: 16px 0;">The story=C2=A0<em>today</em>=C2=A0is that Sil=
+vergate=E2=80=99s customers are withdrawing their money because they are wo=
+rried=C2=A0<em>about Silvergate</em>, =E2=80=9Cin light of recent developme=
+nts &amp; out of an abundance of caution,=E2=80=9D classic bank-run stuff. =
+But that's not why they were withdrawing their money in late 2022, when the=
+ trouble started.=C2=A0<em>Then</em>, they were withdrawing their money bec=
+ause=C2=A0<em>crypto had collapsed:=C2=A0</em>Silvergate=E2=80=99s crypto-e=
+xchange customers faced withdrawals from=C2=A0<em>their=C2=A0</em>customers=
+, so they took their money out of Silvergate. The customers =E2=80=94=C2=A0=
+crypto exchanges =E2=80=94=C2=A0were the problem, not Silvergate.</p>
+<p style=3D"margin: 16px 0;">It=E2=80=99s just last week that US regulators=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/a=
+HR0cHM6Ly93d3cuZmVkZXJhbHJlc2VydmUuZ292L25ld3NldmVudHMvcHJlc3NyZWxlYXNlcy9m=
+aWxlcy9iY3JlZzIwMjMwMjIzYTEucGRm/607f07ceef4b8524a319a23cB99742d37" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> warned banks about this</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Board of Governors of the Federal Reserve =
+System (Federal Reserve), the Federal Deposit Insurance Corporation (FDIC),=
+ and the Office of the Comptroller of the Currency (OCC) (collectively, the=
+ agencies) are issuing this statement on the liquidity risks presented by c=
+ertain sources of funding from crypto-asset-related entities, and some effe=
+ctive practices to manage such risks. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Deposits placed by a crypto-asset-related enti=
+ty that are for the benefit of the crypto-asset-related entity=E2=80=99s cu=
+stomers (end customers). The stability of such deposits may be driven by th=
+e behavior of the end customer or crypto-asset sector dynamics, and not sol=
+ely by the crypto-asset-related entity itself, which is the banking organiz=
+ation=E2=80=99s direct counterparty. The stability of the deposits may be i=
+nfluenced by, for example, periods of stress, market volatility, and relate=
+d vulnerabilities in the crypto-asset sector, which may or may not be speci=
+fic to the crypto-asset-related entity. Such deposits can be susceptible to=
+ large and rapid inflows as well as outflows, when end customers react to=
+=C2=A0crypto-asset-sector-related market events, media reports, and uncerta=
+inty. This uncertainty and resulting deposit volatility can be exacerbated =
+by end customer confusion related to inaccurate or misleading representatio=
+ns of deposit insurance by a crypto-asset-related entity.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It=E2=80=99s almost like they knew this was co=
+ming. The regulators did not quite say =E2=80=9Ctherefore, don=E2=80=99t ba=
+nk crypto exchanges=E2=80=9D; in fact, <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/30710887.257420/aHR0cHM6Ly93d3cuZmVkZXJhbHJlc2VydmUuZ2=
+92L25ld3NldmVudHMvcHJlc3NyZWxlYXNlcy9iY3JlZzIwMjMwMjIzYS5odG0/607f07ceef4b8=
+524a319a23cBb7a3d1eb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> they said the opposite</a>: =E2=80=9CBanking=
+ organizations are neither prohibited nor discouraged from providing bankin=
+g services to customers of any specific class or type, as permitted by law =
+or regulation.=E2=80=9D But you got the idea.</p>
+<p style=3D"margin: 16px 0;">I suppose this counts as contagion from the cr=
+ypto crash to the real financial system: A regulated US bank is worried abo=
+ut =E2=80=9Cits ability to continue as a going concern,=E2=80=9D and it is =
+dumping Treasuries and munis and mortgage-backed securities to pay back its=
+ debts. It is a narrow sort of contagion: That bank is pretty much the Bank=
+ of Crypto, and I don=E2=80=99t think that, like, your mortgage rate will b=
+e materially higher because Silvergate had to sell off a few billion dollar=
+s of bonds. But it is certainly the sort of contagion that regulators will =
+want to discourage, and now they have clear evidence that it=E2=80=99s real=
+.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDcxMDg4NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5NjgzMDcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDbd61004e" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30710887&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30968307&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDcxMDg4NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5NjgzMDcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEbd61004e" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30710887&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30968307&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDcxMDg4NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5NjgzMDcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF2607e1f6" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30710887&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30968307&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDcxMDg4NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5NjgzMDcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG2607e1f6" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30710887&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30968307&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDcxMDg4NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5NjgzMDcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH9647a116" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30710887&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30968307&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDcxMDg4NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5NjgzMDcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI9647a116" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30710887&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30968307&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Football governance</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">A major-league=C2=A0professional sports team, =
+as a <em>company</em>, is a weird combination of (1) a multibillion-dollar =
+business and (2) some guy=E2=80=99s personal hobby. You would not expect th=
+e corporate governance of the average sports team to be pristine, because a=
+fter all it is generally a toy that a billionaire bought for himself to mak=
+e watching sports more fun. On the other hand, because sports teams=C2=A0<e=
+m>are=C2=A0</em>such big businesses, it is not uncommon for them to have mi=
+nority owners: There=E2=80=99s the guy who is the =E2=80=9Cowner=E2=80=9D o=
+f the team, the public face, the hobbyist in charge, and then there could b=
+e=C2=A0a few other investors who also own smaller stakes in the team. They =
+are also there mostly for hobbyist reasons, to be clear, and might prioriti=
+ze, like, hanging out with the players over maximizing free cash flow. But =
+they won=E2=80=99t want the team to spend money recklessly in ways that mai=
+nly benefit the=C2=A0<em>majority=C2=A0</em>owner. Whereas the majority own=
+er might think =E2=80=9Cthis is my toy and I can do whatever I want with it=
+.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Here is a very funny <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/30710887.257420/aHR0cHM6Ly93d3cuZXNwbi5jb20=
+vbmZsL3N0b3J5L18vaWQvMzU3MjY2OTEvZm9ybWVyLXBhcnRuZXJzLXNheS1kYW4tc255ZGVyLX=
+VzZWQtdGVhbS1mdW5kLWxpZmVzdHlsZS10b29rLWltcHJvcGVyLWxvYW4tdGhlaXItYXBwcm92Y=
+Ww/607f07ceef4b8524a319a23cBb6fe8631" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> ESPN story</a> about corpora=
+te governance at the Washington Commanders of the National Football League,=
+ whose majority owner is the controversial Daniel Snyder, but which also ha=
+s some minority owners. The minority owners have things like a shareholder =
+agreement specifying their rights=C2=A0and a board of directors that is sup=
+posed to meet to oversee the team=E2=80=99s management, but really it is Sn=
+yder=E2=80=99s team and the governance stuff doesn=E2=80=99t count for much=
+. The problems here start with the fact that the=C2=A0team took out a $55 m=
+illion credit line without board approval, but things snowball from there:<=
+/p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The documents obtained by ESPN show that minor=
+ity partners Robert Rothman, Dwight Schar and Frederick W. Smith protested =
+the loan after they discovered it in a financial report's fine print. They =
+then started looking closely into the team's finances and found Snyder was =
+using the team as his "personal piggy bank," including charging the team $4=
+.5 million to put its logo on his private jet, they alleged in the arbitrat=
+ion petition filed with the NFL. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">When Rothman complained that the team's board =
+had not met in years, Snyder responded, "What the f--- do I need a board me=
+eting for?" according to the documents.</p>
+<p style=3D"margin: 16px 0;">In a June 5, 2020, letter, Snyder's lawyer tol=
+d the partners that Snyder planned to expense more than $7 million in "unre=
+imbursed business expenses" for fiscal years 2017 through 2020. Snyder also=
+ revealed that he was seeking $1 million in reimbursements for vehicle cost=
+s "and extra security required during foreign travel (due to his high-profi=
+le position as Owner)."</p>
+</blockquote>
+<blockquote>
+<p style=3D"margin: 16px 0;">In the letter, Snyder revealed that the expens=
+es included a July 2018 yacht party in the south of France, where he hosted=
+ fellow owners Jerry Jones of the Dallas Cowboys, Robert Kraft of the New E=
+ngland Patriots and Terry Pegula of the Buffalo Bills.</p>
+<p style=3D"margin: 16px 0;">"This included 'world-class cuisine prepared b=
+y some of the top personal chefs in the world and the highest quality wine/=
+beverages,'" the partners said in their petition. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The partners said they discovered Snyder had l=
+eased his personal jets back to the team. Besides Snyder paying himself a s=
+alary of $10 million a year, he also had arranged for the franchise to pay =
+him a total of $4.5 million for having the team logo emblazoned on his pers=
+onal jet. "An advertising fee," Snyder had called it, documents show.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The thing is that if you are the high-profile =
+owner=C2=A0of a football team=C2=A0then in some sense everything you do rea=
+lly=C2=A0<em>is=C2=A0</em>somehow on behalf of the team: You are the face o=
+f the team, your yacht parties are team-related events, your jet has to be =
+in team colors, etc. Your whole lifestyle is bound up with the team. And if=
+ the team has some minority investors, well, they=E2=80=99re going to help =
+pay for that lifestyle.</p>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30710887.257420/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy93YXNoaW5n=
+dG9uLWNvbW1hbmRlcnMtd29yc3QtdGVhbS1uZmxwYS1zdXJ2ZXktMzM1MzBlMTU_bW9kPWhwX2Z=
+lYXRzdF9wb3M0/607f07ceef4b8524a319a23cBbd416746" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">Elsewhere</a>: =E2=
+=80=9CWashington=E2=80=99s football team, which owner Dan Snyder is explori=
+ng selling, ranked last in a new survey conducted by the NFL Players Associ=
+ation that rated teams in eight categories, including the treatment of play=
+ers=E2=80=99 families, nutrition, the training staff and team travel. In th=
+ree categories, the Commanders received an F- grade.=E2=80=9D</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0zMDcxMDg4NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5NjgzMDcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cJ70ac247f" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D30710887&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30968307&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Elsewhere in private jets</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I guess if you are the chief executive officer=
+ of a company it is just a good business decision to buy a private jet? For=
+ yourself, I mean, with your own money, not for the company. The trade is t=
+hat you buy the jet for yourself, you use it to fly around to business meet=
+ings, and you=C2=A0<em>charge your company=C2=A0</em>for the use of the jet=
+. You do enough meetings and the jet pays for itself, with shareholder mone=
+y. This is not exactly=C2=A0<em>legal</em>, but <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/30710887.257420/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZ=
+XdzL3ByZXNzLXJlbGVhc2UvMjAyMy00Mw/607f07ceef4b8524a319a23cBe7df1955" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> here we are</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Securities and Exchange Commission today a=
+nnounced settled charges against Oregon-based freight transportation supply=
+ company, The Greenbrier Companies Inc., and its founder and former CEO and=
+ Chairman, William A. Furman, for failing to disclose perks provided to Fur=
+man and other Greenbrier executives and compensation Furman received from G=
+reenbrier=E2=80=99s charters of Furman=E2=80=99s private plane for travel b=
+y company executives, including Furman. Greenbrier and Furman agreed to pay=
+ $1 million and $100,000 in civil penalties, respectively, to settle the ch=
+arges.</p>
+<p style=3D"margin: 16px 0;">The SEC=E2=80=99s orders find that Furman owne=
+d a private aircraft, which he leased to an aircraft management company to =
+charter to third parties on his behalf. According to the orders, during fis=
+cal years 2017 to 2021, Greenbrier paid the management company approximatel=
+y $3 million to charter Furman=E2=80=99s plane for business-related travel,=
+ but Greenbrier did not disclose that Furman received approximately $1.6 mi=
+llion of that amount.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I bet he=E2=80=99s kicking himself that it nev=
+er occurred to him to put the company=E2=80=99s logo on the jet and charge =
+extra for that.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Private equity boondoggles</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If you run a private equity fund that seeks in=
+vestment from state pension funds, you will want to have some sort of gover=
+nance board that includes representatives from those pension funds, not jus=
+t =E2=80=94=C2=A0not primarily =E2=80=94=C2=A0as a governance tool but also=
+ s a marketing tool, a way to maintain friendly relationships with the pens=
+ion funds who give you money. You=E2=80=99ll invite the representatives to =
+meetings, schmooze with them, make them feel included, help them understand=
+ and appreciate what you are doing, make them feel good about your fund and=
+ the relationship. Will you share a nice meal with them, at these meetings?=
+ Will you pick up the check? Will the meetings be in Tuscany? Oh sure. Bloo=
+mberg=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/30=
+710887.257420/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtM=
+DItMjgvdHVzY2FueS1mb3ItMjAwLXByaXZhdGUtZXF1aXR5LXN1YnNpZGl6ZXMtcGVuc2lvbi1m=
+dW5kLWx1eHVyeT9jbXBpZD1CQkQwMzAyMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV=
+0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMDImdXRtX2NhbXBhaWduPW1vbmV5c3=
+R1ZmYjeGo0eTd2emtn/607f07ceef4b8524a319a23cBb2ed9583" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Neil Weinber=
+g reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Two Michigan pension fund officials attended a=
+ 2018 Apax Partners event at the Four Seasons Hotel in Florence, Italy, tha=
+t featured =E2=80=9Ccustom tailored activities and itineraries,=E2=80=9D in=
+cluding tours of the Tuscan countryside on vintage Vespa scooters and a gal=
+a dinner at the 17th Century Villa le Corti.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The bill for the state: less than $200 for eac=
+h official, according to public records obtained by Bloomberg. And Michigan=
+ is hardly alone in letting private equity firms foot most of the bill for =
+luxury travel and trips by state pension fund managers, who are public empl=
+oyees.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Gaw Capital paid for most of the $21,127 busin=
+ess-class airfare for an Illinois fund official attending its 2018 meeting =
+at the Renaissance Resort in Okinawa, Japan =E2=80=94 the state paid just $=
+392. Florida officials visited Milan, Rome and Paris last June, courtesy of=
+ JPMorgan Chase &amp; Co. funds. Other funds have since covered Florida off=
+icials=E2=80=99 trips to London, Stockholm and Helsinki.</p>
+<p style=3D"margin: 16px 0;">Those trips were all for officials to attend m=
+eetings as members of private equity firms=E2=80=99 limited partnership adv=
+isory councils, which have developed a reputation for taking place in posh,=
+ far-flung destinations.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CI can=E2=80=99t remember an advisory =
+committee meeting that wasn=E2=80=99t in a nice place,=E2=80=9D says Joseph=
+ John =E2=80=9CJ.J.=E2=80=9D Jelincic, a retired staffer and director of th=
+e California Public Employees=E2=80=99 Retirement System. =E2=80=9CProbably=
+ the worst was Manhattan.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Such LPACs are supposed to be a means of givin=
+g state officials a voice in how the firms invest public money. But some wo=
+rry that the luxurious trips may unduly influence the officials who are tre=
+ated to them.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Presumably=C2=A0the LPAC could do its governan=
+ce and advisory work over email and Zoom, and honestly that seems like it w=
+ould be more convenient for a lot of these pension funds. But imagine being=
+ the first private equity firm to announce that change.=C2=A0</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+></ol>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Cramer ETF</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Incredible <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/30710887.257420/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZ=
+XdzL2FydGljbGVzLzIwMjMtMDMtMDIvamltLWNyYW1lci1ldGZzLWFycml2ZS10by1iZXQtb24t=
+YWdhaW5zdC1tYWQtbW9uZXktaG9zdC1zLXBpY2tzP2NtcGlkPUJCRDAzMDIyM19NT05FWVNUVUZ=
+GJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMwMi=
+Z1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB8a591baa" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>  bit here</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Whether you=E2=80=99re a lover or loather of J=
+im Cramer =E2=80=94 and on both Wall Street and Main Street, there are plen=
+ty of each =E2=80=94 you=E2=80=99re now able to express that view via the m=
+agic of ETFs.</p>
+<p style=3D"margin: 16px 0;">A pair of new products is launching Thursday t=
+hat will help US investors bet either on or against the stock picks of the =
+host of CNBC=E2=80=99s Mad Money show, arguably the world=E2=80=99s most-fa=
+mous financial pundit. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Matthew Tuttle, CEO of Tuttle Capital Manageme=
+nt, has turned his attention to Cramer, fulfilling a long-running finance j=
+oke that the CNBC anchor should get his own inverse fund.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIf he specifically says either buy, b=
+uy, buy a stock, then we=E2=80=99re gonna go short that stock at the next p=
+ractical moment,=E2=80=9D Tuttle told Bloomberg=E2=80=99s Trillions podcast=
+, referring to the inverse strategy. =E2=80=9CIf he tells you he hates a st=
+ock or sell, sell, sell or something like that, then we=E2=80=99re gonna go=
+ long that name again at the next kind of practical entry point.=E2=80=9D .=
+..</p>
+<p style=3D"margin: 16px 0;">The methodology behind the ETFs is decidedly l=
+ow-tech. To design the portfolios, which are equal weight, Tuttle and two c=
+olleagues watch Cramer=E2=80=99s television appearances throughout the day =
+and monitor his Twitter account. The result is two actively managed portfol=
+ios that hold between 20 to 50 names with a high turnover rate, Tuttle said=
+. Both products carry an expense ratio of 1.2%.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">They=E2=80=99re called LJIM and SJIM, for long=
+ and short, respectively. Here is <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30710887.257420/aHR0cHM6Ly93d3cuY3JhbWVyZXRmcy5jb20v/607f07=
+ceef4b8524a319a23cB05519c62" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> the website</a>. Here is <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/30710887.257420/aHR0cHM6Ly91cG=
+xvYWRzLXNzbC53ZWJmbG93LmNvbS82MzcyNDBhNDliYTU2ZjdiZmJlODJjODQvNjNmZjcyYTE4N=
+DU5NzY4ZjVlM2Q3NDA2X1ByaW50ZXIlMjAtJTIwQ3JhbWVyJTIwRVRGcyUyMENvbWJpbmVkJTIw=
+Mi0yMS0yMyUyMFBybyUyMC0lMjB2Mi5wZGY/607f07ceef4b8524a319a23cB06e62cef" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> the prospectus for SJIM</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">Investment Objective: The Inverse =
+Cramer Tracker ETF (the =E2=80=9CFund=E2=80=9D) seeks to provide investment=
+s results that are approximately the opposite of, before fees and expenses,=
+ the results of the investments recommended by television personality Jim C=
+ramer.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">Oh yeah.</p>
+<blockquote><p style=3D"margin: 16px 0;">The Fund=E2=80=99s adviser monitor=
+s Cramer=E2=80=99s stock selection and overall market recommendations throu=
+ghout the trading day as publicly announced on Twitter or his television pr=
+ograms broadcast on CNBC and sells Cramer=E2=80=99s stock recommendations s=
+hort. The Fund goes short or long on stocks or ETFs, including Index ETFs a=
+nd inverse Index ETFs, to take the opposite side of Cramer=E2=80=99s announ=
+ced market or sector view. The Fund=E2=80=99s portfolio is comprised genera=
+lly of=C2=A020 to 50 equity securities of any market capitalization of dome=
+stic and foreign issuers through American Depositary Receipts, and/or ETFs =
+if Cramer makes market or sector recommendations. Should Cramer recommend b=
+uying any of the securities in the Fund=E2=80=99s portfolio, the Fund will =
+dispose of those holdings. Should Cramer recommend selling any of the secur=
+ities in the Fund=E2=80=99s portfolio, the Fund will keep those holdings. T=
+he adviser may also sell securities that have gone =E2=80=9Cstale=E2=80=9D=
+=E2=80=94i.e., have been held for several weeks with no further commentary =
+by Cramer. If Cramer does not take=C2=A0any view on any of the securities i=
+n the Fund=E2=80=99s portfolio, including when he is absent from CNBC or Tw=
+itter for any reason, the adviser further retains discretion to sell positi=
+ons if market conditions such as large swings in either direction necessita=
+te a sale because profit or loss targets are met and replace them with secu=
+rities that represent the opposite side of Cramer=E2=80=99s announced marke=
+t or sector view. Under normal circumstances, the Fund will hold positions =
+no longer than a 5-day trading week but could hold a position longer if Cra=
+mer continues to have a contrary opinion.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">I feel like this is what the financial industr=
+y is all about? I love it. The prospectus is notably short on backtest data=
+ (there is none), presumably because it is hard to do a backtest on the str=
+ategy, presumably=C2=A0because no one was sitting around making notes of al=
+l of Cramer=E2=80=99s recommendations for months=C2=A0<em>before=C2=A0</em>=
+launching this thing. It is very funny to have a job that is just sitting a=
+round watching Jim Cramer=E2=80=99s show all day and doing the opposite of =
+every trade he recommends, but you probably wouldn=E2=80=99t do it if you w=
+eren=E2=80=99t getting paid 1.2%.</p>
+<p style=3D"margin: 16px 0;">I mean! You might do it if it had alpha? It=C2=
+=A0<em>is </em>=E2=80=9Ca long-running finance joke=E2=80=9D that doing the=
+ opposite of Cramer=E2=80=99s recommendations could make you money. Presuma=
+bly at some point some bored young person dreaming of making it as a stock =
+trader tried to actually do it? Watch TV, do the opposite of Cramer=E2=80=
+=99s trades, get rich? Presumably that person did not get rich?=C2=A0Presum=
+ably if it worked people would just do it, instead of selling it as an ETF;=
+ in general this is not a perfect heuristic but it feels right here. Especi=
+ally since both SJIM and LJIM exist, and they can=E2=80=99t really=C2=A0<em=
+>both=C2=A0</em>work. The point of these products is not that Cramer=E2=80=
+=99s recommendations have positive or negative alpha; the point is that (1)=
+ the products are funny and (2) people might buy them for comedy and/or cel=
+ebrity reasons?</p>
+<p style=3D"margin: 16px 0;">Also, from the prospectus:</p>
+<blockquote><p style=3D"margin: 16px 0;">The Trust, the Fund and the advise=
+r are not affiliated with Cramer or any of the media by which his recommend=
+ations are communicated. Cramer is not involved in the creation, management=
+ or operations of the Fund. The adviser does not in all cases perform funda=
+mental investment analysis of securities bought, sold and held by the Fund.=
+ The primary factor for transacting in such securities or related securitie=
+s is the fact that they are mentioned by Cramer.</p></blockquote>
+<p style=3D"margin: 16px 0;">Surely if one of these funds consistently outp=
+erforms the market, Cramer should stop giving away free alpha to Tuttle and=
+ start running his own fund (or inverse fund) himself? It would be funny if=
+ it was the inverse one.=C2=A0</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">How is former Fugee and Jho Low acquaintance=
+=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257=
+420/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9mZWF0dXJlcy8yMDIzLXVzLWNoaW5hLXRlbnN=
+pb25zLXNjYW5kYWwtZnVnZWVzLTFtZGIvP2NtcGlkPUJCRDAzMDIyM19NT05FWVNUVUZGJnV0bV=
+9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMwMiZ1dG1fY=
+2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBd821dd33" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">  Pras=
+ Mich=C3=A9l</a> doing? How is BitMEX founder <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/30710887.257420/aHR0cHM6Ly9ueW1hZy5jb20vaW50ZWx=
+saWdlbmNlci9hcnRpY2xlL2FydGh1ci1oYXllcy1iaXRtZXgtY3J5cHRvLWludGVydmlldy5odG=
+1s/607f07ceef4b8524a319a23cB859f9435" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> Arthur Hayes</a> doing? Joe =
+Biden expected to issue first presidential veto in <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/30710887.257420/aHR0cHM6Ly93d3cuZnQuY29tL2=
+NvbnRlbnQvYmE0ZDAwMjgtZWFlYy00N2RmLTgyYzQtMmM4ZDkyOThlOWJl/607f07ceef4b8524=
+a319a23cB09cb7b6f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> anti-ESG vote</a>. <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/30710887.257420/aHR0cHM6Ly93d3cud3NqLmNvbS9hcn=
+RpY2xlcy9iYW5rLXByb2ZpdHMtZmVsbC02LWxhc3QteWVhci1hcy13YXItaW5mbGF0aW9uLWFuZ=
+C1oaWdoZXItcmF0ZXMtaHVydC1yZXN1bHRzLTU2ZTE5MTZkP21vZD1ocF9sZWFkX3BvczQ/607f=
+07ceef4b8524a319a23cBa86f267d" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> Bank Profits Fell 6%</a> Last Year =
+as War, Inflation and Higher Rates Hurt Results. London Dealmakers Say <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMDIvZnRzZS1jb21wY=
+W5pZXMtc2Vlay13YWxsLXN0cmVldC1tb3ZlLWluLWZ1cnRoZXItYmxvdy10by1sb25kb24_Y21w=
+aWQ9QkJEMDMwMjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3N=
+sZXR0ZXImdXRtX3Rlcm09MjMwMzAyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8=
+524a319a23cB392118c7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  Move to Wall Street</a> From The City Is Ju=
+st Starting. Scandal at South Africa=E2=80=99s Eskom: the CEO and the <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aHR0cHM=
+6Ly93d3cuZnQuY29tL2NvbnRlbnQvNWZlODI5MWQtOTg5NS00MjcyLTllMGEtZWVmYTI3OTExNm=
+Y0/607f07ceef4b8524a319a23cBc050b534" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> cyanide-laced coffee</a>.=C2=
+=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420=
+/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYjAxZmZhM2EtZDFiZi00ZWVlLTgwYWQtOTcyMG=
+Y4YjYyMDJj/607f07ceef4b8524a319a23cB897d7604" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> Carlyle</a> deal to =
+bolster buyout fund falls flat with investors. <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/30710887.257420/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMDIvdGVzbGEtdmFsdWF0aW9uLWVyYXNlcy01MC1ia=
+WxsaW9uLWFzLWludmVzdG9yLWRheS1kaXNhcHBvaW50cz9jbXBpZD1CQkQwMzAyMjNfTU9ORVlT=
+VFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA=
+zMDImdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB0a74af45" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">  Tesla</a> Erases $50 Billion in Market Value as Its Investor Day Dis=
+appoints.=C2=A0U.S. regulators rejected Elon Musk=E2=80=99s bid to <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aHR0cHM6L=
+y93d3cucmV1dGVycy5jb20vaW52ZXN0aWdhdGVzL3NwZWNpYWwtcmVwb3J0L25ldXJhbGluay1t=
+dXNrLWZkYQ/607f07ceef4b8524a319a23cB94750f34" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> test brain chips in =
+humans</a>, citing safety risks. China holds up Arm=E2=80=99s exit from <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aHR0c=
+HM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZTYwNWE5MmMtNWVmYy00NzFjLWJkN2QtYTM2Yzc2MjA0=
+MjBj/607f07ceef4b8524a319a23cBea44d94f" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> troubled joint venture</a>=
+. See inside the <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+0710887.257420/aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS9waG90b3MtaW5zaWRl=
+LWx1eHVyeS1idW5rZXJzLXVsdHJhLXJpY2gtcHJlcGFyZS1mb3ItZG9vbXNkYXktMjAyMi05/60=
+7f07ceef4b8524a319a23cB7fa0b872" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> luxury bunkers</a> where the supe=
+r-rich reportedly plan to save themselves from a future apocalypse. <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aHR0cHM6L=
+y93d3cubnl0aW1lcy5jb20vMjAyMy8wMy8wMS91cy93aGlza2V5LWZ1bmd1cy1qYWNrLWRhbmll=
+bHMtdGVubmVzc2VlLmh0bWw/607f07ceef4b8524a319a23cB91391598" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> Whiskey=
+ Fungus</a> Fed by Jack Daniel=E2=80=99s Encrusts a Tennessee Town.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30710887.257420/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBba93940b" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30710887.257420/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB417c8970" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Crypto exchanges, which are also in the bu=
+siness of holding dollars for customers, <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/30710887.257420/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjItMTEtMDkvYmFua21hbi1mcmllZC1zLWZ0eC1oYWQtYS1kZWF=
+0aC1zcGlyYWwtYmVmb3JlLWJpbmFuY2UtZGVhbD9jbXBpZD1CQkQwMzAyMjNfTU9ORVlTVFVGRi=
+Z1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMDImd=
+XRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cCcbdaa2cf" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">
+often do this</a>, and it is a natural way for them to fall into disaster =
+=E2=80=94 particularly if they are lending against cryptocurrencies that th=
+ey made up.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Schedule RC-M of Silvergate=E2=80=99s <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aHR0cH=
+M6Ly9jZHIuZmZpZWMuZ292L3B1YmxpYy9NYW5hZ2VGYWNzaW1pbGVzLmFzcHgj/607f07ceef4b=
+8524a319a23cBe8dc6644" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> call report</a> for December 2022 lists $4.=
+3 billion of FHLB advances with a maturity of one year or less.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] There are various thresholds, but for Silv=
+ergate, the requirement is a 5% leverage ratio to count as =E2=80=9Cwell ca=
+pitalized.=E2=80=9D See page 17 of its <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/30710887.257420/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0=
+FyY2hpdmVzL2VkZ2FyL2RhdGEvMTMxMjEwOS8wMDAxMzEyMTA5MjIwMDAwNTEvc2ktMjAyMTEyM=
+zEuaHRtI2lmOTdiZTllYjZhMGM0ZThlODQ4ZTJkNDFiZmFlOWM2Yl8xNg/607f07ceef4b8524a=
+319a23cBd5476ac8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> 2021 Form 10-K</a>. =E2=80=9CAdequately capitali=
+zed=E2=80=9D is 4%.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] See page 31 of the <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/30710887.257420/aHR0cHM6Ly93d3cuc2VjLmdvd=
+i9BcmNoaXZlcy9lZGdhci9kYXRhLzEzMTIxMDkvMDAwMTMxMjEwOTIyMDAwMjA2L3NpLTIwMjIw=
+OTMwLmh0bQ/607f07ceef4b8524a319a23cEa0c77af6" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> Form 10-Q</a> for th=
+ese ratios. Also note that the leverage ratio (10.7%) is not quite the same=
+ as equity divided by assets (8.6%), because regulatory capital and financi=
+al statements use different accounting methods.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] Numbers from the <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/30710887.257420/aHR0cHM6Ly9pci5zaWx2ZXJnYXR=
+lLmNvbS9uZXdzL25ld3MtZGV0YWlscy8yMDIzL1NpbHZlcmdhdGUtQ2FwaXRhbC1Db3Jwb3JhdG=
+lvbi1Bbm5vdW5jZXMtRm91cnRoLVF1YXJ0ZXItMjAyMi1SZXN1bHRzL2RlZmF1bHQuYXNweA/60=
+7f07ceef4b8524a319a23cFcceade7b" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> earnings release</a> and the <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aHR0cH=
+M6Ly9jZHIuZmZpZWMuZ292L3B1YmxpYy9NYW5hZ2VGYWNzaW1pbGVzLmFzcHg/607f07ceef4b8=
+524a319a23cBc4543ee0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> call report</a>; the actual balance sheet ha=
+s not been filed yet.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] Oh, to be clear, in all sorts of US shadow=
+ banking it=E2=80=99s pretty standard and explains, you know, 2008.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB80c77010" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB86467d45" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB653608a2" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBe1949375" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0zMDcxMDg4NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA5NjgzMDcmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cKa65926f3" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D30710887&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30968307&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBdfced931" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30710887.257420/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC3e4550d9" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30710887.257420/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBd946b2e1" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30710887.257420/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB336d848c" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB1=
+d1617dd" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30710887.257420/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB5=
+7f79781" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D307108=
+87&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30968307&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D307108=
+87&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30968307&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D307108=
+87&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30968307&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D307108=
+87&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30968307&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D307108=
+87&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30968307&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cia8o7.5imk/055ff373.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_8460864_1328184801.1677785031046--
+

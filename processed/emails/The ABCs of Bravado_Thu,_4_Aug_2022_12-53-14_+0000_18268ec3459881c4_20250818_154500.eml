@@ -1,0 +1,2747 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:4f93:b0:b2:b9b3:1798 with SMTP id cg19csp69488rwb;
+        Thu, 4 Aug 2022 05:54:46 -0700 (PDT)
+X-Received: by 2002:a63:c53:0:b0:412:6f28:7a87 with SMTP id 19-20020a630c53000000b004126f287a87mr1605823pgm.136.1659617686705;
+        Thu, 04 Aug 2022 05:54:46 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1659617686; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Duwr0k9z6dUKLy7dgR+oXySLqxWQ71bR48nFdGu81fM4d4UzZ0QeN2M0LRqBYGLYv0
+         bl5XLLdwry3zk5z27XFhy2Yw6dFcXHqREeU96T/Wrr/c3/M6MoDC8HO/uvikt6yXXlQV
+         MuNm5WBPUyjlM+sPUyBQJTW4UI7bZzyUFhEdvDo0kRjoX4dYycE759E05R8cVjLKa9af
+         SbYd3SQpItAlciMy7oYXSO3Hp3N75rpcahzooogub5PFwHMZX5dXvVugtiIAIdkrHMUC
+         LdsFqy1tvgGTasW2MdQkyB30CxszF8GZXS0cW4hO7QTsU4BqTIvwahW3E7ZFYGhLlA/7
+         BOBw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:in-reply-to:date:list-owner:list-id:reply-to
+         :list-unsubscribe-post:references:list-url:message-id:sender
+         :list-post:list-archive:to:from:subject:mime-version:dkim-signature
+         :delivered-to;
+        bh=H6TzUjUzDHQNmxBWWyJSXAmcrIyZjehKHLUYVRVMxpY=;
+        b=lQO1vSk/k3kCweCulGw5WSjWYT50dFiQUo1ncvHqIF4jXFCuy4pFBdubTR/xtNlq2P
+         5oemCwhppVupMUldoBkXh58JrutZNBJS4Qj1Qmt6vkrW1jBfFncOSV53nmNzOI+k48ne
+         svTwdpVVBQJAMOlImL3qpsGvGS+FlwOPPzBnqGem/W+/vvu1U2eXJcgeV5RbmBp8mqkx
+         iTKRzVX7RU6dyazL3FmHwYgoeIe3/KFtgI7oSexEKTGNQjWJHBBrKZIwjB+hoEE0Gtwj
+         plj6aIDCIMbolWpEHnpJvAMrxyt8DnEf6Cv+7JglHUPfmrngzj7xozHpZP+YEycFRcTc
+         A65A==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=S+LrByiD;
+       arc=pass (i=2 dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id w4-20020a170902e88400b0016ecc118de0sor438060plg.126.2022.08.04.05.54.46
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 04 Aug 2022 05:54:46 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=S+LrByiD;
+       arc=pass (i=2 dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:in-reply-to:date:list-owner:list-id:reply-to
+         :list-unsubscribe-post:references:list-url:message-id:sender
+         :list-post:list-archive:to:from:subject:mime-version:dkim-signature
+         :delivered-to:x-gm-message-state:from:to:cc;
+        bh=H6TzUjUzDHQNmxBWWyJSXAmcrIyZjehKHLUYVRVMxpY=;
+        b=u513PebogOXbtdKIKmHiH6brXt4gHYQeVeDaLduLLrkVJHxdiA8FGJ+f+YWAJ45Dgk
+         GxcJRdTM7FwLQmm/nMLJDwz7Ndh1hw0mQVjUGuOzm5oFYmdcEB2YQY8yh5M29KZII+Oj
+         Tz/C1SZUhCRkh2vyiu7uy8nIiKwTxyqzKQAm4RGkayO8CFhkazCE1B2PHWLP5uuRKVjG
+         iLbrXbXxqJokKK1MEX2/akb8cFK8nIYBiddM+YH6zPke8wTx1HB9U6AifYsAk8oyYrKz
+         jZYUYlOM7g1vGHGuAoCaN0H9WT2aXB8a3nGF7sEUE5ssHQv+fO5daNJ1vPpR4XezyKZv
+         h1UA==
+X-Gm-Message-State: ACgBeo2/pzUuesP+9kbZMkeeEjO9SmCqP2reTVbWtZqafgplF8hAz/NH
+	8URLOiivdHS5GrhrFgxF2/8HIvOOIDds+N04eFbBVBFi/PSDp02BhA==
+X-Received: by 2002:a17:902:c102:b0:16e:f2ab:985d with SMTP id 2-20020a170902c10200b0016ef2ab985dmr1823734pli.71.1659617686242;
+        Thu, 04 Aug 2022 05:54:46 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a17:90a:c081:0:0:0:0 with SMTP id o1csp366063pjs;
+        Thu, 4 Aug 2022 05:54:43 -0700 (PDT)
+X-Received: by 2002:a17:90b:17c5:b0:1f4:f55d:24f3 with SMTP id me5-20020a17090b17c500b001f4f55d24f3mr2012017pjb.109.1659617683074;
+        Thu, 04 Aug 2022 05:54:43 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1659617683; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=HX9Wr+tpGt/Oas0/Xd6mYWTPqyNPs//HyDpfulDBdvomcDEb0rjTNjR//W00tK7dMw
+         dSSY9t9D3jsfTaaxtXOeDSCQVPLTD+Wqabh/TO+M9RmAPh91AU7EsWc5eKduzzfa6Dn/
+         WBgrJglzHy7apu5go/ncKy5WNglR76ijo9j4euXENssYwfUGiYKLV1XDf3KOnuB/Jl88
+         Gj0LhVgJweOpvTIu9Otu/NIi68Ha4JR4IWtXjesNpD6tL/jWBNTW5tL0B+ZLpz32ifWq
+         X6IoVyiQNNm+XFcuq7/SdruQiBg+btHbrsnM2Fb8VndyCDmTCjH6oyaAeb+naUvrq2HX
+         skAw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:in-reply-to:date:list-owner:list-id:reply-to
+         :list-unsubscribe-post:references:list-url:message-id:sender
+         :list-post:list-archive:to:from:subject:mime-version:dkim-signature;
+        bh=H6TzUjUzDHQNmxBWWyJSXAmcrIyZjehKHLUYVRVMxpY=;
+        b=u4ECGl+3VXZsnxPRWAXBlhUrWpib9qwGAQop8OZukuyY2Eze29L49l0cXhFgylLTOd
+         6DuVNxroiqlmMu1Hb5q109TEW4p85Tffm0WHRTPh2bQrdDfx+zeAnXk1LwUvndFbNinc
+         zfQ1Jx0Gkn/gCjnSo3RCL5sEtXcIEQj6008DtUF0jRctqumZk5zTeJQKwm8xV3FpVUOP
+         ZAFtxA2vZCH2mZt+WbnRRVk9uCDhly28hZgt11xQfu8R1vlI4nSgabnHSakYD7yBA/Jc
+         LiAtzF7XStN0G8PEyRsYI0sGTRvsAPc5QcUSYqJ9g5laXuXtG6X2agq+Txf0Wh4WOuz7
+         nJsQ==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=S+LrByiD;
+       arc=pass (i=1 spf=pass spfdomain=mg2.substack.com dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id p11-20020a170903248b00b0016ee2fd1b5bsor459430plw.2.2022.08.04.05.54.42
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 04 Aug 2022 05:54:43 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AA6agR4tgDbTvOU15BSuC9E5LQmAIyBTwrmm5Pv93aNVuOPv8ac2j4aSMLOkwfOvnJUzT7bEXxY8/LO1aAGHjlsh0g/cP+egjEM=
+X-Received: by 2002:a17:90a:e295:b0:1f3:2ddb:9c53 with SMTP id d21-20020a17090ae29500b001f32ddb9c53mr10361814pjz.129.1659617682712;
+        Thu, 04 Aug 2022 05:54:42 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1659617682; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Q1zcLplOIyxF4yflG2k5KWU41I8rUeU8cUv+o7i8h9DtJw+1u28OrudxIIFZapaBZY
+         +u3n0cCrL1FDIMyAAAvaAE5u7YLLqay4xlIXNvstaHki6nmjcNAx90zZmkp4cXOqDHTW
+         Ez42gSH18y93vUamtyd5nxod3gLc5yukUZz8tMgjYS2kDgtEq3NySsbR25aeAx4kOEJA
+         yc9YqlBQXayfORuuqYyrmMwxnwJHC30dbehvYsXPco+lbzC9XBWnwZ/rdWa8v4ohK19f
+         u/7NK3INaZvlLaiOfQRXrUcXILk7VWGtR+K0QoB/jOfM3/nZpYkOClUfEQemAbE3je4H
+         NgVw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:in-reply-to:date:list-owner:list-id:reply-to
+         :list-unsubscribe-post:references:list-url:message-id:sender
+         :list-post:list-archive:to:from:subject:mime-version:dkim-signature;
+        bh=H6TzUjUzDHQNmxBWWyJSXAmcrIyZjehKHLUYVRVMxpY=;
+        b=lmxU9KRjXc4SiHU2HkWTHQHF7kbbmVcwXn+rld3uArm3UGOpCw4oNF8/+tm/7Yxkpc
+         Iq/9hkdf0XvHj+YLCFAn46066leQnqoeSpxUzgDPvqu6f6zLsCaCYI6xIVdLefnoMYTT
+         LQmofsi6e8lyMwM+T2zQQEoN6VC1b2MYat8R7qbWv9xJ9qoK+KNIrV6UXTiZAolcL3Jh
+         BUCRIwqODFlLnGihV0h5COWUWm0BXXAXGdvVTAnXlew8kbcfyE+8kmm1hPymkORV2mRn
+         dUGdaFDp98XYgHPj7RINYAcmfnRmr9W8Lv4x8H6hZ/4/ECoryMS6iMGXfYo7Cy6j+ZZL
+         xAWQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=S+LrByiD;
+       spf=pass (google.com: domain of bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com designates 159.112.244.16 as permitted sender) smtp.mailfrom="bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com>
+Received: from m244-16.mailgun.net (m244-16.mailgun.net. [159.112.244.16])
+        by gmr-mx.google.com with UTF8SMTPS id u11-20020a17090341cb00b0016bf0148e25si25150ple.9.2022.08.04.05.54.39
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 04 Aug 2022 05:54:42 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com designates 159.112.244.16 as permitted sender) client-ip=159.112.244.16;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg2.substack.com; q=dns/txt;
+ s=mailo; t=1659617682; x=1659826482; h=List-Unsubscribe: In-Reply-To:
+ Date: List-Owner: List-Id: Reply-To: References: Message-Id: Sender:
+ Sender: List-Post: List-Archive: To: To: From: From: Subject: Subject:
+ Content-Type: Mime-Version;
+ bh=H6TzUjUzDHQNmxBWWyJSXAmcrIyZjehKHLUYVRVMxpY=; b=S+LrByiD/cZGE/xNCKgUPY3B1rd0aW3nNoIKUKEnKoj+ZD5yQ8WQROGat8LzocsfaCP+bD8+
+ HaWPTCTuejg9MwNHAcKRSFp0B/3E1zBbcDyw1m9AF3WSK15FiZ6Hgd+Jjy9P9QUMWmD6+8dS
+ OOkOC5ITioIKN+gE8F36aSumWFI=
+X-Mailgun-Sending-Ip: 159.112.244.16
+X-Mailgun-Sid: WyIyZDMzMyIsICJub3Rib3JpbmdAa2hhbWVsLmNvbSIsICI0ZDE4NTgiXQ==
+Received: from <unknown> (<unknown> []) by bd53817e4758 with HTTP id
+ 62ebc18d2abfb61602c44654; Thu, 04 Aug 2022 12:54:36 GMT
+X-Mailgun-Batch-Id: 62ebc18d9e141cd2120781ec
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="aeb4151cde51fbdda3f63c5ccc5aabc7c03c88a44840abcf00f268a4a867"
+Subject: The ABCs of Bravado
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+X-Mailgun-Track-Clicks: false
+List-Archive: <https://www.notboring.co/archive>
+List-Post: <https://www.notboring.co/p/the-abcs-of-bravado>
+Sender: Not Boring <notboring@substack.com>
+Message-Id: <20220804125314.3.7d757e396a26554f@mg2.substack.com>
+List-Url: <https://www.notboring.co/>
+References: <post-67068360@substack.com>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Reply-To: Not Boring
+ <reply+13xia0&9p0gt&&dbe5359e4773458c102cd8e1b48433edbe99a999fac562008cb75474cab71178@mg1.substack.com>
+List-Id: <notboring.substack.com>
+List-Owner: <mailto:notboring@substack.com>
+Date: Thu, 4 Aug 2022 12:53:14 +0000
+In-Reply-To: <post-67068360@substack.com>
+List-Unsubscribe: <https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsL2Rpc2FibGU_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE5qSTRNelUwT1N3aWNHOXpkRjlwWkNJNk5qY3dOamd6TmpBc0ltbGhkQ0k2TVRZMU9UWXhOelkzTkN3aWFYTnpJam9pY0hWaUxURXdNREkxSWl3aWMzVmlJam9pWkdsellXSnNaVjlsYldGcGJDSjkuYU5jSkZhd21qR1VVbDNHVnh6dTJRX19MdDdtYUZBY1NzZWM2aXlVT3c5SSIsInAiOjY3MDY4MzYwLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY1OTYxNzY3NCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.q6u3_w9ScdfHHX7pUzFbDDbcvGbrtRr80c3-uQ515kE?>
+X-Mailgun-Variables: {"category":"post", "comment_id":"",
+ "email_generated_at":"1659617675252", "is_freemail":"true",
+ "post_audience":"everyone", "post_id":"67068360", "post_type":"newsletter",
+ "pub_community_enabled":"true", "publication_id":"10025",
+ "subdomain":"notboring", "user_id":"16283549"}
+
+--aeb4151cde51fbdda3f63c5ccc5aabc7c03c88a44840abcf00f268a4a867
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://www.notboring.co/p/the-abcs-of-bravado
+
+Welcome to the=C2=A0636=C2=A0newly Not Boring people=C2=A0who have joined u=
+s since Monday! If you haven=E2=80=99t subscribed, join=C2=A0143,137 smart,=
+ curious folks by subscribing here:=20
+Hi friends =F0=9F=91=8B,=C2=A0
+Happy Thursday!=C2=A0
+There=E2=80=99s been a ton of talk =E2=80=93 in ecommerce, media, SaaS, and=
+ web3 =E2=80=93 about the importance of community. There are far fewer actu=
+al examples of building community-first in a way that translates into real =
+metrics. Glossier comes to mind as a good example of a similar idea, conten=
+t-to-commerce, and many companies build strong communities within their cus=
+tomer bases, but starting with the community is rare.=C2=A0
+The idea of starting with a community and then building products and servic=
+es specifically for them is one I=E2=80=99ve been obsessed with for a while=
+=2E When I was thinking about launching N=
+ot Boring Club pre-COVID, I wrote a =
+memo-to-self in Notion on just this topic:=C2=A0
+If I=E2=80=99m being honest, the target customer I was thinking of for Not =
+Boring Club would have been too diffuse to pull off a community-first busin=
+ess really well. They=E2=80=99d have too many different needs, and not enou=
+gh of the same ones.=C2=A0
+But the idea stuck with me, and when I met Bravado=E2=80=99s Sahil Mansuri,=
+ I knew I=E2=80=99d found someone doing it right. Today, we=E2=80=99re goin=
+g to dive into Bravado=E2=80=99s playbook. It hasn=E2=80=99t been easy to g=
+o community-first, but the effort is beginning to pay off spectacularly, an=
+d I expect it to compound for a long time to come.
+This post is a Sponsored Deep Dive. I always say that I only write about co=
+mpanies that I=E2=80=99d invest in, and fortunately, we were able to invest=
+ in Bravado out of Not Boring Capital. You can read more about how I choose=
+ which companies to work with on Sponsored Deep Dives here [ https://substa=
+ck.com/redirect/bced8ac6-a5be-4c1b-9ff6-df165a314c2a?r=3D9p0gt ].
+This is the last essay I=E2=80=99m writing until September, although we hav=
+e some incredible guest posts lined up. Enjoy the rest of your summer!=C2=
+=A0
+Let=E2=80=99s get to it.
+The ABCs of Bravado
+ABC. Always Be Closing.=C2=A0
+Partially thanks to Glenngary, Glen Ross, partially thanks to those calls a=
+nd emails you get, and partially thanks to cringe posts on LinkedIn, sales =
+has developed a cartoonish reputation.=C2=A0
+While sales is a great way to make a lot of money, and the best path for no=
+n-technical people to get into tech, it=E2=80=99s not a career that most pe=
+ople dream of, the way they dream of becoming engineers or product managers=
+ or designers or founders.=C2=A0
+Sahil Mansuri [ https://substack.com/redirect/4049490c-3a00-4577-a0ff-fa8d2=
+f7ca874?r=3D9p0gt ], the founder and CEO of Bravado [ https://substack.com/=
+redirect/fb073e36-4c89-4eb1-9543-4a335eb50561?r=3D9p0gt ], wants to change =
+that. =E2=80=9CI LOVE sales. I want to turn sales into a profession that pe=
+ople aspire to,=E2=80=9D he told me when we met over Zoom for his Series B =
+pitch in February. Bravado=E2=80=99s homepage captures its founder=E2=80=99=
+s enthusiasm:=C2=A0
+=E2=80=9CSales is the best job in the world.=E2=80=9D=C2=A0
+Sahil=E2=80=99s enthusiasm for sales is infectious, and his pitch worked. N=
+ot Boring Capital invested in Bravado=E2=80=99s Series B, a $26 million rou=
+nd led by Tiger with participation from Redpoint, Freestyle Capital, Flow V=
+entures, Precursor Ventures, Mark Pincus, and my friends Lenny Rachitsky [ =
+https://substack.com/redirect/017528e2-9a9d-4cd8-a884-c9f409bc6510?r=3D9p0g=
+t ] and Sahil Bloom [ https://substack.com/redirect/02a8ef46-4e1d-4ba8-90c2=
+-237b73aa237b?r=3D9p0gt ].=C2=A0=C2=A0
+When Wander [ https://substack.com/redirect/db869af9-b100-4cb4-8977-477964b=
+d0da5?r=3D9p0gt ] CEO John Andrew Entwistle [ https://substack.com/redirect=
+/31e4b05b-8693-4aac-90e1-5b3daffd56cd?r=3D9p0gt ] offered to introduce me t=
+o Sahil, I was a little skeptical =E2=80=93 another sales platform? I wasn=
+=E2=80=99t sure it answered the =E2=80=9CSo what?=E2=80=9D question I ask w=
+hen I=E2=80=99m considering an investment, or that sales software counted a=
+s a hard startup [ https://substack.com/redirect/13f73e79-beb3-4d34-bd0d-69=
+4ea0f36adc?r=3D9p0gt ]. But I trust JAE and there were a bunch of things to=
+ love about the company and the industry it=E2=80=99s tackling:=C2=A0
+Industry: Sales is the #1 most popular role in the country, and B2B Sales i=
+s the 3rd fastest-growing
+Grit: Sahil started Bravado five years ago, and they=E2=80=99ve had a produ=
+ct in-market for 3.5 years, but they didn=E2=80=99t start monetizing until =
+last year.=C2=A0
+Growth: Bravado scaled from $0 to $4 million in ARR in 9 months when it lau=
+nched its Jobs product with Sahil as, ironically, the company=E2=80=99s onl=
+y salesperson
+It all clicked, though, when Sahil laid out the approach Bravado=E2=80=99s =
+taken to get to where it is, and the optionality that gives the company in =
+the future. It=E2=80=99s that approach that we=E2=80=99re going to dive int=
+o today: community-first distribution.=C2=A0
+In The Good Thing About Hard Things, I wrote that =E2=80=9CHard startups on=
+ the bits side are solving difficult technical challenges, creating new bus=
+iness models, or touching industries that previously didn=E2=80=99t make se=
+nse to touch.=E2=80=9D
+While community-first isn=E2=80=99t a brand new business model =E2=80=93 ev=
+ery company and DAO talks about building community-first =E2=80=93 Bravado =
+has executed on that playbook brilliantly, building a community for years b=
+efore monetizing it effectively, in a way that I haven=E2=80=99t seen befor=
+e.=C2=A0
+Sahil calls it =E2=80=9Creverse engineering a SaaS company.=E2=80=9D Instea=
+d of building software for salespeople and then bolting on a community of c=
+ustomers, a brand, conferences, and the like, Sahil started by building a f=
+ree professional network for salespeople, like =E2=80=9CStackOverflow for S=
+ales=E2=80=9D: one place where salespeople can go to get better at their jo=
+bs.
+It was a slog, and after three years in the trenches, the community didn=E2=
+=80=99t really take off until last year, when the company decided to make i=
+ts message boards pseudonymous so that, unlike LinkedIn, =E2=80=9Cpeople ca=
+n ask for real advice without bloviating.=E2=80=9D With that one shift, Bra=
+vado=E2=80=99s free product, the War Room, took off. Today, Bravado has ove=
+r 250,000 salespeople in its network, representing 50,000 companies. And th=
+ose 250k people had to go through some friction to get there; I went throug=
+h the signup process, and it=E2=80=99s a meaty eleven steps, including conn=
+ecting LinkedIn to verify your responses.=C2=A0
+That traction is a clear sign that Bravado fills a hole in the market for s=
+alespeople who want to get better at their jobs by learning from a communit=
+y of top sellers. . Out of over 4,000 accredited universities in the US, on=
+ly 50 have a major or minor in sales. There=E2=80=99s no Dribbble or Figma =
+for salespeople, like there is for designers. Salespeople have made do on L=
+inkedIn, but there=E2=80=99s gotta be a better way to get tips and advice, =
+and to just celebrate a win, than doing it in view of your whole profession=
+al network.=C2=A0
+That=E2=80=99s the hole War Room fills, but War Room is just the first step=
+ in a brilliant strategy to build products for the community that Bravado h=
+as so patiently built. The reason Sahil built Bravado in the first place wa=
+s to build better products for salespeople after realizing that all of the =
+existing ones =E2=80=9Care awful.=E2=80=9D But in a market dominated by a g=
+iant like Salesforce, he knew he couldn=E2=80=99t just build a product and =
+try to sell it the same way all of the would-be Salesforce-killers have tri=
+ed.=C2=A0=C2=A0
+The community-first strategy has paid off handsomely for Bravado. Thanks to=
+ War Room, when Bravado turned on its first paid product, Jobs, it grew to =
+$4 million in revenue in 9 months at a $4 blended Customer Acquisition Cost=
+ (CAC) with 95% organic growth. When the hiring market recently turned sour=
+, it listened to its members in the War Room, built off of the Jobs product=
+ foundation, and quickly launched Flex. Flex, which lets sales professional=
+s work as Freelancers, opens up new options for the future of Bravado, for =
+who gets hired, and how salespeople leverage themselves.=C2=A0
+That=E2=80=99s what building community-first enables: optionality. With the=
+ War Room humming, Bravado=E2=80=99s just getting started on its quest to b=
+uild better products for salespeople. In the process, it=E2=80=99s rewritin=
+g the playbook for bottoms-up, community-first go to market. I think that i=
+ntegrating this deeply with the community will become table stakes for new =
+SaaS startups that want to build deep moats going forward.
+Today, we=E2=80=99ll dive in to understand the ABCs of the community-first =
+juggernaut Bravado is building, and where it might go in the future:=C2=A0
+Sahil=E2=80=99s Sales Story=C2=A0
+Meet Bravado: The Anti-SaaS SaaS Company
+From ABCs to JOBs
+Bear Market Flex=C2=A0
+The Future of Sales
+To understand where Bravado=E2=80=99s headed, you need to understand how Sa=
+hil got to Bravado.=C2=A0
+Sahil=E2=80=99s Sales Story
+In May, Sahil joined me on Not Boring Founders to talk sales. In response t=
+o my first question, =E2=80=9CWhat will the world look like in a decade if =
+you=E2=80=99re wildly successful in your mission?=E2=80=9D, he said:=C2=A0
+When kids are growing up, someone wants to be an astronaut. Someone wants t=
+o be a firefighter. These days, I think a lot of people want to be a tech f=
+ounder or an engineer. I don't know a single kid that grows up and is like,=
+ man, one day, I hope I get to be a salesperson, you know? No, one's got th=
+eir little GI Salesperson Jane character that they're running around with.=
+=C2=A0
+His mission is to change that, to build a world in which:=C2=A0
+People aspire to be in sales.
+Sales is recognized as an amazing way for non-technical people to break int=
+o tech.
+Sales is taught in high school and college as a skill that you need in orde=
+r to be successful.=C2=A0
+It=E2=80=99s a mission that comes from personal experience. Growing up, Sah=
+il said, =E2=80=9CI was good at math, I was good at tinkering, I took every=
+ AP physics, chem, etc=E2=80=A6.=E2=80=9D He was smart, but he had no idea =
+what he wanted to do. But while he was in college in Washington, DC, he did=
+ what people in DC do: got involved in politics. Specifically, he joined th=
+e Obama Campaign in Field Operations.=C2=A0
+Field Operations is essentially sales. Going door-to-door explaining your c=
+andidate=E2=80=99s position, hosting events to get people excited, and lots=
+ and lots of cold calling. And Sahil loved it. He had found his calling.=C2=
+=A0
+After school, Sahil joined Meltwater, a 600 person sales organization, as a=
+ Sales Manager, and quickly became the #1 sales representative in the compa=
+ny=E2=80=99s 10-year history. Within two years, he was promoted to Managing=
+ Director and sold to companies like Exxon, Prudential, Pernod Ricard, AIG,=
+ Panera Bread, and the Air Force.=C2=A0
+He left Meltwater in 2011 to become the 23rd employee at a little startup c=
+alled Glassdoor [ https://substack.com/redirect/3b41ab4b-2d61-46d9-9f71-157=
+7e4b7b6c5?r=3D9p0gt ] as an Enterprise Sales Manager. Selling to companies =
+like Google, Facebook, Microsoft, and Amazon, he was the #1 rep out of 50 i=
+n his first year with the company.=C2=A0
+Moving on up, Sahil got hired as the VP of Sales at a smaller startup calle=
+d Virool, and there, he became the largest customer of a tiny Israeli compa=
+ny, SalesPredict, building a predictive AI lead scoring tool. The product w=
+asn=E2=80=99t intuitive for the user, and when Sahil gave feedback to the S=
+alesPredict team, they asked him to join them and fix it himself.
+In his time in sales, Sahil had realized two things about sales software:
+All sales tools are awful.=C2=A0
+There=E2=80=99s no bottoms-up sales tooling.
+He wanted to understand why that was, so he took the job and joined SalesPr=
+edict to help build its product. Working with designers, engineers, and dat=
+a scientists, he needed to brush up on his technical skills, so he started =
+learning R. When he got stuck on an issue, he turned to his now co-founder =
+Yoni Acriche to ask for help, and Yoni replied, =E2=80=9COh, just Google it=
+=2E=E2=80=9D
+So he copy-pasted the code he was having trouble with into Google, and voil=
+a=E2=80=A6=C2=A0
+The exact issue popped up in Stack Overflow [ https://substack.com/redirect=
+/db0551d7-776d-49cc-ab11-b25056a019d4?r=3D9p0gt ], the =E2=80=9Cpublic plat=
+form building the definitive collection of coding questions & answers,=E2=
+=80=9D with dozens of helpful answers.=C2=A0
+=E2=80=9CWhy doesn=E2=80=99t something like this exist in sales?=E2=80=9D h=
+e wondered.=C2=A0
+Then, when he was interviewing a designer, she sent him a link to her portf=
+olio in Dribbble [ https://substack.com/redirect/7643493c-b49a-4e3d-ad5e-88=
+1b0e01da16?r=3D9p0gt ], the community where creatives share their work.=C2=
+=A0
+Once again, he wondered, =E2=80=9CWhy doesn=E2=80=99t something like this e=
+xist for sales?=E2=80=9D=C2=A0
+The question kept coming back up as he played with the delightful software =
+that non-salespeople got to use, right when the =E2=80=9Cconsumerization of=
+ enterprise software [ https://substack.com/redirect/2ea44a6f-0eb3-4847-b23=
+5-52ac3f5ae48e?r=3D9p0gt ]=E2=80=9D was in full swing, and became increasin=
+gly intent on bringing the same level of software to sales. Finally, in the=
+ summer of 2016, eBay acquired SalesPredict for $40 million [ https://subst=
+ack.com/redirect/7af4f244-1ac1-44b5-b8b3-81c6226748ab?r=3D9p0gt ], and Sahi=
+l decided it was time to scratch the itch.=C2=A0=C2=A0
+But having spent so much time in sales at early-stage startups, Sahil knew =
+what a grind it was getting even really good software in customers=E2=80=99=
+ hands via the traditional enterprise sales model, so he set out to flip th=
+e script.
+Meet Bravado: The Anti-SaaS SaaS Company
+Product-led, or bottoms-up, growth has become a popular approach to custome=
+r acquisition for consumerized software startups. Give away a free version =
+of software that a handful of employees love to use, make it really easy fo=
+r them to sign up for pro features with a credit card, and then layer on sa=
+les using those early adopters as a beachhead for the company-wide deal. Pr=
+oduct-led growth has propelled companies like Dropbox, Zoom, Figma, Notion,=
+ Slack and many more to great heights.=C2=A0
+That motion is standard in most enterprise SaaS verticals, but it hasn=E2=
+=80=99t really hit sales. Quick: think of a sales tool that people love so =
+much that they beg their management teams to buy it for the company. I can=
+=E2=80=99t either. More often, at some point, after trying some spreadsheet=
+s, then graduating to a lightweight CRM, the VP Sales convinces the CEO: it=
+=E2=80=99s time. Salesforce.=C2=A0
+=E2=80=9CI=E2=80=99ve done this before,=E2=80=9D they say. =E2=80=9CIt will=
+ be easy,=E2=80=9D they say. =E2=80=9CThree months, tops!=E2=80=9D they pro=
+mise.=C2=A0
+And then, inevitably and invariably, six months later, the VP Sales is brea=
+thing down the engineering team=E2=80=99s neck and keeping the Sales Ops pe=
+rson in the office late every night =E2=80=9Cuntil we get this damn thing i=
+mplemented.=E2=80=9D They finally do. It=E2=80=99s not perfect, but it work=
+s. Leadership finally has a good pulse on the company=E2=80=99s pipeline. T=
+hey understand the funnel, and realize that there=E2=80=99s a big leak betw=
+een =E2=80=9CMQL=E2=80=9D and =E2=80=9CClosed-Won.=E2=80=9D They re-jigger =
+the flow; SDRs are now to call MQLs twice, email twice, and then call a thi=
+rd time. The sales team, of course, doesn=E2=80=99t love this new system. T=
+heir boss is on them for not making enough calls. Every night, after they=
+=E2=80=99re done doing their real job, they sit there and update Salesforce=
+ because those automatic integrations they were promised are broken and the=
+ engineering team is focused on customer-facing work and they=E2=80=99ll fi=
+x it in a few months. The company misses revenue targets. The VP Sales is f=
+ired (VP Sales, incidentally, have the shortest tenure of any executive pos=
+ition at 19 months [ https://substack.com/redirect/c3b860b5-99a6-47ef-956c-=
+307696c421b8?r=3D9p0gt ]). The new Chief Revenue Officer (she has 25 years =
+experience, she=E2=80=99s not settling for =E2=80=9CVP Sales=E2=80=9D) come=
+s in and says she can turn it around, no problem, =E2=80=9CWe just need to =
+set up our Salesforce the right way so I=E2=80=99m properly instrumented.=
+=E2=80=9D And on it goes.=C2=A0
+Whew. Where was I?=C2=A0
+Right, for some reason, bottoms-up software hasn=E2=80=99t taken off in sal=
+es like it has in other verticals, so companies end up buying clunky, hard-=
+to-implement old software. While =E2=80=9CNo one ever got fired for buying =
+Salesforce=E2=80=9D certainly isn=E2=80=99t true in the long-run, it sounds=
+ right in the short-term.=C2=A0
+Given his decade-plus in sales, Sahil knew that he wasn=E2=80=99t going to =
+win the sales tools category with a traditional enterprise sales approach, =
+or even with a bottoms-up approach. =E2=80=9CThe push to the first few mill=
+ion in ARR is really hard and expensive,=E2=80=9D he explained, =E2=80=9Cun=
+til you build a brand, get reviews, write case studies, earn trust, host co=
+nferences, and build momentum.=E2=80=9D=C2=A0
+Instead, Sahil decided to take a different tact. He calls Bravado an =E2=80=
+=9CAnti-SaaS SaaS Company.=E2=80=9D It=E2=80=99s an inverted approach: star=
+t by building a community of sales professionals, listen to what they need,=
+ build products to fill those needs, get feedback from the community, and i=
+terate.
+By building community-first, Bravado was building a brand, getting access t=
+o a pool of customer insights, and actually developing its own distributed =
+sales team for its eventual products.=C2=A0
+Think of it this way. Software companies typically generate high margins by=
+ building products with high fixed costs (typically R&D) and low marginal c=
+osts (it costs practically nothing to make copies of the software). Build o=
+nce, sell millions of times, profit. Of course, there are still marginal cu=
+stomer acquisition costs =E2=80=93 it takes some amount of money to convinc=
+e each customer to use or buy the product. What Bravado is doing has a simi=
+lar logic. It spent high upfront costs building a community of its target c=
+ustomers, and now, it should be able to distribute new products to them and=
+ through them at low marginal customer acquisition costs.
+So Bravado started simple, with a community for salespeople.=C2=A0
+People joined, but growth was slow. Bravado experimented with new formats. =
+In one iteration, it let sales leaders start their own communities, like #L=
+ive-Better-Sell-Better and #Other-Side-of-Sales and invite members. At the =
+time, all profiles on Bravado were attached to real people with their real =
+names, and Sahil told me that while people were finding value, there was st=
+ill a lot of LinkedIn-esque posturing.=C2=A0
+To learn how Bravado caught lightning in a bottle, and how it turned commun=
+ity-first into real revenue in 7 months=E2=80=A6=20
+If you=E2=80=99re interested in learning more about Bravado, including the =
+new Flex product for companies to hire salespeople on a 100% commission bas=
+is, or generally want to nerd out about how to grow revenue during the down=
+turn, you can reach Sahil directly at sahil.mansuri@bravado.co.
+Thanks to Sahil for working with me, and to Dan for editing!
+That=E2=80=99s all for today, we=E2=80=99ll see you tomorrow morning for a =
+Weekly Dose of Optimism!
+Thanks for reading,=20
+Packy
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9=
+yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TX=
+pVME9Td2ljRzl6ZEY5cFpDSTZOamN3Tmpnek5qQXNJbWxoZENJNk1UWTFPVFl4TnpZM05Dd2lhW=
+E56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LmFOY0pG=
+YXdtakdVVWwzR1Z4enUyUV9fTHQ3bWFGQWNTc2VjNml5VU93OUkiLCJwIjo2NzA2ODM2MCwicyI=
+6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NTk2MTc2NzQsImlzcyI6InB1Yi=
+0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.f33EPfu03BA1SCYJw59o1ZEkDFUL-rm25DxRIjiM=
+o2s?
+--aeb4151cde51fbdda3f63c5ccc5aabc7c03c88a44840abcf00f268a4a867
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html style=3D"--border-radius: 4px; --border-radius-4: 4px; --border-radiu=
+s-8: 8px; --color-bg-primary: white; --color-dark-detail: #333333; --color-=
+dark-primary: #e0e0e0; --color-primary: #404040; --color-secondary: #808080=
+; --color-substack-accent: #ff6719; --color-substack-accent-bg: #fff7f3; --=
+color-substack-bg: #ffffff; --color-substack-secondary: #808080; --color-su=
+bstack-wash: #f5f5f5; --color-tertiary: #a7a7a7; --color-text-dark-pencraft=
+: #404040; --color-text-dark-wash: #252525; --color-utility-detail: #e0e0e0=
+; --font-family-text: 'SF Pro Text', -apple-system, ui-sans-serif, BlinkMac=
+SystemFont,
+    'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', =
+'Segoe UI Emoji', 'Segoe UI Symbol'; --font-family-title: 'SF Pro Display',=
+ -apple-system-headline, var(--font-family-text); --font-size-14: 14px; --f=
+ont-weight-600: 600; --letter-spacing-small: -0.15px; --padder: 16px;"><hea=
+d><title>The ABCs of Bravado</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup iframe.spotify-wrap,
+  .typography.editor .markup iframe.spotify-wrap,
+  .typography .markup a.spotify-wrap,
+  .typography.editor .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.youtube-wrap div.youtube-screen,
+  .typography.editor .markup div.youtube-wrap div.youtube-screen,
+  .typography .markup div.vimeo-wrap div.youtube-screen,
+  .typography.editor .markup div.vimeo-wrap div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media print {
+  .typography .markup .button-wrapper,
+  .typography.editor .markup .button-wrapper {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .social-media-share-preview__description {
+    -webkit-line-clamp: 2;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer {
+    padding: 36px;
+    height: 680px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+
+
+@media (max-width: 470px) {
+  .subscribe-dialog.subscribe-dialog-modal {
+    max-width: calc(100% - 30px);
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .subscribe-dialog.subscribe-dialog-floater-center.collapsed {
+    display: none;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .collapse-button {
+    display: none;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-header {
+    margin-top: 32px;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-header .close-button {
+    display: flex;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-input {
+    margin-bottom: 32px;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-description.description-mobile {
+    display: block;
+  }
+  .subscribe-dialog.subscribe-dialog-floater-center .subscribe-dialog-conte=
+nt .publication-description.description-desktop {
+    display: none;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .subscribe-dialog.subscribe-dialog-floater-side {
+    right: 15px;
+    max-width: calc(100% - 30px);
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 32px 0 0 0;
+  }
+}
+
+
+@media print {
+  @page {
+    margin: 16mm;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media print {
+  .post .post-footer {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-footer.use-separators {
+    justify-content: center;
+    margin: 0 -16px;
+    padding: 0;
+    gap: 0;
+  }
+}
+
+
+@media print {
+  .post .post-end-cta-full {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media print {
+  .use-theme-bg .post p,
+  .use-theme-bg .post h1,
+  .use-theme-bg .post h2,
+  .use-theme-bg .post h3,
+  .use-theme-bg .post h4,
+  .use-theme-bg .post h5,
+  .use-theme-bg .post h6 {
+    color: #000;
+  }
+  .use-theme-bg .post p a,
+  .use-theme-bg .post h1 a,
+  .use-theme-bg .post h2 a,
+  .use-theme-bg .post h3 a,
+  .use-theme-bg .post h4 a,
+  .use-theme-bg .post h5 a,
+  .use-theme-bg .post h6 a {
+    color: #00f;
+  }
+}
+
+
+@media print {
+  .use-theme-bg .post a.ui-secondary a {
+    color: #00f;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  .header-with-anchor-widget .header-anchor-widget .header-anchor-widget-bu=
+tton-container {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .footer {
+    outline: 8px solid #f5f5f5 !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+  }
+}
+
+
+@media print {
+  .comments-page .container .thread-head p,
+  .comments-page .container .thread-head h1,
+  .comments-page .container .thread-head h2,
+  .comments-page .container .thread-head h3,
+  .comments-page .container .thread-head h4,
+  .comments-page .container .thread-head h5,
+  .comments-page .container .thread-head h6 {
+    color: #000;
+  }
+  .comments-page .container .thread-head p a,
+  .comments-page .container .thread-head h1 a,
+  .comments-page .container .thread-head h2 a,
+  .comments-page .container .thread-head h3 a,
+  .comments-page .container .thread-head h4 a,
+  .comments-page .container .thread-head h5 a,
+  .comments-page .container .thread-head h6 a {
+    color: #00f;
+  }
+}
+
+
+@media print {
+  .comments-page .container .thread-head a.ui-secondary a {
+    color: #00f;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 17px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .reader2-text-b3 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .reader2-text-h4 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media print {
+  .use-theme-bg table.thread-head p,
+  .use-theme-bg table.thread-head h1,
+  .use-theme-bg table.thread-head h2,
+  .use-theme-bg table.thread-head h3,
+  .use-theme-bg table.thread-head h4,
+  .use-theme-bg table.thread-head h5,
+  .use-theme-bg table.thread-head h6 {
+    color: #000;
+  }
+  .use-theme-bg table.thread-head p a,
+  .use-theme-bg table.thread-head h1 a,
+  .use-theme-bg table.thread-head h2 a,
+  .use-theme-bg table.thread-head h3 a,
+  .use-theme-bg table.thread-head h4 a,
+  .use-theme-bg table.thread-head h5 a,
+  .use-theme-bg table.thread-head h6 a {
+    color: #00f;
+  }
+}
+
+
+@media print {
+  .use-theme-bg table.thread-head a.ui-secondary a {
+    color: #00f;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media print {
+  .mobile-footer-ufi {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 630px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (max-width: 620px) {
+  .poll-editor-modal {
+    min-width: calc(100% - 20px);
+  }
+}
+
+
+@media (max-width: 750px) {
+  .poll-embed .poll-anchor-target .poll-anchor-copy-button {
+    left: 8px;
+    top: 45px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    width: 552px;
+    padding: 26px 24px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .m=
+odal-exit-btn {
+    margin-right: -20px;
+  }
+}
+
+
+@media (min-width: 631px) {
+  .sm\:tw-relative {
+    position: relative !important;
+  }
+  .sm\:tw-left-1 {
+    left: 0.25rem !important;
+  }
+  .sm\:tw-my-8 {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .sm\:tw-mx-0 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .sm\:tw-mt-0 {
+    margin-top: 0px !important;
+  }
+  .sm\:tw-ml-3 {
+    margin-left: 0.75rem !important;
+  }
+  .sm\:tw-mb-0 {
+    margin-bottom: 0px !important;
+  }
+  .sm\:tw-mb-1 {
+    margin-bottom: 0.25rem !important;
+  }
+  .sm\:tw-block {
+    display: block !important;
+  }
+  .sm\:tw-inline-block {
+    display: inline-block !important;
+  }
+  .sm\:tw-flex {
+    display: flex !important;
+  }
+  .sm\:tw-hidden {
+    display: none !important;
+  }
+  .sm\:tw-h-7 {
+    height: 1.75rem !important;
+  }
+  .sm\:tw-h-screen {
+    height: 100vh !important;
+  }
+  .sm\:tw-h-56 {
+    height: 14rem !important;
+  }
+  .sm\:tw-max-h-\[60vh\] {
+    max-height: 60vh !important;
+  }
+  .sm\:tw-w-auto {
+    width: auto !important;
+  }
+  .sm\:tw-w-7 {
+    width: 1.75rem !important;
+  }
+  .sm\:tw-w-full {
+    width: 100% !important;
+  }
+  .sm\:tw-w-56 {
+    width: 14rem !important;
+  }
+  .sm\:tw-w-\[500px\] {
+    width: 500px !important;
+  }
+  .sm\:tw-max-w-lg {
+    max-width: 32rem !important;
+  }
+  .sm\:tw-max-w-none {
+    max-width: none !important;
+  }
+  .sm\:tw-translate-y-0 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-95 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-100 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-flex-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+  .sm\:tw-items-start {
+    align-items: flex-start !important;
+  }
+  .sm\:tw-gap-4 {
+    gap: 1rem !important;
+  }
+  .sm\:tw-gap-5 {
+    gap: 1.25rem !important;
+  }
+  .sm\:tw-gap-1 {
+    gap: 0.25rem !important;
+  }
+  .sm\:tw-gap-2 {
+    gap: 0.5rem !important;
+  }
+  .sm\:tw-space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse))) !important;
+    margin-bottom: calc(0px * var(--tw-space-y-reverse)) !important;
+  }
+  .sm\:tw-border {
+    border-width: 1px !important;
+  }
+  .sm\:tw-p-0 {
+    padding: 0px !important;
+  }
+  .sm\:tw-p-6 {
+    padding: 1.5rem !important;
+  }
+  .sm\:tw-py-2 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .sm\:tw-px-6 {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+  .sm\:tw-pb-4 {
+    padding-bottom: 1rem !important;
+  }
+  .sm\:tw-pb-16 {
+    padding-bottom: 4rem !important;
+  }
+  .sm\:tw-text-left {
+    text-align: left !important;
+  }
+  .sm\:tw-align-middle {
+    vertical-align: middle !important;
+  }
+  .sm\:tw-text-sm {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
+  .sm\:tw-text-4xl {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+  }
+  .sm\:tw-font-medium {
+    font-weight: 500 !important;
+  }
+  .sm\:tw-text-pub-secondary-text {
+    color: #767676 !important;
+  }
+  .sm\:tw-opacity-70 {
+    opacity: 0.7 !important;
+  }
+  .sm\:hover\:tw-opacity-100:hover {
+    opacity: 1 !important;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .md\:tw-left-auto {
+    left: auto !important;
+  }
+  .md\:tw-bottom-4 {
+    bottom: 1rem !important;
+  }
+  .md\:tw-right-4 {
+    right: 1rem !important;
+  }
+  .md\:tw-w-3\/4 {
+    width: 75% !important;
+  }
+  .md\:tw-pl-4 {
+    padding-left: 1rem !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .frontend-components-prompts-WriterShareModal-module__toast--wc1bo {
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .frontend-lib-ProfileSetupToast-module__headerRow--17w27 {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .frontend-reader2-ManageSubscriptionPage-module__highlightRow--1lIkl.fron=
+tend-reader2-ManageSubscriptionPage-module__withPlans--3KhSk {
+    align-items: start;
+    flex-direction: column;
+  }
+  .frontend-reader2-ManageSubscriptionPage-module__highlightButtons--1lIV5 =
+{
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 631px) {
+  .frontend-editor-post-AudioEducationModal-module__modalContainer--3-T0R {
+    height: 600px;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .frontend-publish-stats-pages-reader_referrals_stats-reader_referrals_sta=
+ts-module__popoverWrapper--3Gh5i {
+    display: none;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjIwODA0MTI1MzE0LjMuN2Q3NTdlMzk2YTI2NTU0ZkBtZzIuc3Vic3RhY2suY29tPiIsInUiOj=
+E2MjgzNTQ5LCJyIjoibm90Ym9yaW5nQGtoYW1lbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvb=
+SIsInAiOjY3MDY4MzYwLCJ0IjoibmV3c2xldHRlciIsImEiOiJldmVyeW9uZSIsInMiOjEwMDI1=
+LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNjU5NjE3Njc1LCJ=
+pc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.5WxQcBs8Wp_uOijz-81rtAROdQXotC0psd2Q3Rfnry=
+4" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !impo=
+rtant;width:1px !important;border-width:0 !important;margin-top:0 !importan=
+t;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !impor=
+tant;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !=
+important;padding-left:0 !important;"/><div style=3D"display:none;font-size=
+:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;o=
+verflow:hidden;" class=3D"preview">Building a Community-First Business to E=
+levate Sales &#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;</div><table=
+ role=3D"presentation" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" class=3D"email-body-container"><tr><td></td><td width=3D"550" c=
+lass=3D"content"></td><td></td></tr><tr><td></td><td align=3D"left" width=
+=3D"550" class=3D"content"><div style=3D"font-size: 16px; line-height: 26px=
+; margin: 0 auto; max-width: 550px; overflow-wrap: break-word; width: 100%;=
+"><table role=3D"presentation" width=3D"100%" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0"><tr><td align=3D"right" style=3D"height: 40px;"><table =
+role=3D"presentation" width=3D"auto" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td><a href=3D"https://substack.com/app-link/post?publicatio=
+n_id=3D10025&post_id=3D67068360&utm_source=3Demail" class=3D"tw-font-body t=
+w-text-ssm tw-text-substack-secondary" style=3D"color: rgb(128,128,128) !im=
+portant; font-family: SF Pro Text, -apple-system, BlinkMacSystemFont, Inter=
+, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe =
+UI Emoji, Segoe UI Symbol !important; font-size: 13px !important;">Open in =
+browser</a></td></tr></table></td></tr></table><div dir=3D"auto" class=3D"p=
+ost typography" style=3D"font-size: 16px; line-height: 26px; padding: 16px =
+0 0 0;"><div class=3D"post-header" style=3D"font-size: 16px; line-height: 2=
+6px;"><h1 class=3D"post-title short published" style=3D"-moz-osx-font-smoot=
+hing: antialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; fon=
+t-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe U=
+I', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Em=
+oji', 'Segoe UI Symbol'; font-size: 40px; font-weight: bold; line-height: 1=
+30%; margin: 0.378em 0 0 0;"><a href=3D"https://substack.com/redirect/2/eyJ=
+lIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvdGhlLWFiY3Mtb2YtYnJhdmFkbz90b2tlbj=
+1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5emRGOXBaQ0k2Tmpjd05qZ3pOakFzSW1sa=
+GRDSTZNVFkxT1RZeE56WTNOQ3dpYVhOeklqb2ljSFZpTFRFd01ESTFJaXdpYzNWaUlqb2ljRzl6=
+ZEMxeVpXRmpkR2x2YmlKOS5iYU1FWnk3TDVjbXRDX3MtWXM4eHUzTzROUjRVR05GS3lPNGwxcnR=
+ac2o0IiwicCI6NjcwNjgzNjAsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0Ij=
+oxNjU5NjE3Njc0LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.2Xmkj7ZRvu=
+PHZKVSxBAcmaFWlLal2sovFzMEzHGVD70?" style=3D"color: #1a1a1a; text-decoratio=
+n: none;">The ABCs of Bravado</a></h1><h3 class=3D"subtitle" style=3D"-moz-=
+osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; color=
+: #767676; font-family: 'SF Compact Display', -apple-system, BlinkMacSystem=
+Font, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji'=
+, 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 20px; font-weight: normal=
+; line-height: 1.16em; margin: 4px 0 8px; margin-top: 8px;">Building a Comm=
+unity-First Business to Elevate Sales</h3><table cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"post-meta custom" style=3D"align-items: center; height: =
+20px; margin: 1em 0;"><tr><td title=3D"2022-08-04T12:53:18.694Z" class=3D"p=
+ost-meta-item post-date" style=3D"color: #767676; font-family: -apple-syste=
+m, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'A=
+pple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; fo=
+nt-weight: 400; height: 14px; padding: 0px 12px 0px 0; padding-bottom: 0; p=
+adding-top: 0; position: relative; text-decoration: none; white-space: nowr=
+ap;"><time dateTime=3D"2022-08-04T12:53:18.694Z">Aug 4</time></td><td class=
+=3D"post-meta-item icon" style=3D"color: #767676; font-family: -apple-syste=
+m, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'A=
+pple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; fo=
+nt-weight: 400; height: 14px; padding: 0px 12px 0px 0; padding-bottom: 0; p=
+adding-top: 0; position: relative; text-decoration: none; text-indent: 3px;=
+ white-space: nowrap;"><span class=3D"post-meta-icon like-reaction-button">=
+<a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9y=
+aW5nLmNvL2FwaS92MS9wb3N0L2VtYWlsLXJlYWN0aW9uP3V0bV9zb3VyY2U9c3Vic3RhY2smdXR=
+tX21lZGl1bT1lbWFpbCZ0b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5emRGOX=
+BaQ0k2Tmpjd05qZ3pOakFzSW5KbFlXTjBhVzl1SWpvaTRwMmtJaXdpYVdGMElqb3hOalU1TmpFM=
+05qYzBMQ0pwYzNNaU9pSndkV0l0TVRBd01qVWlMQ0p6ZFdJaU9pSnlaV0ZqZEdsdmJpSjkuTXFa=
+VFh4UmNFbFp0ckMycEVMXzZuZ3pQX1VkNzZWa3ZqbXN4dWFEYnNtayIsInAiOjY3MDY4MzYwLCJ=
+zIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY1OTYxNzY3NCwiaXNzIjoicH=
+ViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.CPBYi3c-h28YApRrQI38zaMRfdq9mYeEVHi9O=
+ylDM4g?" class=3D"like-button" style=3D"color: #767676; display: block; tex=
+t-decoration: none;"><img src=3D"https://substackcdn.com/image/fetch/w_32,c=
+_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2F=
+icon%2FLucideHeart%3Fv%3D4%26height%3D32%26fill%3Dtransparent%26stroke%3D%2=
+523757575%26strokeWidth%3D2" width=3D"16" height=3D"16" style=3D"border: no=
+ne !important; display: inline-block; float: left; height: 14px; max-width:=
+ 16px; vertical-align: top; width: auto;" alt=3D""></a></span></td><td clas=
+s=3D"post-meta-item icon" style=3D"color: #767676; font-family: -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, '=
+Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; f=
+ont-weight: 400; height: 14px; padding: 0px 12px 0px 0; padding-bottom: 0; =
+padding-top: 0; position: relative; text-decoration: none; text-indent: 3px=
+; white-space: nowrap;"><a class=3D"" href=3D"https://substack.com/redirect=
+/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvdGhlLWFiY3Mtb2YtYnJhdmFkby9j=
+b21tZW50cz90b2tlbj1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5emRGOXBaQ0k2Tmp=
+jd05qZ3pOakFzSW1saGRDSTZNVFkxT1RZeE56WTNOQ3dpYVhOeklqb2ljSFZpTFRFd01ESTFJaX=
+dpYzNWaUlqb2ljRzl6ZEMxeVpXRmpkR2x2YmlKOS5iYU1FWnk3TDVjbXRDX3MtWXM4eHUzTzROU=
+jRVR05GS3lPNGwxcnRac2o0IiwicCI6NjcwNjgzNjAsInMiOjEwMDI1LCJmIjp0cnVlLCJ1Ijox=
+NjI4MzU0OSwiaWF0IjoxNjU5NjE3Njc0LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJ=
+lY3QifQ.c9dQ1zTTH5yEVtz7ei2VHDXjbpulay8hfDs5yTULejk?&utm_source=3Dsubstack&=
+utm_medium=3Demail" style=3D"color: #767676; display: block; text-decoratio=
+n: none;"><img src=3D"https://substackcdn.com/image/fetch/w_32,c_scale,f_pn=
+g,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLuci=
+deComments%3Fv%3D4%26height%3D32%26fill%3Dtransparent%26stroke%3D%252375757=
+5%26strokeWidth%3D2" width=3D"16" height=3D"16" style=3D"border: none !impo=
+rtant; display: inline-block; float: left; height: 14px; max-width: 16px; v=
+ertical-align: top; width: auto;" alt=3D"Comment" class=3D"comment-icon pos=
+t-meta-icon"></a></td><td class=3D"post-meta-item icon" style=3D"color: #76=
+7676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, H=
+elvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe =
+UI Symbol'; font-size: 14px; font-weight: 400; height: 14px; margin-right: =
+0; padding: 0px 12px 0px 0; padding-bottom: 0; padding-right: 0; padding-to=
+p: 0; position: relative; text-decoration: none; text-indent: 3px; white-sp=
+ace: nowrap;"><span><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0=
+cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvdGhlLWFiY3Mtb2YtYnJhdmFkbz91dG1fc291cmNlPXN=
+1YnN0YWNrJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NvbnRlbnQ9c2hhcmUmYWN0aW9uPXNoYXJlJn=
+Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2lhV0YwSWpveE5qVTVOakUzTmpjMExDS=
+nBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpkV0lpT2lKd2IzTjBMWEpsWVdOMGFXOXVJbjAucHBo=
+SG1jb3M0NHVWVWxrRkdxdEJWWjE0eS1HdmFncWtxM0dCNmg2TXI5WSIsInAiOjY3MDY4MzYwLCJ=
+zIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY1OTYxNzY3NCwiaXNzIjoicH=
+ViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.zq9rfIm4iWNie0z6fzS57wqbJUbQ8KbZ46IHW=
+kRldI4?" style=3D"color: #767676; display: block; text-decoration: none;"><=
+img src=3D"https://substackcdn.com/image/fetch/w_32,c_scale,f_png,q_auto:go=
+od,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideShare%3Fv=
+%3D4%26height%3D32%26fill%3Dtransparent%26stroke%3D%2523757575%26strokeWidt=
+h%3D2" width=3D"16" height=3D"16" style=3D"border: none !important; display=
+: inline-block; float: left; height: 14px; max-width: 16px; vertical-align:=
+ top; width: auto;" alt=3D"Share" class=3D"recommend-icon post-meta-icon"><=
+/a></span></td></tr></table></div></div><div dir=3D"auto" class=3D"post typ=
+ography" style=3D"font-size: 16px; line-height: 26px; padding: 16px 0 0 0;"=
+><div dir=3D"auto" class=3D"body markup" style=3D"font-size: 16px; line-hei=
+ght: 26px; margin-bottom: 12px; text-align: initial; width: 100%; word-brea=
+k: break-word;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 2=
+6px; margin: 0 0 1em 0; margin-top: 0;"><em><span>Welcome to the&#160;</spa=
+n><strong>636&#160;newly Not Boring people&#160;</strong><span>who have joi=
+ned us since Monday! If you haven&#8217;t subscribed, join&#160;</span><str=
+ong>143,137 </strong><span>smart, curious folks by subscribing here: </span=
+></em></p><div class=3D"subscribe-widget is-signed-up" style=3D"direction: =
+ltr; font-size: 16px; line-height: 26px; margin: 0 0 1em;"><p class=3D"butt=
+on-wrapper" style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 1em 0; text-align: center;"><a href=3D"https://substack.com/redir=
+ect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3N1YnNjcmliZT91dG1fc291cmNlP=
+XBvc3QiLCJwIjo2NzA2ODM2MCwicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQi=
+OjE2NTk2MTc2NzQsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.wq90Zz9EcH=
+NijPBffMwi7y0wzp_Laq0KMtwxY23XDlQ?&utm_medium=3Demail&utm_source=3Dsubscrib=
+e-widget&utm_content=3D67068360" class=3D"button primary subscribe-btn" sty=
+le=3D"background-color: #67bdfc; border: none; border-radius: 4px; box-sizi=
+ng: border-box; color: #ffffff !important; cursor: pointer; display: inline=
+-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,=
+ Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Sego=
+e UI Symbol'; font-size: 16px; font-weight: normal; height: auto; line-heig=
+ht: 20px; margin: 0; opacity: 1; outline: none; padding: 12px 20px; text-al=
+ign: center; text-decoration: none !important; white-space: nowrap;"><span =
+style=3D"color: #ffffff; text-decoration: none;">Subscribe now</span></a></=
+p></div><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"bac=
+kground: #ebebeb; border: none; height: 1px; margin: 48px 0; padding: 0;"><=
+/div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin=
+: 0 0 1em 0;">Hi friends &#128075;,&#160;</p><p style=3D"color: #1a1a1a; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Happy Thursday!&#160;=
+</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin:=
+ 0 0 1em 0;"><span>There&#8217;s been a ton of talk &#8211; in ecommerce, m=
+edia, SaaS, and web3 &#8211; about the importance of community. There are f=
+ar fewer actual examples of building community-first in a way that translat=
+es into real metrics. Glossier comes to mind as a good example of a similar=
+ idea, content-to-commerce, and many companies build strong communities wit=
+hin their customer bases, but </span><em>starting </em><span>with the commu=
+nity is rare.&#160;</span></p><p style=3D"color: #1a1a1a; font-size: 16px; =
+line-height: 26px; margin: 0 0 1em 0;">The idea of starting with a communit=
+y and then building products and services specifically for them is one I&#8=
+217;ve been obsessed with for a while. When I was thinking about launching =
+Not Boring Club pre-COVID, I wrote a memo-to-self in Notion on just this to=
+pic:&#160;</p><div class=3D"captioned-image-container-static" style=3D"font=
+-size: 16px; line-height: 26px; margin-bottom: 16px; text-align: center;"><=
+figure style=3D"display: inline-block; margin: 0 auto; width: 100%;"><table=
+ class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tb=
+ody><tr><td style=3D"text-align: center;"></td><td align=3D"left" class=3D"=
+content" width=3D"719" style=3D"text-align: center;"><a class=3D"image-link=
+" target=3D"_blank" href=3D"https://substack.com/redirect/49525fb8-a13d-46f=
+e-9877-1c64fe219935?r=3D9p0gt" rel=3D"" style=3D"align-items: center; borde=
+r: none; display: block; flex-direction: column; height: auto; margin: 0; p=
+adding: 0; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;s=
+rc&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.am=
+azonaws.com/public/images/41682864-9a49-45d3-8899-cf1c50ec1dfa_719x128.png&=
+quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&q=
+uot;:128,&quot;width&quot;:719,&quot;resizeWidth&quot;:null,&quot;bytes&quo=
+t;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&=
+quot;href&quot;:null,&quot;belowTheFold&quot;:false}" alt=3D"" width=3D"550=
+" height=3D"97.91376912378303" class=3D"wide-image" src=3D"https://substack=
+cdn.com/image/fetch/w_1438,c_limit,f_auto,q_auto:good,fl_progressive:steep/=
+https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.c=
+om%2Fpublic%2Fimages%2F41682864-9a49-45d3-8899-cf1c50ec1dfa_719x128.png" st=
+yle=3D"-ms-interpolation-mode: bicubic; border: none !important; display: b=
+lock; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !impo=
+rtant; vertical-align: middle; width: auto !important;"></a></td><td style=
+=3D"text-align: center;"></td></tr></tbody></table><figcaption class=3D"ima=
+ge-caption" style=3D"color: #767676; font-family: sans-serif; font-size: 14=
+px; font-weight: 300; line-height: 1.4em; text-align: center;"><em>My Notio=
+n, 2019</em></figcaption></figure></div><p style=3D"color: #1a1a1a; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 1em 0;">If I&#8217;m being honest,=
+ the target customer I was thinking of for Not Boring Club would have been =
+too diffuse to pull off a community-first business really well. They&#8217;=
+d have too many different needs, and not enough of the same ones.&#160;</p>=
+<p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0=
+ 1em 0;">But the idea stuck with me, and when I met Bravado&#8217;s Sahil M=
+ansuri, I knew I&#8217;d found someone doing it right. Today, we&#8217;re g=
+oing to dive into Bravado&#8217;s playbook. It hasn&#8217;t been easy to go=
+ community-first, but the effort is beginning to pay off spectacularly, and=
+ I expect it to compound for a long time to come.</p><p style=3D"color: #1a=
+1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>This po=
+st is a Sponsored Deep Dive. I always say that I only write about companies=
+ that I&#8217;d invest in, and fortunately, we were able to invest in Brava=
+do out of Not Boring Capital. You can read more about how I choose which co=
+mpanies to work with on </span><a href=3D"https://substack.com/redirect/bce=
+d8ac6-a5be-4c1b-9ff6-df165a314c2a?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a=
+1a; text-decoration: underline;">Sponsored Deep Dives here</a><span>.</span=
+></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin=
+: 0 0 1em 0;">This is the last essay I&#8217;m writing until September, alt=
+hough we have some incredible guest posts lined up. Enjoy the rest of your =
+summer!&#160;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0 0 1em 0;">Let&#8217;s get to it.</p><div style=3D"font-size=
+: 16px; line-height: 26px;"><hr style=3D"background: #ebebeb; border: none;=
+ height: 1px; margin: 48px 0; padding: 0;"></div><h1 class=3D"header-with-a=
+nchor-widget" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-s=
+moothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -=
+apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, san=
+s-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-siz=
+e: 2em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0; po=
+sition: relative;"><strong>The ABCs of Bravado</strong><div id=3D"&#167;the=
+-abcs-of-bravado" class=3D"header-anchor-widget" style=3D"font-size: 16px; =
+height: 100%; left: -56px; line-height: 26px; position: absolute; top: -72p=
+x; width: 56px;"><div class=3D"header-anchor-widget-button-container" style=
+=3D"align-items: center; display: flex; font-size: 16px; height: 1.2em; lef=
+t: 0; line-height: 26px; position: absolute; top: 72px; width: 40px;"><a cl=
+ass=3D"header-anchor-widget-button" href=3D"https://substack.com/redirect/f=
+236057a-8d83-424c-b4e4-3c7c895a747a?r=3D9p0gt" style=3D"align-items: center=
+; border-radius: 50%; color: #1a1a1a; display: none; height: 40px; justify-=
+content: center; text-decoration: underline; width: 40px;"><svg xmlns=3D"ht=
+tp://www.w3.org/2000/svg" width=3D"20" height=3D"20" viewBox=3D"0 0 24 24" =
+fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"=
+round" stroke-linejoin=3D"round" class=3D"header-anchor-widget-icon" style=
+=3D"height: 20px; stroke: #9a9a9a; width: 20px;"><path d=3D"M10 13a5 5 0 00=
+7.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d=3D"M14 11a5 5 0 00-7.54=
+-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg></a></div></div></h1><div cla=
+ss=3D"captioned-image-container-static" style=3D"font-size: 16px; line-heig=
+ht: 26px; margin-bottom: 16px; text-align: center;"><figure style=3D"displa=
+y: inline-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrappe=
+r" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D=
+"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"t=
+ext-align: center;"></td><td align=3D"left" class=3D"content" width=3D"1200=
+" style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" h=
+ref=3D"https://substack.com/redirect/ff6408d5-d5d8-4d99-a0eb-0405162a96df?r=
+=3D9p0gt" rel=3D"" style=3D"align-items: center; border: none; display: blo=
+ck; flex-direction: column; height: auto; margin: 0; padding: 0; text-decor=
+ation: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https:=
+//bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/im=
+ages/167411c4-cbed-4f23-adc0-38a566fec99c_1200x651.png&quot;,&quot;fullscre=
+en&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:651,&quot;width=
+&quot;:1200,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&q=
+uot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:nul=
+l,&quot;belowTheFold&quot;:true}" alt=3D"" width=3D"550" height=3D"298.375"=
+ class=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_2400,c_l=
+imit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc=
+84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F167411c=
+4-cbed-4f23-adc0-38a566fec99c_1200x651.png" style=3D"-ms-interpolation-mode=
+: bicubic; border: none !important; display: block; height: auto; margin: 0=
+ auto; margin-bottom: 0; max-width: 100% !important; vertical-align: middle=
+; width: auto !important;"></a></td><td style=3D"text-align: center;"></td>=
+</tr></tbody></table></figure></div><p style=3D"color: #1a1a1a; font-size: =
+16px; line-height: 26px; margin: 0 0 1em 0;">ABC. Always Be Closing.&#160;<=
+/p><div class=3D"captioned-image-container-static" style=3D"font-size: 16px=
+; line-height: 26px; margin-bottom: 16px; text-align: center;"><figure styl=
+e=3D"display: inline-block; margin: 0 auto; width: 100%;"><table class=3D"i=
+mage-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td=
+ style=3D"text-align: center;"></td><td align=3D"left" class=3D"content" wi=
+dth=3D"480" style=3D"text-align: center;"><a class=3D"image-link" target=3D=
+"_blank" href=3D"https://substack.com/redirect/87e65493-a058-4a2e-8072-4b47=
+e2041d17?r=3D9p0gt" rel=3D"" style=3D"align-items: center; border: none; di=
+splay: block; flex-direction: column; height: auto; margin: 0; padding: 0; =
+text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&q=
+uot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com=
+/public/images/ab95b7cc-c2c3-4fb8-95da-bc6b6aae423b_480x203.gif&quot;,&quot=
+;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:203,&q=
+uot;width&quot;:480,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&qu=
+ot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quo=
+t;href&quot;:null,&quot;belowTheFold&quot;:true}" alt=3D"" title=3D"" width=
+=3D"480" height=3D"203" class=3D"" src=3D"https://substackcdn.com/image/fet=
+ch/w_480,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc=
+84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fab95b7c=
+c-c2c3-4fb8-95da-bc6b6aae423b_480x203.gif" style=3D"-ms-interpolation-mode:=
+ bicubic; border: none !important; display: block; height: auto; margin: 0 =
+auto; margin-bottom: 0; max-width: 100% !important; vertical-align: middle;=
+ width: auto !important;"></a></td><td style=3D"text-align: center;"></td><=
+/tr></tbody></table></figure></div><p style=3D"color: #1a1a1a; font-size: 1=
+6px; line-height: 26px; margin: 0 0 1em 0;"><span>Partially thanks to </spa=
+n><em>Glenngary, Glen Ross</em><span>, partially thanks to those calls and =
+emails you get, and partially thanks to cringe posts on LinkedIn, sales has=
+ developed a cartoonish reputation.&#160;</span></p><p style=3D"color: #1a1=
+a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">While sales is=
+ a great way to make a lot of money, and the best path for non-technical pe=
+ople to get into tech, it&#8217;s not a career that most people dream of, t=
+he way they dream of becoming engineers or product managers or designers or=
+ founders.&#160;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 1em 0;"><a href=3D"https://substack.com/redirect/40494=
+90c-3a00-4577-a0ff-fa8d2f7ca874?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a=
+; text-decoration: underline;">Sahil Mansuri</a><span>, the founder and CEO=
+ of </span><a href=3D"https://substack.com/redirect/fb073e36-4c89-4eb1-9543=
+-4a335eb50561?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration:=
+ underline;">Bravado</a><span>, wants to change that. &#8220;I LOVE sales. =
+I want to turn sales into a profession that people aspire to,&#8221; he tol=
+d me when we met over Zoom for his Series B pitch in February. Bravado&#821=
+7;s homepage captures its founder&#8217;s enthusiasm:&#160;</span></p><div =
+class=3D"captioned-image-container-static" style=3D"font-size: 16px; line-h=
+eight: 26px; margin-bottom: 16px; text-align: center;"><figure style=3D"dis=
+play: inline-block; margin: 0 auto; width: 100%;"><table class=3D"image-wra=
+pper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=
+=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=
+=3D"text-align: center;"></td><td align=3D"left" class=3D"content" width=3D=
+"908" style=3D"text-align: center;"><a class=3D"image-link" target=3D"_blan=
+k" href=3D"https://substack.com/redirect/fc30ea69-c449-44fc-be84-4296622003=
+be?r=3D9p0gt" rel=3D"" style=3D"align-items: center; border: none; display:=
+ block; flex-direction: column; height: auto; margin: 0; padding: 0; text-d=
+ecoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;ht=
+tps://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/publi=
+c/images/32262d37-79ce-41a9-8292-a1d49465db52_908x420.png&quot;,&quot;fulls=
+creen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:420,&quot;wi=
+dth&quot;:908,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt=
+&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href=
+&quot;:null,&quot;belowTheFold&quot;:true}" alt=3D"" title=3D"" width=3D"55=
+0" height=3D"254.40528634361235" class=3D"wide-image" src=3D"https://substa=
+ckcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:stee=
+p/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws=
+=2Ecom%2Fpublic%2Fimages%2F32262d37-79ce-=
+41a9-8292-a1d49465db52_908x420.png" =
+style=3D"-ms-interpolation-mode: bicubic; border: none !important; display:=
+ block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !im=
+portant; vertical-align: middle; width: auto !important;"></a></td><td styl=
+e=3D"text-align: center;"></td></tr></tbody></table><figcaption class=3D"im=
+age-caption" style=3D"color: #767676; font-family: sans-serif; font-size: 1=
+4px; font-weight: 300; line-height: 1.4em; text-align: center;"><em>Bravado=
+=2Eco</em></figcaption></figure></div><p=20=
+style=3D"color: #1a1a1a; font-size: =
+16px; line-height: 26px; margin: 0 0 1em 0;">&#8220;Sales is the best job i=
+n the world.&#8221;&#160;</p><p style=3D"color: #1a1a1a; font-size: 16px; l=
+ine-height: 26px; margin: 0 0 1em 0;"><span>Sahil&#8217;s enthusiasm for sa=
+les is infectious, and his pitch worked. Not Boring Capital invested in Bra=
+vado&#8217;s Series B, a $26 million round led by Tiger with participation =
+from Redpoint, Freestyle Capital, Flow Ventures, Precursor Ventures, Mark P=
+incus, and my friends </span><a href=3D"https://substack.com/redirect/01752=
+8e2-9a9d-4cd8-a884-c9f409bc6510?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a=
+; text-decoration: underline;">Lenny Rachitsky</a><span> and </span><a href=
+=3D"https://substack.com/redirect/02a8ef46-4e1d-4ba8-90c2-237b73aa237b?r=3D=
+9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Sahil=
+ Bloom</a><span>.&#160;&#160;</span></p><p style=3D"color: #1a1a1a; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>When </span><a href=
+=3D"https://substack.com/redirect/db869af9-b100-4cb4-8977-477964bd0da5?r=3D=
+9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Wande=
+r</a><span> CEO </span><a href=3D"https://substack.com/redirect/31e4b05b-86=
+93-4aac-90e1-5b3daffd56cd?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text=
+-decoration: underline;">John Andrew Entwistle</a><span> offered to introdu=
+ce me to Sahil, I was a little skeptical &#8211; another sales platform? I =
+wasn&#8217;t sure it answered the &#8220;So what?&#8221; question I ask whe=
+n I&#8217;m considering an investment, or that sales software counted as a =
+</span><a href=3D"https://substack.com/redirect/13f73e79-beb3-4d34-bd0d-694=
+ea0f36adc?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: und=
+erline;">hard startup</a><span>. But I trust JAE and there were a bunch of =
+things to love about the company and the industry it&#8217;s tackling:&#160=
+;</span></p><ul style=3D"margin-top: 0;"><li style=3D"margin-bottom: 4px; m=
+argin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-format: bull=
+et;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin=
+: 0; margin-bottom: 0;"><strong>Industry:</strong><span> Sales is the #1 mo=
+st popular role in the country, and B2B Sales is the 3rd fastest-growing</s=
+pan></p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-righ=
+t: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1=
+a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><str=
+ong>Grit: </strong><span>Sahil started Bravado five years ago, and they&#82=
+17;ve had a product in-market for 3.5 years, but they didn&#8217;t start mo=
+netizing until last year.&#160;</span></p></li><li style=3D"margin-bottom: =
+4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-format=
+: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; =
+margin: 0; margin-bottom: 0;"><strong>Growth:</strong><span> Bravado scaled=
+ from </span><strong>$0 to $4 million in ARR in 9 months</strong><span> whe=
+n it launched its Jobs product with Sahil as, ironically, the company&#8217=
+;s only salesperson</span></p></li></ul><p style=3D"color: #1a1a1a; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>It all clicked, thou=
+gh, when Sahil laid out the approach Bravado&#8217;s taken to get to where =
+it is, and the optionality that gives the company in the future. It&#8217;s=
+ that approach that we&#8217;re going to dive into today: </span><strong>co=
+mmunity-first distribution</strong><span>.&#160;</span></p><p style=3D"colo=
+r: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>I=
+n </span><em>The Good Thing About Hard Things, </em><span>I wrote that &#82=
+20;Hard startups on the bits side are solving difficult technical challenge=
+s, </span><strong>creating new business models</strong><span>, or touching =
+industries that previously didn&#8217;t make sense to touch.&#8221;</span><=
+/p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: =
+0 0 1em 0;">While community-first isn&#8217;t a brand new business model &#=
+8211; every company and DAO talks about building community-first &#8211; Br=
+avado has executed on that playbook brilliantly, building a community for y=
+ears before monetizing it effectively, in a way that I haven&#8217;t seen b=
+efore.&#160;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 2=
+6px; margin: 0 0 1em 0;"><span>Sahil calls it &#8220;</span><strong>reverse=
+ engineering a SaaS company</strong><span>.&#8221; Instead of building soft=
+ware for salespeople and then bolting on a community of customers, a brand,=
+ conferences, and the like, Sahil started by building a free professional n=
+etwork for salespeople, like &#8220;</span><strong>StackOverflow for Sales<=
+/strong><span>&#8221;: one place where salespeople can go to get better at =
+their jobs.</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 1em 0;"><span>It was a slog, and after three years i=
+n the trenches, the community didn&#8217;t really take off until last year,=
+ when the company decided to make its message boards pseudonymous so that, =
+unlike LinkedIn, &#8220;people can ask for real advice without bloviating.&=
+#8221; With that one shift, Bravado&#8217;s free product, the </span><stron=
+g>War Room</strong><span>, took off. Today, Bravado has over 250,000 salesp=
+eople in its network, representing 50,000 companies. And those 250k people =
+had to go through some friction to get there; I went through the signup pro=
+cess, and it&#8217;s a meaty eleven steps, including connecting LinkedIn to=
+ verify your responses.&#160;</span></p><p style=3D"color: #1a1a1a; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 1em 0;">That traction is a clear s=
+ign that Bravado fills a hole in the market for salespeople who want to get=
+ better at their jobs by learning from a community of top sellers. . Out of=
+ over 4,000 accredited universities in the US, only 50 have a major or mino=
+r in sales. There&#8217;s no Dribbble or Figma for salespeople, like there =
+is for designers. Salespeople have made do on LinkedIn, but there&#8217;s g=
+otta be a better way to get tips and advice, and to just celebrate a win, t=
+han doing it in view of your whole professional network.&#160;</p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>That&#8217;s the hole War Room fills, but War Room is just the first step =
+in a brilliant strategy to build products for the community that Bravado ha=
+s so patiently built. The reason Sahil built Bravado in the first place was=
+ to build better products for salespeople after realizing that all of the e=
+xisting ones &#8220;are awful.&#8221; But in a market dominated by a giant =
+like Salesforce, he knew he couldn&#8217;t just build a product and try to =
+sell it the same way all of the would-be Salesforce-killers have tried.&#16=
+0;&#160;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px;=
+ margin: 0 0 1em 0;"><span>The community-first strategy has paid off handso=
+mely for Bravado. Thanks to War Room, when Bravado turned on its first paid=
+ product, </span><strong>Jobs</strong><span>, it grew to $4 million in reve=
+nue in 9 months at a $4 blended Customer Acquisition Cost (CAC) with 95% or=
+ganic growth. When the hiring market recently turned sour, it listened to i=
+ts members in the War Room, built off of the Jobs product foundation, and q=
+uickly launched </span><strong>Flex</strong><span>. Flex, which lets sales =
+professionals work as Freelancers, opens up new options for the future of B=
+ravado, for who gets hired, and how salespeople leverage themselves.&#160;<=
+/span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; m=
+argin: 0 0 1em 0;"><span>That&#8217;s what building community-first enables=
+: </span><strong>optionality</strong><span>. With the War Room humming, Bra=
+vado&#8217;s just getting started on its quest to build better products for=
+ salespeople. In the process, it&#8217;s rewriting the playbook for bottoms=
+-up, community-first go to market. I think that integrating this deeply wit=
+h the community will become table stakes for new SaaS startups that want to=
+ build deep moats going forward.</span></p><p style=3D"color: #1a1a1a; font=
+-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Today, we&#8217;ll dive=
+ in to understand the ABCs of the community-first juggernaut Bravado is bui=
+lding, and where it might go in the future:&#160;</p><ul style=3D"margin-to=
+p: 0;"><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; =
+margin-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; f=
+ont-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;">Sahil&#821=
+7;s Sales Story&#160;</p></li><li style=3D"margin-bottom: 4px; margin-left:=
+ 8px; margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p sty=
+le=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin=
+-bottom: 0;">Meet Bravado: The Anti-SaaS SaaS Company</p></li><li style=3D"=
+margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso=
+-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line=
+-height: 26px; margin: 0; margin-bottom: 0;">From ABCs to JOBs</p></li><li =
+style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top:=
+ 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 1=
+6px; line-height: 26px; margin: 0; margin-bottom: 0;">Bear Market Flex&#160=
+;</p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: =
+0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a=
+; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;">The Fut=
+ure of Sales</p></li></ul><p style=3D"color: #1a1a1a; font-size: 16px; line=
+-height: 26px; margin: 0 0 1em 0;">To understand where Bravado&#8217;s head=
+ed, you need to understand how Sahil got to Bravado.&#160;</p><h3 class=3D"=
+header-with-anchor-widget" style=3D"-moz-osx-font-smoothing: antialiased; -=
+webkit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compac=
+t Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetic=
+a, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symb=
+ol'; font-size: 1.375em; font-weight: bold; line-height: 1.16em; margin: 1e=
+m 0 0.625em 0; position: relative;"><strong>Sahil&#8217;s Sales Story</stro=
+ng><div id=3D"&#167;sahils-sales-story" class=3D"header-anchor-widget" styl=
+e=3D"font-size: 16px; height: 100%; left: -56px; line-height: 26px; positio=
+n: absolute; top: -72px; width: 56px;"><div class=3D"header-anchor-widget-b=
+utton-container" style=3D"align-items: center; display: flex; font-size: 16=
+px; height: 1.2em; left: 0; line-height: 26px; position: absolute; top: 72p=
+x; width: 40px;"><a class=3D"header-anchor-widget-button" href=3D"https://s=
+ubstack.com/redirect/625a26e9-46ab-468a-88d0-bf7b1faab2b3?r=3D9p0gt" style=
+=3D"align-items: center; border-radius: 50%; color: #1a1a1a; display: none;=
+ height: 40px; justify-content: center; text-decoration: underline; width: =
+40px;"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"20" height=3D"20"=
+ viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=
+=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round" class=3D"header-a=
+nchor-widget-icon" style=3D"height: 20px; stroke: #9a9a9a; width: 20px;"><p=
+ath d=3D"M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d=
+=3D"M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg></a><=
+/div></div></h3><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 2=
+6px; margin: 0 0 1em 0;">In May, Sahil joined me on Not Boring Founders to =
+talk sales. In response to my first question, &#8220;What will the world lo=
+ok like in a decade if you&#8217;re wildly successful in your mission?&#822=
+1;, he said:&#160;</p><blockquote style=3D"border-left: 4px solid #67bdfc; =
+margin: 1em 0;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 2=
+6px; margin: 0 0 1em 0; margin-left: 1em;"><em>When kids are growing up, so=
+meone wants to be an astronaut. Someone wants to be a firefighter. These da=
+ys, I think a lot of people want to be a tech founder or an engineer. I don=
+'t know a single kid that grows up and is like, man, one day, I hope I get =
+to be a salesperson, you know? No, one's got their little GI Salesperson Ja=
+ne character that they're running around with.&#160;</em></p></blockquote><=
+a class=3D"audio-embed-static-outer" href=3D"https://substack.com/redirect/=
+b51cc42e-ef64-4060-837b-173ce316874e?r=3D9p0gt" target=3D"_blank" style=3D"=
+text-decoration: none;"><table class=3D"audio-embed-static" cellspacing=3D"=
+12" style=3D"border: 1px solid #d8d8d8; border-collapse: separate; border-r=
+adius: 4px; border-spacing: 12px; margin: 0 auto 16px; margin-bottom: 16px;=
+ min-height: 96px; min-width: 340px;"><tbody><tr><td class=3D"thumbnail-con=
+tainer" style=3D"height: 72px; margin: 0; padding: 0; vertical-align: top; =
+width: 72px;"><div class=3D"play-container" style=3D"font-size: 16px; line-=
+height: 26px; max-height: 0; opacity: 0.999; position: relative;"><!--[if m=
+so]&gt;&lt;v:rect xmlns:v=3D&quot;urn:schemas-microsoft-com:vml&quot; strok=
+ed=3D&quot;false&quot; filled=3D&quot;false&quot; style=3D&quot;mso-width-p=
+ercent: 1000; position:absolute; top:16px; left:16px;&quot;&gt;&lt;v:textbo=
+x inset=3D&quot;0,0,0,0&quot;&gt;&lt;![endif]--><img class=3D"play" src=3D"=
+https://substackcdn.com/image/fetch/w_86,c_limit,f_auto,q_auto:good,fl_prog=
+ressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Fthumbnail-play.png" height=
+=3D"40" width=3D"40" style=3D"-ms-interpolation-mode: bicubic; border: none=
+ !important; display: inline-block; height: 40px; margin: 16px; max-width: =
+100%; vertical-align: middle; width: 40px;"><!--[if mso]&gt;&lt;/v:textbox&=
+gt;&lt;/v:rect&gt;&lt;![endif]--></div><img class=3D"thumbnail" src=3D"http=
+s://i.scdn.co/image/ab6765630000ba8a7415e4becc80d9c1085a2820" height=3D"72"=
+ width=3D"72" style=3D"-ms-interpolation-mode: bicubic; border: none !impor=
+tant; display: block; height: 72px; margin: 0 auto; max-width: 100%; vertic=
+al-align: middle; width: 72px;"></td><td class=3D"audio-details" style=3D"-=
+moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; f=
+ont-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Inter', '=
+Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Sego=
+e UI Emoji', 'Segoe UI Symbol'; letter-spacing: -0.012em; padding-top: 4px;=
+ text-decoration: none; vertical-align: top;"><p class=3D"title" style=3D"c=
+olor: #1c110b; font-size: 14px; font-weight: 700; line-height: 150%; margin=
+: 0; vertical-align: middle;">Not Boring Founders: Sahil Mansuri, Bravado</=
+p><p class=3D"subtitle" style=3D"-moz-osx-font-smoothing: antialiased; -web=
+kit-font-smoothing: antialiased; color: #666666; font-family: 'SF Compact D=
+isplay', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, =
+Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'=
+; font-size: 14px; font-weight: 400; line-height: 150%; margin: 0; vertical=
+-align: middle;">By Packy McCormick</p><p class=3D"metadata" style=3D"color=
+: #a7a7a7; font-size: 14px; font-weight: 400; line-height: 150%; margin: 0;=
+ vertical-align: middle;">Podcast episode</p></td></tr></tbody></table></a>=
+<p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0=
+ 1em 0;">His mission is to change that, to build a world in which:&#160;</p=
+><ul style=3D"margin-top: 0;"><li style=3D"margin-bottom: 4px; margin-left:=
+ 8px; margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p sty=
+le=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin=
+-bottom: 0;">People aspire to be in sales.</p></li><li style=3D"margin-bott=
+om: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-fo=
+rmat: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26=
+px; margin: 0; margin-bottom: 0;">Sales is recognized as an amazing way for=
+ non-technical people to break into tech.</p></li><li style=3D"margin-botto=
+m: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-for=
+mat: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26p=
+x; margin: 0; margin-bottom: 0;">Sales is taught in high school and college=
+ as a skill that you need in order to be successful.&#160;</p></li></ul><p =
+style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1e=
+m 0;">It&#8217;s a mission that comes from personal experience. Growing up,=
+ Sahil said, &#8220;I was good at math, I was good at tinkering, I took eve=
+ry AP physics, chem, etc&#8230;.&#8221; He was smart, but he had no idea wh=
+at he wanted to do. But while he was in college in Washington, DC, he did w=
+hat people in DC do: got involved in politics. Specifically, he joined the =
+Obama Campaign in Field Operations.&#160;</p><p style=3D"color: #1a1a1a; fo=
+nt-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Field Operations is e=
+ssentially sales. Going door-to-door explaining your candidate&#8217;s posi=
+tion, hosting events to get people excited, and lots and lots of cold calli=
+ng. And Sahil loved it. He had found his calling.&#160;</p><p style=3D"colo=
+r: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">After s=
+chool, Sahil joined Meltwater, a 600 person sales organization, as a Sales =
+Manager, and quickly became the #1 sales representative in the company&#821=
+7;s 10-year history. Within two years, he was promoted to Managing Director=
+ and sold to companies like Exxon, Prudential, Pernod Ricard, AIG, Panera B=
+read, and the Air Force.&#160;</p><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0;"><span>He left Meltwater in 2011 =
+to become the 23rd employee at a little startup called </span><strong><a hr=
+ef=3D"https://substack.com/redirect/3b41ab4b-2d61-46d9-9f71-1577e4b7b6c5?r=
+=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Gl=
+assdoor</a></strong><span> as an Enterprise Sales Manager. Selling to compa=
+nies like Google, Facebook, Microsoft, and Amazon, he was the #1 rep out of=
+ 50 in his first year with the company.&#160;</span></p><p style=3D"color: =
+#1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Moving on =
+up, Sahil got hired as the VP of Sales at a smaller startup called Virool, =
+and there, he became the largest customer of a tiny Israeli company, SalesP=
+redict, building a predictive AI lead scoring tool. The product wasn&#8217;=
+t intuitive for the user, and when Sahil gave feedback to the SalesPredict =
+team, they asked him to join them and fix it himself.</p><p style=3D"color:=
+ #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">In his ti=
+me in sales, Sahil had realized two things about sales software:</p><ol sty=
+le=3D"margin-top: 0;"><li style=3D"margin-bottom: 4px; margin-left: 8px; ma=
+rgin-right: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16p=
+x; line-height: 26px; margin: 0; margin-bottom: 0;">All sales tools are awf=
+ul.&#160;</p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin=
+-right: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; l=
+ine-height: 26px; margin: 0; margin-bottom: 0;">There&#8217;s no bottoms-up=
+ sales tooling.</p></li></ol><p style=3D"color: #1a1a1a; font-size: 16px; l=
+ine-height: 26px; margin: 0 0 1em 0;"><span>He wanted to understand why tha=
+t was, so he took the job and joined SalesPredict to help build its product=
+=2E Working with designers, engineers, an=
+d data scientists, he needed to brus=
+h up on his technical skills, so he started learning R. When he got stuck o=
+n an issue, he turned to his now co-founder Yoni Acriche to ask for help, a=
+nd Yoni replied, &#8220;</span><strong>Oh, just Google it.</strong><span>&#=
+8221;</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 2=
+6px; margin: 0 0 1em 0;">So he copy-pasted the code he was having trouble w=
+ith into Google, and voila&#8230;&#160;</p><div class=3D"captioned-image-co=
+ntainer-static" style=3D"font-size: 16px; line-height: 26px; margin-bottom:=
+ 16px; text-align: center;"><figure style=3D"display: inline-block; margin:=
+ 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-p=
+adding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td=
+><td align=3D"left" class=3D"content" width=3D"908" style=3D"text-align: ce=
+nter;"><a class=3D"image-link" target=3D"_blank" href=3D"https://substack.c=
+om/redirect/312ccab4-837f-41d6-bc73-03fc870c55aa?r=3D9p0gt" rel=3D"" style=
+=3D"align-items: center; border: none; display: block; flex-direction: colu=
+mn; height: auto; margin: 0; padding: 0; text-decoration: none; width: auto=
+;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa=
+3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/0dfbacaa-7b5c-4ba7-=
+9b50-a6f9dd50c534_908x587.png&quot;,&quot;fullscreen&quot;:null,&quot;image=
+Size&quot;:null,&quot;height&quot;:587,&quot;width&quot;:908,&quot;resizeWi=
+dth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;ti=
+tle&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFo=
+ld&quot;:true}" alt=3D"" title=3D"" width=3D"550" height=3D"355.56167400881=
+06" class=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_1816,=
+c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05=
+bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0dfb=
+acaa-7b5c-4ba7-9b50-a6f9dd50c534_908x587.png" style=3D"-ms-interpolation-mo=
+de: bicubic; border: none !important; display: block; height: auto; margin:=
+ 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-align: midd=
+le; width: auto !important;"></a></td><td style=3D"text-align: center;"></t=
+d></tr></tbody></table><figcaption class=3D"image-caption" style=3D"color: =
+#767676; font-family: sans-serif; font-size: 14px; font-weight: 300; line-h=
+eight: 1.4em; text-align: center;"><em>Stack Overflow</em></figcaption></fi=
+gure></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; =
+margin: 0 0 1em 0;"><span>The exact issue popped up in </span><a href=3D"ht=
+tps://substack.com/redirect/db0551d7-776d-49cc-ab11-b25056a019d4?r=3D9p0gt"=
+ rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Stack Overf=
+low</a><span>, the &#8220;public platform building the definitive collectio=
+n of coding questions &amp; answers,&#8221; with dozens of helpful answers.=
+&#160;</span></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0 0 1em 0;">&#8220;Why doesn&#8217;t something like this exis=
+t in sales?&#8221; he wondered.&#160;</p><p style=3D"color: #1a1a1a; font-s=
+ize: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>Then, when he was i=
+nterviewing a designer, she sent him a link to her portfolio in </span><a h=
+ref=3D"https://substack.com/redirect/7643493c-b49a-4e3d-ad5e-881b0e01da16?r=
+=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Dr=
+ibbble</a><span>, the community where creatives share their work.&#160;</sp=
+an></p><div class=3D"captioned-image-container-static" style=3D"font-size: =
+16px; line-height: 26px; margin-bottom: 16px; text-align: center;"><figure =
+style=3D"display: inline-block; margin: 0 auto; width: 100%;"><table class=
+=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><t=
+r><td style=3D"text-align: center;"></td><td align=3D"left" class=3D"conten=
+t" width=3D"908" style=3D"text-align: center;"><a class=3D"image-link" targ=
+et=3D"_blank" href=3D"https://substack.com/redirect/4258605f-c646-4790-91e3=
+-d42977f10c90?r=3D9p0gt" rel=3D"" style=3D"align-items: center; border: non=
+e; display: block; flex-direction: column; height: auto; margin: 0; padding=
+: 0; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quo=
+t;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaw=
+s.com/public/images/ef00db06-d8b7-44e3-95cb-bff987689fcf_908x522.png&quot;,=
+&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:5=
+22,&quot;width&quot;:908,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:nul=
+l,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null=
+,&quot;href&quot;:null,&quot;belowTheFold&quot;:true}" alt=3D"" title=3D"" =
+width=3D"550" height=3D"316.1894273127753" class=3D"wide-image" src=3D"http=
+s://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progre=
+ssive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3=
+=2Eamazonaws.com%2Fpublic%2Fimages%2Fef00=
+db06-d8b7-44e3-95cb-bff987689fcf_908=
+x522.png" style=3D"-ms-interpolation-mode: bicubic; border: none !important=
+; display: block; height: auto; margin: 0 auto; margin-bottom: 0; max-width=
+: 100% !important; vertical-align: middle; width: auto !important;"></a></t=
+d><td style=3D"text-align: center;"></td></tr></tbody></table><figcaption c=
+lass=3D"image-caption" style=3D"color: #767676; font-family: sans-serif; fo=
+nt-size: 14px; font-weight: 300; line-height: 1.4em; text-align: center;"><=
+em>Dribbble</em></figcaption></figure></div><p style=3D"color: #1a1a1a; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Once again, he wondere=
+d, &#8220;Why doesn&#8217;t something like this exist for sales?&#8221;&#16=
+0;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margi=
+n: 0 0 1em 0;"><span>The question kept coming back up as he played with the=
+ delightful software that non-salespeople got to use, right when the &#8220=
+;</span><a href=3D"https://substack.com/redirect/2ea44a6f-0eb3-4847-b235-52=
+ac3f5ae48e?r=3D9p0gt" rel=3D"" style=3D"color: #1a1a1a; text-decoration: un=
+derline;">consumerization of enterprise software</a><span>&#8221; was in fu=
+ll swing, and became increasingly intent on bringing the same level of soft=
+ware to sales. Finally, in the summer of 2016, </span><a href=3D"https://su=
+bstack.com/redirect/7af4f244-1ac1-44b5-b8b3-81c6226748ab?r=3D9p0gt" rel=3D"=
+" style=3D"color: #1a1a1a; text-decoration: underline;">eBay acquired Sales=
+Predict for $40 million</a><span>, and Sahil decided it was time to scratch=
+ the itch.&#160;&#160;</span></p><p style=3D"color: #1a1a1a; font-size: 16p=
+x; line-height: 26px; margin: 0 0 1em 0;">But having spent so much time in =
+sales at early-stage startups, Sahil knew what a grind it was getting even =
+really good software in customers&#8217; hands via the traditional enterpri=
+se sales model, so he set out to flip the script.</p><h3 class=3D"header-wi=
+th-anchor-widget" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-fo=
+nt-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display=
+', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,=
+ sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font=
+-size: 1.375em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625=
+em 0; position: relative;"><strong>Meet Bravado: The Anti-SaaS SaaS Company=
+</strong><div id=3D"&#167;meet-bravado-the-anti-saas-saas-company" class=3D=
+"header-anchor-widget" style=3D"font-size: 16px; height: 100%; left: -56px;=
+ line-height: 26px; position: absolute; top: -72px; width: 56px;"><div clas=
+s=3D"header-anchor-widget-button-container" style=3D"align-items: center; d=
+isplay: flex; font-size: 16px; height: 1.2em; left: 0; line-height: 26px; p=
+osition: absolute; top: 72px; width: 40px;"><a class=3D"header-anchor-widge=
+t-button" href=3D"https://substack.com/redirect/af106017-aa81-4068-9e2c-013=
+95db5a257?r=3D9p0gt" style=3D"align-items: center; border-radius: 50%; colo=
+r: #1a1a1a; display: none; height: 40px; justify-content: center; text-deco=
+ration: underline; width: 40px;"><svg xmlns=3D"http://www.w3.org/2000/svg" =
+width=3D"20" height=3D"20" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"cu=
+rrentColor" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"=
+round" class=3D"header-anchor-widget-icon" style=3D"height: 20px; stroke: #=
+9a9a9a; width: 20px;"><path d=3D"M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7=
+=2E07l-1.72 1.71"/><path d=3D"M14 11a5 5=20=
+0 00-7.54-.54l-3 3a5 5 0 007.07 7.07=
+l1.71-1.71"/></svg></a></div></div></h3><p style=3D"color: #1a1a1a; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 1em 0;">Product-led, or bottoms-up=
+, growth has become a popular approach to customer acquisition for consumer=
+ized software startups. Give away a free version of software that a handful=
+ of employees love to use, make it really easy for them to sign up for pro =
+features with a credit card, and then layer on sales using those early adop=
+ters as a beachhead for the company-wide deal. Product-led growth has prope=
+lled companies like Dropbox, Zoom, Figma, Notion, Slack and many more to gr=
+eat heights.&#160;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 1em 0;">That motion is standard in most enterprise S=
+aaS verticals, but it hasn&#8217;t really hit sales. Quick: think of a sale=
+s tool that people love so much that they beg their management teams to buy=
+ it for the company. I can&#8217;t either. More often, at some point, after=
+ trying some spreadsheets, then graduating to a lightweight CRM, the VP Sal=
+es convinces the CEO: it&#8217;s time. Salesforce.&#160;</p><div class=3D"c=
+aptioned-image-container-static" style=3D"font-size: 16px; line-height: 26p=
+x; margin-bottom: 16px; text-align: center;"><figure style=3D"display: inli=
+ne-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" widt=
+h=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin=
+: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-ali=
+gn: center;"></td><td align=3D"left" class=3D"content" width=3D"1032" style=
+=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"=
+https://substack.com/redirect/018fda12-f867-452a-a7ec-a3d62b6f9c88?r=3D9p0g=
+t" rel=3D"" style=3D"align-items: center; border: none; display: block; fle=
+x-direction: column; height: auto; margin: 0; padding: 0; text-decoration: =
+none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucke=
+teer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e9=
+45149d-f71b-445e-b88c-f9b6f3938526_1032x558.png&quot;,&quot;fullscreen&quot=
+;:null,&quot;imageSize&quot;:null,&quot;height&quot;:558,&quot;width&quot;:=
+1032,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&q=
+uot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:nu=
+ll,&quot;belowTheFold&quot;:true}" alt=3D"" title=3D"" width=3D"550" height=
+=3D"297.3837209302326" class=3D"wide-image" src=3D"https://substackcdn.com/=
+image/fetch/w_2064,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A=
+%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpub=
+lic%2Fimages%2Fe945149d-f71b-445e-b88c-f9b6f3938526_1032x558.png" style=3D"=
+-ms-interpolation-mode: bicubic; border: none !important; display: block; h=
+eight: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; =
+vertical-align: middle; width: auto !important;"></a></td><td style=3D"text=
+-align: center;"></td></tr></tbody></table><figcaption class=3D"image-capti=
+on" style=3D"color: #767676; font-family: sans-serif; font-size: 14px; font=
+-weight: 300; line-height: 1.4em; text-align: center;"><em>Salesforce</em><=
+/figcaption></figure></div><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0;">&#8220;I&#8217;ve done this before,&#82=
+21; they say. &#8220;It will be easy,&#8221; they say. &#8220;Three months,=
+ tops!&#8221; they promise.&#160;</p><p style=3D"color: #1a1a1a; font-size:=
+ 16px; line-height: 26px; margin: 0 0 1em 0;"><span>And then, inevitably an=
+d invariably, six months later, the VP Sales is breathing down the engineer=
+ing team&#8217;s neck and keeping the Sales Ops person in the office late e=
+very night &#8220;until we get this damn thing implemented.&#8221; They fin=
+ally do. It&#8217;s not perfect, but it works. Leadership finally has a goo=
+d pulse on the company&#8217;s pipeline. They understand the funnel, and re=
+alize that there&#8217;s a big leak between &#8220;MQL&#8221; and &#8220;Cl=
+osed-Won.&#8221; They re-jigger the flow; SDRs are now to call MQLs twice, =
+email twice, and then call a third time. The sales team, of course, doesn&#=
+8217;t love this new system. Their boss is on them for not making enough ca=
+lls. Every night, after they&#8217;re done doing their real job, they sit t=
+here and update Salesforce because those automatic integrations they were p=
+romised are broken and the engineering team is focused on customer-facing w=
+ork and they&#8217;ll fix it in a few months. The company misses revenue ta=
+rgets. The VP Sales is fired (VP Sales, incidentally, have the shortest ten=
+ure of any executive position at </span><a href=3D"https://substack.com/red=
+irect/c3b860b5-99a6-47ef-956c-307696c421b8?r=3D9p0gt" rel=3D"" style=3D"col=
+or: #1a1a1a; text-decoration: underline;">19 months</a><span>). The new Chi=
+ef Revenue Officer (she has 25 years experience, she&#8217;s not settling f=
+or &#8220;VP Sales&#8221;) comes in and says she can turn it around, no pro=
+blem, &#8220;We just need to set up our Salesforce the right way so I&#8217=
+;m properly instrumented.&#8221; And on it goes.&#160;</span></p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>Whew. Where was I?&#160;</p><p style=3D"color: #1a1a1a; font-size: 16px; l=
+ine-height: 26px; margin: 0 0 1em 0;">Right, for some reason, bottoms-up so=
+ftware hasn&#8217;t taken off in sales like it has in other verticals, so c=
+ompanies end up buying clunky, hard-to-implement old software. While &#8220=
+;No one ever got fired for buying Salesforce&#8221; certainly isn&#8217;t t=
+rue in the long-run, it sounds right in the short-term.&#160;</p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>Given his decade-plus in sales, Sahil knew that he wasn&#8217;t going to w=
+in the sales tools category with a traditional enterprise sales approach, o=
+r even with a bottoms-up approach. &#8220;The push to the first few million=
+ in ARR is really hard and expensive,&#8221; he explained, &#8220;until you=
+ build a brand, get reviews, write case studies, earn trust, host conferenc=
+es, and build momentum.&#8221;&#160;</p><p style=3D"color: #1a1a1a; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 1em 0;"><span>Instead, Sahil decid=
+ed to take a different tact. He calls Bravado an &#8220;Anti-SaaS SaaS Comp=
+any.&#8221; It&#8217;s an inverted approach: </span><strong>start by buildi=
+ng a community of sales professionals, listen to what they need, build prod=
+ucts to fill those needs, get feedback from the community, and iterate.</st=
+rong></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 1em 0;">By building community-first, Bravado was building a brand=
+, getting access to a pool of customer insights, and actually developing it=
+s own distributed sales team for its eventual products.&#160;</p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+><span>Think of it this way. Software companies typically generate high mar=
+gins by building products with high fixed costs (typically R&amp;D) and low=
+ marginal costs (it costs practically nothing to make copies of the softwar=
+e). Build once, sell millions of times, profit. Of course, there are still =
+marginal customer acquisition costs &#8211; it takes some amount of money t=
+o convince each customer to use or buy the product. What Bravado is doing h=
+as a similar logic. It spent high upfront costs building a community of its=
+ target customers, and now, it </span><strong>should be able to distribute =
+new products to them and through them at low marginal customer acquisition =
+costs</strong><span>.</span></p><p style=3D"color: #1a1a1a; font-size: 16px=
+; line-height: 26px; margin: 0 0 1em 0;">So Bravado started simple, with a =
+community for salespeople.&#160;</p><div class=3D"captioned-image-container=
+-static" style=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; =
+text-align: center;"><figure style=3D"display: inline-block; margin: 0 auto=
+; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-=
+alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td al=
+ign=3D"left" class=3D"content" width=3D"908" style=3D"text-align: center;">=
+<a class=3D"image-link" target=3D"_blank" href=3D"https://substack.com/redi=
+rect/8179a889-2160-469e-8765-097f7fd53878?r=3D9p0gt" rel=3D"" style=3D"alig=
+n-items: center; border: none; display: block; flex-direction: column; heig=
+ht: auto; margin: 0; padding: 0; text-decoration: none; width: auto;"><img =
+data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9=
+518-adb32be77984.s3.amazonaws.com/public/images/2968dab3-18b6-43d1-994c-247=
+54dd92132_908x538.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quo=
+t;:null,&quot;height&quot;:538,&quot;width&quot;:908,&quot;resizeWidth&quot=
+;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot=
+;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;=
+:true}" alt=3D"" title=3D"" width=3D"550" height=3D"325.8810572687225" clas=
+s=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_1816,c_limit,=
+f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-ba=
+a3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2968dab3-18b=
+6-43d1-994c-24754dd92132_908x538.png" style=3D"-ms-interpolation-mode: bicu=
+bic; border: none !important; display: block; height: auto; margin: 0 auto;=
+ margin-bottom: 0; max-width: 100% !important; vertical-align: middle; widt=
+h: auto !important;"></a></td><td style=3D"text-align: center;"></td></tr><=
+/tbody></table><figcaption class=3D"image-caption" style=3D"color: #767676;=
+ font-family: sans-serif; font-size: 14px; font-weight: 300; line-height: 1=
+=2E4em; text-align: center;"><em><span>Br=
+avado.co on 7/29/2019 via </span><a =
+href=3D"https://substack.com/redirect/e09739e0-8824-42da-a366-c2efe3a3a1c4?=
+r=3D9p0gt" rel=3D"">Wayback Machine</a></em></figcaption></figure></div><p =
+style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1e=
+m 0;">People joined, but growth was slow. Bravado experimented with new for=
+mats. In one iteration, it let sales leaders start their own communities, l=
+ike #Live-Better-Sell-Better and #Other-Side-of-Sales and invite members. A=
+t the time, all profiles on Bravado were attached to real people with their=
+ real names, and Sahil told me that while people were finding value, there =
+was still a lot of LinkedIn-esque posturing.&#160;</p><h4 class=3D"header-w=
+ith-anchor-widget" style=3D"-moz-osx-font-smoothing: antialiased; -webkit-f=
+ont-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Displa=
+y', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial=
+, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; fon=
+t-size: 1.125em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.62=
+5em 0; position: relative;">To learn how Bravado caught lightning in a bott=
+le, and how it turned community-first into real revenue in 7 months&#8230; =
+<div id=3D"&#167;to-learn-how-bravado-caught-lightning-in-a-bottle-and-how-=
+it-turned-community-first-into-real-revenue-in-months" class=3D"header-anch=
+or-widget" style=3D"font-size: 16px; height: 100%; left: -56px; line-height=
+: 26px; position: absolute; top: -72px; width: 56px;"><div class=3D"header-=
+anchor-widget-button-container" style=3D"align-items: center; display: flex=
+; font-size: 16px; height: 1.2em; left: 0; line-height: 26px; position: abs=
+olute; top: 72px; width: 40px;"><a class=3D"header-anchor-widget-button" hr=
+ef=3D"https://substack.com/redirect/a479e7a3-0d4c-425a-b619-75f6c12ea10a?r=
+=3D9p0gt" style=3D"align-items: center; border-radius: 50%; color: #1a1a1a;=
+ display: none; height: 40px; justify-content: center; text-decoration: und=
+erline; width: 40px;"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"20=
+" height=3D"20" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor"=
+ stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round" clas=
+s=3D"header-anchor-widget-icon" style=3D"height: 20px; stroke: #9a9a9a; wid=
+th: 20px;"><path d=3D"M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1=
+=2E71"/><path d=3D"M14 11a5 5 0 00-7.54-.=
+54l-3 3a5 5 0 007.07 7.07l1.71-1.71"=
+/></svg></a></div></div></h4><p class=3D"button-wrapper" data-attrs=3D"{&qu=
+ot;url&quot;:&quot;https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cu=
+bm90Ym9yaW5nLmNvL3AvdGhlLWFiY3Mtb2YtYnJhdmFkbz90b2tlbj1leUoxYzJWeVgybGtJam9=
+4TmpJNE16VTBPU3dpY0c5emRGOXBaQ0k2Tmpjd05qZ3pOakFzSW1saGRDSTZNVFkxT1RZeE56WT=
+NOQ3dpYVhOeklqb2ljSFZpTFRFd01ESTFJaXdpYzNWaUlqb2ljRzl6ZEMxeVpXRmpkR2x2YmlKO=
+S5iYU1FWnk3TDVjbXRDX3MtWXM4eHUzTzROUjRVR05GS3lPNGwxcnRac2o0IiwicCI6NjcwNjgz=
+NjAsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjU5NjE3Njc0LCJpc3M=
+iOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.2Xmkj7ZRvuPHZKVSxBAcmaFWlLal2so=
+vFzMEzHGVD70?&quot;,&quot;text&quot;:&quot;Continue Reading Online&quot;,&q=
+uot;action&quot;:null,&quot;class&quot;:null}" style=3D"color: #1a1a1a; fon=
+t-size: 16px; line-height: 26px; margin: 0 0 1em 0; text-align: center;"><a=
+ class=3D"button primary" href=3D"https://substack.com/redirect/2/eyJlIjoia=
+HR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvdGhlLWFiY3Mtb2YtYnJhdmFkbz90b2tlbj1leUox=
+YzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5emRGOXBaQ0k2Tmpjd05qZ3pOakFzSW1saGRDSTZ=
+NVFkxT1RZeE56WTNOQ3dpYVhOeklqb2ljSFZpTFRFd01ESTFJaXdpYzNWaUlqb2ljRzl6ZEMxeV=
+pXRmpkR2x2YmlKOS5iYU1FWnk3TDVjbXRDX3MtWXM4eHUzTzROUjRVR05GS3lPNGwxcnRac2o0I=
+iwicCI6NjcwNjgzNjAsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjU5=
+NjE3Njc0LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.2Xmkj7ZRvuPHZKVS=
+xBAcmaFWlLal2sovFzMEzHGVD70?" rel=3D"" style=3D"background-color: #67bdfc; =
+border: none; border-radius: 4px; box-sizing: border-box; color: #ffffff !i=
+mportant; cursor: pointer; display: inline-block; font-family: -apple-syste=
+m, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'A=
+pple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; fo=
+nt-weight: normal; height: auto; line-height: 20px; margin: 0; opacity: 1; =
+outline: none; padding: 12px 20px; text-align: center; text-decoration: non=
+e !important; white-space: nowrap;"><span style=3D"color: #ffffff; text-dec=
+oration: none;">Continue Reading Online</span></a></p><p style=3D"color: #1=
+a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>If you&#=
+8217;re interested in learning more about Bravado, including the new Flex p=
+roduct for companies to hire salespeople on a 100% commission basis, or gen=
+erally want to nerd out about how to grow revenue during the downturn, you =
+can reach Sahil directly at sahil.mansuri@bravado.co.</em></p><div style=3D=
+"font-size: 16px; line-height: 26px;"><hr style=3D"background: #ebebeb; bor=
+der: none; height: 1px; margin: 48px 0; padding: 0;"></div><p style=3D"colo=
+r: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>Tha=
+nks to Sahil for working with me, and to Dan for editing!</em></p><div styl=
+e=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background: #ebebeb;=
+ border: none; height: 1px; margin: 48px 0; padding: 0;"></div><p style=3D"=
+color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Tha=
+t&#8217;s all for today, we&#8217;ll see you tomorrow morning for a Weekly =
+Dose of Optimism!</p><p style=3D"color: #1a1a1a; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 1em 0;">Thanks for reading, </p><p style=3D"color: #1=
+a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; margin-bottom=
+: 0;">Packy</p></div></div><table cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"post-meta custom big alternative-meta centered" style=3D"margin: 0 auto=
+;"><tr style=3D"align-items: center; display: flex;"><td class=3D"post-meta=
+-item icon" style=3D"color: #767676; font-family: -apple-system, BlinkMacSy=
+stemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Em=
+oji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; height: 100%; l=
+ine-height: 18px; padding: 0px 12px 0px 0; padding-right: 24px; position: r=
+elative; text-decoration: none; text-indent: 3px; white-space: nowrap;"><sp=
+an class=3D"post-meta-icon like-reaction-button"><a href=3D"https://substac=
+k.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FwaS92MS9wb3N0L2=
+VtYWlsLXJlYWN0aW9uP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT1lbWFpbCZ0b2tlb=
+j1leUoxYzJWeVgybGtJam94TmpJNE16VTBPU3dpY0c5emRGOXBaQ0k2Tmpjd05qZ3pOakFzSW5K=
+bFlXTjBhVzl1SWpvaTRwMmtJaXdpYVdGMElqb3hOalU1TmpFM05qYzBMQ0pwYzNNaU9pSndkV0l=
+0TVRBd01qVWlMQ0p6ZFdJaU9pSnlaV0ZqZEdsdmJpSjkuTXFaVFh4UmNFbFp0ckMycEVMXzZuZ3=
+pQX1VkNzZWa3ZqbXN4dWFEYnNtayIsInAiOjY3MDY4MzYwLCJzIjoxMDAyNSwiZiI6dHJ1ZSwid=
+SI6MTYyODM1NDksImlhdCI6MTY1OTYxNzY3NCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJl=
+ZGlyZWN0In0.CPBYi3c-h28YApRrQI38zaMRfdq9mYeEVHi9OylDM4g?" class=3D"like-but=
+ton button post-meta-button" style=3D"align-items: center; background-color=
+: transparent; border: 1px solid #ebebeb; border-radius: 4px; box-sizing: b=
+order-box; color: #1a1a1a; cursor: pointer; display: flex; font-family: -ap=
+ple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-=
+serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size:=
+ 16px; font-weight: normal; height: auto; line-height: 15px; margin: 0; opa=
+city: 1; outline: none; padding: 10px 16px; text-align: center; text-decora=
+tion: none; text-indent: 0px; white-space: nowrap;"><img src=3D"https://sub=
+stackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:stee=
+p/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26f=
+ill%3Dtransparent%26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"18" he=
+ight=3D"18" style=3D"border: none !important; display: inline-block; float:=
+ left; height: 14px; margin-right: 4px; max-width: 18px; vertical-align: to=
+p; width: auto;" alt=3D""><span class=3D"like-count" style=3D"color: #1a1a1=
+a; margin-left: 7px;">Like</span></a></span></td><td class=3D"post-meta-ite=
+m icon" style=3D"color: #767676; font-family: -apple-system, BlinkMacSystem=
+Font, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji'=
+, 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; height: 100%; line-=
+height: 18px; padding: 0px 12px 0px 0; padding-right: 24px; position: relat=
+ive; text-decoration: none; text-indent: 3px; white-space: nowrap;"><a href=
+=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmN=
+vL3AvdGhlLWFiY3Mtb2YtYnJhdmFkby9jb21tZW50cz90b2tlbj1leUoxYzJWeVgybGtJam94Tm=
+pJNE16VTBPU3dpY0c5emRGOXBaQ0k2Tmpjd05qZ3pOakFzSW1saGRDSTZNVFkxT1RZeE56WTNOQ=
+3dpYVhOeklqb2ljSFZpTFRFd01ESTFJaXdpYzNWaUlqb2ljRzl6ZEMxeVpXRmpkR2x2YmlKOS5i=
+YU1FWnk3TDVjbXRDX3MtWXM4eHUzTzROUjRVR05GS3lPNGwxcnRac2o0IiwicCI6NjcwNjgzNjA=
+sInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNjU5NjE3Njc0LCJpc3MiOi=
+JwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.c9dQ1zTTH5yEVtz7ei2VHDXjbpulay8hfD=
+s5yTULejk?&utm_source=3Dsubstack&utm_medium=3Demail" class=3D"post-meta-but=
+ton button" style=3D"align-items: center; background-color: transparent; bo=
+rder: 1px solid #ebebeb; border-radius: 4px; box-sizing: border-box; color:=
+ #1a1a1a; cursor: pointer; display: flex; font-family: -apple-system, Blink=
+MacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Col=
+or Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weigh=
+t: normal; height: auto; line-height: 15px; margin: 0; opacity: 1; outline:=
+ none; padding: 10px 16px; text-align: center; text-decoration: none; white=
+-space: nowrap;"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_sca=
+le,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon=
+%2FLucideComments%3Fv%3D4%26height%3D36%26fill%3Dtransparent%26stroke%3D%25=
+23757575%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: non=
+e !important; display: inline-block; float: left; height: 14px; margin-righ=
+t: 4px; max-width: 18px; vertical-align: top; width: auto;" alt=3D"Comment"=
+ class=3D"comment-icon post-meta-icon"><span class=3D"meta-button-label">Co=
+mment</span></a></td><td class=3D"post-meta-item icon" style=3D"color: #767=
+676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, He=
+lvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe U=
+I Symbol'; font-size: 14px; height: 100%; line-height: 18px; margin-right: =
+0; padding: 0px 12px 0px 0; padding-right: 0; position: relative; text-deco=
+ration: none; text-indent: 3px; white-space: nowrap;"><span><a href=3D"http=
+s://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3AvdGh=
+lLWFiY3Mtb2YtYnJhdmFkbz91dG1fc291cmNlPXN1YnN0YWNrJnV0bV9tZWRpdW09ZW1haWwmdX=
+RtX2NvbnRlbnQ9c2hhcmUmYWN0aW9uPXNoYXJlJnRva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0T=
+XpVME9Td2lhV0YwSWpveE5qVTVOakUzTmpjMExDSnBjM01pT2lKd2RXSXRNVEF3TWpVaUxDSnpk=
+V0lpT2lKd2IzTjBMWEpsWVdOMGFXOXVJbjAucHBoSG1jb3M0NHVWVWxrRkdxdEJWWjE0eS1HdmF=
+ncWtxM0dCNmg2TXI5WSIsInAiOjY3MDY4MzYwLCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyOD=
+M1NDksImlhdCI6MTY1OTYxNzY3NCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0I=
+n0.zq9rfIm4iWNie0z6fzS57wqbJUbQ8KbZ46IHWkRldI4?" class=3D"button post-meta-=
+button" style=3D"align-items: center; background-color: transparent; border=
+: 1px solid #ebebeb; border-radius: 4px; box-sizing: border-box; color: #1a=
+1a1a; cursor: pointer; display: flex; font-family: -apple-system, BlinkMacS=
+ystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color E=
+moji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: n=
+ormal; height: auto; line-height: 15px; margin: 0; opacity: 1; outline: non=
+e; padding: 10px 16px; text-align: center; text-decoration: none; white-spa=
+ce: nowrap;"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f=
+_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FL=
+ucideShare%3Fv%3D4%26height%3D36%26fill%3Dtransparent%26stroke%3D%252375757=
+5%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none !impo=
+rtant; display: inline-block; float: left; height: 14px; margin-right: 4px;=
+ max-width: 18px; vertical-align: top; width: auto;" alt=3D"Share" class=3D=
+"recommend-icon post-meta-icon"><span class=3D"meta-button-label">Share</sp=
+an></a></span></td></tr></table><div class=3D"container-border" style=3D"bo=
+rder-top: 1px solid rgba(204, 204, 204, 0.5); box-sizing: border-box; font-=
+size: 16px; line-height: 26px; margin: 32px 0 0; width: 100%;"></div><div c=
+lass=3D"post-cta" style=3D"font-size: 16px; line-height: 26px; margin: 24px=
+ 0 40px;"><p style=3D"font-size: 16px; font-style: italic; line-height: 26p=
+x; margin: 24px 0 0; margin-top: 0;"><span>If you liked this post from <a h=
+ref=3D"https://substack.com/redirect/6aab9fa1-db61-4102-a252-4587965456ef?r=
+=3D9p0gt">Not Boring by Packy McCormick</a>, why not share it?</span></p><p=
+ class=3D"cta-box" style=3D"font-size: 16px; font-style: italic; line-heigh=
+t: 26px; margin: 24px 0 0; text-align: center;"><a role=3D"button" href=3D"=
+https://substack.com/redirect/32df2836-9ae9-4db8-a5bb-091a5c69f267?r=3D9p0g=
+t" class=3D"button primary twitter-link" style=3D"background-color: #67bdfc=
+; border: 0px solid #67bdfc; border-radius: 4px; border-width: 13px 20px 13=
+px 18px; box-sizing: content-box; color: #ffffff !important; cursor: pointe=
+r; display: inline-block; font-family: -apple-system, BlinkMacSystemFont, '=
+Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Sego=
+e UI Emoji', 'Segoe UI Symbol'; font-size: 17px; font-style: normal; font-w=
+eight: 300; height: 24px; line-height: 24px; margin: 0; opacity: 1; outline=
+: none; padding: 0; text-align: center; text-decoration: none !important; v=
+ertical-align: middle; white-space: nowrap;"><img src=3D"https://substackcd=
+n.com/image/fetch/w_23.1,c_scale,f_png,q_auto:good,fl_progressive:steep/htt=
+ps%3A%2F%2Fsubstack.com%2Ficon%2FShareIcon%3Fv%3D4%26height%3D42%26stroke%3=
+D%2523FFF%26strokeWidth%3D2" width=3D"11.55" height=3D"21" style=3D"border:=
+ none !important; display: inline-block; height: 21px; margin-right: 8px; m=
+ax-width: 11.55px; vertical-align: middle; width: 21px;" alt=3D""><span sty=
+le=3D"color: #ffffff; text-decoration: none;">Share</span></a></p></div><di=
+v class=3D"footer hasMargin" style=3D"background: #f5f5f5 !important; color=
+: #808080; font-size: 16px; line-height: 26px; margin-top: 24px; padding: 2=
+4px; text-align: center;"><p class=3D"small" style=3D"color: #808080; font-=
+family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, A=
+rial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';=
+ font-size: 14px; line-height: 22px; margin: 0; padding-bottom: 16px;">&#16=
+9; 2022 <span>Packy McCormick</span><br>10 City Point, Brooklyn, NY 11201 <=
+br><a href=3D"https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Y=
+m9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0=
+TXpVME9Td2ljRzl6ZEY5cFpDSTZOamN3Tmpnek5qQXNJbWxoZENJNk1UWTFPVFl4TnpZM05Dd2l=
+hWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LmFOY0=
+pGYXdtakdVVWwzR1Z4enUyUV9fTHQ3bWFGQWNTc2VjNml5VU93OUkiLCJwIjo2NzA2ODM2MCwic=
+yI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE2NTk2MTc2NzQsImlzcyI6InB1=
+Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.f33EPfu03BA1SCYJw59o1ZEkDFUL-rm25DxRIj=
+iMo2s?" style=3D"color: #808080;"><span style=3D"color: #808080; text-decor=
+ation: underline;">Unsubscribe</span></a></p><p class=3D"small powered-by-s=
+ubstack" style=3D"color: #808080; font-family: -apple-system, BlinkMacSyste=
+mFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji=
+', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; line-height: 22px;=
+ margin: 0; margin-top: 0; padding-bottom: 0;"><a href=3D"https://substack.=
+com/redirect/f5a369c1-86d7-4dfc-87aa-600200cf1d55?r=3D9p0gt" style=3D"color=
+: #808080; display: inline-block; margin: 8px 4px 0; text-decoration: none;=
+"><img src=3D"https://substackcdn.com/image/fetch/w_260,c_limit,f_auto,q_au=
+to:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fapp=
+-button%402x.png" srcset=3D"https://substackcdn.com/image/fetch/w_130,c_lim=
+it,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg=
+%2Femail%2Fapp-button.png, https://substackcdn.com/image/fetch/w_260,c_limi=
+t,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%=
+2Femail%2Fapp-button%402x.png 2x, https://substackcdn.com/image/fetch/w_390=
+,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com=
+%2Fimg%2Femail%2Fapp-button%403x.png 3x" width=3D"130" alt=3D"Get the app" =
+height=3D"40" style=3D"border: none !important; max-width: 550px; vertical-=
+align: middle;"></a><a href=3D"https://substack.com/redirect/9282b54c-a54b-=
+4b4c-89d2-e4ea7ecec43d?r=3D9p0gt" style=3D"color: #808080; display: inline-=
+block; margin: 8px 4px 0; text-decoration: none;"><img src=3D"https://subst=
+ackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:good,fl_progressive:stee=
+p/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%402x.png" srcse=
+t=3D"https://substackcdn.com/image/fetch/w_135,c_limit,f_auto,q_auto:good,f=
+l_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-butt=
+on.png, https://substackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:goo=
+d,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-b=
+utton%402x.png 2x, https://substackcdn.com/image/fetch/w_405,c_limit,f_auto=
+,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%=
+2Fpublish-button%403x.png 3x" width=3D"135" alt=3D"Start writing" height=3D=
+"40" style=3D"border: none !important; max-width: 550px; vertical-align: mi=
+ddle;"></a></p></div></div></td><td></td></tr></table><img src=3D"https://m=
+ailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDIwMjIwODA0MTI1MzE0L=
+jMuN2Q3NTdlMzk2YTI2NTU0ZkBtZzIuc3Vic3RhY2suY29tPiIsInUiOjE2MjgzNTQ5LCJyIjoi=
+bm90Ym9yaW5nQGtoYW1lbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjY3MDY4MzY=
+wLCJ0IjoibmV3c2xldHRlciIsImEiOiJldmVyeW9uZSIsInMiOjEwMDI1LCJjIjoicG9zdCIsIm=
+YiOnRydWUsInBvc2l0aW9uIjoiYm90dG9tIiwiaWF0IjoxNjU5NjE3Njc1LCJpc3MiOiJwdWItM=
+CIsInN1YiI6ImVvIn0.I08B1-aD1Sn3L2G8IvcBn7VSES0iWrDUKts2k1nT4A0" alt=3D"" wi=
+dth=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important;width:1p=
+x !important;border-width:0 !important;margin-top:0 !important;margin-botto=
+m:0 !important;margin-right:0 !important;margin-left:0 !important;padding-t=
+op:0 !important;padding-bottom:0 !important;padding-right:0 !important;padd=
+ing-left:0 !important;"/><img width=3D"1px" height=3D"1px" alt=3D"" src=3D"=
+https://email.mg2.substack.com/o/eJxFUMuOhCAQ_JrlaABp0APfQni0DhmFCba78e-XGZ=
+PdW6erUq_oCdfaLvuqBzHcfd7cigVb_yfnyQoNsxZGG5AgWbIqiQkmlg-3NPzwLbUT2esMW46ec=
+i0uJys4l8AeVkRlogYf5ggQFuU9F5AWlJyHFLhgb1_nz5SxRLT4je2qBVms-46F3lI3pR_acD2N=
+mrNsJZeST1wJCaNQwziYZMDgOGsvNYBavhTfVzkcZzjIx-fQ9VizpVKoLZe1w8-H33H7AD27exu=
+eJdPlsPiwYbpr0T3MeWD71NJyGkHNdya6XmgL_hwbEmFj3S3VPkn5N2L4t-AkfwFutnn9"></bo=
+dy></html>
+--aeb4151cde51fbdda3f63c5ccc5aabc7c03c88a44840abcf00f268a4a867--

@@ -1,0 +1,1706 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:60d:b029:116:5c91:524e with SMTP id gq13csp2173085lkb;
+        Mon, 2 Aug 2021 10:09:17 -0700 (PDT)
+X-Received: by 2002:a17:906:c085:: with SMTP id f5mr16711090ejz.250.1627924157030;
+        Mon, 02 Aug 2021 10:09:17 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1627924157; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=0BwF/b7lbS8oRFgMbYTAO8h53qiw2J2/PqUi4F6Sx4/PCF386QwZShWe+u6pZcj94m
+         0tGZ6nCnzzzGNQcdqERL3mcBpNqvPXx2mdTOHRqb7ax51cC8+wVKfbxMQB/Yo/TFY7rk
+         lbAqdzKByHpD+RqNjT80iDk5GPY/9UFvb+2xT1ulI/8FbiOZnKLih2iywR9TcN5AnTlz
+         1HDP0Ll+EwzRKZ0BUyC1I9XIxvSKTUoJ55oKRl46mjeZzLd/p4c4Eo7ZyG4EITz0vnB0
+         iRKpiIX7SprCFKOlpf3w5E5c6Dv0DcwPUcHHVHBHQNU/JWqtp1AdZqeRf4fxuXSbVRUE
+         fVkw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=OVKcsXr843EbTiSuqyW/XZmUWnbtyRTTOAmaS5Uqdss=;
+        b=RzBupz0j9bGsA/rheTiN8yJQfbRO/aLtnTYzJVW1rnDypl9p4yCTkP/lEC4ED9mjYh
+         jD7xrwmWJ6IKlXz/J6irfXdOWPjBJUA6CHfF7PbHd+JL4eW3jnG50NGvsnbgSc+VIU+f
+         MdTFX+pmqTVN/4IDJf/D9FJdTtaiL9/qdfTOA+D3DUKC4HeCKC4SG6qt4CjWpXk3z9w8
+         HWcZUzjCH8pHBXO3BuRvxrlzdAMRjDr7D2Z/2YJaM47QtSJs859+9a/kl2MChz5ItnHh
+         WnHfu/lgIK3s/mWWwzAej3W+qglCHA4YaVgHEZOZd2BO+uYzkX29cP3coreTJXCbXS8y
+         dSJA==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=JbVXnE2z;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id hs33sor1324379ejc.11.2021.08.02.10.09.16
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 02 Aug 2021 10:09:17 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=JbVXnE2z;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=OVKcsXr843EbTiSuqyW/XZmUWnbtyRTTOAmaS5Uqdss=;
+        b=SATYFT/KnJrPzCM8kXNMgyW5pUlHzXm4AaOjkg/IDv2Tgc1oyqolNmmGJYroaECGTV
+         oo/qWOMRreVQnz8h2ZcdrTzpIWFHM3l7jMYeWxDrEa5PG9nIseX/nJ6irlsG5MYVzkpD
+         rn0jszR0NaTixoRpjPwIV6EqYw2bPNVycg5jE8OynvwCF2dVub4gW01H+jr+Xj2G35/U
+         FTJjSoBPzYyx0Z6qu5XlzCCP59O6JEQSNE7X/UBky+xfbWuG5ctvq409pXUqsTpvw9ag
+         wUeVE05JDfmQxbK3KoWwjOjfxWifYOt7QEO+drZTlUZxqRCrr3MWthlNcBc/sh+IiiRP
+         GhOQ==
+X-Gm-Message-State: AOAM533r/meILZAtG8mMDPkGFj8so2Jgvd+wRArjJrVL5rcpUO3490fP
+	pLeKlDDPTat5X/QXxius5NZaeAJYQAro08oBfVjDR4+usZEn80ARnQ==
+X-Received: by 2002:a17:906:2642:: with SMTP id i2mr16578754ejc.323.1627924156806;
+        Mon, 02 Aug 2021 10:09:16 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:ab4:9b88:0:0:0:0:0 with SMTP id h8csp2054936ecz;
+        Mon, 2 Aug 2021 10:09:13 -0700 (PDT)
+X-Received: by 2002:aca:7513:: with SMTP id q19mr11671720oic.164.1627924153706;
+        Mon, 02 Aug 2021 10:09:13 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1627924153; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=VGmRhVirNiWy1BCbvkx95JF7Kpx8KKAsfyxMh7iPyreCw0Qix+a9Y9ROSO+oeiftSv
+         pBeoLzV2iTPdCjrNzkTbiWZ8AfR8+fPAzoaCGPdeSpytGxSeWsuAYa52CgfH/RnKG8fY
+         Oi4o/NWJpd+9tr7JLCro6dGTkfS4yCO4SLkbu++ejPL9xLJnuLd/bhncJV9wWBr3Crss
+         grSZfzPdQOMjtU8lU79JLb0aekz4nhx1P9jQOA3f0NVIB7035rMeo9Cf96MeHoQrB04B
+         31Cpzc7SFL3L0f/ymogYWlA7X/ByMv4Btmo1LwO+clPQfbSCmu/Klzm0uHh2RGUOIsgH
+         Mjuw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=OVKcsXr843EbTiSuqyW/XZmUWnbtyRTTOAmaS5Uqdss=;
+        b=0XBwFA1KNlQwS4ctbacBuO5FquIukvZboruxTLaMom3v/r82QXOOkVPyOaxzaCVb4t
+         uuyKWTP+f+oMpq956+Lp5g7yJi6YDWMhwiDHBITXxtszNQZ+/6JKCS88Cv3njEJN9X3W
+         mnc2OKVcnSy790wtImKnPJKf833/7KKFdJSNZkF05iov6+Yp4B1A/G3LWw/4eOqDQNmN
+         28m+Oet+kQmHiA3nm/dXl3oSYQ33UJhC1WD5DuobevSraRgYnbRHhWe/eaiUwwaQjPqw
+         8Uri/4z3QTaCMnQD2WqgtjER5HQx0ez4Akm5bSkMAzOz38Q2Go6+aUlesQgFnJZPXUc7
+         9L/g==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=JbVXnE2z;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210802130655.24626610.259075@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210802130655.24626610.259075@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210802130655.24626610.259075@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id w19sor2589865oiv.10.2021.08.02.10.09.13
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 02 Aug 2021 10:09:13 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210802130655.24626610.259075@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJzSCVLoavVchMziZozs5X8ukiluhp0uM4QNJxprZIE9ycIrBDErhxZIe/hPiffkH5w1OtwnTSX0yAiMt2X2uVQxJwB5D9U=
+X-Received: by 2002:aca:2109:: with SMTP id 9mr11018138oiz.78.1627924153356;
+        Mon, 02 Aug 2021 10:09:13 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1627924153; cv=none;
+        d=google.com; s=arc-20160816;
+        b=VMOsxnlJ9BF3LbHxhvhkD7YxAfDHQZ3av4ZGWC588BbuXfYBwCcXyjrR0k3SRIzpfa
+         JjWJGyaIm8uWHWl7u2Xw4ldPu5LfEKzhWGHK2sU/3A+Z6MUqkLzcFunUl4IGTOmn1F2r
+         T/R3wOziT09fOcqwXAZzCnrBgEM/VeyAYWbUg25rsg4cerbQv6vefFU+WNuEKlxWaQfZ
+         le5iNjqSIc8gxqvCMndHkR5CI5eDVEiy9RJtIptH4bCtWJfLSNBFFOXR8+pr/8kwCJ3r
+         3bgfpY3WW8hCejm/UAP0eShgYnAJihF65BJat9xI3MGDQLI/PttUTqSmoP5RFDcWPyzv
+         iGZg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=OVKcsXr843EbTiSuqyW/XZmUWnbtyRTTOAmaS5Uqdss=;
+        b=O32uysN2sxdDRD5nb5Sahv8xKpjdkNkU3NWc0kLzx8CAORGUMj4PoB72AEPGSn01BG
+         VfRta1/kB7d7hUhfDkqbbyw9haWhlM9y5UtGV1ykjqvRsXp5MLPjSIONzQbqtVilE1ug
+         uc0qazwUh/YDqD4DbQwsGTKZ7F8Gei5zQzuL5m+tB81vlbjY2okFuN6Mo3VtchJPQVsU
+         ForPevBfkaiNTxuJxV//awcbxiSFiwtQfDunRUUKcF0GGr+9JSfo59AFiRciiTw2E+Ct
+         DMKuSWRlZBGfKalzhlxzJx1XVj3M0AQeLZGWFTNNgfBRmtM5OuTsc2l5+y9pONbY8JII
+         d7rQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=JbVXnE2z;
+       spf=pass (google.com: domain of delivery_20210802130655.24626610.259075@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210802130655.24626610.259075@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210802130655.24626610.259075@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id a20si933877oos.2.2021.08.02.10.09.13
+        for <khamel83@gmail.com>;
+        Mon, 02 Aug 2021 10:09:13 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210802130655.24626610.259075@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=lmSa2vAgcf8m2u/gsS/7kDXU66U=;
+ b=JbVXnE2zK1Sy08uXy8iapYlVY4/yRv88zRs7s1HdXG7uIAyOZjGEQNX36xoIZ7vZhvedTtBDTZml
+   nLp6OHxvAUhng2F42eMDMylPz8eXnsfmiikyy/jyyYJkDk6JLbtDJHrHxbEqNdB1xwVNNaJwDRga
+   iIDHMF6k0m04tM+entc=
+Received: from mtast-04.sailthru.com (204.153.121.10) by bloomberg-b.sailthru.com id h10jbi1qqbsc for <bloomberg@khamel.com>; Mon, 2 Aug 2021 13:08:28 -0400 (envelope-from <delivery_20210802130655.24626610.259075@mx.sailthru.com>)
+Received: from nj1-oddlime.flt (172.18.20.14) by mtast-04.sailthru.com id h10j8o1s6j0r for <bloomberg@khamel.com>; Mon, 2 Aug 2021 13:06:55 -0400 (envelope-from <delivery_20210802130655.24626610.259075@mx.sailthru.com>)
+Date: Mon, 2 Aug 2021 13:06:55 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210802130655.24626610.259075@sailthru.com>
+Subject: Money Stuff: Chinese Stocks Will Get More Warnings
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_7971215_1406543176.1627924015811"
+Precedence: bulk
+X-Feedback-ID: 6358:24626610:campaign:sailthru
+X-TM-ID: 20210802130655.24626610.259075
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-oddlime.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cenu0i.5jwj/3a6aab5e
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cenu0i.5jwj/3a6aab5e>, <mailto:unsubscribe_20210802130655.24626610.259075@mx.sailthru.com>
+X-rpcampaign: stjko24626610
+
+------=_Part_7971215_1406543176.1627924015811
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+
+
+       =20
+           =20
+               =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      VIEs
+   =20
+ =20
+You can get a good sense of the differences between American and Chinese fi=
+nancial regulation from the recent troubles of Chinese tech companies liste=
+d in the U.S. Some Chinese companies in the internet, ride-sharing, educati=
+on-technology, etc. sectors have listed in New York, and Chinese regulators=
+ have  become unhappy about these companies=C2=A0and  have reacted by doing=
+ things like  restricting downloads of=C2=A0those companies=E2=80=99 apps, =
+or  forbidding them from making profits. This has been bad for the companie=
+s=E2=80=99 stock prices, for what I hope are obvious discounted-cash-flow-r=
+elated reasons.I do not have any special insight into=C2=A0why=C2=A0Chinese=
+ regulators are doing these things, though there are stated reasons =E2=80=
+=94=C2=A0China  worries about data security at tech companies, it worries a=
+bout the social downsides of expensive high-stakes tutoring, etc. =E2=80=94=
+=C2=A0that are plausible enough. And here=E2=80=99s Ray Dalio:In this case =
+the policy makers signaled to DiDi that it might not be best to go ahead wi=
+th the listing and they understandably want to deal with the data privacy i=
+ssue. In the case of the educational tutoring companies they want to reduce=
+ the educational inequality and the financial burden on those who are despe=
+rate to have their children have these services but can=E2=80=99t afford th=
+em by making them broadly available. They believe that these things are bet=
+ter for the country even if the shareholders don=E2=80=99t like it. =E2=80=
+=A6To understand what=E2=80=99s going on you need to understand that China =
+is a state capitalist system which means that the state runs capitalism to =
+serve the interests of most people and that policy makers won=E2=80=99t let=
+ the sensitivities of those in the capital markets and rich capitalists sta=
+nd in the way of doing what they believe is best for the most people of the=
+ country. Rather, those in the capital markets and capitalists have to unde=
+rstand their subordinate places in the system or they will suffer the conse=
+quences of their mistakes. For example, they need to not mistake their havi=
+ng riches for having power for determining how things will go.=C2=A0U.S. se=
+curities regulators, meanwhile, are in the investor-protection business, an=
+d they are unhappy that these Chinese stocks (1) were sold to U.S. investor=
+s and (2)=C2=A0went down. But their main, almost only, regulatory tool is d=
+isclosure. So when they see a broad swath of Chinese companies=E2=80=99 sto=
+cks go down for reasons like =E2=80=9Ca whole sector is not allowed to make=
+ profits anymore,=E2=80=9D they naturally think =E2=80=9Cwell this is a ris=
+k that should be disclosed.=E2=80=9D=C2=A0On the one hand that is a natural=
+ thing for them to think. On the other hand it is awkward because =E2=80=A6=
+=C2=A0that=C2=A0was a risk that was pretty well disclosed? Like a notable f=
+act about Chinese tech companies listing in the U.S. is that they all discl=
+ose pretty clear risk factors to the effect of =E2=80=9Cwe are a Chinese te=
+ch company, we are not actually allowed to be owned by foreign investors, w=
+e=E2=80=99ve got this rickety structure to get around the rules, we think i=
+t works but no one is really sure, and if it doesn=E2=80=99t work all sorts=
+ of terrible things can happen and you=E2=80=99ll never get your profits.=
+=E2=80=9D The rickety structure is called a =E2=80=9Cvariable interest enti=
+ty,=E2=80=9D we  talked about it last month,=C2=A0and it is all pretty well=
+ understood and disclosed.=C2=A0Obviously those risks are (were) ignored=C2=
+=A0a lot, but that is not really a failure of disclosure.But the Securities=
+ and Exchange Commission does what it does, so here is a =E2=80=9CStatement=
+ on Investor Protection Related to Recent Developments in China=E2=80=9D th=
+at SEC Chair Gary Gensler put out=C2=A0last week:In a number of sectors in =
+China, companies are not allowed to have foreign ownership and cannot direc=
+tly list on exchanges outside of China. To raise money on such exchanges, m=
+any China-based operating companies are structured as Variable Interest Ent=
+ities (VIEs). =E2=80=A6For U.S. investors, this arrangement creates =E2=80=
+=9Cexposure=E2=80=9D to the China-based operating company, though only thro=
+ugh a series of service contracts and other contracts. To be clear, though,=
+ neither the investors in the shell company=E2=80=99s stock, nor the offsho=
+re shell company itself, has stock ownership in the China-based operating c=
+ompany. I worry that average investors may not realize that they hold stock=
+ in a shell company rather than a China-based operating company.=C2=A0In li=
+ght of the recent developments in China and the overall risks with the Chin=
+a-based VIE structure, I have asked staff to seek certain disclosures from =
+offshore issuers associated with China-based operating companies before the=
+ir registration statements will be declared effective. In particular, I hav=
+e asked staff to ensure that these issuers prominently and clearly disclose=
+:That investors are not buying shares of a China-based operating company bu=
+t instead are buying shares of a shell company issuer that maintains servic=
+e agreements with the associated operating company. Thus, the business desc=
+ription of the issuer should clearly distinguish the description of the she=
+ll company=E2=80=99s management services from the description of the China-=
+based operating company;That the China-based operating company, the shell c=
+ompany issuer, and investors face uncertainty about future actions by the g=
+overnment of China that could significantly affect the operating company=E2=
+=80=99s financial performance and the enforceability of the contractual arr=
+angements; andDetailed financial information, including quantitative metric=
+s, so that investors can understand the financial relationship between the =
+VIE and the issuer.But those disclosures already exist in every Chinese VIE=
+ offering. I  quoted some of them last month when we talked about the initi=
+al public offering of Didi Global Inc., which ran into trouble with Chinese=
+ regulators almost immediately after it went public in New York. =E2=80=9CT=
+here are substantial uncertainties regarding the interpretation and applica=
+tion of current or future PRC laws and regulations,=E2=80=9D said Didi=E2=
+=80=99s prospectus, about the VIE structure. And if anything changed, it sa=
+id, =E2=80=9Cthe relevant governmental authorities would have broad discret=
+ion in dealing with such violation, including, without limitation: =E2=80=
+=A6=C2=A0revoking the business licenses and/or operating licenses of our PR=
+C entities; =E2=80=A6 [or] requiring us to restructure our ownership struct=
+ure or operations, including terminating the contractual arrangements with =
+our VIEs.=E2=80=9DNow, I suppose tweaks are still possible. For instance Ge=
+nsler says that =E2=80=9Cthe business description of the issuer should clea=
+rly distinguish the description of the shell company=E2=80=99s management s=
+ervices from the description of the China-based operating company,=E2=80=9D=
+ and most Chinese VIE prospectuses arguably do not do that. =E2=80=9COur jo=
+urney started on the streets of Beijing,=E2=80=9D begins the founders=E2=80=
+=99 letter at the start of Didi=E2=80=99s prospectus. The business section =
+begins, =E2=80=9COur mission is to make life better by transforming mobilit=
+y.=E2=80=9D The prospectus=C2=A0says those things because it is describing =
+a large Chinese ride-sharing company, and ride-sharing companies like to ma=
+ke grandiose claims about changing the world by letting you call a car with=
+ an app.But technically the prospectus was not=C2=A0selling shares of that =
+ride-sharing startup to U.S. investors; it was selling shares of a shell co=
+mpany with certain management contracts with that startup. =E2=80=9COur jou=
+rney started in a Cayman Islands law firm,=E2=80=9D a Gensler-approved foun=
+ders=E2=80=99 letter might start. =E2=80=9CWe were united by a single dream=
+: Being able to sell shares in a U.S.-listed company that has economic expo=
+sure to the Chinese ride-sharing business that we also happen to have found=
+ed, while complying with our lawyers=E2=80=99 current interpretation of Chi=
+nese laws limiting foreign ownership of certain technology businesses.=E2=
+=80=9D And then the whole prospectus would be like that, constantly emphasi=
+zing that you are buying shares of a Cayman Islands shell company rather th=
+an the underlying Chinese business. And it would be more jarring to read th=
+an the actual Didi prospectus, which understandably focuses on the operatin=
+g business rather than the legal structure.And I suppose that is Gensler=E2=
+=80=99s goal, to make the prospectus more=C2=A0jarring, so that people who =
+read it would be less likely to invest in the Chinese companies in the firs=
+t place. I do not know if that's a good goal; my assumption is that the peo=
+ple who bother to read prospectuses already knew all of this and decided th=
+at Chinese VIE risk was acceptable, while the people who didn=E2=80=99t kno=
+w all this are not=C2=A0going to read a prospectus anyway. But it might hav=
+e an effect. If the first sentence of the prospectus was =E2=80=9Cwe are a =
+Cayman Islands shell company providing certain miscellaneous services to a =
+Chinese tech company,=E2=80=9D you could imagine journalists saying =E2=80=
+=9Ca Cayman Islands shell company that provides certain miscellaneous servi=
+ces to a Chinese tech company is going public today,=E2=80=9D and you could=
+ imagine retail investors hearing that and saying =E2=80=9Coh that doesn=E2=
+=80=99t sound very interesting=E2=80=9D and passing.=C2=A0You could imagine=
+ a stronger approach of, for instance,=C2=A0banning U.S.=C2=A0listings by C=
+hinese VIE companies. (The SEC  does seem to have paused=C2=A0them until th=
+e disclosure is better.) That would keep U.S. institutional investors out, =
+too, so they couldn=E2=80=99t lose money if China changes its rules. But th=
+at has obvious downsides (they can=E2=80=99t make money either, etc.) and=
+=C2=A0is not really how the SEC operates. It=E2=80=99s just going to keep c=
+ranking up the disclosure requirements to make its displeasure clearer and =
+clearer. But what you do with that displeasure is up to you. The Chinese ap=
+proach is rather more drastic.Elsewhere, I guess a lot of investors who lob=
+bied index providers to increase the weighting of China in emerging-market =
+indexes  are sad now:An indexing boom that=E2=80=99s gone on for over a dec=
+ade has coincided with China=E2=80=99s emergence as the world=E2=80=99s sec=
+ond-biggest economy, a confluence that=E2=80=99s driven trillions of dollar=
+s into its burgeoning equity market -- often via passive funds.These produc=
+ts track gauges like the MSCI Emerging Markets Index, where the weighting f=
+or mainland- and Hong Kong-based stocks has doubled in 10 years to about 35=
+%. Or the MSCI Asia Pacific Index, where their shares account for over a qu=
+arter of the market value of all members.In other words, the passive era ha=
+s put untold billions at the mercy of Beijing=E2=80=99s zeal for reform.But=
+ that=E2=80=99s the point of indexing, really; you get exposure to the worl=
+d=E2=80=99s markets, and everything that they (and their regulators, etc.) =
+do. It would be good to have an index that included only stocks from market=
+s that go up, and not ones that go down, but that=E2=80=99s hard to get.
+ =20
+   =20
+      Short ARK
+   =20
+ =20
+Let=E2=80=99s say that you think celebrity stock-picker Cathie Wood is bad =
+at picking stocks, and you want to bet against her. Specifically you think =
+that her flagship actively managed=C2=A0exchange-traded fund, the ARK Innov=
+ation ETF (ticker ARKK), will go down, and you would like to make money whe=
+n it does. How would you do that? One thing you could do is short all the s=
+tocks that she buys. You could do that reasonably effectively: ARK is an ac=
+tively managed ETF, meaning that it changes its holdings unpredictably from=
+ time to time, but it does seem to do a pretty good job of disclosing its t=
+rading in something like real time. And it=E2=80=99s not like she=E2=80=99s=
+ in a high-frequency trading business; she=E2=80=99s betting on broad econo=
+mic themes rather than minute-by-minute trading dynamics. You could probabl=
+y get a reasonable inverse of her fund by just watching what she trades and=
+ doing the opposite.Still it is more work than the obvious trade. The obvio=
+us trade is: ARKK is an=C2=A0exchange-traded=C2=A0fund, which means you can=
+ buy and sell shares of the=C2=A0fund=C2=A0on the stock exchange, so you sh=
+ould just sell the fund short. Instead of betting against her by shorting t=
+he stocks she buys, just short the shares of her fund. Then every time her =
+fund goes down you will make money, and you never need to adjust your trade=
+s or pay attention to her trades. You are automatically betting against wha=
+tever she does.This is a standard nice feature of ETFs: If you want to bet =
+on the ETF=E2=80=99s theme or index or manager, you can buy the ETF, but if=
+ you want to bet against it you can sell the ETF short. The ETF as a produc=
+t appeals to both sets of people, people who=C2=A0like=C2=A0some theme and =
+people who want to bet against it. (The ETF only gets management fees from=
+=C2=A0the former group=C2=A0though.) And in fact Bloomberg tells me that th=
+ere are about 19.3 million shares of short interest on ARKK, or about $2.3 =
+billion worth of shorts. (Versus about $22.8 billion of longs.) So lots of =
+people do want to bet against Cathie Wood=E2=80=99s portfolio and stock-pic=
+king skills, and do, in a straightforward way.=C2=A0Still some ETFs come in=
+ two flavors, regular and inverse, where the inverse one generally goes up =
+X% whenever the regular one goes down X%. And=C2=A0if you want to bet again=
+st the theme of the regular one you can short it, or you can=C2=A0buy=C2=A0=
+the inverse one. I suppose this is more convenient or less scary for some i=
+nvestors than short selling is. There are also some nice weird synergies fo=
+r the company offering the ETFs. For one thing, the longs and shorts both p=
+ay management fees. Also I suppose you can write a swap on the underlying t=
+hing between the long and short funds, reducing the need to actually hold (=
+and short) the underlying thing.You don=E2=80=99t really see inverse funds=
+=C2=A0with actively managed stock-picker ETFs, for what I think are kind of=
+ obvious reasons. (If you=E2=80=99re offering that sort of ETF it=E2=80=99s=
+ because you=C2=A0think you're a good stock-picker; you=E2=80=99re not indi=
+fferently looking to give people exposure either way.) But  that doesn=E2=
+=80=99t mean that someone=C2=A0else=C2=A0can=E2=80=99t do it:Those who thin=
+k Cathie Wood=E2=80=99s hot hand is cooling may soon be able to express tha=
+t view via an exchange-traded fund.The Short ARKK ETF would seek to track t=
+he inverse performance of the $23 billion Ark Innovation ETF (ticker ARKK) =
+-- the largest fund in Ark Investment Management=E2=80=99s lineup -- throug=
+h swaps contracts, according to a filing Friday with the U.S. Securities an=
+d Exchange Commission. The fund would trade under the ticker SARK and charg=
+e a 0.75% operating expense, in line with ARKK=E2=80=99s fee. ...SARK would=
+ be managed by Matt Tuttle, chief executive officer at Tuttle Capital Manag=
+ement LLC, an issuer of thematic and actively-managed ETFs.=E2=80=9CIn sum,=
+ as ARKK already represents a long exposure to a basket of unprofitable tec=
+h stocks, we thought that investors should have access to the short side as=
+ well,=E2=80=9D Tuttle wrote in an email. =E2=80=9CKeep in mind there are a=
+ lot of non institutional investors, that cannot short stocks or ETFs or th=
+ey may have trouble finding a borrow to put on the short.=E2=80=9DRude! Mos=
+tly this strikes me as a clever marketing=C2=A0move; surely there are some =
+people who think =E2=80=9CCathie Wood is over-hyped=E2=80=9D but who would =
+not go so far as to short her fund, but maybe if someone pitches them an an=
+ti-Cathie Wood fund they=E2=80=99ll bite? I dunno. Anyway here's how that w=
+ill work:The Fund will enter into one or more swap agreements with major gl=
+obal financial institutions for a specified period ranging from a day to mo=
+re than one year whereby the Fund and the global financial institution will=
+ agree to exchange the return (or differentials in rates of return) earned =
+or realized on the ETF.=C2=A0If you are an ETF arbitrageur, it is nice to b=
+e able to get long ARKK in many different ways. You can buy the underlying =
+portfolio, or you can buy shares of the ETF, or, now, you can write a swap =
+to SARK and get long ARKK that way. And then your job is to get long the ch=
+eapest way and short the most expensive way, so that you are perfectly hedg=
+ed and make a little profit; Cathie Wood and Matt Tuttle can argue who=E2=
+=80=99s right about stocks, but the arbs make money either way.Elsewhere: =
+=E2=80=9CCathie Wood Is Just a Start as  Stock Pickers Storm the ETF World.=
+=E2=80=9D
+
+
+       =20
+           =20
+               =20
+                   =20
+                       =20
+                           =20
+                               =20
+                                    Sponsored Content
+                                   =20
+84% of ultra-high-net-worth individuals collect art. It makes sense =E2=80=
+=94contemporary art appreciated 13.6% per year over the last 25 years vs. 8=
+.9% returns for the S&P 500.
+
+Masterworks has fractionalized investments in masterpieces by Basquiat and =
+Banksy. If you're looking for a tangible, non-correlated asset class,  chec=
+k out Masterworks today.=C2=A0=C2=A0(See Disclaimer)
+
+                                    Masterworks
+                               =20
+                           =20
+                       =20
+                   =20
+               =20
+           =20
+       =20
+   =20
+
+
+ =20
+   =20
+      Goldman pay
+   =20
+ =20
+I  dunno man:Goldman Sachs Group Inc. raised pay for its junior investment =
+bankers, among the last of the big Wall Street banks to do so following a p=
+resentation by the lender=E2=80=99s own analysts revealing their crushing w=
+orkloads.First-year analysts at Goldman Sachs will now earn at least $110,0=
+00, according to people familiar with the matter. Their second-year counter=
+parts will be paid $125,000, the people said, asking not to be identified d=
+iscussing a private matter. Pay for first year associates will go to $150,0=
+00, they said.Goldman held out so long  on the theory that, as one Goldman =
+person put it last month, =E2=80=9CIf you behave like that [raising salarie=
+s] you simply end up with mercenaries.=E2=80=9D Goldman=E2=80=99s thing was=
+, we are Goldman, we are special, you don=E2=80=99t come here to maximize y=
+our first-year-analyst=E2=80=99s salary, but if you come here and perform w=
+ell you=E2=80=99ll have special opportunities and get especially rich in du=
+e time. We don=E2=80=99t want the people who want to maximize their first-y=
+ear salaries; we want the special people. =E2=80=9CLong-term greedy.=E2=80=
+=9DThat is, in the abstract, a perfectly plausible theory to have, and it w=
+orks pretty well for lots of tech startups. But if you are going to have th=
+at theory you have to be sure it=E2=80=99ll work for you too? Otherwise you=
+ just end up sheepishly raising salaries a month later, and the clear impli=
+cation is that you couldn=E2=80=99t attract enough of the special people wi=
+th the lower salaries, because they don=E2=80=99t think you=E2=80=99re spec=
+ial enough. Now you=E2=80=99re just looking for mercenaries.Disclosure, I u=
+sed to work at Goldman, back when it was special I guess.
+ =20
+   =20
+      Bored(om) market hypothesis
+   =20
+ =20
+Last spring I  proposed what I  usually  called the =E2=80=9Cboredom market=
+s hypothesis.=E2=80=9D As I once  put it: =E2=80=9Ca lot of individual inve=
+stors buy stocks mainly because it=E2=80=99s fun, and ... the more fun stoc=
+ks are, and the less fun everything else is, the more they=E2=80=99ll buy s=
+tocks. In a pandemic, when people can=E2=80=99t really leave their house an=
+d sports are canceled, there is a lot less fun to be had elsewhere, so trad=
+ing stocks seems relatively more fun, so people buy more stocks.=E2=80=9DTh=
+is was not especially rigorous or anything but, you know, look around. The =
+stock market didn=E2=80=99t seem especially rigorous. Stocks were rallying =
+because they went bankrupt. Much of that  worked out fine actually, and the=
+ bored retail investors=C2=A0often did pretty well, but at the time it felt=
+ really weird. It didn=E2=80=99t=C2=A0seem like=C2=A0they were doing rigoro=
+us fundamental analysis, a lot of the time. It seemed like they would rathe=
+r have been watching sports, but there were no sports, so they got their en=
+tertainment by trading stocks.=C2=A0Anyway Richard Thaler won a whole Nobel=
+ Prize for analyzing why stock markets do dumb things, and he agrees. Here=
+=E2=80=99s an interview that he gave to a Swiss journalist published last w=
+eek:Professor Thaler, what do you make of current events in the stock marke=
+ts? As a pioneer in the field of behavioral finance, these must be pretty e=
+xciting times.I sometimes play golf with my colleague Gene Fama, and if we =
+were keeping score by what=E2=80=99s going on in the market rather than str=
+okes made, I think I would be winning. Part of what seems to be going on I =
+call the =E2=80=9Cbored market hypothesis,=E2=80=9D because during the pand=
+emic when people were working at home, especially in the beginning, they ju=
+st had nothing to do. There weren=E2=80=99t even sports on television becau=
+se all the games were cancelled. So there was nothing to bet on, and many p=
+eople started individual investing.=E2=80=9CAs a pioneer in the field of be=
+havioral finance, these must be pretty exciting times=E2=80=9D is a very ta=
+ctful way to say =E2=80=9Ceverything is pretty dumb now isn=E2=80=99t it?=
+=E2=80=9D
+ =20
+   =20
+      NFT opportunity
+   =20
+ =20
+Here=E2=80=99s a story about a woman who made the only existing audio recor=
+ding of J.D. Salinger, but who feels bad about it:The author=E2=80=99s memo=
+rabilia has proved to be a profitable market: In 1999 author Joyce Maynard =
+sold 14 letters Salinger wrote to the software entrepreneur Peter Norton fo=
+r $156,500; five years later, 41 letters Salinger had signed sold at Christ=
+ie=E2=80=99s for $185,000..But Eppes has refused to sell the tape out of gu=
+ilt over how she went about getting it. =E2=80=9CIn the years after I did t=
+hat, I came to regret it, terribly, terribly. I have spent many, many, many=
+, many hours a day thinking about this. And, of course, it means an awful l=
+ot to me,=E2=80=9D she says. =E2=80=9CSometimes, I wake up in the middle of=
+ the night and I think, =E2=80=98I stole that. I stole his voice.=E2=80=99 =
+You know that=E2=80=99s like stealing somebody=E2=80=99s soul, right? That =
+tape is not mine to give or sell.=E2=80=9DNot long after our conversation, =
+Eppes called me to let me know she=E2=80=99d updated her will. The tape now=
+ will be placed, along with her body, in the crematorium.Burning a unique c=
+ultural artifact? You know what that means! It=E2=80=99s the =E2=80=9Cobjec=
+t-fire-token-money=E2=80=9D NFT cycle: You can light a cultural object on f=
+ire, and then sell a non-fungible token =E2=80=9Cof=E2=80=9D the former obj=
+ect on the blockchain. You can raise money off the twin demand for (1) Sali=
+nger memorabilia and (2) blockchain nonsense, and you don=E2=80=99t even ha=
+ve to let anyone hear his voice. If nobody mints a non-fungible token of th=
+is recording then you=E2=80=99ll know the NFT boom is truly over.
+ =20
+   =20
+      Good succession planning
+   =20
+ =20
+Here is a story of, not so much a succession battle as a succession=C2=A0su=
+rprise, at $1.2 billion family business Scholastic Corp., the kids=E2=80=99=
+ book publisher that was an important part of my and many other people=E2=
+=80=99s childhoods and that=C2=A0publishes =E2=80=9CHarry Potter.=E2=80=9D=
+=C2=A0Its longtime chief executive officer, M. Richard Robinson Jr., died i=
+n June and left control of the company to its chief strategy officer, Iole =
+Lucchese. She has worked there for 30 years, ran the business in Canada and=
+ the entertainment division, pushed the company to expand its digital initi=
+atives, and was a close adviser and strategic sparring partner for Robinson=
+. She was also in a longtime romantic relationship with him. He left the co=
+mpany to her. Seems like a reasonable choice, putting the company in the ha=
+nds of=C2=A0a person who knows it well and who has a good vision for its fu=
+ture?On the other hand this means he did=C2=A0not=C2=A0leave the company to=
+ his two sons. The Wall Street Journal gives them some space to make their =
+case for why they should run the company instead of the 30-year veteran chi=
+ef strategy officer, and it is everything you could hope for:[Younger son] =
+Reece Robinson, [a 25-year-old filmmaker] who has done documentary work, sa=
+id he tried to be involved with Scholastic but hasn=E2=80=99t worked there =
+full time. =E2=80=9CI saw myself as an adviser,=E2=80=9D he said. =E2=80=9C=
+I didn=E2=80=99t want to sacrifice my early 20s to work at a corporation.=
+=E2=80=9DHis brother Ben said he operates a sawmill and workshop that produ=
+ces lumber, flooring and furniture from trees in Martha=E2=80=99s Vineyard =
+and lives off the land, noting in an email, =E2=80=9CI fish the fish and cu=
+ll the deer.=E2=80=9D He also describes himself as a writer and =E2=80=9Cth=
+e poet laureate who hasn=E2=80=99t told his story yet.=E2=80=9DHe roamed th=
+e Scholastic headquarters in New York City=E2=80=99s SoHo neighborhood as a=
+ child, worked at the Scholastic store as a teenager and dressed up as =E2=
+=80=9CClifford=E2=80=9D the dog for a parade.In response to emailed questio=
+ns, the elder son said his father =E2=80=9Cvalued my perspective in all mat=
+ters, particularly regarding the trajectory of the company.=E2=80=9D He sai=
+d he told his father in recent years he wanted to be more involved in the c=
+ompany, including =E2=80=9Cmost explicitly my desire to be a member of the =
+Board.=E2=80=9DThe younger one didn=E2=80=99t want to sacrifice his early 2=
+0s working at a corporation, but now that he=E2=80=99s 25 he=E2=80=99d like=
+ to run one. The older one lives off the land, but he could also use=C2=A0a=
+ board seat if one is available. I love them but I=E2=80=99m glad Scholasti=
+c will be run by a grown-up.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Tech Startup Financing Hits Records as Giant Funds Dwarf Venture Capitalist=
+s.=C2=A0Hedge funds enter private equity turf with deals for unlisted compa=
+nies. Square to  Buy Afterpay for $29 Billion to Tap Younger Users. Allianz=
+ Says  U.S. Probe Into Funds Could Hurt Its Results. Fired Executive Says D=
+eutsche Bank=E2=80=99s DWS Overstated Sustainable-Investing Efforts. This 1=
+9-year-old earns $54,000 a year mining bitcoin as a full-time job =E2=80=94=
+ here=E2=80=99s what it=E2=80=99s like. =E2=80=9CA representative for Pengu=
+in Random House said the publisher was unable to locate an employee who fel=
+t they had =E2=80=98the proper insight=E2=80=99 to answer questions about t=
+his instance of bar code confusion.=E2=80=9D=C2=A0Hamptons homeowners buyin=
+g second houses for =E2=80=98weekend getaways.=E2=80=99=C2=A0Goose flying u=
+pside down is simply showing off, say experts.If you'd like to get=C2=A0Mon=
+ey=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=C2=A0su=
+bscribe at this link. Or you can subscribe to Money Stuff and other great B=
+loomberg newsletters here. Thanks!
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cenu0i.5jwj/5ad22b65.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_7971215_1406543176.1627924015811
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; padding-top: 10px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px 0px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24626610.259075/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cBe5104bcd"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table>
+<table class=3D"sponsored-ad" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tr>
+<td width=3D"206" align=3D"center" class=3D"sponsored-ad-container" style=
+=3D"padding-top: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24626610.259075/aH=
+R0cDovL3d3dy5ibG9vbWJlcmcuY29tL2Jjb20vc3RhdGljL2VtYWlsX2FkP2l1PS81MjYyL25ld=
+3NsZXR0ZXIvbW9uZXlzdHVmZiZzej0yMDZ4MzEmdD0/607f07ceef4b8524a319a23cB24cc447=
+c">
+<img src=3D"https://pubads.g.doubleclick.net/gampad/ad?iu=3D/5262/newslette=
+r/moneystuff&amp;sz=3D206x31&amp;t=3D" style=3D"display: block;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">VIEs</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">You can get a good sense of the differ=
+ences between American and Chinese financial regulation from the recent tro=
+ubles of Chinese tech companies listed in the U.S. Some Chinese companies i=
+n the internet, ride-sharing, education-technology, etc. sectors have liste=
+d in New York, and Chinese regulators have <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/24626610.259075/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9uZXdzL2FydGljbGVzLzIwMjEtMDctMDcvY2hpbmEtbXVsbHMtY2xvc2luZy1sb29waG9sZS11c=
+2VkLWJ5LXRlY2gtZ2lhbnRzLWZvci11LXMtaXBvcw/607f07ceef4b8524a319a23cB34e841ba=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> become =
+unhappy about these companies</a>=C2=A0and <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/24626610.259075/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9uZXdzL2ZlYXR1cmVzLzIwMjEtMDgtMDEvY2hpbmEtdGVjaC1jcmFja2Rvd24tY29tbXVuaXN0L=
+XBhcnR5LXBvbGljeS1jaGFuZ2VzLWJlaGluZC0xLXRyaWxsaW9uLXNlbGxvZmY/607f07ceef4b=
+8524a319a23cBc93b7c90" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> have reacted</a> by doing things like <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/24626610.259075/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMDQvY2hpbmEtcmVndWxhdG9yLW9yZGVycy1k=
+aWRpLXRvLWJlLXJlbW92ZWQtZnJvbS1hcHAtc3RvcmVz/607f07ceef4b8524a319a23cBeab83=
+af1" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> rest=
+ricting downloads</a> of=C2=A0those companies=E2=80=99 apps, or <em><a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24626610.259075/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjQvY2hpbmEtYmFucy1z=
+Y2hvb2wtY3VycmljdWx1bS10dXRvcmluZy1maXJtcy1mcm9tLWdvaW5nLXB1YmxpYw/607f07ce=
+ef4b8524a319a23cB35aa0f65" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> forbidding them from making profits</a></em>. This has be=
+en bad for the companies=E2=80=99 stock prices, for what I hope are obvious=
+ discounted-cash-flow-related reasons.</p><p style=3D"margin: 16px 0;">I do=
+ not have any special insight into=C2=A0<em>why=C2=A0</em>Chinese regulator=
+s are doing these things, though there are stated reasons =E2=80=94=C2=A0Ch=
+ina <a href=3D"https://link.mail.bloombergbusiness.com/click/24626610.25907=
+5/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjEtMDctMDgvLWRpZ=
+GktY3JhY2tkb3duLWJpZy1kYXRhLWlzLXRoZS1sYXRlc3QtdS1zLWNoaW5hLWJhdHRsZWdyb3Vu=
+ZA/607f07ceef4b8524a319a23cB5d80d067" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;"> worries about data security</a> at tech compan=
+ies, it worries about the social downsides of expensive high-stakes tutorin=
+g, etc. =E2=80=94=C2=A0that are plausible enough. And <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/24626610.259075/aHR0cHM6Ly93d3cubGlua2V=
+kaW4uY29tL3B1bHNlL3VuZGVyc3RhbmRpbmctY2hpbmFzLXJlY2VudC1tb3Zlcy1pdHMtY2FwaX=
+RhbC1tYXJrZXRzLXJheS1kYWxpby8/607f07ceef4b8524a319a23cB5d9c703b" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">here=E2=80=99s Ray=
+ Dalio</a>:</p><blockquote><p style=3D"margin: 16px 0;">In this case the po=
+licy makers signaled to DiDi that it might not be best to go ahead with the=
+ listing and they understandably want to deal with the data privacy issue. =
+In the case of the educational tutoring companies they want to reduce the e=
+ducational inequality and the financial burden on those who are desperate t=
+o have their children have these services but can=E2=80=99t afford them by =
+making them broadly available. They believe that these things are better fo=
+r the country even if the shareholders don=E2=80=99t like it. =E2=80=A6</p>=
+<p style=3D"margin: 16px 0;">To understand what=E2=80=99s going on you need=
+ to understand that China is a state capitalist system which means that the=
+ state runs capitalism to serve the interests of most people and that polic=
+y makers won=E2=80=99t let the sensitivities of those in the capital market=
+s and rich capitalists stand in the way of doing what they believe is best =
+for the most people of the country. Rather, those in the capital markets an=
+d capitalists have to understand their subordinate places in the system or =
+they will suffer the consequences of their mistakes. For example, they need=
+ to not mistake their having riches for having power for determining how th=
+ings will go.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">U.S. secur=
+ities regulators, meanwhile, are in the investor-protection business, and t=
+hey are unhappy that these Chinese stocks (1) were sold to U.S. investors a=
+nd (2)=C2=A0went down. But their main, almost only, regulatory tool is disc=
+losure. So when they see a broad swath of Chinese companies=E2=80=99 stocks=
+ go down for reasons like =E2=80=9Ca whole sector is not allowed to make pr=
+ofits anymore,=E2=80=9D they naturally think =E2=80=9Cwell this is a risk t=
+hat should be disclosed.=E2=80=9D=C2=A0</p><p style=3D"margin: 16px 0;">On =
+the one hand that is a natural thing for them to think. On the other hand i=
+t is awkward because =E2=80=A6=C2=A0that=C2=A0<em>was </em>a risk that was =
+pretty well disclosed? Like a notable fact about Chinese tech companies lis=
+ting in the U.S. is that they all disclose pretty clear risk factors to the=
+ effect of =E2=80=9Cwe are a Chinese tech company, we are not actually allo=
+wed to be owned by foreign investors, we=E2=80=99ve got this rickety struct=
+ure to get around the rules, we think it works but no one is really sure, a=
+nd if it doesn=E2=80=99t work all sorts of terrible things can happen and y=
+ou=E2=80=99ll never get your profits.=E2=80=9D The rickety structure is cal=
+led a =E2=80=9Cvariable interest entity,=E2=80=9D we <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/24626610.259075/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDctMDcvb3duaW5nLWNoaW5lc2UtY29tcGF=
+uaWVzLWlzLWNvbXBsaWNhdGVk/607f07ceef4b8524a319a23cBf92348fa" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> talked about it last mo=
+nth</a>,=C2=A0and it is all pretty well understood and disclosed.=C2=A0Obvi=
+ously those risks are (were) <em>ignored=C2=A0</em>a lot, but that is not r=
+eally a failure of disclosure.</p><p style=3D"margin: 16px 0;">But the Secu=
+rities and Exchange Commission does what it does, so here is a =E2=80=9C<a =
+href=3D"https://link.mail.bloombergbusiness.com/click/24626610.259075/aHR0c=
+HM6Ly93d3cuc2VjLmdvdi9uZXdzL3B1YmxpYy1zdGF0ZW1lbnQvZ2Vuc2xlci0yMDIxLTA3LTMw=
+/607f07ceef4b8524a319a23cB292144fc" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">Statement on Investor Protection Related to Recen=
+t Developments in China</a>=E2=80=9D that SEC Chair Gary Gensler put out=C2=
+=A0last week:</p><blockquote><p style=3D"margin: 16px 0;">In a number of se=
+ctors in China, companies are not allowed to have foreign ownership and can=
+not directly list on exchanges outside of China. To raise money on such exc=
+hanges, many China-based operating companies are structured as Variable Int=
+erest Entities (VIEs). =E2=80=A6</p><p style=3D"margin: 16px 0;">For U.S. i=
+nvestors, this arrangement creates =E2=80=9Cexposure=E2=80=9D to the China-=
+based operating company, though only through a series of service contracts =
+and other contracts. To be clear, though, neither the investors in the shel=
+l company=E2=80=99s stock, nor the offshore shell company itself, has stock=
+ ownership in the China-based operating company. I worry that average inves=
+tors may not realize that they hold stock in a shell company rather than a =
+China-based operating company.=C2=A0</p><p style=3D"margin: 16px 0;">In lig=
+ht of the recent developments in China and the overall risks with the China=
+-based VIE structure, I have asked staff to seek certain disclosures from o=
+ffshore issuers associated with China-based operating companies before thei=
+r registration statements will be declared effective. In particular, I have=
+ asked staff to ensure that these issuers prominently and clearly disclose:=
+</p><p style=3D"margin: 16px 0;">That investors are not buying shares of a =
+China-based operating company but instead are buying shares of a shell comp=
+any issuer that maintains service agreements with the associated operating =
+company. Thus, the business description of the issuer should clearly distin=
+guish the description of the shell company=E2=80=99s management services fr=
+om the description of the China-based operating company;</p><p style=3D"mar=
+gin: 16px 0;">That the China-based operating company, the shell company iss=
+uer, and investors face uncertainty about future actions by the government =
+of China that could significantly affect the operating company=E2=80=99s fi=
+nancial performance and the enforceability of the contractual arrangements;=
+ and</p><p style=3D"margin: 16px 0;">Detailed financial information, includ=
+ing quantitative metrics, so that investors can understand the financial re=
+lationship between the VIE and the issuer.</p></blockquote><p style=3D"marg=
+in: 16px 0;">But those disclosures already exist in every Chinese VIE offer=
+ing. I <a href=3D"https://link.mail.bloombergbusiness.com/click/24626610.25=
+9075/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDctMD=
+cvb3duaW5nLWNoaW5lc2UtY29tcGFuaWVzLWlzLWNvbXBsaWNhdGVk/607f07ceef4b8524a319=
+a23cCf92348fa" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> quoted some of them</a> last month when we talked about the initial p=
+ublic offering of Didi Global Inc., which ran into trouble with Chinese reg=
+ulators almost immediately after it went public in New York. =E2=80=9CThere=
+ are substantial uncertainties regarding the interpretation and application=
+ of current or future PRC laws and regulations,=E2=80=9D said Didi=E2=80=99=
+s prospectus, about the VIE structure. And if anything changed, it said, =
+=E2=80=9Cthe relevant governmental authorities would have broad discretion =
+in dealing with such violation, including, without limitation: =E2=80=A6=C2=
+=A0revoking the business licenses and/or operating licenses of our PRC enti=
+ties; =E2=80=A6 [or] requiring us to restructure our ownership structure or=
+ operations, including terminating the contractual arrangements with our VI=
+Es.=E2=80=9D</p><p style=3D"margin: 16px 0;">Now, I suppose tweaks are stil=
+l possible. For instance Gensler says that =E2=80=9Cthe business descriptio=
+n of the issuer should clearly distinguish the description of the shell com=
+pany=E2=80=99s management services from the description of the China-based =
+operating company,=E2=80=9D and most Chinese VIE prospectuses arguably do n=
+ot do that. =E2=80=9COur journey started on the streets of Beijing,=E2=80=
+=9D begins <a href=3D"https://link.mail.bloombergbusiness.com/click/2462661=
+0.259075/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE3NjQ3NTcvMD=
+AwMTA0NzQ2OTIxMDAxMjI3L2EyMjQzMzAwejQyNGI0Lmh0bSNiZzEwMjAxX2ZvdW5kZXJzX19sZ=
+XR0ZXI/607f07ceef4b8524a319a23cB272bb31b" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">the founders=E2=80=99 letter</a> at the st=
+art of Didi=E2=80=99s prospectus. The <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/24626610.259075/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9=
+lZGdhci9kYXRhLzE3NjQ3NTcvMDAwMTA0NzQ2OTIxMDAxMjI3L2EyMjQzMzAwejQyNGI0Lmh0bS=
+NkeTEwMjAxX2J1c2luZXNz/607f07ceef4b8524a319a23cB8aa0528e" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">business section</a> begins=
+, =E2=80=9COur mission is to make life better by transforming mobility.=E2=
+=80=9D The prospectus=C2=A0says those things because it is describing a lar=
+ge Chinese ride-sharing company, and ride-sharing companies like to make gr=
+andiose claims about changing the world by letting you call a car with an a=
+pp.</p><p style=3D"margin: 16px 0;">But technically the prospectus was not=
+=C2=A0selling shares of that ride-sharing startup to U.S. investors; it was=
+ selling shares of a shell company with certain management contracts with t=
+hat startup. =E2=80=9COur journey started in a Cayman Islands law firm,=E2=
+=80=9D a Gensler-approved founders=E2=80=99 letter might start. =E2=80=9CWe=
+ were united by a single dream: Being able to sell shares in a U.S.-listed =
+company that has economic exposure to the Chinese ride-sharing business tha=
+t we also happen to have founded, while complying with our lawyers=E2=80=99=
+ current interpretation of Chinese laws limiting foreign ownership of certa=
+in technology businesses.=E2=80=9D And then the whole prospectus would be l=
+ike that, constantly emphasizing that you are buying shares of a Cayman Isl=
+ands shell company rather than the underlying Chinese business. And it woul=
+d be more jarring to read than the actual Didi prospectus, which understand=
+ably focuses on the operating business rather than the legal structure.</p>=
+<p style=3D"margin: 16px 0;">And I suppose that is Gensler=E2=80=99s goal, =
+to make the prospectus more=C2=A0<em>jarring</em>, so that people who read =
+it would be less likely to invest in the Chinese companies in the first pla=
+ce. I do not know if that's a good goal; my assumption is that the people w=
+ho bother to read prospectuses already knew all of this and decided that Ch=
+inese VIE risk was acceptable, while the people who didn=E2=80=99t know all=
+ this are not=C2=A0going to read a prospectus anyway. But it might have an =
+effect. If the first sentence of the prospectus was =E2=80=9Cwe are a Cayma=
+n Islands shell company providing certain miscellaneous services to a Chine=
+se tech company,=E2=80=9D you could imagine journalists saying =E2=80=9Ca C=
+ayman Islands shell company that provides certain miscellaneous services to=
+ a Chinese tech company is going public today,=E2=80=9D and you could imagi=
+ne retail investors hearing that and saying =E2=80=9Coh that doesn=E2=80=99=
+t sound very interesting=E2=80=9D and passing.=C2=A0</p><p style=3D"margin:=
+ 16px 0;">You could imagine a stronger approach of, for instance,=C2=A0<em>=
+banning </em>U.S.=C2=A0listings by Chinese VIE companies. (The SEC <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24626610.259075/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMzAvc2VjLXN0b3BzLXBy=
+b2Nlc3NpbmctaXBvLWZpbGluZ3MtZm9yLWNoaW5lc2UtZmlybXMtcmV1dGVycy1zYXlz/607f07=
+ceef4b8524a319a23cBa1fd7dec" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> does seem to have <em>paused=C2=A0</em>them</a> until t=
+he disclosure is better.) That would keep U.S. institutional investors out,=
+ too, so they couldn=E2=80=99t lose money if China changes its rules. But t=
+hat has obvious downsides (they can=E2=80=99t make money either, etc.) and=
+=C2=A0is not really how the SEC operates. It=E2=80=99s just going to keep c=
+ranking up the disclosure requirements to make its displeasure clearer and =
+clearer. But what you do with that displeasure is up to you. The Chinese ap=
+proach is rather more drastic.</p><p style=3D"margin: 16px 0;">Elsewhere, I=
+ guess a lot of investors who lobbied index providers to increase the weigh=
+ting of China in emerging-market indexes <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/24626610.259075/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9u=
+ZXdzL2FydGljbGVzLzIwMjEtMDctMzEvYS13ZWVrLW9mLW1heWhlbS1pbi1jaGluYS1zdG9ja3M=
+tZXhwb3Nlcy1nbG9iYWwtaW5kZXgtZnVuZC1yaXNrcw/607f07ceef4b8524a319a23cB593785=
+77" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;"> are s=
+ad now</a>:</p><blockquote><p style=3D"margin: 16px 0;">An indexing boom th=
+at=E2=80=99s gone on for over a decade has coincided with China=E2=80=99s e=
+mergence as the world=E2=80=99s second-biggest economy, a confluence that=
+=E2=80=99s driven trillions of dollars into its burgeoning equity market --=
+ often via passive funds.</p><p style=3D"margin: 16px 0;">These products tr=
+ack gauges like the MSCI Emerging Markets Index, where the weighting for ma=
+inland- and Hong Kong-based stocks has doubled in 10 years to about 35%. Or=
+ the MSCI Asia Pacific Index, where their shares account for over a quarter=
+ of the market value of all members.</p><p style=3D"margin: 16px 0;">In oth=
+er words, the passive era has put untold billions at the mercy of Beijing=
+=E2=80=99s zeal for reform.</p></blockquote><p style=3D"margin: 16px 0;">Bu=
+t that=E2=80=99s the point of indexing, really; you get exposure to the wor=
+ld=E2=80=99s markets, and everything that they (and their regulators, etc.)=
+ do. It would be good to have an index that included only stocks from marke=
+ts that go up, and not ones that go down, but that=E2=80=99s hard to get.</=
+p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Short ARK</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Let=E2=80=99s say that you think celeb=
+rity stock-picker Cathie Wood is bad at picking stocks, and you want to bet=
+ against her. Specifically you think that her flagship actively managed=C2=
+=A0exchange-traded fund, the ARK Innovation ETF (ticker ARKK), will go down=
+, and you would like to make money when it does. How would you do that? One=
+ thing you could do is short all the stocks that she buys. You could do tha=
+t reasonably effectively: ARK is an actively managed ETF, meaning that it c=
+hanges its holdings unpredictably from time to time, but it <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/24626610.259075/aHR0cHM6Ly9ldGZzL=
+mFyay1mdW5kcy5jb20vaHViZnMvMV9Eb3dubG9hZF9GaWxlc19FVEZfV2Vic2l0ZS9QZXJmb3Jt=
+YW5jZS1hbmQtT3RoZXIvQVJLX0FjdGl2ZV9GdW5kc19TQUkucGRm/607f07ceef4b8524a319a2=
+3cB5012dd63" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">does seem</a> to do a pretty good job of <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/24626610.259075/aHR0cHM6Ly9hcmstZnVuZHMuY29tL3RyY=
+WRlLW5vdGlmaWNhdGlvbnM/607f07ceef4b8524a319a23cB86b43003" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">disclosing its trading</a> =
+in something like real time. And it=E2=80=99s not like she=E2=80=99s in a h=
+igh-frequency trading business; she=E2=80=99s betting on broad economic the=
+mes rather than minute-by-minute trading dynamics. You could probably get a=
+ reasonable inverse of her fund by just watching what she trades and doing =
+the opposite.</p><p style=3D"margin: 16px 0;">Still it is more work than th=
+e obvious trade. The obvious trade is: ARKK is an=C2=A0<em>exchange-traded=
+=C2=A0</em>fund, which means you can buy and sell shares of the=C2=A0<em>fu=
+nd=C2=A0</em>on the stock exchange, so you should just sell the fund short.=
+ Instead of betting against her by shorting the stocks she buys, just short=
+ the shares of her fund. Then every time her fund goes down you will make m=
+oney, and you never need to adjust your trades or pay attention to her trad=
+es. You are automatically betting against whatever she does.</p><p style=3D=
+"margin: 16px 0;">This is a standard nice feature of ETFs: If you want to b=
+et on the ETF=E2=80=99s theme or index or manager, you can buy the ETF, but=
+ if you want to bet against it you can sell the ETF short. The ETF as a pro=
+duct appeals to both sets of people, people who=C2=A0like<em>=C2=A0</em>som=
+e theme and people who want to bet against it. (The ETF only gets managemen=
+t fees from=C2=A0the former group=C2=A0though.) And in fact Bloomberg tells=
+ me that there are about 19.3 million shares of short interest on ARKK, or =
+about $2.3 billion worth of shorts. (Versus about $22.8 billion of longs.) =
+So lots of people do want to bet against Cathie Wood=E2=80=99s portfolio an=
+d stock-picking skills, and do, in a straightforward way.=C2=A0</p><p style=
+=3D"margin: 16px 0;">Still some ETFs come in two flavors, regular and inver=
+se, where the inverse one generally goes up X% whenever the regular one goe=
+s down X%. And=C2=A0if you want to bet against the theme of the regular one=
+ you can short it, or you can=C2=A0<em>buy=C2=A0</em>the inverse one. I sup=
+pose this is more convenient or less scary for some investors than short se=
+lling is. There are also some nice weird synergies for the company offering=
+ the ETFs. For one thing, the longs and shorts both pay management fees. Al=
+so I suppose you can write a swap on the underlying thing between the long =
+and short funds, reducing the need to actually hold (and short) the underly=
+ing thing.</p><p style=3D"margin: 16px 0;">You don=E2=80=99t really see inv=
+erse funds=C2=A0with actively managed stock-picker ETFs, for what I think a=
+re kind of obvious reasons. (If you=E2=80=99re offering that sort of ETF it=
+=E2=80=99s because you=C2=A0<em>think you're a good stock-picker</em>; you=
+=E2=80=99re not indifferently looking to give people exposure either way.) =
+But <a href=3D"https://link.mail.bloombergbusiness.com/click/24626610.25907=
+5/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMzAvYW50a=
+S1hcmstZXRmLXRvLWJldC1hZ2FpbnN0LWNhdGhpZS13b29kLXMtZmxhZ3NoaXAtZnVuZA/607f0=
+7ceef4b8524a319a23cB9a419949" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> that doesn=E2=80=99t mean that someone=C2=A0<em>else=
+=C2=A0</em>can=E2=80=99t do it</a>:</p><blockquote><p style=3D"margin: 16px=
+ 0;">Those who think Cathie Wood=E2=80=99s hot hand is cooling may soon be =
+able to express that view via an exchange-traded fund.</p><p style=3D"margi=
+n: 16px 0;">The Short ARKK ETF would seek to track the inverse performance =
+of the $23 billion Ark Innovation ETF (ticker ARKK) -- the largest fund in =
+Ark Investment Management=E2=80=99s lineup -- through swaps contracts, acco=
+rding to a filing Friday with the U.S. Securities and Exchange Commission. =
+The fund would trade under the ticker SARK and charge a 0.75% operating exp=
+ense, in line with ARKK=E2=80=99s fee. ...</p><p style=3D"margin: 16px 0;">=
+SARK would be managed by Matt Tuttle, chief executive officer at Tuttle Cap=
+ital Management LLC, an issuer of thematic and actively-managed ETFs.</p><p=
+ style=3D"margin: 16px 0;">=E2=80=9CIn sum, as ARKK already represents a lo=
+ng exposure to a basket of unprofitable tech stocks, we thought that invest=
+ors should have access to the short side as well,=E2=80=9D Tuttle wrote in =
+an email. =E2=80=9CKeep in mind there are a lot of non institutional invest=
+ors, that cannot short stocks or ETFs or they may have trouble finding a bo=
+rrow to put on the short.=E2=80=9D</p></blockquote><p style=3D"margin: 16px=
+ 0;">Rude! Mostly this strikes me as a clever marketing=C2=A0move; surely t=
+here are some people who think =E2=80=9CCathie Wood is over-hyped=E2=80=9D =
+but who would not go so far as to short her fund, but maybe if someone pitc=
+hes them an anti-Cathie Wood fund they=E2=80=99ll bite? I dunno. Anyway her=
+e's <a href=3D"https://link.mail.bloombergbusiness.com/click/24626610.25907=
+5/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE3MTk4MTIvMDAwMTM4N=
+zEzMTIxMDA3OTYwL3Nob3J0YXJray00ODVhcG9zXzA3MjYyMS5odG0/607f07ceef4b8524a319=
+a23cB032ec09d" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">how that will work</a>:</p><blockquote><p style=3D"margin: 16px 0;">Th=
+e Fund will enter into one or more swap agreements with major global financ=
+ial institutions for a specified period ranging from a day to more than one=
+ year whereby the Fund and the global financial institution will agree to e=
+xchange the return (or differentials in rates of return) earned or realized=
+ on the ETF.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">If you are =
+an ETF arbitrageur, it is nice to be able to get long ARKK in many differen=
+t ways. You can buy the underlying portfolio, or you can buy shares of the =
+ETF, or, now, you can write a swap to SARK and get long ARKK that way. And =
+then your job is to get long the cheapest way and short the most expensive =
+way, so that you are perfectly hedged and make a little profit; Cathie Wood=
+ and Matt Tuttle can argue who=E2=80=99s right about stocks, but the arbs m=
+ake money either way.</p><p style=3D"margin: 16px 0;">Elsewhere: =E2=80=9CC=
+athie Wood Is Just a Start as <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24626610.259075/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGl=
+jbGVzLzIwMjEtMDctMzEvY2F0aGllLXdvb2QtaXMtanVzdC1hLXN0YXJ0LWFzLXN0b2NrLXBpY2=
+tlcnMtc3Rvcm0tdGhlLWV0Zi13b3JsZA/607f07ceef4b8524a319a23cBb233b7f9" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> Stock Pickers St=
+orm the ETF World</a>.=E2=80=9D</p>
+<table class=3D"sponsored-content" border=3D"0" width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-family: Helvetica, Arial, sans-serif=
+ !important;">
+<tr>
+<td class=3D"sponsored-content-container" style=3D"padding: 20px 0px;">
+<table class=3D"sponsored-content-box" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"background-color: #f0f0f0;">
+<tbody>
+<tr>
+<td>
+<div style=3D"margin: 15px;">
+<div class=3D"sponsored-content__headline" style=3D"font-size: 20px; font-w=
+eight: bold; line-height: 1.2;">Sponsored Content</div>
+<div class=3D"sponsored-content__text" style=3D"font-size: 14px; line-heigh=
+t: 1.3;">
+<p style=3D"margin: 10px 0px;"><strong>84% of ultra-high-net-worth individu=
+als collect art. It makes sense =E2=80=94contemporary art appreciated 13.6%=
+ per year over the last 25 years vs. 8.9% returns for the S&amp;P 500.</str=
+ong></p>
+<p style=3D"margin: 10px 0px;"><a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/24626610.259075/aHR0cHM6Ly93d3cubWFzdGVyd29ya3MuaW8vP3V0bV9zb3=
+VyY2U9bW9uZXlzdHVmZiZ1dG1fbWVkaXVtPW5ld3NsZXR0ZXImdXRtX2NhbXBhaWduPTMtMjItM=
+jE/607f07ceef4b8524a319a23cB7156b110" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: under=
+line;">Masterworks</a> has fractionalized investments in masterpieces by Ba=
+squiat and Banksy. If you're looking for a tangible, non-correlated asset c=
+lass, <a href=3D"https://link.mail.bloombergbusiness.com/click/24626610.259=
+075/aHR0cHM6Ly93d3cubWFzdGVyd29ya3MuaW8vP3V0bV9zb3VyY2U9bW9uZXlzdHVmZiZ1dG1=
+fbWVkaXVtPW5ld3NsZXR0ZXImdXRtX2NhbXBhaWduPTMtMjItMjE/607f07ceef4b8524a319a2=
+3cC7156b110" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: underline;"> check out Masterw=
+orks today</a>.=C2=A0=C2=A0(See <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/24626610.259075/aHR0cHM6Ly93d3cubWFzdGVyd29ya3MuaW8vZGlzY2xha=
+W1lcj91dG1fc291cmNlPW1vbmV5c3R1ZmYmdXRtX21lZGl1bT1uZXdzbGV0dGVyJnV0bV9jYW1w=
+YWlnbj0zLTIyLTIx/607f07ceef4b8524a319a23cB64ea6427" style=3D"color: #000000=
+; text-decoration: underline;">Disclaimer</a>)</p>
+</div>
+<div class=3D"sponsored-content__name" style=3D"font-size: 15px; line-heigh=
+t: 1.3; font-weight: bold;"><p style=3D"margin: 10px 0px;">Masterworks</p><=
+/div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Goldman pay</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/24626610.259075/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZX=
+dzL2FydGljbGVzLzIwMjEtMDgtMDIvZ29sZG1hbi1zYWNocy1idW1wcy1qdW5pb3ItYmFua2VyL=
+XBheS1hbGlnbmluZy13aXRoLXJpdmFscw/607f07ceef4b8524a319a23cB3cf5f025" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> dunno man</a>:<=
+/p><blockquote><p style=3D"margin: 16px 0;">Goldman Sachs Group Inc. raised=
+ pay for its junior investment bankers, among the last of the big Wall Stre=
+et banks to do so following a presentation by the lender=E2=80=99s own anal=
+ysts revealing their crushing workloads.</p><p style=3D"margin: 16px 0;">Fi=
+rst-year analysts at Goldman Sachs will now earn at least $110,000, accordi=
+ng to people familiar with the matter. Their second-year counterparts will =
+be paid $125,000, the people said, asking not to be identified discussing a=
+ private matter. Pay for first year associates will go to $150,000, they sa=
+id.</p></blockquote><p style=3D"margin: 16px 0;">Goldman held out so long <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/24626610.259075/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDctMTIvZ29sZG=
+1hbi1kb2Vzbi10LXdhbnQtbWVyY2VuYXJpZXM/607f07ceef4b8524a319a23cB40f98fd6" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> on the theo=
+ry that</a>, as one Goldman person put it last month, =E2=80=9CIf you behav=
+e like that [raising salaries] you simply end up with mercenaries.=E2=80=9D=
+ Goldman=E2=80=99s thing was, we are Goldman, we are special, you don=E2=80=
+=99t come here to maximize your first-year-analyst=E2=80=99s salary, but if=
+ you come here and perform well you=E2=80=99ll have special opportunities a=
+nd get especially rich in due time. We don=E2=80=99t want the people who wa=
+nt to maximize their first-year salaries; we want the special people. =E2=
+=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/24626610.259=
+075/aHR0cHM6Ly93d3cuYmFycm9ucy5jb20vYXJ0aWNsZXMvZ29sZG1hbi1zYWNocy1hLWxvbmc=
+tdGVybS1ncmVlZHktdHJhZGUtMTQ4NjU3ODczNQ/607f07ceef4b8524a319a23cB35e4f06b" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">Long-term =
+greedy</a>.=E2=80=9D</p><p style=3D"margin: 16px 0;">That is, in the abstra=
+ct, a perfectly plausible theory to have, and it works pretty well for lots=
+ of tech startups. But if you are going to have that theory you have to be =
+sure it=E2=80=99ll work for you too? Otherwise you just end up sheepishly r=
+aising salaries a month later, and the clear implication is that you couldn=
+=E2=80=99t attract enough of the special people with the lower salaries, be=
+cause they don=E2=80=99t think you=E2=80=99re special enough. Now you=E2=80=
+=99re just looking for mercenaries.</p><p style=3D"margin: 16px 0;">Disclos=
+ure, I used to work at Goldman, back when it was special I guess.</p><table=
+ class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bored(om) market hypothesis</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Last spring I <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/24626610.259075/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDQtMzAvaWYteW91LXJlLWJvcmVkLXlvdS1jY=
+W4tdHJhZGUtc3RvY2tz/607f07ceef4b8524a319a23cB58e599cb" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> proposed</a> what I <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24626610.259075/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDYtMDkvdGhlLWJhZC1z=
+dG9ja3MtYXJlLXRoZS1tb3N0LWZ1bg/607f07ceef4b8524a319a23cBf1833a5b" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> usually</a> <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/24626610.259075/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDYtMTIvaWYteW91LX=
+dhbnQtaGVydHotaGF2ZS1zb21lLWhlcnR6/607f07ceef4b8524a319a23cBdfdae9b4" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> called</a> the=
+ =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/24626610=
+.259075/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjEtMDU=
+tMDYvbW9uZXktc3R1ZmYtZG9nZWNvaW4taXMtdXAtYmVjYXVzZS1pdC1zLWZ1bm55/607f07cee=
+f4b8524a319a23cB4f7f14d9" itemprop=3D"StoryLink" itemscope=3D"itemscope" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">boredom markets hypothesis</a>.=E2=80=9D As I once <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24626610.259075/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDYtMDkvdGhlLWJhZC1z=
+dG9ja3MtYXJlLXRoZS1tb3N0LWZ1bg/607f07ceef4b8524a319a23cCf1833a5b" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> put it</a>: =E2=
+=80=9Ca lot of individual investors buy stocks mainly because it=E2=80=99s =
+fun, and ... the more fun stocks are, and <em>the less fun everything else =
+is</em>, the more they=E2=80=99ll buy stocks. In a pandemic, when people ca=
+n=E2=80=99t really leave their house and sports are canceled, there is a lo=
+t less fun to be had elsewhere, so trading stocks seems relatively more fun=
+, so people buy more stocks.=E2=80=9D</p><p style=3D"margin: 16px 0;">This =
+was not especially rigorous or anything but, you know, look around. The <em=
+>stock market</em> didn=E2=80=99t seem especially rigorous. Stocks were ral=
+lying because they went bankrupt. Much of that <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/24626610.259075/aHR0cHM6Ly93d3cuYmxvb21iZXJnLm=
+NvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMTIvdGhlLWhlcnR6LWdhbWJsZXJzLXdlcmUtc=
+mlnaHQ/607f07ceef4b8524a319a23cBcf2d06fd" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> worked out fine actually</a>, and the bor=
+ed retail investors=C2=A0often did pretty well, but at the time it felt rea=
+lly weird. It didn=E2=80=99t=C2=A0<em>seem like=C2=A0</em>they were doing r=
+igorous fundamental analysis, a lot of the time. It seemed like they would =
+rather have been watching sports, but there were no sports, so they got the=
+ir entertainment by trading stocks.=C2=A0</p><p style=3D"margin: 16px 0;">A=
+nyway Richard Thaler <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/24626610.259075/aHR0cHM6Ly93d3cubm9iZWxwcml6ZS5vcmcvcHJpemVzL2Vjb25vbWlj=
+LXNjaWVuY2VzLzIwMTcvcHJlc3MtcmVsZWFzZS8/607f07ceef4b8524a319a23cB8815a518" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">won a whol=
+e Nobel Prize</a> for analyzing why stock markets do dumb things, and he ag=
+rees. <a href=3D"https://link.mail.bloombergbusiness.com/click/24626610.259=
+075/aHR0cHM6Ly90aGVtYXJrZXQuY2gvaW50ZXJ2aWV3L2FueWJvZHktd2hvcy1idXlpbmctYW5=
+kLXNlbGxpbmctc3RvY2tzLXRoaW5rcy10aGV5cmUtc21hcnQtbGQuNDY4OQ/607f07ceef4b852=
+4a319a23cB93b31a8f" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">Here=E2=80=99s an interview</a> that he gave to a Swiss journalis=
+t published last week:</p><blockquote><p style=3D"margin: 16px 0;"><strong>=
+Professor Thaler, what do you make of current events in the stock markets? =
+As a pioneer in the field of behavioral finance, these must be pretty excit=
+ing times.</strong></p><p style=3D"margin: 16px 0;">I sometimes play golf w=
+ith my colleague Gene Fama, and if we were keeping score by what=E2=80=99s =
+going on in the market rather than strokes made, I think I would be winning=
+. Part of what seems to be going on I call the =E2=80=9Cbored market hypoth=
+esis,=E2=80=9D because during the pandemic when people were working at home=
+, especially in the beginning, they just had nothing to do. There weren=E2=
+=80=99t even sports on television because all the games were cancelled. So =
+there was nothing to bet on, and many people started individual investing.<=
+/p></blockquote><p style=3D"margin: 16px 0;">=E2=80=9CAs a pioneer in the f=
+ield of behavioral finance, these must be pretty exciting times=E2=80=9D is=
+ a very tactful way to say =E2=80=9Ceverything is pretty dumb now isn=E2=80=
+=99t it?=E2=80=9D</p><table class=3D"header" width=3D"100%" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">NFT opportunity</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here=E2=80=99s a story about a woman w=
+ho made the only existing audio recording of J.D. Salinger, but who <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24626610.259075/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDctMjkvd29tYW4td2hvLXNl=
+Y3JldGx5LXJlY29yZGVkLWpkLXNhbGluZ2VyLXBsYW5zLXRvLWRlc3Ryb3ktdGFwZQ/607f07ce=
+ef4b8524a319a23cBa110db24" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">feels bad about it</a>:</p><blockquote><p style=3D"margin:=
+ 16px 0;">The author=E2=80=99s memorabilia has proved to be a profitable ma=
+rket: In 1999 author Joyce Maynard sold 14 letters Salinger wrote to the so=
+ftware entrepreneur Peter Norton for $156,500; five years later, 41 letters=
+ Salinger had signed sold at Christie=E2=80=99s for $185,000..</p><p style=
+=3D"margin: 16px 0;">But Eppes has refused to sell the tape out of guilt ov=
+er how she went about getting it. =E2=80=9CIn the years after I did that, I=
+ came to regret it, terribly, terribly. I have spent many, many, many, many=
+ hours a day thinking about this. And, of course, it means an awful lot to =
+me,=E2=80=9D she says. =E2=80=9CSometimes, I wake up in the middle of the n=
+ight and I think, =E2=80=98I stole that. I stole his voice.=E2=80=99 You kn=
+ow that=E2=80=99s like stealing somebody=E2=80=99s soul, right? That tape i=
+s not mine to give or sell.=E2=80=9D</p><p style=3D"margin: 16px 0;">Not lo=
+ng after our conversation, Eppes called me to let me know she=E2=80=99d upd=
+ated her will. The tape now will be placed, along with her body, in the cre=
+matorium.</p></blockquote><p style=3D"margin: 16px 0;">Burning a unique cul=
+tural artifact? You know what that means! It=E2=80=99s the =E2=80=9C<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/24626610.259075/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMjQvbWVycmlsbC1s=
+eW5jaC1wdXRzLWRvd24tdGhlLXBob25l/607f07ceef4b8524a319a23cB0877b062" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">object-fire-token=
+-money</a>=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/24626610.259075/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzL=
+zIwMjEtMDUtMTAvZWxvbi1tdXNrLXMtc25sLWRlYnV0LWRpZG4tdC1oZWxwLXRoZS1kb2dlY29p=
+bi1idWxscw/607f07ceef4b8524a319a23cBcf501cee" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">NFT cycle</a>: You can light a cultural=
+ object on fire, and then sell a non-fungible token =E2=80=9Cof=E2=80=9D th=
+e former object on the blockchain. You can raise money off the twin demand =
+for (1) Salinger memorabilia and (2) blockchain nonsense, and you don=E2=80=
+=99t even have to let anyone hear his voice. If nobody mints a non-fungible=
+ token of this recording then you=E2=80=99ll know the NFT boom is truly ove=
+r.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Good succession planning</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/24626610.259075/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRp=
+Y2xlcy9zdWNjZXNzaW9uLWRyYW1hLWdyaXBzLXNjaG9sYXN0aWMtY2Vvcy1zdWRkZW4tZGVhdGg=
+tYW4tb2ZmaWNlLXJvbWFuY2UtYW5kLWEtc3VycHJpc2Utd2lsbC0xMTYyNzg1MDc4Nz9tb2Q9aH=
+BfbGVhZF9wb3M2/607f07ceef4b8524a319a23cB26f11118" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">a story</a> of, not so much a succe=
+ssion battle as a succession=C2=A0<em>surprise</em>, at $1.2 billion family=
+ business Scholastic Corp., the kids=E2=80=99 book publisher that was an im=
+portant part of my and many other people=E2=80=99s childhoods and that=C2=
+=A0publishes =E2=80=9CHarry Potter.=E2=80=9D=C2=A0Its longtime chief execut=
+ive officer, M. Richard Robinson Jr., died in June and left control of the =
+company to its chief strategy officer, Iole Lucchese. She has worked there =
+for 30 years, ran the business in Canada and the entertainment division, pu=
+shed the company to expand its digital initiatives, and was a close adviser=
+ and strategic sparring partner for Robinson. She was also in a longtime ro=
+mantic relationship with him. He left the company to her. Seems like a reas=
+onable choice, putting the company in the hands of=C2=A0a person who knows =
+it well and who has a good vision for its future?</p><p style=3D"margin: 16=
+px 0;">On the other hand this means he did=C2=A0<em>not=C2=A0</em>leave the=
+ company to his two sons. The Wall Street Journal gives them some space to =
+make their case for why they should run the company instead of the 30-year =
+veteran chief strategy officer, and it is everything you could hope for:</p=
+><blockquote><p style=3D"margin: 16px 0;">[Younger son] Reece Robinson, [a =
+25-year-old filmmaker] who has done documentary work, said he tried to be i=
+nvolved with Scholastic but hasn=E2=80=99t worked there full time. =E2=80=
+=9CI saw myself as an adviser,=E2=80=9D he said. =E2=80=9CI didn=E2=80=99t =
+want to sacrifice my early 20s to work at a corporation.=E2=80=9D</p><p sty=
+le=3D"margin: 16px 0;">His brother Ben said he operates a sawmill and works=
+hop that produces lumber, flooring and furniture from trees in Martha=E2=80=
+=99s Vineyard and lives off the land, noting in an email, =E2=80=9CI fish t=
+he fish and cull the deer.=E2=80=9D He also describes himself as a writer a=
+nd =E2=80=9Cthe poet laureate who hasn=E2=80=99t told his story yet.=E2=80=
+=9D</p><p style=3D"margin: 16px 0;">He roamed the Scholastic headquarters i=
+n New York City=E2=80=99s SoHo neighborhood as a child, worked at the Schol=
+astic store as a teenager and dressed up as =E2=80=9CClifford=E2=80=9D the =
+dog for a parade.</p><p style=3D"margin: 16px 0;">In response to emailed qu=
+estions, the elder son said his father =E2=80=9Cvalued my perspective in al=
+l matters, particularly regarding the trajectory of the company.=E2=80=9D H=
+e said he told his father in recent years he wanted to be more involved in =
+the company, including =E2=80=9Cmost explicitly my desire to be a member of=
+ the Board.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">The young=
+er one didn=E2=80=99t want to sacrifice his early 20s working at a corporat=
+ion, but now that he=E2=80=99s 25 he=E2=80=99d like to run one. The older o=
+ne lives off the land, but he could also use=C2=A0a board seat if one is av=
+ailable. I love them but I=E2=80=99m glad Scholastic will be run by a grown=
+-up.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Tech Startup Financing Hits Records as=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/24626610.259075/a=
+HR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90ZWNoLXN0YXJ0dXAtZmluYW5jaW5nLWhpdHMt=
+cmVjb3Jkcy1hcy1naWFudC1mdW5kcy1kd2FyZi12ZW50dXJlLWNhcGl0YWxpc3RzLTExNjI3ODI=
+yODAwP21vZD1ocF9sZWFkX3BvczUt/607f07ceef4b8524a319a23cB95f6a19f" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">Giant Funds Dwarf =
+Venture Capitalists</a>.=C2=A0Hedge funds enter <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/24626610.259075/aHR0cHM6Ly93d3cuZnQuY29tL2Nvb=
+nRlbnQvYTM2ODRjZjYtZTk1YS00ZTEyLTg4NDgtMGEzODUxNjc5MmE0/607f07ceef4b8524a31=
+9a23cBf427c648" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">private equity turf</a> with deals for unlisted companies. Square to =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24626610.259075/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDgtMDEvc3F1YXJlL=
+XRvLWJ1eS1hdXN0cmFsaWEtcGF5bWVudC1maXJtLWFmdGVycGF5LWZvci0yOS1iaWxsaW9u/607=
+f07ceef4b8524a319a23cBf646ded6" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> Buy Afterpay</a> for $29 Billion to Tap Younger User=
+s. Allianz Says <a href=3D"https://link.mail.bloombergbusiness.com/click/24=
+626610.259075/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtM=
+DgtMDEvYWxsaWFuei1zYXlzLXUtcy1pbnZlc3RpZ2F0aW9uLWNvdWxkLW1hdGVyaWFsbHktaHVy=
+dC1yZXN1bHRz/607f07ceef4b8524a319a23cB81b3eba8" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> U.S. Probe Into Funds</a> Could Hurt=
+ Its Results. Fired Executive Says Deutsche Bank=E2=80=99s DWS <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/24626610.259075/aHR0cHM6Ly93d3=
+cud3NqLmNvbS9hcnRpY2xlcy9maXJlZC1leGVjdXRpdmUtc2F5cy1kZXV0c2NoZS1iYW5rcy1kd=
+3Mtb3ZlcnN0YXRlZC1zdXN0YWluYWJsZS1pbnZlc3RpbmctZWZmb3J0cy0xMTYyNzgxMDM4MD9t=
+b2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB306efc5e" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">Overstated Sustainable-=
+Investing Efforts</a>. This 19-year-old earns $54,000 a year <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/24626610.259075/aHR0cHM6Ly93d3cu=
+Y25iYy5jb20vMjAyMS8wNy8zMS9iaXRjb2luLW1pbmVycy1ob3ctdGhleS1nb3QtaW50by1pdC1=
+3aGF0LXRoZWlyLWxpdmVzLWFyZS1saWtlLmh0bWw/607f07ceef4b8524a319a23cB4bb9206d"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">mining bi=
+tcoin</a> as a full-time job =E2=80=94 here=E2=80=99s what it=E2=80=99s lik=
+e. =E2=80=9CA representative for Penguin Random House said the publisher wa=
+s unable to locate an employee who felt they had =E2=80=98<a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/24626610.259075/aHR0cHM6Ly93d3cubnl=
+0aW1lcy5jb20vMjAyMS8wNy8yOS9zdHlsZS9kYW4tYnJvd24tYWR2aWNlLWJvb2suaHRtbA/607=
+f07ceef4b8524a319a23cB6af0c868" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">the proper insight</a>=E2=80=99 to answer questions a=
+bout this instance of bar code confusion.=E2=80=9D=C2=A0Hamptons homeowners=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/24626610.259075/a=
+HR0cHM6Ly9ueXBvc3QuY29tLzIwMjEvMDcvMzAvaGFtcHRvbnMtaG9tZW93bmVycy1idXktc2Vj=
+b25kLWhvdXNlcy1mb3Itd2Vla2VuZC1nZXRhd2F5cy8/607f07ceef4b8524a319a23cB58955f=
+e1" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">buying=
+ second houses</a> for =E2=80=98weekend getaways.=E2=80=99=C2=A0Goose flyin=
+g upside down is simply showing off, <a href=3D"https://link.mail.bloomberg=
+business.com/click/24626610.259075/aHR0cHM6Ly93Z21lLmNvbS9uZXdzL29mZmJlYXQv=
+Z29vc2UtZmx5aW5nLXVwc2lkZS1kb3duLWlzLXNpbXBseS1zaG93aW5nLW9mZi1zYXktZXhwZXJ=
+0cw/607f07ceef4b8524a319a23cB64628e15" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: sol=
+id; background-color: #ccc;">say experts</a>.</p><p style=3D"margin: 16px 0=
+;"><span class=3D"news-designed-for-consumer-media"><em>If you'd like to ge=
+t=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, plea=
+se=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/24626610.2=
+59075/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZ=
+XlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f0=
+7ceef4b8524a319a23cB74dfe660" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">subscribe=
+ at this link</a>. Or you can subscribe to Money Stuff and other great Bloo=
+mberg newsletters <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+24626610.259075/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07=
+ceef4b8524a319a23cBecc9dacb" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">here</a>. Thanks!</em></span></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24626610.259075/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB36a978d0" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24626610.259075/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB36b5dcd3" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24626610.259075/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBacc1ab18" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/24626610.259075/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB055172da" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2462661=
+0.259075/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBf710d8b8" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/24626610.259075/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCc06ac85e" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/24626610.259075/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBb849fb2e" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/24626610.259075/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB483bda91" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cenu0i.5jwj/5ad22b65.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_7971215_1406543176.1627924015811--
+

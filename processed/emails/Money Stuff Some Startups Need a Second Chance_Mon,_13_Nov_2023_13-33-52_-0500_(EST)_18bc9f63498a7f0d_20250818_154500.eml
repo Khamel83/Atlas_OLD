@@ -1,0 +1,1752 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a0c:e3d1:0:b0:675:7c40:1c7f with SMTP id e17csp1469085qvl;
+        Mon, 13 Nov 2023 10:33:57 -0800 (PST)
+X-Received: by 2002:a2e:9dc8:0:b0:2c2:c38b:2141 with SMTP id x8-20020a2e9dc8000000b002c2c38b2141mr63638ljj.49.1699900437570;
+        Mon, 13 Nov 2023 10:33:57 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1699900437; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=rluWARN2EF/uonSl1agnExmFFP6hmUWHk56Nw8Pc+vQH6W02/4JnG+nlZ+jfK6sLMd
+         AzJgDOV1PtZMpCfP+t//b+Tm4h3uheWSJdBrYLwUl+KXQlK0inOTGyLeHhOFui+sr4uE
+         TtRklO9We6j8boXpuyLKBDS6AzQk/3Cjlhi0gZt+17Ja5eaGxGrYPgpiF+krWNhD6Acv
+         l7Q2aXhmhBK6tKrr0awPe3s7o0Q6wN4aYwUYUyxHTHQTiRvcEptlK9wAh5dFPxXFoxSZ
+         LIwIJ6bUbzycYSFvMR8tjdRK+p/Rb0aSGCnvVL+gc6NgufYouw9gVv42EC8mdkRWGKqb
+         JzcA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=hM4EGX/CeRZUPFFudCWs4GTC90rktxLOQV8xuGxj42c=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=Ccv8tD9deQJBh63kIqkKbdza+yNZca/NZMLhxNjRQfzL+mJyNH+27jpGKIekgMAicn
+         fPRNdbzyK5bMkCBmoY2O07t+iqHgl+wi7+pNjLb8ZF5mvXg94E9LUKWWQFBfX2GMUvPE
+         UmsDKC/pv5zamZfNjZcVXWU3FlHtAs4M7b2KtpA3uv6Ybdss6vd29l3u09j4RaGZILlp
+         Tgn/ol7VrBASgEY/uTnwGF8RlKkRn360xYRurXxRaIPbVNyAyUzydVa03qpjfX40MNk7
+         BhmjwknfnBkCf4pQQZ/m9K2XdAChqCVieEma7DYTFnUy7UiZKU4CB+QwaJceYrYtpJMn
+         hT1Q==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=g26sNqCl;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id k4-20020a05600c478400b004094eee2d0dsor1340148wmo.13.2023.11.13.10.33.57
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 13 Nov 2023 10:33:57 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=g26sNqCl;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1699900437; x=1700505237;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=hM4EGX/CeRZUPFFudCWs4GTC90rktxLOQV8xuGxj42c=;
+        b=P743IhsyANMEexs3rauM9pTymNWg+QMwi2KkghSJsneedszbdOGnI/NYl9WRQhJXgR
+         qMKTAjmpfwP0nkplgG6ijH/O3I3uddZFH0TTVaxu8+bS4a0739QiO8GpxPdPL6+DiW/7
+         UFHkN59Y82sH756uup+SbiHC+ERWg8LC0doPJ/aZ1iCJvmxgp5Y4Jby36YX8gZ46asrq
+         H1ah8PC+21INXeZfPFW6jxhvQjC1ftkxU7kM/6/c3MFLmNC4AIP8qrt+aNg0RVJ2X3kq
+         jToNlacVG1R5IiRIphqrV+Wui60bO5OysRcekoB39KvUQEbtcFZLTvS8LPEAqRhHLa20
+         fIfQ==
+X-Gm-Message-State: AOJu0Yw991yHGdrcRZwBPDdLYH4p9cWc7VzFmqhkJVd3cWff/neEjn5i
+	YbMMeiwTP+p32IE0yASH5JMf8u9i8tyHeblGmhNijAmZi5uUK6i8FA==
+X-Received: by 2002:a5d:47a2:0:b0:32d:a476:527a with SMTP id 2-20020a5d47a2000000b0032da476527amr6524957wrb.50.1699900437009;
+        Mon, 13 Nov 2023 10:33:57 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a05:6000:1c7:b0:32f:dd4c:ebf8 with SMTP id t7csp1615910wrx;
+        Mon, 13 Nov 2023 10:33:53 -0800 (PST)
+X-Received: by 2002:a05:6808:18a8:b0:3b5:a58c:cca4 with SMTP id bi40-20020a05680818a800b003b5a58ccca4mr9092410oib.4.1699900433427;
+        Mon, 13 Nov 2023 10:33:53 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1699900433; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=JCD3EnPWxsKTPrKLR+D0voTTjVXHjDuU30Ewp+2V5Oa99iuMQXKfZE3knDdnjCU+XO
+         3GXe+lE3+NNr9SvP+mTZmu6IUNcmiLCTzSdTd731Sf8nnDzThxFeekvPc7dX2060ysMj
+         BbGu8yW5EhSxTKjc+rr5Sf418ldpO+yBJccsfpcUDQ15+fUZMyPNGwKyi+g/qWVkD4IR
+         bDwZWLnVgdxAjgfBxaokIAlR+CHHm+GTEoDDrO0yRaWrERTHn6Zhg4f8ZBc3F3VB093d
+         rwWo6k/hiMWcLpM3ZTT3S9IhHIoH6ntA005PMzKCSzgcKkAOzlowPKEHO0Pj7BDkzNAe
+         WccA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=hM4EGX/CeRZUPFFudCWs4GTC90rktxLOQV8xuGxj42c=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=t7QFx5o0O3fHeHnZ9Pn2QYGIR8qD0JnUaTQcVZZcUukVRi56lQneFcPKwbCfR9Qvf2
+         QJ3/UTDZbruFgI7VamvmpFLSBBB9CHWrq11KlzBCk6wJwIiiq2CoICyu/VrDi/kJ6ikh
+         oBwA9RJpwR84yayU9FxFBhh3PC4jjWjIKbVhEk1K7jEnTieFNVcTaGrxfxHWlq5RbZWw
+         CBhX4UEU++EhIHe2FdrEBWRDEgsGIrseH6/hd8yB2tjqXEVkL5MREVVtysJGweyW848m
+         gzdDaDisOtwDOF5oou+iiFG9xtgocoYuY4vZpR785zr9L+Dm85+XbgkS/xEor4C7w5cJ
+         1nsg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=g26sNqCl;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20231113133352.33352147.257416@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20231113133352.33352147.257416@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231113133352.33352147.257416@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id r6-20020a544886000000b003ae474cb8aesor1768491oic.7.2023.11.13.10.33.53
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 13 Nov 2023 10:33:53 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20231113133352.33352147.257416@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IEUInCQSjYvpmzilWkOYNdfGT0kpEd9bVP7wuNEAuiIg14GprAAUkDaDewMplKwXD6fU5eo0EyeODqvb5N2rB0wfvpQUHE=
+X-Received: by 2002:a05:6870:4c10:b0:1e9:de37:a75d with SMTP id pk16-20020a0568704c1000b001e9de37a75dmr7785867oab.17.1699900433066;
+        Mon, 13 Nov 2023 10:33:53 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1699900433; cv=none;
+        d=google.com; s=arc-20160816;
+        b=TRrP2kfbx57jUAlgKnk2pWZYo/6s7Ht+q0T6QQZLMe0CM0kacfB5cvN6dcqlyfbWx/
+         9182j/e1+rQWNLPNChYI5YLPTrFTnO1NevXhhpShbq4arMM0Z4b26D8LMFYmCZTzdZBA
+         P474SQhW0upi7EQOUWDiadE7V42GWXfkCnGx7SMcW7uLKzdeOuhnBkdW36V6r5pjqUYy
+         EyqrdyXO6l7Ltant8AFldXpJOONLlPqh9/H3Tp2GEWAD7Zt8pg4nLI3WEles00dA6V/O
+         UvCGWRW2ZDKSjPzkj9CXlHC1A8AX3wdmAqlSMPAWNskIsqHd9tcIKLrs9kFWikon7xVN
+         9xvg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=hM4EGX/CeRZUPFFudCWs4GTC90rktxLOQV8xuGxj42c=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=AXX5/qHx0/rh2bZ/tRO7U61yH8ILSQEbRWEj9Pxe8hO+xcPYYF57V3MpfgtG3RC0Uy
+         qg/TuoTHzqPhlQtVL0ywbhH1E+wNSzKhb8FfNu4VbJncrLaLzdyXXvqjEcrJKPZ3T+TK
+         VfB0tMLTgaYjLsBkW9c1I6ouVquhuuiU9TO2GxvzQVk6jjBUBflv0ZdSwM47Uh2mHG7n
+         tAiam4FI+mSVZPo27/6Ysw0zn6zKsUHR6+F4KZmWvrMuiY+OIgVEOqXDi99oSNrUf0iA
+         rOMXsvLMbBfnMo8WNo3n2jgk3jv28SqQ343Fp6O1Mpsiu7UH9y5scLu/1cN6KhccctPt
+         ULhA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=g26sNqCl;
+       spf=pass (google.com: domain of delivery_20231113133352.33352147.257416@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20231113133352.33352147.257416@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231113133352.33352147.257416@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id ge24-20020a05622a5c9800b00417048548c7si776742qtb.2.2023.11.13.10.33.52
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 13 Nov 2023 10:33:53 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20231113133352.33352147.257416@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=NC/ySiPh99DpplxoPvdP7nJ6UBf//KAi6XYQ6XrzXxk=;
+ b=g26sNqClOPakIzA8mY2H2m/aR6jsKV+MEn6FwK2mJ9+/TsP4eLUcthulv3AyncR2ua8tOK9s23Ym
+   Q82ClxIbMsC6W+YZIhhM2Wx3zh6QzxSZOLH+YWAoqWSuI7/46j9uak6zu5ImYvTj2puU57OX3ZRz
+   n0Zo4GXGbgP1Gtz0cyk=
+Received: from aws1-mta-relay9.sailthru.cloud (10.55.62.145) by pmta29.sailthru.com id ha9m102sd4se for <bloomberg@khamel.com>; Mon, 13 Nov 2023 12:33:52 -0600 (envelope-from <delivery_20231113133352.33352147.257416@mx.sailthru.com>)
+Date: Mon, 13 Nov 2023 13:33:52 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20231113133352.33352147.257416@sailthru.com>
+Subject: Money Stuff: Some Startups Need a Second Chance
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_46805904_1208906806.1699900432691"
+Precedence: bulk
+x-job: 6358-33352147-20231113
+X-Feedback-ID: 6358:33352147:campaign:sailthru
+X-TM-ID: 20231113133352.33352147.257416
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-88-167.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjuuoj.5img/c056e384
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjuuoj.5img/c056e384>, <mailto:unsubscribe_20231113133352.33352147.257416@mx.sailthru.com>
+X-rpcampaign: stjko33352147
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_46805904_1208906806.1699900432691
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Last week I wrote about what I called a =E2=80=9Cprobabilistic bill=
+ionaire.=E2=80=9D You create a company with some long-shot idea that will b=
+e worth $1 tri
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      VC rehab
+   =20
+ =20
+
+Last week   I wrote about=C2=A0what I called a =E2=80=9Cprobabilistic billi=
+onaire.=E2=80=9D You create a company with some long-shot idea that will be=
+ worth $1 trillion if it succeeds, you convince investors that you have a 1=
+% chance of success, and you raise money at a $10 billion valuation:
+Of course eventually you will either succeed (with 1% probability) or fail =
+(99%) at creating a trillion-dollar company. If time goes by and you do not=
+ discover teleportation and you get bored and go back to your day job, then=
+ (let us assume) your probability of making $1 trillion goes to zero, and y=
+ou are no longer a billionaire.
+This was, of course, too simple. My toy example of a company that was unlik=
+ely to succeed, but hugely valuable if it did, was one trying to invent tel=
+eportation. But the=C2=A0actual=C2=A0company that inspired the column was W=
+eWork Inc. WeWork never achieved a $1 trillion valuation, and it seems unli=
+kely that it ever will, and its founder long ago moved on to other endeavor=
+s. But WeWork still exists. It is=C2=A0bankrupt, sure, but it went bankrupt=
+ with=C2=A0a plan to restructure its debts and get rid of its worst leases =
+and try, once again, to make a go of it as an office-space sublessor. That =
+is the sort of modest reasonable business that:
+=09Seems unlikely, stripped of the rhetoric of its charismatic founder, to =
+be worth $1 trillion, but=09Is probably=C2=A0viable? Like, some people in h=
+uman history have figured out how to rent out office space, subdivide it, a=
+nd sublease it profitably? Why not WeWork?
+
+A teleportation company might have a 1% chance of achieving a $1 trillion v=
+aluation and a 99% chance of achieving a $0 valuation, but very few compani=
+es are like that. Most companies are more like WeWork, with a lot of potent=
+ial outcomes in between $0 and $1 trillion. Even most ambitious risky start=
+ups might have a 1% chance of changing the world and, you know, a 30% chanc=
+e of making enough money to pay their bills with a bit left over for their =
+investors. WeWork hasn=E2=80=99t quite gotten there yet, but maybe it will.
+On the other hand, WeWork at its peak raised money at a   $47 billion valua=
+tion, and=C2=A0before its first failed initial public offering in 2019 bank=
+ers were throwing around   valuations like $96 billion, and it was absolute=
+ly not making enough money to pay its bills at that point.
+  [1]
+ (It was  losing hundreds of millions of dollars a year.) When WeWork was a=
+ darling of venture capital and SoftBank Group Corp., it was because it was=
+ a potentially transformative company, the world=E2=80=99s first physical s=
+ocial network, blah blah blah, a 5% chance at a trillion dollars,=C2=A0not=
+=C2=A0because it was a viable business. And then it went to the public mark=
+ets and was like =E2=80=9C5% chance at a trillion dollars??=E2=80=9D and th=
+e public markets were like =E2=80=9Clol absolutely not=E2=80=9D and there w=
+as an=C2=A0extremely painful transition, which is now four years old and st=
+ill ongoing, between the WeWork of the past,=C2=A0a fast-growing speculativ=
+e venture darling, and the still-possible WeWork of the future, a business =
+that rents out office space and subleases it, one day, one hopes, at a prof=
+it. And absolutely gajillions of dollars of valuation have disappeared in t=
+hat transition, because the ambitions of future WeWork=C2=A0are just much l=
+ower than the ambitions of past WeWork.
+  [2]
+=C2=A0
+WeWork is probably=C2=A0the funniest, but there are lots of companies like =
+this, companies that were funded by venture capital firms in the boom based=
+ on ambitious growth targets and plans to change the world, and that failed=
+ to achieve those ambitions, but that are, you know, fine, viable, possibly=
+ even profitable one day.
+In some ways that is the worst way to fail?=C2=A0For a startup founded by a=
+ visionary entrepreneur and funded by venture capitalists? Like:
+=09The good outcome is you change the world, your company is worth $1 trill=
+ion, and the founders and VCs are all rich and geniuses.=09The disappointin=
+g but acceptable outcome is you don=E2=80=99t, you shut down, the VCs write=
+ off their investment and the founder goes back to Big Tech or starts anoth=
+er company, possibly with the same VCs. Everyone plans for a high likelihoo=
+d of this happening, and no one is shocked if it does.=09The awkward, what-=
+do-we-do-now outcome is that you don=E2=80=99t change the world, the compan=
+y chugs along, it makes enough money to pay salaries and maybe open an offi=
+ce in Dallas and perhaps write a quarterly dividend check to its VCs. But t=
+he VCs are like =E2=80=9CI do not want a quarterly dividend check, a quarte=
+rly dividend check isn=E2=80=99t cool, you know what is cool, a trillion do=
+llars.=E2=80=9D And the founder is like =E2=80=9Cman I am paying myself $40=
+0,000 a year and working on the problem that excited me five years ago but =
+I am not a billionaire and why am I in Dallas.=E2=80=9D=C2=A0
+
+Brilliant success is great, brilliant failure is fine, but ending up runnin=
+g a regular company seems like a letdown. =E2=80=9CWell I=C2=A0didn=E2=80=
+=99t invent teleportation, but I=E2=80=99ve got a van and can move your fur=
+niture across town for $50 an hour.=E2=80=9D=C2=A0
+Anyway here=E2=80=99s  a fun Financial Times story about the scrap dealers =
+of the startup world:
+
+Investors are shaking up the venture capital market by raising money to buy=
+ out start-ups that have been shunned by venture capitalists, taking advant=
+age of economic headwinds to acquire promising companies at a discount.
+In the years running up to 2022, VCs took minority stakes in new businesses=
+ with growth potential even if they lacked a quick path to profitability. S=
+teep rises in interest rates over the past year have changed that, hammerin=
+g private valuations, forcing VCs to pull back and leaving a swath of start=
+-ups at risk of collapse.
+New investment groups are raising tens of millions of dollars in funding wi=
+th the intention of acquiring majority ownership and operational control of=
+ start-ups in order to turn the businesses around.
+
+It quotes Kjerstin Erickson of Arising Ventures:
+
+Opportunities came up when =E2=80=9Cthe company has raised more money than =
+they are worth in the market=E2=80=9D, she said. =E2=80=9CWe=E2=80=99ll do =
+the deal if we think there=E2=80=99s a real business underneath.=E2=80=9D
+This year the group =E2=80=94 which is structured as a holding company rath=
+er than fund =E2=80=94 took out a billboard in the heart of San Francisco w=
+ith the slogan: =E2=80=9CWe invest in second chances.=E2=80=9D
+
+I love how shameful it is. =E2=80=9CDid you accidentally build a real busin=
+ess? Call us, we can help.=E2=80=9D Some investors like real businesses! Ju=
+st, not VCs.=C2=A0There is an arbitrage. Here=E2=80=99s Oren Peleg of Resur=
+ge Growth Partners:
+=E2=80=9CThere=E2=80=99s a real opportunity here to play a very important r=
+ole, which is to help companies transition from venture ownership to privat=
+e equity ownership,=E2=80=9D Peleg said. =E2=80=9CNo one is willing to send=
+ the hard message of saying this needs a reset, and that will be the role t=
+hat we play.=E2=80=9D
+See, venture ownership is for companies with fast growth and no cash flows,=
+ and private equity ownership is for companies with steady or declining cas=
+h flows. The transition is painful =E2=80=94=C2=A0ask WeWork =E2=80=94=C2=
+=A0but, sometimes, necessary.=C2=A0
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      ICBC
+   =20
+ =20
+
+In the olden days, the way stock and bond trading worked is that you and I =
+would agree on a trade (over the phone, on the floor of the stock exchange,=
+ etc.), and we=E2=80=99d each make a little note of it on a scrap of paper,=
+ and at the end of the day our clerks would collect the scraps of paper and=
+ figure out what we=E2=80=99d bought and sold, and then the clerks would go=
+ down to the vault in the basement, and my clerk would get out the bond cer=
+tificates I sold to you, and your clerk would get out a wad of cash, and ou=
+r clerks would walk across the streets of Manhattan, and my clerk would han=
+d your clerk the bonds and your clerk would hand my clerk the cash, and the=
+n our trade would be settled. And this process took days, and had some fail=
+ure rate, because we and our clerks were only human and the vaults were big=
+ and poorly organized and our handwriting, on the scraps of paper, was not =
+always legible.
+In 2023, almost all of this has been rendered abstract and put on computers=
+. The bonds are entries on a computer, the cash is an entry on a computer, =
+the scraps=C2=A0of paper are computers, the floor of the stock exchange is =
+mostly a computer, the whole process, from start to finish, occurs on compu=
+ters and often doesn=E2=80=99t involve any human actions at all. (It still =
+often takes days?)=C2=A0This, of course, concentrates a lot of risk in the =
+computers: If the computer systems fail, then all the trades fail, global f=
+inance is plunged into chaos, etc. So people put a lot of thought and effor=
+t and money into making the computer systems very robust and secure.
+Also, though, there=C2=A0is=C2=A0a backup mechanism, which is that if the c=
+omputers fail, we can probably find someone to go walk across the streets o=
+f Manhattan to deliver bonds and cash. Last week Industrial & Commercial Ba=
+nk of China Ltd.=E2=80=99s US securities unit was hit by a ransomware attac=
+k, =E2=80=9Crendering it unable to clear swathes of US Treasury trades afte=
+r entities responsible for settling the transactions swiftly disconnected f=
+rom the stricken system.=E2=80=9D And, so, down to the vaults. Bloomberg=E2=
+=80=99s=C2=A0Katherine Doherty, Liz Capo McCormick, and Alex Harris reporte=
+d:
+
+That forced ICBC to send the required settlement details to those parties b=
+y a messenger carrying a thumb drive as the state-owned lender raced to lim=
+it the damage.
+The workaround =E2=80=94 described by market participants =E2=80=94 followe=
+d the attack by suspected perpetrator Lockbit, a prolific criminal gang wit=
+h ties to Russia that has also been linked to hits on Boeing Co., ION Tradi=
+ng UK and the UK=E2=80=99s Royal Mail. The strike caused immediate disrupti=
+on as market-makers, brokerages and banks were forced to reroute trades, wi=
+th many uncertain when access would resume.
+
+Fine, it=E2=80=99s thumb drives, not paper bond certificates, but still. In=
+ some ways it is nice that the electronic global financial markets have clu=
+msily evolved from older and more manual processes; there is still some anc=
+ient memory of how to do stuff manually.
+
+ =20
+   =20
+      Robot body language
+   =20
+ =20
+
+You could have a model of investment analysis that is like:
+=09Part of the job is about looking at financial statements, calculating ra=
+tios, and figuring out which companies make a lot of money, which are cheap=
+, etc.=09The other part of the job is meeting with corporate executives, sh=
+aking their hands, getting a sense of their body language and their charact=
+er, and deciding if they are good people who run a good company or bad peop=
+le who don=E2=80=99t.
+
+There is a quantitative analytical part, and a part about personality. Intu=
+itively a computer should help with the first part. You can use a calculato=
+r to compute the ratios. You can use Excel. You can use some more sophistic=
+ated software system to get investment signals from millions of financial d=
+ata points.
+And then you can say =E2=80=9Cstill, I have to meet with management and sha=
+ke their hands, because this is not a business of pure quantitative data; t=
+here is a human component, and no computer can judge the firmness of a CEO=
+=E2=80=99s handshake.=E2=80=9D Or can it? The Financial Times reports:
+
+The idea that audio recordings could provide tips on executives=E2=80=99 tr=
+ue emotions has caught the attention of some of the world=E2=80=99s largest=
+ investors.
+Many funds already use algorithms to trawl through transcripts of earnings =
+calls and company presentations to glean signals from executives=E2=80=99 c=
+hoice of words =E2=80=94 a field known as =E2=80=9CNatural Language Process=
+ing=E2=80=9D or NLP. Now they are trying to find further messages in the wa=
+y those words are spoken.=C2=A0
+=E2=80=9CThe idea is that audio captures more than just what is in text,=E2=
+=80=9D said Mike Chen, head of alternative alpha research at Robeco, the as=
+set manager. =E2=80=9CEven if you have a sophisticated semantic machine, it=
+ only captures semantics.=E2=80=9D=C2=A0
+Hesitation and filler words tend to be left out of transcripts, and AI can =
+also pick up some=C2=A0=E2=80=9Cmicrotremors=E2=80=9D that are imperceptibl=
+e to the human ear.
+Robeco, which manages over $80bn in algorithmically driven funds, making it=
+ one of the largest quants, began adding audio signals picked up through AI=
+ into its strategies earlier this year.
+
+Three points here. The first is that if you are an algorithmic fund, you wi=
+ll just on principle resist having a workflow that is like =E2=80=9Chave an=
+ analyst listen to the conference call and write up her impressions of the =
+executive=E2=80=99s confidence,=E2=80=9D because that sounds dumb and fuzzy=
+ and subjective and labor-intensive and just not how one runs a quant fund.=
+ But if you can have a=C2=A0computer=C2=A0listen to the conference call and=
+ write up its impressions of the executive=E2=80=99s confidence, fine, good=
+, that=E2=80=99s alpha.
+The second is that=C2=A0mmmaybe=C2=A0the computer is better at it? =E2=80=
+=9CMicrotremors=E2=80=9D? Like maybe humans are good at fooling humans with=
+ confident misdirection, but the computers can=E2=80=99t be fooled so easil=
+y?
+The third is that this is sort of modeled=C2=A0as an iterated game in which=
+:
+=09Executives try to trick investors.
+  [3]
+
+=09Investors acquire computers that can spot the tricks.=09Executies adapt =
+to be able to trick those computers.=09Investors get new computers.=09Etc.
+
+Natural language processing of earnings calls is old hat now, which means n=
+ot only that it=E2=80=99s not a competitive advantage (because every fund d=
+oes it) but also that it doesn=E2=80=99t work as well (because executives a=
+re now scripting themselves=C2=A0for the robots):
+
+=E2=80=9CWe found tremendous value from transcripts,=E2=80=9D said Yin Luo,=
+ head of quantitative research at Wolfe Research. =E2=80=9CThe problem that=
+ has created for us and many others is that overall sentiment is becoming m=
+ore and more positive=E2=80=89.=E2=80=89.=E2=80=89.=E2=80=89[because] compa=
+ny management knows their messages are being analysed.=E2=80=9D
+Multiple research papers have found that presentations have become increasi=
+ngly positive since the emergence of NLP, as companies adjust their languag=
+e to game the algorithms.=C2=A0
+
+But now the robots=C2=A0listen to the calls, instead of just reading them, =
+so they are not fooled by language choice; they can hear those microtremors=
+. Now the executives have to refine their=C2=A0voices=C2=A0to fool the robo=
+ts:
+Just as companies have tried to adapt to text analysis, Pope predicted inve=
+stor relations teams would start coaching executives to monitor voice tone =
+and other behaviour that transcripts miss. Voice analysis struggles with tr=
+ained actors who can convincingly stay in character, but replicating that m=
+ay be easier said than done for executives.
+One move is to get acting training. But clearly the better move, for execut=
+ives, is:
+=09Get a chatbot to write your earnings presentation, and responses to anal=
+yst questions.=09Get a robot to read it for you in a soothing and convincin=
+g way.=09Then the investors=E2=80=99 robots will listen to it and be like =
+=E2=80=9Coh yes this CEO is very good, very confident, I like the cut of th=
+is CEO=E2=80=99s jib.=E2=80=9D
+
+Just cut out the human element everywhere.
+
+ =20
+   =20
+      FTX 2.1
+   =20
+ =20
+
+Some part of the promise of crypto is, or was, that it allows you to do thi=
+ngs without=C2=A0trust. Instead of trusting a bank to keep track of your mo=
+ney, you can rely on a distributed blockchain to do it. You don=E2=80=99t=
+=C2=A0have to trust anyone to maintain the blockchain, either: You can read=
+ the open-source code underlying the blockchain, ponder its incentive mecha=
+nisms and conclude =E2=80=9Cyes this blockchain will keep my money safe.=E2=
+=80=9D A great deal of crypto is built on these sorts of ideas: =E2=80=9CCo=
+de is law,=E2=80=9D and you can read the code rather than trusting the peop=
+le involved or the system in which they operate.
+Of course in actual practice a great deal of crypto consists of blindly tru=
+sting your money to people,=C2=A0not=C2=A0on the blockchain,=C2=A0not=C2=A0=
+in any sort of auditable way, and generally=C2=A0not=C2=A0people whom you o=
+ught to trust. So many of them steal it! A quite typical form of interactio=
+n with crypto is buying some crypto on a centralized exchange, keeping the =
+crypto on that exchange rather than in your own wallet on the blockchain, a=
+nd then having it stolen. And the people who steal it! Good lord.=C2=A0A wh=
+ole lot of people in crypto might as well walk around with signs saying =E2=
+=80=9CI will steal your money,=E2=80=9D and then people trust them with the=
+ir money anyway, and then they steal it.
+My view is that these are deep problems, and:
+=09A trustless system relying only on code that everyone audits themselves =
+is not actually workable: Humans are fallible, most of them have better thi=
+ngs to do than audit smart-contract code, and a system that you can trust i=
+s going to be more user friendly.=09No pitch works better for con men than =
+saying =E2=80=9Cyou can=E2=80=99t trust the system, the system is rigged ag=
+ainst you, be an independent thinker, trust=C2=A0me=C2=A0instead.=E2=80=9D
+
+But you could have a different view? I guess? For instance, you=C2=A0could =
+have a view like:
+=09It is very good and important to build a trustless system where people c=
+an and do rely on auditable code rather than interpersonal trust.=09The bes=
+t way to do that is to have the people promoting the system have =E2=80=A6=
+=C2=A0absolutely horrible credentials? Like ideally they would promote the =
+trustless auditable system 15 minutes after stealing billions of dollars in=
+ some previous trusted system? Then they could be like =E2=80=9Csee, use ou=
+r system, it is auditable, and you know it is good because no one would=C2=
+=A0trust us=C2=A0with their money, just look at us.=E2=80=9D
+
+Is that incoherent? Probably. Anyway  the Wall Street Journal reports:
+
+A group of former FTX executives, including one who served as a key witness=
+ against Sam Bankman-Fried, are teaming up to build a new cryptocurrency ex=
+change that aims to solve the problems that doomed their previous employer.
+Trek Labs, a Dubai-based startup led by the former FTX general counsel Can =
+Sun, received a license from the emirate=E2=80=99s crypto regulator last mo=
+nth.=C2=A0
+Another ex-FTX employee, Armani Ferrante, is chief executive of Trek=E2=80=
+=99s holding company in the British Virgin Islands and also runs a partner =
+firm, called Backpack, that designs and operates digital currency wallets. =
+Sun=E2=80=99s former legal deputy, who is also Ferrante=E2=80=99s wife, sit=
+s on Trek=E2=80=99s executive team, too. The venture is looking to sell a 1=
+0% stake to investors at a valuation of over $100 million.
+Sun and Ferrante said they wanted to use the lessons they learned from FTX=
+=E2=80=99s failure to protect user funds. Backpack Exchange, the name under=
+ which Trek Labs will do business, will use Backpack=E2=80=99s technology t=
+o allow users to hold funds in their own =E2=80=9Cself-custody=E2=80=9D cry=
+pto wallets that the exchange itself wouldn=E2=80=99t be able to unilateral=
+ly access, they said.
+Such wallets were designed using so-called multiparty computation technique=
+s that require several parties to approve any transaction. Customers on Bac=
+kpack Exchange, which plans to launch in beta later this month, would be ab=
+le to verify their holdings at any time, they said.
+It=E2=80=99s unclear what sort of reception they will face from investors a=
+nd users given their background working at FTX. Ferrante=E2=80=99s name, no=
+t Sun=E2=80=99s, appeared in a press release last month announcing the laun=
+ch of Backpack Exchange.=C2=A0
+=E2=80=9CIn a post-FTX world, you need trust and transparency to create a t=
+rue alternative to the other players,=E2=80=9D Sun said.
+
+Arguably you needed that in a pre-FTX world too! Arguably the best thing th=
+at the=C2=A0general counsel of FTX=C2=A0could have done to solve the proble=
+ms that doomed FTX was to=C2=A0solve them at FTX?=C2=A0Like, if you are the=
+ top lawyer at a company, maybe don=E2=80=99t let the company steal billion=
+s of dollars of customer money? Arguably that would have been better? But o=
+f course once FTX=C2=A0did=C2=A0steal billions of dollars of customer money=
+ that creates a business opportunity for its alumni to be like =E2=80=9Cnob=
+ody has learned more from FTX than we have.=E2=80=9D Certainly not the cust=
+omers! What on earth.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Strip Clubs, Lewd Photos and a Boozy Hotel: The Toxic Atmosphere at Bank Re=
+gulator  FDIC.=C2=A0Cyber =E2=80=98Catastrophe Bonds=E2=80=99 Move Step Clo=
+ser to Hitting Public Debt Markets. The   Diamond World Takes Radical Steps=
+ to Stop a Pricing Plunge. Big Promise, Little Success: The Precarious Stat=
+e of   Carbon Capture. China=E2=80=99s Spending on  Green Energy Is Causing=
+ a Global Glut. Bankman-Fried=E2=80=99s  Parents Stand By Their Sam=E2=80=
+=94And Face Their Own Legal Perils.=C2=A0Moody=E2=80=99s Changes Outlook on=
+  U.S. Ratings to Negative. General Atlantic to Buy Control of   Joe & the =
+Juice.=C2=A0Hung Deal Leaves BMO, RBC-Led Group With Crescent Point Shares.=
+=C2=A0The  4% Rule for Retirement Is Back. Google Sues Scammers Over   Fake=
+ Bard AI Chatbot That Downloads Malware. =E2=80=9COn a recent day in Novemb=
+er, a pack of regular Oreos in Chicago contained cookies that appeared stuf=
+fed with  varying amounts of creme.=E2=80=9D =E2=80=98It never ends=E2=80=
+=99: the book club that  spent 28 years reading Finnegans Wake.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] That IPO was pulled, but WeWork eventually went public by merging wit=
+h a special purpose acquisition company in 2021.
+
+
+  [2] Fine yes and also because the ambitions of future WeWork are not at a=
+ll certain to work out. For instance, it is still very much losing hundreds=
+ of millions of dollars a year.
+
+
+  [3] This is arguably an unfair reading, and I should have written somethi=
+ng like =E2=80=9Cexecutives try to present results in a good light that wil=
+l encourage investors to view them positively.=E2=80=9D But I think the mea=
+ning is the same?
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjuuoj.5img/ce1f47db.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_46805904_1208906806.1699900432691
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Last week I wrote about what I called a =E2=80=9Cprobabilistic billionaire.=
+=E2=80=9D You create a company with some long-shot idea that will be worth =
+$1 tri
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33352147.257416/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMTEzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMTMmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBecaaf675"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33352147.257416/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMzM1MjE0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM2MDk1NjMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB12f746e4" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D33352147&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33609563&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">VC rehab</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Last week <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/33352147.257416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcG=
+luaW9uL2FydGljbGVzLzIwMjMtMTEtMDkvYWRhbS1uZXVtYW5uLWlzLXNvLWdvb2QtYXQtdGhpc=
+z9jbXBpZD1CQkQxMTEzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9=
+bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMTMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07c=
+eef4b8524a319a23cB983e7f9e" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">  I wrote about</a>=C2=A0what I called =
+a =E2=80=9Cprobabilistic billionaire.=E2=80=9D You create a company with so=
+me long-shot idea that will be worth $1 trillion if it succeeds, you convin=
+ce investors that you have a 1% chance of success, and you raise money at a=
+ $10 billion valuation:</p>
+<blockquote><p style=3D"margin: 16px 0;">Of course eventually you will eith=
+er succeed (with 1% probability) or fail (99%) at creating a trillion-dolla=
+r company. If time goes by and you do not discover teleportation and you ge=
+t bored and go back to your day job, then (let us assume) your probability =
+of making $1 trillion goes to zero, and you are no longer a billionaire.</p=
+></blockquote>
+<p style=3D"margin: 16px 0;">This was, of course, too simple. My toy exampl=
+e of a company that was unlikely to succeed, but hugely valuable if it did,=
+ was one trying to invent teleportation. But the=C2=A0<em>actual=C2=A0</em>=
+company that inspired the column was WeWork Inc. WeWork never achieved a $1=
+ trillion valuation, and it seems unlikely that it ever will, and its found=
+er long ago moved on to other endeavors. But WeWork still exists. It is=C2=
+=A0<em>bankrupt</em>, sure, but it went bankrupt with=C2=A0a plan to restru=
+cture its debts and get rid of its worst leases and try, once again, to mak=
+e a go of it as an office-space sublessor. That is the sort of modest reaso=
+nable business that:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Seems unlikely, stripped of the rheto=
+ric of its charismatic founder, to be worth $1 trillion, but</li>=09<li sty=
+le=3D"margin-bottom: 5px;">Is probably=C2=A0<em>viable</em>? Like, some peo=
+ple in human history have figured out how to rent out office space, subdivi=
+de it, and sublease it profitably? Why not WeWork?</li>
+</ol>
+<p style=3D"margin: 16px 0;">A teleportation company might have a 1% chance=
+ of achieving a $1 trillion valuation and a 99% chance of achieving a $0 va=
+luation, but very few companies are like that. Most companies are more like=
+ WeWork, with a lot of potential outcomes in between $0 and $1 trillion. Ev=
+en most ambitious risky startups might have a 1% chance of changing the wor=
+ld and, you know, a 30% chance of making enough money to pay their bills wi=
+th a bit left over for their investors. WeWork hasn=E2=80=99t quite gotten =
+there yet, but maybe it will.</p>
+<p style=3D"margin: 16px 0;">On the other hand, WeWork at its peak raised m=
+oney at a <a href=3D"https://link.mail.bloombergbusiness.com/click/33352147=
+.257416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMDc=
+vd2V3b3JrLXMtYmFua3J1cHRjeS1jYXBzLXN3aWZ0LWRvd25mYWxsLWZvci00Ny1iaWxsaW9uLX=
+N0YW5kb3V0P2NtcGlkPUJCRDExMTMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX=
+3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTExMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVm=
+Zg/607f07ceef4b8524a319a23cB5814b0be" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">  $47 billion valuation</a>, =
+and=C2=A0before its first failed initial public offering in 2019 bankers we=
+re throwing around <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/33352147.257416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLz=
+IwMjAtMDEtMjIvd2V3b3JrLXMtdmFsdWF0aW9uLXdhcy1mb3Itd2V3b3JrP2NtcGlkPUJCRDExM=
+TMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0=
+bV90ZXJtPTIzMTExMyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23c=
+B0954196a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">  valuations like $96 billion</a>, and it was absolutely=
+ not making enough money to pay its bills at that point.<a class=3D"footnot=
+e-index" href=3D"#footnote-1" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: none !important; background-color: transparent !important; =
+display: inline-block;">
+<span>[1]</span>
+</a> (It was <a href=3D"https://link.mail.bloombergbusiness.com/click/33352=
+147.257416/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE1MzM1MjMv=
+MDAwMTE5MzEyNTE5MjIwNDk5L2Q3ODE5ODJkczEuaHRtI3RvYzc4MTk4Ml8xMA/607f07ceef4b=
+8524a319a23cB9cad4bc2" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;"> losing hundreds of millions of dollars</a> =
+a year.) When WeWork was a darling of venture capital and SoftBank Group Co=
+rp., it was because it was a potentially transformative company, the world=
+=E2=80=99s first physical social network, blah blah blah, a 5% chance at a =
+trillion dollars,=C2=A0<em>not=C2=A0</em>because it was a viable business. =
+And then it went to the public markets and was like =E2=80=9C5% chance at a=
+ trillion dollars??=E2=80=9D and the public markets were like =E2=80=9Clol =
+absolutely not=E2=80=9D and there was an=C2=A0<em>extremely painful </em>tr=
+ansition, which is now four years old and still ongoing, between the WeWork=
+ of the past,=C2=A0a fast-growing speculative venture darling, and the stil=
+l-possible WeWork of the future, a business that rents out office space and=
+ subleases it, one day, one hopes, at a profit. And absolutely gajillions o=
+f dollars of valuation have disappeared in that transition, because the amb=
+itions of future WeWork=C2=A0are just much lower than the ambitions of past=
+ WeWork.<a class=3D"footnote-index" href=3D"#footnote-2" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: none !important; background-colo=
+r: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0</p>
+<p style=3D"margin: 16px 0;">WeWork is probably=C2=A0the funniest, but ther=
+e are lots of companies like this, companies that were funded by venture ca=
+pital firms in the boom based on ambitious growth targets and plans to chan=
+ge the world, and that failed to achieve those ambitions, but that are, you=
+ know, fine, viable, possibly even profitable one day.</p>
+<p style=3D"margin: 16px 0;">In some ways that is the worst way to fail?=C2=
+=A0For a startup founded by a visionary entrepreneur and funded by venture =
+capitalists? Like:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The good outcome is you change the wo=
+rld, your company is worth $1 trillion, and the founders and VCs are all ri=
+ch and geniuses.</li>=09<li style=3D"margin-bottom: 5px;">The disappointing=
+ but acceptable outcome is you don=E2=80=99t, you shut down, the VCs write =
+off their investment and the founder goes back to Big Tech or starts anothe=
+r company, possibly with the same VCs. Everyone plans for a high likelihood=
+ of this happening, and no one is shocked if it does.</li>=09<li style=3D"m=
+argin-bottom: 5px;">The awkward, what-do-we-do-now outcome is that you don=
+=E2=80=99t change the world, the company chugs along, it makes enough money=
+ to pay salaries and maybe open an office in Dallas and perhaps write a qua=
+rterly dividend check to its VCs. But the VCs are like =E2=80=9CI do not wa=
+nt a quarterly dividend check, a quarterly dividend check isn=E2=80=99t coo=
+l, you know what is cool, a trillion dollars.=E2=80=9D And the founder is l=
+ike =E2=80=9Cman I am paying myself $400,000 a year and working on the prob=
+lem that excited me five years ago but I am not a billionaire and why am I =
+in Dallas.=E2=80=9D=C2=A0</li>
+</ol>
+<p style=3D"margin: 16px 0;">Brilliant success is great, brilliant failure =
+is fine, but ending up running a regular company seems like a letdown. =E2=
+=80=9CWell I=C2=A0didn=E2=80=99t invent teleportation, but I=E2=80=99ve got=
+ a van and can move your furniture across town for $50 an hour.=E2=80=9D=C2=
+=A0</p>
+<p style=3D"margin: 16px 0;">Anyway here=E2=80=99s <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/33352147.257416/aHR0cHM6Ly93d3cuZnQuY29tL2=
+NvbnRlbnQvN2VhYTQyZjEtNjMwMS00NWUzLTg0NjgtMmUyMmU2NjZjZjEx/607f07ceef4b8524=
+a319a23cBba39afad" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> a fun Financial Times story</a> about the scrap=
+ dealers of the startup world:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Investors are shaking up the venture capital m=
+arket by raising money to buy out start-ups that have been shunned by ventu=
+re capitalists, taking advantage of economic headwinds to acquire promising=
+ companies at a discount.</p>
+<p style=3D"margin: 16px 0;">In the years running up to 2022, VCs took mino=
+rity stakes in new businesses with growth potential even if they lacked a q=
+uick path to profitability. Steep rises in interest rates over the past yea=
+r have changed that, hammering private valuations, forcing VCs to pull back=
+ and leaving a swath of start-ups at risk of collapse.</p>
+<p style=3D"margin: 16px 0;">New investment groups are raising tens of mill=
+ions of dollars in funding with the intention of acquiring majority ownersh=
+ip and operational control of start-ups in order to turn the businesses aro=
+und.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It quotes Kjerstin Erickson of Arising Venture=
+s:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Opportunities came up when =E2=80=9Cthe compan=
+y has raised more money than they are worth in the market=E2=80=9D, she sai=
+d. =E2=80=9CWe=E2=80=99ll do the deal if we think there=E2=80=99s a real bu=
+siness underneath.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">This year the group =E2=80=94 which is structu=
+red as a holding company rather than fund =E2=80=94 took out a billboard in=
+ the heart of San Francisco with the slogan: =E2=80=9CWe invest in second c=
+hances.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I love how shameful it is. =E2=80=9CDid you ac=
+cidentally build a real business? Call us, we can help.=E2=80=9D Some inves=
+tors like real businesses! Just, not VCs.=C2=A0There is an arbitrage. Here=
+=E2=80=99s Oren Peleg of Resurge Growth Partners:</p>
+<blockquote><p style=3D"margin: 16px 0;">=E2=80=9CThere=E2=80=99s a real op=
+portunity here to play a very important role, which is to help companies tr=
+ansition from venture ownership to private equity ownership,=E2=80=9D Peleg=
+ said. =E2=80=9CNo one is willing to send the hard message of saying this n=
+eeds a reset, and that will be the role that we play.=E2=80=9D</p></blockqu=
+ote>
+<p style=3D"margin: 16px 0;">See, venture ownership is for companies with f=
+ast growth and no cash flows, and private equity ownership is for companies=
+ with steady or declining cash flows. The transition is painful =E2=80=94=
+=C2=A0ask WeWork =E2=80=94=C2=A0but, sometimes, necessary.=C2=A0</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33352147.257416/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzM1MjE0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM2MDk1NjMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC2bfc7179" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33352147&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33609563&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33352147.257416/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzM1MjE0NyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM2MDk1NjMmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD2bfc7179" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33352147&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33609563&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">ICBC</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">In the olden days, the way stock and bond trad=
+ing worked is that you and I would agree on a trade (over the phone, on the=
+ floor of the stock exchange, etc.), and we=E2=80=99d each make a little no=
+te of it on a scrap of paper, and at the end of the day our clerks would co=
+llect the scraps of paper and figure out what we=E2=80=99d bought and sold,=
+ and then the clerks would go down to the vault in the basement, and my cle=
+rk would get out the bond certificates I sold to you, and your clerk would =
+get out a wad of cash, and our clerks would walk across the streets of Manh=
+attan, and my clerk would hand your clerk the bonds and your clerk would ha=
+nd my clerk the cash, and then our trade would be settled. And this process=
+ took days, and had some failure rate, because we and our clerks were only =
+human and the vaults were big and poorly organized and our handwriting, on =
+the scraps of paper, was not always legible.</p>
+<p style=3D"margin: 16px 0;">In 2023, almost all of this has been rendered =
+abstract and put on computers. The bonds are entries on a computer, the cas=
+h is an entry on a computer, the scraps=C2=A0of paper are computers, the fl=
+oor of the stock exchange is mostly a computer, the whole process, from sta=
+rt to finish, occurs on computers and often doesn=E2=80=99t involve any hum=
+an actions at all. (It still often takes days?)=C2=A0This, of course, conce=
+ntrates a lot of risk in the computers: If the computer systems fail, then =
+all the trades fail, global finance is plunged into chaos, etc. So people p=
+ut a lot of thought and effort and money into making the computer systems v=
+ery robust and secure.</p>
+<p style=3D"margin: 16px 0;">Also, though, there=C2=A0<em>is=C2=A0</em>a ba=
+ckup mechanism, which is that if the computers fail, we can probably find s=
+omeone to go walk across the streets of Manhattan to deliver bonds and cash=
+. Last week Industrial &amp; Commercial Bank of China Ltd.=E2=80=99s US sec=
+urities unit was hit by a ransomware attack, =E2=80=9Crendering it unable t=
+o clear swathes of US Treasury trades after entities responsible for settli=
+ng the transactions swiftly disconnected from the stricken system.=E2=80=9D=
+ And, so, down to the vaults. Bloomberg=E2=80=99s=C2=A0<a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/33352147.257416/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMTAvd29ybGQtcy1iaWdnZXN0LWJhbmstZ=
+m9yY2VkLXRvLXRyYWRlLXZpYS11c2Itc3RpY2stYWZ0ZXItaGFjaz9jbXBpZD1CQkQxMTEzMjNf=
+TU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGV=
+ybT0yMzExMTMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBd1b23=
+545" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Katherine Doherty, Liz Capo McCormick, and Alex Harris reporte=
+d</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">That forced ICBC to send the required settleme=
+nt details to those parties by a messenger carrying a thumb drive as the st=
+ate-owned lender raced to limit the damage.</p>
+<p style=3D"margin: 16px 0;">The workaround =E2=80=94 described by market p=
+articipants =E2=80=94 followed the attack by suspected perpetrator Lockbit,=
+ a prolific criminal gang with ties to Russia that has also been linked to =
+hits on Boeing Co., ION Trading UK and the UK=E2=80=99s Royal Mail. The str=
+ike caused immediate disruption as market-makers, brokerages and banks were=
+ forced to reroute trades, with many uncertain when access would resume.</p=
+>
+</blockquote>
+<p style=3D"margin: 16px 0;">Fine, it=E2=80=99s thumb drives, not paper bon=
+d certificates, but still. In some ways it is nice that the electronic glob=
+al financial markets have clumsily evolved from older and more manual proce=
+sses; there is still some ancient memory of how to do stuff manually.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Robot body language</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">You could have a model of investment analysis =
+that is like:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Part of the job is about looking at f=
+inancial statements, calculating ratios, and figuring out which companies m=
+ake a lot of money, which are cheap, etc.</li>=09<li style=3D"margin-bottom=
+: 5px;">The other part of the job is meeting with corporate executives, sha=
+king their hands, getting a sense of their body language and their characte=
+r, and deciding if they are good people who run a good company or bad peopl=
+e who don=E2=80=99t.</li>
+</ol>
+<p style=3D"margin: 16px 0;">There is a quantitative analytical part, and a=
+ part about personality. Intuitively a computer should help with the first =
+part. You can use a calculator to compute the ratios. You can use Excel. Yo=
+u can use some more sophisticated software system to get investment signals=
+ from millions of financial data points.</p>
+<p style=3D"margin: 16px 0;">And then you can say =E2=80=9Cstill, I have to=
+ meet with management and shake their hands, because this is not a business=
+ of pure quantitative data; there is a human component, and no computer can=
+ judge the firmness of a CEO=E2=80=99s handshake.=E2=80=9D Or can it? <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/33352147.257416/aHR0cHM=
+6Ly93d3cuZnQuY29tL2NvbnRlbnQvZWUyNzg4ZGQtYWNhNS00MjE0LThhMDgtZDg4MDgxZWFjMW=
+I5/607f07ceef4b8524a319a23cBd269bdc1" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">The Financial Times reports</=
+a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The idea that audio recordings could provide t=
+ips on executives=E2=80=99 true emotions has caught the attention of some o=
+f the world=E2=80=99s largest investors.</p>
+<p style=3D"margin: 16px 0;">Many funds already use algorithms to trawl thr=
+ough transcripts of earnings calls and company presentations to glean signa=
+ls from executives=E2=80=99 choice of words =E2=80=94 a field known as =E2=
+=80=9CNatural Language Processing=E2=80=9D or NLP. Now they are trying to f=
+ind further messages in the way those words are spoken.=C2=A0</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe idea is that audio captures more =
+than just what is in text,=E2=80=9D said Mike Chen, head of alternative alp=
+ha research at Robeco, the asset manager. =E2=80=9CEven if you have a sophi=
+sticated semantic machine, it only captures semantics.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">Hesitation and filler words tend to be left ou=
+t of transcripts, and AI can also pick up some=C2=A0=E2=80=9Cmicrotremors=
+=E2=80=9D that are imperceptible to the human ear.</p>
+<p style=3D"margin: 16px 0;">Robeco, which manages over $80bn in algorithmi=
+cally driven funds, making it one of the largest quants, began adding audio=
+ signals picked up through AI into its strategies earlier this year.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Three points here. The first is that if you ar=
+e an algorithmic fund, you will just on principle resist having a workflow =
+that is like =E2=80=9Chave an analyst listen to the conference call and wri=
+te up her impressions of the executive=E2=80=99s confidence,=E2=80=9D becau=
+se that sounds dumb and fuzzy and subjective and labor-intensive and just n=
+ot how one runs a quant fund. But if you can have a=C2=A0<em>computer=C2=A0=
+</em>listen to the conference call and write up its impressions of the exec=
+utive=E2=80=99s confidence, fine, good, that=E2=80=99s alpha.</p>
+<p style=3D"margin: 16px 0;">The second is that=C2=A0<em>mmmaybe=C2=A0</em>=
+the computer is better at it? =E2=80=9CMicrotremors=E2=80=9D? Like maybe hu=
+mans are good at fooling humans with confident misdirection, but the comput=
+ers can=E2=80=99t be fooled so easily?</p>
+<p style=3D"margin: 16px 0;">The third is that this is sort of modeled=C2=
+=A0as an iterated game in which:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Executives try to trick investors.<a =
+class=3D"footnote-index" href=3D"#footnote-3" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: none !important; background-color: transpar=
+ent !important; display: inline-block;">
+<span>[3]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">Investors acquire computers that =
+can spot the tricks.</li>=09<li style=3D"margin-bottom: 5px;">Executies ada=
+pt to be able to trick those computers.</li>=09<li style=3D"margin-bottom: =
+5px;">Investors get new computers.</li>=09<li style=3D"margin-bottom: 5px;"=
+>Etc.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Natural language processing of earnings calls =
+is old hat now, which means not only that it=E2=80=99s not a competitive ad=
+vantage (because every fund does it) but also that it doesn=E2=80=99t work =
+as well (because executives are now scripting themselves=C2=A0for the robot=
+s):</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CWe found tremendous value from transc=
+ripts,=E2=80=9D said Yin Luo, head of quantitative research at Wolfe Resear=
+ch. =E2=80=9CThe problem that has created for us and many others is that ov=
+erall sentiment is becoming more and more positive=E2=80=89.=E2=80=89.=E2=
+=80=89.=E2=80=89[because] company management knows their messages are being=
+ analysed.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Multiple research papers have found that prese=
+ntations have become increasingly positive since the emergence of NLP, as c=
+ompanies adjust their language to game the algorithms.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">But now the robots=C2=A0<em>listen </em>to the=
+ calls, instead of just reading them, so they are not fooled by language ch=
+oice; they can hear those microtremors. Now the executives have to refine t=
+heir=C2=A0<em>voices=C2=A0</em>to fool the robots:</p>
+<blockquote><p style=3D"margin: 16px 0;">Just as companies have tried to ad=
+apt to text analysis, Pope predicted investor relations teams would start c=
+oaching executives to monitor voice tone and other behaviour that transcrip=
+ts miss. Voice analysis struggles with trained actors who can convincingly =
+stay in character, but replicating that may be easier said than done for ex=
+ecutives.</p></blockquote>
+<p style=3D"margin: 16px 0;">One move is to get acting training. But clearl=
+y the better move, for executives, is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Get a chatbot to write your earnings =
+presentation, and responses to analyst questions.</li>=09<li style=3D"margi=
+n-bottom: 5px;">Get a robot to read it for you in a soothing and convincing=
+ way.</li>=09<li style=3D"margin-bottom: 5px;">Then the investors=E2=80=99 =
+robots will listen to it and be like =E2=80=9Coh yes this CEO is very good,=
+ very confident, I like the cut of this CEO=E2=80=99s jib.=E2=80=9D</li>
+</ol>
+<p style=3D"margin: 16px 0;">Just cut out the human element everywhere.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">FTX 2.1</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Some part of the promise of crypto is, or was,=
+ that it allows you to do things without=C2=A0<em>trust</em>. Instead of tr=
+usting a bank to keep track of your money, you can rely on a distributed bl=
+ockchain to do it. You don=E2=80=99t=C2=A0have to trust anyone to maintain =
+the blockchain, either: You can read the open-source code underlying the bl=
+ockchain, ponder its incentive mechanisms and conclude =E2=80=9Cyes this bl=
+ockchain will keep my money safe.=E2=80=9D A great deal of crypto is built =
+on these sorts of ideas: =E2=80=9CCode is law,=E2=80=9D and you can read th=
+e code rather than trusting the people involved or the system in which they=
+ operate.</p>
+<p style=3D"margin: 16px 0;">Of course in actual practice a great deal of c=
+rypto consists of blindly trusting your money to people,=C2=A0<em>not=C2=A0=
+</em>on the blockchain,=C2=A0<em>not=C2=A0</em>in any sort of auditable way=
+, and generally=C2=A0<em>not=C2=A0</em>people whom you ought to trust. So m=
+any of them steal it! A quite typical form of interaction with crypto is bu=
+ying some crypto on a centralized exchange, keeping the crypto on that exch=
+ange rather than in your own wallet on the blockchain, and then having it s=
+tolen. And the people who steal it! Good lord.=C2=A0A whole lot of people i=
+n crypto might as well walk around with signs saying =E2=80=9CI will steal =
+your money,=E2=80=9D and then people trust them with their money anyway, an=
+d then they steal it.</p>
+<p style=3D"margin: 16px 0;">My view is that these are deep problems, and:<=
+/p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">A trustless system relying only on co=
+de that everyone audits themselves is not actually workable: Humans are fal=
+lible, most of them have better things to do than audit smart-contract code=
+, and a system that you can trust is going to be more user friendly.</li>=
+=09<li style=3D"margin-bottom: 5px;">No pitch works better for con men than=
+ saying =E2=80=9Cyou can=E2=80=99t trust the system, the system is rigged a=
+gainst you, be an independent thinker, trust=C2=A0<em>me=C2=A0</em>instead.=
+=E2=80=9D</li>
+</ol>
+<p style=3D"margin: 16px 0;">But you could have a different view? I guess? =
+For instance, you=C2=A0could have a view like:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">It is very good and important to buil=
+d a trustless system where people can and do rely on auditable code rather =
+than interpersonal trust.</li>=09<li style=3D"margin-bottom: 5px;">The best=
+ way to do that is to have the people promoting the system have =E2=80=A6=
+=C2=A0absolutely horrible credentials? Like ideally they would promote the =
+trustless auditable system 15 minutes after stealing billions of dollars in=
+ some previous trusted system? Then they could be like =E2=80=9Csee, use ou=
+r system, it is auditable, and you know it is good because no one would=C2=
+=A0<em>trust us=C2=A0</em>with their money, just look at us.=E2=80=9D</li>
+</ol>
+<p style=3D"margin: 16px 0;">Is that incoherent? Probably. Anyway <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33352147.257416/aHR0cHM6L=
+y93d3cud3NqLmNvbS9maW5hbmNlL2N1cnJlbmNpZXMva2V5LXdpdG5lc3MtYXQtc2FtLWJhbmtt=
+YW4tZnJpZWQtdHJpYWwtdG8tbGF1bmNoLW5ldy1jcnlwdG8tZXhjaGFuZ2UtODBkMWVkY2U/607=
+f07ceef4b8524a319a23cB2e4c5512" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> the Wall Street Journal reports</a=
+>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A group of former FTX executives, including on=
+e who served as a key witness against Sam Bankman-Fried, are teaming up to =
+build a new cryptocurrency exchange that aims to solve the problems that do=
+omed their previous employer.</p>
+<p style=3D"margin: 16px 0;">Trek Labs, a Dubai-based startup led by the fo=
+rmer FTX general counsel Can Sun, received a license from the emirate=E2=80=
+=99s crypto regulator last month.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Another ex-FTX employee, Armani Ferrante, is c=
+hief executive of Trek=E2=80=99s holding company in the British Virgin Isla=
+nds and also runs a partner firm, called Backpack, that designs and operate=
+s digital currency wallets. Sun=E2=80=99s former legal deputy, who is also =
+Ferrante=E2=80=99s wife, sits on Trek=E2=80=99s executive team, too. The ve=
+nture is looking to sell a 10% stake to investors at a valuation of over $1=
+00 million.</p>
+<p style=3D"margin: 16px 0;">Sun and Ferrante said they wanted to use the l=
+essons they learned from FTX=E2=80=99s failure to protect user funds. Backp=
+ack Exchange, the name under which Trek Labs will do business, will use Bac=
+kpack=E2=80=99s technology to allow users to hold funds in their own =E2=80=
+=9Cself-custody=E2=80=9D crypto wallets that the exchange itself wouldn=E2=
+=80=99t be able to unilaterally access, they said.</p>
+<p style=3D"margin: 16px 0;">Such wallets were designed using so-called mul=
+tiparty computation techniques that require several parties to approve any =
+transaction. Customers on Backpack Exchange, which plans to launch in beta =
+later this month, would be able to verify their holdings at any time, they =
+said.</p>
+<p style=3D"margin: 16px 0;">It=E2=80=99s unclear what sort of reception th=
+ey will face from investors and users given their background working at FTX=
+. Ferrante=E2=80=99s name, not Sun=E2=80=99s, appeared in a press release l=
+ast month announcing the launch of Backpack Exchange.=C2=A0</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIn a post-FTX world, you need trust a=
+nd transparency to create a true alternative to the other players,=E2=80=9D=
+ Sun said.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Arguably you needed that in a pre-FTX world to=
+o! Arguably the best thing that the=C2=A0<em>general counsel of FTX=C2=A0</=
+em>could have done to solve the problems that doomed FTX was to=C2=A0<em>so=
+lve them at FTX?=C2=A0</em>Like, if you are the top lawyer at a company, ma=
+ybe don=E2=80=99t let the company steal billions of dollars of customer mon=
+ey? Arguably that would have been better? But of course once FTX=C2=A0<em>d=
+id=C2=A0</em>steal billions of dollars of customer money that creates a bus=
+iness opportunity for its alumni to be like =E2=80=9Cnobody has learned mor=
+e from FTX than we have.=E2=80=9D Certainly not the customers! What on eart=
+h.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Strip Clubs, Lewd Photos and a Boozy Hotel: Th=
+e Toxic Atmosphere at Bank Regulator <a href=3D"https://link.mail.bloomberg=
+business.com/click/33352147.257416/aHR0cHM6Ly93d3cud3NqLmNvbS91cy1uZXdzL2Zk=
+aWMtdG94aWMtYXRtb3NwaGVyZS1zdHJpcC1jbHVicy1sZXdkLXBob3Rvcy1ib296eS1ob3RlbC0=
+xMmM4OWRhNz9tb2Q9aHBfbGVhZF9wb3Mx/607f07ceef4b8524a319a23cB3d9f6478" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+"> FDIC</a>.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/=
+33352147.257416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjM=
+tMTEtMTIvY3liZXItY2F0YXN0cm9waGUtYm9uZHMtbW92ZS1zdGVwLWNsb3Nlci10by1oaXR0aW=
+5nLXB1YmxpYy1kZWJ0LW1hcmtldHM_Y21waWQ9QkJEMTExMzIzX01PTkVZU1RVRkYmdXRtX21lZ=
+Gl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTEzJnV0bV9jYW1w=
+YWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBb62e616d" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">Cyber =E2=
+=80=98Catastrophe Bonds=E2=80=99</a> Move Step Closer to Hitting Public Deb=
+t Markets. The <a href=3D"https://link.mail.bloombergbusiness.com/click/333=
+52147.257416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMT=
+EtMTEvZGlhbW9uZC1wcmljZXMtbWluZXJzLXRha2UtcmFkaWNhbC1zdGVwcy10by1zdXBwb3J0L=
+XRoZS1tYXJrZXQ_Y21waWQ9QkJEMTExMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1=
+dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTEzJnV0bV9jYW1wYWlnbj1tb25leXN=
+0dWZm/607f07ceef4b8524a319a23cBcdf9aa5c" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  Diamond</a> World Take=
+s Radical Steps to Stop a Pricing Plunge. Big Promise, Little Success: The =
+Precarious State of <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/33352147.257416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwM=
+jMtMTEtMDkvdGhlLXN0YXRlLW9mLWNhcmJvbi1jYXB0dXJlLWlzLW1vcmUtcHJvbWlzZS10aGFu=
+LXN1Y2Nlc3M_Y21waWQ9QkJEMTExMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1=
+fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTEzJnV0bV9jYW1wYWlnbj1tb25leXN0dW=
+Zm/607f07ceef4b8524a319a23cBd4b0cc1a" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">  Carbon Capture</a>. China=
+=E2=80=99s Spending on <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/33352147.257416/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmVzcy9jaGluYXMtc3Blbm=
+Rpbmctb24tZ3JlZW4tZW5lcmd5LWlzLWNhdXNpbmctYS1nbG9iYWwtZ2x1dC1kODBlYWVhNz9tb=
+2Q9aHBfbGVhZF9wb3M3/607f07ceef4b8524a319a23cB5b0dbfbb" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> Green Energ=
+y</a> Is Causing a Global Glut. Bankman-Fried=E2=80=99s <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/33352147.257416/aHR0cHM6Ly93d3cud3NqL=
+mNvbS9maW5hbmNlL2N1cnJlbmNpZXMvc2FtLWJhbmttYW4tZnJpZWQtcGFyZW50cy1hcmRlbnQt=
+c3VwcG9ydGVycy1kNWIyNjI0ZT9tb2Q9aHBfbGVhZF9wb3M0/607f07ceef4b8524a319a23cBa=
+1781899" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> Parents</a> Stand By Their Sam=E2=80=94And Face Their Own=
+ Legal Perils.=C2=A0Moody=E2=80=99s Changes Outlook on <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/33352147.257416/aHR0cHM6Ly93d3cud3NqLm=
+NvbS9maW5hbmNlL21vb2R5cy1jaGFuZ2VzLW91dGxvb2stb24tdS1zLXJhdGluZ3MtdG8tbmVnY=
+XRpdmUtZWI5ZWNhZDc_bW9kPWhwX21ham9yX3BvczEjY3hyZWNzX3M/607f07ceef4b8524a319=
+a23cBa1460a2f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> U.S. Ratings</a> to Negative. General Atlantic to B=
+uy Control of <a href=3D"https://link.mail.bloombergbusiness.com/click/3335=
+2147.257416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTE=
+tMTMvZ2VuZXJhbC1hdGxhbnRpYy1hZ3JlZXMtdG8tYnV5LW1ham9yaXR5LXN0YWtlLWluLWpvZS=
+10aGUtanVpY2U_Y21waWQ9QkJEMTExMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1d=
+G1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTEzJnV0bV9jYW1wYWlnbj1tb25leXN0=
+dWZm/607f07ceef4b8524a319a23cB9f5965e1" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">  Joe &amp; the Juice</a>.=
+=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/33352147.257=
+416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMTAvaHV=
+uZy1kZWFsLWxlYXZlcy1ibW8tcmJjLWxlZC1ncm91cC13aXRoLWNyZXNjZW50LXBvaW50LXNoYX=
+Jlcz9jbXBpZD1CQkQxMTEzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY=
+2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMTMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f=
+07ceef4b8524a319a23cB60dfe194" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">Hung Deal</a> Leaves BMO, RBC-Led Gr=
+oup With Crescent Point Shares.=C2=A0The <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/33352147.257416/aHR0cHM6Ly93d3cud3NqLmNvbS9wZXJzb25h=
+bC1maW5hbmNlL3JldGlyZW1lbnQvdGhlLTQtcnVsZS1mb3ItcmV0aXJlbWVudC1pcy1iYWNrLTY=
+yN2VmMjg3P21vZD1ocF9sZWFkX3Bvczk/607f07ceef4b8524a319a23cB405ed19a" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> 4% Rule</a> for Retirement Is Back. Google Sues Scammers Over <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/33352147.257416/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMTMvZ29vZ2xlLXN1ZXMtb3Zl=
+ci1mYWtlLWFpLWNoYXRib3QtdGhhdC1kb3dubG9hZHMtbWFsd2FyZT9jbXBpZD1CQkQxMTEzMjN=
+fTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdG=
+VybT0yMzExMTMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB58eb=
+f1a5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">  Fake Bard AI Chatbot</a> That Downloads Malware. =E2=80=9CO=
+n a recent day in November, a pack of regular Oreos in Chicago contained co=
+okies that appeared stuffed with <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/33352147.257416/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmVzcy9yZXRh=
+aWwvb3Jlby1jb29raWUtY3JlbWUtZmlsbGluZy01ZDYxYWFhZj9tb2Q9aXRwX3dzag/607f07ce=
+ef4b8524a319a23cBa462dd4d" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> varying amounts of creme</a>.=E2=80=9D =
+=E2=80=98It never ends=E2=80=99: the book club that <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/33352147.257416/aHR0cHM6Ly93d3cudGhlZ3Vhc=
+mRpYW4uY29tL2Jvb2tzLzIwMjMvbm92LzEyL2NhbGlmb3JuaWEtdmVuaWNlLWJvb2stY2x1Yi1m=
+aW5uZ2VhbnMtd2FrZS0yOC15ZWFycz9DTVA9U2hhcmVfaU9TQXBwX090aGVy/607f07ceef4b85=
+24a319a23cB3cb2e12e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> spent 28 years reading Finnegans Wake</a>.</=
+p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33352147.257416/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB3a26d1e7" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33352147.257416/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB4bd8b0ba" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] That IPO was pulled, but WeWork eventually=
+ went public by <a href=3D"https://link.mail.bloombergbusiness.com/click/33=
+352147.257416/aHR0cHM6Ly93d3cud2V3b3JrLmNvbS9uZXdzcm9vbS93ZXdvcmstdG8tYmVjb=
+21lLXB1YmxpY2x5LXRyYWRlZC12aWEtc3BhYy1tZXJnZXItd2l0aC1ib3d4LWFjcXVpc2l0aW9u=
+LWNvcnA/607f07ceef4b8524a319a23cBc6e0baee" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">merging with a special p=
+urpose acquisition company</a> in 2021.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Fine yes and also because the ambitions of=
+ future WeWork are not at all certain to work out. For instance, it is stil=
+l very much <a href=3D"https://link.mail.bloombergbusiness.com/click/333521=
+47.257416/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvM=
+TgxMzc1Ni8wMDAxODEzNzU2MjMwMDAwNTkvd2UtMjAyMzA2MzAuaHRtI2kzNTViNDNkZGM0OGQ0=
+MjFjYjkxNDE1MmM2NmQ5NjU5MV8yOA/607f07ceef4b8524a319a23cB9422cd8e" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+losing hundreds of millions of dollars a year</a>.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] This is arguably an unfair reading, and I =
+should have written something like =E2=80=9Cexecutives try to present resul=
+ts in a good light that will encourage investors to view them positively.=
+=E2=80=9D But I think the meaning is the same?</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33352147.257416/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB5610ff5e" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33352147.257416/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB2ac70ce2" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33352147.257416/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBc51754be" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33352147.257416/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB7b3552ff" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/33352147.257416/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBae42232b" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/33352147.2574=
+16/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBfb36d629" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/33352147.257416/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC96692efc" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/33352147.257416/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBb8957128" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/33352147.257416/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBa2b26182" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33352147.257416/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB6=
+9fcd996" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33352147.257416/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBf=
+915d11c" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjuuoj.5img/ce1f47db.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_46805904_1208906806.1699900432691--
+

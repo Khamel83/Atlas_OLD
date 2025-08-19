@@ -1,0 +1,2407 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:8082:b0:135:5083:d84b with SMTP id a2csp777286rwk;
+        Tue, 11 Jul 2023 10:37:05 -0700 (PDT)
+X-Received: by 2002:a05:600c:519a:b0:3fb:b18a:f32d with SMTP id fa26-20020a05600c519a00b003fbb18af32dmr17854370wmb.17.1689097024834;
+        Tue, 11 Jul 2023 10:37:04 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1689097024; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=SuaRu2n3qXsQGiAQKNT/kdZid55dyklt3xvkF+2E4DVsH7IoIZFPAQmPN19S1C1xKr
+         JeE71E4MUHVb0b4gHlmGxqp4sU9B1LoGz2m8015JxjBvXpuxHDBUqXGWxyCBhz9SXkU5
+         EPINGgA7ATB+C80xZ+/YizkR2hEW1CzR9Hw5QRUbDmC+utfIgEmAGXPvzrKiV0jB1FE9
+         +j9376vyXAS2ykxs2H4evtYXc+1DqCyvFECzFMAurydBMkgjk2B1RYPQJdRK0UZXwDb8
+         GV3W8lMHEZ0CEtKKJV/dDSx3lYfU0b223/QA8Sq5ae0loh9YWu17AICVy/UzzGKZy7yN
+         3Kyw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=rUv2Oc3dI4hZaCDl5BXkutCecwZfsZUyHihmwsfo8G4=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=wvDNhQ1vAPIdJ6/V+ALqVN5qibjNOuVbHv5cjdy8U7Hiacyevx311A4HJ+Az6sauoP
+         oD6xnWPIDXcKq/HLR0tJLFxRw5uwjDjYI+h2MtLuT5io5gLt7OGR+l/1aJMIHm1+nKc4
+         6q2105g/EkzkalDkYcj9v1UsYfRaFPnSRcl1l4LCFGYm1Kl3cQJfcGorJSv7afaW8w04
+         LkM/PLlLioG5AfNc80J+PD+9lQxvoiPEbRmcb+N+dXAMe25idFfBQpEb3E94AylZttgW
+         NRVop4CuA0/pXbvgONOKwzUZywqm+oUDE/xi0UjyBEQc8PnWqTmR8DRHEEvTkYr2NHPr
+         YKSg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=6wipAYMW;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id m40-20020a05600c3b2800b003fbaae75e03sor3066121wms.2.2023.07.11.10.37.04
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 11 Jul 2023 10:37:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=6wipAYMW;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1689097024; x=1691689024;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=rUv2Oc3dI4hZaCDl5BXkutCecwZfsZUyHihmwsfo8G4=;
+        b=FV9eut9pRnsjnw0kVCBxWwug1aoorBs3hMJW4FMa69uMo7W7PqZ3xBUJ8cQsAOVpqj
+         eQ95PCKSh2HHLpt6O7062Z3+Yb8FagRnj/7fA66veSUVtWzL8s6/7En6127DCeZVnW0p
+         Ao0IPEgJ4Vvnveld+IsSSHZV3hHM/J+RLkgWD6mIASWk9n0ccZ3Qcesb1xOwIyC9YFr0
+         zz1bTwjiBdaYmvSNhVEyR+4WspZULUENk2us7y6FAm0DUZurJaguKVJI3KUzZSLQWMwf
+         2nfF+1wrya87iRd3FjsUbNrtIxM01k9PausN2L63CSxn0niaevMPF5FT5j+OXrWDpME0
+         +GBw==
+X-Gm-Message-State: ABy/qLYRoBDBflRnObmxGSNdrb3vy1CwSQ0v+dPMgKQ4mhktpezRHRe7
+	UH3RuPwYedIZCCHE7mKDI6LoKZcRi5+BK2x7r/+H4lSoa5dgm1bYow==
+X-Received: by 2002:a7b:c3c1:0:b0:3f7:a20a:561d with SMTP id t1-20020a7bc3c1000000b003f7a20a561dmr15482629wmj.8.1689097024237;
+        Tue, 11 Jul 2023 10:37:04 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:4ec4:0:0:0:0:0 with SMTP id s4csp4472849wrv;
+        Tue, 11 Jul 2023 10:37:00 -0700 (PDT)
+X-Received: by 2002:a67:f04d:0:b0:444:eedd:1aea with SMTP id q13-20020a67f04d000000b00444eedd1aeamr7493258vsm.17.1689097019807;
+        Tue, 11 Jul 2023 10:36:59 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1689097019; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=klFdVux63EKtE0bycXJ3zkJ3LEJq5TM3j8nnfuYPQxHcEWTAlaZIaGhmKusl8NNpNl
+         W9UIhAKEfhiG54YWyYQ2vRwaUwEsNfc7/TzEqdRUM6FSv2FRzx9qsc6bYqRCybeYUbgV
+         I0ko4zo08RYzT0edMxFe/a6x6BW7iAg9WL+D4d9FCpUHeZyRtOpBd7ryj1/gGNmdoeMb
+         6XSy6khzMpmUQxZvVqYF8qaVX/3L3G/DOYTXK4cYAhGQPbDiD66Rw18QEOpfj6TqbI7k
+         nR9qrvv8bOajl6rZMikeohO6fzAQ/MrHA/Ojo3EY7EbkgX21J0wqfZfU1MZJO8OLscVn
+         Xqzw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=rUv2Oc3dI4hZaCDl5BXkutCecwZfsZUyHihmwsfo8G4=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=VKa48vcM6iY22L4rTNcklcenf4a9p30wVQhkUio/dEFksKolr6t+xSx8B7Uc9yIlug
+         +6VSk5m9Lf3Dy5eZ4gdmFQVQwibAAIRU1M2nYHAv4JpUicEaEx10eTbBUPMe4cgbju53
+         07Yzp2sX6hVC2SCGRbOv5Vqxi0VeTUPGWg+qslNM1UwCpuJ9NTjEGX7ti79lJxDyie9F
+         BErmjR0Tm1buKxUEl72Ekc81NPr9LHMzR9FczzWJE5ba9AHLIufH+KHLCVNKL8mIUb3n
+         VO2Sjgk4QQjQbRVbY4r8i0E7FblrllZMADvOXcx00x8tSZDCuuvMs5FP9/2kYldb8tm5
+         cXGA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=6wipAYMW;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230711133658.32049616.257409@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230711133658.32049616.257409@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230711133658.32049616.257409@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id z4-20020a67d284000000b00443570fea42sor448320vsi.3.2023.07.11.10.36.59
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 11 Jul 2023 10:36:59 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230711133658.32049616.257409@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: APBJJlEImIjRq6peCRXVhFzf4lMeDD8kC5iD2t5Dky+eK979/i4idaeaNJnfYbHI5yreL+wcuHu1hlvZfuZcrgsj6g2AeJSaq2c=
+X-Received: by 2002:a67:bc13:0:b0:443:73ac:896d with SMTP id t19-20020a67bc13000000b0044373ac896dmr6117746vsn.27.1689097019442;
+        Tue, 11 Jul 2023 10:36:59 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1689097019; cv=none;
+        d=google.com; s=arc-20160816;
+        b=UzQbw9yKL70T+sOAv4BWaO43+lf+cShpOyC7lKx5DZ7QAaLGoPIjx+RGdv0ZLqiZRB
+         rM3mKaqDrZnBgZ90dCsliJk7cGmaFxZekiTmtTBHTEKTUKbI8ZW0+JTsd+EJcN+6rrL6
+         wQrOI8q0CNisVvIEaH+jPvd2YW/+np/cQzWTQRuT9aeiir2PfAYC/5E8uBEUfBvgIMaW
+         N/R2wSzgwgq4BmwhUJpr3AOLyOju8//Y5c1EyuanNr45uAmm0E5OGF62RfBDXTi/+kBl
+         b9dfYVCsgf5MuGd3O3PTdmbuCeN6jJd1tQbsydGJFqiy5uu4yRl3zqT8p3iKDnjVN61S
+         Ey/w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=rUv2Oc3dI4hZaCDl5BXkutCecwZfsZUyHihmwsfo8G4=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=xzBW+CEDuo0qqvHFhGZPh1Rhjn+qpj21PqY0m0wwAOD3qQdv/stJYQ9d4PnnrL2Z4X
+         8G/vzp5DiZL+XbQ4tnpZAOG0e1Iley1QkfFToQzq98gkb+jxD0Uq4pVvjGS/P5aRkbgi
+         YU61oe6OtLWfh2OuMQbkzqSNYYNI4fFJT+So2Iszhe8TUJtDRCvQdNVOqP9W2rGcdh77
+         ZH5RhSirgnroOggPFktVCjubLaGoQnqS/Nl24nYGzqC28o4g+u83YU5fmTygs2Y4sfKW
+         H3uVQPW630N/zmK2xRng0oFNn9e+Km7haOvb7nrgFsFlVYU2Px0dHWLMqW+jUhjFP8YL
+         k4tw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=6wipAYMW;
+       spf=pass (google.com: domain of delivery_20230711133658.32049616.257409@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230711133658.32049616.257409@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230711133658.32049616.257409@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id cd3-20020a056130108300b0078f49ecc442si210933uab.1.2023.07.11.10.36.59
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 11 Jul 2023 10:36:59 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230711133658.32049616.257409@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=8/p+OrOh6BkwLnLA7lS7HCsIz3d6SU2BQiFQZrbNJWM=;
+ b=6wipAYMW1p7ALAS/xBBSfkWLYQ0wo6ZeJBvdS5rOAkehKlHMNV8MXdbAoffEwEsOpom45rkUM0Th
+   lQtBvuVKbah6JeJxVj2kPZQ3D2oHmaQlz6M/GC42WEJyS4RJlWM/m91+plPOSlXcM1D8MgQQ3kpZ
+   e/b9jB1DxCK9wfj4qOM=
+Received: from njmta-20.sailthru.com (173.228.155.20) by bloomberg-b.sailthru.com id hlm9jm30nu8s for <bloomberg@khamel.com>; Tue, 11 Jul 2023 12:36:58 -0500 (envelope-from <delivery_20230711133658.32049616.257409@mx.sailthru.com>)
+Received: from nj1-wryforest.flt (172.18.20.15) by njmta-20.sailthru.com id hlm9jk1qqbsa for <bloomberg@khamel.com>; Tue, 11 Jul 2023 13:36:58 -0400 (envelope-from <delivery_20230711133658.32049616.257409@mx.sailthru.com>)
+Date: Tue, 11 Jul 2023 13:36:58 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230711133658.32049616.257409@sailthru.com>
+Subject: Money Stuff: Elon Musk Blames the Lawyers
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_10922389_264542123.1689097018600"
+Precedence: bulk
+x-job: 6358-32049616-20230711
+X-Feedback-ID: 6358:32049616:campaign:sailthru
+X-TM-ID: 20230711133658.32049616.257409
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wryforest.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj2xn4.5im9/fbf54208
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj2xn4.5im9/fbf54208>, <mailto:unsubscribe_20230711133658.32049616.257409@mx.sailthru.com>
+X-rpcampaign: stjko32049616
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_10922389_264542123.1689097018600
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Disclosure! A long time ago I used to work as a very junior mergers=
+-and-acquisitions lawyer at Wachtell, Lipton, Rosen & Katz. The hours wer
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Oh Elon
+   =20
+ =20
+
+Disclosure! A=C2=A0long time ago I used to work as a very junior mergers-an=
+d-acquisitions lawyer at=C2=A0Wachtell, Lipton, Rosen & Katz. The hours wer=
+e way too long, but I remain fond of the firm and the people there.=C2=A0Me=
+anwhile I have no real personal connection to Elon Musk except that (1) he =
+keeps doing weird stuff financial stuff for me to write about, which I love=
+=C2=A0and (2) he keeps doing it while I am on vacation, which I do not love=
+. And so I went away on Friday and Musk   did a thing.=C2=A0He sued Wachtel=
+l, which represented Twitter Inc. when Musk=20
+tried to get out of his deal to buy Twitter, claiming that Wachtell=E2=80=
+=99s fee for that litigation =E2=80=94=C2=A0$90 million =E2=80=94=C2=A0was =
+too big. I just want to be clear up front about my biases.=C2=A0
+Wachtell is a fairly small law firm that makes a specialty of sell-side pub=
+lic-company M&A work.=C2=A0It=C2=A0is =E2=80=9Camong the most profitable fi=
+rms in the US.=E2=80=9D=C2=A0Those facts are related. Sell-side public-comp=
+any=C2=A0M&A work is a pretty lucrative legal specialty.
+Partly this is for the usual obvious reasons: It is high-stakes, complicate=
+d, high-pressure, high-dollar stuff. But there is another reason that is pe=
+rhaps less obvious, which is that=C2=A0your clients don=E2=80=99t pay your =
+bills. Here is how a public-company merger works:
+=09A company decides to sell itself and hires lawyers.=09The buyer does a l=
+ot of due diligence, looking into things like the company=E2=80=99s audited=
+ financial statements, to figure out how much the target company is worth.=
+=09A buyer signs an agreement to buy it for some fixed price, say $54.20 pe=
+r share, in cash, to all of the target=E2=80=99s shareholders.
+  [1]
+
+=09After the agreement is signed, there is   a delay of several=C2=A0months=
+ before it closes, during which the companies get regulatory approvals to m=
+erge, the target=E2=80=99s shareholders vote on the deal, the buyer lines u=
+p financing, etc.=09During that delay, the target continues operating as an=
+ independent company, making its own business decisions with limited coordi=
+nation with the buyer.=09The agreement  contains a covenant saying that the=
+ target will operate =E2=80=9Cin the ordinary course of business=E2=80=9D a=
+nd won=E2=80=99t make any drastic changes, pay out any huge bonuses, etc., =
+so that, when the deal closes, the buyer gets more or less the same company=
+ that it thought it was buying. But with a big public company, this covenan=
+t can=E2=80=99t be all that fine-grained; the company just has to be able t=
+o continue making business decisions. For one thing, its own expert executi=
+ves need=C2=A0to make lots of decisions to preserve the target=E2=80=99s va=
+lue for the buyer when the deal eventually closes.
+  [2]
+=C2=A0Also=C2=A0though the deal might=C2=A0not=C2=A0close: What if the shar=
+eholders vote no, or the buyer doesn=E2=80=99t get its financing? Then the =
+company will need to be ready to stay independent. The executives need to k=
+eep running the company on behalf of its shareholders until the moment the =
+check clears and the merger closes.=09Eventually the deal closes, the buyer=
+ pays the cash, it becomes the owner of the target, and it can do whatever =
+it wants. It can fire the executives, make the business decisions, etc.=09A=
+t closing, the buyer pays the amount of cash that it agreed to pay in the m=
+erger agreement. If it agreed to pay $54.20 at signing, it pays $54.20 at c=
+losing, even if circumstances have changed over the intervening months. If =
+the market fell, or the target company had a bad quarter, or if its expense=
+s got a bit out of hand, the buyer still pays the same amount.=C2=A0=09You =
+could imagine a different system: The buyer could get a price adjustment fo=
+r changes in cash; it could agree to pay, like, =E2=80=9C$10 billion, but i=
+f the target has less than $500 million of cash at closing, we will reduce =
+the price by the difference.=E2=80=9D And this is not uncommon in private-c=
+ompany M&A: If the seller of the target is a private equity firm, it can ag=
+ree to a price adjustment. It is harder in public deals, though, mostly bec=
+ause the target company=E2=80=99s public shareholders have to vote on the d=
+eal, and you need to tell them the price so they can have an informed vote.=
+ And so public deals don=E2=80=99t really have price adjustments for things=
+ like how much cash is left in the target at closing.
+  [3]
+
+=09Instead, they just have that =E2=80=9Cordinary course=E2=80=9D covenant:=
+ If the target spends=C2=A0much too much=C2=A0money between signing and clo=
+sing, the buyer can=C2=A0walk away, say =E2=80=9Cyou didn=E2=80=99t operate=
+ in the ordinary course like you promised, so I don=E2=80=99t have to close=
+.=E2=80=9D Or it can=C2=A0threaten=C2=A0to walk away, and use that to reneg=
+otiate the price.=C2=A0(There are other covenants and representations that =
+have to be true at closing. A big one is the =E2=80=9Cmaterial adverse effe=
+ct=E2=80=9D representation; if the company spends so much money that it cau=
+ses a material adverse effect on its business, the buyer can walk away. But=
+ that=E2=80=99s hard to do.)=C2=A0But if the target spends=C2=A0somewhat to=
+o much=C2=A0money between signing and closing, there is not a lot the buyer=
+ can do about it: It probably can=E2=80=99t walk away from the deal unless =
+the spending is too egregious and out-of-the-ordinary-course, and it can=E2=
+=80=99t just cut the price to make up for the target=E2=80=99s extra spendi=
+ng.=09The result is that every dollar that the target company spends betwee=
+n signing and closing is=C2=A0free, to the target=E2=80=99s shareholders.=
+=C2=A0They get their $54.20 per share no matter what; the cash left in the =
+company=E2=80=99s treasury is no longer their concern. Every dollar that th=
+e target spends is=C2=A0the buyer=E2=80=99s problem.=09Or rather, that=E2=
+=80=99s true as long as the merger closes. You can=E2=80=99t spend=C2=A0too=
+=C2=A0drunkenly, if you=E2=80=99re the target, because the merger might not=
+ close =E2=80=94=C2=A0either because your drunken spending might violate th=
+e ordinary-course covenant and give the buyer a reason to walk away, or for=
+ unrelated reasons (antitrust, financing, etc.).=09If you are the target co=
+mpany=E2=80=99s law firm, and you have successfully negotiated a merger agr=
+eement that the target is happy with, you can send them a bill for, I don=
+=E2=80=99t know, $90 million, and they=E2=80=99ll be like =E2=80=9Csure wha=
+tever looks great, it=E2=80=99s not our money!=E2=80=9D=C2=A0=09They=E2=80=
+=99re not gonna pay that bill right at signing, because if the deal doesn=
+=E2=80=99t close they will want the money back. But they=E2=80=99ll happily=
+ pay it just before the closing, when it is no longer their money.
+
+There are some constraints on the fees. There is that =E2=80=9Cordinary cou=
+rse=E2=80=9D covenant, saying that the target company can=E2=80=99t do anyt=
+hing too egregious between signing and closing. There may be some more spec=
+ific disclosure of the target=E2=80=99s fee arrangements =E2=80=94=C2=A0the=
+re normally=C2=A0is specific disclosure of its=C2=A0bankers=E2=80=99=C2=A0f=
+ee arrangements =E2=80=94=C2=A0at signing, so if the target tells the buyer=
+ at signing =E2=80=9Cwe have agreed to pay our lawyers $10 million=E2=80=9D=
+ and then pays them $90 million there might be a breach of the covenant. (T=
+hough, again, the remedy for that breach is probably=C2=A0refusing to close=
+ the deal, not getting the money back.) And of course there is generally th=
+e fact that the target company=E2=80=99s executives would like to remain em=
+ployed by the buyer, so they don=E2=80=99t want to spend the buyer=E2=80=99=
+s money=C2=A0too=C2=A0aggressively. (Unless they are pretty sure that they =
+won=E2=80=99t remain employed, in which case, who cares!) But these are pre=
+tty soft constraints.
+And so if you are the target=E2=80=99s lawyers in a public M&A deal you can=
+ kind of send them a bill for whatever amount you like, and they will be li=
+ke =E2=80=9Chahaha great here you go, enjoy it,=E2=80=9D and you will be li=
+ke =E2=80=9Cwe sure will,=E2=80=9D and it=E2=80=99s all the buyer=E2=80=99s=
+ money and who cares.
+If the deal=C2=A0doesn=E2=80=99t=C2=A0close, though, you are not going to g=
+et paid that much, because in that case the money really does belong to the=
+ target=E2=80=99s shareholders, and they=E2=80=99ll need it. But your job, =
+as the target=E2=80=99s lawyer, is to make sure the deal closes!
+  [4]
+=C2=A0The incentives are aligned.
+Wachtell was not actually Twitter=E2=80=99s M&A law firm; it did not negoti=
+ate its deal to sell itself to Elon Musk for $54.20 per share. But when Mus=
+k decided to back out of the deal, Wachtell came in as Twitter=E2=80=99s la=
+wyers to=C2=A0sue=C2=A0Musk into closing the deal. In this, Wachtell was en=
+tirely successful: Twitter   sued Musk a year ago tomorrow, there was some =
+fighting in court, and in October Musk   dropped his opposition and closed =
+the deal on its original terms. For this success, Twitter paid Wachtell a $=
+90 million success fee. =E2=80=9CThe $90 million fee collected from Twitter=
+ for a few months of work on a single matter represented nearly 10% of Wach=
+tell=E2=80=99s gross revenue in 2022, and over $1 million per Wachtell part=
+ner,=E2=80=9D  notes Musk=E2=80=99s complaint.
+Musk complains that this fee was too big. It was big! But it was agreed to =
+by Twitter=E2=80=99s legal department and board of directors, who ran the c=
+ompany and got to decide how much to pay the lawyers. Musk complains that T=
+witter=E2=80=99s legal department and board of directors were =E2=80=9Clame=
+ duck fiduciaries who had lost their motivation to act in Twitter=E2=80=99s=
+ best interest=E2=80=9D because they were about to sell it to Musk:
+Fully aware that nobody with an economic interest in Twitter=E2=80=99s fina=
+ncial well-being was minding the store, Wachtell arranged to effectively li=
+ne its pockets with funds from the company cash register while the keys wer=
+e being handed over to the Musk Parties.
+But this is wrong. Up to the moment before closing, Twitter=E2=80=99s manag=
+ers and board of directors were fiduciaries for=C2=A0their existing shareho=
+lders, and their fiduciary duty was, essentially,=C2=A0to make sure that Mu=
+sk bought Twitter. They did their fiduciary duty, which involved=C2=A0suing=
+ Musk to get him to close the deal. The moment before closing, they could n=
+ot have been fiduciaries for Musk,
+  [5]
+ who was trying to hose the shareholders by getting out of the deal he had =
+agreed to.
+Everyone at Twitter who negotiated this fee agreement will say that they we=
+re happy with Wachtell=E2=80=99s work and even happier that Musk is mad abo=
+ut it. But also every Twitter=C2=A0shareholder=C2=A0who got Musk=E2=80=99s =
+$54.20 is happy with Wachtell=E2=80=99s work! The person unhappy with their=
+ work is the guy whom they beat in court. Of course he=E2=80=99s unhappy! B=
+ecause they did good work! If Elon Musk were happy with Wachtell=E2=80=99s =
+work then their work would have been very bad.
+Musk complains that the fee violated  the =E2=80=9Cordinary course=E2=80=9D=
+ covenant:
+Wachtell and Twitter=E2=80=99s directors and officers also knew that the Me=
+rger Agreement contained a provision that, in the words of an expert retain=
+ed by Wachtell in=C2=A0connection with the merger litigation, was drafted t=
+o prohibit Twitter executives from agreeing to certain expenses prior to cl=
+osing =E2=80=9Coutside the ordinary course of business in a manner that mig=
+ht ultimately harm the acquiror.=E2=80=9D
+Now, this can=E2=80=99t be right. The argument here is that if Musk frivolo=
+usly tried to get out of the merger agreement, and Twitter hired good lawye=
+rs to sue him to force him to close, then=C2=A0that=C2=A0would give Musk a =
+way out of the merger agreement, because hiring expensive lawyers is not in=
+ =E2=80=9Cthe ordinary course of business.=E2=80=9D But even if it were rig=
+ht, then all it means is that Musk could have gotten out of the deal becaus=
+e Twitter overpaid its lawyers. But he didn=E2=80=99t get out of the deal, =
+it=E2=80=99s too late now, and there is no provision for him to demand the =
+money back.
+Musk complains that the fee was too big because the case was simple:
+Wachtell was one of six large law firms that represented Twitter in connect=
+ion with the merger litigation, a relatively straightforward breach of cont=
+ract dispute in which Twitter sought to hold the Musk Parties to the Merger=
+ Agreement and to close the transaction. While there were important factual=
+ disputes, there were not novel or difficult questions of law involved, nor=
+ did the litigation require any special skills beyond that which Twitter co=
+uld have procured by paying hourly rates to many other reputable law firms =
+with experience litigating in the Delaware Chancery Court, including those =
+hired to work alongside Wachtell.
+It was incredibly easy to beat Musk in court, says Musk, in court. Elon Mus=
+k does not abide by his contracts, and so you have to sue him to get him to=
+ keep his contracts, but when you sue him you will win, says Elon Musk, in =
+a court case in which he is trying to get out of a contract.=C2=A0Musk, I s=
+hould say, employed several high-powered and expensive law firms to take th=
+e losing side of the merger dispute. (Though maybe he didn=E2=80=99t pay th=
+eir bills either?) It seems silly for him to fault Twitter for hiring expen=
+sive lawyers to beat him in a =E2=80=9Crelatively straightforward=E2=80=9D =
+dispute, when he was hiring expensive lawyers to lose it.=C2=A0
+And the litigation was very=C2=A0valuable, to Twitter=E2=80=99s actual shar=
+eholders:=C2=A0Beating Musk in court, as opposed to losing to him, was   pr=
+obably worth about $25 billion to Twitter=E2=80=99s shareholders. Paying Wa=
+chtell 0.3% of the value recovered as a success fee seems pretty reasonable=
+. Especially since shareholders didn=E2=80=99t pay it! The  Wall Street Jou=
+rnal notes:
+
+Bruce MacEwen, a legal consultant, said a $90 million payment didn't seem l=
+ike a lot given that the acquisition deal was valued at $44 billion. "This =
+does not strike me as out of line," said MacEwen, president of consulting f=
+irm Adam Smith, Esq.
+If=C2=A0Wachtell=C2=A0was instrumental in getting Twitter the $44 billion p=
+rice after Musk tried to get out of the deal, he said, that provided value.=
+ "Did old Twitter get its money's worth or what?" he said.
+A $90 million payment isn't unusual for such a consequential case, said law=
+-firm consultant Kent Zimmermann from Zeughauser Group. "I'd be surprised i=
+f=C2=A0Wachtell=C2=A0was faulted for the amount they charged, considering t=
+he stakes and the outcome," he said.
+Wachtell=C2=A0is known to be a leading law firm for cases like the Twitter =
+one, he added. "There's a limited supply of firms like=C2=A0Wachtell=C2=A0a=
+nd a lot of demand for them, which drives the price up," he said.
+
+Anyway though Musk=E2=80=99s complaint has lots of fun details about how Wa=
+chtell=E2=80=99s billing works. It=E2=80=99s a little casual:
+Both the August 26 Hourly Invoice and the September 28 Hourly Invoice were =
+approved for payment despite flagrantly improper billing practices. For exa=
+mple, six Wachtell timekeepers =E2=80=A6 billed a combined $2,200,893.75 in=
+ those two invoices with completely blank time entry descriptions. One Wach=
+tell associate billed approximately $935,000 across the two invoices, with =
+all of her time entry descriptions limited to either =E2=80=9Cstrategy=E2=
+=80=9D or =E2=80=9Cfactual analysis=E2=80=9D without further elaboration.
+Though all of this is much more detailed than the final bill, which is just=
+ =E2=80=9Cfor all legal services relating to the acquisition of Twitter by =
+Elon Musk through the closing: $90,000,000.00.=E2=80=9D
+  [6]
+
+The final bill was based not on hours devoted to strategy or otherwise, but=
+ on deal size: Wachtell sent Twitter a memo
+  [7]
+ justifying its $90 million fee, which says that =E2=80=9Cas we discussed, =
+in engagements relating to pending transactions as to which a premium fee i=
+s contemplated, our Firm often receives a fee in the range of 60 to 80 perc=
+ent of the fees paid to investment advisors.=E2=80=9D That=E2=80=99s pretty=
+ good! If you are the law firm getting paid 60% to 80% of the fees paid to =
+the investment banks on a deal, you are doing=C2=A0better=C2=A0than the ban=
+ks:
+=09Many big deals have multiple banks, so each bank is probably getting som=
+ething like 50% or less of the total banking fees. If the law firm is getti=
+ng 60%, that=E2=80=99s more.
+  [8]
+
+=09Banks are largely in the business of=C2=A0marketing=C2=A0mergers, and a =
+banker will spend a lot of time doing unpaid work pitching deals to compani=
+es for every one deal she completes and gets paid for. Lawyers are much mor=
+e likely to work on actual deals and get paid for them.=C2=A0
+
+There is also this on the=C2=A0timing=C2=A0of that payment:
+Immediately following the Twitter board=E2=80=99s rubber-stamp approval, [T=
+witter Chief Legal Officer Vijaya] Gadde signed Wachtell=E2=80=99s letter a=
+greement. Then, to ensure that the eleventh-hour fee payment went through b=
+efore the Musk Parties (Twitter=E2=80=99s new owners) could learn about the=
+ massive gift included in that fee, [Twitter General Counsel Sean] Edgett e=
+xpedited the wire payment on the invoice for the balance ($84,294,962.97) o=
+f the $90 million total fee that Wachtell had submitted to Twitter the day =
+before. Twitter=E2=80=99s $84 million wire to Wachtell was posted only ten =
+minutes before Gadde and=C2=A0Edgett were terminated upon the closing of th=
+e merger.=C2=A0
+Yes! Right! Ten minutes is the normal amount of time. If you pay Wachtell a=
+ $90 million success fee 30=C2=A0minutes before closing, you haven=E2=80=99=
+t had your success yet: What if something goes wrong in those 30 minutes, t=
+he deal doesn=E2=80=99t close, and Wachtell keeps the money? If you pay Wac=
+htell a $90 million success fee 10 minutes=C2=A0after=C2=A0closing, you mig=
+ht not pay: =E2=80=9CYou=E2=80=9D 10 minutes before closing are the company=
+ who hired Wachtell as your trusted adviser to sell yourself; =E2=80=9Cyou=
+=E2=80=9D 10 minutes after closing are the guy who=C2=A0bought=C2=A0the com=
+pany after negotiating against Wachtell. The right time to pay Wachtell=E2=
+=80=99s giant bill is minutes, perhaps seconds, before closing.
+Now, Musk=C2=A0did=C2=A0tell Twitter not to do this. He complains that Twit=
+ter paid the fee even though he told them not to:
+The Musk Parties moved up the scheduled closing of the Merger Transaction b=
+y one day to October 27, 2022. At 5:11 a.m.=C2=A0(8:11 a.m. Eastern) on the=
+ morning of October 27, counsel for the Musk Parties sent a directive on be=
+half of their client instructing Twitter, Inc. =E2=80=9Cto immediately disc=
+ontinue all outbound payments and other disbursements to third parties in o=
+rder to assist Mr. Musk=E2=80=99s funds flow preparations for the completio=
+n of the pending merger.=E2=80=9D See Exhibit 16 (the =E2=80=9CClosing Day =
+Directive=E2=80=9D). The Closing Day Directive also provided advance instru=
+ctions =E2=80=9Cin anticipation of the imminent completion of the merger=E2=
+=80=9D with respect to =E2=80=9Coutbound payments and disbursements to thir=
+d parties following completion of the merger,=E2=80=9D explicitly including=
+ =E2=80=9Coutside advisors, including, without limitation, financial adviso=
+rs, legal advisors, accounting advisors, litigation experts, and all other =
+external advisors.=E2=80=9D The Closing Day Directive was an unequivocal st=
+atement on behalf of Twitter=E2=80=99s residual claimants of the corporatio=
+n=E2=80=99s preference to pause outbound payments pending that day=E2=80=99=
+s closing so that the company=E2=80=99s new owner could have =E2=80=9Ca rea=
+sonable opportunity to review such payments.=E2=80=9D
+Well! He sent Twitter a letter
+  [9]
+:
+=09
+Asking=C2=A0Twitter not to pay any bills before closing, and=09
+Instructing=C2=A0Twitter not to pay any bills after closing.
+
+One second after closing, Musk owned Twitter, and could tell Twitter not to=
+ pay any bills. (And he did, and he has gotten sued for it.) But one second=
+ before closing, Musk did=C2=A0not=C2=A0own Twitter, and Twitter could pay =
+all the bills it wanted to. He asked it not to, and it did anyway, and that=
+ was fine. =E2=80=9CTwitter executives ignored the first half of the Closin=
+g Day Directive and instead accelerated Twitter=E2=80=99s outbound payments=
+ to third parties,=E2=80=9D complains Musk.
+By the way, it is not totally clear to me whether Musk knew the size of Wac=
+htell=E2=80=99s bill before closing. The complaint says this:
+Around this time, the Musk Parties requested details from Twitter regarding=
+ its expected transaction expenses, including legal fees. On October 11, 20=
+22, Twitter emailed Wachtell to request an estimate of Wachtell=E2=80=99s O=
+ctober fees =E2=80=9Cassuming a closing date of 10/28/22.=E2=80=9D Wachtell=
+ does not appear to have ever sent that estimate or any details regarding i=
+ts hourly billing or expenses=E2=80=94let alone an invoice or its hourly fe=
+es and expenses=E2=80=94in connection with its work on the merger litigatio=
+n after August 31, 2022.=C2=A0
+But it also says that on Oct. 14, =E2=80=9CTwitter circulated a draft chart=
+ of transaction expenses to its counsel and listed $95 million for Wachtell=
+=E2=80=99s fees,=E2=80=9D and that on Oct. 24, they agreed on $90 million a=
+nd Twitter said =E2=80=9Cwe can update our transaction expenses file.=E2=80=
+=9D My assumption is that Twitter=C2=A0did=C2=A0send Musk a list of transac=
+tion expenses before closing, and Musk didn=E2=80=99t focus on it until aft=
+erwards, but I am not really sure.
+In any case, what I do know is that (1) Musk=C2=A0asked=C2=A0for the list o=
+f transaction expenses before closing and (2) he =E2=80=9Cmoved up the sche=
+duled closing of the Merger,=E2=80=9D so he must have either gotten what he=
+ asked for or decided he didn=E2=80=99t care. You could imagine Musk demand=
+ing a list of transaction expenses, not closing the deal until he got it, g=
+etting it, reviewing it, saying =E2=80=9Cthis Wachtell bill is too big,=E2=
+=80=9D and refusing to close the deal until it was renegotiated. Or you cou=
+ld imagine him settling the merger litigation by signing some sort of settl=
+ement agreement that covered, among other things, litigation expenses. But =
+he didn=E2=80=99t do that. He settled the merger litigation by saying =E2=
+=80=9Cnever mind, I=E2=80=99ll close the deal,=E2=80=9D not a negotiated se=
+ttlement but a pure capitulation. And then, once he did that, he closed the=
+ deal as quickly as possible. He did everything impetuously, and one result=
+ of that is that he paid a $90 million fee to the law firm that beat him. A=
+nd now he is complaining! Fine. But it is only his fault.
+Anyway now Musk owns Twitter, after paying $44 billion for it, and he is us=
+ing it to  talk about the size of his penis. These facts are also related.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Indexing
+   =20
+ =20
+
+The main function of a stock-market index is to provide a list of stocks fo=
+r index funds to invest in. There is a secondary function that is, like, =
+=E2=80=9Csummarize the market=E2=80=9D: The S&P 500 index, say, is a broad =
+reflection of the stock market, and it is useful for lots of people to be a=
+ble to look at the S&P and see that it went up that day and say =E2=80=9Cah=
+ the market is up.=E2=80=9D (Or the Nasdaq 100 index is a broad reflection =
+of big tech companies, and it is useful to say things like =E2=80=9Cthe S&P=
+ is down a bit but the Nasdaq is up,=E2=80=9D meaning that tech is outperfo=
+rming.) But this is just a nice side effect of the index; the actual job of=
+ the index =E2=80=94=C2=A0the thing that the people at S&P Dow Jones Indice=
+s are paid for =E2=80=94=C2=A0is to give index funds, the paying customers,=
+ a list of stocks to invest in.
+These functions do overlap: Index funds are popular because they provide a =
+way to invest in the broad stock market (or in some sector, etc.); an index=
+ that is like =E2=80=9Chere are all the stocks=E2=80=9D is good and will at=
+tract a lot of customers to index funds that use it, while an index that is=
+ like =E2=80=9Chere are 43 stocks that some guy picked because he liked the=
+ names=E2=80=9D is not and won=E2=80=99t. And so index providers want their=
+ broad-market indexes to reflect the broad market in some reasonable and ju=
+stifiable way, not to exclude companies too arbitrarily.
+But there are tensions. Sometimes =E2=80=9Creflect the broad market accurat=
+ely=E2=80=9D and =E2=80=9Cbe useful for index funds=E2=80=9D are competing =
+goals, and when they are, being useful for index funds generally wins. We h=
+ave talked a lot about the case of excluding dual-class stocks: A broad mar=
+ket index that excludes dual-class stocks does reflect the broad market a b=
+it less accurately, but a   bunch of index providers   did that when index =
+funds wanted it =E2=80=94=C2=A0and then   reversed it when the funds didn=
+=E2=80=99t want it anymore.
+Or here is a simpler one. The  Nasdaq 100 index is, roughly speaking, an in=
+dex of the 100 biggest companies listed on Nasdaq Inc.=E2=80=99s exchange. =
+It is a shorthand for =E2=80=9Cbig tech,=E2=80=9D because historically big =
+tech companies mostly listed on Nasdaq; its top weightings, this morning, i=
+nclude Microsoft Corp. (12.6%), Apple Inc. (12.3%), Alphabet Inc. (7.2%, in=
+ two classes), Nvidia Corp. (7%), Amazon.com (6.8%), Tesla Inc. (4.4%) and=
+=C2=A0Meta Platforms Inc. (4.4%). If you just want to know how big tech is =
+doing, the Nasdaq 100 provides a reasonable summary, and the way big tech i=
+s doing these days is roughly =E2=80=9Cdominated by the biggest tech compan=
+ies.=E2=80=9D As summary, that is useful to know.=C2=A0
+But as an investable list of companies for index funds it has a technical p=
+roblem. The technical problem is that index funds are mutual funds, and the=
+re are  Securities and Exchange Commission and  Internal Revenue Service ru=
+les that  encourage mutual funds to be =E2=80=9Cdiversified,=E2=80=9D and =
+=E2=80=9Cdiversified=E2=80=9D in those rules means something like =E2=80=9C=
+not having too much of their money in their biggest holdings.=E2=80=9D Roug=
+hly speaking, a diversified mutual fund has to have at least 50% of its mon=
+ey in holdings that are each smaller than 5% of its portfolio. If you just =
+invested in the Nasdaq 100 index, your top five holdings would each represe=
+nt more than 5% of your portfolio, and they would add to about 45.9% of you=
+r portfolio. Which is uncomfortably close to 50%. If the top five stocks go=
+t a little bigger relative to the rest of the index, or if Tesla and Meta g=
+ot a little bigger and crossed the 5% threshold, then you=E2=80=99d go over=
+ 50% in concentrated holdings=C2=A0and no longer be diversified under the r=
+ules, and that would be bad.
+The solution is for   the=C2=A0index=C2=A0to change to make it more conveni=
+ent for index funds:
+
+America=E2=80=99s biggest tech companies have become too large even for the=
+ stock index tracking America=E2=80=99s biggest tech companies.=C2=A0
+Now the benchmark=E2=80=99s overseer is taking action to pare back their in=
+fluence.
+The seemingly unstoppable growth of megacaps like Apple Inc. and Microsoft =
+Corp. mean they have breached an upper limit imposed on stocks in the Nasda=
+q 100. As a result, Nasdaq Inc. has announced a =E2=80=9Cspecial rebalance=
+=E2=80=9D =E2=80=94 =C2=A0the first ever of its kind =E2=80=94 will be carr=
+ied out to redistribute the weight of the index=E2=80=99s members. =E2=80=
+=A6
+While details on the action are sparse, a paper on the Nasdaq website says =
+special rebalancings can be called in certain circumstances when the portio=
+n represented by the index=E2=80=99s biggest members exceeds a preset thres=
+hold. In one scenario, the document says, weights can be pared back if the =
+combined influence of the largest companies =E2=80=94 those making up 4.5% =
+or more of the gauge =E2=80=94 adds up to more than 48%.
+Data compiled by Bloomberg show that was the case on July 3, when six compa=
+nies =E2=80=94 Microsoft, Apple, Alphabet Inc., Nvidia Corp., Amazon.com In=
+c., and Tesla Inc. =E2=80=94 saw their combined weight reach 50.9%. The Nas=
+daq methodology paper says a rebalancing may be enacted to reduce the group=
+=E2=80=99s influence to 40%.
+The rebalance is intended to help fund managers who are linked or benchmark=
+ed to the Nasdaq 100 to stay in compliance with a Securities and Exchange C=
+ommission diversification rule that limits the aggregate weight of the larg=
+est stock holdings, those with a 5% representation or greater, to 50%, acco=
+rding to Cameron Lilja, vice president and global head of index product and=
+ operations at Nasdaq.
+=E2=80=9CFrom our perspective, the motivation to reduce index concentration=
+ is purely from the regulatory angle,=E2=80=9D he said.=C2=A0
+
+You=C2=A0might want to reduce index concentration because you think those b=
+ig companies are overpriced, or because you want a broader measure of tech-=
+stock strength that is not so influenced by Apple and Microsoft. But=C2=A0N=
+asdaq wants to reduce index concentration because its customers have regula=
+tory limits on concentration, and the index is for them.
+
+ =20
+   =20
+      Fake accounts
+   =20
+ =20
+
+What percentage of big banks do you think have opened credit cards for cust=
+omers without those customers=E2=80=99 consent? Is the answer =E2=80=9Call =
+of them=E2=80=9D? That seems like a reasonable guess? If you are a big bank=
+, you probably want customers to open more credit cards, because credit car=
+ds are=C2=A0usually profitable for you. So you probably give your employees=
+ some incentive to sell credit cards: perhaps explicit incentive payments, =
+or =E2=80=9Cyou will be fired if you don=E2=80=99t sell 100 credit cards,=
+=E2=80=9D or perhaps subtler pressure in the form of praising people who se=
+ll lots of credit cards. And if you are a big bank you have thousands of em=
+ployees in this credit-card-selling business, and surely=C2=A0some=C2=A0of =
+them will think =E2=80=9Chey, if I just fill out the form for this confused=
+ customer to open a credit card, he=E2=80=99ll get a credit card and not ev=
+en notice; it won=E2=80=99t cost him anything or make the bank any money, b=
+ut I=E2=80=99ll get credit for selling another credit card.=E2=80=9D From t=
+he=C2=A0bank=E2=80=99s=C2=A0perspective,=C2=A0most=C2=A0of its credit cards=
+ will be opened by people who want them and use them, and are lucrative, bu=
+t=C2=A0some=C2=A0won=E2=80=99t be. And some of those will be what you=E2=80=
+=99d call =E2=80=9Cfake accounts.=E2=80=9D
+Wells Fargo & Co. did   rather a lot of this and got in huge trouble in 201=
+6, and also ever since; it was treated as a scandalous failing of Wells Far=
+go=E2=80=99s uniquely bad culture. And in degree, sure, maybe. But at a big=
+ enough bank I bet it=E2=80=99s hard to get to=C2=A0zero=C2=A0fake accounts=
+.  Here=E2=80=99s this:
+From at least 2012, in order to reach now disbanded sales-based incentive g=
+oals and evaluation criteria, Bank of America employees illegally applied f=
+or and enrolled consumers in credit card accounts without consumers=E2=80=
+=99 knowledge or authorization. In those cases, Bank of America illegally u=
+sed or obtained consumers=E2=80=99 credit reports, without their permission=
+, to complete applications. Because of Bank of America=E2=80=99s actions, c=
+onsumers were charged unjustified fees, suffered negative effects to their =
+credit profiles, and had to spend time correcting errors.
+Yeah it can=E2=80=99t just be Wells Fargo. That is from a broader  set of e=
+nforcement actions by the US Consumer Financial Protection Bureau and the O=
+ffice of the Comptroller of the Currency fining Bank of America Corp. $150 =
+million (and making it pay back $100=C2=A0million to customers) for a varie=
+ty of consumer-financial badness, mainly this:
+Bank of America had a policy of charging customers $35 after the bank decli=
+ned a transaction because the customer did not have enough funds in their a=
+ccount. The CFPB=E2=80=99s investigation found that Bank of America double-=
+dipped by allowing fees to be repeatedly charged for the same transaction. =
+Over a period of multiple years, Bank of America generated substantial addi=
+tional revenue by illegally charging multiple $35 fees.
+Basically if you are a merchant and you get a check that bounces, you can g=
+o back to the issuing bank the next day and say =E2=80=9Cwell is there enou=
+gh money now?=E2=80=9D If there is, you get paid. If there isn=E2=80=99t, t=
+he bank charges an extra non-sufficient fund fee, which seems harsh. =E2=80=
+=9CBank of America would assess these repeat non-sufficient fund fees poten=
+tially as soon as the next day after the initial transaction,=E2=80=9D says=
+ the CFPB. =E2=80=9CFrom September 2018 until February 2022, Bank of Americ=
+a generated hundreds of millions of dollars in such fees.=E2=80=9D
+
+ =20
+   =20
+      Emoji contract
+   =20
+ =20
+
+I mean  sure, of course, thumbs up:
+
+Be careful before you casually dash off another thumbs-up emoji: A Canadian=
+ court has found that the ubiquitous symbol can affirm that a person is off=
+icially entering into a contract.
+The ruling pointed to what a judge called the =E2=80=9Cnew reality in Canad=
+ian society=E2=80=9D that courts would have to confront as more people expr=
+ess themselves with hearts, smiley faces and fire emojis =E2=80=94 even in =
+serious business dealings or personal disputes.
+The case questioned whether a farmer in Saskatchewan had agreed to sell 87 =
+metric tons of flax to a grain buyer in 2021. The buyer had signed the cont=
+ract and texted a photo of it to the farmer, who had responded by texting b=
+ack a =E2=80=9Cthumbs-up=E2=80=9D emoji. =E2=80=A6
+The judge noted that Mr. Achter and Mr. Mickleborough had had a longstandin=
+g business relationship and that, in the past, when Mr. Mr. Mickleborough h=
+ad texted Mr. Achter contracts for durum wheat, Mr. Achter had responded by=
+ succinctly texting =E2=80=9Clooks good,=E2=80=9D =E2=80=9Cok=E2=80=9D or =
+=E2=80=9Cyup.=E2=80=9D
+Both parties clearly understood these terse responses were meant to be conf=
+irmation of the contract and =E2=80=9Cnot a mere acknowledgment of the rece=
+ipt of the contract=E2=80=9D by Mr. Achter, wrote Justice T.J. Keene of the=
+ Court of King=E2=80=99s Bench for Saskatchewan. And each time, Mr. Achter =
+had delivered the grain as contracted and had been paid.
+
+Is that even interesting? A lot of trading in financial markets is done by =
+chat messages, and it is pretty clear that if you type =E2=80=9Cdone=E2=80=
+=9D in a chat message that can create a binding contract. The difference be=
+tween =E2=80=9Cdone=E2=80=9D and the thumbs-up emoji is not that great, and=
+ I suspect it=E2=80=99s mostly generational; the emoji seems like a perfect=
+ly reasonable way to say =E2=80=9Cyes I agree to these terms for our trade.=
+=E2=80=9D=C2=A0In a few years the eggplant emoji will be the normal way to =
+bind banks to nine-digit swaps trades.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Powell Haunted by Repo Crisis as Fed Aims to   Cut Balance Sheet.=C2=A0Pois=
+oned Cough Syrup Killed Kids;=C2=A0Authorities Cut the Investigation Short.=
+=C2=A0 Short Seller   Andrew Left Is Living in Fear of the Feds. CLO Market=
+ Set for $20 Billion   Reset Spree in Sign of Thawing. Silicon Valley Bank=
+=E2=80=99s Former Parent Sues FDIC Over $2 Billion in Deposits.=C2=A0Big Ba=
+nks Face Higher   Capital Requirements From US Regulators. Revolut=E2=80=99=
+s US payment flaws allowed thieves to steal $20mn. Winklevoss Twins=E2=80=
+=99 Gemini  Sues Crypto Conglomerate DCG, Citing Fraud.=C2=A0Bain Gets Cour=
+tesy Call From Top Shanghai Party Official. PGA Tour Will Tout   Minimal Sa=
+udi Influence in Golf Merger at Congressional Hearing. The chef and the  sa=
+ndwich shop owner at the heart of Trafigura=E2=80=99s fraud case.=C2=A0Marg=
+aritaville Resort Times Square Faces Wastin=E2=80=99 Away in Bankruptcy.=C2=
+=A0Sex, Drugs and Spreadsheets: Dr. Glazer Treats Wall Street=E2=80=99s  Ad=
+diction Surge.=C2=A0Vivek Ramaswamy rolls out fundraising program allowing =
+supporters to earn 10% cut of money they raise.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] If the buyer is also a public company, the deal might be for stock, o=
+r a mix of stock or cash; if the buyer is a private equity firm, or just a =
+guy, it will be all cash. A stock deal complicates this analysis a bit: If =
+you are doing an all-stock merger of equals, any cash paid to your lawyers =
+really does come out of your shareholders=E2=80=99 pockets in a fairly tang=
+ible way, since they are shareholders of the surviving company.=20
+
+
+  [2] The buyer can=E2=80=99t just make those decisions =E2=80=94 it can=E2=
+=80=99t just install its own executives and run the target company itself =
+=E2=80=94 in part because it hasn=E2=80=99t paid yet and the deal might not=
+ close, but also in part because it might violate antitrust laws for the bu=
+yer to run the target before they get antitrust merger clearance.
+
+
+  [3] Again, deals with stock components may have a somewhat floating price=
+, though the price is fixed in some terms =E2=80=94 =E2=80=9C$X plus Y shar=
+es,=E2=80=9D or =E2=80=9C$X in cash plus $Y in stock,=E2=80=9D etc. =E2=80=
+=94 so there can be an informed vote. Also there are ways to have some sort=
+ of adjustment mechanism =E2=80=94 mainly =E2=80=9Ccontingent value rights,=
+=E2=80=9D where the target shareholders get their regular payment plus some=
+ extra thing that is worth more or less depending on the target=E2=80=99s b=
+usiness results, etc. =E2=80=94 but they are not that common and don=E2=80=
+=99t tend to focus on things like cash at closing.
+
+
+  [4] Not always, and the right way to charge for, say, fending off a hosti=
+le takeover is not obvious. In general the dynamics here =E2=80=94 if there=
+ is a takeover, it=E2=80=99s the buyer=E2=80=99s money; if there isn=E2=80=
+=99t, it=E2=80=99s the target=E2=80=99s money =E2=80=94 tend to favor   pay=
+ing advisers more for *failing* to fend off a hostile takeover than for suc=
+ceeding.
+
+
+  [5] He was a big shareholder at the time, so they owed him the fiduciary =
+duties they owed other shareholders, but you know what I mean.
+
+
+  [6] Exhibit 15, page 150 of  the complaint.
+
+
+  [7] Exhibit 7, page 132 of  the complaint.
+
+
+  [8] There might be two law firms =E2=80=94 there were something like six =
+on this deal, though that=E2=80=99s complicated =E2=80=94 but note that *Wa=
+chtell=E2=80=99s* fee is 60% to 80% of the banking fee, not the *total* law=
+-firm fees.
+
+
+  [9] It=E2=80=99s attached as an exhibit to  the complaint, at page 152 of=
+ 158. =E2=80=9CWe write on behalf of Elon Musk to ask Twitter, Inc. =E2=80=
+=A6 to immediately discontinue all outbound payments,=E2=80=9D it begins, =
+=E2=80=9Cin order to assist Mr. Musk=E2=80=99s funds flow preparations.=E2=
+=80=9D Just a request. Then it goes on: =E2=80=9CMr. Musk would also like t=
+o provide advance instructions to the Company regarding outbound payments a=
+nd disbursements to third parties following completion of the merger. =E2=
+=80=A6 The Company and its employees should not make any payments or other =
+disbursements to any third party without the prior consent of Mr. Musk.=E2=
+=80=9D Before closing, it=E2=80=99s an =E2=80=9Cask=E2=80=9D; after closing=
+ it=E2=80=99s an =E2=80=9Cinstruction.=E2=80=9D
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj2xn4.5im9/531dff23.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_10922389_264542123.1689097018600
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Disclosure! A long time ago I used to work as a very junior mergers-and-acq=
+uisitions lawyer at Wachtell, Lipton, Rosen &amp; Katz. The hours wer
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32049616.257409/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNzExMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MTEmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB3caab61e"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32049616.257409/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMjA0OTYxNiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIzMDcwMjUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBaf6ceae3" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D32049616&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32307025&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oh Elon</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Disclosure! A=C2=A0long time ago I used to wor=
+k as a very junior mergers-and-acquisitions lawyer at=C2=A0Wachtell, Lipton=
+, Rosen &amp; Katz. The hours were way too long, but I remain fond of the f=
+irm and the people there.=C2=A0Meanwhile I have no real personal connection=
+ to Elon Musk except that (1) he keeps doing weird stuff financial stuff fo=
+r me to write about, which I love=C2=A0and (2) he keeps doing it <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/32049616.257409/aHR0cHM6Ly93=
+d3cudGhldmVyZ2UuY29tLzIwMjIvMTAvMjgvMjM0MjcxMzcvZWxvbi1tdXNrLXR3aXR0ZXItbWF=
+0dC1sZXZpbmUtbW9uZXktc3R1ZmY/607f07ceef4b8524a319a23cB96d875ce" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;">whi=
+le I am on vacation</a>, which I do not love. And so I went away on Friday =
+and Musk <a href=3D"https://link.mail.bloombergbusiness.com/click/32049616.=
+257409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMDcv=
+bXVzay1zLXgtY29ycC1zdWVzLWxhdy1maXJtLW92ZXItZmVlcy1pbi10d2l0dGVyLXRha2VvdmV=
+yLWZpZ2h0P2NtcGlkPUJCRDA3MTEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3=
+NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZ=
+g/607f07ceef4b8524a319a23cB229cf32d" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">  did a thing</a>.=C2=A0He sue=
+d Wachtell, which represented Twitter Inc. when Musk <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/32049616.257409/aHR0cHM6Ly93d3cuYmxvb21i=
+ZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDctMTgvZWxvbi13YW50cy10by1maWdodC1=
+0aGUtYm90cz9jbXBpZD1CQkQwNzExMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV=
+9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1Z=
+mY/607f07ceef4b8524a319a23cBd30149c2" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">
+tried to get out of his deal</a> to buy Twitter, claiming that Wachtell=E2=
+=80=99s fee for that litigation =E2=80=94=C2=A0$90 million =E2=80=94=C2=A0w=
+as too big. I just want to be clear up front about my biases.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Wachtell is a fairly small law firm that makes=
+ a specialty of sell-side public-company M&amp;A work.=C2=A0<a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/32049616.257409/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMDcvbXVzay1zLXgtY29ycC1zdWVz=
+LWxhdy1maXJtLW92ZXItZmVlcy1pbi10d2l0dGVyLXRha2VvdmVyLWZpZ2h0P2NtcGlkPUJCRDA=
+3MTEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJn=
+V0bV90ZXJtPTIzMDcxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a2=
+3cC229cf32d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">It=C2=A0is</a> =E2=80=9Camong the most profitable firm=
+s in the US.=E2=80=9D=C2=A0Those facts are related. Sell-side public-compan=
+y=C2=A0M&amp;A work is a pretty lucrative legal specialty.</p>
+<p style=3D"margin: 16px 0;">Partly this is for the usual obvious reasons: =
+It is high-stakes, complicated, high-pressure, high-dollar stuff. But there=
+ is another reason that is perhaps less obvious, which is that=C2=A0<em>you=
+r clients don=E2=80=99t pay your bills</em>. Here is how a public-company m=
+erger works:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">A company decides to sell itself and =
+hires lawyers.</li>=09<li style=3D"margin-bottom: 5px;">The buyer does a lo=
+t of due diligence, looking into things like the company=E2=80=99s audited =
+financial statements, to figure out how much the target company is worth.</=
+li>=09<li style=3D"margin-bottom: 5px;">A buyer signs an agreement to buy i=
+t for some fixed price, say $54.20 per share, in cash, to all of the target=
+=E2=80=99s shareholders.<a class=3D"footnote-index" href=3D"#footnote-1" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: none !important;=
+ background-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">After the agreement is signed, th=
+ere is <a href=3D"https://link.mail.bloombergbusiness.com/click/32049616.25=
+7409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDktMD=
+cvZG9lcy1lbG9uLW11c2sta25vdy1ob3ctbWVyZ2Vycy13b3JrP2NtcGlkPUJCRDA3MTEyM19NT=
+05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJt=
+PTIzMDcxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB8ddb25c=
+5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  a delay of several=C2=A0months</a> before it closes, during =
+which the companies get regulatory approvals to merge, the target=E2=80=99s=
+ shareholders vote on the deal, the buyer lines up financing, etc.</li>=09<=
+li style=3D"margin-bottom: 5px;">During that delay, the target continues op=
+erating as an independent company, making its own business decisions with l=
+imited coordination with the buyer.</li>=09<li style=3D"margin-bottom: 5px;=
+">The agreement <a href=3D"https://link.mail.bloombergbusiness.com/click/32=
+049616.257409/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwO=
+TEvMDAwMTE5MzEyNTIyMTUyMjUwL2QyODMxMTlkcHJlbTE0YS5odG0jYW54YXRvYzI4MzExOV81=
+Ng/607f07ceef4b8524a319a23cB75f1c91a" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> contains a covenant</a> sayi=
+ng that the target will operate =E2=80=9Cin the ordinary course of business=
+=E2=80=9D and won=E2=80=99t make any drastic changes, pay out any huge bonu=
+ses, etc., so that, when the deal closes, the buyer gets more or less the s=
+ame company that it thought it was buying. But with a big public company, t=
+his covenant can=E2=80=99t be all that fine-grained; the company just has t=
+o be able to continue making business decisions. For one thing, its own exp=
+ert executives need=C2=A0to make lots of decisions to preserve the target=
+=E2=80=99s value for the buyer when the deal eventually closes.<a class=3D"=
+footnote-index" href=3D"#footnote-2" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: none !important; background-color: transparent !impo=
+rtant; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0Also=C2=A0though the deal might=C2=A0<em>not=C2=A0</em>close: Wha=
+t if the shareholders vote no, or the buyer doesn=E2=80=99t get its financi=
+ng? Then the company will need to be ready to stay independent. The executi=
+ves need to keep running the company on behalf of its shareholders until th=
+e moment the check clears and the merger closes.</li>=09<li style=3D"margin=
+-bottom: 5px;">Eventually the deal closes, the buyer pays the cash, it beco=
+mes the owner of the target, and it can do whatever it wants. It can fire t=
+he executives, make the business decisions, etc.</li>=09<li style=3D"margin=
+-bottom: 5px;">At closing, the buyer pays the amount of cash that it agreed=
+ to pay in the merger agreement. If it agreed to pay $54.20 at signing, it =
+pays $54.20 at closing, even if circumstances have changed over the interve=
+ning months. If the market fell, or the target company had a bad quarter, o=
+r if its expenses got a bit out of hand, the buyer still pays the same amou=
+nt.=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">You could imagine a diff=
+erent system: The buyer could get a price adjustment for changes in cash; i=
+t could agree to pay, like, =E2=80=9C$10 billion, but if the target has les=
+s than $500 million of cash at closing, we will reduce the price by the dif=
+ference.=E2=80=9D And this is not uncommon in private-company M&amp;A: If t=
+he seller of the target is a private equity firm, it can agree to a price a=
+djustment. It is harder in public deals, though, mostly because the target =
+company=E2=80=99s public shareholders have to vote on the deal, and you nee=
+d to tell them the price so they can have an informed vote. And so public d=
+eals don=E2=80=99t really have price adjustments for things like how much c=
+ash is left in the target at closing.<a class=3D"footnote-index" href=3D"#f=
+ootnote-3" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: non=
+e !important; background-color: transparent !important; display: inline-blo=
+ck;">
+<span>[3]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">Instead, they just have that =E2=
+=80=9Cordinary course=E2=80=9D covenant: If the target spends=C2=A0<em>much=
+ too much=C2=A0</em>money between signing and closing, the buyer can=C2=A0<=
+em>walk away</em>, say =E2=80=9Cyou didn=E2=80=99t operate in the ordinary =
+course like you promised, so I don=E2=80=99t have to close.=E2=80=9D Or it =
+can=C2=A0<em>threaten=C2=A0</em>to walk away, and use that to renegotiate t=
+he price.=C2=A0(There are other covenants and representations that have to =
+be true at closing. A big one is the =E2=80=9Cmaterial adverse effect=E2=80=
+=9D representation; if the company spends so much money that it causes a ma=
+terial adverse effect on its business, the buyer can walk away. But that=E2=
+=80=99s hard to do.)=C2=A0But if the target spends=C2=A0<em>somewhat too mu=
+ch=C2=A0</em>money between signing and closing, there is not a lot the buye=
+r can do about it: It probably can=E2=80=99t walk away from the deal unless=
+ the spending is too egregious and out-of-the-ordinary-course, and it can=
+=E2=80=99t just cut the price to make up for the target=E2=80=99s extra spe=
+nding.</li>=09<li style=3D"margin-bottom: 5px;">The result is that every do=
+llar that the target company spends between signing and closing is=C2=A0<em=
+>free</em>, to the target=E2=80=99s shareholders.=C2=A0They get their $54.2=
+0 per share no matter what; the cash left in the company=E2=80=99s treasury=
+ is no longer their concern. Every dollar that the target spends is=C2=A0<e=
+m>the buyer=E2=80=99s problem</em>.</li>=09<li style=3D"margin-bottom: 5px;=
+">Or rather, that=E2=80=99s true as long as the merger closes. You can=E2=
+=80=99t spend=C2=A0<em>too=C2=A0</em>drunkenly, if you=E2=80=99re the targe=
+t, because the merger might not close =E2=80=94=C2=A0either because your dr=
+unken spending might violate the ordinary-course covenant and give the buye=
+r a reason to walk away, or for unrelated reasons (antitrust, financing, et=
+c.).</li>=09<li style=3D"margin-bottom: 5px;">If you are the target company=
+=E2=80=99s law firm, and you have successfully negotiated a merger agreemen=
+t that the target is happy with, you can send them a bill for, I don=E2=80=
+=99t know, $90 million, and they=E2=80=99ll be like =E2=80=9Csure whatever =
+looks great, it=E2=80=99s not our money!=E2=80=9D=C2=A0</li>=09<li style=3D=
+"margin-bottom: 5px;">They=E2=80=99re not gonna pay that bill right at sign=
+ing, because if the deal doesn=E2=80=99t close they will want the money bac=
+k. But they=E2=80=99ll happily pay it just before the closing, when it is n=
+o longer their money.</li>
+</ol>
+<p style=3D"margin: 16px 0;">There are some constraints on the fees. There =
+is that =E2=80=9Cordinary course=E2=80=9D covenant, saying that the target =
+company can=E2=80=99t do anything too egregious between signing and closing=
+. There may be some more specific disclosure of the target=E2=80=99s fee ar=
+rangements =E2=80=94=C2=A0there normally=C2=A0<em>is </em>specific disclosu=
+re of its=C2=A0<em>bankers=E2=80=99=C2=A0</em>fee arrangements =E2=80=94=C2=
+=A0at signing, so if the target tells the buyer at signing =E2=80=9Cwe have=
+ agreed to pay our lawyers $10 million=E2=80=9D and then pays them $90 mill=
+ion there might be a breach of the covenant. (Though, again, the remedy for=
+ that breach is probably=C2=A0<em>refusing to close the deal</em>, not gett=
+ing the money back.) And of course there is generally the fact that the tar=
+get company=E2=80=99s executives would like to remain employed by the buyer=
+, so they don=E2=80=99t want to spend the buyer=E2=80=99s money=C2=A0<em>to=
+o=C2=A0</em>aggressively. (Unless they are pretty sure that they <em>won=E2=
+=80=99t </em>remain employed, in which case, who cares!) But these are pret=
+ty soft constraints.</p>
+<p style=3D"margin: 16px 0;">And so if you are the target=E2=80=99s lawyers=
+ in a public M&amp;A deal you can kind of send them a bill for whatever amo=
+unt you like, and they will be like =E2=80=9Chahaha great here you go, enjo=
+y it,=E2=80=9D and you will be like =E2=80=9Cwe sure will,=E2=80=9D and it=
+=E2=80=99s all the buyer=E2=80=99s money and who cares.</p>
+<p style=3D"margin: 16px 0;">If the deal=C2=A0<em>doesn=E2=80=99t=C2=A0</em=
+>close, though, you are not going to get paid that much, because in that ca=
+se the money really does belong to the target=E2=80=99s shareholders, and t=
+hey=E2=80=99ll need it. But your job, as the target=E2=80=99s lawyer, is to=
+ make sure the deal closes!<a class=3D"footnote-index" href=3D"#footnote-4"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: none !importa=
+nt; background-color: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a>=C2=A0The incentives are aligned.</p>
+<p style=3D"margin: 16px 0;">Wachtell was not actually Twitter=E2=80=99s M&=
+amp;A law firm; it did not negotiate its deal to sell itself to Elon Musk f=
+or $54.20 per share. But when Musk decided to back out of the deal, Wachtel=
+l came in as Twitter=E2=80=99s lawyers to=C2=A0<em>sue=C2=A0</em>Musk into =
+closing the deal. In this, Wachtell was entirely successful: Twitter <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/32049616.257409/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDctMTMvdHdpdHRlci1=
+zdGlsbC13YW50cy1tdXNrLXMtbW9uZXk_Y21waWQ9QkJEMDcxMTIzX01PTkVZU1RVRkYmdXRtX2=
+1lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzExJnV0bV9jY=
+W1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB6c7bdfc2" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">  sued M=
+usk</a> a year ago tomorrow, there was some fighting in court, and in Octob=
+er Musk <a href=3D"https://link.mail.bloombergbusiness.com/click/32049616.2=
+57409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTAtM=
+jYvbXVzay13aWxsLWJ1eS10d2l0dGVyLWF0LXRoZS1sYXN0LW1pbnV0ZT9jbXBpZD1CQkQwNzEx=
+MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1=
+fdGVybT0yMzA3MTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB5=
+55d25f6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">  dropped his opposition</a> and closed the deal on its or=
+iginal terms. For this success, Twitter paid Wachtell a $90 million success=
+ fee. =E2=80=9CThe $90 million fee collected from Twitter for a few months =
+of work on a single matter represented nearly 10% of Wachtell=E2=80=99s gro=
+ss revenue in 2022, and over $1 million per Wachtell partner,=E2=80=9D <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/32049616.257409/aHR0cH=
+M6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JoTElUejQwS=
+mdsZy92MA/607f07ceef4b8524a319a23cBf5a7fb23" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> notes Musk=E2=80=99s =
+complaint</a>.</p>
+<p style=3D"margin: 16px 0;">Musk complains that this fee was too big. It w=
+as big! But it was agreed to by Twitter=E2=80=99s legal department and boar=
+d of directors, who ran the company and got to decide how much to pay the l=
+awyers. Musk complains that Twitter=E2=80=99s legal department and board of=
+ directors were =E2=80=9Clame duck fiduciaries who had lost their motivatio=
+n to act in Twitter=E2=80=99s best interest=E2=80=9D because they were abou=
+t to sell it to Musk:</p>
+<blockquote><p style=3D"margin: 16px 0;">Fully aware that nobody with an ec=
+onomic interest in Twitter=E2=80=99s financial well-being was minding the s=
+tore, Wachtell arranged to effectively line its pockets with funds from the=
+ company cash register while the keys were being handed over to the Musk Pa=
+rties.</p></blockquote>
+<p style=3D"margin: 16px 0;">But this is wrong. Up to the moment before clo=
+sing, Twitter=E2=80=99s managers and board of directors were fiduciaries fo=
+r=C2=A0<em>their existing shareholders</em>, and their fiduciary duty was, =
+essentially,=C2=A0<em>to make sure that Musk bought Twitter</em>. They did =
+their fiduciary duty, which involved=C2=A0<em>suing Musk to get him to clos=
+e the deal</em>. The moment before closing, they could not have been fiduci=
+aries for Musk,<a class=3D"footnote-index" href=3D"#footnote-5" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: none !important; backgrou=
+nd-color: transparent !important; display: inline-block;">
+<span>[5]</span>
+</a> who was trying to hose the shareholders by getting out of the deal he =
+had agreed to.</p>
+<p style=3D"margin: 16px 0;">Everyone at Twitter who negotiated this fee ag=
+reement will say that they were happy with Wachtell=E2=80=99s work and even=
+ happier that Musk is mad about it. But also every Twitter=C2=A0<em>shareho=
+lder=C2=A0</em>who got Musk=E2=80=99s $54.20 is happy with Wachtell=E2=80=
+=99s work! The person unhappy with their work is the guy whom they beat in =
+court. Of course he=E2=80=99s unhappy! Because they did good work! If Elon =
+Musk were happy with Wachtell=E2=80=99s work then their work would have bee=
+n very bad.</p>
+<p style=3D"margin: 16px 0;">Musk complains that the fee violated <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/32049616.257409/aHR0cHM6L=
+y93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzE0MTgwOTEvMDAwMTE5MzEyNTIyMTUy=
+MjUwL2QyODMxMTlkcHJlbTE0YS5odG0jYW54YXRvYzI4MzExOV81Ng/607f07ceef4b8524a319=
+a23cC75f1c91a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> the =E2=80=9Cordinary course=E2=80=9D covenant</a>:=
+</p>
+<blockquote><p style=3D"margin: 16px 0;">Wachtell and Twitter=E2=80=99s dir=
+ectors and officers also knew that the Merger Agreement contained a provisi=
+on that, in the words of an expert retained by Wachtell in=C2=A0connection =
+with the merger litigation, was drafted to prohibit Twitter executives from=
+ agreeing to certain expenses prior to closing =E2=80=9Coutside the ordinar=
+y course of business in a manner that might ultimately harm the acquiror.=
+=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">Now, this can=E2=80=99t be right. The argument=
+ here is that if Musk frivolously tried to get out of the merger agreement,=
+ and Twitter hired good lawyers to sue him to force him to close, then=C2=
+=A0<em>that=C2=A0</em>would give Musk a way out of the merger agreement, be=
+cause hiring expensive lawyers is not in =E2=80=9Cthe ordinary course of bu=
+siness.=E2=80=9D But even if it were right, then all it means is that Musk =
+could have gotten out of the deal because Twitter overpaid its lawyers. But=
+ he didn=E2=80=99t get out of the deal, it=E2=80=99s too late now, and ther=
+e is no provision for him to demand the money back.</p>
+<p style=3D"margin: 16px 0;">Musk complains that the fee was too big becaus=
+e the case was simple:</p>
+<blockquote><p style=3D"margin: 16px 0;">Wachtell was one of six large law =
+firms that represented Twitter in connection with the merger litigation, a =
+relatively straightforward breach of contract dispute in which Twitter soug=
+ht to hold the Musk Parties to the Merger Agreement and to close the transa=
+ction. While there were important factual disputes, there were not novel or=
+ difficult questions of law involved, nor did the litigation require any sp=
+ecial skills beyond that which Twitter could have procured by paying hourly=
+ rates to many other reputable law firms with experience litigating in the =
+Delaware Chancery Court, including those hired to work alongside Wachtell.<=
+/p></blockquote>
+<p style=3D"margin: 16px 0;">It was incredibly easy to beat Musk in court, =
+says Musk, in court. Elon Musk does not abide by his contracts, and so you =
+have to sue him to get him to keep his contracts, but when you sue him you =
+will win, says Elon Musk, in a court case in which he is trying to get out =
+of a contract.=C2=A0Musk, I should say, employed several high-powered and e=
+xpensive law firms to take the <em>losing </em>side of the merger dispute. =
+(Though maybe he didn=E2=80=99t pay their bills either?) It seems silly for=
+ him to fault Twitter for hiring expensive lawyers to beat him in a =E2=80=
+=9Crelatively straightforward=E2=80=9D dispute, when he was hiring expensiv=
+e lawyers to lose it.=C2=A0</p>
+<p style=3D"margin: 16px 0;">And the litigation was very=C2=A0<em>valuable<=
+/em>, to Twitter=E2=80=99s <em>actual shareholders</em>:=C2=A0Beating Musk =
+in court, as opposed to losing to him, was <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/32049616.257409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjItMDctMTEvdGhlLXByaWNlLW9mLW5vdC1idXlpbmctdHdpd=
+HRlcj9jbXBpZD1CQkQwNzExMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3Vy=
+Y2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607=
+f07ceef4b8524a319a23cBa874f7a2" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">  probably worth about $25 billion<=
+/a> to Twitter=E2=80=99s shareholders. Paying Wachtell 0.3% of the value re=
+covered as a success fee seems pretty reasonable. Especially since sharehol=
+ders didn=E2=80=99t pay it! The <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/32049616.257409/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy90d2l0d=
+GVyLXN1ZXMtd2FjaHRlbGwtb3Zlci1wYXltZW50LXRpZWQtdG8tZGVsYXdhcmUtc3VpdC1vbi1t=
+dXNrcy1hY3F1aXNpdGlvbi1lMDNjNmRiNQ/607f07ceef4b8524a319a23cB16852464" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> Wall Street Journal notes</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Bruce MacEwen, a legal consultant, said a $90 =
+million payment didn't seem like a lot given that the acquisition deal was =
+valued at $44 billion. "This does not strike me as out of line," said MacEw=
+en, president of consulting firm Adam Smith, Esq.</p>
+<p style=3D"margin: 16px 0;">If=C2=A0Wachtell=C2=A0was instrumental in gett=
+ing Twitter the $44 billion price after Musk tried to get out of the deal, =
+he said, that provided value. "Did old Twitter get its money's worth or wha=
+t?" he said.</p>
+<p style=3D"margin: 16px 0;">A $90 million payment isn't unusual for such a=
+ consequential case, said law-firm consultant Kent Zimmermann from Zeughaus=
+er Group. "I'd be surprised if=C2=A0Wachtell=C2=A0was faulted for the amoun=
+t they charged, considering the stakes and the outcome," he said.</p>
+<p style=3D"margin: 16px 0;">Wachtell=C2=A0is known to be a leading law fir=
+m for cases like the Twitter one, he added. "There's a limited supply of fi=
+rms like=C2=A0Wachtell=C2=A0and a lot of demand for them, which drives the =
+price up," he said.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Anyway though Musk=E2=80=99s complaint has lot=
+s of fun details about how Wachtell=E2=80=99s billing works. It=E2=80=99s a=
+ little casual:</p>
+<blockquote><p style=3D"margin: 16px 0;">Both the August 26 Hourly Invoice =
+and the September 28 Hourly Invoice were approved for payment despite flagr=
+antly improper billing practices. For example, six Wachtell timekeepers =E2=
+=80=A6 billed a combined $2,200,893.75 in those two invoices with completel=
+y blank time entry descriptions. One Wachtell associate billed approximatel=
+y $935,000 across the two invoices, with all of her time entry descriptions=
+ limited to either =E2=80=9Cstrategy=E2=80=9D or =E2=80=9Cfactual analysis=
+=E2=80=9D without further elaboration.</p></blockquote>
+<p style=3D"margin: 16px 0;">Though all of this is much more detailed than =
+the final bill, which is just =E2=80=9Cfor all legal services relating to t=
+he acquisition of Twitter by Elon Musk through the closing: $90,000,000.00.=
+=E2=80=9D<a class=3D"footnote-index" href=3D"#footnote-6" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: none !important; background-col=
+or: transparent !important; display: inline-block;">
+<span>[6]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">The final bill was based not on hours devoted =
+to strategy or otherwise, but on deal size: Wachtell sent Twitter a memo<a =
+class=3D"footnote-index" href=3D"#footnote-7" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: none !important; background-color: transpar=
+ent !important; display: inline-block;">
+<span>[7]</span>
+</a> justifying its $90 million fee, which says that =E2=80=9Cas we discuss=
+ed, in engagements relating to pending transactions as to which a premium f=
+ee is contemplated, our Firm often receives a fee in the range of 60 to 80 =
+percent of the fees paid to investment advisors.=E2=80=9D That=E2=80=99s pr=
+etty good! If you are the law firm getting paid 60% to 80% of the fees paid=
+ to the investment banks on a deal, you are doing=C2=A0<em>better=C2=A0</em=
+>than the banks:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Many big deals have multiple banks, so=
+ each bank is probably getting something like 50% or less of the total bank=
+ing fees. If the law firm is getting 60%, that=E2=80=99s more.<a class=3D"f=
+ootnote-index" href=3D"#footnote-8" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: none !important; background-color: transparent !impor=
+tant; display: inline-block;">
+<span>[8]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">Banks are largely in the business=
+ of=C2=A0<em>marketing=C2=A0</em>mergers, and a banker will spend a lot of =
+time doing unpaid work pitching deals to companies for every one deal she c=
+ompletes and gets paid for. Lawyers are much more likely to work on actual =
+deals and get paid for them.=C2=A0</li>
+</ul>
+<p style=3D"margin: 16px 0;">There is also this on the=C2=A0<em>timing=C2=
+=A0</em>of that payment:</p>
+<blockquote><p style=3D"margin: 16px 0;">Immediately following the Twitter =
+board=E2=80=99s rubber-stamp approval, [Twitter Chief Legal Officer Vijaya]=
+ Gadde signed Wachtell=E2=80=99s letter agreement. Then, to ensure that the=
+ eleventh-hour fee payment went through before the Musk Parties (Twitter=E2=
+=80=99s new owners) could learn about the massive gift included in that fee=
+, [Twitter General Counsel Sean] Edgett expedited the wire payment on the i=
+nvoice for the balance ($84,294,962.97) of the $90 million total fee that W=
+achtell had submitted to Twitter the day before. Twitter=E2=80=99s $84 mill=
+ion wire to Wachtell was posted only ten minutes before Gadde and=C2=A0Edge=
+tt were terminated upon the closing of the merger.=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;">Yes! Right! Ten minutes is the normal amount o=
+f time. If you pay Wachtell a $90 million success fee <em>30=C2=A0</em>minu=
+tes before closing, you haven=E2=80=99t had your success yet: What if somet=
+hing goes wrong in those 30 minutes, the deal doesn=E2=80=99t close, and Wa=
+chtell keeps the money? If you pay Wachtell a $90 million success fee 10 mi=
+nutes=C2=A0<em>after=C2=A0</em>closing, you might not pay: =E2=80=9CYou=E2=
+=80=9D 10 minutes before closing are the company who hired Wachtell as your=
+ trusted adviser to sell yourself; =E2=80=9Cyou=E2=80=9D 10 minutes after c=
+losing are the guy who=C2=A0<em>bought=C2=A0</em>the company after negotiat=
+ing <em>against</em> Wachtell. The right time to pay Wachtell=E2=80=99s gia=
+nt bill is minutes, perhaps seconds, before closing.</p>
+<p style=3D"margin: 16px 0;">Now, Musk=C2=A0<em>did=C2=A0</em>tell Twitter =
+not to do this. He complains that Twitter paid the fee even though he told =
+them not to:</p>
+<blockquote><p style=3D"margin: 16px 0;">The Musk Parties moved up the sche=
+duled closing of the Merger Transaction by one day to October 27, 2022. At =
+5:11 a.m.=C2=A0(8:11 a.m. Eastern) on the morning of October 27, counsel fo=
+r the Musk Parties sent a directive on behalf of their client instructing T=
+witter, Inc. =E2=80=9Cto immediately discontinue all outbound payments and =
+other disbursements to third parties in order to assist Mr. Musk=E2=80=99s =
+funds flow preparations for the completion of the pending merger.=E2=80=9D =
+See Exhibit 16 (the =E2=80=9CClosing Day Directive=E2=80=9D). The Closing D=
+ay Directive also provided advance instructions =E2=80=9Cin anticipation of=
+ the imminent completion of the merger=E2=80=9D with respect to =E2=80=9Cou=
+tbound payments and disbursements to third parties following completion of =
+the merger,=E2=80=9D explicitly including =E2=80=9Coutside advisors, includ=
+ing, without limitation, financial advisors, legal advisors, accounting adv=
+isors, litigation experts, and all other external advisors.=E2=80=9D The Cl=
+osing Day Directive was an unequivocal statement on behalf of Twitter=E2=80=
+=99s residual claimants of the corporation=E2=80=99s preference to pause ou=
+tbound payments pending that day=E2=80=99s closing so that the company=E2=
+=80=99s new owner could have =E2=80=9Ca reasonable opportunity to review su=
+ch payments.=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">Well! He sent Twitter a letter<a class=3D"foot=
+note-index" href=3D"#footnote-9" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: none !important; background-color: transparent !importan=
+t; display: inline-block;">
+<span>[9]</span>
+</a>:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">
+<em>Asking=C2=A0</em>Twitter not to pay any bills before closing, and</li>=
+=09<li style=3D"margin-bottom: 5px;">
+<em>Instructing=C2=A0</em>Twitter not to pay any bills after closing.</li>
+</ul>
+<p style=3D"margin: 16px 0;">One second after closing, Musk owned Twitter, =
+and could tell Twitter not to pay any bills. (And he did, and he has gotten=
+ sued for it.) But one second before closing, Musk did=C2=A0<em>not=C2=A0</=
+em>own Twitter, and Twitter could pay all the bills it wanted to. He asked =
+it not to, and it did anyway, and that was fine. =E2=80=9CTwitter executive=
+s ignored the first half of the Closing Day Directive and instead accelerat=
+ed Twitter=E2=80=99s outbound payments to third parties,=E2=80=9D complains=
+ Musk.</p>
+<p style=3D"margin: 16px 0;">By the way, it is not totally clear to me whet=
+her Musk knew the size of Wachtell=E2=80=99s bill before closing. The compl=
+aint says this:</p>
+<blockquote><p style=3D"margin: 16px 0;">Around this time, the Musk Parties=
+ requested details from Twitter regarding its expected transaction expenses=
+, including legal fees. On October 11, 2022, Twitter emailed Wachtell to re=
+quest an estimate of Wachtell=E2=80=99s October fees =E2=80=9Cassuming a cl=
+osing date of 10/28/22.=E2=80=9D Wachtell does not appear to have ever sent=
+ that estimate or any details regarding its hourly billing or expenses=E2=
+=80=94let alone an invoice or its hourly fees and expenses=E2=80=94in conne=
+ction with its work on the merger litigation after August 31, 2022.=C2=A0</=
+p></blockquote>
+<p style=3D"margin: 16px 0;">But it also says that on Oct. 14, =E2=80=9CTwi=
+tter circulated a draft chart of transaction expenses to its counsel and li=
+sted $95 million for Wachtell=E2=80=99s fees,=E2=80=9D and that on Oct. 24,=
+ they agreed on $90 million and Twitter said =E2=80=9Cwe can update our tra=
+nsaction expenses file.=E2=80=9D My assumption is that Twitter=C2=A0<em>did=
+=C2=A0</em>send Musk a list of transaction expenses before closing, and Mus=
+k didn=E2=80=99t focus on it until afterwards, but I am not really sure.</p=
+>
+<p style=3D"margin: 16px 0;">In any case, what I do know is that (1) Musk=
+=C2=A0<em>asked=C2=A0</em>for the list of transaction expenses before closi=
+ng and (2) he =E2=80=9Cmoved up the scheduled closing of the Merger,=E2=80=
+=9D so he must have either gotten what he asked for or decided he didn=E2=
+=80=99t care. You could imagine Musk demanding a list of transaction expens=
+es, not closing the deal until he got it, getting it, reviewing it, saying =
+=E2=80=9Cthis Wachtell bill is too big,=E2=80=9D and refusing to close the =
+deal until it was renegotiated. Or you could imagine him settling the merge=
+r litigation by signing some sort of settlement agreement that covered, amo=
+ng other things, litigation expenses. But he didn=E2=80=99t do that. He set=
+tled the merger litigation by saying =E2=80=9Cnever mind, I=E2=80=99ll clos=
+e the deal,=E2=80=9D not a negotiated settlement but a pure capitulation. A=
+nd then, once he did that, he closed the deal as quickly as possible. He di=
+d everything impetuously, and one result of that is that he paid a $90 mill=
+ion fee to the law firm that beat him. And now he is complaining! Fine. But=
+ it is only his fault.</p>
+<p style=3D"margin: 16px 0;">Anyway now Musk owns Twitter, after paying $44=
+ billion for it, and he is using it to <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/32049616.257409/aHR0cHM6Ly93d3cudGhlZ3VhcmRpYW4uY29tL3=
+RlY2hub2xvZ3kvMjAyMy9qdWwvMTAvZWxvbi1tdXNrLW1hcmstenVja2VyYmVyZy1jdWNrLXR3a=
+XR0ZXItdGhyZWFkcw/607f07ceef4b8524a319a23cB4fd15013" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> talk about th=
+e size of his penis</a>. These facts are also related.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32049616.257409/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjA0OTYxNiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIzMDcwMjUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC51e83e8a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32049616&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32307025&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32049616.257409/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjA0OTYxNiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIzMDcwMjUmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD51e83e8a" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32049616&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32307025&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Indexing</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The main function of a stock-market index is t=
+o provide a list of stocks for index funds to invest in. There is a seconda=
+ry function that is, like, =E2=80=9Csummarize the market=E2=80=9D: The S&am=
+p;P 500 index, say, is a broad reflection of the stock market, and it is us=
+eful for lots of people to be able to look at the S&amp;P and see that it w=
+ent up that day and say =E2=80=9Cah the market is up.=E2=80=9D (Or the Nasd=
+aq 100 index is a broad reflection of big tech companies, and it is useful =
+to say things like =E2=80=9Cthe S&amp;P is down a bit but the Nasdaq is up,=
+=E2=80=9D meaning that tech is outperforming.) But this is just a nice side=
+ effect of the index; the actual job of the index =E2=80=94=C2=A0the thing =
+that the people at S&amp;P Dow Jones Indices are paid for =E2=80=94=C2=A0is=
+ to give index funds, the paying customers, a list of stocks to invest in.<=
+/p>
+<p style=3D"margin: 16px 0;">These functions do overlap: Index funds are po=
+pular because they provide a way to invest in the broad stock market (or in=
+ some sector, etc.); an index that is like =E2=80=9Chere are all the stocks=
+=E2=80=9D is good and will attract a lot of customers to index funds that u=
+se it, while an index that is like =E2=80=9Chere are 43 stocks that some gu=
+y picked because he liked the names=E2=80=9D is not and won=E2=80=99t. And =
+so index providers want their broad-market indexes to reflect the broad mar=
+ket in some reasonable and justifiable way, not to exclude companies too ar=
+bitrarily.</p>
+<p style=3D"margin: 16px 0;">But there are tensions. Sometimes =E2=80=9Cref=
+lect the broad market accurately=E2=80=9D and =E2=80=9Cbe useful for index =
+funds=E2=80=9D are competing goals, and when they are, being useful for ind=
+ex funds generally wins. We have talked a lot about the case of excluding d=
+ual-class stocks: A broad market index that excludes dual-class stocks does=
+ reflect the broad market a bit less accurately, but a <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/32049616.257409/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTctMDctMjcvdGhlLWVuZC1vZi1saWJvci1hb=
+mQtbm9uLXZvdGluZy1zdG9jaz9jbXBpZD1CQkQwNzExMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVt=
+PWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MTEmdXRtX2NhbXBhaWd=
+uPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB6aba6adb" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;">  bunch</a> of =
+index providers <a href=3D"https://link.mail.bloombergbusiness.com/click/32=
+049616.257409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwM=
+TctMDgtMDEvaW5kZXgtcnVsZXMtYW5kLWFuYWx5c3QtZmF0aWd1ZT9jbXBpZD1CQkQwNzExMjNf=
+TU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGV=
+ybT0yMzA3MTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBfa6d4=
+61c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  did that</a> when index funds wanted it =E2=80=94=C2=A0and t=
+hen <a href=3D"https://link.mail.bloombergbusiness.com/click/32049616.25740=
+9/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDQtMjQvY=
+mVkLWJhdGgtbW92ZXMtaW50by10aGUtYmV5b25kP2NtcGlkPUJCRDA3MTEyM19NT05FWVNUVUZG=
+JnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcxMSZ=
+1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB9677b9e1" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  reversed it</a> when the funds didn=E2=80=99t want it anymore.</p>
+<p style=3D"margin: 16px 0;">Or here is a simpler one. The <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/32049616.257409/aHR0cHM6Ly9pbmRleG=
+VzLm5hc2RhcW9teC5jb20vaW5kZXgvb3ZlcnZpZXcvbmR4/607f07ceef4b8524a319a23cB0d1=
+dbf8a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> Nasdaq 100 index </a>is, roughly speaking, an index of the =
+100 biggest companies listed on Nasdaq Inc.=E2=80=99s exchange. It is a sho=
+rthand for =E2=80=9Cbig tech,=E2=80=9D because historically big tech compan=
+ies mostly listed on Nasdaq; its top weightings, this morning, include Micr=
+osoft Corp. (12.6%), Apple Inc. (12.3%), Alphabet Inc. (7.2%, in two classe=
+s), Nvidia Corp. (7%), Amazon.com (6.8%), Tesla Inc. (4.4%) and=C2=A0Meta P=
+latforms Inc. (4.4%). If you just want to know how big tech is doing, the N=
+asdaq 100 provides a reasonable summary, and the way big tech is doing thes=
+e days is roughly =E2=80=9Cdominated by the biggest tech companies.=E2=80=
+=9D As summary, that is useful to know.=C2=A0</p>
+<p style=3D"margin: 16px 0;">But as an investable list of companies for ind=
+ex funds it has a technical problem. The technical problem is that index fu=
+nds are mutual funds, and there are <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/32049616.257409/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L3VzY=
+29kZS90ZXh0LzE1LzgwYS01/607f07ceef4b8524a319a23cBa12b64b3" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> Securit=
+ies and Exchange Commission</a> and <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/32049616.257409/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR1L3VzY=
+29kZS90ZXh0LzI2Lzg1MQ/607f07ceef4b8524a319a23cBb21bf4f5" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> Internal =
+Revenue Service</a> rules that <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/32049616.257409/aHR0cHM6Ly93d3cuc2VjLmdvdi9maWxlcy9zdGFmZi1yZX=
+BvcnQtdGhyZXNob2xkLWxpbWl0cy1kaXZlcnNpZmllZC1mdW5kcy5wZGY/607f07ceef4b8524a=
+319a23cB20583466" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> encourage mutual funds to be =E2=80=9Cdiversifie=
+d,=E2=80=9D</a> and =E2=80=9Cdiversified=E2=80=9D in those rules means some=
+thing like =E2=80=9Cnot having too much of their money in their biggest hol=
+dings.=E2=80=9D Roughly speaking, a diversified mutual fund has to have at =
+least 50% of its money in holdings that are each smaller than 5% of its por=
+tfolio. If you just invested in the Nasdaq 100 index, your top five holding=
+s would each represent more than 5% of your portfolio, and they would add t=
+o about 45.9% of your portfolio. Which is uncomfortably close to 50%. If th=
+e top five stocks got a little bigger relative to the rest of the index, or=
+ if Tesla and Meta got a little bigger and crossed the 5% threshold, then y=
+ou=E2=80=99d go over 50% in concentrated holdings=C2=A0and no longer be div=
+ersified under the rules, and that would be bad.</p>
+<p style=3D"margin: 16px 0;">The solution is for <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/32049616.257409/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMTAvYmlnLXRlY2gtcy1kb21pbmFuY2UtaW4tc3R=
+vY2stbWFya2V0LWhpdHMtYnJlYWtpbmctcG9pbnQtZm9yLW5hc2RhcS0xMDA_Y21waWQ9QkJEMD=
+cxMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImd=
+XRtX3Rlcm09MjMwNzExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23=
+cB47592317" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">  the=C2=A0<em>index=C2=A0</em>to change</a> to make it=
+ more convenient for index funds:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">America=E2=80=99s biggest tech companies have =
+become too large even for the stock index tracking America=E2=80=99s bigges=
+t tech companies.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Now the benchmark=E2=80=99s overseer is taking=
+ action to pare back their influence.</p>
+<p style=3D"margin: 16px 0;">The seemingly unstoppable growth of megacaps l=
+ike Apple Inc. and Microsoft Corp. mean they have breached an upper limit i=
+mposed on stocks in the Nasdaq 100. As a result, Nasdaq Inc. has announced =
+a =E2=80=9Cspecial rebalance=E2=80=9D =E2=80=94 =C2=A0the first ever of its=
+ kind =E2=80=94 will be carried out to redistribute the weight of the index=
+=E2=80=99s members. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">While details on the action are sparse, a pape=
+r on the Nasdaq website says special rebalancings can be called in certain =
+circumstances when the portion represented by the index=E2=80=99s biggest m=
+embers exceeds a preset threshold. In one scenario, the document says, weig=
+hts can be pared back if the combined influence of the largest companies =
+=E2=80=94 those making up 4.5% or more of the gauge =E2=80=94 adds up to mo=
+re than 48%.</p>
+<p style=3D"margin: 16px 0;">Data compiled by Bloomberg show that was the c=
+ase on July 3, when six companies =E2=80=94 Microsoft, Apple, Alphabet Inc.=
+, Nvidia Corp., Amazon.com Inc., and Tesla Inc. =E2=80=94 saw their combine=
+d weight reach 50.9%. The Nasdaq methodology paper says a rebalancing may b=
+e enacted to reduce the group=E2=80=99s influence to 40%.</p>
+<p style=3D"margin: 16px 0;">The rebalance is intended to help fund manager=
+s who are linked or benchmarked to the Nasdaq 100 to stay in compliance wit=
+h a Securities and Exchange Commission diversification rule that limits the=
+ aggregate weight of the largest stock holdings, those with a 5% representa=
+tion or greater, to 50%, according to Cameron Lilja, vice president and glo=
+bal head of index product and operations at Nasdaq.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CFrom our perspective, the motivation =
+to reduce index concentration is purely from the regulatory angle,=E2=80=9D=
+ he said.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;"><em>You=C2=A0</em>might want to reduce index c=
+oncentration because you think those big companies are overpriced, or becau=
+se you want a broader measure of tech-stock strength that is not so influen=
+ced by Apple and Microsoft. But=C2=A0<em>Nasdaq </em>wants to reduce index =
+concentration because its customers have regulatory limits on concentration=
+, and the index is for them.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Fake accounts</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">What percentage of big banks do you think have=
+ opened credit cards for customers without those customers=E2=80=99 consent=
+? Is the answer =E2=80=9Call of them=E2=80=9D? That seems like a reasonable=
+ guess? If you are a big bank, you probably want customers to open more cre=
+dit cards, because credit cards are=C2=A0<em>usually </em>profitable for yo=
+u. So you probably give your employees some incentive to sell credit cards:=
+ perhaps explicit incentive payments, or =E2=80=9Cyou will be fired if you =
+don=E2=80=99t sell 100 credit cards,=E2=80=9D or perhaps subtler pressure i=
+n the form of praising people who sell lots of credit cards. And if you are=
+ a big bank you have thousands of employees in this credit-card-selling bus=
+iness, and surely=C2=A0<em>some=C2=A0</em>of them will think =E2=80=9Chey, =
+if I just fill out the form for this confused customer to open a credit car=
+d, he=E2=80=99ll get a credit card and not even notice; it won=E2=80=99t co=
+st him anything or make the bank any money, but I=E2=80=99ll get credit for=
+ selling another credit card.=E2=80=9D From the=C2=A0bank=E2=80=99s=C2=A0pe=
+rspective,=C2=A0<em>most=C2=A0</em>of its credit cards will be opened by pe=
+ople who want them and use them, and are lucrative, but=C2=A0<em>some=C2=A0=
+</em>won=E2=80=99t be. And some of those will be what you=E2=80=99d call =
+=E2=80=9Cfake accounts.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Wells Fargo &amp; Co. did <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/32049616.257409/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTYtMDktMDkvd2VsbHMtZmFyZ28tb3BlbmVkL=
+WEtY291cGxlLW1pbGxpb24tZmFrZS1hY2NvdW50cz9jbXBpZD1CQkQwNzExMjNfTU9ORVlTVFVG=
+RiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MTE=
+mdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB0eaf112d" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>  rather a lot of this</a> and got in huge trouble in 2016, and also ever =
+since; it was treated as a scandalous failing of Wells Fargo=E2=80=99s uniq=
+uely bad culture. And in degree, sure, maybe. But at a big enough bank I be=
+t it=E2=80=99s hard to get to=C2=A0<em>zero=C2=A0</em>fake accounts. <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/32049616.257409/aHR0cHM6=
+Ly93d3cuY29uc3VtZXJmaW5hbmNlLmdvdi9hYm91dC11cy9uZXdzcm9vbS9iYW5rLW9mLWFtZXJ=
+pY2EtZm9yLWlsbGVnYWxseS1jaGFyZ2luZy1qdW5rLWZlZXMtd2l0aGhvbGRpbmctY3JlZGl0LW=
+NhcmQtcmV3YXJkcy1vcGVuaW5nLWZha2UtYWNjb3VudHMv/607f07ceef4b8524a319a23cBa62=
+882e2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> Here=E2=80=99s this</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">From at least 2012, in order to re=
+ach now disbanded sales-based incentive goals and evaluation criteria, Bank=
+ of America employees illegally applied for and enrolled consumers in credi=
+t card accounts without consumers=E2=80=99 knowledge or authorization. In t=
+hose cases, Bank of America illegally used or obtained consumers=E2=80=99 c=
+redit reports, without their permission, to complete applications. Because =
+of Bank of America=E2=80=99s actions, consumers were charged unjustified fe=
+es, suffered negative effects to their credit profiles, and had to spend ti=
+me correcting errors.</p></blockquote>
+<p style=3D"margin: 16px 0;">Yeah it can=E2=80=99t just be Wells Fargo. Tha=
+t is from a broader <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/32049616.257409/aHR0cHM6Ly93d3cuY29uc3VtZXJmaW5hbmNlLmdvdi9hYm91dC11cy9uZ=
+Xdzcm9vbS9iYW5rLW9mLWFtZXJpY2EtZm9yLWlsbGVnYWxseS1jaGFyZ2luZy1qdW5rLWZlZXMt=
+d2l0aGhvbGRpbmctY3JlZGl0LWNhcmQtcmV3YXJkcy1vcGVuaW5nLWZha2UtYWNjb3VudHMv/60=
+7f07ceef4b8524a319a23cCa62882e2" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> set of enforcement actions</a> by=
+ the US Consumer Financial Protection Bureau and the Office of the Comptrol=
+ler of the Currency fining Bank of America Corp. $150 million (and making i=
+t pay back $100=C2=A0million to customers) for a variety of consumer-financ=
+ial badness, mainly this:</p>
+<blockquote><p style=3D"margin: 16px 0;">Bank of America had a policy of ch=
+arging customers $35 after the bank declined a transaction because the cust=
+omer did not have enough funds in their account. The CFPB=E2=80=99s investi=
+gation found that Bank of America double-dipped by allowing fees to be repe=
+atedly charged for the same transaction. Over a period of multiple years, B=
+ank of America generated substantial additional revenue by illegally chargi=
+ng multiple $35 fees.</p></blockquote>
+<p style=3D"margin: 16px 0;">Basically if you are a merchant and you get a =
+check that bounces, you can go back to the issuing bank the next day and sa=
+y =E2=80=9Cwell is there enough money now?=E2=80=9D If there is, you get pa=
+id. If there isn=E2=80=99t, the bank charges an extra non-sufficient fund f=
+ee, which seems harsh. =E2=80=9CBank of America would assess these repeat n=
+on-sufficient fund fees potentially as soon as the next day after the initi=
+al transaction,=E2=80=9D says the CFPB. =E2=80=9CFrom September 2018 until =
+February 2022, Bank of America generated hundreds of millions of dollars in=
+ such fees.=E2=80=9D</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Emoji contract</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I mean <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/32049616.257409/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMy8wN=
+y8wNy93b3JsZC9jYW5hZGEvY2FuYWRhLXRodW1icy11cC1lbW9qaS1jb250cmFjdC5odG1s/607=
+f07ceef4b8524a319a23cB5703453b" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> sure, of course</a>, thumbs up:</p=
+>
+<blockquote>
+<p style=3D"margin: 16px 0;">Be careful before you casually dash off anothe=
+r thumbs-up emoji: A Canadian court has found that the ubiquitous symbol ca=
+n affirm that a person is officially entering into a contract.</p>
+<p style=3D"margin: 16px 0;">The ruling pointed to what a judge called the =
+=E2=80=9Cnew reality in Canadian society=E2=80=9D that courts would have to=
+ confront as more people express themselves with hearts, smiley faces and f=
+ire emojis =E2=80=94 even in serious business dealings or personal disputes=
+.</p>
+<p style=3D"margin: 16px 0;">The case questioned whether a farmer in Saskat=
+chewan had agreed to sell 87 metric tons of flax to a grain buyer in 2021. =
+The buyer had signed the contract and texted a photo of it to the farmer, w=
+ho had responded by texting back a =E2=80=9Cthumbs-up=E2=80=9D emoji. =E2=
+=80=A6</p>
+<p style=3D"margin: 16px 0;">The judge noted that Mr. Achter and Mr. Mickle=
+borough had had a longstanding business relationship and that, in the past,=
+ when Mr. Mr. Mickleborough had texted Mr. Achter contracts for durum wheat=
+, Mr. Achter had responded by succinctly texting =E2=80=9Clooks good,=E2=80=
+=9D =E2=80=9Cok=E2=80=9D or =E2=80=9Cyup.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Both parties clearly understood these terse re=
+sponses were meant to be confirmation of the contract and =E2=80=9Cnot a me=
+re acknowledgment of the receipt of the contract=E2=80=9D by Mr. Achter, wr=
+ote Justice T.J. Keene of the Court of King=E2=80=99s Bench for Saskatchewa=
+n. And each time, Mr. Achter had delivered the grain as contracted and had =
+been paid.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Is that even interesting? A lot of trading in =
+financial markets is done by chat messages, and it is pretty clear that if =
+you type =E2=80=9Cdone=E2=80=9D in a chat message that can create a binding=
+ contract. The difference between =E2=80=9Cdone=E2=80=9D and the thumbs-up =
+emoji is not that great, and I suspect it=E2=80=99s mostly generational; th=
+e emoji seems like a perfectly reasonable way to say =E2=80=9Cyes I agree t=
+o these terms for our trade.=E2=80=9D=C2=A0In a few years the eggplant emoj=
+i will be the normal way to bind banks to nine-digit swaps trades.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Powell Haunted by Repo Crisis as Fed Aims to <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/32049616.257409/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMDkvZmVkLXMtcX=
+QtZ2hvc3RzLWFyZS1oYXVudGluZy1wb3dlbGwtYmlkLXRvLXNocmluay1iYWxhbmNlLXNoZWV0P=
+2NtcGlkPUJCRDA3MTEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1u=
+ZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ce=
+ef4b8524a319a23cB94e42202" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">  Cut Balance Sheet</a>.=C2=A0<a href=3D=
+"https://link.mail.bloombergbusiness.com/click/32049616.257409/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjMtMDctMTAvcG9pc29uZWQtY291Z2g=
+tc3lydXAtdHJhY2VkLXRvLWluZGlhLXJldmVhbHMtZ2Fwcy1pbi1yZWd1bGF0aW9uP2NtcGlkPU=
+JCRDA3MTEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0d=
+GVyJnV0bV90ZXJtPTIzMDcxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a=
+319a23cBe74fd727" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">Poisoned Cough Syrup</a> Killed Kids;=C2=A0Author=
+ities Cut the Investigation Short.=C2=A0 Short Seller <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/32049616.257409/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMTEvY2l0cm9uLXMtYW5kcmV3LWxlZnQtbG=
+l2ZXMtaW4tZmVhci1hcy11cy1kb2otc2VjLXNob3J0LXNlbGxlci1wcm9iZS1oZWF0cy11cD9jb=
+XBpZD1CQkQwNzExMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3=
+c2xldHRlciZ1dG1fdGVybT0yMzA3MTEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4=
+b8524a319a23cBe991f5bf" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">  Andrew Left</a> Is Living in Fear of the =
+Feds. CLO Market Set for $20 Billion <a href=3D"https://link.mail.bloomberg=
+business.com/click/32049616.257409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2FydGljbGVzLzIwMjMtMDctMTEvY2xvLW1hcmtldC1zZXQtZm9yLTIwLWJpbGxpb24tcmVzZXQ=
+tc3ByZWUtaW4tc2lnbi1vZi10aGF3aW5nP2NtcGlkPUJCRDA3MTEyM19NT05FWVNUVUZGJnV0bV=
+9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcxMSZ1dG1fY=
+2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBb7f43a6a" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">  Rese=
+t Spree</a> in Sign of Thawing. Silicon Valley Bank=E2=80=99s Former Parent=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/32049616.257409/a=
+HR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zaWxpY29uLXZhbGxleS1iYW5rcy1mb3JtZXIt=
+cGFyZW50LXN1ZXMtZmRpYy1vdmVyLTItYmlsbGlvbi1pbi1kZXBvc2l0cy1lNzEwY2MxMg/607f=
+07ceef4b8524a319a23cB45dc5e2d" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">Sues FDIC</a> Over $2 Billion in Dep=
+osits.=C2=A0Big Banks Face Higher <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32049616.257409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjMtMDctMTAvYmFua3MtZmFjZS1oaWdoZXItY2FwaXRhbC1yZXF1aXJlbWVudH=
+MtaW4tcGxhbi1mcm9tLWZlZC1zLWJhcnI_Y21waWQ9QkJEMDcxMTIzX01PTkVZU1RVRkYmdXRtX=
+21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwNzExJnV0bV9j=
+YW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB6b141b30" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">  Capit=
+al Requirements</a> From US Regulators. Revolut=E2=80=99s US <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/32049616.257409/aHR0cHM6Ly93d3cu=
+ZnQuY29tL2NvbnRlbnQvMDAyNTM0N2YtNmUwYy00ZGJkLTk3NjItZTRlZWMwNDMxMDUw/607f07=
+ceef4b8524a319a23cB2f6ed86a" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">payment flaws</a> allowed thieves to s=
+teal $20mn. Winklevoss Twins=E2=80=99 Gemini <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/32049616.257409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9uZXdzL2FydGljbGVzLzIwMjMtMDctMDcvd2lua2xldm9zcy1zLWdlbWluaS1jcnlwdG8tZXh=
+jaGFuZ2Utc3Vlcy1iYXJyeS1zaWxiZXJ0LWFuZC1kY2c_Y21waWQ9QkJEMDcxMTIzX01PTkVZU1=
+RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwN=
+zExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB0def7a33" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> Sues Crypto Conglomerate DCG</a>, Citing Fraud.=C2=A0<a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/32049616.257409/aHR0cHM6Ly93d3cud3N=
+qLmNvbS9hcnRpY2xlcy9iYWluLWdldHMtY291cnRlc3ktY2FsbC1mcm9tLXNoYW5naGFpLXBhcn=
+R5LW9mZmljaWFsLTE1NzA4YWUyP21vZD1pdHBfd3NqJnJ1PXlhaG9v/607f07ceef4b8524a319=
+a23cB7eabafec" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">Bain</a> Gets Courtesy Call From Top Shanghai Party =
+Official. PGA Tour Will Tout <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/32049616.257409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDctMTAvcGdhLXRvdXItcGxhbnMtdG8tdG91dC1taW5pbWFsLXNhdWRpLXN3YXk=
+tYXQtZ29sZi1tZXJnZXItaGVhcmluZz9jbXBpZD1CQkQwNzExMjNfTU9ORVlTVFVGRiZ1dG1fbW=
+VkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MTEmdXRtX2Nhb=
+XBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBa85a46b1" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">  Minimal=
+ Saudi Influence</a> in Golf Merger at Congressional Hearing. The chef and =
+the <a href=3D"https://link.mail.bloombergbusiness.com/click/32049616.25740=
+9/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZmZkNWY4ZWYtYzU1Yy00OGUzLThhN2MtMzEwN=
+2VmMjc1ZDBi/607f07ceef4b8524a319a23cBd4368590" itemprop=3D"StoryLink" items=
+cope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: solid; background-color: #ccc;"> sandwich shop owner=
+</a> at the heart of Trafigura=E2=80=99s fraud case.=C2=A0<a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/32049616.257409/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMTAvb3duZXItb2YtbWFyZ2FyaXRhdm=
+lsbGUtcmVzb3J0LXRpbWVzLXNxdWFyZS1maWxlcy1iYW5rcnVwdGN5P2NtcGlkPUJCRDA3MTEyM=
+19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90=
+ZXJtPTIzMDcxMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB51c=
+9b7ae" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;">Margaritaville Resort Times Square</a> Faces Wastin=E2=80=99=
+ Away in Bankruptcy.=C2=A0Sex, Drugs and Spreadsheets: Dr. Glazer Treats Wa=
+ll Street=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/32049616.257409/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zZXgtZHJ1Z3MtYW5kL=
+XNwcmVhZHNoZWV0cy1kci1nbGF6ZXItdHJlYXRzLXdhbGwtc3RyZWV0cy1hZGRpY3Rpb24tc3Vy=
+Z2UtOGM0MWMxZjI_bW9kPWhwX2xlYWRfcG9zNQ/607f07ceef4b8524a319a23cB2763b16f" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> Addiction Surge</a>.=C2=A0Vivek Ramaswamy rolls out fundraising pro=
+gram allowing supporters to <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/32049616.257409/aHR0cHM6Ly93d3cuZm94bmV3cy5jb20vbWVkaWEvdml2ZWstc=
+mFtYXN3YW15LXJvbGxzLW91dC1mdW5kcmFpc2luZy1wcm9ncmFtLWFsbG93aW5nLXN1cHBvcnRl=
+cnMtZWFybi0xMC1jdXQ_aW50Y21wPXR3X2ZuYw/607f07ceef4b8524a319a23cBe9a963ef" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;">earn 10% cut</a> of money they raise.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32049616.257409/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB048eeaac" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32049616.257409/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB7471fbd3" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] If the buyer is also a public company, the=
+ deal might be for stock, or a mix of stock or cash; if the buyer is a priv=
+ate equity firm, or just a guy, it will be all cash. A stock deal complicat=
+es this analysis a bit: If you are doing an all-stock merger of equals, any=
+ cash paid to your lawyers really does come out of your shareholders=E2=80=
+=99 pockets in a fairly tangible way, since they are shareholders of the su=
+rviving company. </p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] The buyer can=E2=80=99t just make those de=
+cisions =E2=80=94 it can=E2=80=99t just install its own executives and run =
+the target company itself =E2=80=94 in part because it hasn=E2=80=99t paid =
+yet and the deal might not close, but also in part because it might violate=
+ antitrust laws for the buyer to run the target before they get antitrust m=
+erger clearance.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Again, deals with stock components may hav=
+e a somewhat floating price, though the price is fixed in some terms =E2=80=
+=94 =E2=80=9C$X plus Y shares,=E2=80=9D or =E2=80=9C$X in cash plus $Y in s=
+tock,=E2=80=9D etc. =E2=80=94 so there can be an informed vote. Also there =
+are ways to have some sort of adjustment mechanism =E2=80=94 mainly =E2=80=
+=9Ccontingent value rights,=E2=80=9D where the target shareholders get thei=
+r regular payment plus some extra thing that is worth more or less dependin=
+g on the target=E2=80=99s business results, etc. =E2=80=94 but they are not=
+ that common and don=E2=80=99t tend to focus on things like cash at closing=
+.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Not always, and the right way to charge fo=
+r, say, fending off a hostile takeover is not obvious. In general the dynam=
+ics here =E2=80=94 if there is a takeover, it=E2=80=99s the buyer=E2=80=99s=
+ money; if there isn=E2=80=99t, it=E2=80=99s the target=E2=80=99s money =E2=
+=80=94 tend to favor <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/32049616.257409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVz=
+LzIwMTctMDItMTUvbWVyZ2VyLWdvb2ZzLWFuZC1kaXNncnVudGxlZC1xdWFudHM_Y21waWQ9QkJ=
+EMDcxMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZX=
+ImdXRtX3Rlcm09MjMwNzExJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319=
+a23cB917d4501" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">  paying advisers more for *failing* to fend off a h=
+ostile takeover</a> than for succeeding.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] He was a big shareholder at the time, so t=
+hey owed him the fiduciary duties they owed other shareholders, but you kno=
+w what I mean.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] Exhibit 15, page 150 of <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/32049616.257409/aHR0cHM6Ly9hc3NldHMu=
+YndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JoTElUejQwSmdsZy92MA/607f=
+07ceef4b8524a319a23cCf5a7fb23" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> the complaint</a>.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] Exhibit 7, page 132 of <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/32049616.257409/aHR0cHM6Ly9hc3NldHMuY=
+ndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JoTElUejQwSmdsZy92MA/607f0=
+7ceef4b8524a319a23cDf5a7fb23" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> the complaint</a>.</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] There might be two law firms =E2=80=94 the=
+re were something like six on this deal, though that=E2=80=99s complicated =
+=E2=80=94 but note that *Wachtell=E2=80=99s* fee is 60% to 80% of the banki=
+ng fee, not the *total* law-firm fees.</p>
+</div>
+<div id=3D"footnote-9" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[9] It=E2=80=99s attached as an exhibit to <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/32049616.257409/aHR0c=
+HM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeElVL3JoTElUejQw=
+SmdsZy92MA/607f07ceef4b8524a319a23cEf5a7fb23" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> the complaint</a>, a=
+t page 152 of 158. =E2=80=9CWe write on behalf of Elon Musk to ask Twitter,=
+ Inc. =E2=80=A6 to immediately discontinue all outbound payments,=E2=80=9D =
+it begins, =E2=80=9Cin order to assist Mr. Musk=E2=80=99s funds flow prepar=
+ations.=E2=80=9D Just a request. Then it goes on: =E2=80=9CMr. Musk would a=
+lso like to provide advance instructions to the Company regarding outbound =
+payments and disbursements to third parties following completion of the mer=
+ger. =E2=80=A6 The Company and its employees should not make any payments o=
+r other disbursements to any third party without the prior consent of Mr. M=
+usk.=E2=80=9D Before closing, it=E2=80=99s an =E2=80=9Cask=E2=80=9D; after =
+closing it=E2=80=99s an =E2=80=9Cinstruction.=E2=80=9D</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32049616.257409/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB80d2c18b" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32049616.257409/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB3e7a077c" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32049616.257409/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB8416ed13" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32049616.257409/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB83ec42da" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/32049616.257409/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB0cba257d" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/32049616.2574=
+09/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBcccc1a8f" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32049616.257409/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC4493d8bb" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/32049616.257409/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBa5d96716" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/32049616.257409/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBc85d09f7" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32049616.257409/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBc=
+c3d5ab2" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32049616.257409/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBc=
+a90784b" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj2xn4.5im9/531dff23.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_10922389_264542123.1689097018600--
+

@@ -1,0 +1,2264 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a0c:a68a:0:b0:66d:158:b35e with SMTP id t10csp684728qva;
+        Thu, 26 Oct 2023 11:12:10 -0700 (PDT)
+X-Received: by 2002:a25:4246:0:b0:d9c:28cb:2e54 with SMTP id p67-20020a254246000000b00d9c28cb2e54mr6414490yba.18.1698343930319;
+        Thu, 26 Oct 2023 11:12:10 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1698343930; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=ZtsiSgjWuDmncWRSpuSiVD2PWWWoTd2UG+/0sIQX8NDoY695LMFmUUE2+UYwYLW9b6
+         kEYr0B08MFNzK9EJ67oPbSBAmJk1Fgs+A/SJzFvNNaoVjjm7ncw0OEqGJUKlgDMJ9Qgq
+         tC8K6KarvT8SU2nPxUXHw5eOy3+D8p9nUMXEQUZ5uimnRMWvq2cJuq2b9ZivSK/bE+KF
+         1sZziMSUYfqTfi/0NjZN2wUPfn2dr7Ge4Zdn+GqmWkUWB1HgLJSLrmfzoaL1E/xcH73r
+         WR8kc801DuBzRob+npPBLBYUdCKCkhpQUzHCDb5as/Go3RgX/Qw8cQXbIk0JcQroC9yL
+         38zA==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=eeVfKWr4aBVbhIl7yhyutTQukstvYmSEW3CevA0yzcI=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=Vuva58L/kJ6HMX+ZeNeKQNvpwXUJ0/XDvk5fy945ce47yuhsEIC40XBaeL9g7QjtXn
+         6sm3C3Yu055GXViYbRsxeGGQWDqFy3XLG9i5YjYOZ3primM1ZL9KwMFKchBvpKy8wUBt
+         q+/T44yn0EIMyM9tcvsYw3MfJrkGET1AiHeLhkaFbh5jHTPTI3zmyRfd7r8KYR1dsbfG
+         Z+k+vcLKJqLyvDSyehsu+enDPttoPFqVqqk+reG533zMcBJwElWgVYulK0fW1TIk7lxr
+         RWyQd4pN1GX50mE6YAsGEfHkOBgjfXP1RpFA4GflmdkIB3KCsSQ9OktwLUl2uclYPuSd
+         B15g==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=6WenCJok;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id o82-20020a254155000000b00da03ca78b21sor898133yba.8.2023.10.26.11.12.10
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 26 Oct 2023 11:12:10 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=6WenCJok;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1698343930; x=1698948730;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=eeVfKWr4aBVbhIl7yhyutTQukstvYmSEW3CevA0yzcI=;
+        b=Gy7iwzMpjRdFEsOd8IFaTRZNN0ju1QkUGk33+0wZnXh+Wj4O20wMCQiA7Zx9x7sKoO
+         oWwEqT1SDtKyvP5bpphsq5ByV7Cr8vmndfH18Huw8Ju4/OmYdW+2vu5Og8G58a2ywlMF
+         jX8unUCzBOQ25WhLQDUWQuFgfnqe36kDcMJXj2Z8J4FcHvyGTRGSQOL52yqOWJq7JrIF
+         +Y/mRQCwQWyGSkoEPr78axvf4v4HHN9HLobaYZJMuf7I0PtdxKy8xiB0QfV/vdtbZtkS
+         FkegAjDniH6A1v9IaPqBPk4xquUIJWZJDL+wtJ+fxu1rH7nb4RDSchXGebLyXjKw2xDA
+         bmlg==
+X-Gm-Message-State: AOJu0YzLn4brqr3OSeep0o6ivr4cUI7JLH/yvuiubuhDTGpyCKdVS/UR
+	FXMK0mI0Vf3LWmZ5EWmr4cmsdDciu2u10DR3i5kYvC3YYvYjRq1TWg==
+X-Received: by 2002:a25:d18d:0:b0:da0:3521:bdd5 with SMTP id i135-20020a25d18d000000b00da03521bdd5mr915912ybg.17.1698343929927;
+        Thu, 26 Oct 2023 11:12:09 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a05:7010:3341:b0:377:b8b4:756b with SMTP id f1csp1319579mdd;
+        Thu, 26 Oct 2023 11:12:05 -0700 (PDT)
+X-Received: by 2002:a0c:9c8d:0:b0:66c:edbf:ee9c with SMTP id i13-20020a0c9c8d000000b0066cedbfee9cmr472748qvf.30.1698343925214;
+        Thu, 26 Oct 2023 11:12:05 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1698343925; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=dg5JXN9EvV8CkTWVPjAfgzBN/E5Z1GmCaXgLK+xlgoS7vehXTUDAhoAeNGiKcR54hp
+         C6Md4Ds42CY5BEqzvDnXQcoTbTZp7EWf7WDZmhkbpBw9fRHCdplk3y+KIE3M6D8XzbLW
+         6lTCg5uNCLLvFYbEXhAVDhqvgBJ76u8OcPseIvGAjJnB99Fp+6LkfhzvOjunY9j9AV4Y
+         xhFuv0Br1Bavf+o14PAJFKU+KR0W3lFhMk1/v5AvpIzZrGqJERdGQ9aX05/poSoKcLrY
+         zrpNm2NC3qM0g5LsbthivGBuBqtEgDlAauLf/4umadRRDpRm11EsKnXTLk+H7sEM2aYZ
+         hr2g==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=eeVfKWr4aBVbhIl7yhyutTQukstvYmSEW3CevA0yzcI=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=jUalL936YLi652+kPc1cmE0qQyRxUhe6mLjMFUzyeoZoOm7mldChGl+5GfsH1O6ldd
+         J1HTIUdzkC2YpfaceEk+/5u9wHwpJuCfS8HPn75wtW8zowhKE7KKTmInwpdJrzVaW2aR
+         x1+TzBwp/5lkYTf0q9o94OEX0qoQSeP5tQBu1h1vwoAu3/HIDnf4+VnZg+Fm5UhDmJ8I
+         X7EMnozNwq2qsP+9HXj6kVVDuYiAQ2H5/+hnz9i+w/QcOwKgdYY8jowjTe4vDTVxmOxB
+         QEzOx7FZk1KHLybSN/OYT7ZTZHM/DPjfJdexls6TrNDrJUVqr2QO6X1W0DnUklhcOwtF
+         +6jA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=6WenCJok;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20231026141204.33155168.256414@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20231026141204.33155168.256414@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231026141204.33155168.256414@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id ee16-20020a05620a801000b007789163ddaesor1539182qkb.2.2023.10.26.11.12.04
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 26 Oct 2023 11:12:05 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20231026141204.33155168.256414@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IFLOjOI3H3rFA0+3ODQ06yyss9kbBkBTTYpQt7nxIAiGUFQXViqkw5+yBXLkYUKZ1TCEdHiQWFwSQDPlSljuL1JLFiqd/0=
+X-Received: by 2002:a05:620a:448b:b0:772:749a:ec13 with SMTP id x11-20020a05620a448b00b00772749aec13mr4185995qkp.2.1698343924630;
+        Thu, 26 Oct 2023 11:12:04 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1698343924; cv=none;
+        d=google.com; s=arc-20160816;
+        b=NtG/BktYqqfLQ5wHD50RrJDUAFPzwJnkmGvPadnx4sOGWZ+hOjkQhUNePSDX52xB9S
+         zRE22r49oZrXCBPJ05K+FxhMm2IiciIL8YqAUr5YxxETrVx77LYP5QdJRsdBnUMYtay7
+         Ohcf4Ju54007zO3q4La6mriBJ9PxVqGcsGsBVRkpuKdp4TfZbWvMDSaFWSMs/ekGXVu0
+         DOCLEkIXgSIRqe2wAS79hc9++kyihw8QJXWoG3jSZUHxdph/9tXk6WHq6J568p7C0WcL
+         tJBzx04lqrqEB/lwRe72x7S8syxesm+4BaaRiE/TD+BY6ehyKRTUa6KGAxyxca3VG9RU
+         2i7g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=eeVfKWr4aBVbhIl7yhyutTQukstvYmSEW3CevA0yzcI=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=JYxbOVGw3OjRp+38vKEe8xt5E3Zay+4x0dsvDDUugTKGnvsVNpsFZHi+//Ge//Kb8t
+         KM2rBQkF6Abfah+PVjvoBV6kcZvkqA7ZDj0J1v0KnMInWp+ut18erC5iPSAt6+o54wK0
+         lWX7+GAyBj/dk9BkmwLXIq6yWnTV/hGxJRH9xO1UlqXf472JgNdsbkfxXqQu07QpU3oF
+         GdnS0QxAaSSWIpyq1ted0K5aCVHZlnEK3IwuTCGsVrMG9p9bn8a5hUVVcCCiFpPVd/Fc
+         yjgdtPDfvGLYwh3UQoLQYLqoCFXYoJKyqsyS1ljTwCnyBkV+gLMPZn5X+ggKUvaL3ktW
+         D0gQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=6WenCJok;
+       spf=pass (google.com: domain of delivery_20231026141204.33155168.256414@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20231026141204.33155168.256414@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231026141204.33155168.256414@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id rb24-20020a05620a8d1800b0077576de1665si1090769qkn.3.2023.10.26.11.12.04
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 26 Oct 2023 11:12:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20231026141204.33155168.256414@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=LTu0FIKqJUXmnUFAD9IXclNsjFCvDQ/WNeduEezFEbk=;
+ b=6WenCJokf74wZAYYziGR1LicxO55f1cSzs9J6VqcniNv64CurB3k7k7pf6gLI2LiQDNg23Oezg6N
+   3AZm76Ul8/+u/39tJO+ZHJV19e8L/7ihwYwoIgHCgQMrhs+ul7CMDXaYmp7zeOFTsLyYUj3QFzl/
+   +8nqARfWbFYL0i0YVVQ=
+Received: from aws1-mta-relay7.sailthru.cloud (10.55.90.61) by bloomberg-b.sailthru.com id h7alv830nu8s for <bloomberg@khamel.com>; Thu, 26 Oct 2023 13:12:04 -0500 (envelope-from <delivery_20231026141204.33155168.256414@mx.sailthru.com>)
+Date: Thu, 26 Oct 2023 14:12:04 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20231026141204.33155168.256414@sailthru.com>
+Subject: Money Stuff: Euroclear Made Some Russian Money
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9473636_2116520065.1698343924383"
+Precedence: bulk
+x-job: 6358-33155168-20231026
+X-Feedback-ID: 6358:33155168:campaign:sailthru
+X-TM-ID: 20231026141204.33155168.256414
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-88-66.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjqmow.5hum/1e9e1338
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjqmow.5hum/1e9e1338>, <mailto:unsubscribe_20231026141204.33155168.256414@mx.sailthru.com>
+X-rpcampaign: stjko33155168
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_9473636_2116520065.1698343924383
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Monday.=
+Consider a Russian oligarch who invested some money in the bonds of a Ger
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.
+
+ =20
+   =20
+      Euroclear
+   =20
+ =20
+
+Consider a Russian oligarch who invested some money in the bonds of a Germa=
+n company a few years ago. After Russia invaded Ukraine, the oligarch was s=
+ubjected to comprehensive sanctions by the European Union, forbidding anyon=
+e in the EU from doing any business with him. His bonds are trapped at an E=
+U brokerage and he can=E2=80=99t sell them. But then the bonds mature and t=
+he German company has to pay them back. But it can=E2=80=99t send money to =
+the oligarch. What happens? Who gets the money?
+You could imagine various theoretical possibilities:
+=09The oligarch gets the money: Sure you=E2=80=99re not generally supposed =
+to send him money, but this is just repayment of a preexisting debt, so it =
+doesn=E2=80=99t count.=C2=A0=09The company keeps the money: It=E2=80=99s ju=
+st random windfall; the sanctions caused some of its bonds to disappear.=09=
+The EU gets the money: The sanctions operate as a form of forfeiture, and i=
+nstead of paying back the oligarch the company sends the bond repayment to =
+the EU, which then spends it on defense or Ukraine aid or whatever.
+
+But the delightful actual answer is that Euroclear gets the money. The=C2=
+=A0Financial Times reports:
+
+Euroclear has earned just over =E2=82=AC3bn so far this year from Russian a=
+ssets frozen at the securities depository by EU sanctions, in a windfall th=
+at is likely to crank up the pressure on European leaders to channel the pr=
+ofits to Ukraine.
+The Belgium-based group said on Thursday that income related to trapped Rus=
+sian assets jumped in the first nine months of the year from =E2=82=AC347mn=
+ in the same period in 2022, propelled by rising interest rates.
+The sharp rise is uncomfortable for Euroclear, which has been sitting on Ru=
+ssian assets since Russian president Vladimir Putin ordered the full-scale =
+invasion of Ukraine, because the EU=E2=80=99s subsequent sanctions on Mosco=
+w mean it cannot move funds to Russian banks. Millions of securities deals =
+a day are tracked and settled at the Brussels-based group.
+About =E2=82=AC197bn Russian assets are stuck at Euroclear, according to th=
+e Belgian government. Of that total, =E2=82=AC180bn are from the Russian ce=
+ntral bank, the lion=E2=80=99s share of the $300bn of central bank assets f=
+rozen by western sanctions.
+
+Here is  Euroclear=E2=80=99s announcement of its financial results, which e=
+xplains how this works. It=E2=80=99s not really that Euroclear gets to=C2=
+=A0keep=C2=A0the money; it=E2=80=99s just that (1) Euroclear gets to hold t=
+he money until someone figures out what to do with it and (2) meanwhile, it=
+ gets to=C2=A0invest=C2=A0the money and keep any interest it earns. Which i=
+s a lot:
+
+One consequence of the sanctions is that blocked coupon payments and redemp=
+tions owed to sanctioned entities results in an accumulation of cash on Eur=
+oclear Bank=E2=80=99s balance sheet. At the end of September 2023, Euroclea=
+r Bank=E2=80=99s balance sheet had increased by EUR 45 billion year-on-year=
+ to a total of EUR 164 billion.
+As per Euroclear=E2=80=99s standard process, cash balances are unremunerate=
+d and cash balances are invested to minimise credit risk. ... The interest =
+paid on reinvestment of cash balances is net interest income earned by Euro=
+clear.
+In the nine months to 30 September 2023, interest arising on cash balances =
+from Russia-sanctioned assets was approx. EUR 3 billion. Such interest earn=
+ings are driven by two factors: (i) the prevailing interest rates and (ii) =
+the amount of cash balances that Euroclear is required to invest.
+
+There are some financial businesses that consist of mechanically moving gig=
+antic piles of cash through the pipeline and collecting a tiny fee for your=
+ efforts. And then every so often the pipeline gets blocked and the giganti=
+c pile of cash is yours! Weird.
+Still, other answers are possible. Possibly the money goes to the EU? Possi=
+bly to the Russians? The FT adds:
+
+EU officials have been grappling with how best to deploy the proceeds from =
+Russian assets that are stuck in Europe=E2=80=99s financial system. It is c=
+onsidering using the windfall profits Euroclear makes for Ukraine, with EU =
+leaders due to discuss the plans later on Thursday. ...
+While the EU seeks to spend the profits, Euroclear is facing lawsuits from =
+Russia to force it to hand over the money.=C2=A0
+
+It does seem strange for Euroclear to keep all that money just because the =
+pipes backed up.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Private equity
+   =20
+ =20
+
+Oversimplifying dramatically, there are two sorts of investment funds in th=
+e US: public and private. Public investment funds are most classically mutu=
+al funds, but also business development companies and other things. They ca=
+n be marketed more or less widely to individual investors, and they are sub=
+ject to regulation by the US Securities and Exchange Commission under the I=
+nvestment Company Act of 1940.=C2=A0
+Private investment funds are most classically hedge funds and private equit=
+y funds, which restrict their investors to institutions and very rich indiv=
+iduals. These funds are much less regulated, but can=E2=80=99t be marketed =
+widely to individual investors.
+  [1]
+
+If you run a big private equity firm, your funds will tend to be=C2=A0priva=
+te=C2=A0funds, like the name suggests. This is very important to you, becau=
+se regulation under the Investment Company Act would limit your flexibility=
+ a lot. It would restrict your ability to borrow money, for instance. It wo=
+uld restrict the investments you could make. Conflict-of-interest rules mig=
+ht restrict your ability to charge the fees you want to charge.
+  [2]
+
+On the other hand a lot more people can invest in public funds, and if you =
+run a big enough private equity firm you will want their money too. And so =
+you might launch some public, or at least public-ish, funds, subjecting som=
+e of your business to more regulation in the pursuit of more assets under m=
+anagement.
+  [3]
+
+Really though the ideal would be to raise money from public investors witho=
+ut running a public fund. One classic way to do this is with insurance: You=
+ buy or start an insurance company, the insurance company sells life insura=
+nce and annuities to public investors, and it invests the float in your pri=
+vate equity business. The public investors aren=E2=80=99t=C2=A0investors in=
+ a fund; they are=C2=A0customers of an insurance company. (The insurance co=
+mpany, meanwhile, is a large institutional investor, so its investments are=
+ private.) This is a very popular approach and many of the big private equi=
+ty firms have insurance businesses.
+  [4]
+
+There are, I am sure, other approaches.
+But here is a really simple one. What fundamentally makes a fund a fund =E2=
+=80=94=C2=A0particularly, what makes it a regulated investment company =E2=
+=80=94=C2=A0is that it makes=C2=A0investments; it buys securities, fraction=
+al shares of businesses. But, like, Alphabet Inc. is not a=C2=A0fund; it=E2=
+=80=99s not an investment company. It=E2=80=99s just a=C2=A0company. It doe=
+sn=E2=80=99t own shares in a bunch of businesses. It owns=C2=A0a bunch of b=
+usinesses. (Google, YouTube, various moonshots, etc.
+  [5]
+) If you own the whole company =E2=80=94=C2=A0or several whole companies =
+=E2=80=94=C2=A0then you are not a fund; you=E2=80=99re just a company.
+  [6]
+ Or a =E2=80=9Cholding company.=E2=80=9D Or, in the classic terminology, a =
+=E2=80=9Cconglomerate.=E2=80=9D
+If you run a big private equity firm you are, in some loose sense, running =
+a conglomerate anyway. You control=C2=A0a bunch of companies and try to run=
+ them somewhat independently (while imposing some best practices and centra=
+l oversight).
+  [7]
+ Why not =E2=80=A6=C2=A0launch a conglomerate? Just a regular company, that=
+ owns some of your portfolio companies, and that raises money from investor=
+s? You could raise money broadly from retail investors, without being subje=
+ct to Investment Company Act restrictions. Plus your money would be=C2=A0pe=
+rmanent:=C2=A0Instead of having to return money to investors at the end of =
+the fund=E2=80=99s life, you=E2=80=99d have a corporation that could keep i=
+ts capital forever.
+You could imagine taking this quite far: Plop some portfolio companies into=
+ one big holding company, do an initial public offering, sell shares to the=
+ public, acquire new companies by issuing new shares (either to the targets=
+ or to public investors to raise cash) and just, sort of, be a regular publ=
+ic conglomerate? Like Berkshire Hathaway Inc.,
+  [8]
+=C2=A0or like 3M Co. I suppose if you did that it would be harder to charge=
+ the fees you want to charge. Also your company would be public, which (1) =
+sort of undermines the name =E2=80=9Cprivate equity=E2=80=9D and (2) subjec=
+ts you to the whims of daily market prices, activism, etc.
+But you could take smaller steps into conglomeracy. Bloomberg=E2=80=99s  Mi=
+les Weiss reports:
+
+Schwab and Fidelity are listed alongside Morgan Stanley Smith Barney and Ro=
+ckefeller Financial in regulatory filings as potentially receiving compensa=
+tion through a private placement by KKR Infrastructure Conglomerate.
+KKR, Schwab and Fidelity declined to comment on the entity, one of two flag=
+ships created to raise money from rich individuals. The other is KKR Privat=
+e Equity Conglomerate.
+The two conglomerates have raised more than $2 billion combined since May, =
+according to Kevin Gannon, chief executive officer of Robert A. Stanger & C=
+o., an investment bank whose specialties include alternatives such as non-l=
+isted real estate investment trusts and business development companies. =E2=
+=80=A6
+The two conglomerates mark the first time that KKR has directly opened its =
+infrastructure and private equity deals to accredited investors, a category=
+ that generally includes the mass affluent. KKR plans to draw 30% to 50% of=
+ its new capital from the private wealth sector, up from about 15% now, Chi=
+ef Financial Officer Robert Lewin said in a February conference call.=C2=A0=
+=E2=80=A6
+The conglomerates were formed as operating companies rather than investment=
+ funds, meaning they=E2=80=99re direct owners of actual businesses and hard=
+ assets =E2=80=94 such as toll roads and airports =E2=80=93 instead of secu=
+rities and shares of other funds. They=E2=80=99ll directly co-invest in buy=
+outs and infrastructure deals through joint ventures with the main private =
+equity and infrastructure funds that KKR runs for institutional investors.
+As operating companies, the conglomerates also qualify for exemptions from =
+rules that would otherwise cap the amount of IRA money they can take in at =
+25% of net assets. While this structure has been previously used by the lik=
+es of Brookfield Infrastructure Partners, whose shares are publicly traded,=
+ the major PE firms are just now starting to adopt it. In June, Apollo Glob=
+al Management Inc. filed documents for an infrastructure entity that=E2=80=
+=99s in many ways identical to KKR=E2=80=99s.=C2=A0
+
+It=E2=80=99s a bit more complicated than that: The conglomerates own joint =
+ventures=C2=A0alongside other (private) KKR-run funds, somewhere in between=
+ owning whole companies/assets and owning stock in those companies.
+  [9]
+ KKR manages the conglomerates and gets management and performance fees.
+  [10]
+=C2=A0Also the conglomerates are not traditional public companies; they mak=
+e public filings, but sell their shares privately to accredited investors. =
+Still, these are baby steps into running a private equity fund in the form =
+of a public company.
+
+ =20
+   =20
+      Private credit
+   =20
+ =20
+
+There used to be two main ways for companies to borrow money: bonds=C2=A0an=
+d bank loans. Bonds were sold publicly to big investors (insurance companie=
+s, mutual funds, etc.) and traded in a reasonably active secondary market. =
+Bank loans were made by banks that had deep longstanding relationships with=
+ their borrowers, and were then held by those banks to maturity. There were=
+ other differences (in seniority, collateral, term, rates, etc.), which wer=
+e driven in part by the different investor bases and relationships.
+For instance, bank loans to risky companies often had=C2=A0maintenance cove=
+nants, requiring the company to have at least some minimum amount of earnin=
+gs every quarter.
+  [11]
+ If the company=E2=80=99s income cratered, it would be in default on its lo=
+an. And then it would call up its relationship bank and say =E2=80=9Chey we=
+ have a problem,=E2=80=9D and the bank and the company would work out some =
+mutually beneficial solution. The covenants gave the bank leverage over the=
+ company if things went wrong; the long-term relationship between the bank =
+and the company made this reasonable. Bonds generally did not have maintena=
+nce covenants, in part because bondholders were traditionally dispersed pub=
+lic investors who couldn=E2=80=99t monitor the company as well as the banks=
+, or negotiate efficiently if it ran into trouble.
+This is all very quaint and old-timey, and for many years now =E2=80=9Cbank=
+ loans=E2=80=9D to non-investment-grade companies have been widely syndicat=
+ed to non-banks, hedge funds and collateralized loan obligations and other =
+institutional investors. The markets have, to a quite large extent, converg=
+ed: Bonds and loans are now sold to overlapping groups of institutional inv=
+estors, they both trade in similar secondary markets, etc. There are still =
+some real differences (loans are still more often floating-rate and secured=
+), and some weird vestigial differences (loans are still not considered =E2=
+=80=9Csecurities=E2=80=9D under US securities law), but bonds and loans are=
+ much more interchangeable than they used to be.=C2=A0
+Also leveraged bank loans are now commonly =E2=80=9Ccovenant-lite,=E2=80=9D=
+ meaning that they no longer have maintenance covenants. For the same reaso=
+n that bonds have not traditionally had maintenance covenants: Loan investo=
+rs are now dispersed institutions without much relationship with the issuer=
+,
+  [12]
+ so issuers do not want to have to renegotiate their loans with those inves=
+tors if their business gets worse.
+Now there is a third way for companies to borrow money, =E2=80=9Cprivate cr=
+edit,=E2=80=9D in which one or more big lenders (specialized asset managers=
+, private-equity managers, insurance companies, business development compan=
+ies) negotiates directly with the company in a way that cuts out banks. We =
+have  talked about this before. Private credit deals are different from ban=
+k loan and bond deals, for reasons that have to do with the different parti=
+cipants and relationships in that market; they are designed to serve differ=
+ent needs from traditional bank loans or bond deals.
+For instance, private credit has done a good job recently of lending to lev=
+eraged buyouts. Traditionally the way to get LBO financing was to go to a b=
+ank to get a commitment letter; the bank would promise to raise $X billion =
+of financing by selling bonds and loans, but would retain some flexibility =
+on the exact terms and costs of that financing. Private credit investors ca=
+n promise to do the whole $X billion of financing themselves, at fixed term=
+s, giving the LBO sponsor more certainty. In choppy markets, people like th=
+at.
+Still my vague sense is that we are at the beginning of another long conver=
+gence, and that sometime within the next, like, three years, I am going to =
+be writing about a story like =E2=80=9CCompany X is launching a marketplace=
+ to allow private credit lenders to trade loans.=E2=80=9D
+  [13]
+ Why not? Credit investors will want to invest in good credits regardless o=
+f their formal classification, and everybody wants to be able to sell when =
+they want to. I just assume that eventually =E2=80=9Cprivate credit=E2=80=
+=9D will feel like a misnomer, the way =E2=80=9Cbank loan=E2=80=9D does tod=
+ay.
+Anyway  here=E2=80=99s Bloomberg=E2=80=99s Paula Seligson:
+
+Private credit firms seeking to capture market share from traditional bank =
+lenders are giving up investor protections as they snag larger financings, =
+according to Moody=E2=80=99s Investors Service.
+Direct lenders have been siphoning business from the broadly-syndicated lev=
+eraged loan market in recent years, in part by staking a claim to increasin=
+gly larger deals. But an analysis by the credit-rating firm shows that lega=
+l safeguards that protect investors tend to weaken as the size of the trans=
+actions increase.
+=E2=80=9CPrivate credit is dropping maintenance covenants in larger deals,=
+=E2=80=9D analysts including Derek Gluckman wrote in a Thursday report, ref=
+erring to a type of investor protection that requires companies to periodic=
+ally meet certain tests of financial health. Leveraged loans discarded the =
+safeguards years ago and most are now considered =E2=80=98covenant-lite.=E2=
+=80=99 Direct lenders are following suit, Moody=E2=80=99s says, noting that=
+ only 7% of private credit loans larger than $500 million in its analysis h=
+ad maintenance covenants, compared to 67% of loans smaller than $250 millio=
+n. =E2=80=A6
+The global $1.5 trillion private credit market has been known for more cons=
+ervative deal terms that give lenders increased control over the debt and t=
+he company if things go wrong, whereas the competition of numerous lenders =
+trying to get into the same deals has led covenants to erode over time in t=
+he broadly-syndicated market.
+=E2=80=9CPrivate credit loans are strikingly more protective than broadly-s=
+yndicated loans, but differences will narrow,=E2=80=9D Moody=E2=80=99s wrot=
+e. =E2=80=9CThe ramparts between public and private lenders will come down =
+as competitive pressures mount, just as the same protections eroded in the =
+broadly-syndicated loan market over time.=E2=80=9D
+
+Right now, private credit lenders are much more likely than bond=C2=A0or=C2=
+=A0bank loan investors to be=C2=A0relationship=C2=A0lenders, to get to know=
+ the company well, lend it money and hold the loan to maturity. But give th=
+at some time and it will change.
+
+ =20
+   =20
+      Ted Pick
+   =20
+ =20
+
+I suppose one theory of CEO succession is that the next chief executive off=
+icer of a firm should be the person who runs the division that makes the mo=
+st money, that contributes most to the firm, that is the firm=E2=80=99s int=
+ended future. And another theory would be that the next CEO should be the p=
+erson who runs the division that could=C2=A0lose=C2=A0the most money. If th=
+ere=E2=80=99s a problem, that guy can fix it! Whereas the guy who runs the =
+consistent moneymaker has had it too easy; what does he know about risk?
+In general, big modern investment banks want to tell their shareholders a s=
+tory about some other business =E2=80=94=C2=A0asset management, wealth mana=
+gement,  retail banking (?) =E2=80=94=C2=A0that offers more stable revenues=
+ than traditional investment banking and sales and trading. But if a big mo=
+dern investment bank is going to incinerate itself in a week, it=E2=80=99s =
+probably going to be in the sales and trading business inside the investmen=
+t bank.
+  [14]
+=C2=A0=E2=80=9CEnormous reputational disaster in wealth management=E2=80=9D=
+ is also a good candidate. Of course  retail banking has problems too. Stil=
+l, the traditional way to go bust fast is in the investment bank.
+And so if you are choosing the next CEO of a universal investment bank, the=
+ guy running asset management might represent the future, but the guy runni=
+ng investment banking might be the guy you need.=C2=A0
+Anyway the next chief executive officer of Morgan Stanley  is Ted Pick, who=
+ currently runs investment banking and sales and trading. The Financial Tim=
+es notes:
+
+One immediate hurdle for Pick will be to clarify the optics of an investmen=
+t banker having got the job ahead of the bosses of Morgan Stanley=E2=80=99s=
+ wealth and asset management divisions, its two major growth drivers.
+=E2=80=9CThe downside is a perceived de-emphasis of wealth management withi=
+n the company,=E2=80=9D said Christian Bolu, banking analyst at Autonomous =
+Research. =E2=80=9CThat certainly to investors is a risk. So I think he has=
+ to communicate very early on that wealth management is still the driver of=
+ the long-term growth of the business.=E2=80=9D =E2=80=A6
+Nevertheless, Pick=E2=80=99s running of investment banking and his head for=
+ risk was seen as a big selling point to Morgan Stanley=E2=80=99s board of =
+directors during the selection process, according to people familiar with t=
+he matter.
+
+On the other hand,=C2=A0is=C2=A0he communicating very clearly that wealth m=
+anagement is still the driver of the long-term growth of the business?     =
+I dunno:
+=E2=80=9CIn equities and fixed income and across investment banking, we=E2=
+=80=99re focused on being No. 1,=E2=80=9D Pick said in a Bloomberg Televisi=
+on interview Thursday. =E2=80=9CWe want to have the right people in place. =
+We=E2=80=99ve been investing for the next cycle. That next cycle is going t=
+o be investment banking led.=E2=80=9D
+Why not; he likes investment banking. Also this is fun:
+
+In a rare setup, the firm said the two men who missed out on the top job wi=
+ll stay on. Co-President Andy Saperstein will gain oversight of the firm=E2=
+=80=99s asset-management business in addition to his role leading wealth ma=
+nagement, and Dan Simkowitz will replace Pick as co-president leading the i=
+nvestment-banking and trading division.
+The two deputies are also long-time Morgan Stanley veterans. Saperstein, 56=
+, started under Gorman at consulting giant McKinsey & Co. and was with him =
+at Merrill Lynch before following him to Morgan Stanley in 2006. Simkowitz,=
+ 58, started his career at the bank in 1990 and ran capital markets before =
+moving to run the asset-management division.
+=E2=80=9CThis doesn=E2=80=99t happen on Wall Street =E2=80=94 people don=E2=
+=80=99t stay. Every bloody pundit said this wouldn=E2=80=99t happen, but we=
+ pulled it off,=E2=80=9D [outgoing CEO James] Gorman said. =E2=80=9CIt=E2=
+=80=99s a testament to their respect for Ted in this role.=E2=80=9D
+
+To be fair you have pulled it off for like 20 hours; see if they=E2=80=99re=
+ still there in a year before bragging.
+
+ =20
+   =20
+      No HODL
+   =20
+ =20
+
+This is apparently real?
+  [15]
+
+
+MultiBank.io, the cryptocurrency exchange arm of the MultiBank Group, the w=
+orld=E2=80=99s leading financial derivatives institution, is announcing the=
+ launch of its innovative "Panic Sell" feature, marking another milestone i=
+n its ongoing commitment to enhancing the trading experience for its users.
+The "Panic Sell" feature is designed to provide traders the convenience to =
+swiftly convert all positions into a specific cryptocurrency, or even fiat =
+currency, with just a single click, allowing them to subsequently wire out =
+their funds to their bank accounts. This feature comes from the understandi=
+ng of the time-sensitive nature of trading.
+"During tumultuous market conditions, every second counts. Our 'Panic Sell'=
+ feature stems from a personal pain point I faced in my trading journey. It=
+'s not just a tool; it's our commitment to empower every MultiBank.io user =
+with swift decision-making capabilities when they need it most. It's a powe=
+rful tool we believe our traders will find invaluable.=E2=80=9D said Zak Ta=
+her, CEO at MultiBank.io. "We are at the outset of an exciting journey, arm=
+ed with a comprehensive roadmap of innovative features poised to serve as i=
+nvaluable assets for the traders of tomorrow."
+
+Honestly: reasonable? On the one hand, I  sometimes point out that often th=
+e best thing a retail broker can do for its customers is not answer the pho=
+ne during a market crash, since customers do sometimes sell irrationally at=
+ the bottom. On the other hand, not always!=C2=A0Sometimes the customers ar=
+e rational. Sometimes the best service is to let everyone sell fast, and as=
+king them to check a little box next to each asset they want to sell costs =
+precious seconds. Especially in crypto, sure, but not=C2=A0only=C2=A0in cry=
+pto.=C2=A0I suspect that some number of highly sophisticated algorithmic mu=
+lti-asset trading firms in traditional finance have a big red =E2=80=9CSELL=
+ EVERYTHING AND GO TO CASH=E2=80=9D button on the wall. Why shouldn=E2=80=
+=99t retail crypto investors?
+Also I love the name. It is pleasantly pejorative: If you want to sell ever=
+ything at once, they=E2=80=99ll=C2=A0make it easy and fast, but they=E2=80=
+=99ll also make you feel bad about it. Possibly that is the right amount of=
+ friction for your broker to provide, selling everything instantly at your =
+request but making a disappointed face at you while they do it.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+SBF  Takes the Stand in His Own Defense at Trial Over FTX Failure. FTX Clai=
+ms Rise After Potential Bidders for Shuttered Exchange Emerge. Sam Bankman-=
+Fried Testimony Is Trial Climax for  FTX Court Watchers. Jury Convicts Hedg=
+e-Fund Manager Accused of  Rigging Foreign-Exchange Market. Bitcoin Faces R=
+eality Check if   ETF Launches Spark =E2=80=98Sell-the-News=E2=80=99 Pivot.=
+ Silver Lake Looks to Privatize Hollywood Agency Titan  Endeavor. Griffin S=
+ays SEC Scrutiny of Basis Trade =E2=80=98Utterly Beyond Me.=E2=80=99=C2=A0X=
+i Jinping Is Looking for Someone to Blame for  China=E2=80=99s Property Bus=
+t. Country Garden=E2=80=99s Missed Bond Payment Triggers  CDS Payout.=C2=A0=
+Vanguard Plans to Open a   Miami Office for Offshore Latin America Wealth.=
+=C2=A0Wave of Job Cuts =E2=80=98Probably Just the Beginning=E2=80=99 at   C=
+anadian Banks.=C2=A0CEO  morning routines.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Again: oversimplifying dramatically! Basically private funds are exem=
+pt from the =E2=80=9940 Act under Section 3(c)(7), meaning that they sell o=
+nly to =E2=80=9Cqualified purchasers,=E2=80=9D meaning institutions and ind=
+ividuals with at least $5 million of investments. See Sections 3(c)(7) and =
+2(a)(51) of the Act. (Or under Section 3(c)(1), meaning that they sell to 1=
+00 or fewer =E2=80=9Caccredited investors,=E2=80=9D a lower standard.)
+
+
+  [2] See, for instance, this risk factor in KKR Infrastructure Conglomerat=
+e LLC=E2=80=99s 10-K: =E2=80=9CWe would not be able to operate our business=
+ according to our business plans if we are required to register as an inves=
+tment company under the Investment Company Act.=E2=80=9D Specifically: =E2=
+=80=9CThe Investment Company Act provides certain protections to investors =
+and imposes certain restrictions on companies that are required to be regul=
+ated as investment companies. Among other things, such rules limit or prohi=
+bit transactions with affiliates, impose limitations on the issuance of deb=
+t and equity securities and impose certain governance requirements. If the =
+Company were required to register as an investment company under the Invest=
+ment Company Act, it would be impractical for the Company to operate as con=
+templated. Agreements and arrangements between and among the Company and th=
+e Manager would be impaired, the type and amount of acquisitions that the C=
+ompany would be able to make as a principal would be limited and its busine=
+ss, financial condition and results of operations would be materially adver=
+sely affected. Accordingly, the Company would be required to take extraordi=
+nary steps to address the situation, such as the amendment or termination o=
+f the Management Agreement, the restructuring of the Company and its Joint =
+Ventures, the amendment of the Company=E2=80=99s LLC Agreement or the termi=
+nation and liquidation of the Company, any of which could materially advers=
+ely affect the value of the Shares.=E2=80=9D
+
+
+  [3] See, for instance, page 39 of KKR & Co.=E2=80=99s 10-K, noting that i=
+t has several funds that are registered investment companies under the Inve=
+stment Company Act.
+
+
+  [4] See, for instance, the =E2=80=9Cinvestment company=E2=80=9D risk fact=
+or on page 107 of KKR & Co.=E2=80=99s 8-K, which has a discussion of its Gl=
+obal Atlantic insurance subsidiary and how it is not an investment company =
+under the Investment Company Act.
+
+
+  [5] Also a portfolio of minority venture investments, and a portfolio of =
+bonds, but that=E2=80=99s fine; regular companies are allowed to own *some*=
+ securities, just not too many. People used to wonder if Apple Inc. was an =
+investment company, because it had a lot of cash that it just parked in inv=
+estment securities.
+
+
+  [6] We=20
+talked about this distinction in the context of special purpose acquisition=
+ companies, which are an oddity, a fund that is raised with the intent of b=
+ecoming a company.
+
+
+  [7] Traditionally the financing is a bit different: A conglomerate borrow=
+s centrally, using its lower cost of capital as a big diversified company, =
+while private equity portfolio companies borrow individually, insulating th=
+emselves from one another=E2=80=99s risks. We=20
+have discussed this before, though, and it is not always true.
+
+
+  [8] It=E2=80=99s the obvious comparison, but I think Berkshire is not qui=
+te a traditional conglomerate because it is also investing insurance float.
+
+
+  [9] See the infrastructure conglomerate=E2=80=99s 10-K: =E2=80=9CA key pa=
+rt of our strategy is to form Joint Ventures by pooling capital with KKR Ve=
+hicles (defined below) that target acquisitions of Infrastructure Assets th=
+at are compatible with our business strategy. We expect that we will own ne=
+arly all of our Infrastructure Assets through Joint Ventures alongside one =
+or more KKR Vehicles and that the Joint Ventures will be managed in a way t=
+hat reflects the commonality of interests between the KKR Vehicles and the =
+Company. We believe that a joint acquisition and management strategy betwee=
+n the KKR Vehicles and the Company will lead to greater opportunities to ga=
+in sufficient influence or control over Infrastructure Assets to deploy an =
+operations-oriented management approach to value creation with the objectiv=
+e of achieving both current income and capital appreciation.=E2=80=9D
+
+
+  [10] For infrastructure, that=E2=80=99s 1% or 1.25% of assets (it differs=
+ for different share classes) and 12.5% of returns. See page 14 of the 10-Q=
+.
+
+
+  [11] More technically, the covenants would generally require some maximum=
+ leverage ratio (debt to earnings before interest, taxes, depreciation and =
+amortization) or minimum coverage ratio (EBITDA to interest expense and/or =
+other fixed charges). Here is a 2019 law firm memo on covenant-lite loans, =
+with a box on the purpose of covenants.
+
+
+  [12] Also they are often CLOs, which have more inertia than most investor=
+s about renegotiating terms with borrowers.
+
+
+  [13] By =E2=80=9Cwithin the next, like, three years,=E2=80=9D I mean next=
+ week, after several readers email me today to say =E2=80=9CI actually work=
+ at a company that just launched this marketplace.=E2=80=9D
+
+
+  [14] Including=20
+prime brokerage, obviously.
+
+
+  [15] It links to a real page on MultiBank.io=E2=80=99s website, explainin=
+g how to execute a Panic Sell order.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjqmow.5hum/2b341ca3.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_9473636_2116520065.1698343924383
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Monday.Consider=
+ a Russian oligarch who invested some money in the bonds of a Ger
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33155168.256414/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMDI2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMjYmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB469006c7"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33155168.256414/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMzE1NTE2OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM0MTE1ODImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB2c0d0a13" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D33155168&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33411582&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Monday.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Euroclear</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Consider a Russian oligarch who invested some =
+money in the bonds of a German company a few years ago. After Russia invade=
+d Ukraine, the oligarch was subjected to comprehensive sanctions by the Eur=
+opean Union, forbidding anyone in the EU from doing any business with him. =
+His bonds are trapped at an EU brokerage and he can=E2=80=99t sell them. Bu=
+t then the bonds mature and the German company has to pay them back. But it=
+ can=E2=80=99t send money to the oligarch. What happens? Who gets the money=
+?</p>
+<p style=3D"margin: 16px 0;">You could imagine various theoretical possibil=
+ities:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The oligarch gets the money: Sure you=
+=E2=80=99re not generally supposed to send him money, but this is just repa=
+yment of a preexisting debt, so it doesn=E2=80=99t count.=C2=A0</li>=09<li =
+style=3D"margin-bottom: 5px;">The company keeps the money: It=E2=80=99s jus=
+t random windfall; the sanctions caused some of its bonds to disappear.</li=
+>=09<li style=3D"margin-bottom: 5px;">The EU gets the money: The sanctions =
+operate as a form of forfeiture, and instead of paying back the oligarch th=
+e company sends the bond repayment to the EU, which then spends it on defen=
+se or Ukraine aid or whatever.</li>
+</ol>
+<p style=3D"margin: 16px 0;">But the delightful actual answer is that Euroc=
+lear gets the money. The=C2=A0<a href=3D"https://link.mail.bloombergbusines=
+s.com/click/33155168.256414/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvODhmZjg4YzQ=
+tNmVmZS00MGI3LWI2MzUtODBlYjZiZDczYzJj/607f07ceef4b8524a319a23cB0a2c9bdf" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">Financial Times reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Euroclear has earned just over =E2=82=AC3bn so=
+ far this year from Russian assets frozen at the securities depository by E=
+U sanctions, in a windfall that is likely to crank up the pressure on Europ=
+ean leaders to channel the profits to Ukraine.</p>
+<p style=3D"margin: 16px 0;">The Belgium-based group said on Thursday that =
+income related to trapped Russian assets jumped in the first nine months of=
+ the year from =E2=82=AC347mn in the same period in 2022, propelled by risi=
+ng interest rates.</p>
+<p style=3D"margin: 16px 0;">The sharp rise is uncomfortable for Euroclear,=
+ which has been sitting on Russian assets since Russian president Vladimir =
+Putin ordered the full-scale invasion of Ukraine, because the EU=E2=80=99s =
+subsequent sanctions on Moscow mean it cannot move funds to Russian banks. =
+Millions of securities deals a day are tracked and settled at the Brussels-=
+based group.</p>
+<p style=3D"margin: 16px 0;">About =E2=82=AC197bn Russian assets are stuck =
+at Euroclear, according to the Belgian government. Of that total, =E2=82=AC=
+180bn are from the Russian central bank, the lion=E2=80=99s share of the $3=
+00bn of central bank assets frozen by western sanctions.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/33155168.256414/aHR0cHM6Ly93d3cuZXVyb2NsZWFyLmNvbS9uZXdz=
+YW5kaW5zaWdodHMvZW4vcHJlc3MvMjAyMy8yMDIzLW1yLTE1LWV1cm9jbGVhci1kZWxpdmVycy1=
+yb2J1c3QtcGVyZm9ybWFuY2UtcTMtMjAyMy5odG1s/607f07ceef4b8524a319a23cB4346e95f=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> Euroclear=E2=80=99s announcement</a> of its financial results, w=
+hich explains how this works. It=E2=80=99s not really that Euroclear gets t=
+o=C2=A0<em>keep=C2=A0</em>the money; it=E2=80=99s just that (1) Euroclear g=
+ets to <em>hold </em>the money until someone figures out what to do with it=
+ and (2) meanwhile, it gets to=C2=A0<em>invest=C2=A0</em>the money and keep=
+ any interest it earns. Which is a lot:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">One consequence of the sanctions is that block=
+ed coupon payments and redemptions owed to sanctioned entities results in a=
+n accumulation of cash on Euroclear Bank=E2=80=99s balance sheet. At the en=
+d of September 2023, Euroclear Bank=E2=80=99s balance sheet had increased b=
+y EUR 45 billion year-on-year to a total of EUR 164 billion.</p>
+<p style=3D"margin: 16px 0;">As per Euroclear=E2=80=99s standard process, c=
+ash balances are unremunerated and cash balances are invested to minimise c=
+redit risk. ... The interest paid on reinvestment of cash balances is net i=
+nterest income earned by Euroclear.</p>
+<p style=3D"margin: 16px 0;">In the nine months to 30 September 2023, inter=
+est arising on cash balances from Russia-sanctioned assets was approx. EUR =
+3 billion. Such interest earnings are driven by two factors: (i) the prevai=
+ling interest rates and (ii) the amount of cash balances that Euroclear is =
+required to invest.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">There are some financial businesses that consi=
+st of mechanically moving gigantic piles of cash through the pipeline and c=
+ollecting a tiny fee for your efforts. And then every so often the pipeline=
+ gets blocked and the gigantic pile of cash is yours! Weird.</p>
+<p style=3D"margin: 16px 0;">Still, other answers are possible. Possibly th=
+e money goes to the EU? Possibly to the Russians? The FT adds:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">EU officials have been grappling with how best=
+ to deploy the proceeds from Russian assets that are stuck in Europe=E2=80=
+=99s financial system. It is considering using the windfall profits Eurocle=
+ar makes for Ukraine, with EU leaders due to discuss the plans later on Thu=
+rsday. ...</p>
+<p style=3D"margin: 16px 0;">While the EU seeks to spend the profits, Euroc=
+lear is facing lawsuits from Russia to force it to hand over the money.=C2=
+=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It does seem strange for Euroclear to keep all=
+ that money just because the pipes backed up.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33155168.256414/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzE1NTE2OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM0MTE1ODImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCc769939b" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33155168&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33411582&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33155168.256414/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzE1NTE2OCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM0MTE1ODImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDc769939b" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33155168&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33411582&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Private equity</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Oversimplifying dramatically, there are two so=
+rts of investment funds in the US: public and private. Public investment fu=
+nds are most classically mutual funds, but also business development compan=
+ies and other things. They can be marketed more or less widely to individua=
+l investors, and they are subject to regulation by the US Securities and Ex=
+change Commission under the Investment Company Act of 1940.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Private investment funds are most classically =
+hedge funds and private equity funds, which restrict their investors to ins=
+titutions and very rich individuals. These funds are much less regulated, b=
+ut can=E2=80=99t be marketed widely to individual investors.<a class=3D"foo=
+tnote-index" href=3D"#footnote-1" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: none !important; background-color: transparent !importa=
+nt; display: inline-block;">
+<span>[1]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">If you run a big private equity firm, your fun=
+ds will tend to be=C2=A0<em>private=C2=A0</em>funds, like the name suggests=
+. This is very important to you, because regulation under the Investment Co=
+mpany Act would limit your flexibility a lot. It would restrict your abilit=
+y to borrow money, for instance. It would restrict the investments you coul=
+d make. Conflict-of-interest rules might restrict your ability to charge th=
+e fees you want to charge.<a class=3D"footnote-index" href=3D"#footnote-2" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: none !importan=
+t; background-color: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">On the other hand a lot more people can invest=
+ in public funds, and if you run a big enough private equity firm you will =
+want their money too. And so you might launch some public, or at least publ=
+ic-ish, funds, subjecting some of your business to more regulation in the p=
+ursuit of more assets under management.<a class=3D"footnote-index" href=3D"=
+#footnote-3" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: n=
+one !important; background-color: transparent !important; display: inline-b=
+lock;">
+<span>[3]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Really though the ideal would be to raise mone=
+y from public investors without running a public fund. One classic way to d=
+o this is with insurance: You buy or start an insurance company, the insura=
+nce company sells life insurance and annuities to public investors, and it =
+invests the float in your private equity business. The public investors are=
+n=E2=80=99t=C2=A0<em>investors in a fund</em>; they are=C2=A0<em>customers =
+of an insurance company</em>. (The insurance company, meanwhile, is a large=
+ institutional investor, so its investments are private.) This is a very po=
+pular approach and many of the big private equity firms have insurance busi=
+nesses.<a class=3D"footnote-index" href=3D"#footnote-4" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: none !important; background-color=
+: transparent !important; display: inline-block;">
+<span>[4]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">There are, I am sure, other approaches.</p>
+<p style=3D"margin: 16px 0;">But here is a really simple one. What fundamen=
+tally makes a fund a fund =E2=80=94=C2=A0particularly, what makes it a regu=
+lated investment company =E2=80=94=C2=A0is that it makes=C2=A0<em>investmen=
+ts</em>; it buys securities, fractional shares of businesses. But, like, Al=
+phabet Inc. is not a=C2=A0<em>fund</em>; it=E2=80=99s not an <em>investment=
+ company</em>. It=E2=80=99s just a=C2=A0<em>company</em>. It doesn=E2=80=99=
+t own shares in a bunch of businesses. It owns=C2=A0<em>a bunch of business=
+es</em>. (Google, YouTube, various moonshots, etc.<a class=3D"footnote-inde=
+x" href=3D"#footnote-5" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: none !important; background-color: transparent !important; displa=
+y: inline-block;">
+<span>[5]</span>
+</a>) If you own the whole company =E2=80=94=C2=A0or several whole companie=
+s =E2=80=94=C2=A0then you are not a fund; you=E2=80=99re just a company.<a =
+class=3D"footnote-index" href=3D"#footnote-6" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: none !important; background-color: transpar=
+ent !important; display: inline-block;">
+<span>[6]</span>
+</a> Or a =E2=80=9Cholding company.=E2=80=9D Or, in the classic terminology=
+, a =E2=80=9Cconglomerate.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">If you run a big private equity firm you are, =
+in some loose sense, running a conglomerate anyway. You control=C2=A0a bunc=
+h of companies and try to run them somewhat independently (while imposing s=
+ome best practices and central oversight).<a class=3D"footnote-index" href=
+=3D"#footnote-7" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[7]</span>
+</a> Why not =E2=80=A6=C2=A0launch a conglomerate? Just a regular company, =
+that owns some of your portfolio companies, and that raises money from inve=
+stors? You could raise money broadly from retail investors, without being s=
+ubject to Investment Company Act restrictions. Plus your money would be=C2=
+=A0permanent:<em>=C2=A0</em>Instead of having to return money to investors =
+at the end of the fund=E2=80=99s life, you=E2=80=99d have a corporation tha=
+t could keep its capital forever.</p>
+<p style=3D"margin: 16px 0;">You could imagine taking this quite far: Plop =
+some portfolio companies into one big holding company, do an initial public=
+ offering, sell shares to the public, acquire new companies by issuing new =
+shares (either to the targets or to public investors to raise cash) and jus=
+t, sort of, be a regular public conglomerate? Like Berkshire Hathaway Inc.,=
+<a class=3D"footnote-index" href=3D"#footnote-8" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: none !important; background-color: trans=
+parent !important; display: inline-block;">
+<span>[8]</span>
+</a>=C2=A0or like 3M Co. I suppose if you did that it would be harder to ch=
+arge the fees you want to charge. Also your company would be <em>public</em=
+>, which (1) sort of undermines the name =E2=80=9Cprivate equity=E2=80=9D a=
+nd (2) subjects you to the whims of daily market prices, activism, etc.</p>
+<p style=3D"margin: 16px 0;">But you could take smaller steps into conglome=
+racy. Bloomberg=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/33155168.256414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGV=
+zLzIwMjMtMTAtMjUvcHJpdmF0ZS1lcXVpdHktcy1ra3Itd2FudHMtcGFydC1vZi1yZXRpcmVtZW=
+50LXNhdmluZ3Mtd2l0aC1maWRlbGl0eS1zY2h3YWI_Y21waWQ9QkJEMTAyNjIzX01PTkVZU1RVR=
+kYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMDI2=
+JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB90636b1b" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> Miles Weiss reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Schwab and Fidelity are listed alongside Morga=
+n Stanley Smith Barney and Rockefeller Financial in regulatory filings as p=
+otentially receiving compensation through a private placement by KKR Infras=
+tructure Conglomerate.</p>
+<p style=3D"margin: 16px 0;">KKR, Schwab and Fidelity declined to comment o=
+n the entity, one of two flagships created to raise money from rich individ=
+uals. The other is KKR Private Equity Conglomerate.</p>
+<p style=3D"margin: 16px 0;">The two conglomerates have raised more than $2=
+ billion combined since May, according to Kevin Gannon, chief executive off=
+icer of Robert A. Stanger &amp; Co., an investment bank whose specialties i=
+nclude alternatives such as non-listed real estate investment trusts and bu=
+siness development companies. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The two conglomerates mark the first time that=
+ KKR has directly opened its infrastructure and private equity deals to acc=
+redited investors, a category that generally includes the mass affluent. KK=
+R plans to draw 30% to 50% of its new capital from the private wealth secto=
+r, up from about 15% now, Chief Financial Officer Robert Lewin said in a Fe=
+bruary conference call.=C2=A0=E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The conglomerates were formed as operating com=
+panies rather than investment funds, meaning they=E2=80=99re direct owners =
+of actual businesses and hard assets =E2=80=94 such as toll roads and airpo=
+rts =E2=80=93 instead of securities and shares of other funds. They=E2=80=
+=99ll directly co-invest in buyouts and infrastructure deals through joint =
+ventures with the main private equity and infrastructure funds that KKR run=
+s for institutional investors.</p>
+<p style=3D"margin: 16px 0;">As operating companies, the conglomerates also=
+ qualify for exemptions from rules that would otherwise cap the amount of I=
+RA money they can take in at 25% of net assets. While this structure has be=
+en previously used by the likes of Brookfield Infrastructure Partners, whos=
+e shares are publicly traded, the major PE firms are just now starting to a=
+dopt it. In June, Apollo Global Management Inc. filed documents for an infr=
+astructure entity that=E2=80=99s in many ways identical to KKR=E2=80=99s.=
+=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It=E2=80=99s a bit more complicated than that:=
+ The conglomerates own <em>joint ventures</em>=C2=A0alongside other (privat=
+e) KKR-run funds, somewhere in between owning whole companies/assets and ow=
+ning stock in those companies.<a class=3D"footnote-index" href=3D"#footnote=
+-9" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: none !impo=
+rtant; background-color: transparent !important; display: inline-block;">
+<span>[9]</span>
+</a> KKR manages the conglomerates and gets management and performance fees=
+.<a class=3D"footnote-index" href=3D"#footnote-10" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: none !important; background-color: tra=
+nsparent !important; display: inline-block;">
+<span>[10]</span>
+</a>=C2=A0Also the conglomerates are not traditional public companies; they=
+ make public filings, but sell their shares privately to accredited investo=
+rs. Still, these are baby steps into running a private equity fund in the f=
+orm of a public company.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Private credit</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">There used to be two main ways for companies t=
+o borrow money: bonds=C2=A0and bank loans. Bonds were sold publicly to big =
+investors (insurance companies, mutual funds, etc.) and traded in a reasona=
+bly active secondary market. Bank loans were made by banks that had deep lo=
+ngstanding relationships with their borrowers, and were then held by those =
+banks to maturity. There were other differences (in seniority, collateral, =
+term, rates, etc.), which were driven in part by the different investor bas=
+es and relationships.</p>
+<p style=3D"margin: 16px 0;">For instance, bank loans to risky companies of=
+ten had=C2=A0<em>maintenance covenants</em>, requiring the company to have =
+at least some minimum amount of earnings every quarter.<a class=3D"footnote=
+-index" href=3D"#footnote-11" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: none !important; background-color: transparent !important; =
+display: inline-block;">
+<span>[11]</span>
+</a> If the company=E2=80=99s income cratered, it would be in default on it=
+s loan. And then it would call up its relationship bank and say =E2=80=9Che=
+y we have a problem,=E2=80=9D and the bank and the company would work out s=
+ome mutually beneficial solution. The covenants gave the bank leverage over=
+ the company if things went wrong; the long-term relationship between the b=
+ank and the company made this reasonable. Bonds <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/33155168.256414/aHR0cHM6Ly93d3cubWF5ZXJicm93b=
+i5jb20vLS9tZWRpYS9maWxlcy9wZXJzcGVjdGl2ZXMtZXZlbnRzL3B1YmxpY2F0aW9ucy8yMDE2=
+LzEyL2hpZ2gteWllbGQtYm9uZHMtLWFuLWlzc3VlcnMtZ3VpZGUtdXMtZWRpdGlvbi9maWxlcy9=
+kb3dubG9hZC1ndWlkZS9maWxlYXR0YWNobWVudC9tYl9oaWdoX3lpZWxkc19ub3Rlc19ndWlkZV=
+8yMDE2LnBkZg/607f07ceef4b8524a319a23cB7de80629" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">generally did not h=
+ave maintenance covenants</a>, in part because bondholders were traditional=
+ly dispersed public investors who couldn=E2=80=99t monitor the company as w=
+ell as the banks, or negotiate efficiently if it ran into trouble.</p>
+<p style=3D"margin: 16px 0;">This is all very quaint and old-timey, and for=
+ many years now =E2=80=9Cbank loans=E2=80=9D to non-investment-grade compan=
+ies have been widely syndicated to non-banks, hedge funds and collateralize=
+d loan obligations and other institutional investors. The markets have, to =
+a quite large extent, converged: Bonds and loans are now sold to overlappin=
+g groups of institutional investors, they both trade in similar secondary m=
+arkets, etc. There are still some real differences (loans are still more of=
+ten floating-rate and secured), and some weird vestigial differences (<a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/33155168.256414/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDgtMjgvbG9hbnMtc3=
+RpbGwtYXJlbi10LXNlY3VyaXRpZXM_Y21waWQ9QkJEMTAyNjIzX01PTkVZU1RVRkYmdXRtX21lZ=
+Gl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMDI2JnV0bV9jYW1w=
+YWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBdb7ff078" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">loans are s=
+till not considered =E2=80=9Csecurities=E2=80=9D</a> under US securities la=
+w), but bonds and loans are much more interchangeable than they used to be.=
+=C2=A0</p>
+<p style=3D"margin: 16px 0;">Also leveraged bank loans are now commonly =E2=
+=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/33155168.256=
+414/aHR0cHM6Ly93d3cucGF1bHdlaXNzLmNvbS9tZWRpYS8zOTc4ODg3L2dvb2Rpc29uX3dhZ25=
+lcl9wcmFjdGljYWxsYXdfYXVnMjAxOV91cGRhdGUucGRm/607f07ceef4b8524a319a23cBf78e=
+cb6a" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">covenant-lite</a>,=E2=80=9D meaning that they no longer have =
+maintenance covenants. For the same reason that bonds have not traditionall=
+y had maintenance covenants: Loan investors are now dispersed institutions =
+without much relationship with the issuer,<a class=3D"footnote-index" href=
+=3D"#footnote-12" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: none !important; background-color: transparent !important; display: inl=
+ine-block;">
+<span>[12]</span>
+</a> so issuers do not want to have to renegotiate their loans with those i=
+nvestors if their business gets worse.</p>
+<p style=3D"margin: 16px 0;">Now there is a third way for companies to borr=
+ow money, =E2=80=9Cprivate credit,=E2=80=9D in which one or more big lender=
+s (specialized asset managers, private-equity managers, insurance companies=
+, business development companies) negotiates directly with the company in a=
+ way that cuts out banks. We have <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33155168.256414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMjMtMDYtMjcvc2lsaWNvbi12YWxsZXktaXMtb24tZHJ1Z3M_Y21waWQ9Qk=
+JEMTAyNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0Z=
+XImdXRtX3Rlcm09MjMxMDI2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a31=
+9a23cB01efedd2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> talked about this before</a>. Private credit deals=
+ are different from bank loan and bond deals, for reasons that have to do w=
+ith the different participants and relationships in that market; they are d=
+esigned to serve different needs from traditional bank loans or bond deals.=
+</p>
+<p style=3D"margin: 16px 0;">For instance, private credit has done a good j=
+ob recently of lending to leveraged buyouts. Traditionally the way to get L=
+BO financing was to go to a bank to get a commitment letter; the bank would=
+ promise to raise $X billion of financing by selling bonds and loans, but w=
+ould retain some flexibility on the exact terms and costs of that financing=
+. Private credit investors can promise to do the whole $X billion of financ=
+ing themselves, at fixed terms, giving the LBO sponsor more certainty. In c=
+hoppy markets, people like that.</p>
+<p style=3D"margin: 16px 0;">Still my vague sense is that we are at the beg=
+inning of another long convergence, and that sometime within the next, like=
+, three years, I am going to be writing about a story like =E2=80=9CCompany=
+ X is launching a marketplace to allow private credit lenders to trade loan=
+s.=E2=80=9D<a class=3D"footnote-index" href=3D"#footnote-13" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: none !important; background-=
+color: transparent !important; display: inline-block;">
+<span>[13]</span>
+</a> Why not? Credit investors will want to invest in good credits regardle=
+ss of their formal classification, and everybody wants to be able to sell w=
+hen they want to. I just assume that eventually =E2=80=9Cprivate credit=E2=
+=80=9D will feel like a misnomer, the way =E2=80=9Cbank loan=E2=80=9D does =
+today.</p>
+<p style=3D"margin: 16px 0;">Anyway <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/33155168.256414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL=
+2FydGljbGVzLzIwMjMtMTAtMjYvcHJpdmF0ZS1jcmVkaXQtbGVuZGVycy1naXZpbmctdXAtcHJv=
+dGVjdGlvbnMtdG8td2luLWJpZ2dlci1kZWFscz9jbXBpZD1CQkQxMDI2MjNfTU9ORVlTVFVGRiZ=
+1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMjYmdX=
+RtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBa8e09079" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ here=E2=80=99s Bloomberg=E2=80=99s Paula Seligson</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Private credit firms seeking to capture market=
+ share from traditional bank lenders are giving up investor protections as =
+they snag larger financings, according to Moody=E2=80=99s Investors Service=
+.</p>
+<p style=3D"margin: 16px 0;">Direct lenders have been siphoning business fr=
+om the broadly-syndicated leveraged loan market in recent years, in part by=
+ staking a claim to increasingly larger deals. But an analysis by the credi=
+t-rating firm shows that legal safeguards that protect investors tend to we=
+aken as the size of the transactions increase.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CPrivate credit is dropping maintenanc=
+e covenants in larger deals,=E2=80=9D analysts including Derek Gluckman wro=
+te in a Thursday report, referring to a type of investor protection that re=
+quires companies to periodically meet certain tests of financial health. Le=
+veraged loans discarded the safeguards years ago and most are now considere=
+d =E2=80=98covenant-lite.=E2=80=99 Direct lenders are following suit, Moody=
+=E2=80=99s says, noting that only 7% of private credit loans larger than $5=
+00 million in its analysis had maintenance covenants, compared to 67% of lo=
+ans smaller than $250 million. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The global $1.5 trillion private credit market=
+ has been known for more conservative deal terms that give lenders increase=
+d control over the debt and the company if things go wrong, whereas the com=
+petition of numerous lenders trying to get into the same deals has led cove=
+nants to erode over time in the broadly-syndicated market.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CPrivate credit loans are strikingly m=
+ore protective than broadly-syndicated loans, but differences will narrow,=
+=E2=80=9D Moody=E2=80=99s wrote. =E2=80=9CThe ramparts between public and p=
+rivate lenders will come down as competitive pressures mount, just as the s=
+ame protections eroded in the broadly-syndicated loan market over time.=E2=
+=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Right now, private credit lenders are much mor=
+e likely than bond=C2=A0<em>or=C2=A0</em>bank loan investors to be=C2=A0<em=
+>relationship=C2=A0</em>lenders, to get to know the company well, lend it m=
+oney and hold the loan to maturity. But give that some time and it will cha=
+nge.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Ted Pick</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I suppose one theory of CEO succession is that=
+ the next chief executive officer of a firm should be the person who runs t=
+he division that makes the most money, that contributes most to the firm, t=
+hat is the firm=E2=80=99s intended future. And another theory would be that=
+ the next CEO should be the person who runs the division that could=C2=A0<e=
+m>lose=C2=A0</em>the most money. If there=E2=80=99s a problem, that guy can=
+ fix it! Whereas the guy who runs the consistent moneymaker has had it too =
+easy; what does he know about risk?</p>
+<p style=3D"margin: 16px 0;">In general, big modern investment banks want t=
+o tell their shareholders a story about some <em>other </em>business =E2=80=
+=94=C2=A0asset management, wealth management, <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/33155168.256414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMjgvZ29sZG1hbi1raWNrcy1vZmYtaW52ZXN0b3ItZG=
+F5LXdpdGgtcmVwb3J0LWNhcmQtb24tY2VvLXNvbG9tb24_Y21waWQ9QkJEMTAyNjIzX01PTkVZU=
+1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMx=
+MDI2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBaa8f10db" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;"> retail banking (?)</a> =E2=80=94=C2=A0that offers more stable revenue=
+s than traditional investment banking and sales and trading. But if a big m=
+odern investment bank is going to incinerate itself in a week, it=E2=80=99s=
+ probably going to be in the sales and trading business inside the investme=
+nt bank.<a class=3D"footnote-index" href=3D"#footnote-14" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: none !important; background-col=
+or: transparent !important; display: inline-block;">
+<span>[14]</span>
+</a>=C2=A0=E2=80=9CEnormous reputational disaster in wealth management=E2=
+=80=9D is also a good candidate. Of course <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/33155168.256414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTAvc3RhcnR1cC1iYW5rLWhhZC1hLXN0YXJ0dXAtY=
+mFuay1ydW4_Y21waWQ9QkJEMTAyNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1f=
+c291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMDI2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZ=
+m/607f07ceef4b8524a319a23cBa5d82821" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;"> retail banking has problems t=
+oo</a>. Still, the traditional way to go bust fast is in the investment ban=
+k.</p>
+<p style=3D"margin: 16px 0;">And so if you are choosing the next CEO of a u=
+niversal investment bank, the guy running asset management might represent =
+the future, but the guy running investment banking might be the guy you nee=
+d.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Anyway the next chief executive officer of Mor=
+gan Stanley <a href=3D"https://link.mail.bloombergbusiness.com/click/331551=
+68.256414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtM=
+jUvcGljay1zLWxvbmctcmlzZS1hdC1tb3JnYW4tc3RhbmxleS1wZWFrcy13aXRoLXN1bW1vbnMt=
+ZnJvbS1ib3NzP2NtcGlkPUJCRDEwMjYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXR=
+tX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTAyNiZ1dG1fY2FtcGFpZ249bW9uZXlzdH=
+VmZg/607f07ceef4b8524a319a23cB1ebb7725" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> is Ted Pick</a>, who curre=
+ntly runs investment banking and sales and trading. The <a href=3D"https://=
+link.mail.bloombergbusiness.com/click/33155168.256414/aHR0cHM6Ly93d3cuZnQuY=
+29tL2NvbnRlbnQvYzk4NTE1MWUtMTg5Ny00ODI1LWFhM2MtZDRjNjE3MzUxNzAw/607f07ceef4=
+b8524a319a23cB324822e3" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">Financial Times notes</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">One immediate hurdle for Pick will be to clari=
+fy the optics of an investment banker having got the job ahead of the bosse=
+s of Morgan Stanley=E2=80=99s wealth and asset management divisions, its tw=
+o major growth drivers.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThe downside is a perceived de-emphas=
+is of wealth management within the company,=E2=80=9D said Christian Bolu, b=
+anking analyst at Autonomous Research. =E2=80=9CThat certainly to investors=
+ is a risk. So I think he has to communicate very early on that wealth mana=
+gement is still the driver of the long-term growth of the business.=E2=80=
+=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Nevertheless, Pick=E2=80=99s running of invest=
+ment banking and his head for risk was seen as a big selling point to Morga=
+n Stanley=E2=80=99s board of directors during the selection process, accord=
+ing to people familiar with the matter.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">On the other hand,=C2=A0<em>is=C2=A0</em>he co=
+mmunicating very clearly that wealth management is still the driver of the =
+long-term growth of the business? <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33155168.256414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjMtMTAtMjYvbW9yZ2FuLXN0YW5sZXktcy1waWNrLXNheXMtaW52ZXN0bWVudC=
+1iYW5raW5nLXRvLWxlYWQtbmV4dC1jeWNsZT9jbXBpZD1CQkQxMDI2MjNfTU9ORVlTVFVGRiZ1d=
+G1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMjYmdXRt=
+X2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb7530615" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">    =
+I dunno</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">=E2=80=9CIn equities and fixed inc=
+ome and across investment banking, we=E2=80=99re focused on being No. 1,=E2=
+=80=9D Pick said in a Bloomberg Television interview Thursday. =E2=80=9CWe =
+want to have the right people in place. We=E2=80=99ve been investing for th=
+e next cycle. That next cycle is going to be investment banking led.=E2=80=
+=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">Why not; he likes investment banking. Also thi=
+s is fun:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In a rare setup, the firm said the two men who=
+ missed out on the top job will stay on. Co-President Andy Saperstein will =
+gain oversight of the firm=E2=80=99s asset-management business in addition =
+to his role leading wealth management, and Dan Simkowitz will replace Pick =
+as co-president leading the investment-banking and trading division.</p>
+<p style=3D"margin: 16px 0;">The two deputies are also long-time Morgan Sta=
+nley veterans. Saperstein, 56, started under Gorman at consulting giant McK=
+insey &amp; Co. and was with him at Merrill Lynch before following him to M=
+organ Stanley in 2006. Simkowitz, 58, started his career at the bank in 199=
+0 and ran capital markets before moving to run the asset-management divisio=
+n.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThis doesn=E2=80=99t happen on Wall S=
+treet =E2=80=94 people don=E2=80=99t stay. Every bloody pundit said this wo=
+uldn=E2=80=99t happen, but we pulled it off,=E2=80=9D [outgoing CEO James] =
+Gorman said. =E2=80=9CIt=E2=80=99s a testament to their respect for Ted in =
+this role.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">To be fair you have pulled it off for like 20 =
+hours; see if they=E2=80=99re still there in a year before bragging.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">No HODL</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">This is <a href=3D"https://link.mail.bloomberg=
+business.com/click/33155168.256414/aHR0cHM6Ly9hcGlnYXRld2F5LmFnaWxpdHlwci5j=
+b20vZGlzdHJpYnV0aW9ucy9oaXN0b3J5L2YzMzQ3NDg2LWFjZjMtNGIyMi1hMjI2LWZlNWM0NzE=
+4NWQ1NQ/607f07ceef4b8524a319a23cBaf10bb55" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">apparently real</a>?<a c=
+lass=3D"footnote-index" href=3D"#footnote-15" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: none !important; background-color: transpar=
+ent !important; display: inline-block;">
+<span>[15]</span>
+</a></p>
+<blockquote>
+<p style=3D"margin: 16px 0;">MultiBank.io, the cryptocurrency exchange arm =
+of the MultiBank Group, the world=E2=80=99s leading financial derivatives i=
+nstitution, is announcing the launch of its innovative "Panic Sell" feature=
+, marking another milestone in its ongoing commitment to enhancing the trad=
+ing experience for its users.</p>
+<p style=3D"margin: 16px 0;">The "Panic Sell" feature is designed to provid=
+e traders the convenience to swiftly convert all positions into a specific =
+cryptocurrency, or even fiat currency, with just a single click, allowing t=
+hem to subsequently wire out their funds to their bank accounts. This featu=
+re comes from the understanding of the time-sensitive nature of trading.</p=
+>
+<p style=3D"margin: 16px 0;">"During tumultuous market conditions, every se=
+cond counts. Our 'Panic Sell' feature stems from a personal pain point I fa=
+ced in my trading journey. It's not just a tool; it's our commitment to emp=
+ower every MultiBank.io user with swift decision-making capabilities when t=
+hey need it most. It's a powerful tool we believe our traders will find inv=
+aluable.=E2=80=9D said Zak Taher, CEO at MultiBank.io. "We are at the outse=
+t of an exciting journey, armed with a comprehensive roadmap of innovative =
+features poised to serve as invaluable assets for the traders of tomorrow."=
+</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Honestly: reasonable? On the one hand, I <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/33155168.256414/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDMtMDMvcm9iaW5ob2=
+9kLXBpY2tlZC1hLWJhZC1kYXktdG8tYnJlYWs_Y21waWQ9QkJEMTAyNjIzX01PTkVZU1RVRkYmd=
+XRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMDI2JnV0=
+bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB2d051a11" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> so=
+metimes point out</a> that often the best thing a retail broker can do for =
+its customers is not answer the phone during a market crash, since customer=
+s do sometimes sell irrationally at the bottom. On the other hand, not alwa=
+ys!=C2=A0Sometimes the customers are rational. Sometimes the best service i=
+s to let everyone sell fast, and asking them to check a little box next to =
+each asset they want to sell costs precious seconds. Especially in crypto, =
+sure, but not=C2=A0<em>only=C2=A0</em>in crypto.=C2=A0I suspect that some n=
+umber of highly sophisticated algorithmic multi-asset trading firms in trad=
+itional finance have a big red =E2=80=9CSELL EVERYTHING AND GO TO CASH=E2=
+=80=9D button on the wall. Why shouldn=E2=80=99t retail crypto investors?</=
+p>
+<p style=3D"margin: 16px 0;">Also I love the name. It is pleasantly pejorat=
+ive: If you want to sell everything at once, they=E2=80=99ll=C2=A0make it e=
+asy and fast, but they=E2=80=99ll also make you feel bad about it. Possibly=
+ that is the right amount of friction for your broker to provide, selling e=
+verything instantly at your request but making a disappointed face at you w=
+hile they do it.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">SBF <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/33155168.256414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2xp=
+dmUtYmxvZy8yMDIzLTEwLTI2L3NhbS1iYW5rbWFuLWZyaWVkLXRlc3RpZmllcy1hdC1mcmF1ZC1=
+0cmlhbD9jbXBpZD1CQkQxMDI2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3=
+VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzEwMjYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/6=
+07f07ceef4b8524a319a23cB83e823c6" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> Takes the Stand</a> in His Own D=
+efense at Trial Over FTX Failure. <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33155168.256414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjMtMTAtMjUvZnR4LWNsYWltcy1yaXNlLWFmdGVyLXBvdGVudGlhbC1iaWRkZX=
+JzLWZvci1zaHV0dGVyZWQtZXhjaGFuZ2UtZW1lcmdlP2NtcGlkPUJCRDEwMjYyM19NT05FWVNUV=
+UZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTAy=
+NiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB83cb8da4" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">FTX Claims Rise</a> After Potential Bidders for Shuttered Exchange Emerg=
+e. Sam Bankman-Fried Testimony Is Trial Climax for <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/33155168.256414/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMjYvYmFua21hbi1mcmllZC10ZXN0aW1vbnkta=
+XMtdHJpYWwtY2xpbWF4LWZvci1mdHgtY291cnQtd2F0Y2hlcnM_Y21waWQ9QkJEMTAyNjIzX01P=
+TkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm0=
+9MjMxMDI2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB4cbef848=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> FTX Court Watchers</a>. Jury Convicts Hedge-Fund Manager Accused=
+ of <a href=3D"https://link.mail.bloombergbusiness.com/click/33155168.25641=
+4/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL2N1cnJlbmNpZXMvanVyeS1jb252aWN0cy1oZ=
+WRnZS1mdW5kLW1hbmFnZXItYWNjdXNlZC1vZi1yaWdnaW5nLWZvcmVpZ24tZXhjaGFuZ2UtbWFy=
+a2V0LWQwYjFkODljP21vZD1pdHBfd3Nq/607f07ceef4b8524a319a23cB64587605" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> Rigging Foreign-Exchange Market</a>. Bitcoin Faces Reality Check if <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/33155168.256414/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMjYvYml0Y29pbi1idG=
+MtZmFjZXMtcmVhbGl0eS1jaGVjay1pZi1ldGZzLXNwYXJrLXNlbGwtdGhlLW5ld3MtcGl2b3Q_Y=
+21waWQ9QkJEMTAyNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5l=
+d3NsZXR0ZXImdXRtX3Rlcm09MjMxMDI2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB8424024d" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">  ETF Launches</a> Spark =E2=80=98Sell-the=
+-News=E2=80=99 Pivot. Silver Lake Looks to Privatize Hollywood Agency Titan=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/33155168.256414/a=
+HR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmVzcy9tZWRpYS9zaWx2ZXItbGFrZS1sb29rcy10by1w=
+cml2YXRpemUtaG9sbHl3b29kLWFnZW5jeS10aXRhbi1lbmRlYXZvci0xMTlhMGEzZj9tb2Q9aXR=
+wX3dzag/607f07ceef4b8524a319a23cBdbb7a28a" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Endeavor</a>. Griffin S=
+ays SEC Scrutiny of Basis Trade =E2=80=98<a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/33155168.256414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9u=
+ZXdzL2FydGljbGVzLzIwMjMtMTAtMjUva2VuLWdyaWZmaW4tc2F5cy1zZWMtc2NydXRpbnktb2Y=
+tYmFzaXMtdHJhZGUtdXR0ZXJseS1iZXlvbmQtbWU_Y21waWQ9QkJEMTAyNjIzX01PTkVZU1RVRk=
+YmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMDI2J=
+nV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB6757ead0" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+Utterly Beyond Me</a>.=E2=80=99=C2=A0Xi Jinping Is Looking for Someone to B=
+lame for <a href=3D"https://link.mail.bloombergbusiness.com/click/33155168.=
+256414/aHR0cHM6Ly93d3cud3NqLmNvbS93b3JsZC9jaGluYS94aS1qaW5waW5nLWlzLWxvb2tp=
+bmctZm9yLXNvbWVvbmUtdG8tYmxhbWUtZm9yLWNoaW5hcy1wcm9wZXJ0eS1idXN0LWZjYTY3MjZ=
+mP21vZD1ocF9sZWFkX3BvczU/607f07ceef4b8524a319a23cBa35e37c1" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> China=
+=E2=80=99s Property Bust</a>. Country Garden=E2=80=99s Missed Bond Payment =
+Triggers <a href=3D"https://link.mail.bloombergbusiness.com/click/33155168.=
+256414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMjYv=
+Y291bnRyeS1nYXJkZW4tcy1taXNzZWQtYm9uZC1wYXltZW50LXRyaWdnZXJzLWNkcy1wYXlvdXQ=
+_Y21waWQ9QkJEMTAyNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW=
+5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMDI2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ce=
+ef4b8524a319a23cB143fb7d2" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;"> CDS Payout</a>.=C2=A0Vanguard Plans to =
+Open a <a href=3D"https://link.mail.bloombergbusiness.com/click/33155168.25=
+6414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTAtMjYvdm=
+FuZ3VhcmQtdG8tb3Blbi1taWFtaS1vZmZpY2UtZm9yLW9mZnNob3JlLWxhdGluLWFtZXJpY2Etd=
+2VhbHRoP2NtcGlkPUJCRDEwMjYyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3Nv=
+dXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTAyNiZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/=
+607f07ceef4b8524a319a23cB8143b40c" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">  Miami Office</a> for Offshore =
+Latin America Wealth.=C2=A0Wave of Job Cuts =E2=80=98Probably Just the Begi=
+nning=E2=80=99 at <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+33155168.256414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjM=
+tMTAtMjYvd2F2ZS1vZi1qb2ItY3V0cy1wcm9iYWJseS1qdXN0LXRoZS1iZWdpbm5pbmctYXQtY2=
+FuYWRpYW4tYmFua3M_Y21waWQ9QkJEMTAyNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpb=
+CZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMDI2JnV0bV9jYW1wYWlnbj1tb25l=
+eXN0dWZm/607f07ceef4b8524a319a23cBed9f2fae" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">  Canadian Banks</a>.=
+=C2=A0CEO <a href=3D"https://link.mail.bloombergbusiness.com/click/33155168=
+.256414/aHR0cHM6Ly93d3cud3NqLmNvbS9saWZlc3R5bGUvY2FyZWVycy9jZW8tbW9ybmluZy1=
+yb3V0aW5lcy1hcmUtYmFuYW5hcy1zby1pLXRyaWVkLWEtZmV3LWNlYTdlNTU0/607f07ceef4b8=
+524a319a23cB76efff95" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> morning routines</a>.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33155168.256414/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB765199bc" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33155168.256414/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB004a001e" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Again: oversimplifying dramatically! Basic=
+ally private funds are exempt from the =E2=80=9940 Act under <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/33155168.256414/aHR0cHM6Ly93d3cu=
+aW52ZXN0b3BlZGlhLmNvbS90ZXJtcy8xLzNjNy5hc3A/607f07ceef4b8524a319a23cBbd6ce7=
+7d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">Section 3(c)(7)</a>, meaning that they sell only to =E2=80=9Cq=
+ualified purchasers,=E2=80=9D meaning institutions and individuals with at =
+least $5 million of investments. See Sections 3(c)(7) and 2(a)(51) of <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/33155168.256414/aHR0cHM=
+6Ly93d3cuZ292aW5mby5nb3YvY29udGVudC9wa2cvQ09NUFMtMTg3OS9wZGYvQ09NUFMtMTg3OS=
+5wZGY/607f07ceef4b8524a319a23cB3c9cbf32" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">the Act</a>. (Or under S=
+ection 3(c)(1), meaning that they sell to 100 or fewer =E2=80=9Caccredited =
+investors,=E2=80=9D a lower standard.)</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] See, for instance, <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/33155168.256414/aHR0cHM6Ly93d3cuZ292aW5mb=
+y5nb3YvY29udGVudC9wa2cvQ09NUFMtMTg3OS9wZGYvQ09NUFMtMTg3OS5wZGY/607f07ceef4b=
+8524a319a23cC3c9cbf32" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">this risk factor</a> in KKR Infrastructure C=
+onglomerate LLC=E2=80=99s 10-K: =E2=80=9CWe would not be able to operate ou=
+r business according to our business plans if we are required to register a=
+s an investment company under the Investment Company Act.=E2=80=9D Specific=
+ally: =E2=80=9CThe Investment Company Act provides certain protections to i=
+nvestors and imposes certain restrictions on companies that are required to=
+ be regulated as investment companies. Among other things, such rules limit=
+ or prohibit transactions with affiliates, impose limitations on the issuan=
+ce of debt and equity securities and impose certain governance requirements=
+. If the Company were required to register as an investment company under t=
+he Investment Company Act, it would be impractical for the Company to opera=
+te as contemplated. Agreements and arrangements between and among the Compa=
+ny and the Manager would be impaired, the type and amount of acquisitions t=
+hat the Company would be able to make as a principal would be limited and i=
+ts business, financial condition and results of operations would be materia=
+lly adversely affected. Accordingly, the Company would be required to take =
+extraordinary steps to address the situation, such as the amendment or term=
+ination of the Management Agreement, the restructuring of the Company and i=
+ts Joint Ventures, the amendment of the Company=E2=80=99s LLC Agreement or =
+the termination and liquidation of the Company, any of which could material=
+ly adversely affect the value of the Shares.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] See, for instance, page 39 of <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/33155168.256414/aHR0cHM6Ly93d3=
+cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdGEvMTQwNDkxMi8wMDAxNDA0OTEyM=
+jMwMDAwMDUva2tyLTIwMjIxMjMxLmh0bQ/607f07ceef4b8524a319a23cB629e6219" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">KKR &amp; Co.=E2=80=99s 10-K</a>, noting that it has several funds that a=
+re registered investment companies under the Investment Company Act.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] See, for instance, the =E2=80=9Cinvestment=
+ company=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+33155168.256414/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2R=
+hdGEvMTQwNDkxMi8wMDAxNDA0OTEyMjMwMDAwMDUva2tyLTIwMjIxMjMxLmh0bSNpODgwNmU1MW=
+I4YzdkNDliY2FlYmM2NWNhNTNhODE5ZTRfMzc1MQ/607f07ceef4b8524a319a23cB7a17c740"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;">risk factor</a> on page 107 of KKR &amp; Co.=E2=80=99s 8-K, which =
+has a discussion of its Global Atlantic insurance subsidiary and how it is =
+not an investment company under the Investment Company Act.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] Also a portfolio of minority venture inves=
+tments, and a portfolio of bonds, but that=E2=80=99s fine; regular companie=
+s are allowed to own *some* securities, just not too many. People used to <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/33155168.256414/aHR=
+0cHM6Ly93d3cuY29tcGxpYW5jZWJ1aWxkaW5nLmNvbS8yMDEyLzAzLzI2L2lzLWFwcGxlLWEtaG=
+VkZ2UtZnVuZC8/607f07ceef4b8524a319a23cB897d9593" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">wonder if Apple In=
+c. was an investment company</a>, because it had a lot of cash that it just=
+ parked in investment securities.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] We <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/33155168.256414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjEtMDgtMjMvc3BhYy1zdWl0LWxlYWRzLXRvLXNwYXJjcz9jbXBpZD1C=
+QkQxMDI2MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHR=
+lciZ1dG1fdGVybT0yMzEwMjYmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a3=
+19a23cB6dad208c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">
+talked about this distinction</a> in the context of special purpose acquisi=
+tion companies, which are an oddity, a fund that is raised with the intent =
+of becoming a company.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] Traditionally the financing is a bit diffe=
+rent: A conglomerate borrows centrally, using its lower cost of capital as =
+a big diversified company, while private equity portfolio companies borrow =
+individually, insulating themselves from one another=E2=80=99s risks. We <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/33155168.256414/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDktMTgvc2N1bHB=
+0b3Itc3RpY2tzLXdpdGgtdGhlLWRlYWwtaXQta25vd3M_Y21waWQ9QkJEMTAyNjIzX01PTkVZU1=
+RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxM=
+DI2JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB55e55cea" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">
+have discussed this before</a>, though, and it is not always true.</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] It=E2=80=99s the obvious comparison, but I=
+ think Berkshire is not quite a traditional conglomerate because it is also=
+ investing insurance float.</p>
+</div>
+<div id=3D"footnote-9" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[9] See <a href=3D"https://link.mail.bloomberg=
+business.com/click/33155168.256414/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0Fy=
+Y2hpdmVzL2VkZ2FyL2RhdGEvMTk0ODA1Ni8wMDAxOTQ4MDU2MjMwMDAwMDQva2tyLTIwMjIxMjM=
+xLmh0bSNpN2Q1ODFkMTAwNjk2NDg4ZThmZWFlMDY3YmM5M2I3ZGFfMTM/607f07ceef4b8524a3=
+19a23cB7a2c9ea9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;">the infrastructure conglomerate=E2=80=99s 10-K</a>=
+: =E2=80=9CA key part of our strategy is to form Joint Ventures by pooling =
+capital with KKR Vehicles (defined below) that target acquisitions of Infra=
+structure Assets that are compatible with our business strategy. We expect =
+that we will own nearly all of our Infrastructure Assets through Joint Vent=
+ures alongside one or more KKR Vehicles and that the Joint Ventures will be=
+ managed in a way that reflects the commonality of interests between the KK=
+R Vehicles and the Company. We believe that a joint acquisition and managem=
+ent strategy between the KKR Vehicles and the Company will lead to greater =
+opportunities to gain sufficient influence or control over Infrastructure A=
+ssets to deploy an operations-oriented management approach to value creatio=
+n with the objective of achieving both current income and capital appreciat=
+ion.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-10" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[10] For infrastructure, that=E2=80=99s 1% or =
+1.25% of assets (it differs for different share classes) and 12.5% of retur=
+ns. See page 14 of <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/33155168.256414/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2=
+RhdGEvMTk0ODA1Ni8wMDAxOTQ4MDU2MjMwMDAwMTQva2tyLTIwMjMwNjMwLmh0bQ/607f07ceef=
+4b8524a319a23cCd40d696f" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">the 10-Q</a>.</p>
+</div>
+<div id=3D"footnote-11" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[11] More technically, the covenants would gen=
+erally require some maximum leverage ratio (debt to earnings before interes=
+t, taxes, depreciation and amortization) or minimum coverage ratio (EBITDA =
+to interest expense and/or other fixed charges). Here is a <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/33155168.256414/aHR0cHM6Ly93d3cucG=
+F1bHdlaXNzLmNvbS9tZWRpYS8zOTc4ODg3L2dvb2Rpc29uX3dhZ25lcl9wcmFjdGljYWxsYXdfY=
+XVnMjAxOV91cGRhdGUucGRm/607f07ceef4b8524a319a23cCf78ecb6a" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">2019 law=
+ firm memo</a> on covenant-lite loans, with a box on the purpose of covenan=
+ts.</p>
+</div>
+<div id=3D"footnote-12" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[12] Also they are often CLOs, which have more=
+ inertia than most investors about renegotiating terms with borrowers.</p>
+</div>
+<div id=3D"footnote-13" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[13] By =E2=80=9Cwithin the next, like, three =
+years,=E2=80=9D I mean next week, after several readers email me today to s=
+ay =E2=80=9CI actually work at a company that just launched this marketplac=
+e.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-14" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[14] Including <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33155168.256414/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9vcGluaW9uL2FydGljbGVzLzIwMjEtMDctMjkvYXJjaGVnb3Mtd2FzLXRvby1idXN5LWZvci1t=
+YXJnaW4tY2FsbHM_Y21waWQ9QkJEMTAyNjIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ=
+1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMDI2JnV0bV9jYW1wYWlnbj1tb25leX=
+N0dWZm/607f07ceef4b8524a319a23cB4763a2b8" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">
+prime brokerage</a>, obviously.</p>
+</div>
+<div id=3D"footnote-15" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[15] It links to a real page on MultiBank.io=
+=E2=80=99s website, <a href=3D"https://link.mail.bloombergbusiness.com/clic=
+k/33155168.256414/aHR0cHM6Ly9tdWx0aWJhbmsuaW8vc3VwcG9ydC9mYXEvdHJhZGluZy93a=
+GF0LWlzLXBhbmljLXNlbGw/607f07ceef4b8524a319a23cBcc07ce45" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">explainin=
+g how to execute a Panic Sell order</a>.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33155168.256414/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB35adc540" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33155168.256414/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBaecbc7ec" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33155168.256414/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB044d778e" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33155168.256414/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBb814c8e8" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/33155168.256414/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB3f379fbf" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/33155168.2564=
+14/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB45ede69f" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/33155168.256414/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC5adcd32b" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/33155168.256414/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBde72a821" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/33155168.256414/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBd8439c78" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33155168.256414/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBe=
+79a0d07" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33155168.256414/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB0=
+4abd9f7" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjqmow.5hum/2b341ca3.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_9473636_2116520065.1698343924383--
+

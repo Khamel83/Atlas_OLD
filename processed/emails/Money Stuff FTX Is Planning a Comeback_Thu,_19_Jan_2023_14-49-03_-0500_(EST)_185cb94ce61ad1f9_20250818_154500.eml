@@ -1,0 +1,2461 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:c60f:b0:ed:4f57:7601 with SMTP id fd15csp846609rwb;
+        Thu, 19 Jan 2023 11:50:05 -0800 (PST)
+X-Received: by 2002:a5d:66c6:0:b0:2bd:da8b:fa7d with SMTP id k6-20020a5d66c6000000b002bdda8bfa7dmr11052132wrw.25.1674157805345;
+        Thu, 19 Jan 2023 11:50:05 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1674157805; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=qLHMsNrNzCOu1OoJ86bT0k1qEWpUcJPIJJXF2vzj83vy2JO/R6rhhHDA6DDptDB94G
+         z3PZR+VbAXuJANRBXl+db0swc93vjCvEXYlEcorEWblEOahrnGqbGQlhm6GMJWuZe7Qn
+         YWV+n6zbelI+mWRmImrIro/gi6ZMJDuyt7THutyG7qcRoov0TO4rXVjlDLQgzSmRbEPK
+         VIV5OplKDuceNADD2H/1gc4isHDXlRlSltCHfhfOOVAoyozAjPJLw+Kd2WIHYGFh+AZ/
+         FqW8BgW9RlXkUdoaFA+QNCmgcR6jgknJt1Zn1rEaeM/WCTu3DH3n8u2xnQBw8YXsYwWz
+         bSvQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=7P2mzcaJrZDASxs+YLogd9GDG9+OqvC0VfuvpmOd+20=;
+        b=bhh2HizyyVmPtwA4IkE+TbudLLG/IPbYjgJ5+sYG2l5epDPKdmqjoe1vWRIlmIv42b
+         axibxr+ZRnhImeUNpMzG/k4S/A2JlId5sQVi9vXMeF9htJS/J1PGyFKaTHhtrEu0YUb6
+         Ig3zRbW9edHksS1blLDB50CZMXlB8hTwW+tX8PRSYDGjNrLkvz2JgiYZlTJJAEzma8dp
+         E9J5goTUOeOqbu6TCWlrDMDCpLDYcRDqRhJXwR3ydeHtHuwE1hWERnG9Rnn3TbPPlYa5
+         QP17YqL/hYmbNqV91NVLAySSnrqPoaie/cOoWLMVCI1LoOqx4tGDdjfFX6nnW6uu6tVL
+         4Mqg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=J0R3SLp4;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id n20-20020adf8b14000000b002bc7ced3c1csor13155951wra.29.2023.01.19.11.50.05
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 19 Jan 2023 11:50:05 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=J0R3SLp4;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=7P2mzcaJrZDASxs+YLogd9GDG9+OqvC0VfuvpmOd+20=;
+        b=fvVl/WQ0MLdrfyoDVQIH4Qlj1YsZaLcLKDlA+QzrXW5k6ADanByQOOC3kFS0Gh+zem
+         gZoQjkikL9smuoTgGACXN8/hNpjSmnTGxbJIatjoVuvC4VGAK8OApOqiHLRFW5fWETsw
+         ebfTcc41qFSWvSXO1dtuKZEhsBBgXb7D1KaAiNG2sJtuPYiz2kuYxmLwrb6X1CTBCG6q
+         3TPNO0SK8ENd5ePPSYdbKYfTOgaVfdSTSAysl/ChsZwsAwAP32Bt0RH6RcIa08bajL3o
+         Vzwxphc8VbeCv7Qon1IsXhv6A2hMz/n8Yzb9PC0ho8U4TB4AYlzny8F4Me6pwDJUhZqi
+         tHcg==
+X-Gm-Message-State: AFqh2kpj5OJG2we5pYD+AXUw4gZL0XrQTXIELogrHOKJZ5VgznkLdTuy
+	J7HnoDUWbfB/XSBUZF8VLsrBfywDYeXpaJ+P1OPZZm4zzH8xJcRE1w==
+X-Received: by 2002:a05:6000:108a:b0:2bb:33d7:5816 with SMTP id y10-20020a056000108a00b002bb33d75816mr578523wrw.612.1674157804968;
+        Thu, 19 Jan 2023 11:50:04 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a05:6000:1c08:0:0:0:0 with SMTP id ba8csp554703wrb;
+        Thu, 19 Jan 2023 11:50:01 -0800 (PST)
+X-Received: by 2002:a05:6102:3d19:b0:3d0:df7f:c801 with SMTP id i25-20020a0561023d1900b003d0df7fc801mr8969534vsv.7.1674157800822;
+        Thu, 19 Jan 2023 11:50:00 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1674157800; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=v2gjT/2Ew2342IWX/jHbs3NlRRr2FHgx3SgiTSz6VXx1FoThjuTrhIiDjHX7DsXvH3
+         0vV/bBey9iR46c2f+s6yryB7f1qjMC5FECu7xA5h4pQnX5QY/788a/sOoh4jo+W04K5B
+         WiLWqBVeGVKfdLLE1Gcpy++jvTHnsXTydQZ1P+1b1/kCbqVdDVZ9+tLCrJIrNv+KcMd4
+         RBOFmAzndoIj0RFZy/t8ry1UcIEVZtVQQhjV0hRTAsWizVmT0ZgR7a/OvyVRNjR/Dw6u
+         ptWTR150zohaIJtLzUt8C9vZFZAivEFo8dQKl2O2+JYjCMNQ7SGyJU9u+hB4qJWhRF6g
+         AT/w==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=7P2mzcaJrZDASxs+YLogd9GDG9+OqvC0VfuvpmOd+20=;
+        b=ta5qHW8SRQ3YcjyLFnGLK8UbSfns7DIivg8C1PIQEZr1mwAa44lOXDhTKLAW6PDY1B
+         oDmAcqC8WBtUJMp99NNnwYxli1fsReqSxx1TaInC4Mpa25NL3IBvNnnKMgyFKdAWxx8w
+         BHob3oqxrKVzhcIgCXO2IKUJg48MUE0UyMufLTkZpcO9esJ5vtGvszfKvPb2OQbeEotf
+         mN8FW4z5H8F34QILYaD4jhS4cngvhfWczxf5lwMe1sTOlsDeL58XXe91MIKEYQ0YTk0x
+         GCF/bF1Q1YE7TZ+mN6tYY2mF/bfzttzKRnYXs3LnGkZ/g9PWaqrmizXRa8G0EohmUQ/d
+         KRTw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=J0R3SLp4;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230119144903.30300607.279512@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230119144903.30300607.279512@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230119144903.30300607.279512@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id c21-20020a0561023c9500b003d6123c4131sor2361420vsv.45.2023.01.19.11.50.00
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 19 Jan 2023 11:50:00 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20230119144903.30300607.279512@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AMrXdXuJSOsMOK+fyoWShPlxTxxNniPAEMv4Nm1rtOi54yI6leXdbVcuBuMYHArWVhK7lFOqUYKpG4sshgdFPmAe6zqZqI2vOos=
+X-Received: by 2002:a67:d70e:0:b0:3d4:5a3:a7fe with SMTP id p14-20020a67d70e000000b003d405a3a7femr7866573vsj.19.1674157800496;
+        Thu, 19 Jan 2023 11:50:00 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1674157800; cv=none;
+        d=google.com; s=arc-20160816;
+        b=el2NhUYdQsSJjGaVB28hQEpyYay8Hke5hLfoCK4fIAOCFGMwCt+Z0wGTwiiuhlTKfZ
+         I47HvB0/FeOZgShvv+cLYwXQexPJvCE/T1hdi5bxNbj5hcAt5wKNhXh5exGuFtsWQG++
+         5F21A8Gjh+ao2YM523MWQCUXxNJ7JnDtXj9KU5Qfv/sm+Iyc2wazW/zSM4IgJDS++9lG
+         kn1ZoXDG34J2ysMJGB0SCr/kzP2DokQapzpeFkpZ7REGKXW4HF8YyNMukklXghz/HBtA
+         KcdcmsFukvJKXEkTgveiRrsnGI/hOBDLbcjGxDFHhrlDoot9KaoZe2jNCYhtkSqLdOFw
+         S+Hg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=7P2mzcaJrZDASxs+YLogd9GDG9+OqvC0VfuvpmOd+20=;
+        b=ajxiAbJctSSrTULpOvJYPV3z4YYZUPYJAADK4oHFsbfpUT5Tf52CqxzyClha+EDx20
+         vlcoaclCpYhWSTiCAYKhjGuaj9wy+eOKXKbyN5KSz22VV+4hocnRIRUMLgXId23uQIM8
+         5AZii9hLj+luEi0BkvePoiz5dsRrhaQjPl23T3sA1zFTmcjVmQDarpKywltq5agKmS6u
+         ue9QIvAjZatfswRrylm7G+UCtLferqiHU/FsCoXxfyGSSNWL4dmAYivl+CbmKyBVbXGM
+         i6o0XlwwH8dP1PpV5ydJ1Iq/GSXtv5iKdgmCB6CSIg80kk0h/Sue0YtARu/ksbUS5lW4
+         mihg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=J0R3SLp4;
+       spf=pass (google.com: domain of delivery_20230119144903.30300607.279512@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230119144903.30300607.279512@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230119144903.30300607.279512@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id b15-20020a67e98f000000b003980b6c8861si2672137vso.2.2023.01.19.11.49.59
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 19 Jan 2023 11:50:00 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20230119144903.30300607.279512@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=5zPSAp1ThbfeetaHcS1DYwBCCBqwbE3Wncw3/lthAhI=;
+ b=J0R3SLp4uPCBUOlqsTZfkomAa8dMtpTUKWXKW5IKnNnB6yDo2hcCy5uFywCoA9L18Yhm6VdQL2ms
+   zpAYKtBeK0vIexQQE3FDEZ1rwQWegUNCRsifntS6A7WDf36L6jweHOsin+7+mecEqGcK5Z1d88zv
+   Nt47UdJmclxMLHX+x1U=
+Received: from njmta-53.sailthru.com (173.228.155.53) by bloomberg-b.sailthru.com id hp6fee30nu83 for <bloomberg@khamel.com>; Thu, 19 Jan 2023 14:49:59 -0500 (envelope-from <delivery_20230119144903.30300607.279512@mx.sailthru.com>)
+Received: from nj1-farmidnight.flt (172.18.20.38) by njmta-53.sailthru.com id hp6fee1qqbsn for <bloomberg@khamel.com>; Thu, 19 Jan 2023 14:49:03 -0500 (envelope-from <delivery_20230119144903.30300607.279512@mx.sailthru.com>)
+Date: Thu, 19 Jan 2023 14:49:03 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230119144903.30300607.279512@sailthru.com>
+Subject: Money Stuff: FTX Is Planning a Comeback
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9742875_1963027641.1674157743072"
+Precedence: bulk
+X-Feedback-ID: 6358:30300607:campaign:sailthru
+X-TM-ID: 20230119144903.30300607.279512
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-farmidnight.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ci1g3j.5zo8/c8d8c04b
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ci1g3j.5zo8/c8d8c04b>, <mailto:unsubscribe_20230119144903.30300607.279512@mx.sailthru.com>
+X-rpcampaign: stjko30300607
+
+------=_Part_9742875_1963027641.1674157743072
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff will be off tomorrow, back on Monday.=
+The basic situation at FTX Trading Ltd. is that a lot of people =E2=80=94 r=
+etail=20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff will be off tomorrow, back on Monda=
+y.
+
+ =20
+   =20
+      FTX is back!?
+   =20
+ =20
+
+The   basic situation at FTX Trading Ltd. is that a lot of people =E2=80=94=
+=C2=A0retail customers but also institutional crypto traders =E2=80=94=C2=
+=A0seem to have liked trading on FTX, but then FTX, and its affiliated trad=
+ing firm Alameda Research,=C2=A0lost and/or stole their money. Hearing rumo=
+rs of this, FTX=E2=80=99s customers asked to withdraw their money; the mone=
+y wasn=E2=80=99t there, and FTX filed for bankruptcy.
+So that=E2=80=99s where we are now. How do you=C2=A0fix=C2=A0this? An obvio=
+us place to focus is on finding the money and putting it back. If FTX/Alame=
+da stole a bunch of customer money and used it to buy Bahamas condos and ma=
+ke political and philanthropic donations, you sell the condos and ask for t=
+he donations back. If you do that really efficiently, you get all the money=
+ back, and you give it back to the customers, and everything is fine. But t=
+his seems unlikely to be a complete success. For one thing, you probably wo=
+n=E2=80=99t recover all the money, and you=E2=80=99ll have costs in doing s=
+o. But also a lot of the money seems to have gone into investments, particu=
+larly cryptocurrency investments, that lost a lot of value: If Alameda took=
+ $1 billion of FTX customer funds and spent it on magic beans, and you are =
+able to sell the magic beans for $35, then that=E2=80=99s $999,999,965 of c=
+ustomer money that you=E2=80=99re not getting back.
+  [1]
+ FTX=E2=80=99s and Alameda=E2=80=99s   financial statements are   notorious=
+ly a mess, so I am not quite sure how much customer money went to real esta=
+te and donations, how much went to depreciated magic beans, and how much is=
+ still sitting in bank accounts. But my guess is that the beans vastly outw=
+eigh the real estate, so selling the real estate is not really going to fil=
+l the hole.
+But there is another, weirder way to fix the problem, which is to pretend i=
+t never happened. The proximate cause of FTX=E2=80=99s bankruptcy is not th=
+at Alameda borrowed a lot of FTX customer money and lost/stole it. The prox=
+imate cause is that=C2=A0people noticed, and asked for their money back. An=
+d the money wasn=E2=80=99t there, because it was lost/stolen. But if they h=
+adn=E2=80=99t=C2=A0asked=C2=A0for it, they could have blithely continued al=
+ong, trading on FTX, racking up profits and losses in their FTX accounts. =
+=E2=80=9CI have a billion dollars in my account on FTX,=E2=80=9D a big cust=
+omer could have thought, even if FTX didn=E2=80=99t have any actual money b=
+acking that account. And then the customer could have kept trading to try t=
+o turn that billion dollars into two billion dollars, and as long as it sta=
+yed within FTX it wouldn=E2=80=99t matter if there were any actual dollars =
+there.
+  [2]
+
+=E2=80=9COf course this can=E2=80=99t go on forever,=E2=80=9D one is tempte=
+d to say, but can=E2=80=99t it? In the general run of Ponzi schemes it most=
+ly can=E2=80=99t, but in, like, late October 2022 =E2=80=94=C2=A0just befor=
+e FTX imploded =E2=80=94=C2=A0it was not=C2=A0crazy=C2=A0to think it could =
+work for FTX. The theory is:
+=09FTX was making a lot of real money, legitimately,
+  [3]
+=C2=A0by charging fees to traders. If people kept trading and FTX kept accu=
+mulating profits, perhaps over time the profits would be enough to fill the=
+ hole caused by Alameda=E2=80=99s borrowing/loss/theft.=09At least a large =
+part of the hole was caused by Alameda using FTX customer money to buy cryp=
+tocurrencies that went down, and maybe they=E2=80=99d go up again! You neve=
+r know. And then Alameda could pay back the money and there=E2=80=99d be no=
+ more hole.=09More specifically, a large part of the hole seems to have bee=
+n caused by Alameda using FTX customer money to fund its   holdings of magi=
+c beans that were=C2=A0created by FTX, and that represented essentially a b=
+et on FTX=E2=80=99s continuing popularity and success. Tokens like FTT, SRM=
+ and MAPS operated sort of like stock in FTX and its related businesses. Wh=
+en people got nervous about FTX and Alameda, those tokens lost value, and w=
+hen FTX filed for bankruptcy, those basically-stock-in-FTX tokens became ba=
+sically worthless. But if it had continued along being popular and successf=
+ul, they might have recovered a lot of value, which might have filled the h=
+ole.
+
+I don=E2=80=99t want to suggest that this would have been legal, or a good =
+idea. Imagine that you were magically installed as chief executive officer =
+of FTX in, say, late October of 2022, after Alameda borrowed/lost/stole bil=
+lions of dollars of customer money, but before people noticed and demanded =
+their money back. And your staff came to you and described the whole situat=
+ion in accurate detail, and then asked you what you wanted to do. Your basi=
+c choices were:
+=09Announce =E2=80=9Chey, turns out the previous management misplaced billi=
+ons of dollars of customer money, we=E2=80=99re looking into it, sorry abou=
+t that.=E2=80=9D And then try to fill the hole as rapidly as possible =E2=
+=80=94=C2=A0by selling cryptocurrency or real estate, by begging to take ba=
+ck donations, by finding new outside investors, etc.=C2=A0=09Announce =E2=
+=80=9CFTX is stronger than ever,=E2=80=9D reassure customers that everythin=
+g is great,=C2=A0and launch=C2=A0a new ad campaign to attract more deposits=
+.
+
+Knowing what you hypothetically knew, Option 2 would be terrible terrible f=
+raud and probably land you in prison,=C2=A0unless it worked. If it worked =
+=E2=80=94=C2=A0if people believed you, they kept blithely trading, the magi=
+c beans recovered their value, and you earned enough profits to fill the ho=
+le =E2=80=94=C2=A0then, uh, then it would still be fraud, but maybe no one =
+would give you too much trouble about it.
+  [4]
+
+Would it have worked? I mean, look, we know the answer to that, because it=
+=E2=80=99s what FTX=E2=80=99s and Alameda=E2=80=99s actual management did. =
+When Coindesk  reported that Alameda=E2=80=99s balance sheet was made up mo=
+stly of magic beans, and when Binance CEO Changpeng Zhao  announced that he=
+ would dump his stash of FTT tokens, FTX CEO Sam Bankman-Fried and Alameda =
+CEO Caroline Ellison tweeted confidently about how strong their balance she=
+ets were and how safe customer money was. They leaned into Option 1. It did=
+ not work. No one believed them,   there was a run, and FTX went bankrupt. =
+Maybe you, in this hypothetical, could have done better, but I wouldn=E2=80=
+=99t count on it.
+Option 1 would leave you blameless: You came in as the new CEO, you spotted=
+ the fraud, you reported it. You didn=E2=80=99t deceive anyone; you were ho=
+nest and open about the problems and moved rapidly to fix them. But of cour=
+se by announcing the problems you will=C2=A0definitely=C2=A0cause a run: If=
+ customer money is missing, why should customers keep their money at FTX? I=
+f FTX is doing fraud and has a net worth of negative billions of dollars, w=
+hy should outside investors put in money to keep it afloat? Once you have a=
+nnounced the problems, you can=E2=80=99t really get customers to ignore the=
+m, and getting customers to ignore the problems was the easiest way to solv=
+e them. So you are left with the second-best way to solve them, which is se=
+lling the real estate and magic beans at auction and giving customers whate=
+ver you can get.
+In fact a new CEO, John J. Ray III,=C2=A0was=C2=A0installed at FTX =E2=80=
+=9Cin the early morning hours of November 11, 2022,=E2=80=9D and he leaned =
+hard into Option 1. He=C2=A0filed for bankruptcy moments after being instal=
+led as CEO, and=C2=A0has been telling everyone about   how bad FTX=E2=80=99=
+s governance and finances were=C2=A0and how it   built systems to defraud c=
+ustomers. Meanwhile he is trying to round up FTX=E2=80=99s assets to divvy =
+up among customers and other creditors. It is still early days, but it is p=
+retty clear that (1) he won=E2=80=99t find enough cash and real estate and =
+magic beans to make the customers whole and (2) he=E2=80=99s expensive, so =
+as time goes by there will be less money for creditors because more will go=
+ to him and his team.
+But can you =E2=80=A6=C2=A0can you =E2=80=A6=C2=A0can you just a=C2=A0littl=
+e=C2=A0bit go back to Option 2? Not really, of course; not=C2=A0fraud. You =
+have to be open and honest about the hole in the balance sheet, about the b=
+ackdoors in FTX=E2=80=99s code that allowed Alameda to take all the money. =
+But before they knew about the missing money,=C2=A0a lot of people =E2=80=
+=94=C2=A0retail customers but also institutional crypto traders =E2=80=94=
+=C2=A0seem to have liked trading on FTX, and that is what made FTX valuable=
+, and maintaining and increasing that value seems like the best way to fill=
+ the hole in the balance sheet. If FTX could just restart its exchange busi=
+ness, and go back to being popular and making billions of dollars in tradin=
+g fees, then those billions of dollars could be used to pay back customers.=
+ And if that happened then maybe the FTT tokens, the magic beans that right=
+ now FTX will have trouble selling, could recover their value, and also be =
+used to pay back customers.
+This seems far-fetched and I do not personally have any idea how you could =
+restart trading on FTX, attract new deposits, and get everyone to pretend e=
+verything is fine so you can earn back the money that Alameda borrowed/lost=
+/stole. But I guess John Ray does? The  Wall Street Journal reports:
+
+FTX=E2=80=99s new chief executive, John J. Ray III, said he=E2=80=99s looki=
+ng into the possibility of reviving the bankrupt crypto exchange as he work=
+s to return money to the failed company=E2=80=99s customers and creditors. =
+=C2=A0=C2=A0
+In his first interview since taking over FTX in November, Mr. Ray said that=
+ he has set up a task force to explore restarting FTX.com, the company=E2=
+=80=99s main international exchange. Although top FTX executives have been =
+accused of criminal misconduct, some customers have praised its technology =
+and suggested that there would be value in rebooting the platform, he said.
+=E2=80=9CEverything is on the table,=E2=80=9D Mr. Ray said. =E2=80=9CIf the=
+re is a path forward on that, then we will not only explore that, we=E2=80=
+=99ll do it.=E2=80=9D =E2=80=A6
+Mr. Ray said he would look into whether reviving FTX=E2=80=99s internationa=
+l exchange would recover more value for the company=E2=80=99s customers tha=
+n his team could get from simply liquidating assets or selling the platform=
+.
+=E2=80=9CThere are stakeholders we=E2=80=99re working with who=E2=80=99ve i=
+dentified what they see is a viable business,=E2=80=9D he said.
+
+I guess? I mean, conceptually, what you have to do here is convince big cry=
+pto investors to start trading again on FTX by (1) opening up some new enti=
+ty where they can deposit money that won=E2=80=99t get thrown into the hole=
+ caused by Alameda and (2) convincing those investors that, this time, you =
+won=E2=80=99t steal the money. I suppose installing a new CEO, filing for b=
+ankruptcy, and disclosing the hole in the balance sheet and the backdoors i=
+n the code is a way to build that sort of trust. Maybe John Ray had to burn=
+ FTX down to save it.
+Also maybe it=E2=80=99s=C2=A0working:
+
+FTX=E2=80=99s controversial FTT token surged by more than 30% after the ban=
+krupt company=E2=80=99s new chief executive, John J. Ray III, said that he=
+=E2=80=99s exploring the possibility of restarting the crypto exchange. =E2=
+=80=A6
+Data from TradingView shows that FTT rose by more than 30% on rival exchang=
+e Binance. FTT was trading at around $2.38 on Thursday. That=E2=80=99s stil=
+l down more than 97% from its record high of $84.18, according to pricing d=
+ata from CoinGecko.
+
+Given FTX=E2=80=99s stash of FTT, that=E2=80=99s like $100 million more for=
+ creditors right there, just from announcing it.
+  [5]
+=C2=A0Imagine if it works!
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Samcoins
+   =20
+ =20
+
+Elsewhere in  FTX and magic beans:
+
+In Sam Bankman-Fried=E2=80=99s quest to keep his cryptocurrency empire look=
+ing profitable, the disgraced founder of FTX often promoted newfangled digi=
+tal currencies that crypto aficionados came to call =E2=80=9CSamcoins.=E2=
+=80=9D
+Mr. Bankman-Fried wooed the developers of these new coins with names like S=
+erum and Maps, insisting that they make their trading debuts on the FTX exc=
+hange. Then his hedge fund, Alameda Research, would buy some of these newly=
+ listed Samcoins to prop up their value, while Mr. Bankman-Fried used FTX=
+=E2=80=99s influence in the crypto industry to drum up interest in those co=
+ins and persuade other investors to also buy significant amounts.
+Mr. Bankman-Fried was thus able to inflate the coins=E2=80=99 value artific=
+ially, making Alameda look healthier than it was and papering over problems=
+ at his companies until they imploded in November. =E2=80=A6
+Sometimes, Mr. Bankman-Fried appeared to be pushing up the prices of coins =
+=E2=80=94 including FTT, a coin that he had created =E2=80=94 that FTX and =
+Alameda would later use as collateral for loans, according to court records=
+ and interviews with crypto executives. Many of those executives also accus=
+ed Mr. Bankman-Fried of trying to turn a quick profit by betting that a new=
+ coin would fail, or pumping up a coin=E2=80=99s value and then suddenly se=
+lling it, with the apparent goal of bolstering Alameda=E2=80=99s balance sh=
+eet. =E2=80=A6
+Since his company imploded, Mr. Bankman-Fried has repeatedly denied accusat=
+ions that he tried to manipulate cryptocurrency markets. In a text message,=
+ he compared his company=E2=80=99s efforts to bolster the price of FTT =E2=
+=80=94 by publicly announcing that it would buy large quantities =E2=80=94 =
+to share buyback schemes at public companies. And he said his firm=E2=80=99=
+s trading of FTT was designed to keep the market running smoothly by buying=
+ coins when people wanted to sell and selling when they wanted to buy.
+
+See my view on this is that it was probably fine for Alameda to make market=
+s in Samcoins, and it was probably fine for FTX to announce that it would u=
+se a portion of its fee revenue to buy back FTT (that=C2=A0is=C2=A0like a s=
+tock buyback, since FTT was like FTX stock). And it was =E2=80=A6=C2=A0aggr=
+essive, but basically fine, for Alameda to use its stash of billions of dol=
+lars of Samcoins as collateral to borrow from=C2=A0other=C2=A0crypto lender=
+s. And if you combine Alameda=E2=80=99s market making in Samcoins with its =
+using them as collateral for other crypto lenders, you get into a worse pla=
+ce, where if the market making pushed up prices and allowed Alameda to borr=
+ow more then that does looks bad, depending on how aggressively Alameda was=
+ buying. (That looks=C2=A0  like Archegos.)
+But to me the thing that is really=C2=A0bad is FTX lending billions of doll=
+ars to Alameda secured by FTT tokens. If you are a leveraged financial inst=
+itution, and you have a favored customer who owns a lot of your=C2=A0stock,=
+ and you lend that customer billions of dollars of=C2=A0real customer money=
+=C2=A0secured by that stock, then you have built your whole company on quic=
+ksand. What if people notice? They will sell off your stock, which will red=
+uce the value of your collateral, which will lead to credit losses, which w=
+ill lead your stock to go down more, which will lead to more losses, etc., =
+until it all vanishes. It is an obvious   death spiral. =E2=80=9CFTT was ju=
+st like stock of FTX=E2=80=9D is perhaps a defense to some claims of manipu=
+lation, but the real problem here is that FTX lost customer money lending i=
+t to Alameda secured by Samcoins. Even if the value of those coins wasn=E2=
+=80=99t inflated=C2=A0artificially, that was still pretty bad.
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Customer service
+   =20
+ =20
+
+One important use case of crypto is online crime. If you want to pay for dr=
+ugs or assassinations, or get a ransom payment for hacking someone=E2=80=99=
+s computer, Bitcoin has some really nice properties. It can be transferred =
+anonymously, more or less instantly, over the internet, with no intermediar=
+ies =E2=80=94=C2=A0banks, etc. =E2=80=94=C2=A0that might block or reverse a=
+ payment. It has a value that is widely accepted internationally. It is, in=
+ many ways,=C2=A0money, but free of the regulation that applies to dollars =
+and euros and most other kinds of money.
+The only problem is turning your regular money (dollars, euros, rubles, wha=
+tever =E2=80=94=C2=A0=E2=80=9Cfiat,=E2=80=9D crypto people call it) into Bi=
+tcoin, and your Bitcoin back into regular money. Most people have jobs that=
+ pay them in fiat currencies, and pay most of their expenses in fiat curren=
+cies. If you got your=C2=A0paycheck and want to buy drugs with Bitcoin, or =
+if you got a big ransomware payment in Bitcoin and want to buy groceries, y=
+ou will need to turn fiat into Bitcoin or Bitcoin into fiat.
+And=C2=A0that=E2=80=99s=C2=A0where they get you. All the stuff about Bitcoi=
+n =E2=80=94=C2=A0it being anonymous, irreversible, no intermediaries, no na=
+tional borders =E2=80=94=C2=A0is not true of the transaction where you turn=
+ your fiat into Bitcoin or vice versa.=C2=A0There, you need to hook up a ba=
+nk account or a credit card or whatever to transfer your fiat currency into=
+ the Bitcoin system.
+Crypto exchanges are generally in the business of providing this fiat on/of=
+f-ramp service. You open an account at a crypto exchange, you give it your =
+bank information, you put in dollars to buy Bitcoin, you sell Bitcoin to ge=
+t dollars, and the exchange is the doorway between the dollar financial sys=
+tem and the Bitcoin financial system.
+This is a fraught business for the exchange to be in. On one side, the side=
+ where it is making and accepting fiat payments, it is connected to a regul=
+ated banking system, and in the US and many other countries banks have obli=
+gations to prevent financial crime. The banks have know-your-customer/anti-=
+money-laundering obligations; they try to know who their customers are and =
+where their money comes from and what it=E2=80=99s being used for, to try t=
+o prevent it being used for crime. In practice, this often means that banks=
+ and credit card companies won=E2=80=99t let you send money to a crypto exc=
+hange unless the crypto exchange is itself regulated by national authoritie=
+s and does its own KYC/AML checks to prevent its customers from using crypt=
+o for crime.
+  [6]
+
+But on the other side, the side where it is trading crypto, the exchange is=
+ connected to the crypto system, and obviously the exchange has lots of cus=
+tomers who have lots of reasons for using that system, but, again, one impo=
+rtant=C2=A0use case is crime. Presumably the people who want to use Bitcoin=
+ for crime will not actually be customers of an upstanding regulated exchan=
+ge that does lots of KYC/AML, but they will want to be customers of=C2=A0so=
+me=C2=A0exchange. There is a lot of customer demand for a crypto exchange t=
+hat is crime-friendly. If you set up a crypto exchange with the goal of bei=
+ng crime-friendly, and you develop a reputation for being crime-friendly, y=
+ou will win a lot of business.=C2=A0
+Of course there are problems. One is: The whole point of this business is t=
+hat your crypto exchange has to be able to get money from banks and send mo=
+ney back to banks, and how are you going to convince banks to connect=C2=A0=
+to your exchange? Most banks in the US and many other countries want to dea=
+l with regulated crypto exchanges with good KYC/AML policies. You need to w=
+alk a fine line; you need to have a reputation=C2=A0among customers=C2=A0fo=
+r being crime-friendly but a reputation=C2=A0among bankers=C2=A0for stoppin=
+g crime.
+The other problem is of course that   you=E2=80=99ll eventually get arreste=
+d:
+
+A Russian national was charged with money laundering through a cryptocurren=
+cy exchange that allegedly masked the proceeds of illegal gambling and drug=
+ deals valued at more than $700 million, as the US goes after criminal susp=
+ects in the digital space.
+Anatoly Legkodymov, founder of the crypto exchange Bitzlato, was arrested T=
+uesday in Miami, the Justice Department said at a press conference Wednesda=
+y. Hong Kong-registered Bitzlato was a =E2=80=9Ccritical financial resource=
+=E2=80=9D for the Hydra dark web market, the largest and longest-running su=
+ch marketplace, Deputy Attorney General Lisa Monaco said at the conference.=
+ The dark web traffics in illicit goods and services.
+Bitzlato processed illegal funds including millions of dollars in ransomwar=
+e gains, according to a Justice Department statement. Legkodymov, 40, who l=
+ives in Shenzhen, China, and in Russia, posted on an internal chat that Bit=
+zlato users were =E2=80=9Cknown to be crooks,=E2=80=9D according to the US.=
+ =E2=80=A6
+Monaco summed up the Bitzlato-Hydra connection.
+The two =E2=80=9Cformed a high-tech axis of cryptocrime,=E2=80=9D she said.=
+ =E2=80=9CHydra buyers funded illicit purchases =E2=80=94 of illegal drugs,=
+ stolen financial information, and hacking services =E2=80=94 from crypto a=
+ccounts hosted at Bitzlato, and sellers of these illegal goods and services=
+ at Hydra sent criminal proceeds to accounts at Bitzlato.=E2=80=9D
+
+Here is the  criminal complaint. I often find myself writing about criminal=
+ and regulatory cases against financial institutions, and sometimes those c=
+ases will quote colorful emails and chat messages that people at those fina=
+ncial institutions wrote in the course of doing alleged crimes, and those e=
+mails and chats will often be pretty funny, but they will have the tone of =
+=E2=80=9Ccan=E2=80=99t believe we=E2=80=99re doing this, hope we don=E2=80=
+=99t go to jail.=E2=80=9D Because they are doing crimes at a basically law-=
+abiding company; they feel nervous and out of place about the crime that th=
+ey are doing.=C2=A0
+At Bitzlato, the business was allegedly crime, so there are just a lot of v=
+ery matter-of-fact customer-support chats where customers ask for support d=
+oing crimes and Bitzlato supports them. The complaint quotes some:
+
+On or about December 27, 2017, a user with the username =E2=80=9CDude Weed=
+=E2=80=9D wrote to Bitzlato=E2=80=99s customer service portal, stating: =E2=
+=80=9CI have a bitcoin wallet in my account on the Hydra site. I also have =
+a wallet here . . . How do I recharge a Hydra wallet=E2=80=9D? The user als=
+o provided transaction details. Based on my training and experience, this q=
+uery reflects the user=E2=80=99s desire to send funds from Bitzlato to Hydr=
+a. A Bitzlato representative responded: =E2=80=9CHello dude weed,=E2=80=9D =
+apologized for the delay in the transaction, and stated that =E2=80=9CThe t=
+ransaction successfully went online.=E2=80=9D ...
+On or about May 5, 2021, a user asked whether he could =E2=80=9Cexchange di=
+rty bitcoin for Sber without problems here=E2=80=9D=E2=80=94an apparent ref=
+erence to Sberbank, a Russian bank. A Bitzlato representative asked the use=
+r to clarify, and he wrote: =E2=80=9CWell for example the person sent me to=
+ my wallet bitcoins taken from darknet, some kind of illegal exchanges, as =
+far as I know they automatically get to dirty bitcoins. So my question is, =
+when I transfer them to Sberbank in rubles, can I change them?=E2=80=9D The=
+ Bitzlato representative responded that =E2=80=9CIn this case there are no =
+limitations from the service in this matter.=E2=80=9D
+
+Nobody is like =E2=80=9Clol dude weed, hope you don=E2=80=99t get busted fo=
+r buying drugs online from a dark web marketplace!=E2=80=9D Of course Dude =
+Weed was buying drugs online from a dark web marketplace; why else would he=
+ be there? And:
+On or about April 23, 2019, Executive-1 again warned his colleagues, includ=
+ing [Legkodymov], that =E2=80=9Cbitzlato clients are addicts who buy drugs =
+at the hydra site and=C2=A0similar resources.=E2=80=9D LEGKODYMOV responded=
+ that Bitzlato could expand by offering anonymous financial services to run=
+-of-the-mill individuals, such as taxi drivers.
+Similarly, Bitzlato had=C2=A0KYC/AML procedures, since you need those to co=
+nnect to the banking system, but it would be bad customer service to insist=
+ on following them, so Bitzlato customer support was allegedly pretty chill=
+ about them:
+
+On December 17, 2020, a Bitzlato representative asked a user to provide his=
+ identity documents. The user protested, writing, =E2=80=9CI don=E2=80=99t =
+quite understand why you need a photo of this card? It=E2=80=99s not mine[.=
+]=E2=80=9D In further conversations, the user clarified that =E2=80=9Cevery=
+one on the site trades with other people=E2=80=99s cards . . . they often d=
+iscuss so-called =E2=80=98drops.=E2=80=99=E2=80=9D=C2=A0The user commented =
+that he had been told to create an account using credentials supplied by an=
+ online cryptocurrency training course that he had found on Instagram. ...
+On or about May 7, 2022, a Bitzlato user was asked to provide his identifyi=
+ng information. The user responded that he was =E2=80=9Cnot going to lie to=
+ you and tell you tales[.] I bought this account=E2=80=94bought it, I=E2=80=
+=99m telling you.=E2=80=9D The user added that there were =E2=80=9Chundreds=
+ of these accounts with passed verifications=E2=80=94as if you didn=E2=80=
+=99t know that.=E2=80=9D ...
+On or about September 12, 2022, Bitzlato blocked a user=E2=80=99s account a=
+nd asked him to verify his identity. The user responded that he would provi=
+de =E2=80=9Ca woman=E2=80=99s=E2=80=9D identity documents, adding: =E2=80=
+=9CAm I an idiot to verify myself? Verify the =E2=80=98drop.=E2=80=99=E2=80=
+=9D The user added that he would be transferring ransomware proceeds and =
+=E2=80=9Ca payment from Hydra=E2=80=9D to his Bitzlato account. The Bitzlat=
+o customer service representative responded that an account verified in the=
+ name of the user=E2=80=99s =E2=80=9Cdrop,=E2=80=9D or straw man, would =E2=
+=80=9Cbelong to your drop,=E2=80=9D and concluded: =E2=80=9COkay, we are wa=
+iting for the application.=E2=80=9D
+
+=E2=80=9CDrop=E2=80=9D is apparently Russian slang for a straw man: You hav=
+e someone with a clean record set up a Bitzlato account, then you sell that=
+ account to someone who wants to do crime. And:
+LEGKODYMOV was also aware that Bitzlato=E2=80=99s customers were not using =
+the service under their true identities. On or about May 29, 2019 LEGKODYMO=
+V wrote to a colleague in a chat: =E2=80=9CAll traders are known to be croo=
+ks. Trading on =E2=80=98drops,=E2=80=99 etc. You do realize that they all (=
+I think 90%) do not trade on their [identity] cards.=E2=80=9D
+At some point Bitzlato=E2=80=99s marketing director allegedly made a docume=
+nt called =E2=80=9CCompetitor Analysis=E2=80=9D that described Bitzlato=E2=
+=80=99s pros and cons:
+
+
+   =20
+
+Just perfect marketing, really, for a crime-friendly crypto exchange. The m=
+ain pros are (1) it=E2=80=99s fine with crime and (2) you can deposit money=
+ easily. The main cons are (1) it=E2=80=99s fine with crime, (2) so crime w=
+ill probably be done to you, and (3) it=E2=80=99s expensive to=C2=A0withdra=
+w=C2=A0money.
+  [7]
+
+The weird thing about this case is that=C2=A0Bitzlato appears to be basical=
+ly a Russian crypto exchange for Russian users to buy and sell Bitcoin in R=
+ussia using Russian rubles without giving Bitzlato their Russian identity c=
+ards, and now it is being prosecuted  in Brooklyn. It was headquartered in =
+Hong Kong, and Legkodymov apparently logged on a few times to run it from M=
+iami, but it seems to have been mostly Russian and had minimal involvement =
+with the US financial system. Minimal, but enough:
+Moreover, Bitzlato=E2=80=99s customer service representatives have repeated=
+ly advised users that they were permitted to transact with the United State=
+s. On or about December 16, 2020, for example, a user asked whether he coul=
+d =E2=80=9Cuse American bank cards to buy and sell [cryptocurrency].=E2=80=
+=9D A Bitzlato representative replied: =E2=80=9CYes, of course. Choose USD=
+=C2=A0currency in =E2=80=98Preferences.=E2=80=99=E2=80=9D Similarly, on Jan=
+uary 20, 2021, a Bitzlato user asked whether he could =E2=80=9Cget money fr=
+om the U.S. to this wallet.=E2=80=9D A Bitzlato representative replied: =E2=
+=80=9CYou can transfer funds from anywhere in the world.=E2=80=9D
+And in fact, Bitzlato=C2=A0helped US law enforcement with inquiries into cr=
+ime:
+In response to requests for account data from U.S. law enforcement agents a=
+bout specific users who were the subjects of law enforcement investigations=
+, Bitzlato personnel provided charts that reflected the Internet Protocol a=
+ddresses from which those users were logging into Bitzlato=E2=80=99s server=
+s. Those charts included a column titled =E2=80=9Cuser_ip_country,=E2=80=9D=
+ reflecting the country in which each IP address appeared to be located. In=
+ numerous instances, the Bitzlato charts reflected that users were accessin=
+g Bitzlato=E2=80=99s servers from the United States, including logins from =
+an IP address located in Brooklyn, New York that was identified in October =
+2022.
+So, not entirely pro-crime. But the complaint doesn=E2=80=99t actually say =
+that Bitzlato supported any crime in the US, that anyone in the US used Bit=
+zlato to buy Bitcoin to buy drugs or to sell Bitcoin received in ransoms. N=
+or does it say that it supported any dollar-linked crime, that any Russian =
+hackers used Bitzlato to turn Bitcoin ransoms into dollars. Mostly it says =
+that Bitzlato allowed Russian customers to trade rubles for crypto without =
+using their Russian identity cards, and that it had a website that you coul=
+d access from the US. US prosecutors are in the business of prosecuting fin=
+ancial crime anywhere in the world, and if Russians are hiding their transa=
+ctions from the Russian government, US prosecutors are interested.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Treasury to Begin  Extraordinary Measures to Pay Bills Amid Debt-Ceiling De=
+bate.=C2=A0JPMorgan=E2=80=99s   Dimon Says US Shouldn=E2=80=99t =E2=80=98Pl=
+ay Games=E2=80=99 on Debt Ceiling.=C2=A0Wall Street Struggles to Contain Co=
+sts as  Pay Pressures Escalate.=C2=A0Credit Suisse to Pay  Upfront Cash Bon=
+uses to Senior Staff.=C2=A0Citigroup  Boosts Pay for Most Junior Bankers De=
+spite Tough Year. Number of  EU bankers earning above =E2=82=AC1mn hits rec=
+ord following Brexit.=C2=A0Startup Workers=E2=80=99   Dreams of Big Payouts=
+ Are Put On Hold. Argentina=E2=80=99s $1 Billion   Bond Buyback Plan Has In=
+vestors Stumped. Musk Lawyer Defends =E2=80=98Rushed=E2=80=99   Take-Privat=
+e Tweet at Trial. Why  Orange Juice Is So Expensive Right Now.=C2=A0 Peter =
+Thiel=E2=80=99s fund wound down 8-year bitcoin bet before market crash.=C2=
+=A0  Usain Bolt Lost $12 Million in Savings to a Scam. Getty Images is suin=
+g the creators of AI art tool Stable Diffusion for  scraping its content. B=
+ank Worker Who Led Secret Life After   $500,000 Heist Caught 25 Years Later=
+. Fugitive in   $100 Million NJ Deli-Value Case Nabbed in Thailand. The lig=
+hts have been on at a Massachusetts school for over a year because  no one =
+can turn them off. Orange bitcoin Mercedes owner at Davos hits back at crit=
+ics, says  not his car=E2=80=99s fault people lost money.=C2=A0
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Well. If Alameda bought the magic beans for $1 billion from some iden=
+tifiable counterparty, maybe you could call *them* up and say =E2=80=9Chey =
+that was kind of a raw deal, why don=E2=80=99t you give us back the billion=
+ dollars and we=E2=80=99ll give you back the beans.=E2=80=9D And if the cou=
+nterparty seems to have been, in some sense, in on it =E2=80=94 if Alameda =
+bought the beans from, like, an FTX executive, or from some crypto project =
+that it incubated =E2=80=94 then maybe that=E2=80=99ll work, as a matter of=
+ bankruptcy law or public pressure or whatever. But it seems like a lot of =
+this was Alameda buying magic beans from regular traders on crypto exchange=
+s in market transactions,  and the odds of clawing back the purchase price =
+in those transactions are basically zero.
+
+
+  [2] Of course sometimes they would withdraw money, and FTX would have to =
+give it to them, but the point is that FTX had plenty of money to cover ord=
+inary-course withdrawals, just not enough to cover a =E2=80=9Crun on the ba=
+nk=E2=80=9D where a lot of people wanted their money back at once. It had e=
+nough money to keep going if people were confident in it, but not enough on=
+ce they lost confidence.
+
+
+  [3] This is actually a debatable point. Clearly FTX was intermediating re=
+al trades and charging real fees for them, and people were doing these trad=
+es because they liked the service and prices they got on FTX. But   there i=
+s an argument that customers did these trades specifically because they lik=
+ed the *prices*, and they liked the prices specifically because Alameda was=
+ on the other side of them and was losing money to subsidize trading on FTX=
+. This would be sort of a Ponzi-scheme story of FTX: Alameda stole customer=
+ money in order to give other customers the illusion of getting good return=
+s on FTX, in order to encourage customers to deposit more money. Sam Bankma=
+n-Fried has  posted charts showing that Alameda was a small portion of FTX =
+volume, which would mean that =E2=80=9CAlameda subsidized trading prices by=
+ stealing customer money and losing it=E2=80=9D is not the main story of FT=
+X=E2=80=99s success, but you don=E2=80=99t have to believe Bankman-Fried=E2=
+=80=99s charts.
+
+
+  [4] Oh boy is that not legal advice but, I mean, in crypto, and in tech g=
+enerally, =E2=80=9Cfake it till you make it=E2=80=9D seems to have a pretty=
+ high success rate. If you make it! If you don=E2=80=99t, people tend to th=
+ink that your faking it was fraud.
+
+
+  [5] Again, the finances are a mess, but this week  FTX reported having $5=
+29 million of FTT tokens based on prices =E2=80=9Cas of the Petition Date.=
+=E2=80=9D The price of FTT fluctuated a lot on Nov. 11, 2022, the day that =
+FTX filed for bankruptcy, from the low $2s to the low $3s, so I don=E2=80=
+=99t know how many tokens that represents, but it=E2=80=99s in the neighbor=
+hood of like 175 million to 200 million maybe. FTT traded at about $1.81 to=
+day before Ray=E2=80=99s announcement, and $2.38 after, so it gained about =
+57 cents per token, or around $100 million for FTX=E2=80=99s stash.
+
+
+  [6] Or unless the crypto exchange is pretty sneaky.  One problem at FTX i=
+s that it took some $8 billion of customer deposits through an account for =
+Alameda, and one possible explanation of that, in the early days, banks wou=
+ldn=E2=80=99t let people send money to FTX, because crypto exchanges are sc=
+ary, but =E2=80=9CAlameda Research=E2=80=9D sounded less threatening.
+
+
+  [7] A funny but *VERY RISKY* way to run a crime-friendly Bitcoin exchange=
+ would be to (1) lean heavily into advertising how crime-friendly you are, =
+(2) accept deposits without KYC/AML, and (3) never give back the money. Wha=
+t are they gonna do, sue you for the money? The money is from crime. But of=
+ course if your business is stealing money from criminals, that =E2=80=A6 s=
+eems =E2=80=A6 bad =E2=80=A6 for non-legal reasons.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ci1g3j.5zo8/65d27b52.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_9742875_1963027641.1674157743072
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff will be off tomorrow, back on Monday.The basi=
+c situation at FTX Trading Ltd. is that a lot of people =E2=80=94 retail=20
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0zMDMwMDYwNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1ODAxMTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB184d8480" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D30300607&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30580119&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMTE5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTkmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB9103ac6a"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDMwMDYwNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1ODAxMTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC0ed0aa63" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30300607&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30580119&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note:</strong><em> Money S=
+tuff will be off tomorrow, back on Monday.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">FTX is back!?</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/30300607.279512/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjItMTItMTMvaG93LXRvLWRvLWZyYXVkLWF0LWEtZnV0dXJlcy1leGNoYW5=
+nZT9jbXBpZD1CQkQwMTE5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f0=
+7ceef4b8524a319a23cB363319c5" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">  basic situation</a> at FTX Trading =
+Ltd. is that a lot of people =E2=80=94=C2=A0retail customers but also insti=
+tutional crypto traders =E2=80=94=C2=A0seem to have liked trading on FTX, b=
+ut then FTX, and its affiliated trading firm Alameda Research,=C2=A0lost an=
+d/or stole their money. Hearing rumors of this, FTX=E2=80=99s customers ask=
+ed to withdraw their money; the money wasn=E2=80=99t there, and FTX filed f=
+or bankruptcy.</p>
+<p style=3D"margin: 16px 0;">So that=E2=80=99s where we are now. How do you=
+=C2=A0<em>fix=C2=A0</em>this? An obvious place to focus is on finding the m=
+oney and putting it back. If FTX/Alameda stole a bunch of customer money an=
+d used it to buy Bahamas condos and make political and philanthropic donati=
+ons, you sell the condos and ask for the donations back. If you do that rea=
+lly efficiently, you get all the money back, and you give it back to the cu=
+stomers, and everything is fine. But this seems unlikely to be a complete s=
+uccess. For one thing, you probably won=E2=80=99t recover all the money, an=
+d you=E2=80=99ll have costs in doing so. But also a lot of the money seems =
+to have gone into investments, particularly cryptocurrency investments, tha=
+t lost a lot of value: If Alameda took $1 billion of FTX customer funds and=
+ spent it on magic beans, and you are able to sell the magic beans for $35,=
+ then that=E2=80=99s $999,999,965 of customer money that you=E2=80=99re not=
+ getting back.<a class=3D"footnote-index" href=3D"#footnote-1" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: none !important; backgroun=
+d-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a> FTX=E2=80=99s and Alameda=E2=80=99s <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/30300607.279512/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjItMTEtMTQvZnR4LXMtYmFsYW5jZS1zaGVldC13YXMtYmFkP2N=
+tcGlkPUJCRDAxMTkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZX=
+dzbGV0dGVyJnV0bV90ZXJtPTIzMDExOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef=
+4b8524a319a23cB582edc0e" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">  financial statements</a> are <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/30300607.279512/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMTcvbWF0dC1sZXZpbmUt=
+cy1tb25leS1zdHVmZi1mdHgtd2FzLW5vdC12ZXJ5LWNhcmVmdWw_Y21waWQ9QkJEMDExOTIzX01=
+PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm=
+09MjMwMTE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBf81aa59=
+d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  notoriously a mess</a>, so I am not quite sure how much cust=
+omer money went to real estate and donations, how much went to depreciated =
+magic beans, and how much is still sitting in bank accounts. But my guess i=
+s that the beans vastly outweigh the real estate, so selling the real estat=
+e is not really going to fill the hole.</p>
+<p style=3D"margin: 16px 0;">But there is another, weirder way to fix the p=
+roblem, which is to pretend it never happened. The proximate cause of FTX=
+=E2=80=99s bankruptcy is not that Alameda borrowed a lot of FTX customer mo=
+ney and lost/stole it. The proximate cause is that=C2=A0<em>people noticed<=
+/em>, and <em>asked for their money back</em>. And the money wasn=E2=80=99t=
+ there, because it was lost/stolen. But if they hadn=E2=80=99t=C2=A0<em>ask=
+ed=C2=A0</em>for it, they could have blithely continued along, trading on F=
+TX, racking up profits and losses in their FTX accounts. =E2=80=9CI have a =
+billion dollars in my account on FTX,=E2=80=9D a big customer could have th=
+ought, even if FTX didn=E2=80=99t have any actual money backing that accoun=
+t. And then the customer could have kept trading to try to turn that billio=
+n dollars into two billion dollars, and as long as it stayed within FTX it =
+wouldn=E2=80=99t matter if there were any actual dollars there.<a class=3D"=
+footnote-index" href=3D"#footnote-2" style=3D"color: #000000; text-decorati=
+on: none !important; border-bottom-width: 1px; border-bottom-color: #000000=
+; border-bottom-style: none !important; background-color: transparent !impo=
+rtant; display: inline-block;">
+<span>[2]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">=E2=80=9COf course this can=E2=80=99t go on fo=
+rever,=E2=80=9D one is tempted to say, but can=E2=80=99t it? In the general=
+ run of Ponzi schemes it mostly can=E2=80=99t, but in, like, late October 2=
+022 =E2=80=94=C2=A0just before FTX imploded =E2=80=94=C2=A0it was not=C2=A0=
+<em>crazy=C2=A0</em>to think it could work for FTX. The theory is:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">FTX was making a lot of real money, le=
+gitimately,<a class=3D"footnote-index" href=3D"#footnote-3" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: none !important; background-c=
+olor: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0by charging fees to traders. If people kept trading and FTX kept =
+accumulating profits, perhaps over time the profits would be enough to fill=
+ the hole caused by Alameda=E2=80=99s borrowing/loss/theft.</li>=09<li styl=
+e=3D"margin-bottom: 5px;">At least a large part of the hole was caused by A=
+lameda using FTX customer money to buy cryptocurrencies that went down, and=
+ maybe they=E2=80=99d go up again! You never know. And then Alameda could p=
+ay back the money and there=E2=80=99d be no more hole.</li>=09<li style=3D"=
+margin-bottom: 5px;">More specifically, a large part of the hole seems to h=
+ave been caused by Alameda using FTX customer money to fund its <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/30300607.279512/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMTQvZnR4LXMtYmFsYW5j=
+ZS1zaGVldC13YXMtYmFkP2NtcGlkPUJCRDAxMTkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1=
+haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExOSZ1dG1fY2FtcGFpZ249bW=
+9uZXlzdHVmZg/607f07ceef4b8524a319a23cC582edc0e" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;">  holdings of magic=
+ beans that were=C2=A0<em>created by FTX</em></a>, and that represented ess=
+entially a bet on FTX=E2=80=99s continuing popularity and success. Tokens l=
+ike FTT, SRM and MAPS operated sort of like stock in FTX and its related bu=
+sinesses. When people got nervous about FTX and Alameda, those tokens lost =
+value, and when FTX filed for bankruptcy, those basically-stock-in-FTX toke=
+ns became basically worthless. But if it had continued along being popular =
+and successful, they might have recovered a lot of value, which might have =
+filled the hole.</li>
+</ul>
+<p style=3D"margin: 16px 0;">I don=E2=80=99t want to suggest that this woul=
+d have been legal, or a good idea. Imagine that you were magically installe=
+d as chief executive officer of FTX in, say, late October of 2022, <em>afte=
+r </em>Alameda borrowed/lost/stole billions of dollars of customer money, b=
+ut <em>before </em>people noticed and demanded their money back. And your s=
+taff came to you and described the whole situation in accurate detail, and =
+then asked you what you wanted to do. Your basic choices were:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Announce =E2=80=9Chey, turns out the =
+previous management misplaced billions of dollars of customer money, we=E2=
+=80=99re looking into it, sorry about that.=E2=80=9D And then try to fill t=
+he hole as rapidly as possible =E2=80=94=C2=A0by selling cryptocurrency or =
+real estate, by begging to take back donations, by finding new outside inve=
+stors, etc.=C2=A0</li>=09<li style=3D"margin-bottom: 5px;">Announce =E2=80=
+=9CFTX is stronger than ever,=E2=80=9D reassure customers that everything i=
+s great,=C2=A0and launch=C2=A0a new ad campaign to attract more deposits.</=
+li>
+</ol>
+<p style=3D"margin: 16px 0;">Knowing what you hypothetically knew, Option 2=
+ would be terrible terrible fraud and probably land you in prison,=C2=A0<em=
+>unless it worked</em>. If it worked =E2=80=94=C2=A0if people believed you,=
+ they kept blithely trading, the magic beans recovered their value, and you=
+ earned enough profits to fill the hole =E2=80=94=C2=A0then, uh, then it wo=
+uld still be fraud, but maybe no one would give you too much trouble about =
+it.<a class=3D"footnote-index" href=3D"#footnote-4" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: none !important; background-color: tr=
+ansparent !important; display: inline-block;">
+<span>[4]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Would it have worked? I mean, look, we know th=
+e answer to that, because it=E2=80=99s what FTX=E2=80=99s and Alameda=E2=80=
+=99s actual management did. When Coindesk <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/30300607.279512/aHR0cHM6Ly93d3cuY29pbmRlc2suY29tL2J=
+1c2luZXNzLzIwMjIvMTEvMDIvZGl2aXNpb25zLWluLXNhbS1iYW5rbWFuLWZyaWVkcy1jcnlwdG=
+8tZW1waXJlLWJsdXItb24taGlzLXRyYWRpbmctdGl0YW4tYWxhbWVkYXMtYmFsYW5jZS1zaGVld=
+C8/607f07ceef4b8524a319a23cB058c5a18" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> reported</a> that Alameda=E2=
+=80=99s balance sheet was made up mostly of magic beans, and when Binance C=
+EO Changpeng Zhao <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+30300607.279512/aHR0cHM6Ly90d2l0dGVyLmNvbS9jel9iaW5hbmNlL3N0YXR1cy8xNTg5Mjg=
+zNDIxNzA0MjkwMzA2/607f07ceef4b8524a319a23cB45038cd6" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> announced</a>=
+ that he would dump his stash of FTT tokens, FTX CEO Sam Bankman-Fried and =
+Alameda CEO Caroline Ellison tweeted confidently about how strong their bal=
+ance sheets were and how safe customer money was. They leaned into Option 1=
+. It did not work. No one believed them, <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/30300607.279512/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMjItMTEtMDkvYmFua21hbi1mcmllZC1zLWZ0eC1oYWQtYS1kZWF=
+0aC1zcGlyYWwtYmVmb3JlLWJpbmFuY2UtZGVhbD9jbXBpZD1CQkQwMTE5MjNfTU9ORVlTVFVGRi=
+Z1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTkmd=
+XRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBe8617e93" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  there was a run</a>, and FTX went bankrupt. Maybe you, in this hypothetic=
+al, could have done better, but I wouldn=E2=80=99t count on it.</p>
+<p style=3D"margin: 16px 0;">Option 1 would leave you blameless: You came i=
+n as the new CEO, you spotted the fraud, you reported it. You didn=E2=80=99=
+t deceive anyone; you were honest and open about the problems and moved rap=
+idly to fix them. But of course by announcing the problems you will=C2=A0<e=
+m>definitely=C2=A0</em>cause a run: If customer money is missing, why shoul=
+d customers keep their money at FTX? If FTX is doing fraud and has a net wo=
+rth of negative billions of dollars, why should outside investors put in mo=
+ney to keep it afloat? Once you have announced the problems, you can=E2=80=
+=99t really get customers to ignore them, and getting customers to ignore t=
+he problems was the easiest way to solve them. So you are left with the sec=
+ond-best way to solve them, which is selling the real estate and magic bean=
+s at auction and giving customers whatever you can get.</p>
+<p style=3D"margin: 16px 0;">In fact a new CEO, John J. Ray III,=C2=A0<em>w=
+as=C2=A0</em><a href=3D"https://link.mail.bloombergbusiness.com/click/30300=
+607.279512/aHR0cHM6Ly9wYWNlci1kb2N1bWVudHMuczMuYW1hem9uYXdzLmNvbS8zMy8xODg0=
+NTAvMDQyMDIwNjQ4MTk3LnBkZg/607f07ceef4b8524a319a23cBe90eb51c" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">insta=
+lled at FTX</a> =E2=80=9Cin the early morning hours of November 11, 2022,=
+=E2=80=9D and he leaned hard into Option 1. He=C2=A0filed for bankruptcy mo=
+ments after being installed as CEO, and=C2=A0has been telling everyone abou=
+t <a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMTcvbWF=
+0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1mdHgtd2FzLW5vdC12ZXJ5LWNhcmVmdWw_Y21waWQ9Qk=
+JEMDExOTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0Z=
+XImdXRtX3Rlcm09MjMwMTE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a31=
+9a23cCf81aa59d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">  how bad FTX=E2=80=99s governance and finances wer=
+e</a>=C2=A0and how it <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/30300607.279512/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGV=
+zLzIwMjMtMDEtMTgvc2xpY2luZy1jYXNoLWZsb3dzLWZvci1iZXR0ZXItcmF0aW5ncz9jbXBpZD=
+1CQkQwMTE5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xld=
+HRlciZ1dG1fdGVybT0yMzAxMTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524=
+a319a23cB42d16c71" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">  built systems to defraud customers</a>. Meanwh=
+ile he is trying to round up FTX=E2=80=99s assets to divvy up among custome=
+rs and other creditors. It is still early days, but it is pretty clear that=
+ (1) he won=E2=80=99t find enough cash and real estate and magic beans to m=
+ake the customers whole and (2) he=E2=80=99s expensive, so as time goes by =
+there will be less money for creditors because more will go to him and his =
+team.</p>
+<p style=3D"margin: 16px 0;">But can you =E2=80=A6=C2=A0can you =E2=80=A6=
+=C2=A0can you just a=C2=A0<em>little=C2=A0</em>bit go back to Option 2? Not=
+ really, of course; not=C2=A0<em>fraud</em>. You have to be open and honest=
+ about the hole in the balance sheet, about the backdoors in FTX=E2=80=99s =
+code that allowed Alameda to take all the money. But before they knew about=
+ the missing money,=C2=A0a lot of people =E2=80=94=C2=A0retail customers bu=
+t also institutional crypto traders =E2=80=94=C2=A0seem to have liked tradi=
+ng on FTX, and that is what made FTX valuable, and maintaining and increasi=
+ng that value seems like the best way to fill the hole in the balance sheet=
+. If FTX could just restart its exchange business, and go back to being pop=
+ular and making billions of dollars in trading fees, then those billions of=
+ dollars could be used to pay back customers. And if that happened then may=
+be the FTT tokens, the magic beans that right now FTX will have trouble sel=
+ling, could recover their value, and also be used to pay back customers.</p=
+>
+<p style=3D"margin: 16px 0;">This seems far-fetched and I do not personally=
+ have any idea how you could restart trading on FTX, attract new deposits, =
+and get everyone to pretend everything is fine so you can earn back the mon=
+ey that Alameda borrowed/lost/stole. But I guess John Ray does? The <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aHR0cHM6L=
+y93d3cud3NqLmNvbS9hcnRpY2xlcy9uZXctZnR4LWNoaWVmLXNheXMtY3J5cHRvLWV4Y2hhbmdl=
+LWNvdWxkLXJlc3RhcnQtMTE2NzQxNDMxNjg_bW9kPWhwX2xlYWRfcG9zMw/607f07ceef4b8524=
+a319a23cB41583bde" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> Wall Street Journal reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">FTX=E2=80=99s new chief executive, John J. Ray=
+ III, said he=E2=80=99s looking into the possibility of reviving the bankru=
+pt crypto exchange as he works to return money to the failed company=E2=80=
+=99s customers and creditors. =C2=A0=C2=A0</p>
+<p style=3D"margin: 16px 0;">In his first interview since taking over FTX i=
+n November, Mr. Ray said that he has set up a task force to explore restart=
+ing FTX.com, the company=E2=80=99s main international exchange. Although to=
+p FTX executives have been accused of criminal misconduct, some customers h=
+ave praised its technology and suggested that there would be value in reboo=
+ting the platform, he said.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CEverything is on the table,=E2=80=9D =
+Mr. Ray said. =E2=80=9CIf there is a path forward on that, then we will not=
+ only explore that, we=E2=80=99ll do it.=E2=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Mr. Ray said he would look into whether revivi=
+ng FTX=E2=80=99s international exchange would recover more value for the co=
+mpany=E2=80=99s customers than his team could get from simply liquidating a=
+ssets or selling the platform.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThere are stakeholders we=E2=80=99re =
+working with who=E2=80=99ve identified what they see is a viable business,=
+=E2=80=9D he said.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I guess? I mean, conceptually, what you have t=
+o do here is convince big crypto investors to start trading again on FTX by=
+ (1) opening up some new entity where they can deposit money that won=E2=80=
+=99t get thrown into the hole caused by Alameda and (2) convincing those in=
+vestors that, this time, you won=E2=80=99t steal the money. I suppose insta=
+lling a new CEO, filing for bankruptcy, and disclosing the hole in the bala=
+nce sheet and the backdoors in the code is a way to build that sort of trus=
+t. Maybe John Ray had to burn FTX down to save it.</p>
+<p style=3D"margin: 16px 0;">Also <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30300607.279512/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2F=
+ydGljbGVzLzIwMjMtMDEtMTkvZnR4LXRva2VuLWp1bXBzLWFmdGVyLW5ldy1jZW8tc2F5cy1leG=
+NoYW5nZS1jb3VsZC1yZXN0YXJ0P2NtcGlkPUJCRDAxMTkyM19NT05FWVNUVUZGJnV0bV9tZWRpd=
+W09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExOSZ1dG1fY2FtcGFp=
+Z249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBb6902134" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">maybe it=E2=
+=80=99s=C2=A0working</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">FTX=E2=80=99s controversial FTT token surged b=
+y more than 30% after the bankrupt company=E2=80=99s new chief executive, J=
+ohn J. Ray III, said that he=E2=80=99s exploring the possibility of restart=
+ing the crypto exchange. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Data from TradingView shows that FTT rose by m=
+ore than 30% on rival exchange Binance. FTT was trading at around $2.38 on =
+Thursday. That=E2=80=99s still down more than 97% from its record high of $=
+84.18, according to pricing data from CoinGecko.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Given FTX=E2=80=99s stash of FTT, that=E2=80=
+=99s like $100 million more for creditors right there, just from announcing=
+ it.<a class=3D"footnote-index" href=3D"#footnote-5" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: none !important; background-color: t=
+ransparent !important; display: inline-block;">
+<span>[5]</span>
+</a>=C2=A0Imagine if it works!</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDMwMDYwNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1ODAxMTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDa0395535" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30300607&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30580119&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDMwMDYwNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1ODAxMTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEa0395535" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30300607&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30580119&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDMwMDYwNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1ODAxMTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFb73ab339" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30300607&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30580119&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDMwMDYwNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1ODAxMTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGb73ab339" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30300607&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30580119&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDMwMDYwNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1ODAxMTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHbdb77b9d" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30300607&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30580119&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDMwMDYwNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1ODAxMTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIbdb77b9d" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30300607&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30580119&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Samcoins</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Elsewhere in <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/30300607.279512/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjA=
+yMy8wMS8xOC9idXNpbmVzcy9mdHgtc2JmLWNyeXB0by1tYXJrZXRzLmh0bWw/607f07ceef4b85=
+24a319a23cB75df3fcb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> FTX and magic beans</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">In Sam Bankman-Fried=E2=80=99s quest to keep h=
+is cryptocurrency empire looking profitable, the disgraced founder of FTX o=
+ften promoted newfangled digital currencies that crypto aficionados came to=
+ call =E2=80=9CSamcoins.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Mr. Bankman-Fried wooed the developers of thes=
+e new coins with names like Serum and Maps, insisting that they make their =
+trading debuts on the FTX exchange. Then his hedge fund, Alameda Research, =
+would buy some of these newly listed Samcoins to prop up their value, while=
+ Mr. Bankman-Fried used FTX=E2=80=99s influence in the crypto industry to d=
+rum up interest in those coins and persuade other investors to also buy sig=
+nificant amounts.</p>
+<p style=3D"margin: 16px 0;">Mr. Bankman-Fried was thus able to inflate the=
+ coins=E2=80=99 value artificially, making Alameda look healthier than it w=
+as and papering over problems at his companies until they imploded in Novem=
+ber. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Sometimes, Mr. Bankman-Fried appeared to be pu=
+shing up the prices of coins =E2=80=94 including FTT, a coin that he had cr=
+eated =E2=80=94 that FTX and Alameda would later use as collateral for loan=
+s, according to court records and interviews with crypto executives. Many o=
+f those executives also accused Mr. Bankman-Fried of trying to turn a quick=
+ profit by betting that a new coin would fail, or pumping up a coin=E2=80=
+=99s value and then suddenly selling it, with the apparent goal of bolsteri=
+ng Alameda=E2=80=99s balance sheet. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Since his company imploded, Mr. Bankman-Fried =
+has repeatedly denied accusations that he tried to manipulate cryptocurrenc=
+y markets. In a text message, he compared his company=E2=80=99s efforts to =
+bolster the price of FTT =E2=80=94 by publicly announcing that it would buy=
+ large quantities =E2=80=94 to share buyback schemes at public companies. A=
+nd he said his firm=E2=80=99s trading of FTT was designed to keep the marke=
+t running smoothly by buying coins when people wanted to sell and selling w=
+hen they wanted to buy.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">See my view on this is that it was probably fi=
+ne for Alameda to make markets in Samcoins, and it was probably fine for FT=
+X to announce that it would use a portion of its fee revenue to buy back FT=
+T (that=C2=A0<em>is=C2=A0</em>like a stock buyback, since FTT was like FTX =
+stock). And it was =E2=80=A6=C2=A0aggressive, but basically fine, for Alame=
+da to use its stash of billions of dollars of Samcoins as collateral to bor=
+row from=C2=A0<em>other=C2=A0</em>crypto lenders. And if you combine Alamed=
+a=E2=80=99s market making in Samcoins with its using them as collateral for=
+ other crypto lenders, you get into a worse place, where if the market maki=
+ng pushed up prices and allowed Alameda to borrow more then that does looks=
+ bad, depending on how aggressively Alameda was buying. (That looks=C2=A0<a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtMjcvYmlsbC1=
+od2FuZy1hcnJlc3QtaW5zaWRlLXRoZS12aWNpb3VzLWN5Y2xlLW9mLWFyY2hlZ29zLWNvbGxhcH=
+NlP2NtcGlkPUJCRDAxMTkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZ=
+T1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f0=
+7ceef4b8524a319a23cB48145dd5" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">  like Archegos</a>.)</p>
+<p style=3D"margin: 16px 0;">But to me the thing that is <em>really=C2=A0</=
+em>bad is <em>FTX </em>lending billions of dollars to Alameda secured by FT=
+T tokens. If you are a leveraged financial institution, and you have a favo=
+red customer who owns a lot of your=C2=A0<em>stock</em>, and you lend that =
+customer billions of dollars of=C2=A0<em>real customer money=C2=A0</em>secu=
+red by that stock, then you have built your whole company on quicksand. Wha=
+t if people notice? They will sell off your stock, which will reduce the va=
+lue of your collateral, which will lead to credit losses, which will lead y=
+our stock to go down more, which will lead to more losses, etc., until it a=
+ll vanishes. It is an obvious <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30300607.279512/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMjItMTEtMDkvYmFua21hbi1mcmllZC1zLWZ0eC1oYWQtYS1kZWF0aC1zcGlyYW=
+wtYmVmb3JlLWJpbmFuY2UtZGVhbD9jbXBpZD1CQkQwMTE5MjNfTU9ORVlTVFVGRiZ1dG1fbWVka=
+XVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTkmdXRtX2NhbXBh=
+aWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cCe8617e93" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">  death spir=
+al</a>. =E2=80=9CFTT was just like stock of FTX=E2=80=9D is perhaps a defen=
+se to some claims of manipulation, but the real problem here is that FTX lo=
+st customer money lending it to Alameda secured by Samcoins. Even if the va=
+lue of those coins wasn=E2=80=99t inflated=C2=A0<em>artificially</em>, that=
+ was still pretty bad.</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0zMDMwMDYwNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1ODAxMTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cJ21e09bd3" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D30300607&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30580119&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Customer service</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One important use case of crypto is online cri=
+me. If you want to pay for drugs or assassinations, or get a ransom payment=
+ for hacking someone=E2=80=99s computer, Bitcoin has some really nice prope=
+rties. It can be transferred anonymously, more or less instantly, over the =
+internet, with no intermediaries =E2=80=94=C2=A0banks, etc. =E2=80=94=C2=A0=
+that might block or reverse a payment. It has a value that is widely accept=
+ed internationally. It is, in many ways,=C2=A0<em>money</em>, but free of t=
+he regulation that applies to dollars and euros and most other kinds of mon=
+ey.</p>
+<p style=3D"margin: 16px 0;">The only problem is turning your regular money=
+ (dollars, euros, rubles, whatever =E2=80=94=C2=A0=E2=80=9Cfiat,=E2=80=9D c=
+rypto people call it) into Bitcoin, and your Bitcoin back into regular mone=
+y. Most people have jobs that pay them in fiat currencies, and pay most of =
+their expenses in fiat currencies. If you got your=C2=A0paycheck and want t=
+o buy drugs with Bitcoin, or if you got a big ransomware payment in Bitcoin=
+ and want to buy groceries, you will need to turn fiat into Bitcoin or Bitc=
+oin into fiat.</p>
+<p style=3D"margin: 16px 0;">And=C2=A0<em>that=E2=80=99s=C2=A0</em>where th=
+ey get you. All the stuff about Bitcoin =E2=80=94=C2=A0it being anonymous, =
+irreversible, no intermediaries, no national borders =E2=80=94=C2=A0is not =
+true of the transaction where you turn your fiat into Bitcoin or vice versa=
+.=C2=A0<em>There</em>, you need to hook up a bank account or a credit card =
+or whatever to transfer your fiat currency into the Bitcoin system.</p>
+<p style=3D"margin: 16px 0;">Crypto exchanges are generally in the business=
+ of providing this fiat on/off-ramp service. You open an account at a crypt=
+o exchange, you give it your bank information, you put in dollars to buy Bi=
+tcoin, you sell Bitcoin to get dollars, and the exchange is the doorway bet=
+ween the dollar financial system and the Bitcoin financial system.</p>
+<p style=3D"margin: 16px 0;">This is a fraught business for the exchange to=
+ be in. On one side, the side where it is making and accepting fiat payment=
+s, it is connected to a regulated banking system, and in the US and many ot=
+her countries banks have obligations to prevent financial crime. The banks =
+have know-your-customer/anti-money-laundering obligations; they try to know=
+ who their customers are and where their money comes from and what it=E2=80=
+=99s being used for, to try to prevent it being used for crime. In practice=
+, this often means that banks and credit card companies won=E2=80=99t let y=
+ou send money to a crypto exchange unless the crypto exchange is itself reg=
+ulated by national authorities and does its own KYC/AML checks to prevent i=
+ts customers from using crypto for crime.<a class=3D"footnote-index" href=
+=3D"#footnote-6" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[6]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">But on the other side, the side where it is tr=
+ading crypto, the exchange is connected to the crypto system, and obviously=
+ the exchange has lots of customers who have lots of reasons for using that=
+ system, but, again, <em>one </em>important=C2=A0use case is crime. Presuma=
+bly the people who want to use Bitcoin for crime will not actually be custo=
+mers of an upstanding regulated exchange that does lots of KYC/AML, but the=
+y will want to be customers of=C2=A0<em>some=C2=A0</em>exchange. There is a=
+ lot of customer demand for a crypto exchange that is crime-friendly. If yo=
+u set up a crypto exchange with the goal of being crime-friendly, and you d=
+evelop a reputation for being crime-friendly, you will win a lot of busines=
+s.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Of course there are problems. One is: The whol=
+e point of this business is that your crypto exchange has to be able to get=
+ money from banks and send money back to banks, and how are you going to co=
+nvince banks to connect=C2=A0to your exchange? Most banks in the US and man=
+y other countries want to deal with regulated crypto exchanges with good KY=
+C/AML policies. You need to walk a fine line; you need to have a reputation=
+=C2=A0<em>among customers=C2=A0</em>for being crime-friendly but a reputati=
+on=C2=A0<em>among bankers=C2=A0</em>for stopping crime.</p>
+<p style=3D"margin: 16px 0;">The other problem is of course that <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/30300607.279512/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMTgvY3J5cHRvLWV4Y2hhbmd=
+lLWJpdHpsYXRvLWZvdW5kZXItYXJyZXN0ZWQtZm9yLW1vbmV5LWxhdW5kZXJpbmc_Y21waWQ9Qk=
+JEMDExOTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0Z=
+XImdXRtX3Rlcm09MjMwMTE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a31=
+9a23cBe7b59d90" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;">  you=E2=80=99ll eventually get arrested</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A Russian national was charged with money laun=
+dering through a cryptocurrency exchange that allegedly masked the proceeds=
+ of illegal gambling and drug deals valued at more than $700 million, as th=
+e US goes after criminal suspects in the digital space.</p>
+<p style=3D"margin: 16px 0;">Anatoly Legkodymov, founder of the crypto exch=
+ange Bitzlato, was arrested Tuesday in Miami, the Justice Department said a=
+t a press conference Wednesday. Hong Kong-registered Bitzlato was a =E2=80=
+=9Ccritical financial resource=E2=80=9D for the Hydra dark web market, the =
+largest and longest-running such marketplace, Deputy Attorney General Lisa =
+Monaco said at the conference. The dark web traffics in illicit goods and s=
+ervices.</p>
+<p style=3D"margin: 16px 0;">Bitzlato processed illegal funds including mil=
+lions of dollars in ransomware gains, according to a Justice Department sta=
+tement. Legkodymov, 40, who lives in Shenzhen, China, and in Russia, posted=
+ on an internal chat that Bitzlato users were =E2=80=9Cknown to be crooks,=
+=E2=80=9D according to the US. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Monaco summed up the Bitzlato-Hydra connection=
+.</p>
+<p style=3D"margin: 16px 0;">The two =E2=80=9Cformed a high-tech axis of cr=
+yptocrime,=E2=80=9D she said. =E2=80=9CHydra buyers funded illicit purchase=
+s =E2=80=94 of illegal drugs, stolen financial information, and hacking ser=
+vices =E2=80=94 from crypto accounts hosted at Bitzlato, and sellers of the=
+se illegal goods and services at Hydra sent criminal proceeds to accounts a=
+t Bitzlato.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is the <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/30300607.279512/aHR0cHM6Ly93d3cuanVzdGljZS5nb3YvdXNh=
+by1lZG55L3ByZXNzLXJlbGVhc2UvZmlsZS8xNTYyOTk2L2Rvd25sb2Fk/607f07ceef4b8524a3=
+19a23cBfa373809" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> criminal complaint</a>. I often find myself writi=
+ng about criminal and regulatory cases against financial institutions, and =
+sometimes those cases will quote colorful emails and chat messages that peo=
+ple at those financial institutions wrote in the course of doing alleged cr=
+imes, and those emails and chats will often be pretty funny, but they will =
+have the tone of =E2=80=9Ccan=E2=80=99t believe we=E2=80=99re doing this, h=
+ope we don=E2=80=99t go to jail.=E2=80=9D Because they are doing crimes at =
+a basically law-abiding company; they feel nervous and out of place about t=
+he crime that they are doing.=C2=A0</p>
+<p style=3D"margin: 16px 0;">At Bitzlato, the business was allegedly crime,=
+ so there are just a lot of very matter-of-fact customer-support chats wher=
+e customers ask for support doing crimes and Bitzlato supports them. The co=
+mplaint quotes some:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">On or about December 27, 2017, a user with the=
+ username =E2=80=9CDude Weed=E2=80=9D wrote to Bitzlato=E2=80=99s customer =
+service portal, stating: =E2=80=9CI have a bitcoin wallet in my account on =
+the Hydra site. I also have a wallet here . . . How do I recharge a Hydra w=
+allet=E2=80=9D? The user also provided transaction details. Based on my tra=
+ining and experience, this query reflects the user=E2=80=99s desire to send=
+ funds from Bitzlato to Hydra. A Bitzlato representative responded: =E2=80=
+=9CHello dude weed,=E2=80=9D apologized for the delay in the transaction, a=
+nd stated that =E2=80=9CThe transaction successfully went online.=E2=80=9D =
+...</p>
+<p style=3D"margin: 16px 0;">On or about May 5, 2021, a user asked whether =
+he could =E2=80=9Cexchange dirty bitcoin for Sber without problems here=E2=
+=80=9D=E2=80=94an apparent reference to Sberbank, a Russian bank. A Bitzlat=
+o representative asked the user to clarify, and he wrote: =E2=80=9CWell for=
+ example the person sent me to my wallet bitcoins taken from darknet, some =
+kind of illegal exchanges, as far as I know they automatically get to dirty=
+ bitcoins. So my question is, when I transfer them to Sberbank in rubles, c=
+an I change them?=E2=80=9D The Bitzlato representative responded that =E2=
+=80=9CIn this case there are no limitations from the service in this matter=
+.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Nobody is like =E2=80=9Clol dude weed, hope yo=
+u don=E2=80=99t get busted for buying drugs online from a dark web marketpl=
+ace!=E2=80=9D Of course Dude Weed was buying drugs online from a dark web m=
+arketplace; why else would he be there? And:</p>
+<blockquote><p style=3D"margin: 16px 0;">On or about April 23, 2019, Execut=
+ive-1 again warned his colleagues, including [Legkodymov], that =E2=80=9Cbi=
+tzlato clients are addicts who buy drugs at the hydra site and=C2=A0similar=
+ resources.=E2=80=9D LEGKODYMOV responded that Bitzlato could expand by off=
+ering anonymous financial services to run-of-the-mill individuals, such as =
+taxi drivers.</p></blockquote>
+<p style=3D"margin: 16px 0;">Similarly, Bitzlato <em>had=C2=A0</em>KYC/AML =
+procedures, since you need those to connect to the banking system, but it w=
+ould be bad customer service to insist on following them, so Bitzlato custo=
+mer support was allegedly pretty chill about them:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">On December 17, 2020, a Bitzlato representativ=
+e asked a user to provide his identity documents. The user protested, writi=
+ng, =E2=80=9CI don=E2=80=99t quite understand why you need a photo of this =
+card? It=E2=80=99s not mine[.]=E2=80=9D In further conversations, the user =
+clarified that =E2=80=9Ceveryone on the site trades with other people=E2=80=
+=99s cards . . . they often discuss so-called =E2=80=98drops.=E2=80=99=E2=
+=80=9D=C2=A0The user commented that he had been told to create an account u=
+sing credentials supplied by an online cryptocurrency training course that =
+he had found on Instagram. ...</p>
+<p style=3D"margin: 16px 0;">On or about May 7, 2022, a Bitzlato user was a=
+sked to provide his identifying information. The user responded that he was=
+ =E2=80=9Cnot going to lie to you and tell you tales[.] I bought this accou=
+nt=E2=80=94bought it, I=E2=80=99m telling you.=E2=80=9D The user added that=
+ there were =E2=80=9Chundreds of these accounts with passed verifications=
+=E2=80=94as if you didn=E2=80=99t know that.=E2=80=9D ...</p>
+<p style=3D"margin: 16px 0;">On or about September 12, 2022, Bitzlato block=
+ed a user=E2=80=99s account and asked him to verify his identity. The user =
+responded that he would provide =E2=80=9Ca woman=E2=80=99s=E2=80=9D identit=
+y documents, adding: =E2=80=9CAm I an idiot to verify myself? Verify the =
+=E2=80=98drop.=E2=80=99=E2=80=9D The user added that he would be transferri=
+ng ransomware proceeds and =E2=80=9Ca payment from Hydra=E2=80=9D to his Bi=
+tzlato account. The Bitzlato customer service representative responded that=
+ an account verified in the name of the user=E2=80=99s =E2=80=9Cdrop,=E2=80=
+=9D or straw man, would =E2=80=9Cbelong to your drop,=E2=80=9D and conclude=
+d: =E2=80=9COkay, we are waiting for the application.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CDrop=E2=80=9D is apparently Russian s=
+lang for a straw man: You have someone with a clean record set up a Bitzlat=
+o account, then you sell that account to someone who wants to do crime. And=
+:</p>
+<blockquote><p style=3D"margin: 16px 0;">LEGKODYMOV was also aware that Bit=
+zlato=E2=80=99s customers were not using the service under their true ident=
+ities. On or about May 29, 2019 LEGKODYMOV wrote to a colleague in a chat: =
+=E2=80=9CAll traders are known to be crooks. Trading on =E2=80=98drops,=E2=
+=80=99 etc. You do realize that they all (I think 90%) do not trade on thei=
+r [identity] cards.=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">At some point Bitzlato=E2=80=99s marketing dir=
+ector allegedly made a document called =E2=80=9CCompetitor Analysis=E2=80=
+=9D that described Bitzlato=E2=80=99s pros and cons:</p>
+<div class=3D"body-image" style=3D"margin: 20px 0px;">
+<!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"" src=3D"https://assets.bwbx.io/im=
+ages/users/iqjWHBFdfxIU/iuOPddiKNobo/v0/-1x-1.png" width=3D"550" /></td></t=
+r></table>
+<div style=3D"display:none">
+<![endif]--><img alt=3D"" src=3D"https://assets.bwbx.io/images/users/iqjWHB=
+FdfxIU/iuOPddiKNobo/v0/-1x-1.png" style=3D"max-width: 550px; display: block=
+; width: 100%; margin-top: 20px;" /><!--[if mso]>
+</div>
+<![endif]-->
+</div><p style=3D"margin: 16px 0;">Just perfect marketing, really, for a cr=
+ime-friendly crypto exchange. The main pros are (1) it=E2=80=99s fine with =
+crime and (2) you can deposit money easily. The main cons are (1) it=E2=80=
+=99s fine with crime, (2) so crime will probably be done to you, and (3) it=
+=E2=80=99s expensive to=C2=A0<em>withdraw=C2=A0</em>money.<a class=3D"footn=
+ote-index" href=3D"#footnote-7" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: none !important; background-color: transparent !important=
+; display: inline-block;">
+<span>[7]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">The weird thing about this case is that=C2=A0B=
+itzlato appears to be basically a Russian crypto exchange for Russian users=
+ to buy and sell Bitcoin in Russia using Russian rubles without giving Bitz=
+lato their Russian identity cards, and now it is being prosecuted <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aHR0cHM6L=
+y93d3cuanVzdGljZS5nb3YvdXNhby1lZG55L3ByL2ZvdW5kZXItYW5kLW1ham9yaXR5LW93bmVy=
+LWJpdHpsYXRvLWNyeXB0b2N1cnJlbmN5LWV4Y2hhbmdlLWNoYXJnZWQtdW5saWNlbnNlZC1tb25=
+leQ/607f07ceef4b8524a319a23cB4aaee379" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> in Brooklyn</a>. It was hea=
+dquartered in Hong Kong, and Legkodymov apparently logged on a few times to=
+ run it from Miami, but it seems to have been mostly Russian and had minima=
+l involvement with the US financial system. Minimal, but enough:</p>
+<blockquote><p style=3D"margin: 16px 0;">Moreover, Bitzlato=E2=80=99s custo=
+mer service representatives have repeatedly advised users that they were pe=
+rmitted to transact with the United States. On or about December 16, 2020, =
+for example, a user asked whether he could =E2=80=9Cuse American bank cards=
+ to buy and sell [cryptocurrency].=E2=80=9D A Bitzlato representative repli=
+ed: =E2=80=9CYes, of course. Choose USD=C2=A0currency in =E2=80=98Preferenc=
+es.=E2=80=99=E2=80=9D Similarly, on January 20, 2021, a Bitzlato user asked=
+ whether he could =E2=80=9Cget money from the U.S. to this wallet.=E2=80=9D=
+ A Bitzlato representative replied: =E2=80=9CYou can transfer funds from an=
+ywhere in the world.=E2=80=9D</p></blockquote>
+<p style=3D"margin: 16px 0;">And in fact, Bitzlato=C2=A0<em>helped US law e=
+nforcement with inquiries into crime:</em></p>
+<blockquote><p style=3D"margin: 16px 0;">In response to requests for accoun=
+t data from U.S. law enforcement agents about specific users who were the s=
+ubjects of law enforcement investigations, Bitzlato personnel provided char=
+ts that reflected the Internet Protocol addresses from which those users we=
+re logging into Bitzlato=E2=80=99s servers. Those charts included a column =
+titled =E2=80=9Cuser_ip_country,=E2=80=9D reflecting the country in which e=
+ach IP address appeared to be located. In numerous instances, the Bitzlato =
+charts reflected that users were accessing Bitzlato=E2=80=99s servers from =
+the United States, including logins from an IP address located in Brooklyn,=
+ New York that was identified in October 2022.</p></blockquote>
+<p style=3D"margin: 16px 0;">So, not entirely pro-crime. But the complaint =
+doesn=E2=80=99t actually say that Bitzlato supported any crime in the US, t=
+hat anyone in the US used Bitzlato to buy Bitcoin to buy drugs or to sell B=
+itcoin received in ransoms. Nor does it say that it supported any dollar-li=
+nked crime, that any Russian hackers used Bitzlato to turn Bitcoin ransoms =
+into dollars. Mostly it says that Bitzlato allowed Russian customers to tra=
+de rubles for crypto without using their Russian identity cards, and that i=
+t had a website that you could access from the US. US prosecutors are in th=
+e business of prosecuting financial crime anywhere in the world, and if Rus=
+sians are hiding their transactions from the Russian government, US prosecu=
+tors are interested.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Treasury to Begin <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/30300607.279512/aHR0cHM6Ly93d3cud3NqLmNvbS9hcn=
+RpY2xlcy90cmVhc3VyeS10by1iZWdpbi1leHRyYW9yZGluYXJ5LW1lYXN1cmVzLXRvLXBheS1ia=
+Wxscy1hbWlkLWRlYnQtY2VpbGluZy1kZWJhdGUtMTE2NzQwOTExNzk_bW9kPWhwX2xlYWRfcG9z=
+MQ/607f07ceef4b8524a319a23cB5205b884" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> Extraordinary Measures</a> t=
+o Pay Bills Amid Debt-Ceiling Debate.=C2=A0JPMorgan=E2=80=99s <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/30300607.279512/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMTkvanBtb3JnYW4tcy1kaW1vbi=
+1zYXlzLXVzLXNob3VsZG4tdC1wbGF5LWdhbWVzLW9uLWRlYnQtY2VpbGluZz9jbXBpZD1CQkQwM=
+TE5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1=
+dG1fdGVybT0yMzAxMTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23=
+cB792db7c3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">  Dimon Says</a> US Shouldn=E2=80=99t =E2=80=98Play Gam=
+es=E2=80=99 on Debt Ceiling.=C2=A0Wall Street Struggles to Contain Costs as=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMTgvd2FsbC1z=
+dHJlZXQtc3RydWdnbGVzLXRvLWNvbnRhaW4tY29zdHMtYXMtcGF5LXByZXNzdXJlcy1lc2NhbGF=
+0ZT9jbXBpZD1CQkQwMTE5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f0=
+7ceef4b8524a319a23cB3827733f" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> Pay Pressures Escalate</a>.=C2=A0Cre=
+dit Suisse to Pay <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+30300607.279512/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjM=
+tMDEtMTgvY3JlZGl0LXN1aXNzZS10by1wYXktdXBmcm9udC1jYXNoLWJvbnVzZXMtdG8tc2VuaW=
+9yLXN0YWZmP2NtcGlkPUJCRDAxMTkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX=
+3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVm=
+Zg/607f07ceef4b8524a319a23cBd302e6b6" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> Upfront Cash Bonuses</a> to =
+Senior Staff.=C2=A0Citigroup <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30300607.279512/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDEtMTgvY2l0aWdyb3VwLWJvb3N0cy1wYXktZm9yLW1vc3QtanVuaW9yLWJhbmt=
+lcnMtZGVzcGl0ZS10b3VnaC15ZWFyP2NtcGlkPUJCRDAxMTkyM19NT05FWVNUVUZGJnV0bV9tZW=
+RpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExOSZ1dG1fY2Ftc=
+GFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB112da197" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> Boosts Pa=
+y</a> for Most Junior Bankers Despite Tough Year. Number of <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/30300607.279512/aHR0cHM6Ly93d3cuZ=
+nQuY29tL2NvbnRlbnQvOTI1YTc4NDctNzY3Zi00ZWNlLThhNzAtMWRjNzk5OThmMGEw/607f07c=
+eef4b8524a319a23cB07f01a6f" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> EU bankers earning above =E2=82=AC1mn<=
+/a> hits record following Brexit.=C2=A0Startup Workers=E2=80=99 <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/30300607.279512/aHR0cHM6Ly93d=
+3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMTkvdGVjaC1kb3dudHVybi1z=
+dGFydHVwLXdvcmtlcnMtZHJlYW1zLW9mLWJpZy1wYXlvdXRzLWFyZS1wdXQtb24taG9sZD9jbXB=
+pZD1CQkQwMTE5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2=
+xldHRlciZ1dG1fdGVybT0yMzAxMTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8=
+524a319a23cBdc10c6ad" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  Dreams of Big Payouts</a> Are Put On Hold. =
+Argentina=E2=80=99s $1 Billion <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/30300607.279512/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydG=
+ljbGVzLzIwMjMtMDEtMTkvYXJnZW50aW5hLXMtMS1iaWxsaW9uLWJvbmQtYnV5YmFjay1wbGFuL=
+Whhcy1pbnZlc3RvcnMtc3R1bXBlZD9jbXBpZD1CQkQwMTE5MjNfTU9ORVlTVFVGRiZ1dG1fbWVk=
+aXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTkmdXRtX2NhbXB=
+haWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB1d17780e" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">  Bond Buyb=
+ack Plan</a> Has Investors Stumped. Musk Lawyer Defends =E2=80=98Rushed=E2=
+=80=99 <a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.27=
+9512/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMTgvbX=
+Vzay1zLXR3ZWV0LWxpZXMtY29zdC10ZXNsYS1pbnZlc3RvcnMtbWlsbGlvbnMtanVyeS10b2xkP=
+2NtcGlkPUJCRDAxMTkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1u=
+ZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ce=
+ef4b8524a319a23cBb5169ba9" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">  Take-Private Tweet</a> at Trial. Why <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aHR=
+0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy93aHktb3JhbmdlLWp1aWNlLWlzLXNvLWV4cGVuc2=
+l2ZS1yaWdodC1ub3ctMTE2NzQwMTA4Nzc_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8=
+524a319a23cB64950d7c" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Orange Juice</a> Is So Expensive Right Now.=
+=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279=
+512/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMGExZDU1OTctNzE0NS00MDM1LTk4N2ItZmY=
+wMzNiYmEzZDc1/607f07ceef4b8524a319a23cB9c061e21" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> Peter Thiel=E2=80=
+=99s fund</a> wound down 8-year bitcoin bet before market crash.=C2=A0<a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMTgvd29ybGQtcy1mYX=
+N0ZXN0LW1hbi11c2Fpbi1ib2x0LWxvc3QtMTItbWlsbGlvbi1pbi1hbGxlZ2VkLWZyYXVkLWxhd=
+3llci1zYXlzP2NtcGlkPUJCRDAxMTkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRt=
+X3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHV=
+mZg/607f07ceef4b8524a319a23cBdba81e12" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  Usain Bolt</a> Lost $12 Mi=
+llion in Savings to a Scam. Getty Images is suing the creators of AI art to=
+ol Stable Diffusion for <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/30300607.279512/aHR0cHM6Ly93d3cudGhldmVyZ2UuY29tLzIwMjMvMS8xNy8yMzU1O=
+DUxNi9haS1hcnQtY29weXJpZ2h0LXN0YWJsZS1kaWZmdXNpb24tZ2V0dHktaW1hZ2VzLWxhd3N1=
+aXQ/607f07ceef4b8524a319a23cBcf9658b7" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> scraping its content</a>. B=
+ank Worker Who Led Secret Life After <a href=3D"https://link.mail.bloomberg=
+business.com/click/30300607.279512/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2FydGljbGVzLzIwMjMtMDEtMTkvYmFuay13b3JrZXItd2hvLWxlZC1zZWNyZXQtbGlmZS1hZnR=
+lci01MDAtMDAwLWhlaXN0LWNhdWdodC0yNS15ZWFycy1sYXRlcj9jbXBpZD1CQkQwMTE5MjNfTU=
+9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVyb=
+T0yMzAxMTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB8838a9f=
+b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  $500,000 Heist</a> Caught 25 Years Later. Fugitive in <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDEtMTgvZnVnaXRpdmUtaW4=
+tY2FzZS1vZi0xMDAtbWlsbGlvbi1uai1kZWxpLWFycmVzdGVkLWluLXRoYWlsYW5kP2NtcGlkPU=
+JCRDAxMTkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0d=
+GVyJnV0bV90ZXJtPTIzMDExOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a=
+319a23cB7b16fd6d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">  $100 Million NJ Deli</a>-Value Case Nabbed in T=
+hailand. The lights have been on at a Massachusetts school for over a year =
+because <a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.2=
+79512/aHR0cHM6Ly93d3cubmJjbmV3cy5jb20vbmV3cy91cy1uZXdzL2xpZ2h0cy1tYXNzYWNod=
+XNldHRzLXNjaG9vbC15ZWFyLW5vLW9uZS1jYW4tdHVybi1yY25hNjU2MTE/607f07ceef4b8524=
+a319a23cBccc4e5b0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> no one can turn them off</a>. Orange bitcoin Me=
+rcedes owner at Davos hits back at critics, says <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/30300607.279512/aHR0cHM6Ly93d3cuY25iYy5jb20v=
+MjAyMy8wMS8xOS9kYXZvcy1teXN0ZXJ5LW9mLW9yYW5nZS1iaXRjb2luLWNhci1yZXZlYWxlZC1=
+hbmQtb3duZXItc2xhbXMtY3JpdGljcy5odG1s/607f07ceef4b8524a319a23cB30f4e198" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> not his car=E2=80=99s fault</a> people lost money.=C2=A0</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30300607.279512/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB89a9d262" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30300607.279512/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBa020d9e4" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Well. If Alameda bought the magic beans fo=
+r $1 billion from some identifiable counterparty, maybe you could call *the=
+m* up and say =E2=80=9Chey that was kind of a raw deal, why don=E2=80=99t y=
+ou give us back the billion dollars and we=E2=80=99ll give you back the bea=
+ns.=E2=80=9D And if the counterparty seems to have been, in some sense, in =
+on it =E2=80=94 if Alameda bought the beans from, like, an FTX executive, o=
+r from some crypto project that it incubated =E2=80=94 then maybe that=E2=
+=80=99ll work, as a matter of bankruptcy law or public pressure or whatever=
+. But it seems like a lot of this was Alameda buying magic beans from regul=
+ar traders on crypto exchanges in market transactions,  and the odds of cla=
+wing back the purchase price in those transactions are basically zero.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Of course sometimes they would withdraw mo=
+ney, and FTX would have to give it to them, but the point is that FTX had p=
+lenty of money to cover ordinary-course withdrawals, just not enough to cov=
+er a =E2=80=9Crun on the bank=E2=80=9D where a lot of people wanted their m=
+oney back at once. It had enough money to keep going if people were confide=
+nt in it, but not enough once they lost confidence.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] This is actually a debatable point. Clearl=
+y FTX was intermediating real trades and charging real fees for them, and p=
+eople were doing these trades because they liked the service and prices the=
+y got on FTX. But <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+30300607.279512/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzI=
+wMjItMTEtMTUvbWF0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1iaW5hbmNlLWZ0eC1hbmQtY2Fycz=
+9jbXBpZD1CQkQwMTE5MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9b=
+mV3c2xldHRlciZ1dG1fdGVybT0yMzAxMTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ce=
+ef4b8524a319a23cB658b749a" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">  there is an argument</a> that customer=
+s did these trades specifically because they liked the *prices*, and they l=
+iked the prices specifically because Alameda was on the other side of them =
+and was losing money to subsidize trading on FTX. This would be sort of a P=
+onzi-scheme story of FTX: Alameda stole customer money in order to give oth=
+er customers the illusion of getting good returns on FTX, in order to encou=
+rage customers to deposit more money. Sam Bankman-Fried has <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/30300607.279512/aHR0cHM6Ly9zYW1iZ=
+i5zdWJzdGFjay5jb20vcC9mdHgtcHJlLW1vcnRlbS1vdmVydmlldw/607f07ceef4b8524a319a=
+23cB9e0af74e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> posted charts</a> showing that Alameda was a small p=
+ortion of FTX volume, which would mean that =E2=80=9CAlameda subsidized tra=
+ding prices by stealing customer money and losing it=E2=80=9D is not the ma=
+in story of FTX=E2=80=99s success, but you don=E2=80=99t have to believe Ba=
+nkman-Fried=E2=80=99s charts.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] Oh boy is that not legal advice but, I mea=
+n, in crypto, and in tech generally, =E2=80=9Cfake it till you make it=E2=
+=80=9D seems to have a pretty high success rate. If you make it! If you don=
+=E2=80=99t, people tend to think that your faking it was fraud.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] Again, the finances are a mess, but this w=
+eek <a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.27951=
+2/aHR0cHM6Ly9yZXN0cnVjdHVyaW5nLnJhLmtyb2xsLmNvbS9GVFgvSG9tZS1Eb3dubG9hZFBER=
+j9pZDE9TVRRek9EVTFOUSUzRCUzRCZpZDI9MA/607f07ceef4b8524a319a23cBda8babc9" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> FTX reported</a> having $529 million of FTT tokens based on prices =
+=E2=80=9Cas of the Petition Date.=E2=80=9D The price of FTT fluctuated a lo=
+t on Nov. 11, 2022, the day that FTX filed for bankruptcy, from the low $2s=
+ to the low $3s, so I don=E2=80=99t know how many tokens that represents, b=
+ut it=E2=80=99s in the neighborhood of like 175 million to 200 million mayb=
+e. FTT traded at about $1.81 today before Ray=E2=80=99s announcement, and $=
+2.38 after, so it gained about 57 cents per token, or around $100 million f=
+or FTX=E2=80=99s stash.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] Or unless the crypto exchange is pretty sn=
+eaky. <a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279=
+512/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMjgvZnR=
+4LXJlY2VpdmVkLXNvbWUtY3VzdG9tZXItZGVwb3NpdHMtdmlhLWJhbmstYWNjb3VudHMtaGVsZC=
+1ieS1hbGFtZWRhP2NtcGlkPUJCRDAxMTkyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmd=
+XRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDExOSZ1dG1fY2FtcGFpZ249bW9uZXlz=
+dHVmZg/607f07ceef4b8524a319a23cBad180221" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> One problem at FTX</a> =
+is that it took some $8 billion of customer deposits through an account for=
+ Alameda, and one possible explanation of that, in the early days, banks wo=
+uldn=E2=80=99t let people send money to FTX, because crypto exchanges are s=
+cary, but =E2=80=9CAlameda Research=E2=80=9D sounded less threatening.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] A funny but *VERY RISKY* way to run a crim=
+e-friendly Bitcoin exchange would be to (1) lean heavily into advertising h=
+ow crime-friendly you are, (2) accept deposits without KYC/AML, and (3) nev=
+er give back the money. What are they gonna do, sue you for the money? The =
+money is from crime. But of course if your business is stealing money from =
+criminals, that =E2=80=A6 seems =E2=80=A6 bad =E2=80=A6 for non-legal reaso=
+ns.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBc010e44e" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB32229482" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB2bcaac02" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBa1920b08" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0zMDMwMDYwNyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzA1ODAxMTkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cKc3aa0f37" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D30300607&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30580119&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB54f03790" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30300607.279512/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC98e89dfb" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30300607.279512/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB1ed9ab1c" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30300607.279512/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB2e1f13ac" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB7=
+114efe0" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30300607.279512/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB7=
+6e41b9e" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D303006=
+07&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30580119&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D303006=
+07&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30580119&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D303006=
+07&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30580119&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D303006=
+07&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30580119&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D303006=
+07&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30580119&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ci1g3j.5zo8/65d27b52.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_9742875_1963027641.1674157743072--
+

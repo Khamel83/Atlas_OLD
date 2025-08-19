@@ -1,0 +1,2358 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:10d5:b0:1b9:b7d6:557d with SMTP id cc21csp1367241lkb;
+        Thu, 14 Apr 2022 05:53:32 -0700 (PDT)
+X-Received: by 2002:a5d:59ab:0:b0:205:7e81:53f9 with SMTP id p11-20020a5d59ab000000b002057e8153f9mr2012364wrr.457.1649940812315;
+        Thu, 14 Apr 2022 05:53:32 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1649940812; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=q8CpMOG/92moDyXVtNR/rzIW/ylgt0HQ2ehjHTexLL5QtYChGvhsDvC431KPjulATO
+         B6lzQ7rXMhQOsal4r1vpQfD2zlaS7i/jQk6MrDoIefd5cFPk6Z/NLdmyW8zicmJcMERV
+         sYpmH+/kjqoaBfk7gvRe69zXiHjU44o5XL8kCUYwuOZdnVcazQ/z7NYjmcTyCsGXlLqn
+         BA4zOuYYH8ShLFXzarHJtquawcFOj466DTYWtVXOG7wHTNYCQyLvwRQo9lo0vmQ80AaP
+         Irsz+EXdCRByu9kR8doaqopO2W0y+Weg/Uy/OpLIojmCQlDbYTRK8NY6Frpwq2OYXMUG
+         9rnQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-owner:list-post:in-reply-to:message-id:list-id:list-url:sender
+         :list-unsubscribe:list-archive:date:references:reply-to
+         :list-unsubscribe-post:to:from:subject:mime-version:dkim-signature
+         :delivered-to;
+        bh=a8T3V7U0dL4AySKp2YzLP9jMALakVdEYfx0LTBGgZPE=;
+        b=wtpc/cr3Lewe6qS4Q4IvKLRV1D3wNgelPR/DMSqMUSt3C/FhUx+DLzZzZCNgqebUdi
+         UJPvHPZtbOpoyC+ryCwSrh8BqM4BImuy5+977VY/3RlPWmMuIAkksAaBYEA1QgDTvOKk
+         7+2FLnoupQjTVB6/yjw0dddJ10ZjYAtrGh7Gi/7XTZmi1ybRBB4/Ex0ulDAJy7cBTptC
+         za1m7AKyzxISw/s10HgJTrshRKsovJ0eDcGX5y547f73hI1P6yMcNhoZ6MWDk3mtCePm
+         7I8yCzCSryvsX5mtskfWKCKS1pz2fkPXImNPLNNvIghmBZwnZTXx8kG+47QqqqRJC4A8
+         C1BQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=C2JwAcy3;
+       arc=pass (i=2 dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id g16-20020a05600c141000b0038ff556a902sor611133wmi.11.2022.04.14.05.53.32
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Thu, 14 Apr 2022 05:53:32 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=C2JwAcy3;
+       arc=pass (i=2 dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:mime-version:subject
+         :from:to:list-unsubscribe-post:reply-to:references:date:list-archive
+         :list-unsubscribe:sender:list-url:list-id:message-id:in-reply-to
+         :list-post:list-owner;
+        bh=a8T3V7U0dL4AySKp2YzLP9jMALakVdEYfx0LTBGgZPE=;
+        b=A/NELc/wzD25Du69lsmo1cZQEHl2XwQ4imvxOcBNR91e2pcYgDdDJYZ1XTM/cXBVIJ
+         UCp/ntKfQp7A6zYYBOWqZFiIoMSxlxnS0CMlT+it1P7oQO44uX18Jtv7Nw+EOHEpER4/
+         t0PN8hjDERNWYcnQ7uK8Z2429tG04T+fLE4JoZYVTXJCASKdVE7Ahh1YGSwRCmUWBuSg
+         8tVAJSFKjq1aB7dEaUNmVQ5RluoHQdJsVXR09m3KGlSpEvhfj51f0Np11K7izO54gQgV
+         9znXa9Oj2KPVGnAiQMWG5tS25Xg3Syl4ccNRFGjc/3zJpmcyNeLU79mOJGm/abSxpduE
+         rZ8Q==
+X-Gm-Message-State: AOAM530OrEPnNBzi3OaAJMKAyZTIJtFdXW8DJaNvFgRP6eQU3PGbNb6p
+	Fb00vKRHrJILiP/Ri8ABgW9wehIBQmfMRJTCBY6kxR4IWRpCEKnjfw==
+X-Received: by 2002:a7b:c201:0:b0:38f:f7f5:f6db with SMTP id x1-20020a7bc201000000b0038ff7f5f6dbmr2092879wmi.191.1649940811969;
+        Thu, 14 Apr 2022 05:53:31 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:410f:0:0:0:0:0 with SMTP id l15csp995270wrp;
+        Thu, 14 Apr 2022 05:53:29 -0700 (PDT)
+X-Received: by 2002:a9d:69da:0:b0:5e9:4062:e8b4 with SMTP id v26-20020a9d69da000000b005e94062e8b4mr869254oto.365.1649940809424;
+        Thu, 14 Apr 2022 05:53:29 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1649940809; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=guI3/20KvhXIKqZuTPJs0qH4XwU/FaI5q+DVFxhmeImlndBxbYvKF1dv6/SHjksred
+         Bg9dzY6BgUaTVePbqyoSUNDZBCJLZIxAI1GeeyyOolCsAbRfed+tzYVpxOWxD/JgSwyu
+         xnlW3KwPTMwNbDAQmLgykp8z/ShLxFXDUCgsRGElAtMv3JjtxnY2bBCwkHhI40Pi1El9
+         eAJbMTdF++WHRQQ+5UI2LxvX4B7l3LNrO3Dgxt0ggVk8mCGjARLkvPOkhjjjtDXQ4B5j
+         d5lNj3KG+Ym+bub1AoGqDw09UVakYfAzbpyD+XodU+kbXSGEIGpvgn/HEGsLYRoIiMbC
+         ahkw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-owner:list-post:in-reply-to:message-id:list-id:list-url:sender
+         :list-unsubscribe:list-archive:date:references:reply-to
+         :list-unsubscribe-post:to:from:subject:mime-version:dkim-signature;
+        bh=a8T3V7U0dL4AySKp2YzLP9jMALakVdEYfx0LTBGgZPE=;
+        b=FkCUQrKSMZht2zYcSsBMPLg4SV52EcELTcn/mVxaSIuLaDfZ0IiAa5Ef73L7WGAEet
+         hPyyU2hXYc2Sad83HOzFJ+IgoyudBOCJlRryqGR5uBXWEk+HE75vBthE4WD5Wzyb8cHy
+         Awtb+DhD9wpIaE7oBAEjIfZkRq7kKC9OA2BwCAhb1tymu5tN3SahIRIvn8uNHRbh5IOy
+         HYbhDGJY2HpaD6ZmSU9EbyMefdOdZF50cN+vZYhey4ShcSql1oKY44yoPtIbHhazOLGV
+         N58n1DEC5CSYn2rEQiz7OmT5R/HOu9dRtQKI0d8Fv0yMFwkjFc4LyzSMx03KrdSiWmf9
+         Zfcw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=C2JwAcy3;
+       arc=pass (i=1 spf=pass spfdomain=mg2.substack.com dkim=pass dkdomain=mg2.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id o2-20020a9d7642000000b006015668fa78sor137993otl.137.2022.04.14.05.53.29
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Thu, 14 Apr 2022 05:53:29 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJw/Zgg4O1ZzyAlvPcpevDqrNOk1DCdhGHWUuT3Eq1GlHFCY3sieOgWnSuylzej0lA/9Urzo8ictppQHg0Mt1I2e9Y/RyWw=
+X-Received: by 2002:a05:6830:241d:b0:5ce:94f4:203a with SMTP id j29-20020a056830241d00b005ce94f4203amr836715ots.241.1649940809046;
+        Thu, 14 Apr 2022 05:53:29 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1649940809; cv=none;
+        d=google.com; s=arc-20160816;
+        b=KAT7Qc2+vNUbTgifeOnKfghx1Q+/MqRtfULDrivESK4gSsEi6Vig1gQeSkXZvsCMOT
+         KXkYHLw81HoRmEZlbQvMXnPiq5antNGT300y0Klj5krsSXdVstYy0L76bUVAyj8yLHid
+         rw+u2sXbp5+onvXNqvt5F4kEVJipA6CXkbDo1cmq7d+7ism70hQcwKeAzJktfXia1XC8
+         lS9WNdo1C2natNsTIxoO4CwHLkWSxsMCFgiaIROkn5ZxVTuUb5VCad8bHUNoPOvjOIMX
+         1G9AV8/D+xUjWOQGY4SDdcGv1V4dxPWpNCql3W2pQebPgt+vLScQ4tcd8azjP1JiUEUW
+         5jRQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-owner:list-post:in-reply-to:message-id:list-id:list-url:sender
+         :list-unsubscribe:list-archive:date:references:reply-to
+         :list-unsubscribe-post:to:from:subject:mime-version:dkim-signature;
+        bh=a8T3V7U0dL4AySKp2YzLP9jMALakVdEYfx0LTBGgZPE=;
+        b=P/d4iamzacqcnMVD142NVpmABSIM6VVWJzvYGC894WauX1r5VRxYTxvevA8BzzRpG6
+         qVdPYSsta5ekoAVXzOBbRag0WbTxC4Gg0dpehFF/DsnO9qb6Gj3xwK1+eQfXkadxruLh
+         AxW+hi86wwLPrnHeJGyYffBEkY1EYur7ADFCaX7A5KT5smns66yrsi1wvdVO7jxk2aoJ
+         OHUV8GX8D7F3uN4o0blmfU5mztRqf1tX4zL2wiso32l7ZhBVtB+IhbWNPuR9vCBmZESM
+         +zeAv0ZP1rZ7l3IYLNElbidgFlWY/uv72Sf3UUdPyvJw2s3TQuXQH+I5FFQqBcGNZU8z
+         1xPA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg2.substack.com header.s=mailo header.b=C2JwAcy3;
+       spf=pass (google.com: domain of bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com designates 69.72.47.221 as permitted sender) smtp.mailfrom="bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com>
+Received: from mg-47-221.substack.com (mg-47-221.substack.com. [69.72.47.221])
+        by gmr-mx.google.com with UTF8SMTPS id be8-20020a056808218800b002f948c25030si119711oib.4.2022.04.14.05.53.05
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 14 Apr 2022 05:53:29 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+d593df.4d1858-notboring=khamel.com@mg2.substack.com designates 69.72.47.221 as permitted sender) client-ip=69.72.47.221;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg2.substack.com; q=dns/txt;
+ s=mailo; t=1649940808; h=List-Owner: List-Post: In-Reply-To:
+ Message-Id: List-Id: Sender: Sender: List-Unsubscribe: List-Archive:
+ Date: References: Reply-To: To: To: From: From: Subject: Subject:
+ Content-Type: Mime-Version;
+ bh=a8T3V7U0dL4AySKp2YzLP9jMALakVdEYfx0LTBGgZPE=; b=C2JwAcy3xf9h66k2+qofn8Tp2Uqz2CFQqvXt/Ze2Ey6yjRStzmUX+Ebt4gg05YOfWMOsAvlr
+ DuCnprutfWy7xwCK5Zx/Q8QtVmft0Z8O7ShZVrl7LUu6OxBc5BB9G0b07VacqgK2vxKfUQx4
+ xBkOXhKT/MBTa0V8FPWdt6kg53g=
+X-Mailgun-Sending-Ip: 69.72.47.221
+X-Mailgun-Sid: WyIyZDMzMyIsICJub3Rib3JpbmdAa2hhbWVsLmNvbSIsICI0ZDE4NTgiXQ==
+Received: from <unknown> (<unknown> []) by
+ api-n16.prod.us-east-1.postgun.com with HTTP id 6258191fe2ec06080871242d;
+ Thu, 14 Apr 2022 12:52:42 GMT
+X-Mailgun-Batch-Id: 6258191b225c46908272bd44
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="2a702737503996f53947dfeda9ba0a29bae1af14044f057498666e35ac8d"
+Subject: Evervault: Encrypt Everything
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Reply-To: Not Boring
+ <reply+uz60t&9p0gt&&1beec295beb1db8ee5a904ec9a7f94c274df720af271e37317289a227e64aead@mg1.substack.com>
+References: <post-52029245@substack.com>
+Date: Thu, 14 Apr 2022 12:52:19 +0000
+List-Archive: <https://www.notboring.co/archive>
+List-Unsubscribe: <https://www.notboring.co/action/disable_email/disable?token=eyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NTIwMjkyNDUsImlhdCI6MTY0OTk0MDc2MSwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoiZGlzYWJsZV9lbWFpbCJ9.j5E53OXAOXzOBPxKcwwDUa-1tzSMbokLDMDJz0HjDdI>
+Sender: Not Boring <notboring@substack.com>
+List-Url: <https://www.notboring.co/>
+List-Id: <notboring.substack.com>
+Message-Id: <20220414125219.3.548c58625ca6ed5a@mg2.substack.com>
+In-Reply-To: <post-52029245@substack.com>
+List-Post: <https://www.notboring.co/p/evervault-encrypt-everything>
+List-Owner: <mailto:notboring@substack.com>
+X-Mailgun-Variables: {"category":"post", "email_generated_at":"1649940762350",
+ "is_freemail":"true", "post_audience":"everyone", "post_id":"52029245",
+ "post_type":"newsletter", "pub_community_enabled":"true",
+ "publication_id":"10025", "subdomain":"notboring", "user_id":"16283549"}
+
+--2a702737503996f53947dfeda9ba0a29bae1af14044f057498666e35ac8d
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://email.mg2.substack.com/c/eJxFUMtuhDAM_=
+JrNrSiEhCWHHHrpb6A8DEQLCQpmEX9fs0itFMeS7fF4xluEMZfTrHlDdn09niuYBMc2AyIUtm9Q=
+-hhM3YquUVKzYGSoO9WxuPVDAVhsnA2WHdi6uzl6izGnD4JzodhkwqDazglf-0bLwXr1tOCewLn=
+Wg6tdd_PaPURIHgy8oZw5AZvNhLhuj-b7IX7oHcdRpYwul5jGymcqrRTX_NvuM34RvJwr5WsDTj=
+TFohFcCC5rWQslal01lZKdV10rlLctBGUfki-jqLbdbWj9ixYvrJg_Imq_JrvA_GmQxJ7ysqeIZ=
+w_JuhnCrR5vEz9-9CMkKGRu6C2SdVJryZ-taBS_1ZI9ii7TQipGzCETKv2T_gLvx4ty
+
+Welcome to the=C2=A0532=C2=A0newly Not Boring people=C2=A0who have joined u=
+s since last Monday (woah)! If you haven=E2=80=99t subscribed, join=C2=A011=
+4,143 smart, curious folks by subscribing here: 114,143
+=F0=9F=8E=A7=C2=A0 Instead of an audio edition today, subscribe on Spotify =
+[ https://email.mg2.substack.com/c/eJxFkE9LxDAQxT9NcyzJJOm2hxzURRBXxD8XTyVN=
+Zrth26QkqVo_vXH3IAzzYIbHm_kZnXEMcVNLSJn8tT5vCyqPX2nCnDGSNWHsnVWsgZZL0RGrhGW=
+tbIlL_TEiztpNKscVybIOkzM6u-AvDkpBkpNCSm3HzWB1ayQM2iJ0ugFhEI6MYXfN1at16A0q_M=
+S4BY9kUqecl1TxmwruS4UFfZ2WkN1xq02YyyidwleR5sw-Drefz6-vT1tIjxv_Zt8PU8Xvk6v4f=
+r9swt097l4kvLGD4OwnvdOROAUUgAomGEhgXc1rKcqFbQPS6Aat1JWg8wh1WoeUtTn_hZKofMhD=
+iM6PZX0-6Rmny6J83xedV-_y1qPXw4T2CiZf-V5Q9SN6jIW77XUuVEXXCbprgEt6BVHIyXJZB0K=
+SkmxDcfn_0F_QGZGJ ] or=C2=A0Apple Podcasts [ https://email.mg2.substack.com=
+/c/eJxFkEuOwyAMhk9TdhMBwWmyYDGbuQYi4KaoCURgZpTbD2krVULGD9m__TlLuKR86D0VYqcx=
+dOyoI_6VFYkws1owm-C1GOTYg5qY18qLEUYWirllxM2GVVOuyPY6r8FZCik-OziXwO5agb_aGx_=
+4LG8K5l6A4FZMo-u5HdDzl66tPmB0qPEX85EislXfifZy6b8v8qe9PXlnC5XO7vuKnUtbS9byqT=
+QvJvqaUw5xaUHwAuRVSTH1ggUtuZRcCSUktFTXd6BGB-MgwZ17gL0ovi2yK3UuZN3jVGBZt5Hvi=
+Yo_7nbD9Vlox5r2bzUGOgxGO6_oXxzohfNJxiwYMTfM3lhqENU0KX4dZA_vuxsoaJtNUgFryj61=
+rvgR_QdUr4sq ] to get my interview with Evervault CEO Shane Curran tomorrow=
+=2E=20
+Hi friends =F0=9F=91=8B ,
+Happy Thursday!=20
+One of my favorite things about technology is that it turns humanity=E2=80=
+=99s biggest problems into opportunities for entrepreneurs. The market does=
+ a pretty great job of rewarding extraordinary people for fixing things for=
+ the rest of us, so much so that some of those people have enough money to =
+buy Twitter [ https://email.mg2.substack.com/c/eJxFkUGP2yAQhX-NOUaAAdsHDl1F=
+q11p20sPPSIME4eNDRGMG-Xfd5IcKqHhodHMe_oIHmEp9W6vpSF7FIf3K9gMt7YCIlS2N6guRSu=
+MHHutJhatimLUI0vNnSrA5tNqse7Arvu8puAxlfyc4FxqdrZaxD56LwJXQc5hnsQ8TP2s1Tj6OM=
+Dw8vV7TJADWPgL9V4ysNWeEa-t63908p0O3tIj0SGUjV6wlrzt7UKyoce9kRBaKG3UZAxVoynA2=
+PXvtOEoeScNkng7bh8_4XNLp6_hD_xefnnnvm8sWcml5EooIbUU06E_UL6gRyN18Aai9p3i2yIP=
+bZ_JL1weMVi1ueBcasoLtS9nv8H6bBAKR_e254R3B9nPK8QXJXzBfnJzC2So9AnReSTEapoUH4z=
+sNX9RIYyakk1SaUbOsdBU_m_6D-M8k1M ].=20
+Data breaches are one such problem, and ending them is one such opportunity=
+=2E That=E2=80=99s what Evervault [ https=
+://email.mg2.substack.com/c/eJxFUMuO=
+wyAM_JpyjAgBGg4c9tLfQAScFJVABKar_P3S5rCSZcsajebhLMKWy6mPXJF8lsHzAJ3gt0ZAhEJ=
+ahWKC16Nk8yS4Il5zP85iJqGatQDsNkSNpQE52hKDsxhy-jIoZYI8tePA6Lq4UfFpXdfpruQkhB=
+T0zvkiYb10bfMBkgMNbyhnTkCifiIe9Tb93Nijzwd42xZxcHnvPwmaUcYoH_nIBBvVMA2Cz07Mk=
+glnJXhhb5zuGxtqWypa9_owSdEp45JLSFuHX0-7Q_wC3b_pd28p4Gkg2SWCv6Lh1dA3rNkgQenN=
+eWOx98KV4vQu2SToFaVnF92ZYlyQruxzZ6V_0T-YH30R ] is trying to do by giving de=
+velopers simple, powerful tools to encrypt the web. If Evervault succeeds, =
+its prize will be one of the most valuable positions in the internet stack.=
+=20
+This is a Sponsored Deep Dive. You can read about my selection process and =
+conflicts here [ https://email.mg2.substack.com/c/eJxFkE1vwyAMhn9NOUbEgXwcO=
+Ezapqldd5lUbaeIgJOiJpABWZV_P5IeJmFsYb9-0aNkxMH5VcwuRLJdbVxnFBbvYcQY0ZMloG-N=
+FnkJdcFZQ7RgOq95TUxoe484STOK6Bck89KNRslonN0VlAInV9F0fQMAJXY1LSuJRV-WlDcUel7=
+lVRrZfeWiDVqFAn_Rr84iGcU1xjkciqcDvKajnQrZ4NwwYqbc9HhZJrRxK1PkJ2D66cRv1fvb8n=
+0Ox_OqQarnz5973b3o49TOylz8dPn42laiNpEYARSAspzlwCFvsiLjrFa8LoErWaLm8sDoNEAWl=
+i5EqW6bN_HCutg5b-yQ2rernHDcG4lBm_K0WBPXFq3sRtQPPPFBeQfWDmjRJ_q6lTGxZU3DaFVC=
+wekDR-LH088aYJwkZ-2Syv6b_gEHu5Lx ]; the most important takeaway is that I o=
+nly write about companies I would invest in, find fascinating, and think yo=
+u should know about. If you don=E2=80=99t already, you should certainly kno=
+w Shane Curran and Evervault.
+Plus, as Shane pointed out below, when companies pay a little more, they pu=
+t more effort into implementation. I hadn=E2=80=99t quite thought of it tha=
+t why, but I think that we=E2=80=99re able to get better access and more in=
+teresting insights because these are sponsored.=20
+Let=E2=80=99s get to it.=20
+Evervault: Encrypt Everything=C2=A0
+8. Don=E2=80=99t Hinder the Builder.
+Privacy is a basic expectation and human right, but it=E2=80=99s something =
+that should never create any friction or slow down the speed of technologic=
+al advancement.
+=E2=80=93 Evervault, The Encryption Manifesto [ https://email.mg2.substack.=
+com/c/eJxFUEGOwyAMfE05RoFACgcOe-k3EAQnRSUQgekqv1_aHFaybFmj8XhmsQhbLqc-ckXya=
+QbPA3SC3xoBEQppFYoJXtOZyUlwRbzmnkohSahmLQC7DVFjaUCO5mJYLIacvoxxZII89Tyvq2LU=
+-XWSk1OCeioklauaV-rl3V26tvkAaQENbyhnTkCifiIe9Tb93Nij1wd42xZxWPLedxfz1sduU1i=
+hYiZBs5GxkVNOmWBUDdMguFyEnJlY7Axe2Bsf940NtbmKdnl9LpGiU0aXS0hbh19Pu0P8At2P6X=
+NvKeBpIFkXwV9W8Ursa95skKD0JL2x2HPiSvHxPrNJjJe1noXonynGBenKPndW-hf9AyxRgyQ ]
+For the past three years, the Chief Technology Officer of the world=E2=80=
+=99s fifth largest company by market cap and largest cloud provider has wor=
+n the same t-shirt whenever he speaks at conferences:=C2=A0
+Dr. Werner Vogels, Amazon=E2=80=99s CTO since 2005, has a catchphrase to go=
+ along with the fashion: =E2=80=9CDance like no one is watching; encrypt li=
+ke everyone is. Encrypt everything.=E2=80=9D=C2=A0
+=E2=80=9CEncryption is the tool we have to make sure that no one else has a=
+ccess to your data,=E2=80=9D he tells audiences and employees alike.=C2=A0
+You deal with encrypted data every minute of every day. Whenever you send a=
+ text message, for example, it=E2=80=99s encrypted on the way out of your p=
+hone and decrypted at the other end. Crypto runs on public-key cryptography=
+ =E2=80=93 your wallet uses your seed phrase to derive your private key to =
+sign transactions.=C2=A0
+To oversimplify it, encryption takes readable data and turns it into gobble=
+dygook that no one can read except the people who have the keys. Take my So=
+cial Security Number, which is 294-36-1652. (JK, good try) But take that SS=
+N. Often, if I enter it somewhere online, like in a credit card application=
+, it=E2=80=99s stored in plaintext data, just like that, =E2=80=9C294-36-16=
+52=E2=80=9D, in a database. The database may be encrypted using Data at Res=
+t Encryption, but if someone is able to hack into the database, or simply a=
+ccess it with their credentials, they=E2=80=99ve hit the jackpot. My SSN an=
+d all of the information in there is theirs for the taking.=C2=A0
+This isn=E2=80=99t a hypothetical. In 2019, an Amazon engineer, Paige Thomp=
+son, used her permissions to hack into Capital One=E2=80=99s AWS server [ h=
+ttps://email.mg2.substack.com/c/eJxFkE2OwyAMhU9Tdo0IgZQsWMxmrhHx4zZoCETgTJT=
+bj9ssRkLPCOv54c9bhFepp9lKQ_aWGc8NTIajJUCEyvYGdY7B9KPQg5ITC0aGXivNYpufFWC1MR=
+msO7Btdyl6i7Hkj4NzodhivB76HibnuHZKWQnjKL0QQgPnDzk8r1y7hwjZg4FfqGfJwJJZELd2G=
+75u4pvOcRxdPjGu0DpfVnoRXHAqXL9lJHF7ixlao6u3W0Sb7jTpvlj_c2-0T4IVMnYLrolFQ3bB=
+ZS97oUQ_dUOnpPZKj0J5O0JQ9ib5-hJd211DGvFOZdXkgq7UmF_U_lnsCunToO1nquueI54zZOs=
+ShAsMXnw_qOYXZKjEPcwWiaqcJskfoxgUv0AQOUU_m4RUjJJDIVf-D_0D5EaRYg ] and steal=
+ data from more than 100 million Capital One customers, including 140,000 S=
+ocial Security Numbers (SSN) and 80,000 bank account numbers.=C2=A0
+In the ideal state, what would have happened is that Thompson would have ha=
+cked in, and instead of plaintext SSNs, would have seen 140,000 random text=
+ strings that look like this:=C2=A0
+ev:Tk9D:in0+WDhHs2cpetd/:AqaGHmNI8XCxO0S9pAQDusU+rwf6WpIrM9wM0xbAXYFM:fKKWC=
+lDvNK4sY9K7Nff6nMSUKasc9zet4UrGpA=3D=3D:$
+But Capital One used database encryption, not field-level encryption, which=
+ would have meant that even someone with access to the database couldn=E2=
+=80=99t have accessed the data inside in plaintext. And that=E2=80=99s Capi=
+tal One, a $54 billion public company that spends a lot of money and human =
+power on security. Most companies are far less prepared, and data breaches =
+are becoming far more common.=C2=A0
+According to the Identity Theft Resource Center [ https://email.mg2.substac=
+k.com/c/eJxFUsGOpCAQ_Rq5aQDB1gOHzezMF-zdIJTdzCgYKKfXv1_EnmxC6r2ioB7hldEI9xA=
+PtYWE5AwjHhsoD8-0ACJEsieIo7OKdbxvpRiIVcKyXvbEpXGOAKt2i8K4A9n2aXFGowu-3KCUS_=
+JQt14bC6ztOtbSWbJ5HgYh234ahO3pzC5dvVsH3oCCb4hH8EAW9UDcUtX-qvhHXs_nszEesDFhz=
+en5xgxbdN_aHJlFMCHa2u_rBLEOc2016nqKoM0DUh1hCxHB1s7XnHJW5wavzTrpIxWR9lS7veeI=
+8Ber9vefB1Rccnp1LTTMBX76leSUKuRHriSf-7q9DnR9gQ2iAY-FLzpl8vZqx874JmlXsgTXGec=
+L5PKtIU5lxqlgguVNNjRtI0VvZN9xaXQHVupK0PXOm7RPCbX5Or-KROUDTiE6f8_lr4deYSmF7N=
+eYcd29w2MEr6cF7GUlXhNRzB3v4CHmSbGjxjwHIttHbx1vJb2sy16fbxy4kCQr25Bv-f-i_wA75=
+MVu ], there were a record-breaking 1,862 data breaches in 2021, up 68% fro=
+m 1,108 in 2020 and 24% higher than the previous record of 1,506 in 2017. I=
+n 83% of data breaches, hackers got access to peoples=E2=80=99 Social Secur=
+ity Numbers.=C2=A0
+If you want to really feel what=E2=80=99s at stake, I recommend that you re=
+ad Nicole Perlroth=E2=80=99s excellent book, This is How They Tell Me the W=
+orld Ends or listen to her interview on Lex Fridman Podcast [ https://email=
+=2Emg2.substack.com/c/eJxFkEFv5CAMhX9NOEb=
+EQAoHDpWms9K22j1sV-r2EhHwJKgJREDazb8=
+vnTlUsmzLT0_P-qwpOMV06C3mQr7aUI4NdcCPvGApmMieMQ3e6a4HyQRXxGnuOikk8Xm4JMTV-E=
+WXtCPZ9nHx1hQfw9VBKQgy6_FuFL1hFwqWdkaM7KKoBCUF9BIcsFuu2Z3HYFHjO6YjBiSLnkvZc=
+sPuGzjXihuGNm-x-MvR2rjWE24-R4d1oyeYnnD7bV9O89Nc1E_77_HvS8PO2TfsZKU5weOv_vn8=
+58dHN83q4f_r-z3xGigA5R3vQECnWtYKLq2QPQhrenTCNJyuE7R5H3Mx9u0rlyQdYhlj8mGq8tt=
+sVlyuQgUw1LnuwZdjwGDGBd2NTbkhvtIaJgyYKno3mFLBcqU4veuBCXpjUeGJ-pkCLkhNdrG6wn=
+foJx4akX8 ].
+The stakes are high, and they=E2=80=99re getting higher as more of our live=
+s, data, reputation, and wealth move online.=C2=A0
+That=E2=80=99s why Vogels wants you to Encrypt Everything. Evervault [ http=
+s://email.mg2.substack.com/c/eJxFUMuOwyAM_JpyjAgBGg4c9tLfQAScFJVABKar_P3S5r=
+CSZcsajebhLMKWy6mPXJF8lsHzAJ3gt0ZAhEJahWKC16Nk8yS4Il5zP85iJqGatQDsNkSNpQE52=
+hKDsxhy-jIoZYI8tePA6Lq4UfFpXdfpruQkhBT0zvkiYb10bfMBkgMNbyhnTkCifiIe9Tb93Nij=
+zwd42xZxcHnvPwmaUcYoH_nIBBvVMA2Cz07MkglnJXhhb5zuGxtqWypa9_owSdEp45JLSFuHX0-=
+7Q_wC3b_pd28p4Gkg2SWCv6Lh1dA3rNkgQenNeWOx98KV4vQu2SToFaVnF92ZYlyQruxzZ6V_0T=
+-YH30R ] wants to help.=C2=A0
+=E2=80=9CWhen a company encrypts with Evervault, they could put their datab=
+ase on a billboard and no one could get at the data,=E2=80=9D Shane Curran,=
+ Evervault=E2=80=99s 22-year-old founder and CEO told me.=C2=A0
+I=E2=80=99ve been following Evervault for over a year. In last summer=E2=80=
+=99s Zero Knowledge [ https://email.mg2.substack.com/c/eJxFkN1qxCAQhZ8m3jWo=
+0TReeFEo-xrizzQrm2hQ05A-fWc30IKjMMOZz3O8bTDncuot10ael2nnBjrBURdoDQrZKxQTg2Y=
+jnwYpFAlaBDbJicRqvgrAauOiW9mBbLtborct5vRSUMoluWvGQanAB0nZAI5yKoJ3ztLwZQP1jl=
+1cu4cIyYOGbyhnTkAWfW9tq93w0fEbnuM4-pSbyyWmufcZWxvWD5T89kj5WCDM0A03VHweJGpOO=
+bKYYFxypvqhl2Lychq59HaEIG0n6Drzvu6uNusfuHIlRf8hcPy42xWW1wDNGXzXPcV2GkjWIe_y=
+3a74XkmYGRIUjDUY2zA0oZSg7-PT_eUTg5H4M8WFJEgOGVXpH_oLMkGHlA ], which I co-wr=
+ote with Jill Gunter [ https://email.mg2.substack.com/c/eJxFUM2OhCAMfprhaKS=
+CyoHDXvY1DEJ12EEwUHfi2y-Oh02aNs2X9vuxhnBN-dR7KsSuNtG5o474LgGJMLOjYJ6807yHsZ=
+NCMaeF46McmS_TkhE344OmfCDbjzl4a8in-LloW5DsqXvOTS-VkwuKYbbLotwgO64ArAKFw81rD=
+ucxWtT4i_lMEVnQT6K9PLqvB3zXore_FDU2bXX78SHk9YiXRq-hBWgFFxwkcNV0jRSjlWMP0poe=
+nTQP0W4rNOWYCxn7up6wrGOiOWUf1wq_nmbD8AGqkanO7YiezgmjmQO62yPdUX1cTytGzDVCNxm=
+qAQmlRDv00Mn29lRDkFWZAiFZZXapXsV_0j_EeYED ], we described its value proposi=
+tion and approach:=C2=A0
+The ideas underlying Evervault aren=E2=80=99t new. Public-key cryptography =
+traces back to the 1970s with Ralph Merkle=E2=80=99s (yes, Merkle of Merkle=
+ Tree fame) 1974 paper Secure Communications Over Insecure Channels [ https=
+://email.mg2.substack.com/c/eJxFkM2ugyAQRp-mLI2OoLBg0c1d9w0MwlRJEQw_19inv7Q=
+ubkKYhMlw5jtaZVxCPOUeUiafa8rnjtLjkRzmjJGUhHGyRnYD8J5RQYykpuOME5umZ0TclHUyx4=
+JkL7OzWmUb_HeibYGRVRrsewV6xvkJfBjEKEYYzahG3g1aDfziqmIseo0SfzGewSNxcs15T7f-f=
+oOfeo7jaDaML4eNDlt96MRIa3mU99thuqfHh59WNM1unsRKaAFa2tEOGHSi6RtGuWZ8AFaxaJi6=
+0XZboEllTlnp1-dbEqUPeQ7R-qW2X6va0H0bNd1U61a8zeeEXs0OzRU8X_6-KqYFPcbq1UwqV2t=
+UCNqOA_SsvYJWM6xuJoAyUskm1Cn_D_0DaBSHqQ ]. Since Satoshi published the Bitc=
+oin Whitepaper [ https://email.mg2.substack.com/c/eJxNUEFuxCAMfM1yjMCBNBw49=
+NJvIIKdLGoCEXFa5felm0MrWbbs0Wg8EwPTUurl9nKw-G2er51cpu9jJWaq4jyo-oRODTD2RluB=
+TqMazSjS4edKtIW0Oq4nif2c1hQDp5JfDCnBiKfTEUhGjbYHiWq27T4jaqlxJmvVcOuGExPlSI6=
+-qF4lk1jdk3k_Hv37Az5aTYljSbkrdfm37TiL5EACSK20AgPKdn1n9BjNOICJYSA04aHltkB3nN=
+PBIX52sWyiulx4KjXlpcGfz7DR-gKaEd_mdubEl6ccppXw9sh3VC_XfqFMtUWIPnALSFur5dsAv=
+ZG3pxaCaZ9Z0EY0ZSyNlf9EfwBwW4CP ] in 2008, so much money and talent has flo=
+oded the historically wonky academic field of cryptography that cryptograph=
+ers are solving very hard problems faster than ever before. Cryptography is=
+ somehow cool.=C2=A0
+And yet=E2=80=A6 there were a record number of data breaches in 2021. Big c=
+ompanies are still storing data in plaintext. Companies spend billions of d=
+ollars becoming PCI-, HIPAA-, ISO-, SOC2-, GDPR-, and CCPA-compliant, while=
+ leaving big honeypots of user data in their databases.=C2=A0
+That=E2=80=99s what Evervault wants to fix. Its Encryption Manifesto [ http=
+s://email.mg2.substack.com/c/eJxFUEGOwyAMfE05RoFACgcOe-k3EAQnRSUQgekqv1_aHF=
+aybFmj8XhmsQhbLqc-ckXyaQbPA3SC3xoBEQppFYoJXtOZyUlwRbzmnkohSahmLQC7DVFjaUCO5=
+mJYLIacvoxxZII89Tyvq2LU-XWSk1OCeioklauaV-rl3V26tvkAaQENbyhnTkCifiIe9Tb93Nij=
+1wd42xZxWPLedxfz1sduU1ihYiZBs5GxkVNOmWBUDdMguFyEnJlY7Axe2Bsf940NtbmKdnl9LpG=
+iU0aXS0hbh19Pu0P8At2P6XNvKeBpIFkXwV9W8Ursa95skKD0JL2x2HPiSvHxPrNJjJe1noXony=
+nGBenKPndW-hf9AyxRgyQ ] is very clear:
+Evervault is building encryption infrastructure for developers. Our mission=
+ is to encrypt the web. Our goal is to end data breaches.
+Evervault is making two big bets:=C2=A0
+Centralized control of private keys in trusted, secure environments will re=
+main important. Even once everything is decentralized, you=E2=80=99ll still=
+ need a safe place to store your seed phrase or private keys.=C2=A0
+Abstracting and simplifying the process of encryption for developers is the=
+ right approach to encrypt the web. This is the classic API playbook =E2=80=
+=93 like Twilio did for telecom, AWS did for servers, and Stripe did for pa=
+yments, Evervault wants to make it extremely simple for =E2=80=9Cdevelopers=
+ [to] build encrypted apps where data is encrypted at all times, and can st=
+ill be processed.=E2=80=9D
+Most people care about data privacy, but not enough to actually do anything=
+ about it. Certainly, all else equal, users would rather have their data be=
+ more private than less. All else equal, companies and developers would rat=
+her build encrypted products that allow them to process data without storin=
+g it.=C2=A0
+So Evervault needs to make all else equal. They need to:=C2=A0
+Encrypt the Web=C2=A0
+Without creating friction or slowing down technological advancement
+While matching the developer experience of building without encryption.=C2=
+=A0
+Or as Shane put it: =E2=80=9CWe need to build things that are trusted by th=
+e ultimate cynics on Hacker News but that are super simple to use, the best=
+ encryption with the best developer experience.=E2=80=9D=C2=A0
+That=E2=80=99s a lot harder than it sounds, but Evervault seems as well-pos=
+itioned as anyone to pull it off. Today, we=E2=80=99ll cover why, how, and =
+what happens if they succeed:=C2=A0
+Shane and the Irish Mafia
+How Evervault Works=C2=A0
+Opinionated Use Cases
+The Ultimate Cynics on Hacker News
+Evervault=E2=80=99s Next Decade
+This is a lesson in both encryption and company-building. If Evervault succ=
+eeds, they=E2=80=99ll not only make the web a safer place, but will wedge t=
+hemselves into a crucial position in the world=E2=80=99s tech stack, a plac=
+e from which both they and third-party developers can launch new products o=
+nly possible in a world of verifiably private data.=C2=A0
+But first things first, the encryption. When it comes to protecting your se=
+nsitive personal data, you want someone preternaturally gifted on your side=
+=2E Meet Shane Curran.
+Shane and the Irish Mafia
+Shane Curran was six-years-old when he first installed Linux. He was seven =
+when he started coding in Visual Basic and created a basic web browser that=
+ anyone could download online. By age 11, he=E2=80=99d built peoplez.info, =
+an online database of names and email addresses. And the next year, he buil=
+t Libramatic, a cloud-based library management system that let librarians c=
+atalog books more easily.=C2=A0
+The Irish Times, which I=E2=80=99ve learned writes the best headlines, titl=
+ed this one [ https://email.mg2.substack.com/c/eJxFkEuOhDAMRE_T2YFCPjRZZDGb=
+uQbKx0A0EFDiNMPtJ90sRrJsy6VSWc8ZhHlPlz72jOTdRrwO0BHOvAIiJFIypDF43fVs4FIo4rX=
+w3SAHEvI4JYDNhFVjKkCOYtfgDIY9fhyUMkkWLZ3yMFHLn1w8jeKTtXwa6CCfSirlpjvXFB8gOt=
+DwgnTtEciqF8QjP_jXg33XOs-zDSnkBcMGuXX7Vo-25BAh57q6JcDUwC-4guEFTcea1ZToFsjNG=
+mwy6WrylRG2pmulkJwLEjSjjFHRiY5J1qmWV2VwcuiZdKYHL81D0G1mbS42o3E_71ySdNzR7inE=
+uco_i9lg_QgVwVjnVmLAa4Ro7Ar-poM35A-vcYYIqcL3o8GKVigl6LNnXNKbRsUn62eKCUlqst-=
+rK_6H_gEmAZUW ]:
+And here is the Chief Executive (12) in question:=C2=A0
+Librarians actually used Libramatic, and they stored =E2=80=9Call this secr=
+et data=E2=80=9D like names and email addresses and passwords in there, whi=
+ch Shane realized was a little terrifying, because, well, a 12-year-old bui=
+lt that app. A 12-year-old with no particular expertise in data security.=
+=C2=A0
+So young Shane Curran decided to do what no 12-year-old I=E2=80=99ve ever m=
+et would have decided to do and take up an academic interest in cryptograph=
+y. He first entered the BT Young Scientist competition, the longest-running=
+ science competition in the world, the next year. He lost in 2014, 2015, an=
+d again in 2016.=C2=A0
+In 2017, at the ripe age of sixteen, he entered with a project called qCryp=
+t. As The Irish Times wrote in a piece called How a Dublin teenager is help=
+ing you bring your secrets to the grave [ https://email.mg2.substack.com/c/=
+eJxFkcFuhSAQRb_mscPICCoLFt30NwzCVEkVDIw1_n157zVpQmCGyeTenOss4ZLybY5UiD2vie4=
+DTcSrbEiEmZ0F8xS8ET2MnZKaeSO9GNXIQpm-MuJuw2Yon8iOc96CsxRSfG20LSi2mg7Aw6jHrx=
+lnFC0iisFJPajaSRDqrWtPHzA6NPiD-U4R2WZWoqM8uo8HfNZzXVcTcigrhR1L49JeP-ezhIil1=
+JLQrTFtablrs6aLW-6fjiInxGgXzDwUvuJ2hLjwO518zn9V5gVdRiqcEqcV-ZLtD3LRgB76QQML=
+BlqAVgopQIHQTdcoOTo19qCc7dEr-5DtvkBTzrmQdd9PfyybmGhOT5k6_l7tjttrUFFN9d3PGOi=
+eqrt5Q_-mSO8wXlynBSPmGpKfLNUIpNayHXroVPumVjGr6kyDVKwq-1S34r_oL-gPo9k ], Sha=
+ne=E2=80=99s project aimed to answer these questions:
+If you have a secret and wish to keep it a secret until your death, how do =
+you guarantee its cryptographic integrity until that time, especially with =
+computing advances that could make today=E2=80=99s state-of-the-art encrypt=
+ion crackable? And how do you enable the secret to be released, but only af=
+ter death?
+The fourth time was a charm. Shane won the competition.=C2=A0
+To learn which other Irish entrepreneur was named BT Young Scientist, how E=
+vervault works, what the Hacker News cynics have to say about it, and how E=
+vervault might build Cloudflare for the encrypted web=E2=80=A6
+Thanks to Dan [ https://email.mg2.substack.com/c/eJxFUEtuxCAMPc2wjMLHCSxYdN=
+NrRATcDJoAETitcvsyM5UqWbasJ_t9vCPcSr3sURqxZ1voOtBm_Gk7EmFlZ8O6xGD5JLQEZViwK=
+nANmsW2fFXE5OJuqZ7IjnPdo3cUS35djKMAdrdeg1Gr9lwbaRA8cMfBzDhLRI7z-OZ1Z4iYPVr8=
+xnqVjGy3d6Kj3eTHTXz2op_4VDT4kvoWXPK-1BT9g0sWrRiFGBVXXIDgZpADKO1BTwK8mzCAu6k=
+xbWJo59rI-cfzDas2F1pLjXnr8OPuEu4voFtZ-kxnjnQtmN26Y3i7pHdYL9_LhhlrDzEsjnpEyh=
+g1zpOQ8OeqxwBdmREKWGcOpV_lf9JfNx6BAA ] for editing, and to Shane and the Ev=
+ervault team for working with me!=20
+If you enjoyed reading about Evervault and want more, subscribe to Not Bori=
+ng Founders on Spotify [ https://email.mg2.substack.com/c/eJxFkE9LxDAQxT9Nc=
+yzJJOm2hxzURRBXxD8XTyVNZrth26QkqVo_vXH3IAzzYIbHm_kZnXEMcVNLSJn8tT5vCyqPX2nC=
+nDGSNWHsnVWsgZZL0RGrhGWtbIlL_TEiztpNKscVybIOkzM6u-AvDkpBkpNCSm3HzWB1ayQM2iJ=
+0ugFhEI6MYXfN1at16A0q_MS4BY9kUqecl1TxmwruS4UFfZ2WkN1xq02YyyidwleR5sw-Drefz6=
+-vT1tIjxv_Zt8PU8Xvk6v4fr9swt097l4kvLGD4OwnvdOROAUUgAomGEhgXc1rKcqFbQPS6Aat1=
+JWg8wh1WoeUtTn_hZKofMhDiM6PZX0-6Rmny6J83xedV-_y1qPXw4T2CiZf-V5Q9SN6jIW77XUu=
+VEXXCbprgEt6BVHIyXJZB0KSkmxDcfn_0F_QGZGJ ] or=C2=A0Apple Podcasts [ https:/=
+/email.mg2.substack.com/c/eJxFkEuOwyAMhk9TdhMBwWmyYDGbuQYi4KaoCURgZpTbD2krV=
+ULGD9m__TlLuKR86D0VYqcxdOyoI_6VFYkws1owm-C1GOTYg5qY18qLEUYWirllxM2GVVOuyPY6=
+r8FZCik-OziXwO5agb_aGx_4LG8K5l6A4FZMo-u5HdDzl66tPmB0qPEX85EislXfifZy6b8v8qe=
+9PXlnC5XO7vuKnUtbS9byqTQvJvqaUw5xaUHwAuRVSTH1ggUtuZRcCSUktFTXd6BGB-MgwZ17gL=
+0ovi2yK3UuZN3jVGBZt5HviYo_7nbD9Vlox5r2bzUGOgxGO6_oXxzohfNJxiwYMTfM3lhqENU0K=
+X4dZA_vuxsoaJtNUgFryj61rvgR_QdUr4sq ] to get my interview with Shane tomorr=
+ow.=20
+Thanks for reading, and see you on Monday,
+Packy
+
+Unsubscribe https://email.mg2.substack.com/c/eJxFksFuozAQhp8m3BYZY1N84NAtTU=
+takpWapGkuyNhD4gAGgSmFp18nkXYly7ZmPPOP_s-CGzg13RS1TW-c65aZqYVIw9hXYAx0ztBDl=
+ykZeQEOfUqYIyMivZCGjuqzogOouaoi0w3gtENeKcGNavStAiFMnXMUFFzyAlFMQDD2UBReIX1M=
+aIixDDihd10-SAVaQATf0E2NBqeKzsa0_cJ_XOClXeM4uroxedMpfXJFY0NcXMXsRaqe5xVkt2k=
+W_tI0JeiFH8O08gTeTwdclcml-VlfEpLOO7T5GJV4YbNcsvb4lATrbTKml3Jax7s-qauztLF0-4=
+U22xKlscCpfc8P69n2UOJ1r963z2MaJ16ibB9_r67x40s1f32u-uOeVfnnss2fVsy90Gfqbw6Pm=
+8O8-f3n502MY7zjvzwzf6R5U77Habya0esllomjIowwRsQjHqbYY67vUhIKGgaYCh6ApHxBUH3C=
+bj_kveGitC7UThf9c8WmyzOvobolLI_MnvWglZky0FeH5B2VuRO_2ZWdQENnf4LMuLGcCWMEPQT=
+Yp-iOxrKkdjJmmTlWWTa2Sv8X_QvEYMRT
+--2a702737503996f53947dfeda9ba0a29bae1af14044f057498666e35ac8d
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><title>Evervault: Encrypt Everything</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup iframe.spotify-wrap,
+  .typography.editor .markup iframe.spotify-wrap,
+  .typography .markup a.spotify-wrap,
+  .typography.editor .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.youtube-wrap div.youtube-screen,
+  .typography.editor .markup div.youtube-wrap div.youtube-screen,
+  .typography .markup div.vimeo-wrap div.youtube-screen,
+  .typography.editor .markup div.vimeo-wrap div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media print {
+  .typography .markup .button-wrapper,
+  .typography.editor .markup .button-wrapper {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin-bottom: 16px;
+    max-width: 100%;
+    width: auto;
+  }
+}
+
+
+@media (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 16px 0 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+table.post-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg table.post-meta.alternative-meta tr td.post-meta-item,
+  table.post-meta.alternative-meta tr td.post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg table.post-meta.alternative-meta tr td.post-meta-item,
+  table.post-meta.alternative-meta tr td.post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg table.post-meta.alternative-meta tr td.post-meta-item.guest=
+-author-publication,
+  table.post-meta.alternative-meta tr td.post-meta-item.guest-author-public=
+ation {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  table.post-meta tr td.post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  table.post-meta tr td.post-meta-item .post-meta-button .meta-button-label=
+ {
+    display: none;
+  }
+  table.post-meta tr td.post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  table.post-meta tr td.post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .footer {
+    outline: 8px solid #f8f8f8 !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 18px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 630px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media (min-width: 631px) {
+  .sm\:tw-my-8 {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .sm\:tw-mx-0 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .sm\:tw-mt-0 {
+    margin-top: 0px !important;
+  }
+  .sm\:tw-ml-3 {
+    margin-left: 0.75rem !important;
+  }
+  .sm\:tw-mb-0 {
+    margin-bottom: 0px !important;
+  }
+  .sm\:tw-mb-1 {
+    margin-bottom: 0.25rem !important;
+  }
+  .sm\:tw-mb-12 {
+    margin-bottom: 3rem !important;
+  }
+  .sm\:tw-block {
+    display: block !important;
+  }
+  .sm\:tw-inline-block {
+    display: inline-block !important;
+  }
+  .sm\:tw-flex {
+    display: flex !important;
+  }
+  .sm\:tw-hidden {
+    display: none !important;
+  }
+  .sm\:tw-h-screen {
+    height: 100vh !important;
+  }
+  .sm\:tw-h-64 {
+    height: 16rem !important;
+  }
+  .sm\:tw-w-full {
+    width: 100% !important;
+  }
+  .sm\:tw-w-auto {
+    width: auto !important;
+  }
+  .sm\:tw-w-64 {
+    width: 16rem !important;
+  }
+  .sm\:tw-max-w-lg {
+    max-width: 32rem !important;
+  }
+  .sm\:tw-translate-y-0 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-95 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-100 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-flex-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+  .sm\:tw-items-start {
+    align-items: flex-start !important;
+  }
+  .sm\:tw-gap-4 {
+    gap: 1rem !important;
+  }
+  .sm\:tw-space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse))) !important;
+    margin-bottom: calc(0px * var(--tw-space-y-reverse)) !important;
+  }
+  .sm\:tw-border {
+    border-width: 1px !important;
+  }
+  .sm\:tw-border-theme-background-500 {
+    border-color: #9a9a9a !important;
+  }
+  .sm\:tw-border-theme-background-200 {
+    border-color: #ebebeb !important;
+  }
+  .sm\:tw-p-0 {
+    padding: 0px !important;
+  }
+  .sm\:tw-p-6 {
+    padding: 1.5rem !important;
+  }
+  .sm\:tw-py-16 {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+  }
+  .sm\:tw-px-6 {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+  .sm\:tw-py-2 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .sm\:tw-py-24 {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+  }
+  .sm\:tw-pb-4 {
+    padding-bottom: 1rem !important;
+  }
+  .sm\:tw-text-left {
+    text-align: left !important;
+  }
+  .sm\:tw-align-middle {
+    vertical-align: middle !important;
+  }
+  .sm\:tw-text-sm {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
+  .sm\:tw-text-4xl {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+  }
+  .sm\:tw-font-normal {
+    font-weight: 400 !important;
+  }
+  .sm\:tw-text-theme-background-inverse-500 {
+    color: #767676 !important;
+  }
+  .sm\:tw-opacity-70 {
+    opacity: 0.7 !important;
+  }
+  .sm\:hover\:tw-border-theme-background-300:hover {
+    border-color: #d6d6d6 !important;
+  }
+  .sm\:hover\:tw-opacity-100:hover {
+    opacity: 1 !important;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjIwNDE0MTI1MjE5LjMuNTQ4YzU4NjI1Y2E2ZWQ1YUBtZzIuc3Vic3RhY2suY29tPiIsInUiOj=
+E2MjgzNTQ5LCJyIjoibm90Ym9yaW5nQGtoYW1lbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvb=
+SIsInAiOjUyMDI5MjQ1LCJ0IjoibmV3c2xldHRlciIsImEiOiJldmVyeW9uZSIsInMiOjEwMDI1=
+LCJjIjoicG9zdCIsImYiOnRydWUsImlhdCI6MTY0OTk0MDc2MiwiaXNzIjoicHViLTAiLCJzdWI=
+iOiJlbyJ9.XnW6F6tSr7gRbAtCzcWQRf4JzTomxpGGPfj5588IPZE" alt=3D"" width=3D"1"=
+ height=3D"1" border=3D"0" style=3D"height:1px !important;width:1px !import=
+ant;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !impo=
+rtant;margin-right:0 !important;margin-left:0 !important;padding-top:0 !imp=
+ortant;padding-bottom:0 !important;padding-right:0 !important;padding-left:=
+0 !important;"/><div style=3D"display:none;font-size:1px;color:#333333;line=
+-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;" class=
+=3D"preview">Encrypt the Web. End Data Breaches. Build a Massive, Multi-Pro=
+duct Business. &#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;</div><tab=
+le role=3D"presentation" width=3D"100%" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0" class=3D"email-body-container"><tr><td></td><td width=3D"550"=
+ class=3D"content"></td><td></td></tr><tr><td></td><td align=3D"left" width=
+=3D"550" class=3D"content"><div style=3D"font-size: 16px; line-height: 26px=
+; margin: 0 auto; max-width: 550px; overflow-wrap: break-word; width: 100%;=
+"><div dir=3D"auto" class=3D"post typography" style=3D"font-size: 16px; lin=
+e-height: 26px; padding: 9.6px 0;"><div class=3D"post-header" style=3D"font=
+-size: 16px; line-height: 26px;"><h1 class=3D"post-title short published" s=
+tyle=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antia=
+liased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, B=
+linkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple=
+ Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 40px; font-w=
+eight: bold; line-height: 130%; margin: 0.378em 0 0 0;"><a href=3D"https://=
+email.mg2.substack.com/c/eJxFklGPojAQxz-NvC2hpWXhgYfLunpsFj1v0VNfSGkHrUBLoM=
+jhp9-qyV3SdpLpf_7TzK-cGTjpbopb3RvnfuRmaiFWMPY1GAOdM_TQ5VLEKMChT0nkiJgIFNLQk=
+X1edgANk3VsugGcdihqyZmRWj0qPA9T5xz7pdWXASoKxhhFZQHwikSABSG4xFA--7JBSFAcYrhC=
+N2kFTh2fjWn7mf9jhhd2jePoKm0K3Ul1crm2qdbuu_7Khtq82PJuam28O5izVc38hdEVqJk_h-k=
+Dcbyb9riukov-u7okJL1tvfXXKPkyuolF1B7fkmCVJWN6qabVfNsnTX0WNpdmB2-dVV465zi1er=
+Zf3ayH5D938jN7H9N5ghJpffydfOTvfm9oOv5ZXMSyvhbyI3L172t4zORLWGFOIv94fL_l1fpXU=
+GyujHz1h81SbU6f5rCXW0fG2MPYI4ggTDGKXN-lJOQ0DDDlLABB2Yx4zQm7_VD0hvHKzqNxuvjf=
+fOx1dWYN1I8LSya3sRmUNFMOihU1iCc082T_wJifQEFn_4TImbHESRQR7zXAPvWekCxVal8WYUI=
+d21loW6X-N_0GQCbJhw" style=3D"color: #1a1a1a; text-decoration: none;">Everv=
+ault: Encrypt Everything</a></h1><h3 class=3D"subtitle" style=3D"-moz-osx-f=
+ont-smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #76=
+7676; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont,=
+ 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Se=
+goe UI Emoji', 'Segoe UI Symbol'; font-size: 20px; font-weight: normal; lin=
+e-height: 1.16em; margin: 4px 0 8px; margin-top: 8px;">Encrypt the Web. End=
+ Data Breaches. Build a Massive, Multi-Product Business. </h3><table cellpa=
+dding=3D"0" cellspacing=3D"0" class=3D"post-meta   custom" style=3D"margin:=
+ 1em 0;"><tr><td title=3D"2022-04-14T12:52:39.596Z" class=3D"post-meta-item=
+ post-date" style=3D"color: #767676; font-family: -apple-system, BlinkMacSy=
+stemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Em=
+oji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 40=
+0; height: 14px; line-height: 100%; padding: 0px 12px 0px 0; padding-bottom=
+: 0; padding-top: 0; position: relative; text-decoration: none; vertical-al=
+ign: middle; white-space: nowrap;"><time dateTime=3D"2022-04-14T12:52:39.59=
+6Z">Apr 14</time></td><td class=3D"post-meta-item icon" style=3D"color: #76=
+7676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, H=
+elvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe =
+UI Symbol'; font-size: 14px; font-weight: 400; height: 14px; line-height: 1=
+00%; padding: 0px 12px 0px 0; padding-bottom: 0; padding-top: 0; position: =
+relative; text-decoration: none; text-indent: 3px; vertical-align: middle; =
+white-space: nowrap;"><span class=3D"post-meta-icon"><a href=3D"https://ema=
+il.mg2.substack.com/c/eJxFUtuOozAM_ZrytghCwsADD6OOGFFNqWa3nV5eUEhMm3IJglAKX=
+79uK-1Kka3Y8jnWORbcwFl3U9Tq3liPkJmphaiBsa_AGOisoYcuUzJyfRJ4jIaWjKh0AxZYqs-K=
+DqDmqopMN4DVDnmlBDdKN88JxyHMukQ-jjJZyFx4BQ0K4gYho65fUAEFvCHQk5cPUkEjIIIbdJN=
+uwKqiizFtv_DeFyTGN46j3WiT6041Z1toLPFWYby5GB4gmJ7r_OqAi8caCy82ugTMHzCtXEF-pg=
+OpyuSq7-k1oet552z-jEp8hrOMw_a0TPx0m4zrazmlH7s-aVbVcZ86fB8OOKNoS8pEjYrvY-eF8=
+c022-8xnY_3r-WqFd5abdRqlPvErLfviLNTWJ_x_6hPp318lZ_VLVer0BbsYHanpTrWwTI-UP1V=
+zeoS6-CUzZcReX6O-pzuvOT3XVsqIg4hDnWpSxhxQ9uzGQ0EC1BZwX2QjC-oU5-J3Q95b7goUZ_=
+a6qJ_emG7vPAaqmcDncow10OjzJRBw_MK5MtE87qFp47ZGRro8EZkxg1eAA1D6rz5xGPOyzR0me=
+FmIaHMQmapcar5T_oXlWLODA" class=3D"like-button" style=3D"display: block; te=
+xt-decoration: none;"><img src=3D"https://cdn.substack.com/image/fetch/w_28=
+,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%=
+2Ficon%2FHeartIconRounded%3Fv%3D3%26height%3D28%26fill%3D%2523757575%26stro=
+ke%3D%2523757575%26strokeWidth%3D2" width=3D"14" height=3D"14" style=3D"bor=
+der: none !important; display: inline-block; float: left; height: 14px; max=
+-width: 14px; vertical-align: top; width: auto;" alt=3D""></a></span></td><=
+td class=3D"post-meta-item icon" style=3D"color: #767676; font-family: -app=
+le-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-s=
+erif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: =
+14px; font-weight: 400; height: 14px; line-height: 100%; padding: 0px 12px =
+0px 0; padding-bottom: 0; padding-top: 0; position: relative; text-decorati=
+on: none; text-indent: 3px; vertical-align: middle; white-space: nowrap;"><=
+a class=3D"" href=3D"https://email.mg2.substack.com/c/eJxFUsuSojAU_RrZNZWEh=
+IYFi6m2dehqdXpaHXVDheSqEUgoCDL49R10HlV5VN3HOck9R3ALJ9MMSW1a641HZocaEg19W4K1=
+0HhdC02mZIJDEgWMxp5MqMQRizzVZscGoOKqTGzTgVd3eakEt8roewdChHnnJCchjzA-ivhIMBW=
+BIJQgFGOSi2cWu5I7L--kAi0ggSs0g9HglcnZ2rqdBN8mZOZW3_e-NjY3jdInXxgXqt0e66-8K-=
+2Ta2-G2t0jgj27KpcWpqpAWwczs6YAPQmmMLxhQbbDjpRFejG_l5eULm4btPrslZjHNzmL68NLG=
+i7Xab-4FMNyumnTqjxLF1us92i1LtBiKsjC1fPd8uYwlPi-Ve_r134xTXGqHE6wVff4iPeCh8Ov=
+2UXOy2uu3mLf_LxGh7V6igoiaBwcDq-3rFj9CPOPK6ef7f5jrj9O73a_U5sJCTtbZa3pGgHu7W2=
+Xt5aL4k-8Aqm6avzTKIOnEoIIQRRTTBjBsR_4jEaCRSFhgocgGZ9QVJ2I_xfHzbHymuTfXF26OP=
+MKynvCKZqNA-y0skMGmuclyIfY9uGZO292Ag2N85LMuHVOoXFM0XNIAoYe4jo3MPeymFDmOWZpX=
+Jf-T_oF4k7cOw" style=3D"display: block; text-decoration: none;"><img src=3D=
+"https://cdn.substack.com/image/fetch/w_28,c_scale,f_png,q_auto:good,fl_pro=
+gressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FCommentIconRounded%3Fv%3=
+D3%26height%3D28%26fill%3D%2523757575%26stroke%3D%2523757575%26strokeWidth%=
+3D2" width=3D"14" height=3D"14" style=3D"border: none !important; display: =
+inline-block; float: left; height: 14px; max-width: 14px; vertical-align: t=
+op; width: auto;" alt=3D"Comment" class=3D"comment-icon post-meta-icon"></a=
+></td><td class=3D"post-meta-item icon" style=3D"color: #767676; font-famil=
+y: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,=
+ sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font=
+-size: 14px; font-weight: 400; height: 14px; line-height: 100%; margin-righ=
+t: 0; padding: 0px 12px 0px 0; padding-bottom: 0; padding-right: 0; padding=
+-top: 0; position: relative; text-decoration: none; text-indent: 3px; verti=
+cal-align: middle; white-space: nowrap;"><span><a href=3D"https://email.mg2=
+=2Esubstack.com/c/eJxNklvPojAQhn8N3C0phSK=
+94MLsxqzGQ1y_z8PekNqOUoGWlCLir9-ie0p=
+6yDyd6bTvDGcWrtoMWaNb649LbocGMgV9W4G1YPyuBZNLkYUJTiMSU19ksQhTkvqyzS8GoGayyq=
+zpwG-6cyU5s1KrVwRCmPhFhiCkIZsgRGiKMLtcEspoKC6CxkkahvSdl3VCguKQwR3MoBX4VVZY2=
+7ReNPXwzI2-7wOl7Vkbqa4B1w41bo7-d9ZV9osLN0Pj9vEGWzgvL5p1ts5b3RkOXvSt7c6tZbz0=
+cDLyGoTsasdfn_gNuVYWlB29C2bAUcbHL_0HrC5htGFYhBzvhyOuyvlNP9a3ebx6fqLNrpfsMEN=
+vtiWbj22_fp4ey6-LhkcruZGLXhzmdvUx7Ve3T-n409kvfo7WaHlcVKfDGrED7eYKBfB9lizSj5=
+9kt13tjttZ8dDV8jbdlz-Wttnt7_WxON02-8nzUvoywwhjFIdxiAkOaRAFJE45SRNMOEtAEObFq=
+L7i4I8YTsraN9lfad1xWbAaqteBK6qTpK47Je2Qg2LnCsS73vbdNi_x8isoMK6dRM6sa5aY0hhN=
+EhwR9K6vawjiXkZxTHyXWWgXpf4l_QX9sN3h" style=3D"display: block; text-decorat=
+ion: none;"><img src=3D"https://cdn.substack.com/image/fetch/w_32,c_scale,f=
+_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FR=
+ecommendIconRounded%3Fv%3D2%26height%3D32%26fill%3D%2523757575%26stroke%3Dn=
+one%26strokeWidth%3D2" width=3D"16" height=3D"16" style=3D"border: none !im=
+portant; display: inline-block; float: left; height: 16px; max-width: 550px=
+; vertical-align: top; width: 16px;" alt=3D"Share" class=3D"recommend-icon =
+post-meta-icon"></a></span></td></tr></table></div></div><div dir=3D"auto" =
+class=3D"post typography" style=3D"font-size: 16px; line-height: 26px; padd=
+ing: 9.6px 0;"><div dir=3D"auto" class=3D"body markup" style=3D"font-size: =
+16px; line-height: 26px; margin-bottom: 12px; text-align: initial; width: 1=
+00%; word-break: break-word;"><p style=3D"color: #1a1a1a; font-size: 16px; =
+line-height: 26px; margin: 0 0 1em 0; margin-top: 0;"><em>Welcome to the&nb=
+sp;<strong>532&nbsp;newly Not Boring people&nbsp;</strong>who have joined u=
+s since last Monday (woah)! If you haven&#8217;t subscribed, join&nbsp;<str=
+ong>114,143 </strong>smart, curious folks by subscribing here: 114,143</em>=
+</p><div class=3D"subscribe-widget is-signed-up" style=3D"direction: ltr; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 1em;"><p class=3D"button-wra=
+pper" style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: =
+0 0 1em 0; text-align: center;"><a href=3D"https://email.mg2.substack.com/c=
+/eJxFUV1vhCAQ_DXyVqN8nT7w0KS5v2EQ9jxyAgaXGv99UdtrQgjM7uxMZo1GmGLa1RJXJMc14L=
+6ACrCtMyBCInmFNDirWkk7JnhPrOK27URH3Do8EoDXblaYMpAlj7MzGl0MJ6NpqCBPRUcrb_TBH=
+kZ2o-CGWXZrrJSgLRW9gEtXZ-sgGFDwDWmPAcisnojLWrHPit7L2batDhHHmFyYahMLtOZxNcmN=
+ULF7Rj-sMSdTPl_HyIrKA_NgXfYFO53-gu_G94SPzdkJ_kgmBoSApUHQhvaUC-JUedGGt7ylgrZ=
+9zWrBOyM6SYXREqzQFW_8ROtjJmrzKh49SertuZRfT-1hPgslrSLjfQ4O9wGCHmewV5B47eM0PE=
+wQIJU92UFj2QLve97cJGWiuYIrSb89FmUbCyv8i_4AaXCkTQ" class=3D"button primary s=
+ubscribe-btn" style=3D"background-color: #67bdfc; border: none; border-radi=
+us: 4px; box-sizing: border-box; color: #ffffff !important; cursor: pointer=
+; display: inline-block; font-family: -apple-system, BlinkMacSystemFont, 'S=
+egoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe=
+ UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; height=
+: auto; line-height: 20px; margin: 0; opacity: 1; outline: none; padding: 1=
+2px 20px; text-align: center; text-decoration: none !important; white-space=
+: nowrap;"><span style=3D"color: #ffffff; text-decoration: none;">Subscribe=
+ now</span></a></p></div><p style=3D"color: #1a1a1a; font-size: 16px; line-=
+height: 26px; margin: 0 0 1em 0;">&#127911;<em>&nbsp; Instead of an audio e=
+dition today, subscribe on <strong><a href=3D"https://email.mg2.substack.co=
+m/c/eJxFkE9LxDAQxT9NcyzJJOm2hxzURRBXxD8XTyVNZrth26QkqVo_vXH3IAzzYIbHm_kZnXE=
+McVNLSJn8tT5vCyqPX2nCnDGSNWHsnVWsgZZL0RGrhGWtbIlL_TEiztpNKscVybIOkzM6u-AvDk=
+pBkpNCSm3HzWB1ayQM2iJ0ugFhEI6MYXfN1at16A0q_MS4BY9kUqecl1TxmwruS4UFfZ2WkN1xq=
+02YyyidwleR5sw-Drefz6-vT1tIjxv_Zt8PU8Xvk6v4fr9swt097l4kvLGD4OwnvdOROAUUgAom=
+GEhgXc1rKcqFbQPS6Aat1JWg8wh1WoeUtTn_hZKofMhDiM6PZX0-6Rmny6J83xedV-_y1qPXw4T=
+2CiZf-V5Q9SN6jIW77XUuVEXXCbprgEt6BVHIyXJZB0KSkmxDcfn_0F_QGZGJ" rel=3D"" sty=
+le=3D"color: #1a1a1a; text-decoration: underline;">Spotify</a> </strong>or&=
+nbsp;<strong><a href=3D"https://email.mg2.substack.com/c/eJxFkEuOwyAMhk9Tdh=
+MBwWmyYDGbuQYi4KaoCURgZpTbD2krVULGD9m__TlLuKR86D0VYqcxdOyoI_6VFYkws1owm-C1G=
+OTYg5qY18qLEUYWirllxM2GVVOuyPY6r8FZCik-OziXwO5agb_aGx_4LG8K5l6A4FZMo-u5HdDz=
+l66tPmB0qPEX85EislXfifZy6b8v8qe9PXlnC5XO7vuKnUtbS9byqTQvJvqaUw5xaUHwAuRVSTH=
+1ggUtuZRcCSUktFTXd6BGB-MgwZ17gL0ovi2yK3UuZN3jVGBZt5HviYo_7nbD9Vlox5r2bzUGOg=
+xGO6_oXxzohfNJxiwYMTfM3lhqENU0KX4dZA_vuxsoaJtNUgFryj61rvgR_QdUr4sq" rel=3D"=
+" style=3D"color: #1a1a1a; text-decoration: underline;">Apple Podcasts</a><=
+/strong> to get my interview with Evervault CEO Shane Curran tomorrow. </em=
+></p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"backgr=
+ound: #e5e5e5; border: none; height: 1px; margin: 25.6px 0; padding: 0;"></=
+div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin:=
+ 0 0 1em 0;">Hi friends &#128075; ,</p><p style=3D"color: #1a1a1a; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 1em 0;">Happy Thursday! </p><p styl=
+e=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;=
+">One of my favorite things about technology is that it turns humanity&#821=
+7;s biggest problems into opportunities for entrepreneurs. The market does =
+a pretty great job of rewarding extraordinary people for fixing things for =
+the rest of us, so much so that some of those people have enough money to <=
+a href=3D"https://email.mg2.substack.com/c/eJxFkUGP2yAQhX-NOUaAAdsHDl1Fq11p=
+20sPPSIME4eNDRGMG-Xfd5IcKqHhodHMe_oIHmEp9W6vpSF7FIf3K9gMt7YCIlS2N6guRSuMHHu=
+tJhatimLUI0vNnSrA5tNqse7Arvu8puAxlfyc4FxqdrZaxD56LwJXQc5hnsQ8TP2s1Tj6OMDw8v=
+V7TJADWPgL9V4ysNWeEa-t63908p0O3tIj0SGUjV6wlrzt7UKyoce9kRBaKG3UZAxVoynA2PXvt=
+OEoeScNkng7bh8_4XNLp6_hD_xefnnnvm8sWcml5EooIbUU06E_UL6gRyN18Aai9p3i2yIPbZ_J=
+L1weMVi1ueBcasoLtS9nv8H6bBAKR_e254R3B9nPK8QXJXzBfnJzC2So9AnReSTEapoUH4zsNX9=
+RIYyakk1SaUbOsdBU_m_6D-M8k1M" rel=3D"" style=3D"color: #1a1a1a; text-decora=
+tion: underline;">buy Twitter</a>. </p><p style=3D"color: #1a1a1a; font-siz=
+e: 16px; line-height: 26px; margin: 0 0 1em 0;">Data breaches are one such =
+problem, and ending them is one such opportunity. That&#8217;s what <strong=
+><a href=3D"https://email.mg2.substack.com/c/eJxFUMuOwyAM_JpyjAgBGg4c9tLfQA=
+ScFJVABKar_P3S5rCSZcsajebhLMKWy6mPXJF8lsHzAJ3gt0ZAhEJahWKC16Nk8yS4Il5zP85iJ=
+qGatQDsNkSNpQE52hKDsxhy-jIoZYI8tePA6Lq4UfFpXdfpruQkhBT0zvkiYb10bfMBkgMNbyhn=
+TkCifiIe9Tb93Nijzwd42xZxcHnvPwmaUcYoH_nIBBvVMA2Cz07MkglnJXhhb5zuGxtqWypa9_o=
+wSdEp45JLSFuHX0-7Q_wC3b_pd28p4Gkg2SWCv6Lh1dA3rNkgQenNeWOx98KV4vQu2SToFaVnF9=
+2ZYlyQruxzZ6V_0T-YH30R" rel=3D"" style=3D"color: #1a1a1a; text-decoration: =
+underline;">Evervault</a></strong> is trying to do by giving developers sim=
+ple, powerful tools to encrypt the web. If Evervault succeeds, its prize wi=
+ll be one of the most valuable positions in the internet stack. </p><p styl=
+e=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;=
+">This is a <strong>Sponsored Deep Dive.</strong> You can read about my sel=
+ection process and conflicts <a href=3D"https://email.mg2.substack.com/c/eJ=
+xFkE1vwyAMhn9NOUbEgXwcOEzapqldd5lUbaeIgJOiJpABWZV_P5IeJmFsYb9-0aNkxMH5VcwuR=
+LJdbVxnFBbvYcQY0ZMloG-NFnkJdcFZQ7RgOq95TUxoe484STOK6Bck89KNRslonN0VlAInV9F0=
+fQMAJXY1LSuJRV-WlDcUel7lVRrZfeWiDVqFAn_Rr84iGcU1xjkciqcDvKajnQrZ4NwwYqbc9Hh=
+ZJrRxK1PkJ2D66cRv1fvb8n0Ox_OqQarnz5973b3o49TOylz8dPn42laiNpEYARSAspzlwCFvsi=
+LjrFa8LoErWaLm8sDoNEAWli5EqW6bN_HCutg5b-yQ2rernHDcG4lBm_K0WBPXFq3sRtQPPPFBe=
+QfWDmjRJ_q6lTGxZU3DaFVCwekDR-LH088aYJwkZ-2Syv6b_gEHu5Lx" rel=3D"" style=3D"=
+color: #1a1a1a; text-decoration: underline;">here</a>; the most important t=
+akeaway is that I only write about companies I would invest in, find fascin=
+ating, and think you should know about. If you don&#8217;t already, you sho=
+uld certainly know Shane Curran and Evervault.</p><p style=3D"color: #1a1a1=
+a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Plus, as Shane p=
+ointed out below, when companies pay a little more, they put more effort in=
+to implementation. I hadn&#8217;t quite thought of it that why, but I think=
+ that we&#8217;re able to get better access and more interesting insights <=
+em>because </em>these are sponsored. </p><p style=3D"color: #1a1a1a; font-s=
+ize: 16px; line-height: 26px; margin: 0 0 1em 0;">Let&#8217;s get to it. </=
+p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"backgroun=
+d: #e5e5e5; border: none; height: 1px; margin: 25.6px 0; padding: 0;"></div=
+><h1 style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing:=
+ antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-sys=
+tem, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, =
+'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 2em; f=
+ont-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;"><strong>Ev=
+ervault: Encrypt Everything&nbsp;</strong></h1><div class=3D"captioned-imag=
+e-container-static" style=3D"font-size: 16px; line-height: 26px; margin-bot=
+tom: 16px; text-align: center;"><figure style=3D"display: inline-block; mar=
+gin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; m=
+so-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;">=
+</td><td align=3D"left" class=3D"content" width=3D"1200" style=3D"text-alig=
+n: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://email=
+=2Emg2.substack.com/c/eJxVUsuOpDAM_JrmBsq=
+b5MBhtNL-BsrDTUcNCZuEme35-nHDYbVSZDu=
+27Cq57G2DJZfXtOfaureZ22uHKcFXXaE1KN1RocwxTFQxzaUwXZhEoFrqLtb5XgA2G9eplQO6_X=
+Br9LbFnM4OQpjsHpORihnJJbs7TR14LYLzlDg1Gj9Sry5ce4QIycMEn1BeOUG3To_W9nrjHzf2G=
+58PaaiHq8365-Dzhqm42QXQ36H5x9vjmJZv7NefK-AfS84B__d13kteCtQaPwHztQHs2HFBMPkG=
+kW8YNO7wT8B66YFI55Bw76zlveAj9EZS3dvgOHMwjkaLofLBbvY7J_tVL14449rFGZ4k6xnqu6H=
+SM95LT1gvQPNe4y567seguIWgCJspI-SvImTY09LFiRHGiKCC4gBqBj5Iob3UiklvFQRpb4JsC_=
+tvNV2ZUm4ul5gWLD8fdoP1LCCvGf12pNheMyTrVgiXfO26glPQeYEEBa8jzLah9sIYQUbFuCSXX=
+KivRGaGCdkhcsjYlf6B_gCvG8Lm" rel=3D"" style=3D"align-items: center; border:=
+ none; display: block; flex-direction: column; height: auto; margin: 0; pad=
+ding: 0; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src=
+&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amaz=
+onaws.com/public/images/8f915c23-5c02-4e83-8bc1-3c7d63aed602_1200x600.png&q=
+uot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&qu=
+ot;:600,&quot;width&quot;:1200,&quot;resizeWidth&quot;:null,&quot;bytes&quo=
+t;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;t=
+ype&quot;:null,&quot;href&quot;:null}" alt=3D"" title=3D"" width=3D"550" he=
+ight=3D"275" class=3D"wide-image" src=3D"https://cdn.substack.com/image/fet=
+ch/w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbuc=
+keteer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fima=
+ges%2F8f915c23-5c02-4e83-8bc1-3c7d63aed602_1200x600.png" style=3D"-ms-inter=
+polation-mode: bicubic; border: none !important; display: block; height: au=
+to; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-=
+align: middle; width: auto !important;"></a></td><td style=3D"text-align: c=
+enter;"></td></tr></tbody></table></figure></div><p style=3D"color: #1a1a1a=
+; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em><strong>8. Do=
+n&#8217;t Hinder the Builder.</strong></em></p><p style=3D"color: #1a1a1a; =
+font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>Privacy is a ba=
+sic expectation and human right, but it&#8217;s something that should never=
+ create any friction or slow down the speed of technological advancement.</=
+em></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; marg=
+in: 0 0 1em 0;"><em>&#8211; Evervault, <a href=3D"https://email.mg2.substac=
+k.com/c/eJxFUEGOwyAMfE05RoFACgcOe-k3EAQnRSUQgekqv1_aHFaybFmj8XhmsQhbLqc-ckX=
+yaQbPA3SC3xoBEQppFYoJXtOZyUlwRbzmnkohSahmLQC7DVFjaUCO5mJYLIacvoxxZII89Tyvq2=
+LU-XWSk1OCeioklauaV-rl3V26tvkAaQENbyhnTkCifiIe9Tb93Nij1wd42xZxWPLedxfz1sduU=
+1ihYiZBs5GxkVNOmWBUDdMguFyEnJlY7Axe2Bsf940NtbmKdnl9LpGiU0aXS0hbh19Pu0P8At2P=
+6XNvKeBpIFkXwV9W8Ursa95skKD0JL2x2HPiSvHxPrNJjJe1noXonynGBenKPndW-hf9AyxRgyQ=
+" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">The Encryp=
+tion Manifesto</a></em></p><div style=3D"font-size: 16px; line-height: 26px=
+;"><hr style=3D"background: #e5e5e5; border: none; height: 1px; margin: 25.=
+6px 0; padding: 0;"></div><p style=3D"color: #1a1a1a; font-size: 16px; line=
+-height: 26px; margin: 0 0 1em 0;">For the past three years, the Chief Tech=
+nology Officer of the world&#8217;s fifth largest company by market cap and=
+ largest cloud provider has worn the same t-shirt whenever he speaks at con=
+ferences:&nbsp;</p><div class=3D"captioned-image-container-static" style=3D=
+"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-align: cente=
+r;"><figure style=3D"display: inline-block; margin: 0 auto; width: 100%;"><=
+table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;=
+"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" clas=
+s=3D"content" width=3D"908" style=3D"text-align: center;"><a class=3D"image=
+-link" target=3D"_blank" href=3D"https://email.mg2.substack.com/c/eJxVUsuu3=
+CAM_Zphl4hnAossrir1NyIDTgbdBFIg93b69WWSRVUJ2cbW8bF87KDimvJrOlKp5G3m-jpwivhd=
+NqwVMzkL5jn4iQ1cCyUN8ZP0TCtNQpmXjLhD2KaaTyTHabfgoIYULwSlXJHn5Kl01gA1Bh2yRQp=
+01hlAACcXg-zmhdMHjA4n_ML8ShHJNj1rPcpDfDz4z_acj305bangPnuX9pYKO6zY_ILVPd--ta=
+npwX_8ugPxsabk23_Z5iOnNWMp4QtbvlTEoyFuCq7eJOpN04w93Se2eu6QKmudlp0FEJ0UI3ZGM=
+d2Bt4JbHEejZV9EDzv8SRG-yz1X63Hv4gqvIcsVohSDBiU7Cm7oJBuWDkYBneXGjqNAOUicDdW_=
+FVP9EVcSJk45p5JJ1vDM9KJXUjulB64cDOgVPCTdV_7fZkieYqo25RDXVv58wo7bVWhjzc3vZwz=
+1NWMEu6G_1av3EVx6zitGzO04_Ay1SS-NkXQcuFD0VqvJq9pkhktFGrNPDRX_kf4F2vHEQg" re=
+l=3D"" style=3D"align-items: center; border: none; display: block; flex-dir=
+ection: column; height: auto; margin: 0; padding: 0; text-decoration: none;=
+ width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-=
+e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/e4368a5=
+4-0ac6-416f-a73a-b29b773e464e_908x515.png&quot;,&quot;fullscreen&quot;:null=
+,&quot;imageSize&quot;:null,&quot;height&quot;:515,&quot;width&quot;:908,&q=
+uot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&qu=
+ot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null}" al=
+t=3D"" title=3D"" width=3D"550" height=3D"311.94933920704847" class=3D"wide=
+-image" src=3D"https://cdn.substack.com/image/fetch/w_1816,c_limit,f_auto,q=
+_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-=
+9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4368a54-0ac6-416f-a=
+73a-b29b773e464e_908x515.png" style=3D"-ms-interpolation-mode: bicubic; bor=
+der: none !important; display: block; height: auto; margin: 0 auto; margin-=
+bottom: 0; max-width: 100% !important; vertical-align: middle; width: auto =
+!important;"></a></td><td style=3D"text-align: center;"></td></tr></tbody><=
+/table><figcaption class=3D"image-caption" style=3D"color: #767676; font-fa=
+mily: sans-serif; font-size: 14px; font-weight: 300; line-height: 1.4em; te=
+xt-align: center;"><em>Amazon CTO Dr. Werner Vogels</em></figcaption></figu=
+re></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; ma=
+rgin: 0 0 1em 0;">Dr. Werner Vogels, Amazon&#8217;s CTO since 2005, has a c=
+atchphrase to go along with the fashion: &#8220;Dance like no one is watchi=
+ng; encrypt like everyone is. <strong>Encrypt everything</strong>.&#8221;&n=
+bsp;</p><div class=3D"captioned-image-container-static" style=3D"font-size:=
+ 16px; line-height: 26px; margin-bottom: 16px; text-align: center;"><figure=
+ style=3D"display: inline-block; margin: 0 auto; width: 100%;"><table class=
+=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><t=
+r><td style=3D"text-align: center;"></td><td align=3D"left" class=3D"conten=
+t" width=3D"908" style=3D"text-align: center;"><a class=3D"image-link" targ=
+et=3D"_blank" href=3D"https://email.mg2.substack.com/c/eJxVUsuO5CAM_Jrmlohn=
+AoccRivtb0Q83GnUCWSBzGzP1487OaxWQraxVS7LZW8bLLm8pj3XRt5mbq8dpgRfdYXWoJCjQpl=
+jmNjAtVDSkDDJwLTSJNb5XgA2G9eplQPIfrg1ettiTieCUq7IYwpe2bvwQct7oMCtMzAwK7gKil=
+LF2MVrjxAheZjgE8orJyDr9GhtrzfxceO_8fmQ-nq42qx_9j5vmIqbXQD9HZp_vD22afnGf_25A=
+vGx5Bzwf1_nveSlQK3xEzBfG8COiIuCqzeJetOgcYd_AtZLB1Q557XsnLWik2KEziimOxuc4A7G=
+0WjZV9HbzX7nZL_qNRf2uHZxhueQ9Qw5A-1GqTphJOukZL5zYFwHTHjJgA5uCLOh-i8zrN_TQuL=
+EKedUMskQz0wveiW1V3rgytsBgrI3SbeF_7cZUqaUm8slpgXLz4fdYD0LONaMfjtSbK8ZknUrhE=
+u9dh3Bqee8QIKCxxFm21B6aYyk48CFopdaKK_CyQyXiiBzyIhK_0h_APhvwzc" rel=3D"" sty=
+le=3D"align-items: center; border: none; display: block; flex-direction: co=
+lumn; height: auto; margin: 0; padding: 0; text-decoration: none; width: au=
+to;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-b=
+aa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/21e8b745-3941-441=
+c-be9b-e13c41e06b6d_908x191.png&quot;,&quot;fullscreen&quot;:null,&quot;ima=
+geSize&quot;:null,&quot;height&quot;:191,&quot;width&quot;:908,&quot;resize=
+Width&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;=
+title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" tit=
+le=3D"" width=3D"550" height=3D"115.69383259911895" class=3D"wide-image" sr=
+c=3D"https://cdn.substack.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good=
+,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32=
+be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F21e8b745-3941-441c-be9b-e13c41=
+e06b6d_908x191.png" style=3D"-ms-interpolation-mode: bicubic; border: none =
+!important; display: block; height: auto; margin: 0 auto; margin-bottom: 0;=
+ max-width: 100% !important; vertical-align: middle; width: auto !important=
+;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></table></f=
+igure></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px;=
+ margin: 0 0 1em 0;">&#8220;<strong>Encryption is the tool we have to make =
+sure that no one else has access to your data</strong>,&#8221; he tells aud=
+iences and employees alike.&nbsp;</p><p style=3D"color: #1a1a1a; font-size:=
+ 16px; line-height: 26px; margin: 0 0 1em 0;">You deal with encrypted data =
+every minute of every day. Whenever you send a text message, for example, i=
+t&#8217;s encrypted on the way out of your phone and decrypted at the other=
+ end. Crypto runs on public-key cryptography &#8211; your wallet uses your =
+seed phrase to derive your private key to sign transactions.&nbsp;</p><p st=
+yle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em =
+0;">To oversimplify it, encryption takes readable data and turns it into go=
+bbledygook that no one can read except the people who have the keys. Take m=
+y Social Security Number, which is 294-36-1652. (JK, good try) But take tha=
+t SSN. Often, if I enter it somewhere online, like in a credit card applica=
+tion, it&#8217;s stored in plaintext data, just like that, &#8220;294-36-16=
+52&#8221;, in a database. The database may be encrypted using Data at Rest =
+Encryption, but if someone is able to hack into the database, or simply acc=
+ess it with their credentials, they&#8217;ve hit the jackpot. My SSN and <e=
+m>all</em> of the information in there is theirs for the taking.&nbsp;</p><=
+p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 =
+1em 0;">This isn&#8217;t a hypothetical. In 2019, an Amazon engineer, Paige=
+ Thompson, used her permissions to <a href=3D"https://email.mg2.substack.co=
+m/c/eJxFkE2OwyAMhU9Tdo0IgZQsWMxmrhHx4zZoCETgTJTbj9ssRkLPCOv54c9bhFepp9lKQ_a=
+WGc8NTIajJUCEyvYGdY7B9KPQg5ITC0aGXivNYpufFWC1MRmsO7Btdyl6i7Hkj4NzodhivB76Hi=
+bnuHZKWQnjKL0QQgPnDzk8r1y7hwjZg4FfqGfJwJJZELd2G75u4pvOcRxdPjGu0DpfVnoRXHAqX=
+L9lJHF7ixlao6u3W0Sb7jTpvlj_c2-0T4IVMnYLrolFQ3bBZS97oUQ_dUOnpPZKj0J5O0JQ9ib5=
+-hJd211DGvFOZdXkgq7UmF_U_lnsCunToO1nquueI54zZOsShAsMXnw_qOYXZKjEPcwWiaqcJsk=
+foxgUv0AQOUU_m4RUjJJDIVf-D_0D5EaRYg" rel=3D"" style=3D"color: #1a1a1a; text=
+-decoration: underline;">hack into Capital One&#8217;s AWS server</a> and <=
+strong>steal data from more than 100 million Capital One customers</strong>=
+, including 140,000 Social Security Numbers (SSN) and 80,000 bank account n=
+umbers.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0 0 1em 0;">In the ideal state, what would have happened is t=
+hat Thompson would have hacked in, and instead of plaintext SSNs, would hav=
+e seen 140,000 random text strings that look like this:&nbsp;</p><pre style=
+=3D"background: #f3f3f3; outline: 6px solid #f3f3f3; position: relative;"><=
+code style=3D"white-space: pre-wrap;">ev:Tk9D:in0+WDhHs2cpetd/:AqaGHmNI8XCx=
+O0S9pAQDusU+rwf6WpIrM9wM0xbAXYFM:fKKWClDvNK4sY9K7Nff6nMSUKasc9zet4UrGpA=3D=
+=3D:$</code></pre><p style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0 0 1em 0;">But Capital One used database encryption, not <s=
+trong>field-level encryption</strong>, which would have meant that even som=
+eone with access to the database couldn&#8217;t have accessed the data insi=
+de in plaintext. And that&#8217;s Capital One, a $54 billion public company=
+ that spends a lot of money and human power on security. Most companies are=
+ far less prepared, and data breaches are becoming far more common.&nbsp;</=
+p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0=
+ 0 1em 0;">According to the <a href=3D"https://email.mg2.substack.com/c/eJx=
+FUsGOpCAQ_Rq5aQDB1gOHzezMF-zdIJTdzCgYKKfXv1_EnmxC6r2ioB7hldEI9xAPtYWE5AwjHh=
+soD8-0ACJEsieIo7OKdbxvpRiIVcKyXvbEpXGOAKt2i8K4A9n2aXFGowu-3KCUS_JQt14bC6ztO=
+tbSWbJ5HgYh234ahO3pzC5dvVsH3oCCb4hH8EAW9UDcUtX-qvhHXs_nszEesDFhzen5xgxbdN_a=
+HJlFMCHa2u_rBLEOc2016nqKoM0DUh1hCxHB1s7XnHJW5wavzTrpIxWR9lS7veeI8Ber9vefB1R=
+ccnp1LTTMBX76leSUKuRHriSf-7q9DnR9gQ2iAY-FLzpl8vZqx874JmlXsgTXGecL5PKtIU5lxq=
+lgguVNNjRtI0VvZN9xaXQHVupK0PXOm7RPCbX5Or-KROUDTiE6f8_lr4deYSmF7NeYcd29w2MEr=
+6cF7GUlXhNRzB3v4CHmSbGjxjwHIttHbx1vJb2sy16fbxy4kCQr25Bv-f-i_wA75MVu" rel=3D=
+"" style=3D"color: #1a1a1a; text-decoration: underline;">Identity Theft Res=
+ource Center</a>, there were a<strong> record-breaking 1,862 data breaches =
+in 2021</strong>, up 68% from 1,108 in 2020 and 24% higher than the previou=
+s record of 1,506 in 2017. In 83% of data breaches, hackers got access to p=
+eoples&#8217; Social Security Numbers.&nbsp;</p><p style=3D"color: #1a1a1a;=
+ font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">If you want to rea=
+lly <em>feel</em> what&#8217;s at stake, I recommend that you read Nicole P=
+erlroth&#8217;s excellent book, <em>This is How They Tell Me the World Ends=
+</em> or listen to her interview on <a href=3D"https://email.mg2.substack.c=
+om/c/eJxFkEFv5CAMhX9NOEbEQAoHDpWms9K22j1sV-r2EhHwJKgJREDazb8vnTlUsmzLT0_P-q=
+wpOMV06C3mQr7aUI4NdcCPvGApmMieMQ3e6a4HyQRXxGnuOikk8Xm4JMTV-EWXtCPZ9nHx1hQfw=
+9VBKQgy6_FuFL1hFwqWdkaM7KKoBCUF9BIcsFuu2Z3HYFHjO6YjBiSLnkvZcsPuGzjXihuGNm-x=
+-MvR2rjWE24-R4d1oyeYnnD7bV9O89Nc1E_77_HvS8PO2TfsZKU5weOv_vn858dHN83q4f_r-z3=
+xGigA5R3vQECnWtYKLq2QPQhrenTCNJyuE7R5H3Mx9u0rlyQdYhlj8mGq8ttsVlyuQgUw1LnuwZ=
+djwGDGBd2NTbkhvtIaJgyYKno3mFLBcqU4veuBCXpjUeGJ-pkCLkhNdrG6wnfoJx4akX8" rel=
+=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Lex Fridman Pod=
+cast</a>.</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px=
+; margin: 0 0 1em 0;">The stakes are high, and they&#8217;re getting higher=
+ as more of our lives, data, reputation, and wealth move online.&nbsp;</p><=
+p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 =
+1em 0;">That&#8217;s why Vogels wants you to <strong>Encrypt Everything</st=
+rong>. <strong><a href=3D"https://email.mg2.substack.com/c/eJxFUMuOwyAM_Jpy=
+jAgBGg4c9tLfQAScFJVABKar_P3S5rCSZcsajebhLMKWy6mPXJF8lsHzAJ3gt0ZAhEJahWKC16N=
+k8yS4Il5zP85iJqGatQDsNkSNpQE52hKDsxhy-jIoZYI8tePA6Lq4UfFpXdfpruQkhBT0zvkiYb=
+10bfMBkgMNbyhnTkCifiIe9Tb93Nijzwd42xZxcHnvPwmaUcYoH_nIBBvVMA2Cz07MkglnJXhhb=
+5zuGxtqWypa9_owSdEp45JLSFuHX0-7Q_wC3b_pd28p4Gkg2SWCv6Lh1dA3rNkgQenNeWOx98KV=
+4vQu2SToFaVnF92ZYlyQruxzZ6V_0T-YH30R" rel=3D"" style=3D"color: #1a1a1a; tex=
+t-decoration: underline;">Evervault</a></strong> wants to help.&nbsp;</p><p=
+ style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1=
+em 0;">&#8220;When a company encrypts with Evervault, they could <strong>pu=
+t their database on a billboard and no one could get at the data</strong>,&=
+#8221; Shane Curran, Evervault&#8217;s 22-year-old founder and CEO told me.=
+&nbsp;</p><div class=3D"captioned-image-container-static" style=3D"font-siz=
+e: 16px; line-height: 26px; margin-bottom: 16px; text-align: center;"><figu=
+re style=3D"display: inline-block; margin: 0 auto; width: 100%;"><table cla=
+ss=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody>=
+<tr><td style=3D"text-align: center;"></td><td align=3D"left" class=3D"cont=
+ent" width=3D"608" style=3D"text-align: center;"><a class=3D"image-link" ta=
+rget=3D"_blank" href=3D"https://email.mg2.substack.com/c/eJxVUsuu3CAM_Zphl4=
+jwSGDB4qpSfyPi4WTQTSAFcm-nX19PsqgqIdvYOj7GB28brLm8zJFrI28zt9cBJsF33aA1KOSsU=
+OYYzDAyxaXQJBgRBiUViXVeCsBu42ZaOYEcp9uity3mdCEoZZI8jQQ7gpdh8pz6YVKT1GFYRgiU=
+hSC1vXntGSIkDwa-oLxyArKZZ2tHffCPB_uJx4fU19PVZv1n7_OOqbjbFdAv0Pzz7bFNyw_249c=
+d8I8154D3ZZuPktcCtcYvwHxtAAcibgom3yTyTYPGnf4TsF46oNI5r0TnrOWd4BN0Wg6qs8Fx5m=
+CatBJ95b3d7Z-c7He958Ie9y6u8BqyXqG2C2h8eScGTjshlqVzowodbkH7MDGtgM4jVb8FVf2RV=
+hINo4xRMYgB8YPueS-F8lKNTHpca5D2Iei-sv82Q4pJublcYlqx_Pm0O2xXAcea0e9niu01Q7Ju=
+g3Cr1-5PcOk5r5Cg4OcIs20ovdBa0GlkXNJbLZRX4mSaCUmQOWREpX-kfwGYj8PU" rel=3D"" =
+style=3D"align-items: center; border: none; display: block; flex-direction:=
+ column; height: auto; margin: 0; padding: 0; text-decoration: none; width:=
+ auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc8=
+4-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/9afe96ed-4130-=
+44ff-b68d-59a9cd7298e0_608x408.png&quot;,&quot;fullscreen&quot;:null,&quot;=
+imageSize&quot;:null,&quot;height&quot;:408,&quot;width&quot;:608,&quot;res=
+izeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&qu=
+ot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" =
+title=3D"" width=3D"550" height=3D"369.07894736842104" class=3D"wide-image"=
+ src=3D"https://cdn.substack.com/image/fetch/w_1216,c_limit,f_auto,q_auto:g=
+ood,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-ad=
+b32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9afe96ed-4130-44ff-b68d-59a=
+9cd7298e0_608x408.png" style=3D"-ms-interpolation-mode: bicubic; border: no=
+ne !important; display: block; height: auto; margin: 0 auto; margin-bottom:=
+ 0; max-width: 100% !important; vertical-align: middle; width: auto !import=
+ant;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></table>=
+<figcaption class=3D"image-caption" style=3D"color: #767676; font-family: s=
+ans-serif; font-size: 14px; font-weight: 300; line-height: 1.4em; text-alig=
+n: center;"><em>Shane Curran</em></figcaption></figure></div><p style=3D"co=
+lor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">I&#82=
+17;ve been following Evervault for over a year. In last summer&#8217;s <em>=
+<a href=3D"https://email.mg2.substack.com/c/eJxFkN1qxCAQhZ8m3jWo0TReeFEo-xr=
+izzQrm2hQ05A-fWc30IKjMMOZz3O8bTDncuot10ael2nnBjrBURdoDQrZKxQTg2YjnwYpFAlaBD=
+bJicRqvgrAauOiW9mBbLtborct5vRSUMoluWvGQanAB0nZAI5yKoJ3ztLwZQP1jl1cu4cIyYOGb=
+yhnTkAWfW9tq93w0fEbnuM4-pSbyyWmufcZWxvWD5T89kj5WCDM0A03VHweJGpOObKYYFxypvqh=
+l2Lychq59HaEIG0n6Drzvu6uNusfuHIlRf8hcPy42xWW1wDNGXzXPcV2GkjWIe_y3a74XkmYGRI=
+UjDUY2zA0oZSg7-PT_eUTg5H4M8WFJEgOGVXpH_oLMkGHlA" rel=3D"" style=3D"color: #=
+1a1a1a; text-decoration: underline;">Zero Knowledge</a>, </em>which I co-wr=
+ote with <a href=3D"https://email.mg2.substack.com/c/eJxFUM2OhCAMfprhaKSCyo=
+HDXvY1DEJ12EEwUHfi2y-Oh02aNs2X9vuxhnBN-dR7KsSuNtG5o474LgGJMLOjYJ6807yHsZNCM=
+aeF46McmS_TkhE344OmfCDbjzl4a8in-LloW5DsqXvOTS-VkwuKYbbLotwgO64ArAKFw81rDucx=
+WtT4i_lMEVnQT6K9PLqvB3zXore_FDU2bXX78SHk9YiXRq-hBWgFFxwkcNV0jRSjlWMP0poenTQ=
+P0W4rNOWYCxn7up6wrGOiOWUf1wq_nmbD8AGqkanO7YiezgmjmQO62yPdUX1cTytGzDVCNxmqAQ=
+mlRDv00Mn29lRDkFWZAiFZZXapXsV_0j_EeYED" rel=3D"" style=3D"color: #1a1a1a; t=
+ext-decoration: underline;">Jill Gunter</a>, we described its value proposi=
+tion and approach:&nbsp;</p><div class=3D"captioned-image-container-static"=
+ style=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-ali=
+gn: center;"><figure style=3D"display: inline-block; margin: 0 auto; width:=
+ 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em=
+ 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"l=
+eft" class=3D"content" width=3D"758" style=3D"text-align: center;"><a class=
+=3D"image-link" target=3D"_blank" href=3D"https://email.mg2.substack.com/c/=
+eJxVUtuO3CAM_ZrhLRHhzgMPq0r9jYiLJ4MmgSyQ3U6_vkxSqaqEbGPr-Fg-9rbBksvL7Lk29DZ=
+ze-1gEnzXFVqDgo4KZY7BTIIoyplGwbAwKa5QrPO9AGw2rqaVA9B-uDV622JOJwJjwtHD0CAxls=
+5jLyiXxMlgtXNMae5C8AxfvPYIEZIHA19QXjkBWs2jtb3e6MeN_OzPhzTWw9Vm_XP0eeupuNkFu=
+r9D84-3721avpEfn1dAP5acQ__f13kveSlQa_yCnq8NYO-Ii4LwNwl_03TjDv-EXi8DYO6cV2xw=
+1tKBUQmD5pMabHCUOJBSKzZWOtrN_s7Jftdrrt7j2sUZnkPWM6R3ge9K24FpSQaGhR60cNPgPBX=
+cEaEE6Fly9YtoPe5pQdEQTAhmE5s6ftIjHTlTnitBuLcCArc3hreF_LcZVEzKzeUS09LLz4fdYD=
+0Lfay5--1Isb1mSNatEC712nUEp57zAglKP44w29alZ1ozLAWh_K9aXV7eJ9OEcdSZQ-6o9I_0D=
+1eHwrI" rel=3D"" style=3D"align-items: center; border: none; display: block=
+; flex-direction: column; height: auto; margin: 0; padding: 0; text-decorat=
+ion: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://=
+bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/imag=
+es/3f60f89a-4972-4069-96b1-bc365b2686e9_758x299.png&quot;,&quot;fullscreen&=
+quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:299,&quot;width&qu=
+ot;:758,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;=
+:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;=
+:null}" alt=3D"" title=3D"" width=3D"550" height=3D"216.95250659630608" cla=
+ss=3D"wide-image" src=3D"https://cdn.substack.com/image/fetch/w_1516,c_limi=
+t,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-=
+baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3f60f89a-4=
+972-4069-96b1-bc365b2686e9_758x299.png" style=3D"-ms-interpolation-mode: bi=
+cubic; border: none !important; display: block; height: auto; margin: 0 aut=
+o; margin-bottom: 0; max-width: 100% !important; vertical-align: middle; wi=
+dth: auto !important;"></a></td><td style=3D"text-align: center;"></td></tr=
+></tbody></table><figcaption class=3D"image-caption" style=3D"color: #76767=
+6; font-family: sans-serif; font-size: 14px; font-weight: 300; line-height:=
+ 1.4em; text-align: center;"><em>Zero Knowledge, June 2021&nbsp;</em></figc=
+aption></figure></div><p style=3D"color: #1a1a1a; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 1em 0;">The ideas underlying Evervault aren&#8217;t =
+new. Public-key cryptography traces back to the 1970s with Ralph Merkle&#82=
+17;s (yes, Merkle of Merkle Tree fame) 1974 paper <em><a href=3D"https://em=
+ail.mg2.substack.com/c/eJxFkM2ugyAQRp-mLI2OoLBg0c1d9w0MwlRJEQw_19inv7QubkKY=
+hMlw5jtaZVxCPOUeUiafa8rnjtLjkRzmjJGUhHGyRnYD8J5RQYykpuOME5umZ0TclHUyx4JkL7O=
+zWmUb_HeibYGRVRrsewV6xvkJfBjEKEYYzahG3g1aDfziqmIseo0SfzGewSNxcs15T7f-foOfeo=
+7jaDaML4eNDlt96MRIa3mU99thuqfHh59WNM1unsRKaAFa2tEOGHSi6RtGuWZ8AFaxaJi60XZbo=
+EllTlnp1-dbEqUPeQ7R-qW2X6va0H0bNd1U61a8zeeEXs0OzRU8X_6-KqYFPcbq1UwqV2tUCNqO=
+A_SsvYJWM6xuJoAyUskm1Cn_D_0DaBSHqQ" rel=3D"" style=3D"color: #1a1a1a; text-=
+decoration: underline;">Secure Communications Over Insecure Channels</a></e=
+m>. Since Satoshi published the <a href=3D"https://email.mg2.substack.com/c=
+/eJxNUEFuxCAMfM1yjMCBNBw49NJvIIKdLGoCEXFa5felm0MrWbbs0Wg8EwPTUurl9nKw-G2er5=
+1cpu9jJWaq4jyo-oRODTD2RluBTqMazSjS4edKtIW0Oq4nif2c1hQDp5JfDCnBiKfTEUhGjbYHi=
+Wq27T4jaqlxJmvVcOuGExPlSI6-qF4lk1jdk3k_Hv37Az5aTYljSbkrdfm37TiL5EACSK20AgPK=
+dn1n9BjNOICJYSA04aHltkB3nNPBIX52sWyiulx4KjXlpcGfz7DR-gKaEd_mdubEl6ccppXw9sh=
+3VC_XfqFMtUWIPnALSFur5dsAvZG3pxaCaZ9Z0EY0ZSyNlf9EfwBwW4CP" rel=3D"" style=
+=3D"color: #1a1a1a; text-decoration: underline;">Bitcoin Whitepaper</a> in =
+2008, so much money and talent has flooded the historically wonky academic =
+field of cryptography that cryptographers are solving very hard problems fa=
+ster than ever before. Cryptography is somehow cool.&nbsp;</p><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">And =
+yet&#8230; there were a record number of data breaches in 2021. Big compani=
+es are still storing data in plaintext. Companies spend billions of dollars=
+ becoming PCI-, HIPAA-, ISO-, SOC2-, GDPR-, and CCPA-compliant, while leavi=
+ng big honeypots of user data in their databases.&nbsp;</p><p style=3D"colo=
+r: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">That&#8=
+217;s what Evervault wants to fix. Its <a href=3D"https://email.mg2.substac=
+k.com/c/eJxFUEGOwyAMfE05RoFACgcOe-k3EAQnRSUQgekqv1_aHFaybFmj8XhmsQhbLqc-ckX=
+yaQbPA3SC3xoBEQppFYoJXtOZyUlwRbzmnkohSahmLQC7DVFjaUCO5mJYLIacvoxxZII89Tyvq2=
+LU-XWSk1OCeioklauaV-rl3V26tvkAaQENbyhnTkCifiIe9Tb93Nij1wd42xZxWPLedxfz1sduU=
+1ihYiZBs5GxkVNOmWBUDdMguFyEnJlY7Axe2Bsf940NtbmKdnl9LpGiU0aXS0hbh19Pu0P8At2P=
+6XNvKeBpIFkXwV9W8Ursa95skKD0JL2x2HPiSvHxPrNJjJe1noXonynGBenKPndW-hf9AyxRgyQ=
+" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Encryption=
+ Manifesto</a> is very clear:</p><blockquote style=3D"border-left: 4px soli=
+d #67bdfc; margin: 1em 0;"><h4 style=3D"-moz-osx-font-smoothing: antialiase=
+d; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Co=
+mpact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helv=
+etica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI =
+Symbol'; font-size: 1.125em; font-weight: bold; line-height: 1.16em; margin=
+: 1em 0 0.625em 0; margin-left: 1em;"><strong>Evervault is building encrypt=
+ion infrastructure for developers. Our mission is to encrypt the web. Our g=
+oal is to end data breaches.</strong></h4></blockquote><p style=3D"color: #=
+1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Evervault i=
+s making two big bets:&nbsp;</p><ol style=3D"margin-top: 0;"><li style=3D"m=
+argin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p =
+style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; mar=
+gin-bottom: 0;"><strong>Centralized control of private keys in trusted, sec=
+ure environments will remain important.</strong> Even once everything is de=
+centralized, you&#8217;ll still need a safe place to store your seed phrase=
+ or private keys.&nbsp;</p></li><li style=3D"margin-bottom: 4px; margin-lef=
+t: 8px; margin-right: 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; font=
+-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>Abstr=
+acting and simplifying the process of encryption for developers is the righ=
+t approach to encrypt the web.</strong> This is the classic API playbook &#=
+8211; like Twilio did for telecom, AWS did for servers, and Stripe did for =
+payments, Evervault wants to make it extremely simple for &#8220;developers=
+ [to] build encrypted apps where data is encrypted at all times, and can st=
+ill be processed.&#8221;</p></li></ol><p style=3D"color: #1a1a1a; font-size=
+: 16px; line-height: 26px; margin: 0 0 1em 0;"><strong>Most people care abo=
+ut data privacy, but not enough to actually do anything about it.</strong> =
+Certainly, <strong>all else equal</strong>, users would rather have their d=
+ata be more private than less. <strong>All else equal</strong>, companies a=
+nd developers would rather build encrypted products that allow them to proc=
+ess data without storing it.&nbsp;</p><p style=3D"color: #1a1a1a; font-size=
+: 16px; line-height: 26px; margin: 0 0 1em 0;">So <strong>Evervault needs t=
+o make all else equal</strong>. They need to:&nbsp;</p><ol style=3D"margin-=
+top: 0;"><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0=
+; margin-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; line-heigh=
+t: 26px; margin: 0; margin-bottom: 0;"><strong>Encrypt the Web&nbsp;</stron=
+g></p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right:=
+ 0; margin-top: 4px;"><p style=3D"color: #1a1a1a; font-size: 16px; line-hei=
+ght: 26px; margin: 0; margin-bottom: 0;"><strong>Without creating friction =
+or slowing down technological advancement</strong></p></li><li style=3D"mar=
+gin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;"><p st=
+yle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margi=
+n-bottom: 0;"><strong>While matching the developer experience of building w=
+ithout encryption.&nbsp;</strong></p></li></ol><p style=3D"color: #1a1a1a; =
+font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Or as Shane put it:=
+ &#8220;We need to build things that are trusted by the <strong>ultimate cy=
+nics on Hacker News</strong> but that are <strong>super simple to use</stro=
+ng>, the best encryption with the best developer experience.&#8221;&nbsp;</=
+p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0=
+ 0 1em 0;">That&#8217;s a lot harder than it sounds, but Evervault seems as=
+ well-positioned as anyone to pull it off. Today, we&#8217;ll cover why, ho=
+w, and what happens if they succeed:&nbsp;</p><ul style=3D"margin-top: 0;">=
+<li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-=
+top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-siz=
+e: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>Shane and=
+ the Irish Mafia</strong></p></li><li style=3D"margin-bottom: 4px; margin-l=
+eft: 8px; margin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p=
+ style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; ma=
+rgin-bottom: 0;"><strong>How Evervault Works&nbsp;</strong></p></li><li sty=
+le=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4p=
+x; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px=
+; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>Opinionated Use =
+Cases</strong></p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; m=
+argin-right: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom=
+: 0;"><strong>The Ultimate Cynics on Hacker News</strong></p></li><li style=
+=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px;=
+ mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; =
+line-height: 26px; margin: 0; margin-bottom: 0;"><strong>Evervault&#8217;s =
+Next Decade</strong></p></li></ul><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0;">This is a lesson in both encrypt=
+ion and company-building. If Evervault succeeds, they&#8217;ll not only mak=
+e the web a safer place, but will wedge themselves into a crucial position =
+in the world&#8217;s tech stack, a place from which both they and third-par=
+ty developers can launch new products only possible in a world of verifiabl=
+y private data.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-=
+height: 26px; margin: 0 0 1em 0;">But first things first, the encryption. W=
+hen it comes to protecting your sensitive personal data, you want someone p=
+reternaturally gifted on your side. Meet <strong>Shane Curran</strong>.</p>=
+<h3 style=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: =
+antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, '=
+Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em=
+; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;"><strong=
+>Shane and the Irish Mafia</strong></h3><p style=3D"color: #1a1a1a; font-si=
+ze: 16px; line-height: 26px; margin: 0 0 1em 0;">Shane Curran was six-years=
+-old when he first installed Linux. He was seven when he started coding in =
+Visual Basic and created a basic web browser that anyone could download onl=
+ine. By age 11, he&#8217;d built peoplez.info, an online database of names =
+and email addresses. And the next year, he built <strong>Libramatic</strong=
+>, a cloud-based library management system that let librarians catalog book=
+s more easily.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-h=
+eight: 26px; margin: 0 0 1em 0;">The Irish Times, which I&#8217;ve learned =
+writes the best headlines, <a href=3D"https://email.mg2.substack.com/c/eJxF=
+kEuOhDAMRE_T2YFCPjRZZDGbuQbKx0A0EFDiNMPtJ90sRrJsy6VSWc8ZhHlPlz72jOTdRrwO0BH=
+OvAIiJFIypDF43fVs4FIo4rXw3SAHEvI4JYDNhFVjKkCOYtfgDIY9fhyUMkkWLZ3yMFHLn1w8je=
+KTtXwa6CCfSirlpjvXFB8gOtDwgnTtEciqF8QjP_jXg33XOs-zDSnkBcMGuXX7Vo-25BAh57q6J=
+cDUwC-4guEFTcea1ZToFsjNGmwy6WrylRG2pmulkJwLEjSjjFHRiY5J1qmWV2VwcuiZdKYHL81D=
+0G1mbS42o3E_71ySdNzR7inEuco_i9lg_QgVwVjnVmLAa4Ro7Ar-poM35A-vcYYIqcL3o8GKVig=
+l6LNnXNKbRsUn62eKCUlqst-rK_6H_gEmAZUW" rel=3D"" style=3D"color: #1a1a1a; te=
+xt-decoration: underline;">titled this one</a>:</p><div class=3D"captioned-=
+image-container-static" style=3D"font-size: 16px; line-height: 26px; margin=
+-bottom: 16px; text-align: center;"><figure style=3D"display: inline-block;=
+ margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" width=3D"100%=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px aut=
+o; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: cente=
+r;"></td><td align=3D"left" class=3D"content" width=3D"613" style=3D"text-a=
+lign: center;"><a class=3D"image-link" target=3D"_blank" href=3D"https://em=
+ail.mg2.substack.com/c/eJxVUsuO5CAM_JrmlijhzSGH0Ur7G5EBdxp1AlkgM9vz9UMnh9VK=
+yDa2ymW57KDikvJr2lOp5G3m-tpxivhVVqwVMzkK5jn4aZRUM8EN8RP3oxaahDLfM-IGYZ1qPpD=
+sh12DgxpSPBHDQAV5TNpoCtRZ4J4xxdygRku9lVpZa6iDixcOHzA6nPAT8ytFJOv0qHUvN_Zxo7=
+_bcz725bClgnv2Lm0tFTZYsPk7Vvd4-9amphv99ecK2MeSkm__-zrvOS0ZSwmf2PKlIu4NcVFQ8=
+SYRb5pm7OGe2Oq5w0FY6zTvLADrOFPYGTHqDrxl1KJSRvO-sB42-E4Rvso1V-tx7eIMzyHLGWoU=
+0hlpO1BUdhwp6wyjukOtPAAalIizHNnfUah-jwsJEx0oHfjIx4YfTc96wbUTWlLhQKIXcOPDttD=
+_NkPyFFO1KYe4tPLzARuuZ6GNNTe_HTHU14wR7Ir-Uq9eR3DqOS8YMbfj8DPUJj03hg9KUiaGS6=
+0mr2iTGcoFacw-NVT8R_oDDBjDkg" rel=3D"" style=3D"align-items: center; border=
+: none; display: block; flex-direction: column; height: auto; margin: 0; pa=
+dding: 0; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;sr=
+c&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.ama=
+zonaws.com/public/images/8e56c96b-a726-4e23-9328-e87daae9e6ee_613x157.png&q=
+uot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&qu=
+ot;:157,&quot;width&quot;:613,&quot;resizeWidth&quot;:null,&quot;bytes&quot=
+;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;=
+:null,&quot;href&quot;:null}" alt=3D"" title=3D"" width=3D"550" height=3D"1=
+40.86460032626428" class=3D"wide-image" src=3D"https://cdn.substack.com/ima=
+ge/fetch/w_1226,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F=
+%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic=
+%2Fimages%2F8e56c96b-a726-4e23-9328-e87daae9e6ee_613x157.png" style=3D"-ms-=
+interpolation-mode: bicubic; border: none !important; display: block; heigh=
+t: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; vert=
+ical-align: middle; width: auto !important;"></a></td><td style=3D"text-ali=
+gn: center;"></td></tr></tbody></table><figcaption class=3D"image-caption" =
+style=3D"color: #767676; font-family: sans-serif; font-size: 14px; font-wei=
+ght: 300; line-height: 1.4em; text-align: center;"><em>The Irish Times</em>=
+</figcaption></figure></div><p style=3D"color: #1a1a1a; font-size: 16px; li=
+ne-height: 26px; margin: 0 0 1em 0;">And here is the Chief Executive (12) i=
+n question:&nbsp;</p><div class=3D"captioned-image-container-static" style=
+=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-align: ce=
+nter;"><figure style=3D"display: inline-block; margin: 0 auto; width: 100%;=
+"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6=
+em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" c=
+lass=3D"content" width=3D"726" style=3D"text-align: center;"><a class=3D"im=
+age-link" target=3D"_blank" href=3D"https://email.mg2.substack.com/c/eJxVUs=
+uu3CAM_ZrJLhHPQBZZXFXqb0QGTAbdBFIg93b69WWSRVUJ2cbW8bF8bKHimvJrPlKp3dss9XXgH=
+PG7bFgr5u4smJfgZjoyzaWYOjcLR7XUXSiLz4g7hG2u-cTuOM0WLNSQ4oUghMnuOQNj1HuluNQe=
+_SQ9s4iTZQrdSL0UNy-cLmC0OOMX5leK2G3zs9ajPPjHg_1sz7o4lNOUCvZzsGlvqbDDis17rPb=
+59q1NTQ_249cd8I81Jdf-fluOnNaMpYQvbPlSEY-GuCmYfJPIN00z5rSf2Oq5RyKNsVr0BoD3gi=
+vsJ0l1D85wZlCpSYuh8AF2-JMifJd7rtbj3sUVXkOWKwQ1EgHK9wT82AtNTQ9UiV6Pkk-jF9YLt=
+ig2_pacDkdcuzAzwhgRVNCGp9PABym0lXpk0sKITsJDkH1l_22my3NM1aQc4trKn0_YcbsKbayl=
+-f2Mob4WjGA2dLd69T6CS89lxYi5HYdboDbpxTQJokbGJbnVavLKNtnEhOwas0sNFf-R_gUk1cM=
+8" rel=3D"" style=3D"align-items: center; border: none; display: block; fle=
+x-direction: column; height: auto; margin: 0; padding: 0; text-decoration: =
+none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucke=
+teer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/a7=
+604a7f-0af6-481b-a174-865396f4cf42_726x531.png&quot;,&quot;fullscreen&quot;=
+:null,&quot;imageSize&quot;:null,&quot;height&quot;:531,&quot;width&quot;:7=
+26,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:&quo=
+t;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null=
+}" alt=3D"" title=3D"" width=3D"550" height=3D"402.27272727272725" class=3D=
+"wide-image" src=3D"https://cdn.substack.com/image/fetch/w_1452,c_limit,f_a=
+uto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-=
+437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa7604a7f-0af6-4=
+81b-a174-865396f4cf42_726x531.png" style=3D"-ms-interpolation-mode: bicubic=
+; border: none !important; display: block; height: auto; margin: 0 auto; ma=
+rgin-bottom: 0; max-width: 100% !important; vertical-align: middle; width: =
+auto !important;"></a></td><td style=3D"text-align: center;"></td></tr></tb=
+ody></table><figcaption class=3D"image-caption" style=3D"color: #767676; fo=
+nt-family: sans-serif; font-size: 14px; font-weight: 300; line-height: 1.4e=
+m; text-align: center;"><em>Silicon Republic</em></figcaption></figure></di=
+v><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0=
+ 0 1em 0;">Librarians actually used Libramatic, and they stored &#8220;all =
+this secret data&#8221; like names and email addresses and passwords in the=
+re, which Shane realized was a little terrifying, because, well, a 12-year-=
+old built that app. A 12-year-old with no particular expertise in data secu=
+rity.&nbsp;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26=
+px; margin: 0 0 1em 0;">So young Shane Curran decided to do what no 12-year=
+-old I&#8217;ve ever met would have decided to do and take up an academic i=
+nterest in <strong>cryptography</strong>. He first entered the BT Young Sci=
+entist competition, the longest-running science competition in the world, t=
+he next year. He lost in 2014, 2015, and again in 2016.&nbsp;</p><p style=
+=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"=
+>In 2017, at the ripe age of sixteen, he entered with a project called <str=
+ong>qCrypt</strong>. As The Irish Times wrote in a piece called <em><a href=
+=3D"https://email.mg2.substack.com/c/eJxFkcFuhSAQRb_mscPICCoLFt30NwzCVEkVDI=
+w1_n157zVpQmCGyeTenOss4ZLybY5UiD2vie4DTcSrbEiEmZ0F8xS8ET2MnZKaeSO9GNXIQpm-M=
+uJuw2Yon8iOc96CsxRSfG20LSi2mg7Aw6jHrxlnFC0iisFJPajaSRDqrWtPHzA6NPiD-U4R2WZW=
+oqM8uo8HfNZzXVcTcigrhR1L49JeP-ezhIil1JLQrTFtablrs6aLW-6fjiInxGgXzDwUvuJ2hLj=
+wO518zn9V5gVdRiqcEqcV-ZLtD3LRgB76QQMLBlqAVgopQIHQTdcoOTo19qCc7dEr-5DtvkBTzr=
+mQdd9PfyybmGhOT5k6_l7tjttrUFFN9d3PGOieqrt5Q_-mSO8wXlynBSPmGpKfLNUIpNayHXroV=
+PumVjGr6kyDVKwq-1S34r_oL-gPo9k" rel=3D"" style=3D"color: #1a1a1a; text-deco=
+ration: underline;">How a Dublin teenager is helping you bring your secrets=
+ to the grave</a></em>, Shane&#8217;s project aimed to answer these questio=
+ns:</p><blockquote style=3D"border-left: 4px solid #67bdfc; margin: 1em 0;"=
+><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 =
+0 1em 0; margin-left: 1em;"><em>If you <strong>have a secret and wish to ke=
+ep it a secret until your death</strong>, how do you <strong>guarantee its =
+cryptographic integrity</strong> until that time, especially with computing=
+ advances that could make today&#8217;s state-of-the-art encryption crackab=
+le? And <strong>how do you enable the secret to be released, but only after=
+ death</strong>?</em></p></blockquote><div class=3D"captioned-image-contain=
+er-static" style=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px=
+; text-align: center;"><figure style=3D"display: inline-block; margin: 0 au=
+to; width: 100%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-paddin=
+g-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td =
+align=3D"left" class=3D"content" width=3D"908" style=3D"text-align: center;=
+"><a class=3D"image-link" target=3D"_blank" href=3D"https://email.mg2.subst=
+ack.com/c/eJxVUsuu3CAM_Zphl4jwSGDB4qpSfyPi4WTQTSAFcm-nX19PsqgqIdvYHB_LB28br=
+Lm8zJFrI28zt9cBJsF33aA1KOSsUOYYzDAyxaXQJBgRBiUViXVeCsBu42ZaOYEcp9uity3mdCEo=
+ZZI8jaDKLd5NXOtlYqNjS_DCMe6AyXEc_M1rzxAheTDwBeWVE5DNPFs76oN_PNhPPD6kvp6uNus=
+_e593TMXdroB-geafb49tWn6wH7_ugH-sOQe8L9t8lLwWqDV-AeZrAzgQcVMw-SaRbxo07vSfgP=
+XSAZXOeSU6Zy3vBJ-g03JQnQ2OMwfTpJXoK-_tbv_kZL_rPRf2uHdxhdeQ9QqZhgADg27UMHViW=
+njnqHUd16A8dV4qWGZN1W85yP5IK4mGUcaoGMSA-EH3vJdC4buRSW9HCNI-BN1X9t9mSDEpN5dL=
+TCuWP592h-0q4Fgz-v1Msb1mSNZtEG712v0JLj3nFRIU_Bxhtg2lF1oLOo2MS3qrhfJKnEwzIQk=
+yh4yo9I_0L3HUw_M" rel=3D"" style=3D"align-items: center; border: none; disp=
+lay: block; flex-direction: column; height: auto; margin: 0; padding: 0; te=
+xt-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quo=
+t;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/p=
+ublic/images/29ede12e-69e7-47f3-b0ab-39e8c0bc58ef_908x515.png&quot;,&quot;f=
+ullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:515,&quo=
+t;width&quot;:908,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot=
+;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:null,&quot;=
+href&quot;:null}" alt=3D"" title=3D"" width=3D"550" height=3D"311.949339207=
+04847" class=3D"wide-image" src=3D"https://cdn.substack.com/image/fetch/w_1=
+816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer=
+-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F=
+29ede12e-69e7-47f3-b0ab-39e8c0bc58ef_908x515.png" style=3D"-ms-interpolatio=
+n-mode: bicubic; border: none !important; display: block; height: auto; mar=
+gin: 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-align: =
+middle; width: auto !important;"></a></td><td style=3D"text-align: center;"=
+></td></tr></tbody></table><figcaption class=3D"image-caption" style=3D"col=
+or: #767676; font-family: sans-serif; font-size: 14px; font-weight: 300; li=
+ne-height: 1.4em; text-align: center;"><em>Shane with the qCrypt Presentati=
+on at Age 16, The Irish Times</em></figcaption></figure></div><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">The =
+fourth time was a charm. Shane won the competition.&nbsp;</p><div class=3D"=
+captioned-image-container-static" style=3D"font-size: 16px; line-height: 26=
+px; margin-bottom: 16px; text-align: center;"><figure style=3D"display: inl=
+ine-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper" wid=
+th=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"margi=
+n: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"text-al=
+ign: center;"></td><td align=3D"left" class=3D"content" width=3D"965" style=
+=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=3D"=
+https://email.mg2.substack.com/c/eJxVUsuOpDAM_JrmBgp5QHLgMFppfwM5iZuOGhI2CT=
+Pb8_XjhsNqpch2bJXLctlBxSXl17SnUpu3metrxyniV1mxVszNUTDPwU_9wLVQ0jR-kr7XSjehz=
+PeMuEFYp5oPbPbDrsFBDSmeCMa4ah7TgKMB55geTT9qfzdKgxKKe-Cj7S2_eOHwAaPDCT8xv1LE=
+Zp0ete7lJj5u_Dc952NXDlsquGfn0kapsMGC5O9Y3ePtqU1NN_7rzxWIjyUlT__7Ou85LRlLCZ9=
+I-VIRd0JcFFy9SdSbhow93BOpnltkylqnZWsBRCvFiK1RvW7BW8EtjqPRsiuigw2-U4Svcs1FPa=
+5dnOE5ZDlD3TsGwvJWSjNQP8lbg0612EvhRoeS3dlsBvVXMN3tcWnCxBnnTPayJ3xvOtEpqZ3SA=
+1cOBvQKbpJtC_9vM02eYqo25RAXKj8fsOF6Fmismfx2xFBfM0awK_pLvXodwannvGDETMfhZ6gk=
+vTRGsnHgQrFLLZJX0WSGS9UQs0-Eiv9IfwD3QcKa" rel=3D"" style=3D"align-items: ce=
+nter; border: none; display: block; flex-direction: column; height: auto; m=
+argin: 0; padding: 0; text-decoration: none; width: auto;"><img data-attrs=
+=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32b=
+e77984.s3.amazonaws.com/public/images/81c0a3b2-4496-4342-9ec5-e143c7ce40f0_=
+965x308.png&quot;,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&q=
+uot;height&quot;:308,&quot;width&quot;:965,&quot;resizeWidth&quot;:null,&qu=
+ot;bytes&quot;:null,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&qu=
+ot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" title=3D"" width=3D"550=
+" height=3D"175.5440414507772" class=3D"wide-image" src=3D"https://cdn.subs=
+tack.com/image/fetch/w_1930,c_limit,f_auto,q_auto:good,fl_progressive:steep=
+/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.=
+com%2Fpublic%2Fimages%2F81c0a3b2-4496-4342-9ec5-e143c7ce40f0_965x308.png" s=
+tyle=3D"-ms-interpolation-mode: bicubic; border: none !important; display: =
+block; height: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !imp=
+ortant; vertical-align: middle; width: auto !important;"></a></td><td style=
+=3D"text-align: center;"></td></tr></tbody></table><figcaption class=3D"ima=
+ge-caption" style=3D"color: #767676; font-family: sans-serif; font-size: 14=
+px; font-weight: 300; line-height: 1.4em; text-align: center;"><em>Shane Wi=
+ns BT Young Scientist 2017, IrishTimes</em></figcaption></figure></div><div=
+ style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background: #e5=
+e5e5; border: none; height: 1px; margin: 25.6px 0; padding: 0;"></div><h4 s=
+tyle=3D"-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antia=
+liased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, B=
+linkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple=
+ Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.125em; fon=
+t-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;">To learn whi=
+ch other Irish entrepreneur was named BT Young Scientist, how Evervault wor=
+ks, what the Hacker News cynics have to say about it, and how Evervault mig=
+ht build Cloudflare for the encrypted web&#8230;</h4><p class=3D"button-wra=
+pper" data-attrs=3D"{&quot;url&quot;:&quot;https://www.notboring.co/p/everv=
+ault-encrypt-everything?token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NTI=
+wMjkyNDUsImlhdCI6MTY0OTk0MDc2MSwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZW=
+FjdGlvbiJ9.oRv8ZTi-8k2c493ZZEz_kOP6bQva4SsYQGnQgLtYXiU&quot;,&quot;text&quo=
+t;:&quot;Continue Reading Online&quot;,&quot;action&quot;:null,&quot;class&=
+quot;:null}" style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; m=
+argin: 0 0 1em 0; text-align: center;"><a class=3D"button primary" href=3D"=
+https://email.mg2.substack.com/c/eJxFklGPojAQxz-NvC2hpWXhgYfLunpsFj1v0VNfSG=
+kHrUBLoMjhp9-qyV3SdpLpf_7TzK-cGTjpbopb3RvnfuRmaiFWMPY1GAOdM_TQ5VLEKMChT0nki=
+JgIFNLQkX1edgANk3VsugGcdihqyZmRWj0qPA9T5xz7pdWXASoKxhhFZQHwikSABSG4xFA--7JB=
+SFAcYrhCN2kFTh2fjWn7mf9jhhd2jePoKm0K3Ul1crm2qdbuu_7Khtq82PJuam28O5izVc38hdE=
+VqJk_h-kDcbyb9riukov-u7okJL1tvfXXKPkyuolF1B7fkmCVJWN6qabVfNsnTX0WNpdmB2-dVV=
+465zi1erZf3ayH5D938jN7H9N5ghJpffydfOTvfm9oOv5ZXMSyvhbyI3L172t4zORLWGFOIv94f=
+L_l1fpXUGyujHz1h81SbU6f5rCXW0fG2MPYI4ggTDGKXN-lJOQ0DDDlLABB2Yx4zQm7_VD0hvHK=
+zqNxuvjffOx1dWYN1I8LSya3sRmUNFMOihU1iCc082T_wJifQEFn_4TImbHESRQR7zXAPvWekCx=
+Val8WYUId21loW6X-N_0GQCbJhw" rel=3D"" style=3D"background-color: #67bdfc; b=
+order: none; border-radius: 4px; box-sizing: border-box; color: #ffffff !im=
+portant; cursor: pointer; display: inline-block; font-family: -apple-system=
+, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Ap=
+ple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; fon=
+t-weight: normal; height: auto; line-height: 20px; margin: 0; opacity: 1; o=
+utline: none; padding: 12px 20px; text-align: center; text-decoration: none=
+ !important; white-space: nowrap;"><span style=3D"color: #ffffff; text-deco=
+ration: none;">Continue Reading Online</span></a></p><div style=3D"font-siz=
+e: 16px; line-height: 26px;"><hr style=3D"background: #e5e5e5; border: none=
+; height: 1px; margin: 25.6px 0; padding: 0;"></div><p style=3D"color: #1a1=
+a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em>Thanks to =
+<a href=3D"https://email.mg2.substack.com/c/eJxFUEtuxCAMPc2wjMLHCSxYdNNrRAT=
+cDJoAETitcvsyM5UqWbasJ_t9vCPcSr3sURqxZ1voOtBm_Gk7EmFlZ8O6xGD5JLQEZViwKnANms=
+W2fFXE5OJuqZ7IjnPdo3cUS35djKMAdrdeg1Gr9lwbaRA8cMfBzDhLRI7z-OZ1Z4iYPVr8xnqVj=
+Gy3d6Kj3eTHTXz2op_4VDT4kvoWXPK-1BT9g0sWrRiFGBVXXIDgZpADKO1BTwK8mzCAu6kxbWJo=
+59rI-cfzDas2F1pLjXnr8OPuEu4voFtZ-kxnjnQtmN26Y3i7pHdYL9_LhhlrDzEsjnpEyhg1zpO=
+Q8OeqxwBdmREKWGcOpV_lf9JfNx6BAA" rel=3D"" style=3D"color: #1a1a1a; text-dec=
+oration: underline;">Dan</a> for editing, and to Shane and the Evervault te=
+am for working with me!</em> </p><div style=3D"font-size: 16px; line-height=
+: 26px;"><hr style=3D"background: #e5e5e5; border: none; height: 1px; margi=
+n: 25.6px 0; padding: 0;"></div><p style=3D"color: #1a1a1a; font-size: 16px=
+; line-height: 26px; margin: 0 0 1em 0;">If you enjoyed reading about Everv=
+ault and want more, subscribe to Not Boring Founders on <strong><a href=3D"=
+https://email.mg2.substack.com/c/eJxFkE9LxDAQxT9NcyzJJOm2hxzURRBXxD8XTyVNZr=
+th26QkqVo_vXH3IAzzYIbHm_kZnXEMcVNLSJn8tT5vCyqPX2nCnDGSNWHsnVWsgZZL0RGrhGWtb=
+IlL_TEiztpNKscVybIOkzM6u-AvDkpBkpNCSm3HzWB1ayQM2iJ0ugFhEI6MYXfN1at16A0q_MS4=
+BY9kUqecl1TxmwruS4UFfZ2WkN1xq02YyyidwleR5sw-Drefz6-vT1tIjxv_Zt8PU8Xvk6v4fr9=
+swt097l4kvLGD4OwnvdOROAUUgAomGEhgXc1rKcqFbQPS6Aat1JWg8wh1WoeUtTn_hZKofMhDiM=
+6PZX0-6Rmny6J83xedV-_y1qPXw4T2CiZf-V5Q9SN6jIW77XUuVEXXCbprgEt6BVHIyXJZB0KSk=
+mxDcfn_0F_QGZGJ" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underli=
+ne;">Spotify</a> </strong>or&nbsp;<strong><a href=3D"https://email.mg2.subs=
+tack.com/c/eJxFkEuOwyAMhk9TdhMBwWmyYDGbuQYi4KaoCURgZpTbD2krVULGD9m__TlLuKR8=
+6D0VYqcxdOyoI_6VFYkws1owm-C1GOTYg5qY18qLEUYWirllxM2GVVOuyPY6r8FZCik-OziXwO5=
+agb_aGx_4LG8K5l6A4FZMo-u5HdDzl66tPmB0qPEX85EislXfifZy6b8v8qe9PXlnC5XO7vuKnU=
+tbS9byqTQvJvqaUw5xaUHwAuRVSTH1ggUtuZRcCSUktFTXd6BGB-MgwZ17gL0ovi2yK3UuZN3jV=
+GBZt5HviYo_7nbD9Vlox5r2bzUGOgxGO6_oXxzohfNJxiwYMTfM3lhqENU0KX4dZA_vuxsoaJtN=
+UgFryj61rvgR_QdUr4sq" rel=3D"" style=3D"color: #1a1a1a; text-decoration: un=
+derline;">Apple Podcasts</a></strong> to get my interview with Shane tomorr=
+ow. </p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 1em 0;">Thanks for reading, and see you on Monday,</p><p style=3D"=
+color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; marg=
+in-bottom: 0;">Packy</p></div></div><table cellpadding=3D"0" cellspacing=3D=
+"0" class=3D"post-meta big centered custom" style=3D"margin: 0 auto;"><tr><=
+td class=3D"post-meta-item icon" style=3D"color: #767676; font-family: -app=
+le-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-s=
+erif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: =
+14px; height: 18px; line-height: 18px; padding: 0px 12px 0px 0; padding-rig=
+ht: 16px; position: relative; text-decoration: none; text-indent: 3px; vert=
+ical-align: middle; white-space: nowrap;"><span class=3D"post-meta-icon"><a=
+ href=3D"https://email.mg2.substack.com/c/eJxFUtuOozAM_ZrytghCwsADD6OOGFFNq=
+Wa3nV5eUEhMm3IJglAKX79uK-1Kka3Y8jnWORbcwFl3U9Tq3liPkJmphaiBsa_AGOisoYcuUzJy=
+fRJ4jIaWjKh0AxZYqs-KDqDmqopMN4DVDnmlBDdKN88JxyHMukQ-jjJZyFx4BQ0K4gYho65fUAE=
+FvCHQk5cPUkEjIIIbdJNuwKqiizFtv_DeFyTGN46j3WiT6041Z1toLPFWYby5GB4gmJ7r_OqAi8=
+caCy82ugTMHzCtXEF-pgOpyuSq7-k1oet552z-jEp8hrOMw_a0TPx0m4zrazmlH7s-aVbVcZ86f=
+B8OOKNoS8pEjYrvY-eF8c022-8xnY_3r-WqFd5abdRqlPvErLfviLNTWJ_x_6hPp318lZ_VLVer=
+0BbsYHanpTrWwTI-UP1VzeoS6-CUzZcReX6O-pzuvOT3XVsqIg4hDnWpSxhxQ9uzGQ0EC1BZwX2=
+QjC-oU5-J3Q95b7goUZ_a6qJ_emG7vPAaqmcDncow10OjzJRBw_MK5MtE87qFp47ZGRro8EZkxg=
+1eAA1D6rz5xGPOyzR0meFmIaHMQmapcar5T_oXlWLODA" class=3D"like-button button p=
+ost-meta-button" style=3D"background-color: transparent; border: 1px solid =
+#e0ecf6; border-radius: 4px; box-sizing: border-box; color: #666; cursor: p=
+ointer; display: block; font-family: -apple-system, BlinkMacSystemFont, 'Se=
+goe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe =
+UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; height:=
+ auto; line-height: 15px; margin: 0; opacity: 1; outline: none; padding: 10=
+px 16px; text-align: center; text-decoration: none; white-space: nowrap;"><=
+img src=3D"https://cdn.substack.com/image/fetch/w_28,c_scale,f_png,q_auto:g=
+ood,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FHeartIconRound=
+ed%3Fv%3D3%26height%3D28%26fill%3D%2523757575%26stroke%3D%2523757575%26stro=
+keWidth%3D2" width=3D"14" height=3D"14" style=3D"border: none !important; d=
+isplay: inline-block; float: left; height: 14px; margin-right: 4px; max-wid=
+th: 14px; vertical-align: top; width: auto;" alt=3D""><span class=3D"like-c=
+ount">Like</span></a></span></td><td class=3D"post-meta-item icon" style=3D=
+"color: #767676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI'=
+, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Symbol'; font-size: 14px; height: 18px; line-height: 18px; pa=
+dding: 0px 12px 0px 0; padding-right: 16px; position: relative; text-decora=
+tion: none; text-indent: 3px; vertical-align: middle; white-space: nowrap;"=
+><a href=3D"https://email.mg2.substack.com/c/eJxFUsuSojAU_RrZNZWEhIYFi6m2de=
+hqdXpaHXVDheSqEUgoCDL49R10HlV5VN3HOck9R3ALJ9MMSW1a641HZocaEg19W4K10HhdC02mZ=
+IJDEgWMxp5MqMQRizzVZscGoOKqTGzTgVd3eakEt8roewdChHnnJCchjzA-ivhIMBWBIJQgFGOS=
+i2cWu5I7L--kAi0ggSs0g9HglcnZ2rqdBN8mZOZW3_e-NjY3jdInXxgXqt0e66-8K-2Ta2-G2t0=
+jgj27KpcWpqpAWwczs6YAPQmmMLxhQbbDjpRFejG_l5eULm4btPrslZjHNzmL68NLGi7Xab-4FM=
+NyumnTqjxLF1us92i1LtBiKsjC1fPd8uYwlPi-Ve_r134xTXGqHE6wVff4iPeCh8Ov2UXOy2uu3=
+mLf_LxGh7V6igoiaBwcDq-3rFj9CPOPK6ef7f5jrj9O73a_U5sJCTtbZa3pGgHu7W2Xt5aL4k-8=
+Aqm6avzTKIOnEoIIQRRTTBjBsR_4jEaCRSFhgocgGZ9QVJ2I_xfHzbHymuTfXF26OPMKynvCKZq=
+NA-y0skMGmuclyIfY9uGZO292Ag2N85LMuHVOoXFM0XNIAoYe4jo3MPeymFDmOWZpXJf-T_oF4k=
+7cOw" class=3D"post-meta-button button" style=3D"background-color: transpar=
+ent; border: 1px solid #e0ecf6; border-radius: 4px; box-sizing: border-box;=
+ color: #666; cursor: pointer; display: block; font-family: -apple-system, =
+BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Appl=
+e Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-=
+weight: normal; height: auto; line-height: 15px; margin: 0; opacity: 1; out=
+line: none; padding: 10px 16px; text-align: center; text-decoration: none; =
+white-space: nowrap;"><img src=3D"https://cdn.substack.com/image/fetch/w_28=
+,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%=
+2Ficon%2FCommentIconRounded%3Fv%3D3%26height%3D28%26fill%3D%2523757575%26st=
+roke%3D%2523757575%26strokeWidth%3D2" width=3D"14" height=3D"14" style=3D"b=
+order: none !important; display: inline-block; float: left; height: 14px; m=
+argin-right: 4px; max-width: 14px; vertical-align: top; width: auto;" alt=
+=3D"Comment" class=3D"comment-icon post-meta-icon"><span class=3D"meta-butt=
+on-label">Comment</span></a></td><td class=3D"post-meta-item icon" style=3D=
+"color: #767676; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI'=
+, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoj=
+i', 'Segoe UI Symbol'; font-size: 14px; height: 18px; line-height: 18px; ma=
+rgin-right: 0; padding: 0px 12px 0px 0; padding-right: 0; position: relativ=
+e; text-decoration: none; text-indent: 3px; vertical-align: middle; white-s=
+pace: nowrap;"><span><a href=3D"https://email.mg2.substack.com/c/eJxNklvPoj=
+AQhn8N3C0phSK94MLsxqzGQ1y_z8PekNqOUoGWlCLir9-ie0p6yDyd6bTvDGcWrtoMWaNb649Lb=
+ocGMgV9W4G1YPyuBZNLkYUJTiMSU19ksQhTkvqyzS8GoGayyqzpwG-6cyU5s1KrVwRCmPhFhiCk=
+IZsgRGiKMLtcEspoKC6CxkkahvSdl3VCguKQwR3MoBX4VVZY27ReNPXwzI2-7wOl7Vkbqa4B1w4=
+1bo7-d9ZV9osLN0Pj9vEGWzgvL5p1ts5b3RkOXvSt7c6tZbz0cDLyGoTsasdfn_gNuVYWlB29C2=
+bAUcbHL_0HrC5htGFYhBzvhyOuyvlNP9a3ebx6fqLNrpfsMENvtiWbj22_fp4ey6-LhkcruZGLX=
+hzmdvUx7Ve3T-n409kvfo7WaHlcVKfDGrED7eYKBfB9lizSj59kt13tjttZ8dDV8jbdlz-Wttnt=
+7_WxON02-8nzUvoywwhjFIdxiAkOaRAFJE45SRNMOEtAEObFqL7i4I8YTsraN9lfad1xWbAaqte=
+BK6qTpK47Je2Qg2LnCsS73vbdNi_x8isoMK6dRM6sa5aY0hhNEhwR9K6vawjiXkZxTHyXWWgXpf=
+4l_QX9sN3h" class=3D"button post-meta-button" style=3D"background-color: tr=
+ansparent; border: 1px solid #e0ecf6; border-radius: 4px; box-sizing: borde=
+r-box; color: #666; cursor: pointer; display: block; font-family: -apple-sy=
+stem, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,=
+ 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px;=
+ font-weight: normal; height: auto; line-height: 15px; margin: 0; opacity: =
+1; outline: none; padding: 10px 16px; text-align: center; text-decoration: =
+none; white-space: nowrap;"><img src=3D"https://cdn.substack.com/image/fetc=
+h/w_32,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstac=
+k.com%2Ficon%2FRecommendIconRounded%3Fv%3D2%26height%3D32%26fill%3D%2523757=
+575%26stroke%3Dnone%26strokeWidth%3D2" width=3D"16" height=3D"16" style=3D"=
+border: none !important; display: inline-block; float: left; height: 16px; =
+margin-right: 4px; max-width: 550px; vertical-align: top; width: 16px;" alt=
+=3D"Share" class=3D"recommend-icon post-meta-icon"><span class=3D"meta-butt=
+on-label">Share</span></a></span></td></tr></table><div class=3D"container-=
+border" style=3D"border-top: 1px solid #e0ecf6; box-sizing: border-box; fon=
+t-size: 16px; line-height: 26px; margin: 32px 0 0; width: 100%;"></div><div=
+ class=3D"post-cta" style=3D"font-size: 16px; line-height: 26px; margin: 24=
+px 0 40px;"><p style=3D"font-size: 16px; font-style: italic; line-height: 2=
+6px; margin: 24px 0 0; margin-top: 0;"><span>If you liked this post from <a=
+ href=3D"https://email.mg2.substack.com/c/eJxFkMGOhSAMRb_msTSIlKcLFrOZ3zAI1=
+UdGwUAd499P55nMJA1NaG5vz_WOcMnlsnuuJH6fka4dbcKzrkiERRwVyxiDbY3qO9CDCFaHtode=
+xDrOBXFzcbVUDhT7Ma3RO4o5vRVSKhAva_xg5k72YGbDC4YZwD1DMCB9mKXD29cdIWLyaPEby5U=
+TitW-iPb66D4e6pPrPM8mZZpyiWlpfOYvEa2SSknd6laBaoema0D3HnqjwDuDAdxDy21RTT2mSs=
+5_sXATxf4t4vHXy224vgeMMHLfjhTpGjG5acVw09Ed0pt3XDBh4fDC6IijYSotn0Z1IG8axge-b=
+FAaBDuHzKr0b_oDVhJ-ZQ">Not Boring by Packy McCormick</a>, why not share it?=
+</span></p><p class=3D"cta-box" style=3D"font-size: 16px; font-style: itali=
+c; line-height: 26px; margin: 24px 0 0; text-align: center;"><a role=3D"but=
+ton" href=3D"https://email.mg2.substack.com/c/eJxFUduupCAQ_Bp5W6MteHng4SQn8=
+xumhR4lR9Fgcyb-_bYzyW4CdKjuoiqFQ6Z5T5c99pPVfYx8HWQjvc6VmCmpfFIag7d1C31j9KC8=
+1b7uTa_COT4T0YZhtZwyqSNPa3DIYY9vRlWBUYsdKphAI2HX9WbonvRsADrvDExTN9X00cXsA0V=
+Hln4pXXsktdqF-TiL5quAh6zX61XGnac9hTiXbhfokH3P_2Je-Y_Q03VIvV_gRaaK5pF5GzfyIW=
+9F8_02W0B7gw63A8McBXaMAqK7ncv1XDCRChYqgErXugYD9VA2pdG9M30LxmFL3mChq22G8szTy=
+eh-xNOmkv3nUdo_C260vhuSzih1yzHwNVLEaSX_CY4_-b_djTNFSvIvfkSW1PUw6KproTHVJyhJ=
+1oizAbRRoux3YcX_on8BrLKfmA" class=3D"button primary twitter-link" style=3D"=
+background-color: #67bdfc; border: 0px solid #67bdfc; border-radius: 4px; b=
+order-width: 13px 20px 13px 18px; box-sizing: content-box; color: #ffffff !=
+important; cursor: pointer; display: inline-block; font-family: -apple-syst=
+em, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, '=
+Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 17px; f=
+ont-style: normal; font-weight: 300; height: 24px; line-height: 24px; margi=
+n: 0; opacity: 1; outline: none; padding: 0; text-align: center; text-decor=
+ation: none !important; vertical-align: middle; white-space: nowrap;"><img =
+src=3D"https://cdn.substack.com/image/fetch/w_23.1,c_scale,f_png,q_auto:goo=
+d,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FShareIcon%3Fv%3D=
+2%26height%3D42%26stroke%3D%2523FFF%26strokeWidth%3D2" width=3D"11.55" heig=
+ht=3D"21" style=3D"border: none !important; display: inline-block; height: =
+21px; margin-right: 8px; max-width: 11.55px; vertical-align: middle; width:=
+ 21px;" alt=3D""><span style=3D"color: #ffffff; text-decoration: none;">Sha=
+re</span></a></p></div> <div class=3D"footer" style=3D"background: #f8f8f8 =
+!important; color: #bcbcbc; font-size: 16px; line-height: 26px; margin-top:=
+ 24px; padding: 32px; text-align: center;"><p class=3D"small" style=3D"colo=
+r: #bcbcbc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Rob=
+oto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', '=
+Segoe UI Symbol'; font-size: 13px; line-height: 26px; margin-bottom: 0; pad=
+ding-bottom: 30px;">&#169; 2022 <span>Packy McCormick</span> <a href=3D"htt=
+ps://email.mg2.substack.com/c/eJxFksFuozAQhp8m3BYZY1N84NAtTUtakpWapGkuyNhD4=
+gAGgSmFp18nkXYly7ZmPPOP_s-CGzg13RS1TW-c65aZqYVIw9hXYAx0ztBDlykZeQEOfUqYIyMi=
+vZCGjuqzogOouaoi0w3gtENeKcGNavStAiFMnXMUFFzyAlFMQDD2UBReIX1MaIixDDihd10-SAV=
+aQATf0E2NBqeKzsa0_cJ_XOClXeM4uroxedMpfXJFY0NcXMXsRaqe5xVkt2kW_tI0JeiFH8O08g=
+TeTwdclcml-VlfEpLOO7T5GJV4YbNcsvb4lATrbTKml3Jax7s-qauztLF0-4U22xKlscCpfc8P6=
+9n2UOJ1r963z2MaJ16ibB9_r67x40s1f32u-uOeVfnnss2fVsy90Gfqbw6Pm8O8-f3n502MY7zj=
+vzwzf6R5U77Habya0esllomjIowwRsQjHqbYY67vUhIKGgaYCh6ApHxBUH3Cbj_kveGitC7UThf=
+9c8WmyzOvobolLI_MnvWglZky0FeH5B2VuRO_2ZWdQENnf4LMuLGcCWMEPQTYp-iOxrKkdjJmmT=
+lWWTa2Sv8X_QvEYMRT" style=3D"color: #bcbcbc;"><span style=3D"color: #bcbcbc=
+; text-decoration: underline;">Unsubscribe</span></a><br>10 City Point, Bro=
+oklyn, NY 11201</p><p class=3D"small powered-by-substack" style=3D"color: #=
+bcbcbc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,=
+ Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Sego=
+e UI Symbol'; font-size: 13px; line-height: 26px; margin-bottom: 0; margin-=
+top: 0; padding-bottom: 0;"><a href=3D"https://email.mg2.substack.com/c/eJx=
+NkMFuhSAQRb9GlgYReLpg0aR5v2EQRh-pgIGhjX9f1DZtMpnFvZncO8dohDWmQ-0xIznXhMcOKs=
+BX3gAREikZ0uSs6iQbesFHYhW33SAG4vK0JACv3aYwFSB7mTdnNLoYrgtKmSAvJYTUA8yD5IIay=
+UFKYeb-YZdZsIVafefqYh0EAwo-IR0xANnUC3HPTf_WsGedXOaM2ny0JvpT6Z8F_ZRjSQaa_v3X=
+bpg8dQ_WFV_1q-CPaGJACFjVJcbzO6cYZYzyjndMsG5s-1bwwYhBMmG0BCt0w6lfWfs_nSQVIs4=
+xubBW--OlPWyXURHUEO9LcHhMEPS8gb3p4A35qjOtECBV-HbSWNHyceT0IVkv6E2j4hO12ci4ID=
+XZxnoV_kK_AVm7lZo" style=3D"color: #bcbcbc; display: inline-block; margin: =
+8px 4px 0; text-decoration: none;"><img alt=3D"Publish on Substack" src=3D"=
+https://cdn.substack.com/image/fetch/w_393,c_limit,f_auto,q_auto:good,fl_pr=
+ogressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-on-subst=
+ack.png" width=3D"196" height=3D"40" style=3D"border: none !important; marg=
+in-top: 3px; max-width: 550px; vertical-align: middle;"></a><a href=3D"http=
+s://email.mg2.substack.com/c/eJxNkd1qwzAMhZ8mvmtw_JPEF74YlL5GUGwtNY3t4Cgbff=
+u56WADIRCSOEefHBAuuTztlndirzTRc0Ob8HtfkQgLO3YsU_C268UotTLMW-W7UY8s7NNnQYwQV=
+kvlQLYd8xocUMjp3OBcaHa3oAfjOAwKJfIBjBmH3pvBS9cNUnj-1oXDB0wOLX5heeaEbLV3om1v=
+5EcjbjX2Y94J3KN1OdYStu2dLzvlgpeCPhR01MjbQXFyEDcIS2rk9TUToTyQQloa0Z_tnAhTHb6=
+eB1w-c67XXuaDKCcWrOBCcNWpTmjRmVa2Wo1Oj73QDnr0GhrF4yLa_6ZYsSnTnMtLRvHHHSKuZ6=
+OSqYoxHinQc8IE84r-DY3e7E8X04IJS_2Jn4AqcWWM4kMvpP6FVKnq6swIpVlV9rlupT_RH6IOn=
+iE" style=3D"color: #bcbcbc; display: inline-block; margin: 8px 4px 0; text=
+-decoration: none;"><img alt=3D"Get the app" src=3D"https://cdn.substack.co=
+m/image/fetch/w_277,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3=
+A%2F%2Fsubstack.com%2Fimg%2Femail%2Fget-the-app.png" width=3D"138" height=
+=3D"40" style=3D"border: none !important; margin-top: 3px; max-width: 550px=
+; vertical-align: middle;"></a></p></div></div></td><td></td></tr></table><=
+img width=3D"1px" height=3D"1px" alt=3D"" src=3D"https://email.mg2.substack=
+=2Ecom/o/eJxFUEmOxCAMfM1wjMABEg68BbG406gT=
+iFhmlN8PkxzmZKvKci3eNtxyufSZayN42Lib=
+DROWgQdjm2aSK8XpImEWlATNA1vFSmI1r4L3vW6lIzm726O3LeZkYtCMUhDkrZmjYVGr9ZIzKSm=
+wl59nBXJxnMoFGPnTNbaHiMmjxm8sV074wOOPAAoKuCBRjw0oZ5yBAKameRJ89WKVILyVGIT94v=
+TYYKrd1Wb9Z_L5IEWn3FwuMW2D_rztgftNDL9mzKOn2C6DybodwxOlPWX0iuWOImGdBVePp3adq=
+BP-1B1bw0KGWsijhvQv9AtdGHF_"></body></html>
+--2a702737503996f53947dfeda9ba0a29bae1af14044f057498666e35ac8d--

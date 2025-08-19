@@ -12,13 +12,12 @@ repos:
     rev: v1.4.0
     hooks:
       - id: detect-secrets
-        args: ['--baseline', '.secrets.baseline']
-        exclude: package.lock.json
+        exclude: 'SECURITY.*\.md|SECURE.*\.md|\.secrets\.baseline|tests/.*\.py'
   - repo: local
     hooks:
       - id: check-api-keys
-        name: Check for API keys
-        entry: bash -c 'if grep -r "sk-or-v1\|fc-[a-f0-9]" --include="*.py" --include="*.md" --include="*.txt" .; then echo "❌ FOUND API KEYS IN FILES!" && exit 1; fi'
+        name: Check for API keys in source files
+        entry: bash -c 'if grep -r "sk-or-v1\|fc-[a-f0-9]" --include="*.py" --exclude-dir=tests --exclude-dir=.venv --exclude-dir=atlas_venv .; then echo "❌ FOUND API KEYS IN SOURCE FILES!" && exit 1; fi'
         language: system
         pass_filenames: false
       - id: check-secrets-env

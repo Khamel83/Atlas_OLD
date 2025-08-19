@@ -1,0 +1,2037 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:aa6:c011:0:b0:191:bcf:3d4e with SMTP id z17csp1002942lko;
+        Tue, 18 Jan 2022 10:00:55 -0800 (PST)
+X-Received: by 2002:adf:b601:: with SMTP id f1mr4356330wre.271.1642528855643;
+        Tue, 18 Jan 2022 10:00:55 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1642528855; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=jydJUdgoiIIDlP/OyC60HqMMPUfAtGoJUsThHRbsEookcZtrWKZ6vUboJ382nZTvus
+         fsxL3I85BJVD2LuY+RRstUd54YsPr7dpZTD2SjLlAaJtEKdtlA12vWZ6t8k1WDA67zeG
+         pTNF2vZJFS/KbIqID0PSETzAZ06G+q5qKAi93GTdRAT8lBApqYc9k/nw9U43wgQKpMrt
+         SFmvmVDBs84yUvFdJImwF/r2fx50nZ39iCaNITKG6ptcVCUvhcKk3DPPVeHzIu3l0SmF
+         hEPd3yTwl1qY+6ZM6b9GDfJ6GLViaqPh6IL4wPlJbQEyDQTjgLp9YAfMQaIaXq7CLu2p
+         JJzg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=KkXQ5cEhaqEcFKeOlA3PK/+dIqq6OsRRsnvrz9aEwJg=;
+        b=ehD0qDAs+G8WzpBVgwt0t07bs5Deo33ehmfBPtgp14qW5fo8CETFycFvfosywk+Ztd
+         Roujq7pehrTREwkYVYjZLUHCWy0COqkEiu4ZKZCfEuVNEj4pIsW8jHNx+R1wWJANQObW
+         Y4prn1lbbLu2XGOaSCev+GY5Q/5eYGyd4SxJ1ruTL5oNaI7Ryp8i0ykj/Eq4qkHI6AoC
+         iB9+nvjrLB39bxNEQ8wobgcLEjLcrY7OzYoWlBms+GNgCeOMUfYnNGuil9GrHxajzoZK
+         0r6ffUAvzcuB/rAlYzGxAzxXn1kdyzOmLiYeui6/oMwyS9QxR7yEijAdGyShjQ9xvmFK
+         nZKg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=6JM+Heif;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id l2sor7666926wry.5.2022.01.18.10.00.55
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 18 Jan 2022 10:00:55 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=6JM+Heif;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=KkXQ5cEhaqEcFKeOlA3PK/+dIqq6OsRRsnvrz9aEwJg=;
+        b=Jbdwz7EyHaxzGJK8JWFux6vYWDVqwN2li0GOU6X7itR7Dax6A1uYyPghfqujK+Hxoy
+         1fFGOHS4odzr4PcmknMm/nGxVLvry/2oCgQ7F5KsmVosrIqv0SlZbUOxQqE2MUnS84Bd
+         pRtYaw1SJ8jiSd26ALMb4d8tUuadQdoXbAdgr8r7zyuKoA9SC6s8C8EFJNHOCMA/+Qa0
+         xefN4QepQYEtIy8HQ9EqPiV0vpxo/Ql0a2FCzUl0Ka9KKpstpWtBmvX7VqK4r+9ubck6
+         /XmOfLQn1ttarbJI4faJs8+LLBzOfbL53QO4ig+5TXbFvDxw+O42nnB0cT7hIkdUEwli
+         WVBg==
+X-Gm-Message-State: AOAM533386hr35W9ToA9EOuFssNdIyuw+gwBczQdO21S0zxpRHFqz8rl
+	294efIUwFt2J0Xew8LPgP/jvOHXy8OlreZ89D61cAExGBSDfE/zr6w==
+X-Received: by 2002:adf:f105:: with SMTP id r5mr14005306wro.422.1642528855297;
+        Tue, 18 Jan 2022 10:00:55 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:a457:0:0:0:0:0 with SMTP id e23csp1293873wra;
+        Tue, 18 Jan 2022 10:00:51 -0800 (PST)
+X-Received: by 2002:a05:620a:2699:: with SMTP id c25mr18446304qkp.473.1642528850884;
+        Tue, 18 Jan 2022 10:00:50 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1642528850; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=Umv3KNDlFtuIIYjokjN/zhfL9hMuzxo7tbxZ3sk64YUNzjf1PJrNZd3F3yfVaU6Q3Q
+         Vk56kD1R+Nm1b5/hlfVE4EtN9dj4GlEgd1C/JfQ/x+S/nTl+B+AAPZMrQylGEZ1iNNWd
+         Kd5j4K6jiIM84i2rv3+5L5DteIdqV4hk2RwXffS1Avs+p1EGMmN72HctmF/aIhVZ9U57
+         VDeVZWQge66AmZV0PsdbloI80xuH3Q1lYwawR+gHs5yoUIWBxwxf0MfVBSGkncRbP1H5
+         v7qj5lhUSuyKj1pRqSXJv4tb1k4moQjSj9K0tb8g4D7fYHFmLHHquOmesdgz8yurxuxb
+         NLPQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=KkXQ5cEhaqEcFKeOlA3PK/+dIqq6OsRRsnvrz9aEwJg=;
+        b=pB3CONVKmbvWDB2/zsCVHQE96sSRze+p39j/4BovHseBUo+Kqeoc392C8htqNeOCHa
+         Wf77FMrk+Gy1idAoYiOAEi54CBxk6kr0x4yMYoFSpg42mhdPtZCRBpC+cAUF8zrj/eyE
+         T/qRE08yBeulCUjwjf15rqs35l61R3uDX2juPBEUEjJguHRvyih61ujmcj/C9sjvcL3C
+         WNgyoPHgurHwc7o9BP6tXvhCQXrEqeO0eouZ2MUG8djUapV/FtXgbBOhP8El/7K8BA+W
+         jPbyO3Nqy5ZE6k/nZ/IBTuiObCafBQcW6SXDDzf9dRvLGOVB7Ur2yZbAWSk9JIYqP5kG
+         R2Gg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=6JM+Heif;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20220118125954.26404004.266632@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20220118125954.26404004.266632@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220118125954.26404004.266632@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id u10sor7226133qki.55.2022.01.18.10.00.50
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 18 Jan 2022 10:00:50 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20220118125954.26404004.266632@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJwrpUD9WWD0WNUwiJ+ZTUJF9+cCt4sjqUkB9UtCGEFvbSN+K7Qhkm4sk0j/w7tDjr6h7fDMGnJsKvNv21ogiMCj/uShNxo=
+X-Received: by 2002:a67:ce0a:: with SMTP id s10mr9581384vsl.25.1642528850320;
+        Tue, 18 Jan 2022 10:00:50 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1642528850; cv=none;
+        d=google.com; s=arc-20160816;
+        b=A59fR/WGmPrfjovYW6JSzCBr1vazGpFwgyI7nvg1X6CDV1UFu7istY2Q1VNl67BcCB
+         hiq4W2LdHKyeiVimVkBh7rwrNHIC/rbziCatGFFwo7TusI1QiXqZWdj9i1fCAMWZEhjy
+         h0A5Xht/X1zFuFMwGXzjFrmv1U3MXn32gMAc8WkG822tcG3ygwcke1ceUm+FbMKr5/MI
+         KueCYFXLPW/8zsUtYOKtT1fzyVaZELhuRJ422dsHaaB17PrKpgqpJEjZklAmSJC8639a
+         9OJYkZ67noUv47FL6KU/uwgq6NgedpI4jxX+X7DdBTU7ZOgsyawKZXdIxIE52phQAJ2S
+         sANw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=KkXQ5cEhaqEcFKeOlA3PK/+dIqq6OsRRsnvrz9aEwJg=;
+        b=pEQafS6R5u9tK+PieuLk/pip6WMhi3G/LBVlXN17Vfb7tcFPvcVlB2nKCwvWTO+cjJ
+         wNeHu3+LduSu6OSsBF0kCBbu+kAoCQT4V3Bk+T4PCHFSG4k5vDCi8r5m1xFUSIXnON89
+         H0jRIXbcExW3tO85XVmRtaxbdMHiCODozJmHCoBXuRCQtCdGvF7fBf7ozCW2d4kZ+xqr
+         W6IHxAst8m19LyQaaxQWqy5mmle5t+gA86cT3Euyw+c2S07uNC8O2iMP9GrJX1CQAvE9
+         +o9DHbPqBoablhVu+s8JSCur+us8ar2xal+g7iyRiQV6uja03tcIX1R0swepNAFdE6Gl
+         M6DA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=6JM+Heif;
+       spf=pass (google.com: domain of delivery_20220118125954.26404004.266632@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20220118125954.26404004.266632@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20220118125954.26404004.266632@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id j10si1010564vsf.2.2022.01.18.10.00.40
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 18 Jan 2022 10:00:50 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20220118125954.26404004.266632@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=M+h7iTzBHjzAU8Rtw18tXLeMsiutJ9yV+u99835dgNQ=;
+ b=6JM+HeifwFQJdzMGE2+iVsNslkpZ5H0XSU0o1KCWYmOJndLk3Tx/aQnykLEXStZihrrl7yQf8UM7
+   +dR7ha6AGKzjtBfOg0mz//5VFgzftSoKPDC0/dtQzfMxlEYc5tLieHHpxVPJeISnvQM5PrCjB4Cc
+   EqDh7dQATwJEalVVDmA=
+Received: from nj2mta-15.sailthru.com (204.153.121.15) by bloomberg-b.sailthru.com id hss04i2tkt0h for <bloomberg@khamel.com>; Tue, 18 Jan 2022 12:59:55 -0500 (envelope-from <delivery_20220118125954.26404004.266632@mx.sailthru.com>)
+Date: Tue, 18 Jan 2022 12:59:54 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20220118125954.26404004.266632@sailthru.com>
+Subject: Money Stuff: BlackRock Still Likes Capitalism
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_55915200_1959450727.1642528794654"
+Precedence: bulk
+X-Feedback-ID: 6358:26404004:campaign:sailthru
+X-TM-ID: 20220118125954.26404004.266632
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-wrylilac.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfpxgk.5pqg/9ad1cbf7
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfpxgk.5pqg/9ad1cbf7>, <mailto:unsubscribe_20220118125954.26404004.266632@mx.sailthru.com>
+X-rpcampaign: stjko26404004
+
+------=_Part_55915200_1959450727.1642528794654
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Larry Fink letterWell this isn=E2=80=99t very helpful: Delivering o=
+n the competing interests of a company=E2=80=99s many divergent stakeholder=
+s is not easy.
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Larry Fink letter
+   =20
+ =20
+Well this=C2=A0isn=E2=80=99t very helpful:Delivering on the competing inter=
+ests of a company=E2=80=99s many divergent stakeholders is not easy. As a C=
+EO, I know this firsthand. In this polarized world, CEOs will invariably ha=
+ve one set of stakeholders demanding that we do one thing, while another se=
+t of stakeholders demand that we do just the opposite.That is why it is mor=
+e important than ever that your company and its management be guided by its=
+ purpose. If you stay true to your company=E2=80=99s purpose and focus on t=
+he long term, while adapting to this new world around us, you will deliver =
+durable returns for shareholders and help realize the power of capitalism f=
+or all.I suppose if you are the chief executive officer of a public company=
+ you will sometimes find yourself in a situation where some of your stakeho=
+lders demand that you do one thing while another set of stakeholders demand=
+ that you do just the opposite. And you might say, well, one of our importa=
+nt stakeholders =E2=80=94=C2=A0not the=C2=A0most=C2=A0important probably, n=
+ot up there with customers or employees, but certainly important =E2=80=94=
+=C2=A0is Larry Fink, who runs BlackRock Inc., which is among our biggest sh=
+areholders, as it is for almost every public company. And so you might call=
+ Larry Fink up and say =E2=80=9Chey Larry I got some people who want me to =
+double down on producing thermal coal and I got some other people who want =
+me to get out of the thermal coal business, what do=C2=A0you=C2=A0think I s=
+hould do?=E2=80=9D And Fink will be like =E2=80=A6=C2=A0=E2=80=9Cstay true =
+to your company=E2=80=99s purpose and focus on the long term=E2=80=9D? Okay=
+? =E2=80=9CLarry, I gotta be honest with you, my company=E2=80=99s purpose =
+is mining thermal coal, that=E2=80=99s just what we do, but the long-term p=
+rospects for thermal coal are not so hot; should I stick to our purpose, fu=
+lfill it, pay out some dividends and disappear, or should I try to pivot in=
+to wind farms?=E2=80=9D I feel like Larry Fink  has a preference here! But =
+he is just one stakeholder among many.Anyway here=E2=80=99s Fink=E2=80=99s =
+annual letter to CEOs, which I quoted above. =E2=80=9CThe Power of Capitali=
+sm=E2=80=9D is the title?=C2=A0I don=E2=80=99t really know who the audience=
+ is here? CEOs? I am not sure how actionable it is, for a CEO. The famous p=
+roblem of stakeholder capitalism, as Fink says,=C2=A0is that while it is=C2=
+=A0relatively=C2=A0easy to figure out what shareholders are supposed to wan=
+t =E2=80=94=C2=A0stocks that go up =E2=80=94=C2=A0it is much harder to figu=
+re out what all your stakeholders want=C2=A0and how to prioritize them. If =
+as a CEO you say =E2=80=9CI work for the shareholders and I do what I can t=
+o make the stock go up,=E2=80=9D then you pretty much know what you have to=
+ do. Memes, is the answer, it turns out:  What you have to do is meme stuff=
+. Crypto, electric vehicles, non-fungible tokens, that sort of thing.=C2=A0=
+I=E2=80=99m sorry! I don=E2=80=99t like it either. But this is a question t=
+hat is subject to empirical analysis. Whereas if you work for the stakehold=
+ers then, you know, which stakeholders and=C2=A0when? Your only guidepost i=
+s to =E2=80=9Cstay true to your company=E2=80=99s focus,=E2=80=9D which doe=
+s not necessarily answer all of your practical questions, though it probabl=
+y=C2=A0will=C2=A0stop you from messing around with NFTs.Presumably the audi=
+ence is really BlackRock=E2=80=99s=C2=A0clients, the people and institution=
+s whose trillions of dollars of retirement savings are managed by BlackRock=
+. One model for Fink=E2=80=99s annual letter is that he has cranked up the =
+environmental, social and governance stuff, in the letters and elsewhere, f=
+or the past few years, because ESG is hot in the investment-management indu=
+stry and talking about it attracts clients. But there are vague rumblings o=
+f a backlash, of clients=C2=A0and politicians worrying that BlackRock is =
+=E2=80=9Ctoo =E2=80=98woke,=E2=80=99=E2=80=9D so he=E2=80=99s dialing it ba=
+ck like 10% in this letter:Stakeholder capitalism is not about politics. It=
+ is not a social or ideological agenda. It is not =E2=80=9Cwoke.=E2=80=9D I=
+t is capitalism, driven by mutually beneficial relationships between you an=
+d the employees, customers, suppliers, and communities your company relies =
+on to prosper. This is the power of capitalism.=C2=A0In today=E2=80=99s glo=
+bally interconnected world, a company must create value for and be valued b=
+y its full range of stakeholders in order to deliver long-term value for it=
+s shareholders. It is through effective stakeholder capitalism that capital=
+ is efficiently allocated, companies achieve durable profitability, and val=
+ue is created and sustained over the long-term. Make no mistake, the fair p=
+ursuit of profit is still what animates markets; and long-term profitabilit=
+y is the measure by which markets will ultimately determine your company=E2=
+=80=99s success.One way to read that passage is =E2=80=9Cwe would still lik=
+e to manage money for Republicans too.=E2=80=9DThis is kind of a boring let=
+ter? There is something odd about the world=E2=80=99s largest=C2=A0sharehol=
+der=C2=A0advocating for stakeholder capitalism, saying to corporate CEOs =
+=E2=80=9Cno,  don=E2=80=99t put shareholders first, prioritize your workers=
+ and customers and communities above shareholder profits.=E2=80=9D But of c=
+ourse he=E2=80=99s not saying that. The point of this year=E2=80=99s letter=
+ is to dispel the idea that he might be saying that. He=E2=80=99s saying th=
+at sometimes having good customer service, paying employees enough to motiv=
+ate them, and not breaking the law can help maximize the long-term value of=
+ a company=E2=80=99s cash flows=C2=A0to shareholders, and so companies shou=
+ld do those things. Their executives should run the company, you know, well=
+, like a business. They should make good choices and not bad ones, so that =
+the business is valuable, for its shareholders, who are Fink=E2=80=99s clie=
+nts. There is nothing here that  Milton Friedman could possibly object to.T=
+here are, in the world, investors who specialize in finding companies that =
+make money but spend it wastefully on businesses with poor long-term prospe=
+cts, buy up shares in those companies and push them to cut that spending an=
+d return cash to shareholders who can put it to better uses. There are, in =
+the world, investors who specialize in finding companies that don=E2=80=99t=
+ make any money but that have bold and achievable long-term dreams, buy up =
+shares in those companies and give them funding to turn those dreams into r=
+eality. There are investors who specialize in some industry and try to pick=
+ which firms in that industry will thrive in the long run and which will fa=
+il. BlackRock is not one of those investors =E2=80=94=C2=A0or, rather, it d=
+oes a bit of all of those things, but as a whole it specializes in (1) find=
+ing all of the companies, (2) buying like 7% of their stock and (3) holding=
+ it forever.[1]=C2=A0=C2=A0And then Fink=C2=A0writes an annual letter to=C2=
+=A0all of them at once. How nuanced can that one letter be? =E2=80=9CTry to=
+ do a good job=E2=80=9D is pretty broadly applicable advice, but beyond tha=
+t situations will differ. Even =E2=80=9Ctry to manage your company for the =
+long term=E2=80=9D and =E2=80=9Cstay true to your company=E2=80=99s purpose=
+,=E2=80=9D generic as they sound, can conflict with each other.Also here=E2=
+=80=99s this:We see a growing interest among shareholders =E2=80=93 includi=
+ng among our own clients =E2=80=93 in the corporate governance of public co=
+mpanies.That is why we are pursuing an initiative to use technology to give=
+ more of our clients the option to have a say in how proxy votes are cast a=
+t companies their money is invested in. We now offer this option to certain=
+ institutional clients, including pension funds that support 60 million peo=
+ple. We are working to expand that universe.We are committed to a future wh=
+ere every investor =E2=80=93 even individual investors =E2=80=93 can have t=
+he option to participate in the proxy voting process if they choose.We know=
+ there are significant regulatory and logistical hurdles to achieving this =
+today, but we believe this could bring more democracy and more voices to ca=
+pitalism. Every investor deserves the right to be heard. We will continue t=
+o pursue innovation and work with other market participants and regulators =
+to help advance this vision toward reality.One way to put it is that right =
+now Larry Fink gets to decide how trillions of dollars=E2=80=99 worth of sh=
+ares are voted at corporate meetings, and he is volunteering to give up tha=
+t power and hand it back to his clients (eventually). Do you think a fully =
+distributed BlackRock, one where each client votes its own shares rather th=
+an delegating that power to Larry Fink, would be as influential as the curr=
+ent actual BlackRock? Would its letters get as much attention?
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Non-precedential comp
+   =20
+ =20
+Traditionally the way pay works at an investment bank is that, at senior le=
+vels, most of your pay is in the form of a variable=C2=A0end-of-year bonus.=
+ If you and your group and your firm all have a good year, you will get a l=
+arge bonus, many multiples of your base salary. If you or your group or you=
+r firm have a bad year, you will get a smaller bonus. If your bonus is zero=
+ =E2=80=94=C2=A0if your only pay for the year is your base salary =E2=80=94=
+=C2=A0then you will feel deeply aggrieved and throw a huge tantrum, and als=
+o odds are you=E2=80=99re getting fired. This is the traditional approach t=
+o things, and it has fallen out of favor a bit since the 2008 financial cri=
+sis, but it is still a useful rough model.The problem here is that variable=
+ compensation has sort of asymmetric effects on happiness and loyalty. If y=
+ou get paid $4 million one year and $5 million the next, you will probably =
+be happy both years. You got paid a lot in absolute terms, and your pay wen=
+t up year over year. If in Year 1 you took out an expensive mortgage, in Ye=
+ar 2 you can pay it easily.If you get paid $5 million one year and $4 milli=
+on the next, though, you will be very sad the second year. Your pay went do=
+wn year-over-year, suggesting that your employer either (1) does not apprec=
+iate your efforts or (2) is not in a financial position to reward them appr=
+opriately. Neither is a good sign for your long-term relationship. If in Ye=
+ar 1 you took out an expensive mortgage, in Year 2 finances will feel a bit=
+ tight. =E2=80=9CYou knew your pay was completely variable, why did you tak=
+e out an expensive mortgage,=E2=80=9D is perhaps a reasonable question, but=
+ you don=E2=80=99t want to hear it. After all, you keep getting better at y=
+our job; you are more experienced and have deeper client relationships and =
+are more senior and taking on more responsibility. Why should you get paid=
+=C2=A0less=C2=A0this year than last year? =E2=80=9CBecause the bank had a w=
+orse year=E2=80=9D is a fine, correct answer, but it is not emotionally sat=
+isfying. You might quit in a huff.This makes really good years particularly=
+ tricky for a bank. If the bank pays out huge bonuses at the peak of the bo=
+om, then the next year everyone will be disappointed and quit in huffs. (Th=
+ough the poor job market that year might limit the losses.)=C2=A0If it=C2=
+=A0doesn=E2=80=99t=C2=A0do that =E2=80=94=C2=A0if it holds back some money =
+so as not to set expectations too high, and so as to have some more money i=
+n reserve to pay bonuses next year =E2=80=94=C2=A0then everyone will feel u=
+nderpaid versus their competitors at other banks who do pay everything out,=
+ and they=E2=80=99ll quit now for a competitor.=C2=A0There is not really an=
+ easy way around this =E2=80=94 and highly variable compensation is basical=
+ly good for the bank=E2=80=99s financial resilience and for the employees=
+=E2=80=99 incentives =E2=80=94=C2=A0but I suppose one easy-ish way around i=
+t is to pay bankers huge bonuses in really good years, but include a little=
+ note with the huge bonus saying =E2=80=9Cdon=E2=80=99t get used to it.=E2=
+=80=9D The note doesn=E2=80=99t really contain any information they didn=E2=
+=80=99t already know =E2=80=94=C2=A0their pay is variable, a huge payout in=
+ a good year guarantees nothing for next year, don=E2=80=99t take out a mor=
+tgage based on this year=E2=80=99s bonus, etc. =E2=80=94=C2=A0but it=E2=80=
+=99s still worth reminding them.So,  sure:The top 1% at Goldman Sachs Group=
+ Inc. is set to receive a special one-time reward in addition to annual bon=
+uses, recognizing the Wall Street titan=E2=80=99s roaring success through t=
+he pandemic.The unusual payments to partners -- the roughly 400 executives =
+who fill out the investment bank=E2=80=99s highest rung -- will add million=
+s of dollars to many compensation packages, according to people with knowle=
+dge of the matter, who asked not to be identified discussing internal decis=
+ions. That group is already in line for larger payouts that range from a fe=
+w million dollars to multiples of that after a year of record earnings.Gold=
+man=E2=80=99s management, under pressure to fend off increasingly aggressiv=
+e poaching on Wall Street, views the extra boosts as a creative solution th=
+at will come with a warning: Recipients shouldn=E2=80=99t mistake the bumps=
+ as part of a new pay floor, two of the people said. When compensation is s=
+et next year, managers will ignore the one-time payouts when making compari=
+sons.So if you get paid a $1 million salary and a $5 million bonus and a $5=
+ million other bonus for 2021, and then in 2022 you get $7 million, you wil=
+l say =E2=80=9Cwhat the heck, last year I got $11 million and now you are c=
+utting me to $7 million,=E2=80=9D and your boss will say =E2=80=9Cno, last =
+year you got $6 million and now I am raising you to $7 million, congratulat=
+ions.=E2=80=9D And your boss will technically be right even though you=C2=
+=A0did=C2=A0get $11 million last year, because some of it didn=E2=80=99t co=
+unt. And you will grumble a little less because you=C2=A0were=C2=A0warned.M=
+eanwhile in stakeholder capitalism, Goldman  announced earnings this mornin=
+g:Goldman Sachs Group Inc. equities traders posted a decline in the fourth =
+quarter, adding to evidence that the frenzied activity touched off by the p=
+andemic is cooling, even as the bank ratcheted up payouts for employees. Th=
+e company=E2=80=99s shares tumbled.Revenue from the bank=E2=80=99s trading =
+operation slid 7%, missing analysts=E2=80=99 estimates for a small gain. Th=
+e surprise letdown came from its equities business, which declined 11%, acc=
+ording to a statement Tuesday. Despite rounding off their best year ever fo=
+r both revenue and earnings, Goldman executives will need to address invest=
+or concerns that the trading business is on a downward trajectory.Compensat=
+ion and benefits, the single biggest driver of expenses at Goldman, jumped =
+33% to $17.7 billion in 2021, an indication of big rewards for employees af=
+ter a record year. ...The trading boom set off by the market volatility of =
+Covid-19 might be starting to fade, and companies are having to contend wit=
+h higher costs to prevent employees from defecting. That leaves bank leader=
+s with the task of resetting expectations.The classic defense of=C2=A0share=
+holder=C2=A0capitalism goes something like =E2=80=9Cshareholders are the re=
+sidual claimants on the cash flows of the corporation, while every other st=
+akeholder has some contractual relationship with the company, so directors =
+and managers should have fiduciary duties to those residual claimants.=E2=
+=80=9D But anyone who has worked at a bank knows that the shareholders are =
+not the only residual claimants. The employees get their cut too.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Incentives
+   =20
+ =20
+My  general view of the =E2=80=9Crevolving door=E2=80=9D is that it is good=
+ for regulators to get a reputation for being tough in high-profile cases, =
+because that will make them more attractive to the private sector. If you a=
+re a regulator with a reputation for being tough, then:=09Potential private=
+-sector employers will think that you=E2=80=99re a creative hardworking go-=
+getter, because those characteristics tend to correlate=C2=A0with toughness=
+ in regulation.=C2=A0=09Potential private-sector employers will have=C2=A0m=
+ore need to hire ex-regulators, because regulation is tougher so there is m=
+ore work to do to respond to it, and ex-regulators are particularly=C2=A0qu=
+alified to do that work.=09Other employees at your regulator=C2=A0will resp=
+ect your=C2=A0toughness, and so when you go into private practice and advoc=
+ate for a client to those regulators, they will take you seriously and be i=
+nclined to go easier on your clients; private-sector employers understand t=
+his.=09Potential private-sector employers will want to hire you at a high s=
+alary because=C2=A0then you will stop being a regulator, and if you are tou=
+gh on them as a regulator it is worth paying you to stop.=C2=A0Of course yo=
+u can take this too far. If you develop a reputation for being unreasonable=
+ or unprofessional or dishonest in your pursuit of tough regulatory action,=
+ private-sector employers will be less interested in hiring you. Or=C2=A0if=
+ you conduct a perfectly reasonable and  honestly rather gentle investigati=
+on into a hilariously thin-skinned billionaire=C2=A0this might happen:A par=
+tner at law firm Cooley LLP got an unexpected call late last year from a la=
+wyer for one of the firm=E2=80=99s most famous clients, Elon Musk=E2=80=99s=
+ Tesla Inc., with an ultimatum.The world=E2=80=99s richest man wanted Coole=
+y, which was representing Tesla in numerous lawsuits, to fire one of its at=
+torneys or it would lose the electric-vehicle company=E2=80=99s business, p=
+eople familiar with the matter said.The target of Mr. Musk=E2=80=99s ire wa=
+s a former U.S. Securities and Exchange Commission lawyer whom Cooley had h=
+ired for its securities litigation and enforcement practice and who had no =
+involvement in the firm=E2=80=99s work for Tesla. At the SEC, the attorney =
+had interviewed Mr. Musk during the agency=E2=80=99s investigation of the T=
+esla chief executive=E2=80=99s 2018 tweet claiming, wrongly, to have secure=
+d funding to potentially take the electric-vehicle maker private. =E2=80=A6=
+Cooley has declined to fire the attorney, who remains an associate at the f=
+irm, the people said. Since early December, Tesla has begun taking steps in=
+ several cases to replace Cooley or add additional counsel, legal documents=
+ show. Mr. Musk=E2=80=99s rocket company Space Exploration Technologies Cor=
+p., also known as SpaceX, has stopped using Cooley for regulatory work, acc=
+ording to people familiar with the matter.One assumes that Musk was operati=
+ng out of pure emotional grudge here, but I suppose it=E2=80=99s worth aski=
+ng if that phone call was a good strategic move.=C2=A0Of course=C2=A0Cooley=
+ can=E2=80=99t actually fire the associate, which would be disastrous for i=
+ts reputation. But that=E2=80=99s not the goal here. Other law firms that d=
+o a bunch of work with Tesla might have to ask prospective hires, like, =E2=
+=80=9Chey you haven=E2=80=99t done anything to annoy Elon Musk have you?=E2=
+=80=9D And so current government regulators=C2=A0might think =E2=80=9Chmm, =
+I should go easy on Elon Musk so he doesn=E2=80=99t ruin my future career.=
+=E2=80=9DBut, look, if a regulator started an investigation into Elon Musk,=
+ and Musk called her up and said =E2=80=9Cdo you know who I am, I will ruin=
+ your career,=E2=80=9D that would definitely make things=C2=A0worse=C2=A0fo=
+r him, don=E2=80=99t you think? Like she=E2=80=99d tell her bosses and they=
+=E2=80=99d throw the book at him, add charges of interfering with an invest=
+igation, etc. Threatening to ruin a regulator=E2=80=99s career for investig=
+ating you is a very bad look! Of course Musk didn=E2=80=99t do that. Instea=
+d he actually tried to ruin a regulator=E2=80=99s career=C2=A0for investiga=
+ting him. Arguably that=E2=80=99s a smarter move? Like, the Cooley associat=
+e is no longer at the SEC and that investigation is closed, so Musk=E2=80=
+=99s direct risk is lower.And yet =E2=80=A6=C2=A0if you=E2=80=99re at the S=
+EC=C2=A0now, and you=E2=80=99re conducting a different investigation of Tes=
+la, wouldn=E2=80=99t this make you want to be tougher on him? Or if you=E2=
+=80=99re at the Justice Department, or some other government agency? His od=
+ds of actually ruining your career are low; there are a lot of law firms, m=
+ost of them don=E2=80=99t work with Tesla, and Musk didn=E2=80=99t even suc=
+ceed in getting this associate fired. As a matter of regulatory solidarity,=
+ and of punishing Musk for trying to intimidate regulators, wouldn=E2=80=99=
+t you go a bit harder now?
+ =20
+   =20
+      Incentives (2)
+   =20
+ =20
+If you were designing a revolving-door career from first principles it migh=
+t go something like this:=09You work in government and design a program tha=
+t gives=C2=A0people in the private sector nine-figure payouts, but only som=
+etimes, and with a lot of complex qualifications and subjectivity.=09You qu=
+it immediately for the private sector.=09You hang out a shingle advertising=
+ yourself as the only person with the knowledge and connections to get peop=
+le those nine-figure payouts.=09You take a chunk for yourself.This is a goo=
+d trade =E2=80=94=C2=A0build a spigot of government money and plant yoursel=
+f in front of it =E2=80=94=C2=A0but still you could improve it. As I said a=
+bove, it is good for a regulator to develop a reputation for toughness, in =
+part because that will get you continuing respect from the people still in =
+government administering the spigot. And of course spigots of government mo=
+ney are controversial and could be shut off at any time=C2=A0due to budget =
+problems etc. So what you want to do is replace Step 1 above with:=09You wo=
+rk in government and design a program that very toughly takes nine-figure s=
+ums from bad private-sector actors and then gives a share of them to good p=
+rivate-sector actors, but only sometimes and with a lot of complex qualific=
+ations and subjectivity.=09Etc.Anyway here=E2=80=99s Patrick Radden Keefe i=
+n the New Yorker about whistle-blower lawyer Jordan Thomas:Submitting explo=
+sive government filings on behalf of anonymous clients is what Jordan Thoma=
+s does for a living. He is an attorney who represents whistle-blowers. Thom=
+as previously worked at the Securities and Exchange Commission, where he he=
+lped create a new program, implemented in 2011, that encouraged people to r=
+eport corporate malfeasance. The program, developed after the 2008 financia=
+l crisis and the Bernie Madoff scandal, established a substantial monetary =
+incentive for whistle-blowers, by allowing them to share in the proceeds of=
+ successful S.E.C. actions. These awards, which are sometimes referred to a=
+s bounties, can range from ten per cent to thirty per cent of what the erra=
+nt company ends up paying the government. Since its introduction, the progr=
+am has dispersed more than $1.2 billion in awards. In the words of the form=
+er S.E.C. chair Mary Jo White, it has been =E2=80=9Ca game changer.=E2=80=
+=9DJust after Thomas helped introduce this new regime, he left the governme=
+nt and opened a legal practice dedicated to representing whistle-blowers wh=
+o brought cases to the S.E.C. Today, he is perhaps the foremost attorney re=
+presenting such whistle-blowers. =E2=80=A6Because Thomas is often among the=
+ few people who know about the clandestine risks that his clients undertake=
+, and about the secret windfalls they receive, he can occasionally act like=
+ their therapist or priest, giving them the faith to persevere. It helps, o=
+f course, that he is one of the designers of the bureaucratic gantlet they =
+face. =E2=80=9CHe=E2=80=99s the architect of the Matrix,=E2=80=9D the whist=
+le-blower said. =E2=80=9CJordan Thomas built this machine.=E2=80=9D ...Beca=
+use he works on contingency, his fee is a significant chunk of any rewards =
+that his clients receive. When the S.E.C. announced, in 2018, that in the M=
+errill Lynch case it would pay two awards, totalling eighty-three million d=
+ollars, it was reported that Labaton Sucharow could make more than twenty-f=
+ive million dollars. Thomas expanded his team, bringing on two partners, Ri=
+ch Levine and Michael Stevenson, who are also former S.E.C. officials.=C2=
+=A0If you work in the SEC=E2=80=99s whistle-blower office, why=C2=A0wouldn=
+=E2=80=99t=C2=A0you quit after a while to do the same job but for a cut of =
+the proceeds?I will say that this is arguably good incentive design. Arguab=
+ly everyone at the SEC should do a rotation through the whistle-blower offi=
+ce, just to get a taste for it. As I said above, the revolving door primari=
+ly=C2=A0creates incentives for regulators to be tough, but it secondarily c=
+reates incentives for them to be polite and=C2=A0clubbable. If your regulat=
+ory career is an audition for a private-sector job, you want the private-se=
+ctor lawyers you deal with to think of you as tough but fair,=C2=A0professi=
+onal and honest, someone they could see as a colleague. You want to make lo=
+ts of ambitious cases and win them, but you don't want everyone to hate you=
+. But if your post-SEC career is as a lawyer for whistle-blowers it=E2=80=
+=99s fine if everyone hates you! That=E2=80=99s the job really! Elon Musk d=
+efinitely can=E2=80=99t get Jordan Thomas fired! He is a liberating role mo=
+del for SEC enforcers.
+ =20
+   =20
+      Bridgewater
+   =20
+ =20
+A good genre of financial news article is=C2=A0calling people up and asking=
+ them to talk trash anonymously about Ray Dalio=E2=80=99s=C2=A0hedge fund B=
+ridgewater Associates. Bridgewater is huge and lucrative, so lots of people=
+ want to talk about it, and it=E2=80=99s weird, so they have funny things t=
+o say about it. Plus people who used to work at Bridgewater are weird thems=
+elves, and smart and opinionated, so they=E2=80=99ll give good quotes. So=
+=C2=A0here=E2=80=99s Robin Wigglesworth at the Financial Times:=E2=80=9CI t=
+hink he=E2=80=99s trying to figure out what to do. He=E2=80=99s either lost=
+ his mojo, or just doesn=E2=80=99t want to do it any more,=E2=80=9D said on=
+e senior former Bridgewater employee of Dalio. =E2=80=9CHe basically has a =
+firm that is not really structured to be sustainable without him, but isn=
+=E2=80=99t really sustainable with him either.=E2=80=9DSure that=E2=80=99s =
+good, what else you got?=E2=80=9CThe culture is very strong. People either =
+become true believers, or they leave,=E2=80=9D said the former senior emplo=
+yee. =E2=80=9CRadical transparency has caused a strange culture, but mostly=
+ because of the way it has been executed. It unintentionally turns Bridgewa=
+ter into a Real Housewives of LA kind of place.=E2=80=9DHmm, love it, but c=
+an we get more of a European sports metaphor?=E2=80=9CThey are the Manchest=
+er United of hedge funds,=E2=80=9D said one investor who has visited Bridge=
+water=E2=80=99s leafy Westport, Connecticut headquarters but declined to in=
+vest. =E2=80=9COnce great but these days struggling.=E2=80=9D=C2=A0Terrific=
+. Ray Dalio writes books and does weird public-facing stuff, would anyone b=
+e interested in making fun of those?Not all of Bridgewater=E2=80=99s client=
+s have been thrilled at the time Dalio has spent cultivating his public pro=
+file. One institutional investor said simmering concerns over Bridgewater=
+=E2=80=99s growing size, opacity and slipping returns had been compounded b=
+y the amount of media attention it was attracting, leading them to pull the=
+ir money out a few years ago.=E2=80=9CPut very bluntly, we would rather hav=
+e a hedge fund manager tending the shop and focusing on their fund, rather =
+than writing books,=E2=80=9D the investor said. =E2=80=9CBridgewater itself=
+ became a talking point.=E2=80=9DI do feel like this is a criticism that pe=
+ople make of almost every celebrity hedge fund manager: They start out tota=
+lly focused on making good investments, they make some good investments, th=
+ey have good returns, they attract more assets, they get really rich, they =
+go on television, they become convinced that they=E2=80=99re omnicompetent =
+geniuses, they get more interested in going on TV and telling people how to=
+ solve the world=E2=80=99s problems than they are in picking investments th=
+at will go up. And, sure, why=C2=A0wouldn=E2=80=99t=C2=A0you follow that pa=
+th? You=E2=80=99re already rich.The thing about Bridgewater is that it seem=
+s particularly optimized to make this easier? For one thing, it=E2=80=99s n=
+ot clear how much time Dalio needs to devote to picking good investments, g=
+iven Bridgewater=E2=80=99s process. (I  have joked that Bridgewater has a c=
+omputer that picks the investments, and a lot of interpersonal drama and ma=
+nagement hooey to distract the human employees so they don=E2=80=99t interf=
+ere with the computer.)=C2=A0For another=C2=A0 thing, it=E2=80=99s not at a=
+ll clear that Dalio (or the computer)=C2=A0needs=C2=A0to pick good investme=
+nts, since Bridgewater is so huge and famous that its clients are sticky in=
+ a you-never-get-fired-for-picking-Bridgewater sort of way. Also Bridgewate=
+r=E2=80=99s story is not =E2=80=9Cwe pick good investments because Ray Dali=
+o is a stock-picking genius,=E2=80=9D but rather =E2=80=9Cwe pick good inve=
+stments because we have cracked the code of=C2=A0general management=C2=A0an=
+d built a culture that somehow generates good investments as a byproduct,=
+=E2=80=9D which does=C2=A0seem=C2=A0like it would lend itself to a certain =
+generalist overconfidence? =E2=80=9CBy sitting around and rating each other=
+=E2=80=99s faults we have somehow managed to pick stocks that go up, which =
+is pretty random, so maybe that technique can be used to solve other, unrel=
+ated problems.=E2=80=9D=C2=A0
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Microsoft to Buy Activision Blizzard in  $69 Billion Gaming Deal.=C2=A0Cred=
+it Suisse=E2=80=99s Ant=C3=B3nio Horta-Os=C3=B3rio Lost Board Support Over =
+Covid-19 Rules Breach. Affirm to Put =E2=80=98Buy Now, Pay Later=E2=80=99 O=
+ptions on Verifone Systems.=C2=A0London Stock Exchange Proposes Special Lis=
+tings for Private Companies.=C2=A0Nickel Market Caught Up in Fresh Squeeze.=
+ Chamath Palihapitiya Sparks Fury After Saying =E2=80=98Nobody Cares=E2=80=
+=99 About China=E2=80=99s Uyghurs. =E2=80=9C2021 was a record year for expl=
+etives in conference calls.=E2=80=9D=C2=A0Michael Avenatti Sues Feds for Mi=
+streatment in Prison, Claims Guards Only Let Him Read Trump=E2=80=99s Art o=
+f the Deal.=C2=A0The anime "Dune" DAO learns about copyright. More skunks c=
+an do handstands than we thought.If you'd like to get=C2=A0Money=C2=A0Stuff=
+=C2=A0in handy email form, right in your inbox, please=C2=A0subscribe at th=
+is link. Or you can subscribe to Money Stuff and other great Bloomberg news=
+letters here. Thanks![1]=C2=A0So this passage sounds strange coming from Bl=
+ackRock: =E2=80=9CBlackRock wants to see the companies we invest in for our=
+ clients evolve and grow so that they generate attractive returns for decad=
+es to come. As long-term investors, we are committed to working with compan=
+ies from all industries. But we too must be nimble and ensure our clients=
+=E2=80=99 assets are invested, consistent with their goals, in the most dyn=
+amic companies =E2=80=93 whether startups or established players =E2=80=93 =
+with the best chances at succeeding over time. As capitalists and as stewar=
+ds, that=E2=80=99s our job. =E2=80=A6=C2=A0But access to capital is not a r=
+ight. It is a privilege. And the duty to attract that capital in a responsi=
+ble and sustainable way lies with you.=E2=80=9D Access to capital from inde=
+x funds is kind of a right, if you=E2=80=99re in the index!
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfpxgk.5pqg/6822ea94.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_55915200_1959450727.1642528794654
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Larry Fink letterWell this isn=E2=80=99t very helpful: Delivering on the co=
+mpeting interests of a company=E2=80=99s many divergent stakeholders is not=
+ easy.
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNjQwNDAwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2NzA2MzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB8f79fe32" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D26404004&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26670636&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMTE4MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAxMTgmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB48920676"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNjQwNDAwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2NzA2MzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC913da816" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D26404004&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26670636&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Larry Fink letter</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Well <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/26404004.266632/aHR0cHM6Ly93d3cuYmxhY2tyb2NrLmNvbS9=
+1cy9pbmRpdmlkdWFsLzIwMjItbGFycnktZmluay1jZW8tbGV0dGVy/607f07ceef4b8524a319a=
+23cB06be2f3b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">this</a>=C2=A0isn=E2=80=99t very helpful:</p><blockqu=
+ote><p style=3D"margin: 16px 0;">Delivering on the competing interests of a=
+ company=E2=80=99s many divergent stakeholders is not easy. As a CEO, I kno=
+w this firsthand. In this polarized world, CEOs will invariably have one se=
+t of stakeholders demanding that we do one thing, while another set of stak=
+eholders demand that we do just the opposite.</p><p style=3D"margin: 16px 0=
+;">That is why it is more important than ever that your company and its man=
+agement be guided by its purpose. If you stay true to your company=E2=80=99=
+s purpose and focus on the long term, while adapting to this new world arou=
+nd us, you will deliver durable returns for shareholders and help realize t=
+he power of capitalism for all.</p></blockquote><p style=3D"margin: 16px 0;=
+">I suppose if you are the chief executive officer of a public company you =
+will sometimes find yourself in a situation where some of your stakeholders=
+ demand that you do one thing while another set of stakeholders demand that=
+ you do just the opposite. And you might say, well, one of our important st=
+akeholders =E2=80=94=C2=A0not the=C2=A0<em>most=C2=A0</em>important probabl=
+y, not up there with customers or employees, but certainly important =E2=80=
+=94=C2=A0is Larry Fink, who runs BlackRock Inc., which is among our biggest=
+ shareholders, as it is for almost every public company. And so you might c=
+all Larry Fink up and say =E2=80=9Chey Larry I got some people who want me =
+to double down on producing thermal coal and I got some other people who wa=
+nt me to get out of the thermal coal business, what do=C2=A0<em>you=C2=A0</=
+em>think I should do?=E2=80=9D And Fink will be like =E2=80=A6=C2=A0=E2=80=
+=9Cstay true to your company=E2=80=99s purpose and focus on the long term=
+=E2=80=9D? Okay? =E2=80=9CLarry, I gotta be honest with you, my company=E2=
+=80=99s purpose is mining thermal coal, that=E2=80=99s just what we do, but=
+ the long-term prospects for thermal coal are not so hot; should I stick to=
+ our purpose, fulfill it, pay out some dividends and disappear, or should I=
+ try to pivot into wind farms?=E2=80=9D I feel like Larry Fink <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/26404004.266632/aHR0cHM6Ly93d3=
+cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDEtMTQvYmxhY2tyb2NrLWhhc=
+y1ncmVlbi1wbGFucz9jbXBpZD1CQkQwMTE4MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAxMTgmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB875f4b80" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;"> has a preference</a> h=
+ere! But he is just one stakeholder among many.</p><p style=3D"margin: 16px=
+ 0;">Anyway here=E2=80=99s Fink=E2=80=99s <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/26404004.266632/aHR0cHM6Ly93d3cuYmxhY2tyb2NrLmNvbS9=
+1cy9pbmRpdmlkdWFsLzIwMjItbGFycnktZmluay1jZW8tbGV0dGVy/607f07ceef4b8524a319a=
+23cC06be2f3b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">annual letter to CEOs</a>, which I quoted above. =E2=
+=80=9CThe Power of Capitalism=E2=80=9D is the title?=C2=A0I don=E2=80=99t r=
+eally know who the audience is here? CEOs? I am not sure how actionable it =
+is, for a CEO. The famous problem of stakeholder capitalism, as Fink says,=
+=C2=A0is that while it is=C2=A0<em>relatively=C2=A0</em>easy to figure out =
+what shareholders are supposed to want =E2=80=94=C2=A0stocks that go up =E2=
+=80=94=C2=A0it is much harder to figure out what all your stakeholders want=
+=C2=A0and how to prioritize them. If as a CEO you say =E2=80=9CI work for t=
+he shareholders and I do what I can to make the stock go up,=E2=80=9D then =
+you pretty much know what you have to do. Memes, is the answer, it turns ou=
+t: <a href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTEtMDQvbW=
+FjeS1zLXRhcmdldGVkLWJ5LW1lbWUtYWN0aXZpc3RzP2NtcGlkPUJCRDAxMTgyMl9NT05FWVNUV=
+UZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDEx=
+OCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBe83ef2d8" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> What you have to do is meme stuff</a>. Crypto, electric vehicles, non-f=
+ungible tokens, that sort of thing.=C2=A0I=E2=80=99m sorry! I don=E2=80=99t=
+ like it either. But this is a question that is subject to empirical analys=
+is. Whereas if you work for the stakeholders then, you know, which stakehol=
+ders and=C2=A0when? Your only guidepost is to =E2=80=9Cstay true to your co=
+mpany=E2=80=99s focus,=E2=80=9D which does not necessarily answer all of yo=
+ur practical questions, though it probably=C2=A0<em>will=C2=A0</em>stop you=
+ from messing around with NFTs.</p><p style=3D"margin: 16px 0;">Presumably =
+the audience is really BlackRock=E2=80=99s=C2=A0<em>clients</em>, the peopl=
+e and institutions whose trillions of dollars of retirement savings are man=
+aged by BlackRock. One model for Fink=E2=80=99s annual letter is that he ha=
+s cranked up the environmental, social and governance stuff, in the letters=
+ and elsewhere, for the past few years, because ESG is hot in the investmen=
+t-management industry and talking about it attracts clients. But there are =
+vague <a href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266=
+632/aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8wMS8xOC9idXNpbmVzcy9kZWFsYm9vay9=
+maW5rLWJsYWNrcm9jay13b2tlLmh0bWw/607f07ceef4b8524a319a23cBd2304e67" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>rumblings of a backlash</a>, of clients=C2=A0and politicians worrying that=
+ BlackRock is =E2=80=9Ctoo =E2=80=98woke,=E2=80=99=E2=80=9D so he=E2=80=99s=
+ dialing it back like 10% in this letter:</p><blockquote><p style=3D"margin=
+: 16px 0;">Stakeholder capitalism is not about politics. It is not a social=
+ or ideological agenda. It is not =E2=80=9Cwoke.=E2=80=9D <em>It is capital=
+ism</em>, driven by mutually beneficial relationships between you and the e=
+mployees, customers, suppliers, and communities your company relies on to p=
+rosper. This is the power of capitalism.=C2=A0</p><p style=3D"margin: 16px =
+0;"><strong>In today=E2=80=99s globally interconnected world, a company mus=
+t create value for and be valued by its full range of stakeholders in order=
+ to deliver long-term value for its shareholders.</strong> It is through ef=
+fective stakeholder capitalism that capital is efficiently allocated, compa=
+nies achieve durable profitability, and value is created and sustained over=
+ the long-term. Make no mistake, the fair pursuit of profit is still what a=
+nimates markets; and long-term profitability is the measure by which market=
+s will ultimately determine your company=E2=80=99s success.</p></blockquote=
+><p style=3D"margin: 16px 0;">One way to read that passage is =E2=80=9Cwe w=
+ould still like to manage money for Republicans too.=E2=80=9D</p><p style=
+=3D"margin: 16px 0;">This is kind of a boring letter? There is something od=
+d about the world=E2=80=99s largest=C2=A0<em>shareholder=C2=A0</em>advocati=
+ng for stakeholder capitalism, saying to corporate CEOs =E2=80=9Cno, <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMDQvZmFjZWJvb2s=
+td2hpc3RsZWJsb3dlci1zaG93cy1hLXNoaWZ0LWluLXNoYXJlaG9sZGVyLXZhbHVlcy1hd2F5LW=
+Zyb20tcHJvZml0cz9jbXBpZD1CQkQwMTE4MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJ=
+nV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAxMTgmdXRtX2NhbXBhaWduPW1vbmV5=
+c3R1ZmY/607f07ceef4b8524a319a23cBb90d7b37" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> don=E2=80=99t put share=
+holders first</a>, prioritize your workers and customers and communities ab=
+ove shareholder profits.=E2=80=9D But of course he=E2=80=99s not saying tha=
+t. The point of this year=E2=80=99s letter is to dispel the idea that he mi=
+ght be saying that. He=E2=80=99s saying that sometimes having good customer=
+ service, paying employees enough to motivate them, and not breaking the la=
+w can help maximize the long-term value of a company=E2=80=99s cash flows=
+=C2=A0<em>to shareholders</em>, and so companies should do those things. Th=
+eir executives should run the company, you know, <em>well</em>, like a busi=
+ness. They should make good choices and not bad ones, so that the business =
+is valuable, for its shareholders, who are Fink=E2=80=99s clients. There is=
+ nothing here that <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/26404004.266632/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLz=
+IwMTgtMDktMjcvc2hhcmVob2xkZXItdmFsdWUtY291bGQtYmUtd29yc2U_Y21waWQ9QkJEMDExO=
+DIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRt=
+X3Rlcm09MjIwMTE4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBd=
+fcde0f8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> Milton Friedman</a> could possibly object to.</p><p style=
+=3D"margin: 16px 0;">There are, in the world, investors who specialize in f=
+inding companies that make money but spend it wastefully on businesses with=
+ poor long-term prospects, buy up shares in those companies and push them t=
+o cut that spending and return cash to shareholders who can put it to bette=
+r uses. There are, in the world, investors who specialize in finding compan=
+ies that don=E2=80=99t make any money but that have bold and achievable lon=
+g-term dreams, buy up shares in those companies and give them funding to tu=
+rn those dreams into reality. There are investors who specialize in some in=
+dustry and try to pick which firms in that industry will thrive in the long=
+ run and which will fail. BlackRock is not one of those investors =E2=80=94=
+=C2=A0or, rather, it does a bit of all of those things, but <em>as a whole =
+</em>it specializes in (1) finding all of the companies, (2) buying like 7%=
+ of their stock and (3) holding it forever.[1]=C2=A0=C2=A0And then Fink=C2=
+=A0writes an annual letter to=C2=A0<em>all of them at once</em>. How nuance=
+d can that one letter be? =E2=80=9CTry to do a good job=E2=80=9D is pretty =
+broadly applicable advice, but beyond that situations will differ. Even =E2=
+=80=9Ctry to manage your company for the long term=E2=80=9D and =E2=80=9Cst=
+ay true to your company=E2=80=99s purpose,=E2=80=9D generic as they sound, =
+can conflict with each other.</p><p style=3D"margin: 16px 0;">Also here=E2=
+=80=99s this:</p><blockquote><p style=3D"margin: 16px 0;">We see a growing =
+interest among shareholders =E2=80=93 including among our own clients =E2=
+=80=93 in the corporate governance of public companies.</p><p style=3D"marg=
+in: 16px 0;">That is why we are pursuing an initiative to use technology to=
+ give more of our clients the option to have a say in how proxy votes are c=
+ast at companies their money is invested in. We now offer this option to ce=
+rtain institutional clients, including pension funds that support 60 millio=
+n people. We are working to expand that universe.</p><p style=3D"margin: 16=
+px 0;">We are committed to a future where every investor =E2=80=93 even ind=
+ividual investors =E2=80=93 can have the option to participate in the proxy=
+ voting process if they choose.</p><p style=3D"margin: 16px 0;">We know the=
+re are significant regulatory and logistical hurdles to achieving this toda=
+y, but we believe this could bring more democracy and more voices to capita=
+lism. Every investor deserves the right to be heard. We will continue to pu=
+rsue innovation and work with other market participants and regulators to h=
+elp advance this vision toward reality.</p></blockquote><p style=3D"margin:=
+ 16px 0;">One way to put it is that right now Larry Fink gets to decide how=
+ trillions of dollars=E2=80=99 worth of shares are voted at corporate meeti=
+ngs, and he is volunteering to give up that power and hand it back to his c=
+lients (eventually). Do you think a fully distributed BlackRock, one where =
+each client votes its own shares rather than delegating that power to Larry=
+ Fink, would be as influential as the current actual BlackRock? Would its l=
+etters get as much attention?</p><table class=3D"liveintent-sponsored-conte=
+nt" width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjQwNDAwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2NzA2MzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDe9e08921" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26404004&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26670636&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNjQwNDAwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2NzA2MzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEe9e08921" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D26404004&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26670636&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjQwNDAwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2NzA2MzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFcbdd4cbc" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26404004&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26670636&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNjQwNDAwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2NzA2MzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGcbdd4cbc" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D26404004&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26670636&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Non-precedential comp</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Traditionally the way pay works at an =
+investment bank is that, at senior levels, most of your pay is in the form =
+of a variable=C2=A0end-of-year bonus. If you and your group and your firm a=
+ll have a good year, you will get a large bonus, many multiples of your bas=
+e salary. If you or your group or your firm have a bad year, you will get a=
+ smaller bonus. If your bonus is zero =E2=80=94=C2=A0if your only pay for t=
+he year is your base salary =E2=80=94=C2=A0then you will feel deeply aggrie=
+ved and throw a huge tantrum, and also odds are you=E2=80=99re getting fire=
+d. This is the traditional approach to things, and it has <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/26404004.266632/aHR0cHM6Ly93d3cuZWJ=
+hLmV1cm9wYS5ldS9zaXRlcy9kZWZhdWx0L2RvY3VtZW50cy9maWxlcy9kb2N1bWVudHMvMTAxOD=
+AvMTMxNDgzOS8xYjBmM2Y5OS1mOTEzLTQ2MWEtYjNlOS1mYTAwNjRiMTk0NmIvRUJBLUdMLTIwM=
+TUtMjIlMjBGaW5hbCUyMHJlcG9ydCUyMG9uJTIwR3VpZGVsaW5lcyUyMG9uJTIwU291bmQlMjBS=
+ZW11bmVyYXRpb24lMjBQb2xpY2llcy5wZGY/607f07ceef4b8524a319a23cBa7899919" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">fallen out of favor a bit</a> since the 2008 financial crisis, but it i=
+s still a useful rough model.</p><p style=3D"margin: 16px 0;">The problem h=
+ere is that variable compensation has sort of asymmetric effects on happine=
+ss and loyalty. If you get paid $4 million one year and $5 million the next=
+, you will probably be happy both years. You got paid a lot in absolute ter=
+ms, and your pay went up year over year. If in Year 1 you took out an expen=
+sive mortgage, in Year 2 you can pay it easily.</p><p style=3D"margin: 16px=
+ 0;">If you get paid $5 million one year and $4 million the next, though, y=
+ou will be very sad the second year. Your pay went down year-over-year, sug=
+gesting that your employer either (1) does not appreciate your efforts or (=
+2) is not in a financial position to reward them appropriately. Neither is =
+a good sign for your long-term relationship. If in Year 1 you took out an e=
+xpensive mortgage, in Year 2 finances will feel a bit tight. =E2=80=9CYou k=
+new your pay was completely variable, why did you take out an expensive mor=
+tgage,=E2=80=9D is perhaps a reasonable question, but you don=E2=80=99t wan=
+t to hear it. After all, you keep getting better at your job; you are more =
+experienced and have deeper client relationships and are more senior and ta=
+king on more responsibility. Why should you get paid=C2=A0<em>less=C2=A0</e=
+m>this year than last year? =E2=80=9CBecause the bank had a worse year=E2=
+=80=9D is a fine, correct answer, but it is not emotionally satisfying. You=
+ might quit in a huff.</p><p style=3D"margin: 16px 0;">This makes really go=
+od years particularly tricky for a bank. If the bank pays out huge bonuses =
+at the peak of the boom, then the next year everyone will be disappointed a=
+nd quit in huffs. (Though the poor job market that year might limit the los=
+ses.)=C2=A0If it=C2=A0<em>doesn=E2=80=99t=C2=A0</em>do that =E2=80=94=C2=A0=
+if it holds back some money so as not to set expectations too high, and so =
+as to have some more money in reserve to pay bonuses next year =E2=80=94=C2=
+=A0then everyone will feel underpaid versus their competitors at other bank=
+s who do pay everything out, and they=E2=80=99ll quit now for a competitor.=
+=C2=A0</p><p style=3D"margin: 16px 0;">There is not really an easy way arou=
+nd this =E2=80=94 and highly variable compensation is basically good for th=
+e bank=E2=80=99s financial resilience and for the employees=E2=80=99 incent=
+ives =E2=80=94=C2=A0but I suppose one easy-ish way around it is to pay bank=
+ers huge bonuses in really good years, but include a little note with the h=
+uge bonus saying =E2=80=9Cdon=E2=80=99t get used to it.=E2=80=9D The note d=
+oesn=E2=80=99t really contain any information they didn=E2=80=99t already k=
+now =E2=80=94=C2=A0their pay is variable, a huge payout in a good year guar=
+antees nothing for next year, don=E2=80=99t take out a mortgage based on th=
+is year=E2=80=99s bonus, etc. =E2=80=94=C2=A0but it=E2=80=99s still worth r=
+eminding them.</p><p style=3D"margin: 16px 0;">So, <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/26404004.266632/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMTQvZ29sZG1hbi1zLW1vc3QtZWxpdGUtcmFua=
+y10by1nZXQtbWlsbGlvbnMtaW4tb25lLXRpbWUtcGF5b3V0cz9jbXBpZD1CQkQwMTE4MjJfTU9O=
+RVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0=
+yMjAxMTgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB33a23855"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> sure</a>:</p><blockquote><p style=3D"margin: 16px 0;">The top 1% =
+at Goldman Sachs Group Inc. is set to receive a special one-time reward in =
+addition to annual bonuses, recognizing the Wall Street titan=E2=80=99s roa=
+ring success through the pandemic.</p><p style=3D"margin: 16px 0;">The unus=
+ual payments to partners -- the roughly 400 executives who fill out the inv=
+estment bank=E2=80=99s highest rung -- will add millions of dollars to many=
+ compensation packages, according to people with knowledge of the matter, w=
+ho asked not to be identified discussing internal decisions. That group is =
+already in line for larger payouts that range from a few million dollars to=
+ multiples of that after a year of record earnings.</p><p style=3D"margin: =
+16px 0;">Goldman=E2=80=99s management, under pressure to fend off increasin=
+gly aggressive poaching on Wall Street, views the extra boosts as a creativ=
+e solution that will come with a warning: Recipients shouldn=E2=80=99t mist=
+ake the bumps as part of a new pay floor, two of the people said. When comp=
+ensation is set next year, managers will ignore the one-time payouts when m=
+aking comparisons.</p></blockquote><p style=3D"margin: 16px 0;">So if you g=
+et paid a $1 million salary and a $5 million bonus and a $5 million other b=
+onus for 2021, and then in 2022 you get $7 million, you will say =E2=80=9Cw=
+hat the heck, last year I got $11 million and now you are cutting me to $7 =
+million,=E2=80=9D and your boss will say =E2=80=9Cno, last year you got $6 =
+million and now I am raising you to $7 million, congratulations.=E2=80=9D A=
+nd your boss will technically be right even though you=C2=A0<em>did=C2=A0</=
+em>get $11 million last year, because some of it didn=E2=80=99t count. And =
+you will grumble a little less because you=C2=A0<em>were=C2=A0</em>warned.<=
+/p><p style=3D"margin: 16px 0;">Meanwhile in stakeholder capitalism, Goldma=
+n <a href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMTgvZ29sZG1=
+hbi1zLXRyYWRpbmctZGl2aXNpb24tc2xpcHMtd2l0aC1wYW5kZW1pYy1ib29zdC1jb29saW5nLW=
+9mZj9jbXBpZD1CQkQwMTE4MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY=
+2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjAxMTgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f=
+07ceef4b8524a319a23cB8cb2fb20" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> announced earnings this morning</a>=
+:</p><blockquote><p style=3D"margin: 16px 0;">Goldman Sachs Group Inc. equi=
+ties traders posted a decline in the fourth quarter, adding to evidence tha=
+t the frenzied activity touched off by the pandemic is cooling, even as the=
+ bank ratcheted up payouts for employees. The company=E2=80=99s shares tumb=
+led.</p><p style=3D"margin: 16px 0;">Revenue from the bank=E2=80=99s tradin=
+g operation slid 7%, missing analysts=E2=80=99 estimates for a small gain. =
+The surprise letdown came from its equities business, which declined 11%, a=
+ccording to a statement Tuesday. Despite rounding off their best year ever =
+for both revenue and earnings, Goldman executives will need to address inve=
+stor concerns that the trading business is on a downward trajectory.</p><p =
+style=3D"margin: 16px 0;">Compensation and benefits, the single biggest dri=
+ver of expenses at Goldman, jumped 33% to $17.7 billion in 2021, an indicat=
+ion of big rewards for employees after a record year. ...</p><p style=3D"ma=
+rgin: 16px 0;">The trading boom set off by the market volatility of Covid-1=
+9 might be starting to fade, and companies are having to contend with highe=
+r costs to prevent employees from defecting. That leaves bank leaders with =
+the task of resetting expectations.</p></blockquote><p style=3D"margin: 16p=
+x 0;">The classic defense of=C2=A0<em>shareholder=C2=A0</em>capitalism goes=
+ something like =E2=80=9Cshareholders are the residual claimants on the cas=
+h flows of the corporation, while every other stakeholder has some contract=
+ual relationship with the company, so directors and managers should have fi=
+duciary duties to those residual claimants.=E2=80=9D But anyone who has wor=
+ked at a bank knows that the shareholders are not the only residual claiman=
+ts. The employees get their cut too.</p><table class=3D"liveintent-flex-ad"=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNjQwNDAwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2NzA2MzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH156dd7ed" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D26404004&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26670636&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Incentives</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">My <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/26404004.266632/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMTQtMDYtMjYvc3RyaWN0LXJlZ3VsYXRpb24tbWFrZXMtdGhlLXJl=
+dm9sdmluZy1kb29yLXNwaW4tZmFzdGVyP2NtcGlkPUJCRDAxMTgyMl9NT05FWVNUVUZGJnV0bV9=
+tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDExOCZ1dG1fY2=
+FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBccbe3934" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> genera=
+l view</a> of the =E2=80=9Crevolving door=E2=80=9D is that it is good for r=
+egulators to get a reputation for being tough in high-profile cases, becaus=
+e that will make them more attractive to the private sector. If you are a r=
+egulator with a reputation for being tough, then:</p><ol style=3D"list-styl=
+e-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li style=3D"margi=
+n-bottom: 5px;">Potential private-sector employers will think that you=E2=
+=80=99re a creative hardworking go-getter, because those characteristics te=
+nd to correlate=C2=A0with toughness in regulation.=C2=A0</li>=09<li style=
+=3D"margin-bottom: 5px;">Potential private-sector employers will have=C2=A0=
+<em>more need to hire ex-regulators</em>, because regulation is tougher so =
+there is more work to do to respond to it, and ex-regulators are particular=
+ly=C2=A0qualified to do that work.</li>=09<li style=3D"margin-bottom: 5px;"=
+>Other employees at your regulator=C2=A0will respect your=C2=A0toughness, a=
+nd so when you go into private practice and advocate for a client to those =
+regulators, they will take you seriously and be inclined to go easier on yo=
+ur clients; private-sector employers understand this.</li>=09<li style=3D"m=
+argin-bottom: 5px;">Potential private-sector employers will want to hire yo=
+u at a high salary because=C2=A0<em>then you will stop being a regulator</e=
+m>, and if you are tough on them as a regulator it is worth paying you to s=
+top.=C2=A0</li></ol><p style=3D"margin: 16px 0;">Of course you can take thi=
+s too far. If you develop a reputation for being unreasonable or unprofessi=
+onal or dishonest in your pursuit of tough regulatory action, private-secto=
+r employers will be less interested in hiring you. Or=C2=A0if you conduct a=
+ perfectly reasonable and <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/26404004.266632/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGl=
+jbGVzLzIwMTgtMTAtMDEvdGVzbGEtd2lsbC10cnktdG8tYmUtbW9yZS1ub3JtYWw_Y21waWQ9Qk=
+JEMDExODIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0Z=
+XImdXRtX3Rlcm09MjIwMTE4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a31=
+9a23cB918945a8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> honestly rather gentle</a> investigation into a hi=
+lariously thin-skinned billionaire=C2=A0<a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/26404004.266632/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlc=
+y9lbG9uLW11c2tzLXRlc2xhLWFza2VkLWxhdy1maXJtLXRvLWZpcmUtYXNzb2NpYXRlLWhpcmVk=
+LWZyb20tc2VjLTExNjQyMjY1MDA3P21vZD1ocF9sZWFkX3BvczM/607f07ceef4b8524a319a23=
+cBaf30b218" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">this might happen</a>:</p><blockquote><p style=3D"margi=
+n: 16px 0;">A partner at law firm Cooley LLP got an unexpected call late la=
+st year from a lawyer for one of the firm=E2=80=99s most famous clients, El=
+on Musk=E2=80=99s Tesla Inc., with an ultimatum.</p><p style=3D"margin: 16p=
+x 0;">The world=E2=80=99s richest man wanted Cooley, which was representing=
+ Tesla in numerous lawsuits, to fire one of its attorneys or it would lose =
+the electric-vehicle company=E2=80=99s business, people familiar with the m=
+atter said.</p><p style=3D"margin: 16px 0;">The target of Mr. Musk=E2=80=99=
+s ire was a former U.S. Securities and Exchange Commission lawyer whom Cool=
+ey had hired for its securities litigation and enforcement practice and who=
+ had no involvement in the firm=E2=80=99s work for Tesla. At the SEC, the a=
+ttorney had interviewed Mr. Musk during the agency=E2=80=99s investigation =
+of the Tesla chief executive=E2=80=99s 2018 tweet claiming, wrongly, to hav=
+e secured funding to potentially take the electric-vehicle maker private. =
+=E2=80=A6</p><p style=3D"margin: 16px 0;">Cooley has declined to fire the a=
+ttorney, who remains an associate at the firm, the people said. Since early=
+ December, Tesla has begun taking steps in several cases to replace Cooley =
+or add additional counsel, legal documents show. Mr. Musk=E2=80=99s rocket =
+company Space Exploration Technologies Corp., also known as SpaceX, has sto=
+pped using Cooley for regulatory work, according to people familiar with th=
+e matter.</p></blockquote><p style=3D"margin: 16px 0;">One assumes that Mus=
+k was operating out of pure emotional grudge here, but I suppose it=E2=80=
+=99s worth asking if that phone call was a good strategic move.=C2=A0<em>Of=
+ course=C2=A0</em>Cooley can=E2=80=99t actually fire the associate, which w=
+ould be disastrous for its reputation. But that=E2=80=99s not the goal here=
+. <em>Other </em>law firms that do a bunch of work with Tesla might have to=
+ ask prospective hires, like, =E2=80=9Chey you haven=E2=80=99t done anythin=
+g to annoy Elon Musk have you?=E2=80=9D And so <em>current government regul=
+ators=C2=A0</em>might think =E2=80=9Chmm, I should go easy on Elon Musk so =
+he doesn=E2=80=99t ruin my future career.=E2=80=9D</p><p style=3D"margin: 1=
+6px 0;">But, look, if a regulator started an investigation into Elon Musk, =
+and Musk called her up and said =E2=80=9Cdo you know who I am, I will ruin =
+your career,=E2=80=9D that would definitely make things=C2=A0<em>worse=C2=
+=A0</em>for him, don=E2=80=99t you think? Like she=E2=80=99d tell her bosse=
+s and they=E2=80=99d throw the book at him, add charges of interfering with=
+ an investigation, etc. Threatening to ruin a regulator=E2=80=99s career fo=
+r investigating you is a very bad look! Of course Musk didn=E2=80=99t do th=
+at. Instead he <em>actually tried to ruin a regulator=E2=80=99s career=C2=
+=A0</em>for investigating him. Arguably that=E2=80=99s a smarter move? Like=
+, the Cooley associate is no longer at the SEC and that investigation is cl=
+osed, so Musk=E2=80=99s direct risk is lower.</p><p style=3D"margin: 16px 0=
+;">And yet =E2=80=A6=C2=A0if you=E2=80=99re at the SEC=C2=A0<em>now</em>, a=
+nd you=E2=80=99re conducting a different investigation of Tesla, wouldn=E2=
+=80=99t this make you want to be tougher on him? Or if you=E2=80=99re at th=
+e Justice Department, or some other government agency? His odds of actually=
+ ruining your career are low; there are a lot of law firms, most of them do=
+n=E2=80=99t work with Tesla, and Musk didn=E2=80=99t even succeed in gettin=
+g this associate fired. As a matter of regulatory solidarity, and of punish=
+ing Musk for trying to intimidate regulators, wouldn=E2=80=99t you go a bit=
+ harder now?</p><table class=3D"header" width=3D"100%" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Incentives (2)</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">If you were designing a revolving-door=
+ career from first principles it might go something like this:</p><ol style=
+=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;">=09<li s=
+tyle=3D"margin-bottom: 5px;">You work in government and design a program th=
+at gives=C2=A0people in the private sector nine-figure payouts, but only so=
+metimes, and with a lot of complex qualifications and subjectivity.</li>=09=
+<li style=3D"margin-bottom: 5px;">You quit immediately for the private sect=
+or.</li>=09<li style=3D"margin-bottom: 5px;">You hang out a shingle adverti=
+sing yourself as the only person with the knowledge and connections to get =
+people those nine-figure payouts.</li>=09<li style=3D"margin-bottom: 5px;">=
+You take a chunk for yourself.</li></ol><p style=3D"margin: 16px 0;">This i=
+s a good trade =E2=80=94=C2=A0build a spigot of government money and plant =
+yourself in front of it =E2=80=94=C2=A0but still you could improve it. As I=
+ said above, it is good for a regulator to develop a reputation for toughne=
+ss, in part because that will get you continuing respect from the people st=
+ill in government administering the spigot. And of course spigots of govern=
+ment money are controversial and could be shut off at any time=C2=A0due to =
+budget problems etc. So what you want to do is replace Step 1 above with:</=
+p><ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0=
+;">=09<li style=3D"margin-bottom: 5px;">You work in government and design a=
+ program that very toughly takes nine-figure sums from bad private-sector a=
+ctors and then gives a share of them to good private-sector actors, but onl=
+y sometimes and with a lot of complex qualifications and subjectivity.</li>=
+=09<li style=3D"margin-bottom: 5px;">Etc.</li></ol><p style=3D"margin: 16px=
+ 0;">Anyway here=E2=80=99s <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/26404004.266632/aHR0cHM6Ly93d3cubmV3eW9ya2VyLmNvbS9tYWdhemluZS8yMD=
+IyLzAxLzI0L2pvcmRhbi10aG9tYXMtYXJteS1vZi13aGlzdGxlLWJsb3dlcnM/607f07ceef4b8=
+524a319a23cB7b18f081" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">Patrick Radden Keefe in the New Yorker</a> ab=
+out whistle-blower lawyer Jordan Thomas:</p><blockquote><p style=3D"margin:=
+ 16px 0;">Submitting explosive government filings on behalf of anonymous cl=
+ients is what Jordan Thomas does for a living. He is an attorney who repres=
+ents whistle-blowers. Thomas previously worked at the Securities and Exchan=
+ge Commission, where he helped create a new program, implemented in 2011, t=
+hat encouraged people to report corporate malfeasance. The program, develop=
+ed after the 2008 financial crisis and the Bernie Madoff scandal, establish=
+ed a substantial monetary incentive for whistle-blowers, by allowing them t=
+o share in the proceeds of successful S.E.C. actions. These awards, which a=
+re sometimes referred to as bounties, can range from ten per cent to thirty=
+ per cent of what the errant company ends up paying the government. Since i=
+ts introduction, the program has dispersed more than $1.2 billion in awards=
+. In the words of the former S.E.C. chair Mary Jo White, it has been =E2=80=
+=9Ca game changer.=E2=80=9D</p><p style=3D"margin: 16px 0;">Just after Thom=
+as helped introduce this new regime, he left the government and opened a le=
+gal practice dedicated to representing whistle-blowers who brought cases to=
+ the S.E.C. Today, he is perhaps the foremost attorney representing such wh=
+istle-blowers. =E2=80=A6</p><p style=3D"margin: 16px 0;">Because Thomas is =
+often among the few people who know about the clandestine risks that his cl=
+ients undertake, and about the secret windfalls they receive, he can occasi=
+onally act like their therapist or priest, giving them the faith to perseve=
+re. It helps, of course, that he is one of the designers of the bureaucrati=
+c gantlet they face. =E2=80=9CHe=E2=80=99s the architect of the Matrix,=E2=
+=80=9D the whistle-blower said. =E2=80=9CJordan Thomas built this machine.=
+=E2=80=9D ...</p><p style=3D"margin: 16px 0;">Because he works on contingen=
+cy, his fee is a significant chunk of any rewards that his clients receive.=
+ When the S.E.C. announced, in 2018, that in the Merrill Lynch case it woul=
+d pay two awards, totalling eighty-three million dollars, it was reported t=
+hat Labaton Sucharow could make more than twenty-five million dollars. Thom=
+as expanded his team, bringing on two partners, Rich Levine and Michael Ste=
+venson, who are also former S.E.C. officials.=C2=A0</p></blockquote><p styl=
+e=3D"margin: 16px 0;">If you work in the SEC=E2=80=99s whistle-blower offic=
+e, why=C2=A0<em>wouldn=E2=80=99t=C2=A0</em>you quit after a while to do the=
+ same job but for a cut of the proceeds?</p><p style=3D"margin: 16px 0;">I =
+will say that this is arguably good incentive design. Arguably everyone at =
+the SEC should do a rotation through the whistle-blower office, just to get=
+ a taste for it. As I said above, the revolving door primarily=C2=A0creates=
+ incentives for regulators to be tough, but it secondarily creates incentiv=
+es for them to be polite and=C2=A0clubbable. If your regulatory career is a=
+n audition for a private-sector job, you want the private-sector lawyers yo=
+u deal with to think of you as tough but fair,=C2=A0professional and honest=
+, someone they could see as a colleague. You want to make lots of ambitious=
+ cases and win them, but you don't want everyone to hate you. But if your p=
+ost-SEC career is as a lawyer for whistle-blowers it=E2=80=99s fine if ever=
+yone hates you! That=E2=80=99s the job really! Elon Musk definitely can=E2=
+=80=99t get Jordan Thomas fired! He is a liberating role model for SEC enfo=
+rcers.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bridgewater</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">A good genre of financial news article=
+ is=C2=A0calling people up and asking them to talk trash anonymously about =
+Ray Dalio=E2=80=99s=C2=A0hedge fund Bridgewater Associates. Bridgewater is =
+huge and lucrative, so lots of people want to talk about it, and it=E2=80=
+=99s weird, so they have funny things to say about it. Plus people who used=
+ to work at Bridgewater are weird themselves, and smart and opinionated, so=
+ they=E2=80=99ll give good quotes. So=C2=A0<a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/26404004.266632/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbn=
+QvYTQ5NTU0ZTUtMTNhMi00NzQ2LWE5YzktZDljMGQ5ZTk0ZjNm/607f07ceef4b8524a319a23c=
+B15b130e7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">here=E2=80=99s Robin Wigglesworth at the Financial Times=
+</a>:</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=9CI think he=E2=80=
+=99s trying to figure out what to do. He=E2=80=99s either lost his mojo, or=
+ just doesn=E2=80=99t want to do it any more,=E2=80=9D said one senior form=
+er Bridgewater employee of Dalio. =E2=80=9CHe basically has a firm that is =
+not really structured to be sustainable without him, but isn=E2=80=99t real=
+ly sustainable with him either.=E2=80=9D</p></blockquote><p style=3D"margin=
+: 16px 0;">Sure that=E2=80=99s good, what else you got?</p><blockquote><p s=
+tyle=3D"margin: 16px 0;">=E2=80=9CThe culture is very strong. People either=
+ become true believers, or they leave,=E2=80=9D said the former senior empl=
+oyee. =E2=80=9CRadical transparency has caused a strange culture, but mostl=
+y because of the way it has been executed. It unintentionally turns Bridgew=
+ater into a Real Housewives of LA kind of place.=E2=80=9D</p></blockquote><=
+p style=3D"margin: 16px 0;">Hmm, love it, but can we get more of a European=
+ sports metaphor?</p><blockquote><p style=3D"margin: 16px 0;">=E2=80=9CThey=
+ are the Manchester United of hedge funds,=E2=80=9D said one investor who h=
+as visited Bridgewater=E2=80=99s leafy Westport, Connecticut headquarters b=
+ut declined to invest. =E2=80=9COnce great but these days struggling.=E2=80=
+=9D=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">Terrific. Ray Dalio =
+writes books and does weird public-facing stuff, would anyone be interested=
+ in making fun of those?</p><blockquote><p style=3D"margin: 16px 0;">Not al=
+l of Bridgewater=E2=80=99s clients have been thrilled at the time Dalio has=
+ spent cultivating his public profile. One institutional investor said simm=
+ering concerns over Bridgewater=E2=80=99s growing size, opacity and slippin=
+g returns had been compounded by the amount of media attention it was attra=
+cting, leading them to pull their money out a few years ago.</p><p style=3D=
+"margin: 16px 0;">=E2=80=9CPut very bluntly, we would rather have a hedge f=
+und manager tending the shop and focusing on their fund, rather than writin=
+g books,=E2=80=9D the investor said. =E2=80=9CBridgewater itself became a t=
+alking point.=E2=80=9D</p></blockquote><p style=3D"margin: 16px 0;">I do fe=
+el like this is a criticism that people make of almost every celebrity hedg=
+e fund manager: They start out totally focused on making good investments, =
+they make some good investments, they have good returns, they attract more =
+assets, they get really rich, they go on television, they become convinced =
+that they=E2=80=99re omnicompetent geniuses, they get more interested in go=
+ing on TV and telling people how to solve the world=E2=80=99s problems than=
+ they are in picking investments that will go up. And, sure, why=C2=A0<em>w=
+ouldn=E2=80=99t=C2=A0</em>you follow that path? You=E2=80=99re already rich=
+.</p><p style=3D"margin: 16px 0;">The thing about Bridgewater is that it se=
+ems particularly optimized to make this easier? For one thing, it=E2=80=99s=
+ not clear how much time Dalio needs to devote to picking good investments,=
+ given Bridgewater=E2=80=99s process. (I <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/26404004.266632/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMTYtMDItMDUvYnJpZGdld2F0ZXItcy1ib3NzZXMtYXJlLWZpZ2h=
+0aW5nLW92ZXItc29tZXRoaW5nP2NtcGlkPUJCRDAxMTgyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW=
+09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMDExOCZ1dG1fY2FtcGFpZ=
+249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB43b8499b" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> have joked</a=
+> that Bridgewater has a computer that picks the investments, and a lot of =
+interpersonal drama and management hooey to distract the human employees so=
+ they don=E2=80=99t interfere with the computer.)=C2=A0For another=C2=A0 th=
+ing, it=E2=80=99s not at all clear that Dalio (or the computer)=C2=A0<em>ne=
+eds=C2=A0</em>to pick good investments, since Bridgewater is so huge and fa=
+mous that its clients are sticky in a you-never-get-fired-for-picking-Bridg=
+ewater sort of way. Also Bridgewater=E2=80=99s story is not =E2=80=9Cwe pic=
+k good investments because Ray Dalio is a stock-picking genius,=E2=80=9D <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDItMDEvYnJpZGd=
+ld2F0ZXItYXNzb2NpYXRlcy1wcm92ZXMtc2VsZi1vYnNlc3Npb24tYWN0dWFsbHktd29ya3M_Y2=
+1waWQ9QkJEMDExODIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld=
+3NsZXR0ZXImdXRtX3Rlcm09MjIwMTE4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4=
+b8524a319a23cB1e07af05" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">but rather</a> =E2=80=9Cwe pick good invest=
+ments because we have cracked the code of=C2=A0<em>general management=C2=A0=
+</em>and built a culture that somehow generates good investments as a bypro=
+duct,=E2=80=9D which does=C2=A0seem=C2=A0like it would lend itself to a cer=
+tain generalist overconfidence? =E2=80=9CBy sitting around and rating each =
+other=E2=80=99s faults we have somehow managed to pick stocks that go up, w=
+hich is pretty random, so maybe that technique can be used to solve other, =
+unrelated problems.=E2=80=9D=C2=A0</p><table class=3D"header" width=3D"100%=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Microsoft to Buy Activision Blizzard i=
+n <a href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMTgvbWljcm9=
+zb2Z0LXRvLWJ1eS1hY3RpdmlzaW9uLWJsaXp6YXJkLWluLTY5LWJpbGxpb24tZ2FtaW5nLWRlYW=
+w_Y21waWQ9QkJEMDExODIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlP=
+W5ld3NsZXR0ZXImdXRtX3Rlcm09MjIwMTE4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07c=
+eef4b8524a319a23cB6b96035a" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> $69 Billion</a> Gaming Deal.=C2=A0Cred=
+it Suisse=E2=80=99s Ant=C3=B3nio Horta-Os=C3=B3rio <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/26404004.266632/aHR0cHM6Ly93d3cud3NqLmNvbS=
+9hcnRpY2xlcy9jcmVkaXQtc3Vpc3Nlcy1hbnRvbmlvLWhvcnRhLW9zb3Jpby1sb3N0LWJvYXJkL=
+XN1cHBvcnQtb3Zlci1jb3ZpZC0xOS1ydWxlcy1icmVhY2gtMTE2NDI0NTExNDY_bW9kPWl0cF93=
+c2omcnU9eWFob28/607f07ceef4b8524a319a23cBe16674d1" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">Lost Board Suppo=
+rt</a> Over Covid-19 Rules Breach. Affirm to Put =E2=80=98<a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/26404004.266632/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMTgvYWZmaXJtLXJlYWNoZXMtZGVhbC=
+10by1wdXQtcGF5bWVudC1vcHRpb25zLW9uLXZlcmlmb25lLXN5c3RlbXM_Y21waWQ9QkJEMDExO=
+DIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRt=
+X3Rlcm09MjIwMTE4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB4=
+58f7bb3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">Buy Now, Pay Later</a>=E2=80=99 Options on Verifone System=
+s.=C2=A0London Stock Exchange Proposes Special <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/26404004.266632/aHR0cHM6Ly93d3cud3NqLmNvbS9hcn=
+RpY2xlcy9sb25kb24tc3RvY2stZXhjaGFuZ2UtcHJvcG9zZXMtc3BlY2lhbC1saXN0aW5ncy1mb=
+3ItcHJpdmF0ZS1jb21wYW5pZXMtMTE2NDIyNDg3NDE_bW9kPWhwX2xlYWRfcG9zNA/607f07cee=
+f4b8524a319a23cB5159b32b" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">Listings for Private Companies</a>.=C2=A0=
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMTgvbmlja2VsL=
+XJlc3VtZXMtcmFsbHktYXMtbWV0YWxzLWF3YWl0LW1vcmUtY2hpbmEtc3RpbXVsdXM_Y21waWQ9=
+QkJEMDExODIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR=
+0ZXImdXRtX3Rlcm09MjIwMTE4JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a=
+319a23cB9ce3fddc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;">Nickel Market</a> Caught Up in Fresh Squeeze. Cha=
+math Palihapitiya Sparks Fury After Saying =E2=80=98<a href=3D"https://link=
+.mail.bloombergbusiness.com/click/26404004.266632/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDEtMTgvY2hhbWF0aC1wYWxpaGFwaXRpeWEtdXln=
+aHVyLWNvbW1lbnQtZHJhd3MtbmJhLWludG8tbmV3LWNoaW5hLXJvdz9jbXBpZD1CQkQwMTE4MjJ=
+fTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdG=
+VybT0yMjAxMTgmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB9344=
+fa2d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;">Nobody Cares</a>=E2=80=99 About China=E2=80=99s Uyghurs. =E2=
+=80=9C2021 was a record year for <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/26404004.266632/aHR0cHM6Ly9zZW50aWVvLmRvY3NlbmQuY29tL3ZpZXcv=
+bng5eGs2ZThmcGM2aHJxeg/607f07ceef4b8524a319a23cBf1246a8c" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;">expletive=
+s in conference calls</a>.=E2=80=9D=C2=A0Michael Avenatti Sues Feds for Mis=
+treatment in Prison, Claims Guards Only Let Him Read Trump=E2=80=99s <em><a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632/aHR0=
+cHM6Ly93d3cubWVkaWFpdGUuY29tL3RydW1wL21pY2hhZWwtYXZlbmF0dGktc3Vlcy1mZWRzLWZ=
+vci1taXN0cmVhdG1lbnQtaW4tcHJpc29uLWNsYWltcy1ndWFyZHMtb25seS1sZXQtaGltLXJlYW=
+QtdHJ1bXBzLWFydC1vZi10aGUtZGVhbC8/607f07ceef4b8524a319a23cB4f45deb3" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">Art of the Deal</a></em>.=C2=A0The anime <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/26404004.266632/aHR0cHM6Ly93d3cuZ2FyYmFnZWRheS5lbW=
+FpbC9wL3RoZS1hbmltZS1kdW5lLWRhby1sZWFybnMtYWJvdXQtY29weXJpZ2h0/607f07ceef4b=
+8524a319a23cB953834b1" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">"Dune" DAO</a> learns about copyright. More =
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632/aH=
+R0cHM6Ly93d3cucG9wc2NpLmNvbS9zY2llbmNlL3NrdW5rLWhhbmRzdGFuZC1iZWZvcmUtc3ByY=
+Xk/607f07ceef4b8524a319a23cBb2242a8b" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">skunks can do handstands</a> =
+than we thought.</p><p style=3D"margin: 16px 0;"><span class=3D"news-design=
+ed-for-consumer-media"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0=
+in handy email form, right in your inbox, please=C2=A0<a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/26404004.266632/aHR0cDovL2xpbmsubWFpbC5=
+ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01ND=
+IyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB9dc3ba8c"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">subscribe at this link</a>. Or you can=
+ subscribe to Money Stuff and other great Bloomberg newsletters <a href=3D"=
+https://link.mail.bloombergbusiness.com/click/26404004.266632/aHR0cHM6Ly9sb=
+2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB6c70d636" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">here</a>. =
+Thanks!</em></span></p><p style=3D"margin: 16px 0;"><em>[1]=C2=A0So this pa=
+ssage sounds strange coming from BlackRock: =E2=80=9CBlackRock wants to see=
+ the companies we invest in for our clients evolve and grow so that they ge=
+nerate attractive returns for decades to come. As long-term investors, we a=
+re committed to working with companies from all industries. But we too must=
+ be nimble and ensure our clients=E2=80=99 assets are invested, consistent =
+with their goals, in the most dynamic companies =E2=80=93 whether startups =
+or established players =E2=80=93 with the best chances at succeeding over t=
+ime. As capitalists and as stewards, that=E2=80=99s our job. =E2=80=A6=C2=
+=A0But access to capital is not a right. It is a privilege. And the duty to=
+ attract that capital in a responsible and sustainable way lies with you.=
+=E2=80=9D Access to capital from index funds is kind of a right, if you=E2=
+=80=99re in the index!</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB831519a4" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB6d1340e4" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBfe3ec60b" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBb923f127" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNjQwNDAwNCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjY2NzA2MzYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI98a22809" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D26404004&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26670636&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2640400=
+4.266632/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB97d2213a" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/26404004.266632/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC091fdefd" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/26404004.266632/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBdfec9f01" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/26404004.266632/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBb78b1f37" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBf=
+ecfcf8d" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/26404004.266632/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBe=
+4bed0b4" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D264040=
+04&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26670636&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D264040=
+04&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26670636&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D264040=
+04&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26670636&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D264040=
+04&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26670636&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D264040=
+04&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26670636&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfpxgk.5pqg/6822ea94.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_55915200_1959450727.1642528794654--
+

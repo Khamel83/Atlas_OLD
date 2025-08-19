@@ -1,0 +1,2439 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp2577993rwb;
+        Tue, 21 Mar 2023 11:25:05 -0700 (PDT)
+X-Received: by 2002:a5d:6203:0:b0:2cf:f2f9:5aab with SMTP id y3-20020a5d6203000000b002cff2f95aabmr3399458wru.20.1679423104946;
+        Tue, 21 Mar 2023 11:25:04 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1679423104; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=YFtdjcKQ5lHiLzR61rVeqmwKDQKyysUBAEXQRbauqAk/1CIo9gqlWL/Lq9/DTLE4x0
+         eE74h2Wfa1SPlD3ERIJ3QUXgVg/yHGK8SiKnZqFubgi8eKeq1jZ+Y/tvX6dT9OOV2Elb
+         PMJzU/7WdJLlD3nnKlu1uRworClUai/FQHHIj+DFjr4wGSseU1uvtyNszB7xdEKY5hr9
+         9I21qdY7cF8ZlyT7GsHwYI/eYPqVb31cmBODSHV6ymKLr4+hpXluAHao1dATMhngV348
+         4QJybPuRTQdbaEiBjXgIKWSQ5GIZeH6QWZbZdAmIlN4gDGa6S8HBNAHgOgv/IZ3clkhs
+         x/Cw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=ckwaEcljY5H+G9PLwQ6QrPvPVj23DEIjV4SDymd8k3M=;
+        b=Vf76vN0ONPIWu0gPQXnAXpFzJkw4RxoRSguJARgpGNvRvXYTTW7Nu2N/+vzZp6fpi2
+         F73fT1ywSu8zgyihVIVhfiGSN4e/+i0vwqoll0qqz7y/0CzQf7aWu9NY2nnCE8NNqCbC
+         +X5acy2q7UHqv0ft/T9WoDyFxSCHaAieoP+JRVz1g8ieqK5kH1UPtoTVHdnfGMjQ8nzp
+         L6iMxcuA7x6t68YTYMsairYNmsLCqqVB9GL6RoWWwRz+ngGZ/iJ/E4ScR3ao2RLVloMr
+         8ExmwKsSkMlv4KF4TN7wIcNmfXQi9TgFgrAmwbMGRVP33MlCHCdReDDF3rR4i5aZQ2bm
+         Uvpw==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=kJLE3Xsh;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id p9-20020a5d4e09000000b002c7084e4085sor5291512wrt.29.2023.03.21.11.25.04
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 21 Mar 2023 11:25:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=kJLE3Xsh;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112; t=1679423104;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=ckwaEcljY5H+G9PLwQ6QrPvPVj23DEIjV4SDymd8k3M=;
+        b=0MMIkF2P86jpe8XTbo6vphktkFxmypKEk8exe7vwwXbmP2B1wmTsjbI/0uvPpEgmWu
+         2+hsp5R63NwqgyWbjUJLypCoOvw71ak/AB3UkDZFRCs/DvjmiP98lhk22ncBA78olZ2b
+         ABPUHQdNKCULFD9j2HWrWLgg5Rw3yDAuw+BTKYGEzgGwSuIlLmnxQNU7IXqQsDosUg3X
+         MRLKWlWWhDAioYyHwKG1wWKL6wsLr9krgPVGuoxdXAb/vpjQtR85d5/owN3+bi1b3VFz
+         moSYUxVU8i/mVumUEerImVNz/KDHBoxPk/fgRo2ZfPjJOrIfPvRJlHDR5brVd9bCiDtZ
+         bf7Q==
+X-Gm-Message-State: AO0yUKXFJQfC8Ys0YqS3tQ3bMujXW35VVtooYA+DJHgD+RV99RIr847L
+	rliIXoWOgKoKfk4FDSMBmpWUQ77L+NnKk54Wu+XfBUyRePqcnmLZkg==
+X-Received: by 2002:adf:edc8:0:b0:2cf:f30f:cc08 with SMTP id v8-20020adfedc8000000b002cff30fcc08mr856418wro.8.1679423104442;
+        Tue, 21 Mar 2023 11:25:04 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:5412:0:0:0:0:0 with SMTP id g18csp2073564wrv;
+        Tue, 21 Mar 2023 11:25:01 -0700 (PDT)
+X-Received: by 2002:a7b:c4d1:0:b0:3ed:62c0:c6c4 with SMTP id g17-20020a7bc4d1000000b003ed62c0c6c4mr3299683wmk.17.1679423100997;
+        Tue, 21 Mar 2023 11:25:00 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1679423100; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=ANuXjhNrBe9e9i8uxnB5bci55WnRazzlN/k1oE65AXRhX8y2aCSsLq5qB0nJ1dve89
+         m6hOQkscqFJR4dBeUrP5cZf83wPsTpPHo9M+3Xr0CbgHIG/tMByPev1Wiojjw6FQ1mNQ
+         cGyzGbWJlE1qROcy4XecqKr0eGDOh4Seyvl/XtEnyFeXOEfPAtHoWIfX0IQyaTuk8Xx7
+         ngMInmefIvFE5ArA8J20lc6hhxE2B/QKJ4Z+WDgxH81V4leOdEVVzdatNpCvzcjcsgYQ
+         7mSYrpIpdtAK8vLh6AhBX2036PjT3fvce1vAN0yResVtoeIw9b1yQPfA52rmyyjPwY0N
+         wJJg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=ckwaEcljY5H+G9PLwQ6QrPvPVj23DEIjV4SDymd8k3M=;
+        b=oXmFZXeBEZRRfUP35QBBuTsHhJ7R4i45aycJxI8U7MzGHA+6WXeF022IyBf+PhgshG
+         8+FOUQhTEGj5Y8zA7Rk77Xx0GAfGS3KzHQkWVHyU089vHMRXf0wSoH5qVEaY8LfvkAp4
+         DjryYNCZcosvrxyYzBaXHf6onJMjw8VzbGiLW7a0v2vijOrJQigdZILTf4XnKQSza7X6
+         eFGGkkDAv9gHQW7Mgiq4r1HxTBTMqU+jmTL0wHOuK+I8ySLkcdsQOJ/YfJVG5pDN9CGa
+         ucW7tbCsj1O9HUk48mRABSTWcbvxRpElEckYJsznrsi3eANi8Iw9U9CI08q7TQNbHbK0
+         LZdg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=kJLE3Xsh;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230321142355.30911506.258434@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230321142355.30911506.258434@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230321142355.30911506.258434@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id q20-20020a7bce94000000b003eb39c3482csor3650124wmj.35.2023.03.21.11.25.00
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 21 Mar 2023 11:25:00 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230321142355.30911506.258434@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AK7set+zI2meiV+JNOJ2E/spos23G2IaADlI0BUtBSnXaK76VVyQx4dKdGcEv9N+CpH6mniBfa9SKBLCaFQiHY4uQZVH0HVWkCQ=
+X-Received: by 2002:a1c:f210:0:b0:3eb:39e0:3530 with SMTP id s16-20020a1cf210000000b003eb39e03530mr3096747wmc.41.1679423100638;
+        Tue, 21 Mar 2023 11:25:00 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1679423100; cv=none;
+        d=google.com; s=arc-20160816;
+        b=y/Yhe0yxZcQckmUOAGKqPMYGEsMiPH93KfYsrMycA8+N8Svg9VfL3yODZrt9UzTgn/
+         mxA7pvw4/d0p8gxXvL8zCIfoeAwPohNh9wPg4T6axDOntg1vldf/qdb27oeCVuhZhIj8
+         TMgRvi0piz0RFILJ1j9BrRhwl6p7AzYE5BVOhBtt3PzsguYJrti/3dIXVt0sUVvyc8cN
+         S2uBTY7egF26I1y7t1jOqjtAjTZw9WqGPdFa5KCJY95jyuKYUHlSxhHsWx6KAmC5l4cm
+         1QXC7pwv51HoTBypAHEPhq/X4qD0e5GWHjzmhZ21x3tGqMSsTg+08oYpMy1BSAVZsTko
+         1rIg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=ckwaEcljY5H+G9PLwQ6QrPvPVj23DEIjV4SDymd8k3M=;
+        b=SnKxerZGL7NFXGpDdC8ftz3225El29XUS6ziw1TzeMZztScO66nxSM9Fp0OZmYos54
+         pM9vx+1m5OYsmNbJW/8oEfrq0+LCsZ/s3SEaAdTKE69ZNh1yrwG1fYaMWK7Q+tMiM4lY
+         b4FFjPBlNzle7SwLcWU+PCcry558CLo1b8e6UExtsQEkWpQQxrxG+fwg+aObC0msYfNT
+         jXI+i8BEJXWGqFAxeseAf2wTSAfSDeSSzOriFEn4sAUiMaSSlcYxIUZVuJdp4YAw801d
+         dGaSQBiNQQYbRpiSyQy7amfUSA6Gy/iHw+QvHoLmFlqEJYInJl1NnptKtIg70ZyqPpd3
+         fy4g==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=kJLE3Xsh;
+       spf=pass (google.com: domain of delivery_20230321142355.30911506.258434@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230321142355.30911506.258434@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230321142355.30911506.258434@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id az38-20020a05600c602600b003edf4802580si149743wmb.2.2023.03.21.11.24.59
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 21 Mar 2023 11:25:00 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230321142355.30911506.258434@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=UY9iGffzviT8+Ynumk4W7k6gAHTKbsEcpoCigktmSFE=;
+ b=kJLE3Xsho3s0mnWSVCXla8AHEdVh52hIUATXFqINRD0ct2cJhYQOML5y7duEfhor2NCHb3xjcTTo
+   7IBzI3GFC+z3MNWNFhOkluHtmor40X78XFnbCObIExh23rlEZv1BgmTqxrptyHtpXaMEGa9m8Hir
+   aR9VVdKCO0A25kgnUoU=
+Received: from njmta-53.sailthru.com (173.228.155.53) by bloomberg-b.sailthru.com id h37r7k30nu8v for <bloomberg@khamel.com>; Tue, 21 Mar 2023 14:24:58 -0400 (envelope-from <delivery_20230321142355.30911506.258434@mx.sailthru.com>)
+Received: from nj1-hotheart.flt (172.18.20.32) by njmta-53.sailthru.com id h37r7k1qqbsb for <bloomberg@khamel.com>; Tue, 21 Mar 2023 14:23:55 -0400 (envelope-from <delivery_20230321142355.30911506.258434@mx.sailthru.com>)
+Date: Tue, 21 Mar 2023 14:23:55 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230321142355.30911506.258434@sailthru.com>
+Subject: Money Stuff: JPMorgan Had Some Fake Nickel
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8733266_40787416.1679423035140"
+Precedence: bulk
+X-Feedback-ID: 6358:30911506:campaign:sailthru
+X-TM-ID: 20230321142355.30911506.258434
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-hotheart.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ciejgy.5jeq/131535b9
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ciejgy.5jeq/131535b9>, <mailto:unsubscribe_20230321142355.30911506.258434@mx.sailthru.com>
+X-rpcampaign: stjko30911506
+
+------=_Part_8733266_40787416.1679423035140
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        If you want to make batteries or cars, you might need nickel. If yo=
+u buy some nickel from a nickel merchant, and she delivers it to you, and
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Notional nickel
+   =20
+ =20
+
+If you want to make=C2=A0batteries or cars, you might need nickel. If you b=
+uy some nickel from a nickel merchant, and she delivers it to you, and you =
+open the box, and the box is full of rocks painted to look like nickel, you=
+ will be disappointed. You will not be able to make a battery or a car with=
+ a box of rocks.
+If you are in the business of building batteries or cars, you might want to=
+ hedge your exposure to global nickel prices by trading nickel futures on a=
+n exchange like the London Metal Exchange. Or if you are a hedge fund or ba=
+nk with a view on commodity prices, you might want to trade nickel=C2=A0fut=
+ures to express that view. These futures do not, in the first instance, inv=
+olve any nickel. If you buy nickel futures, it is purely a financial trade:=
+ If the price of nickel goes up between now and when the futures expire, yo=
+u get paid money; if it goes down, you pay money. You buy the nickel for th=
+e batteries or cars through normal industrial channels =E2=80=94=C2=A0your =
+nickel merchant=C2=A0delivers nickel in the types and quantities you need=
+=C2=A0=E2=80=94=C2=A0and the point of the futures=C2=A0is just to have a fi=
+nancial hedge to your cost of buying actual nickel.
+But for the futures to work they need to have some connection to actual nic=
+kel, which means that the futures are=C2=A0deliverable:=C2=A0If you own nic=
+kel futures that are about to expire, instead of cashing them out you can i=
+nstead pay the money and take delivery of the nickel. A staple of trading-f=
+loor comedy is the story=C2=A0that some junior trader forgot to cash out he=
+r open futures position and so one morning five trucks full of nickel showe=
+d up outside the office, but in fact it would be exceedingly impractical to=
+ never know whether or where you might=C2=A0have to deliver cargos of nicke=
+l, so the LME has a more efficient system. The system is that there are cer=
+tain warehouses affiliated with the LME that store a certain amount of nick=
+el on behalf of nickel futures traders, and =E2=80=9Cdelivery=E2=80=9D of n=
+ickel when a contract expires consists of changing the ownership of some of=
+ the nickel in one of the warehouses.
+  [1]
+=C2=A0If I own nickel in an LME warehouse and sell a futures contract, and =
+you buy the contract, and you let it expire and take delivery of the nickel=
+, what you actually get is a little notation =E2=80=94=C2=A0called a =E2=80=
+=9Cwarrant=E2=80=9D =E2=80=94=C2=A0saying that now you own the nickel in th=
+e warehouse.
+If one night a supervillain snuck into all the LME warehouses and stole all=
+ the nickel, and replaced it with rocks, and hypnotized all the guards into=
+ thinking it was still there, and hacked into the security cameras to make =
+them show that the nickel was still there, it is tempting to think that the=
+ futures market could continue=C2=A0indefinitely in blissful ignorance.=C2=
+=A0It is primarily a financial market, not an industrial one; if you get a =
+warrant on LME warehouse nickel you are probably=C2=A0not going to go to th=
+e warehouse immediately to take possession of your nickel and turn it into =
+cars or batteries. Like  Yap money stones, the warehouse nickel is still us=
+eful for financial trading even if it is=C2=A0not actually there, or=C2=A0n=
+ot actually nickel.
+But to make the financial contracts work, there has to be some connection b=
+etween the warehouse nickel and regular=C2=A0nickel. It has to be=C2=A0poss=
+ible=C2=A0to take warehouse nickel out of the warehouses to transform into =
+cars or batteries, or to put nickel into the warehouses if you don=E2=80=99=
+t need it for industrial uses. There is a thin connection between the abstr=
+act financial nickel in the warehouses and the industrial nickel in the rea=
+l world, but there is a connection.=C2=A0Nickel=C2=A0and people=C2=A0do hav=
+e to go in and out of the warehouses. And if you go into a warehouse to tak=
+e out some nickel and find out that it=E2=80=99s rocks, that=E2=80=99s =E2=
+=80=A6=C2=A0bad? Kind of bad? Not=C2=A0that=C2=A0bad? Funny? Philosophicall=
+y illuminating?
+Bloomberg=E2=80=99s   Jack Farchy, Archie Hunter and Mark Burton report:
+
+JPMorgan Chase & Co. owned the London Metal Exchange nickel contracts that =
+turned out to be backed by bags of stones rather than metal, according to p=
+eople familiar with the matter.
+The LME last week announced it had canceled nine nickel contracts =E2=80=94=
+ worth about $1.3 million =E2=80=94 after discovering =E2=80=9Cirregulariti=
+es=E2=80=9D at a certain warehouse, which Bloomberg has reported was owned =
+by Access World. The news has been met with shock in the metals world, beca=
+use LME contracts are generally viewed as beyond question.
+JPMorgan was the owner of the nine invalidated contracts, according to peop=
+le familiar with the matter. The bank registered the bags of material as be=
+ing deliverable against LME contracts in early 2022, said the people, who a=
+sked not to be identified discussing private information.
+There=E2=80=99s no suggestion that JPMorgan did anything wrong. The materia=
+l was already inside Access World=E2=80=99s Rotterdam warehouse when the ba=
+nk bought it several years ago, according to one of the people.
+
+It=E2=80=99s so good. JPMorgan, which does not make batteries or cars, boug=
+ht bags of abstract nickel years ago. It took delivery of that nickel, not =
+in the sense that a truck full of nickel showed up on Park Avenue but in th=
+e sense that an entry was made, on the ledger of the warehouse, saying that=
+ the bags of nickel in Row X, Shelf Y now belonged to JPMorgan.
+JPMorgan then used that nickel for its intended purposes for years. Those p=
+urposes were to=C2=A0write financial contracts referencing that nickel. The=
+ nickel worked perfectly well for those purposes =E2=80=94=C2=A0JPMorgan=E2=
+=80=99s derivative contracts traded and paid off normally =E2=80=94=C2=A0fo=
+r years, even though the nickel was not in fact nickel, just bags of rocks.
+And then one day a warehouse worker, like, stubbed his toe against JPMorgan=
+=E2=80=99s nickel and was like =E2=80=9Chmm that=E2=80=99s not the sound ni=
+ckel makes when you kick it=E2=80=9D and opened the bags and found rocks.
+  [2]
+=C2=A0And then the LME dutifully reported that some nickel was not nickel, =
+and JPMorgan=E2=80=99s nickel warrants were transformed into rocks warrants=
+.
+  [3]
+=C2=A0But it=E2=80=99s all just a random accident? The purpose of JPMorgan=
+=E2=80=99s nickel was not to be turned into batteries or cars, but to sit i=
+n a warehouse. It was doing a great job of that, until someone noticed!
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Rule of law
+   =20
+ =20
+
+An uncontrolled bank failure is very bad for everyone. Banks are not genera=
+lly constructed=C2=A0in such a way that they could withstand all their mone=
+y fleeing at once: If there is a run and all the depositors take their mone=
+y out at once, the bank will be forced to sell everything hastily and will =
+probably end up without enough money to pay back the depositors, leaving ot=
+her creditors and shareholders with nothing. At a big international bank=C2=
+=A0that is active in the capital markets, this problem is probably worse:=
+=C2=A0Derivatives counterparties and overnight lenders will flee, traders w=
+ill bet against the bank=E2=80=99s positions, markets will be stressed and =
+the bank will probably=C2=A0collapse rapidly and in a way that leaves too l=
+ittle value for everyone.
+If you are a national bank regulator and one of your biggest banks seems to=
+ be teetering on the edge of an uncontrolled failure, here are some things =
+that are generally true:
+=09You know that an uncontrolled failure would be bad for that bank, for it=
+s shareholders and creditors and depositors and other stakeholders.=09You k=
+now that they know it.=09You know that an uncontrolled failure would be bad=
+ for the rest of your banking system, and your economy, and the world=E2=80=
+=99s banking system.=09You are not inclined to run a risk of that happening=
+ at, you know, a 30% or 40% probability. =E2=80=9CEhh let=E2=80=99s see wha=
+t happens, maybe it won=E2=80=99t fail, maybe everything will be fine=E2=80=
+=9D: not usually the position of the national bank regulator.=09You will wa=
+nt to arrange some sort of rescue, preferably one where the struggling bank=
+ is acquired by a bigger and more solid bank, not-preferably-but-inevitably=
+ one where the national regulator and central bank provide some guarantees =
+to the acquirer to further reassure the market.=09You know that the bigger =
+and more solid bank can=E2=80=99t really say no to doing the rescue: It=C2=
+=A0also=C2=A0knows that an uncontrolled failure of the struggling bank woul=
+d be very bad for the rest of the banking system, and for itself, and that =
+you can make things particularly bad for it if it says no.=09You pretty muc=
+h have to do any rescue between the close of US markets on Friday and the o=
+pening in Asia on Monday: Doing it during market hours is too chaotic, and =
+doing it overnight on a weekday doesn=E2=80=99t give you enough time.=09Bet=
+ween the time that you start getting nervous and the time that you actually=
+ do the rescue, you have to put a brave face on things. =E2=80=9CStruggling=
+ Bank is doing just great, its capital and liquidity are strong, it has acc=
+ess to very large but not at all panicky central bank liquidity facilities,=
+ what are you even talking about, why would anyone worry,=E2=80=9D you say =
+at the press conference on Wednesday, and then you go back to your office t=
+o continue arranging a rescue for the weekend.
+
+This is all a pretty standard playbook for, you know, once-a-decade-or-two =
+banking crises, but it is not really=C2=A0written down=C2=A0anywhere, excep=
+t eventually in the memoirs of central bankers and regulators.=C2=A0Mostly =
+for good reasons, there will not be a law saying, like, =E2=80=9Cif the nat=
+ional bank regulator is worried about a 20% probability of an uncontrolled =
+bank failure, she can pick a different bank and force it to buy the struggl=
+ing bank over a weekend, and name her own price.=E2=80=9D It=E2=80=99s just=
+, if you are the regulator, you kind of know you can do that, and you know =
+that you should, and you know that the relevant bankers also know it.
+And so if you meet with the chief executive officer of the struggling bank =
+on Thursday and say =E2=80=9Chey your biggest rival is gonna buy you this w=
+eekend at a 90% discount to your closing stock price tomorrow,=E2=80=9D and=
+ he says =E2=80=9Cwhat, no, what gives you the right to do that,=E2=80=9D y=
+ou can just sort of stare at him for a minute and he=E2=80=99ll say =E2=80=
+=9Coh right=E2=80=9D and agree to the deal.=C2=A0
+He is a banker and his counterpart is a banker and you are a bank regulator=
+ and you all know the unwritten rules, but not everyone does. The strugglin=
+g bank=E2=80=99s=C2=A0shareholders, for instance, might get angry about bei=
+ng forced to sell their shares at a 90% discount. =E2=80=9CThis is illegal,=
+ we have rights,=E2=80=9D they might say. And your response might reasonabl=
+y be =E2=80=9Cwell, no, if we hadn=E2=80=99t done this deal over the weeken=
+d, the bank would have gone into uncontrolled failure, which would have had=
+ many very bad consequences, the least consequential of which is that your =
+shares would be worth zero, so be happy you got something.=E2=80=9D
+But=C2=A0their response might reasonably be: =E2=80=9CWhat? Prove it. I don=
+=E2=80=99t know that the bank would have gone to zero over the weekend, and=
+ in fact on Wednesday you were saying that its capital position was great a=
+nd there was nothing to worry about. Now you are telling me it=E2=80=99s a =
+zero, but I don=E2=80=99t believe you.=E2=80=9D
+And for various reasons, it will be=C2=A0hard=C2=A0for you to prove that th=
+e bank was going to zero. For one thing, you did=C2=A0keep saying everythin=
+g was fine. And there is a general fog of war and   quantum uncertainty of =
+bank assets. And it is hard to prove the counterfactual: The stuff you did =
+to stabilize the system over the weekend might have made the struggling ban=
+k solvent. Also, though, you might be wrong? Like, if you thought there was=
+ a 30% chance of an uncontrolled failure, you probably took decisive steps =
+to end it over the weekend, which means there was a 70% chance you were wro=
+ng. Not a risk you wanted to take, as a bank regulator, but maybe one the s=
+hareholders would have been willing to take.
+Or politicians might say =E2=80=9Cwhat gave you the right to do this bank m=
+erger=C2=A0over the weekend, put thousands of bankers out of work,=C2=A0and=
+ promise tons of taxpayer money to backstop the combined bank?=E2=80=9D And=
+ you will mutter a legal answer =E2=80=94=C2=A0you do=C2=A0have=C2=A0lawyer=
+s, and they can make creative use of the written rules in an emergency =E2=
+=80=94=C2=A0but the real deep intuitive answer is that bank rescues follow =
+an unwritten and ad hoc playbook=C2=A0and you did what you thought you had =
+to. But nobody wants to hear that answer and you will save it for your memo=
+ir.
+The Financial Times has a particularly  brisk and brutal account of how the=
+ Swiss =E2=80=9Ctrinity=E2=80=9D =E2=80=94=C2=A0the Swiss National Bank, th=
+e Financial Markets Supervisory Authority and the minister of finance =E2=
+=80=94=C2=A0forced UBS Group AG to buy Credit Suisse Group AG over the week=
+end. All the elements are there. There=E2=80=99s the worry about an uncontr=
+olled failure due to bank run:
+By Friday evening, when it was revealed that UBS was exploring a state-mand=
+ated takeover, Credit Suisse had lost another SFr35bn in client deposits ov=
+er the preceding three days, according to a banker involved in the deal, an=
+d international banks from BNP Paribas to HSBC were cutting ties. Regulator=
+s concluded that it would probably not be able to open on Monday.
+There is the peremptory order to the struggling bank:
+In the same meeting where they authorised the SFr50bn backstop [on Wednesda=
+y], they also delivered another message: =E2=80=9CYou will merge with UBS a=
+nd announce Sunday evening before Asia opens. This is not optional,=E2=80=
+=9D a person briefed on the conversation recalls.
+Note that this was the=C2=A0meeting last week=C2=A0at which Finma and the S=
+NB announced a liquidity backstop for Credit Suisse;  the announcement said=
+ =E2=80=9CFINMA confirms that Credit Suisse meets the higher capital and li=
+quidity requirements applicable to systemically important banks=E2=80=9D an=
+d that =E2=80=9Cthere are no indications of a direct risk of contagion for =
+Swiss institutions due to the current turmoil in the US banking market.=E2=
+=80=9D Even as the regulators were telling the=C2=A0market that everything =
+was fine and Credit Suisse was not in trouble, they were telling Credit Sui=
+sse=C2=A0that it was all over.
+There is the peremptory order to UBS, which understood that uncontrolled fa=
+ilure of Credit Suisse would be a catastrophe for UBS as well:
+
+The trinity called UBS and ordered the group to find a solution to save its=
+ ailing peer from bankruptcy.
+=E2=80=9CResolution [a government-controlled wind-down] would have been a d=
+isaster for the financial system and introduced the threat of contagion aro=
+und the world,=E2=80=9D says another person involved on the UBS side. =E2=
+=80=9COur interests were also aligned because a failure is not good for the=
+ Swiss wealth-management brand. So we said, on the right terms, we would he=
+lp.=E2=80=9D
+
+There was some pushback from Credit Suisse:
+
+[Credit Suisse Chairman Axel] Lehmann=E2=80=99s communique also carried a t=
+hreat. He wrote that Credit Suisse=E2=80=99s three biggest shareholders =E2=
+=80=94 including two from Saudi Arabia and one from Qatar =E2=80=94 had exp=
+ressed their =E2=80=9Cextreme discomfort=E2=80=9D with the opacity of the d=
+eal. They demanded to see a fair price, a vote on the deal and that any get=
+-out clauses be removed. The letter also noted that the Saudis and Qataris =
+were large clients of both banks.
+In response, on Saturday evening [UBS Chairman Colm] Kelleher called his co=
+unterpart at Credit Suisse from outside a restaurant to tell him UBS was pr=
+epared to offer $1bn in stock for the whole group, about SFr0.25 a share, f=
+ar below the SFr1.86 closing price on Friday.
+The government then informed Credit Suisse it would introduce emergency leg=
+islation to strip both sets of shareholders of the right to vote on the dea=
+l.
+Credit Suisse was outraged and refused to sign.
+
+But it had no real leverage:
+
+Under pressure to get a deal done before the end of the day, the trinity st=
+arted to ramp up pressure on both sides, threatening to remove the Credit S=
+uisse board if they did not sign off. ...
+The final terms were still so favourable to UBS they were =E2=80=9Can offer=
+ we couldn=E2=80=99t refuse=E2=80=9D, a person on the negotiating team told=
+ the FT. An adviser to Credit Suisse described them as =E2=80=9Cunacceptabl=
+e and outrageous=E2=80=9D and a =E2=80=9Ctotal disregard of corporate gover=
+nance and shareholder rights=E2=80=9D.
+
+But the shareholders also complained
+  [4]
+:
+
+Its Middle Eastern shareholders were also incensed.
+=E2=80=9CYou make fun of dictatorships and then you can change the law over=
+ the weekend. What=E2=80=99s the difference between Saudi Arabia and Switze=
+rland now? It=E2=80=99s really bad,=E2=80=9D says one person close to one o=
+f the three major shareholders.
+
+One difference is that the Swiss regulators did not bring the chairmen of C=
+redit Suisse and UBS to a hotel and   torture them until they agreed to the=
+ deal. (This is in part because the chairmen of Credit Suisse and UBS are e=
+xperienced bankers who know how this is supposed to go, though also for oth=
+er reasons.) Still I=C2=A0mean you can see their point. Bloomberg=E2=80=99s=
+   Hugo Miller and Dylan Griffiths write:
+
+For decades, Switzerland has sold itself as a haven of legal certainty for =
+bond and equity investors. The collapse of Credit Suisse Group AG revealed =
+some unpleasant home truths.=C2=A0
+In the race to secure UBS Group AG=E2=80=99s purchase of its smaller rival =
+over the weekend, the government invoked the need for stability and emergen=
+cy legislation to override two key aspects of open markets: competition law=
+ and shareholder rights. Then bondholders discovered that $17 billion worth=
+ of so-called Additional Tier 1 debt was worthless.=C2=A0
+Aside from the sense of shame brought on by the bank=E2=80=99s collapse, le=
+gal observers say these three surprises raise some fundamental questions ab=
+out the primacy of Swiss banking law and also sows doubt with foreign inves=
+tors about putting money in the country.
+=E2=80=9CForeign investors may wonder if Switzerland is a banana republic w=
+here the rule of law doesn=E2=80=99t apply,=E2=80=9D said Peter V. Kunz, a =
+professor specialized in economic law at the University of Bern. The countr=
+y =E2=80=9Cis not endangered, but there might be the risk of lawsuits=E2=80=
+=9D because authorities =E2=80=9Cintervened here on very thin ice.=E2=80=9D=
+=C2=A0
+Kern Alexander, a professor of law and finance at the University of Zurich,=
+ agreed, saying crisis management was carried out in a =E2=80=9Cpanicked=E2=
+=80=9D way that =E2=80=9Cundermined the rule of law and undermined Switzerl=
+and.=E2=80=9D=C2=A0
+
+I guess. One can always find fault with these rescues, in part due to fog-o=
+f-war and hard-to-prove-the-counterfactual reasons and in part because, you=
+ know, why=C2=A0wouldn=E2=80=99t=C2=A0people panic in a crisis. But to me, =
+the Credit Suisse rescue looks more or less like the standard playbook. Whi=
+ch doesn=E2=80=99t mean that it followed the rules and upheld the rule of l=
+aw.=C2=A0That=E2=80=99s not how these things generally go.
+
+ =20
+   =20
+      AT1s
+   =20
+ =20
+
+For example, I   wrote yesterday about how Credit Suisse=E2=80=99s addition=
+al tier 1 capital securities were zeroed by this deal, even as Credit Suiss=
+e=E2=80=99s shareholders got something (though not much). There are about 1=
+6 billion Swiss francs of AT1s outstanding, and their holders are very upse=
+t about this treatment and contemplating suing. The AT1s are, nominally, se=
+nior in the capital structure to the common stock, so it is weird for them =
+to get nothing when the common gets something.
+The AT1s are basically bonds that pay interest, but there is a provision in=
+ the bonds saying that they get written down to zero if (1) Credit Suisse=
+=E2=80=99s common equity tier 1 capital falls below 7% or (2) the Swiss reg=
+ulators decide that zeroing them is necessary to keep Credit Suisse solvent=
+.
+My point yesterday was that the first trigger =E2=80=94=C2=A0the 7% capital=
+ ratio trigger =E2=80=94=C2=A0necessarily=C2=A0means that the AT1s are some=
+times junior to the common stock: If the common equity capital ratio falls =
+to 5%, then (1) there is value remaining for the equity (5% of risk-weighte=
+d assets!) but (2) the AT1s get triggered and written down to zero.
+But I conceded that that is not exactly what happened to Credit Suisse=E2=
+=80=99s AT1s: Credit Suisse did not make a determination that its capital r=
+atio=C2=A0fell below 7% and then deliver that notice to the holders in acco=
+rdance with the terms to force a writedown. Part of the reason it did not d=
+o this was urgency, fog of war, etc.
+But part of the reason is that Credit Suisse=E2=80=99s capital ratio never =
+fell below 7%. A week ago,  Credit Suisse reported that its common equity t=
+ier 1 capital ratio, as of the end of 2022, was 14.1%. Last Wednesday, as I=
+ mentioned above, the Swiss regulators affirmed =E2=80=9Cthat Credit Suisse=
+ meets the higher capital and liquidity requirements applicable to systemic=
+ally important banks,=E2=80=9D=C2=A0as of Wednesday; those requirements inc=
+luded a 10% common equity tier 1 capital ratio.
+  [5]
+
+And then Credit Suisse sold for about CHF 3 billion to UBS over the weekend=
+. On the one hand, an equity value of CHF 3 billion is quite small,=C2=A0ro=
+ughly 0.6% of its total book assets as of the end of 2022, and about 1.2% o=
+f risk-weighted assets, suggesting that the=C2=A0actual=C2=A0value of Credi=
+t Suisse=E2=80=99s equity was well below 7%. On the other hand, that=E2=80=
+=99s not how capital accounting works, and it seems like for accounting pur=
+poses UBS is allowed to treat Credit Suisse as though it=C2=A0was solvent a=
+nd well capitalized and its assets were worth far more than its liabilities=
+. UBS=E2=80=99s  investor presentation notes that it got CHF 56 billion of =
+badwill from the deal, meaning that for accounting purposes it bought CHF 5=
+9 billion worth of equity for CHF 3 billion, and CHF 59 billion of equity w=
+ould leave Credit Suisse quite well capitalized.
+  [6]
+
+So as a matter of rough justice, the AT1s going to zero while the common st=
+ock went almost-but-not-quite to zero seems very fair and expected to me. O=
+n the other hand, as a legal reading of the documents, this argument doesn=
+=E2=80=99t really work.=C2=A0
+Instead, the AT1s got zeroed through a more ad hoc regulatory determination=
+ that it was necessary to zero them to save the bank. And the problem there=
+ is (1) you can second-guess that determination and (2) you can argue that,=
+ if it was necessary to zero the AT1s, then it was=C2=A0also=C2=A0necessary=
+ to zero the common stock, so preserving value for the common undermines th=
+e case for zeroing the AT1s.
+I am not super-sympathetic to those arguments, but they are not trivial, an=
+d they are the sort of arguments that come out of an ad hoc desperate weeke=
+nd rescue of a big bank.=C2=A0And in particular, the Swiss regulators=E2=80=
+=99 insistence that Credit Suisse was well capitalized both last week (when=
+ they were trying to calm markets) and this week (when they don=E2=80=99t w=
+ant to leave UBS with a giant capital hole) makes it harder for them to arg=
+ue that the AT1s needed to be triggered. There is a real tension between th=
+e standard regulatory responses of (1) insisting that everything is fine an=
+d also (2) taking drastic emergency actions.
+Anyway, this isn=E2=80=99t over.=C2=A0Bloomberg reports:
+US law firm Quinn Emanuel Urquhart & Sullivan said it will host a call for =
+[AT1] bondholders on Wednesday with representatives from its offices in Zur=
+ich, New York and London to talk through the =E2=80=9Cpotential avenues of =
+redress which bondholders should be considering.=E2=80=9D=C2=A0
+ And:
+
+Dealers including JPMorgan Chase & Co. and Morgan Stanley are willing to bu=
+y risky Credit Suisse debt known as additional tier 1 bonds, or AT1s, for s=
+omewhere around 2 cents on the dollar and sell somewhere around 5 cents as =
+of early afternoon on Monday in New York, according to the people. The Swis=
+s bank said on Sunday that the bonds would be written down to zero as a con=
+dition of the rescue of the bank. =C2=A0=C2=A0
+Other banks, including BNP Paribas SA, BTIG, Jefferies Financial Group Inc.=
+, as well as JPMorgan and Morgan Stanley, are also getting involved, accord=
+ing to the people, who asked not to be identified discussing private trades=
+. Goldman Sachs Group Inc. traders were preparing to take bids on claims ag=
+ainst the bonds in messages circulated late Sunday, according to separate p=
+eople with knowledge of the matter.=C2=A0
+
+That=E2=80=99s basically a bet=C2=A0that you can get someone (a court, a go=
+vernment) to second-guess the Swiss authorities=E2=80=99 decision to zero t=
+he AT1. The market odds on that bet are between 20-to-1 and 50-to-1, so a l=
+ong shot but not utterly hopeless.
+
+ =20
+   =20
+      CCAs
+   =20
+ =20
+
+One charming thing about Credit Suisse in recent years is that it had a hab=
+it of paying its employees with its weirdest assets. It was happy to give i=
+ts managing directors bonuses consisting of, like,  toxic mortgage assets, =
+or   derivatives=C2=A0counterparty credit exposure. The idea was that, if C=
+redit Suisse had stuff on its books that looked bad for regulatory capital,=
+ and that the market didn=E2=80=99t want, but that Credit Suisse thought wa=
+s good, then it would=C2=A0give that stuff to its employees. This was cleve=
+r both as a matter of aligning incentives (bankers would be more careful if=
+ they had to eat their own cooking in their personal accounts) and as a mat=
+ter of dis-aligning incentives (the bankers, after all, were picking=C2=A0w=
+hich=C2=A0bits of their cooking got jammed into their PAs, and might have  =
+ picked the good bits).
+But eventually this got a bit more standardized, so that instead of paying =
+employees in whatever weird exposures it had lying around, Credit Suisse st=
+arted paying part of their bonuses in one particular weird exposure. It was=
+ =E2=80=A6=C2=A0oh no =E2=80=A6=C2=A0it was additional tier 1 contingent ca=
+pital securities!=C2=A0The things that got zeroed this weekend! Bad choice.
+Except that the bonuses weren=E2=80=99t exactly paid in the AT1 bonds that =
+were publicly traded and were zeroed this weekend. Instead, they got paid =
+=E2=80=9CContingent Capital Awards=E2=80=9D with very similar terms, includ=
+ing that the awards would go to zero if capital fell too low or to prevent =
+insolvency or a public rescue.
+  [7]
+=C2=A0So did they get zeroed over the weekend along with the public AT1 bon=
+ds, or not? I don=E2=80=99t know! Maybe not? Bloomberg=E2=80=99s=C2=A0  Har=
+ry Wilson and Marion Halftermeyer report:
+
+These were meant to mirror risky bonds that were=C2=A0wiped out=C2=A0in the=
+ takeover but had yet to be written down to zero before the Swiss statement=
+ landed, a person familiar with the matter said earlier Tuesday.
+The CCA awards were worth about 360 million francs ($388 million) at the en=
+d of 2022. One of the conditions of the awards is that the instruments have=
+ no value in the event of a collapse of the bank. But the nature of the res=
+cue =E2=80=94 couched as a private takeover =E2=80=94 left some wondering i=
+f it was feasible the weekend=E2=80=99s events may not trigger this. =E2=80=
+=A6
+In 2021, just over 5,000 Credit Suisse employees received contingent capita=
+l awards, of which 1,229 were classified as material risk takers, performin=
+g jobs considered most vital to the bank=E2=80=99s health.
+The lender stated in its annual report that the contingent capital awards c=
+arry =E2=80=9Crisks similar=E2=80=9D to other contingent capital securities=
+ it issues.=C2=A0
+
+Yeah look, if I were the regulator (or UBS), I might prefer to zero the pub=
+lic-market AT1s but not the employee ones: The employee ones are fairly sma=
+ll, so zeroing them doesn=E2=80=99t conserve much capital, and the employee=
+s are going to be pretty demoralized right now, so giving them something se=
+ems helpful for the long-term future of the business. On the other hand, th=
+e holders of the public AT1s are already threatening legal action because t=
+hey got zeroed while the shareholders got something, and they are going to =
+be=C2=A0furious=C2=A0if Credit Suisse pays out the more-or-less identical e=
+mployee AT1s and not them. Any banking rescue is going to involve some arbi=
+trary distinctions, but that one seems tough.
+
+ =20
+   =20
+      First Boston
+   =20
+ =20
+
+ Oh well:
+
+UBS Group AG wants to cherry pick top dealmakers from Credit Suisse Group A=
+G=E2=80=99s investment bank instead of supporting Michael Klein=E2=80=99s p=
+lan to build a new independent firm, according to people familiar with the =
+discussions.
+UBS executives have told their Credit Suisse counterparts that they prefer =
+selectively bolstering their own investment bank while dumping the riskier =
+operations, the people said, asking for anonymity because the review has ju=
+st begun and no final decisions have been made. In initial talks, the acqui=
+ring bank indicated little interest in continuing the planned effort for a =
+CS First Boston carveout that would create a new competitor, the people sai=
+d.=C2=A0
+All this means Klein=E2=80=99s dream of leading a new investment bank under=
+ the revived CS First Boston brand looks increasingly unlikely.
+
+When we last talked about the proposed First Boston carveout, good lord,=C2=
+=A0six days=C2=A0ago,   I said that it =E2=80=9Cmight be the most conflicte=
+d transaction I have ever seen. I just admire it?=E2=80=9D It was an amazin=
+g piece of work, for Klein to be a Credit Suisse board member, to be put in=
+ charge of deciding what to do with the investment banking business, to dec=
+ide the answer was to sell it to himself and also to buy his existing inves=
+tment banking boutique, and for him to get Credit Suisse to agree that that=
+ was all fine.
+And now it is apparently falling apart for reasons that have nothing to do =
+with its own audacity. Oh, I mean. It is possible that there is some charac=
+teristic of Credit Suisse that made it unusually likely to (1) do this Firs=
+t Boston deal, (2) have the   Archegos,   Greensill,   tuna-bond,   garden-=
+party-spying, etc. scandals and (3) ultimately fail and be sold to UBS. Pos=
+sibly the problem is that the overall level of audacity at Credit Suisse wa=
+s too high, and eventually that caught up to it.
+
+ =20
+   =20
+      Meanwhile in America
+   =20
+ =20
+
+The recent run of bank failures in the US have been smaller but less contro=
+lled than Credit Suisse, though still controlled enough: Silicon Valley Ban=
+k, Signature Bank and Silvergate Bank were all taken over by the Federal De=
+posit Insurance Corp. rather than being sold over a weekend to stronger ban=
+ks like Credit Suisse was. Two possible reasons for that are:
+=09Buying Credit Suisse at a slightly-above-zero equity value was a good de=
+al for UBS, while buying those banks at slightly-above-zero equity values w=
+ould=C2=A0not=C2=A0be good deals for a buyer, so nobody wanted to buy them;=
+ or=09Rescuing Credit Suisse was enough of a priority for Swiss regulators =
+that they were willing to combine their two largest banks into a single far=
+-too-big-to-fail national champion, but rescuing SVB was not enough of a pr=
+iority for US regulators that they were willing to let, like, JPMorgan Chas=
+e & Co. or Wells Fargo & Co. buy it and get much bigger.
+
+Both of those things seem to have some truth to them.=C2=A0Buying Credit Su=
+isse =E2=80=9Ccould end up being a once-in-a-generation boon for UBS,=E2=80=
+=9D while the US=E2=80=99s failed regional banks have uncertain franchises =
+and enough interest-rate losses in their bond and loan portfolios that thei=
+r assets might be worth less than their liabilities. But also Credit Suisse=
+=E2=80=99s regulators were single-mindedly focused on getting a deal done, =
+while US regulators   intentionally discouraged too-big-to-fail banks from =
+bidding for SVB.
+But you do have to sell them to someone eventually. Yesterday the FDIC sold=
+ most of Signature to New York Community Bancorp=E2=80=99s subsidiary Flags=
+tar Bank NA. But=C2=A0not all of it:
+
+Depositors of Signature Bridge Bank, N.A., other than cash depositors relat=
+ed to the digital-asset banking businesses, will automatically become depos=
+itors of the assuming institution. All deposits assumed by Flagstar Bank, N=
+.A., will continue to be insured by the FDIC up to the insurance limit. Fla=
+gstar Bank's bid did not include approximately $4 billion of deposits relat=
+ed to the former Signature Bank's digital-assets banking business. The FDIC=
+ will provide these deposits directly to customers whose accounts are assoc=
+iated with the digital-asset banking businesses. =E2=80=A6
+Today's transaction included the purchase of about $38.4 billion of Signatu=
+re Bridge Bank, N.A.'s assets, including loans of $12.9 billion purchased a=
+t a discount of $2.7 billion. Approximately $60 billion in loans will remai=
+n in the receivership for later disposition by the FDIC. =E2=80=A6
+The FDIC estimates the cost of the failure of Signature Bank to its Deposit=
+ Insurance Fund to be approximately $2.5 billion.
+
+Flagstar bought the assets it wanted and left the ones it didn=E2=80=99t; i=
+t also assumed the=C2=A0deposits=C2=A0it wanted (everything but crypto) and=
+ left the rest. Less than a month ago,  US banking regulators issued a =E2=
+=80=9Cjoint statement on liquidity risks resulting from crypto-asset market=
+ vulnerabilities,=E2=80=9D warning banks that if they took crypto deposits =
+they would be more vulnerable to a bank run. Then there was a series of ban=
+k runs and a global banking crisis. Who would want those crypto deposits no=
+w?
+Meanwhile there  seems to be no buyer for all of Silicon Valley Bank, but t=
+here is   this amazing story:
+
+The former owner of=C2=A0Silicon Valley Bank, seized earlier this month by =
+regulators, asked a judge to force federal regulators to return as much as =
+$2 billion the company says it needs to reorganize in bankruptcy.
+SVB Financial Group=C2=A0was cut off from the money after the bank was take=
+n over by regulators, who control the bank=E2=80=99s deposits, but not asse=
+ts owned by SVB. The parent company has as much as $2 billion in several ac=
+counts, including three at its former bank, which was renamed=C2=A0Bridge B=
+ank=C2=A0after it was taken over. Regulators at the=C2=A0Federal Deposit In=
+surance Corporation=C2=A0have refused to give SVB access to the accounts, a=
+ccording to court papers filed Sunday.
+The dispute threatens to disrupt SVB=E2=80=99s attempt to repay more than $=
+3 billion the company owes bondholders. SVB filed for bankruptcy last week =
+in order to reorganize its non-bank assets and repay creditors.=C2=A0
+
+The FDIC has taken over Silicon Valley Bank and is trying to sell it off, b=
+ut it seems like it may not succeed in selling the bank for more than it ow=
+es depositors, meaning that the FDIC =E2=80=94=C2=A0which has promised to p=
+ay all SVB depositors, including uninsured ones =E2=80=94=C2=A0might lose m=
+oney on the deal.
+Meanwhile the holding company=E2=80=99s bondholders, who are in some rough =
+hypothetical sense junior to the depositors, seem to be poised to get much =
+of their money back, because the holding company had assets other than the =
+bank. One of those assets was $2 billion in cash. But that cash was held at=
+ SVB, and the FDIC, as a rather understandable matter of rough justice, isn=
+=E2=80=99t giving it back.
+And here is  a proposal from Jeffrey Gordon for =E2=80=9Cstorage=E2=80=9D b=
+ank accounts at Silicon Valley Bank, in which holders would own stock in th=
+e bank and forfeit that stock if they redeemed their deposits early. Make t=
+he depositors owners of the bank and maybe they won=E2=80=99t run on it.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Credit Suisse Tells Staff to  Go to Work as Somber Mood Sets In.=C2=A0Yelle=
+n Says US Will Intervene If Needed to   Protect Smaller Banks. FHLB  Issues=
+ $304 Billion in a Week as Banks Boost Liquidity.=C2=A0Biden Vetoes Bill fo=
+r First Time to  Block Anti-ESG Measure. =E2=80=9CIf I was mugged, before I=
+ hit the ground,  I=E2=80=99d be thinking, =E2=80=98I=E2=80=99ve got 1,000 =
+words on this for next week.=E2=80=99=E2=80=9D=C2=A0
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] We have   talked about this system before in the context of a weird l=
+awsuit over the aluminum in LME warehouses. =E2=80=9CAbstract Aluminum Spac=
+e,=E2=80=9D I called the warehouses.
+
+
+  [2] To be clear, I=E2=80=99m making this up, I have no idea how the fraud=
+ was discovered and never want to find out, unless the real story is funnie=
+r than this one.
+
+
+  [3] I don=E2=80=99t know if they were? Is JPMorgan entitled to take out t=
+he rocks? Is it *required* to take out the rocks? =E2=80=9CHey JPMorgan you=
+ have 10 days to come pick up your rocks; if you don=E2=80=99t we=E2=80=99r=
+e gonna throw them through Jamie Dimon=E2=80=99s window=E2=80=9D? If someon=
+e cracks open one of the rocks and there=E2=80=99s a diamond inside, does J=
+PMorgan get the diamond?=20
+
+
+  [4] The FT quotes the biggest shareholders, but   Bloomberg also notes th=
+at =E2=80=9CEthos Foundation, whose 246 pension fund members represent 1.9 =
+million people with 370 billion swiss francs in assets, has threatened [leg=
+al action] over the issue of blocking shareholder votes.=E2=80=9D
+
+
+  [5] It=E2=80=99s a little hard to read, but  this Finma release on =E2=80=
+=9CCapital requirements for systemically important banks=E2=80=9D says that=
+ there is =E2=80=9Ca base requirement of an RWA ratio of 12.86%,=E2=80=9D i=
+.e. capital of at least 12.86% of risk-weighted assets, plus add-ons of 1.4=
+4% for Credit Suisse, for a total of 14.3%, and =E2=80=9Cthe going concern =
+requirements must be largely met with common equity tier 1 (CET1) capital. =
+Only a maximum of 4.3% of the RWA ratio and 1.5% of the leverage ratio can =
+be met with additional Tier 1 (AT1) capital.=E2=80=9D So a minimum of 10% c=
+ommon equity tier 1.
+
+
+  [6] This is a bit sloppy, as book equity is not the same as CET1 capital,=
+ but close enough.
+
+
+  [7] See page 264 of  the 2021 annual report, which describes the features=
+ of the CCAs and who got them.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ciejgy.5jeq/94d490f4.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_8733266_40787416.1679423035140
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+If you want to make batteries or cars, you might need nickel. If you buy so=
+me nickel from a nickel merchant, and she delivers it to you, and
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30911506.258434/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMzIxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMjEmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB81f7ae7f"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30911506.258434/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDkxMTUwNiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzExNjk5NDAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB221b0b98" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30911506&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31169940&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Notional nickel</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If you want to make=C2=A0batteries or cars, yo=
+u might need nickel. If you buy some nickel from a nickel merchant, and she=
+ delivers it to you, and you open the box, and the box is full of rocks pai=
+nted to look like nickel, you will be disappointed. You will not be able to=
+ make a battery or a car with a box of rocks.</p>
+<p style=3D"margin: 16px 0;">If you are in the business of building batteri=
+es or cars, you might want to hedge your exposure to global nickel prices b=
+y trading nickel futures on an exchange like the London Metal Exchange. Or =
+if you are a hedge fund or bank with a view on commodity prices, you might =
+want to trade nickel=C2=A0futures to express that view. These futures do no=
+t, in the first instance, involve any nickel. If you buy nickel futures, it=
+ is purely a financial trade: If the price of nickel goes up between now an=
+d when the futures expire, you get paid money; if it goes down, you pay mon=
+ey. You buy the nickel for the batteries or cars through normal industrial =
+channels =E2=80=94=C2=A0your nickel merchant=C2=A0delivers nickel in the ty=
+pes and quantities you need=C2=A0=E2=80=94=C2=A0and the point of the future=
+s=C2=A0is just to have a financial hedge to your cost of buying actual nick=
+el.</p>
+<p style=3D"margin: 16px 0;">But for the futures to work they need to have =
+some connection to actual nickel, which means that the futures are=C2=A0<em=
+>deliverable:=C2=A0</em>If you own nickel futures that are about to expire,=
+ instead of cashing them out you can instead pay the money and take deliver=
+y of the nickel. A staple of trading-floor comedy is the story=C2=A0that so=
+me junior trader forgot to cash out her open futures position and so one mo=
+rning five trucks full of nickel showed up outside the office, but in fact =
+it would be exceedingly impractical to never know whether or where you migh=
+t=C2=A0have to deliver cargos of nickel, so the LME has a more efficient sy=
+stem. The system is that there are certain warehouses affiliated with the L=
+ME that store a certain amount of nickel on behalf of nickel futures trader=
+s, and =E2=80=9Cdelivery=E2=80=9D of nickel when a contract expires consist=
+s of changing the ownership of some of the nickel in one of the warehouses.=
+<a class=3D"footnote-index" href=3D"#footnote-1" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: none !important; background-color: trans=
+parent !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0If I own nickel in an LME warehouse and sell a futures contract, =
+and you buy the contract, and you let it expire and take delivery of the ni=
+ckel, what you actually get is a little notation =E2=80=94=C2=A0called a =
+=E2=80=9Cwarrant=E2=80=9D =E2=80=94=C2=A0saying that now you own the nickel=
+ in the warehouse.</p>
+<p style=3D"margin: 16px 0;">If one night a supervillain snuck into all the=
+ LME warehouses and stole all the nickel, and replaced it with rocks, and h=
+ypnotized all the guards into thinking it was still there, and hacked into =
+the security cameras to make them show that the nickel was still there, it =
+is tempting to think that the futures market could continue=C2=A0indefinite=
+ly in blissful ignorance.=C2=A0It is primarily a financial market, not an i=
+ndustrial one; if you get a warrant on LME warehouse nickel you are <em>pro=
+bably=C2=A0</em>not going to go to the warehouse immediately to take posses=
+sion of your nickel and turn it into cars or batteries. Like <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/30911506.258434/aHR0cHM6Ly93d3cu=
+ZnQuY29tL2NvbnRlbnQvMzA4MGQzNjgtZDVhYS00MTI1LWEyMTAtNzE0ZTM3MDg3MDE3/607f07=
+ceef4b8524a319a23cB588f9f59" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> Yap money stones</a>, the warehouse n=
+ickel is still useful for financial trading even if it is=C2=A0<em>not actu=
+ally there</em>, or=C2=A0<em>not actually nickel</em>.</p>
+<p style=3D"margin: 16px 0;">But to make the financial contracts work, ther=
+e has to be <em>some</em> connection between the warehouse nickel and regul=
+ar=C2=A0nickel. It has to be=C2=A0<em>possible=C2=A0</em>to take warehouse =
+nickel out of the warehouses to transform into cars or batteries, or to put=
+ nickel into the warehouses if you don=E2=80=99t need it for industrial use=
+s. There is a thin connection between the abstract financial nickel in the =
+warehouses and the industrial nickel in the real world, but there is a conn=
+ection.=C2=A0Nickel=C2=A0and people=C2=A0do have to go in and out of the wa=
+rehouses. And if you go into a warehouse to take out some nickel and find o=
+ut that it=E2=80=99s rocks, that=E2=80=99s =E2=80=A6=C2=A0bad? Kind of bad?=
+ Not=C2=A0<em>that=C2=A0</em>bad? Funny? Philosophically illuminating?</p>
+<p style=3D"margin: 16px 0;">Bloomberg=E2=80=99s <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/30911506.258434/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMjAvanBtb3JnYW4tb3duZWQtdGhlLWxtZS1uaWN=
+rZWwtdGhhdC13YXMtYWN0dWFsbHktYmFncy1vZi1zdG9uZXM_Y21waWQ9QkJEMDMyMTIzX01PTk=
+VZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09M=
+jMwMzIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB2c0e0036" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">  Jack Farchy, Archie Hunter and Mark Burton report</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">JPMorgan Chase &amp; Co. owned the London Meta=
+l Exchange nickel contracts that turned out to be backed by bags of stones =
+rather than metal, according to people familiar with the matter.</p>
+<p style=3D"margin: 16px 0;">The LME last week announced it had canceled ni=
+ne nickel contracts =E2=80=94 worth about $1.3 million =E2=80=94 after disc=
+overing =E2=80=9Cirregularities=E2=80=9D at a certain warehouse, which Bloo=
+mberg has reported was owned by Access World. The news has been met with sh=
+ock in the metals world, because LME contracts are generally viewed as beyo=
+nd question.</p>
+<p style=3D"margin: 16px 0;">JPMorgan was the owner of the nine invalidated=
+ contracts, according to people familiar with the matter. The bank register=
+ed the bags of material as being deliverable against LME contracts in early=
+ 2022, said the people, who asked not to be identified discussing private i=
+nformation.</p>
+<p style=3D"margin: 16px 0;">There=E2=80=99s no suggestion that JPMorgan di=
+d anything wrong. The material was already inside Access World=E2=80=99s Ro=
+tterdam warehouse when the bank bought it several years ago, according to o=
+ne of the people.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">It=E2=80=99s so good. JPMorgan, which does not=
+ make batteries or cars, bought bags of abstract nickel years ago. It took =
+delivery of that nickel, not in the sense that a truck full of nickel showe=
+d up on Park Avenue but in the sense that an entry was made, on the ledger =
+of the warehouse, saying that the bags of nickel in Row X, Shelf Y now belo=
+nged to JPMorgan.</p>
+<p style=3D"margin: 16px 0;">JPMorgan then used that nickel for its intende=
+d purposes for <em>years</em>. Those purposes were to=C2=A0<em>write financ=
+ial contracts referencing that nickel</em>. The nickel worked perfectly wel=
+l for those purposes =E2=80=94=C2=A0JPMorgan=E2=80=99s derivative contracts=
+ traded and paid off normally =E2=80=94=C2=A0for years, even though the nic=
+kel was not in fact nickel, just bags of rocks.</p>
+<p style=3D"margin: 16px 0;">And then one day a warehouse worker, like, stu=
+bbed his toe against JPMorgan=E2=80=99s nickel and was like =E2=80=9Chmm th=
+at=E2=80=99s not the sound nickel makes when you kick it=E2=80=9D and opene=
+d the bags and found rocks.<a class=3D"footnote-index" href=3D"#footnote-2"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: none !importa=
+nt; background-color: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0And then the LME dutifully reported that some nickel was not nick=
+el, and JPMorgan=E2=80=99s nickel warrants were transformed into rocks warr=
+ants.<a class=3D"footnote-index" href=3D"#footnote-3" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: none !important; background-color: =
+transparent !important; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0But it=E2=80=99s all just a random accident? The purpose of JPMor=
+gan=E2=80=99s nickel was not to be turned into batteries or cars, but to si=
+t in a warehouse. It was doing a great job of that, until someone noticed!<=
+/p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30911506.258434/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDkxMTUwNiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzExNjk5NDAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC1abbe790" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30911506&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31169940&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30911506.258434/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDkxMTUwNiZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzExNjk5NDAmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD1abbe790" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30911506&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31169940&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Rule of law</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">An uncontrolled bank failure is very bad for e=
+veryone. Banks are <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/30911506.258434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLz=
+IwMjMtMDMtMTcvYmlnLWJhbmtzLXRydXN0LWZpcnN0LXJlcHVibGljLXdpdGgtdGhlaXItbW9uZ=
+Xk_Y21waWQ9QkJEMDMyMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNl=
+PW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07=
+ceef4b8524a319a23cB7fea1656" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;">not generally constructed</a>=C2=A0in =
+such a way that they could withstand all their money fleeing at once: If th=
+ere is a run and all the depositors take their money out at once, the bank =
+will be forced to sell everything hastily and will probably end up without =
+enough money to pay back the depositors, leaving other creditors and shareh=
+olders with nothing. At a big international bank=C2=A0that is active in the=
+ capital markets, this problem is probably worse:<em>=C2=A0</em>Derivatives=
+ counterparties and overnight lenders will flee, traders will bet against t=
+he bank=E2=80=99s positions, markets will be stressed and the bank will pro=
+bably=C2=A0collapse rapidly and in a way that leaves too little value for e=
+veryone.</p>
+<p style=3D"margin: 16px 0;">If you are a national bank regulator and one o=
+f your biggest banks seems to be teetering on the edge of an uncontrolled f=
+ailure, here are some things that are generally true:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You know that an uncontrolled failure=
+ would be bad for that bank, for its shareholders and creditors and deposit=
+ors and other stakeholders.</li>=09<li style=3D"margin-bottom: 5px;">You kn=
+ow that they know it.</li>=09<li style=3D"margin-bottom: 5px;">You know tha=
+t an uncontrolled failure would be bad for the rest of your banking system,=
+ and your economy, and the world=E2=80=99s banking system.</li>=09<li style=
+=3D"margin-bottom: 5px;">You are not inclined to run a risk of that happeni=
+ng at, you know, a 30% or 40% probability. =E2=80=9CEhh let=E2=80=99s see w=
+hat happens, maybe it won=E2=80=99t fail, maybe everything will be fine=E2=
+=80=9D: not usually the position of the national bank regulator.</li>=09<li=
+ style=3D"margin-bottom: 5px;">You will want to arrange some sort of rescue=
+, preferably one where the struggling bank is acquired by a bigger and more=
+ solid bank, not-preferably-but-inevitably one where the national regulator=
+ and central bank provide some guarantees to the acquirer to further reassu=
+re the market.</li>=09<li style=3D"margin-bottom: 5px;">You know that the b=
+igger and more solid bank can=E2=80=99t really say no to doing the rescue: =
+It=C2=A0<em>also=C2=A0</em>knows that an uncontrolled failure of the strugg=
+ling bank would be very bad for the rest of the banking system, and for its=
+elf, and that you can make things particularly bad for it if it says no.</l=
+i>=09<li style=3D"margin-bottom: 5px;">You pretty much have to do any rescu=
+e between the close of US markets on Friday and the opening in Asia on Mond=
+ay: Doing it during market hours is too chaotic, and doing it overnight on =
+a weekday doesn=E2=80=99t give you enough time.</li>=09<li style=3D"margin-=
+bottom: 5px;">Between the time that you start getting nervous and the time =
+that you actually do the rescue, you have to put a brave face on things. =
+=E2=80=9CStruggling Bank is doing just great, its capital and liquidity are=
+ strong, it has access to very large but not at all panicky central bank li=
+quidity facilities, what are you even talking about, why would anyone worry=
+,=E2=80=9D you say at the press conference on Wednesday, and then you go ba=
+ck to your office to continue arranging a rescue for the weekend.</li>
+</ol>
+<p style=3D"margin: 16px 0;">This is all a pretty standard playbook for, yo=
+u know, once-a-decade-or-two banking crises, but it is not really=C2=A0<em>=
+written down=C2=A0</em>anywhere, except eventually in the memoirs of centra=
+l bankers and regulators.=C2=A0Mostly for good reasons, there will not be a=
+ law saying, like, =E2=80=9Cif the national bank regulator is worried about=
+ a 20% probability of an uncontrolled bank failure, she can pick a differen=
+t bank and force it to buy the struggling bank over a weekend, and name her=
+ own price.=E2=80=9D It=E2=80=99s just, if you are the regulator, you kind =
+of know you can do that, and you know that you should, and you know that th=
+e relevant bankers also know it.</p>
+<p style=3D"margin: 16px 0;">And so if you meet with the chief executive of=
+ficer of the struggling bank on Thursday and say =E2=80=9Chey your biggest =
+rival is gonna buy you this weekend at a 90% discount to your closing stock=
+ price tomorrow,=E2=80=9D and he says =E2=80=9Cwhat, no, what gives you the=
+ right to do that,=E2=80=9D you can just sort of stare at him for a minute =
+and he=E2=80=99ll say =E2=80=9Coh right=E2=80=9D and agree to the deal.=C2=
+=A0</p>
+<p style=3D"margin: 16px 0;">He is a banker and his counterpart is a banker=
+ and you are a bank regulator and you all know the unwritten rules, but not=
+ everyone does. The struggling bank=E2=80=99s=C2=A0<em>shareholders</em>, f=
+or instance, might get angry about being forced to sell their shares at a 9=
+0% discount. =E2=80=9CThis is illegal, we have rights,=E2=80=9D they might =
+say. And your response might reasonably be =E2=80=9Cwell, no, if we hadn=E2=
+=80=99t done this deal over the weekend, the bank would have gone into unco=
+ntrolled failure, which would have had many very bad consequences, the <em>=
+least</em> consequential of which is that your shares would be worth zero, =
+so be happy you got something.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">But=C2=A0<em>their </em>response might reasona=
+bly be: =E2=80=9CWhat? Prove it. I don=E2=80=99t know that the bank would h=
+ave gone to zero over the weekend, and in fact on Wednesday you were saying=
+ that its capital position was great and there was nothing to worry about. =
+Now you are telling me it=E2=80=99s a zero, but I don=E2=80=99t believe you=
+.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">And for various reasons, it will be=C2=A0<em>h=
+ard=C2=A0</em>for you to prove that the bank was going to zero. For one thi=
+ng, you <em>did=C2=A0</em>keep saying everything was fine. And there is a g=
+eneral fog of war and <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/30911506.258434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGV=
+zLzIwMjMtMDMtMjAvdWJzLWdvdC1jcmVkaXQtc3Vpc3NlLWZvci1hbG1vc3Qtbm90aGluZz9jbX=
+BpZD1CQkQwMzIxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c=
+2xldHRlciZ1dG1fdGVybT0yMzAzMjEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b=
+8524a319a23cB93dcb428" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">  quantum uncertainty of bank assets</a>. An=
+d it is hard to prove the counterfactual: The stuff you did to stabilize th=
+e system over the weekend might have<em> made</em> the struggling bank solv=
+ent. Also, though, you might be wrong? Like, if you thought there was a 30%=
+ chance of an uncontrolled failure, you probably took decisive steps to end=
+ it over the weekend, which means there was a 70% chance you were wrong. No=
+t a risk you wanted to take, as a bank regulator, but maybe one the <em>sha=
+reholders</em> would have been willing to take.</p>
+<p style=3D"margin: 16px 0;">Or politicians might say =E2=80=9Cwhat gave yo=
+u the right to do this bank merger=C2=A0over the weekend, put thousands of =
+bankers out of work,=C2=A0and promise tons of taxpayer money to backstop th=
+e combined bank?=E2=80=9D And you will mutter a legal answer =E2=80=94=C2=
+=A0you do=C2=A0<em>have=C2=A0</em>lawyers, and they can make creative use o=
+f the written rules in an emergency =E2=80=94=C2=A0but the real deep intuit=
+ive answer is that bank rescues follow an unwritten and ad hoc playbook=C2=
+=A0and you did what you thought you had to. But nobody wants to hear that a=
+nswer and you will save it for your memoir.</p>
+<p style=3D"margin: 16px 0;">The Financial Times has a particularly <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30911506.258434/aHR0cHM6L=
+y93d3cuZnQuY29tL2NvbnRlbnQvMzA4MGQzNjgtZDVhYS00MTI1LWEyMTAtNzE0ZTM3MDg3MDE3=
+/607f07ceef4b8524a319a23cC588f9f59" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> brisk and brutal account</a> o=
+f how the Swiss =E2=80=9Ctrinity=E2=80=9D =E2=80=94=C2=A0the Swiss National=
+ Bank, the Financial Markets Supervisory Authority and the minister of fina=
+nce =E2=80=94=C2=A0forced UBS Group AG to buy Credit Suisse Group AG over t=
+he weekend. All the elements are there. There=E2=80=99s the worry about an =
+uncontrolled failure due to bank run:</p>
+<blockquote><p style=3D"margin: 16px 0;">By Friday evening, when it was rev=
+ealed that UBS was exploring a state-mandated takeover, Credit Suisse had l=
+ost another SFr35bn in client deposits over the preceding three days, accor=
+ding to a banker involved in the deal, and international banks from BNP Par=
+ibas to HSBC were cutting ties. Regulators concluded that it would probably=
+ not be able to open on Monday.</p></blockquote>
+<p style=3D"margin: 16px 0;">There is the peremptory order to the strugglin=
+g bank:</p>
+<blockquote><p style=3D"margin: 16px 0;">In the same meeting where they aut=
+horised the SFr50bn backstop [on Wednesday], they also delivered another me=
+ssage: =E2=80=9CYou will merge with UBS and announce Sunday evening before =
+Asia opens. This is not optional,=E2=80=9D a person briefed on the conversa=
+tion recalls.</p></blockquote>
+<p style=3D"margin: 16px 0;">Note that this was the=C2=A0meeting last week=
+=C2=A0at which Finma and the SNB announced a liquidity backstop for Credit =
+Suisse; <a href=3D"https://link.mail.bloombergbusiness.com/click/30911506.2=
+58434/aHR0cHM6Ly93d3cuZmlubWEuY2gvZW4vbmV3cy8yMDIzLzAzLzIwMjMwMzE1LW1tLXN0Y=
+XRlbWVudC8/607f07ceef4b8524a319a23cB432c2d81" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;"> the announcement sai=
+d</a> =E2=80=9CFINMA confirms that Credit Suisse meets the higher capital a=
+nd liquidity requirements applicable to systemically important banks=E2=80=
+=9D and that =E2=80=9Cthere are no indications of a direct risk of contagio=
+n for Swiss institutions due to the current turmoil in the US banking marke=
+t.=E2=80=9D Even as the regulators were telling the=C2=A0<em>market</em> th=
+at everything was fine and Credit Suisse was not in trouble, they were tell=
+ing <em>Credit Suisse</em>=C2=A0that it was all over.</p>
+<p style=3D"margin: 16px 0;">There is the peremptory order to UBS, which un=
+derstood that uncontrolled failure of Credit Suisse would be a catastrophe =
+for UBS as well:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The trinity called UBS and ordered the group t=
+o find a solution to save its ailing peer from bankruptcy.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CResolution [a government-controlled w=
+ind-down] would have been a disaster for the financial system and introduce=
+d the threat of contagion around the world,=E2=80=9D says another person in=
+volved on the UBS side. =E2=80=9COur interests were also aligned because a =
+failure is not good for the Swiss wealth-management brand. So we said, on t=
+he right terms, we would help.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">There was some pushback from Credit Suisse:</p=
+>
+<blockquote>
+<p style=3D"margin: 16px 0;">[Credit Suisse Chairman Axel] Lehmann=E2=80=99=
+s communique also carried a threat. He wrote that Credit Suisse=E2=80=99s t=
+hree biggest shareholders =E2=80=94 including two from Saudi Arabia and one=
+ from Qatar =E2=80=94 had expressed their =E2=80=9Cextreme discomfort=E2=80=
+=9D with the opacity of the deal. They demanded to see a fair price, a vote=
+ on the deal and that any get-out clauses be removed. The letter also noted=
+ that the Saudis and Qataris were large clients of both banks.</p>
+<p style=3D"margin: 16px 0;">In response, on Saturday evening [UBS Chairman=
+ Colm] Kelleher called his counterpart at Credit Suisse from outside a rest=
+aurant to tell him UBS was prepared to offer $1bn in stock for the whole gr=
+oup, about SFr0.25 a share, far below the SFr1.86 closing price on Friday.<=
+/p>
+<p style=3D"margin: 16px 0;">The government then informed Credit Suisse it =
+would introduce emergency legislation to strip both sets of shareholders of=
+ the right to vote on the deal.</p>
+<p style=3D"margin: 16px 0;">Credit Suisse was outraged and refused to sign=
+.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">But it had no real leverage:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Under pressure to get a deal done before the e=
+nd of the day, the trinity started to ramp up pressure on both sides, threa=
+tening to remove the Credit Suisse board if they did not sign off. ...</p>
+<p style=3D"margin: 16px 0;">The final terms were still so favourable to UB=
+S they were =E2=80=9Can offer we couldn=E2=80=99t refuse=E2=80=9D, a person=
+ on the negotiating team told the FT. An adviser to Credit Suisse described=
+ them as =E2=80=9Cunacceptable and outrageous=E2=80=9D and a =E2=80=9Ctotal=
+ disregard of corporate governance and shareholder rights=E2=80=9D.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">But the shareholders also complained<a class=
+=3D"footnote-index" href=3D"#footnote-4" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: none !important; background-color: transparent !=
+important; display: inline-block;">
+<span>[4]</span>
+</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Its Middle Eastern shareholders were also ince=
+nsed.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CYou make fun of dictatorships and the=
+n you can change the law over the weekend. What=E2=80=99s the difference be=
+tween Saudi Arabia and Switzerland now? It=E2=80=99s really bad,=E2=80=9D s=
+ays one person close to one of the three major shareholders.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">One difference is that the Swiss regulators di=
+d not bring the chairmen of Credit Suisse and UBS to a hotel and <a href=3D=
+"https://link.mail.bloombergbusiness.com/click/30911506.258434/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMTgtMDYtMTUvcml0ei1jYXJsdG9uLWN=
+yYWNrZG93bi1zdGlsbC1oYXVudHMtdGhlLW5ldy1zYXVkaS1hcmFiaWE_Y21waWQ9QkJEMDMyMT=
+IzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX=
+3Rlcm09MjMwMzIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB8a=
+d933fe" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;">  torture them until they agreed</a> to the deal. (This is =
+in part because the chairmen of Credit Suisse and UBS are experienced banke=
+rs who know how this is supposed to go, though also for other reasons.) Sti=
+ll I=C2=A0mean you can see their point. Bloomberg=E2=80=99s <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/30911506.258434/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMjAvY3JlZGl0LXN1aXNzZS1jb2xs=
+YXBzZS1yZXZlYWxzLXNvbWUtdWdseS10cnV0aHMtYWJvdXQtc3dpdHplcmxhbmQtZm9yLWludmV=
+zdG9ycz9jbXBpZD1CQkQwMzIxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3=
+VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMjEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/6=
+07f07ceef4b8524a319a23cB5b94ebfe" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;">  Hugo Miller and Dylan Griffiths=
+ write</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">For decades, Switzerland has sold itself as a =
+haven of legal certainty for bond and equity investors. The collapse of Cre=
+dit Suisse Group AG revealed some unpleasant home truths.=C2=A0</p>
+<p style=3D"margin: 16px 0;">In the race to secure UBS Group AG=E2=80=99s p=
+urchase of its smaller rival over the weekend, the government invoked the n=
+eed for stability and emergency legislation to override two key aspects of =
+open markets: competition law and shareholder rights. Then bondholders disc=
+overed that $17 billion worth of so-called Additional Tier 1 debt was worth=
+less.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Aside from the sense of shame brought on by th=
+e bank=E2=80=99s collapse, legal observers say these three surprises raise =
+some fundamental questions about the primacy of Swiss banking law and also =
+sows doubt with foreign investors about putting money in the country.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CForeign investors may wonder if Switz=
+erland is a banana republic where the rule of law doesn=E2=80=99t apply,=E2=
+=80=9D said Peter V. Kunz, a professor specialized in economic law at the U=
+niversity of Bern. The country =E2=80=9Cis not endangered, but there might =
+be the risk of lawsuits=E2=80=9D because authorities =E2=80=9Cintervened he=
+re on very thin ice.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">Kern Alexander, a professor of law and finance=
+ at the University of Zurich, agreed, saying crisis management was carried =
+out in a =E2=80=9Cpanicked=E2=80=9D way that =E2=80=9Cundermined the rule o=
+f law and undermined Switzerland.=E2=80=9D=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I guess. One can always find fault with these =
+rescues, in part due to fog-of-war and hard-to-prove-the-counterfactual rea=
+sons and in part because, you know, why=C2=A0<em>wouldn=E2=80=99t=C2=A0</em=
+>people panic in a crisis. But to me, the Credit Suisse rescue looks more o=
+r less like the standard playbook. Which doesn=E2=80=99t mean that it follo=
+wed the rules and upheld the rule of law.=C2=A0That=E2=80=99s not how these=
+ things generally go.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">AT1s</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">For example, I <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30911506.258434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvb=
+S9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMjAvdWJzLWdvdC1jcmVkaXQtc3Vpc3NlLWZvci1h=
+bG1vc3Qtbm90aGluZz9jbXBpZD1CQkQwMzIxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWl=
+sJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMjEmdXRtX2NhbXBhaWduPW1vbm=
+V5c3R1ZmY/607f07ceef4b8524a319a23cC93dcb428" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">  wrote yesterday</a> =
+about how Credit Suisse=E2=80=99s additional tier 1 capital securities were=
+ zeroed by this deal, even as Credit Suisse=E2=80=99s shareholders got some=
+thing (though not much). There are about 16 billion Swiss francs of AT1s ou=
+tstanding, and their holders are very upset about this treatment and contem=
+plating suing. The AT1s are, nominally, senior in the capital structure to =
+the common stock, so it is weird for them to get nothing when the common ge=
+ts something.</p>
+<p style=3D"margin: 16px 0;">The AT1s are basically bonds that pay interest=
+, but there is a provision in the bonds saying that they get written down t=
+o zero if (1) Credit Suisse=E2=80=99s common equity tier 1 capital falls be=
+low 7% or (2) the Swiss regulators decide that zeroing them is necessary to=
+ keep Credit Suisse solvent.</p>
+<p style=3D"margin: 16px 0;">My point yesterday was that the first trigger =
+=E2=80=94=C2=A0the 7% capital ratio trigger =E2=80=94=C2=A0<em>necessarily=
+=C2=A0</em>means that the AT1s are sometimes junior to the common stock: If=
+ the common equity capital ratio falls to 5%, then (1) there is value remai=
+ning for the equity (5% of risk-weighted assets!) but (2) the AT1s get trig=
+gered and written down to zero.</p>
+<p style=3D"margin: 16px 0;">But I conceded that that is not exactly what h=
+appened to Credit Suisse=E2=80=99s AT1s: Credit Suisse did not make a deter=
+mination that its capital ratio=C2=A0fell below 7% and then deliver that no=
+tice to the holders in accordance with the terms to force a writedown. Part=
+ of the reason it did not do this was urgency, fog of war, etc.</p>
+<p style=3D"margin: 16px 0;">But part of the reason is that Credit Suisse=
+=E2=80=99s capital ratio never fell below 7%. A week ago, <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/30911506.258434/aHR0cHM6Ly93d3cuc2V=
+jLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzEwNTMwOTIvMDAwMTM3MDM2ODIzMDAwMDI2L2NzLT=
+IwMjIxMjMxLmh0bSNJZDAwMTMxMDc0Mg/607f07ceef4b8524a319a23cB2afcfc51" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> Credit Suisse reported</a> that its common equity tier 1 capital ratio, a=
+s of the end of 2022, was 14.1%. Last Wednesday, as I mentioned above, the =
+Swiss regulators affirmed =E2=80=9Cthat Credit Suisse meets the higher capi=
+tal and liquidity requirements applicable to systemically important banks,=
+=E2=80=9D=C2=A0<em>as of Wednesday</em>; those requirements included a 10% =
+common equity tier 1 capital ratio.<a class=3D"footnote-index" href=3D"#foo=
+tnote-5" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none =
+!important; background-color: transparent !important; display: inline-block=
+;">
+<span>[5]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">And then Credit Suisse sold for about CHF 3 bi=
+llion to UBS over the weekend. On the one hand, an equity value of CHF 3 bi=
+llion is quite small,=C2=A0roughly 0.6% of its total book assets as of the =
+end of 2022, and about 1.2% of risk-weighted assets, suggesting that the=C2=
+=A0<em>actual=C2=A0</em>value of Credit Suisse=E2=80=99s equity was well be=
+low 7%. On the other hand, that=E2=80=99s not how capital accounting works,=
+ and it seems like for accounting purposes UBS is allowed to treat Credit S=
+uisse as though it=C2=A0was solvent and well capitalized and its assets wer=
+e worth far more than its liabilities. UBS=E2=80=99s <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/30911506.258434/aHR0cHM6Ly93d3cudWJzLmNv=
+bS9nbG9iYWwvZW4vaW52ZXN0b3ItcmVsYXRpb25zL19qY3JfY29udGVudC9tYWlucGFyL3RvcGx=
+ldmVsZ3JpZF85NzAwNjc4XzE3NjI4NjA4MDYvY29sMS90ZWFzZXIvbGlua2xpc3QvbGlua18xMD=
+UyODM5MTY0LjE5OTc5NTg1MjkuZmlsZS9QUzlqYjI1MFpXNTBMMlJoYlM5aGMzTmxkSE12WTJNd=
+mFXNTJaWE4wYjNJdGNtVnNZWFJwYjI1ekwzVmljeTFoYm1RdFkzTXZkV0p6TFdOekxYQnlaWE5s=
+Ym5SaGRHbHZiaTV3WkdZPS91YnMtY3MtcHJlc2VudGF0aW9uLnBkZg/607f07ceef4b8524a319=
+a23cB6b81c460" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> investor presentation</a> notes that it got CHF 56 =
+billion of badwill from the deal, meaning that for accounting purposes it b=
+ought CHF 59 billion worth of equity for CHF 3 billion, and CHF 59 billion =
+of equity would leave Credit Suisse quite well capitalized.<a class=3D"foot=
+note-index" href=3D"#footnote-6" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: none !important; background-color: transparent !importan=
+t; display: inline-block;">
+<span>[6]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">So as a matter of <em>rough justice</em>, the =
+AT1s going to zero while the common stock went almost-but-not-quite to zero=
+ seems very fair and expected to me. On the other hand, as a <em>legal read=
+ing of the documents</em>, this argument doesn=E2=80=99t really work.=C2=A0=
+</p>
+<p style=3D"margin: 16px 0;">Instead, the AT1s got zeroed through a more ad=
+ hoc regulatory determination that it was necessary to zero them to save th=
+e bank. And the problem there is (1) you can second-guess that determinatio=
+n and (2) you can argue that, if it was necessary to zero the AT1s, then it=
+ was=C2=A0<em>also=C2=A0</em>necessary to zero the common stock, so preserv=
+ing value for the common undermines the case for zeroing the AT1s.</p>
+<p style=3D"margin: 16px 0;">I am not super-sympathetic to those arguments,=
+ but they are not trivial, and they are the sort of arguments that come out=
+ of an ad hoc desperate weekend rescue of a big bank.=C2=A0And in particula=
+r, the Swiss regulators=E2=80=99 insistence that Credit Suisse was well cap=
+italized both last week (when they were trying to calm markets) and this we=
+ek (when they don=E2=80=99t want to leave UBS with a giant capital hole) ma=
+kes it harder for them to argue that the AT1s needed to be triggered. There=
+ is a real tension between the standard regulatory responses of (1) insisti=
+ng that everything is fine and also (2) taking drastic emergency actions.</=
+p>
+<p style=3D"margin: 16px 0;">Anyway, this isn=E2=80=99t over.=C2=A0<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30911506.258434/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMjAvY3JlZGl0LXN1aXNz=
+ZS1jb2xsYXBzZS1yZXZlYWxzLXNvbWUtdWdseS10cnV0aHMtYWJvdXQtc3dpdHplcmxhbmQtZm9=
+yLWludmVzdG9ycz9jbXBpZD1CQkQwMzIxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJn=
+V0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMjEmdXRtX2NhbXBhaWduPW1vbmV5c=
+3R1ZmY/607f07ceef4b8524a319a23cC5b94ebfe" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">Bloomberg reports</a>:</=
+p>
+<blockquote><p style=3D"margin: 16px 0;">US law firm Quinn Emanuel Urquhart=
+ &amp; Sullivan said it will host a call for [AT1] bondholders on Wednesday=
+ with representatives from its offices in Zurich, New York and London to ta=
+lk through the =E2=80=9Cpotential avenues of redress which bondholders shou=
+ld be considering.=E2=80=9D=C2=A0</p></blockquote>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30911506.258434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDMtMjAvanBtb3JnYW4tYm5wLXF1b3RlLXJpc2t5LWNyZWRpdC1zdWlzc2UtYm9=
+uZHMtYXQtanVzdC1hYm92ZS16ZXJvP2NtcGlkPUJCRDAzMjEyM19NT05FWVNUVUZGJnV0bV9tZW=
+RpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMyMSZ1dG1fY2Ftc=
+GFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB8a044bf2" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> And</a>:<=
+/p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Dealers including JPMorgan Chase &amp; Co. and=
+ Morgan Stanley are willing to buy risky Credit Suisse debt known as additi=
+onal tier 1 bonds, or AT1s, for somewhere around 2 cents on the dollar and =
+sell somewhere around 5 cents as of early afternoon on Monday in New York, =
+according to the people. The Swiss bank said on Sunday that the bonds would=
+ be written down to zero as a condition of the rescue of the bank. =C2=A0=
+=C2=A0</p>
+<p style=3D"margin: 16px 0;">Other banks, including BNP Paribas SA, BTIG, J=
+efferies Financial Group Inc., as well as JPMorgan and Morgan Stanley, are =
+also getting involved, according to the people, who asked not to be identif=
+ied discussing private trades. Goldman Sachs Group Inc. traders were prepar=
+ing to take bids on claims against the bonds in messages circulated late Su=
+nday, according to separate people with knowledge of the matter.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">That=E2=80=99s basically a bet=C2=A0that you c=
+an get someone (a court, a government) to second-guess the Swiss authoritie=
+s=E2=80=99 decision to zero the AT1. The market odds on that bet are betwee=
+n 20-to-1 and 50-to-1, so a long shot but not utterly hopeless.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">CCAs</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">One charming thing about Credit Suisse in rece=
+nt years is that it had a habit of paying its employees with its weirdest a=
+ssets. It was happy to give its managing directors bonuses consisting of, l=
+ike, <a href=3D"https://link.mail.bloombergbusiness.com/click/30911506.2584=
+34/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvY2VmNGMzOGUtZDI0My0zZDUxLTg4Y2EtZGU0=
+OWQ5YjNmM2Yz/607f07ceef4b8524a319a23cBdccf2884" itemprop=3D"StoryLink" item=
+scope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decorat=
+ion: none !important; border-bottom-width: 1px; border-bottom-color: #00000=
+0; border-bottom-style: solid; background-color: #ccc;"> toxic mortgage ass=
+ets</a>, or <a href=3D"https://link.mail.bloombergbusiness.com/click/309115=
+06.258434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMTQtMDItM=
+TcvY3JlZGl0LXN1aXNzZS10by1zd2FwLTIwMTEtYm9udXMtcGxhbi1mb3ItbmV3LWF3YXJkcy1t=
+ZW1vLXNheXM_Y21waWQ9QkJEMDMyMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1=
+fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzIxJnV0bV9jYW1wYWlnbj1tb25leXN0dW=
+Zm/607f07ceef4b8524a319a23cB206cae4d" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">  derivatives=C2=A0counterpar=
+ty credit exposure</a>. The idea was that, if Credit Suisse had stuff on it=
+s books that looked bad for regulatory capital, and that the market didn=E2=
+=80=99t want, but that Credit Suisse thought was good, then it would=C2=A0g=
+ive that stuff to its employees. This was clever both as a matter of aligni=
+ng incentives (bankers would be more careful if they had to eat their own c=
+ooking in their personal accounts) and as a matter of dis-aligning incentiv=
+es (the bankers, after all, were picking=C2=A0<em>which=C2=A0</em>bits of t=
+heir cooking got jammed into their PAs, and might have <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/30911506.258434/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMTItMDEtMjYvYXQtY3JlZGl0LXN1aXNzZS10b3hpY=
+y1ib251c2VzLXR1cm4taW50by1nb2xkP2NtcGlkPUJCRDAzMjEyM19NT05FWVNUVUZGJnV0bV9t=
+ZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMyMSZ1dG1fY2F=
+tcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBccac99a6" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">  picked=
+ the good bits</a>).</p>
+<p style=3D"margin: 16px 0;">But eventually this got a bit more standardize=
+d, so that instead of paying employees in whatever weird exposures it had l=
+ying around, Credit Suisse started paying part of their bonuses in one part=
+icular weird exposure. It was =E2=80=A6=C2=A0oh no =E2=80=A6=C2=A0it was ad=
+ditional tier 1 contingent capital securities!=C2=A0The things that got zer=
+oed this weekend! Bad choice.</p>
+<p style=3D"margin: 16px 0;">Except that the bonuses weren=E2=80=99t exactl=
+y paid in the AT1 bonds that were publicly traded and were zeroed this week=
+end. Instead, they got paid =E2=80=9CContingent Capital Awards=E2=80=9D wit=
+h very similar terms, including that the awards would go to zero if capital=
+ fell too low or to prevent insolvency or a public rescue.<a class=3D"footn=
+ote-index" href=3D"#footnote-7" style=3D"color: #000000; text-decoration: n=
+one !important; border-bottom-width: 1px; border-bottom-color: #000000; bor=
+der-bottom-style: none !important; background-color: transparent !important=
+; display: inline-block;">
+<span>[7]</span>
+</a>=C2=A0So did they get zeroed over the weekend along with the public AT1=
+ bonds, or not? I don=E2=80=99t know! Maybe not? Bloomberg=E2=80=99s=C2=A0<=
+a href=3D"https://link.mail.bloombergbusiness.com/click/30911506.258434/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMjEvY3JlZGl0LX=
+N1aXNzZS1lbXBsb3llZXMtYXdhaXQtd29yZC1vbi1jb250aW5nZW50LWNhcGl0YWwtYXdhcmRzP=
+2NtcGlkPUJCRDAzMjEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1u=
+ZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMyMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ce=
+ef4b8524a319a23cB1e2a0f8c" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">  Harry Wilson and Marion Halftermeyer r=
+eport</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">These were meant to mirror risky bonds that we=
+re=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/30911506.2=
+58434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTkvY=
+3JlZGl0LXN1aXNzZS1zLTE3LWJpbGxpb24tb2Ytcmlza3ktYm9uZHMtYXJlLW5vdy13b3J0aGxl=
+c3M_Y21waWQ9QkJEMDMyMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmN=
+lPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f0=
+7ceef4b8524a319a23cB44068c7d" target=3D"_blank" title=3D"Credit Suisse=E2=
+=80=99s $17 Billion of Risky Bonds Are Now Worthless (2)" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>wiped out</a>=C2=A0in the takeover but had yet to be written down to zero =
+before the Swiss statement landed, a person familiar with the matter said e=
+arlier Tuesday.</p>
+<p style=3D"margin: 16px 0;">The CCA awards were worth about 360 million fr=
+ancs ($388 million) at the end of 2022. One of the conditions of the awards=
+ is that the instruments have no value in the event of a collapse of the ba=
+nk. But the nature of the rescue =E2=80=94 couched as a private takeover =
+=E2=80=94 left some wondering if it was feasible the weekend=E2=80=99s even=
+ts may not trigger this. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">In 2021, just over 5,000 Credit Suisse employe=
+es received contingent capital awards, of which 1,229 were classified as ma=
+terial risk takers, performing jobs considered most vital to the bank=E2=80=
+=99s health.</p>
+<p style=3D"margin: 16px 0;">The lender stated in its annual report that th=
+e contingent capital awards carry =E2=80=9Crisks similar=E2=80=9D to other =
+contingent capital securities it issues.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Yeah look, if I were the regulator (or UBS), I=
+ might prefer to zero the public-market AT1s but not the employee ones: The=
+ employee ones are fairly small, so zeroing them doesn=E2=80=99t conserve m=
+uch capital, and the employees are going to be pretty demoralized right now=
+, so giving them something seems helpful for the long-term future of the bu=
+siness. On the other hand, the holders of the public AT1s are already threa=
+tening legal action because they got zeroed while the shareholders got some=
+thing, and they are going to be=C2=A0<em>furious=C2=A0</em>if Credit Suisse=
+ pays out the more-or-less identical employee AT1s and not them. Any bankin=
+g rescue is going to involve some arbitrary distinctions, but that one seem=
+s tough.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">First Boston</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30911506.258434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDMtMjEvdWJzLWFpbXMtdG8tYm9vc3QtaXRzLWRlYWxtYWtlci1yYW5rcy1ub3Q=
+tc3Bpbi1vdXQtZmlyc3QtYm9zdG9uP2NtcGlkPUJCRDAzMjEyM19NT05FWVNUVUZGJnV0bV9tZW=
+RpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMyMSZ1dG1fY2Ftc=
+GFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB20316e78" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> Oh well</=
+a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">UBS Group AG wants to cherry pick top dealmake=
+rs from Credit Suisse Group AG=E2=80=99s investment bank instead of support=
+ing Michael Klein=E2=80=99s plan to build a new independent firm, according=
+ to people familiar with the discussions.</p>
+<p style=3D"margin: 16px 0;">UBS executives have told their Credit Suisse c=
+ounterparts that they prefer selectively bolstering their own investment ba=
+nk while dumping the riskier operations, the people said, asking for anonym=
+ity because the review has just begun and no final decisions have been made=
+. In initial talks, the acquiring bank indicated little interest in continu=
+ing the planned effort for a CS First Boston carveout that would create a n=
+ew competitor, the people said.=C2=A0</p>
+<p style=3D"margin: 16px 0;">All this means Klein=E2=80=99s dream of leadin=
+g a new investment bank under the revived CS First Boston brand looks incre=
+asingly unlikely.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">When we last talked about the proposed First B=
+oston carveout, good lord,=C2=A0<em>six days=C2=A0</em>ago, <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/30911506.258434/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTUvc2lsaWNvbi12YWxsZXkt=
+YmFuay1pcy1mb3Itc2FsZT9jbXBpZD1CQkQwMzIxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWV=
+tYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMjEmdXRtX2NhbXBhaWduPW=
+1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB5420ba0b" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">  I said</a> that =
+it =E2=80=9Cmight be the most conflicted transaction I have ever seen. I ju=
+st admire it?=E2=80=9D It was an amazing piece of work, for Klein to be a C=
+redit Suisse board member, to be put in charge of deciding what to do with =
+the investment banking business, to decide the answer was to sell it to him=
+self and also to buy his existing investment banking boutique, and for him =
+to get Credit Suisse to agree that that was all fine.</p>
+<p style=3D"margin: 16px 0;">And now it is apparently falling apart for rea=
+sons that have nothing to do with its own audacity. Oh, I mean. It is possi=
+ble that there is some characteristic of Credit Suisse that made it unusual=
+ly likely to (1) do this First Boston deal, (2) have the <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/30911506.258434/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDctMjkvYXJjaGVnb3Mtd2FzLXRvby1=
+idXN5LWZvci1tYXJnaW4tY2FsbHM_Y21waWQ9QkJEMDMyMTIzX01PTkVZU1RVRkYmdXRtX21lZG=
+l1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzIxJnV0bV9jYW1wY=
+Wlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBebbb3c81" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">  Archegos</=
+a>, <a href=3D"https://link.mail.bloombergbusiness.com/click/30911506.25843=
+4/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDMtMTcvZ=
+3JlZW5zaWxsLWRpZG4tdC1qdXN0LWZpbmFuY2UtYmx1ZXN0b25lLXMtc3VwcGx5LWNoYWluP2Nt=
+cGlkPUJCRDAzMjEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXd=
+zbGV0dGVyJnV0bV90ZXJtPTIzMDMyMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4=
+b8524a319a23cBf6fa803f" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">  Greensill</a>, <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/30911506.258434/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMjAvbW9uZXktc3R1ZmYtY3JlZGl0LXN1aXN=
+zZS1tb3phbWJpcXVlLWRpZC1zb21lLXNlY3VyaXRpZXMtZnJhdWQ_Y21waWQ9QkJEMDMyMTIzX0=
+1PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlc=
+m09MjMwMzIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBdbb53a=
+86" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  tuna-bond</a>, <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30911506.258434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMTktMTAtMDEvY3JlZGl0LXN1aXNzZS1ib3NzLXMtZ2FyZGVuLWRpc3B1dGUtaX=
+MtYS12ZXJ5LWJhZC1sb29rP2NtcGlkPUJCRDAzMjEyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09Z=
+W1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMyMSZ1dG1fY2FtcGFpZ249=
+bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB7fc6e007" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;">  garden-party-sp=
+ying</a>, etc. scandals and (3) ultimately fail and be sold to UBS. Possibl=
+y the problem is that the overall level of audacity at Credit Suisse was to=
+o high, and eventually that caught up to it.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Meanwhile in America</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The recent run of bank failures in the US have=
+ been smaller but less controlled than Credit Suisse, though still controll=
+ed enough: Silicon Valley Bank, Signature Bank and Silvergate Bank were all=
+ taken over by the Federal Deposit Insurance Corp. rather than being sold o=
+ver a weekend to stronger banks like Credit Suisse was. Two possible reason=
+s for that are:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Buying Credit Suisse at a slightly-abo=
+ve-zero equity value was a good deal for UBS, while buying those banks at s=
+lightly-above-zero equity values would=C2=A0<em>not=C2=A0</em>be good deals=
+ for a buyer, so nobody wanted to buy them; or</li>=09<li style=3D"margin-b=
+ottom: 5px;">Rescuing Credit Suisse was enough of a priority for Swiss regu=
+lators that they were willing to combine their two largest banks into a sin=
+gle far-too-big-to-fail national champion, but rescuing SVB was not enough =
+of a priority for US regulators that they were willing to let, like, JPMorg=
+an Chase &amp; Co. or Wells Fargo &amp; Co. buy it and get much bigger.</li=
+>
+</ul>
+<p style=3D"margin: 16px 0;">Both of those things seem to have some truth t=
+o them.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/30911=
+506.258434/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMzA4MGQzNjgtZDVhYS00MTI1LWEy=
+MTAtNzE0ZTM3MDg3MDE3/607f07ceef4b8524a319a23cD588f9f59" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">Buying Cred=
+it Suisse</a> =E2=80=9Ccould end up being a once-in-a-generation boon for U=
+BS,=E2=80=9D while the US=E2=80=99s failed regional banks have uncertain fr=
+anchises and enough interest-rate losses in their bond and loan portfolios =
+that their assets might be worth less than their liabilities. But also Cred=
+it Suisse=E2=80=99s regulators were single-mindedly focused on getting a de=
+al done, while US regulators <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30911506.258434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDMtMTYvc3ZiLWh1bnRzLWZvci1hLWJ1eWVyLWFmdGVyLXRlbnNlLWRyYWdnZWQ=
+tb3V0LWZkaWMtc2FsZS1mYWlsZWQ_Y21waWQ9QkJEMDMyMTIzX01PTkVZU1RVRkYmdXRtX21lZG=
+l1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzIxJnV0bV9jYW1wY=
+Wlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBfeb481ba" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">  intentiona=
+lly discouraged too-big-to-fail banks</a> from bidding for SVB.</p>
+<p style=3D"margin: 16px 0;">But you do have to sell them to someone eventu=
+ally. Yesterday the FDIC sold most of Signature to New York Community Banco=
+rp=E2=80=99s subsidiary Flagstar Bank NA. But=C2=A0<a href=3D"https://link.=
+mail.bloombergbusiness.com/click/30911506.258434/aHR0cHM6Ly93d3cuZmRpYy5nb3=
+YvbmV3cy9wcmVzcy1yZWxlYXNlcy8yMDIzL3ByMjMwMjEuaHRtbA/607f07ceef4b8524a319a2=
+3cB8b6b36f2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;">not all of it</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Depositors of Signature Bridge Bank, N.A., oth=
+er than cash depositors related to the digital-asset banking businesses, wi=
+ll automatically become depositors of the assuming institution. All deposit=
+s assumed by Flagstar Bank, N.A., will continue to be insured by the FDIC u=
+p to the insurance limit. Flagstar Bank's bid did not include approximately=
+ $4 billion of deposits related to the former Signature Bank's digital-asse=
+ts banking business. The FDIC will provide these deposits directly to custo=
+mers whose accounts are associated with the digital-asset banking businesse=
+s. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Today's transaction included the purchase of a=
+bout $38.4 billion of Signature Bridge Bank, N.A.'s assets, including loans=
+ of $12.9 billion purchased at a discount of $2.7 billion. Approximately $6=
+0 billion in loans will remain in the receivership for later disposition by=
+ the FDIC. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The FDIC estimates the cost of the failure of =
+Signature Bank to its Deposit Insurance Fund to be approximately $2.5 billi=
+on.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Flagstar bought the assets it wanted and left =
+the ones it didn=E2=80=99t; it also assumed the=C2=A0<em>deposits=C2=A0</em=
+>it wanted (everything but crypto) and left the rest. Less than a month ago=
+, <a href=3D"https://link.mail.bloombergbusiness.com/click/30911506.258434/=
+aHR0cHM6Ly93d3cuZmVkZXJhbHJlc2VydmUuZ292L25ld3NldmVudHMvcHJlc3NyZWxlYXNlcy9=
+iY3JlZzIwMjMwMjIzYS5odG0/607f07ceef4b8524a319a23cBc567a114" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> US ban=
+king regulators issued</a> a =E2=80=9Cjoint statement on liquidity risks re=
+sulting from crypto-asset market vulnerabilities,=E2=80=9D warning banks th=
+at if they took crypto deposits they would be more vulnerable to a bank run=
+. Then there was a series of bank runs and a global banking crisis. Who wou=
+ld want those crypto deposits now?</p>
+<p style=3D"margin: 16px 0;">Meanwhile there <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/30911506.258434/aHR0cHM6Ly93d3cucmV1dGVycy5jb20v=
+YnVzaW5lc3MvZmluYW5jZS9mZGljLWV4dGVuZHMtYmlkZGluZy13aW5kb3ctc3ZiLXNlZWtzLXN=
+lcGFyYXRlLXNhbGUtcHJpdmF0ZS11bml0LTIwMjMtMDMtMjAv/607f07ceef4b8524a319a23cB=
+240e879d" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;"> seems to be no buyer</a> for all of Silicon Valley Bank,=
+ but there is <a href=3D"https://link.mail.bloombergbusiness.com/click/3091=
+1506.258434/aHR0cHM6Ly9uZXdzLmJsb29tYmVyZ2xhdy5jb20vbWVyZ2Vycy1hbmQtYWNxdWl=
+zaXRpb25zL3JlZ3VsYXRvcnMtZnJlZXplLTItYmlsbGlvbi1pbi1zdmItZmluYW5jaWFsLWJhbm=
+tydXB0Y3ktZmlnaHQ/607f07ceef4b8524a319a23cB0685a3b5" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">  this amazing=
+ story</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The former owner of=C2=A0Silicon Valley Bank, =
+seized earlier this month by regulators, asked a judge to force federal reg=
+ulators to return as much as $2 billion the company says it needs to reorga=
+nize in bankruptcy.</p>
+<p style=3D"margin: 16px 0;">SVB Financial Group=C2=A0was cut off from the =
+money after the bank was taken over by regulators, who control the bank=E2=
+=80=99s deposits, but not assets owned by SVB. The parent company has as mu=
+ch as $2 billion in several accounts, including three at its former bank, w=
+hich was renamed=C2=A0Bridge Bank=C2=A0after it was taken over. Regulators =
+at the=C2=A0Federal Deposit Insurance Corporation=C2=A0have refused to give=
+ SVB access to the accounts, according to court papers filed Sunday.</p>
+<p style=3D"margin: 16px 0;">The dispute threatens to disrupt SVB=E2=80=99s=
+ attempt to repay more than $3 billion the company owes bondholders. SVB fi=
+led for bankruptcy last week in order to reorganize its non-bank assets and=
+ repay creditors.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The FDIC has taken over Silicon Valley Bank an=
+d is trying to sell it off, but it seems like it may not succeed in selling=
+ the bank for more than it owes depositors, meaning that the FDIC =E2=80=94=
+=C2=A0which has promised to pay all SVB depositors, including uninsured one=
+s =E2=80=94=C2=A0might lose money on the deal.</p>
+<p style=3D"margin: 16px 0;">Meanwhile the holding company=E2=80=99s bondho=
+lders, who are in some rough hypothetical sense junior to the depositors, s=
+eem to be poised to get much of their money back, because the holding compa=
+ny had assets other than the bank. One of those assets was $2 billion in ca=
+sh. But that cash was held at SVB, and the FDIC, as a rather understandable=
+ matter of rough justice, isn=E2=80=99t giving it back.</p>
+<p style=3D"margin: 16px 0;">And here is <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/30911506.258434/aHR0cHM6Ly9jbHNibHVlc2t5Lmxhdy5jb2x1=
+bWJpYS5lZHUvMjAyMy8wMy8yMC9maW5hbmNpYWwtaW5zdGl0dXRpb24taW5ub3ZhdGlvbi1uZWV=
+kZWQtaW4tc2lsaWNvbi12YWxsZXkv/607f07ceef4b8524a319a23cB6355acd6" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ a proposal from Jeffrey Gordon</a> for =E2=80=9Cstorage=E2=80=9D bank acco=
+unts at Silicon Valley Bank, in which holders would own stock in the bank a=
+nd forfeit that stock if they redeemed their deposits early. Make the depos=
+itors owners of the bank and maybe they won=E2=80=99t run on it.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Credit Suisse Tells Staff to <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/30911506.258434/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMjAvY3JlZGl0LXN1aXNzZS10ZWxscy=
+1zdGFmZi10by1nby10by13b3JrLWFzLXNvbWJlci1tb29kLXNldHMtaW4_Y21waWQ9QkJEMDMyM=
+TIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRt=
+X3Rlcm09MjMwMzIxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB8=
+cfa5ff6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> Go to Work</a> as Somber Mood Sets In.=C2=A0Yellen Says U=
+S Will Intervene If Needed to <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30911506.258434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGl=
+jbGVzLzIwMjMtMDMtMjEveWVsbGVuLXNheXMtdXMtd2lsbC1pbnRlcnZlbmUtaWYtbmVlZGVkLX=
+RvLXByb3RlY3Qtc21hbGxlci1iYW5rcz9jbXBpZD1CQkQwMzIxMjNfTU9ORVlTVFVGRiZ1dG1fb=
+WVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMjEmdXRtX2Nh=
+bXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb5ad32f6" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">  Protec=
+t Smaller Banks</a>. FHLB <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/30911506.258434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGV=
+zLzIwMjMtMDMtMjAvZmhsYi1pc3N1ZXMtMzA0LWJpbGxpb24taW4tb25lLXdlZWstYXMtYmFua3=
+MtYm9sc3Rlci1saXF1aWRpdHk_Y21waWQ9QkJEMDMyMTIzX01PTkVZU1RVRkYmdXRtX21lZGl1b=
+T1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzIxJnV0bV9jYW1wYWln=
+bj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB7514315d" itemprop=3D"StoryLink" =
+itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-dec=
+oration: none !important; border-bottom-width: 1px; border-bottom-color: #0=
+00000; border-bottom-style: solid; background-color: #ccc;"> Issues $304 Bi=
+llion</a> in a Week as Banks Boost Liquidity.=C2=A0Biden Vetoes Bill for Fi=
+rst Time to <a href=3D"https://link.mail.bloombergbusiness.com/click/309115=
+06.258434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtM=
+jAvYmlkZW4td2llbGRzLXZldG8tcGVuLWZvci1maXJzdC10aW1lLXRvLWJsb2NrLWFudGktZXNn=
+LW1lYXN1cmU_c3JlZj0xa0pWTnFuVcKg/607f07ceef4b8524a319a23cB3f47f556" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> Block Anti-ESG Measure</a>. =E2=80=9CIf I was mugged, before I hit the gr=
+ound, <a href=3D"https://link.mail.bloombergbusiness.com/click/30911506.258=
+434/aHR0cHM6Ly9zbGF0ZS5jb20vaHVtYW4taW50ZXJlc3QvMjAyMy8wMy9hZHJpYW4tY2hpbGV=
+zLWd1YXJkaWFuLWNvbHVtbi1pbnRlcnZpZXcuaHRtbA/607f07ceef4b8524a319a23cB2752b7=
+56" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> I=E2=80=99d be thinking</a>, =E2=80=98I=E2=80=99ve got 1,000 =
+words on this for next week.=E2=80=99=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30911506.258434/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB41a66bf4" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30911506.258434/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBe59d6e9a" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] We have <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/30911506.258434/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9v=
+cGluaW9uL2FydGljbGVzLzIwMTQtMDktMDMvdGhlLWdvbGRtYW4tc2FjaHMtYWx1bWludW0tY29=
+uc3BpcmFjeS1sYXdzdWl0LWlzLW92ZXI_Y21waWQ9QkJEMDMyMTIzX01PTkVZU1RVRkYmdXRtX2=
+1lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzIxJnV0bV9jY=
+W1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB281e9904" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">  talked=
+ about this system before</a> in the context of a weird lawsuit over the al=
+uminum in LME warehouses. =E2=80=9CAbstract Aluminum Space,=E2=80=9D I call=
+ed the warehouses.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] To be clear, I=E2=80=99m making this up, I=
+ have no idea how the fraud was discovered and never want to find out, unle=
+ss the real story is funnier than this one.</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] I don=E2=80=99t know if they were? Is JPMo=
+rgan entitled to take out the rocks? Is it *required* to take out the rocks=
+? =E2=80=9CHey JPMorgan you have 10 days to come pick up your rocks; if you=
+ don=E2=80=99t we=E2=80=99re gonna throw them through Jamie Dimon=E2=80=99s=
+ window=E2=80=9D? If someone cracks open one of the rocks and there=E2=80=
+=99s a diamond inside, does JPMorgan get the diamond? </p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] The FT quotes the biggest shareholders, bu=
+t <a href=3D"https://link.mail.bloombergbusiness.com/click/30911506.258434/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMjAvY3JlZGl=
+0LXN1aXNzZS1jb2xsYXBzZS1yZXZlYWxzLXNvbWUtdWdseS10cnV0aHMtYWJvdXQtc3dpdHplcm=
+xhbmQtZm9yLWludmVzdG9ycz9jbXBpZD1CQkQwMzIxMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtP=
+WVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMjEmdXRtX2NhbXBhaWdu=
+PW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cD5b94ebfe" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">  Bloomberg also=
+ notes</a> that =E2=80=9CEthos Foundation, whose 246 pension fund members r=
+epresent 1.9 million people with 370 billion swiss francs in assets, has th=
+reatened [legal action] over the issue of blocking shareholder votes.=E2=80=
+=9D</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] It=E2=80=99s a little hard to read, but <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/30911506.258434/aHR0=
+cHM6Ly93d3cuZmlubWEuY2gvZW4vZW5mb3JjZW1lbnQvcmVjb3ZlcnktYW5kLXJlc29sdXRpb24=
+vdG9vLWJpZy10by1mYWlsLWFuZC1maW5hbmNpYWwtc3RhYmlsaXR5L2NhcGl0YWwtcmVxdWlyZW=
+1lbnRzLWZvci1zeXN0ZW1pY2FsbHktaW1wb3J0YW50LWJhbmtzLw/607f07ceef4b8524a319a2=
+3cB012eecfb" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blan=
+k" style=3D"color: #000000; text-decoration: none !important; border-bottom=
+-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; back=
+ground-color: #ccc;"> this Finma release</a> on =E2=80=9CCapital requiremen=
+ts for systemically important banks=E2=80=9D says that there is =E2=80=9Ca =
+base requirement of an RWA ratio of 12.86%,=E2=80=9D i.e. capital of at lea=
+st 12.86% of risk-weighted assets, plus add-ons of 1.44% for Credit Suisse,=
+ for a total of 14.3%, and =E2=80=9Cthe going concern requirements must be =
+largely met with common equity tier 1 (CET1) capital. Only a maximum of 4.3=
+% of the RWA ratio and 1.5% of the leverage ratio can be met with additiona=
+l Tier 1 (AT1) capital.=E2=80=9D So a minimum of 10% common equity tier 1.<=
+/p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] This is a bit sloppy, as book equity is no=
+t the same as CET1 capital, but close enough.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] See page 264 of <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/30911506.258434/aHR0cHM6Ly93d3cuY3JlZGl0LXN1=
+aXNzZS5jb20vbWVkaWEvYXNzZXRzL2NvcnBvcmF0ZS9kb2NzL2Fib3V0LXVzL2ludmVzdG9yLXJ=
+lbGF0aW9ucy9maW5hbmNpYWwtZGlzY2xvc3VyZXMvZmluYW5jaWFsLXJlcG9ydHMvY3NnLWFyLT=
+IwMjEtZW4ucGRm/607f07ceef4b8524a319a23cB9cb0bee9" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> the 2021 annual =
+report</a>, which describes the features of the CCAs and who got them.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30911506.258434/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBb1be05f5" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30911506.258434/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB8607b683" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30911506.258434/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBf2c595e1" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30911506.258434/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB47663491" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30911506.258434/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBd647e232" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/30911506.2584=
+34/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB1c0a78fb" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30911506.258434/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCc0606f0e" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30911506.258434/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBc58f2462" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30911506.258434/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBa4cf6dd9" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30911506.258434/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBc=
+38b2347" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30911506.258434/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB9=
+a450e01" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ciejgy.5jeq/94d490f4.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_8733266_40787416.1679423035140--
+

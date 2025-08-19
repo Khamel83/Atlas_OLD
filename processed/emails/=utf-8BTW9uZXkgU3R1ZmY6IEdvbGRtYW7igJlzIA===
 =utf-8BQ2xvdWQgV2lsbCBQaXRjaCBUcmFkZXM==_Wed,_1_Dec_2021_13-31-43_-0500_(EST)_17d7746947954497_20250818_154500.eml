@@ -1,0 +1,1741 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:4882:0:b0:14f:df5a:7f27 with SMTP id o2csp9050386lkd;
+        Wed, 1 Dec 2021 10:34:14 -0800 (PST)
+X-Received: by 2002:a05:6402:11cb:: with SMTP id j11mr11040700edw.38.1638383653936;
+        Wed, 01 Dec 2021 10:34:13 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1638383653; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=BBXs6OfqmOyZGlBETCn0ZpyV+UWH7Ll+myd634qCSJ0ApzodvODw+2nfHMemVuvgLA
+         64UWefzOHDNfVSKOg+Evw+Zv8JbK0+O4QqNGZaBk40cQrMCYbwqACzkXSBYfEzdQcvmU
+         h7LmFs7fmJeHxjHJitX2M9wh3wx+QTU7Szcjktfj/1b2Y0KaGSHc1uGyqKewZZpWP1cg
+         7qZHdTNCDiyuFCbGTBze1yBVwLMGRTfBhYoBv5+XhAgoPjJzmTVA3adg5qEQv+GIuhIK
+         O7rWOxZYz9IEftmZZ32omNnEA7jFVYypm7sf37iM5fcerSrR7sGqLaAqyrYaX2GWMU8W
+         Gosw==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=S8V+05y8DeXC+3TsJnUV2mnyMu8n5adCm+RaJ6XmxOw=;
+        b=ZN6Oz0J4813zM8potBhiqGgm99BdaLu239Ha0JXWgBwV0tdewHxDFZXH99btQvQn+S
+         NPXUX1LdboKYpjASEI5v/o3kreVBPYYtL9Z6qu1lJ6D2/mTXIEZl6u6PBrwOSkB8D3ey
+         LL8wQWnGnEvHT/p7UnfoEpx6tCYBv9nDxhHNk+UrjZoCXCte7MdA7vuMtCWNNSiKmUD3
+         MDCDkMtn32siRRqg3fUtTk492rGQf3zazGvCAiVWCw9/ak+4Ckxk0irSBqWyjgeRCfbS
+         AHvwf/MqdschcGypvJAmz0nZzgkUVS3yS0qR+q62E++J/hzTO02Lu1jjhtQw5b1L3Q23
+         62Wg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=CVR43GlJ;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id n10sor368897ejr.5.2021.12.01.10.34.13
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Wed, 01 Dec 2021 10:34:13 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=CVR43GlJ;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=S8V+05y8DeXC+3TsJnUV2mnyMu8n5adCm+RaJ6XmxOw=;
+        b=M0KMNnTRya11vSCTifaTbcptXk1rk2IcPRsL91rnEjCWcIPNO45XXPgFCEQAF1pZ0p
+         8LrnqWhmFkI3zTyhsYloHjx4h6V2c14Wb3YFOh5jT2wafRuHGwdv44mg37rswwo5LVDz
+         Pw1ZufUVu6W0p7kxF47kSCLD47DpxufOnAvP7E2MidcX4wcFRFYO8OQkofon+WCzLItu
+         /tKufw/UxpHtOSzfGdkyuvE/RFovylgb9iD4JnM0dFG74eTQ8NnRVEc/8mWiSQKjda2r
+         M10I78Gczw595jZdbw6IRIghh7zjsDIRPd8sIdFyUWnK33uO+Sty5+VseUKuliPXIIP0
+         UwPw==
+X-Gm-Message-State: AOAM533vEAqzsYjBrcfh63lrAcRv2K9WsYlAOvb5TEwMT1PMz0I5n1jU
+	8/1pjPnyx6RXqvREBXU0S+pBAGYvatOx5wUriti6W5UWdzDfQ2WjvcHJ
+X-Received: by 2002:a17:907:9723:: with SMTP id jg35mr9627799ejc.329.1638383653169;
+        Wed, 01 Dec 2021 10:34:13 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a54:3f11:0:0:0:0:0 with SMTP id b17csp8612115ecq;
+        Wed, 1 Dec 2021 10:34:10 -0800 (PST)
+X-Received: by 2002:a63:4619:: with SMTP id t25mr5962745pga.97.1638383650118;
+        Wed, 01 Dec 2021 10:34:10 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1638383650; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=P7duTl/w0R1jzUF5lAmdcwDg1WFSC6HP2PVoofJiA8oUY/R5WO/t9oyel6l2whsnDK
+         7W2x+OhrQOW8YRh/aw+ZAan90v6liZWT7TPQ/Ydjm83MBO/bQR74sLrJZuK0MLgci1zz
+         3FUvt6ntiqJ60b0PwPv5FfbgbB441h4KU62qyMjbOZhhecj16BHq1m0nQ1JxXX1r/ebe
+         ACgA05WLZ6mGsBxYSaf0LIxHrI2AYeyXWW6exUHA4m9x1angkypdmgWC9NY/SxZfEtPj
+         FOH93VzIlyzeeGbJO75msAYZMbVdrC2aDR9YFITEO8JEmMtprT0Haf8j3zs7gU8BE1lf
+         CMQQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=S8V+05y8DeXC+3TsJnUV2mnyMu8n5adCm+RaJ6XmxOw=;
+        b=f1DJgunIsshxaylxAO6WcYZw/kSFrHj902k71AXG8WbQX06C2enixfb7kW/i7M3g/9
+         yC+4GZL9QtAu/v29cOAH61UFJ3XEcoDrmcZRuMj9lAHMkO+Qr6W6O7i2wB8ZteViMcps
+         FI7+gLKCJCsn35SscwwS5oEU/Uh0D1E0MQg8AArelL9JEi2qkp2KaV+MKyBWYLEoet1w
+         tqCqOS8fuQ5NNjXiTczavvpIPI1jcuI4LTubW6x+lESXSrNYbL2ncHfwrYOgWMw+20kJ
+         eXF3ptzFxRys8WMbc9PjPeLtrUgWvtxl1WzoM5lWPZ541sq51FKlK83whJumxMF9Qe7y
+         pa3w==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=CVR43GlJ;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20211201133143.25892760.281658@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20211201133143.25892760.281658@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211201133143.25892760.281658@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id lb9sor105012pjb.2.2021.12.01.10.34.09
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Wed, 01 Dec 2021 10:34:10 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20211201133143.25892760.281658@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJze2t85wDpHWijueGnPVLRYyvJNGKjiDllqhPZkQx24Mte2lFkFFKzJcX4WXQKv3OAHsgAdZnnRLR+xSKUZ4ZEaiTvYVjQ=
+X-Received: by 2002:a17:90b:3a83:: with SMTP id om3mr9704190pjb.211.1638383649232;
+        Wed, 01 Dec 2021 10:34:09 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1638383649; cv=none;
+        d=google.com; s=arc-20160816;
+        b=vmRHPNqxRr3otz7koCOLRxgdaZY5Wh0zzX5+cGVEarnukIKgM3YtrfqPoRanSIGVJd
+         7O/4VGDGe3haLCOy3+PtrjJA7Ht3Zub7jPAuLUH3gMXqAubI9VKrl0uB4bbceKXG8hSl
+         RgrMP0oXTi2UxIAgC3jsTxTwR4m1iC9kNo4EHOU+9OxLneNgMzU3eF+6Tdb7gyahx/xM
+         +ZD4JQIi98kmvI00IKDViSCQJ+ip8TMXhSa9QeUmzuy94xfPSyHwMA/fJKJsDdczUoKt
+         1pzlcRzvZfBJxsJqdiv7wcZ+lvunp23AK6q1oTvHKCzQWrfFCuGBdhqJwZ1+hH2xI1++
+         ZO8Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=S8V+05y8DeXC+3TsJnUV2mnyMu8n5adCm+RaJ6XmxOw=;
+        b=dcNfeEM8YcZ53H1TJGO2pMcxltdDKRN5SOVhcwssCBkg4W1TQDR0F92NJOfRhuobBP
+         MziZnT6uZD9hg/kfC/89rMKKsO7jzJGHrqA5MWJZdH66SH2LCRg7p6nim0Ei11Tsi0g5
+         Fhp49JE1dcnNLHraPxYhWr2UPcCMvkc4ka1Z6TocQgWVDZqfNaPLzl3aHaoo0ZN/1SAU
+         u5XvVvLUQqJ7pRDkVI0A5VPzkzPSmFGXx4ewG10L2176T+zXGGVfSpJ3Va34FHteApiI
+         3Fg63yXE421MbsFJdXtkSKb1A//4b+7XBcJ9E/0msU/iEKjzvQn3pas28V/rQngFWyrW
+         kjcA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=CVR43GlJ;
+       spf=pass (google.com: domain of delivery_20211201133143.25892760.281658@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20211201133143.25892760.281658@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20211201133143.25892760.281658@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id p10si59918plr.4.2021.12.01.10.33.59
+        for <khamel83@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 01 Dec 2021 10:34:09 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20211201133143.25892760.281658@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=clCm4JUuFC9lE8EK3NWYGviTKr3A+LZw3Nf/kFTe2aU=;
+ b=CVR43GlJAVQWJkDodZMZz/K1+igCc3fF/xAIPflHjdp5iT1MUohHGI/FMzGq53f/3+PinopV9aNz
+   dWdQBSUigWVlp6S+bdDLhglWaBTPn8Nm9mL277DMvCmnyS4UOlGOZztw3EnNNUXXDis9gL4/+XIx
+   p4bUMK/GaoRNRdxhHsE=
+Received: from mtast-04.sailthru.com (204.153.121.10) by pmta29.sailthru.com id hkv01i2tem4a for <bloomberg@khamel.com>; Wed, 1 Dec 2021 13:33:50 -0500 (envelope-from <delivery_20211201133143.25892760.281658@mx.sailthru.com>)
+Received: from nj1-farmelon.flt (172.18.20.31) by mtast-04.sailthru.com id hkv00s1s6j0e for <bloomberg@khamel.com>; Wed, 1 Dec 2021 13:31:43 -0500 (envelope-from <delivery_20211201133143.25892760.281658@mx.sailthru.com>)
+Date: Wed, 1 Dec 2021 13:31:43 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20211201133143.25892760.281658@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IEdvbGRtYW7igJlzIA==?=
+ =?utf-8?B?Q2xvdWQgV2lsbCBQaXRjaCBUcmFkZXM=?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_10574196_523198003.1638383503214"
+Precedence: bulk
+X-Feedback-ID: 6358:25892760:campaign:sailthru
+X-TM-ID: 20211201133143.25892760.281658
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-farmelon.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfeyzc.61bu/ccd7f1cb
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cfeyzc.61bu/ccd7f1cb>, <mailto:unsubscribe_20211201133143.25892760.281658@mx.sailthru.com>
+X-rpcampaign: stjko25892760
+
+------=_Part_10574196_523198003.1638383503214
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Goldman cloudMuch of the business of an investment bank=E2=80=99s s=
+ales and trading division consists of calling up clients and saying =E2=80=
+=9Chey you shou
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Goldman cloud
+   =20
+ =20
+Much of the business of an investment bank=E2=80=99s sales and trading divi=
+sion consists of calling up clients and saying =E2=80=9Chey you should do t=
+his trade, this trade would be good for you.=E2=80=9D Perhaps the trade wou=
+ld be good for the client. But the actual point is that it would be good fo=
+r the bank; the bank would collect some commission or fee or spread or edge=
+ for executing or financing the trade. If clients do lots of trades the ban=
+k makes lots of money. If clients do not do trades the bank makes no money.=
+This is obviously complicated and subtle and exhausting work. You have to c=
+all lots of clients and suggest lots of trades, and if the suggestions are =
+stupid the clients won=E2=80=99t do the trades and will stop taking your ca=
+lls and do trades with some other bank. So you have to think of trades that=
+ the client will like, which requires knowing a lot about the market and th=
+e clients.Ideally you will do such a good job of (1) recommending good trad=
+es, (2) sounding smart while you do it and (3) taking the client to sportin=
+g events that the client will start calling=C2=A0you=C2=A0for trade ideas. =
+Instead of you calling and saying =E2=80=9Chey you should do this trade,=E2=
+=80=9D the client will call you and say =E2=80=9Chey what trades should I d=
+o?=E2=80=9D You have become a trusted adviser whom the client relies on for=
+ ideas, which also means that the client will execute those ideas with you =
+and you=E2=80=99ll make a lot of money.Can this all be automated? Sure why =
+not:Goldman Sachs is getting into the cloud computing business.The bank is =
+opening up access to its trove of market data and software tools to hedge f=
+unds and asset managers in an offering designed with Amazon=E2=80=99s cloud=
+ division, CNBC has learned exclusively.The move, the result of a two-year =
+collaboration with AWS, puts 152-year-old Goldman in the unusual position o=
+f being a provider of cloud services for Wall Street, according to executiv=
+es at the two firms. It=E2=80=99s part of Goldman CEO David Solomon=E2=80=
+=99s push to use technology to better serve clients of the firm=E2=80=99s m=
+arkets division, a trading juggernaut that has helped drive the firm=E2=80=
+=99s results this year. =E2=80=A6A hedge fund client who wanted to chart th=
+e correlation between a stock and currency exchange rates, for instance, co=
+uld take months to assemble and clean the data and perform calculations wit=
+h it, said [Goldman co-chief information officer Marco] Argenti. Instead, b=
+y building applications atop data feeds and analytic tools that Goldman its=
+elf uses, the analysis can be done in minutes, he said.=E2=80=9CIf this exi=
+sted we would=E2=80=99ve used it, but we had to build it for ourselves beca=
+use there really is nothing like this in the market,=E2=80=9D Argenti said.=
+ =E2=80=9CAll you need to do is assemble the interface and integrate it wit=
+h your application and then everything else is kind of taken care of for yo=
+u.=E2=80=9D =E2=80=A6The executives declined to give details about how Gold=
+man and AWS would share revenue from the joint project, but Solomon told CN=
+BC that he saw it as a way to further entrench the firm with trading client=
+s. Goldman plans to monetize the service through the trading and financing =
+opportunities that it will generate, he said.=E2=80=9CThis is something tha=
+t enhances the experience of our institutional clients and gives them acces=
+s to our data and information,=E2=80=9D Solomon said. =E2=80=9CThe way we g=
+et paid for that is we get more of their wallet share because the overall e=
+xperience and services we provide gives us more mindshare, more opportuniti=
+es to trade with them, to finance them and do things like that.=E2=80=9DIf =
+you are a bank, you don=E2=80=99t want your hedge fund clients to spend mon=
+ths assembling and cleaning data and performing calculations with it before=
+ doing a trade!=C2=A0You want them to do trades=C2=A0today, not months from=
+ now. Honestly you=E2=80=99d be fine if they did trades without analysis an=
+d calculations, but in modern financial markets that=E2=80=99s a hard pitch=
+; =E2=80=9Clet us help you do the analysis quickly=E2=80=9D is the best you=
+ are going to do. What you want is for your clients to come to work every m=
+orning and think about trade ideas using a tool with your brand name on it,=
+ and also for them not to think about those ideas for too long before they =
+call you to do the trade.We  talked last year about another delightful Gold=
+man tech project,[1] an app that it offered to investment banking clients =
+=E2=80=9Cto identify sale or=C2=A0spin-off=C2=A0opportunities and possible =
+takeover targets in the form of unloved or poorly performing company divisi=
+ons.=E2=80=9D That is a really good trade-idea generator to leave with the =
+client: If the client fiddles around with your app and it tells her =E2=80=
+=9Cyou should divest a $10 billion business=E2=80=9D and she believes it, s=
+he will almost certainly call you to do the divestiture and you=E2=80=99ll =
+collect an eight-digit fee for it.=E2=80=9CHey here=E2=80=99s some market d=
+ata=E2=80=9D is maybe less obviously lucrative, but on the other hand it=E2=
+=80=99s much more general-purpose. You don=E2=80=99t have to tell the clien=
+t what trade to do. You just leave them with a machine that will help them =
+generate trades and give them a general warm feeling about you.=C2=A0
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Nasdaq cloud
+   =20
+ =20
+Huh:Nasdaq Inc. said that next year it plans to begin moving its North Amer=
+ican markets to Amazon. com Inc.=E2=80=99s Amazon Web Services cloud-comput=
+ing platform.The move, which will take a phased approach starting with Nasd=
+aq MRX, a U.S. options market, involves turning over massive amounts of the=
+ exchange operator=E2=80=99s data to a third-party cloud service. Nasdaq di=
+dn=E2=80=99t disclose a timeline for moving its other markets.Nasdaq=E2=80=
+=99s ambition is to become =E2=80=9Cone hundred percent cloud-enabled,=E2=
+=80=9D Adena Friedman, the company=E2=80=99s chief executive, said in annou=
+ncing the move Tuesday at an AWS industry conference in Las Vegas. =E2=80=
+=9CWe will follow with more of our markets as we work closely with clients,=
+=E2=80=9D Ms. Friedman said.Nasdaq has previously said that all of its more=
+ than 25 markets will be hosted in the cloud within the next decade.It is l=
+ess of a thing now, but for a long time a big controversy in U.S. equity ma=
+rkets was that some high-frequency trading firms paid the stock exchanges l=
+ots of money to put their computers next to the stock exchanges=E2=80=99 co=
+mputers so that the wires between the traders=E2=80=99 computers and the st=
+ock exchanges=E2=80=99 computers would be short and the traders could trade=
+ faster than other traders with longer wires. If you put the stock exchange=
+s=E2=80=99 computers in the cloud, will traders still be able to pay extra =
+for shorter wires? You=E2=80=99ll be relieved to know that the answer is=C2=
+=A0yes:Mr. Peterson said that in the first phase of the move, Nasdaq=E2=80=
+=99s primary data center for its U.S. equities and options markets in Carte=
+ret, N.J., will be expanded and AWS will install computing resources there.=
+ Traders will be allowed to connect their servers to AWS servers the same w=
+ay they currently connect to Nasdaq=E2=80=99s servers, he said.You could im=
+agine this eventually all becoming virtual; the traders could pay directly =
+for lower latency. Instead of renting space for your computer next to the e=
+xchange=E2=80=99s computers at a data center in Carteret, just rent space f=
+or your virtual computer next to the exchange=E2=80=99s virtual computer in=
+ the cloud. Metaverse colocation, why not.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Glencore
+   =20
+ =20
+If you are a big investor who cares about environmental, social and governa=
+nce issues, one thing that you might do is refuse to invest in companies th=
+at mine thermal coal. This way, you will not have any thermal coal in your =
+portfolio and you will feel good about yourself. Also if a lot of big inves=
+tors refuse to invest in coal miners, that will raise the cost of capital o=
+f coal miners, which will lead to less coal mining, or that is  the theory =
+anyway.=C2=A0One criticism of this approach is that it actually=C2=A0reduce=
+s=C2=A0the influence that ESG-minded investors have over problematic compan=
+ies. If there is a company that does some coal mining, and also some good e=
+nvironmental stuff, what you want is for the company to cut back on the coa=
+l mining and ramp up the good stuff. If you own its stock, you can go meet =
+with the managers and lobby for that approach. But if you have a bright-lin=
+e rule saying =E2=80=9Cno thermal coal,=E2=80=9D who will meet with the man=
+agers and lobby for that approach?I think the answer is that a group of ESG=
+ activist investors have sprung up whose basic mission is =E2=80=9Clobby co=
+mpanies to become more appealing to ESG investors=E2=80=9D?  Anyway:Activis=
+t hedge fund Bluebell Capital Partners has asked Glencore Plc to separate i=
+ts thermal coal business because it has become a barrier to investment.The =
+hedge fund firm said that the commodities giant could realize more value fo=
+r shareholders if it separates that business, simplifies its asset base, di=
+sposes of non-core asset Viterra, and tackles governance issues. Bluebell=
+=E2=80=99s partners Giuseppe Bivona and Marco Taricco made the demands in a=
+ letter to the company, a copy of which was seen by Bloomberg. =E2=80=A6Lon=
+don-based Bluebell, which has shaken boardrooms across Europe and launched =
+activist campaigns against companies from GlaxoSmithKline Plc to Danone SA,=
+ said Glencore=E2=80=99s coal activities were hurting its valuation both fr=
+om a pure ESG perspective but also because of the uncertainty on terminal v=
+alue. The pair said that the company=E2=80=99s plan to keep thermal coal as=
+ part of its portfolio until 2050 is both =E2=80=9Cmorally unacceptable and=
+ financially flawed.=E2=80=9D=E2=80=9CDue to its coal business, Glencore is=
+ not an investible company for investors who place sustainability at the he=
+art of their investment process,=E2=80=9D Bluebell=E2=80=99s partners wrote=
+ in the letter dated Nov. 8. =E2=80=9CA clear separation between carbonised=
+ and de-carbonised assets is needed to increase shareholder value and remov=
+e the =E2=80=98coal discount,=E2=80=99 whilst simultaneously ensuring that =
+coal assets will be managed responsibly.=E2=80=9DWe have talked before abou=
+t  Engine No. 1 LLC=E2=80=99s activist campaign to make Exxon Mobil Corp. m=
+ore ESG-friendly, and about  Dan Loeb=E2=80=99s campaign to make Royal Dutc=
+h Shell Plc split its environmentally friendly renewables businesses off fr=
+om its dirty upstream and refining businesses. There is an obvious audience=
+ for this stuff. In some rough sense the audience is BlackRock Inc., the gi=
+ant institutional asset manager that (1) has  announced plans not to invest=
+ in thermal coal and (2) owns 8.3% of Glencore, oops. BlackRock cannot exac=
+tly lobby Glencore to change its behavior by saying =E2=80=9Cdue to its coa=
+l business, Glencore is not an investible company for BlackRock,=E2=80=9D b=
+ecause there it is owning 8.3% of Glencore. But Bluebell can say that, thou=
+gh it sensibly refers to generic =E2=80=9Cinvestors who place sustainabilit=
+y at the heart of their investment process.=E2=80=9DOn the other hand, the =
+criticism that we started with =E2=80=94=C2=A0that ESG investor divesting f=
+rom coal actually reduces their influence =E2=80=94=C2=A0also applies to pl=
+ans for public companies to get rid of coal assets:Bluebell=E2=80=99s lette=
+r comes at a strange time. Executives at some of the biggest miners say tha=
+t push to exit the fuel from investors is easing, amid a recognition that s=
+elling or spinning off assets can lead to more coal being mined for longer.=
+=C2=A0BHP Group=E2=80=99s exit from the fuel is no longer certain, while Gl=
+encore itself has gone to great lengths to make its investors more comforta=
+ble with its continued ownership, including capping its own production.=C2=
+=A0If Glencore, a public company with=C2=A0lots of revenue from =E2=80=9Cfu=
+ture facing metals such as cobalt and copper,=E2=80=9D owns coal mines, it =
+will face pressure from ESG-oriented shareholders to reduce its coal mining=
+ and ramp up its cleaner businesses. If it sells the coal mines to some pri=
+vate company specifically looking to grab cheap coal assets from ESG-pressu=
+red public companies, that private company is gonna mine all the coal as fa=
+st as possible.=C2=A0One rough model that you could have for modern corpora=
+te finance is that most senior corporate executives are mostly in the busin=
+ess of maximizing cash flows for shareholders, because that is what they we=
+re trained to do, but lots of shareholders are actually interested in somet=
+hing else. Sure they=E2=80=99ll take cash flows, cash flows are great, but =
+they have other interests. Retail investors, for instance, seem to love mem=
+es, and crypto, and Elon Musk. Big institutional investors tend to be inter=
+ested in ESG risk, and more generally in the systemic risks of their portfo=
+lios as a whole.One rough model that you could have for hedge fund activism=
+ is that companies are always a bit behind the times in terms of knowing wh=
+at shareholders want, and activists are in the business of reminding them, =
+of pushing them to do what their shareholders want. For a long time, what s=
+hareholders wanted was basically maximum earnings per share, and activists =
+were in the business of telling corporate managers to buckle down and incre=
+ase EPS.Now the market has evolved, shareholders want other things, and the=
+re are activists to give it to them. We have talked about  a meme activist =
+campaign=C2=A0pushing Macy=E2=80=99s Inc.=C2=A0to optimize its engagement w=
+ith retail shareholders by putting out press releases about Teslas and cryp=
+tocurrency. We have talked about a  diversified-investor activist campaign=
+=C2=A0pushing Fox Corp. to enhance the value of its shareholders=E2=80=99 o=
+verall portfolios by focusing on the profitability of=C2=A0other=C2=A0compa=
+nies, not just Fox.And there are the ESG activists. Part of what the ESG ac=
+tivists say is: =E2=80=9CIf you do better ESG things, that will increase yo=
+ur cash flows in the long run,=E2=80=9D a traditional corporate-finance thi=
+ng to say. But part of it is=C2=A0not=C2=A0that; part of it is just about a=
+ppealing to more shareholders=E2=80=99 preferences in order to get a higher=
+ valuation: =E2=80=9CIf you do better ESG things, more people will invest a=
+nd the stock will go up even holding cash flows constant.=E2=80=9D ESG is w=
+hat shareholders want, and activists are in the business of getting it for =
+them.
+ =20
+   =20
+      Facebook Meta Libra Diem Novi
+   =20
+ =20
+I think the last time  we talked about Meta Platforms Inc.=E2=80=99s Diem s=
+tablecoin project, it was Facebook Inc.=E2=80=99s Libra stablecoin project.=
+ How times have changed. The dream of like =E2=80=9Cuse Facebook=E2=80=99s =
+version of money to pay for stuff on Facebook=E2=80=9D probably made a bit=
+=C2=A0less=C2=A0sense than =E2=80=9Cuse Meta=E2=80=99s version of money to =
+pay for stuff in the metaverse,=E2=80=9D insofar as when you move into the =
+metaverse you will need to pay for your virtual goods and services and you =
+won=E2=80=99t be able to use paper money or probably even your credit card?=
+ I don=E2=80=99t know, I am still hoping to go a few more months without kn=
+owing what the metaverse is. But, sure, you=E2=80=99ll probably buy stuff i=
+n it with crypto. That=C2=A0is not helping Diem much though:David Marcus, o=
+ne of the top executives at Meta Platforms Inc. and the co-creator of the y=
+et-to-be-launched=C2=A0Diem digital currency, is leaving the company after =
+seven years to pursue other projects.=C2=A0Marcus, who joined the Facebook =
+parent company in 2014 from PayPal Holdings Inc., ran the Messenger service=
+ for years before moving over to form the company=E2=80=99s blockchain divi=
+sion in 2018. He spent the last few years building Novi, the company=E2=80=
+=99s digital wallet that launched in October, and co-founded Diem, a digita=
+l currency formerly known as Libra that was intended as a way for people to=
+ send money cross-border.Getting Diem off the ground has proven to be a str=
+uggle for Meta and Marcus. Since the project was unveiled in 2019 =E2=80=94=
+ with great fanfare and dozens of partners =E2=80=94 the currency=E2=80=99s=
+ debut has been delayed and its original ambitions have been scaled back. D=
+iem faced pushback from lawmakers and regulators when it was announced, and=
+ while Meta is still a partner on the effort, Diem is now run independently=
+.I will say that when Facebook announced Libra, I was embarrassingly bullis=
+h on it? I thought something along the lines of: Well, anarchic decentraliz=
+ed crypto has had a good run, but just as the anarchic decentralized intern=
+et ended up the property of like four big companies, so crypto will end up =
+just being a subsidiary of Facebook.  I said:You know =E2=80=A6 look at the=
+ internet. In a real, true, important sense, the internet is decentralized =
+and libertarian and empowering; the architecture of the internet is not con=
+trolled by any government or corporation, and everyone can access and build=
+ on it. But in another, also quite real, sense, the internet has been a pow=
+erful tool for the centralizing of power. There are a zillion websites but =
+you find them using Google; anyone can publish on the internet but you get =
+your news from Facebook; anyone can sell anything on the internet but mostl=
+y you buy stuff from Amazon; email is a free and open protocol but you use =
+Gmail. The democratizing effect of the internet=E2=80=99s openness and dece=
+ntralization is counteracted by its vast economies of scale and network eff=
+ects, which tend to concentrate power in a few big winners.Basically the po=
+int here is that if you replace the traditional social-regulatory technolog=
+y of money creation with a new sort of=C2=A0computer=C2=A0technology of mon=
+ey creation, odds are that the power of money creation will end up not so m=
+uch in the hands of free-spirited individual hackers around the world, but =
+in the hands of some giant tech company.=C2=A0In this case, Facebook Inc.I =
+guess that could still happen, but it sure seems wrong now, doesn=E2=80=99t=
+ it? I am not especially a crypto booster, and I think that a lot of the mu=
+ch-hyped decentralized =E2=80=9CWeb3=E2=80=9D is just flimsy Ponzi schemes,=
+ but it is interesting that so far crypto has been pretty resistant to take=
+over by big tech companies.=C2=A0
+ =20
+   =20
+      Excel influencing
+   =20
+ =20
+Here is the story of Kat Norton, who worked as a securitization consultant =
+until she =E2=80=9Cstarted going deep into inner work, work on myself: medi=
+tation, mindfulness, manifestation,=E2=80=9D at which point she decided to =
+be an Excel TikTok celebrity instead. Which is far more lucrative:By April,=
+ I started rolling out a second course. I did my first six-figure month. Bu=
+siness Insider had reached out for a feature. The whole Miss Excel project =
+had been just scaling and growing. By June of 2021, I received the Microsof=
+t MVP award. I also began working with Microsoft to learn more about their =
+products so I could help my audience in better ways. The whole experience h=
+as been just incredible. It scaled to my first six-figure day a couple of w=
+eeks ago. I was super hyped about that.I used to work at an investment bank=
+, though I never did the financial-modeling training that analysts get in t=
+heir first weeks on the job. I gather that is normally taught by outside co=
+nsultants. I think that if the analysts got their Excel training from peopl=
+e who=C2=A0make more money in a day than the analysts will make in a year, =
+they would all quit? =E2=80=9CIf I=E2=80=99m not launching courses, I work =
+maybe 15 hours a week,=E2=80=9D Norton also says, which, I mean, if the ana=
+lysts are not on a live deal they are working maybe 80 hours a week?=C2=A0
+ =20
+   =20
+      Me elsewhere
+   =20
+ =20
+I wrote about  meme stocks=C2=A0for the  Bloomberg 50 issue of Bloomberg Bu=
+sinessweek.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+China to  Close Loophole Used by Tech Firms for Foreign IPOs.=C2=A0Former T=
+emple Business School Dean Convicted in Falsified M.B.A. Rankings Data Sche=
+me.=C2=A0Oil Companies Got Their Hedges Clipped. Swiss Trader Who Was at He=
+art of  Global Insider Ring Sued by SEC. Sackler Family May Have  =E2=80=98=
+Abused=E2=80=99 Bankruptcy Process, Purdue Pharma Judge Says. SoftBank Bets=
+ on Asian Metaverse Platform Selling Digital Gucci, Dior. Major League Base=
+ball secretly used 2 different types of baseballs last season.=C2=A0If you'=
+d like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your=
+ inbox, please=C2=A0subscribe at this link. Or you can subscribe to Money S=
+tuff and other great Bloomberg newsletters here. Thanks![1] Disclosure, I u=
+sed to work at Goldman, doing the fairly low-tech work of getting on planes=
+ to pitch trades to clients in person.=C2=A0
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfeyzc.61bu/12246556.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_10574196_523198003.1638383503214
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Goldman cloudMuch of the business of an investment bank=E2=80=99s sales and=
+ trading division consists of calling up clients and saying =E2=80=9Chey yo=
+u shou
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25892760.281658/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNTg5Mjc2MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxNzQ0MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBf6994308" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D25892760&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26174418&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25892760.281658/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMjAxMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEyMDEmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBcd9174e6"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25892760.281658/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNTg5Mjc2MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxNzQ0MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC021058f1" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D25892760&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26174418&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Goldman cloud</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Much of the business of an investment =
+bank=E2=80=99s sales and trading division consists of calling up clients an=
+d saying =E2=80=9Chey you should do this trade, this trade would be good fo=
+r you.=E2=80=9D Perhaps the trade would be good for the client. But the act=
+ual point is that it would be good for the bank; the bank would collect som=
+e commission or fee or spread or edge for executing or financing the trade.=
+ If clients do lots of trades the bank makes lots of money. If clients do n=
+ot do trades the bank makes no money.</p><p style=3D"margin: 16px 0;">This =
+is obviously complicated and subtle and exhausting work. You have to call l=
+ots of clients and suggest lots of trades, and if the suggestions are stupi=
+d the clients won=E2=80=99t do the trades and will stop taking your calls a=
+nd do trades with some other bank. So you have to think of trades that the =
+client will like, which requires knowing a lot about the market and the cli=
+ents.</p><p style=3D"margin: 16px 0;">Ideally you will do such a good job o=
+f (1) recommending good trades, (2) sounding smart while you do it and (3) =
+taking the client to sporting events that the client will start calling=C2=
+=A0<em>you=C2=A0</em>for trade ideas. Instead of you calling and saying =E2=
+=80=9Chey you should do this trade,=E2=80=9D the client will call you and s=
+ay =E2=80=9Chey what trades should I do?=E2=80=9D You have become a trusted=
+ adviser whom the client relies on for ideas, which also means that the cli=
+ent will execute those ideas with you and you=E2=80=99ll make a lot of mone=
+y.</p><p style=3D"margin: 16px 0;">Can this all be automated? <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/25892760.281658/aHR0cHM6Ly93d3c=
+uY25iYy5jb20vMjAyMS8xMS8zMC9nb2xkbWFuLXNhY2hzLXVudmVpbHMtYW1hem9uLWJhY2tlZC=
+1jbG91ZC1zZXJ2aWNlLWZvci13YWxsLXN0cmVldC10cmFkaW5nLWZpcm1zLmh0bWw/607f07cee=
+f4b8524a319a23cB5743f17d" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">Sure why not</a>:</p><blockquote><p style=
+=3D"margin: 16px 0;">Goldman Sachs is getting into the cloud computing busi=
+ness.</p><p style=3D"margin: 16px 0;">The bank is opening up access to its =
+trove of market data and software tools to hedge funds and asset managers i=
+n an offering designed with Amazon=E2=80=99s cloud division, CNBC has learn=
+ed exclusively.</p><p style=3D"margin: 16px 0;">The move, the result of a t=
+wo-year collaboration with AWS, puts 152-year-old Goldman in the unusual po=
+sition of being a provider of cloud services for Wall Street, according to =
+executives at the two firms. It=E2=80=99s part of Goldman CEO David Solomon=
+=E2=80=99s push to use technology to better serve clients of the firm=E2=80=
+=99s markets division, a trading juggernaut that has helped drive the firm=
+=E2=80=99s results this year. =E2=80=A6</p><p style=3D"margin: 16px 0;">A h=
+edge fund client who wanted to chart the correlation between a stock and cu=
+rrency exchange rates, for instance, could take months to assemble and clea=
+n the data and perform calculations with it, said [Goldman co-chief informa=
+tion officer Marco] Argenti. Instead, by building applications atop data fe=
+eds and analytic tools that Goldman itself uses, the analysis can be done i=
+n minutes, he said.</p><p style=3D"margin: 16px 0;">=E2=80=9CIf this existe=
+d we would=E2=80=99ve used it, but we had to build it for ourselves because=
+ there really is nothing like this in the market,=E2=80=9D Argenti said. =
+=E2=80=9CAll you need to do is assemble the interface and integrate it with=
+ your application and then everything else is kind of taken care of for you=
+.=E2=80=9D =E2=80=A6</p><p style=3D"margin: 16px 0;">The executives decline=
+d to give details about how Goldman and AWS would share revenue from the jo=
+int project, but Solomon told CNBC that he saw it as a way to further entre=
+nch the firm with trading clients. Goldman plans to monetize the service th=
+rough the trading and financing opportunities that it will generate, he sai=
+d.</p><p style=3D"margin: 16px 0;">=E2=80=9CThis is something that enhances=
+ the experience of our institutional clients and gives them access to our d=
+ata and information,=E2=80=9D Solomon said. =E2=80=9CThe way we get paid fo=
+r that is we get more of their wallet share because the overall experience =
+and services we provide gives us more mindshare, more opportunities to trad=
+e with them, to finance them and do things like that.=E2=80=9D</p></blockqu=
+ote><p style=3D"margin: 16px 0;">If you are a bank, you don=E2=80=99t want =
+your hedge fund clients to spend months assembling and cleaning data and pe=
+rforming calculations with it before doing a trade!=C2=A0You want them to d=
+o trades=C2=A0<em>today</em>, not months from now. Honestly you=E2=80=99d b=
+e fine if they did trades without analysis and calculations, but in modern =
+financial markets that=E2=80=99s a hard pitch; =E2=80=9Clet us help you do =
+the analysis quickly=E2=80=9D is the best you are going to do. What you wan=
+t is for your clients to come to work every morning and think about trade i=
+deas using a tool with your brand name on it, and also for them not to thin=
+k about those ideas for too long before they call you to do the trade.</p><=
+p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/25892760.281658/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2=
+FydGljbGVzLzIwMjAtMDgtMDMvbm93LWFuLWFwcC1jYW4tcGl0Y2gtbWVyZ2Vycz9jbXBpZD1CQ=
+kQxMjAxMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRl=
+ciZ1dG1fdGVybT0yMTEyMDEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a31=
+9a23cB530f3c65" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_b=
+lank" style=3D"color: #000000; text-decoration: none !important; border-bot=
+tom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; b=
+ackground-color: #ccc;"> talked last year</a> about another delightful Gold=
+man tech project,[1] an app that it offered to investment banking clients =
+=E2=80=9Cto identify sale or=C2=A0spin-off=C2=A0opportunities and possible =
+takeover targets in the form of unloved or poorly performing company divisi=
+ons.=E2=80=9D That is a really good trade-idea generator to leave with the =
+client: If the client fiddles around with your app and it tells her =E2=80=
+=9Cyou should divest a $10 billion business=E2=80=9D and she believes it, s=
+he will almost certainly call you to do the divestiture and you=E2=80=99ll =
+collect an eight-digit fee for it.</p><p style=3D"margin: 16px 0;">=E2=80=
+=9CHey here=E2=80=99s some market data=E2=80=9D is maybe less obviously luc=
+rative, but on the other hand it=E2=80=99s much more general-purpose. You d=
+on=E2=80=99t have to tell the client what trade to do. You just leave them =
+with a machine that will help them generate trades and give them a general =
+warm feeling about you.=C2=A0</p><table class=3D"liveintent-sponsored-conte=
+nt" width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25892760.281658/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTg5Mjc2MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxNzQ0MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDa4c6a182" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25892760&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26174418&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25892760.281658/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTg5Mjc2MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxNzQ0MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEa4c6a182" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25892760&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26174418&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25892760.281658/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTg5Mjc2MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxNzQ0MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cFa0b05efd" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25892760&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26174418&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25892760.281658/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTg5Mjc2MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxNzQ0MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cGa0b05efd" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25892760&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26174418&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Nasdaq cloud</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloomberg=
+business.com/click/25892760.281658/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9u=
+YXNkYXEtdG8tbW92ZS1tYXJrZXRzLXRvLWFtYXpvbnMtY2xvdWQtMTE2MzgyOTExMDM/607f07c=
+eef4b8524a319a23cB74c3c96f" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">Huh</a>:</p><blockquote><p style=3D"mar=
+gin: 16px 0;">Nasdaq Inc. said that next year it plans to begin moving its =
+North American markets to Amazon. com Inc.=E2=80=99s Amazon Web Services cl=
+oud-computing platform.</p><p style=3D"margin: 16px 0;">The move, which wil=
+l take a phased approach starting with Nasdaq MRX, a U.S. options market, i=
+nvolves turning over massive amounts of the exchange operator=E2=80=99s dat=
+a to a third-party cloud service. Nasdaq didn=E2=80=99t disclose a timeline=
+ for moving its other markets.</p><p style=3D"margin: 16px 0;">Nasdaq=E2=80=
+=99s ambition is to become =E2=80=9Cone hundred percent cloud-enabled,=E2=
+=80=9D Adena Friedman, the company=E2=80=99s chief executive, said in annou=
+ncing the move Tuesday at an AWS industry conference in Las Vegas. =E2=80=
+=9CWe will follow with more of our markets as we work closely with clients,=
+=E2=80=9D Ms. Friedman said.</p><p style=3D"margin: 16px 0;">Nasdaq has pre=
+viously said that all of its more than 25 markets will be hosted in the clo=
+ud within the next decade.</p></blockquote><p style=3D"margin: 16px 0;">It =
+is less of a thing now, but for a long time a big controversy in U.S. equit=
+y markets was that some high-frequency trading firms paid the stock exchang=
+es lots of money to put their computers next to the stock exchanges=E2=80=
+=99 computers so that the wires between the traders=E2=80=99 computers and =
+the stock exchanges=E2=80=99 computers would be short and the traders could=
+ trade faster than other traders with longer wires. If you put the stock ex=
+changes=E2=80=99 computers in the cloud, will traders still be able to pay =
+extra for shorter wires? You=E2=80=99ll be relieved to know that the answer=
+ is=C2=A0yes:</p><blockquote><p style=3D"margin: 16px 0;">Mr. Peterson said=
+ that in the first phase of the move, Nasdaq=E2=80=99s primary data center =
+for its U.S. equities and options markets in Carteret, N.J., will be expand=
+ed and AWS will install computing resources there. Traders will be allowed =
+to connect their servers to AWS servers the same way they currently connect=
+ to Nasdaq=E2=80=99s servers, he said.</p></blockquote><p style=3D"margin: =
+16px 0;">You could imagine this eventually all becoming virtual; the trader=
+s could pay directly for lower latency. Instead of renting space for your c=
+omputer next to the exchange=E2=80=99s computers at a data center in Carter=
+et, just rent space for your virtual computer next to the exchange=E2=80=99=
+s virtual computer in the cloud. Metaverse colocation, why not.</p><table c=
+lass=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25892760.281658/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNTg5Mjc2MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxNzQ0MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cHe6eb2f5e" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D25892760&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26174418&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Glencore</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">If you are a big investor who cares ab=
+out environmental, social and governance issues, one thing that you might d=
+o is refuse to invest in companies that mine thermal coal. This way, you wi=
+ll not have any thermal coal in your portfolio and you will feel good about=
+ yourself. Also if a lot of big investors refuse to invest in coal miners, =
+that will raise the cost of capital of coal miners, which will lead to less=
+ coal mining, or that is <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25892760.281658/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGlj=
+bGVzLzIwMjEtMDctMDgvc29tZW9uZS1pcy1nb2luZy10by1kcmlsbC10aGUtb2lsP2NtcGlkPUJ=
+CRDEyMDEyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dG=
+VyJnV0bV90ZXJtPTIxMTIwMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a3=
+19a23cB659d8cc9" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> the theory anyway</a>.=C2=A0</p><p style=3D"margi=
+n: 16px 0;">One criticism of this approach is that it actually=C2=A0<em>red=
+uces=C2=A0</em>the influence that ESG-minded investors have over problemati=
+c companies. If there is a company that does some coal mining, and also som=
+e good environmental stuff, what you want is for the company to cut back on=
+ the coal mining and ramp up the good stuff. If you own its stock, you can =
+go meet with the managers and lobby for that approach. But if you have a br=
+ight-line rule saying =E2=80=9Cno thermal coal,=E2=80=9D who will meet with=
+ the managers and lobby for that approach?</p><p style=3D"margin: 16px 0;">=
+I think the answer is that a group of ESG activist investors have sprung up=
+ whose basic mission is =E2=80=9Clobby companies to become more appealing t=
+o ESG investors=E2=80=9D? <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/25892760.281658/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGV=
+zLzIwMjEtMTEtMzAvYWN0aXZpc3QtYmx1ZWJlbGwtYXNrcy1nbGVuY29yZS10by1zZXBhcmF0ZS=
+1pdHMtY29hbC1idXNpbmVzcz9jbXBpZD1CQkQxMjAxMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtP=
+WVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMTEyMDEmdXRtX2NhbXBhaWdu=
+PW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB8e611692" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;"> Anyway</a>:</p>=
+<blockquote><p style=3D"margin: 16px 0;">Activist hedge fund Bluebell Capit=
+al Partners has asked Glencore Plc to separate its thermal coal business be=
+cause it has become a barrier to investment.</p><p style=3D"margin: 16px 0;=
+">The hedge fund firm said that the commodities giant could realize more va=
+lue for shareholders if it separates that business, simplifies its asset ba=
+se, disposes of non-core asset Viterra, and tackles governance issues. Blue=
+bell=E2=80=99s partners Giuseppe Bivona and Marco Taricco made the demands =
+in a letter to the company, a copy of which was seen by Bloomberg. =E2=80=
+=A6</p><p style=3D"margin: 16px 0;">London-based Bluebell, which has shaken=
+ boardrooms across Europe and launched activist campaigns against companies=
+ from GlaxoSmithKline Plc to Danone SA, said Glencore=E2=80=99s coal activi=
+ties were hurting its valuation both from a pure ESG perspective but also b=
+ecause of the uncertainty on terminal value. The pair said that the company=
+=E2=80=99s plan to keep thermal coal as part of its portfolio until 2050 is=
+ both =E2=80=9Cmorally unacceptable and financially flawed.=E2=80=9D</p><p =
+style=3D"margin: 16px 0;">=E2=80=9CDue to its coal business, Glencore is no=
+t an investible company for investors who place sustainability at the heart=
+ of their investment process,=E2=80=9D Bluebell=E2=80=99s partners wrote in=
+ the letter dated Nov. 8. =E2=80=9CA clear separation between carbonised an=
+d de-carbonised assets is needed to increase shareholder value and remove t=
+he =E2=80=98coal discount,=E2=80=99 whilst simultaneously ensuring that coa=
+l assets will be managed responsibly.=E2=80=9D</p></blockquote><p style=3D"=
+margin: 16px 0;">We have talked before about <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/25892760.281658/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDUtMjcvZXh4b24tbG9zdC1hLWNsaW1hdGUtcHJveHk=
+tZmlnaHQ_Y21waWQ9QkJEMTIwMTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc2=
+91cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMjAxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/=
+607f07ceef4b8524a319a23cB53166380" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;"> Engine No. 1 LLC=E2=80=99s acti=
+vist campaign</a> to make Exxon Mobil Corp. more ESG-friendly, and about <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/25892760.281658/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMjgvZGFuLWx=
+vZWItd2FudHMtYS1jbGVhbi1zaGVsbC1hbmQtYS1kaXJ0eS1zaGVsbD9jbXBpZD1CQkQxMjAxMj=
+FfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fd=
+GVybT0yMTEyMDEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB6b9=
+1124f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: solid; background=
+-color: #ccc;"> Dan Loeb=E2=80=99s campaign</a> to make Royal Dutch Shell P=
+lc split its environmentally friendly renewables businesses off from its di=
+rty upstream and refining businesses. There is an obvious audience for this=
+ stuff. In some rough sense the audience is BlackRock Inc., the giant insti=
+tutional asset manager that (1) has <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/25892760.281658/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGlua=
+W9uL2FydGljbGVzLzIwMjAtMDEtMTQvYmxhY2tyb2NrLWhhcy1ncmVlbi1wbGFucz9jbXBpZD1C=
+QkQxMjAxMjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHR=
+lciZ1dG1fdGVybT0yMTEyMDEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a3=
+19a23cB6cd4e863" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> announced plans</a> not to invest in thermal coal=
+ and (2) owns 8.3% of Glencore, oops. BlackRock cannot exactly lobby Glenco=
+re to change its behavior by saying =E2=80=9Cdue to its coal business, Glen=
+core is not an investible company for BlackRock,=E2=80=9D because there it =
+is owning 8.3% of Glencore. But Bluebell can say that, though it sensibly r=
+efers to generic =E2=80=9Cinvestors who place sustainability at the heart o=
+f their investment process.=E2=80=9D</p><p style=3D"margin: 16px 0;">On the=
+ other hand, the criticism that we started with =E2=80=94=C2=A0that ESG inv=
+estor divesting from coal actually reduces their influence =E2=80=94=C2=A0a=
+lso applies to plans for public companies to get rid of coal assets:</p><bl=
+ockquote><p style=3D"margin: 16px 0;">Bluebell=E2=80=99s letter comes at a =
+strange time. Executives at some of the biggest miners say that push to exi=
+t the fuel from investors is easing, amid a recognition that selling or spi=
+nning off assets can lead to more coal being mined for longer.=C2=A0</p><p =
+style=3D"margin: 16px 0;">BHP Group=E2=80=99s exit from the fuel is no long=
+er certain, while Glencore itself has gone to great lengths to make its inv=
+estors more comfortable with its continued ownership, including capping its=
+ own production.=C2=A0</p></blockquote><p style=3D"margin: 16px 0;">If Glen=
+core, a public company with=C2=A0<a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/25892760.281658/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9nbGVu=
+Y29yZS1mYWNlcy1jYWxsLWZyb20tYWN0aXZpc3QtdG8tc2VsbC1jb2FsLWFzc2V0cy0xMTYzODI=
+3MzAzMz9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB32b4f9c4" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">lots of revenue from</a> =E2=80=9Cfuture facing metals such as cobalt a=
+nd copper,=E2=80=9D owns coal mines, it will face pressure from ESG-oriente=
+d shareholders to reduce its coal mining and ramp up its cleaner businesses=
+. If it sells the coal mines to some private company specifically looking t=
+o grab cheap coal assets from ESG-pressured public companies, that private =
+company is gonna mine all the coal as fast as possible.=C2=A0</p><p style=
+=3D"margin: 16px 0;">One rough model that you could have for modern corpora=
+te finance is that most senior corporate executives are mostly in the busin=
+ess of maximizing cash flows for shareholders, because that is what they we=
+re trained to do, but lots of shareholders are actually interested in somet=
+hing else. Sure they=E2=80=99ll take cash flows, cash flows are great, but =
+they have other interests. Retail investors, for instance, seem to love mem=
+es, and crypto, and Elon Musk. Big institutional investors tend to be inter=
+ested in ESG risk, and more generally in the systemic risks of their portfo=
+lios as a whole.</p><p style=3D"margin: 16px 0;">One rough model that you c=
+ould have for hedge fund activism is that companies are <em>always </em>a b=
+it behind the times in terms of knowing what shareholders want, and activis=
+ts are in the business of reminding them, of pushing them to do what their =
+shareholders want. For a long time, what shareholders wanted was basically =
+maximum earnings per share, and activists were in the business of telling c=
+orporate managers to buckle down and increase EPS.</p><p style=3D"margin: 1=
+6px 0;">Now the market has evolved, shareholders want other things, and the=
+re are activists to give it to them. We have talked about <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/25892760.281658/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTEtMDQvbWFjeS1zLXRhcmdldGVkLW=
+J5LW1lbWUtYWN0aXZpc3RzP2NtcGlkPUJCRDEyMDEyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09Z=
+W1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTIwMSZ1dG1fY2FtcGFpZ249=
+bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBc5e07aef" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> a meme activist =
+campaign</a>=C2=A0pushing Macy=E2=80=99s Inc.=C2=A0to optimize its engageme=
+nt with retail shareholders by putting out press releases about Teslas and =
+cryptocurrency. We have talked about a <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/25892760.281658/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcG=
+luaW9uL2FydGljbGVzLzIwMjEtMTAtMTQvaXQtcGF5cy10by1ub3QtcGF5LXlvdXItZGVidHM_Y=
+21waWQ9QkJEMTIwMTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5l=
+d3NsZXR0ZXImdXRtX3Rlcm09MjExMjAxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB23e8e43a" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;"> diversified-investor activist campaign</a=
+>=C2=A0pushing Fox Corp. to enhance the value of its shareholders=E2=80=99 =
+overall portfolios by focusing on the profitability of=C2=A0<em>other=C2=A0=
+</em>companies, not just Fox.</p><p style=3D"margin: 16px 0;">And there are=
+ the ESG activists. Part of what the ESG activists say is: =E2=80=9CIf you =
+do better ESG things, that will increase your cash flows in the long run,=
+=E2=80=9D a traditional corporate-finance thing to say. But part of it is=
+=C2=A0<em>not=C2=A0</em>that; part of it is just about appealing to more sh=
+areholders=E2=80=99 preferences in order to get a higher valuation: =E2=80=
+=9CIf you do better ESG things, more people will invest and the stock will =
+go up even holding cash flows constant.=E2=80=9D ESG is what shareholders w=
+ant, and activists are in the business of getting it for them.</p><table cl=
+ass=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Facebook Meta Libra Diem Novi</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I think the last time <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/25892760.281658/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDYtMTgvZmFjZWJvb2std2lsbC1tY=
+WtlLXRoZS1tb25leS1ub3c_Y21waWQ9QkJEMTIwMTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1l=
+bWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMjAxJnV0bV9jYW1wYWlnbj1=
+tb25leXN0dWZm/607f07ceef4b8524a319a23cBc87682bc" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> we talked about</=
+a> Meta Platforms Inc.=E2=80=99s Diem stablecoin project, it was Facebook I=
+nc.=E2=80=99s Libra stablecoin project. How times have changed. The dream o=
+f like =E2=80=9Cuse Facebook=E2=80=99s version of money to pay for stuff on=
+ Facebook=E2=80=9D probably made a bit=C2=A0<em>less=C2=A0</em>sense than =
+=E2=80=9Cuse Meta=E2=80=99s version of money to pay for stuff in the metave=
+rse,=E2=80=9D insofar as when you move into the metaverse you will need to =
+pay for your virtual goods and services and you won=E2=80=99t be able to us=
+e paper money or probably even your credit card? I don=E2=80=99t know, I am=
+ still hoping to go a few more months without knowing what the metaverse is=
+. But, sure, you=E2=80=99ll probably buy stuff in it with crypto. That=C2=
+=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/25892760.281658=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMzAvbWV0YS=
+1mYi1leGVjdXRpdmUtYW5kLWRpZW0tY28tY3JlYXRvci1kYXZpZC1tYXJjdXMtaXMtbGVhdmluZ=
+y1jb21wYW55P2NtcGlkPUJCRDEyMDEyMV9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRt=
+X3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIxMTIwMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHV=
+mZg/607f07ceef4b8524a319a23cBa00563bc" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">is not helping Diem much tho=
+ugh</a>:</p><blockquote><p style=3D"margin: 16px 0;">David Marcus, one of t=
+he top executives at Meta Platforms Inc. and the co-creator of the yet-to-b=
+e-launched=C2=A0Diem digital currency, is leaving the company after seven y=
+ears to pursue other projects.=C2=A0</p><p style=3D"margin: 16px 0;">Marcus=
+, who joined the Facebook parent company in 2014 from PayPal Holdings Inc.,=
+ ran the Messenger service for years before moving over to form the company=
+=E2=80=99s blockchain division in 2018. He spent the last few years buildin=
+g Novi, the company=E2=80=99s digital wallet that launched in October, and =
+co-founded Diem, a digital currency formerly known as Libra that was intend=
+ed as a way for people to send money cross-border.</p><p style=3D"margin: 1=
+6px 0;">Getting Diem off the ground has proven to be a struggle for Meta an=
+d Marcus. Since the project was unveiled in 2019 =E2=80=94 with great fanfa=
+re and dozens of partners =E2=80=94 the currency=E2=80=99s debut has been d=
+elayed and its original ambitions have been scaled back. Diem faced pushbac=
+k from lawmakers and regulators when it was announced, and while Meta is st=
+ill a partner on the effort, Diem is now run independently.</p></blockquote=
+><p style=3D"margin: 16px 0;">I will say that when Facebook announced Libra=
+, I was embarrassingly bullish on it? I thought something along the lines o=
+f: Well, anarchic decentralized crypto has had a good run, but just as the =
+anarchic decentralized internet ended up the property of like four big comp=
+anies, so crypto will end up just being a subsidiary of Facebook. <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/25892760.281658/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDYtMTgvZmFjZWJvb2st=
+d2lsbC1tYWtlLXRoZS1tb25leS1ub3c_Y21waWQ9QkJEMTIwMTIxX01PTkVZU1RVRkYmdXRtX21=
+lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMjAxJnV0bV9jYW=
+1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cCc87682bc" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> I said</=
+a>:</p><blockquote><p style=3D"margin: 16px 0;">You know =E2=80=A6 look at =
+the internet. In a real, true, important sense, the internet is decentraliz=
+ed and libertarian and empowering; the architecture of the internet is not =
+controlled by any government or corporation, and everyone can access and bu=
+ild on it. But in another, also quite real, sense, the internet has been a =
+powerful tool for the centralizing of power. There are a zillion websites b=
+ut you find them using Google; anyone can publish on the internet but you g=
+et your news from Facebook; anyone can sell anything on the internet but mo=
+stly you buy stuff from Amazon; email is a free and open protocol but you u=
+se Gmail. The democratizing effect of the internet=E2=80=99s openness and d=
+ecentralization is counteracted by its vast economies of scale and network =
+effects, which tend to concentrate power in a few big winners.</p><p style=
+=3D"margin: 16px 0;">Basically the point here is that if you replace the tr=
+aditional social-regulatory technology of money creation with a new sort of=
+=C2=A0<em>computer=C2=A0</em>technology of money creation, odds are that th=
+e power of money creation will end up not so much in the hands of free-spir=
+ited individual hackers around the world, but in the hands of some giant te=
+ch company.=C2=A0In this case, Facebook Inc.</p></blockquote><p style=3D"ma=
+rgin: 16px 0;">I guess that could still happen, but it sure seems wrong now=
+, doesn=E2=80=99t it? I am not especially a crypto booster, and I think tha=
+t a lot of the much-hyped decentralized =E2=80=9CWeb3=E2=80=9D is just flim=
+sy Ponzi schemes, but it is interesting that so far crypto has been pretty =
+resistant to takeover by big tech companies.=C2=A0</p><table class=3D"heade=
+r" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Excel influencing</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/25892760.281658/aHR0cHM6Ly93d3cudGhldmVyZ2UuY29t=
+LzIyODA3ODU4L3Rpa3Rvay1pbmZsdWVuY2VyLW1pY3Jvc29mdC1leGNlbC1pbnN0YWdyYW0tZGV=
+jb2Rlci1wb2RjYXN0/607f07ceef4b8524a319a23cB1ced83f9" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">the story of K=
+at Norton</a>, who worked as a securitization consultant until she =E2=80=
+=9Cstarted going deep into inner work, work on myself: meditation, mindfuln=
+ess, manifestation,=E2=80=9D at which point she decided to be an Excel TikT=
+ok celebrity instead. Which is far more lucrative:</p><blockquote><p style=
+=3D"margin: 16px 0;">By April, I started rolling out a second course. I did=
+ my first six-figure month. Business Insider had reached out for a feature.=
+ The whole Miss Excel project had been just scaling and growing. By June of=
+ 2021, I received the Microsoft MVP award. I also began working with Micros=
+oft to learn more about their products so I could help my audience in bette=
+r ways. The whole experience has been just incredible. It scaled to my firs=
+t six-figure day a couple of weeks ago. I was super hyped about that.</p></=
+blockquote><p style=3D"margin: 16px 0;">I used to work at an investment ban=
+k, though I never did the financial-modeling training that analysts get in =
+their first weeks on the job. I gather that is normally taught by outside c=
+onsultants. I think that if the analysts got their Excel training from peop=
+le who=C2=A0<em>make more money in a day than the analysts will make in a y=
+ear</em>, they would all quit? =E2=80=9CIf I=E2=80=99m not launching course=
+s, I work maybe 15 hours a week,=E2=80=9D Norton also says, which, I mean, =
+if the analysts are not on a live deal they are working maybe 80 hours a we=
+ek?=C2=A0</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Me elsewhere</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I wrote about <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/25892760.281658/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2ZlYXR1cmVzLzIwMjEtMTItMDEvbWVtZS1zdG9ja3MtZ2FtZXN0b3AtZ21lL=
+WFtYy1hbmQtZG9nZWNvaW4tYmxvb21iZXJnLTUwLTIwMjE_Y21waWQ9QkJEMTIwMTIxX01PTkVZ=
+U1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjE=
+xMjAxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBe7e26a47" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> meme stocks</a>=C2=A0for the <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/25892760.281658/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9mZWF0d=
+XJlcy8yMDIxLWJsb29tYmVyZy01MC8_Y21waWQ9QkJEMTIwMTIxX01PTkVZU1RVRkYmdXRtX21l=
+ZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMjAxJnV0bV9jYW1=
+wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBb7716ccb" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> Bloomberg=
+ 50</a> issue of Bloomberg Businessweek.</p><table class=3D"header" width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">China to <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/25892760.281658/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjEtMTItMDEvY2hpbmEtcGxhbnMtdG8tYmFuLWxvb3Bob2xlLX=
+VzZWQtYnktdGVjaC1maXJtcy1mb3ItZm9yZWlnbi1pcG9zP2NtcGlkPUJCRDEyMDEyMV9NT05FW=
+VNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIx=
+MTIwMSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBd0c8218a" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> Close Loophole</a> Used by Tech Firms for Foreign IPOs.=C2=A0Former=
+ Temple Business School Dean Convicted in Falsified <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/25892760.281658/aHR0cHM6Ly93d3cud3NqLmNvb=
+S9hcnRpY2xlcy9mb3JtZXItdGVtcGxlLWJ1c2luZXNzLXNjaG9vbC1kZWFuLWNvbnZpY3RlZC1p=
+bi1mYWxzaWZpZWQtbS1iLWEtcmFua2luZ3MtZGF0YS1zY2hlbWUtMTE2MzgyODc4NzI_bW9kPWl=
+0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cBb2a173dd" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">M.B.A. Rank=
+ings Data Scheme</a>.=C2=A0Oil Companies Got Their <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/25892760.281658/aHR0cHM6Ly93d3cud3NqLmNvbS=
+9hcnRpY2xlcy9vaWwtY29tcGFuaWVzLWdvdC10aGVpci1oZWRnZXMtY2xpcHBlZC0xMTYzODI3M=
+zc4MD9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cBfd785d1c" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">Hedges Clipped</a>. Swiss Trader Who Was at Heart of <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/25892760.281658/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMzAvc3dpc3MtdHJhZGVyLXdoby13YXMtY=
+XQtaGVhcnQtb2YtZ2xvYmFsLWluc2lkZXItcmluZy1zdWVkLWJ5LXNlYz9jbXBpZD1CQkQxMjAx=
+MjFfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1=
+fdGVybT0yMTEyMDEmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB5=
+ce61624" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> Global Insider Ring</a> Sued by SEC. Sackler Family May H=
+ave <a href=3D"https://link.mail.bloombergbusiness.com/click/25892760.28165=
+8/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMTEtMzAvcHVyZ=
+HVlLXBoYXJtYS1qdWRnZS1jb25jZXJuZWQtc2Fja2xlci1mYW1pbHktYWJ1c2VkLWJhbmtydXB0=
+Y3k_Y21waWQ9QkJEMTIwMTIxX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmN=
+lPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjExMjAxJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f0=
+7ceef4b8524a319a23cB54ada279" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;"> =E2=80=98Abused=E2=80=99 Bankruptcy =
+Process</a>, Purdue Pharma Judge Says. SoftBank Bets on Asian Metaverse Pla=
+tform Selling <a href=3D"https://link.mail.bloombergbusiness.com/click/2589=
+2760.281658/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zb2Z0YmFuay1iZXRzLW9uLWF=
+zaWFuLW1ldGF2ZXJzZS1wbGF0Zm9ybS1zZWxsaW5nLWRpZ2l0YWwtZ3VjY2ktZGlvci0xMTYzOD=
+I3MDAwMD9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cB3dd20614" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">Digital Gucci, Dior</a>. Major League Baseball secretly used <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/25892760.281658/aHR0cHM6L=
+y93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS9tbGItdXNlZC10d28tZGlmZmVyZW50LWJhbGxzLWlu=
+LTIwMjEtMjAyMS0xMQ/607f07ceef4b8524a319a23cB342935fd" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;">2 different t=
+ypes of baseballs</a> last season.=C2=A0</p><p style=3D"margin: 16px 0;"><s=
+pan class=3D"news-designed-for-consumer-media"><em>If you'd like to get=C2=
+=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, please=
+=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/25892760.281=
+658/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vbW9uZXl=
+zdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/607f07c=
+eef4b8524a319a23cBbd0876a2" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">subscribe a=
+t this link</a>. Or you can subscribe to Money Stuff and other great Bloomb=
+erg newsletters <a href=3D"https://link.mail.bloombergbusiness.com/click/25=
+892760.281658/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/607f07ce=
+ef4b8524a319a23cB68785a44" itemprop=3D"StoryLink" itemscope=3D"itemscope" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">here</a>. Thanks!</em></span></p><p style=3D"margin: 16px =
+0;"><em>[1] Disclosure, I used to work at Goldman, doing the fairly low-tec=
+h work of getting on planes to pitch trades to clients in person.=C2=A0</em=
+></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25892760.281658/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB24c0574b" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25892760.281658/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB1016351e" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25892760.281658/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB7624dbb6" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25892760.281658/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cBe9d85cc4" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25892760.281658/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNTg5Mjc2MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MjYxNzQ0MTgmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cIe8e1bfc0" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D25892760&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26174418&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2589276=
+0.281658/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB0ad2ab9f" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25892760.281658/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC4969bf09" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25892760.281658/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBb61f5e47" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25892760.281658/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB8359897e" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25892760.281658/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBc=
+bcf4d99" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25892760.281658/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBd=
+836aad7" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D258927=
+60&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26174418&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D258927=
+60&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26174418&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D258927=
+60&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26174418&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D258927=
+60&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26174418&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D258927=
+60&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D26174418&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cfeyzc.61bu/12246556.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_10574196_523198003.1638383503214--
+

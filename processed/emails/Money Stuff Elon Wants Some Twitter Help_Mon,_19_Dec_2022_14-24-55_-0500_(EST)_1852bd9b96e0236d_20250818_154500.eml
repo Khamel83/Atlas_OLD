@@ -1,0 +1,2395 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:a51:b0:e2:9b5b:7c1 with SMTP id 17csp2530328rwb;
+        Mon, 19 Dec 2022 11:26:07 -0800 (PST)
+X-Received: by 2002:a05:600c:4b2a:b0:3d3:58d1:2588 with SMTP id i42-20020a05600c4b2a00b003d358d12588mr2960266wmp.41.1671477967073;
+        Mon, 19 Dec 2022 11:26:07 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1671477967; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=lzR7n6w8Wiuc6G9DprvGwT0g1fT4XrgxCBegNTtKTu2bPURgw+rVTh7vJNBXPYJnbd
+         zI58iwDoTEEvTmNwhv3cAbMwIxtUcpMe/HWWOU4bWFAG6AsNLaC3yENERQf7Rz7e5EBu
+         JuB3iQWdgdUyoXQsLNUe6CWXaFy6U2CdQ4fMVV/nwNVe5HlzOEFjGG+w2V1oi5DGeOQr
+         Sm2C7FgV3SPPp5qm8BxWDITKlnIf2VgCGcOSMFKThUBDFzGDlNYusJFAmwqWQcLH5FhE
+         Iy8/e050jAehfrNYwWoSqTu5TjaSRDzMM3xL0YFXowWNxIkqikGT4b0jietucqSuETSU
+         MlYQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=8fVih3zW5tc8J0FEBF3tAtEMAf/Yc6pjdCCTnS7zVqc=;
+        b=ElEscXVBSpji5IibpcdTmTyGBFedBRD9GQz8kxMh7xH5Jad4tee9610cqqp/qsDKqV
+         zK/1caQn0Fz+096HYbSgP7FxE8HKibGWB1gLdMyzm4O6lRwaSx+3cySfH91e8e3BU+Fd
+         sfRVNBMGJtGgsAcbF8VnC2ibR25xyqv/KhQ98lTHu2oRGPqaJiqhf5pz/YKJ0HjePkSH
+         KbzUJzY7guuwnATo1d4Nyv1rS6Nx2UpPlwjv0uGeB0C7dpPfQCbA5HRF6x52wCFvo5mM
+         xo3K6gWJkLph/R6B8QyeRTnAjEC57L6dEmV2LTHRhv8wfgNbdY3bCvpw+ALjj8sEk69U
+         SrAQ==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=IuhAzrdm;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id i21-20020a05600c14d500b003d1c4ee74easor3002299wmh.1.2022.12.19.11.26.06
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 19 Dec 2022 11:26:07 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=IuhAzrdm;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=8fVih3zW5tc8J0FEBF3tAtEMAf/Yc6pjdCCTnS7zVqc=;
+        b=uBvnUT03aqNKdyydPa/epY2/HK3NL3uyFcdrK3ahwGap+YAOlyBM76FEiOsJJz4IDf
+         p4mp9nIuB6IySXzwbCpgO4gB0gB/qqLa3RHZ04Ml0FED7kTGMaHx3ry8aqtAmKbTEhzT
+         VQv5Jzn8WxyBaUphjB49hIlkMJR7aadMq9xkCm3hl8Y7LadUZYmFbI5vRV72UiqqhIbW
+         /ngatdTXLkdhUBAvUQqaCG/uMLq03qDsJutXstogSxvlwIvdUELT8xSxpYFoGe9j+NhX
+         PMbqlR9O63n1AhBpNELd8vg8LwMXyWn+oUg5KY2CWpu7PrFtIPotJXwvtz1n8LultGih
+         wv2A==
+X-Gm-Message-State: ANoB5pkulARPa35CjTfroIXWdPtj6l6kq+DVggoZjD8hBu4jQ69W3oQj
+	NT4yDp2iTdFxJrurdfjezsl9xqrCO6r/KcHCHG88qi6+JFHmMnF58w==
+X-Received: by 2002:a7b:cbc4:0:b0:3d2:3cb4:946e with SMTP id n4-20020a7bcbc4000000b003d23cb4946emr1273272wmi.36.1671477966720;
+        Mon, 19 Dec 2022 11:26:06 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:adf:a454:0:0:0:0:0 with SMTP id e20csp2566786wra;
+        Mon, 19 Dec 2022 11:26:03 -0800 (PST)
+X-Received: by 2002:a05:6808:1905:b0:35e:a6cd:a871 with SMTP id bf5-20020a056808190500b0035ea6cda871mr19079293oib.41.1671477962838;
+        Mon, 19 Dec 2022 11:26:02 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1671477962; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=FGM90iRELsnnE1cKNc5xbULFdIba9ElFq4ejxKvDZi5LHMLGN2ukRIYG2fIqYINzBu
+         efRYKmfFwJbgSUbk5a7w/pJJe1xqRl9n3HHdiCX4CxeM9Qt1+D6hm14mgNmw7ZrzqVJ7
+         CRTrX2JKqoAaqcWERLHRroR1qxb98Q+aUBWnyQLmGYPZt9WPClewuVnIjwf19uxTnoCu
+         a7+3vxIq+CHT4hJ3WMgXgwZzBcotiltB7+bgcTugtPRRjqx0D8wBxm2xI8y785BFbdt+
+         Y9HCT3bbqzAsl/SRa3/HVO7+ukUy6c/hoN66huOD74iwoHL1fsBUMxtvpJQspMvimhvi
+         /3Rg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=8fVih3zW5tc8J0FEBF3tAtEMAf/Yc6pjdCCTnS7zVqc=;
+        b=LYYrhPA30sWQ4x0GnfJbJ4WipJ42VLgNMlSBOoKh+NyejlGPxDVHSTYx0e2SCmy9ag
+         ORetC65HuKn7lnopTq1Ir2OFkw6+Aiq3GkETV6dNZbYjFx6V1KMjPgQd19roKEHSqVxr
+         jrPTTiztPm4QvNKxBHOPREAJZMWfr3ok3YHSccWPy8kPKjzBaa/6Z5HCGkLLriC4k8nZ
+         BSS2DSqCLk6FxNQo+RmLXq1XdRkfsEVUYQC0j801YChgrGpXehcLOgdJqRkyKBmijr1n
+         VgGBLvvuTDTtt6M3yiuOsMRTx8v4t2U0GTOucTPPSnplL3c6Ra5+k43uniXNzuHkrrlk
+         NJTw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=IuhAzrdm;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20221219142455.30025450.287534@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20221219142455.30025450.287534@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20221219142455.30025450.287534@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id h188-20020aca3ac5000000b0035b74d7945bsor2246880oia.36.2022.12.19.11.26.02
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 19 Dec 2022 11:26:02 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20221219142455.30025450.287534@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AMrXdXtdho1sgIbGdy6hkJkcWFjuflcDyM/Gxqfl/oBKSXrhuaAKOrw3CwaHZBz/C1NnRhs9D9zXbUmWIo/JV8zjDM+eG6tk2U0=
+X-Received: by 2002:a05:6808:2015:b0:360:de9c:98cd with SMTP id q21-20020a056808201500b00360de9c98cdmr4654403oiw.49.1671477962492;
+        Mon, 19 Dec 2022 11:26:02 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1671477962; cv=none;
+        d=google.com; s=arc-20160816;
+        b=cj082QDcH65Iw4pa3v66HK0x/Cc1YICIsYiVmb9mJ0phl3Xxikv+kRnG3OIADuPcTs
+         Gj8bqFTD4LRVbTLsnLr//V/8gLNRH/n1s8Dc0nBIyjotwaRDMHZOERv7Wj3ASpG3BUla
+         R1y3n8cbN3O3p412WqYglH6acgmdw7qBWapGZ0stmt9wdFi0hi9bNhZRbuR+xIUu64vN
+         Bnoimv4BoIkMjW3MRP6ZgEB1j6x1J3r3pvr2/s5pmeHJMh2M3ySfz75U0neLVJ/LSbd4
+         xjQKLSs98NCHN0qcNXQFGn/3e4u+ZQJD4pPRtKDIf9L3OmStSeJ21IvIFUS6aa3qtmVs
+         7aFQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=8fVih3zW5tc8J0FEBF3tAtEMAf/Yc6pjdCCTnS7zVqc=;
+        b=P0SRg0Hfu13ANN4DUOtofa6f3CtMbq0/fyABXg9jMiIbPrA7yUhsO/o3ek9pSwvHew
+         G+84u/hlzUqRpAT0MkZwucQi4N+9pL/+OtPOcDfmBEdn1Zqv06xRoLw5q8DOaQAzxPBN
+         27nmzdExyBF2D/2kDcE3tQNoxL44rT21x4VbYaWvekc/p0rvQ/16Xt+FjfjQt4bue0cJ
+         0wlNf67CLHnB3tZVNKqINQrKsdHQq9+HPkcyyVr7CqPB0pOM6hShzglLOySAwqMu0qau
+         lk+Tm3FJ+iezXVOOxE7LAgW5LjcWxSnv8arEf0yMmDt18S6hDMuK6Xwqjlp+pI7ikapS
+         uAxg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=IuhAzrdm;
+       spf=pass (google.com: domain of delivery_20221219142455.30025450.287534@mx.sailthru.com designates 192.64.237.222 as permitted sender) smtp.mailfrom=delivery_20221219142455.30025450.287534@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20221219142455.30025450.287534@mx.sailthru.com>
+Received: from pmta29.sailthru.com (pmta29.sailthru.com. [192.64.237.222])
+        by gmr-mx.google.com with ESMTPS id i5-20020acab805000000b0035c4c510304si1276060oif.1.2022.12.19.11.26.02
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 19 Dec 2022 11:26:02 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20221219142455.30025450.287534@mx.sailthru.com designates 192.64.237.222 as permitted sender) client-ip=192.64.237.222;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=VOwd4V/f2nS4kOxfwIKO1zYfVrWU5Q30YnYSNyBnBtk=;
+ b=IuhAzrdmODMrXf9K/ZA8P+X2S2ru9HfWA8mz3Gy5ivDJungNec5eDL2zpUQyuwdda86GbXeCx9B3
+   y7IJwhoCGFhkTFEdB1fUfl81tHcaIe7/Oa0yxHOq/DpLqVxirHvHkOjoBkTYzd4TMGsB0XK85O6m
+   3bYoXUUym9bhxuzfGcA=
+Received: from nj2mta-16.sailthru.com (204.153.121.16) by pmta29.sailthru.com id hk2tci2sd4sf for <bloomberg@khamel.com>; Mon, 19 Dec 2022 14:26:01 -0500 (envelope-from <delivery_20221219142455.30025450.287534@mx.sailthru.com>)
+Date: Mon, 19 Dec 2022 14:24:55 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20221219142455.30025450.287534@sailthru.com>
+Subject: Money Stuff: Elon Wants Some Twitter Help
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_64149345_423536686.1671477895982"
+Precedence: bulk
+X-Feedback-ID: 6358:30025450:campaign:sailthru
+X-TM-ID: 20221219142455.30025450.287534
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-jma-39.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23chvjsa.65v2/13c128fe
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23chvjsa.65v2/13c128fe>, <mailto:unsubscribe_20221219142455.30025450.287534@mx.sailthru.com>
+X-rpcampaign: stjko30025450
+
+------=_Part_64149345_423536686.1671477895982
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Imagine taking the job! Yesterday Elon Musk tweeted a poll asking i=
+f he should step down as =E2=80=9Chead=E2=80=9D of Twitter Inc.; 17.5 milli=
+on people vote
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Oh Elon
+   =20
+ =20
+
+Imagine taking the job! Yesterday Elon Musk  tweeted a poll asking if he sh=
+ould step down as =E2=80=9Chead=E2=80=9D of Twitter Inc.; 17.5 million peop=
+le voted, and=C2=A0the results were 57.5% to 42.5%=C2=A0in favor of him ste=
+pping down. =E2=80=9CI will abide by the results of this poll,=E2=80=9D he =
+said. But he also  tweeted =E2=80=9CAs the saying goes, be careful what you=
+ wish, as you might get it.=E2=80=9D  And: =E2=80=9CNo one wants the job wh=
+o can actually keep Twitter alive. There is no successor.=E2=80=9D  And: =
+=E2=80=9CThe question is not finding a CEO, the question is finding a CEO w=
+ho can keep Twitter alive.=E2=80=9D=C2=A0And, listing qualifications for th=
+e next chief executive officer: =E2=80=9CYou must like pain a lot. One catc=
+h: you have to invest your life savings in Twitter and it has been in the f=
+ast lane to bankruptcy since May. Still want the job?=E2=80=9D
+Meanwhile Musk has been  trying to  raise money for Twitter at $54.20 per s=
+hare, the $44 billion valuation at which he bought it; he   said in October=
+=C2=A0that he was =E2=80=9Cobviously overpaying.=E2=80=9D=C2=A0Since then t=
+hings have, uh, not gone well.=C2=A0So the proposition is =E2=80=A6=C2=A0wh=
+at? You take all of your money, you give it to Musk=C2=A0to buy equity in h=
+is company at a price that you all agree is absurd? And then you get to wor=
+k for him, running a sullen and broken Twitter according to his ever-shifti=
+ng whims, until he changes his mind and fires you? And when he fires you he=
+   denies you severance and dares you to sue, and  accuses you of being a s=
+ex criminal?=C2=A0
+I am sure that there are Musk fans who=C2=A0do=C2=A0want the job; as I   ha=
+ve said, proximity to Elon Musk is what creates value in modern markets, an=
+d so throwing away your life savings to work for him might be a good trade.=
+ (Also I=E2=80=99m sure he=E2=80=99s kidding about investing your life savi=
+ngs in Twitter.) Still, the candidate pool is probably limited to Musk=E2=
+=80=99s most ardent yes-men.=C2=A0=E2=80=9CThose who want power are the one=
+s who least deserve it,=E2=80=9D Musk also tweeted.
+And so one assumes that =E2=80=9Cbe careful what you wish for=E2=80=9D is a=
+ddressed to Twitter=E2=80=99s users, who voted for Musk to leave; the impli=
+cation would be that whoever replaces Musk as Twitter=E2=80=99s CEO will be=
+ even more capricious and unpopular. Instead of Musk making arbitrary decis=
+ions to get rid of stuff he doesn=E2=80=99t like, some Musk lieutenant will=
+ make arbitrary decisions to get rid of stuff that he thinks Musk=C2=A0migh=
+t=C2=A0not like, while giving Musk himself some deniability.
+But other readings are possible. Like most people, I assume that (1) Musk t=
+weeted this poll because he has already decided to step down as Twitter CEO=
+ (since, after all,  he said that a month ago!) and (2) he is planning to s=
+tep down as Twitter CEO to spend more time at Tesla Inc. (since, after all,=
+ he  said it in a court hearing about how Tesla=E2=80=99s board gave him a =
+record-breaking compensation package to retain his services, and then he we=
+nt flying off to run Twitter instead). One possibility is that =E2=80=9Cbe =
+careful what you wish for=E2=80=9D is directed at=C2=A0Tesla=E2=80=99s=C2=
+=A0board or shareholders. =E2=80=9CSure now you say that you want me back r=
+unning Tesla full time, but look at the mess I=E2=80=99m making here, are y=
+ou sure you want that at Tesla too?=E2=80=9D Musk owns companies that (1) p=
+roduce self-driving=C2=A0cars, (2) send rockets into space, (3) make human =
+brain implants and (4) run a website where people make fun of him. If he is=
+ having some sort of self-sabotaging meltdown, it is much better for him to=
+ spend his time on the making-fun-of-him website than the brain implants or=
+ the cars or the rockets. If he messes up the brain implants, people die! I=
+f he messes up the website where people make fun of him, they will make fun=
+ of him more. If you use Twitter as a source of comedy and a way to get in =
+fights, then it is=C2=A0good=C2=A0for Twitter to be run badly. Rockets don=
+=E2=80=99t work that way.
+Or=C2=A0of course =E2=80=9Cbe careful what you wish for=E2=80=9D could be a=
+ reminder to Musk himself. He wanted to buy Twitter, and oh boy did he ever=
+ end up buying Twitter, whoops. Ten million years ago, in April, when Musk =
+first announced that he had taken a stake in Twitter,   I wrote:
+Look this all makes complete sense,=C2=A0obvious, intuitive, simple sense. =
+If you are the richest person in the world, and annoying, and you constantl=
+y play a computer game, and you get a lot of enjoyment and a sense of ident=
+ity from that game and are maybe a little addicted, then at some point you =
+might=C2=A0have some suggestions for improvements in the game. So you might=
+ leave comments and email the company that makes the game saying =E2=80=9Ch=
+ey you should try my ideas.=E2=80=9D And the company=C2=A0might ignore you =
+(or respond politely but not move fast enough for your liking). It might oc=
+cur to you: =E2=80=9CLook, I am the richest person in the world; how much c=
+ould this game company possibly cost? I should just buy it and change the g=
+ame however I want.=E2=80=9D Even if your complaints are quite minor, why s=
+houldn=E2=80=99t you get to play=C2=A0exactly=C2=A0the game you want? Even =
+if you have=C2=A0no=C2=A0complaints, why not=C2=A0own=C2=A0the game you lov=
+e, just to make sure it continues to be exactly what you want?=C2=A0
+And that is more or less what has happened: He bought Twitter, brought back=
+ accounts whose politics aligned with his,   banned journalists who critici=
+zed him, banned mentions of other social media platforms, and generally tai=
+lored the Twitter experience to what he thought he wanted.
+And yet! From the outside, it does not seem like he is having fun. It turns=
+ out that very little of the experience of Twitter is about, like, the soft=
+ware; the edit button does not make anyone happy. The experience of Twitter=
+ is about the people, and in the course of running Twitter Musk has made a =
+lot of people mad at him. (In  what might be a first in internet message bo=
+ard moderating, Musk=E2=80=99s mom has been=C2=A0tweeting to  defend his mo=
+deration decisions.) Twitter is about comedy and getting in fights, but it =
+is also about connection, about finding an audience of people who understan=
+d and appreciate you. The basic problem is that, if you run a message board=
+, you can tweak the buttons, and you can ban users, but you can=E2=80=99t m=
+ake the users who are left love you. And for $44 billion you want love.
+Meanwhile  in dreams:
+
+According to psychologists who specialize in treating people suffering from=
+ nightmares and other sleep disorders, nightly visitations from Elon Musk a=
+re happening a lot these days. Such shared dream occurrences, which often h=
+appen during periods of instability, offer a broader insight into our colle=
+ctive psyche. =E2=80=9CWhen something is in the press, it triggers a lot of=
+ [dream] images,=E2=80=9D said Gayle Delaney, a Florida-based clinical psyc=
+hologist and dream analyst. =E2=80=9CA lot of people are thinking about Elo=
+n Musk. He demonstrates the human lust for power, play and creativity=E2=80=
+=A6and he=E2=80=99s also disappointed a lot of people.=E2=80=9D
+A search through Twitter confirms that Musk is turning up constantly in peo=
+ple=E2=80=99s subconscious right now, just as he is dominating conversation=
+ on the platform itself.
+
+I guess that=E2=80=99s worth paying $44 billion for.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Oh Elon (2)
+   =20
+ =20
+
+About that equity sale.  Semafor reported:
+
+Musk=E2=80=99s money manager, Jared Birchall, reached out to potential inve=
+stors [last] week, offering shares of Twitter at the same price, $54.20, th=
+at Musk paid to take the company private in October, the people said.
+=E2=80=9COver recent weeks we=E2=80=99ve received numerous inbound requests=
+ to invest in Twitter,=E2=80=9D it read, according to a copy reviewed by Se=
+mafor. =E2=80=9CAccordingly, we are pleased to announce a follow-on equity =
+offering for common shares at the original price and terms, targeting a yea=
+r-end close.=E2=80=9D
+Ross Gerber, a Tesla investor who said he put less than $1 million in Musk=
+=E2=80=99s original takeover of Twitter, confirmed that he was contacted Th=
+ursday evening about another funding round at the $44 billion valuation.
+Gerber said he=E2=80=99s considering it but wants to get a clearer idea of =
+what the plan is. =E2=80=9COne could argue he has created value or destroye=
+d value at Twitter. It=E2=80=99s hard to tell at this point,=E2=80=9D he sa=
+id.
+
+The  Financial Times adds:
+
+The note did not specify how much Twitter expected to raise in the new fund=
+raising effort, but said it aimed to close the fundraising by the end of th=
+e year.
+=E2=80=9CEverything has been done haphazardly and roughly,=E2=80=9D said in=
+vestment adviser Ross Gerber, who invested in the Twitter deal in October a=
+nd confirmed he had received the latest offer. =E2=80=9CThey=E2=80=99re doi=
+ng it because they=E2=80=99re out of money. I don=E2=80=99t think [Musk] ex=
+pected such a big drop in revenue.=E2=80=9D
+A second person whose firm received the offer said Musk had indicated the n=
+ew capital would be used to fund an expansion of its business, including a =
+=E2=80=9Chiring spree=E2=80=9D of programmers to build a =E2=80=9Csuper app=
+=E2=80=9D that could process payments, among other services.
+
+This is sort of a softer version of the dilemma we discussed above, about w=
+ho would want the CEO job. Who would want to buy Twitter stock, now, at a $=
+44 billion valuation? When Musk keeps saying that the company is going bank=
+rupt and not worth what he paid for it? When Musk=E2=80=99s lenders are try=
+ing offload Twitter=C2=A0debt=C2=A0at   60 cents on the dollar? Elon Musk h=
+as enough fans who are completely price-insensitive =E2=80=94=C2=A0who will=
+ give him money at any price just to be close to him =E2=80=94=C2=A0that he=
+=E2=80=99ll probably get=C2=A0some=C2=A0money out of this. (Some of them ar=
+e probably angling for the CEO job?)=C2=A0But, I assume, not much. If you a=
+re an institutional fiduciary, it seems hard to justify investing now at th=
+is price.
+Also my initial assumption was that, if Musk was selling Twitter shares, he=
+ was selling=C2=A0his=C2=A0shares: In his acquisition of Twitter, he commit=
+ted to buy all of the shares for $54.20, but he reserved the right to syndi=
+cate some of that commitment, and a number of other investors ended up putt=
+ing in money or rolling over their shares into Musk=E2=80=99s private Twitt=
+er. Up until the deal=E2=80=99s closing, he was apparently in conversations=
+ about selling more of his shares, and there=E2=80=99s no reason he couldn=
+=E2=80=99t keep doing that after closing.
+But the FT article indicates that the proposed deal is=C2=A0primary, that i=
+s, the seller of these shares (and the recipient of the money) would not be=
+ Musk, but Twitter itself, to use the money to expand, hire programmers, sh=
+ore up finances, etc. At some level this is a strange move, going back to r=
+aise more equity two months after a going-private deal.
+On the other hand, one thing that Musk has always been good at is capital r=
+aising: He has the ability to inspire equity investors to buy stock in his =
+companies at uneconomically high valuations, and the ruthlessness to hit th=
+e bid over and over again. At Tesla that has mostly involved   doing at-the=
+-market offerings of stock to retail investors; at Twitter I guess it invol=
+ves going back to his venture-capital backers and saying =E2=80=9Chey, if y=
+ou don=E2=80=99t want to mark down your investment at the end of the year, =
+consider throwing in some more money at the same price.=E2=80=9D
+
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Voyager
+   =20
+ =20
+
+I want to make sort of a generic point about crypto shadow banks. Let=E2=80=
+=99s say you have a crypto shadow bank, say a lending platform that takes c=
+ustomer deposits and uses them to lend to crypto hedge funds. It has custom=
+er deposits of $1 billion, it has shareholders=E2=80=99 equity of $100 mill=
+ion, and it buys $1.1 billion of assets, meaning mostly cryptocurrencies an=
+d loans to crypto hedge funds.=C2=A0The value of the assets goes down (to $=
+1 billion, or maybe a bit more, or maybe a lot less), there=E2=80=99s a run=
+ on the bank, and the lending platform halts withdrawals and files for bank=
+ruptcy.
+It goes to bankruptcy court and says =E2=80=9Chi, we owe customers $1 billi=
+on and we have assets that might be worth $1 billion or might not, but we=
+=E2=80=99re gonna try to get as much as we can for them.=E2=80=9D There are=
+ two possible paths here.
+One is that the platform can sell off the assets for cash. It had some Bitc=
+oins that it sells on an exchange; it has some stablecoins that it converts=
+ to dollars; it has some loans to hedge funds that it tries to collect or s=
+ell to other investors. Maybe it finds a buyer for all the assets; maybe it=
+ sells them off piecemeal. The buyers get the assets and pay cash. The buye=
+rs do not get any liabilities; the liabilities stay with the platform, in b=
+ankruptcy court. At the end of the process, the platform has some cash, and=
+ it gives that to its customers. If it ends up with $1 billion (or more) in=
+ cash, after paying expenses, then the customers get all their money back. =
+If it ends up with $900 million in cash, the customers get 90 cents on the =
+dollar. In any case, they get a check from the bankruptcy estate in the ban=
+kruptcy process.
+The other possible path is that the platform can sell itself as a going con=
+cern, or going-ish anyway. It finds a buyer that is itself a crypto shadow =
+bank =E2=80=94 let=E2=80=99s say a big well-known crypto exchange =E2=80=94=
+=C2=A0and the buyer says =E2=80=9Csure we will take over your customer liab=
+ilities.=E2=80=9D The buyer buys (1) the platform=E2=80=99s assets (its Bit=
+coins, loans, etc.) and (2) its customer list; it also acquires the platfor=
+m=E2=80=99s customer liabilities.=C2=A0It does not pay cash, or not very mu=
+ch: It pays for the assets by taking on the liabilities. (If the assets are=
+ worth more than the liabilities =E2=80=94=C2=A0or if the customer list is =
+very valuable =E2=80=94=C2=A0then maybe it kicks in some cash to pay the ba=
+nkruptcy advisers and maybe, even, the platform=E2=80=99s shareholders, but=
+ don=E2=80=99t count on that.) No cash flows through the bankruptcy estate;=
+ the customers don=E2=80=99t get checks.
+Instead, the customers wake up one day to find that they are now customers =
+of the buyer. This is an improvement in their situation. Before, they were =
+customers of a bankrupt crypto lending platform that had frozen withdrawals=
+. Now, they are customers of a big solvent crypto exchange that processes w=
+ithdrawals normally. They can withdraw their money! Their accounts are all =
+there! They can get 100 cents on the dollar!
+Perhaps they all will: =E2=80=9CI=E2=80=99ve had enough of this,=E2=80=9D t=
+hey=E2=80=99ll say, and take their cash out. In that scenario, the buyer wi=
+ll have to pay out $1 billion in cash to customers in short order, and will=
+ be left with the platform=E2=80=99s=C2=A0assets, its crypto or loans or wh=
+atever.
+  [1]
+=C2=A0If the assets were worth $1.1 billion, that=E2=80=99s good for the bu=
+yer, and that=E2=80=99s a real possibility: If the buyer solved a liquidity=
+ crisis for the seller, then the assets might quickly bounce back. If the a=
+ssets were worth $900 million, the buyer loses money, and that is also a re=
+al possibility: When crypto shadow banks blow up they tend to blow up prett=
+y hard. In any case, in this scenario the buyer has not gotten much value o=
+ut of the seller=E2=80=99s customer list: All the customers quit immediatel=
+y.
+But this is not, I think, the most likely outcome, or the one the buyer is =
+betting on. More realistically, most of the customers will think =E2=80=9Ca=
+h, well, I got burned by trusting that old insolvent crypto shadow bank, bu=
+t now I am a customer of a well-capitalized industry-leading crypto exchang=
+e, and surely my money is safe. Also my new exchange has such a good user i=
+nterface and a wide range of exciting trading and lending opportunities; I =
+am going to take advantage of them.=E2=80=9D So the customers will keep the=
+ir cash on the platform. The buyer =E2=80=94=C2=A0the exchange that now has=
+ them as customers =E2=80=94=C2=A0does not have to pay out $1 billion in ca=
+sh. Perhaps it attracts=C2=A0more=C2=A0cash, as grateful and confident cust=
+omers experience its good trading interface. They trade, they make or lose =
+money, they pay fees, life goes on.
+In this scenario you can say things like =E2=80=9Cthe rescuing exchange bou=
+ght the bankrupt platform=E2=80=99s assets for $1 billion,=E2=80=9D and you=
+=E2=80=99re not exactly wrong. But the rescuing exchange didn=E2=80=99t pay=
+ out $1 billion in cash for the bankrupt platform=E2=80=99s assortment of a=
+ssets. It did something else. It got the assets and=C2=A0guaranteed=C2=A0th=
+e bankrupt platform=E2=80=99s liabilities.
+There=E2=80=99s nothing particularly =E2=80=9Ccrypto=E2=80=9D about any of =
+this, I should say, and rescues of failing actual banks tend to work much t=
+he same way (though they tend to be orchestrated by bank regulators and bac=
+kstopped by deposit insurance). If your bank fails, it would be very unusua=
+l for you to end up with a sack of cash and a note reading =E2=80=9Cfind an=
+other bank.=E2=80=9D Far, far, far more likely, you will just automatically=
+ end up with an account at a different bank, and it won=E2=80=99t even occu=
+r to you to withdraw your money. Your bank failed and now you have a better=
+ bank, the system worked, it=E2=80=99s fine.
+The bankrupt platform   may or may not have had a solvency crisis =E2=80=94=
+=C2=A0the assets might or might not have been worth less than the liabiliti=
+es =E2=80=94=C2=A0but it certainly had a liquidity crisis; customers wanted=
+ their money back and there wasn=E2=80=99t enough ready money for them. The=
+ exchange solved the liquidity crisis, not necessarily by coming up with re=
+ady money, but by=C2=A0slowing the withdrawals. (By promising to have ready=
+ money.)=C2=A0The exchange can say =E2=80=9Ceverything is fine now, we have=
+ your money,=E2=80=9D and customers will breathe a sigh of relief and stop =
+withdrawing money.
+Now, in the general case, the bankrupt crypto lending platform was saying e=
+xactly that =E2=80=94=C2=A0=E2=80=9Ceverything is fine, we have your money=
+=E2=80=9D =E2=80=94=C2=A0minutes before freezing withdrawals and filing for=
+ bankruptcy. The thing that has changed is that people didn=E2=80=99t belie=
+ve the bankrupt crypto platform, so they kept withdrawing money and it coll=
+apsed; they believe the big exchange that took it over, so they stop.
+If they=C2=A0don=E2=80=99t=C2=A0stop =E2=80=94=C2=A0if this doesn=E2=80=99t=
+ work =E2=80=94=C2=A0then hopefully the big exchange has the money to pay t=
+hem out! But the big exchange won=E2=80=99t, like,=C2=A0put all that money =
+in an escrow account just to win a bankruptcy auction. The big exchange wil=
+l go to the bankrupt platform=E2=80=99s executives and bankruptcy advisers,=
+ and the bankruptcy court, and say =E2=80=9Ctrust us, we=E2=80=99re good fo=
+r the money, we=E2=80=99re a big exchange.=E2=80=9D Hopefully they will do =
+some due diligence on the exchange and satisfy themselves that that=E2=80=
+=99s true. But, in crypto, things change fast, and it=E2=80=99s weirdly har=
+d to get audited financial statements.
+The stuff I wrote above more or less describes, at a high level, FTX=E2=80=
+=99s bailouts of   Voyager Digital Ltd. and   BlockFi Inc.=C2=A0this summer=
+.=C2=A0In each case, a lending platform ran into liquidity trouble,=C2=A0an=
+d FTX and its affiliated trading firm Alameda Research agreed to take over =
+its customer accounts, paying not-very-many actual dollars, acquiring the a=
+ssets and promising to cash out customers who wanted out.
+  [2]
+=C2=A0(It did not actually close either acquisition.) This worked out very =
+poorly, in the sense that FTX and Alameda themselves turned out not to be p=
+articularly solvent and went bankrupt last month,=C2=A0so their guarantee o=
+f the customers wasn=E2=80=99t worth much.
+Last month   I speculated a little bit about why FTX and Alameda =E2=80=94=
+=C2=A0which over the summer were running into fatal trouble themselves =E2=
+=80=94=C2=A0might have devoted so much of their scarce money to bailing out=
+ other insolvent crypto shadow banks. I hope that the explanation above hel=
+ps make the answer clear? One of my proposed explanations last month was:
+Crypto prices, and firms, crashed earlier this year, and FTX/Alameda spotte=
+d an=C2=A0opportunity to acquire new customer deposits cheaply and use them=
+ for nefarious purposes. Like, you pay zero dollars for the equity of some =
+busted crypto lending platform, you roll the customers over to become FTX c=
+ustomers, you cash out anyone who wants to cash out, you assume that most p=
+eople will trust FTX (their savior) and=C2=A0not=C2=A0cash out, and then yo=
+u use=C2=A0their=C2=A0deposits to fund your wild speculations. If FTX/Alame=
+da were=C2=A0already=C2=A0using customer deposits for bad reasons, and losi=
+ng them, then acquiring more customer deposits would be a way to keep thing=
+s going.
+In completely unrelated news! Here=E2=80=99s=C2=A0an update on Voyager:
+
+Crypto exchange Binance.US will buy Voyager Digital=E2=80=99s assets out of=
+ bankruptcy in a deal worth $1.022 billion, a discount to an earlier, faile=
+d sale struck with FTX.
+Voyager selected Binance.US as the highest and best bidder after reviewing =
+options, the company said in a statement Monday. The bid =E2=80=9Csets a cl=
+ear path forward for Voyager customer funds to be unlocked as soon as possi=
+ble,=E2=80=9D according to the statement, and the company will aim to retur=
+n crypto to its customers in kind.=C2=A0
+FTX won an auction for Voyager=E2=80=99s assets in September with an offer =
+valuing the company at $1.4 billion, of which $51 million was in cash. That=
+ arrangement fell through after FTX imploded in November.=C2=A0
+The Binance.US deal values Voyager=E2=80=99s crypto portfolio at just over =
+$1 billion at current market prices and includes another $20 million of =E2=
+=80=9Cincremental value,=E2=80=9D according to the statement. The sale is s=
+ubject to bankruptcy court approval, and a hearing is scheduled for Jan. 5.=
+=C2=A0
+
+Here is the proposed  asset purchase agreement; Section 2.1(a) says that th=
+e consideration for the purchase is a $20 million cash payment and the assu=
+mption of liabilities.=C2=A0Here is  a Twitter thread from Binance.US chief=
+ executive officer Brian Shroder; some excerpts:
+
+Our bid reflects our deeply held belief that customers should come first. R=
+ather than having their assets liquidated for cash, our bid permits users t=
+o retain their cryptocurrencies and empowers them to make future decisions =
+on what they want do with THEIR assets.
+New to Binance.US customers will have access to our suite of products & ser=
+vices, such as ~150 different cryptocurrencies, 300 trading pairs, 5,000+ c=
+onvert pairs, industry-leading low fees, incl. 0 fee BTC & ETH trading & th=
+e largest US on-chain staking platform. ...
+We always maintain 1:1 reserves, and are subject to regular audits and regu=
+latory reporting by government entities. We do not offer margin products, u=
+ndertake proprietary trading, or take on any corporate debt.
+Binance.US is well capitalized: our assets exceed our liabilities. All of o=
+ur customers could withdraw their assets tomorrow, which is their right & w=
+e would still have hundreds of millions of current assets. =E2=80=A6
+We will do everything in our power to speed up the legal and court approval=
+ process. =C2=A0Current target, pending court approvals, is to provide user=
+s access to their assets in March, 2023.
+
+Presumably Binance.US is sharing those audits and those balance sheets with=
+ the bankruptcy court. Voyager has already been burned once.
+
+ =20
+   =20
+      Elsewhere in crypto auditing
+   =20
+ =20
+
+If you are a public accounting firm, you are in the business of signing you=
+r name to a piece of paper saying =E2=80=9Cthis company=E2=80=99s financial=
+ statements are basically true,=E2=80=9D and charging for it. Before signin=
+g your name, you will do your best to confirm that the financial statements=
+ are true, but there is always a risk that you=E2=80=99re wrong. If you are=
+ wrong you might get sued or fined; also, though, if you are wrong too ofte=
+n your signature will lose its value and people will stop paying you for it=
+. Your high-level goal is to (1) minimize that risk while (2) maximizing yo=
+ur revenue. Broadly speaking, you minimize risk by being conservative, by o=
+nly auditing the statements of simple trustworthy companies in stable indus=
+tries, and you maximize revenue by being aggressive, by auditing the statem=
+ents of companies in fast-growing industries and by being, uh, customer-fri=
+endly about your audits.
+The tensions here are all very obvious and hard, but sometimes there are ea=
+sy calls. Like if you got into aggressively auditing statements of companie=
+s in a complicated and risky industry because you were betting on its rapid=
+ growth, and then people lose confidence in the finances of companies in th=
+at industry and it starts shrinking, then (1) the risk of auditing that ind=
+ustry has gone way up and (2) the potential revenue has gone way down. Why =
+bother?   Anyway:
+
+Mazars Group, the accounting firm used by crypto giant Binance Holdings Ltd=
+. and other big players in the industry to vouch for their assets held in r=
+eserve, has halted all such work for crypto clients, dealing a blow to an i=
+ndustry seeking to shore up confidence in the wake of FTX=E2=80=99s collaps=
+e.=C2=A0
+In an email sent by the French firm, Mazars said it had suspended work for =
+cryptocurrency firms because of indications that markets haven=E2=80=99t be=
+en reassured by the =E2=80=9Cproof-of-reserves=E2=80=9D reports it had publ=
+ished so far. The firm was also concerned about intense media scrutiny, the=
+ email said. A Mazars spokesperson later said the suspension was limited to=
+ its provision of proof-of-reserves reports, citing =E2=80=9Cconcerns regar=
+ding the way these reports are understood by the public.=E2=80=9D =E2=80=A6
+Proof-of-reserves reports have faced scrutiny as they are not comparable to=
+ a full audit, in that they only show a firm=E2=80=99s assets, not its liab=
+ilites, and instead serve as snapshots in time that say information provide=
+d by clients broadly checks out. =E2=80=A6
+=E2=80=9CMany audit firms are scared to work with crypto businesses,=E2=80=
+=9D said Binance CEO Changpeng =E2=80=9CCZ=E2=80=9D Zhao in a Thursday inte=
+rview on CNBC. When asked why Binance hasn=E2=80=99t engaged a Big Four aud=
+itor =E2=80=94 a moniker that refers to the largest accountancy companies P=
+wC, Deloitte, EY and KPMG =E2=80=94 Zhao added that such firms =E2=80=9Cdon=
+=E2=80=99t even know how to audit crypto exchanges.=E2=80=9D
+
+In theory, auditing is especially valuable in an industry where some big fi=
+rms are giant scams and some are not and it is hard to tell the difference =
+from the outside. In practice, it is not clear that auditors can tell the d=
+ifference either, and the risk is high.
+
+ =20
+   =20
+      Blockchain blockchain blockchain
+   =20
+ =20
+
+This is the sort of thing that would have made more sense in 2017 than in 2=
+022 but=C2=A0 the muni market moves slowly:
+
+A startup is modernizing the stodgy world of municipal bonds by using block=
+chain to originate deals. The company said it is a first in the $4 trillion=
+ market.
+Alphaledger recently acted as the underwriter for three debt sales in New Y=
+ork, documenting the deals on its platform based on blockchain, the technol=
+ogy used for verifying and recording transactions that=E2=80=99s at the hea=
+rt of Bitcoin. More municipal sales are in the works, company leadership sa=
+id.
+
+Blockchain!
+
+ =20
+   =20
+      NFT Stuff
+   =20
+ =20
+
+This is the sort of thing that would have   made more sense in like May,=C2=
+=A0but apparently you can still steal Bored Apes? And even resell them for =
+money?  Molly White reports:
+
+A scammer spent a month setting up a con in which they stole fourteen Bored=
+ Ape NFTs belonging to one individual. Posing as a casting director at a re=
+al film production company=E2=80=94complete with a fake website, a fake par=
+tner company, and fake individuals pretending to have signed deals with the=
+ company=E2=80=94a scammer was able to convince the collector that they wer=
+e interested in paying $13,000=E2=80=93$17,000 to license a Bored Ape for u=
+se in an animation.
+After some back-and-forth, with legitimate-looking contracts and falsified =
+emails appearing to come from the real company's real founding director, th=
+e NFT collector was asked to use their crypto wallet to sign a contract, vi=
+a the fake company partner website that had been set up.
+When the collector did so, the smart contract drained the collector's walle=
+t of its fourteen pricey Bored Ape NFTs, then accepted the highest offers t=
+hat were outstanding on each of the Bored Apes, netting 852.9=C2=A0ETH. The=
+ scammer converted the stolen ETH to the DAI=C2=A0stablecoin,=C2=A0making o=
+ff with $1,075,000 in DAI.
+
+Here is  more detail.=C2=A0It used to be that the way to steal Bored Apes f=
+rom collectors was that, like, you sent them a Twitter direct message sayin=
+g =E2=80=9Cyour shoelaces are untied,=E2=80=9D and they=E2=80=99d be like =
+=E2=80=9Cwait they are?,=E2=80=9D and you=E2=80=99d be like =E2=80=9Cyes, t=
+o re-tie them please send me the private keys to your crypto wallet,=E2=80=
+=9D and they=E2=80=99d be like =E2=80=9Coh sure makes sense here you go=E2=
+=80=9D and you=E2=80=99d take their apes. Now you have to pretend to offer =
+them money for licensing and=C2=A0then=C2=A0ask them for their private keys=
+.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Bob Iger vs. Bob Chapek:  Inside the Disney Coup. If Grayscale=E2=80=99s Bi=
+tcoin ETF Dreams Fail, Firm May  Try a Tender Offer, CEO Says. Private Equi=
+ty Firms   Dig Deep for Acquisitions While Banks Nurse Losses. Credit Suiss=
+e financed  Greensill=E2=80=99s plan to set up insurance firm. Mortgage  Bu=
+ydowns Are Making a Comeback. Highest Interest Rates in 15 Years Are Derail=
+ing the   American Dream. Crypto=E2=80=99s Onetime Fans Are  Calling It Qui=
+ts After FTX Collapse. Mauboussin and Callahan on  Capital Allocation. =E2=
+=80=9CFTAV dug through the 52 companies the  Alameda/FTX/SBF complex gave a=
+ cool milli to.=E2=80=9D You can stay in the  =E2=80=98world=E2=80=99s larg=
+est=E2=80=99 wine bottle for $40. =E2=80=9CMillennial  cringe.=E2=80=9D
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] I=E2=80=99m oversimplifying here in assuming that all the customer li=
+abilities are dollar-denominated; in fact, the customers will want to withd=
+raw various sorts of crypto, and the buyer will have to give it to them. Th=
+is doesn=E2=80=99t matter much conceptually but it can make things messier =
+in practice.
+
+
+  [2] BlockFi got an FTX rescue *without* filing for bankruptcy: It agreed =
+to sell itself to FTX for a pittance in exchange for a guarantee of custome=
+r accounts, but when FTX went bankrupt BlockFi quickly followed. Voyager fi=
+led for bankruptcy and then   got an offer from FTX, which  Voyager=E2=80=
+=99s management actually *resisted*, saying that it was good for FTX but ba=
+d for Voyager=E2=80=99s customers. That turned out to be right! Ultimately =
+FTX won the deal in bankruptcy, and then lost it again when it went bankrup=
+t.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23chvjsa.65v2/1749f8a7.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_64149345_423536686.1671477895982
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Imagine taking the job! Yesterday Elon Musk tweeted a poll asking if he sho=
+uld step down as =E2=80=9Chead=E2=80=9D of Twitter Inc.; 17.5 million peopl=
+e vote
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0zMDAyNTQ1MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAzMTI5ODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB5860f8ed" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D30025450&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30312984&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMjE5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEyMTkmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBc5cd3967"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDAyNTQ1MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAzMTI5ODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC6829d016" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30025450&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30312984&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oh Elon</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Imagine taking the job! Yesterday Elon Musk <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/aHR0=
+cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTYwNDYxNzY0Mzk3MzEyNDA5Nw/607f=
+07ceef4b8524a319a23cB07f883d9" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> tweeted a poll</a> asking if he sho=
+uld step down as =E2=80=9Chead=E2=80=9D of Twitter Inc.; 17.5 million peopl=
+e voted, and=C2=A0the results were 57.5% to 42.5%=C2=A0in favor of him step=
+ping down. =E2=80=9CI will abide by the results of this poll,=E2=80=9D he s=
+aid. But he also <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+0025450.287534/aHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTYwNDYyMzQy=
+NDE2NDI4MjM2OA/607f07ceef4b8524a319a23cBa83bb263" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decor=
+ation: none !important; border-bottom-width: 1px; border-bottom-color: #000=
+000; border-bottom-style: solid; background-color: #ccc;"> tweeted</a> =E2=
+=80=9CAs the saying goes, be careful what you wish, as you might get it.=E2=
+=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.28=
+7534/aHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTYwNDYyODc2MTM5NTEzOD=
+U2MQ/607f07ceef4b8524a319a23cB9c5ae359" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> And</a>: =E2=80=9CNo one w=
+ants the job who can actually keep Twitter alive. There is no successor.=E2=
+=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.28=
+7534/aHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTYwNDYyMTEwMTI0NTQxOT=
+UyMA/607f07ceef4b8524a319a23cB09192289" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> And</a>: =E2=80=9CThe ques=
+tion is not finding a CEO, the question is finding a CEO who can keep Twitt=
+er alive.=E2=80=9D=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/=
+click/30025450.287534/aHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTYwN=
+DYyNjEwMzMyNjI1MzA1Ng/607f07ceef4b8524a319a23cB2be9d1f2" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">And</a>, l=
+isting qualifications for the next chief executive officer: =E2=80=9CYou mu=
+st like pain a lot. One catch: you have to invest your life savings in Twit=
+ter and it has been in the fast lane to bankruptcy since May. Still want th=
+e job?=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Meanwhile Musk has been <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/30025450.287534/aHR0cHM6Ly93d3cuc2VtYWZv=
+ci5jb20vYXJ0aWNsZS8xMi8xNi8yMDIyL2Vsb24tbXVza3MtdGVhbS1pcy1zZWVraW5nLW5ldy1=
+pbnZlc3RvcnMtZm9yLXR3aXR0ZXI/607f07ceef4b8524a319a23cB3b4ebbe6" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> tr=
+ying</a> to <a href=3D"https://link.mail.bloombergbusiness.com/click/300254=
+50.287534/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYmIwNDdjOGYtZjk3ZC00ZTNhLThiY=
+mItNTBkMDQ5NGM4YzQ4/607f07ceef4b8524a319a23cB563284ea" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> raise money=
+</a> for Twitter at $54.20 per share, the $44 billion valuation at which he=
+ bought it; he <a href=3D"https://link.mail.bloombergbusiness.com/click/300=
+25450.287534/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMT=
+AtMTkvZWxvbi1tdXNrLXNheXMtaGUtcy1vYnZpb3VzbHktb3ZlcnBheWluZy1mb3ItdHdpdHRlc=
+j9jbXBpZD1CQkQxMjE5MjJfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9=
+bmV3c2xldHRlciZ1dG1fdGVybT0yMjEyMTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07c=
+eef4b8524a319a23cB152fd92f" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;">  said in October</a>=C2=A0that he was =
+=E2=80=9Cobviously overpaying.=E2=80=9D=C2=A0Since then things have, uh, no=
+t gone well.=C2=A0So the proposition is =E2=80=A6=C2=A0what? You take all o=
+f your money, you <em>give it to Musk=C2=A0</em>to buy equity in his compan=
+y at a price that you all agree is absurd? And then you get to work for him=
+, running a sullen and broken Twitter according to his ever-shifting whims,=
+ until he changes his mind and fires you? And when he fires you he <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTAtMzEvZWxvbi1tdXNr=
+LWlzLWJ1c3ktd2l0aC10d2l0dGVyP2NtcGlkPUJCRDEyMTkyMl9NT05FWVNUVUZGJnV0bV9tZWR=
+pdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTIxOSZ1dG1fY2FtcG=
+FpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBfe7a2535" itemprop=3D"StoryLi=
+nk" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text=
+-decoration: none !important; border-bottom-width: 1px; border-bottom-color=
+: #000000; border-bottom-style: solid; background-color: #ccc;">  denies yo=
+u severance and dares you to sue</a>, and <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/30025450.287534/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3Q=
+uY29tL3RlY2hub2xvZ3kvMjAyMi8xMi8xMi9tdXNrLWNoaWxkLXBvcm4tcWFub24v/607f07cee=
+f4b8524a319a23cB5d7a3f23" itemprop=3D"StoryLink" itemscope=3D"itemscope" ta=
+rget=3D"_blank" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;"> accuses you of being a sex criminal</a>?=
+=C2=A0</p>
+<p style=3D"margin: 16px 0;">I am sure that there are Musk fans who=C2=A0<e=
+m>do=C2=A0</em>want the job; as I <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30025450.287534/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMjEtMDItMTAvZWxvbi1tdXNrLXR3ZWV0cy1ncmVhdC1uZXdzLWZvci1iaX=
+Rjb2luLWJhZC1uZXdzLWZvci1lY29uLW1ham9ycz9jbXBpZD1CQkQxMjE5MjJfTU9ORVlTVFVGR=
+iZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMjEyMTkm=
+dXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBe173442f" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  have said</a>, proximity to Elon Musk is what creates value in modern mar=
+kets, and so throwing away your life savings to work for him might be a goo=
+d trade. (Also I=E2=80=99m sure he=E2=80=99s kidding about investing your l=
+ife savings in Twitter.) Still, the candidate pool is probably limited to M=
+usk=E2=80=99s most ardent yes-men.=C2=A0=E2=80=9CThose who want power are t=
+he ones who least deserve it,=E2=80=9D <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/30025450.287534/aHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay=
+9zdGF0dXMvMTYwNDY1MDAyODk5OTQwNTU2OA/607f07ceef4b8524a319a23cB1b9c4f39" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">Musk also tweeted</a>.</p>
+<p style=3D"margin: 16px 0;">And so one assumes that =E2=80=9Cbe careful wh=
+at you wish for=E2=80=9D is addressed to Twitter=E2=80=99s <em>users</em>, =
+who voted for Musk to leave; the implication would be that whoever replaces=
+ Musk as Twitter=E2=80=99s CEO will be even more capricious and unpopular. =
+Instead of Musk making arbitrary decisions to get rid of stuff he doesn=E2=
+=80=99t like, some Musk lieutenant will make arbitrary decisions to get rid=
+ of stuff that he thinks Musk=C2=A0<em>might=C2=A0</em>not like, while givi=
+ng Musk himself some deniability.</p>
+<p style=3D"margin: 16px 0;">But other readings are possible. Like most peo=
+ple, I assume that (1) Musk tweeted this poll because he has already decide=
+d to step down as Twitter CEO (since, after all, <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/30025450.287534/aHR0cHM6Ly93d3cuYXhpb3MuY29t=
+LzIwMjIvMTEvMTYvZWxvbi1tdXNrLXR3aXR0ZXItY2VvLW5ldy1sZWFkZXI/607f07ceef4b852=
+4a319a23cBb6fb8440" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> he said that a month ago</a>!) and (2) he is=
+ planning to step down as Twitter CEO to spend more time at Tesla Inc. (sin=
+ce, after all, he <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+30025450.287534/aHR0cHM6Ly93d3cud2FzaGluZ3RvbnBvc3QuY29tL3RlY2hub2xvZ3kvMjA=
+yMi8xMS8xNi9lbG9uLW11c2stdGVzbGEtdHJpYWwtcGF5Lw/607f07ceef4b8524a319a23cBb5=
+1eed29" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" st=
+yle=3D"color: #000000; text-decoration: none !important; border-bottom-widt=
+h: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgroun=
+d-color: #ccc;"> said it in a court hearing</a> about how Tesla=E2=80=99s b=
+oard gave him a record-breaking compensation package to retain his services=
+, and then he went flying off to run Twitter instead). One possibility is t=
+hat =E2=80=9Cbe careful what you wish for=E2=80=9D is directed at=C2=A0<em>=
+Tesla=E2=80=99s</em>=C2=A0board or shareholders. =E2=80=9CSure now you say =
+that you want me back running Tesla full time, but look at the mess I=E2=80=
+=99m making here, are you sure you want that at Tesla too?=E2=80=9D Musk ow=
+ns companies that (1) produce self-driving=C2=A0cars, (2) send rockets into=
+ space, (3) make human brain implants and (4) run a website where people ma=
+ke fun of him. If he is having some sort of self-sabotaging meltdown, it is=
+ much better for him to spend his time on the making-fun-of-him website tha=
+n the brain implants or the cars or the rockets. If he messes up the brain =
+implants, people die! If he messes up the website where people make fun of =
+him, they will make fun of him more. If you use Twitter as a source of come=
+dy and a way to get in fights, then it is=C2=A0<em>good=C2=A0</em>for Twitt=
+er to be run badly. Rockets don=E2=80=99t work that way.</p>
+<p style=3D"margin: 16px 0;">Or=C2=A0of course =E2=80=9Cbe careful what you=
+ wish for=E2=80=9D could be a reminder to Musk himself. He wanted to buy Tw=
+itter, and oh boy did he ever end up buying Twitter, whoops. Ten million ye=
+ars ago, in April, when Musk first announced that he had taken a stake in T=
+witter, <a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.2=
+87534/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDQtM=
+DQvZWxvbi1tdXNrLWJvdWdodC1zb21lLXR3aXR0ZXI_Y21waWQ9QkJEMTIxOTIyX01PTkVZU1RV=
+RkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMjE=
+5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB56917efc" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">  I wrote</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">Look this all makes complete sense=
+,=C2=A0obvious, intuitive, simple sense. If you are the richest person in t=
+he world, and annoying, and you constantly play a computer game, and you ge=
+t a lot of enjoyment and a sense of identity from that game and are maybe a=
+ little addicted, then at some point you might=C2=A0have some suggestions f=
+or improvements in the game. So you might leave comments and email the comp=
+any that makes the game saying =E2=80=9Chey you should try my ideas.=E2=80=
+=9D And the company=C2=A0might ignore you (or respond politely but not move=
+ fast enough for your liking). It might occur to you: =E2=80=9CLook, I am t=
+he richest person in the world; how much could this game company possibly c=
+ost? I should just buy it and change the game however I want.=E2=80=9D Even=
+ if your complaints are quite minor, why shouldn=E2=80=99t you get to play=
+=C2=A0<em>exactly=C2=A0</em>the game you want? Even if you have=C2=A0<em>no=
+=C2=A0</em>complaints, why not=C2=A0<em>own</em>=C2=A0the game you love, ju=
+st to make sure it continues to be exactly what you want?=C2=A0</p></blockq=
+uote>
+<p style=3D"margin: 16px 0;">And that is more or less what has happened: He=
+ bought Twitter, brought back accounts whose politics aligned with his, <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/aHR0c=
+HM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTItMTkvbXVzay1zLXZv=
+bGF0aWxpdHktaXMtYWxpZW5hdGluZy10d2l0dGVyLXMtdG9wLWNvbnRlbnQtY3JlYXRvcnM_Y21=
+waWQ9QkJEMTIxOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3=
+NsZXR0ZXImdXRtX3Rlcm09MjIxMjE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b=
+8524a319a23cB5215b22f" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">  banned journalists</a> who criticized him,=
+ banned mentions of other social media platforms, and generally tailored th=
+e Twitter experience to what he thought he wanted.</p>
+<p style=3D"margin: 16px 0;">And yet! From the outside, it does not seem li=
+ke he is having fun. It turns out that very little of the experience of Twi=
+tter is about, like, the software; the edit button does not make anyone hap=
+py. The experience of Twitter is about the people, and in the course of run=
+ning Twitter Musk has made a lot of people mad at him. (In <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/30025450.287534/aHR0cHM6Ly90d2l0dG=
+VyLmNvbS9ueWNzb3V0aHBhdy9zdGF0dXMvMTYwNDU4NjEwNDM1NDYzNTc4MA/607f07ceef4b85=
+24a319a23cB6d57f384" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> what might be a first</a> in internet messag=
+e board moderating, Musk=E2=80=99s mom has been=C2=A0<a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/30025450.287534/aHR0cHM6Ly90d2l0dGVyLmNv=
+bS9tYXllbXVzay9zdGF0dXMvMTYwMzc1ODc2ODM3ODAyMzkzNw/607f07ceef4b8524a319a23c=
+B7dfea548" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">tweeting</a> to <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/30025450.287534/aHR0cHM6Ly90d2l0dGVyLmNvbS9tYXllbXVzay9zdG=
+F0dXMvMTYwNDU1MDQ1MjQ0NzY5MDc1Mg/607f07ceef4b8524a319a23cB2dd9a4db" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> defend</a> his moderation decisions.) Twitter is about comedy and getting=
+ in fights, but it is also about connection, about finding an audience of p=
+eople who understand and appreciate you. The basic problem is that, if you =
+run a message board, you can tweak the buttons, and you can ban users, but =
+you can=E2=80=99t make the users who are left love you. And for $44 billion=
+ you want love.</p>
+<p style=3D"margin: 16px 0;">Meanwhile <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/30025450.287534/aHR0cHM6Ly93d3cudGhlaW5mb3JtYXRpb24uY2=
+9tL2FydGljbGVzL2J5LWRheS1lbG9uLW11c2stcnVsZXMtdHdpdHRlci1ieS1uaWdodC1oZXMta=
+W52YWRpbmctb3VyLWRyZWFtcz9yYz0xYmRpNWg/607f07ceef4b8524a319a23cB31f24a65" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"co=
+lor: #000000; text-decoration: none !important; border-bottom-width: 1px; b=
+order-bottom-color: #000000; border-bottom-style: solid; background-color: =
+#ccc;"> in dreams</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">According to psychologists who specialize in t=
+reating people suffering from nightmares and other sleep disorders, nightly=
+ visitations from Elon Musk are happening a lot these days. Such shared dre=
+am occurrences, which often happen during periods of instability, offer a b=
+roader insight into our collective psyche. =E2=80=9CWhen something is in th=
+e press, it triggers a lot of [dream] images,=E2=80=9D said Gayle Delaney, =
+a Florida-based clinical psychologist and dream analyst. =E2=80=9CA lot of =
+people are thinking about Elon Musk. He demonstrates the human lust for pow=
+er, play and creativity=E2=80=A6and he=E2=80=99s also disappointed a lot of=
+ people.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">A search through Twitter confirms that Musk is=
+ turning up constantly in people=E2=80=99s subconscious right now, just as =
+he is dominating conversation on the platform itself.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I guess that=E2=80=99s worth paying $44 billio=
+n for.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDAyNTQ1MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAzMTI5ODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDd29790fd" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30025450&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30312984&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0zMDAyNTQ1MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAzMTI5ODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cEd29790fd" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D30025450&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30312984&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDAyNTQ1MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAzMTI5ODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cF67156a63" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30025450&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30312984&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0zMDAyNTQ1MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAzMTI5ODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cG67156a63" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D30025450&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30312984&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDAyNTQ1MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAzMTI5ODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cH86768d88" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30025450&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30312984&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDAyNTQ1MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAzMTI5ODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cI86768d88" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30025450&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30312984&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Oh Elon (2)</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">About that equity sale. <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/30025450.287534/aHR0cHM6Ly93d3cuc2VtYWZv=
+ci5jb20vYXJ0aWNsZS8xMi8xNi8yMDIyL2Vsb24tbXVza3MtdGVhbS1pcy1zZWVraW5nLW5ldy1=
+pbnZlc3RvcnMtZm9yLXR3aXR0ZXI/607f07ceef4b8524a319a23cC3b4ebbe6" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Se=
+mafor reported</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Musk=E2=80=99s money manager, Jared Birchall, =
+reached out to potential investors [last] week, offering shares of Twitter =
+at the same price, $54.20, that Musk paid to take the company private in Oc=
+tober, the people said.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9COver recent weeks we=E2=80=99ve recei=
+ved numerous inbound requests to invest in Twitter,=E2=80=9D it read, accor=
+ding to a copy reviewed by Semafor. =E2=80=9CAccordingly, we are pleased to=
+ announce a follow-on equity offering for common shares at the original pri=
+ce and terms, targeting a year-end close.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">Ross Gerber, a Tesla investor who said he put =
+less than $1 million in Musk=E2=80=99s original takeover of Twitter, confir=
+med that he was contacted Thursday evening about another funding round at t=
+he $44 billion valuation.</p>
+<p style=3D"margin: 16px 0;">Gerber said he=E2=80=99s considering it but wa=
+nts to get a clearer idea of what the plan is. =E2=80=9COne could argue he =
+has created value or destroyed value at Twitter. It=E2=80=99s hard to tell =
+at this point,=E2=80=9D he said.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">The <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/30025450.287534/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYmIwNDdj=
+OGYtZjk3ZC00ZTNhLThiYmItNTBkMDQ5NGM4YzQ4/607f07ceef4b8524a319a23cC563284ea"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> Financial Times adds</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The note did not specify how much Twitter expe=
+cted to raise in the new fundraising effort, but said it aimed to close the=
+ fundraising by the end of the year.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CEverything has been done haphazardly =
+and roughly,=E2=80=9D said investment adviser Ross Gerber, who invested in =
+the Twitter deal in October and confirmed he had received the latest offer.=
+ =E2=80=9CThey=E2=80=99re doing it because they=E2=80=99re out of money. I =
+don=E2=80=99t think [Musk] expected such a big drop in revenue.=E2=80=9D</p=
+>
+<p style=3D"margin: 16px 0;">A second person whose firm received the offer =
+said Musk had indicated the new capital would be used to fund an expansion =
+of its business, including a =E2=80=9Chiring spree=E2=80=9D of programmers =
+to build a =E2=80=9Csuper app=E2=80=9D that could process payments, among o=
+ther services.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">This is sort of a softer version of the dilemm=
+a we discussed above, about who would want the CEO job. Who would want to b=
+uy Twitter stock, now, at a $44 billion valuation? When Musk keeps saying t=
+hat the company is going bankrupt and not worth what he paid for it? When M=
+usk=E2=80=99s lenders are trying offload Twitter=C2=A0<em>debt=C2=A0</em>at=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTEtMTAvdHdpdHRl=
+ci1sb2Fucy1nZXQtYmlkLWF0LTYwLWNlbnRzLWFzLWJhbmtzLXNvdW5kLW91dC1pbnZlc3RvcnM=
+_Y21waWQ9QkJEMTIxOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW=
+5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMjE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ce=
+ef4b8524a319a23cB44a75312" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">  60 cents on the dollar</a>? Elon Musk =
+has enough fans who are completely price-insensitive =E2=80=94=C2=A0who wil=
+l give him money at any price just to be close to him =E2=80=94=C2=A0that h=
+e=E2=80=99ll probably get=C2=A0<em>some=C2=A0</em>money out of this. (Some =
+of them are probably angling for the CEO job?)=C2=A0But, I assume, not much=
+. If you are an institutional fiduciary, it seems hard to justify investing=
+ now at this price.</p>
+<p style=3D"margin: 16px 0;">Also my initial assumption was that, if Musk w=
+as selling Twitter shares, he was selling=C2=A0<em>his=C2=A0</em>shares: In=
+ his acquisition of Twitter, he committed to buy all of the shares for $54.=
+20, but he reserved the right to syndicate some of that commitment, and a n=
+umber of other investors ended up putting in money or rolling over their sh=
+ares into Musk=E2=80=99s private Twitter. Up until the deal=E2=80=99s closi=
+ng, he was apparently in conversations about selling more of his shares, an=
+d there=E2=80=99s no reason he couldn=E2=80=99t keep doing that after closi=
+ng.</p>
+<p style=3D"margin: 16px 0;">But the FT article indicates that the proposed=
+ deal is=C2=A0<em>primary</em>, that is, the seller of these shares (and th=
+e recipient of the money) would not be Musk, but Twitter itself, to use the=
+ money to expand, hire programmers, shore up finances, etc. At some level t=
+his is a strange move, going back to raise more equity two months after a g=
+oing-private deal.</p>
+<p style=3D"margin: 16px 0;">On the other hand, one thing that Musk has alw=
+ays been good at is capital raising: He has the ability to inspire equity i=
+nvestors to buy stock in his companies at uneconomically high valuations, a=
+nd the ruthlessness to hit the bid over and over again. At Tesla that has m=
+ostly involved <a href=3D"https://link.mail.bloombergbusiness.com/click/300=
+25450.287534/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMj=
+EtMDEtMDYvdGVzbGEta2VwdC1idXN5LWluLTIwMjA_Y21waWQ9QkJEMTIxOTIyX01PTkVZU1RVR=
+kYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMjE5=
+JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB59a1ee3d" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>  doing at-the-market offerings of stock to retail investors</a>; at Twitt=
+er I guess it involves going back to his venture-capital backers and saying=
+ =E2=80=9Chey, if you don=E2=80=99t want to mark down your investment at th=
+e end of the year, consider throwing in some more money at the same price.=
+=E2=80=9D</p>
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0zMDAyNTQ1MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAzMTI5ODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cJ8354d652" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D30025450&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30312984&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Voyager</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I want to make sort of a generic point about c=
+rypto shadow banks. Let=E2=80=99s say you have a crypto shadow bank, say a =
+lending platform that takes customer deposits and uses them to lend to cryp=
+to hedge funds. It has customer deposits of $1 billion, it has shareholders=
+=E2=80=99 equity of $100 million, and it buys $1.1 billion of assets, meani=
+ng mostly cryptocurrencies and loans to crypto hedge funds.=C2=A0The value =
+of the assets goes down (to $1 billion, or maybe a bit more, or maybe a lot=
+ less), there=E2=80=99s a run on the bank, and the lending platform halts w=
+ithdrawals and files for bankruptcy.</p>
+<p style=3D"margin: 16px 0;">It goes to bankruptcy court and says =E2=80=9C=
+hi, we owe customers $1 billion and we have assets that might be worth $1 b=
+illion or might not, but we=E2=80=99re gonna try to get as much as we can f=
+or them.=E2=80=9D There are two possible paths here.</p>
+<p style=3D"margin: 16px 0;">One is that the platform can sell off the asse=
+ts for cash. It had some Bitcoins that it sells on an exchange; it has some=
+ stablecoins that it converts to dollars; it has some loans to hedge funds =
+that it tries to collect or sell to other investors. Maybe it finds a buyer=
+ for all the assets; maybe it sells them off piecemeal. The buyers get the =
+assets and pay cash. The buyers do not get any <em>liabilities</em>; the li=
+abilities stay with the platform, in bankruptcy court. At the end of the pr=
+ocess, the platform has some cash, and it gives that to its customers. If i=
+t ends up with $1 billion (or more) in cash, after paying expenses, then th=
+e customers get all their money back. If it ends up with $900 million in ca=
+sh, the customers get 90 cents on the dollar. In any case, they get a check=
+ from the bankruptcy estate in the bankruptcy process.</p>
+<p style=3D"margin: 16px 0;">The other possible path is that the platform c=
+an sell itself as a going concern, or going-ish anyway. It finds a buyer th=
+at is itself a crypto shadow bank =E2=80=94 let=E2=80=99s say a big well-kn=
+own crypto exchange =E2=80=94=C2=A0and the buyer says =E2=80=9Csure we will=
+ take over your customer liabilities.=E2=80=9D The buyer buys (1) the platf=
+orm=E2=80=99s assets (its Bitcoins, loans, etc.) and (2) its customer list;=
+ it also acquires the platform=E2=80=99s customer liabilities.=C2=A0<em>It =
+does not pay cash</em>, or not very much: It pays for the assets by taking =
+on the liabilities. (If the assets are worth more than the liabilities =E2=
+=80=94=C2=A0or if the customer list is very valuable =E2=80=94=C2=A0then ma=
+ybe it kicks in some cash to pay the bankruptcy advisers and maybe, even, t=
+he platform=E2=80=99s shareholders, but don=E2=80=99t count on that.) No ca=
+sh flows through the bankruptcy estate; the customers don=E2=80=99t get che=
+cks.</p>
+<p style=3D"margin: 16px 0;">Instead, the customers wake up one day to find=
+ that they are now customers of the buyer. This is an improvement in their =
+situation. Before, they were customers of a bankrupt crypto lending platfor=
+m that had frozen withdrawals. Now, they are customers of a big solvent cry=
+pto exchange that processes withdrawals normally. They can withdraw their m=
+oney! Their accounts are all there! They can get 100 cents on the dollar!</=
+p>
+<p style=3D"margin: 16px 0;">Perhaps they all will: =E2=80=9CI=E2=80=99ve h=
+ad enough of this,=E2=80=9D they=E2=80=99ll say, and take their cash out. I=
+n that scenario, the buyer will have to pay out $1 billion in cash to custo=
+mers in short order, and will be left with the platform=E2=80=99s=C2=A0asse=
+ts, its crypto or loans or whatever.<a class=3D"footnote-index" href=3D"#fo=
+otnote-1" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: none=
+ !important; background-color: transparent !important; display: inline-bloc=
+k;">
+<span>[1]</span>
+</a>=C2=A0If the assets were worth $1.1 billion, that=E2=80=99s good for th=
+e buyer, and that=E2=80=99s a real possibility: If the buyer solved a liqui=
+dity crisis for the seller, then the assets might quickly bounce back. If t=
+he assets were worth $900 million, the buyer loses money, and that is also =
+a real possibility: When crypto shadow banks blow up they tend to blow up p=
+retty hard. In any case, in this scenario the buyer has not gotten much val=
+ue out of the seller=E2=80=99s customer list: All the customers quit immedi=
+ately.</p>
+<p style=3D"margin: 16px 0;">But this is not, I think, the most likely outc=
+ome, or the one the buyer is betting on. More realistically, most of the cu=
+stomers will think =E2=80=9Cah, well, I got burned by trusting that old ins=
+olvent crypto shadow bank, but now I am a customer of a well-capitalized in=
+dustry-leading crypto exchange, and surely my money is safe. Also my new ex=
+change has such a good user interface and a wide range of exciting trading =
+and lending opportunities; I am going to take advantage of them.=E2=80=9D S=
+o the customers will keep their cash on the platform. The buyer =E2=80=94=
+=C2=A0the exchange that now has them as customers =E2=80=94=C2=A0does not h=
+ave to pay out $1 billion in cash. Perhaps it attracts=C2=A0<em>more=C2=A0<=
+/em>cash, as grateful and confident customers experience its good trading i=
+nterface. They trade, they make or lose money, they pay fees, life goes on.=
+</p>
+<p style=3D"margin: 16px 0;">In this scenario you can say things like =E2=
+=80=9Cthe rescuing exchange bought the bankrupt platform=E2=80=99s assets f=
+or $1 billion,=E2=80=9D and you=E2=80=99re not exactly wrong. But the rescu=
+ing exchange didn=E2=80=99t pay out $1 billion in cash for the bankrupt pla=
+tform=E2=80=99s assortment of assets. It did something else. It got the ass=
+ets and=C2=A0<em>guaranteed=C2=A0</em>the bankrupt platform=E2=80=99s liabi=
+lities.</p>
+<p style=3D"margin: 16px 0;">There=E2=80=99s nothing particularly =E2=80=9C=
+crypto=E2=80=9D about any of this, I should say, and rescues of failing act=
+ual banks tend to work much the same way (though they tend to be orchestrat=
+ed by bank regulators and backstopped by deposit insurance). If your bank f=
+ails, it would be very unusual for you to end up with a sack of cash and a =
+note reading =E2=80=9Cfind another bank.=E2=80=9D Far, far, far more likely=
+, you will just automatically end up with an account at a different bank, a=
+nd it won=E2=80=99t even occur to you to withdraw your money. Your bank fai=
+led and now you have a better bank, the system worked, it=E2=80=99s fine.</=
+p>
+<p style=3D"margin: 16px 0;">The bankrupt platform <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/30025450.287534/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMTEtMTAvZnR4LWlzLXN0aWxsLWxvb2tpbmctZ=
+m9yLW1vbmV5P2NtcGlkPUJCRDEyMTkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRt=
+X3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTIxOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHV=
+mZg/607f07ceef4b8524a319a23cB124dcc63" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">  may or may not have had a =
+solvency crisis</a> =E2=80=94=C2=A0the assets might or might not have been =
+worth less than the liabilities =E2=80=94=C2=A0but it certainly had a liqui=
+dity crisis; customers wanted their money back and there wasn=E2=80=99t eno=
+ugh ready money for them. The exchange solved the liquidity crisis, not nec=
+essarily by coming up with ready money, but by=C2=A0<em>slowing the withdra=
+wals</em>. (By <em>promising </em>to have ready money.)=C2=A0The exchange c=
+an say =E2=80=9Ceverything is fine now, we have your money,=E2=80=9D and cu=
+stomers will breathe a sigh of relief and stop withdrawing money.</p>
+<p style=3D"margin: 16px 0;">Now, in the general case, the bankrupt crypto =
+lending platform was saying exactly that =E2=80=94=C2=A0=E2=80=9Ceverything=
+ is fine, we have your money=E2=80=9D =E2=80=94=C2=A0minutes before freezin=
+g withdrawals and filing for bankruptcy. The thing that has changed is that=
+ people didn=E2=80=99t believe the bankrupt crypto platform, so they kept w=
+ithdrawing money and it collapsed; they believe the big exchange that took =
+it over, so they stop.</p>
+<p style=3D"margin: 16px 0;">If they=C2=A0<em>don=E2=80=99t=C2=A0</em>stop =
+=E2=80=94=C2=A0if this doesn=E2=80=99t work =E2=80=94=C2=A0then hopefully t=
+he big exchange has the money to pay them out! But the big exchange won=E2=
+=80=99t, like,=C2=A0put all that money in an escrow account just to win a b=
+ankruptcy auction. The big exchange will go to the bankrupt platform=E2=80=
+=99s executives and bankruptcy advisers, and the bankruptcy court, and say =
+=E2=80=9Ctrust us, we=E2=80=99re good for the money, we=E2=80=99re a big ex=
+change.=E2=80=9D Hopefully they will do some due diligence on the exchange =
+and satisfy themselves that that=E2=80=99s true. But, in crypto, things cha=
+nge fast, and it=E2=80=99s weirdly hard to get audited financial statements=
+.</p>
+<p style=3D"margin: 16px 0;">The stuff I wrote above more or less describes=
+, at a high level, FTX=E2=80=99s bailouts of <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/30025450.287534/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9uZXdzL2FydGljbGVzLzIwMjItMTEtMTUvZnR4LXMtMS00LWJpbGxpb24tZGVhbC1mb3ItYmF=
+ua3J1cHQtY3J5cHRvLWxlbmRlci12b3lhZ2VyLXZvaWQ_Y21waWQ9QkJEMTIxOTIyX01PTkVZU1=
+RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxM=
+jE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBa91f8e59" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;">  Voyager Digital Ltd.</a> and <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/30025450.287534/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW=
+9uL2FydGljbGVzLzIwMjItMTEtMjgvZnR4LXMtYmxvY2tmaS1yZXNjdWUtZGlkbi10LXdvcms_Y=
+21waWQ9QkJEMTIxOTIyX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5l=
+d3NsZXR0ZXImdXRtX3Rlcm09MjIxMjE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB6ea8631a" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">  BlockFi Inc.</a>=C2=A0this summer.=C2=A0=
+In each case, a lending platform ran into liquidity trouble,=C2=A0and FTX a=
+nd its affiliated trading firm Alameda Research agreed to take over its cus=
+tomer accounts, paying not-very-many actual dollars, acquiring the assets a=
+nd promising to cash out customers who wanted out.<a class=3D"footnote-inde=
+x" href=3D"#footnote-2" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: none !important; background-color: transparent !important; displa=
+y: inline-block;">
+<span>[2]</span>
+</a>=C2=A0(It did not actually close either acquisition.) This worked out v=
+ery poorly, in the sense that FTX and Alameda themselves turned out not to =
+be particularly solvent and went bankrupt last month,=C2=A0so their guarant=
+ee of the customers wasn=E2=80=99t worth much.</p>
+<p style=3D"margin: 16px 0;">Last month <a href=3D"https://link.mail.bloomb=
+ergbusiness.com/click/30025450.287534/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vc=
+GluaW9uL2FydGljbGVzLzIwMjItMTEtMTQvZnR4LXMtYmFsYW5jZS1zaGVldC13YXMtYmFkP2Nt=
+cGlkPUJCRDEyMTkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXd=
+zbGV0dGVyJnV0bV90ZXJtPTIyMTIxOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4=
+b8524a319a23cBb0bc7ca4" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">  I speculated a little bit</a> about why F=
+TX and Alameda =E2=80=94=C2=A0which over the summer were running into fatal=
+ trouble themselves =E2=80=94=C2=A0might have devoted so much of their scar=
+ce money to bailing out other insolvent crypto shadow banks. I hope that th=
+e explanation above helps make the answer clear? One of my proposed explana=
+tions last month was:</p>
+<blockquote><p style=3D"margin: 16px 0;">Crypto prices, and firms, crashed =
+earlier this year, and FTX/Alameda spotted an=C2=A0<em>opportunity to acqui=
+re new customer deposits cheaply and use them for nefarious purposes</em>. =
+Like, you pay zero dollars for the equity of some busted crypto lending pla=
+tform, you roll the customers over to become FTX customers, you cash out an=
+yone who wants to cash out, you assume that most people will trust FTX (the=
+ir savior) and=C2=A0<em>not=C2=A0</em>cash out, and then you use=C2=A0<em>t=
+heir=C2=A0</em>deposits to fund your wild speculations. If FTX/Alameda were=
+=C2=A0<em>already=C2=A0</em>using customer deposits for bad reasons, and lo=
+sing them, then acquiring more customer deposits would be a way to keep thi=
+ngs going.</p></blockquote>
+<p style=3D"margin: 16px 0;">In completely unrelated news! Here=E2=80=99s=
+=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.287=
+534/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMTItMTkvYml=
+uYW5jZS11cy10by1idXktdm95YWdlci1kaWdpdGFsLXMtYXNzZXRzLWZvci0xLTAyMi1iaWxsaW=
+9uP2NtcGlkPUJCRDEyMTkyMl9NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZ=
+T1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTIxOSZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f0=
+7ceef4b8524a319a23cBb19264b2" itemprop=3D"StoryLink" itemscope=3D"itemscope=
+" target=3D"_blank" style=3D"color: #000000; text-decoration: none !importa=
+nt; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-s=
+tyle: solid; background-color: #ccc;">an update on Voyager</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Crypto exchange Binance.US will buy Voyager Di=
+gital=E2=80=99s assets out of bankruptcy in a deal worth $1.022 billion, a =
+discount to an earlier, failed sale struck with FTX.</p>
+<p style=3D"margin: 16px 0;">Voyager selected Binance.US as the highest and=
+ best bidder after reviewing options, the company said in a statement Monda=
+y. The bid =E2=80=9Csets a clear path forward for Voyager customer funds to=
+ be unlocked as soon as possible,=E2=80=9D according to the statement, and =
+the company will aim to return crypto to its customers in kind.=C2=A0</p>
+<p style=3D"margin: 16px 0;">FTX won an auction for Voyager=E2=80=99s asset=
+s in September with an offer valuing the company at $1.4 billion, of which =
+$51 million was in cash. That arrangement fell through after FTX imploded i=
+n November.=C2=A0</p>
+<p style=3D"margin: 16px 0;">The Binance.US deal values Voyager=E2=80=99s c=
+rypto portfolio at just over $1 billion at current market prices and includ=
+es another $20 million of =E2=80=9Cincremental value,=E2=80=9D according to=
+ the statement. The sale is subject to bankruptcy court approval, and a hea=
+ring is scheduled for Jan. 5.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is the proposed <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/30025450.287534/aHR0cHM6Ly9jYXNlcy5zdHJldHR=
+vLmNvbS9wdWJsaWMveDE5My8xMTc1My9QTEVBRElOR1MvMTE3NTMxMjE5MjI4MDAwMDAwMDA1Ny=
+5wZGY/607f07ceef4b8524a319a23cB13bf3214" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> asset purchase agreemen=
+t</a>; Section 2.1(a) says that the consideration for the purchase is a $20=
+ million cash payment and the assumption of liabilities.=C2=A0Here is <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/aHR0cHM=
+6Ly90d2l0dGVyLmNvbS9CcmlhblNocm9kZXIvc3RhdHVzLzE2MDQ4MjUwNTk4MTM5MjA3NzA/60=
+7f07ceef4b8524a319a23cB16b629d9" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;"> a Twitter thread</a> from Binance=
+.US chief executive officer Brian Shroder; some excerpts:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Our bid reflects our deeply held belief that c=
+ustomers should come first. Rather than having their assets liquidated for =
+cash, our bid permits users to retain their cryptocurrencies and empowers t=
+hem to make future decisions on what they want do with THEIR assets.</p>
+<p style=3D"margin: 16px 0;">New to Binance.US customers will have access t=
+o our suite of products &amp; services, such as ~150 different cryptocurren=
+cies, 300 trading pairs, 5,000+ convert pairs, industry-leading low fees, i=
+ncl. 0 fee BTC &amp; ETH trading &amp; the largest US on-chain staking plat=
+form. ...</p>
+<p style=3D"margin: 16px 0;">We always maintain 1:1 reserves, and are subje=
+ct to regular audits and regulatory reporting by government entities. We do=
+ not offer margin products, undertake proprietary trading, or take on any c=
+orporate debt.</p>
+<p style=3D"margin: 16px 0;">Binance.US is well capitalized: our assets exc=
+eed our liabilities. All of our customers could withdraw their assets tomor=
+row, which is their right &amp; we would still have hundreds of millions of=
+ current assets. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">We will do everything in our power to speed up=
+ the legal and court approval process. =C2=A0Current target, pending court =
+approvals, is to provide users access to their assets in March, 2023.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Presumably Binance.US is sharing those audits =
+and those balance sheets with the bankruptcy court. Voyager has already bee=
+n burned once.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Elsewhere in crypto auditing</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">If you are a public accounting firm, you are i=
+n the business of signing your name to a piece of paper saying =E2=80=9Cthi=
+s company=E2=80=99s financial statements are basically true,=E2=80=9D and c=
+harging for it. Before signing your name, you will do your best to confirm =
+that the financial statements are true, but there is always a risk that you=
+=E2=80=99re wrong. If you are wrong you might get sued or fined; also, thou=
+gh, if you are wrong too often your signature will lose its value and peopl=
+e will stop paying you for it. Your high-level goal is to (1) minimize that=
+ risk while (2) maximizing your revenue. Broadly speaking, you minimize ris=
+k by being conservative, by only auditing the statements of simple trustwor=
+thy companies in stable industries, and you maximize revenue by being aggre=
+ssive, by auditing the statements of companies in fast-growing industries a=
+nd by being, uh, customer-friendly about your audits.</p>
+<p style=3D"margin: 16px 0;">The tensions here are all very obvious and har=
+d, but sometimes there are easy calls. Like if you got into aggressively au=
+diting statements of companies in a complicated and risky industry because =
+you were betting on its rapid growth, and then people lose confidence in th=
+e finances of companies in that industry and it starts shrinking, then (1) =
+the risk of auditing that industry has gone way up and (2) the potential re=
+venue has gone way down. Why bother? <a href=3D"https://link.mail.bloomberg=
+business.com/click/30025450.287534/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2FydGljbGVzLzIwMjItMTItMTYvbWF6YXJzLXRvLXBhdXNlLWFsbC13b3JrLWZvci1jcnlwdG8=
+tY2xpZW50cy1iaW5hbmNlLXNheXMtbGJxYmFtdzc_Y21waWQ9QkJEMTIxOTIyX01PTkVZU1RVRk=
+YmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMjE5J=
+nV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB04b8746c" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+  Anyway</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Mazars Group, the accounting firm used by cryp=
+to giant Binance Holdings Ltd. and other big players in the industry to vou=
+ch for their assets held in reserve, has halted all such work for crypto cl=
+ients, dealing a blow to an industry seeking to shore up confidence in the =
+wake of FTX=E2=80=99s collapse.=C2=A0</p>
+<p style=3D"margin: 16px 0;">In an email sent by the French firm, Mazars sa=
+id it had suspended work for cryptocurrency firms because of indications th=
+at markets haven=E2=80=99t been reassured by the =E2=80=9Cproof-of-reserves=
+=E2=80=9D reports it had published so far. The firm was also concerned abou=
+t intense media scrutiny, the email said. A Mazars spokesperson later said =
+the suspension was limited to its provision of proof-of-reserves reports, c=
+iting =E2=80=9Cconcerns regarding the way these reports are understood by t=
+he public.=E2=80=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Proof-of-reserves reports have faced scrutiny =
+as they are not comparable to a full audit, in that they only show a firm=
+=E2=80=99s assets, not its liabilites, and instead serve as snapshots in ti=
+me that say information provided by clients broadly checks out. =E2=80=A6</=
+p>
+<p style=3D"margin: 16px 0;">=E2=80=9CMany audit firms are scared to work w=
+ith crypto businesses,=E2=80=9D said Binance CEO Changpeng =E2=80=9CCZ=E2=
+=80=9D Zhao in a Thursday interview on CNBC. When asked why Binance hasn=E2=
+=80=99t engaged a Big Four auditor =E2=80=94 a moniker that refers to the l=
+argest accountancy companies PwC, Deloitte, EY and KPMG =E2=80=94 Zhao adde=
+d that such firms =E2=80=9Cdon=E2=80=99t even know how to audit crypto exch=
+anges.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">In theory, auditing is especially valuable in =
+an industry where some big firms are giant scams and some are not and it is=
+ hard to tell the difference from the outside. In practice, it is not clear=
+ that auditors can tell the difference either, and the risk is high.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Blockchain blockchain blockchain</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">This is the sort of thing that would have made=
+ more sense in 2017 than in 2022 but=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/30025450.287534/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9=
+uZXdzL2FydGljbGVzLzIwMjItMTItMTYvYWxwaGFsZWRnZXItdXNlcy1ibG9ja2NoYWluLWZvci=
+1tdW5pLWJvbmQtZGVhbHMtaW4tYW4taW5kdXN0cnktZmlyc3Q_Y21waWQ9QkJEMTIxOTIyX01PT=
+kVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09=
+MjIxMjE5JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBb5982082"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> the muni market moves slowly</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A startup is modernizing the stodgy world of m=
+unicipal bonds by using blockchain to originate deals. The company said it =
+is a first in the $4 trillion market.</p>
+<p style=3D"margin: 16px 0;">Alphaledger recently acted as the underwriter =
+for three debt sales in New York, documenting the deals on its platform bas=
+ed on blockchain, the technology used for verifying and recording transacti=
+ons that=E2=80=99s at the heart of Bitcoin. More municipal sales are in the=
+ works, company leadership said.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Blockchain!</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">NFT Stuff</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">This is the sort of thing that would have <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjItMDUtMjUvdGVycmEta=
+XMtYmFjay1mcm9tLWJhbmtydXB0Y3k_Y21waWQ9QkJEMTIxOTIyX01PTkVZU1RVRkYmdXRtX21l=
+ZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjIxMjE5JnV0bV9jYW1=
+wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB1a1cdaf4" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">  made mor=
+e sense in like May</a>,=C2=A0but apparently you can still steal Bored Apes=
+? And even resell them for money? <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30025450.287534/aHR0cHM6Ly93ZWIzaXNnb2luZ2dyZWF0LmNvbS8_aWQ=
+9c2NhbW1lci1zdGVhbHMtZm91cnRlZW4tYm9yZWQtYXBlcy1mcm9tLW9uZS12aWN0aW0tZmxpcH=
+MtdGhlbS1mb3Itb3Zlci0xLW1pbGxpb24t/607f07ceef4b8524a319a23cB3fddddfd" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> Molly White reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">A scammer spent a month setting up a con in wh=
+ich they stole fourteen Bored Ape NFTs belonging to one individual. Posing =
+as a casting director at a real film production company=E2=80=94complete wi=
+th a fake website, a fake partner company, and fake individuals pretending =
+to have signed deals with the company=E2=80=94a scammer was able to convinc=
+e the collector that they were interested in paying $13,000=E2=80=93$17,000=
+ to license a Bored Ape for use in an animation.</p>
+<p style=3D"margin: 16px 0;">After some back-and-forth, with legitimate-loo=
+king contracts and falsified emails appearing to come from the real company=
+'s real founding director, the NFT collector was asked to use their crypto =
+wallet to sign a contract, via the fake company partner website that had be=
+en set up.</p>
+<p style=3D"margin: 16px 0;">When the collector did so, the smart contract =
+drained the collector's wallet of its fourteen pricey Bored Ape NFTs, then =
+accepted the highest offers that were outstanding on each of the Bored Apes=
+, netting 852.9=C2=A0ETH. The scammer converted the stolen ETH to the DAI=
+=C2=A0stablecoin,=C2=A0making off with $1,075,000 in DAI.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/30025450.287534/aHR0cHM6Ly90d2l0dGVyLmNvbS9TZXJwZW50L3N0=
+YXR1cy8xNjA0MDc0NDQwOTQxNTA2NTYw/607f07ceef4b8524a319a23cB646a05cc" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+> more detail</a>.=C2=A0It used to be that the way to steal Bored Apes from=
+ collectors was that, like, you sent them a Twitter direct message saying =
+=E2=80=9Cyour shoelaces are untied,=E2=80=9D and they=E2=80=99d be like =E2=
+=80=9Cwait they are?,=E2=80=9D and you=E2=80=99d be like =E2=80=9Cyes, to r=
+e-tie them please send me the private keys to your crypto wallet,=E2=80=9D =
+and they=E2=80=99d be like =E2=80=9Coh sure makes sense here you go=E2=80=
+=9D and you=E2=80=99d take their apes. Now you have to pretend to offer the=
+m money for licensing and=C2=A0<em>then=C2=A0</em>ask them for their privat=
+e keys.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Bob Iger vs. Bob Chapek: <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/30025450.287534/aHR0cHM6Ly93d3cud3NqLmN=
+vbS9hcnRpY2xlcy9ib2ItaWdlci1ib2ItY2hhcGVrLWRpc25leS1jb3VwLTExNjcxMjM2OTI4/6=
+07f07ceef4b8524a319a23cBad0d7366" itemprop=3D"StoryLink" itemscope=3D"items=
+cope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !imp=
+ortant; border-bottom-width: 1px; border-bottom-color: #000000; border-bott=
+om-style: solid; background-color: #ccc;"> Inside the Disney Coup</a>. If G=
+rayscale=E2=80=99s Bitcoin ETF Dreams Fail, Firm May <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/30025450.287534/aHR0cHM6Ly93d3cud3NqLmNv=
+bS9hcnRpY2xlcy9pZi1ncmF5c2NhbGVzLWJpdGNvaW4tZXRmLWRyZWFtcy1mYWlsLWZpcm0tbWF=
+5LXRyeS1hLXRlbmRlci1vZmZlci1jZW8tc2F5cy0xMTY3MTQyODA3OD9tb2Q9aHBfbGlzdGFfcG=
+9zMg/607f07ceef4b8524a319a23cB92685734" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> Try a Tender Offer</a>, CE=
+O Says. Private Equity Firms <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30025450.287534/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjItMTItMTcvcHJpdmF0ZS1lcXVpdHktb3BlbnMtY2hlY2stYm9vay10by1nZXQtZGV=
+hbHMtZG9uZS1hcy1iYW5rcy1udXJzZS10d2l0dGVyLWxvc3Nlcz9jbXBpZD1CQkQxMjE5MjJfTU=
+9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVyb=
+T0yMjEyMTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBb11786a=
+6" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Dig Deep for Acquisitions</a> While Banks Nurse Losses. Cred=
+it Suisse financed <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/30025450.287534/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvYzExMTE3ODctZDEyNC00OD=
+cyLTlkNjktNjQzMWRlNGQzYjBm/607f07ceef4b8524a319a23cBb3171726" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;"> Gree=
+nsill=E2=80=99s</a> plan to set up insurance firm. Mortgage <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/30025450.287534/aHR0cHM6Ly93d3cud=
+3NqLmNvbS9hcnRpY2xlcy9tb3J0Z2FnZS1idXlkb3ducy1hcmUtbWFraW5nLWEtY29tZWJhY2st=
+MTE2NzEzMTQ4NzI_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB1f7e09=
+08" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Buydowns</a> Are Making a Comeback. Highest Interest Rates in=
+ 15 Years Are Derailing the <a href=3D"https://link.mail.bloombergbusiness.=
+com/click/30025450.287534/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljb=
+GVzLzIwMjItMTItMTkvdXMtZmVkZXJhbC1yZXNlcnZlLWludGVyZXN0LXJhdGUtaGlrZXMtaHVy=
+dC10aG9zZS13aXRoLWxpdHRsZS1jYXNoP2NtcGlkPUJCRDEyMTkyMl9NT05FWVNUVUZGJnV0bV9=
+tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIyMTIxOSZ1dG1fY2=
+FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBa808ca50" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">  Ameri=
+can Dream</a>. Crypto=E2=80=99s Onetime Fans Are <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/30025450.287534/aHR0cHM6Ly93d3cud3NqLmNvbS9h=
+cnRpY2xlcy9jcnlwdG9zLW9uZXRpbWUtZmFucy1hcmUtY2FsbGluZy1pdC1xdWl0cy1hZnRlci1=
+mdHgtY29sbGFwc2UtMTE2NzEzMjc1NTQ_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b85=
+24a319a23cB7a05ceec" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> Calling It Quits</a> After FTX Collapse. Mau=
+boussin and Callahan on <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/30025450.287534/aHR0cHM6Ly93d3cubW9yZ2Fuc3RhbmxleS5jb20vaW0vcHVibGljY=
+XRpb24vaW5zaWdodHMvYXJ0aWNsZXMvYXJ0aWNsZV9jYXBpdGFsYWxsb2NhdGlvbi5wZGY/607f=
+07ceef4b8524a319a23cBf296eee4" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> Capital Allocation</a>. =E2=80=9CFT=
+AV dug through the 52 companies the <a href=3D"https://link.mail.bloombergb=
+usiness.com/click/30025450.287534/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvOWEzY=
+jRiNzgtYjE4Yi00ZDFmLWIyOGItMDVhNzM1MjVhYTYx/607f07ceef4b8524a319a23cB30c783=
+fc" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Alameda/FTX/SBF complex</a> gave a cool milli to.=E2=80=9D Yo=
+u can stay in the <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+30025450.287534/aHR0cHM6Ly9ueXBvc3QuY29tLzIwMjIvMTIvMTYveW91LWNhbi1zdGF5LWl=
+uLXRoZS13b3JsZHMtbGFyZ2VzdC13aW5lLWJvdHRsZS1mb3ItNDAv/607f07ceef4b8524a319a=
+23cBff78d26e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> =E2=80=98world=E2=80=99s largest=E2=80=99 wine bottl=
+e for $40</a>. =E2=80=9CMillennial <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/30025450.287534/aHR0cHM6Ly93d3cudm94LmNvbS90aGUtaGlnaGxpZ2=
+h0LzIzNDY2Mzg5L21pbGxlbm5pYWxzLWNyaW5nZS1lcGljLWJhY29u/607f07ceef4b8524a319=
+a23cBac368614" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;"> cringe</a>.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30025450.287534/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB2f0fa463" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30025450.287534/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBcf6bca46" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] I=E2=80=99m oversimplifying here in assumi=
+ng that all the customer liabilities are dollar-denominated; in fact, the c=
+ustomers will want to withdraw various sorts of crypto, and the buyer will =
+have to give it to them. This doesn=E2=80=99t matter much conceptually but =
+it can make things messier in practice.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] BlockFi got an FTX rescue *without* filing=
+ for bankruptcy: It agreed to sell itself to FTX for a pittance in exchange=
+ for a guarantee of customer accounts, but when FTX went bankrupt BlockFi q=
+uickly followed. Voyager filed for bankruptcy and then <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/30025450.287534/aHR0cHM6Ly93d3cuYmxvb2=
+1iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjItMDctMjIvZnR4LW1ha2VzLXByb3Bvc2FsLWZvc=
+i1iYW5rcnVwdC12b3lhZ2VyLXdpdGgtZXllLW9uLWN1c3RvbWVycz9jbXBpZD1CQkQxMjE5MjJf=
+TU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGV=
+ybT0yMjEyMTkmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB707f7=
+54e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  got an offer from FTX</a>, which <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/30025450.287534/aHR0cHM6Ly93d3cubWFya2V0d2F0Y=
+2guY29tL3N0b3J5L3ZveWFnZXItZGlnaXRhbC1jYWxscy1mdHgtYWxhbWVkYS1wcm9wb3NhbC1h=
+LWxvdy1iYWxsLWJpZC1kcmVzc2VkLXVwLWFzLWEtd2hpdGUta25pZ2h0LXJlc2N1ZS0xMTY1ODc=
+2NjI5NQ/607f07ceef4b8524a319a23cB11fc85e2" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Voyager=E2=80=99s manag=
+ement actually *resisted*</a>, saying that it was good for FTX but bad for =
+Voyager=E2=80=99s customers. That turned out to be right! Ultimately FTX wo=
+n the deal in bankruptcy, and then lost it again when it went bankrupt.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB0d7a185c" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBd66356c2" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB3c06d508" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB439387b5" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0zMDAyNTQ1MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzAzMTI5ODQmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cK0c8bafcb" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D30025450&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30312984&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px; disp=
+lay:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBb24b0a7d" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30025450.287534/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC32f7f844" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30025450.287534/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBe06d43b1" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30025450.287534/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB29a512f7" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBd=
+710c9ec" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30025450.287534/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB4=
+687de7d" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D300254=
+50&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30312984&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D300254=
+50&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30312984&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D300254=
+50&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30312984&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D300254=
+50&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30312984&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D300254=
+50&amp;m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D30312984&amp;stpe=3Dpix=
+el&amp;" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23chvjsa.65v2/1749f8a7.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_64149345_423536686.1671477895982--
+

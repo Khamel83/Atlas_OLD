@@ -1,0 +1,1894 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a0c:e3d1:0:b0:675:7c40:1c7f with SMTP id e17csp2173753qvl;
+        Tue, 14 Nov 2023 11:05:56 -0800 (PST)
+X-Received: by 2002:a05:600c:5251:b0:3f6:58ad:ed85 with SMTP id fc17-20020a05600c525100b003f658aded85mr9525560wmb.10.1699988756292;
+        Tue, 14 Nov 2023 11:05:56 -0800 (PST)
+ARC-Seal: i=3; a=rsa-sha256; t=1699988756; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=gmd2E1I5vnffsNHwPE9Nak2srzyC653TSf6UF1g871lW6W3jhql42IK2974CJ0rjsV
+         e8Z+NgfDovteUtClxA6IoCDmKBYksODemG4UbNumvvwPT/fJQ9cqFuKq4bhWVua9U/eX
+         dU6s092Lz0+58l0FPlEl6F8mQEi2cCcEzxCi6jptEfd5SFa2u/dq2d9FLEsfGoeHZsK3
+         p/ZzcTf9li4FU/tsj8jvyXVixEHF2bmxW8iy7aKM18rZEjX7cVmKWjmhgpCwFQ0HTrYF
+         K48WY3yZdAgyO72ne7JxyOBX7YvoWRAVTJaM7t02aGDuTAtc+0HoKFRB3Ra/gNGsvaKr
+         aAPg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=AgEsQydMUcgR6+GzmbhhKtpY8/Acl8uh/sRXIN/YQw8=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=yu8DIq6pvcvSMGHRYq9eWn2CNp7cPrB9XlTO5/BcKG4t8rg4nVNT+2tOa87Vxoy/9h
+         5rfrVsIBnuwplYS+wrDtIQTy0Q0j07GiaSIK7M/o347XHamDG1FZkrHv25gloakv3IDa
+         08C25Y41Q/C01/zMDxgv7ElF6MGNsxEoFDFZMje619aNjJRFo67HwCL0b/cwi7FQMtW8
+         RIJqDURcFx22Hf2u3i1EQsYD0AD4wk3SN4qgUeE7yN7++1hhnTuxIvtnUr8954hZll9U
+         o2Hsj8MycldIGdI36vCq901mRYiSVGw7cvZ/inLJL6uMCDxC6XQMbV+btHidmI/SmVLF
+         Wy/Q==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=guvOvasX;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id p22-20020a05600c419600b003fc062c8231sor2034484wmh.1.2023.11.14.11.05.56
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Tue, 14 Nov 2023 11:05:56 -0800 (PST)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=guvOvasX;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1699988756; x=1700593556;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=AgEsQydMUcgR6+GzmbhhKtpY8/Acl8uh/sRXIN/YQw8=;
+        b=kmS0TY+OaYpHvPG2JcRM8BLWG+jxnBBB0lw1VEv7rKtXJfeAUYIr1k+pWQFx2T4mP4
+         hYa6zeOv12PkPwj7N7gGhf9ZLYyqcjvU62uuVmq57LEVoLNzOMHNiam1GE3OI7ku+MKE
+         lKAYuV8UR1RxPQX8M7sQoyuYKvgLkCi1WPnCz0FbqTpdryVf+wPESjUcHXB3k/gJQ/uN
+         HVNkTAjsuB0XGn+wFuL5mJTYgnP8EEGno2AhiHXfE9SfcCkdq2Wc5BJMQLwSmeAv+D3L
+         S8e5+EbFQ2OP754nULckNlaIdR6gDRLMCE8rSvJWihy7LZZDc3K7sVGpeOxhFGHrtuUb
+         Xs6Q==
+X-Gm-Message-State: AOJu0Yx1E9mrrdje10a+l85gyfE22hH8dyWYiG5Vts1bCZ7qmLPYmuYY
+	xmtaewInoONCyRNYz51N6utXSAOjwRV4j7XAQ2GF6sB6RzXs8KG4YQ==
+X-Received: by 2002:adf:f20d:0:b0:32f:914e:427f with SMTP id p13-20020adff20d000000b0032f914e427fmr6449623wro.16.1699988755734;
+        Tue, 14 Nov 2023 11:05:55 -0800 (PST)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a05:6000:1c7:b0:32f:dd4c:ebf8 with SMTP id t7csp2156627wrx;
+        Tue, 14 Nov 2023 11:05:52 -0800 (PST)
+X-Received: by 2002:a5d:8199:0:b0:780:c787:637b with SMTP id u25-20020a5d8199000000b00780c787637bmr11678778ion.0.1699988752032;
+        Tue, 14 Nov 2023 11:05:52 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1699988752; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=gIt7geGjcxmm7Cj8sDyJaXRPrP0p/EST3idQg3mpGzpGCU2bp2ZJnxZFOx/t/+nY6m
+         OAMjYZJCTY1VIoqMOjZKMgtE9WJjkojJ2IArDRnFbQpx1AQKxjObeGKjqStxljI2NqZU
+         DmqWBjd0XP3r7VwY2W3eBqMOdlV9hVcUus+hZ4rnYO55+ixq5RKXnpYzTnrM7kjzR3in
+         uQAygWkMteocVvfNTroKkXUC4LW6Eu8LAXRCTfcm1JHk9FojSmD1GxDu1qDpijYVrrog
+         bBw045BDppAgVK+gkEuqJgH/HETRjOszNfZEqPeE2IHhwvg5Kh2o0xyvHpA4RlzG96/t
+         TWgw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=AgEsQydMUcgR6+GzmbhhKtpY8/Acl8uh/sRXIN/YQw8=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=yR9DtwQsDjuFpQWw4MIm3Ous4u/TD7gtu1RThgZ7Io3cjBnQ2+UL2qDhRWS8mG5XGV
+         4hhHSLAw7Nmz9JpXahBALeg/CZqOGbbHoa7bcpYFLTaS7xLXulBWBLF3Bp3/Xnu4nFAo
+         fElU6sCfHhn6Jrux4178/PK2JM8GKZKiX/w1uPcrL/paKQPre4ayGnjgQGgF5VL6LVdr
+         v7ckx747lD431/jESiSPizdT1zoYp4OQrG9y3L8CdtYpq3AJ+9OsXzX0prt2mFjXFujY
+         t+JGgb07zdtPP6Ow7tYqu/9EOy9VclH2J6HvAy1ehTKdRwmBa9aSUBq04e0TCNfDwHk5
+         fs+w==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=guvOvasX;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=mail.bloombergview.com);
+       spf=fail (google.com: domain of delivery_20231114140550.33367080.258416@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20231114140550.33367080.258416@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231114140550.33367080.258416@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id j25-20020a02a699000000b0042b0e8dac2dsor1866802jam.12.2023.11.14.11.05.51
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Tue, 14 Nov 2023 11:05:52 -0800 (PST)
+Received-SPF: fail (google.com: domain of delivery_20231114140550.33367080.258416@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AGHT+IGiIJMD+ZL052h7m5MuSAFfnr9XOYnWYEn+9CCSwieBpBCSEgN4X/EbR5tNAjsuNwmrmvHh1CsSlDenG+RfF+TzZteHcRw=
+X-Received: by 2002:a6b:d609:0:b0:79f:ca2f:9198 with SMTP id w9-20020a6bd609000000b0079fca2f9198mr11642826ioa.2.1699988751529;
+        Tue, 14 Nov 2023 11:05:51 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1699988751; cv=none;
+        d=google.com; s=arc-20160816;
+        b=j3M5+EAP7c/+UFtziRtWKTVllWJ0qJYgFDRpvnuMKB+eFGS82EDUqi0nOEWEPaBXjb
+         gMO568g3X1HSFFMK/f0ptBrEOttVvzgwjbKTzwvlZX9ri1ESs8iIez4U0aqRBSowIrIj
+         XzMmwEFiVW1qDpbJ/8MHol1eVk4GCoIuR3SEn6bbA7MUKvn/mccerFhqs0RXiaZEgMkg
+         w+6gkmA/86PqS9jeMJeht1ERp9ACdWExoIU7UUDWkNma7SnG0iHhrBRCYznPEFBZrsXk
+         7RX8OP7MRtWulat/OWOjVylSd9saI6nubVdGgVrCXkIB79gYa8QcHVwXoEzZ08rVI0SF
+         rdVQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=AgEsQydMUcgR6+GzmbhhKtpY8/Acl8uh/sRXIN/YQw8=;
+        fh=2MdjnrCtEMHqd3rBFqgmNjjW01UowZ4CS/odKKZN3kY=;
+        b=xKt5lq3IkHGyPUFP4+j+NQw/R8SEB1sAyUjgvOo7nvo1Zh5bzIhO2uq2zY5GJ6TLHr
+         PNBc8jFqvaKRl58C1iYJ2D2Pl5MPCRAwlic+zMR+kVjmwvwrsWOCBHPFgHQOaBfECfKj
+         BHQBxpLeNjxA38D9SH/4RzpmKKFdDYrdoS9egbx/lfxDHKukcdoI9gZRbY/hGK5YbdO9
+         gZyWMhozfuSDYwvjRnJES9SRpLP+g3XUlu7c+pencNJUVGIDxj9hUkHHOTBPZmjlyPh/
+         aknd8a8oxFw1p6Z3hiLQlUBwMx+/Ua6dB+qQCaqjDp9nJQ0Shwc15Jpu88XeECMu173X
+         Juyg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=guvOvasX;
+       spf=pass (google.com: domain of delivery_20231114140550.33367080.258416@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20231114140550.33367080.258416@mx.sailthru.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail.bloombergview.com
+Return-Path: <delivery_20231114140550.33367080.258416@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id cs23-20020a056638471700b004312fb02a61si1133207jab.4.2023.11.14.11.05.51
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 14 Nov 2023 11:05:51 -0800 (PST)
+Received-SPF: pass (google.com: domain of delivery_20231114140550.33367080.258416@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=7EJnnCz3jdVEK/nz0L0KI82i1SUPHqhI2fHmQvuFFc4=;
+ b=guvOvasXCGTDWJw0UkjVXr9m9P754CnPtAFaNXt6K2yktWWubng4nOogIoY5/nz+jq/Njh5/Rzsn
+   bZbbC/5B9sHE+C/Wa3UFo5udd6jtTS3V8SnfEbvCSEetfCOxZETpprAtC7gLHGwB+mMa0KFGkbQr
+   Fg2Z4tOQBUyLeTSQBAg=
+Received: from aws1-mta-relay5.sailthru.cloud (10.55.76.97) by bloomberg-b.sailthru.com id haf2gu30nu8q for <bloomberg@khamel.com>; Tue, 14 Nov 2023 13:05:50 -0600 (envelope-from <delivery_20231114140550.33367080.258416@mx.sailthru.com>)
+Date: Tue, 14 Nov 2023 14:05:50 -0500 (EST)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20231114140550.33367080.258416@sailthru.com>
+Subject: Money Stuff: Goldman Keeps Getting More Boring
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_59253318_1953938331.1699988750953"
+Precedence: bulk
+x-job: 6358-33367080-20231114
+X-Feedback-ID: 6358:33367080:campaign:sailthru
+X-TM-ID: 20231114140550.33367080.258416
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: ip-10-55-87-245.ec2.internal
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjv67c.5je8/86890f90
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cjv67c.5je8/86890f90>, <mailto:unsubscribe_20231114140550.33367080.258416@mx.sailthru.com>
+X-rpcampaign: stjko33367080
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_59253318_1953938331.1699988750953
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        At Business Insider, Bethany McLean writes about an unusual problem=
+ that afflicts her and me and a handful of other journalists, which is (d
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Goldman
+   =20
+ =20
+
+At Business Insider,  Bethany McLean writes about an unusual problem that a=
+fflicts her and me and a handful of other journalists, which is (disclosure=
+!) that we used to work at Goldman Sachs Group Inc., and now we write about=
+ finance, and we try to be fair and thoughtful, but we still have some root=
+ing interest in Goldman=E2=80=99s mystique. Like:
+=09If Goldman does awesome brilliant things, then we look smarter and more =
+awesome by virtue of our association with Goldman.=09If Goldman does evil c=
+lever things, then that=E2=80=99s pretty good too? Like, one, everyone we m=
+eet is like =E2=80=9Cooh you must be evil and clever,=E2=80=9D and I will d=
+efinitely take that.
+  [1]
+=C2=A0Also though=C2=A0as a journalist I get a certain advantage from that;=
+ everything I write about Goldman is extra-interesting if I am, or might be=
+, or could be interpreted as being, exposing Goldman=E2=80=99s evil secrets=
+. I   wrote earlier this year about Goldman getting in trouble with regulat=
+ors for cleverly hosing some customers on some swaps trades. Embarrassing f=
+or Goldman! But fun for=C2=A0me. =E2=80=9CI do not want to be too generous =
+about Goldman=E2=80=99s cleverness,=E2=80=9D I wrote, =E2=80=9Cor too ungen=
+erous about its sharp elbows, but, just, if you think that you=E2=80=99re p=
+ulling a fast one on Goldman Sachs, you might be right, but maybe double-ch=
+eck to be sure?=E2=80=9D That is a humblebrag, I think, or an evil-but-clev=
+er brag. Goldman=E2=80=99s cleverness,=C2=A0and its sharp elbows, reflect=
+=C2=A0well=C2=A0on its alumni.=09If Goldman does dumb tawdry things, that d=
+oesn=E2=80=99t help us at all.
+
+McLean writes:
+As the years passed, my short stint at Goldman continued to give me a sneak=
+y sense of pride. I say "sneaky" because after the global financial crisis =
+of 2008, criticism of the bank =E2=80=94 some of it even written by me =E2=
+=80=94 mounted dramatically, culminating in Matt Taibbi's famous piece like=
+ning the firm to a "vampire squid." But here's the thing: The criticism alw=
+ays contained a trace of awe. There was a mystique to Goldman. It was cool =
+and competent. Even when it lost hundreds of millions on a trading bet gone=
+ awry, or intentionally screwed its own clients, well, that had a certain s=
+wagger to it.=C2=A0
+And now she is worried that Goldman has lost that mystique and swagger. Now=
+ it is run by a   former DJ whose partners and predecessor are constantly s=
+niping at him. And its big strategic move in recent years has been to expan=
+d into consumer banking, which is just less cool than high-stakes mergers a=
+nd billion-dollar trading. Back in 2021, I   wrote sort of wishfully about =
+how, sure, sure, it=C2=A0looked=C2=A0like they were just opening credit car=
+ds and savings accounts for retail customers, but maybe it was all an elabo=
+rate misdirection:
+You could have two basic views of Goldman Sachs Group Inc.=E2=80=99s Marcus=
+ consumer-banking product. One is that it represents Goldman=E2=80=99s move=
+ into boring consumer banking. =E2=80=A6 The other is that it is a trick, a=
+nd Goldman is going to lure consumers and then use their money to do horrif=
+ying structured products. Disclosure, I used to work at Goldman, structurin=
+g horrifying products (I kid, they were fine, fine-ish), and part of me is =
+always rooting for the trick answer. It would give me immense pleasure to r=
+eport to you that Goldman was selling synthetic tranches of its Apple-brand=
+ed credit-card debt to unsuspecting German regional banks and then also bet=
+ting against those tranches etc. etc. etc. you know all the tricks by now.
+But, no, no trick. They were just doing consumer banking. Also it didn=E2=
+=80=99t work; Goldman lost money and has now retreated from that strategy. =
+McLean:
+Only after Goldman's fledgling retail business had lost $3.8 billion did [c=
+hief executive officer and ex-DJ David] Solomon finally agree to=C2=A0shut =
+it down. The episode was a shocking failure on the part of a firm whose peo=
+ple pride themselves on being the smartest, and whose core business is tell=
+ing other businesses how to be smart. "People always said:=C2=A0You guys ar=
+e greedy," a former partner told me. "But they never thought we were incomp=
+etent."
+Anyway McLean=E2=80=99s piece is much broader; it is about the decline in G=
+oldman=E2=80=99s swagger and the causes for it. We have   talked around her=
+e about how Goldman was, not all that long ago, a private partnership, one =
+whose managing partner was more of a first among equals than a real chief e=
+xecutive officer. Even after Goldman did its initial public offering in 199=
+9, it maintained a =E2=80=9Cpartner=E2=80=9D title, its CEOs all grew up in=
+ the partnership, and they still treated their partners like partners. Davi=
+d Solomon, the first Goldman CEO who was not a pre-IPO partner, and the fir=
+st Goldman CEO who was also a DJ, has changed that. McLean:
+
+Solomon, for his part, says he was told in no uncertain terms that broad ch=
+ange was needed. "I had a board who gave me a very, very clear message that=
+ they wanted the firm to operate more like a public company, with a mandate=
+ to perform for shareholders," he says. That required transforming the cult=
+ure of Goldman =E2=80=94 in ways that felt to some partners like Solomon wa=
+s adding insult on top of the injury to their paychecks.=C2=A0"David has re=
+ally tried to corporatize the firm," says one partner. "It's a big firm now=
+, he feels, and it needs to have more of a corporate structure, and less of=
+ a partnership structure." =E2=80=A6
+The old Goldman had a handful of businesses =E2=80=94 fiefdoms really =E2=
+=80=94 that invested the firm's own money in everything from real estate to=
+ Thai baht. But that often placed Goldman at odds with the interests of tho=
+se whose assets it managed. When the firm found a good investment, did it s=
+eize the opportunity for itself, or give it to its clients? What's more, th=
+e amount of capital the Federal Reserve began to require Goldman to hold to=
+ offset any losses in its deals made the returns negligible, and shareholde=
+rs didn't like the unpredictability of the earnings. So Solomon sold off th=
+e firm's own investments =E2=80=94 some $60 billion in total =E2=80=94 and =
+focused on managing money on behalf of outside investors, from high-net-wor=
+th individuals to pension funds.
+The move sparked a lot of internal disruption and dissent. "Not many would =
+have had the guts to do it," says Horwitz, Blankfein's former chief of staf=
+f. "Because senior people, they liked their businesses, and they had great =
+track records." Another former senior executive recalled that Blankfein rec=
+ognized the need for Solomon's move. "He's probably doing the right thing,"=
+ Blankfein told the executive at the time. "But it's not the stuff I could =
+have done." Blankfein, the executive adds, "was too culturally embedded in =
+the place" to kill the fiefdoms that his friends had spent their careers bu=
+ilding.
+
+If you are a Goldman shareholder or board member, you might worry about a C=
+EO who is =E2=80=9Ctoo culturally embedded in the place=E2=80=9D: He might =
+prioritize the culture (or his buddies=E2=80=99 careers) over shareholder r=
+eturns. On the other hand if you=E2=80=99re a Goldman partner who has been =
+there for 20 years, you might be offended by the idea of a CEO who is=C2=A0=
+not =E2=80=9Ctoo culturally embedded.=E2=80=9D If you like the culture, the=
+re=E2=80=99s no such thing as=C2=A0too=C2=A0culturally embeded.
+The other thing to notice in that block quote is what Solomon is trying to =
+do: Get rid of Goldman=E2=80=99s own investments and reshape Goldman as, ba=
+sically, an=C2=A0 alternative asset manager. Some of that is obviously driv=
+en by post-crisis regulation; you=E2=80=99re not supposed to do tons of pro=
+p investing anymore.
+But some of it is also driven by the cultural shift in Wall Street more bro=
+adly. It used to be that the best thing to do was work at an investment ban=
+k, and Goldman was the best investment bank. But now the best thing to do i=
+s to work at a private equity firm, though the big private equity firms hav=
+e diversified far enough that they are now more accurately called =E2=80=9C=
+asset managers=E2=80=9D or =E2=80=9Cinvestment firms.=E2=80=9D McLean:
+In 2013, a few years after Goldman became a traditional bank instead of an =
+investment house, I found myself at a reunion for former analysts, standing=
+ with two men who had been in my class. One worked at KKR; the other worked=
+ at Goldman. Where would you rather be now, the KKR guy asked with a laugh.=
+ At a heavily regulated bank like Goldman? Or at a private-equity firm, whe=
+re you can do anything you'd like, and make multiples more money?
+The answer is =E2=80=9Cobviously KKR,=E2=80=9D and so Solomon=E2=80=99s mov=
+e =E2=80=94=C2=A0besides the consumer banking, oops =E2=80=94=C2=A0is to ma=
+ke Goldman more like KKR, to focus on asset management. On the other hand i=
+t=E2=80=99s not obvious that that works:
+The strategic shift, necessary though it was, came at an unnecessarily stee=
+p price. During Solomon's tenure, more than 200 partners, including over 60=
+ from asset management, have left Goldman =E2=80=94 a significant talent dr=
+ain at a time when it's trying to compete with private-equity firms that ha=
+ve a big head start in building relationships with large institutional inve=
+stors. Goldman's asset-management clients, a former partner told Insider, "=
+are frustrated with having the churn." I've heard rumblings that the turmoi=
+l isn't over =E2=80=94 and these days, rumblings seem to have an uncomforta=
+ble way of becoming fact. Earlier this year, Goldman boosted the share of p=
+rofits that investment teams can pocket for themselves, more closely aligni=
+ng their compensation with that of the big private-equity firms. It's a tac=
+it admission that Goldman cannot afford to keep losing so much talent in su=
+ch a critical part of its business.
+It is just possible that it is easier, in 2023, for a big private equity fi=
+rm to compete with the universal banks than it is for the universal banks t=
+o compete with the private equity firms:
+=09The private equity firms have financial and reputational momentum, so th=
+ey can poach talent from the banks more easily than the reverse.=09The regu=
+lation of the banks is much stricter than the regulation of the private equ=
+ity firms, even in not-really-banking businesses where they compete.=09If y=
+ou are a private equity firm, you can mainly focus on questions like =E2=80=
+=9Cwhat can we do that will make us the most money,=E2=80=9D while the big =
+banks have lots of risky and/or unprofitable legacy client-servicey busines=
+ses. Plus sometimes they expand into consumer banking.
+
+Also though the big private equity firms just =E2=80=A6=C2=A0have more of a=
+ partnership culture? Just in the simple literal sense that the big private=
+ equity firms typically have a complex corporate structure in which they ma=
+nage funds for clients, and they charge fees for that management, and a set=
+ portion of the fees goes to a partnership entity where they are shared by =
+employees rather than the shareholders. They have retained their pre-IPO pr=
+actices of making a lot of money, divvying it up among themselves, and then=
+ letting the shareholders have what=E2=80=99s left. I suppose Goldman=E2=80=
+=99s current=C2=A0approach is nicer for the shareholders, but you can see w=
+hy Goldman=E2=80=99s partners prefer the old one.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Is jiu-jitsu securities fraud?
+   =20
+ =20
+
+Oh, you know:
+=09Every bad thing that happens to a public company is also securities frau=
+d.=09Getting beaten up is bad.=09
+Mark Zuckerberg=C2=A0getting beat up is probably bad for Meta Platforms Inc=
+. =E2=80=9CIf Mr. Zuckerberg were to become unavailable for any reason,=E2=
+=80=9D says Meta in its securities filings,=C2=A0=E2=80=9Cthere could be a =
+material adverse impact on our operations.=E2=80=9D For instance if he got =
+beat up real bad.=09Therefore Mark Zuckerberg getting beaten up is securiti=
+es fraud.
+
+And since Zuckerberg enjoys Brazilian jiu-jitsu, which significantly elevat=
+es his risk of getting beaten up,
+  [2]
+=C2=A0there are arguable securities disclosure concerns. He recently tore a=
+ ligament in training and got surgery for it, and Bloomberg=E2=80=99s Alexa=
+ndra Barinka wrote last Friday:
+
+There is a serious consideration here about whether Meta Platforms Inc.=E2=
+=80=99s co-founder, CEO and controlling shareholder has a duty to disclose =
+his MMA [mixed martial arts] activities to investors, particularly if forma=
+l contests are in his future. What if it=E2=80=99s worse next time? Zuckerb=
+erg posted about his surgery on Instagram, and there was no filing or compa=
+ny statement.
+=E2=80=9CIt=E2=80=99s a question of materiality,=E2=80=9D said Bryan Westho=
+ff, an attorney at Polsinelli PC. =E2=80=9CIs it material to a reasonable i=
+nvestor to know what the executives are doing? Is there danger and uniquene=
+ss to it? MMA is something that most of us don=E2=80=99t do."
+It=E2=80=99s not that unreasonable to expect Zuckerberg will get injured ag=
+ain one day. About three in five MMA fights had at least one injury, accord=
+ing to an article published in the Orthopaedic Journal of Sports Medicine t=
+hat reviewed 503 amateur and professional contests in 2018 and 2019. Zucker=
+berg=E2=80=99s injury was just during training. He tore a ligament in his k=
+nee, a joint that one could argue isn=E2=80=99t necessary to run a social m=
+edia company (especially if he=E2=80=99s spending time in his virtual reali=
+ty metaverse). But what about his brain? Head injuries appear to be higher =
+risk if he doesn=E2=80=99t win his fights; of losers=E2=80=99 injuries in t=
+he Journal=E2=80=99s review, 17% were concussions.
+
+Look, nobody is more into =E2=80=9Ceverything is securities fraud=E2=80=9D =
+than me, but I can=E2=80=99t=C2=A0really=C2=A0imagine Meta getting sued for=
+ this if Zuckerberg gets a concussion. Everyone takes lots of risks in life=
+, sometimes accidents happen to CEOs, and those accidents=C2=A0probably=C2=
+=A0aren=E2=80=99t actually fraud. (Not legal advice!)
+Still, why=C2=A0hasn=E2=80=99t=C2=A0Meta added a risk factor for this? Not =
+because it is legally required, I mean, but just because it would be fun fo=
+r the lawyers? Add a sentence to the risk factors like =E2=80=9Cour CEO lik=
+es to go to gyms to get punched in the face, and if he gets punched really =
+hard in the wrong part of his face then we may be unable to execute on our =
+product roadmap=E2=80=9D? Surely writing that sentence is more fun for Meta=
+=E2=80=99s lawyers than whatever else they=E2=80=99ve got going on in their=
+ day, even if it is technically less important.
+The corollary to =E2=80=9Ceverything is securities fraud=E2=80=9D is that e=
+verything is also insider trading, and there are obvious applications here.=
+ What if you show up at a Brazilian jiu-jitsu tournament to find that you a=
+re fighting Mark Zuckerberg? If you knock him out, can you run to your Robi=
+nhood account and short Meta stock before the ambulance gets there? (Can yo=
+u short the stock=C2=A0before=C2=A0the match if you just know that you=E2=
+=80=99re huge and will knock him out? Do you then fight dirty?) Brazilian j=
+iu-jitsu tournaments now have a unique ability to=C2=A0create=C2=A0material=
+ nonpublic information about Meta stock; what if someone uses it?
+
+ =20
+   =20
+      Mortgage mark-to-market
+   =20
+ =20
+
+At the Wall Street Journal, James Mackintosh has a fun column about the fac=
+t that a lot of US homeowners
+  [3]
+ are sitting on big mark-to-market gains on their home mortgages. If you bo=
+rrowed $500,000 to buy a house at 3% interest for 30 years, and then mortga=
+ge rates went up to 8%, that mortgage is now arguably worth just $287,000.
+  [4]
+=C2=A0Your debt went from $500,000 to $287,000, so your net worth increased=
+ by $223,000. Mackintosh writes:
+
+Apply the logic used in the market, and there=E2=80=99s been a transfer of =
+well over $1 trillion in wealth from banks and bondholders to borrowers as =
+rates have soared=E2=80=94a gain in wealth widely ignored by the beneficiar=
+ies. ...
+In a world without financial frictions, the average borrower would see that=
+ they were tens of thousands of dollars richer as a result. Those who secur=
+ed a sub-3% rate for the full 30 years on an average-size mortgage are more=
+ than $100,000 better off.
+The problem: In the real world, the wealth gain doesn=E2=80=99t show up any=
+where. That=E2=80=99s already changed the behavior of homeowners, who cling=
+ to homes they would otherwise sell in order to keep the mortgage. It also =
+means it makes sense to keep both debt and savings for financial=E2=80=94no=
+t just tax=E2=80=94reasons, because the savings earn more than you pay on t=
+he mortgage.
+
+As a former financial engineer I find this situation a bit offensive: There=
+=E2=80=99s $1 trillion of newly created (well, transferred) value, and nobo=
+dy can do anything about it? Why isn=E2=80=99t someone building a product? =
+We talked a while back about  assumable mortgages, which are one way to unl=
+ock this value, but which are not broadly available. But really the temptin=
+g product is:
+=09You have a $500,000 mortgage that is now worth $287,000.=09You go to you=
+r bank and say =E2=80=9CI=E2=80=99ll give you $300,000 for it.=E2=80=9D=09T=
+he bank is like =E2=80=9Cfine okay that works.=E2=80=9D
+
+The bank is better off: It gets $300,000 for an asset worth $287,000. Are y=
+ou better off? Well, you have paid $300,000 to extinguish a $500,000 debt, =
+so you=E2=80=99ve saved a lot of money over the life of the loan,
+  [5]
+=C2=A0though on an after-tax time-value-of-money basis it=E2=80=99s not cle=
+ar that you=E2=80=99re better off. (You could have put the $300,000 in a sa=
+vings account earning 4.5%, etc.)
+The main benefit, for you, is=C2=A0if you want to move:=C2=A0Normally, if y=
+ou want to move, you=C2=A0have to pay off the mortgage on your old house by=
+ paying the full $500,000, and then, unless you can pay cash, you=C2=A0have=
+ to get a new mortgage on your new house, and=C2=A0that=C2=A0mortgage will =
+cost 8% or whatever. That=E2=80=99s why homeowners =E2=80=9Ccling to homes =
+they would otherwise sell in order to keep the mortgage=E2=80=9D: Moving wo=
+uld require paying off the old 3% mortgage and taking out a new 8% one. Tha=
+t would be a lot more palatable if you could pay off the old 3% mortgage at=
+ a huge discount reflecting its market value =E2=80=94=C2=A0if, effectively=
+, you could pay it off at an 8% yield.
+Obviously this product does not exist much, for several extremely good reas=
+ons:
+=09Your bank probably doesn=E2=80=99t actually own your mortgage: It probab=
+ly sliced it into mortgage-backed securities and sold them to investors, so=
+ there=E2=80=99s no one who owns your whole mortgage and can negotiate with=
+ you, even if it were in their best interests to do so.=09Even if your bank=
+ does own your mortgage, there=E2=80=99s a decent chance that it accounts f=
+or it on a held-to-maturity basis, meaning that, while the bank=C2=A0knows=
+=C2=A0the mortgage is only worth $287,000, it reflects it on its balance sh=
+eet at $500,000. (Here is a Business=C2=A0Insider story about how =E2=80=9C=
+US banks are sitting on an estimated $650 billion in unrealized losses on t=
+heir bond holdings.=E2=80=9D) Selling it to you for $300,000 would be an ec=
+onomic profit for the bank, but an accounting loss. And the bank cares a lo=
+t about accounting: It=E2=80=99s really important, for the bank, to be solv=
+ent on an accounting basis, and it will turn down economically profitable t=
+rades to stay that way.=09It would be bad for the banking/mortgage system i=
+f this were a thing. The way US mortgages mostly work is that you borrow at=
+ a fixed rate for 30 years, but you can prepay at any time, and most people=
+ do, because they move: Unless you actually stay in a house for 30 years, y=
+ou will end up paying off your mortgage early. So in this example, your ban=
+k knows that you will probably move eventually, so they=E2=80=99ll get thei=
+r $500,000 back before the 30 years are up, so taking just $300,000 now is =
+a bad trade. =E2=80=9CI=E2=80=99ll pay you $300,000 now for this mortgage s=
+o I can move,=E2=80=9D you say to the bank, =E2=80=9Cand if you say no then=
+ I will just stay here and pay my mortgage for 30 years=C2=A0 and you=E2=80=
+=99ll be worse off,=E2=80=9D but the bank knows you are bluffing. So they s=
+ay no, and you move anyway in two years, and they get their $500,000 back.
+
+Still if you could build a product like this
+  [6]
+=C2=A0it=E2=80=99s like a trillion-dollar market, get on that.
+
+ =20
+   =20
+      Sentiment analysis
+   =20
+ =20
+
+We   talked yesterday about how investors are increasingly employing robots=
+ to analyze corporate executives=E2=80=99 tone of voice on earnings calls. =
+But meanwhile corporate executives are analyzing analysts=E2=80=99 tone of =
+voice on earnings calls, and it is making them sad. Bloomberg=E2=80=99s   R=
+edd Brown reports:
+
+=E2=80=9CGood quarter,=E2=80=9D =E2=80=9Ccongratulations=E2=80=9D and simil=
+ar plaudits are drying up on quarterly earnings calls for S&P 500 companies=
+, setting up 2023 for the biggest such annual decline since the Great Reces=
+sion. The drop is even more pronounced when compared with the pandemic era,=
+ running 35% below the average pace in the previous three years. =E2=80=A6
+The slump in congratulatory remarks may point to increasingly concerned inv=
+estors heading into 2024 as the risk of inflation remains sticky, potential=
+ly putting more pressure on policymakers. ...
+And senior executives do care whether or not Wall Street research firms pat=
+ them on the back. =E2=80=9COne hundred percent, we take notice of it,=E2=
+=80=9D said Gina Mastantuono, chief financial officer of ServiceNow Inc. =
+=E2=80=9CWe are very mindful of feedback,=E2=80=9D she said. Santa Clara-ba=
+sed software provider ServiceNow has received over 150 plaudits over the la=
+st five years, the most among members of the S&P 500, though the amount of =
+kudos it received this quarter fell to seven from 12 a year ago.
+
+There is a chart, counting =E2=80=9Cgood quarter,=E2=80=9D =E2=80=9Cgreat q=
+uarter,=E2=80=9D =E2=80=9Ccongrats=E2=80=9D and =E2=80=9Ccongratulations=E2=
+=80=9D by quarter back through 2019. I wonder if anyone trades on this as a=
+ signal. Not, like, for the stock, but for macro trading; is a downturn in =
+=E2=80=9Cgreat quarter guys=E2=80=9D a leading indicator of recession? Of r=
+ecovery? Anyway I wrote yesterday that the obvious solution, for conference=
+ calls, is for investors and analysts to use robots to ask the questions, a=
+nd for companies to use robots to answer them. That probably solves this pr=
+oblem: Maybe the analyst-robots would not say =E2=80=9Cgreat quarter guys,=
+=E2=80=9D but the executive-robots would not be offended.
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+How Wall Street Makes Millions Selling   Car Loans Customers Can=E2=80=99t =
+Repay.=C2=A0Can  Barclays move beyond scandal and stagnation? Bankers Brace=
+ for   Smaller Bonuses With No Relief Seen Next Year.=C2=A0Texas Battles Wa=
+ll Street in Threat to State=E2=80=99s Muni Market. ICBC Flies Top Executiv=
+es to US in Race to   Contain Hack Fallout. Hacking Gang Behind Attack on L=
+argest Global Lender Says It   Got Ransom Payment. =E2=80=98Super=E2=80=99 =
+ multi-manager hedge funds are losing some of their superness. Investors Re=
+turn to  AT1 Bonds as UBS=E2=80=99s Sale Inspires Confidence. Almost no  Ru=
+ssian oil is sold below $60 cap, say western officials. With Interest Rates=
+ Above 9%,  Small Businesses Slam the Brakes. Elon Musk and Jane Fraser Amo=
+ng   CEOs Wooing Xi Jinping. =E2=80=9CPfizer and Merck accounted for half o=
+f the  reduction in fourth-quarter earnings estimates between Oct. 1 and ea=
+rly November.=E2=80=9D =E2=80=9CJohn Schmidtlein, Google=E2=80=99s main lit=
+igator,   visibly cringed when Murphy said the number.=E2=80=9D =E2=80=9CTh=
+e Department of Buildings has determined that Ray Dalio, the billionaire fo=
+under of Bridgewater, the world=E2=80=99s biggest hedge-fund firm, has cons=
+tructed an  illegal penthouse addition.=E2=80=9D
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Also I get some unearned moral bump for leaving. =E2=80=9CYou were at=
+ an evil place, but you left, so you must be less evil than the rest of the=
+m.=E2=80=9D
+
+
+  [2] J.D. Daniels has an essay on learning Brazilian jiu-jitsu that begins=
+ like this (slightly edited for family-friendliness): =E2=80=9CA couple of =
+years ago I joined one of those clubs where they teach you how to knock the=
+ [stuffing] out of other people. The first lesson is how to get the [stuffi=
+ng] knocked out of yourself. The first lesson is all there is.=E2=80=9D
+
+
+  [3] Disclosure: Including me.
+
+
+  [4] That is, PMT(.03/12,30*12,-500,000) =3D $2,108.02, and PV(.08/12,30*1=
+2,-2,108.02) =3D $287,288.35. Obviously in the real world time passed betwe=
+en the 3% rate and the 8% rate, and you=E2=80=99d have paid down a bit of y=
+our mortgage. Also, more importantly, this sort of present-value math over =
+the life of the loan is not how people actually think about mortgages, beca=
+use statistically the average life of a 30-year mortgage is much less than =
+30 years: Most people move or otherwise prepay their mortgages early, so it=
+ is rare for a mortgage to last 30 years, so its actual sensitivity to inte=
+rest rates is less than this math would suggest. All of this stuff is still=
+ directionally right if you assume that a mortgage has an average life of 7=
+ years or whatever, but the magnitudes are lower.
+
+
+  [5] You=E2=80=99ve saved $200,000 of principal ($500,000 minus $300,000),=
+ plus something like $259,000 of interest, versus paying for all 30 years.
+
+
+  [6] Defeasance? Like, you put $300,000 into Treasury Strips today that wi=
+ll come due in time to make all of the remaining mortgage payments for 30 y=
+ears? This has various problems, the main one being that you can=E2=80=99t =
+move: You generally get to pay off the mortgage over 30 years only if you s=
+tay in the house; otherwise you have to prepay it in full.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjv67c.5je8/3ca1df4f.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_59253318_1953938331.1699988750953
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+At Business Insider, Bethany McLean writes about an unusual problem that af=
+flicts her and me and a handful of other journalists, which is (d
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33367080.258416/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQxMTE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMTQmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB8c3b6ef2"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33367080.258416/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMzM2NzA4MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM2MjU0OTYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cB83c9be4a" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D33367080&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33625496&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Goldman</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">At Business Insider, <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/33367080.258416/aHR0cHM6Ly93d3cuYnVzaW5lc3N=
+pbnNpZGVyLmNvbS9yaXAtZ29sZG1hbi1zYWNocy13YWxsLXN0cmVldC1pbnZlc3RtZW50LWJhbm=
+stZGVhZC0yMDIzLTEx/607f07ceef4b8524a319a23cB8b95fa13" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> Bethany McLe=
+an writes</a> about an unusual problem that afflicts her and me and a handf=
+ul of other journalists, which is (disclosure!) that we used to work at Gol=
+dman Sachs Group Inc., and now we write about finance, and we try to be fai=
+r and thoughtful, but we still have some rooting interest in Goldman=E2=80=
+=99s mystique. Like:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">If Goldman does awesome brilliant thi=
+ngs, then we look smarter and more awesome by virtue of our association wit=
+h Goldman.</li>=09<li style=3D"margin-bottom: 5px;">If Goldman does evil cl=
+ever things, then that=E2=80=99s pretty good too? Like, one, everyone we me=
+et is like =E2=80=9Cooh you must be evil and clever,=E2=80=9D and I will de=
+finitely take that.<a class=3D"footnote-index" href=3D"#footnote-1" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: none !important; ba=
+ckground-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0Also though=C2=A0<em>as a journalist </em>I get a certain advanta=
+ge from that; everything I write about Goldman is extra-interesting if I am=
+, or might be, or could be interpreted as being, exposing Goldman=E2=80=99s=
+ evil secrets. I <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+3367080.258416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIw=
+MjMtMDQtMTEvZ29sZG1hbi1nb3Qtc29tZS1nb29kLXN3YXBzLWRlYWxzP2NtcGlkPUJCRDExMTQ=
+yM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV=
+90ZXJtPTIzMTExNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB5=
+6ea1f70" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">  wrote earlier this year</a> about Goldman getting in tro=
+uble with regulators for cleverly hosing some customers on some swaps trade=
+s. Embarrassing for Goldman! But fun for=C2=A0<em>me</em>. =E2=80=9CI do no=
+t want to be too generous about Goldman=E2=80=99s cleverness,=E2=80=9D I wr=
+ote, =E2=80=9Cor too ungenerous about its sharp elbows, but, just, if you t=
+hink that you=E2=80=99re pulling a fast one on Goldman Sachs, you might be =
+right, but maybe double-check to be sure?=E2=80=9D That is a humblebrag, I =
+think, or an evil-but-clever brag. Goldman=E2=80=99s cleverness,=C2=A0<em>a=
+nd its sharp elbows</em>, reflect=C2=A0<em>well=C2=A0</em>on its alumni.</l=
+i>=09<li style=3D"margin-bottom: 5px;">If Goldman does dumb tawdry things, =
+that doesn=E2=80=99t help us at all.</li>
+</ol>
+<p style=3D"margin: 16px 0;">McLean writes:</p>
+<blockquote><p style=3D"margin: 16px 0;">As the years passed, my short stin=
+t at Goldman continued to give me a sneaky sense of pride. I say "sneaky" b=
+ecause after the global financial crisis of 2008, criticism of the bank =E2=
+=80=94 some of it even written by me =E2=80=94 mounted dramatically, culmin=
+ating in Matt Taibbi's famous piece likening the firm to a "vampire squid."=
+ But here's the thing: The criticism always contained a trace of awe. There=
+ was a mystique to Goldman. It was cool and competent. Even when it lost hu=
+ndreds of millions on a trading bet gone awry, or intentionally screwed its=
+ own clients, well, that had a certain swagger to it.=C2=A0</p></blockquote=
+>
+<p style=3D"margin: 16px 0;">And now she is worried that Goldman has lost t=
+hat mystique and swagger. Now it is run by a <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/33367080.258416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNv=
+bS9vcGluaW9uL2FydGljbGVzLzIwMjMtMTAtMTcveW91LWNhbi10LXNlbGwtdHJlZXMtbm8tb25=
+lLWN1dHMtZG93bj9jbXBpZD1CQkQxMTE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJn=
+V0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMTQmdXRtX2NhbXBhaWduPW1vbmV5c=
+3R1ZmY/607f07ceef4b8524a319a23cBaf750e83" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  former DJ</a> whose pa=
+rtners and predecessor are constantly sniping at him. And its big strategic=
+ move in recent years has been to expand into consumer banking, which is ju=
+st less cool than high-stakes mergers and billion-dollar trading. Back in 2=
+021, I <a href=3D"https://link.mail.bloombergbusiness.com/click/33367080.25=
+8416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDItMT=
+YvZ29sZG1hbi1hZGRzLXJvYm8tYWR2aXNlci10by1tYXJjdXMtY29uc3VtZXItYnJhbmQ_Y21wa=
+WQ9QkJEMTExNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3Ns=
+ZXR0ZXImdXRtX3Rlcm09MjMxMTE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b85=
+24a319a23cBc69c21f3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  wrote sort of wishfully</a> about how, sure=
+, sure, it=C2=A0<em>looked=C2=A0</em>like they were just opening credit car=
+ds and savings accounts for retail customers, but maybe it was all an elabo=
+rate misdirection:</p>
+<blockquote><p style=3D"margin: 16px 0;">You could have two basic views of =
+Goldman Sachs Group Inc.=E2=80=99s Marcus consumer-banking product. One is =
+that it represents Goldman=E2=80=99s move into boring consumer banking. =E2=
+=80=A6 The other is that it is a trick, and Goldman is going to lure consum=
+ers and then use their money to do horrifying structured products. Disclosu=
+re, I used to work at Goldman, structuring horrifying products (I kid, they=
+ were fine, fine-ish), and part of me is always rooting for the trick answe=
+r. It would give me immense pleasure to report to you that Goldman was sell=
+ing synthetic tranches of its Apple-branded credit-card debt to unsuspectin=
+g German regional banks and then also betting against those tranches etc. e=
+tc. etc. you know all the tricks by now.</p></blockquote>
+<p style=3D"margin: 16px 0;">But, no, no trick. They were just doing consum=
+er banking. Also it didn=E2=80=99t work; Goldman lost money and has now ret=
+reated from that strategy. McLean:</p>
+<blockquote><p style=3D"margin: 16px 0;">Only after Goldman's fledgling ret=
+ail business had lost $3.8 billion did [chief executive officer and ex-DJ D=
+avid] Solomon finally agree to=C2=A0shut it down. The episode was a shockin=
+g failure on the part of a firm whose people pride themselves on being the =
+smartest, and whose core business is telling other businesses how to be sma=
+rt. "People always said:=C2=A0<em>You guys are greedy</em>," a former partn=
+er told me. "But they never thought we were incompetent."</p></blockquote>
+<p style=3D"margin: 16px 0;">Anyway McLean=E2=80=99s piece is much broader;=
+ it is about the decline in Goldman=E2=80=99s swagger and the causes for it=
+. We have <a href=3D"https://link.mail.bloombergbusiness.com/click/33367080=
+.258416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDg=
+tMjEvZXZlcnlvbmUtd2FudHMtYS1waWVjZS1vZi1zY3VscHRvcj9jbXBpZD1CQkQxMTE0MjNfTU=
+9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVyb=
+T0yMzExMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBe798a6c=
+2" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  talked around here</a> about how Goldman was, not all that l=
+ong ago, a private partnership, one whose managing partner was more of a fi=
+rst among equals than a real chief executive officer. Even after Goldman di=
+d its initial public offering in 1999, it maintained a =E2=80=9Cpartner=E2=
+=80=9D title, its CEOs all grew up in the partnership, and they still treat=
+ed their partners like partners. David Solomon, the first Goldman CEO who w=
+as not a pre-IPO partner, and the first Goldman CEO who was also a DJ, has =
+changed that. McLean:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Solomon, for his part, says he was told in no =
+uncertain terms that broad change was needed. "I had a board who gave me a =
+very, very clear message that they wanted the firm to operate more like a p=
+ublic company, with a mandate to perform for shareholders," he says. That r=
+equired transforming the culture of Goldman =E2=80=94 in ways that felt to =
+some partners like Solomon was adding insult on top of the injury to their =
+paychecks.<strong>=C2=A0</strong>"David has really tried to corporatize the=
+ firm," says one partner. "It's a big firm now, he feels, and it needs to h=
+ave more of a corporate structure, and less of a partnership structure." =
+=E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The old Goldman had a handful of businesses =
+=E2=80=94 fiefdoms really =E2=80=94 that invested the firm's own money in e=
+verything from real estate to Thai baht. But that often placed Goldman at o=
+dds with the interests of those whose assets it managed. When the firm foun=
+d a good investment, did it seize the opportunity for itself, or give it to=
+ its clients? What's more, the amount of capital the Federal Reserve began =
+to require Goldman to hold to offset any losses in its deals made the retur=
+ns negligible, and shareholders didn't like the unpredictability of the ear=
+nings. So Solomon sold off the firm's own investments =E2=80=94 some $60 bi=
+llion in total =E2=80=94 and focused on managing money on behalf of outside=
+ investors, from high-net-worth individuals to pension funds.</p>
+<p style=3D"margin: 16px 0;">The move sparked a lot of internal disruption =
+and dissent. "Not many would have had the guts to do it," says Horwitz, Bla=
+nkfein's former chief of staff. "Because senior people, they liked their bu=
+sinesses, and they had great track records." Another former senior executiv=
+e recalled that Blankfein recognized the need for Solomon's move. "He's pro=
+bably doing the right thing," Blankfein told the executive at the time. "Bu=
+t it's not the stuff I could have done." Blankfein, the executive adds, "wa=
+s too culturally embedded in the place" to kill the fiefdoms that his frien=
+ds had spent their careers building.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">If you are a Goldman shareholder or board memb=
+er, you might worry about a CEO who is =E2=80=9Ctoo culturally embedded in =
+the place=E2=80=9D: He might prioritize the culture (or his buddies=E2=80=
+=99 careers) over shareholder returns. On the other hand if you=E2=80=99re =
+a Goldman partner who has been there for 20 years, you might be offended by=
+ the idea of a CEO who is=C2=A0<em>not </em>=E2=80=9Ctoo culturally embedde=
+d.=E2=80=9D If you like the culture, there=E2=80=99s no such thing as=C2=A0=
+<em>too=C2=A0</em>culturally embeded.</p>
+<p style=3D"margin: 16px 0;">The other thing to notice in that block quote =
+is what Solomon is trying to do: Get rid of Goldman=E2=80=99s own investmen=
+ts and reshape Goldman as, basically, an=C2=A0 alternative asset manager. S=
+ome of that is obviously driven by post-crisis regulation; you=E2=80=99re n=
+ot supposed to do tons of prop investing anymore.</p>
+<p style=3D"margin: 16px 0;">But some of it is also driven by the cultural =
+shift in Wall Street more broadly. It used to be that the best thing to do =
+was work at an investment bank, and Goldman was the best investment bank. B=
+ut now the best thing to do is to work at a private equity firm, though the=
+ big private equity firms have diversified far enough that they are now mor=
+e accurately called =E2=80=9Casset managers=E2=80=9D or =E2=80=9Cinvestment=
+ firms.=E2=80=9D McLean:</p>
+<blockquote><p style=3D"margin: 16px 0;">In 2013, a few years after Goldman=
+ became a traditional bank instead of an investment house, I found myself a=
+t a reunion for former analysts, standing with two men who had been in my c=
+lass. One worked at KKR; the other worked at Goldman. Where would you rathe=
+r be now, the KKR guy asked with a laugh. At a heavily regulated bank like =
+Goldman? Or at a private-equity firm, where you can do anything you'd like,=
+ and make multiples more money?</p></blockquote>
+<p style=3D"margin: 16px 0;">The answer is =E2=80=9Cobviously KKR,=E2=80=9D=
+ and so Solomon=E2=80=99s move =E2=80=94=C2=A0besides the consumer banking,=
+ oops =E2=80=94=C2=A0is to make Goldman more like KKR, to focus on asset ma=
+nagement. On the other hand it=E2=80=99s not obvious that that works:</p>
+<blockquote><p style=3D"margin: 16px 0;">The strategic shift, necessary tho=
+ugh it was, came at an unnecessarily steep price. During Solomon's tenure, =
+more than 200 partners, including over 60 from asset management, have left =
+Goldman =E2=80=94 a significant talent drain at a time when it's trying to =
+compete with private-equity firms that have a big head start in building re=
+lationships with large institutional investors. Goldman's asset-management =
+clients, a former partner told Insider, "are frustrated with having the chu=
+rn." I've heard rumblings that the turmoil isn't over =E2=80=94 and these d=
+ays, rumblings seem to have an uncomfortable way of becoming fact. Earlier =
+this year, Goldman boosted the share of profits that investment teams can p=
+ocket for themselves, more closely aligning their compensation with that of=
+ the big private-equity firms. It's a tacit admission that Goldman cannot a=
+fford to keep losing so much talent in such a critical part of its business=
+.</p></blockquote>
+<p style=3D"margin: 16px 0;">It is just possible that it is easier, in 2023=
+, for a big private equity firm to compete with the universal banks than it=
+ is for the universal banks to compete with the private equity firms:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The private equity firms have financi=
+al and reputational momentum, so they can poach talent from the banks more =
+easily than the reverse.</li>=09<li style=3D"margin-bottom: 5px;">The regul=
+ation of the banks is much stricter than the regulation of the private equi=
+ty firms, even in not-really-banking businesses where they compete.</li>=09=
+<li style=3D"margin-bottom: 5px;">If you are a private equity firm, you can=
+ mainly focus on questions like =E2=80=9Cwhat can we do that will make us t=
+he most money,=E2=80=9D while the big banks have lots of risky and/or unpro=
+fitable legacy client-servicey businesses. Plus sometimes they expand into =
+consumer banking.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Also though the big private equity firms just =
+=E2=80=A6=C2=A0have more of a partnership culture? Just in the simple liter=
+al sense that the big private equity firms typically have a complex corpora=
+te structure in which they manage funds for clients, and they charge fees f=
+or that management, and a set portion of the fees goes to a partnership ent=
+ity where they are shared by employees rather than the shareholders. They h=
+ave retained their pre-IPO practices of making a lot of money, divvying it =
+up among themselves, and then letting the shareholders have what=E2=80=99s =
+left. I suppose Goldman=E2=80=99s current=C2=A0approach is nicer for the sh=
+areholders, but you can see why Goldman=E2=80=99s partners prefer the old o=
+ne.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33367080.258416/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzM2NzA4MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM2MjU0OTYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC36656ca4" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33367080&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33625496&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33367080.258416/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMzM2NzA4MCZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzM2MjU0OTYmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD36656ca4" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D33367080&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D33625496&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Is jiu-jitsu securities fraud?</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Oh, <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/33367080.258416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjEtMDItMDMvZ29sZG1hbi1zYWNocy1nb2VzLXRvLXN1cHJlbWUtY291cnQ=
+taGVkZ2UtZnVuZHMtd29uLW9uLWdhbWVzdG9wLWtrcG9lNndzP2NtcGlkPUJCRDExMTQyM19NT0=
+5FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtP=
+TIzMTExNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB88fac911=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">you know</a>:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Every bad thing that happens to a pub=
+lic company is also securities fraud.</li>=09<li style=3D"margin-bottom: 5p=
+x;">Getting beaten up is bad.</li>=09<li style=3D"margin-bottom: 5px;">
+<em>Mark Zuckerberg=C2=A0</em>getting beat up is probably bad for Meta Plat=
+forms Inc. =E2=80=9CIf Mr. Zuckerberg were to become unavailable for any re=
+ason,=E2=80=9D <a href=3D"https://link.mail.bloombergbusiness.com/click/333=
+67080.258416/aHR0cHM6Ly93d3cuc2VjLmdvdi9peD9kb2M9L0FyY2hpdmVzL2VkZ2FyL2RhdG=
+EvMTMyNjgwMS8wMDAxMzI2ODAxMjMwMDAxMDMvbWV0YS0yMDIzMDkzMC5odG0jaWQyOGY2YTk2Z=
+mVmODRiZTI4YzkyNTYwMTFiZWI4NTJjXzEyMQ/607f07ceef4b8524a319a23cBaa67217e" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">says Meta in its securities filings</a>,=C2=A0=E2=80=9Cthere could be=
+ a material adverse impact on our operations.=E2=80=9D For instance if he g=
+ot beat up real bad.</li>=09<li style=3D"margin-bottom: 5px;">Therefore Mar=
+k Zuckerberg getting beaten up is securities fraud.</li>
+</ol>
+<p style=3D"margin: 16px 0;">And since Zuckerberg enjoys Brazilian jiu-jits=
+u, which significantly elevates his risk of getting beaten up,<a class=3D"f=
+ootnote-index" href=3D"#footnote-2" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: none !important; background-color: transparent !impor=
+tant; display: inline-block;">
+<span>[2]</span>
+</a>=C2=A0there are arguable securities disclosure concerns. He recently to=
+re a ligament in training and got surgery for it, and Bloomberg=E2=80=99s <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/33367080.258416/aHR=
+0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjMtMTEtMTAvc2hvdW=
+xkLW1ldGEtZGlzY2xvc2UtbWFyay16dWNrZXJiZXJnLXMtY2FnZS1maWdodGluZy1yaXNrP2Ntc=
+GlkPUJCRDExMTQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdz=
+bGV0dGVyJnV0bV90ZXJtPTIzMTExNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b=
+8524a319a23cB611895a7" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">Alexandra Barinka wrote last Friday</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">There is a serious consideration here about wh=
+ether Meta Platforms Inc.=E2=80=99s co-founder, CEO and controlling shareho=
+lder has a duty to disclose his MMA [<em>mixed martial arts</em>] activitie=
+s to investors, particularly if formal contests are in his future. What if =
+it=E2=80=99s worse next time? Zuckerberg posted about his surgery on Instag=
+ram, and there was no filing or company statement.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CIt=E2=80=99s a question of materialit=
+y,=E2=80=9D said Bryan Westhoff, an attorney at Polsinelli PC. =E2=80=9CIs =
+it material to a reasonable investor to know what the executives are doing?=
+ Is there danger and uniqueness to it? MMA is something that most of us don=
+=E2=80=99t do."</p>
+<p style=3D"margin: 16px 0;">It=E2=80=99s not that unreasonable to expect Z=
+uckerberg will get injured again one day. About three in five MMA fights ha=
+d at least one injury, according to an article published in the Orthopaedic=
+ Journal of Sports Medicine that reviewed 503 amateur and professional cont=
+ests in 2018 and 2019. Zuckerberg=E2=80=99s injury was just during training=
+. He tore a ligament in his knee, a joint that one could argue isn=E2=80=99=
+t necessary to run a social media company (especially if he=E2=80=99s spend=
+ing time in his virtual reality metaverse). But what about his brain? Head =
+injuries appear to be higher risk if he doesn=E2=80=99t win his fights; of =
+losers=E2=80=99 injuries in the Journal=E2=80=99s review, 17% were concussi=
+ons.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Look, nobody is more into =E2=80=9Ceverything =
+is securities fraud=E2=80=9D than me, but I can=E2=80=99t=C2=A0<em>really=
+=C2=A0</em>imagine Meta getting sued for this if Zuckerberg gets a concussi=
+on. Everyone takes lots of risks in life, sometimes accidents happen to CEO=
+s, and those accidents=C2=A0<em>probably=C2=A0</em>aren=E2=80=99t actually =
+fraud. (Not legal advice!)</p>
+<p style=3D"margin: 16px 0;">Still, why=C2=A0<em>hasn=E2=80=99t=C2=A0</em>M=
+eta added a risk factor for this? Not because it is legally required, I mea=
+n, but just because it would be fun for the lawyers? Add a sentence to the =
+risk factors like =E2=80=9Cour CEO likes to go to gyms to get punched in th=
+e face, and if he gets punched really hard in the wrong part of his face th=
+en we may be unable to execute on our product roadmap=E2=80=9D? Surely writ=
+ing that sentence is more fun for Meta=E2=80=99s lawyers than whatever else=
+ they=E2=80=99ve got going on in their day, even if it is technically less =
+important.</p>
+<p style=3D"margin: 16px 0;">The <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/33367080.258416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9u=
+L2FydGljbGVzLzIwMjAtMDEtMjcvZXZlcnl0aGluZy1taWdodC1iZS1pbnNpZGVyLXRyYWRpbmc=
+_Y21waWQ9QkJEMTExNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW=
+5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ce=
+ef4b8524a319a23cB53b5eb7a" itemprop=3D"StoryLink" itemscope=3D"itemscope" t=
+arget=3D"_blank" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: solid; background-color: #ccc;">corollary</a> to =E2=80=9Ceverything is =
+securities fraud=E2=80=9D is that <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33367080.258416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMjEtMDQtMjkvaWdub3JpbmctdGhlLXJ1bGVzLXNvbWV0aW1lcy13b3Jrcy=
+1mb3ItZWxvbi1tdXNrP2NtcGlkPUJCRDExMTQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1ha=
+WwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTExNCZ1dG1fY2FtcGFpZ249bW9u=
+ZXlzdHVmZg/607f07ceef4b8524a319a23cB1fcf01fb" itemprop=3D"StoryLink" itemsc=
+ope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">everything is also in=
+sider trading</a>, and there are obvious applications here. What if you sho=
+w up at a Brazilian jiu-jitsu tournament to find that you are fighting Mark=
+ Zuckerberg? If you knock him out, can you run to your Robinhood account an=
+d short Meta stock before the ambulance gets there? (Can you short the stoc=
+k=C2=A0<em>before=C2=A0</em>the match if you just know that you=E2=80=99re =
+huge and will knock him out? Do you then fight dirty?) Brazilian jiu-jitsu =
+tournaments now have a unique ability to=C2=A0<em>create=C2=A0</em>material=
+ nonpublic information about Meta stock; what if someone uses it?</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Mortgage mark-to-market</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">At the Wall Street Journal, James Mackintosh <=
+a href=3D"https://link.mail.bloombergbusiness.com/click/33367080.258416/aHR=
+0cHM6Ly93d3cud3NqLmNvbS9maW5hbmNlL2ludmVzdGluZy90aGUtdHJpbGxpb24tZG9sbGFyLX=
+dpbi1oaWRpbmctaW4teW91ci1tb3J0Z2FnZS1hZTFjZDIxZT9tb2Q9aHBfbGVhZF9wb3Mz/607f=
+07ceef4b8524a319a23cB394290f9" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">has a fun column</a> about the fact =
+that a lot of US homeowners<a class=3D"footnote-index" href=3D"#footnote-3"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: none !importa=
+nt; background-color: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a> are sitting on big mark-to-market gains on their home mortgages. If yo=
+u borrowed $500,000 to buy a house at 3% interest for 30 years, and then mo=
+rtgage rates went up to 8%, that mortgage is now arguably worth just $287,0=
+00.<a class=3D"footnote-index" href=3D"#footnote-4" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: none !important; background-color: tr=
+ansparent !important; display: inline-block;">
+<span>[4]</span>
+</a>=C2=A0Your debt went from $500,000 to $287,000, so your net worth incre=
+ased by $223,000. Mackintosh writes:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Apply the logic used in the market, and there=
+=E2=80=99s been a transfer of well over $1 trillion in wealth from banks an=
+d bondholders to borrowers as rates have soared=E2=80=94a gain in wealth wi=
+dely ignored by the beneficiaries. ...</p>
+<p style=3D"margin: 16px 0;">In a world without financial frictions, the av=
+erage borrower would see that they were tens of thousands of dollars richer=
+ as a result. Those who secured a sub-3% rate for the full 30 years on an a=
+verage-size mortgage are more than $100,000 better off.</p>
+<p style=3D"margin: 16px 0;">The problem: In the real world, the wealth gai=
+n doesn=E2=80=99t show up anywhere. That=E2=80=99s already changed the beha=
+vior of homeowners, who cling to homes they would otherwise sell in order t=
+o keep the mortgage. It also means it makes sense to keep both debt and sav=
+ings for financial=E2=80=94not just tax=E2=80=94reasons, because the saving=
+s earn more than you pay on the mortgage.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">As a former financial engineer I find this sit=
+uation a bit offensive: There=E2=80=99s $1 trillion of newly created (well,=
+ transferred) value, and nobody can do anything about it? Why isn=E2=80=99t=
+ someone building a product? We talked a while back about <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/33367080.258416/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDktMTMveWllbGRzdHJlZXQtbWlzc2=
+VkLWEtYm9hdD9jbXBpZD1CQkQxMTE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0b=
+V9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzExMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1=
+ZmY/607f07ceef4b8524a319a23cB7251425c" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;"> assumable mortgages</a>, wh=
+ich are one way to unlock this value, but which are not broadly available. =
+But really the tempting product is:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">You have a $500,000 mortgage that is =
+now worth $287,000.</li>=09<li style=3D"margin-bottom: 5px;">You go to your=
+ bank and say =E2=80=9CI=E2=80=99ll give you $300,000 for it.=E2=80=9D</li>=
+=09<li style=3D"margin-bottom: 5px;">The bank is like =E2=80=9Cfine okay th=
+at works.=E2=80=9D</li>
+</ol>
+<p style=3D"margin: 16px 0;">The bank is better off: It gets $300,000 for a=
+n asset worth $287,000. Are you better off? Well, you have paid $300,000 to=
+ extinguish a $500,000 debt, so you=E2=80=99ve saved a lot of money over th=
+e life of the loan,<a class=3D"footnote-index" href=3D"#footnote-5" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: none !important; ba=
+ckground-color: transparent !important; display: inline-block;">
+<span>[5]</span>
+</a>=C2=A0though on an after-tax time-value-of-money basis it=E2=80=99s not=
+ clear that you=E2=80=99re better off. (You could have put the $300,000 in =
+a savings account earning 4.5%, etc.)</p>
+<p style=3D"margin: 16px 0;">The main benefit, for you, is=C2=A0<em>if you =
+want to move:=C2=A0</em>Normally, if you want to move, you=C2=A0have to pay=
+ off the mortgage on your old house by paying the full $500,000, and then, =
+unless you can pay cash, you=C2=A0have to get a new mortgage on your new ho=
+use, and=C2=A0<em>that=C2=A0</em>mortgage will cost 8% or whatever. That=E2=
+=80=99s why homeowners =E2=80=9Ccling to homes they would otherwise sell in=
+ order to keep the mortgage=E2=80=9D: Moving would require paying off the o=
+ld 3% mortgage and taking out a new 8% one. That would be a lot more palata=
+ble if you could pay off the old 3% mortgage at a huge discount reflecting =
+its market value =E2=80=94=C2=A0if, effectively, you could pay it off at an=
+ 8% yield.</p>
+<p style=3D"margin: 16px 0;">Obviously this product does not exist much, fo=
+r several extremely good reasons:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Your bank probably doesn=E2=80=99t ac=
+tually own your mortgage: It probably sliced it into mortgage-backed securi=
+ties and sold them to investors, so there=E2=80=99s no one who owns your wh=
+ole mortgage and can negotiate with you, even if it were in their best inte=
+rests to do so.</li>=09<li style=3D"margin-bottom: 5px;">Even if your bank =
+does own your mortgage, there=E2=80=99s a decent chance that it accounts fo=
+r it on a held-to-maturity basis, meaning that, while the bank=C2=A0<em>kno=
+ws=C2=A0</em>the mortgage is only worth $287,000, it reflects it on its bal=
+ance sheet at $500,000. (Here is <a href=3D"https://link.mail.bloombergbusi=
+ness.com/click/33367080.258416/aHR0cHM6Ly9tYXJrZXRzLmJ1c2luZXNzaW5zaWRlci5j=
+b20vbmV3cy9ib25kcy9ib25kLW1hcmtldC1jcmFzaC1iYW5rcy11bnJlYWxpemVkLWxvc3Nlcy1=
+0cmVhc3VyeXMtcmF0ZXMtYmFsYW5jZS1zaGVldC0yMDIzLTEx/607f07ceef4b8524a319a23cB=
+59814a03" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">a Business=C2=A0Insider story</a> about how =E2=80=9CUS b=
+anks are sitting on an estimated $650 billion in unrealized losses on their=
+ bond holdings.=E2=80=9D) Selling it to you for $300,000 would be an econom=
+ic profit for the bank, but an accounting loss. And the bank cares a lot ab=
+out accounting: It=E2=80=99s really important, for the bank, to be solvent =
+on an accounting basis, and it will turn down economically profitable trade=
+s to stay that way.</li>=09<li style=3D"margin-bottom: 5px;">It would be ba=
+d for the banking/mortgage system if this were a thing. The way US mortgage=
+s mostly work is that you borrow at a fixed rate for 30 years, but you can =
+prepay at any time, and most people do, because they move: Unless you actua=
+lly stay in a house for 30 years, you will end up paying off your mortgage =
+early. So in this example, your bank knows that you will probably move even=
+tually, so they=E2=80=99ll get their $500,000 back before the 30 years are =
+up, so taking just $300,000 now is a bad trade. =E2=80=9CI=E2=80=99ll pay y=
+ou $300,000 now for this mortgage so I can move,=E2=80=9D you say to the ba=
+nk, =E2=80=9Cand if you say no then I will just stay here and pay my mortga=
+ge for 30 years=C2=A0 and you=E2=80=99ll be worse off,=E2=80=9D but the ban=
+k knows you are bluffing. So they say no, and you move anyway in two years,=
+ and they get their $500,000 back.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Still if you could build a product like this<a=
+ class=3D"footnote-index" href=3D"#footnote-6" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: none !important; background-color: transpa=
+rent !important; display: inline-block;">
+<span>[6]</span>
+</a>=C2=A0it=E2=80=99s like a trillion-dollar market, get on that.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Sentiment analysis</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">We <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/33367080.258416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL=
+2FydGljbGVzLzIwMjMtMTEtMTMvc29tZS1zdGFydHVwcy1uZWVkLWEtc2Vjb25kLWNoYW5jZT9j=
+bXBpZD1CQkQxMTE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV=
+3c2xldHRlciZ1dG1fdGVybT0yMzExMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef=
+4b8524a319a23cB36b8853e" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">  talked yesterday</a> about how investors=
+ are increasingly employing robots to analyze corporate executives=E2=80=99=
+ tone of voice on earnings calls. But meanwhile corporate executives are an=
+alyzing analysts=E2=80=99 tone of voice on earnings calls, and it is making=
+ them sad. Bloomberg=E2=80=99s <a href=3D"https://link.mail.bloombergbusine=
+ss.com/click/33367080.258416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydG=
+ljbGVzLzIwMjMtMTEtMTQvLWdyZWF0LXF1YXJ0ZXItZ3V5cy1mYWRlcy1mb3ItY2Vvcy1vbi10b=
+3VnaGVyLWVhcm5pbmdzLWNhbGxzP2NtcGlkPUJCRDExMTQyM19NT05FWVNUVUZGJnV0bV9tZWRp=
+dW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTExNCZ1dG1fY2FtcGF=
+pZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB79c675e2" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;">  Redd Brown=
+ reports</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">=E2=80=9CGood quarter,=E2=80=9D =E2=80=9Ccongr=
+atulations=E2=80=9D and similar plaudits are drying up on quarterly earning=
+s calls for S&amp;P 500 companies, setting up 2023 for the biggest such ann=
+ual decline since the Great Recession. The drop is even more pronounced whe=
+n compared with the pandemic era, running 35% below the average pace in the=
+ previous three years. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The slump in congratulatory remarks may point =
+to increasingly concerned investors heading into 2024 as the risk of inflat=
+ion remains sticky, potentially putting more pressure on policymakers. ...<=
+/p>
+<p style=3D"margin: 16px 0;">And senior executives do care whether or not W=
+all Street research firms pat them on the back. =E2=80=9COne hundred percen=
+t, we take notice of it,=E2=80=9D said Gina Mastantuono, chief financial of=
+ficer of ServiceNow Inc. =E2=80=9CWe are very mindful of feedback,=E2=80=9D=
+ she said. Santa Clara-based software provider ServiceNow has received over=
+ 150 plaudits over the last five years, the most among members of the S&amp=
+;P 500, though the amount of kudos it received this quarter fell to seven f=
+rom 12 a year ago.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">There is a chart, counting =E2=80=9Cgood quart=
+er,=E2=80=9D =E2=80=9Cgreat quarter,=E2=80=9D =E2=80=9Ccongrats=E2=80=9D an=
+d =E2=80=9Ccongratulations=E2=80=9D by quarter back through 2019. I wonder =
+if anyone trades on this as a signal. Not, like, for the stock, but for mac=
+ro trading; is a downturn in =E2=80=9Cgreat quarter guys=E2=80=9D a leading=
+ indicator of recession? Of recovery? Anyway I wrote yesterday that the obv=
+ious solution, for conference calls, is for investors and analysts to use r=
+obots to ask the questions, and for companies to use robots to answer them.=
+ That probably solves this problem: Maybe the analyst-robots would not say =
+=E2=80=9Cgreat quarter guys,=E2=80=9D but the executive-robots would not be=
+ offended.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">How Wall Street Makes Millions Selling <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/33367080.258416/aHR0cHM6L=
+y93d3cuYmxvb21iZXJnLmNvbS9ncmFwaGljcy8yMDIzLXdhbGwtc3RyZWV0LXN1YnByaW1lLWNh=
+ci1sb2Fucy8_Y21waWQ9QkJEMTExNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1=
+fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTE0JnV0bV9jYW1wYWlnbj1tb25leXN0dW=
+Zm/607f07ceef4b8524a319a23cBfdb1a3ff" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;">  Car Loans</a> Customers Can=
+=E2=80=99t Repay.=C2=A0Can <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/33367080.258416/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvZDE5OTZjZjYtMT=
+gxOS00OWNhLTkwOTQtMDVjNDVkYzkwMzhj/607f07ceef4b8524a319a23cB41fc31cd" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;"> Barclays</a> move beyond scandal and stagnation? Bankers Brace for <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/33367080.258416/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMTQvYmFua2Vycy1ic=
+mFjZS1mb3Itc21hbGxlci1ib251c2VzLXdpdGgtbm8tcmVsaWVmLXNlZW4tbmV4dC15ZWFyP2Nt=
+cGlkPUJCRDExMTQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXd=
+zbGV0dGVyJnV0bV90ZXJtPTIzMTExNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4=
+b8524a319a23cB5cb38d64" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">  Smaller Bonuses</a> With No Relief Seen N=
+ext Year.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/333=
+67080.258416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMT=
+EtMTQvdGV4YXMtdHVybnMtYmF0dGxlLW92ZXItbXVuaS1ib25kcy1pbnRvLXdhbGwtc3RyZWV0L=
+XNob3dkb3duP2NtcGlkPUJCRDExMTQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRt=
+X3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTExNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHV=
+mZg/607f07ceef4b8524a319a23cBc9620468" itemprop=3D"StoryLink" itemscope=3D"=
+itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">Texas Battles Wall Street</a=
+> in Threat to State=E2=80=99s Muni Market. ICBC Flies Top Executives to US=
+ in Race to <a href=3D"https://link.mail.bloombergbusiness.com/click/333670=
+80.258416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtM=
+TQvaWNiYy1mbGllcy10b3AtZXhlY3V0aXZlcy10by11cy1pbi1yYWNlLXRvLWNvbnRhaW4taGFj=
+ay1mYWxsb3V0P2NtcGlkPUJCRDExMTQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXR=
+tX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMTExNCZ1dG1fY2FtcGFpZ249bW9uZXlzdH=
+VmZg/607f07ceef4b8524a319a23cB100a3429" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">  Contain Hack Fallout</a>.=
+ Hacking Gang Behind Attack on Largest Global Lender Says It <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/33367080.258416/aHR0cHM6Ly93d3cu=
+Ymxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMTMvaGFja2luZy1nYW5nLXNheXM=
+taXQtd2FzLXBhaWQtaW4taWNiYy1yYW5zb213YXJlLWF0dGFjaz9jbXBpZD1CQkQxMTE0MjNfTU=
+9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVyb=
+T0yMzExMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB39e9efb=
+1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  Got Ransom Payment</a>. =E2=80=98Super=E2=80=99 <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/33367080.258416/aHR0cHM6Ly93d3=
+cuZnQuY29tL2NvbnRlbnQvOWI2MmVhNTEtZGJiNC00MzI5LWFlNjItNTk2ZGQzOGRkZjNm/607f=
+07ceef4b8524a319a23cBc9b680e8" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> multi-manager hedge funds</a> are l=
+osing some of their superness. Investors Return to <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/33367080.258416/aHR0cHM6Ly93d3cud3NqLmNvbS=
+9maW5hbmNlL2ludmVzdGluZy9pbnZlc3RvcnMtcmV0dXJuLXRvLWF0MS1ib25kcy1hcy11YnNzL=
+XNhbGUtaW5zcGlyZXMtY29uZmlkZW5jZS1iMGU5ZjNhZT9tb2Q9aXRwX3dzag/607f07ceef4b8=
+524a319a23cB9fde0250" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;"> AT1 Bonds</a> as UBS=E2=80=99s Sale Inspires=
+ Confidence. Almost no <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/33367080.258416/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMDllOGVlMTQtYTY2NS=
+00NjQ0LThlYzUtNTk3MjA3MDQ2M2Fk/607f07ceef4b8524a319a23cBedbb4f9d" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Russian oil</a> is sold below $60 cap, say western officials. With Interes=
+t Rates Above 9%, <a href=3D"https://link.mail.bloombergbusiness.com/click/=
+33367080.258416/aHR0cHM6Ly93d3cud3NqLmNvbS9idXNpbmVzcy9lbnRyZXByZW5ldXJzaGl=
+wL3dpdGgtaW50ZXJlc3QtcmF0ZXMtYWJvdmUtOS1zbWFsbC1idXNpbmVzc2VzLXNsYW0tdGhlLW=
+JyYWtlcy00OTQ0YTA3NT9tb2Q9aHBfbGVhZF9wb3M1/607f07ceef4b8524a319a23cB203ec21=
+5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Small Businesses</a> Slam the Brakes. Elon Musk and Jane Fras=
+er Among <a href=3D"https://link.mail.bloombergbusiness.com/click/33367080.=
+258416/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMTQv=
+bXVzay1jaXRpLXMtZnJhc2VyLWFtb25nLXRoZS1jZW9zLXdvb2luZy1jaGluYS1zLXhpLWF0LWF=
+wZWM_Y21waWQ9QkJEMTExNDIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cm=
+NlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMxMTE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cBc454c67f" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">  CEOs Wooing Xi Jinping</a>. =E2=80=
+=9CPfizer and Merck accounted for half of the <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/33367080.258416/aHR0cHM6Ly93d3cud3NqLmNvbS9maW5=
+hbmNlL3N0b2Nrcy9lYXJuaW5ncy1lc3RpbWF0ZXMtYXJlLWZhbGxpbmctdGhlc2UtdHdvLWNvbX=
+Bhbmllcy1hcmUtc2hvdWxkZXJpbmctdGhlLWJsYW1lLTRiY2I2OGYxP21vZD1ocF9sZWFkX3Bvc=
+zE/607f07ceef4b8524a319a23cB7f9ff214" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> reduction in fourth-quarter =
+earnings estimates</a> between Oct. 1 and early November.=E2=80=9D =E2=80=
+=9CJohn Schmidtlein, Google=E2=80=99s main litigator, <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/33367080.258416/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMTEtMTMvYXBwbGUtZ2V0cy0zNi1vZi1nb29nbG=
+UtcmV2ZW51ZS1mcm9tLXNlYXJjaC1kZWFsLXdpdG5lc3Mtc2F5cz9jbXBpZD1CQkQxMTE0MjNfT=
+U9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVy=
+bT0yMzExMTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBa64297=
+19" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  visibly cringed</a> when Murphy said the number.=E2=80=9D =
+=E2=80=9CThe Department of Buildings has determined that Ray Dalio, the bil=
+lionaire founder of Bridgewater, the world=E2=80=99s biggest hedge-fund fir=
+m, has constructed an <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/33367080.258416/aHR0cHM6Ly90aGV2aWxsYWdlc3VuLmNvbS9jaXR5LXB1bGxzLXBlcm1=
+pdC1mb3ItaWxsZWdhbC1zb2hvLXBlbnRob3VzZS1hcy13ZWFsdGh5LXdlc3QtYnJvYWR3YXktbm=
+VpZ2hib3JzLWJhdHRsZS1vbg/607f07ceef4b8524a319a23cBac922a07" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> illega=
+l penthouse addition</a>.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/33367080.258416/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cBd7db1fcc" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/33367080.258416/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB637b50d9" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Also I get some unearned moral bump for le=
+aving. =E2=80=9CYou were at an evil place, but you left, so you must be les=
+s evil than the rest of them.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] J.D. Daniels has <a href=3D"https://link.m=
+ail.bloombergbusiness.com/click/33367080.258416/aHR0cHM6Ly93d3cubnl0aW1lcy5=
+jb20vMjAxNi8xMi8yNy9ib29rcy9yZXZpZXctai1kLWRhbmllbHMtY29ycmVzcG9uZGVuY2UuaH=
+RtbA/607f07ceef4b8524a319a23cB2df8d385" itemprop=3D"StoryLink" itemscope=3D=
+"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;">an essay on learning Brazil=
+ian jiu-jitsu</a> that begins like this (slightly edited for family-friendl=
+iness): =E2=80=9CA couple of years ago I joined one of those clubs where th=
+ey teach you how to knock the [stuffing] out of other people. The first les=
+son is how to get the [stuffing] knocked out of yourself. The first lesson =
+is all there is.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] Disclosure: Including me.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] That is, PMT(.03/12,30*12,-500,000) =3D $2=
+,108.02, and PV(.08/12,30*12,-2,108.02) =3D $287,288.35. Obviously in the r=
+eal world time passed between the 3% rate and the 8% rate, and you=E2=80=99=
+d have paid down a bit of your mortgage. Also, more importantly, this sort =
+of present-value math over the life of the loan is not how people actually =
+think about mortgages, because statistically the average life of a 30-year =
+mortgage is much less than 30 years: Most people move or otherwise prepay t=
+heir mortgages early, so it is rare for a mortgage to last 30 years, so its=
+ actual sensitivity to interest rates is less than this math would suggest.=
+ All of this stuff is still directionally right if you assume that a mortga=
+ge has an average life of 7 years or whatever, but the magnitudes are lower=
+.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] <em>You=E2=80=99ve saved $200,000 of princ=
+ipal ($500,000 minus $300,000), plus something like $259,000 of interest, v=
+ersus paying for all 30 years.</em></p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] Defeasance? Like, you put $300,000 into Tr=
+easury Strips today that will come due in time to make all of the remaining=
+ mortgage payments for 30 years? This has various problems, the main one be=
+ing that you can=E2=80=99t move: You generally get to pay off the mortgage =
+over 30 years only if you stay in the house; otherwise you have to prepay i=
+t in full.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33367080.258416/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB642dc2a3" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33367080.258416/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cBc2ac082b" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33367080.258416/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB389d965c" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33367080.258416/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB55383fbe" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/33367080.258416/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBb81324f4" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/33367080.2584=
+16/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cBf9dfc085" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/33367080.258416/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCca1e4055" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/33367080.258416/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB4e8f0b8f" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/33367080.258416/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBd5117f55" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33367080.258416/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBf=
+851795d" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/33367080.258416/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBd=
+4fc8c24" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cjv67c.5je8/3ca1df4f.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_59253318_1953938331.1699988750953--
+

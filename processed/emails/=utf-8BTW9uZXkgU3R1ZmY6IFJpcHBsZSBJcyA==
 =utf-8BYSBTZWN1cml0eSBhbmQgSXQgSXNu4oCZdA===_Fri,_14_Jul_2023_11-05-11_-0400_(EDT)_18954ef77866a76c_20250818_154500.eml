@@ -1,0 +1,2308 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:f209:b0:130:da8c:7dd9 with SMTP id jj9csp1366082rwb;
+        Fri, 14 Jul 2023 08:05:27 -0700 (PDT)
+X-Received: by 2002:a5d:4145:0:b0:314:11f3:ca94 with SMTP id c5-20020a5d4145000000b0031411f3ca94mr4566404wrq.41.1689347127062;
+        Fri, 14 Jul 2023 08:05:27 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1689347127; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=KTRbMWLKyVbQfEv+EPc6m4wU+s65GCR3OA0em9h/xD5xhsBic8zvCnGM7v+QL6qke+
+         mgLNpgaCtTjdYk4D5Mo2PYPiLQaMwLPloYMFoGOZbROf5ooXorUYX6SledIVgdECX5Vj
+         PPDsISO5ACUFSy+FYZL99tJsWFByauPAI1dVYSM6Y2Jrn3yS6NwLX+b/AgS7rYVUpypW
+         EfiFiBtHzc7MODvZICY5iiCPJE/0mLlXKGkxvtonP/zqxe+gikkIHjvEWzurY//AEBt2
+         7pLZDIFuSIHf/iMrbyvVF76YdrIgNOpGydQVZ9PLbjAIR7nPWZYjbtEu16oDpoWyAVw8
+         cvRg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=3Bqn0A/VYCOtDrvvU3sFZzeFyCZnobn5xfTsSI9B18U=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=MaydPrk0T7qjNrPpbgPGCvk1Ydn1aPCeOwPJAi0eH2bW68o+pcV/ROYH6/tVrhITLs
+         +ntK3Weah/gWV0mKa7WDXYWZWUb5PbTAmCZd2o5jp8tsrB39F5MilbSVgprkjGQWZN4q
+         L4dAnUxQXozuRlJLdDKraPRbUWx6Og5Y0ji+u3iai0LKp1kBBjcbOtND3xSwrjRTJu0C
+         FS2tREDbEYv1FEZM0Pw9op7iJY2pyS8ibShvwkor7bE37elZBOAG5VFVcWDAH/PMcM3z
+         4/tQ4btvB/CrO1PqLWv2dOGJ8yGokW8q1+sffoKEUofyhY4BbrgkKV/zRs/ToWERYI2k
+         k0hg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=DFzQPhrJ;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id d5-20020adfa345000000b003143df2ded3sor4167701wrb.10.2023.07.14.08.05.26
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Fri, 14 Jul 2023 08:05:27 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=DFzQPhrJ;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1689347126; x=1691939126;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-forwarded-for:x-forwarded-to
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=3Bqn0A/VYCOtDrvvU3sFZzeFyCZnobn5xfTsSI9B18U=;
+        b=FzMJbsmf5j9f3X+xZt9a96Iz6X04gW+kmFlhMU9T0vVf90k4N0tm/wVTw3aJgTZOHU
+         Qma177PSHJwiC1kLLA5BfStsGWccAjpD7LeoOP+AIoP90FHPYhUKIY58pWTmVdUXinA2
+         rNu+/FCJ5fzIGW2ORp0qBJEiq6nTDN+6VbGKYzq7kBbGsJazLkAPhufx+6zo5wfL6A0O
+         d9hQoDtSMAe+dA0MxKCkk7lyc5sMos/H/wHRmLM/ZbXLR9mbRrBybcXyY0J+3CXeVHA8
+         ydExT76KrM2DOIN9MF/SfwGtwuFcrYtWbcT4jBLSb7vQMaXoGGiZG2NCXN3oxREttipH
+         RloA==
+X-Gm-Message-State: ABy/qLapsNW/hn5h31buFGdVXkUCH4x/1+I/rRXt0iPik08KGnnjKLt5
+	1llI6jRFYLqVT4EPfVUjPlzaDoN1iD1mEv5UsqRZmODpMQFguHksLA==
+X-Received: by 2002:adf:e707:0:b0:314:9ef:838c with SMTP id c7-20020adfe707000000b0031409ef838cmr4496528wrm.15.1689347126430;
+        Fri, 14 Jul 2023 08:05:26 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:51c6:0:b0:314:3851:ec58 with SMTP id n6csp1081342wrv;
+        Fri, 14 Jul 2023 08:05:22 -0700 (PDT)
+X-Received: by 2002:a0c:ca88:0:b0:635:899:946f with SMTP id a8-20020a0cca88000000b006350899946fmr3601898qvk.17.1689347121807;
+        Fri, 14 Jul 2023 08:05:21 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1689347121; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=QBjT2vaVLYI9yEOsBJK/Zaa5oOdzgv7h0HUuu5rkji+boTI/P+kJojuPniEmKbzrCV
+         MmNp4AS6XrmN9iJMBC/oEvb0TfjTz0ykzN+4K7lIlPRAIV6HxHRSPL7UQ384EV1kyVjB
+         xpuZ5D0Lou+aotfpxMGD/vgBu2VCbXd57hq1OMJl7+kVUdiXSjDKNqAwfcOWJ+rwlcP9
+         FLTv3AA3wOVlLhyfWKyKe1oQYQY1ftkuVRPFSLn83HKayGTMM/r3PUi36tZteIpeKpoN
+         QT2Tv1D4FLRUirp5+bnLkycN3NUBycxfLOxRnnHlD7YKzr2hV32C8avdOfLm7pmAgptb
+         HozA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=3Bqn0A/VYCOtDrvvU3sFZzeFyCZnobn5xfTsSI9B18U=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=rN7SJXf5TTPqSf6abGT7RI2Vwscxw5KE8km8KzUa67Dt9LHm6x6yqtgKGutRQFYVZG
+         4nj3UB+/8Su6bOJo9EFJFS9ytWY2bq61iEPeTdwzq2/zgMB1fqqqw8khNLdHQsYBtHt1
+         7/ABsOeA92LAadaxdLJCEvpKAJViUaZNA8tyXebdJjHQXkZWdemJLL3Xd7fLBTPXCdlR
+         klpFN0ZTLE6KN595qYiOAHCNUHXKbsquXsNho7+sFq8YfrZP044TKQMqcQif/sXUSIVi
+         u+kwlP6bA9ssFq2RZfH2WbWsoUZSfnD3F9v7lHCu13sD5eibQfEcU2DZ855Z/yyiJD/p
+         1yRg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=DFzQPhrJ;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230714110511.32082673.275409@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230714110511.32082673.275409@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230714110511.32082673.275409@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id g30-20020a0caade000000b00631f8a9e821sor419246qvb.2.2023.07.14.08.05.21
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Fri, 14 Jul 2023 08:05:21 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230714110511.32082673.275409@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: APBJJlE3PX60A8W1spSldoo6ZEr2PCtDhsUjKmcOXaW5zEAf3EKP/9ES7n1zWVF/l45gm7Em03j3fHle/AeBnoft9bIEsQxCLbM=
+X-Received: by 2002:a05:6214:27cf:b0:637:a75:247a with SMTP id ge15-20020a05621427cf00b006370a75247amr3619850qvb.23.1689347121384;
+        Fri, 14 Jul 2023 08:05:21 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1689347121; cv=none;
+        d=google.com; s=arc-20160816;
+        b=HuOKrP5DXSj61tlv2TED5ndPifXYMUi2gV2TOwrsociYlSZ6aPow4madTqGo0s0yvK
+         261C4La1Mq5HTBwQ9umq5rIlIZ9EbOqNkY7m8ExLvIs/3lu4O7F4CIN8C0/hinvv6Va9
+         5uh/L3ddpRC3jD2TvTLxNOTpql8ZUKmPIGHfvHIXHBRh8JRa49JK6FQitbz8Lf0uy9iI
+         8iV+9EHtgUdbmJ1vazgIw/vx2Rs7p2YBAzDgDWglWFDJUT7vQ38nMc49xNju45gQc9Fx
+         jAwc73yXGybgP7O7/SeNrpgrgQ87CpTwp1MT8IFKoZDvrZv2qA0Ct0ScTx5GWGpHGvj1
+         yRxg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=3Bqn0A/VYCOtDrvvU3sFZzeFyCZnobn5xfTsSI9B18U=;
+        fh=9JoAxZI4GFWs8QWNuS5SHkyEcDsAFkCGCoum/N5wnKg=;
+        b=CPKF9UtVAVdXdrHsXyb5IaVkIaef/2DIme/ZijgPapXVmpni+V+Xgc39wjgqBJw/SS
+         p74yfqyAsgrWI/o6ntuQPYb5eIgq9igw7IOPySHmieuQeHeeS5Zo4OddCwvjeWTxfIHM
+         WpvQz8979QP51x/GCCIhPuqnq0GjZ8l+t/zHWbKEnhZxrR4l6M5m7PhTOAglFhaCK95L
+         KBlcLr9Va05ChEhwD/B+UR5T5VPQeF8o6C97ZJSNhRTQwjR1jCagAUv8FpovoHk86eNK
+         MbNZt+ANKecC76qBBauPiSNYQ10/FQkmS3ogPEnP/2QqdzaJl43pGw/JAJArTzWfJdYC
+         W8DQ==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=DFzQPhrJ;
+       spf=pass (google.com: domain of delivery_20230714110511.32082673.275409@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230714110511.32082673.275409@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230714110511.32082673.275409@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id h1-20020ad45441000000b006261d48d4c2si531148qvt.0.2023.07.14.08.05.21
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Fri, 14 Jul 2023 08:05:21 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230714110511.32082673.275409@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=AZAl2b1XQPT6lqzmfX4otxIlWDkNYP+/3nizH4EQfdA=;
+ b=DFzQPhrJpxp+6+FA/g+bw9N7rXUtywtbA+L/bMDXL5uaqXtkj2CvRPbrGnWjCNHWr9jBODw0/ugb
+   mnW74dkT/MVEgTvfMSXvNErNAhjk2HpmCBTU2qrn5FpPWN9lhtsRoT3Q0Zw+PC3Vc0LqimzB+R2m
+   LHf81jbv7f+Vf40d4Ts=
+Received: from nj1-mta30.sailthru.com (204.153.120.165) by bloomberg-b.sailthru.com id hm5i3230nu8j for <bloomberg@khamel.com>; Fri, 14 Jul 2023 10:05:21 -0500 (envelope-from <delivery_20230714110511.32082673.275409@mx.sailthru.com>)
+Date: Fri, 14 Jul 2023 11:05:11 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230714110511.32082673.275409@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IFJpcHBsZSBJcyA=?=
+ =?utf-8?B?YSBTZWN1cml0eSBhbmQgSXQgSXNu4oCZdA==?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9831365_811409178.1689347111393"
+Precedence: bulk
+x-job: 6358-32082673-20230714
+X-Feedback-ID: 6358:32082673:campaign:sailthru
+X-TM-ID: 20230714110511.32082673.275409
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-farmelon.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj3n5d.5wi9/a29e80eb
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cj3n5d.5wi9/a29e80eb>, <mailto:unsubscribe_20230714110511.32082673.275409@mx.sailthru.com>
+X-rpcampaign: stjko32082673
+X-X-Forwarded-For: bloomberg@khamel.com khamel83@gmail.com
+
+------=_Part_9831365_811409178.1689347111393
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        Programming note: Money Stuff was supposed to be off today, but is =
+not.Statistically speaking, almost nobody who has ever bought Meta Platfo
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+          Programming note: Money Stuff was supposed to be off today, but i=
+s not.
+
+ =20
+   =20
+      Ripple
+   =20
+ =20
+
+Statistically speaking, almost nobody who has ever bought Meta Platforms In=
+c. stock bought it from Meta. Between its founding in 2004 and its 2012  in=
+itial public offering, Facebook (as Meta was then called) raised about $2.9=
+ billion by selling stock to venture capitalists.
+  [1]
+=C2=A0That IPO raised about $16 billion, though only about $6.8 billion=C2=
+=A0went to Facebook; the rest went to early investors who sold their own st=
+ock in the IPO. Facebook did  another stock offering a year later, raising =
+another $1.5 billion for the company; it has never sold stock since then.
+  [2]
+ So over the last two decades,=C2=A0people have invested about $11.2 billio=
+n in Meta by buying its stock.
+That is a drop in the ocean compared to the amount of Meta stock that peopl=
+e buy from each other on the stock exchange. People bought $9.5 billion of =
+Meta stock=C2=A0yesterday. The day before, they=C2=A0bought about $11.2 bil=
+lion of Meta stock: as much in one day as Meta sold in its whole history. L=
+ast year=C2=A0about $1.6 trillion of Meta stock traded; the year before it =
+was=C2=A0only a little less. In the entire history of Meta, on the order of=
+ 0.1% of all the money spent to buy Meta stock went to Meta; in the last ni=
+ne years, the percentage is exactly 0%.
+It is conventional to say that if you buy a share of Meta stock, which clos=
+ed yesterday at $313.41, you are =E2=80=9Cinvesting in Meta.=E2=80=9D But w=
+hat does that mean? It does not mean that you are giving $313 to Meta to us=
+e to buy computers or pay workers; your $313 does not go to Meta at all, bu=
+t to whoever else had the share of stock before you did. It does not mean t=
+hat you get a check for your share of Meta=E2=80=99s profits: Meta has enor=
+mous profits and has never paid a dividend. (Meta does do stock buybacks, i=
+n which it voluntarily buys back shares from time to time, but I suppose it=
+ could just as well buy Apple Inc. shares; nothing about Meta=E2=80=99s pro=
+pensity to buy Meta shares seems to make those shares an =E2=80=9Cinvestmen=
+t in=E2=80=9D Meta.)=C2=A0It does not mean that you get a say in the manage=
+ment of Meta: Mark Zuckerberg owns super-voting shares and can make all the=
+ decisions himself. It=C2=A0does=C2=A0mean that if someone acquires Meta in=
+ a merger, you will get your proportionate share of the merger price, but M=
+eta is an $800 billion company so that seems unlikely.
+  [3]
+
+And yet buying a share of Meta stock does seem, practically speaking, to be=
+ a way to bet on Meta=E2=80=99s success. The stock goes up when Meta has go=
+od news and down when it has bad news; the stock does=C2=A0behave like=C2=
+=A0an investment in Meta. And I think that that is not   pure wishful think=
+ing or confusion on the part of the stock market; there are norms and fiduc=
+iary duties=C2=A0and expectations that, for instance, if Meta makes a ton o=
+f cash and has no business need for it, it will spend the cash on buying ba=
+ck stock, and will=C2=A0not=C2=A0spend it on=C2=A0building giant glass hous=
+es for Mark Zuckerberg or whatever. The company has certain obligations to =
+its shareholders, and though those obligations are not exactly =E2=80=9Csha=
+re the profits with the shareholders,=E2=80=9D=C2=A0that is sort of how the=
+ market interprets them.
+Also,=C2=A0Meta=C2=A0did=C2=A0sell stock. Ages ago, and not very much of it=
+ compared to the current trading volume, but it did. And part of the=C2=A0d=
+eal, when it sold that stock, was that the buyers would eventually be able =
+to resell it.
+  [4]
+=C2=A0The deal =E2=80=94=C2=A0not spelled out, but the background to all st=
+ock offerings like this =E2=80=94=C2=A0was =E2=80=9Cgive us money today, an=
+d we=E2=80=99ll give you some stock, and if all goes well the stock will go=
+ up 100x and you will be able to resell it on the stock exchange to someone=
+ else for billions of dollars.=E2=80=9D If you buy Meta stock today, you mi=
+ght be buying it from someone who bought it from Meta all those years ago, =
+and who is now cashing out. Probably not. But you are certainly buying it f=
+rom someone who bought it from someone who bought it from someone who bough=
+t it from =E2=80=A6=C2=A0etc. =E2=80=A6=C2=A0someone who bought it from Met=
+a all those years ago.
+  [5]
+=C2=A0All the stock came from Meta, originally. You are not giving Meta any=
+ money, today, when you buy Meta stock. But by a sort of financial backward=
+ induction, you are=C2=A0making it possible for someone to have given Meta =
+money years ago. If you and people like you weren=E2=80=99t around to buy M=
+eta stock in 2023, nobody would have bought Meta stock in 2008.
+In the US, there are securities laws that apply to Meta and other companies=
+ that issue stock to the public. They generally have to=C2=A0register=C2=A0=
+their sales of stock, filing a registration statement with the US Securitie=
+s and Exchange Commission with details about their business and finances. T=
+hey generally have to file annual and quarterly financial reports with the =
+SEC so that the public can get updates on their financial results. If they =
+lie in those reports, they can be sued for securities fraud. You can avoid =
+many of these requirements (though not the fraud ones) by=C2=A0not=C2=A0iss=
+uing stock to the public, by only selling it to rich people and institution=
+al investors rather than letting everyone buy your stock: The securities la=
+ws are mostly to protect public retail investors, and there are fewer discl=
+osure requirements for sales to sophisticated institutional investors.
+The simple story for why those rules exist is that in, like, the 1920s, a l=
+ot of people started very shady companies and raised a lot of money by sell=
+ing stock with bad and misleading disclosures. And so the securities laws w=
+ere created to say =E2=80=9Cno, if you want to sell stock, you have to do t=
+his disclosure, so people can know what they are buying and sue you if you =
+lie.=E2=80=9D
+  [6]
+=C2=A0
+That story does not really=C2=A0apply=C2=A0to Meta Platforms in 2023. Meta =
+has not sold stock in ages. =E2=80=9CWe are not asking anyone to give us mo=
+ney for our stock,=E2=80=9D you could almost imagine Meta saying, =E2=80=9C=
+and it just trades on an exchange totally disconnected from us. Why should =
+we have to file all of these reports and get sued for all our misstatements=
+, just because some people still want to trade this stock that we sold a de=
+cade ago? Maybe in 2012 we looked like one of those shady 1920s issuers, an=
+d the SEC needed to keep an eye on us and make us disclose everything about=
+ our finances to raise money, but that doesn=E2=80=99t apply now, not becau=
+se we were shady then and aren=E2=80=99t now, but because we were=C2=A0rais=
+ing money=C2=A0then and aren=E2=80=99t now.=E2=80=9D
+But Meta doesn=E2=80=99t say that, in part because it=C2=A0does=C2=A0care a=
+bout its stock price =E2=80=94=C2=A0in particular, a lot of its executives=
+=E2=80=99 wealth happens to consist of Meta stock =E2=80=94=C2=A0and in par=
+t because that is absurd. The rule is that if you go public you are a publi=
+c company, and if your stock trades publicly you stay a public company unti=
+l it stops trading. (For instance, because somebody =E2=80=94=C2=A0a bigger=
+ company, a private equity firm, Elon Musk =E2=80=94=C2=A0buys all the stoc=
+k.) Facebook files quarterly reports now because, by a sort of financial ba=
+ckward induction, that=C2=A0makes it possible for it to have raised money y=
+ears ago. That=E2=80=99s the deal of being a public company.
+Now, in the 1920s, and afterwards, when people were promoting=C2=A0shady co=
+mpanies, they could get creative about it. They didn=E2=80=99t just sell =
+=E2=80=9Cstock=E2=80=9D in =E2=80=9Ccompanies.=E2=80=9D There were all sort=
+s of ways to raise money for all sorts of schemes. And when the securities =
+laws were written, they didn=E2=80=99t just cover stock. =E2=80=9CThe term =
+=E2=80=98security,=E2=80=99=E2=80=9D  says the law,=C2=A0=E2=80=9Cmeans any=
+ note, stock, treasury stock, security future, security-based swap, bond, d=
+ebenture, evidence of indebtedness, certificate of interest or participatio=
+n in any profit-sharing agreement, collateral-trust certificate, preorganiz=
+ation certificate or subscription, transferable share, investment contract,=
+ voting-trust certificate, certificate of deposit for a security, fractiona=
+l undivided interest in oil, gas, or other mineral rights, any put, call, s=
+traddle, option, or privilege on any security, certificate of deposit, or g=
+roup or index of securities (including any interest therein or based on the=
+ value thereof), or any put, call, straddle, option, or privilege entered i=
+nto on a national securities exchange relating to foreign currency, or, in =
+general, any interest or instrument commonly known as a =E2=80=98security=
+=E2=80=99, or any certificate of interest or participation in, temporary or=
+ interim certificate for, receipt for, guarantee of, or warrant or right to=
+ subscribe to or purchase, any of the foregoing.=E2=80=9D
+The way that=C2=A0list is usually understood comes mostly from a 1946 US Su=
+preme Court case called=C2=A0SEC v. W.J. Howey Co., which interprets the te=
+rm =E2=80=9Cinvestment contract,=E2=80=9D perhaps the most general category=
+ on the list. Howey owned a bunch of=C2=A0orange groves and sold plots in t=
+hem=C2=A0to investors, along with service=C2=A0contracts in which Howey wou=
+ld manage the groves for the investors, harvest the oranges, sell them and =
+split the profits among the investors. Howey argued that it wasn=E2=80=99t =
+selling=C2=A0shares=C2=A0in a business; it was selling=C2=A0real estate=C2=
+=A0=E2=80=94 land, trees =E2=80=94=C2=A0and also offering a service contrac=
+t. The Supreme Court said, nope, that=E2=80=99s a security:
+
+An investment contract, for purposes of the Securities Act, means a contrac=
+t, transaction or scheme whereby a person invests his money in a common ent=
+erprise and is led to expect profits solely from the efforts of the promote=
+r or a third party, it being immaterial whether the shares in the enterpris=
+e are evidenced by formal certificates or by nominal interests in the physi=
+cal assets employed in the enterprise. Such a definition =E2=80=A6 permits =
+the fulfillment of the statutory purpose of compelling full and fair disclo=
+sure relative to the issuance of =E2=80=9Cthe many types of instruments tha=
+t, in our commercial world, fall within the ordinary concept of a security.=
+=E2=80=9D =E2=80=A6 It embodies a flexible, rather than a static, principle=
+, one that is capable of adaptation to meet the countless and variable sche=
+mes devised by those who seek the use of the money of others on the promise=
+ of profits.=C2=A0=E2=80=A6
+The test is whether the scheme involves an investment of money in a common =
+enterprise with profits to come solely from the efforts of others.=C2=A0
+
+Howey, like the shady companies of the 1920s, was seeking =E2=80=9Cthe use =
+of the money of others on the promise of profits.=E2=80=9D So was Facebook=
+=C2=A0in 2012. Meta in 2023 is =E2=80=A6=C2=A0not, quite. It=E2=80=99s not=
+=C2=A0seeking=C2=A0any money. Meta has the money already, and keeps making =
+more. The stock is already out there. If you buy Meta stock, is that an inv=
+estment contract? Is it =E2=80=9Can investment of money in a common enterpr=
+ise,=E2=80=9D when you are not actually giving Meta any money? Are you expe=
+cting profits =E2=80=9Csolely from the efforts of others=E2=80=9D =E2=80=94=
+=C2=A0the work that Mark Zuckerberg does to increase the profits of Meta =
+=E2=80=94=C2=A0when, after all, Meta has no direct obligation to share its =
+profits with you? Aren=E2=80=99t you just expecting profits from the specul=
+ative market movements in Meta stock? If you buy Meta stock at $313 and it =
+goes to $320 and you sell, you have a profit, but your profit is not due (d=
+irectly) to the efforts of anyone at Meta; your profit is due to the anonym=
+ous inscrutable market forces of the stock exchange.
+Well, this is dumb, it doesn=E2=80=99t matter if Meta stock is an =E2=80=9C=
+investment contract=E2=80=9D under a literal reading of Howey. Meta stock i=
+s=C2=A0stock, and =E2=80=9Cthe term =E2=80=98security=E2=80=99 means any =
+=E2=80=A6=C2=A0stock,=E2=80=9D as well as the other stuff.
+Ripple Labs Inc. is a company that does crypto stuff. It =E2=80=9Cseeks to =
+modernize international=C2=A0payments by developing a global payments netwo=
+rk for international currency transfers,=E2=80=9D that sort of thing.
+  [7]
+=C2=A0A big part of that network involves the XRP token, a crypto token tha=
+t runs on the XRP blockchain, which was created by Ripple=E2=80=99s founder=
+s. Unlike Bitcoin and many other cryptocurrencies, though, XRP are not gene=
+rated by mining in a decentralized way:  All the XRP that will ever exist w=
+ere created at the founding and given to Ripple and its founders; XRP was t=
+otally owned and controlled by Ripple.=C2=A0=E2=80=9COf the 100 billion XRP=
+ generated by the XRP Ledger=E2=80=99s code, the three founders=C2=A0retain=
+ed 20 billion for themselves ... and provided 80 billion XRP to Ripple.=E2=
+=80=9D
+And then Ripple, to raise money to build its global payments network, and t=
+o create a market for the XRP token that would underpin that network, start=
+ed selling XRP. It raised about $728.9 million by selling XRP in over-the-c=
+ounter sales directly=C2=A0to institutional counterparties (hedge funds, ba=
+nks, etc.), usually with legal documents governing the terms of the purchas=
+es. XRP became a popular and widely traded crypto token, listed on many cry=
+pto exchanges. And as it became publicly traded on crypto exchanges, Ripple=
+ also sold some of its XRP in the open market on those exchanges,=C2=A0rais=
+ing about $757.6 million by selling XRP =E2=80=9C=E2=80=98programmatically,=
+=E2=80=99 or through the use of trading algorithms.=E2=80=9D Ripple also di=
+stributed XRP as employee compensation, and to =E2=80=9Cthird parties that =
+would develop new applications for XRP and the XRP Ledger.=E2=80=9D=C2=A0
+In 2020,  the SEC sued Ripple, arguing that XRP is a security and Ripple wa=
+s doing unregistered securities offerings. Ripple was selling this token to=
+ raise money to build its business, and it was selling the token by telling=
+ investors that it was a good investment. It was, the SEC reasonably believ=
+ed, one of =E2=80=9Cthe countless and variable schemes devised by those who=
+ seek the use of the money of others on the promise of profits,=E2=80=9D bu=
+t Ripple did not register its securities offerings or file financial statem=
+ents with the SEC.
+Yesterday the federal judge in the case, Judge Analisa Torres of the Southe=
+rn District of New York,   issued an important and rather strange ruling in=
+ the case. Here is  her opinion. Basically she ruled that=C2=A0sometimes=C2=
+=A0XRP is a security and=C2=A0sometimes=C2=A0it isn=E2=80=99t. When Ripple =
+sold XRP to institutional investors in over-the-counter trades, with due di=
+ligence and investment agreements, that was an =E2=80=9Cinvestment contract=
+=E2=80=9D and so a securities offering. When Ripple sold XRP to retail inve=
+stors in on-exchange trades, anonymously and with no disclosure, that was n=
+ot an =E2=80=9Cinvestment contract=E2=80=9D and so not a securities offerin=
+g.
+That=E2=80=99s  so weird!
+I should say: I don=E2=80=99t have a strong view on whether XRP is a securi=
+ty. My gut is that it is, that it is effectively a kind of quasi-stock in R=
+ipple=E2=80=99s ecosystem, that it is valuable if Ripple does the work to f=
+ind banking partners and build a good payments network and useless if it do=
+es not. Here, from Judge Torres=E2=80=99=C2=A0opinion, is the argument that=
+ XRP is a security, that it is an =E2=80=9Cinvestment contract=E2=80=9D bec=
+ause it =E2=80=9Cinvolves an investment of money in a common enterprise wit=
+h profits to come solely from the efforts of others=E2=80=9D (citations omi=
+tted):
+
+Here, the Institutional Buyers invested money by providing fiat or other cu=
+rrency in exchange for XRP.=C2=A0Defendants do not dispute that Ripple rece=
+ived money for XRP through its Institutional Sales. =E2=80=A6
+Each Institutional Buyer=E2=80=99s ability to profit was tied to Ripple=E2=
+=80=99s fortunes and the fortunes of other Institutional Buyers because all=
+ Institutional Buyers received the same fungible XRP.=C2=A0Ripple used the =
+funds it received from its Institutional Sales to promote and increase the =
+value of XRP by developing uses for XRP and protecting the XRP trading mark=
+et. When the value of XRP rose, all Institutional Buyers profited in propor=
+tion to their XRP holdings.
+Based on the totality of circumstances, the Court finds that reasonable inv=
+estors, situated in the position of the Institutional Buyers, would have pu=
+rchased XRP with the expectation that they would derive profits from Ripple=
+=E2=80=99s efforts. From Ripple=E2=80=99s communications, marketing campaig=
+n, and the nature of the Institutional Sales, reasonable investors would un=
+derstand that Ripple would use the capital received from its Institutional =
+Sales to improve the market for XRP and develop uses for the XRP Ledger, th=
+ereby increasing the value of XRP.=C2=A0
+Starting in 2013, Ripple marketed XRP to potential investors, including the=
+ Institutional Buyers, by distributing promotional brochures that touted XR=
+P as an investment tied to the company=E2=80=99s success. For instance, in =
+the =E2=80=9CDeep Dive=E2=80=9D brochure, which was circulated to prospecti=
+ve investors, Ripple explains that its =E2=80=9Cbusiness model is predicate=
+d on a belief that demand for XRP will increase . . . if the Ripple protoco=
+l becomes widely adopted,=E2=80=9D and =E2=80=9C[i]f the Ripple protocol be=
+comes the backbone of global value transfer, Ripple . . . expects the deman=
+d for XRP to be considerable.=E2=80=9D =E2=80=A6 In February 2018, Schwartz=
+ posted on Reddit that what =E2=80=9Creally set[s] XRP apart from any other=
+ digital asset=E2=80=9D is the =E2=80=9Camazing team of dedicated professio=
+nals that Ripple has managed to amass to develop an ecosystem around XRP.=
+=E2=80=9D
+
+Ripple raised money by selling XRP to investors, it used the money to try t=
+o build its payments network, and it told the investors that if it successf=
+ully built its payments network then the value of XRP would go up. That see=
+ms very securities-offering-like.=C2=A0
+Still I=C2=A0think that there is a real argument that XRP=C2=A0is not a sec=
+urity, that it is what crypto people call a =E2=80=9Cutility token,=E2=80=
+=9D or a commodity like Bitcoin. XRP comes from the fairly early days of cr=
+ypto, and it seems to have originally been conceived as a Bitcoin competito=
+r, a pure payment token. (In 2013,=C2=A0Ripple=E2=80=99s marketing material=
+s said =E2=80=9CCan a virtual currency really create and hold value?=C2=A0B=
+itcoin proves it can.=E2=80=9D) You can imagine saying something like =E2=
+=80=9Cwell the XRP Ledger is just this decentralized blockchain that kind o=
+f exists on its own, and anyone can work on it and use it to transfer value=
+, and the XRP tokens are just the currency of that blockchain, like Bitcoin=
+ is the currency of the Bitcoin ledger. XRP, like Bitcoins,=C2=A0are not se=
+curities, and it=C2=A0just so happens=C2=A0that Ripple Labs owns almost all=
+ of them, but it can sell them freely just like any Bitcoin billionaire can=
+ sell her Bitcoins.=E2=80=9D I don=E2=80=99t really think that that=E2=80=
+=99s right, but I wasn=E2=80=99t paying that much attention in 2013, and I =
+think it=E2=80=99s=C2=A0possible. =E2=80=9CXRP is just a commodity that Rip=
+ple owns a lot of, just like oil is a commodity that Saudi Aramco owns a lo=
+t of, and oil is not a security.=E2=80=9D
+  [8]
+
+But Judge Torres seems to have (implicitly) rejected that argument and foun=
+d that when Ripple went around selling XRP to institutional investors, it w=
+as selling securities.
+But then she went on to say that when Ripple went around selling XRP on cry=
+pto exchanges with=C2=A0no=C2=A0disclosure, it was=C2=A0not=C2=A0selling se=
+curities. The disclosure creates the liability: If you go to an investor an=
+d say =E2=80=9Chi, we are the issuer of this token, we think it is a good t=
+oken, would you like some,=E2=80=9D then you are selling a security; if you=
+ just anonymously dump the token to retail investors on a crypto exchange, =
+then you are not. Judge Torres writes (citations omitted):
+
+The Court next addresses Ripple=E2=80=99s Programmatic Sales, which occurre=
+d under different circumstances from the Institutional Sales. The SEC alleg=
+es that in the Programmatic Sales to public buyers (=E2=80=9CProgrammatic B=
+uyers=E2=80=9D) on digital asset exchanges, =E2=80=9CRipple understood that=
+ people were speculating on XRP as an investment,=E2=80=9D =E2=80=9Cexplici=
+tly targeted speculators[,] and made increased speculative volume a =E2=80=
+=98target goal.=E2=80=99=E2=80=9D ...
+Having considered the economic reality of the Programmatic Sales, the Court=
+ concludes that the undisputed record does not establish the third Howey pr=
+ong. Whereas the Institutional Buyers reasonably expected that Ripple would=
+ use the capital it received from its sales to improve the XRP ecosystem an=
+d thereby increase the price of XRP,=C2=A0Programmatic Buyers could not rea=
+sonably expect the same. Indeed, Ripple=E2=80=99s Programmatic Sales were b=
+lind bid/ask transactions, and Programmatic Buyers could not have known if =
+their payments of money went to Ripple, or any other seller of XRP. Since 2=
+017, Ripple=E2=80=99s Programmatic Sales represented less than 1% of the gl=
+obal XRP trading volume. Therefore, the vast majority of individuals who pu=
+rchased XRP from digital asset exchanges did not invest their money in Ripp=
+le at all. An Institutional Buyer knowingly purchased XRP directly from Rip=
+ple pursuant to a contract, but the economic reality is that a Programmatic=
+ Buyer stood in the same shoes as a secondary market purchaser who did not =
+know to whom or what it was paying its money.
+Further, it is not enough for the SEC to argue that Ripple =E2=80=9Cexplici=
+tly targeted speculators=E2=80=9D or that =E2=80=9CRipple understood that p=
+eople were speculating on XRP as an investment.=E2=80=9D =E2=80=A6=C2=A0It =
+may certainly be the case that many Programmatic Buyers purchased XRP with =
+an expectation of profit, but they did not derive that expectation from Rip=
+ple=E2=80=99s efforts (as opposed to other factors, such as general cryptoc=
+urrency market trends)=E2=80=94particularly because none of the Programmati=
+c Buyers were aware that they were buying XRP from Ripple.
+
+Again: If you buy Meta stock on the stock exchange, there is a 0% chance th=
+at you are buying it from Meta, or that Meta will get your $313 and use it =
+to improve the Threads=C2=A0ecosystem and thereby increase the price of Met=
+a stock. And yet it is a security. What makes it a security is not that you=
+ have entered into a direct transaction with Meta, but that it was=C2=A0ori=
+ginally issued=C2=A0to raise money for Meta. It keeps being a security even=
+ as it trades.
+Now I should say that there is a popular argument in crypto circles that th=
+is is not true for =E2=80=9Cinvestment contracts,=E2=80=9D that an investme=
+nt contract is only an investment contract when you buy it from the issuer,=
+ and that when it trades in the secondary market it is no longer a security=
+.
+  [9]
+=C2=A0This argument is, for instance, very important to Coinbase Global Inc=
+., which is being sued by the SEC for operating an unregistered securities =
+exchange:=C2=A0If crypto tokens are never securities in the secondary marke=
+t, then Coinbase is off the hook.
+But notice that Judge Torres goes=C2=A0way=C2=A0beyond that claim: She seem=
+s to conclude=C2=A0not only that secondary-market transactions are never=C2=
+=A0securities offerings, because the money doesn=E2=80=99t go to Ripple, bu=
+t also that=C2=A0even when the money does go to Ripple it=E2=80=99s not a s=
+ecurities offering, as long as Ripple=E2=80=99s sales are mixed in with eno=
+ugh secondary sales that people don=E2=80=99t=C2=A0know=C2=A0that their mon=
+ey is going to Ripple. Imagine if that were the law for stock offerings! (I=
+t is not: Public companies do =E2=80=9Cat-the-market=E2=80=9D offerings whe=
+re they sell stock anonymously on the stock exchange, but they have to regi=
+ster them and announce them publicly.) The implication is that if a crypto =
+issuer publicly and openly sells its tokens, that is an illegal securities =
+offering, but if it sneaks in a few token sales on the exchange then it is =
+not.
+  [10]
+
+She goes on (citations omitted):
+
+It may certainly be the case that many Programmatic Buyers purchased XRP wi=
+th an expectation of profit, but they did not derive that expectation from =
+Ripple=E2=80=99s efforts (as opposed to other factors, such as general cryp=
+tocurrency market trends)=E2=80=94particularly because none of the Programm=
+atic Buyers were aware that they were buying XRP from Ripple. ...
+The Institutional Buyers were sophisticated entities, including institution=
+al investors and hedge funds. An =E2=80=9Cexamination of the entirety of th=
+e parties=E2=80=99 understandings and expectations,=E2=80=9D including the =
+=E2=80=9Cfull set of contracts, expectations, and understandings centered o=
+n the sales and distribution of=E2=80=9D XRP supports the conclusion that a=
+ reasonable investor, situated in the position of the Institutional Buyers,=
+ would have been aware of Ripple=E2=80=99s marketing campaign and public st=
+atements connecting XRP=E2=80=99s price to its own efforts. There is no evi=
+dence that a reasonable Programmatic Buyer, who was generally less sophisti=
+cated as an investor, shared similar =E2=80=9Cunderstandings and expectatio=
+ns=E2=80=9D and could parse through the multiple documents and statements t=
+hat the SEC highlights, which include statements (sometimes inconsistent) a=
+cross many social media platforms and news sites from a variety of Ripple s=
+peakers (with different levels of authority) over an extended eight-year pe=
+riod.
+
+That is: If you go around making public statements, on your website and on =
+Reddit and elsewhere, saying things like =E2=80=9Cif you buy our token we w=
+ill use the money to build an ecosystem and make the token more valuable,=
+=E2=80=9D that makes your token a security,=C2=A0but only to people who are=
+ sophisticated enough to read your website. Sophisticated institutional inv=
+estors who read your disclosure documents and understand that they are maki=
+ng an investment in your business are entitled to the protections of the se=
+curities laws, while random retail day-traders who just like your ticker sy=
+mbol are not.=C2=A0You cannot be doing securities fraud on them, because th=
+ey are not paying attention.
+I want to say three things about that theory. First, it is actually intuiti=
+vely very plausible? =E2=80=9CIf investors didn't read your advertising, th=
+en it doesn=E2=80=99t matter if those advertisements were lies.=E2=80=9D Tr=
+aditionally an element of fraud is =E2=80=9Creliance=E2=80=9D: If you lie t=
+o people to get them to give you money, and they give you the money because=
+ of the lies, then you have defrauded them; if they didn=E2=80=99t listen t=
+o you and were going to give you the money no matter what then maybe you ha=
+ven=E2=80=99t.=C2=A0
+Second, it is very much=C2=A0not=C2=A0the rule of the stock market. It is a=
+bsolutely the case that many retail investors=C2=A0buying Meta stock have n=
+ever looked at any of Meta=E2=80=99s SEC filings. If it turned out that Met=
+a=C2=A0was=C2=A0lying=C2=A0in those filings, and shareholders brought a sec=
+urities-fraud class action, you could imagine Meta saying =E2=80=9Cwell, ha=
+lf of these plaintiffs didn=E2=80=99t read the filings, so you should throw=
+ the case out.=E2=80=9D But that wouldn=E2=80=99t work! It is very standard=
+ US securities law that if you lie in your securities filings, all your sha=
+reholders can sue you, because=C2=A0somebody=C2=A0read the filings, and the=
+ lies affected the stock price, and everyone who bought the stock at the (w=
+rong, higher, inflated-by-your-lies) price was defrauded. (This is called =
+=E2=80=9Cfraud on the market=E2=80=9D: Each individual investor=C2=A0may no=
+t have relied on the lies, but the market did.)
+Third, it is =E2=80=A6=C2=A0obviously =E2=80=A6=C2=A0terrible =E2=80=A6=C2=
+=A0policy? =E2=80=9CThe securities laws protect only sophisticated investor=
+s who negotiate directly with the company, not retail investors who trade o=
+n public exchanges=E2=80=9D is the exact opposite of the normal rule. At th=
+e Information,  Akash Pasricha writes:
+
+Securities laws were specifically designed to protect individual investors,=
+ based on the idea that they =E2=80=9Ccan=E2=80=99t fend for themselves,=E2=
+=80=9D James Carlson, a New York University adjunct securities regulation p=
+rofessor, told me today. By the same token ... =E2=80=9Cbig institutional i=
+nvestors don=E2=80=99t need the protections of the securities laws. =E2=80=
+=A6 This effectively stands that philosophy on its head,=E2=80=9D he said.
+The implications of this part of the ruling are worrisome. As Carlson said,=
+ =E2=80=9CThe potential for bucket shop or boiler room fraud =E2=80=A6 is a=
+larming.=E2=80=9D Carlson painted a scenario where a crypto firm issues tok=
+ens to heavyweight institutional traders, who get detailed disclosures requ=
+ired by securities laws, but they then flip it to individual traders, who d=
+on=E2=80=99t get those disclosures.
+
+Except you don=E2=80=99t even need that. Why sell tokens to institutional t=
+raders (with securities disclosures) so that they can flip to retail, when =
+you can just sell to retail yourself with no disclosure? As long as you sel=
+l to retail investors on the exchange, you=E2=80=99re safe. Even if you bro=
+adly advertise how good a job you will do and how much profit those investo=
+rs will make, you are still not doing a securities offering! Because you ar=
+e selling the tokens anonymously on the crypto exchange, so no one can prov=
+e who bought them from you, so no one can prove if any of the buyers=C2=A0r=
+ead=C2=A0your advertising. It is a get-out-of-securities-law-free ruling.
+I assume the SEC will appeal.=C2=A0I suppose there are three possibilities =
+here:
+=09Judge Torres is wrong, the SEC is right, and a thing is an "investment c=
+ontract=E2=80=9D based on its original substance, even if it later trades i=
+n the secondary market. If Meta sells me a share of stock and then I sell i=
+t to you, it remains a security; if Howey sells me an orange-grove-manageme=
+nt contract and I resell it to you, it remains a security. I think that thi=
+s is the right answer, though I am not confident in that. Particularly in c=
+rypto, where tokens have a non-security utility, there=C2=A0is=C2=A0a good =
+argument that tokens can change character over time, that they can start of=
+f as securities and end up as something else. We have   discussed that theo=
+ry before, but I will just note that it is=C2=A0not=C2=A0the theory of the =
+Ripple opinion. The theory here is much stranger: It=E2=80=99s=C2=A0that ea=
+ch individual token sale is a securities offering=C2=A0if the investors are=
+ sophisticated and not if they are not.=09Judge Torres is right in her =E2=
+=80=9Cinvestment contract=E2=80=9D analysis, but the Howey =E2=80=9Cinvestm=
+ent contract=E2=80=9D test is not the right way to think about crypto. The =
+right way to think about crypto tokens is that they are quasi-stocks in cry=
+pto projects, and so they are securities even upon resale, not because each=
+ resale meets the Howey test but because stock is always stock. The right w=
+ay to think about crypto tokens is not by parsing the Howey elements for ea=
+ch transaction, but by saying =E2=80=9Cwell how does it work with stock?=E2=
+=80=9D and reasoning by analogy.=C2=A0I think that this is, broadly speakin=
+g, the right intuition, and I kind of wish it was the law, but I don=E2=80=
+=99t really think it is. (And, again, it breaks down for tokens that have u=
+tility in a blockchain ecosystem, which can start out looking like stock an=
+d end up looking like airline miles or Starbucks gift cards or a currency t=
+o pay for cloud computing time.)=09Judge Torres is right, the SEC is wrong,=
+ and no crypto token is a security unless the issuer sells it directly to v=
+enture capitalists in a=C2=A0fundraising round.
+
+In some ways, that last result would be very good for the crypto industry. =
+Most immediately, it would be a complete win for Coinbase Global Inc., whic=
+h is   fighting its own case in which the SEC argues that it is operating a=
+n unregistered securities exchange. One implication of Judge Torres=E2=80=
+=99=C2=A0ruling is that cryptocurrencies are only securities if you know th=
+at you are buying=C2=A0them directly from the company; if you buy them in t=
+he secondary market =E2=80=94=C2=A0on Coinbase, for instance =E2=80=94=C2=
+=A0then they are not. So there are no securities listed on Coinbase =E2=80=
+=94=C2=A0in fact, it is impossible=C2=A0for Coinbase to list any securities
+  [11]
+ =E2=80=94 so it is not an illegal securities exchange.   Good news for Coi=
+nbase:
+
+Coinbase Global Inc. rose the most since its public debut, climbing as high=
+ as $109.21. The exchange is embroiled in a lawsuit of its own with the SEC=
+ that alleges that it sold tokens that are unregistered securities.
+=E2=80=9CThis underscores that direct sales of digital assets by an issuer =
+will often be securities, but other sales, most notably sales on the second=
+ary market, are unlikely to be deemed securities, which is a key argument i=
+n Coinbase=E2=80=99s defense against the SEC,=E2=80=9D said Elliott Stein, =
+Bloomberg Intelligence senior analyst for litigation.
+
+More broadly, if you take this decision seriously, it means that the SEC ha=
+s essentially no jurisdiction over crypto. Most token sales will either be =
+(1) direct to institutional investors or (2) on exchanges. Sales on exchang=
+es, says Judge Torres, are not securities offerings, because the buyer does=
+n=E2=80=99t know=C2=A0that she is giving money to the issuer. Sales to inst=
+itutional investors are=C2=A0securities offerings, but anyone selling anyth=
+ing to institutional investors in 2023 can do so under an exemption from se=
+curities registration. (Securities registration is only for=C2=A0public=C2=
+=A0sales, not sales to big institutions.) So basically no crypto sales will=
+ ever require SEC registration, no crypto exchange or brokerage will be a s=
+ecurities=C2=A0exchange or brokerage,
+  [12]
+ and the SEC is out of crypto entirely.
+But I am not sure that it is actually all that good for crypto in the long =
+run. The message of this decision is that crypto companies can freely sell =
+tokens to retail investors as long as those retail investors are uninformed=
+ and the companies are secretive about it; only if they sell tokens openly =
+to sophisticated investors will they get in trouble.=C2=A0That=E2=80=99s ba=
+d.
+In the 1920s,=C2=A0a lot of people started very shady companies and raised =
+a lot of money by selling stock with bad and misleading disclosures, and so=
+ the securities laws were created to stop them. That did not have the resul=
+t of stamping out stock issuance in the US. Quite the contrary! The US stoc=
+k market was=C2=A0helped enormously=C2=A0by having disclosure rules and pro=
+tections for retail investors. The basic rule of the US stock market is =E2=
+=80=9Cyou can kind of do what you like with sophisticated investors, but th=
+ere are strict rules about how much you have to disclose to retail investor=
+s,=E2=80=9D and that works out well. The opposite rule in this case =E2=80=
+=94=C2=A0=E2=80=9Cyou can do what you like with retail, but stay away from =
+sophisticated investors=E2=80=9D =E2=80=94=C2=A0seems likely to work out po=
+orly. If the law encourages=C2=A0crypto companies to take advantage of the =
+least sophisticated investors, then who would want to invest in crypto?
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+JPMorgan Notches   Record Revenue on Rates, First Republic Deal.=C2=A0Citi =
+Gets Boost From Credit Cards as Borrowers Start to Struggle.=C2=A0  Wells F=
+argo Lifts Net Interest Income Guidance on Rate Hikes.=C2=A0  BlackRock Ass=
+ets Rise to $9.4 Trillion, Fueled by Bull Run. Silicon Valley start-ups exp=
+lore sales as  funding runs dry. French Billionaire Pinault Is in Talks to =
+Buy   CAA Talent Agency in $7 Billion Deal.=C2=A0 FTX Sues Over European Un=
+it Deal, Seeking to Recover $323 Million. More than 120 senior  Credit Suis=
+se investment bankers flee for rivals. Stablecoin  rating agency. Airport  =
+rides. Tortoise  trusts. A  renegade sea otter is terrorizing California su=
+rfers.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] Lazily estimated from the =E2=80=9Cadditional paid-in capital=E2=80=
+=9D line in the  capitalization table of the IPO prospectus.
+
+
+  [2] I mean, in a public offering for cash captured by Bloomberg=E2=80=99s=
+ CACS function. I am ignoring stock-based compensation and M&A, which are s=
+ort of financing mechanisms, and in some economic sense relevant here, but =
+never mind!
+
+
+  [3] You could tell a merger story like =E2=80=9CMeta loses 99% of its val=
+ue and is then small enough to be acquired by Twitter for cash, at which po=
+int shareholders get cashed out,=E2=80=9D but that is not a reason to buy t=
+he stock today!
+
+
+  [4] They could resell it when Facebook went public, in the case of most o=
+f the pre-IPO sales, or immediately, in the case of the IPO and post-IPO sa=
+le.
+
+
+  [5] Or who got it as employee compensation or founder=E2=80=99s stock or =
+in M&A.
+
+
+  [6] That is, the *company* has to register its offerings of stock, and ce=
+rtain affiliates and underwriters of the company have to register their sal=
+es. Ordinary sales by outsiders on the stock exchange don=E2=80=99t require=
+ registration =E2=80=94 but they are still securities transactions, and so =
+for instance the brokers and stock exchange involved in the transaction are=
+ subject to SEC regulation.
+
+
+  [7] The quotes in this paragraph and the next come from  yesterday=E2=80=
+=99s court decision.
+
+
+  [8] A somewhat paradoxical element here is that the more Ripple actually =
+*does*, the more it works to make XRP *useful*, the more security-like it i=
+s. If Ripple=E2=80=99s situation is just =E2=80=9Chey we have this stash of=
+ XRP, they aren=E2=80=99t useful for much, but people keep trading them so =
+we=E2=80=99re gonna sell some,=E2=80=9D then XRP is probably not a security=
+. If Ripple succeeds in building out a widely used payments network and sig=
+ning up a bunch of banks and institutions to use XRP for their business, th=
+en the price of XRP will go up in a way that is directly tied to Ripple=E2=
+=80=99s business, making it a bit more security-like. I don=E2=80=99t think=
+ that this is entirely true =E2=80=94 if Ripple gets everyone to use XRP fo=
+r payments, in some ways that helps the argument that XRP is a currency rat=
+her than quasi-stock in Ripple =E2=80=94 but it is partly true.
+
+
+  [9] Proponents sometimes say that =E2=80=9Cthe investment contracts in Ho=
+wey are securities, but the oranges are not.=E2=80=9D This is irrelevant. T=
+he question is: If you buy a plot of land and a service contract from Howey=
+, and three years later you find someone else to buy that same arrangement =
+from you, is that still a security? When institutional XRP buyers bought XR=
+P from Ripple, they didn't get XRP *plus* some explicit contractual arrange=
+ment to build out the ecosystem: They got XRP, and understood that if the e=
+cosystem grew then XRP would go up.
+
+
+  [10] Similarly, it is well understood that Mark Zuckerberg, as an affilia=
+te of Meta, generally has to register his own sales of Meta stock, or sell =
+within some exemption from registration. He can=E2=80=99t just quietly dump=
+ Meta stock on the exchange and say =E2=80=9Cwell, no one knows they=E2=80=
+=99re buying from me, so I don=E2=80=99t have to tell them.=E2=80=9D But Ju=
+dge Torres finds that Ripple=E2=80=99s executives can sell XRP freely, beca=
+use no one knows that they=E2=80=99re buying from those executives so the s=
+ales aren=E2=80=99t securities offerings: =E2=80=9CLarsen and Garlinghouse =
+did not know to whom they sold XRP, and the buyers did not know the identit=
+y of the seller. Thus, as a matter of law, the record cannot establish the =
+third Howey prong as to these transactions.=E2=80=9D
+
+
+  [11] Unless it listed stocks, I mean. Tokenized stocks, etc. Because a "s=
+tock" is explicitly a security whether or not it satisfies the Howey test.
+
+
+  [12] Well. I suppose if you are a crypto investment bank in the business =
+of brokering token sales from issuers to venture capitalists, then those ar=
+e securities offerings and you technically need to register with the SEC as=
+ a securities brokerage. But brokers and exchanges in the secondary market =
+would not.
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited acc=
+ess to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj3n5d.5wi9/aca1d558.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_9831365_811409178.1689347111393
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+Programming note: Money Stuff was supposed to be off today, but is not.Stat=
+istically speaking, almost nobody who has ever bought Meta Platfo
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32082673.275409/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwNzE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA3MTQmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cB41be5a9f"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32082673.275409/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMjA4MjY3MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIzNTgwODImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBe84ea00b" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D32082673&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32358082&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<p style=3D"margin: 16px 0;"><strong>Programming note: </strong><em>Money S=
+tuff was supposed to be off today, but is not.</em></p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Ripple</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Statistically speaking, almost nobody who has =
+ever bought Meta Platforms Inc. stock bought it from Meta. Between its foun=
+ding in 2004 and its 2012 <a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/32082673.275409/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXR=
+hLzEzMjY4MDEvMDAwMTE5MzEyNTEyMjQwMTExL2QyODc5NTRkNDI0YjQuaHRtI3RvYzI4Nzk1NF=
+82/607f07ceef4b8524a319a23cBcd5bd3e6" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none =
+!important; border-bottom-width: 1px; border-bottom-color: #000000; border-=
+bottom-style: solid; background-color: #ccc;"> initial public offering</a>,=
+ Facebook (as Meta was then called) raised about $2.9 billion by selling st=
+ock to venture capitalists.<a class=3D"footnote-index" href=3D"#footnote-1"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: none !importa=
+nt; background-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>=C2=A0That IPO raised about $16 billion, though only about $6.8 billion=
+=C2=A0went to Facebook; the rest went to early investors who sold their own=
+ stock in the IPO. Facebook did <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/32082673.275409/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhc=
+i9kYXRhLzEzMjY4MDEvMDAwMTE5MzEyNTEzNDgyOTUxL2Q2NDY2NTNkNDI0YjUuaHRt/607f07c=
+eef4b8524a319a23cBac7b193f" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> another stock offering</a> a year late=
+r, raising another $1.5 billion for the company; it has never sold stock si=
+nce then.<a class=3D"footnote-index" href=3D"#footnote-2" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: none !important; background-col=
+or: transparent !important; display: inline-block;">
+<span>[2]</span>
+</a> So over the last two decades,=C2=A0people have invested about $11.2 bi=
+llion in Meta by buying its stock.</p>
+<p style=3D"margin: 16px 0;">That is a drop in the ocean compared to the am=
+ount of Meta stock that people buy from each other on the stock exchange. P=
+eople bought $9.5 billion of Meta stock=C2=A0<em>yesterday</em>. The day be=
+fore, they=C2=A0bought about $11.2 billion of Meta stock: as much in one da=
+y as Meta sold in its whole history. Last year=C2=A0about $1.6 trillion of =
+Meta stock traded; the year before it was=C2=A0only a little less. In the e=
+ntire history of Meta, on the order of 0.1% of all the money spent to buy M=
+eta stock went to Meta; in the last nine years, the percentage is exactly 0=
+%.</p>
+<p style=3D"margin: 16px 0;">It is conventional to say that if you buy a sh=
+are of Meta stock, which closed yesterday at $313.41, you are =E2=80=9Cinve=
+sting in Meta.=E2=80=9D But what does that mean? It does not mean that you =
+are giving $313 to Meta to use to buy computers or pay workers; your $313 d=
+oes not go to Meta at all, but to whoever else had the share of stock befor=
+e you did. It does not mean that you get a check for your share of Meta=E2=
+=80=99s profits: Meta has enormous profits and has never paid a dividend. (=
+Meta does do stock buybacks, in which it voluntarily buys back shares from =
+time to time, but I suppose it could just as well buy Apple Inc. shares; no=
+thing about Meta=E2=80=99s propensity to buy Meta shares seems to make thos=
+e shares an =E2=80=9Cinvestment in=E2=80=9D Meta.)=C2=A0It does not mean th=
+at you get a say in the management of Meta: Mark Zuckerberg owns super-voti=
+ng shares and can make all the decisions himself. It=C2=A0<em>does=C2=A0</e=
+m>mean that if someone acquires Meta in a merger, you will get your proport=
+ionate share of the merger price, but Meta is an $800 billion company so th=
+at seems unlikely.<a class=3D"footnote-index" href=3D"#footnote-3" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: none !important; backg=
+round-color: transparent !important; display: inline-block;">
+<span>[3]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">And yet buying a share of Meta stock does seem=
+, practically speaking, to be a way to bet on Meta=E2=80=99s success. The s=
+tock goes up when Meta has good news and down when it has bad news; the sto=
+ck does=C2=A0<em>behave like=C2=A0</em>an investment in Meta. And I think t=
+hat that is not <a href=3D"https://link.mail.bloombergbusiness.com/click/32=
+082673.275409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwM=
+TgtMDctMTEvaW52ZXN0b3JzLWdhdmUtc25hcC1hLWdpZnQ_Y21waWQ9QkJEMDcxNDIzX01PTkVZ=
+U1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjM=
+wNzE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB5dbafa39" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">  pure wishful thinking</a> or confusion on the part of the stock mar=
+ket; there are norms and fiduciary duties=C2=A0and expectations that, for i=
+nstance, if Meta makes a ton of cash and has no business need for it, it wi=
+ll spend the cash on buying back stock, and will=C2=A0<em>not=C2=A0</em>spe=
+nd it on=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/3208=
+2673.275409/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9hLWdsYXNzLWhvdXNlLWZvci1=
+lbG9uLW11c2stc3BhcmtzLWludGVybmFsLXRlc2xhLXByb2JlLTlhMTIxZGI1P21vZD1ocF9sZW=
+FkX3BvczU/607f07ceef4b8524a319a23cBd0ae9daa" itemprop=3D"StoryLink" itemsco=
+pe=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;">building giant glass h=
+ouses</a> for Mark Zuckerberg or whatever. The company has certain obligati=
+ons to its shareholders, and though those obligations are not exactly =E2=
+=80=9Cshare the profits with the shareholders,=E2=80=9D=C2=A0that is sort o=
+f how the market interprets them.</p>
+<p style=3D"margin: 16px 0;">Also,=C2=A0Meta=C2=A0<em>did=C2=A0</em>sell st=
+ock. Ages ago, and not very much of it compared to the current trading volu=
+me, but it did. And part of the=C2=A0<em>deal</em>, when it sold that stock=
+, was that the buyers would eventually be able to resell it.<a class=3D"foo=
+tnote-index" href=3D"#footnote-4" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: none !important; background-color: transparent !importa=
+nt; display: inline-block;">
+<span>[4]</span>
+</a>=C2=A0The deal =E2=80=94=C2=A0not spelled out, but the background to al=
+l stock offerings like this =E2=80=94=C2=A0was =E2=80=9Cgive us money today=
+, and we=E2=80=99ll give you some stock, and if all goes well the stock wil=
+l go up 100x and you will be able to resell it on the stock exchange to som=
+eone else for billions of dollars.=E2=80=9D If you buy Meta stock today, yo=
+u might be buying it from someone who bought it from Meta all those years a=
+go, and who is now cashing out. Probably not. But you are certainly buying =
+it from someone who bought it from someone who bought it from someone who b=
+ought it from =E2=80=A6=C2=A0etc. =E2=80=A6=C2=A0someone who bought it from=
+ Meta all those years ago.<a class=3D"footnote-index" href=3D"#footnote-5" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: none !importan=
+t; background-color: transparent !important; display: inline-block;">
+<span>[5]</span>
+</a>=C2=A0All the stock came from Meta, originally. You are not giving Meta=
+ any money, today, when you buy Meta stock. But by a sort of financial back=
+ward induction, you are=C2=A0<em>making it possible for someone to have giv=
+en Meta money years ago</em>. If you and people like you weren=E2=80=99t ar=
+ound to buy Meta stock in 2023, nobody would have bought Meta stock in 2008=
+.</p>
+<p style=3D"margin: 16px 0;">In the US, there are securities laws that appl=
+y to Meta and other companies that issue stock to the public. They generall=
+y have to=C2=A0<em>register=C2=A0</em>their sales of stock, filing a regist=
+ration statement with the US Securities and Exchange Commission with detail=
+s about their business and finances. They generally have to file annual and=
+ quarterly financial reports with the SEC so that the public can get update=
+s on their financial results. If they lie in those reports, they can be sue=
+d for securities fraud. You can avoid many of these requirements (though no=
+t the fraud ones) by=C2=A0<em>not=C2=A0</em>issuing stock to the public, by=
+ only selling it to rich people and institutional investors rather than let=
+ting everyone buy your stock: The securities laws are mostly to protect pub=
+lic retail investors, and there are fewer disclosure requirements for sales=
+ to sophisticated institutional investors.</p>
+<p style=3D"margin: 16px 0;">The simple story for why those rules exist is =
+that in, like, the 1920s, a lot of people started very shady companies and =
+raised a lot of money by selling stock with bad and misleading disclosures.=
+ And so the securities laws were created to say =E2=80=9Cno, if you want to=
+ sell stock, you have to do this disclosure, so people can know what they a=
+re buying and sue you if you lie.=E2=80=9D<a class=3D"footnote-index" href=
+=3D"#footnote-6" style=3D"color: #000000; text-decoration: none !important;=
+ border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-styl=
+e: none !important; background-color: transparent !important; display: inli=
+ne-block;">
+<span>[6]</span>
+</a>=C2=A0</p>
+<p style=3D"margin: 16px 0;">That story does not really=C2=A0<em>apply=C2=
+=A0</em>to Meta Platforms in 2023. Meta has not sold stock in ages. =E2=80=
+=9CWe are not asking anyone to give us money for our stock,=E2=80=9D you co=
+uld almost imagine Meta saying, =E2=80=9Cand it just trades on an exchange =
+totally disconnected from us. Why should we have to file all of these repor=
+ts and get sued for all our misstatements, just because some people still w=
+ant to trade this stock that we sold a decade ago? Maybe in 2012 we looked =
+like one of those shady 1920s issuers, and the SEC needed to keep an eye on=
+ us and make us disclose everything about our finances to raise money, but =
+that doesn=E2=80=99t apply now, not because we were shady then and aren=E2=
+=80=99t now, but because we were=C2=A0<em>raising money=C2=A0</em>then and =
+aren=E2=80=99t now.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">But Meta doesn=E2=80=99t say that, in part bec=
+ause it=C2=A0<em>does=C2=A0</em>care about its stock price =E2=80=94=C2=A0i=
+n particular, a lot of its executives=E2=80=99 wealth happens to consist of=
+ Meta stock =E2=80=94=C2=A0and in part because that is absurd. The rule is =
+that if you go public you are a public company, and if your stock trades pu=
+blicly you stay a public company until it stops trading. (For instance, bec=
+ause somebody =E2=80=94=C2=A0a bigger company, a private equity firm, Elon =
+Musk =E2=80=94=C2=A0buys all the stock.) Facebook files quarterly reports n=
+ow because, by a sort of financial backward induction, that=C2=A0<em>makes =
+it possible for it to have raised money years ago</em>. That=E2=80=99s the =
+deal of being a public company.</p>
+<p style=3D"margin: 16px 0;">Now, in the 1920s, and afterwards, when people=
+ were promoting=C2=A0shady companies, they could get creative about it. The=
+y didn=E2=80=99t just sell =E2=80=9Cstock=E2=80=9D in =E2=80=9Ccompanies.=
+=E2=80=9D There were all sorts of ways to raise money for all sorts of sche=
+mes. And when the securities laws were written, they didn=E2=80=99t just co=
+ver stock. =E2=80=9CThe term =E2=80=98security,=E2=80=99=E2=80=9D <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/32082673.275409/aHR0cHM6L=
+y93d3cubGF3LmNvcm5lbGwuZWR1L3VzY29kZS90ZXh0LzE1Lzc3Yg/607f07ceef4b8524a319a=
+23cBefecd8f3" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> says the law</a>,=C2=A0=E2=80=9Cmeans any note, stoc=
+k, treasury stock, security future, security-based swap, bond, debenture, e=
+vidence of indebtedness, certificate of interest or participation in any pr=
+ofit-sharing agreement, collateral-trust certificate, preorganization certi=
+ficate or subscription, transferable share, investment contract, voting-tru=
+st certificate, certificate of deposit for a security, fractional undivided=
+ interest in oil, gas, or other mineral rights, any put, call, straddle, op=
+tion, or privilege on any security, certificate of deposit, or group or ind=
+ex of securities (including any interest therein or based on the value ther=
+eof), or any put, call, straddle, option, or privilege entered into on a na=
+tional securities exchange relating to foreign currency, or, in general, an=
+y interest or instrument commonly known as a =E2=80=98security=E2=80=99, or=
+ any certificate of interest or participation in, temporary or interim cert=
+ificate for, receipt for, guarantee of, or warrant or right to subscribe to=
+ or purchase, any of the foregoing.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">The way that=C2=A0list is usually understood c=
+omes mostly from a 1946 US Supreme Court case called=C2=A0<a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/32082673.275409/aHR0cHM6Ly9zdXByZW1=
+lLmp1c3RpYS5jb20vY2FzZXMvZmVkZXJhbC91cy8zMjgvMjkzLw/607f07ceef4b8524a319a23=
+cB63a59823" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;">SEC v. W.J. Howey Co.</a>, which interprets the term =
+=E2=80=9Cinvestment contract,=E2=80=9D perhaps the most general category on=
+ the list. Howey owned a bunch of=C2=A0orange groves and sold plots in them=
+=C2=A0to investors, along with service=C2=A0contracts in which Howey would =
+manage the groves for the investors, harvest the oranges, sell them and spl=
+it the profits among the investors. Howey argued that it wasn=E2=80=99t sel=
+ling=C2=A0<em>shares=C2=A0</em>in a <em>business</em>; it was selling=C2=A0=
+<em>real estate=C2=A0</em>=E2=80=94 land, trees =E2=80=94=C2=A0and also off=
+ering a service contract. The Supreme Court said, nope, that=E2=80=99s a se=
+curity:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">An investment contract, for purposes of the Se=
+curities Act, means a contract, transaction or scheme whereby a person inve=
+sts his money in a common enterprise and is led to expect profits solely fr=
+om the efforts of the promoter or a third party, it being immaterial whethe=
+r the shares in the enterprise are evidenced by formal certificates or by n=
+ominal interests in the physical assets employed in the enterprise. Such a =
+definition =E2=80=A6 permits the fulfillment of the statutory purpose of co=
+mpelling full and fair disclosure relative to the issuance of =E2=80=9Cthe =
+many types of instruments that, in our commercial world, fall within the or=
+dinary concept of a security.=E2=80=9D =E2=80=A6 It embodies a flexible, ra=
+ther than a static, principle, one that is capable of adaptation to meet th=
+e countless and variable schemes devised by those who seek the use of the m=
+oney of others on the promise of profits.=C2=A0=E2=80=A6</p>
+<p style=3D"margin: 16px 0;">The test is whether the scheme involves an inv=
+estment of money in a common enterprise with profits to come solely from th=
+e efforts of others.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Howey, like the shady companies of the 1920s, =
+was seeking =E2=80=9Cthe use of the money of others on the promise of profi=
+ts.=E2=80=9D So was Facebook=C2=A0in 2012. Meta in 2023 is =E2=80=A6=C2=A0n=
+ot, quite. It=E2=80=99s not=C2=A0<em>seeking=C2=A0</em>any money. Meta has =
+the money already, and keeps making more. The stock is already out there. I=
+f you buy Meta stock, is that an investment contract? Is it =E2=80=9Can inv=
+estment of money in a common enterprise,=E2=80=9D when you are not actually=
+ giving Meta any money? Are you expecting profits =E2=80=9Csolely from the =
+efforts of others=E2=80=9D =E2=80=94=C2=A0the work that Mark Zuckerberg doe=
+s to increase the profits of Meta =E2=80=94=C2=A0when, after all, Meta has =
+no direct obligation to share its profits with you? Aren=E2=80=99t you just=
+ expecting profits from the speculative market movements in Meta stock? If =
+you buy Meta stock at $313 and it goes to $320 and you sell, you have a pro=
+fit, but your profit is not due (directly) to the efforts of anyone at Meta=
+; your profit is due to the anonymous inscrutable market forces of the stoc=
+k exchange.</p>
+<p style=3D"margin: 16px 0;">Well, this is dumb, it doesn=E2=80=99t matter =
+if Meta stock is an =E2=80=9Cinvestment contract=E2=80=9D under a literal r=
+eading of Howey. Meta stock is=C2=A0<em>stock</em>, and =E2=80=9Cthe term =
+=E2=80=98security=E2=80=99 means any =E2=80=A6=C2=A0stock,=E2=80=9D as well=
+ as the other stuff.</p>
+<p style=3D"margin: 16px 0;">Ripple Labs Inc. is a company that does crypto=
+ stuff. It =E2=80=9Cseeks to modernize international=C2=A0payments by devel=
+oping a global payments network for international currency transfers,=E2=80=
+=9D that sort of thing.<a class=3D"footnote-index" href=3D"#footnote-7" sty=
+le=3D"color: #000000; text-decoration: none !important; border-bottom-width=
+: 1px; border-bottom-color: #000000; border-bottom-style: none !important; =
+background-color: transparent !important; display: inline-block;">
+<span>[7]</span>
+</a>=C2=A0A big part of that network involves the XRP token, a crypto token=
+ that runs on the XRP blockchain, which was created by Ripple=E2=80=99s fou=
+nders. Unlike Bitcoin and many other cryptocurrencies, though, XRP are not =
+generated by mining in a decentralized way: <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32082673.275409/aHR0cHM6Ly93d3cuY29pbmRlc2suY29tL=
+2NvbnNlbnN1cy1tYWdhemluZS8yMDIzLzA2LzEzL3JpcHBsZS1kb2VzLW5vdC1jYXJlLXdoZXRo=
+ZXIteHJwLWlzLXN1ZmZpY2llbnRseS1kZWNlbnRyYWxpemVkLw/607f07ceef4b8524a319a23c=
+Bb31e2194" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> All the XRP that will ever exist</a> were created at th=
+e founding and given to Ripple and its founders; XRP was totally owned and =
+controlled by Ripple.=C2=A0=E2=80=9COf the 100 billion XRP generated by the=
+ XRP Ledger=E2=80=99s code, the three founders=C2=A0retained 20 billion for=
+ themselves ... and provided 80 billion XRP to Ripple.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">And then Ripple, to raise money to build its g=
+lobal payments network, and to create a market for the XRP token that would=
+ underpin that network, started selling XRP. It raised about $728.9 million=
+ by selling XRP in over-the-counter sales directly=C2=A0to institutional co=
+unterparties (hedge funds, banks, etc.), usually with legal documents gover=
+ning the terms of the purchases. XRP became a popular and widely traded cry=
+pto token, listed on many crypto exchanges. And as it became publicly trade=
+d on crypto exchanges, Ripple also sold some of its XRP in the open market =
+on those exchanges,=C2=A0raising about $757.6 million by selling XRP =E2=80=
+=9C=E2=80=98programmatically,=E2=80=99 or through the use of trading algori=
+thms.=E2=80=9D Ripple also distributed XRP as employee compensation, and to=
+ =E2=80=9Cthird parties that would develop new applications for XRP and the=
+ XRP Ledger.=E2=80=9D=C2=A0</p>
+<p style=3D"margin: 16px 0;">In 2020, <a href=3D"https://link.mail.bloomber=
+gbusiness.com/click/32082673.275409/aHR0cHM6Ly93d3cuc2VjLmdvdi9uZXdzL3ByZXN=
+zLXJlbGVhc2UvMjAyMC0zMzg/607f07ceef4b8524a319a23cB7d488292" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> the SE=
+C sued Ripple</a>, arguing that XRP is a security and Ripple was doing unre=
+gistered securities offerings. Ripple was selling this token to raise money=
+ to build its business, and it was selling the token by telling investors t=
+hat it was a good investment. It was, the SEC reasonably believed, one of =
+=E2=80=9Cthe countless and variable schemes devised by those who seek the u=
+se of the money of others on the promise of profits,=E2=80=9D but Ripple di=
+d not register its securities offerings or file financial statements with t=
+he SEC.</p>
+<p style=3D"margin: 16px 0;">Yesterday the federal judge in the case, Judge=
+ Analisa Torres of the Southern District of New York, <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/32082673.275409/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMTMvcmlwcGxlLXRva2VuLWlzLWEtc2VjdX=
+JpdHktaW4taW5zdGl0dXRpb25hbC1zYWxlcy1qdWRnZS1ydWxlcz9jbXBpZD1CQkQwNzE0MjNfT=
+U9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVy=
+bT0yMzA3MTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBfdef1d=
+46" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  issued</a> an important and rather strange ruling in the cas=
+e. Here is <a href=3D"https://link.mail.bloombergbusiness.com/click/3208267=
+3.275409/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeE=
+lVL3JWcXlMRnlFWm56OC92MA/607f07ceef4b8524a319a23cB47db97a2" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> her op=
+inion</a>. Basically she ruled that=C2=A0<em>sometimes=C2=A0</em>XRP is a s=
+ecurity and=C2=A0<em>sometimes=C2=A0</em>it isn=E2=80=99t. When Ripple sold=
+ XRP to institutional investors in over-the-counter trades, with due dilige=
+nce and investment agreements, that was an =E2=80=9Cinvestment contract=E2=
+=80=9D and so a securities offering. When Ripple sold XRP to retail investo=
+rs in on-exchange trades, anonymously and with no disclosure, that was not =
+an =E2=80=9Cinvestment contract=E2=80=9D and so not a securities offering.<=
+/p>
+<p style=3D"margin: 16px 0;">That=E2=80=99s <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32082673.275409/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlb=
+nQvY2RjMjA0MzUtZmYzZS00MTQ4LTk2YjctODFmNzAyMTFjYzJk/607f07ceef4b8524a319a23=
+cBa264d897" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank=
+" style=3D"color: #000000; text-decoration: none !important; border-bottom-=
+width: 1px; border-bottom-color: #000000; border-bottom-style: solid; backg=
+round-color: #ccc;"> so weird</a>!</p>
+<p style=3D"margin: 16px 0;">I should say: I don=E2=80=99t have a strong vi=
+ew on whether XRP is a security. My gut is that it is, that it is effective=
+ly a kind of quasi-stock in Ripple=E2=80=99s ecosystem, that it is valuable=
+ if Ripple does the work to find banking partners and build a good payments=
+ network and useless if it does not. Here, from Judge Torres=E2=80=99=C2=A0=
+opinion, is the argument that XRP is a security, that it is an =E2=80=9Cinv=
+estment contract=E2=80=9D because it =E2=80=9Cinvolves an investment of mon=
+ey in a common enterprise with profits to come solely from the efforts of o=
+thers=E2=80=9D (citations omitted):</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Here, the Institutional Buyers invested money =
+by providing fiat or other currency in exchange for XRP.=C2=A0Defendants do=
+ not dispute that Ripple received money for XRP through its Institutional S=
+ales. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Each Institutional Buyer=E2=80=99s ability to =
+profit was tied to Ripple=E2=80=99s fortunes and the fortunes of other Inst=
+itutional Buyers because all Institutional Buyers received the same fungibl=
+e XRP.=C2=A0Ripple used the funds it received from its Institutional Sales =
+to promote and increase the value of XRP by developing uses for XRP and pro=
+tecting the XRP trading market. When the value of XRP rose, all Institution=
+al Buyers profited in proportion to their XRP holdings.</p>
+<p style=3D"margin: 16px 0;">Based on the totality of circumstances, the Co=
+urt finds that reasonable investors, situated in the position of the Instit=
+utional Buyers, would have purchased XRP with the expectation that they wou=
+ld derive profits from Ripple=E2=80=99s efforts. From Ripple=E2=80=99s comm=
+unications, marketing campaign, and the nature of the Institutional Sales, =
+reasonable investors would understand that Ripple would use the capital rec=
+eived from its Institutional Sales to improve the market for XRP and develo=
+p uses for the XRP Ledger, thereby increasing the value of XRP.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Starting in 2013, Ripple marketed XRP to poten=
+tial investors, including the Institutional Buyers, by distributing promoti=
+onal brochures that touted XRP as an investment tied to the company=E2=80=
+=99s success. For instance, in the =E2=80=9CDeep Dive=E2=80=9D brochure, wh=
+ich was circulated to prospective investors, Ripple explains that its =E2=
+=80=9Cbusiness model is predicated on a belief that demand for XRP will inc=
+rease . . . if the Ripple protocol becomes widely adopted,=E2=80=9D and =E2=
+=80=9C[i]f the Ripple protocol becomes the backbone of global value transfe=
+r, Ripple . . . expects the demand for XRP to be considerable.=E2=80=9D =E2=
+=80=A6 In February 2018, Schwartz posted on Reddit that what =E2=80=9Creall=
+y set[s] XRP apart from any other digital asset=E2=80=9D is the =E2=80=9Cam=
+azing team of dedicated professionals that Ripple has managed to amass to d=
+evelop an ecosystem around XRP.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Ripple raised money by selling XRP to investor=
+s, it used the money to try to build its payments network, and it told the =
+investors that if it successfully built its payments network then the value=
+ of XRP would go up. That seems very securities-offering-like.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Still I=C2=A0think that there is a real argume=
+nt that XRP=C2=A0is not a security, that it is what crypto people call a =
+=E2=80=9Cutility token,=E2=80=9D or a commodity like Bitcoin. XRP comes fro=
+m the fairly early days of crypto, and it seems to have originally been con=
+ceived as a Bitcoin competitor, a pure payment token. (In 2013,=C2=A0Ripple=
+=E2=80=99s marketing materials said =E2=80=9CCan a virtual currency really =
+create and hold value?=C2=A0<em>Bitcoin proves it can.</em>=E2=80=9D) You c=
+an imagine saying something like =E2=80=9Cwell the XRP Ledger is just this =
+decentralized blockchain that kind of exists on its own, and anyone can wor=
+k on it and use it to transfer value, and the XRP tokens are just the curre=
+ncy of that blockchain, like Bitcoin is the currency of the Bitcoin ledger.=
+ XRP, like Bitcoins,=C2=A0are not securities, and it=C2=A0<em>just so happe=
+ns=C2=A0</em>that Ripple Labs owns almost all of them, but it can sell them=
+ freely just like any Bitcoin billionaire can sell her Bitcoins.=E2=80=9D I=
+ don=E2=80=99t really think that that=E2=80=99s right, but I wasn=E2=80=99t=
+ paying that much attention in 2013, and I think it=E2=80=99s=C2=A0<em>poss=
+ible</em>. =E2=80=9CXRP is just a commodity that Ripple owns a lot of, just=
+ like oil is a commodity that Saudi Aramco owns a lot of, and oil is not a =
+security.=E2=80=9D<a class=3D"footnote-index" href=3D"#footnote-8" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: none !important; backg=
+round-color: transparent !important; display: inline-block;">
+<span>[8]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">But Judge Torres seems to have (implicitly) re=
+jected that argument and found that when Ripple went around selling XRP to =
+institutional investors, it was selling securities.</p>
+<p style=3D"margin: 16px 0;">But then she went on to say that when Ripple w=
+ent around selling XRP on crypto exchanges with=C2=A0<em>no=C2=A0</em>discl=
+osure, it was=C2=A0<em>not=C2=A0</em>selling securities. The disclosure cre=
+ates the liability: If you go to an investor and say =E2=80=9Chi, we are th=
+e issuer of this token, we think it is a good token, would you like some,=
+=E2=80=9D then you are selling a security; if you just anonymously dump the=
+ token to retail investors on a crypto exchange, then you are not. Judge To=
+rres writes (citations omitted):</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">The Court next addresses Ripple=E2=80=99s Prog=
+rammatic Sales, which occurred under different circumstances from the Insti=
+tutional Sales. The SEC alleges that in the Programmatic Sales to public bu=
+yers (=E2=80=9CProgrammatic Buyers=E2=80=9D) on digital asset exchanges, =
+=E2=80=9CRipple understood that people were speculating on XRP as an invest=
+ment,=E2=80=9D =E2=80=9Cexplicitly targeted speculators[,] and made increas=
+ed speculative volume a =E2=80=98target goal.=E2=80=99=E2=80=9D ...</p>
+<p style=3D"margin: 16px 0;">Having considered the economic reality of the =
+Programmatic Sales, the Court concludes that the undisputed record does not=
+ establish the third Howey prong. Whereas the Institutional Buyers reasonab=
+ly expected that Ripple would use the capital it received from its sales to=
+ improve the XRP ecosystem and thereby increase the price of XRP,=C2=A0Prog=
+rammatic Buyers could not reasonably expect the same. Indeed, Ripple=E2=80=
+=99s Programmatic Sales were blind bid/ask transactions, and Programmatic B=
+uyers could not have known if their payments of money went to Ripple, or an=
+y other seller of XRP. Since 2017, Ripple=E2=80=99s Programmatic Sales repr=
+esented less than 1% of the global XRP trading volume. Therefore, the vast =
+majority of individuals who purchased XRP from digital asset exchanges did =
+not invest their money in Ripple at all. An Institutional Buyer knowingly p=
+urchased XRP directly from Ripple pursuant to a contract, but the economic =
+reality is that a Programmatic Buyer stood in the same shoes as a secondary=
+ market purchaser who did not know to whom or what it was paying its money.=
+</p>
+<p style=3D"margin: 16px 0;">Further, it is not enough for the SEC to argue=
+ that Ripple =E2=80=9Cexplicitly targeted speculators=E2=80=9D or that =E2=
+=80=9CRipple understood that people were speculating on XRP as an investmen=
+t.=E2=80=9D =E2=80=A6=C2=A0It may certainly be the case that many Programma=
+tic Buyers purchased XRP with an expectation of profit, but they did not de=
+rive that expectation from Ripple=E2=80=99s efforts (as opposed to other fa=
+ctors, such as general cryptocurrency market trends)=E2=80=94particularly b=
+ecause none of the Programmatic Buyers were aware that they were buying XRP=
+ from Ripple.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Again: If you buy Meta stock on the stock exch=
+ange, there is a 0% chance that you are buying it from Meta, or that Meta w=
+ill get your $313 and use it to improve the Threads=C2=A0ecosystem and ther=
+eby increase the price of Meta stock. And yet it is a security. What makes =
+it a security is not that you have entered into a direct transaction with M=
+eta, but that it was=C2=A0<em>originally issued=C2=A0</em>to raise money fo=
+r Meta. It keeps being a security even as it trades.</p>
+<p style=3D"margin: 16px 0;">Now I should say that there is a popular argum=
+ent in crypto circles that this is not true for =E2=80=9Cinvestment contrac=
+ts,=E2=80=9D that an investment contract is only an investment contract whe=
+n you buy it from the issuer, and that when it trades in the secondary mark=
+et it is no longer a security.<a class=3D"footnote-index" href=3D"#footnote=
+-9" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: none !impo=
+rtant; background-color: transparent !important; display: inline-block;">
+<span>[9]</span>
+</a>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/32082673=
+.275409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDY=
+tMDcvd2hlbi1pcy1hLXRva2VuLW5vdC1hLXNlY3VyaXR5P2NtcGlkPUJCRDA3MTQyM19NT05FWV=
+NUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzM=
+DcxNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBf6e961b1" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;">This argument</a> is, for instance, very important to Coinbase Global=
+ Inc., which is being sued by the SEC for operating an unregistered securit=
+ies <em>exchange:=C2=A0</em>If crypto tokens are never securities in the se=
+condary market, then Coinbase is off the hook.</p>
+<p style=3D"margin: 16px 0;">But notice that Judge Torres goes=C2=A0<em>way=
+=C2=A0</em>beyond that claim: She seems to conclude=C2=A0not only that seco=
+ndary-market transactions are <em>never=C2=A0</em>securities offerings, bec=
+ause the money doesn=E2=80=99t go to Ripple, but also that=C2=A0<em>even wh=
+en the money does go to Ripple it=E2=80=99s not a securities offering</em>,=
+ as long as Ripple=E2=80=99s sales are mixed in with enough secondary sales=
+ that people don=E2=80=99t=C2=A0<em>know=C2=A0</em>that their money is goin=
+g to Ripple. Imagine if that were the law for stock offerings! (It is not: =
+Public companies do =E2=80=9Cat-the-market=E2=80=9D offerings where they se=
+ll stock anonymously on the stock exchange, but they have to register them =
+and announce them publicly.) The implication is that if a crypto issuer pub=
+licly and openly sells its tokens, that is an illegal securities offering, =
+but if it sneaks in a few token sales on the exchange then it is not.<a cla=
+ss=3D"footnote-index" href=3D"#footnote-10" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: none !important; background-color: transparen=
+t !important; display: inline-block;">
+<span>[10]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">She goes on (citations omitted):</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">It may certainly be the case that many Program=
+matic Buyers purchased XRP with an expectation of profit, but they did not =
+derive that expectation from Ripple=E2=80=99s efforts (as opposed to other =
+factors, such as general cryptocurrency market trends)=E2=80=94particularly=
+ because none of the Programmatic Buyers were aware that they were buying X=
+RP from Ripple. ...</p>
+<p style=3D"margin: 16px 0;">The Institutional Buyers were sophisticated en=
+tities, including institutional investors and hedge funds. An =E2=80=9Cexam=
+ination of the entirety of the parties=E2=80=99 understandings and expectat=
+ions,=E2=80=9D including the =E2=80=9Cfull set of contracts, expectations, =
+and understandings centered on the sales and distribution of=E2=80=9D XRP s=
+upports the conclusion that a reasonable investor, situated in the position=
+ of the Institutional Buyers, would have been aware of Ripple=E2=80=99s mar=
+keting campaign and public statements connecting XRP=E2=80=99s price to its=
+ own efforts. There is no evidence that a reasonable Programmatic Buyer, wh=
+o was generally less sophisticated as an investor, shared similar =E2=80=9C=
+understandings and expectations=E2=80=9D and could parse through the multip=
+le documents and statements that the SEC highlights, which include statemen=
+ts (sometimes inconsistent) across many social media platforms and news sit=
+es from a variety of Ripple speakers (with different levels of authority) o=
+ver an extended eight-year period.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">That is: If you go around making public statem=
+ents, on your website and on Reddit and elsewhere, saying things like =E2=
+=80=9Cif you buy our token we will use the money to build an ecosystem and =
+make the token more valuable,=E2=80=9D that makes your token a security,=C2=
+=A0<em>but only to people who are sophisticated enough to read your website=
+</em>. Sophisticated institutional investors who read your disclosure docum=
+ents and understand that they are making an investment in your business are=
+ entitled to the protections of the securities laws, while random retail da=
+y-traders who just like your ticker symbol are not.=C2=A0<em>You cannot be =
+doing securities fraud on them, because they are not paying attention</em>.=
+</p>
+<p style=3D"margin: 16px 0;">I want to say three things about that theory. =
+First, it is actually intuitively very plausible? =E2=80=9CIf investors did=
+n't read your advertising, then it doesn=E2=80=99t matter if those advertis=
+ements were lies.=E2=80=9D Traditionally an element of fraud is =E2=80=9Cre=
+liance=E2=80=9D: If you lie to people to get them to give you money, and th=
+ey give you the money because of the lies, then you have defrauded them; if=
+ they didn=E2=80=99t listen to you and were going to give you the money no =
+matter what then maybe you haven=E2=80=99t.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Second, it is very much=C2=A0<em>not=C2=A0</em=
+>the rule of the stock market. It is absolutely the case that many retail i=
+nvestors=C2=A0buying Meta stock have never looked at any of Meta=E2=80=99s =
+SEC filings. If it turned out that Meta=C2=A0was=C2=A0<em>lying=C2=A0</em>i=
+n those filings, and shareholders brought a securities-fraud class action, =
+you could imagine Meta saying =E2=80=9Cwell, half of these plaintiffs didn=
+=E2=80=99t read the filings, so you should throw the case out.=E2=80=9D But=
+ that wouldn=E2=80=99t work! It is very standard US securities law that if =
+you lie in your securities filings, all your shareholders can sue you, beca=
+use=C2=A0<em>somebody=C2=A0</em>read the filings, and the lies affected the=
+ stock price, and everyone who bought the stock at the (wrong, higher, infl=
+ated-by-your-lies) price was defrauded. (This is called =E2=80=9C<a href=3D=
+"https://link.mail.bloombergbusiness.com/click/32082673.275409/aHR0cHM6Ly9l=
+bi53aWtpcGVkaWEub3JnL3dpa2kvRnJhdWRfb25fdGhlX21hcmtldA/607f07ceef4b8524a319=
+a23cB860e2cad" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bl=
+ank" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">fraud on the market</a>=E2=80=9D: Each individual in=
+vestor=C2=A0may not have relied on the lies, but the market did.)</p>
+<p style=3D"margin: 16px 0;">Third, it is =E2=80=A6=C2=A0obviously =E2=80=
+=A6=C2=A0terrible =E2=80=A6=C2=A0policy? =E2=80=9CThe securities laws prote=
+ct only sophisticated investors who negotiate directly with the company, no=
+t retail investors who trade on public exchanges=E2=80=9D is the exact oppo=
+site of the normal rule. At the Information, <a href=3D"https://link.mail.b=
+loombergbusiness.com/click/32082673.275409/aHR0cHM6Ly93d3cudGhlaW5mb3JtYXRp=
+b24uY29tL2FydGljbGVzL2NvdXJ0LXJ1bGluZy13aWxsLWNyZWF0ZS1yaXBwbGVzLWZvci1pbmR=
+pdmlkdWFsLWNyeXB0by1pbnZlc3RvcnM_dXRtX3NvdXJjZT1zZyZ1dG1fbWVkaXVtPWVtYWlsJn=
+V0bV9jYW1wYWlnbj1hcnRpY2xlX2VtYWlsJnV0bV9jb250ZW50PWFydGljbGUtMTA4NzUmcmM9M=
+WJkaTVo/607f07ceef4b8524a319a23cB38191de9" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> Akash Pasricha writes</=
+a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Securities laws were specifically designed to =
+protect individual investors, based on the idea that they =E2=80=9Ccan=E2=
+=80=99t fend for themselves,=E2=80=9D James Carlson, a New York University =
+adjunct securities regulation professor, told me today. By the same token .=
+.. =E2=80=9Cbig institutional investors don=E2=80=99t need the protections =
+of the securities laws. =E2=80=A6 This effectively stands that philosophy o=
+n its head,=E2=80=9D he said.</p>
+<p style=3D"margin: 16px 0;">The implications of this part of the ruling ar=
+e worrisome. As Carlson said, =E2=80=9CThe potential for bucket shop or boi=
+ler room fraud =E2=80=A6 is alarming.=E2=80=9D Carlson painted a scenario w=
+here a crypto firm issues tokens to heavyweight institutional traders, who =
+get detailed disclosures required by securities laws, but they then flip it=
+ to individual traders, who don=E2=80=99t get those disclosures.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Except you don=E2=80=99t even need that. Why s=
+ell tokens to institutional traders (with securities disclosures) so that t=
+hey can flip to retail, when you can just sell to retail yourself with <em>=
+no</em> disclosure? As long as you sell to retail investors on the exchange=
+, you=E2=80=99re safe. <em>Even if you broadly advertise how good a job you=
+ will do and how much profit those investors will make</em>, you are still =
+not doing a securities offering! Because you are selling the tokens anonymo=
+usly on the crypto exchange, so no one can prove who bought them from you, =
+so no one can prove if any of the buyers=C2=A0<em>read=C2=A0</em>your adver=
+tising. It is a get-out-of-securities-law-free ruling.</p>
+<p style=3D"margin: 16px 0;">I assume the SEC will appeal.=C2=A0I suppose t=
+here are three possibilities here:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Judge Torres is wrong, the SEC is rig=
+ht, and a thing is an "investment contract=E2=80=9D based on its original s=
+ubstance, even if it later trades in the secondary market. If Meta sells me=
+ a share of stock and then I sell it to you, it remains a security; if Howe=
+y sells me an orange-grove-management contract and I resell it to you, it r=
+emains a security. I think that this is the right answer, though I am not c=
+onfident in that. Particularly in crypto, where tokens have a non-security =
+utility, there=C2=A0<em>is=C2=A0</em>a good argument that tokens can change=
+ character over time, that they can start off as securities and end up as s=
+omething else. We have <a href=3D"https://link.mail.bloombergbusiness.com/c=
+lick/32082673.275409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbG=
+VzLzIwMjMtMDYtMDcvd2hlbi1pcy1hLXRva2VuLW5vdC1hLXNlY3VyaXR5P2NtcGlkPUJCRDA3M=
+TQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0=
+bV90ZXJtPTIzMDcxNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23c=
+Cf6e961b1" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">  discussed that theory before</a>, but I will just note=
+ that it is=C2=A0<em>not=C2=A0</em>the theory of the Ripple opinion. The th=
+eory here is much stranger: It=E2=80=99s=C2=A0that each individual token sa=
+le is a securities offering=C2=A0if the investors are sophisticated and not=
+ if they are not.</li>=09<li style=3D"margin-bottom: 5px;">Judge Torres is =
+right in her =E2=80=9Cinvestment contract=E2=80=9D analysis, but the Howey =
+=E2=80=9Cinvestment contract=E2=80=9D test is not the right way to think ab=
+out crypto. The right way to think about crypto tokens is that they are qua=
+si-stocks in crypto projects, and so they are securities even upon resale, =
+not because each resale meets the Howey test but because stock is always st=
+ock. The right way to think about crypto tokens is not by parsing the Howey=
+ elements for each transaction, but by saying =E2=80=9Cwell how does it wor=
+k with stock?=E2=80=9D and reasoning by analogy.=C2=A0I think that this is,=
+ broadly speaking, the right intuition, and I kind of wish it was the law, =
+but I don=E2=80=99t really think it is. (And, again, it breaks down for tok=
+ens that have utility in a blockchain ecosystem, which can start out lookin=
+g like stock and end up looking like airline miles or Starbucks gift cards =
+or a currency to pay for cloud computing time.)</li>=09<li style=3D"margin-=
+bottom: 5px;">Judge Torres is right, the SEC is wrong, and no crypto token =
+is a security unless the issuer sells it directly to venture capitalists in=
+ a=C2=A0fundraising round.</li>
+</ol>
+<p style=3D"margin: 16px 0;">In some ways, that last result would be very g=
+ood for the crypto industry. Most immediately, it would be a complete win f=
+or Coinbase Global Inc., which is <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32082673.275409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9=
+uL2FydGljbGVzLzIwMjMtMDYtMDYvdGhlLXNlYy1jb21lcy1mb3ItY3J5cHRvP2NtcGlkPUJCRD=
+A3MTQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJ=
+nV0bV90ZXJtPTIzMDcxNCZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a=
+23cBc0044ef0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">  fighting its own case</a> in which the SEC argues t=
+hat it is operating an unregistered securities exchange. One implication of=
+ Judge Torres=E2=80=99=C2=A0ruling is that cryptocurrencies are only securi=
+ties if you know that you are buying=C2=A0them directly from the company; i=
+f you buy them in the secondary market =E2=80=94=C2=A0on Coinbase, for inst=
+ance =E2=80=94=C2=A0then they are not. So there are no securities listed on=
+ Coinbase =E2=80=94=C2=A0in fact, it is <em>impossible=C2=A0</em>for Coinba=
+se to list any securities<a class=3D"footnote-index" href=3D"#footnote-11" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: none !importan=
+t; background-color: transparent !important; display: inline-block;">
+<span>[11]</span>
+</a> =E2=80=94 so it is not an illegal securities exchange. <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/32082673.275409/aHR0cHM6Ly93d3cuY=
+mxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMTMvY3J5cHRvY3VycmVuaWVzLWp1=
+bXAtYXMteHJwLXJ1bGluZy10b3V0ZWQtYnktaW5kdXN0cnktc3VwcG9ydGVycz9jbXBpZD1CQkQ=
+wNzE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlci=
+Z1dG1fdGVybT0yMzA3MTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a=
+23cBe3562f34" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">  Good news for Coinbase</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Coinbase Global Inc. rose the most since its p=
+ublic debut, climbing as high as $109.21. The exchange is embroiled in a la=
+wsuit of its own with the SEC that alleges that it sold tokens that are unr=
+egistered securities.</p>
+<p style=3D"margin: 16px 0;">=E2=80=9CThis underscores that direct sales of=
+ digital assets by an issuer will often be securities, but other sales, mos=
+t notably sales on the secondary market, are unlikely to be deemed securiti=
+es, which is a key argument in Coinbase=E2=80=99s defense against the SEC,=
+=E2=80=9D said Elliott Stein, Bloomberg Intelligence senior analyst for lit=
+igation.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">More broadly, if you take this decision seriou=
+sly, it means that the SEC has essentially no jurisdiction over crypto. Mos=
+t token sales will either be (1) direct to institutional investors or (2) o=
+n exchanges. Sales on exchanges, says Judge Torres, are not securities offe=
+rings, because the buyer doesn=E2=80=99t <em>know=C2=A0</em>that she is giv=
+ing money <em>to the issuer</em>. Sales to institutional investors <em>are=
+=C2=A0</em>securities offerings, but anyone selling anything to institution=
+al investors in 2023 can do so under an exemption from securities registrat=
+ion. (Securities registration is only for=C2=A0<em>public=C2=A0</em>sales, =
+not sales to big institutions.) So basically no crypto sales will ever requ=
+ire SEC registration, no crypto exchange or brokerage will be a <em>securit=
+ies=C2=A0</em>exchange or brokerage,<a class=3D"footnote-index" href=3D"#fo=
+otnote-12" style=3D"color: #000000; text-decoration: none !important; borde=
+r-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: non=
+e !important; background-color: transparent !important; display: inline-blo=
+ck;">
+<span>[12]</span>
+</a> and the SEC is out of crypto entirely.</p>
+<p style=3D"margin: 16px 0;">But I am not sure that it is actually all that=
+ good for crypto in the long run. The message of this decision is that cryp=
+to companies can freely sell tokens to retail investors as long as those re=
+tail investors are uninformed and the companies are secretive about it; onl=
+y if they sell tokens openly to sophisticated investors will they get in tr=
+ouble.=C2=A0<em>That=E2=80=99s bad</em>.</p>
+<p style=3D"margin: 16px 0;">In the 1920s,=C2=A0a lot of people started ver=
+y shady companies and raised a lot of money by selling stock with bad and m=
+isleading disclosures, and so the securities laws were created to stop them=
+. That did not have the result of stamping out stock issuance in the US. Qu=
+ite the contrary! The US stock market was=C2=A0<em>helped enormously=C2=A0<=
+/em>by having disclosure rules and protections for retail investors. The ba=
+sic rule of the US stock market is =E2=80=9Cyou can kind of do what you lik=
+e with sophisticated investors, but there are strict rules about how much y=
+ou have to disclose to retail investors,=E2=80=9D and that works out well. =
+The opposite rule in this case =E2=80=94=C2=A0=E2=80=9Cyou can do what you =
+like with retail, but stay away from sophisticated investors=E2=80=9D =E2=
+=80=94=C2=A0seems likely to work out poorly. If the law <em>encourages=C2=
+=A0</em>crypto companies to take advantage of the least sophisticated inves=
+tors, then who would want to invest in crypto?</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32082673.275409/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjA4MjY3MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIzNTgwODImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cC76591d1d" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32082673&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32358082&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32082673.275409/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMjA4MjY3MyZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzIzNTgwODImc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cD76591d1d" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D32082673&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D32358082&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">JPMorgan Notches <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/32082673.275409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmN=
+vbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMTQvanBtb3JnYW4tbm90Y2hlcy1hbm90aGVyLW5paS=
+1yZWNvcmQtYW5kLWxpZnRzLWZ1bGwteWVhci1ndWlkYW5jZT9jbXBpZD1CQkQwNzE0MjNfTU9OR=
+VlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0y=
+MzA3MTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB9396383a" =
+itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"c=
+olor: #000000; text-decoration: none !important; border-bottom-width: 1px; =
+border-bottom-color: #000000; border-bottom-style: solid; background-color:=
+ #ccc;">  Record Revenue</a> on Rates, First Republic Deal.=C2=A0<a href=3D=
+"https://link.mail.bloombergbusiness.com/click/32082673.275409/aHR0cHM6Ly93=
+d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMTQvY2l0aS1nZXRzLWJvb3N=
+0LWZyb20tY3JlZGl0LWNhcmRzLWFzLWJvcnJvd2Vycy1zdGFydC10by1zdHJ1Z2dsZT9jbXBpZD=
+1CQkQwNzE0MjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xld=
+HRlciZ1dG1fdGVybT0yMzA3MTQmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524=
+a319a23cB2b75d665" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D=
+"_blank" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;">Citi</a> Gets Boost From Credit Cards as Borrowe=
+rs Start to Struggle.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/32082673.275409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbG=
+VzLzIwMjMtMDctMTQvd2VsbHMtZmFyZ28tbGlmdHMtbmV0LWludGVyZXN0LWluY29tZS1ndWlkY=
+W5jZS1vbi1yYXRlLWhpa2VzP2NtcGlkPUJCRDA3MTQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09=
+ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcxNCZ1dG1fY2FtcGFpZ24=
+9bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB78559cd3" itemprop=3D"StoryLink" i=
+temscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-deco=
+ration: none !important; border-bottom-width: 1px; border-bottom-color: #00=
+0000; border-bottom-style: solid; background-color: #ccc;">  Wells Fargo</a=
+> Lifts Net Interest Income Guidance on Rate Hikes.=C2=A0<a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/32082673.275409/aHR0cHM6Ly93d3cuYmxv=
+b21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDctMTQvYmxhY2tyb2NrLWFzc2V0cy1yaXN=
+lLXRvLTktNC10cmlsbGlvbi1mdWVsZWQtYnktYnVsbC1tYXJrZXQ_Y21waWQ9QkJEMDcxNDIzX0=
+1PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlc=
+m09MjMwNzE0JnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB28c0e9=
+c7" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;">  BlackRock</a> Assets Rise to $9.4 Trillion, Fueled by Bull R=
+un. Silicon Valley start-ups explore sales as <a href=3D"https://link.mail.=
+bloombergbusiness.com/click/32082673.275409/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnR=
+lbnQvYTc1NzBlODItYWQ1OC00ZWQzLWJkOGYtYzg5ZDdhYzgxMGYz/607f07ceef4b8524a319a=
+23cB57833af8" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> funding runs dry</a>. French Billionaire Pinault Is =
+in Talks to Buy <a href=3D"https://link.mail.bloombergbusiness.com/click/32=
+082673.275409/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtM=
+DctMTQvZnJlbmNoLWJpbGxpb25haXJlLXBpbmF1bHQtaXMtaW4tdGFsa3MtdG8tYnV5LWNhYS10=
+YWxlbnQtYWdlbmN5P2NtcGlkPUJCRDA3MTQyM19NT05FWVNUVUZGJnV0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDcxNCZ1dG1fY2FtcGFpZ249bW9uZX=
+lzdHVmZg/607f07ceef4b8524a319a23cB2aaf1aa8" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">  CAA</a> Talent Agency=
+ in $7 Billion Deal.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.co=
+m/click/32082673.275409/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9mdHgtc3Vlcy1=
+vdmVyLWV1cm9wZWFuLXVuaXQtZGVhbC1zZWVraW5nLXRvLXJlY292ZXItMzIzLW1pbGxpb24tNT=
+czZGQ5MDU_bW9kPWl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cBd6942112" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> FTX Sues</a> Over European Unit Deal, Seeking to Recover $323 Millio=
+n. More than 120 senior <a href=3D"https://link.mail.bloombergbusiness.com/=
+click/32082673.275409/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvOTQwZTY2NmItYTNlM=
+i00ZGUyLTlmMWQtYTk0NzJkM2IzMDBl/607f07ceef4b8524a319a23cB555d2bde" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ Credit Suisse</a> investment bankers flee for rivals. Stablecoin <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/32082673.275409/aHR0cHM6L=
+y9ibHVlY2hpcC5vcmcv/607f07ceef4b8524a319a23cB0b2adbe5" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-=
+decoration: none !important; border-bottom-width: 1px; border-bottom-color:=
+ #000000; border-bottom-style: solid; background-color: #ccc;"> rating agen=
+cy</a>. Airport <a href=3D"https://link.mail.bloombergbusiness.com/click/32=
+082673.275409/aHR0cHM6Ly9uaWNrZ3JheS5uZXQvYWlycG9ydC8/607f07ceef4b8524a319a=
+23cBd392c20e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_bla=
+nk" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;"> rides</a>. Tortoise <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/32082673.275409/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2=
+xlcy90b3J0b2lzZS1lc3RhdGUtcGxhbm5pbmctZm9yLXBldC1vd25lcnMtNTYxM2I2YTg_bW9kP=
+Wl0cF93c2omcnU9eWFob28/607f07ceef4b8524a319a23cB57da3476" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> trusts</=
+a>. A <a href=3D"https://link.mail.bloombergbusiness.com/click/32082673.275=
+409/aHR0cHM6Ly93d3cubGF0aW1lcy5jb20vY2FsaWZvcm5pYS9zdG9yeS8yMDIzLTA3LTEyL2E=
+tcmVuZWdhZGUtc2VhLW90dGVyLWlzLXRlcnJvcml6aW5nLWNhbGlmb3JuaWEtc3VyZmVycw/607=
+f07ceef4b8524a319a23cBe9943e5d" itemprop=3D"StoryLink" itemscope=3D"itemsco=
+pe" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;"> renegade sea otter</a> is terroriz=
+ing California surfers.</p>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/32082673.275409/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB65713e5b" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/32082673.275409/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cB411fc65d" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] Lazily estimated from the =E2=80=9Cadditio=
+nal paid-in capital=E2=80=9D line in the <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/32082673.275409/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZl=
+cy9lZGdhci9kYXRhLzEzMjY4MDEvMDAwMTE5MzEyNTEyMjQwMTExL2QyODc5NTRkNDI0YjQuaHR=
+tI3RvYzI4Nzk1NF82/607f07ceef4b8524a319a23cCcd5bd3e6" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> capitalizatio=
+n table</a> of the IPO prospectus.</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] I mean, in a public offering for cash capt=
+ured by Bloomberg=E2=80=99s CACS function. I am ignoring stock-based compen=
+sation and M&amp;A, which are sort of financing mechanisms, and in some eco=
+nomic sense relevant here, but never mind!</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] You could tell a merger story like =E2=80=
+=9CMeta loses 99% of its value and is then small enough to be acquired by T=
+witter for cash, at which point shareholders get cashed out,=E2=80=9D but t=
+hat is not a reason to buy the stock today!</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] They could resell it when Facebook went pu=
+blic, in the case of most of the pre-IPO sales, or immediately, in the case=
+ of the IPO and post-IPO sale.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] Or who got it as employee compensation or =
+founder=E2=80=99s stock or in M&amp;A.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] That is, the *company* has to register its=
+ offerings of stock, and certain affiliates and underwriters of the company=
+ have to register their sales. Ordinary sales by outsiders on the stock exc=
+hange don=E2=80=99t require registration =E2=80=94 but they are still secur=
+ities transactions, and so for instance the brokers and stock exchange invo=
+lved in the transaction are subject to SEC regulation.</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] The quotes in this paragraph and the next =
+come from <a href=3D"https://link.mail.bloombergbusiness.com/click/32082673=
+.275409/aHR0cHM6Ly9hc3NldHMuYndieC5pby9kb2N1bWVudHMvdXNlcnMvaXFqV0hCRmRmeEl=
+VL3JWcXlMRnlFWm56OC92MA/607f07ceef4b8524a319a23cC47db97a2" itemprop=3D"Stor=
+yLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;"> yesterd=
+ay=E2=80=99s court decision</a>.</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] A somewhat paradoxical element here is tha=
+t the more Ripple actually *does*, the more it works to make XRP *useful*, =
+the more security-like it is. If Ripple=E2=80=99s situation is just =E2=80=
+=9Chey we have this stash of XRP, they aren=E2=80=99t useful for much, but =
+people keep trading them so we=E2=80=99re gonna sell some,=E2=80=9D then XR=
+P is probably not a security. If Ripple succeeds in building out a widely u=
+sed payments network and signing up a bunch of banks and institutions to us=
+e XRP for their business, then the price of XRP will go up in a way that is=
+ directly tied to Ripple=E2=80=99s business, making it a bit more security-=
+like. I don=E2=80=99t think that this is entirely true =E2=80=94 if Ripple =
+gets everyone to use XRP for payments, in some ways that helps the argument=
+ that XRP is a currency rather than quasi-stock in Ripple =E2=80=94 but it =
+is partly true.</p>
+</div>
+<div id=3D"footnote-9" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[9] Proponents sometimes say that =E2=80=9Cthe=
+ investment contracts in Howey are securities, but the oranges are not.=E2=
+=80=9D This is irrelevant. The question is: If you buy a plot of land and a=
+ service contract from Howey, and three years later you find someone else t=
+o buy that same arrangement from you, is that still a security? When instit=
+utional XRP buyers bought XRP from Ripple, they didn't get XRP *plus* some =
+explicit contractual arrangement to build out the ecosystem: They got XRP, =
+and understood that if the ecosystem grew then XRP would go up.</p>
+</div>
+<div id=3D"footnote-10" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[10] Similarly, it is well understood that Mar=
+k Zuckerberg, as an affiliate of Meta, generally has to register his own sa=
+les of Meta stock, or sell within some <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/32082673.275409/aHR0cHM6Ly93d3cuc2VjLmdvdi9yZXBvcnRzcH=
+Vicy9pbnZlc3Rvci1wdWJsaWNhdGlvbnMvaW52ZXN0b3JwdWJzcnVsZTE0NA/607f07ceef4b85=
+24a319a23cB4297c6d0" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">exemption from registration</a>. He can=E2=80=
+=99t just quietly dump Meta stock on the exchange and say =E2=80=9Cwell, no=
+ one knows they=E2=80=99re buying from me, so I don=E2=80=99t have to tell =
+them.=E2=80=9D But Judge Torres finds that Ripple=E2=80=99s executives can =
+sell XRP freely, because no one knows that they=E2=80=99re buying from thos=
+e executives so the sales aren=E2=80=99t securities offerings: =E2=80=9CLar=
+sen and Garlinghouse did not know to whom they sold XRP, and the buyers did=
+ not know the identity of the seller. Thus, as a matter of law, the record =
+cannot establish the third Howey prong as to these transactions.=E2=80=9D</=
+p>
+</div>
+<div id=3D"footnote-11" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[11] Unless it listed stocks, I mean. Tokenize=
+d stocks, etc. Because a "stock" is explicitly a security whether or not it=
+ satisfies the Howey test.</p>
+</div>
+<div id=3D"footnote-12" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[12] Well. I suppose if you are a crypto inves=
+tment bank in the business of brokering token sales from issuers to venture=
+ capitalists, then those are securities offerings and you technically need =
+to register with the SEC as a securities brokerage. But brokers and exchang=
+es in the secondary market would not.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32082673.275409/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBc0cdc890" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32082673.275409/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB5f4ecdfa" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32082673.275409/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cBa80f769a" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32082673.275409/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB3b2a9fc5" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/32082673.275409/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cBdf835de3" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"> Subscribe =
+to Bloomberg.com</a> for unlimited access to trusted, data-driven journalis=
+m and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Before it=E2=80=99s here, it=E2=80=99=
+s on the=C2=A0Bloomberg=C2=A0Terminal</strong>.=C2=A0Find out more about ho=
+w the Terminal delivers information and analysis that financial professiona=
+ls can=E2=80=99t find anywhere else.=C2=A0<a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9w=
+cm9mZXNzaW9uYWwvc29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d=
+38aeBe3d4e6ab">Learn more</a>.</em></p>
+<p style=3D"margin: 0px;"><em><strong>Want to sponsor this newsletter?</str=
+ong> <a href=3D"https://link.mail.bloombergbusiness.com/click/32082673.2754=
+09/aHR0cHM6Ly93d3cuYmxvb21iZXJnbWVkaWEuY29tL2NvbnRhY3QvP3V0bV9tZWRpdW09ZW1h=
+aWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef=
+4b8524a319a23cB2bef42b0" itemprop=3D"StoryLink" itemscope=3D"itemscope" tar=
+get=3D"_blank"> Get in touch here</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/32082673.275409/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC2b58ca58" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/32082673.275409/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cBcfd27593" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/32082673.275409/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB72dd0955" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32082673.275409/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cB9=
+ac8118c" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/32082673.275409/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBe=
+2b34e36" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cj3n5d.5wi9/aca1d558.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_9831365_811409178.1689347111393--
+

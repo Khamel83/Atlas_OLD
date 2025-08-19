@@ -1,0 +1,2824 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a9a:4e10:0:b0:1f2:501d:c564 with SMTP id q16csp1733354lko;
+        Mon, 13 Jun 2022 05:58:18 -0700 (PDT)
+X-Received: by 2002:adf:f80a:0:b0:210:32ed:35bf with SMTP id s10-20020adff80a000000b0021032ed35bfmr56778746wrp.51.1655125097884;
+        Mon, 13 Jun 2022 05:58:17 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1655125097; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=MbP0iiT2xBetaoD3yg7844NAD55tmMxCPoHpbpNjg+CyeHEWn/XvTGvMVyupr5w/XO
+         g3S3oidADJ4+LEoVNALE/NzTvcSgpJ6zuLe4I+2Gm91vX8giYgNFU9m5GLnvykA7KAHm
+         Szh5CNIcUToY0aQymGZ4Fxypzak5piQBhL3MUdVO3Y70h5pZWx26LopKQaEcZKKFEt5L
+         5SDsULlCBTw5EpIKiBri6Q5x1fBMrN1Ei85dA+3EDUXiMffu/wZaR4oaNqnQEY9g/9yp
+         2B65B4yGU/+gU+44PqQTZ0SsK+j5p2+m8d97kZfAADjnDfI6KMjj7HfHBVDO2ZKEt+oe
+         pPBg==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-archive:in-reply-to:references:sender:list-url:date:list-owner
+         :list-unsubscribe:list-post:reply-to:list-id:message-id
+         :list-unsubscribe-post:to:from:subject:mime-version:dkim-signature
+         :delivered-to;
+        bh=XNqEhvAogRoyt9xa0SbOJ8TmFeyAikXfip+SUUF2Dlg=;
+        b=KBexcPvqOfnJD3jHeMWp9vT4aCtRu7/OUvVzqHmqXZo7vYqBelBSxslgd95j5mMxyk
+         5l9vFbnfeKTyFgb8I6u7HZgPHp1ivUjJcLBi7c5ISk7zp7pHhNWh20VJMXHdAtIW2XDW
+         ovhirXXPkT70egR7gecXFQRLwCEI9Pa9vdAUJB3F1tb2jfBWhUW8xaIvmIGyCaglwO2h
+         qQmAHaZ4nzaPbqb5J6AWxCVEhrzAUBafsw73PqXjMwtlGJt5fLGoQpo1fQGejcUi/xr3
+         /qb84fDztGlMBT4JIePHRU8LhUdOLweKERoDbFIfw5a4tvMM5RejV1mnMqPB84nTyZEc
+         og2A==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b="X9Pmo/o9";
+       arc=pass (i=2 dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id x1-20020adfdcc1000000b002185a3090b8sor2716470wrm.74.2022.06.13.05.58.17
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 13 Jun 2022 05:58:17 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b="X9Pmo/o9";
+       arc=pass (i=2 dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:mime-version:subject
+         :from:to:list-unsubscribe-post:message-id:list-id:reply-to:list-post
+         :list-unsubscribe:list-owner:date:list-url:sender:references
+         :in-reply-to:list-archive;
+        bh=XNqEhvAogRoyt9xa0SbOJ8TmFeyAikXfip+SUUF2Dlg=;
+        b=45L/9MFayP06jQVq5CuOaLnozxuQEjmzKhrOEt9c0Nr2V7EBXMyhZxx8BCyxsYOpnn
+         2umMCv91Wq9AvY91T4nH8sTBEldzuhgXtj6TOuGXxmTtxR0CIITiqPKKq8f2iUPPS/vX
+         LAP+LSxkrmG3fxK9gNWIbb+HniVGnjleLyAeI4gY3hCsWR7MQO0SjL1LOc2M/XM8BwYT
+         Vxdf4urnSddfDHLripqhkXXIekEPExRLpEYRlFEXRwdztnQ+BpWspYYlcnnqusllu5qq
+         cLYfakEdYjW4jVL74NliPxJxz49UuaK3Np+Nxoe9JKLQjRjhRcyXgQwxrOV6ajOe5jP0
+         fHsw==
+X-Gm-Message-State: AOAM5334bqAQbh03GoXeyCO8+2waaGSyFkcHM5yLOlkznJGG2/YJGCWr
+	hqVFhT7zkD2yU/Xg3guXrZYeB+MY0ukvLIczP705mwHUx41T56ITqw==
+X-Received: by 2002:adf:e181:0:b0:213:bbe1:ba66 with SMTP id az1-20020adfe181000000b00213bbe1ba66mr47636017wrb.325.1655125097575;
+        Mon, 13 Jun 2022 05:58:17 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:470d:0:0:0:0:0 with SMTP id y13csp877832wrq;
+        Mon, 13 Jun 2022 05:58:14 -0700 (PDT)
+X-Received: by 2002:a05:6102:2387:b0:34b:9f6d:10da with SMTP id v7-20020a056102238700b0034b9f6d10damr20542071vsr.28.1655125093952;
+        Mon, 13 Jun 2022 05:58:13 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1655125093; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=ngPqy5ILivBJ7q10mMvQHDwmxv7EYE0JTfF5YYJV5LNdFzBau/yYnoepjRf5Hu+5rZ
+         Zwo90dZ2ieklXFrQaVeq2x5PLQeXxQxy/3Xy5beZSH5FLSk9oKPqsAaL7viLMhpIN9/r
+         izsvM7Ued+UdF6oy0gdYWvcGlmxb+9ykchRifYnuKbVGxlWbaAXVbtjee1AFUPC3EJZD
+         A3cb5e7Q6/gyJibRrS985IafL7dTUS60sNxUvSx/oaABGLykf9pIIRsk14dulLftVCgX
+         r2neaU8gHOJhUbHe+2EQ8XZoLtAvW4/A68RThlgWKGt1to5qhAWoDH7j/NdrtbLoZD8w
+         dnaA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-archive:in-reply-to:references:sender:list-url:date:list-owner
+         :list-unsubscribe:list-post:reply-to:list-id:message-id
+         :list-unsubscribe-post:to:from:subject:mime-version:dkim-signature;
+        bh=XNqEhvAogRoyt9xa0SbOJ8TmFeyAikXfip+SUUF2Dlg=;
+        b=M1ky2P2JcPZ4FWuwVofVxV2o4l326O9fxRp3hpyKX4eP5oOd932ya29BgrdJZAaf6z
+         86pkxJmIR2BDJkTdiJRS7XB47BFyPSXP+BVJKv6F/a8SI6/ihZyj/xhET0t3EmJa+rS4
+         BNRwBsm7GnBK0SQCD0CJdhZzzZ/Z37YMXpw/7y6wKjDfig0/YvBVeMDDKuaR4Lqv3grY
+         BXsB3+dUdV2V9N8ZqZgXU9ec8ZZmuCxxStaFbzZJh7KVNiX+fA8LpPHSLPhHJ2jL85u3
+         1kamDJkxe4u+43Bv2oAdhtylZ9mc0iS7e3oJU1oFRqVfauzQegXIIAdlsqMZeTcI90cb
+         S4cA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b="X9Pmo/o9";
+       arc=pass (i=1 spf=pass spfdomain=mg-d1.substack.com dkim=pass dkdomain=mg-d1.substack.com dmarc=pass fromdomain=substack.com);
+       spf=softfail (google.com: domain of transitioning bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom="bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 3-20020a671503000000b0034bd7d6ebd7sor1574471vsv.73.2022.06.13.05.58.13
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 13 Jun 2022 05:58:13 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJxG5DlOekbDDZpCEdl5eGkbVGjTJ73RHx7XNcwRIvPK1Uq0lNhl4L8wwzKsIwcoO27IimfR0jDVN2A3MtG4BjD+1uQkACc=
+X-Received: by 2002:a67:e295:0:b0:34b:e02b:506f with SMTP id g21-20020a67e295000000b0034be02b506fmr14278795vsf.53.1655125093426;
+        Mon, 13 Jun 2022 05:58:13 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1655125093; cv=none;
+        d=google.com; s=arc-20160816;
+        b=KQ0m1JFWgdsbbdSElnEk4KL1m9908FG2url4cWbZJcB8fmay/VYOGV6Lx98iyBn3bG
+         maB+x9qNfim+8n/Pn8Rtvu51FSViAHBMVvrZDnuT7HqgOg099Cy8afbaz3AZyV0h8mxG
+         BDbua/ujP3R8psbWRgVnfMKmlA5gicU0LrEVww4iwlLIh/1XIEL52LlingE174ntEm6t
+         WyXjobte6/AK6BPjUuvH2ztBCtbXw8hOkbRTA8NUfobAKiTJMkFDq4iaZk/xibuW8Bsg
+         Hr97Og49FHYMRPiidNKvSNDgX5NgnD8j1UdGEyIjjHyM2Jz0bqXYIQ8OnBGlTZeho4sN
+         ADfA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-archive:in-reply-to:references:sender:list-url:date:list-owner
+         :list-unsubscribe:list-post:reply-to:list-id:message-id
+         :list-unsubscribe-post:to:from:subject:mime-version:dkim-signature;
+        bh=XNqEhvAogRoyt9xa0SbOJ8TmFeyAikXfip+SUUF2Dlg=;
+        b=NvYEW1449uGUshILMyKLZQFl8sXKSD8pYKF1hiviiW3/gi5IsETEIjv/vTD0Pz36Am
+         itd/UnfyZ6fGtdq2ZtBEuPYjrDe6KClVAR9yIB8AKNGRHakLNqLbK0nF3Zk1a7dSRCwG
+         thEloD34O+ZE6zgCs3krGONO3DRUSLvhDLVap7kbtgEwxyGEUrEd6tj70qvue5Xgxn/Q
+         5jDsNZUT88hHkl7lEkiw8Hw0GmoAa2CbX345tvI238mjNA7P/4NlXdsQNJJLkj7qFks4
+         uhvIY/aJu+bx0OgyN+nYvU9M2osJU3pnidTJsRE2KTgW5BFMA0qSXBh6wOOkWCZWY0sp
+         ADpg==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mg-d1.substack.com header.s=k1 header.b="X9Pmo/o9";
+       spf=pass (google.com: domain of bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com designates 161.38.201.130 as permitted sender) smtp.mailfrom="bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=substack.com
+Return-Path: <bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com>
+Received: from m201-130.mailgun.net (m201-130.mailgun.net. [161.38.201.130])
+        by gmr-mx.google.com with UTF8SMTPS id w125-20020a1f9483000000b0035df1d45071si466539vkd.1.2022.06.13.05.58.07
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 13 Jun 2022 05:58:13 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce+13e768.39b08c6-notboring=khamel.com@mg-d1.substack.com designates 161.38.201.130 as permitted sender) client-ip=161.38.201.130;
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mg-d1.substack.com; q=dns/txt;
+ s=k1; t=1655125092; x=1655333892; h=List-Archive: In-Reply-To:
+ References: Sender: Sender: Date: List-Owner: List-Unsubscribe:
+ List-Post: Reply-To: List-Id: Message-Id: To: To: From: From: Subject:
+ Subject: Content-Type: Mime-Version;
+ bh=XNqEhvAogRoyt9xa0SbOJ8TmFeyAikXfip+SUUF2Dlg=; b=X9Pmo/o9nloelq5h6MAAtrFmSbzlXuoqQsSg5nHkDphL1BYRb2mT3juwtjxwFeUmwanskZQM
+ 4zk9lk7WgVt0utdJyOFtOXvF2YqMPOlvj3VwqQ7xnCNcMZ8nYMhe7Y6KCMs6tDk3WiUgrKWs
+ EBCQYh41Xj4ijGUFG0gH14BLJfo=
+X-Mailgun-Sending-Ip: 161.38.201.130
+X-Mailgun-Sid: WyI1OTU0MCIsICJub3Rib3JpbmdAa2hhbWVsLmNvbSIsICIzOWIwOGM2Il0=
+Received: from <unknown> (<unknown> []) by
+ api-n17.prod.us-east-1.postgun.com with HTTP id 62a73446d21fa7c2d2b7ebbf;
+ Mon, 13 Jun 2022 12:57:39 GMT
+X-Mailgun-Batch-Id: 62a734436932de2c1d1c2056
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="d6d5ddc1524727b83468f3cac3f7eb85df9c3f122ecdee75491268e6e609"
+Subject: Ginkgo Bioworks: The Organism Company
+From: Not Boring <notboring@substack.com>
+To: notboring@khamel.com
+X-Mailgun-Tag: post
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Message-Id: <20220613125720.3.c125482e94d859af@mg-d1.substack.com>
+List-Id: <notboring.substack.com>
+Reply-To: Not Boring
+ <reply+z8tfr&9p0gt&&872c9560f134fed8bd609f3e03e93923d3a3aedeea9713a581e9c32bbeda8174@mg1.substack.com>
+List-Post: <https://www.notboring.co/p/ginkgo-bioworks-the-organism-company>
+List-Unsubscribe: <https://www.notboring.co/action/disable_email/disable?token=eyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NTkxOTc5NTksImlhdCI6MTY1NTEyNTA1OCwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoiZGlzYWJsZV9lbWFpbCJ9.M7D62u1YqLsR4w2QGzCco5Tpm8-woRiubbBXYguUhJw>
+List-Owner: <mailto:notboring@substack.com>
+Date: Mon, 13 Jun 2022 12:57:20 +0000
+List-Url: <https://www.notboring.co/>
+Sender: Not Boring <notboring@substack.com>
+References: <post-59197959@substack.com>
+In-Reply-To: <post-59197959@substack.com>
+List-Archive: <https://www.notboring.co/archive>
+X-Mailgun-Variables: {"category":"post", "comment_id":"",
+ "email_generated_at":"1655125058741", "is_freemail":"true",
+ "post_audience":"everyone", "post_id":"59197959", "post_type":"newsletter",
+ "pub_community_enabled":"true", "publication_id":"10025",
+ "subdomain":"notboring", "user_id":"16283549"}
+
+--d6d5ddc1524727b83468f3cac3f7eb85df9c3f122ecdee75491268e6e609
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+View this post on the web at https://email.mg-d1.substack.com/c/eJxFkMuOhSA=
+MQL_mstMgiFcWLGYzv2F4VCUqGKhj_PvBazKTUEIK7aHHaoQppkvtMSO5twGvHVSAM6-ACIkcGd=
+LgnWo61nPRSuIUl4b2tiM-D2MC2LRfFaYDyH6Y1VuNPoZPCaVMkFlR25ne2pEzNjoQtoWOc6dtJ=
+0F0YPoHrA_nIVhQ8APpigGIjdsGAe9WZFUz4p5f_OvFvss6z7MOEU1MPky1jSW1l5h8WKZYGR_P=
+mJZc4QxVTJMOPm9V6bfrcBGvGGWMdg1vmHgzWvPallPbM5Ct64XU46ul21S5ps6HyajtUhAbSeo=
+PWR4ss95g_VyUwYf7t0fweA0QtFnBPU7wcfuxNEwQIBXnbtBYjApRsFT077Z5HJRJhWzkWwpJCt=
+nFUhX-ob9uSJO1
+
+Welcome to the=C2=A01,073=C2=A0newly Not Boring people=C2=A0who have joined=
+ us in the last couple weeks! If you haven=E2=80=99t subscribed, join=C2=A0=
+130,985 smart, curious folks by subscribing here:=20
+=F0=9F=8E=A7=C2=A0 If you=E2=80=99d rather listen to this essay, head over =
+to Spotify [ https://email.mg-d1.substack.com/c/eJxFkcluwyAQQL_G3Gqx2ubAoYs=
+qVUlVdbn0ZGGYOCg2WIDbul9fkhwqIUAwM495GJ1hDHFTS0gZnac-bwsoD99pgpwhojVB7J1VpK=
+EdE1wiq5gccGca5FJ_iACzdpPKcQW0rMPkjM4u-EsKxlSgo7KSWxgGg7mw0rS41cLIhjaYAWkaw=
+a9gvVoH3oCCL4hb8IBMmGfw-VwKTeqY85IqdlvRxzLCAr5OS8jusNUlsBylY_guS3Min_u7r5e3=
+t-ctpN3GfsjP01Sxx-Qq9vCwbNzd79pXQd_JnjPymz7wiJyimFLcEEaoaCmuWW3KjncUyuM7IfW=
+h4ngebyyp0zqkrM3pjEVR-ZCHEJ0fS8DpqGeYLhfFRX9uYPUubz14PUxgr5ryVfdFXD-Ch1i-wf=
+Y6F8lCFCwWXcvJVUtpXkgiWykkKmQbSpb_h_4B8PWWAw ] or=C2=A0Apple Podcasts [ htt=
+ps://email.mg-d1.substack.com/c/eJxFkMGOhCAMQL9muI0BhFEOHPayv2EQqkNGwUDdjX-=
+_ddxkEkIKpX30eYcw53LYLVdk5zbgsYFN8FsXQITC9gpliMGKh-xbrQwLtjUj7_2DxTpMBWB1cb=
+FYdmDbPi7RO4w5vUs4l5o9rdKtGrvADQgtJ-W0nnrfB6U6kNKP0wV2e4iQPFj4gXLkBMzndYWEZ=
+yu22CfiVm_t101-09py8K5ibdy2LdDQU7rc6ydDUcp4H3OJaaZDDATvlBSmFSxayaXkD9EKqTvJ=
+m7bxFKleglGh18ZNN8XX-R5EU_exovOvk8GKpab_PRV_Pd0KyztBow_nf_cU8RgguXGBcFnBy-7=
+b0zBDgkLWw-CQnGpNWK77TonLAs2qjTCd0YYROWSqSh_oH337kNI ]
+Today=E2=80=99s Not Boring is brought to you by=E2=80=A6 Rows [ https://ema=
+il.mg-d1.substack.com/c/eJxFkUmOwyAQRU9jdm0xGNssWLTUyjUsDBWHjgGLoSPfviGREgk=
+xVf36xUOrDFuIpzxCyqhNSz4PkB4eaYecIaKSIC7WSDLSmfFBICOZWPGsR2TTco0ATtld5lgAHW=
+XdrVbZBv-UYEw5uklDCUwTGwSQUVChqbhqwjlTQM0wzcPLWBVjwWuQ8AfxDB6QDs6Bz60U2uUt5=
+yN17LujlzpieKS-JrQTu5TslhRK1NCxn0_zHR1bxIGxxdXIqrx_32rlDmU33xQhryFav339Fg8U=
+U4qsbAseCSOUTxT3rNd1N8wUxGBmLtS1G7DbvgzpU1lTVvre-kFRvqvVhPtNOdifgQpnaS8q3uZ=
+zAa_WHcyLW37xf5JcNqg91n8xi8qVOufVFvN5GsiLU6XBBRGT4AJVZxOqyn9M_wEcDZ4x ]
+You know I=E2=80=99m bullish on all things web2, web3, web[INSERT NUMBER]. =
+You might even say I=E2=80=99m an Optimist. But let's face it: behind every=
+ crypto project, blockchain and DAO there is a spreadsheet. There is always=
+ a spreadsheet..
+Rows [ https://email.mg-d1.substack.com/c/eJxFkUmOwyAURE9jdrEYjG0WLFpq5RoWw=
+49Dx4DF0FFu3zhpJRJiKj5VPIwqsMb0kHvMBR3dUh47yAD3vEEpkFDNkBZnJRnpzPggkJVMaDyb=
+Ebm8XBKAV26TJVVAe9WbM6q4GJ4lGFOOrhK0ImQwXE-AKcGGCk0uDKZhZHyigryMVbUOggEJv5A=
+eMQAy0XsI5bgKbfJayt6xr46eW0vxnvumHyt2rsUvOdZkoGPfn-wdHQ_Fg3XVN0WrEN67RvlduT=
+UcFbHomFxYTz8qUEwpcvIY8EgYoS0i7llv2myYKYjBzlyoSzdgv54s6XPVuShzO-KgJN-XtQO3q=
+_KwPYWGZjneU4MrjwWC0hvYF7Xyov_kuKzQIrZfsYsqjTnnzRbzeRr-KTUWXBAxCS5Qc7axVYWP=
+6R_B0J1V ] is the spreadsheet for the Slack generation. Last year, I wrote =
+that Excel Never Dies. I may have spoken too soon. Rows very much wants Exc=
+el to die. It has a shot: it=E2=80=99s one of the most =E2=80=9CHoly shit =
+=F0=9F=A4=AF=E2=80=9D new product experiences I=E2=80=99ve had in a long ti=
+me.
+It=E2=80=99s kind of like if Excel, Zapier and a BI tool had a baby, plus a=
+ccess to databases that normally live behind paywalls. And it=E2=80=99s all=
+ without code.
+This time I teamed up with the Rows team to create a spreadsheet for retail=
+ investors: a head-to-head comparison of the financial performance of publi=
+c companies [ https://email.mg-d1.substack.com/c/eJxFUU1vhCAU_DXLTQMofhw4tE=
+n31J6a9GoQnkpXwcBzW_vri2uTJoQ8Hm-YYUYrhNGHXa4-Ijm2DvcVpIOvOAMiBLJFCJ01klW8K=
+UTZEiOLtqeNroiN3RAAFmVniWEDsm79bLVC690DQikXZJIMVK17aGrNoNAw8EppUdZCAysNH4qT=
+WG3GgtMg4Q5h9w6I9ssCDo-nyCwnxDVeiqcLv6YV_FfM00Aqnces98G6MR2WPYtrAGXiBIAxdU5=
+RWZpdlbMQs8E65bRV89kLNnqXCXi9vqzVxxLHBfn726e9fj__JPhs70Cs5JRzWrGCcVFzmhe5Tl=
+XZcGhL04hWDZeSLmNmWB63PqLSt0MdCTKp-xNX0tukFpgfF0lVd_xvcxb3DpzqZzCni3im8fC1G=
+8FBSCmZTmHKQIhES0VTl-x0LXkjWtbWrWhJYjY-odw_6S_c8qVg ].
+You can play around with it here [ https://email.mg-d1.substack.com/c/eJxFU=
+U1vhCAU_DXLTQMofhw4tEn31J6a9GoQnkpXwcBzW_vri2uTJoQ8Hm-YYUYrhNGHXa4-Ijm2DvcV=
+pIOvOAMiBLJFCJ01klW8KUTZEiOLtqeNroiN3RAAFmVniWEDsm79bLVC690DQikXZJIMVK17aGr=
+NoNAw8EppUdZCAysNH4qTWG3GgtMg4Q5h9w6I9ssCDo-nyCwnxDVeiqcLv6YV_FfM00Aqnces98=
+G6MR2WPYtrAGXiBIAxdU5RWZpdlbMQs8E65bRV89kLNnqXCXi9vqzVxxLHBfn726e9fj__JPhs7=
+0Cs5JRzWrGCcVFzmhe5TlXZcGhL04hWDZeSLmNmWB63PqLSt0MdCTKp-xNX0tukFpgfF0lVd_xv=
+cxb3DpzqZzCni3im8fC1G8FBSCmZTmHKQIhES0VTl-x0LXkjWtbWrWhJYjY-odw_6S_c8qVg ] =
+and copy it for free to your Rows account.
+Hi friends =E2=80=8B=E2=80=8B=F0=9F=91=8B,
+Happy Monday!=C2=A0
+Last week, I wrote a piece on Optimism [ https://email.mg-d1.substack.com/c=
+/eJxFUNtuhSAQ_Bp5qwEEhQcemjTnNwzC6iFVMLDW-PflHJM2YclmLzM74yzCkvJl9lSQvL4Rrx=
+1MhLOsgAiZHAXyGLxhPVedFJp40-mJKteTUMY5A2w2rAbzAWQ_pjU4iyHF9wqlXJKnsSAV14pqN=
+lumhkH3wrNJ0FlNgvdW3sT28AGiAwM_kK8Ugbi0bRDxBUVW80TcS9N9NvxR33mebUw4pRzi0rpU=
+S3uNtGPYQtma7lFnv04SDKec0551jMuB07ZrXc2E4qCFV1LbuRF0Wz48a8sxFbTuu8JtJJs_-Dr=
+w_bQbrO9GFTm-LjtiwGuEaKcV_K0fbx_fjowLRMjVXz9arO5JWWmpVINgt96qSmqmBy01qcw-1a=
+34T_oLNGCJxg ] that seemed to resonate with a lot of people. Beyond the hea=
+dlines, there are pretty mind-blowing advances happening across the board =
+=E2=80=93 from space to web3 to climate to biotech and beyond. Optimism isn=
+=E2=80=99t blind faith that everything will work out; it=E2=80=99s a belief=
+ that by experimenting and accumulating knowledge, humans can overcome the =
+inevitable challenges we=E2=80=99ll face.=C2=A0
+The best way I know to make the world more optimistic is for Not Boring to =
+tell the stories of, and invest in, the people and companies solving those =
+challenges. A lot of those companies work at the cutting edge of science an=
+d engineering, so we=E2=80=99ve expanded the Not Boring team by bringing on=
+ two Research Analysts who have the technical chops to help make sense of i=
+t all:=C2=A0
+Rahul Rana [ https://email.mg-d1.substack.com/c/eJxFUEmOhDAMfE3nNigLAXLIYS7=
+zjSiLm44aEpSYafH7CXAYybZseSlXeYsw53LoLVckZzB4bKATfOoCiFDIXqGYGDQb-CRkr0jQQj=
+k6-YHEap4FYLVx0Vh2INvulugtxpyuFUq5JC_th-Cas5Ex5p3jT2X7YXJisCDUJIYb2O4hQvKg4=
+RfKkRMQn9cVEp6nyKJfiFt9iO8H_2mGn3i-17WZVpVik6XCkKg55ZwOTDAuR0470fmW9RMH1YdJ=
+Kvt89HSdvwLr6u4qWv8-b5CiU0aXS0xzG3i_7ArL1WiczPnIniIeBpJ1C4SbLt6yXQKYGRKUJmc=
+wFptYUjZYKqexZze9RkIqpkYlFWnIIbet9A_6B-zkhMY ]: Deeptech, Space
+Elliot Hershberg [ https://email.mg-d1.substack.com/c/eJxFUMGOhSAM_JrHbQ0iq=
+Bw47GE3-xcEoU_JQzBQ98W_X9TDJk3Tpu1MZ6xBmFM-1JYKkjNpPDZQEd4lACJkshfI2jvV9mzs=
+BJfEqU5OdLQ98UU_M8BqfFCYdyDbPgVvDfoUrxNKmSCLMpxJOnLglnJrHJP82Qs52EE6x6jpbmK=
+zOw_RgoJfyEeKQGxaV4h4QpGgFsStPLrPB_uugW9_vtfUndp9heAT_kAuywR5Jl4xyhjt265lYm=
+C06RpbKz4ykNyNQprng9N1_nBtU_apoLGvE4pkFRNOKfs414XXYlYI16BK0-c_e_R4aIhmCuBu1=
+Xi7d_mgZ4iQq6tOG6yeCVFpqRgH3t4qqxYhWzlIIUlldqlexX_SP9BYh5g ]: Biotech=C2=A0
+Elliot and Rahul will work with us at Not Boring Capital, and even better f=
+or all of us, write about companies, technologies, and ideas driving their =
+spaces in Not Boring. These fields have the potential to fundamentally chan=
+ge the way we live, and I want Not Boring to be the place that you learn ab=
+out them. In addition to being technically strong, they=E2=80=99re both exc=
+ellent writers. You=E2=80=99ll meet Rahul in a few weeks when he publishes =
+his first piece for Not Boring.=C2=A0
+Today, Elliot is going to take us on a journey through the world of synthet=
+ic biology by analyzing one of its most innovative companies: Ginkgo Biowor=
+ks. Elliot knows what he=E2=80=99s talking about. In addition to writing on=
+e of the best biotech newsletters on Substack, The Century of Biology [ htt=
+ps://email.mg-d1.substack.com/c/eJxVUMtuhDAM_JrNrSjkQcghh176G1Eeho0WEhRMK_6=
+-YTlUlSzL0ng8ngkOYS71NFvZkVzN4rmByfCzL4AIlRw7VJui6Qc2cik0iYZrT8cwkLTbqQKsLi=
+0G6wFkO_ySgsNU8ptCKZPkaUYZA3CpJ65g4IoPQo0qcMGCc15Tdgu7IybIAQx8Qz1LBhLKukLG6=
+xRZzBNx2x_888G-WoUGHG1t8ql0--F3dOHVNUbDSDKMMkaHnvdMKkY73oU2iZGBFnGU2k0PQdf5=
+I_b_uKSaXNCXmvLcFl5Pt8LyBpoze71z5ISnhez8AvE2jXd47xjsDBlqCzVahy0yKZsslaMS_W2=
+yWZG610pLTZpyLI2V_0R_ARlRhwQ ] (it=E2=80=99s really good: subscribe now [ h=
+ttps://email.mg-d1.substack.com/c/eJxVUMtuhDAM_JrNrSgkBMghh176GygPw0YLCUpMK=
+_6-ZjlUlSIr1ng8nvEWYcnlNHuuyK4y4bmDSfBTV0CEwo4KZYrBtL0Ypeo0C0Zqx0ffs1inuQBs=
+Nq4GywFsP9wavcWY05vCuVDsaYLkc0t8q3urBy6kskJzNXIPapiVuIXtESIkDwa-oZw5AfN52yD=
+htYqt5om414f8fIgvep6Ag8ZmF3NTD1fR-ldDDMKu1pfogEUjuBC8b2Ur1CB4IxtPv24UoLswKm=
+3nR8e35SO0_5awYlJGl0tMCw28nnaD9Q2Qxem660gRzwmSdSuE2z3eKb7zmBZIUCjdMFmk7JQiW=
+bI8dO3tljwp3epBK81IOWRipT_RX_psilI ]), he=E2=80=99s currently a PhD student=
+ in the Department of Genetics at Stanford. It=E2=80=99s rare to find someo=
+ne so technically strong who=E2=80=99s also so good at communicating what=
+=E2=80=99s happening in his industry and imagining where it might be headed=
+=2E In today=E2=80=99s piece, you=E2=80=99ll see what I mean.=C2=A0
+Synthetic biology might let humans harness =E2=80=9Cthe awesome power of bi=
+ology to create an abundant future,=E2=80=9D as Elliot writes. Or as a Gink=
+go site, syntheticbiology.com [ https://email.mg-d1.substack.com/c/eJxFUMtu=
+xCAM_Jrl1ghI2MCBQy_9DcTDm6ASiMBplb8v2RwqWZZlezye8RZhKfXUe2lIrmTw3EFn-G0JEKG=
+So0E1MWj25HIUkyJBj8pR6Z8kNvOqAJuNSWM9gOyHS9FbjCW_IZRyQVYN4JzwzDknX44pCLO0gQ=
+EVs_Xg2XwT2yNEyB40_EA9Swbiy7ZBxusUSXpF3Ntj_Hzwrx7tzLgCRu9iSWU5h77c2yRqTjmnT=
+zYyLmZOh3HwvZokBzUFKZR9PSa6LR-BDe1wDa3_vrCk6lzQlRrz0he-V7tBeg-6KHN9cuSIp4Fs=
+XYJw68Xbt7cDZoEMtfsZjMXulhCdlgo5T-zW11UIxdSshCKdOZSOyv-kfxbahsc ], asks: =
+=E2=80=9CImagine a future designed with biology. What if you could grow any=
+thing?=E2=80=9D
+Let=E2=80=99s get to it.
+Ginkgo Bioworks: The Organism Company
+By Elliot Hershberg [ https://email.mg-d1.substack.com/c/eJxFUMGOhSAM_JrHbQ=
+0iqBw47GE3-xcEoU_JQzBQ98W_X9TDJk3Tpu1MZ6xBmFM-1JYKkjNpPDZQEd4lACJkshfI2jvV9=
+mzsBJfEqU5OdLQ98UU_M8BqfFCYdyDbPgVvDfoUrxNKmSCLMpxJOnLglnJrHJP82Qs52EE6x6jp=
+bmKzOw_RgoJfyEeKQGxaV4h4QpGgFsStPLrPB_uugW9_vtfUndp9heAT_kAuywR5Jl4xyhjt265=
+lYmC06RpbKz4ykNyNQprng9N1_nBtU_apoLGvE4pkFRNOKfs414XXYlYI16BK0-c_e_R4aIhmCu=
+Bu1Xi7d_mgZ4iQq6tOG6yeCVFpqRgH3t4qqxYhWzlIIUlldqlexX_SP9BYh5g ]
+If we were visited by intelligent life from elsewhere in the Universe, what=
+ would be the most embarrassing aspect of our current technological capacit=
+y? In some ways, it would be hard to pick. Despite the fact that we all car=
+ry supercomputers in our pockets, we dig up dead dinosaurs and burn them in=
+ combustion engines to power our cars, trains, planes, and cities. To make =
+new molecules=E2=80=94drugs, compounds for agriculture, or any other chemic=
+al product=E2=80=94we rely on complex industrial systems that create far mo=
+re waste than desired. Our approach to construction has escalating costs an=
+d can=E2=80=99t scale to support a growing population.
+What if we figured out a way to do things differently? What if we found a w=
+ay to have a more productive relationship with Nature? What if we could lea=
+rn to grow anything?
+This is the vision of synthetic biology. The researchers, engineers, labs, =
+and companies in this discipline are aiming to dramatically change our appr=
+oach to creating food, materials, chemicals, and physical structures by har=
+nessing the only functioning nanotechnology that we know of: living systems=
+=2E
+Ginkgo Bioworks [ https://email.mg-d1.substack.com/c/eJxFUMuOwyAM_Jpy24hAaO=
+DAoZf9DcTDTVESiMDZKH-_pF1pJcuyNB6PZ7xFmHI59ZYrkqsZPDfQCY66ACIUslcoJgbd35nkY=
+lAkaK4clf5OYjXPArDauGgsO5Btd0v0FmNObwqlTJCXlpLaMHjPrbRP5qiAMHAKzvF-9E71H2G7=
+hwjJg4YfKGdOQHxeV0h4nSKLfiFu9cYfN_bd6jiOboppnrKL-chlrl1bbwCJmlHG6L3nPRMjox3=
+vfJsGyUANQQpln7eBrtNX6Lu6u4rWzxeXFJ0yulximtrC_LIrLG-g2TLXL3uKeBpI1i0QPo7xk9=
+w7AzNBgtISDcZiy0uIJkuFHIc_h82HUL0alVCkKYfcWOlf9BdGgIat ]=E2=80=94The Organi=
+sm Company=E2=80=94is a leading force in this new field. Their ambitious go=
+al of becoming the first platform company in synthetic biology has generate=
+d strong reactions, both positive and negative. In this essay, I want to ex=
+plore some of the Big Ideas that this company is pursuing, and provide a le=
+ns into what could be possible for the broader field of synthetic biology i=
+n the future. Today, Ginkgo=E2=80=99s platform is being used to engineer mi=
+crobes that can be used to make agriculture more sustainable, grow valuable=
+ chemicals, and deliver therapeutics in a targeted fashion.
+Given the utter insanity of the current markets and the fact that this is a=
+ publicly traded company, I want to be absolutely clear: this is not invest=
+ment advice. My goal is to provide an honest and accurate assessment of the=
+ incredibly important experiment that Ginkgo is running for the biotechnolo=
+gy industry.
+Here=E2=80=99s a map of where we=E2=80=99re going to go in order to explore=
+ this:
+What is synthetic biology?
+How biotechs makes money
+What does The Organism Company do?
+Major open questions =F0=9F=90=BB
+An experiment in cooperative work structure
+What will the world look like if Ginkgo succeeds?
+Let=E2=80=99s jump in! =F0=9F=A7=AC=F0=9F=8C=B1
+What is synthetic biology?
+Let=E2=80=99s talk about circuit design. A good circuit does a few things. =
+It should receive information and perform a computation based on the input =
+to produce a reliable output. Input, computation, output. One of my favorit=
+e circuits senses an environmental gradient as input, and computes on that =
+information to determine which set of machines it should turn on or off. I=
+=E2=80=99m not describing a digital circuit; this is a genetic circuit foun=
+d in Nature called the lac operon.
+Think back to high school biology. Remember that cells encode instructions =
+in DNA called genes. These instructions are copied into messenger RNA molec=
+ules that ultimately serve as a template for creating proteins, which are t=
+he machines that do most of the work inside of cells. In bacterial cells, t=
+his simple circuit involves a repressor component (shown in green) that is =
+able to sense the sugar gradient in the cell, and compute on that informati=
+on to control which set of genes gets turned on. The computation is: if lac=
+tose is present, the polymerase (yellow) can bind to the promoter sequence =
+(orange) and turn on the genes to metabolize it. Else, keep the genes turne=
+d off.
+Learning that these types of genetic circuits exist was a pretty big deal, =
+and the French scientists Fran=C3=A7ois Jacob and Jacques Monod nabbed the =
+1965 Nobel Prize in Physiology for figuring it out. Even this early on, Jac=
+ob and Monod postulated that in principle it should be possible to create n=
+ew circuits by combining regulatory DNA systems in different ways.
+In the following decades, we developed several important tools for doing th=
+is. Molecular cloning [ https://email.mg-d1.substack.com/c/eJxFkMtuxCAMRb9m=
+2DUiPJKwYNFNd_0GRMDJoCEQgdMqf18yWVRC5mX7-h5nEdZcTr3niuQKBs8ddILfGgERCjkqFBO=
+87gc2cSkU8ZqrmU5uIKGapQBsNkSN5QCyH3MMzmLI6V1CKZPkqRerxCSUZ55TLuQofb94pdwATH=
+I1qFvYHj5AcqDhB8qZExCXtw0SXq1I1E_EvT7454N9tQWp-w2vsIMPtstlbU_XvW3fOYI7oi3Gx=
+ZxCWknQjDJGh573TI6Mdrxz7SQmBkr4SSq7PATd1g_fd_WYK1r36po4KTplnHNpTVrC62k3iO-P=
+ZtRc0x0p4Gkg2TmCvxngzfJNxayQoDTG3lhsBKVsslROo-hvz82ZVL0alVSkKfvcqtK_6B8-Q4w=
+7 ] unlocked the ability to assemble new sequences of DNA, and PCR [ https:=
+//email.mg-d1.substack.com/c/eJxFkM1uhSAQhZ_msqtBFJUFi2667huQAeYquQoGxja-ff=
+G6aEIY_obzneOAcE751HsqxK7J0LmjjvhbViTCzI6C2QSv20FMnewV87pTlk9uYKGYZ0bcIKya8=
+oFsP-waHFBI8d3CuZBsqdUrO7Qd99yKceRg1QCd6vqn5zANeAvD4QNGhxp_MJ8pInNp2zDS9RVb=
+9UK0l0f3-RBfdWBsfsMr7OgDNCnP9eja1_Kd1nPDDAWNWyBEkxHchcSCFlwIXklaIUfBm65xddV=
+PAlXvJ6ng-ej5Nn_4timHLQTu1VQIlnVMZFMOca4PXgtsuL4vqmFzUR4x0Gkwgl3R31nQnek7HT=
+NjrESE3gDVJKWsslxOY9_e3qtDqVo1KqlYVfapdsV_0T9hV4-6 ] let us make copies of =
+DNA. These technologies led to the birth of genetic engineering, and arguab=
+ly modern biotechnology at large. Genentech=E2=80=94previously trading unde=
+r the $DNA stock ticker now held by Ginkgo before operating as a subsidiary=
+ of Roche=E2=80=94became a blockbuster success by using genetic engineering=
+ to create bacterial cells that produced human insulin.
+While this was a defining success for biotech as an industry, the synthesis=
+ of insulin represented the peak of design complexity that was possible at =
+the time. But as our ability to modify organisms remained limited, our abil=
+ity to measure organisms underwent a mindblowing revolution. In 1990, the U=
+nited States Department of Energy and the National Institutes of Health lau=
+nched a $3 billion dollar project to sequence the entirety of the DNA bases=
+ that make up a human=E2=80=94which we call a genome. This marked the start=
+ of one of the craziest cost declines in the history of technology.
+Many people in tech are familiar with Moore=E2=80=99s Law, which was the pr=
+ediction that the number of transistors in a dense integrated circuit doubl=
+es about every two years. In practice, this means that we have ended up wit=
+h computers in our pockets that are more powerful than the room-sized compu=
+ters scientists used to get to the moon. The graph above=E2=80=94which is u=
+sed in more than two thirds of genomics lectures=E2=80=94shows how DNA sequ=
+encing cost declines massively outperformed that rate. While the first huma=
+n genome took a decade to sequence and cost $3 billion dollars, graduate st=
+udents now routinely sequence genomes in a day for only $1,000 dollars or l=
+ess. In the past few weeks, Ultima Genomics [ https://email.mg-d1.substack.=
+com/c/eJxFUM2OhCAMfprhtgZBFA4c9rKvQfjpOGQUDNQ1vv3ieNikaZq0X78fbxHmXE695Yrka=
+gbPDXSCoy6ACIXsFYqJQfcjk1wMigTNlaPSjyRW8ywAq42LxrID2Xa3RG8x5vSBUMoEeWk6yuCl=
+EI5bG0YxDNL1jDsunwpgUvYmtnuIkDxo-IVy5gTE53WFhNcrsugX4lYf_PvBflodx9HtC8bVzpD=
+yGn3t2nlbkKgZZYyOPe-ZmBjteOfbNEgGaghSKPt8DHSdv0Lf1d1VtP59YUnRKaPLJaa5Hbxfdo=
+Xls2i2zKVlTxFPA8m6BcLtGO_kPhmYpgRKSzQYiy0vIRotFXIa-tth8yFUryYlFGnMITdU-if9A=
+7vAhi0 ] came out of stealth and announced their goal to usher in the $100 =
+genome.
+This change in measurement technology was a really big deal. After decades =
+studying individual genes, geneticists began studying thousands of genes at=
+ a time. We also learned to adapt some of the fundamental tech to make high=
+-throughput measurements of more parts of the cell, like RNA, metabolites a=
+nd proteins. This was so transformative that it launched an entire new fiel=
+d called systems biology with the goal of making unifying models describing=
+ all of these measurements. As the Stanford bioengineer Markus Covert likes=
+ to say, =E2=80=9CWhen I was growing up, biology was the science that you w=
+ould take if you didn=E2=80=99t want to learn any math. Now that=E2=80=99s =
+not the case anymore.=E2=80=9D With a new stack of tools, molecular biology=
+ evolved into a quantitative discipline.
+Synthetic biology was launched largely in response to this paradigm shift. =
+The goal was to transform genetic engineering into a discipline capable of =
+building new biological circuits from the ground up. The idea was to develo=
+p the capacity to engineer new organisms.=C2=A0
+The Century of Biology started with a bang when several studies were publis=
+hed in January 2000 describing the successful development of engineered gen=
+etic circuits=E2=80=94finally realizing the vision of Jacob and Monod. Over=
+ the last decades, synthetic biology has matured as a discipline, and has s=
+tarted to develop reusable community standards, which has decreased the ove=
+rhead of launching new projects. One of the best demonstrations of this is =
+iGEM [ https://email.mg-d1.substack.com/c/eJxFkMuOwyAMRb-m7CYCJ4SwYNHN_Abi4=
+aaoCUTEmVH-fmizGMmyLPlxfG9whHOpp9nKTuydLJ0bmoy_-4JEWNmxY7UpGjHC1MtBs2h67fkU=
+RpZ2-6iIq0uLoXog2w6_pOAolfxZ4RwkexrlIhciAMZRoYcI6L0XfXQSlQIYLrA7YsIc0OAP1rN=
+kZKGsK2Z6n2KLeRJt-62_3-C7RZpx7UqdW8mSAQ7AR9ELkAp413ehVcMEqIc4Se0et4Gv81cU3X=
+74nVx4de04qyYX8qWmPLeB19OtuHwaTYh904-c6LSYnV8wXhrp8uqj2s6YsTYPo3XUHJKyYbmc1=
+CAuTe1zqYVWWmrWyLG0rfwP_QMe1YDU ]=E2=80=94the International Genetically Eng=
+ineered Machine competition=E2=80=94where undergraduates and high schoolers=
+ around the world compete to implement their best ideas in DNA code. Recent=
+ winners [ https://email.mg-d1.substack.com/c/eJxFkE1uwyAQhU8TdrUAGxsWLLrpN=
+SwME4fGBguGVr59J_GiEhrQ_H285x3Cmstpj1yRvcKM5wE2wW_dABEKaxXKHIMVo9S9GgwLtjcL=
+135ksc73ArC7uFksDdjRli16hzGn9wjnUrGHDRBG4U2QfJqc9kpoPS4UnLx7ofhwgV0LEZIHCz9=
+QzpyA-bzvkPC1im32gXjUW_95k190vt2-ZIJ3cYW9y2WlnORS0FWgtg0ri5YSko-iF1JNknd95-=
+k1aAlmCFoZd78NfF8_guhqWyo6_-yIyYpNGWl7TCs1PB9uh-1dIH3z61MtRTxnSG7ZIFzS8bLwb=
+ca8QoJC1obZIRmnFGG50tMgLqkkSBlhJqMMI3LINJX-oX-YF4gU ] have developed new wa=
+ys to manufacture fragrances, materials, and diagnostics, all using the sha=
+red iGEM building blocks.
+So, what is synthetic biology? It depends on who you ask. According [ https=
+://email.mg-d1.substack.com/c/eJxFkc1uhSAQhZ_mstMgiMKCRTd9DcPPqLQKBsY2vn3xu=
+mhC4OTMDCd8OIOwpHzpIxUk9zbhdYCO8Fs2QIRMzgJ5Cl53A5Nc9Ip4zZWl0g0klGnOALsJm8Z8=
+AjlOuwVnMKT4HqGUCbJqxc3gh1EybhXvzNiZuXdMKik8owbGJ9icPkB0oOEH8pUiEJf2HSLeV5F=
+Nr4hHefGPF_usK-yHcdiCSzHtoWBbm6t95PQFDssjawGaNDdVLhnK7dotLfdZrogrYHCNDal6V_=
+VI0IwyRoeOd0yMjLa8dVX1koHqvRTKzK-e7kvju7actqBx33cwyTomtCmHuNSG79XssL0Llch0P=
+-OMAa8JorEb-AcWPtDf-KYFIuT6GX4yWFELUWOpkGPfPXAqAqE6NSqhSE32qU7F_9A_R4GbaQ ]=
+ to Christina Agapakis, it is =E2=80=9Cthe practice of engineering life.=E2=
+=80=9D For one of the pioneers of the field named Drew Endy, synthetic biol=
+ogy is focused on a meta-goal: to systematically improve our ability to use=
+ biology as an engineering substrate.=C2=A0
+Regardless of how you define it, the field of synthetic biology is comprise=
+d of dreamers and doers. The vision expands as far as you can imagine: desi=
+gning programmable cell therapies, learning how to grow rocket ships and sp=
+ace stations, and bringing woolly mammoths back from extinction [ https://e=
+mail.mg-d1.substack.com/c/eJxFUEtuxCAMPc2wa8QnEFiw6KbXQAQ8GdQEInBa5fYlk0Uly=
+7IlP79P8AhLqafdS0NyNYfnDjbDb1sBESo5GlSXomWKayFHQ6IVZqY6KJKae1aAzafVYj2A7Me8=
+puAxlfyGUMoleVmuotRGGRVNDELJWZsYtZgYjRA8e97E_ogJcgALP1DPkoGEsm2Q8XpFVvtC3Nt=
+DfD74V69Q1tKaX4d-1FeSLKecU8UE43LidBBD6NOoOZgxamn88zHSbfmIbGjH3NCH7wtLqs0F51=
+JTXvrB98tv8H56mXGXgiMnPB1kP68Qb5945_V27hbIUHuO0XnsKUnZaanU08huX129NMxMRhrSm=
+WPpqPxP-gcCOYIo ]. In practice, there is a relentless focus on discovering =
+new molecular tools, scaling DNA synthesis, and creating systems of re-usab=
+le standards and components. With the current rate of progress and the boun=
+dless possibilities on the horizon, Eric Schmidt has said that =E2=80=9Cyou=
+r industry is at the same stage mine was in 40 years ago when I started my =
+career in tech.=E2=80=9D
+How biotechs make money
+So, synthetic biology is focused on learning how to build things using biol=
+ogy. Before analyzing Ginkgo, it=E2=80=99s also important to think about ho=
+w the biotech industry makes money. By and large, the revenue that flows th=
+rough the ecosystem comes from selling drugs.
+This seems like a simple statement, but it has non-obvious implications. Dr=
+ugs are a very unique product. They require an enormous amount of R&D, and =
+have to make it through many expensive hurdles to demonstrate efficacy and =
+safety before being approved. After all of this time and cost there is anot=
+her problem: the actual chemicals can be manufactured incredibly cheaply, w=
+hich is why generic versions of drugs can be sold for as low as a dollar a =
+day.
+Companies are incentivized to develop new drugs by the promise of patent an=
+d market exclusivity. Drug companies need to recoup all of their R&D and re=
+gulatory costs in the time window of their exclusivity=E2=80=94and have als=
+o found ways to extend the time that the window lasts.=C2=A0
+With this incentive structure, biotech has become an industry with public c=
+ompanies that have hundreds of employees and no product. The core value of =
+these companies is the assets in their clinical pipeline=E2=80=94which stan=
+d the chance to become blockbuster drugs with market exclusivity if they ar=
+e approved. Approved assets are primarily sold to major pharmaceutical comp=
+anies.
+From a business strategy perspective, this has meant that most value captur=
+e comes from pursuing highly specific vertical solutions=E2=80=94new drugs =
+for specific diseases. Some of the most successful horizontal companies in =
+the industry have focused on selling specific instruments or reagents to re=
+search labs and companies. An example of this type of company is Illumina [=
+ https://email.mg-d1.substack.com/c/eJxFkEGOhCAQRU_T7MYAisKCxWzmGgSh2iaNYLA=
+Y4-0H28UkhEBRn1_vO4uw5HLqLe9Irs3guYFOcOwREKGQukMxwWs2ctmLQRGvezVT6UYSdvMsAK=
+sNUWOpQLY6x-Ashpw-Ekq5IC89sll6C0O7P8epn5y0CnoJwCyf5kncxrb6AMmBhl8oZ05AXF5XS=
+Hh9RaJ-IW77o_9-8J-2juPoQox1Dcl2rbGVSNCcck5H1jMuJk67vnPtNEgOavBSKPt8DHRdvjzr=
+9jrvaN370pKiU8Y5l5CW1vB-2RXi56EBmWuKmgKeBpKdI_ibFe_MPvRmgQSlZemNxZaUEM2WCjk=
+N7GZrBEIxNSmhSHP2uanSv-kfLPGDoA ], which sells DNA sequencers and the reage=
+nts necessary to generate new data. As biotech has matured, platform biotec=
+hs [ https://email.mg-d1.substack.com/c/eJxFkMuOhCAQRb-m2WmKl8KCxWzmNwyPapu=
+0gkGciX8_2C4mIeSmoOrUvd5WnHM5zZb3Sq5rqueGJuHvvmCtWMixY5liMHRgikuhSTBcO1B-IH=
+GfngVxtXExtRxItsMt0dsac_q0ADBJXubJgldSqQGVcCNKJ-0AgwoWvLNe-BtsjxAxeTT4g-XMC=
+YnP64qpXqPIYl61bvuDfz3Ydzshxz6XuSkKPQWurprgoxg7YNABUCU6TqJhwBgMlFMmRwY9731T=
+QjHUIiip7fMhYJ27QPv9cHu1_t03Likm5epyiWluH94vu-LyeWgep2uxI8V6TpisWzDc9usd4ye=
+QacaEpcUbJltbeFI2LEg1CnrbbaakpnrUUpNGDrl1pX_oH3QThjc ] have emerged that ar=
+e aiming to change this dynamic by offering more expansive R&D infrastructu=
+re that would have traditionally been built in-house by individual companie=
+s.
+We=E2=80=99ve all benefited enormously from platform biotechs. Moderna [ ht=
+tps://email.mg-d1.substack.com/c/eJxFkE2OhCAQhU_T7Mbwq7Jg0Zu5hkEobdIKBspxvP=
+1gu5iEVAhVrx7fcxZhTvk0WypIrjLguYGJcJQFECGTvUAegjes5b1QUhNvhB5p71oSyjBlgNWGx=
+WDegWz7uARnMaT4kVDKFXmZUYOUneycl7QHPzEQamS2pYq3gk9wG9vdB4gODPxAPlME4tK6QsRr=
+FVnMC3ErD_F88O96juNo1uQhR4u_TZ2sbyQYTjmnLROMq47TRjSu3mTPQUvfK22nh6Tr_OVZU_a=
+xoHXvS0uyiQnHlEOc68D7ZVdYPo1KNFzf2GPAc4BoxwX8DYt3aB_8YYYIuYbpB4s1KqWqLVV9J9=
+kNVxGUZrrTSpPq7FNVxX_TP8iBhBM ] isn=E2=80=99t a vaccine company, it is an m=
+RNA therapeutics platform company. Before COVID, Moderna had created multip=
+le internal portfolio companies that were pursuing specific vertical applic=
+ations of their core technology. Because of the flexibility of their RNA te=
+ch, they were able to design their COVID vaccine in a matter of hours after=
+ receiving the DNA sequence of the virus. With the emergency vaccine approv=
+al, we saw one of the fastest transitions from R&D to clinical administrati=
+on in history.
+Some platform companies focus on providing R&D services to biotechs instead=
+ of launching their own internal companies like Moderna. Adimab [ https://e=
+mail.mg-d1.substack.com/c/eJxFUMuOhSAM_ZrLbgwgKCxYzGZ-w_CoXnIVDNYx_v2gLiZpm=
+qbt6ek53iJMuZxmzRuSKw14rmASHNsMiFDIvkEZYjCs46qVQpNgWu2o8h2J2zAWgMXG2WDZgay7=
+m6O3GHO6IZRySd5GQT-yvrMQgpAjF8o55kZqPW2FoqN_iO0eIiQPBn6hnDkB8XlZIOF1iszmjbh=
+ur_b7xX9qHMfR2BAX65q6VhskGk45px1rGZc9p03b-FoJxUGLoKS240vQZfoKrNl2t6H1nwtLik=
+kZXS4xTXXh87YLzPegyhmuH_YU8RwgWTdDeJTi49itfZggQalOhsFi9UnKSkul6gV7lNX_pWa61=
+1KTyhxyRaV_0j91B4Mq ], for example, partners with biotechs and pharma compa=
+nies to help them make antibody therapies so that they don=E2=80=99t have t=
+o do it themselves. As one of the Adimab co-founders Tillman Gerngross put =
+it, =E2=80=9CAirlines don=E2=80=99t build their own airplanes, and there=E2=
+=80=99s a good reason for that. They focus on the particular thing they=E2=
+=80=99re good at and leave other parts to others. And I think our industry =
+is maturing in a similar way.=E2=80=9D This evolution will be essential for=
+ understanding Ginkgo.
+What does The Organism Company do?
+While biotech was heavily focused on making drugs, synthetic biologists con=
+tinued to spend their time developing better ways to engineer organisms. Ma=
+ny of the founders of the discipline entered into the world of biology from=
+ computer science, electrical engineering, and other fields with a deep emp=
+hasis on general solutions and explicit standards.
+These early leaders were deeply optimistic about the technological progress=
+ being made in both DNA sequencing [ https://email.mg-d1.substack.com/c/eJx=
+VkM2OhCAQhJ9muGkQhZEDh73saxh-WoesggvtTnz77RkPm02AkFR1FXzeIiy5nGbPFdnrmPDcwS=
+R41hUQobCjQpliMJ0SYy8HzYLpteOjVyzWaS4Am42rwXIA2w-3Rm8x5vQe4VxI9jBqDNrNflYqz=
+FqNUigXHAfbd947qdxVbI8QIXkw8APlzAmYz9sGCV9RbDUPxL3e-o-b-KTlSTjINruY23q4itZ_=
+tTRB2k77-bBYmxDnGQpZm90WbCi0qfB9UE1MC4tGcCG46vpOyLvgbd96ug2jAD2EUWo73wa-LU3=
+o_lWwYlJGlwuFkOHrYTdY3wIBmF6vPlLEc4Jk3QrhYoMX4zetaYEEhdiHySKRlZJquRzvQ3exoB=
+9L3em7lppRc8g0lf5KfwGXoJbr ] and synthesis [ https://email.mg-d1.substack.c=
+om/c/eJxVkcuOhCAQRb-m2WkQxceCxSST_g3Do1TSCgbKMf79VLeLySQUIbm36sLBaoQ5pkvtMS=
+N7byNeO6gAZ14BERI7MqTRO1W1oq9lMzCn6sHw3rbM53FKAJv2q8J0ANsPs3qr0cfwaeFcSLao2=
+kno2l4Dr_oatKvkJKZWO-gmYzor72B9OA_BgoIfSFcMwGzcNgj4HsVWtSDu-VF_PcSTliXhINtk=
+fCzzYTJq-yqpg7Sd6lw05sL5aYJE1mLXCQs8Y5GvgAtkT6OeVN8n80pwIXhb1ZWQneBlXVo6Nb2=
+AoXG9HPT0aPg2F676l8SSChFNTD7MZHgteoP1IxCH8X35I3i8RgjarOBuRHij_kAbZwiQ6AvcqJ=
+EAS0mxXPZdU91I6OFyqIZukAOjZBepK_yF_gJxbZjY ] that provided the essential to=
+oling to manipulate and engineer organisms. Engineers like Tom Knight and D=
+rew Endy at MIT talked about what was necessary to take genetic engineering=
+ to the next level. In order to operate like other engineering disciplines,=
+ the field needed several new concepts.
+First, builders needed standardized parts with predictable behavior that th=
+ey could compose and assemble in new ways. There also needed to be meaningf=
+ul abstraction layers=E2=80=94analogies were often made to modern programmi=
+ng languages that let programmers focus on logic instead of machine code. W=
+e needed to move from worrying about raw bases of DNA=E2=80=94ATTCGGATA=E2=
+=80=94to programs closer to the lac operon. Another core emphasis was to mo=
+re effectively coordinate labor=E2=80=94separating designers of genetic pro=
+grams from the builders directly compiling it.
+In other words, biology needed to develop the necessary infrastructure to b=
+ecome a true engineering discipline.
+The iGEM competition has been one of the most vibrant communities for makin=
+g progress on these foundational goals. The teams can spend their time focu=
+sing on their most ambitious ideas because they are building using a shared=
+ Parts Registry, a Distribution Kit, and a set of Assembly Standards. Inste=
+ad of worrying about the behavior of every single enzyme in a new circuit, =
+they can take enzymes off the shelf and spend their effort brainstorming ho=
+w best to program molds [ https://email.mg-d1.substack.com/c/eJxFkE1uwyAQhU=
+8TdrUAgw0LFpWiniBdW_xMHBQDFh638u1L4kUlNALNG755z1uEudTDrGVD8ioTHiuYDL_bAohQy=
+b5BnWIwbOCql0KTYHrtqPIDidt0rwDJxsVg3YGsu1uitxhLfo9QyiV5mMEJqnp2F-CtujvpuAyO=
+eSUFG-2o1Am2e4iQPRj4gXqUDMSXlCDj6yuymAfiul36zwv_aodTTrs4Q-pKndv7Bja15vX2_XG=
+FnGx9kmiaiNOB9YzLscn7zrebUBy0CEpqe78ImuaPwLptdxta_-wak1STC7pSY56b4PmwCZZ3o_=
+mbXkvtOeIxQbZugXBaxzPCdxjTDBlqizZMFltwUjYslWoU7LTaDEnN9KilJo0cSpvK_9A_822HS=
+g ] into assembly lines producing foods, detergents, and medicines. This et=
+hos is reflected in the beautifully nerdy fact that the iGEM grand prize is=
+ the BioBrick Trophy: a giant aluminum brick that looks like a Lego block.
+Even as synthetic biology and iGEM gained traction, some of the leading pro=
+fessors like Tom Knight still struggled to get their work funded. The work =
+didn=E2=80=99t neatly align with the core priorities of any major grant age=
+ncies and was very early. At one point, an MIT grad student named Jason Kel=
+ly asked Tom, =E2=80=9CWhat do you think if we started a company?=E2=80=9D =
+Tom responded, =E2=80=9CWhat would you think if I joined you?=E2=80=9D Whil=
+e most professors were happy to =E2=80=9Cspin out=E2=80=9D companies from t=
+heir labs, Tom Knight wanted to dive in and join the adventure.
+To learn more about what Ginkgo does, the challenges it faces, and what the=
+ world looks like if it succeeds=E2=80=A6=20
+Thanks to Elliot [ https://email.mg-d1.substack.com/c/eJxFUMGOhSAM_JrHbQ0iq=
+Bw47GE3-xcEoU_JQzBQ98W_X9TDJk3Tpu1MZ6xBmFM-1JYKkjNpPDZQEd4lACJkshfI2jvV9mzs=
+BJfEqU5OdLQ98UU_M8BqfFCYdyDbPgVvDfoUrxNKmSCLMpxJOnLglnJrHJP82Qs52EE6x6jpbmK=
+zOw_RgoJfyEeKQGxaV4h4QpGgFsStPLrPB_uugW9_vtfUndp9heAT_kAuywR5Jl4xyhjt265lYm=
+C06RpbKz4ykNyNQprng9N1_nBtU_apoLGvE4pkFRNOKfs414XXYlYI16BK0-c_e_R4aIhmCuBu1=
+Xi7d_mgZ4iQq6tOG6yeCVFpqRgH3t4qqxYhWzlIIUlldqlexX_SP9BYh5g ] for joining th=
+e team and coming out of the gate hot, and to Dan [ https://email.mg-d1.sub=
+stack.com/c/eJxFUMtuxCAM_Jrl1ohHIOHAoZf-RkTAm0UbIAKnq_x9SXKoZFm2bM94xlmEJZf=
+DbLkiOdOExwYmwaeugAiF7BXKFLxhio9C9pp4I_RMR6dIqNOzAEQbVoNlB7Lt8xqcxZDTdUIpl-=
+Rl5KCBK8U9E1Sw2XrrBvAURuWfCtx8E9vdB0gODPxCOXIC4nKMkPCEIqt5IW71Ib4f_KcFfsL5X=
+td2WudtdC6XGNybCRIMp5xTxQTjcuC0E51rVT9y0L0fpbbPR0_j8uVZV_e5onXvE4gUkzLOuYS0=
+tIX3y0ZYr0ETNp3f7CngMUGy8wr-1oy3d5cL0wIJSvPUTxabY1I2WirHoWe3xqZEaqYHLTVpzD6=
+3q_RP-gcrDYcv ] for editing and Simon Barnett [ https://email.mg-d1.substac=
+k.com/c/eJxFUMluwyAQ_Zpwq4XB2HDgkEsvvfUHEMvEQbHBgnEj_31xUqnSaDSjWd7iLcKcy6G=
+3XJGcyeCxgU7wrAsgQiF7hWJi0P3IJBeDIkFz5aj0I4nV3ArAauOisexAtt0t0VuMOb1OKGWC3D=
+WDnsrhJoNUynELfBKMOdHaQMXI-jew3UOE5EHDD5QjJyA-ryskPF-RRd8Rt3rh1wv7bIHPeNLr2=
+k7rqrMlNb7X7y8SNaOM0bHnPRMTox3vfKsGyUANQQplb5eBrvNH6Lu6u4rWP843pOiU0eUS09wW=
+Hne7wvIaNFnm5LKniIeBZN0C4a0Y3869PDAzJCjN0WAsNr-EaLBUyGn4U9h0CNWrSQlFGnLI7Sr=
+9g_4CByKFfQ ] for reading an early draft!
+Alt Mint
+Freebie time! Not Boring portfolio company Alt is launching Alt Mint [ http=
+s://email.mg-d1.substack.com/c/eJxFkM1uhSAQRp_msqsBFJUFi276GoSf0UuugoGx1j59=
+8bpoQghkGM6czxmEOeVTbakguTaN5wYqwlEWQIRM9gJZB69Yz8dWdJJ41UpLR9eTUPSUAVYTFoV=
+5B7LtdgnOYEjx3UIpF-Sp-Mh6ayYmnXet8IxNkxe282zw1jFjb7DZfYDoQME35DNFIC6tK0S8vi=
+KLeiJu5dF-PvhXXcdxNGbB5uf8rbc1RCRBcco57VnLuBg4bdrG1VM3cpCdH4U006Oj6_zhWVN2W=
+9C4V1MZJKuY0KYc4lwfvJ5mheVdqD76GmKPAU8N0dgF_K2Kd2RveT1DhFyj9NpgDUqIiqViHDp2=
+q1UBIZkcpJCkkn2qXfEf-gefNYRF ]. One June 17th, they=E2=80=99re providing ea=
+rly access to VIPs to mint NFTs backed by physical trading cards. Holders h=
+ave the right to redeem their NFTs for trading cards ranging from $700 - $1=
+0,000 in value or to hold on to them for access to community benefits and r=
+ewards. Leore, Meredith, and the Alt team have generously offered to give 3=
+0 of those VIP spots to Not Boring readers. To enter, just fill out this fo=
+rm and they=E2=80=99ll be in touch:
+Thanks for reading, and see you next week,
+Packy
+
+Unsubscribe https://email.mg-d1.substack.com/c/eJxFUsFuozAU_JpwK8IGAz5w6CZN=
+lqhJtC1Nk1yQsV8SN2CzYJbC169JpF3Jsp_GfjPWzOPMwEU3Q1Lr1jjTlpuhhkRB35ZgDDRO10K=
+TS5GgEMc-CagjEp8WXsxDR7b5uQGomCwT03Tg1F1RSs6M1Ore4nmYONdEnCN-xjRGPGbAaYBD4Y=
+UEnSPhBbGg4iHMOiFBcUjgDzSDVuBwXVWgzETllMnVmLqd-c8zvLSr73tXaVPoRqqLy7WFGJ-Eb=
+SFky4oS8vvPZv7S6Buomb-AYY043g8HXN7SL_29_UqDzfjh7d57yVd0FEtan-ZpuM1u37uME3u2=
+aVVehcU22RFts5dhmz2j3byX7LAdLYfkP_fyNXvpN4sUpdLy-Hs54adVOR4_1-1pT8vic1kX8zV=
+1N9EixB06_n5t34Ie_1qNc65JVlfxU6_fZFcUPw7HS_dxXfeOTLCHsRciH2ESYc_1XW6rIMZAAx=
+ETys6zwKsuTwK5bVe0hvGb9aFymuSfL_bB7coqKO8XNp18srRT0gw5qMkj8QjOPAbgblh-AQWNH=
+QyRM2NjJ8TKeiSOAvQIysZBKKIRJdSxykLbLvVf9C-Ab8on
+--d6d5ddc1524727b83468f3cac3f7eb85df9c3f122ecdee75491268e6e609
+Content-Type: text/html; charset="ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html style=3D"--border-radius: 4px; --color-dark-detail: #333333; --color-=
+dark-primary: #e0e0e0; --color-primary: #404040; --color-secondary: #808080=
+; --color-substack-accent: #ff6719; --color-substack-bg: #ffffff; --color-s=
+ubstack-secondary: #808080; --color-substack-wash: #f5f5f5; --color-text-da=
+rk-pencraft: #404040; --color-text-dark-wash: #252525; --font-family-title:=
+ 'SF Pro Display', -apple-system-headline, -apple-system, ui-sans-serif, Bl=
+inkMacSystemFont,
+    'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', =
+'Segoe UI Emoji', 'Segoe UI Symbol';"><head><title>Ginkgo Bioworks: The Org=
+anism Company</title><style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup iframe.spotify-wrap,
+  .typography.editor .markup iframe.spotify-wrap,
+  .typography .markup a.spotify-wrap,
+  .typography.editor .markup a.spotify-wrap {
+    width: auto !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.youtube-wrap div.youtube-screen,
+  .typography.editor .markup div.youtube-wrap div.youtube-screen,
+  .typography .markup div.vimeo-wrap div.youtube-screen,
+  .typography.editor .markup div.vimeo-wrap div.youtube-screen {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.s=
+how-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-public=
+ation.show-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe {
+    padding: 28px 24px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.sho=
+w-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-wid=
+get.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-s=
+ubscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget=
+=2Eshow-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media print {
+  .typography .markup .button-wrapper,
+  .typography.editor .markup .button-wrapper {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-=
+embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substa=
+ck-app-embed-img {
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    max-width: calc(100% - 100px);
+    width: initial;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-text {
+    margin-bottom: 16px;
+    max-width: 100%;
+    width: auto;
+  }
+}
+
+
+@media (max-width: 525px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-emb=
+ed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-=
+app-embed-link {
+    margin-top: 16px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .congrats-box {
+    flex-direction: column;
+  }
+  .congrats-box .congrats-box-right {
+    margin-left: 38px;
+    margin-top: 16px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .congrats-box {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer {
+    padding: 36px;
+    height: 680px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-co=
+ntainer .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post {
+    padding: 32px 0 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column =
+=2Epost-meta {
+    margin-top: 6px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post .post-footer.use-separators {
+    gap: 8px;
+    justify-content: center;
+    margin: 40px -16px 0 -16px;
+    padding: 16px 16px 0 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 16px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-pu=
+blication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button > svg {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-content .post-preview-meta {
+    margin-top: 12px 0;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview > .post-preview-image {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .post-preview-silhouette .post-preview-silhouette-image {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .subscribe-dialog .modal-table .modal-row .modal-content > .container {
+    width: 552px;
+    padding: 37px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .subscribe-dialog .modal-table .modal-row .modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .subscribe-dialog .modal-row .modal-cell .modal-exit-btn {
+    margin-right: -20px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  .header-with-anchor-widget .header-anchor-widget {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subs=
+cription-discount {
+    width: 72px !important;
+  }
+}
+
+
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  body .footer {
+    outline: 8px solid #f5f5f5 !important;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: 18px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .comment > .comment-list {
+    padding-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .reader2-text-b3 {
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+
+
+@media only screen and (max-width: 630px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-=
+progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-p=
+layer-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+
+
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type=
+ {
+    display: block;
+  }
+}
+
+
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-typ=
+e {
+    display: block;
+  }
+}
+
+
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-contai=
+ner {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+
+
+@media screen and (min-width: 541px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    width: 552px;
+    padding: 26px 24px;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-table .modal-row .=
+modal-content > .container {
+    padding: 40px 0;
+  }
+}
+
+
+@media screen and (max-width: 630px) {
+  .poll-embed .poll-wrapper.poll-web .poll-dialog .modal-row .modal-cell .m=
+odal-exit-btn {
+    margin-right: -20px;
+  }
+}
+
+
+@media (min-width: 631px) {
+  .sm\:tw-my-8 {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .sm\:tw-mx-0 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .sm\:tw-mt-0 {
+    margin-top: 0px !important;
+  }
+  .sm\:tw-ml-3 {
+    margin-left: 0.75rem !important;
+  }
+  .sm\:tw-mb-0 {
+    margin-bottom: 0px !important;
+  }
+  .sm\:tw-mb-1 {
+    margin-bottom: 0.25rem !important;
+  }
+  .sm\:tw-block {
+    display: block !important;
+  }
+  .sm\:tw-inline-block {
+    display: inline-block !important;
+  }
+  .sm\:tw-flex {
+    display: flex !important;
+  }
+  .sm\:tw-hidden {
+    display: none !important;
+  }
+  .sm\:tw-h-screen {
+    height: 100vh !important;
+  }
+  .sm\:tw-h-64 {
+    height: 16rem !important;
+  }
+  .sm\:tw-w-full {
+    width: 100% !important;
+  }
+  .sm\:tw-w-auto {
+    width: auto !important;
+  }
+  .sm\:tw-w-64 {
+    width: 16rem !important;
+  }
+  .sm\:tw-max-w-lg {
+    max-width: 32rem !important;
+  }
+  .sm\:tw-max-w-none {
+    max-width: none !important;
+  }
+  .sm\:tw-translate-y-0 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-95 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-scale-100 {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rota=
+te(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX=
+(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+  }
+  .sm\:tw-flex-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+  .sm\:tw-items-start {
+    align-items: flex-start !important;
+  }
+  .sm\:tw-gap-2 {
+    gap: 0.5rem !important;
+  }
+  .sm\:tw-gap-4 {
+    gap: 1rem !important;
+  }
+  .sm\:tw-space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse))) !important;
+    margin-bottom: calc(0px * var(--tw-space-y-reverse)) !important;
+  }
+  .sm\:tw-border {
+    border-width: 1px !important;
+  }
+  .sm\:tw-p-0 {
+    padding: 0px !important;
+  }
+  .sm\:tw-p-6 {
+    padding: 1.5rem !important;
+  }
+  .sm\:tw-px-6 {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+  .sm\:tw-py-2 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .sm\:tw-py-16 {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+  }
+  .sm\:tw-pb-4 {
+    padding-bottom: 1rem !important;
+  }
+  .sm\:tw-text-left {
+    text-align: left !important;
+  }
+  .sm\:tw-align-middle {
+    vertical-align: middle !important;
+  }
+  .sm\:tw-text-sm {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
+  .sm\:tw-text-4xl {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+  }
+  .sm\:tw-font-medium {
+    font-weight: 500 !important;
+  }
+  .sm\:tw-text-pub-secondary-text {
+    color: #767676 !important;
+  }
+  .sm\:tw-opacity-70 {
+    opacity: 0.7 !important;
+  }
+  .sm\:hover\:tw-opacity-100:hover {
+    opacity: 1 !important;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .md\:tw-bottom-4 {
+    bottom: 1rem !important;
+  }
+  .md\:tw-right-4 {
+    right: 1rem !important;
+  }
+  .md\:tw-block {
+    display: block !important;
+  }
+  .md\:tw-flex {
+    display: flex !important;
+  }
+  .md\:tw-w-3\/4 {
+    width: 75% !important;
+  }
+  .md\:tw-pl-4 {
+    padding-left: 1rem !important;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .frontend-lib-ProfileSetupToast-module__headerRow--17w27 {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .frontend-publish-stats-pages-reader_referrals_stats-reader_referrals_sta=
+ts-module__popoverWrapper--3Gh5i {
+    display: none;
+  }
+}
+</style></head><body class=3D"email-body" style=3D"font-kerning: auto;"><im=
+g src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoiPDI=
+wMjIwNjEzMTI1NzIwLjMuYzEyNTQ4MmU5NGQ4NTlhZkBtZy1kMS5zdWJzdGFjay5jb20-IiwidS=
+I6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFja=
+y5jb20iLCJwIjo1OTE5Nzk1OSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjox=
+MDAyNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTY1NTEyNTA=
+1OCwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.IXZ_pkZl7hLqL3CjziAdJYe09Qnzn72nbUvH-=
+a1hlVA" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px =
+!important;width:1px !important;border-width:0 !important;margin-top:0 !imp=
+ortant;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !=
+important;padding-top:0 !important;padding-bottom:0 !important;padding-righ=
+t:0 !important;padding-left:0 !important;"/><div style=3D"display:none;font=
+-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacit=
+y:0;overflow:hidden;" class=3D"preview">Elliot Hershberg joins Not Boring a=
+nd introduces us to synthetic biology &#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#82=
+04;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&=
+#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#16=
+0;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&=
+#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#820=
+4;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#=
+8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160=
+;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#=
+160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204=
+;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8=
+204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;=
+&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#1=
+60;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;&#160;&#8204;=
+&#160;&#8204;</div><table role=3D"presentation" width=3D"100%" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0" class=3D"email-body-container"><tr><td=
+></td><td width=3D"550" class=3D"content"></td><td></td></tr><tr><td></td><=
+td align=3D"left" width=3D"550" class=3D"content"><div style=3D"font-size: =
+16px; line-height: 26px; margin: 0 auto; max-width: 550px; overflow-wrap: b=
+reak-word; width: 100%;"><div markup=3D"" style=3D"font-size: 16px; line-he=
+ight: 40px; margin-bottom: 8px; text-align: right;"><a href=3D"https://emai=
+l.mg-d1.substack.com/c/eJxVkdFuhSAMhp9G7o5BEJULLpYs5zUIQvWQo2CgbvHth54t2xJC=
+Smn7f22tQZhjOtQWM5Lz0nhsoAJ85gUQIZE9Q9LeqaZjAxetJE5xOdLBdsRnPSWA1fhFYdqBbPu=
+4eGvQx3ClUMoEeSgzmKFrObTGWNNb4QY-ddR07SSnbprcS9jszkOwoOAD0hEDEBvXFQKepciiHo=
+hbrvhbxe7l5H3MaOyzLkHlabbttvjwLOZZrOL3_ywVf79oKtZdYpdHyEb2Usji3HHVOe7JQvFfH=
+RGvGGWMdg1vmOgZrXlti9UODGTrBiHNVLV0nW-uqf_SkKRCxDEmH-YS8HyYFZbroyDps6c9eDw0=
+BDMu4F6Tw9cGLmU9Q4BUNuO0wTJ3IYosFUPfNuQbXv2gk6LsYskKv6Jf5cydmg" class=3D"tw=
+-font-body tw-text-ssm tw-text-substack-secondary" style=3D"color: rgb(128,=
+128,128) !important; font-family: SF Pro Text, -apple-system, BlinkMacSyste=
+mFont, Inter, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color E=
+moji, Segoe UI Emoji, Segoe UI Symbol !important; font-size: 13px !importan=
+t;">Open in browser</a></div><div dir=3D"auto" class=3D"post typography" st=
+yle=3D"font-size: 16px; line-height: 26px; padding: 16px 0;"><div class=3D"=
+post-header" style=3D"font-size: 16px; line-height: 26px;"><h1 class=3D"pos=
+t-title short published" style=3D"-moz-osx-font-smoothing: antialiased; -we=
+bkit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact =
+Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,=
+ Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol=
+'; font-size: 40px; font-weight: bold; line-height: 130%; margin: 0.378em 0=
+ 0 0;"><a href=3D"https://email.mg-d1.substack.com/c/eJxFUsuOozAQ_JpwC8Lm6Q=
+OHUSYPZicw2mGz2VyQsTvEAWwEZhjy9esk0q7kl8rdVVJVM6qhUv0cd2rQ1v0o9NxBLGEaGtAae=
+mscoC8Ej1GAI9f3iMVjl5ROxAJLDMW5B2ipaGLdj2B1Y9kIRrVQ8tHiONi3LjGNOA9xhLwzxwHm=
+Li657wUlOQc0JODypzAduQDJIIYv6GclwWKqbUHqO5XVxBetu2HhvizwxqxpmmypdKl6ISubKQN=
+1ZldC1pValkJNqq-Hpb7AUvUVlWJol4avo3JeuButapAL9xXmN8TwYT7ipk6u6ju9Jt7-9svJPi=
+fBtuTGN6Q7rZIgzevvLGe-uYekbS7cYPv8D0rz9ZzmLyhbTYIe05vhEGx3EO_5etq_JigRhsc9i=
+Ad-51uh-fR7c-Xb5qsUb8S-RVnpr4E1B8rb_GP3E2en_KQrXf3Yt1n4_rHaVse0PR92tSVi7GDs=
+BMhF2A-xY7s2My8vwkA8HvmEnhee01ZLjuxhLAdNWW2caa0-_ueUKagvtIXm8WHyKu4mj1LouQB=
+Jywb4M0r9HIlHuEUFEnozKryg2gyC7xtZx49CDz2jMwH5BJGQ-MQyylyZLvlf9C9VqdEk" styl=
+e=3D"color: #1a1a1a; text-decoration: none;">Ginkgo Bioworks: The Organism =
+Company</a></h1><h3 class=3D"subtitle" style=3D"-moz-osx-font-smoothing: an=
+tialiased; -webkit-font-smoothing: antialiased; color: #767676; font-family=
+: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Robo=
+to, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'S=
+egoe UI Symbol'; font-size: 20px; font-weight: normal; line-height: 1.16em;=
+ margin: 4px 0 8px; margin-top: 8px;">Elliot Hershberg joins Not Boring and=
+ introduces us to synthetic biology</h3><table cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"post-meta custom" style=3D"align-items: center; height: 20=
+px; margin: 1em 0;"><tr><td title=3D"2022-06-13T12:57:36.036Z" class=3D"pos=
+t-meta-item post-date" style=3D"color: #767676; font-family: -apple-system,=
+ BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'App=
+le Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font=
+-weight: 400; height: 14px; padding: 0px 12px 0px 0; padding-bottom: 0; pad=
+ding-top: 0; position: relative; text-decoration: none; white-space: nowrap=
+;"><time dateTime=3D"2022-06-13T12:57:36.036Z">Jun 13</time></td><td class=
+=3D"post-meta-item icon" style=3D"color: #767676; font-family: -apple-syste=
+m, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'A=
+pple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; fo=
+nt-weight: 400; height: 14px; padding: 0px 12px 0px 0; padding-bottom: 0; p=
+adding-top: 0; position: relative; text-decoration: none; text-indent: 3px;=
+ white-space: nowrap;"><span class=3D"post-meta-icon like-reaction-button">=
+<a href=3D"https://email.mg-d1.substack.com/c/eJxFUtGuojAQ_Rp5k0ChSB94uNFoI=
+Isme3W96wsp7YAVaFkoIn79Fs3dTZqZzmnPzGTOMKqhVN0UtarX1mwyPbUQSRj7GrSGzhp66DLB=
+IzdAoYd9YvHII7kTssASfVZ0AA0VdaS7Aax2yGvBqBZKviiOg7B1jUIPsXDlIMCUFmHAsR8WrPC=
+CPCTeirHiXZgOXIBkEMEduklJsJhqGpB6TmXV0VXrtl94Hwu0NWccR1sqnatOyNJmykC0FcbeXW=
+PmhMa9Wlt2QNnc0sLbDrrJejV0DBbeph_yXlNWLVAw4w1wMTQGf7EMqFUFco6nxGXo1_SF6iq-q=
+cf-Fvvp8-QcPkfBduTJt6S9rONgf6wehyPDxvexTOrf571Dz2QwHOG3qIrFKOh567xznNz0GLvp=
+5uT_WCct81JxEMnIz7FOjx9jejsJgz9NPOPT5by98V19z0VC7AlPm5HJ9e1nTYrH0H_KUl14w93=
+-y2e8WyZ_QqVOu3tZhZaIkIOQE7iei_AKObZnM3PzQwTE5yEmtFj4TlMuuWt_D8SMs7G66N94zY=
+fqShuoXw9G5GxWZpBCTxlImtfA3_rr9x69BpiVIKEz-8Uzqs32YGzKOjhc-e5bb6MqJi5ZEUwsU=
+5krw5L_i_4FuwrjpQ" class=3D"like-button" style=3D"color: #767676; display: =
+block; text-decoration: none;"><img src=3D"https://substackcdn.com/image/fe=
+tch/w_32,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubst=
+ack.com%2Ficon%2FLucideHeart%3Fv%3D2%26height%3D32%26fill%3Dtransparent%26s=
+troke%3D%2523757575%26strokeWidth%3D2" width=3D"16" height=3D"16" style=3D"=
+border: none !important; display: inline-block; float: left; height: 14px; =
+max-width: 16px; vertical-align: top; width: auto;" alt=3D""></a></span></t=
+d><td class=3D"post-meta-item icon" style=3D"color: #767676; font-family: -=
+apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, san=
+s-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-siz=
+e: 14px; font-weight: 400; height: 14px; padding: 0px 12px 0px 0; padding-b=
+ottom: 0; padding-top: 0; position: relative; text-decoration: none; text-i=
+ndent: 3px; white-space: nowrap;"><a class=3D"" href=3D"https://email.mg-d1=
+=2Esubstack.com/c/eJxFkttymzAQhp_G3JkBcdQ=
+FFxnHB9IYZ1rqpr5hhLTGMkhiQITgp6-wm3Z=
+Gp1ntfr-0u5RoqFQ3Ja3qtTUvhZ5aSCSMfQNaQ2cNPXQFZ4kbotgLfGyxxMOlE9PQ4n1x7gAE4U=
+2iuwGsdigbTonmSt5DHAcF1iWJfOKgCFPmMy8KfUYxCvHZwSUmDi0N6C5MBsZBUkjgA7pJSbCoE=
+gKknlFWk1y0bvuF97RAGzPGcbSl0qXquKxsqoypNbPisq7UsuRqVF3dL_UFlqqriOS9WBpeS-Rk=
+3P6SDW6jVQ1y4T3D9OJSdJzeUVOnV_WZXVN_f_vpHH6MnG7xjW1we1qlYZbXn4ecBmbvU9FcmLH=
+t899ulq-nLH9yD6uRk_fsZhic7o78NV-P--fUTbnheEd-t8-8lTudfm2ubNt8lPwF27f4UAZroM=
+2RMJG_7b6jwyk_6UpX3_biEL2-rbbVeybOx129QOGgRdGroaNg3t4PZa8J_bILYHwQ85_m0lg8Q=
+Q5CTuh6Lgoi5NieTc3JjxFgn8UBJueF74hqyVz7i2QyKqwu-Zdh41BfiIDmfmHqXMwpHCTXUwGS=
+lA2wRwvoRyvdlYsKJHSmxVhBtGmgIDCyThBHvvsouSlsgF0c4QBbRpkpEyX_i_4BX-XlKw" sty=
+le=3D"color: #767676; display: block; text-decoration: none;"><img src=3D"h=
+ttps://substackcdn.com/image/fetch/w_32,c_scale,f_png,q_auto:good,fl_progre=
+ssive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideComments%3Fv%3D2%26he=
+ight%3D32%26fill%3Dtransparent%26stroke%3D%2523757575%26strokeWidth%3D2" wi=
+dth=3D"16" height=3D"16" style=3D"border: none !important; display: inline-=
+block; float: left; height: 14px; max-width: 16px; vertical-align: top; wid=
+th: auto;" alt=3D"Comment" class=3D"comment-icon post-meta-icon"></a></td><=
+td class=3D"post-meta-item icon" style=3D"color: #767676; font-family: -app=
+le-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-s=
+erif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: =
+14px; font-weight: 400; height: 14px; margin-right: 0; padding: 0px 12px 0p=
+x 0; padding-bottom: 0; padding-right: 0; padding-top: 0; position: relativ=
+e; text-decoration: none; text-indent: 3px; white-space: nowrap;"><span><a =
+href=3D"https://email.mg-d1.substack.com/c/eJxNkluPoyAUgH9NfatBvFQefJhst4lm=
+7GSz7bbzZBCOSlVwEMe1v36x3VsChPNxLpwLowZqpZdkUKNx1qMwywCJhHnswBjQzjSCLgRPvAj=
+HfhgQhyc-KVHMIkeMRaUBeiq6xOgJnGEqO8GoEUo-TBDCodMkEcU82qESfFIhDrTCpYejMiQ75H=
+EPV8_AdOICJIMEPkEvSoLDVN-DNKsrp0saY4Zx479s8MGueZ5dqUyptJC1y5RFg921kG2ttqVQs=
+9LtuDUNbJWuqRRjv7X-BiqXjX-YTF-MatIMNv5-nMrRUNZucLTyHriYessfif2GTEljv7JqN1SD=
+pZStaf4HjGphlWHJPIZ_LFfctelN_Tze0iC_n9Hb91nQywE92dnLT6mX78_B65dsYH4u3kQ280t=
+q8tPLnN_OwvK7lR-89I_o9Zp175cjohcypRK5t7vYf7wvWWi6rGrCfTNz1p8-Pk-kuvdf87PMu0=
+v6zb--xakjEowwRpHnezjcYeT6LrO3IMZAAh6HhFabAPX1lnvun3LYovaOTv4W2Sq0De2hezzYV=
+hdrfyYpzFKApGUH_DkF5jlNj_IVNUjQdsp4QY2doTC0YVEY7wLv2XXb25B4ZEdC4tjIXFkr-S_o=
+L_QD5ig" style=3D"color: #767676; display: block; text-decoration: none;"><=
+img src=3D"https://substackcdn.com/image/fetch/w_32,c_scale,f_png,q_auto:go=
+od,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideShare%3Fv=
+%3D2%26height%3D32%26fill%3Dtransparent%26stroke%3D%2523757575%26strokeWidt=
+h%3D2" width=3D"16" height=3D"16" style=3D"border: none !important; display=
+: inline-block; float: left; height: 14px; max-width: 16px; vertical-align:=
+ top; width: auto;" alt=3D"Share" class=3D"recommend-icon post-meta-icon"><=
+/a></span></td></tr></table></div></div><div dir=3D"auto" class=3D"post typ=
+ography" style=3D"font-size: 16px; line-height: 26px; padding: 16px 0;"><di=
+v dir=3D"auto" class=3D"body markup" style=3D"font-size: 16px; line-height:=
+ 26px; margin-bottom: 12px; text-align: initial; width: 100%; word-break: b=
+reak-word;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px;=
+ margin: 0 0 1em 0; margin-top: 0;"><em><text>Welcome to the&#160;</text><s=
+trong>1,073&#160;newly Not Boring people&#160;</strong><text>who have joine=
+d us in the last couple weeks! If you haven&#8217;t subscribed, join&#160;<=
+/text><strong>130,985 </strong><text>smart, curious folks by subscribing he=
+re: </text></em></p><div class=3D"subscribe-widget is-signed-up" style=3D"d=
+irection: ltr; font-size: 16px; line-height: 26px; margin: 0 0 1em;"><p cla=
+ss=3D"button-wrapper" style=3D"color: #1a1a1a; font-size: 16px; line-height=
+: 26px; margin: 0 0 1em 0; text-align: center;"><a href=3D"https://email.mg=
+-d1.substack.com/c/eJxFUdFuhCAQ_Bp5OyMonjzw0KS53zAIq0cqYHCp8e-L2tqEEBh2Z4ZZ=
+rRCmEHe5hBXJsfW4LyA9bOsMiBBJWiH21kjasq7mjSBG1mKoOt0Su_ZjBHDKzhJjArKkYbZaoQ3=
+-bKkqxslbUgam7cZGAa9BcdYpENQMomvEyNjILmGVjAWvQcI3xD14IDo4Bx4PKjLLN-KyFvVHwV=
+55bdtW-oBDiNZPpQ4ZWtOw6mgHKOpXQtevIUWdL58HfcHaA3NgbHIZO13_gnfhzfDYrJngr0kHj=
+9lHLuCCiqfggljJKsaqltaU8SeryrrU-dR0DERjOi7UWDSVmx6GlgcrKv2VXToS5e06F3y9lYP5=
+fMjZ9ceHk7e49-DVMIO5YsVrPKflfgIPMY_N9ArzUDjPshXvng29Ysxh3S6zsgm5y_-L_gDGg6n=
+C" class=3D"button primary subscribe-btn" style=3D"background-color: #67bdf=
+c; border: none; border-radius: 4px; box-sizing: border-box; color: #ffffff=
+ !important; cursor: pointer; display: inline-block; font-family: -apple-sy=
+stem, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,=
+ 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px;=
+ font-weight: normal; height: auto; line-height: 20px; margin: 0; opacity: =
+1; outline: none; padding: 12px 20px; text-align: center; text-decoration: =
+none !important; white-space: nowrap;"><span style=3D"color: #ffffff; text-=
+decoration: none;">Subscribe now</span></a></p></div><p style=3D"color: #1a=
+1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><text>&#12791=
+1;</text><em><text>&#160; If you&#8217;d rather listen to this essay, head =
+over to </text><strong><a href=3D"https://email.mg-d1.substack.com/c/eJxFkc=
+luwyAQQL_G3Gqx2ubAoYsqVUlVdbn0ZGGYOCg2WIDbul9fkhwqIUAwM495GJ1hDHFTS0gZnac-b=
+wsoD99pgpwhojVB7J1VpKEdE1wiq5gccGca5FJ_iACzdpPKcQW0rMPkjM4u-EsKxlSgo7KSWxgG=
+g7mw0rS41cLIhjaYAWkawa9gvVoH3oCCL4hb8IBMmGfw-VwKTeqY85IqdlvRxzLCAr5OS8jusNU=
+lsBylY_guS3Min_u7r5e3t-ctpN3GfsjP01Sxx-Qq9vCwbNzd79pXQd_JnjPymz7wiJyimFLcEE=
+aoaCmuWW3KjncUyuM7IfWh4ngebyyp0zqkrM3pjEVR-ZCHEJ0fS8DpqGeYLhfFRX9uYPUubz14P=
+Uxgr5ryVfdFXD-Ch1i-wfY6F8lCFCwWXcvJVUtpXkgiWykkKmQbSpb_h_4B8PWWAw" rel=3D""=
+ style=3D"color: #1a1a1a; text-decoration: underline;">Spotify</a><text> </=
+text></strong><text>or&#160;</text><strong><a href=3D"https://email.mg-d1.s=
+ubstack.com/c/eJxFkMGOhCAMQL9muI0BhFEOHPayv2EQqkNGwUDdjX-_ddxkEkIKpX30eYcw5=
+3LYLVdk5zbgsYFN8FsXQITC9gpliMGKh-xbrQwLtjUj7_2DxTpMBWB1cbFYdmDbPi7RO4w5vUs4=
+l5o9rdKtGrvADQgtJ-W0nnrfB6U6kNKP0wV2e4iQPFj4gXLkBMzndYWEZyu22CfiVm_t101-09p=
+y8K5ibdy2LdDQU7rc6ydDUcp4H3OJaaZDDATvlBSmFSxayaXkD9EKqTvJm7bxFKleglGh18ZNN8=
+XX-R5EU_exovOvk8GKpab_PRV_Pd0KyztBow_nf_cU8RgguXGBcFnBy-7b0zBDgkLWw-CQnGpNW=
+K77TonLAs2qjTCd0YYROWSqSh_oH337kNI" rel=3D"" style=3D"color: #1a1a1a; text-=
+decoration: underline;">Apple Podcasts</a></strong></em></p><div style=3D"f=
+ont-size: 16px; line-height: 26px;"><hr style=3D"background: #ededed; borde=
+r: none; height: 1px; margin: 25.6px 0; padding: 0;"></div><p style=3D"colo=
+r: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><strong=
+><text>Today&#8217;s Not Boring is brought to you by&#8230; </text><a href=
+=3D"https://email.mg-d1.substack.com/c/eJxFkUmOwyAQRU9jdm0xGNssWLTUyjUsDBWH=
+jgGLoSPfviGREgkxVf36xUOrDFuIpzxCyqhNSz4PkB4eaYecIaKSIC7WSDLSmfFBICOZWPGsR2T=
+Tco0ATtld5lgAHWXdrVbZBv-UYEw5uklDCUwTGwSQUVChqbhqwjlTQM0wzcPLWBVjwWuQ8AfxDB=
+6QDs6Bz60U2uUt5yN17LujlzpieKS-JrQTu5TslhRK1NCxn0_zHR1bxIGxxdXIqrx_32rlDmU33=
+xQhryFav339Fg8UU4qsbAseCSOUTxT3rNd1N8wUxGBmLtS1G7DbvgzpU1lTVvre-kFRvqvVhPtN=
+OdifgQpnaS8q3uZzAa_WHcyLW37xf5JcNqg91n8xi8qVOufVFvN5GsiLU6XBBRGT4AJVZxOqyn9=
+M_wEcDZ4x" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">R=
+ows</a></strong></p><div class=3D"captioned-image-container-static" style=
+=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-align: ce=
+nter;"><figure style=3D"display: inline-block; margin: 0 auto; width: 100%;=
+"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6=
+em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" c=
+lass=3D"content" width=3D"879" style=3D"text-align: center;"><a class=3D"im=
+age-link" target=3D"_blank" href=3D"https://email.mg-d1.substack.com/c/eJxF=
+UsmO5CAM_Zrilog1wCGH1kjzGxGLk0KVQAZI91R_fZNEo5GQ_fD2LNvOVFhSfo97KhWdYqrvHcY=
+IX2WFWiGjo0Cegh_JQBUTXCM_Mm2xcgMKZZozwGbCOtZ8ANoPuwZnakjxSsGYCvQc8YClZDOd7a=
+ANc36YxUClcJx4abWyN7E5fIDoYIRPyO8UAbm0bRDrWQqt47PWvTzYx4P-bq8ctlTjXs7HvsU1S=
+9jMAk3PUN3z1K1iTQ_6688N2MeSkm__eZ32nJYMpYRPaPZSAfaWcTNQcXKIk6UJe7gXNH_uAAtr=
+neKdNYZ1nEnotCCqM94yakFKrXhfWG82852i-Sp3X63GPZYLXk2WCxIlqJXEdoOaZcc5kZ0eLO8=
+cyIFIpyUGOSmp_3JN-j0uKIwUU4oHwggVkuKe9a4hriho7pXQZn5wvC2dJ_2_8Zw9oDzGVG3KIS=
+4t4PU0G6yXozU2nUM-YqjvCaKxK_h7lfU-iWu50wIRcjsVP5naDkGIRouFkpzcq2sLEppoqYVGj=
+dmnlhX_k_4A7dDHjA" rel=3D"" style=3D"align-items: center; border: none; dis=
+play: block; flex-direction: column; height: auto; margin: 0; padding: 0; t=
+ext-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&qu=
+ot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/=
+public/images/1852b71b-68f7-4417-96b4-ce7617c970e7_879x491.png&quot;,&quot;=
+fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:491,&qu=
+ot;width&quot;:879,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quo=
+t;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&qu=
+ot;:null}" alt=3D"" width=3D"550" height=3D"307.22411831626846" class=3D"wi=
+de-image" src=3D"https://substackcdn.com/image/fetch/w_1758,c_limit,f_auto,=
+q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e=
+-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F1852b71b-68f7-4417-=
+96b4-ce7617c970e7_879x491.png" style=3D"-ms-interpolation-mode: bicubic; bo=
+rder: none !important; display: block; height: auto; margin: 0 auto; margin=
+-bottom: 0; max-width: 100% !important; vertical-align: middle; width: auto=
+ !important;"></a></td><td style=3D"text-align: center;"></td></tr></tbody>=
+</table></figure></div><p style=3D"color: #1a1a1a; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 1em 0;"><text>Y</text><em>ou know I&#8217;m bullish=
+ on all things web2, web3, web[INSERT NUMBER]. You might even say I&#8217;m=
+ an Optimist. But let's face it: behind every crypto project, blockchain an=
+d DAO there is a spreadsheet. There is always a spreadsheet..</em></p><p st=
+yle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em =
+0;"><em><a href=3D"https://email.mg-d1.substack.com/c/eJxFkUmOwyAURE9jdrEYj=
+G0WLFpq5RoWw49Dx4DF0FFu3zhpJRJiKj5VPIwqsMb0kHvMBR3dUh47yAD3vEEpkFDNkBZnJRnp=
+zPggkJVMaDybEbm8XBKAV26TJVVAe9WbM6q4GJ4lGFOOrhK0ImQwXE-AKcGGCk0uDKZhZHyigry=
+MVbUOggEJv5AeMQAy0XsI5bgKbfJayt6xr46eW0vxnvumHyt2rsUvOdZkoGPfn-wdHQ_Fg3XVN0=
+WrEN67RvlduTUcFbHomFxYTz8qUEwpcvIY8EgYoS0i7llv2myYKYjBzlyoSzdgv54s6XPVuShzO=
+-KgJN-XtQO3q_KwPYWGZjneU4MrjwWC0hvYF7Xyov_kuKzQIrZfsYsqjTnnzRbzeRr-KTUWXBAx=
+CS5Qc7axVYWP6R_B0J1V" rel=3D"" style=3D"color: #1a1a1a; text-decoration: un=
+derline;">Rows</a><text> is the spreadsheet for the Slack generation. Last =
+year, I wrote that Excel Never Dies. I may have spoken too soon. Rows very =
+much wants Excel to die. It has a shot: it&#8217;s one of the most &#8220;H=
+oly shit &#129327;&#8221; new product experiences I&#8217;ve had in a long =
+time.</text></em></p><p style=3D"color: #1a1a1a; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 1em 0;"><em>It&#8217;s kind of like if Excel, Zapier =
+and a BI tool had a baby, plus access to databases that normally live behin=
+d paywalls. And it&#8217;s all without code.</em></p><p style=3D"color: #1a=
+1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><em><text>Thi=
+s time I teamed up with the Rows team to create a spreadsheet for retail in=
+vestors: </text><a href=3D"https://email.mg-d1.substack.com/c/eJxFUU1vhCAU_=
+DXLTQMofhw4tEn31J6a9GoQnkpXwcBzW_vri2uTJoQ8Hm-YYUYrhNGHXa4-Ijm2DvcVpIOvOAMi=
+BLJFCJ01klW8KUTZEiOLtqeNroiN3RAAFmVniWEDsm79bLVC690DQikXZJIMVK17aGrNoNAw8Ep=
+pUdZCAysNH4qTWG3GgtMg4Q5h9w6I9ssCDo-nyCwnxDVeiqcLv6YV_FfM00Aqnces98G6MR2WPY=
+trAGXiBIAxdU5RWZpdlbMQs8E65bRV89kLNnqXCXi9vqzVxxLHBfn726e9fj__JPhs70Cs5JRzW=
+rGCcVFzmhe5TlXZcGhL04hWDZeSLmNmWB63PqLSt0MdCTKp-xNX0tukFpgfF0lVd_xvcxb3Dpzq=
+ZzCni3im8fC1G8FBSCmZTmHKQIhES0VTl-x0LXkjWtbWrWhJYjY-odw_6S_c8qVg" rel=3D"" =
+style=3D"color: #1a1a1a; text-decoration: underline;">a head-to-head compar=
+ison of the financial performance of public companies</a><text>.</text></em=
+></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin=
+: 0 0 1em 0;"><em><text>You can play around with it </text><a href=3D"https=
+://email.mg-d1.substack.com/c/eJxFUU1vhCAU_DXLTQMofhw4tEn31J6a9GoQnkpXwcBzW=
+_vri2uTJoQ8Hm-YYUYrhNGHXa4-Ijm2DvcVpIOvOAMiBLJFCJ01klW8KUTZEiOLtqeNroiN3RAA=
+FmVniWEDsm79bLVC690DQikXZJIMVK17aGrNoNAw8EppUdZCAysNH4qTWG3GgtMg4Q5h9w6I9ss=
+CDo-nyCwnxDVeiqcLv6YV_FfM00Aqnces98G6MR2WPYtrAGXiBIAxdU5RWZpdlbMQs8E65bRV89=
+kLNnqXCXi9vqzVxxLHBfn726e9fj__JPhs70Cs5JRzWrGCcVFzmhe5TlXZcGhL04hWDZeSLmNmW=
+B63PqLSt0MdCTKp-xNX0tukFpgfF0lVd_xvcxb3DpzqZzCni3im8fC1G8FBSCmZTmHKQIhES0VT=
+l-x0LXkjWtbWrWhJYjY-odw_6S_c8qVg" rel=3D"" style=3D"color: #1a1a1a; text-de=
+coration: underline;">here</a><text> and copy it for free to your Rows acco=
+unt.</text></em></p><p class=3D"button-wrapper" data-attrs=3D"{&quot;url&qu=
+ot;:&quot;https://rows.com/?utm_source=3Dnewsletter&amp;utm_medium=3Dbanner=
+&amp;utm_campaign=3Dnotboring-june2022&quot;,&quot;text&quot;:&quot;Try Row=
+s for Free&quot;,&quot;action&quot;:null,&quot;class&quot;:null}" style=3D"=
+color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; text=
+-align: center;"><a class=3D"button primary" href=3D"https://email.mg-d1.su=
+bstack.com/c/eJxFkUmOwyAQRU9jdm0xGNssWLTUyjUsDBWHjgGLoSPfviGREgkxVf36xUOrDF=
+uIpzxCyqhNSz4PkB4eaYecIaKSIC7WSDLSmfFBICOZWPGsR2TTco0ATtld5lgAHWXdrVbZBv-UY=
+Ew5uklDCUwTGwSQUVChqbhqwjlTQM0wzcPLWBVjwWuQ8AfxDB6QDs6Bz60U2uUt5yN17Lujlzpi=
+eKS-JrQTu5TslhRK1NCxn0_zHR1bxIGxxdXIqrx_32rlDmU33xQhryFav339Fg8UU4qsbAseCSO=
+UTxT3rNd1N8wUxGBmLtS1G7DbvgzpU1lTVvre-kFRvqvVhPtNOdifgQpnaS8q3uZzAa_WHcyLW3=
+7xf5JcNqg91n8xi8qVOufVFvN5GsiLU6XBBRGT4AJVZxOqyn9M_wEcDZ4x" rel=3D"" style=
+=3D"background-color: #67bdfc; border: none; border-radius: 4px; box-sizing=
+: border-box; color: #ffffff !important; cursor: pointer; display: inline-b=
+lock; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, H=
+elvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe =
+UI Symbol'; font-size: 16px; font-weight: normal; height: auto; line-height=
+: 20px; margin: 0; opacity: 1; outline: none; padding: 12px 20px; text-alig=
+n: center; text-decoration: none !important; white-space: nowrap;"><span st=
+yle=3D"color: #ffffff; text-decoration: none;">Try Rows for Free</span></a>=
+</p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"backgro=
+und: #ededed; border: none; height: 1px; margin: 25.6px 0; padding: 0;"></d=
+iv><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: =
+0 0 1em 0;">Hi friends &#8203;&#8203;&#128075;,</p><p style=3D"color: #1a1a=
+1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Happy Monday!&#=
+160;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 1em 0;"><text>Last week, I wrote a piece on </text><a href=3D"http=
+s://email.mg-d1.substack.com/c/eJxFUNtuhSAQ_Bp5qwEEhQcemjTnNwzC6iFVMLDW-Pfl=
+HJM2YclmLzM74yzCkvJl9lSQvL4Rrx1MhLOsgAiZHAXyGLxhPVedFJp40-mJKteTUMY5A2w2rAb=
+zAWQ_pjU4iyHF9wqlXJKnsSAV14pqNlumhkH3wrNJ0FlNgvdW3sT28AGiAwM_kK8Ugbi0bRDxBU=
+VW80TcS9N9NvxR33mebUw4pRzi0rpUS3uNtGPYQtma7lFnv04SDKec0551jMuB07ZrXc2E4qCFV=
+1LbuRF0Wz48a8sxFbTuu8JtJJs_-Drw_bQbrO9GFTm-LjtiwGuEaKcV_K0fbx_fjowLRMjVXz9a=
+rO5JWWmpVINgt96qSmqmBy01qcw-1a34T_oLNGCJxg" rel=3D"" style=3D"color: #1a1a1=
+a; text-decoration: underline;">Optimism</a><text> that seemed to resonate =
+with a lot of people. Beyond the headlines, there are pretty mind-blowing a=
+dvances happening across the board &#8211; from space to web3 to climate to=
+ biotech and beyond. Optimism isn&#8217;t blind faith that everything will =
+work out; it&#8217;s a belief that by experimenting and accumulating knowle=
+dge, humans can overcome the inevitable challenges we&#8217;ll face.&#160;<=
+/text></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; m=
+argin: 0 0 1em 0;">The best way I know to make the world more optimistic is=
+ for Not Boring to tell the stories of, and invest in, the people and compa=
+nies solving those challenges. A lot of those companies work at the cutting=
+ edge of science and engineering, so we&#8217;ve expanded the Not Boring te=
+am by bringing on two Research Analysts who have the technical chops to hel=
+p make sense of it all:&#160;</p><ul style=3D"margin-top: 0;"><li style=3D"=
+margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso=
+-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line=
+-height: 26px; margin: 0; margin-bottom: 0;"><strong><a href=3D"https://ema=
+il.mg-d1.substack.com/c/eJxFUEmOhDAMfE3nNigLAXLIYS7zjSiLm44aEpSYafH7CXAYybZ=
+seSlXeYsw53LoLVckZzB4bKATfOoCiFDIXqGYGDQb-CRkr0jQQjk6-YHEap4FYLVx0Vh2INvulu=
+gtxpyuFUq5JC_th-Cas5Ex5p3jT2X7YXJisCDUJIYb2O4hQvKg4RfKkRMQn9cVEp6nyKJfiFt9i=
+O8H_2mGn3i-17WZVpVik6XCkKg55ZwOTDAuR0470fmW9RMH1YdJKvt89HSdvwLr6u4qWv8-b5Ci=
+U0aXS0xzG3i_7ArL1WiczPnIniIeBpJ1C4SbLt6yXQKYGRKUJmcwFptYUjZYKqexZze9RkIqpkY=
+lFWnIIbet9A_6B-zkhMY" rel=3D"" style=3D"color: #1a1a1a; text-decoration: un=
+derline;">Rahul Rana</a><text>: </text></strong><text>Deeptech, Space</text=
+></p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: =
+0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a=
+; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><strong=
+><a href=3D"https://email.mg-d1.substack.com/c/eJxFUMGOhSAM_JrHbQ0iqBw47GE3=
+-xcEoU_JQzBQ98W_X9TDJk3Tpu1MZ6xBmFM-1JYKkjNpPDZQEd4lACJkshfI2jvV9mzsBJfEqU5=
+OdLQ98UU_M8BqfFCYdyDbPgVvDfoUrxNKmSCLMpxJOnLglnJrHJP82Qs52EE6x6jpbmKzOw_Rgo=
+JfyEeKQGxaV4h4QpGgFsStPLrPB_uugW9_vtfUndp9heAT_kAuywR5Jl4xyhjt265lYmC06RpbK=
+z4ykNyNQprng9N1_nBtU_apoLGvE4pkFRNOKfs414XXYlYI16BK0-c_e_R4aIhmCuBu1Xi7d_mg=
+Z4iQq6tOG6yeCVFpqRgH3t4qqxYhWzlIIUlldqlexX_SP9BYh5g" rel=3D"" style=3D"colo=
+r: #1a1a1a; text-decoration: underline;">Elliot Hershberg</a><text>: </text=
+></strong><text>Biotech&#160;</text></p></li></ul><p style=3D"color: #1a1a1=
+a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Elliot and Rahul=
+ will work with us at Not Boring Capital, and even better for all of us, wr=
+ite about companies, technologies, and ideas driving their spaces in Not Bo=
+ring. These fields have the potential to fundamentally change the way we li=
+ve, and I want Not Boring to be the place that you learn about them. In add=
+ition to being technically strong, they&#8217;re both excellent writers. Yo=
+u&#8217;ll meet Rahul in a few weeks when he publishes his first piece for =
+Not Boring.&#160;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 1em 0;"><text>Today, Elliot is going to take us on a =
+journey through the world of </text><strong>synthetic biology</strong><text=
+> by analyzing one of its most innovative companies: Ginkgo Bioworks. Ellio=
+t knows what he&#8217;s talking about. In addition to writing one of the be=
+st biotech newsletters on Substack, </text><em><a href=3D"https://email.mg-=
+d1.substack.com/c/eJxVUMtuhDAM_JrNrSjkQcghh176G1Eeho0WEhRMK_6-YTlUlSzL0ng8n=
+gkOYS71NFvZkVzN4rmByfCzL4AIlRw7VJui6Qc2cik0iYZrT8cwkLTbqQKsLi0G6wFkO_ySgsNU=
+8ptCKZPkaUYZA3CpJ65g4IoPQo0qcMGCc15Tdgu7IybIAQx8Qz1LBhLKukLG6xRZzBNx2x_888G=
+-WoUGHG1t8ql0--F3dOHVNUbDSDKMMkaHnvdMKkY73oU2iZGBFnGU2k0PQdf5I_b_uKSaXNCXmv=
+LcFl5Pt8LyBpoze71z5ISnhez8AvE2jXd47xjsDBlqCzVahy0yKZsslaMS_W2yWZG610pLTZpyL=
+I2V_0R_ARlRhwQ" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underlin=
+e;">The Century of Biology</a><text> </text></em><text>(it&#8217;s really g=
+ood: </text><a href=3D"https://email.mg-d1.substack.com/c/eJxVUMtuhDAM_JrNr=
+SgkBMghh176GygPw0YLCUpMK_6-ZjlUlSIr1ng8nvEWYcnlNHuuyK4y4bmDSfBTV0CEwo4KZYrB=
+tL0Ypeo0C0Zqx0ffs1inuQBsNq4GywFsP9wavcWY05vCuVDsaYLkc0t8q3urBy6kskJzNXIPapi=
+VuIXtESIkDwa-oZw5AfN52yDhtYqt5om414f8fIgvep6Ag8ZmF3NTD1fR-ldDDMKu1pfogEUjuB=
+C8b2Ur1CB4IxtPv24UoLswKm3nR8e35SO0_5awYlJGl0tMCw28nnaD9Q2Qxem660gRzwmSdSuE2=
+z3eKb7zmBZIUCjdMFmk7JQiWbI8dO3tljwp3epBK81IOWRipT_RX_psilI" rel=3D"" style=
+=3D"color: #1a1a1a; text-decoration: underline;">subscribe now</a><text>), =
+he&#8217;s currently a PhD student in the Department of Genetics at Stanfor=
+d. It&#8217;s rare to find someone so technically strong who&#8217;s also s=
+o good at communicating what&#8217;s happening in his industry and imaginin=
+g where it might be headed. In today&#8217;s piece, you&#8217;ll see what I=
+ mean.&#160;</text></p><p style=3D"color: #1a1a1a; font-size: 16px; line-he=
+ight: 26px; margin: 0 0 1em 0;"><text>Synthetic biology might let humans ha=
+rness &#8220;the awesome power of biology to create an abundant future,&#82=
+21; as Elliot writes. Or as a Ginkgo site, </text><a href=3D"https://email.=
+mg-d1.substack.com/c/eJxFUMtuxCAM_Jrl1ghI2MCBQy_9DcTDm6ASiMBplb8v2RwqWZZlez=
+ye8RZhKfXUe2lIrmTw3EFn-G0JEKGSo0E1MWj25HIUkyJBj8pR6Z8kNvOqAJuNSWM9gOyHS9Fbj=
+CW_IZRyQVYN4JzwzDknX44pCLO0gQEVs_Xg2XwT2yNEyB40_EA9Swbiy7ZBxusUSXpF3Ntj_Hzw=
+rx7tzLgCRu9iSWU5h77c2yRqTjmnTzYyLmZOh3HwvZokBzUFKZR9PSa6LR-BDe1wDa3_vrCk6lz=
+QlRrz0he-V7tBeg-6KHN9cuSIp4FsXYJw68Xbt7cDZoEMtfsZjMXulhCdlgo5T-zW11UIxdSshC=
+KdOZSOyv-kfxbahsc" rel=3D"" style=3D"color: #1a1a1a; text-decoration: under=
+line;">syntheticbiology.com</a><text>, asks: &#8220;Imagine a future design=
+ed with biology. </text><strong>What if you could grow anything?</strong><t=
+ext>&#8221;</text></p><p style=3D"color: #1a1a1a; font-size: 16px; line-hei=
+ght: 26px; margin: 0 0 1em 0;">Let&#8217;s get to it.</p><div style=3D"font=
+-size: 16px; line-height: 26px;"><hr style=3D"background: #ededed; border: =
+none; height: 1px; margin: 25.6px 0; padding: 0;"></div><h1 style=3D"-moz-o=
+sx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; color:=
+ #1a1a1a; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemF=
+ont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 2em; font-weight: bold; li=
+ne-height: 1.16em; margin: 1em 0 0.625em 0;">Ginkgo Bioworks: The Organism =
+Company</h1><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px;=
+ margin: 0 0 1em 0;"><text>By </text><a href=3D"https://email.mg-d1.substac=
+k.com/c/eJxFUMGOhSAM_JrHbQ0iqBw47GE3-xcEoU_JQzBQ98W_X9TDJk3Tpu1MZ6xBmFM-1JY=
+KkjNpPDZQEd4lACJkshfI2jvV9mzsBJfEqU5OdLQ98UU_M8BqfFCYdyDbPgVvDfoUrxNKmSCLMp=
+xJOnLglnJrHJP82Qs52EE6x6jpbmKzOw_RgoJfyEeKQGxaV4h4QpGgFsStPLrPB_uugW9_vtfUn=
+dp9heAT_kAuywR5Jl4xyhjt265lYmC06RpbKz4ykNyNQprng9N1_nBtU_apoLGvE4pkFRNOKfs4=
+14XXYlYI16BK0-c_e_R4aIhmCuBu1Xi7d_mgZ4iQq6tOG6yeCVFpqRgH3t4qqxYhWzlIIUlldql=
+exX_SP9BYh5g" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;=
+">Elliot Hershberg</a></p><div class=3D"captioned-image-container-static" s=
+tyle=3D"font-size: 16px; line-height: 26px; margin-bottom: 16px; text-align=
+: center;"><figure style=3D"display: inline-block; margin: 0 auto; width: 1=
+00%;"><table class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0=
+ 1.6em;"><tbody><tr><td style=3D"text-align: center;"></td><td align=3D"lef=
+t" class=3D"content" width=3D"1200" style=3D"text-align: center;"><a class=
+=3D"image-link" target=3D"_blank" href=3D"https://email.mg-d1.substack.com/=
+c/eJxFUsmOpDAM_ZrKDZQVkgOH1kjzGyiLoVBBwiShe6q_vg1oNFJkv3h7lm1vK8wpv4c9lUpOM=
+db3DkOEr7JCrZDJUSCPSxhYx7VQ0pAwCOOo9h1ZyjhlgM0u61DzAWQ_3Lp4W5cUrxRKuSLPASYh=
+QAfDXNdJSSfTC6Ft1xtmQfViuontERaIHgb4hPxOEYhP2waxnqXIOjxr3ctDfDz4b3zlcKVa__I=
+hthiHlmWzM6CeoPrnqbFiTQ_-688NxMecUsD_tI57TnOGUpZPQHupADtm3AxcnRzqZEHhDv8C9O=
+cGqHLOa9k4a0UjRQ-NUUw3NjjBHfS90bItorWb_U7RfpW7L6xxj-WCV5PlgmECpx0VjfdGN3JCp=
+I3ljWNY307Ue21Gxin921Ha7nEmy8Ap57RjgnHVc9qK1iOSmoORQStjp4ek29wE1v6bz9kEyUNM=
+1aW8xBkDXk-7wXo5sLPxnPIRl_oeIVq3Qrh3We-buLY7zhAh462E0Va8BKWQlirdS3bvDjekDDO=
+9UYYgc0iYFf-T_gB3gMje" rel=3D"" style=3D"align-items: center; border: none;=
+ display: block; flex-direction: column; height: auto; margin: 0; padding: =
+0; text-decoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;=
+:&quot;https://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.=
+com/public/images/dfeb8b03-cc98-4f03-89a2-b1aa3af0cc89_1200x600.png&quot;,&=
+quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:60=
+0,&quot;width&quot;:1200,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:805=
+472,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;imag=
+e/png&quot;,&quot;href&quot;:null}" alt=3D"" width=3D"550" height=3D"275" c=
+lass=3D"wide-image" src=3D"https://substackcdn.com/image/fetch/w_2400,c_lim=
+it,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84=
+-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdfeb8b03-=
+cc98-4f03-89a2-b1aa3af0cc89_1200x600.png" style=3D"-ms-interpolation-mode: =
+bicubic; border: none !important; display: block; height: auto; margin: 0 a=
+uto; margin-bottom: 0; max-width: 100% !important; vertical-align: middle; =
+width: auto !important;"></a></td><td style=3D"text-align: center;"></td></=
+tr></tbody></table></figure></div><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0;">If we were visited by intelligen=
+t life from elsewhere in the Universe, what would be the most embarrassing =
+aspect of our current technological capacity? In some ways, it would be har=
+d to pick. Despite the fact that we all carry supercomputers in our pockets=
+, we dig up dead dinosaurs and burn them in combustion engines to power our=
+ cars, trains, planes, and cities. To make new molecules&#8212;drugs, compo=
+unds for agriculture, or any other chemical product&#8212;we rely on comple=
+x industrial systems that create far more waste than desired. Our approach =
+to construction has escalating costs and can&#8217;t scale to support a gro=
+wing population.</p><p style=3D"color: #1a1a1a; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 1em 0;"><text>What if we figured out a way to do thing=
+s differently? What if we found a way to have a more productive relationshi=
+p with Nature? What if we could learn to </text><strong>grow anything</stro=
+ng><text>?</text></p><p style=3D"color: #1a1a1a; font-size: 16px; line-heig=
+ht: 26px; margin: 0 0 1em 0;"><text>This is the vision of </text><strong>sy=
+nthetic biology</strong><text>. The researchers, engineers, labs, and compa=
+nies in this discipline are aiming to dramatically change our approach to c=
+reating food, materials, chemicals, and physical structures by harnessing t=
+he only functioning nanotechnology that we know of: living systems.</text><=
+/p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: =
+0 0 1em 0;"><strong><a href=3D"https://email.mg-d1.substack.com/c/eJxFUMuOw=
+yAM_Jpy24hAaODAoZf9DcTDTVESiMDZKH-_pF1pJcuyNB6PZ7xFmHI59ZYrkqsZPDfQCY66ACIU=
+slcoJgbd35nkYlAkaK4clf5OYjXPArDauGgsO5Btd0v0FmNObwqlTJCXlpLaMHjPrbRP5qiAMHA=
+KzvF-9E71H2G7hwjJg4YfKGdOQHxeV0h4nSKLfiFu9cYfN_bd6jiOboppnrKL-chlrl1bbwCJml=
+HG6L3nPRMjox3vfJsGyUANQQpln7eBrtNX6Lu6u4rWzxeXFJ0yulximtrC_LIrLG-g2TLXL3uKe=
+BpI1i0QPo7xk9w7AzNBgtISDcZiy0uIJkuFHIc_h82HUL0alVCkKYfcWOlf9BdGgIat" rel=3D=
+"" style=3D"color: #1a1a1a; text-decoration: underline;">Ginkgo Bioworks</a=
+></strong><text>&#8212;The Organism Company&#8212;is a leading force in thi=
+s new field. Their ambitious goal of becoming the </text><strong>first plat=
+form company in synthetic biology</strong><text> has generated strong react=
+ions, both positive and negative. In this essay, I want to explore some of =
+the Big Ideas that this company is pursuing, and provide a lens into what c=
+ould be possible for the broader field of synthetic biology in the future. =
+Today, Ginkgo&#8217;s platform is being used to engineer microbes that can =
+be used to make agriculture more sustainable, grow valuable chemicals, and =
+deliver therapeutics in a targeted fashion.</text></p><p style=3D"color: #1=
+a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><text>Given =
+the utter insanity of the current markets and the fact that this is a publi=
+cly traded company, I want to be absolutely clear: </text><strong>this is n=
+ot investment advice.</strong><text> My goal is to provide an honest and ac=
+curate assessment of the incredibly important experiment that Ginkgo is run=
+ning for the biotechnology industry.</text></p><p style=3D"color: #1a1a1a; =
+font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Here&#8217;s a map =
+of where we&#8217;re going to go in order to explore this:</p><ul style=3D"=
+margin-top: 0;"><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-r=
+ight: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"color: #=
+1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><=
+strong>What is synthetic biology?</strong></p></li><li style=3D"margin-bott=
+om: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-fo=
+rmat: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26=
+px; margin: 0; margin-bottom: 0;"><strong>How biotechs makes money</strong>=
+</p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0=
+; margin-top: 4px; mso-special-format: bullet;"><p style=3D"color: #1a1a1a;=
+ font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>=
+What does The Organism Company do?</strong></p></li><li style=3D"margin-bot=
+tom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4px; mso-special-f=
+ormat: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 2=
+6px; margin: 0; margin-bottom: 0;"><strong>Major open questions &#128059;</=
+strong></p></li><li style=3D"margin-bottom: 4px; margin-left: 8px; margin-r=
+ight: 0; margin-top: 4px; mso-special-format: bullet;"><p style=3D"color: #=
+1a1a1a; font-size: 16px; line-height: 26px; margin: 0; margin-bottom: 0;"><=
+strong>An experiment in cooperative work structure</strong></p></li><li sty=
+le=3D"margin-bottom: 4px; margin-left: 8px; margin-right: 0; margin-top: 4p=
+x; mso-special-format: bullet;"><p style=3D"color: #1a1a1a; font-size: 16px=
+; line-height: 26px; margin: 0; margin-bottom: 0;"><strong>What will the wo=
+rld look like if Ginkgo succeeds?</strong></p></li></ul><p style=3D"color: =
+#1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Let&#8217;=
+s jump in! &#129516;&#127793;</p><h3 style=3D"-moz-osx-font-smoothing: anti=
+aliased; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-family: =
+'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto=
+, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Seg=
+oe UI Symbol'; font-size: 1.375em; font-weight: bold; line-height: 1.16em; =
+margin: 1em 0 0.625em 0;">What is synthetic biology?</h3><p style=3D"color:=
+ #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><text>Let=
+&#8217;s talk about circuit design. A good circuit does a few things. It sh=
+ould receive information and perform a computation based on the input to pr=
+oduce a reliable output. Input, computation, output. One of my favorite cir=
+cuits senses an environmental gradient as input, and computes on that infor=
+mation to determine which set of machines it should turn on or off. I&#8217=
+;m not describing a digital circuit; this is a </text><em>genetic</em><text=
+> circuit found in Nature called the </text><em>lac</em><text> operon.</tex=
+t></p><div class=3D"captioned-image-container-static" style=3D"font-size: 1=
+6px; line-height: 26px; margin-bottom: 16px; text-align: center;"><figure s=
+tyle=3D"display: inline-block; margin: 0 auto; width: 100%;"><table class=
+=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><t=
+r><td style=3D"text-align: center;"></td><td align=3D"left" class=3D"conten=
+t" width=3D"550" style=3D"text-align: center;"><a class=3D"image-link" targ=
+et=3D"_blank" href=3D"https://email.mg-d1.substack.com/c/eJxFUsmO5CAM_Zrilo=
+iwJHDg0BppfiNiMSlUCWSAdE_11zdJNBoJ2Q9vz7JtdYUl5bfaU6noFHN976AifJUVaoWMjgJ5D=
+k4NIxGUM4mcotJgYUcUyuwzwKbDqmo-AO2HWYPVNaR4pWBMOHoq7xn13jDtPAdgmGhvPBVMW29H=
+TdhNrA8XIFpQ8An5nSIgm7YNYj1LoVU9a93Lg348yO_2ymFK1fZlXexbXLOETS_QtIdqn6duFWt=
+6kF9_bkA_lpRc-_t13nNaMpQSPqHZSwXYW8bNQPjJwU-WJsxhX9D8uQPMjbGCdUZr2jE6QSf5ID=
+rtDCUGpkkK1hfa601_p6i_yt1Xq3GP5YJXk-WCWkxWjkJ2HEbbMc9bKTaOnbPMUXAMO-FmzvFfN=
+uB-jwsKimBC8DjQgfCJ4J72tiEmCEjmBJfaPxjels4N_b_xnD2grGKqJuUQlxbweuoN1svRGpvP=
+IR8x1PcMUZsV3L3Kep_Etdx5gQi5nYqbdW2HwHmjxVxMbLhX1xbE5SAnySVqzC61rPif9Ad598n=
+Z" rel=3D"" style=3D"align-items: center; border: none; display: block; fle=
+x-direction: column; height: auto; margin: 0; padding: 0; text-decoration: =
+none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucke=
+teer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/a8=
+7c9689-5e6c-4f58-a466-dc4d3ed40d8d_550x410.png&quot;,&quot;fullscreen&quot;=
+:null,&quot;imageSize&quot;:null,&quot;height&quot;:410,&quot;width&quot;:5=
+50,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null=
+,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null}" alt=
+=3D"" width=3D"550" height=3D"410" class=3D"" src=3D"https://substackcdn.co=
+m/image/fetch/w_550,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3=
+A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpu=
+blic%2Fimages%2Fa87c9689-5e6c-4f58-a466-dc4d3ed40d8d_550x410.png" style=3D"=
+-ms-interpolation-mode: bicubic; border: none !important; display: block; h=
+eight: auto; margin: 0 auto; margin-bottom: 0; max-width: 100% !important; =
+vertical-align: middle; width: auto !important;"></a></td><td style=3D"text=
+-align: center;"></td></tr></tbody></table></figure></div><p style=3D"color=
+: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><text>Th=
+ink back to high school biology. Remember that cells encode instructions in=
+ DNA called genes. These instructions are copied into messenger RNA molecul=
+es that ultimately serve as a template for creating proteins, which are the=
+ machines that do most of the work inside of cells. In bacterial cells, thi=
+s simple circuit involves a repressor component (shown in green) that is ab=
+le to </text><strong>sense</strong><text> the sugar gradient in the cell, a=
+nd </text><strong>compute</strong><text> on that information to control whi=
+ch set of genes gets turned on. The computation is: </text><strong>if</stro=
+ng><text> lactose is present, the polymerase (yellow) can bind to the promo=
+ter sequence (orange) and turn on the genes to metabolize it. </text><stron=
+g>Else,</strong><text> keep the genes turned off.</text></p><p style=3D"col=
+or: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><text>=
+Learning that these types of genetic circuits exist was a pretty big deal, =
+and the French scientists Fran&#231;ois Jacob and Jacques Monod nabbed the =
+1965 Nobel Prize in Physiology for figuring it out. Even this early on, Jac=
+ob and Monod postulated that in principle it should be possible to </text><=
+strong>create new circuits</strong><text> by combining regulatory DNA syste=
+ms in different ways.</text></p><p style=3D"color: #1a1a1a; font-size: 16px=
+; line-height: 26px; margin: 0 0 1em 0;"><text>In the following decades, we=
+ developed several important tools for doing this. </text><a href=3D"https:=
+//email.mg-d1.substack.com/c/eJxFkMtuxCAMRb9m2DUiPJKwYNFNd_0GRMDJoCEQgdMqf1=
+8yWVRC5mX7-h5nEdZcTr3niuQKBs8ddILfGgERCjkqFBO87gc2cSkU8ZqrmU5uIKGapQBsNkSN5=
+QCyH3MMzmLI6V1CKZPkqRerxCSUZ55TLuQofb94pdwATHI1qFvYHj5AcqDhB8qZExCXtw0SXq1I=
+1E_EvT7454N9tQWp-w2vsIMPtstlbU_XvW3fOYI7oi3GxZxCWknQjDJGh573TI6Mdrxz7SQmBkr=
+4SSq7PATd1g_fd_WYK1r36po4KTplnHNpTVrC62k3iO-PZtRc0x0p4Gkg2TmCvxngzfJNxayQoD=
+TG3lhsBKVsslROo-hvz82ZVL0alVSkKfvcqtK_6B8-Q4w7" rel=3D"" style=3D"color: #1=
+a1a1a; text-decoration: underline;">Molecular cloning</a><text> unlocked th=
+e ability to assemble new sequences of DNA, and </text><a href=3D"https://e=
+mail.mg-d1.substack.com/c/eJxFkM1uhSAQhZ_msqtBFJUFi2667huQAeYquQoGxja-ffG6a=
+EIY_obzneOAcE751HsqxK7J0LmjjvhbViTCzI6C2QSv20FMnewV87pTlk9uYKGYZ0bcIKya8oFs=
+P-waHFBI8d3CuZBsqdUrO7Qd99yKceRg1QCd6vqn5zANeAvD4QNGhxp_MJ8pInNp2zDS9RVb9UK=
+0l0f3-RBfdWBsfsMr7OgDNCnP9eja1_Kd1nPDDAWNWyBEkxHchcSCFlwIXklaIUfBm65xddVPAl=
+XvJ6ng-ej5Nn_4timHLQTu1VQIlnVMZFMOca4PXgtsuL4vqmFzUR4x0Gkwgl3R31nQnek7HTNjr=
+ESE3gDVJKWsslxOY9_e3qtDqVo1KqlYVfapdsV_0T9hV4-6" rel=3D"" style=3D"color: #=
+1a1a1a; text-decoration: underline;">PCR</a><text> let us make copies of DN=
+A. These technologies led to the birth of genetic engineering, and arguably=
+ modern biotechnology at large. Genentech&#8212;previously trading under th=
+e $DNA stock ticker now held by Ginkgo before operating as a subsidiary of =
+Roche&#8212;became a blockbuster success by using genetic engineering to cr=
+eate bacterial cells that produced human insulin.</text></p><p style=3D"col=
+or: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><text>=
+While this was a defining success for biotech as an industry, the synthesis=
+ of insulin represented the peak of design complexity that was possible at =
+the time. But as our ability to </text><strong>modify</strong><text> organi=
+sms remained limited, our ability to </text><strong>measure</strong><text> =
+organisms underwent a mindblowing revolution. In 1990, the United States De=
+partment of Energy and the National Institutes of Health launched a $3 bill=
+ion dollar project to sequence the entirety of the DNA bases that make up a=
+ human&#8212;which we call a </text><strong>genome</strong><text>. This mar=
+ked the start of one of the craziest cost declines in the history of techno=
+logy.</text></p><div class=3D"captioned-image-container-static" style=3D"fo=
+nt-size: 16px; line-height: 26px; margin-bottom: 16px; text-align: center;"=
+><figure style=3D"display: inline-block; margin: 0 auto; width: 100%;"><tab=
+le class=3D"image-wrapper" width=3D"100%" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0" style=3D"margin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><=
+tbody><tr><td style=3D"text-align: center;"></td><td align=3D"left" class=
+=3D"content" width=3D"1456" style=3D"text-align: center;"><a class=3D"image=
+-link" target=3D"_blank" href=3D"https://email.mg-d1.substack.com/c/eJxFUsm=
+OpDAM_ZrKDZSVkAOH1kjzGyiLoVBBwiShe6q_vg1oNFJkO17es2x7W2FO-T3sqVRyirG-dxgifJ=
+UVaoVMjgJ5XMLAOt4LJQ0JgzCO9r4jSxmnDLDZZR1qPoDsh1sXb-uS4lVCKVfkOUhBbaBSQOcpW=
+KG18wjmg2Kim7QNN7E9wgLRwwCfkN8pAvFp2yDWE4qsw7PWvTzEx4P_xlcOV6r1Lx9ii3noWTY7=
+A-oJqn-eGhFrevBff25DfMwpBfxP67jnNGcoZfkE9JcKsGPFzcDVyaFOFhTu8C_AeG6AKud8Lxt=
+nrWik0NAYxfrGBie4A61NL9siWrvZ7xTtV7n7Qox7LJd5NVkuk4FRmlLfKMtUI7X2jZu0QWTZOZ=
+yUlcGNrKP0r6Gs3eNMloFTzmnHBONKc9qK1qMlew5Ghl4ZOz0k3eYmsPbffM4mSB5iqi7lJc6Y8=
+HraDdYrgJ2N55SPuNT3CNG6FcK9y3rfxLXdcYYIGW8ljLbiJSiFtFT1WrJ7d7ghZZjRRhmCzCFh=
+VfxP-gN0b8hk" rel=3D"" style=3D"align-items: center; border: none; display:=
+ block; flex-direction: column; height: auto; margin: 0; padding: 0; text-d=
+ecoration: none; width: auto;"><img data-attrs=3D"{&quot;src&quot;:&quot;ht=
+tps://bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/publi=
+c/images/1e95700c-5a15-477c-bf79-4346b6c0a4db_1600x901.png&quot;,&quot;full=
+screen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:820,&quot;w=
+idth&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;a=
+lt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;=
+:null}" alt=3D"" width=3D"550" height=3D"309.75274725274727" class=3D"wide-=
+image" src=3D"https://substackcdn.com/image/fetch/w_2912,c_limit,f_auto,q_a=
+uto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-95=
+18-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F1e95700c-5a15-477c-bf7=
+9-4346b6c0a4db_1600x901.png" style=3D"-ms-interpolation-mode: bicubic; bord=
+er: none !important; display: block; height: auto; margin: 0 auto; margin-b=
+ottom: 0; max-width: 100% !important; vertical-align: middle; width: auto !=
+important;"></a></td><td style=3D"text-align: center;"></td></tr></tbody></=
+table><figcaption class=3D"image-caption" style=3D"color: #767676; font-fam=
+ily: sans-serif; font-size: 14px; font-weight: 300; line-height: 1.4em; tex=
+t-align: center;"><em>National Human Genome Research Institute</em></figcap=
+tion></figure></div><p style=3D"color: #1a1a1a; font-size: 16px; line-heigh=
+t: 26px; margin: 0 0 1em 0;"><text>Many people in tech are familiar with Mo=
+ore&#8217;s Law, which was the prediction that the number of transistors in=
+ a dense integrated circuit doubles about every two years. In practice, thi=
+s means that we have ended up with computers in our pockets that are more p=
+owerful than the room-sized computers scientists used to get to the moon. T=
+he graph above&#8212;which is used in more than two thirds of genomics lect=
+ures&#8212;shows how DNA sequencing cost declines massively outperformed th=
+at rate. While the first human genome took a decade to sequence and cost $3=
+ billion dollars, graduate students now routinely sequence genomes in a day=
+ for only $1,000 dollars or less. In the past few weeks, </text><a href=3D"=
+https://email.mg-d1.substack.com/c/eJxFUM2OhCAMfprhtgZBFA4c9rKvQfjpOGQUDNQ1=
+vv3ieNikaZq0X78fbxHmXE695YrkagbPDXSCoy6ACIXsFYqJQfcjk1wMigTNlaPSjyRW8ywAq42=
+LxrID2Xa3RG8x5vSBUMoEeWk6yuClEI5bG0YxDNL1jDsunwpgUvYmtnuIkDxo-IVy5gTE53WFhN=
+crsugX4lYf_PvBflodx9HtC8bVzpDyGn3t2nlbkKgZZYyOPe-ZmBjteOfbNEgGaghSKPt8DHSdv=
+0Lf1d1VtP59YUnRKaPLJaa5HbxfdoXls2i2zKVlTxFPA8m6BcLtGO_kPhmYpgRKSzQYiy0vIRot=
+FXIa-tth8yFUryYlFGnMITdU-if9A7vAhi0" rel=3D"" style=3D"color: #1a1a1a; text=
+-decoration: underline;">Ultima Genomics</a><text> came out of stealth and =
+announced their goal to usher in the $100 genome.</text></p><p style=3D"col=
+or: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><stron=
+g>This change in measurement technology was a really big deal.</strong><tex=
+t> After decades studying individual genes, geneticists began studying thou=
+sands of genes at a time. We also learned to adapt some of the fundamental =
+tech to make high-throughput measurements of more parts of the cell, like R=
+NA, metabolites and proteins. This was so transformative that it launched a=
+n entire new field called </text><strong>systems biology</strong><text> wit=
+h the goal of making unifying models describing all of these measurements. =
+As the Stanford bioengineer Markus Covert likes to say, &#8220;When I was g=
+rowing up, biology was the science that you would take if you didn&#8217;t =
+want to learn any math. Now that&#8217;s not the case anymore.&#8221; With =
+a new stack of tools, molecular biology evolved into a quantitative discipl=
+ine.</text></p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26=
+px; margin: 0 0 1em 0;"><text>Synthetic biology was launched largely in res=
+ponse to this paradigm shift. The goal was to </text><strong>transform gene=
+tic engineering into a discipline capable of building new biological circui=
+ts from the ground up</strong><text>. The idea was to develop the capacity =
+to engineer new organisms.&#160;</text></p><p style=3D"color: #1a1a1a; font=
+-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><text>The Century of Bi=
+ology started with a bang when several studies were published in January 20=
+00 describing the successful development of engineered genetic circuits&#82=
+12;finally realizing the vision of Jacob and Monod. Over the last decades, =
+synthetic biology has matured as a discipline, and has started to develop r=
+eusable community standards, which has decreased the overhead of launching =
+new projects. One of the best demonstrations of this is </text><a href=3D"h=
+ttps://email.mg-d1.substack.com/c/eJxFkMuOwyAMRb-m7CYCJ4SwYNHN_Abi4aaoCUTEm=
+VH-fmizGMmyLPlxfG9whHOpp9nKTuydLJ0bmoy_-4JEWNmxY7UpGjHC1MtBs2h67fkURpZ2-6iI=
+q0uLoXog2w6_pOAolfxZ4RwkexrlIhciAMZRoYcI6L0XfXQSlQIYLrA7YsIc0OAP1rNkZKGsK2Z=
+6n2KLeRJt-62_3-C7RZpx7UqdW8mSAQ7AR9ELkAp413ehVcMEqIc4Se0et4Gv81cU3X74nVx4de=
+04qyYX8qWmPLeB19OtuHwaTYh904-c6LSYnV8wXhrp8uqj2s6YsTYPo3XUHJKyYbmc1CAuTe1zq=
+YVWWmrWyLG0rfwP_QMe1YDU" rel=3D"" style=3D"color: #1a1a1a; text-decoration:=
+ underline;">iGEM</a><text>&#8212;the International Genetically Engineered =
+Machine competition&#8212;where </text><strong>undergraduates and high scho=
+olers around the world compete to implement their best ideas in DNA code</s=
+trong><text>. </text><a href=3D"https://email.mg-d1.substack.com/c/eJxFkE1u=
+wyAQhU8TdrUAGxsWLLrpNSwME4fGBguGVr59J_GiEhrQ_H285x3Cmstpj1yRvcKM5wE2wW_dABE=
+KaxXKHIMVo9S9GgwLtjcL135ksc73ArC7uFksDdjRli16hzGn9wjnUrGHDRBG4U2QfJqc9kpoPS=
+4UnLx7ofhwgV0LEZIHCz9QzpyA-bzvkPC1im32gXjUW_95k190vt2-ZIJ3cYW9y2WlnORS0FWgt=
+g0ri5YSko-iF1JNknd95-k1aAlmCFoZd78NfF8_guhqWyo6_-yIyYpNGWl7TCs1PB9uh-1dIH3z=
+61MtRTxnSG7ZIFzS8bLwbca8QoJC1obZIRmnFGG50tMgLqkkSBlhJqMMI3LINJX-oX-YF4gU" r=
+el=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">Recent winner=
+s</a><text> have developed new ways to manufacture fragrances, materials, a=
+nd diagnostics, all using the shared iGEM building blocks.</text></p><p sty=
+le=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0=
+;"><text>So, what is synthetic biology? It depends on who you ask. </text><=
+a href=3D"https://email.mg-d1.substack.com/c/eJxFkc1uhSAQhZ_mstMgiMKCRTd9Dc=
+PPqLQKBsY2vn3xumhC4OTMDCd8OIOwpHzpIxUk9zbhdYCO8Fs2QIRMzgJ5Cl53A5Nc9Ip4zZWl0=
+g0klGnOALsJm8Z8AjlOuwVnMKT4HqGUCbJqxc3gh1EybhXvzNiZuXdMKik8owbGJ9icPkB0oOEH=
+8pUiEJf2HSLeV5FNr4hHefGPF_usK-yHcdiCSzHtoWBbm6t95PQFDssjawGaNDdVLhnK7dotLfd=
+ZrogrYHCNDal6V_VI0IwyRoeOd0yMjLa8dVX1koHqvRTKzK-e7kvju7actqBx33cwyTomtCmHuN=
+SG79XssL0Llch0P-OMAa8JorEb-AcWPtDf-KYFIuT6GX4yWFELUWOpkGPfPXAqAqE6NSqhSE32q=
+U7F_9A_R4GbaQ" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline=
+;">According</a><text> to Christina Agapakis, it is &#8220;</text><strong>t=
+he practice of engineering life</strong><text>.&#8221; For one of the pione=
+ers of the field named Drew Endy, synthetic biology is focused on a meta-go=
+al: </text><strong>to systematically improve our ability to use biology as =
+an engineering substrate</strong><text>.&#160;</text></p><p style=3D"color:=
+ #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><text>Reg=
+ardless of how you define it, the field of synthetic biology is comprised o=
+f dreamers and doers. The vision expands as far as you can imagine: designi=
+ng programmable cell therapies, learning how to </text><strong>grow</strong=
+><text> rocket ships and space stations, and bringing woolly mammoths </tex=
+t><a href=3D"https://email.mg-d1.substack.com/c/eJxFUEtuxCAMPc2wa8QnEFiw6Kb=
+XQAQ8GdQEInBa5fYlk0Uly7IlP79P8AhLqafdS0NyNYfnDjbDb1sBESo5GlSXomWKayFHQ6IVZq=
+Y6KJKae1aAzafVYj2A7Me8puAxlfyGUMoleVmuotRGGRVNDELJWZsYtZgYjRA8e97E_ogJcgALP=
+1DPkoGEsm2Q8XpFVvtC3NtDfD74V69Q1tKaX4d-1FeSLKecU8UE43LidBBD6NOoOZgxamn88zHS=
+bfmIbGjH3NCH7wtLqs0F51JTXvrB98tv8H56mXGXgiMnPB1kP68Qb5945_V27hbIUHuO0XnsKUn=
+ZaanU08huX129NMxMRhrSmWPpqPxP-gcCOYIo" rel=3D"" style=3D"color: #1a1a1a; te=
+xt-decoration: underline;">back from extinction</a><text>. In practice, the=
+re is a relentless focus on discovering new molecular tools, scaling DNA sy=
+nthesis, and creating systems of re-usable standards and components. With t=
+he current rate of progress and the boundless possibilities on the horizon,=
+ Eric Schmidt has said that &#8220;</text><strong>your industry is at the s=
+ame stage mine was in 40 years ago when I started my career in tech.</stron=
+g><text>&#8221;</text></p><h3 style=3D"-moz-osx-font-smoothing: antialiased=
+; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Com=
+pact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helve=
+tica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI S=
+ymbol'; font-size: 1.375em; font-weight: bold; line-height: 1.16em; margin:=
+ 1em 0 0.625em 0;">How biotechs make money</h3><p style=3D"color: #1a1a1a; =
+font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><text>So, synthetic=
+ biology is focused on learning how to build things using biology. Before a=
+nalyzing Ginkgo, it&#8217;s also important to think about how the biotech i=
+ndustry makes money. </text><strong>By and large, the revenue that flows th=
+rough the ecosystem comes from selling drugs</strong><text>.</text></p><p s=
+tyle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em=
+ 0;">This seems like a simple statement, but it has non-obvious implication=
+s. Drugs are a very unique product. They require an enormous amount of R&am=
+p;D, and have to make it through many expensive hurdles to demonstrate effi=
+cacy and safety before being approved. After all of this time and cost ther=
+e is another problem: the actual chemicals can be manufactured incredibly c=
+heaply, which is why generic versions of drugs can be sold for as low as a =
+dollar a day.</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0 0 1em 0;">Companies are incentivized to develop new drugs b=
+y the promise of patent and market exclusivity. Drug companies need to reco=
+up all of their R&amp;D and regulatory costs in the time window of their ex=
+clusivity&#8212;and have also found ways to extend the time that the window=
+ lasts.&#160;</p><p style=3D"color: #1a1a1a; font-size: 16px; line-height: =
+26px; margin: 0 0 1em 0;">With this incentive structure, biotech has become=
+ an industry with public companies that have hundreds of employees and no p=
+roduct. The core value of these companies is the assets in their clinical p=
+ipeline&#8212;which stand the chance to become blockbuster drugs with marke=
+t exclusivity if they are approved. Approved assets are primarily sold to m=
+ajor pharmaceutical companies.</p><p style=3D"color: #1a1a1a; font-size: 16=
+px; line-height: 26px; margin: 0 0 1em 0;"><text>From a business strategy p=
+erspective, this has meant that most </text><strong>value capture</strong><=
+text> comes from pursuing highly specific vertical solutions&#8212;new drug=
+s for specific diseases. Some of the most successful horizontal companies i=
+n the industry have focused on selling specific instruments or reagents to =
+research labs and companies. An example of this type of company is </text><=
+a href=3D"https://email.mg-d1.substack.com/c/eJxFkEGOhCAQRU_T7MYAisKCxWzmGg=
+Sh2iaNYLAY4-0H28UkhEBRn1_vO4uw5HLqLe9Irs3guYFOcOwREKGQukMxwWs2ctmLQRGvezVT6=
+UYSdvMsAKsNUWOpQLY6x-Ashpw-Ekq5IC89sll6C0O7P8epn5y0CnoJwCyf5kncxrb6AMmBhl8o=
+Z05AXF5XSHh9RaJ-IW77o_9-8J-2juPoQox1Dcl2rbGVSNCcck5H1jMuJk67vnPtNEgOavBSKPt=
+8DHRdvjzr9jrvaN370pKiU8Y5l5CW1vB-2RXi56EBmWuKmgKeBpKdI_ibFe_MPvRmgQSlZemNxZ=
+aUEM2WCjkN7GZrBEIxNSmhSHP2uanSv-kfLPGDoA" rel=3D"" style=3D"color: #1a1a1a;=
+ text-decoration: underline;">Illumina</a><text>, which sells DNA sequencer=
+s and the reagents necessary to generate new data. As biotech has matured, =
+</text><strong><a href=3D"https://email.mg-d1.substack.com/c/eJxFkMuOhCAQRb=
+-m2WmKl8KCxWzmNwyPapu0gkGciX8_2C4mIeSmoOrUvd5WnHM5zZb3Sq5rqueGJuHvvmCtWMixY=
+5liMHRgikuhSTBcO1B-IHGfngVxtXExtRxItsMt0dsac_q0ADBJXubJgldSqQGVcCNKJ-0AgwoW=
+vLNe-BtsjxAxeTT4g-XMCYnP64qpXqPIYl61bvuDfz3Ydzshxz6XuSkKPQWurprgoxg7YNABUCU=
+6TqJhwBgMlFMmRwY9731TQjHUIiip7fMhYJ27QPv9cHu1_t03Likm5epyiWluH94vu-LyeWgep2=
+uxI8V6TpisWzDc9usd4yeQacaEpcUbJltbeFI2LEg1CnrbbaakpnrUUpNGDrl1pX_oH3QThjc" =
+rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">platform bio=
+techs</a></strong><text> have emerged that are aiming to change this dynami=
+c by offering more expansive R&amp;D infrastructure that would have traditi=
+onally been built in-house by individual companies.</text></p><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><tex=
+t>We&#8217;ve all benefited enormously from platform biotechs. </text><a hr=
+ef=3D"https://email.mg-d1.substack.com/c/eJxFkE2OhCAQhU_T7Mbwq7Jg0Zu5hkEobd=
+IKBspxvP1gu5iEVAhVrx7fcxZhTvk0WypIrjLguYGJcJQFECGTvUAegjes5b1QUhNvhB5p71oSy=
+jBlgNWGxWDegWz7uARnMaT4kVDKFXmZUYOUneycl7QHPzEQamS2pYq3gk9wG9vdB4gODPxAPlME=
+4tK6QsRrFVnMC3ErD_F88O96juNo1uQhR4u_TZ2sbyQYTjmnLROMq47TRjSu3mTPQUvfK22nh6T=
+r_OVZU_axoHXvS0uyiQnHlEOc68D7ZVdYPo1KNFzf2GPAc4BoxwX8DYt3aB_8YYYIuYbpB4s1Kq=
+WqLVV9J9kNVxGUZrrTSpPq7FNVxX_TP8iBhBM" rel=3D"" style=3D"color: #1a1a1a; te=
+xt-decoration: underline;">Moderna</a><text> isn&#8217;t a vaccine company,=
+ it is an mRNA therapeutics platform company. Before COVID, Moderna had cre=
+ated multiple internal portfolio companies that were pursuing specific vert=
+ical applications of their core technology. Because of the flexibility of t=
+heir RNA tech, they were able to design their COVID vaccine in a matter of =
+</text><em>hours</em><text> after receiving the DNA sequence of the virus. =
+With the emergency vaccine approval, we saw one of the fastest transitions =
+from R&amp;D to clinical administration in history.</text></p><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><tex=
+t>Some platform companies focus on providing R&amp;D services to biotechs i=
+nstead of launching their own internal companies like Moderna. </text><a hr=
+ef=3D"https://email.mg-d1.substack.com/c/eJxFUMuOhSAM_ZrLbgwgKCxYzGZ-w_CoXn=
+IVDNYx_v2gLiZpmqbt6ek53iJMuZxmzRuSKw14rmASHNsMiFDIvkEZYjCs46qVQpNgWu2o8h2J2=
+zAWgMXG2WDZgay7m6O3GHO6IZRySd5GQT-yvrMQgpAjF8o55kZqPW2FoqN_iO0eIiQPBn6hnDkB=
+8XlZIOF1iszmjbhur_b7xX9qHMfR2BAX65q6VhskGk45px1rGZc9p03b-FoJxUGLoKS240vQZfo=
+KrNl2t6H1nwtLikkZXS4xTXXh87YLzPegyhmuH_YU8RwgWTdDeJTi49itfZggQalOhsFi9UnKSk=
+ul6gV7lNX_pWa611KTyhxyRaV_0j91B4Mq" rel=3D"" style=3D"color: #1a1a1a; text-=
+decoration: underline;">Adimab</a><text>, for example, partners with biotec=
+hs and pharma companies to help them make antibody therapies so that they d=
+on&#8217;t have to do it themselves. As one of the Adimab co-founders Tillm=
+an Gerngross put it, &#8220;Airlines don&#8217;t build their own airplanes,=
+ and there&#8217;s a good reason for that. They focus on the particular thi=
+ng they&#8217;re good at and leave other parts to others. And I think our i=
+ndustry is maturing in a similar way.&#8221; This evolution will be essenti=
+al for understanding Ginkgo.</text></p><h2 style=3D"-moz-osx-font-smoothing=
+: antialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-fa=
+mily: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', =
+Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'=
+, 'Segoe UI Symbol'; font-size: 1.625em; font-weight: bold; line-height: 1.=
+16em; margin: 1em 0 0.625em 0;">What does The Organism Company do?</h2><p s=
+tyle=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em=
+ 0;"><text>While biotech was heavily focused on making drugs, synthetic bio=
+logists continued to spend their time developing better ways to </text><str=
+ong>engineer organisms</strong><text>. Many of the founders of the discipli=
+ne entered into the world of biology from computer science, electrical engi=
+neering, and other fields with a deep emphasis on general solutions and exp=
+licit standards.</text></p><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0;"><text>These early leaders were deeply o=
+ptimistic about the technological progress being made in both DNA </text><a=
+ href=3D"https://email.mg-d1.substack.com/c/eJxVkM2OhCAQhJ9muGkQhZEDh73saxh=
+-WoesggvtTnz77RkPm02AkFR1FXzeIiy5nGbPFdnrmPDcwSR41hUQobCjQpliMJ0SYy8HzYLpte=
+OjVyzWaS4Am42rwXIA2w-3Rm8x5vQe4VxI9jBqDNrNflYqzFqNUigXHAfbd947qdxVbI8QIXkw8=
+APlzAmYz9sGCV9RbDUPxL3e-o-b-KTlSTjINruY23q4itZ_tTRB2k77-bBYmxDnGQpZm90WbCi0=
+qfB9UE1MC4tGcCG46vpOyLvgbd96ug2jAD2EUWo73wa-LU3o_lWwYlJGlwuFkOHrYTdY3wIBmF6=
+vPlLEc4Jk3QrhYoMX4zetaYEEhdiHySKRlZJquRzvQ3exoB9L3em7lppRc8g0lf5KfwGXoJbr" =
+rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">sequencing</=
+a><text> and </text><a href=3D"https://email.mg-d1.substack.com/c/eJxVkcuOh=
+CAQRb-m2WkQxceCxSST_g3Do1TSCgbKMf79VLeLySQUIbm36sLBaoQ5pkvtMSN7byNeO6gAZ14B=
+ERI7MqTRO1W1oq9lMzCn6sHw3rbM53FKAJv2q8J0ANsPs3qr0cfwaeFcSLao2kno2l4Dr_oatKv=
+kJKZWO-gmYzor72B9OA_BgoIfSFcMwGzcNgj4HsVWtSDu-VF_PcSTliXhINtkfCzzYTJq-yqpg7=
+Sd6lw05sL5aYJE1mLXCQs8Y5GvgAtkT6OeVN8n80pwIXhb1ZWQneBlXVo6Nb2AoXG9HPT0aPg2F=
+676l8SSChFNTD7MZHgteoP1IxCH8X35I3i8RgjarOBuRHij_kAbZwiQ6AvcqJEAS0mxXPZdU91I=
+6OFyqIZukAOjZBepK_yF_gJxbZjY" rel=3D"" style=3D"color: #1a1a1a; text-decora=
+tion: underline;">synthesis</a><text> that provided the essential tooling t=
+o manipulate and engineer organisms. Engineers like Tom Knight and Drew End=
+y at MIT talked about what was necessary to take genetic engineering to the=
+ next level. In order to operate like other engineering disciplines, the fi=
+eld needed several new concepts.</text></p><p style=3D"color: #1a1a1a; font=
+-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><text>First, builders n=
+eeded standardized parts with predictable behavior that they could compose =
+and assemble in new ways. There also needed to be meaningful abstraction la=
+yers&#8212;analogies were often made to modern programming languages that l=
+et programmers focus on logic instead of machine code. We needed to move fr=
+om worrying about raw bases of DNA&#8212;ATTCGGATA&#8212;to programs closer=
+ to the </text><em>lac</em><text> operon. Another core emphasis was to more=
+ effectively coordinate labor&#8212;separating designers of genetic program=
+s from the builders directly compiling it.</text></p><p style=3D"color: #1a=
+1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">In other word=
+s, biology needed to develop the necessary infrastructure to become a true =
+engineering discipline.</p><p style=3D"color: #1a1a1a; font-size: 16px; lin=
+e-height: 26px; margin: 0 0 1em 0;"><text>The iGEM competition has been one=
+ of the most vibrant communities for making progress on these foundational =
+goals. The teams can spend their time focusing on their most ambitious idea=
+s because they are building using a shared Parts Registry, a Distribution K=
+it, and a set of Assembly Standards. Instead of worrying about the behavior=
+ of every single enzyme in a new circuit, they can take enzymes off the she=
+lf and spend their effort brainstorming how best to </text><a href=3D"https=
+://email.mg-d1.substack.com/c/eJxFkE1uwyAQhU8TdrUAgw0LFpWiniBdW_xMHBQDFh638=
+u1L4kUlNALNG755z1uEudTDrGVD8ioTHiuYDL_bAohQyb5BnWIwbOCql0KTYHrtqPIDidt0rwDJ=
+xsVg3YGsu1uitxhLfo9QyiV5mMEJqnp2F-CtujvpuAyOeSUFG-2o1Am2e4iQPRj4gXqUDMSXlCD=
+j6yuymAfiul36zwv_aodTTrs4Q-pKndv7Bja15vX2_XGFnGx9kmiaiNOB9YzLscn7zrebUBy0CE=
+pqe78ImuaPwLptdxta_-wak1STC7pSY56b4PmwCZZ3o_mbXkvtOeIxQbZugXBaxzPCdxjTDBlqi=
+zZMFltwUjYslWoU7LTaDEnN9KilJo0cSpvK_9A_822HSg" rel=3D"" style=3D"color: #1a=
+1a1a; text-decoration: underline;">program molds</a><text> into assembly li=
+nes producing foods, detergents, and medicines. This ethos is reflected in =
+the beautifully nerdy fact that the iGEM grand prize is the BioBrick Trophy=
+: a giant aluminum brick that looks like a Lego block.</text></p><div class=
+=3D"captioned-image-container-static" style=3D"font-size: 16px; line-height=
+: 26px; margin-bottom: 16px; text-align: center;"><figure style=3D"display:=
+ inline-block; margin: 0 auto; width: 100%;"><table class=3D"image-wrapper"=
+ width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"m=
+argin: 8px auto; mso-padding-alt: 1em 0 1.6em;"><tbody><tr><td style=3D"tex=
+t-align: center;"></td><td align=3D"left" class=3D"content" width=3D"508" s=
+tyle=3D"text-align: center;"><a class=3D"image-link" target=3D"_blank" href=
+=3D"https://email.mg-d1.substack.com/c/eJxFUtuOnDAM_ZrJGyjXIXngYVWpv4FyMUy0=
+kNAk7Hb69TWgqlJkn_h2LNveNlhyeY97ro2cYmrvHcYE33WF1qCQo0KZYhjZk2uhpCFhFMZR7Z8=
+k1mkuAJuN69jKAWQ_3Bq9bTGnK4VSrshrZLP2HAZqmdSB-uCBUmnokw6z8FwPN7E9QoTkYYQvKO=
+-cgPi8bZDaWYqs46u1vT7Ex4P_xFcPV5v1nz6kHuPQEje7AOoZmn-dGiu2_OA_ft1AfCw5B_zP6=
+7SXvBSoNX4B2msD2DHjZuDq5FAnCwp3-E9Af-mAKue8lp2zVnRSDNAZxXRngxPcwTAYLfsqervZ=
+PznZ73r3hTXusVzwarJeUM3DzKxVnXFy7qTktrNPKjqtcbraCy4MmxTVv4Vk_Z4WEkdOOadPJhh=
+XA6e96D0iqTkYGbQydn5Iui1dYP2_8Zw9kDKm3FwuMS0Y8PmyG6yXAxubziEfKbb3BMm6FcK9yn=
+afxLXcaYEEBU8lTLbhISiFtFTpQbJ7dbggZZgZjDIEmUPGrPSf9C8Ihseu" rel=3D"" style=
+=3D"align-items: center; border: none; display: block; flex-direction: colu=
+mn; height: auto; margin: 0; padding: 0; text-decoration: none; width: auto=
+;"><img data-attrs=3D"{&quot;src&quot;:&quot;https://bucketeer-e05bbc84-baa=
+3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/5f7f1aa5-9b4f-442a-=
+a603-88b088c32391_508x341.png&quot;,&quot;fullscreen&quot;:null,&quot;image=
+Size&quot;:null,&quot;height&quot;:341,&quot;width&quot;:508,&quot;resizeWi=
+dth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot=
+;:null,&quot;type&quot;:null,&quot;href&quot;:null}" alt=3D"" width=3D"508"=
+ height=3D"341" class=3D"" src=3D"https://substackcdn.com/image/fetch/w_508=
+,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e0=
+5bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5f7=
+f1aa5-9b4f-442a-a603-88b088c32391_508x341.png" style=3D"-ms-interpolation-m=
+ode: bicubic; border: none !important; display: block; height: auto; margin=
+: 0 auto; margin-bottom: 0; max-width: 100% !important; vertical-align: mid=
+dle; width: auto !important;"></a></td><td style=3D"text-align: center;"></=
+td></tr></tbody></table><figcaption class=3D"image-caption" style=3D"color:=
+ #767676; font-family: sans-serif; font-size: 14px; font-weight: 300; line-=
+height: 1.4em; text-align: center;"><em>iGem BioBrick Trophy</em></figcapti=
+on></figure></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height:=
+ 26px; margin: 0 0 1em 0;">Even as synthetic biology and iGEM gained tracti=
+on, some of the leading professors like Tom Knight still struggled to get t=
+heir work funded. The work didn&#8217;t neatly align with the core prioriti=
+es of any major grant agencies and was very early. At one point, an MIT gra=
+d student named Jason Kelly asked Tom, &#8220;What do you think if we start=
+ed a company?&#8221; Tom responded, &#8220;What would you think if I joined=
+ you?&#8221; While most professors were happy to &#8220;spin out&#8221; com=
+panies from their labs, Tom Knight wanted to dive in and join the adventure=
+=2E</p><h4 style=3D"-moz-osx-font-smoothi=
+ng: antialiased; -webkit-font-smooth=
+ing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple=
+-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-ser=
+if, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.=
+125em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;">To=
+ learn more about what Ginkgo does, the challenges it faces, and what the w=
+orld looks like if it succeeds&#8230; </h4><p class=3D"button-wrapper" data=
+-attrs=3D"{&quot;url&quot;:&quot;https://www.notboring.co/p/ginkgo-bioworks=
+-the-organism-company?token=3DeyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6NTkxO=
+Tc5NTksImlhdCI6MTY1NTEyNTA1OCwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFj=
+dGlvbiJ9.z8Ob5EeclVadmTPHR2OZTZtgtgKMmO7LPCGgXNmfVHk&quot;,&quot;text&quot;=
+:&quot;Continue Reading Online&quot;,&quot;action&quot;:null,&quot;class&qu=
+ot;:null}" style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; mar=
+gin: 0 0 1em 0; text-align: center;"><a class=3D"button primary" href=3D"ht=
+tps://email.mg-d1.substack.com/c/eJxFUsuOozAQ_JpwC8Lm6QOHUSYPZicw2mGz2VyQsT=
+vEAWwEZhjy9esk0q7kl8rdVVJVM6qhUv0cd2rQ1v0o9NxBLGEaGtAaemscoC8Ej1GAI9f3iMVjl=
+5ROxAJLDMW5B2ipaGLdj2B1Y9kIRrVQ8tHiONi3LjGNOA9xhLwzxwHmLi657wUlOQc0JODypzAd=
+uQDJIIYv6GclwWKqbUHqO5XVxBetu2HhvizwxqxpmmypdKl6ISubKQN1ZldC1pValkJNqq-Hpb7=
+AUvUVlWJol4avo3JeuButapAL9xXmN8TwYT7ipk6u6ju9Jt7-9svJPifBtuTGN6Q7rZIgzevvLG=
+e-uYekbS7cYPv8D0rz9ZzmLyhbTYIe05vhEGx3EO_5etq_JigRhsc9iAd-51uh-fR7c-Xb5qsUb=
+8S-RVnpr4E1B8rb_GP3E2en_KQrXf3Yt1n4_rHaVse0PR92tSVi7GDsBMhF2A-xY7s2My8vwkA8=
+HvmEnhee01ZLjuxhLAdNWW2caa0-_ueUKagvtIXm8WHyKu4mj1LouQBJywb4M0r9HIlHuEUFEno=
+zKryg2gyC7xtZx49CDz2jMwH5BJGQ-MQyylyZLvlf9C9VqdEk" rel=3D"" style=3D"backgr=
+ound-color: #67bdfc; border: none; border-radius: 4px; box-sizing: border-b=
+ox; color: #ffffff !important; cursor: pointer; display: inline-block; font=
+-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, =
+Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'=
+; font-size: 16px; font-weight: normal; height: auto; line-height: 20px; ma=
+rgin: 0; opacity: 1; outline: none; padding: 12px 20px; text-align: center;=
+ text-decoration: none !important; white-space: nowrap;"><span style=3D"col=
+or: #ffffff; text-decoration: none;">Continue Reading Online</span></a></p>=
+<div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"background:=
+ #ededed; border: none; height: 1px; margin: 25.6px 0; padding: 0;"></div><=
+p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 =
+1em 0;"><em><text>Thanks to </text><a href=3D"https://email.mg-d1.substack.=
+com/c/eJxFUMGOhSAM_JrHbQ0iqBw47GE3-xcEoU_JQzBQ98W_X9TDJk3Tpu1MZ6xBmFM-1JYKk=
+jNpPDZQEd4lACJkshfI2jvV9mzsBJfEqU5OdLQ98UU_M8BqfFCYdyDbPgVvDfoUrxNKmSCLMpxJ=
+OnLglnJrHJP82Qs52EE6x6jpbmKzOw_RgoJfyEeKQGxaV4h4QpGgFsStPLrPB_uugW9_vtfUndp=
+9heAT_kAuywR5Jl4xyhjt265lYmC06RpbKz4ykNyNQprng9N1_nBtU_apoLGvE4pkFRNOKfs414=
+XXYlYI16BK0-c_e_R4aIhmCuBu1Xi7d_mgZ4iQq6tOG6yeCVFpqRgH3t4qqxYhWzlIIUlldqlex=
+X_SP9BYh5g" rel=3D"" style=3D"color: #1a1a1a; text-decoration: underline;">=
+Elliot</a><text> for joining the team and coming out of the gate hot, and t=
+o </text><a href=3D"https://email.mg-d1.substack.com/c/eJxFUMtuxCAM_Jrl1ohH=
+IOHAoZf-RkTAm0UbIAKnq_x9SXKoZFm2bM94xlmEJZfDbLkiOdOExwYmwaeugAiF7BXKFLxhio9=
+C9pp4I_RMR6dIqNOzAEQbVoNlB7Lt8xqcxZDTdUIpl-Rl5KCBK8U9E1Sw2XrrBvAURuWfCtx8E9=
+vdB0gODPxCOXIC4nKMkPCEIqt5IW71Ib4f_KcFfsL5Xtd2WudtdC6XGNybCRIMp5xTxQTjcuC0E=
+51rVT9y0L0fpbbPR0_j8uVZV_e5onXvE4gUkzLOuYS0tIX3y0ZYr0ETNp3f7CngMUGy8wr-1oy3=
+d5cL0wIJSvPUTxabY1I2WirHoWe3xqZEaqYHLTVpzD63q_RP-gcrDYcv" rel=3D"" style=3D=
+"color: #1a1a1a; text-decoration: underline;">Dan</a><text> for editing and=
+ </text><a href=3D"https://email.mg-d1.substack.com/c/eJxFUMluwyAQ_Zpwq4XB2=
+HDgkEsvvfUHEMvEQbHBgnEj_31xUqnSaDSjWd7iLcKcy6G3XJGcyeCxgU7wrAsgQiF7hWJi0P3I=
+JBeDIkFz5aj0I4nV3ArAauOisexAtt0t0VuMOb1OKGWC3DWDnsrhJoNUynELfBKMOdHaQMXI-je=
+w3UOE5EHDD5QjJyA-ryskPF-RRd8Rt3rh1wv7bIHPeNLr2k7rqrMlNb7X7y8SNaOM0bHnPRMTox=
+3vfKsGyUANQQplb5eBrvNH6Lu6u4rWP843pOiU0eUS09wWHne7wvIaNFnm5LKniIeBZN0C4a0Y3=
+869PDAzJCjN0WAsNr-EaLBUyGn4U9h0CNWrSQlFGnLI7Sr9g_4CByKFfQ" rel=3D"" style=
+=3D"color: #1a1a1a; text-decoration: underline;">Simon Barnett</a><text> fo=
+r reading an early draft!</text></em></p><div style=3D"font-size: 16px; lin=
+e-height: 26px;"><hr style=3D"background: #ededed; border: none; height: 1p=
+x; margin: 25.6px 0; padding: 0;"></div><h3 style=3D"-moz-osx-font-smoothin=
+g: antialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-f=
+amily: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI',=
+ Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji=
+', 'Segoe UI Symbol'; font-size: 1.375em; font-weight: bold; line-height: 1=
+=2E16em; margin: 1em 0 0.625em 0;">Alt Mi=
+nt</h3><p style=3D"color: #1a1a1a; f=
+ont-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><text>Freebie time! =
+Not Boring portfolio company Alt is launching </text><a href=3D"https://ema=
+il.mg-d1.substack.com/c/eJxFkM1uhSAQRp_msqsBFJUFi276GoSf0UuugoGx1j598bpoQgh=
+kGM6czxmEOeVTbakguTaN5wYqwlEWQIRM9gJZB69Yz8dWdJJ41UpLR9eTUPSUAVYTFoV5B7Ltdg=
+nOYEjx3UIpF-Sp-Mh6ayYmnXet8IxNkxe282zw1jFjb7DZfYDoQME35DNFIC6tK0S8viKLeiJu5=
+dF-PvhXXcdxNGbB5uf8rbc1RCRBcco57VnLuBg4bdrG1VM3cpCdH4U006Oj6_zhWVN2W9C4V1MZ=
+JKuY0KYc4lwfvJ5mheVdqD76GmKPAU8N0dgF_K2Kd2RveT1DhFyj9NpgDUqIiqViHDp2q1UBIZk=
+cpJCkkn2qXfEf-gefNYRF" rel=3D"" style=3D"color: #1a1a1a; text-decoration: u=
+nderline;">Alt Mint</a><text>. One June 17th, they&#8217;re providing early=
+ access to VIPs to mint </text><strong>NFTs backed by physical trading card=
+s</strong><text>. Holders have the right to redeem their NFTs for trading c=
+ards ranging from $700 - $10,000 in value or to hold on to them for access =
+to community benefits and rewards. Leore, Meredith, and the Alt team have g=
+enerously offered to </text><strong>give 30 of those VIP spots to Not Borin=
+g readers. </strong><text>To enter, just fill out this form and they&#8217;=
+ll be in touch:</text></p><p class=3D"button-wrapper" data-attrs=3D"{&quot;=
+url&quot;:&quot;https://form.typeform.com/to/Q3NfyPK4&quot;,&quot;text&quot=
+;:&quot;Enter the Alt Mint VIP Raffle&quot;,&quot;action&quot;:null,&quot;c=
+lass&quot;:null}" style=3D"color: #1a1a1a; font-size: 16px; line-height: 26=
+px; margin: 0 0 1em 0; text-align: center;"><a class=3D"button primary" hre=
+f=3D"https://email.mg-d1.substack.com/c/eJxFkL1uhTAMhZ_mZivKL5AhQ5cular2CVB=
+IHG5USFAwrXj7BhgqRZbl2D7-jrMIUy6HWfOG5AwDHiuYBL_bDIhQyL5BGaI3rOW9UFITb4Qeae=
+9aErchFIDFxtlg2YGs-zhHZzHmdI1QyhV5GgXaQdsG6FSrg-i7LgTJvO-dCMIrfQvb3UdIDgz8Q=
+DlyAuLyskDCcxWZzRNx3R7i9cHf6gu5LM1565XUzlrDXMOX-AjH57sk0XDKOW2ZYFx1nDaicTWT=
+PQctfa-0DQ9Jl-nFs2bbxw2t-z4XkWJSxjGXmKba8P20C8zXR8Ubzpv2FPEYINlxBn-T4-3g5cU=
+wQYJSnfWDxeqbUlWWqr6T7CatPEoz3emKXpV9rlPpX_QPwo-IYw" rel=3D"" style=3D"back=
+ground-color: #67bdfc; border: none; border-radius: 4px; box-sizing: border=
+-box; color: #ffffff !important; cursor: pointer; display: inline-block; fo=
+nt-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica=
+, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbo=
+l'; font-size: 16px; font-weight: normal; height: auto; line-height: 20px; =
+margin: 0; opacity: 1; outline: none; padding: 12px 20px; text-align: cente=
+r; text-decoration: none !important; white-space: nowrap;"><span style=3D"c=
+olor: #ffffff; text-decoration: none;">Enter the Alt Mint VIP Raffle</span>=
+</a></p><div style=3D"font-size: 16px; line-height: 26px;"><hr style=3D"bac=
+kground: #ededed; border: none; height: 1px; margin: 25.6px 0; padding: 0;"=
+></div><p style=3D"color: #1a1a1a; font-size: 16px; line-height: 26px; marg=
+in: 0 0 1em 0;">Thanks for reading, and see you next week,</p><p style=3D"c=
+olor: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; margi=
+n-bottom: 0;">Packy</p></div></div><table cellpadding=3D"0" cellspacing=3D"=
+0" class=3D"post-meta custom big alternative-meta centered" style=3D"margin=
+: 0 auto;"><tr style=3D"align-items: center; display: flex;"><td class=3D"p=
+ost-meta-item icon" style=3D"color: #767676; font-family: -apple-system, Bl=
+inkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple =
+Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; height:=
+ 100%; line-height: 18px; padding: 0px 12px 0px 0; padding-right: 24px; pos=
+ition: relative; text-decoration: none; text-indent: 3px; white-space: nowr=
+ap;"><span class=3D"post-meta-icon like-reaction-button"><a href=3D"https:/=
+/email.mg-d1.substack.com/c/eJxFUtGuojAQ_Rp5k0ChSB94uNFoIIsme3W96wsp7YAVaFk=
+oIn79Fs3dTZqZzmnPzGTOMKqhVN0UtarX1mwyPbUQSRj7GrSGzhp66DLBIzdAoYd9YvHII7kTss=
+ASfVZ0AA0VdaS7Aax2yGvBqBZKviiOg7B1jUIPsXDlIMCUFmHAsR8WrPCCPCTeirHiXZgOXIBkE=
+MEduklJsJhqGpB6TmXV0VXrtl94Hwu0NWccR1sqnatOyNJmykC0FcbeXWPmhMa9Wlt2QNnc0sLb=
+DrrJejV0DBbeph_yXlNWLVAw4w1wMTQGf7EMqFUFco6nxGXo1_SF6iq-qcf-Fvvp8-QcPkfBduT=
+Jt6S9rONgf6wehyPDxvexTOrf571Dz2QwHOG3qIrFKOh567xznNz0GLvp5uT_WCct81JxEMnIz7=
+FOjx9jejsJgz9NPOPT5by98V19z0VC7AlPm5HJ9e1nTYrH0H_KUl14w93-y2e8WyZ_QqVOu3tZh=
+ZaIkIOQE7iei_AKObZnM3PzQwTE5yEmtFj4TlMuuWt_D8SMs7G66N94zYfqShuoXw9G5GxWZpBC=
+TxlImtfA3_rr9x69BpiVIKEz-8Uzqs32YGzKOjhc-e5bb6MqJi5ZEUwsU5krw5L_i_4FuwrjpQ"=
+ class=3D"like-button button post-meta-button" style=3D"align-items: center=
+; background-color: transparent; border: 1px solid rgba(204, 204, 204, 0.5)=
+; border-radius: 4px; box-sizing: border-box; color: #1a1a1a; cursor: point=
+er; display: flex; font-family: -apple-system, BlinkMacSystemFont, 'Segoe U=
+I', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Em=
+oji', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; height: auto=
+; line-height: 15px; margin: 0; opacity: 1; outline: none; padding: 10px 16=
+px; text-align: center; text-decoration: none; text-indent: 0px; white-spac=
+e: nowrap;"><img src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_=
+png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLu=
+cideHeart%3Fv%3D2%26height%3D36%26fill%3Dtransparent%26stroke%3D%2523757575=
+%26strokeWidth%3D2" width=3D"18" height=3D"18" style=3D"border: none !impor=
+tant; display: inline-block; float: left; height: 14px; margin-right: 4px; =
+max-width: 18px; vertical-align: top; width: auto;" alt=3D""><span class=3D=
+"like-count" style=3D"color: #1a1a1a; margin-left: 7px;">Like</span></a></s=
+pan></td><td class=3D"post-meta-item icon" style=3D"color: #767676; font-fa=
+mily: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Ari=
+al, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; f=
+ont-size: 14px; height: 100%; line-height: 18px; padding: 0px 12px 0px 0; p=
+adding-right: 24px; position: relative; text-decoration: none; text-indent:=
+ 3px; white-space: nowrap;"><a href=3D"https://email.mg-d1.substack.com/c/e=
+JxFkttymzAQhp_G3JkBcdQFFxnHB9IYZ1rqpr5hhLTGMkhiQITgp6-wm3ZGp1ntfr-0u5RoqFQ3=
+Ja3qtTUvhZ5aSCSMfQNaQ2cNPXQFZ4kbotgLfGyxxMOlE9PQ4n1x7gAE4U2iuwGsdigbTonmSt5=
+DHAcF1iWJfOKgCFPmMy8KfUYxCvHZwSUmDi0N6C5MBsZBUkjgA7pJSbCoEgKknlFWk1y0bvuF97=
+RAGzPGcbSl0qXquKxsqoypNbPisq7UsuRqVF3dL_UFlqqriOS9WBpeS-Rk3P6SDW6jVQ1y4T3D9=
+OJSdJzeUVOnV_WZXVN_f_vpHH6MnG7xjW1we1qlYZbXn4ecBmbvU9FcmLHt899ulq-nLH9yD6uR=
+k_fsZhic7o78NV-P--fUTbnheEd-t8-8lTudfm2ubNt8lPwF27f4UAZroM2RMJG_7b6jwyk_6Up=
+X3_biEL2-rbbVeybOx129QOGgRdGroaNg3t4PZa8J_bILYHwQ85_m0lg8QQ5CTuh6Lgoi5NieTc=
+3JjxFgn8UBJueF74hqyVz7i2QyKqwu-Zdh41BfiIDmfmHqXMwpHCTXUwGSlA2wRwvoRyvdlYsKJ=
+HSmxVhBtGmgIDCyThBHvvsouSlsgF0c4QBbRpkpEyX_i_4BX-XlKw" class=3D"post-meta-b=
+utton button" style=3D"align-items: center; background-color: transparent; =
+border: 1px solid rgba(204, 204, 204, 0.5); border-radius: 4px; box-sizing:=
+ border-box; color: #1a1a1a; cursor: pointer; display: flex; font-family: -=
+apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, san=
+s-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-siz=
+e: 16px; font-weight: normal; height: auto; line-height: 15px; margin: 0; o=
+pacity: 1; outline: none; padding: 10px 16px; text-align: center; text-deco=
+ration: none; white-space: nowrap;"><img src=3D"https://substackcdn.com/ima=
+ge/fetch/w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2F=
+substack.com%2Ficon%2FLucideComments%3Fv%3D2%26height%3D36%26fill%3Dtranspa=
+rent%26stroke%3D%2523757575%26strokeWidth%3D2" width=3D"18" height=3D"18" s=
+tyle=3D"border: none !important; display: inline-block; float: left; height=
+: 14px; margin-right: 4px; max-width: 18px; vertical-align: top; width: aut=
+o;" alt=3D"Comment" class=3D"comment-icon post-meta-icon"><span class=3D"me=
+ta-button-label">Comment</span></a></td><td class=3D"post-meta-item icon" s=
+tyle=3D"color: #767676; font-family: -apple-system, BlinkMacSystemFont, 'Se=
+goe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe =
+UI Emoji', 'Segoe UI Symbol'; font-size: 14px; height: 100%; line-height: 1=
+8px; margin-right: 0; padding: 0px 12px 0px 0; padding-right: 0; position: =
+relative; text-decoration: none; text-indent: 3px; white-space: nowrap;"><s=
+pan><a href=3D"https://email.mg-d1.substack.com/c/eJxNkluPoyAUgH9NfatBvFQef=
+Jhst4lm7GSz7bbzZBCOSlVwEMe1v36x3VsChPNxLpwLowZqpZdkUKNx1qMwywCJhHnswBjQzjSC=
+LgRPvAjHfhgQhyc-KVHMIkeMRaUBeiq6xOgJnGEqO8GoEUo-TBDCodMkEcU82qESfFIhDrTCpYe=
+jMiQ75HEPV8_AdOICJIMEPkEvSoLDVN-DNKsrp0saY4Zx479s8MGueZ5dqUyptJC1y5RFg921kG=
+2ttqVQs9LtuDUNbJWuqRRjv7X-BiqXjX-YTF-MatIMNv5-nMrRUNZucLTyHriYessfif2GTEljv=
+7JqN1SDpZStaf4HjGphlWHJPIZ_LFfctelN_Tze0iC_n9Hb91nQywE92dnLT6mX78_B65dsYH4u=
+3kQ280tq8tPLnN_OwvK7lR-89I_o9Zp175cjohcypRK5t7vYf7wvWWi6rGrCfTNz1p8-Pk-kuvd=
+f87PMu0v6zb--xakjEowwRpHnezjcYeT6LrO3IMZAAh6HhFabAPX1lnvun3LYovaOTv4W2Sq0De=
+2hezzYVhdrfyYpzFKApGUH_DkF5jlNj_IVNUjQdsp4QY2doTC0YVEY7wLv2XXb25B4ZEdC4tjIX=
+Fkr-S_oL_QD5ig" class=3D"button post-meta-button" style=3D"align-items: cen=
+ter; background-color: transparent; border: 1px solid rgba(204, 204, 204, 0=
+=2E5); border-radius: 4px; box-sizing: bo=
+rder-box; color: #1a1a1a; cursor: po=
+inter; display: flex; font-family: -apple-system, BlinkMacSystemFont, 'Sego=
+e UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI=
+ Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; height: a=
+uto; line-height: 15px; margin: 0; opacity: 1; outline: none; padding: 10px=
+ 16px; text-align: center; text-decoration: none; white-space: nowrap;"><im=
+g src=3D"https://substackcdn.com/image/fetch/w_36,c_scale,f_png,q_auto:good=
+,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideShare%3Fv%3=
+D2%26height%3D36%26fill%3Dtransparent%26stroke%3D%2523757575%26strokeWidth%=
+3D2" width=3D"18" height=3D"18" style=3D"border: none !important; display: =
+inline-block; float: left; height: 14px; margin-right: 4px; max-width: 18px=
+; vertical-align: top; width: auto;" alt=3D"Share" class=3D"recommend-icon =
+post-meta-icon"><span class=3D"meta-button-label">Share</span></a></span></=
+td></tr></table><div class=3D"container-border" style=3D"border-top: 1px so=
+lid rgba(204, 204, 204, 0.5); box-sizing: border-box; font-size: 16px; line=
+-height: 26px; margin: 32px 0 0; width: 100%;"></div><div class=3D"post-cta=
+" style=3D"font-size: 16px; line-height: 26px; margin: 24px 0 40px;"><p sty=
+le=3D"font-size: 16px; font-style: italic; line-height: 26px; margin: 24px =
+0 0; margin-top: 0;"><span>If you liked this post from <a href=3D"https://e=
+mail.mg-d1.substack.com/c/eJxFkEtuxCAQRE8z7GLxHZsFi2xyDcSnx4NigwXtWL59mLGUS=
+AihbqqrXwWHMJd6mq00JK_L4rmByXC0BRChkr1BtSkadueTUFKTaIT2dAp3kpp9VIDVpcVg3YFs=
+u19ScJhKfkso5Yo8DXPjg4-OgwKpnRYjFcxrCTAFpr2Tl7HbY4IcwMAP1LNkIKGsK2R8jSKLeSJ=
+u7SY-b_yrn-M4hlzQl5ryPITSSyQZTjmndyYYVyOngxhCf8mJg5ZxUto9bpKu80dkQ9t9Qxe-u3=
+Ql1fyN6h--n26F5d3oQPa1xZ4Tnhay8wvEixWvzN70doYMtWcZrcOelFLdlqpplOxi6wRKMz1qp=
+Ul3jqWr8r_pLzJ_g6k">Not Boring by Packy McCormick</a>, why not share it?</s=
+pan></p><p class=3D"cta-box" style=3D"font-size: 16px; font-style: italic; =
+line-height: 26px; margin: 24px 0 0; text-align: center;"><a role=3D"button=
+" href=3D"https://email.mg-d1.substack.com/c/eJxFUduOpSAQ_Bp50yCIlwceNtnMb5=
+gWepQcAQO4xr_f9pxkJgECRXdXdbWBgmtMtz5iLuw55nIfqANeecdSMLEzY5qd1W0vRqm6iVktp=
+4WPpmcuz98J0YPbdUknsuNcdmeguBjeKZwLxTYNQkq1LNAvYHmHclDDOJhu7DsDEgf1IYbTOgwG=
+Nf7DdMeAzETvMZSnFNv1VsqRK_mnEl-0rutqQixLTC6sjYkEHbRXF15rrBcXr5heuS4b1jGtEFz=
+2NdU7INyV_DqLnz1ad_pK_n03UIn-AQ1QiFsDwaYAgWCebuiZN0jInBZcCN63shVqELyRjaFbNw=
+qcOjuqCb6rjvu1tm2TzyUXMC9S51nSP2op4LWBx_39QZ7NT6NncOWeMcCyo_3YWT5jeeubVwyYa=
+Fx2hkLDUIpouRqHrv3YRyapqZ2GSU2MmG2krPBL-h-KiKd0" class=3D"button primary tw=
+itter-link" style=3D"background-color: #67bdfc; border: 0px solid #67bdfc; =
+border-radius: 4px; border-width: 13px 20px 13px 18px; box-sizing: content-=
+box; color: #ffffff !important; cursor: pointer; display: inline-block; fon=
+t-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,=
+ Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol=
+'; font-size: 17px; font-style: normal; font-weight: 300; height: 24px; lin=
+e-height: 24px; margin: 0; opacity: 1; outline: none; padding: 0; text-alig=
+n: center; text-decoration: none !important; vertical-align: middle; white-=
+space: nowrap;"><img src=3D"https://substackcdn.com/image/fetch/w_23.1,c_sc=
+ale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fico=
+n%2FShareIcon%3Fv%3D2%26height%3D42%26stroke%3D%2523FFF%26strokeWidth%3D2" =
+width=3D"11.55" height=3D"21" style=3D"border: none !important; display: in=
+line-block; height: 21px; margin-right: 8px; max-width: 11.55px; vertical-a=
+lign: middle; width: 21px;" alt=3D""><span style=3D"color: #ffffff; text-de=
+coration: none;">Share</span></a></p></div><div class=3D"footer" style=3D"b=
+ackground: #f5f5f5 !important; color: #808080; font-size: 16px; line-height=
+: 26px; margin-top: 24px; padding: 24px; text-align: center;"><p class=3D"s=
+mall" style=3D"color: #808080; font-family: -apple-system, BlinkMacSystemFo=
+nt, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', =
+'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; line-height: 22px; ma=
+rgin: 0; padding-bottom: 16px;">&#169; 2022 <span>Packy McCormick</span><br=
+>10 City Point, Brooklyn, NY 11201 <br><a href=3D"https://email.mg-d1.subst=
+ack.com/c/eJxFUsFuozAU_JpwK8IGAz5w6CZNlqhJtC1Nk1yQsV8SN2CzYJbC169JpF3Jsp_Gf=
+jPWzOPMwEU3Q1Lr1jjTlpuhhkRB35ZgDDRO10KTS5GgEMc-CagjEp8WXsxDR7b5uQGomCwT03Tg=
+1F1RSs6M1Ore4nmYONdEnCN-xjRGPGbAaYBD4YUEnSPhBbGg4iHMOiFBcUjgDzSDVuBwXVWgzET=
+llMnVmLqd-c8zvLSr73tXaVPoRqqLy7WFGJ-EbSFky4oS8vvPZv7S6Buomb-AYY043g8HXN7SL_=
+29_UqDzfjh7d57yVd0FEtan-ZpuM1u37uME3u2aVVehcU22RFts5dhmz2j3byX7LAdLYfkP_fyN=
+XvpN4sUpdLy-Hs54adVOR4_1-1pT8vic1kX8zV1N9EixB06_n5t34Ie_1qNc65JVlfxU6_fZFcU=
+Pw7HS_dxXfeOTLCHsRciH2ESYc_1XW6rIMZAAxETys6zwKsuTwK5bVe0hvGb9aFymuSfL_bB7co=
+qKO8XNp18srRT0gw5qMkj8QjOPAbgblh-AQWNHQyRM2NjJ8TKeiSOAvQIysZBKKIRJdSxykLbLv=
+Vf9C-Ab8on" style=3D"color: #808080;"><span style=3D"color: #808080; text-d=
+ecoration: underline;">Unsubscribe</span></a></p><p class=3D"small powered-=
+by-substack" style=3D"color: #808080; font-family: -apple-system, BlinkMacS=
+ystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color E=
+moji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; line-height: 2=
+2px; margin: 0; margin-top: 0; padding-bottom: 0;"><a href=3D"https://email=
+=2Emg-d1.substack.com/c/eJxNUdtuhSAQ_Bp50=
+3ARLw88NGn6G4bL6iFHwcDaxr8v6kObkA1kd=
+pmdGasRlphOtceM5CoTnjuoAD95BURI5MiQJu8U6_ggZDsSp8Ro6GA74vM0J4BN-1VhOoDsh1m9=
+1ehjuEco5ZK81KAlk0Z0bB5mKYWZJeuMY8zNs6Rd3z_E-nAeggUF35DOGIDYuG0Q8PqKrOqFuOd=
+KfFT8q5x8mIzavpvSVJ56359aZ4wJ6gTOJ7BYia8Dt8nqbdd-CZX4vHo2nd6APiwV7244BixEBb=
+3F1HOMRXptDsQYiFecck47JhiXPaeNaGy5tQOHsXWDHPVctXRbasea_2uRpEJEE9NF1NL3S2-w3=
+kDxabrEHcHjOUHQZgX3WIhPFPce0wIBUonITRpLAFIWWiqHvmWPZcUYObKxH-VICrOLZSr8kf4C=
+pBejoA" style=3D"color: #808080; display: inline-block; margin: 8px 4px 0; =
+text-decoration: none;"><img src=3D"https://substackcdn.com/image/fetch/w_2=
+60,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.c=
+om%2Fimg%2Femail%2Fapp-button%402x.png" srcset=3D"https://substackcdn.com/i=
+mage/fetch/w_130,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2=
+F%2Fsubstack.com%2Fimg%2Femail%2Fapp-button.png, https://substackcdn.com/im=
+age/fetch/w_260,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F=
+%2Fsubstack.com%2Fimg%2Femail%2Fapp-button%402x.png 2x, https://substackcdn=
+=2Ecom/image/fetch/w_390,c_limit,f_auto,q=
+_auto:good,fl_progressive:steep/http=
+s%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fapp-button%403x.png 3x" width=3D"130=
+" alt=3D"Get the app" height=3D"40" style=3D"border: none !important; max-w=
+idth: 550px; vertical-align: middle;"></a><a href=3D"https://email.mg-d1.su=
+bstack.com/c/eJxNUV1vhCAQ_DXyVoMInj7w0KS5v0H42PPIKRhY2vjvi9qmTQiBYXZndrAaYY=
+5pl1vMSI5N4b6BDPCVF0CEREqGpLyT3cDGXvCJONlPho52ID6rRwJYtV8kpgJkK2bxVqOP4Syhl=
+AnylCPndhictYLfBsFGJgxMfDBCWMqhM5ewLs5DsCDhE9IeAxAb1xUCHq3IIp-IW27694bd68rF=
+ZNT21VbScfVzKFvT3wuuKseSLDT9xy-pYcOBr-B8WSt-Wv4BbQxYRSr6iPEY2EtGGaND13dM3Bh=
+t-9bWEx9ZNe1GMelHw-k6v7mu_e-CJBkimph8mCvh9dQrLOdDjUUds5TgcVcQtFnAXYnhlfxpSM=
+0QINUfcUpjzVuIKkvFeOPdlVDNQUzddJvERKqyi7Uq_Il-Ay3VnPw" style=3D"color: #808=
+080; display: inline-block; margin: 8px 4px 0; text-decoration: none;"><img=
+ src=3D"https://substackcdn.com/image/fetch/w_270,c_limit,f_auto,q_auto:goo=
+d,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-b=
+utton%402x.png" srcset=3D"https://substackcdn.com/image/fetch/w_135,c_limit=
+,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2=
+Femail%2Fpublish-button.png, https://substackcdn.com/image/fetch/w_270,c_li=
+mit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fim=
+g%2Femail%2Fpublish-button%402x.png 2x, https://substackcdn.com/image/fetch=
+/w_405,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubsta=
+ck.com%2Fimg%2Femail%2Fpublish-button%403x.png 3x" width=3D"135" alt=3D"Sta=
+rt writing" height=3D"40" style=3D"border: none !important; max-width: 550p=
+x; vertical-align: middle;"></a></p></div></div></td><td></td></tr></table>=
+<img src=3D"https://mailgun.substack.com/api/v1/email/open?token=3DeyJtIjoi=
+PDIwMjIwNjEzMTI1NzIwLjMuYzEyNTQ4MmU5NGQ4NTlhZkBtZy1kMS5zdWJzdGFjay5jb20-Iiw=
+idSI6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMS5zdWJzdG=
+Fjay5jb20iLCJwIjo1OTE5Nzk1OSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzI=
+joxMDAyNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6ImJvdHRvbSIsImlhdCI6MTY1=
+NTEyNTA1OCwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.P19o9G_CsbFWtA_LUozHJ4A3eoJuzZ=
+BbdCFkT4TB6VI" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"heig=
+ht:1px !important;width:1px !important;border-width:0 !important;margin-top=
+:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-l=
+eft:0 !important;padding-top:0 !important;padding-bottom:0 !important;paddi=
+ng-right:0 !important;padding-left:0 !important;"/><img width=3D"1px" heigh=
+t=3D"1px" alt=3D"" src=3D"https://email.mg-d1.substack.com/o/eJxFUEGShCAQe8=
+1yWwsQFA68hUJoHWoUpqDZLX-_qIe9pbrTSTreIWy5nOaTKxI4XNztBglKnwfr0LBJSsYllWoWj=
+AQz6oUqP5FY7VrgPjBYGpBPW_boHcacbAyGUcoleRnlmZgVl7OfneIjW0FKMfHRO--YCiu5jK1r=
+IULyYOAHypkTEJ-PAxJeUg-lA6mZnrXUJBpOOacTG3u0mdNhHHxHQnHQIiip3fol6LF9BzbUtlR=
+0_j10RVJMyrjkEtPWCe-XO2C_Fz29vSxbinhaSG7ZITyP4dNNq1DuxyauRin0kwrPD5gEv3UHRC=
+iku4XcS0n_Rn8bfXej"></body></html>
+--d6d5ddc1524727b83468f3cac3f7eb85df9c3f122ecdee75491268e6e609--

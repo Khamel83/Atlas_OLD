@@ -6,7 +6,6 @@ import os
 from pathlib import Path
 
 
-from helpers.article_fetcher import fetch_and_save_articles
 from helpers.config import load_config
 from helpers.podcast_ingestor import ingest_podcasts
 from helpers.safety_monitor import check_pre_run_safety

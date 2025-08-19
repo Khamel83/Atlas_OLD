@@ -1,0 +1,1929 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6520:712:b0:13b:de3:276c with SMTP id o18csp2398569lki;
+        Mon, 20 Sep 2021 09:56:14 -0700 (PDT)
+X-Received: by 2002:aa7:c998:: with SMTP id c24mr29365337edt.158.1632156973612;
+        Mon, 20 Sep 2021 09:56:13 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1632156973; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=FSaP/2NnGJGOM2hsW96XwpEIRMXkzgaW55AwKrwAkSvn+l5dH0kN+QBvac3mD79psL
+         SUoR4fJYW0tLcWt3QKG8M7duI0RnT3F/EbSeNUQvCy3nJVWOQnFkfQWwaLFN1yT4/Fx3
+         M7SXpp89HwA+p9u78bxY802uZZFdgwNcvMPXYPTEoStGhl+vMiHskQ1tTnGMVWThMRyA
+         p6xQpoGSF25MKizpnuZQpDer2yh9YrUP7DNVoVGiRr/8pXXfHyACD6Ktutwd3SENmVGK
+         4hlCJNZfcVyH+kEXk4VVuap+P6LsGa4LqgojcOXUnDr3k430UW5qCQ/oPeryf90en5or
+         ntJQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=veuOs5QHegF4n6GoskH/dlZKFiOnY6dDTvbsd0kEF0M=;
+        b=ZRqig5Et9oQZldBooYxvW4FbfiYsSSUhHt2FyUckxh/QlsexfwOJmx09A1TN+e4Zx3
+         /TY2Btl1VCPQQGR8RGLtyWYvWOQu8poptiR4qgNWcukcznxr769hx/USKAe9QdqSxoQz
+         zXTUYHghHyeX5Trlq/vUUpxqSwPFk3cV0ZL62MhIpOFJCYqFCUJTZ5BxG7Zs67R4Gvme
+         nZ52JdgTC0mXm5ZaPfvXc4vD46gsxZdsDmfwFnqEXKmdTqz801R2asA0UXPWes1wsqH/
+         U1Nq/dI2hIlu6uTL1WSj7Di+nHAGb6Z7Xi+g+4PBzOlxKq4x05EPnnPgQYU7dJ44rhHI
+         qB9Q==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=zxl8SY6e;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id qa15sor1597218ejc.3.2021.09.20.09.56.13
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 20 Sep 2021 09:56:13 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=zxl8SY6e;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:delivered-to:dkim-signature:date:from:to
+         :message-id:subject:mime-version:precedence:list-unsubscribe;
+        bh=veuOs5QHegF4n6GoskH/dlZKFiOnY6dDTvbsd0kEF0M=;
+        b=Q/u62JPbb/nWlRFGdwq8f1ueoMVqeRCpj9JccgLsmTsvviHfHiTUxxACsC4fT3I5yS
+         fjV2FMUwBKUFlhBGfyt9LbWzhs/ofPJVRe80IO3rCl5e1XapSvdKJVRfYjW6KMz8MuDs
+         h5/HjM+iPGMsV17FlWqEEJusrkcrbYSndRPwdg6yQgRiXZpu8H33nwaZOXyz/Le92TDb
+         IbLU2FlkbQ0IaGE3f3wCxo/lBGjtpCVZkOEZ2Ahhy/5+P23TnXz6Zixd9VRLRqx9HROw
+         sHvQJTCq6a7TLi2FfTGIAQol9ubHJ5pYEicCVThS7Oq83mjBXlN47Yzx2NaW4aXgvzP9
+         3+UQ==
+X-Gm-Message-State: AOAM530MJJkEXQ3LhIb7T6MzvV8o1nbpo6lddo9aIxCGZ9lniTQhsPpV
+	kH2j+C+YGnC2OLjPukF5DOsrzfWKJ/qKJASRWZ6RyJBS5rHg1HqMlhBo
+X-Received: by 2002:a17:906:38ce:: with SMTP id r14mr29149628ejd.268.1632156973356;
+        Mon, 20 Sep 2021 09:56:13 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:ab4:a245:0:0:0:0:0 with SMTP id dh5csp2272190ecb;
+        Mon, 20 Sep 2021 09:56:10 -0700 (PDT)
+X-Received: by 2002:a05:600c:190c:: with SMTP id j12mr34893wmq.122.1632156970413;
+        Mon, 20 Sep 2021 09:56:10 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1632156970; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=L9fOQDXsbup1EUx/YratOVrgDP4SyVw160jzdswB9WRhUAqRuohBBS6ziRBF5gzQAg
+         6nHXIXWUNyv047rrRrSehXQHBQyzv91ISw/sm7KROQssgDprM3y71KAzXT4ZgPEjP2N7
+         h3vPje1Kv9WZeuAfaZwTt97GwV8gzZMJpHg/ax+gbF2k7/9dbwKrpl9vdp2rZNUBFScK
+         cb/oxrAGODDvRE/4PC4vDhI4JOqLM9yXk6SdmJZh19KTvDL0yB8tykFEe8GiQahgcIVL
+         +Jj1MV9X3lw39eY1mCanW0To1+pvEkvfrlhxrrQZO58gF9gP01NChxQUzDG4Ju3mqYZk
+         C1Aw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=veuOs5QHegF4n6GoskH/dlZKFiOnY6dDTvbsd0kEF0M=;
+        b=GKvXPSLgVZMoTwrxsG24DlEGJKH8HTzIg+tm3SBAwhiz8fRLbEBzlNuf1iwx1sL/e2
+         rXOL1ZM2z3N7VIP0r6sWd2su3A83qBKcHzNrSYZoFLpjham0t7uabSUL0XmjyX0eXHlv
+         qVLjc1vW9TJ0PGDCQ3UVVSzMZf2jSQtlN4XKw87+S8YqSfYfI9eG+MuCgVTj/pE+cUCI
+         mMzVzYJcQvushA1RkKGG6sa3P2T7SJ1AhVJWP7kSEVvKiPz/7t4L4tc8Yv6X08bpuoM6
+         SKwHGtPk5oRZgUtzOMUvgbOscYPr4BtE9beJLPgeTs0OrJ8bMc9cV0Hx3Ss9OuBDg1dr
+         fj8w==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=zxl8SY6e;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20210920125400.25093534.264700@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20210920125400.25093534.264700@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210920125400.25093534.264700@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id w15sor43155wmc.17.2021.09.20.09.56.10
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 20 Sep 2021 09:56:10 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20210920125400.25093534.264700@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: ABdhPJwmK7+FHdxZn5gySIv74F2wrQyz3eCkI42F/1O+w743c+xUj6fahnGDb+PoOSgSZK49/MbKK2O1XR6SfBvfbasxve8zN9g=
+X-Received: by 2002:a1c:7201:: with SMTP id n1mr20244wmc.19.1632156970117;
+        Mon, 20 Sep 2021 09:56:10 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1632156970; cv=none;
+        d=google.com; s=arc-20160816;
+        b=wolwVBVe3YoEuQa7+jcqWMU5OBBOSR9aXfaitV+Ycyxzksd6HeS7ozNmNXbRSRr3Ld
+         SqTCPfPnY1hn30MIjgHoU8iotFTMiPzsCOrW0h76wHeuLozEw2qAVQB/xNENOsbbKwaH
+         XT+KGFJto9g5vuC3G/cvE2tBNkr7myqoQQdoPFA7N+WAIdwuW6yuWSxIgkv8eeNrC8Ms
+         hvVef1f2zsB0mdXObjPdGwR4O0f8ZX9Avz3lBfB57err4oOkp1NeyGM0GVBUH8l8JOLr
+         5tnCTzMZu+0xcf3pQZRuGpVxJ7fVPXAHvPzkPHOERP5efx5JpFuUIdbajf9EZoLlwb2O
+         pbfg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=veuOs5QHegF4n6GoskH/dlZKFiOnY6dDTvbsd0kEF0M=;
+        b=ArrI0Zpjhnq7Zf/9oETyHDGR4rJAFnQLyS0tkdSny1s1Qb2xs0Vlnq2FWE25w6FMRu
+         YoZcvePJWjhA5qP498gMxHHkKNgIjTdVKKX1w6zNvkfcK/vIF+J6o4zBxVtQcAM6irc5
+         8+qGa5uLbZARcMG0GK5ojHZA8vUh0AXZTRmVOFqF06mUSNpTIP44cwhrSF9/cP66+tJR
+         EEzQJAqMx4NwL4I8rSSQ9ZDAAK2gCp7nFf4DiaPSblHDFHS65Yte2/twv1h/hVIsmscw
+         be93kKldJnmxnXz0GPMBMX/TUagW2Ugd8Zq51yowoWKdDPvDU7dEU8dC/f93mXERdbqX
+         BWmw==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=zxl8SY6e;
+       spf=pass (google.com: domain of delivery_20210920125400.25093534.264700@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20210920125400.25093534.264700@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20210920125400.25093534.264700@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTP id g23si56372wme.2.2021.09.20.09.56.09
+        for <khamel83@gmail.com>;
+        Mon, 20 Sep 2021 09:56:10 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20210920125400.25093534.264700@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=noreply@mail.bloombergview.com;
+ bh=bC92xdvXnTO1MiUv48nMVw7klq0=;
+ b=zxl8SY6eONIxASzLKEBHBT1rWNu4nZF2gQ4ScDC3ByUhnTS9a0JnibgOshm5caAeN4X70tb5x7a/
+   hp7ZyMEQEa47YZ4WGLcAieEdP0KsDkHfeytJxXsF/J+741PuNAmRyPBecPeC2b3eqVVw3B6PuQF9
+   L2P+w5aMfYqvog7KoMQ=
+Received: from njmta-149.sailthru.com (173.228.155.149) by bloomberg-b.sailthru.com id h92uii1qqbsi for <bloomberg@khamel.com>; Mon, 20 Sep 2021 12:56:08 -0400 (envelope-from <delivery_20210920125400.25093534.264700@mx.sailthru.com>)
+Received: from nj1-illmaroon.flt (172.18.20.34) by njmta-149.sailthru.com id h92uig1qqbsg for <bloomberg@khamel.com>; Mon, 20 Sep 2021 12:54:00 -0400 (envelope-from <delivery_20210920125400.25093534.264700@mx.sailthru.com>)
+Date: Mon, 20 Sep 2021 12:54:00 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20210920125400.25093534.264700@sailthru.com>
+Subject: =?utf-8?B?TW9uZXkgU3R1ZmY6IEludmVzdG1lbnQgQmFu?=
+ =?utf-8?B?a2luZyBJcyBDaGVhcCBJZiBZb3XigJlyZSBSaWNo?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_43754319_1226274521.1632156840042"
+Precedence: bulk
+X-Feedback-ID: 6358:25093534:campaign:sailthru
+X-TM-ID: 20210920125400.25093534.264700
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-illmaroon.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cexuam.5o8s/e3bcc168
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23cexuam.5o8s/e3bcc168>, <mailto:unsubscribe_20210920125400.25093534.264700@mx.sailthru.com>
+X-rpcampaign: stjko25093534
+
+------=_Part_43754319_1226274521.1632156840042
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Saudi banking
+   =20
+ =20
+Investment banking is a business of building long-term relationships. Your =
+job, as an investment banker, is to become close to the people who possess =
+giant piles of money, in the hopes that one day they will do giant deals wi=
+th their giant piles of money and give you some of it. If you are at the we=
+ekly meeting of an investment-banking group and everyone is going around th=
+e room talking about what they did last week, and someone says =E2=80=9CI d=
+id a billion-dollar=C2=A0merger and earned an $8=C2=A0million fee for the b=
+ank,=E2=80=9D and you say =E2=80=9CI played Settlers of Catan with Mark Zuc=
+kerberg,=E2=80=9D=C2=A0you win, because the expected value of proximity to =
+a giant pile of money is so much higher than the value of an actual fee fro=
+m a normal-sized pile of money.One result of this is that banks are always =
+happy to give freebies to the possessors of giant piles of money. =E2=80=9C=
+We=E2=80=99ll do this work for Facebook at no charge because the opportunit=
+y there is so vast and we want them to owe us one.=E2=80=9DThe possessors o=
+f giant piles of money are, often, smart. Also they got to possess all of t=
+hat money because they like hanging on to their money.One obvious result he=
+re is that if you happen to possess a giant pile of money you can get free =
+or discounted investment-banking services pretty much forever. You do a mul=
+tibillion-dollar acquisition, your banker comes to you with a bill, you loo=
+k at her in disappointment and say =E2=80=9Ca bill? I thought we were frien=
+ds,=E2=80=9D her heart skips with joy, she tears up the bill, she goes back=
+ to her bosses and says =E2=80=9Cthe giant pile of money=C2=A0thinks we=E2=
+=80=99re friends,=E2=80=9D her bosses congratulate her on her success in re=
+lationship-building, everyone is happy, and they all salivate to think abou=
+t how much money they=E2=80=99ll make on your=C2=A0next,=C2=A0really big de=
+al. And then=C2=A0you do the next, really big deal, and you repeat this pro=
+cess forever.I promise you will never stop seeing  these stories=C2=A0about=
+ Saudi Arabia:The latest crop of Saudi Arabia=E2=80=99s market newcomers is=
+ proving just as frugal when it comes to paying investment bankers.Despite =
+attracting $125 billion in orders from investors for an initial public offe=
+ring of Saudi Telecom Co.=E2=80=99s internet-services unit, banks including=
+ Morgan Stanley and HSBC Holdings Plc are set to share just about $12 milli=
+on in fees, Arabian Internet and Communications Services Co., also known as=
+ solutions by stc, said in its prospectus.=C2=A0That=E2=80=99s just 1.3% of=
+ the offering value, compared with an average of about 5% or more for IPOs =
+in the U.S. or Europe. Morgan Stanley alone had a bigger payday during UiPa=
+th Inc.=E2=80=99s $1.54 billion IPO in April, which generated a total of $6=
+7 million in fees. ...IPO riches have yet to materialize for global banks d=
+espite a bonanza of share sales this year. Wall Street heavyweights like JP=
+Morgan Chase & Co., Goldman Sachs Group Inc. and Citigroup Inc. have still =
+flocked to the kingdom, hiring teams on the ground and sending in their top=
+ executives to sway local officials in the hope of winning advisory roles.I=
+f banks are flocking to you because you have so much money, you don=E2=80=
+=99t have to give them any of it.
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Tax rules
+   =20
+ =20
+I think that a basic rule is that if you have devoted your professional lif=
+e to corporate inversions, in which U.S. companies merge with companies in =
+low-tax jurisdictions in order to reduce their tax bills, you have devoted =
+your life to=C2=A0doing=C2=A0the inversions. There=E2=80=99s money in that!=
+ A company comes to you and is like =E2=80=9Cwe=C2=A0would like to pay lowe=
+r taxes so we could have more money,=E2=80=9D and you are like =E2=80=9Clet=
+ me spend months structuring a deal to make that happen,=E2=80=9D and you d=
+o and it works, and you send the company a large bill and they cheerfully p=
+ay it. You have rendered a valuable service and gotten paid for it.It is le=
+ss likely, if you have devoted your professional life to corporate inversio=
+ns, that you have devoted your life to=C2=A0stopping=C2=A0the inversions. T=
+here is no money in that! A company comes to you and is like =E2=80=9Cwe wo=
+uld like to pay lower taxes so we could have more money,=E2=80=9D and you a=
+re like =E2=80=9Cno, that is unpatriotic, stay here,=E2=80=9D and the compa=
+ny is like =E2=80=9Chuh okay whatever=E2=80=9D and goes to someone else.[1]=
+ You have rendered no service and gotten no money, and eventually you will =
+have to find something else to do for work if you want to keep paying rent.=
+Now of course there is a possible exception, which is government service. I=
+n theory you could work for the Internal Revenue Service and have a career =
+as an inversion-fighter. But it is unlikely for simple institutional-design=
+ reasons. If the IRS decides as a policy =E2=80=9Cwe will fight every inver=
+sion,=E2=80=9D it won=E2=80=99t just go do that; it will write a=C2=A0rule=
+=C2=A0saying =E2=80=9Cinversions are illegal=E2=80=9D or whatever. And then=
+ people will stop doing them and start doing other tax structuring instead.=
+ Or more likely the IRS will write a rule saying =E2=80=9Cinversions like t=
+his are legal, and inversions like that are illegal,=E2=80=9D and professio=
+nal inversion-doers will focus on doing the legal kind of inversions and ar=
+guing that gray-area cases are more like the legal kind, and IRS employees =
+will be in the business not of=C2=A0fighting inversions=C2=A0but of=C2=A0ev=
+aluating which close calls are okay. And they will approve some and fight o=
+thers and maybe take an overall=C2=A0skeptical view but not be knee-jerk in=
+version fighters.Also they won=E2=80=99t have that much work, because most =
+of what the professional inversion-doers do will be clearly legal inversion=
+s rather than borderline cases, so the IRS won=E2=80=99t employ that many i=
+nversion-examiners relative to the absolutely booming private-sector profes=
+sional field of inversion-doers. The IRS inversion-examiners will be genera=
+lists who do inversion examining as one part of a larger portfolio of respo=
+nsibilities, or they will be inversion specialists but there will be like t=
+wo of them.Also of course the IRS will pay less than the private sector but=
+ that=E2=80=99s not the main point. The main point is that doing creative c=
+omplicated things to minimize the taxes that companies pay is a big industr=
+y because it generates a lot of money (in reduced taxes), but doing creativ=
+e complicated things to maximize the taxes that companies pay is=C2=A0not a=
+ big industry with a lot of specialists.And so if you are the IRS and you w=
+ant to write some new rules about corporate inversions and you think to you=
+rself =E2=80=9Cwe need to hire the world=E2=80=99s 10 leading experts in co=
+rporate inversions,=E2=80=9D every single one of them will have built a pri=
+vate-sector career helping corporations do inversions, and every single one=
+ of them, after a few years of government service, will go back to a privat=
+e-sector career helping corporations do inversions,=C2=A0and when you ask t=
+hem =E2=80=9Cwhat rules should we write about inversions=E2=80=9D they will=
+ say =E2=80=9Cyou should write very=C2=A0complicated=C2=A0rules about inver=
+sions, because that will increase the value of my advice, but also you shou=
+ld definitely write rules that=C2=A0allow lots of inversions, because that =
+will also=C2=A0increase the value of my advice.=E2=80=9D No, no. They will =
+be much less cynical than that; they are good people who have, in a burst o=
+f public-spiritedness, accepted a job at the IRS writing new rules. But the=
+y have spent their lives doing inversions, and their natural tendency will =
+be to=C2=A0like inversions and prefer rules that allow for lots of them.Any=
+way here=E2=80=99s a New York Times story about the revolving door for tax =
+lawyers at big accounting firms who work on various corporate tax issues, g=
+o to the IRS for a few years to write industry-favorable rules on those iss=
+ues, and then go back to the accounting firms to keep working on those issu=
+es with the new more favorable rules. How could it be otherwise?Few dispute=
+ that the Treasury Department and the I.R.S. must rely in part on lawyers f=
+rom the private sector to understand the real-world effects of the tax code=
+ and how companies and wealthy individuals try to navigate around it.=E2=80=
+=9CIf you want to know where the bodies are buried, you=E2=80=99ve got to g=
+et some of those people,=E2=80=9D said Chye-Ching Huang, the head of the Ta=
+x Law Center at New York University=E2=80=99s law school.Yes, right, if you=
+ want to craft smart careful corporate tax regulations,[2] you need people =
+who have worked in corporate tax, and the reality is that anyone who has wo=
+rked in corporate tax has only worked in minimizing it.
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Debt-for-nature swap
+   =20
+ =20
+Sometimes countries borrow a lot of money from investors in other, richer c=
+ountries, and then they cannot pay back the money, and they go to the credi=
+tors and ask to restructure their debt. Typically the restructuring request=
+ is along the lines of =E2=80=9Cinstead of paying you back 100 cents on the=
+ dollar this year what if we paid you back 70 cents on the dollar in 10 yea=
+rs,=E2=80=9D or whatever, and the creditors grumble and negotiate and some =
+deal is or isn=E2=80=99t reached.These things are always a bit more ad hoc =
+and negotiated than, say, a corporate bankruptcy, because unlike in a corpo=
+rate bankruptcy the creditors mostly can=E2=80=99t foreclose on the country=
+. There is no international super-court that would let the creditors come i=
+n and seize all of the country=E2=80=99s airplanes or tanks or government o=
+ffices or attractive tourist beaches or whatever, though a hedge fund did o=
+nce famously seize an Argentine navy ship over unpaid debt.=C2=A0But in pri=
+nciple I suppose a country could say =E2=80=9Chey we=E2=80=99re a little sh=
+ort on cash but would you take a few miles of beach as repayment?=E2=80=9D =
+It doesn=E2=80=99t happen much, I suppose mostly because it is not great do=
+mestic politics to be like =E2=80=9Csorry we don=E2=80=99t have any beaches=
+ anymore, we gave them to bondholders.=E2=80=9D Anyway here=E2=80=99s a sto=
+ry about Belize handing over some coral reefs to its creditors:Belize is in=
+ching towards a deal with international bondholders after admitting it cann=
+ot afford to pay back its debt, and counting on an unusual asset to help: i=
+ts coral reefs.No, actually, I=E2=80=99m kidding, it=E2=80=99s more interes=
+ting than that:Earlier this month the Caribbean nation, with its tourism-he=
+avy economy ravaged by the pandemic, agreed to buy back its only internatio=
+nal bond from investors at a huge discount, using cash lent by the Nature C=
+onservancy, a US-based environmental group. As part of the deal, Belize wil=
+l pre-fund a $23.4m endowment to support marine conservation projects on it=
+s coastline, home to the world=E2=80=99s second-largest barrier reef.Some m=
+ore investors still need to agree to the scale of the buyback discount befo=
+re the deal is done. But if Belize can achieve the approval it needs on thi=
+s $530m bond, the country could secure the first green-tinged debt restruct=
+uring, capitalising on the hunger among big fund managers to demonstrate th=
+eir commitment to environmental, social and governance-driven investing.Inv=
+estors and advisers say the agreement could serve as a template for future =
+restructuring talks, in which cash-strapped nations use the promise of envi=
+ronmental conservation to drive a harder bargain =E2=80=94 in effect creati=
+ng a mechanism for investors in rich countries to pay poorer nations to pro=
+tect the natural world.=E2=80=9CWe live in a world where many institutional=
+ investors profess ESG sensibilities,=E2=80=9D said Lee Buchheit, the veter=
+an sovereign debt restructuring lawyer who is advising the Belizean governm=
+ent. =E2=80=9CIn any restructuring things always get tight when you get dow=
+n to the last few pennies. We were hoping the environmental aspect would sw=
+eeten the transaction.=E2=80=9DI suppose one way to read this story is that=
+ creditors want money from Belize, and Belize=C2=A0is like =E2=80=9Chmm, ni=
+ce coral reefs we=E2=80=99ve got here, would be a shame if anyone were to d=
+estroy them due to lack of international funding,=E2=80=9D and the creditor=
+s were like =E2=80=9Cfine fine fine we will take less money if you promise =
+to leave the coral reefs alone.=E2=80=9D Another way to read the story is a=
+s =E2=80=9CBelize is handing over some coral reefs to its creditors,=E2=80=
+=9D but those creditors are interested in burnishing their environmental, s=
+ocial and governance (ESG) credentials, so they will leave the coral reefs =
+alone.But probably the best reading is Buchheit=E2=80=99s. Investors ascrib=
+e some value to ESG: Green bonds have a =E2=80=9C greenium=E2=80=9D (invest=
+ors accept lower returns to fund more environmentally friendly projects), E=
+SG loans  charge lower interest if the borrower meets environmental targets=
+, etc. Similarly here if you are a country that has run out of money you ca=
+n go to creditors and say =E2=80=9Cwe=E2=80=99ll pay you 60 cents on the do=
+llar,=E2=80=9D they might say no, but if you say =E2=80=9Cwe=E2=80=99ll pay=
+ you 55 cents on the dollar and also mutter an ESG incantation,=E2=80=9D th=
+ey will say yes, because that ESG incantation has value to them:A group of =
+investors led by GMO, Abrdn and Greylock Capital, representing half of the =
+bondholders, has already given the scheme its blessing. Carlos de Sousa, a =
+portfolio manager at Vontobel Asset Management =E2=80=94 a member of this g=
+roup holding about 10 per cent of the bond =E2=80=94 said the proposal chim=
+es with his company=E2=80=99s focus on ESG.=E2=80=9CEven though 55 is not t=
+he most amazing recovery value, we like the deal,=E2=80=9D he said, adding =
+that investors had got more of their money back in previous restructurings.=
+ =E2=80=9CTo think that we are contributing to saving the second-biggest co=
+ral reef in the world is certainly a positive. It makes you somewhat less i=
+nclined to push for 60.=E2=80=9DI gather that, here, there is some money go=
+ing into active conservation efforts, but you could imagine using this temp=
+late without that. A country runs out of money, it says =E2=80=9Cwell we ha=
+ve a bunch of trees, if you let us haircut our debt we won=E2=80=99t chop d=
+own all the trees,=E2=80=9D and the creditors say yes. The creditors get va=
+luable ESG points, the country gets money, and the trees, well, who can say=
+ whether they would have been cut down without the deal.
+ =20
+   =20
+      Will the index funds save us?
+   =20
+ =20
+An argument that I have, like, one-quarter-jokingly made a lot=C2=A0around =
+here=C2=A0over the last couple of years is that, as all the=C2=A0stocks are=
+ increasingly owned by the same handful of giant diversified index=C2=A0and=
+ quasi-index investors, those giant investors will think of themselves less=
+ as owners of particular companies and more as owners of=C2=A0the economy. =
+To the extent that they think at all about their portfolio companies=E2=80=
+=99 business decisions, they will not ask questions like =E2=80=9Cdoes this=
+ decision maximize this company=E2=80=99s profits=E2=80=9D but rather =E2=
+=80=9Cis this decision good for the world,=E2=80=9D because they=C2=A0own t=
+he world.Of course they don=E2=80=99t own=C2=A0the world; they own a large =
+sample of the=C2=A0equity in the=C2=A0world=E2=80=99s=C2=A0public companies=
+. The thesis here is not, like, =E2=80=9CBlackRock Inc. are our benevolent =
+overlords and will make decisions for the good of society.=E2=80=9D If ther=
+e=E2=80=99s some decision that is in the long-term interests of corporate s=
+hareholders, as a class, but bad for corporate employees, as a class, then =
+presumably BlackRock will prefer that shareholders win. But they really are=
+ diversified and long-term holders, and in the long run the interests of sh=
+areholders are=C2=A0pretty=C2=A0good. Like you want=C2=A0a booming global e=
+conomy, rising productivity,=C2=A0increasing wealth and consumption, stable=
+ governments, the rule of law, minimal extreme weather events and pandemics=
+, etc.; the overlap between =E2=80=9Cgood stuff for the world=E2=80=9D and =
+=E2=80=9Cgood stuff for public-company shareholders=E2=80=9D is not=C2=A0pe=
+rfect=C2=A0but it is=C2=A0large.We have talked a lot about two particular a=
+pplications of this. One is  Covid-19 vaccines: If you are BlackRock, and o=
+ne of your portfolio companies develops a Covid-19 vaccine and is like =E2=
+=80=9Cwe would like to roll this out slowly and charge a lot to maximize pr=
+ofits,=E2=80=9D you probably say =E2=80=9Cabsolutely not you give that away=
+ free to anyone who wants it and license it to anyone who wants to manufact=
+ure it,=E2=80=9D because the profits of one drug company matter to you so m=
+uch less than reopening the economy generally.=C2=A0The other is climate ch=
+ange. If you own all the companies, and the seas rise and wash away all the=
+ companies, you will lose a lot of money. If all of your money is in oil co=
+mpanies you might say, well, sure, seas rising is bad, but I rely on these =
+dividends so let=E2=80=99s sell as much oil as we can for as long as we can=
+. But if you are a diversified owner of=C2=A0the world=E2=80=99s economy, y=
+ou have to take a broader view. And so BlackRock is constantly  talking abo=
+ut climate change, and explicitly arguing that it cares because of its econ=
+omic=C2=A0interests as a long-term diversified shareholder.I think that thi=
+s stuff is interesting but=C2=A0you can definitely be a skeptic. Roberto Ta=
+llarita of Harvard Law School is a skeptic; here is his recent paper on =E2=
+=80=9CPortfolio Primacy and Climate Change=E2=80=9D:Climate change is a qui=
+ntessential market failure. Individual companies do not have economic incen=
+tives to reduce their carbon emissions and therefore produce more emissions=
+ than is socially desirable. However, according to a theory that is gaining=
+ increasing support among academics and market players, large asset manager=
+s (and, in particular, index fund managers) can become =E2=80=9Cclimate ste=
+wards=E2=80=9D and force companies to reduce their impact on climate change=
+. This view is based on the premise that index fund portfolios mirror the e=
+ntire economy and, therefore, internalize climate risk. According to this t=
+heory, by maximizing the value of their entire portfolio (portfolio primacy=
+) rather than the value of the individual company (shareholder primacy), in=
+dex fund managers have strong economic incentives to steer companies toward=
+s decarbonization.This Article offers the first systematic critique of this=
+ theory. First, it demonstrates that the composition of investment portfoli=
+os can distort the incentives of index funds with respect to climate risk. =
+In particular, it shows that index funds=E2=80=99 incentives are strongly a=
+ligned with the interests of carbon emitters, rich countries, and large com=
+panies, but weakly aligned with the interests of firms and countries that a=
+re more vulnerable to climate change.Second, it shows that the stock market=
+ is a highly imperfect mechanism to address climate risk: stock prices do n=
+ot accurately reflect future climate damages; private investors discount th=
+e distant future at a higher rate than the correct social discount rate; an=
+d public companies represent a limited (and increasingly smaller) portion o=
+f the economy. Therefore, index funds inevitably underestimate the costs of=
+ climate change and the benefits of mitigation measures.Third, it examines =
+the agency problems and fiduciary conflicts of index fund managers, and it =
+argues that even if index fund portfolios benefitted from climate stewardsh=
+ip, fund managers would have very weak incentives to take on such a role.I =
+do think that a relevant question here is =E2=80=9Ccompared to what?=E2=80=
+=9D I think that a lot of these arguments had their origin in comparing lar=
+ge index investors to=C2=A0smaller less diversified investors.=C2=A0Compare=
+d to a concentrated active equity investor, a big index investor is going t=
+o care=C2=A0more=C2=A0about curing societal ills, because it necessarily ca=
+res=C2=A0less=C2=A0about squeezing out operational efficiencies or  competi=
+ng on price or other company-specific things; the only=C2=A0way for it to f=
+undamentally improve returns is to improve market-wide outcomes.[3]But Tall=
+arita=E2=80=99s point is that index funds will care=C2=A0less=C2=A0about cl=
+imate change than, you know, the median human on earth,[4]=C2=A0and so (som=
+ewhat idealized) democratic processes are probably a better way to address =
+the problem than leaving it to BlackRock. =E2=80=9CIf policymakers want to =
+use corporate governance as a tool to fight climate change, they should cha=
+nge the incentives of individual companies rather than trust the portfolio =
+incentives of index funds,=E2=80=9D he writes.=C2=A0But if policy makers=C2=
+=A0don=E2=80=99t=C2=A0want to fight climate change then BlackRock will prob=
+ably do something anyway.
+ =20
+   =20
+      Spreading comps
+   =20
+ =20
+A good empirical question in academic finance is: When investment bankers w=
+ork for the target in a merger, do they try to get a=C2=A0high price=C2=A0o=
+r a=C2=A0low price?=C2=A0The obvious answer is =E2=80=9Chigh price=E2=80=9D=
+: The bankers work for the target, they are negotiating against the acquire=
+r, and the higher the price they get the more they have won. They are repea=
+t players in this business,=C2=A0and when they go pitch=C2=A0other=C2=A0com=
+panies to represent them in mergers, they will want to show their negotiati=
+ng credentials by pointing to all the times they negotiated high prices.But=
+ there is a good contrarian argument for =E2=80=9Clow price.=E2=80=9D For o=
+ne thing there are conflicts of interest: A banker who represents a target =
+in one deal might represent an acquirer in the next, and big acquirers prov=
+ide more repeat business than targets do; if you give a private equity acqu=
+irer a good deal today they might hire you tomorrow. Also, though, if you a=
+re a sell-side M&A banker, your main economic incentive is to=C2=A0get a de=
+al done:=C2=A0You get paid=C2=A0more=C2=A0for getting a deal done at a high=
+er price (generally), but you get paid=C2=A0nothing if there=E2=80=99s no d=
+eal. So your job is not just to try to extract the highest possible price o=
+ut of the acquirer; it is also to get your own client comfortable with a lo=
+wer price, because your main goal is to make a deal happen at=C2=A0some=C2=
+=A0price.=C2=A0Anyway here is a paper titled=C2=A0=E2=80=9CPeer Selection a=
+nd Valuation in Mergers and Acquisitions,=E2=80=9D by Gregory Eaton, Feng G=
+uo, Tingting Liu and Micah Officer, on a related question:Using unique data=
+, this paper examines investment banks=E2=80=99 choice of peers in comparab=
+le companies analysis in mergers and acquisitions. We find strong evidence =
+that product market space is amongst the most important factors in peer sel=
+ection, but we provide evidence indicating that Standard Industrial Classif=
+ication (SIC) codes, particularly three- and four-digit codes, do a poor jo=
+b of categorizing related firms in this setting. Banks strategically select=
+ large, high growth peers with high valuation multiples, factors that are a=
+lso positively related to premiums. Our evidence is consistent with target-=
+firm advisors selecting peers with high valuation multiples to negotiate hi=
+gher takeover prices.How much is a company worth? Well, loosely speaking, i=
+t is worth (1) its annual earnings before interest, taxes, depreciation and=
+ amortization=C2=A0times=C2=A0(2) the median enterprise-value-to-Ebitda rat=
+io of its peers.[5] So the way to value a company is to=C2=A0pick a list of=
+ peers. If you pick a list of companies with high EV/Ebitda ratios as =E2=
+=80=9Cpeers,=E2=80=9D you will get a high valuation; if you pick a list of =
+companies with low multiples, you will get a low valuation:That selection p=
+rocess is almost surely driven by the target=E2=80=99s principal advisor in=
+ the M&A transaction, which is typically an investment bank or advisory fir=
+m. The true incentives driving investment bankers=E2=80=99 peer selection a=
+re, of course, unobservable. However, in this paper we examine whether the =
+characteristics of peer firms chosen by target firms=E2=80=99 investment ba=
+nks suggest that banks choose peers to aid in the negotiation of a higher o=
+ffer price for target firm shareholders, or, conversely, choose peers that =
+help with the completion of a proposed deal. The latter of which enables th=
+e bank to collect their advisory fees, a large fraction of which are typica=
+lly conditional on deal completion. ...The incentive to select peers in suc=
+h a way that helps the target in negotiation with a prospective bidder woul=
+d imply that the target=E2=80=99s investment bank chooses peers that, all e=
+lse equal, have higher valuation multiples, which make the perceived value =
+of the target firm appear higher. Conversely, the incentive to select peers=
+ in a way that helps with the closing of a transaction (and the bank=E2=80=
+=99s collection of its advisory fees) would imply that the investment bank =
+chooses peers that, all else equal, have lower valuation multiples. This wo=
+uld make the bidder=E2=80=99s offer appear more generous to target sharehol=
+ders, increasing the probability that they accept the offer. Because the in=
+vestment bank advising the target firm in the transaction has significant d=
+iscretion in the choice of peers,=C2=A0which of the incentive effects domin=
+ates is an empirical question and is the main focus of our study.I actually=
+ think that, if you=E2=80=99ve met investment bankers, it=E2=80=99s fairly =
+clear that the =E2=80=9Chigh price=E2=80=9D incentives would dominate and t=
+hat sell-side bankers would pick high-valuation peers, and that is in fact =
+the result the authors get. (If you=E2=80=99re a banker you tend to view yo=
+urself as a master negotiator and put your effort into squeezing out a high=
+er price; later, when you write the fairness opinion, you=E2=80=99ll regret=
+ all your bluster about how valuable the company is, but that regret is not=
+ going to change your behavior.) Also though bankers in management buyouts =
+=E2=80=94=C2=A0where the target management is also the buyer =E2=80=94=C2=
+=A0are more conflicted and might choose lower multiples:We examine some add=
+itional incentive effects in the peer selection process. Specifically,=C2=
+=A0we examine whether the results described above also hold in a sample of =
+management buyout deals. Management buyouts present a setting where concern=
+s about agency problems are particularly germane because the target firm=E2=
+=80=99s managers have the incentive to purchase their firm from shareholder=
+s at the lowest possible price. Our results in this subsample suggest that =
+peers selected in buyout deals tend to have lower valuation ratios and weak=
+er operating performance. However, these results weaken once we control for=
+ bidder characteristics. Thus, although we are=C2=A0not able to reach a def=
+initive conclusion, we provide some evidence that investment banks may stra=
+tegically select low-value peers to justify the lower premiums offered in b=
+uyout deals.A further possibility is that bankers use high-value peers when=
+ negotiating the deal, and then low-value peers when writing the fairness o=
+pinion to try to get the deal approved,=C2=A0but that seems a bit unsportin=
+g.
+ =20
+   =20
+      Things happen
+   =20
+ =20
+Evergrande Moment of Truth Arrives With  Bond Payment Deadlines. How Beijin=
+g=E2=80=99s Debt Clampdown Shook the Foundation of a Real-Estate Colossus. =
+China  Defends Tech Crackdown in Meeting With Wall Street Chiefs.=C2=A0Susp=
+icious trades were made before Goldman=E2=80=99s $2.2 billion acquisition o=
+f GreenSky, options experts say. Kyrgyzstan Blocked From London Gold Tradin=
+g Over Missing Bars. Credit Suisse charges investors to prop up Greensill C=
+apital. Realtors Face Federal Scrutiny of Broker Commissions.=C2=A0What the=
+ Solana Blackout Reveals About the  Fragility of Crypto. SoftBank partner t=
+ook investor meeting barefoot and smoking, says Monzo founder.=C2=A0Murdoch=
+ set up TV station because he =E2=80=98wanted something to watch.=E2=80=99I=
+f you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right i=
+n your inbox, please=C2=A0subscribe at this link. Or you can subscribe to M=
+oney Stuff and other great Bloomberg newsletters here. Thanks![1] There wil=
+l be *occasional* weird cases where a company is like =E2=80=9Cwe want our =
+competitor to pay higher taxes=E2=80=9D and hires someone to fight their in=
+version, but realistically they=E2=80=99re going to hire a professional inv=
+ersion-doer to do that, not a professional inversion-fighter, because the l=
+atter category does not really exist.[2] The other professional category of=
+ people who might make a career out of fighting to raise corporate taxes is=
+ of course *politicians*. But realistically they are going to be less speci=
+alized than professional corporate-tax-reducers are, so they will just not =
+have the same level of expertise. The Times describes a couple of tax provi=
+sions as =E2=80=9Chastily passed and sloppily written,=E2=80=9D and explain=
+s that a former PwC official who had moved to Treasury now had =E2=80=9Cto =
+figure out how to put those new taxes into effect.=E2=80=9D Being an expert=
+, he presumably put them into effect in a more careful, measured and profes=
+sional way than the hastily-written legislation, but also obviously in a wa=
+y that was more favorable to companies.[3] I say =E2=80=9Ca big index inves=
+tor,=E2=80=9D but as Tallarita points out there are some important agency/i=
+ncentive problems for index-*fund* managers, who get paid like a couple of =
+basis points to track an index and arguably have no incentives to do *anyth=
+ing* to improve performance. Still in the long run it is probably somewhat =
+useful for BlackRock to be able to tell its investors, like, =E2=80=9Cindex=
+ investing with us produces good returns and we try to improve those return=
+s.=E2=80=9D[4] More strictly, =E2=80=9Cindex funds will have less *incentiv=
+e* to care about climate change than the median human on earth=E2=80=9D; in=
+ actual fact the median human is probably not paying attention.[5]=C2=A0I e=
+njoyed this Morgan Stanley research note from last month, by Michael Maubou=
+ssin and Dan Callahan, arguing that =E2=80=9CEverything Is a DCF Model,=E2=
+=80=9D that discounted cash flow valuation is the underpinning of all valua=
+tion, and that more investors should spend more time doing DCF models. But =
+they do admit that in practice valuation is mostly done by multiples: =E2=
+=80=9CHowever, a recent survey of professional equity analysts found that =
+=E2=80=98market multiples=E2=80=99 were =E2=80=98[b]y far the most popular =
+approach to valuation=E2=80=99 among nearly 2,000 respondents.=C2=A0Specifi=
+cally, these analysts said that when valuing companies they used price-earn=
+ings multiples 88 percent of the time and enterprise value-to-earnings befo=
+re interest, taxes, depreciation, and amortization (EBITDA) multiples 77 pe=
+rcent of the time.=E2=80=9D I suspect that if you asked people in the M&A b=
+usiness (as opposed to the public investing business) you=E2=80=99d get mor=
+e votes for EV/Ebitda and fewer for P/E. But nothing turns on this and you =
+can substitute P/E =E2=80=94=C2=A0or some other multiple =E2=80=94 for EV/E=
+bitda in the text.
+       =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like Money Stuff?=C2=A0|=C2=A0
+Get=C2=A0unlimited access to Bloomberg.com, where you'll find trusted, data=
+-based journalism in 120 countries around the world and expert analysis fro=
+m exclusive daily newsletters.
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+ =20
+   =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+ =20
+
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cexuam.5o8s/b39e35a7.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_43754319_1226274521.1632156840042
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25093534.264700/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg3NyZsaT0yNTA5MzUzNCZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzNTgyMzQmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cB7c15bb39" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825877&amp;li=3D25093534&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25358234&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 5px;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25093534.264700/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZQ/607f07ceef4b8524a319a23cBe7afe933"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25093534.264700/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0yNTA5MzUzNCZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzNTgyMzQmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cCb14cedbf" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D25093534&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25358234&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"108" style=3D"width: 108px !important; display:block" =
+/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Saudi banking</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Investment banking is a business of bu=
+ilding long-term relationships. Your job, as an investment banker, is to be=
+come close to the people who possess giant piles of money, in the hopes tha=
+t one day they will do giant deals with their giant piles of money and give=
+ you some of it. If you are at the weekly meeting of an investment-banking =
+group and everyone is going around the room talking about what they did las=
+t week, and someone says =E2=80=9CI did a billion-dollar=C2=A0merger and ea=
+rned an $8=C2=A0million fee for the bank,=E2=80=9D and you say =E2=80=9CI p=
+layed Settlers of Catan with Mark Zuckerberg,=E2=80=9D=C2=A0<em>you win</em=
+>, because the expected value of proximity to a giant pile of money is so m=
+uch higher than the value of an actual fee from a normal-sized pile of mone=
+y.</p><p style=3D"margin: 16px 0;">One result of this is that banks are alw=
+ays happy to give freebies to the possessors of giant piles of money. =E2=
+=80=9CWe=E2=80=99ll do this work for Facebook at no charge because the oppo=
+rtunity there is so vast and we want them to owe us one.=E2=80=9D</p><p sty=
+le=3D"margin: 16px 0;">The possessors of giant piles of money are, often, s=
+mart. Also they got to possess all of that money because they like hanging =
+on to their money.</p><p style=3D"margin: 16px 0;">One obvious result here =
+is that if you happen to possess a giant pile of money you can get free or =
+discounted investment-banking services pretty much forever. You do a multib=
+illion-dollar acquisition, your banker comes to you with a bill, you look a=
+t her in disappointment and say =E2=80=9Ca bill? I thought we were friends,=
+=E2=80=9D her heart skips with joy, she tears up the bill, she goes back to=
+ her bosses and says =E2=80=9Cthe giant pile of money=C2=A0<em>thinks we=E2=
+=80=99re friends</em>,=E2=80=9D her bosses congratulate her on her success =
+in relationship-building, everyone is happy, and they all salivate to think=
+ about how much money they=E2=80=99ll make on your=C2=A0next,=C2=A0<em>real=
+ly </em>big deal. And then=C2=A0you do the next, really big deal, and you r=
+epeat this process forever.</p><p style=3D"margin: 16px 0;">I promise you w=
+ill never stop seeing <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/25093534.264700/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzI=
+wMjEtMDktMjAvd2FsbC1zdHJlZXQtZmxvY2tlZC10by1zYXVkaS1hcmFiaWEtYnV0LXN0aWxsLW=
+F3YWl0cy1mZWUtcmljaGVz/607f07ceef4b8524a319a23cB496d5993" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> these stories=C2=A0about S=
+audi Arabia</a>:</p><blockquote><p style=3D"margin: 16px 0;">The latest cro=
+p of Saudi Arabia=E2=80=99s market newcomers is proving just as frugal when=
+ it comes to paying investment bankers.</p><p style=3D"margin: 16px 0;">Des=
+pite attracting $125 billion in orders from investors for an initial public=
+ offering of Saudi Telecom Co.=E2=80=99s internet-services unit, banks incl=
+uding Morgan Stanley and HSBC Holdings Plc are set to share just about $12 =
+million in fees, Arabian Internet and Communications Services Co., also kno=
+wn as solutions by stc, said in its prospectus.=C2=A0</p><p style=3D"margin=
+: 16px 0;">That=E2=80=99s just 1.3% of the offering value, compared with an=
+ average of about 5% or more for IPOs in the U.S. or Europe. Morgan Stanley=
+ alone had a bigger payday during UiPath Inc.=E2=80=99s $1.54 billion IPO i=
+n April, which generated a total of $67 million in fees. ...</p><p style=3D=
+"margin: 16px 0;">IPO riches have yet to materialize for global banks despi=
+te a bonanza of share sales this year. Wall Street heavyweights like JPMorg=
+an Chase &amp; Co., Goldman Sachs Group Inc. and Citigroup Inc. have still =
+flocked to the kingdom, hiring teams on the ground and sending in their top=
+ executives to sway local officials in the hope of winning advisory roles.<=
+/p></blockquote><p style=3D"margin: 16px 0;">If banks are flocking to you b=
+ecause you have so much money, you don=E2=80=99t have to give them any of i=
+t.</p><table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadd=
+ing=3D"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25093534.264700/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTA5MzUzNCZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzNTgyMzQmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cDf47153b6" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25093534&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25358234&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25093534.264700/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkyOSZsaT0yNTA5MzUzNCZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzNTgyMzQmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cEf47153b6" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825929&amp;li=3D25093534&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25358234&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25093534.264700/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTA5MzUzNCZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzNTgyMzQmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cF4a8c9951" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25093534&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25358234&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550" width=3D"550" border=3D"0" s=
+tyle=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"" cla=
+ss=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25093534.264700/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTkzMyZsaT0yNTA5MzUzNCZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzNTgyMzQmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cG4a8c9951" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825933&amp;li=3D25093534&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25358234&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550" width=3D"100%" border=3D"0" s=
+tyle=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Tax rules</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">I think that a basic rule is that if y=
+ou have devoted your professional life to corporate inversions, in which U.=
+S. companies merge with companies in low-tax jurisdictions in order to redu=
+ce their tax bills, you have devoted your life to=C2=A0<em>doing=C2=A0</em>=
+the inversions. There=E2=80=99s money in that! A company comes to you and i=
+s like =E2=80=9Cwe=C2=A0would like to pay lower taxes so we could have more=
+ money,=E2=80=9D and you are like =E2=80=9Clet me spend months structuring =
+a deal to make that happen,=E2=80=9D and you do and it works, and you send =
+the company a large bill and they cheerfully pay it. You have rendered a va=
+luable service and gotten paid for it.</p><p style=3D"margin: 16px 0;">It i=
+s less likely, if you have devoted your professional life to corporate inve=
+rsions, that you have devoted your life to=C2=A0<em>stopping=C2=A0</em>the =
+inversions. There is no money in that! A company comes to you and is like =
+=E2=80=9Cwe would like to pay lower taxes so we could have more money,=E2=
+=80=9D and you are like =E2=80=9Cno, that is unpatriotic, stay here,=E2=80=
+=9D and the company is like =E2=80=9Chuh okay whatever=E2=80=9D and goes to=
+ someone else.[1] You have rendered no service and gotten no money, and eve=
+ntually you will have to find something else to do for work if you want to =
+keep paying rent.</p><p style=3D"margin: 16px 0;">Now of course there is a =
+possible exception, which is government service. In theory you could work f=
+or the Internal Revenue Service and have a career as an inversion-fighter. =
+But it is unlikely for simple institutional-design reasons. If the IRS deci=
+des as a policy =E2=80=9Cwe will fight every inversion,=E2=80=9D it won=E2=
+=80=99t just go do that; it will write a=C2=A0<em>rule=C2=A0</em>saying =E2=
+=80=9Cinversions are illegal=E2=80=9D or whatever. And then people will sto=
+p doing them and start doing other tax structuring instead. Or more likely =
+the IRS will write a rule saying =E2=80=9Cinversions like <em>this </em>are=
+ legal, and inversions like <em>that </em>are illegal,=E2=80=9D and profess=
+ional inversion-doers will focus on doing the legal kind of inversions and =
+arguing that gray-area cases are more like the legal kind, and IRS employee=
+s will be in the business not of=C2=A0<em>fighting inversions=C2=A0</em>but=
+ of=C2=A0<em>evaluating which close calls are okay</em>. And they will appr=
+ove some and fight others and maybe take an overall=C2=A0skeptical view but=
+ not be knee-jerk inversion fighters.</p><p style=3D"margin: 16px 0;">Also =
+they won=E2=80=99t have that much <em>work</em>, because most of what the p=
+rofessional inversion-doers do will be clearly legal inversions rather than=
+ borderline cases, so the IRS won=E2=80=99t employ that many inversion-exam=
+iners relative to the absolutely booming private-sector professional field =
+of inversion-doers. The IRS inversion-examiners will be generalists who do =
+inversion examining as one part of a larger portfolio of responsibilities, =
+or they will be inversion specialists but there will be like two of them.</=
+p><p style=3D"margin: 16px 0;">Also of course the IRS will pay less than th=
+e private sector but that=E2=80=99s not the main point. The main point is t=
+hat doing creative complicated things to minimize the taxes that companies =
+pay is a big industry because it generates a lot of money (in reduced taxes=
+), but doing creative complicated things to <em>maximize </em>the taxes tha=
+t companies pay is=C2=A0<em>not </em>a big industry with a lot of specialis=
+ts.</p><p style=3D"margin: 16px 0;">And so if you are the IRS and you want =
+to write some new rules about corporate inversions and you think to yoursel=
+f =E2=80=9Cwe need to hire the world=E2=80=99s 10 leading experts in corpor=
+ate inversions,=E2=80=9D every single one of them will have built a private=
+-sector career helping corporations do inversions, and every single one of =
+them, after a few years of government service, will go back to a private-se=
+ctor career helping corporations do inversions,=C2=A0and when you ask them =
+=E2=80=9Cwhat rules should we write about inversions=E2=80=9D they will say=
+ =E2=80=9Cyou should write very=C2=A0<em>complicated=C2=A0</em>rules about =
+inversions, because that will increase the value of my advice, but also you=
+ should definitely write rules that=C2=A0<em>allow lots of inversions</em>,=
+ because that will also=C2=A0increase the value of my advice.=E2=80=9D No, =
+no. They will be much less cynical than that; they are good people who have=
+, in a burst of public-spiritedness, accepted a job at the IRS writing new =
+rules. But they have spent their lives doing inversions, and their natural =
+tendency will be to=C2=A0<em>like inversions</em> and prefer rules that all=
+ow for lots of them.</p><p style=3D"margin: 16px 0;">Anyway <a href=3D"http=
+s://link.mail.bloombergbusiness.com/click/25093534.264700/aHR0cHM6Ly93d3cub=
+nl0aW1lcy5jb20vMjAyMS8wOS8xOS9idXNpbmVzcy9hY2NvdW50aW5nLWZpcm1zLXRheC1sb29w=
+aG9sZXMtZ292ZXJubWVudC5odG1s/607f07ceef4b8524a319a23cBb0b465d4" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: solid; background-color: #ccc;">here=E2=80=99s a New =
+York Times story</a> about the revolving door for tax lawyers at big accoun=
+ting firms who work on various corporate tax issues, go to the IRS for a fe=
+w years to write industry-favorable rules on those issues, and then go back=
+ to the accounting firms to keep working on those issues with the new more =
+favorable rules. How could it be otherwise?</p><blockquote><p style=3D"marg=
+in: 16px 0;">Few dispute that the Treasury Department and the I.R.S. must r=
+ely in part on lawyers from the private sector to understand the real-world=
+ effects of the tax code and how companies and wealthy individuals try to n=
+avigate around it.</p><p style=3D"margin: 16px 0;">=E2=80=9CIf you want to =
+know where the bodies are buried, you=E2=80=99ve got to get some of those p=
+eople,=E2=80=9D said Chye-Ching Huang, the head of the Tax Law Center at Ne=
+w York University=E2=80=99s law school.</p></blockquote><p style=3D"margin:=
+ 16px 0;">Yes, right, if you want to craft smart careful corporate tax regu=
+lations,[2] you need people who have worked in corporate tax, and the reali=
+ty is that anyone who has worked in corporate tax has only worked in minimi=
+zing it.</p><table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25093534.264700/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4NSZsaT0yNTA5MzUzNCZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzNTgyMzQmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cHcf1e5049" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825885&amp;li=3D25093534&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25358234&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Debt-for-nature swap</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Sometimes countries borrow a lot of mo=
+ney from investors in other, richer countries, and then they cannot pay bac=
+k the money, and they go to the creditors and ask to restructure their debt=
+. Typically the restructuring request is along the lines of =E2=80=9Cinstea=
+d of paying you back 100 cents on the dollar this year what if we paid you =
+back 70 cents on the dollar in 10 years,=E2=80=9D or whatever, and the cred=
+itors grumble and negotiate and some deal is or isn=E2=80=99t reached.</p><=
+p style=3D"margin: 16px 0;">These things are always a bit more ad hoc and n=
+egotiated than, say, a corporate bankruptcy, because unlike in a corporate =
+bankruptcy the creditors mostly can=E2=80=99t foreclose on the country. The=
+re is no international super-court that would let the creditors come in and=
+ seize all of the country=E2=80=99s airplanes or tanks or government office=
+s or attractive tourist beaches or whatever, though a hedge fund did once f=
+amously <a href=3D"https://link.mail.bloombergbusiness.com/click/25093534.2=
+64700/aHR0cHM6Ly93d3cuZm9yYmVzLmNvbS9zaXRlcy9hZm9udGV2ZWNjaGlhLzIwMTIvMTAvM=
+DUvdGhlLXJlYWwtc3RvcnktYmVoaW5kLXRoZS1hcmdlbnRpbmUtdmVzc2VsLWluLWdoYW5hLWFu=
+ZC1ob3ctaGVkZ2UtZnVuZHMtdHJpZWQtdG8tc2VpemUtdGhlLXByZXNpZGVudGlhbC1wbGFuZS8=
+_c2g9NDA5NjRlY2MyNWFh/607f07ceef4b8524a319a23cBb1fabee1" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: solid; background-color: #ccc;">seize an Argentine navy ship=
+</a> over unpaid debt.=C2=A0</p><p style=3D"margin: 16px 0;">But in princip=
+le I suppose a country could say =E2=80=9Chey we=E2=80=99re a little short =
+on cash but would you take a few miles of beach as repayment?=E2=80=9D It d=
+oesn=E2=80=99t happen much, I suppose mostly because it is not great domest=
+ic politics to be like =E2=80=9Csorry we don=E2=80=99t have any beaches any=
+more, we gave them to bondholders.=E2=80=9D Anyway here=E2=80=99s a story a=
+bout Belize <a href=3D"https://link.mail.bloombergbusiness.com/click/250935=
+34.264700/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMDkzZjcxMmQtNjgzOS00YmIzLWE5M=
+DEtOWMzOGYwZTBmZGE4/607f07ceef4b8524a319a23cB0e8ecd87" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">handing over some coral reefs =
+to its creditors</a>:</p><blockquote><p style=3D"margin: 16px 0;">Belize is=
+ inching towards a deal with international bondholders after admitting it c=
+annot afford to pay back its debt, and counting on an unusual asset to help=
+: its coral reefs.</p></blockquote><p style=3D"margin: 16px 0;">No, actuall=
+y, I=E2=80=99m kidding, it=E2=80=99s more interesting than that:</p><blockq=
+uote><p style=3D"margin: 16px 0;">Earlier this month the Caribbean nation, =
+with its tourism-heavy economy ravaged by the pandemic, agreed to buy back =
+its only international bond from investors at a huge discount, using cash l=
+ent by the Nature Conservancy, a US-based environmental group. As part of t=
+he deal, Belize will pre-fund a $23.4m endowment to support marine conserva=
+tion projects on its coastline, home to the world=E2=80=99s second-largest =
+barrier reef.</p><p style=3D"margin: 16px 0;">Some more investors still nee=
+d to agree to the scale of the buyback discount before the deal is done. Bu=
+t if Belize can achieve the approval it needs on this $530m bond, the count=
+ry could secure the first green-tinged debt restructuring, capitalising on =
+the hunger among big fund managers to demonstrate their commitment to envir=
+onmental, social and governance-driven investing.</p><p style=3D"margin: 16=
+px 0;">Investors and advisers say the agreement could serve as a template f=
+or future restructuring talks, in which cash-strapped nations use the promi=
+se of environmental conservation to drive a harder bargain =E2=80=94 in eff=
+ect creating a mechanism for investors in rich countries to pay poorer nati=
+ons to protect the natural world.</p><p style=3D"margin: 16px 0;">=E2=80=9C=
+We live in a world where many institutional investors profess ESG sensibili=
+ties,=E2=80=9D said Lee Buchheit, the veteran sovereign debt restructuring =
+lawyer who is advising the Belizean government. =E2=80=9CIn any restructuri=
+ng things always get tight when you get down to the last few pennies. We we=
+re hoping the environmental aspect would sweeten the transaction.=E2=80=9D<=
+/p></blockquote><p style=3D"margin: 16px 0;">I suppose one way to read this=
+ story is that creditors want money from Belize, and Belize=C2=A0is like =
+=E2=80=9Chmm, nice coral reefs we=E2=80=99ve got here, would be a shame if =
+anyone were to destroy them due to lack of international funding,=E2=80=9D =
+and the creditors were like =E2=80=9Cfine fine fine we will take less money=
+ if you promise to leave the coral reefs alone.=E2=80=9D Another way to rea=
+d the story is as =E2=80=9CBelize is handing over some coral reefs to its c=
+reditors,=E2=80=9D but those creditors are interested in burnishing their e=
+nvironmental, social and governance (ESG) credentials, so they will leave t=
+he coral reefs alone.</p><p style=3D"margin: 16px 0;">But probably the best=
+ reading is Buchheit=E2=80=99s. Investors ascribe some value to ESG: Green =
+bonds have a =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/25093534.264700/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGV=
+zLzIwMjEtMDktMTAvZnVuZ2libGUtc2xpY2VzLW9mLW5vbi1mdW5naWJsZS10b2tlbnM/607f07=
+ceef4b8524a319a23cB400c8573" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> greenium</a>=E2=80=9D (investors accept lower returns t=
+o fund more environmentally friendly projects), ESG loans <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/25093534.264700/aHR0cHM6Ly93d3cuYmx=
+vb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMDktMDgvbGVuZGluZy1iaXRjb2lucy=
+1pcy10cmlja3k/607f07ceef4b8524a319a23cB0d78c136" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> charge lower interest</a> if the bo=
+rrower meets environmental targets, etc. Similarly here if you are a countr=
+y that has run out of money you can go to creditors and say =E2=80=9Cwe=E2=
+=80=99ll pay you 60 cents on the dollar,=E2=80=9D they might say no, but if=
+ you say =E2=80=9Cwe=E2=80=99ll pay you 55 cents on the dollar and also mut=
+ter an ESG incantation,=E2=80=9D they will say yes, because that ESG incant=
+ation has value to them:</p><blockquote><p style=3D"margin: 16px 0;">A grou=
+p of investors led by GMO, Abrdn and Greylock Capital, representing half of=
+ the bondholders, has already given the scheme its blessing. Carlos de Sous=
+a, a portfolio manager at Vontobel Asset Management =E2=80=94 a member of t=
+his group holding about 10 per cent of the bond =E2=80=94 said the proposal=
+ chimes with his company=E2=80=99s focus on ESG.</p><p style=3D"margin: 16p=
+x 0;">=E2=80=9CEven though 55 is not the most amazing recovery value, we li=
+ke the deal,=E2=80=9D he said, adding that investors had got more of their =
+money back in previous restructurings. =E2=80=9CTo think that we are contri=
+buting to saving the second-biggest coral reef in the world is certainly a =
+positive. It makes you somewhat less inclined to push for 60.=E2=80=9D</p><=
+/blockquote><p style=3D"margin: 16px 0;">I gather that, here, there is some=
+ money going into active conservation efforts, but you could imagine using =
+this template without that. A country runs out of money, it says =E2=80=9Cw=
+ell we have a bunch of trees, if you let us haircut our debt we won=E2=80=
+=99t chop down all the trees,=E2=80=9D and the creditors say yes. The credi=
+tors get valuable ESG points, the country gets money, and the trees, well, =
+who can say whether they would have been cut down without the deal.</p><tab=
+le class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Will the index funds save us?</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">An argument that I have, like, one-qua=
+rter-jokingly <a href=3D"https://link.mail.bloombergbusiness.com/click/2509=
+3534.264700/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3NsZXR0ZXJzLzIwMjE=
+tMDItMjQvbW9uZXktc3R1ZmYtdGhlLXZhY2NpbmUtaXMtbm90LWEtY29tcGV0aXRpb24/607f07=
+ceef4b8524a319a23cBc3affe77" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;">made</a> a <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25093534.264700/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL25ld3N=
+sZXR0ZXJzLzIwMjEtMDItMjYvbW9uZXktc3R1ZmYtc3RhcnR1cHMtc29tZXRpbWVzLXN0cmV0Y2=
+gtdGhlLXRydXRo/607f07ceef4b8524a319a23cB35216bb1" itemprop=3D"StoryLink" it=
+emscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !impor=
+tant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom=
+-style: solid; background-color: #ccc;">lot</a>=C2=A0around here=C2=A0over =
+the last couple of years is that, as all the=C2=A0stocks are increasingly o=
+wned by the same handful of giant diversified index=C2=A0and quasi-index in=
+vestors, those giant investors will think of themselves less as owners of p=
+articular companies and more as owners of=C2=A0<em>the economy</em>. To the=
+ extent that they think at all about their portfolio companies=E2=80=99 bus=
+iness decisions, they will not ask questions like =E2=80=9Cdoes this decisi=
+on maximize this company=E2=80=99s profits=E2=80=9D but rather =E2=80=9Cis =
+this decision good for the world,=E2=80=9D because they=C2=A0<em>own the wo=
+rld</em>.</p><p style=3D"margin: 16px 0;">Of course they don=E2=80=99t own=
+=C2=A0<em>the world</em>; they own a large sample of the=C2=A0<em>equity </=
+em>in the=C2=A0world=E2=80=99s=C2=A0<em>public companies</em>. The thesis h=
+ere is not, like, =E2=80=9CBlackRock Inc. are our benevolent overlords and =
+will make decisions for the good of society.=E2=80=9D If there=E2=80=99s so=
+me decision that is in the long-term interests of corporate shareholders, a=
+s a class, but bad for corporate employees, as a class, then presumably Bla=
+ckRock will prefer that shareholders win. But they really are diversified a=
+nd long-term holders, and in the long run the interests of shareholders are=
+=C2=A0<em>pretty=C2=A0</em>good. Like you want=C2=A0a booming global econom=
+y, rising productivity,=C2=A0increasing wealth and consumption, stable gove=
+rnments, the rule of law, minimal extreme weather events and pandemics, etc=
+.; the overlap between =E2=80=9Cgood stuff for the world=E2=80=9D and =E2=
+=80=9Cgood stuff for public-company shareholders=E2=80=9D is not=C2=A0<em>p=
+erfect=C2=A0</em>but it is=C2=A0<em>large</em>.</p><p style=3D"margin: 16px=
+ 0;">We have talked a lot about two particular applications of this. One is=
+ <a href=3D"https://link.mail.bloombergbusiness.com/click/25093534.264700/a=
+HR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDQtMjQvaW52=
+ZXN0b3JzLXdhbnQtYS1jdXJlLW5vdC1hLXdpbm5lcg/607f07ceef4b8524a319a23cB95946fc=
+7" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> Covid-=
+19 vaccines</a>: If you are BlackRock, and one of your portfolio companies =
+develops a Covid-19 vaccine and is like =E2=80=9Cwe would like to roll this=
+ out slowly and charge a lot to maximize profits,=E2=80=9D you probably say=
+ =E2=80=9Cabsolutely not you give that away free to anyone who wants it and=
+ license it to anyone who wants to manufacture it,=E2=80=9D because the pro=
+fits of one drug company matter to you so much less than reopening the econ=
+omy generally.=C2=A0</p><p style=3D"margin: 16px 0;">The other is climate c=
+hange. If you own all the companies, and the seas rise and wash away all th=
+e companies, you will lose a lot of money. If all of your money is in oil c=
+ompanies you might say, well, sure, seas rising is bad, but I rely on these=
+ dividends so let=E2=80=99s sell as much oil as we can for as long as we ca=
+n. But if you are a diversified owner of=C2=A0<em>the world=E2=80=99s econo=
+my</em>, you have to take a broader view. And so BlackRock is constantly <a=
+ href=3D"https://link.mail.bloombergbusiness.com/click/25093534.264700/aHR0=
+cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjAtMDEtMTQvYmxhY2t=
+yb2NrLWhhcy1ncmVlbi1wbGFucw/607f07ceef4b8524a319a23cBaf53dcb1" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration=
+: none !important; border-bottom-width: 1px; border-bottom-color: #000000; =
+border-bottom-style: solid; background-color: #ccc;"> talking about climate=
+ change</a>, and explicitly arguing that it cares because of its <em>econom=
+ic=C2=A0</em>interests as a long-term diversified shareholder.</p><p style=
+=3D"margin: 16px 0;">I think that this stuff is interesting but=C2=A0you ca=
+n definitely be a skeptic. Roberto Tallarita of Harvard Law School is a ske=
+ptic; here is his recent paper on =E2=80=9C<a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/25093534.264700/aHR0cHM6Ly9wYXBlcnMuc3Nybi5jb20vc2=
+9sMy9wYXBlcnMuY2ZtP2Fic3RyYWN0X2lkPTM5MTI5Nzc/607f07ceef4b8524a319a23cB8a85=
+088f" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">Port=
+folio Primacy and Climate Change</a>=E2=80=9D:</p><blockquote><p style=3D"m=
+argin: 16px 0;">Climate change is a quintessential market failure. Individu=
+al companies do not have economic incentives to reduce their carbon emissio=
+ns and therefore produce more emissions than is socially desirable. However=
+, according to a theory that is gaining increasing support among academics =
+and market players, large asset managers (and, in particular, index fund ma=
+nagers) can become =E2=80=9Cclimate stewards=E2=80=9D and force companies t=
+o reduce their impact on climate change. This view is based on the premise =
+that index fund portfolios mirror the entire economy and, therefore, intern=
+alize climate risk. According to this theory, by maximizing the value of th=
+eir entire portfolio (portfolio primacy) rather than the value of the indiv=
+idual company (shareholder primacy), index fund managers have strong econom=
+ic incentives to steer companies towards decarbonization.</p><p style=3D"ma=
+rgin: 16px 0;">This Article offers the first systematic critique of this th=
+eory. First, it demonstrates that the composition of investment portfolios =
+can distort the incentives of index funds with respect to climate risk. In =
+particular, it shows that index funds=E2=80=99 incentives are strongly alig=
+ned with the interests of carbon emitters, rich countries, and large compan=
+ies, but weakly aligned with the interests of firms and countries that are =
+more vulnerable to climate change.</p><p style=3D"margin: 16px 0;">Second, =
+it shows that the stock market is a highly imperfect mechanism to address c=
+limate risk: stock prices do not accurately reflect future climate damages;=
+ private investors discount the distant future at a higher rate than the co=
+rrect social discount rate; and public companies represent a limited (and i=
+ncreasingly smaller) portion of the economy. Therefore, index funds inevita=
+bly underestimate the costs of climate change and the benefits of mitigatio=
+n measures.</p><p style=3D"margin: 16px 0;">Third, it examines the agency p=
+roblems and fiduciary conflicts of index fund managers, and it argues that =
+even if index fund portfolios benefitted from climate stewardship, fund man=
+agers would have very weak incentives to take on such a role.</p></blockquo=
+te><p style=3D"margin: 16px 0;">I do think that a relevant question here is=
+ =E2=80=9Ccompared to what?=E2=80=9D I think that a lot of these arguments =
+had their origin in comparing large index investors to=C2=A0<em>smaller les=
+s diversified investors.=C2=A0</em>Compared to a concentrated active equity=
+ investor, a big index investor is going to care=C2=A0<em>more=C2=A0</em>ab=
+out curing societal ills, because it necessarily cares=C2=A0<em>less=C2=A0<=
+/em>about squeezing out operational efficiencies or <a href=3D"https://link=
+.mail.bloombergbusiness.com/click/25093534.264700/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTgtMTItMDcvcmVndWxhdG9ycy1hc2staWYtaW5k=
+ZXgtZnVuZHMtYXJlLWJhZA/607f07ceef4b8524a319a23cB70679f81" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: non=
+e !important; border-bottom-width: 1px; border-bottom-color: #000000; borde=
+r-bottom-style: solid; background-color: #ccc;"> competing on price</a> or =
+other company-specific things; the <em>only=C2=A0</em>way for it to fundame=
+ntally improve returns is to improve market-wide outcomes.[3]</p><p style=
+=3D"margin: 16px 0;">But Tallarita=E2=80=99s point is that index funds will=
+ care=C2=A0<em>less=C2=A0</em>about climate change than, you know, the medi=
+an human on earth,[4]=C2=A0and so (somewhat idealized) democratic processes=
+ are probably a better way to address the problem than leaving it to BlackR=
+ock. =E2=80=9CIf policymakers want to use corporate governance as a tool to=
+ fight climate change, they should change the incentives of individual comp=
+anies rather than trust the portfolio incentives of index funds,=E2=80=9D h=
+e writes.=C2=A0But if policy makers=C2=A0<em>don=E2=80=99t=C2=A0</em>want t=
+o fight climate change then BlackRock will probably do something anyway.</p=
+><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Spreading comps</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">A good empirical question in academic =
+finance is: When investment bankers work for the target in a merger, do the=
+y try to get a=C2=A0<em>high price=C2=A0</em>or a=C2=A0<em>low price?=C2=A0=
+</em>The obvious answer is =E2=80=9Chigh price=E2=80=9D: The bankers work f=
+or the target, they are negotiating against the acquirer, and the higher th=
+e price they get the more they have won. They are repeat players in this bu=
+siness,=C2=A0and when they go pitch=C2=A0<em>other=C2=A0</em>companies to r=
+epresent them in mergers, they will want to show their negotiating credenti=
+als by pointing to all the times they negotiated high prices.</p><p style=
+=3D"margin: 16px 0;">But there is a good contrarian argument for =E2=80=9Cl=
+ow price.=E2=80=9D For one thing there are conflicts of interest: A banker =
+who represents a target in one deal might represent an acquirer in the next=
+, and big acquirers provide more repeat business than targets do; if you gi=
+ve a private equity acquirer a good deal today they might hire you tomorrow=
+. Also, though, if you are a sell-side M&amp;A banker, your main economic i=
+ncentive is to=C2=A0<em>get a deal done:=C2=A0</em>You get paid=C2=A0<em>mo=
+re=C2=A0</em>for getting a deal done at a higher price (generally), but you=
+ get paid=C2=A0<em>nothing</em> if there=E2=80=99s no deal. So your job is =
+not just to try to extract the highest possible price out of the acquirer; =
+it is also to get your own client comfortable with a lower price, because y=
+our main goal is to make a deal happen at=C2=A0<em>some=C2=A0</em>price.=C2=
+=A0</p><p style=3D"margin: 16px 0;">Anyway here is a paper titled=C2=A0=E2=
+=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/25093534.264=
+700/aHR0cHM6Ly9wYXBlcnMuc3Nybi5jb20vc29sMy9wYXBlcnMuY2ZtP2Fic3RyYWN0X2lkPTM=
+3NzE2NjQ/607f07ceef4b8524a319a23cCfedce0fe" itemprop=3D"StoryLink" itemscop=
+e=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; =
+border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style=
+: solid; background-color: #ccc;">Peer Selection and Valuation in Mergers a=
+nd Acquisitions</a>,=E2=80=9D by Gregory Eaton, Feng Guo, Tingting Liu and =
+Micah Officer, on a related question:</p><blockquote><p style=3D"margin: 16=
+px 0;">Using unique data, this paper examines investment banks=E2=80=99 cho=
+ice of peers in comparable companies analysis in mergers and acquisitions. =
+We find strong evidence that product market space is amongst the most impor=
+tant factors in peer selection, but we provide evidence indicating that Sta=
+ndard Industrial Classification (SIC) codes, particularly three- and four-d=
+igit codes, do a poor job of categorizing related firms in this setting. Ba=
+nks strategically select large, high growth peers with high valuation multi=
+ples, factors that are also positively related to premiums. Our evidence is=
+ consistent with target-firm advisors selecting peers with high valuation m=
+ultiples to negotiate higher takeover prices.</p></blockquote><p style=3D"m=
+argin: 16px 0;">How much is a company worth? Well, loosely speaking, it is =
+worth (1) its annual earnings before interest, taxes, depreciation and amor=
+tization=C2=A0<em>times=C2=A0</em>(2) the median enterprise-value-to-Ebitda=
+ ratio of its peers.[5] So the way to value a company is to=C2=A0<em>pick a=
+ list of peers</em>. If you pick a list of companies with high EV/Ebitda ra=
+tios as =E2=80=9Cpeers,=E2=80=9D you will get a high valuation; if you pick=
+ a list of companies with low multiples, you will get a low valuation:</p><=
+blockquote><p style=3D"margin: 16px 0;">That selection process is almost su=
+rely driven by the target=E2=80=99s principal advisor in the M&amp;A transa=
+ction, which is typically an investment bank or advisory firm. The true inc=
+entives driving investment bankers=E2=80=99 peer selection are, of course, =
+unobservable. However, in this paper we examine whether the characteristics=
+ of peer firms chosen by target firms=E2=80=99 investment banks suggest tha=
+t banks choose peers to aid in the negotiation of a higher offer price for =
+target firm shareholders, or, conversely, choose peers that help with the c=
+ompletion of a proposed deal. The latter of which enables the bank to colle=
+ct their advisory fees, a large fraction of which are typically conditional=
+ on deal completion. ...</p><p style=3D"margin: 16px 0;">The incentive to s=
+elect peers in such a way that helps the target in negotiation with a prosp=
+ective bidder would imply that the target=E2=80=99s investment bank chooses=
+ peers that, all else equal, have higher valuation multiples, which make th=
+e perceived value of the target firm appear higher. Conversely, the incenti=
+ve to select peers in a way that helps with the closing of a transaction (a=
+nd the bank=E2=80=99s collection of its advisory fees) would imply that the=
+ investment bank chooses peers that, all else equal, have lower valuation m=
+ultiples. This would make the bidder=E2=80=99s offer appear more generous t=
+o target shareholders, increasing the probability that they accept the offe=
+r. Because the investment bank advising the target firm in the transaction =
+has significant discretion in the choice of peers,=C2=A0which of the incent=
+ive effects dominates is an empirical question and is the main focus of our=
+ study.</p></blockquote><p style=3D"margin: 16px 0;">I actually think that,=
+ if you=E2=80=99ve met investment bankers, it=E2=80=99s fairly clear that t=
+he =E2=80=9Chigh price=E2=80=9D incentives would dominate and that sell-sid=
+e bankers would pick high-valuation peers, and that is in fact the result t=
+he authors get. (If you=E2=80=99re a banker you tend to view yourself as a =
+master negotiator and put your effort into squeezing out a higher price; la=
+ter, when you write the fairness opinion, you=E2=80=99ll regret all your bl=
+uster about how valuable the company is, but that regret is not going to ch=
+ange your behavior.) Also though bankers in management buyouts =E2=80=94=C2=
+=A0where the target management is also the buyer =E2=80=94=C2=A0are more co=
+nflicted and might choose lower multiples:</p><blockquote><p style=3D"margi=
+n: 16px 0;">We examine some additional incentive effects in the peer select=
+ion process. Specifically,=C2=A0we examine whether the results described ab=
+ove also hold in a sample of management buyout deals. Management buyouts pr=
+esent a setting where concerns about agency problems are particularly germa=
+ne because the target firm=E2=80=99s managers have the incentive to purchas=
+e their firm from shareholders at the lowest possible price. Our results in=
+ this subsample suggest that peers selected in buyout deals tend to have lo=
+wer valuation ratios and weaker operating performance. However, these resul=
+ts weaken once we control for bidder characteristics. Thus, although we are=
+=C2=A0not able to reach a definitive conclusion, we provide some evidence t=
+hat investment banks may strategically select low-value peers to justify th=
+e lower premiums offered in buyout deals.</p></blockquote><p style=3D"margi=
+n: 16px 0;">A further possibility is that bankers use high-value peers when=
+ negotiating the deal, and then low-value peers when writing the fairness o=
+pinion to try to get the deal approved,=C2=A0but that seems a bit unsportin=
+g.</p><table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table><p style=3D"margin: 16px 0;">Evergrande Moment of Truth Arrives Wit=
+h <a href=3D"https://link.mail.bloombergbusiness.com/click/25093534.264700/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDktMTgvZXZlcmd=
+yYW5kZS1tb21lbnQtb2YtdHJ1dGgtYXJyaXZlcy13aXRoLWJvbmQtcGF5bWVudC1kZWFkbGluZX=
+M/607f07ceef4b8524a319a23cBc9ccf9fb" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" style=3D"color: #000000; text-decoration: none !important; border-=
+bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid=
+; background-color: #ccc;"> Bond Payment Deadlines</a>. How Beijing=E2=80=
+=99s <a href=3D"https://link.mail.bloombergbusiness.com/click/25093534.2647=
+00/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ob3ctYmVpamluZ3MtZGVidC1jbGFtcGRv=
+d24tc2hvb2stdGhlLWZvdW5kYXRpb24tb2YtYS1yZWFsLWVzdGF0ZS1jb2xvc3N1cy0xMTYzMTk=
+1NzQwMD9tb2Q9aXRwX3dzaiZydT15YWhvbw/607f07ceef4b8524a319a23cBc3f44cee" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">Debt Clampdown=
+</a> Shook the Foundation of a Real-Estate Colossus. China <a href=3D"https=
+://link.mail.bloombergbusiness.com/click/25093534.264700/aHR0cHM6Ly93d3cuYm=
+xvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDktMTgvY2hpbmEtZGVmZW5kcy10ZWNoL=
+WNyYWNrZG93bi1pbi1tZWV0aW5nLXdpdGgtd2FsbC1zdHJlZXQtY2hpZWZz/607f07ceef4b852=
+4a319a23cBaad78496" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;"> Defends Tech Crackdown</a> in Meeting With Wall Street Chiefs.=
+=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/25093534.264=
+700/aHR0cHM6Ly93d3cuY25iYy5jb20vMjAyMS8wOS8xNy9pbnNpZGVyLXRyYWRpbmctc3VzcGl=
+jaW91cy1iZXRzLW1hZGUtYmVmb3JlLWdvbGRtYW5zLTJwb2ludDItYmlsbGlvbi1hY3F1aXNpdG=
+lvbi1vZi1ncmVlbnNreS5odG1s/607f07ceef4b8524a319a23cB3465d194" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">Suspicious trades</a> w=
+ere made before Goldman=E2=80=99s $2.2 billion acquisition of GreenSky, opt=
+ions experts say. Kyrgyzstan Blocked From London Gold Trading Over <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/25093534.264700/aHR0cHM6L=
+y93d3cud3NqLmNvbS9hcnRpY2xlcy9reXJneXpzdGFuLWJsb2NrZWQtZnJvbS1sb25kb24tZ29s=
+ZC10cmFkaW5nLW92ZXItbWlzc2luZy1iYXJzLTExNjMxOTEyNzMwP21vZD1pdHBfd3NqJnJ1PXl=
+haG9v/607f07ceef4b8524a319a23cB47c2074b" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" style=3D"color: #000000; text-decoration: none !important; b=
+order-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style:=
+ solid; background-color: #ccc;">Missing Bars</a>. Credit Suisse charges in=
+vestors to prop up <a href=3D"https://link.mail.bloombergbusiness.com/click=
+/25093534.264700/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQvMTA5ODJjZTUtM2M1MC00ZT=
+NkLTg2NDgtNGEyMmVmOTJkMTgy/607f07ceef4b8524a319a23cB8e2b7aa4" itemprop=3D"S=
+toryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration:=
+ none !important; border-bottom-width: 1px; border-bottom-color: #000000; b=
+order-bottom-style: solid; background-color: #ccc;">Greensill Capital</a>. =
+Realtors Face Federal Scrutiny of <a href=3D"https://link.mail.bloombergbus=
+iness.com/click/25093534.264700/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9yZWF=
+sdG9ycy1mYWNlLWZlZGVyYWwtc2NydXRpbnktb2YtYnJva2VyLWNvbW1pc3Npb25zLTExNjMyMT=
+M1NjAxP21vZD1ocF9sZWFkX3Bvczc/607f07ceef4b8524a319a23cB3d71a2cc" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;">Broker Commissions=
+</a>.=C2=A0What the Solana Blackout Reveals About the <a href=3D"https://li=
+nk.mail.bloombergbusiness.com/click/25093534.264700/aHR0cHM6Ly93d3cuYmxvb21=
+iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjEtMDktMTgvc29sYW5hLXRyYWRpbmctaG93LW91dG=
+FnZS1yZXZlYWxzLXZ1bG5lcmFiaWxpdHktb2YtY3J5cHRvLWJsb2NrY2hhaW5z/607f07ceef4b=
+8524a319a23cBff311753" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> Fragility of Crypto</a>. SoftBank partner took investor meeti=
+ng <a href=3D"https://link.mail.bloombergbusiness.com/click/25093534.264700=
+/aHR0cHM6Ly9zaWZ0ZWQuZXUvYXJ0aWNsZXMvc29mdGJhbmstbW9uem8tYmxvbWZpZWxkLWZlZX=
+Qv/607f07ceef4b8524a319a23cBe9216d49" itemprop=3D"StoryLink" itemscope=3D"i=
+temscope" style=3D"color: #000000; text-decoration: none !important; border=
+-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: soli=
+d; background-color: #ccc;">barefoot and smoking</a>, says Monzo founder.=
+=C2=A0Murdoch set up TV station because he =E2=80=98<a href=3D"https://link=
+.mail.bloombergbusiness.com/click/25093534.264700/aHR0cHM6Ly93d3cuZnQuY29tL=
+2NvbnRlbnQvM2NiNGJhM2UtZjFjMS00YWQxLThjYmUtMGJjNGJlZWVmYzMy/607f07ceef4b852=
+4a319a23cB91f0105e" itemprop=3D"StoryLink" itemscope=3D"itemscope" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">wanted something to watch</a>.=E2=80=99</p><p style=3D"margin: 16=
+px 0;"><span class=3D"news-designed-for-consumer-media"><em>If you'd like t=
+o get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right in your inbox, =
+please=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/250935=
+34.264700/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmVzcy5jb20vam9pbi80d20vb=
+W9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MGYyNjI5YzI1YWNlYTY3YQ/6=
+07f07ceef4b8524a319a23cB08dd9955" target=3D"_blank" style=3D"color: #000000=
+; text-decoration: none !important; border-bottom-width: 1px; border-bottom=
+-color: #000000; border-bottom-style: solid; background-color: #ccc;">subsc=
+ribe at this link</a>. Or you can subscribe to Money Stuff and other great =
+Bloomberg newsletters <a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/25093534.264700/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR0ZXJz/60=
+7f07ceef4b8524a319a23cBf71d0c4a" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; ba=
+ckground-color: #ccc;">here</a>. Thanks!</em></span></p><p style=3D"margin:=
+ 16px 0;"><em>[1] There will be *occasional* weird cases where a company is=
+ like =E2=80=9Cwe want our competitor to pay higher taxes=E2=80=9D and hire=
+s someone to fight their inversion, but realistically they=E2=80=99re going=
+ to hire a professional inversion-doer to do that, not a professional inver=
+sion-fighter, because the latter category does not really exist.</em></p><p=
+ style=3D"margin: 16px 0;"><em>[2] The other professional category of peopl=
+e who might make a career out of fighting to raise corporate taxes is of co=
+urse *politicians*. But realistically they are going to be less specialized=
+ than professional corporate-tax-reducers are, so they will just not have t=
+he same level of expertise. The Times describes a couple of tax provisions =
+as =E2=80=9Chastily passed and sloppily written,=E2=80=9D and explains that=
+ a former PwC official who had moved to Treasury now had =E2=80=9Cto figure=
+ out how to put those new taxes into effect.=E2=80=9D Being an expert, he p=
+resumably put them into effect in a more careful, measured and professional=
+ way than the hastily-written legislation, but also obviously in a way that=
+ was more favorable to companies.</em></p><p style=3D"margin: 16px 0;"><em>=
+[3] I say =E2=80=9Ca big index investor,=E2=80=9D but as Tallarita points o=
+ut there are some important agency/incentive problems for index-*fund* mana=
+gers, who get paid like a couple of basis points to track an index and argu=
+ably have no incentives to do *anything* to improve performance. Still in t=
+he long run it is probably somewhat useful for BlackRock to be able to tell=
+ its investors, like, =E2=80=9Cindex investing with us produces good return=
+s and we try to improve those returns.=E2=80=9D</em></p><p style=3D"margin:=
+ 16px 0;"><em>[4] More strictly, =E2=80=9Cindex funds will have less *incen=
+tive* to care about climate change than the median human on earth=E2=80=9D;=
+ in actual fact the median human is probably not paying attention.</em></p>=
+<p style=3D"margin: 16px 0;"><em>[5]=C2=A0I enjoyed this Morgan Stanley res=
+earch note from last month, by Michael Mauboussin and Dan Callahan, arguing=
+ that =E2=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/250=
+93534.264700/aHR0cHM6Ly93d3cubW9yZ2Fuc3RhbmxleS5jb20vaW0vcHVibGljYXRpb24vaW=
+5zaWdodHMvYXJ0aWNsZXMvYXJ0aWNsZV9ldmVyeXRoaW5naXNhZGNmbW9kZWxfdXMucGRm/607f=
+07ceef4b8524a319a23cB8b1873fc" target=3D"_blank" style=3D"color: #000000; t=
+ext-decoration: none !important; border-bottom-width: 1px; border-bottom-co=
+lor: #000000; border-bottom-style: solid; background-color: #ccc;">Everythi=
+ng Is a DCF Model</a>,=E2=80=9D that discounted cash flow valuation is the =
+underpinning of all valuation, and that more investors should spend more ti=
+me doing DCF models. But they do admit that in practice valuation is mostly=
+ done by multiples: =E2=80=9CHowever, a recent survey of professional equit=
+y analysts found that =E2=80=98market multiples=E2=80=99 were =E2=80=98[b]y=
+ far the most popular approach to valuation=E2=80=99 among nearly 2,000 res=
+pondents.=C2=A0Specifically, these analysts said that when valuing companie=
+s they used price-earnings multiples 88 percent of the time and enterprise =
+value-to-earnings before interest, taxes, depreciation, and amortization (E=
+BITDA) multiples 77 percent of the time.=E2=80=9D I suspect that if you ask=
+ed people in the M&amp;A business (as opposed to the public investing busin=
+ess) you=E2=80=99d get more votes for EV/Ebitda and fewer for P/E. But noth=
+ing turns on this and you can substitute P/E =E2=80=94=C2=A0or some other m=
+ultiple =E2=80=94 for EV/Ebitda in the text.</em></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25093534.264700/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cB96d57c5b" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25093534.264700/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB7ead43ff" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25093534.264700/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB5d32dc6e" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25093534.264700/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB1d2d7457" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"liveintent-flex-ad" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25093534.264700/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4OSZsaT0yNTA5MzUzNCZtPTViM=
+jczODU4NDY0YzQyODY4YjkyZjNjODQ1ZTExMmMxJnA9MjUzNTgyMzQmc3RwZT1kZWZhdWx0/607=
+f07ceef4b8524a319a23cI50f7440e" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825889&amp;li=3D25093534&amp;=
+m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25358234&amp;stpe=3Ddefault" b=
+order=3D"0" width=3D"550" style=3D"width: 100%; max-width: 550px !important=
+; display:block" />
+</a>
+</td>
+</tr>
+</table>
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like Money Stuff?</strong></em>=C2=A0=
+|<em>=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/click/2509353=
+4.264700/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9zb3VyY2=
+U9bmV3c2xldHRlciZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f=
+07ceef4b8524a319a23cB1873937f" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e">
+Get=C2=A0unlimited access to Bloomberg.com</a>, where you'll find trusted, =
+data-based journalism in 120 countries around the world and expert analysis=
+ from exclusive daily newsletters.</em></p>
+<p style=3D"margin: 0px;">Before it=E2=80=99s here, it=E2=80=99s on the=C2=
+=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal deliv=
+ers information and analysis that financial professionals can=E2=80=99t fin=
+d anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com/cl=
+ick/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc29s=
+dXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Learn=
+ more</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/25093534.264700/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cCd764534e" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/25093534.264700/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB452a9314" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/25093534.264700/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cBc4ef8f25" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25093534.264700/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBf=
+7159b17" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/25093534.264700/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cB6=
+7dc5057" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table><table class=3D"liveintent-safe-rtb" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"40" height=3D"6">
+<tbody>
+<tr>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552500&amp;li=3D250935=
+34&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25358234&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552501&amp;li=3D250935=
+34&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25358234&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552502&amp;li=3D250935=
+34&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25358234&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552503&amp;li=3D250935=
+34&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25358234&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+<td><img src=3D"https://sli.bloomberg.com/imp?s=3D126552504&amp;li=3D250935=
+34&amp;m=3D5b273858464c42868b92f3c845e112c1&amp;p=3D25358234&amp;stpe=3Dpix=
+el" width=3D"2" height=3D"6" border=3D"0" /></td>
+</tr>
+</tbody>
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23cexuam.5o8s/b39e35a7.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_43754319_1226274521.1632156840042--
+

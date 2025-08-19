@@ -1,0 +1,2856 @@
+Delivered-To: zoheri@gmail.com
+Received: by 2002:a05:6358:9217:b0:102:d870:c28b with SMTP id d23csp1727593rwb;
+        Mon, 13 Mar 2023 11:15:23 -0700 (PDT)
+X-Received: by 2002:a05:600c:4e4f:b0:3eb:2de8:b74e with SMTP id e15-20020a05600c4e4f00b003eb2de8b74emr11607175wmq.27.1678731323653;
+        Mon, 13 Mar 2023 11:15:23 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1678731323; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=I3d4k4RHIHQU9TAsPm6PUyPrfJu6t8HnlYxao3c1jZpFSnG2zfyj3ZF7iOW/HjSEPJ
+         uF4A9zuB4Z5SyV5VSAJicoS/RJfVx4EnIrqeW2fVw4hAB0pGEIK1979xnddLuqnMxc7j
+         G7Qpon6X3YmDDOissxy0V9fYJRDXHs4p1A8Te/5/hAKVBFEueD95jbQI8GCDd9sW3f+j
+         3+al8WVKEd0Avak17ENqi7G7ooKAC78zZjp7/QrGk/7uF3SifIZMcRADaBnXDpDv2DUD
+         Hti07uZJtCI4nyHz5fojG7jGl/OWjjOr6Dxdl+Y6mbBqHPfYtJJXSJuanbsxig9Ecw33
+         9gSQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to;
+        bh=fMVnqgtXQelSYXNKVmi2WkTd6DMaiIm/unj3ZrlJjIs=;
+        b=eD8Z8L6+r19M3QKLgmw71mZw/+Np3tt6O32Lj2onJL03apbZ3wl1BU8ZX/98OxbEhv
+         aN1oc352KQBi9QtTwblSL0lOSTO/C5AXfP9lN3o97iMDC88DSM4bGySWL9h12VG6HcTV
+         2/tm6655SWmx69+z+oFnP8N+1jLoBv9fEmabOqShxwvjGpkXM1nwSX/f02ik0mn/B9/x
+         uSDstnjJ2mb0yiia56fb6Difm3fAvwcolTzPci1UBIQBktertSyU2ap8EYTSyRj7AU0v
+         RjLP5aMpcqqirQNTWVIHJW69ZnPDQdpJrO0AEguEDNsc690vefV8RpDGBDjdhIbzagZu
+         wXRg==
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=FY25gKoE;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <khamel83+caf_=zoheri=gmail.com@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id m11-20020adffe4b000000b002c553e008c7sor62376wrs.68.2023.03.13.11.15.23
+        for <zoheri@gmail.com>
+        (Google Transport Security);
+        Mon, 13 Mar 2023 11:15:23 -0700 (PDT)
+Received-SPF: pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=FY25gKoE;
+       arc=pass (i=2 dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=pass (google.com: domain of khamel83+caf_=zoheri=gmail.com@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom="khamel83+caf_=zoheri=gmail.com@gmail.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112; t=1678731323;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature:delivered-to:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=fMVnqgtXQelSYXNKVmi2WkTd6DMaiIm/unj3ZrlJjIs=;
+        b=jOi1pW2EOlWXaaWFS/cQD0A2n97US2KFtOXcSzYNEHd6gbE3F3y0pyK29jxkXtjxxR
+         dg3Z8Zo/Co8aMfWBCP7D5utZFTCc0vbUUjfdQ/D0H99+Mssf25ZHhf84LHckAnKAEijm
+         uZvSaueXHWMztieeKUZx1PW0olVbCUfm9Z7jQewlLrX7bmSBnUWdbdovGMuqf9dotWuO
+         hB0u90NJSzAJzERmSYj0o6rscqpVfz7z8iIxotYkRqyu9ca1qWToT6Rt4DB59uSrO/oB
+         6KbAAPRRfgnSOUdLl3nARmepzesuJiSKjNuMU/nOXdp92v50m8uGqJpFcX6gVE8hP65J
+         H/gw==
+X-Gm-Message-State: AO0yUKX0hUIKg5Tjt7Qcjp5Mc4lCSu+jHo1+HCprOa61FLnLzHk/8zQj
+	GpFpyMzR24t10YX1MfSUCjvNvjGLCBJiLSjFP554RSyCnGuL6Dz2YA==
+X-Received: by 2002:adf:f38d:0:b0:2cb:3b68:3a88 with SMTP id m13-20020adff38d000000b002cb3b683a88mr7235170wro.7.1678731323217;
+        Mon, 13 Mar 2023 11:15:23 -0700 (PDT)
+X-Forwarded-To: zoheri@gmail.com
+X-Forwarded-For: khamel83@gmail.com zoheri@gmail.com
+Delivered-To: khamel83@gmail.com
+Received: by 2002:a5d:5412:0:0:0:0:0 with SMTP id g18csp1171535wrv;
+        Mon, 13 Mar 2023 11:15:19 -0700 (PDT)
+X-Received: by 2002:adf:e50e:0:b0:2ce:a096:4bdd with SMTP id j14-20020adfe50e000000b002cea0964bddmr6674271wrm.44.1678731319125;
+        Mon, 13 Mar 2023 11:15:19 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1678731319; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=IJiCPUp6M5f1DQ5mE8L9inxEFjMAKL3DS4/IXwLjItup9/eGzN/6kgsbczexH6SyYV
+         l+1k8fcGQtT4nCnm0Boz3kkivPSS16YWSxMNwzNOCajyvx5c5H/uqxkAMmV9bgva5Doh
+         +i2BfrEgKQIIoGCmfUAD5xiZgezm6ahHJOATUhFR4+7EWpsbN25SvvaurfLTG1H8G5m5
+         /2TyACpmoVUU7HH/MviFUmO9UwBEQePr4RlgImhWE6ugAeDU9V9pKKQC4qGZpc4uyGhm
+         Z989s42ndrulzyEDmVScJtpWL1qTQDAlzD43muoWcKOZw4m+27ijXgG9DDU4FAOZ4dwC
+         s0tg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=fMVnqgtXQelSYXNKVmi2WkTd6DMaiIm/unj3ZrlJjIs=;
+        b=uEqnirTL+kVQ9nrCxvXydmqerjAb8e8tc+2Zxa2Of4/TKt4E2WcJiZW8m0n3ey9zAn
+         r2/TNTckJgSIl7vGTsLrsXpLsccl4tS0bzcL1gmQob6tuCjDGbpWrEQ//4cqUQsDOHb6
+         O2cv46f8YyR6OG9jZyArgvzjk0x16bnk+bo3xgsnE7cVm96qm9MZ2I1umtwMzg3s44xB
+         dOfMwqOeQ1WSXCxFGaAbr+ApzdDm5XnXuAnxYSZcdS89ZY86byp+jgY2p5+0I0MiDPde
+         UCgPkDDbs6XVlaRetSHgkFo9Jooq/rAjTHMi8abzLQTRYFdn5GleeUFqh1ftn3V1ogbk
+         70Cw==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=FY25gKoE;
+       arc=pass (i=1 spf=pass spfdomain=mx.sailthru.com dkim=pass dkdomain=mail.bloombergview.com dmarc=pass fromdomain=bloombergview.com);
+       spf=fail (google.com: domain of delivery_20230313141456.30821211.285418@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=delivery_20230313141456.30821211.285418@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230313141456.30821211.285418@mx.sailthru.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id f10-20020adffcca000000b002ce3e5ae23asor54403wrs.76.2023.03.13.11.15.19
+        for <khamel83@gmail.com>
+        (Google Transport Security);
+        Mon, 13 Mar 2023 11:15:19 -0700 (PDT)
+Received-SPF: fail (google.com: domain of delivery_20230313141456.30821211.285418@mx.sailthru.com does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Google-Smtp-Source: AK7set+cShPvujjGJWnHgOGLGe7KR6lupFJW7mn5w9JWciT9M++hxZSUOelvJEImRS3nIDn8wNk2ayyrA1MKlpc9YnatE8tb7i0=
+X-Received: by 2002:a05:6000:186:b0:2cf:e29f:d7e1 with SMTP id p6-20020a056000018600b002cfe29fd7e1mr2340956wrx.45.1678731318870;
+        Mon, 13 Mar 2023 11:15:18 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1678731318; cv=none;
+        d=google.com; s=arc-20160816;
+        b=FjyWkv50drvbVqdDnQ3M70CA5Zr2QTjwBKvMgQ42URp+wi4bxoSzdKQDfUR+jDtG6d
+         UA+d7EDOz3dng5gq+KOGh1kWya9g4OsqiHSV6jfIne1IgeZ7hQOu6uTqDAartU9A4Aak
+         cmWiEJwiO7JzSHlygWUTeUvstg3Zr9/ydWfm4xNaftarkblXVFTR5tFjYl5WhCjC3rc/
+         jgmxDo+RU9YP6F6N0hCGcLHpOYJC3gqfaCahqRtBKOUmdWo8QZHWSrek86rf6y1LbRmZ
+         Txt2NLaBY7/fe0eYjNfeoYpqOr/3r+n3SDekv+jVHMiAltHti7+OF2NIajI4WjsSP2VM
+         uFyw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:precedence:mime-version:subject:message-id:to:from
+         :date:dkim-signature;
+        bh=fMVnqgtXQelSYXNKVmi2WkTd6DMaiIm/unj3ZrlJjIs=;
+        b=NNoUOGSRLBT5JpTeZY2HIiRzbxHc5Pw4o9zhasw3txL6Ib7gs520AsAMq3XjpXRenU
+         JRAXl0SpfV0Sa+rnUu151Suf714fPoeWj65sGy8RAXKMr/QySDvpehJg5r+K3MsC4FyE
+         Co+j0bLLsGco3soxr0hQotf9nf7EtDkK0IdmTwXofXBtYddiv5ZKheg2k3aTQ5QhtwSu
+         0WcIoq0hSJaxwuQ+4RTku57ESF+4eB22Br0GVIFtJhrRZPHaxEhk39VyCtitGHrcrvlX
+         2nQnJbkJ5D0uDnzzlF5yoYwuIpLLY0/Gl9tXfEqqUsMBboEFcTNXVWGnlAnP7QgLP49H
+         XfZA==
+ARC-Authentication-Results: i=1; gmr-mx.google.com;
+       dkim=pass header.i=@mail.bloombergview.com header.s=sailthru header.b=FY25gKoE;
+       spf=pass (google.com: domain of delivery_20230313141456.30821211.285418@mx.sailthru.com designates 192.64.236.13 as permitted sender) smtp.mailfrom=delivery_20230313141456.30821211.285418@mx.sailthru.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=bloombergview.com
+Return-Path: <delivery_20230313141456.30821211.285418@mx.sailthru.com>
+Received: from bloomberg-b.sailthru.com (bloomberg-b.sailthru.com. [192.64.236.13])
+        by gmr-mx.google.com with ESMTPS id ay8-20020a5d6f08000000b002c685ef5fe8si5935wrb.5.2023.03.13.11.15.18
+        for <khamel83@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 13 Mar 2023 11:15:18 -0700 (PDT)
+Received-SPF: pass (google.com: domain of delivery_20230313141456.30821211.285418@mx.sailthru.com designates 192.64.236.13 as permitted sender) client-ip=192.64.236.13;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=sailthru; d=mail.bloombergview.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+ i=noreply@mail.bloombergview.com;
+ bh=dQqYq5iHO6egJDz9NuLFX5cNDCJ5cER0pZwccCYcOoM=;
+ b=FY25gKoEiKKwqwvaUEXOaThJklx/QxWU/5X/6/7d1VFHdHW2Oap2mw+s0jFaPgIBglT9D9B9Xj20
+   hOoVO7ufHv2TBUCkvHVAmP/wUH7MKQMEUn3RygibpW27YMjnmcfAeqHqj3UhHD4aUbcFFXYzEEwS
+   THukNQLkG/IDmZJflgo=
+Received: from nj1-mta30.sailthru.com (204.153.120.165) by bloomberg-b.sailthru.com id h1tk3a30nu8i for <bloomberg@khamel.com>; Mon, 13 Mar 2023 14:15:17 -0400 (envelope-from <delivery_20230313141456.30821211.285418@mx.sailthru.com>)
+Date: Mon, 13 Mar 2023 14:14:56 -0400 (EDT)
+From: Matt Levine <noreply@mail.bloombergview.com>
+To: bloomberg@khamel.com
+Message-ID: <20230313141456.30821211.285418@sailthru.com>
+Subject: =?utf-8?B?U1ZCIENvdWxkbuKAmXQgSWdub3JlIEl0cw==?=
+ =?utf-8?B?IExvc3NlcywgQnV0IHRoZSBGZWQgQ2Fu?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8422153_1209410666.1678731296894"
+Precedence: bulk
+X-Feedback-ID: 6358:30821211:campaign:sailthru
+X-TM-ID: 20230313141456.30821211.285418
+X-Info: Message sent by sailthru.com customer Bloomberg Business
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: nj1-farmelon.flt
+X-Unsubscribe-Web: https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ciclsr.648a/9110b930
+List-Unsubscribe: <https://link.mail.bloombergbusiness.com/oc/607f07ceef4b8524a319a23ciclsr.648a/9110b930>, <mailto:unsubscribe_20230313141456.30821211.285418@mx.sailthru.com>
+X-rpcampaign: stjko30821211
+
+------=_Part_8422153_1209410666.1678731296894
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+ =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+        The way a bank works is that it borrows short to lend long. Simplis=
+tically, a bank might get its money from demand deposits, checking and sa
+     =20
+   =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+         =20
+       =20
+       =20
+         =20
+           =20
+         =20
+       =20
+     =20
+ =20
+   =20
+     =20
+       =20
+     =20
+   =20
+ =20
+
+
+     =20
+     =20
+   =20
+ =20
+ =20
+ =20
+   =20
+     =20
+       =20
+         =20
+ =20
+   =20
+      Silicon Valley Bank
+   =20
+ =20
+
+The way a bank works is that it borrows short to lend long. Simplistically,=
+ a bank might get its money from demand deposits, checking=C2=A0and savings=
+ accounts that customers can withdraw at any time. And the bank might=C2=A0=
+pay, say, 0% interest on those deposits. And then it invests the money in s=
+ome longer-term assets, loans and bonds that don=E2=80=99t get paid back fo=
+r years, and that pay, say, 2% interest. The bank earns 2% on its money, pa=
+ys 0% to depositors for the money, and keeps the spread, the net interest m=
+argin,=C2=A0which is 2% in this example.
+Sometimes interest rates go up or down, though. Simplistically, short-term =
+interest rates in the US are set by the Federal Reserve, which will raise i=
+nterest rates to cool the economy if inflation is too high.
+This is a risk for a bank=E2=80=99s borrow-short-to-lend-long business mode=
+l. If the Fed suddenly raises short-term interest rates to, say, 3%, then y=
+ou have to start paying 3% on your deposits. Meanwhile long-term interest r=
+ates have probably also gone up to, say, 5%, but you are still earning the =
+old 2% on your loans and bonds, because they are long-term loans that don=
+=E2=80=99t get paid back for years. Your net interest margin is now negativ=
+e 1%: You pay 3% on deposits and earn only 2% on loans and bonds.
+This is an obvious problem and much of the business of banking is about man=
+aging it. Here are some simple things that you can do:
+=09Your loans and bonds have laddered maturities: Some mature next week, so=
+me in 3 years, some in 6. So as rates go up, your loans and bonds are const=
+antly rolling off and you are reinvesting the money in new loans and bonds =
+at higher rates.=09When the Fed raises rates, in actual fact, banks mostly=
+=C2=A0don=E2=80=99t=C2=A0pass along the whole rate increase to depositors. =
+It=E2=80=99s a pain to switch banks, and most depositors don=E2=80=99t pay =
+that much attention to rates. The =E2=80=9Cdeposit beta=E2=80=9D =E2=80=94=
+=C2=A0the sensitivity of bank deposit rate increases=C2=A0to Fed interest r=
+ate increases =E2=80=94=C2=A0is lower than 1. So if the Fed raises rates fr=
+om 0% to 3%, you might end up paying only, say, 0.5% on deposits.
+  [1]
+
+=09You can try to match your assets and liabilities somewhat. Make some sho=
+rt-term loans, and some floating-rate loans, so that your assets are more s=
+ensitive to rising rates. Borrow some money with long-term bonds, so that y=
+our liabilities are less sensitive to rising rates. Do interest-rate swaps =
+to hedge.=09You can make money in ways other than net interest margin: Char=
+ge overdraft fees or do investment banking or trade securities or whatever.
+
+This is not, however, the biggest problem with borrowing short to lend long=
+. The biggest problem is that your depositors might all ask for their money=
+ back tomorrow, and you might not be able to get the money back from your b=
+orrowers for years. This problem is known as a =E2=80=9Cbank run=E2=80=9D a=
+nd is famous from, you know, the  Diamond-Dybvig model that  won a Nobel Pr=
+ize last year, or from It=E2=80=99s a Wonderful Life. =E2=80=9CThe money=E2=
+=80=99s not here. Why, your money=E2=80=99s in Joe=E2=80=99s house,=E2=80=
+=9D etc.=C2=A0
+Much of the business of banking, and of bank=C2=A0regulation, is about mana=
+ging=C2=A0this=C2=A0risk. For instance:
+=09The government can provide deposit insurance on accounts, promising depo=
+sitors that they=E2=80=99ll get their money back, which will make them less=
+=C2=A0inclined to ask for their money back, since they know it=E2=80=99s sa=
+fe.=C2=A0=09The government can regulate banks to make them act safely, so t=
+hat they don=E2=80=99t=C2=A0lose customer money, so that customers are conf=
+ident and don=E2=80=99t ask for their money back.=09You can keep a lot of c=
+ash around, so that if a lot of depositors (though certainly not all of the=
+m) ask for their money back, you have some to give to them.=09If a lot of d=
+epositors ask for their money back and you run through your cash, you can=
+=C2=A0sell=C2=A0some of your loans or bonds to raise money. In the days of=
+=C2=A0It=E2=80=99s a Wonderful Life=C2=A0it was kind of hard to sell the mo=
+rtgage on Joe=E2=80=99s house for ready cash, but modern financial markets =
+are much deeper and more liquid, which is good for selling bonds or loans o=
+r other bank assets.=C2=A0=09Alternatively, you can=C2=A0borrow against=C2=
+=A0your assets: You can go to a bigger bank, or to a lender of last resort=
+=C2=A0like the Federal Reserve,=C2=A0 or a =E2=80=9C  lender of next-to-las=
+t resort=E2=80=9D like the Federal Home Loan Banks, and=C2=A0borrow=C2=A0th=
+e cash to pay out depositors. And as collateral for that loan to you, you p=
+ost your assets, the bonds you own or the loans you made to your customers.=
+ This is the most classic way to deal with bank runs, and is famous from Wa=
+lter Bagehot=E2=80=99s=C2=A0Lombard Street.=C2=A0=E2=80=9CLend freely, at a=
+ penalty rate, against=C2=A0good collateral=E2=80=9D is  the basic advice=
+=C2=A0Bagehot gives=C2=A0central bankers: If a bank has good loans, but it =
+can=E2=80=99t turn them into money right away, the central bank should lend=
+ it the money.
+
+Let=E2=80=99s talk about Option 4,=C2=A0selling=C2=A0assets to raise money =
+to pay back depositors. Let=E2=80=99s say you loaned a customer $100 for fi=
+ve years at 2% interest. The customer is big and reliable and the loan will=
+ definitely be paid back.=C2=A0How much can you sell that loan for? Well, t=
+he day after you made the loan, it should be worth about $100 =E2=80=94=C2=
+=A0about what you paid for it. But what if the Fed raises short-term intere=
+st rates from 0% to 3%? Then the market interest rate on loans like this wi=
+ll probably go up from 2% to 5%. But your loan still pays only 2%, so it is=
+ worth less. The crude intuitive math is that a new market-rate loan would =
+pay $5 of interest per year for 5 years ($25 total), while your loan pays $=
+2 of interest for 5 years ($10 total), so it is worth about $15 less, so pe=
+ople would pay you about $85 for it, though you=E2=80=99d get fired at a ba=
+nk for doing bond math like that.=C2=A0(Really they=E2=80=99d pay you about=
+ $87.
+  [2]
+)
+There is a connection here=C2=A0to the previous problem, the one about your=
+ net interest income going down as rates go up. Imagine a super-simple bank=
+: You=C2=A0borrow=C2=A0$100 at 0% and lend=C2=A0$100 at 2% for five years. =
+You also invest $10 of your own capital in the bank, and keep that money in=
+ cash, to cover any sudden withdrawals.
+  [3]
+=C2=A0You make $2 per year in interest, pay=C2=A0$0 per year of interest, a=
+nd get=C2=A0$2 per year of net interest margin. You spend $1.50 of that on =
+non-interest expense (salaries, rent, etc.),=C2=A0and keep $0.50 as profit.=
+ After a year, you have $10.50 of capital: the $10 you put in and your $0.5=
+0 of profit.=C2=A0
+Then rates suddenly go up, so short-term rates are now 3% and long-term rat=
+es are 5%.=C2=A0None of the stuff I said before =E2=80=94=C2=A0about deposi=
+t betas and laddered maturities =E2=80=94=C2=A0works for you, for whatever =
+reason; your deposit rates immediately jump to 3% and you keep getting 2% o=
+n your bonds. This year, you will have a net loss of $2.50: You pay $3 on y=
+our $100 of deposits and get=C2=A0paid $2 on your $100 of bonds, and you al=
+so have $1.50 of salaries and rent to pay. (You=E2=80=99ll be down to $8 of=
+ your own capital.) Next year, you will also have a net loss, though maybe =
+it=E2=80=99s only $2 because you laid some people off and closed some branc=
+hes.=C2=A0(Now you=E2=80=99re down to $6 of capital.) Year after, same idea=
+: You will keep bleeding money, because you borrowed short and loaned long =
+and rates went up. But maybe something will change? Maybe rates will go bac=
+k down. Maybe your borrowers will repay their bonds early and you=E2=80=99l=
+l get to redeploy the money at higher rates. Maybe your employees will find=
+ a new line of business to earn some fees. Maybe you=E2=80=99ll reverse the=
+ losses. Or not, maybe you=E2=80=99ll keep losing $2.50 per year for five y=
+ears and run out of capital and have to close the bank.=C2=A0But maybe my a=
+ssumptions about your high deposit beta and long-term assets are unrealisti=
+cally pessimistic: This is a simplistic example, and at a real bank the res=
+ult might be lower margins for a while, not constant losses.
+But what if instead of keeping their deposits at your bank and earning 3% i=
+nterest, the depositors all asked for their money back today? You would hav=
+e to sell your bonds. You=E2=80=99d get about $87 for them. You would have =
+a $13 loss=C2=A0today. All of the losses that you=C2=A0would=C2=A0have take=
+n over the next five years, from holding long-term bonds at low rates while=
+ deposit rates have gone up, you will experience=C2=A0now. And you won=E2=
+=80=99t have any time to reverse them, because you have to sell the bonds n=
+ow and give everyone their money back. Also you don=E2=80=99t have enough m=
+oney: Selling the bonds for $87 will raise $87, and you have $10 of capital=
+, for a total of $97. But your depositors want their $100 back, and you onl=
+y have $97.
+If you are a bank that borrowed short to lend long, and rates go up, your p=
+ortfolio of long-dated assets represents an=C2=A0opportunity cost over time=
+:=C2=A0Instead of earning 5% on your loans, you=E2=80=99re stuck earning 2%=
+. But if you have to sell those assets, you turn that opportunity cost into=
+ a cash loss today. You pull the losses forward in time and take them all n=
+ow.
+Now we have to talk about accounting. Oversimplifying, there are two main w=
+ays for a bank to account for its assets:
+=09The traditional way is to account for them at cost, the price you paid f=
+or them. If you lend a customer $100, you have a $100 asset =E2=80=94=C2=A0=
+the loan =E2=80=94=C2=A0on your balance sheet. (You deduct something for th=
+e possibility they won=E2=80=99t pay you back,=C2=A0but let=E2=80=99s ignor=
+e that.)=09The other way is to account for them at their fair market value.=
+ If you buy a bond for $100, you can go look at the market price for that b=
+ond at the end of the quarter; if it=E2=80=99s $97.75, then you have a $97.=
+75 asset on your balance sheet. The other $2.25 is gone.
+  [4]
+
+
+
+The first approach gives you a reasonable picture of a bank that is continu=
+ing to operate as a bank: In my example, if you have $100 of bonds and $100=
+ of deposits and the loans pay 2% and the deposits cost 3% and you are losi=
+ng $2.50 per year, your financial statements=C2=A0will=C2=A0say that. Your =
+balance sheet=C2=A0will say that you have $100 of bonds, so you will ultima=
+tely have enough money to pay back your depositors, but your income stateme=
+nt will say you are losing money each year.
+The second approach gives you a reasonably accurate picture of a bank that =
+has to shut down today: In my example, your balance sheet will show that yo=
+u have=C2=A0$87 of bonds at fair market value, so you don=E2=80=99t have en=
+ough money to pay back all your depositors if you have to do it today.
+Traditionally banks=E2=80=99 assets consisted mostly of=C2=A0loans, there w=
+as not much of a market for those loans, and the normal accounting approach=
+ was to account for them at cost. Modern banks=E2=80=99 assets include lots=
+ of=C2=A0bonds, there is a market for those bonds, and it is reasonably com=
+mon to account for them at fair market value.
+  [5]
+=C2=A0Still, banks do=C2=A0like accounting for assets at cost, and so they =
+are allowed to=C2=A0designate bonds as =E2=80=9Cheld to maturity=E2=80=9D =
+=E2=80=94=C2=A0meaning that they have no plans to sell them =E2=80=94=C2=A0=
+and account for them at cost. (But then if they sell any of their held-to-m=
+aturity bonds, they  need to reclassify=C2=A0all=C2=A0of them as =E2=80=9Ca=
+vailable for sale=E2=80=9D and account for them at fair market value, which=
+ could mean taking a huge loss all at once.) In general it seems fair to sa=
+y that the modern trend in financial-institution accounting is toward marki=
+ng more things to market values, but there remain many exceptions.
+  [6]
+
+From my simple example you can see why banks don=E2=80=99t always like mark=
+-to-market accounting. In my simple example, the bank has $100 of deposits,=
+ $100 of bonds and $10 of capital. It is losing money on interest rates, so=
+ its capital is going down, slowly. But it is solvent: It has assets of $11=
+0 ($100 of bonds plus $10 of cash) and liabilities of only $100 (the deposi=
+ts).=C2=A0
+But if the bank instead put out financial statements showing that it had $8=
+7 of bonds (their current market value), it would be insolvent: It would ha=
+ve assets of $97 against liabilities of $100. And if its depositors read th=
+ose financial statements, they=E2=80=99d say =E2=80=9Chey wait this bank is=
+ insolvent=E2=80=9D and rush to take their money out. And then the bank=C2=
+=A0would have to sell those bonds for $87, and it really=C2=A0would=C2=A0be=
+ insolvent. The accounting could cause a run, which would require the asset=
+s to be sold at market value, which would result in taking all the losses t=
+oday, which would result in actual insolvency.
+One crude way that the actual US banking system deals with this problem is =
+by letting banks account for their held-to-maturity bonds at cost on their =
+balance sheet, but then making them explain, somewhere in the footnotes to =
+the financial statements, their current market value.
+  [7]
+ This feels like in some ways a fair compromise. On the other hand someone =
+might read the footnotes! I mean, not most people. But someone might, and t=
+hey might explain the footnotes in a readable way =E2=80=94=C2=A0they might=
+  say something like =E2=80=9Con a mark-to-market basis, they were broke la=
+st quarter=E2=80=9D
+  [8]
+ =E2=80=94 and people might read that and think =E2=80=9Chuh that=E2=80=99s=
+ bad=E2=80=9D and withdraw their deposits. Causing the bonds to be sold, ca=
+using insolvency.
+But wait! Why=C2=A0sell=C2=A0the bonds? Why not=C2=A0borrow=C2=A0against th=
+em? You have $100 of bonds, $10 of capital kept in cash, $100 of deposits. =
+Rates move against you. In a footnote to your financial statements, you con=
+fess that the bonds are worth only $87 at current market values. Someone re=
+ads the footnote and shows it to someone else. Word gets around. Lots of de=
+positors come and ask for their money back. You have only $10 of cash.=C2=
+=A0
+So you go to your lender of last resort, let=E2=80=99s say the Federal Rese=
+rve. You say: =E2=80=9CHere is a $100 asset that I have. I want to post it =
+as collateral for a loan. You lend me $100 against this collateral, and cha=
+rge me 3% interest. I will use the $100 to pay off my depositors. I=E2=80=
+=99ll be left with a $100 asset and a $100 liability to you, instead of to =
+my depositors. And then I=E2=80=99ll try to cut costs and earn more fees an=
+d otherwise earn enough to pay your interest. I=E2=80=99ll be in the same p=
+lace as I was before the run. It=E2=80=99s not a=C2=A0great=C2=A0place, nec=
+essarily =E2=80=94=C2=A0I=E2=80=99m still earning less interest on my asset=
+s than I=E2=80=99m paying on my liabilities =E2=80=94=C2=A0but, you know, m=
+arkets change and I=E2=80=99ll probably muddle through and anyway the bonds=
+ will eventually pay off $100 so you=E2=80=99ll get your money back.=E2=80=
+=9D
+And then the Fed either says:
+=09sure, or=09=E2=80=9Cno, this is not $100 of collateral, this is only $87=
+ of collateral: We will only lend against the=C2=A0market value=C2=A0of thi=
+s collateral, not against=C2=A0what you paid for it.=E2=80=9D
+
+Which answer should the Fed give? On the one hand, the Fed wants to lend ag=
+ainst good collateral and not take a lot of risk. Lending you $100 against =
+collateral with a market value of $87 seems kind of stupid for the Fed.
+On the other hand, the Fed is a lender of last resort, and its main job is =
+to lend you money so that you=C2=A0don=E2=80=99t=C2=A0have to sell your ass=
+ets too hastily. Lending against the market value is kind of the same thing=
+ as making you sell your assets: You can only borrow what you=E2=80=99d get=
+ by selling them today, not what they=E2=80=99ll eventually pay out. It spe=
+eds things up just like selling them would, and the Fed=E2=80=99s job is to=
+ give you more time.
+You could imagine giving either answer. In the olden days of traditional ba=
+nking, it might have made sense for a central bank to lend against banks=E2=
+=80=99 loans at their face value. But modern central bankers are plugged in=
+to financial markets, and financial markets are good at determining market =
+prices for assets, and so the modern consensus seems to be that central ban=
+ks should lend against collateral at its market value.
+  [9]
+
+Until yesterday. We   talked on Friday about the collapse of Silicon Valley=
+ Bank:
+=09It borrowed very short to lend very long. Specifically, it is funded mos=
+tly by deposits, largely from tech companies and venture capitalists who go=
+t a lot of money over the last couple of years, and who put that money into=
+ SVB deposits that were much bigger than the US deposit insurance cap of $2=
+50,000. It plowed that money disproportionately into bonds, quite=C2=A0safe=
+=C2=A0bonds =E2=80=94=C2=A0US Treasuries and agency mortgage-backed securit=
+ies =E2=80=94=C2=A0but bonds with long duration. It did not do much to hedg=
+e its interest-rate risk. Basically it was as reckless as it is possible to=
+ be with a business model of =E2=80=9Ctake deposits and invest them in US T=
+reasury bonds.=E2=80=9D Which, until recently, might not have seemed=C2=A0t=
+hat reckless!=09But then rates went up a lot, pretty fast.=C2=A0=09This cau=
+sed the market value of SVB=E2=80=99s bonds to decline by some $15 billion,=
+ to the point that it was more or less insolvent: Its losses on the bonds w=
+ere enough to wipe out almost all of its equity capital and leave it with a=
+ssets, at market value, worth only very slightly more=C2=A0than its liabili=
+ties.=09It mentioned this fact in footnotes to its financial statements.=09=
+People noticed.=09SVB=E2=80=99s depositors, who again are largely tech firm=
+s and venture capitalists, are all on Twitter a lot and move in herds; when=
+ they noticed that SVB was insolvent-ish they   all pulled their money out =
+at once. (=E2=80=9CIt turned out that one of the biggest risks to our busin=
+ess model was catering to a very tightly knit group of investors who exhibi=
+t herd-like mentalities,=E2=80=9D an SVB executive  told the Financial Time=
+s.)=C2=A0Depositors tried to withdraw  $42 billion on Thursday.=09SVB tried=
+ to pay them. It used its cash. It sold stuff that was easy to sell. It tri=
+ed to borrow from the Fed,  but =E2=80=9Cdespite attempts from the Bank, wi=
+th the assistance of regulators, to transfer collateral from various source=
+s, the Bank did not meet its cash letter with the Federal Reserve.=E2=80=9D=
+=09It was declared insolvent and seized by the Federal Deposit Insurance Co=
+rp. on Friday.
+
+SVB is, I think, an unusually clear case of a bank that
+=09was almost certainly insolvent, on a mark-to-market basis: By Friday, if=
+ not earlier, its assets, at their current market value, were probably wort=
+h less than its liabilities
+  [10]
+; and=09could probably have muddled through and been profitable if people h=
+ad just kept their money in the bank: Its maturities=C2=A0were=C2=A0laddere=
+d, its deposit rates=C2=A0weren=E2=80=99t=C2=A0going up that much, it did h=
+ave a=C2=A0positive net interest margin even this quarter, it=C2=A0did=C2=
+=A0have various ways to make money, and if people had just kept their money=
+ in, the bonds would have matured and been replaced by higher-earning bonds=
+ and SVB would have been fine.
+
+And so if SVB had gone to the Fed and been like =E2=80=9Chi we have $120 bi=
+llion of Treasury bonds and stuff like that, will you lend us $120 billion =
+against them,=E2=80=9D and if the Fed had said yes, it probably=C2=A0could=
+=C2=A0have muddled through. But that $120 billion of stuff had a=C2=A0marke=
+t=C2=A0value of only $100 billion.
+The FDIC and other banking regulators spent the weekend   trying to sell SV=
+B, apparently with no luck. The goal of that sale would be to have some oth=
+er bank buy SVB=E2=80=99s assets, business, franchise, etc. and assume its =
+deposits, without necessarily paying anything to its shareholders or bondho=
+lders. I think the regulators=E2=80=99=C2=A0preference=C2=A0would have been=
+ to leave the depositors intact and=C2=A0zero the shareholders and bondhold=
+ers. They did not get there yet.
+Here is   what they came up with instead:
+
+US authorities raced on Sunday to stem jitters about the health of the nati=
+on=E2=80=99s financial system, pledging to fully protect all depositors=E2=
+=80=99 money following the collapse of Silicon Valley Bank while also givin=
+g any banks squeezed for cash easier terms on short-term loans.
+The Treasury Department, Federal Reserve and Federal Deposit Insurance Corp=
+. jointly announced the efforts aimed at strengthening confidence in the ba=
+nking system after SVB=E2=80=99s failure spurred concern about spillover ef=
+fects. ...
+The Fed in a separate statement said it=E2=80=99s creating a new =E2=80=9CB=
+ank Term Funding Program=E2=80=9D that offers loans to banks under easier t=
+erms than are typically provided by the central bank.
+Fed officials said on a briefing call that the facility will be big enough =
+to protect uninsured deposits in the wider US banking system. It was invoke=
+d under the Fed=E2=80=99s emergency authority allowing for the establishmen=
+t of a broad-based program under =E2=80=9Cunusual and exigent circumstances=
+,=E2=80=9D which requires Treasury approval. ...
+Under the new program, which provides loans of up to one year, collateral w=
+ill be valued at par, or 100 cents on the dollar. That means banks can get =
+bigger loans than usual for securities that are worth less than that =E2=80=
+=94 such as Treasuries that have declined in value as the Fed raised intere=
+st rates.
+
+Here is the  joint statement:
+
+After receiving a recommendation from the boards of the FDIC and the Federa=
+l Reserve, and consulting with the President, Secretary Yellen approved act=
+ions enabling the FDIC to complete its resolution of Silicon Valley Bank, S=
+anta Clara, California, in a manner that fully protects all depositors. Dep=
+ositors will have access to all of their money starting Monday, March 13. N=
+o losses associated with the resolution of Silicon Valley Bank will be born=
+e by the taxpayer.
+We are also announcing a similar systemic risk exception for Signature Bank=
+, New York, New York, which was closed today by its state chartering author=
+ity. All depositors of this institution will be made whole. As with the res=
+olution of Silicon Valley Bank, no losses will be borne by the taxpayer.
+Shareholders and certain unsecured debtholders will not be protected. Senio=
+r management has also been removed. Any losses to the Deposit Insurance Fun=
+d to support uninsured depositors will be recovered by a special assessment=
+ on banks, as required by law.
+
+And here is  the=C2=A0Fed statement:
+The additional funding will be made available through the creation of a new=
+ Bank Term Funding Program (BTFP), offering loans of up to one year in leng=
+th to banks, savings associations, credit unions, and other eligible deposi=
+tory institutions pledging U.S. Treasuries, agency debt and mortgage-backed=
+ securities, and other qualifying assets as collateral. These assets will b=
+e valued at par. The BTFP will be an additional source of liquidity against=
+ high-quality securities, eliminating an institution's need to quickly sell=
+ those securities in times of stress.
+I think the main point here is just =E2=80=9Cthese assets will be valued at=
+ par.=E2=80=9D
+  [11]
+=C2=A0Silicon Valley Bank is gone, but the=C2=A0next=C2=A0bank with bonds t=
+hat it bought for $100 and that are now worth $80 can go to the Fed and bor=
+row $100 against them.
+One way to look at=C2=A0this crisis is:
+=09Banks borrowed short to lend long, as they generally do.=09Rates went up=
+ far and fast, causing the market value of the banks=E2=80=99 long-lived as=
+sets to decline a lot.=09Unlike in=C2=A0It's a Wonderful Life, this decline=
+ was very=C2=A0noticeable, because it is relatively well=C2=A0accounted for=
+. At least in the footnotes of the banks=E2=80=99 financial statements, you=
+ can see how much market value their assets have lost. You can make a chart=
+! It  might show hundreds of billions of dollars of mark-to-market losses o=
+n investment securities, spread among US banks.=09Also unlike in It=E2=80=
+=99s a Wonderful Life, there is Twitter and people can tweet about this. Th=
+ere is online banking and people can pull their money from their banks on t=
+heir phones while they are  on the bus to the ski resort. Runs can happen f=
+ast; panics can spread fast.=09The problem is a fairly pure one of=C2=A0int=
+erest-rate sensitivity. The banks did not make bad loans to bad borrowers; =
+they are mostly still profitable day-to-day. It=E2=80=99s just that if they=
+ had to sell all their bonds today, some of them would be in bad shape.=09T=
+he basic job of the Fed, as lender of last resort,=C2=A0is to make it so th=
+e banks don=E2=80=99t have to sell their bonds today.=09By lending the bank=
+s money against those bonds.=09And by valuing those bonds at par =E2=80=94=
+=C2=A0by ignoring the mark-to-market accounting that has gotten everyone el=
+se worried.
+
+The Fed can do that! The=C2=A0Fed=C2=A0can certainly hold the assets to mat=
+urity;=C2=A0it=C2=A0can=E2=80=99t lose its funding and be forced to sell ev=
+erything in a panic.
+One way to think of this is that US banks =E2=80=94=C2=A0especially SVB, bu=
+t not only SVB =E2=80=94=C2=A0have had huge mark-to-market losses on their =
+bond portfolios as interest rates go up, but it is=C2=A0traditional for ban=
+ks to ignore those losses. In traditional banking, rising interest rates ar=
+e a matter of opportunity costs and net interest margin, not of large mark-=
+to-market losses.
+But in the modern world =E2=80=94=C2=A0of more pervasive financial markets =
+and more sophisticated accounting and faster-moving information =E2=80=94=
+=C2=A0the banks and their customers=C2=A0were unable to ignore those losses=
+. So the Fed stepped in and said: Look, we are best positioned to ignore th=
+ose losses, so we will. The service that the Fed is providing to the bankin=
+g system here is=C2=A0ignoring that rates went up=C2=A0when=C2=A0it values =
+banks=E2=80=99 bonds. That service is incredibly valuable. Historically ban=
+ks=E2=80=99 retail depositors provided it, but now only the Fed can.
+
+ =20
+    =20
+      =20
+        =20
+      =20
+   =20
+ =20
+ =20
+   =20
+     =20
+     =20
+       =20
+         =20
+            =20
+              =20
+                =20
+              =20
+           =20
+         =20
+       =20
+     =20
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+      Signature
+   =20
+ =20
+
+Oh yeah,=C2=A0Signature Bank failed?=C2=A0
+
+Both Signature=E2=80=99s insured and uninsured customers will be able to ac=
+cess all their deposits under the same =E2=80=9Csystemic risk exception=E2=
+=80=9D that will give Silicon Valley Bank customers access to their cash st=
+arting Monday, regulators said.
+The decision to close Signature came as a surprise to its managers, who fou=
+nd out shortly before the public announcement, according to a person famili=
+ar with the matter. The bank faced a torrent of deposit outflows on Friday,=
+ but the situation had stabilized by Sunday, the person said, asking not to=
+ be identified discussing a private matter.
+=E2=80=9CI think that if we=E2=80=99d been allowed to open tomorrow, that w=
+e could=E2=80=99ve continued =E2=80=94 we have a solid loan book, we=E2=80=
+=99re the biggest lender in New York City under the low-income housing tax =
+credit,=E2=80=9D said former Congressman Barney Frank, a Signature Bank boa=
+rd member known for the Dodd-Frank Act, which overhauled US financial regul=
+ation in the wake of the global financial crisis. =E2=80=9CI think the bank=
+ could=E2=80=99ve been a going concern.=E2=80=9D =E2=80=A6
+Much like Silicon Valley Bank, with clients made up almost entirely of busi=
+nesses, Signature had a deposit base that was mostly uninsured =E2=80=94 ro=
+ughly 90% of deposits for Signature, and north of 93% of domestic deposits =
+at SVB. That may have attracted the attention of regulators looking into ba=
+nks with large uninsured deposit bases.=C2=A0
+=E2=80=9CWhat happened at Silvergate and SVB was a very traditional bank fa=
+ilure,=E2=80=9D said J. Austin Campbell, an adjunct professor of Columbia B=
+usiness School. =E2=80=9CThis, unless there was a bigger run on deposits th=
+an we know about, is less so. If there=E2=80=99s not some pretty gory detai=
+ls that came out after about the balance sheet, it=E2=80=99s hard to figure=
+ out why they were singled out.=E2=80=9D
+
+One notable fact is that Signature is (was?) one of the two main crypto-fri=
+endly US banks, along with Silvergate, and I suppose shutting them down is =
+appealing to bank regulators who have become very skeptical of crypto. Argu=
+ably this whole banking crisis was kicked off by   contagion from crypto =
+=E2=80=94=C2=A0crypto exchanges banked with Silvergate, they lost money, th=
+ey pulled it out of Silvergate, that sparked a run, it spread =E2=80=94=C2=
+=A0and regulators have been vocal about wanting to prevent further contagio=
+n from crypto into the real financial system. Seizing the crypto banks is a=
+ step toward doing that.
+But I think there=E2=80=99s another way to read this. The measures that US =
+regulators announced yesterday =E2=80=94=C2=A0the BTFP and the guarantees o=
+n uninsured deposits =E2=80=94=C2=A0do in some obvious sense amount to a=C2=
+=A0bailout of banks. Not of Silicon Valley Bank, though: SVB had already be=
+en seized by the FDIC, and its shareholders (and perhaps bondholders) will =
+get zeroed. SVB took dumb risks with depositor money and so its investors l=
+ost everything, but the depositors will get their money back.
+But every=C2=A0other=C2=A0bank=E2=80=99s=C2=A0shareholders and bondholders =
+and executives will benefit from those measures. If you are an uninsured de=
+positor at a medium-sized bank that made some dumb rates bets, there is no =
+reason to move your money now; the Fed has made it clear that it will suppo=
+rt that bank. This (probably!)   takes run risk off the table for those ban=
+ks, making them less likely to fail, making their stocks and bonds more val=
+uable than they would be if the Fed hadn=E2=80=99t acted to limit contagion=
+. (In actual fact many bank stocks=C2=A0are  down big today, though presuma=
+bly they=E2=80=99d be down=C2=A0more=C2=A0without these measures.) The resc=
+ue of Silicon Valley Bank=E2=80=99s depositors comes too late for Silicon V=
+alley Bank=E2=80=99s shareholders, but it=E2=80=99s good for every similar =
+bank=E2=80=99s shareholders.
+As a matter of rough justice you could imagine the Fed looking at the=C2=A0=
+most=C2=A0similar bank =E2=80=94=C2=A0arguably Signature, with its huge pro=
+portion of uninsured deposits and its exposure to fast-money crypto/tech cu=
+stomers =E2=80=94=C2=A0and saying =E2=80=9Cno, not you,=C2=A0your=C2=A0shar=
+eholders are getting toasted.=E2=80=9D The mechanics of the rescue mean tha=
+t inevitably some bank shareholders will be bailed out, but not all of them=
+.
+
+ =20
+   =20
+      Elsewhere in BTFP
+   =20
+ =20
+
+I love my readers, and yesterday one of them more or less immediately email=
+ed to ask, about the Fed=E2=80=99s Bank Term Funding Program: =E2=80=9CCan =
+I get in on this? Specifically, can I buy a controlling interest in a bank,=
+ and then buy a bunch of long dated treasury instruments at $80, and exchan=
+ge them for $100 immediately?=E2=80=9D Great question! The answer is no. He=
+re is  the termsheet for the BTFP:
+
+Eligible Collateral: Eligible collateral includes any collateral eligible f=
+or purchase by the Federal Reserve Banks in open market operations (see 12 =
+CFR 201.108(b)), provided that such collateral was owned by the borrower as=
+ of March 12, 2023.
+Advance Size: Advances will be limited to the value of eligible collateral =
+pledged by the eligible borrower.
+Rate: The rate for term advances will be the one-year overnight index swap =
+rate plus 10 basis points; the rate will be fixed for the term of the advan=
+ce on the day the advance is made.
+Collateral Valuation: The collateral valuation will be par value. Margin wi=
+ll be 100% of par value.
+
+So you needed to own the bonds by yesterday in order to borrow against them=
+ today at par. If you go out and buy Treasury bonds at 80 cents on the doll=
+ar today, you can=E2=80=99t put them into the BTFP and borrow 100 cents aga=
+inst them. But if you bought Treasury bonds a year ago at 100 cents on the =
+dollar, and they=E2=80=99re worth 80 cents on the dollar today, and you=E2=
+=80=99re a bank, you=C2=A0can=C2=A0put them into the BTFP and borrow 100 ce=
+nts against them.=C2=A0
+This means that BTFP is not a perpetual program to let banks ignore mark-to=
+-market accounting forever: It is a way for banks to=C2=A0roll off=C2=A0the=
+ir existing portfolios of Treasuries that have lost value in the current ra=
+te-hiking cycle, to transition to a steady state where (you hope!) banks ar=
+e less at risk from interest-rate increases.
+Also here is  the list of eligible collateral, which is all pretty high-qua=
+lity stuff, =E2=80=9Cdirect obligations of, and obligations fully guarantee=
+d as to principal and interest by, the United States,=E2=80=9D meaning Trea=
+sury bonds, agency securities, etc. Again, this is purely a bailout of bank=
+s=E2=80=99 bad interest-rate=C2=A0bets; they get to ignore losses on long-d=
+ated Treasuries but not any mistakes they made on business loans.
+
+ =20
+   =20
+      Deposit trading
+   =20
+ =20
+
+Do you think they  got any trades in?
+
+Hedge funds are offering to buy startups=E2=80=99 deposits stranded at Sili=
+con Valley Bank for as little as 60 cents on the dollar, pitching expensive=
+ but crucial lifelines to founders unable to access their cash after the le=
+nder collapsed yesterday, people familiar with the matter said.
+Firms better known for investing in distressed debt, including Oaktree, one=
+ of the people said, are fanning out to startups in the wake of the bank=E2=
+=80=99s failure and seizure by the Federal Insurance Deposit Corp. on Frida=
+y. Its collapse left hundreds of startups =E2=80=94 as well as the venture =
+funds that backed them =E2=80=94 unable to access their cash to meet payrol=
+l and other expenses.
+Bids range from 60 to 80 cents on the dollar, the people said, reflecting a=
+ range of expectations for how much of the uninsured deposits =E2=80=94 tho=
+se that exceed the FDIC=E2=80=99s $250,000-per-customer cap =E2=80=94 will =
+ultimately be recovered once the bank=E2=80=99s assets are sold or wound do=
+wn.
+
+That is from Semafor on Saturday, and we now know the answer is 100 cents o=
+n the dollar. When we talked about this on Friday, I figured plausible answ=
+ers ranged from 95 to 100, with 100 being the most likely outcome. If you a=
+re a startup who woke up today needing to=C2=A0make payroll, you might have=
+ been tempted by 60, even though it was objectively way too low. Except tha=
+t when you woke up=C2=A0today=C2=A0the FDIC had already said you=E2=80=99d =
+be able to get 100 cents on the dollar immediately. Things were less certai=
+n on Saturday, but you probably didn=E2=80=99t need to make payroll on Satu=
+rday. Seems unlikely that Oaktree did much business (or  Jefferies, which w=
+as also offering to buy claims), but still, I admire the speedy opportunism=
+.
+
+ =20
+   =20
+      Bond trading
+   =20
+ =20
+
+ Sure?
+
+As US government officials pledged to fully protect all depositors of the f=
+ailed Silicon Valley Bank, they had a specific message for investors in the=
+ bonds and shares of the bank=E2=80=99s holding company.
+They=E2=80=99ll be =E2=80=9Cwiped out,=E2=80=9D a senior Treasury official =
+said in a call with reporters late Sunday.
+Yet some traders appear to be betting that the recovery value of bonds issu=
+ed by parent SVB Financial Group will be higher than the market was pricing=
+ in during the tumultuous Friday session.
+The senior unsecured bonds were changing hands at around 47 to 50 cents on =
+the dollar Monday morning, higher than the roughly 37 to 42 cents at the en=
+d of Friday, according to data from the US trade reporting system known as =
+Trace. SVB bonds were among the most actively traded obligations over the M=
+onday session, per Trace.
+The parent has assets that could be used in a bankruptcy to repay creditors=
+, including $2.3 billion in cash, $491 million in investments and nonbank u=
+nits worth $896 million, according the company=E2=80=99s annual report.=C2=
+=A0
+Investors and credit graders expect the holding company will be put into Ch=
+apter 11 bankruptcy after the government seizure of its banking operations.=
+=C2=A0
+
+I mean the Treasury can=E2=80=99t really just=C2=A0decide=C2=A0to wipe out =
+the bonds: If it turns out that Silicon Valley Bank ultimately sells for mo=
+re than its deposits, somebody has to get that money, and the bondholders a=
+re =E2=80=A6=C2=A0=E2=80=9Cfirst in line=E2=80=9D is an exaggeration, proba=
+bly the bank regulators could find ways to extract some extra money from SV=
+B to pay for its rescue, but the bondholders are=C2=A0in=C2=A0line. The fac=
+t that the FDIC didn=E2=80=99t succeed in selling SVB over the weekend is n=
+ot a=C2=A0great=C2=A0sign for the eventual recovery, but I=E2=80=99m not su=
+re it=E2=80=99s obvious that the recovery will be zero, even though Treasur=
+y would probably like that outcome.
+
+ =20
+   =20
+      USDC
+   =20
+ =20
+
+Most of the leading crypto stablecoins have a pretty simple model: You give=
+ some stablecoin issuer $1, the issuer keeps the dollar and gives you back =
+a dollar-denominated stablecoin, and the issuer promises to redeem the stab=
+lecoin for a dollar when you want. Meanwhile, the issuer has to hang on to =
+the dollar. There are roughly two ways for it to do this:
+=09The issuer can try to work nicely with US regulators, get various licens=
+es, and park its money in some combination of Treasury bills, other safe li=
+quid assets, and accounts at regulated US banks.=09The issuer can be a tota=
+l mystery! The money is somewhere! Probably! But you=E2=80=99ll never find =
+out where.
+
+USDC, the stablecoin of Circle, is probably the leading example of the firs=
+t option. USDT, the stablecoin of Tether, is probably the leading=C2=A0exam=
+ple of the second option.
+Me, I am a guy from traditional finance, and I=E2=80=99ve always been a bit=
+ puzzled that everyone in crypto trusts Tether so completely. You could put=
+ your money in a stablecoin that transparently keeps it in regulated banks,=
+ or you could put your money in Tether, which is   very cagy and sometimes =
+gets up to   absolutely wild stuff with the money. Why choose Tether?
+But then this weekend   USDC depegged and USDT did not, because USDC has mo=
+ney at Silicon Valley Bank and USDT (presumably!) does not:
+
+Crypto=E2=80=99s second-largest stablecoin rebounded toward its intended $1=
+ dollar peg as issuer Circle Internet Financial Ltd. pledged to cover any s=
+hortfall in $3.3 billion of reverses held at collapsed Silicon Valley Bank.
+USD Coin, a key plank in crypto markets, rose as high as $1 and was trading=
+ at 98.2 cents as of 10:50 a.m. Sunday in Tokyo. The coin had earlier fetch=
+ed less than 85 cents in a depeg that sent a shudder through digital assets=
+.
+Circle reiterated its stablecoin, also known as USDC, is fully backed by $4=
+2.1 billion in cash and US Treasuries. The company said outbound transfers =
+of the $3.3 billion at Silicon Valley Bank initiated as of Thursday had yet=
+ to settle but expressed confidence in US regulatory efforts to manage the =
+overall situation. =E2=80=A6
+Top stablecoin Tether or USDT =E2=80=94 which has previously faced scrutiny=
+ over its reserves =E2=80=94 said on Friday that it doesn=E2=80=99t have ex=
+posure to Silicon Valley Bank and has held firm at $1 or above.
+
+One possible understanding of this situation is that Circle made some bad c=
+redit decisions with its portfolio (putting billions of dollars into a rick=
+ety US bank), while Tether made excellent credit decisions with its portfol=
+io (putting billions of dollars into whatever it is putting billions of dol=
+lars into). And, by extension, the traditional regulated US banking system =
+isn=E2=80=99t that safe, and Tether=E2=80=99s more complicated exposures ar=
+e actually better than keeping the money in the bank.
+Another possible understanding, though, is that banking requires mystery! M=
+y point, in the first section of this column, was that too much transparenc=
+y can add=C2=A0to the fragility of a bank, that the Fed is providing a valu=
+able service by ignoring banks=E2=80=99 mark-to-market losses. Circle does =
+not provide that service. Circle keeps its money in a bank with financial s=
+tatements, and that bank fails, and Circle dutifully puts out a statement s=
+aying =E2=80=9Cwhoops we had $3.3 billion in the failed bank,=E2=80=9D and =
+people naturally panic and USDC depegs. You have no idea where Tether keeps=
+ its money, so you have no idea if anything went wrong. This has generally =
+struck me as bad, but it might have some advantages.
+
+ =20
+   =20
+      Programming note
+   =20
+ =20
+
+Money Stuff was supposed to be off on Friday, but then Silicon Valley Bank =
+collapsed and   there was an unscheduled Money Stuff. Back when Elon Musk w=
+as trying to buy or not buy=C2=A0Twitter, that sort of thing happened a lot=
+, to the point that  the Verge published a story titled =E2=80=9CA brief hi=
+story of Elon Musk sabotaging Matt Levine=E2=80=99s=C2=A0time off.=E2=80=9D=
+=C2=A0This is enough of a thing that people sometimes=C2=A0joke on Twitter =
+about buying index options whenever I write =E2=80=9CMoney Stuff will be of=
+f tomorrow,=E2=80=9D on the theory that the market gods always get up to so=
+mething crazy whenever I try to take a day off.
+Naturally someone did a backtest and turns out it=E2=80=99s a bad idea (not=
+ investing advice!). Here is =E2=80=9CA Matt Levine Effect?=E2=80=9D by Pau=
+l Connell, William Fallon and Nicholas Foretek, on SSRN and everything:
+This paper constructs a novel dataset to explore whether Matt Levine=E2=80=
+=99s vacation drives market volatility as suggested by readers and Levine h=
+imself. It finds that contrary to expectations, Levine=E2=80=99s vacations =
+have an (almost) statistically significant effect in the opposite direction=
+: decreasing market volatility. This paper provides a series of potential e=
+xplanations for this observed market reaction.
+The main explanation is that I take vacations at normal vacation times, whe=
+n everyone else takes vacations and markets are often quiet. The paper is f=
+ull of good sentences, including =E2=80=9CThe measured effect of Matt Levin=
+e=E2=80=99s vacations on financial market volatility is negative and of a c=
+onsiderable magnitude,=E2=80=9D =E2=80=9CThis paper contributes to two bodi=
+es of research. The first is a collection of studies that examine spurious =
+statistical correlates of important macroeconomic events,=E2=80=9D =E2=80=
+=9CTo our knowledge, we are the first to combine Money Stuff publication da=
+tes, VIX closing data, federal bank holidays and sunspot records into a sin=
+gle database=E2=80=9D and =E2=80=9CCollection of the data for this study wa=
+s made possible by the authors=E2=80=99 status as graduate students who, if=
+ our advisors are asking, definitely spent the whole week before spring bre=
+ak working on our dissertations.=E2=80=9D=C2=A0
+
+ =20
+   =20
+      Things happen
+   =20
+ =20
+
+Ron DeSantis blames Silicon Valley Bank=E2=80=99s collapse on  DEI. Trouble=
+ at SVB, First Republic Signal   Reckoning for Tech Money Fueling Californi=
+a. Ben Thompson: The End of Silicon Valley (Bank). Savers Pile Money Into  =
+Bank CDs as Rates Top 5%.   Mortgage Payments Hit Record High. Pfizer to bu=
+y oncology-focused biotech  Seagen for $43bn. Adani Founders Prepay   Share=
+-Backed Loans Worth $2.15 Billion. JPMorgan=E2=80=99s Jes Staley Suit Seen =
+as Prelude to   Settlement Over Epstein Claims. Drunk Drivers=E2=80=99 Cars=
+ Are Being   Sent to Ukraine by Latvia. March Madness, Vasectomies Are an  =
+Unlikely Pairing Filling Urology Offices.
+If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form, right =
+in your inbox, please=C2=A0subscribe at this link. Or you can subscribe to =
+Money Stuff and other great Bloomberg newsletters here. Thanks!
+       =20
+  [1] In fact, banks generally make higher net interest margins as rates go=
+ up, because they can increase their interest income (on long-term loans an=
+d bonds) faster than they increase their deposit interest expense. I cited =
+it   the other day, but here=E2=80=99s =E2=80=9CBanking on Deposits: Maturi=
+ty Transformation without Interest Rate Risk,=E2=80=9D by Itamar Drechsler,=
+ Alexi Savov and Philipp Schnabl, in the Journal of Finance in 2021: =E2=80=
+=9CWe show that maturity transformation does not expose banks to interest r=
+ate risk =E2=80=94 it hedges it. The reason is the deposit franchise, which=
+ allows banks to pay deposit rates that are low and insensitive to market i=
+nterest rates. Hedging the deposit franchise requires banks to earn income =
+that is also insensitive, that is, to lend long term at fixed rates. As pre=
+dicted by this theory, we show that banks closely match the interest rate s=
+ensitivities of their interest income and expense, and that this insulates =
+their equity from interest rate shocks. Our results explain why banks suppl=
+y long-term credit.=E2=80=9D
+
+
+  [2] Acceptable yet still lazy options for bankers would include saying =
+=E2=80=9Cehh a 5-year bond has about a 4-year duration so if rates go up 3%=
+ that=E2=80=99s a 12-point loss=E2=80=9D (for a price of $88), or =3DPV(.05=
+,5,-2,-100) in Excel (for a price of $87.01).
+
+
+  [3] I am trying to be as casual as possible about capital here, because n=
+o one ever likes reading about bank capital. But the idea is that the asset=
+s side of the balance sheet is (1) $100 of loans plus (2) $10 of cash, and =
+the liability side is (3) $100 of deposits plus (4) $10 of stockholders=E2=
+=80=99 equity.
+
+
+  [4] As a matter of double-entry accounting, it needs to go somewhere, wit=
+h the two main options being (1) subtracting it from net income or (2) subt=
+racting it from accumulated other comprehensive income.
+
+
+  [5] Even loans trade more freely and are more likely to be marked to mark=
+et than they used to be.
+
+
+  [6] Two books that discuss this transition, from old-style bank accountin=
+g to modern mark-to-market accounting, and its relationship to banking cris=
+es, are Nicholas Dunbar=E2=80=99s =E2=80=9CThe Devil=E2=80=99s Derivatives=
+=E2=80=9D and Friedman and Kraus=E2=80=99s =E2=80=9CEngineering the Financi=
+al Crisis.=E2=80=9D
+
+
+  [7] Most relevant, check out  page 125 of the 2022 Form 10-K of SVB Finan=
+cial Group Inc. (Silicon Valley Bank=E2=80=99s former holding company). On =
+page 95, you get  the balance sheet, showing $16.3 billion of stockholders=
+=E2=80=99 equity. On page 125, in the notes, you get $15.2 billion of unrea=
+lized losses on the HTM securities portfolio.
+
+
+  [8] I=E2=80=99m quoting  Byrne Hobart's post about Silicon Valley Bank fr=
+om Feb. 23, which has become rather famous.
+
+
+  [9] Here is a  Twitter thread from Daniela Gabor about this consensus. =
+=E2=80=9CWith 1990s shift in open market operations from outright purchases=
+ (of sovereign bonds) to repo loans against collateral (sovereign or other)=
+, central banks adopted 'modern' collateral valuation: - collateral at mark=
+et price rather than par - haircut on market price. =E2=80=A6 Until yesterd=
+ay, in my 15 years of researching central banks collateral I have never hea=
+rd one single central banker contesting this common wisdom: never, ever par=
+ value.=E2=80=9D
+
+
+  [10] I don=E2=80=99t really know, but if you take its equity capital as o=
+f Dec. 31 and subtract unrealized losses on its HTM portfolio you get a bar=
+ely positive number, and then if you haircut, like, its wine loans at all, =
+you get a negative number. And then stuff only got worse over February and =
+March. Here=E2=80=99s a  Jefferies valuation suggesting assets were worth l=
+ess than its *deposits* as of Friday.
+
+
+  [11] Nathan Tankus  tweeted: =E2=80=9CA lot of the discussion this weeken=
+d is coming close to accepting @rohangrey's argument that any asset a bank =
+is authorized to make should be acceptable collateral at acquisition price =
+at the discount window.=E2=80=9D=20
+
+
+     =20
+   =20
+ =20
+
+
+ =20
+   =20
+       =20
+         =20
+            Follow Us
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+           =20
+             =20
+           =20
+         =20
+         =20
+         =20
+           =20
+              Get the newsletter
+           =20
+         =20
+       =20
+   =20
+ =20
+
+
+ =20
+   =20
+     =20
+     =20
+
+
+ =20
+   =20
+     =20
+       =20
+       =20
+Like getting this newsletter?=20
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven jou=
+rnalism and subscriber-only insights.
+
+
+
+Before it=E2=80=99s here, it=E2=80=99s on the=C2=A0Bloomberg=C2=A0Terminal.=
+=C2=A0Find out more about how the Terminal delivers information and analysi=
+s that financial professionals can=E2=80=99t find anywhere else.=C2=A0Learn=
+ more.
+
+     =20
+   =20
+ =20
+
+
+
+       =20
+           You received this message because you are subscribed to Bloomber=
+g's Matt Levine's Money Stuff newsletter.
+       =20
+       =20
+          Unsubscribe | Bloomberg.com | Contact Us
+       =20
+       =20
+         =20
+           =20
+             =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+               =20
+                  |
+               =20
+               =20
+                 =20
+                   =20
+                 =20
+               =20
+             =20
+           =20
+         =20
+       =20
+       =20
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+       =20
+     =20
+   =20
+ =20
+ =20
+
+
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ciclsr.648a/8d2c0056.gif" alt=3D"" border=3D"0" /></a>
+
+------=_Part_8422153_1209410666.1678731296894
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns=3D"http://www.w3.org/199=
+9/xhtml" style=3D"width: 100%;">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1" />
+<title>Matt Levine's Money Stuff</title>
+<!--[if (mso)|(mso 16)]>
+<style type=3D"text/css">a {text-decoration: none;}</style>
+<![endif]-->
+<style>body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px; line-height: 150%; margin: 0; padding: 0=
+;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid =
+#000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media only screen and (max-width: 480px) {       =20
+.lihide {           =20
+display: none !important;       =20
+}       =20
+.lishow {           =20
+display: block !important;           =20
+width: auto !important;           =20
+overflow: visible !important;           =20
+float: none !important;           =20
+max-height: inherit !important;           =20
+line-height: inherit !important;       =20
+}   =20
+}
+</style></head>
+<body style=3D"width: 100%; -webkit-font-smoothing: antialiased; font-famil=
+y: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; margin=
+: 0; padding: 0;">
+<table id=3D"wrapper" class=3D"wrapper" width=3D"100%" align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+; max-width: 550px; width: 100% !important;">
+<!--[if mso]>
+<center>
+<tr><td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"550">
+<![endif]-->
+<tr>
+<td class=3D"sailthru-variables" style=3D"border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"preview-text" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;">
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+The way a bank works is that it borrows short to lend long. Simplistically,=
+ a bank might get its money from demand deposits, checking and sa
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"logo-wrapper" style=3D"border-collapse: collapse; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; padding-bottom: 15px;">
+<table class=3D"logo" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tr>
+<td align=3D"center" class=3D"view-in-browser" style=3D"border-collapse: co=
+llapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 10p=
+x;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" class=3D"logo-container" style=3D"border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 5px;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F1dGhvcnMvQVJiVFFsUkxSakUvbWF0d=
+Ghldy1zLWxldmluZT9jbXBpZD1CQkQwMzEzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWls=
+JnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMTMmdXRtX2NhbXBhaWduPW1vbmV=
+5c3R1ZmY/607f07ceef4b8524a319a23cBd5f66859"><!--[if mso]>
+<table width=3D"550"><tr><td><img alt=3D"Bloomberg" src=3D"https://assets.b=
+wbx.io/images/users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" width=3D"550" /=
+></td></tr></table>
+<div style=3D"display:none">
+<![endif]--><img class=3D"logo-image" src=3D"https://assets.bwbx.io/images/=
+users/iqjWHBFdfxIU/ije72WSHsgD4/v0/-1x-1.png" border=3D"0" alt=3D"Bloomberg=
+" style=3D"max-width: 550px; width: 100%; display: block;" /><!--[if mso]>
+</div>
+<![endif]--></a>
+</td>
+</tr>
+</table><table class=3D"liveintent-sponsored-logo" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center">
+<tr>
+<td colspan=3D"2">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTgyNTg4MSZsaT0zMDgyMTIxMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzExMDY2Mjkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cBc03c3757" rel=3D"nofollow">
+<img src=3D"https://sli.bloomberg.com/imp?s=3D825881&amp;li=3D30821211&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31106629&amp;stpe=3Ddefault&am=
+p;" border=3D"0" width=3D"108" style=3D"width: 108px !important; display:bl=
+ock" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<table class=3D"body-component" width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0">
+<tr>
+<td class=3D"body-component__content" style=3D"border-collapse: collapse; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 150%; padding: 0 =
+10px;">
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Silicon Valley Bank</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">The way a bank works is that it borrows short =
+to lend long. Simplistically, a bank might get its money from demand deposi=
+ts, checking=C2=A0and savings accounts that customers can withdraw at any t=
+ime. And the bank might=C2=A0pay, say, 0% interest on those deposits. And t=
+hen it invests the money in some longer-term assets, loans and bonds that d=
+on=E2=80=99t get paid back for years, and that pay, say, 2% interest. The b=
+ank earns 2% on its money, pays 0% to depositors for the money, and keeps t=
+he spread, the net interest margin,=C2=A0which is 2% in this example.</p>
+<p style=3D"margin: 16px 0;">Sometimes interest rates go up or down, though=
+. Simplistically, short-term interest rates in the US are set by the Federa=
+l Reserve, which will raise interest rates to cool the economy if inflation=
+ is too high.</p>
+<p style=3D"margin: 16px 0;">This is a risk for a bank=E2=80=99s borrow-sho=
+rt-to-lend-long business model. If the Fed suddenly raises short-term inter=
+est rates to, say, 3%, then you have to start paying 3% on your deposits. M=
+eanwhile long-term interest rates have probably also gone up to, say, 5%, b=
+ut you are still earning the old 2% on your loans and bonds, because they a=
+re long-term loans that don=E2=80=99t get paid back for years. Your net int=
+erest margin is now negative 1%: You pay 3% on deposits and earn only 2% on=
+ loans and bonds.</p>
+<p style=3D"margin: 16px 0;">This is an obvious problem and much of the bus=
+iness of banking is about managing it. Here are some simple things that you=
+ can do:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">Your loans and bonds have laddered ma=
+turities: Some mature next week, some in 3 years, some in 6. So as rates go=
+ up, your loans and bonds are constantly rolling off and you are reinvestin=
+g the money in new loans and bonds at higher rates.</li>=09<li style=3D"mar=
+gin-bottom: 5px;">When the Fed raises rates, in actual fact, banks mostly=
+=C2=A0<em>don=E2=80=99t=C2=A0</em>pass along the whole rate increase to dep=
+ositors. It=E2=80=99s a pain to switch banks, and most depositors don=E2=80=
+=99t pay that much attention to rates. The =E2=80=9C<a href=3D"https://link=
+.mail.bloombergbusiness.com/click/30821211.285418/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDItMjMvd2h5LWlzLXRoZS1pbnRlcmVzdC1yYXRl=
+LW9uLW15LXNhdmluZ3MtYWNjb3VudC1zby1sb3c_Y21waWQ9QkJEMDMxMzIzX01PTkVZU1RVRkY=
+mdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzEzJn=
+V0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cBf7e1f5a2" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+deposit beta</a>=E2=80=9D =E2=80=94=C2=A0the sensitivity of bank deposit ra=
+te increases=C2=A0to Fed interest rate increases =E2=80=94=C2=A0is lower th=
+an 1. So if the Fed raises rates from 0% to 3%, you might end up paying onl=
+y, say, 0.5% on deposits.<a class=3D"footnote-index" href=3D"#footnote-1" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: none !important=
+; background-color: transparent !important; display: inline-block;">
+<span>[1]</span>
+</a>
+</li>=09<li style=3D"margin-bottom: 5px;">You can try to match your assets =
+and liabilities somewhat. Make some short-term loans, and some floating-rat=
+e loans, so that your assets are more sensitive to rising rates. Borrow som=
+e money with long-term bonds, so that your liabilities are less sensitive t=
+o rising rates. Do interest-rate swaps to hedge.</li>=09<li style=3D"margin=
+-bottom: 5px;">You can make money in ways other than net interest margin: C=
+harge overdraft fees or do investment banking or trade securities or whatev=
+er.</li>
+</ol>
+<p style=3D"margin: 16px 0;">This is not, however, the biggest problem with=
+ borrowing short to lend long. The biggest problem is that your depositors =
+might all ask for their money back tomorrow, and you might not be able to g=
+et the money back from your borrowers for years. This problem is known as a=
+ =E2=80=9Cbank run=E2=80=9D and is famous from, you know, the <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/30821211.285418/aHR0cHM6Ly9lbi5=
+3aWtpcGVkaWEub3JnL3dpa2kvRGlhbW9uZCVFMiU4MCU5M0R5YnZpZ19tb2RlbA/607f07ceef4=
+b8524a319a23cB6d451d26" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;"> Diamond-Dybvig model</a> that <a href=3D"h=
+ttps://link.mail.bloombergbusiness.com/click/30821211.285418/aHR0cHM6Ly93d3=
+cubm9iZWxwcml6ZS5vcmcvcHJpemVzL2Vjb25vbWljLXNjaWVuY2VzLzIwMjIvcHJlc3MtcmVsZ=
+WFzZS8/607f07ceef4b8524a319a23cBe56d900c" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> won a Nobel Prize</a> l=
+ast year, or from <em>It=E2=80=99s a Wonderful Life</em>. =E2=80=9C<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/aHR0cHM6L=
+y93d3cueW91dHViZS5jb20vd2F0Y2g_dj1PVEpDSTFGTkJmQQ/607f07ceef4b8524a319a23cB=
+9e5d644f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" =
+style=3D"color: #000000; text-decoration: none !important; border-bottom-wi=
+dth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgro=
+und-color: #ccc;">The money=E2=80=99s not here</a>. Why, your money=E2=80=
+=99s in Joe=E2=80=99s house,=E2=80=9D etc.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Much of the business of banking, and of bank=
+=C2=A0regulation, is about managing=C2=A0<em>this=C2=A0</em>risk. For insta=
+nce:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The government can provide deposit in=
+surance on accounts, promising depositors that they=E2=80=99ll get their mo=
+ney back, which will make them less=C2=A0<em>inclined </em>to ask for their=
+ money back, since they know it=E2=80=99s safe.=C2=A0</li>=09<li style=3D"m=
+argin-bottom: 5px;">The government can regulate banks to make them act safe=
+ly, so that they don=E2=80=99t=C2=A0lose customer money, so that customers =
+are confident and don=E2=80=99t ask for their money back.</li>=09<li style=
+=3D"margin-bottom: 5px;">You can keep a lot of cash around, so that if a lo=
+t of depositors (though certainly not all of them) ask for their money back=
+, you have some to give to them.</li>=09<li style=3D"margin-bottom: 5px;">I=
+f a lot of depositors ask for their money back and you run through your cas=
+h, you can=C2=A0<em>sell=C2=A0</em>some of your loans or bonds to raise mon=
+ey. In the days of=C2=A0<em>It=E2=80=99s a Wonderful Life=C2=A0</em>it was =
+kind of hard to sell the mortgage on Joe=E2=80=99s house for ready cash, bu=
+t modern financial markets are much deeper and more liquid, which is good f=
+or selling bonds or loans or other bank assets.=C2=A0</li>=09<li style=3D"m=
+argin-bottom: 5px;">Alternatively, you can=C2=A0<em>borrow against=C2=A0</e=
+m>your assets: You can go to a bigger bank, or to a lender of last resort=
+=C2=A0like the Federal Reserve,=C2=A0 or a =E2=80=9C<a href=3D"https://link=
+.mail.bloombergbusiness.com/click/30821211.285418/aHR0cHM6Ly93d3cuYmxvb21iZ=
+XJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTMvZmVkZXJhbC1ob21lLWxvYW4tYmFua3Mt=
+dG8tcmFpc2UtNjQtYmlsbGlvbi1pbi1ub3Rlcy1vZmZlcmluZz9jbXBpZD1CQkQwMzEzMjNfTU9=
+ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT=
+0yMzAzMTMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cBd62ff072=
+" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D=
+"color: #000000; text-decoration: none !important; border-bottom-width: 1px=
+; border-bottom-color: #000000; border-bottom-style: solid; background-colo=
+r: #ccc;">  lender of next-to-last resort</a>=E2=80=9D like the Federal Hom=
+e Loan Banks, and=C2=A0borrow=C2=A0the cash to pay out depositors. And as c=
+ollateral for that loan to you, you post your assets, the bonds you own or =
+the loans you made to your customers. This is the most classic way to deal =
+with bank runs, and is famous from Walter Bagehot=E2=80=99s=C2=A0<em>Lombar=
+d Street.=C2=A0</em>=E2=80=9CLend freely, at a penalty rate, against=C2=A0g=
+ood collateral=E2=80=9D is <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30821211.285418/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTG9tYmFyZF=
+9TdHJlZXQ6X0FfRGVzY3JpcHRpb25fb2ZfdGhlX01vbmV5X01hcmtldA/607f07ceef4b8524a3=
+19a23cB4a00f32e" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_=
+blank" style=3D"color: #000000; text-decoration: none !important; border-bo=
+ttom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; =
+background-color: #ccc;"> the basic advice</a>=C2=A0Bagehot gives=C2=A0cent=
+ral bankers: If a bank has good loans, but it can=E2=80=99t turn them into =
+money right away, the central bank should lend it the money.</li>
+</ol>
+<p style=3D"margin: 16px 0;">Let=E2=80=99s talk about Option 4,=C2=A0<em>se=
+lling=C2=A0</em>assets to raise money to pay back depositors. Let=E2=80=99s=
+ say you loaned a customer $100 for five years at 2% interest. The customer=
+ is big and reliable and the loan will definitely be paid back.=C2=A0How mu=
+ch can you sell that loan for? Well, the day after you made the loan, it sh=
+ould be worth about $100 =E2=80=94=C2=A0about what you paid for it. But wha=
+t if the Fed raises short-term interest rates from 0% to 3%? Then the marke=
+t interest rate on loans like this will probably go up from 2% to 5%. But y=
+our loan still pays only 2%, so it is worth less. The crude intuitive math =
+is that a new market-rate loan would pay $5 of interest per year for 5 year=
+s ($25 total), while your loan pays $2 of interest for 5 years ($10 total),=
+ so it is worth about $15 less, so people would pay you about $85 for it, t=
+hough you=E2=80=99d get fired at a bank for doing bond math like that.=C2=
+=A0(Really they=E2=80=99d pay you about $87.<a class=3D"footnote-index" hre=
+f=3D"#footnote-2" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: none !important; background-color: transparent !important; display: inl=
+ine-block;">
+<span>[2]</span>
+</a>)</p>
+<p style=3D"margin: 16px 0;">There is a connection here=C2=A0to the previou=
+s problem, the one about your net interest income going down as rates go up=
+. Imagine a super-simple bank: You=C2=A0borrow=C2=A0$100 at 0% and lend=C2=
+=A0$100 at 2% for five years. You also invest $10 of your own capital in th=
+e bank, and keep that money in cash, to cover any sudden withdrawals.<a cla=
+ss=3D"footnote-index" href=3D"#footnote-3" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: none !important; background-color: transparent=
+ !important; display: inline-block;">
+<span>[3]</span>
+</a>=C2=A0You make $2 per year in interest, pay=C2=A0$0 per year of interes=
+t, and get=C2=A0$2 per year of net interest margin. You spend $1.50 of that=
+ on non-interest expense (salaries, rent, etc.),=C2=A0and keep $0.50 as pro=
+fit. After a year, you have $10.50 of capital: the $10 you put in and your =
+$0.50 of profit.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Then rates suddenly go up, so short-term rates=
+ are now 3% and long-term rates are 5%.=C2=A0None of the stuff I said befor=
+e =E2=80=94=C2=A0about deposit betas and laddered maturities =E2=80=94=C2=
+=A0works for you, for whatever reason; your deposit rates immediately jump =
+to 3% and you keep getting 2% on your bonds. This year, you will have a net=
+ loss of $2.50: You pay $3 on your $100 of deposits and get=C2=A0paid $2 on=
+ your $100 of bonds, and you also have $1.50 of salaries and rent to pay. (=
+You=E2=80=99ll be down to $8 of your own capital.) Next year, you will also=
+ have a net loss, though maybe it=E2=80=99s only $2 because you laid some p=
+eople off and closed some branches.=C2=A0(Now you=E2=80=99re down to $6 of =
+capital.) Year after, same idea: You will keep bleeding money, because you =
+borrowed short and loaned long and rates went up. But maybe something will =
+change? Maybe rates will go back down. Maybe your borrowers will repay thei=
+r bonds early and you=E2=80=99ll get to redeploy the money at higher rates.=
+ Maybe your employees will find a new line of business to earn some fees. M=
+aybe you=E2=80=99ll reverse the losses. Or not, maybe you=E2=80=99ll keep l=
+osing $2.50 per year for five years and run out of capital and have to clos=
+e the bank.=C2=A0But maybe my assumptions about your high deposit beta and =
+long-term assets are unrealistically pessimistic: This is a simplistic exam=
+ple, and at a real bank the result might be lower margins for a while, not =
+constant losses.</p>
+<p style=3D"margin: 16px 0;">But what if instead of keeping their deposits =
+at your bank and earning 3% interest, the depositors all asked for their mo=
+ney back today? You would have to sell your bonds. You=E2=80=99d get about =
+$87 for them. You would have a $13 loss=C2=A0<em>today</em>. All of the los=
+ses that you=C2=A0<em>would=C2=A0</em>have taken over the next five years, =
+from holding long-term bonds at low rates while deposit rates have gone up,=
+ you will experience=C2=A0<em>now</em>. And you won=E2=80=99t have any time=
+ to reverse them, because you have to sell the bonds now and give everyone =
+their money back. Also you don=E2=80=99t have enough money: Selling the bon=
+ds for $87 will raise $87, and you have $10 of capital, for a total of $97.=
+ But your depositors want their $100 back, and you only have $97.</p>
+<p style=3D"margin: 16px 0;">If you are a bank that borrowed short to lend =
+long, and rates go up, your portfolio of long-dated assets represents an=C2=
+=A0<em>opportunity cost </em>over time:=C2=A0Instead of earning 5% on your =
+loans, you=E2=80=99re stuck earning 2%. But if you have to sell those asset=
+s, you turn that opportunity cost into a cash loss today. You pull the loss=
+es forward in time and take them all now.</p>
+<p style=3D"margin: 16px 0;">Now we have to talk about accounting. Oversimp=
+lifying, there are two main ways for a bank to account for its assets:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The traditional way is to account for=
+ them at cost, the price you paid for them. If you lend a customer $100, yo=
+u have a $100 asset =E2=80=94=C2=A0the loan =E2=80=94=C2=A0on your balance =
+sheet. (You deduct something for the possibility they won=E2=80=99t pay you=
+ back,=C2=A0but let=E2=80=99s ignore that.)</li>=09<li style=3D"margin-bott=
+om: 5px;">The other way is to account for them at their fair market value. =
+If you buy a bond for $100, you can go look at the market price for that bo=
+nd at the end of the quarter; if it=E2=80=99s $97.75, then you have a $97.7=
+5 asset on your balance sheet. The other $2.25 is gone.<a class=3D"footnote=
+-index" href=3D"#footnote-4" style=3D"color: #000000; text-decoration: none=
+ !important; border-bottom-width: 1px; border-bottom-color: #000000; border=
+-bottom-style: none !important; background-color: transparent !important; d=
+isplay: inline-block;">
+<span>[4]</span>
+</a>
+</li>
+</ol>
+<p style=3D"margin: 16px 0;">The first approach gives you a reasonable pict=
+ure of a bank that is continuing to operate as a bank: In my example, if yo=
+u have $100 of bonds and $100 of deposits and the loans pay 2% and the depo=
+sits cost 3% and you are losing $2.50 per year, your financial statements=
+=C2=A0will=C2=A0<em>say that</em>. Your balance sheet=C2=A0will say that yo=
+u have $100 of bonds, so you will ultimately have enough money to pay back =
+your depositors, but your income statement will say you are losing money ea=
+ch year.</p>
+<p style=3D"margin: 16px 0;">The second approach gives you a reasonably acc=
+urate picture of a bank that has to shut down today: In my example, your ba=
+lance sheet will show that you have=C2=A0$87 of bonds at fair market value,=
+ so you don=E2=80=99t have enough money to pay back all your depositors if =
+you have to do it today.</p>
+<p style=3D"margin: 16px 0;">Traditionally banks=E2=80=99 assets consisted =
+mostly of=C2=A0<em>loans</em>, there was not much of a market for those loa=
+ns, and the normal accounting approach was to account for them at cost. Mod=
+ern banks=E2=80=99 assets include lots of=C2=A0<em>bonds</em>, there is a m=
+arket for those bonds, and it is reasonably common to account for them at f=
+air market value.<a class=3D"footnote-index" href=3D"#footnote-5" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: none !important; backgr=
+ound-color: transparent !important; display: inline-block;">
+<span>[5]</span>
+</a>=C2=A0Still, banks do=C2=A0<em>like </em>accounting for assets at cost,=
+ and so they are allowed to=C2=A0designate bonds as =E2=80=9Cheld to maturi=
+ty=E2=80=9D =E2=80=94=C2=A0meaning that they have no plans to sell them =E2=
+=80=94=C2=A0and account for them at cost. (But then if they sell <em>any</e=
+m> of their held-to-maturity bonds, they <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/30821211.285418/aHR0cHM6Ly92aWV3cG9pbnQucHdjLmNvbS9k=
+dC91cy9lbi9wd2MvYWNjb3VudGluZ19ndWlkZXMvbG9hbnNfYW5kX2ludmVzdG1lbnQvbG9hbnN=
+fYW5kX2ludmVzdG1lbnRfVVMvY2hhcHRlcl8zX2FjY291bnRpbmdfXzFfVVMvMzNfY2xhc3NpZm=
+ljYXRpb25fb2ZfVVMuaHRtbA/607f07ceef4b8524a319a23cB97215cbd" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;"> need t=
+o reclassify=C2=A0<em>all=C2=A0</em>of them as =E2=80=9Cavailable for sale=
+=E2=80=9D</a> and account for them at fair market value, which could mean t=
+aking a huge loss all at once.) In general it seems fair to say that the mo=
+dern trend in financial-institution accounting is toward marking more thing=
+s to market values, but there remain many exceptions.<a class=3D"footnote-i=
+ndex" href=3D"#footnote-6" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: none !important; background-color: transparent !important; dis=
+play: inline-block;">
+<span>[6]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">From my simple example you can see why banks d=
+on=E2=80=99t always like mark-to-market accounting. In my simple example, t=
+he bank has $100 of deposits, $100 of bonds and $10 of capital. It is losin=
+g money on interest rates, so its capital is going down, slowly. But it is =
+solvent: It has assets of $110 ($100 of bonds plus $10 of cash) and liabili=
+ties of only $100 (the deposits).=C2=A0</p>
+<p style=3D"margin: 16px 0;">But if the bank instead put out financial stat=
+ements showing that it had $87 of bonds (their current market value), it wo=
+uld be insolvent: It would have assets of $97 against liabilities of $100. =
+And if its depositors read those financial statements, they=E2=80=99d say =
+=E2=80=9Chey wait this bank is insolvent=E2=80=9D and rush to take their mo=
+ney out. And then the bank=C2=A0<em>would have to sell those bonds for $87<=
+/em>, and it really=C2=A0<em>would=C2=A0</em>be insolvent. The accounting c=
+ould cause a run, which would require the assets to be sold at market value=
+, which would result in taking all the losses today, which would result in =
+actual insolvency.</p>
+<p style=3D"margin: 16px 0;">One crude way that the actual US banking syste=
+m deals with this problem is by letting banks account for their held-to-mat=
+urity bonds at cost on their balance sheet, but then making them explain, s=
+omewhere in the footnotes to the financial statements, their current market=
+ value.<a class=3D"footnote-index" href=3D"#footnote-7" style=3D"color: #00=
+0000; text-decoration: none !important; border-bottom-width: 1px; border-bo=
+ttom-color: #000000; border-bottom-style: none !important; background-color=
+: transparent !important; display: inline-block;">
+<span>[7]</span>
+</a> This feels like in some ways a fair compromise. On the other hand some=
+one might read the footnotes! I mean, not most people. But someone might, a=
+nd they might explain the footnotes in a readable way =E2=80=94=C2=A0they m=
+ight <a href=3D"https://link.mail.bloombergbusiness.com/click/30821211.2854=
+18/aHR0cHM6Ly93d3cudGhlZGlmZi5jby9hcmNoaXZlL2dyZWF0LWludmVzdG9ycy1iYWQtcXVp=
+dHRlcnMvP3JlZj10aGUtZGlmZi1uZXdzbGV0dGVy/607f07ceef4b8524a319a23cB64fb6b61"=
+ itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"=
+color: #000000; text-decoration: none !important; border-bottom-width: 1px;=
+ border-bottom-color: #000000; border-bottom-style: solid; background-color=
+: #ccc;"> say something like</a> =E2=80=9Con a mark-to-market basis, they w=
+ere broke last quarter=E2=80=9D<a class=3D"footnote-index" href=3D"#footnot=
+e-8" style=3D"color: #000000; text-decoration: none !important; border-bott=
+om-width: 1px; border-bottom-color: #000000; border-bottom-style: none !imp=
+ortant; background-color: transparent !important; display: inline-block;">
+<span>[8]</span>
+</a> =E2=80=94 and people might read that and think =E2=80=9Chuh that=E2=80=
+=99s bad=E2=80=9D and withdraw their deposits. Causing the bonds to be sold=
+, causing insolvency.</p>
+<p style=3D"margin: 16px 0;">But wait! Why=C2=A0<em>sell=C2=A0</em>the bond=
+s? Why not=C2=A0<em>borrow=C2=A0</em>against them? You have $100 of bonds, =
+$10 of capital kept in cash, $100 of deposits. Rates move against you. In a=
+ footnote to your financial statements, you confess that the bonds are wort=
+h only $87 at current market values. Someone reads the footnote and shows i=
+t to someone else. Word gets around. Lots of depositors come and ask for th=
+eir money back. You have only $10 of cash.=C2=A0</p>
+<p style=3D"margin: 16px 0;">So you go to your lender of last resort, let=
+=E2=80=99s say the Federal Reserve. You say: =E2=80=9CHere is a $100 asset =
+that I have. I want to post it as collateral for a loan. You lend me $100 a=
+gainst this collateral, and charge me 3% interest. I will use the $100 to p=
+ay off my depositors. I=E2=80=99ll be left with a $100 asset and a $100 lia=
+bility to you, instead of to my depositors. And then I=E2=80=99ll try to cu=
+t costs and earn more fees and otherwise earn enough to pay your interest. =
+I=E2=80=99ll be in the same place as I was before the run. It=E2=80=99s not=
+ a=C2=A0<em>great=C2=A0</em>place, necessarily =E2=80=94=C2=A0I=E2=80=99m s=
+till earning less interest on my assets than I=E2=80=99m paying on my liabi=
+lities =E2=80=94=C2=A0but, you know, markets change and I=E2=80=99ll probab=
+ly muddle through and anyway the bonds will eventually pay off $100 so you=
+=E2=80=99ll get your money back.=E2=80=9D</p>
+<p style=3D"margin: 16px 0;">And then the Fed either says:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">sure, or</li>=09<li style=3D"margin-bo=
+ttom: 5px;">=E2=80=9Cno, this is not $100 of collateral, this is only $87 o=
+f collateral: We will only lend against the=C2=A0<em>market value=C2=A0</em=
+>of this collateral, not against=C2=A0<em>what you paid for it</em>.=E2=80=
+=9D</li>
+</ul>
+<p style=3D"margin: 16px 0;">Which answer should the Fed give? On the one h=
+and, the Fed wants to lend against good collateral and not take a lot of ri=
+sk. Lending you $100 against collateral with a market value of $87 seems ki=
+nd of stupid for the Fed.</p>
+<p style=3D"margin: 16px 0;">On the other hand, the Fed is a lender of last=
+ resort, and its main job is to lend you money so that you=C2=A0<em>don=E2=
+=80=99t=C2=A0</em>have to sell your assets too hastily. Lending against the=
+ market value is kind of the same thing as making you sell your assets: You=
+ can only borrow what you=E2=80=99d get by selling them today, not what the=
+y=E2=80=99ll eventually pay out. It speeds things up just like selling them=
+ would, and the Fed=E2=80=99s job is to give you more time.</p>
+<p style=3D"margin: 16px 0;">You could imagine giving either answer. In the=
+ olden days of traditional banking, it might have made sense for a central =
+bank to lend against banks=E2=80=99 loans at their face value. But modern c=
+entral bankers are plugged into financial markets, and financial markets ar=
+e good at determining market prices for assets, and so the modern consensus=
+ seems to be that central banks should lend against collateral at its marke=
+t value.<a class=3D"footnote-index" href=3D"#footnote-9" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: none !important; background-colo=
+r: transparent !important; display: inline-block;">
+<span>[9]</span>
+</a></p>
+<p style=3D"margin: 16px 0;">Until yesterday. We <a href=3D"https://link.ma=
+il.bloombergbusiness.com/click/30821211.285418/aHR0cHM6Ly93d3cuYmxvb21iZXJn=
+LmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTAvc3RhcnR1cC1iYW5rLWhhZC1hLXN0YXJ=
+0dXAtYmFuay1ydW4_Y21waWQ9QkJEMDMxMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbC=
+Z1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzEzJnV0bV9jYW1wYWlnbj1tb25le=
+XN0dWZm/607f07ceef4b8524a319a23cBc9ee6e79" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;">  talked on Friday</a> a=
+bout the collapse of Silicon Valley Bank:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">It borrowed very short to lend very l=
+ong. Specifically, it is funded mostly by deposits, largely from tech compa=
+nies and venture capitalists who got a lot of money over the last couple of=
+ years, and who put that money into SVB deposits that were much bigger than=
+ the US deposit insurance cap of $250,000. It plowed that money disproporti=
+onately into bonds, quite=C2=A0<em>safe=C2=A0</em>bonds =E2=80=94=C2=A0US T=
+reasuries and agency mortgage-backed securities =E2=80=94=C2=A0but bonds wi=
+th long duration. It did not do much to hedge its interest-rate risk. Basic=
+ally it was as reckless as it is possible to be with a business model of =
+=E2=80=9Ctake deposits and invest them in US Treasury bonds.=E2=80=9D Which=
+, until recently, might not have seemed=C2=A0that reckless!</li>=09<li styl=
+e=3D"margin-bottom: 5px;">But then rates went up a lot, pretty fast.=C2=A0<=
+/li>=09<li style=3D"margin-bottom: 5px;">This caused the market value of SV=
+B=E2=80=99s bonds to decline by some $15 billion, to the point that it was =
+more or less insolvent: Its losses on the bonds were enough to wipe out alm=
+ost all of its equity capital and leave it with assets, at market value, wo=
+rth only very slightly more=C2=A0than its liabilities.</li>=09<li style=3D"=
+margin-bottom: 5px;">It mentioned this fact in footnotes to its financial s=
+tatements.</li>=09<li style=3D"margin-bottom: 5px;">People noticed.</li>=09=
+<li style=3D"margin-bottom: 5px;">SVB=E2=80=99s depositors, who again are l=
+argely tech firms and venture capitalists, are all on Twitter a lot and mov=
+e in herds; when they noticed that SVB was insolvent-ish they <a href=3D"ht=
+tps://link.mail.bloombergbusiness.com/click/30821211.285418/aHR0cHM6Ly93d3c=
+uYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTIvc2lsaWNvbi12YWxsZXktYm=
+Fuay1zLWZhbGwtd2FzLWEtZmFzdGVyLW1vcmUtdmlyYWwtYnJlZWQtb2YtYmFuay1ydW4_Y21wa=
+WQ9QkJEMDMxMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3Ns=
+ZXR0ZXImdXRtX3Rlcm09MjMwMzEzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b85=
+24a319a23cB33382247" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  all pulled their money out at once</a>. (=
+=E2=80=9CIt turned out that one of the biggest risks to our business model =
+was catering to a very tightly knit group of investors who exhibit herd-lik=
+e mentalities,=E2=80=9D an SVB executive <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/30821211.285418/aHR0cHM6Ly93d3cuZnQuY29tL2NvbnRlbnQv=
+YjU1NmJhZGItOGU5OC00MmZhLWI4OGUtNmU3ZTBjYTc1OGI4/607f07ceef4b8524a319a23cB8=
+4983a07" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;"> told the Financial Times</a>.)=C2=A0Depositors tried to w=
+ithdraw <a href=3D"https://link.mail.bloombergbusiness.com/click/30821211.2=
+85418/aHR0cHM6Ly9kZnBpLmNhLmdvdi93cC1jb250ZW50L3VwbG9hZHMvc2l0ZXMvMzM3LzIwM=
+jMvMDMvREZQSS1PcmRlcnMtU2lsaWNvbi1WYWxsZXktQmFuay0wMzEwMjAyMy5wZGY_ZW1yYz1i=
+ZWRjMDk/607f07ceef4b8524a319a23cBbf1820ba" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> $42 billion</a> on Thur=
+sday.</li>=09<li style=3D"margin-bottom: 5px;">SVB tried to pay them. It us=
+ed its cash. It sold stuff that was easy to sell. It tried to borrow from t=
+he Fed, <a href=3D"https://link.mail.bloombergbusiness.com/click/30821211.2=
+85418/aHR0cHM6Ly9kZnBpLmNhLmdvdi93cC1jb250ZW50L3VwbG9hZHMvc2l0ZXMvMzM3LzIwM=
+jMvMDMvREZQSS1PcmRlcnMtU2lsaWNvbi1WYWxsZXktQmFuay0wMzEwMjAyMy5wZGY_ZW1yYz1i=
+ZWRjMDk/607f07ceef4b8524a319a23cCbf1820ba" itemprop=3D"StoryLink" itemscope=
+=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decoration: =
+none !important; border-bottom-width: 1px; border-bottom-color: #000000; bo=
+rder-bottom-style: solid; background-color: #ccc;"> but</a> =E2=80=9Cdespit=
+e attempts from the Bank, with the assistance of regulators, to transfer co=
+llateral from various sources, the Bank did not meet its cash letter with t=
+he Federal Reserve.=E2=80=9D</li>=09<li style=3D"margin-bottom: 5px;">It wa=
+s declared insolvent and seized by the Federal Deposit Insurance Corp. on F=
+riday.</li>
+</ol>
+<p style=3D"margin: 16px 0;">SVB is, I think, an unusually clear case of a =
+bank that</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">was almost certainly insolvent, on a m=
+ark-to-market basis: By Friday, if not earlier, its assets, at their curren=
+t market value, were probably worth less than its liabilities<a class=3D"fo=
+otnote-index" href=3D"#footnote-10" style=3D"color: #000000; text-decoratio=
+n: none !important; border-bottom-width: 1px; border-bottom-color: #000000;=
+ border-bottom-style: none !important; background-color: transparent !impor=
+tant; display: inline-block;">
+<span>[10]</span>
+</a>; and</li>=09<li style=3D"margin-bottom: 5px;">could probably have mudd=
+led through and been profitable if people had just kept their money in the =
+bank: Its maturities=C2=A0<em>were=C2=A0</em>laddered, its deposit rates=C2=
+=A0<em>weren=E2=80=99t=C2=A0</em>going up that much, it did have a=C2=A0<a =
+href=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/aHR0c=
+HM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzcxOTczOS8wMDAxMTkzMTI1MjMw=
+NjQ2ODAvZDQzMDkyMGRleDk5Mi5odG0/607f07ceef4b8524a319a23cB7814da8e" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" title=3D"see page =
+18" style=3D"color: #000000; text-decoration: none !important; border-botto=
+m-width: 1px; border-bottom-color: #000000; border-bottom-style: solid; bac=
+kground-color: #ccc;">positive net interest margin</a> even this quarter, i=
+t=C2=A0<em>did=C2=A0</em>have various ways to make money, and if people had=
+ just kept their money in, the bonds would have matured and been replaced b=
+y higher-earning bonds and SVB would have been fine.</li>
+</ul>
+<p style=3D"margin: 16px 0;">And so if SVB had gone to the Fed and been lik=
+e =E2=80=9Chi we have $120 billion of Treasury bonds and stuff like that, w=
+ill you lend us $120 billion against them,=E2=80=9D and if the Fed had said=
+ yes, it probably=C2=A0<em>could=C2=A0</em>have muddled through. But that $=
+120 billion of stuff had a=C2=A0<em>market=C2=A0</em>value of only $100 bil=
+lion.</p>
+<p style=3D"margin: 16px 0;">The FDIC and other banking regulators spent th=
+e weekend <a href=3D"https://link.mail.bloombergbusiness.com/click/30821211=
+.285418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTI=
+vZmRpYy1hdWN0aW9uLWZvci1zdmItc2FpZC10by1iZS11bmRlcndheS1maW5hbC1iaWRzLWR1ZS=
+1zdW5kYXk_Y21waWQ9QkJEMDMxMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc=
+291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzEzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm=
+/607f07ceef4b8524a319a23cBf1f1537a" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">  trying to sell SVB</a>, appar=
+ently with no luck. The goal of that sale would be to have some other bank =
+buy SVB=E2=80=99s assets, business, franchise, etc. and assume its deposits=
+, without necessarily paying anything to its shareholders or bondholders. I=
+ think the regulators=E2=80=99=C2=A0<em>preference=C2=A0</em>would have bee=
+n to leave the depositors intact and=C2=A0zero the shareholders and bondhol=
+ders. They did not get there yet.</p>
+<p style=3D"margin: 16px 0;">Here is <a href=3D"https://link.mail.bloomberg=
+business.com/click/30821211.285418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdz=
+L2FydGljbGVzLzIwMjMtMDMtMTIvdXMtbW92ZXMtdG8taGVscC1kZXBvc2l0b3JzLW9mZmVyLWJ=
+hbmstYmFja3N0b3AtaW4td2FrZS1vZi1zdmI_Y21waWQ9QkJEMDMxMzIzX01PTkVZU1RVRkYmdX=
+RtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzEzJnV0b=
+V9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB05706c50" itemprop=3D"=
+StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #00000=
+0; text-decoration: none !important; border-bottom-width: 1px; border-botto=
+m-color: #000000; border-bottom-style: solid; background-color: #ccc;">  wh=
+at they came up with instead</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">US authorities raced on Sunday to stem jitters=
+ about the health of the nation=E2=80=99s financial system, pledging to ful=
+ly protect all depositors=E2=80=99 money following the collapse of Silicon =
+Valley Bank while also giving any banks squeezed for cash easier terms on s=
+hort-term loans.</p>
+<p style=3D"margin: 16px 0;">The Treasury Department, Federal Reserve and F=
+ederal Deposit Insurance Corp. jointly announced the efforts aimed at stren=
+gthening confidence in the banking system after SVB=E2=80=99s failure spurr=
+ed concern about spillover effects. ...</p>
+<p style=3D"margin: 16px 0;">The Fed in a separate statement said it=E2=80=
+=99s creating a new =E2=80=9CBank Term Funding Program=E2=80=9D that offers=
+ loans to banks under easier terms than are typically provided by the centr=
+al bank.</p>
+<p style=3D"margin: 16px 0;">Fed officials said on a briefing call that the=
+ facility will be big enough to protect uninsured deposits in the wider US =
+banking system. It was invoked under the Fed=E2=80=99s emergency authority =
+allowing for the establishment of a broad-based program under =E2=80=9Cunus=
+ual and exigent circumstances,=E2=80=9D which requires Treasury approval. .=
+..</p>
+<p style=3D"margin: 16px 0;">Under the new program, which provides loans of=
+ up to one year, collateral will be valued at par, or 100 cents on the doll=
+ar. That means banks can get bigger loans than usual for securities that ar=
+e worth less than that =E2=80=94 such as Treasuries that have declined in v=
+alue as the Fed raised interest rates.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">Here is the <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/30821211.285418/aHR0cHM6Ly93d3cuZmVkZXJhbHJlc2VydmUu=
+Z292L25ld3NldmVudHMvcHJlc3NyZWxlYXNlcy9tb25ldGFyeTIwMjMwMzEyYi5odG0/607f07c=
+eef4b8524a319a23cBc1ec28c6" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> joint statement</a>:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">After receiving a recommendation from the boar=
+ds of the FDIC and the Federal Reserve, and consulting with the President, =
+Secretary Yellen approved actions enabling the FDIC to complete its resolut=
+ion of Silicon Valley Bank, Santa Clara, California, in a manner that fully=
+ protects all depositors. Depositors will have access to all of their money=
+ starting Monday, March 13. No losses associated with the resolution of Sil=
+icon Valley Bank will be borne by the taxpayer.</p>
+<p style=3D"margin: 16px 0;">We are also announcing a similar systemic risk=
+ exception for Signature Bank, New York, New York, which was closed today b=
+y its state chartering authority. All depositors of this institution will b=
+e made whole. As with the resolution of Silicon Valley Bank, no losses will=
+ be borne by the taxpayer.</p>
+<p style=3D"margin: 16px 0;">Shareholders and certain unsecured debtholders=
+ will not be protected. Senior management has also been removed. Any losses=
+ to the Deposit Insurance Fund to support uninsured depositors will be reco=
+vered by a special assessment on banks, as required by law.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">And here is <a href=3D"https://link.mail.bloom=
+bergbusiness.com/click/30821211.285418/aHR0cHM6Ly93d3cuZmVkZXJhbHJlc2VydmUu=
+Z292L25ld3NldmVudHMvcHJlc3NyZWxlYXNlcy9tb25ldGFyeTIwMjMwMzEyYS5odG0/607f07c=
+eef4b8524a319a23cB8087199d" itemprop=3D"StoryLink" itemscope=3D"itemscope" =
+target=3D"_blank" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: solid; background-color: #ccc;"> the=C2=A0Fed statement</a>:</p>
+<blockquote><p style=3D"margin: 16px 0;">The additional funding will be mad=
+e available through the creation of a new Bank Term Funding Program (BTFP),=
+ offering loans of up to one year in length to banks, savings associations,=
+ credit unions, and other eligible depository institutions pledging U.S. Tr=
+easuries, agency debt and mortgage-backed securities, and other qualifying =
+assets as collateral. These assets will be valued at par. The BTFP will be =
+an additional source of liquidity against high-quality securities, eliminat=
+ing an institution's need to quickly sell those securities in times of stre=
+ss.</p></blockquote>
+<p style=3D"margin: 16px 0;">I think the main point here is just =E2=80=9Ct=
+hese assets will be valued at par.=E2=80=9D<a class=3D"footnote-index" href=
+=3D"#footnote-11" style=3D"color: #000000; text-decoration: none !important=
+; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-sty=
+le: none !important; background-color: transparent !important; display: inl=
+ine-block;">
+<span>[11]</span>
+</a>=C2=A0Silicon Valley Bank is gone, but the=C2=A0<em>next=C2=A0</em>bank=
+ with bonds that it bought for $100 and that are now worth $80 can go to th=
+e Fed and borrow $100 against them.</p>
+<p style=3D"margin: 16px 0;">One way to look at=C2=A0this crisis is:</p>
+<ul style=3D"list-style-type: disc; padding-left: 40px; margin: 16px 0;">=
+=09<li style=3D"margin-bottom: 5px;">Banks borrowed short to lend long, as =
+they generally do.</li>=09<li style=3D"margin-bottom: 5px;">Rates went up f=
+ar and fast, causing the market value of the banks=E2=80=99 long-lived asse=
+ts to decline a lot.</li>=09<li style=3D"margin-bottom: 5px;">Unlike in=C2=
+=A0<em>It's a Wonderful Life</em>, this decline was very=C2=A0<em>noticeabl=
+e</em>, because it is relatively well=C2=A0<em>accounted for</em>. At least=
+ in the footnotes of the banks=E2=80=99 financial statements, you can see h=
+ow much market value their assets have lost. You can make a chart! It <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/aHR0cHM=
+6Ly90d2l0dGVyLmNvbS9wYXRpbzExL3N0YXR1cy8xNjM0OTIzODE5NjU0ODQ4NTE0P3M9NDMmdD=
+1KWEtoT3QwdDJyejNiOGRKSU5rSmpR/607f07ceef4b8524a319a23cB804a1438" itemprop=
+=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0=
+00000; text-decoration: none !important; border-bottom-width: 1px; border-b=
+ottom-color: #000000; border-bottom-style: solid; background-color: #ccc;">=
+ might show</a> hundreds of billions of dollars of mark-to-market losses on=
+ investment securities, spread among US banks.</li>=09<li style=3D"margin-b=
+ottom: 5px;">Also unlike in <em>It=E2=80=99s a Wonderful Life</em>, there i=
+s Twitter and people can tweet about this. There is online banking and peop=
+le can pull their money from their banks on their phones while they are <a =
+href=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/aHR0c=
+HM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9ob3ctc2lsaWNvbi12YWxsZXktdHVybmVkLW9uLXNp=
+bGljb24tdmFsbGV5LWJhbmstZWUyOTNhYzk/607f07ceef4b8524a319a23cB048991cd" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> on the bus to the ski resort</a>. Runs can happen fast; panics can spr=
+ead fast.</li>=09<li style=3D"margin-bottom: 5px;">The problem is a fairly =
+pure one of=C2=A0interest-rate sensitivity. The banks did not make bad loan=
+s to bad borrowers; they are mostly still profitable day-to-day. It=E2=80=
+=99s just that if they had to sell all their bonds today, some of them woul=
+d be in bad shape.</li>=09<li style=3D"margin-bottom: 5px;">The basic job o=
+f the Fed, as lender of last resort,=C2=A0is to make it so the banks don=E2=
+=80=99t have to sell their bonds today.</li>=09<li style=3D"margin-bottom: =
+5px;">By lending the banks money against those bonds.</li>=09<li style=3D"m=
+argin-bottom: 5px;">And by valuing those bonds at par =E2=80=94=C2=A0by <em=
+>ignoring the mark-to-market accounting</em> that has gotten everyone else =
+worried.</li>
+</ul>
+<p style=3D"margin: 16px 0;">The Fed can do that! The=C2=A0<em>Fed=C2=A0</e=
+m>can certainly hold the assets to maturity;=C2=A0<em>it=C2=A0</em>can=E2=
+=80=99t lose its funding and be forced to sell everything in a panic.</p>
+<p style=3D"margin: 16px 0;">One way to think of this is that US banks =E2=
+=80=94=C2=A0especially SVB, but not only SVB =E2=80=94=C2=A0have had huge m=
+ark-to-market losses on their bond portfolios as interest rates go up, but =
+it is=C2=A0<em>traditional for banks to ignore those losses</em>. In tradit=
+ional banking, rising interest rates are a matter of opportunity costs and =
+net interest margin, not of large mark-to-market losses.</p>
+<p style=3D"margin: 16px 0;">But in the modern world =E2=80=94=C2=A0of more=
+ pervasive financial markets and more sophisticated accounting and faster-m=
+oving information =E2=80=94=C2=A0the banks and their customers=C2=A0were un=
+able to ignore those losses. So the Fed stepped in and said: Look, we are b=
+est positioned to ignore those losses, so we will. The service that the Fed=
+ is providing to the banking system here is=C2=A0<em>ignoring that rates we=
+nt up=C2=A0</em>when=C2=A0it values banks=E2=80=99 bonds. That service is i=
+ncredibly valuable. Historically banks=E2=80=99 retail depositors provided =
+it, but now only the Fed can.</p>
+<table class=3D"liveintent-sponsored-content" width=3D"auto" cellpadding=3D=
+"0" cellspacing=3D"0">
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDgyMTIxMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzExMDY2Mjkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cCcb754445" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30821211&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31106629&amp;stpe=3Ddefault&am=
+p;li_coord=3Ddesktop&amp;collapse_width=3D550&amp;" width=3D"550" border=3D=
+"0" style=3D"display:block;height:auto;width:100%;max-width:550px;" alt=3D"=
+" class=3D"lihide" />=20
+</a>=20
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"left" valign=3D"top">
+<!--[if !mso]><!-->
+<div style=3D"display:none; float:left; overflow:hidden; width:0; max-heigh=
+t:0; line-height:0;" class=3D"lishow">
+<table width=3D"auto" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0px">=20
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/aH=
+R0cHM6Ly9zbGkuYmxvb21iZXJnLmNvbS9jbGljaz9zPTg2ODQzMiZsaT0zMDgyMTIxMSZtPTIxZ=
+DZkZWE4MmQ2YjE2NjE1Y2Y0NDIzM2JlNjIwNTI1JnA9MzExMDY2Mjkmc3RwZT1kZWZhdWx0Jg/6=
+07f07ceef4b8524a319a23cDcb754445" target=3D"_blank">=20
+<img src=3D"https://sli.bloomberg.com/imp?s=3D868432&amp;li=3D30821211&amp;=
+m=3D21d6dea82d6b16615cf44233be620525&amp;p=3D31106629&amp;stpe=3Ddefault&am=
+p;li_coord=3Dmobile&amp;collapse_width=3D550&amp;" width=3D"100%" border=3D=
+"0" style=3D"display:block;height:auto;" alt=3D"" />=20
+</a>=20
+</td>
+</tr>
+</table>
+</div>
+<!--<![endif]-->
+</td>
+</tr>
+</table>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Signature</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Oh yeah,=C2=A0<a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/30821211.285418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTIvc2lnbmF0dXJlLWJhbmstY2xvc2VkLWJ5LW5ldy1zd=
+GF0ZS1yZWd1bGF0b3JzLWZkaWMtc2F5cz9jbXBpZD1CQkQwMzEzMjNfTU9ORVlTVFVGRiZ1dG1f=
+bWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMTMmdXRtX2N=
+hbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB0348dc83" itemprop=3D"Sto=
+ryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; =
+text-decoration: none !important; border-bottom-width: 1px; border-bottom-c=
+olor: #000000; border-bottom-style: solid; background-color: #ccc;">Signatu=
+re Bank failed</a>?=C2=A0</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Both Signature=E2=80=99s insured and uninsured=
+ customers will be able to access all their deposits under the same =E2=80=
+=9Csystemic risk exception=E2=80=9D that will give Silicon Valley Bank cust=
+omers access to their cash starting Monday, regulators said.</p>
+<p style=3D"margin: 16px 0;">The decision to close Signature came as a surp=
+rise to its managers, who found out shortly before the public announcement,=
+ according to a person familiar with the matter. The bank faced a torrent o=
+f deposit outflows on Friday, but the situation had stabilized by Sunday, t=
+he person said, asking not to be identified discussing a private matter.</p=
+>
+<p style=3D"margin: 16px 0;">=E2=80=9CI think that if we=E2=80=99d been all=
+owed to open tomorrow, that we could=E2=80=99ve continued =E2=80=94 we have=
+ a solid loan book, we=E2=80=99re the biggest lender in New York City under=
+ the low-income housing tax credit,=E2=80=9D said former Congressman Barney=
+ Frank, a Signature Bank board member known for the Dodd-Frank Act, which o=
+verhauled US financial regulation in the wake of the global financial crisi=
+s. =E2=80=9CI think the bank could=E2=80=99ve been a going concern.=E2=80=
+=9D =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Much like Silicon Valley Bank, with clients ma=
+de up almost entirely of businesses, Signature had a deposit base that was =
+mostly uninsured =E2=80=94 roughly 90% of deposits for Signature, and north=
+ of 93% of domestic deposits at SVB. That may have attracted the attention =
+of regulators looking into banks with large uninsured deposit bases.=C2=A0<=
+/p>
+<p style=3D"margin: 16px 0;">=E2=80=9CWhat happened at Silvergate and SVB w=
+as a very traditional bank failure,=E2=80=9D said J. Austin Campbell, an ad=
+junct professor of Columbia Business School. =E2=80=9CThis, unless there wa=
+s a bigger run on deposits than we know about, is less so. If there=E2=80=
+=99s not some pretty gory details that came out after about the balance she=
+et, it=E2=80=99s hard to figure out why they were singled out.=E2=80=9D</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">One notable fact is that Signature is (was?) o=
+ne of the two main crypto-friendly US banks, along with Silvergate, and I s=
+uppose shutting them down is appealing to bank regulators who have become v=
+ery skeptical of crypto. Arguably this whole banking crisis was kicked off =
+by <a href=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMDkvY3=
+J5cHRvLWJhbmstaGFkLWEtYm9yaW5nLWNvbGxhcHNlP2NtcGlkPUJCRDAzMTMyM19NT05FWVNUV=
+UZGJnV0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMx=
+MyZ1dG1fY2FtcGFpZ249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cB1745a5c7" itemp=
+rop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color:=
+ #000000; text-decoration: none !important; border-bottom-width: 1px; borde=
+r-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc=
+;">  contagion from crypto</a> =E2=80=94=C2=A0crypto exchanges banked with =
+Silvergate, they lost money, they pulled it out of Silvergate, that sparked=
+ a run, it spread =E2=80=94=C2=A0and regulators have been vocal about wanti=
+ng to prevent further contagion from crypto into the real financial system.=
+ Seizing the crypto banks is a step toward doing that.</p>
+<p style=3D"margin: 16px 0;">But I think there=E2=80=99s another way to rea=
+d this. The measures that US regulators announced yesterday =E2=80=94=C2=A0=
+the BTFP and the guarantees on uninsured deposits =E2=80=94=C2=A0do in some=
+ obvious sense amount to a=C2=A0<em>bailout of banks</em>. Not of Silicon V=
+alley Bank, though: SVB had already been seized by the FDIC, and its shareh=
+olders (and perhaps bondholders) will get zeroed. SVB took dumb risks with =
+depositor money and so its investors lost everything, but the depositors wi=
+ll get their money back.</p>
+<p style=3D"margin: 16px 0;">But every=C2=A0<em>other=C2=A0</em>bank=E2=80=
+=99s=C2=A0shareholders and bondholders and executives will benefit from tho=
+se measures. If you are an uninsured depositor at a medium-sized bank that =
+made some dumb rates bets, there is no reason to move your money now; the F=
+ed has made it clear that it will support that bank. This (probably!) <a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/aHR0cHM=
+6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTMvc3ZiLWFmdG=
+VybWF0aC10aGVyZS1zLWxpdHRsZS1ldmlkZW5jZS1vZi1hLWZ1bGwtc2NhbGUtYmFua2luZy1jc=
+mlzaXM_Y21waWQ9QkJEMDMxMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291=
+cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzEzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/60=
+7f07ceef4b8524a319a23cB0ec5080a" itemprop=3D"StoryLink" itemscope=3D"itemsc=
+ope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">  takes run risk off the table for=
+ those banks</a>, making them less likely to fail, making their stocks and =
+bonds more valuable than they would be if the Fed hadn=E2=80=99t acted to l=
+imit contagion. (In actual fact many bank stocks=C2=A0are <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/30821211.285418/aHR0cHM6Ly93d3cud3N=
+qLmNvbS9hcnRpY2xlcy9iYW5rLXN0b2Nrcy1hcmUtdGFraW5nLXRoZWlyLXdvcnN0LWJlYXRpbm=
+ctc2luY2UtdGhlLWNvdmlkLXNjYXJlLWQ4MzVhMGNj/607f07ceef4b8524a319a23cB9f64487=
+f" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=
+=3D"color: #000000; text-decoration: none !important; border-bottom-width: =
+1px; border-bottom-color: #000000; border-bottom-style: solid; background-c=
+olor: #ccc;"> down big today</a>, though presumably they=E2=80=99d be down=
+=C2=A0<em>more=C2=A0</em>without these measures.) The rescue of Silicon Val=
+ley Bank=E2=80=99s depositors comes too late for Silicon Valley Bank=E2=80=
+=99s shareholders, but it=E2=80=99s good for every similar bank=E2=80=99s s=
+hareholders.</p>
+<p style=3D"margin: 16px 0;">As a matter of rough justice you could imagine=
+ the Fed looking at the=C2=A0<em>most=C2=A0</em>similar bank =E2=80=94=C2=
+=A0arguably Signature, with its huge proportion of uninsured deposits and i=
+ts exposure to fast-money crypto/tech customers =E2=80=94=C2=A0and saying =
+=E2=80=9Cno, not you,=C2=A0<em>your=C2=A0</em>shareholders are getting toas=
+ted.=E2=80=9D The mechanics of the rescue mean that inevitably some bank sh=
+areholders will be bailed out, but not all of them.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Elsewhere in BTFP</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">I love my readers, and yesterday one of them m=
+ore or less immediately emailed to ask, about the Fed=E2=80=99s Bank Term F=
+unding Program: =E2=80=9CCan I get in on this? Specifically, can I buy a co=
+ntrolling interest in a bank, and then buy a bunch of long dated treasury i=
+nstruments at $80, and exchange them for $100 immediately?=E2=80=9D Great q=
+uestion! The answer is no. Here is <a href=3D"https://link.mail.bloombergbu=
+siness.com/click/30821211.285418/aHR0cHM6Ly93d3cuZmVkZXJhbHJlc2VydmUuZ292L2=
+5ld3NldmVudHMvcHJlc3NyZWxlYXNlcy9maWxlcy9tb25ldGFyeTIwMjMwMzEyYTEucGRm/607f=
+07ceef4b8524a319a23cB78ea52f1" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;"> the termsheet</a> for the BTFP:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;"><strong>Eligible Collateral:</strong> Eligible=
+ collateral includes any collateral eligible for purchase by the Federal Re=
+serve Banks in open market operations (see 12 CFR 201.108(b)), provided tha=
+t such collateral was owned by the borrower as of March 12, 2023.</p>
+<p style=3D"margin: 16px 0;"><strong>Advance Size: </strong>Advances will b=
+e limited to the value of eligible collateral pledged by the eligible borro=
+wer.</p>
+<p style=3D"margin: 16px 0;"><strong>Rate: </strong>The rate for term advan=
+ces will be the one-year overnight index swap rate plus 10 basis points; th=
+e rate will be fixed for the term of the advance on the day the advance is =
+made.</p>
+<p style=3D"margin: 16px 0;"><strong>Collateral Valuation: </strong>The col=
+lateral valuation will be par value. Margin will be 100% of par value.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">So you needed to own the bonds by yesterday in=
+ order to borrow against them today at par. If you go out and buy Treasury =
+bonds at 80 cents on the dollar today, you can=E2=80=99t put them into the =
+BTFP and borrow 100 cents against them. But if you bought Treasury bonds a =
+year ago at 100 cents on the dollar, and they=E2=80=99re worth 80 cents on =
+the dollar today, and you=E2=80=99re a bank, you=C2=A0<em>can=C2=A0</em>put=
+ them into the BTFP and borrow 100 cents against them.=C2=A0</p>
+<p style=3D"margin: 16px 0;">This means that BTFP is not a perpetual progra=
+m to let banks ignore mark-to-market accounting forever: It is a way for ba=
+nks to=C2=A0<em>roll off=C2=A0</em>their existing portfolios of Treasuries =
+that have lost value in the current rate-hiking cycle, to transition to a s=
+teady state where (you hope!) banks are less at risk from interest-rate inc=
+reases.</p>
+<p style=3D"margin: 16px 0;">Also here is <a href=3D"https://link.mail.bloo=
+mbergbusiness.com/click/30821211.285418/aHR0cHM6Ly93d3cubGF3LmNvcm5lbGwuZWR=
+1L2Nmci90ZXh0LzEyLzIwMS4xMDg/607f07ceef4b8524a319a23cB53162cfb" itemprop=3D=
+"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #0000=
+00; text-decoration: none !important; border-bottom-width: 1px; border-bott=
+om-color: #000000; border-bottom-style: solid; background-color: #ccc;"> th=
+e list of eligible collateral</a>, which is all pretty high-quality stuff, =
+=E2=80=9Cdirect obligations of, and obligations fully guaranteed as to prin=
+cipal and interest by, the United States,=E2=80=9D meaning Treasury bonds, =
+agency securities, etc. Again, this is purely a bailout of banks=E2=80=99 b=
+ad <em>interest-rate=C2=A0</em>bets; they get to ignore losses on long-date=
+d Treasuries but not any mistakes they made on business loans.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Deposit trading</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Do you think they <a href=3D"https://link.mail=
+.bloombergbusiness.com/click/30821211.285418/aHR0cHM6Ly93d3cuc2VtYWZvci5jb2=
+0vYXJ0aWNsZS8wMy8xMS8yMDIzL2hlZGdlLWZ1bmRzLW9mZmVyLXRvLWJ1eS1kZXBvc2l0cy1zd=
+HVjay1hdC1zaWxpY29uLXZhbGxleS1iYW5r/607f07ceef4b8524a319a23cBf46fc685" item=
+prop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color=
+: #000000; text-decoration: none !important; border-bottom-width: 1px; bord=
+er-bottom-color: #000000; border-bottom-style: solid; background-color: #cc=
+c;"> got any trades in</a>?</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Hedge funds are offering to buy startups=E2=80=
+=99 deposits stranded at Silicon Valley Bank for as little as 60 cents on t=
+he dollar, pitching expensive but crucial lifelines to founders unable to a=
+ccess their cash after the lender collapsed yesterday, people familiar with=
+ the matter said.</p>
+<p style=3D"margin: 16px 0;">Firms better known for investing in distressed=
+ debt, including Oaktree, one of the people said, are fanning out to startu=
+ps in the wake of the bank=E2=80=99s failure and seizure by the Federal Ins=
+urance Deposit Corp. on Friday. Its collapse left hundreds of startups =E2=
+=80=94 as well as the venture funds that backed them =E2=80=94 unable to ac=
+cess their cash to meet payroll and other expenses.</p>
+<p style=3D"margin: 16px 0;">Bids range from 60 to 80 cents on the dollar, =
+the people said, reflecting a range of expectations for how much of the uni=
+nsured deposits =E2=80=94 those that exceed the FDIC=E2=80=99s $250,000-per=
+-customer cap =E2=80=94 will ultimately be recovered once the bank=E2=80=99=
+s assets are sold or wound down.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">That is from Semafor on Saturday, and we now k=
+now the answer is 100 cents on the dollar. When we talked about this on Fri=
+day, I figured plausible answers ranged from 95 to 100, with 100 being the =
+most likely outcome. If you are a startup who woke up today needing to=C2=
+=A0make payroll, you might have been tempted by 60, even though it was obje=
+ctively way too low. Except that when you woke up=C2=A0<em>today=C2=A0</em>=
+the FDIC had already said you=E2=80=99d be able to get 100 cents on the dol=
+lar immediately. Things were less certain on Saturday, but you probably did=
+n=E2=80=99t need to make payroll on Saturday. Seems unlikely that Oaktree d=
+id much business (or <a href=3D"https://link.mail.bloombergbusiness.com/cli=
+ck/30821211.285418/aHR0cHM6Ly93d3cudGhlaW5mb3JtYXRpb24uY29tL2FydGljbGVzL3dh=
+bGwtc3RyZWV0LWZpcm0tcG91bmNlcy1vbi1zdmItaW1wbG9zaW9uLXdpdGgtb2ZmZXItdG8tYnV=
+5LWRlcG9zaXQtY2xhaW1z/607f07ceef4b8524a319a23cBe9b07667" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;"> Jefferies=
+</a>, which was also offering to buy claims), but still, I admire the speed=
+y opportunism.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Bond trading</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;"><a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30821211.285418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGlj=
+bGVzLzIwMjMtMDMtMTMvc3ZiLWJvbmRzLXRoZS11cy1zYXlzLXdpbGwtYmUtd2lwZWQtb3V0LWd=
+haW4taW4tcmFyZS1zZXNzaW9uP2NtcGlkPUJCRDAzMTMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW=
+09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMxMyZ1dG1fY2FtcGFpZ=
+249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBcf6fca12" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;"> Sure</a>?</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">As US government officials pledged to fully pr=
+otect all depositors of the failed Silicon Valley Bank, they had a specific=
+ message for investors in the bonds and shares of the bank=E2=80=99s holdin=
+g company.</p>
+<p style=3D"margin: 16px 0;">They=E2=80=99ll be =E2=80=9Cwiped out,=E2=80=
+=9D a senior Treasury official said in a call with reporters late Sunday.</=
+p>
+<p style=3D"margin: 16px 0;">Yet some traders appear to be betting that the=
+ recovery value of bonds issued by parent SVB Financial Group will be highe=
+r than the market was pricing in during the tumultuous Friday session.</p>
+<p style=3D"margin: 16px 0;">The senior unsecured bonds were changing hands=
+ at around 47 to 50 cents on the dollar Monday morning, higher than the rou=
+ghly 37 to 42 cents at the end of Friday, according to data from the US tra=
+de reporting system known as Trace. SVB bonds were among the most actively =
+traded obligations over the Monday session, per Trace.</p>
+<p style=3D"margin: 16px 0;">The parent has assets that could be used in a =
+bankruptcy to repay creditors, including $2.3 billion in cash, $491 million=
+ in investments and nonbank units worth $896 million, according the company=
+=E2=80=99s annual report.=C2=A0</p>
+<p style=3D"margin: 16px 0;">Investors and credit graders expect the holdin=
+g company will be put into Chapter 11 bankruptcy after the government seizu=
+re of its banking operations.=C2=A0</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">I mean the Treasury can=E2=80=99t really just=
+=C2=A0<em>decide=C2=A0</em>to wipe out the bonds: If it turns out that Sili=
+con Valley Bank ultimately sells for more than its deposits, somebody has t=
+o get that money, and the bondholders are =E2=80=A6=C2=A0=E2=80=9Cfirst in =
+line=E2=80=9D is an exaggeration, probably the bank regulators could find w=
+ays to extract some extra money from SVB to pay for its rescue, but the bon=
+dholders are=C2=A0<em>in=C2=A0</em>line. The fact that the FDIC didn=E2=80=
+=99t succeed in selling SVB over the weekend is not a=C2=A0<em>great=C2=A0<=
+/em>sign for the eventual recovery, but I=E2=80=99m not sure it=E2=80=99s o=
+bvious that the recovery will be zero, even though Treasury would probably =
+like that outcome.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">USDC</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Most of the leading crypto stablecoins have a =
+pretty simple model: You give some stablecoin issuer $1, the issuer keeps t=
+he dollar and gives you back a dollar-denominated stablecoin, and the issue=
+r promises to redeem the stablecoin for a dollar when you want. Meanwhile, =
+the issuer has to hang on to the dollar. There are roughly two ways for it =
+to do this:</p>
+<ol style=3D"list-style-type: decimal; padding-left: 40px; margin: 16px 0;"=
+>=09<li style=3D"margin-bottom: 5px;">The issuer can try to work nicely wit=
+h US regulators, get various licenses, and park its money in some combinati=
+on of Treasury bills, other safe liquid assets, and accounts at regulated U=
+S banks.</li>=09<li style=3D"margin-bottom: 5px;">The issuer can be a total=
+ mystery! The money is somewhere! Probably! But you=E2=80=99ll never find o=
+ut where.</li>
+</ol>
+<p style=3D"margin: 16px 0;">USDC, the stablecoin of Circle, is probably th=
+e leading example of the first option. USDT, the stablecoin of Tether, is p=
+robably the leading=C2=A0example of the second option.</p>
+<p style=3D"margin: 16px 0;">Me, I am a guy from traditional finance, and I=
+=E2=80=99ve always been a bit puzzled that everyone in crypto trusts Tether=
+ so completely. You could put your money in a stablecoin that transparently=
+ keeps it in regulated banks, or you could put your money in Tether, which =
+is <a href=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418=
+/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMjEtMTAtMDcvbW=
+F0dC1sZXZpbmUtcy1tb25leS1zdHVmZi1sb29raW5nLWZvci10ZXRoZXItcy1tb25leT9jbXBpZ=
+D1CQkQwMzEzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xl=
+dHRlciZ1dG1fdGVybT0yMzAzMTMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b852=
+4a319a23cBdce4c08b" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">  very cagy</a> and sometimes gets up to <a h=
+ref=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/aHR0cH=
+M6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2FydGljbGVzLzIwMTktMDQtMjYvdGhpbmdzL=
+WdvdC13ZWlyZC1mb3Itc3RhYmxlY29pbi10ZXRoZXI_Y21waWQ9QkJEMDMxMzIzX01PTkVZU1RV=
+RkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzE=
+zJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4b8524a319a23cB5b27decb" itempr=
+op=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: =
+#000000; text-decoration: none !important; border-bottom-width: 1px; border=
+-bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;=
+">  absolutely wild stuff with the money</a>. Why choose Tether?</p>
+<p style=3D"margin: 16px 0;">But then this weekend <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/30821211.285418/aHR0cHM6Ly93d3cuYmxvb21iZX=
+JnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTEvY3J5cHRvLXNoYWtlbi1hcy1zdmItZXhwb=
+3N1cmUtZGVwZWdzLTM3LWJpbGxpb24tc3RhYmxlY29pbj9jbXBpZD1CQkQwMzEzMjNfTU9ORVlT=
+VFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzA=
+zMTMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB7d68e745" ite=
+mprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"colo=
+r: #000000; text-decoration: none !important; border-bottom-width: 1px; bor=
+der-bottom-color: #000000; border-bottom-style: solid; background-color: #c=
+cc;">  USDC depegged and USDT did not</a>, because USDC has money at Silico=
+n Valley Bank and USDT (presumably!) does not:</p>
+<blockquote>
+<p style=3D"margin: 16px 0;">Crypto=E2=80=99s second-largest stablecoin reb=
+ounded toward its intended $1 dollar peg as issuer Circle Internet Financia=
+l Ltd. pledged to cover any shortfall in $3.3 billion of reverses held at c=
+ollapsed Silicon Valley Bank.</p>
+<p style=3D"margin: 16px 0;">USD Coin, a key plank in crypto markets, rose =
+as high as $1 and was trading at 98.2 cents as of 10:50 a.m. Sunday in Toky=
+o. The coin had earlier fetched less than 85 cents in a depeg that sent a s=
+hudder through digital assets.</p>
+<p style=3D"margin: 16px 0;">Circle reiterated its stablecoin, also known a=
+s USDC, is fully backed by $42.1 billion in cash and US Treasuries. The com=
+pany said outbound transfers of the $3.3 billion at Silicon Valley Bank ini=
+tiated as of Thursday had yet to settle but expressed confidence in US regu=
+latory efforts to manage the overall situation. =E2=80=A6</p>
+<p style=3D"margin: 16px 0;">Top stablecoin Tether or USDT =E2=80=94 which =
+has previously faced scrutiny over its reserves =E2=80=94 said on Friday th=
+at it doesn=E2=80=99t have exposure to Silicon Valley Bank and has held fir=
+m at $1 or above.</p>
+</blockquote>
+<p style=3D"margin: 16px 0;">One possible understanding of this situation i=
+s that Circle made some bad credit decisions with its portfolio (putting bi=
+llions of dollars into a rickety US bank), while Tether made excellent cred=
+it decisions with its portfolio (putting billions of dollars into whatever =
+it is putting billions of dollars into). And, by extension, the traditional=
+ regulated US banking system isn=E2=80=99t that safe, and Tether=E2=80=99s =
+more complicated exposures are actually better than keeping the money in th=
+e bank.</p>
+<p style=3D"margin: 16px 0;">Another possible understanding, though, is tha=
+t banking requires mystery! My point, in the first section of this column, =
+was that too much transparency can <em>add=C2=A0</em>to the fragility of a =
+bank, that the Fed is providing a valuable service by ignoring banks=E2=80=
+=99 mark-to-market losses. Circle does not provide that service. Circle kee=
+ps its money in a bank with financial statements, and that bank fails, and =
+Circle dutifully puts out a statement saying =E2=80=9Cwhoops we had $3.3 bi=
+llion in the failed bank,=E2=80=9D and people naturally panic and USDC depe=
+gs. You have no idea where Tether keeps its money, so you have no idea if a=
+nything went wrong. This has generally struck me as bad, but it might have =
+some advantages.</p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Programming note</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Money Stuff was supposed to be off on Friday, =
+but then Silicon Valley Bank collapsed and <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/30821211.285418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS=
+9vcGluaW9uL2FydGljbGVzLzIwMjMtMDMtMTAvc3RhcnR1cC1iYW5rLWhhZC1hLXN0YXJ0dXAtY=
+mFuay1ydW4_Y21waWQ9QkJEMDMxMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1f=
+c291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzEzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZ=
+m/607f07ceef4b8524a319a23cCc9ee6e79" itemprop=3D"StoryLink" itemscope=3D"it=
+emscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">  there was an unscheduled Mon=
+ey Stuff</a>. Back when Elon Musk was trying to buy or not buy=C2=A0Twitter=
+, that sort of thing happened a lot, to the point that <a href=3D"https://l=
+ink.mail.bloombergbusiness.com/click/30821211.285418/aHR0cHM6Ly93d3cudGhldm=
+VyZ2UuY29tLzIwMjIvMTAvMjgvMjM0MjcxMzcvZWxvbi1tdXNrLXR3aXR0ZXItbWF0dC1sZXZpb=
+mUtbW9uZXktc3R1ZmY/607f07ceef4b8524a319a23cB2b94513a" itemprop=3D"StoryLink=
+" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-d=
+ecoration: none !important; border-bottom-width: 1px; border-bottom-color: =
+#000000; border-bottom-style: solid; background-color: #ccc;"> the Verge pu=
+blished a story</a> titled =E2=80=9CA brief history of Elon Musk sabotaging=
+ Matt Levine=E2=80=99s=C2=A0time off.=E2=80=9D=C2=A0This is enough of a thi=
+ng that people sometimes=C2=A0joke on Twitter about buying index options wh=
+enever I write =E2=80=9CMoney Stuff will be off tomorrow,=E2=80=9D on the t=
+heory that the market gods always get up to something crazy whenever I try =
+to take a day off.</p>
+<p style=3D"margin: 16px 0;">Naturally someone did a backtest and turns out=
+ it=E2=80=99s a bad idea (not investing advice!). Here is =E2=80=9C<a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/aHR0cHM6L=
+y9wYXBlcnMuc3Nybi5jb20vc29sMy9wYXBlcnMuY2ZtP2Fic3RyYWN0X2lkPTQzODYyNTY/607f=
+07ceef4b8524a319a23cB1214d919" itemprop=3D"StoryLink" itemscope=3D"itemscop=
+e" target=3D"_blank" style=3D"color: #000000; text-decoration: none !import=
+ant; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-=
+style: solid; background-color: #ccc;">A Matt Levine Effect?</a>=E2=80=9D b=
+y Paul Connell, William Fallon and Nicholas Foretek, on SSRN and everything=
+:</p>
+<blockquote><p style=3D"margin: 16px 0;">This paper constructs a novel data=
+set to explore whether Matt Levine=E2=80=99s vacation drives market volatil=
+ity as suggested by readers and Levine himself. It finds that contrary to e=
+xpectations, Levine=E2=80=99s vacations have an (almost) statistically sign=
+ificant effect in the opposite direction: decreasing market volatility. Thi=
+s paper provides a series of potential explanations for this observed marke=
+t reaction.</p></blockquote>
+<p style=3D"margin: 16px 0;">The main explanation is that I take vacations =
+at normal vacation times, when everyone else takes vacations and markets ar=
+e often quiet. The paper is full of good sentences, including =E2=80=9CThe =
+measured effect of Matt Levine=E2=80=99s vacations on financial market vola=
+tility is negative and of a considerable magnitude,=E2=80=9D =E2=80=9CThis =
+paper contributes to two bodies of research. The first is a collection of s=
+tudies that examine spurious statistical correlates of important macroecono=
+mic events,=E2=80=9D =E2=80=9CTo our knowledge, we are the first to combine=
+ Money Stuff publication dates, VIX closing data, federal bank holidays and=
+ sunspot records into a single database=E2=80=9D and =E2=80=9CCollection of=
+ the data for this study was made possible by the authors=E2=80=99 status a=
+s graduate students who, if our advisors are asking, definitely spent the w=
+hole week before spring break working on our dissertations.=E2=80=9D=C2=A0<=
+/p>
+<table class=3D"header" width=3D"100%" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tr>
+<td class=3D"body-header-container" style=3D"border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">
+<h2 style=3D"font-weight: bold; font-family: &quot;Arial Black&quot;, Arial=
+, Helvetica, sans-serif; letter-spacing: -1px; font-size: 20px; border-bott=
+om-width: 1px; border-bottom-style: dotted; margin: 0px; padding: 16px 0px =
+5px;">Things happen</h2>
+</td>
+</tr>
+</table>
+<p style=3D"margin: 16px 0;">Ron DeSantis blames Silicon Valley Bank=E2=80=
+=99s collapse on <a href=3D"https://link.mail.bloombergbusiness.com/click/3=
+0821211.285418/aHR0cHM6Ly9mbG9yaWRhcG9saXRpY3MuY29tL2FyY2hpdmVzLzU5NDY2Ni1z=
+dmItZGVzYW50aXMtZGVpLw/607f07ceef4b8524a319a23cB2599d317" itemprop=3D"Story=
+Link" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; te=
+xt-decoration: none !important; border-bottom-width: 1px; border-bottom-col=
+or: #000000; border-bottom-style: solid; background-color: #ccc;"> DEI</a>.=
+ Trouble at SVB, First Republic Signal <a href=3D"https://link.mail.bloombe=
+rgbusiness.com/click/30821211.285418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZX=
+dzL2FydGljbGVzLzIwMjMtMDMtMTMvc3ZiLXRvLWZpcnN0LXJlcHVibGljLXNob3dzLWVuZC1vZ=
+i1lYXN5LW1vbmV5LWZ1ZWxpbmctY2FsaWZvcm5pYT9jbXBpZD1CQkQwMzEzMjNfTU9ORVlTVFVG=
+RiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMTM=
+mdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB74e0ceb7" itempro=
+p=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #=
+000000; text-decoration: none !important; border-bottom-width: 1px; border-=
+bottom-color: #000000; border-bottom-style: solid; background-color: #ccc;"=
+>  Reckoning for Tech Money</a> Fueling California. Ben Thompson: <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/aHR0cHM6L=
+y9zdHJhdGVjaGVyeS5jb20vMjAyMy90aGUtZGVhdGgtb2Ytc2lsaWNvbi12YWxsZXktYmFuay8/=
+607f07ceef4b8524a319a23cB12d8b38e" itemprop=3D"StoryLink" itemscope=3D"item=
+scope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !im=
+portant; border-bottom-width: 1px; border-bottom-color: #000000; border-bot=
+tom-style: solid; background-color: #ccc;">The End of Silicon Valley (Bank)=
+</a>. Savers Pile Money Into <a href=3D"https://link.mail.bloombergbusiness=
+.com/click/30821211.285418/aHR0cHM6Ly93d3cud3NqLmNvbS9hcnRpY2xlcy9zYXZlcnMt=
+cGlsZS1tb25leS1pbnRvLWJhbmstY2RzLWFzLXJhdGVzLXRvcC01LTllYjI1NGMwP21vZD1ocF9=
+sZWFkX3BvczEx/607f07ceef4b8524a319a23cBa764c3cd" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> Bank CDs</a> as R=
+ates Top 5%. <a href=3D"https://link.mail.bloombergbusiness.com/click/30821=
+211.285418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMt=
+MTAvaG93LW11Y2gtZG9lcy1hLW1vcnRnYWdlLWNvc3QtcGF5bWVudHMtc3VyZ2UtdG8tYS1yZWN=
+vcmQtb24taGlnaGVyLXJhdGVzP2NtcGlkPUJCRDAzMTMyM19NT05FWVNUVUZGJnV0bV9tZWRpdW=
+09ZW1haWwmdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV90ZXJtPTIzMDMxMyZ1dG1fY2FtcGFpZ=
+249bW9uZXlzdHVmZg/607f07ceef4b8524a319a23cBdd755af6" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">  Mortgage Pay=
+ments</a> Hit Record High. Pfizer to buy oncology-focused biotech <a href=
+=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/aHR0cHM6L=
+y93d3cuZnQuY29tL2NvbnRlbnQvYmM4NWViMmEtOWE1NS00YTg2LTkwNDgtNGRlNjk2YTY1MWJj=
+/607f07ceef4b8524a319a23cBecd5f3d7" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;"> Seagen</a> for $43bn. Adani Fo=
+unders Prepay <a href=3D"https://link.mail.bloombergbusiness.com/click/3082=
+1211.285418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDM=
+tMTIvYWRhbmktZm91bmRlcnMtcHJlcGF5LXNoYXJlLWJhY2tlZC1sb2Fucy13b3J0aC0yLTE1LW=
+JpbGxpb24_Y21waWQ9QkJEMDMxMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc=
+291cmNlPW5ld3NsZXR0ZXImdXRtX3Rlcm09MjMwMzEzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm=
+/607f07ceef4b8524a319a23cB14530251" itemprop=3D"StoryLink" itemscope=3D"ite=
+mscope" target=3D"_blank" style=3D"color: #000000; text-decoration: none !i=
+mportant; border-bottom-width: 1px; border-bottom-color: #000000; border-bo=
+ttom-style: solid; background-color: #ccc;">  Share-Backed Loans</a> Worth =
+$2.15 Billion. JPMorgan=E2=80=99s Jes Staley Suit Seen as Prelude to <a hre=
+f=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/aHR0cHM6=
+Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2FydGljbGVzLzIwMjMtMDMtMTMvanBtb3JnYW4tcy1=
+qZXMtc3RhbGV5LXN1aXQtc2Vlbi1hcy1wcmVsdWRlLXRvLWVwc3RlaW4tc2V0dGxlbWVudD9jbX=
+BpZD1CQkQwMzEzMjNfTU9ORVlTVFVGRiZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c=
+2xldHRlciZ1dG1fdGVybT0yMzAzMTMmdXRtX2NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b=
+8524a319a23cB2e5a9d05" itemprop=3D"StoryLink" itemscope=3D"itemscope" targe=
+t=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bor=
+der-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: s=
+olid; background-color: #ccc;">  Settlement Over Epstein Claims</a>. Drunk =
+Drivers=E2=80=99 Cars Are Being <a href=3D"https://link.mail.bloombergbusin=
+ess.com/click/30821211.285418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9uZXdzL2Fyd=
+GljbGVzLzIwMjMtMDMtMTAvbGF0dmlhLWJlZ2lucy1zaGlwcGluZy1jYXJzLXNlaXplZC1mcm9t=
+LWRydW5rLWRyaXZlcnMtdG8tdWtyYWluZT9jbXBpZD1CQkQwMzEzMjNfTU9ORVlTVFVGRiZ1dG1=
+fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9bmV3c2xldHRlciZ1dG1fdGVybT0yMzAzMTMmdXRtX2=
+NhbXBhaWduPW1vbmV5c3R1ZmY/607f07ceef4b8524a319a23cB9ce4fea6" itemprop=3D"St=
+oryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000;=
+ text-decoration: none !important; border-bottom-width: 1px; border-bottom-=
+color: #000000; border-bottom-style: solid; background-color: #ccc;">  Sent=
+ to Ukraine</a> by Latvia. March Madness, Vasectomies Are an <a href=3D"htt=
+ps://link.mail.bloombergbusiness.com/click/30821211.285418/aHR0cHM6Ly93d3cu=
+d3NqLmNvbS9hcnRpY2xlcy9tYXJjaC1tYWRuZXNzLXZhc2VjdG9taWVzLWFyZS1hbi11bmxpa2V=
+seS1wYWlyaW5nLWZpbGxpbmctdXJvbG9neS1vZmZpY2VzLTY2YWQ3Zjg0/607f07ceef4b8524a=
+319a23cBb5c80e46" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"=
+_blank" style=3D"color: #000000; text-decoration: none !important; border-b=
+ottom-width: 1px; border-bottom-color: #000000; border-bottom-style: solid;=
+ background-color: #ccc;"> Unlikely Pairing</a> Filling Urology Offices.</p=
+>
+<p style=3D"margin: 16px 0;"><span class=3D"news-designed-for-consumer-medi=
+a"><em>If you'd like to get=C2=A0Money=C2=A0Stuff=C2=A0in handy email form,=
+ right in your inbox, please=C2=A0<a href=3D"https://link.mail.bloombergbus=
+iness.com/click/30821211.285418/aHR0cDovL2xpbmsubWFpbC5ibG9vbWJlcmdidXNpbmV=
+zcy5jb20vam9pbi80d20vbW9uZXlzdHVmZi1zaWdudXAmaGFzaD01NDIyMzAwMWNhM2ZmY2Y0MG=
+YyNjI5YzI1YWNlYTY3YQ/607f07ceef4b8524a319a23cB63d2439a" target=3D"_blank" s=
+tyle=3D"color: #000000; text-decoration: none !important; border-bottom-wid=
+th: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgrou=
+nd-color: #ccc;">subscribe at this link</a>. Or you can subscribe to Money =
+Stuff and other great Bloomberg newsletters <a href=3D"https://link.mail.bl=
+oombergbusiness.com/click/30821211.285418/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY=
+29tL25ld3NsZXR0ZXJz/607f07ceef4b8524a319a23cBbfc4a07f" itemprop=3D"StoryLin=
+k" itemscope=3D"itemscope" style=3D"color: #000000; text-decoration: none !=
+important; border-bottom-width: 1px; border-bottom-color: #000000; border-b=
+ottom-style: solid; background-color: #ccc;">here</a>. Thanks!</em></span><=
+/p>
+<div id=3D"footnote-1" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[1] In fact, banks generally make higher net i=
+nterest margins as rates go up, because they can increase their interest in=
+come (on long-term loans and bonds) faster than they increase their deposit=
+ interest expense. I cited it <a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30821211.285418/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9vcGluaW9uL2F=
+ydGljbGVzLzIwMjMtMDMtMTAvc3RhcnR1cC1iYW5rLWhhZC1hLXN0YXJ0dXAtYmFuay1ydW4_Y2=
+1waWQ9QkJEMDMxMzIzX01PTkVZU1RVRkYmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPW5ld=
+3NsZXR0ZXImdXRtX3Rlcm09MjMwMzEzJnV0bV9jYW1wYWlnbj1tb25leXN0dWZm/607f07ceef4=
+b8524a319a23cDc9ee6e79" itemprop=3D"StoryLink" itemscope=3D"itemscope" targ=
+et=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bo=
+rder-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: =
+solid; background-color: #ccc;">  the other day</a>, but here=E2=80=99s =E2=
+=80=9C<a href=3D"https://link.mail.bloombergbusiness.com/click/30821211.285=
+418/aHR0cHM6Ly9wYWdlcy5zdGVybi5ueXUuZWR1L35hc2F2b3YvYWxleGlzYXZvdi9BbGV4aV9=
+TYXZvdl9maWxlcy9CYW5raW5nT25EZXBvc2l0cy5wZGY/607f07ceef4b8524a319a23cB319e2=
+84d" target=3D"_blank" style=3D"color: #000000; text-decoration: none !impo=
+rtant; border-bottom-width: 1px; border-bottom-color: #000000; border-botto=
+m-style: solid; background-color: #ccc;">Banking on Deposits: Maturity Tran=
+sformation without Interest Rate Risk</a>,=E2=80=9D by Itamar Drechsler, Al=
+exi Savov and Philipp Schnabl, in the Journal of Finance in 2021: =E2=80=9C=
+We show that maturity transformation does not expose banks to interest rate=
+ risk =E2=80=94 it hedges it. The reason is the deposit franchise, which al=
+lows banks to pay deposit rates that are low and insensitive to market inte=
+rest rates. Hedging the deposit franchise requires banks to earn income tha=
+t is also insensitive, that is, to lend long term at fixed rates. As predic=
+ted by this theory, we show that banks closely match the interest rate sens=
+itivities of their interest income and expense, and that this insulates the=
+ir equity from interest rate shocks. Our results explain why banks supply l=
+ong-term credit.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-2" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[2] Acceptable yet still lazy options for bank=
+ers would include saying =E2=80=9Cehh a 5-year bond has about a 4-year dura=
+tion so if rates go up 3% that=E2=80=99s a 12-point loss=E2=80=9D (for a pr=
+ice of $88), or =3DPV(.05,5,-2,-100) in Excel (for a price of $87.01).</p>
+</div>
+<div id=3D"footnote-3" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[3] I am trying to be as casual as possible ab=
+out capital here, because no one ever likes reading about bank capital. But=
+ the idea is that the assets side of the balance sheet is (1) $100 of loans=
+ plus (2) $10 of cash, and the liability side is (3) $100 of deposits plus =
+(4) $10 of stockholders=E2=80=99 equity.</p>
+</div>
+<div id=3D"footnote-4" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[4] As a matter of double-entry accounting, it=
+ needs to go somewhere, with the two main options being (1) subtracting it =
+from net income or (2) subtracting it from accumulated other comprehensive =
+income.</p>
+</div>
+<div id=3D"footnote-5" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[5] Even loans trade more freely and are more =
+likely to be marked to market than they used to be.</p>
+</div>
+<div id=3D"footnote-6" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[6] Two books that discuss this transition, fr=
+om old-style bank accounting to modern mark-to-market accounting, and its r=
+elationship to banking crises, are Nicholas Dunbar=E2=80=99s =E2=80=9C<a hr=
+ef=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/aHR0cHM=
+6Ly93d3cub3JlaWxseS5jb20vbGlicmFyeS92aWV3L3RoZS1kZXZpbHMtZGVyaXZhdGl2ZXMvOT=
+c4MTQyMjE0MzE2Mi8/607f07ceef4b8524a319a23cBd879a50a" itemprop=3D"StoryLink"=
+ itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-de=
+coration: none !important; border-bottom-width: 1px; border-bottom-color: #=
+000000; border-bottom-style: solid; background-color: #ccc;">The Devil=E2=
+=80=99s Derivatives</a>=E2=80=9D and Friedman and Kraus=E2=80=99s =E2=80=9C=
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/aH=
+R0cHM6Ly93d3cucGVubnByZXNzLm9yZy85NzgwODEyMjQzNTc0L2VuZ2luZWVyaW5nLXRoZS1ma=
+W5hbmNpYWwtY3Jpc2lzLw/607f07ceef4b8524a319a23cBeb3e365d" itemprop=3D"StoryL=
+ink" itemscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; tex=
+t-decoration: none !important; border-bottom-width: 1px; border-bottom-colo=
+r: #000000; border-bottom-style: solid; background-color: #ccc;">Engineerin=
+g the Financial Crisis</a>.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-7" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[7] Most relevant, check out <a href=3D"https:=
+//link.mail.bloombergbusiness.com/click/30821211.285418/aHR0cHM6Ly93d3cuc2V=
+jLmdvdi9BcmNoaXZlcy9lZGdhci9kYXRhLzcxOTczOS8wMDAwNzE5NzM5MjMwMDAwMjEvc2l2Yi=
+0yMDIyMTIzMS5odG0jaWJiNGRkNzNhMWQzZjRiZmY5NDRiNWQzNWZkMmM1ZTJhXzE5OQ/607f07=
+ceef4b8524a319a23cB95826a00" itemprop=3D"StoryLink" itemscope=3D"itemscope"=
+ target=3D"_blank" style=3D"color: #000000; text-decoration: none !importan=
+t; border-bottom-width: 1px; border-bottom-color: #000000; border-bottom-st=
+yle: solid; background-color: #ccc;"> page 125 of the 2022 Form 10-K</a> of=
+ SVB Financial Group Inc. (Silicon Valley Bank=E2=80=99s former holding com=
+pany). On page 95, you get <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30821211.285418/aHR0cHM6Ly93d3cuc2VjLmdvdi9BcmNoaXZlcy9lZGdhci9kYX=
+RhLzcxOTczOS8wMDAwNzE5NzM5MjMwMDAwMjEvc2l2Yi0yMDIyMTIzMS5odG0jaWJiNGRkNzNhM=
+WQzZjRiZmY5NDRiNWQzNWZkMmM1ZTJhXzE4NA/607f07ceef4b8524a319a23cB257990d7" it=
+emprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" style=3D"col=
+or: #000000; text-decoration: none !important; border-bottom-width: 1px; bo=
+rder-bottom-color: #000000; border-bottom-style: solid; background-color: #=
+ccc;"> the balance sheet</a>, showing $16.3 billion of stockholders=E2=80=
+=99 equity. On page 125, in the notes, you get $15.2 billion of unrealized =
+losses on the HTM securities portfolio.</p>
+</div>
+<div id=3D"footnote-8" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[8] I=E2=80=99m quoting <a href=3D"https://lin=
+k.mail.bloombergbusiness.com/click/30821211.285418/aHR0cHM6Ly93d3cudGhlZGlm=
+Zi5jby9hcmNoaXZlL2dyZWF0LWludmVzdG9ycy1iYWQtcXVpdHRlcnMvP3JlZj10aGUtZGlmZi1=
+uZXdzbGV0dGVy/607f07ceef4b8524a319a23cC64fb6b61" itemprop=3D"StoryLink" ite=
+mscope=3D"itemscope" target=3D"_blank" style=3D"color: #000000; text-decora=
+tion: none !important; border-bottom-width: 1px; border-bottom-color: #0000=
+00; border-bottom-style: solid; background-color: #ccc;"> Byrne Hobart's po=
+st about Silicon Valley Bank</a> from Feb. 23, which has <a href=3D"https:/=
+/link.mail.bloombergbusiness.com/click/30821211.285418/aHR0cHM6Ly90d2l0dGVy=
+LmNvbS9pdHN1cmJveWV2YW4vc3RhdHVzLzE2MzQ2MDM4Njk3NTI3NjY0NzE/607f07ceef4b852=
+4a319a23cB77eb22a5" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=
+=3D"_blank" style=3D"color: #000000; text-decoration: none !important; bord=
+er-bottom-width: 1px; border-bottom-color: #000000; border-bottom-style: so=
+lid; background-color: #ccc;">become rather famous</a>.</p>
+</div>
+<div id=3D"footnote-9" class=3D"footnote-content" style=3D"font-style: ital=
+ic;">
+<p style=3D"margin: 16px 0;">[9] Here is a <a href=3D"https://link.mail.blo=
+ombergbusiness.com/click/30821211.285418/aHR0cHM6Ly90d2l0dGVyLmNvbS9EYW5pZW=
+xhR2Fib3Ivc3RhdHVzLzE2MzUxNjcxNTQwNDI3MTYxNjE/607f07ceef4b8524a319a23cBef98=
+1421" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> Twitter thread from Daniela Gabor</a> about this consensus. =
+=E2=80=9CWith 1990s shift in open market operations from outright purchases=
+ (of sovereign bonds) to repo loans against collateral (sovereign or other)=
+, central banks adopted 'modern' collateral valuation: - collateral at mark=
+et price rather than par - haircut on market price. =E2=80=A6 Until yesterd=
+ay, in my 15 years of researching central banks collateral I have never hea=
+rd one single central banker contesting this common wisdom: never, ever par=
+ value.=E2=80=9D</p>
+</div>
+<div id=3D"footnote-10" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[10] I don=E2=80=99t really know, but if you t=
+ake its equity capital as of Dec. 31 and subtract unrealized losses on its =
+HTM portfolio you get a barely positive number, and then if you haircut, li=
+ke, its wine loans at all, you get a negative number. And then stuff only g=
+ot worse over February and March. Here=E2=80=99s a <a href=3D"https://link.=
+mail.bloombergbusiness.com/click/30821211.285418/aHR0cHM6Ly90d2l0dGVyLmNvbS=
+9zaW5kYXAvc3RhdHVzLzE2MzUwMTE4NTU0OTExNjIxMTM/607f07ceef4b8524a319a23cB4758=
+f781" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank" styl=
+e=3D"color: #000000; text-decoration: none !important; border-bottom-width:=
+ 1px; border-bottom-color: #000000; border-bottom-style: solid; background-=
+color: #ccc;"> Jefferies valuation</a> suggesting assets were worth less th=
+an its *deposits* as of Friday.</p>
+</div>
+<div id=3D"footnote-11" class=3D"footnote-content" style=3D"font-style: ita=
+lic;">
+<p style=3D"margin: 16px 0;">[11] Nathan Tankus <a href=3D"https://link.mai=
+l.bloombergbusiness.com/click/30821211.285418/aHR0cHM6Ly90d2l0dGVyLmNvbS9OY=
+XRoYW5UYW5rdXMvc3RhdHVzLzE2MzQ3NDEwMjExMDY4OTY4OTc/607f07ceef4b8524a319a23c=
+B33b1d855" itemprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank"=
+ style=3D"color: #000000; text-decoration: none !important; border-bottom-w=
+idth: 1px; border-bottom-color: #000000; border-bottom-style: solid; backgr=
+ound-color: #ccc;"> tweeted</a>: =E2=80=9CA lot of the discussion this week=
+end is coming close to accepting @rohangrey's argument that any asset a ban=
+k is authorized to make should be acceptable collateral at acquisition pric=
+e at the discount window.=E2=80=9D </p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"component-wrapper" style=3D"border-collapse: collapse; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 10px;">
+<table class=3D"social-component" width=3D"100%" style=3D"width: 100%;">
+<tr>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<span style=3D"margin-right: 4px; vertical-align: middle;">Follow Us</span>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/aH=
+R0cHM6Ly93d3cuZmFjZWJvb2suY29tL2Jsb29tYmVyZ29waW5pb24/607f07ceef4b8524a319a=
+23cBd500972c" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i74qcvoJlmqM/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/aH=
+R0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9ibG9vbWJlcmdvcGluaW9uLw/607f07ceef4b8524a3=
+19a23cB7d19e885" style=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJGFAUI9aUUg/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/aH=
+R0cHM6Ly90d2l0dGVyLmNvbS9ib3Bpbmlvbg/607f07ceef4b8524a319a23cB27b6ae5f" sty=
+le=3D"text-decoration: none; color: #000;">
+<img src=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijPrci.tuuHU/v=
+0/-1x-1.png" width=3D"20" height=3D"20" style=3D"max-width: 550px; vertical=
+-align: middle; width: 20px !important; height: 20px !important;" />
+</a>
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; text-transform: uppercase; font-family: Arial; font-size: 12px; =
+font-weight: normal; font-style: normal; font-stretch: normal; line-height:=
+ 1.17; letter-spacing: normal; padding: 9px 0 9px 3px;"></td>
+<td style=3D"border-top-width: 1px; border-top-style: dotted; border-bottom=
+-width: 1px; border-bottom-style: dotted; border-collapse: collapse; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; text-transform: uppercase; font-fam=
+ily: Arial; font-size: 12px; font-weight: normal; font-style: normal; font-=
+stretch: normal; line-height: 1.17; letter-spacing: normal; padding: 9px 0;=
+">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/aH=
+R0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9hY2NvdW50L25ld3NsZXR0ZXJzL21vbmV5LXN0dWZmP=
+3NvdXJjZT1OTHNoYXJl/607f07ceef4b8524a319a23cB3b970520" style=3D"text-decora=
+tion: none; color: #000;">
+Get the newsletter
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class=3D"footer-wrapper" style=3D"border-collapse: collapse; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; padding: 0px 10px;">
+<table class=3D"editorial-tout" style=3D"font-family: Helvetica, Arial, san=
+s-serif; font-size: 16px; line-height: 150%;">
+<tbody>
+<tr>
+<td class=3D"editorial-tout-container" style=3D"padding-top: 16px; padding-=
+bottom: 16px;">
+<div class=3D"tout-label"></div>
+<div class=3D"tout-text">
+<p style=3D"margin: 0px;"><em><strong>Like getting this newsletter? </stron=
+g><a href=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/=
+aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9zdWJzY3JpcHRpb25zP3V0bV9tZWRpdW09ZW1haWw=
+mdXRtX3NvdXJjZT1uZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1tb25leXN0dWZmJnV0bV9jb250ZW=
+50PXRvdXQtbW9uZXktc3R1ZmYmdXRtX3Rlcm09/607f07ceef4b8524a319a23cB10ea440d" i=
+temprop=3D"StoryLink" itemscope=3D"itemscope" target=3D"_blank">
+Subscribe to Bloomberg.com</a> for unlimited access to trusted, data-driven=
+ journalism and subscriber-only insights.</em></p>
+<p style=3D"margin: 0px;"><em>Before it=E2=80=99s here, it=E2=80=99s on the=
+=C2=A0Bloomberg=C2=A0Terminal.=C2=A0Find out more about how the Terminal de=
+livers information and analysis that financial professionals can=E2=80=99t =
+find anywhere else.=C2=A0<a href=3D"https://link.mail.bloombergbusiness.com=
+/click/15638356.78421/aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9wcm9mZXNzaW9uYWwvc=
+29sdXRpb24vYmxvb21iZXJnLXRlcm1pbmFsLw/55088ec43b35d034698d38aeBe3d4e6ab">Le=
+arn more</a>.</em></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"footer" width=3D"100%" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+<tr>
+<td class=3D"footer-container" align=3D"center" style=3D"font-size: 13px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666; border-collapse: =
+collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0px 1=
+0px;"> You received this message because you are subscribed to Bloomberg's =
+Matt Levine's Money Stuff newsletter.</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"font-size: 13px; font-family: Helvetica, Aria=
+l, sans-serif; color: #666666; border-collapse: collapse; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"><a href=3D"https://link.mail.bloombergbusines=
+s.com/click/30821211.285418/aHR0cHM6Ly9sb2dpbi5ibG9vbWJlcmcuY29tL25ld3NsZXR=
+0ZXJzP3NvdXJjZT1uZXdzbGV0dGVyX3Vuc3ViJmVtYWlsPWJsb29tYmVyZyU0MGtoYW1lbC5jb2=
+0maGFzaD01YjI3Mzg1ODQ2NGM0Mjg2OGI5MmYzYzg0NWUxMTJjMQ/607f07ceef4b8524a319a2=
+3cC61b9ac11" style=3D"color: #666666; text-decoration: none;" alias=3D"Unsu=
+bscribe">Unsubscribe</a> | <a href=3D"https://link.mail.bloombergbusiness.c=
+om/click/30821211.285418/aHR0cDovL2Jsb29tYmVyZy5jb20/607f07ceef4b8524a319a2=
+3cB6b7599c7" style=3D"color: #666666; text-decoration: none;" target=3D"_bl=
+ank">Bloomberg.com</a> | <a href=3D"https://link.mail.bloombergbusiness.com=
+/click/30821211.285418/aHR0cDovL3d3dy5ibG9vbWJlcmcuY29tL2ZlZWRiYWNrP2FsY21w=
+aWQ9bW9zdHBvcA/607f07ceef4b8524a319a23cB6540b8ba" style=3D"color: #666666; =
+text-decoration: none;" target=3D"_blank">Contact Us</a></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"border-collapse: collapse; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;">
+<table class=3D"liveintent-logos">
+<tr>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vcG93ZXJlZC1ieQ/607f07ceef4b8524a319a23cBf=
+ebb9c4e" target=3D"_blank">
+<img class=3D"li-powered-by-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7ESRvr8wb2g/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ads Powered By Liveintent" style=3D"max-width: 550=
+px; height: 18px !important;" />
+</a>
+</td>
+<td style=3D"font-size: 13px; font-family: Helvetica, Arial, sans-serif; co=
+lor: #666666; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt;">
+|
+</td>
+<td style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;">
+<a href=3D"https://link.mail.bloombergbusiness.com/click/30821211.285418/aH=
+R0cHM6Ly93d3cubGl2ZWludGVudC5jb20vYWQtY2hvaWNlcw/607f07ceef4b8524a319a23cBa=
+e83e0ef" target=3D"_blank">
+<img class=3D"li-ad-choices-logo outlook-format-exclude" height=3D"18" src=
+=3D"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHu0LhjyABMM/v0/-1x-1.=
+png" border=3D"0" alt=3D"Ad Choices" style=3D"max-width: 550px; height: 18p=
+x !important;" />
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"20" align=3D"center" style=3D"font-size: 13px; font-family: H=
+elvetica, Arial, sans-serif; color: #666666; border-collapse: collapse; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt;">Bloomberg L.P. 731 Lexington, N=
+ew York, NY, 10022</td>
+</tr>
+</table>
+</td>
+</tr>
+<!--[if mso]>
+</td></tr>
+</table>
+</center>
+<![endif]-->
+</table>
+<custom name=3D"opencounter" type=3D"tracking"></custom>
+<a href=3D""><img src=3D"https://link.mail.bloombergbusiness.com/img/607f07=
+ceef4b8524a319a23ciclsr.648a/8d2c0056.gif" alt=3D"" border=3D"0" /></a>
+</body>
+</html>
+
+------=_Part_8422153_1209410666.1678731296894--
+
