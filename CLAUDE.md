@@ -224,28 +224,29 @@ python -m modules.podcasts.cli watch --all  # Continuous monitoring
 3. **Scale authentication** - Complete PaywallAuthenticatedStrategy improvements
 4. **Cognitive features** - Begin Phase 2 search, condensation, and insights
 
-### Skyvern Integration Commands
-```bash
-# Enable Skyvern integration
-echo "SKYVERN_ENABLED=true" >> .env
-echo "OPENROUTER_API_KEY=your_openrouter_key" >> .env
+### Phase 3: Blocks 7-10 Implementation - IN PROGRESS
+1. **Block 7: Enhanced Apple Features** - 🚧 STARTED
+   - ✅ **7.1.1 Siri Shortcuts Manager Core** - COMPLETE
+     - ✅ SiriShortcut dataclass with action definitions
+     - ✅ ShortcutTemplate class for .shortcut file generation
+     - ✅ Parameter validation and type checking
+     - ✅ Error handling for malformed shortcuts
+     - ✅ Unit tests for shortcut generation
+   - ✅ **7.1.2 Voice-Activated Content Capture** - PARTIALLY COMPLETE
+     - ✅ "Hey Siri, save to Atlas" shortcut template
+     - [ ] Voice memo processing with transcription (stub)
+     - [ ] Automatic categorization based on speech content (stub)
+     - [ ] Retry logic for failed voice captures (stub)
+     - [ ] iOS device testing (stub)
+   - [ ] 7.1.3 Context-Aware Quick Capture (stub)
+   - [ ] 7.1.4 Advanced Automation Workflows (stub)
+   - [ ] 7.2 Enhanced iOS Share Extension (stub)
+   - [ ] 7.3 Safari Reading List Bulk Import (stub)
+   - [ ] 7.4 Advanced Voice Processing (stub)
 
-# Test Skyvern on failed articles
-source atlas_venv/bin/activate
-python -c "
-from helpers.skyvern_enhanced_ingestor import SkyvernEnhancedIngestor
-from helpers.config import load_config
-config = load_config()
-ingestor = SkyvernEnhancedIngestor(config)
-# Test on specific failed URLs
-"
-
-# Deploy enhanced recovery with Skyvern
-python retry_failed_articles.py --use-skyvern
-
-# Monitor Skyvern vs Enhanced Wayback rates
-tail -f logs/ | grep -E "(skyvern|wayback_machine_enhanced|SUCCESS)"
-```
+2. **Block 8: Personal Analytics Dashboard** - TODO
+3. **Block 9: Enhanced Search & Indexing** - TODO
+4. **Block 10: Advanced Content Processing** - TODO
 
 ## 🔧 Enhanced Recovery Technical Details
 
