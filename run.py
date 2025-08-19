@@ -73,7 +73,9 @@ def main():
 
     # Run the requested ingestion types
     if args.all or args.articles:
-        logging.info("Article ingestion is now handled via --urls or --instapaper-csv. No direct article ingestion initiated.")
+        logging.info(
+            "Article ingestion is now handled via --urls or --instapaper-csv. No direct article ingestion initiated."
+        )
 
     if args.all or args.podcasts:
         logging.info("Starting podcast ingestion...")

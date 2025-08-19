@@ -8,37 +8,19 @@
 
 ---
 
-## 📋 One-Time Setup (Do This Once)
+## ⚡ SUPER SIMPLE: One-Line Setup for Any Project
 
-### Step 1: Create Secrets Folder
+**Just run this single command in any new project:**
+
 ```bash
-mkdir -p ~/.secrets
-chmod 700 ~/.secrets
+bash /home/ubuntu/setup_secrets.sh
 ```
 
-### Step 2: Create Project Secrets File
-```bash
-# For Atlas project
-touch ~/.secrets/atlas.env
-chmod 600 ~/.secrets/atlas.env
-
-# Add your real API keys
-nano ~/.secrets/atlas.env
-```
-
-**Put this in the file:**
-```bash
-export OPENROUTER_API_KEY="your-real-key-here"
-export FIRECRAWL_API_KEY="your-real-key-here"
-export MODEL="google/gemini-2.0-flash-001"
-```
-
-### Step 3: Test It Works
-```bash
-cd ~/dev/atlas
-source load_secrets.sh
-# Should see: ✅ Secrets loaded successfully
-```
+**That's it!** It creates everything you need:
+- ✅ `~/.secrets/PROJECT_NAME.env` (for your real keys)
+- ✅ `.env` template (safe to commit) 
+- ✅ `load_secrets.sh` (connects them)
+- ✅ `.gitignore` protection
 
 ---
 
@@ -46,7 +28,7 @@ source load_secrets.sh
 
 ```bash
 # 1. Go to your project
-cd ~/dev/atlas
+cd ~/dev/any-project
 
 # 2. Load secrets
 source load_secrets.sh
@@ -59,44 +41,28 @@ python run.py --all
 
 ---
 
-## 🔄 For New Projects
+## 📝 What the One-Line Setup Does
 
-### Copy This Pattern:
+When you run `bash /home/ubuntu/setup_secrets.sh PROJECT_NAME`:
 
-**1. In your new project folder (`~/dev/new-project/`):**
+1. **Creates** `~/.secrets/PROJECT_NAME.env` with template for real keys
+2. **Creates** `.env` with safe `${VAR:-default}` patterns  
+3. **Creates** `load_secrets.sh` that connects them
+4. **Updates** `.gitignore` to block secrets
+5. **Ready to use** - just add your real keys and load!
 
-Create `.env` file:
+### Example:
 ```bash
-# Safe template - OK to commit
-API_KEY=${API_KEY:-your_api_key_here}
-DATABASE_URL=${DATABASE_URL:-your_db_url_here}
-```
+# Setup new project
+cd ~/dev/my-new-app
+bash /home/ubuntu/setup_secrets.sh my-new-app
 
-Create `load_secrets.sh` file:
-```bash
-#!/bin/bash
-SECRETS_FILE="$HOME/.secrets/new-project.env"
-if [ -f "$SECRETS_FILE" ]; then
-    source "$SECRETS_FILE"
-    echo "✅ Secrets loaded"
-else
-    echo "❌ Create $SECRETS_FILE first"
-fi
-```
+# Add real keys
+nano ~/.secrets/my-new-app.env
 
-**2. In your home folder (`~/.secrets/`):**
-
-Create `~/.secrets/new-project.env`:
-```bash
-export API_KEY="real-key-here"
-export DATABASE_URL="real-url-here"
-```
-
-**3. Use it:**
-```bash
-cd ~/dev/new-project
+# Use it
 source load_secrets.sh
-# Work normally
+# Work normally!
 ```
 
 ---
