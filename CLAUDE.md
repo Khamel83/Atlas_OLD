@@ -330,6 +330,35 @@ python -m modules.podcasts.cli watch --all  # Continuous monitoring
      - ✅ Create disaster recovery documentation
      - ✅ Test full system restore from backup
 
+4. **Block 14.4 Personal Maintenance Automation** - IN PROGRESS
+   - ✅ **14.4.1 System Auto-Updates** - PARTIALLY COMPLETE
+     - ✅ Configure Ubuntu unattended-upgrades for security updates
+     - ✅ Set up automatic security updates at 4 AM PST
+     - ✅ Configure update notifications via email
+     - ✅ Implement reboot scheduling if required (with service restart)
+     - ✅ Create update log monitoring and reporting
+   - ✅ **14.4.2 Atlas Service Maintenance** - PARTIALLY COMPLETE
+     - ✅ Create Atlas-specific maintenance tasks
+     - ✅ Implement failed article retry automation (daily)
+     - ✅ Set up database optimization and vacuum tasks
+     - ✅ Create log rotation and cleanup for Atlas logs
+     - ✅ Add content deduplication and cleanup tasks
+     - ✅ Configure Atlas service health monitoring and auto-restart
+   - ✅ **14.4.3 Disk Space Management** - PARTIALLY COMPLETE
+     - ✅ Create disk space monitoring and cleanup automation
+     - ✅ Implement old log file cleanup (keep 30 days)
+     - ✅ Set up temporary file cleanup
+     - ✅ Create old backup cleanup (local and OCI)
+     - ✅ Add disk space alerts (80% and 90% thresholds)
+     - ✅ Configure automatic cleanup when space is low
+   - ✅ **14.4.4 Service Health Monitoring** - PARTIALLY COMPLETE
+     - ✅ Create comprehensive service health checks
+     - ✅ Implement automatic service restart for failed services
+     - ✅ Set up service dependency management
+     - ✅ Create service status reporting and logging
+     - ✅ Add email notifications for service failures
+     - ✅ Test service recovery and restart procedures
+
 2. **Block 8: Personal Analytics Dashboard** - TODO
 3. **Block 9: Enhanced Search & Indexing** - TODO
 4. **Block 10: Advanced Content Processing** - TODO
