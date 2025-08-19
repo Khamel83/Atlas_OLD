@@ -1,6 +1,6 @@
 # 🤖 Qwen-Coder Autonomous Atlas Development Instructions
 
-## 🎯 Mission: Complete Atlas Implementation Blocks 7-10
+## 🎯 Mission: Complete Atlas Implementation Blocks 7-14
 
 You are an autonomous coding agent tasked with implementing the remaining Atlas development blocks. Work systematically through each task until you run out of tokens or complete all work.
 
@@ -8,7 +8,7 @@ You are an autonomous coding agent tasked with implementing the remaining Atlas 
 - **Project**: Atlas - Personal Content Ingestion & Cognitive Amplification Platform
 - **Location**: `/home/ubuntu/dev/atlas/`
 - **Language**: Python 3.12+ with virtual environment `atlas_venv/`
-- **Status**: Blocks 1-6 complete, Blocks 7-10 need implementation
+- **Status**: Blocks 1-6 complete, Blocks 7-14 need implementation
 
 ---
 
@@ -33,6 +33,9 @@ source atlas_venv/bin/activate
 ### **2. Read Project Context**
 - **PRIMARY**: Study `CLAUDE.md` thoroughly - contains current status and instructions
 - **SPECS**: Read all files in `docs/specs/` for implementation details
+  - `BLOCKS_7-10_IMPLEMENTATION.md` - iOS, Analytics, Search, AI Processing
+  - `BLOCKS_11-13_IMPLEMENTATION.md` - Autonomous Discovery, Intelligence, Self-Optimization  
+  - `BLOCK_14_IMPLEMENTATION.md` - Production Hardening (Monitoring, SSL, Backups)
 - **WORKFLOW**: Review `docs/workflow/` for processes and standards
 
 ### **3. Architecture Understanding**
@@ -154,35 +157,59 @@ source atlas_venv/bin/activate
 
 **Key Components to Build:**
 1. **AI Summarization** (`processing/ai_summarizer.py`)
-   - Multi-level summarization (brief, detailed, technical)
-   - Key point extraction and highlighting
-   - Topic modeling and categorization
-   - Sentiment analysis and tone detection
-
 2. **Content Enhancement** (`processing/content_enhancer.py`)
-   - Automatic tagging and categorization
-   - Related content suggestions
-   - Missing information detection
-   - Quality scoring and filtering
-
 3. **Smart Clustering** (`processing/smart_clustering.py`)
-   - Topic-based content grouping
-   - Temporal pattern recognition
-   - Duplicate detection and merging
-   - Collection organization
-
 4. **Recommendation Engine** (`processing/recommender.py`)
-   - Collaborative filtering algorithms
-   - Content-based recommendations
-   - Learning path optimization
-   - Personalized content curation
+
+### **BLOCK 11: Autonomous Discovery Engine (25-35 hours)**
+**Priority**: HIGH - AI-powered content discovery
+**Location**: `docs/specs/BLOCKS_11-13_IMPLEMENTATION.md`
+
+**Key Components to Build:**
+1. **AI Source Discovery** (`discovery/source_analyzer.py`)
+2. **Quality Filtering** (`discovery/quality_assessor.py`)
+3. **Discovery Automation** (`discovery/discovery_scheduler.py`)
+4. **Cross-Platform Discovery** (`discovery/cross_platform.py`)
+
+### **BLOCK 12: Enhanced Content Intelligence (25-35 hours)**
+**Priority**: MEDIUM - Advanced AI analysis
+**Location**: `docs/specs/BLOCKS_11-13_IMPLEMENTATION.md`
+
+**Key Components to Build:**
+1. **Multi-Perspective Summarization** (`intelligence/multi_perspective_summarizer.py`)
+2. **Content Relationship Analysis** (`intelligence/relationship_analyzer.py`)
+3. **Intelligent Insights** (`intelligence/insight_generator.py`)
+4. **Predictive Intelligence** (`intelligence/relevance_predictor.py`)
+
+### **BLOCK 13: Self-Optimizing Intelligence (25-35 hours)**
+**Priority**: LOW - System optimization
+**Location**: `docs/specs/BLOCKS_11-13_IMPLEMENTATION.md`
+
+**Key Components to Build:**
+1. **Performance Optimization** (`optimization/performance_monitor.py`)
+2. **Adaptive Learning** (`optimization/behavior_learner.py`)
+3. **Self-Healing System** (`optimization/error_detector.py`)
+4. **Intelligence Amplification** (`optimization/cognitive_optimizer.py`)
+
+### **BLOCK 14: Personal Production Hardening (30-40 hours)**
+**Priority**: HIGH - Production deployment
+**Location**: `docs/specs/BLOCK_14_IMPLEMENTATION.md`
+
+**Key Components to Build:**
+1. **Monitoring System** (`monitoring/prometheus_setup.py`)
+2. **SSL + Authentication** (`ssl/ssl_setup.sh`)
+3. **Backup System** (`backup/database_backup.py`)
+4. **Maintenance Automation** (`maintenance/atlas_maintenance.py`)
+5. **DevOps Tools** (`devops/git_deploy.py`)
+6. **OCI Optimizations** (`oci/free_tier_monitor.py`)
+7. **Convenience Features** (`lazy/mobile_dashboard.py`)
 
 **Acceptance Criteria:**
-- [ ] Summaries are accurate and useful
-- [ ] Content enhancement improves discoverability
-- [ ] Clustering creates logical groupings
-- [ ] Recommendations are relevant and actionable
-- [ ] All processing integrates with search and analytics
+- [ ] atlas.khamel.com works with HTTPS and authentication
+- [ ] Daily backups work automatically
+- [ ] Monitoring alerts work via email
+- [ ] System maintains itself automatically
+- [ ] Mobile dashboard is fully functional
 
 ---
 
@@ -237,12 +264,12 @@ python -m pytest tests/ -v --cov=. --cov-report=term-missing
 ## 🚀 EXECUTION STRATEGY
 
 ### **Multi-Turn Workflow:**
-1. **Read and understand** the current task thoroughly
-2. **Plan the implementation** - break down into smaller steps
-3. **Write code incrementally** - implement one function at a time
-4. **Test frequently** - run tests after each major change
-5. **Integrate continuously** - ensure compatibility with existing system
-6. **Document progress** - update TODOs and status as you work
+1. **Read task** (max 1 turn) - NO over-analysis
+2. **Code immediately** - Start with working skeleton
+3. **Test + fix** - Run, see errors, fix quickly
+4. **Move on** - If stuck >5min, skip to next task
+5. **Compress context** - After each component, summarize progress only
+6. **NEVER block** - Every task can work independently
 
 ### **Priority Order (if token-limited):**
 1. **Block 7.1**: Advanced Siri Shortcuts (highest user value)
@@ -253,16 +280,17 @@ python -m pytest tests/ -v --cov=. --cov-report=term-missing
 6. **Continue systematically** through remaining components
 
 ### **Error Recovery:**
-- If a component fails, document the issue and move to next component
-- Maintain working system state - never break existing functionality
-- Use safe fallbacks and graceful degradation
-- Log all issues for future resolution
+- **5-minute rule**: If stuck >5min, skip and continue
+- **Log and move**: Note the issue, continue to next task
+- **No blocking**: Every component works independently  
+- **Ship working code**: Partial implementation > no implementation
 
 ### **Token Management:**
-- Focus on **core functionality first** before optimization
-- **Combine related tasks** to maximize implementation efficiency
-- **Skip extensive comments** during initial implementation (add later)
-- **Prioritize working code** over perfect code
+- **SKIP-AND-CONTINUE**: If stuck >5min on any task, skip it and move on
+- **Minimal context**: After each component, compress context to essentials only
+- **Core functionality first** before optimization
+- **Working code > perfect code** - ship it, fix later
+- **No analysis paralysis** - start coding within 2 prompts max
 
 ---
 

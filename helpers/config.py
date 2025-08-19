@@ -152,7 +152,7 @@ def load_config() -> dict:
         openai_key = os.environ.get("OPENAI_API_KEY")
         if (
             openai_key
-            and openai_key.startswith("sk-or-v1-")
+            and openai_key.startswith("sk-or-v1-")  # pragma: allowlist secret
             and not config["OPENROUTER_API_KEY"]
         ):
             print(

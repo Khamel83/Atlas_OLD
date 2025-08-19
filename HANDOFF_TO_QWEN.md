@@ -46,9 +46,13 @@ Start by running the startup script to understand the current state:
 
 Then begin implementation of apple_shortcuts/siri_shortcuts.py following the specifications exactly.
 
-Work autonomously, test frequently, and maintain the existing system's reliability. Never break existing functionality.
+EFFICIENCY RULES:
+- 5-minute rule: If stuck >5min on any task, skip it and move on
+- Code immediately: Start with working skeleton, no over-analysis
+- Compress context: After each component, summarize progress only
+- Ship working code: Partial implementation > no implementation
 
-BEGIN NOW.
+BEGIN NOW - START CODING WITHIN 2 PROMPTS MAX.
 ```
 
 ---

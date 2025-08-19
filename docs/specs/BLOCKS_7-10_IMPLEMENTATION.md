@@ -1028,4 +1028,49 @@ This document provides the complete, atomic-level implementation plan for Atlas 
 
 ---
 
+---
+
+# GIT AND DOCUMENTATION REQUIREMENTS
+
+## After Each Major Component (Every 10-15 tasks):
+
+### Git Workflow
+- [ ] **Commit progress**: `git add -A && git commit -m "feat: [component name] implementation"`
+- [ ] **Push to GitHub**: `git push origin feat/blocks-7-10`
+- [ ] **Update progress**: Document completed tasks in commit messages
+
+### Documentation Updates  
+- [ ] **Update CLAUDE.md**: Add completion status for implemented components
+- [ ] **Code documentation**: Ensure all new functions have proper docstrings
+- [ ] **API documentation**: Update API docs for new endpoints
+
+## After Each Complete Block (7, 8, 9, 10):
+
+### Integration Commit
+- [ ] **Integration tests**: Run full test suite before committing
+- [ ] **Major commit**: `git commit -m "feat: Block X complete - [summary]"`
+- [ ] **Tag release**: `git tag -a "block-X-complete" -m "Block X implementation complete"`
+- [ ] **Push with tags**: `git push origin feat/blocks-7-10 --tags`
+
+### Documentation
+- [ ] **Update README**: Add new features to main README
+- [ ] **Update CLAUDE.md**: Mark block as complete with summary
+- [ ] **Create usage docs**: Add examples for new features
+
+## Final Implementation Completion:
+
+### Repository Finalization
+- [ ] **Create PR**: Pull request from feat/blocks-7-10 to main
+- [ ] **PR description**: Comprehensive summary of all 4 blocks
+- [ ] **Review checklist**: Self-review against all acceptance criteria
+- [ ] **Merge to main**: After all tests pass
+
+### Documentation Completion
+- [ ] **Complete API docs**: Full API reference for all new endpoints
+- [ ] **User guide updates**: Update user documentation for new features  
+- [ ] **Architecture docs**: Update system architecture diagrams
+- [ ] **CLAUDE.md final update**: Mark Blocks 7-10 as complete
+
+---
+
 This implementation plan provides the complete atomic-level breakdown for Blocks 7-10, with specific tasks, time estimates, dependencies, and success criteria. Each task is actionable and testable, enabling systematic development and quality assurance.
