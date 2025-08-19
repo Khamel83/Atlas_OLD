@@ -156,11 +156,13 @@ docker-compose up -d
 - **Podcast maintenance** every 4 hours (73 curated podcasts, episode discovery, transcript fetching)
 - **Article processing** every 30 minutes (inputs/articles.txt, all *.txt URL files)
 - **YouTube processing** every 30 minutes (inputs/youtube.txt)  
+- **YouTube daily sync** every day at 3 AM (yesterday's watched videos + transcripts)
 - **Instapaper processing** every 30 minutes (*.csv files)
 - **Document processing** every 30 minutes (process_podcasts.py, etc.)
 - **Comprehensive processing** every 2 hours (python run.py --all)
 - **Article retry** every 8 hours (failed URL recovery with enhanced strategies)
 - **Skyvern AI recovery** every 6 hours (AI-powered content extraction)
+- **Metadata crawling** every 6 hours (GitHub repos, tech resources from new content)
 - **Failed task retry** every cycle with exponential backoff
 - **15-minute watchdog** restart if stuck
 - **System health monitoring** and persistent failure tracking
@@ -297,6 +299,36 @@ python -m modules.podcasts.cli watch --all  # Continuous monitoring
      - ✅ Add logout functionality
      - ✅ Integrate with nginx auth for double protection
      - ✅ Test session management across browser restarts
+
+3. **Block 14.3 Personal Backup System** - IN PROGRESS
+   - ✅ **14.3.1 Local Database Backup** - PARTIALLY COMPLETE
+     - ✅ Create PostgreSQL backup script with pg_dump
+     - ✅ Implement daily automated database backups
+     - ✅ Set up backup compression and encryption
+     - ✅ Configure backup retention (keep last 30 days)
+     - ✅ Create backup verification script
+     - ✅ Add cron job for daily backup execution
+   - ✅ **14.3.2 OCI Object Storage Backup** - PARTIALLY COMPLETE
+     - ✅ Set up OCI Object Storage bucket (free tier)
+     - ✅ Install and configure OCI CLI
+     - ✅ Create script to upload backups to OCI Object Storage
+     - ✅ Implement backup rotation in object storage (30 days)
+     - ✅ Add backup success/failure email notifications
+     - ✅ Test backup upload and cleanup processes
+   - ✅ **14.3.3 Local Machine Backup Sync** - PARTIALLY COMPLETE
+     - ✅ Create rsync script for critical data to personal machine
+     - ✅ Set up SSH key authentication for secure backup transfer
+     - ✅ Configure selective backup (database dumps + critical configs)
+     - ✅ Implement backup scheduling (weekly to personal machine)
+     - ✅ Create local backup verification and cleanup
+     - ✅ Add backup monitoring and email alerts
+   - ✅ **14.3.4 One-Command Restore System** - PARTIALLY COMPLETE
+     - ✅ Create restore script that works from any backup
+     - ✅ Implement database restore from backup files
+     - ✅ Build configuration restore functionality
+     - ✅ Add backup listing and selection interface
+     - ✅ Create disaster recovery documentation
+     - ✅ Test full system restore from backup
 
 2. **Block 8: Personal Analytics Dashboard** - TODO
 3. **Block 9: Enhanced Search & Indexing** - TODO
