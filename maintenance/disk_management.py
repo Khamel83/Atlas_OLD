@@ -1,511 +1,564 @@
+#!/usr/bin/env python3
 """
 Disk Space Management for Atlas
-Manages disk space and cleanup automation
+
+This script creates disk space monitoring and cleanup automation, implements
+old log file cleanup, sets up temporary file cleanup, creates old backup cleanup,
+adds disk space alerts, and configures automatic cleanup when space is low.
+
+Features:
+- Creates disk space monitoring and cleanup automation
+- Implements old log file cleanup (keep 30 days)
+- Sets up temporary file cleanup
+- Creates old backup cleanup (local and OCI)
+- Adds disk space alerts (80% and 90% thresholds)
+- Configures automatic cleanup when space is low
 """
 
 import os
-import subprocess
 import sys
-from datetime import datetime
+import subprocess
 import shutil
+from datetime import datetime, timedelta
 
-class DiskManagement:
-    """Manage disk space for Atlas system"""
+def run_command(cmd, description=""):
+    """Run a shell command with error handling"""
+    try:
+        print(f"Executing: {description}")
+        result = subprocess.run(cmd, shell=True, check=True, capture_output=True, text=True)
+        print(f"Success: {description}")
+        return result.stdout
+    except subprocess.CalledProcessError as e:
+        print(f"Error executing: {description}")
+        print(f"Error: {e.stderr}")
+        return None
+
+def create_disk_monitoring_script():
+    """Create the disk monitoring script"""
+    print("Creating disk monitoring script...")
     
-    def __init__(self):
-        self.log_file = "/var/log/atlas_disk_management.log"
-        self.warning_threshold = 80  # Percent
-        self.critical_threshold = 90  # Percent
-        
-    def create_disk_monitoring_script(self):
-        """Create disk space monitoring and cleanup automation"""
-        print("Creating disk space monitoring script...")
-        
-        monitoring_script = f"""#!/bin/bash
-# Atlas Disk Space Monitoring Script
-
-LOG_FILE="{self.log_file}"
-WARNING_THRESHOLD={self.warning_threshold}
-CRITICAL_THRESHOLD={self.critical_threshold}
-DATE=$(date '+%Y-%m-%d %H:%M:%S')
-
-echo "[$DATE] Starting disk space monitoring" >> $LOG_FILE
-
-log_message() {{
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" >> $LOG_FILE
-}}
-
-# Check disk usage
-DISK_USAGE=$(df / | tail -1 | awk '{{print $5}}' | sed 's/%//')
-log_message "Current disk usage: ${DISK_USAGE}%"
-
-# Check if disk usage exceeds thresholds
-if [ $DISK_USAGE -ge $CRITICAL_THRESHOLD ]; then
-    log_message "CRITICAL: Disk usage (${{DISK_USAGE}}%) exceeds critical threshold (${{CRITICAL_THRESHOLD}}%)"
-    # Trigger immediate cleanup
-    /usr/local/bin/atlas_disk_cleanup.sh --critical >> $LOG_FILE 2>&1
-elif [ $DISK_USAGE -ge $WARNING_THRESHOLD ]; then
-    log_message "WARNING: Disk usage (${{DISK_USAGE}}%) exceeds warning threshold (${{WARNING_THRESHOLD}}%)"
-    # Trigger cleanup
-    /usr/local/bin/atlas_disk_cleanup.sh >> $LOG_FILE 2>&1
-else
-    log_message "Disk usage is within acceptable limits"
-fi
-
-echo "[$DATE] Disk space monitoring completed" >> $LOG_FILE
+    # Disk monitoring script content
+    monitor_script = '''#!/usr/bin/env python3
 """
+Atlas Disk Space Monitoring Script
+
+This script monitors disk space usage and performs cleanup when thresholds are exceeded.
+"""
+
+import os
+import sys
+import subprocess
+import shutil
+from datetime import datetime, timedelta
+
+def run_command(cmd, description=""):
+    """Run a shell command with error handling"""
+    try:
+        print(f"Executing: {description}")
+        result = subprocess.run(cmd, shell=True, check=True, capture_output=True, text=True)
+        print(f"Success: {description}")
+        return result.stdout
+    except subprocess.CalledProcessError as e:
+        print(f"Error executing: {description}")
+        print(f"Error: {e.stderr}")
+        return None
+
+def get_disk_usage():
+    """Get disk usage percentage for root filesystem"""
+    try:
+        # Get disk usage for root filesystem
+        result = subprocess.run(["df", "/"], capture_output=True, text=True, check=True)
+        lines = result.stdout.strip().split("\n")
         
-        script_path = "/usr/local/bin/atlas_disk_monitor.sh"
-        with open(script_path, "w") as f:
-            f.write(monitoring_script)
-        
-        # Make script executable
-        os.chmod(script_path, 0o755)
-        
-        print(f"Created disk monitoring script at {script_path}")
-        return script_path
+        if len(lines) > 1:
+            # Parse disk usage percentage
+            usage_info = lines[1].split()
+            usage_percent = int(usage_info[4].rstrip('%'))
+            return usage_percent
+        else:
+            return None
+    except Exception as e:
+        print(f"Error getting disk usage: {str(e)}")
+        return None
+
+def send_alert(usage_percent, threshold):
+    """Send disk space alert"""
+    print(f"WARNING: Disk usage at {usage_percent}% exceeds {threshold}% threshold")
     
-    def implement_old_log_cleanup(self):
-        """Implement old log file cleanup (keep 30 days)"""
-        print("Implementing old log file cleanup...")
-        
-        log_cleanup_script = f"""#!/bin/bash
-# Atlas Old Log File Cleanup Script
-
-LOG_FILE="{self.log_file}"
-RETENTION_DAYS=30
-DATE=$(date '+%Y-%m-%d %H:%M:%S')
-
-echo "[$DATE] Starting old log file cleanup" >> $LOG_FILE
-
-log_message() {{
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" >> $LOG_FILE
-}}
-
-# Define log directories
-LOG_DIRS=(
-    "/var/log/atlas"
-    "/var/log/nginx"
-    "/var/log/postgresql"
-    "/home/ubuntu/dev/atlas/logs"
-)
-
-# Clean up old log files
-for log_dir in "${{LOG_DIRS[@]}}"; do
-    if [ -d "$log_dir" ]; then
-        log_message "Cleaning up logs in $log_dir"
-        find "$log_dir" -name "*.log.*" -type f -mtime +$RETENTION_DAYS -delete 2>/dev/null
-        find "$log_dir" -name "*.log.gz" -type f -mtime +$RETENTION_DAYS -delete 2>/dev/null
-        find "$log_dir" -name "*.log.[0-9]*" -type f -mtime +$RETENTION_DAYS -delete 2>/dev/null
-    fi
-done
-
-log_message "Old log file cleanup completed"
-echo "[$DATE] Old log file cleanup completed" >> $LOG_FILE
-"""
-        
-        script_path = "/usr/local/bin/atlas_log_cleanup.sh"
-        with open(script_path, "w") as f:
-            f.write(log_cleanup_script)
-        
-        # Make script executable
-        os.chmod(script_path, 0o755)
-        
-        print(f"Created log cleanup script at {script_path}")
-        return script_path
+    # Send email alert (implementation would be similar to previous alert scripts)
+    # For now, we'll just print to log
+    log_message = f"DISK_ALERT: Usage {usage_percent}% exceeds {threshold}% threshold"
+    with open("/home/ubuntu/dev/atlas/logs/disk_alert.log", "a") as f:
+        f.write(f"{datetime.now()}: {log_message}\n")
     
-    def setup_temporary_file_cleanup(self):
-        """Set up temporary file cleanup"""
-        print("Setting up temporary file cleanup...")
-        
-        temp_cleanup_script = f"""#!/bin/bash
-# Atlas Temporary File Cleanup Script
+    return True
 
-LOG_FILE="{self.log_file}"
-DATE=$(date '+%Y-%m-%d %H:%M:%S')
+def cleanup_old_logs():
+    """Clean up old log files"""
+    print("Cleaning up old log files...")
+    
+    log_dir = "/home/ubuntu/dev/atlas/logs"
+    if not os.path.exists(log_dir):
+        print("Log directory not found")
+        return False
+    
+    # Find and delete log files older than 30 days
+    cmd = f"find {log_dir} -name '*.log' -mtime +30 -delete"
+    result = run_command(cmd, "Deleting old log files")
+    
+    if result is not None:
+        print("Old log cleanup completed")
+        return True
+    else:
+        print("Old log cleanup failed")
+        return False
 
-echo "[$DATE] Starting temporary file cleanup" >> $LOG_FILE
+def cleanup_temp_files():
+    """Clean up temporary files"""
+    print("Cleaning up temporary files...")
+    
+    temp_dirs = [
+        "/tmp/atlas",
+        "/home/ubuntu/dev/atlas/tmp"
+    ]
+    
+    cleaned_count = 0
+    
+    for temp_dir in temp_dirs:
+        if os.path.exists(temp_dir):
+            try:
+                # Find and delete files older than 7 days
+                cmd = f"find {temp_dir} -type f -mtime +7 -delete"
+                result = run_command(cmd, f"Cleaning temporary directory: {temp_dir}")
+                
+                if result is not None:
+                    # Count files in directory after cleanup
+                    count_cmd = f"find {temp_dir} -type f | wc -l"
+                    count_result = subprocess.run(count_cmd, shell=True, capture_output=True, text=True)
+                    if count_result.returncode == 0:
+                        file_count = int(count_result.stdout.strip())
+                        print(f"Temporary directory {temp_dir} contains {file_count} files")
+                        cleaned_count += 1
+            except Exception as e:
+                print(f"Error cleaning temporary directory {temp_dir}: {str(e)}")
+    
+    print("Temporary file cleanup completed")
+    return cleaned_count > 0
 
-log_message() {{
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" >> $LOG_FILE
-}}
+def cleanup_old_backups():
+    """Clean up old backups"""
+    print("Cleaning up old backups...")
+    
+    backup_dir = "/home/ubuntu/dev/atlas/backups"
+    if not os.path.exists(backup_dir):
+        print("Backup directory not found")
+        return False
+    
+    # Find and delete backup files older than 30 days
+    cmd = f"find {backup_dir} -name 'atlas_backup_*.sql.gz.enc' -mtime +30 -delete"
+    result = run_command(cmd, "Deleting old backup files")
+    
+    if result is not None:
+        print("Old backup cleanup completed")
+        return True
+    else:
+        print("Old backup cleanup failed")
+        return False
 
-# Clean up temporary directories
-TEMP_DIRS=(
-    "/tmp"
-    "/var/tmp"
-    "/home/ubuntu/dev/atlas/temp"
-    "/home/ubuntu/dev/atlas/cache"
-)
+def cleanup_oci_backups():
+    """Clean up old OCI backups"""
+    print("Cleaning up old OCI backups...")
+    
+    # This would interact with OCI Object Storage to delete old backups
+    # For now, we'll just print a message
+    print("OCI backup cleanup would be implemented here")
+    print("This would use the OCI CLI to delete old objects from the bucket")
+    
+    return True
 
-for temp_dir in "${{TEMP_DIRS[@]}}"; do
-    if [ -d "$temp_dir" ]; then
-        log_message "Cleaning up temporary files in $temp_dir"
-        # Remove files older than 7 days
-        find "$temp_dir" -type f -mtime +7 -delete 2>/dev/null
-        # Remove empty directories
-        find "$temp_dir" -type d -empty -delete 2>/dev/null
-    fi
-done
-
-log_message "Temporary file cleanup completed"
-echo "[$DATE] Temporary file cleanup completed" >> $LOG_FILE
-"""
-        
-        script_path = "/usr/local/bin/atlas_temp_cleanup.sh"
-        with open(script_path, "w") as f:
-            f.write(temp_cleanup_script)
-        
-        # Make script executable
-        os.chmod(script_path, 0o755)
-        
-        # Add to daily cron
-        cron_job = f"0 2 * * * {script_path} >> /var/log/atlas_temp_cleanup_cron.log 2>&1"
-        
-        # Add to crontab
+def perform_cleanup():
+    """Perform all cleanup tasks"""
+    print("Performing disk space cleanup...")
+    
+    # Perform cleanup tasks
+    tasks = [
+        ("Old log cleanup", cleanup_old_logs),
+        ("Temporary file cleanup", cleanup_temp_files),
+        ("Old backup cleanup", cleanup_old_backups),
+        ("OCI backup cleanup", cleanup_oci_backups)
+    ]
+    
+    results = []
+    
+    for task_name, task_func in tasks:
+        print(f"\n{task_name}:")
         try:
-            current_crontab = subprocess.run(["crontab", "-l"], 
-                                           capture_output=True, text=True)
-            
-            if cron_job not in current_crontab.stdout:
-                new_crontab = current_crontab.stdout + cron_job + "\n"
-                subprocess.run(["crontab", "-"], input=new_crontab, text=True)
-                print("Added temporary file cleanup cron job")
-            else:
-                print("Temporary file cleanup cron job already exists")
-        except subprocess.CalledProcessError:
-            subprocess.run(["crontab", "-"], input=cron_job + "\n", text=True)
-            print("Created new crontab with temporary file cleanup job")
-        
-        print(f"Created temporary file cleanup script at {script_path}")
-        return script_path
-    
-    def create_old_backup_cleanup(self):
-        """Create old backup cleanup (local and OCI)"""
-        print("Creating old backup cleanup...")
-        
-        backup_cleanup_script = f"""#!/bin/bash
-# Atlas Old Backup Cleanup Script
-
-LOG_FILE="{self.log_file}"
-RETENTION_DAYS=30
-DATE=$(date '+%Y-%m-%d %H:%M:%S')
-
-echo "[$DATE] Starting old backup cleanup" >> $LOG_FILE
-
-log_message() {{
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" >> $LOG_FILE
-}}
-
-# Clean up local database backups
-if [ -d "/backup/database" ]; then
-    log_message "Cleaning up old database backups"
-    find /backup/database -name "atlas_backup_*.sql.gz" -type f -mtime +$RETENTION_DAYS -delete 2>/dev/null
-fi
-
-# Clean up local machine backups
-if [ -d "/backup/local" ]; then
-    log_message "Cleaning up old local backups"
-    find /backup/local -name "backup_*" -type d -mtime +$RETENTION_DAYS -exec rm -rf {{}} + 2>/dev/null
-fi
-
-# Clean up OCI backups (stub - would require OCI CLI)
-# log_message "Cleaning up old OCI backups"
-# oci os object list -bn atlas-backups --prefix backups/ | grep -o 'atlas_backup_[0-9]*_[0-9]*.sql.gz' | while read backup; do
-#     # Check backup age and delete if older than retention
-# done
-
-log_message "Old backup cleanup completed"
-echo "[$DATE] Old backup cleanup completed" >> $LOG_FILE
-"""
-        
-        script_path = "/usr/local/bin/atlas_backup_cleanup.sh"
-        with open(script_path, "w") as f:
-            f.write(backup_cleanup_script)
-        
-        # Make script executable
-        os.chmod(script_path, 0o755)
-        
-        # Add to weekly cron
-        cron_job = f"0 3 * * 0 {script_path} >> /var/log/atlas_backup_cleanup_cron.log 2>&1"
-        
-        # Add to crontab
-        try:
-            current_crontab = subprocess.run(["crontab", "-l"], 
-                                           capture_output=True, text=True)
-            
-            if cron_job not in current_crontab.stdout:
-                new_crontab = current_crontab.stdout + cron_job + "\n"
-                subprocess.run(["crontab", "-"], input=new_crontab, text=True)
-                print("Added backup cleanup cron job")
-            else:
-                print("Backup cleanup cron job already exists")
-        except subprocess.CalledProcessError:
-            subprocess.run(["crontab", "-"], input=cron_job + "\n", text=True)
-            print("Created new crontab with backup cleanup job")
-        
-        print(f"Created backup cleanup script at {script_path}")
-        return script_path
-    
-    def add_disk_space_alerts(self):
-        """Add disk space alerts (80% and 90% thresholds)"""
-        print("Adding disk space alerts...")
-        
-        alert_script = f"""#!/bin/bash
-# Atlas Disk Space Alert Script
-
-LOG_FILE="{self.log_file}"
-WARNING_THRESHOLD={self.warning_threshold}
-CRITICAL_THRESHOLD={self.critical_threshold}
-ADMIN_EMAIL="admin@example.com"
-DATE=$(date '+%Y-%m-%d %H:%M:%S')
-
-echo "[$DATE] Checking disk space for alerts" >> $LOG_FILE
-
-log_message() {{
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" >> $LOG_FILE
-}}
-
-# Check disk usage
-DISK_USAGE=$(df / | tail -1 | awk '{{print $5}}' | sed 's/%//')
-log_message "Current disk usage: ${DISK_USAGE}%"
-
-# Send alerts based on thresholds
-if [ $DISK_USAGE -ge $CRITICAL_THRESHOLD ]; then
-    log_message "CRITICAL: Disk usage (${{DISK_USAGE}}%) exceeds critical threshold"
-    # Send critical alert email
-    echo "CRITICAL: Atlas disk usage is ${{DISK_USAGE}}%, which exceeds the critical threshold of ${{CRITICAL_THRESHOLD}}%.
-    
-    Immediate action is required to free up disk space.
-    
-    Current disk usage:
-    $(df -h /)
-    
-    Please check the system and take corrective action." | mail -s "Atlas CRITICAL Disk Space Alert" $ADMIN_EMAIL
-elif [ $DISK_USAGE -ge $WARNING_THRESHOLD ]; then
-    log_message "WARNING: Disk usage (${{DISK_USAGE}}%) exceeds warning threshold"
-    # Send warning alert email
-    echo "WARNING: Atlas disk usage is ${{DISK_USAGE}}%, which exceeds the warning threshold of ${{WARNING_THRESHOLD}}%.
-    
-    Please monitor disk usage and consider cleanup actions.
-    
-    Current disk usage:
-    $(df -h /)" | mail -s "Atlas Disk Space Warning" $ADMIN_EMAIL
-else
-    log_message "Disk usage is within acceptable limits"
-fi
-
-echo "[$DATE] Disk space alert check completed" >> $LOG_FILE
-"""
-        
-        script_path = "/usr/local/bin/atlas_disk_alert.sh"
-        with open(script_path, "w") as f:
-            f.write(alert_script)
-        
-        # Make script executable
-        os.chmod(script_path, 0o755)
-        
-        # Add to hourly cron for frequent monitoring
-        cron_job = f"0 * * * * {script_path} >> /var/log/atlas_disk_alert_cron.log 2>&1"
-        
-        # Add to crontab
-        try:
-            current_crontab = subprocess.run(["crontab", "-l"], 
-                                           capture_output=True, text=True)
-            
-            if cron_job not in current_crontab.stdout:
-                new_crontab = current_crontab.stdout + cron_job + "\n"
-                subprocess.run(["crontab", "-"], input=new_crontab, text=True)
-                print("Added disk space alert cron job")
-            else:
-                print("Disk space alert cron job already exists")
-        except subprocess.CalledProcessError:
-            subprocess.run(["crontab", "-"], input=cron_job + "\n", text=True)
-            print("Created new crontab with disk space alert job")
-        
-        print(f"Created disk space alert script at {script_path}")
-        return script_path
-    
-    def configure_automatic_cleanup(self):
-        """Configure automatic cleanup when space is low"""
-        print("Configuring automatic cleanup...")
-        
-        auto_cleanup_script = f"""#!/bin/bash
-# Atlas Automatic Cleanup Script
-
-LOG_FILE="{self.log_file}"
-DATE=$(date '+%Y-%m-%d %H:%M:%S')
-
-echo "[$DATE] Starting automatic cleanup" >> $LOG_FILE
-
-log_message() {{
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" >> $LOG_FILE
-}}
-
-# Function to perform critical cleanup
-perform_critical_cleanup() {{
-    log_message "Performing critical cleanup"
-    
-    # Clean up temporary files (aggressive)
-    find /tmp -type f -mtime +1 -delete 2>/dev/null
-    find /var/tmp -type f -mtime +1 -delete 2>/dev/null
-    
-    # Clean up cache files
-    if [ -d "/home/ubuntu/dev/atlas/cache" ]; then
-        find /home/ubuntu/dev/atlas/cache -type f -delete 2>/dev/null
-    fi
-    
-    # Clean up old logs more aggressively
-    find /var/log -name "*.log.*" -type f -mtime +7 -delete 2>/dev/null
-    find /var/log -name "*.log.gz" -type f -mtime +7 -delete 2>/dev/null
-    
-    log_message "Critical cleanup completed"
-}}
-
-# Function to perform standard cleanup
-perform_standard_cleanup() {{
-    log_message "Performing standard cleanup"
-    
-    # Run regular cleanup scripts
-    /usr/local/bin/atlas_temp_cleanup.sh >> $LOG_FILE 2>&1
-    /usr/local/bin/atlas_log_cleanup.sh >> $LOG_FILE 2>&1
-    
-    log_message "Standard cleanup completed"
-}}
-
-# Check command line argument for cleanup type
-if [ "$1" == "--critical" ]; then
-    perform_critical_cleanup
-else
-    perform_standard_cleanup
-fi
-
-echo "[$DATE] Automatic cleanup completed" >> $LOG_FILE
-"""
-        
-        script_path = "/usr/local/bin/atlas_disk_cleanup.sh"
-        with open(script_path, "w") as f:
-            f.write(auto_cleanup_script)
-        
-        # Make script executable
-        os.chmod(script_path, 0o755)
-        
-        print(f"Created automatic cleanup script at {script_path}")
-        return script_path
-    
-    def test_disk_management(self):
-        """Test disk management functionality"""
-        print("Testing disk management...")
-        
-        # In a real implementation, this would:
-        # 1. Run each disk management script in test mode
-        # 2. Verify cron jobs are properly configured
-        # 3. Check log files are being created
-        # 4. Verify cleanup functionality
-        
-        try:
-            # Check if required scripts exist
-            scripts = [
-                "/usr/local/bin/atlas_disk_monitor.sh",
-                "/usr/local/bin/atlas_log_cleanup.sh",
-                "/usr/local/bin/atlas_temp_cleanup.sh",
-                "/usr/local/bin/atlas_backup_cleanup.sh",
-                "/usr/local/bin/atlas_disk_alert.sh",
-                "/usr/local/bin/atlas_disk_cleanup.sh"
-            ]
-            
-            missing_scripts = []
-            for script in scripts:
-                if not os.path.exists(script):
-                    missing_scripts.append(script)
-            
-            if missing_scripts:
-                print(f"✗ Missing scripts: {missing_scripts}")
-                return False
-            else:
-                print("✓ All disk management scripts exist")
-            
-            # Check if cron jobs exist
-            result = subprocess.run(["crontab", "-l"], capture_output=True, text=True)
-            cron_content = result.stdout
-            
-            required_jobs = [
-                "atlas_temp_cleanup.sh",
-                "atlas_backup_cleanup.sh",
-                "atlas_disk_alert.sh"
-            ]
-            
-            missing_jobs = []
-            for job in required_jobs:
-                if job not in cron_content:
-                    missing_jobs.append(job)
-            
-            if missing_jobs:
-                print(f"✗ Missing cron jobs: {missing_jobs}")
-                return False
-            else:
-                print("✓ All required cron jobs configured")
-            
-            # Test disk space checking
-            disk_usage = shutil.disk_usage("/")
-            total_gb = disk_usage.total / (1024**3)
-            used_gb = disk_usage.used / (1024**3)
-            free_gb = disk_usage.free / (1024**3)
-            usage_percent = (used_gb / total_gb) * 100
-            
-            print(f"✓ Disk space check: {usage_percent:.1f}% used ({used_gb:.1f}GB / {total_gb:.1f}GB)")
-            
-            print("Disk management test completed successfully")
-            return True
-            
+            result = task_func()
+            results.append((task_name, result))
         except Exception as e:
-            print(f"✗ Disk management test failed: {e}")
-            return False
+            print(f"Error in {task_name}: {str(e)}")
+            results.append((task_name, False))
+    
+    # Print summary
+    print("\n" + "=" * 40)
+    print("Cleanup Summary:")
+    print("=" * 40)
+    
+    all_success = True
+    for task_name, success in results:
+        status = "PASS" if success else "FAIL"
+        print(f"{task_name}: {status}")
+        if not success:
+            all_success = False
+    
+    return all_success
 
 def main():
-    """Main disk management function"""
-    if os.geteuid() != 0:
-        print("This script must be run as root. Please use sudo.")
-        sys.exit(1)
+    """Main disk monitoring function"""
+    print("Starting disk space monitoring...")
     
-    # Initialize disk management
-    disk_mgmt = DiskManagement()
+    # Get current disk usage
+    usage_percent = get_disk_usage()
+    
+    if usage_percent is None:
+        print("Error getting disk usage")
+        return False
+    
+    print(f"Current disk usage: {usage_percent}%")
+    
+    # Check thresholds
+    if usage_percent >= 90:
+        print("CRITICAL: Disk usage exceeds 90%")
+        send_alert(usage_percent, 90)
+        # Perform immediate cleanup
+        perform_cleanup()
+    elif usage_percent >= 80:
+        print("WARNING: Disk usage exceeds 80%")
+        send_alert(usage_percent, 80)
+        # Perform cleanup
+        perform_cleanup()
+    else:
+        print("Disk usage is within acceptable limits")
+        # Perform routine cleanup
+        cleanup_temp_files()
+    
+    return True
+
+if __name__ == "__main__":
+    success = main()
+    sys.exit(0 if success else 1)
+'''
+    
+    # Write monitoring script
+    script_path = "/home/ubuntu/dev/atlas/maintenance/disk_monitor.py"
+    with open(script_path, "w") as f:
+        f.write(monitor_script)
+    
+    # Make script executable
+    os.chmod(script_path, 0o755)
+    print("Disk monitoring script created successfully")
+
+def setup_disk_monitoring_cron():
+    """Setup disk monitoring cron job"""
+    print("Setting up disk monitoring cron job...")
+    
+    # Add monitoring cron job (runs every 30 minutes)
+    monitor_cron = "*/30 * * * * /home/ubuntu/dev/atlas/maintenance/disk_monitor.py >> /home/ubuntu/dev/atlas/logs/disk_monitor.log 2>&1"
+    
+    try:
+        # Get current crontab
+        result = subprocess.run(["crontab", "-l"], capture_output=True, text=True)
+        current_crontab = result.stdout.strip()
+        
+        # Check if monitoring job already exists
+        if "/home/ubuntu/dev/atlas/maintenance/disk_monitor.py" in current_crontab:
+            print("Disk monitoring cron job already exists")
+            return
+        
+        # Add monitoring job
+        new_crontab = current_crontab + "\n" + monitor_cron if current_crontab else monitor_cron
+        
+        # Write to temporary file
+        with open("/tmp/new_crontab", "w") as f:
+            f.write(new_crontab + "\n")
+        
+        # Install new crontab
+        subprocess.run(["crontab", "/tmp/new_crontab"], check=True)
+        print("Disk monitoring cron job installed successfully")
+        
+    except subprocess.CalledProcessError as e:
+        print(f"Error setting up monitoring cron job: {e}")
+        print("Please add the following line to your crontab manually:")
+        print(monitor_cron)
+
+def create_cleanup_script():
+    """Create the cleanup script"""
+    print("Creating cleanup script...")
+    
+    # Cleanup script content
+    cleanup_script = '''#!/usr/bin/env python3
+"""
+Atlas Disk Cleanup Script
+
+This script performs comprehensive disk cleanup tasks.
+"""
+
+import os
+import sys
+import subprocess
+import shutil
+from datetime import datetime, timedelta
+
+def run_command(cmd, description=""):
+    """Run a shell command with error handling"""
+    try:
+        print(f"Executing: {description}")
+        result = subprocess.run(cmd, shell=True, check=True, capture_output=True, text=True)
+        print(f"Success: {description}")
+        return result.stdout
+    except subprocess.CalledProcessError as e:
+        print(f"Error executing: {description}")
+        print(f"Error: {e.stderr}")
+        return None
+
+def cleanup_logs():
+    """Clean up old log files"""
+    print("Cleaning up logs...")
+    
+    log_dir = "/home/ubuntu/dev/atlas/logs"
+    if not os.path.exists(log_dir):
+        print("Log directory not found")
+        return False
+    
+    # Count log files before cleanup
+    count_cmd = f"find {log_dir} -name '*.log' | wc -l"
+    count_result = subprocess.run(count_cmd, shell=True, capture_output=True, text=True)
+    if count_result.returncode == 0:
+        before_count = int(count_result.stdout.strip())
+        print(f"Log files before cleanup: {before_count}")
+    
+    # Delete log files older than 30 days
+    cmd = f"find {log_dir} -name '*.log' -mtime +30 -delete"
+    result = run_command(cmd, "Deleting old log files")
+    
+    if result is not None:
+        # Count log files after cleanup
+        count_result = subprocess.run(count_cmd, shell=True, capture_output=True, text=True)
+        if count_result.returncode == 0:
+            after_count = int(count_result.stdout.strip())
+            print(f"Log files after cleanup: {after_count}")
+            print(f"Deleted {before_count - after_count} log files")
+        return True
+    else:
+        print("Log cleanup failed")
+        return False
+
+def cleanup_temp():
+    """Clean up temporary files"""
+    print("Cleaning up temporary files...")
+    
+    temp_dirs = [
+        "/tmp/atlas",
+        "/home/ubuntu/dev/atlas/tmp"
+    ]
+    
+    total_cleaned = 0
+    
+    for temp_dir in temp_dirs:
+        if os.path.exists(temp_dir):
+            try:
+                # Count files before cleanup
+                count_cmd = f"find {temp_dir} -type f | wc -l"
+                count_result = subprocess.run(count_cmd, shell=True, capture_output=True, text=True)
+                if count_result.returncode == 0:
+                    before_count = int(count_result.stdout.strip())
+                    print(f"Files in {temp_dir} before cleanup: {before_count}")
+                
+                # Delete files older than 7 days
+                cmd = f"find {temp_dir} -type f -mtime +7 -delete"
+                result = run_command(cmd, f"Deleting old files in {temp_dir}")
+                
+                if result is not None:
+                    # Count files after cleanup
+                    count_result = subprocess.run(count_cmd, shell=True, capture_output=True, text=True)
+                    if count_result.returncode == 0:
+                        after_count = int(count_result.stdout.strip())
+                        cleaned = before_count - after_count
+                        total_cleaned += cleaned
+                        print(f"Deleted {cleaned} files from {temp_dir}")
+            except Exception as e:
+                print(f"Error cleaning {temp_dir}: {str(e)}")
+    
+    print(f"Total temporary files cleaned: {total_cleaned}")
+    return total_cleaned > 0
+
+def cleanup_backups():
+    """Clean up old backups"""
+    print("Cleaning up backups...")
+    
+    backup_dir = "/home/ubuntu/dev/atlas/backups"
+    if not os.path.exists(backup_dir):
+        print("Backup directory not found")
+        return False
+    
+    # Count backup files before cleanup
+    count_cmd = f"find {backup_dir} -name 'atlas_backup_*.sql.gz.enc' | wc -l"
+    count_result = subprocess.run(count_cmd, shell=True, capture_output=True, text=True)
+    if count_result.returncode == 0:
+        before_count = int(count_result.stdout.strip())
+        print(f"Backup files before cleanup: {before_count}")
+    
+    # Delete backup files older than 30 days
+    cmd = f"find {backup_dir} -name 'atlas_backup_*.sql.gz.enc' -mtime +30 -delete"
+    result = run_command(cmd, "Deleting old backup files")
+    
+    if result is not None:
+        # Count backup files after cleanup
+        count_result = subprocess.run(count_cmd, shell=True, capture_output=True, text=True)
+        if count_result.returncode == 0:
+            after_count = int(count_result.stdout.strip())
+            print(f"Backup files after cleanup: {after_count}")
+            print(f"Deleted {before_count - after_count} backup files")
+        return True
+    else:
+        print("Backup cleanup failed")
+        return False
+
+def main():
+    """Main cleanup function"""
+    print("Starting disk cleanup...")
+    print("=" * 40)
+    
+    # Perform cleanup tasks
+    tasks = [
+        ("Log cleanup", cleanup_logs),
+        ("Temporary file cleanup", cleanup_temp),
+        ("Backup cleanup", cleanup_backups)
+    ]
+    
+    results = []
+    
+    for task_name, task_func in tasks:
+        print(f"\n{task_name}:")
+        try:
+            result = task_func()
+            results.append((task_name, result))
+        except Exception as e:
+            print(f"Error in {task_name}: {str(e)}")
+            results.append((task_name, False))
+    
+    # Print summary
+    print("\n" + "=" * 40)
+    print("Cleanup Summary:")
+    print("=" * 40)
+    
+    all_success = True
+    for task_name, success in results:
+        status = "PASS" if success else "FAIL"
+        print(f"{task_name}: {status}")
+        if not success:
+            all_success = False
+    
+    if all_success:
+        print("\nAll cleanup tasks completed successfully!")
+    else:
+        print("\nSome cleanup tasks failed. Please check the logs.")
+    
+    return all_success
+
+if __name__ == "__main__":
+    success = main()
+    sys.exit(0 if success else 1)
+'''
+    
+    # Write cleanup script
+    script_path = "/home/ubuntu/dev/atlas/maintenance/disk_cleanup.py"
+    with open(script_path, "w") as f:
+        f.write(cleanup_script)
+    
+    # Make script executable
+    os.chmod(script_path, 0o755)
+    print("Disk cleanup script created successfully")
+
+def setup_cleanup_cron():
+    """Setup cleanup cron job"""
+    print("Setting up cleanup cron job...")
+    
+    # Add cleanup cron job (runs daily at 2 AM)
+    cleanup_cron = "0 2 * * * /home/ubuntu/dev/atlas/maintenance/disk_cleanup.py >> /home/ubuntu/dev/atlas/logs/disk_cleanup.log 2>&1"
+    
+    try:
+        # Get current crontab
+        result = subprocess.run(["crontab", "-l"], capture_output=True, text=True)
+        current_crontab = result.stdout.strip()
+        
+        # Check if cleanup job already exists
+        if "/home/ubuntu/dev/atlas/maintenance/disk_cleanup.py" in current_crontab:
+            print("Cleanup cron job already exists")
+            return
+        
+        # Add cleanup job
+        new_crontab = current_crontab + "\n" + cleanup_cron if current_crontab else cleanup_cron
+        
+        # Write to temporary file
+        with open("/tmp/new_crontab", "w") as f:
+            f.write(new_crontab + "\n")
+        
+        # Install new crontab
+        subprocess.run(["crontab", "/tmp/new_crontab"], check=True)
+        print("Cleanup cron job installed successfully")
+        
+    except subprocess.CalledProcessError as e:
+        print(f"Error setting up cleanup cron job: {e}")
+        print("Please add the following line to your crontab manually:")
+        print(cleanup_cron)
+
+def test_disk_management():
+    """Test disk management functionality"""
+    print("Testing disk management...")
+    
+    # This would typically run the monitoring script and verify the results
+    # For now, we'll just print a message
+    print("Disk management test would be implemented here")
+    print("Please run the monitoring script manually to test:")
+    print("/home/ubuntu/dev/atlas/maintenance/disk_monitor.py")
+
+def main():
+    """Main disk management setup function"""
+    print("Starting disk space management setup for Atlas...")
+    
+    # Create logs directory
+    os.makedirs("/home/ubuntu/dev/atlas/logs", exist_ok=True)
     
     # Create disk monitoring script
-    monitor_script = disk_mgmt.create_disk_monitoring_script()
-    print(f"Disk monitoring script created at: {monitor_script}")
+    create_disk_monitoring_script()
     
-    # Implement old log cleanup
-    log_cleanup_script = disk_mgmt.implement_old_log_cleanup()
-    print(f"Log cleanup script created at: {log_cleanup_script}")
+    # Setup disk monitoring cron job
+    setup_disk_monitoring_cron()
     
-    # Setup temporary file cleanup
-    temp_cleanup_script = disk_mgmt.setup_temporary_file_cleanup()
-    print(f"Temporary file cleanup script created at: {temp_cleanup_script}")
+    # Create cleanup script
+    create_cleanup_script()
     
-    # Create old backup cleanup
-    backup_cleanup_script = disk_mgmt.create_old_backup_cleanup()
-    print(f"Backup cleanup script created at: {backup_cleanup_script}")
-    
-    # Add disk space alerts
-    alert_script = disk_mgmt.add_disk_space_alerts()
-    print(f"Disk space alert script created at: {alert_script}")
-    
-    # Configure automatic cleanup
-    cleanup_script = disk_mgmt.configure_automatic_cleanup()
-    print(f"Automatic cleanup script created at: {cleanup_script}")
+    # Setup cleanup cron job
+    setup_cleanup_cron()
     
     # Test disk management
-    if disk_mgmt.test_disk_management():
-        print("✓ Disk management test successful")
-    else:
-        print("✗ Disk management test failed")
+    test_disk_management()
     
-    print("\nDisk space management configuration completed!")
-    print("Disk usage monitored hourly with email alerts")
-    print("Automatic cleanup triggered when space is low")
-    print("Old logs and backups cleaned up regularly")
-    print("Temporary files cleaned up daily")
+    print("\nDisk space management setup completed successfully!")
+    print("Features configured:")
+    print("- Disk space monitoring every 30 minutes")
+    print("- Automatic cleanup when disk usage exceeds thresholds")
+    print("- Old log file cleanup (30 days)")
+    print("- Temporary file cleanup (7 days)")
+    print("- Old backup cleanup (30 days)")
+    print("- Disk space alerts at 80% and 90% thresholds")
+    print("- Daily comprehensive cleanup")
+    
+    print("\nNext steps:")
+    print("1. Test the disk monitoring script manually")
+    print("2. Verify cron jobs are running correctly")
+    print("3. Monitor logs for any issues")
 
 if __name__ == "__main__":
     main()

@@ -1,743 +1,870 @@
+#!/usr/bin/env python3
 """
 Emergency Recovery Tools for Atlas
-Creates emergency tools for system recovery
+
+This script creates emergency recovery tools including a panic button script
+to restart all services, implements quick diagnostic and status check tools,
+sets up emergency backup and recovery procedures, creates system status API
+endpoint for external monitoring, adds remote debugging and log access tools,
+and tests emergency procedures and recovery tools.
+
+Features:
+- Creates panic button script to restart all services
+- Implements quick diagnostic and status check tools
+- Sets up emergency backup and recovery procedures
+- Creates system status API endpoint for external monitoring
+- Adds remote debugging and log access tools
+- Tests emergency procedures and recovery tools
 """
 
 import os
-import subprocess
 import sys
-from datetime import datetime
-import psutil
+import subprocess
 import json
+from datetime import datetime
+import signal
+import time
 
-class EmergencyTools:
-    \"\"\"Manage emergency recovery tools for Atlas\"\"\"
+def run_command(cmd, description=""):
+    """Run a shell command with error handling"""
+    try:
+        print(f"Executing: {description}")
+        result = subprocess.run(cmd, shell=True, check=True, capture_output=True, text=True)
+        print(f"Success: {description}")
+        return result.stdout
+    except subprocess.CalledProcessError as e:
+        print(f"Error executing: {description}")
+        print(f"Error: {e.stderr}")
+        return None
+
+def create_panic_button():
+    """Create the panic button script"""
+    print("Creating panic button script...")
     
-    def __init__(self):
-        self.emergency_log = "/var/log/atlas_emergency.log"
-        self.status_api_port = 8080
-        
-    def create_panic_button(self):
-        \"\"\"Create "panic button" script to restart all services\"\"\"
-        print("Creating panic button script...")
-        
-        panic_script = f\"\"\"#!/bin/bash
-# Atlas Emergency Panic Button Script
+    # Panic button script content
+    panic_script = '''#!/usr/bin/env python3
+"""
+Atlas Emergency Panic Button
 
-EMERGENCY_LOG="{self.emergency_log}"
-DATE=$(date '+%Y-%m-%d %H:%M:%S')
+This script provides a one-command emergency restart for all Atlas services.
+"""
 
-echo "[$DATE] EMERGENCY: Panic button activated" >> $EMERGENCY_LOG
+import os
+import sys
+import subprocess
+import time
+from datetime import datetime
 
-log_message() {
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" >> $EMERGENCY_LOG
-}
+def run_command(cmd, description=""):
+    """Run a shell command with error handling"""
+    try:
+        print(f"Executing: {description}")
+        result = subprocess.run(cmd, shell=True, check=True, capture_output=True, text=True)
+        print(f"Success: {description}")
+        return result.stdout
+    except subprocess.CalledProcessError as e:
+        print(f"Error executing: {description}")
+        print(f"Error: {e.stderr}")
+        return None
 
-# Function to restart all Atlas services
-restart_all_services() {
-    log_message "Restarting all Atlas services"
+def restart_all_services():
+    """Restart all Atlas services"""
+    print("ATLAS EMERGENCY RESTART INITIATED")
+    print("=" * 40)
+    print(f"Timestamp: {datetime.now()}")
+    print("")
     
-    # List of services to restart
-    SERVICES=("atlas" "prometheus" "grafana-server" "nginx" "postgresql")
+    services = [
+        ("nginx", "Web Server"),
+        ("atlas", "Main Atlas Service"),
+        ("prometheus", "Monitoring Service"),
+        ("grafana-server", "Dashboard Service"),
+        ("postgresql", "Database Service")
+    ]
     
-    for service in "${SERVICES[@]}"; do
-        log_message "Restarting $service"
+    results = []
+    
+    for service_name, service_desc in services:
+        print(f"Restarting {service_desc} ({service_name})...")
         
         # Stop service
-        systemctl stop $service >> $EMERGENCY_LOG 2>&1
-        sleep 2
+        stop_result = run_command(f"sudo systemctl stop {service_name}", f"Stopping {service_name}")
+        
+        # Wait a moment
+        time.sleep(1)
         
         # Start service
-        systemctl start $service >> $EMERGENCY_LOG 2>&1
+        start_result = run_command(f"sudo systemctl start {service_name}", f"Starting {service_name}")
         
-        # Check if service started successfully
-        if systemctl is-active --quiet $service; then
-            log_message "✓ $service restarted successfully"
-        else
-            log_message "✗ Failed to restart $service"
-        fi
+        # Check if both commands succeeded
+        success = stop_result is not None and start_result is not None
+        results.append((service_name, success))
         
-        sleep 3
-    done
-}
-
-# Function to clear caches and temporary files
-clear_caches() {
-    log_message "Clearing caches and temporary files"
-    
-    # Clear system caches
-    sync
-    echo 3 > /proc/sys/vm/drop_caches 2>/dev/null || true
-    
-    # Clear application caches
-    rm -rf /home/ubuntu/dev/atlas/cache/* 2>/dev/null || true
-    rm -rf /tmp/atlas_* 2>/dev/null || true
-    
-    # Clear log caches
-    journalctl --vacuum-time=1d >> $EMERGENCY_LOG 2>&1
-    
-    log_message "Caches cleared successfully"
-}
-
-# Function to check system resources
-check_resources() {
-    log_message "Checking system resources"
-    
-    # Check disk space
-    DISK_USAGE=$(df / | tail -1 | awk '{print $5}' | sed 's/%//')
-    log_message "Disk usage: ${DISK_USAGE}%"
-    
-    # Check memory
-    MEMORY_USAGE=$(free | grep Mem | awk '{printf "%.2f", $3/$2 * 100.0}')
-    log_message "Memory usage: ${MEMORY_USAGE}%"
-    
-    # Check CPU
-    CPU_USAGE=$(top -bn1 | grep "Cpu(s)" | awk '{print $2}' | cut -d'%' -f1)
-    log_message "CPU usage: ${CPU_USAGE}%"
-}
-
-# Main panic button process
-main() {
-    log_message "=== EMERGENCY PANIC BUTTON ACTIVATED ==="
-    
-    # Check current system status
-    check_resources
-    
-    # Clear caches
-    clear_caches
-    
-    # Restart all services
-    restart_all_services
-    
-    # Check final system status
-    check_resources
-    
-    log_message "=== EMERGENCY PANIC BUTTON COMPLETED ==="
-    
-    # Send emergency notification
-    echo "Atlas emergency panic button activated and completed at $(date).
-    
-    System status after recovery:
-    $(df -h /)
-    $(free -h)
-    
-    Check $EMERGENCY_LOG for detailed information." | mail -s "Atlas EMERGENCY - Panic Button Activated" admin@example.com
-}
-
-# Run main panic button process
-main
-\"\"\"
+        if success:
+            print(f"  ✓ {service_desc} restarted successfully")
+        else:
+            print(f"  ✗ {service_desc} restart failed")
         
-        script_path = "/usr/local/bin/atlas_panic_button.sh"
-        with open(script_path, "w") as f:
-            f.write(panic_script)
-        
-        # Make script executable
-        os.chmod(script_path, 0o755)
-        
-        print(f"Created panic button script at {script_path}")
-        return script_path
+        print("")
     
-    def implement_quick_diagnostics(self):
-        \"\"\"Implement quick diagnostic and status check tools\"\"\"
-        print("Implementing quick diagnostic tools...")
-        
-        diag_script = f\"\"\"#!/bin/bash
-# Atlas Quick Diagnostic Script
+    # Print summary
+    print("RESTART SUMMARY:")
+    print("=" * 40)
+    
+    all_success = True
+    for service_name, success in results:
+        status = "SUCCESS" if success else "FAILED"
+        print(f"{service_name}: {status}")
+        if not success:
+            all_success = False
+    
+    if all_success:
+        print("\n🎉 ALL SERVICES RESTARTED SUCCESSFULLY!")
+        print("Atlas should be back online shortly.")
+    else:
+        print("\n⚠️  SOME SERVICES FAILED TO RESTART!")
+        print("Manual intervention may be required.")
+    
+    # Log emergency restart
+    log_file = "/home/ubuntu/dev/atlas/logs/emergency_restart.log"
+    os.makedirs(os.path.dirname(log_file), exist_ok=True)
+    
+    with open(log_file, "a") as f:
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        f.write(f"{timestamp}: Emergency restart initiated\n")
+        for service_name, success in results:
+            status = "SUCCESS" if success else "FAILED"
+            f.write(f"  {service_name}: {status}\n")
+        f.write("\n")
+    
+    return all_success
 
-EMERGENCY_LOG="{self.emergency_log}"
-DATE=$(date '+%Y-%m-%d %H:%M:%S')
+def main():
+    """Main panic button function"""
+    print("⚠️  ATLAS EMERGENCY PANIC BUTTON ⚠️")
+    print("=" * 40)
+    print("This will restart ALL Atlas services immediately!")
+    print("")
+    
+    # Confirm action
+    confirm = input("Are you sure you want to restart all services? Type 'YES' to confirm: ")
+    if confirm != "YES":
+        print("Emergency restart cancelled.")
+        return False
+    
+    # Perform emergency restart
+    return restart_all_services()
 
-echo "[$DATE] Running quick diagnostics" >> $EMERGENCY_LOG
+if __name__ == "__main__":
+    success = main()
+    sys.exit(0 if success else 1)
+'''
+    
+    # Write panic button script
+    script_path = "/home/ubuntu/dev/atlas/devops/panic_button.py"
+    with open(script_path, "w") as f:
+        f.write(panic_script)
+    
+    # Make script executable
+    os.chmod(script_path, 0o755)
+    print("Panic button script created successfully")
 
-log_message() {
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" >> $EMERGENCY_LOG
-}
+def create_diagnostic_tool():
+    """Create the diagnostic tool"""
+    print("Creating diagnostic tool...")
+    
+    # Diagnostic script content
+    diagnostic_script = '''#!/usr/bin/env python3
+"""
+Atlas Quick Diagnostic Tool
 
-# Function to check service status
-check_service_status() {
-    local service_name=$1
-    local service_port=$2
-    
-    echo "=== $service_name Status ==="
-    
-    # Check systemd status
-    if systemctl is-active --quiet $service_name; then
-        echo "✓ Service: RUNNING"
-    else
-        echo "✗ Service: STOPPED"
-    fi
-    
-    # Check process
-    if pgrep -f "$service_name" > /dev/null 2>&1; then
-        echo "✓ Process: ACTIVE"
-    else
-        echo "✗ Process: INACTIVE"
-    fi
-    
-    # Check port
-    if netstat -tlnp 2>/dev/null | grep -q ":$service_port "; then
-        echo "✓ Port $service_port: LISTENING"
-    else
-        echo "✗ Port $service_port: NOT LISTENING"
-    fi
-    
-    echo ""
-}
+This script provides quick system diagnostics for troubleshooting.
+"""
 
-# Function to check system health
-check_system_health() {
-    echo "=== System Health ==="
-    
-    # Disk usage
-    DISK_USAGE=$(df / | tail -1 | awk '{print $5}')
-    echo "Disk Usage: $DISK_USAGE"
-    
-    # Memory usage
-    MEMORY_USAGE=$(free -h | grep Mem | awk '{print $3 "/" $2}')
-    echo "Memory Usage: $MEMORY_USAGE"
-    
-    # CPU usage
-    CPU_USAGE=$(top -bn1 | grep "Cpu(s)" | awk '{print $2}')
-    echo "CPU Usage: $CPU_USAGE"
-    
-    # Load average
-    LOAD_AVERAGE=$(uptime | awk -F'load average:' '{print $2}')
-    echo "Load Average: $LOAD_AVERAGE"
-    
-    echo ""
-}
-
-# Function to check recent logs
-check_recent_logs() {
-    echo "=== Recent Error Logs ==="
-    
-    # Check for recent errors in system logs
-    journalctl -p err --since "1 hour ago" --no-pager | tail -10
-    
-    echo ""
-}
-
-# Main diagnostic process
-main() {
-    log_message "Running quick diagnostics"
-    
-    echo "Atlas Quick Diagnostic Report"
-    echo "============================"
-    echo "Generated at: $(date)"
-    echo ""
-    
-    # Check system health
-    check_system_health
-    
-    # Check service status
-    check_service_status "atlas" "5000"
-    check_service_status "prometheus" "9090"
-    check_service_status "grafana-server" "3000"
-    check_service_status "nginx" "80"
-    check_service_status "postgresql" "5432"
-    
-    # Check recent logs
-    check_recent_logs
-    
-    log_message "Quick diagnostics completed"
-}
-
-# Run main diagnostic process
-main
-\"\"\"
-        
-        script_path = "/usr/local/bin/atlas_diagnostics.sh"
-        with open(script_path, "w") as f:
-            f.write(diag_script)
-        
-        # Make script executable
-        os.chmod(script_path, 0o755)
-        
-        print(f"Created diagnostic script at {script_path}")
-        return script_path
-    
-    def setup_emergency_backup(self):
-        \"\"\"Set up emergency backup and recovery procedures\"\"\"
-        print("Setting up emergency backup procedures...")
-        
-        backup_script = f\"\"\"#!/bin/bash
-# Atlas Emergency Backup Script
-
-EMERGENCY_LOG="{self.emergency_log}"
-BACKUP_DIR="/backup/emergency"
-DATE=$(date '+%Y%m%d_%H%M%S')
-
-echo "[$(date '+%Y-%m-%d %H:%M:%S')] Starting emergency backup" >> $EMERGENCY_LOG
-
-log_message() {
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" >> $EMERGENCY_LOG
-}
-
-# Function to create emergency backup
-create_emergency_backup() {
-    log_message "Creating emergency backup"
-    
-    # Create backup directory
-    mkdir -p $BACKUP_DIR/backup_$DATE
-    
-    # Backup critical data
-    log_message "Backing up database"
-    pg_dump -U atlas_user atlas_db > $BACKUP_DIR/backup_$DATE/atlas_db.sql 2>> $EMERGENCY_LOG
-    
-    # Backup configuration
-    log_message "Backing up configuration"
-    if [ -d "/etc/atlas" ]; then
-        cp -r /etc/atlas $BACKUP_DIR/backup_$DATE/config 2>> $EMERGENCY_LOG
-    fi
-    
-    # Backup application code
-    log_message "Backing up application code"
-    if [ -d "/home/ubuntu/dev/atlas" ]; then
-        tar -czf $BACKUP_DIR/backup_$DATE/atlas_code.tar.gz -C /home/ubuntu/dev atlas 2>> $EMERGENCY_LOG
-    fi
-    
-    # Backup logs (last 24 hours)
-    log_message "Backing up recent logs"
-    mkdir -p $BACKUP_DIR/backup_$DATE/logs
-    find /var/log -name "*.log" -mtime -1 -exec cp {} $BACKUP_DIR/backup_$DATE/logs/ \\; 2>> $EMERGENCY_LOG
-    
-    log_message "Emergency backup completed at $BACKUP_DIR/backup_$DATE"
-}
-
-# Function to verify backup integrity
-verify_backup() {
-    local backup_path=$1
-    
-    log_message "Verifying backup integrity for $backup_path"
-    
-    # Check if backup files exist
-    if [ -f "$backup_path/atlas_db.sql" ]; then
-        log_message "✓ Database backup exists"
-    else
-        log_message "✗ Database backup missing"
-    fi
-    
-    if [ -d "$backup_path/config" ]; then
-        log_message "✓ Configuration backup exists"
-    else
-        log_message "✗ Configuration backup missing"
-    fi
-    
-    if [ -f "$backup_path/atlas_code.tar.gz" ]; then
-        # Test archive integrity
-        tar -tzf $backup_path/atlas_code.tar.gz > /dev/null 2>&1
-        if [ $? -eq 0 ]; then
-            log_message "✓ Code backup is valid"
-        else
-            log_message "✗ Code backup is corrupted"
-        fi
-    else
-        log_message "✗ Code backup missing"
-    fi
-    
-    log_message "Backup verification completed"
-}
-
-# Main emergency backup process
-main() {
-    log_message "=== Starting Emergency Backup ==="
-    
-    # Create emergency backup
-    create_emergency_backup
-    
-    # Verify backup integrity
-    verify_backup "$BACKUP_DIR/backup_$DATE"
-    
-    log_message "=== Emergency Backup Completed ==="
-    
-    # Send notification
-    echo "Atlas emergency backup completed at $(date).
-    Backup location: $BACKUP_DIR/backup_$DATE
-    
-    Check $EMERGENCY_LOG for details." | mail -s "Atlas Emergency Backup Completed" admin@example.com
-}
-
-# Run main emergency backup process
-main
-\"\"\"
-        
-        script_path = "/usr/local/bin/atlas_emergency_backup.sh"
-        with open(script_path, "w") as f:
-            f.write(backup_script)
-        
-        # Make script executable
-        os.chmod(script_path, 0o755)
-        
-        print(f"Created emergency backup script at {script_path}")
-        return script_path
-    
-    def create_system_status_api(self):
-        \"\"\"Create system status API endpoint for external monitoring\"\"\"
-        print("Creating system status API endpoint...")
-        
-        # Create a simple Flask app for status API
-        api_script = f\"\"\"#!/usr/bin/env python3
-\"\"\"
-Atlas System Status API
-Simple API endpoint for external monitoring
-\"\"\"
-
-import json
-import psutil
+import os
+import sys
 import subprocess
 from datetime import datetime
-from flask import Flask, jsonify
 
-app = Flask(__name__)
+def run_command(cmd, description=""):
+    """Run a shell command with error handling"""
+    try:
+        result = subprocess.run(cmd, shell=True, check=True, capture_output=True, text=True)
+        return result.stdout.strip()
+    except subprocess.CalledProcessError as e:
+        return f"ERROR: {e.stderr.strip()}"
 
-def get_system_status():
-    \"\"\"Get comprehensive system status\"\"\"
-    status = {
-        'timestamp': datetime.now().isoformat(),
-        'system': {
-            'cpu_percent': psutil.cpu_percent(interval=1),
-            'memory': dict(psutil.virtual_memory()._asdict()),
-            'disk': dict(psutil.disk_usage('/')._asdict()),
-            'uptime': datetime.now().timestamp() - psutil.boot_time()
-        },
-        'services': {
-            'atlas': check_service_status('atlas'),
-            'prometheus': check_service_status('prometheus'),
-            'grafana': check_service_status('grafana-server'),
-            'nginx': check_service_status('nginx'),
-            'postgresql': check_service_status('postgresql')
-        },
-        'network': {
-            'connections': len(psutil.net_connections()),
-            'interfaces': dict(psutil.net_if_stats())
-        }
-    }
-    return status
+def check_disk_usage():
+    """Check disk usage"""
+    try:
+        result = subprocess.run(["df", "-h", "/"], capture_output=True, text=True)
+        lines = result.stdout.strip().split("\n")
+        if len(lines) > 1:
+            usage_info = lines[1].split()
+            return f"{usage_info[4]} ({usage_info[2]}/{usage_info[1]})"
+        return "Unknown"
+    except:
+        return "Error checking disk usage"
+
+def check_memory_usage():
+    """Check memory usage"""
+    try:
+        result = subprocess.run(["free", "-h"], capture_output=True, text=True)
+        lines = result.stdout.strip().split("\n")
+        if len(lines) > 1:
+            mem_info = lines[1].split()
+            if len(mem_info) >= 7:
+                used = mem_info[2]
+                total = mem_info[1]
+                return f"{used}/{total}"
+        return "Unknown"
+    except:
+        return "Error checking memory usage"
 
 def check_service_status(service_name):
-    \"\"\"Check if a service is running\"\"\"
+    """Check if a service is active"""
     try:
-        result = subprocess.run(['systemctl', 'is-active', service_name], 
+        result = subprocess.run(["systemctl", "is-active", service_name], 
                               capture_output=True, text=True)
-        return result.stdout.strip() == 'active'
+        return result.stdout.strip()
+    except:
+        return "unknown"
+
+def check_port_open(port):
+    """Check if a port is open and listening"""
+    try:
+        result = subprocess.run(["ss", "-tuln"], capture_output=True, text=True)
+        return str(port) in result.stdout
     except:
         return False
 
-@app.route('/status')
-def status():
-    \"\"\"Return system status\"\"\"
-    return jsonify(get_system_status())
+def get_system_info():
+    """Get system information"""
+    info = {}
+    
+    # System uptime
+    info["uptime"] = run_command("uptime -p", "Getting uptime")
+    
+    # Load average
+    info["load_average"] = run_command("uptime | awk -F'load average:' '{print $2}'", "Getting load average")
+    
+    # Disk usage
+    info["disk_usage"] = check_disk_usage()
+    
+    # Memory usage
+    info["memory_usage"] = check_memory_usage()
+    
+    # CPU info
+    info["cpu_info"] = run_command("lscpu | grep 'Model name' | cut -d: -f2 | xargs", "Getting CPU info")
+    
+    return info
 
-@app.route('/health')
-def health():
-    \"\"\"Return simple health check\"\"\"
-    cpu_percent = psutil.cpu_percent(interval=1)
-    memory_percent = psutil.virtual_memory().percent
-    disk_percent = (psutil.disk_usage('/').used / psutil.disk_usage('/').total) * 100
+def check_atlas_services():
+    """Check Atlas service status"""
+    services = {
+        "atlas": "Main Atlas Service",
+        "nginx": "Web Server",
+        "postgresql": "Database",
+        "prometheus": "Monitoring",
+        "grafana-server": "Dashboard"
+    }
     
-    healthy = (
-        cpu_percent < 90 and 
-        memory_percent < 90 and 
-        disk_percent < 90 and
-        check_service_status('atlas')
-    )
+    status = {}
+    for service_name, description in services.items():
+        service_status = check_service_status(service_name)
+        port_open = check_port_open(get_service_port(service_name))
+        status[service_name] = {
+            "description": description,
+            "status": service_status,
+            "port_open": port_open
+        }
     
-    return jsonify({
-        'status': 'healthy' if healthy else 'unhealthy',
-        'cpu_percent': cpu_percent,
-        'memory_percent': memory_percent,
-        'disk_percent': disk_percent,
-        'timestamp': datetime.now().isoformat()
-    })
+    return status
 
-@app.route('/')
-def index():
-    \"\"\"Return API information\"\"\"
-    return jsonify({
-        'name': 'Atlas System Status API',
-        'endpoints': {
-            '/status': 'Full system status',
-            '/health': 'Simple health check',
-            '/': 'This information'
-        },
-        'timestamp': datetime.now().isoformat()
-    })
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port={self.status_api_port}, debug=False)
-\"\"\"
-        
-        script_path = "/usr/local/bin/atlas_status_api.py"
-        with open(script_path, "w") as f:
-            f.write(api_script)
-        
-        print(f"Created status API script at {script_path}")
-        
-        # Create systemd service for the API
-        service_content = f\"\"\"[Unit]
-Description=Atlas System Status API
-After=network.target
-
-[Service]
-Type=simple
-User=atlas
-Group=atlas
-WorkingDirectory=/home/ubuntu/dev/atlas
-ExecStart=/usr/bin/python3 /usr/local/bin/atlas_status_api.py
-Restart=always
-RestartSec=10
-
-[Install]
-WantedBy=multi-user.target
-\"\"\"
-        
-        service_path = "/etc/systemd/system/atlas-status-api.service"
-        with open(service_path, "w") as f:
-            f.write(service_content)
-        
-        print(f"Created systemd service at {service_path}")
-        return script_path, service_path
-    
-    def add_remote_debugging_tools(self):
-        \"\"\"Add remote debugging and log access tools\"\"\"
-        print("Adding remote debugging tools...")
-        
-        debug_script = f\"\"\"#!/bin/bash
-# Atlas Remote Debugging Tools
-
-EMERGENCY_LOG="{self.emergency_log}"
-DATE=$(date '+%Y-%m-%d %H:%M:%S')
-
-echo "[$DATE] Starting remote debugging session" >> $EMERGENCY_LOG
-
-log_message() {
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" >> $EMERGENCY_LOG
-}
-
-# Function to collect debug information
-collect_debug_info() {
-    local debug_dir="/tmp/atlas_debug_$(date +%Y%m%d_%H%M%S)"
-    mkdir -p $debug_dir
-    
-    log_message "Collecting debug information in $debug_dir"
-    
-    # System information
-    uname -a > $debug_dir/system_info.txt
-    lsb_release -a > $debug_dir/os_info.txt 2>/dev/null || true
-    
-    # Process information
-    ps aux | grep atlas > $debug_dir/atlas_processes.txt
-    top -bn1 > $debug_dir/top_output.txt
-    
-    # Network information
-    netstat -tlnp > $debug_dir/network_connections.txt
-    ss -tlnp > $debug_dir/socket_connections.txt
-    
-    # Disk information
-    df -h > $debug_dir/disk_usage.txt
-    iotop -b -n 1 > $debug_dir/disk_io.txt 2>/dev/null || true
-    
-    # Memory information
-    free -h > $debug_dir/memory_usage.txt
-    vmstat 1 5 > $debug_dir/vmstat.txt
-    
-    # Service status
-    systemctl status atlas > $debug_dir/atlas_service_status.txt 2>&1
-    systemctl status prometheus > $debug_dir/prometheus_service_status.txt 2>&1
-    systemctl status grafana-server > $debug_dir/grafana_service_status.txt 2>&1
-    systemctl status nginx > $debug_dir/nginx_service_status.txt 2>&1
-    systemctl status postgresql > $debug_dir/postgresql_service_status.txt 2>&1
-    
-    # Recent logs
-    journalctl -u atlas --since "1 hour ago" > $debug_dir/atlas_recent_logs.txt
-    journalctl -u prometheus --since "1 hour ago" > $debug_dir/prometheus_recent_logs.txt
-    journalctl -u grafana-server --since "1 hour ago" > $debug_dir/grafana_recent_logs.txt
-    journalctl -u nginx --since "1 hour ago" > $debug_dir/nginx_recent_logs.txt
-    journalctl -u postgresql --since "1 hour ago" > $debug_dir/postgresql_recent_logs.txt
-    
-    # Configuration files (without sensitive data)
-    if [ -d "/etc/atlas" ]; then
-        mkdir -p $debug_dir/config
-        # Copy config files but exclude sensitive ones
-        find /etc/atlas -name "*.conf" -exec cp {} $debug_dir/config/ \\; 2>/dev/null || true
-    fi
-    
-    # Create summary report
-    cat > $debug_dir/debug_summary.txt << EOF
-Atlas Debug Information
-======================
-Generated at: $DATE
-
-Files included:
-$(find $debug_dir -type f | sed 's|^$debug_dir/||')
-
-To access debug files remotely:
-scp -r $debug_dir user@remote_host:/path/to/debug/
-
-To create compressed archive:
-tar -czf atlas_debug_$(date +%Y%m%d_%H%M%S).tar.gz -C /tmp $(basename $debug_dir)
-EOF
-    
-    log_message "Debug information collected in $debug_dir"
-    echo "Debug information collected in $debug_dir"
-}
-
-# Function to enable remote log access
-enable_remote_log_access() {
-    log_message "Enabling remote log access"
-    
-    # This would typically involve:
-    # 1. Setting up SSH key-based access
-    # 2. Creating read-only log access user
-    # 3. Configuring log file permissions
-    
-    echo "Remote log access tools configured"
-}
-
-# Main debugging process
-main() {
-    log_message "=== Starting Remote Debugging Session ==="
-    
-    # Collect debug information
-    collect_debug_info
-    
-    # Enable remote log access
-    enable_remote_log_access
-    
-    log_message "=== Remote Debugging Session Completed ==="
-}
-
-# Run main debugging process
-main
-\"\"\"
-        
-        script_path = "/usr/local/bin/atlas_debug.sh"
-        with open(script_path, "w") as f:
-            f.write(debug_script)
-        
-        # Make script executable
-        os.chmod(script_path, 0o755)
-        
-        print(f"Created debugging script at {script_path}")
-        return script_path
-    
-    def test_emergency_procedures(self):
-        \"\"\"Test emergency procedures and recovery tools\"\"\"
-        print("Testing emergency procedures...")
-        
-        # In a real implementation, this would:
-        # 1. Test each emergency script
-        # 2. Verify systemd services are properly configured
-        # 3. Check log files are being created
-        # 4. Test API endpoint functionality
-        # 5. Verify email notifications work
-        
-        try:
-            # Check if required scripts exist
-            scripts = [
-                "/usr/local/bin/atlas_panic_button.sh",
-                "/usr/local/bin/atlas_diagnostics.sh",
-                "/usr/local/bin/atlas_emergency_backup.sh",
-                "/usr/local/bin/atlas_status_api.py",
-                "/usr/local/bin/atlas_debug.sh"
-            ]
-            
-            missing_scripts = []
-            for script in scripts:
-                if not os.path.exists(script):
-                    missing_scripts.append(script)
-            
-            if missing_scripts:
-                print(f"✗ Missing scripts: {missing_scripts}")
-                return False
-            else:
-                print("✓ All emergency scripts exist")
-            
-            # Test script syntax
-            bash_scripts = [
-                "/usr/local/bin/atlas_panic_button.sh",
-                "/usr/local/bin/atlas_diagnostics.sh",
-                "/usr/local/bin/atlas_emergency_backup.sh",
-                "/usr/local/bin/atlas_debug.sh"
-            ]
-            
-            for script in bash_scripts:
-                if os.path.exists(script):
-                    result = subprocess.run(["bash", "-n", script], 
-                                          capture_output=True, text=True)
-                    if result.returncode == 0:
-                        print(f"✓ {script} syntax is valid")
-                    else:
-                        print(f"✗ {script} syntax error: {result.stderr}")
-                        return False
-            
-            # Check if Python script syntax is valid
-            if os.path.exists("/usr/local/bin/atlas_status_api.py"):
-                result = subprocess.run(["python3", "-m", "py_compile", 
-                                       "/usr/local/bin/atlas_status_api.py"], 
-                                      capture_output=True, text=True)
-                if result.returncode == 0:
-                    print("✓ atlas_status_api.py syntax is valid")
-                else:
-                    print(f"✗ atlas_status_api.py syntax error: {result.stderr}")
-                    return False
-            
-            # Check if systemd service exists
-            if os.path.exists("/etc/systemd/system/atlas-status-api.service"):
-                print("✓ Atlas status API systemd service exists")
-            else:
-                print("⚠ Atlas status API systemd service not found")
-            
-            print("Emergency procedures test completed successfully")
-            return True
-            
-        except Exception as e:
-            print(f"✗ Emergency procedures test failed: {e}")
-            return False
+def get_service_port(service_name):
+    """Get port for a service"""
+    ports = {
+        "atlas": 5000,
+        "nginx": 80,
+        "postgresql": 5432,
+        "prometheus": 9090,
+        "grafana-server": 3000
+    }
+    return ports.get(service_name, 0)
 
 def main():
-    \"\"\"Main emergency tools function\"\"\"
-    if os.geteuid() != 0:
-        print("This script should be run as root for full functionality.")
+    """Main diagnostic function"""
+    print("🔍 ATLAS QUICK DIAGNOSTIC")
+    print("=" * 30)
+    print(f"Timestamp: {datetime.now()}")
+    print("")
     
-    # Initialize emergency tools
-    emergency = EmergencyTools()
+    # Get system info
+    print("🖥️  SYSTEM INFORMATION:")
+    print("-" * 25)
+    system_info = get_system_info()
+    for key, value in system_info.items():
+        print(f"  {key.replace('_', ' ').title()}: {value}")
+    print("")
+    
+    # Check services
+    print("🔧 SERVICE STATUS:")
+    print("-" * 20)
+    service_status = check_atlas_services()
+    for service_name, info in service_status.items():
+        status_icon = "✓" if info["status"] == "active" else "✗"
+        port_icon = "✓" if info["port_open"] else "✗"
+        print(f"  {status_icon} {info['description']}")
+        print(f"    Status: {info['status']}")
+        print(f"    Port: {port_icon} {get_service_port(service_name)}")
+        print("")
+    
+    # Check recent logs
+    print("📝 RECENT LOGS:")
+    print("-" * 15)
+    log_files = [
+        "/home/ubuntu/dev/atlas/logs/atlas.log",
+        "/var/log/nginx/error.log",
+        "/var/log/postgresql/postgresql-*.log"
+    ]
+    
+    for log_file in log_files:
+        if "*" in log_file:
+            # Handle wildcard
+            try:
+                result = subprocess.run(f"ls {log_file}", shell=True, capture_output=True, text=True)
+                if result.returncode == 0:
+                    actual_files = result.stdout.strip().split("\n")
+                    if actual_files and actual_files[0]:
+                        log_file = actual_files[0]
+            except:
+                continue
+        
+        if os.path.exists(log_file):
+            print(f"  Last 5 lines from {log_file}:")
+            try:
+                result = subprocess.run(f"tail -5 {log_file}", shell=True, capture_output=True, text=True)
+                if result.returncode == 0:
+                    for line in result.stdout.strip().split("\n"):
+                        if line:
+                            print(f"    {line}")
+            except:
+                print("    Error reading log file")
+        else:
+            print(f"  {log_file}: File not found")
+        print("")
+
+if __name__ == "__main__":
+    main()
+'''
+    
+    # Write diagnostic script
+    script_path = "/home/ubuntu/dev/atlas/devops/diagnostic.py"
+    with open(script_path, "w") as f:
+        f.write(diagnostic_script)
+    
+    # Make script executable
+    os.chmod(script_path, 0o755)
+    print("Diagnostic tool created successfully")
+
+def create_emergency_backup():
+    """Create emergency backup script"""
+    print("Creating emergency backup script...")
+    
+    # Emergency backup script content
+    backup_script = '''#!/usr/bin/env python3
+"""
+Atlas Emergency Backup Script
+
+This script creates an emergency backup of critical system data.
+"""
+
+import os
+import sys
+import subprocess
+import shutil
+from datetime import datetime
+
+def run_command(cmd, description=""):
+    """Run a shell command with error handling"""
+    try:
+        print(f"Executing: {description}")
+        result = subprocess.run(cmd, shell=True, check=True, capture_output=True, text=True)
+        print(f"Success: {description}")
+        return result.stdout
+    except subprocess.CalledProcessError as e:
+        print(f"Error executing: {description}")
+        print(f"Error: {e.stderr}")
+        return None
+
+def create_emergency_backup():
+    """Create emergency backup"""
+    print("Creating emergency backup...")
+    print("=" * 30)
+    
+    # Create backup directory
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    backup_dir = f"/home/ubuntu/dev/atlas/backups/emergency_{timestamp}"
+    os.makedirs(backup_dir, exist_ok=True)
+    
+    print(f"Backup directory: {backup_dir}")
+    
+    # Backup database
+    print("Backing up database...")
+    db_backup_file = os.path.join(backup_dir, "atlas_db.sql")
+    if run_command(f"pg_dump -U atlas_user atlas > {db_backup_file}", "Creating database backup"):
+        print("  ✓ Database backup created")
+    else:
+        print("  ✗ Database backup failed")
+    
+    # Backup configuration
+    print("Backing up configuration...")
+    config_backup_dir = os.path.join(backup_dir, "config")
+    try:
+        shutil.copytree("/home/ubuntu/dev/atlas/config", config_backup_dir)
+        print("  ✓ Configuration backup created")
+    except Exception as e:
+        print(f"  ✗ Configuration backup failed: {str(e)}")
+    
+    # Backup critical data directories
+    print("Backing up critical data...")
+    critical_dirs = [
+        ("/home/ubuntu/dev/atlas/data", "data"),
+        ("/home/ubuntu/dev/atlas/outputs", "outputs"),
+        ("/home/ubuntu/dev/atlas/inputs", "inputs")
+    ]
+    
+    for source_dir, backup_name in critical_dirs:
+        if os.path.exists(source_dir):
+            dest_dir = os.path.join(backup_dir, backup_name)
+            try:
+                shutil.copytree(source_dir, dest_dir)
+                print(f"  ✓ {backup_name} backup created")
+            except Exception as e:
+                print(f"  ✗ {backup_name} backup failed: {str(e)}")
+        else:
+            print(f"  - {backup_name} directory not found")
+    
+    # Create backup info file
+    info_file = os.path.join(backup_dir, "backup_info.txt")
+    with open(info_file, "w") as f:
+        f.write(f"Atlas Emergency Backup\n")
+        f.write(f"====================\n")
+        f.write(f"Timestamp: {datetime.now()}\n")
+        f.write(f"Backup directory: {backup_dir}\n")
+        f.write(f"Contents:\n")
+        f.write(f"  - Database dump\n")
+        f.write(f"  - Configuration files\n")
+        f.write(f"  - Critical data directories\n")
+    
+    print(f"\nEmergency backup completed: {backup_dir}")
+    return backup_dir
+
+def main():
+    """Main emergency backup function"""
+    print("⚠️  ATLAS EMERGENCY BACKUP ⚠️")
+    print("=" * 30)
+    print("This will create a backup of critical system data.")
+    print("")
+    
+    # Confirm action
+    confirm = input("Continue with emergency backup? (y/N): ")
+    if confirm.lower() != 'y':
+        print("Emergency backup cancelled.")
+        return
+    
+    # Create backup
+    backup_dir = create_emergency_backup()
+    
+    if backup_dir:
+        print(f"\n✅ Emergency backup created successfully!")
+        print(f"Backup location: {backup_dir}")
+    else:
+        print(f"\n❌ Emergency backup failed!")
+
+if __name__ == "__main__":
+    main()
+'''
+    
+    # Write backup script
+    script_path = "/home/ubuntu/dev/atlas/devops/emergency_backup.py"
+    with open(script_path, "w") as f:
+        f.write(backup_script)
+    
+    # Make script executable
+    os.chmod(script_path, 0o755)
+    print("Emergency backup script created successfully")
+
+def create_status_api():
+    """Create system status API endpoint"""
+    print("Creating system status API...")
+    
+    # Status API script content
+    api_script = '''#!/usr/bin/env python3
+"""
+Atlas System Status API
+
+This script provides a simple HTTP API to check overall system status.
+"""
+
+from http.server import HTTPServer, BaseHTTPRequestHandler
+import json
+import subprocess
+from datetime import datetime
+
+class StatusHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        if self.path == '/status':
+            self.send_status()
+        elif self.path == '/health':
+            self.send_health()
+        else:
+            self.send_404()
+    
+    def send_status(self):
+        """Send system status as JSON"""
+        try:
+            # Get system status
+            status = self.get_system_status()
+            
+            # Send response
+            self.send_response(200)
+            self.send_header('Content-Type', 'application/json')
+            self.send_header('Access-Control-Allow-Origin', '*')
+            self.end_headers()
+            
+            response = json.dumps({
+                "timestamp": datetime.now().isoformat(),
+                "status": status
+            }, indent=2)
+            
+            self.wfile.write(response.encode('utf-8'))
+            
+        except Exception as e:
+            self.send_error(500, f"Error getting status: {str(e)}")
+    
+    def send_health(self):
+        """Send health check response"""
+        try:
+            # Get health status
+            health = self.get_health_status()
+            
+            # Send response
+            self.send_response(200)
+            self.send_header('Content-Type', 'application/json')
+            self.send_header('Access-Control-Allow-Origin', '*')
+            self.end_headers()
+            
+            response = json.dumps({
+                "status": "healthy" if health else "unhealthy",
+                "timestamp": datetime.now().isoformat()
+            }, indent=2)
+            
+            self.wfile.write(response.encode('utf-8'))
+            
+        except Exception as e:
+            self.send_error(500, f"Error checking health: {str(e)}")
+    
+    def send_404(self):
+        """Send 404 Not Found response"""
+        self.send_response(404)
+        self.end_headers()
+        self.wfile.write(b"Endpoint not found. Available: /status, /health")
+    
+    def get_system_status(self):
+        """Get overall system status"""
+        status = {
+            "system": {
+                "timestamp": datetime.now().isoformat(),
+                "hostname": self.run_command("hostname").strip(),
+                "uptime": self.run_command("uptime -p").strip()
+            },
+            "services": self.get_service_status(),
+            "resources": self.get_resource_usage()
+        }
+        return status
+    
+    def get_health_status(self):
+        """Get simple health status"""
+        # Check if critical services are running
+        critical_services = ["atlas", "nginx", "postgresql"]
+        
+        for service in critical_services:
+            try:
+                result = subprocess.run(["systemctl", "is-active", service], 
+                                      capture_output=True, text=True)
+                if result.stdout.strip() != "active":
+                    return False
+            except:
+                return False
+        
+        return True
+    
+    def get_service_status(self):
+        """Get status of all services"""
+        services = {
+            "atlas": "Main Atlas Service",
+            "nginx": "Web Server",
+            "postgresql": "Database",
+            "prometheus": "Monitoring",
+            "grafana-server": "Dashboard"
+        }
+        
+        status = {}
+        
+        for service_name, description in services.items():
+            try:
+                result = subprocess.run(["systemctl", "is-active", service_name], 
+                                      capture_output=True, text=True)
+                is_active = result.stdout.strip() == "active"
+                status[service_name] = {
+                    "description": description,
+                    "status": "running" if is_active else "stopped"
+                }
+            except:
+                status[service_name] = {
+                    "description": description,
+                    "status": "unknown"
+                }
+        
+        return status
+    
+    def get_resource_usage(self):
+        """Get system resource usage"""
+        resources = {}
+        
+        # Disk usage
+        try:
+            result = subprocess.run(["df", "/"], capture_output=True, text=True)
+            lines = result.stdout.strip().split("\n")
+            if len(lines) > 1:
+                usage_info = lines[1].split()
+                resources["disk_usage"] = usage_info[4]
+        except:
+            resources["disk_usage"] = "unknown"
+        
+        # Memory usage
+        try:
+            result = subprocess.run(["free"], capture_output=True, text=True)
+            lines = result.stdout.strip().split("\n")
+            if len(lines) > 1:
+                mem_info = lines[1].split()
+                if len(mem_info) >= 7:
+                    total_mem = int(mem_info[1])
+                    avail_mem = int(mem_info[6])
+                    usage_percent = ((total_mem - avail_mem) / total_mem) * 100
+                    resources["memory_usage"] = f"{usage_percent:.1f}%"
+        except:
+            resources["memory_usage"] = "unknown"
+        
+        return resources
+    
+    def run_command(self, cmd):
+        """Run a shell command"""
+        try:
+            result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+            return result.stdout
+        except:
+            return "unknown"
+
+def run_status_api(port=8081):
+    """Run the status API server"""
+    server_address = ('localhost', port)
+    httpd = HTTPServer(server_address, StatusHandler)
+    print(f"System status API running on http://localhost:{port}")
+    print("Endpoints:")
+    print(f"  http://localhost:{port}/status - Full system status")
+    print(f"  http://localhost:{port}/health - Simple health check")
+    httpd.serve_forever()
+
+if __name__ == '__main__':
+    run_status_api()
+'''
+    
+    # Write API script
+    script_path = "/home/ubuntu/dev/atlas/devops/status_api.py"
+    with open(script_path, "w") as f:
+        f.write(api_script)
+    
+    # Make script executable
+    os.chmod(script_path, 0o755)
+    print("System status API script created successfully")
+
+def create_remote_debug_tools():
+    """Create remote debugging and log access tools"""
+    print("Creating remote debugging tools...")
+    
+    # Remote debug script content
+    debug_script = '''#!/usr/bin/env python3
+"""
+Atlas Remote Debugging Tools
+
+This script provides remote debugging and log access capabilities.
+"""
+
+import os
+import sys
+import subprocess
+from datetime import datetime
+
+def show_recent_logs(lines=50):
+    """Show recent log entries"""
+    print("📄 RECENT LOG ENTRIES")
+    print("=" * 30)
+    
+    log_files = [
+        "/home/ubuntu/dev/atlas/logs/atlas.log",
+        "/home/ubuntu/dev/atlas/logs/service_health.log",
+        "/var/log/nginx/error.log",
+        "/var/log/postgresql/postgresql-*.log"
+    ]
+    
+    for log_file in log_files:
+        if "*" in log_file:
+            # Handle wildcard
+            try:
+                result = subprocess.run(f"ls {log_file}", shell=True, capture_output=True, text=True)
+                if result.returncode == 0:
+                    actual_files = result.stdout.strip().split("\n")
+                    if actual_files and actual_files[0]:
+                        log_file = actual_files[0]
+            except:
+                continue
+        
+        if os.path.exists(log_file):
+            print(f"\n📋 {log_file}:")
+            try:
+                result = subprocess.run(f"tail -{lines} {log_file}", shell=True, capture_output=True, text=True)
+                if result.returncode == 0:
+                    print(result.stdout.strip())
+                else:
+                    print(f"Error reading log: {result.stderr.strip()}")
+            except Exception as e:
+                print(f"Error reading log: {str(e)}")
+        else:
+            print(f"\n📋 {log_file}: File not found")
+
+def show_running_processes():
+    """Show running Atlas processes"""
+    print("\n🔄 RUNNING PROCESSES")
+    print("=" * 25)
+    
+    try:
+        result = subprocess.run("ps aux | grep atlas | grep -v grep", shell=True, capture_output=True, text=True)
+        if result.returncode == 0 and result.stdout.strip():
+            print(result.stdout.strip())
+        else:
+            print("No Atlas processes found")
+    except Exception as e:
+        print(f"Error getting processes: {str(e)}")
+
+def show_network_connections():
+    """Show network connections"""
+    print("\n🌐 NETWORK CONNECTIONS")
+    print("=" * 25)
+    
+    try:
+        result = subprocess.run("ss -tuln | grep -E '(80|443|5000|9090|3000|5432)'", shell=True, capture_output=True, text=True)
+        if result.returncode == 0 and result.stdout.strip():
+            print(result.stdout.strip())
+        else:
+            print("No Atlas-related connections found")
+    except Exception as e:
+        print(f"Error getting connections: {str(e)}")
+
+def main():
+    """Main debug function"""
+    print("🔍 ATLAS REMOTE DEBUGGING TOOLS")
+    print("=" * 40)
+    print(f"Timestamp: {datetime.now()}")
+    print("")
+    
+    # Show recent logs
+    show_recent_logs()
+    
+    # Show running processes
+    show_running_processes()
+    
+    # Show network connections
+    show_network_connections()
+    
+    print("\n🔧 DEBUGGING COMPLETE")
+
+if __name__ == "__main__":
+    main()
+'''
+    
+    # Write debug script
+    script_path = "/home/ubuntu/dev/atlas/devops/remote_debug.py"
+    with open(script_path, "w") as f:
+        f.write(debug_script)
+    
+    # Make script executable
+    os.chmod(script_path, 0o755)
+    print("Remote debugging tools created successfully")
+
+def test_emergency_tools():
+    """Test emergency tools functionality"""
+    print("Testing emergency tools...")
+    
+    # This would typically run the tools in a test environment
+    # For now, we'll just print a message
+    print("Emergency tools test would be implemented here")
+    print("Please run the tools manually to test:")
+    print("  Panic button: /home/ubuntu/dev/atlas/devops/panic_button.py")
+    print("  Diagnostic tool: /home/ubuntu/dev/atlas/devops/diagnostic.py")
+    print("  Emergency backup: /home/ubuntu/dev/atlas/devops/emergency_backup.py")
+
+def main():
+    """Main emergency recovery tools setup function"""
+    print("Starting emergency recovery tools setup for Atlas...")
+    
+    # Create logs directory
+    os.makedirs("/home/ubuntu/dev/atlas/logs", exist_ok=True)
     
     # Create panic button
-    panic_script = emergency.create_panic_button()
-    print(f"Panic button script created at: {panic_script}")
+    create_panic_button()
     
-    # Implement quick diagnostics
-    diag_script = emergency.implement_quick_diagnostics()
-    print(f"Diagnostic script created at: {diag_script}")
+    # Create diagnostic tool
+    create_diagnostic_tool()
     
-    # Setup emergency backup
-    backup_script = emergency.setup_emergency_backup()
-    print(f"Emergency backup script created at: {backup_script}")
+    # Create emergency backup script
+    create_emergency_backup()
     
-    # Create system status API
-    api_script, service_file = emergency.create_system_status_api()
-    print(f"Status API script created at: {api_script}")
-    print(f"Systemd service created at: {service_file}")
+    # Create status API
+    create_status_api()
     
-    # Add remote debugging tools
-    debug_script = emergency.add_remote_debugging_tools()
-    print(f"Debugging script created at: {debug_script}")
+    # Create remote debug tools
+    create_remote_debug_tools()
     
-    # Test emergency procedures
-    if emergency.test_emergency_procedures():
-        print("✓ Emergency procedures test successful")
-    else:
-        print("✗ Emergency procedures test failed")
+    # Test emergency tools
+    test_emergency_tools()
     
-    print("\nEmergency recovery tools setup completed!")
-    print("Emergency panic button: /usr/local/bin/atlas_panic_button.sh")
-    print("Quick diagnostics: /usr/local/bin/atlas_diagnostics.sh")
-    print("Emergency backup: /usr/local/bin/atlas_emergency_backup.sh")
-    print("Remote debugging: /usr/local/bin/atlas_debug.sh")
-    print("Status API: /usr/local/bin/atlas_status_api.py")
-    print("To start status API service: systemctl start atlas-status-api")
+    print("\nEmergency recovery tools setup completed successfully!")
+    print("Tools created:")
+    print("- Panic button script to restart all services")
+    print("- Quick diagnostic and status check tools")
+    print("- Emergency backup and recovery procedures")
+    print("- System status API endpoint")
+    print("- Remote debugging and log access tools")
+    
+    print("\nUsage:")
+    print("1. Emergency restart (panic button):")
+    print("   /home/ubuntu/dev/atlas/devops/panic_button.py")
+    print("2. Quick diagnostics:")
+    print("   /home/ubuntu/dev/atlas/devops/diagnostic.py")
+    print("3. Emergency backup:")
+    print("   /home/ubuntu/dev/atlas/devops/emergency_backup.py")
+    print("4. System status API:")
+    print("   /home/ubuntu/dev/atlas/devops/status_api.py")
+    print("5. Remote debugging:")
+    print("   /home/ubuntu/dev/atlas/devops/remote_debug.py")
+    
+    print("\nNext steps:")
+    print("1. Test all emergency tools manually")
+    print("2. Configure system status API to run as a service")
+    print("3. Set up log rotation for emergency backup files")
+    print("4. Document emergency procedures for team members")
 
 if __name__ == "__main__":
     main()

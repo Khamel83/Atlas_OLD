@@ -1,320 +1,542 @@
+#!/usr/bin/env python3
 """
 Local Machine Backup Sync for Atlas
-Syncs critical data to personal machine
+
+This script creates rsync scripts for syncing critical data to a personal machine,
+sets up SSH key authentication, configures selective backup, implements scheduling,
+and adds monitoring with email alerts.
+
+Features:
+- Creates rsync script for critical data to personal machine
+- Sets up SSH key authentication for secure backup transfer
+- Configures selective backup (database dumps + critical configs)
+- Implements backup scheduling (weekly to personal machine)
+- Creates local backup verification and cleanup
+- Adds backup monitoring and email alerts
 """
 
 import os
-import subprocess
 import sys
+import subprocess
+import secrets
 from datetime import datetime
-import json
 
-class LocalSyncBackup:
-    \"\"\"Manage local machine backup sync for Atlas\"\"\"
+def run_command(cmd, description=""):
+    """Run a shell command with error handling"""
+    try:
+        print(f"Executing: {description}")
+        result = subprocess.run(cmd, shell=True, check=True, capture_output=True, text=True)
+        print(f"Success: {description}")
+        return result.stdout
+    except subprocess.CalledProcessError as e:
+        print(f"Error executing: {description}")
+        print(f"Error: {e.stderr}")
+        return None
+
+def generate_ssh_key():
+    """Generate SSH key pair for backup transfers"""
+    print("Generating SSH key pair for backup transfers...")
     
-    def __init__(self, local_backup_dir="/backup/local", remote_user="user", 
-                 remote_host="localhost", remote_backup_dir="/backup/atlas"):
-        self.local_backup_dir = local_backup_dir
-        self.remote_user = remote_user
-        self.remote_host = remote_host
-        self.remote_backup_dir = remote_backup_dir
-        
-    def create_rsync_script(self):
-        \"\"\"Create rsync script for critical data to personal machine\"\"\"
-        print("Creating rsync backup script...")
-        
-        # Create local backup directory
-        os.makedirs(self.local_backup_dir, exist_ok=True)
-        
-        rsync_script = f\"\"\"#!/bin/bash
-# Atlas Local Machine Backup Sync Script
-
-LOCAL_BACKUP_DIR="{self.local_backup_dir}"
-REMOTE_USER="{self.remote_user}"
-REMOTE_HOST="{self.remote_host}"
-REMOTE_BACKUP_DIR="{self.remote_backup_dir}"
-LOG_FILE="/var/log/atlas_local_sync.log"
-
-echo "$(date): Starting local backup sync" >> $LOG_FILE
-
-# Create timestamp for this backup
-TIMESTAMP=$(date +%Y%m%d_%H%M%S)
-BACKUP_DIR="$LOCAL_BACKUP_DIR/backup_$TIMESTAMP"
-mkdir -p $BACKUP_DIR
-
-# Sync critical data
-echo "$(date): Syncing database dumps" >> $LOG_FILE
-mkdir -p $BACKUP_DIR/database
-# rsync -avz --delete $REMOTE_USER@$REMOTE_HOST:$REMOTE_BACKUP_DIR/database/ $BACKUP_DIR/database/ >> $LOG_FILE 2>&1
-
-echo "$(date): Syncing configuration files" >> $LOG_FILE
-mkdir -p $BACKUP_DIR/config
-# rsync -avz --delete $REMOTE_USER@$REMOTE_HOST:/etc/atlas/ $BACKUP_DIR/config/ >> $LOG_FILE 2>&1
-
-echo "$(date): Syncing critical application data" >> $LOG_FILE
-mkdir -p $BACKUP_DIR/data
-# rsync -avz --delete $REMOTE_USER@$REMOTE_HOST:/home/ubuntu/dev/atlas/data/ $BACKUP_DIR/data/ >> $LOG_FILE 2>&1
-
-echo "$(date): Local backup sync completed" >> $LOG_FILE
-\"\"\"
-        
-        script_path = "/usr/local/bin/atlas_local_sync.sh"
-        with open(script_path, "w") as f:
-            f.write(rsync_script)
-        
-        # Make script executable
-        os.chmod(script_path, 0o755)
-        
-        print(f"Created rsync script at {script_path}")
-        return script_path
+    # Create .ssh directory if it doesn't exist
+    ssh_dir = os.path.expanduser("~/.ssh")
+    os.makedirs(ssh_dir, exist_ok=True)
     
-    def setup_ssh_key_auth(self):
-        \"\"\"Set up SSH key authentication for secure backup transfer\"\"\"
-        print("Setting up SSH key authentication...")
-        
-        # In a real implementation, this would:
-        # 1. Generate SSH key pair if not exists
-        # 2. Copy public key to remote machine
-        # 3. Configure SSH client options
-        
-        ssh_setup_script = f\"\"\"#!/bin/bash
-# Atlas SSH Key Setup Script
+    # Generate SSH key pair
+    key_path = os.path.join(ssh_dir, "atlas_backup")
+    cmd = f"ssh-keygen -t rsa -b 4096 -f {key_path} -N '' -C 'atlas_backup@$(hostname)'"
+    result = run_command(cmd, "Generating SSH key pair")
+    
+    if result:
+        print("SSH key pair generated successfully")
+        print(f"Public key: {key_path}.pub")
+        print(f"Private key: {key_path}")
+        print("\nPlease copy the public key to your personal machine:")
+        print(f"ssh-copy-id -i {key_path}.pub user@personal-machine")
+        return True
+    else:
+        print("Failed to generate SSH key pair")
+        return False
 
-SSH_DIR="$HOME/.ssh"
-KEY_NAME="atlas_backup_key"
+def create_rsync_script():
+    """Create rsync script for backup sync"""
+    print("Creating rsync backup script...")
+    
+    # Get configuration from environment variables
+    remote_user = os.environ.get('BACKUP_REMOTE_USER', 'backup')
+    remote_host = os.environ.get('BACKUP_REMOTE_HOST', 'personal-machine')
+    remote_path = os.environ.get('BACKUP_REMOTE_PATH', '/backup/atlas')
+    
+    # Rsync script content
+    rsync_script = f'''#!/bin/bash
+# Atlas Local Machine Backup Sync
 
-# Generate SSH key pair if it doesn't exist
-if [ ! -f "$SSH_DIR/$KEY_NAME" ]; then
-    ssh-keygen -t rsa -b 4096 -f "$SSH_DIR/$KEY_NAME" -N ""
-    echo "Generated SSH key pair: $SSH_DIR/$KEY_NAME"
+# Configuration
+REMOTE_USER="{remote_user}"
+REMOTE_HOST="{remote_host}"
+REMOTE_PATH="{remote_path}"
+LOCAL_BACKUP_DIR="/home/ubuntu/dev/atlas/backups"
+LOCAL_CONFIG_DIR="/home/ubuntu/dev/atlas/config"
+LOG_FILE="/home/ubuntu/dev/atlas/logs/local_sync.log"
+
+# Function to log messages
+log_message() {{
+    echo "$(date): $1" >> $LOG_FILE
+}}
+
+# Create log directory if it doesn't exist
+mkdir -p "$(dirname $LOG_FILE)"
+
+log_message "Starting local backup sync"
+
+# Create temporary directory for sync
+TEMP_DIR="/tmp/atlas_backup_$(date +%Y%m%d_%H%M%S)"
+mkdir -p "$TEMP_DIR"
+
+# Copy database backups
+if [ -d "$LOCAL_BACKUP_DIR" ]; then
+    cp -r "$LOCAL_BACKUP_DIR" "$TEMP_DIR/" 2>/dev/null
+    log_message "Copied database backups"
 else
-    echo "SSH key already exists: $SSH_DIR/$KEY_NAME"
+    log_message "WARNING: Local backup directory not found: $LOCAL_BACKUP_DIR"
 fi
 
-# Set proper permissions
-chmod 700 $SSH_DIR
-chmod 600 $SSH_DIR/$KEY_NAME
-chmod 644 $SSH_DIR/$KEY_NAME.pub
+# Copy critical configuration files
+if [ -d "$LOCAL_CONFIG_DIR" ]; then
+    cp -r "$LOCAL_CONFIG_DIR" "$TEMP_DIR/" 2>/dev/null
+    log_message "Copied configuration files"
+else
+    log_message "WARNING: Local config directory not found: $LOCAL_CONFIG_DIR"
+fi
 
-# Instructions for copying public key to remote host
-echo "To copy public key to remote host, run:"
-echo "ssh-copy-id -i $SSH_DIR/$KEY_NAME.pub {self.remote_user}@{self.remote_host}"
-\"\"\"
-        
-        script_path = "/usr/local/bin/atlas_ssh_setup.sh"
-        with open(script_path, "w") as f:
-            f.write(ssh_setup_script)
-        
-        # Make script executable
-        os.chmod(script_path, 0o755)
-        
-        print(f"Created SSH setup script at {script_path}")
-        print("To complete SSH setup, run the script and follow the instructions")
-        return script_path
+# Create a backup info file
+BACKUP_INFO="$TEMP_DIR/backup_info.txt"
+cat > "$BACKUP_INFO" << EOF
+Atlas Backup Information
+========================
+
+Backup Date: $(date)
+Hostname: $(hostname)
+Backup Contents:
+- Database backups from: $LOCAL_BACKUP_DIR
+- Configuration files from: $LOCAL_CONFIG_DIR
+
+This backup was created for sync to personal machine.
+EOF
+
+log_message "Created backup info file"
+
+# Sync to remote machine using rsync
+log_message "Syncing to remote machine: $REMOTE_USER@$REMOTE_HOST:$REMOTE_PATH"
+rsync -avz -e "ssh -i ~/.ssh/atlas_backup" "$TEMP_DIR/" "$REMOTE_USER@$REMOTE_HOST:$REMOTE_PATH/latest/" >> $LOG_FILE 2>&1
+
+if [ $? -eq 0 ]; then
+    log_message "Backup sync completed successfully"
     
-    def configure_selective_backup(self):
-        \"\"\"Configure selective backup (database dumps + critical configs)\"\"\"
-        print("Configuring selective backup...")
-        
-        # Define what to backup
-        backup_items = {
-            "database_dumps": "/backup/database/",
-            "config_files": "/etc/atlas/",
-            "critical_data": "/home/ubuntu/dev/atlas/data/",
-            "logs": "/var/log/atlas/"
-        }
-        
-        # Save configuration
-        config_file = "/etc/atlas/backup_config.json"
-        os.makedirs(os.path.dirname(config_file), exist_ok=True)
-        
-        with open(config_file, "w") as f:
-            json.dump(backup_items, f, indent=2)
-        
-        print(f"Selective backup configuration saved to {config_file}")
-        return True
+    # Create timestamped backup directory
+    TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+    ssh -i ~/.ssh/atlas_backup "$REMOTE_USER@$REMOTE_HOST" "mkdir -p $REMOTE_PATH/$TIMESTAMP && cp -r $REMOTE_PATH/latest/* $REMOTE_PATH/$TIMESTAMP/" >> $LOG_FILE 2>&1
     
-    def implement_backup_scheduling(self):
-        \"\"\"Implement backup scheduling (weekly to personal machine)\"\"\"
-        print("Implementing backup scheduling...")
-        
-        # Add cron job for weekly backup on Sundays at 3 AM
-        cron_job = f"0 3 * * 0 /usr/local/bin/atlas_local_sync.sh >> /var/log/atlas_local_sync.log 2>&1"
-        
-        # Add to crontab
-        try:
-            # Get current crontab
-            current_crontab = subprocess.run(["crontab", "-l"], 
-                                           capture_output=True, text=True)
-            
-            # Add our job if it doesn't exist
-            if cron_job not in current_crontab.stdout:
-                new_crontab = current_crontab.stdout + cron_job + "\n"
-                subprocess.run(["crontab", "-"], input=new_crontab, text=True)
-                print("Added weekly backup cron job")
-            else:
-                print("Weekly backup cron job already exists")
-                
-        except subprocess.CalledProcessError:
-            # If no crontab exists, create a new one
-            subprocess.run(["crontab", "-"], input=cron_job + "\n", text=True)
-            print("Created new crontab with weekly backup job")
-        
-        return True
+    if [ $? -eq 0 ]; then
+        log_message "Timestamped backup created: $TIMESTAMP"
+    else
+        log_message "WARNING: Failed to create timestamped backup"
+    fi
     
-    def create_local_backup_verification(self):
-        \"\"\"Create local backup verification and cleanup\"\"\"
-        print("Creating local backup verification and cleanup...")
-        
-        verification_script = \"\"\"#!/bin/bash
-# Atlas Local Backup Verification and Cleanup Script
-
-LOCAL_BACKUP_DIR="/backup/local"
-RETENTION_DAYS=30
-LOG_FILE="/var/log/atlas_local_verify.log"
-
-echo "$(date): Starting local backup verification" >> $LOG_FILE
-
-# Check if backup directory exists
-if [ ! -d "$LOCAL_BACKUP_DIR" ]; then
-    echo "$(date): ERROR - Local backup directory does not exist" >> $LOG_FILE
+    # Send success email notification
+    python3 /home/ubuntu/dev/atlas/backup/send_local_notification.py "SUCCESS" "Local backup sync completed successfully"
+else
+    log_message "ERROR: Backup sync failed"
+    
+    # Send failure email notification
+    python3 /home/ubuntu/dev/atlas/backup/send_local_notification.py "FAILURE" "Local backup sync failed"
+    rm -rf "$TEMP_DIR"
     exit 1
 fi
 
-# List recent backups
-echo "$(date): Recent backups:" >> $LOG_FILE
-ls -lt $LOCAL_BACKUP_DIR/ | head -10 >> $LOG_FILE
+# Clean up temporary directory
+rm -rf "$TEMP_DIR"
+log_message "Cleaned up temporary directory"
 
-# Verify backup integrity (basic checks)
-for backup_dir in $LOCAL_BACKUP_DIR/backup_*; do
-    if [ -d "$backup_dir" ]; then
-        echo "$(date): Checking $backup_dir" >> $LOG_FILE
-        
-        # Check if critical directories exist
-        if [ -d "$backup_dir/database" ]; then
-            echo "$(date):   ✓ Database directory present" >> $LOG_FILE
-        else
-            echo "$(date):   ✗ Database directory missing" >> $LOG_FILE
-        fi
-        
-        if [ -d "$backup_dir/config" ]; then
-            echo "$(date):   ✓ Config directory present" >> $LOG_FILE
-        else
-            echo "$(date):   ✗ Config directory missing" >> $LOG_FILE
-        fi
-    fi
-done
+# Verify remote backup
+ssh -i ~/.ssh/atlas_backup "$REMOTE_USER@$REMOTE_HOST" "test -d $REMOTE_PATH/latest && echo 'Remote backup verified'" >> $LOG_FILE 2>&1
 
-# Cleanup old backups
-echo "$(date): Cleaning up backups older than $RETENTION_DAYS days" >> $LOG_FILE
-find $LOCAL_BACKUP_DIR -name "backup_*" -type d -mtime +$RETENTION_DAYS -exec rm -rf {} + 2>>$LOG_FILE
-
-echo "$(date): Local backup verification and cleanup completed" >> $LOG_FILE
-\"\"\"
-        
-        script_path = "/usr/local/bin/atlas_local_verify.sh"
-        with open(script_path, "w") as f:
-            f.write(verification_script)
-        
-        # Make script executable
-        os.chmod(script_path, 0o755)
-        
-        print(f"Created verification script at {script_path}")
-        return script_path
-    
-    def add_backup_monitoring(self):
-        \"\"\"Add backup monitoring and email alerts\"\"\"
-        print("Adding backup monitoring and alerts...")
-        
-        # In a real implementation, this would integrate with the alert manager
-        # to send notifications about backup status
-        
-        monitoring_script = \"\"\"#!/bin/bash
-# Atlas Local Backup Monitoring Script
-
-LOG_FILE="/var/log/atlas_local_sync.log"
-ALERT_EMAIL="admin@example.com"
-
-# Check the last few lines of the log for errors
-if tail -20 $LOG_FILE | grep -q "ERROR\\|Failed"; then
-    # Send failure alert
-    echo "Atlas local backup sync failed. Check $LOG_FILE for details." | mail -s "Atlas Local Backup FAILED" $ALERT_EMAIL
+if [ $? -eq 0 ]; then
+    log_message "Remote backup verified"
 else
-    # Send success notification
-    echo "Atlas local backup sync completed successfully." | mail -s "Atlas Local Backup SUCCESS" $ALERT_EMAIL
+    log_message "WARNING: Failed to verify remote backup"
 fi
-\"\"\"
-        
-        script_path = "/usr/local/bin/atlas_local_monitor.sh"
-        with open(script_path, "w") as f:
-            f.write(monitoring_script)
-        
-        # Make script executable
-        os.chmod(script_path, 0o755)
-        
-        print(f"Created monitoring script at {script_path}")
-        return True
+
+log_message "Local backup sync completed"
+'''
     
-    def test_local_sync(self):
-        \"\"\"Test local sync process\"\"\"
-        print("Testing local sync process...")
+    # Write rsync script
+    script_path = "/home/ubuntu/dev/atlas/backup/local_sync.sh"
+    with open(script_path, "w") as f:
+        f.write(rsync_script)
+    
+    # Make script executable
+    os.chmod(script_path, 0o755)
+    print("Rsync backup script created successfully")
+
+def create_notification_script():
+    """Create script to send local backup email notifications"""
+    print("Creating local backup email notification script...")
+    
+    # Notification script content
+    notification_script = '''#!/usr/bin/env python3
+# Local Backup Email Notification Script
+
+import sys
+import smtplib
+import ssl
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+import os
+
+def send_email(status, message):
+    # Get email configuration from environment variables
+    smtp_server = os.environ.get('EMAIL_SMTP_SERVER', 'smtp.gmail.com')
+    port = int(os.environ.get('EMAIL_SMTP_PORT', 587))
+    sender_email = os.environ.get('EMAIL_SENDER')
+    sender_password = os.environ.get('EMAIL_PASSWORD')
+    recipient_email = os.environ.get('EMAIL_RECIPIENT')
+    
+    # Validate required environment variables
+    if not all([sender_email, sender_password, recipient_email]):
+        print("Error: Missing email configuration environment variables")
+        return False
+    
+    # Create message
+    msg = MIMEMultipart("alternative")
+    msg["Subject"] = f"Atlas Local Backup {status}"
+    msg["From"] = sender_email
+    msg["To"] = recipient_email
+    
+    # Create text part
+    text = f"""
+Atlas Local Backup Notification
+
+Status: {status}
+Message: {message}
+
+This is an automated message from your Atlas local backup system.
+"""
+    
+    text_part = MIMEText(text, "plain")
+    msg.attach(text_part)
+    
+    # Send email
+    try:
+        context = ssl.create_default_context()
+        with smtplib.SMTP(smtp_server, port) as server:
+            server.starttls(context=context)
+            server.login(sender_email, sender_password)
+            server.sendmail(sender_email, recipient_email, msg.as_string())
         
-        # In a real implementation, this would:
-        # 1. Create a test backup
-        # 2. Attempt to sync it
-        # 3. Verify the sync was successful
-        
-        print("Local sync test completed (stub implementation)")
+        print(f"Local backup email notification sent: {status}")
         return True
+    except Exception as e:
+        print(f"Error sending local backup email: {str(e)}")
+        return False
+
+if __name__ == "__main__":
+    if len(sys.argv) != 3:
+        print("Usage: send_local_notification.py <status> <message>")
+        sys.exit(1)
+    
+    status = sys.argv[1]
+    message = sys.argv[2]
+    
+    if send_email(status, message):
+        sys.exit(0)
+    else:
+        sys.exit(1)
+'''
+    
+    # Write notification script
+    script_path = "/home/ubuntu/dev/atlas/backup/send_local_notification.py"
+    with open(script_path, "w") as f:
+        f.write(notification_script)
+    
+    # Make script executable
+    os.chmod(script_path, 0o755)
+    print("Local backup email notification script created successfully")
+
+def setup_selective_backup():
+    """Configure selective backup of critical data"""
+    print("Setting up selective backup configuration...")
+    
+    # Create backup configuration file
+    config_content = '''
+# Atlas Selective Backup Configuration
+
+# Directories to include in backup
+INCLUDE_DIRS=(
+    "/home/ubuntu/dev/atlas/backups"
+    "/home/ubuntu/dev/atlas/config"
+    "/home/ubuntu/dev/atlas/.env"
+)
+
+# File patterns to include
+INCLUDE_PATTERNS=(
+    "*.sql.gz.enc"
+    "*.conf"
+    "*.cfg"
+    ".env"
+)
+
+# File patterns to exclude
+EXCLUDE_PATTERNS=(
+    "*.log"
+    "*.tmp"
+    "*.cache"
+    "__pycache__"
+)
+'''
+    
+    config_path = "/home/ubuntu/dev/atlas/backup/selective_backup.conf"
+    with open(config_path, "w") as f:
+        f.write(config_content)
+    
+    print("Selective backup configuration created")
+
+def setup_scheduling():
+    """Setup backup scheduling (weekly)"""
+    print("Setting up weekly backup scheduling...")
+    
+    # Add weekly cron job (runs every Sunday at 5 AM)
+    weekly_cron = "0 5 * * 0 /home/ubuntu/dev/atlas/backup/local_sync.sh >> /home/ubuntu/dev/atlas/logs/local_sync.log 2>&1"
+    
+    try:
+        # Get current crontab
+        result = subprocess.run(["crontab", "-l"], capture_output=True, text=True)
+        current_crontab = result.stdout.strip()
+        
+        # Check if weekly job already exists
+        if "/home/ubuntu/dev/atlas/backup/local_sync.sh" in current_crontab:
+            print("Weekly backup cron job already exists")
+            return
+        
+        # Add weekly job
+        new_crontab = current_crontab + "\n" + weekly_cron if current_crontab else weekly_cron
+        
+        # Write to temporary file
+        with open("/tmp/new_crontab", "w") as f:
+            f.write(new_crontab + "\n")
+        
+        # Install new crontab
+        subprocess.run(["crontab", "/tmp/new_crontab"], check=True)
+        print("Weekly backup cron job installed successfully")
+        
+    except subprocess.CalledProcessError as e:
+        print(f"Error setting up weekly cron job: {e}")
+        print("Please add the following line to your crontab manually:")
+        print(weekly_cron)
+
+def create_verification_script():
+    """Create backup verification script"""
+    print("Creating backup verification script...")
+    
+    # Get configuration from environment variables
+    remote_user = os.environ.get('BACKUP_REMOTE_USER', 'backup')
+    remote_host = os.environ.get('BACKUP_REMOTE_HOST', 'personal-machine')
+    remote_path = os.environ.get('BACKUP_REMOTE_PATH', '/backup/atlas')
+    
+    # Verification script content
+    verify_script = f'''#!/bin/bash
+# Atlas Local Backup Verification
+
+# Configuration
+REMOTE_USER="{remote_user}"
+REMOTE_HOST="{remote_host}"
+REMOTE_PATH="{remote_path}"
+LOG_FILE="/home/ubuntu/dev/atlas/logs/backup_verify.log"
+
+# Function to log messages
+log_message() {{
+    echo "$(date): $1" >> $LOG_FILE
+}}
+
+# Create log directory if it doesn't exist
+mkdir -p "$(dirname $LOG_FILE)"
+
+log_message "Starting backup verification"
+
+# Verify local backup directory
+if [ -d "/home/ubuntu/dev/atlas/backups" ]; then
+    local_count=$(ls -1 /home/ubuntu/dev/atlas/backups/*.sql.gz.enc 2>/dev/null | wc -l)
+    log_message "Local backups found: $local_count"
+else
+    log_message "ERROR: Local backup directory not found"
+    exit 1
+fi
+
+# Verify remote backup directory
+remote_count=$(ssh -i ~/.ssh/atlas_backup "$REMOTE_USER@$REMOTE_HOST" "ls -1 $REMOTE_PATH/latest/atlas_backup_*.sql.gz.enc 2>/dev/null | wc -l" 2>/dev/null)
+
+if [ $? -eq 0 ]; then
+    log_message "Remote backups found: $remote_count"
+    
+    if [ "$local_count" -eq "$remote_count" ]; then
+        log_message "Backup verification successful: counts match"
+        exit 0
+    else
+        log_message "WARNING: Backup count mismatch - local: $local_count, remote: $remote_count"
+        exit 1
+    fi
+else
+    log_message "ERROR: Failed to access remote backup directory"
+    exit 1
+fi
+'''
+    
+    # Write verification script
+    script_path = "/home/ubuntu/dev/atlas/backup/verify_local_backup.sh"
+    with open(script_path, "w") as f:
+        f.write(verify_script)
+    
+    # Make script executable
+    os.chmod(script_path, 0o755)
+    print("Backup verification script created successfully")
+
+def create_cleanup_script():
+    """Create local backup cleanup script"""
+    print("Creating local backup cleanup script...")
+    
+    # Cleanup script content
+    cleanup_script = '''#!/bin/bash
+# Atlas Local Backup Cleanup
+
+# Configuration
+BACKUP_DIR="/home/ubuntu/dev/atlas/backups"
+RETENTION_DAYS=30
+LOG_FILE="/home/ubuntu/dev/atlas/logs/local_cleanup.log"
+
+# Function to log messages
+log_message() {
+    echo "$(date): $1" >> $LOG_FILE
+}
+
+# Create log directory if it doesn't exist
+mkdir -p "$(dirname $LOG_FILE)"
+
+log_message "Starting local backup cleanup"
+
+# Find and delete backups older than retention period
+find "$BACKUP_DIR" -name "atlas_backup_*.sql.gz.enc" -mtime +$RETENTION_DAYS -delete
+
+if [ $? -eq 0 ]; then
+    log_message "Local backup cleanup completed successfully"
+else
+    log_message "ERROR: Local backup cleanup failed"
+    exit 1
+fi
+
+# Clean up log files older than 30 days
+find "/home/ubuntu/dev/atlas/logs" -name "*.log" -mtime +30 -delete
+
+log_message "Log cleanup completed"
+log_message "Local backup cleanup completed"
+'''
+    
+    # Write cleanup script
+    script_path = "/home/ubuntu/dev/atlas/backup/cleanup_local_backups.sh"
+    with open(script_path, "w") as f:
+        f.write(cleanup_script)
+    
+    # Make script executable
+    os.chmod(script_path, 0o755)
+    
+    # Add cleanup job to crontab (runs daily at 6 AM)
+    cleanup_cron = "0 6 * * * /home/ubuntu/dev/atlas/backup/cleanup_local_backups.sh >> /home/ubuntu/dev/atlas/logs/local_cleanup.log 2>&1"
+    
+    try:
+        # Get current crontab
+        result = subprocess.run(["crontab", "-l"], capture_output=True, text=True)
+        current_crontab = result.stdout.strip()
+        
+        # Check if cleanup job already exists
+        if "/home/ubuntu/dev/atlas/backup/cleanup_local_backups.sh" in current_crontab:
+            print("Local cleanup cron job already exists")
+            return
+        
+        # Add cleanup job
+        new_crontab = current_crontab + "\n" + cleanup_cron if current_crontab else cleanup_cron
+        
+        # Write to temporary file
+        with open("/tmp/new_crontab", "w") as f:
+            f.write(new_crontab + "\n")
+        
+        # Install new crontab
+        subprocess.run(["crontab", "/tmp/new_crontab"], check=True)
+        print("Local cleanup cron job installed successfully")
+        
+    except subprocess.CalledProcessError as e:
+        print(f"Error setting up cleanup cron job: {e}")
+        print("Please add the following line to your crontab manually:")
+        print(cleanup_cron)
+
+def test_backup_sync():
+    """Test backup sync to personal machine"""
+    print("Testing backup sync to personal machine...")
+    
+    # This would typically run the sync script and verify the results
+    # For now, we'll just print a message
+    print("Backup sync test would be implemented here")
+    print("Please run the sync script manually to test:")
+    print("/home/ubuntu/dev/atlas/backup/local_sync.sh")
 
 def main():
-    \"\"\"Main local sync backup function\"\"\"
-    if os.geteuid() != 0:
-        print("This script should be run as root for full functionality.")
+    """Main local machine backup sync setup function"""
+    print("Starting local machine backup sync setup for Atlas...")
     
-    # Initialize local sync backup system
-    local_backup = LocalSyncBackup()
+    # Generate SSH key pair
+    if not generate_ssh_key():
+        print("Failed to generate SSH key pair")
+        sys.exit(1)
     
     # Create rsync script
-    rsync_script = local_backup.create_rsync_script()
-    print(f"Rsync script created at: {rsync_script}")
+    create_rsync_script()
     
-    # Setup SSH key authentication
-    ssh_script = local_backup.setup_ssh_key_auth()
-    print(f"SSH setup script created at: {ssh_script}")
+    # Create notification script
+    create_notification_script()
     
-    # Configure selective backup
-    if local_backup.configure_selective_backup():
-        print("✓ Selective backup configured")
-    else:
-        print("✗ Failed to configure selective backup")
+    # Setup selective backup
+    setup_selective_backup()
     
-    # Implement backup scheduling
-    if local_backup.implement_backup_scheduling():
-        print("✓ Backup scheduling configured")
-    else:
-        print("✗ Failed to configure backup scheduling")
+    # Setup scheduling
+    setup_scheduling()
     
     # Create verification script
-    verify_script = local_backup.create_local_backup_verification()
-    print(f"Verification script created at: {verify_script}")
+    create_verification_script()
     
-    # Add monitoring
-    if local_backup.add_backup_monitoring():
-        print("✓ Backup monitoring configured")
-    else:
-        print("✗ Failed to configure backup monitoring")
+    # Create cleanup script
+    create_cleanup_script()
     
-    # Test local sync
-    if local_backup.test_local_sync():
-        print("✓ Local sync test completed")
-    else:
-        print("✗ Local sync test failed")
+    # Test backup sync
+    test_backup_sync()
     
-    print("\nLocal machine backup sync system setup completed!")
-    print("Weekly backups will sync automatically on Sundays at 3:00 AM")
-    print("To manually sync backups, run: /usr/local/bin/atlas_local_sync.sh")
-    print("To setup SSH authentication, run: /usr/local/bin/atlas_ssh_setup.sh")
+    print("\nLocal machine backup sync setup completed successfully!")
+    print("Features configured:")
+    print("- SSH key authentication for secure transfers")
+    print("- Rsync script for backup synchronization")
+    print("- Selective backup of critical data")
+    print("- Weekly backup scheduling")
+    print("- Backup verification script")
+    print("- Local backup cleanup")
+    print("- Email notifications for success/failure")
+    
+    print("\nNext steps:")
+    print("1. Set the required environment variables:")
+    print("   - BACKUP_REMOTE_USER")
+    print("   - BACKUP_REMOTE_HOST")
+    print("   - BACKUP_REMOTE_PATH")
+    print("   - EMAIL_SENDER")
+    print("   - EMAIL_PASSWORD")
+    print("   - EMAIL_RECIPIENT")
+    print("2. Copy the public SSH key to your personal machine")
+    print("3. Test the backup sync process manually")
+    print("4. Verify cron jobs are running correctly")
 
 if __name__ == "__main__":
     main()

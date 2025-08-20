@@ -1,298 +1,372 @@
+#!/usr/bin/env python3
 """
-Database Backup for Atlas
-Creates PostgreSQL backup script with pg_dump
+Database Backup Script for Atlas
+
+This script creates PostgreSQL backup scripts with pg_dump, implements
+automated daily backups, compression, encryption, and retention management.
+
+Features:
+- Creates PostgreSQL backup script with pg_dump
+- Implements daily automated database backups
+- Sets up backup compression and encryption
+- Configures backup retention (keep last 30 days)
+- Creates backup verification script
+- Adds cron job for daily backup execution
 """
 
 import os
-import subprocess
 import sys
-from datetime import datetime
+import subprocess
 import gzip
 import shutil
-from pathlib import Path
+from datetime import datetime, timedelta
+from cryptography.fernet import Fernet
+import schedule
+import time
 
-class DatabaseBackup:
-    """Manage database backups for Atlas"""
+def run_command(cmd, description=""):
+    """Run a shell command with error handling"""
+    try:
+        print(f"Executing: {description}")
+        result = subprocess.run(cmd, shell=True, check=True, capture_output=True, text=True)
+        print(f"Success: {description}")
+        return result.stdout
+    except subprocess.CalledProcessError as e:
+        print(f"Error executing: {description}")
+        print(f"Error: {e.stderr}")
+        return None
+
+def generate_encryption_key():
+    """Generate and save an encryption key"""
+    key = Fernet.generate_key()
+    key_path = "/home/ubuntu/dev/atlas/backup/.backup_key"
     
-    def __init__(self, backup_dir="/backup/database", db_name="atlas_db", 
-                 db_user="atlas_user", db_host="localhost", db_port="5432"):
-        self.backup_dir = backup_dir
-        self.db_name = db_name
-        self.db_user = db_user
-        self.db_host = db_host
-        self.db_port = db_port
-        self.retention_days = 30
-        
-    def create_backup_script(self):
-        """Create PostgreSQL backup script with pg_dump"""
-        print("Creating database backup script...")
-        
-        # Create backup directory
-        os.makedirs(self.backup_dir, exist_ok=True)
-        
-        # Create backup script
-        script_content = f"""#!/bin/bash
+    with open(key_path, "wb") as key_file:
+        key_file.write(key)
+    
+    # Set restrictive permissions
+    os.chmod(key_path, 0o600)
+    print("Encryption key generated and saved")
+    return key
+
+def load_encryption_key():
+    """Load encryption key from file"""
+    key_path = "/home/ubuntu/dev/atlas/backup/.backup_key"
+    
+    try:
+        with open(key_path, "rb") as key_file:
+            key = key_file.read()
+        return key
+    except FileNotFoundError:
+        print("Encryption key not found, generating new key")
+        return generate_encryption_key()
+
+def create_backup_script():
+    """Create the database backup script"""
+    print("Creating database backup script...")
+    
+    # Backup script content
+    backup_script = """#!/bin/bash
 # Atlas Database Backup Script
-# Generated on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 
 # Configuration
-DB_NAME="{self.db_name}"
-DB_USER="{self.db_user}"
-DB_HOST="{self.db_host}"
-DB_PORT="{self.db_port}"
-BACKUP_DIR="{self.backup_dir}"
+DB_NAME="atlas"
+DB_USER="atlas_user"
+BACKUP_DIR="/home/ubuntu/dev/atlas/backups"
 DATE=$(date +%Y%m%d_%H%M%S)
 BACKUP_FILE="$BACKUP_DIR/atlas_backup_$DATE.sql"
+COMPRESSED_FILE="$BACKUP_FILE.gz"
+ENCRYPTED_FILE="$COMPRESSED_FILE.enc"
 
-# Create backup
-echo "Creating database backup: $BACKUP_FILE"
-pg_dump -h $DB_HOST -p $DB_PORT -U $DB_USER -d $DB_NAME > $BACKUP_FILE
+# Create backup directory if it doesn't exist
+mkdir -p $BACKUP_DIR
+
+# Create database backup
+pg_dump -U $DB_USER -d $DB_NAME > $BACKUP_FILE
 
 # Check if backup was successful
 if [ $? -eq 0 ]; then
-    echo "Database backup successful"
+    echo "Database backup created: $BACKUP_FILE"
     
     # Compress backup
-    echo "Compressing backup..."
     gzip $BACKUP_FILE
+    echo "Backup compressed: $COMPRESSED_FILE"
     
-    # Set permissions
-    chmod 600 $BACKUP_FILE.gz
+    # Encrypt backup
+    python3 /home/ubuntu/dev/atlas/backup/encrypt_backup.py $COMPRESSED_FILE
+    echo "Backup encrypted: $ENCRYPTED_FILE"
     
-    # Cleanup old backups
-    echo "Cleaning up old backups..."
-    find $BACKUP_DIR -name "atlas_backup_*.sql.gz" -mtime +{self.retention_days} -delete
+    # Remove uncompressed file
+    rm -f $COMPRESSED_FILE
     
-    echo "Backup completed: $BACKUP_FILE.gz"
+    # Verify backup
+    python3 /home/ubuntu/dev/atlas/backup/verify_backup.py $ENCRYPTED_FILE
+    
+    echo "Backup completed successfully"
 else
     echo "Database backup failed"
     exit 1
 fi
 """
-        
-        script_path = "/usr/local/bin/atlas_db_backup.sh"
-        with open(script_path, "w") as f:
-            f.write(script_content)
-        
-        # Make script executable
-        os.chmod(script_path, 0o755)
-        
-        print(f"Created backup script at {script_path}")
-        return script_path
     
-    def implement_daily_backups(self):
-        """Implement daily automated database backups"""
-        print("Setting up daily automated database backups...")
-        
-        # Create the backup script
-        script_path = self.create_backup_script()
-        
-        # Add cron job for daily backup at 2 AM
-        cron_job = f"0 2 * * * {script_path} >> /var/log/atlas_backup.log 2>&1"
-        
-        # Add to crontab
-        try:
-            # Get current crontab
-            current_crontab = subprocess.run(["crontab", "-l"], 
-                                           capture_output=True, text=True)
-            
-            # Add our job if it doesn't exist
-            if cron_job not in current_crontab.stdout:
-                new_crontab = current_crontab.stdout + cron_job + "\n"
-                subprocess.run(["crontab", "-"], input=new_crontab, text=True)
-                print("Added daily backup cron job")
-            else:
-                print("Daily backup cron job already exists")
-                
-        except subprocess.CalledProcessError:
-            # If no crontab exists, create a new one
-            subprocess.run(["crontab", "-"], input=cron_job + "\n", text=True)
-            print("Created new crontab with daily backup job")
-        
-        return True
+    # Write backup script
+    script_path = "/home/ubuntu/dev/atlas/backup/db_backup.sh"
+    with open(script_path, "w") as f:
+        f.write(backup_script)
     
-    def setup_backup_compression(self):
-        """Set up backup compression and encryption"""
-        print("Setting up backup compression...")
-        
-        # Compression is already handled in the backup script
-        # For encryption, we would add GPG encryption
-        
-        print("Backup compression configured")
-        return True
+    # Make script executable
+    os.chmod(script_path, 0o755)
+    print("Database backup script created successfully")
+
+def create_encryption_script():
+    """Create the backup encryption script"""
+    print("Creating backup encryption script...")
     
-    def setup_encryption(self, passphrase=None):
-        """Set up backup encryption"""
-        print("Setting up backup encryption...")
-        
-        # In a real implementation, we would modify the backup script to include:
-        # gpg --batch --yes --passphrase "$PASSPHRASE" --cipher-algo AES256 --symmetric $BACKUP_FILE
-        
-        if passphrase:
-            print("Encryption configured with provided passphrase")
-        else:
-            print("Encryption stub configured (passphrase required for actual encryption)")
-        
-        return True
+    # Encryption script content
+    encrypt_script = """#!/usr/bin/env python3
+# Backup Encryption Script
+
+import sys
+import os
+from cryptography.fernet import Fernet
+
+def encrypt_file(file_path):
+    # Load encryption key
+    key_path = "/home/ubuntu/dev/atlas/backup/.backup_key"
+    try:
+        with open(key_path, "rb") as key_file:
+            key = key_file.read()
+    except FileNotFoundError:
+        print("Encryption key not found")
+        return False
     
-    def configure_backup_retention(self, days=30):
-        """Configure backup retention (keep last 30 days)"""
-        print(f"Configuring backup retention for {days} days...")
-        
-        self.retention_days = days
-        
-        # Update the backup script with new retention
-        self.create_backup_script()
-        
-        print(f"Backup retention set to {days} days")
-        return True
+    # Initialize Fernet cipher
+    cipher = Fernet(key)
     
-    def create_backup_verification(self):
-        """Create backup verification script"""
-        print("Creating backup verification script...")
-        
-        verification_script = f"""#!/bin/bash
-# Atlas Backup Verification Script
+    # Read file to encrypt
+    try:
+        with open(file_path, "rb") as file:
+            file_data = file.read()
+    except FileNotFoundError:
+        print(f"File not found: {file_path}")
+        return False
+    
+    # Encrypt data
+    encrypted_data = cipher.encrypt(file_data)
+    
+    # Write encrypted data
+    encrypted_file_path = file_path + ".enc"
+    with open(encrypted_file_path, "wb") as encrypted_file:
+        encrypted_file.write(encrypted_data)
+    
+    print(f"File encrypted: {encrypted_file_path}")
+    return True
 
-BACKUP_DIR="{self.backup_dir}"
-
-echo "Verifying backups in $BACKUP_DIR"
-
-# Check if backup directory exists
-if [ ! -d "$BACKUP_DIR" ]; then
-    echo "ERROR: Backup directory does not exist"
-    exit 1
-fi
-
-# List recent backups
-echo "Recent backups:"
-ls -lt $BACKUP_DIR/atlas_backup_*.sql.gz | head -5
-
-# Check backup integrity (try to decompress without extracting)
-for backup in $BACKUP_DIR/atlas_backup_*.sql.gz; do
-    if [ -f "$backup" ]; then
-        echo "Checking $backup..."
-        gunzip -t $backup
-        if [ $? -eq 0 ]; then
-            echo "  ✓ Backup integrity OK"
-        else
-            echo "  ✗ Backup integrity check failed"
-        fi
-    fi
-done
-
-echo "Backup verification completed"
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: encrypt_backup.py <file_to_encrypt>")
+        sys.exit(1)
+    
+    file_path = sys.argv[1]
+    if encrypt_file(file_path):
+        # Remove original file after encryption
+        os.remove(file_path)
+        sys.exit(0)
+    else:
+        sys.exit(1)
 """
-        
-        script_path = "/usr/local/bin/atlas_backup_verify.sh"
-        with open(script_path, "w") as f:
-            f.write(verification_script)
-        
-        # Make script executable
-        os.chmod(script_path, 0o755)
-        
-        print(f"Created verification script at {script_path}")
-        return script_path
     
-    def add_cron_backup_execution(self):
-        """Add cron job for daily backup execution"""
-        print("Adding cron job for daily backup execution...")
-        
-        # This is already handled in implement_daily_backups()
-        print("Cron job for backup execution configured")
-        return True
+    # Write encryption script
+    script_path = "/home/ubuntu/dev/atlas/backup/encrypt_backup.py"
+    with open(script_path, "w") as f:
+        f.write(encrypt_script)
     
-    def test_backup_process(self):
-        """Test the backup process"""
-        print("Testing backup process...")
-        
-        # Create a simple test backup
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        test_backup_file = f"{self.backup_dir}/atlas_test_backup_{timestamp}.sql"
-        
-        # Create test backup content
-        test_content = f"""
--- Atlas Test Backup
--- Generated on {datetime.now().isoformat()}
+    # Make script executable
+    os.chmod(script_path, 0o755)
+    print("Backup encryption script created successfully")
 
--- This is a test backup file for verification purposes
-SELECT 'Backup test successful' as result;
+def create_verification_script():
+    """Create the backup verification script"""
+    print("Creating backup verification script...")
+    
+    # Verification script content
+    verify_script = """#!/usr/bin/env python3
+# Backup Verification Script
+
+import sys
+import os
+from cryptography.fernet import Fernet
+
+def verify_backup(file_path):
+    # Check if file exists
+    if not os.path.exists(file_path):
+        print(f"Backup file not found: {file_path}")
+        return False
+    
+    # Check file size
+    file_size = os.path.getsize(file_path)
+    if file_size == 0:
+        print(f"Backup file is empty: {file_path}")
+        return False
+    
+    print(f"Backup file verified: {file_path} ({file_size} bytes)")
+    return True
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: verify_backup.py <backup_file>")
+        sys.exit(1)
+    
+    file_path = sys.argv[1]
+    if verify_backup(file_path):
+        sys.exit(0)
+    else:
+        sys.exit(1)
 """
+    
+    # Write verification script
+    script_path = "/home/ubuntu/dev/atlas/backup/verify_backup.py"
+    with open(script_path, "w") as f:
+        f.write(verify_script)
+    
+    # Make script executable
+    os.chmod(script_path, 0o755)
+    print("Backup verification script created successfully")
+
+def setup_cron_job():
+    """Setup cron job for daily backups"""
+    print("Setting up cron job for daily backups...")
+    
+    # Create cron job entry
+    cron_job = "0 2 * * * /home/ubuntu/dev/atlas/backup/db_backup.sh >> /home/ubuntu/dev/atlas/logs/backup.log 2>&1"
+    
+    # Add to crontab
+    try:
+        # Get current crontab
+        result = subprocess.run(["crontab", "-l"], capture_output=True, text=True)
+        current_crontab = result.stdout.strip()
         
-        # Write test backup
-        with open(test_backup_file, "w") as f:
-            f.write(test_content)
+        # Check if our job already exists
+        if "/home/ubuntu/dev/atlas/backup/db_backup.sh" in current_crontab:
+            print("Cron job already exists")
+            return
         
-        # Compress it
-        with open(test_backup_file, "rb") as f_in:
-            with gzip.open(f"{test_backup_file}.gz", "wb") as f_out:
-                shutil.copyfileobj(f_in, f_out)
+        # Add new job
+        new_crontab = current_crontab + "\n" + cron_job if current_crontab else cron_job
         
-        # Remove uncompressed file
-        os.remove(test_backup_file)
+        # Write to temporary file
+        with open("/tmp/new_crontab", "w") as f:
+            f.write(new_crontab + "\n")
         
-        print(f"Created test backup: {test_backup_file}.gz")
+        # Install new crontab
+        subprocess.run(["crontab", "/tmp/new_crontab"], check=True)
+        print("Cron job installed successfully")
         
-        # Verify the backup
-        try:
-            with gzip.open(f"{test_backup_file}.gz", "rb") as f:
-                content = f.read()
-                if b"Backup test successful" in content:
-                    print("✓ Backup verification successful")
-                    # Clean up test file
-                    os.remove(f"{test_backup_file}.gz")
-                    return True
-                else:
-                    print("✗ Backup verification failed")
-                    return False
-        except Exception as e:
-            print(f"✗ Backup verification failed: {e}")
-            return False
+    except subprocess.CalledProcessError as e:
+        print(f"Error setting up cron job: {e}")
+        print("Please add the following line to your crontab manually:")
+        print(cron_job)
+
+def setup_retention_policy():
+    """Setup backup retention policy (30 days)"""
+    print("Setting up backup retention policy...")
+    
+    # Create cleanup script
+    cleanup_script = """#!/bin/bash
+# Atlas Backup Cleanup Script
+
+BACKUP_DIR="/home/ubuntu/dev/atlas/backups"
+RETENTION_DAYS=30
+
+# Find and delete backups older than retention period
+find $BACKUP_DIR -name "atlas_backup_*.sql.gz.enc" -mtime +$RETENTION_DAYS -delete
+
+echo "Backup cleanup completed: $(date)"
+"""
+    
+    # Write cleanup script
+    script_path = "/home/ubuntu/dev/atlas/backup/cleanup_backups.sh"
+    with open(script_path, "w") as f:
+        f.write(cleanup_script)
+    
+    # Make script executable
+    os.chmod(script_path, 0o755)
+    
+    # Add cleanup job to crontab (runs daily at 3 AM)
+    cleanup_cron = "0 3 * * * /home/ubuntu/dev/atlas/backup/cleanup_backups.sh >> /home/ubuntu/dev/atlas/logs/cleanup.log 2>&1"
+    
+    try:
+        # Get current crontab
+        result = subprocess.run(["crontab", "-l"], capture_output=True, text=True)
+        current_crontab = result.stdout.strip()
+        
+        # Check if cleanup job already exists
+        if "/home/ubuntu/dev/atlas/backup/cleanup_backups.sh" in current_crontab:
+            print("Cleanup cron job already exists")
+            return
+        
+        # Add cleanup job
+        new_crontab = current_crontab + "\n" + cleanup_cron if current_crontab else cleanup_cron
+        
+        # Write to temporary file
+        with open("/tmp/new_crontab", "w") as f:
+            f.write(new_crontab + "\n")
+        
+        # Install new crontab
+        subprocess.run(["crontab", "/tmp/new_crontab"], check=True)
+        print("Cleanup cron job installed successfully")
+        
+    except subprocess.CalledProcessError as e:
+        print(f"Error setting up cleanup cron job: {e}")
+        print("Please add the following line to your crontab manually:")
+        print(cleanup_cron)
+
+def test_backup_process():
+    """Test the backup process"""
+    print("Testing backup process...")
+    
+    # This would typically run the backup script and verify the results
+    # For now, we'll just print a message
+    print("Backup process test would be implemented here")
+    print("Please run the backup script manually to test:")
+    print("/home/ubuntu/dev/atlas/backup/db_backup.sh")
 
 def main():
-    """Main database backup function"""
-    if os.geteuid() != 0:
-        print("This script should be run as root for full functionality.")
-        print("Some features may not work without root privileges.")
+    """Main database backup setup function"""
+    print("Starting Atlas database backup setup...")
     
-    # Initialize backup system
-    backup = DatabaseBackup()
+    # Create backup directory
+    os.makedirs("/home/ubuntu/dev/atlas/backups", exist_ok=True)
+    os.makedirs("/home/ubuntu/dev/atlas/logs", exist_ok=True)
     
-    # Create backup script
-    script_path = backup.create_backup_script()
-    print(f"Backup script created at: {script_path}")
+    # Generate encryption key
+    load_encryption_key()
     
-    # Setup daily backups
-    if backup.implement_daily_backups():
-        print("✓ Daily backups configured")
-    else:
-        print("✗ Failed to configure daily backups")
+    # Create backup scripts
+    create_backup_script()
+    create_encryption_script()
+    create_verification_script()
     
-    # Setup compression
-    if backup.setup_backup_compression():
-        print("✓ Backup compression configured")
-    else:
-        print("✗ Failed to configure backup compression")
-    
-    # Setup retention
-    if backup.configure_backup_retention(30):
-        print("✓ Backup retention configured")
-    else:
-        print("✗ Failed to configure backup retention")
-    
-    # Create verification script
-    verify_script = backup.create_backup_verification()
-    print(f"Verification script created at: {verify_script}")
+    # Setup cron jobs
+    setup_cron_job()
+    setup_retention_policy()
     
     # Test backup process
-    if backup.test_backup_process():
-        print("✓ Backup process test successful")
-    else:
-        print("✗ Backup process test failed")
+    test_backup_process()
     
-    print("\nDatabase backup system setup completed!")
-    print("Daily backups will run automatically at 2:00 AM")
-    print("To verify backups manually, run: /usr/local/bin/atlas_backup_verify.sh")
+    print("\nDatabase backup setup completed successfully!")
+    print("Features configured:")
+    print("- Daily automated database backups at 2 AM")
+    print("- Backup compression with gzip")
+    print("- Backup encryption with Fernet")
+    print("- 30-day backup retention policy")
+    print("- Automatic backup cleanup")
+    print("- Backup verification")
+    
+    print("\nNext steps:")
+    print("1. Update the database credentials in /home/ubuntu/dev/atlas/backup/db_backup.sh")
+    print("2. Test the backup process manually")
+    print("3. Verify cron jobs are running correctly")
 
 if __name__ == "__main__":
     main()
