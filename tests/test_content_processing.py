@@ -97,39 +97,35 @@ def test_enhanced_summarizer():
         return False
 
 def test_topic_clusterer():
-    """Test the topic clusterer"""
-    print("Testing Topic Clusterer...")
+    """Test the multi-perspective summarizer (formerly topic clusterer)"""
+    print("Testing Multi-Perspective Summarizer...")
     
     try:
-        from content.topic_clusterer import TopicClusterer
+        from content.topic_clusterer import MultiPerspectiveSummarizer
         
-        # Create clusterer
-        clusterer = TopicClusterer()
+        # Create summarizer
+        summarizer = MultiPerspectiveSummarizer()
         
-        # Test document addition
-        documents = [
-            {
-                'id': 'doc1',
-                'content': 'Python is a high-level programming language with dynamic semantics.'
-            },
-            {
-                'id': 'doc2',
-                'content': 'Machine learning is a subset of artificial intelligence.'
-            }
-        ]
+        # Test multi-perspective summarization
+        content = "Python is a high-level programming language with dynamic semantics. It is used for web development, data science, and automation. Python has a simple syntax similar to English, making it easy to learn. The language supports multiple programming paradigms, including procedural, object-oriented, and functional programming."
         
-        clusterer.add_documents(documents)
-        assert len(clusterer.documents) == 2
+        # Test different perspectives
+        perspectives = ['technical', 'business', 'academic']
+        summaries = summarizer.summarize_multiple_perspectives(content, perspectives, summary_length=2)
         
-        # Test clustering
-        clusters = clusterer.cluster_documents()
-        assert isinstance(clusters, list)
+        assert isinstance(summaries, dict)
+        assert len(summaries) == len(perspectives)
         
-        print("✅ Topic Clusterer test passed!")
+        for perspective in perspectives:
+            assert perspective in summaries
+            assert isinstance(summaries[perspective], str)
+            assert len(summaries[perspective]) > 0
+        
+        print("✅ Multi-Perspective Summarizer test passed!")
         return True
         
     except Exception as e:
-        print(f"❌ Topic Clusterer test failed: {e}")
+        print(f"❌ Multi-Perspective Summarizer test failed: {e}")
         return False
 
 def test_smart_recommender():

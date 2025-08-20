@@ -7,15 +7,15 @@ generating summaries from different viewpoints and angles.
 """
 
 import re
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Set, Optional, Tuple
 from collections import defaultdict, Counter
 import math
 
 class MultiPerspectiveSummarizer:
-    \"\"\"Multi-perspective content summarizer\"\"\"
+    """Multi-perspective content summarizer"""
     
     def __init__(self):
-        \"\"\"Initialize the multi-perspective summarizer\"\"\"
+        """Initialize the multi-perspective summarizer"""
         self.perspectives = {
             'technical': self._technical_perspective,
             'business': self._business_perspective,
@@ -30,7 +30,7 @@ class MultiPerspectiveSummarizer:
     def summarize_multiple_perspectives(self, content: str, 
                                      perspectives: List[str] = None,
                                      summary_length: int = 3) -> Dict[str, str]:
-        \"\"\"
+        """
         Generate summaries from multiple perspectives
         
         Args:
@@ -40,7 +40,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             Dict[str, str]: Summaries by perspective
-        \"\"\"
+        """
         if perspectives is None:
             perspectives = list(self.perspectives.keys())
         
@@ -59,7 +59,7 @@ class MultiPerspectiveSummarizer:
         return summaries
     
     def _technical_perspective(self, content: str, summary_length: int) -> str:
-        \"\"\"
+        """
         Generate technical perspective summary
         
         Args:
@@ -68,7 +68,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             str: Technical perspective summary
-        \"\"\"
+        """
         # Extract technical terms and concepts
         technical_terms = self._extract_technical_terms(content)
         
@@ -102,7 +102,7 @@ class MultiPerspectiveSummarizer:
         return f"[Technical Perspective] {summary}"
     
     def _business_perspective(self, content: str, summary_length: int) -> str:
-        \"\"\"
+        """
         Generate business perspective summary
         
         Args:
@@ -111,7 +111,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             str: Business perspective summary
-        \"\"\"
+        """
         # Extract business-related terms
         business_terms = self._extract_business_terms(content)
         
@@ -145,7 +145,7 @@ class MultiPerspectiveSummarizer:
         return f"[Business Perspective] {summary}"
     
     def _academic_perspective(self, content: str, summary_length: int) -> str:
-        \"\"\"
+        """
         Generate academic perspective summary
         
         Args:
@@ -154,7 +154,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             str: Academic perspective summary
-        \"\"\"
+        """
         # Extract academic-related terms
         academic_terms = self._extract_academic_terms(content)
         
@@ -188,7 +188,7 @@ class MultiPerspectiveSummarizer:
         return f"[Academic Perspective] {summary}"
     
     def _casual_perspective(self, content: str, summary_length: int) -> str:
-        \"\"\"
+        """
         Generate casual perspective summary
         
         Args:
@@ -197,7 +197,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             str: Casual perspective summary
-        \"\"\"
+        """
         # Split into sentences
         sentences = self._split_into_sentences(content)
         
@@ -229,7 +229,7 @@ class MultiPerspectiveSummarizer:
         return f"[Casual Perspective] {summary}"
     
     def _critical_perspective(self, content: str, summary_length: int) -> str:
-        \"\"\"
+        """
         Generate critical perspective summary
         
         Args:
@@ -238,7 +238,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             str: Critical perspective summary
-        \"\"\"
+        """
         # Extract critical terms
         critical_terms = self._extract_critical_terms(content)
         
@@ -272,7 +272,7 @@ class MultiPerspectiveSummarizer:
         return f"[Critical Perspective] {summary}"
     
     def _positive_perspective(self, content: str, summary_length: int) -> str:
-        \"\"\"
+        """
         Generate positive perspective summary
         
         Args:
@@ -281,7 +281,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             str: Positive perspective summary
-        \"\"\"
+        """
         # Extract positive terms
         positive_terms = self._extract_positive_terms(content)
         
@@ -315,7 +315,7 @@ class MultiPerspectiveSummarizer:
         return f"[Positive Perspective] {summary}"
     
     def _negative_perspective(self, content: str, summary_length: int) -> str:
-        \"\"\"
+        """
         Generate negative perspective summary
         
         Args:
@@ -324,7 +324,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             str: Negative perspective summary
-        \"\"\"
+        """
         # Extract negative terms
         negative_terms = self._extract_negative_terms(content)
         
@@ -358,7 +358,7 @@ class MultiPerspectiveSummarizer:
         return f"[Negative Perspective] {summary}"
     
     def _neutral_perspective(self, content: str, summary_length: int) -> str:
-        \"\"\"
+        """
         Generate neutral perspective summary
         
         Args:
@@ -367,7 +367,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             str: Neutral perspective summary
-        \"\"\"
+        """
         # Split into sentences
         sentences = self._split_into_sentences(content)
         
@@ -399,7 +399,7 @@ class MultiPerspectiveSummarizer:
         return f"[Neutral Perspective] {summary}"
     
     def _split_into_sentences(self, content: str) -> List[str]:
-        \"\"\"
+        """
         Split content into sentences
         
         Args:
@@ -407,14 +407,14 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             List[str]: List of sentences
-        \"\"\"
+        """
         # Simple sentence splitting (in a real implementation, use NLTK or similar)
         sentences = re.split(r'[.!?]+', content)
         sentences = [s.strip() for s in sentences if s.strip()]
         return sentences
     
     def _extract_technical_terms(self, content: str) -> List[str]:
-        \"\"\"
+        """
         Extract technical terms from content
         
         Args:
@@ -422,7 +422,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             List[str]: Extracted technical terms
-        \"\"\"
+        """
         # Common technical terms
         technical_terms = [
             'python', 'javascript', 'java', 'go', 'rust', 'c++', 'c#',
@@ -458,7 +458,7 @@ class MultiPerspectiveSummarizer:
         return list(set(found_terms))  # Remove duplicates
     
     def _extract_business_terms(self, content: str) -> List[str]:
-        \"\"\"
+        """
         Extract business terms from content
         
         Args:
@@ -466,7 +466,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             List[str]: Extracted business terms
-        \"\"\"
+        """
         # Common business terms
         business_terms = [
             'business', 'company', 'corporation', 'enterprise', 'startup',
@@ -498,7 +498,7 @@ class MultiPerspectiveSummarizer:
         return list(set(found_terms))  # Remove duplicates
     
     def _extract_academic_terms(self, content: str) -> List[str]:
-        \"\"\"
+        """
         Extract academic terms from content
         
         Args:
@@ -506,7 +506,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             List[str]: Extracted academic terms
-        \"\"\"
+        """
         # Common academic terms
         academic_terms = [
             'research', 'study', 'experiment', 'analysis', 'evaluation',
@@ -540,7 +540,7 @@ class MultiPerspectiveSummarizer:
         return list(set(found_terms))  # Remove duplicates
     
     def _extract_critical_terms(self, content: str) -> List[str]:
-        \"\"\"
+        """
         Extract critical terms from content
         
         Args:
@@ -548,7 +548,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             List[str]: Extracted critical terms
-        \"\"\"
+        """
         # Common critical terms
         critical_terms = [
             'problem', 'issue', 'challenge', 'difficulty', 'obstacle',
@@ -562,15 +562,15 @@ class MultiPerspectiveSummarizer:
             'complication', 'complexity', 'difficulty', 'trouble',
             'conflict', 'dispute', 'controversy', 'debate',
             'objection', 'opposition', 'resistance', 'rejection',
-            'critique', 'analysis', 'evaluation', 'assessment',
-            'scrutiny', 'inspection', 'examination', 'investigation',
+            'damage', 'harm', 'injury', 'loss', 'destruction',
+            'decline', 'decrease', 'reduction', 'drop',
             'skepticism', 'doubt', 'uncertainty', 'ambiguity',
             'inconsistency', 'contradiction', 'paradox', 'dilemma',
             'fallacy', 'logical error', 'reasoning flaw',
             'bias', 'prejudice', 'discrimination', 'stereotype',
             'inequality', 'injustice', 'unfairness', 'discrimination',
             'exploitation', 'abuse', 'misuse', 'violation',
-            'violation', 'breach', 'infringement', 'trespass'
+            'breach', 'infringement', 'trespass'
         ]
         
         # Find terms in content
@@ -580,7 +580,7 @@ class MultiPerspectiveSummarizer:
         return list(set(found_terms))  # Remove duplicates
     
     def _extract_positive_terms(self, content: str) -> List[str]:
-        \"\"\"
+        """
         Extract positive terms from content
         
         Args:
@@ -588,7 +588,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             List[str]: Extracted positive terms
-        \"\"\"
+        """
         # Common positive terms
         positive_terms = [
             'benefit', 'advantage', 'gain', 'improvement', 'enhancement',
@@ -621,7 +621,7 @@ class MultiPerspectiveSummarizer:
         return list(set(found_terms))  # Remove duplicates
     
     def _extract_negative_terms(self, content: str) -> List[str]:
-        \"\"\"
+        """
         Extract negative terms from content
         
         Args:
@@ -629,7 +629,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             List[str]: Extracted negative terms
-        \"\"\"
+        """
         # Common negative terms
         negative_terms = [
             'problem', 'issue', 'challenge', 'difficulty', 'obstacle',
@@ -651,7 +651,7 @@ class MultiPerspectiveSummarizer:
             'bias', 'prejudice', 'discrimination', 'stereotype',
             'inequality', 'injustice', 'unfairness', 'discrimination',
             'exploitation', 'abuse', 'misuse', 'violation',
-            'violation', 'breach', 'infringement', 'trespass'
+            'breach', 'infringement', 'trespass'
         ]
         
         # Find terms in content
@@ -661,7 +661,7 @@ class MultiPerspectiveSummarizer:
         return list(set(found_terms))  # Remove duplicates
     
     def _score_technical_relevance(self, sentence: str, technical_terms: List[str]) -> float:
-        \"\"\"
+        """
         Score sentence based on technical relevance
         
         Args:
@@ -670,7 +670,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             float: Technical relevance score
-        \"\"\"
+        """
         sentence_lower = sentence.lower()
         score = 0
         
@@ -686,7 +686,7 @@ class MultiPerspectiveSummarizer:
         return score
     
     def _score_business_relevance(self, sentence: str, business_terms: List[str]) -> float:
-        \"\"\"
+        """
         Score sentence based on business relevance
         
         Args:
@@ -695,7 +695,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             float: Business relevance score
-        \"\"\"
+        """
         sentence_lower = sentence.lower()
         score = 0
         
@@ -711,7 +711,7 @@ class MultiPerspectiveSummarizer:
         return score
     
     def _score_academic_relevance(self, sentence: str, academic_terms: List[str]) -> float:
-        \"\"\"
+        """
         Score sentence based on academic relevance
         
         Args:
@@ -720,7 +720,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             float: Academic relevance score
-        \"\"\"
+        """
         sentence_lower = sentence.lower()
         score = 0
         
@@ -736,7 +736,7 @@ class MultiPerspectiveSummarizer:
         return score
     
     def _is_casual_sentence(self, sentence: str) -> bool:
-        \"\"\"
+        """
         Check if sentence is casual/simple
         
         Args:
@@ -744,7 +744,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             bool: True if casual/simple
-        \"\"\"
+        """
         # Check sentence length
         words = re.findall(r'\b\w+\b', sentence)
         if len(words) > 20:  # Too long
@@ -777,7 +777,7 @@ class MultiPerspectiveSummarizer:
         return True  # Seems casual/simple
     
     def _score_readability(self, sentence: str) -> float:
-        \"\"\"
+        """
         Score sentence based on readability
         
         Args:
@@ -785,7 +785,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             float: Readability score
-        \"\"\"
+        """
         words = re.findall(r'\b\w+\b', sentence)
         if not words:
             return 0.0
@@ -803,7 +803,7 @@ class MultiPerspectiveSummarizer:
         return (word_score + length_score) / 2
     
     def _score_critical_relevance(self, sentence: str, critical_terms: List[str]) -> float:
-        \"\"\"
+        """
         Score sentence based on critical relevance
         
         Args:
@@ -812,7 +812,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             float: Critical relevance score
-        \"\"\"
+        """
         sentence_lower = sentence.lower()
         score = 0
         
@@ -828,7 +828,7 @@ class MultiPerspectiveSummarizer:
         return score
     
     def _score_positive_relevance(self, sentence: str, positive_terms: List[str]) -> float:
-        \"\"\"
+        """
         Score sentence based on positive relevance
         
         Args:
@@ -837,7 +837,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             float: Positive relevance score
-        \"\"\"
+        """
         sentence_lower = sentence.lower()
         score = 0
         
@@ -853,7 +853,7 @@ class MultiPerspectiveSummarizer:
         return score
     
     def _score_negative_relevance(self, sentence: str, negative_terms: List[str]) -> float:
-        \"\"\"
+        """
         Score sentence based on negative relevance
         
         Args:
@@ -862,7 +862,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             float: Negative relevance score
-        \"\"\"
+        """
         sentence_lower = sentence.lower()
         score = 0
         
@@ -878,7 +878,7 @@ class MultiPerspectiveSummarizer:
         return score
     
     def _is_neutral_sentence(self, sentence: str) -> bool:
-        \"\"\"
+        """
         Check if sentence is neutral in tone
         
         Args:
@@ -886,7 +886,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             bool: True if neutral
-        \"\"\"
+        """
         sentence_lower = sentence.lower()
         
         # Check for positive and negative terms
@@ -904,7 +904,7 @@ class MultiPerspectiveSummarizer:
         return False
     
     def _score_neutrality(self, sentence: str) -> float:
-        \"\"\"
+        """
         Score sentence based on neutrality
         
         Args:
@@ -912,7 +912,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             float: Neutrality score
-        \"\"\"
+        """
         sentence_lower = sentence.lower()
         
         # Extract positive and negative terms
@@ -932,7 +932,7 @@ class MultiPerspectiveSummarizer:
         return max(0.0, balance_score)
     
     def _calculate_centroid(self, documents: List[Dict]) -> Dict[str, float]:
-        \"\"\"
+        """
         Calculate centroid of a cluster of documents
         
         Args:
@@ -940,7 +940,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             Dict[str, float]: Centroid TF-IDF vector
-        \"\"\"
+        """
         if not documents:
             return {}
         
@@ -960,7 +960,7 @@ class MultiPerspectiveSummarizer:
         return dict(centroid)
     
     def _extract_cluster_keywords(self, documents: List[Dict]) -> List[str]:
-        \"\"\"
+        """
         Extract keywords representing a cluster
         
         Args:
@@ -968,7 +968,7 @@ class MultiPerspectiveSummarizer:
             
         Returns:
             List[str]: Cluster keywords
-        \"\"\"
+        """
         # Combine all terms from cluster documents
         all_terms = defaultdict(float)
         
@@ -982,55 +982,83 @@ class MultiPerspectiveSummarizer:
         
         return keywords
     
-    def get_clusters(self) -> List[Dict]:
-        \"\"\"
-        Get current clusters
-        
-        Returns:
-            List[Dict]: List of clusters
-        \"\"\"
-        return self.clusters
-    
-    def get_document_cluster(self, doc_id: str) -> Optional[Dict]:
-        \"\"\"
-        Get cluster for a specific document
+    def _find_similar_documents(self, target_doc: Dict, target_index: int) -> List[Dict]:
+        """
+        Find documents similar to target document
         
         Args:
-            doc_id (str): Document ID
+            target_doc (Dict): Target document
+            target_index (int): Index of target document
             
         Returns:
-            Optional[Dict]: Document cluster or None if not found
-        \"\"\"
-        for cluster in self.clusters:
-            if doc_id in cluster['documents']:
-                return cluster
+            List[Dict]: List of similar documents
+        """
+        similar_docs = []
         
-        return None
+        for i, doc in enumerate(self.documents):
+            if i == target_index or doc['cluster_id'] is not None:
+                continue
+            
+            # Calculate similarity
+            similarity = self._calculate_cosine_similarity(
+                target_doc['tfidf'], 
+                doc['tfidf']
+            )
+            
+            # If similarity above threshold, add to similar docs
+            if similarity >= self.similarity_threshold:
+                similar_docs.append(doc)
+        
+        return similar_docs
     
-    def get_cluster_statistics(self) -> Dict[str, Any]:
-        \"\"\"
-        Get clustering statistics
+    def _calculate_cosine_similarity(self, tfidf1: Dict[str, float], 
+                                   tfidf2: Dict[str, float]) -> float:
+        """
+        Calculate cosine similarity between two TF-IDF vectors
+        
+        Args:
+            tfidf1 (Dict[str, float]): First TF-IDF vector
+            tfidf2 (Dict[str, float]): Second TF-IDF vector
+            
+        Returns:
+            float: Cosine similarity (0-1)
+        """
+        # Get all terms
+        all_terms = set(tfidf1.keys()) | set(tfidf2.keys())
+        
+        if not all_terms:
+            return 0.0
+        
+        # Calculate dot product
+        dot_product = sum(tfidf1.get(term, 0) * tfidf2.get(term, 0) for term in all_terms)
+        
+        # Calculate magnitudes
+        magnitude1 = math.sqrt(sum(tfidf1.get(term, 0) ** 2 for term in all_terms))
+        magnitude2 = math.sqrt(sum(tfidf2.get(term, 0) ** 2 for term in all_terms))
+        
+        # Calculate cosine similarity
+        if magnitude1 == 0 or magnitude2 == 0:
+            return 0.0
+        
+        return dot_product / (magnitude1 * magnitude2)
+    
+    def _get_stop_words(self) -> Set[str]:
+        """
+        Get stop words for filtering
         
         Returns:
-            Dict[str, Any]: Clustering statistics
-        \"\"\"
-        if not self.clusters:
-            return {}
-        
-        cluster_sizes = [len(cluster['documents']) for cluster in self.clusters]
-        
+            Set[str]: Set of stop words
+        """
         return {
-            'total_documents': len(self.documents),
-            'total_clusters': len(self.clusters),
-            'avg_cluster_size': sum(cluster_sizes) / len(cluster_sizes),
-            'min_cluster_size': min(cluster_sizes),
-            'max_cluster_size': max(cluster_sizes),
-            'single_doc_clusters': len([c for c in cluster_sizes if c == 1]),
-            'multi_doc_clusters': len([c for c in cluster_sizes if c > 1])
+            'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 
+            'of', 'with', 'by', 'is', 'are', 'was', 'were', 'be', 'been', 'have', 
+            'has', 'had', 'do', 'does', 'did', 'will', 'would', 'could', 'should', 
+            'may', 'might', 'must', 'can', 'this', 'that', 'these', 'those', 'i', 
+            'you', 'he', 'she', 'it', 'we', 'they', 'me', 'him', 'her', 'us', 'them'
         }
 
 def main():
-    \"\"\"Example usage of TopicClusterer\"\"\"
+    """Example usage of TopicClusterer"""
     # Create clusterer
     clusterer = TopicClusterer()
     
@@ -1038,23 +1066,15 @@ def main():
     documents = [
         {
             'id': 'doc1',
-            'content': 'Python is a high-level programming language with dynamic semantics. It is used for web development, data science, and automation. Python has a simple syntax similar to English, making it easy to learn. The language supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python has a large standard library and a vibrant community that contributes to thousands of third-party modules and packages. Popular frameworks like Django and Flask make web development with Python straightforward. For data science, libraries like NumPy, Pandas, and Matplotlib provide powerful tools for analysis and visualization. Machine learning practitioners use Python with libraries like TensorFlow, PyTorch, and Scikit-learn. Python is also popular for automation tasks, scripting, and rapid prototyping. The language continues to evolve with regular updates and improvements to performance and features.'
+            'content': 'Python is a high-level programming language with dynamic semantics. It is used for web development, data science, and automation.'
         },
         {
             'id': 'doc2',
-            'content': 'Machine learning is a subset of artificial intelligence that provides systems the ability to automatically learn and improve from experience. It focuses on the development of computer programs that can access data and use it to learn for themselves. The process of learning begins with observations or data, such as examples, direct experience, or instruction, in order to look for patterns in data and make better decisions in the future based on the examples that we provide. The primary aim is to allow the computers learn automatically without human intervention or assistance and adjust actions accordingly.'
+            'content': 'Machine learning is a subset of artificial intelligence that provides systems the ability to automatically learn and improve from experience.'
         },
         {
             'id': 'doc3',
-            'content': 'Data science combines statistics, mathematics, and computer science to extract insights from data. It involves data cleaning, data analysis, and data visualization. Popular tools include Python and R. Data scientists use statistical methods to analyze large datasets and identify patterns. They create predictive models to forecast future trends. Data visualization helps communicate findings to stakeholders. The field requires skills in programming, statistics, and domain knowledge. Popular libraries include NumPy, Pandas, Matplotlib, and Scikit-learn. Career opportunities in data science are growing rapidly.'
-        },
-        {
-            'id': 'doc4',
-            'content': 'Web development involves creating websites and web applications. Frontend development focuses on user interfaces using HTML, CSS, and JavaScript. Backend development handles server-side logic using languages like Python, Java, or Node.js. Popular frameworks include Django and Flask for Python. Responsive design ensures websites work on all devices. Security is crucial for protecting user data. Performance optimization improves loading times. Testing ensures quality and reliability. Version control with Git helps track changes. Deployment involves putting applications on servers for public access.'
-        },
-        {
-            'id': 'doc5',
-            'content': 'Artificial intelligence is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and animals. Leading AI textbooks define the field as the study of "intelligent agents": any device that perceives its environment and takes actions that maximize its chance of successfully achieving its goals. Colloquially, the term "artificial intelligence" is often used to describe machines that mimic "cognitive" functions that humans associate with the human mind, such as "learning" and "problem solving". As machines become increasingly capable, tasks considered to require "intelligence" are often removed from the definition of AI, a phenomenon known as the AI effect. A quip in Tesler\'s Theorem says "AI is whatever hasn\'t been done yet."'
+            'content': 'Data science combines statistics, mathematics, and computer science to extract insights from data. It involves data cleaning, data analysis, and data visualization.'
         }
     ]
     
@@ -1070,17 +1090,6 @@ def main():
         print(f"\nCluster {cluster['id']}:")
         print(f"  Documents: {cluster['documents']}")
         print(f"  Keywords: {', '.join(cluster['keywords'])}")
-    
-    # Get statistics
-    stats = clusterer.get_cluster_statistics()
-    print(f"\nClustering Statistics:")
-    print(f"  Total Documents: {stats['total_documents']}")
-    print(f"  Total Clusters: {stats['total_clusters']}")
-    print(f"  Average Cluster Size: {stats['avg_cluster_size']:.2f}")
-    print(f"  Min Cluster Size: {stats['min_cluster_size']}")
-    print(f"  Max Cluster Size: {stats['max_cluster_size']}")
-    print(f"  Single Doc Clusters: {stats['single_doc_clusters']}")
-    print(f"  Multi Doc Clusters: {stats['multi_doc_clusters']}")
 
 if __name__ == "__main__":
     main()
