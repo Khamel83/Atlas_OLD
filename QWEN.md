@@ -155,6 +155,34 @@ The web interface is built with FastAPI and provides:
 - Write comprehensive docstrings
 - Implement robust error handling with logging
 
+### Configuration Management Rule
+
+**ALL user-configurable values MUST be in `.env`** - Never hardcode:
+- File paths, directories, URLs
+- API keys, credentials, tokens  
+- Timeouts, retry counts, limits
+- Feature flags, toggles
+- Any value that might need adjustment
+
+Always use `os.environ.get()` with sensible defaults and update `env.template` for new options.
+
+### Automated Block Execution (YOLO Mode)
+
+Atlas supports automated execution of Blocks 8-16 in sequence:
+
+```bash
+# Run automated block execution
+python scripts/automated_block_executor.py
+```
+
+**Strategic Commit Pattern**: For each block implementation:
+1. **Start commit**: Beginning of block implementation
+2. **Component commits**: After each major component (every 4-6 tasks)
+3. **Completion commit**: Block finished with context compacting
+4. **Push to branch**: `feat/automated-blocks` for automated execution
+
+**Context Management**: Systematically compact context between blocks to maintain focus and prevent token overflow during automated execution.
+
 ### Testing
 
 Atlas includes a comprehensive testing infrastructure:
@@ -179,14 +207,31 @@ As of January 2025, Atlas is a functional cognitive amplification platform with:
 
 The immediate focus is on documentation improvements, configuration streamlining, and advanced feature completion.
 
-## Next Steps
+## Current Development Priority: Automated Block Execution
 
-Based on the project roadmap, key areas for development include:
+**YOLO MODE EXECUTION**: Atlas is configured for automated execution of Blocks 8-16:
 
-1. **Infrastructure Stability**: Environment setup, testing infrastructure, and documentation accuracy
-2. **Advanced Features**: Full-text search, semantic search, and knowledge graph construction
-3. **Performance Optimization**: Caching, memory management, and concurrent processing
-4. **User Experience**: Simplified setup, better error messages, and enhanced web interface
+### Blocks Ready for Implementation:
+- **Block 8**: Personal Analytics Dashboard 
+- **Block 9**: Enhanced Search & Indexing
+- **Block 10**: Advanced Content Processing
+- **Block 11**: Cognitive Features
+- **Block 12**: Social Integration  
+- **Block 13**: Advanced Analytics
+- **Block 15**: Intelligent Metadata Discovery
+- **Block 16**: Newsletter & Email Integration ✅ (spec created)
+
+### Implementation Strategy:
+1. **Sequential Execution**: Implement blocks 8-16 in order
+2. **Strategic Commits**: Commit after each major component
+3. **Context Compacting**: Clear completed work from context between blocks
+4. **Branch Management**: Use `feat/automated-blocks` for automated execution
+5. **No Manual Intervention**: Designed to run continuously without stops
+
+### Expected Timeline:
+- **Automated Execution**: 3-5 days of continuous coding
+- **Final Review**: Comprehensive review after all blocks complete
+- **Production Ready**: Atlas fully featured after Block 16 completion
 
 ## Useful Commands
 
