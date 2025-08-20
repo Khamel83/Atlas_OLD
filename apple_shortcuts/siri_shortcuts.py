@@ -50,13 +50,20 @@ class SiriShortcut:
         if not isinstance(self.content_types, list):
             raise ValueError("Content types must be a list")
 
-        # Validate content types
-        valid_content_types = ["URL", "text", "voice", "image", "file"]
+        # Validate content types with expanded list
+        valid_content_types = ["URL", "text", "voice", "image", "file", "clipboard", "location", "contact"]
         for content_type in self.content_types:
             if content_type not in valid_content_types:
                 raise ValueError(
                     f"Invalid content type: {content_type}. Valid types: {valid_content_types}"
                 )
+
+        # Enhanced parameter validation
+        if len(self.name) > 100:
+            raise ValueError("Name must be 100 characters or less")
+        
+        if len(self.phrase) > 200:
+            raise ValueError("Phrase must be 200 characters or less")
 
         # Action-specific parameter validation
         if self.action == ActionType.LOG_ENTRY:

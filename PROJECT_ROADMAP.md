@@ -1,17 +1,19 @@
 # Atlas Project Roadmap
-*The Single Source of Truth for Atlas Development*
+*Updated Reality-Based Development Plan*
 
-**Last Updated**: January 2025  
-**Document Status**: Authoritative - All project planning references this document  
-**Project Phase**: Critical Implementation Phase
+**Last Updated**: August 20, 2025  
+**Document Status**: REPLACED BY `ATLAS_IMPLEMENTATION_STATUS.md`  
+**Project Phase**: Core Platform Complete, Enhancement Phase
 
 ## Executive Summary
 
-Atlas is a sophisticated local-first content ingestion and cognitive amplification platform that is **95% architecturally complete** but requires critical implementation work to bridge documentation and actual functionality. The system has excellent foundational architecture but needs focused development to deliver on its cognitive amplification promises.
+**IMPORTANT**: This document is being consolidated with `ATLAS_IMPLEMENTATION_STATUS.md` which contains the authoritative current status.
 
-**Current Status**: 4 critical implementation gaps block core cognitive features  
-**Estimated Resolution**: 57-89 hours of focused development (6-9 weeks)  
-**Next Milestone**: Fully functional cognitive amplification platform
+Atlas is a **successful local-first content ingestion platform** that has achieved its core mission of processing 3,495+ articles, 951+ podcasts, and comprehensive content management. The foundation is solid and operational with various enhancement modules at different stages of implementation.
+
+**Current Status**: Core platform fully operational, enhancement blocks at various stages  
+**Next Focus**: Validate and enhance existing framework components rather than build new features  
+**Core Achievement**: Comprehensive content processing pipeline complete
 
 ## Project Vision and Goals
 
@@ -29,74 +31,24 @@ Transform how users interact with and derive insights from their personal knowle
 4. **Extensible Platform**: Support plugins and custom integrations
 5. **User Empowerment**: Users maintain full control over their data and AI interactions
 
-## Current Status Summary
+## **REDIRECT TO AUTHORITATIVE STATUS**
 
-### ✅ What Works Today
+**This roadmap is being replaced by the authoritative implementation status.**
 
-#### **Core Ingestion Pipeline**
-- **Article Fetching** (`helpers/article_fetcher.py`) - 929 lines, multi-layered fallback system
-  - Direct HTTP requests → 12ft.io bypass → Archive.today → Googlebot spoofing → Playwright → Wayback Machine
-  - Content extraction using readability and BeautifulSoup
-  - Comprehensive metadata generation and retry queue integration
+**👉 For complete and accurate current status, see: `ATLAS_IMPLEMENTATION_STATUS.md`**
 
-- **YouTube Integration** (`helpers/youtube_ingestor.py`) - 545 lines, robust implementation
-  - Transcript extraction using youtube-transcript-api
-  - Video metadata extraction with fallback to yt-dlp
-  - Retry mechanisms for failed downloads
+The roadmap contained outdated and conflicting information. The new status document provides:
+- Accurate implementation levels for all blocks
+- Clear distinction between working code, framework stubs, and missing components  
+- Reality-based development priorities
+- Precise technical status for each module
 
-- **Podcast Processing** (`helpers/podcast_ingestor.py`) - 267 lines, complete implementation
-  - OPML parsing for podcast feeds
-  - Audio download and storage with transcription integration
-  - Episode metadata extraction and management
-
-#### **Supporting Infrastructure**
-- **Configuration Management** (`helpers/config.py`) - Environment and settings handling
-- **Safety Monitoring** (`helpers/safety_monitor.py`) - Pre-run safety checks
-- **Error Handling** (`helpers/error_handler.py`) - Centralized error management
-- **Path Management** (`helpers/path_manager.py`) - File organization and backup
-- **Retry System** (`helpers/retry_queue.py`) - Failed item recovery
-
-#### **Advanced Architecture**
-- **Base Ingestor** (`helpers/base_ingestor.py`) - Template method pattern for extensibility
-- **Metadata Manager** (`helpers/metadata_manager.py`) - Standardized metadata handling
-- **Article Strategies** (`helpers/article_strategies.py`) - Strategy pattern for content extraction
-- **Transcription System** - Multiple backends (OpenRouter, local Whisper, helpers)
-
-#### **Processing Pipeline**
-- **Content Categorization** (`helpers/categorize.py`) - Automatic content classification
-- **Evaluation System** (`process/evaluate.py`) - Content quality assessment
-- **Recategorization** (`process/recategorize.py`) - Dynamic content reorganization
-
-#### **Cognitive Amplification Foundation**
-- **Ask Subsystems** - All 5 core cognitive modules implemented:
-  - ProactiveSurfacer - Surfaces forgotten/stale content for review
-  - TemporalEngine - Finds time-aware relationships between content
-  - QuestionEngine - Generates Socratic questions for deeper thinking
-  - RecallEngine - Schedules spaced repetition for knowledge retention
-  - PatternDetector - Identifies patterns in tags and sources
-
-- **Web Dashboard** (`web/app.py`) - FastAPI-based interface with `/ask/html` endpoint
-- **API Endpoints** - RESTful access to all cognitive features
-
-### ✅ Resolved Implementation Gaps
-
-#### **1. MetadataManager Methods**
-**Status**: All previously identified "missing" methods (`get_forgotten_content()`, `get_all_metadata()`, `get_temporal_patterns()`, `get_recall_items()`, `get_tag_patterns()`) are now implemented in `helpers/metadata_manager.py`.
-**Impact**: This foundational component is now fully functional, providing the necessary data access for cognitive amplification features.
-
-#### **2. Ask Subsystem Integration**
-**Status**: The `ask` modules (`ProactiveSurfacer`, `TemporalEngine`, `QuestionEngine`, `RecallEngine`, `PatternDetector`) are correctly integrated with the `MetadataManager` and are utilizing its methods.
-**Impact**: The core cognitive features are now able to retrieve and process data as intended.
-
-#### **3. Web Dashboard Integration**
-**Status**: The web dashboard (`web/app.py`) is correctly importing and utilizing the `ask` modules. The routes are calling the appropriate methods.
-**Impact**: The web UI for cognitive features should now be functional, displaying data from the `ask` modules.
-
-### 🚨 Remaining Critical Implementation Gap
-
-#### **1. Configuration Documentation (2-4 hours)**
-**Status**: Setup instructions reference wrong paths/files  
-**Impact**: New users cannot run the system
+**Key Reality Updates:**
+- Core content processing (Blocks 1-3): ✅ **COMPLETE** 
+- Advanced blocks (15-16): ✅ **COMPLETE**
+- Enhancement blocks (8-10): 🔧 **BASIC IMPLEMENTATION**  
+- Framework blocks (4-7, 14): 📝 **CODE EXISTS, NEEDS TESTING**
+- Missing blocks (11-13): ❌ **NOT IMPLEMENTED**
 
 ## Implementation Phases
 
