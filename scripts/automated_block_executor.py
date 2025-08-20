@@ -20,7 +20,11 @@ def load_progress():
     progress_file = Path("block_execution_progress.json")
     if progress_file.exists():
         with open(progress_file, "r") as f:
-            return json.load(f)
+            progress = json.load(f)
+            # Ensure all required keys exist
+            if "blocks_completed" not in progress:
+                progress["blocks_completed"] = []
+            return progress
     return {
         "current_block": 8,
         "blocks_completed": [],
@@ -93,11 +97,13 @@ def setup_automation_branch():
     """Create and switch to automation branch"""
     print("🌿 Setting up automation branch...")
 
+    # Commit any pending changes first
+    execute_git_command("git add -A")
+    execute_git_command('git commit -m "WIP: Save changes before automated execution" || true')
+    
     # Create and checkout feature branch
     branch_name = "feat/automated-blocks"
-    if not execute_git_command(
-        f"git checkout -b {branch_name} || git checkout {branch_name}"
-    ):
+    if not execute_git_command(f"git checkout -b {branch_name} 2>/dev/null || git checkout {branch_name}"):
         print("⚠️ Using current branch instead")
 
     return True
