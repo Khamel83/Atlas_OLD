@@ -18,12 +18,14 @@ class BlockExecutor:
     def __init__(self):
         self.atlas_dir = Path('/home/ubuntu/dev/atlas')
         self.blocks = {
+            7: "Enhanced Apple Features",
             8: "Personal Analytics Dashboard",
             9: "Enhanced Search & Indexing", 
             10: "Advanced Content Processing",
-            11: "Cognitive Features",
-            12: "Social Integration",
-            13: "Advanced Analytics",
+            11: "Autonomous Discovery Engine",
+            12: "Enhanced Content Intelligence",
+            13: "Self-Optimizing Intelligence",
+            14: "Personal Production Hardening",
             15: "Intelligent Metadata Discovery",
             16: "Newsletter & Email Integration"
         }
@@ -90,7 +92,13 @@ class BlockExecutor:
     
     def execute_block_tasks(self, block_num):
         """Execute all tasks for a specific block"""
-        spec_file = self.atlas_dir / f'docs/specs/BLOCK_{block_num}_IMPLEMENTATION.md'
+        # Handle combined specification files
+        if block_num in [7, 8, 9, 10]:
+            spec_file = self.atlas_dir / 'docs/specs/BLOCKS_7-10_IMPLEMENTATION.md'
+        elif block_num in [11, 12, 13]:
+            spec_file = self.atlas_dir / 'docs/specs/BLOCKS_11-13_IMPLEMENTATION.md'
+        else:
+            spec_file = self.atlas_dir / f'docs/specs/BLOCK_{block_num}_IMPLEMENTATION.md'
         
         if not spec_file.exists():
             print(f"❌ No specification found for Block {block_num}")
@@ -116,7 +124,7 @@ class BlockExecutor:
         message = f"{self.blocks[block_num]} implementation complete - context compacted"
         return self.strategic_commit(message, block_num)
     
-    def run_automated_execution(self, start_block=8):
+    def run_automated_execution(self, start_block=7):
         """Run automated execution of all blocks"""
         print("🤖 Starting Automated Block Execution (YOLO Mode)")
         
@@ -130,7 +138,21 @@ class BlockExecutor:
             progress["started_at"] = time.time()
         
         # Execute blocks in sequence
+        # Only execute blocks for which we have specifications
+        available_blocks = []
         for block_num in sorted(self.blocks.keys()):
+            # Check if specification exists
+            if block_num in [7, 8, 9, 10]:
+                spec_file = self.atlas_dir / 'docs/specs/BLOCKS_7-10_IMPLEMENTATION.md'
+            elif block_num in [11, 12, 13]:
+                spec_file = self.atlas_dir / 'docs/specs/BLOCKS_11-13_IMPLEMENTATION.md'
+            else:
+                spec_file = self.atlas_dir / f'docs/specs/BLOCK_{block_num}_IMPLEMENTATION.md'
+            
+            if spec_file.exists():
+                available_blocks.append(block_num)
+        
+        for block_num in available_blocks:
             if block_num < start_block:
                 continue
                 
@@ -162,7 +184,7 @@ class BlockExecutor:
                 return False
         
         # Final completion commit
-        self.strategic_commit("All Blocks 8-16 completed - Atlas fully automated")
+        self.strategic_commit("All available Blocks completed - Atlas fully automated")
         print("\n🎉 ALL BLOCKS COMPLETED SUCCESSFULLY!")
         return True
 
@@ -182,8 +204,8 @@ def main():
             start_block = max(completed) + 1
             print(f"📍 Starting from Block {start_block} (previously completed: {completed})")
         else:
-            start_block = 8
-            print("📍 Starting fresh from Block 8")
+            start_block = 7
+            print("📍 Starting fresh from Block 7")
     
     # Run execution
     success = executor.run_automated_execution(start_block)
